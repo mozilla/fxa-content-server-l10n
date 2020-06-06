@@ -265,26 +265,108 @@ pay-update-change-btn = Change
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Want to keep using { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Your access to { $name } will continue, and your billing cycle
+    and payment will stay the same. Your next charge will be
+    { $amount } to the card ending in { $last } on { $endDate }.
+reactivate-confirm-button = Resubscribe
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = You cancelled your subscription on { $date }.
+reactivate-panel-copy = You will lose access to { $name } on <strong>{ $date }</strong>.
+reactivate-success-copy = Thanks! You're all set.
+reactivate-success-button = Close
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem loading subscriptions
+sub-item-missing-msg = Please try again later.
+sub-item-no-such-plan = No such plan for this subscription.
+sub-item-cancel-sub = Cancel Subscription
+sub-item-stay-sub = Stay Subscribed
+sub-item-cancel-msg =
+    You will no longer be able to use { $name } after
+    { $period }, the last day of your billing cycle.
+sub-item-cancel-confirm =
+    Cancel my access and my saved information within
+    { $name } on { $period }
+account-activated = Your account is activated, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Updating billing information...
+sub-route-idx-reactivating = Reactivating subscription failed
+sub-route-idx-cancel-failed = Cancelling subscription failed
+sub-route-idx-contact = Contact Support
+sub-route-idx-cancel-msg-title = We're sorry to see you go
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Your { $name } subscription has been cancelled.
+          <br />
+          You will still have access to { $name } until { $date }.
+sub-route-idx-cancel-aside = Have questions? Visit <a>{ -brand-name-mozilla } Support</a>.
+sub-subscription-error =
+    .title = Problem loading subscriptions
+sub-customer-error =
+    .title = Problem loading customer
+sub-billing-update-success = Your billing information has been updated successfully
 
 ## subscription create
 
+sub-guarantee = 30-day money-back guarantee
 
 ## plan-details
 
+plan-details-header = Product details
+plan-details-show-button = Show details
+plan-details-hide-button = Hide details
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Click here to download
+payment-confirmation-mobile-alert = Didn't open app? <a>Click Here</a>
+payment-confirmation-heading = Thank You { $displayName }!
+payment-confirmation-heading-bak = Thank You!
+payment-confirmation-subheading = A confirmation email has been sent to
+payment-confirmation-order-heading = Order details
+payment-confirmation-invoice-number = Invoice #{ $invoiceNumber }
+payment-confirmation-billing-heading = Billed to
+payment-confirmation-details-heading = Payment details
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } daily
+       *[other] { $amount } every { $intervalCount } days
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } weekly
+       *[other] { $amount } every { $intervalCount } weeks
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } monthly
+       *[other] { $amount } every { $intervalCount } months
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } yearly
+       *[other] { $amount } every { $intervalCount } years
+    }
+payment-confirmation-cc-preview = ending in { $last4 }
+payment-confirmation-download-button = Continue to download
