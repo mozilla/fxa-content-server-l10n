@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 17:58+0000\n"
+"PO-Revision-Date: 2020-06-05 17:53+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -244,7 +244,7 @@ msgstr "Ви успішно вимкнули двоетапну перевірк
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Обліковий запис Firefox підтверджено. Майже все готово."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -252,11 +252,11 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Ваші закладки, паролі та інші дані Firefox приватно синхронізуються на всіх ваших пристроях."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "Підʼєднати ще один пристрій"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
