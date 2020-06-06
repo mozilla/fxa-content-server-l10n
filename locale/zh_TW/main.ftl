@@ -13,9 +13,14 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = 關閉對話框
 
 ## app error dialog
 
+general-error-heading = 應用程式一般錯誤
+basic-error-message = 某些東西不對勁，請稍候再試一次。
+payment-error-1 = 取得款項授權時發生問題，請再試一次或與您的發卡單位聯繫。
 
 ## settings
 
