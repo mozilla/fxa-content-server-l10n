@@ -35,9 +35,13 @@ document =
 
 ## payment legal blurb
 
+payment-legal-link = Senqed <a>tasertit tabaḍnit n Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Isem ummid
+    .label = Isem akken yella deg tkarḍa-inek/inem
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
