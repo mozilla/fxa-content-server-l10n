@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-06 20:11+0000\n"
+"PO-Revision-Date: 2020-06-06 20:20+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -61,7 +61,7 @@ msgstr "다음 기기에서 Firefox Account의 비밀번호가 변경되었습�
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "자동으로 발송된 이메일입니다; 만약 Firefox Account 비밀번호를 재설정한 적이 없다면, %(resetLink)s 링크를 통해 즉시 재설정하세요"
+msgstr "자동으로 발송된 이메일입니다; 만약 Firefox Account에서 비밀번호를 변경한 적이 없다면, %(resetLink)s 링크를 통해 즉시 재설정하세요"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "자동으로 발송된 이메일입니다; 이 작업을 승인하지 않은 경우, <a %(passwordChangeLinkAttributes)s>비밀번호를 변경해주세요</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -577,7 +577,7 @@ msgstr "자동으로 발송된 이메일입니다; 만약 Firefox Account에 새
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "이는 자동 전송 메일입니다. 오류로 온 것이라면 아무 동작을 안해도 됩니다."
+msgstr "자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -705,7 +705,7 @@ msgstr ""
 
 #: lib/senders/email.js:764
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s의 로그인 코드"
 
 #: lib/senders/email.js:829
 msgid "Confirm primary email"
