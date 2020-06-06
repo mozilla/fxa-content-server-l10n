@@ -19,12 +19,18 @@ document =
 
 ## settings
 
+settings-home = Asebter agejdan n umiḍan
+settings-subscriptions = Ijerriden d lexlaṣ
 
 ## legal footer
 
+terms = Tiwtilin n useqdec
+privacy = Tasertit n tbaḍnit
 
 ## plan details
 
+product-plan-details-heading = Aha ad nesbadu ajerred-inek/inem
+product-plan-details-heading = Aha ad nesbadu ajerred-inek/inem
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
