@@ -55,6 +55,7 @@ product-plan-details-heading = 来设置订阅吧
 
 ## payment legal blurb
 
+payment-legal-link = 查看 <a>Stripe 的隐私政策</a>。
 
 ## payment form
 
@@ -77,24 +78,32 @@ payment-zip =
 
 payment-cancel-btn = 取消
 payment-update-btn = 更新
+payment-pay-btn = 现在付款
 payment-validate-name-error = 请输入您的名字
+payment-validate-zip-required = 须填写邮政编码
 payment-validate-zip-short = 邮政编码太短
 
 ## subscription redirect
 
+sub-redirect-ready = 您的订阅已就绪
 
 ## fields
 
+default-input-error = 此字段必填
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = 确认升级内容
 sub-update-title = 账单信息
+sub-update-card-ending = 卡尾号 { $last }
+sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = 确认升级
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -129,9 +138,15 @@ sub-item-stay-sub = 保持订阅
 ## subscription route index
 
 sub-route-idx-updating = 正在更新账单信息...
+sub-subscription-error =
+    .title = 加载订阅信息时出现问题
+sub-customer-error =
+    .title = 加载客户资料时出现问题
+sub-billing-update-success = 已成功更新账单信息
 
 ## subscription create
 
+sub-guarantee = 30 天退款保证
 
 ## plan-details
 
@@ -140,7 +155,13 @@ plan-details-hide-button = 隐藏详细信息
 
 ## payment confirmation
 
+payment-confirmation-heading = 感谢 { $displayName }！
+payment-confirmation-heading-bak = 感谢您！
+payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
+payment-confirmation-billing-heading = 付款人：
+payment-confirmation-details-heading = 付款详情
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = 卡号末四位: { $last4 }
 payment-confirmation-download-button = 前往下载
