@@ -36,9 +36,12 @@ privacy = Aviso de confidentialitate
 
 ## Product route
 
+product-plan-error =
+    .title = Problema cargante le planos
 product-profile-error =
     .title = Problema a cargar le profilo
 product-plan-not-found = Plano non trovate
+product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
