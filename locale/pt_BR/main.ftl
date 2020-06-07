@@ -81,19 +81,54 @@ sub-redirect-copy = Reserve um momento para nos contar sobre sua experiência.
 
 ## fields
 
+default-input-error = Este campo é obrigatório
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Confira sua atualização
+sub-update-failed = Falha na atualização do plano
+sub-update-card-ending = Cartão terminando em { $last }
+sub-update-card-exp = Validade { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Confirmar atualização
+sub-update-indicator =
+    .aria-label = indicador de atualização
+sub-update-current-plan-label = Plano atual
+sub-update-new-plan-label = Novo plano
+sub-update-total-label = Novo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } diariamente
+       *[other] { $amount } a cada { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } a cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensalmente
+       *[other] { $amount } a cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } a cada { $intervalCount } anos
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -103,13 +138,17 @@ sub-redirect-copy = Reserve um momento para nos contar sobre sua experiência.
 
 ##
 
+pay-update-card-exp = Expira em { $expirationDate }
+pay-update-change-btn = Alterar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Quer continuar usando o { $name }?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Fechar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
