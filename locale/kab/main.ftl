@@ -63,6 +63,9 @@ payment-name =
 
 ##
 
+payment-cancel-btn = Sefsex
+payment-update-btn = Leqqem
+payment-pay-btn = Sellek tura
 payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## subscription redirect
