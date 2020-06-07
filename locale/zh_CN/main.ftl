@@ -49,6 +49,29 @@ product-plan-details-heading = 来设置订阅吧
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每天收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 天收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每周收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 周收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [1] { $productName } 每个月收取 { $amount }
+       *[other] { $productName } 每 { $intervalCount } 个月收取 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName } 每 { $intervalCount } 年收取 { $amount }
+    }
 
 ## Product route
 
@@ -63,6 +86,7 @@ product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } 使用 Stripe 进行安全地处理付款事项。
 payment-legal-link = 查看 <a>Stripe 的隐私政策</a>。
 
 ## payment form
@@ -94,6 +118,8 @@ payment-validate-zip-short = 邮政编码太短
 ## subscription redirect
 
 sub-redirect-ready = 您的订阅已就绪
+sub-redirect-copy = 请花点时间告诉我们您的体验如何。
+sub-redirect-skip-survey = 不用了，请带我去看我的产品。
 
 ## fields
 
