@@ -49,6 +49,30 @@ product-plan-details-heading = Waš abonement konfigurować
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } so kóždy dźeń z { $amount } wobličuje
+        [two] { $productName } so kóždej { $intervalCount } dnjej z { $amount } wobličuje
+        [few] { $productName } so kóžde { $intervalCount } dny z { $amount } wobličuje
+       *[other] { $productName } so kóžde { $intervalCount } dnjow z { $amount } wobličuje
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } so kóždy tydźeń z { $amount } wobličuje
+        [two] { $productName } so kóždej { $intervalCount } njedźeli z { $amount } wobličuje
+        [few] { $productName } so kóžde { $intervalCount } njedźele z { $amount } wobličuje
+       *[other] { $productName } so kóžde { $intervalCount } njedźel z { $amount } wobličuje
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } so kóždy měsac z { $amount } wobličuje
+        [two] { $productName } so kóždej { $intervalCount } měsacaj z { $amount } wobličuje
+        [few] { $productName } so kóžde { $intervalCount } měsacy z { $amount } wobličuje
+       *[other] { $productName } so kóžde { $intervalCount } měsacow z { $amount } wobličuje
+    }
 
 ## Product route
 
