@@ -67,9 +67,12 @@ payment-cancel-btn = Sefsex
 payment-update-btn = Leqqem
 payment-pay-btn = Sellek tura
 payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
+payment-validate-zip-required = Tangalt n lpusṭa tettusra
+payment-validate-zip-short = Tangalt n lpusṭa meẓẓiy aṭas
 
 ## subscription redirect
 
+sub-redirect-ready = Ajerred-inek/inem yemmed
 
 ## fields
 
