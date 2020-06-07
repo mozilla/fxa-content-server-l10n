@@ -27,7 +27,7 @@ withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vi
 ## settings
 
 settings-home = Startside for kontoen
-settings-subscriptions = Abonnementer og betalinger
+settings-subscriptions = Abonnement og betalinger
 
 ## legal footer
 
