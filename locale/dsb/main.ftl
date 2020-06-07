@@ -159,7 +159,7 @@ sub-update-total-label = Nowa suma
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } kuždy źeń
-        [two] { $amount } kuždej { $intervalCount } dnjej
+        [two] { $amount } kuždej { $intervalCount } dnja
         [few] { $amount } kužde { $intervalCount } dny
        *[other] { $amount } kužde { $intervalCount } dnjow
     }
