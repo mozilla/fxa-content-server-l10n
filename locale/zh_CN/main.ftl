@@ -198,6 +198,30 @@ sub-update-total-label = 新方案金额
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] 每天 { $amount }
+       *[other] 每 { $intervalCount } 天 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] 每周 { $amount }
+       *[other] 每 { $intervalCount } 周 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] 每月 { $amount }
+       *[other] 每 { $intervalCount } 月 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] 每年{ $amount }
+       *[other] 每 { $intervalCount } 年 { $amount }
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -213,6 +237,7 @@ pay-update-change-btn = 更改
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = 是否要继续使用 { $name }？
 reactivate-confirm-button = 重新订阅
 
 ##  $date (Date) - Last day of product access
@@ -238,6 +263,7 @@ sub-route-idx-reactivating = 重新激活订阅失败
 sub-route-idx-cancel-failed = 订阅取消失败
 sub-route-idx-contact = 联系用户支持
 sub-route-idx-cancel-msg-title = 很抱歉看到您离开
+sub-route-idx-cancel-aside = 遇到问题？请访问 <a>{ -brand-name-mozilla } 用户支持</a>。
 sub-subscription-error =
     .title = 加载订阅信息时出现问题
 sub-customer-error =
@@ -258,14 +284,37 @@ plan-details-total-label = 总计
 ## payment confirmation
 
 payment-confirmation-alert = 点此下载
+payment-confirmation-mobile-alert = 应用程序没有打开？ <a>请点击此处</a>
 payment-confirmation-heading = 感谢 { $displayName }！
 payment-confirmation-heading-bak = 感谢您！
+payment-confirmation-subheading = 已将确认邮件发送至
 payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人：
 payment-confirmation-details-heading = 付款详情
+payment-confirmation-amount = 每 { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+       *[other] 每 { $intervalCount } 天 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+       *[other] 每 { $intervalCount } 周 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+       *[other] 每 { $intervalCount } 月 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+       *[other] 每 { $intervalCount } 年 { $amount }
+    }
 payment-confirmation-cc-preview = 卡号末四位: { $last4 }
 payment-confirmation-download-button = 前往下载
