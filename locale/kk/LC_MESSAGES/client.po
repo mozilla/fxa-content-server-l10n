@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-07 12:03+0000\n"
+"PO-Revision-Date: 2020-06-07 12:04+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -444,7 +444,7 @@ msgstr "Тарихы"
 
 #: .es5/models/sync-engines.js:66
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Логиндер және парольдер"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -600,7 +600,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Бұл эл. пошта тіркелгіңізде бұрыннан бар"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
