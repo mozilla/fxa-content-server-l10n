@@ -29,19 +29,50 @@ charge-exceeds-source-limit = Zda se, ako by wy z toś teju transakciju swój k�
 instant-payouts-unsupported = Zda se, ako njeby waša debitna kórta za płaśenja ned konfigurěrowana była. Wopytajśo drugu debitnu abo kreditnu kórtu.
 duplicate-transaction = Hmm. Zda se, ako by se identiska transakcija rowno pósłała. Pśeglědujśo swóju historiju płaśenjow.
 coupon-expired = Zda se, ako by promokod spadnuł.
+card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosym informacije swójeje kreditoweje kórty a wopytajśo hyšći raz.
 
 ## settings
 
+settings-home = Startowy bok konta
+settings-subscriptions = Abonementy a płaśenja
 
 ## legal footer
 
+terms = Wužywańske wuměnjenja
+privacy = Powěźeńka priwatnosći
 
 ## plan details
 
+product-plan-details-heading = Waš abonement konfigurěrowaś
+product-plan-details-heading = Waš abonement konfigurěrowaś
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se kuždy źeń z { $amount } woblicujo
+        [two] { $productName } se kuždej { $intervalCount } dnja z { $amount } woblicujo
+        [few] { $productName } se kužde { $intervalCount } dny z { $amount } woblicujo
+       *[other] { $productName } se kužde { $intervalCount } dnjow z { $amount } woblicujo
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se kuždy tyźeń z { $amount } woblicujo
+        [two] { $productName } se kuždej { $intervalCount } tyźenja z { $amount } woblicujo
+        [few] { $productName } se kužde { $intervalCount } tyźenje z { $amount } woblicujo
+       *[other] { $productName } se kužde { $intervalCount } tyźenjow z { $amount } woblicujo
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se kuždy mjasec z { $amount } woblicujo
+        [two] { $productName } se kuždej { $intervalCount } mjaseca z { $amount } woblicujo
+        [few] { $productName } se kužde { $intervalCount } mjasece z { $amount } woblicujo
+       *[other] { $productName } se kužde { $intervalCount } mjasecow z { $amount } woblicujo
+    }
 
 ## Product route
 
