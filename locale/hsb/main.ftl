@@ -146,6 +146,7 @@ payment-confirm-year =
         [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } lěta z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
        *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } lět z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
     }
+payment-confirm = Awtorizuju Mozilla, zhotowjerja produktow Firefox, po płaćenskich wuměnjenjach swoju płaćensku metodu kóžde <strong>{ $interval } z { $amount } $</strong> poćežić, doniž swój abonement njewupowědźu.
 
 ##
 
@@ -159,6 +160,8 @@ payment-validate-zip-short = Póstowe wodźenske čisło je překrótke
 ## subscription redirect
 
 sub-redirect-ready = Waš abonement je hotowy
+sub-redirect-copy = Prošu bjerće sej wokomik čas, zo byšće nam swoje nazhonjenja zdźělił.
+sub-redirect-skip-survey = Ně, dźakuju so, chcu jenož k swojemu produktej.
 
 ## fields
 
@@ -166,6 +169,7 @@ default-input-error = Tute polo je trěbne
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Přepruwujće swoju aktualizaciju
 sub-update-failed = Aktualizowanje plana njeje so poradźiło
 sub-update-title = Wotličenske informacije
 sub-update-card-ending = Karta kónči so na { $last }
