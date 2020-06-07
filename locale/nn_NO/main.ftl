@@ -25,23 +25,55 @@ payment-error-2 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv eit anna kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensa di. Prøv eit anna kort.
+charge-exceeds-source-limit = Det ser ut som denne transaksjonen vil overskride den daglege kredittgrensa di. Prøv eit anna kort eller om 24 timar.
 
 ## settings
 
+settings-home = Startside for kontoen
+settings-subscriptions = Abonnement og betalingar
 
 ## legal footer
 
 terms = Tenestevilkår
+privacy = Personvernerklæring
 
 ## plan details
 
+product-plan-details-heading = La oss setje opp abonnementet ditt
+product-plan-details-heading = La oss setje opp abonnementet ditt
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } vert fakturert { $amount } dagleg
+       *[other] { $productName } vert fakturert { $amount } kvar { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } vert fakturert { $amount } kvar veke
+       *[other] { $productName } vert fakturert { $amount } kvar { $intervalCount } veke
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } vert fakturert { $amount } månadleg
+       *[other] { $productName } vert fakturert  { $amount } kvar { $intervalCount } månad
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } vert fakturert  { $amount } årleg
+       *[other] { $productName } vert fakturert { $amount } kvart { $intervalCount } år
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problem med å laste planane dine
 
 ## payment legal blurb
 
