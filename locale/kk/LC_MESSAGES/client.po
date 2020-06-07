@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-07 04:58+0000\n"
+"PO-Revision-Date: 2020-06-07 12:03+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -175,11 +175,11 @@ msgstr "Бұл туралы естуге өкініштіміз. Егер ол �
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s шамасынан көп"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
-msgstr ""
+msgstr "Шолуды бастау"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -336,7 +336,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "%(serviceName)s қызметіне жалғастыру"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -396,7 +396,7 @@ msgstr "Көшірілді"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Көшіру сәтсіз аяқталды. Қолмен көшіріп алыңыз."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
@@ -416,23 +416,23 @@ msgstr "Тіркелгі сәтті расталды"
 
 #: .es5/models/support-form.js:25
 msgid "Payment & billing"
-msgstr ""
+msgstr "Төлем және есеп айырысу"
 
 #: .es5/models/support-form.js:25
 msgid "Account issues"
-msgstr ""
+msgstr "Тіркелгі мәселелері"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Техникалық мәселелер"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Кері байланыс беріңіз / мүмкіндіктерді сұраңыз"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Тізімде жоқ"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
