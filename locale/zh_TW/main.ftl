@@ -199,12 +199,60 @@ sub-update-total-label = 新方案金額
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [1] 每天 { $amount }
+       *[other] 每 { $intervalCount } 天 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [1] 每週 { $amount }
+       *[other] 每 { $intervalCount } 週 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [1] 每個月 { $amount }
+       *[other] 每 { $intervalCount } 個月 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [1] 每年 { $amount }
+       *[other] 每 { $intervalCount } 年 { $amount }
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [1] { $name } 將會每天收取 { $amount }。下次付款日為 { $date }。
+       *[other] { $name } 將會每隔 { $intervalCount } 天收取 { $amount }。下次付款日為 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [1] { $name } 將會每週收取 { $amount }。下次付款日為 { $date }。
+       *[other] { $name } 將會每隔 { $intervalCount } 週收取 { $amount }。下次付款日為 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [1] { $name } 將會每個月收取 { $amount }。下次付款日為 { $date }。
+       *[other] { $name } 將會每隔 { $intervalCount } 個月收取 { $amount }。下次付款日為 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [1] { $name } 將會每年收取 { $amount }。下次付款日為 { $date }。
+       *[other] { $name } 將會每隔 { $intervalCount } 年收取 { $amount }。下次付款日為 { $date }。
+    }
 
 ##
 
@@ -215,6 +263,10 @@ pay-update-change-btn = 變更
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = 想要繼續使用 { $name } 嗎？
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate }，對卡號末四碼為 { $last } 的卡片收取 { $amount }。
 reactivate-confirm-button = 重新訂閱
 
 ##  $date (Date) - Last day of product access
@@ -274,5 +326,29 @@ payment-confirmation-amount = 每 { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [1] 每天 { $amount }
+       *[other] 每 { $intervalCount } 天 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [1] 每週 { $amount }
+       *[other] 每 { $intervalCount } 週 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [1] 每個月 { $amount }
+       *[other] 每 { $intervalCount } 個月 { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [1] 每年 { $amount }
+       *[other] 每 { $intervalCount } 年 { $amount }
+    }
 payment-confirmation-cc-preview = 卡號末四碼: { $last4 }
 payment-confirmation-download-button = 前往下載
