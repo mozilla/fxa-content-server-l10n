@@ -74,12 +74,23 @@ year-based-plan-details-amount =
 
 product-plan-error =
     .title = Problem med å laste planane dine
+product-profile-error =
+    .title = Problem med å laste profil
+product-customer-error =
+    .title = Problem med å laste kunde
+product-plan-not-found = Fann ikkje planen
+product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } brukar Stripe for sikker betalingsprosessering.
+payment-legal-link = Les <a>personvernerklæringa til Stripes</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Fullt namn
+    .label = Namnet som det står på kortet ditt
 payment-ccn =
     .label = Kortnummer
 payment-cvc =
