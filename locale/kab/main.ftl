@@ -16,6 +16,7 @@ document =
 
 ## app error dialog
 
+basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 
 ## settings
 
