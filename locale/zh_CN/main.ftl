@@ -243,6 +243,7 @@ reactivate-confirm-button = 重新订阅
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = 您已于 { $date } 取消订阅。
+reactivate-panel-copy = 您将在<strong> { $date } </strong>失去对 { $name } 的访问权限。
 reactivate-success-button = 关闭
 
 ## subscription item
@@ -263,6 +264,12 @@ sub-route-idx-reactivating = 重新激活订阅失败
 sub-route-idx-cancel-failed = 订阅取消失败
 sub-route-idx-contact = 联系用户支持
 sub-route-idx-cancel-msg-title = 很抱歉看到您离开
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    您的 { $name } 订阅已被取消。
+          <br />
+          在 { $date } 之前，您仍然可以访问 { $name }。
 sub-route-idx-cancel-aside = 遇到问题？请访问 <a>{ -brand-name-mozilla } 用户支持</a>。
 sub-subscription-error =
     .title = 加载订阅信息时出现问题
