@@ -93,6 +93,8 @@ payment-name =
     .label = Namnet som det står på kortet ditt
 payment-ccn =
     .label = Kortnummer
+payment-exp =
+    .label = Går ut
 payment-cvc =
     .label = CVC
 payment-zip =
@@ -113,12 +115,20 @@ payment-validate-zip-short = Postnummeret er for kort
 ## subscription redirect
 
 sub-redirect-ready = Abonnementet ditt er klart
+sub-redirect-copy = Ta deg tid til å fortelje om opplevinga di.
+sub-redirect-skip-survey = Nei takk, ta meg til produktet mitt.
 
 ## fields
 
+default-input-error = Dette feltet er obligatorisk
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Gå gjennom oppgraderinga di
+sub-update-failed = Mislykka planoppdatering
+sub-update-title = Faktureringsinformasjon
+sub-update-card-ending = Kortet sluttar på { $last }
+sub-update-card-exp = Går ut { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -126,12 +136,20 @@ sub-redirect-ready = Abonnementet ditt er klart
 ##
 
 sub-update-submit = Stadfest oppgradering
+sub-update-indicator =
+    .aria-label = oppgraderingsindikator
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dagleg
+       *[other] { $amount } kvar { $intervalCount } dag
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
