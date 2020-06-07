@@ -58,7 +58,7 @@ month-based-plan-details-amount =
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureres { $amount } årlig
-       *[other] { $productName } faktureres { $amount } hver { $intervalCount } år
+       *[other] { $productName } faktureres { $amount } hvert { $intervalCount } år
     }
 
 ## Product route
