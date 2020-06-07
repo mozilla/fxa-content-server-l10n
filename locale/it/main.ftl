@@ -199,10 +199,12 @@ reactivate-success-button = Chiudi
 
 sub-item-missing = Errore nel caricamento degli abbonamenti
 sub-item-missing-msg = Riprova più tardi.
+sub-item-no-such-plan = Nessun piano di questo tipo per questo abbonamento.
 sub-item-cancel-sub = Annulla abbonamento
 sub-item-stay-sub = Resta abbonato
 sub-item-cancel-msg = Non potrai più utilizzare { $name } dopo il { $period }, ultimo giorno del tuo ciclo di fatturazione.
 sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate in { $name } il { $period }
+account-activated = Il tuo account è attivo, <userEl/>
 
 ## subscription route index
 
