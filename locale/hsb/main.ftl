@@ -174,6 +174,10 @@ sub-update-failed = Aktualizowanje plana njeje so poradźiło
 sub-update-title = Wotličenske informacije
 sub-update-card-ending = Karta kónči so na { $last }
 sub-update-card-exp = Spadnje { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Waš plan so hnydom změni, a za zbytk wotličenskeje periody so wam
+    přiměrjena suma wobličuje. Započinajo z { $startingDate }
+    so połna suma wobličuje.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
