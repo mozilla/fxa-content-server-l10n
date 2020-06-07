@@ -150,12 +150,48 @@ plan-price-day =
         [one] { $amount } dagleg
        *[other] { $amount } kvar { $intervalCount } dag
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } kvar veke
+       *[other] { $amount } kvar { $intervalCount } veke
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } kvar månad
+       *[other] { $amount } kvar { $intervalCount } månad
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } kvart år
+       *[other] { $amount } kvart { $intervalCount } år
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Du vert fakturert { $amount } dagleg for { $name }. Den neste betalinga di er den { $date }.
+       *[other] Du vert fakturert { $amount } kvar { $intervalCount } dag for { $name }. Den neste betalinga di er den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Du vert fakturert { $amount } kvar veke for { $name }. Den neste betalinga di er den { $date }.
+       *[other] Du vert fakturert { $amount } kvar { $intervalCount } veke for { $name }. Den neste betalinga di er den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Du vert fakturert { $amount } kvar månad for { $name }. Den neste betalinga di er den { $date }.
+       *[other] Du vert fakturert { $amount } kvar { $intervalCount } månad for { $name }. Den neste betalinga di er den { $date }.
+    }
 
 ##
 
