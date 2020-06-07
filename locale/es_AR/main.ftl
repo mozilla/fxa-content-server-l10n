@@ -222,14 +222,35 @@ reactivate-confirm-button = Resuscribir
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Se ha cancelado la suscripción el { $date }.
+reactivate-panel-copy = Se perderá acceso a { $name } el <strong>{ $date }</strong>.
+reactivate-success-copy = ¡Gracias! Está todo listo.
+reactivate-success-button = Cerrar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problemas cargando las suscripciones.
+sub-item-missing-msg = Probá de nuevo más tarde.
+sub-item-no-such-plan = No existe tal plan para esta suscripción.
+sub-item-cancel-sub = Cancelar suscripción
+sub-item-stay-sub = Mantener suscripción
+sub-item-cancel-msg =
+    No se podrá usar { $name } después de
+    { $period }, el último día del ciclo de facturación.
+sub-item-cancel-confirm =
+    Cancelar mi acceso y mi información guardada en
+    { $name } el { $period }
+account-activated = La cuenta está activada, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Actulizando informción de facturación...
+sub-route-idx-reactivating = Falló la reactivación de la suscripción
+sub-route-idx-cancel-failed = Falló la cancelación de la suscripción
+sub-route-idx-contact = Contactar soporte
+sub-route-idx-cancel-msg-title = Lamentamos que te vayas.
 
 ## subscription create
 
