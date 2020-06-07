@@ -196,18 +196,31 @@ plan-price-year =
 
 ##
 
+pay-update-card-exp = Spadnjo { $expirationDate }
+pay-update-change-btn = Změniś
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Cośo { $name } dalej wužywaś?
+reactivate-confirm-button = Abonement wótnowiś
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Sćo wupowěźeł { $date } swój abonement.
+reactivate-panel-copy = Zgubijośo <strong>{ $date }</strong> pśistup k { $name }.
+reactivate-success-copy = Wjeliki źěk! Sćo gótowy za start.
+reactivate-success-button = Zacyniś
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Zmólka pśi cytanju abonementow
+sub-item-missing-msg = Wopytajśo pšosym pózdźej hyšći raz.
+sub-item-no-such-plan = Žeden plan za toś ten abonement.
+sub-item-cancel-sub = Abonement wupowěźeś
+sub-item-stay-sub = Dalej aboněrowaś
 
 ## subscription route index
 
