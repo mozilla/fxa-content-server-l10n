@@ -127,22 +127,66 @@ payment-validate-zip-short = Postowa licba jo pśekrotka
 ## subscription redirect
 
 sub-redirect-ready = Waš abonement jo gótowy
+sub-redirect-copy = Pšosym bjeŕśo se wokognuśo cas, aby nam swóje nazgónjenja k wěsći dał.
+sub-redirect-skip-survey = Ně, źěkujom se, cu jano k swójomu produktoju.
 
 ## fields
 
+default-input-error = Toś to pólo jo trjebne
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Pśeglědujśo swóju aktualizaciju
+sub-update-failed = Aktualizěrowanje plana njejo se raźiło
+sub-update-title = Wótliceńske informacije
+sub-update-card-ending = Kórta kóńcy se na { $last }
+sub-update-card-exp = Spadnjo { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Aktualizaciju wobkšuśiś
+sub-update-current-plan-label = Aktualny plan
+sub-update-new-plan-label = Nowy plan
+sub-update-total-label = Nowa suma
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } kuždy źeń
+        [two] { $amount } kuždej { $intervalCount } dnjej
+        [few] { $amount } kužde { $intervalCount } dny
+       *[other] { $amount } kužde { $intervalCount } dnjow
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } kuždy tyźeń
+        [two] { $amount } kuždej { $intervalCount } tyźenja
+        [few] { $amount } kudźe { $intervalCount } tyźenje
+       *[other] { $amount } kužde { $intervalCount } tyźenjow
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } kuždy mjasec
+        [two] { $amount } kuždej { $intervalCount } mjaseca
+        [few] { $amount } kužde { $intervalCount } mjasece
+       *[other] { $amount } kužde { $intervalCount } mjasecow
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } kužde lěto
+        [two] { $amount } kuždej { $intervalCount } lěśe
+        [few] { $amount } kužde { $intervalCount } lěta
+       *[other] { $amount } kužde { $intervalCount } lět
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
