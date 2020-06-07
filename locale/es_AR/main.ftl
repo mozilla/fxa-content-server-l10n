@@ -5,8 +5,11 @@
 
 ## branding
 
+project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+document =
+    .title = Firefox Accounts
 
 ## general-aria
 
@@ -95,6 +98,8 @@ payment-ccn =
     .label = Número de tarjeta
 payment-exp =
     .label = Vencimiento
+payment-cvc =
+    .label = CVC
 payment-zip =
     .label = Código postal
 
