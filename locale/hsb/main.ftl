@@ -73,6 +73,14 @@ month-based-plan-details-amount =
         [few] { $productName } so kóžde { $intervalCount } měsacy z { $amount } wobličuje
        *[other] { $productName } so kóžde { $intervalCount } měsacow z { $amount } wobličuje
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } so kóžde lěto z { $amount } wobličuje
+        [two] { $productName } so kóždej { $intervalCount } lěće z { $amount } wobličuje
+        [few] { $productName } so kóžde { $intervalCount } lěta z { $amount } wobličuje
+       *[other] { $productName } so kóžde { $intervalCount } lět z { $amount } wobličuje
+    }
 
 ## Product route
 
