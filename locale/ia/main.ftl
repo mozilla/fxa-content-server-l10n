@@ -54,6 +54,8 @@ payment-exp =
     .label = Expiration
 payment-cvc =
     .label = CVC
+payment-zip =
+    .label = Codice postal
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -64,6 +66,8 @@ payment-cancel-btn = Cancellar
 payment-update-btn = Actualisar
 payment-pay-btn = Paga ora
 payment-validate-name-error = Insere tu nomine
+payment-validate-zip-required = Codice postal obligatori
+payment-validate-zip-short = Le codice postal es trop breve
 
 ## subscription redirect
 
@@ -74,6 +78,9 @@ default-input-error = Campo obligatori
 
 ## subscription upgrade
 
+sub-update-failed = Actualisation del plano fallite
+sub-update-title = informationes de facturation
+sub-update-card-ending = Carta finiente per { $last }
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,6 +98,24 @@ sub-update-total-label = Nove total
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } cata die
+       *[other] { $amount } cata { $intervalCount } dies
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } cata septimana
+       *[other] { $amount } cata { $intervalCount } septimanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } cata mense
+       *[other] { $amount } cata { $intervalCount }menses
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
