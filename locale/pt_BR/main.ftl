@@ -50,15 +50,34 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment form
 
+payment-name =
+    .placeholder = Nome completo
+    .label = Nome como aparece em seu cartão
+payment-ccn =
+    .label = Número do cartão
+payment-exp =
+    .label = Validade
+payment-cvc =
+    .label = Código de verificação CVC
+payment-zip =
+    .label = CEP
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Cancelar
+payment-update-btn = Atualizar
+payment-pay-btn = Pagar agora
+payment-validate-name-error = Digite seu nome
+payment-validate-zip-required = CEP é obrigatório
+payment-validate-zip-short = O CEP é muito curto
 
 ## subscription redirect
 
+sub-redirect-ready = Sua assinatura está pronta
+sub-redirect-copy = Reserve um momento para nos contar sobre sua experiência.
 
 ## fields
 
