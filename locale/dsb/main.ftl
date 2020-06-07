@@ -221,18 +221,52 @@ sub-item-missing-msg = Wopytajśo pšosym pózdźej hyšći raz.
 sub-item-no-such-plan = Žeden plan za toś ten abonement.
 sub-item-cancel-sub = Abonement wupowěźeś
 sub-item-stay-sub = Dalej aboněrowaś
+account-activated = Wašo konto jo zmóžnjone, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Wótliceńske informacije se aktualizěruju...
+sub-route-idx-reactivating = Zasejaktiwěrowanje abonementa jo se mimo kuliło
+sub-route-idx-cancel-failed = Wupowěźenje abonementa jo se mimo kuliło
+sub-route-idx-contact = Pomoc kontaktěrowaś
+sub-route-idx-cancel-msg-title = Jo nam luto, až nas spušćaśo
+sub-subscription-error =
+    .title = Zmólka pśi cytanju abonementow
+sub-customer-error =
+    .title = Zmólka pśi cytanju kupca
+sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje zaktualizěrowali
 
 ## subscription create
 
+sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
 
 ## plan-details
 
+plan-details-header = Produktowe drobnostki
+plan-details-show-button = Drobnostki pokazaś
+plan-details-hide-button = Drobnostki schowaś
+plan-details-total-label = Dogromady
 
 ## payment confirmation
 
+payment-confirmation-alert = Klikniśo how, aby ześěgnuł
+payment-confirmation-mobile-alert = Nałoženje se njewócynja? <a>Klikniśo how</a>
+payment-confirmation-heading = Wjeliki źěk, { $displayName }!
+payment-confirmation-heading-bak = Wjeliki źěk!
+payment-confirmation-subheading = Wobkšuśeńska mejlka jo se pósłała na
+payment-confirmation-order-heading = Skazańske drobnostki
+payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
+payment-confirmation-billing-heading = Zliceńka do
+payment-confirmation-details-heading = Płaśeńske drobnostki
+payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } kuždy źeń
+        [two] { $amount } kuždej { $intervalCount } dnja
+        [few] { $amount } kužde { $intervalCount } dny
+       *[other] { $amount } kužde { $intervalCount } dnjow
+    }
