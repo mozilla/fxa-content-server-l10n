@@ -181,6 +181,38 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu z <strong>{ $amount } kóždy dźeń</strong> poćežić, doniž swój abonement njewupowědźu.
+        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } dnjej z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.dnjej</strong> poćežić, doniž swój abonement njewupowědźu.
+        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } dny z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } dnjow z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždy tydźeń z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } njedźeli z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } njedźeli z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } njedźel z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždy měsac z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount }měsacaj z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } měsacy z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } měsacow z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde lěto z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } lěće z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } lěta z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } lět z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
+    }
 
 ##
 
@@ -247,6 +279,7 @@ reactivate-confirm-button = Abonoment wobnowić
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Sće { $date } swój abonement wupowědźił.
+reactivate-success-copy = Wulki dźak! Sće hotowy za start.
 reactivate-success-button = Začinić
 
 ## subscription item
@@ -269,6 +302,7 @@ sub-subscription-error =
     .title = Zmylk při čitanju abonementow
 sub-customer-error =
     .title = Zmylk při čitanju kupca
+sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zaktualizowali
 
 ## subscription create
 
