@@ -63,6 +63,7 @@ payment-name =
 
 ##
 
+payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## subscription redirect
 
