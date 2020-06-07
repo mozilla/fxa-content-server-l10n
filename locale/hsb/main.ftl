@@ -264,6 +264,22 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Dyrbiće kóždy dźen { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [two] Dyrbiće kóždej { $intervalCount } dnjej { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [few] Dyrbiće kóžde { $intervalCount } dny { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+       *[other] Dyrbiće kóžde { $intervalCount } dnjow { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Dyrbiće kóždy tydźeń { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [two] Dyrbiće kóždej { $intervalCount } njedźeli { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [few] Dyrbiće kóžde { $intervalCount } njedźele { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+       *[other] Dyrbiće kóžde { $intervalCount } njedźel { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+    }
 
 ##
 
