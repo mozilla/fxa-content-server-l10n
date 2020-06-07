@@ -84,12 +84,19 @@ payment-validate-zip-short = El código postal es demasiado corto.
 ## subscription redirect
 
 sub-redirect-ready = Tu suscripción está lista
+sub-redirect-copy = Por favor dedique un minuto para describirnos su experiencia.
+sub-redirect-skip-survey = No gracias, solo llévame a mi producto.
 
 ## fields
 
+default-input-error = Este campo es obligatorio
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Revisa tu actualización
+sub-update-failed = Ha fallado la actualización del plan
+sub-update-title = Información de facturación
+sub-update-card-ending = Tarjeta que termina en { $last }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
