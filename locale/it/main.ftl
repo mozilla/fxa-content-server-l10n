@@ -18,7 +18,14 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = Errore generale dell’applicazione
 basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
+expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
+insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
+withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
+charge-exceeds-source-limit = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta o attendi 24 ore.
+instant-payouts-unsupported = Questa carta di debito non risulta configurata per i pagamenti istantanei. Prova con un’altra carta di debito o di credito.
+coupon-expired = Il codice promozionale risulta scaduto.
 card-error = La transazione non può essere elaborata. Verifica i dati della tua carta di credito e riprova.
 
 ## settings
@@ -64,6 +71,8 @@ payment-exp =
     .label = Scadenza
 payment-cvc =
     .label = Codice CVC
+payment-zip =
+    .label = Codice postale
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -74,11 +83,14 @@ payment-cancel-btn = Annulla
 payment-update-btn = Aggiorna
 payment-pay-btn = Paga ora
 payment-validate-name-error = Inserisci il tuo nome
+payment-validate-zip-required = Il codice postale è obbligatorio
 payment-validate-zip-short = Il codice postale è troppo corto
 
 ## subscription redirect
 
 sub-redirect-ready = L’abbonamento è pronto
+sub-redirect-copy = Dedica qualche minuto per descriverci la tua esperienza.
+sub-redirect-skip-survey = No grazie, visualizza il mio prodotto.
 
 ## fields
 
@@ -91,6 +103,7 @@ sub-update-failed = Aggiornamento del piano non riuscito
 sub-update-title = Informazioni sulla fatturazione
 sub-update-card-ending = La carta termina con { $last }
 sub-update-card-exp = Scade il { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
