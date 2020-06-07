@@ -162,6 +162,7 @@ plan-price-year =
 
 ##
 
+pay-update-card-exp = Utløper { $expirationDate }
 pay-update-change-btn = Endre
 
 ## reactivate
