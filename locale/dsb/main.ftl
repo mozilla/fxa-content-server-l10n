@@ -73,24 +73,60 @@ month-based-plan-details-amount =
         [few] { $productName } se kužde { $intervalCount } mjasece z { $amount } woblicujo
        *[other] { $productName } se kužde { $intervalCount } mjasecow z { $amount } woblicujo
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se kužde lěto z { $amount } woblicujo
+        [two] { $productName } se kuždej { $intervalCount } lěśe z { $amount } woblicujo
+        [few] { $productName } se kužde { $intervalCount } lěta z { $amount } woblicujo
+       *[other] { $productName } se kužde { $intervalCount } lět z { $amount } woblicujo
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Zmólka pśi cytanju planow
+product-profile-error =
+    .title = Zmólka pśi cytanju profila
+product-customer-error =
+    .title = Zmólka pśi cytanju kupca
+product-plan-not-found = Plan njejo se namakał
+product-no-such-plan = Žeden plan za toś ten produkt.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } Stripe za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link = Cytajśo <a>pšawidła priwatnosći Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Dopołne mě
+    .label = Mě, kótarež se na wašej kórśe pokazujo
+payment-ccn =
+    .label = Kórtowy numer
+payment-exp =
+    .label = Datum spadnjenja
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Postowa licba
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Pśetergnuś
+payment-update-btn = Aktualizěrowaś
+payment-pay-btn = Něnto płaśiś
+payment-validate-name-error = Pšosym zapódajśo swójo mě
+payment-validate-zip-required = Postowa licba jo trjebna
+payment-validate-zip-short = Postowa licba jo pśekrotka
 
 ## subscription redirect
 
+sub-redirect-ready = Waš abonement jo gótowy
 
 ## fields
 
