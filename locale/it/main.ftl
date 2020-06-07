@@ -5,11 +5,16 @@
 
 ## branding
 
+project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+document =
+    .title = Firefox Accounts
 
 ## general-aria
 
+close-aria =
+    .aria-label = Chiudi finestra di dialogo
 
 ## app error dialog
 
