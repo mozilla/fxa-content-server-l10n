@@ -296,3 +296,23 @@ payment-confirmation-amount-day =
         [one] { $amount } diario
        *[other] { $amount } cada { $intervalCount } días
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } semanal
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+       *[other] { $amount } cada { $intervalCount } años
+    }
+payment-confirmation-cc-preview = terminada en { $last4 }
+payment-confirmation-download-button = Continuar descargando
