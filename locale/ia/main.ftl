@@ -39,6 +39,12 @@ day-based-plan-details-amount =
         [one] { $productName } facturava { $amount } cata die
        *[other] { $productName } facturava { $amount } cata { $intervalCount } dies
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturava { $amount } cata septimana
+       *[other] { $productName } facturava { $amount } cata { $intervalCount } septimanas
+    }
 
 ## Product route
 
@@ -77,6 +83,7 @@ payment-validate-zip-short = Le codice postal es trop breve
 
 ## subscription redirect
 
+sub-redirect-ready = Tu abonamento es preste
 
 ## fields
 
