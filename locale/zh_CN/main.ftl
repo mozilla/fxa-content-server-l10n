@@ -228,6 +228,30 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [1] { $name } 将会每天收取 { $amount }。下次付款日为 { $date }。
+       *[other] { $name } 将会每隔 { $intervalCount } 天收取 { $amount }。下次付款日为 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [1] { $name } 将会每周收取 { $amount }。下次付款日为 { $date }。
+       *[other] { $name } 将会每隔 { $intervalCount } 周收取 { $amount }。下次付款日为 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [1] { $name } 将会每月收取 { $amount }。下次付款日为 { $date }。
+       *[other] { $name } 将会每隔 { $intervalCount } 月收取 { $amount }。下次付款日为 { $date }。
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [1] { $name } 将会每年收取 { $amount }。下次付款日为 { $date }。{ $name } 将会每隔 { $intervalCount } 天收取 { $amount }。下次付款日为 { $date }。
+       *[other] { $name } 将会每隔 { $intervalCount } 年收取 { $amount }。下次付款日为 { $date }。
+    }
 
 ##
 
@@ -238,12 +262,17 @@ pay-update-change-btn = 更改
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = 是否要继续使用 { $name }？
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = 您可继续访问 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate }，对尾号为 { $last } 的卡收取 { $amount }。
 reactivate-confirm-button = 重新订阅
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = 您已于 { $date } 取消订阅。
 reactivate-panel-copy = 您将在<strong> { $date } </strong>失去对 { $name } 的访问权限。
+reactivate-success-copy = 谢谢！全都搞定了。
 reactivate-success-button = 关闭
 
 ## subscription item
@@ -255,6 +284,7 @@ sub-item-missing-msg = 请稍后再试。
 sub-item-no-such-plan = 该订阅无此类方案。
 sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
+sub-item-cancel-msg = 在账单最后一天（{ $date }）之后，将无法继续使用 { $name }。
 account-activated = 您的账户已激活，<userEl/>
 
 ## subscription route index
