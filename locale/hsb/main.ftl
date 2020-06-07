@@ -337,7 +337,7 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój přistup a moje w { $name }
     składowane informacije wotstronić
-account-activated = Waše onto jo zmóžnjene, <userEl/>
+account-activated = Waše konto je zmóžnjene, <userEl/>
 
 ## subscription route index
 
