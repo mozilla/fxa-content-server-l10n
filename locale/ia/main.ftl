@@ -33,6 +33,12 @@ privacy = Aviso de confidentialitate
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturava { $amount } cata die
+       *[other] { $productName } facturava { $amount } cata { $intervalCount } dies
+    }
 
 ## Product route
 
