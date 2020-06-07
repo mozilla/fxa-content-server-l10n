@@ -16,6 +16,8 @@ document =
 
 ## app error dialog
 
+general-error-heading = Erro geral na aplicação.
+basic-error-message = Algo deu errado. Tente novamente mais tarde.
 card-error = Não foi possível processar sua transação. Confira as informações do seu cartão de crédito e tente novamente.
 
 ## settings
@@ -23,9 +25,12 @@ card-error = Não foi possível processar sua transação. Confira as informaç�
 
 ## legal footer
 
+privacy = Aviso de privacidade
 
 ## plan details
 
+product-plan-details-heading = Vamos configurar sua assinatura
+product-plan-details-heading = Vamos configurar sua assinatura
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -33,6 +38,12 @@ card-error = Não foi possível processar sua transação. Confira as informaç�
 
 ## Product route
 
+product-plan-error =
+    .title = Problema ao carregar planos
+product-profile-error =
+    .title = Problema ao carregar perfil
+product-plan-not-found = Plano não encontrado
+product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
