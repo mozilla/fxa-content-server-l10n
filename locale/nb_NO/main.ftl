@@ -20,7 +20,7 @@ close-aria =
 
 general-error-heading = Generell applikasjonsfeil
 basic-error-message = Noe gikk galt. Prøv igjen senere.
-expired-card-error = Det ser ut som om at bankkortet ditt har utløpt. Prøv et annet kort.
+expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensen din. Prøv et annet kort.
 
