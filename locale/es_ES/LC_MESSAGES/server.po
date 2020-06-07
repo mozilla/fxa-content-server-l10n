@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-07 17:52+0000\n"
+"PO-Revision-Date: 2020-06-07 17:58+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -420,6 +420,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de $%(invoiceTotal)s en la tarjeta %(cardType)s que termina en %(lastFour)s el %(nextInvoiceDateOnly)s. Tu suscripción "
+"se renovará automáticamente en cada período de facturación a menos que elijas cancelarla."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -575,7 +577,7 @@ msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox al menos
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "O bien, instálalo en <a %(cadLinkAttributes)s>otro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -631,7 +633,7 @@ msgstr "Términos y política de cancelación"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reactivar suscripción"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -752,7 +754,7 @@ msgstr "Administrar cuenta"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Cuenta verificada. Ahora sincroniza otro dispositivo para finalizar la configuración"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
@@ -812,7 +814,7 @@ msgstr "Tu suscripción a %(productName)s ha sido cancelada"
 
 #: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Suscripción a %(productName)s reactivada"
 
 #: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
@@ -844,6 +846,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"No se ha encontrado la página que has solicitado. Hemos sido notificados y\n"
+"arreglaremos cualquier enlace que pueda estar roto."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -858,6 +862,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"¡Ups! Parece que hubo un problema. Nos ha llegado la notificación y\n"
+" estamos buscando una solución."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -872,6 +878,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Estamos ahora mismo bajo mucha presión y trabajando para\n"
+" restablecer el sistema lo antes posible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
