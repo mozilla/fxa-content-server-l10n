@@ -249,6 +249,35 @@ payment-confirmation-heading = Tusen takk { $displayName }!
 payment-confirmation-heading-bak = Tusen takk!
 payment-confirmation-subheading = Ein stadfestings e-post er sendt til
 payment-confirmation-order-heading = Ordredetaljar
+payment-confirmation-billing-heading = Faktura til:
+payment-confirmation-details-heading = Betalningsinformasjon
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } dagleg
+       *[other] { $amount } kvar { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } kvar veke
+       *[other] { $amount } kvar { $intervalCount } veke
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } kvar månad
+       *[other] { $amount } kvar { $intervalCount } månad
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } kvart år
+       *[other] { $amount } kvart { $intervalCount } år
+    }
+payment-confirmation-cc-preview = sluttar på { $last4 }
+payment-confirmation-download-button = Fortset til nedlasting
