@@ -178,6 +178,10 @@ reactivate-confirm-button = Abonner på nytt
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = Prøv igjen senere.
+sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
+sub-item-cancel-sub = Avbryt abonnement
+sub-item-stay-sub = Fortsett abonnementet
 
 ## subscription route index
 
