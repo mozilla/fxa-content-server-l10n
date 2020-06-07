@@ -24,6 +24,7 @@ payment-error-1 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Pr
 payment-error-2 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv eit anna kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
+withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensa di. Prøv eit anna kort.
 
 ## settings
 
