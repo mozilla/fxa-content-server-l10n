@@ -73,6 +73,7 @@ payment-validate-zip-short = Tangalt n lpusṭa meẓẓiy aṭas
 ## subscription redirect
 
 sub-redirect-ready = Ajerred-inek/inem yemmed
+sub-redirect-copy = Ma ulac aɣilif, mudd-d kra s wakud akken ad aɣ-d-temmeslayeḍ ɣef termit-inek/inem.
 
 ## fields
 
