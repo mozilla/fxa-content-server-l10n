@@ -18,7 +18,11 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = Generell applikasjonsfeil
 basic-error-message = Noko gjekk gale. Prøv igjen seinare.
+payment-error-1 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Prøv igjen eller kontakt kortutskrivaren din.
+payment-error-2 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
+expired-card-error = Det ser ut som om at bankkortet ditt hargått ut. Prøv eit anna kort.
 
 ## settings
 
