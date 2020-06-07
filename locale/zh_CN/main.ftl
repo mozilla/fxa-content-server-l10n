@@ -272,7 +272,7 @@ reactivate-confirm-button = 重新订阅
 
 reactivate-panel-date = 您已于 { $date } 取消订阅。
 reactivate-panel-copy = 您将在<strong> { $date } </strong>失去对 { $name } 的访问权限。
-reactivate-success-copy = 谢谢！全都搞定了。
+reactivate-success-copy = 处理完成，感谢！
 reactivate-success-button = 关闭
 
 ## subscription item
@@ -285,6 +285,7 @@ sub-item-no-such-plan = 该订阅无此类方案。
 sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
 sub-item-cancel-msg = 在账单最后一天（{ $date }）之后，将无法继续使用 { $name }。
+sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问权限与保存的所有信息
 account-activated = 您的账户已激活，<userEl/>
 
 ## subscription route index
