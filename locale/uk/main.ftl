@@ -247,6 +247,34 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Рахунок за { $name } розміром { $amount } виставляється щодня. Наступний платіж відбудеться { $date }.
+        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } дні. Наступний платіж відбудеться { $date }.
+       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } днів. Наступний платіж відбудеться { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Рахунок за { $name } розміром { $amount } виставляється щотижня. Наступний платіж відбудеться { $date }.
+        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } тижні. Наступний платіж відбудеться { $date }.
+       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } тижнів. Наступний платіж відбудеться { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Рахунок за { $name } розміром { $amount } виставляється щомісяця. Наступний платіж відбудеться { $date }.
+        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } місяці. Наступний платіж відбудеться { $date }.
+       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } місяців. Наступний платіж відбудеться { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Рахунок за { $name } розміром { $amount } виставляється щороку. Наступний платіж відбудеться { $date }.
+        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } роки. Наступний платіж відбудеться { $date }.
+       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } років. Наступний платіж відбудеться { $date }.
+    }
 
 ##
 
@@ -285,6 +313,7 @@ sub-item-stay-sub = Залишити передплату чинною
 sub-item-cancel-msg =
     Ви більше не зможете користуватися { $name } після
     { $period }, останній день вашого платіжного циклу.
+sub-item-cancel-confirm = Скасувати мій доступ до { $name } разом зі збереженими даними { $period }
 account-activated = Ваш обліковий запис активовано, <userEl/>
 
 ## subscription route index
