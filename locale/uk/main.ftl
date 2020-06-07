@@ -152,6 +152,7 @@ payment-validate-zip-short = Поштовий індекс закороткий
 
 sub-redirect-ready = Вашу передплату налаштовано
 sub-redirect-copy = Будь ласка, знайдіть хвилинку, щоб розповісти про свій досвід.
+sub-redirect-skip-survey = Ні, дякую, я хочу перейти до мого продукту.
 
 ## fields
 
@@ -159,8 +160,15 @@ default-input-error = Це поле обов'язкове
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Переглянути оновлення
+sub-update-failed = Помилка оновлення тарифного плану
+sub-update-title = Платіжна інформація
 sub-update-card-ending = Останні цифри номеру картки { $last }
 sub-update-card-exp = Термін дії закінчується { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Ваш тарифний план зміниться негайно і з вас буде стягнуто скориговану
+    суму за решту оновленого циклу передплати. Починаючи з { $startingDate }
+    з вас буде стягнуто повну суму.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -248,11 +256,21 @@ pay-update-change-btn = Змінити
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Хочете продовжувати використовувати { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Ваш доступ до { $name } буде продовжено, а ваші платіжний цикл та
+    оплата залишаться незмінними. Наступну оплату буде стягнено у розмірі
+    { $amount } з картки, останні цифри номеру якої { $last } на { $endDate }.
+reactivate-confirm-button = Поновити передплату
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Ви скасували передплату { $date }.
 reactivate-panel-copy = Ви втратите доступ до { $name } <strong>{ $date }</strong>.
+reactivate-success-copy = Дякуємо! Ви все налаштували.
 reactivate-success-button = Закрити
 
 ## subscription item
@@ -263,17 +281,41 @@ sub-item-missing = Не вдається завантажити передпла
 sub-item-missing-msg = Будь ласка, спробуйте знову пізніше.
 sub-item-no-such-plan = Такого тарифного плану для цієї передплати не існує.
 sub-item-cancel-sub = Скасувати передплату
+sub-item-stay-sub = Залишити передплату чинною
+sub-item-cancel-msg =
+    Ви більше не зможете користуватися { $name } після
+    { $period }, останній день вашого платіжного циклу.
+account-activated = Ваш обліковий запис активовано, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Оновлення платіжних даних...
+sub-route-idx-reactivating = Не вдалося поновити передплату
+sub-route-idx-cancel-failed = Не вдалося скасувати передплату
+sub-route-idx-contact = Звернутися до служби підтримки
+sub-route-idx-cancel-msg-title = Нам шкода, що ви йдете
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Вашу передплату { $name } було скасовано.
+          <br />
+          Ви все одно матимете доступ до { $name } до { $date }.
 sub-route-idx-cancel-aside = Маєте запитання? Відвідайте <a>підтримку { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Не вдалося завантажити передплати
+sub-customer-error =
+    .title = Не вдалося завантажити сторінку клієнта
+sub-billing-update-success = Ваші платіжні дані успішно оновлено
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = Докладніше про продукт
+plan-details-show-button = Докладніше
 plan-details-hide-button = Приховати подробиці
+plan-details-total-label = Всього
 
 ## payment confirmation
 
@@ -281,7 +323,11 @@ payment-confirmation-alert = Натисніть тут, щоб завантаж�
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
 payment-confirmation-heading = Дякуємо { $displayName }!
 payment-confirmation-heading-bak = Дякуємо!
+payment-confirmation-subheading = Електронний лист для підтвердження надіслано на адресу
 payment-confirmation-order-heading = Подробиці замовлення
+payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
+payment-confirmation-billing-heading = Оплата за
+payment-confirmation-details-heading = Подробиці оплати
 payment-confirmation-amount = { $amount } на { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
