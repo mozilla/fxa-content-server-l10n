@@ -306,11 +306,19 @@ pay-update-change-btn = Změnić
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Chceće { $name } dale wužiwać?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda
+    a waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
+    { $endDate } { $amount } wučini, za kartu, kotraž so na { $last } kónči.
 reactivate-confirm-button = Abonoment wobnowić
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Sće { $date } swój abonement wupowědźił.
+reactivate-panel-copy = Zhubiće <strong>{ $date }</strong> přistup k { $name }.
 reactivate-success-copy = Wulki dźak! Sće hotowy za start.
 reactivate-success-button = Začinić
 
@@ -323,13 +331,28 @@ sub-item-missing-msg = Prošu spytaj pozdźišo hišće raz.
 sub-item-no-such-plan = Žadyn plan za tutón abonement.
 sub-item-cancel-sub = Abonement wupowědźić
 sub-item-stay-sub = Dale abonować
+sub-item-cancel-msg =
+    Po { $period }, poslednim dnju swojeho wotličenskeje periody,
+    hižo njemóžeće { $name } wužiwać.
+sub-item-cancel-confirm =
+    { $period } mój přistup a moje w { $name }
+    składowane informacije wotstronić
 account-activated = Waše onto jo zmóžnjene, <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = Wotličenske informacije so aktualizuja...
+sub-route-idx-reactivating = Zasoaktiwizowanje abonementa je so nimokuliło
+sub-route-idx-cancel-failed = Wupowědźenje abonementa je so nimokuliło
 sub-route-idx-contact = Pomoc kontaktować
 sub-route-idx-cancel-msg-title = Je nam žel, zo nas wopušćeće
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Waš abonement za { $name } je so wupowědźił-
+          <br />
+          Maće hišće přistup k { $name } hač do { $date }.
+sub-route-idx-cancel-aside = Maće prašenja? Wopytajće <a>Pomoc { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Zmylk při čitanju abonementow
 sub-customer-error =
