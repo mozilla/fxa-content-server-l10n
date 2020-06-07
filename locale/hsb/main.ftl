@@ -245,7 +245,7 @@ plan-price-week =
 #  $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
-        [one] { $amount } kóždy měsać
+        [one] { $amount } kóždy měsac
         [two] { $amount } kóždej { $intervalCount } měsacaj
         [few] { $amount } kóžde { $intervalCount } měsacy
        *[other] { $amount } kóžde { $intervalCount } měsacow
