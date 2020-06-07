@@ -29,9 +29,13 @@ withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vi
 
 ## legal footer
 
+terms = Tjenestevilkår
+privacy = Personvernerklæring
 
 ## plan details
 
+product-plan-details-heading = La oss sette opp abonnementet ditt
+product-plan-details-heading = La oss sette opp abonnementet ditt
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
