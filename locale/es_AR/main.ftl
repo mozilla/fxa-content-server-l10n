@@ -137,23 +137,88 @@ sub-update-copy =
 
 ##
 
+sub-update-submit = Confirmar actualización
+sub-update-indicator =
+    .aria-label = indicador de actualización
+sub-update-current-plan-label = Plan actual
+sub-update-new-plan-label = Nuevo plan
+sub-update-total-label = Nuevo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } diario
+       *[other] { $amount } cada { $intervalCount } días
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } semanal
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+       *[other] { $amount } cada { $intervalCount } años
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Se facturan { $amount } diarios para { $name }. El próximo pago se produce el { $date }.
+       *[other] Se factura { $amount } cada { $intervalCount } días para { $name }. El próximo pago se produce el { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Se facturan { $amount } semanales para { $name }. El próximo pago se produce el { $date }.
+       *[other] Se facturan { $amount } cada { $intervalCount } semanas para { $name }. El próximo pago se produce el { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Se facturan { $amount } mensuales para { $name }. El próximo pago se produce el { $date }.
+       *[other] Se facturan { $amount } cada { $intervalCount } meses para { $name }. El próximo pago se produce el { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Se facturan { $amount } anuales para { $name }. El próximo pago se produce el { $date }.
+       *[other] Se facturan { $amount } cada { $intervalCount } años para { $name }. El próximo pago se produce el { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Vence { $expirationDate }
+pay-update-change-btn = Cambiar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ¿Querés seguir usando { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    El acceso a { $name } continuará y el ciclo de facturación
+    y pago se mantendrá igual. El próximo cargo será de
+    { $amount } a la tarjega que termina en { $last } el { $endDate }.
+reactivate-confirm-button = Resuscribir
 
 ##  $date (Date) - Last day of product access
 
