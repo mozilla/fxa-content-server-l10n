@@ -168,6 +168,7 @@ pay-update-change-btn = Endre
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vil du fortsette å bruke { $name }?
+reactivate-confirm-button = Abonner på nytt
 
 ##  $date (Date) - Last day of product access
 
