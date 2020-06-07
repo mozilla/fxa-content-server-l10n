@@ -192,6 +192,12 @@ pay-update-billing-description-month =
         [one] Du vert fakturert { $amount } kvar månad for { $name }. Den neste betalinga di er den { $date }.
        *[other] Du vert fakturert { $amount } kvar { $intervalCount } månad for { $name }. Den neste betalinga di er den { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Du vert fakturert { $amount } kvart år for { $name }. Den neste betalinga di er den { $date }.
+       *[other] Du vert fakturert { $amount } kvart { $intervalCount } år for { $name }. Den neste betalinga di er den { $date }.
+    }
 
 ##
 
@@ -202,9 +208,12 @@ pay-update-change-btn = Endre
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vil du halde fram med å bruke { $name }?
+reactivate-confirm-button = Abonner ein gong til
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Du avbraut abonnementet ditt den { $date }.
+reactivate-panel-copy = Du mistar tilgangen din til { $name } den <strong>{ $date }</strong>.
 reactivate-success-copy = Takk! Alt er no klappa og klart.
 reactivate-success-button = Lat att
 
@@ -212,7 +221,11 @@ reactivate-success-button = Lat att
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem med å laste abonnement
+sub-item-missing-msg = Prøv igjen seinare.
+sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 sub-item-cancel-sub = Avbryt abonnementet
+sub-item-stay-sub = Fortset abonnementet
 account-activated = Kontoen din er aktivert, <userEl/>
 
 ## subscription route index
