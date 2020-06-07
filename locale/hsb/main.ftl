@@ -280,6 +280,22 @@ pay-update-billing-description-week =
         [few] Dyrbiće kóžde { $intervalCount } njedźele { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
        *[other] Dyrbiće kóžde { $intervalCount } njedźel { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Dyrbiće kóždy měsac { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [two] Dyrbiće kóždej { $intervalCount } měsacaj { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [few] Dyrbiće kóžde { $intervalCount } měsacy { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+       *[other] Dyrbiće kóžde { $intervalCount } měsacow { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Dyrbiće kóžde lěto { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [two] Dyrbiće kóždej { $intervalCount } lěće { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [few] Dyrbiće kóžde { $intervalCount } lěta { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+       *[other] Dyrbiće kóžde { $intervalCount } lět { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+    }
 
 ##
 
