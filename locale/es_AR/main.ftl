@@ -251,15 +251,48 @@ sub-route-idx-reactivating = Falló la reactivación de la suscripción
 sub-route-idx-cancel-failed = Falló la cancelación de la suscripción
 sub-route-idx-contact = Contactar soporte
 sub-route-idx-cancel-msg-title = Lamentamos que te vayas.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    La suscripción a { $name } ha sido cancelda.
+          <br /><br />
+          Se podrá acceder a { $name } hasta el { $date }.
+sub-route-idx-cancel-aside = ¿Tenés preguntas? Visitá <a>{ -brand-name-mozilla } Soporte</a>.
+sub-subscription-error =
+    .title = Problemas cargando suscripciones
+sub-customer-error =
+    .title = Problemas cargando cliente
+sub-billing-update-success = La información de facturación se ha actualizado correctamente.
 
 ## subscription create
 
+sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## plan-details
 
+plan-details-header = Detalles del producto
+plan-details-show-button = Mostrar detalles
+plan-details-hide-button = Ocultar detalles
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Clic aquí para descargar
+payment-confirmation-mobile-alert = ¿No abre la aplicación? <a>Clic aquí</a>
+payment-confirmation-heading = ¡Gracias { $displayName }!
+payment-confirmation-heading-bak = ¡Gracias!
+payment-confirmation-subheading = Se ha enviado un correo electrónico de confirmación a
+payment-confirmation-order-heading = Detalles de la orden
+payment-confirmation-invoice-number = Factura número { $invoiceNumber }
+payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading = Detalles del pago
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } diario
+       *[other] { $amount } cada { $intervalCount } días
+    }
