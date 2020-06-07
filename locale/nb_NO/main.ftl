@@ -26,6 +26,8 @@ withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vi
 
 ## settings
 
+settings-home = Startside for kontoen
+settings-subscriptions = Abonnementer og betalinger
 
 ## legal footer
 
@@ -121,6 +123,8 @@ sub-update-card-exp = Utløper { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-update-new-plan-label = Ny plan
+sub-update-total-label = Ny sum
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -158,10 +162,12 @@ plan-price-year =
 
 ##
 
+pay-update-change-btn = Endre
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vil du fortsette å bruke { $name }?
 
 ##  $date (Date) - Last day of product access
 
