@@ -25,43 +25,112 @@ withdrawal-count-limit-exceeded-error = Parece que esta transacción sobrepasar�
 charge-exceeds-source-limit = Parece que esta transacción sobrepasará el límite diario de crédito. Probá otra tarjeta o de nuevo en 24 horas.
 instant-payouts-unsupported = Parece que la tarjeta de débito no está configurada para pagos instantáneos. Probá con otra tarjeta de débito o crédito.
 duplicate-transaction = Hmm. Parece que se acaba de enviar una transacción idéntica. Revisá tu historial de pagos.
+coupon-expired = Parece que ese código promocional ha expirado.
+card-error = La transacción no pudo ser procesada. Verificá la información de la tarjeta de crédito y probá nuevamente.
 
 ## settings
 
+settings-subscriptions = Suscripciones y pagos
 
 ## legal footer
 
+terms = Términos del servicio
+privacy = Nota de privacidad
 
 ## plan details
 
+product-plan-details-heading = Configuremos la suscripción
+product-plan-details-heading = Configuremos la suscripción
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturó { $amount } diariamente
+       *[other] { $productName } facturó { $amount } cada { $intervalCount } días
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturó { $amount } semanalmente
+       *[other] { $productName } facturó { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturó { $amount } mensualmente
+       *[other] { $productName } facturó { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturó { $amount } anualmente
+       *[other] { $productName } facturó { $amount } cada { $intervalCount } años
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problemas cargando los planes
+product-profile-error =
+    .title = Problemas cargando el perfil
+product-customer-error =
+    .title = Problemas cargando el cliente
+product-plan-not-found = Plan no encontrado
+product-no-such-plan = No existe tal plan para este producto.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } usa Stripe para procesar pagos seguros.
+payment-legal-link = Ver la <a>política de privacidad de Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Nombre completo
+    .label = Nombre tal cual aparece en la tarjeta
+payment-ccn =
+    .label = Número de tarjeta
+payment-exp =
+    .label = Vencimiento
+payment-zip =
+    .label = Código postal
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Cancelar
+payment-update-btn = Actualizar
+payment-pay-btn = Pagar ahora
+payment-validate-name-error = Ingresá tu nombre
+payment-validate-zip-required = Se requiere código postal
+payment-validate-zip-short = El código postal es demasiado corto
 
 ## subscription redirect
 
+sub-redirect-ready = La suscripción está lista
+sub-redirect-copy = Tomá un momento para contarnos sobre tu experiencia.
+sub-redirect-skip-survey = No gracias, quiero ir al producto.
 
 ## fields
 
+default-input-error = Este campo es requerido
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Revisá la actualización
+sub-update-failed = Fallo en la actualización del plan
+sub-update-title = Información de facturación
+sub-update-card-ending = Final de la tarjeta { $last }
+sub-update-card-exp = Vence { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    El plan cambiará de inmediato y se cobrará un monto
+    ajustado para el resto del ciclo de facturación. A partir de { $startingDate }
+    se cobrará el importe total.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
