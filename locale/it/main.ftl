@@ -18,16 +18,23 @@ close-aria =
 
 ## app error dialog
 
+basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
 card-error = La transazione non può essere elaborata. Verifica i dati della tua carta di credito e riprova.
 
 ## settings
 
+settings-home = Pagina principale dell’account
+settings-subscriptions = Abbonamenti e pagamenti
 
 ## legal footer
 
+terms = Termini di servizio
+privacy = Informativa sulla privacy
 
 ## plan details
 
+product-plan-details-heading = Configura il tuo abbonamento
+product-plan-details-heading = Configura il tuo abbonamento
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -35,9 +42,19 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 
 ## Product route
 
+product-plan-error =
+    .title = Errore nel caricamento dei piani
+product-profile-error =
+    .title = Errore nel caricamento del profilo
+product-customer-error =
+    .title = Errore nel caricamento del cliente
+product-plan-not-found = Piano non trovato
+product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } utilizza Stripe per l’elaborazione sicura dei pagamenti.
+payment-legal-link = Visualizza l’<a>informativa sulla privacy di Stripe</a>.
 
 ## payment form
 
@@ -47,12 +64,15 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 
 ##
 
+payment-cancel-btn = Annulla
+payment-update-btn = Aggiorna
 
 ## subscription redirect
 
 
 ## fields
 
+default-input-error = Campo obbligatorio
 
 ## subscription upgrade
 
@@ -96,9 +116,15 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 
 ## plan-details
 
+plan-details-total-label = Totale
 
 ## payment confirmation
 
+payment-confirmation-heading-bak = Grazie!
+payment-confirmation-order-heading = Dettagli dell’ordine
+payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Fatturato a
+payment-confirmation-details-heading = Dettagli del pagamento
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
