@@ -361,6 +361,7 @@ sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zak
 
 ## subscription create
 
+sub-guarantee = 30-dnjowska garantija wróćenja pjenjez
 
 ## plan-details
 
@@ -372,6 +373,7 @@ plan-details-total-label = Dohromady
 ## payment confirmation
 
 payment-confirmation-alert = Klikńće, zo byšće sćahnył
+payment-confirmation-mobile-alert = Nałoženje so njewočinja? <a>Klikńće tu</a>
 payment-confirmation-heading = Wulki dźak, { $displayName }!
 payment-confirmation-heading-bak = Wulki dźak!
 payment-confirmation-subheading = Wobkrućenska mejlka je so pósłała na
