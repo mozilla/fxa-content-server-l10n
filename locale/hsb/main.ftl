@@ -310,7 +310,7 @@ reactivate-confirm-dialog-header = Chceće { $name } dale wužiwać?
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
-    Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda
+    Waš přistup k { $name } dale wobsteji. a waša wotličenska perioda
     a waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
     { $endDate } { $amount } wučini, za kartu, kotraž so na { $last } kónči.
 reactivate-confirm-button = Abonoment wobnowić
@@ -349,7 +349,7 @@ sub-route-idx-cancel-msg-title = Je nam žel, zo nas wopušćeće
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
-    Waš abonement za { $name } je so wupowědźił-
+    Waš abonement za { $name } je so wupowědźił.
           <br />
           Maće hišće přistup k { $name } hač do { $date }.
 sub-route-idx-cancel-aside = Maće prašenja? Wopytajće <a>Pomoc { -brand-name-mozilla }</a>.
