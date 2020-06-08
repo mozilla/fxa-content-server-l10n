@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-08 13:50+0000\n"
+"PO-Revision-Date: 2020-06-08 13:56+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -574,7 +574,7 @@ msgstr "Emoneĩ rire, roipytyvõta emohenda ha eike hag̃ua Firefox-pe ikatúram
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Térã, emboguejy <a %(cadLinkAttributes)sambue mba’e’oka</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -751,7 +751,7 @@ msgstr "Mba’ete ñangareko"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Mba’ete hechajeypyre. Ko’ág̃a emboguejy ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
