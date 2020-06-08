@@ -25,6 +25,7 @@ insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prov
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
 charge-exceeds-source-limit = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta o attendi 24 ore.
 instant-payouts-unsupported = Questa carta di debito non risulta configurata per i pagamenti istantanei. Prova con un’altra carta di debito o di credito.
+duplicate-transaction = Uhm… sembra che sia stata appena inviata una transazione identica. Controlla la cronologia dei pagamenti.
 coupon-expired = Il codice promozionale risulta scaduto.
 card-error = La transazione non può essere elaborata. Verifica i dati della tua carta di credito e riprova.
 
