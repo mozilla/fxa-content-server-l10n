@@ -205,10 +205,20 @@ sub-update-confirm-month =
         [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasece z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasecow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde lěto z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+        [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kuždej { $intervalCount } lěśe z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+        [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } lěta z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+       *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } lět z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+    }
 
 ##
 
 sub-update-submit = Aktualizaciju wobkšuśiś
+sub-update-indicator =
+    .aria-label = aktualizěrowańske zwobraznjenje
 sub-update-current-plan-label = Aktualny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
