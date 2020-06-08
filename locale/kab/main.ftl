@@ -83,6 +83,7 @@ sub-redirect-copy = Ma ulac aɣilif, mudd-d kra s wakud akken ad aɣ-d-temmeslay
 
 ## subscription upgrade
 
+sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
