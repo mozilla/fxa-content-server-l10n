@@ -21,6 +21,9 @@ basic-error-message = Algo deu errado. Tente novamente mais tarde.
 expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá seu limite de crédito. Tente outro cartão.
+charge-exceeds-source-limit = Parece que esta transação excederá seu limite diário de crédito. Tente outro cartão, ou o mesmo após 24 horas.
+instant-payouts-unsupported = Parece que seu cartão de débito não está configurado para pagamentos instantâneos. Tente outro cartão de débito ou crédito.
+coupon-expired = Parece que o código promocional expirou.
 card-error = Não foi possível processar sua transação. Confira as informações do seu cartão de crédito e tente novamente.
 
 ## settings
