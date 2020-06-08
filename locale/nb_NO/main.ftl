@@ -225,3 +225,29 @@ payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } daglig
+       *[other] { $amount } hver { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } ukentlig
+       *[other] { $amount } hver { $intervalCount } uke
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } månedlig
+       *[other] { $amount } hver { $intervalCount } måned
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } årlig
+       *[other] { $amount } hvert { $intervalCount } år
+    }
+payment-confirmation-cc-preview = slutter på { $last4 }
+payment-confirmation-download-button = Fortsett til nedlasting
