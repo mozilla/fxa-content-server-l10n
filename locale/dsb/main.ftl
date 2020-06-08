@@ -306,6 +306,13 @@ pay-update-change-btn = Změniś
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Cośo { $name } dalej wužywaś?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda
+    a wašo plaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje
+    { $endDate } { $amount } wucynijo, za kórtu, kótaraž se na { $last } kóńcy.
 reactivate-confirm-button = Abonement wótnowiś
 
 ##  $date (Date) - Last day of product access
@@ -324,6 +331,12 @@ sub-item-missing-msg = Wopytajśo pšosym pózdźej hyšći raz.
 sub-item-no-such-plan = Žeden plan za toś ten abonement.
 sub-item-cancel-sub = Abonement wupowěźeś
 sub-item-stay-sub = Dalej aboněrowaś
+sub-item-cancel-msg =
+    Pó { $period }, slědnem dnju swójogo wótliceńskeje periody,
+    wěcej njamóžośo { $name } wužywaś.
+sub-item-cancel-confirm =
+    { $period } mój pśistup a móje w { $name }
+    skłaźone informacije wótwónoźeś
 account-activated = Wašo konto jo zmóžnjone, <userEl/>
 
 ## subscription route index
@@ -333,6 +346,13 @@ sub-route-idx-reactivating = Zasejaktiwěrowanje abonementa jo se mimo kuliło
 sub-route-idx-cancel-failed = Wupowěźenje abonementa jo se mimo kuliło
 sub-route-idx-contact = Pomoc kontaktěrowaś
 sub-route-idx-cancel-msg-title = Jo nam luto, až nas spušćaśo
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Waš abonement za { $name } jo se wupowěźeł.
+          <br />
+          Maśo hyšći pśistup k { $name } až do { $date }.
+sub-route-idx-cancel-aside = Maśo pšašanja? Woglědajśo se k <a>Pomocy { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Zmólka pśi cytanju abonementow
 sub-customer-error =
