@@ -130,12 +130,18 @@ default-input-error = Ko korápe ahaiva’erã
 product-plan-upgrade-heading = Ehechajey ne mbohekopyahu
 sub-update-failed = Ojavy tembiaporã mbohekopyahu
 sub-update-title = Ñemuhakuatia marandu
+sub-update-card-ending = Kuata’atã opáva { $last }-pe
+sub-update-card-exp = Opáta { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Emoneĩ mbohekopyahu
+sub-update-indicator =
+    .aria-label = mbohekopyahu kuaaukaha
+sub-update-current-plan-label = Ag̃agua tembiaporã
 sub-update-new-plan-label = Tembiaporã pyahu
 sub-update-total-label = Ipyahupaite
 
@@ -172,13 +178,19 @@ reactivate-success-button = Mboty
 
 ## subscription create
 
+sub-guarantee = 30 ára haguépe ome’ẽkuaajey viru
 
 ## plan-details
 
+plan-details-header = Apopyre mba’emimi
+plan-details-show-button = Mba’emimi jehechauka
+plan-details-hide-button = Mba’emimi mokañy
 plan-details-total-label = Opavavete
 
 ## payment confirmation
 
+payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
+payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
