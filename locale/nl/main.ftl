@@ -266,26 +266,108 @@ pay-update-change-btn = Wijzigen
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Wilt u { $name } blijven gebruiken?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus
+    en betaling blijven hetzelfde. Uw volgende betaling wordt
+    { $amount } op { $endDate } op de kaart eindigend op { $last }.
+reactivate-confirm-button = Opnieuw inschrijven
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = U hebt uw abonnement op { $date } opgezegd.
+reactivate-panel-copy = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
+reactivate-success-copy = Bedankt! U bent helemaal klaar.
+reactivate-success-button = Sluiten
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Probleem bij het laden van abonnementen
+sub-item-missing-msg = Probeer het later opnieuw.
+sub-item-no-such-plan = Abonnementschema bestaat niet.
+sub-item-cancel-sub = Abonnement opzeggen
+sub-item-stay-sub = Abonnement behouden
+sub-item-cancel-msg =
+    U kunt { $name } niet meer gebruiken na
+    { $period }, de laatste dag van uw betalingscyclus.
+sub-item-cancel-confirm =
+    Mijn toegang tot en opgeslagen gegevens in { $name }
+    op { $period } opzeggen
+account-activated = Uw account is geactiveerd, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Facturatiegegevens bijwerken…
+sub-route-idx-reactivating = Opnieuw activeren van abonnement is mislukt
+sub-route-idx-cancel-failed = Opzeggen van abonnement is mislukt
+sub-route-idx-contact = Contact opnemen
+sub-route-idx-cancel-msg-title = We vinden het jammer dat u weggaat.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Uw abonnement op { $name } is opgezegd.
+          <br />
+          U hebt nog tot { $date } toegang tot { $name }.
+sub-route-idx-cancel-aside = Vragen? Bezoek <a>{ -brand-name-mozilla } Support</a>.
+sub-subscription-error =
+    .title = Probleem bij het laden van abonnementen
+sub-customer-error =
+    .title = Probleem bij het laden van klant
+sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
 
 ## subscription create
 
+sub-guarantee = 30-dagen-geldteruggarantie
 
 ## plan-details
 
+plan-details-header = Productdetails
+plan-details-show-button = Details tonen
+plan-details-hide-button = Details verbergen
+plan-details-total-label = Totaal
 
 ## payment confirmation
 
+payment-confirmation-alert = Klik hier om te downloaden
+payment-confirmation-mobile-alert = App niet geopend? <a>Klik hier</a>
+payment-confirmation-heading = Bedankt { $displayName }!
+payment-confirmation-heading-bak = Bedankt!
+payment-confirmation-subheading = Er is een bevestigingsbericht verzonden naar
+payment-confirmation-order-heading = Bestelgegevens
+payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
+payment-confirmation-billing-heading = Rekening voor
+payment-confirmation-details-heading = Betalingsgegevens
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] dagelijks { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] wekelijks { $amount }
+       *[other] elke { $intervalCount } weken { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] maandelijks { $amount }
+       *[other] elke { $intervalCount } maanden { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] jaarlijks { $amount }
+       *[other] elke { $intervalCount } jaar { $amount }
+    }
+payment-confirmation-cc-preview = eindigend op { $last4 }
+payment-confirmation-download-button = Doorgaan naar download
