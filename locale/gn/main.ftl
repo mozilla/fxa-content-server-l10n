@@ -191,6 +191,13 @@ plan-details-total-label = Opavavete
 
 payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
 payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
+payment-confirmation-heading = ¡Aguyje { $displayName }!
+payment-confirmation-heading-bak = ¡Aguyje!
+payment-confirmation-subheading = Oñemondo ñanduti veve ñemoneigua amo
+payment-confirmation-order-heading = Mba’emimi jerurepyre
+payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
+payment-confirmation-billing-heading = Kuatiañemungue ko
+payment-confirmation-details-heading = Mba’éicha ehepyme’ẽta
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
