@@ -22,6 +22,10 @@ general-error-heading = Tembipuru’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
+insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
+withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
+charge-exceeds-source-limit = Ko ne ñemungue ohasáma pe viru peteĩ aragua eguerekóvape. Eipuru ambue kuatia’atã térã ohasa rire 24 aravo.
+instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepyme’ẽrãicha. Eipuru kuatia’atã viruñongatuha térã ñemurãva.
 
 ## settings
 
@@ -46,6 +50,12 @@ day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } oñemu { $amount } ára ha ára
        *[other] { $productName } oñemu { $amount } peteĩteĩva { $intervalCount } ára
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } oñemu { $amount } arapokõindýpe
+       *[other] { $productName } oñemu { $amount } peteĩ { $intervalCount } arapokõindýpe
     }
 
 ## Product route
