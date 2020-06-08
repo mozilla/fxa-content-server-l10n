@@ -121,6 +121,7 @@ reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Mboty
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
@@ -135,6 +136,7 @@ reactivate-confirm-button = Mboheraguapy
 
 ## plan-details
 
+plan-details-total-label = Opavavete
 
 ## payment confirmation
 
