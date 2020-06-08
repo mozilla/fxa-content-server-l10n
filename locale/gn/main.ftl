@@ -33,13 +33,23 @@ privacy = Marandu’i ñemiguáva
 
 ## plan details
 
+product-plan-details-heading = Rombohekóta ne mboheraguapy
+product-plan-details-heading = Rombohekóta ne mboheraguapy
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } oñemu { $amount } ára ha ára
+       *[other] { $productName } oñemu { $amount } peteĩteĩva { $intervalCount } ára
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Apañuãi emyanyhẽvo tembiaporã
 
 ## payment legal blurb
 
