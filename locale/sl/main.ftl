@@ -127,6 +127,8 @@ plan-details-total-label = Skupaj
 
 ## payment confirmation
 
+payment-confirmation-heading-bak = Hvala!
+payment-confirmation-subheading = Potrditvena e-pošta je bila poslana na
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
