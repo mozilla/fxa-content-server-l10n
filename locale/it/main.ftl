@@ -49,6 +49,30 @@ product-plan-details-heading = Configura il tuo abbonamento
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Addebito per { $productName } di { $amount } al giorno
+       *[other] Addebito per { $productName } di { $amount } ogni { $intervalCount } giorni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Addebito per { $productName } di { $amount } alla settimana
+       *[other] Addebito per { $productName } di { $amount } ogni { $intervalCount } settimane
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Addebito per { $productName } di { $amount } al mese
+       *[other] Addebito per { $productName } di { $amount } ogni { $intervalCount } mesi
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Addebito per { $productName } di { $amount } all’anno
+       *[other] Addebito per { $productName } di { $amount } ogni { $intervalCount } anni
+    }
 
 ## Product route
 
@@ -103,6 +127,7 @@ payment-confirm-year =
         [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } all’anno</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
        *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } ogni { $intervalCount } anni</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
     }
+payment-confirm = Autorizzo Mozilla, l’organizzazione che realizza i prodotti Firefox, ad addebitare il mio metodo di pagamento di <strong>${ $amount } { $interval }</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
 
 ##
 
@@ -286,6 +311,7 @@ sub-billing-update-success = I tuoi dati di fatturazione sono stati aggiornati c
 
 ## subscription create
 
+sub-guarantee = Garanzia di rimborso di 30 giorni
 
 ## plan-details
 
