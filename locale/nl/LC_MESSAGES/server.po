@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-04-20 17:56+0000\n"
-"Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
+"PO-Revision-Date: 2020-06-08 05:54+0000\n"
+"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -244,19 +244,19 @@ msgstr "U hebt authenticatie in twee stappen op uw Firefox-account uitgeschakeld
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Firefox-account geverifieerd. U bent bijna klaar."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Het volgende: synchroniseren tussen uw apparaten!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sync houdt op persoonlijke wijze uw bladwijzers, wachtwoorden en andere Firefox-gegevens op al uw apparaten hetzelfde."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "Het volgende apparaat instellen"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -319,11 +319,11 @@ msgstr "U bent met succes overgeschakeld van %(productNameOld)s naar %(productNa
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s "
-"ten gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
+"Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s ten"
+" gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -418,6 +418,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is $%(invoiceTotal)s op %(nextInvoiceDateOnly)s ten laste van de %(cardType)s-kaart die eindigt op %(lastFour)s. Uw "
+"abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om te annuleren."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -437,8 +439,8 @@ msgstr "U bent met succes geüpgraded van %(productNameOld)s naar %(productNameN
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. Er wordt u dan tevens eenmalig een bedrag van $%(paymentProrated)s in "
 "rekening gebracht ten gevolge van de hogere kosten voor de rest van deze %(productPaymentCycle)s."
@@ -573,7 +575,7 @@ msgstr "Zodra dit is bevestigd, helpen we u Firefox op minstens één ander appa
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Of installeer het op <a %(cadLinkAttributes)s>een ander apparaat</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -629,7 +631,7 @@ msgstr "Voorwaarden en annuleringsbeleid"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Abonnement reactiveren"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -750,7 +752,7 @@ msgstr "Account beheren"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Account geverifieerd. Synchroniseer als volgende stap een ander apparaat om het instellen te voltooien"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
@@ -841,7 +843,7 @@ msgstr "Pagina niet gevonden"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr ""
+msgstr "De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -855,7 +857,7 @@ msgstr "Fout 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "O jee, daar ging iets mis. We zijn op de hoogte gebracht en gaan aan een oplossing werken."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -1010,8 +1012,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</"
-#~ "a> en <a %(iosLinkAttributes)s>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</a> en"
+#~ " <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor Android en iOS."
@@ -1134,15 +1136,15 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit "
-#~ "Sync te halen."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync te"
+#~ " halen."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aanmelden bij Sync"
@@ -1307,16 +1309,16 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "Wachtwoord herinitialiseren"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Enkele dagen geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. Met een geverifieerde account hebt u op alle apparaten die ermee zijn verbonden toegang tot uw tabbladen, "
 #~ "bladwijzers, wachtwoorden en geschiedenis. Bevestig eenvoudig dit e-mailadres om uw account te activeren."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met "
-#~ "u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u "
+#~ "is."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Bevestig voor extra beveiliging deze aanmelding om met het synchroniseren met dit apparaat te beginnen:"
@@ -1337,14 +1339,11 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "E-mailadres voor Firefox Accounts verifiëren"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr ""
-#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
+#~ msgstr "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen "
-#~ "afgeleverd."
+#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Zoals gevraagd, is hier een koppeling voor het installeren van Firefox op uw mobiele apparaat: %(link)s"
@@ -1430,8 +1429,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw "
-#~ "wachtwoorden, bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw wachtwoorden, "
+#~ "bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1521,8 +1520,8 @@ msgstr "Nieuwste versie downloaden"
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a href='%(resetLink)s'>"
-#~ "%(resetLink)s</a>."
+#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Er wordt nu een nieuw apparaat met uw Firefox-account gesynchroniseerd"
