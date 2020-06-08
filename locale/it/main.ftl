@@ -132,6 +132,30 @@ sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebi
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } al giorno</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } ogni { $intervalCount } giorni</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } alla settimana</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } ogni { $intervalCount } settimane</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } al mese</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } ogni { $intervalCount } mesi</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } all’anno</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare il mio metodo di pagamento di <strong>{ $amount } ogni { $intervalCount } anni</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+    }
 
 ##
 
@@ -209,6 +233,13 @@ pay-update-change-btn = Modifica
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vuoi continuare a utilizzare { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Potrai continuare ad accedere a { $name }, il tuo ciclo di fatturazione
+    e il pagamento rimarranno invariati. Il tuo prossimo addebito sulla carta che termina con { $last }
+    sarà di { $amount } e avverrà il { $endDate }.
 reactivate-confirm-button = Abbonati nuovamente
 
 ##  $date (Date) - Last day of product access
