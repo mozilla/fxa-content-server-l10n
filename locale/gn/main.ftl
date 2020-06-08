@@ -57,6 +57,18 @@ week-based-plan-details-amount =
         [one] { $productName } oñemu { $amount } arapokõindýpe
        *[other] { $productName } oñemu { $amount } peteĩ { $intervalCount } arapokõindýpe
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } oñemu { $amount } jasýpe
+       *[other] { $productName } oñemu { $amount } peteĩ { $intervalCount } jasýpe
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } oñemu { $amount } arýpe
+       *[other] { $productName } oñemu { $amount } peteĩ { $intervalCount } arýpe
+    }
 
 ## Product route
 
@@ -71,6 +83,8 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } oipuru Stripe ohepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link = Ehecha <a>Stripe remiñemi purureko</a>.
 
 ## payment form
 
@@ -94,6 +108,7 @@ payment-zip =
 payment-cancel-btn = Heja
 payment-update-btn = Mbohekopyahu
 payment-pay-btn = Ehepyme’ẽ ko’ág̃a
+payment-validate-name-error = Emoinge nde réra
 
 ## subscription redirect
 
