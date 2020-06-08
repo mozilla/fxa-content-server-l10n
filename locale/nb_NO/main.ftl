@@ -217,13 +217,25 @@ plan-price-year =
 pay-update-billing-description-day =
     { $intervalCount ->
         [one] Du blir fakturert { $amount } daglig for { $name }. Den neste betalingen din er den { $date }
-       *[other] Du blir fakturert { $amount } hver { $intervalCount } dager for { $name }. Den neste betalingen din er den { $date }
+       *[other] Du blir fakturert { $amount } hver { $intervalCount } dag for { $name }. Den neste betalingen din er den { $date }
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 pay-update-billing-description-week =
     { $intervalCount ->
         [one] Du blir fakturert { $amount } ukentlig for { $name }. Den neste betalingen din er den { $date }
        *[other] Du blir fakturert { $amount } hver { $intervalCount } uke for { $name }. Den neste betalingen din er den { $date }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Du blir fakturert { $amount } månedlig for { $name }. Den neste betalingen din er den { $date }
+       *[other] Du blir fakturert { $amount } hver { $intervalCount } måned for { $name }. Den neste betalingen din er den { $date }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Du blir fakturert { $amount } årlig for { $name }. Den neste betalingen din er den { $date }
+       *[other] Du blir fakturert { $amount } hvert { $intervalCount } år for { $name }. Den neste betalingen din er den { $date }
     }
 
 ##
@@ -265,9 +277,12 @@ account-activated = Kontoen din er aktivert, <userEl/>
 
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
+sub-route-idx-cancel-failed = Avbryting av abonnement mislyktes
+sub-route-idx-contact = Kontakt support
 
 ## subscription create
 
+sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## plan-details
 
