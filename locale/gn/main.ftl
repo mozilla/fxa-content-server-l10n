@@ -50,18 +50,38 @@ day-based-plan-details-amount =
 
 product-plan-error =
     .title = Apañuãi emyanyhẽvo tembiaporã
+product-profile-error =
+    .title = Apañuãi emyanyhẽvo mba’etee
+product-customer-error =
+    .title = Apañuãi emyanyhẽvo ñemuhára
+product-plan-not-found = Ndojejuhúi tembiaporã
+product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-name =
+    .placeholder = Téra ha terajuapy
+    .label = Nde réra oĩháicha nde kuatia’atãme
+payment-ccn =
+    .label = Kuatia’atã papapy
+payment-exp =
+    .label = Opaha
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = ZIP ayvu
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Heja
+payment-update-btn = Mbohekopyahu
+payment-pay-btn = Ehepyme’ẽ ko’ág̃a
 
 ## subscription redirect
 
@@ -77,6 +97,8 @@ product-plan-error =
 
 ##
 
+sub-update-new-plan-label = Tembiaporã pyahu
+sub-update-total-label = Ipyahupaite
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -90,10 +112,12 @@ product-plan-error =
 
 ##
 
+pay-update-change-btn = Moambue
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
 
