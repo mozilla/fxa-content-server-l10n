@@ -190,9 +190,15 @@ sub-item-stay-sub = Fortsett abonnementet
 sub-item-cancel-msg =
     Du vil ikke lenger kunne bruke { $name } etter
     { $period }, den siste dagen i faktureringssyklusen.
+sub-item-cancel-confirm =
+    Avbryt tilgangen min og den lagrede informasjonen min for
+    { $name } den { $period }
+account-activated = Kontoen din er aktivert, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
+sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 
 ## subscription create
 
