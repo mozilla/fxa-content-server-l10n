@@ -118,7 +118,7 @@ payment-zip =
 payment-confirm-day =
     { $intervalCount ->
         [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu z <strong>{ $amount } kóždy dźeń</strong> poćežić, doniž swój abonement njewupowědźu.
-        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } dnjej z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.dnjej</strong> poćežić, doniž swój abonement njewupowědźu.
+        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóždej { $intervalCount } dnjej z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
         [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } dny z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
        *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po płaćenskich wuměnjenjach swoju płaćensku metodu <strong>kóžde { $intervalCount } dnjow z { $amount }</strong> poćežić, doniž swój abonement njewupowědźu.
     }
