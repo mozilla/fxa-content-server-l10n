@@ -28,6 +28,7 @@ charge-exceeds-source-limit = Ko ne ñemungue ohasáma pe viru peteĩ aragua egu
 instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepyme’ẽrãicha. Eipuru kuatia’atã viruñongatuha térã ñemurãva.
 duplicate-transaction = Épa. Oñemondoramoite peteĩ mba’e ojueheguaitéva. Ehecha ne ñehepyme’ẽ rembiasakue.
 coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
+card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñemurã rehegua ha eha’ãjey uperire.
 
 ## settings
 
@@ -117,6 +118,8 @@ payment-validate-zip-short = Pe código postal mbykyeterei
 ## subscription redirect
 
 sub-redirect-ready = Ne ñemboheraguapy oĩma
+sub-redirect-copy = Ikatúpiko emombe’umi sapy’aite ne rembiapo rapykuere.
+sub-redirect-skip-survey = Nahániri, eguerahánte che apopyrépe.
 
 ## fields
 
@@ -124,6 +127,9 @@ default-input-error = Ko korápe ahaiva’erã
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Ehechajey ne mbohekopyahu
+sub-update-failed = Ojavy tembiaporã mbohekopyahu
+sub-update-title = Ñemuhakuatia marandu
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
