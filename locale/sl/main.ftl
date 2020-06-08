@@ -38,24 +38,37 @@ privacy = Obvestilo o zasebnosti
 
 ## Product route
 
+product-plan-error =
+    .title = Napaka pri nalaganju načrtov
+product-plan-not-found = Načrta ni mogoče najti
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-ccn =
+    .label = Številka kartice
+payment-zip =
+    .label = Poštna številka
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Prekliči
+payment-update-btn = Posodobi
+payment-validate-name-error = Vnesite svoje ime
+payment-validate-zip-short = Poštna številka je prekratka
 
 ## subscription redirect
 
+sub-redirect-ready = Vaša naročnina je pripravljena
 
 ## fields
 
+default-input-error = To polje je obvezno
 
 ## subscription upgrade
 
@@ -65,6 +78,7 @@ privacy = Obvestilo o zasebnosti
 
 ##
 
+sub-update-current-plan-label = Trenutni načrt
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -78,27 +92,38 @@ privacy = Obvestilo o zasebnosti
 
 ##
 
+pay-update-change-btn = Spremeni
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Želite še naprej uporabljati { $name }?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Zapri
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Težava pri nalaganju naročnin
+sub-item-missing-msg = Poskusite znova kasneje.
+sub-item-cancel-sub = Prekliči naročnino
 
 ## subscription route index
 
+sub-route-idx-cancel-msg-title = Žal nam je, da odhajate
+sub-subscription-error =
+    .title = Težava pri nalaganju naročnin
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-hide-button = Skrij podrobnosti
+plan-details-total-label = Skupaj
 
 ## payment confirmation
 
