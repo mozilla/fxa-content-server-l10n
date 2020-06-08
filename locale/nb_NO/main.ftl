@@ -173,11 +173,16 @@ reactivate-confirm-button = Abonner på nytt
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Du avbrøt abonnementet ditt den { $date }.
+reactivate-panel-copy = Du mister tilgangen til { $name } den <strong>{ $date }</strong>.
+reactivate-success-copy = Takk! Alt er nå klart.
+reactivate-success-button = Lukk
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem med å laste abonnement
 sub-item-missing-msg = Prøv igjen senere.
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 sub-item-cancel-sub = Avbryt abonnement
