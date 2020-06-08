@@ -205,9 +205,23 @@ sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 
 ## plan-details
 
+plan-details-header = Produktdetaljer
+plan-details-show-button = Vis detaljer
+plan-details-hide-button = Skjul detaljer
+plan-details-total-label = Totalt
 
 ## payment confirmation
 
+payment-confirmation-alert = Klikk her for å laste ned
+payment-confirmation-mobile-alert = Åpnet ikke appen? <a>Klikk her</a>
+payment-confirmation-heading = Tusen takk { $displayName }!
+payment-confirmation-heading-bak = Tusen takk!
+payment-confirmation-subheading = En bekreftelsesepost er sendt til
+payment-confirmation-order-heading = Ordredetaljer
+payment-confirmation-invoice-number = Faktura nummer { $invoiceNumber }
+payment-confirmation-billing-heading = Fakturert til
+payment-confirmation-details-heading = Betalingsinformasjon
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
