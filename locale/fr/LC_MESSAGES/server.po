@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-05-31 11:53+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2020-06-08 10:53+0000\n"
+"Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -421,6 +421,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Votre cycle de facturation et de paiement resteront les mêmes. Votre prochain paiement sera de %(invoiceTotal)s $ via la carte %(cardType)s se terminant par %(lastFour)s le %(nextInvoiceDateOnly)s. "
+"Votre abonnement sera renouvelé automatiquement à chaque période de facturation, sauf si vous choisissez de l’annuler."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -753,7 +755,7 @@ msgstr "Gérer le compte"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Compte vérifié. Synchronisez à présent un autre appareil pour terminer la configuration."
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
