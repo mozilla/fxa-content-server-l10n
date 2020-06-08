@@ -264,6 +264,38 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Musyśo kuždy źen { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [two] Musyśo kuždej { $intervalCount } dnja { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [few] Musyśo kužde { $intervalCount } dny { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+       *[other] Musyśo kužde { $intervalCount } dnjow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Musyśo kuždy tyźeń { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [two] Musyśo kuždej { $intervalCount } tyźenja { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [few] Musyśo kužde { $intervalCount } tyźenje { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+       *[other] Musyśo kužde { $intervalCount } tyźenjow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Musyśo kuždy mjasec { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [two] Musyśo kuždej { $intervalCount } mjasaca { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [few] Musyśo kužde { $intervalCount } mjasece { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+       *[other] Musyśo kužde { $intervalCount } mjasecow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Musyśo kužde lěto { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [two] Musyśo kuždej { $intervalCount } lěśe { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [few] Musyśo kužde { $intervalCount } lěta { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+       *[other] Musyśo kužde { $intervalCount } lět { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+    }
 
 ##
 
@@ -341,3 +373,29 @@ payment-confirmation-amount-day =
         [few] { $amount } kužde { $intervalCount } dny
        *[other] { $amount } kužde { $intervalCount } dnjow
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } kuždy tyźeń
+        [two] { $amount } kuždej { $intervalCount } tyźenja
+        [few] { $amount } kužde { $intervalCount } tyźenje
+       *[other] { $amount } kužde { $intervalCount } tyźenjow
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } kuždy mjasec
+        [two] { $amount } kuždej { $intervalCount } mjaseca
+        [few] { $amount } kužde { $intervalCount } mjasece
+       *[other] { $amount } kužde { $intervalCount } mjasecow
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } kužde lěto
+        [two] { $amount } kuždej { $intervalCount } lěśe
+        [few] { $amount } kužde { $intervalCount } lěta
+       *[other] { $amount } kužde { $intervalCount } lět
+    }
+payment-confirmation-cc-preview = kóńcy se na { $last4 }
+payment-confirmation-download-button = Dalej k ześěgnjenjeju
