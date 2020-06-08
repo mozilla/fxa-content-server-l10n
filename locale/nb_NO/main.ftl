@@ -182,6 +182,9 @@ sub-item-missing-msg = Prøv igjen senere.
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 sub-item-cancel-sub = Avbryt abonnement
 sub-item-stay-sub = Fortsett abonnementet
+sub-item-cancel-msg =
+    Du vil ikke lenger kunne bruke { $name } etter
+    { $period }, den siste dagen i faktureringssyklusen.
 
 ## subscription route index
 
