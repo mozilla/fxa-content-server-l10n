@@ -20,6 +20,8 @@ close-aria =
 
 general-error-heading = Errore generale dell’applicazione
 basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
+payment-error-1 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Riprova o contatta l’emittente della carta.
+payment-error-2 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
