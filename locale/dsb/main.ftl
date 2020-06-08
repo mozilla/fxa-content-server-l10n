@@ -114,6 +114,14 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu z <strong>{ $amount } kuždy źeń</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+        [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kuždej { $intervalCount } dnja z { $amount }</strong> wobšěžyś, daniž swój abonement njewupowěźejom
+        [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } dny z { $amount }</strong> wobšěžyś, daniž swój abonement njewupowěźejom.
+       *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó płaśeńskich wuměnjenjach swóju płaśeńsku metodu <strong>kužde { $intervalCount } dnjow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+    }
 
 ##
 
