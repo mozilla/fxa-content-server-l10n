@@ -193,23 +193,79 @@ sub-update-confirm-year =
 ##
 
 sub-update-submit = Upgrade bevestigen
+sub-update-indicator =
+    .aria-label = upgrade-indicator
+sub-update-current-plan-label = Huidig schema
+sub-update-new-plan-label = Nieuw schema
+sub-update-total-label = Nieuw totaalbedrag
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] dagelijks { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] wekelijks { $amount }
+       *[other] elke { $intervalCount } weken { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] maandelijks { $amount }
+       *[other] elke { $intervalCount } maanden { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] jaarlijks { $amount }
+       *[other] elke { $intervalCount } jaar { $amount }
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Voor { $name } wordt dagelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+       *[other] Voor { $name } wordt elke { $intervalCount } dagen { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Voor { $name } wordt wekelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+       *[other] Voor { $name } wordt elke { $intervalCount } weken { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Voor { $name } wordt maandelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+       *[other] Voor { $name } wordt elke { $intervalCount } maanden { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Voor { $name } wordt jaarlijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+       *[other] Voor { $name } wordt elke { $intervalCount } jaar { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Vervalt op { $expirationDate }
+pay-update-change-btn = Wijzigen
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Wilt u { $name } blijven gebruiken?
 
 ##  $date (Date) - Last day of product access
 
