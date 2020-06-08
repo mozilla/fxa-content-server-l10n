@@ -92,6 +92,9 @@ payment-legal-link = Visualizza l’<a>informativa sulla privacy di Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Nome completo
+    .label = Nome così come appare sulla carta
 payment-ccn =
     .label = Numero carta di credito
 payment-exp =
