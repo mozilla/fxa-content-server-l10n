@@ -109,12 +109,16 @@ payment-cancel-btn = Heja
 payment-update-btn = Mbohekopyahu
 payment-pay-btn = Ehepyme’ẽ ko’ág̃a
 payment-validate-name-error = Emoinge nde réra
+payment-validate-zip-required = Emoĩva’erã código postal
+payment-validate-zip-short = Pe código postal mbykyeterei
 
 ## subscription redirect
 
+sub-redirect-ready = Ne ñemboheraguapy oĩma
 
 ## fields
 
+default-input-error = Ko korápe ahaiva’erã
 
 ## subscription upgrade
 
