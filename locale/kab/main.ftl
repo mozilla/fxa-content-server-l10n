@@ -173,6 +173,10 @@ reactivate-success-button = Mdel
 
 ## subscription route index
 
+sub-route-idx-reactivating = Allus n urmad n ujerred ur yeddi ara
+sub-route-idx-cancel-failed = Tuffɣa seg ujerred ur teddi ara
+sub-route-idx-contact = Nermes tallalt
+sub-route-idx-cancel-msg-title = Neḥzen imi truḥeḍ
 
 ## subscription create
 
