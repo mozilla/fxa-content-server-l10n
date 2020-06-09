@@ -13,9 +13,12 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Mdel
 
 ## app error dialog
 
+general-error-heading = Tuccda n usnas tamatut
 basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
@@ -60,6 +63,14 @@ payment-legal-link = Senqed <a>tasertit tabaḍnit n Stripe</a>.
 payment-name =
     .placeholder = Isem ummid
     .label = Isem akken yella deg tkarḍa-inek/inem
+payment-ccn =
+    .label = Uṭṭun n tkarḍa
+payment-exp =
+    .label = Keffu
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Tangalt n lpusṭa
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -77,9 +88,11 @@ payment-validate-zip-short = Tangalt n lpusṭa meẓẓiy aṭas
 
 sub-redirect-ready = Ajerred-inek/inem yemmed
 sub-redirect-copy = Ma ulac aɣilif, mudd-d kra s wakud akken ad aɣ-d-temmeslayeḍ ɣef termit-inek/inem.
+sub-redirect-skip-survey = Ala tanemmirt, awi-yi kan ɣer ufaris-inu.
 
 ## fields
 
+default-input-error = Urti-a yettwasra
 
 ## subscription upgrade
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 05:39+0000\n"
+"PO-Revision-Date: 2020-06-09 05:43+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -247,7 +247,7 @@ msgstr "Amiḍan n Firefox yettwasenqed. Qrib ad tsaliḍ."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Amtawi i d-iteddun, gar yibenkan-inek/inem!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
@@ -747,7 +747,7 @@ msgstr "Sefrek amiḍan"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
