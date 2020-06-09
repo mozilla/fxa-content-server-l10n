@@ -266,28 +266,77 @@ pay-update-change-btn = Wizigje
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Wolle jo { $name } brûke bliuwe?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus
+    en betelling bliuwe itselde. Jo folgjende betelling wurdt
+    { $amount } op { $endDate } op de kaart einigjend op { $last }.
 reactivate-confirm-button = Opnij ynskriuwe
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Jo hawwe jo abonnemint op { $date } opsein.
+reactivate-panel-copy = Jo ferlieze op <strong>{ $date }</strong> tagong ta { $name }.
+reactivate-success-copy = Tank! Jo binne hielendal klear.
+reactivate-success-button = Slute
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Probleem by it laden fan abonneminten
+sub-item-missing-msg = Probearje it letter opnij.
+sub-item-no-such-plan = Abonnemintskema bestiet net.
+sub-item-cancel-sub = Abonnemint opsizze
+sub-item-stay-sub = Abonnemint behâlde
+sub-item-cancel-msg =
+    Jo kinne { $name } net mear brûke nei
+    { $period }, de lêste dei fan jo betellingssyklus.
+sub-item-cancel-confirm =
+    Myn tagong ta en bewarre gegevens yn { $name }
+    op { $period } opsizze
+account-activated = Jo account is aktivearre, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Fakturaasjegegevens bywurkje…
+sub-route-idx-reactivating = Opnij aktivearjen fan abonnemint is mislearre
+sub-route-idx-cancel-failed = Opsizzen fan abonnemint is mislearre
+sub-route-idx-contact = Kontakt opnimme
+sub-route-idx-cancel-msg-title = Wy fine it spitich dat jo ús ferlitte.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Jo abonnemint op { $name } is opsein.
+          <br />
+          Jo hawwe noch oant { $date } tagong ta { $name }.
+sub-route-idx-cancel-aside = Fragen? Besykje <a>{ -brand-name-mozilla } Support</a>.
+sub-subscription-error =
+    .title = Probleem by it laden fan abonneminten
+sub-customer-error =
+    .title = Probleem by it laden fan klant
+sub-billing-update-success = Jo betellingsgegevens binne mei sukses bywurke
 
 ## subscription create
 
+sub-guarantee = 30-dagen-jildweromgarânsje
 
 ## plan-details
 
+plan-details-header = Produktdetails
+plan-details-show-button = Details toane
+plan-details-hide-button = Details ferstopje
+plan-details-total-label = Totaal
 
 ## payment confirmation
 
+payment-confirmation-alert = Klik hjir om te downloaden
+payment-confirmation-mobile-alert = App net iepene? <a>Klik hjir</a>
+payment-confirmation-heading = Tank { $displayName }!
+payment-confirmation-heading-bak = Tige tank!
+payment-confirmation-subheading = Der is in befêstigingsberjocht ferstjoerd nei
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekkening foar
