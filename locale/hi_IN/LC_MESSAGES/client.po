@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 14:42+0000\n"
+"PO-Revision-Date: 2020-06-09 14:52+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -1577,7 +1577,7 @@ msgstr "अपना प्रमाणीकरण ऐप खोलें औ�
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "कोड दर्ज करने में परेशानी?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1617,7 +1617,7 @@ msgstr "क्या आप अपने फोन को सिंक करन
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "अपने फोन पर Firefox इंस्टॉल करने के लिए SMS द्वारा एक लिंक भेजें।"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1649,7 +1649,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Firefox ऐप का लिंक %(escapedPhoneNumber)s पर भेजा गया"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
@@ -1677,7 +1677,7 @@ msgstr "आप हमसे किस बारे में संपर्क 
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox Account"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -1851,7 +1851,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "आपके पास मौजूद प्रत्येक सशुल्क सदस्यता रद्द कर दी जाएगी"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1883,7 +1883,7 @@ msgstr "ताज़ा करें"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "ईमेल जोड़ें"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -2082,7 +2082,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "अपने कैमरा ऐप से Firefox डाउनलोड करें"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -2090,7 +2090,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "स्कैन करने के लिए तैयार"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
