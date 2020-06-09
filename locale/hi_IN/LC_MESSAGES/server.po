@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2019-01-30 18:38+0000\n"
-"Last-Translator: Anshita Laddha <laddha.anshita@gmail.com>\n"
+"PO-Revision-Date: 2020-06-09 17:21+0000\n"
+"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +119,8 @@ msgstr "सबसे पहले, अपने Firefox खाते का प�
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की जाँच करनी चाहिए."
+"दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की"
+" जाँच करनी चाहिए."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -177,7 +178,8 @@ msgstr "नया प्राथमिक ईमेल"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr "आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
+msgstr ""
+"आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -312,8 +314,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -362,7 +364,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "आपके क्रेडिट कार्ड की अवधि समाप्त होने वाली है"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
@@ -428,8 +430,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -630,11 +632,11 @@ msgstr "बिलिंग जानकारी को सामयिक क�
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
-msgstr ""
+msgstr "कानूनी"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Privacy"
-msgstr ""
+msgstr "गोपनीयता"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -811,11 +813,11 @@ msgstr ""
 
 #: lib/senders/email.js:2283
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "%(productName)s में आपका स्वागत है"
 
 #: lib/senders/email.js:2284
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s डाउनलोड करें"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -926,8 +928,8 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "आपने सफलतापूर्वक अपने Firefox खाते के लिए अपने पहले डिवाइस को जोड़ा। अब आप <a %(androidLinkAttributes)s>Android</a> और <a %(iosLinkAttributes)s>iOS</a> के लिए Firefox सहित, अपने अन्य डिवाइसेस से सिंक करने के लिए "
-#~ "साइन इन कर सकते हैं।"
+#~ "आपने सफलतापूर्वक अपने Firefox खाते के लिए अपने पहले डिवाइस को जोड़ा। अब आप <a %(androidLinkAttributes)s>Android</a> और <a %(iosLinkAttributes)s>iOS</a> के लिए Firefox सहित, अपने अन्य डिवाइसेस से "
+#~ "सिंक करने के लिए साइन इन कर सकते हैं।"
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "आपने सफलतापूर्वक अपना पहला डिवाइस अपने Firefox खाते से कनेक्ट कर लिया है। अब आप सिंक करने के लिए अपने Android, iOS या अन्य उपकरणों से साइन इन कर सकते हैं."
@@ -959,13 +961,16 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr "आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for iOS </a>."
+#~ "आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for"
+#~ " iOS </a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "सिंक में साइन इन करें"
@@ -1082,11 +1087,11 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgstr "कूटशब्द पुनः तैयार करें"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते को सक्रिय करने के "
-#~ "लिए इस ईमेल पते की पुष्टि करें."
+#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते"
+#~ " को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "एक हफ्ते पहले आपने एक Firefox खाता बनाया है, लेकिन उसे कभी सत्यापित नहीं किया. हमें आपकी चिंता है. अपने खाते को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें और हमें पता चलने दे की आप ठीक है."
@@ -1209,7 +1214,8 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgstr "आपके फ़ायरफ़ॉक्स खाते से संयोजित समस्त यंत्रों के साथ एक नया यंत्र समकालिक हो गया है."
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
