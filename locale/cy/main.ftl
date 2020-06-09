@@ -160,21 +160,51 @@ payment-confirm-year =
         [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } mlynedd</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
        *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } blynedd</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
     }
+payment-confirm = Rwy'n awdurdodi Mozilla, gwneuthurwr cynnyrch Firefox, i filio fy null talu <strong>${ $amount } bob { $interval }</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
 
 ##
 
+payment-cancel-btn = Diddymu
+payment-update-btn = Diweddaru
+payment-pay-btn = Talu nawr
+payment-validate-name-error = Rhowch eich enw
+payment-validate-zip-required = Mae angen cod post
+payment-validate-zip-short = Mae'r cod post yn rhy fyr
 
 ## subscription redirect
 
+sub-redirect-ready = Mae eich tanysgrifiad yn barod
+sub-redirect-copy = Cymerwch eiliad i ddweud wrthym am eich profiad.
+sub-redirect-skip-survey = Dim diolch, dim ond mynd â mi at fy nghynnyrch.
 
 ## fields
 
+default-input-error = Mae angen llanw'r maes hwn
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Gwiriwch eich uwchraddiad
+sub-update-failed = Methodd diweddariad y cynllun
+sub-update-title = Manylion bilio
+sub-update-card-ending = Cerdyn yn dod i ben { $last }
+sub-update-card-exp = Yn dod i ben { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Bydd eich cynllun yn newid ar unwaith, a bydd y swm ar gyfer eich
+    cylch bilio'n cael ei addasu. Gan ddechrau { $startingDate }
+    bydd y swm llawn yn cael ei godi arnoch.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } yn ddyddiol<strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } ddiwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } niwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+    }
 
 ##
 
