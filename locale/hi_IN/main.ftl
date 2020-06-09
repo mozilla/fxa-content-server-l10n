@@ -116,6 +116,7 @@ plan-price-year =
 
 ##
 
+pay-update-change-btn = बदलें
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -123,11 +124,16 @@ plan-price-year =
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = आपने { $date } पर अपनी सदस्यता रद्द की थी।
+reactivate-success-button = बंद करें
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = कृपया बाद में पुनः प्रयास करें
+sub-item-no-such-plan = इस सदस्यता के लिए ऐसी कोई योजना नहीं है।
+sub-item-cancel-sub = सदस्यता रद्द करें
 
 ## subscription route index
 
@@ -137,9 +143,44 @@ plan-price-year =
 
 ## plan-details
 
+plan-details-header = उत्पाद विवरण
+plan-details-show-button = विवरण दिखाएं
+plan-details-hide-button = विवरण छिपाएं
+plan-details-total-label = कुल
 
 ## payment confirmation
 
+payment-confirmation-alert = डाउनलोड करने के लिये यहां क्लिक करें
+payment-confirmation-mobile-alert = ऐप नहीं खोला? <a>यहां क्लिक करें</a>
+payment-confirmation-heading = धन्यवाद { $displayName }!
+payment-confirmation-heading-bak = धन्यवाद!
+payment-confirmation-order-heading = ऑर्डर का विवरण
+payment-confirmation-details-heading = भुगतान विवरण
+payment-confirmation-amount = { $amount } हर { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } प्रतिदिन
+       *[other] { $amount } हर { $intervalCount } दिन
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } साप्ताहिक
+       *[other] { $amount } हर { $intervalCount } सप्ताह
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } मासिक
+       *[other] { $amount } हर { $intervalCount } महीने
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } वार्षिक
+       *[other] { $amount } हर { $intervalCount } वर्ष
+    }
