@@ -177,6 +177,12 @@ sub-route-idx-reactivating = Allus n urmad n ujerred ur yeddi ara
 sub-route-idx-cancel-failed = Tuffɣa seg ujerred ur teddi ara
 sub-route-idx-contact = Nermes tallalt
 sub-route-idx-cancel-msg-title = Neḥzen imi truḥeḍ
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ajerred-inek { $name } yefsex.
+           <br />
+          Ad tizmireḍ ad tkecmeḍ ɣer { $name } seg { $date }.
 sub-route-idx-cancel-aside = Tesεiḍ asteqsi? Rzu ɣer <a>{ -brand-name-mozilla } tallalt</a>.
 sub-subscription-error =
     .title = Ugur deg usali n yijerriden
@@ -209,7 +215,7 @@ payment-confirmation-amount = { $amount } s { $interval }
 #  $intervalCount (Number) - The interval between payments, in days.
 payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $amount } n wass
+        [one] { $amount } wass
        *[other] { $amount } n yal { $intervalCount } ass
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
@@ -218,3 +224,17 @@ payment-confirmation-amount-week =
         [one] { $amount } n dduṛt
        *[other] { $amount } yal { $intervalCount } dduṛt
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } n wayyur
+       *[other] { $amount } yal { $intervalCount } ayyur
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } n useggas
+       *[other] { $amount } yal { $intervalCount } aseggas
+    }
+payment-confirmation-cc-preview = I ikeffun deg { $last4 }
+payment-confirmation-download-button = Kemmel ad d-tsidreḍ
