@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-08 15:13+0000\n"
+"PO-Revision-Date: 2020-06-09 16:34+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1934,11 +1934,11 @@ msgstr "Myandypyre"
 
 #: .es5/templates/settings/two_step_authentication.mustache:10
 msgid "Disabled"
-msgstr "Pe'apyre"
+msgstr "Pe’apyre"
 
 #: .es5/templates/settings/two_step_authentication.mustache:11
 msgid "Disable"
-msgstr "Pe'a"
+msgstr "Pe’a"
 
 #: .es5/templates/settings/two_step_authentication.mustache:13
 msgid "Enable"
