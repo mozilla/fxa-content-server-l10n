@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 14:52+0000\n"
-"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
+"PO-Revision-Date: 2020-06-09 15:09+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
@@ -1505,7 +1505,7 @@ msgstr "वापस सेटिंग पर"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "आपके क्रेडिट कार्ड की अवधि समाप्त हो गई है। कृपया इसे <a %(escapedCcExpiredLinkAttrs)s यहां अपडेट करें </a>।"
+msgstr "आपके क्रेडिट कार्ड की अवधि समाप्त हो गई है। कृपया इसे <a %(escapedCcExpiredLinkAttrs)s> यहां अपडेट करें </a>।"
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -2110,7 +2110,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "अपने खाते में साइन इन करें"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -2190,7 +2190,7 @@ msgstr "आईपी ​​पता: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "अधिक सुविधाओं के लिए साइन अप करें:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
