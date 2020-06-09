@@ -130,6 +130,7 @@ payment-confirm-year =
         [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>jierliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
        *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
     }
+payment-confirm = Ik machtigje Mozilla, makker fan Firefox-produkten, om myn betellingsmetoade mei <strong>${ $amount } per { $interval }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
 
 ##
 
@@ -157,9 +158,37 @@ sub-update-failed = Bywurkjen skema mislearre
 sub-update-title = Fakturaasjegegevens
 sub-update-card-ending = Kaart einigjend op { $last }
 sub-update-card-exp = Ferrint { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
+    brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
+    wurdt jo it folsleine bedrach yn rekkening brocht.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>deistich mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } dagen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>wykliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } wiken mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>moanliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } moannen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>jierliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
 
 ##
 
@@ -203,6 +232,30 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Foar { $name } wurdt deistich { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+       *[other] Foar { $name } wurdt elke { $intervalCount } dagen { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Foar { $name } wurdt wykliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+       *[other] Foar { $name } wurdt elke { $intervalCount } wiken { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Foar { $name } wurdt moanliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+       *[other] Foar { $name } wurdt elke { $intervalCount } moannen { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Foar { $name } wurdt jierliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+       *[other] Foar { $name } wurdt elke { $intervalCount } jier { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+    }
 
 ##
 
