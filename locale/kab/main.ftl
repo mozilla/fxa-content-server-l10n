@@ -191,9 +191,30 @@ sub-customer-error =
 plan-details-header = Talqayt n ufaris
 plan-details-show-button = Sken talqayt
 plan-details-hide-button = Ffer talqayt
+plan-details-total-label = Asemday
 
 ## payment confirmation
 
+payment-confirmation-alert = Sit dagi i usider
+payment-confirmation-mobile-alert = Ur tezmireḍ ara ad d-teldiḍ asnas? <a>Sit dagi</a>
+payment-confirmation-heading = Tanemmirt { $displayName }!
+payment-confirmation-heading-bak = Tanemirt!
+payment-confirmation-subheading = Imayl n usentem yettwazen ɣer
+payment-confirmation-order-heading = Talqayt n usuter
+payment-confirmation-details-heading = Talqayt n usellek
+payment-confirmation-amount = { $amount } s { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } n wass
+       *[other] { $amount } n yal { $intervalCount } ass
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } n dduṛt
+       *[other] { $amount } yal { $intervalCount } dduṛt
+    }
