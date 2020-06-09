@@ -23,6 +23,9 @@ basic-error-message = Noe gikk galt. Prøv igjen senere.
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensen din. Prøv et annet kort.
+charge-exceeds-source-limit = Det ser ut til at denne transaksjonen vil overskride den daglige kredittgrensen din. Prøv et annet kort eller om 24 timer.
+instant-payouts-unsupported = Det ser ut som at betalingskortet ditt ikke er konfigurert for øyeblikkelige betalinger. Prøv et annet betalingskort.
+coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 
 ## settings
 
@@ -260,7 +263,7 @@ reactivate-success-button = Lukk
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-missing = Problem med å laste abonnement
+sub-item-missing = Problem med å laste inn abonnement
 sub-item-missing-msg = Prøv igjen senere.
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 sub-item-cancel-sub = Avbryt abonnement
@@ -279,6 +282,18 @@ sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 sub-route-idx-cancel-failed = Avbryting av abonnement mislyktes
 sub-route-idx-contact = Kontakt support
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name }-abonnementet ditt er sagt opp.
+          <br />
+          Du vil fortsatt ha tilgang til { $name } til den { $date }.
+sub-route-idx-cancel-aside = Har du spørsmål? Besøk <a>{ -brand-name-mozilla } brukerstøtte</a>.
+sub-subscription-error =
+    .title = Problem med å laste inn abonnement
+sub-customer-error =
+    .title = Problem med å laste inn kunde
+sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
 
 ## subscription create
 
