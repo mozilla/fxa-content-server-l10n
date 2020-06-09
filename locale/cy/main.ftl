@@ -97,12 +97,26 @@ product-profile-error =
 product-customer-error =
     .title = Anhawster llwytho cwsmer
 product-plan-not-found = Heb ganfod y cynllun
+product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
 ## payment legal blurb
 
+payment-legal-copy = Mae { -brand-name-mozilla } yn defnyddio Stripe ar gyfer prosesu taliadau diogel.
+payment-legal-link = Gweld <a>polisi preifatrwydd Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Enw Llawn
+    .label = Enw fel mae'n ymddangos ar eich cerdyn
+payment-ccn =
+    .label = Rhif y cerdyn
+payment-exp =
+    .label = Dod i ben:
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Cod post
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
