@@ -198,12 +198,20 @@ reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Ojejokóma mboheraguapy { $date } jave.
+reactivate-panel-copy = Ndaikatuma’ãi eike { $name }-pe <strong>{ $date }</strong>.
+reactivate-success-copy = ¡Aguyje! Oĩmbáma.
 reactivate-success-button = Mboty
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Apañuãi emyanyhẽvo mboheraguapy
+sub-item-missing-msg = Eha’ãjey ag̃amieve.
+sub-item-no-such-plan = Ndaipóri tembiaporã ko mboheraguapýpe g̃uarã.
+sub-item-cancel-sub = Mboheraguapy jeheja
+sub-item-stay-sub = Mboheraguapy guereko
 
 ## subscription route index
 
