@@ -109,25 +109,70 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Annulearje
+payment-update-btn = Bywurkje
+payment-pay-btn = No betelje
+payment-validate-name-error = Fier jo namme yn
+payment-validate-zip-required = Postkoade is fereaske
+payment-validate-zip-short = Postkoade is te koart
 
 ## subscription redirect
 
+sub-redirect-ready = Jo abonnemint is klear
+sub-redirect-copy = Nim efkes de tiid om ús te fertellen oer jo ûnderfining.
+sub-redirect-skip-survey = Nee tank, nim my nei myn produkt.
 
 ## fields
 
+default-input-error = Dit fjild is ferplichte
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Jo opwurdearring besjen
+sub-update-failed = Bywurkjen skema mislearre
+sub-update-title = Fakturaasjegegevens
+sub-update-card-ending = Kaart einigjend op { $last }
+sub-update-card-exp = Ferrint { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Opwurdearjen befêstigje
+sub-update-indicator =
+    .aria-label = opwurdear-yndikator
+sub-update-current-plan-label = Aktuele skema
+sub-update-new-plan-label = Nij skema
+sub-update-total-label = Nij totaalbedrach
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] deistich { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] wykliks { $amount }
+       *[other] elke { $intervalCount } wiken { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] moanliks { $amount }
+       *[other] elke { $intervalCount } moannen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] jierliks { $amount }
+       *[other] elke { $intervalCount } jier { $amount }
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -137,13 +182,18 @@ payment-zip =
 
 ##
 
+pay-update-card-exp = Ferrint op { $expirationDate }
+pay-update-change-btn = Wizigje
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Wolle jo { $name } brûke bliuwe?
+reactivate-confirm-button = Opnij ynskriuwe
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Jo hawwe jo abonnemint op { $date } opsein.
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
@@ -161,6 +211,37 @@ payment-zip =
 
 ## payment confirmation
 
+payment-confirmation-order-heading = Bestelgegevens
+payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
+payment-confirmation-billing-heading = Rekkening foar
+payment-confirmation-details-heading = Betellingsgegevens
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] deistich { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] wykliks { $amount }
+       *[other] elke { $intervalCount } wiken { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] moanliks { $amount }
+       *[other] elke { $intervalCount } moannen { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] jierliks { $amount }
+       *[other] elke { $intervalCount } jier { $amount }
+    }
+payment-confirmation-cc-preview = einigjend op { $last4 }
+payment-confirmation-download-button = Trochgean mei download
