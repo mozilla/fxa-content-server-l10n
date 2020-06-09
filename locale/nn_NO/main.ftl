@@ -232,6 +232,7 @@ account-activated = Kontoen din er aktivert, <userEl/>
 
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-contact = Kontakt support
+sub-route-idx-cancel-msg-title = Vi synest at det er synd at du seier opp abonnementet ditt
 
 ## subscription create
 
