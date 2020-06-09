@@ -188,8 +188,9 @@ sub-customer-error =
 
 ## plan-details
 
-plan-details-header = Telqayt n ufaris
-plan-details-show-button = Sken telqeyt
+plan-details-header = Talqayt n ufaris
+plan-details-show-button = Sken talqayt
+plan-details-hide-button = Ffer talqayt
 
 ## payment confirmation
 
