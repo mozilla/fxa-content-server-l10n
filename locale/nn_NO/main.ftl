@@ -106,6 +106,12 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+    }
 
 ##
 
