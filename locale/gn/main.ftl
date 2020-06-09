@@ -241,3 +241,4 @@ payment-confirmation-details-heading = Mba’éicha ehepyme’ẽta
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Emboguejy ehóvo
