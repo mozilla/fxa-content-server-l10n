@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 09:12+0000\n"
+"PO-Revision-Date: 2020-06-09 09:20+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -248,15 +248,15 @@ msgstr "Firefox-account ferifiearre. Jo binne hast klear."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "It folgjende: syngronisearje tusken jo apparaten!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sync hâldt op persoanlike wize jo blêdwizers, wachtwurden en oare Firefox-gegevens op al jo apparaten itselde."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "It folgjende apparaat ynstelle"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -412,13 +412,15 @@ msgstr "Help ús dit te werstellen troch binnen trije dagen jo betellingsgegeven
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Tank foar it opnij aktivearjen fan jo abonnemint op %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Jo betellingssyklus en betelling bliuwe itselde. Jo folgjende ôfskriuwing is $%(invoiceTotal)s op %(nextInvoiceDateOnly)s ta lêste fan de %(cardType)s-kaart dy't einiget op %(lastFour)s. Jo "
+"abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om te annulearjen."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -574,7 +576,7 @@ msgstr "Sa gau as dit befêstige is, helpe wy jo Firefox op op syn minst ien oar
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Of ynstallearje it op <a %(cadLinkAttributes)s>in oar apparaat</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -630,7 +632,7 @@ msgstr "Betingsten en annulearringsbelied"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Abonnemint opnij aktivearje"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -751,7 +753,7 @@ msgstr "Account beheare"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Account ferifiearre. Syngronisearje as folgjende stap in oar apparaat om it ynstellen te foltôgjen"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
@@ -811,7 +813,7 @@ msgstr "Jo abonnemint op %(productName)s is opsein"
 
 #: lib/senders/email.js:2075
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Abonnemint op %(productName)s opnij aktivearre"
 
 #: lib/senders/email.js:2143
 msgid "%(productName)s payment received"
@@ -842,7 +844,7 @@ msgstr "Side net fûn"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr ""
+msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werstelle."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -856,7 +858,7 @@ msgstr "Flater 500"
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "Och heden, der gie wat mis. Wy binne op de hichte brocht en gean oan in oplossing wurkje."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -870,7 +872,7 @@ msgstr "Server beset, probearje it letter opnij"
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
-msgstr ""
+msgstr "Wy stean op dit stuit ûnder hege druk en wurkje oan in sa gau as mooglik werstel fan it systeem."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
