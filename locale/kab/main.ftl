@@ -117,6 +117,30 @@ sub-update-total-label = Asemday amaynut
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } n wass
+       *[other] { $amount } yal { $intervalCount } ass
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } n dduṛt
+       *[other] { $amount } yal { $intervalCount } dduṛt
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } n wayyur
+       *[other] { $amount } yal { $intervalCount } ayyur
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } n useqqas
+       *[other] { $amount } yal { $intervalCount } aseqqas
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -126,10 +150,14 @@ sub-update-total-label = Asemday amaynut
 
 ##
 
+pay-update-card-exp = Ad yemmes { $expirationDate }
+pay-update-change-btn = Snifel
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Tebɣiḍ ad tkemmleḍ deg useqdec { $name }?
+reactivate-confirm-button = Ales ajerred
 
 ##  $date (Date) - Last day of product access
 
