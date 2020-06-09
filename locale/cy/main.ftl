@@ -47,9 +47,56 @@ product-plan-details-heading = Gadewch i ni osod eich tanysgrifiad
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [zero] Mae { $productName } yn cael ei filio { $amount } bob{ $intervalCount } diwrnod
+        [one] Mae { $productName } yn cael ei filio { $amount } yn ddyddiol
+        [two] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } ddiwrnod
+        [few] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } diwrnod
+        [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } niwrnod
+       *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } diwrnod
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
+        [one] Mae { $productName } yn cael ei filio { $amount } yn wythnosol
+        [two] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
+        [few] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
+        [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
+       *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
+        [one] Mae { $productName } yn cael ei filio { $amount } yn fisol
+        [two] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
+        [few] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
+        [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
+       *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } blwyddyn
+        [one] Mae { $productName } yn cael ei filio { $amount } yn flynyddol
+        [two] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } flynedd
+        [few] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } blynedd
+        [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mlynedd
+       *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } blynedd
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Anhawster llwytho cynlluniau
+product-profile-error =
+    .title = Anhawster llwytho proffiliau
+product-customer-error =
+    .title = Anhawster llwytho cwsmer
+product-plan-not-found = Heb ganfod y cynllun
 
 ## payment legal blurb
 
