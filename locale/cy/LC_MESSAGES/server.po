@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-01 09:35+0000\n"
+"PO-Revision-Date: 2020-06-09 13:51+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -244,19 +244,19 @@ msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Fire
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Cyfrif Firefox wedi'i wirio. Rydych chi bron yno."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "nesaf, cydweddwch eich dyfeisiau!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Mae Sync yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ar draws eich holl ddyfeisiau."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "Gosod y ddyfais nesaf"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -318,11 +318,11 @@ msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddian
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o $"
-"%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
+"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o "
+"$%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -438,11 +438,11 @@ msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNa
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o $"
-"%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
+"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o "
+"$%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -574,7 +574,7 @@ msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysy
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Neu, gosod ar <a%(cadLinkAttributes)s> dyfais arall </a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -751,7 +751,7 @@ msgstr "Rheoli cyfrif"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
@@ -1141,8 +1141,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> "
-#~ "a <a href='%(iosUrl)s'>iOS</a>."
+#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a <a"
+#~ " href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1314,8 +1314,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Ailosod y cyfrinair"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Ychydig ddyddiau'n ôl, roeddech wedi creu Cyfrif Firefox ond heb ei wirio. Mae cyfrif wedi ei wirio'n caniatáu i chi gael mynediad at eich tabiau, nodau tudalen, cyfrineiriau a hanes ar unrhyw "
 #~ "ddyfais sydd wedi cysylltu iddo. Cadarnhewch y cyfeiriad e-bost hwn i wirio eich cyfrif."
@@ -1342,11 +1342,9 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Dilysu e-byst ar gyfer Cyfrif Firefox"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr ""
-#~ "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
+#~ msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel e-bost eilradd i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi nawr yn cael eu hanfon i'r ddau gyfeiriad e-bost."
 
