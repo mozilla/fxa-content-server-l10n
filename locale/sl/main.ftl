@@ -78,6 +78,7 @@ default-input-error = To polje je obvezno
 ## subscription upgrade
 
 sub-update-failed = Posodobitev načrta ni uspela
+sub-update-card-exp = Poteče { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -85,6 +86,7 @@ sub-update-failed = Posodobitev načrta ni uspela
 ##
 
 sub-update-current-plan-label = Trenutni načrt
+sub-update-new-plan-label = Nov načrt
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -115,6 +117,7 @@ reactivate-success-button = Zapri
 
 sub-item-missing = Težava pri nalaganju naročnin
 sub-item-missing-msg = Poskusite znova kasneje.
+sub-item-no-such-plan = Za to naročnino ni takega načrta.
 sub-item-cancel-sub = Prekliči naročnino
 
 ## subscription route index
@@ -128,13 +131,16 @@ sub-subscription-error =
 
 ## plan-details
 
+plan-details-header = Podrobnosti izdelka
 plan-details-hide-button = Skrij podrobnosti
 plan-details-total-label = Skupaj
 
 ## payment confirmation
 
+payment-confirmation-alert = Kliknite tukaj za prenos
 payment-confirmation-heading-bak = Hvala!
 payment-confirmation-subheading = Potrditvena e-pošta je bila poslana na
+payment-confirmation-order-heading = Podrobnosti naročila
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
