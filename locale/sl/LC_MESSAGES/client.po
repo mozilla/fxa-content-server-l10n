@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 09:22+0000\n"
+"PO-Revision-Date: 2020-06-09 09:25+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -2097,7 +2097,7 @@ msgstr "Pripravljeno za skeniranje"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Povežite svojo mobilno napravo</h1><p>s QR-kodo, ki smo jo ustvarili za vas</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -2109,11 +2109,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Namestite Firefox in ga odprite v svoji napravi"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "Prijavite se v svoj račun"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Prijavite se v svoj račun"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2157,7 +2157,7 @@ msgstr "Potrdite geslo za %(escapedEmail)s, da ustvarite obnovitveni ključ."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Vnesite obnovitveni ključ, da potrdite, da ste shranili kopijo."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
@@ -2273,7 +2273,7 @@ msgstr "Naprava povezana"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Uspešno povezano"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2313,7 +2313,7 @@ msgstr "Prenesite aplikacijo"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Naprava uspešno seznanjena"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."

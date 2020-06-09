@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-08 08:06+0000\n"
+"PO-Revision-Date: 2020-06-09 09:30+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -295,11 +295,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a %(cancellationSurveyLinkAttributes)s>kratko anketo</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Pomagajte nam izboljšati naše storitve, tako da izpolnite to kratko anketo."
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -383,7 +383,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Pri zadnjem plačilu za %(productName)s je prišlo do težave."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."

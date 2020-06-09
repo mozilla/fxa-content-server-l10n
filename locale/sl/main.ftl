@@ -31,6 +31,8 @@ privacy = Obvestilo o zasebnosti
 
 ## plan details
 
+product-plan-details-heading = Nastavimo vašo naročnino
+product-plan-details-heading = Nastavimo vašo naročnino
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -44,6 +46,7 @@ product-plan-not-found = Načrta ni mogoče najti
 
 ## payment legal blurb
 
+payment-legal-link = Oglejte si <a>obvestilo o zasebnosti Stripe</a>.
 
 ## payment form
 
@@ -59,7 +62,9 @@ payment-zip =
 
 payment-cancel-btn = Prekliči
 payment-update-btn = Posodobi
+payment-pay-btn = Plačaj zdaj
 payment-validate-name-error = Vnesite svoje ime
+payment-validate-zip-required = Poštna številka je obvezna
 payment-validate-zip-short = Poštna številka je prekratka
 
 ## subscription redirect
@@ -72,6 +77,7 @@ default-input-error = To polje je obvezno
 
 ## subscription upgrade
 
+sub-update-failed = Posodobitev načrta ni uspela
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
