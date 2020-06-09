@@ -96,6 +96,9 @@ default-input-error = Urti-a yettwasra
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Senqed lqem-inek/inem
+sub-update-failed = Aɣwas n uleqqem ur yeddi ara
+sub-update-title = Talɣut n tufacturt
 sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
@@ -104,6 +107,12 @@ sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-update-submit = Sentem aleqqem
+sub-update-indicator =
+    .aria-label = Leqqem anammal
+sub-update-current-plan-label = Aɣawas amiran
+sub-update-new-plan-label = Aɣawas amaynut
+sub-update-total-label = Asemday amaynut
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
