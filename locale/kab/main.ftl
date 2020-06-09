@@ -178,12 +178,18 @@ sub-route-idx-cancel-failed = Tuffɣa seg ujerred ur teddi ara
 sub-route-idx-contact = Nermes tallalt
 sub-route-idx-cancel-msg-title = Neḥzen imi truḥeḍ
 sub-route-idx-cancel-aside = Tesεiḍ asteqsi? Rzu ɣer <a>{ -brand-name-mozilla } tallalt</a>.
+sub-subscription-error =
+    .title = Ugur deg usali n yijerriden
+sub-customer-error =
+    .title = Ugur deg usali n umsaɣ
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = Telqayt n ufaris
+plan-details-show-button = Sken telqeyt
 
 ## payment confirmation
 
