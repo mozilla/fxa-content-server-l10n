@@ -160,20 +160,40 @@ plan-price-week =
         [one] { $amount } arapokõindýpe
        *[other] { $amount } peteĩ { $intervalCount } arapokõindýpe
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } jasýpe
+       *[other] { $amount } peteĩ { $intervalCount } jasýpe
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } arýpe
+       *[other] { $amount } peteĩ { $intervalCount } arýpe
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme'ẽ oikóta { $date }-pe.
+       *[other] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme'ẽ oikóta { $date }-pe.
+    }
 
 ##
 
+pay-update-card-exp = Hu’ãta { $expirationDate }
 pay-update-change-btn = Moambue
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ¿Eipuruse gueteri { $name }?
 reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
