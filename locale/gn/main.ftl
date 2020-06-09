@@ -148,6 +148,18 @@ sub-update-total-label = Ipyahupaite
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } aragua
+       *[other] { $amount } peteĩ { $intervalCount } ára
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } arapokõindýpe
+       *[other] { $amount } peteĩ { $intervalCount } arapokõindýpe
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
