@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-08 08:03+0000\n"
+"PO-Revision-Date: 2020-06-09 09:22+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -425,7 +425,7 @@ msgstr "Težave z računom"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Tehnične težave"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
@@ -601,7 +601,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Ta e-poštna naslov že obstaja v vašem računu"
 
 #: .es5/lib/auth-errors.js:180
 msgid "Primary account email required for sign-in"
@@ -2065,7 +2065,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Za zdaj sem končal"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "To bom storil kasneje, pošljite mi opomnik"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Pripravljeno za skeniranje"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
