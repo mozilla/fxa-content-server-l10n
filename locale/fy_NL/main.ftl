@@ -106,6 +106,30 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>deistich mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } dagen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>wykliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } wiken mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>moanliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } moannen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>jierliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
+    }
 
 ##
 
