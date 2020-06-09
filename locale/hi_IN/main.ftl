@@ -21,9 +21,12 @@ insufficient-funds-error = लगता है आपके कार्ड म�
 
 ## settings
 
+settings-subscriptions = सदस्यता एवं भुगतान
 
 ## legal footer
 
+terms = सेवा की शर्तें
+privacy = गोपनीयता सूचना
 
 ## plan details
 
@@ -40,15 +43,30 @@ insufficient-funds-error = लगता है आपके कार्ड म�
 
 ## payment form
 
+payment-name =
+    .placeholder = पूरा नाम
+    .label = नाम जो आपके कार्ड पर दर्शाया होता है
+payment-ccn =
+    .label = कार्ड संख्या
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = ZIP कोड
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = रद्द करें
+payment-update-btn = अपडेट करें
+payment-pay-btn = अभी भुगतान करें
+payment-validate-name-error = कृपया अपना नाम दर्ज करें
 
 ## subscription redirect
 
+sub-redirect-ready = आपकी सदस्यता तैयार है
+sub-redirect-copy = कृपया हमें अपने अनुभव के बारे में बताने के लिए कुछ समय दें।
 
 ## fields
 
@@ -65,6 +83,30 @@ insufficient-funds-error = लगता है आपके कार्ड म�
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } प्रतिदिन
+       *[other] { $amount } हर { $intervalCount } दिन
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } साप्ताहिक
+       *[other] { $amount } हर { $intervalCount } सप्ताह
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } मासिक
+       *[other] { $amount } हर { $intervalCount } महीने
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } वार्षिक
+       *[other] { $amount } हर { $intervalCount } वर्ष
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
