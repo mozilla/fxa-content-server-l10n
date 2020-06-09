@@ -305,7 +305,7 @@ sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 sub-route-idx-cancel-failed = Avbryting av abonnement mislyktes
 sub-route-idx-contact = Kontakt support
-sub-route-idx-cancel-msg-title = Det er synd å se deg forlate oss
+sub-route-idx-cancel-msg-title = Vi synes at det er synd at du sier opp abonnementet ditt
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
