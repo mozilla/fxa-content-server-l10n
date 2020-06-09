@@ -161,6 +161,10 @@ reactivate-confirm-button = Ales ajerred
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Teffɣeḍ seg ujerred-inek/inem deg { $date }.
+reactivate-panel-copy = Ad ak-iṛuh unekcum ɣer { $name } deg<strong>{ $date }</strong>.
+reactivate-success-copy = Tanemmirt! Aql-ak/akem twejdeḍ.
+reactivate-success-button = Mdel
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
