@@ -20,12 +20,16 @@ close-aria =
 
 general-error-heading = Generell applikasjonsfeil
 basic-error-message = Noe gikk galt. Prøv igjen senere.
+payment-error-1 = Hmm. Det oppstod et problem med å godkjenne betalingen din. Prøv igjen eller ta kontakt med kortutstederen din.
+payment-error-2 = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensen din. Prøv et annet kort.
 charge-exceeds-source-limit = Det ser ut til at denne transaksjonen vil overskride den daglige kredittgrensen din. Prøv et annet kort eller om 24 timer.
 instant-payouts-unsupported = Det ser ut som at betalingskortet ditt ikke er konfigurert for øyeblikkelige betalinger. Prøv et annet betalingskort.
+duplicate-transaction = Hmm. Det ser ut som en identisk transaksjon nettopp ble utført. Sjekk betalingshistorikken.
 coupon-expired = Det ser ut som at kampanjekoden har gått ut.
+card-error = Transaksjonen din kunne ikke behandles. Kontroller betalingskortinformasjonen din og prøv igjen.
 
 ## settings
 
@@ -72,6 +76,14 @@ year-based-plan-details-amount =
 
 ## Product route
 
+product-plan-error =
+    .title = Problem med å laste planene dine
+product-profile-error =
+    .title = Problem med å laste profil
+product-customer-error =
+    .title = Problem med å laste inn kunde
+product-plan-not-found = Fant ikke planen
+product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
@@ -250,6 +262,13 @@ pay-update-change-btn = Endre
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vil du fortsette å bruke { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Din tilgang til { $name } vil fortsette, og faktureringssyklusen din
+    og betalingen vil forbli den samme. Din neste betaling blir
+    på { $amount } den { $endDate } til kortet som slutter på { $last }.
 reactivate-confirm-button = Abonner på nytt
 
 ##  $date (Date) - Last day of product access
@@ -282,6 +301,7 @@ sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 sub-route-idx-cancel-failed = Avbryting av abonnement mislyktes
 sub-route-idx-contact = Kontakt support
+sub-route-idx-cancel-msg-title = Det er leit at du forsvinner
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
