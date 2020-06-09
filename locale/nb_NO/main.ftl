@@ -158,6 +158,10 @@ sub-update-failed = Planoppdatering mislyktes
 sub-update-title = Faktureringsinformasjon
 sub-update-card-ending = Kortet slutter på { $last }
 sub-update-card-exp = Utløper { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Planen din vil endres umiddelbart, og du vil bli belastet en justert
+    beløp for resten av faktureringssyklusen. Fra og med { $startingDate }
+    belastes du hele beløpet.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -301,7 +305,7 @@ sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-reactivating = Reaktivering av abonnement mislyktes
 sub-route-idx-cancel-failed = Avbryting av abonnement mislyktes
 sub-route-idx-contact = Kontakt support
-sub-route-idx-cancel-msg-title = Det er leit at du forsvinner
+sub-route-idx-cancel-msg-title = Det er synd å se deg forlate oss
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
