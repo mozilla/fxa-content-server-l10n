@@ -120,6 +120,16 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob dydd</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } ddiwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } niwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i filio fy null talu <strong>{ $amount } bob { $intervalCount } diwrnod</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
+    }
 
 ##
 
