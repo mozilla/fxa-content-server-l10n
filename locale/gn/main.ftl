@@ -215,6 +215,12 @@ sub-item-stay-sub = Mboheraguapy guereko
 
 ## subscription route index
 
+sub-route-idx-cancel-aside = ¿Eporandusépa? Eike <a>{ -brand-name-mozilla } Pytyvõha</a>.
+sub-subscription-error =
+    .title = Apañuãi emyanyhẽvo mboheraguapy
+sub-customer-error =
+    .title = Apañuãi emyanyhẽvo ñemuhára
+sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
 
 ## subscription create
 
@@ -238,7 +244,14 @@ payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
 payment-confirmation-details-heading = Mba’éicha ehepyme’ẽta
+payment-confirmation-amount = { $amount } { $interval } rehe
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } aragua
+       *[other] { $amount } peteĩ { $intervalCount } aragua
+    }
 payment-confirmation-download-button = Emboguejy ehóvo
