@@ -155,6 +155,12 @@ default-input-error = Este campo é obrigatório
 product-plan-upgrade-heading = Reveja a sua atualização
 sub-update-failed = Falha na atualização do plano
 sub-update-title = Informação de pagamento
+sub-update-card-ending = Cartão que termina com { $last }
+sub-update-card-exp = Expira em { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    O seu plano irá mudar imediatamente e você vai ser cobrado um valor ajustado 
+    durante o resto do seu ciclo de pagamento. A partir de { $startingDate }
+    você será cobrado o valor total.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
