@@ -126,6 +126,7 @@ payment-confirm-year =
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } anualmente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
     }
+payment-confirm = Autorizo à Mozilla, fabricante dos produtos Firefox, cobrar com meu método de pagamento <strong>${ $amount } por { $interval }</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
 
 ##
 
@@ -149,6 +150,7 @@ default-input-error = Este campo é obrigatório
 
 product-plan-upgrade-heading = Confira sua atualização
 sub-update-failed = Falha na atualização do plano
+sub-update-title = Informações de cobrança
 sub-update-card-ending = Cartão terminando em { $last }
 sub-update-card-exp = Validade { $cardExpMonth }/{ $cardExpYear }
 
@@ -207,6 +209,7 @@ pay-update-change-btn = Alterar
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Quer continuar usando o { $name }?
+reactivate-confirm-button = Assinar novamente
 
 ##  $date (Date) - Last day of product access
 
@@ -223,6 +226,7 @@ sub-item-missing = Problema ao carregar assinaturas
 sub-item-missing-msg = Tente novamente mais tarde.
 sub-item-no-such-plan = Não existe esse plano para esta assinatura.
 sub-item-cancel-sub = Cancelar assinatura
+sub-item-stay-sub = Manter assinatura
 account-activated = Sua conta foi ativada, <userEl/>
 
 ## subscription route index
@@ -231,6 +235,7 @@ sub-route-idx-updating = Atualizando informações de cobrança...
 sub-route-idx-reactivating = Falha na reativação da assinatura
 sub-route-idx-cancel-failed = Falha no cancelamento da assinatura
 sub-route-idx-contact = Entre em contato com o suporte
+sub-route-idx-cancel-msg-title = Lamentamos ver você partir.
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
