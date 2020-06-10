@@ -219,9 +219,15 @@ sub-item-missing-msg = Eha’ãjey ag̃amieve.
 sub-item-no-such-plan = Ndaipóri tembiaporã ko mboheraguapýpe g̃uarã.
 sub-item-cancel-sub = Mboheraguapy jeheja
 sub-item-stay-sub = Mboheraguapy guereko
+account-activated = Pe mba’ete hendyhína, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu...
+sub-route-idx-reactivating = Ojavy pe mboheraguapy myandyjey
+sub-route-idx-cancel-failed = Ojavy pe mboheraguapy jehejarei
+sub-route-idx-contact = Eñe’ẽ pytyvõhándi
+sub-route-idx-cancel-msg-title = Rombyasy eho haguére
 sub-route-idx-cancel-aside = ¿Eporandusépa? Eike <a>{ -brand-name-mozilla } Pytyvõha</a>.
 sub-subscription-error =
     .title = Apañuãi emyanyhẽvo mboheraguapy
