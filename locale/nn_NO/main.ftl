@@ -223,6 +223,12 @@ pay-update-change-btn = Endre
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vil du halde fram med å bruke { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Tilgangen din til { $name } vil fortsetje, og faktureringssyklusen din
+    og betalinga vil vere den same. Den neste betalinga di kjem på { $amount } den { $endDate } til kortet som sluttar på { $last }.
 reactivate-confirm-button = Abonner ein gong til
 
 ##  $date (Date) - Last day of product access
@@ -262,6 +268,7 @@ sub-route-idx-cancel-msg =
     { $name }-abonnementet ditt er sagt opp.
           <br />
           Du vil framleis ha tilgang til { $name } til den { $date }.
+sub-route-idx-cancel-aside = Har du spørsmål? Besøk <a>{ -brand-name-mozilla } brukarstøtte</a>.
 sub-subscription-error =
     .title = Problem med å laste inn abonnement
 sub-customer-error =
