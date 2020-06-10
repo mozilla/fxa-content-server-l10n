@@ -194,6 +194,13 @@ pay-update-change-btn = Moambue
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = ¿Eipuruse gueteri { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    { $name } jeike oku’ejeýta ha pe ñemuhakuatia rape
+    ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava
+    { $amount } kuatia’atãme opáta { $last }-pe { $endDate } og̃uahẽvo.
 reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
@@ -254,4 +261,23 @@ payment-confirmation-amount-day =
         [one] { $amount } aragua
        *[other] { $amount } peteĩ { $intervalCount } aragua
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } arapokõindygua
+       *[other] { $amount } peteĩ { $intervalCount } arapokõindygua
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } jasygua
+       *[other] { $amount } peteĩ { $intervalCount } jasygua
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } arygua
+       *[other] { $amount } peteĩ { $intervalCount } arygua
+    }
+payment-confirmation-cc-preview = opáma { $last4 }-pe
 payment-confirmation-download-button = Emboguejy ehóvo
