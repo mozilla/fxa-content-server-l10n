@@ -296,6 +296,26 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [one] Rydych yn derbyn bil o { $amount } ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }
+        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } ddiwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } niwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [one] Rydych yn derbyn bil o { $amount } yn wythnosol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+    }
 
 ##
 
