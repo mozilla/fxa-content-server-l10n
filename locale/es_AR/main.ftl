@@ -109,8 +109,20 @@ payment-zip =
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirm-day =
     { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a realizar cargos en mi método de pagos, <strong>{ $amount }diariamente</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
+        [one] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a realizar cargos en mi método de pagos, <strong>{ $amount } diariamente</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
        *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } días</strong>, según mis términos de pago, hasta que cancele mi suscripción.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a cargar en mi método de pagos, <strong>{ $amount } semanalment</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a cargar en mi método de pagos, <strong>{ $amount } cada { $intervalCount } semanas</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a cargar en mi método de pago <strong>{ $amount } mensualmente</strong>, según lo acordado en os términos de pago, hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a cargar en mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>, según lo acordado en os términos de pago, hasta que cancele mi suscripción.
     }
 
 ##
