@@ -150,6 +150,7 @@ sub-update-indicator =
     .aria-label = oppgraderingsindikator
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
+sub-update-total-label = Ny sum
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -243,23 +244,32 @@ account-activated = Kontoen din er aktivert, <userEl/>
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-idx-contact = Kontakt support
 sub-route-idx-cancel-msg-title = Vi synest at det er synd at du seier opp abonnementet ditt
+sub-subscription-error =
+    .title = Problem med å laste inn abonnement
+sub-customer-error =
+    .title = Problem med å laste inn kunde
+sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
 
 ## subscription create
 
+sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 ## plan-details
 
 plan-details-header = Produktdetaljar
 plan-details-show-button = Vis detaljar
 plan-details-hide-button = Skjul detaljar
+plan-details-total-label = Totalt
 
 ## payment confirmation
 
 payment-confirmation-alert = Trykk her for å laste ned
+payment-confirmation-mobile-alert = Opna ikkje appen? <a>Klikk her</a>
 payment-confirmation-heading = Tusen takk { $displayName }!
 payment-confirmation-heading-bak = Tusen takk!
 payment-confirmation-subheading = Ein stadfestingsepost er sendt til
 payment-confirmation-order-heading = Ordredetaljar
+payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 payment-confirmation-billing-heading = Faktura til:
 payment-confirmation-details-heading = Betalningsinformasjon
 payment-confirmation-amount = { $amount } per { $interval }
