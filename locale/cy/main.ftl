@@ -326,21 +326,57 @@ pay-update-billing-description-month =
         [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
        *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [one] Rydych yn derbyn bil o { $amount } yn flynyddol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } flynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mlynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Daw i ben { $expirationDate }
+pay-update-change-btn = Newid
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Am barhau i ddefnyddio { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Bydd eich mynediad i { $name } yn parhau, a bydd eich cylch
+    bilio a thalu yn aros yr un peth. Eich tâl nesaf fydd
+     { $amount } i'r cerdyn sy'n gorffen { $last } ar { $endDate }.
+reactivate-confirm-button = Ail-danysgrifio
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Fe wnaethoch chi ddiddymu'ch tanysgrifiad ar { $date }.
+reactivate-panel-copy = Byddwch yn colli mynediad i { $name } ar <strong>{ $date }</strong>.
+reactivate-success-copy = Diolch! Rydych nawr yn barod.
+reactivate-success-button = Cau
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Anhawster llwytho tanysgrifiadau
+sub-item-missing-msg = Ceisiwch eto'n hwyrach.
+sub-item-no-such-plan = Dim cynllun o'r fath ar gyfer y tanysgrifiad hwn.
+sub-item-cancel-sub = Diddymu'r Tanysgrifiad
+sub-item-stay-sub = Para Wedi Tanysgrifio
+sub-item-cancel-msg =
+    Ni fydd modd i chi ddefnyddio { $name } mwyach ar ôl
+    { $period }, diwrnod olaf eich cylch bilio.
+sub-item-cancel-confirm =
+    Diddymwch fy mynediad a'm manylion sydd wedi'u 
+    cadw o fewn { $name } ar { $period }
 
 ## subscription route index
 
