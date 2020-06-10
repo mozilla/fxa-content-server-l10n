@@ -18,6 +18,7 @@ document =
 
 general-error-heading = Yleinen sovellusvirhe
 basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
+expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 
 ## settings
 
