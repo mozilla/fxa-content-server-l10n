@@ -139,6 +139,10 @@ sub-update-failed = Mislykka planoppdatering
 sub-update-title = Faktureringsinformasjon
 sub-update-card-ending = Kortet sluttar på { $last }
 sub-update-card-exp = Går ut { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Planen din vil endrast med ein gong, og du vil bli belasta eit justert
+    beløp for resten av faktureringssyklusen. Frå og med { $startingDate }
+    vert du belasta med heile beløpet.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -237,13 +241,27 @@ sub-item-missing-msg = Prøv igjen seinare.
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 sub-item-cancel-sub = Avbryt abonnementet
 sub-item-stay-sub = Fortset abonnementet
+sub-item-cancel-msg =
+    Du vil ikkje lenger kunne bruke { $name } etter
+    { $period }, den siste dagen i faktureringssyklusen.
+sub-item-cancel-confirm =
+    Avbryt tilgangen min og den lagra informasjonen min for
+    { $name } den { $period }
 account-activated = Kontoen din er aktivert, <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
+sub-route-idx-reactivating = Reaktivering av abonnement var mislykka
+sub-route-idx-cancel-failed = Avbryting av abonnement var mislykka
 sub-route-idx-contact = Kontakt support
 sub-route-idx-cancel-msg-title = Vi synest at det er synd at du seier opp abonnementet ditt
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name }-abonnementet ditt er sagt opp.
+          <br />
+          Du vil framleis ha tilgang til { $name } til den { $date }.
 sub-subscription-error =
     .title = Problem med å laste inn abonnement
 sub-customer-error =
