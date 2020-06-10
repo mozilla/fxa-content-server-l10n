@@ -377,18 +377,46 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Diddymwch fy mynediad a'm manylion sydd wedi'u 
     cadw o fewn { $name } ar { $period }
+account-activated = Mae eich cyfrif wedi'i agor, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Diweddaru'r manylion bilio...
+sub-route-idx-reactivating = Methodd ail agor tanysgrifiad
+sub-route-idx-cancel-failed = Methodd diddymu'r tanysgrifiad
+sub-route-idx-contact = Cysylltu â Chefnogaeth
+sub-route-idx-cancel-msg-title = Mae'n flin gennym eich gweld chi'n gadael
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Mae eich tanysgrifiad { $name } wedi'i ddiddymu.
+          <br />
+          Bydd gennych fynediad o hyd i { $name } tan { $date }.
+sub-route-idx-cancel-aside = Oes gennych chi gwestiynau? Ewch i <a>Gefnogaeth { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Anhawster llwytho tanysgrifiadau
+sub-customer-error =
+    .title = Anhawster llwytho cwsmer
+sub-billing-update-success = Diweddarwyd eich manylion bilio'n llwyddiannus
 
 ## subscription create
 
+sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 
 ## plan-details
 
+plan-details-header = Manylion cynnyrch
+plan-details-show-button = Dangos manylion
+plan-details-hide-button = Cuddio manylion
+plan-details-total-label = Cyfanswm
 
 ## payment confirmation
 
+payment-confirmation-alert = Cliciwch yma i lwytho i lawr
+payment-confirmation-mobile-alert = Heb agor yr ap? <a>Cliciwch Yma</a>
+payment-confirmation-heading = Diolch { $displayName }!
+payment-confirmation-heading-bak = Diolch!
+payment-confirmation-subheading = Mae e-bost cadarnhau wedi ei anfon at
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
