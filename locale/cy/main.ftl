@@ -316,6 +316,16 @@ pay-update-billing-description-week =
         [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
        *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [one] Rydych yn derbyn bil o { $amount } yn fisol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+    }
 
 ##
 
