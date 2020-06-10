@@ -170,6 +170,7 @@ reactivate-success-button = Mdel
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-sub = Sefsex ajerred
 sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
