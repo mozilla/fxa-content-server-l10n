@@ -13,6 +13,8 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Cau'r moddol
 
 ## app error dialog
 
@@ -248,6 +250,46 @@ sub-update-total-label = Cyfanswm newydd
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [zero] { $amount } yn ddyddiol
+        [one] { $amount } yn ddyddiol
+        [two] { $amount } bob { $intervalCount } ddiwrnod
+        [few] { $amount } bob { $intervalCount } diwrnod
+        [many] { $amount } bob { $intervalCount } niwrnod
+       *[other] { $amount } bob { $intervalCount } diwrnod
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [zero] { $amount } yn wythnosol
+        [one] { $amount } yn wythnosol
+        [two] { $amount } bob { $intervalCount } wythnos
+        [few] { $amount } bob { $intervalCount } wythnos
+        [many] { $amount } bob { $intervalCount } wythnos
+       *[other] { $amount } bob { $intervalCount } wythnos
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [zero] { $amount } yn fisol
+        [one] { $amount } yn fisol
+        [two] { $amount } bob { $intervalCount } fis
+        [few] { $amount } bob { $intervalCount } mis
+        [many] { $amount } bob { $intervalCount } mis
+       *[other] { $amount } bob { $intervalCount } mis
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [zero] { $amount } yn flynyddol
+        [one] { $amount } yn flynyddol
+        [two] { $amount } bob { $intervalCount } flynedd
+        [few] { $amount } bob { $intervalCount } blynedd
+        [many] { $amount } bob { $intervalCount } mlynedd
+       *[other] { $amount } bob { $intervalCount } blynedd
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
