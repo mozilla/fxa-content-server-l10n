@@ -27,14 +27,18 @@ insufficient-funds-error = Parece que seu cartão não tem saldo suficiente. Ten
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá seu limite de crédito. Tente outro cartão.
 charge-exceeds-source-limit = Parece que esta transação excederá seu limite diário de crédito. Tente outro cartão, ou o mesmo após 24 horas.
 instant-payouts-unsupported = Parece que seu cartão de débito não está configurado para pagamentos instantâneos. Tente outro cartão de débito ou crédito.
+duplicate-transaction = Hmm. Parece que uma transação idêntica acabou de ser enviada. Verifique seu histórico de pagamentos.
 coupon-expired = Parece que o código promocional expirou.
 card-error = Não foi possível processar sua transação. Confira as informações do seu cartão de crédito e tente novamente.
 
 ## settings
 
+settings-home = Página inicial da conta
+settings-subscriptions = Assinaturas e pagamentos
 
 ## legal footer
 
+terms = Termos do serviço
 privacy = Aviso de privacidade
 
 ## plan details
@@ -45,6 +49,30 @@ product-plan-details-heading = Vamos configurar sua assinatura
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } cobrado { $amount } diariamente
+       *[other] { $productName } cobrado { $amount } a cada { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } cobrado { $amount } semanalmente
+       *[other] { $productName } cobrado { $amount } a cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } cobrado { $amount } mensalmente
+       *[other] { $productName } cobrado { $amount } a cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } cobrado { $amount } anualmente
+       *[other] { $productName } cobrado { $amount } a cada { $intervalCount } anos
+    }
 
 ## Product route
 
