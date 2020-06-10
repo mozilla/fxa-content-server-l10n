@@ -127,6 +127,7 @@ reactivate-success-button = Sulje
 sub-item-missing = Ongelma ladatessa tilauksia
 sub-item-missing-msg = Yritä myöhemmin uudestaan.
 sub-item-cancel-sub = Peruuta tilaus
+account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index
 
@@ -157,6 +158,7 @@ payment-confirmation-heading = Kiitos, { $displayName }!
 payment-confirmation-heading-bak = Kiitos!
 payment-confirmation-subheading = Vahvistusviesti on lähetetty osoitteeseen
 payment-confirmation-order-heading = Tilauksen tiedot
+payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-details-heading = Maksun tiedot
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
