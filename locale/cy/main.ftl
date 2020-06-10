@@ -417,6 +417,41 @@ payment-confirmation-mobile-alert = Heb agor yr ap? <a>Cliciwch Yma</a>
 payment-confirmation-heading = Diolch { $displayName }!
 payment-confirmation-heading-bak = Diolch!
 payment-confirmation-subheading = Mae e-bost cadarnhau wedi ei anfon at
+payment-confirmation-order-heading = Manylion yr archeb
+payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
+payment-confirmation-billing-heading = Wedi'i filio i
+payment-confirmation-details-heading = Manylion talu
+payment-confirmation-amount = { $amount } fesul { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [zero] { $amount } bob { $intervalCount } diwrnod
+        [one] { $amount } yn ddyddiol
+        [two] { $amount } bob { $intervalCount } ddiwrnod
+        [few] { $amount } bob { $intervalCount } diwrnod
+        [many] { $amount } bob { $intervalCount } niwrnod
+       *[other] { $amount } bob { $intervalCount } diwrnod
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [zero] { $amount } bob { $intervalCount } wythnos
+        [one] { $amount } yn wythnosol
+        [two] { $amount } bob { $intervalCount } wythnos
+        [few] { $amount } bob { $intervalCount } wythnos
+        [many] { $amount } bob { $intervalCount } wythnos
+       *[other] { $amount } bob { $intervalCount } wythnos
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [zero] { $amount } bob { $intervalCount } mis
+        [one] { $amount } yn fisol
+        [two] { $amount } bob { $intervalCount } mis
+        [few] { $amount } bob { $intervalCount } mis
+        [many] { $amount } bob { $intervalCount } mis
+       *[other] { $amount } bob { $intervalCount } mis
+    }
