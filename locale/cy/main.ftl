@@ -253,7 +253,7 @@ sub-update-total-label = Cyfanswm newydd
 #  $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
-        [zero] { $amount } yn ddyddiol
+        [zero] { $amount } bob { $intervalCount } ddiwrnod
         [one] { $amount } yn ddyddiol
         [two] { $amount } bob { $intervalCount } ddiwrnod
         [few] { $amount } bob { $intervalCount } diwrnod
@@ -263,7 +263,7 @@ plan-price-day =
 #  $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
-        [zero] { $amount } yn wythnosol
+        [zero] { $amount } bob { $intervalCount } wythnos
         [one] { $amount } yn wythnosol
         [two] { $amount } bob { $intervalCount } wythnos
         [few] { $amount } bob { $intervalCount } wythnos
@@ -273,7 +273,7 @@ plan-price-week =
 #  $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
-        [zero] { $amount } yn fisol
+        [zero] { $amount } bob { $intervalCount } mis
         [one] { $amount } yn fisol
         [two] { $amount } bob { $intervalCount } fis
         [few] { $amount } bob { $intervalCount } mis
@@ -283,7 +283,7 @@ plan-price-month =
 #  $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
-        [zero] { $amount } yn flynyddol
+        [zero] { $amount } bob { $intervalCount } blynedd
         [one] { $amount } yn flynyddol
         [two] { $amount } bob { $intervalCount } flynedd
         [few] { $amount } bob { $intervalCount } blynedd
@@ -321,10 +321,10 @@ pay-update-billing-description-month =
     { $intervalCount ->
         [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
         [one] Rydych yn derbyn bil o { $amount } yn fisol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } fis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 pay-update-billing-description-year =
@@ -455,3 +455,15 @@ payment-confirmation-amount-month =
         [many] { $amount } bob { $intervalCount } mis
        *[other] { $amount } bob { $intervalCount } mis
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [zero] { $amount } bob { $intervalCount } blwyddyn
+        [one] { $amount } yn flynyddol
+        [two] { $amount } bob { $intervalCount } flynedd
+        [few] { $amount } bob { $intervalCount } blynedd
+        [many] { $amount } bob { $intervalCount } mlynedd
+       *[other] { $amount } bob { $intervalCount } blynedd
+    }
+payment-confirmation-cc-preview = yn gorffen gyda { $last4 }
+payment-confirmation-download-button = Parhau i lwytho i lawr
