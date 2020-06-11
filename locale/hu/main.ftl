@@ -167,6 +167,24 @@ sub-update-confirm-day =
         [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>naponta { $amount } összeggel</strong>, amíg nem törlöm az előfizetést.
        *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetést.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>hetente { $amount } összeggel</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. héten</strong>, amíg nem törlöm az előfizetést.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>havonta { $amount } összeggel</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. hónapban</strong>, amíg nem törlöm az előfizetést.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>évente { $amount } összeggel</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. évben</strong>, amíg nem törlöm az előfizetést.
+    }
 
 ##
 
@@ -208,6 +226,30 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] A(z) { $name } naponta { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
+       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. napon. A következő fizetés időpontja: { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] A(z) { $name } hetente { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
+       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. héten. A következő fizetés időpontja: { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] A(z) { $name } havonta { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
+       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. hónapban. A következő fizetés időpontja: { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] A(z) { $name } évente { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
+       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. éven. A következő fizetés időpontja: { $date }.
+    }
 
 ##
 
@@ -218,6 +260,13 @@ pay-update-change-btn = Módosítás
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Továbbra is szeretné ezt használni: { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    A(z) { $name } hozzáférése folytatódni fog, a számlázási és
+    fizetési időszaka is változatlan marad. A(z) { $last } végű kártya
+    következő terhelése { $amount } lesz, ekkor: { $endDate }.
 reactivate-confirm-button = Előfizetés újra
 
 ##  $date (Date) - Last day of product access
@@ -233,8 +282,15 @@ reactivate-success-button = Bezárás
 
 sub-item-missing = Probléma az előfizetések betöltésekor
 sub-item-missing-msg = Próbálja újra később.
+sub-item-no-such-plan = Nincs ilyen csomag ennél az előfizetésnél.
 sub-item-cancel-sub = Előfizetés lemondása
 sub-item-stay-sub = Előfizetés megtartása
+sub-item-cancel-msg =
+    Az utolsó számlázási periódusa után ({ $period })
+    nem fogja tudni használni a(z) { $name } szolgáltatást.
+sub-item-cancel-confirm =
+    A(z) { $name } szolgáltatás hozzáférésének lemondása,
+    és az abban mentett adatok törlése ekkor: { $period }
 account-activated = A fiókja aktiválva van, <userEl/>
 
 ## subscription route index
