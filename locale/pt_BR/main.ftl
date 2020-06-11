@@ -80,6 +80,8 @@ product-plan-error =
     .title = Problema ao carregar planos
 product-profile-error =
     .title = Problema ao carregar perfil
+product-customer-error =
+    .title = Problema ao carregar o cliente
 product-plan-not-found = Plano não encontrado
 product-no-such-plan = Não existe esse plano para este produto.
 
