@@ -145,6 +145,7 @@ payment-validate-zip-short = O CEP é muito curto
 
 sub-redirect-ready = Sua assinatura está pronta
 sub-redirect-copy = Reserve um momento para nos contar sobre sua experiência.
+sub-redirect-skip-survey = Não, obrigado. Apenas ir ao meu produto.
 
 ## fields
 
@@ -157,9 +158,16 @@ sub-update-failed = Falha na atualização do plano
 sub-update-title = Informações de cobrança
 sub-update-card-ending = Cartão terminando em { $last }
 sub-update-card-exp = Validade { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy = Seu plano mudará imediatamente e será cobrado um valor de ajuste para o restante do seu ciclo de cobrança. A partir de { $startingDate } será cobrado o valor integral.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+       *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+    }
 
 ##
 
