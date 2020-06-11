@@ -109,8 +109,20 @@ payment-zip =
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirm-day =
     { $intervalCount ->
-        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetését.
-       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetését.
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetést.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. héten</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. héten</strong>, amíg nem törlöm az előfizetést.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. hónapban</strong>, amíg nem törlöm az előfizetést.
+       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terheljék meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. hónapban</strong>, amíg nem törlöm az előfizetést.
     }
 
 ##
