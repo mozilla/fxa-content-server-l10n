@@ -168,6 +168,24 @@ sub-update-confirm-day =
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+       *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } mensalmente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+       *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } anualmente</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+       *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até que eu cancele minha assinatura.
+    }
 
 ##
 
@@ -211,6 +229,30 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Você é cobrado { $amount } diariamente por { $name }. O próximo pagamento será em { $date }.
+       *[other] Você é cobrado { $amount } a cada { $intervalCount } dias por { $name }. O próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Você é cobrado { $amount } semanalmente por { $name }. O próximo pagamento será em { $date }.
+       *[other] Você é cobrado { $amount } a cada { $intervalCount } semanas por { $name }. O próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Você é cobrado { $amount } mensalmente por { $name }. O próximo pagamento será em { $date }.
+       *[other] Você é cobrado { $amount } a cada { $intervalCount } meses por { $name }. O próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Você é cobrado { $amount } anualmente por { $name }. O próximo pagamento será em { $date }.
+       *[other] Você é cobrado { $amount } a cada { $intervalCount } anos por { $name }. O próximo pagamento será em { $date }.
+    }
 
 ##
 
