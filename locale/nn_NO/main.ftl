@@ -112,6 +112,12 @@ payment-confirm-day =
         [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
        *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+    }
 
 ##
 
