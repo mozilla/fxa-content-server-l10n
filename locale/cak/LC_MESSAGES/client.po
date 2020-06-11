@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 23:56+0000\n"
+"PO-Revision-Date: 2020-06-11 23:40+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -425,7 +425,7 @@ msgstr "Ruk'ayewal Rub'i' Taqoya'l"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Ajsamajel taq k'ayewal"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
