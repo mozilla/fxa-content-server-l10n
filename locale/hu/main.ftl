@@ -158,6 +158,10 @@ sub-update-failed = Az előfizetés frissítése sikertelen
 sub-update-title = Számlázási információk
 sub-update-card-ending = { $last } végződésű kártya
 sub-update-card-exp = Lejárat: { $cardExpMonth } / { $cardExpYear }
+sub-update-copy =
+    A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
+    módosított összeget fog fizetni. A következő dátumtól kezdve a teljes összeg
+    kerül kiszámlázásra: { $startingDate }.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -189,6 +193,8 @@ sub-update-confirm-year =
 ##
 
 sub-update-submit = Frissítés megerősítése
+sub-update-indicator =
+    .aria-label = frissítésjelző
 sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
 sub-update-total-label = Új összeg
@@ -286,7 +292,7 @@ sub-item-no-such-plan = Nincs ilyen csomag ennél az előfizetésnél.
 sub-item-cancel-sub = Előfizetés lemondása
 sub-item-stay-sub = Előfizetés megtartása
 sub-item-cancel-msg =
-    Az utolsó számlázási periódusa után ({ $period })
+    A számlázási periódusa utolsó napja ({ $period }) után
     nem fogja tudni használni a(z) { $name } szolgáltatást.
 sub-item-cancel-confirm =
     A(z) { $name } szolgáltatás hozzáférésének lemondása,
@@ -300,6 +306,12 @@ sub-route-idx-reactivating = Az előfizetés újraaktiválása sikertelen
 sub-route-idx-cancel-failed = Az előfizetés lemondása sikertelen
 sub-route-idx-contact = Kapcsolatfelvétel az ügyfélszolgálattal
 sub-route-idx-cancel-msg-title = Sajnáljuk, hogy távozik
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    A(z) { $name }-előfizetése lemondva.
+          <br />
+          { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
 sub-route-idx-cancel-aside = Kérdése van? Keresse fel a <a>{ -brand-name-mozilla } Támogatást</a>.
 sub-subscription-error =
     .title = Probléma az előfizetések betöltésekor
