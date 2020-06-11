@@ -183,6 +183,12 @@ sub-update-confirm-month =
         [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar månad</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
        *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } månad</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart { $intervalCount } år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
+    }
 
 ##
 
