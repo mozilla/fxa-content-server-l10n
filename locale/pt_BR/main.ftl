@@ -87,6 +87,8 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
+payment-legal-copy = A { -brand-name-mozilla } usa o Stripe para processamento seguro de pagamentos.
+payment-legal-link = Veja a <a>Política de privacidade do Stripe</a>.
 
 ## payment form
 
@@ -247,6 +249,8 @@ sub-route-idx-cancel-msg =
 sub-route-idx-cancel-aside = Tem dúvidas? Visite o <a>{ -brand-name-mozilla } suporte</a>.
 sub-subscription-error =
     .title = Problema ao carregar assinaturas
+sub-customer-error =
+    .title = Problema ao carregar o cliente
 sub-billing-update-success = Suas informações de cobrança foram atualizadas com sucesso
 
 ## subscription create
@@ -269,6 +273,7 @@ payment-confirmation-heading-bak = Obrigado!
 payment-confirmation-subheading = Um email de confirmação foi enviado para
 payment-confirmation-order-heading = Detalhes do pedido
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Faturado para
 payment-confirmation-details-heading = Detalhes do pagamento
 payment-confirmation-amount = { $amount } por { $interval }
 
