@@ -263,6 +263,10 @@ pay-update-change-btn = Alterar
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Quer continuar usando o { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Você continua tendo acesso ao { $name } e seu ciclo de cobrança e pagamento permanece o mesmo. A próxima cobrança será de { $amount } no cartão com final { $last } em { $endDate }.
 reactivate-confirm-button = Assinar novamente
 
 ##  $date (Date) - Last day of product access
@@ -281,6 +285,10 @@ sub-item-missing-msg = Tente novamente mais tarde.
 sub-item-no-such-plan = Não existe esse plano para esta assinatura.
 sub-item-cancel-sub = Cancelar assinatura
 sub-item-stay-sub = Manter assinatura
+sub-item-cancel-msg = Você não poderá mais usar o { $name } após { $period }, o último dia de seu ciclo de cobrança.
+sub-item-cancel-confirm =
+    Cancele meu acesso e minhas informações salvas dentro do
+    { $name } em { $period }
 account-activated = Sua conta foi ativada, <userEl/>
 
 ## subscription route index
