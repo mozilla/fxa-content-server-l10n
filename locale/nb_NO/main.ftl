@@ -186,8 +186,8 @@ sub-update-confirm-month =
 #  $intervalCount (Number) - The interval between payments, in years.
 sub-update-confirm-year =
     { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } daglig</strong>, i henhold til betalingsbetingelsene, helt til jeg sier opp abonnementet.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } dag</strong>, i henhold til betalingsbetingelsene, helt til jeg sier opp abonnementet.
+        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } årlig</strong>, i henhold til betalingsbetingelsene, helt til jeg sier opp abonnementet.
+       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hvert { $intervalCount } år</strong>, i henhold til betalingsbetingelsene, helt til jeg sier opp abonnementet.
     }
 
 ##
