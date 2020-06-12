@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-05-30 06:56+0000\n"
+"PO-Revision-Date: 2020-06-12 11:03+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -242,19 +242,19 @@ msgstr "Bạn đã vô hiệu hoá thành công xác thực hai bước trên T�
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Tài khoản Firefox đã được xác minh. Bạn đã gần hoàn thành."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Tiếp theo, đồng bộ hóa giữa các thiết bị của bạn!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Đồng bộ hóa riêng tư giữ dấu trang, mật khẩu và dữ liệu Firefox khác giống nhau trên tất cả các thiết bị của bạn."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
 msgid "Setup next device"
-msgstr ""
+msgstr "Cài đặt thiết bị tiếp theo"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -308,8 +308,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
-"thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+"Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
+" thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -317,8 +317,8 @@ msgstr "Bạn đã chuyển thành công từ %(productNameOld)s sang %(productN
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(paymentAmountOld)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ được cấp tín "
 "dụng một lần là $%(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycle)s này."
@@ -435,8 +435,8 @@ msgstr "Bạn đã nâng cấp thành công từ %(productNameOld)s thành %(pro
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(productPaymentCycle)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí "
 "một lần là $%(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
@@ -571,7 +571,7 @@ msgstr "Sau khi xác nhận, chúng tôi sẽ giúp bạn cài đặt và kết 
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Hoặc, cài đặt trên <a %(cadLinkAttributes)s>thiết bị khác</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -748,7 +748,7 @@ msgstr "Quản lý tài khoản"
 
 #: lib/senders/email.js:1200
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Đã xác minh tài khoản. Tiếp theo, đồng bộ hóa thiết bị khác để hoàn tất thiết lập"
 
 #: lib/senders/email.js:1284
 msgid "Primary email updated"
