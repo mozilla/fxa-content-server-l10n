@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-12 16:38+0000\n"
+"PO-Revision-Date: 2020-06-12 16:44+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker Firefox-kontoen din, og følg trinnene som vil bli presentert for deg."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -333,7 +333,7 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Vi har kansellert ditt abonnement på %(productName)s. Den siste betalingen din på $%(invoiceTotal)s ble betalt den %(invoiceDateOnly)s. Tjenesten fortsetter til slutten av gjeldende "
+"Vi har kansellert ditt abonnement på %(productName)s. Den siste betalingen din på %(invoiceTotal)s ble betalt den %(invoiceDateOnly)s. Tjenesten fortsetter til slutten av gjeldende "
 "faktureringsperiode, som er %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
