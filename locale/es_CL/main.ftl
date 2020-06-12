@@ -22,12 +22,23 @@ general-error-heading = Error general de la aplicación
 basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 payment-error-1 = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
 payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra tarjeta.
+insufficient-funds-error = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra tarjeta.
+withdrawal-count-limit-exceeded-error = Parece que esta transacción será mayor a tu cupo de crédito. Prueba con otra tarjeta.
+charge-exceeds-source-limit = Parece que esta transacción será mayor a tu cupo diario de crédito. Prueba con otra tarjeta o en 24 horas más.
+instant-payouts-unsupported = Parece que tu tarjeta de débito no está configurada para pagos instantáneos. Prueba con otra tarjeta de débito o crédito.
+duplicate-transaction = Hmm Parece que se acaba de enviar una transacción idéntica. Revisa tu historial de pagos.
+coupon-expired = Parece que ese código promocional ha expirado.
+card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
 
 ## settings
 
+settings-subscriptions = Suscripciones y pagos
 
 ## legal footer
 
+terms = Términos del servicio
+privacy = Aviso de privacidad
 
 ## plan details
 
@@ -38,9 +49,19 @@ payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto 
 
 ## Product route
 
+product-plan-error =
+    .title = Problemas al cargar los planes
+product-profile-error =
+    .title = Problemas al cargar el perfil
+product-customer-error =
+    .title = Problemas al cargar el consumidor
+product-plan-not-found = Plan no encontrado
+product-no-such-plan = No existe ese plan para este producto.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } usa Stripe para el procesamiento seguro de pagos.
+payment-legal-link = Mira la <a>política de privacidad de Stripe</a>.
 
 ## payment form
 
@@ -61,15 +82,28 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Cancelar
+payment-update-btn = Actualizar
+payment-pay-btn = Pagar ahora
+payment-validate-name-error = Por favor, ingresa tu nombre
+payment-validate-zip-required = Se requiere el código postal
+payment-validate-zip-short = El código postal es muy corto
 
 ## subscription redirect
 
+sub-redirect-ready = Tu suscripción está lista
 
 ## fields
 
+default-input-error = Este campo es requerido
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Revisa tu mejora
+sub-update-failed = Fallo la actualización del plan
+sub-update-title = Información de pago
+sub-update-card-ending = Tarjeta terminada en { $last }
+sub-update-card-exp = Vence el { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
