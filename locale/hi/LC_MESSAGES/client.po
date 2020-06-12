@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-03-20 12:02+0000\n"
-"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
+"POT-Creation-Date: 2020-06-12 16:05+0000\n"
+"PO-Revision-Date: 2020-06-09 15:09+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -339,7 +339,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "%(serviceName)s पर जारी रखें"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -427,7 +427,7 @@ msgstr "खाते की समस्याएँ"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "तकनीकी समस्याएं"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
@@ -976,7 +976,7 @@ msgstr "असत्यापित उपयोगकर्ता या सत
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "अमान्य id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1507,7 +1507,7 @@ msgstr "वापस सेटिंग पर"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
+msgstr "आपके क्रेडिट कार्ड की अवधि समाप्त हो गई है। कृपया इसे <a %(escapedCcExpiredLinkAttrs)s> यहां अपडेट करें </a>।"
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1579,7 +1579,7 @@ msgstr "अपना प्रमाणीकरण ऐप खोलें औ�
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "कोड दर्ज करने में परेशानी?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1619,7 +1619,7 @@ msgstr "क्या आप अपने फोन को सिंक करन
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "अपने फोन पर Firefox इंस्टॉल करने के लिए SMS द्वारा एक लिंक भेजें।"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1651,7 +1651,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Firefox ऐप का लिंक %(escapedPhoneNumber)s पर भेजा गया"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
@@ -1679,7 +1679,7 @@ msgstr "आप हमसे किस बारे में संपर्क 
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "Firefox Account"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -1853,7 +1853,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "आपके पास मौजूद प्रत्येक सशुल्क सदस्यता रद्द कर दी जाएगी"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1885,7 +1885,7 @@ msgstr "ताज़ा करें"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "ईमेल जोड़ें"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -2085,7 +2085,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "अपने कैमरा ऐप से Firefox डाउनलोड करें"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "स्कैन करने के लिए तैयार"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "अपने खाते में साइन इन करें"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -2193,7 +2193,7 @@ msgstr "आईपी ​​पता: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "Sign up to get more features:"
-msgstr ""
+msgstr "अधिक सुविधाओं के लिए साइन अप करें:"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"

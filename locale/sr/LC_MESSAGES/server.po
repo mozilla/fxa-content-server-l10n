@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"POT-Creation-Date: 2020-06-12 16:05+0000\n"
 "PO-Revision-Date: 2020-05-29 21:36+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,9 +47,40 @@ msgstr "Приметили смо да вам је остао мали број 
 msgid "Generate codes:"
 msgstr "Генериши кодове:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1163
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1234
 msgid "New sign-in to %(clientName)s"
 msgstr "Ново пријављивање на клијенту %(clientName)s"
+
+#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
+msgid ""
+"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
+"password as a precaution."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
+msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:3
+msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
+#: lib/senders/templates/passwordResetRequired.txt:7
+msgid "Best,"
+msgstr "Најбоље,"
+
+#: lib/senders/templates/passwordChangeRequired.html:5
+msgid "The Firefox accounts team"
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:3
+msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
+msgid "The Firefox Accounts team"
+msgstr "Тим Firefox налога"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -124,15 +155,7 @@ msgstr "Друго, ако Firefox бележи лозинке веб стран
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Сазнајте које лозинке Firefox складишти за вас."
 
-#: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
-msgid "Best,"
-msgstr "Најбоље,"
-
-#: lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
-msgid "The Firefox Accounts team"
-msgstr "Тим Firefox налога"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1644
 msgid "Account recovery key generated"
 msgstr "Кључ за опоравак налога генерисан"
 
@@ -191,7 +214,7 @@ msgstr "Успешно сте искористили код за опорава�
 msgid "Consumed recovery code"
 msgstr "Искоришћени код за опоравак"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1511
 msgid "New recovery codes generated"
 msgstr "Нови кодови за опоравак су генерисани"
 
@@ -199,7 +222,7 @@ msgstr "Нови кодови за опоравак су генерисани"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Успешно сте генерисали нове кодове за опоравак са уређаја:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1690
 msgid "Account recovery key removed"
 msgstr "Кључ за опоравак налога уклоњен"
 
@@ -215,7 +238,7 @@ msgstr "Кључ за опоравак не може бити више иско�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Успешно сте уклонили кључ за опоравак налога за ваш Firefox налог из следећег уређаја:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1391
 msgid "Secondary email removed"
 msgstr "Уклоњена је секундарна адреса е-поште"
 
@@ -251,7 +274,7 @@ msgstr ""
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
 msgstr ""
 
@@ -259,7 +282,7 @@ msgstr ""
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Имате питања? Посетите %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1319
 msgid "Secondary email added"
 msgstr "Секундарна адреса додата"
 
@@ -275,7 +298,7 @@ msgstr "Потребно вам је ресетовање лозинке?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Кликните на дугме у току следећег сата да креирате нову лозинку. Захтев је послат са следећег уређаја:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1013
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1056
 msgid "Create new password"
 msgstr "Направи нову лозинку"
 
@@ -289,8 +312,8 @@ msgid "Sorry to see you go"
 msgstr "Тужни смо што одлазите"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Недавно сте избрисали ваш Firefox налог. Стога смо отказали вашу претплату на %(productName)s. Ваша коначна уплата у износу %(invoiceTotal)s$ извршена је %(invoiceDateOnly)s."
+msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -302,11 +325,9 @@ msgstr "Помозите нам да побољшамо наше услуге о
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Отказали смо вашу претплату на %(productName)s. Ваша коначна уплата у износу %(invoiceTotal)s$ је извршена %(invoiceDateOnly)s. Услуга ће се наставити до краја тренутног обрачунског периода, што је "
-"%(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -314,11 +335,9 @@ msgstr "Успешно сте се пребацили са %(productNameOld)s н
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ћете добити и једнократни кредит у износу %(paymentProrated)s$ који ће "
-"одразити ниже накнаде за остатак периода %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -347,8 +366,8 @@ msgstr "Број фактуре: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "%(invoiceTotal)s$ наплаћено %(invoiceDateOnly)s"
+msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -410,11 +429,9 @@ msgstr "Хвала вам што сте се поново активирали �
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
-"Ваш циклус наплате и плаћања остаће исти. Следећи рачун ће износити %(invoiceTotal)s$ на %(cardType)s картици која завршава с %(lastFour)s на %(nextInvoiceDateOnly)s. Ваша претплата ће се "
-"аутоматски обнављати сваки циклус наплате уколико га претходно не откажете."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -434,11 +451,9 @@ msgstr "Успешно сте ажурирали са %(productNameOld)s на %(
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ће се наплаћивати и једнократна накнада у износу %(paymentProrated)s$ "
-"који ће одразити више накнаде за остатак периода %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -500,7 +515,7 @@ msgstr "Потврдите ваш налог и максимално искор�
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "За додатну безбедност, молимо вас да потврдите пријављивање на следећем уређају:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:722
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:765
 msgid "Confirm sign-in"
 msgstr "Потврдите пријаву"
 
@@ -660,168 +675,168 @@ msgstr "Откажите претплату:"
 msgid "Update billing information:"
 msgstr "Ажурирајте податке о плаћању:"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:297
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:302
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: lib/senders/email.js:298
+#: lib/senders/email.js:328
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:305
+#: lib/senders/email.js:335
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:310
+#: lib/senders/email.js:340
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (процењено)"
 
-#: lib/senders/email.js:315
+#: lib/senders/email.js:345
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (процењено)"
 
-#: lib/senders/email.js:484
+#: lib/senders/email.js:527
 msgid "Finish creating your account"
 msgstr "Завршите прављење вашег налога"
 
-#: lib/senders/email.js:485 lib/senders/email.js:613
+#: lib/senders/email.js:528 lib/senders/email.js:656
 msgid "Confirm email"
 msgstr "Потврдите своју е-пошту"
 
-#: lib/senders/email.js:552
+#: lib/senders/email.js:595
 msgid "Verification code: %(code)s"
 msgstr "Верификациони код: %(code)s"
 
-#: lib/senders/email.js:593
+#: lib/senders/email.js:636
 msgid "Reminder: Finish creating your account"
 msgstr "Опомена: завршите прављење вашег налога"
 
-#: lib/senders/email.js:595
+#: lib/senders/email.js:638
 msgid "Final reminder: Activate your account"
 msgstr "Последња опомена: активирајте ваш налог"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:693
 msgid "Account authorization code"
 msgstr "Код за ауторизацију налога"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:762
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Потврдите ново пријављивање на %(clientName)s"
 
-#: lib/senders/email.js:764
+#: lib/senders/email.js:807
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Код за пријаву у %(serviceName)s"
 
-#: lib/senders/email.js:829
+#: lib/senders/email.js:872
 msgid "Confirm primary email"
 msgstr "Потврдите примарну адресу е-поште"
 
-#: lib/senders/email.js:830 lib/senders/email.js:889 lib/senders/email.js:957
+#: lib/senders/email.js:873 lib/senders/email.js:932 lib/senders/email.js:1000
 msgid "Verify email"
 msgstr "Верификујте адресу е-поште"
 
-#: lib/senders/email.js:888 lib/senders/email.js:956
+#: lib/senders/email.js:931 lib/senders/email.js:999
 msgid "Confirm secondary email"
 msgstr "Потврдите секундарну адресу е-поште"
 
-#: lib/senders/email.js:1012
+#: lib/senders/email.js:1055
 msgid "Reset your password"
 msgstr "Ресетујте лозинку"
 
-#: lib/senders/email.js:1054 lib/senders/email.js:1092
+#: lib/senders/email.js:1097 lib/senders/email.js:1163
 msgid "Password updated"
 msgstr "Лозинка је ажурирана"
 
-#: lib/senders/email.js:1122
+#: lib/senders/email.js:1135 lib/senders/email.js:1193
 msgid "Suspicious activity detected"
 msgstr "Откривена је сумњива радња"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
-#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
+#: lib/senders/email.js:1235 lib/senders/email.js:1320 lib/senders/email.js:1356 lib/senders/email.js:1392 lib/senders/email.js:1426 lib/senders/email.js:1469 lib/senders/email.js:1512
+#: lib/senders/email.js:1555 lib/senders/email.js:1645 lib/senders/email.js:1691
 msgid "Manage account"
 msgstr "Управљајте налогом"
 
-#: lib/senders/email.js:1200
+#: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1284
+#: lib/senders/email.js:1355
 msgid "Primary email updated"
 msgstr "Примарна адреса е-поште је ажурирана"
 
-#: lib/senders/email.js:1354
+#: lib/senders/email.js:1425
 msgid "Two-step verification enabled"
 msgstr "Верификација у два корака омогућена"
 
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1468
 msgid "Two-step verification is off"
 msgstr "Аутентификација у два корака онемогућена"
 
-#: lib/senders/email.js:1483
+#: lib/senders/email.js:1554
 msgid "Recovery code used"
 msgstr "Код за опоравак је искоришћен"
 
-#: lib/senders/email.js:1536
+#: lib/senders/email.js:1607
 msgid "1 recovery code remaining"
 msgstr "1 код за опоравак је преостао"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1609
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s кодова за опоравак је преостало"
 
-#: lib/senders/email.js:1541
+#: lib/senders/email.js:1612
 msgid "Generate codes"
 msgstr "Генериши кодове"
 
-#: lib/senders/email.js:1665
+#: lib/senders/email.js:1736
 msgid "Password updated using recovery key"
 msgstr "Лозинка је ажурирана помоћу кључа за опоравак"
 
-#: lib/senders/email.js:1666
+#: lib/senders/email.js:1737
 msgid "Create new recovery key"
 msgstr "Направите нови кључ за опоравак"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1803
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Ажурирали сте на %(productNameNew)s"
 
-#: lib/senders/email.js:1792
+#: lib/senders/email.js:1881
 msgid "You have switched to %(productNameNew)s"
 msgstr "Пребацили сте се на %(productNameNew)s"
 
-#: lib/senders/email.js:1849
+#: lib/senders/email.js:1950
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Кредитна картица за %(productName)s ускоро истиче"
 
-#: lib/senders/email.js:1899
+#: lib/senders/email.js:2000
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s уплата није успела"
 
-#: lib/senders/email.js:1949 lib/senders/email.js:2009
+#: lib/senders/email.js:2051 lib/senders/email.js:2116
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ваш %(productName)s претплата је отказана"
 
-#: lib/senders/email.js:2075
+#: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s претплата је поново активирана"
 
-#: lib/senders/email.js:2143
+#: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
 msgstr "%(productName)s уплата је примљена"
 
-#: lib/senders/email.js:2215
+#: lib/senders/email.js:2349
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s уплата је потврђена"
 
-#: lib/senders/email.js:2283
+#: lib/senders/email.js:2421
 msgid "Welcome to %(productName)s"
 msgstr "Добродошли у %(productName)s"
 
-#: lib/senders/email.js:2284
+#: lib/senders/email.js:2422
 msgid "Download %(productName)s"
 msgstr "Преузмите %(productName)s"
 
@@ -909,6 +924,40 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Преузмите најновију верзију"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Недавно сте избрисали ваш Firefox налог. Стога смо отказали вашу претплату на %(productName)s. Ваша коначна уплата у износу %(invoiceTotal)s$ извршена је %(invoiceDateOnly)s."
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Отказали смо вашу претплату на %(productName)s. Ваша коначна уплата у износу %(invoiceTotal)s$ је извршена %(invoiceDateOnly)s. Услуга ће се наставити до краја тренутног обрачунског периода, што "
+#~ "је %(serviceLastActiveDateOnly)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ћете добити и једнократни кредит у износу %(paymentProrated)s$ који "
+#~ "ће одразити ниже накнаде за остатак периода %(productPaymentCycle)s."
+
+#~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "%(invoiceTotal)s$ наплаћено %(invoiceDateOnly)s"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Ваш циклус наплате и плаћања остаће исти. Следећи рачун ће износити %(invoiceTotal)s$ на %(cardType)s картици која завршава с %(lastFour)s на %(nextInvoiceDateOnly)s. Ваша претплата ће се "
+#~ "аутоматски обнављати сваки циклус наплате уколико га претходно не откажете."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Од следећег плаћања, накнаде ће се променити из %(paymentAmountOld)s$ за %(productPaymentCycle)s у %(paymentAmountNew)s$. Тада ће се наплаћивати и једнократна накнада у износу %(paymentProrated)s"
+#~ "$ који ће одразити више накнаде за остатак периода %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Пријављени сте и спремни сте да истражујете сигурно и безбедно."
