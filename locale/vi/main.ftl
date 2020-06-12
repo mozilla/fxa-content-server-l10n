@@ -124,6 +124,7 @@ sub-update-submit = Xác nhận nâng cấp
 
 ## subscription route index
 
+sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
 
 ## subscription create
 
