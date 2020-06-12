@@ -98,7 +98,7 @@ default-input-error = Urti-a yettwasra
 
 product-plan-upgrade-heading = Senqed lqem-inek/inem
 sub-update-failed = Aɣwas n uleqqem ur yeddi ara
-sub-update-title = Talɣut n tufacturt
+sub-update-title = Talɣut n tfaṭurt
 sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
@@ -139,7 +139,7 @@ plan-price-month =
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } n useqqas
-       *[other] { $amount } yal { $intervalCount } aseqqas
+       *[other] { $amount } yal { $intervalCount } aseggas
     }
 
 ## payment update
@@ -196,6 +196,7 @@ sub-subscription-error =
     .title = Ugur deg usali n yijerriden
 sub-customer-error =
     .title = Ugur deg usali n umsaɣ
+sub-billing-update-success = Tilɣa n usmad ttwaleqqment akken iwata!
 
 ## subscription create
 
@@ -244,5 +245,5 @@ payment-confirmation-amount-year =
         [one] { $amount } n useggas
        *[other] { $amount } yal { $intervalCount } aseggas
     }
-payment-confirmation-cc-preview = I ikeffun deg { $last4 }
-payment-confirmation-download-button = Kemmel ad d-tsidreḍ
+payment-confirmation-cc-preview = Ara yekfun deg { $last4 }
+payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
