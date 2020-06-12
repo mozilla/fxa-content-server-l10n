@@ -237,6 +237,12 @@ sub-item-missing-msg = Eha’ãjey ag̃amieve.
 sub-item-no-such-plan = Ndaipóri tembiaporã ko mboheraguapýpe g̃uarã.
 sub-item-cancel-sub = Mboheraguapy jeheja
 sub-item-stay-sub = Mboheraguapy guereko
+sub-item-cancel-msg =
+    Ndojepurukuaamo’ãi { $name } pe
+    { $period } rire, pe ára paha iñemuhakuatia hag̃ua.
+sub-item-cancel-confirm =
+    Ehejarei che jeikeha ha che marandu ñongatupyre
+    { $name } pegua { $period }-pe
 account-activated = Pe mba’ete hendyhína, <userEl/>
 
 ## subscription route index
@@ -246,6 +252,12 @@ sub-route-idx-reactivating = Ojavy pe mboheraguapy myandyjey
 sub-route-idx-cancel-failed = Ojavy pe mboheraguapy jehejarei
 sub-route-idx-contact = Eñe’ẽ pytyvõhándi
 sub-route-idx-cancel-msg-title = Rombyasy eho haguére
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Pe mboheraguapy { $name } pegua ojejokóma.
+          <br />
+          Eikekuaa { $name }-pe { $date } peve.
 sub-route-idx-cancel-aside = ¿Eporandusépa? Eike <a>{ -brand-name-mozilla } Pytyvõha</a>.
 sub-subscription-error =
     .title = Apañuãi emyanyhẽvo mboheraguapy
