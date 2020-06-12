@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-12 16:57+0000\n"
+"PO-Revision-Date: 2020-06-12 17:06+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -55,10 +55,12 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Vi oppdaga mistenkjeleg oppførsel på Firefox-kontoen din. For å hindre uautorisert tilgang til kontoen din, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som eit "
+"førebyggjande sikkerheitstiltak."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar Firefox-kontoen din, og følg stega som vil bli presentert for deg."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
