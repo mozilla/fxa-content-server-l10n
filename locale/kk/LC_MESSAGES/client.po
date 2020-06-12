@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"POT-Creation-Date: 2020-06-12 16:05+0000\n"
 "PO-Revision-Date: 2020-06-12 03:05+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -1005,7 +1005,9 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -1077,7 +1079,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -2003,7 +2006,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2564,10 +2568,12 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies және жергілікті қойма керек."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\" "
-#~ "tabindex=\"-1\">Жекелік ескертуімен</a> келісесіз."
+#~ "Жалғастыру нәтижесінде, сіз Firefox бұлттық қызметтерінің <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Қолдану шарттары</a> және <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
+#~ "\"-1\">Жекелік ескертуімен</a> келісесіз."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox бұлттық қызметтері"
@@ -2620,11 +2626,11 @@ msgstr ""
 #~ msgstr "Екі (не көбірек) құрылғыларды неге синхрондау керек?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа кіріңіз, "
-#~ "одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
+#~ "Синхрондау көмегімен бір құрылғыдағы Firefox-та сақталған бетбелгілер, шолу тарихы және парольдерді басқа құрылғыдағы Firefox-та қолдануға болады. Телефон немесе планшетіңізде Firefox-қа "
+#~ "кіріңіз, одан кейін жұмыс үстелі үшін Firefox-та сақталған барлық нәрсені көре аласыз."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2805,11 +2811,11 @@ msgstr ""
 #~ msgstr "Басқа эл. поштаға байланысқан тіркелгіңіз бар ма? <a href=\"%(signinUri)s\">Кіріңіз</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a "
-#~ "href=\"%(linkLinux)s\">Linux</a> үшін қолжетерлік."
+#~ "Firefox браузері <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> және <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> үшін қолжетерлік."
 
 #~ msgid "Delete"
 #~ msgstr "Өшіру"
@@ -2942,8 +2948,8 @@ msgstr ""
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде өз "
-#~ "эл. пошта адресіңізді енгіңіз."
+#~ "Пароліңізді тастау нәтижесінде сіздің барлық шолу деректеріңіз біздің серверлерімізден өшіріледі. Ал, құрылғыларыңыздағы барлық шолу деректері сақталады. Парольді тастауды бастау үшін, төменде "
+#~ "өз эл. пошта адресіңізді енгіңіз."
 
 #~ msgid "a day"
 #~ msgstr "бір күн"

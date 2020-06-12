@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"POT-Creation-Date: 2020-06-12 16:05+0000\n"
 "PO-Revision-Date: 2020-04-02 11:57+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -47,9 +47,40 @@ msgstr "あなたの回復用コードは残り少なくなっているようで
 msgid "Generate codes:"
 msgstr "コードを生成:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1163
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1234
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログイン"
+
+#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
+msgid ""
+"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
+"password as a precaution."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
+msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:3
+msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
+#: lib/senders/templates/passwordResetRequired.txt:7
+msgid "Best,"
+msgstr "ご利用ありがとうございます"
+
+#: lib/senders/templates/passwordChangeRequired.html:5
+msgid "The Firefox accounts team"
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:3
+msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
+msgid "The Firefox Accounts team"
+msgstr "Firefox アカウントチーム"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -126,15 +157,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Firefox がどのパスワードを保存しているか確認する方法はこちらです。"
 
-#: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
-msgid "Best,"
-msgstr "ご利用ありがとうございます"
-
-#: lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
-msgid "The Firefox Accounts team"
-msgstr "Firefox アカウントチーム"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1644
 msgid "Account recovery key generated"
 msgstr "アカウント回復用キーが生成されました"
 
@@ -192,7 +215,7 @@ msgstr "次の端末から回復用コードの使用が完了しました:"
 msgid "Consumed recovery code"
 msgstr "使用された回復用コード"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1511
 msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
@@ -200,7 +223,7 @@ msgstr "新しい回復用コードが生成されました"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "次の端末から新しい回復用コードの生成が完了しました:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1690
 msgid "Account recovery key removed"
 msgstr "アカウント回復用キーが削除されました"
 
@@ -216,7 +239,7 @@ msgstr "この回復用キーはもはやあなたのアカウントの回復に
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "以下の端末からあなたの Firefox アカウントの回復用キーの削除が完了しました:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1391
 msgid "Secondary email removed"
 msgstr "予備アドレスが削除されました"
 
@@ -252,7 +275,7 @@ msgstr ""
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
 msgstr ""
 
@@ -260,7 +283,7 @@ msgstr ""
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "ご質問はこちらから: %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1319
 msgid "Secondary email added"
 msgstr "予備のメールアドレスが追加されました"
 
@@ -276,7 +299,7 @@ msgstr "パスワード変更の必要がありますか？"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "1 時間以内にボタンをクリックして新しいパスワードを設定してください。このリクエストは次の端末から行われました:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1013
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1056
 msgid "Create new password"
 msgstr "新しいパスワードを設定"
 
@@ -290,7 +313,7 @@ msgid "Sorry to see you go"
 msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
@@ -303,7 +326,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
 
@@ -313,7 +336,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
@@ -344,7 +367,7 @@ msgstr "請求書番号: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
+msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
 msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
@@ -407,7 +430,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
 
@@ -429,7 +452,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
@@ -493,7 +516,7 @@ msgstr ""
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "念のため、次の端末からのログインを確認してください:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:722
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:765
 msgid "Confirm sign-in"
 msgstr "ログインを確認"
 
@@ -653,168 +676,168 @@ msgstr "購読を解除:"
 msgid "Update billing information:"
 msgstr "支払い情報を更新:"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:297
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s / %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:302
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s / %(uaOS)s"
 
-#: lib/senders/email.js:298
+#: lib/senders/email.js:328
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s、%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:305
+#: lib/senders/email.js:335
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s、%(city)s (おおよその位置)"
 
-#: lib/senders/email.js:310
+#: lib/senders/email.js:340
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:315
+#: lib/senders/email.js:345
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:484
+#: lib/senders/email.js:527
 msgid "Finish creating your account"
 msgstr "アカウント作成を完了してください"
 
-#: lib/senders/email.js:485 lib/senders/email.js:613
+#: lib/senders/email.js:528 lib/senders/email.js:656
 msgid "Confirm email"
 msgstr "メールアドレス確認"
 
-#: lib/senders/email.js:552
+#: lib/senders/email.js:595
 msgid "Verification code: %(code)s"
 msgstr "確認コード: %(code)s"
 
-#: lib/senders/email.js:593
+#: lib/senders/email.js:636
 msgid "Reminder: Finish creating your account"
 msgstr "通知: アカウント作成を完了してください"
 
-#: lib/senders/email.js:595
+#: lib/senders/email.js:638
 msgid "Final reminder: Activate your account"
 msgstr "最終通知：アカウントを有効にしてください"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:693
 msgid "Account authorization code"
 msgstr "アカウントの認証コード"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:762
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログインを確認"
 
-#: lib/senders/email.js:764
+#: lib/senders/email.js:807
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s のログインコード"
 
-#: lib/senders/email.js:829
+#: lib/senders/email.js:872
 msgid "Confirm primary email"
 msgstr "優先メールアドレス確認"
 
-#: lib/senders/email.js:830 lib/senders/email.js:889 lib/senders/email.js:957
+#: lib/senders/email.js:873 lib/senders/email.js:932 lib/senders/email.js:1000
 msgid "Verify email"
 msgstr "メールアドレスの確認"
 
-#: lib/senders/email.js:888 lib/senders/email.js:956
+#: lib/senders/email.js:931 lib/senders/email.js:999
 msgid "Confirm secondary email"
 msgstr "予備メールアドレスの確認"
 
-#: lib/senders/email.js:1012
+#: lib/senders/email.js:1055
 msgid "Reset your password"
 msgstr "パスワードをリセットしました"
 
-#: lib/senders/email.js:1054 lib/senders/email.js:1092
+#: lib/senders/email.js:1097 lib/senders/email.js:1163
 msgid "Password updated"
 msgstr "パスワードを更新しました"
 
-#: lib/senders/email.js:1122
+#: lib/senders/email.js:1135 lib/senders/email.js:1193
 msgid "Suspicious activity detected"
 msgstr "疑わしいアクティビティが検出されました"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
-#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
+#: lib/senders/email.js:1235 lib/senders/email.js:1320 lib/senders/email.js:1356 lib/senders/email.js:1392 lib/senders/email.js:1426 lib/senders/email.js:1469 lib/senders/email.js:1512
+#: lib/senders/email.js:1555 lib/senders/email.js:1645 lib/senders/email.js:1691
 msgid "Manage account"
 msgstr "アカウント管理"
 
-#: lib/senders/email.js:1200
+#: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1284
+#: lib/senders/email.js:1355
 msgid "Primary email updated"
 msgstr ""
 
-#: lib/senders/email.js:1354
+#: lib/senders/email.js:1425
 msgid "Two-step verification enabled"
 msgstr "2 段階認証が有効です"
 
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1468
 msgid "Two-step verification is off"
 msgstr "2 段階認証が設定されていません"
 
-#: lib/senders/email.js:1483
+#: lib/senders/email.js:1554
 msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1536
+#: lib/senders/email.js:1607
 msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1609
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1541
+#: lib/senders/email.js:1612
 msgid "Generate codes"
 msgstr "コードを生成"
 
-#: lib/senders/email.js:1665
+#: lib/senders/email.js:1736
 msgid "Password updated using recovery key"
 msgstr "回復用キーでパスワードが更新されました"
 
-#: lib/senders/email.js:1666
+#: lib/senders/email.js:1737
 msgid "Create new recovery key"
 msgstr "新しい回復用キーを作成"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1803
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1792
+#: lib/senders/email.js:1881
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1849
+#: lib/senders/email.js:1950
 msgid "Credit card for %(productName)s expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:1899
+#: lib/senders/email.js:2000
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:1949 lib/senders/email.js:2009
+#: lib/senders/email.js:2051 lib/senders/email.js:2116
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2075
+#: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2143
+#: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2215
+#: lib/senders/email.js:2349
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2283
+#: lib/senders/email.js:2421
 msgid "Welcome to %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2284
+#: lib/senders/email.js:2422
 msgid "Download %(productName)s"
 msgstr "%(productName)s をダウンロード"
 

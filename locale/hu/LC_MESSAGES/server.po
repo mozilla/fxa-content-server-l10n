@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 16:04+0000\n"
+"POT-Creation-Date: 2020-06-12 16:05+0000\n"
 "PO-Revision-Date: 2020-06-11 08:25+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,9 +47,40 @@ msgstr "Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg �
 msgid "Generate codes:"
 msgstr "Kódok előállítása:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1163
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1234
 msgid "New sign-in to %(clientName)s"
 msgstr "Új bejelentkezés itt: %(clientName)s"
+
+#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
+msgid ""
+"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
+"password as a precaution."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
+msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:3
+msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
+#: lib/senders/templates/passwordResetRequired.txt:7
+msgid "Best,"
+msgstr "A legjobbakat,"
+
+#: lib/senders/templates/passwordChangeRequired.html:5
+msgid "The Firefox accounts team"
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:3
+msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+msgstr ""
+
+#: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
+msgid "The Firefox Accounts team"
+msgstr "A Firefox fiókok csapata"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -126,15 +157,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Tudja meg hogyan nézheti meg, milyen jelszavakat tárol a Firefox."
 
-#: lib/senders/templates/passwordResetRequired.html:7 lib/senders/templates/passwordResetRequired.txt:7
-msgid "Best,"
-msgstr "A legjobbakat,"
-
-#: lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
-msgid "The Firefox Accounts team"
-msgstr "A Firefox fiókok csapata"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1573
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1644
 msgid "Account recovery key generated"
 msgstr "Fiók helyreállítási kulcs előállítva"
 
@@ -194,7 +217,7 @@ msgstr "Sikeresen elhasznált egy helyreállítási kódot a következő eszköz
 msgid "Consumed recovery code"
 msgstr "Felhasznált helyreállítási kód"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1440
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1511
 msgid "New recovery codes generated"
 msgstr "Új helyreállítási kódok előállítva"
 
@@ -202,7 +225,7 @@ msgstr "Új helyreállítási kódok előállítva"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sikeresen állított elő új helyreállítási kódokat a következő eszközön:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1619
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1690
 msgid "Account recovery key removed"
 msgstr "Fiók helyreállítási kulcs eltávolítva"
 
@@ -218,7 +241,7 @@ msgstr "Ez a helyreállítási kulcs már nem használható a fiókja helyreáll
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Sikeresen eltávolított egy fiók helyreállítási kulcsot a Firefox fiókjából a következő eszközről:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1320
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1391
 msgid "Secondary email removed"
 msgstr "Másodlagos e-mail cím eltávolítva"
 
@@ -256,7 +279,7 @@ msgstr "Most pedig szinkronizáljon az eszközök között."
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "A Sync biztonságosan szinkronban tartja a könyvjelzőket, jelszavakat és egyéb Firefox-adatokat az eszközei között."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1205
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
 msgstr "A következő eszköz beállítása"
 
@@ -264,7 +287,7 @@ msgstr "A következő eszköz beállítása"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Kérdése van? Keresse fel: %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1248
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1319
 msgid "Secondary email added"
 msgstr "Másodlagos e-mail hozzáadva"
 
@@ -282,7 +305,7 @@ msgstr "Helyre kell állítania a jelszavát?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1013
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1056
 msgid "Create new password"
 msgstr "Új jelszó létrehozása"
 
@@ -296,8 +319,8 @@ msgid "Sorry to see you go"
 msgstr "Sajnáljuk, hogy távozik"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Nemrég törölte a Firefox-fiókját. Ezért megszakítottuk a(z) %(productName)s előfizetését. Az utolsó %(invoiceTotal)s $ értékű befizetése ekkor történt: %(invoiceDateOnly)s."
+msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -309,11 +332,9 @@ msgstr "Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kit�
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Lemondtuk a(z) %(productName)s előfizetését. Az utolsó befizetésének ideje %(invoiceDateOnly)s, összege $%(invoiceTotal)s. Az előfizetése aktív marad a befizetett periódus végéig, melynek dátuma "
-"%(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -321,11 +342,9 @@ msgstr "Sikeresen váltott erről: %(productNameOld)s, erre: %(productNameNew)s.
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor kapni fog egy egyszeri %(paymentProrated)s $-os "
-"jóváírást, amely a %(productPaymentCycle)s hátralévő időszakára eső különbözet."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -354,8 +373,8 @@ msgstr "Számla száma: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "%(invoiceTotal)s $ levonva ekkor: %(invoiceDateOnly)s"
+msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -417,11 +436,9 @@ msgstr "Köszönjük, hogy újraaktiválta a %(productName)s-előfizetését."
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
-"A számlázási ciklusa és fizetése változatlan marad. A következő terhelés %(invoiceTotal)s $ lesz a %(lastFour)s végű %(cardType)s kártyán, ekkor: %(nextInvoiceDateOnly)s. Előfizetése automatikusan "
-"megújítja az összes számlázási időszakot, hacsak nem dönt úgy, hogy lemondja."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -441,11 +458,9 @@ msgstr "Sikeresen frissített erről: %(productNameOld)s, erre: %(productNameNew
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor levonásra kerül %(paymentProrated)s $, amely a "
-"%(productPaymentCycle)s hátralévő időszakára eső különbözet."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -507,7 +522,7 @@ msgstr "Erősítse meg fiókját, és hozza ki a lehető legtöbbet a Firefoxbó
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "A nagyobb biztonság érdekében, erősítse meg ezt a bejelentkezést a következő eszközön:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:722
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:765
 msgid "Confirm sign-in"
 msgstr "Bejelentkezés megerősítése"
 
@@ -667,168 +682,168 @@ msgstr "Előfizetés lemondása:"
 msgid "Update billing information:"
 msgstr "Számlázási információk frissítése:"
 
-#: lib/senders/email.js:267
+#: lib/senders/email.js:297
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s ezen: %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:272
+#: lib/senders/email.js:302
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s ezen: %(uaOS)s"
 
-#: lib/senders/email.js:298
+#: lib/senders/email.js:328
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:305
+#: lib/senders/email.js:335
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:310
+#: lib/senders/email.js:340
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (becsült)"
 
-#: lib/senders/email.js:315
+#: lib/senders/email.js:345
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (becsült)"
 
-#: lib/senders/email.js:484
+#: lib/senders/email.js:527
 msgid "Finish creating your account"
 msgstr "A fiókja létrehozásának befejezése"
 
-#: lib/senders/email.js:485 lib/senders/email.js:613
+#: lib/senders/email.js:528 lib/senders/email.js:656
 msgid "Confirm email"
 msgstr "E-mail cím megerősítése"
 
-#: lib/senders/email.js:552
+#: lib/senders/email.js:595
 msgid "Verification code: %(code)s"
 msgstr "Ellenőrzőkód: %(code)s"
 
-#: lib/senders/email.js:593
+#: lib/senders/email.js:636
 msgid "Reminder: Finish creating your account"
 msgstr "Emlékeztető: Fejezze be a fiókja létrehozását"
 
-#: lib/senders/email.js:595
+#: lib/senders/email.js:638
 msgid "Final reminder: Activate your account"
 msgstr "Végső emlékeztető: Aktiválja fiókját"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:693
 msgid "Account authorization code"
 msgstr "Fiók engedélyezési kód"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:762
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Erősítse meg bejelentkezését ide: %(clientName)s"
 
-#: lib/senders/email.js:764
+#: lib/senders/email.js:807
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Bejelentkezési kód ehhez: %(serviceName)s"
 
-#: lib/senders/email.js:829
+#: lib/senders/email.js:872
 msgid "Confirm primary email"
 msgstr "Elsődleges e-mail cím megerősítése"
 
-#: lib/senders/email.js:830 lib/senders/email.js:889 lib/senders/email.js:957
+#: lib/senders/email.js:873 lib/senders/email.js:932 lib/senders/email.js:1000
 msgid "Verify email"
 msgstr "E-mail cím megerősítése"
 
-#: lib/senders/email.js:888 lib/senders/email.js:956
+#: lib/senders/email.js:931 lib/senders/email.js:999
 msgid "Confirm secondary email"
 msgstr "Másodlagos e-mail megerősítése"
 
-#: lib/senders/email.js:1012
+#: lib/senders/email.js:1055
 msgid "Reset your password"
 msgstr "Jelszó visszaállítása"
 
-#: lib/senders/email.js:1054 lib/senders/email.js:1092
+#: lib/senders/email.js:1097 lib/senders/email.js:1163
 msgid "Password updated"
 msgstr "A jelszó frissítve"
 
-#: lib/senders/email.js:1122
+#: lib/senders/email.js:1135 lib/senders/email.js:1193
 msgid "Suspicious activity detected"
 msgstr "Gyanús tevékenység észlelve"
 
-#: lib/senders/email.js:1164 lib/senders/email.js:1249 lib/senders/email.js:1285 lib/senders/email.js:1321 lib/senders/email.js:1355 lib/senders/email.js:1398 lib/senders/email.js:1441
-#: lib/senders/email.js:1484 lib/senders/email.js:1574 lib/senders/email.js:1620
+#: lib/senders/email.js:1235 lib/senders/email.js:1320 lib/senders/email.js:1356 lib/senders/email.js:1392 lib/senders/email.js:1426 lib/senders/email.js:1469 lib/senders/email.js:1512
+#: lib/senders/email.js:1555 lib/senders/email.js:1645 lib/senders/email.js:1691
 msgid "Manage account"
 msgstr "Fiók kezelése"
 
-#: lib/senders/email.js:1200
+#: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "A fiók ellenőrizve. Ezután szinkronizáljon egy másik eszközre a beállítás befejezéséhez"
 
-#: lib/senders/email.js:1284
+#: lib/senders/email.js:1355
 msgid "Primary email updated"
 msgstr "Elsődleges e-mail frissítve"
 
-#: lib/senders/email.js:1354
+#: lib/senders/email.js:1425
 msgid "Two-step verification enabled"
 msgstr "Kétlépcsős ellenőrzés engedélyezve"
 
-#: lib/senders/email.js:1397
+#: lib/senders/email.js:1468
 msgid "Two-step verification is off"
 msgstr "Kétlépcsős ellenőrzés kikapcsolva"
 
-#: lib/senders/email.js:1483
+#: lib/senders/email.js:1554
 msgid "Recovery code used"
 msgstr "Helyreállítási kód felhasználva"
 
-#: lib/senders/email.js:1536
+#: lib/senders/email.js:1607
 msgid "1 recovery code remaining"
 msgstr "1 helyreállítási kód maradt"
 
-#: lib/senders/email.js:1538
+#: lib/senders/email.js:1609
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s helyreállítási kód maradt"
 
-#: lib/senders/email.js:1541
+#: lib/senders/email.js:1612
 msgid "Generate codes"
 msgstr "Kódok előállítása"
 
-#: lib/senders/email.js:1665
+#: lib/senders/email.js:1736
 msgid "Password updated using recovery key"
 msgstr "Jelszó frissítve egy helyreállítási kulcs használatával"
 
-#: lib/senders/email.js:1666
+#: lib/senders/email.js:1737
 msgid "Create new recovery key"
 msgstr "Új helyreállítási kulcs létrehozása"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1803
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Frissített erre: %(productNameNew)s"
 
-#: lib/senders/email.js:1792
+#: lib/senders/email.js:1881
 msgid "You have switched to %(productNameNew)s"
 msgstr "Váltott erre: %(productNameNew)s"
 
-#: lib/senders/email.js:1849
+#: lib/senders/email.js:1950
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "A(z) %(productName)s termékhez tartozó bankkártya hamarosan lejár"
 
-#: lib/senders/email.js:1899
+#: lib/senders/email.js:2000
 msgid "%(productName)s payment failed"
 msgstr "A(z) %(productName)s befizetése sikertelen"
 
-#: lib/senders/email.js:1949 lib/senders/email.js:2009
+#: lib/senders/email.js:2051 lib/senders/email.js:2116
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Lemondta a(z) %(productName)s előfizetését"
 
-#: lib/senders/email.js:2075
+#: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s-előfizetés újraaktiválva"
 
-#: lib/senders/email.js:2143
+#: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
 msgstr "A(z) %(productName)s befizetése megérkezett"
 
-#: lib/senders/email.js:2215
+#: lib/senders/email.js:2349
 msgid "%(productName)s payment confirmed"
 msgstr "A(z) %(productName)s befizetése megerősítve"
 
-#: lib/senders/email.js:2283
+#: lib/senders/email.js:2421
 msgid "Welcome to %(productName)s"
 msgstr "Üdvözli a(z) %(productName)s"
 
-#: lib/senders/email.js:2284
+#: lib/senders/email.js:2422
 msgid "Download %(productName)s"
 msgstr "%(productName)s letöltése"
 
@@ -916,6 +931,40 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Legfrissebb letöltése"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Nemrég törölte a Firefox-fiókját. Ezért megszakítottuk a(z) %(productName)s előfizetését. Az utolsó %(invoiceTotal)s $ értékű befizetése ekkor történt: %(invoiceDateOnly)s."
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Lemondtuk a(z) %(productName)s előfizetését. Az utolsó befizetésének ideje %(invoiceDateOnly)s, összege $%(invoiceTotal)s. Az előfizetése aktív marad a befizetett periódus végéig, melynek dátuma "
+#~ "%(serviceLastActiveDateOnly)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor kapni fog egy egyszeri %(paymentProrated)s $-os "
+#~ "jóváírást, amely a %(productPaymentCycle)s hátralévő időszakára eső különbözet."
+
+#~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "%(invoiceTotal)s $ levonva ekkor: %(invoiceDateOnly)s"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "A számlázási ciklusa és fizetése változatlan marad. A következő terhelés %(invoiceTotal)s $ lesz a %(lastFour)s végű %(cardType)s kártyán, ekkor: %(nextInvoiceDateOnly)s. Előfizetése "
+#~ "automatikusan megújítja az összes számlázási időszakot, hacsak nem dönt úgy, hogy lemondja."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor levonásra kerül %(paymentProrated)s $, amely a "
+#~ "%(productPaymentCycle)s hátralévő időszakára eső különbözet."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Bejelentkezett, és kész a biztonságos felfedezésre."
@@ -1151,8 +1200,8 @@ msgstr "Legfrissebb letöltése"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a href='%(iosUrl)s'>Firefox "
-#~ "for iOS</a> böngészőjét is."
+#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a "
+#~ "href='%(iosUrl)s'>Firefox for iOS</a> böngészőjét is."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Jelentkezzen be a Syncbe"
@@ -1317,8 +1366,8 @@ msgstr "Legfrissebb letöltése"
 #~ msgstr "Jelszó visszaállítása"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Néhány napja létrehozott egy Firefox fiókot, de nem erősítette meg. A megerősített fiókkal elérheti lapjait, könyvjelzőit, jelszavait és előzményeit bármely eszközéről. A fiók aktiválásához "
 #~ "egyszerűen erősítse meg ezt az e-mail címet."
@@ -1349,10 +1398,11 @@ msgstr "Legfrissebb letöltése"
 #~ "Sikeresen eltávolítottuk a következő másodlagos e-mail címe a Firefox fiókjából: %(secondaryEmail)s. A biztonsági értesítések és a bejelentkezési megerősítések nem lesznek többé kiküldve erre a "
 #~ "címre."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre kézbesítve "
-#~ "lesznek."
+#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre "
+#~ "kézbesítve lesznek."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Ahogy kérte, itt egy hivatkozás a Firefox telepítéséről a mobileszközére: %(link)s"
