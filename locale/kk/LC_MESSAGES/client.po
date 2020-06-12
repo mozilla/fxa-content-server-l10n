@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-07 12:04+0000\n"
+"PO-Revision-Date: 2020-06-12 02:53+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -30,7 +30,7 @@ msgstr "Кіру"
 
 #: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Қолдауы бар қолданбаларда екі сатылы аутентификацияны орнату үшін %(code)s кодын пайдаланыңыз."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -114,11 +114,12 @@ msgstr "Басқа"
 
 #: .es5/views/support.js:235
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Mozilla қолдау қызметіне <b>%(escapedLowercaseTopic)s</b> туралы хабарлағаныңыз үшін рахмет. Біз сізге мүмкіндігінше тезірек эл. пошта арқылы хабарласамыз."
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Mozilla қолдау қызметіне <b>%(escapedSelectedProduct)s</b> үшін <b>%(escapedLowercaseTopic)s</b> туралы хабарлағаныңыз үшін рахмет. Біз сізге мүмкіндігінше тезірек эл. пошта арқылы хабарласамыз."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -183,19 +184,19 @@ msgstr "Соңғы көрінген %(translatedTimeAgo)s шамасынан к�
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s (%(translatedCountry)s)"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s шамасынан бұрын, (%(translatedCountry)s)"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s, орны %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Соңғы көрінген %(translatedTimeAgo)s шамасынан артық, орны %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
@@ -255,7 +256,7 @@ msgstr "Веб сессиясы"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Соңғы көрінген уақыты белгісіз"
 
 #: .es5/views/settings/delete_account.js:208
 msgid "Account deleted successfully"
@@ -312,19 +313,19 @@ msgstr "Тіркелгіні қалпына келтіру"
 
 #: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру іске қосылған"
 
 #: .es5/views/settings/account_recovery/confirm_revoke.js:55
 msgid "Account recovery revoked"
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру болдырылмады"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Сіздің синхрондау деректеріңіз қорғалған"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Тіркелгіңізге кіру мүмкіндігін жоғалтсаңыз, синхрондау деректерін қалпына келтіре аласыз."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -680,7 +681,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Белгісіз жазылу."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown plan for subscription."
@@ -905,7 +906,7 @@ msgstr ""
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Интернетте қауіпсіздеу және ақылдырақ болыңыз"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -961,15 +962,15 @@ msgstr "OAuth параметрі жоқ: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Пайдаланушы жүйеге кірмеген"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Басқа пайдаланушы жүйеге кірген"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Расталмаған пайдаланушы немесе сеанс"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
@@ -977,15 +978,15 @@ msgstr "Жарамсыз id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Қашықтағы құрылғыдан жарамсыз хабарлама"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Қашықтағы құрылғыға жұптау кезінде қате орын алды"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Қашықтағы құрылғыға байланыс жабылды, әрекетті қайталаңыз"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
@@ -1106,15 +1107,15 @@ msgstr "Көбірек білу"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Нені синхрондауды таңдаңыз:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Таңдалғанды синхрондау"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Бұл құрылғыны синхрондамау"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1200,7 +1201,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Растау кодын енгізіңіз"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1218,7 +1219,7 @@ msgstr "Растау"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Басқа код керек пе? Қайта жіберу"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1234,7 +1235,7 @@ msgstr "Эл. пошта адресі расталды"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Баптауды аяқтаңыз"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1294,11 +1295,11 @@ msgstr "Жалғастыру"
 
 #: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Қалпына келтіру кодтарын сақтау"
 
 #: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Бұл бір реттік пайдалану кодтарын ұялы телефоныңыз болмаған кезі үшін қауіпсіз жерде сақтаңыз."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
@@ -1319,11 +1320,11 @@ msgstr "Баспаға шығару"
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 #: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Баптаудан бас тарту"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Қалпына келтіру кодын растау"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
