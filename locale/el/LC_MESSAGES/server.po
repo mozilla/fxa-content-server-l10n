@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-05 16:04+0000\n"
-"PO-Revision-Date: 2020-06-05 11:30+0000\n"
+"PO-Revision-Date: 2020-06-12 15:18+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -318,8 +318,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+"$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
@@ -360,11 +360,11 @@ msgstr ""
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Επόμενο τιμολόγιο: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Αριθμός τιμολογίου: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
@@ -434,8 +434,8 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+"$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
@@ -928,8 +928,8 @@ msgstr "Λήψη τελευταίας έκδοσης"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Sync από τις άλλες σας συσκευές, όπως το Firefox για <a %(androidLinkAttributes)s>Android</"
-#~ "a> και <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Sync από τις άλλες σας συσκευές, όπως το Firefox για <a %(androidLinkAttributes)s>Android</a> "
+#~ "και <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε από τις άλλες σας συσκευές, όπως το Firefox για Android και iOS."
@@ -1034,8 +1034,8 @@ msgstr "Λήψη τελευταίας έκδοσης"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Συγχρονισμό από άλλες συσκευές σας, όπως το Firefox για <a href='%(androidUrl)s'>Android</a> "
-#~ "και <a href='%(iosUrl)s'>iOS</a>."
+#~ "Συνδέσατε επιτυχώς την πρώτη σας συσκευή στο Λογαριασμό Firefox σας. Μπορείτε πλέον να συνδεθείτε στο Συγχρονισμό από άλλες συσκευές σας, όπως το Firefox για <a href='%(androidUrl)s'>Android</a> και"
+#~ " <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1136,8 +1136,7 @@ msgstr "Λήψη τελευταίας έκδοσης"
 
 #~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
 #~ msgstr ""
-#~ "Οι λογαριασμοί Firefox χρησιμοποιούν λειτουργίες που δεν υποστηρίζονται στην έκδοση του Firefox σας. Παρακαλούμε κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του Firefox για να "
-#~ "συνεχίσετε."
+#~ "Οι λογαριασμοί Firefox χρησιμοποιούν λειτουργίες που δεν υποστηρίζονται στην έκδοση του Firefox σας. Παρακαλούμε κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του Firefox για να συνεχίσετε."
 
 #~ msgid "Hello again."
 #~ msgstr "Γεια σας και πάλι."
@@ -1155,8 +1154,7 @@ msgstr "Λήψη τελευταίας έκδοσης"
 #~ msgstr "Παρακαλώ ενεργοποιήστε το λογαριασμό σας επιβεβαιώνοντας αυτή τη διεύθυνση email."
 
 #~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-#~ msgstr ""
-#~ "Χρησιμοποιείτε ένα <strong>πολύ παλιό</strong> πρόγραμμα περιήγησης. Παρακαλώ <a href=\"http://browsehappy.com/\">αναβαθμίστε το πρόγραμμα περιήγησής σας</a> για να βελτιώστε την εμπειρία σας."
+#~ msgstr "Χρησιμοποιείτε ένα <strong>πολύ παλιό</strong> πρόγραμμα περιήγησης. Παρακαλώ <a href=\"http://browsehappy.com/\">αναβαθμίστε το πρόγραμμα περιήγησής σας</a> για να βελτιώστε την εμπειρία σας."
 
 #~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
 #~ msgstr "Πριν λίγο καιρό, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Κάντε κλικ στον παρακάτω σύνδεσμο για ενεργοποίηση λογαριασμού."
@@ -1189,16 +1187,16 @@ msgstr "Λήψη τελευταίας έκδοσης"
 #~ msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Πριν λίγες ημέρες, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ένας επαληθευμένος λογαριασμός σάς παρέχει πρόσβαση στις καρτέλες, στους σελιδοδείκτες, στους κωδικούς "
 #~ "πρόσβασης και στο ιστορικό σας από οποιαδήποτε συσκευή, που έχει συνδεθεί σε αυτόν. Απλά επιβεβαιώστε αυτή τη διεύθυνση email για την ενεργοποίηση του λογαριασμού σας."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Πριν από μια εβδομάδα, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς. Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και "
-#~ "να μάς ενημερώσετε ότι είστε καλά."
+#~ "Πριν από μια εβδομάδα, δημιουργήσατε ένα Λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς. Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και να "
+#~ "μάς ενημερώσετε ότι είστε καλά."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Για επιπρόσθετη ασφάλεια, παρακαλώ επιβεβαιώστε αυτή την είσοδο για έναρξη συγχρονισμού με αυτή τη συσκευή:"
@@ -1220,11 +1218,10 @@ msgstr "Λήψη τελευταίας έκδοσης"
 #~ "Έχετε αφαιρέσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail του λογαριασμού Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτή τη "
 #~ "διεύθυνση."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail για το Λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και επιβεβαιώσεις σύνδεσης θα αποστέλλονται και στις δύο "
-#~ "διευθύνσεις e-mail."
+#~ "Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον e-mail για το Λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και επιβεβαιώσεις σύνδεσης θα αποστέλλονται και στις δύο διευθύνσεις "
+#~ "e-mail."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Όπως ζητήθηκε, ορίστε ένας σύνδεσμος για εγκατάσταση του Firefox στην κινητή σας συσκευή: %(link)s"
