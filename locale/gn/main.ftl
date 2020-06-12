@@ -190,6 +190,18 @@ pay-update-billing-description-week =
         [one] Oñembokuatiañeñũ { $amount } arapokõindýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
        *[other] Oñembokuatiañeñũ { $amount } peteĩ { $intervalCount } arapokõindýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Oñembokuatiañeñũha { $amount } jasýpe { $name } peg̃uarã. Jehepyme’ẽpyahu oikóta { $date }-pe.
+       *[other] Oñembokuatiañeñũha { $amount } peteĩ { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Oñembokuatiañeñũha { $amount } jasýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+       *[other] Oñembokuatiañeñũha { $amount } peteĩ { $name } arýpe g̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+    }
 
 ##
 
