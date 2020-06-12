@@ -66,21 +66,36 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Hủy bỏ
+payment-update-btn = Cập nhật
+payment-pay-btn = Thanh toán ngay
+payment-validate-name-error = Vui lòng nhập tên của bạn
+payment-validate-zip-required = Bắt buộc có mã bưu chính
+payment-validate-zip-short = Mã bưu chính quá ngắn
 
 ## subscription redirect
 
+sub-redirect-ready = Đăng ký của bạn đã sẵn sàng
+sub-redirect-copy = Hãy dành một chút thời gian để cho chúng tôi biết kinh nghiệm của bạn.
+sub-redirect-skip-survey = Không, cảm ơn, chỉ cần đưa tôi đến sản phẩm của tôi.
 
 ## fields
 
+default-input-error = Trường này là bắt buộc
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Xem lại bản nâng cấp của bạn
+sub-update-title = Thông tin thanh toán
+sub-update-card-ending = Kết thúc thẻ { $last }
+sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Xác nhận nâng cấp
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -112,12 +127,49 @@ payment-zip =
 
 ## subscription create
 
+sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 
 ## plan-details
 
+plan-details-header = Thông tin chi tiết sản phẩm
+plan-details-show-button = Hiện chi tiết
+plan-details-hide-button = Ẩn chi tiết
+plan-details-total-label = Tổng
 
 ## payment confirmation
 
+payment-confirmation-alert = Nhấp vào đây để tải xuống
+payment-confirmation-mobile-alert = Không thể mở ứng dụng? <a>Nhấp vào đây</a>
+payment-confirmation-heading = Cảm ơn bạn { $displayName }!
+payment-confirmation-heading-bak = Cảm ơn bạn!
+payment-confirmation-subheading = Một email xác nhận đã được gửi tới
+payment-confirmation-order-heading = Chi tiết đơn hàng
+payment-confirmation-invoice-number = Hóa đơn #{ $invoiceNumber }
+payment-confirmation-billing-heading = Hóa đơn cho
+payment-confirmation-details-heading = Chi tiết thanh toán
+payment-confirmation-amount = { $amount } mỗi { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } ngày
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } tuần
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } tháng
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } năm
+    }
+payment-confirmation-cc-preview = kết thúc bằng { $last4 }
+payment-confirmation-download-button = Tiếp tục tải xuống
