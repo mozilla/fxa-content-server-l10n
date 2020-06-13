@@ -252,15 +252,39 @@ account-activated = Konto użytkownika <userEl/> zostało aktywowane
 
 ## subscription route index
 
+sub-route-idx-updating = Aktualizowanie danych płatniczych…
+sub-route-idx-reactivating = Ponowna aktywacja subskrypcji się nie powiodła
+sub-route-idx-cancel-failed = Anulowanie subskrypcji się nie powiodło
+sub-route-idx-contact = Skontaktuj się z pomocą
+sub-route-idx-cancel-msg-title = Przykro nam, że chcesz się z nami pożegnać
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Subskrypcja { $name } została anulowana.
+          <br />
+          Będziesz mieć dostęp do { $name } do dnia { $date }.
+sub-route-idx-cancel-aside = Masz pytania? Odwiedź <a>pomoc { -brand-name-mozilla(case: "gen") }</a>.
+sub-subscription-error =
+    .title = Problem podczas wczytywania subskrypcji
+sub-customer-error =
+    .title = Problem podczas wczytywania klienta
+sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
 
 ## subscription create
 
+sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
 
 ## plan-details
 
+plan-details-header = Informacje o produkcie
+plan-details-show-button = Wyświetl informacje
+plan-details-hide-button = Ukryj informacje
+plan-details-total-label = Razem
 
 ## payment confirmation
 
+payment-confirmation-alert = Kliknij tutaj, aby pobrać
+payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
