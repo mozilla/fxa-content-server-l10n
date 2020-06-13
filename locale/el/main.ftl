@@ -40,9 +40,18 @@ privacy = Σημείωση απορρήτου
 
 ## Product route
 
+product-plan-error =
+    .title = Πρόβλημα φόρτωσης πλάνων
+product-profile-error =
+    .title = Πρόβλημα φόρτωσης προφίλ
+product-customer-error =
+    .title = Πρόβλημα φόρτωσης πελάτη
+product-plan-not-found = Το πλάνο δεν βρέθηκε
+product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτό το προϊόν.
 
 ## payment legal blurb
 
+payment-legal-copy = Η { -brand-name-mozilla } χρησιμοποιεί το Stripe για ασφαλή επεξεργασία των πληρωμών.
 
 ## payment form
 
@@ -122,6 +131,24 @@ pay-update-billing-description-day =
         [one] Χρεώνεστε { $amount } ημερησίως για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
        *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } ημέρες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Χρεώνεστε { $amount } εβδομαδιαία για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } εβδομάδες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Χρεώνεστε { $amount } μηνιαία για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } μήνες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Χρεώνεστε { $amount } ετησίως για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } χρόνια για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+    }
 
 ##
 
@@ -132,17 +159,29 @@ pay-update-change-btn = Αλλαγή
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $name };
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
+    και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
+    { $amount } στην κάρτα που λήγει σε { $last } στις { $endDate }.
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Ευχαριστώ! Όλα είναι έτοιμα.
+reactivate-success-button = Κλείσιμο
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-sub = Ακύρωση συνδρομής
+account-activated = Ο λογαριασμός σας ενεργοποιήθηκε, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Ενημέρωση πληροφοριών χρέωσης...
 
 ## subscription create
 
