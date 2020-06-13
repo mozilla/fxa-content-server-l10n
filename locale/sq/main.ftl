@@ -264,17 +264,47 @@ pay-update-change-btn = Ndryshoje
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Doni të vazhdoni të përdorni { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Përdorimi juaj i { $name } do të vazhdojë, dhe cikli juaj i faturimit dhe pagesa do të mbeten të njëjtët. Faturimi juaj pasues do të jetë
+    { $amount } te karta që përfundon me { $last } më { $endDate }.
+reactivate-confirm-button = Ripajtohuni
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = E anuluat pajtimin tuaj më { $date }.
+reactivate-panel-copy = Do të humbni mundësinë e përdorimit të { $name } më <strong>{ $date }</strong>.
+reactivate-success-copy = Faleminderit! Gjithçka gati.
+reactivate-success-button = Mbylle
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem në ngarkim pajtimesh
+sub-item-missing-msg = Ju lutemi, riprovoni më vonë.
+sub-item-no-such-plan = S’ka plan të tillë për këtë pajtim.
+sub-item-cancel-sub = Anulojeni Pajtimin
+sub-item-stay-sub = Qëndroni i Pajtuar
+sub-item-cancel-msg = Pas { $period }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $name }.
+sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $name }
+account-activated = Llogaria juaj është aktivizuar, <userEl />
 
 ## subscription route index
 
+sub-route-idx-updating = Po përditësohen të dhëna faturimi…
+sub-route-idx-reactivating = Riaktivizimi i pajtimit dështoi
+sub-route-idx-cancel-failed = Anulimi i pajtimit dështoi
+sub-route-idx-contact = Lidhuni Me Asistencën
+sub-route-idx-cancel-msg-title = Na vjen keq t’ju shohim të largoheni
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Pajtimi juaj në { $name } është anuluar.
+          <br />
+         Do të mund të përdorni ende { $name } deri më { $date }.
 
 ## subscription create
 
