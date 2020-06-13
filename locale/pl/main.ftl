@@ -15,18 +15,47 @@ project-brand = Konta Firefoksa
         [ins] Mozillą
         [loc] Mozilli
     }
+-brand-name-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoksa
+        [dat] Firefoksowi
+        [acc] Firefoksa
+        [ins] Firefoksem
+        [loc] Firefoksie
+    }
+document =
+    .title = Konta Firefoksa
 
 ## general-aria
 
+close-aria =
+    .aria-label = Zamknij okno
 
 ## app error dialog
 
+general-error-heading = Ogólny błąd aplikacji
+basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
+payment-error-1 = Wystąpił problem z upoważnieniem płatności. Spróbuj ponownie lub skontaktuj się z wystawcą karty.
+payment-error-2 = Wystąpił problem z upoważnieniem płatności. Skontaktuj się z wystawcą karty.
+expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
+insufficient-funds-error = Wygląda na to, że karta ma niewystarczające środki. Spróbuj użyć innej karty.
+withdrawal-count-limit-exceeded-error = Wygląda na to, że ta transakcja spowoduje przekroczenie limitu kredytowego. Spróbuj użyć innej karty.
+charge-exceeds-source-limit = Wygląda na to, że ta transakcja spowoduje przekroczenie dziennego limitu kredytowego. Spróbuj użyć innej karty lub tej samej za 24 godziny.
+instant-payouts-unsupported = Wygląda na to, że karta debetowa nie jest skonfigurowana do obsługi natychmiastowych płatności. Spróbuj użyć innej karty debetowej lub płatniczej.
+duplicate-transaction = Wygląda na to, że właśnie wysłano identyczną transakcję. Sprawdź swoją historię płatności.
+coupon-expired = Wygląda na to, że ten kod promocyjny wygasł.
+card-error = Nie można przetworzyć transakcji. Sprawdź poprawność informacji z karty płatniczej i spróbuj ponownie.
 
 ## settings
 
+settings-home = Strona główna konta
+settings-subscriptions = Subskrypcje i płatności
 
 ## legal footer
 
+terms = Regulamin usługi
+privacy = Zasady ochrony prywatności
 
 ## plan details
 

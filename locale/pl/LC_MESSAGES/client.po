@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 13:34+0000\n"
+"PO-Revision-Date: 2020-06-13 14:03+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1397,7 +1397,7 @@ msgstr "Regulamin usługi"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
-msgstr "Prywatność"
+msgstr "Zasady ochrony prywatności"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."

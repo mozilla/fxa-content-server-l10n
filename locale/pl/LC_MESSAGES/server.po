@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 13:44+0000\n"
+"PO-Revision-Date: 2020-06-13 14:04+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -772,7 +772,7 @@ msgstr "Zarządzaj kontem"
 
 #: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Konto zostało zweryfikowane. Teraz zsynchronizuj inne urządzenie, aby dokończyć konfigurację"
+msgstr "Zweryfikowano konto. Teraz zsynchronizuj inne urządzenie, aby dokończyć konfigurację"
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
@@ -909,7 +909,7 @@ msgstr "Konta Firefoksa wymagają obsługi JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr "Prywatność"
+msgstr "Zasady ochrony prywatności"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
