@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 08:30+0000\n"
+"PO-Revision-Date: 2020-06-13 09:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -735,11 +735,11 @@ msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
 
 #: lib/senders/email.js:807
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Κωδικός σύνδεσης για το %(serviceName)s"
 
 #: lib/senders/email.js:872
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Επιβεβαίωση πρωτεύοντος email"
 
 #: lib/senders/email.js:873 lib/senders/email.js:932 lib/senders/email.js:1000
 msgid "Verify email"
@@ -747,19 +747,19 @@ msgstr "Επαλήθευση email"
 
 #: lib/senders/email.js:931 lib/senders/email.js:999
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Επιβεβαίωση δευτερεύοντος email"
 
 #: lib/senders/email.js:1055
 msgid "Reset your password"
-msgstr ""
+msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: lib/senders/email.js:1097 lib/senders/email.js:1163
 msgid "Password updated"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης ενημερώθηκε"
 
 #: lib/senders/email.js:1135 lib/senders/email.js:1193
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Εντοπίστηκε ύποπτη δραστηριότητα"
 
 #: lib/senders/email.js:1235 lib/senders/email.js:1320 lib/senders/email.js:1356 lib/senders/email.js:1392 lib/senders/email.js:1426 lib/senders/email.js:1469 lib/senders/email.js:1512
 #: lib/senders/email.js:1555 lib/senders/email.js:1645 lib/senders/email.js:1691
@@ -772,7 +772,7 @@ msgstr ""
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
-msgstr ""
+msgstr "Το κύριο email ενημερώθηκε"
 
 #: lib/senders/email.js:1425
 msgid "Two-step verification enabled"
@@ -784,7 +784,7 @@ msgstr ""
 
 #: lib/senders/email.js:1554
 msgid "Recovery code used"
-msgstr ""
+msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
 #: lib/senders/email.js:1607
 msgid "1 recovery code remaining"
@@ -824,19 +824,19 @@ msgstr ""
 
 #: lib/senders/email.js:2051 lib/senders/email.js:2116
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Η συνδρομή σας στο %(productName)s έχει ακυρωθεί"
 
 #: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Η συνδρομή στο %(productName)s επανενεργοποιήθηκε"
 
 #: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Η πληρωμή για το %(productName)s ελήφθη"
 
 #: lib/senders/email.js:2349
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Η πληρωμή για το %(productName)s επιβεβαιώθηκε"
 
 #: lib/senders/email.js:2421
 msgid "Welcome to %(productName)s"
