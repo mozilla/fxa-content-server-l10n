@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-12 16:49+0000\n"
+"PO-Revision-Date: 2020-06-13 09:34+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -55,15 +55,15 @@ msgstr "新登入到 %(clientName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
-msgstr ""
+msgstr "我們偵測到您的 Firefox 帳號有可疑行為。為了防止您的帳號未經授權被使用，我們已解除您的帳號下所有裝置的連結，並且要求您更改密碼。"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "請到您會使用 Firefox 帳號的裝置重新登入，並依照顯示的步驟操作。"
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>重要:</b> 請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。"
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -76,7 +76,7 @@ msgstr "Firefox 帳號團隊"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "重要: 請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。"
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -312,7 +312,7 @@ msgstr "很遺憾看見您離開"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "您最近刪除了 Firefox 帳號，因此我們也同步取消了您的 %(productName)s 訂閱。最後一次付款發生於 %(invoiceDateOnly)s，金額為 %(invoiceTotal)s。"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -326,7 +326,7 @@ msgstr "請填寫這份簡短問卷幫助我們改善服務品質:"
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
-msgstr ""
+msgstr "您的 %(productName)s 訂閱已經取消，最後一次付款日期在 %(invoiceDateOnly)s，金額為 $%(invoiceTotal)s。您的服務將持續到目前的帳務週期結束為止，也就是 %(serviceLastActiveDateOnly)s。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -336,7 +336,7 @@ msgstr "您已成功從 %(productNameOld)s 切換到 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -366,7 +366,7 @@ msgstr "發票號碼: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "已於 %(invoiceDateOnly)s 收取 %(invoiceTotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -430,7 +430,7 @@ msgstr "感謝您重新開始訂閱 %(productName)s！"
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "您的帳務週期與付款內容將保持原樣，下次將於 %(nextInvoiceDateOnly)s，對卡號末四碼為 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主動取消之前，將自動持續訂閱。"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
