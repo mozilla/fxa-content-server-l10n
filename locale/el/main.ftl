@@ -52,6 +52,7 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυ
 ## payment legal blurb
 
 payment-legal-copy = Η { -brand-name-mozilla } χρησιμοποιεί το Stripe για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link = Δείτε την <a>πολιτική απορρήτου του Stripe</a>.
 
 ## payment form
 
@@ -72,22 +73,49 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Ακύρωση
+payment-update-btn = Ενημέρωση
+payment-pay-btn = Πληρωμή τώρα
+payment-validate-name-error = Παρακαλούμε εισάγετε το όνομά σας
+payment-validate-zip-required = Απαιτείται ταχυδρομικός κώδικας
+payment-validate-zip-short = Ο ταχυδρομικός κώδικας είναι πολύ μικρός
 
 ## subscription redirect
 
+sub-redirect-ready = Η συνδρομή σας είναι έτοιμη
+sub-redirect-copy = Παρακαλούμε αφιερώστε λίγο χρόνο για να μας πείτε για την εμπειρία σας.
+sub-redirect-skip-survey = Όχι ευχαριστώ, θέλω να μεταβώ στο προϊόν μου.
 
 ## fields
 
+default-input-error = Αυτό το πεδίο απαιτείται
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Έλεγχος αναβάθμισης
+sub-update-failed = Αποτυχία ενημέρωσης πλάνου
+sub-update-title = Πληροφορίες χρέωσης
+sub-update-card-ending = Κάρτα που λήγει σε { $last }
+sub-update-card-exp = Λήγει { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Το πλάνο σας θα αλλάξει αμέσως και θα χρεωθείτε με ένα προσαρμοσμένο
+    ποσό για το υπόλοιπο του κύκλου χρέωσής σαας. Από τις { $startingDate }
+    θα χρεωθείτε με το πλήρες ποσό.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } χρόνια</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
 
 ##
 
 sub-update-submit = Επιβεβαίωση αναβάθμισης
+sub-update-indicator =
+    .aria-label = δείκτης αναβάθμισης
 sub-update-current-plan-label = Τρέχον πλάνο
 sub-update-new-plan-label = Νέο πλάνο
 sub-update-total-label = Νέο σύνολο
@@ -166,10 +194,13 @@ reactivate-confirm-copy =
     Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
     και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
     { $amount } στην κάρτα που λήγει σε { $last } στις { $endDate }.
+reactivate-confirm-button = Επανανεγγραφή
 
 ##  $date (Date) - Last day of product access
 
-reactivate-success-copy = Ευχαριστώ! Όλα είναι έτοιμα.
+reactivate-panel-date = Ακυρώσατε τη συνδρομή σας στις { $date }.
+reactivate-panel-copy = Θα χάσετε την πρόσβαση στο { $name } στις <strong>{ $date }</strong>.
+reactivate-success-copy = Ευχαριστούμε! Όλα είναι έτοιμα.
 reactivate-success-button = Κλείσιμο
 
 ## subscription item
@@ -177,11 +208,26 @@ reactivate-success-button = Κλείσιμο
 ## $period (Date) - The last day of product access
 
 sub-item-cancel-sub = Ακύρωση συνδρομής
+sub-item-stay-sub = Μείνετε συνδρομητής
+sub-item-cancel-msg =
+    Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $name } μετά από
+    { $period }, την τελευταία μέρα του κύκλου χρέωσής σας.
+sub-item-cancel-confirm =
+    Ακύρωση πρόσβασης και αποθηκευμένων πληροφοριών στο
+    { $name } στις { $period }
 account-activated = Ο λογαριασμός σας ενεργοποιήθηκε, <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = Ενημέρωση πληροφοριών χρέωσης...
+sub-route-idx-reactivating = Αποτυχία επανενεργοποίησης της συνδρομής
+sub-route-idx-cancel-failed = Αποτυχία ακύρωσης της συνδρομής
+sub-route-idx-cancel-msg-title = Λυπούμαστε που φεύγετε.
+sub-subscription-error =
+    .title = Πρόβλημα φόρτωσης συνδρομών
+sub-customer-error =
+    .title = Πρόβλημα φόρτωσης πελάτη
+sub-billing-update-success = Τα στοιχεία χρέωσής σας ενημερώθηκαν με επιτυχία
 
 ## subscription create
 
