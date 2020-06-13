@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-03-02 22:22+0000\n"
+"PO-Revision-Date: 2020-06-13 17:41+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -36,7 +36,7 @@ msgstr "Queden pocos códigos de recuperación"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Decatémonos de que tas quedándote ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor."
+msgstr "Decatémonos de que tas quedando ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -581,7 +581,7 @@ msgstr "Confirma que recibiesti esti corréu y vamos ayudate a instalar y sincro
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Namái confirmalu, vamos ayudate a instalar y coneutar Firefox con otru preséu polo menos."
+msgstr "Namás confirmalu vamos ayudate a instalar y coneutar Firefox con otru preséu polo menos."
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
@@ -597,11 +597,11 @@ msgstr "Pa más información, visita'l <a %(supportLinkAttributes)s>Sofitu de Mo
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Esto ye un corréu automatizáu. Si nun amestesti dengún preséu nuevu a la to cuenta de Firefox, deberíes camudar la contraseña nel intre en %(passwordChangeLink)s"
+msgstr "Esto ye un corréu automatizáu. Si nun amestesti nengún preséu nuevu a la to cuenta de Firefox, deberíes camudar la contraseña nel intre en %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Esto ye un corréu automatizáu. Si lu recibes por error, nun faigas nada."
+msgstr "Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
@@ -609,7 +609,7 @@ msgstr "Esto ye un corréu automatizáu. Si nun autoricesti esta aición, entós
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Si sospeches que daquién ta tentando d'acceder a la to cuenta. camuda la contraseña."
+msgstr "Si sospeches que daquién ta tentando d'acceder a la to cuenta, camuda la contraseña."
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -911,8 +911,8 @@ msgid ""
 "                        continue."
 msgstr ""
 "Firefox Accounts usa carauterístiques que nun\n"
-"                        tán sofitaes na to versión de Firefox. Baxa ya instala\n"
-"                        la última versión de Firefox pa siguir, por favor."
+"                        tán sofitaes nesta versión de Firefox. Baxa\n"
+"                        ya instala la última pa siguir, por favor."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
@@ -983,8 +983,7 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
+#~ msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aniciar sesión en Sync"
@@ -1068,11 +1067,11 @@ msgstr ""
 #~ msgstr "Reaniciar contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier "
-#~ "preséu coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
+#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
+#~ "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Hai una selmana que creasti la to cuenta de Firefox pero enxamás nun la verifiquesti. Tábemos esmolecíos. Confirma esta direición de corréu p'activar la to cuenta y saber que tas bien."
@@ -1094,8 +1093,7 @@ msgstr ""
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de "
-#~ "Firefox."
+#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Data y hora:"
