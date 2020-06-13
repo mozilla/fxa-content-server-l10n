@@ -107,30 +107,68 @@ product-no-such-plan = Nie ma takiego planu dla tego produktu.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } korzysta z usług firmy Stripe do bezpiecznego przetwarzania płatności.
+payment-legal-link = Wyświetl <a>zasady ochrony prywatności firmy Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Imię i nazwisko
+    .label = Imię i nazwisko, tak jak jest wydrukowane na karcie
+payment-ccn =
+    .label = Numer karty
+payment-exp =
+    .label = Data wygaśnięcia
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Kod pocztowy
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Anuluj
+payment-update-btn = Aktualizuj
+payment-pay-btn = Zapłać teraz
+payment-validate-name-error = Proszę podać swoje imię i nazwisko
+payment-validate-zip-required = Kod pocztowy jest wymagany
+payment-validate-zip-short = Kod pocztowy jest za krótki
 
 ## subscription redirect
 
+sub-redirect-ready = Twoja subskrypcja jest gotowa
+sub-redirect-copy = Poświęć chwilę, aby powiedzieć nam o swoich wrażeniach.
+sub-redirect-skip-survey = Nie, dziękuję, po prostu zabierz mnie do mojego produktu.
 
 ## fields
 
+default-input-error = To pole jest wymagane
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Przejrzyj swoje rozszerzenie planu
+sub-update-failed = Aktualizacja planu się nie powiodła
+sub-update-title = Informacje rozliczeniowe
+sub-update-card-ending = Karta kończąca się na { $last }
+sub-update-card-exp = Wygasa { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
+    o daną kwotę dla pozostałego czasu cyklu rozliczeniowego. Począwszy od { $startingDate }
+    opłata będzie wynosiła pełną kwotę.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Potwierdź rozszerzenie
+sub-update-indicator =
+    .aria-label = wskaźnik rozszerzenia
+sub-update-current-plan-label = Obecny plan
+sub-update-new-plan-label = Nowy plan
+sub-update-total-label = Nowa suma
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
