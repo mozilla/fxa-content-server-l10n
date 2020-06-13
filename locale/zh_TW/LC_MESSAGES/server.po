@@ -452,7 +452,7 @@ msgstr "您已成功從 %(productNameOld)s 升級到 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將向您一次補收剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s，以反應較高的收費金額。"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
