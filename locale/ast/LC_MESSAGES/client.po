@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 17:48+0000\n"
+"PO-Revision-Date: 2020-06-13 18:05+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -159,7 +159,7 @@ msgstr ""
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #: .es5/views/settings/change_password.js:380
 msgid "Password changed successfully"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Coneutóse %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Coneutóse %(translatedTimeAgo)s en %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Coneutóse %(translatedTimeAgo)s cierca de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -268,7 +268,7 @@ msgstr "Camudar…"
 
 #: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Amestar…"
 
 #: .es5/views/settings/display_name.js:168
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -1734,39 +1734,39 @@ msgstr ""
 
 #: .es5/templates/settings/client_disconnect.mustache:1
 msgid "Disconnect from Sync"
-msgstr ""
+msgstr "Desconexón de Sync"
 
 #: .es5/templates/settings/client_disconnect.mustache:2
 msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr ""
+msgstr "Los tos datos de restolar van quedar en %(deviceName)s pero yá nun van sincronizase con esta cuenta."
 
 #: .es5/templates/settings/client_disconnect.mustache:3
 msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
+msgstr "Tas desconeutando a %(deviceName)s de porque'l preséu:"
 
 #: .es5/templates/settings/client_disconnect.mustache:4
 msgid "Suspicious"
-msgstr ""
+msgstr "Ye sospechosu"
 
 #: .es5/templates/settings/client_disconnect.mustache:5
 msgid "Lost or stolen"
-msgstr ""
+msgstr "Ta perdíu o robáronlu"
 
 #: .es5/templates/settings/client_disconnect.mustache:6
 msgid "Old or replaced"
-msgstr ""
+msgstr "Ye vieyu o ta trocáu"
 
 #: .es5/templates/settings/client_disconnect.mustache:7
 msgid "Duplicate"
-msgstr ""
+msgstr "Ta duplicáu"
 
 #: .es5/templates/settings/client_disconnect.mustache:8
 msgid "Rather not say"
-msgstr ""
+msgstr "Nun quiero dicilo"
 
 #: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
 msgid "Disconnect"
-msgstr ""
+msgstr "Desconeutar"
 
 #: .es5/templates/settings/client_disconnect.mustache:11
 msgid "Disconnection Successful"
@@ -1778,7 +1778,7 @@ msgstr "Preseos y aplicaciones"
 
 #: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
 msgid "Show"
-msgstr ""
+msgstr "Amosar"
 
 #: .es5/templates/settings/clients.mustache:6
 msgid "Current device"
@@ -1786,7 +1786,7 @@ msgstr "Preséu actual"
 
 #: .es5/templates/settings/clients.mustache:8
 msgid "Disconnect…"
-msgstr ""
+msgstr "Desconeutar…"
 
 #: .es5/templates/settings/clients.mustache:11
 msgid "Current session"
@@ -1810,7 +1810,7 @@ msgstr "Firefox p'Android"
 
 #: .es5/templates/settings/clients.mustache:25
 msgid "Missing or duplicate items?"
-msgstr ""
+msgstr "¿Falten o hai elementos duplicaos?"
 
 #: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:15
@@ -1827,7 +1827,7 @@ msgstr "Desaniciar la cuenta"
 
 #: .es5/templates/settings/delete_account.mustache:3
 msgid "Delete…"
-msgstr ""
+msgstr "Desaniciar…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Coneutésti esta cuenta de Firefox a productos de Mozilla que te caltenien seguru y faen que seyas productivu na web:"
+msgstr "Coneutesti esta cuenta de Firefox a productos de Mozilla que te caltenien seguru y faen que seyas productivu na web:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Please acknowledge that by deleting your account:"
@@ -2018,7 +2018,7 @@ msgstr ""
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
-msgstr "Quiciabes más sero"
+msgstr "Quiciabes dempués"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -2246,7 +2246,7 @@ msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "¿Tas guetando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Entama equí</a>"
+msgstr "¿Tas guetando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Apenza equí</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
