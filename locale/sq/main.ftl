@@ -105,6 +105,24 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në ditë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } ditë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në javë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } javë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
 
 ##
 
