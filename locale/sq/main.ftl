@@ -33,6 +33,7 @@ card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat
 
 ## settings
 
+settings-home = Kreu i Llogarive
 settings-subscriptions = Pajtime & Pagesa
 
 ## legal footer
@@ -305,15 +306,62 @@ sub-route-idx-cancel-msg =
     Pajtimi juaj në { $name } është anuluar.
           <br />
          Do të mund të përdorni ende { $name } deri më { $date }.
+sub-route-idx-cancel-aside = Keni pyetje? Vizitoni <a>Asistencën e { -brand-name-mozilla }-s</a>.
+sub-subscription-error =
+    .title = Problem në ngarkim pajtimesh
+sub-customer-error =
+    .title = Problem në ngarkim klienti
+sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me sukses
 
 ## subscription create
 
+sub-guarantee = 30 ditë garanci kthimi parash
 
 ## plan-details
 
+plan-details-header = Hollësi produkti
+plan-details-show-button = Shfaq hollësi
+plan-details-hide-button = Fshihi hollësitë
+plan-details-total-label = Gjithsej
 
 ## payment confirmation
 
+payment-confirmation-alert = Klikoni këtu për ta shkarkuar
+payment-confirmation-mobile-alert = S’u hap aplikacioni? <a>Klikoni Këtu</a>
+payment-confirmation-heading = Faleminderit { $displayName }!
+payment-confirmation-heading-bak = Faleminderit!
+payment-confirmation-subheading = U dërgua një email ripohimi te
+payment-confirmation-order-heading = Hollësi porosie
+payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Faturuar për
+payment-confirmation-details-heading = Hollësi pagese
+payment-confirmation-amount = { $amount } në { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } në ditë
+       *[other] { $amount } çdo { $intervalCount } ditë
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } çdo  javë
+       *[other] { $amount } çdo { $intervalCount } javë
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } çdo  muaj
+       *[other] { $amount } çdo { $intervalCount } muaj
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } çdo vit
+       *[other] { $amount } çdo { $intervalCount } vjet
+    }
+payment-confirmation-cc-preview = që përfundon me { $last4 }
+payment-confirmation-download-button = Vazhdoni te shkarkimi
