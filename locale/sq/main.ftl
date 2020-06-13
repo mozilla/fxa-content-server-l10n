@@ -181,26 +181,89 @@ sub-update-confirm-month =
         [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
        *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në vit</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } vjet</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
 
 ##
 
+sub-update-submit = Ripohoni përmirësimin
+sub-update-indicator =
+    .aria-label = tregues përmirësimi
+sub-update-current-plan-label = Plani i tanishëm
+sub-update-new-plan-label = Plan i ri
+sub-update-total-label = Shumë e re
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } në ditë
+       *[other] { $amount } çdo { $intervalCount } ditë
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } në javë
+       *[other] { $amount } çdo { $intervalCount } javë
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } në muaj
+       *[other] { $amount } çdo { $intervalCount } muaj
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } në vit
+       *[other] { $amount } çdo { $intervalCount } vjet
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Ju faturohen { $amount } në ditë për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+       *[other] Ju faturohen { $amount } çdo { $intervalCount } ditë për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Ju faturohen { $amount } në javë për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+       *[other] Ju faturohen { $amount } çdo { $intervalCount } javë për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Ju faturohen { $amount } në muaj për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+       *[other] Ju faturohen { $amount } çdo { $intervalCount } muaj për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Ju faturohen { $amount } në vit për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+       *[other] Ju faturohen { $amount } çdo { $intervalCount } vjet për { $name }. Pagesa juaj pasuese kryhet më { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Skadon më { $expirationDate }
+pay-update-change-btn = Ndryshoje
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Doni të vazhdoni të përdorni { $name }?
 
 ##  $date (Date) - Last day of product access
 
