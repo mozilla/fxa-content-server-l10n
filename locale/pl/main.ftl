@@ -192,7 +192,7 @@ plan-price-month =
     { $intervalCount ->
         [one] { $amount } miesięcznie
         [few] { $amount } co { $intervalCount } miesiące
-       *[many] { $amount } co { $intervalCount } misięcy
+       *[many] { $amount } co { $intervalCount } miesięcy
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
@@ -207,6 +207,34 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Opłata za { $name } wynosi { $amount } dziennie. Następna płatność nastąpi w dniu { $date }.
+        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } dni. Następna płatność nastąpi w dniu { $date }.
+       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } dni. Następna płatność nastąpi w dniu { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Opłata za { $name } wynosi { $amount } tygodniowo. Następna płatność nastąpi w dniu { $date }.
+        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } tygodnie. Następna płatność nastąpi w dniu { $date }.
+       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } tygodni. Następna płatność nastąpi w dniu { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Opłata za { $name } wynosi { $amount } miesięcznie. Następna płatność nastąpi w dniu { $date }.
+        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } miesiące. Następna płatność nastąpi w dniu { $date }.
+       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } miesięcy. Następna płatność nastąpi w dniu { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Opłata za { $name } wynosi { $amount } rocznie. Następna płatność nastąpi w dniu { $date }.
+        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } lata. Następna płatność nastąpi w dniu { $date }.
+       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } lat. Następna płatność nastąpi w dniu { $date }.
+    }
 
 ##
 
@@ -285,6 +313,44 @@ plan-details-total-label = Razem
 
 payment-confirmation-alert = Kliknij tutaj, aby pobrać
 payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
+payment-confirmation-heading = Dziękujemy!
+payment-confirmation-heading-bak = Dziękujemy!
+payment-confirmation-subheading = Wiadomość z potwierdzeniem została wysłana na adres
+payment-confirmation-order-heading = Informacje o zamówieniu
+payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Wystawiona na
+payment-confirmation-details-heading = Informacje o płatności
+payment-confirmation-amount = { $amount } co { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } dzienie
+        [few] { $amount } co { $intervalCount } dni
+       *[many] { $amount } co { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } tygodniowo
+        [few] { $amount } co { $intervalCount } tygodnie
+       *[many] { $amount } co { $intervalCount } tygodni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } miesięcznie
+        [few] { $amount } co { $intervalCount } miesiące
+       *[many] { $amount } co { $intervalCount } miesięcy
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } rocznie
+        [few] { $amount } co { $intervalCount } lata
+       *[many] { $amount } co { $intervalCount } lat
+    }
+payment-confirmation-cc-preview = kończąca się na { $last4 }
+payment-confirmation-download-button = Kontynuuj, aby pobrać
