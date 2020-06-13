@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 11:13+0000\n"
+"PO-Revision-Date: 2020-06-13 11:15+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -120,6 +120,7 @@ msgstr "Faleminderit që u lidhët me Asistencën e Mozilla-s rreth <b>%(escaped
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Faleminderit që lidheni me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b> për <b>%(escapedSelectedProduct)s</b>. Do të lidhemi me ju përmesh email-i sa më shpejt që të jetë e mundur."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -2180,11 +2181,11 @@ msgstr "<span class=\"number\">2</span>Drejtojeni kameran te kodi QR dhe prekni 
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Instaloni Firefox-in dhe hapeni te pajisja juaj"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Hyni në llogarinë tuaj"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
