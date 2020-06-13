@@ -42,6 +42,14 @@ privacy = הצהרת פרטיות
 
 ## Product route
 
+product-plan-error =
+    .title = בעיה בטעינת תוכניות
+product-profile-error =
+    .title = בעיה בטעינת פרופיל
+product-customer-error =
+    .title = בעיה בטעינת לקוח
+product-plan-not-found = תוכנית לא נמצאה
+product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 ## payment legal blurb
 
@@ -82,13 +90,24 @@ default-input-error = שדה זה נדרש
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = סקירת השדרוג שלך
 sub-update-failed = עדכון התוכנית נכשל
+sub-update-copy =
+    התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
+    לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
+    יבוצע חיוב בסכום המלא.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = אישור השדרוג
+sub-update-indicator =
+    .aria-label = מחוון שדרוג
+sub-update-current-plan-label = תוכנית נוכחית
+sub-update-new-plan-label = תוכנית חדשה
+sub-update-total-label = סה״כ חדש
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -110,6 +129,8 @@ reactivate-confirm-dialog-header = רוצה להמשיך להשתמש ב־{ $nam
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = ביטלת את המינוי שלך בתאריך { $date }.
+reactivate-panel-copy = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
 reactivate-success-button = סגירה
 
 ## subscription item
@@ -119,9 +140,13 @@ reactivate-success-button = סגירה
 sub-item-missing = בעיה בטעינת מינויים
 sub-item-missing-msg = נא לנסות שוב מאוחר יותר.
 sub-item-no-such-plan = אין תוכנית כזו למנוי הזה.
+sub-item-cancel-sub = ביטול מינוי
 sub-item-cancel-msg =
     לא תהיה לך עוד אפשרות להשתמש ב־{ $name } אחרי
     { $period }, היום האחרון של מחזור החיוב שלך.
+sub-item-cancel-confirm =
+    בטלו את הגישה ואת המידע השמור שלי
+    בתוך { $name } בתאריך { $period }
 account-activated = החשבון שלך מופעל, <userEl/>
 
 ## subscription route index
@@ -140,6 +165,8 @@ sub-route-idx-cancel-msg =
 sub-route-idx-cancel-aside = יש שאלות? ניתן לבקר ב<a>{ -brand-name-mozilla }תמיכה</a>.
 sub-subscription-error =
     .title = בעיה בטעינת מינויים
+sub-customer-error =
+    .title = בעיה בטעינת לקוח
 sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
 
 ## subscription create
@@ -160,6 +187,8 @@ payment-confirmation-heading = תודה רבה { $displayName }!
 payment-confirmation-heading-bak = תודה רבה!
 payment-confirmation-subheading = הודעת דוא״ל לאישור נשלחה אל
 payment-confirmation-order-heading = פרטי הזמנה
+payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
+payment-confirmation-details-heading = פרטי תשלום
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
