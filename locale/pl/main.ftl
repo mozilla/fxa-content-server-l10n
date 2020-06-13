@@ -155,7 +155,7 @@ sub-update-card-ending = Karta kończąca się na { $last }
 sub-update-card-exp = Wygasa { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
-    o daną kwotę dla pozostałego czasu cyklu rozliczeniowego. Począwszy od { $startingDate }
+    o daną kwotę dla pozostałego czasu okresu rozliczeniowego. Począwszy od { $startingDate }
     opłata będzie wynosiła pełną kwotę.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -173,6 +173,34 @@ sub-update-total-label = Nowa suma
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dziennie
+        [few] { $amount } co { $intervalCount } dni
+       *[many] { $amount } co { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } tygodniowo
+        [few] { $amount } co { $intervalCount } tygodnie
+       *[many] { $amount } co { $intervalCount } tygodni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } miesięcznie
+        [few] { $amount } co { $intervalCount } miesiące
+       *[many] { $amount } co { $intervalCount } misięcy
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } rocznie
+        [few] { $amount } co { $intervalCount } lata
+       *[many] { $amount } co { $intervalCount } lat
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -182,18 +210,45 @@ sub-update-total-label = Nowa suma
 
 ##
 
+pay-update-card-exp = Wygasa { $expirationDate }
+pay-update-change-btn = Zmień
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Czy chcesz nadal używać { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Twój dostęp do { $name } będzie kontynuowany, a okres rozliczeniowy
+    i płatności pozostaną takie same. Następna opłata będzie wynosiła { $amount }
+    na kartę kończącą się na { $last } w dniu { $endDate }.
+reactivate-confirm-button = Subskrybuj ponownie
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Anulowano subskrypcję w dniu { $date }.
+reactivate-panel-copy = Utracisz dostęp do { $name } w dniu <strong>{ $date }</strong>.
+reactivate-success-copy = Dzięki! Wszystko gotowe.
+reactivate-success-button = Zamknij
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem podczas wczytywania subskrypcji
+sub-item-missing-msg = Proszę spróbować ponownie później.
+sub-item-no-such-plan = Nie ma takiego planu dla tej subskrypcji.
+sub-item-cancel-sub = Anuluj subskrypcję
+sub-item-stay-sub = Nie rezygnuj z subskrypcji
+sub-item-cancel-msg =
+    Po { $period }, ostatnim dniu okresu rozliczeniowego,
+    nie będzie już można używać { $name }.
+sub-item-cancel-confirm =
+    Anuluj mój dostęp i moje zachowane informacje
+    w { $name } w dniu { $period }
+account-activated = Konto użytkownika <userEl/> zostało aktywowane
 
 ## subscription route index
 
