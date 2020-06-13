@@ -59,13 +59,51 @@ privacy = Zasady ochrony prywatności
 
 ## plan details
 
+product-plan-details-heading = Skonfigurujmy Twoją subskrypcję
+product-plan-details-heading = Skonfigurujmy Twoją subskrypcję
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } płatny { $amount } dziennie
+        [few] { $productName } płatny { $amount } co { $intervalCount } dni
+       *[many] { $productName } płatny { $amount } co { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } płatny { $amount } tygodniowo
+        [few] { $productName } płatny { $amount } co { $intervalCount } tygodnie
+       *[many] { $productName } płatny { $amount } co { $intervalCount } tygodni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } płatny { $amount } miesięcznie
+        [few] { $productName } płatny { $amount } co { $intervalCount } miesiąc
+       *[many] { $productName } płatny { $amount } co { $intervalCount } miesięcy
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } płatny { $amount } rocznie
+        [few] { $productName } płatny { $amount } co { $intervalCount } lata
+       *[many] { $productName } płatny { $amount } co { $intervalCount } lat
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problem podczas wczytywania planów
+product-profile-error =
+    .title = Problem podczas wczytywania profilu
+product-customer-error =
+    .title = Problem podczas wczytywania klienta
+product-plan-not-found = Nie odnaleziono planu
+product-no-such-plan = Nie ma takiego planu dla tego produktu.
 
 ## payment legal blurb
 
