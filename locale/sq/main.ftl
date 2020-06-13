@@ -123,21 +123,64 @@ payment-confirm-month =
         [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
        *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } në vit</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } vjet</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
+payment-confirm = E autorizoj Mozilla-n, prodhuesen e produkteve Firefox, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $interval }</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
 
 ##
 
+payment-cancel-btn = Anuloje
+payment-update-btn = Përditësoje
+payment-pay-btn = Paguani tani
+payment-validate-name-error = Ju lutemi, jepni emrin tuaj
+payment-validate-zip-required = Kodi ZIP është i domosdoshëm
+payment-validate-zip-short = Kodi ZIP është shumë i shkurtër
 
 ## subscription redirect
 
+sub-redirect-ready = Pajtimi juaj është gati
+sub-redirect-copy = Ju lutemi, ndaluni një çast dhe na tregoni mbi përvojën tuaj.
+sub-redirect-skip-survey = Jo, faleminderit, thjesht shpjemëni te produkti im.
 
 ## fields
 
+default-input-error = Kjo fushë është e domosdoshme
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Shqyrtoni përmirësimin tuaj
+sub-update-failed = Përditësimi i planit dështoi
+sub-update-title = Të dhëna faturimi
+sub-update-card-ending = Karta Që Përfundon Me { $last }
+sub-update-card-exp = Skadon më { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Plani juaj do të ndryshojë menjëherë, dhe do t’ju faturohet vlera e ndryshuar për pjesën e mbetur të ciklit tuaj të faturimit. Duke filluar nga { $startingDate }
+    do t’ju faturohet vlera e plotë.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } ditë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } ditë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } javë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } javë</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas kushteve të pagesave, derisa ta anuloj pajtimin tim.
+    }
 
 ##
 
