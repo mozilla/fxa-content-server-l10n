@@ -33,25 +33,75 @@ card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat
 
 ## settings
 
+settings-subscriptions = Pajtime & Pagesa
 
 ## legal footer
 
+terms = Kushte Shërbimi
+privacy = Shënim Mbi Privatësinë
 
 ## plan details
 
+product-plan-details-heading = Le të ujdisim  pajtimin tuaj
+product-plan-details-heading = Le të ujdisim  pajtimin tuaj
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } fatuaruar si { $amount } në ditë
+       *[other] { $productName } faturuar si { $amount } çdo { $intervalCount } ditë
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faturuar si { $amount } në javë
+       *[other] { $productName } faturuar si { $amount } çdo { $intervalCount } javë
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faturuar si { $amount } në muaj
+       *[other] { $productName } faturuar si { $amount } çdo { $intervalCount } muaj
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } faturuar si { $amount } në vit
+       *[other] { $productName } faturuar si { $amount } çdo { $intervalCount } vjet
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problem në ngarkim planesh
+product-profile-error =
+    .title = Problem në ngarkim profili
+product-customer-error =
+    .title = Problem në ngarkim klienti
+product-plan-not-found = S’u gjet plan
+product-no-such-plan = S’ka plan të tillë për këtë produkt.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } përdor Stripe-in për përpunim të sigurt pagesash.
+payment-legal-link = Shihni <a>Rregullat e privatësisë së Stripe-it</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Emër i Plotë
+    .label = Emri siç duket në kartën tuaj
+payment-ccn =
+    .label = Numër karte
+payment-exp =
+    .label = Skadim
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Kod ZIP
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
