@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 13:43+0000\n"
+"PO-Revision-Date: 2020-06-13 13:44+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -462,6 +462,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Zaczynając od następnego rachunku, opłata zostanie zmieniona z %(paymentAmountOld)s na %(productPaymentCycle)s na %(paymentAmountNew)s. Wtedy też zostanie naliczona jednorazowa opłata w wysokości "
+"%(paymentProrated)s, aby odzwierciedlić wyższą opłatę przez pozostały czas tego okresu (%(productPaymentCycle)s)."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -593,7 +595,7 @@ msgstr "Po potwierdzeniu pomożemy zainstalować i połączyć Firefoksa na co 
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Albo zainstaluj na <a %(cadLinkAttributes)s>innym urządzeniu</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -770,7 +772,7 @@ msgstr "Zarządzaj kontem"
 
 #: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Konto zostało zweryfikowane. Teraz zsynchronizuj inne urządzenie, aby dokończyć konfigurację"
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
