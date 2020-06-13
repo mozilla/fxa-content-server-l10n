@@ -20,6 +20,8 @@ close-aria =
 
 general-error-heading = Γενικό σφάλμα εφαρμογής
 basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+coupon-expired = Φαίνεται πως ο κωδικός της προωθητικής ενέργειας έχει λήξει.
+card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Παρακαλούμε επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
 
 ## settings
 
@@ -33,6 +35,8 @@ privacy = Σημείωση απορρήτου
 
 ## plan details
 
+product-plan-details-heading = Ας ρυθμίσουμε τη συνδρομή σας
+product-plan-details-heading = Ας ρυθμίσουμε τη συνδρομή σας
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -70,6 +74,31 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ημερησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } ημέρες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } εβδομαδιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } εβδομάδες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } μηνιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } μήνες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } χρόνια</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+payment-confirm = Εξουσιοδοτώ τη Mozilla, δημιουργό των προϊόντων Firefox, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ανά { $interval }</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
 
 ##
 
@@ -104,6 +133,24 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ημερησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } ημέρες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } εβδομαδιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } εβδομάδες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } μηνιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } μήνες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
+    }
 #  $intervalCount (Number) - The interval between payments, in years.
 sub-update-confirm-year =
     { $intervalCount ->
@@ -207,6 +254,9 @@ reactivate-success-button = Κλείσιμο
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Πρόβλημα φόρτωσης συνδρομών
+sub-item-missing-msg = Παρακαλούμε δοκιμάστε ξανά αργότερα.
+sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτή τη συνδρομή.
 sub-item-cancel-sub = Ακύρωση συνδρομής
 sub-item-stay-sub = Μείνετε συνδρομητής
 sub-item-cancel-msg =
@@ -222,7 +272,15 @@ account-activated = Ο λογαριασμός σας ενεργοποιήθηκ�
 sub-route-idx-updating = Ενημέρωση πληροφοριών χρέωσης...
 sub-route-idx-reactivating = Αποτυχία επανενεργοποίησης της συνδρομής
 sub-route-idx-cancel-failed = Αποτυχία ακύρωσης της συνδρομής
+sub-route-idx-contact = Επικοινωνία με την υποστήριξη
 sub-route-idx-cancel-msg-title = Λυπούμαστε που φεύγετε.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Η συνδρομή σας στο { $name } έχει ακυρωθεί.
+          <br />
+          Θα έχετε ακόμη πρόσβαση στο { $name } μέχρι τις { $date }.
+sub-route-idx-cancel-aside = Έχετε απορίες; Επισκεφθείτε την <a>Υποστήριξη { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Πρόβλημα φόρτωσης συνδρομών
 sub-customer-error =
