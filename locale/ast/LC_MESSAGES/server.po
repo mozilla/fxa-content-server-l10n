@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 17:47+0000\n"
+"PO-Revision-Date: 2020-06-14 10:30+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -589,7 +589,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Esto ye un corréu automatizáu. Si nun autoricesti esta aición, <a %(passwordChangeLinkAttributes)s>camuda la contraseña</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -625,7 +625,7 @@ msgstr "Política de privacidá de Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Términos del serviciu de Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
@@ -729,7 +729,7 @@ msgstr "Confirmación d'un aniciu de sesión nuevu en %(clientName)s"
 
 #: lib/senders/email.js:807
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Códigu d'aniciu de sesión pa %(serviceName)s"
 
 #: lib/senders/email.js:872
 msgid "Confirm primary email"
