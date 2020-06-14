@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 07:45+0000\n"
-"Last-Translator: Winfox <openlib@email.it>\n"
+"PO-Revision-Date: 2020-06-14 11:26+0000\n"
+"Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -56,14 +56,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Abbiamo rilevato comportamenti sospetti sul tuo account Firefox. Per impedire accessi non autorizzati, tutti i dispositivi sono stati disconnessi dal tuo account e, a scopo precauzionale, è "
+"obbligatorio cambiare la password."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Effettua nuovamente l’accesso in qualsiasi dispositivo o servizio in cui usi il tuo account Firefox e segui i passaggi che ti verranno presentati."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Importante:</b> scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che sia diversa da quella del tuo account di posta elettronica."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -72,11 +74,11 @@ msgstr "Cordialmente,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Il team di Firefox Accounts"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Importante: scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che sia diversa da quella del tuo account di posta elettronica."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -351,6 +353,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditato un importo una "
+"tantum di $%(paymentProrated)s per riflettere il costo inferiore per il resto di questo %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -380,7 +384,7 @@ msgstr "Numero fattura: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Addebitato %(invoiceTotal)s il %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -445,6 +449,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"La scadenza di fatturazione e il pagamento resteranno invariati. Il tuo prossimo addebito sarà di $%(invoiceTotal)s sulla carta %(cardType)s che termina con %(lastFour)s, il %(nextInvoiceDateOnly)s."
+" Il tuo abbonamento si rinnoverà automaticamente a ogni scadenza di fatturazione, a meno che tu non decida di annullarlo."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -467,6 +473,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditata una commissione "
+"una tantum di $%(paymentProrated)s per riflettere il costo superiore per il resto di questo %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
