@@ -46,6 +46,18 @@ week-based-plan-details-amount =
         [one] { $productName } facturava { $amount } cata septimana
        *[other] { $productName } facturava { $amount } cata { $intervalCount } septimanas
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ha facturate { $amount } cata mense
+       *[other] { $productName } ha facturate { $amount } cata { $intervalCount } menses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ha facturate { $amount } cata anno
+       *[other] { $productName } ha facturate { $amount } cata { $intervalCount } annos
+    }
 
 ## Product route
 
@@ -133,6 +145,12 @@ plan-price-month =
         [one] { $amount } cata mense
        *[other] { $amount } cata { $intervalCount }menses
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } annual
+       *[other] { $amount } cata { $intervalCount } annos
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -157,14 +175,21 @@ reactivate-success-button = Clauder
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problema cargante le subscriptiones
 sub-item-missing-msg = Retenta plus tarde.
+sub-item-no-such-plan = Nulle tal plano pro iste subscription.
 sub-item-cancel-sub = Cancellar subscription
 account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = Actualisation del informationes de factura...
+sub-route-idx-reactivating = Reactivation del subscription fallite
+sub-route-idx-cancel-failed = Cancellation del subscription fallite
 sub-route-idx-contact = Contactar assistentia
+sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
+sub-subscription-error =
+    .title = Problema cargante le subscriptiones
 sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
 
 ## subscription create
@@ -203,6 +228,18 @@ payment-confirmation-amount-week =
     { $intervalCount ->
         [one] { $amount } septimanalmente
        *[other] { $amount } cata { $intervalCount } septimanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } cata mense
+       *[other] { $amount } cata { $intervalCount }menses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } cata anno
+       *[other] { $amount } cata { $intervalCount } annos
     }
 payment-confirmation-cc-preview = que fini in { $last4 }
 payment-confirmation-download-button = Continuar a discargar
