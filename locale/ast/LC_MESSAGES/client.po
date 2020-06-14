@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 10:22+0000\n"
+"PO-Revision-Date: 2020-06-14 10:43+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (ríquese)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
@@ -102,7 +102,7 @@ msgstr "Desconozse la cuenta. <a href=\"/signup\">Rexístrate</a>"
 
 #: .es5/views/sign_up_password.js:87
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "La cuenta yá nun esiste. ¿Recreala?"
 
 #: .es5/views/support.js:86
 msgid "Please Select One"
@@ -801,15 +801,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:448
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Has introducir la to edá p'aniciar sesión"
 
 #: .es5/lib/auth-errors.js:452
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Has introducir una edá p'aniciar sesión"
 
 #: .es5/lib/auth-errors.js:468
 msgid "Account no longer exists."
-msgstr ""
+msgstr "La cuenta yá nun esiste."
 
 #: .es5/lib/auth-errors.js:472
 msgid "Invalid property in resume token: %(property)s"
@@ -1329,7 +1329,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Códigu de recuperación"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1637,7 +1637,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Unviémoste un mensaxe de testu"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
