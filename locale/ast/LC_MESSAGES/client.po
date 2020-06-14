@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 17:23+0000\n"
+"PO-Revision-Date: 2020-06-14 17:31+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -2258,7 +2258,7 @@ msgstr "Aprobar el preséu"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
-msgstr ""
+msgstr "Coneutóse'l preséu"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
@@ -2266,7 +2266,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr ""
+msgstr "Agora tas sincronizando con:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
@@ -2274,11 +2274,11 @@ msgstr ""
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Agora ríquese l'aprobación <small>dende l'otru preséu</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Nun hebo empareyamientu"
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
