@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 17:31+0000\n"
+"PO-Revision-Date: 2020-06-14 17:41+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -753,7 +753,7 @@ msgstr "La contraseña nueva ha ser diferente"
 
 #: .es5/lib/auth-errors.js:344 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "Ha ser de polo menos 8 caráuteres"
 
 #: .es5/lib/auth-errors.js:348
 msgid "Valid password required"
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Create a Firefox Account"
-msgstr ""
+msgstr "Creación d'una cuenta de Firefox"
 
 #: .es5/templates/sign_up_password.mustache:3
 msgid "Change email"
@@ -1601,7 +1601,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
-msgstr ""
+msgstr "Crear una cuenta"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -2222,11 +2222,11 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Nun ha incluyir la to direición de corréu"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Nun ha concasar con <a %(escapedCommonPasswordLinkAttrs)s>nenguna contraseña d'esta llista</a>"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -2270,7 +2270,7 @@ msgstr "Agora tas sincronizando con:"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
-msgstr ""
+msgstr "Xestionar los preseos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
