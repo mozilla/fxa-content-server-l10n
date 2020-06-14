@@ -20,6 +20,7 @@ general-error-heading = Error general del application
 
 ## settings
 
+settings-home = Pagina principal del conto
 settings-subscriptions = Abonamentos e pagamentos
 
 ## legal footer
@@ -60,6 +61,9 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment form
 
+payment-name =
+    .placeholder = Nomine complete
+    .label = Nomine como illo appare sur tu carta
 payment-ccn =
     .label = Numero de carta
 payment-exp =
