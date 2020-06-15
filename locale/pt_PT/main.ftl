@@ -177,6 +177,18 @@ sub-update-confirm-week =
         [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
        *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todas as  { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
 
 ##
 
@@ -190,12 +202,42 @@ sub-update-total-label = Novo total
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } diário
+       *[other] { $amount } todos os { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } todas as { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensalmente
+       *[other] { $amount } todos os { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } todos os { $intervalCount } anos
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } diariamente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } dias por { $name }. O seu próximo pagamento será em { $date }.
+    }
 
 ##
 
