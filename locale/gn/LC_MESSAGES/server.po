@@ -1,12 +1,12 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-08 14:59+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"PO-Revision-Date: 2020-06-15 16:40+0000\n"
+"Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
 "MIME-Version: 1.0\n"
@@ -59,11 +59,11 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde Firefox mba’ete ha tereho pe tape ehechátavape."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Mba’eguasu:</b> eiporavo ñe’ẽñemikuéra iñambuéva umi eipurúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -72,7 +72,7 @@ msgstr "Maitei,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Firefox accounts atygua"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -201,8 +201,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Emoambue hekopete ne ñandutiveve eipuruvéva %(email)s. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo Firefox Account-pe ha og̃uahẽ hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ "
-"rehegua."
+"Emoambue hekopete ne ñandutiveve eipuruvéva %(email)s. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo Firefox Account-pe ha og̃uahẽ hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo "
+"ñepyrũ rehegua."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -291,8 +291,8 @@ msgstr "Ñanduti veve mokõiguáva mbojuajupyre"
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Ehechajey hekopete %(secondaryEmail)s ñanduti veve mokõihávaramo ne mba’ete Firefox peguápe g̃uarã. Umi marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve "
-"kundaharapépe."
+"Ehechajey hekopete %(secondaryEmail)s ñanduti veve mokõihávaramo ne mba’ete Firefox peguápe g̃uarã. Umi marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve"
+" kundaharapépe."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -371,7 +371,7 @@ msgstr "Kuatia papapy: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Ojehepyme’ẽma $%(invoiceTotal)s %(invoiceDateOnly)s-pe"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -890,6 +890,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Romba’apo ropytu’u’ỹre jahejápa\n"
+"          pe apopyvusu oikojey hag̃ua pya’emi."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -931,15 +933,15 @@ msgstr "Emboguejy tembiapo ipyahuvéva"
 #~ msgstr "Embogueramoite nde Firefox Account. Péva rupi, romboykéma ne ñemoheraguapy %(productName)s. Ñe ñehepyme’ẽ ipaháva $%(invoiceTotal)s oñehepyme’ẽvo %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Roipe’áma nde ñemboheraguapy %(productName)s. Rehepyme’ẽva $%(invoiceTotal)s oiko hína %(invoiceDateOnly)s-pe. Ne mba’epuru oku’jeýta ipahaite peve ikatúva ehepyme’ẽ, ha’éva "
 #~ "%(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva $ %(paymentProrated)s "
 #~ "guive ohehechauka hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
@@ -955,11 +957,11 @@ msgstr "Emboguejy tembiapo ipyahuvéva"
 #~ "ohasa pukumívo ára ñemuhague rehegua ndete nderejokóiramo."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta $ %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei ehepyme’ẽta peteĩjey $ %(paymentProrated)s guive "
-#~ "ohechauka hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
+#~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta $ %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei ehepyme’ẽta peteĩjey $ %(paymentProrated)s guive ohechauka"
+#~ " hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Eikéma ha eñepyrũkuaáma eikundaha kyhyje’ỹre ha tekorosãme."
