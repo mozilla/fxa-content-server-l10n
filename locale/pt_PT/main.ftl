@@ -165,6 +165,18 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox } a debitar o meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todas as  { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
 
 ##
 
