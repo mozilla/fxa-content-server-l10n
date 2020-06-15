@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 23:08+0000\n"
+"PO-Revision-Date: 2020-06-15 23:15+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -183,23 +183,23 @@ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:61
 msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
+msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s"
 
 #: .es5/views/settings/clients.js:64
 msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s σε %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:65
 msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s σε %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:68
 msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:69
 msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
