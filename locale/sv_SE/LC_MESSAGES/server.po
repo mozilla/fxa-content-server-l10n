@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 17:03+0000\n"
+"PO-Revision-Date: 2020-06-15 17:07+0000\n"
 "Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -442,6 +442,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Din faktureringsperiod och betalning förblir desamma. Din nästa faktura är på %(invoiceTotal)s och dras den %(nextInvoiceDateOnly)s från %(cardType)s-kortet som slutar på %(lastFour)s. Din "
+"prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -464,6 +466,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Från och med din nästa räkning kommer din avgift att ändras från %(paymentAmountOld)s per %(productPaymentCycle)s till %(paymentAmountNew)s. Vid den tidpunkten debiteras du också en engångsavgift på"
+" %(paymentProrated)s för att återspegla den högre avgiften för återstoden av denna %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -475,7 +479,7 @@ msgstr "Om ja, här behörighetskoden som du behöver:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Om nej, hjälpa oss att avvärja inkräktare och <a %(reportSignInLinkAttributes)s=\"\">rapportera detta till oss.</a>"
+msgstr "Om nej, hjälp oss att avvärja inkräktare och <a %(reportSignInLinkAttributes)s=\"\">rapportera detta till oss.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
