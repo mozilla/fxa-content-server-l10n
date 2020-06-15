@@ -45,6 +45,8 @@ payment-name =
     .label = Nom apparaissant sur votre carte bancaire
 payment-exp =
     .label = Date d’expiration
+payment-cvc =
+    .label = Cryptogramme visuel
 payment-zip =
     .label = Code postal
 
@@ -55,6 +57,7 @@ payment-zip =
 
 payment-cancel-btn = Annuler
 payment-update-btn = Mettre à jour
+payment-pay-btn = Payer
 payment-validate-name-error = Veuillez saisir votre nom
 payment-validate-zip-required = Un code postal est nécessaire.
 
@@ -105,6 +108,7 @@ sub-item-cancel-sub = Annuler l’abonnement
 ## subscription route index
 
 sub-route-idx-contact = Contacter l’assistance
+sub-route-idx-cancel-msg-title = C’est triste de vous voir partir…
 
 ## subscription create
 
@@ -117,6 +121,7 @@ plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Cliquez ici pour télécharger
 payment-confirmation-heading-bak = Merci !
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
