@@ -215,15 +215,32 @@ sub-route-idx-updating = A atualizar a informação de pagamento...
 sub-route-idx-reactivating = A reativação da subscrição falhou
 sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
 sub-route-idx-contact = Contatar o Suporte
+sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
+sub-subscription-error =
+    .title = Problema em carregar as subscrições
+sub-customer-error =
+    .title = Problema em carregar o cliente
+sub-billing-update-success = A sua informação de pagamento foi atualizada com sucesso
 
 ## subscription create
 
+sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## plan-details
 
+plan-details-header = Detalhes do produto
+plan-details-show-button = Mostrar detalhes
+plan-details-hide-button = Ocultar detalhes
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Clique aqui para descarregar
+payment-confirmation-mobile-alert = A aplicação não abriu? <a>Clique aqui</a>
+payment-confirmation-heading = Obrigado { $displayName }!
+payment-confirmation-heading-bak = Obrigado!
+payment-confirmation-subheading = Foi enviado um e-mail de confirmação para
+payment-confirmation-order-heading = Detalhes de compra
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
