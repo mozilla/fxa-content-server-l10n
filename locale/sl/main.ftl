@@ -42,6 +42,8 @@ product-plan-details-heading = Nastavimo vašo naročnino
 
 product-plan-error =
     .title = Napaka pri nalaganju načrtov
+product-profile-error =
+    .title = Napaka pri nalaganju profila
 product-plan-not-found = Načrta ni mogoče najti
 
 ## payment legal blurb
@@ -70,6 +72,8 @@ payment-validate-zip-short = Poštna številka je prekratka
 ## subscription redirect
 
 sub-redirect-ready = Vaša naročnina je pripravljena
+sub-redirect-copy = Vzemite si trenutek in nam povejte o svoji izkušnji.
+sub-redirect-skip-survey = Ne, hvala, želim k svojemu izdelku.
 
 ## fields
 
@@ -109,6 +113,9 @@ reactivate-confirm-dialog-header = Želite še naprej uporabljati { $name }?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Naročilo ste preklicali dne { $date }.
+reactivate-panel-copy = Dne <strong>{ $date }</strong> boste izgubili dostop do { $name }.
+reactivate-success-copy = Hvala! Pripravljeni ste.
 reactivate-success-button = Zapri
 
 ## subscription item
@@ -119,15 +126,20 @@ sub-item-missing = Težava pri nalaganju naročnin
 sub-item-missing-msg = Poskusite znova kasneje.
 sub-item-no-such-plan = Za to naročnino ni takega načrta.
 sub-item-cancel-sub = Prekliči naročnino
+sub-item-stay-sub = Ostanite naročnik
 
 ## subscription route index
 
 sub-route-idx-cancel-msg-title = Žal nam je, da odhajate
+sub-route-idx-cancel-aside = Imate vprašanja? Obiščite <a>podporo { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Težava pri nalaganju naročnin
+sub-customer-error =
+    .title = Napaka pri nalaganju stranke
 
 ## subscription create
 
+sub-guarantee = 30-dnevno vračilo denarja
 
 ## plan-details
 
