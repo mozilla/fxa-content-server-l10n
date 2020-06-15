@@ -211,6 +211,9 @@ sub-item-missing-msg = Por favor, tente novamente mais tarde.
 sub-item-no-such-plan = Não existe um plano para esta subscrição.
 sub-item-cancel-sub = Cancelar subscrição
 sub-item-stay-sub = Manter a subscrição
+sub-item-cancel-msg =
+    Não vai poder mais o { $name } após¶
+    { $period }, o último dia do seu ciclo de faturação.
 sub-item-cancel-confirm =
     Cancelar o meu acesso e a minha informação guardada em¶
     { $name } em { $period }
@@ -223,6 +226,12 @@ sub-route-idx-reactivating = A reativação da subscrição falhou
 sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
 sub-route-idx-contact = Contatar o Suporte
 sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    A sua subscrição { $name } foi cencelada.¶
+     · <br />¶
+     · Ainda terá acesso a { $name } até { $date }.
 sub-route-idx-cancel-aside = Tem questões? Visite <a>{ -brand-name-mozilla } Suporte</a>.
 sub-subscription-error =
     .title = Problema em carregar as subscrições
