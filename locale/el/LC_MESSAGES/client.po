@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 23:15+0000\n"
+"PO-Revision-Date: 2020-06-15 23:41+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -119,6 +119,8 @@ msgstr "Σας ευχαριστούμε που απευθυνθήκατε στη
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το <b>%(escapedLowercaseTopic)s</b> για το <b>%(escapedSelectedProduct)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το "
+"συντομότερο δυνατό."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -881,7 +883,7 @@ msgstr "Μη έγκυρη ανακατεύθυνση"
 
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Λάθος email; Το %(domain)s δεν προσφέρει email."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -977,7 +979,7 @@ msgstr "Μη επαληθευμένος χρήστης ή συνεδρία"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Μη έγκυρο id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1116,7 +1118,7 @@ msgstr "Επιλέξτε τι θα συγχρονίζεται:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Επιλογές συγχρονισμού"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -1349,7 +1351,7 @@ msgstr "Επιβεβαίωση"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Ενεργοποίηση ελέγχου ταυτότητας δύο παραγόντων"
 
 #: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
