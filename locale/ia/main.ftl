@@ -166,6 +166,7 @@ pay-update-change-btn = Cambiar
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Renovar le subscription
 
 ##  $date (Date) - Last day of product access
 
