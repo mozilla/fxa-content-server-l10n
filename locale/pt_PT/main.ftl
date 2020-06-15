@@ -266,11 +266,19 @@ pay-update-change-btn = Alterar
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Deseja continuar a usar { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
+    e pagamento irão permanecer. O seu próximo débito será de¶
+    { $amount } para o cartão que termina em { $last } em { $endDate }.
 reactivate-confirm-button = Resubscrever
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Você cancelou a sua subscrição em { $date }.
+reactivate-panel-copy = Você ira perder acesso a { $name } em <strong>{ $date }</strong>.
 reactivate-success-copy = Obrigado! Está pronto para começar.
 reactivate-success-button = Fechar
 
