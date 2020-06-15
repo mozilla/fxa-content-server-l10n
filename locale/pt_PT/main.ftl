@@ -187,15 +187,18 @@ sub-update-total-label = Novo total
 
 ##
 
+pay-update-card-exp = Expira em { $expirationDate }
 pay-update-change-btn = Alterar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Deseja continuar a usar { $name }?
 reactivate-confirm-button = Resubscrever
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Você cancelou a sua subscrição em { $date }.
 reactivate-success-copy = Obrigado! Está pronto para começar.
 reactivate-success-button = Fechar
 
@@ -208,6 +211,10 @@ sub-item-missing-msg = Por favor, tente novamente mais tarde.
 sub-item-no-such-plan = Não existe um plano para esta subscrição.
 sub-item-cancel-sub = Cancelar subscrição
 sub-item-stay-sub = Manter a subscrição
+sub-item-cancel-confirm =
+    Cancelar o meu acesso e a minha informação guardada em¶
+    { $name } em { $period }
+account-activated = A sua conta está ativada, <userEl/>
 
 ## subscription route index
 
@@ -216,6 +223,7 @@ sub-route-idx-reactivating = A reativação da subscrição falhou
 sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
 sub-route-idx-contact = Contatar o Suporte
 sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
+sub-route-idx-cancel-aside = Tem questões? Visite <a>{ -brand-name-mozilla } Suporte</a>.
 sub-subscription-error =
     .title = Problema em carregar as subscrições
 sub-customer-error =
@@ -241,6 +249,36 @@ payment-confirmation-heading = Obrigado { $displayName }!
 payment-confirmation-heading-bak = Obrigado!
 payment-confirmation-subheading = Foi enviado um e-mail de confirmação para
 payment-confirmation-order-heading = Detalhes de compra
+payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Debitado a
+payment-confirmation-details-heading = Detalhes de pagamento
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } diário
+       *[other] { $amount } a cada { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } a cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mensalmente
+       *[other] { $amount } a cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } a cada { $intervalCount } anos
+    }
+payment-confirmation-cc-preview = termina em { $last4 }
+payment-confirmation-download-button = Continuar para descarregar

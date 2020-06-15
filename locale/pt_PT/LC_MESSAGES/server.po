@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 09:59+0000\n"
+"PO-Revision-Date: 2020-06-15 11:02+0000\n"
 "Last-Translator: Carlos (SUMO @albertdecastro) <carlos.a.silva@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -55,14 +55,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Detetámos um comportamento suspeito na sua conta Firefox. Para prevenir contra acessos não autorizados à sua Conta Firefox, desconetámos todos os dispositivos na sua conta e estamos a solicitar-lhe "
+"que altere a sua palavra-passe como precaução."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Inicie sessão de volta em qualquer dispositivo em que utiliza a sua conta Firefox e siga os passos que lhe serão apresentados."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Importante:</b> escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se de que é diferente da sua conta de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -75,7 +77,7 @@ msgstr "A equipa do Contas Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Importante: escolha uma palavra-passe diferença da que estava a utilizar anteriormente e certifique-se de que é diferente da sua conta de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -275,7 +277,7 @@ msgstr "Próxima sincronização entre os seus dispositivos!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "O Sync mantém igual e de modo privado os seus marcadores, palavras-passe e outra informação do Firefox em todos os seus dispotivos."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
@@ -318,7 +320,7 @@ msgstr "Temos pena que se vá embora"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Você cancelou a sua Conta Firefox recentemente. Como resultado, nós cancelámos a sua subscriçáo de %(productName)s. O seu pagamento final de %(invoiceTotal)s foi pago em %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
