@@ -238,6 +238,24 @@ pay-update-billing-description-day =
         [one] Você é debitado { $amount } diariamente por { $name }. O seu próximo pagamento será em { $date }.
        *[other] Você é debitado { $amount } todos os { $intervalCount } dias por { $name }. O seu próximo pagamento será em { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } semanalmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todas as{ $intervalCount } semanas por { $name }. O seu próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } mensalmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } meses por { $name }. O seu próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } anualmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } anos por { $name }. O seu próximo pagamento será em { $date }.
+    }
 
 ##
 
