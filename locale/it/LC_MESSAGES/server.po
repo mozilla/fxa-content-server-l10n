@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 11:26+0000\n"
+"PO-Revision-Date: 2020-06-14 05:45+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -273,19 +273,19 @@ msgstr "L’autenticazione in due passaggi per il tuo account Firefox è stata d
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "L’account Firefox è stato verificato. Hai quasi finito."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Adesso sincronizza i tuoi dispositivi."
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sync sincronizza i tuoi segnalibri, le password e altri dati di Firefox in tutti i tuoi dispositivi, garantendone la riservatezza."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
-msgstr ""
+msgstr "Configura il prossimo dispositivo"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -606,7 +606,7 @@ msgstr "Una volta confermato l'indirizzo email verrai guidato nell’installazio
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Oppure installalo su <a %(cadLinkAttributes)s>un altro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -785,7 +785,7 @@ msgstr "Gestisci account"
 
 #: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "L’account è stato verificato. Adesso sincronizza un altro dispositivo per completare la configurazione"
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
