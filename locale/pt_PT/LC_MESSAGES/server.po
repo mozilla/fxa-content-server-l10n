@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 09:50+0000\n"
+"PO-Revision-Date: 2020-06-15 09:59+0000\n"
 "Last-Translator: Carlos (SUMO @albertdecastro) <carlos.a.silva@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -646,7 +646,7 @@ msgstr "Termos e política de cancelamento"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reativar subscrição"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -767,7 +767,7 @@ msgstr "Gerir conta"
 
 #: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Conta verificada. Em seguida, sincronize outro dispositivo para concluir a configuração."
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
@@ -827,7 +827,7 @@ msgstr "A sua subscrição de %(productName)s foi cancelada"
 
 #: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "%(productName)s subscrição reativada"
 
 #: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
@@ -859,6 +859,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"A página que tentou aceder não foi encontrada. Nós fomos notificamos e¶\n"
+" · iremos corrigir quaisquer ligações que poderão estar com erros."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -873,6 +875,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Oh não, aconteceu algo de errado aqui. Nós fomos notificados e¶\n"
+" · iremos corrigir isto."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -887,6 +891,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Nós estamos sob tensão pesada e estamos a trabalhar para colocar¶\n"
+" · o sistema a funcionar novamente assim que possível."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

@@ -144,6 +144,7 @@ payment-validate-zip-short = O código postal é muito pequeno
 ## subscription redirect
 
 sub-redirect-ready = A sua subscrição está pronta
+sub-redirect-copy = Por favor, conte-nos acerca da sua experiência.
 sub-redirect-skip-survey = Não, obrigado. Leve-me ao meu produto.
 
 ## fields
@@ -167,6 +168,12 @@ sub-update-copy =
 
 ##
 
+sub-update-submit = Confirmar atualização
+sub-update-indicator =
+    .aria-label = indicador de atualização
+sub-update-current-plan-label = Plano atual
+sub-update-new-plan-label = Novo plano
+sub-update-total-label = Novo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -180,21 +187,34 @@ sub-update-copy =
 
 ##
 
+pay-update-change-btn = Alterar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Resubscrever
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Obrigado! Está pronto para começar.
+reactivate-success-button = Fechar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problema em carregar as subscrições
+sub-item-missing-msg = Por favor, tente novamente mais tarde.
+sub-item-no-such-plan = Não existe um plano para esta subscrição.
+sub-item-cancel-sub = Cancelar subscrição
+sub-item-stay-sub = Manter a subscrição
 
 ## subscription route index
 
+sub-route-idx-updating = A atualizar a informação de pagamento...
+sub-route-idx-reactivating = A reativação da subscrição falhou
+sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
+sub-route-idx-contact = Contatar o Suporte
 
 ## subscription create
 
