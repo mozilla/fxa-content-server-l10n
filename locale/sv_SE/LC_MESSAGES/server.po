@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-16 18:51+0000\n"
+"PO-Revision-Date: 2020-06-16 18:54+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -479,7 +479,7 @@ msgstr "Om ja, här behörighetskoden som du behöver:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Om nej, hjälp oss att avvärja inkräktare och <a %(reportSignInLinkAttributes)s=\"\">rapportera detta till oss.</a>"
+msgstr "Om nej, hjälp oss att avvärja inkräktare och <a %(reportSignInLinkAttributes)s>rapportera detta till oss.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
