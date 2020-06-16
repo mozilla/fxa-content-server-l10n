@@ -41,6 +41,14 @@ product-plan-details-heading = Asetetaan sinulle tilaus
 
 ## Product route
 
+product-plan-error =
+    .title = Ongelma ladatessa tilaustyyppejä
+product-profile-error =
+    .title = Ongelma ladatessa profiilia
+product-customer-error =
+    .title = Ongelma ladatessa asiakasta
+product-plan-not-found = Tilaustyyppiä ei löytynyt
+product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppiä.
 
 ## payment legal blurb
 
@@ -85,6 +93,7 @@ default-input-error = Tämä kenttä on pakollinen
 
 ## subscription upgrade
 
+sub-update-failed = Tilaustyypin päivittäminen epäonnistui
 sub-update-title = Laskutustiedot
 sub-update-card-ending = Kortti, joka päättyy numeroihin { $last }
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
@@ -95,6 +104,8 @@ sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-update-submit = Vahvista päivitys
+sub-update-current-plan-label = Nykyinen tilaustyyppi
+sub-update-new-plan-label = Uusi tilaustyyppi
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
