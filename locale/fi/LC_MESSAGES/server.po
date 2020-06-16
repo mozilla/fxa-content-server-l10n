@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-16 09:48+0000\n"
+"PO-Revision-Date: 2020-06-16 10:08+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -277,7 +277,7 @@ msgstr "Seuraavaksi synkronoi laitteesi!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut Firefoxin tiedot samassa tilassa eri laitteidesi välillä."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
@@ -334,6 +334,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Tuotteen %(productName)s tilaus on peruttu. Viimeisin maksusi, jonka summa on %(invoiceTotal)s, maksettiin %(invoiceDateOnly)s. Voit käyttää palvelua nykyisen laskutusjakson loppuun asti, joka "
+"päättyy %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
