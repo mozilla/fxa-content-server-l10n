@@ -213,9 +213,22 @@ reactivate-success-button = Cerrar
 
 ## plan-details
 
+plan-details-header = Detalles del producto
+plan-details-show-button = Mostrar detalles
+plan-details-hide-button = Ocultar detalles
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Clic aquí para descargar
+payment-confirmation-mobile-alert = ¿No se abrió la aplicación? <a>Haz clic aquí</a>
+payment-confirmation-heading = ¡Gracias { $displayName }!
+payment-confirmation-heading-bak = ¡Gracias!
+payment-confirmation-subheading = Un correo de confirmación ha sido enviado a
+payment-confirmation-order-heading = Detalles de la orden
+payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading = Detalles del pago
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 

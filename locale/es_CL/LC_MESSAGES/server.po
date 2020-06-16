@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-12 22:51+0000\n"
+"PO-Revision-Date: 2020-06-16 03:39+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -72,7 +72,7 @@ msgstr "Atentamente,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "El equipo de cuentas de Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
