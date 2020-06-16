@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-13 11:15+0000\n"
+"PO-Revision-Date: 2020-06-16 18:39+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1746,8 +1746,8 @@ msgstr "Përshkrim i problemit"
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
 msgstr ""
-"Shërbimi Sync s’është përbën një kopjeruajtje të përhershme, është thjesht një rrugë e sigurt për të shpërngulur nga një pajisje juaja në një tjetër tuajën faqerojtës, historik dhe fjalëkalime që "
-"keni ruajtur."
+"Shërbimi Sync s’është një kopjeruajtje të përhershme, është thjesht një rrugë e sigurt për të shpërngulur nga një pajisje juaja në një tjetër tuajën faqerojtës, historik dhe fjalëkalime që keni "
+"ruajtur."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
@@ -2105,7 +2105,7 @@ msgstr "Merrni në postën tuaj dije praktike rreth:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Pajto %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
