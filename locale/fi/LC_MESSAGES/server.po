@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-16 09:29+0000\n"
+"PO-Revision-Date: 2020-06-16 09:41+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -56,14 +56,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Havaitsimme epäilyttävää toimintaa Firefox-tililläsi. Estääksemme Firefox-tilisi luvattoman käytön, olemme katkaisseet yhteyden kaikkiin laitteisiisi tilisi osalta. Vaadimme sinua vaihtamaan "
+"salasanan varotoimenpiteenä."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät Firefox-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Tärkeää:</b> aseta eri salasana kuin mitä käytit aiemmin ja varmista, että se on eri salasana kuin mitä käytät sähköpostitililläsi."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -76,7 +78,7 @@ msgstr "Firefox-tilien tiimi"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Tärkeää: aseta eri salasana kuin mitä käytit aiemmin ja varmista, että se on eri salasana kuin mitä käytät sähköpostitililläsi."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -271,7 +273,7 @@ msgstr "Firefox-tili on vahvistettu. Olet melkein valmis."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Seuraavaksi synkronoi laitteesi!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
@@ -354,7 +356,7 @@ msgstr "Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet 
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s!"
-msgstr ""
+msgstr "Kiitos, että tilasit tuotteen %(productName)s!"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -393,11 +395,11 @@ msgstr "Luottokorttisi vanhenee pian"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Luottokortti, jota käytät tuotteen %(productName)s maksujen suorittamiseen, vanhenee pian."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Estääksesi palvelun käytön häiriintymisen, <a href=\"%(updateBillingUrl)s\">päivitä maksutietosi</a> mahdollisimman pian."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
@@ -409,7 +411,7 @@ msgstr "Valitettavasti maksusi kanssa ilmeni ongelmia"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Havaitsimme ongelman tuotteen %(productName)s maksun kohdalla."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
@@ -443,7 +445,7 @@ msgstr "Kiitos siitä, että olet tilaaja!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "Vastaanotimme viimeisimmän maksun tuotteen %(productName)s osalta."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
@@ -589,7 +591,7 @@ msgstr "Vahvistamisen jälkeen autamme asentamaan Firefoxin ainakin yhteen muuhu
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Tai asenna <a %(cadLinkAttributes)s>toiselle laitteelle</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -814,11 +816,11 @@ msgstr ""
 
 #: lib/senders/email.js:1950
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Tuotteella %(productName)s käytettävä luottokortti vanhenee pian"
 
 #: lib/senders/email.js:2000
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Tuotteen %(productName)s maksu epäonnistui"
 
 #: lib/senders/email.js:2051 lib/senders/email.js:2116
 msgid "Your %(productName)s subscription has been cancelled"
