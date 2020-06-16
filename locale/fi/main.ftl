@@ -93,6 +93,7 @@ default-input-error = Tämä kenttä on pakollinen
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Katselmoi päivitys
 sub-update-failed = Tilaustyypin päivittäminen epäonnistui
 sub-update-title = Laskutustiedot
 sub-update-card-ending = Kortti, joka päättyy numeroihin { $last }
@@ -124,10 +125,12 @@ pay-update-card-exp = Vanhenee { $expirationDate }
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Tilaa uudelleen
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Peruutit tilauksesi { $date }.
+reactivate-panel-copy = Käyttöoikeutesi palveluun { $name } päättyy <strong>{ $date }</strong>.
 reactivate-success-copy = Kiitos! Kaikki on nyt valmiina.
 reactivate-success-button = Sulje
 
@@ -137,7 +140,9 @@ reactivate-success-button = Sulje
 
 sub-item-missing = Ongelma ladatessa tilauksia
 sub-item-missing-msg = Yritä myöhemmin uudestaan.
+sub-item-no-such-plan = Tälle tilaukselle ei ole kyseistä tilaustyyppiä.
 sub-item-cancel-sub = Peruuta tilaus
+sub-item-stay-sub = Jatka tilausta
 account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index
@@ -147,8 +152,11 @@ sub-route-idx-reactivating = Tilauksen aktivointi uudelleen epäonnistui
 sub-route-idx-cancel-failed = Tilauksen peruuttaminen epäonnistui
 sub-route-idx-contact = Ota yhteys tukeen
 sub-route-idx-cancel-msg-title = Harmi että poistut
+sub-route-idx-cancel-aside = Kysymyksiä? Käy <a>{ -brand-name-mozilla }-tuessa</a>.
 sub-subscription-error =
     .title = Ongelma ladatessa tilauksia
+sub-customer-error =
+    .title = Ongelma ladatessa asiakasta
 sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
 
 ## subscription create
@@ -174,3 +182,4 @@ payment-confirmation-details-heading = Maksun tiedot
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = päättyen { $last4 }
