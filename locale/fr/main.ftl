@@ -48,10 +48,14 @@ product-plan-details-heading = Configurons votre abonnement
 
 ## Product route
 
+product-plan-error =
+    .title = Erreur de chargement des forfaits
 product-profile-error =
     .title = Erreur de chargement de votre profil
 product-customer-error =
     .title = Erreur de chargement du client
+product-plan-not-found = Forfait introuvable
+product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 ## payment legal blurb
 
@@ -96,7 +100,11 @@ default-input-error = Ce champ est requis.
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Examinez votre mise à niveau
+sub-update-failed = La mise à jour de votre forfait a échoué
 sub-update-title = Informations de facturation
+sub-update-card-ending = Carte se terminant par { $last }
+sub-update-card-exp = Expiration : { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -106,6 +114,9 @@ sub-update-title = Informations de facturation
 sub-update-submit = Confirmer la mise à niveau
 sub-update-indicator =
     .aria-label = indicateur de mise à niveau
+sub-update-current-plan-label = Forfait actuel
+sub-update-new-plan-label = Nouveau forfait
+sub-update-total-label = Nouveau total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -154,6 +165,13 @@ sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
 sub-route-idx-cancel-failed = Échec de l’annulation de l’abonnement
 sub-route-idx-contact = Contacter l’assistance
 sub-route-idx-cancel-msg-title = C’est triste de vous voir partir…
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Votre abonnement à { $name } a été résilié.
+    <br />
+    Vous aurez encore accès à { $name } jusqu’au { $date }.
+sub-route-idx-cancel-aside = Vous avez des questions ? Consultez <a>l’assistance de { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Erreur de chargement des abonnements
 sub-customer-error =
@@ -179,6 +197,7 @@ payment-confirmation-heading-bak = Merci !
 payment-confirmation-subheading = Un courriel de confirmation a été envoyé à
 payment-confirmation-order-heading = Détails de la commande
 payment-confirmation-billing-heading = Facturé à
+payment-confirmation-details-heading = Informations de paiement
 payment-confirmation-amount = { $amount } par { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
