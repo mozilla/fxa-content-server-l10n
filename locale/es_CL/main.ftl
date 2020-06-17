@@ -204,12 +204,30 @@ reactivate-success-button = Cerrar
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problemas al cargar las suscripciones
+sub-item-missing-msg = Por favor, vuelve a intentarlo más tarde.
+sub-item-no-such-plan = No existe ese plan para esta suscripción.
+sub-item-cancel-sub = Cancelar suscripción
+sub-item-stay-sub = Mantener suscripción
+account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Actualizando información de pagos...
+sub-route-idx-reactivating = Fallo la reactivación de la suscripción
+sub-route-idx-cancel-failed = Fallo la cancelación de la suscripción
+sub-route-idx-contact = Contactar al soporte
+sub-route-idx-cancel-msg-title = Lamentamos ver que te vayas
+sub-route-idx-cancel-aside = ¿Tienes preguntas? Visita el <a>soporte de { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Problemas al cargar las suscripciones
+sub-customer-error =
+    .title = Problemas al cargar el consumidor
+sub-billing-update-success = Tu información de facturación se ha actualizado exitosamente
 
 ## subscription create
 
+sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## plan-details
 
@@ -229,6 +247,33 @@ payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
 payment-confirmation-details-heading = Detalles del pago
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } diarios
+       *[other] { $amount } cada { $intervalCount } días
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } semanales
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mensuales
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anuales
+       *[other] { $amount } cada { $intervalCount } años
+    }
+payment-confirmation-cc-preview = terminada en { $last4 }
+payment-confirmation-download-button = Continuar para descargar
