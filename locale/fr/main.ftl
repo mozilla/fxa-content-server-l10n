@@ -20,6 +20,8 @@ close-aria =
 
 general-error-heading = Erreur générale de l’application
 basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
+payment-error-1 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Réessayez ou contactez l’émetteur de votre carte.
+payment-error-2 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
 expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 
 ## settings
