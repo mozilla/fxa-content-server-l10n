@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-05-18 17:51+0000\n"
+"PO-Revision-Date: 2020-06-17 06:38+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -172,7 +172,8 @@ msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫਸੋਸ ਹ
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
+msgstr ""
+"ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
@@ -425,15 +426,15 @@ msgstr "ਖਾਤਾ ਮਸਲੇ"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "ਤਕਨੀਕੀ ਮਸਲੇ"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "ਫੀਡਬੈਕ / ਬੇਨਤੀ ਫੀਚਰ ਦਿਓ"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "ਸੂਚੀਬੱਧ ਨਹੀਂ"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1005,11 +1006,10 @@ msgid "Invalid Token"
 msgstr "ਅਢੁੱਕਵਾਂ ਟੋਕਨ"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਨੂੰ %(serviceName)s (%(serviceUri)s) ਦੀਆਂ <a id=\"service-tos\" href=\"%(termsUri)s\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"service-pp\" href=\"%(privacyUri)s\">ਪਰਦੇਦਾਰੀ ਨੋਟਿਸ</a> ਨਾਲ "
+"ਸਹਿਮਤ ਹੋ ਹੋਵੇਗਾ।"
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1078,8 +1078,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1136,8 +1135,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span> ਯਾਦ ਰੱਖੋ:</span> ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ। ਤੁਸੀਂ ਆਪਣੀ ਕੁਝ ਨਿੱਜੀ ਜਾਣਕਾਰੀ (ਅਤੀਤ, ਬੁੱਕਮਾਰਕ ਅਤੇ ਪਾਸਵਰਡ) ਗੁਆ ਸਕਦੇ ਹੋ। ਇਸ ਲਈ ਕਿਉਂਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਤੁਹਾਡੇ ਪਾਸਵਰਡ "
-"ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਹੈ।"
+"<span> ਯਾਦ ਰੱਖੋ:</span> ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ। ਤੁਸੀਂ ਆਪਣੀ ਕੁਝ ਨਿੱਜੀ ਜਾਣਕਾਰੀ (ਅਤੀਤ, ਬੁੱਕਮਾਰਕ ਅਤੇ ਪਾਸਵਰਡ) ਗੁਆ ਸਕਦੇ ਹੋ। ਇਸ ਲਈ ਕਿਉਂਕਿ ਅਸੀਂ "
+"ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਹੈ।"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1209,7 +1208,7 @@ msgstr "ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕੀ ਕੋਡ ਦਾਖਲ ਕਰੋ ਜੋ %(escapedEmail)s ਨੂੰ 5 ਮਿੰਟ ਦੇ ਅੰਦਰ ਭੇਜਿਆ ਗਿਆ ਸੀ।"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1256,7 +1255,7 @@ msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡ
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "ਹਾਲੇ ਵੀ ਡਿਵਾਈਸਾਂ ਜੋੜੀਆਂ ਜਾ ਰਹੀਆਂ? ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਸਾਇਨ-ਇਨ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1328,7 +1327,7 @@ msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1344,7 +1343,7 @@ msgstr "ਪੁਸ਼ਟੀ"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਕਰੋ"
 
 #: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1676,7 +1675,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4
 msgid "Firefox Account"
-msgstr ""
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤਾ"
 
 #: .es5/templates/support.mustache:7
 msgid "What do you need help with?"
@@ -2007,9 +2006,10 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 ’ਚੋਂ 2 ਪੜਾਅ: ਰਿਕਰਵੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr "<span class=\"note\">ਸੂਚਨਾ: </span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਇਸ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ. ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ, ਜਿੱਥੇ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਇਸਨੂੰ ਆਸਾਨੀ ਨਾਲ ਲੱਭ ਸਕਦੇ ਹੋ।"
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgstr ""
+"<span class=\"note\">ਸੂਚਨਾ: </span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਇਸ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ. ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ, ਜਿੱਥੇ ਤੁਸੀਂ ਬਾਅਦ "
+"ਵਿੱਚ ਇਸਨੂੰ ਆਸਾਨੀ ਨਾਲ ਲੱਭ ਸਕਦੇ ਹੋ।"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2456,7 +2456,9 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 #~ msgstr "ਡੁਪਲੀਕੇਟ ਡਿਵਾਈਸ"
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਸੁਰੱਖਿਆ, ਸਾਡੀ ਨੀਤੀ ਵਿੱਚ ਬਦਲਾਅ, ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਈਮੇਲ ਨਾਲ ਸਬੰਧਿਤ ਸੰਚਾਰ ਮਿਲੇਗਾ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ ਹੈ।"
+#~ msgstr ""
+#~ "ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਸੁਰੱਖਿਆ, ਸਾਡੀ ਨੀਤੀ ਵਿੱਚ ਬਦਲਾਅ, ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਕਾਰਜਸ਼ੀਲਤਾ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਈਮੇਲ ਨਾਲ ਸਬੰਧਿਤ ਸੰਚਾਰ ਮਿਲੇਗਾ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ "
+#~ "ਹੈ।"
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "ਇਸ ਤੋਂ ਇਲਾਵਾ, ਤੁਸੀਂ ਮੌਜ਼ੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ ਤੋਂ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ ਦੇ ਨਾਲ ਪ੍ਰਚਾਰ ਸੰਬੰਧੀ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਮੈਂਬਰੀ ਲੈ ਸਕਦੇ ਹੋ।"
@@ -2711,11 +2713,9 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 #~ msgstr "ਵੱਖਰੇ ਈਮੇਲ ਨਾਲ ਖਾਤਾ ਹੈ? <a href=\"%(signinUri)s\">ਸਾਈਨ ਇਨ ਕਰੋ</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> "
-#~ "ਲਈ ਮੌਜੂਦ ਹੈ।"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "ਫਾਇਰਫਾਕਸ <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">ਐਂਡਰਾਈਡ</a>, <a href=\"%(linkIOS)s\">iOS</a> ਅਤੇ <a href=\"%(linkLinux)s\">ਲੀਨਕਸ</a> ਲਈ ਮੌਜੂਦ ਹੈ।"
 
 #~ msgid "Delete"
 #~ msgstr "ਹਟਾਓ"
@@ -2817,7 +2817,9 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 #~ msgstr "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ।"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਵੇਲੇ ਸਾਡਾ ਸਰਵਰ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਿੰਗ ਅੰਕੜਿਆਂ ਨੂੰ ਮਿਟਾ ਦੇਵੇਗਾ । ਤੁਹਾਡੇ ਉਪਕਰਨ ਉਤੇ ਹੋਰ ਕੋਈ ਵੀ ਅੰਕੜਾ ਅਣਛੂਹਿਆ ਰਹੇਗਾ । ਦੁਬਾਰਾ ਸੈੱਟ ਕਰਨ ਦੀ ਕਿਰਿਆ ਨੂੰ ਥੱਲੇ ਆਪਣੀ ਈ-ਮੇਲ ਭਰਨ ਨਾਲ "
+#~ "ਸ਼ੁਰੂ ਕਰੋ ।"
 
 #~ msgid "Age is required"
 #~ msgstr "ਉਮਰ ਲੋੜੀਂਦੀ ਹੈ ।"
@@ -2974,12 +2976,10 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ।"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ "
-#~ "ਸਹਿਮਤ ਹਾਂ।"
+#~ "ਅੱਗੇ ਜਾਣ ਨਾਲ, ਮੈਂ ਫਾਇਰਫਾਕਸ ਕਲਾਉਡ ਸੇਵਾਵਾਂ ਦੀਆਂ <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">ਪਰਦੇਦਾਰੀ "
+#~ "ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹਾਂ।"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "ਫਾਇਰਫਾਕਸ ਖਬਰ ਅਤੇ ਸੁਝਾਅ ਲਈ ਦਸਤਖਤ"
