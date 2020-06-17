@@ -24,6 +24,7 @@ expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez ave
 
 ## settings
 
+settings-home = Accueil du compte
 settings-subscriptions = Abonnements et paiements
 
 ## legal footer
@@ -33,6 +34,8 @@ privacy = Politique de confidentialité
 
 ## plan details
 
+product-plan-details-heading = Configurons votre abonnement
+product-plan-details-heading = Configurons votre abonnement
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -40,15 +43,23 @@ privacy = Politique de confidentialité
 
 ## Product route
 
+product-profile-error =
+    .title = Erreur de chargement de votre profil
+product-customer-error =
+    .title = Erreur de chargement du client
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } utilise Stripe pour un traitement sécurisé des paiements.
+payment-legal-link = Consultez la <a>politique de confidentialité de Stripe</a>.
 
 ## payment form
 
 payment-name =
     .placeholder = Nom complet
     .label = Nom apparaissant sur votre carte bancaire
+payment-ccn =
+    .label = Numéro de carte
 payment-exp =
     .label = Date d’expiration
 payment-cvc =
@@ -66,9 +77,13 @@ payment-update-btn = Mettre à jour
 payment-pay-btn = Payer
 payment-validate-name-error = Veuillez saisir votre nom
 payment-validate-zip-required = Un code postal est nécessaire.
+payment-validate-zip-short = Le code postal est trop court
 
 ## subscription redirect
 
+sub-redirect-ready = Votre abonnement est prêt
+sub-redirect-copy = Avez-vous un moment pour nous parler de votre expérience ?
+sub-redirect-skip-survey = Non merci, montrez-moi simplement mon produit.
 
 ## fields
 
@@ -76,12 +91,16 @@ default-input-error = Ce champ est requis.
 
 ## subscription upgrade
 
+sub-update-title = Informations de facturation
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Confirmer la mise à niveau
+sub-update-indicator =
+    .aria-label = indicateur de mise à niveau
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
