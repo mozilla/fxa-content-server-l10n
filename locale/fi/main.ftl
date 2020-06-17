@@ -6,7 +6,13 @@
 ## branding
 
 project-brand = Firefox-tilit
--brand-name-mozilla = Mozilla
+-brand-name-mozilla =
+    { $case ->
+       *[nominative] Mozilla
+        [allative] Mozillalle
+        [elative] Mozillasta
+        [genitive] Mozillan
+    }
 -brand-name-firefox = Firefox
 document =
     .title = Firefox-tilit
