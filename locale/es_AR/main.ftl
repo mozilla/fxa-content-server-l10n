@@ -128,7 +128,7 @@ payment-confirm-month =
 payment-confirm-year =
     { $intervalCount ->
         [one] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } días</strong>, según mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } días</strong>, según mis términos de pago, hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } año</strong>, según mis términos de pago, hasta que cancele mi suscripción.
     }
 payment-confirm = Autorizo a Mozilla, creador de los productos Firefox, a realizar un cargo de <strong>{ $amount } cada { $interval }</strong>, según mis términos de pago, hasta que cancele mi suscripción.
 
