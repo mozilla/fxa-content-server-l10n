@@ -5,6 +5,7 @@
 
 ## branding
 
+project-brand = Comptes Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 document =
@@ -12,9 +13,14 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Fermer le dialogue
 
 ## app error dialog
 
+general-error-heading = Erreur générale de l’application
+basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
+expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 
 ## settings
 
