@@ -169,7 +169,14 @@ plan-details-total-label = Total
 ## payment confirmation
 
 payment-confirmation-alert = Cliquez ici pour télécharger
+payment-confirmation-heading = Merci { $displayName } !
 payment-confirmation-heading-bak = Merci !
+payment-confirmation-subheading = Un courriel de confirmation a été envoyé à
+payment-confirmation-order-heading = Détails de la commande
+payment-confirmation-billing-heading = Facturé à
+payment-confirmation-amount = { $amount } par { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = se terminant par { $last4 }
+payment-confirmation-download-button = Continuer vers le téléchargement
