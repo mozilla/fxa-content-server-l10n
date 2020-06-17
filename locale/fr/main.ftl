@@ -114,32 +114,54 @@ sub-update-indicator =
 
 ##
 
+pay-update-change-btn = Changer
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vous voulez continuer à utiliser { $name } ?
+reactivate-confirm-button = Se réabonner
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Vous avez annulé votre abonnement le { $date }.
+reactivate-panel-copy = Vous perdrez l’accès à { $name } le <strong>{ $date }</strong>.
+reactivate-success-copy = Merci ! Tout est prêt.
 reactivate-success-button = Fermer
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Erreur de chargement des abonnements
 sub-item-missing-msg = Veuillez réessayer plus tard.
 sub-item-cancel-sub = Annuler l’abonnement
+sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $period }, le dernier jour de votre cycle de facturation.
+sub-item-cancel-confirm =
+    Annuler mon accès et mes informations enregistrées dans
+    { $name } le { $period }
+account-activated = Votre compte est activé, <userEl />
 
 ## subscription route index
 
+sub-route-idx-updating = Mise à jour des informations de facturation…
+sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
+sub-route-idx-cancel-failed = Échec de l’annulation de l’abonnement
 sub-route-idx-contact = Contacter l’assistance
 sub-route-idx-cancel-msg-title = C’est triste de vous voir partir…
+sub-subscription-error =
+    .title = Erreur de chargement des abonnements
+sub-customer-error =
+    .title = Erreur de chargement du client
+sub-billing-update-success = Vos informations de facturation ont bien été mises à jour
 
 ## subscription create
 
+sub-guarantee = Garantie de remboursement de 30 jours
 
 ## plan-details
 
+plan-details-header = Détails du produit
 plan-details-show-button = Afficher les détails
 plan-details-hide-button = Masquer les détails
 plan-details-total-label = Total
