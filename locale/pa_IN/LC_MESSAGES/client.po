@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-17 06:38+0000\n"
+"PO-Revision-Date: 2020-06-17 06:46+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1703,7 +1703,7 @@ msgstr "ਸਮਝੇ"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਡਿਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1853,7 +1853,7 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "ਤੁਸੀਂ Mozilla ਉਤਪਾਦਾਂ ਵਿੱਚ ਸੰਭਾਲੀ ਜਾਣਕਾਰੀ ਅਤੇ ਫ਼ੀਚਰ ਗੁਆ ਸਕਦੇ ਹੋ"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
@@ -2034,11 +2034,11 @@ msgstr "ਵੱਖਰਾ ਈਮੇਲ ਵਰਤੋਂ"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "ਹੋਰ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰੋ"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "ਅਮਲੀ ਗਿਆਨ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿੱਚ ਆ ਰਿਹਾ ਹੈ।"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
@@ -2046,27 +2046,27 @@ msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "%(email)s ਲਈ ਮੈਂਬਰ ਬਣੋ"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਕਨੈਕਟ ਹੈ!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "ਹੋਰ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
-msgstr ""
+msgstr "ਇਸ ਦੀ ਬਜਾਏ SMS ਵਰਤੋਂ"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "ਹੁਣ ਮੈਂ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਫਾਇਰਫਾਕਸ ਸਿੰਕ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -2074,15 +2074,15 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "ਸ਼ੁਰੂ ਕਰੀਏ"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਕਰਾਂਗਾ/ਕਰਾਂਗੀ, ਮੈਨੂੰ ਯਾਦ ਕਰਵਾਇਓ"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "ਆਪਣੇ ਕੈਮਰਾ ਐਪ ਨਾਲ ਫਾਇਰਫਾਕਸ ਡਾਊਨਲੋਡ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -2090,7 +2090,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "ਸਕੈਨ ਕਰਨ ਲਈ ਤਿਆਰ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
@@ -2110,7 +2110,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -2246,7 +2246,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਸਹਿਯੋਗ ਲਈ ਭੇਜਿਆ ਗਿਆ ਸੀ"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
@@ -2294,7 +2294,7 @@ msgstr "ਸੈਟਅਪ ਕਾਰਵਾਈ ਨੂੰ ਸਮਾਪਤ ਕੀਤ�
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਹੋਣ ਲਈ ਸਕੈਨ ਕਰੋ"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2310,7 +2310,7 @@ msgstr "ਐਪ ਲਵੋ"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਕਾਮਯਾਬੀ ਨਾਲ ਪੇਅਰ ਕੀਤਾ"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
