@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-17 20:12+0000\n"
+"PO-Revision-Date: 2020-06-18 18:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -2054,11 +2054,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Прылада злучана!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Злучыць іншую"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
@@ -2078,7 +2078,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Пачаць"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
