@@ -31,6 +31,11 @@ payment-error-2 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä k
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
+charge-exceeds-source-limit = Vaikuttaa siltä, että tämä tapahtuma ylittää päivittäisen luottorajasi. Kokeile toista korttia tai yritä uudestaan päivän kuluttua.
+instant-payouts-unsupported = Vaikuttaa siltä, että debit-kortissasi ei ole otettu käyttöön välittömiä maksuja. Kokeile toista debit- tai credit-korttia.
+duplicate-transaction = Hmm. Vaikuttaa siltä, että sama tapahtuma lähetettiin juuri. Tarkista maksuhistoriasi.
+coupon-expired = Vaikuttaa siltä, että tarjouskoodi on vanhentunut.
+card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
 
 ## settings
 
@@ -50,6 +55,30 @@ product-plan-details-heading = Asetetaan sinulle tilaus
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } laskutetaan { $amount } päivittäin
+       *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. päivä
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } laskutetaan { $amount } viikoittain
+       *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. viikko
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } laskutetaan { $amount } kuukausittain
+       *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. kuukausi
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } laskutetaan { $amount } vuosittain
+       *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. vuosi
+    }
 
 ## Product route
 
@@ -117,26 +146,79 @@ sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-update-submit = Vahvista päivitys
+sub-update-indicator =
+    .aria-label = päivityksen ilmaisin
 sub-update-current-plan-label = Nykyinen tilaustyyppi
 sub-update-new-plan-label = Uusi tilaustyyppi
+sub-update-total-label = Uusi summa
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } päivittäin
+       *[other] { $amount } joka { $intervalCount }. päivä
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } viikoittain
+       *[other] { $amount } joka { $intervalCount }. viikko
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } kuukausittain
+       *[other] { $amount } joka { $intervalCount }. kuukausi
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } vuosittain
+       *[other] { $amount } joka { $intervalCount }. vuosi
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] { $amount } laskutetaan päivittäin tuotteesta { $name }. Seuraava lasku on { $date }.
+       *[other] { $amount } laskutetaan joka { $intervalCount }. päivä tuotteesta { $name }. Seuraava lasku on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] { $amount } laskutetaan viikoittain tuotteesta { $name }. Seuraava lasku on { $date }.
+       *[other] { $amount } laskutetaan joka { $intervalCount }. viikko tuotteesta { $name }. Seuraava lasku on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] { $amount } laskutetaan kuukausittain tuotteesta { $name }. Seuraava lasku on { $date }.
+       *[other] { $amount } laskutetaan joka { $intervalCount }. kuukausi tuotteesta { $name }. Seuraava lasku on { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] { $amount } laskutetaan vuosittain tuotteesta { $name }. Seuraava lasku on { $date }.
+       *[other] { $amount } laskutetaan joka { $intervalCount }. vuosi tuotteesta { $name }. Seuraava lasku on { $date }.
+    }
 
 ##
 
 pay-update-card-exp = Vanhenee { $expirationDate }
+pay-update-change-btn = Muuta
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Haluatko jatkaa tuotteen { $name } käyttämistä?
 reactivate-confirm-button = Tilaa uudelleen
 
 ##  $date (Date) - Last day of product access
@@ -191,7 +273,33 @@ payment-confirmation-subheading = Vahvistusviesti on lähetetty osoitteeseen
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-details-heading = Maksun tiedot
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } päivittäin
+       *[other] { $amount } joka { $intervalCount }. päivä
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } viikoittain
+       *[other] { $amount } joka { $intervalCount }. viikko
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } kuukausittain
+       *[other] { $amount } joka { $intervalCount }. kuukausi
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } vuosittain
+       *[other] { $amount } joka { $intervalCount }. vuosi
+    }
 payment-confirmation-cc-preview = päättyen { $last4 }
+payment-confirmation-download-button = Jatka lataamiseen
