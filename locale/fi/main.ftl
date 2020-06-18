@@ -19,12 +19,18 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Sulje valintaikkuna
 
 ## app error dialog
 
 general-error-heading = Yleinen sovellusvirhe
 basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
+payment-error-1 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Yritä uudestaan tai ole yhteydessä kortin myöntäjään.
+payment-error-2 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä kortin myöntäjään.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
+insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
+withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
 
 ## settings
 
