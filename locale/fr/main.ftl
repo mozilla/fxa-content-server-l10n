@@ -109,6 +109,10 @@ sub-update-failed = La mise à jour de votre forfait a échoué
 sub-update-title = Informations de facturation
 sub-update-card-ending = Carte se terminant par { $last }
 sub-update-card-exp = Expiration : { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Votre forfait changera immédiatement et le montant de votre facture sera
+    ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
+    le montant total vous sera facturé.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -156,6 +160,7 @@ reactivate-success-button = Fermer
 
 sub-item-missing = Erreur de chargement des abonnements
 sub-item-missing-msg = Veuillez réessayer plus tard.
+sub-item-no-such-plan = Offre tarifaire inconnue pour cet abonnement.
 sub-item-cancel-sub = Annuler l’abonnement
 sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $period }, le dernier jour de votre cycle de facturation.
 sub-item-cancel-confirm =
@@ -197,6 +202,7 @@ plan-details-total-label = Total
 ## payment confirmation
 
 payment-confirmation-alert = Cliquez ici pour télécharger
+payment-confirmation-mobile-alert = L’application ne s’est pas ouverte ? <a>Cliquez ici</a>
 payment-confirmation-heading = Merci { $displayName } !
 payment-confirmation-heading-bak = Merci !
 payment-confirmation-subheading = Un courriel de confirmation a été envoyé à
