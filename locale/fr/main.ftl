@@ -134,6 +134,7 @@ sub-update-total-label = Nouveau total
 
 ##
 
+pay-update-card-exp = Expiration : { $expirationDate }
 pay-update-change-btn = Changer
 
 ## reactivate
