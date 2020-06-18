@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-14 17:41+0000\n"
+"PO-Revision-Date: 2020-06-18 13:13+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -1245,11 +1245,11 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Anicia sesión nel Firefox d'otru preséu pa completar la configuración"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "¿Sigues amestando preseos? Anicia sesión nel Firefox d'otru preséu pa completar la configuración"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
