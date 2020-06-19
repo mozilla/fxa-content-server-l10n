@@ -167,6 +167,30 @@ sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } päivittäin</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. päivä</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } viikoittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. viikko</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } kuukausittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. kuukausi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } vuosittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. vuosi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
+    }
 
 ##
 
@@ -271,6 +295,12 @@ sub-route-idx-reactivating = Tilauksen aktivointi uudelleen epäonnistui
 sub-route-idx-cancel-failed = Tilauksen peruuttaminen epäonnistui
 sub-route-idx-contact = Ota yhteys tukeen
 sub-route-idx-cancel-msg-title = Harmi että poistut
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name }-tilauksesi on peruutettu.
+          <br />
+          Voit edelleen käyttää { $name }-tuotetta { $date } asti.
 sub-route-idx-cancel-aside = Kysymyksiä? Käy <a>{ -brand-name-mozilla }-tuessa</a>.
 sub-subscription-error =
     .title = Ongelma ladatessa tilauksia
