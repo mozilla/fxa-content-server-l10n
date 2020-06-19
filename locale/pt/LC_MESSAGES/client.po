@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-06-10 22:45+0000\n"
-"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"POT-Creation-Date: 2020-06-19 16:04+0000\n"
+"PO-Revision-Date: 2020-06-15 10:56+0000\n"
+"Last-Translator: Carlos (SUMO @albertdecastro) <carlos.a.silva@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgstr "Obrigado por contactar o Apoio da Mozilla sobre <b>%(escapedLowercaseTop
 
 #: .es5/views/support.js:237
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Obrigado por contatar o Suporte da Mozilla acerca de <b>%(escapedLowercaseTopic)s</b> para <b>%(escapedSelectedProduct)s</b>. Iremos contatar-lhe por e-mail assim que possível."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
@@ -133,7 +133,7 @@ msgstr "Alterar..."
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "Após terminar, use a sua nova palavra-passe para iniciar sessão em todos os seus dispositivos."
 
-#: .es5/views/settings/change_password.js:233
+#: .es5/views/settings/change_password.js:233 .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
 msgstr "Palavra-passe antiga"
 
@@ -141,7 +141,7 @@ msgstr "Palavra-passe antiga"
 msgid "Forgot password?"
 msgstr "Esqueceu-se da palavra-passe?"
 
-#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13
+#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Nova palavra-passe"
 
@@ -2043,6 +2043,31 @@ msgstr "Talvez mais tarde"
 msgid "Use a different email"
 msgstr "Utilizar um e-mail diferente"
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr ""
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
 msgstr "Registe-se para mais"
@@ -2077,27 +2102,27 @@ msgstr "Eu terminei, por agora"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Firefox Sync entre dispositivos"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Sincronize os marcadores, histórico e palavras-passe do Firefox nos seus dispositivos móveis. Demora apenas alguns minutos."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Começar"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Eu vou fazê-lo mais tarde, envie-me um lembrete"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Descarregar o Firefox com a sua aplicação da câmara"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Instalar o Firefox e sincronizar entre pelo menos dois dispositivos também protege da perda de dados."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -2105,39 +2130,39 @@ msgstr "Pronto para digitalizar"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Ligue o seu dispositivo móvel</h1><p>com um código QR que nós criamos para si</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Abra a aplicação da câmara no seu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Aponte a câmara para o código QR e toque na ligação que aparece"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Instale o Firefox e abra-o no seu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "Entrar na sua conta"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Abra a aplicação da câmara no seu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Aponto a câmara para o código QR e toque na ligação que aparece"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Instale o Firefox e abra-o no seu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Entrar na sua conta"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 16:05+0000\n"
+"POT-Creation-Date: 2020-06-19 16:04+0000\n"
 "PO-Revision-Date: 2019-11-19 17:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "পরিবর্তন..."
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "কাজ শেষ হলে, সকল ডিভাইসে সাইন ইন করতে আপনার নতুন পাসওয়ার্ড ব্যবহার করুন।"
 
-#: .es5/views/settings/change_password.js:233
+#: .es5/views/settings/change_password.js:233 .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
 msgstr "পুরাতন পাসওয়ার্ড"
 
@@ -142,7 +142,7 @@ msgstr "পুরাতন পাসওয়ার্ড"
 msgid "Forgot password?"
 msgstr "পাসওয়ার্ড ভুলে গেছেন?"
 
-#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13
+#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "নতুন পাসওয়ার্ড"
 
@@ -2030,6 +2030,31 @@ msgstr "পরে হতে পারে"
 msgid "Use a different email"
 msgstr ""
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "পাসওয়ার্ড পরিবর্তন"
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
 msgstr ""
@@ -3024,9 +3049,6 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 
 #~ msgid "Manage account"
 #~ msgstr "একাউন্ট ব্যবস্থাপনা"
-
-#~ msgid "Change password"
-#~ msgstr "পাসওয়ার্ড পরিবর্তন"
 
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "একাউন্টের পাসওয়ার্ড রিসেটের জন্য আপনার ইমেইল প্রবেশ করান"

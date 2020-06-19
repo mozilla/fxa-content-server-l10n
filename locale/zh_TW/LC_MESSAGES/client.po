@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 16:05+0000\n"
+"POT-Creation-Date: 2020-06-19 16:04+0000\n"
 "PO-Revision-Date: 2020-06-06 07:33+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr "修改…"
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "更改完成後，請使用新密碼在其他裝置中登入。"
 
-#: .es5/views/settings/change_password.js:233
+#: .es5/views/settings/change_password.js:233 .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
 msgstr "舊密碼"
 
@@ -142,7 +142,7 @@ msgstr "舊密碼"
 msgid "Forgot password?"
 msgstr "忘記密碼？"
 
-#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13
+#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "新密碼"
 
@@ -2029,6 +2029,31 @@ msgstr "之後再寄"
 msgid "Use a different email"
 msgstr "使用另一組 E-Mail"
 
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "修改密碼"
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
 msgstr "註冊後還有更多功能"
@@ -3416,9 +3441,6 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 
 #~ msgid "Name"
 #~ msgstr "名稱"
-
-#~ msgid "Change password"
-#~ msgstr "修改密碼"
 
 #~ msgid "Enter your email to reset&nbsp;the account password."
 #~ msgstr "請輸入您的電子郵件信箱以重設密碼。"
