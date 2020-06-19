@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-19 17:40+0000\n"
+"PO-Revision-Date: 2020-06-19 17:46+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2048,15 +2048,15 @@ msgstr "para continuar para %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
+msgstr "Detectamos comportamento suspeito na sua Conta Firefox. Para proteger sua conta, crie outra senha. Você usará essa senha para voltar a acessar todos os serviços da sua Conta Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "O que estiver sincronizado, como histórico, favoritos, contas e outros dados pessoais, não será perdido."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Confirme a nova senha"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
