@@ -144,6 +144,7 @@ payment-validate-zip-short = O código postal é muito pequeno
 ## subscription redirect
 
 sub-redirect-ready = A sua subscrição está pronta
+sub-redirect-copy = Por favor, conte-nos acerca da sua experiência.
 sub-redirect-skip-survey = Não, obrigado. Leve-me ao meu produto.
 
 ## fields
@@ -164,46 +165,209 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox } a debitar o meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todas as  { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+    }
 
 ##
 
+sub-update-submit = Confirmar atualização
+sub-update-indicator =
+    .aria-label = indicador de atualização
+sub-update-current-plan-label = Plano atual
+sub-update-new-plan-label = Novo plano
+sub-update-total-label = Novo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } diário
+       *[other] { $amount } todos os { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } todas as { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensalmente
+       *[other] { $amount } todos os { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } todos os { $intervalCount } anos
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } diariamente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } dias por { $name }. O seu próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } semanalmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todas as{ $intervalCount } semanas por { $name }. O seu próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } mensalmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } meses por { $name }. O seu próximo pagamento será em { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Você é debitado { $amount } anualmente por { $name }. O seu próximo pagamento será em { $date }.
+       *[other] Você é debitado { $amount } todos os { $intervalCount } anos por { $name }. O seu próximo pagamento será em { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Expira em { $expirationDate }
+pay-update-change-btn = Alterar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Deseja continuar a usar { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
+    e pagamento irão permanecer. O seu próximo débito será de¶
+    { $amount } para o cartão que termina em { $last } em { $endDate }.
+reactivate-confirm-button = Resubscrever
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Você cancelou a sua subscrição em { $date }.
+reactivate-panel-copy = Você ira perder acesso a { $name } em <strong>{ $date }</strong>.
+reactivate-success-copy = Obrigado! Está pronto para começar.
+reactivate-success-button = Fechar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problema em carregar as subscrições
+sub-item-missing-msg = Por favor, tente novamente mais tarde.
+sub-item-no-such-plan = Não existe um plano para esta subscrição.
+sub-item-cancel-sub = Cancelar subscrição
+sub-item-stay-sub = Manter a subscrição
+sub-item-cancel-msg =
+    Não vai poder mais o { $name } após¶
+    { $period }, o último dia do seu ciclo de faturação.
+sub-item-cancel-confirm =
+    Cancelar o meu acesso e a minha informação guardada em¶
+    { $name } em { $period }
+account-activated = A sua conta está ativada, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = A atualizar a informação de pagamento...
+sub-route-idx-reactivating = A reativação da subscrição falhou
+sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
+sub-route-idx-contact = Contatar o Suporte
+sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    A sua subscrição { $name } foi cencelada.¶
+     · <br />¶
+     · Ainda terá acesso a { $name } até { $date }.
+sub-route-idx-cancel-aside = Tem questões? Visite <a>{ -brand-name-mozilla } Suporte</a>.
+sub-subscription-error =
+    .title = Problema em carregar as subscrições
+sub-customer-error =
+    .title = Problema em carregar o cliente
+sub-billing-update-success = A sua informação de pagamento foi atualizada com sucesso
 
 ## subscription create
 
+sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## plan-details
 
+plan-details-header = Detalhes do produto
+plan-details-show-button = Mostrar detalhes
+plan-details-hide-button = Ocultar detalhes
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Clique aqui para descarregar
+payment-confirmation-mobile-alert = A aplicação não abriu? <a>Clique aqui</a>
+payment-confirmation-heading = Obrigado { $displayName }!
+payment-confirmation-heading-bak = Obrigado!
+payment-confirmation-subheading = Foi enviado um e-mail de confirmação para
+payment-confirmation-order-heading = Detalhes de compra
+payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Debitado a
+payment-confirmation-details-heading = Detalhes de pagamento
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } diário
+       *[other] { $amount } a cada { $intervalCount } dias
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } semanalmente
+       *[other] { $amount } a cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mensalmente
+       *[other] { $amount } a cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anualmente
+       *[other] { $amount } a cada { $intervalCount } anos
+    }
+payment-confirmation-cc-preview = termina em { $last4 }
+payment-confirmation-download-button = Continuar para descarregar

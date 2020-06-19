@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 16:05+0000\n"
-"PO-Revision-Date: 2020-04-19 22:04+0000\n"
-"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
+"POT-Creation-Date: 2020-06-19 16:04+0000\n"
+"PO-Revision-Date: 2020-06-15 12:46+0000\n"
+"Last-Translator: Carlos (SUMO @albertdecastro) <carlos.a.silva@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -55,14 +55,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Detetámos um comportamento suspeito na sua conta Firefox. Para prevenir contra acessos não autorizados à sua Conta Firefox, desconetámos todos os dispositivos na sua conta e estamos a solicitar-lhe "
+"que altere a sua palavra-passe como precaução."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Inicie sessão de volta em qualquer dispositivo em que utiliza a sua conta Firefox e siga os passos que lhe serão apresentados."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Importante:</b> escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se de que é diferente da sua conta de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -71,11 +73,11 @@ msgstr "O melhor,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "A equipa do Contas Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Importante: escolha uma palavra-passe diferença da que estava a utilizar anteriormente e certifique-se de que é diferente da sua conta de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -267,19 +269,19 @@ msgstr "Desativou com sucesso a autenticação de dois passos na sua Conta Firef
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Conta Firefox verificada. Você está quase lá."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Próxima sincronização entre os seus dispositivos!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "O Sync mantém igual e de modo privado os seus marcadores, palavras-passe e outra informação do Firefox em todos os seus dispotivos."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
 msgid "Setup next device"
-msgstr ""
+msgstr "Configurar o próximo dispositivo"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -318,7 +320,7 @@ msgstr "Temos pena que se vá embora"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Você cancelou a sua Conta Firefox recentemente. Como resultado, nós cancelámos a sua subscriçáo de %(productName)s. O seu pagamento final de %(invoiceTotal)s foi pago em %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -333,6 +335,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Cancelámos a sua subscrição %(productName)s. O seu pagamento final de %(invoiceTotal)s foi pago em %(invoiceDateOnly)s. O seu serviço irá continuar até ao final do seu período de faturação atual, "
+"que é %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -343,6 +347,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"A começar juntamente com a sua próxma faturação, o seu débito irá alterar de %(paymentAmountOld)s por %(productPaymentCycle)s para %(paymentAmountNew)s. Nessa altura, também ser-lhe-a fornecido um "
+"crédito único de %(paymentProrated)s para refletir o débito inferior para o restante deste %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -372,7 +378,7 @@ msgstr "Número da fatura: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Debitado %(invoiceTotal)s em %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -430,13 +436,15 @@ msgstr "Ajude-nos a corrigi-lo atualizando a sua informação de pagamento dentr
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Obrigado por reativar a sua subscrição do %(productName)s !"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"O seu ciclo de débito e de pagamento irão permanecer como estão. O seu próximo débito será %(invoiceTotal)s para o cartão %(cardType)s que termina em %(lastFour)s em %(nextInvoiceDateOnly)s. A sua "
+"subscrição será renovada automaticamente em cada período de débito exceto se você escolher cancelá-la."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -459,6 +467,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Começando com o seu próximo débito, o valor será alterado de %(paymentAmountOld)s por %(productPaymentCycle)s para %(paymentAmountNew)s. Nessa altura, ser-lhe-a debitado uma taxa única de "
+"%(paymentProrated)s para refletir o débito superior para o remanescente deste %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -590,7 +600,7 @@ msgstr "Assim que confirmado, iremos ajudar-lhe a instalar e ligar o Firefox, pe
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Ou instale no <a %(cadLinkAttributes)s>outro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -646,7 +656,7 @@ msgstr "Termos e política de cancelamento"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reativar subscrição"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -767,7 +777,7 @@ msgstr "Gerir conta"
 
 #: lib/senders/email.js:1271
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Conta verificada. Em seguida, sincronize outro dispositivo para concluir a configuração."
 
 #: lib/senders/email.js:1355
 msgid "Primary email updated"
@@ -827,7 +837,7 @@ msgstr "A sua subscrição de %(productName)s foi cancelada"
 
 #: lib/senders/email.js:2187
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "%(productName)s subscrição reativada"
 
 #: lib/senders/email.js:2261
 msgid "%(productName)s payment received"
@@ -859,6 +869,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"A página que tentou aceder não foi encontrada. Nós fomos notificamos e¶\n"
+" · iremos corrigir quaisquer ligações que poderão estar com erros."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -873,6 +885,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Oh não, aconteceu algo de errado aqui. Nós fomos notificados e¶\n"
+" · iremos corrigir isto."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -887,6 +901,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Nós estamos sob tensão pesada e estamos a trabalhar para colocar¶\n"
+" · o sistema a funcionar novamente assim que possível."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
