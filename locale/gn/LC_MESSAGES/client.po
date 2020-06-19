@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-19 16:23+0000\n"
+"PO-Revision-Date: 2020-06-19 17:22+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2035,11 +2035,11 @@ msgstr "Emoambue ñanduti veve jepuru"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Ikatúpa emoambue ne ñe’ẽñemi"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "eku’ejey %(serviceName)s ndive"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -2052,11 +2052,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "emoingejey ñe’ẽñemi pyahu"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
-msgstr ""
+msgstr "Emoambue ñe’ẽñemi"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
