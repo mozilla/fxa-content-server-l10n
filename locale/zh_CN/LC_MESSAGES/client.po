@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-20 06:50+0000\n"
+"PO-Revision-Date: 2020-06-20 11:39+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -2037,15 +2037,15 @@ msgstr "以进入 %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
+msgstr "我们监测到您的 Firefox 账户存在可疑行为。为了保护您的账户，请更换新密码，并用此密码重新登录所有 Firefox 账户服务。"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "已同步的历史记录、书签、登录信息和其他个人数据将不会丢失。"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "再次输入新密码"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
