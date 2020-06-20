@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-20 12:22+0000\n"
+"PO-Revision-Date: 2020-06-20 12:25+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -94,7 +94,7 @@ msgstr "Sua senha da Conta Firefox foi alterada com sucesso a partir do seguinte
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Este é um e-mail automático; se você não alterou a senha da sua Conta Firefox, você deve redefini-la imediatamente em %(resetLink)s"
+msgstr "Este é um e-mail automático. Se você não alterou a senha da sua Conta Firefox, deve redefinir imediatamente em %(resetLink)s"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -602,7 +602,7 @@ msgstr "Ou instale em <a %(cadLinkAttributes)s>outro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Este é um e-mail automático; se você não autorizou esta ação, então <a %(passwordChangeLinkAttributes)s>mude sua senha</a>."
+msgstr "Este é um e-mail automático. Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -610,11 +610,11 @@ msgstr "Para mais informações, visite o <a %(supportLinkAttributes)s>Suporte M
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Este é um e-mail automático; se você não adicionou um novo dispositivo em sua Conta Firefox, você deve alterar sua senha imediatamente em %(passwordChangeLink)s"
+msgstr "Este é um e-mail automático. Se você não adicionou um novo dispositivo em sua Conta Firefox, deve alterar sua senha imediatamente em %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Este é um e-mail automático; Se você recebeu por engano, nenhuma ação é necessária."
+msgstr "Este é um e-mail automático. Se você recebeu por engano, nenhuma ação é necessária."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
