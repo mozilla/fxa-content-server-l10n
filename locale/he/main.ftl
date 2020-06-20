@@ -126,6 +126,13 @@ sub-update-total-label = סה״כ חדש
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = רוצה להמשיך להשתמש ב־{ $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    הגישה שלך ל־{ $name } תימשך, ומחזור החיוב
+    והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה
+    { $amount } לכרטיס שמסתיים ב־{ $last } בתאריך { $endDate }.
 
 ##  $date (Date) - Last day of product access
 
