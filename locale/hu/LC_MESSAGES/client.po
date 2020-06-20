@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-20 17:21+0000\n"
+"PO-Revision-Date: 2020-06-20 17:23+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -2037,7 +2037,7 @@ msgstr "Talán később"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "Másik e-mail cím használata"
+msgstr "Használjon másik e-mailt"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -2045,20 +2045,22 @@ msgstr "Változtassa meg a jelszavát"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "ahhoz, hogy továbbmenjen erre: %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Gyanús viselkedést észleltünk Firefox-fiókjában. Fiókja védelme érdekében hozzon létre egy új jelszót. Ezt a jelszót fogja használni, hogy újra bejelentkezzen az összes Firefox-fiókhoz kapcsolódó "
+"szolgáltatásba."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "A szinkronizált előzmények, könyvjelzők, bejelentkezések és egyéb személyes adatok nem vesznek el."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Új jelszó megerősítése"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
