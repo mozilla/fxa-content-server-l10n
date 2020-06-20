@@ -2045,7 +2045,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr "请重新输入新密码"
+msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
