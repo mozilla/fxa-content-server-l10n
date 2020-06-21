@@ -65,6 +65,7 @@ payment-zip =
 payment-update-btn = Güncelle
 payment-pay-btn = Şimdi öde
 payment-validate-name-error = Lütfen adınızı girin
+payment-validate-zip-required = Posta kodu gerekli
 payment-validate-zip-short = Posta kodu çok kısa
 
 ## subscription redirect
@@ -73,6 +74,7 @@ sub-redirect-ready = Aboneliğiniz hazır
 
 ## fields
 
+default-input-error = Bu alan gereklidir
 
 ## subscription upgrade
 
@@ -110,6 +112,7 @@ pay-update-change-btn = Değiştir
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Kapat
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
@@ -121,6 +124,9 @@ sub-item-cancel-sub = Aboneliği iptal et
 
 ## subscription route index
 
+sub-route-idx-updating = Fatura bilgileri güncelleniyor...
+sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
+sub-route-idx-cancel-failed = Abonelik iptal edilemedi
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
 
 ## subscription create
