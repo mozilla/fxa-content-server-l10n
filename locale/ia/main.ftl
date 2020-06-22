@@ -29,6 +29,7 @@ charge-exceeds-source-limit = Il pare que iste transaction te ponera ultra tu li
 instant-payouts-unsupported = Il pare que tu carta de debito non es configurate pro pagamentos instantanee. Prova un altere carta de debito o credito.
 duplicate-transaction = Hmm. Il pare que un identic transaction ha essite justo inviate. Verifica tu chronologia de pagamento.
 coupon-expired = Il pare que ille codice de promotion ha expirate.
+card-error = Tu transaction non pote esser processate. Verifica le informationes de tu carta de credito e reproba.
 
 ## settings
 
@@ -42,6 +43,8 @@ privacy = Aviso de confidentialitate
 
 ## plan details
 
+product-plan-details-heading = Que nos prepara tu subscription
+product-plan-details-heading = Que nos prepara tu subscription
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -77,11 +80,15 @@ product-plan-error =
     .title = Problema cargante le planos
 product-profile-error =
     .title = Problema a cargar le profilo
+product-customer-error =
+    .title = Problema al cargamento del cliente
 product-plan-not-found = Plano non trovate
 product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
+payment-legal-link = Consulta le <a>Politica de confidentialitate de Stripe</a>
 
 ## payment form
 
@@ -112,6 +119,8 @@ payment-validate-zip-short = Le codice postal es trop breve
 ## subscription redirect
 
 sub-redirect-ready = Tu abonamento es preste
+sub-redirect-copy = Per favor prende un momento pro dicer nos re tu experientia.
+sub-redirect-skip-survey = No gratias, monstra me solo mi producto.
 
 ## fields
 
