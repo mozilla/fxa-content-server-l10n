@@ -13,10 +13,13 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Clauder dialogo
 
 ## app error dialog
 
 general-error-heading = Error general del application
+basic-error-message = Alco errate eveniva. Reproba plus tarde.
 
 ## settings
 
