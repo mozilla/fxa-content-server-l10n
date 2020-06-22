@@ -156,6 +156,12 @@ sub-update-copy = Tu plan cambiara immediatemente e te sera debitate un amonta a
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata die</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } dies</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
 
 ##
 
