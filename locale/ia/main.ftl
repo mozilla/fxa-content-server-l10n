@@ -223,6 +223,8 @@ reactivate-confirm-button = Renovar le subscription
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Tu ha cancellate tu abonamento le { $date }.
+reactivate-success-copy = Gratias! Toto preste.
 reactivate-success-button = Clauder
 
 ## subscription item
@@ -233,6 +235,7 @@ sub-item-missing = Problema cargante le subscriptiones
 sub-item-missing-msg = Retenta plus tarde.
 sub-item-no-such-plan = Nulle tal plano pro iste subscription.
 sub-item-cancel-sub = Cancellar subscription
+sub-item-stay-sub = Resta abonate
 account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
@@ -242,6 +245,7 @@ sub-route-idx-reactivating = Reactivation del subscription fallite
 sub-route-idx-cancel-failed = Cancellation del subscription fallite
 sub-route-idx-contact = Contactar assistentia
 sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
+sub-route-idx-cancel-aside = Ha tu questiones? Visita le <a>supporto de { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Problema cargante le subscriptiones
 sub-customer-error =
