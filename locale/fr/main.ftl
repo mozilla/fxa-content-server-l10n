@@ -162,6 +162,7 @@ sub-item-missing = Erreur de chargement des abonnements
 sub-item-missing-msg = Veuillez réessayer plus tard.
 sub-item-no-such-plan = Offre tarifaire inconnue pour cet abonnement.
 sub-item-cancel-sub = Annuler l’abonnement
+sub-item-stay-sub = Conserver l’abonnement
 sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $period }, le dernier jour de votre cycle de facturation.
 sub-item-cancel-confirm =
     Annuler mon accès et mes informations enregistrées dans
