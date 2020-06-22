@@ -248,6 +248,7 @@ reactivate-confirm-button = Renovar le subscription
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Tu ha cancellate tu abonamento le { $date }.
+reactivate-panel-copy = Tu perdera accesso a { $nomine } le <strong>{ $date }</strong>.
 reactivate-success-copy = Gratias! Toto preste.
 reactivate-success-button = Clauder
 
