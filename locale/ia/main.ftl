@@ -133,6 +133,7 @@ sub-update-failed = Actualisation del plano fallite
 sub-update-title = informationes de facturation
 sub-update-card-ending = Carta finiente per { $last }
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy = Tu plan cambiara immediatemente e te sera debitate un amonta adjustate pro le resto de tu termino de facturation. A partir del { $startingDate } te sera debitate le plen amonta.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
