@@ -24,6 +24,11 @@ payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Re
 payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
+withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
+charge-exceeds-source-limit = Il pare que iste transaction te ponera ultra tu limite de credito quotidian. Prova un altere carta o post 24 horas.
+instant-payouts-unsupported = Il pare que tu carta de debito non es configurate pro pagamentos instantanee. Prova un altere carta de debito o credito.
+duplicate-transaction = Hmm. Il pare que un identic transaction ha essite justo inviate. Verifica tu chronologia de pagamento.
+coupon-expired = Il pare que ille codice de promotion ha expirate.
 
 ## settings
 
