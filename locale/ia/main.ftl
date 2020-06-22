@@ -229,6 +229,30 @@ plan-price-year =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Tu es facturate { $amonta } cata die pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+       *[other] Tu es facturate { $amonta } cata { $intervalCount } dies pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Tu es facturate { $amonta } septimanalmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+       *[other] Tu es facturate { $amonta } cata { $intervalCount } septimanas pro { $nomine }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Tu es facturate { $amonta } mensualmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+       *[other] Tu es facturate { $amonta } cata { $intervalCount } menses pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Tu es facturate { $amonta } annualmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+       *[other] Tu es facturate { $amonta } cata { $intervalCount } annos pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+    }
 
 ##
 
@@ -261,6 +285,8 @@ sub-item-missing-msg = Retenta plus tarde.
 sub-item-no-such-plan = Nulle tal plano pro iste subscription.
 sub-item-cancel-sub = Cancellar subscription
 sub-item-stay-sub = Resta abonate
+sub-item-cancel-msg = Tu non sera plus capace usar { $nomine } post { $periodo }, le ultime die de tu termino de facturation.
+sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate intra { $nomine } le { $periodo }
 account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
@@ -270,6 +296,12 @@ sub-route-idx-reactivating = Reactivation del subscription fallite
 sub-route-idx-cancel-failed = Cancellation del subscription fallite
 sub-route-idx-contact = Contactar assistentia
 sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tu subscription a { $nomine } ha essite cancellate.
+          <br />
+          Tu habera ancora accesso a { $nomine } usque { $date }.
 sub-route-idx-cancel-aside = Ha tu questiones? Visita le <a>supporto de { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Problema cargante le subscriptiones
