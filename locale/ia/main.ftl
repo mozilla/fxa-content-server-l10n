@@ -20,6 +20,10 @@ close-aria =
 
 general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
+payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
+payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
+expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
+insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 
 ## settings
 
