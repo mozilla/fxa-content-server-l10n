@@ -128,6 +128,7 @@ default-input-error = Campo obligatori
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Revide tu promotion
 sub-update-failed = Actualisation del plano fallite
 sub-update-title = informationes de facturation
 sub-update-card-ending = Carta finiente per { $last }
@@ -187,6 +188,7 @@ pay-update-change-btn = Cambiar
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vole tu continuar usar { $nomine }?
 reactivate-confirm-button = Renovar le subscription
 
 ##  $date (Date) - Last day of product access
@@ -212,6 +214,8 @@ sub-route-idx-contact = Contactar assistentia
 sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
 sub-subscription-error =
     .title = Problema cargante le subscriptiones
+sub-customer-error =
+    .title = Problema al cargamento del cliente
 sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
 
 ## subscription create
