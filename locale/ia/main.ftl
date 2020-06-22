@@ -311,6 +311,7 @@ sub-billing-update-success = Tu informationes de facturation ha essite  actualis
 
 ## subscription create
 
+sub-guarantee = Reimbursamento garantite pro 30-dies
 
 ## plan-details
 
