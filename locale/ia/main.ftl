@@ -118,6 +118,12 @@ payment-confirm-week =
         [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata septimana</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
        *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } septimanas</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-month =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata mense</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } menses</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-year =
     { $intervalCount ->
@@ -161,6 +167,24 @@ sub-update-confirm-day =
     { $intervalCount ->
         [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata die</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
        *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } dies</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata septimana</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } septimanas</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata mense</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } menses</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amonta } cata anno</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amonta } cata { $intervalCount } annos</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
     }
 
 ##
