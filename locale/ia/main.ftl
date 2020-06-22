@@ -215,6 +215,10 @@ pay-update-change-btn = Cambiar
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vole tu continuar usar { $nomine }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Tu accesso a { $nomine } continuara e tu termino de facturation e pagamento remanera identic. Tu amonta successive sera { $amonta } al carta finiente in { $ultime } le { $endDate }.
 reactivate-confirm-button = Renovar le subscription
 
 ##  $date (Date) - Last day of product access
