@@ -109,9 +109,22 @@ payment-zip =
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirm-day =
     { $intervalCount ->
-        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento &lt;strong&gt;{ $amonta } cata { $intervalCount } days&lt;/strong&gt;, in accordo al terminos pagamento, usque io cancellara mi subscription.
-       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento &lt;strong&gt;{ $amonta } cata { $intervalCount } months&lt;/strong&gt;, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata die</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } dies</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata septimana</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } septimanas</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-year =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento &lt;strong&gt;{ $amonta } cata anno&lt;/strong&gt;, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, a debitar mi methodo de pagamento &lt;strong&gt;{ $amonta } cata { $intervalCount } annos&lt;/strong&gt;, in accordo al terminos de pagamento, usque io cancellara mi subscription.
+    }
+payment-confirm = Io autorisa Mozilla, productor de productos Firefox, a debitar mi methodo de pagamento <strong>${ $amount } cata { $interval }</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
 
 ##
 
