@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-19 17:26+0000\n"
+"PO-Revision-Date: 2020-06-24 13:13+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1720,7 +1720,7 @@ msgstr "Jupi"
 
 #: .es5/templates/settings/avatar_change.mustache:2
 msgid "Camera"
-msgstr "Ta'ãnganohẽha"
+msgstr "Ta’ãnganohẽha"
 
 #: .es5/templates/settings/avatar_change.mustache:3
 msgid "Clear"
