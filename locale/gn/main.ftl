@@ -182,8 +182,8 @@ plan-price-year =
 #  $intervalCount (Number) - The interval between payments, in days.
 pay-update-billing-description-day =
     { $intervalCount ->
-        [one] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme'ẽ oikóta { $date }-pe.
-       *[other] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme'ẽ oikóta { $date }-pe.
+        [one] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme’ẽ oikóta { $date }-pe.
+       *[other] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme’ẽ oikóta { $date }-pe.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 pay-update-billing-description-week =
