@@ -286,6 +286,9 @@ sub-item-missing-msg = Yritä myöhemmin uudestaan.
 sub-item-no-such-plan = Tälle tilaukselle ei ole kyseistä tilaustyyppiä.
 sub-item-cancel-sub = Peruuta tilaus
 sub-item-stay-sub = Jatka tilausta
+sub-item-cancel-msg =
+    Käyttöoikeutesi tuotteeseen { $name } päättyy
+    { $period }, joka on laskutusjakson viimeinen päivä.
 account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index
@@ -327,6 +330,7 @@ payment-confirmation-heading-bak = Kiitos!
 payment-confirmation-subheading = Vahvistusviesti on lähetetty osoitteeseen
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
+payment-confirmation-billing-heading = Laskutettu
 payment-confirmation-details-heading = Maksun tiedot
 payment-confirmation-amount = { $amount } per { $interval }
 
