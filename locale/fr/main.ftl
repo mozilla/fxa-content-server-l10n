@@ -49,6 +49,30 @@ product-plan-details-heading = Configurons votre abonnement
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturé { $amount } par jour
+       *[other] { $productName } facturé { $amount } tous les { $intervalCount } jours
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturé { $amount } par semaine
+       *[other] { $productName } facturé { $amount } toutes les { $intervalCount } semaines
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturé { $amount } par mois
+       *[other] { $productName } facturé { $amount } tous les { $intervalCount } mois
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturé { $amount } par an
+       *[other] { $productName } facturé { $amount } tous les { $intervalCount } ans
+    }
 
 ## Product route
 
@@ -208,11 +232,36 @@ payment-confirmation-heading = Merci { $displayName } !
 payment-confirmation-heading-bak = Merci !
 payment-confirmation-subheading = Un courriel de confirmation a été envoyé à
 payment-confirmation-order-heading = Détails de la commande
+payment-confirmation-invoice-number = Facture n°{ $factureNumber }
 payment-confirmation-billing-heading = Facturé à
 payment-confirmation-details-heading = Informations de paiement
 payment-confirmation-amount = { $amount } par { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } par jour
+       *[other] { $amount } tous les { $intervalCount } jours
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } par semaine
+       *[other] { $amount } toutes les { $intervalCount } semaines
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } par mois
+       *[other] { $amount } tous les { $intervalCount } mois
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } par an
+       *[other] { $amount } tous les { $intervalCount } ans
+    }
 payment-confirmation-cc-preview = se terminant par { $last4 }
 payment-confirmation-download-button = Continuer vers le téléchargement
