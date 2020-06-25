@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-24 13:15+0000\n"
+"PO-Revision-Date: 2020-06-25 17:59+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -2051,7 +2051,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Sekcem tikelt-nniḍen awal uffir amaynut"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
