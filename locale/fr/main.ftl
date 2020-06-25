@@ -106,6 +106,18 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] J'autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à débiter sur ma méthode de paiement <strong>{ $amount } chaque jour</strong>, conformément aux conditions de paiement, jusqu'à ce que je mette fin à mon abonnement.
+       *[other] J'autorise { -brand-name-mozilla }, créateur des produits { -brand-name-firefox }, à débiter sur ma méthode de paiement <strong>{ $amount } tous les { $intervalCount } jours</strong>, conformément aux conditions de paiement, jusqu'à ce que je mette fin à mon abonnement.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-week =
+    { $intervalCount ->
+        [one] J'autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à débiter sur ma méthode de paiement <strong>{ $amount } chaque semaine</strong>, conformément aux conditions de paiement, jusqu'à ce que je mette fin à mon abonnement.
+       *[other] J'autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à débiter sur ma méthode de paiement <strong>{ $amount } toutes les { $intervalCount } semaines</strong>, conformément aux conditions de paiement, jusqu'à ce que je mette fin à mon abonnement.
+    }
 
 ##
 
