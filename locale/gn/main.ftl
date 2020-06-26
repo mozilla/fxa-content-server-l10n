@@ -106,6 +106,12 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-day =
+    { $intervalCount ->
+        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre moheñoiha { -brand-name-firefox }, ojapo hag̃ua moambue che ñehepyme’ẽ rehegua, <strong>{ $amount } ko’ẽreíre</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
+       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre moheñoiha { -brand-name-firefox }, ojapo hag̃ua moambue che ñehepyme’ẽ rehegua, <strong>{ $amount } ko’ẽreíre</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
+    }
 
 ##
 
