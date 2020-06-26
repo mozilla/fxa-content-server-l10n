@@ -171,6 +171,24 @@ sub-update-confirm-day =
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } quotidiennement</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
        *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } tous les { $intervalCount } jours</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } chaque semaine</strong>, conformément aux conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } toutes les { $intervalCount } semaines</strong>, conformément aux conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } chaque mois</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } tous les { $intervalCount } mois</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } chaque année</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à facturer mon mode de paiement <strong>{ $amount } tous les { $intervalCount } ans</strong>, selon les conditions de paiement, jusqu’à ce que je mette fin à mon abonnement.
+    }
 
 ##
 
@@ -184,12 +202,60 @@ sub-update-total-label = Nouveau total
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } chaque jour
+       *[other] { $amount } tous les { $intervalCount } jours
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } chaque semaine
+       *[other] { $amount } toutes les { $intervalCount } semaines
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } chaque mois
+       *[other] { $amount } tous les { $intervalCount } mois
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } chaque année
+       *[other] { $amount } tous les { $intervalCount } ans
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Vous êtes facturé·e { $amount } chaque jour pour { $name }. Votre prochain paiement aura lieu le { $date }.
+       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } jours pour { $name }. Votre prochain paiement aura lieu le { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Vous êtes facturé·e { $amount } chaque semaine pour { $name }. Votre prochain paiement aura lieu le { $date }.
+       *[other] Vous êtes facturé·e { $amount } toutes les { $intervalCount } semaines pour { $name }. Votre prochain paiement aura lieu le { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Vous êtes facturé·e { $amount } chaque mois pour { $name }. Votre prochain paiement aura lieu le { $date }.
+       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } mois pour { $name }. Votre prochain paiement aura lieu le { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Vous êtes facturé·e { $amount } chaque année pour { $name }. Votre prochain paiement aura lieu le { $date }.
+       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } ans pour { $name }. Votre prochain paiement aura lieu le { $date }.
+    }
 
 ##
 
@@ -200,6 +266,13 @@ pay-update-change-btn = Changer
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vous voulez continuer à utiliser { $name } ?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Vous garderez accès à { $name } et votre cycle de facturation et
+    le paiement resteront les mêmes. Votre prochain débit sera de
+    { $amount } sur la carte se terminant par { $last } le { $endDate }.
 reactivate-confirm-button = Se réabonner
 
 ##  $date (Date) - Last day of product access
