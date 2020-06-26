@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-26 20:00+0000\n"
+"PO-Revision-Date: 2020-06-26 20:07+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -21,7 +21,7 @@ msgstr "Tu je waše dopomnjeće na sychronizowanje gratow."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Za synchronizowanje stej dwaj trěbnej. Priwatna synchronizacija druheho grata z Firefox waše zapołožki, hesła a druhe daty Firefox jenake dźerži, hdźežkuli Firefox wužiwaće."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
@@ -872,11 +872,11 @@ msgstr "%(productName)s sćahnyć"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Waše přećelne dopomnjeće: Kak móžeće konfiguraciju swojeje synchronizacije dokónčić"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Poslednje dopomnjeće: Dokónčće konfiguracije synchronizacije"
 
 #: lib/senders/email.js:2467
 msgid "Sync another device"
