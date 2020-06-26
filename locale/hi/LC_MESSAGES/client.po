@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 15:09+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"PO-Revision-Date: 2020-06-19 16:55+0000\n"
+"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "खाता सत्यापित"
 msgid "Connected"
 msgstr "कनेक्ट हुआ"
 
-#: .es5/views/reset_password.js:112
+#: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप</a>"
 
@@ -124,7 +124,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "कूटशब्द"
 
@@ -156,15 +156,15 @@ msgstr "कूटशब्द फिर डालें"
 msgid "Change"
 msgstr "बदलें"
 
-#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "रद्द"
 
-#: .es5/views/settings/change_password.js:380
+#: .es5/views/settings/change_password.js:381
 msgid "Password changed successfully"
 msgstr "पासवर्ड सफलतापूर्वक बदला गया"
 
@@ -323,7 +323,7 @@ msgstr "खाता पुनर्प्राप्ति रद्द की
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "आपका सिंक डेटा सुरक्षित है"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
@@ -1831,7 +1831,7 @@ msgstr "स्थिति ताज़ा करें"
 msgid "Email preferences"
 msgstr "ईमेल अधिमान"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "खाता नष्ट करें"
 
@@ -1856,10 +1856,14 @@ msgid "Any paid subscriptions you have will be cancelled"
 msgstr "आपके पास मौजूद प्रत्येक सशुल्क सदस्यता रद्द कर दी जाएगी"
 
 #: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
+msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:18
+msgid "You may lose saved information and features within Mozilla products"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr ""
 
@@ -2062,7 +2066,7 @@ msgstr "कूटशब्द परिवर्तन"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "अधिक के लिए साइन अप करें"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."

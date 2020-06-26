@@ -184,3 +184,4 @@ payment-confirmation-amount-year =
         [one] { $amount } वार्षिक
        *[other] { $amount } हर { $intervalCount } वर्ष
     }
+payment-confirmation-download-button = डाउनलोड करने के लिए आगे बढ़ें

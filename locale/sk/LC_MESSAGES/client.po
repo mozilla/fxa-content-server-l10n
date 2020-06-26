@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-19 16:04+0000\n"
+"POT-Creation-Date: 2020-06-26 18:16+0000\n"
 "PO-Revision-Date: 2020-06-04 20:50+0000\n"
 "Last-Translator: Juraj Cigáň <kusavica@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgstr "Účet bol overený"
 msgid "Connected"
 msgstr "Pripojené"
 
-#: .es5/views/reset_password.js:112
+#: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Neznámy účet. <a href=\"/signup\">Zaregistrujte sa</a>"
 
@@ -122,7 +122,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Heslo"
 
@@ -154,15 +154,15 @@ msgstr "Overenie hesla"
 msgid "Change"
 msgstr "Zmeniť"
 
-#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: .es5/views/settings/change_password.js:380
+#: .es5/views/settings/change_password.js:381
 msgid "Password changed successfully"
 msgstr "Heslo bolo úspešne zmenené"
 
@@ -1831,7 +1831,7 @@ msgstr "Obnoviť stav"
 msgid "Email preferences"
 msgstr "Predvoľby e-mailov"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Odstrániť účet"
 
@@ -1856,10 +1856,14 @@ msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Budú zrušené akékoľvek predplatné"
 
 #: .es5/templates/settings/delete_account.mustache:17
+msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Môžete stratiť uložené informácie a funkcie súvisiace s produktmi Mozilly"
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Opätovná aktivácia pomocou tohto e-mailu nemusí obnoviť vaše uložené informácie"
 

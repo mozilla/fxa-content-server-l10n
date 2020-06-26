@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-09 09:12+0000\n"
+"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"PO-Revision-Date: 2020-06-22 11:11+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -97,7 +97,7 @@ msgstr "Account ferifiearre"
 msgid "Connected"
 msgstr "Ferbûn"
 
-#: .es5/views/reset_password.js:112
+#: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 
@@ -124,7 +124,7 @@ msgstr ""
 "<b>%(escapedSelectedProduct)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Wachtwurd"
 
@@ -156,15 +156,15 @@ msgstr "Fier wachtwurd nochris yn"
 msgid "Change"
 msgstr "Wizigje"
 
-#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Annulearje"
 
-#: .es5/views/settings/change_password.js:380
+#: .es5/views/settings/change_password.js:381
 msgid "Password changed successfully"
 msgstr "Wachtwurd mei sukses wizige"
 
@@ -1835,7 +1835,7 @@ msgstr "Steat fernije"
 msgid "Email preferences"
 msgstr "E-mailfoarkarren"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Account fuortsmite"
 
@@ -1860,10 +1860,14 @@ msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Alle betelle abonneminten dy't jo hawwe wurde annulearre"
 
 #: .es5/templates/settings/delete_account.mustache:17
+msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Jo bewarre ynformaasje en funksjes yn Mozilla-produkten ferlieze kinne"
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje"
 
@@ -2045,24 +2049,26 @@ msgstr "In oar e-mailadres brûke"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Wizigje jo wachtwurd"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "om troch te gean nei %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Wy hawwe fertocht gedrach op jo Firefox-account detektearre. Meitsje in nij wachtwurd oan om jo account te beskermjen. Dit wachtwurd brûke jo om jo wer by al jo Firefox-accounttsjinsten oan te "
+"melden."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Syngronisearre skiednis, blêdwizers, oanmeldingen en oare persoanlike gegevens sille net ferlern gean."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Fier nije wachtwurd nochris yn"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"

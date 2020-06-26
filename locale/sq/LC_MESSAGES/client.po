@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-19 16:04+0000\n"
+"POT-Creation-Date: 2020-06-26 18:16+0000\n"
 "PO-Revision-Date: 2020-06-16 18:39+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgstr "Llogaria u verifikua"
 msgid "Connected"
 msgstr "E lidhur"
 
-#: .es5/views/reset_password.js:112
+#: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
@@ -123,7 +123,7 @@ msgstr ""
 "Faleminderit që lidheni me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b> për <b>%(escapedSelectedProduct)s</b>. Do të lidhemi me ju përmesh email-i sa më shpejt që të jetë e mundur."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:20
 msgid "Password"
 msgstr "Fjalëkalimi"
 
@@ -155,15 +155,15 @@ msgstr "Rijepni fjalëkalimin"
 msgid "Change"
 msgstr "Ndryshoje"
 
-#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Anuloje"
 
-#: .es5/views/settings/change_password.js:380
+#: .es5/views/settings/change_password.js:381
 msgid "Password changed successfully"
 msgstr "Fjalëkalimi u ndryshua me sukses"
 
@@ -1887,7 +1887,7 @@ msgstr "Rifresko gjendjen"
 msgid "Email preferences"
 msgstr "Parapëlqime email-i"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
 msgid "Delete account"
 msgstr "Fshijeni llogarinë"
 
@@ -1912,10 +1912,14 @@ msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Do të anulohet çfarëdo pajtimi me pagesë që keni"
 
 #: .es5/templates/settings/delete_account.mustache:17
+msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+msgstr ""
+
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh Mozilla"
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Riaktivizimi me këtë email mund të mos rikthejë të dhënat tuaja të ruajtura"
 

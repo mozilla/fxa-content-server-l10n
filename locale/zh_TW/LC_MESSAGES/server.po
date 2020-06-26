@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-19 16:04+0000\n"
+"POT-Creation-Date: 2020-06-26 18:16+0000\n"
 "PO-Revision-Date: 2020-06-13 09:34+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444993321.0\n"
+
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2456
+msgid "Here's your reminder to sync devices."
+msgstr ""
+
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
+
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
+msgid "Last reminder to sync devices!"
+msgstr ""
+
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -47,7 +63,7 @@ msgstr "我們發現您的救援碼所剩不多了。請考慮產生一些新的
 msgid "Generate codes:"
 msgstr "產生新代碼:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1234
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1236
 msgid "New sign-in to %(clientName)s"
 msgstr "新登入到 %(clientName)s"
 
@@ -155,7 +171,7 @@ msgstr "接下來，若您的 Firefox 帳號當中有儲存網站的登入密碼
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "了解如何確認您的 Firefox 中儲存了哪些網站的密碼。"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1644
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1646
 msgid "Account recovery key generated"
 msgstr "已產生新的救援金鑰"
 
@@ -213,7 +229,7 @@ msgstr "您已在下列裝置上，成功使用救援碼登入:"
 msgid "Consumed recovery code"
 msgstr "已使用救援碼"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1511
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1513
 msgid "New recovery codes generated"
 msgstr "已產生新救援碼"
 
@@ -221,7 +237,7 @@ msgstr "已產生新救援碼"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "您已在下列裝置上，成功產生新救援碼:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1690
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1692
 msgid "Account recovery key removed"
 msgstr "已刪除救援金鑰"
 
@@ -237,7 +253,7 @@ msgstr "將無法再使用這把金鑰來救援您的帳號。"
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1391
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1393
 msgid "Secondary email removed"
 msgstr "已移除次要電子郵件地址"
 
@@ -273,7 +289,7 @@ msgstr "接下來與您的其他裝置同步！"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync 會安全地在您所有的裝置間同步書籤、密碼與其他 Firefox 資料。"
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1276
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1278
 msgid "Setup next device"
 msgstr "設定下一台裝置"
 
@@ -281,7 +297,7 @@ msgstr "設定下一台裝置"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "有問題嗎？請到 %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1319
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1321
 msgid "Secondary email added"
 msgstr "已加入次要電子郵件地址"
 
@@ -297,7 +313,7 @@ msgstr "需要重設密碼嗎？"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "請在一個小時內點擊下面的按鈕來建立新密碼。此請求來自下列裝置:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1056
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1058
 msgid "Create new password"
 msgstr "建立新密碼"
 
@@ -518,7 +534,7 @@ msgstr "確認您的帳號，就可以在任何登入的裝置中，發揮 Firef
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "為了確保安全，請確認此次來自下列裝置的登入要求:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:765
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:767
 msgid "Confirm sign-in"
 msgstr "確認登入"
 
@@ -678,170 +694,182 @@ msgstr "取消訂閱:"
 msgid "Update billing information:"
 msgstr "更新帳務資訊:"
 
-#: lib/senders/email.js:297
+#: lib/senders/email.js:299
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:302
+#: lib/senders/email.js:304
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:328
+#: lib/senders/email.js:330
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s %(city)s（估計地點）"
 
-#: lib/senders/email.js:335
+#: lib/senders/email.js:337
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s %(city)s（估計地點）"
 
-#: lib/senders/email.js:340
+#: lib/senders/email.js:342
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s（估計地點）"
 
-#: lib/senders/email.js:345
+#: lib/senders/email.js:347
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估計地點）"
 
-#: lib/senders/email.js:527
+#: lib/senders/email.js:529
 msgid "Finish creating your account"
 msgstr "完成帳號註冊"
 
-#: lib/senders/email.js:528 lib/senders/email.js:656
+#: lib/senders/email.js:530 lib/senders/email.js:658
 msgid "Confirm email"
 msgstr "確認電子郵件信箱"
 
-#: lib/senders/email.js:595
+#: lib/senders/email.js:597
 msgid "Verification code: %(code)s"
 msgstr "驗證碼: %(code)s"
 
-#: lib/senders/email.js:636
+#: lib/senders/email.js:638
 msgid "Reminder: Finish creating your account"
 msgstr "提醒: 請完成帳號註冊"
 
-#: lib/senders/email.js:638
+#: lib/senders/email.js:640
 msgid "Final reminder: Activate your account"
 msgstr "最後一次提醒: 啟用您的帳號"
 
-#: lib/senders/email.js:693
+#: lib/senders/email.js:695
 msgid "Account authorization code"
 msgstr "帳號授權碼"
 
-#: lib/senders/email.js:762
+#: lib/senders/email.js:764
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "確認新登入到 %(clientName)s"
 
-#: lib/senders/email.js:807
+#: lib/senders/email.js:809
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s 的登入碼"
 
-#: lib/senders/email.js:872
+#: lib/senders/email.js:874
 msgid "Confirm primary email"
 msgstr "確認主要電子郵件地址"
 
-#: lib/senders/email.js:873 lib/senders/email.js:932 lib/senders/email.js:1000
+#: lib/senders/email.js:875 lib/senders/email.js:934 lib/senders/email.js:1002
 msgid "Verify email"
 msgstr "驗證信箱"
 
-#: lib/senders/email.js:931 lib/senders/email.js:999
+#: lib/senders/email.js:933 lib/senders/email.js:1001
 msgid "Confirm secondary email"
 msgstr "確認次要電子郵件地址"
 
-#: lib/senders/email.js:1055
+#: lib/senders/email.js:1057
 msgid "Reset your password"
 msgstr "重設您的密碼"
 
-#: lib/senders/email.js:1097 lib/senders/email.js:1163
+#: lib/senders/email.js:1099 lib/senders/email.js:1165
 msgid "Password updated"
 msgstr "密碼已更新"
 
-#: lib/senders/email.js:1135 lib/senders/email.js:1193
+#: lib/senders/email.js:1137 lib/senders/email.js:1195
 msgid "Suspicious activity detected"
 msgstr "偵測到可疑行為"
 
-#: lib/senders/email.js:1235 lib/senders/email.js:1320 lib/senders/email.js:1356 lib/senders/email.js:1392 lib/senders/email.js:1426 lib/senders/email.js:1469 lib/senders/email.js:1512
-#: lib/senders/email.js:1555 lib/senders/email.js:1645 lib/senders/email.js:1691
+#: lib/senders/email.js:1237 lib/senders/email.js:1322 lib/senders/email.js:1358 lib/senders/email.js:1394 lib/senders/email.js:1428 lib/senders/email.js:1471 lib/senders/email.js:1514
+#: lib/senders/email.js:1557 lib/senders/email.js:1647 lib/senders/email.js:1693
 msgid "Manage account"
 msgstr "管理帳號"
 
-#: lib/senders/email.js:1271
+#: lib/senders/email.js:1273
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "帳號驗證完成。接下來請與另一台裝置同步來完成設定過程"
 
-#: lib/senders/email.js:1355
+#: lib/senders/email.js:1357
 msgid "Primary email updated"
 msgstr "已更改主要電子郵件地址"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1427
 msgid "Two-step verification enabled"
 msgstr "已開啟兩階段驗證"
 
-#: lib/senders/email.js:1468
+#: lib/senders/email.js:1470
 msgid "Two-step verification is off"
 msgstr "已關閉兩階段驗證"
 
-#: lib/senders/email.js:1554
+#: lib/senders/email.js:1556
 msgid "Recovery code used"
 msgstr "已使用救援碼"
 
-#: lib/senders/email.js:1607
+#: lib/senders/email.js:1609
 msgid "1 recovery code remaining"
 msgstr "剩餘 1 組救援碼"
 
-#: lib/senders/email.js:1609
+#: lib/senders/email.js:1611
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "剩餘 %(numberRemaining)s 組救援碼"
 
-#: lib/senders/email.js:1612
+#: lib/senders/email.js:1614
 msgid "Generate codes"
 msgstr "產生新代碼"
 
-#: lib/senders/email.js:1736
+#: lib/senders/email.js:1738
 msgid "Password updated using recovery key"
 msgstr "已使用救援金鑰更新密碼"
 
-#: lib/senders/email.js:1737
+#: lib/senders/email.js:1739
 msgid "Create new recovery key"
 msgstr "產生新的救援金鑰"
 
-#: lib/senders/email.js:1803
+#: lib/senders/email.js:1805
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "您已升級到 %(productNameNew)s"
 
-#: lib/senders/email.js:1881
+#: lib/senders/email.js:1884
 msgid "You have switched to %(productNameNew)s"
 msgstr "您已切換到 %(productNameNew)s"
 
-#: lib/senders/email.js:1950
+#: lib/senders/email.js:1954
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "訂購 %(productName)s 所使用的信用卡即將過期"
 
-#: lib/senders/email.js:2000
+#: lib/senders/email.js:2004
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s 付款失敗"
 
-#: lib/senders/email.js:2051 lib/senders/email.js:2116
+#: lib/senders/email.js:2055 lib/senders/email.js:2120
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "已取消您的 %(productName)s 產品訂閱"
 
-#: lib/senders/email.js:2187
+#: lib/senders/email.js:2191
 msgid "%(productName)s subscription reactivated"
 msgstr "已重新開始訂閱 %(productName)s"
 
-#: lib/senders/email.js:2261
+#: lib/senders/email.js:2265
 msgid "%(productName)s payment received"
 msgstr "已收到 %(productName)s 付款"
 
-#: lib/senders/email.js:2349
+#: lib/senders/email.js:2353
 msgid "%(productName)s payment confirmed"
 msgstr "已確認 %(productName)s 付款"
 
-#: lib/senders/email.js:2421
+#: lib/senders/email.js:2425
 msgid "Welcome to %(productName)s"
 msgstr "歡迎使用 %(productName)s"
 
-#: lib/senders/email.js:2422
+#: lib/senders/email.js:2426
 msgid "Download %(productName)s"
 msgstr "下載 %(productName)s"
+
+#: lib/senders/email.js:2452
+msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+msgstr ""
+
+#: lib/senders/email.js:2453
+msgid "Final Reminder: Complete Sync Setup"
+msgstr ""
+
+#: lib/senders/email.js:2467
+msgid "Sync another device"
+msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
