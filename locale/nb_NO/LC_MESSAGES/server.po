@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-26 20:28+0000\n"
+"PO-Revision-Date: 2020-06-26 20:39+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -21,7 +21,7 @@ msgstr "Her er påminnelsen din om å synkronisere enheter."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Det tar to for å synkronisere. Synkronisering av en annen enhet med Firefox beholder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
+msgstr "Det tar to for å synkronisere. Synkronisering av en annen enhet med Firefox holder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
@@ -29,7 +29,7 @@ msgstr "Siste påminnelse om å synkronisere enheter!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Synkronisering av en annen enhet med Firefox beholder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
+msgstr "Synkronisering av en annen enhet med Firefox holder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
