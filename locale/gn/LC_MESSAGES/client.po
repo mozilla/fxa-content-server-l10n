@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:04+0000\n"
-"PO-Revision-Date: 2020-06-24 13:13+0000\n"
+"PO-Revision-Date: 2020-06-26 14:28+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2044,7 +2044,7 @@ msgstr "eku’ejey %(serviceName)s ndive"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
+msgstr "Rohecha jeiko ivaikuaáva nde Firefox mba’ete pegua. Emo’ã hag̃ua ne mba’ete, emoheñói ñe’ẽñemi pyahu. Ojepurúta ñe’ẽñemi eñepyrũjey hag̃ua tembiapo opaite mba’epuru nde Firefox mba’ete pegua."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
