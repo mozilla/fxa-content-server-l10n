@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-26 20:06+0000\n"
+"PO-Revision-Date: 2020-06-26 20:28+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -21,15 +21,15 @@ msgstr "Her er påminnelsen din om å synkronisere enheter."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Det tar to for å synkronisere. Synkronisering av en annen enhet med Firefox beholder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Siste påminnelse om å synkronisere enheter!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Synkronisering av en annen enhet med Firefox beholder bokmerker, passord og andre Firefox-data de samme overalt du bruker Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -871,15 +871,15 @@ msgstr "Last ned %(productName)s"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Din vennlige påminnelse: Slik fullfører du synkroniseringsoppsettet"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Endelig påminnelse: Fullør synkroniseringsoppsett"
 
 #: lib/senders/email.js:2467
 msgid "Sync another device"
-msgstr ""
+msgstr "Synkroniser en annen enhet"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
