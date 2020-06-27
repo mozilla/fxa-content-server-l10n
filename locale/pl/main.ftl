@@ -127,28 +127,28 @@ payment-zip =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
+payment-confirm-with-legal-links-day =
     { $intervalCount ->
         [one] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } dziennie</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
-        [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } dni</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
+        [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } dni</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
        *[many] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } dni</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
+payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } tygodniowo</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
         [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } tygodnie</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
        *[many] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } tygodni</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
+payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } miesięcznie</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
         [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } miesiące</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
        *[many] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } miesięcy</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
+payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } rocznie</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
         [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } lata</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
