@@ -117,6 +117,18 @@ payment-confirm-with-legal-links-week =
         [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每周持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
        *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 周持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每月持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
+       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 月持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每年持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
+       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 年持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
+    }
 payment-confirm = 我授权 Firefox 产品的制造商 Mozilla 依照付款条件，<strong>每 { $interval } 持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
 
 ##
