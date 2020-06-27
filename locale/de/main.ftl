@@ -107,28 +107,28 @@ payment-zip =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
+payment-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>täglich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Tage mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>täglich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Tage mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
+payment-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>wöchentlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Wochen mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Woche mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Wochen mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
+payment-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>monatlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Monate mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Monat mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Monate mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
+payment-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>jährlich mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich ermächtige { -brand-name-mozilla }, Hersteller von { -brand-name-firefox } -Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
+        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Jahr mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
+       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
     }
 payment-confirm = Ich ermächtige Mozilla, Hersteller von Firefox-Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $interval } mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
 
