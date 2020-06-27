@@ -146,7 +146,7 @@ payment-confirm-with-legal-links-year =
         [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lěta</strong> poćežić, doniž swój abonement njewupowědźu.
        *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lět</strong> poćežić, doniž swój abonement njewupowědźu.
     }
-payment-confirm = Awtorizuju Mozilla, zhotowjerja produktow Firefox, po płaćenskich wuměnjenjach swoju płaćensku metodu kóžde <strong>{ $interval } z { $amount } $</strong> poćežić, doniž swój abonement njewupowědźu.
+payment-confirm = Awtorizuju Mozilla, zhotowjerja produktow Firefox, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> swoju płaćensku metodu a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> kóžde <strong>{ $interval } z { $amount } $</strong> poćežić, doniž swój abonement njewupowědźu.
 
 ##
 
