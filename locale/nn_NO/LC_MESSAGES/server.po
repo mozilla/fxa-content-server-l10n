@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-27 04:03+0000\n"
+"PO-Revision-Date: 2020-06-28 10:47+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -871,7 +871,7 @@ msgstr "Last ned %(productName)s"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Ei vennleg påminning til deg: Slik fullfører du synkroniseringsoppsettet"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
