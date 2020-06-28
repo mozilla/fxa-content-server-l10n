@@ -79,15 +79,34 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Annuller
+payment-update-btn = Opdater
+payment-pay-btn = Betal nu
+payment-validate-name-error = Indtast dit navn
+payment-validate-zip-required = Postnummer er påkrævet
+payment-validate-zip-short = Postnummer er for kort
 
 ## subscription redirect
 
+sub-redirect-ready = Dit abonnement er klar
+sub-redirect-copy = Brug et øjeblik til at fortælle os om din oplevelse.
+sub-redirect-skip-survey = Nej tak, bare vis mig mit produkt.
 
 ## fields
 
+default-input-error = Dette felt er påkrævet
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Gennemgå din opgradering
+sub-update-failed = Opdatering af plan mislykkedes
+sub-update-title = Faktureringsoplysninger
+sub-update-card-ending = Kort slutter på { $last }
+sub-update-card-exp = Udløber { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Din plan bliver ændret med det samme og du vil blive opkrævet et justeret
+    beløb for resten af faktureringsperioden. Fra og med { $startingDate }
+    vil du blive opkrævet det fulde beløb.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
