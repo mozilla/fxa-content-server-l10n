@@ -197,6 +197,7 @@ sub-update-indicator =
     .aria-label = opgraderingsindikator
 sub-update-current-plan-label = Nuværende plan
 sub-update-new-plan-label = Ny plan
+sub-update-total-label = Ny total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -272,6 +273,7 @@ reactivate-confirm-copy =
     Din adgang til { $name } vil fortsætte, og din faktureringsperiode
     og betaling vil forblive den samme. Din næste opkrævning er på
     { $amount } og vil blive trukket den { $endDate } på dit kort, der ender på { $last }.
+reactivate-confirm-button = Abonner igen
 
 ##  $date (Date) - Last day of product access
 
@@ -289,6 +291,13 @@ sub-item-missing-msg = Prøv igen senere.
 sub-item-no-such-plan = Der findes ingen sådan plan for dette abonnement.
 sub-item-cancel-sub = Annuller abonnement
 sub-item-stay-sub = Fortsæt abonnement
+sub-item-cancel-msg =
+    Du vil ikke længere kunne bruge  { $name } efter
+    { $period }, der er den sidste dag i din faktureringsperiode.
+sub-item-cancel-confirm =
+    Annuller min adgang og kassér mine informationer gemt i
+    { $name } den { $period }
+account-activated = <userEl/>, din konto er aktiveret
 
 ## subscription route index
 
@@ -297,6 +306,12 @@ sub-route-idx-reactivating = Genaktivering af abonnement mislykkedes
 sub-route-idx-cancel-failed = Annullering af abonnement mislykkedes
 sub-route-idx-contact = Kontakt support
 sub-route-idx-cancel-msg-title = Vi er kede af, at du forlader os.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Dit abonnement på { $name } er blevet annulleret.
+          <br />
+          Du har adgang til { $name } frem til { $date }.
 sub-route-idx-cancel-aside = Har du spørgsmål? Besøg <a>{ -brand-name-mozilla } Support</a>.
 sub-subscription-error =
     .title = Problem med indlæsning af abonnementer
@@ -317,9 +332,11 @@ plan-details-total-label = I alt
 
 ## payment confirmation
 
+payment-confirmation-alert = Klik her for at hente
 payment-confirmation-mobile-alert = Åbnede appen ikke? <a>Klik her</a>
 payment-confirmation-heading = Tak, { $displayName }!
 payment-confirmation-heading-bak = Tak!
+payment-confirmation-subheading = En bekræftelsesmail er blevet sendt til
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureret til
@@ -353,3 +370,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } hvert { $intervalCount } år
     }
 payment-confirmation-cc-preview = ender på { $last4 }
+payment-confirmation-download-button = Fortsæt til hentning
