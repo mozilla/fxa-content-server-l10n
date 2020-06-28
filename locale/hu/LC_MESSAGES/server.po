@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-27 12:10+0000\n"
+"PO-Revision-Date: 2020-06-28 20:17+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -875,15 +875,15 @@ msgstr "%(productName)s letöltése"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Végső emlékeztető: Fejezze be a Sync beállítását"
 
 #: lib/senders/email.js:2467
 msgid "Sync another device"
-msgstr ""
+msgstr "Másik eszköz szinkronizálása"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
