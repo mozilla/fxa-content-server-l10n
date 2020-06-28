@@ -86,6 +86,7 @@ default-input-error = Trường này là bắt buộc
 ## subscription upgrade
 
 product-plan-upgrade-heading = Xem lại bản nâng cấp của bạn
+sub-update-failed = Không thể cập nhật lịch
 sub-update-title = Thông tin thanh toán
 sub-update-card-ending = Kết thúc thẻ { $last }
 sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
@@ -96,35 +97,119 @@ sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-update-submit = Xác nhận nâng cấp
+sub-update-current-plan-label = Lịch hiện tại
+sub-update-new-plan-label = Lịch mới
+sub-update-total-label = Tổng số mới
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } ngày
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } tuần
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } tháng
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+       *[other] { $amount } mỗi { $intervalCount } năm
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } ngày cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } tuần cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } tháng cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } năm cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Hết hạn vào { $expirationDate }
+pay-update-change-btn = Thay đổi
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Bạn muốn tiếp tục sử dụng { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ
+    thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn
+    sẽ là { $amount } cho thẻ kết thúc bằng { $last } vào { $endDate }.
+reactivate-confirm-button = Đăng ký lại
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Bạn đã hủy đăng ký vào { $date }.
+reactivate-panel-copy = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
+reactivate-success-copy = Cảm ơn! Bạn đã sẵn sàng.
+reactivate-success-button = Đóng
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Sự cố khi tải đăng ký
+sub-item-missing-msg = Vui lòng thử lại sau.
+sub-item-no-such-plan = Không có lịch như vậy cho đăng ký này.
+sub-item-cancel-sub = Hủy đăng ký
+sub-item-stay-sub = Vẫn đăng ký
+sub-item-cancel-msg =
+    Bạn sẽ không còn có thể sử dụng { $name } sau
+    { $period }, ngày cuối cùng của chu kỳ thanh toán của bạn.
+sub-item-cancel-confirm =
+    Hủy quyền truy cập của tôi và thông tin đã lưu của tôi trong
+    { $name } vào { $period }
+account-activated = Tài khoản của bạn đã được kích hoạt, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Đang cập nhật thông tin thanh toán...
+sub-route-idx-reactivating = Không thể kích hoạt lại đăng ký
+sub-route-idx-cancel-failed = Không thể hủy kích hoạt đăng ký
+sub-route-idx-contact = Liên hệ hỗ trợ
+sub-route-idx-cancel-msg-title = Chúng tôi rất tiếc khi bạn rời đi
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Đăng ký { $name } của bạn đã bị hủy.
+          <br />
+          Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
 sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Sự cố khi tải đăng ký
+sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
 
 ## subscription create
 
