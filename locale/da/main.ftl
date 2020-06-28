@@ -47,12 +47,32 @@ privacy = Privatlivspolitik
 
 ## Product route
 
+product-plan-error =
+    .title = Problem med indlæsning af planer
+product-profile-error =
+    .title = Problem med indlæsning af profil
+product-customer-error =
+    .title = Problem med indlæsning af kunde
+product-plan-not-found = Plan ikke fundet
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } bruger Stripe til sikker behandling af betaling.
+payment-legal-link = Se <a>Stripes privatlivspolitik</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Fulde navn
+    .label = Navn, som det vises på dit kort
+payment-ccn =
+    .label = Kortnummer
+payment-exp =
+    .label = Udløbsdato
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Postnummer
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
