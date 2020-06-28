@@ -192,32 +192,103 @@ sub-update-confirm-year =
 
 ##
 
+sub-update-submit = Bekræft opgradering
+sub-update-indicator =
+    .aria-label = opgraderingsindikator
+sub-update-current-plan-label = Nuværende plan
+sub-update-new-plan-label = Ny plan
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dagligt
+       *[other] { $amount } hver { $intervalCount } dag
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } ugentligt
+       *[other] { $amount } hver { $intervalCount } uge
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } månedligt
+       *[other] { $amount } hver { $intervalCount } måned
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } årligt
+       *[other] { $amount } hvert { $intervalCount } år
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Du bliver faktureret { $amount } dagligt for { $name }.
+       *[other] Du bliver faktureret { $amount } hver { $intervalCount } dag for { $name }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Du bliver faktureret { $amount } ugentligt for { $name }. Din næste betaling finder sted den { $date }.
+       *[other] Du bliver faktureret { $amount } hver { $intervalCount } uge for { $name }. Din næste betaling finder sted den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Du bliver faktureret { $amount } månedligt for { $name }. Din næste betaling finder sted den { $date }.
+       *[other] Du bliver faktureret { $amount } hver { $intervalCount } måned for { $name }. Din næste betaling finder sted den { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Du bliver faktureret { $amount } årligt for { $name }. Din næste betaling finder sted den { $date }.
+       *[other] Du bliver faktureret { $amount } hver { $intervalCount } år for { $name }. Din næste betaling finder sted den { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Udløber { $expirationDate }
+pay-update-change-btn = Skift
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vil du fortsætte med at bruge { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Din adgang til { $name } vil fortsætte, og din faktureringsperiode
+    og betaling vil forblive den samme. Din næste opkrævning er på
+    { $amount } og vil blive trukket den { $endDate } på dit kort, der ender på { $last }.
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Du annullerede dit abonnement den { $date }.
+reactivate-panel-copy = Du vil miste adgangen til { $name } den <strong>{ $date }</strong>.
+reactivate-success-copy = Tak! Du er klar.
+reactivate-success-button = Luk
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem med at indlæse abonnementer
+sub-item-missing-msg = Prøv igen senere.
 sub-item-no-such-plan = Der findes ingen sådan plan for dette abonnement.
+sub-item-cancel-sub = Annuller abonnement
+sub-item-stay-sub = Fortsæt abonnement
 
 ## subscription route index
 
