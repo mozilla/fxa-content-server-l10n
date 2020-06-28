@@ -292,15 +292,64 @@ sub-item-stay-sub = Fortsæt abonnement
 
 ## subscription route index
 
+sub-route-idx-updating = Opdaterer faktureringsoplysninger...
+sub-route-idx-reactivating = Genaktivering af abonnement mislykkedes
+sub-route-idx-cancel-failed = Annullering af abonnement mislykkedes
+sub-route-idx-contact = Kontakt support
+sub-route-idx-cancel-msg-title = Vi er kede af, at du forlader os.
+sub-route-idx-cancel-aside = Har du spørgsmål? Besøg <a>{ -brand-name-mozilla } Support</a>.
+sub-subscription-error =
+    .title = Problem med indlæsning af abonnementer
+sub-customer-error =
+    .title = Problem med indlæsning af kunde
+sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
 
 ## subscription create
 
+sub-guarantee = 30-dages pengene-tilbage-garanti
 
 ## plan-details
 
+plan-details-header = Produktdetaljer
+plan-details-show-button = Vis detaljer
+plan-details-hide-button = Skjul detaljer
+plan-details-total-label = I alt
 
 ## payment confirmation
 
+payment-confirmation-mobile-alert = Åbnede appen ikke? <a>Klik her</a>
+payment-confirmation-heading = Tak, { $displayName }!
+payment-confirmation-heading-bak = Tak!
+payment-confirmation-order-heading = Ordredetaljer
+payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Faktureret til
+payment-confirmation-details-heading = Betalingsdetaljer
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } dagligt
+       *[other] { $amount } hver { $intervalCount } dage
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } ugentligt
+       *[other] { $amount } hver { $intervalCount } uge
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } månedligt
+       *[other] { $amount } hver { $intervalCount } måned
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } årligt
+       *[other] { $amount } hvert { $intervalCount } år
+    }
+payment-confirmation-cc-preview = ender på { $last4 }
