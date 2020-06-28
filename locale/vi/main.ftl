@@ -41,6 +41,12 @@ product-plan-details-heading = Hãy thiết lập đăng ký của bạn
 
 ## Product route
 
+product-plan-error =
+    .title = Sự cố khi tải lịch
+product-profile-error =
+    .title = Sự cố khi tải hồ sơ
+product-plan-not-found = Không tìm thấy lịch
+product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
 ## payment legal blurb
 
@@ -63,6 +69,27 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } ngày</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tuần</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tháng</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } năm</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+payment-confirm = Tôi ủy quyền cho Mozilla, nhà sản xuất các sản phẩm Firefox, tính phí phương thức thanh toán của tôi <strong>${ $amount } mỗi { $interval }</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
 
 ##
 
@@ -90,9 +117,33 @@ sub-update-failed = Không thể cập nhật lịch
 sub-update-title = Thông tin thanh toán
 sub-update-card-ending = Kết thúc thẻ { $last }
 sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ phải trả một khoản tiền
+    được điều chỉnh cho phần còn lại của chu kỳ thanh toán.
+    Bắt đầu { $startingDate }, bạn sẽ phải trả toàn bộ số tiền.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-day =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } ngày</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-week =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tuần</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-month =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tháng</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-year =
+    { $intervalCount ->
+       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } năm</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
+    }
 
 ##
 
