@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-27 17:03+0000\n"
+"PO-Revision-Date: 2020-06-28 09:01+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -200,7 +200,7 @@ msgstr "最後連線於超過 %(translatedTimeAgo)s 前於 %(translatedCountry)s
 
 #: .es5/views/settings/clients.js:74
 msgid "Last active %(translatedTimeAgo)s"
-msgstr "最近使用 %(translatedTimeAgo)s"
+msgstr "最近使用於 %(translatedTimeAgo)s 前"
 
 #: .es5/views/settings/clients.js:75
 msgid "Last active over %(translatedTimeAgo)s"
@@ -208,15 +208,15 @@ msgstr "最近使用於 %(translatedTimeAgo)s 前"
 
 #: .es5/views/settings/clients.js:78
 msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s"
+msgstr "最近使用於 %(translatedTimeAgo)s 前，在%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:79
 msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s"
+msgstr "最近使用於 %(translatedTimeAgo)s 前，在%(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:82
 msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "最近使用於 %(translatedTimeAgo)s，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
+msgstr "最近使用於 %(translatedTimeAgo)s 前，在%(translatedCountry)s%(translatedState)s%(translatedCity)s附近"
 
 #: .es5/views/settings/clients.js:83
 msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -1856,7 +1856,7 @@ msgstr "您可能會失去 Mozilla 產品中儲存的資訊與部分功能"
 
 #: .es5/templates/settings/delete_account.mustache:19
 msgid "Reactivating with this email may not restore your saved information"
-msgstr "就算重新啟用此信箱，也不會恢復原存的資訊"
+msgstr "就算使用此信箱重新註冊帳號，也不會恢復原存的資訊"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
