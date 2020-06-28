@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-27 17:04+0000\n"
+"PO-Revision-Date: 2020-06-28 08:46+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -21,7 +21,7 @@ msgstr "提醒您要記得同步裝置。"
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
@@ -29,7 +29,7 @@ msgstr "最後一次提醒您要記得同步裝置！"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -857,7 +857,7 @@ msgstr "下載 %(productName)s"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "善意提醒：如何完成 Sync 設定"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
