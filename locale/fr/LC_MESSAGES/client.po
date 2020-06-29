@@ -59,7 +59,7 @@ msgstr "Firefox Sync reprendra dans quelques instants"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr "Votre mot de passe à été réinitialisé"
+msgstr ""
 
 #: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
