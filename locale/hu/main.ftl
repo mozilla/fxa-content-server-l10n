@@ -107,28 +107,28 @@ payment-zip =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
+payment-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden nap</strong>, amíg nem törlöm az előfizetést.
-       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. napon</strong>, amíg nem törlöm az előfizetést.
+        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy naponta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } naponta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
+payment-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden héten</strong>, amíg nem törlöm az előfizetést.
-       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. héten</strong>, amíg nem törlöm az előfizetést.
+        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy hetente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } hetente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
+payment-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden hónapban</strong>, amíg nem törlöm az előfizetést.
-       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. hónapban</strong>, amíg nem törlöm az előfizetést.
+        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy havonta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } havonta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
+payment-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden évben</strong>, amíg nem törlöm az előfizetést.
-       *[other] Felhatalmazom a { -brand-name-mozilla } szervezetet, a { -brand-name-firefox } termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $amount } összeggel, minden { $intervalCount }. évben</strong>, amíg nem törlöm az előfizetést.
+        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
+       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
 payment-confirm = Felhatalmazom a Mozillát, a Firefox termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $interval } { $amount } összeggel, a fizetési feltételek szerint, amíg nem törlöm az előfizetést.
 
