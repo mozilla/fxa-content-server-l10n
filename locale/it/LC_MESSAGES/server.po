@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-29 14:44+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2020-06-29 17:25+0000\n"
+"Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,8 @@ msgstr "Ecco il tuo promemoria per la sincronizzazione dei dispositivi."
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Bisogna essere in due per sincronizzarsi… Sincronizzando un altro dispositivo potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi Firefox, senza rinunciare alla "
+"riservatezza."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
@@ -29,7 +31,7 @@ msgstr "Ultimo promemoria per sincronizzare i dispositivi."
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Sincronizzando un altro dispositivo potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi Firefox, senza rinunciare alla riservatezza."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -72,8 +74,8 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
-"Abbiamo rilevato comportamenti sospetti sul tuo account Firefox. Per impedire accessi non autorizzati, tutti i dispositivi sono stati disconnessi dal tuo account e, a scopo precauzionale, è "
-"obbligatorio cambiare la password."
+"Abbiamo rilevato attività sospette sul tuo account Firefox. Per impedire accessi non autorizzati, tutti i dispositivi sono stati disconnessi dal tuo account e, a scopo precauzionale, è obbligatorio "
+"cambiare la password."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -881,7 +883,7 @@ msgstr "Scarica %(productName)s"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Sollecito amichevole: come completare la configurazione di Sync"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
