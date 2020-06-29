@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-28 20:17+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2020-06-27 15:43+0000\n"
+"Last-Translator: kemia051 <kemia051@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -25,11 +25,11 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Utolsó emlékeztető az eszközök szinkronizálására!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Egy másik firefoxos eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb Firefox-adatokat mindenütt, ahol a Firefoxot használja."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
