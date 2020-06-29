@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-28 15:31+0000\n"
+"PO-Revision-Date: 2020-06-29 10:20+0000\n"
 "Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -59,7 +59,7 @@ msgstr "Firefox Sync reprendra dans quelques instants"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Votre mot de passe a été réinitialisé"
 
 #: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
