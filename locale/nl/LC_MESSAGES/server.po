@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-26 20:30+0000\n"
+"PO-Revision-Date: 2020-06-26 20:38+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Laatste herinnering om apparaten te synchroniseren!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Als u een ander apparaat privé met Firefox synchroniseert, blijven uw bladwijzers, wachtwoorden en andere Firefox-gegevens overal waar u Firefox gebruikt hetzelfde."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -874,15 +874,15 @@ msgstr "%(productName)s downloaden"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Een vriendelijke herinnering: instellen van uw Sync voltooien"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Laatste herinnering: instellen van Sync voltooien"
 
 #: lib/senders/email.js:2467
 msgid "Sync another device"
-msgstr ""
+msgstr "Nog een apparaat synchroniseren"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
