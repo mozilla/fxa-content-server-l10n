@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-30 14:08+0000\n"
+"PO-Revision-Date: 2020-06-30 14:16+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -872,11 +872,11 @@ msgstr "Emboguejy %(productName)s"
 
 #: lib/senders/email.js:2452
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko"
 
 #: lib/senders/email.js:2453
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Mandu’arã ipaháva: Embojuehepa Sync"
 
 #: lib/senders/email.js:2467
 msgid "Sync another device"
