@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-30 14:18+0000\n"
+"PO-Revision-Date: 2020-06-30 16:26+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -102,7 +102,7 @@ msgstr "Firefox Accounts atygua"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr "Emoambue hekoitépe ñe'ẽñemi"
+msgstr "Emoambue hekoitépe ñe’ẽñemi"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -114,23 +114,23 @@ msgstr "Kóva ha’e ñanduti veve ijeheguíva; neremoambuéi rire ne mba’ete 
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
-msgstr "Ne mba’ete ñe'ẽñemi oñemoambue"
+msgstr "Ne mba’ete ñe’ẽñemi oñemoambue"
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Emoingeva’erã ñe'ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe."
+msgstr "Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Emoingeva’erã ñe'ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe."
+msgstr "Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Neremoambuéiramo, embojevyjey ne ñe'ẽñemi ko’ág̃a ko’ápe %(resetLink)s"
+msgstr "Neremoambuéiramo, embojevyjey ne ñe’ẽñemi ko’ág̃a ko’ápe %(resetLink)s"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr "Ne mba’ete ñe'ẽñemi ojeguerujey mba’eñemi jeguerujeyrã rupi"
+msgstr "Ne mba’ete ñe’ẽñemi ojeguerujey mba’eñemi jeguerujeyrã rupi"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
