@@ -216,6 +216,7 @@ payment-confirmation-heading = Tanemmirt { $displayName }!
 payment-confirmation-heading-bak = Tanemirt!
 payment-confirmation-subheading = Imayl n usentem yettwazen ɣer
 payment-confirmation-order-heading = Talqayt n usuter
+payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-details-heading = Talqayt n usellek
 payment-confirmation-amount = { $amount } s { $interval }
 
