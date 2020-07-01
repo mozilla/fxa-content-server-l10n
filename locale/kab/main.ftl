@@ -122,7 +122,7 @@ default-input-error = Urti-a yettwasra
 
 product-plan-upgrade-heading = Senqed lqem-inek/inem
 sub-update-failed = Aɣwas n uleqqem ur yeddi ara
-sub-update-title = Talɣut n tfaṭurt
+sub-update-title = Talɣut n ufter
 sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
@@ -205,6 +205,7 @@ account-activated = Amiḍan-inek/inem yermed, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Aleqqem n telɣut n ufter
 sub-route-idx-reactivating = Allus n urmad n ujerred ur yeddi ara
 sub-route-idx-cancel-failed = Tuffɣa seg ujerred ur teddi ara
 sub-route-idx-contact = Nermes tallalt
@@ -220,7 +221,7 @@ sub-subscription-error =
     .title = Ugur deg usali n yijerriden
 sub-customer-error =
     .title = Ugur deg usali n umsaɣ
-sub-billing-update-success = Tilɣa n usmad ttwaleqqment akken iwata!
+sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 
 ## subscription create
 

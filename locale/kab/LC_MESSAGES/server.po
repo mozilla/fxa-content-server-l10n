@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-07-01 15:30+0000\n"
+"PO-Revision-Date: 2020-07-01 15:36+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -671,7 +671,7 @@ msgstr "Sefsex ajerred"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Update billing information"
-msgstr "Aleqqem n telɣut n ufeter"
+msgstr "Aleqqem n telɣut n ufter"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
@@ -695,7 +695,7 @@ msgstr "Sefsex ajerred:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr "Aleqqem n telɣut n ufeter:"
+msgstr "Aleqqem n telɣut n ufter:"
 
 #: lib/senders/email.js:299
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
