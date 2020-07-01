@@ -41,6 +41,24 @@ product-plan-details-heading = Aha ad nesbadu ajerred-inek/inem
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } tettwaxelleṣ s { $amount } i wass
+       *[other] { $productName } tettwaxelleṣ s { $amount } yal { $intervalCount } ass
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } tettwaxelleṣ s { $amount } i dduṛt
+       *[other] { $productName } tettwaxelleṣ s { $amount } yal { $intervalCount } dduṛt
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } tettwaxelleṣ s { $amount } i wayyur
+       *[other] { $productName } tettwaxelleṣ s { $amount } yal { $intervalCount } ayyur
+    }
 
 ## Product route
 
