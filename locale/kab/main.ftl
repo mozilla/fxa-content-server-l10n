@@ -59,6 +59,12 @@ month-based-plan-details-amount =
         [one] { $productName } tettwaxelleṣ s { $amount } i wayyur
        *[other] { $productName } tettwaxelleṣ s { $amount } yal { $intervalCount } ayyur
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } tettwaxelleṣ s { $amount } i useggas
+       *[other] { $productName } tettwaxelleṣ s { $amount } yal { $intervalCount } aseggas
+    }
 
 ## Product route
 
