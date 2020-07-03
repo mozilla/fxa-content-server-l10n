@@ -198,6 +198,7 @@ sub-item-missing = Ugur deg usali n yijerriden
 sub-item-missing-msg = Ma ulac aɣilif, ɛreḍ tikelt nniḍen ticki.
 sub-item-no-such-plan = Ulac aɣawas s wanaw-a i ujerred-a.
 sub-item-cancel-sub = Sefsex ajerred
+sub-item-stay-sub = Qqim kan tjerrdeḍ
 sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
