@@ -150,6 +150,7 @@ sub-redirect-skip-survey = No thanks, just take me to my product.
 ## fields
 
 default-input-error = This field is required
+input-error-is-required = { $label } is required
 
 ## subscription upgrade
 
@@ -166,28 +167,28 @@ sub-update-copy =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
+sub-update-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } daily</strong>, according to payment terms, until I cancel my subscription.
-       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } days</strong>, according to payment terms, until I cancel my subscription.
+        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } daily</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } days</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
+sub-update-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } weekly</strong>, according to payment terms, until I cancel my subscription.
-       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } weeks</strong>, according to payment terms, until I cancel my subscription.
+        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } weekly</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } weeks</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
+sub-update-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } monthly</strong>, according to payment terms, until I cancel my subscription.
-       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } months</strong>, according to payment terms, until I cancel my subscription.
+        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } monthly</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } months</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
+sub-update-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } yearly</strong>, according to payment terms, until I cancel my subscription.
-       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } years</strong>, according to payment terms, until I cancel my subscription.
+        [one] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } yearly</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+       *[other] I authorize { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } years</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
     }
 
 ##
