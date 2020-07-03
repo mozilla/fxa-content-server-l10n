@@ -150,6 +150,7 @@ sub-redirect-skip-survey = Nei takk, ta meg til produktet mitt.
 ## fields
 
 default-input-error = Dette feltet er obligatorisk
+input-error-is-required = { $label } er påkrevd
 
 ## subscription upgrade
 
@@ -165,30 +166,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } daglig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } dag</strong>,  i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } ukentlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } uke</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } månedlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } måned</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } årlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hvert { $intervalCount } år</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
 
 ##
 
