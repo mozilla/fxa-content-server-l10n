@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
 "PO-Revision-Date: 2020-01-05 23:41+0000\n"
 "Last-Translator: Jānis Marks Gailis (Jean-Marc) <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,7 +310,7 @@ msgstr "Divpakāpju autentifikācija"
 msgid "Account Recovery"
 msgstr ""
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
+#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr ""
 

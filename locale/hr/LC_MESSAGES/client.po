@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
 "PO-Revision-Date: 2020-06-26 09:30+0000\n"
 "Last-Translator: Ivan <ivan.mas342@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,7 +310,7 @@ msgstr "Dvofaktorska autentifikacija"
 msgid "Account Recovery"
 msgstr "Oporavak računa"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
+#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Oporavak računa je omogućen"
 
