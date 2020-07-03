@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
 "PO-Revision-Date: 2020-06-30 16:26+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2456
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2466
 msgid "Here's your reminder to sync devices."
 msgstr "Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2460
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2470
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2457
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2467
 msgid "Last reminder to sync devices!"
 msgstr "¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2463
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2473
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr "Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoh
 msgid "Generate codes:"
 msgstr "Emoheñói ayvu:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1236
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1244
 msgid "New sign-in to %(clientName)s"
 msgstr "Tembiapo ñepyrũ pyahu %(clientName)s ndive"
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Eikuaa mba’eichagua ñe’ẽñemípa oñongatu Firefox."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1646
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1656
 msgid "Account recovery key generated"
 msgstr "Mba’eñemi jeguerujeyrã mba’ete ipyahúvape"
 
@@ -219,8 +219,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Emoambue hekopete ne ñandutiveve eipuruvéva %(email)s. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo Firefox Account-pe ha og̃uahẽ hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo "
-"ñepyrũ rehegua."
+"Emoambue hekopete ne ñandutiveve eipuruvéva %(email)s. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo Firefox Account-pe ha og̃uahẽ hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ "
+"rehegua."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -234,7 +234,7 @@ msgstr "Eipuru porã jeguerujeyrãva amo mba’e’o’ka guive:"
 msgid "Consumed recovery code"
 msgstr "Eipuru ayvu jeguerujeyrã"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1513
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1523
 msgid "New recovery codes generated"
 msgstr "Oñemoheñói ayvu jeguerujeyrã pyahu"
 
@@ -242,7 +242,7 @@ msgstr "Oñemoheñói ayvu jeguerujeyrã pyahu"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Emoheñói porã mba’eñemi jeguerujeyrã pyahu tenondevegua mba’e’oka guive:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1692
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1702
 msgid "Account recovery key removed"
 msgstr "Oguéma ayvu jeguerujeyrã mba’ete"
 
@@ -258,7 +258,7 @@ msgstr "Ko mba’eñemi jeguerujeyrã ndoikovéima erujey hag̃ua ne mba’ete."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Embogue porã pe mba’eñemi jeguerujeyrã Firefox Account pegua eipurúvo ko tenondevegua mba’e’oka:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1393
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1403
 msgid "Secondary email removed"
 msgstr "Oguéma ñandutiveve mokõiguáva"
 
@@ -294,7 +294,7 @@ msgstr "¡Embojuehe ko’ág̃a ne mba’e’oka!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha ambue Firefox mba’ekuaarã ojuehegua opaite ne mba’e’okápe."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1278
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1286
 msgid "Setup next device"
 msgstr "Emboheko pe mba’e’oka upeigua"
 
@@ -302,15 +302,15 @@ msgstr "Emboheko pe mba’e’oka upeigua"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "¿Ereko porandu? Eike %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1321
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1331
 msgid "Secondary email added"
 msgstr "Ñanduti veve mokõiguáva mbojuajupyre"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Ehechajey hekopete %(secondaryEmail)s ñanduti veve mokõihávaramo ne mba’ete Firefox peguápe g̃uarã. Umi marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve"
-" kundaharapépe."
+"Ehechajey hekopete %(secondaryEmail)s ñanduti veve mokõihávaramo ne mba’ete Firefox peguápe g̃uarã. Umi marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve "
+"kundaharapépe."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -320,7 +320,7 @@ msgstr "¿Eguerujeýke ne ñe’ẽñemi?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1058
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1066
 msgid "Create new password"
 msgstr "Emoheñói ñe’ẽñemi pyahu"
 
@@ -458,8 +458,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
-"Nde ñemuhague ha jehepyme’ẽ opytáta péichante. Pe oútaba ha’éta %(invoiceTotal)s kuatia’atãme %(cardType)s opáva %(lastFour)s-pe %(nextInvoiceDateOnly)s. Ne ñemboheraguapy hekopyahúta ijehegui ohasa"
-" pukumívo ára ñemuhague rehegua ndete nderejokóiramo."
+"Nde ñemuhague ha jehepyme’ẽ opytáta péichante. Pe oútaba ha’éta %(invoiceTotal)s kuatia’atãme %(cardType)s opáva %(lastFour)s-pe %(nextInvoiceDateOnly)s. Ne ñemboheraguapy hekopyahúta ijehegui "
+"ohasa pukumívo ára ñemuhague rehegua ndete nderejokóiramo."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -545,7 +545,7 @@ msgstr "Emoneĩ ne mba’ete ha eipuruporã Firefox eñepyrũvove tembiapo."
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyrũ amo mba’e’oka guive:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:767
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:775
 msgid "Confirm sign-in"
 msgstr "Tembiapo ñepyrũ ñemoneĩ"
 
@@ -614,6 +614,10 @@ msgid "Once confirmed, we will help you install and connect Firefox on at least 
 msgstr "Emoneĩ rire, roipytyvõta emohenda ha eike hag̃ua Firefox-pe ikatúramo peteĩ mba’e’oka ambuévagui."
 
 #: lib/senders/templates/partials/appBadges.html:1
+msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+msgstr ""
+
+#: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
 msgstr "Térã, emboguejy <a %(cadLinkAttributes)s>sambue mba’e’oka</a>."
 
@@ -705,180 +709,180 @@ msgstr "Ñemboheraguapy jeheja:"
 msgid "Update billing information:"
 msgstr "Embohekopyahu marandu kuatiañemugua:"
 
-#: lib/senders/email.js:299
+#: lib/senders/email.js:307
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-pe"
 
-#: lib/senders/email.js:304
+#: lib/senders/email.js:312
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s %(uaOS)s-pe"
 
-#: lib/senders/email.js:330
+#: lib/senders/email.js:338
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (jehayhupyre)"
 
-#: lib/senders/email.js:337
+#: lib/senders/email.js:345
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s, (jehayhupyre)"
 
-#: lib/senders/email.js:342
+#: lib/senders/email.js:350
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (jehayhupyre)"
 
-#: lib/senders/email.js:347
+#: lib/senders/email.js:355
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (jehayhupyre)"
 
-#: lib/senders/email.js:529
+#: lib/senders/email.js:537
 msgid "Finish creating your account"
 msgstr "Emoheñoimava’erã mba’ete"
 
-#: lib/senders/email.js:530 lib/senders/email.js:658
+#: lib/senders/email.js:538 lib/senders/email.js:666
 msgid "Confirm email"
 msgstr "Ñandutiveve ñemoneĩ"
 
-#: lib/senders/email.js:597
+#: lib/senders/email.js:605
 msgid "Verification code: %(code)s"
 msgstr "Ayvu rechajeyrã: %(code)s"
 
-#: lib/senders/email.js:638
+#: lib/senders/email.js:646
 msgid "Reminder: Finish creating your account"
 msgstr "Mandu’arã: Emoheñoimba ne mba’ete"
 
-#: lib/senders/email.js:640
+#: lib/senders/email.js:648
 msgid "Final reminder: Activate your account"
 msgstr "Mandu’arã paha: emyandy ne mba’ete"
 
-#: lib/senders/email.js:695
+#: lib/senders/email.js:703
 msgid "Account authorization code"
 msgstr "Ayvu ñemoneĩva mba’ete rehegua"
 
-#: lib/senders/email.js:764
+#: lib/senders/email.js:772
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Emoneĩ jeike pyahu %(clientName)s-pe"
 
-#: lib/senders/email.js:809
+#: lib/senders/email.js:817
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Tembiapo ñepyrũ ayvu %(serviceName)s peg̃uarã"
 
-#: lib/senders/email.js:874
+#: lib/senders/email.js:882
 msgid "Confirm primary email"
 msgstr "Emoneĩ ñanduti veve tuichavéva"
 
-#: lib/senders/email.js:875 lib/senders/email.js:934 lib/senders/email.js:1002
+#: lib/senders/email.js:883 lib/senders/email.js:942 lib/senders/email.js:1010
 msgid "Verify email"
 msgstr "Ñandutiveve hechajey"
 
-#: lib/senders/email.js:933 lib/senders/email.js:1001
+#: lib/senders/email.js:941 lib/senders/email.js:1009
 msgid "Confirm secondary email"
 msgstr "Emoneĩ ñandutiveve mokõiguáva"
 
-#: lib/senders/email.js:1057
+#: lib/senders/email.js:1065
 msgid "Reset your password"
 msgstr "Embojevyjey ne ñe’ẽñemi"
 
-#: lib/senders/email.js:1099 lib/senders/email.js:1165
+#: lib/senders/email.js:1107 lib/senders/email.js:1173
 msgid "Password updated"
 msgstr "Ñe’ẽñemi hekopyahúva"
 
-#: lib/senders/email.js:1137 lib/senders/email.js:1195
+#: lib/senders/email.js:1145 lib/senders/email.js:1203
 msgid "Suspicious activity detected"
 msgstr "Tembiapo ivaikuaáva jehechapyre"
 
-#: lib/senders/email.js:1237 lib/senders/email.js:1322 lib/senders/email.js:1358 lib/senders/email.js:1394 lib/senders/email.js:1428 lib/senders/email.js:1471 lib/senders/email.js:1514
-#: lib/senders/email.js:1557 lib/senders/email.js:1647 lib/senders/email.js:1693
+#: lib/senders/email.js:1245 lib/senders/email.js:1332 lib/senders/email.js:1368 lib/senders/email.js:1404 lib/senders/email.js:1438 lib/senders/email.js:1481 lib/senders/email.js:1524
+#: lib/senders/email.js:1567 lib/senders/email.js:1657 lib/senders/email.js:1703
 msgid "Manage account"
 msgstr "Mba’ete ñangareko"
 
-#: lib/senders/email.js:1273
+#: lib/senders/email.js:1281
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Mba’ete hechajeypyre. Ko’ág̃a emboguejy ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu"
 
-#: lib/senders/email.js:1357
+#: lib/senders/email.js:1367
 msgid "Primary email updated"
 msgstr "Ñanduti veve tuichavéva hekopyahúva"
 
-#: lib/senders/email.js:1427
+#: lib/senders/email.js:1437
 msgid "Two-step verification enabled"
 msgstr "Ijurujáma ñemoneĩ mokõi jeku’egua"
 
-#: lib/senders/email.js:1470
+#: lib/senders/email.js:1480
 msgid "Two-step verification is off"
 msgstr "Jehechajey mokõi jeku’egua ndoikovéima"
 
-#: lib/senders/email.js:1556
+#: lib/senders/email.js:1566
 msgid "Recovery code used"
 msgstr "Ojepuru ayvu jeguerujeyrã"
 
-#: lib/senders/email.js:1609
+#: lib/senders/email.js:1619
 msgid "1 recovery code remaining"
 msgstr "Opyta 1 ayvu jeguerujeyrã"
 
-#: lib/senders/email.js:1611
+#: lib/senders/email.js:1621
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Opyta %(numberRemaining)s ayvu jeguerujeyrã hembýva"
 
-#: lib/senders/email.js:1614
+#: lib/senders/email.js:1624
 msgid "Generate codes"
 msgstr "Emoheñói ayvu"
 
-#: lib/senders/email.js:1738
+#: lib/senders/email.js:1748
 msgid "Password updated using recovery key"
 msgstr "Ñe’ẽñemi hekopyahu eipurúvo mba’eñemi jeguerujeyrã"
 
-#: lib/senders/email.js:1739
+#: lib/senders/email.js:1749
 msgid "Create new recovery key"
 msgstr "Emoheñói mba’eñemi jeguerujeyrã pyahu"
 
-#: lib/senders/email.js:1805
+#: lib/senders/email.js:1815
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Embohekopyahu %(productNameNew)s-pe"
 
-#: lib/senders/email.js:1884
+#: lib/senders/email.js:1894
 msgid "You have switched to %(productNameNew)s"
 msgstr "Emoambuéma %(productNameNew)s-pe"
 
-#: lib/senders/email.js:1954
+#: lib/senders/email.js:1964
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Nde kuatia’atã ñemurã %(productName)s ndokovéitama"
 
-#: lib/senders/email.js:2004
+#: lib/senders/email.js:2014
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s ñehepyme’ẽ ndoikói"
 
-#: lib/senders/email.js:2055 lib/senders/email.js:2120
+#: lib/senders/email.js:2065 lib/senders/email.js:2130
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ojejokóma ne mboheraguapy %(productName)s"
 
-#: lib/senders/email.js:2191
+#: lib/senders/email.js:2201
 msgid "%(productName)s subscription reactivated"
 msgstr "Mboheraguapy %(productName)s hendyjeýma"
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2275
 msgid "%(productName)s payment received"
 msgstr "%(productName)s ñehepyme’ẽmbyre"
 
-#: lib/senders/email.js:2353
+#: lib/senders/email.js:2363
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s tepyme’ẽ moneĩmbyre"
 
-#: lib/senders/email.js:2425
+#: lib/senders/email.js:2435
 msgid "Welcome to %(productName)s"
 msgstr "¡Eg̃uahẽporãite %(productName)s-pe!"
 
-#: lib/senders/email.js:2426
+#: lib/senders/email.js:2436
 msgid "Download %(productName)s"
 msgstr "Emboguejy %(productName)s"
 
-#: lib/senders/email.js:2452
+#: lib/senders/email.js:2462
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko"
 
-#: lib/senders/email.js:2453
+#: lib/senders/email.js:2463
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Mandu’arã ipaháva: Embojuehepa Sync"
 
-#: lib/senders/email.js:2467
+#: lib/senders/email.js:2477
 msgid "Sync another device"
 msgstr "Embojuehe ambue mba’e’oka"
 
@@ -971,15 +975,15 @@ msgstr "Emboguejy tembiapo ipyahuvéva"
 #~ msgstr "Embogueramoite nde Firefox Account. Péva rupi, romboykéma ne ñemoheraguapy %(productName)s. Ñe ñehepyme’ẽ ipaháva $%(invoiceTotal)s oñehepyme’ẽvo %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Roipe’áma nde ñemboheraguapy %(productName)s. Rehepyme’ẽva $%(invoiceTotal)s oiko hína %(invoiceDateOnly)s-pe. Ne mba’epuru oku’jeýta ipahaite peve ikatúva ehepyme’ẽ, ha’éva "
 #~ "%(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva $ %(paymentProrated)s "
 #~ "guive ohehechauka hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
@@ -995,11 +999,11 @@ msgstr "Emboguejy tembiapo ipyahuvéva"
 #~ "ohasa pukumívo ára ñemuhague rehegua ndete nderejokóiramo."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta $ %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei ehepyme’ẽta peteĩjey $ %(paymentProrated)s guive ohechauka"
-#~ " hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
+#~ "Ne ñehepyme’ẽrã ipyahúvape, iñambuéta $ %(paymentAmountOld)s-gui %(productPaymentCycle)s rupive $ %(paymentAmountNew)s-pe. Upe javete, avei ehepyme’ẽta peteĩjey $ %(paymentProrated)s guive "
+#~ "ohechauka hag̃ua michĩveháicha pe hembýva ko %(productPaymentCycle)s guive."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Eikéma ha eñepyrũkuaáma eikundaha kyhyje’ỹre ha tekorosãme."

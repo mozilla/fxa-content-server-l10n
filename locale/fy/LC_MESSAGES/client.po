@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-22 11:11+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
+"PO-Revision-Date: 2020-07-01 18:29+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -313,7 +313,7 @@ msgstr "Autentikaasje yn twa stappen"
 msgid "Account Recovery"
 msgstr "Accountwerstel"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
+#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Accountwerstel ynskeakele"
 
@@ -1861,7 +1861,7 @@ msgstr "Alle betelle abonneminten dy't jo hawwe wurde annulearre"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Alle útwreidingen en tema’s dy't jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"

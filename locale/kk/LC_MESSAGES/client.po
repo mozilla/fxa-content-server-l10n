@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
 "PO-Revision-Date: 2020-06-12 03:05+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -311,7 +311,7 @@ msgstr "Екі қадамды аутентификация"
 msgid "Account Recovery"
 msgstr "Тіркелгіні қалпына келтіру"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
+#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "Тіркелгіні қалпына келтіру іске қосылған"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 18:16+0000\n"
+"POT-Creation-Date: 2020-07-03 16:05+0000\n"
 "PO-Revision-Date: 2020-05-30 12:20+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -312,7 +312,7 @@ msgstr "2 段階認証"
 msgid "Account Recovery"
 msgstr "アカウントの回復"
 
-#: .es5/views/settings/account_recovery/confirm_password.js:65 .es5/models/auth_brokers/web.js:45
+#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
 msgstr "アカウントの回復が有効になりました"
 
