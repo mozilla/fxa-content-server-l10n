@@ -106,30 +106,6 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a realizar cargos en mi método de pagos, <strong>{ $amount } diariamente</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } días</strong>, según mis términos de pago, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a cargar en mi método de pagos, <strong>{ $amount } semanalment</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, creadores de los productos { -brand-name-firefox }, a cargar en mi método de pagos, <strong>{ $amount } cada { $intervalCount } semanas</strong>, acorde a los términos de pagos, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a cargar en mi método de pago <strong>{ $amount } mensualmente</strong>, según lo acordado en os términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a cargar en mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>, según lo acordado en os términos de pago, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } días</strong>, según mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, creadores de { -brand-name-firefox }, a realizar un cargo de <strong>{ $amount } cada { $intervalCount } año</strong>, según mis términos de pago, hasta que cancele mi suscripción.
-    }
 payment-confirm = Autorizo a Mozilla, creador de los productos Firefox, a realizar un cargo de <strong>{ $amount } cada { $interval }</strong>, según mis términos de pago, hasta que cancele mi suscripción.
 
 ##
@@ -150,6 +126,7 @@ sub-redirect-skip-survey = No gracias, quiero ir al producto.
 ## fields
 
 default-input-error = Este campo es requerido
+input-error-is-required = Se necesita { $etiqueta }
 
 ## subscription upgrade
 
@@ -165,30 +142,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } diariamente</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } días</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } semanalmente</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } semanas</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } mensualmente</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } anualmente</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, autor de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } años</strong>, de acuerdo con mis términos de pago, hasta que cancele mi suscripción.
-    }
 
 ##
 
