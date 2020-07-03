@@ -166,6 +166,7 @@ sub-redirect-skip-survey = Ně, źěkujom se, cu jano k swójomu produktoju.
 ## fields
 
 default-input-error = Toś to pólo jo trjebne
+input-error-is-required = { $label } jo trjebne
 
 ## subscription upgrade
 
@@ -182,7 +183,7 @@ sub-update-copy =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
+sub-update-confirm-with-legal-links-day =
     { $intervalCount ->
         [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy źeń z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
         [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždej { $intervalCount } dnja z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
@@ -190,28 +191,12 @@ sub-update-confirm-day =
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } dnjow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
+sub-update-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy { $intervalCount } tyźeń z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
+        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy tyźeń z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
         [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždej { $intervalCount } tyźenja z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
         [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } tyźenje z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } tyźenjow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy mjasec z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-        [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždej { $intervalCount } mjaseca z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-        [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasece z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-       *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasecow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde lěto z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-        [two] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždej { $intervalCount } lěśe z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-        [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } lěta z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
-       *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } lět z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
 
 ##
