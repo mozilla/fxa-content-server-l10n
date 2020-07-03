@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-06-26 19:58+0000\n"
+"PO-Revision-Date: 2020-07-03 08:00+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -206,11 +206,11 @@ msgstr "Ви успішно увімкнули двоетапну перевір
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Відтепер при кожному вході будуть вимагатися коди безпеки з вашого пристрою авторизації."
+msgstr "Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході будуть вимагатися коди безпеки з вашого пристрою авторизації."
+msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -282,7 +282,7 @@ msgstr "Тепер коди безпеки більше не будуть вим
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Тепер коди безпеки більше не будуть вимагатися при кожному вході."
+msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Відтепер більше не потрібно вводити коди безпеки при кожному вході."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."

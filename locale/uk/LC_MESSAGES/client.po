@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 18:16+0000\n"
-"PO-Revision-Date: 2020-07-02 13:52+0000\n"
+"PO-Revision-Date: 2020-07-03 07:53+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -1358,7 +1358,7 @@ msgstr "Ввести код вручну"
 
 #: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Скануйте QR-код у додатку для авторизації та введіть наданий ним код безпеки."
+msgstr "Скануйте QR-код у вашій програмі автентифікації та введіть код безпеки, який вона пропонує."
 
 #: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
 msgid "Can’t scan code?"
@@ -1572,7 +1572,7 @@ msgstr "Введіть код безпеки"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Відкрийте свій додаток для авторизації та введіть код безпеки, який він пропонує."
+msgstr "Відкрийте вашу програму автентифікації та введіть код безпеки, який вона пропонує."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
@@ -1918,7 +1918,7 @@ msgstr "Керувати…"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr "Введіть цей код в своїй програмі авторизації:"
+msgstr "Введіть цей таємний ключ у своїй програмі автентифікації:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
