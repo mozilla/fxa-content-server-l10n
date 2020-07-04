@@ -19,6 +19,13 @@ close-aria =
 ## app error dialog
 
 general-error-heading = Genel uygulama hatası
+basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
+payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
+payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
+insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
+withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
+charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra ya da başka bir kart deneyin.
 
 ## settings
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-04 17:11+0000\n"
+"PO-Revision-Date: 2020-07-04 17:13+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -829,11 +829,11 @@ msgstr "Yeni kurtarma anahtarı oluştur"
 
 #: lib/senders/email.js:1815
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s aboneliğine yükselttiniz"
 
 #: lib/senders/email.js:1894
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s aboneliğine geçtiniz"
 
 #: lib/senders/email.js:1964
 msgid "Credit card for %(productName)s expiring soon"
@@ -861,7 +861,7 @@ msgstr "%(productName)s ödemesi onaylandı"
 
 #: lib/senders/email.js:2435
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "%(productName)s uygulamasına hoş geldiniz"
 
 #: lib/senders/email.js:2436
 msgid "Download %(productName)s"
@@ -869,11 +869,11 @@ msgstr "%(productName)s uygulamasını indirin"
 
 #: lib/senders/email.js:2462
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Hatırlatma: Sync kurulumunuzu tamamlayın"
 
 #: lib/senders/email.js:2463
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Son hatırlatma: Sync kurulumunu tamamlayın"
 
 #: lib/senders/email.js:2477
 msgid "Sync another device"
@@ -893,6 +893,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"İstediğiniz sayfa bulunamadı. Kırık olabilecek bağlantıları düzeltmeleri için\n"
+"          durumu site yöneticilerimize bildirdik."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
