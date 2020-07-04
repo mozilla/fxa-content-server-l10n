@@ -161,24 +161,42 @@ pay-update-change-btn = Değiştir
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } ürününü kullanmaya devam etmek ister misiniz?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Teşekkürler! Artık hazırsınız.
 reactivate-success-button = Kapat
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Abonelikler yüklenirken sorun oluştu
 sub-item-missing-msg = Lütfen daha sonra tekrar deneyin.
 sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
 sub-item-cancel-sub = Aboneliği iptal et
+sub-item-stay-sub = Aboneliğinizi sürdürün
+account-activated = <userEl/>, hesabınız etkinleştirildi
 
 ## subscription route index
 
 sub-route-idx-updating = Fatura bilgileri güncelleniyor...
 sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
 sub-route-idx-cancel-failed = Abonelik iptal edilemedi
+sub-route-idx-contact = Destek birimine ulaş
+sub-route-idx-cancel-msg-title = Gitmenize üzüldük
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } aboneliğiniz iptal edildi.
+          <br />
+          { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
+sub-route-idx-cancel-aside = Sorularınız mı var? <a>{ -brand-name-mozilla } Destek sayfasını</a> ziyaret edin.
+sub-subscription-error =
+    .title = Abonelikler yüklenirken sorun oluştu
+sub-customer-error =
+    .title = Müşteri yüklenirken sorun oluştu
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
 
 ## subscription create
@@ -198,10 +216,37 @@ payment-confirmation-alert = İndirmek için buraya tıklayın
 payment-confirmation-mobile-alert = Uygulama açılmadı mı? <a>Buraya tıklayın</a>
 payment-confirmation-heading = Teşekkürler { $displayName }!
 payment-confirmation-heading-bak = Teşekkürler!
+payment-confirmation-subheading = Onay e-postasının gönderildiği adres:
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-details-heading = Ödeme ayrıntıları
+payment-confirmation-amount = { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] Günlük { $amount }
+       *[other] { $intervalCount } günde bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] Haftalık { $amount }
+       *[other] { $intervalCount } haftada bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] Aylık { $amount }
+       *[other] { $intervalCount } ayda bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] Yıllık { $amount }
+       *[other] { $intervalCount } yılda bir { $amount }
+    }
+payment-confirmation-cc-preview = { $last4 } ile biten
 payment-confirmation-download-button = İndirmeye devam et
