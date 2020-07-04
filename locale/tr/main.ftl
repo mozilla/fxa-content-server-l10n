@@ -26,9 +26,14 @@ expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir k
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
 charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra ya da başka bir kart deneyin.
+instant-payouts-unsupported = Banka kartınız anında ödeme için ayarlanmamış. Başka bir banka veya kredi kartı deneyin.
+duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. Ödeme geçmişinizi kontrol edin.
+coupon-expired = Promosyon kodunun süresi dolmuş.
+card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
 
 ## settings
 
+settings-home = Hesap ana sayfası
 settings-subscriptions = Abonelikler ve Ödemeler
 
 ## legal footer
@@ -38,6 +43,8 @@ privacy = Gizlilik Bildirimi
 
 ## plan details
 
+product-plan-details-heading = Aboneliğinizi ayarlayalım
+product-plan-details-heading = Aboneliğinizi ayarlayalım
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -45,6 +52,12 @@ privacy = Gizlilik Bildirimi
 
 ## Product route
 
+product-plan-error =
+    .title = Planlar yüklenirken sorun oluştu
+product-profile-error =
+    .title = Profil yüklenirken sorun oluştu
+product-customer-error =
+    .title = Müşteri yüklenirken sorun oluştu
 product-plan-not-found = Plan bulunamadı
 product-no-such-plan = Bu ürün için böyle bir plan yok.
 
@@ -55,6 +68,9 @@ payment-legal-link = <a>Stripe gizlilik ilkelerini</a> görüntüleyin.
 
 ## payment form
 
+payment-name =
+    .placeholder = Adınız ve soyadınız
+    .label = Kartınızda göründüğü şekliyle adınız
 payment-ccn =
     .label = Kart numarası
 payment-exp =
@@ -66,11 +82,35 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>günde { $amount }</strong> ödeme almasını onaylıyorum.
+       *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } günde bir { $amount }</strong> ödeme almasını onaylıyorum.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>haftada { $amount }</strong> ödeme almasını onaylıyorum.
+       *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } haftada bir { $amount }</strong> ödeme almasını onaylıyorum.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>ayda { $amount }</strong> ödeme almasını onaylıyorum.
+       *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } ayda bir { $amount }</strong> ödeme almasını onaylıyorum.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>yılda { $amount }</strong> ödeme almasını onaylıyorum.
+       *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } yılda bir { $amount }</strong> ödeme almasını onaylıyorum.
+    }
 
 ##
 
 payment-update-btn = Güncelle
-payment-pay-btn = Şimdi öde
+payment-pay-btn = Ödeme yap
 payment-validate-name-error = Lütfen adınızı girin
 payment-validate-zip-required = Posta kodu gerekli
 payment-validate-zip-short = Posta kodu çok kısa
@@ -82,10 +122,15 @@ sub-redirect-ready = Aboneliğiniz hazır
 ## fields
 
 default-input-error = Bu alan gereklidir
+input-error-is-required = { $label } gereklidir
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Yükseltmenizi gözden geçirin
+sub-update-failed = Plan güncelleme başarısız
 sub-update-title = Fatura bilgileri
+sub-update-card-ending = { $last } ile biten kart
+sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
