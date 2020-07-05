@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-04 17:18+0000\n"
+"PO-Revision-Date: 2020-07-05 10:45+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -429,11 +429,11 @@ msgstr "Teknik sorunlar"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Görüş bildirme / yeni özellik talebi"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr "Listelenmemiş"
+msgstr "Başka bir konu"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1838,7 +1838,7 @@ msgstr "Sil…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler ve Ödemeler</a> sayfasına gidin."
+msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler ve ödemeler</a> sayfasına gidin."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1910,7 +1910,7 @@ msgstr "Kurtarma kodunu doğrulayın"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions & Payments"
-msgstr "Abonelikler ve Ödemeler"
+msgstr "Abonelikler ve ödemeler"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"

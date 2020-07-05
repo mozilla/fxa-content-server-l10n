@@ -34,7 +34,7 @@ card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerini
 ## settings
 
 settings-home = Hesap ana sayfası
-settings-subscriptions = Abonelikler ve Ödemeler
+settings-subscriptions = Abonelikler ve ödemeler
 
 ## legal footer
 
@@ -109,6 +109,7 @@ payment-confirm-with-legal-links-year =
 
 ##
 
+payment-cancel-btn = İptal et
 payment-update-btn = Güncelle
 payment-pay-btn = Ödeme yap
 payment-validate-name-error = Lütfen adınızı girin
@@ -147,6 +148,30 @@ sub-update-total-label = Yeni toplam
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] Günlük { $amount }
+       *[other] { $intervalCount } günde bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] Haftalık { $amount }
+       *[other] { $intervalCount } haftada bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] Aylık { $amount }
+       *[other] { $intervalCount } ayda bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] Yıllık { $amount }
+       *[other] { $intervalCount } yılda bir { $amount }
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
@@ -162,9 +187,11 @@ pay-update-change-btn = Değiştir
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name } ürününü kullanmaya devam etmek ister misiniz?
+reactivate-confirm-button = Yeniden abone ol
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Aboneliğinizi { $date } tarihinde iptal ettiniz.
 reactivate-success-copy = Teşekkürler! Artık hazırsınız.
 reactivate-success-button = Kapat
 
@@ -176,7 +203,7 @@ sub-item-missing = Abonelikler yüklenirken sorun oluştu
 sub-item-missing-msg = Lütfen daha sonra tekrar deneyin.
 sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
 sub-item-cancel-sub = Aboneliği iptal et
-sub-item-stay-sub = Aboneliğinizi sürdürün
+sub-item-stay-sub = Aboneliğimi sürdür
 account-activated = <userEl/>, hesabınız etkinleştirildi
 
 ## subscription route index
