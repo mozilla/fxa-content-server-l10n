@@ -13,6 +13,7 @@
         [ben] Firefox-ისთვის
         [loc] Firefox-ზე
         [ine] Firefox-ში
+        [add] Firefox-თან
     }
 
 ## general-aria
