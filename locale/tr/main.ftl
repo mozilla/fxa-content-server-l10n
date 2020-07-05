@@ -219,6 +219,7 @@ payment-confirmation-heading-bak = Teşekkürler!
 payment-confirmation-subheading = Onay e-postasının gönderildiği adres:
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Ödeyen
 payment-confirmation-details-heading = Ödeme ayrıntıları
 payment-confirmation-amount = { $interval } { $amount }
 
