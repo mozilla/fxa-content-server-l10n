@@ -43,8 +43,8 @@ privacy = Sekretesspolicy
 
 ## plan details
 
-product-plan-details-heading = Låt oss ställa in ditt prenumeration
-product-plan-details-heading = Låt oss ställa in ditt prenumeration
+product-plan-details-heading = Låt oss konfigurera din prenumeration
+product-plan-details-heading = Låt oss konfigurera din prenumeration
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
