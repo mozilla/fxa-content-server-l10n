@@ -272,8 +272,8 @@ reactivate-confirm-button = 重新訂閱
 
 ##  $date (Date) - Last day of product access
 
-reactivate-panel-date = 您已於 { $date } 取消訂閱方案。
-reactivate-panel-copy = 在 <strong>{ $date }</strong> 之後，將無法繼續使用 { $name }。
+reactivate-panel-date = 您已於 { $date }取消訂閱方案。
+reactivate-panel-copy = 在 <strong>{ $date }</strong>之後，將無法再使用 { $name }。
 reactivate-success-copy = 處理完成，感謝您！
 reactivate-success-button = 關閉
 
@@ -286,8 +286,8 @@ sub-item-missing-msg = 請稍候再試。
 sub-item-no-such-plan = 此訂閱內容無此方案。
 sub-item-cancel-sub = 取消訂閱
 sub-item-stay-sub = 保持訂閱
-sub-item-cancel-msg = 在帳務週期最後一天（{ $date }）之後，將無法繼續使用 { $name }。
-sub-item-cancel-confirm = 在 { $period } 之後取消我對 { $name } 的使用權限與儲存的所有資訊
+sub-item-cancel-msg = 在帳務週期最後一天（{ $period }）之後，將無法再使用 { $name }。
+sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用權限與儲存的所有資訊
 account-activated = <userEl/>，已啟用您的帳號
 
 ## subscription route index
@@ -299,7 +299,7 @@ sub-route-idx-contact = 聯絡支援團隊
 sub-route-idx-cancel-msg-title = 很抱歉看到您離開
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
-sub-route-idx-cancel-msg = 已取消您對 { $name } 的訂閱。<br />仍可繼續使用 { $name } 到 { $date } 為止。
+sub-route-idx-cancel-msg = 已取消您對 { $name } 的訂閱。<br />仍可繼續使用 { $name } 到 { $date }為止。
 sub-route-idx-cancel-aside = 有問題嗎？請到 <a>{ -brand-name-mozilla } Support</a>。
 sub-subscription-error =
     .title = 載入訂閱資訊時發生問題
