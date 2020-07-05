@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-05 11:57+0000\n"
+"PO-Revision-Date: 2020-07-05 12:32+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
@@ -876,11 +876,11 @@ msgstr "Hämta %(productName)s"
 
 #: lib/senders/email.js:2462
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "En vänlig påminnelse: Så slutför du din konfiguration av Sync"
 
 #: lib/senders/email.js:2463
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Sista påminnelse: Slutför konfiguration av Sync"
 
 #: lib/senders/email.js:2477
 msgid "Sync another device"
