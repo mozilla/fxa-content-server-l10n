@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-03 16:40+0000\n"
+"PO-Revision-Date: 2020-07-05 11:02+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -39,7 +39,7 @@ msgstr "若您還沒有下載 %(productName)s，快來開始使用訂閱服務�
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "有關於訂閱服務的任何問題嗎？我們的<a href=\"%(subscriptionSupportUrl)s\">技術支援團隊</a>在此為您服務。"
+msgstr "對訂閱服務有任何問題嗎？我們的<a href=\"%(subscriptionSupportUrl)s\">支援團隊</a>在此為您服務。"
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
@@ -648,7 +648,7 @@ msgstr "Firefox Cloud 服務條款"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "您會收到這封信，是因為 %(email)s 註冊了 Firefox 帳號，並且註冊了 %(productName)s。"
+msgstr "您會收到這封信，是因為 %(email)s 註冊了 Firefox 帳號，並且訂購了 %(productName)s。"
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."

@@ -327,7 +327,7 @@ payment-confirmation-heading-bak = 感謝您！
 payment-confirmation-subheading = 已將確認信發送至
 payment-confirmation-order-heading = 訂單詳細資訊
 payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
-payment-confirmation-billing-heading = 付款人:
+payment-confirmation-billing-heading = 付款人
 payment-confirmation-details-heading = 付款詳細資訊
 payment-confirmation-amount = 每 { $interval } { $amount }
 
