@@ -150,6 +150,7 @@ sub-redirect-skip-survey = No grazie, visualizza il mio prodotto.
 ## fields
 
 default-input-error = Campo obbligatorio
+input-error-is-required = { $label } è un campo obbligatorio
 
 ## subscription upgrade
 
