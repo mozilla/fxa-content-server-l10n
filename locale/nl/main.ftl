@@ -150,6 +150,7 @@ sub-redirect-skip-survey = Nee bedankt, breng me naar mijn product.
 ## fields
 
 default-input-error = Dit veld is verplicht
+input-error-is-required = { $label } is verplicht
 
 ## subscription upgrade
 
@@ -165,30 +166,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>dagelijks</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-       *[other] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>elke { $intervalCount } dagen</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>wekelijks met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-       *[other] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>elke { $intervalCount }weken met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>maandelijks met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-       *[other] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>elke { $intervalCount } maanden met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>jaarlijks met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-       *[other] Ik machtig { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betalingsmethode <strong>elke { $intervalCount } jaar met { $amount }</strong> te belasten, overeenkomstig de betalingsvoorwaarden, totdat ik mijn abonnement opzeg.
-    }
 
 ##
 
