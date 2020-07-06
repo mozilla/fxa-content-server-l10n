@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-05 00:39+0000\n"
+"PO-Revision-Date: 2020-07-06 01:26+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1858,7 +1858,7 @@ msgstr "Toda suscripción de paga que tengas será cancelada"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Toda extensión y tema que hayas publicado en addons.mozilla.org será eliminado"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"
@@ -2055,6 +2055,8 @@ msgstr "para continuar con %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Detectamos un comportamiento sospechoso en tu cuenta de Firefox. Para proteger tu cuenta, crea una nueva contraseña. Utilizarás esta contraseña para volver a conectarte en todos los servicios de tu "
+"cuenta de Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
