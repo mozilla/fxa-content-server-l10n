@@ -168,6 +168,24 @@ sub-update-confirm-with-legal-links-day =
         [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } al giorno</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
        *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } giorni</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } alla settimana</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } settimane</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } al mese</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } mesi</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } all’anno</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+       *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } anni</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
+    }
 
 ##
 
