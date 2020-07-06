@@ -150,6 +150,7 @@ sub-redirect-skip-survey = Nee tank, nim my nei myn produkt.
 ## fields
 
 default-input-error = Dit fjild is ferplichte
+input-error-is-required = { $label } is ferplicht
 
 ## subscription upgrade
 
@@ -165,30 +166,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>deistich mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } dagen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>wykliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } wiken mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>moanliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } moannen mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>jierliks mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-       *[other] Ik machtigje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betellingsmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
-    }
 
 ##
 
