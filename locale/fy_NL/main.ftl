@@ -166,6 +166,30 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> deistich { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } dagen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke wike { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } wiken { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke moanne { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } moannen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elk jier { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } jier { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+    }
 
 ##
 
