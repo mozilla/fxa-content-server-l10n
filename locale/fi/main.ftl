@@ -112,30 +112,6 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } päivittäin</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. päivä</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } viikoittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. viikko</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } kuukausittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. kuukausi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } vuosittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. vuosi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
 payment-confirm = Valtuutan Mozillan, Firefox-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } $ per { $interval }</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
 
 ##
@@ -156,6 +132,7 @@ sub-redirect-skip-survey = Ei kiitos, vie minut tuotteeni luo.
 ## fields
 
 default-input-error = Tämä kenttä on pakollinen
+input-error-is-required = { $label } vaaditaan
 
 ## subscription upgrade
 
@@ -167,30 +144,6 @@ sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } päivittäin</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. päivä</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } viikoittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. viikko</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } kuukausittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. kuukausi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } vuosittain</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-       *[other] Valtuutan { -brand-name-mozilla(case: "genitive") }, { -brand-name-firefox }-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } joka { $intervalCount }. vuosi</strong> maksuehtojen mukaisesti, kunnes peruutan tilauksen.
-    }
 
 ##
 
