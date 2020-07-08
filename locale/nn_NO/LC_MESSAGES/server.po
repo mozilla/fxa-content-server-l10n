@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-08 11:37+0000\n"
+"PO-Revision-Date: 2020-07-08 11:45+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -20,7 +20,7 @@ msgstr "Her er påminninga di om å synkronisere einingar."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2470
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Det må to til for å synkronisere. Synkronisering av ei anna eining med Firefox held bokmerker, passord og andre Firefox-data like overalt du brukar Firefox."
+msgstr "Det må to til for å synkronisere. Synkronisering av ei anna eining med Firefox held bokmerker, passord og andre Firefox-data like overalt der du brukar Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2467
 msgid "Last reminder to sync devices!"
@@ -28,7 +28,7 @@ msgstr "Siste påminning om å synkronisere einingar!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2473
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Synkronisering av ei anna eining med Firefox held bokmerke, passord og andre Firefox-data like overalt der du brukar Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -614,7 +614,7 @@ msgstr "Når det er stadfesta, hjelper vi deg med å installere og kople til Fir
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Eller installer på <a %(desktopLinkAttributes)s>ei anna datamaskin</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
