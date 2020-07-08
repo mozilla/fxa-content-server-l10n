@@ -112,6 +112,12 @@ payment-confirm-with-legal-links-day =
         [one] Io autorisa { -brand-name-mozilla }, productor de productos { -brand-name-firefox }, cargar a mi methodo de pagamento <strong>{ $amonta } cata die</strong>, in accordo al <termsOfServiceLink>Terminos de servicio</termsOfServiceLink> e al <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
        *[other] Io autorisa { -brand-name-mozilla }, productor de { -brand-name-firefox } productos, cargar a mi methodo de pagamento <strong>{ $amonta } cata { $intervalCount } dies</strong>, in accordo al <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e al <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Io autorisa { -brand-name-mozilla }, productor de { -brand-name-firefox } productos, cargar a mi methodo de pagamento <strong>{ $amonta } septimanalmente</strong>, in accordo a <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
+       *[other] Io autorisa { -brand-name-mozilla }, productor de { -brand-name-firefox } productos, cargar a mi methodo de pagamento <strong>{ $amonta } cata { $intervalCount } septimanas</strong>, in accordo al <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e al <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
+    }
 payment-confirm = Io autorisa Mozilla, productor de productos Firefox, a debitar mi methodo de pagamento <strong>${ $amount } cata { $interval }</strong>, in accordo al terminos de pagamento, usque io cancellara mi subscription.
 
 ##
