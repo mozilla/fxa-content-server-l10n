@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-08 16:05+0000\n"
+"PO-Revision-Date: 2020-07-08 17:40+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -525,7 +525,7 @@ msgstr "Ñe’ẽñemi oiko’ỹva"
 
 #: .es5/lib/auth-errors.js:68
 msgid "Unverified account"
-msgstr "Mba’ete jehechapyre'ỹva"
+msgstr "Mba’ete jehechapyre’ỹva"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
