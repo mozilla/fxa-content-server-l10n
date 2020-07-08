@@ -119,6 +119,7 @@ payment-validate-zip-short = Posta kodu çok kısa
 ## subscription redirect
 
 sub-redirect-ready = Aboneliğiniz hazır
+sub-redirect-skip-survey = İstemiyorum, beni ürünüme götür.
 
 ## fields
 
@@ -181,6 +182,7 @@ plan-price-year =
 
 ##
 
+pay-update-card-exp = Son kullanım: { $expirationDate }
 pay-update-change-btn = Değiştir
 
 ## reactivate
