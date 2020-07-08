@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-07 18:45+0000\n"
+"PO-Revision-Date: 2020-07-08 16:05+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1198,7 +1198,7 @@ msgstr "Ñanduti jeguerujeyrã mondopyre"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Emoheñói hag̃ua ñe’ẽñemi pyahu, eikutu juajuha oúva %(email)s-pe 60 aravo'i oútavape."
+msgstr "Emoheñói hag̃ua ñe’ẽñemi pyahu, eikutu juajuha oúva %(email)s-pe 60 aravo’i oútavape."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
