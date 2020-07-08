@@ -106,30 +106,6 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar månad</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } månad</strong>, i samsvar med betalingsvilkåra, helt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } kvart år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart { $intervalCount } år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
 payment-confirm = Eg autoriserer Mozilla, utviklar av Firefox-produkt, til å belaste betalingsmåten min med <strong>{ $amount } per { $interval }</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
 
 ##
@@ -150,6 +126,7 @@ sub-redirect-skip-survey = Nei takk, ta meg til produktet mitt.
 ## fields
 
 default-input-error = Dette feltet er obligatorisk
+input-error-is-required = { $label } er påkravd
 
 ## subscription upgrade
 
@@ -165,30 +142,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar dag</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklear av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar månad</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } månad</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart { $intervalCount } år</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
-    }
 
 ##
 
