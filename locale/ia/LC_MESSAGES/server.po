@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-08 08:33+0000\n"
+"PO-Revision-Date: 2020-07-08 08:39+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -30,7 +30,7 @@ msgstr "Ultime memento pro synchronisar tu apparatos!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2473
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Le synchronisation de un altere apparato con Firefox te retene reservate tu marcapaginas, contrasignos e altere datos de Firefox identic ubique tu usa Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -619,7 +619,7 @@ msgstr "Post confirmar, nos te adjutara a installar e connecter Firefox sur al m
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "O, installa sur <a %(desktopLinkAttributes)s>un altere apparato scriptorio</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
@@ -880,15 +880,15 @@ msgstr "Discargar %(productName)s"
 
 #: lib/senders/email.js:2462
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Tu memento amical: como completar tu installation de Sync"
 
 #: lib/senders/email.js:2463
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Memento final: installation de Sync complete"
 
 #: lib/senders/email.js:2477
 msgid "Sync another device"
-msgstr ""
+msgstr "Synchronisar un altere apparato"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
