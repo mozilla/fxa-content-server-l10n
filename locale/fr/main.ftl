@@ -106,7 +106,7 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-payment-confirm = J’autorise Mozilla, éditeur des produits Firefox, à débiter sur ma méthode de paiement <strong>{ $amount } $ par { $interval }</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
+payment-confirm = J’autorise Mozilla, éditeur des produits Firefox, à prélever via mon moyen de paiement <strong>{ $amount } $ par { $interval }</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
 
 ##
 
