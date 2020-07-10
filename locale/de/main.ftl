@@ -94,7 +94,9 @@ payment-legal-link = Lesen Sie die <a>Stripe-Datenschutzrichtlinie</a>.
 
 payment-name =
     .placeholder = Vollständiger Name
-    .label = Name, wir er auf Ihrer Karte erscheint
+    .label = Name, wie er auf Ihrer Karte erscheint
+payment-cc =
+    .label = Ihre Karte
 payment-ccn =
     .label = Kartennummer
 payment-exp =
