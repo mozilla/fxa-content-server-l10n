@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-01 15:25+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"PO-Revision-Date: 2020-07-05 12:32+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Här är din påminnelse om att synkronisera enheter."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2470
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Det krävs två att synkronisera. Med privat synkronisering av en annan enhet med Firefox förblir dina bokmärken, lösenord och annan Firefox-data densamma överallt där du använder Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2467
 msgid "Last reminder to sync devices!"
@@ -29,7 +29,7 @@ msgstr "Sista påminnelse om att synkronisera enheter!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2473
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Med privat synkronisering av en annan enhet med Firefox förblir dina bokmärken, lösenord och annan Firefox-data densamma överallt där du använder Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -615,7 +615,7 @@ msgstr "När det är bekräftat, hjälper vi dig att installera och ansluta Fire
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Eller installera på <a %(desktopLinkAttributes)s>en annan stationär enhet</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
@@ -876,11 +876,11 @@ msgstr "Hämta %(productName)s"
 
 #: lib/senders/email.js:2462
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "En vänlig påminnelse: Så slutför du din konfiguration av Sync"
 
 #: lib/senders/email.js:2463
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Sista påminnelse: Slutför konfiguration av Sync"
 
 #: lib/senders/email.js:2477
 msgid "Sync another device"

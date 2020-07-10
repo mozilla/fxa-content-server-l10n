@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-06-21 18:51+0000\n"
+"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"PO-Revision-Date: 2020-07-05 11:54+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1859,7 +1859,7 @@ msgstr "Alla betalda prenumerationer kommer att avbrytas"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Eventuella tillägg och teman som du publicerat på addons.mozilla.org kommer att raderas"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"

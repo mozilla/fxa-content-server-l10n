@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-06-24 01:49+0000\n"
+"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"PO-Revision-Date: 2020-07-08 01:40+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -1861,7 +1861,7 @@ msgstr "Quaisquer subscrições pagas que tenha serão canceladas"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Quaisquer extensões e temas que você tenha publicado em addons.mozilla.org serão eliminados"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "You may lose saved information and features within Mozilla products"

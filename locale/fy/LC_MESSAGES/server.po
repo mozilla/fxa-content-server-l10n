@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-07-01 18:32+0000\n"
+"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"PO-Revision-Date: 2020-07-06 07:50+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -618,7 +618,7 @@ msgstr "Sa gau as dit befêstige is, helpe wy jo Firefox op op syn minst ien oar
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Of ynstallearje it op <a %(desktopLinkAttributes)s>in oar desktopapparaat</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."

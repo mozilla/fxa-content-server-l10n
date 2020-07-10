@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-03 16:05+0000\n"
-"PO-Revision-Date: 2020-06-15 12:46+0000\n"
-"Last-Translator: Carlos (SUMO @albertdecastro) <carlos.a.silva@pm.me>\n"
+"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"PO-Revision-Date: 2020-07-08 01:40+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2466
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Eis o seu lembrete para sincronizar os dispositivos."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2470
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
