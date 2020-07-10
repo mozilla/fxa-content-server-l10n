@@ -16,6 +16,7 @@ document =
 
 ## app error dialog
 
+general-error-heading = பொதுவான செயலி பிழை
 
 ## settings
 
