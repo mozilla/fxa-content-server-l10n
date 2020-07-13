@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2019-12-19 04:26+0000\n"
-"Last-Translator: Reza Habibi <reza.hbi@gmail.com>\n"
+"PO-Revision-Date: 2020-07-13 14:33+0000\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -49,11 +49,11 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
-msgstr ""
+msgstr "تعداد کمی کد بازیابی باقی‌مانده"
 
 #: lib/senders/templates/lowRecoveryCodes.html:2
 msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr ""
+msgstr "متوجه شدیم که شما تعداد کمی کد بازیابی دارید. لطفا جهت جلوگیری از عدم امکانِ دسترسی به حساب خود، کدهای جدید ایجاد کنید."
 
 #: lib/senders/templates/lowRecoveryCodes.txt:2
 msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
@@ -61,11 +61,11 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "ایجاد کدها:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1244
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "ورود جدید به %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid ""
@@ -112,23 +112,23 @@ msgstr "این یک رایانامه خودکار است؛ اگر شما گذر�
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
-msgstr ""
+msgstr "گذرواژه حساب شما تغییر کرد"
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "برای از سرگیری همگام‌سازی باید گذرواژه جدید خود را در دستگاه‌های دیگر وارد کنید."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr ""
+msgstr "برای از سرگیری همگام‌سازی باید گذرواژه جدید خود را در دستگاه‌های دیگر وارد کنید."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "اگر آنرا تغییر ندادید، لطفا اکنون گذرواژه خود را در %(resetLink)s بازنشانی کنید"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
-msgstr ""
+msgstr "گذرواژهٔ حساب شما با یک کلید بازیابی بازنشانی شد"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
@@ -1033,8 +1033,8 @@ msgstr ""
 #~ msgstr "دوباره سلام."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "چند روز پیش شما یک حساب فایرفاکس ساختید، ولی هیچگاه تاییدش نکردید. یک حساب تایید شده به شما امکان می‌دهد تا به زبانه‌ها، نشانک‌ها، گذرواژه‌ها و تاریخچه خود بر روی هر دستگاه متصل به آن، دسترسی داشته "
 #~ "باشید. به راحتی با ثبت این آدرس پست‌الکترونیکی حساب خود را تایید کنید."
@@ -1107,8 +1107,7 @@ msgstr ""
 #~ msgid "Firefox cloud services"
 #~ msgstr "سرویس‌های ابری فایرفاکس"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "شما با موفقیت %(secondaryEmail)s را به عنوان رایانامه دوم حساب‌کاربری فایرفاکس خود تایید کردید. اکنون اطلاعیه‌های امنیتی و تاییدیه‌های ورود به هر دو نشانی رایانامه ارسال خواهد شد."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
