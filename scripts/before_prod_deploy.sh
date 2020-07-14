@@ -39,6 +39,19 @@ cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
 sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
 sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
 
+# Also https://jira.mozilla.com/browse/FXA-2280
+cp -r $L10N_DIR/locale/en_GB/* $L10N_DIR/locale/en_NZ
+sed -i'' -e 's/Language: en_GB/Language: en_NZ/g' "$L10N_DIR/locale/en_NZ/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: en_GB/Language: en_NZ/g' "$L10N_DIR/locale/en_NZ/LC_MESSAGES/server.po"
+
+cp -r $L10N_DIR/locale/en_GB/* $L10N_DIR/locale/en_MY
+sed -i'' -e 's/Language: en_GB/Language: en_MY/g' "$L10N_DIR/locale/en_MY/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: en_GB/Language: en_MY/g' "$L10N_DIR/locale/en_MY/LC_MESSAGES/server.po"
+
+cp -r $L10N_DIR/locale/en_GB/* $L10N_DIR/locale/en_SG
+sed -i'' -e 's/Language: en_GB/Language: en_SG/g' "$L10N_DIR/locale/en_SG/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: en_GB/Language: en_SG/g' "$L10N_DIR/locale/en_SG/LC_MESSAGES/server.po"
+
 
 
 # see https://github.com/mozilla/zippy/blob/180f746cd84cb3e409c76649e810485acb4512dc/locale/omg_new_l10n.sh#L90
