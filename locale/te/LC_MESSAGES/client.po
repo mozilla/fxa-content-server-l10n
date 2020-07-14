@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-14 13:02+0000\n"
+"PO-Revision-Date: 2020-07-14 15:04+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -636,7 +636,7 @@ msgstr "ఈమెయిలు పంపించడం విఫలమైంద�
 
 #: .es5/lib/auth-errors.js:216
 msgid "Valid code required"
-msgstr ""
+msgstr "చెల్లుబాటయ్యే కోడు అవసరం"
 
 #: .es5/lib/auth-errors.js:220
 msgid "This verification code has expired"
