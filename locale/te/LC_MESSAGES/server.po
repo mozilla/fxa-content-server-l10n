@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-14 15:05+0000\n"
+"PO-Revision-Date: 2020-07-15 18:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "సంకేతాలను సృష్టించు:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1244
 msgid "New sign-in to %(clientName)s"
