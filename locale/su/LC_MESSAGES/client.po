@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-14 07:52+0000\n"
+"PO-Revision-Date: 2020-07-15 02:26+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1414,7 +1414,7 @@ msgstr "Undeur Firefox jang Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Undeur Firefox jang parangkat sélulér."
+msgstr "Undeur Firefox jang paranti ider."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
