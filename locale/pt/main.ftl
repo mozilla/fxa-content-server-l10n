@@ -95,6 +95,8 @@ payment-legal-link = Consulte a <a>Política de privacidade do Stripe</a>.
 payment-name =
     .placeholder = Nome completo
     .label = Nome como aparece no seu cartão
+payment-cc =
+    .label = O seu cartão
 payment-ccn =
     .label = Número do cartão
 payment-exp =
@@ -107,28 +109,28 @@ payment-zip =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
+payment-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } a cada { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
+payment-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } a cada { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as { $intervalCount } semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
+payment-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } mensalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } a cada { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
+payment-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } anualmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criadores dos produtos { -brand-name-firefox }, a cobrar o meu método de pagamento <strong>{ $amount } a cada { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 payment-confirm = Eu autorizo a Mozilla, criadora dos produtos Firefox, a cobrar o meu método de pagamento <strong>${ $amount } por { $interval }</strong>, de acordo com as condições de pagamento, até eu cancelar a minha subscrição.
 
@@ -150,6 +152,7 @@ sub-redirect-skip-survey = Não, obrigado. Leve-me ao meu produto.
 ## fields
 
 default-input-error = Este campo é obrigatório
+input-error-is-required = { $label } é necessário
 
 ## subscription upgrade
 
@@ -166,28 +169,28 @@ sub-update-copy =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
+sub-update-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox } a debitar o meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
+sub-update-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todas as  { $intervalCount } semanas</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as { $intervalCount } semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
+sub-update-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } meses</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
+sub-update-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, criador dos produtos { -brand-name-firefox }, a debitar o meu método de pagamento <strong>{ $amount } todos os  { $intervalCount } anos</strong>, de acordo com os termos de pagamento, até eu cancelar a minha subscrição.
+        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
+       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
     }
 
 ##
