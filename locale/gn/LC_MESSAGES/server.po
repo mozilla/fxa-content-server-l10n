@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-17 14:11+0000\n"
+"PO-Revision-Date: 2020-07-17 14:14+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -619,7 +619,7 @@ msgstr "Térã emohenda <a %(desktopLinkAttributes)s>ambue mba’e’okápe</a>.
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Térã, emboguejy <a %(cadLinkAttributes)s>sambue mba’e’oka</a>."
+msgstr "Térã, emboguejy <a %(cadLinkAttributes)s>ambue mba’e’okápe</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."

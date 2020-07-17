@@ -128,6 +128,7 @@ sub-redirect-skip-survey = Nahániri, eguerahánte che apopyrépe.
 ## fields
 
 default-input-error = Ko korápe ahaiva’erã
+input-error-is-required = Oñeikotevẽ { $label }
 
 ## subscription upgrade
 
@@ -136,6 +137,10 @@ sub-update-failed = Ojavy tembiaporã mbohekopyahu
 sub-update-title = Ñemuhakuatia marandu
 sub-update-card-ending = Kuata’atã opáva { $last }-pe
 sub-update-card-exp = Opáta { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
+    ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
+    guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
