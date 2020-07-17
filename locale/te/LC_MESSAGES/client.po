@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-14 15:04+0000\n"
+"PO-Revision-Date: 2020-07-17 14:46+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -20,7 +20,7 @@ msgstr "పాస్‌వర్డ్ రీసెట్"
 
 #: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr "పాస్వర్డ్ విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి సైన్ ఇన్ అవ్వండి."
+msgstr "సంకేతపదం విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి ప్రవేశించండి."
 
 #. submit button
 #: .es5/views/force_auth.js:197 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
@@ -897,7 +897,7 @@ msgstr ""
 
 #: .es5/lib/newsletters.js:29
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "మొజిల్లా, Firefoxల గురించి తాజా వార్తలు పొందండి"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
@@ -977,7 +977,7 @@ msgstr ""
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "రిమోట్ పరికరం నుండి చెల్లని సందేశం"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
