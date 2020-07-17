@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-10 16:04+0000\n"
-"PO-Revision-Date: 2020-07-17 14:07+0000\n"
+"PO-Revision-Date: 2020-07-17 14:11+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -615,7 +615,7 @@ msgstr "Emoneĩ rire, roipytyvõta emohenda ha eike hag̃ua Firefox-pe ikatúram
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Térã emohenda <a %(desktopLinkAttributes)s>ambue mba’e’okápe</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."

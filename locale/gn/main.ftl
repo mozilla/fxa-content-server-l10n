@@ -95,6 +95,8 @@ payment-legal-link = Ehecha <a>Stripe remiñemi purureko</a>.
 payment-name =
     .placeholder = Téra ha terajuapy
     .label = Nde réra oĩháicha nde kuatia’atãme
+payment-cc =
+    .label = Nde kuatia’atã
 payment-ccn =
     .label = Kuatia’atã papapy
 payment-exp =
@@ -106,12 +108,6 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
-    { $intervalCount ->
-        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre moheñoiha { -brand-name-firefox }, ojapo hag̃ua moambue che ñehepyme’ẽ rehegua, <strong>{ $amount } ko’ẽreíre</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
-       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre moheñoiha { -brand-name-firefox }, ojapo hag̃ua moambue che ñehepyme’ẽ rehegua, <strong>{ $amount } ko’ẽreíre</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
-    }
 payment-confirm = Amoneĩ Mozilla-pe, omoheñoiha Firefox apopyre, ojapo hag̃ua moambue <strong>{ $amount } peteĩva { $interval }</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
 
 ##
