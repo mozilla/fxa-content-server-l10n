@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-06-29 10:20+0000\n"
 "Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Merci d’avoir contacté l’assistance de Mozilla à propos de <b>%(escapedLowercaseTopic)s</b> pour <b>%(escapedSelectedProduct)s</b>. Nous vous contacterons par courriel dès que possible."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -156,7 +156,7 @@ msgstr "Changer"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -261,7 +261,7 @@ msgstr "Session web"
 msgid "Last seen time unknown"
 msgstr "Date de dernière connexion inconnue"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "Compte supprimé avec succès"
 
@@ -882,6 +882,10 @@ msgstr "Redirection invalide"
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Faute de frappe dans l’adresse électronique ? %(domain)s ne propose pas d’adresses électroniques."
+
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1839,7 +1843,7 @@ msgstr "Actualiser l’état"
 msgid "Email preferences"
 msgstr "Préférences de courrier électronique"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "Supprimer le compte"
 
@@ -1855,23 +1859,23 @@ msgstr "Vous souhaitez annuler un abonnement payant ? Accédez à la page <a hr
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Votre compte Firefox est connecté à des produits Mozilla qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "En supprimant votre compte, vous reconnaissez que :"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Tous les abonnements payants dont vous disposez seront résiliés"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr "Toutes les extensions et tous les thèmes que vous avez publiés sur addons.mozilla.org seront supprimés"
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits Mozilla"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Réactiver le compte avec cette adresse électronique peut ne pas restaurer vos informations enregistrées"
 
@@ -2352,10 +2356,6 @@ msgstr "Ouvrez le scanner de code sur votre application Firefox et affichez le c
 msgid "Show code"
 msgstr "Afficher le code"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "Obtenir l’appli"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "L’appareil a été couplé"
@@ -2379,6 +2379,9 @@ msgstr "Associer en utilisant une application"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Avez-vous utilisé la caméra du système ? L’association doit être effectuée depuis une application Firefox."
+
+#~ msgid "Get app"
+#~ msgstr "Obtenir l’appli"
 
 #~ msgid "Download Firefox with your camera"
 #~ msgstr "Téléchargez Firefox avec votre appareil photo"

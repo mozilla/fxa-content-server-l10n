@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-06-26 19:54+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,7 +123,7 @@ msgstr ""
 "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b> na pomoc Mozilla wobroćił. Stajimy so přez wašu e-mejlowu adresu tak bórze kaž móžno do zwiska."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Hesło"
 
@@ -157,7 +157,7 @@ msgstr "Změnić"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -259,7 +259,7 @@ msgstr "Webposedźenje"
 msgid "Last seen time unknown"
 msgstr "Posledni wopyt njeznaty"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
@@ -880,6 +880,10 @@ msgstr "Njepłaćiwe dalesposrědkowanje"
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "E-mejlowa adresa zapisana? %(domain)s e-mejlowu słužbu njeposkića."
+
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1834,7 +1838,7 @@ msgstr "Status aktualizować"
 msgid "Email preferences"
 msgstr "E-mejlowe nastajenja"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "Konto zhašeć"
 
@@ -1850,23 +1854,23 @@ msgstr "Chceće zapłaćeny abonement wotskazać? Dźiće k <a href=\"/subscript
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Sće swoje konto Firefox z produktami Mozilla zwjazał, kotrež was wěsty a produktiwny we webje dźerža:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "Prošu zhašejće swoje konto, zo byšće to wobkrućił:"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Wšě zapłaćene abonementy, kotrež maće, so wupowědźa"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr "Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja."
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Móžeće składowane informacije a funkcije produktow Mozilla zhubić"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće"
 
@@ -2344,10 +2348,6 @@ msgstr "Wočińće kodowy skener w swojim nałoženju Firefox a pokazajće kod, 
 msgid "Show code"
 msgstr "Kod pokazać"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "Nałoženje sćahnyć"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "Grat wuspěšnje skoplowany"
@@ -2371,6 +2371,9 @@ msgstr "Z nałoženjom koplować"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować."
+
+#~ msgid "Get app"
+#~ msgstr "Nałoženje sćahnyć"
 
 #~ msgid "Download Firefox with your camera"
 #~ msgstr "Sćehńće Firefox ze swojej kameru"

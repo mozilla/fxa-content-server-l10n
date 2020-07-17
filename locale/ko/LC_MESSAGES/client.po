@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-06-06 20:21+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "비밀번호"
 
@@ -156,7 +156,7 @@ msgstr "변경"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -258,7 +258,7 @@ msgstr "웹 세션"
 msgid "Last seen time unknown"
 msgstr "마지막 사용 시간 알 수 없음"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -879,6 +879,10 @@ msgstr "잘못된 리디렉션"
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 이메일을 제공하지 않습니다."
+
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1831,7 +1835,7 @@ msgstr "상태 새로고침"
 msgid "Email preferences"
 msgstr "이메일 설정"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "계정 삭제"
 
@@ -1847,23 +1851,23 @@ msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">�
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "웹에서 안전하고 생산성을 유지할 수 있도록 Firefox 계정을 Mozilla 제품에 연결했습니다:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "계정을 삭제하기 전 다음 사항에 유의하세요:"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "모든 유료 구독이 취소됩니다"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Mozilla 제품에 포함된 기능이나 저장한 정보를 잃을 수 있습니다"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "이 이메일로 다시 활성화하면 저장된 정보가 복원되지 않을 수 있습니다"
 
@@ -2337,10 +2341,6 @@ msgstr "FIrefox에서 코드 스캐너를 열고 준비가 되면 코드를 보�
 msgid "Show code"
 msgstr "코드 표시"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "앱 받기"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "기기가 성공적으로 페어링되었습니다"
@@ -2364,6 +2364,9 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Get app"
+#~ msgstr "앱 받기"
 
 #~ msgid "General inquiries"
 #~ msgstr "일반적인 문의"

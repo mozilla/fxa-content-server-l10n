@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-05-30 12:20+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -123,7 +123,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "パスワード"
 
@@ -157,7 +157,7 @@ msgstr "変更"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -259,7 +259,7 @@ msgstr "ウェブセッション"
 msgid "Last seen time unknown"
 msgstr "最終確認日時: 不明"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "アカウントの削除が完了しました"
 
@@ -880,6 +880,10 @@ msgstr "リダイレクトが無効です"
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "メールアドレスの入力ミスかもしれません。%(domain)s はメールサービスを提供していません。"
+
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1838,7 +1842,7 @@ msgstr "ステータスを更新"
 msgid "Email preferences"
 msgstr "メール設定"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "アカウントを削除"
 
@@ -1854,23 +1858,23 @@ msgstr ""
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "あなたの Firefox アカウントが、ウェブ上での安全と生産性を保つ Mozilla 製品と接続されました:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "アカウントを削除する前に、以下の事項をご確認ください:"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "有料の購読はすべてキャンセルされます"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Mozilla 製品内の保存された情報と機能が失われる可能性があります"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "このメールアドレスで再有効化しても、保存された情報が復元できない場合があります"
 
@@ -2345,10 +2349,6 @@ msgstr "Firefox アプリでコードスキャナを開き、準備ができた�
 msgid "Show code"
 msgstr "コードを表示"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "アプリを入手"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "デバイスのペアリングに成功しました"
@@ -2372,6 +2372,9 @@ msgstr "アプリを使用してペアリング"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "システムカメラを使用しましたか？ Firefox アプリ内からペアリングする必要があります。"
+
+#~ msgid "Get app"
+#~ msgstr "アプリを入手"
 
 #~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
 #~ msgstr "<b>%(escapedSelectedPlan)s</b> の <b>%(escapedLowercaseTopic)s</b> について Mozilla サポートにお問い合わせいただき、ありがとうございます。可能な限り速やかにメールで連絡いたします。"

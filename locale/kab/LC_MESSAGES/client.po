@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-06-25 17:59+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Tanemmirt imi tenremseḍ tallalt n Mozilla ɣef <b>%(escapedLowercaseTopic)s</b> i <b>%(escapedSelectedProduct)s</b>. Ad ak-d-nazen s yimayl s zzerb."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Awal uffir"
 
@@ -155,7 +155,7 @@ msgstr "Snifel"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -257,7 +257,7 @@ msgstr "Tiɣimit Web"
 msgid "Last seen time unknown"
 msgstr "Azemz n tuqqna taneggarut tarussint"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "Amiḍan yettwakkes akken iwata"
 
@@ -878,6 +878,10 @@ msgstr "Awelleh arameɣtu"
 #: .es5/lib/auth-errors.js:609
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Imayl d arameɣtu? %(domain)s ur d-yettak ara imayl."
+
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1831,7 +1835,7 @@ msgstr "Smiren addad"
 msgid "Email preferences"
 msgstr "Ismenyifen n yimayl"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "Kkes amiḍan"
 
@@ -1847,23 +1851,23 @@ msgstr "Tettnadiḍ ad tesfesxeḍ amulteɣ s lexlaṣ? Ddu ɣer <a href=\"/subs
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Teqqneḍ amiḍan-ik Firefrox ɣer yifarisen n Mozilla ara k-iḥerzen d aɣelsan daɣen ara k-yeǧǧen ad tesnerniḍ tiffursa-ik deg web:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "Ma tekkseḍ amiḍan-ik ad tqebleḍ:"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Yal ajerred slexlaṣ i tesɛiḍ ad yeḥbes"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr ""
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Izmer ad tesṛuḥeḍ talɣut akked timahilin deg yifarisen n Mozilla"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen"
 
@@ -2338,10 +2342,6 @@ msgstr "Ldi tamesḥat n tengalt ɣef usnas-ik Firefox sakin sken-d tangalt tick
 msgid "Show code"
 msgstr "Sken tangalt"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "Awi asnas"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "Ibenk yuɣal d ayugan"
@@ -2365,6 +2365,9 @@ msgstr "Cudd s usnas"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Firefox."
+
+#~ msgid "Get app"
+#~ msgstr "Awi asnas"
 
 #~ msgid "Connect your mobile device"
 #~ msgstr "Qqen ɣer yibenk-inek aziraz"

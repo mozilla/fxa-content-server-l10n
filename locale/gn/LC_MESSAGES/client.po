@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-10 16:04+0000\n"
+"POT-Creation-Date: 2020-07-17 16:04+0000\n"
 "PO-Revision-Date: 2020-07-16 14:59+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr "Aguyje eñe’ẽ haguére Mozilla Support ndive <b>%(escapedLowercaseTopic)s</b> rehegua <b>%(escapedSelectedProduct)s</b> peg̃uarã. Ñañomongetáta ñanduti veve rupive vokoiete."
 
 #: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:20
+#: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Ñe’ẽñemi"
 
@@ -156,7 +156,7 @@ msgstr "Moambue"
 
 #: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:22 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
+#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -258,7 +258,7 @@ msgstr "Web rembiapo"
 msgid "Last seen time unknown"
 msgstr "Tembiapo ramovegua ojekuaa’ỹva"
 
-#: .es5/views/settings/delete_account.js:208
+#: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"
 msgstr "Mba’ete oñemboguete apañuãi’ỹre"
 
@@ -880,6 +880,10 @@ msgstr "Ñemondojey ndoikói"
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "¿Ñanduti veve ojehaivai? %(domain)s noikuave’ẽi ñanduti veve."
 
+#: .es5/lib/auth-errors.js:613
+msgid "The image file size is too large to be uploaded."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Oikotevẽ ñemboheko"
@@ -1005,8 +1009,12 @@ msgid "Invalid Token"
 msgstr "Token oiko’ỹva"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) mba’éva."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) "
+"mba’éva."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1075,7 +1083,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Emoinge mba’eñemi jeguerujeyrã peteĩjeýnte ojepurúva eñongatúva tenda hekorosãvape eikejey hag̃ua nde Firefox mba’etépe."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">JEHAIPY:</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’ete mba’eñemi jeguerujeyrã, oguekuaa ne mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva "
 "tambiasakue ha techaukaha)."
@@ -1828,7 +1837,7 @@ msgstr "Tekotee mbohekopyahu"
 msgid "Email preferences"
 msgstr "Ñanduti veve jerohoryvéva"
 
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:21
+#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
 msgid "Delete account"
 msgstr "Emboguete mba’ete"
 
@@ -1844,23 +1853,23 @@ msgstr "¿Ejokosépa ñemboheraguapy jehepyme’ẽva? Eike <a href=\"/subscript
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
 msgstr "Embojuajúma ne mba’ete Firefox pegua Mozilla apopyre ndive nemohekorosã ha nemboha’evéva ñandutípe:"
 
-#: .es5/templates/settings/delete_account.mustache:15
+#: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
 msgstr "Nemandu’áke emboguéramo ne mba’ete:"
 
-#: .es5/templates/settings/delete_account.mustache:16
+#: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
 msgstr "Umi ñemboheraguapy rehepyme’ẽva opytareíta"
 
-#: .es5/templates/settings/delete_account.mustache:17
+#: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
 msgstr "Oñemboguepáta oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe"
 
-#: .es5/templates/settings/delete_account.mustache:18
+#: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
 msgstr "Ikatu okañy marandu ha hetamba’e ñongatupyre Mozilla apopyrépe"
 
-#: .es5/templates/settings/delete_account.mustache:19
+#: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
 msgstr "Eipurujeýrõ ko ñanduti veve rupi ikatu eguerujey marandu ñongatupyre"
 
@@ -2013,7 +2022,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Jeku’e 2 guive 2 peve: eñongatu ne mba’eñemi jeguerujeyrã"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr "<span class=\"note\">JEHAIPY:</span> nderasaráirõ ñe’ẽñemígui, eikotevẽta ko mba’eñemi eikejey hag̃ua ne mba’ekuaarãme. Eñongatu tenda hekorosãvape, eikekuaa hag̃ua pya’ete."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2334,10 +2344,6 @@ msgstr "Eike pe ayvu moha’ãngaha Firefox rembipuru’ípe ha emoha’ãnga pe
 msgid "Show code"
 msgstr "Ayvu jehechauka"
 
-#: .es5/templates/pair/index.mustache:5
-msgid "Get app"
-msgstr "Tembipuru’i jeguereko"
-
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
 msgstr "Mba’e’oka ojuehéva hekoitépe"
@@ -2361,6 +2367,9 @@ msgstr "Eike eipurúvo tembipuru’i"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru’i rupive."
+
+#~ msgid "Get app"
+#~ msgstr "Tembipuru’i jeguereko"
 
 #~ msgid "Download Firefox with your camera"
 #~ msgstr "Emboguejy Firefox ne ra’ãnohẽhápe"
@@ -2403,7 +2412,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Ko SMS mba'epytyvõrã ejuhukuaa ndahetái tetãme. Ikatu oguereko SMS ha mba’ekuaarã oku’éva repy. Pe ñanduti veve térã SMS g̃uahẽha omoneĩva’erã. <a %(escapedLearnMoreAttributes)s>Ehechave</a>"
+#~ msgstr ""
+#~ "Ko SMS mba'epytyvõrã ejuhukuaa ndahetái tetãme. Ikatu oguereko SMS ha mba’ekuaarã oku’éva repy. Pe ñanduti veve térã SMS g̃uahẽha omoneĩva’erã. <a %(escapedLearnMoreAttributes)s>Ehechave</a>"
 
 #~ msgid "Subscriptions"
 #~ msgstr "Ñemboheraguapy"
@@ -2538,8 +2548,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Eñangareko eguerohoryvévare"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "Eipurúramo ko mba’ete tembipuru’i ha Mozilla mba’epytyvõrãpe g̃uarã AMO, Pocket ha Screenshots, emoñepyrũke tembiapo ha emboguete oimeraẽva maranduete ñongatupyre. Emboguete rire ne mba’ete "
 #~ "ndereikekuaavéima opaite hendápe."
@@ -2623,7 +2633,9 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Ndaikatúi eguereko mba'epytyvõrã ñemboguata teraguapy rendag̃ua"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Ñemigua marandu’i</a>."
+#~ msgstr ""
+#~ "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Ñemigua marandu’i</"
+#~ "a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Mba'epytyvõrã ñemboguata teraguapy rendag̃ua"
