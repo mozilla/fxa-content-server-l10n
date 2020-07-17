@@ -144,6 +144,12 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva ára</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
+       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } ára</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
+    }
 
 ##
 
