@@ -95,6 +95,8 @@ payment-legal-link = Δείτε την <a>πολιτική απορρήτου τ
 payment-name =
     .placeholder = Πλήρες όνομα
     .label = Το όνομα όπως εμφανίζεται στην κάρτα σας
+payment-cc =
+    .label = Η κάρτα σας
 payment-ccn =
     .label = Αριθμός κάρτας
 payment-exp =
@@ -106,30 +108,6 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ημερησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } ημέρες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } εβδομαδιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } εβδομάδες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } μηνιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } μήνες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } χρόνια</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
 payment-confirm = Εξουσιοδοτώ τη Mozilla, δημιουργό των προϊόντων Firefox, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ανά { $interval }</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
 
 ##
@@ -150,6 +128,7 @@ sub-redirect-skip-survey = Όχι ευχαριστώ, θέλω να μεταβώ
 ## fields
 
 default-input-error = Αυτό το πεδίο απαιτείται
+input-error-is-required = Απαιτείται το { $label }
 
 ## subscription upgrade
 
@@ -165,30 +144,6 @@ sub-update-copy =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ημερησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } ημέρες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } εβδομαδιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } εβδομάδες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } μηνιαία</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } μήνες</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
-    { $intervalCount ->
-        [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-       *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, ώστε να χρεώνει το μέσο πληρωμών μου <strong>{ $amount } κάθε { $intervalCount } χρόνια</strong>, σύμφωνα με τους όρους πληρωμών, μέχρι να ακυρώσω τη συνδρομή μου.
-    }
 
 ##
 
