@@ -174,6 +174,18 @@ sub-update-confirm-with-legal-links-day =
         [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
        *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } månadleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } månad</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+    }
 
 ##
 
