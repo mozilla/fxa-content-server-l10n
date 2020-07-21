@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-21 12:46+0000\n"
+"PO-Revision-Date: 2020-07-21 13:13+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -80,7 +80,7 @@ msgstr "შედით ყველა იმ მოწყობილობა
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>მნიშვნელოვანია:</b> შეარჩიეთ განსხვავებული პაროლი, ადრინდელისგან და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -89,11 +89,11 @@ msgstr "საუკეთესო სურვილებით,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Firefox-ანგარიშების გუნდი"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "მნიშვნელოვანია: შეარჩიეთ განსხვავებული პაროლი, ადრინდელისგან და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -284,11 +284,11 @@ msgstr "ორსაფეხურიანი დამოწმება შ�
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Firefox-ანგარიში დამოწმებულია. თითქმის მზადაა."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "შემდეგია, მოწყობილობებს შორის სინქრონიზაცია!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
