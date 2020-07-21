@@ -17,6 +17,7 @@ document =
 ## app error dialog
 
 general-error-heading = აპლიკაციის საერთო შეცდომა
+basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 
 ## settings
 
@@ -136,12 +137,25 @@ sub-customer-error =
 
 ## subscription create
 
+sub-guarantee = 30-დღიანი პერიოდი თანხის დასაბრუნებლად
 
 ## plan-details
 
+plan-details-header = პროდუქტის შესახებ
+plan-details-show-button = ვრცლად ჩვენება
+plan-details-hide-button = მოკლედ ჩვენება
+plan-details-total-label = სულ
 
 ## payment confirmation
 
+payment-confirmation-alert = დააწკაპეთ აქ ჩამოსატვირთად
+payment-confirmation-mobile-alert = არ გაიხსნა? <a>დაწკაპეთ აქ</a>
+payment-confirmation-heading = გმადლობთ { $displayName }!
+payment-confirmation-heading-bak = გმადლობთ!
+payment-confirmation-subheading = დასადასტურებელი ელფოსტა გაიგზავნა მისამართზე
+payment-confirmation-order-heading = შეკვეთის მონაცემები
+payment-confirmation-details-heading = გადახდის მონაცემები
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
