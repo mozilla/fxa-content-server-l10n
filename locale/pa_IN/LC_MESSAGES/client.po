@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-21 10:31+0000\n"
+"PO-Revision-Date: 2020-07-21 10:33+0000\n"
 "Last-Translator: rivuinaaya <rivuinaaya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -63,7 +63,7 @@ msgstr "ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੇੱ�
 
 #: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "ਆਪਣੇ ਹੋਰ ਫਾਇਰਫਾਕਸ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦਰਜ ਕਰਕੇ ਸੈਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
+msgstr "ਆਪਣੇ ਹੋਰ ਫਾਇਰਫਾਕਸ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਨਵਾਂ ਪਾਸਵਰਡ ਦਰਜ ਕਰਕੇ ਸੈੱਟ-ਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
 
 #: .es5/views/ready.js:70
 msgid "You are now ready to make changes to your Firefox Account."
