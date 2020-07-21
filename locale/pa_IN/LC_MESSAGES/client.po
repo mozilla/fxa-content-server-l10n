@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-04-02 18:00+0000\n"
-"Last-Translator: Jasmine <bangerjasmine9@gmail.com>\n"
+"PO-Revision-Date: 2020-07-21 10:31+0000\n"
+"Last-Translator: rivuinaaya <rivuinaaya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ"
 
 #: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
+msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈੱਟ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।"
 
 #. submit button
 #: .es5/views/force_auth.js:197 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
@@ -31,7 +31,7 @@ msgstr "ਸਾਈਨ ਇਨ"
 
 #: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪ੍ਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨ ਲਈ ਕੋਡ %(code)s ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+msgstr "ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪ੍ਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਕੋਡ %(code)s ਦੀ ਵਰਤੋਂ ਕਰੋ।"
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
