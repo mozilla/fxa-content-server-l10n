@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-21 12:41+0000\n"
+"PO-Revision-Date: 2020-07-21 12:46+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2467
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "თქვენი შემხსენებელი, მოწყობილობების დასინქრონებისთვის."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2471
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -24,7 +24,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2468
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "ბოლო შეხსენება მოწყობილობების დასინქრონებისთვის!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2474
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -76,7 +76,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ Firefox-ანგარიშს და მიჰყევით მოცემულ ნაბიჯებს."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
