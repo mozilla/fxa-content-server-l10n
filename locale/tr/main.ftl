@@ -71,6 +71,8 @@ payment-legal-link = <a>Stripe gizlilik ilkelerini</a> görüntüleyin.
 payment-name =
     .placeholder = Adınız ve soyadınız
     .label = Kartınızda göründüğü şekliyle adınız
+payment-cc =
+    .label = Kartınız
 payment-ccn =
     .label = Kart numarası
 payment-exp =
@@ -106,6 +108,7 @@ payment-confirm-with-legal-links-year =
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>yılda { $amount }</strong> ödeme almasını onaylıyorum.
        *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } yılda bir { $amount }</strong> ödeme almasını onaylıyorum.
     }
+payment-confirm = Firefox ürünlerinin yapımcısı Mozilla'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $interval } { $amount }</strong> ödeme almasını onaylıyorum.
 
 ##
 
@@ -119,6 +122,7 @@ payment-validate-zip-short = Posta kodu çok kısa
 ## subscription redirect
 
 sub-redirect-ready = Aboneliğiniz hazır
+sub-redirect-copy = Bize deneyiminizden bahsetmek ister misiniz?
 sub-redirect-skip-survey = İstemiyorum, beni ürünüme götür.
 
 ## fields
@@ -194,6 +198,7 @@ reactivate-confirm-button = Yeniden abone ol
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Aboneliğinizi { $date } tarihinde iptal ettiniz.
+reactivate-panel-copy = <strong>{ $date }</strong> tarihinde { $name } ürününe erişiminiz sona erecek.
 reactivate-success-copy = Teşekkürler! Artık hazırsınız.
 reactivate-success-button = Kapat
 
