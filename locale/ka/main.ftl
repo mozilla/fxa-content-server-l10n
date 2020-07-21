@@ -5,13 +5,18 @@
 
 ## branding
 
+project-brand = Firefox-ანგარიშები
+-brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+document =
+    .title = Firefox ანგარიშები
 
 ## general-aria
 
 
 ## app error dialog
 
+general-error-heading = აპლიკაციის საერთო შეცდომა
 
 ## settings
 

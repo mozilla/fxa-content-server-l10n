@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-21 13:23+0000\n"
+"PO-Revision-Date: 2020-07-21 13:27+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2467
 msgid "Here's your reminder to sync devices."
-msgstr "თქვენი შემხსენებელი, მოწყობილობების დასინქრონებისთვის."
+msgstr "შეხსენება, მოწყობილობების დასინქრონებისთვის."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2471
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "შედეგად ორივე დასინქრონდება. სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2468
 msgid "Last reminder to sync devices!"
@@ -28,7 +28,7 @@ msgstr "ბოლო შეხსენება მოწყობილობ�
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2474
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -795,7 +795,7 @@ msgstr "ანგარიშის მართვა"
 
 #: lib/senders/email.js:1282
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "ანგარიში დამოწმებულია. შემდეგ, დაასინქრონეთ კიდევ ერთი მოწყობილობა გამართვის დასასრულებლად"
 
 #: lib/senders/email.js:1368
 msgid "Primary email updated"
@@ -875,15 +875,15 @@ msgstr "ჩამოტვირთეთ %(productName)s"
 
 #: lib/senders/email.js:2463
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "მეგობრული შეხსენება: როგორ დაასრულოთ სინქრონიზაციის გამართვა"
 
 #: lib/senders/email.js:2464
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "საბოლოო შეხსენება: დაასრულეთ სინქრონიზაციის გამართვა"
 
 #: lib/senders/email.js:2478
 msgid "Sync another device"
-msgstr ""
+msgstr "სხვა მოწყობილობის დასინქრონება"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
