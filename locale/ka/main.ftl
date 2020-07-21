@@ -45,6 +45,12 @@ general-error-heading = აპლიკაციის საერთო შე
 
 ##
 
+payment-cancel-btn = გაუქმება
+payment-update-btn = განახლება
+payment-pay-btn = ახლავე გადახდა
+payment-validate-name-error = გთხოვთ მიუთითოთ თქვენი სახელი
+payment-validate-zip-required = საჭიროა საფოსტო კოდი
+payment-validate-zip-short = საფოსტო კოდი ზედმეტად მოკლეა
 
 ## subscription redirect
 
