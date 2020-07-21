@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-17 17:07+0000\n"
+"PO-Revision-Date: 2020-07-21 16:29+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -158,7 +158,7 @@ msgstr "Emboyke hag̃ua emoneĩ’ỹva jeike ne mba’etépe Firefox pegua, rog
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
-msgstr "¿Mba'e rejapokuaa?"
+msgstr "¿Mba’e rejapokuaa?"
 
 #: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
 msgid "First, change your Firefox Account password."
@@ -651,7 +651,7 @@ msgstr "IP kundaharape: %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr "Mba'ete ñangarekoha:"
+msgstr "Mba’ete ñangarekoha:"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -659,7 +659,7 @@ msgstr "Mozilla Ñemigua Purureko"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr "Firefox Cloud mba'epytyvõrã ñemboguata"
+msgstr "Firefox Cloud mba’epytyvõrã ñemboguata"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
@@ -949,7 +949,7 @@ msgstr "Maranduí ñemiguáva"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr "Mba'epytyvõrã ñemboguata"
+msgstr "Mba’epytyvõrã ñemboguata"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
