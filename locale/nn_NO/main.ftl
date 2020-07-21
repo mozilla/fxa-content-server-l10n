@@ -108,6 +108,18 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } dag</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med termsOfServiceLink>tenestevilkårea</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+    }
 payment-confirm = Eg autoriserer Mozilla, utviklar av Firefox-produkt, til å belaste betalingsmåten min med <strong>{ $amount } per { $interval }</strong>, i samsvar med betalingsvilkåra, heilt til eg seier opp abonnementet.
 
 ##
