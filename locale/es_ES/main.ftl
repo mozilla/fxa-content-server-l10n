@@ -29,9 +29,11 @@ charge-exceeds-source-limit = Parece que esta transacción superará tu límite 
 instant-payouts-unsupported = Parece que tu tarjeta de débito no está configurada para pagos instantáneos. Prueba con otra tarjeta de débito o crédito.
 duplicate-transaction = Hmm. Parece que se acaba de enviar una transacción idéntica. Verifica tu historial de pagos.
 coupon-expired = Parece que ese código promocional ha expirado.
+card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
 
 ## settings
 
+settings-home = Página principal de la cuenta
 settings-subscriptions = Suscripciones y pagos
 
 ## legal footer
@@ -69,6 +71,8 @@ payment-legal-link = Ver la <a>política de privacidad de Stripe</a>.
 payment-name =
     .placeholder = Nombre completo
     .label = El nombre tal y como aparece en tu tarjeta
+payment-cc =
+    .label = Tu tarjeta
 payment-ccn =
     .label = Número de tarjeta
 payment-exp =
@@ -99,6 +103,7 @@ sub-redirect-skip-survey = No gracias, solo llévame a mi producto.
 ## fields
 
 default-input-error = Este campo es obligatorio
+input-error-is-required = Se requiere { $label }
 
 ## subscription upgrade
 
@@ -106,12 +111,19 @@ product-plan-upgrade-heading = Revisa tu actualización
 sub-update-failed = Ha fallado la actualización del plan
 sub-update-title = Información de facturación
 sub-update-card-ending = Tarjeta que termina en { $last }
+sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Confirmar actualización
+sub-update-indicator =
+    .aria-label = Indicador de actualización
+sub-update-current-plan-label = Plan actual
+sub-update-new-plan-label = Nuevo plan
+sub-update-total-label = Nuevo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -125,21 +137,44 @@ sub-update-card-ending = Tarjeta que termina en { $last }
 
 ##
 
+pay-update-card-exp = Caduca { $expirationDate }
+pay-update-change-btn = Cambiar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ¿Quieres seguir usando { $name }?
+reactivate-confirm-button = Volver a suscribir
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Has cancelado tu suscripción el { $date }.
+reactivate-panel-copy = Perderás acceso a { $name } el <strong>{ $date }</strong>.
+reactivate-success-copy = ¡Gracias! Está todo listo.
+reactivate-success-button = Cerrar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problema al cargar las suscripciones
+sub-item-missing-msg = Por favor, vuelve a intentarlo más tarde.
+sub-item-no-such-plan = No existe ese plan para esta suscripción.
+sub-item-cancel-sub = Cancelar suscripción
+sub-item-stay-sub = Mantener suscripción
+sub-item-cancel-msg =
+    Ya no podrás usar { $name } después de
+    { $period }, el último día de tu ciclo de facturación.
+sub-item-cancel-confirm =
+    Cancelar mi acceso y mi información guardada en
+    { $name } el { $period }
+account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Actualizando información de facturación...
+sub-route-idx-reactivating = Ha fallado la reactivación de la suscripción
+sub-route-idx-cancel-failed = Ha fallado la cancelación de la suscripción
 
 ## subscription create
 
