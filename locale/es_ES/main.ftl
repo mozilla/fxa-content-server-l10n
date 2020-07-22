@@ -175,15 +175,42 @@ account-activated = Tu cuenta está activada, <userEl/>
 sub-route-idx-updating = Actualizando información de facturación...
 sub-route-idx-reactivating = Ha fallado la reactivación de la suscripción
 sub-route-idx-cancel-failed = Ha fallado la cancelación de la suscripción
+sub-route-idx-contact = Contactar con soporte
+sub-route-idx-cancel-msg-title = Lamentamos que te vayas
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tu suscripción a { $name } ha sido cancelada.
+          <br />
+          Todavía tendrás acceso a { $name } hasta el { $date }.
+sub-route-idx-cancel-aside = ¿Alguna pregunta? Visita la <a>ayuda de { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Problema al cargar las suscripciones
+sub-billing-update-success = Tu información de facturación ha sido actualizada correctamente
 
 ## subscription create
 
+sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## plan-details
 
+plan-details-header = Detalles del producto
+plan-details-show-button = Mostrar detalles
+plan-details-hide-button = Ocultar detalles
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Haz clic aquí para descargar
+payment-confirmation-mobile-alert = ¿No se abre la aplicación? <a>Haz clic aquí</a>
+payment-confirmation-heading = ¡Gracias { $displayName }!
+payment-confirmation-heading-bak = ¡Gracias!
+payment-confirmation-subheading = Se ha enviado un correo electrónico de confirmación a
+payment-confirmation-order-heading = Detalles del pedido
+payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading = Detalles del pago
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
