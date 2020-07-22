@@ -20,6 +20,15 @@ close-aria =
 
 general-error-heading = Error general de la aplicación
 basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
+payment-error-1 = Hmm. Hubo un problema autorizando tu pago. Inténtalo otra vez o ponte en contacto con el emisor de su tarjeta
+payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+expired-card-error = Parece que tu tarjeta de crédito ha caducado. Prueba con otra tarjeta.
+insufficient-funds-error = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
+withdrawal-count-limit-exceeded-error = Parece que esta transacción superará tu límite de crédito. Prueba con otra tarjeta.
+charge-exceeds-source-limit = Parece que esta transacción superará tu límite de crédito diario. Prueba con otra tarjeta o en 24 horas.
+instant-payouts-unsupported = Parece que tu tarjeta de débito no está configurada para pagos instantáneos. Prueba con otra tarjeta de débito o crédito.
+duplicate-transaction = Hmm. Parece que se acaba de enviar una transacción idéntica. Verifica tu historial de pagos.
+coupon-expired = Parece que ese código promocional ha expirado.
 
 ## settings
 
