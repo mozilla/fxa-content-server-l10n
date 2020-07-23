@@ -244,21 +244,21 @@ pay-update-change-btn = შეცვლა
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
-reactivate-confirm-dialog-header = გსურთ დატოვოთ { $name }?
+reactivate-confirm-dialog-header = გსურთ დაიტოვოთ { $name }?
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
-    კვლავ შეგიძლიათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი
+    კვლავ შეგეძლებათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი
     და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება
-    { $amount } ბარათიდან დაბოლოებით { $last } თარიღზე { $endDate }.
+    { $amount } ბარათიდან დაბოლოებით { $last }, თარიღზე { $endDate }.
 reactivate-confirm-button = ხელახლა გამოწერა
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = გამოწერის გაუქმების თარიღია { $date }.
 reactivate-panel-copy = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
-reactivate-success-copy = მადლობა! ყველაფერი მზადაა.
+reactivate-success-copy = გმადლობთ! ყველაფერი მზადაა.
 reactivate-success-button = დახურვა
 
 ## subscription item
