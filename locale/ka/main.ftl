@@ -120,6 +120,7 @@ input-error-is-required = { $label } აუცილებელია
 ## subscription upgrade
 
 sub-update-failed = გეგმის განახლება ვერ მოხერხდა
+sub-update-title = ანგარიშსწორების მონაცემები
 sub-update-card-ending = ბარათის ნომრის დაბოლოებაა { $last }
 sub-update-card-exp = მოქმედების ვადა { $cardExpMonth }/{ $cardExpYear }
 
