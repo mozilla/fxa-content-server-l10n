@@ -52,14 +52,26 @@ product-plan-details-heading = მომსახურების გამო
 #  $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
-        [one] { $productName } ანგარიშდება { $amount } საფასურით ყოველდღიურად
-       *[other] { $productName } ანგარიშდება { $amount } საფასურით ყოველ { $intervalCount } დღეში
+        [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველდღიურად
+       *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } დღეში
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
-        [one] { $productName } ანგარიშდება { $amount } საფასურით ყოველკვირეულად
-       *[other] { $productName } ანგარიშდება { $amount } საფასურით ყოველ { $intervalCount } კვირაში
+        [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველკვირეულად
+       *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } კვირაში
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველთვიურად
+       *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } თვეში
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველწლიურად
+       *[other] { $productName } ანგარიშდება { $amount } საფასურით ყოველ { $intervalCount } წელიწადში
     }
 
 ## Product route
