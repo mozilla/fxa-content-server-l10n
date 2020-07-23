@@ -27,12 +27,17 @@ insufficient-funds-error = როგორც ჩანს, თქვენს �
 
 ## settings
 
+settings-subscriptions = გამოწერები და გადახდები
 
 ## legal footer
 
+terms = გამოყენების პირობები
+privacy = პირადულობის განაცხადი
 
 ## plan details
 
+product-plan-details-heading = მომსახურების გამოწერა
+product-plan-details-heading = მომსახურების გამოწერა
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -40,12 +45,27 @@ insufficient-funds-error = როგორც ჩანს, თქვენს �
 
 ## Product route
 
+product-plan-not-found = გეგმა ვერ მოიძებნა
+product-no-such-plan = ამ პროდუქტისთვის ასეთი გეგმა არ არსებობს.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } იყენებს Stripe-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link = იხილეთ <a>Stripe-ის პირადულობის განაცხადი</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = სრული სახელი
+    .label = სახელი, რომელიც ბარათზეა გამოსახული
+payment-cc =
+    .label = თქვენი ბარათი
+payment-ccn =
+    .label = ბარათის ნომერი
+payment-exp =
+    .label = მოქმედების ვადა
+payment-cvc =
+    .label = CVC
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
