@@ -222,8 +222,35 @@ payment-confirmation-heading = გმადლობთ { $displayName }!
 payment-confirmation-heading-bak = გმადლობთ!
 payment-confirmation-subheading = დასადასტურებელი ელფოსტა გაიგზავნა მისამართზე
 payment-confirmation-order-heading = შეკვეთის მონაცემები
+payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
 payment-confirmation-details-heading = გადახდის მონაცემები
+payment-confirmation-amount = { $amount } ყოველი { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } ყოველდღიურად
+       *[other] { $amount } ყოველ { $intervalCount } დღეში
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } ყოველკვირეულად
+       *[other] { $amount } ყოველ { $intervalCount } კვირაში
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } ყოველთვიურად
+       *[other] { $amount } ყოველ { $intervalCount } თვეში
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } ყოველწლიურად
+       *[other] { $amount } ყოველ { $intervalCount } წელიწადში
+    }
+payment-confirmation-cc-preview = დაბოლოებით { $last4 }
 payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა

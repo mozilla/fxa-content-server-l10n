@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-21 13:27+0000\n"
+"PO-Revision-Date: 2020-07-23 12:03+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -38,7 +38,7 @@ msgstr "თუ ჯერ კიდევ არ ჩამოგიტვირ�
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი<a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
+msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
@@ -662,7 +662,7 @@ msgstr "Firefox Cloud-ის მომსახურების პირო�
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s Firefox-ანგარიშზეა მიბმული და გამოწერილი გაქვთ %(productName)s."
+msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s მიბმულია Firefox-ანგარიშზეა მიბმული და გამოწერილი გაქვთ %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
