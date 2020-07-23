@@ -54,6 +54,10 @@ product-plan-details-heading = მომსახურების გამო
 
 product-plan-error =
     .title = ხარვეზი, გეგმების ჩატვირთვისას
+product-profile-error =
+    .title = ხარვეზი, პროფილის ჩატვირთვისას
+product-customer-error =
+    .title = ხარვეზი, მომხმარებლის ჩატვირთვისას
 product-plan-not-found = გეგმა ვერ მოიძებნა
 product-no-such-plan = ამ პროდუქტისთვის ასეთი გეგმა არ არსებობს.
 
@@ -128,10 +132,15 @@ input-error-is-required = { $label } აუცილებელია
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = გაუმჯობესების შეთვალიერება
 sub-update-failed = გეგმის განახლება ვერ მოხერხდა
 sub-update-title = ანგარიშსწორების მონაცემები
 sub-update-card-ending = ბარათი დაბოლოებით { $last }
 sub-update-card-exp = მოქმედების ვადა { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ შესწორებული
+    ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
+    კი ჩამოგეჭრებათ სრული ოდენობა.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -162,6 +171,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
+sub-update-submit = გაუმჯობესების დასტური
+sub-update-indicator =
+    .aria-label = გაუმჯობესების მაჩვენებელი
 sub-update-current-plan-label = მიმდინარე გეგმა
 sub-update-new-plan-label = ახალი გეგმა
 sub-update-total-label = ახალი სულ
