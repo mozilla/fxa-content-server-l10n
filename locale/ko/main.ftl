@@ -25,12 +25,20 @@ payment-error-2 = 결제를 승인하는 동안 문제가 발생했습니다. �
 expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 insufficient-funds-error = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 withdrawal-count-limit-exceeded-error = 이 거래로 신용 한도를 초과한 것으로 보입니다. 다른 카드를 사용해보세요.
+charge-exceeds-source-limit = 이 거래로 일일 신용 한도를 초과한 것으로 보입니다. 다른 카드를 사용하거나 24시간 후에 시도해 보세요.
+instant-payouts-unsupported = 직불 카드가 즉시 결제를 할 수 있도록 설정되어 있지 않은 것 같습니다. 다른 직불 카드나 신용 카드를 사용해 보세요.
+duplicate-transaction = 방금 전 동일한 거래가 이뤄진 것 같습니다. 결제 내역을 확인해 보세요.
+coupon-expired = 프로모션 코드가 만료된 것 같습니다.
+card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확인한 후 다시 시도하세요.
 
 ## settings
 
+settings-home = 계정 홈
 
 ## legal footer
 
+terms = 서비스 약관
+privacy = 개인정보 취급방침
 
 ## plan details
 
@@ -41,6 +49,8 @@ withdrawal-count-limit-exceeded-error = 이 거래로 신용 한도를 초과한
 
 ## Product route
 
+product-profile-error =
+    .title = 프로필 로드 문제
 
 ## payment legal blurb
 
