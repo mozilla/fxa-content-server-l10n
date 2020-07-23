@@ -95,6 +95,7 @@ payment-confirm-with-legal-links-year =
         [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველწლიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
        *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $amount } წელიწადში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
     }
+payment-confirm = ნებას ვრთავ Mozilla-ს, Firefox-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount }, დროის შუალედით ყოველი { $interval }</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
 
 ##
 
@@ -191,6 +192,7 @@ sub-item-missing-msg = გთხოვთ სცადოთ მოგვია�
 sub-item-no-such-plan = ამ გამოწერისთვის ასეთი გეგმა არ არსებობს.
 sub-item-cancel-sub = გამოწერის გაუქმება
 sub-item-stay-sub = გამოწერის დატოვება
+account-activated = თქვენი ანგარიში ამოქმედებულია, <userEl/>
 
 ## subscription route index
 
@@ -203,7 +205,7 @@ sub-customer-error =
 
 ## subscription create
 
-sub-guarantee = 30-დღიანი პერიოდი თანხის დასაბრუნებლად
+sub-guarantee = 30-დღიანი თანხის დაბრუნებით
 
 ## plan-details
 
