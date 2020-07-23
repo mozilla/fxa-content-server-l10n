@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-23 12:03+0000\n"
+"PO-Revision-Date: 2020-07-23 12:37+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -843,7 +843,7 @@ msgstr "გადართვის შედეგად მიიღეთ %(p
 
 #: lib/senders/email.js:1965
 msgid "Credit card for %(productName)s expiring soon"
-msgstr "%(productName)s-ისთვის საკრედიტო ბარათის ვადა იწურება"
+msgstr "%(productName)s მომსახურებისთვის საკრედიტო ბარათს ვადა ეწურება"
 
 #: lib/senders/email.js:2015
 msgid "%(productName)s payment failed"
