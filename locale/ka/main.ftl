@@ -66,6 +66,8 @@ payment-exp =
     .label = მოქმედების ვადა
 payment-cvc =
     .label = CVC
+payment-zip =
+    .label = საფოსტო ინდექსი
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -76,11 +78,12 @@ payment-cancel-btn = გაუქმება
 payment-update-btn = განახლება
 payment-pay-btn = ახლავე გადახდა
 payment-validate-name-error = გთხოვთ მიუთითოთ თქვენი სახელი
-payment-validate-zip-required = საფოსტო კოდი აუცილებელია
-payment-validate-zip-short = საფოსტო კოდი ზედმეტად მოკლეა
+payment-validate-zip-required = საფოსტო ინდექსი აუცილებელია
+payment-validate-zip-short = საფოსტო ინდექსი ზედმეტად მოკლეა
 
 ## subscription redirect
 
+sub-redirect-ready = თქვენი გამოწერა მზადაა
 sub-redirect-copy = გთხოვთ, გამონახოთ დრო და მოგვახსენოთ თქვენი შეგრძნებები.
 sub-redirect-skip-survey = არა გმადლობთ, გადამიყვანეთ პროდუქტზე.
 
@@ -92,6 +95,8 @@ input-error-is-required = { $label } აუცილებელია
 ## subscription upgrade
 
 sub-update-failed = გეგმის განახლება ვერ მოხერხდა
+sub-update-card-ending = ბარათის ნომრის დაბოლოებაა { $last }
+sub-update-card-exp = მოქმედების ვადა { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -138,13 +143,18 @@ plan-price-year =
 
 ##
 
+pay-update-card-exp = მოქმედების ვადა { $expirationDate }
+pay-update-change-btn = შეცვლა
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = გსურთ დატოვოთ { $name }?
+reactivate-confirm-button = ხელახლა გამოწერა
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = გამოწერის გაუქმების თარიღია { $date }.
 reactivate-success-copy = მადლობა! ყველაფერი მზადაა.
 reactivate-success-button = დახურვა
 
@@ -152,12 +162,18 @@ reactivate-success-button = დახურვა
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = ხარვეზი, გამოწერების ჩატვირთვისას
 sub-item-missing-msg = გთხოვთ სცადოთ მოგვიანებით.
+sub-item-no-such-plan = ამ გამოწერისთვის ასეთი გეგმა არ არსებობს.
+sub-item-cancel-sub = გამოწერის გაუქმება
+sub-item-stay-sub = გამოწერის დატოვება
 
 ## subscription route index
 
 sub-route-idx-contact = დაკავშირება მხარდაჭერისთვის
 sub-route-idx-cancel-msg-title = სამწუხაროა, რომ გვტოვებთ.
+sub-subscription-error =
+    .title = ხარვეზი, გამოწერების ჩატვირთვისას
 sub-customer-error =
     .title = ხარვეზი, მომხმარებლის ჩატვირთვისას
 
