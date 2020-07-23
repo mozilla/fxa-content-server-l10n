@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-23 12:06+0000\n"
+"PO-Revision-Date: 2020-07-23 14:00+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1203,7 +1203,7 @@ msgstr "აღსადგენი შეტყობინება გამ�
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "დააწკაპეთ %(email)s-ზე ჩვენს მიერ გამოგზავნილ ბმულზე უახლოესი ერთი საათის განმავლობაში და მიუთითეთ ახალი პაროლი."
+msgstr "დაწკაპეთ %(email)s-ზე ჩვენ მიერ გამოგზავნილ ბმულს, უახლოესი ერთი საათის განმავლობაში და მიუთითეთ ახალი პაროლი."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
