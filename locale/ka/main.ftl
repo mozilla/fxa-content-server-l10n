@@ -49,6 +49,18 @@ product-plan-details-heading = მომსახურების გამო
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ანგარიშდება { $amount } საფასურით ყოველდღიურად
+       *[other] { $productName } ანგარიშდება { $amount } საფასურით ყოველ { $intervalCount } დღეში
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } ანგარიშდება { $amount } საფასურით ყოველკვირეულად
+       *[other] { $productName } ანგარიშდება { $amount } საფასურით ყოველ { $intervalCount } კვირაში
+    }
 
 ## Product route
 
