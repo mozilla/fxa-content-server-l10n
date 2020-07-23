@@ -57,21 +57,39 @@ product-profile-error =
 
 ## payment form
 
+payment-cc =
+    .label = 나의 카드
+payment-ccn =
+    .label = 카드 번호
+payment-exp =
+    .label = 만료일
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = 우편 번호
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = 취소
+payment-update-btn = 업데이트
+payment-validate-name-error = 이름을 입력하세요
+payment-validate-zip-required = 우편 번호가 필요합니다
+payment-validate-zip-short = 우편 번호가 너무 짧습니다
 
 ## subscription redirect
 
 
 ## fields
 
+default-input-error = 필수 항목입니다
+input-error-is-required = { $label }이(가) 필요합니다
 
 ## subscription upgrade
 
+sub-update-title = 청구 정보
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -98,11 +116,13 @@ product-profile-error =
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = 닫기
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = 나중에 다시 시도하세요.
 
 ## subscription route index
 
@@ -115,6 +135,8 @@ product-profile-error =
 
 ## payment confirmation
 
+payment-confirmation-heading = { $displayName }님 감사합니다!
+payment-confirmation-heading-bak = 감사합니다!
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
