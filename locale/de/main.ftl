@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     Ihr Zugriff auf { $name } und Ihr Abrechnungszeitraum sowie die
     Zahlung bleiben bestehen. Ihre nächste Abbuchung beträgt
     { $amount } am { $endDate } für die Karte mit der Endung { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Ihr Zugriff auf { $name } und Ihr Abrechnungszeitraum sowie die
+    Zahlung bleiben bestehen. Ihre nächste Abbuchung beträgt
+    { $amount } am { $endDate }.
 reactivate-confirm-button = Dauerauftrag erneuern
 
 ##  $date (Date) - Last day of product access
