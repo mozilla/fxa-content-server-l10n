@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     A(z) { $name } hozzáférése folytatódni fog, a számlázási és
     fizetési időszaka is változatlan marad. A(z) { $last } végű kártya
     következő terhelése { $amount } lesz, ekkor: { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    A(z) { $name } hozzáférése folytatódni fog, a számlázási és
+    fizetési időszaka is változatlan marad. A következő
+    terhelése { $amount } lesz, ekkor: { $endDate }.
 reactivate-confirm-button = Előfizetés újra
 
 ##  $date (Date) - Last day of product access
