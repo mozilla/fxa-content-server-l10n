@@ -270,6 +270,10 @@ reactivate-confirm-dialog-header = 想要繼續使用 { $name } 嗎？
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate }，對卡號結尾為 { $last } 的卡片收取 { $amount }。
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate } 收取 { $amount }。
 reactivate-confirm-button = 重新訂閱
 
 ##  $date (Date) - Last day of product access
