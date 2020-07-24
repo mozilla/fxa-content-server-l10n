@@ -294,8 +294,15 @@ reactivate-confirm-dialog-header = Хочете продовжувати вик�
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
     Ваш доступ до { $name } буде продовжено, а ваші платіжний цикл та
-    оплата залишаться незмінними. Наступну оплату буде стягнено у розмірі
-    { $amount } з картки, останні цифри номеру якої { $last } на { $endDate }.
+    оплата залишаться незмінними. Наступну оплату розміром
+    { $amount } буде здійснено { $endDate } з картки, останні цифри номеру якої { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Ваш доступ до { $name } буде продовжено, а ваші платіжний цикл та
+    оплата залишаться незмінними. Наступну оплату розміром
+    { $amount } буде здійснено { $endDate }.
 reactivate-confirm-button = Поновити передплату
 
 ##  $date (Date) - Last day of product access
