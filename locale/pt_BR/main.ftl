@@ -365,4 +365,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } a cada { $intervalCount } anos
     }
 payment-confirmation-cc-preview = terminando em { $last4 }
-payment-confirmation-download-button = Continuar a baixar
+payment-confirmation-download-button = Continuar para baixar
