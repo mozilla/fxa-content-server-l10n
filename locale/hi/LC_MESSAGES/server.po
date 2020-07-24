@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 16:04+0000\n"
+"POT-Creation-Date: 2020-07-24 16:04+0000\n"
 "PO-Revision-Date: 2020-06-09 17:21+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1438539709.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2467
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2470
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2471
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2474
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2468
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2471
 msgid "Last reminder to sync devices!"
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2474
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2477
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -37,12 +37,12 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr ""
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr ""
@@ -63,7 +63,7 @@ msgstr ""
 msgid "Generate codes:"
 msgstr "कोड तैयार करें:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1245
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1248
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s पर नया साइन-इन"
 
@@ -172,7 +172,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "यह देखना सीखें कि Firefox आपके लिए किन कुटशब्दों को भंडारित कर रहा है."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1657
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1660
 msgid "Account recovery key generated"
 msgstr "खाता पुनर्प्राप्ति कुंजी उत्पन्न हुई"
 
@@ -230,7 +230,7 @@ msgstr "आपने निम्न डिवाइस से पुनर्�
 msgid "Consumed recovery code"
 msgstr "पुनर्प्राप्ति कुंजी खपत की गयी"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1524
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1527
 msgid "New recovery codes generated"
 msgstr "नए पुनर्प्राप्ति कुंजी उत्पन्न हुए"
 
@@ -238,7 +238,7 @@ msgstr "नए पुनर्प्राप्ति कुंजी उत्
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "आपने निम्न डिवाइस से नए पुनर्प्राप्ति कुंजी सफलतापूर्वक उत्पन्न की गयी हैं:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1703
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1706
 msgid "Account recovery key removed"
 msgstr "खाता पुनर्प्राप्ति कुंजी निकाली गई"
 
@@ -254,7 +254,7 @@ msgstr "यह पुनर्प्राप्ति कुंजी अब �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "आपने निम्न डिवाइस से अपने Firefox खाता के लिए खाता पुनर्प्राप्ति कुंजी को सफलतापूर्वक हटा दिया है:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1404
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1407
 msgid "Secondary email removed"
 msgstr "द्वितीयक ईमेल हटा दिया गया"
 
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1287
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1290
 msgid "Setup next device"
 msgstr ""
 
@@ -298,7 +298,7 @@ msgstr ""
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "कोई सवाल? %(supportUrl)s पर जाएँ"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1332
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1335
 msgid "Secondary email added"
 msgstr "द्वितीयक ई-मेल जोड़ा गया"
 
@@ -314,7 +314,7 @@ msgstr "क्या कूटशब्द पुनः ठीक करने �
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "नया पासवर्ड बनाने के लिए अगले एक घंटे के भीतर बटन पर क्लिक करें। निम्न डिवाइस से अनुरोध आया है:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1067
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1070
 msgid "Create new password"
 msgstr "नया कूटशब्द बनाएँ"
 
@@ -449,6 +449,12 @@ msgid ""
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
 
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
+msgid ""
+"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
+"choose to cancel."
+msgstr ""
+
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
 msgstr ""
@@ -531,7 +537,7 @@ msgstr ""
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "अतिरिक्त सुरक्षा के लिए, कृपया निम्न डिवाइस से इस साइन-इन की पुष्टि करें:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:776
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:779
 msgid "Confirm sign-in"
 msgstr "साइन-इन की पुष्टि करें"
 
@@ -695,180 +701,180 @@ msgstr "सदस्यता रद्द करें:"
 msgid "Update billing information:"
 msgstr "बिलिंग जानकारी को सामयिक करें:"
 
-#: lib/senders/email.js:308
+#: lib/senders/email.js:311
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:313
+#: lib/senders/email.js:316
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s पर %(uaBrowser)s"
 
-#: lib/senders/email.js:339
+#: lib/senders/email.js:342
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:346
+#: lib/senders/email.js:349
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:351
+#: lib/senders/email.js:354
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s(अनुमानित)"
 
-#: lib/senders/email.js:356
+#: lib/senders/email.js:359
 msgid "%(country)s (estimated)"
 msgstr "%(country)s(अनुमानित)"
 
-#: lib/senders/email.js:538
+#: lib/senders/email.js:541
 msgid "Finish creating your account"
 msgstr "अपना खाता बनाना पूर्ण करें"
 
-#: lib/senders/email.js:539 lib/senders/email.js:667
+#: lib/senders/email.js:542 lib/senders/email.js:670
 msgid "Confirm email"
 msgstr "ईमेल की पुष्टि करें"
 
-#: lib/senders/email.js:606
+#: lib/senders/email.js:609
 msgid "Verification code: %(code)s"
 msgstr "सत्यापन कोड: %(code)s"
 
-#: lib/senders/email.js:647
+#: lib/senders/email.js:650
 msgid "Reminder: Finish creating your account"
 msgstr "अनुस्मारक: अपना खाता बनाना पूर्ण करें"
 
-#: lib/senders/email.js:649
+#: lib/senders/email.js:652
 msgid "Final reminder: Activate your account"
 msgstr "अंतिम अनुस्मारक: अपने खाते को सक्रिय करें"
 
-#: lib/senders/email.js:704
+#: lib/senders/email.js:707
 msgid "Account authorization code"
 msgstr "खाता प्राधिकरण कोड"
 
-#: lib/senders/email.js:773
+#: lib/senders/email.js:776
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s पर नए साइन-इन की पुष्टि करें"
 
-#: lib/senders/email.js:818
+#: lib/senders/email.js:821
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s के लिए साइन-इन कोड"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:886
 msgid "Confirm primary email"
 msgstr "प्राथमिक ईमेल की पुष्टि करें"
 
-#: lib/senders/email.js:884 lib/senders/email.js:943 lib/senders/email.js:1011
+#: lib/senders/email.js:887 lib/senders/email.js:946 lib/senders/email.js:1014
 msgid "Verify email"
 msgstr "ईमेल सत्यापित करें"
 
-#: lib/senders/email.js:942 lib/senders/email.js:1010
+#: lib/senders/email.js:945 lib/senders/email.js:1013
 msgid "Confirm secondary email"
 msgstr "द्वितीयक ईमेल की पुष्टि करें"
 
-#: lib/senders/email.js:1066
+#: lib/senders/email.js:1069
 msgid "Reset your password"
 msgstr "अपना कूटशब्द बदली करें"
 
-#: lib/senders/email.js:1108 lib/senders/email.js:1174
+#: lib/senders/email.js:1111 lib/senders/email.js:1177
 msgid "Password updated"
 msgstr "पासवर्ड अपडेट किया गया"
 
-#: lib/senders/email.js:1146 lib/senders/email.js:1204
+#: lib/senders/email.js:1149 lib/senders/email.js:1207
 msgid "Suspicious activity detected"
 msgstr "संदिग्ध गतिविधि का पता चला"
 
-#: lib/senders/email.js:1246 lib/senders/email.js:1333 lib/senders/email.js:1369 lib/senders/email.js:1405 lib/senders/email.js:1439 lib/senders/email.js:1482 lib/senders/email.js:1525
-#: lib/senders/email.js:1568 lib/senders/email.js:1658 lib/senders/email.js:1704
+#: lib/senders/email.js:1249 lib/senders/email.js:1336 lib/senders/email.js:1372 lib/senders/email.js:1408 lib/senders/email.js:1442 lib/senders/email.js:1485 lib/senders/email.js:1528
+#: lib/senders/email.js:1571 lib/senders/email.js:1661 lib/senders/email.js:1707
 msgid "Manage account"
 msgstr "खाता प्रबंधित करें"
 
-#: lib/senders/email.js:1282
+#: lib/senders/email.js:1285
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1368
+#: lib/senders/email.js:1371
 msgid "Primary email updated"
 msgstr "प्राथमिक ईमेल अपडेट किया गया"
 
-#: lib/senders/email.js:1438
+#: lib/senders/email.js:1441
 msgid "Two-step verification enabled"
 msgstr "द्वि-चरणीय प्रमाणीकरण सक्षम"
 
-#: lib/senders/email.js:1481
+#: lib/senders/email.js:1484
 msgid "Two-step verification is off"
 msgstr "दो-चरणीय सत्यापन बंद है"
 
-#: lib/senders/email.js:1567
+#: lib/senders/email.js:1570
 msgid "Recovery code used"
 msgstr "पुनर्प्राप्ति कोड का उपयोग किया गया"
 
-#: lib/senders/email.js:1620
+#: lib/senders/email.js:1623
 msgid "1 recovery code remaining"
 msgstr "1 पुनर्प्राप्ति कोड शेष"
 
-#: lib/senders/email.js:1622
+#: lib/senders/email.js:1625
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1625
+#: lib/senders/email.js:1628
 msgid "Generate codes"
 msgstr "कोड जनरेट करें"
 
-#: lib/senders/email.js:1749
+#: lib/senders/email.js:1752
 msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1750
+#: lib/senders/email.js:1753
 msgid "Create new recovery key"
 msgstr "नई पुनर्प्राप्ति कुंजी बनाएं"
 
-#: lib/senders/email.js:1816
+#: lib/senders/email.js:1819
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1895
+#: lib/senders/email.js:1898
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1965
+#: lib/senders/email.js:1968
 msgid "Credit card for %(productName)s expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2015
+#: lib/senders/email.js:2018
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2066 lib/senders/email.js:2131
+#: lib/senders/email.js:2069 lib/senders/email.js:2134
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2202
+#: lib/senders/email.js:2205
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2276
+#: lib/senders/email.js:2279
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2367
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2436
+#: lib/senders/email.js:2439
 msgid "Welcome to %(productName)s"
 msgstr "%(productName)s में आपका स्वागत है"
 
-#: lib/senders/email.js:2437
+#: lib/senders/email.js:2440
 msgid "Download %(productName)s"
 msgstr "%(productName)s डाउनलोड करें"
 
-#: lib/senders/email.js:2463
+#: lib/senders/email.js:2466
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2464
+#: lib/senders/email.js:2467
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2478
+#: lib/senders/email.js:2481
 msgid "Sync another device"
 msgstr ""
 
