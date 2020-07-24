@@ -316,6 +316,13 @@ reactivate-confirm-copy =
     Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda
     a wašo plaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje
     { $endDate } { $amount } wucynijo, za kórtu, kótaraž se na { $last } kóńcy.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda
+    a wašo plaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje
+    buźo { $endDate } { $amount }.
 reactivate-confirm-button = Abonement wótnowiś
 
 ##  $date (Date) - Last day of product access
