@@ -312,6 +312,12 @@ reactivate-confirm-copy =
     Twój dostęp do { $name } będzie kontynuowany, a okres rozliczeniowy
     i płatności pozostaną takie same. Następna opłata będzie wynosiła { $amount }
     na kartę kończącą się na { $last } w dniu { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Twój dostęp do { $name } będzie kontynuowany, a cykl rozliczeniowy
+    i płatności pozostaną takie same. Następna opłata będzie wynosiła { $amount } w dniu { $endDate }.
 reactivate-confirm-button = Subskrybuj ponownie
 
 ##  $date (Date) - Last day of product access
