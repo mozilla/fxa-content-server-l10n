@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-01 18:29+0000\n"
+"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"PO-Revision-Date: 2020-07-20 10:10+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -884,7 +884,7 @@ msgstr "Hawwe jo it e-mailadres ferkeard typt? %(domain)s biedt gjin e-mail oan.
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "De ôfbyldingbestângrutte is te grut om op te laden."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"

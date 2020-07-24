@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-08 01:40+0000\n"
+"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"PO-Revision-Date: 2020-07-19 23:53+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -884,7 +884,7 @@ msgstr "E-mail incorreto? %(domain)s não fornece e-mail."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "O tamanho do ficheiro de imagem é muito grande para ser carregado."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"

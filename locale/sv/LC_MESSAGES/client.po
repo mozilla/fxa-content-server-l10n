@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-17 16:04+0000\n"
-"PO-Revision-Date: 2020-07-05 11:54+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"PO-Revision-Date: 2020-07-17 16:46+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -882,7 +882,7 @@ msgstr "Felaktig e-postadress? %(domain)s erbjuder inte e-post."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Bildfilens storlek är för stor för att kunna laddas upp."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
