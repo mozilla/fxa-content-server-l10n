@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     Tu acceso a { $name } continuará y el ciclo de facturación
     y pago se mantendrá igual. El próximo cargo será de
     { $amount } a la tarjega termianda en { $last } el { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Tu acceso a { $name } continuará y el ciclo de facturación
+    y pago se mantendrá igual. El próximo cargo será de
+    { $amount } el { $endDate }.
 reactivate-confirm-button = Resuscribir
 
 ##  $date (Date) - Last day of product access
