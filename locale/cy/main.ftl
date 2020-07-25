@@ -356,6 +356,13 @@ reactivate-confirm-copy =
     Bydd eich mynediad i { $name } yn parhau, a bydd eich cylch
     bilio a thalu yn aros yr un peth. Eich tâl nesaf fydd
      { $amount } i'r cerdyn sy'n gorffen { $last } ar { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Bydd eich mynediad i { $name } yn parhau, a bydd eich cylch
+    bilio a thalu yn aros yr un peth. Eich tâl nesaf fydd
+     { $amount } ar { $endDate }.
 reactivate-confirm-button = Ail-danysgrifio
 
 ##  $date (Date) - Last day of product access
