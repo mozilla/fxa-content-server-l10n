@@ -251,6 +251,13 @@ reactivate-confirm-copy =
     Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ
     thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn
     sẽ là { $amount } cho thẻ kết thúc bằng { $last } vào { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ
+    thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn
+    sẽ là { $amount } vào { $endDate }.
 reactivate-confirm-button = Đăng ký lại
 
 ##  $date (Date) - Last day of product access
