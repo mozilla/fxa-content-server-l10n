@@ -135,6 +135,13 @@ reactivate-confirm-copy =
     הגישה שלך ל־{ $name } תימשך, ומחזור החיוב
     והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה
     { $amount } לכרטיס שמסתיים ב־{ $last } בתאריך { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    הגישה שלך ל־{ $name } תימשך, ומחזור החיוב
+    והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה
+    { $amount } בתאריך { $endDate }.
 
 ##  $date (Date) - Last day of product access
 
