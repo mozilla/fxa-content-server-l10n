@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-26 13:31+0000\n"
+"PO-Revision-Date: 2020-07-26 13:39+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1855,7 +1855,7 @@ msgstr "გთხოვთ, გაითვალისწინოთ, რო�
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr "თქვენი ყველა ფასიანი ხელმოწერა გაუქმდება"
+msgstr "თქვენი ყველა ფასიანი გამოწერა გაუქმდება"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
