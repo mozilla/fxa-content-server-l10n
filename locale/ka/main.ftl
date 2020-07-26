@@ -322,7 +322,7 @@ sub-route-idx-cancel-msg =
     თქვენი { $name } გამოწერა გაუქმებულია.
           <br />
           ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
-sub-route-idx-cancel-aside = კითხვები გაქვთ? იხილეთ<a>{ -brand-name-mozilla } მხარდაჭერა</a>.
+sub-route-idx-cancel-aside = კითხვები გაქვთ? იხილეთ <a>{ -brand-name-mozilla } მხარდაჭერა</a>.
 sub-subscription-error =
     .title = ხარვეზი, გამოწერების ჩატვირთვისას
 sub-customer-error =
