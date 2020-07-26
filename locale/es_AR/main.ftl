@@ -108,6 +108,24 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } diariamente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } días</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } semanalmente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } semanas</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } mensualmente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
+    }
 payment-confirm = Autorizo a Mozilla, creador de los productos Firefox, a realizar un cargo de <strong>{ $amount } cada { $interval }</strong>, según mis términos de pago, hasta que cancele mi suscripción.
 
 ##
