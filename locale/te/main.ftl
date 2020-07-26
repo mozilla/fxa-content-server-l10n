@@ -71,6 +71,7 @@ settings-home = ఖాతా ముంగిలి
 
 ##
 
+pay-update-change-btn = మార్చు
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
