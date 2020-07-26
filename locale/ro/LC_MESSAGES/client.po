@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-26 01:11+0000\n"
+"PO-Revision-Date: 2020-07-26 01:18+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -751,7 +751,7 @@ msgstr "Se lucrează…"
 
 #: .es5/lib/auth-errors.js:332
 msgid "Could not get Privacy Notice"
-msgstr "Nu s-a putut găsi Declarația de confidențialitate"
+msgstr "Nu s-a putut găsi Notificarea privind confidenţialitatea"
 
 #: .es5/lib/auth-errors.js:336
 msgid "Could not get Terms of Service"
@@ -1021,8 +1021,8 @@ msgstr "Jeton nevalid"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Declarația de confidențialitate</a> "
-"%(serviceName)s (%(serviceUri)s)."
+"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
+"confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1298,7 +1298,7 @@ msgstr "Încearcă din nou"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">Declarația de confidenţialitate</a>."
+msgstr "Continuând, ești de acord cu <a id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciului</a> și <a id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidenţialitatea</a>."
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
