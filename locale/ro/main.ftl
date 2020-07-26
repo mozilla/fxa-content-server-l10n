@@ -23,7 +23,7 @@ document =
 ## legal footer
 
 terms = Termenii de utilizare a serviciului
-privacy = Declarație de confidențialitate
+privacy = Notificare privind confidențialitatea
 
 ## plan details
 
