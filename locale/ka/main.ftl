@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     კვლავ შეგეძლებათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი
     და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება
     { $amount } ბარათიდან დაბოლოებით { $last }, თარიღზე { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    კვლავ შეგიძლიათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი
+    და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება
+    { $amount }, თარიღზე { $endDate }.
 reactivate-confirm-button = ხელახლა გამოწერა
 
 ##  $date (Date) - Last day of product access
