@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus
     en betaling blijven hetzelfde. Uw volgende betaling wordt
     { $amount } op { $endDate } op de kaart eindigend op { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus
+    en betaling blijven hetzelfde. Uw volgende betaling wordt
+    { $amount } op { $endDate }.
 reactivate-confirm-button = Opnieuw inschrijven
 
 ##  $date (Date) - Last day of product access
