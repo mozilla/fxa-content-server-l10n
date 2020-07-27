@@ -167,9 +167,22 @@ input-error-is-required = { $label } este necesar
 product-plan-upgrade-heading = Afișează varianta superioară a abonamentului
 sub-update-failed = Actualizarea planului a eșuat
 sub-update-title = Informații de facturare
+sub-update-card-ending = Card care se termină în { $last }
+sub-update-card-exp = Data expirării: { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Planul tău va fi modificat imediat și ți se va percepe o sumă ajustată
+    pe restul perioadei ciclului de facturare. Începând cu { $startingDate },
+    ți se va percepe suma totală.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } zilnic</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
 
 ##
 
