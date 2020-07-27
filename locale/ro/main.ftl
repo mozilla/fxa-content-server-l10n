@@ -265,33 +265,143 @@ pay-update-billing-description-week =
         [few] Ți se facturează { $amount } la fiecare { $intervalCount } săptămâni pentru { $name }. Următoarea plată este pe { $date }.
        *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de săptămâni pentru { $name }. Următoarea plată este pe { $date }.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+pay-update-billing-description-month =
+    { $intervalCount ->
+        [one] Ți se facturează { $amount } lunar pentru { $name }. Următoarea plată este pe { $date }.
+        [few] Ți se facturează { $amount } la fiecare { $intervalCount } luni pentru { $name }. Următoarea plată este pe { $date }.
+       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de luni pentru { $name }. Următoarea plată este pe { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+pay-update-billing-description-year =
+    { $intervalCount ->
+        [one] Ți se facturează { $amount } anual pentru { $name }. Următoarea plată este pe { $date }.
+        [few] Ți se facturează { $amount } la fiecare { $intervalCount } ani pentru { $name }. Următoarea plată este pe { $date }.
+       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de ani pentru { $name }. Următoarea plată este pe { $date }.
+    }
 
 ##
 
+pay-update-card-exp = Data expirării: { $expirationDate }
+pay-update-change-btn = Modifică
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vrei să folosești în continuare { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Accesul tău la { $name } va continua, iar ciclul de facturare
+    și plăți va rămâne același. Data viitoare ți se va debita suma de
+    { $amount } de pe cardul care se termină în { $last } la data de { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Accesul tău la { $name } va continua, iar ciclul de facturare
+    și plăți va rămâne același. Data viitoare ți se va debita suma de
+    { $amount } la data de { $endDate }.
+reactivate-confirm-button = Reabonare
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Ți-ai anulat abonamentul la data de { $date }.
+reactivate-panel-copy = Vei pierde accesul la { $name } pe data de <strong>{ $date }</strong>.
+reactivate-success-copy = Îți mulțumim! Totul este gata.
+reactivate-success-button = Închide
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problemă la încărcarea abonamentelor
+sub-item-missing-msg = Te rugăm să încerci mai târziu.
+sub-item-no-such-plan = Nu există un asemenea plan pentru acest abonament.
+sub-item-cancel-sub = Anulează abonamentul
+sub-item-stay-sub = Păstrează abonamentul
+sub-item-cancel-msg =
+    Nu vei mai putea folosi { $name } după
+    { $period }, ultima zi din ciclul tău de facturare.
+sub-item-cancel-confirm =
+    Anulează-mi accesul și informațiile mele salvate în
+    { $name } la { $period }
+account-activated = Contul tău este activat, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Se actualizează informațiile de facturare...
+sub-route-idx-reactivating = Reactivarea abonamentului a eșuat
+sub-route-idx-cancel-failed = Anularea abonamentului a eșuat
+sub-route-idx-contact = Contactează serviciul de asistență
+sub-route-idx-cancel-msg-title = Ne pare rău că pleci
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Abonamentul tău pentru { $name } a fost anulat.
+          <br />
+          Vei mai avea acces la { $name } până la data de { $date }.
+sub-route-idx-cancel-aside = Ai întrebări? Intră pe <a>{ -brand-name-mozilla } Asistență</a>.
+sub-subscription-error =
+    .title = Problemă la încărcarea abonamentelor
+sub-customer-error =
+    .title = Problemă la încărcarea clientului
+sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
 
 ## subscription create
 
+sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## plan-details
 
+plan-details-header = Detalii produs
+plan-details-show-button = Afișează detaliile
+plan-details-hide-button = Ascunde detaliile
+plan-details-total-label = Total
 
 ## payment confirmation
 
+payment-confirmation-alert = Dă clic aici pentru descărcare
+payment-confirmation-mobile-alert = Nu s-a deschis aplicația? <a>Dă clic aici</a>
+payment-confirmation-heading = Îți mulțumim, { $displayName }!
+payment-confirmation-heading-bak = Îți mulțumim!
+payment-confirmation-subheading = A fost trimis un mesaj de confirmare pe e-mail la
+payment-confirmation-order-heading = Detalii comandă
+payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Facturat către
+payment-confirmation-details-heading = Detalii de plată
+payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } zilnic
+        [few] { $amount } la fiecare { $intervalCount } zile
+       *[other] { $amount } la fiecare { $intervalCount } de zile
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } săptămânal
+        [few] { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } lunar
+        [few] { $amount } la fiecare { $intervalCount } luni
+       *[other] { $amount } la fiecare { $intervalCount } de luni
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+        [few] { $amount } la fiecare { $intervalCount } ani
+       *[other] { $amount } la fiecare { $intervalCount } de ani
+    }
+payment-confirmation-cc-preview = care se termină în { $last4 }
+payment-confirmation-download-button = Continuă cu descărcarea
