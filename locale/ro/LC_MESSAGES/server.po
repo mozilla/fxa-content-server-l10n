@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-26 01:11+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
+"PO-Revision-Date: 2020-07-27 07:03+0000\n"
+"Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -17,19 +17,21 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2470
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Iată memento-ul ca să îți sincronizezi dispozitivele."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2474
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Ai nevoie de două dispozitive pentru sincronizare. Sincronizarea unui alt dispozitiv, în confidențialitate, cu Firefox, îți menține aceleași marcaje, parole și alte date din Firefox oriunde "
+"folosești Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2471
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Ultimul memento ca să îți sincronizezi dispozitivele!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2477
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Sincronizarea unui alt dispozitiv, în confidențialitate, cu Firefox, îți menține aceleași marcaje, parole și alte date din Firefox oriunde folosești Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -72,14 +74,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Am depistat un comportament suspect în contul tău Firefox. Pentru a preveni accesul neautorizat la contul tău Firefox, am deconectat toate dispozitivele din contul tău și acum te rugăm să îți "
+"schimbi parola, ca măsură de precauție."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Reautentifică-te pe orice dispozitiv sau în orice serviciu pentru care folosești contul Firefox și urmează pașii care vor fi indicați."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Important:</b> alege altă parolă, diferită de cea folosită anterior, și asigură-te că nu seamănă nici cu parola contului de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -88,11 +92,11 @@ msgstr "Toate cele bune,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Echipa de conturi Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Important: alege altă parolă, diferită de cea folosită anterior, și asigură-te că nu seamănă nici cu parola contului de e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -285,19 +289,19 @@ msgstr "Ai dezactivat cu succes autentificarea în doi pași pentru contul tău 
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Cont Firefox verificat. Aproape că ai terminat."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Următoarea sincronizare a dispozitivelor!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Cu Sync, vei avea aceleași marcaje, parole și alte date Firefox pe toate dispozitivele, inclusiv protecția confidențialității lor."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1290
 msgid "Setup next device"
-msgstr ""
+msgstr "Configurează următorul dispozitiv"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -336,7 +340,7 @@ msgstr "Ne pare rău că pleci"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Ți-ai șters recent contul Firefox. Prin urmare, ți-am anulat abonamentul %(productName)s. Plata ta finală de %(invoiceTotal)s a fost efectuată la %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
