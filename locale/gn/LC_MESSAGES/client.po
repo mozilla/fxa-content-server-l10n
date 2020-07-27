@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-24 16:20+0000\n"
+"PO-Revision-Date: 2020-07-27 17:27+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -938,7 +938,7 @@ msgstr "Ayvu ndoikovéimava"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr "Ñeha'ãha OAuth ndoikói: %(param)s"
+msgstr "Ñeha’ãha OAuth ndoikói: %(param)s"
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
@@ -994,7 +994,7 @@ msgstr "Mba’e’oka okayguápe jeike oñemboty, eha’ãjey uperire"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "Ñeha'ãha ndoikói mba’ejerure retépe: %(param)s"
+msgstr "Ñeha’ãha ndoikói mba’ejerure retépe: %(param)s"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
@@ -1282,7 +1282,7 @@ msgstr "Emyandy umi kookie ha pe mbyatyha pypegua kundahárape eikekuaa hag̃ua 
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr "Eha'ãjey"
+msgstr "Eha’ãjey"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
