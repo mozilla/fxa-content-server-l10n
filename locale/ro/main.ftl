@@ -183,19 +183,88 @@ sub-update-confirm-with-legal-links-day =
         [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
        *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } săptămânal</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } săptămâni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de săptămâni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } lunar</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } luni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de luni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } anual</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } ani, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de ani, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
 
 ##
 
+sub-update-submit = Confirmă trecerea la varianta superioară a abonamentului
+sub-update-indicator =
+    .aria-label = indicator de trecere la o variantă superioară
+sub-update-current-plan-label = Plan curent
+sub-update-new-plan-label = Plan nou
+sub-update-total-label = Total nou
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } zilnic
+        [few] { $amount } la fiecare { $intervalCount } zile
+       *[other] { $amount } la fiecare { $intervalCount } de zile
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } săptămânal
+        [few] { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } lunar
+        [few] { $amount } la fiecare { $intervalCount } luni
+       *[other] { $amount } la fiecare { $intervalCount } de luni
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+        [few] { $amount } la fiecare { $intervalCount } ani
+       *[other] { $amount } la fiecare { $intervalCount } de ani
+    }
 
 ## payment update
 ##  $name (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 ##  $date (Date) - The date for the next time a charge will occur.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+pay-update-billing-description-day =
+    { $intervalCount ->
+        [one] Ți se facturează { $amount } zilnic pentru { $name }. Următoarea plată este pe { $date }.
+        [few] Ți se facturează { $amount } la fiecare { $intervalCount } zile pentru { $name }. Următoarea plată este pe { $date }.
+       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de zile pentru { $name }. Următoarea plată este pe { $date }.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+pay-update-billing-description-week =
+    { $intervalCount ->
+        [one] Ți se facturează { $amount } săptămânal pentru { $name }. Următoarea plată este pe { $date }.
+        [few] Ți se facturează { $amount } la fiecare { $intervalCount } săptămâni pentru { $name }. Următoarea plată este pe { $date }.
+       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de săptămâni pentru { $name }. Următoarea plată este pe { $date }.
+    }
 
 ##
 
