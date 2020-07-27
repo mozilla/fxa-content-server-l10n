@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus
     en betelling bliuwe itselde. Jo folgjende betelling wurdt
     { $amount } op { $endDate } op de kaart einigjend op { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus
+    en betelling bliuwe itselde. Jo folgjende betelling wurdt
+    { $amount } op { $endDate }.
 reactivate-confirm-button = Opnij ynskriuwe
 
 ##  $date (Date) - Last day of product access
