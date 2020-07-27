@@ -119,18 +119,54 @@ payment-confirm-with-legal-links-day =
         [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
        *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de zile</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } săptămânal</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } săptămâni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de săptămâni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } lunar</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } luni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de luni, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } anual</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+        [few] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } ani, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+       *[other] Autorizez { -brand-name-mozilla }, realizatorul produselor { -brand-name-firefox }, să îmi debiteze metoda de plată <strong>{ $amount } la fiecare { $intervalCount } de ani, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
+    }
+payment-confirm = Autorizez Mozilla, realizatorul produselor Firefox, să îmi debiteze metoda de plată <strong>${ $amount } per { $interval }</strong>, conform <termsOfServiceLink>Termenilor de furnizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Politicii de confidențialitate</privacyNoticeLink>, până ce îmi anulez abonamentul.
 
 ##
 
+payment-cancel-btn = Anulează
+payment-update-btn = Actualizează
+payment-pay-btn = Plătește acum
+payment-validate-name-error = Te rugăm să îți introduci numele
+payment-validate-zip-required = Codul poștal este necesar
+payment-validate-zip-short = Codul poștal este prea scurt
 
 ## subscription redirect
 
+sub-redirect-ready = Abonamentul tău este gata
+sub-redirect-copy = Vrei să ne acorzi un minut și să ne spui despre experiența ta?
+sub-redirect-skip-survey = Nu, mulțumesc. Du-mă la produs.
 
 ## fields
 
+default-input-error = Acest câmp este obligatoriu
+input-error-is-required = { $label } este necesar
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Afișează varianta superioară a abonamentului
+sub-update-failed = Actualizarea planului a eșuat
+sub-update-title = Informații de facturare
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
