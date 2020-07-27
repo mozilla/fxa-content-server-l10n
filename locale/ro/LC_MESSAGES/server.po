@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-27 07:03+0000\n"
+"PO-Revision-Date: 2020-07-27 07:13+0000\n"
 "Last-Translator: robbp <robbpaun@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -355,6 +355,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Ți-am anulat abonamentul %(productName)s. Plata ta finală de %(invoiceTotal)s a fost efectuată la %(invoiceDateOnly)s. Serviciul îți va fi furnizat în continuare, până la sfârșitul perioadei tale "
+"curente de facturare, și anume până la %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -365,6 +367,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Începând cu factura următoare, tariful tău se va modifica de la %(paymentAmountOld)s per %(productPaymentCycle)s la %(paymentAmountNew)s. Tot atunci, vei primi un credit unic de %(paymentProrated)s "
+"reprezentând tariful mai mic pentru restul acestui %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -394,7 +398,7 @@ msgstr "Număr factură: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "S-a facturat %(invoiceTotal)s la data de %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
@@ -452,19 +456,23 @@ msgstr "Ajută-ne să rezolvăm problema prin actualizarea informațiilor tale p
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Îți mulțumim că ți-ai reactivat abonamentul pentru %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Ciclul tău de facturare și plăți va rămâne același. Următoarea sumă percepută va fi de %(invoiceTotal)s de pe cardul %(cardType)s al cărui număr se termină în %(lastFour)s, la data de "
+"%(nextInvoiceDateOnly)s. Abonamentul tău se va reînnoi automat la fiecare perioadă de facturare dacă nu optezi pentru anularea lui."
 
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
+"Ciclul tău de facturare și plăți va rămâne același. Următoarea sumă percepută va fi de %(invoiceTotal)s la data de %(nextInvoiceDateOnly)s. Abonamentul tău se va reînnoi automat la fiecare perioadă "
+"de facturare dacă nu optezi pentru anularea lui."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -487,6 +495,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Începând cu factura următoare, tariful tău se va modifica de la %(paymentAmountOld)s per %(productPaymentCycle)s la %(paymentAmountNew)s. Tot atunci, vei primi un credit unic de %(paymentProrated)s "
+"reprezentând tariful mai mic pentru restul acestui %(productPaymentCycle)s."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -618,11 +628,11 @@ msgstr "Odată confirmat, te vom ajuta să instalezi și să te conectezi la Fir
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Sau instalează pe <a %(desktopLinkAttributes)s>alt dispozitiv desktop</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Sau instalează pe <a %(cadLinkAttributes)s>alt dispozitiv</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -678,7 +688,7 @@ msgstr "Termeni și politica de anulare"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reactivează abonamentul"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -799,7 +809,7 @@ msgstr "Gestionează contul"
 
 #: lib/senders/email.js:1285
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Cont verificat. Sincronizează alt dispozitiv pentru a finaliza configurarea"
 
 #: lib/senders/email.js:1371
 msgid "Primary email updated"
@@ -859,7 +869,7 @@ msgstr "Abonamentul tău la %(productName)s a fost anulat"
 
 #: lib/senders/email.js:2205
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Abonamentul pentru %(productName)s a fost reactivat"
 
 #: lib/senders/email.js:2279
 msgid "%(productName)s payment received"
@@ -879,11 +889,11 @@ msgstr "Descarcă %(productName)s"
 
 #: lib/senders/email.js:2466
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Un memento prietenesc: Cum să îți finalizezi configurarea de sincronizare"
 
 #: lib/senders/email.js:2467
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Memento final: Finalizează configurarea Sync"
 
 #: lib/senders/email.js:2481
 msgid "Sync another device"
