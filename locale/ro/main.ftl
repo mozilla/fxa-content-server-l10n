@@ -34,6 +34,7 @@ card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici inform
 ## settings
 
 settings-home = Pagina principală a contului
+settings-subscriptions = Abonamente și plăți
 
 ## legal footer
 
@@ -42,19 +43,72 @@ privacy = Notificare privind confidențialitatea
 
 ## plan details
 
+product-plan-details-heading = Să configurăm abonamentul
+product-plan-details-heading = Să configurăm abonamentul
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturat cu { $amount } zilnic
+        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } zile
+       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de zile
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturat cu { $amount } săptămânal
+        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de săptămâni
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturat cu { $amount } lunar
+        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } luni
+       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de luni
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturat cu { $amount } anual
+        [few] { $productName } facturat cu { $amount } la fiecare { $intervalCount } ani
+       *[other] { $productName } facturat cu { $amount } la fiecare { $intervalCount } de ani
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problemă la încărcarea planurilor
+product-profile-error =
+    .title = Problemă la încărcarea profilului
+product-customer-error =
+    .title = Problemă la încărcarea clientului
+product-plan-not-found = Planul nu a fost găsit
+product-no-such-plan = Nu există un astfel de plan pentru acest produs.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } folosește Stripe pentru prelucrarea securizată a plăților.
+payment-legal-link = Citește <a>politica de confidențialitate Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Nume complet
+    .label = Numele, așa cum apare pe card
+payment-cc =
+    .label = Cardul tău
+payment-ccn =
+    .label = Număr card
+payment-exp =
+    .label = Data expirării
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Cod poștal
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
