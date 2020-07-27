@@ -75,6 +75,7 @@ payment-zip =
 
 payment-cancel-btn = 취소
 payment-update-btn = 업데이트
+payment-pay-btn = 지금 지불
 payment-validate-name-error = 이름을 입력하세요
 payment-validate-zip-required = 우편 번호가 필요합니다
 payment-validate-zip-short = 우편 번호가 너무 짧습니다
