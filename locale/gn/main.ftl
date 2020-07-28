@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     { $name } jeike oku’ejeýta ha pe ñemuhakuatia rape
     ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava
     { $amount } kuatia’atãme opáta { $last }-pe { $endDate } og̃uahẽvo.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    { $name } jeike oku’ejeýta ha pe ñemuhakuatia rape
+    ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava
+    { $amount } mba’e { $endDate } og̃uahẽvo.
 reactivate-confirm-button = Mboheraguapy
 
 ##  $date (Date) - Last day of product access
