@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-28 17:27+0000\n"
+"PO-Revision-Date: 2020-07-28 17:40+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -99,7 +99,7 @@ msgstr "Firefox ఖాతాల టీం"
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr "పాస్వర్డ్ విజయవంతంగా మార్పుబడినది"
+msgstr "సంకేతపదం విజయవంతంగా మార్చబడింది"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
