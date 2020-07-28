@@ -273,6 +273,13 @@ reactivate-confirm-copy =
     Potrai continuare ad accedere a { $name }, il tuo ciclo di fatturazione
     e il pagamento rimarranno invariati. Il tuo prossimo addebito sulla carta che termina con { $last }
     sarà di { $amount } e avverrà il { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Potrai continuare ad accedere a { $name }. Ciclo di fatturazione 
+    e importo rimarranno invariati. Il prossimo addebito 
+    sarà di { $amount } e avverrà il { $endDate }.
 reactivate-confirm-button = Abbonati nuovamente
 
 ##  $date (Date) - Last day of product access
