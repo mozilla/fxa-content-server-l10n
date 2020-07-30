@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-28 07:41+0000\n"
+"PO-Revision-Date: 2020-07-30 10:48+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -2057,26 +2057,28 @@ msgstr "pikeun laju ka %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur layanan"
+" akun Firefox anjeun."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Jujutan, markah, login, jeung data pribadi lianna anu geus disingkronkeun moal leungit."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Asupkeun deui kecap sandi anyar"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
-msgstr ""
+msgstr "Ganti kecap sandi"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Daptar pikeun leuwih lengkep"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Kanyaho praktis datang ka koropak anjeun."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
