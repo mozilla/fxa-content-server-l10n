@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-27 01:51+0000\n"
+"PO-Revision-Date: 2020-07-28 07:41+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -597,7 +597,7 @@ msgstr "Surélék sékundér kudu béda jeung surélék akun anjeun"
 
 #: .es5/lib/auth-errors.js:168
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Anjeun geus ngahontal loba surélék sekundér anu diidinan"
 
 #: .es5/lib/auth-errors.js:172
 msgid "This email already exists on your account"
