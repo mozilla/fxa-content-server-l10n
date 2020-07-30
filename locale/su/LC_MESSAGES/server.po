@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-30 12:54+0000\n"
+"PO-Revision-Date: 2020-07-30 13:12+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -29,17 +29,17 @@ msgstr "Panggeuing pamungkas pikeun nyingkronkeun paranti!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2477
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Nyingkronkeun paranti séjén maké Firefox sacara buni ngajaga markah, kecap konci, jeung data Firefox lianna sarua di mana baé anjeun maké Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Upama can ngundeur %(productName)s, anjeun bisa mitembeyan maké sakabéh pitur anu kaasup dina pendaptaran anjeun:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Patalekan ngeunaan pendaptaran anjeun? <a href=\"%(subscriptionSupportUrl)s\">Tim pangdeudeul</a> kami siap ngabantu."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
