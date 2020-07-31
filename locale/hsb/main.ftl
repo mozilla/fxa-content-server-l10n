@@ -34,7 +34,7 @@ card-error = Waša transakcija njeda so předźěłować. Přepruwujće prošu i
 ## settings
 
 settings-home = Startowa strona konta
-settings-subscriptions = Abonementy a płaćenja
+settings-subscriptions-title = Abonementy
 
 ## legal footer
 
