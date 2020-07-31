@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-30 13:27+0000\n"
+"PO-Revision-Date: 2020-07-30 16:12+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -286,11 +286,11 @@ msgstr "Akun Firefox geus dipéripikasi. Kari saeutik deui."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Lajeng singkronan antara paranti anjeun!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Singkron nyamuni ngajaga markah, kecap sandi, jeung data Firefox lianna sarua di sakabéh paranti anjeun."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1290
 msgid "Setup next device"
