@@ -34,7 +34,7 @@ card-error = Ihre Transaktion konnte nicht verarbeitet werden. Bitte überprüfe
 ## settings
 
 settings-home = Startseite des Kontos
-settings-subscriptions = Abonnements & Zahlungen
+settings-subscriptions-title = Abonnements
 
 ## legal footer
 
