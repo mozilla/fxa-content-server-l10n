@@ -34,7 +34,7 @@ card-error = Your transaction could not be processed. Please verify your credit 
 ## settings
 
 settings-home = Account Home
-settings-subscriptions = Subscriptions & Payments
+settings-subscriptions-title = Subscriptions
 
 ## legal footer
 
