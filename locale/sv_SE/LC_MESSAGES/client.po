@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-17 16:46+0000\n"
 "Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -883,6 +883,10 @@ msgstr "Felaktig e-postadress? %(domain)s erbjuder inte e-post."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Bildfilens storlek är för stor för att kunna laddas upp."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1846,8 +1850,8 @@ msgid "Delete…"
 msgstr "Ta bort…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Vill du avbryta en betald prenumeration? Gå till <a href=\"/subscriptions\">Prenumerationer &amp; betalningar</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1918,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Bekräfta en återställningskod"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Prenumerationer & betalningar"
+msgid "Subscriptions"
+msgstr "Prenumerationer"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Parning via en app"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Vill du avbryta en betald prenumeration? Gå till <a href=\"/subscriptions\">Prenumerationer &amp; betalningar</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Prenumerationer & betalningar"
+
 #~ msgid "Get app"
 #~ msgstr "Hämta app"
 
@@ -2416,9 +2426,6 @@ msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firef
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
 #~ "SMS-tjänsten är endast tillgänglig i vissa länder. SMS &amp; datapriser kan tillämpas. Den avsedda mottagaren av e-post eller SMS måste ha samtyckt. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Prenumerationer"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Om du tappar åtkomst till ditt konto kan du återställa dina synkroniseringsdata."

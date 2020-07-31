@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     Din åtkomst till { $name } fortsätter och din faktureringscykel
     och betalning förblir densamma. Din nästa betalning är
     på { $amount } den { $endDate } till kortet som slutar på { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Din åtkomst till { $name } fortsätter och din faktureringscykel
+    och betalning förblir densamma. Din nästa betalning är
+    på { $amount } den { $endDate }.
 reactivate-confirm-button = Prenumerera igen
 
 ##  $date (Date) - Last day of product access

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-06-26 09:30+0000\n"
 "Last-Translator: Ivan <ivan.mas342@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -881,6 +881,10 @@ msgstr "Pogrešna adresa e-pošte? %(domain)s ne nudi e-poštu."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1845,7 +1849,7 @@ msgid "Delete…"
 msgstr "Izbriši …"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -1917,8 +1921,8 @@ msgid "Confirm a recovery code"
 msgstr "Potvrdi jedan kȏd za oporavak"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Pretplate i plaćanja"
+msgid "Subscriptions"
+msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2364,6 +2368,9 @@ msgstr "Upari pomoću aplikacije"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Pretplate i plaćanja"
 
 #~ msgid "Get app"
 #~ msgstr "Nabavi aplikaciju"

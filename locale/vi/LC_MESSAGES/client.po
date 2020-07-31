@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-18 04:28+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "Thư điện tử sai? %(domain)s không cung cấp thư điện tử."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Không thể tải lên ảnh có kích thước tập tin quá lớn."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1846,8 +1850,8 @@ msgid "Delete…"
 msgstr "Xóa…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Tìm cách để hủy đăng ký trả phí? Truy cập <a href=\"/subscriptions\">Đăng ký &amp; thanh toán</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1918,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Xác nhận mã khôi phục"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Đăng ký & thanh toán"
+msgid "Subscriptions"
+msgstr "Đăng ký"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2372,6 +2376,12 @@ msgstr "Ghép nối bằng ứng dụng"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ trong ứng dụng Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Tìm cách để hủy đăng ký trả phí? Truy cập <a href=\"/subscriptions\">Đăng ký &amp; thanh toán</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Đăng ký & thanh toán"
+
 #~ msgid "Get app"
 #~ msgstr "Tải ứng dụng"
 
@@ -2418,9 +2428,6 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
 #~ "Dịch vụ SMS chỉ khả dụng ở một số quốc gia nhất định. SMS &amp; tốc độ dữ liệu có thể được áp dụng. Người nhận của email hoặc SMS phải đồng ý. <a %(escapedLearnMoreAttributes)s>Tìm hiểu thêm</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Đăng ký"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Nếu bạn mất quyền truy cập vào tài khoản của mình, bạn sẽ có thể khôi phục dữ liệu đồng bộ hóa của mình."

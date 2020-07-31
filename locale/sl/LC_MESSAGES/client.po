@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-06-24 09:43+0000\n"
 "Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "Ste se zatipkali? %(domain)s ne ponuja e-pošte."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1846,8 +1850,8 @@ msgid "Delete…"
 msgstr "Izbriši …"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Želite preklicati plačljivo naročnino? Pojdite na <a href=\"/subscriptions\">Naročnine in plačila</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1918,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Potrdi kodo za obnovitev"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Naročnine in plačila"
+msgid "Subscriptions"
+msgstr "Naročnine"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Seznani s pomočjo aplikacije"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ste uporabili sistemski fotoaparat? Seznanitev morate opraviti iz aplikacije Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Želite preklicati plačljivo naročnino? Pojdite na <a href=\"/subscriptions\">Naročnine in plačila</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Naročnine in plačila"
+
 #~ msgid "Get app"
 #~ msgstr "Prenesite aplikacijo"
 
@@ -2402,9 +2412,6 @@ msgstr "Ste uporabili sistemski fotoaparat? Seznanitev morate opraviti iz aplika
 #~ msgstr ""
 #~ "Storitev SMS je na voljo samo v določenih državah. Sporočila in prenos podatkov sta morda plačljiva. Namenjeni prejemnik e-pošte ali SMS-a se mora strinjati. <a "
 #~ "%(escapedLearnMoreAttributes)s>Več o tem</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Naročnine"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Račun že obstaja. <a href=\"/signin\">Prijava</a>"

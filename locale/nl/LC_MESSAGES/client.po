@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-20 06:31+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "Hebt u het e-mailadres verkeerd getypt? %(domain)s biedt geen e-mail aan
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "De afbeeldingsbestandsgrootte is te groot om te uploaden."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Verwijderen…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Wilt u een betaald abonnement opzeggen? Ga naar <a href=\"/subscriptions\">Abonnementen &amp; betalingen</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Bevestig een herstelcode"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonnementen en betalingen"
+msgid "Subscriptions"
+msgstr "Abonnementen"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2376,6 +2380,12 @@ msgstr "Koppelen via een app"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Wilt u een betaald abonnement opzeggen? Ga naar <a href=\"/subscriptions\">Abonnementen &amp; betalingen</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonnementen en betalingen"
+
 #~ msgid "Get app"
 #~ msgstr "App downloaden"
 
@@ -2414,9 +2424,6 @@ msgstr "Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een Firefox-app
 #~ msgstr ""
 #~ "De sms-service is alleen in bepaalde landen beschikbaar. Mogelijk zijn er kosten voor sms en gegevens van toepassing. De beoogde ontvanger van het e-mail- of sms-bericht moet hiermee akkoord "
 #~ "zijn gegaan. <a %(escapedLearnMoreAttributes)s>Meer info</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Abonnementen"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Als u de toegang tot uw account verliest, kunt u uw gesynchroniseerde gegevens herstellen."

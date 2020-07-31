@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-05-29 21:36+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -593,8 +593,8 @@ msgstr ""
 "ako ne odlučite da je otkažete."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
-msgid "Thank you for subscribing to %(productName)s!"
-msgstr "Hvala vam što ste se pretplatili na %(productName)s!"
+msgid "Thank you for subscribing to %(productName)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2
 #: lib/senders/templates/subscriptionFirstInvoice.txt:1
@@ -1390,6 +1390,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Preuzmite najnoviju verziju"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "Hvala vam što ste se pretplatili na %(productName)s!"
 
 #~ msgid ""
 #~ "You recently deleted your Firefox Account. As a result, we’ve cancelled "

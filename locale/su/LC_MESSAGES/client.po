@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-30 10:57+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -884,6 +884,10 @@ msgstr "Salah ketik surél? %(domain)s teu nyadiakeun surél."
 msgid "The image file size is too large to be uploaded."
 msgstr "Ukuran berkas gambarna gedé teuing."
 
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
+
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
 msgstr "Leungiteun konfigurasi"
@@ -1009,7 +1013,9 @@ msgid "Invalid Token"
 msgstr "Token teu sah"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -1081,7 +1087,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prak asupkeun konci pamulangan sakali nu disimpen ku anjeun di tempat nu aman pikeun meunangkeun deui aksés ka Firefox Account anjeun."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\"> CATETAN:</span> Mun anjeun nyetél sandi anjeun sarta teu boga konci pamulangan akun nu kasimpen, sawaréh data anjeun bakal kapupus (kaasup singkronan sérver kayaning jujutan "
 "jeung markah)."
@@ -1843,8 +1850,8 @@ msgid "Delete…"
 msgstr "Pupus…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Hoyong ngabedokeun langganan anu mayar? Buka <a href=\"/subscriptions\">Babayar &amp; Langganan</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1915,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Kompirmasi sandi pamulihan"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Lalanggan & Babayar"
+msgid "Subscriptions"
+msgstr "Balangganan"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2019,7 +2026,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Léngkah 2 ti 2: Simpen konci Pamulangan"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 "<span class=\"note\">CATETAN: </span>Mun anjeun poho sandi, ieu konci diperlukeun pikeun meunangkeun deui aksés ka data anjeun. Simpen konci pamulangan anjeun di tempat nu aman, tempat nu gampang "
 "kapanggih ku anjeun engkéna."
@@ -2057,8 +2065,8 @@ msgstr "pikeun laju ka %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
-"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur layanan"
-" akun Firefox anjeun."
+"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur "
+"layanan akun Firefox anjeun."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -2368,6 +2376,12 @@ msgstr "Adumaniskeun maké aplikasi"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplikasi Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Hoyong ngabedokeun langganan anu mayar? Buka <a href=\"/subscriptions\">Babayar &amp; Langganan</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Lalanggan & Babayar"
+
 #~ msgid "Get app"
 #~ msgstr "Undeur aplikasi"
 
@@ -2401,9 +2415,6 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "Layanan SMS hungkul nu sayaga di ieu nagara mah. SMS &amp; biaya data mumkin tumerap. Panarima surélék atawa SMS nu dimaksud kudu nyatujuan. <a %(escapedLearnMoreAttributes)s>Lenyepan</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Balangganan"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Lamun anjeun leungiteun aksés ka akun anjeun, anjeun bakal bisa mulangkeun data singkron anjeun."
@@ -2524,8 +2535,8 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Anjeun bakal nampa komunikasi nu patali jeung kaamanan akun anjeun, parobahan kawijakan kami, fungsionalitas akun anjeun sarta surélék awal pikeun mantuan anjeun meunangkeun hasil nu mucekil tina "
-#~ "Firefox Account anjeun."
+#~ "Anjeun bakal nampa komunikasi nu patali jeung kaamanan akun anjeun, parobahan kawijakan kami, fungsionalitas akun anjeun sarta surélék awal pikeun mantuan anjeun meunangkeun hasil nu mucekil "
+#~ "tina Firefox Account anjeun."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Tatambahna, anjeun bisa balanggan sangkan nampa surélék promosi kalawan warta panganyarna ti Mozilla jeung Firefox."
@@ -2537,11 +2548,11 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 #~ msgstr "Kokolakeun préférénsi"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus anjeun"
-#~ " mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
+#~ "Mun anjeun maké ieu akun pikeun aplikasi Mozilla jeung layanan kayaning AMO, Pocket, jeung Screenshots anjeun hadéna mah asup heula tuluy piceun sagala informasi pribadi nu kasimpen. Sanggeus "
+#~ "anjeun mupus kaun didieu mah, meureun baé anjeun kaleungitan aksés diditu-didieu."
 
 #~ msgid "verified"
 #~ msgstr "divérifikasi"
@@ -2622,7 +2633,9 @@ msgstr "Anjeun ngagunakeun kamera sistem? Anjeun kudu ngadumaniskeun tina aplika
 #~ msgstr "Teu bisa nyokot Katangtuan Pelayanan Platform Pendaptaran"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</a>."
+#~ msgstr ""
+#~ "Ku nuluykeunna, anjeun satuju kana <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Katangtuan pamakéan</a> jeung <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Wawar Privasi</"
+#~ "a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Katangtuan Layanan Platform Pendaptaran"

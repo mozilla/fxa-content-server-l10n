@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-20 10:10+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -885,6 +885,10 @@ msgstr "Hawwe jo it e-mailadres ferkeard typt? %(domain)s biedt gjin e-mail oan.
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "De ôfbyldingbestângrutte is te grut om op te laden."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Fuortsmite…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Wolle jo in betelle abonnemint opsizze? Gean nei <a href=\"/subscriptions\">Abonneminten &amp; betellingen</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Befêstigje in werstelkoade"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonneminten en betellingen"
+msgid "Subscriptions"
+msgstr "Abonneminten"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2376,6 +2380,12 @@ msgstr "Keppelje mei in app"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Wolle jo in betelle abonnemint opsizze? Gean nei <a href=\"/subscriptions\">Abonneminten &amp; betellingen</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonneminten en betellingen"
+
 #~ msgid "Get app"
 #~ msgstr "App downloade"
 
@@ -2414,9 +2424,6 @@ msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppe
 #~ msgstr ""
 #~ "De sms-tsjinst is allinnich yn bepaalde lannen beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De beëage ûntfanger fan it e-mail- of sms-berjocht moat hjirmei akkoard "
 #~ "gien wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Abonneminten"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "As jo tagong ta jo account ferlieze, kinne jo jo syngronisearre gegevens werstelle."

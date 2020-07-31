@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-21 10:33+0000\n"
 "Last-Translator: rivuinaaya <rivuinaaya@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "ਈਮੇਲ ਗਲਤ ਲਿਖਤੀ ਗਈ? %(domain)s ਹੋਰ ਈ�
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1841,7 +1845,7 @@ msgid "Delete…"
 msgstr "…ਨੂੰ ਹਟਾਓ"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -1913,8 +1917,8 @@ msgid "Confirm a recovery code"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "ਮੈਂਬਰੀਆਂ ਤੇ ਭੁਗਤਾਨ"
+msgid "Subscriptions"
+msgstr "ਮੈਂਬਰੀ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2361,6 +2365,9 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
 
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "ਮੈਂਬਰੀਆਂ ਤੇ ਭੁਗਤਾਨ"
+
 #~ msgid "Get app"
 #~ msgstr "ਐਪ ਲਵੋ"
 
@@ -2378,9 +2385,6 @@ msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤ�
 
 #~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 #~ msgstr "ਫਾਇਰਫਾਕਸ ਨੂੰ ਸਿੱਧਾ ਆਪਣੇ ਸਮਾਰਟ-ਫੋਨ ਉੱਤੇ ਭੇਜੋ ਅਤੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਇਨ-ਇਨ ਕਰੋ"
-
-#~ msgid "Subscriptions"
-#~ msgstr "ਮੈਂਬਰੀ"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਡਾਟੇ ਲਈ ਪਹੁੰਚ ਗੁਆ ਲਈ ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਬਹਾਲ ਕਰ ਸਕੋਗੇ।"

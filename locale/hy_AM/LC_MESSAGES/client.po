@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-05-08 06:30+0000\n"
 "Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "Սխա՞լ էլ֊փոստ։ %(domain)s-ը էլ֊փոստ չի առաջա
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Ջնջում…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Ցանկանո՞ւմ եք չեղարկել վճարովի բաժանորդագրությունը: Գնացեք դեպի <a href=\"/subscriptions\"> Կառավարել բաժանորդագրությունները</a>։"
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Հաստատեք վերականգնման կոդը"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Բաժանորդագրություններ և վճարումներ"
+msgid "Subscriptions"
+msgstr "Բաժանորդագրություններ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2373,6 +2377,12 @@ msgstr "Զուգավորում օգտագործելով ծածկագիրը"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դուք պետք է զուգորդվեք  Firefox ծրագրի մեջ։"
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Ցանկանո՞ւմ եք չեղարկել վճարովի բաժանորդագրությունը: Գնացեք դեպի <a href=\"/subscriptions\"> Կառավարել բաժանորդագրությունները</a>։"
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Բաժանորդագրություններ և վճարումներ"
+
 #~ msgid "Get app"
 #~ msgstr "Ներբեռնման ծրագիր"
 
@@ -2402,9 +2412,6 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 #~ msgstr ""
 #~ "SMS ծառայությունը մատչելի է միայն որոշ երկրներում։ SMS&amp; տվյալների գները կարող են կիրառվել։Էլ․Փոստով կամ SMS֊ով նախատեսված ստացողը պետք է համաձայնություն ունենա։ <a "
 #~ "%(escapedLearnMoreAttributes)s>Իմացեք ավելին</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Բաժանորդագրություններ"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Հաշիվը արդեն գոյություն ունի: <a href=\"/signin\">Մուտք գործել</a>"

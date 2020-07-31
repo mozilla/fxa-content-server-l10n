@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-30 16:22+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,8 +367,8 @@ msgid "Your subscription will automatically renew each billing period unless you
 msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
-msgid "Thank you for subscribing to %(productName)s!"
-msgstr "Nuhun tos ngalanggan %(productName)s!"
+msgid "Thank you for subscribing to %(productName)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -958,6 +958,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Undeur panganyarna"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "Nuhun tos ngalanggan %(productName)s!"
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Anjeun geus asup sarta siap mitembeyan ngalanglang kalawan aman tur salamet."

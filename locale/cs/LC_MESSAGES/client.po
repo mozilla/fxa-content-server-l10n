@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-15 22:03+0000\n"
 "Last-Translator: Jirka Soukeník <soucet@centrum.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "Neudělali jste překlep? Doména %(domain)s nemá e-maily."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1846,8 +1850,8 @@ msgid "Delete…"
 msgstr "Smazat…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Chcete zrušit placené předplatné? Podívejte se do <a href=\"/subscriptions\">Předplatné a Platby</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1918,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Potvrdit obnovovací klíč"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Předplatné a platby"
+msgid "Subscriptions"
+msgstr "Předplatné"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Spárovat pomocí aplikace"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit z Firefoxu."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Chcete zrušit placené předplatné? Podívejte se do <a href=\"/subscriptions\">Předplatné a Platby</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Předplatné a platby"
+
 #~ msgid "Get app"
 #~ msgstr "Získat aplikaci"
 
@@ -2408,9 +2418,6 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 #~ msgstr ""
 #~ "Služba SMS je dostupná jen pro některé země. SMS a datové služby také mohou být zpoplatněny. Příjemce e-mailu nebo SMS musí s jejich zasláním souhlasit. <a %(escapedLearnMoreAttributes)s>Zjistit "
 #~ "více</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Předplatné"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Účet už existuje. <a href=\"/signin\">Přihlaste se</a>"

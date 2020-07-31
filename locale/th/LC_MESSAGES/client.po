@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-06-02 14:09+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -881,6 +881,10 @@ msgstr "พิมพ์อีเมลผิด? %(domain)s ไม่มีบ�
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1840,8 +1844,8 @@ msgid "Delete…"
 msgstr "ลบ…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "ต้องการยกเลิกการบอกรับแบบชำระเงินหรือไม่? ไปที่ <a href=\"/subscriptions\">การบอกรับและการชำระเงิน</a>"
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1912,8 +1916,8 @@ msgid "Confirm a recovery code"
 msgstr "ยืนยันรหัสกู้คืน"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "การบอกรับและการชำระเงิน"
+msgid "Subscriptions"
+msgstr "การบอกรับ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2361,6 +2365,12 @@ msgstr "จับคู่โดยใช้แอป"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "ต้องการยกเลิกการบอกรับแบบชำระเงินหรือไม่? ไปที่ <a href=\"/subscriptions\">การบอกรับและการชำระเงิน</a>"
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "การบอกรับและการชำระเงิน"
+
 #~ msgid "Get app"
 #~ msgstr "รับแอพ"
 
@@ -2385,9 +2395,6 @@ msgstr "คุณใช้กล้องระบบหรือไม่? ค�
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "บริการ SMS ใช้ได้เฉพาะบางประเทศ อาจจะมีค่าใช้จ่าย SMS และข้อมูล ต้องได้รับความยินยอมจากผู้รับอีเมล์หรือ SMS <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "การบอกรับ"
 
 #~ msgid ""
 #~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "

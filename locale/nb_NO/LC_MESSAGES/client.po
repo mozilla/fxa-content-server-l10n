@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-17 21:28+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -884,6 +884,10 @@ msgstr "Skrivefeil i e-postadresse? %(domain)s tilbyr ikke e-post."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Bildefilens størrelse er for stor til å lastes opp."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Slett …"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Ønsker du å kansellere et betalt abonnement? Gå til <a href=\"/subscriptions\">Abonnementer og betalinger</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Bekreft en gjenopprettingskode"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonnementer og betalinger"
+msgid "Subscriptions"
+msgstr "Abonnement"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2372,6 +2376,12 @@ msgstr "Paring via en app"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Ønsker du å kansellere et betalt abonnement? Gå til <a href=\"/subscriptions\">Abonnementer og betalinger</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonnementer og betalinger"
+
 #~ msgid "Get app"
 #~ msgstr "Last ned appen"
 
@@ -2415,9 +2425,6 @@ msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
 #~ "SMS-tjenesten er bare tilgjengelig i enkelte land. SMS- og datakostnader kan forekomme. Den tiltenkte mottakeren av e-post eller SMS må ha samtykket. <a %(escapedLearnMoreAttributes)s>Les mer</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Abonnement"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Hvis du mister tilgangen til kontoen din, vil du kunne gjenopprette dine synkroniserte data."

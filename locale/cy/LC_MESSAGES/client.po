@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-22 11:11+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "Wedi cam deipio'r e-bost? Dyw %(domain)s ddim yn cynnig e-bost."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Mae'r ffeil delwedd yn rhy fawr i'w lwytho."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1847,8 +1851,8 @@ msgid "Delete…"
 msgstr "Dileu…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Ydych chi am ddileu tanysgrifiad taledig? Ewch i <a href=\"/subscriptions\">Tanysgrifiadau a Thaliadau</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1919,8 +1923,8 @@ msgid "Confirm a recovery code"
 msgstr "Cadarnhau'r cod adfer"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Tanysgrifiadau a Thaliadau"
+msgid "Subscriptions"
+msgstr "Tanysgrifiadau"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2373,6 +2377,12 @@ msgstr "Paru gan ddefnyddio ap"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Ydych chi am ddileu tanysgrifiad taledig? Ewch i <a href=\"/subscriptions\">Tanysgrifiadau a Thaliadau</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Tanysgrifiadau a Thaliadau"
+
 #~ msgid "Get app"
 #~ msgstr "Estyn yr ap"
 
@@ -2420,9 +2430,6 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr ""
 #~ "Dim ond mewn rhai gwledydd mae'r gwasanaeth SMS ar gael. Gall fod yn rhaid i chi dalu costau data SMS &amp;. Rhaid i dderbynnydd yr e-bost neu'r SMS fod wedi cytuno. <a "
 #~ "%(escapedLearnMoreAttributes)s>Dysgu rhagor</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Tanysgrifiadau"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Os byddwch yn colli mynediad i'ch cyfrif, byddwch yn gallu adfer eich data cydweddus."
