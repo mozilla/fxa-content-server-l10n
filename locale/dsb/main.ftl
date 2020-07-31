@@ -34,7 +34,7 @@ card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosy
 ## settings
 
 settings-home = Startowy bok konta
-settings-subscriptions = Abonementy a płaśenja
+settings-subscriptions-title = Abonementy
 
 ## legal footer
 
