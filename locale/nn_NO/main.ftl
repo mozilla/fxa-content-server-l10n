@@ -34,7 +34,7 @@ card-error = Transaksjonen din kunne ikkje behandlast. Kontroller betalingskorti
 ## settings
 
 settings-home = Startside for kontoen
-settings-subscriptions = Abonnement og betalingar
+settings-subscriptions-title = Abonnement
 
 ## legal footer
 
