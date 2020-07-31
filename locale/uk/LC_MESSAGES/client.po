@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-17 20:57+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "Помилка введення адреси е-пошти? %(domain)s �
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Розмір файлу зображення завеликий для завантаження."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1844,8 +1848,8 @@ msgid "Delete…"
 msgstr "Видалити…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Хочете скасувати передплату? Перейдіть до <a href=\"/subscriptions\">Передплати й платежі</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1916,8 +1920,8 @@ msgid "Confirm a recovery code"
 msgstr "Підтвердьте код відновлення"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Передплати й платежі"
+msgid "Subscriptions"
+msgstr "Підписки"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Створення пари з використанням програм
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ви використали системну камеру? Ви повинні створити пару в програмі Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Хочете скасувати передплату? Перейдіть до <a href=\"/subscriptions\">Передплати й платежі</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Передплати й платежі"
+
 #~ msgid "Get app"
 #~ msgstr "Отримати застосунок"
 
@@ -2417,9 +2427,6 @@ msgstr "Ви використали системну камеру? Ви пови
 #~ msgstr ""
 #~ "Послуга SMS доступна тільки в певних країнах. За SMS і передачу даних може стягуватися плата. Одержувач електронного листа або SMS повинен погодитися на його отримання. <a "
 #~ "%(escapedLearnMoreAttributes)s>Детальніше</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Підписки"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Обліковий запис вже існує. <a href=\"/signin\">Увійти</a>"

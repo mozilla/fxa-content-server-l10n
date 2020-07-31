@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-03-09 17:09+0000\n"
 "Last-Translator: Michael “Akerbeltz” Bauer <fios@akerbeltz.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -885,6 +885,10 @@ msgstr "Bheil mearachd sa phost-d? Cha doir %(domain)s seachad post-d."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1858,7 +1862,7 @@ msgid "Delete…"
 msgstr "Sguab às…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -1930,8 +1934,8 @@ msgid "Confirm a recovery code"
 msgstr "Dearbh còd aisig"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Fo-sgrìobhaidhean ⁊ pàigheadh"
+msgid "Subscriptions"
+msgstr "Fo-sgrìobhaidhean"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2384,6 +2388,9 @@ msgstr "Paidhrich slighe aplacaid"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "An do chleachd thu camara an t-siostaim? Feumaidh tu paidhreachadh o bhroinn aplacaid Firefox."
 
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Fo-sgrìobhaidhean ⁊ pàigheadh"
+
 #~ msgid "Get app"
 #~ msgstr "Faigh an aplacaid"
 
@@ -2417,9 +2424,6 @@ msgstr "An do chleachd thu camara an t-siostaim? Feumaidh tu paidhreachadh o bhr
 #~ msgstr ""
 #~ "Chan eil an t-seirbheis SMS ri fhaighinn ach ann an cuid a dhùthchannan. Dh’fhaoidte gun èirich cosgaisean SMS ⁊ dàta. Feumaidh faightear a’ phuist-d no SMS a bhith air aontachadh. <a "
 #~ "%(escapedLearnMoreAttributes)s>Barrachd fiosrachaidh</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Fo-sgrìobhaidhean"
 
 #~ msgid "Manage preferences"
 #~ msgstr "Stiùirich na roghainnean"

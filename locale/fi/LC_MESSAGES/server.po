@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-10 07:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -373,8 +373,8 @@ msgid "Your subscription will automatically renew each billing period unless you
 msgstr "Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
-msgid "Thank you for subscribing to %(productName)s!"
-msgstr "Kiitos, että tilasit tuotteen %(productName)s!"
+msgid "Thank you for subscribing to %(productName)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -969,6 +969,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lataa viimeisin"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "Kiitos, että tilasit tuotteen %(productName)s!"
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Veloitettu $%(invoiceTotal)s %(invoiceDateOnly)s"

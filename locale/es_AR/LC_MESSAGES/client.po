@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-18 01:22+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -885,6 +885,10 @@ msgstr "¿Dirección de correo electrónico mal escrita?  %(domain)s no ofrece c
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "El tamaño del archivo de imagen es demasiado grande para cargarlo."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Eliminar…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "¿Querés cancelar una suscripción paga? Andá a <a href=\"/subscriptions\">Administrar suscripciones</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Confirmar un código de recuperación"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Suscripciones y pagos"
+msgid "Subscriptions"
+msgstr "Suscripciones"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2374,6 +2378,12 @@ msgstr "Conectar usando una aplicación"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Usaste la cámara del sistema? Tenés que conectarla desde una aplicación de Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "¿Querés cancelar una suscripción paga? Andá a <a href=\"/subscriptions\">Administrar suscripciones</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Suscripciones y pagos"
+
 #~ msgid "Get app"
 #~ msgstr "Obtener app"
 
@@ -2423,9 +2433,6 @@ msgstr "¿Usaste la cámara del sistema? Tenés que conectarla desde una aplicac
 #~ msgstr ""
 #~ "Servicio de SMS solo disponible en algunos países. Se pueden aplicar cargos por SMS y datos. El destinatario del correo electrónico o SMS debe haber consentido. <a "
 #~ "%(escapedLearnMoreAttributes)s>Conocer más</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Suscripciones"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "La cuenta ya existe. <a href=\"/signin\">Iniciar sesión</a>"

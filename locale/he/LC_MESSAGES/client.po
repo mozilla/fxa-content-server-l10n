@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2019-10-11 11:25+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "האם הייתה לך טעות בהקלדת הדוא״ל? %(domain)s ל
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1842,7 +1846,7 @@ msgid "Delete…"
 msgstr "מחיקה…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -1914,8 +1918,8 @@ msgid "Confirm a recovery code"
 msgstr ""
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "מינויים ותשלומים"
+msgid "Subscriptions"
+msgstr "מנויים"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2364,6 +2368,9 @@ msgstr ""
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישום Firefox."
 
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "מינויים ותשלומים"
+
 #~ msgid "Get app"
 #~ msgstr "קבלת היישומון"
 
@@ -2391,9 +2398,6 @@ msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "שירות ה־SMS זמין רק במדינות מסוימות. עלויות נתונים ל־SMS עשויות לחול. הנמענים המיועדים לדוא״ל או ל־SMS חייבים להסכים לכך. <a %(escapedLearnMoreAttributes)s>מידע נוסף</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "מנויים"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "חשבון זה כבר קיים. <a href=\"/signin\">התחברות</a>"

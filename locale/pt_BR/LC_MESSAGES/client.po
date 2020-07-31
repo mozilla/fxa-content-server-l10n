@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-17 18:44+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "E-mail incorreto? %(domain)s não oferece e-mail."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "O arquivo de imagem é grande demais para ser enviado."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1846,8 +1850,8 @@ msgid "Delete…"
 msgstr "Excluir…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Deseja cancelar uma inscrição paga? Acesse <a href=\"/subscriptions\">Inscrições e pagamento</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1918,8 +1922,8 @@ msgid "Confirm a recovery code"
 msgstr "Confirmar um código de recuperação"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Inscrições e pagamentos"
+msgid "Subscriptions"
+msgstr "Inscrições"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Parear usando um app"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app Firefox."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Deseja cancelar uma inscrição paga? Acesse <a href=\"/subscriptions\">Inscrições e pagamento</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Inscrições e pagamentos"
+
 #~ msgid "Get app"
 #~ msgstr "Obter app"
 
@@ -2416,9 +2426,6 @@ msgstr "Você usou a câmera do sistema? Você deve parear de dentro de um app F
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
 #~ "Serviço SMS disponível apenas em certos países. Taxas de SMS e dados podem ser aplicadas. O destinatário do email ou SMS deve ter consentido. <a %(escapedLearnMoreAttributes)s>Saiba mais</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Inscrições"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Se você perder o acesso à sua conta, poderá restaurar seus dados sincronizados."

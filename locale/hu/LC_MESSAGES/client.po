@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-18 07:10+0000\n"
 "Last-Translator: kemia051 <kemia051@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -884,6 +884,10 @@ msgstr "Elírta az e-mail címet? A(z) %(domain)s nem nyújt e-mail szolgáltat�
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "A képfájl mérete túl nagy a feltöltéshez."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1848,8 +1852,8 @@ msgid "Delete…"
 msgstr "Törlés…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Szeretné lemondani előfizetését? Lépjen az <a href=\"/subscriptions\">Előfizetések és befizetések</a> oldalra."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "Erősítsen meg egy helyreállítási kódot"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Előfizetések és fizetések"
+msgid "Subscriptions"
+msgstr "Előfizetések"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2374,6 +2378,12 @@ msgstr "Párosítás egy alkalmazás segítségével"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Használta a rendszerkamerát? Párosítania kell egy Firefox alkalmazásból."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Szeretné lemondani előfizetését? Lépjen az <a href=\"/subscriptions\">Előfizetések és befizetések</a> oldalra."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Előfizetések és fizetések"
+
 #~ msgid "Get app"
 #~ msgstr "Alkalmazás beszerzése"
 
@@ -2422,9 +2432,6 @@ msgstr "Használta a rendszerkamerát? Párosítania kell egy Firefox alkalmazá
 #~ msgstr ""
 #~ "Az SMS szolgáltatás csak bizonyos országokban érhető el. SMS és adatforgalmi díjak merülhetnek fel. Az SMS vagy e-mail címzettjének a beleegyezését kell adnia. <a "
 #~ "%(escapedLearnMoreAttributes)s>Tudjon meg többet</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Előfizetések"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Ha elveszíti hozzáférését a fiókjához, akkor vissza fogja tudni állítani a szinkronizálási adatokat."

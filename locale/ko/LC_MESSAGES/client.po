@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-06-06 20:21+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "이메일을 잘못 입력하지는 않으셨나요? %(domain)s(은)는 
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1844,8 +1848,8 @@ msgid "Delete…"
 msgstr "삭제…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">구독 및 결제</a>로 이동하십시오."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1916,8 +1920,8 @@ msgid "Confirm a recovery code"
 msgstr "복구 코드 확인"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "구독 및 결제"
+msgid "Subscriptions"
+msgstr "구독"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2365,6 +2369,12 @@ msgstr "앱으로 페어링"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "유료 구독을 취소하시겠습니까? <a href=\"/subscriptions\">구독 및 결제</a>로 이동하십시오."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "구독 및 결제"
+
 #~ msgid "Get app"
 #~ msgstr "앱 받기"
 
@@ -2395,9 +2405,6 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "SMS 서비스는 특정 국가에서만 사용가능합니다. SMS와 데이터 요금이 적용될 수 있습니다. 이메일 또는 SMS 수신자가 동의해야합니다. <a %(escapedLearnMoreAttributes)s>자세히 알아보기</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "구독"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "이미 있는 계정입니다. <a href=\"/signin\">가입하기</a>"

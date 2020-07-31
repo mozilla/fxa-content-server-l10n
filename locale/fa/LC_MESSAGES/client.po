@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-03-06 23:55+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -882,6 +882,10 @@ msgstr "ایمیل را اشتباه وارد کردید؟ %(domain)s امکان
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
 msgstr ""
 
 #: .es5/lib/config-loader.js:117
@@ -1848,7 +1852,7 @@ msgid "Delete…"
 msgstr "حذف…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
 msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
@@ -1920,8 +1924,8 @@ msgid "Confirm a recovery code"
 msgstr "تایید یک کلید بازیابی"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "اشتراک‌ها و پرداخت‌ها"
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2372,6 +2376,9 @@ msgstr "جفت سازی با استفاده از برنامه"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "آیا از دوربین سیستم استفاده کردید؟ شما باید از درون یک برنامه فایرفاکس جفت سازی کنید."
 
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "اشتراک‌ها و پرداخت‌ها"
+
 #~ msgid "Get app"
 #~ msgstr "گرفتن برنامه"
 
@@ -2403,9 +2410,6 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
 #~ "سرویس پیامک تنها در برخی کشور‌ها در دسترس است. نرخ‌های پیامک یا داده ممکن است اعمال شوند. گیرنده مورد نظر پیامک یا رایانامه باید راضی باشد. <a %(escapedLearnMoreAttributes)s>بیش‌تر بیاموزید</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "اشتراک‌ها"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "حساب از قبل وجود دارد. <a href=\"/signin\">وارد شوید</a>"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
-"PO-Revision-Date: 2020-07-05 12:32+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
+"PO-Revision-Date: 2020-07-24 18:56+0000\n"
+"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -375,8 +375,8 @@ msgid "Your subscription will automatically renew each billing period unless you
 msgstr "Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
-msgid "Thank you for subscribing to %(productName)s!"
-msgstr "Tack för att du prenumererar på %(productName)s!"
+msgid "Thank you for subscribing to %(productName)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -466,6 +466,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
+"Din faktureringsperiod och betalning förblir desamma. Din nästa faktura är på %(invoiceTotal)s och dras den %(nextInvoiceDateOnly)s. Din prenumeration förnyas automatiskt varje faktureringsperiod "
+"om du inte väljer att avbryta."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -977,6 +979,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Ladda ner senaste"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "Tack för att du prenumererar på %(productName)s!"
 
 #~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 #~ msgstr ""

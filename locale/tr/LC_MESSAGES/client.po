@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-20 09:06+0000\n"
 "Last-Translator: Gürkan <gurkan_gullu@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,6 +883,10 @@ msgstr "E-postanızı yanlış mı yazdınız? %(domain)s e-posta hizmeti vermiy
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Görüntü dosyası boyutu yüklenemeyecek kadar büyük."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1844,8 +1848,8 @@ msgid "Delete…"
 msgstr "Sil…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler ve ödemeler</a> sayfasına gidin."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1916,8 +1920,8 @@ msgid "Confirm a recovery code"
 msgstr "Kurtarma kodunu doğrulayın"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonelikler ve ödemeler"
+msgid "Subscriptions"
+msgstr "Abonelikler"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2370,6 +2374,12 @@ msgstr "Uygulama kullanarak eşleştir"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden eşleştirme yapmalısınız."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler ve ödemeler</a> sayfasına gidin."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonelikler ve ödemeler"
+
 #~ msgid "Get app"
 #~ msgstr "Uygulama indir"
 
@@ -2414,9 +2424,6 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgstr ""
 #~ "SMS hizmeti yalnızca belli ülkelerde kullanılabilir. SMS ve veri ücreti uygulanabilir. E-posta veya SMS alıcısı bu mesajı almaya rıza göstermiş olmalıdır. <a %(escapedLearnMoreAttributes)s>Daha "
 #~ "fazla bilgi alın</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Abonelikler"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Hesabınıza ulaşamak hale gelirseniz eşitlenen verilerinizi kurtarabilirsiniz."

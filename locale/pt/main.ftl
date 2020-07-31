@@ -276,6 +276,13 @@ reactivate-confirm-copy =
     O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
     e pagamento irão permanecer. O seu próximo débito será de¶
     { $amount } para o cartão que termina em { $last } em { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
+    e de pagamento irão permanecer os mesmos. O seu próximo débito será de¶
+    { $amount } a { $endDate }.
 reactivate-confirm-button = Resubscrever
 
 ##  $date (Date) - Last day of product access

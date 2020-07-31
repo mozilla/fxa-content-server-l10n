@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-18 01:27+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -884,6 +884,10 @@ msgstr "输错邮箱地址了？%(domain)s 不提供邮件服务。"
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "图片太大，无法上传。"
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1839,8 +1843,8 @@ msgid "Delete…"
 msgstr "删除…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "想要取消付费订阅？前往<a href=\"/subscriptions\">订阅与付款</a>页面。"
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1911,8 +1915,8 @@ msgid "Confirm a recovery code"
 msgstr "确认救援码"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "订阅与付款"
+msgid "Subscriptions"
+msgstr "订阅"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2359,6 +2363,12 @@ msgstr "请使用应用（App）配对"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您用了系统的“相机”应用？配对必须通过 Firefox 应用（App）完成。"
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "想要取消付费订阅？前往<a href=\"/subscriptions\">订阅与付款</a>页面。"
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "订阅与付款"
+
 #~ msgid "Get app"
 #~ msgstr "获取应用"
 
@@ -2404,9 +2414,6 @@ msgstr "您用了系统的“相机”应用？配对必须通过 Firefox 应用
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr "短信（SMS）服务仅在特定国家可用。可能被收取短信与流量费用。必须已征得电子邮件或短信的预期收件人同意。<a %(escapedLearnMoreAttributes)s>详细了解</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "订阅"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "若无法登录自己的账户，就无法恢复同步数据。"

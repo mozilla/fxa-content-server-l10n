@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-22 18:09+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -380,8 +380,8 @@ msgid "Your subscription will automatically renew each billing period unless you
 msgstr "Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
-msgid "Thank you for subscribing to %(productName)s!"
-msgstr "¡Gracias por suscribirte a %(productName)s!"
+msgid "Thank you for subscribing to %(productName)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -981,6 +981,9 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Descargar la última versión"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "¡Gracias por suscribirte a %(productName)s!"
 
 #~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 #~ msgstr ""

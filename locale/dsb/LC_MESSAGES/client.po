@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-24 16:04+0000\n"
+"POT-Creation-Date: 2020-07-31 16:05+0000\n"
 "PO-Revision-Date: 2020-07-17 17:02+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -884,6 +884,10 @@ msgstr "Pisańska zmólka w e-mailowej adresy? %(domain)s e-mailowu słužbu nje
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "Wobrazowa dataja jo pśewjelika za nagraśe."
+
+#: .es5/lib/auth-errors.js:617
+msgid "Could not update Ecosystem Anon ID because precondition failed."
+msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1847,8 +1851,8 @@ msgid "Delete…"
 msgstr "Lašowaś…"
 
 #: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-msgstr "Cośo zapłaśony abonement wótskazaś? Źiśo k <a href=\"/subscriptions\">Abonementy a płaśenja</a>."
+msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1919,8 +1923,8 @@ msgid "Confirm a recovery code"
 msgstr "Wótnowjeński kod wobkšuśiś"
 
 #: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions & Payments"
-msgstr "Abonementy a płaśenja"
+msgid "Subscriptions"
+msgstr "Abonementy"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2372,6 +2376,12 @@ msgstr "Z nałoženim koplowaś"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Cośo zapłaśony abonement wótskazaś? Źiśo k <a href=\"/subscriptions\">Abonementy a płaśenja</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Abonementy a płaśenja"
+
 #~ msgid "Get app"
 #~ msgstr "Nałoženje ześěgnuś"
 
@@ -2420,9 +2430,6 @@ msgstr "Sćo wužył systemowu kameru? Musyśo w nałoženju Firefox koplowaś."
 #~ msgstr ""
 #~ "SMS-słužba jo jano we wěstych krajach k dispoziciji. Za SMS a datowe pśenjasenje mógu płaśonki nastaś. Dostawaŕ mejlki abo SMS musy do togo pśigłosowaś. <a %(escapedLearnMoreAttributes)s>Dalšne "
 #~ "informacije</a>"
-
-#~ msgid "Subscriptions"
-#~ msgstr "Abonementy"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Jolic wěcej k swójomu kontoju pśistup njamaśo, móžośo swóje synchronizěrowańske daty wótnowiś."
