@@ -26,7 +26,7 @@ card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת
 
 ## settings
 
-settings-subscriptions = מינויים ותשלומים
+settings-subscriptions-title = מינויים
 
 ## legal footer
 
