@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-08-01 06:22+0000\n"
+"PO-Revision-Date: 2020-08-01 06:28+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -2139,7 +2139,7 @@ msgstr "ਆਪਣੇ ਡਿਵਾਈਸ ਉੱਤੇ ਕੈਮਰਾ ਐਪ ਨ�
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "ਕੈਮਰੇ ਨੂੰ QR ਕੋਡ ਉੱਤੇ ਕਰੋ ਅਤੇ ਨਸ਼ਰ ਹੋਣ ਵਾਲੇ ਲਿੰਕ ਨੂੰ ਛੂਹੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
@@ -2151,19 +2151,19 @@ msgstr "ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਸਾਇਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>ਆਪਣੇ ਡਿਵਾਈਸ ਉੱਤੇ ਕੈਮਰਾ ਐਪ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>ਕੈਮਰੇ ਨੂੰ QR ਕੋਡ ਉੱਤੇ ਕਰੋ ਅਤੇ ਨਸ਼ਰ ਹੋਣ ਵਾਲੇ ਲਿੰਕ ਨੂੰ ਛੂਹੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Firefox ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਆਪਣੇ ਡਿਵਾਈਸ ਉੱਤੇ ਇਸ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
