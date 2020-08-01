@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-08-01 06:01+0000\n"
+"PO-Revision-Date: 2020-08-01 06:22+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -2143,7 +2143,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Firefox ਇੰਸਟਾਲ ਕਰੋ ਅਤੇ ਆਪਣੇ ਡਿਵਾਈਸ ਉੱਤੇ ਇਸ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
