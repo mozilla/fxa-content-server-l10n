@@ -50,7 +50,7 @@ card-error = Nie można przetworzyć transakcji. Sprawdź poprawność informacj
 ## settings
 
 settings-home = Strona główna konta
-settings-subscriptions = Subskrypcje i płatności
+settings-subscriptions-title = Subskrypcje
 
 ## legal footer
 
