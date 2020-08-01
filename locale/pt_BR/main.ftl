@@ -34,7 +34,7 @@ card-error = Não foi possível processar sua transação. Confira as informaç�
 ## settings
 
 settings-home = Página inicial da conta
-settings-subscriptions = Assinaturas e pagamentos
+settings-subscriptions-title = Assinaturas
 
 ## legal footer
 
