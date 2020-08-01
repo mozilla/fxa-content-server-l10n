@@ -18,6 +18,7 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = Lỗi ứng dụng chung
 basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 payment-error-1 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
 payment-error-2 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
@@ -33,7 +34,7 @@ card-error = Không thể xử lý giao dịch của bạn. Vui lòng xác minh 
 ## settings
 
 settings-home = Trang chủ tài khoản
-settings-subscriptions = Đăng ký & thanh toán
+settings-subscriptions-title = Thuê bao
 
 ## legal footer
 
@@ -181,6 +182,8 @@ sub-update-confirm-with-legal-links-year =
 ##
 
 sub-update-submit = Xác nhận nâng cấp
+sub-update-indicator =
+    .aria-label = chỉ số nâng cấp
 sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
 sub-update-total-label = Tổng số mới
@@ -271,7 +274,7 @@ reactivate-success-button = Đóng
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-missing = Sự cố khi tải đăng ký
+sub-item-missing = Sự cố khi tải thuê bao
 sub-item-missing-msg = Vui lòng thử lại sau.
 sub-item-no-such-plan = Không có lịch như vậy cho đăng ký này.
 sub-item-cancel-sub = Hủy đăng ký
@@ -299,7 +302,7 @@ sub-route-idx-cancel-msg =
           Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
 sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
 sub-subscription-error =
-    .title = Sự cố khi tải đăng ký
+    .title = Sự cố khi tải thuê bao
 sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
 
 ## subscription create
