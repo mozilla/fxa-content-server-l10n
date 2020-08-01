@@ -34,7 +34,7 @@ card-error = 无法处理您的交易。请检查您的信用卡信息，然后�
 ## settings
 
 settings-home = 账户首页
-settings-subscriptions = 订阅与付款
+settings-subscriptions-title = 订阅
 
 ## legal footer
 
