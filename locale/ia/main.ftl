@@ -34,7 +34,7 @@ card-error = Tu transaction non pote esser processate. Verifica le informationes
 ## settings
 
 settings-home = Pagina principal del conto
-settings-subscriptions = Abonamentos e pagamentos
+settings-subscriptions-title = Subscriptiones
 
 ## legal footer
 
@@ -270,6 +270,13 @@ reactivate-confirm-dialog-header = Vole tu continuar usar { $nomine }?
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy = Tu accesso a { $nomine } continuara e tu termino de facturation e pagamento remanera identic. Tu amonta successive sera { $amonta } al carta finiente in { $ultime } le { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Tu accesso a { $nomine } continuara e tu termino de facturation
+     e pagamento remanera identic. Tu amonta successive sera 
+    { $amonta } le { $endDate }.
 reactivate-confirm-button = Renovar le subscription
 
 ##  $date (Date) - Last day of product access
