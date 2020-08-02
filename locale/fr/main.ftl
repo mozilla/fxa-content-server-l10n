@@ -34,7 +34,6 @@ card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les 
 ## settings
 
 settings-home = Accueil du compte
-settings-subscriptions = Abonnements et paiements
 
 ## legal footer
 
@@ -276,6 +275,10 @@ reactivate-confirm-copy =
     Vous garderez accès à { $name } et votre cycle de facturation et
     le paiement resteront les mêmes. Votre prochain débit sera de
     { $amount } sur la carte se terminant par { $last } le { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } le { $endDate }.
 reactivate-confirm-button = Se réabonner
 
 ##  $date (Date) - Last day of product access
