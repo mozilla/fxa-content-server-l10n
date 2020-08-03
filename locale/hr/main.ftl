@@ -148,6 +148,30 @@ payment-confirmation-heading-bak = Hvala!
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-details-heading = Podaci o plaćanju
+payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } dnevno
+        [few] { $amount } svaka { $intervalCount } dana
+       *[other] { $amount } svakih { $intervalCount } dana
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } tjedno
+        [few] { $amount } svaka { $intervalCount } tjenda
+       *[other] { $amount } svakih { $intervalCount } tjedna
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mjesečno
+        [few] { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $amount } svakih { $intervalCount } mjeseci
+    }
+payment-confirmation-cc-preview = završava na { $last4 }
+payment-confirmation-download-button = Nastavi s preuzimanjem
