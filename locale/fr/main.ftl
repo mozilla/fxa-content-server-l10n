@@ -271,10 +271,7 @@ reactivate-confirm-dialog-header = Vous voulez continuer à utiliser { $name } 
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
-reactivate-confirm-copy =
-    Vous garderez accès à { $name } et votre cycle de facturation et
-    le paiement resteront les mêmes. Votre prochain débit sera de
-    { $amount } sur la carte se terminant par { $last } le { $endDate }.
+reactivate-confirm-copy = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } sur la carte se terminant par { $last } le { $endDate }.
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
