@@ -34,7 +34,7 @@ card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgeg
 ## settings
 
 settings-home = Account-startpagina
-settings-subscriptions = Abonnementen en betalingen
+settings-subscriptions-title = Abonnementen
 
 ## legal footer
 
