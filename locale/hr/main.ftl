@@ -43,12 +43,19 @@ terms = Uvjeti usluge
 
 ## payment form
 
+payment-name =
+    .placeholder = Potpuno ime
+    .label = Prikazano ime na kartici
 payment-cc =
     .label = Tvoja kartica
 payment-ccn =
     .label = Broj kartice
 payment-exp =
     .label = Datum isteka
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Poštanski broj
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
