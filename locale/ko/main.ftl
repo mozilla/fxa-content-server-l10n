@@ -38,7 +38,7 @@ settings-home = 계정 홈
 ## legal footer
 
 terms = 서비스 약관
-privacy = 개인정보 취급방침
+privacy = 개인정보처리방침
 
 ## plan details
 
