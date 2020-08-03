@@ -120,18 +120,34 @@ reactivate-success-button = Zatvori
 sub-item-missing = Problem s učitavanjem pretplata
 sub-item-missing-msg = Pokušaj ponovo kasnije.
 sub-item-cancel-sub = Otkaži pretplatu
+account-activated = Tvoj je račun aktiviran, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Aktualiziranje podataka naplaćivanja …
+sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
+sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
+sub-route-idx-contact = Obrati se podršci
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-header = Podaci proizvoda
+plan-details-show-button = Pokaži podatke
+plan-details-hide-button = Sakrij podatke
+plan-details-total-label = Ukupno
 
 ## payment confirmation
 
+payment-confirmation-alert = Pritisni ovdje za preuzimanje
+payment-confirmation-mobile-alert = Program se nije otcorio? <a>Klikni ovdje</a>
+payment-confirmation-heading = Hvala { $displayName }!
+payment-confirmation-heading-bak = Hvala!
+payment-confirmation-order-heading = Podaci narudžbe
+payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
+payment-confirmation-details-heading = Podaci o plaćanju
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
