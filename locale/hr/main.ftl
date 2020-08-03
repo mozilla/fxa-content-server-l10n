@@ -62,21 +62,32 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Odustani
+payment-update-btn = Aktualiziraj
+payment-pay-btn = Plati sada
+payment-validate-name-error = Upiši tvoje ime
+payment-validate-zip-required = Moraš zadati poštanski broj
+payment-validate-zip-short = Poštanski broj je prekratak
 
 ## subscription redirect
 
+sub-redirect-ready = Tvoja pretplata je spremna
 
 ## fields
 
+default-input-error = Ovo je obavezno polje
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Pregledaj svoju nadogradnju
+sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Potvrdi nadogradnju
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -90,6 +101,8 @@ payment-zip =
 
 ##
 
+pay-update-card-exp = Isteče { $expirationDate }
+pay-update-change-btn = Promijeni
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
