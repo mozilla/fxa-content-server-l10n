@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-08-03 21:54+0000\n"
+"PO-Revision-Date: 2020-08-03 22:02+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -463,11 +463,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Hvala na nadogradnji!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Uspješno si nadogradio/la s %(productNameOld)s na %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -493,7 +493,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Dobro došao/Dobro došla u obitelj Firefox"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -661,11 +661,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Uvjeti i politika otkazivanja"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Ponovno aktiviranje pretplate"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -689,7 +689,7 @@ msgstr "Uvjeti i pravila otkazivanja:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Napomena o privatnosti:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
@@ -737,11 +737,11 @@ msgstr "Verifikacijski kôd: %(code)s"
 
 #: lib/senders/email.js:650
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Podsjetnik: Dovrši otvaranje tvog računa"
 
 #: lib/senders/email.js:652
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Konačni podsjetnik: Aktiviraj svoj račun"
 
 #: lib/senders/email.js:707
 msgid "Account authorization code"
@@ -757,7 +757,7 @@ msgstr ""
 
 #: lib/senders/email.js:886
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Potvrdi primarnu e-mail adresu"
 
 #: lib/senders/email.js:887 lib/senders/email.js:946 lib/senders/email.js:1014
 msgid "Verify email"
@@ -769,11 +769,11 @@ msgstr "Potvrdi sekundarnu e-poštu"
 
 #: lib/senders/email.js:1069
 msgid "Reset your password"
-msgstr ""
+msgstr "Ponovo postavi svoju lozinku"
 
 #: lib/senders/email.js:1111 lib/senders/email.js:1177
 msgid "Password updated"
-msgstr ""
+msgstr "Lozinka aktualizirana"
 
 #: lib/senders/email.js:1149 lib/senders/email.js:1207
 msgid "Suspicious activity detected"
@@ -790,15 +790,15 @@ msgstr ""
 
 #: lib/senders/email.js:1371
 msgid "Primary email updated"
-msgstr ""
+msgstr "Primarna e-mail adresa aktualizirana"
 
 #: lib/senders/email.js:1441
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Dvofaktorska autentifikacija aktivirana"
 
 #: lib/senders/email.js:1484
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Dvofaktorska autentifikacija isključena"
 
 #: lib/senders/email.js:1570
 msgid "Recovery code used"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: lib/senders/email.js:1628
 msgid "Generate codes"
-msgstr ""
+msgstr "Generiraj kodove"
 
 #: lib/senders/email.js:1752
 msgid "Password updated using recovery key"
@@ -862,7 +862,7 @@ msgstr ""
 
 #: lib/senders/email.js:2440
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Preuzmi %(productName)s"
 
 #: lib/senders/email.js:2466
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
@@ -874,7 +874,7 @@ msgstr ""
 
 #: lib/senders/email.js:2481
 msgid "Sync another device"
-msgstr ""
+msgstr "Sinkroniziraj jedan drugi uređaj"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
