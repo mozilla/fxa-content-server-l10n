@@ -26,7 +26,7 @@ insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen
 ## settings
 
 settings-home = Asebter agejdan n umiḍan
-settings-subscriptions = Ijerriden d lexlaṣ
+settings-subscriptions-title = Ajerred
 
 ## legal footer
 
