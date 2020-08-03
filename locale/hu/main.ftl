@@ -34,7 +34,7 @@ card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatai
 ## settings
 
 settings-home = Fiók kezdőlapja
-settings-subscriptions = Előfizetések és fizetések
+settings-subscriptions-title = Előfizetések
 
 ## legal footer
 
