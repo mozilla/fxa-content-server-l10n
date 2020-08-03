@@ -107,14 +107,19 @@ pay-update-change-btn = Promijeni
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Obnovi pretplatu
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Zatvori
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problem s učitavanjem pretplata
+sub-item-missing-msg = Pokušaj ponovo kasnije.
+sub-item-cancel-sub = Otkaži pretplatu
 
 ## subscription route index
 
