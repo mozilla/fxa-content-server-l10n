@@ -119,6 +119,7 @@ sub-redirect-skip-survey = Ala tanemmirt, awi-yi kan ɣer ufaris-inu.
 ## fields
 
 default-input-error = Urti-a yettwasra
+input-error-is-required = { $label } ilaq
 
 ## subscription upgrade
 

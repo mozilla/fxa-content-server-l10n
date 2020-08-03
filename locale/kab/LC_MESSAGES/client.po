@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-08-03 18:02+0000\n"
+"PO-Revision-Date: 2020-08-03 20:27+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -881,7 +881,7 @@ msgstr "Imayl d arameɣtu? %(domain)s ur d-yettak ara imayl."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali."
 
 #: .es5/lib/auth-errors.js:617
 msgid "Could not update Ecosystem Anon ID because precondition failed."
