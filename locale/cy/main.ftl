@@ -34,7 +34,7 @@ card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn 
 ## settings
 
 settings-home = Cartref Cyfrif
-settings-subscriptions = Tanysgrifiadau a Thaliadau
+settings-subscriptions-title = Tanysgrifiadau
 
 ## legal footer
 
