@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-08-02 04:58+0000\n"
+"PO-Revision-Date: 2020-08-04 06:27+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -443,11 +443,11 @@ msgstr "Hanjakalna, upama taya iber sanggeus tilu poé, aksés ka %(productName)
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Bantuan menerkeun ku cara ngamutahirkeun émbaran pembayaran anjeun dina tilu poé:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Nuhun tos ngaktipkeun deui langganan %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
