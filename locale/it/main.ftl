@@ -34,7 +34,7 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 ## settings
 
 settings-home = Pagina principale dell’account
-settings-subscriptions = Abbonamenti e pagamenti
+settings-subscriptions-title = Abbonamenti
 
 ## legal footer
 
