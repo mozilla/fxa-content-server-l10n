@@ -34,7 +34,7 @@ card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñe
 ## settings
 
 settings-home = Mba’ete Ñepyrũgua
-settings-subscriptions = Mboheraguapy ha hepyme’ẽ
+settings-subscriptions-title = Mboheraguapy
 
 ## legal footer
 
