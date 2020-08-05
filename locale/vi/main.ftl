@@ -76,6 +76,8 @@ product-plan-error =
     .title = Sự cố khi tải lịch
 product-profile-error =
     .title = Sự cố khi tải hồ sơ
+product-customer-error =
+    .title = Sự cố tải thông tin khách hàng
 product-plan-not-found = Không tìm thấy lịch
 product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
@@ -303,6 +305,8 @@ sub-route-idx-cancel-msg =
 sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Sự cố khi tải thuê bao
+sub-customer-error =
+    .title = Sự cố tải thông tin khách hàng
 sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
 
 ## subscription create
