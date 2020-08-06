@@ -40,7 +40,7 @@ card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yrit�
 ## settings
 
 settings-home = Tilin koti
-settings-subscriptions = Tilaukset ja maksut
+settings-subscriptions-title = Tilaukset
 
 ## legal footer
 
