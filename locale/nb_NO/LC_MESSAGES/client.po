@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-07-31 18:39+0000\n"
+"PO-Revision-Date: 2020-08-07 08:07+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -887,7 +887,7 @@ msgstr "Bildefilens størrelse er for stor til å lastes opp."
 
 #: .es5/lib/auth-errors.js:617
 msgid "Could not update Ecosystem Anon ID because precondition failed."
-msgstr ""
+msgstr "Kunne ikke oppdatere Ecosystem Anon-ID fordi forutsetningen mislyktes."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
