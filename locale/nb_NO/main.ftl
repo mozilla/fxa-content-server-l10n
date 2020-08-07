@@ -251,9 +251,16 @@ sub-plan-price-month =
         [one] { $amount } månedlig
        *[other] { $amount } hver { $intervalCount } måned
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } årlig
+       *[other] { $amount } hvert { $intervalCount } år
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Neste fakturering den { $date }
 
 ##
 
