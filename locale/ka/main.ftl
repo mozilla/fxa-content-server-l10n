@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } ყოველ { $intervalCount } წელიწადში
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] თქვენ გეჭრებათ { $amount } ყოველდღიურად მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
-       *[other] თქვენ გეჭრებათ { $amount } ყოველ { $intervalCount } დღეში მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
+        [one] { $amount } ყოველდღიურად
+       *[other] { $amount } ყოველ { $intervalCount } დღეში
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] თქვენ გეჭრებათ { $amount } ყოველკვირეულად მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
-       *[other] თქვენ გეჭრებათ { $amount } ყოველ { $intervalCount } კვირაში მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
+        [one] { $amount } ყოველკვირეულად
+       *[other] { $amount } ყოველ { $intervalCount } კვირაში
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] თქვენ გეჭრებათ { $amount } ყოველთვიურად მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
-       *[other] თქვენ გეჭრებათ { $amount } ყოველ { $intervalCount } თვეში მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
+        [one] { $amount } ყოველთვიურად
+       *[other] { $amount } ყოველ { $intervalCount } თვეში
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] თქვენ გეჭრებათ { $amount } ყოველწლიურად მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
-       *[other] თქვენ გეჭრებათ { $amount } ყოველ { $intervalCount } წელიწადში მომსახურებისთვის { $name }. მომდევნო გადახდის თარიღია { $date }.
+        [one] { $amount } ყოველწლიურად
+       *[other] { $amount } ყოველ { $intervalCount } წელიწადში
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = მომდევნო ანგარიშსწორება { $date }
 
 ##
 
