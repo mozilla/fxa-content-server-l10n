@@ -262,43 +262,45 @@ plan-price-year =
        *[other] { $amount } kóžde { $intervalCount } lět
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Dyrbiće kóždy dźen { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [two] Dyrbiće kóždej { $intervalCount } dnjej { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [few] Dyrbiće kóžde { $intervalCount } dny { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-       *[other] Dyrbiće kóžde { $intervalCount } dnjow { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [one] { $amount } kóždy dźeń
+        [two] { $amount } kóždej { $intervalCount } dnjej
+        [few] { $amount } kóžde { $intervalCount } dny
+       *[other] { $amount } kóžde { $intervalCount } dnjow
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Dyrbiće kóždy tydźeń { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [two] Dyrbiće kóždej { $intervalCount } njedźeli { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [few] Dyrbiće kóžde { $intervalCount } njedźele { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-       *[other] Dyrbiće kóžde { $intervalCount } njedźel { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [one] { $amount } kóždu njedźelu
+        [two] { $amount } kóždej { $intervalCount } njedźeli
+        [few] { $amount } kóžde { $intervalCount } njedźele
+       *[other] { $amount } kóžde { $intervalCount } njedźel
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Dyrbiće kóždy měsac { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [two] Dyrbiće kóždej { $intervalCount } měsacaj { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [few] Dyrbiće kóžde { $intervalCount } měsacy { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-       *[other] Dyrbiće kóžde { $intervalCount } měsacow { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [one] { $amount } kóždy měsac
+        [two] { $amount } kóždej { $intervalCount } měsacaj
+        [few] { $amount } kóžde { $intervalCount } měsacy
+       *[other] { $amount } kóžde { $intervalCount } měsacow
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Dyrbiće kóžde lěto { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [two] Dyrbiće kóždej { $intervalCount } lěće { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-        [few] Dyrbiće kóžde { $intervalCount } lěta { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
-       *[other] Dyrbiće kóžde { $intervalCount } lět { $amount } za { $name } płaćić. Waše přichodne płaćenje so { $date } stawa.
+        [one] { $amount } kóžde lěto
+        [two] { $amount } kóždej { $intervalCount } lěće
+        [few] { $amount } kóžde { $intervalCount } lěta
+       *[other] { $amount } kóžde { $intervalCount } lět
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Přichodna zličbowanka: { $date }
 
 ##
 
