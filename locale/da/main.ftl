@@ -34,7 +34,7 @@ card-error = Din transaktion kunne ikke behandles. Kontroller oplysningerne om d
 ## settings
 
 settings-home = Startside for konto
-settings-subscriptions = Abonnementer & betalinger
+settings-subscriptions-title = Abonnementer
 
 ## legal footer
 
@@ -230,35 +230,24 @@ plan-price-year =
        *[other] { $amount } hvert { $intervalCount } år
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Du bliver faktureret { $amount } dagligt for { $name }.
-       *[other] Du bliver faktureret { $amount } hver { $intervalCount } dag for { $name }.
+        [one] { $amount } dagligt
+       *[other] { $amount } hver { $intervalCount } dag
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Du bliver faktureret { $amount } ugentligt for { $name }. Din næste betaling finder sted den { $date }.
-       *[other] Du bliver faktureret { $amount } hver { $intervalCount } uge for { $name }. Din næste betaling finder sted den { $date }.
+        [one] { $amount } ugentligt
+       *[other] { $amount } hver { $intervalCount } uge
     }
-#  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
-    { $intervalCount ->
-        [one] Du bliver faktureret { $amount } månedligt for { $name }. Din næste betaling finder sted den { $date }.
-       *[other] Du bliver faktureret { $amount } hver { $intervalCount } måned for { $name }. Din næste betaling finder sted den { $date }.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
-    { $intervalCount ->
-        [one] Du bliver faktureret { $amount } årligt for { $name }. Din næste betaling finder sted den { $date }.
-       *[other] Du bliver faktureret { $amount } hver { $intervalCount } år for { $name }. Din næste betaling finder sted den { $date }.
-    }
+
+## $date (Date) - The date for the next time a charge will occur.
+
 
 ##
 
@@ -359,7 +348,7 @@ payment-confirmation-amount = { $amount } per { $interval }
 payment-confirmation-amount-day =
     { $intervalCount ->
         [one] { $amount } dagligt
-       *[other] { $amount } hver { $intervalCount } dage
+       *[other] { $amount } hver { $intervalCount } dag
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirmation-amount-week =
