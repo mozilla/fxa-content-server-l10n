@@ -245,6 +245,18 @@ sub-plan-price-week =
         [one] { $amount } ugentligt
        *[other] { $amount } hver { $intervalCount } uge
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } månedligt
+       *[other] { $amount } hver { $intervalCount } måned
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } årligt
+       *[other] { $amount } hvert { $intervalCount } år
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
