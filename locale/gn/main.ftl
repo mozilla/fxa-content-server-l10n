@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } peteĩ { $intervalCount } arýpe
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme’ẽ oikóta { $date }-pe.
-       *[other] Oñembokuatiañeñũha { $amount } árape { $name } peg̃uarã. Jehepyme’ẽ oikóta { $date }-pe.
+        [one] { $amount } aragua
+       *[other] { $amount } peteĩteĩva { $intervalCount } ára
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Oñembokuatiañeñũ { $amount } arapokõindýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
-       *[other] Oñembokuatiañeñũ { $amount } peteĩ { $intervalCount } arapokõindýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+        [one] { $amount } arapokõindýpe
+       *[other] { $amount } peteĩteĩ { $intervalCount } arapokõindýpe
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Oñembokuatiañeñũha { $amount } jasýpe { $name } peg̃uarã. Jehepyme’ẽpyahu oikóta { $date }-pe.
-       *[other] Oñembokuatiañeñũha { $amount } peteĩ { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+        [one] { $amount } jasýpe
+       *[other] { $amount } peteĩteĩva { $intervalCount } jasýpe
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Oñembokuatiañeñũha { $amount } jasýpe { $name } peg̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
-       *[other] Oñembokuatiañeñũha { $amount } peteĩ { $name } arýpe g̃uarã. Jehepyme’ẽ pyahu oikóta { $date }-pe.
+        [one] { $amount } arýpe
+       *[other] { $amount } peteĩteĩva { $intervalCount } arýpe
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
 
 ##
 
