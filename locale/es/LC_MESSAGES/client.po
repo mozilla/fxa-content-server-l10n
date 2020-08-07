@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 16:04+0000\n"
-"PO-Revision-Date: 2020-08-07 16:58+0000\n"
+"PO-Revision-Date: 2020-08-07 17:15+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1642,7 +1642,7 @@ msgstr "¿Por qué sincronizar varios dispositivos?"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
-msgstr ""
+msgstr "Ahora no"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1650,7 +1650,7 @@ msgstr "Comprueba tu ortografía"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Te hemos enviado un mensaje de texto"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
