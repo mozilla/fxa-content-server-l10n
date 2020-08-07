@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } alle { $intervalCount } Jahre
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Es werden Ihnen täglich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
-       *[other] Es werden Ihnen alle { $intervalCount } Tage { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+        [one] { $amount } pro Tag
+       *[other] { $amount } alle { $intervalCount } Tage
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Es werden Ihnen wöchentlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
-       *[other] Es werden Ihnen alle { $intervalCount } Wochen { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+        [one] { $amount } pro Woche
+       *[other] { $amount } alle { $intervalCount } Wochen
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Es werden Ihnen monatlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
-       *[other] Es werden Ihnen alle { $intervalCount } Monate { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+        [one] { $amount } pro Monat
+       *[other] { $amount } alle { $intervalCount } Monate
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Es werden Ihnen jährlich { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
-       *[other] Es werden Ihnen alle { $intervalCount } Jahre { $amount } für { $name } berechnet. Die nächste Abbuchung findet am { $date } statt.
+        [one] { $amount } pro Jahr
+       *[other] { $amount } alle { $intervalCount } Jahre
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Nächste Abrechnung am { $date }
 
 ##
 
