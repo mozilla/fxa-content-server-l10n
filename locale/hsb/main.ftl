@@ -268,7 +268,7 @@ plan-price-year =
 #  $intervalCount (Number) - The interval between payments, in days.
 sub-plan-price-day =
     { $intervalCount ->
-        [one] { $amount } kóždy dźeń
+        [one] { $amount } kóždy { $intervalCount } dźeń
         [two] { $amount } kóždej { $intervalCount } dnjej
         [few] { $amount } kóžde { $intervalCount } dny
        *[other] { $amount } kóžde { $intervalCount } dnjow
