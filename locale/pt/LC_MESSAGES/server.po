@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 16:05+0000\n"
-"PO-Revision-Date: 2020-07-25 15:07+0000\n"
+"POT-Creation-Date: 2020-08-07 16:04+0000\n"
+"PO-Revision-Date: 2020-08-01 15:59+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -379,7 +379,7 @@ msgstr "As sua subscrição irá ser renovada automaticamente em cada período d
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Obrigado por subscrever ao %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."

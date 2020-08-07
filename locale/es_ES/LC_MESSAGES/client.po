@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 16:05+0000\n"
+"POT-Creation-Date: 2020-08-07 16:04+0000\n"
 "PO-Revision-Date: 2020-07-17 18:17+0000\n"
 "Last-Translator: Javier García <subset3001@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -883,10 +883,6 @@ msgstr "¿Correo mal escrito? %(domain)s no ofrece correo electrónico."
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
 msgstr "El tamaño del archivo de imagen es demasiado grande para cargarlo."
-
-#: .es5/lib/auth-errors.js:617
-msgid "Could not update Ecosystem Anon ID because precondition failed."
-msgstr ""
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
