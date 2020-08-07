@@ -34,7 +34,7 @@ card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici inform
 ## settings
 
 settings-home = Pagina principală a contului
-settings-subscriptions = Abonamente și plăți
+settings-subscriptions-title = Abonamente
 
 ## legal footer
 
