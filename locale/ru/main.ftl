@@ -23,7 +23,6 @@ basic-error-message = Что-то пошло не так. Пожалуйста, 
 
 ## settings
 
-settings-subscriptions = Подписки и платежи
 
 ## legal footer
 
@@ -146,3 +145,4 @@ payment-confirmation-subheading = Письмо для подтверждения
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Продолжить загрузку
