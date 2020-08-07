@@ -246,39 +246,41 @@ plan-price-year =
        *[many] { $amount } кожні { $intervalCount } років
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Рахунок за { $name } розміром { $amount } виставляється щодня. Наступний платіж відбудеться { $date }.
-        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } дні. Наступний платіж відбудеться { $date }.
-       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } днів. Наступний платіж відбудеться { $date }.
+        [one] { $amount } щодня
+        [few] { $amount } кожні { $intervalCount } дні
+       *[many] { $amount } кожні { $intervalCount } днів
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Рахунок за { $name } розміром { $amount } виставляється щотижня. Наступний платіж відбудеться { $date }.
-        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } тижні. Наступний платіж відбудеться { $date }.
-       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } тижнів. Наступний платіж відбудеться { $date }.
+        [one] { $amount } кожні щотижня
+        [few] { $amount } кожні { $intervalCount } тижні
+       *[many] { $amount } кожні { $intervalCount } тижнів
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Рахунок за { $name } розміром { $amount } виставляється щомісяця. Наступний платіж відбудеться { $date }.
-        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } місяці. Наступний платіж відбудеться { $date }.
-       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } місяців. Наступний платіж відбудеться { $date }.
+        [one] { $amount } щомісяця
+        [few] { $amount } кожні { $intervalCount } місяці
+       *[many] { $amount } кожні { $intervalCount } місяців
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Рахунок за { $name } розміром { $amount } виставляється щороку. Наступний платіж відбудеться { $date }.
-        [few] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } роки. Наступний платіж відбудеться { $date }.
-       *[many] Рахунок за { $name } розміром { $amount } виставляється кожні { $intervalCount } років. Наступний платіж відбудеться { $date }.
+        [one] { $amount } щороку
+        [few] { $amount } кожні { $intervalCount } роки
+       *[many] { $amount } кожні { $intervalCount } років
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Наступна оплата { $date }
 
 ##
 
