@@ -115,11 +115,13 @@ sub-update-total-label = סה״כ חדש
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = החיוב הבא בתאריך { $date }
 
 ##
 
