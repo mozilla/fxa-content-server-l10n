@@ -22,7 +22,7 @@ card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svo
 
 ## settings
 
-settings-subscriptions = Naročnine in plačila
+settings-subscriptions-title = Naročnine
 
 ## legal footer
 
@@ -96,10 +96,11 @@ sub-update-new-plan-label = Nov načrt
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
