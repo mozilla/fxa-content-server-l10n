@@ -227,35 +227,37 @@ plan-price-year =
        *[other] { $amount } ogni { $intervalCount } anni
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Ti verranno addebitati { $amount } al giorno per { $name }. Il prossimo pagamento avverrà il { $date }.
-       *[other] Ti verranno addebitati { $amount } ogni { $intervalCount } giorni per { $name }. Il prossimo pagamento avverrà il { $date }.
+        [one] { $amount } al giorno
+       *[other] { $amount } ogni { $intervalCount } giorni
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Ti verranno addebitati { $amount } alla settimana per { $name }. Il prossimo pagamento avverrà il { $date }.
-       *[other] Ti verranno addebitati { $amount } ogni { $intervalCount } settimane. Il prossimo pagamento avverrà il { $date }.
+        [one] { $amount } alla settimana
+       *[other] { $amount } ogni { $intervalCount } settimane
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Ti verranno addebitati { $amount } al mese per { $name }. Il prossimo pagamento avverrà il { $date }.
-       *[other] Ti verranno addebitati { $amount } ogni { $intervalCount } mesi per { $name }. Il prossimo pagamento avverrà il { $date }.
+        [one] { $amount } al mese
+       *[other] { $amount } ogni { $intervalCount } mesi
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Ti verranno addebitati { $amount } all’anno per { $name }. Il prossimo pagamento avverrà il { $date }.
-       *[other] Ti verranno addebitati { $amount } ogni { $intervalCount } anni per { $name }. Il prossimo pagamento avverrà il { $date }.
+        [one] { $amount } all’anno
+       *[other] { $amount } ogni { $intervalCount } anni
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Prossimo addebito il { $date }
 
 ##
 
