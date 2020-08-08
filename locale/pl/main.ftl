@@ -262,39 +262,41 @@ plan-price-year =
        *[many] { $amount } co { $intervalCount } lat
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Opłata za { $name } wynosi { $amount } dziennie. Następna płatność nastąpi w dniu { $date }.
-        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } dni. Następna płatność nastąpi w dniu { $date }.
-       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } dni. Następna płatność nastąpi w dniu { $date }.
+        [one] { $amount } dziennie
+        [few] { $amount } co { $intervalCount } dni
+       *[many] { $amount } co { $intervalCount } dni
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Opłata za { $name } wynosi { $amount } tygodniowo. Następna płatność nastąpi w dniu { $date }.
-        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } tygodnie. Następna płatność nastąpi w dniu { $date }.
-       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } tygodni. Następna płatność nastąpi w dniu { $date }.
+        [one] { $amount } tygodniowo
+        [few] { $amount } co { $intervalCount } tygodnie
+       *[many] { $amount } co { $intervalCount } tygodni
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Opłata za { $name } wynosi { $amount } miesięcznie. Następna płatność nastąpi w dniu { $date }.
-        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } miesiące. Następna płatność nastąpi w dniu { $date }.
-       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } miesięcy. Następna płatność nastąpi w dniu { $date }.
+        [one] { $amount } miesięcznie
+        [few] { $amount } co { $intervalCount } miesiące
+       *[many] { $amount } co { $intervalCount } miesięcy
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Opłata za { $name } wynosi { $amount } rocznie. Następna płatność nastąpi w dniu { $date }.
-        [few] Opłata za { $name } wynosi { $amount } co { $intervalCount } lata. Następna płatność nastąpi w dniu { $date }.
-       *[many] Opłata za { $name } wynosi { $amount } co { $intervalCount } lat. Następna płatność nastąpi w dniu { $date }.
+        [one] { $amount } rocznie
+        [few] { $amount } co { $intervalCount } lata
+       *[many] { $amount } co { $intervalCount } lat
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Następna płatność: { $date }
 
 ##
 
