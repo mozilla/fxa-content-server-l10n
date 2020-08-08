@@ -246,39 +246,41 @@ plan-price-year =
        *[other] { $amount } la fiecare { $intervalCount } de ani
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Ți se facturează { $amount } zilnic pentru { $name }. Următoarea plată este pe { $date }.
-        [few] Ți se facturează { $amount } la fiecare { $intervalCount } zile pentru { $name }. Următoarea plată este pe { $date }.
-       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de zile pentru { $name }. Următoarea plată este pe { $date }.
+        [one] { $amount } pe zi
+        [few] { $amount } la fiecare { $intervalCount } zile
+       *[other] { $amount } la fiecare { $intervalCount } de zile
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Ți se facturează { $amount } săptămânal pentru { $name }. Următoarea plată este pe { $date }.
-        [few] Ți se facturează { $amount } la fiecare { $intervalCount } săptămâni pentru { $name }. Următoarea plată este pe { $date }.
-       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de săptămâni pentru { $name }. Următoarea plată este pe { $date }.
+        [one] { $amount } pe săptămână
+        [few] { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Ți se facturează { $amount } lunar pentru { $name }. Următoarea plată este pe { $date }.
-        [few] Ți se facturează { $amount } la fiecare { $intervalCount } luni pentru { $name }. Următoarea plată este pe { $date }.
-       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de luni pentru { $name }. Următoarea plată este pe { $date }.
+        [one] { $amount } pe lună
+        [few] { $amount } la fiecare { $intervalCount } luni
+       *[other] { $amount } la fiecare { $intervalCount } de luni
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Ți se facturează { $amount } anual pentru { $name }. Următoarea plată este pe { $date }.
-        [few] Ți se facturează { $amount } la fiecare { $intervalCount } ani pentru { $name }. Următoarea plată este pe { $date }.
-       *[other] Ți se facturează { $amount } la fiecare { $intervalCount } de ani pentru { $name }. Următoarea plată este pe { $date }.
+        [one] { $amount } pe an
+        [few] { $amount } la fiecare { $intervalCount } ani
+       *[other] { $amount } la fiecare { $intervalCount } de ani
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Data următoarei facturi: { $date }
 
 ##
 
