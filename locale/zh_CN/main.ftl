@@ -226,35 +226,37 @@ plan-price-year =
        *[other] 每 { $intervalCount } 年 { $amount }
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [1] { $name } 将会每天收取 { $amount }。下次付款日为 { $date }。
-       *[other] { $name } 将会每隔 { $intervalCount } 天收取 { $amount }。下次付款日为 { $date }。
+        [one] 每天 { $amount }
+       *[other] 每 { $intervalCount } 天 { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [1] { $name } 将会每周收取 { $amount }。下次付款日为 { $date }。
-       *[other] { $name } 将会每隔 { $intervalCount } 周收取 { $amount }。下次付款日为 { $date }。
+        [one] 每周 { $amount }
+       *[other] 每 { $intervalCount } 周 { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [1] { $name } 将会每月收取 { $amount }。下次付款日为 { $date }。
-       *[other] { $name } 将会每隔 { $intervalCount } 月收取 { $amount }。下次付款日为 { $date }。
+        [one] 每月 { $amount }
+       *[other] 每 { $intervalCount } 月 { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [1] { $name } 将会每年收取 { $amount }。下次付款日为 { $date }。{ $name } 将会每隔 { $intervalCount } 天收取 { $amount }。下次付款日为 { $date }。
-       *[other] { $name } 将会每隔 { $intervalCount } 年收取 { $amount }。下次付款日为 { $date }。
+        [one] 每年 { $amount }
+       *[other] 每 { $intervalCount } 年 { $amount }
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = 下个结算日在 { $date }
 
 ##
 
