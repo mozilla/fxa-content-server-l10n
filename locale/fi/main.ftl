@@ -184,35 +184,13 @@ plan-price-year =
        *[other] { $amount } joka { $intervalCount }. vuosi
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
-    { $intervalCount ->
-        [one] { $amount } laskutetaan päivittäin tuotteesta { $name }. Seuraava lasku on { $date }.
-       *[other] { $amount } laskutetaan joka { $intervalCount }. päivä tuotteesta { $name }. Seuraava lasku on { $date }.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
-    { $intervalCount ->
-        [one] { $amount } laskutetaan viikoittain tuotteesta { $name }. Seuraava lasku on { $date }.
-       *[other] { $amount } laskutetaan joka { $intervalCount }. viikko tuotteesta { $name }. Seuraava lasku on { $date }.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
-    { $intervalCount ->
-        [one] { $amount } laskutetaan kuukausittain tuotteesta { $name }. Seuraava lasku on { $date }.
-       *[other] { $amount } laskutetaan joka { $intervalCount }. kuukausi tuotteesta { $name }. Seuraava lasku on { $date }.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
-    { $intervalCount ->
-        [one] { $amount } laskutetaan vuosittain tuotteesta { $name }. Seuraava lasku on { $date }.
-       *[other] { $amount } laskutetaan joka { $intervalCount }. vuosi tuotteesta { $name }. Seuraava lasku on { $date }.
-    }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Seuraava laskutus { $date }
 
 ##
 
