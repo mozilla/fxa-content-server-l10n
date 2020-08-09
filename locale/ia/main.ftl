@@ -227,35 +227,37 @@ plan-price-year =
        *[other] { $amount } cata { $intervalCount } annos
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Tu es facturate { $amonta } cata die pro { $nomine }. Tu sequente pagamento occurre le { $date }.
-       *[other] Tu es facturate { $amonta } cata { $intervalCount } dies pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+        [one] { $amount } cata die
+       *[other] { $amount } cata { $intervalCount } dies
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Tu es facturate { $amonta } septimanalmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
-       *[other] Tu es facturate { $amonta } cata { $intervalCount } septimanas pro { $nomine }.
+        [one] { $amount } cata septimana
+       *[other] { $amount } cata { $intervalCount } septimanas
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Tu es facturate { $amonta } mensualmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
-       *[other] Tu es facturate { $amonta } cata { $intervalCount } menses pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+        [one] { $amount } cata mene
+       *[other] { $amount } cata{ $intervalCount } menses
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Tu es facturate { $amonta } annualmente pro { $nomine }. Tu sequente pagamento occurre le { $date }.
-       *[other] Tu es facturate { $amonta } cata { $intervalCount } annos pro { $nomine }. Tu sequente pagamento occurre le { $date }.
+        [one] { $amount } cata anno
+       *[other] { $amount } cata{ $intervalCount } annos
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Proxime factura le { $date }
 
 ##
 
