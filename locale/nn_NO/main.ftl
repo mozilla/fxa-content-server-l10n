@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } kvart { $intervalCount } år
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Du vert fakturert { $amount } dagleg for { $name }. Den neste betalinga di er den { $date }.
-       *[other] Du vert fakturert { $amount } kvar { $intervalCount } dag for { $name }. Den neste betalinga di er den { $date }.
+        [one] { $amount } dagleg
+       *[other] { $amount } kvar { $intervalCount } dag
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Du vert fakturert { $amount } kvar veke for { $name }. Den neste betalinga di er den { $date }.
-       *[other] Du vert fakturert { $amount } kvar { $intervalCount } veke for { $name }. Den neste betalinga di er den { $date }.
+        [one] { $amount } kvar veke
+       *[other] { $amount } kvar { $intervalCount } veke
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Du vert fakturert { $amount } kvar månad for { $name }. Den neste betalinga di er den { $date }.
-       *[other] Du vert fakturert { $amount } kvar { $intervalCount } månad for { $name }. Den neste betalinga di er den { $date }.
+        [one] { $amount } kvar månad
+       *[other] { $amount } kvar { $intervalCount } månad
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Du vert fakturert { $amount } kvart år for { $name }. Den neste betalinga di er den { $date }.
-       *[other] Du vert fakturert { $amount } kvart { $intervalCount } år for { $name }. Den neste betalinga di er den { $date }.
+        [one] { $amount } årleg
+       *[other] { $amount } kvart { $intervalCount } år
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Neste fakturering den { $date }
 
 ##
 
