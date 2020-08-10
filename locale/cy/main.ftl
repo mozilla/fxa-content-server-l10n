@@ -310,8 +310,8 @@ sub-plan-price-day =
 #  $intervalCount (Number) - The interval between payments, in weeks.
 sub-plan-price-week =
     { $intervalCount ->
-        [zero] { $amount } yn wythnosod
-        [one] { $amount } yn wythnosod
+        [zero] { $amount } yn wythnosol
+        [one] { $amount } yn wythnosol
         [two] { $amount } bob { $intervalCount } wythnos
         [few] { $amount } bob { $intervalCount } wythnos
         [many] { $amount } bob { $intervalCount } wythnos
@@ -327,9 +327,20 @@ sub-plan-price-month =
         [many] { $amount } bob { $intervalCount } mis
        *[other] { $amount } bob { $intervalCount } mis
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [zero] { $amount } bob blwyddyn
+        [one] { $amount } bob blwyddyn
+        [two] { $amount } bob { $intervalCount } flynedd
+        [few] { $amount } bob { $intervalCount } blynedd
+        [many] { $amount } bob { $intervalCount } mlynedd
+       *[other] { $amount } bob { $intervalCount } blynedd
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Bydd y taliad nesaf ar { $date }
 
 ##
 
