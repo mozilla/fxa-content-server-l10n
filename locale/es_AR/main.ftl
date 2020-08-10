@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Se facturan { $amount } diarios para { $name }. El próximo pago se produce el { $date }.
-       *[other] Se factura { $amount } cada { $intervalCount } días para { $name }. El próximo pago se produce el { $date }.
+        [one] { $amount } diariamente
+       *[other] { $amount } cada { $intervalCount } días
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Se facturan { $amount } semanales para { $name }. El próximo pago se produce el { $date }.
-       *[other] Se facturan { $amount } cada { $intervalCount } semanas para { $name }. El próximo pago se produce el { $date }.
+        [one] { $amount } semanalmente
+       *[other] { $amount } cada { $intervalCount } semanas
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Se facturan { $amount } mensuales para { $name }. El próximo pago se produce el { $date }.
-       *[other] Se facturan { $amount } cada { $intervalCount } meses para { $name }. El próximo pago se produce el { $date }.
+        [one] { $amount } mensualmente
+       *[other] { $amount } cada { $intervalCount } meses
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Se facturan { $amount } anuales para { $name }. El próximo pago se produce el { $date }.
-       *[other] Se facturan { $amount } cada { $intervalCount } años para { $name }. El próximo pago se produce el { $date }.
+        [one] { $amount } anualmente{ $amount }
+       *[other] { $amount } cada { $intervalCount } años
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Próxima facturación el { $date }
 
 ##
 
