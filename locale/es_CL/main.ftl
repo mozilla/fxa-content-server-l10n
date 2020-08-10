@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Se te facturan { $amount } diarios por { $name }. Tu próximo pago será el { $date }.
-       *[other] Se te facturan { $amount } cada { $intervalCount } días por { $name }. Tu próximo pago será el { $date }.
+        [one] { $amount } al día
+       *[other] { $amount } cada { $intervalCount } días
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Se te facturan { $amount } semanales por { $name }. Tu próximo pago será el { $date }.
-       *[other] Se te facturan { $amount } cada { $intervalCount } semanas por { $name }. Tu próximo pago será el { $date }.
+        [one] { $amount } a la semana
+       *[other] { $amount } cada { $intervalCount } semanas
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Se te facturan { $amount } mensuales por { $name }. Tu próximo pago será el { $date }.
-       *[other] Se te facturan { $amount } cada { $intervalCount } meses por { $name }. Tu próximo pago será el { $date }.
+        [one] { $amount } al mes
+       *[other] { $amount } cada { $intervalCount } meses
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Se te facturan { $amount } anuales por { $name }. Tu próximo pago será el { $date }.
-       *[other] Se te facturan { $amount } cada { $intervalCount } años por { $name }. Tu próximo pago será el { $date }.
+        [one] { $amount } al año
+       *[other] { $amount } cada { $intervalCount } años
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Próxima facturación el { $date }
 
 ##
 
