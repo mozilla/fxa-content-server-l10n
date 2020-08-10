@@ -214,31 +214,33 @@ plan-price-year =
        *[other] { $amount } mỗi { $intervalCount } năm
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } ngày cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+       *[other] { $amount } mỗi { $intervalCount } ngày
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } tuần cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+       *[other] { $amount } mỗi { $intervalCount } tuần
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } tháng cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+       *[other] { $amount } mỗi { $intervalCount } tháng
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-       *[other] Bạn được lập hóa đơn { $amount } mỗi { $intervalCount } năm cho { $name }. Khoản thanh toán tiếp theo của bạn sẽ vào { $date }.
+       *[other] { $amount } mỗi { $intervalCount } năm
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Thanh toán tiếp theo vào { $date }
 
 ##
 
