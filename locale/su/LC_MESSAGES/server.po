@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-07 16:04+0000\n"
-"PO-Revision-Date: 2020-08-04 06:27+0000\n"
+"PO-Revision-Date: 2020-08-10 09:09+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -673,7 +673,7 @@ msgstr "Sarat jeung kawijakan bolay"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Aktipkeun deui langganan"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -685,11 +685,11 @@ msgstr "Ropéa émbaran tagiheun"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
-msgstr ""
+msgstr "Légal"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Privacy"
-msgstr ""
+msgstr "Pripasi"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -834,15 +834,15 @@ msgstr "Jieun konci pamulangan anyar"
 
 #: lib/senders/email.js:1819
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Anjeun geus diapgréd ka %(productNameNew)s"
 
 #: lib/senders/email.js:1898
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Anjeun geus ditukeur ka %(productNameNew)s"
 
 #: lib/senders/email.js:1968
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Kartu kiridit keur %(productName)s téréh kadaluwarsa"
 
 #: lib/senders/email.js:2018
 msgid "%(productName)s payment failed"
