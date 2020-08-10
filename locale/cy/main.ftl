@@ -294,51 +294,42 @@ plan-price-year =
        *[other] { $amount } bob { $intervalCount } blynedd
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [one] Rydych yn derbyn bil o { $amount } ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }
-        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } ddiwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } niwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } diwrnod ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [zero] { $amount } bob ddydd
+        [one] { $amount } bob ddydd
+        [two] { $amount } bob { $intervalCount } ddiwrnod
+        [few] { $amount } bob { $intervalCount } diwrnod
+        [many] { $amount } bob { $intervalCount } niwrnod
+       *[other] { $amount } bob { $intervalCount } diwrnod
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [one] Rydych yn derbyn bil o { $amount } yn wythnosol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } wythnos ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [zero] { $amount } yn wythnosod
+        [one] { $amount } yn wythnosod
+        [two] { $amount } bob { $intervalCount } wythnos
+        [few] { $amount } bob { $intervalCount } wythnos
+        [many] { $amount } bob { $intervalCount } wythnos
+       *[other] { $amount } bob { $intervalCount } wythnos
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [one] Rydych yn derbyn bil o { $amount } yn fisol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } fis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mis ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
+        [zero] { $amount } yn fisol
+        [one] { $amount } yn fisol
+        [two] { $amount } bob { $intervalCount } mis
+        [few] { $amount } bob { $intervalCount } mis
+        [many] { $amount } bob { $intervalCount } mis
+       *[other] { $amount } bob { $intervalCount } mis
     }
-#  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
-    { $intervalCount ->
-        [zero] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [one] Rydych yn derbyn bil o { $amount } yn flynyddol ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [two] Rydych yn derbyn bil o { $amount } bob { $intervalCount } flynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [few] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-        [many] Rydych yn derbyn bil o { $amount } bob { $intervalCount } mlynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-       *[other] Rydych yn derbyn bil o { $amount } bob { $intervalCount } blynedd ar gyfer { $name }. Mae eich taliad nesaf yn digwydd ar { $date }.
-    }
+
+## $date (Date) - The date for the next time a charge will occur.
+
 
 ##
 
