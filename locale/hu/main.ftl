@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } { $intervalCount } évente
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] A(z) { $name } naponta { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
-       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. napon. A következő fizetés időpontja: { $date }.
+        [one] { $amount } naponta
+       *[other] { $amount } { $intervalCount } naponta
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] A(z) { $name } hetente { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
-       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. héten. A következő fizetés időpontja: { $date }.
+        [one] { $amount } hetente
+       *[other] { $amount } { $intervalCount } hetente
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] A(z) { $name } havonta { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
-       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. hónapban. A következő fizetés időpontja: { $date }.
+        [one] { $amount } havonta
+       *[other] { $amount } { $intervalCount } havonta
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] A(z) { $name } évente { $amount } összeget számláz. A következő fizetés időpontja: { $date }.
-       *[other] A(z) { $name } { $amount } összeget számláz minden { $intervalCount }. éven. A következő fizetés időpontja: { $date }.
+        [one] { $amount } évente
+       *[other] { $amount } { $intervalCount } évente
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Következő számlázás: { $date }
 
 ##
 
