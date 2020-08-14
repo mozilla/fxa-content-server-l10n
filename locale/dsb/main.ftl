@@ -262,43 +262,45 @@ plan-price-year =
        *[other] { $amount } kužde { $intervalCount } lět
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Musyśo kuždy źen { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [two] Musyśo kuždej { $intervalCount } dnja { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [few] Musyśo kužde { $intervalCount } dny { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-       *[other] Musyśo kužde { $intervalCount } dnjow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [one] { $amount } kuždy { $intervalCount } źeń
+        [two] { $amount } kuždej { $intervalCount } dnja
+        [few] { $amount } kužde { $intervalCount } dny
+       *[other] { $amount } kužde { $intervalCount } dnjow
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Musyśo kuždy tyźeń { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [two] Musyśo kuždej { $intervalCount } tyźenja { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [few] Musyśo kužde { $intervalCount } tyźenje { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-       *[other] Musyśo kužde { $intervalCount } tyźenjow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [one] { $amount } kuždy { $intervalCount } tyźeń
+        [two] { $amount } kuždej { $intervalCount } tyźenja
+        [few] { $amount } kužde { $intervalCount } tyźenje
+       *[other] { $amount } kužde { $intervalCount } tyźenjow
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Musyśo kuždy mjasec { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [two] Musyśo kuždej { $intervalCount } mjasaca { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [few] Musyśo kužde { $intervalCount } mjasece { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-       *[other] Musyśo kužde { $intervalCount } mjasecow { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [one] { $amount } kuždy { $intervalCount } mjasec
+        [two] { $amount } kuždej { $intervalCount } mjaseca
+        [few] { $amount } kužde { $intervalCount } mjasece
+       *[other] { $amount } kužde { $intervalCount } mjasecow
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Musyśo kužde lěto { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [two] Musyśo kuždej { $intervalCount } lěśe { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-        [few] Musyśo kužde { $intervalCount } lěta { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
-       *[other] Musyśo kužde { $intervalCount } lět { $amount } za { $name } płaśiś. Wašo pśiduce płaśenje se { $date } stawa.
+        [one] { $amount } kužde { $intervalCount } lěto
+        [two] { $amount } kuždej { $intervalCount } lěśe
+        [few] { $amount } kužde { $intervalCount } lěta
+       *[other] { $amount } kužde { $intervalCount } lět
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Pśiduca zliceńka: { $date }
 
 ##
 
