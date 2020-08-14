@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } var { $intervalCount } år
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Du faktureras { $amount } dagligen för { $name }. Din nästa betalning sker den { $date }.
-       *[other] Du faktureras { $amount } var { $intervalCount } dag för { $name }. Din nästa betalning sker den { $date }.
+        [one] { $amount } dagligen
+       *[other] { $amount } var { $intervalCount } dag
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Du faktureras { $amount } varje vecka för { $name }. Din nästa betalning sker den { $date }.
-       *[other] Du faktureras { $amount } var { $intervalCount } vecka för { $name }. Din nästa betalning sker den { $date }.
+        [one] { $amount } veckovis
+       *[other] { $amount } var { $intervalCount } vecka
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Du faktureras { $amount } varje månad för { $name }. Din nästa betalning sker den { $date }.
-       *[other] Du faktureras { $amount } var { $intervalCount } månad för { $name }. Din nästa betalning sker den { $date }.
+        [one] { $amount } månadsvis
+       *[other] { $amount } var { $intervalCount } månad
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Du faktureras { $amount } varje år för { $name }. Din nästa betalning sker den { $date }.
-       *[other] Du faktureras { $amount } var { $intervalCount } år för { $name }. Din nästa betalning sker den { $date }.
+        [one] { $amount } årligen
+       *[other] { $amount } var { $intervalCount } år
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Nästa fakturering på { $date }
 
 ##
 
