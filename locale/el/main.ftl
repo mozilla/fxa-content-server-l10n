@@ -34,7 +34,6 @@ card-error = Δεν ήταν δυνατή η επεξεργασία της συ�
 ## settings
 
 settings-home = Αρχική σελίδα λογαριασμού
-settings-subscriptions = Συνδρομές & πληρωμές
 
 ## legal footer
 
@@ -182,35 +181,24 @@ plan-price-year =
        *[other] { $amount } κάθε { $intervalCount } χρόνια
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Χρεώνεστε { $amount } ημερησίως για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } ημέρες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+        [one] { $amount } ημερησίως
+       *[other] { $amount } κάθε { $intervalCount } ημέρες
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Χρεώνεστε { $amount } εβδομαδιαία για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } εβδομάδες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
+        [one] { $amount } εβδομαδιαία
+       *[other] { $amount } κάθε { $intervalCount } εβδομάδες
     }
-#  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
-    { $intervalCount ->
-        [one] Χρεώνεστε { $amount } μηνιαία για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } μήνες για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
-    { $intervalCount ->
-        [one] Χρεώνεστε { $amount } ετησίως για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-       *[other] Χρεώνεστε { $amount } κάθε { $intervalCount } χρόνια για το { $name }. Η επόμενη πληρωμή σας θα γίνει στις { $date }.
-    }
+
+## $date (Date) - The date for the next time a charge will occur.
+
 
 ##
 
