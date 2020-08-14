@@ -34,6 +34,7 @@ card-error = Δεν ήταν δυνατή η επεξεργασία της συ�
 ## settings
 
 settings-home = Αρχική σελίδα λογαριασμού
+settings-subscriptions-title = Συνδρομές
 
 ## legal footer
 
@@ -196,9 +197,22 @@ sub-plan-price-week =
         [one] { $amount } εβδομαδιαία
        *[other] { $amount } κάθε { $intervalCount } εβδομάδες
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } μηνιαία
+       *[other] { $amount } κάθε { $intervalCount } μήνες
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } ετησίως
+       *[other] { $amount } κάθε { $intervalCount } έτη
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Επόμενη χρέωση στις { $date }
 
 ##
 
