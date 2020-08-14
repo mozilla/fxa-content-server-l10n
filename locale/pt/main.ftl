@@ -230,35 +230,37 @@ plan-price-year =
        *[other] { $amount } todos os { $intervalCount } anos
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Você é debitado { $amount } diariamente por { $name }. O seu próximo pagamento será em { $date }.
-       *[other] Você é debitado { $amount } todos os { $intervalCount } dias por { $name }. O seu próximo pagamento será em { $date }.
+        [one] { $amount } diariamente
+       *[other] { $amount } a cada { $intervalCount } dias
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Você é debitado { $amount } semanalmente por { $name }. O seu próximo pagamento será em { $date }.
-       *[other] Você é debitado { $amount } todas as{ $intervalCount } semanas por { $name }. O seu próximo pagamento será em { $date }.
+        [one] { $amount } semanalmente
+       *[other] { $amount } a cada { $intervalCount } semanas
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Você é debitado { $amount } mensalmente por { $name }. O seu próximo pagamento será em { $date }.
-       *[other] Você é debitado { $amount } todos os { $intervalCount } meses por { $name }. O seu próximo pagamento será em { $date }.
+        [one] { $amount } mensalmente
+       *[other] { $amount } a cada { $intervalCount } meses
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Você é debitado { $amount } anualmente por { $name }. O seu próximo pagamento será em { $date }.
-       *[other] Você é debitado { $amount } todos os { $intervalCount } anos por { $name }. O seu próximo pagamento será em { $date }.
+        [one] { $amount } anualmente
+       *[other] { $amount } a cada { $intervalCount } anos
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Próxima cobrança a { $date }
 
 ##
 
