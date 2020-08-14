@@ -276,7 +276,7 @@ sub-plan-price-day =
 #  $intervalCount (Number) - The interval between payments, in weeks.
 sub-plan-price-week =
     { $intervalCount ->
-        [one] { $amount } kóždu njedźelu
+        [one] { $amount } kóždy { $intervalCount } tydźeń
         [two] { $amount } kóždej { $intervalCount } njedźeli
         [few] { $amount } kóžde { $intervalCount } njedźele
        *[other] { $amount } kóžde { $intervalCount } njedźel
@@ -284,7 +284,7 @@ sub-plan-price-week =
 #  $intervalCount (Number) - The interval between payments, in months.
 sub-plan-price-month =
     { $intervalCount ->
-        [one] { $amount } kóždy měsac
+        [one] { $amount } kóždy { $intervalCount } měsac
         [two] { $amount } kóždej { $intervalCount } měsacaj
         [few] { $amount } kóžde { $intervalCount } měsacy
        *[other] { $amount } kóžde { $intervalCount } měsacow
@@ -292,7 +292,7 @@ sub-plan-price-month =
 #  $intervalCount (Number) - The interval between payments, in years.
 sub-plan-price-year =
     { $intervalCount ->
-        [one] { $amount } kóžde lěto
+        [one] { $amount } kóžde { $intervalCount } lěto
         [two] { $amount } kóždej { $intervalCount } lěće
         [few] { $amount } kóžde { $intervalCount } lěta
        *[other] { $amount } kóžde { $intervalCount } lět
