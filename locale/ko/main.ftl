@@ -164,6 +164,8 @@ payment-confirmation-heading-bak = 감사합니다!
 payment-confirmation-subheading = 확인 이메일 발송 완료
 payment-confirmation-billing-heading = 청구 완료
 payment-confirmation-details-heading = 지불 상세 사항
+payment-confirmation-amount = { $interval } 당 { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = 다운로드 계속 하기
