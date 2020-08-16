@@ -51,6 +51,7 @@ privacy = 개인정보처리방침
 
 product-profile-error =
     .title = 프로필 로드 문제
+product-plan-not-found = 사용 계획 찾을 수 없음
 
 ## payment legal blurb
 
@@ -82,6 +83,9 @@ payment-validate-zip-short = 우편 번호가 너무 짧습니다
 
 ## subscription redirect
 
+sub-redirect-ready = 가입 준비 완료
+sub-redirect-copy = 잠시 시간을 내어 여러분의 경험을 알려주세요.
+sub-redirect-skip-survey = 괜찮습니다, 다시 제품으로 이동합니다.
 
 ## fields
 
@@ -90,33 +94,43 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = 업그레이드 사항 검토
+sub-update-failed = 업데이트 계획 실패
 sub-update-title = 청구 정보
+sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = 업그레이드 확인
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
 
+pay-update-card-exp = 만료 { $expirationDate }
+pay-update-change-btn = 변경
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name }을 계속 사용하시겠습니까?
+reactivate-confirm-button = 재구독
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = 감사합니다! 모두 준비되었습니다.
 reactivate-success-button = 닫기
 
 ## subscription item
@@ -124,20 +138,32 @@ reactivate-success-button = 닫기
 ## $period (Date) - The last day of product access
 
 sub-item-missing-msg = 나중에 다시 시도하세요.
+sub-item-cancel-sub = 구독 취소
+sub-item-stay-sub = 구독 유지
+account-activated = 계정이 활성화되었습니다. <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = 결제 정보 업데이트중...
+sub-route-idx-cancel-failed = 구독 취소 실패
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-show-button = 상세 정보 보기
+plan-details-hide-button = 상세 내용 숨기기
+plan-details-total-label = 전체
 
 ## payment confirmation
 
+payment-confirmation-alert = 다운로드하기
 payment-confirmation-heading = { $displayName }님 감사합니다!
 payment-confirmation-heading-bak = 감사합니다!
+payment-confirmation-subheading = 확인 이메일 발송 완료
+payment-confirmation-billing-heading = 청구 완료
+payment-confirmation-details-heading = 지불 상세 사항
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
