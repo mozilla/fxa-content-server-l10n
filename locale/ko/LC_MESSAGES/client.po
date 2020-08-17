@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-16 13:35+0000\n"
+"PO-Revision-Date: 2020-08-17 09:45+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -437,7 +437,7 @@ msgstr "목록 추가 안함"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr "즐겨찾기"
+msgstr "북마크"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
