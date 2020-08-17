@@ -230,35 +230,37 @@ plan-price-year =
        *[other] elke { $intervalCount } jaar { $amount }
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Voor { $name } wordt dagelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
-       *[other] Voor { $name } wordt elke { $intervalCount } dagen { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+        [one] dagelijks { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Voor { $name } wordt wekelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
-       *[other] Voor { $name } wordt elke { $intervalCount } weken { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+        [one] wekelijks { $amount }
+       *[other] elke { $intervalCount } weken { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Voor { $name } wordt maandelijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
-       *[other] Voor { $name } wordt elke { $intervalCount } maanden { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+        [one] maandelijks { $amount }
+       *[other] elke { $intervalCount } maanden { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Voor { $name } wordt jaarlijks { $amount } gefactureerd. Uw volgende betaling is op { $date }.
-       *[other] Voor { $name } wordt elke { $intervalCount } jaar { $amount } gefactureerd. Uw volgende betaling is op { $date }.
+        [one] jaarlijks { $amount }
+       *[other] elke { $intervalCount } jaar { $amount }
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Volgende incasso op { $date }
 
 ##
 
