@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-15 13:04+0000\n"
+"PO-Revision-Date: 2020-08-18 14:05+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2471
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Τελευταία υπενθύμιση για συγχρονισμό συσκευών!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2477
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."

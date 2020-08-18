@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-18 13:54+0000\n"
+"PO-Revision-Date: 2020-08-18 14:05+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1618,7 +1618,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Πρακτικές γνώσεις έρχονται στα εισερχόμενά σας. Εγγραφείτε για περισσότερα:"
 
 #: .es5/templates/sign_up_password.mustache:15
 msgid "Create account"
@@ -1626,7 +1626,7 @@ msgstr "Δημιουργία λογαριασμού"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
@@ -1642,7 +1642,7 @@ msgstr "Αποστολή"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Ενδέχεται να ισχύουν χρεώσεις SMS &amp; δεδομένων. Απαιτείται η συγκατάθεση του παραλήπτη. <a %(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1658,7 +1658,7 @@ msgstr "Δείτε τα μηνύματά σας"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Σας έχουμε στείλει ένα μήνυμα κειμένου"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1854,7 +1854,7 @@ msgstr "Διαγραφή…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
+msgstr "Θέλετε να ακυρώσετε μια συνδρομή επί πληρωμή; Μεταβείτε στις <a href=\"/subscriptions\">Συνδρομές</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1862,23 +1862,23 @@ msgstr ""
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
-msgstr ""
+msgstr "Παρακαλούμε λάβετε υπόψη πως διαγράφοντας το λογαριασμό σας:"
 
 #: .es5/templates/settings/delete_account.mustache:15
 msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
+msgstr "Όλες οι συνδρομές επί πληρωμή θα ακυρωθούν"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Όλες οι επεκτάσεις και τα θέματα που δημοσιεύσατε στο addons.mozilla.org θα διαγραφούν"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
+msgstr "Ενδέχεται να χάσετε αποθηκευμένες πληροφορίες και λειτουργίες στα προϊόντα Mozilla"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
+msgstr "Η εκ νέου ενεργοποίηση με αυτό το email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1934,7 +1934,7 @@ msgstr "Διαχείριση…"
 
 #: .es5/templates/settings/totp_secret.mustache:2
 msgid "Enter this secret key into your authentication app:"
-msgstr ""
+msgstr "Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ελέγχου ταυτότητάς σας:"
 
 #: .es5/templates/settings/two_step_authentication.mustache:2
 msgid "Two-step authentication"
@@ -2044,7 +2044,7 @@ msgstr "Προσθήκη δευτερεύουσας διεύθυνσης email"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Η προσθήκη ενός δευτερεύοντος email θα σας βοηθήσει να ανακτήσετε το λογαριασμό σας, εάν κλειδωθείτε και δεν έχετε πρόσβαση στο %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2057,7 +2057,7 @@ msgstr "Χρήση διαφορετικού email"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
@@ -2074,11 +2074,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Εισάγετε ξανά το νέο κωδικό πρόσβασης"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
-msgstr ""
+msgstr "Αλλαγή κωδικού πρόσβασης"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
@@ -2114,7 +2114,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Συγχρονισμός του Firefox μεταξύ συσκευών"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -2166,11 +2166,11 @@ msgstr "<span class=\"number\">1</span>Ανοίξτε την κάμερα στη
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Στρέψτε την κάμερα στον κωδικό QR και πατήστε το σύνδεσμο που εμφανίζεται"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Εγκαταστήστε και ανοίξτε το Firefox στη συσκευή σας"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
