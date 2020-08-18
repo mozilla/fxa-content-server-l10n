@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-18 14:05+0000\n"
+"PO-Revision-Date: 2020-08-18 14:20+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -261,7 +261,7 @@ msgstr "Διαδικτυακή συνεδρία"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
+msgstr "Τελευταία εμφάνιση: άγνωστη"
 
 #: .es5/views/settings/delete_account.js:215
 msgid "Account deleted successfully"

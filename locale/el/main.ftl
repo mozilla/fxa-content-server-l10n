@@ -230,6 +230,13 @@ reactivate-confirm-copy =
     Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
     και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
     { $amount } στην κάρτα που λήγει σε { $last } στις { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
+    και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
+    { $amount } στις { $endDate }.
 reactivate-confirm-button = Επανανεγγραφή
 
 ##  $date (Date) - Last day of product access

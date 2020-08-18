@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-18 14:13+0000\n"
+"PO-Revision-Date: 2020-08-18 14:22+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -350,10 +350,12 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
+"Έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s. Η υπηρεσία σας θα συνεχίσει μέχρι το τέλος της τρέχουσας περιόδου "
+"χρέωσης, που είναι στις %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Έχετε ολοκληρώσει επιτυχώς τη μετάβαση από το %(productNameOld)s στο %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -372,7 +374,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Ευχαριστούμε για τη συνδρομή σας στο %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -463,11 +465,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Ευχαριστούμε για τη συνδρομή σας!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "Λάβαμε την τελευταία σας πληρωμή για το %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
@@ -533,11 +535,11 @@ msgstr "Ενεργοποιήστε την οικογένεια των προϊό
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "Επιβεβαιώστε το λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε, ξεκινώντας με:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Επιβεβαιώστε το λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -673,7 +675,7 @@ msgstr "Όροι και πολιτική ακύρωσης"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Επανενεργοποίηση συνδρομής"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
@@ -733,7 +735,7 @@ msgstr "%(country)s (εκτίμηση)"
 
 #: lib/senders/email.js:541
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
 
 #: lib/senders/email.js:542 lib/senders/email.js:670
 msgid "Confirm email"
@@ -745,11 +747,11 @@ msgstr "Κωδικός επαλήθευσης: %(code)s"
 
 #: lib/senders/email.js:650
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
 
 #: lib/senders/email.js:652
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Τελική υπενθύμιση: Ενεργοποιήστε το λογαριασμό σας"
 
 #: lib/senders/email.js:707
 msgid "Account authorization code"
@@ -826,7 +828,7 @@ msgstr "Δημιουργία κωδικών"
 
 #: lib/senders/email.js:1752
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης"
 
 #: lib/senders/email.js:1753
 msgid "Create new recovery key"
@@ -834,11 +836,11 @@ msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
 
 #: lib/senders/email.js:1819
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Έχετε αναβαθμίσει στο %(productNameNew)s"
 
 #: lib/senders/email.js:1898
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Έχετε κάνει εναλλαγή στο %(productNameNew)s"
 
 #: lib/senders/email.js:1968
 msgid "Credit card for %(productName)s expiring soon"
