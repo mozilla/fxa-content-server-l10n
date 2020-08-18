@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-15 13:04+0000\n"
+"PO-Revision-Date: 2020-08-18 13:54+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -438,7 +438,7 @@ msgstr "Παροχή σχολίων / αίτημα λειτουργιών"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Δεν αναγράφεται"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -743,7 +743,7 @@ msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 
 #: .es5/lib/auth-errors.js:328
 msgid "Working…"
-msgstr "Εργασία…"
+msgstr "Επεξεργασία…"
 
 #: .es5/lib/auth-errors.js:332
 msgid "Could not get Privacy Notice"
@@ -887,7 +887,7 @@ msgstr "Λάθος email; Το %(domain)s δεν προσφέρει email."
 
 #: .es5/lib/auth-errors.js:613
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Το μέγεθος του αρχείου εικόνας είναι πολύ μεγάλο για μεταφόρτωση."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -975,7 +975,7 @@ msgstr "Ο χρήστης δεν είναι συνδεδεμένος"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Ένας άλλος χρήστης έχει συνδεθεί"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
@@ -1218,7 +1218,7 @@ msgstr "Εισάγετε τον κωδικό επαλήθευσης"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Παρακαλούμε εισάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1232,7 +1232,7 @@ msgstr "Επαλήθευση"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1248,7 +1248,7 @@ msgstr "Το email επαληθεύτηκε"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Ολοκληρώστε τη ρύθμιση"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1314,7 +1314,7 @@ msgstr "Αποθήκευση κωδικών ανάκτησης"
 
 #: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ασφαλές μέρος για την περίπτωση που δεν έχετε την κινητή συσκευή σας."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
@@ -1344,6 +1344,7 @@ msgstr "Επιβεβαίωση κωδικού ανάκτησης"
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
+"Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στο λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλούμε εισάγετε έναν από τους αποθηκευμένους κωδικούς ανάκτησης."
 
 #: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
@@ -1363,11 +1364,11 @@ msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλεί
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Σαρώστε τον κωδικό ελέγχου ταυτότητας"
 
 #: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
 msgid "Enter code manually"
-msgstr ""
+msgstr "Εισάγετε τον κωδικό χειροκίνητα"
 
 #: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
