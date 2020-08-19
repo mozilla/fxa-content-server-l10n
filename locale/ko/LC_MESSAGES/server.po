@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-19 14:29+0000\n"
+"PO-Revision-Date: 2020-08-19 17:39+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -392,7 +392,7 @@ msgstr "%(cardType)s 카드 정보: %(lastFour)s 로 끝남"
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "다음 영수증: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
@@ -819,7 +819,7 @@ msgstr "코드 생성하기"
 
 #: lib/senders/email.js:1752
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "복구 키를 사용하여 비밀번호 수정"
 
 #: lib/senders/email.js:1753
 msgid "Create new recovery key"
@@ -827,55 +827,55 @@ msgstr "새로운 복구 키 생성"
 
 #: lib/senders/email.js:1819
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s로 업그레이드 완료"
 
 #: lib/senders/email.js:1898
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s로 전환 완료"
 
 #: lib/senders/email.js:1968
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "%(productName)s 신용 카드 만료 예정"
 
 #: lib/senders/email.js:2018
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "%(productName)s 결제 실패"
 
 #: lib/senders/email.js:2069 lib/senders/email.js:2134
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "%(productName)s 구독 취소 완료"
 
 #: lib/senders/email.js:2205
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "%(productName)s 구독 재활성"
 
 #: lib/senders/email.js:2279
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "%(productName)s 결제 완료"
 
 #: lib/senders/email.js:2367
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "%(productName)s 결제 확인"
 
 #: lib/senders/email.js:2439
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "%(productName)s에 오신 것을 환영합니다!"
 
 #: lib/senders/email.js:2440
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s 다운로드"
 
 #: lib/senders/email.js:2466
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "알림: 동기화 설정을 완료하는 방법"
 
 #: lib/senders/email.js:2467
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "알림: 동기화 설정 완료"
 
 #: lib/senders/email.js:2481
 msgid "Sync another device"
-msgstr ""
+msgstr "다른 기기 동기화"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -891,6 +891,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며\n"
+"          잘못된 모든 링크를 수정할 예정입니다."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -905,6 +907,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"오, 문제가 발생했습니다. 알림을 받았으며\n"
+"          수정 작업을 할 것입니다."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -919,6 +923,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"우리는 현재 시스템 문제를 겪고 있으며\n"
+"          가능한 한 빨리 시스템을 정상화 하겠습니다."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -947,6 +953,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox 계정은 다음과 같은 기능을 사용합니다.\n"
+"                        Firefox 버전에서는 지원되지 않습니다.\n"
+"                        최신 버전의 Firefox를 다운로드하고\n"
+"                        설치하시기 바랍니다."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"

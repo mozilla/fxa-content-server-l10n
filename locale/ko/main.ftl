@@ -34,6 +34,7 @@ card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확�
 ## settings
 
 settings-home = 계정 홈
+settings-subscriptions-title = 구독 정보
 
 ## legal footer
 
@@ -42,22 +43,54 @@ privacy = 개인정보처리방침
 
 ## plan details
 
+product-plan-details-heading = 구독 설정 시작
+product-plan-details-heading = 구독 설정 시작
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName }에서 { $intervalCount } 일마다 { $amount } 청구
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName }에서 { $intervalCount } 주마다 { $amount } 청구
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName }에서 { $intervalCount } 개월마다 { $amount } 청구
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName }에서 { $intervalCount } 년마다 { $amount } 청구
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = 구독 정보 읽기 문제
 product-profile-error =
     .title = 프로필 로드 문제
+product-customer-error =
+    .title = 고객 정보 읽기 문제
 product-plan-not-found = 사용 계획 찾을 수 없음
+product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla }는 안전한 결제 처리를 위해 Stripe를 사용합니다.
+payment-legal-link = <a>Stripe 개인 정보 보호 정책</a> 살펴보기
 
 ## payment form
 
+payment-name =
+    .placeholder = 이름 (영문)
+    .label = 신용 카드 내 이름
 payment-cc =
     .label = 나의 카드
 payment-ccn =
@@ -71,6 +104,26 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 일 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 주 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 개월 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 년 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
 
 ##
 
