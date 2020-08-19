@@ -21,7 +21,7 @@ basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 
 ## settings
 
-settings-subscriptions = Predplatné a platby
+settings-subscriptions-title = Predplatné
 
 ## legal footer
 
@@ -42,6 +42,8 @@ product-plan-details-heading = Poďme nastaviť vaše predplatné
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb Stripe
+payment-legal-link = Pozrite si <a>zásady ochrany súkromia</a> spoločnosti Stripe.
 
 ## payment form
 
@@ -98,10 +100,11 @@ sub-update-new-plan-label = Nový plán
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
@@ -142,7 +145,10 @@ plan-details-hide-button = Skryť podrobnosti
 
 payment-confirmation-heading = Ďakujeme, { $displayName }!
 payment-confirmation-heading-bak = Ďakujeme!
+payment-confirmation-subheading = Potvrdzovací e-mail sme poslali na
 payment-confirmation-order-heading = Podrobnosti o objednávke
+payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
+payment-confirmation-billing-heading = Odberateľ
 payment-confirmation-details-heading = Podrobnosti o platbe
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
