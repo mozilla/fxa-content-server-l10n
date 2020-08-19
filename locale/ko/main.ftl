@@ -124,6 +124,7 @@ payment-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 년 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
     }
+payment-confirm = <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 Firefox 제품 개발사인 Mozilla가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
 
 ##
 
@@ -150,25 +151,96 @@ input-error-is-required = { $label }이(가) 필요합니다
 product-plan-upgrade-heading = 업그레이드 사항 검토
 sub-update-failed = 업데이트 계획 실패
 sub-update-title = 청구 정보
+sub-update-card-ending = 카드 끝자리 번호 { $last }
 sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    요금제가 즉시 변경되며 조정 된 요금이 청구됩니다.
+    나머지 결제 주기에 대한 금액입니다. { $startingDate }로 부터
+    전체 금액이 청구됩니다.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 일 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 주 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 개월 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 년 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+    }
 
 ##
 
 sub-update-submit = 업그레이드 확인
+sub-update-indicator =
+    .aria-label = 업그레이드 표시
+sub-update-current-plan-label = 현재 구독 정보
+sub-update-new-plan-label = 신규 구독 정보
+sub-update-total-label = 총
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 일마다
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 주마다
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 개월마다
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 년마다
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 일마다
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 주마다
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 개월마다
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 년마다
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = 다음 청구일: { $date }
 
 ##
 
@@ -179,10 +251,26 @@ pay-update-change-btn = 변경
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name }을 계속 사용하시겠습니까?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    { $name }에 대한 접근은 계속되며 
+    결제 주기 지불은 동일하게 유지됩니다. 다음 청구는
+    { $amount }을 { $endDate }에 { $last }로 끝나는 카드로 결제됩니다.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    { $name }에 대한 접근은 계속되며 결제 주기와
+    지불은 동일하게 유지됩니다. 다음에는
+    { $endDate }의 { $amount }을 청구 합니다.
 reactivate-confirm-button = 재구독
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = { $date }에 구독을 취소하셨습니다.
+reactivate-panel-copy = <strong> { $date } </strong>에 { $name }에 대한 접근 권한이 해지됩니다.
 reactivate-success-copy = 감사합니다! 모두 준비되었습니다.
 reactivate-success-button = 닫기
 
@@ -190,21 +278,46 @@ reactivate-success-button = 닫기
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = 구독 정보 보기 문제
 sub-item-missing-msg = 나중에 다시 시도하세요.
+sub-item-no-such-plan = 관련 구독 정보가 없습니다.
 sub-item-cancel-sub = 구독 취소
 sub-item-stay-sub = 구독 유지
+sub-item-cancel-msg =
+    이후에는 더 이상 { $name }을 사용할 수 없습니다.
+    { $period } 결제 주기의 마지막 날입니다.
+sub-item-cancel-confirm =
+    내 접근 정보 취소
+    { $period } 중 { $name }
 account-activated = 계정이 활성화되었습니다. <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = 결제 정보 업데이트중...
+sub-route-idx-reactivating = 구독 재활성 실패
 sub-route-idx-cancel-failed = 구독 취소 실패
+sub-route-idx-contact = 연락하기
+sub-route-idx-cancel-msg-title = 계속 진행할 수 없어 죄송합니다.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } 구독이 취소되었습니다.
+          <br />
+          { $date }까지 { $name }에 계속 접근할 수 있습니다.
+sub-route-idx-cancel-aside = 질문이 있으신가요? <a>{ -brand-name-mozilla } 도움말</a>을 방문하세요.
+sub-subscription-error =
+    .title = 구독 정보 읽기 문제
+sub-customer-error =
+    .title = 고객 정보 읽기 문제
+sub-billing-update-success = 결제 정보가 성공적으로 업데이트되었습니다.
 
 ## subscription create
 
+sub-guarantee = 30 일 환불 보장
 
 ## plan-details
 
+plan-details-header = 제품 세부 정보
 plan-details-show-button = 상세 정보 보기
 plan-details-hide-button = 상세 내용 숨기기
 plan-details-total-label = 전체
@@ -212,13 +325,37 @@ plan-details-total-label = 전체
 ## payment confirmation
 
 payment-confirmation-alert = 다운로드하기
+payment-confirmation-mobile-alert = 앱을 열지 않았습니까? <a>자세히 보기</a>
 payment-confirmation-heading = { $displayName }님 감사합니다!
 payment-confirmation-heading-bak = 감사합니다!
 payment-confirmation-subheading = 확인 이메일 발송 완료
+payment-confirmation-order-heading = 주문 정보
+payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
 payment-confirmation-details-heading = 지불 상세 사항
 payment-confirmation-amount = { $interval } 당 { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 일마다
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 주마다
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 개월마다
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+       *[other] { $amount } 매 { $intervalCount } 년마다
+    }
+payment-confirmation-cc-preview = 카드 끝자리 { $last4 }
 payment-confirmation-download-button = 다운로드 계속 하기
