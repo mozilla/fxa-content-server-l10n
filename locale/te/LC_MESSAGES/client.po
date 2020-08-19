@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-19 02:32+0000\n"
+"PO-Revision-Date: 2020-08-19 02:34+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1989,7 +1989,7 @@ msgstr "2లో 1వ అంచె: సంకేతపదం మళ్ళీ ఇ�
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "మీ పునరుద్ధరణ కీని చూడడానికి మీ సంకేతపదాన్ని నమోదు చేయండి."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -2005,7 +2005,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
-msgstr ""
+msgstr "2లో 2వ అంచె: పునరుద్ధరణ కీ భద్రపరచుకోండి"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
 msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
@@ -2013,7 +2013,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
-msgstr ""
+msgstr "పూర్తయింది, పునరుద్ధరణ కీ భద్రమయ్యింది"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -2259,7 +2259,7 @@ msgstr "మీ ఈమెయిలు చిరునామా కాకూడద
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "ఈ <a %(escapedCommonPasswordLinkAttrs)s>సామాన్య సంకేతపదాల జాబితా</a>లో దేనికీ సరిపోలకూడదు"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
