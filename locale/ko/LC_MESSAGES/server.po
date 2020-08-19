@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-07-27 05:43+0000\n"
-"Last-Translator: sophiajiyea <sophiajiyea@gmail.com>\n"
+"PO-Revision-Date: 2020-08-19 14:29+0000\n"
+"Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -88,11 +88,11 @@ msgstr "최고,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Firefox 계정 팀"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "중요: 이전에 사용했던 것과 다른 비밀번호를 선택하세요. 이메일 계정과 다른 비밀번호인지 확인하세요."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -328,11 +328,11 @@ msgstr "가까운 시일 내에 다시 뵐 수 있기를 희망합니다."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "최근에 Firefox 계정을 삭제했습니다. 따라서 %(productName)s 구독이 취소되었습니다. %(invoiceTotal)s의 최종 결제는 %(invoiceDateOnly)s에 완료되었습니다."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "간단한 <a %(cancellationSurveyLinkAttributes)s>설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
@@ -342,7 +342,7 @@ msgstr "이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을
 msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
-msgstr ""
+msgstr "%(productName)s 구독을 취소했습니다. %(invoiceTotal)s 최종 결제는 %(invoiceDateOnly)s에 완료되었습니다. 서비스는 현재 청구 기간 %(serviceLastActiveDateOnly)s이 끝날 때까지 계속됩니다."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -352,42 +352,42 @@ msgstr "성공적으로 %(productNameOld)s 에서 %(productNameNew)s 로 바뀌�
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 이 때 %(productPaymentCycle)s의 나머지 부분에 대한 더 낮은 요금을 반영하기 위해 %(paymentProrated)s의 일회성 크레딧도 제공됩니다."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr ""
+msgstr "%(productNameNew)s를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다."
 
 #: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "%(productName)s 구독 해 주셔서 감사합니다."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "현재 결제가 처리 중이며 완료하는 데 최대 4 영업일이 소요될 수 있습니다."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr ""
+msgstr "%(productName)s 사용을 시작하는 방법에 대한 다운로드 지침이 포함 된 별도의 이메일을 받게 됩니다."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "영수증 번호: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "%(invoiceDateOnly)s 에 %(invoiceTotal)s 청구됨"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(cardType)s 카드 정보: %(lastFour)s 로 끝남"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -396,7 +396,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "영수증 번호 : %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
@@ -404,39 +404,39 @@ msgstr "신용 카드 만료 예정"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "%(productName)s 결제에 사용 중인 신용 카드가 곧 만료됩니다."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "서비스 중단을 방지하려면 가능한 한 빨리 <a href=\"%(updateBillingUrl)s\"> 결제 정보를 업데이트 </a>하시기 바랍니다."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "서비스 중단을 방지하려면 가능한 한 빨리 결제 정보를 업데이트하십시오."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "죄송합니다. 결제에 문제가 있습니다."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "%(productName)s에 대한 최근 결제에 문제가 있습니다."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "신용 카드가 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "3일 이내에 <a href=\"%(updateBillingUrl)s\"> 결제 정보를 업데이트 </a>하여 문제를 해결하도록 도와주세요."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "안타깝게도 3일 이내에 연락이 없으면 %(productName)s에 접근할 수 없게 됩니다."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "3일 이내에 결제 정보를 업데이트하여 문제를 해결하도록 도와주세요."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -446,13 +446,13 @@ msgstr "%(productName)s 구독을 재활성화 해 주셔서 감사합니다!"
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "결제 주기와 결제는 동일하게 유지됩니다. 다음번 청구 금액은 %(nextInvoiceDateOnly)s에 %(lastFour)s로 끝나는 %(cardType)s 카드에 대한 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다."
 
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
-msgstr ""
+msgstr "결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 %(nextInvoiceDateOnly)s에 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -460,7 +460,7 @@ msgstr "구독자가 되어주셔서 감사합니다!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "%(productName)s에 대한 최근 결제를 받았습니다."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
@@ -468,13 +468,13 @@ msgstr "업그레이드 해주셔서 감사합니다!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "%(productNameOld)s에서 %(productNameNew)s로 성공적으로 업그레이드했습니다."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
+msgstr "다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 또한 %(productPaymentCycle)s의 나머지 부분에 대해 더 높은 요금을 반영하기 위해 %(paymentProrated)s의 일회성 요금이 청구됩니다."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -498,11 +498,11 @@ msgstr "Firefox의 가족이 되신 것을 환영합니다"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "며칠 전에 Firefox 계정을 만들었지만 아직 확인하지 않았습니다."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "개인 정보를 위해 힘쓰고 보호하는 기술을 확보하고 실용적인 지식과 가치 있는 활동을 지원합니다."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
@@ -526,11 +526,11 @@ msgstr "Firefox 제품군 활성화"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr ""
+msgstr "계정을 확인하고, 모든 곳에서 Firefox를 최대한 활용하세요."
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "계정을 확인하고 로그인하는 모든 곳에서 Firefox를 최대한 활용하세요."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -578,15 +578,15 @@ msgstr "검증이 되면 이 주소로 보안 알림 및 확인을 받기 시작
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "인증 코드 사용:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "가입 하신 게 맞나요?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -606,11 +606,11 @@ msgstr "확인 후에 최소 한개의 다른 기기에서 Firefox를 설치하�
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "또는 <a %(desktopLinkAttributes)s>다른 데스크톱 장치</a>에 설치합니다."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "또는 <a %(cadLinkAttributes)s>다른 기기</a>에 설치합니다."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -654,39 +654,39 @@ msgstr "Firefox Cloud 이용약관"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "%(email)s은 기존 Firefox 계정이 있고 %(productName)s에 가입하셨기 때문에 발송되었습니다."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "<a %(accountSettingsLinkAttributes)s>계정 페이지</a>를 방문하여, Firefox 계정 설정을 관리하세요."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "약관 및 취소 정책"
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "구독 재활성"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Cancel subscription"
-msgstr ""
+msgstr "구독 취소"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Update billing information"
-msgstr ""
+msgstr "결제 정보 업데이트"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Legal"
-msgstr ""
+msgstr "법적 고지"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Privacy"
-msgstr ""
+msgstr "개인 정보 정책"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "약관 및 취소 정책 :"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -698,7 +698,7 @@ msgstr "구독 취소:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Update billing information:"
-msgstr ""
+msgstr "결제 정보 업데이트:"
 
 #: lib/senders/email.js:311
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -726,7 +726,7 @@ msgstr "%(country)s (추정)"
 
 #: lib/senders/email.js:541
 msgid "Finish creating your account"
-msgstr ""
+msgstr "계정 생성 완료"
 
 #: lib/senders/email.js:542 lib/senders/email.js:670
 msgid "Confirm email"
@@ -738,19 +738,19 @@ msgstr "검증 코드: %(code)s"
 
 #: lib/senders/email.js:650
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "알림: 계정 생성 완료"
 
 #: lib/senders/email.js:652
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "마지막 알림 : 계정 활성화"
 
 #: lib/senders/email.js:707
 msgid "Account authorization code"
-msgstr ""
+msgstr "계정 인증 코드"
 
 #: lib/senders/email.js:776
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "%(clientName)s에서 신규 로그인 확인"
 
 #: lib/senders/email.js:821
 msgid "Sign-in code for %(serviceName)s"
@@ -758,7 +758,7 @@ msgstr "%(serviceName)s의 로그인 코드"
 
 #: lib/senders/email.js:886
 msgid "Confirm primary email"
-msgstr ""
+msgstr "기본 이메일 확인"
 
 #: lib/senders/email.js:887 lib/senders/email.js:946 lib/senders/email.js:1014
 msgid "Verify email"
@@ -766,7 +766,7 @@ msgstr "이메일 검증"
 
 #: lib/senders/email.js:945 lib/senders/email.js:1013
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "보조 이메일 확인"
 
 #: lib/senders/email.js:1069
 msgid "Reset your password"
@@ -774,11 +774,11 @@ msgstr "비밀번호 재설정"
 
 #: lib/senders/email.js:1111 lib/senders/email.js:1177
 msgid "Password updated"
-msgstr ""
+msgstr "비밀번호 수정 완료"
 
 #: lib/senders/email.js:1149 lib/senders/email.js:1207
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "의심스러운 활동 감지"
 
 #: lib/senders/email.js:1249 lib/senders/email.js:1336 lib/senders/email.js:1372 lib/senders/email.js:1408 lib/senders/email.js:1442 lib/senders/email.js:1485 lib/senders/email.js:1528
 #: lib/senders/email.js:1571 lib/senders/email.js:1661 lib/senders/email.js:1707
@@ -787,31 +787,31 @@ msgstr "계정 관리"
 
 #: lib/senders/email.js:1285
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "계정을 확인하였습니다.다른 기기와 동기화하여 설정을 완료하세요."
 
 #: lib/senders/email.js:1371
 msgid "Primary email updated"
-msgstr ""
+msgstr "기본 이메일 수정 완료"
 
 #: lib/senders/email.js:1441
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "2단계 인증 사용"
 
 #: lib/senders/email.js:1484
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "단계 인증 해제"
 
 #: lib/senders/email.js:1570
 msgid "Recovery code used"
-msgstr ""
+msgstr "사용된 복구 코드"
 
 #: lib/senders/email.js:1623
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "남은 복구 코드 1개"
 
 #: lib/senders/email.js:1625
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "남은 복구 코드 %(numberRemaining)s개"
 
 #: lib/senders/email.js:1628
 msgid "Generate codes"
