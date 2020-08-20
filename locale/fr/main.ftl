@@ -34,6 +34,7 @@ card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les 
 ## settings
 
 settings-home = Accueil du compte
+settings-subscriptions-title = Abonnements
 
 ## legal footer
 
@@ -229,35 +230,37 @@ plan-price-year =
        *[other] { $amount } tous les { $intervalCount } ans
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Vous êtes facturé·e { $amount } chaque jour pour { $name }. Votre prochain paiement aura lieu le { $date }.
-       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } jours pour { $name }. Votre prochain paiement aura lieu le { $date }.
+        [one] { $amount } par jour
+       *[other] { $amount } tous les { $intervalCount } jours
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Vous êtes facturé·e { $amount } chaque semaine pour { $name }. Votre prochain paiement aura lieu le { $date }.
-       *[other] Vous êtes facturé·e { $amount } toutes les { $intervalCount } semaines pour { $name }. Votre prochain paiement aura lieu le { $date }.
+        [one] { $amount } par semaine
+       *[other] { $amount } toutes les { $intervalCount } semaines
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Vous êtes facturé·e { $amount } chaque mois pour { $name }. Votre prochain paiement aura lieu le { $date }.
-       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } mois pour { $name }. Votre prochain paiement aura lieu le { $date }.
+        [one] { $amount } par mois
+       *[other] { $amount } tous les { $intervalCount } mois
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Vous êtes facturé·e { $amount } chaque année pour { $name }. Votre prochain paiement aura lieu le { $date }.
-       *[other] Vous êtes facturé·e { $amount } tous les { $intervalCount } ans pour { $name }. Votre prochain paiement aura lieu le { $date }.
+        [one] { $amount } par an
+       *[other] { $amount } tous les { $intervalCount } ans
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Prochaine facturation le { $date }
 
 ##
 
