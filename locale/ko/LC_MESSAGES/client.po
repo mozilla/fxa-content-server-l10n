@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-08-19 14:23+0000\n"
+"PO-Revision-Date: 2020-08-20 17:17+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -798,15 +798,15 @@ msgstr "이미지는 최소한 100x100픽셀이어야 함"
 
 #: .es5/lib/auth-errors.js:436
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "iOS용 Firefox를 위한 회원가입이 곧 제공됩니다"
+msgstr "iOS용 Firefox를 위한 회원 가입을 곧 제공합니다"
 
 #: .es5/lib/auth-errors.js:448
 msgid "You must enter your age to sign up"
-msgstr "회원가입을 하려면 나이를 기입해야 합니다"
+msgstr "가입을 하려면 나이를 입력해야 합니다"
 
 #: .es5/lib/auth-errors.js:452
 msgid "You must enter a valid age to sign up"
-msgstr "회원가입을 하려면 유효한 나이를 입력해야 합니다."
+msgstr "가입을 하려면 유효한 나이를 입력해야 합니다."
 
 #: .es5/lib/auth-errors.js:468
 msgid "Account no longer exists."
