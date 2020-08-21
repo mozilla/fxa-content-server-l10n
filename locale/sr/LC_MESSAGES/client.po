@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 16:05+0000\n"
+"POT-Creation-Date: 2020-08-21 16:04+0000\n"
 "PO-Revision-Date: 2020-05-29 22:34+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Лозинка је успешно ресетована. Пријави�
 msgid "Sign in"
 msgstr "Пријави се"
 
-#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Искористите код %(code)s да поставите верификацију у два корака у подржаним апликацијама."
 

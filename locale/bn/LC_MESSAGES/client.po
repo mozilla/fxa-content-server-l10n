@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 16:05+0000\n"
+"POT-Creation-Date: 2020-08-21 16:04+0000\n"
 "PO-Revision-Date: 2019-11-19 17:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "পাসওয়ার্ড সফলভাবে রিসেট হ
 msgid "Sign in"
 msgstr "সাইন ইন"
 
-#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "সমর্থিত অ্যাপ্লিকেশনে টু-স্টেপ অথেনটিকেশন সেট আপ করতে %(code)s কোড ব্যবহার করুন।"
 

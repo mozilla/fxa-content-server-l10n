@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 16:05+0000\n"
-"PO-Revision-Date: 2020-07-20 10:10+0000\n"
+"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"PO-Revision-Date: 2020-08-19 14:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -29,7 +29,7 @@ msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 msgid "Sign in"
 msgstr "Oanmelde"
 
-#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Brûk de koade %(code)s om autentikaasje yn twa stappen yn stipe tapassingen yn te skeakeljen."
 
@@ -1849,7 +1849,7 @@ msgstr "Fuortsmite…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
+msgstr "Wolle jo in betelle abonnemint annulearje? Gean nei <a href=\"/subscriptions\">Abonneminten</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"

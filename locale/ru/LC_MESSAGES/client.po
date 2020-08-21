@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 16:05+0000\n"
+"POT-Creation-Date: 2020-08-21 16:04+0000\n"
 "PO-Revision-Date: 2020-08-06 23:28+0000\n"
 "Last-Translator: TrickyFoxy <roman.deev06@gmail.com>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -30,7 +30,7 @@ msgstr "Пароль успешно сброшен. Войдите, чтобы �
 msgid "Sign in"
 msgstr "Войти"
 
-#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Используйте код %(code)s для настройки двухэтапной аутентификации в поддерживаемых приложениях."
 

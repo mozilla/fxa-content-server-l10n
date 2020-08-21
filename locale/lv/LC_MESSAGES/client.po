@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 16:05+0000\n"
+"POT-Creation-Date: 2020-08-21 16:04+0000\n"
 "PO-Revision-Date: 2020-01-05 23:41+0000\n"
 "Last-Translator: Jānis Marks Gailis (Jean-Marc) <jm-gailis@fai-vianet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Parole tika veiksmīgi atstatīta. Ieiet lai turpinātu."
 msgid "Sign in"
 msgstr "Ieiet"
 
-#: .es5/views/inline_totp_setup.js:140 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr ""
 

@@ -34,7 +34,7 @@ card-error = Jo transaksje koe net ferwurke wurde. Kontrolearje jo creditkaartge
 ## settings
 
 settings-home = Account-startside
-settings-subscriptions = Abonneminten en betellingen
+settings-subscriptions-title = Abonneminten
 
 ## legal footer
 
@@ -230,35 +230,37 @@ plan-price-year =
        *[other] elke { $intervalCount } jier { $amount }
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-        [one] Foar { $name } wurdt deistich { $amount } fakturearre. Jo folgjende betelling is op { $date }.
-       *[other] Foar { $name } wurdt elke { $intervalCount } dagen { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+        [one] deistich { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-        [one] Foar { $name } wurdt wykliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
-       *[other] Foar { $name } wurdt elke { $intervalCount } wiken { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+        [one] wykliks { $amount }
+       *[other] elke { $intervalCount } wiken { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-        [one] Foar { $name } wurdt moanliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
-       *[other] Foar { $name } wurdt elke { $intervalCount } moannen { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+        [one] moanliks { $amount }
+       *[other] elke { $intervalCount } moannen { $amount }
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-        [one] Foar { $name } wurdt jierliks { $amount } fakturearre. Jo folgjende betelling is op { $date }.
-       *[other] Foar { $name } wurdt elke { $intervalCount } jier { $amount } fakturearre. Jo folgjende betelling is op { $date }.
+        [one] jierliks { $amount }
+       *[other] elke { $intervalCount } jier { $amount }
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Folgjende ynkasso op { $date }
 
 ##
 
