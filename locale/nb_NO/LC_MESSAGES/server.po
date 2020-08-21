@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-21 22:24+0000\n"
+"PO-Revision-Date: 2020-08-21 22:26+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -500,7 +500,7 @@ msgstr "Betalingskortet du bruker for å utføre betalinger for følgende abonne
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Har du spørsmål om dine abonnementer? Vårt supportteam står klar til å hjelpe deg:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -684,7 +684,7 @@ msgstr "Du mottar denne e-postmeldingen fordi %(email)s har en Firefox-konto og 
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Du mottar denne e-postmeldingen fordi %(email)s har en Firefox-konto og du har abonnert på flere produkter."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -704,7 +704,7 @@ msgstr "Avbryt abonnement"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Avbryt abonnementer"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -732,7 +732,7 @@ msgstr "Avbryt abonnement:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Avbryt abonnementer:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -877,7 +877,7 @@ msgstr "Betalingskort for %(productName)s utløper snart"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Betalingskortet for abonnementene dine utløper snart"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
