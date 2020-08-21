@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-07-31 17:23+0000\n"
+"PO-Revision-Date: 2020-08-21 23:53+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -497,11 +497,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Маєте питання щодо передплат? Наша команда підтримки з радістю допоможе вам:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -685,7 +685,7 @@ msgstr "Ви отримуєте це повідомлення, тому що %(e
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Ви отримуєте цей лист, оскільки %(email)s пов'язано з обліковим записом Firefox і ви підписалися на кілька продуктів."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -705,7 +705,7 @@ msgstr "Скасувати передплату"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Скасувати передплати"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -733,7 +733,7 @@ msgstr "Скасувати передплату:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Скасувати передплати:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -878,7 +878,7 @@ msgstr "Незабаром, закінчується термін дії кре�
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Кредитна картка для ваших передплат незабаром втрачає чинність"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
@@ -1012,18 +1012,18 @@ msgstr "Завантажити найновішу версію"
 #~ msgstr "Ви нещодавно видалили свій обліковий запис Firefox. Тому, ми скасували передплату на %(productName)s. Ваш останній платіж у розмірі $%(invoiceTotal)s було сплачено %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Ми скасували вашу передплату %(productName)s. Ваш останній платіж розміром $%(invoiceTotal)s було проведено %(invoiceDateOnly)s. Ви матимете доступ до послуги до завершення поточного періоду "
 #~ "передплати %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час вам буде надано одноразовий кредит "
-#~ "розміром $%(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycle)s."
+#~ "Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час вам буде надано одноразовий кредит розміром "
+#~ "$%(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Оплачено $%(invoiceTotal)s датою %(invoiceDateOnly)s"
@@ -1036,8 +1036,8 @@ msgstr "Завантажити найновішу версію"
 #~ "%(nextInvoiceDateOnly)s. Ваша передплата автоматично продовжуватиметься на встановлений розрахунковий період, доки ви не вирішите її скасувати."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Починаючи з наступного періоду, ваша сума оплати зміниться з $%(paymentAmountOld)s за %(productPaymentCycle)s на $%(paymentAmountNew)s. У той самий час з вас буде стягнуто одноразовий платіж "
 #~ "розміром $%(paymentProrated)s, щоб застосувати підвищену суму оплати на залишок цього %(productPaymentCycle)s."
@@ -1145,8 +1145,8 @@ msgstr "Завантажити найновішу версію"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a "
-#~ "%(androidLinkAttributes)s>Android</a> та <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Ви успішно під'єднали свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в синхронізацію з інших пристроїв, в тому числі з Firefox для <a %(androidLinkAttributes)s>Android</a>"
+#~ " та <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для Android та iOS."
@@ -1272,15 +1272,15 @@ msgstr "Завантажити найновішу версію"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для <a href='%(androidUrl)s'>Android</"
-#~ "a> та <a href='%(iosUrl)s'>iOS</a>."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Тепер ви можете увійти в Синхронізацію зі своїх інших пристроїв, включаючи Firefox для <a href='%(androidUrl)s'>Android</a> "
+#~ "та <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> "
-#~ "чи <a href='%(iosUrl)s'>iOS</a>."
+#~ "Ви успішно підключили свій перший пристрій до облікового запису Firefox. Щоб зробити синхронізацію повноцінною, під'єднайте будь-який пристрій з Firefox для <a href='%(androidUrl)s'>Android</a> чи "
+#~ "<a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Увійти до Синхронізації"
@@ -1316,11 +1316,11 @@ msgstr "Завантажити найновішу версію"
 #~ msgstr "Вітаємо знову."
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на "
-#~ "будь-якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
+#~ "Кілька днів тому ви створили обліковий запис Firefox, але досі не затвердили його. Затверджений обліковий запис дозволяє вам отримувати доступ до своїх вкладок, закладок, паролів та історії на будь-"
+#~ "якому пристрої, під'єднаному до нього. Для активації свого облікового запису, просто підтвердіть цю адресу електронної пошти."
 
 #~ msgid "Verify Email"
 #~ msgstr "Підтвердити адресу електронної пошти"
@@ -1385,8 +1385,8 @@ msgstr "Завантажити найновішу версію"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Чи входили ви в обліковий запис Firefox з будь-якого із зазначених розташувань упродовж останніх 60 днів? Якщо ви не впізнаєте ці розташування, хтось інший міг отримати доступ до вашого "
-#~ "облікового запису Firefox."
+#~ "Чи входили ви в обліковий запис Firefox з будь-якого із зазначених розташувань упродовж останніх 60 днів? Якщо ви не впізнаєте ці розташування, хтось інший міг отримати доступ до вашого облікового "
+#~ "запису Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата і час:"
@@ -1464,8 +1464,8 @@ msgstr "Завантажити найновішу версію"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої "
-#~ "паролі, закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
+#~ "Тиждень тому ви створили обліковий запис Firefox, але досі не затвердили його. Ми хвилюємося за вас. Firefox доступний для Windows, Mac, Linux, Android та iOS. Ви можете синхронізувати свої паролі, "
+#~ "закладки та історію на всіх пристроях. Для активації облікового запису підтвердіть цю адресу електронної пошти, даючи нам знати, що все в порядку."
 
 #~ msgid "env"
 #~ msgstr "env"
