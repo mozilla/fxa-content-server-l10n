@@ -34,7 +34,7 @@ card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerini
 ## settings
 
 settings-home = Hesap ana sayfası
-settings-subscriptions = Abonelikler ve ödemeler
+settings-subscriptions-title = Abonelikler
 
 ## legal footer
 
@@ -178,10 +178,35 @@ plan-price-year =
        *[other] { $intervalCount } yılda bir { $amount }
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] Günde { $amount }
+       *[other] { $intervalCount } günde bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] Haftada { $amount }
+       *[other] { $intervalCount } haftada bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] Ayda { $amount }
+       *[other] { $intervalCount } ayda bir { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] Yılda { $amount }
+       *[other] { $intervalCount } yılda bir { $amount }
+    }
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
