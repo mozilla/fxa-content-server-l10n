@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-22 13:05+0000\n"
+"PO-Revision-Date: 2020-08-22 13:08+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -32,7 +32,7 @@ msgstr "Đồng bộ hóa thiết bị khác với Firefox sẽ giữ dấu tran
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Nếu bạn chưa tải xuống %(productName)s, hãy bắt đầu sử dụng tất cả các tính năng có trong đăng ký của bạn:"
+msgstr "Nếu bạn chưa tải xuống %(productName)s, hãy bắt đầu sử dụng tất cả các tính năng có trong thuê bao của bạn:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
@@ -885,11 +885,11 @@ msgstr "Thanh toán %(productName)s không thành công"
 
 #: lib/senders/email.js:2082 lib/senders/email.js:2147
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Đăng ký %(productName)s của bạn đã bị hủy"
+msgstr "Thuê bao %(productName)s của bạn đã bị hủy"
 
 #: lib/senders/email.js:2218
 msgid "%(productName)s subscription reactivated"
-msgstr "Đã kích hoạt lại đăng ký %(productName)s"
+msgstr "Đã kích hoạt lại thuê bao %(productName)s"
 
 #: lib/senders/email.js:2292
 msgid "%(productName)s payment received"
