@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-07-25 10:45+0000\n"
+"PO-Revision-Date: 2020-08-21 17:31+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -360,8 +360,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Fra og med din næste regning vil din opkrævning blive ændret fra %(paymentAmountOld)s pr. %(productPaymentCycle)s til %(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et "
-"engangsbeløb på %(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
+"Fra og med din næste regning vil din opkrævning blive ændret fra %(paymentAmountOld)s pr. %(productPaymentCycle)s til %(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et engangsbeløb"
+" på %(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -374,7 +374,7 @@ msgstr "Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du 
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Tak fordi du abonnerer på %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -494,11 +494,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Har du spørgsmål om dine abonnementer? Vores supportteam står klar til at hjælpe dig:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -682,7 +682,7 @@ msgstr "Du modtager denne mail, fordi %(email)s har en Firefox-konto, og du har 
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Du modtager denne mail, fordi %(email)s har en Firefox-konto, og du har abonneret på flere produkter."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -702,7 +702,7 @@ msgstr "Annuller abonnement"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Annuller abonnementer"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -730,7 +730,7 @@ msgstr "Annuller abonnement:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Annuller abonnementer:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -875,7 +875,7 @@ msgstr "Betalingskort for %(productName)s udløber snart"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Betalingskort for dine abonnementer udløber snart"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
@@ -1009,15 +1009,15 @@ msgstr "Hent seneste"
 #~ msgstr "Du har for nylig slettet din Firefox-konto. Derfor har vi annulleret dit abonnement på %(productName)s. Din sidste betaling på $%(invoiceTotal)s blev betalt den %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Vi har annulleret dit abonnement på %(productName)s. Din sidste betaling på $%(invoiceTotal)s blev betalt den %(invoiceDateOnly)s. Tjenesten fortsætter indtil udgangen af din nuværende "
 #~ "faktureringsperiode, som er %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fra og med din næste regning vil din opkrævning blive ændret fra $%(paymentAmountOld)s pr. %(productPaymentCycle)s til $%(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et "
 #~ "engangsbeløb på $%(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
@@ -1033,8 +1033,8 @@ msgstr "Hent seneste"
 #~ "%(lastFour)s. Dit abonnement er fortløbende og bliver automatisk fornyet, hvis du ikke annullerer det."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fra og med din næste regning vil din opkrævning blive ændret fra $%(paymentAmountOld)s pr. %(productPaymentCycle)s til $%(paymentAmountNew)s. På det tidspunkt vil du også blive opkrævet et "
 #~ "engangsbeløb på $%(paymentProrated)s for at afspejle den højere opkrævning for resten af dette %(productPaymentCycle)s."
@@ -1142,8 +1142,8 @@ msgstr "Hent seneste"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til <a %(androidLinkAttributes)s>Android</a> og Firefox "
-#~ "til <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til <a %(androidLinkAttributes)s>Android</a> og Firefox til "
+#~ "<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til Android og Firefox til iOS."
@@ -1273,8 +1273,8 @@ msgstr "Hent seneste"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a "
-#~ "href='%(iosUrl)s'>Firefox til iOS-enhed</a>."
+#~ "Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a href='%(iosUrl)s'>Firefox"
+#~ " til iOS-enhed</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Log ind på Sync"
@@ -1439,11 +1439,11 @@ msgstr "Hent seneste"
 #~ msgstr "Nulstil adgangskode"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som "
-#~ "er forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
+#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som er "
+#~ "forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "For en uge siden oprettede du en Firefox-konto, men bekræftede den aldrig. Vi er bekymrede for dig. Bekræft denne mailadresse for at aktivere din konto og lade os vide, at du er ok."
@@ -1469,8 +1469,7 @@ msgstr "Hent seneste"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har bekræftet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
