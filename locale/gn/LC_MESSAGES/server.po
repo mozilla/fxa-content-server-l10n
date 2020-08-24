@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-24 14:48+0000\n"
+"PO-Revision-Date: 2020-08-24 14:52+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -878,7 +878,7 @@ msgstr "Nde kuatia’atã ñemurã %(productName)s ndokovéitama"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
