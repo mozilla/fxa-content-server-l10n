@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-24 14:41+0000\n"
+"PO-Revision-Date: 2020-08-24 14:48+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -501,7 +501,7 @@ msgstr "Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboher
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ko’ápe nepytyvõ hag̃ua:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -685,7 +685,7 @@ msgstr "Og̃uahẽ ko ñanduti veve %(email)s oguereko rupi mba’ete Firefox-pe
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Og̃uahẽ ko ñanduti veve %(email)s eguereko rupi mba’ete Firefox pegua ha eñemboheraguapýre heta apopyrépe."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -705,7 +705,7 @@ msgstr "Ñemboheraguapy jeheja"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Ñemboheraguapy jeheja"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -733,7 +733,7 @@ msgstr "Ñemboheraguapy jeheja:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Ñemboheraguapy jeheja:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
