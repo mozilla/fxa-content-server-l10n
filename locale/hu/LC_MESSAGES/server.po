@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-07-31 16:47+0000\n"
-"Last-Translator: kemia051 <kemia051@gmail.com>\n"
+"PO-Revision-Date: 2020-08-24 09:15+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -356,8 +356,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Megszakítottuk a(z) %(productName)s-előfizetését. Az utolsó befizetésének ideje %(invoiceDateOnly)s, összege %(invoiceTotal)s. Az előfizetése aktív marad a befizetett periódus végéig, melynek "
-"dátuma %(serviceLastActiveDateOnly)s."
+"Megszakítottuk a(z) %(productName)s-előfizetését. Az utolsó befizetésének ideje %(invoiceDateOnly)s, összege %(invoiceTotal)s. Az előfizetése aktív marad a befizetett periódus végéig, melynek dátuma"
+" %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -502,11 +502,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "A következő előfizetésekhez használt bankkártyája hamarosan lejár."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Kérdései vannak az előfizetéseiről? A támogatási csapatunk itt van, hogy segítsen:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -690,7 +690,7 @@ msgstr "Azért kapta ezt az e-mailt, mert a(z) %(email)s rendelkezik Firefox-fi�
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Azért kapta ezt az e-mailt, mert a(z) %(email)s rendelkezik Firefox-fiókkal, és több termékre is előfizet."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -710,7 +710,7 @@ msgstr "Előfizetés lemondása"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Előfizetések lemondása"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -738,7 +738,7 @@ msgstr "Előfizetés lemondása:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Előfizetések lemondása:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -883,7 +883,7 @@ msgstr "A(z) %(productName)s termékhez tartozó bankkártya hamarosan lejár"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Az előfizetéseihez tartozó bankkártya hamarosan lejár"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
@@ -1017,15 +1017,15 @@ msgstr "Legfrissebb letöltése"
 #~ msgstr "Nemrég törölte a Firefox-fiókját. Ezért megszakítottuk a(z) %(productName)s előfizetését. Az utolsó %(invoiceTotal)s $ értékű befizetése ekkor történt: %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Lemondtuk a(z) %(productName)s előfizetését. Az utolsó befizetésének ideje %(invoiceDateOnly)s, összege $%(invoiceTotal)s. Az előfizetése aktív marad a befizetett periódus végéig, melynek dátuma "
 #~ "%(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor kapni fog egy egyszeri %(paymentProrated)s $-os "
 #~ "jóváírást, amely a %(productPaymentCycle)s hátralévő időszakára eső különbözet."
@@ -1037,12 +1037,12 @@ msgstr "Legfrissebb letöltése"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "A számlázási ciklusa és fizetése változatlan marad. A következő terhelés %(invoiceTotal)s $ lesz a %(lastFour)s végű %(cardType)s kártyán, ekkor: %(nextInvoiceDateOnly)s. Előfizetése "
-#~ "automatikusan megújítja az összes számlázási időszakot, hacsak nem dönt úgy, hogy lemondja."
+#~ "A számlázási ciklusa és fizetése változatlan marad. A következő terhelés %(invoiceTotal)s $ lesz a %(lastFour)s végű %(cardType)s kártyán, ekkor: %(nextInvoiceDateOnly)s. Előfizetése automatikusan "
+#~ "megújítja az összes számlázási időszakot, hacsak nem dönt úgy, hogy lemondja."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "A következő számlától fogva a levonása megváltozik %(paymentAmountOld)s $/%(productPaymentCycle)s összegről %(paymentAmountNew)s $-ra. Akkor levonásra kerül %(paymentProrated)s $, amely a "
 #~ "%(productPaymentCycle)s hátralévő időszakára eső különbözet."
@@ -1281,8 +1281,8 @@ msgstr "Legfrissebb letöltése"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a "
-#~ "href='%(iosUrl)s'>Firefox for iOS</a> böngészőjét is."
+#~ "Sikeresen csatlakoztatta az első készüléket a Firefox fiókhoz. A Sync legteljesebb kihasználásához csatlakoztassa <a href='%(androidUrl)s'>Firefox for Android</a> vagy <a href='%(iosUrl)s'>Firefox "
+#~ "for iOS</a> böngészőjét is."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Jelentkezzen be a Syncbe"
@@ -1447,8 +1447,8 @@ msgstr "Legfrissebb letöltése"
 #~ msgstr "Jelszó visszaállítása"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Néhány napja létrehozott egy Firefox fiókot, de nem erősítette meg. A megerősített fiókkal elérheti lapjait, könyvjelzőit, jelszavait és előzményeit bármely eszközéről. A fiók aktiválásához "
 #~ "egyszerűen erősítse meg ezt az e-mail címet."
@@ -1479,11 +1479,10 @@ msgstr "Legfrissebb letöltése"
 #~ "Sikeresen eltávolítottuk a következő másodlagos e-mail címe a Firefox fiókjából: %(secondaryEmail)s. A biztonsági értesítések és a bejelentkezési megerősítések nem lesznek többé kiküldve erre a "
 #~ "címre."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre "
-#~ "kézbesítve lesznek."
+#~ "Sikeresen megerősítette a(z) %(secondaryEmail)s címet másodlagos e-mailként a Firefox fiókjához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét e-mail címre kézbesítve "
+#~ "lesznek."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Ahogy kérte, itt egy hivatkozás a Firefox telepítéséről a mobileszközére: %(link)s"
