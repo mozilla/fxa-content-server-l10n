@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-21 17:52+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2020-08-24 07:12+0000\n"
+"Last-Translator: Magnus Vhendin <magnus.vhendin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -685,7 +685,7 @@ msgstr "Du får det här e-postmeddelandet eftersom %(email)s har ett Firefox-ko
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Du får det här e-postmeddelandet eftersom %(email)s har ett Firefox-konto och du har registrerat dig för ett flertal produkter."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
