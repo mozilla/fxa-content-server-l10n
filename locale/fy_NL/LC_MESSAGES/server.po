@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-24 11:52+0000\n"
+"PO-Revision-Date: 2020-08-24 11:54+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -688,7 +688,7 @@ msgstr "Jo ûntfange dit berjocht omdat %(email)s in Firefox-account hat en jo o
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Jo ûntfange dit berjocht omdat %(email)s in Firefox-account hat en jo binne abonnearre op mear produkten."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -708,7 +708,7 @@ msgstr "Abonnemint annulearje"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Abonneminten opsizze"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -736,7 +736,7 @@ msgstr "Abonnemint annulearje:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Abonneminten opsizze:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -881,7 +881,7 @@ msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
