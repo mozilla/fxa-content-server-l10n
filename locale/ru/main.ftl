@@ -190,20 +190,97 @@ sub-update-confirm-with-legal-links-week =
         [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } недели</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
        *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } недель</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } месяц</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } месяца</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } месяцев</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } год</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } года</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } раз в { $intervalCount } лет</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
+    }
 
 ##
 
+sub-update-submit = Подтвердить обновление
+sub-update-indicator =
+    .aria-label = индикатор обновления
+sub-update-current-plan-label = Текущий план
+sub-update-new-plan-label = Новый план
+sub-update-total-label = Новый итог
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } день
+        [few] { $amount } раз в { $intervalCount } дня
+       *[many] { $amount } раз в { $intervalCount } дней
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } неделю
+        [few] { $amount } раз в { $intervalCount } недели
+       *[many] { $amount } раз в { $intervalCount } недель
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } месяц
+        [few] { $amount } раз в { $intervalCount } месяца
+       *[many] { $amount } раз в { $intervalCount } месяцев
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } год
+        [few] { $amount } раз в { $intervalCount } года
+       *[many] { $amount } раз в { $intervalCount } лет
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } день
+        [few] { $amount } раз в { $intervalCount } дня
+       *[many] { $amount } раз в { $intervalCount } дней
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } неделю
+        [few] { $amount } раз в { $intervalCount } недели
+       *[many] { $amount } раз в { $intervalCount } недель
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } месяц
+        [few] { $amount } раз в { $intervalCount } месяца
+       *[many] { $amount } раз в { $intervalCount } месяцев
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } год
+        [few] { $amount } раз в { $intervalCount } года
+       *[many] { $amount } раз в { $intervalCount } лет
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Следующий счет будет выставлен { $date }
 
 ##
 
@@ -214,16 +291,44 @@ pay-update-change-btn = Изменить
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Хотите продолжать использовать { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Ваш доступ к { $name } будет продолжен, а ваш платежный цикл
+    и оплата останутся прежними. Ваш следующий платеж будет
+    составлять { $amount } на карту, заканчивающуюся на { $last }, { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Ваш доступ к { $name } будет продолжен, а ваш платежный цикл
+    и оплата останутся прежними. Ваш следующий платеж будет
+    составлять { $amount }, { $endDate }.
+reactivate-confirm-button = Переоформить подписку
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Вы отменили подписку { $date }.
+reactivate-panel-copy = Вы потеряете доступ к { $name } <strong>{ $date }</strong>.
+reactivate-success-copy = Спасибо! Все готово.
 reactivate-success-button = Закрыть
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Проблема с загрузкой подписок
+sub-item-missing-msg = Пожалуйста, попробуйте позже.
+sub-item-no-such-plan = Нет такого плана для этой подписки.
 sub-item-cancel-sub = Отменить подписку
+sub-item-stay-sub = Оставить подписку
+sub-item-cancel-msg =
+    Вы больше не сможете использовать { $name } после
+    { $period }, это последний день вашего платежного цикла.
+sub-item-cancel-confirm =
+    Отменить мой доступ и мою сохранённую информацию для
+    { $name } на { $period }
 
 ## subscription route index
 
