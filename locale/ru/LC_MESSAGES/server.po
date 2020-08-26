@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-07 09:19+0000\n"
+"PO-Revision-Date: 2020-08-26 13:04+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -17,19 +17,21 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2483
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Вот ваше напоминание о синхронизации устройств."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2487
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Для синхронизации требуется два устройства. Синхронизация другого устройства с Firefox конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных Firefox везде, где вы его "
+"используете."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2484
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Последнее напоминание о синхронизации устройств!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2490
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Синхронизация другого устройства с Firefox конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных Firefox везде, где вы его используете."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -73,14 +75,16 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Мы обнаружили подозрительное поведение в вашей учетной записи Firefox. Чтобы предотвратить несанкционированный доступ к вашей учетной записи Firefox, мы отключили все устройства в вашей учетной "
+"записи и в качестве меры предосторожности просим вас сменить пароль."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Войдите снова на любое устройство или службу, где вы используете свою учётную запись Firefox, и следуйте инструкциям, которые будут вам предложены."
 
 #: lib/senders/templates/passwordChangeRequired.html:3
 msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Важно:</b> выберите пароль, отличный от того, который вы использовали ранее, и убедитесь, что он отличается от пароля для вашей учётной записи электронной почты."
 
 #: lib/senders/templates/passwordChangeRequired.html:4 lib/senders/templates/passwordChangeRequired.txt:4 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -89,11 +93,11 @@ msgstr "Всего наилучшего,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Команда аккаунтов Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Важно: выберите пароль, отличный от того, который вы использовали ранее, и убедитесь, что он отличается от пароля для вашей учётной записи электронной почты."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -285,15 +289,15 @@ msgstr "Вы успешно отключили двухэтапную аутен
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Аккаунт Firefox подтверждён. Вы почти на месте."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Следующая синхронизация между вашими устройствами!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Синхронизация конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных Firefox на всех ваших устройствах."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1292
 msgid "Setup next device"
@@ -336,7 +340,7 @@ msgstr "Жаль, что вы уходите"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Недавно вы удалили свой Аккаунт Firefox. В результате мы отменили вашу подписку на %(productName)s. Ваш последний платёж в размере $%(invoiceTotal)s был совершён %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -996,28 +1000,28 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Недавно вы удалили свой Аккаунт Firefox. В результате, мы отменили вашу подписку на %(productName)s. Ваш последний платёж в размере $%(invoiceTotal)s был совершён %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Мы отменили вашу подписку на %(productName)s. Ваш последний платёж в размере $%(invoiceTotal)s был совершён %(invoiceDateOnly)s. Доступ к службе будет действовать до конца текущего платёжного "
 #~ "периода, который заканчивается %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере $"
-#~ "%(paymentProrated)s для отражения более низкой стоимости за этот %(productPaymentCycle)s."
+#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере "
+#~ "$%(paymentProrated)s для отражения более низкой стоимости за этот %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Оплачено $%(invoiceTotal)s %(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вам также будет необходимо оплатить $"
-#~ "%(paymentProrated)s для отражения более высокой стоимости за этот %(productPaymentCycle)s."
+#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вам также будет необходимо оплатить "
+#~ "$%(paymentProrated)s для отражения более высокой стоимости за этот %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Вы вошли и готовы погрузиться в Интернет — защищённо и безопасно."
@@ -1246,8 +1250,8 @@ msgstr "Загрузить последнюю версию"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1419,15 +1423,14 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Восстановить пароль"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 #~ "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
+#~ msgstr "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
@@ -1449,21 +1452,18 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот "
-#~ "адрес."
+#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот адрес."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr ""
-#~ "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Как запрошено, вот ссылка для установки Firefox на ваше мобильное устройство: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ "
-#~ "к вашему Аккаунту Firefox."
+#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ к "
+#~ "вашему Аккаунту Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата и время:"
@@ -1517,8 +1517,7 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr ""
-#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"
