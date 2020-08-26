@@ -49,12 +49,50 @@ product-plan-details-heading = Давайте настроим вашу подп
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } день
+        [few] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } дня
+       *[many] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } дней
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } неделю
+        [few] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } недели
+       *[many] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } недель
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } месяц
+        [few] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } месяца
+       *[many] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } месяцев
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } год
+        [few] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } года
+       *[many] Подписка на { $productName } стоимостью { $amount } оплачивается раз в { $intervalCount } лет
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Проблема с загрузкой планов
+product-profile-error =
+    .title = Проблема с загрузкой профиля
+product-customer-error =
+    .title = Проблема с загрузкой клиента
+product-plan-not-found = План не найден
+product-no-such-plan = Нет такого плана для этого продукта.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } использует Stripe для безопасной обработки платежей.
+payment-legal-link = Ознакомьтесь с <a>политикой конфиденциальности Stripe</a>.
 
 ## payment form
 
