@@ -20,9 +20,21 @@ close-aria =
 
 general-error-heading = Общая ошибка приложения
 basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
+payment-error-1 = Хм. При авторизации платежа возникла проблема. Повторите попытку или свяжитесь с эмитентом карты.
+payment-error-2 = Хм. При авторизации платежа возникла проблема. Свяжитесь с эмитентом вашей карты.
+expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
+insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
+withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
+charge-exceeds-source-limit = Похоже, эта транзакция приведет к превышению вашего ежедневного кредитного лимита. Попробуйте другую карту или через 24 часа.
+instant-payouts-unsupported = Похоже, ваша дебетовая карта не предназначена для мгновенных платежей. Попробуйте другую дебетовую или кредитную карту.
+duplicate-transaction = Хм. Похоже, что только что была отправлена идентичная транзакция. Проверьте свою историю платежей.
+coupon-expired = Похоже, что срок действия промокода истек.
+card-error = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте еще раз.
 
 ## settings
 
+settings-home = Главная страница аккаунта
+settings-subscriptions-title = Подписки
 
 ## legal footer
 
@@ -95,10 +107,11 @@ sub-update-card-exp = Срок действия истекает { $cardExpMonth
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
