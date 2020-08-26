@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-26 13:13+0000\n"
+"PO-Revision-Date: 2020-08-26 13:23+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -472,6 +472,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
+"Ваш платежный цикл и платеж останутся прежними. Ваш следующий платеж будет произведён %(nextInvoiceDateOnly)s на сумму %(invoiceTotal)s. Ваша подписка будет автоматически продлеваться каждый "
+"расчетный период, если вы не отмените её."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -494,14 +496,16 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Начиная со следующего счёта, ваша комиссия будет изменена с %(paymentAmountOld)s за %(productPaymentCycle)s на %(paymentAmountNew)s. В это время с вас также будет взята разовая плата в размере "
+"%(paymentProrated)s, чтобы отразить более высокую плату за оставшуюся часть этого %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Срок действия банковской карты, которую вы используете для совершения платежей за следующие подписки, скоро заканчивается."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "У вас есть вопросы по вашим подпискам? Наша команда поддержки с радостью поможет вам:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -633,11 +637,11 @@ msgstr "После подтверждения мы поможем вам уст�
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Или установите на <a %(desktopLinkAttributes)s>другое настольное устройство</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Или установите на <a %(cadLinkAttributes)s>другое устройство</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -685,7 +689,7 @@ msgstr "Вы получили это письмо, так как на %(email)s 
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Вы получили это письмо, так как на %(email)s заведён Аккаунт Firefox, и вы подписались на множество продуктов."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -697,7 +701,7 @@ msgstr "Условия и политика отказа от подписки"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Активировать подписку повторно"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
@@ -705,7 +709,7 @@ msgstr "Отменить подписку"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Отменить подписки"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -733,7 +737,7 @@ msgstr "Отменить подписку:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Отменить подписки:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -826,7 +830,7 @@ msgstr "Управление аккаунтом"
 
 #: lib/senders/email.js:1287
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Аккаунт подтвержден. Далее синхронизируйте другое устройство, чтобы завершить настройку"
 
 #: lib/senders/email.js:1373
 msgid "Primary email updated"
@@ -878,7 +882,7 @@ msgstr "Срок действия банковской карты для опл�
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Срок действия банковской карты для оплаты ваших подписок скоро заканчивается"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
@@ -890,7 +894,7 @@ msgstr "Ваша подписка на %(productName)s была отменена
 
 #: lib/senders/email.js:2218
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Подписка на %(productName)s активирована повторно"
 
 #: lib/senders/email.js:2292
 msgid "%(productName)s payment received"
@@ -910,15 +914,15 @@ msgstr "Загрузить %(productName)s"
 
 #: lib/senders/email.js:2479
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Ваше дружеское напоминание: Как завершить настройку синхронизации"
 
 #: lib/senders/email.js:2480
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Последнее напоминание: Завершите настройку синхронизации"
 
 #: lib/senders/email.js:2494
 msgid "Sync another device"
-msgstr ""
+msgstr "Синхронизировать другое устройство"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -934,6 +938,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Запрошенная вами страница не найдена. Мы уведомлены об этом и\n"
+"          исправим все ссылки, которые могут сломаны."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -948,6 +954,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"О Боже мой, что-то там пошло не так. Мы уведомлены об этом и\n"
+"          начнём работу над исправлением."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -962,6 +970,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"В настоящее время мы испытываем сильную нагрузку, и работаем над тем,\n"
+"          чтобы как можно скорее вернуть систему в нормальное состояние."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
