@@ -329,18 +329,35 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Отменить мой доступ и мою сохранённую информацию для
     { $name } на { $period }
+account-activated = Ваша учётная запись активирована, <userEl/>
 
 ## subscription route index
 
 sub-route-idx-updating = Обновление платёжной информации...
+sub-route-idx-reactivating = Не удалось повторно активировать подписку
+sub-route-idx-cancel-failed = Не удалось отменить подписку
 sub-route-idx-contact = Связаться с поддержкой
 sub-route-idx-cancel-msg-title = Нам жаль, что вы уходите
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ваша подписка на { $name } была отменена.
+          <br />
+          У вас по-прежнему будет доступ к { $name } до { $date }.
+sub-route-idx-cancel-aside = Есть вопросы? Посетите <a>{ -brand-name-mozilla }Службу поддержки</a>.
+sub-subscription-error =
+    .title = Проблема с загрузкой подписок
+sub-customer-error =
+    .title = Проблема с загрузкой клиента
+sub-billing-update-success = Ваша платежная информация была успешно обновлена
 
 ## subscription create
 
+sub-guarantee = 30-дневная гарантия возврата денег
 
 ## plan-details
 
+plan-details-header = Информация о продукте
 plan-details-show-button = Показать подробности
 plan-details-hide-button = Скрыть подробности
 plan-details-total-label = Всего
@@ -348,10 +365,23 @@ plan-details-total-label = Всего
 ## payment confirmation
 
 payment-confirmation-alert = Нажмите здесь для загрузки
+payment-confirmation-mobile-alert = Не открылось приложение? <a>Щёлкните здесь</a>
 payment-confirmation-heading = Спасибо, { $displayName }!
 payment-confirmation-heading-bak = Спасибо!
 payment-confirmation-subheading = Письмо для подтверждения было отправлено на
+payment-confirmation-order-heading = Информация о заказе
+payment-confirmation-invoice-number = Инвойс № { $invoiceNumber }
+payment-confirmation-billing-heading = Счет выставлен на
+payment-confirmation-details-heading = Детали оплаты
+payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } раз в { $intervalCount } день
+        [few] { $amount } раз в { $intervalCount } дня
+       *[many] { $amount } раз в { $intervalCount } дней
+    }
 payment-confirmation-download-button = Продолжить загрузку
