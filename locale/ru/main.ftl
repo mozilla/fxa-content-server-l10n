@@ -227,23 +227,23 @@ plan-price-day =
 #  $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } неделю
-        [few] { $amount } раз в { $intervalCount } недели
-       *[many] { $amount } раз в { $intervalCount } недель
+        [one] { $amount } каждую { $intervalCount } неделю
+        [few] { $amount } каждые { $intervalCount } недели
+       *[many] { $amount } каждые { $intervalCount } недель
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } месяц
-        [few] { $amount } раз в { $intervalCount } месяца
-       *[many] { $amount } раз в { $intervalCount } месяцев
+        [one] { $amount } каждый { $intervalCount } месяц
+        [few] { $amount } каждые { $intervalCount } месяца
+       *[many] { $amount } каждые { $intervalCount } месяцев
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } год
-        [few] { $amount } раз в { $intervalCount } года
-       *[many] { $amount } раз в { $intervalCount } лет
+        [one] { $amount } каждый { $intervalCount } год
+        [few] { $amount } каждые { $intervalCount } года
+       *[many] { $amount } каждые { $intervalCount } лет
     }
 
 ## subscription billing details
@@ -252,30 +252,30 @@ plan-price-year =
 #  $intervalCount (Number) - The interval between payments, in days.
 sub-plan-price-day =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } день
-        [few] { $amount } раз в { $intervalCount } дня
-       *[many] { $amount } раз в { $intervalCount } дней
+        [one] { $amount } каждый { $intervalCount } день
+        [few] { $amount } каждые { $intervalCount } дня
+       *[many] { $amount } каждые { $intervalCount } дней
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 sub-plan-price-week =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } неделю
-        [few] { $amount } раз в { $intervalCount } недели
-       *[many] { $amount } раз в { $intervalCount } недель
+        [one] { $amount } каждую { $intervalCount } неделю
+        [few] { $amount } каждые { $intervalCount } недели
+       *[many] { $amount } каждые { $intervalCount } недель
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 sub-plan-price-month =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } месяц
-        [few] { $amount } раз в { $intervalCount } месяца
-       *[many] { $amount } раз в { $intervalCount } месяцев
+        [one] { $amount } каждый { $intervalCount } месяц
+        [few] { $amount } каждые { $intervalCount } месяца
+       *[many] { $amount } каждые { $intervalCount } месяцев
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 sub-plan-price-year =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } год
-        [few] { $amount } раз в { $intervalCount } года
-       *[many] { $amount } раз в { $intervalCount } лет
+        [one] { $amount } каждый { $intervalCount } год
+        [few] { $amount } каждые { $intervalCount } года
+       *[many] { $amount } каждые { $intervalCount } лет
     }
 
 ## $date (Date) - The date for the next time a charge will occur.
@@ -380,8 +380,30 @@ payment-confirmation-amount = { $amount } за { $interval }
 #  $intervalCount (Number) - The interval between payments, in days.
 payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $amount } раз в { $intervalCount } день
-        [few] { $amount } раз в { $intervalCount } дня
-       *[many] { $amount } раз в { $intervalCount } дней
+        [one] { $amount } каждый { $intervalCount } день
+        [few] { $amount } каждые { $intervalCount } дня
+       *[many] { $amount } каждые { $intervalCount } дней
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } каждую { $intervalCount } неделю
+        [few] { $amount } каждые { $intervalCount } недели
+       *[many] { $amount } каждые { $intervalCount } недель
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } каждый { $intervalCount } месяц
+        [few] { $amount } каждые { $intervalCount } месяца
+       *[many] { $amount } каждые { $intervalCount } месяцев
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } каждый { $intervalCount } год
+        [few] { $amount } каждые { $intervalCount } года
+       *[many] { $amount } каждые { $intervalCount } лет
+    }
+payment-confirmation-cc-preview = оканчивается на { $last4 }
 payment-confirmation-download-button = Продолжить загрузку
