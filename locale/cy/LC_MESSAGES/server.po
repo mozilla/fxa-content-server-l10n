@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-21 16:04+0000\n"
-"PO-Revision-Date: 2020-08-27 08:53+0000\n"
+"PO-Revision-Date: 2020-08-27 08:55+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -501,7 +501,7 @@ msgstr "Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tan
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Cwestiynau am eich tanysgrifiadau? Mae ein tîm cymorth yma i'ch helpu chi:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -685,7 +685,7 @@ msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru i nifer o gynnyrch."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -705,7 +705,7 @@ msgstr "Canslo tanysgrifiad"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Diddymu tanysgrifiadau"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -733,7 +733,7 @@ msgstr "Canslo tanysgrifiad:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Diddymu tanysgrifiadau:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -878,7 +878,7 @@ msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
 
 #: lib/senders/email.js:1979
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
 
 #: lib/senders/email.js:2031
 msgid "%(productName)s payment failed"
