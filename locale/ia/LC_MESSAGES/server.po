@@ -689,7 +689,7 @@ msgstr "Tu recipe iste email perque %(email)s ha un Conto Firefox e tu te inscri
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Tu recipe iste email perque %(email)s ha un Conto Firefox e tu te inscribeva a plure productos."
+msgstr "Tu recipe iste message perque %(email)s ha un conto Firefox e tu te ha subscribite a plure productos."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
