@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 16:03+0000\n"
-"PO-Revision-Date: 2020-08-28 16:53+0000\n"
+"PO-Revision-Date: 2020-08-28 16:56+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -496,11 +496,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Betalingskortet du brukar for å utføre betalingar for følgjande abonnement er i ferd med å gå ut."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Har du spørsmål om abonnementa dine? Supportteamet vårt står klar til å hjelpe deg:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -684,7 +684,7 @@ msgstr "Du får denne e-postmeldinga fordi %(email)s har ein Firefox-konto og du
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Du får denne e-postmeldinga fordi %(email)s har ein Firefox-konto og du har abonnert på fleire produkt."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
