@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-08-04 08:41+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,11 +150,11 @@ msgstr "Cyfrinair newydd"
 msgid "Re-enter password"
 msgstr "Ail gynnig eich cyfrinair"
 
-#: .es5/views/settings/change_password.js:278 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Newid"
 
-#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:285 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -162,7 +162,7 @@ msgstr "Newid"
 msgid "Cancel"
 msgstr "Diddymu"
 
-#: .es5/views/settings/change_password.js:381
+#: .es5/views/settings/change_password.js:384
 msgid "Password changed successfully"
 msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
 
@@ -258,7 +258,7 @@ msgstr "Sesiwn Gwe"
 msgid "Last seen time unknown"
 msgstr "Amser gwelwyd diwethaf yn anhysbys"
 
-#: .es5/views/settings/delete_account.js:215
+#: .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
@@ -507,7 +507,7 @@ msgstr "Stamp amser annilys yn y llofnod cais"
 msgid "Invalid nonce in request signature"
 msgstr "Nonce annilys yn y llofnod cais"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Mae'r cyfrif yn bodoli'n barod"
 
@@ -559,7 +559,7 @@ msgstr "Corff gofyn yn rhy fawr"
 msgid "The request was blocked for security reasons"
 msgstr "Cafodd y cais ei rwystro am resymau diogelwch"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
 msgstr "Cod awdurdodi annilys"
 
@@ -592,295 +592,299 @@ msgid "This email was already verified by another user"
 msgstr "Mae'r e-bost eisoes wedi ei ddilysu gan ddefnyddiwr arall"
 
 #: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
 msgstr "Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost"
 
-#: .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
 msgstr "Rydych wedi cyrraedd y nifer uchaf o ail e-byst sy'n cael eu caniatáu"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
 msgstr "Mae'r e-bost hwn eisoes yn bodoli ar eich cyfrif"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
 msgstr "Rhaid defnyddio eich prif gyfrif ar gyfer mewngofnodi"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
 msgstr "Mae'r cyfeiriad yn cael ei ddefnyddio gan gyfrif arall"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
 msgstr "Mae angen defnyddio'r prif gyfrif ar gyfer ei ailosod"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
 msgstr "Cod mewngofnodi annilys"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
 msgstr "Nid oes modd i chi newid eich prif e-bost i e-bost heb ei ddilysu"
 
-#: .es5/lib/auth-errors.js:200 .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Nid oes modd newid prif e-bost i e-bost nad yw'n perthyn i'r cyfrif hwn"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
 msgstr "Ar hyn o bryd, nid oes modd defnyddio'r e-bost hwn i fewngofnodi"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
 msgstr "Methwyd anfon e-bost"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
 msgstr "Mae angen codi dilys"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "This verification code has expired"
 msgstr "Mae'r cod dilysu hwn wedi dod i ben"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
 msgstr "Mae tocyn TOTP eisoes yn bodoli ar gyfer y cyfrif hwn"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
 msgstr "Heb ganfod tocyn TOTP"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery code not found"
 msgstr "Heb ganfod y cod adfer"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Gorchymyn dyfais ddim ar gael"
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:244
 msgid "Recovery key not found"
 msgstr "Heb ganfod yr allwedd adfer"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
 msgstr "Allwedd adfer annilys"
 
-#: .es5/lib/auth-errors.js:248 .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Mae angen dilysu dau gam ar eich cyfrif ar gyfer hyn."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Methiant oherwydd ceisiadau gwrthgyferbyniol, ceisiwch eto."
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
 msgstr "Cwsmer anhysbys tanysgrifio."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
 msgstr "Tanysgrifiad anhysbys."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
 msgstr "Cynllun tanysgrifio anhysbys."
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
 msgstr "Tocyn talu annilys i danysgrifio."
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
 msgstr "Mae'r tanysgrifiad eisoes wedi'i ddiddymu"
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
 msgstr "Gwrthodwyd y diweddariad, ceisiwch eto"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
 msgstr "Cod dilysu annilys neu wedi dod i ben"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
 msgstr "Mae'r gweinydd yn brysur, ceisiwch eto"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
 msgstr "Nid yw'r nodwedd wedi ei alluogi"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:308 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
 msgstr "Nid yw'r pwynt diwedd yn cael ei gynnal bellach"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
 msgstr "Diddymwyd yr ymgais i fewngofnodi"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
 msgstr "Daeth y sesiwn i ben. Mewngofnodi i barhau."
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
 msgstr "Mae'r cwcis wedi eu hanalluogi"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Passwords do not match"
 msgstr "Nid yw'r cyfrineiriau'n cydweddu"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Working…"
 msgstr "Gweithio…"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
 msgstr "Methu estyn Hysbysiad Preifatrwydd"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
 msgstr "Methu estyn yr Amodau Gwasanaeth"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
 msgstr "Rhaid i gyfrinair newydd fod yn wahanol"
 
-#: .es5/lib/auth-errors.js:344 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Rhaid bod o leiaf 8 nod"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Valid password required"
 msgstr "Rhaid darparu cyfrinair dilys"
 
-#: .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Mae angen e-bost dilys"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
 msgstr "Nid oes delwedd ddefnyddiol wedi ei chanfod"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "Could not initialize camera"
 msgstr "Methu cychwyn y camera"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Valid URL required"
 msgstr "Mae angen URL dilys"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Rhowch gyfeiriad e-bost dilys. Nid yw firefox.com yn cynnig e-bost."
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Dim ond ar wefannau cymeradwy y mae modd gosod Cyfrifon Firefox mewn IFRAME"
 
-#: .es5/lib/auth-errors.js:424 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Mae'r ddolen dilysu wedi ei difrodi"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Rhaid i ddimensiynau'r ddelwedd fod o leiaf 100x100px"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bydd modd ymuno yn dod i Firefox iOS cyn bo hir"
 
-#: .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
 msgstr "Mae'n rhaid i chi nodi eich oed er mwyn ymuno"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
 msgstr "Rhaid rhoi oed dilys er mwyn cofrestru"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
 msgstr "Nid yw'r cyfrif yn bodoli bellach."
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Priodwedd annilys yn y tocyn ailgychwyn: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing property in resume token: %(property)s"
 msgstr "Priodwedd coll yn y tocyn ail gychwyn: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
 msgstr "Priodweddau data annilys: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
 msgstr "Priodwedd data coll: %(property)s"
 
-#: .es5/lib/auth-errors.js:497 .es5/lib/auth-errors.js:551 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio."
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
 msgstr "Mae hwn yn faes angenrheidiol"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
 msgstr "Mae angen cod awdurdodi"
 
-#: .es5/lib/auth-errors.js:513 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Mae'r ddolen wedi ei difrodi"
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:540
 msgid "Phone number required"
 msgstr "Mae angen rhif ffôn"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
 msgstr "Mae angen cod dilysu dau gam"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
 msgstr "Cod dilysu dau gam annilys"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
 msgstr "Mae angen cod adfer"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
 msgstr "Cod adfer annilys"
 
-#: .es5/lib/auth-errors.js:581
+#: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
 msgstr "Mae angen allwedd adfer"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
 msgstr "Rhowch god dilysu"
 
-#: .es5/lib/auth-errors.js:597
+#: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
 msgstr "Ailgyfeirio annilys"
 
-#: .es5/lib/auth-errors.js:609
+#: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Wedi cam deipio'r e-bost? Dyw %(domain)s ddim yn cynnig e-bost."
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
 msgstr "Mae'r ffeil delwedd yn rhy fawr i'w lwytho."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-07-31 17:06+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,11 +151,11 @@ msgstr "Nowe hesło"
 msgid "Re-enter password"
 msgstr "Hesło znowa zapodać"
 
-#: .es5/views/settings/change_password.js:278 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Změnić"
 
-#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:285 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -163,7 +163,7 @@ msgstr "Změnić"
 msgid "Cancel"
 msgstr "Přetorhnyć"
 
-#: .es5/views/settings/change_password.js:381
+#: .es5/views/settings/change_password.js:384
 msgid "Password changed successfully"
 msgstr "Hesło je so wuspěšnje změniło"
 
@@ -259,7 +259,7 @@ msgstr "Webposedźenje"
 msgid "Last seen time unknown"
 msgstr "Posledni wopyt njeznaty"
 
-#: .es5/views/settings/delete_account.js:215
+#: .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
@@ -508,7 +508,7 @@ msgstr "Njepłaćiwy časowy kołk w naprašowanskej signaturje"
 msgid "Invalid nonce in request signature"
 msgstr "Njepłaćiwy nonce w naprašowanskej signaturje"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Konto hižo eksistuje"
 
@@ -560,7 +560,7 @@ msgstr "Naprašowanske ćěleso je předołhe"
 msgid "The request was blocked for security reasons"
 msgstr "Naprašowanje je so z přičinow wěstoty zablokowało"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
 msgstr "Njepłaćiwy awtorizowanski kod"
 
@@ -593,295 +593,299 @@ msgid "This email was already verified by another user"
 msgstr "Tuta e-mejl je so hižo wot druheho wužiwarja wobkrućiła"
 
 #: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
 msgstr "Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać"
 
-#: .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
 msgstr "Sće maksimalnu ličbu sekundarnych e-mejlowych adresow docpěł"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
 msgstr "Tuta e-mejlowa adresa hižo we wašim konće eksistuje"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
 msgstr "Primarna e-mejlowa adresa je trěbna za přizjewjenje"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
 msgstr "Adresa so wot druheho konta wužiwa"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
 msgstr "Primarna e-mejlowa adresa je trěbna za wróćostajenje"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
 msgstr "Njepłaćiwy přizjewjenski kod"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
 msgstr "Primarna e-mejlowa adresa njeda so do njewobkrućeneje e-mejloweje adresy změnić"
 
-#: .es5/lib/auth-errors.js:200 .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Primarna e-mejlowa adresa njeda so do e-mejloweje adresy změnić, kotraž k tutomu kontu njesłuša"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
 msgstr "Tuta e-mejlowa adresa njeda so tuchwilu za přizjewjenje wužiwać"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
 msgstr "E-mejlowa adresa njeda so słać"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
 msgstr "Płaćiwy kod trěbny"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "This verification code has expired"
 msgstr "Tutón přepruwowanski kod je spadnył"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
 msgstr "TOTP-token za tute konto hižo eksistuje"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
 msgstr "TOTP-token njeje so namakał"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery code not found"
 msgstr "Wobnowjenski kod njeje so namakał"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Gratowy přikaz k dispoziciji njeje"
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:244
 msgid "Recovery key not found"
 msgstr "Wobnowjenski kluč njeje so namakał"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
 msgstr "Njepłaćiwy wobnowjenski kluč"
 
-#: .es5/lib/auth-errors.js:248 .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Za tute naprašowanje dyrbi dwukročelowa awtentifikacija zmóžnjena być."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Njeje so přećiwneho naprašowanja dla poradźiło, spytajće prošu hišće raz."
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
 msgstr "Njeznaty kupc za abonement."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
 msgstr "Njeznaty abonement."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
 msgstr "Njeznaty plan za abonement."
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
 msgstr "Njepłaćiwy płaćenski token za abonement."
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
 msgstr "Abonement je hižo wupowědźeny"
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
 msgstr "Aktualizacija je so wotpokazała, prošu spytajće hišće raz"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
 msgstr "Njepłaćiwy abo spadnjeny wobkrućenski kod"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
 msgstr "Serwer je přećeženy, spytajće za krótki čas hišće raz"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
 msgstr "Funkcija zmóžnjena njeje"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:308 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "System k dispoziciji njesteji, spytajće za krótki čas hišće raz"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
 msgstr "Tutón kónčny dypk so hižo njepodpěruje"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
 msgstr "Přizjewjenski pospyt přetorhnjeny"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
 msgstr "Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował."
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
 msgstr "Placki su hišće znjemóžnjene"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Passwords do not match"
 msgstr "Hesle jenakej njejstej"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Working…"
 msgstr "Je hišće w dźěle…"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
 msgstr "Zdźělenka priwatnosće njeje so namakała"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
 msgstr "Wužiwanske wuměnjenja njejsu so namakali"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
 msgstr "Waše nowe hesło dyrbi druhe być"
 
-#: .es5/lib/auth-errors.js:344 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "Dyrbi znajmjeńša 8 znamješkow dołhe być"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Valid password required"
 msgstr "Płaćiwe hesło trěbne"
 
-#: .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Płaćiwa e-mejlowa adresa trěbna"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
 msgstr "Wužiwajomny wobraz njeje so namakał"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "Could not initialize camera"
 msgstr "Kamera njeda so inicializować"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Valid URL required"
 msgstr "Płaćiwy URL trěbny"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Zapodajće płaćiwu e-mejlowu adresu. firefox.com e-mejlowe adresy njeposkića."
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts da so jenož na schwalenych sydłach do IFRAME stajić"
 
-#: .es5/lib/auth-errors.js:424 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Wobkrućenski wotkaz wobškodźeny"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Wotměraj wobraza dyrbitej znajmjeńša 100x100px być"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Bórze registrowanje za Firefox za iOS přińdźe"
 
-#: .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
 msgstr "Dyrbiće swoju starobu zapodać, zo byšće so registrował"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
 msgstr "Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
 msgstr "Konto hižo njeeksistuje."
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Njepłaćiwa kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing property in resume token: %(property)s"
 msgstr "Falowaca kajkosć w pokročowanskim tokenje: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
 msgstr "Njepłaćiwy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
 msgstr "Falowacy datowy atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:497 .es5/lib/auth-errors.js:551 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tutón wobkrućenski wotkaz je so hižo wužił a da so jenož jónkróć wužiwać."
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
 msgstr "To je trěbne polo"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
 msgstr "Awtorizowanski kod trěbny"
 
-#: .es5/lib/auth-errors.js:513 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Wotkaz je wobškodźeny"
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:540
 msgid "Phone number required"
 msgstr "Telefonowe čisło trěbne"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
 msgstr "Dwukročelowa awtentifikacija trěbna"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
 msgstr "Njepłaćiwy kod za dwukročelowu awtentifikacija"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
 msgstr "Wobnowjenski kod trěbny"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
 msgstr "Njepłaćiwy wobnowjenski kod"
 
-#: .es5/lib/auth-errors.js:581
+#: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
 msgstr "Wobnowjenski kluč trěbny"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
 msgstr "Prošu zapodajće wobkrućenski kod"
 
-#: .es5/lib/auth-errors.js:597
+#: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
 msgstr "Njepłaćiwe dalesposrědkowanje"
 
-#: .es5/lib/auth-errors.js:609
+#: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "E-mejlowa adresa zapisana? %(domain)s e-mejlowu słužbu njeposkića."
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
 msgstr "Wobrazowa dataja je přewulka za nahraće."
 

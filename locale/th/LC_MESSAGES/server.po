@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-08-22 04:58+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2483
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2487
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2484
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
 msgid "Last reminder to sync devices!"
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2490
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr "เราได้สังเกตว่ารหัสการกู
 msgid "Generate codes:"
 msgstr "สร้างรหัส:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1250
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1252
 msgid "New sign-in to %(clientName)s"
 msgstr "มีการลงชื่อเข้าใช้ใหม่ที่ %(clientName)s"
 
@@ -171,7 +171,7 @@ msgstr "ขั้นที่สอง ถ้า Firefox เก็บรหั�
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "เรียนรู้เพิ่มเติมว่าจะดูอย่างไรว่า Firefox เก็บรหัสผ่านอะไรให้คุณ"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1662
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1664
 msgid "Account recovery key generated"
 msgstr "กุญแจกู้คืนบัญชีถูกสร้างแล้ว"
 
@@ -215,8 +215,7 @@ msgstr "อีเมลหลักใหม่"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr ""
-"คุณได้เปลี่ยนแปลงอีเมลหลักเป็น %(email)s สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใช้ใน Firefox Account ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใจ"
+msgstr "คุณได้เปลี่ยนแปลงอีเมลหลักเป็น %(email)s สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใช้ใน Firefox Account ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใจ"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -230,7 +229,7 @@ msgstr "คุณได้ใช้รหัสการกู้คืนจา
 msgid "Consumed recovery code"
 msgstr "ใช้รหัสการกู้คืนแล้ว"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1529
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1531
 msgid "New recovery codes generated"
 msgstr "สร้างรหัสการกู้คืนใหม่แล้ว"
 
@@ -238,7 +237,7 @@ msgstr "สร้างรหัสการกู้คืนใหม่แล
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "คุณได้สร้างรหัสการกู้คืนจากอุปกรณ์ดังต่อไปนี้เรียบร้อยแล้ว:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1708
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1710
 msgid "Account recovery key removed"
 msgstr "กุญแจกู้คืนบัญชีถูกลบแล้ว"
 
@@ -254,7 +253,7 @@ msgstr "กุญแจกู้คืนนี้ไม่สามารถใ
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "คุณได้เอาคีย์การกู้คืนบัญชีสำหรับ Firefox Account ของคุณจากอุปกรณ์ต่อไปนี้สำเร็จแล้ว:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1409
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1411
 msgid "Secondary email removed"
 msgstr "อีเมลสำรองถูกลบแล้ว"
 
@@ -290,7 +289,7 @@ msgstr ""
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1292
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1294
 msgid "Setup next device"
 msgstr ""
 
@@ -298,7 +297,7 @@ msgstr ""
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "มีคำถาม? เยี่ยมชม %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1337
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1339
 msgid "Secondary email added"
 msgstr "เพิ่มอีเมลสำรองแล้ว"
 
@@ -314,7 +313,7 @@ msgstr "ต้องการตั้งรหัสผ่านของคุ
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "คลิกปุ่มภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่ คำขอมาจากอุปกรณ์ต่อไปนี้:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1072
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1074
 msgid "Create new password"
 msgstr "สร้างรหัสผ่านใหม่"
 
@@ -546,7 +545,7 @@ msgstr "ยืนยันบัญชีของคุณและรับป
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้าใช้นี้จากอุปกรณ์ต่อไปนี้:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:781
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:783
 msgid "Confirm sign-in"
 msgstr "ยืนยันการลงชื่อเข้า"
 
@@ -722,184 +721,184 @@ msgstr ""
 msgid "Update billing information:"
 msgstr "อัปเดตข้อมูลการเรียกเก็บเงิน:"
 
-#: lib/senders/email.js:313
+#: lib/senders/email.js:315
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s บน %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:318
+#: lib/senders/email.js:320
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s บน %(uaOS)s"
 
-#: lib/senders/email.js:344
+#: lib/senders/email.js:346
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s %(stateCode)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:351
+#: lib/senders/email.js:353
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:356
+#: lib/senders/email.js:358
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s %(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:361
+#: lib/senders/email.js:363
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (โดยประมาณ)"
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:545
 msgid "Finish creating your account"
 msgstr "สร้างบัญชีของคุณให้เสร็จ"
 
-#: lib/senders/email.js:544 lib/senders/email.js:672
+#: lib/senders/email.js:546 lib/senders/email.js:674
 msgid "Confirm email"
 msgstr "ยืนยันอีเมล"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:613
 msgid "Verification code: %(code)s"
 msgstr "รหัสยืนยัน: %(code)s"
 
-#: lib/senders/email.js:652
+#: lib/senders/email.js:654
 msgid "Reminder: Finish creating your account"
 msgstr "แจ้งเตือน: สร้างบัญชีของคุณให้เสร็จ"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:656
 msgid "Final reminder: Activate your account"
 msgstr "การแจ้งเตือนครั้งสุดท้าย: เปิดใช้งานบัญชีของคุณ"
 
-#: lib/senders/email.js:709
+#: lib/senders/email.js:711
 msgid "Account authorization code"
 msgstr "รหัสอนุญาตของบัญชี"
 
-#: lib/senders/email.js:778
+#: lib/senders/email.js:780
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "ยืนยันการเข้าสู่ระบบของ %(clientName)s"
 
-#: lib/senders/email.js:823
+#: lib/senders/email.js:825
 msgid "Sign-in code for %(serviceName)s"
 msgstr "รหัสการลงชื่อเข้าสำหรับ %(serviceName)s"
 
-#: lib/senders/email.js:888
+#: lib/senders/email.js:890
 msgid "Confirm primary email"
 msgstr "ยืนยันอีเมลหลัก"
 
-#: lib/senders/email.js:889 lib/senders/email.js:948 lib/senders/email.js:1016
+#: lib/senders/email.js:891 lib/senders/email.js:950 lib/senders/email.js:1018
 msgid "Verify email"
 msgstr "ยืนยันอีเมล"
 
-#: lib/senders/email.js:947 lib/senders/email.js:1015
+#: lib/senders/email.js:949 lib/senders/email.js:1017
 msgid "Confirm secondary email"
 msgstr "ยืนยันอีเมลสำรอง"
 
-#: lib/senders/email.js:1071
+#: lib/senders/email.js:1073
 msgid "Reset your password"
 msgstr "ตั้งรหัสผ่านใหม่"
 
-#: lib/senders/email.js:1113 lib/senders/email.js:1179
+#: lib/senders/email.js:1115 lib/senders/email.js:1181
 msgid "Password updated"
 msgstr "รหัสผ่านได้ถูกเปลี่ยนแล้ว"
 
-#: lib/senders/email.js:1151 lib/senders/email.js:1209
+#: lib/senders/email.js:1153 lib/senders/email.js:1211
 msgid "Suspicious activity detected"
 msgstr "ตรวจพบกิจกรรมที่น่าสงสัย"
 
-#: lib/senders/email.js:1251 lib/senders/email.js:1338 lib/senders/email.js:1374 lib/senders/email.js:1410 lib/senders/email.js:1444 lib/senders/email.js:1487 lib/senders/email.js:1530
-#: lib/senders/email.js:1573 lib/senders/email.js:1663 lib/senders/email.js:1709
+#: lib/senders/email.js:1253 lib/senders/email.js:1340 lib/senders/email.js:1376 lib/senders/email.js:1412 lib/senders/email.js:1446 lib/senders/email.js:1489 lib/senders/email.js:1532
+#: lib/senders/email.js:1575 lib/senders/email.js:1665 lib/senders/email.js:1711
 msgid "Manage account"
 msgstr "จัดการบัญชี"
 
-#: lib/senders/email.js:1287
+#: lib/senders/email.js:1289
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1373
+#: lib/senders/email.js:1375
 msgid "Primary email updated"
 msgstr "อีเมลหลักได้รับการปรับปรุงแล้ว"
 
-#: lib/senders/email.js:1443
+#: lib/senders/email.js:1445
 msgid "Two-step verification enabled"
 msgstr "เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว"
 
-#: lib/senders/email.js:1486
+#: lib/senders/email.js:1488
 msgid "Two-step verification is off"
 msgstr "การยืนยันแบบสองขั้นตอนปิดอยู่"
 
-#: lib/senders/email.js:1572
+#: lib/senders/email.js:1574
 msgid "Recovery code used"
 msgstr "ได้ใช้รหัสการกู้คืนแล้ว"
 
-#: lib/senders/email.js:1625
+#: lib/senders/email.js:1627
 msgid "1 recovery code remaining"
 msgstr "เหลือรหัสกู้คืนเพียงหนึ่ง"
 
-#: lib/senders/email.js:1627
+#: lib/senders/email.js:1629
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "เหลือรหัสกู้คืนอยู่ %(numberRemaining)"
 
-#: lib/senders/email.js:1630
+#: lib/senders/email.js:1632
 msgid "Generate codes"
 msgstr "สร้างรหัส"
 
-#: lib/senders/email.js:1754
+#: lib/senders/email.js:1756
 msgid "Password updated using recovery key"
 msgstr ""
 
-#: lib/senders/email.js:1755
+#: lib/senders/email.js:1757
 msgid "Create new recovery key"
 msgstr "สร้างรหัสการกู้คืนใหม่"
 
-#: lib/senders/email.js:1821
+#: lib/senders/email.js:1823
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1900
+#: lib/senders/email.js:1902
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:1965
+#: lib/senders/email.js:1967
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "บัตรเครดิตสำหรับ % (productName)s จะหมดอายุในไม่ช้า"
 
-#: lib/senders/email.js:1979
+#: lib/senders/email.js:1981
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2031
+#: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2082 lib/senders/email.js:2147
+#: lib/senders/email.js:2084 lib/senders/email.js:2149
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "การสมัครสมาชิก % (productName)s ของคุณถูกยกเลิกแล้ว"
 
-#: lib/senders/email.js:2218
+#: lib/senders/email.js:2220
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2292
+#: lib/senders/email.js:2294
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2380
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2452
+#: lib/senders/email.js:2454
 msgid "Welcome to %(productName)s"
 msgstr "ยินดีต้อนรับสู่ % (productName)s"
 
-#: lib/senders/email.js:2453
+#: lib/senders/email.js:2455
 msgid "Download %(productName)s"
 msgstr "ดาวน์โหลด %(productName)s"
 
-#: lib/senders/email.js:2479
+#: lib/senders/email.js:2481
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2480
+#: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2494
+#: lib/senders/email.js:2496
 msgid "Sync another device"
 msgstr ""
 
@@ -982,11 +981,11 @@ msgstr "ดาวน์โหลดรุ่นล่าสุด"
 #~ msgstr "คุณเพิ่งลบบัญชี Firefox ของคุณ ด้วยเหตุนี้ เราจึงได้ยกเลิกการบอกรับ %(productName)s ของคุณ การชำระเงินครั้งสุดท้ายจำนวน $%(invoiceTotal)s ของคุณได้จ่ายแล้วเมื่อ %(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "เราได้ยกเลิกการบอกรับ %(productName)s ของคุณแล้ว การชำระเงินครั้งสุดท้ายจำนวน $%(invoiceTotal)s ของคุณได้จ่ายแล้วเมื่อ %(invoiceDateOnly)s "
-#~ "บริการของคุณจะยังคงใช้ได้ต่อไปจนกระทั่งสิ้นสุดระยะเวลาการเรียกเก็บเงินปัจจุบันของคุณ ซึ่งตรงกับ %(serviceLastActiveDateOnly)s"
+#~ "เราได้ยกเลิกการบอกรับ %(productName)s ของคุณแล้ว การชำระเงินครั้งสุดท้ายจำนวน $%(invoiceTotal)s ของคุณได้จ่ายแล้วเมื่อ %(invoiceDateOnly)s บริการของคุณจะยังคงใช้ได้ต่อไปจนกระทั่งสิ้นสุดระยะเวลาการเรียกเก็บเงินปัจจุบันของคุณ "
+#~ "ซึ่งตรงกับ %(serviceLastActiveDateOnly)s"
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "คุณลงชื่อเข้าใช้แล้วและพร้อมที่จะเริ่มสำรวจและใช้งานได้อย่างปลอดภัย"
@@ -1025,9 +1024,7 @@ msgstr "ดาวน์โหลดรุ่นล่าสุด"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr ""
-#~ "คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a "
-#~ "%(iosLinkAttributes)s>iOS</a>"
+#~ msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox เรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นรวมถึง Firefox สำหรับ <a %(androidLinkAttributes)s>Android</a> และ <a %(iosLinkAttributes)s>iOS</a>"
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "คุณได้เชื่อมต่ออุปกรณ์แรกของคุณกับบัญชี Firefox ของคุณเรียบร้อยแล้ว ตอนนี้คุณสามารถลงชื่อเข้า Sync จากอุปกรณ์อื่นได้รวมทั้ง Firefox สำหรับ Android และ iOS"
@@ -1104,8 +1101,7 @@ msgstr "ดาวน์โหลดรุ่นล่าสุด"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
+#~ msgstr "คุณเชื่อมต่ออุปกรณ์แรกเข้ากับบัญชี Firefox สำเร็จแล้ว ตอนนี้คุณสามารถลงชื่อเข้าใช้ Sync จากอุปกรณ์อื่น ซึ่งรวมถึง Firefox สำหรับ <a href='%(androidUrl)s'>Android</a> และ <a href='%(iosUrl)s'>iOS</a>"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1260,11 +1256,9 @@ msgstr "ดาวน์โหลดรุ่นล่าสุด"
 #~ msgstr "ตั้งรหัสผ่านใหม่"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
-#~ msgstr ""
-#~ "เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี "
-#~ "เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr "เมื่อไม่กี่วันมานี้คุณสร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ การตรวจสอบบัญชีทำให้คุณเข้าถึงแท็บ ที่คั่นหน้า รหัสผ่าน และประวัติของคุณบนอุปกรณ์ใด ๆ ที่เชื่อมต่อกับบัญชี เพียงยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณ"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "เมื่อสัปดาห์ที่แล้วคุณได้สร้างบัญชี Firefox แต่ยังไม่ได้ตรวจสอบ เราเป็นห่วงคุณ ยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณและแจ้งให้เราทราบว่าคุณสบายดี"
@@ -1284,7 +1278,8 @@ msgstr "ดาวน์โหลดรุ่นล่าสุด"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "ยืนยันความถูกต้อง Firefox Accounts ของคุณ"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "คุณยืนยันว่า %(secondaryEmail)s เป็นอีเมลสำรองของ Firefox Account ของคุณเรียบร้อยแล้ว การแจ้งเตือนด้านความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะถูกส่งไปยังอีเมลทั้งสองที่"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

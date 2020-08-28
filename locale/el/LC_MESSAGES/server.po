@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-08-18 14:24+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2483
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2487
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2484
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
 msgid "Last reminder to sync devices!"
 msgstr "Τελευταία υπενθύμιση για συγχρονισμό συσκευών!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2490
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr "Παρατηρήσαμε ότι σάς απομένουν λίγοι κ�
 msgid "Generate codes:"
 msgstr "Δημιουργία κωδικών:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1250
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1252
 msgid "New sign-in to %(clientName)s"
 msgstr "Νέα σύνδεση στο %(clientName)s"
 
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Μάθετε πώς να βλέπετε ποιους κωδικούς πρόσβασης αποθηκεύει το Firefox για εσάς."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1662
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1664
 msgid "Account recovery key generated"
 msgstr "Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε"
 
@@ -233,7 +233,7 @@ msgstr "Έχετε χρησιμοποιήσει επιτυχώς έναν κωδ
 msgid "Consumed recovery code"
 msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1529
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1531
 msgid "New recovery codes generated"
 msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 
@@ -241,7 +241,7 @@ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1708
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1710
 msgid "Account recovery key removed"
 msgstr "Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε"
 
@@ -257,7 +257,7 @@ msgstr "Αυτό το κλειδί ανάκτησης δεν μπορεί να �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1409
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1411
 msgid "Secondary email removed"
 msgstr "Το δευτερεύον email αφαιρέθηκε"
 
@@ -295,7 +295,7 @@ msgstr "Επόμενος συγχρονισμός μεταξύ των συσκε
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1292
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1294
 msgid "Setup next device"
 msgstr "Ρύθμιση επόμενης συσκευής"
 
@@ -303,7 +303,7 @@ msgstr "Ρύθμιση επόμενης συσκευής"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Έχετε απορίες; Επισκεφθείτε την %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1337
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1339
 msgid "Secondary email added"
 msgstr "Προστέθηκε δευτερεύον email"
 
@@ -321,7 +321,7 @@ msgstr "Πρέπει να επαναφέρετε τον κωδικό πρόσβ�
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1072
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1074
 msgid "Create new password"
 msgstr "Δημιουργία νέου κωδικού πρόσβασης"
 
@@ -555,7 +555,7 @@ msgstr "Επιβεβαιώστε το λογαριασμό σας και αξι�
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:781
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:783
 msgid "Confirm sign-in"
 msgstr "Επιβεβαίωση εισόδου"
 
@@ -731,184 +731,184 @@ msgstr ""
 msgid "Update billing information:"
 msgstr "Ενημέρωση πληροφοριών χρέωσης:"
 
-#: lib/senders/email.js:313
+#: lib/senders/email.js:315
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s σε %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:318
+#: lib/senders/email.js:320
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s σε %(uaOS)s"
 
-#: lib/senders/email.js:344
+#: lib/senders/email.js:346
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:351
+#: lib/senders/email.js:353
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:356
+#: lib/senders/email.js:358
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:361
+#: lib/senders/email.js:363
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:543
+#: lib/senders/email.js:545
 msgid "Finish creating your account"
 msgstr "Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
 
-#: lib/senders/email.js:544 lib/senders/email.js:672
+#: lib/senders/email.js:546 lib/senders/email.js:674
 msgid "Confirm email"
 msgstr "Επιβεβαίωση email"
 
-#: lib/senders/email.js:611
+#: lib/senders/email.js:613
 msgid "Verification code: %(code)s"
 msgstr "Κωδικός επαλήθευσης: %(code)s"
 
-#: lib/senders/email.js:652
+#: lib/senders/email.js:654
 msgid "Reminder: Finish creating your account"
 msgstr "Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:656
 msgid "Final reminder: Activate your account"
 msgstr "Τελική υπενθύμιση: Ενεργοποιήστε το λογαριασμό σας"
 
-#: lib/senders/email.js:709
+#: lib/senders/email.js:711
 msgid "Account authorization code"
 msgstr ""
 
-#: lib/senders/email.js:778
+#: lib/senders/email.js:780
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
 
-#: lib/senders/email.js:823
+#: lib/senders/email.js:825
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Κωδικός σύνδεσης για το %(serviceName)s"
 
-#: lib/senders/email.js:888
+#: lib/senders/email.js:890
 msgid "Confirm primary email"
 msgstr "Επιβεβαίωση πρωτεύοντος email"
 
-#: lib/senders/email.js:889 lib/senders/email.js:948 lib/senders/email.js:1016
+#: lib/senders/email.js:891 lib/senders/email.js:950 lib/senders/email.js:1018
 msgid "Verify email"
 msgstr "Επαλήθευση email"
 
-#: lib/senders/email.js:947 lib/senders/email.js:1015
+#: lib/senders/email.js:949 lib/senders/email.js:1017
 msgid "Confirm secondary email"
 msgstr "Επιβεβαίωση δευτερεύοντος email"
 
-#: lib/senders/email.js:1071
+#: lib/senders/email.js:1073
 msgid "Reset your password"
 msgstr "Επαναφορά κωδικού πρόσβασης"
 
-#: lib/senders/email.js:1113 lib/senders/email.js:1179
+#: lib/senders/email.js:1115 lib/senders/email.js:1181
 msgid "Password updated"
 msgstr "Ο κωδικός πρόσβασης ενημερώθηκε"
 
-#: lib/senders/email.js:1151 lib/senders/email.js:1209
+#: lib/senders/email.js:1153 lib/senders/email.js:1211
 msgid "Suspicious activity detected"
 msgstr "Εντοπίστηκε ύποπτη δραστηριότητα"
 
-#: lib/senders/email.js:1251 lib/senders/email.js:1338 lib/senders/email.js:1374 lib/senders/email.js:1410 lib/senders/email.js:1444 lib/senders/email.js:1487 lib/senders/email.js:1530
-#: lib/senders/email.js:1573 lib/senders/email.js:1663 lib/senders/email.js:1709
+#: lib/senders/email.js:1253 lib/senders/email.js:1340 lib/senders/email.js:1376 lib/senders/email.js:1412 lib/senders/email.js:1446 lib/senders/email.js:1489 lib/senders/email.js:1532
+#: lib/senders/email.js:1575 lib/senders/email.js:1665 lib/senders/email.js:1711
 msgid "Manage account"
 msgstr "Διαχείριση λογαριασμού"
 
-#: lib/senders/email.js:1287
+#: lib/senders/email.js:1289
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1373
+#: lib/senders/email.js:1375
 msgid "Primary email updated"
 msgstr "Το κύριο email ενημερώθηκε"
 
-#: lib/senders/email.js:1443
+#: lib/senders/email.js:1445
 msgid "Two-step verification enabled"
 msgstr ""
 
-#: lib/senders/email.js:1486
+#: lib/senders/email.js:1488
 msgid "Two-step verification is off"
 msgstr ""
 
-#: lib/senders/email.js:1572
+#: lib/senders/email.js:1574
 msgid "Recovery code used"
 msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
-#: lib/senders/email.js:1625
+#: lib/senders/email.js:1627
 msgid "1 recovery code remaining"
 msgstr "Απομένει 1 κωδικός ανάκτησης"
 
-#: lib/senders/email.js:1627
+#: lib/senders/email.js:1629
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Απομένουν %(numberRemaining)s κωδικοί ανάκτησης"
 
-#: lib/senders/email.js:1630
+#: lib/senders/email.js:1632
 msgid "Generate codes"
 msgstr "Δημιουργία κωδικών"
 
-#: lib/senders/email.js:1754
+#: lib/senders/email.js:1756
 msgid "Password updated using recovery key"
 msgstr "Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης"
 
-#: lib/senders/email.js:1755
+#: lib/senders/email.js:1757
 msgid "Create new recovery key"
 msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
 
-#: lib/senders/email.js:1821
+#: lib/senders/email.js:1823
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Έχετε αναβαθμίσει στο %(productNameNew)s"
 
-#: lib/senders/email.js:1900
+#: lib/senders/email.js:1902
 msgid "You have switched to %(productNameNew)s"
 msgstr "Έχετε κάνει εναλλαγή στο %(productNameNew)s"
 
-#: lib/senders/email.js:1965
+#: lib/senders/email.js:1967
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Η πιστωτική κάρτα για το %(productName)s λήγει σύντομα"
 
-#: lib/senders/email.js:1979
+#: lib/senders/email.js:1981
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2031
+#: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
 msgstr "Αποτυχία πληρωμής του %(productName)s"
 
-#: lib/senders/email.js:2082 lib/senders/email.js:2147
+#: lib/senders/email.js:2084 lib/senders/email.js:2149
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Η συνδρομή σας στο %(productName)s έχει ακυρωθεί"
 
-#: lib/senders/email.js:2218
+#: lib/senders/email.js:2220
 msgid "%(productName)s subscription reactivated"
 msgstr "Η συνδρομή στο %(productName)s επανενεργοποιήθηκε"
 
-#: lib/senders/email.js:2292
+#: lib/senders/email.js:2294
 msgid "%(productName)s payment received"
 msgstr "Η πληρωμή για το %(productName)s ελήφθη"
 
-#: lib/senders/email.js:2380
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment confirmed"
 msgstr "Η πληρωμή για το %(productName)s επιβεβαιώθηκε"
 
-#: lib/senders/email.js:2452
+#: lib/senders/email.js:2454
 msgid "Welcome to %(productName)s"
 msgstr "Καλώς ορίσατε στο %(productName)s"
 
-#: lib/senders/email.js:2453
+#: lib/senders/email.js:2455
 msgid "Download %(productName)s"
 msgstr "Λήψη %(productName)s"
 
-#: lib/senders/email.js:2479
+#: lib/senders/email.js:2481
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2480
+#: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2494
+#: lib/senders/email.js:2496
 msgid "Sync another device"
 msgstr "Συγχρονισμός άλλης συσκευής"
 

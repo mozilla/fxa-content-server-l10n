@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-06-11 23:52+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,11 +149,11 @@ msgstr "K'ak'a' ewan tzij"
 msgid "Re-enter password"
 msgstr "Titz'ib'äx chik ewan tzij"
 
-#: .es5/views/settings/change_password.js:278 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Tijalwachïx"
 
-#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:285 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -161,7 +161,7 @@ msgstr "Tijalwachïx"
 msgid "Cancel"
 msgstr "Tiq'at"
 
-#: .es5/views/settings/change_password.js:381
+#: .es5/views/settings/change_password.js:384
 msgid "Password changed successfully"
 msgstr "Xjal ütz ri ewan tzij"
 
@@ -258,7 +258,7 @@ msgstr "Ajk'amaya'l Molojri'ïl"
 msgid "Last seen time unknown"
 msgstr "Man etaman ta ruk'isib'al q'ijul xtz'et"
 
-#: .es5/views/settings/delete_account.js:215
+#: .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Xyuj ütz ri rub'i' taqoya'l"
 
@@ -507,7 +507,7 @@ msgstr "Man okel ta ri retal q'ijul pa ri rujuch' k'utunïk"
 msgid "Invalid nonce in request signature"
 msgstr "Man okel ta ri nonce pa ri rujuch' k'utunïk"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "K'o chik rub'i' taqoya'l"
 
@@ -559,7 +559,7 @@ msgstr "Tik'utüx jun ch'akulal yalan nïm"
 msgid "The request was blocked for security reasons"
 msgstr "Xq'at ri k'utunïk ruma ri jikomal"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
 msgstr "Me'okel rub'itz'ib' ya'oj q'ij"
 
@@ -592,295 +592,299 @@ msgid "This email was already verified by another user"
 msgstr "Xjikib'äx yan re taqoya'l re' ruma jun chik winäq"
 
 #: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
 msgstr "Ri ruka'n taqoya'l k'o chi jun wi chuwäch ri rub'i'a' ataqoya'l"
 
-#: .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
 msgstr "K'ïy chik ruka'n taq ataqoya'l, ri niya' q'ij"
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
 msgstr "K'o chik re taqoya'l re' pan rub'i' ataqoya'l"
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
 msgstr "Nab'ey rub'i' taqoya'l, rajowaxik richin nitikirisäx molojri'ïl"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
 msgstr "Ochochib'äl okisan ruma jun chik rub'i' taqoya'l"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
 msgstr "Nab'ey rub'i' taqoya'l, rajowaxik richin nitzolïx"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
 msgstr "Me'okel rub'itz'ib' rutikirisaxik molojri'ïl"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
 msgstr "Man tikirel ta nik'ex ri nab'ey taqoya'l ruma man jikib'an ta jun taqoya'l"
 
-#: .es5/lib/auth-errors.js:200 .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "Man tikirel ta nik'ex ri rochochib'al taqoya'l rik'in jun rochochib'al taqoya', ri man richin ta ri rub'i' taqoya'l"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
 msgstr "Man tikirel ta nokisäx re rochochib'al taqoya'l re' richin nitikirisäx molojri'ïl"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
 msgstr "Man ütz ta xtaq ri taqoya'l"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
 msgstr "Ütz b'itz'ib' najowäx"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "This verification code has expired"
 msgstr "Xxik'o ruq'ijul re rub'itz'ib' jikib'anem"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
 msgstr "K'o chik jun TOTP rutoken re rub'i' taqoya'l re'"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
 msgstr "Man xilitäj ta ri TOTP token"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery code not found"
 msgstr "Man xilitäj  ta ri rub'itz'ib' kolïk"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Man wachel ta ri runuk'uj okisab'äl"
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:244
 msgid "Recovery key not found"
 msgstr "Man xilitäj  ta ri ruk'u'x rutzij kolïk"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
 msgstr "Man okel ta ri kolonel ewan tzij"
 
-#: .es5/lib/auth-errors.js:248 .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
 msgstr "Re k'utunïk re' nrajo' jikib'anïk pa ka'i' xaq tzijon pa re rub'i' ataqoya'l re'."
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
 msgstr "Xsach ruma jun k'ayewal pa ri k'utunïk, tatojtob'ej chik."
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
 msgstr "Man etaman ta ruwäch winäq richin nitz'ib'äx rub'i'."
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
 msgstr "Man etaman ruwäch tz'ib'anïk b'i'aj."
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
 msgstr "Man etaman ruwäch nuk'samaj richin tz'ib'anïk b'i'aj."
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
 msgstr "Man okel ta rutojik token richin rutz'ib'anïk b'i'aj."
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
 msgstr "Xq'at yan ri tz'ib'anïk b'i'aj"
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
 msgstr "Xq'at ri k'exoj, tatojtob'ej chik"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
 msgstr "Man okel ta o xk'is ruq'ijl ri rub'itz'ib' jikib'anem"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
 msgstr "Tajin nisamäj ri ruk'u'x samaj, tatojtob'ej na chik"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
 msgstr "Man tzijon ta samaj re'"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:308 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Man wachel ta ri q'inoj, k'a xtatojtob'ej chik"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
 msgstr "Re k'ischuq' re man ruk'amon ta chik ri'"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
 msgstr "Titojtob'ëx chik molojri'ïl xq'at"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
 msgstr "Xk'is molojri'ïl. Tatikirisaj richin yasamäj qa."
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
 msgstr "K'a e chupül na ri taq kaxlanwey"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Passwords do not match"
 msgstr "Man nikik'äm ta ki' ri taq ewan tzij"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Working…"
 msgstr "Tajin nisamäj…"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
 msgstr "Man xk'ulutäj ta ri Rutzijol Ichinanem"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
 msgstr "Man xk'ulutäj ta ri Rojqanem Samaj"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
 msgstr "K'o chi junwi ri k'ak'a' ewan atzij"
 
-#: .es5/lib/auth-errors.js:344 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "K'o chi man xa xe ta tuk'waj 8 taq tz'ib'"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Valid password required"
 msgstr "Ütz ewan tzij najowäx"
 
-#: .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Ütz taqoya'l najowäx"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
 msgstr "Man xilitäj ta jun okel wachib'äl"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "Could not initialize camera"
 msgstr "Man tikirel ta xtikirisäx elesäy wachib'äl"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Valid URL required"
 msgstr "Ütz URL najowäx"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "K'a nimakol titzolïx pe ri ataqoya'l richin jikib'anïk. ¿La jun sachoj re taqoya'l re'?"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "Tatz'ib'aj jun ütz rochochib'al taqoya'l. firefox.com man nusüj ta taqoya'l."
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Ri taq rub'i' rutaqoya'l Firefox xa xe tikirel yeya' pa jun IFRAME pa ya'on q'ij chi ke taq ruxaq k'amaya'l"
 
-#: .es5/lib/auth-errors.js:424 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "Itzelan ri ruximonel jikib'anïk"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Ri taq runimilem wachib'äl k'o chi man xa xe ta ruk'wan 100x100px"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "Ri tz'ib'anïk b'i'aj xtitaq na pa Firefox richin iOS"
 
-#: .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
 msgstr "K'o chi natz'ib'aj ajuna' richin natz'ib'aj awi'"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
 msgstr "K'o chi natz'ib'aj jun okel ajuna' richin natz'ib'aj awi'"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
 msgstr "Man k'o ta chik ri rub'i' taqoya'l."
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
 msgstr "Me'okel ri ichinil pa ri rutoken tikirisaxik chik: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing property in resume token: %(property)s"
 msgstr "Xsach ri ichinil pa ri rutoken tikirisaxik chik: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
 msgstr "Me'okel rub'anikil tzij: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
 msgstr "Tajin nisach rub'anikil tzij: %(property)s"
 
-#: .es5/lib/auth-errors.js:497 .es5/lib/auth-errors.js:551 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul."
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
 msgstr "Re re' jun k'atzinel k'ojlib'äl"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
 msgstr "Rajowaxik ri ya'oj q'ij b'itz'ib'"
 
-#: .es5/lib/auth-errors.js:513 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "Yujun ximonel"
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:540
 msgid "Phone number required"
 msgstr "Rajowaxik rajilab'al oyonib'äl"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
 msgstr "Najowäx ri b'itz'ib' jikib'anem rik'in ka'i'-xaq"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
 msgstr "Me'okel ri rub'itz'ib' jikib'anem rik'in ka'i'-xak"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
 msgstr "Najowäx ri kolonel b'itz'ib'"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
 msgstr "Man okel ta ri kolonel bitz'ib'"
 
-#: .es5/lib/auth-errors.js:581
+#: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
 msgstr "K'atzinel kolonel ewan tzij"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
 msgstr "Tatz'ib'aj jikib'anel b'itz'ib'"
 
-#: .es5/lib/auth-errors.js:597
+#: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
 msgstr "Man okel ta nitaq chik"
 
-#: .es5/lib/auth-errors.js:609
+#: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "¿La itzel rutz'ib'axik ri taqoya'l? %(domain)s man yerusüj ta taq taqoya'l."
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 

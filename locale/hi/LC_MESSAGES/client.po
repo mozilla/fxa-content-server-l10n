@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-21 16:04+0000\n"
+"POT-Creation-Date: 2020-08-28 16:03+0000\n"
 "PO-Revision-Date: 2020-06-19 16:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,11 +152,11 @@ msgstr "नया कूटशब्द"
 msgid "Re-enter password"
 msgstr "कूटशब्द फिर डालें"
 
-#: .es5/views/settings/change_password.js:278 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "बदलें"
 
-#: .es5/views/settings/change_password.js:282 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:285 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -164,7 +164,7 @@ msgstr "बदलें"
 msgid "Cancel"
 msgstr "रद्द"
 
-#: .es5/views/settings/change_password.js:381
+#: .es5/views/settings/change_password.js:384
 msgid "Password changed successfully"
 msgstr "पासवर्ड सफलतापूर्वक बदला गया"
 
@@ -260,7 +260,7 @@ msgstr "वेब सत्र"
 msgid "Last seen time unknown"
 msgstr "अंतिम बार देखा गया समय अज्ञात"
 
-#: .es5/views/settings/delete_account.js:215
+#: .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
@@ -509,7 +509,7 @@ msgstr "अनुरोध हस्ताक्षर में अवैध �
 msgid "Invalid nonce in request signature"
 msgstr "अनुरोध हस्ताक्षर में अवैध अवसर"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:164 .es5/lib/auth-errors.js:176
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "खाता पहले से मौजूद है"
 
@@ -561,7 +561,7 @@ msgstr "अनुरोध क्षेत्र अत्यधिक बड़ा
 msgid "The request was blocked for security reasons"
 msgstr "अनुरोध सुरक्षा कारणों से अवरुद्ध किया गया था"
 
-#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:509
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
 msgstr "अवैध अधिकृत कूट"
 
@@ -594,295 +594,299 @@ msgid "This email was already verified by another user"
 msgstr "यह ईमेल दूसरे उपयोगकर्ता द्वारा पहले ही सत्यापित हो चुका है"
 
 #: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
 msgstr "माध्यमिक ईमेल आपके खाते / प्राथमिक ईमेल से भिन्न होना चाहिए"
 
-#: .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:172
+#: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
 msgstr "साइन-इन के लिए प्राथमिक खाता ईमेल आवश्यक है"
 
-#: .es5/lib/auth-errors.js:184
+#: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
 msgstr "पता दूसरे खाते द्वारा उपयोग में है"
 
-#: .es5/lib/auth-errors.js:188
+#: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
 msgstr "रीसेट के लिए प्राथमिक खाता ईमेल आवश्यक है"
 
-#: .es5/lib/auth-errors.js:192
+#: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
 msgstr "अमान्य साइनइन कोड"
 
-#: .es5/lib/auth-errors.js:196
+#: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
 msgstr "प्राथमिक ईमेल को किसी आसत्यापित ईमेल से नहीं बदल सकते"
 
-#: .es5/lib/auth-errors.js:200 .es5/lib/auth-errors.js:208
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
 msgstr "प्राथमिक ईमेल को ऐसे ईमेल से नही बदल सकते जो इस खाते से सबंधित नही है"
 
-#: .es5/lib/auth-errors.js:204
+#: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
 msgstr "यह ईमेल इस समय लॉगिन करने के लिए इस्तेमाल नहीं किया जा सकता"
 
-#: .es5/lib/auth-errors.js:212
+#: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
 msgstr "ईमेल भेजने में विफल"
 
-#: .es5/lib/auth-errors.js:216
+#: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
 msgstr "वैध कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:220
+#: .es5/lib/auth-errors.js:224
 msgid "This verification code has expired"
 msgstr "यह सत्यापन कोड समाप्त हो चुका है"
 
-#: .es5/lib/auth-errors.js:224
+#: .es5/lib/auth-errors.js:228
 msgid "A TOTP token already exists for this account"
 msgstr "इस खाते के लिए एक TOTP टोकन पहले से मौजूद है"
 
-#: .es5/lib/auth-errors.js:228
+#: .es5/lib/auth-errors.js:232
 msgid "TOTP token not found"
 msgstr "TOTP टोकन नहीं मिला"
 
-#: .es5/lib/auth-errors.js:232
+#: .es5/lib/auth-errors.js:236
 msgid "Recovery code not found"
 msgstr "रिकवरी कोड नहीं मिला"
 
-#: .es5/lib/auth-errors.js:236
+#: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "अनुपलब्ध उपकरण कमांड"
 
-#: .es5/lib/auth-errors.js:240
+#: .es5/lib/auth-errors.js:244
 msgid "Recovery key not found"
 msgstr "रिकवरी कोड नहीं मिला"
 
-#: .es5/lib/auth-errors.js:244
+#: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
 msgstr "अमान्य पुनर्प्राप्ति कोड"
 
-#: .es5/lib/auth-errors.js:248 .es5/lib/auth-errors.js:256
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
 msgstr "इस अनुरोध के लिए आपके खाते पर द्वि-चरण प्रमाणीकरण सक्षम होना आवश्यक है।"
 
-#: .es5/lib/auth-errors.js:252
+#: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
 msgstr "परस्पर विरोधी अनुरोध के कारण असफ़ल, कृपया पुनः प्रयास करें।"
 
-#: .es5/lib/auth-errors.js:260
+#: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
 msgstr "सदस्यता के लिए अज्ञात ग्राहक।"
 
-#: .es5/lib/auth-errors.js:264
+#: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
 msgstr "अज्ञात सदस्यता।"
 
-#: .es5/lib/auth-errors.js:268
+#: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
 msgstr "सदस्यता के लिए अज्ञात योजना।"
 
-#: .es5/lib/auth-errors.js:272
+#: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
 msgstr "सदस्यता के लिए अमान्य भुगतान टोकन।"
 
-#: .es5/lib/auth-errors.js:276
+#: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
 msgstr "सदस्यता पहले ही रद्द कर दी गई है"
 
-#: .es5/lib/auth-errors.js:280
+#: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
 msgstr "अद्यतन अस्वीकार कर दिया गया था, कृपया पुनः प्रयास करें"
 
-#: .es5/lib/auth-errors.js:284
+#: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
 msgstr "अमान्य या समाप्त सत्यापन कोड"
 
-#: .es5/lib/auth-errors.js:288 .es5/lib/auth-errors.js:489
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
 msgstr "सर्वर व्यस्त, जल्द ही पुन: प्रयास करें"
 
-#: .es5/lib/auth-errors.js:292
+#: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
 msgstr "सुविधा सक्षम नहीं है"
 
-#: .es5/lib/auth-errors.js:296 .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:308 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
 
-#: .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
 msgstr "यह समापन बिंदु अब समर्थित नहीं है"
 
-#: .es5/lib/auth-errors.js:312
+#: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
 msgstr "लॉगिन का प्रयास रद्द कर दिया"
 
-#: .es5/lib/auth-errors.js:316
+#: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
 msgstr "सत्र समाप्त. जारी रखने के लिए साइन इन करें."
 
-#: .es5/lib/auth-errors.js:320
+#: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
 msgstr "कुकीज़ अभी भी अक्षम हैं"
 
-#: .es5/lib/auth-errors.js:324
+#: .es5/lib/auth-errors.js:328
 msgid "Passwords do not match"
 msgstr "कूटशब्द मेल नहीं खाते"
 
-#: .es5/lib/auth-errors.js:328
+#: .es5/lib/auth-errors.js:332
 msgid "Working…"
 msgstr "क्रियाशील…"
 
-#: .es5/lib/auth-errors.js:332
+#: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
 msgstr "गोपनीयता सूचना प्राप्त नहीं हुई"
 
-#: .es5/lib/auth-errors.js:336
+#: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
 msgstr "सेवा की शर्तें प्राप्त नहीं हुई"
 
-#: .es5/lib/auth-errors.js:340
+#: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
 msgstr "आपका नया कूटशब्द भिन्न होना चाहिए"
 
-#: .es5/lib/auth-errors.js:344 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
 msgstr "कम से कम 8 अक्षरों का होना चाहिए"
 
-#: .es5/lib/auth-errors.js:348
+#: .es5/lib/auth-errors.js:352
 msgid "Valid password required"
 msgstr "वैध कूटशब्द आवश्यक"
 
-#: .es5/lib/auth-errors.js:352 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "वैध ईमेल आवश्यक"
 
-#: .es5/lib/auth-errors.js:364
+#: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
 msgstr "एक प्रयोग करने योग्य छवि नहीं मिली"
 
-#: .es5/lib/auth-errors.js:368
+#: .es5/lib/auth-errors.js:372
 msgid "Could not initialize camera"
 msgstr "कैमरे को प्रारंभ नहीं किया जा सका"
 
-#: .es5/lib/auth-errors.js:372
+#: .es5/lib/auth-errors.js:376
 msgid "Valid URL required"
 msgstr "मान्य URL आवश्यक"
 
-#: .es5/lib/auth-errors.js:388
+#: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
 msgstr "आपका सत्यापन ईमेल वापस लौटाया गया. ईमेल गलत टाइप?"
 
-#: .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
 msgstr "एक वैध ईमेल प्रविष्ट करें. firefox.com ईमेल प्रदान नही करता."
 
-#: .es5/lib/auth-errors.js:404
+#: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:424 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr "सत्यापन लिंक क्षतिग्रस्त"
 
-#: .es5/lib/auth-errors.js:432
+#: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
 msgstr "छवि का आयाम कम से कम 100x100px होना चाहिए"
 
-#: .es5/lib/auth-errors.js:436
+#: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "फॉयरफॉक्स के आईओस के लिए पंजीकरण जल्द ही आ रहा है "
 
-#: .es5/lib/auth-errors.js:448
+#: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
 msgstr "साइन अप करने के लिए आपकी उम्र दर्ज करना होगा"
 
-#: .es5/lib/auth-errors.js:452
+#: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
 msgstr "साइन अप करने के लिए आपको एक वैध आयु दर्ज करनी होगी"
 
-#: .es5/lib/auth-errors.js:468
+#: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
 msgstr "खाता अब मौजूद नहीं हैं."
 
-#: .es5/lib/auth-errors.js:472
+#: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
 msgstr "रिज्यूम टोकन में अवैध संपत्ति: %(property)s"
 
-#: .es5/lib/auth-errors.js:476
+#: .es5/lib/auth-errors.js:480
 msgid "Missing property in resume token: %(property)s"
 msgstr "संपत्ति लापता रिज्यूम टोकन: %(property)s"
 
-#: .es5/lib/auth-errors.js:480
+#: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
 msgstr "अमान्य डेटा विशेषता: %(property)s"
 
-#: .es5/lib/auth-errors.js:484
+#: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
 msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
 
-#: .es5/lib/auth-errors.js:497 .es5/lib/auth-errors.js:551 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
-#: .es5/lib/auth-errors.js:501
+#: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
 msgstr "यह एक आवश्यक जगह है"
 
-#: .es5/lib/auth-errors.js:505
+#: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: .es5/lib/auth-errors.js:513 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
-#: .es5/lib/auth-errors.js:536
+#: .es5/lib/auth-errors.js:540
 msgid "Phone number required"
 msgstr "फोन नंबर आवश्यक है"
 
-#: .es5/lib/auth-errors.js:555
+#: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
 msgstr "द्वि-चरणीय प्रमाणीकरण कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:559
+#: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
 msgstr "अमान्य द्वि-चरणीय प्रमाणीकरण कोड"
 
-#: .es5/lib/auth-errors.js:563
+#: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:567
+#: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
 msgstr "अमान्य पुनर्प्राप्ति कोड"
 
-#: .es5/lib/auth-errors.js:581
+#: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
 msgstr "पुनर्प्राप्ति कोड आवश्यक है"
 
-#: .es5/lib/auth-errors.js:585
+#: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
 msgstr "कृपया सत्यापन कोड दर्ज करें"
 
-#: .es5/lib/auth-errors.js:597
+#: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
 msgstr "अमान्य पुनर्निर्देश"
 
-#: .es5/lib/auth-errors.js:609
+#: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:613
+#: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 
