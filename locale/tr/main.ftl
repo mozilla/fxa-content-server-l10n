@@ -218,6 +218,10 @@ pay-update-change-btn = Değiştir
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name } ürününü kullanmaya devam etmek ister misiniz?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = { $name } ürününe erişiminiz devam edecek ve faturalandırma döngünüz ve ödemeniz aynı kalacaktır. Bir sonraki ödemeniz { $endDate } tarihinde { $last } ile biten kartınızdan { $amount } olacaktır.
 reactivate-confirm-button = Yeniden abone ol
 
 ##  $date (Date) - Last day of product access
