@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 16:03+0000\n"
-"PO-Revision-Date: 2020-09-04 12:41+0000\n"
+"PO-Revision-Date: 2020-09-04 12:54+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Υπενθύμιση για συγχρονισμό συσκευών."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -826,11 +826,11 @@ msgstr "Το κύριο email ενημερώθηκε"
 
 #: lib/senders/email.js:1445
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Η επαλήθευση σε δύο βήματα ενεργοποιήθηκε"
 
 #: lib/senders/email.js:1488
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Η επαλήθευση σε δύο βήματα είναι ανενεργή"
 
 #: lib/senders/email.js:1574
 msgid "Recovery code used"
@@ -906,7 +906,7 @@ msgstr ""
 
 #: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Τελική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού"
 
 #: lib/senders/email.js:2496
 msgid "Sync another device"
@@ -926,6 +926,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα\n"
+"          διορθώσουμε τυχόν συνδέσμους που ίσως έχουν χαλάσει."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -940,6 +942,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Ωχ, κάτι πήγε στραβά. Έχουμε ειδοποιηθεί και θα αρχίσουμε\n"
+"          να εργαζόμαστε για να το διορθώσουμε."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
