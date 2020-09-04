@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-28 16:03+0000\n"
-"PO-Revision-Date: 2020-08-19 14:44+0000\n"
+"POT-Creation-Date: 2020-09-04 16:04+0000\n"
+"PO-Revision-Date: 2020-08-30 13:59+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -595,7 +595,7 @@ msgstr "Dit e-mailadres is al troch in oare brûker ferifiearre"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Net-ferifiearre sesje"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
