@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-28 16:03+0000\n"
-"PO-Revision-Date: 2020-09-02 09:30+0000\n"
+"PO-Revision-Date: 2020-09-04 12:41+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -777,7 +777,7 @@ msgstr "Τελική υπενθύμιση: Ενεργοποιήστε το λο�
 
 #: lib/senders/email.js:711
 msgid "Account authorization code"
-msgstr ""
+msgstr "Κωδικός εξουσιοδότησης λογαριασμού"
 
 #: lib/senders/email.js:780
 msgid "Confirm new sign-in to %(clientName)s"
