@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-06 16:34+0000\n"
+"PO-Revision-Date: 2020-09-06 16:35+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_ES\n"
@@ -708,7 +708,7 @@ msgstr "Cancelar suscripción"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Cancelar suscripciones"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -736,7 +736,7 @@ msgstr "Cancelar suscripción:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Cancelar suscripciones:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -881,7 +881,7 @@ msgstr "Tarjeta de crédito para %(productName)s caduca pronto"
 
 #: lib/senders/email.js:1981
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "La tarjeta de crédito para tus suscripciones caduca pronto"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
@@ -913,7 +913,7 @@ msgstr "Descargar %(productName)s"
 
 #: lib/senders/email.js:2481
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Un amable recordatorio: Cómo completar tus ajustes de sincronización"
 
 #: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"

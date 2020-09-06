@@ -34,7 +34,7 @@ card-error = Tu transacción no pudo ser procesada. Verifica la información de 
 ## settings
 
 settings-home = Página principal de la cuenta
-settings-subscriptions = Suscripciones y pagos
+settings-subscriptions-title = Suscripciones
 
 ## legal footer
 
@@ -130,11 +130,13 @@ sub-update-total-label = Nuevo total
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Próxima facturación el { $date }
 
 ##
 
@@ -187,6 +189,8 @@ sub-route-idx-cancel-msg =
 sub-route-idx-cancel-aside = ¿Alguna pregunta? Visita la <a>ayuda de { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Problema al cargar las suscripciones
+sub-customer-error =
+    .title = Problema al cargar el cliente
 sub-billing-update-success = Tu información de facturación ha sido actualizada correctamente
 
 ## subscription create
@@ -215,3 +219,5 @@ payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = terminada en { $last4 }
+payment-confirmation-download-button = Continuar para descargar
