@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:40+0000\n"
+"PO-Revision-Date: 2020-09-07 13:49+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1388,11 +1388,11 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή πιστοποίησης."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Εναλλακτικά, θέλετε να σαρώστε έναν κωδικό QR;"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1862,7 +1862,7 @@ msgstr "Θέλετε να ακυρώσετε μια συνδρομή επί πλ
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Έχετε συνδέσει το λογαριασμό Firefox σας με τα προϊόντα Mozilla που σας προστατεύουν και σας βοηθούν στο διαδίκτυο:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
@@ -2074,7 +2074,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Το συγχρονισμένο ιστορικό, οι σελιδοδείκτες, οι συνδέσεις και άλλα προσωπικά δεδομένα δεν θα χαθούν."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2258,7 +2258,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
+msgstr "Ασφαλής πρόσβαση σε αποθηκευμένους κωδικούς πρόσβασης του Firefox οπουδήποτε &mdash; ακόμη και εκτός του προγράμματος περιήγησης."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -2266,7 +2266,7 @@ msgstr "Firefox Monitor"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Get a lookout for data breaches."
-msgstr ""
+msgstr "Παρακολούθηση παραβιάσεων δεδομένων."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Send"

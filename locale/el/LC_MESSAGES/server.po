@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:38+0000\n"
+"PO-Revision-Date: 2020-09-07 13:47+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -338,7 +338,7 @@ msgstr "Λυπούμαστε που φεύγετε"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Διαγράψατε πρόσφατα το λογαριασμό Firefox σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -437,7 +437,7 @@ msgstr "Αντιμετωπίζουμε πρόβλημα με την τελευτ
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει, ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
