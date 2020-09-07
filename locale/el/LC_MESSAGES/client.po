@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:49+0000\n"
+"PO-Revision-Date: 2020-09-07 14:43+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1384,7 +1384,7 @@ msgstr "Αδυναμία σάρωσης κωδικού;"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Αφού ολοκληρωθεί, θα αρχίσει η δημιουργία των κωδικών ασφαλείας σας."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1619,6 +1619,8 @@ msgstr "Επανάληψη κωδικού πρόσβασης"
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Χρειάζεστε αυτό τον κωδικό πρόσβασης για πρόσβαση σε κρυπτογραφημένα δεδομένα που αποθηκεύετε σε εμάς.<br/>Επαναφορά, σημαίνει ενδεχομένως απώλεια δεδομένων, όπως κωδικοί πρόσβασης και "
+"σελιδοδείκτες."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1634,7 +1636,7 @@ msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Αποστολή συνδέσμου μέσω SMS για εγκατάσταση του Firefox στο τηλέφωνό σας."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -2098,7 +2100,7 @@ msgstr "Λάβετε πρακτικές γνώσεις στα εισερχόμε
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Εγγραφή στο %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2122,7 +2124,7 @@ msgstr "Συγχρονισμός του Firefox μεταξύ συσκευών"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Συγχρονίστε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο Firefox των φορητών σας συσκευών. Χρειάζονται μόνο λίγα λεπτά."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -2130,15 +2132,15 @@ msgstr "Έναρξη"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Θα το κάνω αργότερα, να γίνει υπενθύμιση"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Λήψη του Firefox με την κάμερά σας"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Η εγκατάσταση του Firefox και ο συγχρονισμός μεταξύ τουλάχιστον δύο συσκευών προστατεύει επίσης από την απώλεια των δεδομένων σας."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"

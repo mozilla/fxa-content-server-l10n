@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 14:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -449,7 +449,7 @@ msgstr "Δυστυχώς, αν δεν ενεργήσετε εντός τριών
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Βοηθήστε μας να το διορθώσουμε ενημερώνοντας τα στοιχεία πληρωμής σας εντός τριών ημερών:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -623,15 +623,15 @@ msgstr "Επιβεβαιώστε ότι έχετε λάβει αυτό το emai
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Μόλις γίνει επιβεβαίωση, θα σάς βοηθήσουμε να εγκαταστήσετε και να συνδέσετε το Firefox σε τουλάχιστον μια άλλη συσκευή."
+msgstr "Μόλις γίνει επιβεβαίωση, θα σας βοηθήσουμε να εγκαταστήσετε και να συνδέσετε το Firefox σε τουλάχιστον μια άλλη συσκευή."
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Ή να κάνετε εγκατάσταση σε <a %(desktopLinkAttributes)s>άλλο υπολογιστή</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Ή να κάνετε εγκατάσταση σε <a %(cadLinkAttributes)s>άλλη συσκευή</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
