@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 14:43+0000\n"
+"PO-Revision-Date: 2020-09-07 14:53+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -919,7 +919,7 @@ msgstr "Λάβετε δράση για ένα υγιές διαδίκτυο"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Περισσότερη ασφάλεια και γνώσεις στο διαδίκτυο"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -2073,6 +2073,8 @@ msgstr "για να συνεχίσετε στο %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Ανιχνεύσαμε ύποπτη συμπεριφορά στο λογαριασμό Firefox σας. Για να προστατεύσετε το λογαριασμό σας, παρακαλούμε δημιουργήστε ένα νέο κωδικό πρόσβασης. Θα τον χρησιμοποιήσετε για τη σύνδεση σε όλες "
+"τις υπηρεσίες του λογαριασμού Firefox σας."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -2108,7 +2110,7 @@ msgstr "Η συσκευή συνδέθηκε!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Σύνδεση άλλης συσκευής"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
@@ -2148,7 +2150,7 @@ msgstr "Σάρωση"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Συνδέστε την κινητή σας συσκευή</h1><p>με τον κωδικό QR που έχουμε δημιουργήσει για εσάς</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -2156,7 +2158,7 @@ msgstr "Ανοίξτε την κάμερα στη συσκευή σας"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Στρέψτε την κάμερα στον κωδικό QR και πατήστε το σύνδεσμο που εμφανίζεται"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
@@ -2193,6 +2195,7 @@ msgstr "Τα συγχρονισμένα σας δεδομένα μπορεί ν�
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
+"Επειδή αυτές οι πληροφορίες είναι κρίσιμες για την ασφάλειά σας, το Firefox τις διαγράφει όταν γίνεται επαναφορά του κωδικού πρόσβασής σας, ώστε να εμποδιστεί η πρόσβαση άλλων ατόμων σε αυτές."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -2208,7 +2211,7 @@ msgstr "Παρακαλούμε επιβεβαιώστε τον κωδικό πρ
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Εισάγετε το κλειδί ανάκτησης για να επιβεβαιώστε ότι έχετε αποθηκεύσει ένα αντίγραφο."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
