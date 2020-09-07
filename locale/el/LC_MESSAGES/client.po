@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 14:53+0000\n"
+"PO-Revision-Date: 2020-09-07 14:55+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2283,7 +2283,7 @@ msgstr "Ασφαλής και ιδιωτική αποστολή μεγαλύτε
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -2299,7 +2299,7 @@ msgstr "Εμφάνιση κωδικού πρόσβασης"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Χμμ, αντιμετωπίζουμε πρόβλημα με το σύστημά σας. Εργαζόμαστε για να το διορθώσουμε και λυπούμαστε για την αναστάτωση. Παρακαλούμε δοκιμάστε ξανά αργότερα."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
