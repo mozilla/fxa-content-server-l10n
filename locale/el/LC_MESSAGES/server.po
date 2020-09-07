@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 15:05+0000\n"
+"PO-Revision-Date: 2020-09-07 15:12+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -297,7 +297,7 @@ msgstr "Επόμενος συγχρονισμός μεταξύ των συσκε
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του Firefox, σε όλες τις συσκευές σας."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1294
 msgid "Setup next device"
@@ -367,6 +367,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycle)s σε %(paymentAmountNew)s. Θα λάβετε επίσης μια εφάπαξ πίστωση των "
+"%(paymentProrated)s λόγω της χαμηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -494,6 +496,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycle)s σε %(paymentAmountNew)s. Θα χρεωθείτε επίσης για μία φορά με "
+"%(paymentProrated)s λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -529,7 +533,7 @@ msgstr "Πριν από λίγες ημέρες, δημιουργήσατε έν
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Κάντε τώρα επιβεβαίωση για να αποκτήστε την τεχνολογία που μάχεται για το απόρρητό σας, σας εξοπλίζει με πρακτικές γνώσεις και σας σέβεται όπως σας αξίζει."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
