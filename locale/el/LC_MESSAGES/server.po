@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:34+0000\n"
+"PO-Revision-Date: 2020-09-07 13:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -47,7 +47,7 @@ msgstr "Έχετε απορίες σχετικά με τη συνδρομή σα
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -346,7 +346,7 @@ msgstr "Βοηθήστε μας να βελτιώσουμε τις υπηρεσ�
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -453,7 +453,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Ευχαριστούμε για την εκ νέου ενεργοποίηση της συνδρομής %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -675,11 +675,11 @@ msgstr "Όροι υπηρεσίας Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί στο %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί σε πολλαπλά προϊόντα."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."

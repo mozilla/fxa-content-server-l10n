@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-07 13:30+0000\n"
+"PO-Revision-Date: 2020-09-07 13:40+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -2150,7 +2150,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Ανοίξτε την κάμερα στη συσκευή σας"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
@@ -2250,7 +2250,7 @@ msgstr "Πρόγραμμα περιήγησης Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Συγχρονισμός σελιδοδεικτών, κωδικών πρόσβασης και άλλων δεδομένων σε κάθε συσκευή."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
