@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-06 07:38+0000\n"
+"PO-Revision-Date: 2020-09-10 07:59+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "ఇది మీరు కాకుంటే, <a %(revokeAccountRecoveryLinkAttributes)s>ఇక్కడ నొక్కండి.</a>"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
@@ -273,7 +273,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "ప్రవేశించే ప్రతిసారి భద్రతా సంకేతాలు అవసరం ఉండవు."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
