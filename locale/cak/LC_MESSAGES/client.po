@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-10 22:11+0000\n"
+"PO-Revision-Date: 2020-09-10 22:19+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -886,7 +886,7 @@ msgstr "¿La itzel rutz'ib'axik ri taqoya'l? %(domain)s man yerusüj ta taq taqo
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1625,7 +1625,7 @@ msgstr "¿La nawajo' naxïm ri awoyonib'al?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Titaq jun ximonel rik'in SMS richin niyak Firefox pan awoyonib'al."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1637,7 +1637,7 @@ msgstr "Titaq"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "SMS&amp; nitikïr nuch'ojij rajil tzij. Najowäx chi nijikib'äl rutzij k'ulunel. <a %(escapedLearnMoreAttributes)sTetamäx ch'aqa' chik</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1653,7 +1653,7 @@ msgstr "Tanik'oj ri atz'ib'anik"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Xqatäq jun rutzijol pa tz'ib' chawe"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1847,7 +1847,7 @@ msgstr "Tiyuj…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
+msgstr "¿La nakanoj nayüj jun tojon tz'ib'an b'i'aj? Jät pa <a href=\"/subscriptions\"> taq Tz'ib'anïk B'i'aj</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1863,7 +1863,7 @@ msgstr "Ri tz'ib'anïk b'i'aj e'atojon xkeyuj el"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Xtiyuj xab'achike k'amal chuqa' wachinel xataluj rutzijol pa addons.mozilla.org"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -2036,7 +2036,7 @@ msgstr "Titz'aqatisäx jun ruka'n rochochib'al taqoya'l"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Nitz'aqatisäx jun ruka'n taqoya'l, yato' richin yatzolin pan rub'i' ataqoya'l we q'aton chuqa' man yatikïr ta yatok chupam ri %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
