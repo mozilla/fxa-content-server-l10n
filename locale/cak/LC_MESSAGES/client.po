@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-04 16:04+0000\n"
-"PO-Revision-Date: 2020-09-10 22:32+0000\n"
+"PO-Revision-Date: 2020-09-10 22:44+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -1637,7 +1637,7 @@ msgstr "Titaq"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS &amp; nitikïr nuch'ojij rajil tzij. Najowäx chi nijikib'äl rutzij k'ulunel. <a %(escapedLearnMoreAttributes)sTetamäx ch'aqa' chik</a>"
+msgstr "SMS &amp; nitikïr nuch'ojij rajil tzij. Najowäx chi nijikib'äl rutzij k'ulunel. <a %(escapedLearnMoreAttributes)s>Tetamäx ch'aqa' chik</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
