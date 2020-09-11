@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-04 16:04+0000\n"
+"POT-Creation-Date: 2020-09-11 16:03+0000\n"
 "PO-Revision-Date: 2020-08-29 13:19+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,20 +15,20 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444408812.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2495
 msgid "Here's your reminder to sync devices."
 msgstr "Ja kujtuesi juaj për njëkohësim pajisjesh."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2499
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Për njëkohësim duhen dy palë. Njëkohësimi i një pajisjeje tjetër privatisht me Firefox-in i mban faqerojtësit tuaj, fjalëkalimet dhe të dhëna të tjera Firefox të njëjta kudo që përdorni Firefox-in."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2496
 msgid "Last reminder to sync devices!"
 msgstr "Kujtuesi i fundit për njëkohësim pajisjesh!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2502
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Njëkohësimi i një pajisjeje tjetër privatisht me Firefox-in i mban faqerojtësit tuaj, fjalëkalimet dhe të dhëna të tjera Firefox të njëjta kudo që përdorni Firefox-in."
 
@@ -65,7 +65,7 @@ msgstr "Kemi vënë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mu
 msgid "Generate codes:"
 msgstr "Prodho kode:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1252
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1262
 msgid "New sign-in to %(clientName)s"
 msgstr "Hyrje e re te %(clientName)s"
 
@@ -177,7 +177,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Mësoni se si të shihni ç’fjalëkalime depoziton Firefox-i për ju."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1664
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1674
 msgid "Account recovery key generated"
 msgstr "U prodhua kyç rimarrjeje llogarie"
 
@@ -235,7 +235,7 @@ msgstr "Përdorët me sukses një kod rikthimi nga pajisja vijuese:"
 msgid "Consumed recovery code"
 msgstr "Kodi i rikthimit i përdorur"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1531
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1541
 msgid "New recovery codes generated"
 msgstr "U prodhuan kode të rinj rikthimi"
 
@@ -243,7 +243,7 @@ msgstr "U prodhuan kode të rinj rikthimi"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Prodhuat me sukses kode të rinj rikthimi nga pajisja vijuese:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1710
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1720
 msgid "Account recovery key removed"
 msgstr "Kyçi i rimarrjes së llogarisë u hoq"
 
@@ -259,7 +259,7 @@ msgstr "Ky kyç rimarrjeje s’mund të përdoret më për të rimarrë llogarin
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Hoqët me sukses një kyç rimarrjeje llogarie për Llogarinë tuaj Firefox, që nga pajisja vijuese:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1411
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1421
 msgid "Secondary email removed"
 msgstr "Email-i dytësor u hoq"
 
@@ -295,7 +295,7 @@ msgstr "Njëkohësimi pasues me pajisjeve tuaja!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Njëkohësimi i mban privatisht faqerojtësit, fjalëkalimet dhe të dhëna të tjera Firefox të njëjta nëpër krejt pajisjet tuaja."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1294
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1304
 msgid "Setup next device"
 msgstr "Ujdisni pajisjen pasuese"
 
@@ -303,7 +303,7 @@ msgstr "Ujdisni pajisjen pasuese"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Keni pyetje? Vizitoni %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1339
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1349
 msgid "Secondary email added"
 msgstr "Email-i dytësor u shtua"
 
@@ -319,7 +319,7 @@ msgstr "Keni nvojë të ricaktoni fjalëkalimin tuaj?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klikoni mbi butonin brenda orës së ardhshme që të krijoni një fjalëkalim të ri. Kërkesa erdhi nga pajisja vijuese:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1074
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1084
 msgid "Create new password"
 msgstr "Krijoni fjalëkalim të ri"
 
@@ -561,7 +561,7 @@ msgstr "Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga Firefox-i, nga ku
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Për më tepër siguri, ju lutemi, ripohojeni këtë hyrje që nga pajisja vijuese:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:783
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:793
 msgid "Confirm sign-in"
 msgstr "Ripohoni hyrjen"
 
@@ -737,184 +737,184 @@ msgstr "Anulojini pajtimet:"
 msgid "Update billing information:"
 msgstr "Përditësoni të dhëna faturimi:"
 
-#: lib/senders/email.js:315
+#: lib/senders/email.js:325
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s në %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:320
+#: lib/senders/email.js:330
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s në %(uaOS)s"
 
-#: lib/senders/email.js:346
+#: lib/senders/email.js:356
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (hamendje)"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:363
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (hamendësuar)"
 
-#: lib/senders/email.js:358
+#: lib/senders/email.js:368
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (hamendje)"
 
-#: lib/senders/email.js:363
+#: lib/senders/email.js:373
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (hamendësuar)"
 
-#: lib/senders/email.js:545
+#: lib/senders/email.js:555
 msgid "Finish creating your account"
 msgstr "Përfundoni krijimin e llogarisë tuaj"
 
-#: lib/senders/email.js:546 lib/senders/email.js:674
+#: lib/senders/email.js:556 lib/senders/email.js:684
 msgid "Confirm email"
 msgstr "Ripohoni email-in"
 
-#: lib/senders/email.js:613
+#: lib/senders/email.js:623
 msgid "Verification code: %(code)s"
 msgstr "Kod verifikimi: %(code)s"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:664
 msgid "Reminder: Finish creating your account"
 msgstr "Kujtues: Përfundoni krijimin e llogarinë tuaj"
 
-#: lib/senders/email.js:656
+#: lib/senders/email.js:666
 msgid "Final reminder: Activate your account"
 msgstr "Kujtues përfundimtar: Aktivizoni llogarinë tuaj"
 
-#: lib/senders/email.js:711
+#: lib/senders/email.js:721
 msgid "Account authorization code"
 msgstr "Kod autorizimi llogarie"
 
-#: lib/senders/email.js:780
+#: lib/senders/email.js:790
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Ripohoni hyrje të re te %(clientName)s"
 
-#: lib/senders/email.js:825
+#: lib/senders/email.js:835
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Kod hyrjeje për %(serviceName)s"
 
-#: lib/senders/email.js:890
+#: lib/senders/email.js:900
 msgid "Confirm primary email"
 msgstr "Ripohoni email parësor"
 
-#: lib/senders/email.js:891 lib/senders/email.js:950 lib/senders/email.js:1018
+#: lib/senders/email.js:901 lib/senders/email.js:960 lib/senders/email.js:1028
 msgid "Verify email"
 msgstr "Verifikoni email-in"
 
-#: lib/senders/email.js:949 lib/senders/email.js:1017
+#: lib/senders/email.js:959 lib/senders/email.js:1027
 msgid "Confirm secondary email"
 msgstr "Ripohoni email dytësor"
 
-#: lib/senders/email.js:1073
+#: lib/senders/email.js:1083
 msgid "Reset your password"
 msgstr "Ricaktoni fjalëkalimin tuaj"
 
-#: lib/senders/email.js:1115 lib/senders/email.js:1181
+#: lib/senders/email.js:1125 lib/senders/email.js:1191
 msgid "Password updated"
 msgstr "Fjalëkalimi u përditësua"
 
-#: lib/senders/email.js:1153 lib/senders/email.js:1211
+#: lib/senders/email.js:1163 lib/senders/email.js:1221
 msgid "Suspicious activity detected"
 msgstr "U pikas veprimtari e dyshimtë"
 
-#: lib/senders/email.js:1253 lib/senders/email.js:1340 lib/senders/email.js:1376 lib/senders/email.js:1412 lib/senders/email.js:1446 lib/senders/email.js:1489 lib/senders/email.js:1532
-#: lib/senders/email.js:1575 lib/senders/email.js:1665 lib/senders/email.js:1711
+#: lib/senders/email.js:1263 lib/senders/email.js:1350 lib/senders/email.js:1386 lib/senders/email.js:1422 lib/senders/email.js:1456 lib/senders/email.js:1499 lib/senders/email.js:1542
+#: lib/senders/email.js:1585 lib/senders/email.js:1675 lib/senders/email.js:1721
 msgid "Manage account"
 msgstr "Administroni llogarinë"
 
-#: lib/senders/email.js:1289
+#: lib/senders/email.js:1299
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Llogaria u verifikua. Më pas, njëkohësoni pajisje tjetër, që të përfundohet ujdisja"
 
-#: lib/senders/email.js:1375
+#: lib/senders/email.js:1385
 msgid "Primary email updated"
 msgstr "Email-i parësor u përditësua"
 
-#: lib/senders/email.js:1445
+#: lib/senders/email.js:1455
 msgid "Two-step verification enabled"
 msgstr "Verifikimi dyhapësh u aktivizua"
 
-#: lib/senders/email.js:1488
+#: lib/senders/email.js:1498
 msgid "Two-step verification is off"
 msgstr "Verifikimi dyhapësh është i çaktivizuar"
 
-#: lib/senders/email.js:1574
+#: lib/senders/email.js:1584
 msgid "Recovery code used"
 msgstr "U përdor kod rimarrjeje"
 
-#: lib/senders/email.js:1627
+#: lib/senders/email.js:1637
 msgid "1 recovery code remaining"
 msgstr "Edhe 1 kod rimarrjeje"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1639
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Edhe %(numberRemaining)s kode rimarrjesh"
 
-#: lib/senders/email.js:1632
+#: lib/senders/email.js:1642
 msgid "Generate codes"
 msgstr "Prodho kode"
 
-#: lib/senders/email.js:1756
+#: lib/senders/email.js:1766
 msgid "Password updated using recovery key"
 msgstr "U përditësua fjalëkalim duke përdorur kyç rimarrjeje"
 
-#: lib/senders/email.js:1757
+#: lib/senders/email.js:1767
 msgid "Create new recovery key"
 msgstr "Krijo kyç të ri rimarrjeje"
 
-#: lib/senders/email.js:1823
+#: lib/senders/email.js:1833
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "E përmirësuat me %(productNameNew)s"
 
-#: lib/senders/email.js:1902
+#: lib/senders/email.js:1912
 msgid "You have switched to %(productNameNew)s"
 msgstr "U hodhët në %(productNameNew)s"
 
-#: lib/senders/email.js:1967
+#: lib/senders/email.js:1977
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Kartë krediti për %(productName)s që skadon së shpejti"
 
-#: lib/senders/email.js:1981
+#: lib/senders/email.js:1991
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Karta e kreditit për pajtimet tuaja skadon së shpejti"
 
-#: lib/senders/email.js:2033
+#: lib/senders/email.js:2043
 msgid "%(productName)s payment failed"
 msgstr "Pagesa për %(productName)s dështoi"
 
-#: lib/senders/email.js:2084 lib/senders/email.js:2149
+#: lib/senders/email.js:2094 lib/senders/email.js:2159
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Pajtimi juaj për %(productName)s është anuluar"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2230
 msgid "%(productName)s subscription reactivated"
 msgstr "Pajtimi në %(productName)s u riaktivizua"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2304
 msgid "%(productName)s payment received"
 msgstr "Pagesa për %(productName)s u mor"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2392
 msgid "%(productName)s payment confirmed"
 msgstr "Pagesa për %(productName)s u ripohua"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2464
 msgid "Welcome to %(productName)s"
 msgstr "Mirë se vini te %(productName)s"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2465
 msgid "Download %(productName)s"
 msgstr "Shkarkoni %(productName)s"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2491
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Kujtuesi Juaj Dashamirës: Si të Plotësohet Ujdisja e Njëkohësimit"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2492
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Kujtues Përfundimtar: Plotësoni Ujdisjen e Njëkohësimeve"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2506
 msgid "Sync another device"
 msgstr "Njëkohësoni pajisje tjetër"
 

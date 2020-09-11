@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-04 16:04+0000\n"
+"POT-Creation-Date: 2020-09-11 16:03+0000\n"
 "PO-Revision-Date: 2020-08-28 17:59+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -122,40 +122,40 @@ msgstr "Спасибо за обращение в поддержку Mozilla п�
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedProduct)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
 
-#: .es5/views/settings/change_password.js:89 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
 msgstr "Пароль"
 
-#: .es5/views/settings/change_password.js:92
+#: .es5/views/settings/change_password.js:93
 msgid "Change..."
 msgstr "Изменить..."
 
-#: .es5/views/settings/change_password.js:223
+#: .es5/views/settings/change_password.js:210
 msgid "Once you're finished, use your new password to sign in on all of your devices."
 msgstr "После того, как вы закончите, используйте новый пароль для входа на всех ваших устройствах."
 
-#: .es5/views/settings/change_password.js:233 .es5/templates/post_verify/password/force_password_change.mustache:7
+#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
 msgstr "Старый пароль"
 
-#: .es5/views/settings/change_password.js:247 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Забыли пароль?"
 
-#: .es5/views/settings/change_password.js:253 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Новый пароль"
 
-#: .es5/views/settings/change_password.js:267 .es5/templates/complete_reset_password.mustache:14
+#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
 msgstr "Повторите ввод пароля"
 
-#: .es5/views/settings/change_password.js:281 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
+#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
 msgid "Change"
 msgstr "Изменить"
 
-#: .es5/views/settings/change_password.js:285 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -163,7 +163,7 @@ msgstr "Изменить"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: .es5/views/settings/change_password.js:384
+#: .es5/views/settings/change_password.js:374
 msgid "Password changed successfully"
 msgstr "Пароль успешно изменён"
 
@@ -905,7 +905,7 @@ msgstr "Ошиблись при наборе адреса электронной
 msgid "Test new Firefox products"
 msgstr "Попробуйте новые продукты Firefox"
 
-#: .es5/lib/newsletters.js:29
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
 msgid "Get the latest news about Mozilla and Firefox"
 msgstr "Получать последние новости о Mozilla и Firefox"
 
@@ -916,6 +916,18 @@ msgstr "Помогите здоровому Интернету оставать�
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
 msgstr "Станьте безопаснее и умнее в Интернете"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr ""
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr ""
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr ""
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
