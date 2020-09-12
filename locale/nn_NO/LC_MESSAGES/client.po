@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 08:57+0000\n"
+"PO-Revision-Date: 2020-09-12 09:18+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -917,7 +917,7 @@ msgstr "Ver sikrare og smartare på nettet"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr "Testar Firefox-produkt"
+msgstr "Testing av Firefox-produkt"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
