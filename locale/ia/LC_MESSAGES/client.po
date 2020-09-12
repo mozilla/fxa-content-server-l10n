@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 06:21+0000\n"
+"PO-Revision-Date: 2020-09-12 06:23+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -923,11 +923,11 @@ msgstr "Testar le productos Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Ager pro mantener Internet in bon sanitate"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Securitate e confidentialitate online con Firefox e Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
