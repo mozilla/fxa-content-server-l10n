@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 00:29+0000\n"
-"Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
+"PO-Revision-Date: 2020-09-12 00:37+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a href=\"%(subscription
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri to'onel qamolaj</a> e k'o wawe' richin yatkito'."
+msgstr "¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri to'onel qamolaj e k'o wawe' richin yatkito'."
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
