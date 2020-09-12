@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-11 23:29+0000\n"
+"PO-Revision-Date: 2020-09-12 00:05+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2138,7 +2138,7 @@ msgstr "Tiqasäx Firefox rik'in ri ruchokoy elesäy wachib'äl"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Tayaka' Firefox chuqa' ke'axima' ka'i' taq okisab'äl, chuqa' yatkito' rik'in ri rusachik tzij."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -2186,11 +2186,11 @@ msgstr "Ke'achajij ri taq atzij rik'in jun ruk'u'x rutzij kolonem"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Ri ximon awetamab'al ütz nuk'waj ewan tzij ri ayakon."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Ruma chi xa k'ayew re etamab'äl chi re ri ajikomal, Firefox nuyüj el richin yatruchajij toq nib'an ruk'ojlem ri ewan atzij richin chi majun chik winäq nrokisaj."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -2202,15 +2202,15 @@ msgstr "Tijikib'äx ewan tzij"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Tajikib'a' ri ewan atzij richin %(escapedEmail)s richin nitz'uk ri ruk'u'x ewan koloj."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Tatz'ib'aj ri ruk'u'x ewan koloj richin najikib'a' chi xayäk jun wachib'äl."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Tiyak ruk'u'x ewan koloj"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2322,7 +2322,7 @@ msgstr "Okisan okisab'äl"
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Ütz xokisäx"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2346,7 +2346,7 @@ msgstr "Xk'is ri runuk'ulem."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Titz'ajwachib'ëx richin nawokisaj jun chik okisab'äl"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -2358,7 +2358,7 @@ msgstr "Tik'ut b'itz'ib'"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Ütz xk'ulumäx okisab'äl"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
