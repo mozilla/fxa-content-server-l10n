@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 00:05+0000\n"
+"PO-Revision-Date: 2020-09-12 00:14+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -21,25 +21,27 @@ msgstr "Wawe' k'o ri anatab'al richin kiximik taq okisab'äl."
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2499
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Najowäx ka'i' richin nixim. Naxim jun chik okisab'äl rik'in Firefox pan ichinan rub'eyal junam yeruk'waj ri taq ayaketal, ewan taq atzij chuqa' ch'aqa' chi rutzij Firefox pa xab'achike k'ojlib'äl "
+"xtawokisaj Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2496
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "¡Ruk'isib'äl mul runataxik richin yexim okisab'äl!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2502
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Naxim jun chik okisab'äl rik'in Firefox pan ichinan rub'eyal junam yeruk'waj ri taq ayaketal, ewan taq atzij chuqa' ch'aqa' chi rutzij Firefox pa xab'achike k'ojlib'äl xtawokisaj Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "We k'a man aqasan ta %(productName)s tachapa' rokisaxik ronojel ri taq rusamaj ruk'amon pe ri rutz'ib'axik ab'i':"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a href=\"%(subscriptionSupportUrl)s\">To'onel qamolaj</a> e k'o wawe' richin yatkito'."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
