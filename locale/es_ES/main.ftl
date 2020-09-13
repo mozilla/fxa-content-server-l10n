@@ -251,6 +251,12 @@ sub-plan-price-month =
         [one] { $amount } al mes
        *[other] { $amount } cada { $intervalCount } meses
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } al año
+       *[other] { $amount } cada { $intervalCount } años
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
@@ -265,6 +271,20 @@ pay-update-change-btn = Cambiar
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = ¿Quieres seguir usando { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Tu acceso a { $name } continuará y el ciclo de facturación
+    y pago se mantendrá igual. El próximo cargo será de
+    { $amount } a la tarjeta terminada en { $last } el { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Tu acceso a { $name } continuará y el ciclo de facturación
+    y pago se mantendrá igual. El próximo cargo será de
+    { $amount } el { $endDate }.
 reactivate-confirm-button = Volver a suscribir
 
 ##  $date (Date) - Last day of product access
@@ -337,5 +357,29 @@ payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } al día
+       *[other] { $amount } cada { $intervalCount } días
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } a la semana
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } al mes
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } al año
+       *[other] { $amount } cada { $intervalCount } años
+    }
 payment-confirmation-cc-preview = terminada en { $last4 }
 payment-confirmation-download-button = Continuar para descargar
