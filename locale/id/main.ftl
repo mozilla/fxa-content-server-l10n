@@ -270,11 +270,22 @@ reactivate-confirm-button = Berlangganan kembali
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Anda membatalkan langganan Anda pada { $date }.
+reactivate-panel-copy = Anda akan kehilangan akses ke { $name } pada <strong>{ $date }</strong>.
+reactivate-success-copy = Terima kasih! Anda sudah siap.
+reactivate-success-button = Tutup
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Ada masalah saat memuat langganan
+sub-item-missing-msg = Silakan coba kembali nanti.
+sub-item-no-such-plan = Tidak ada paket untuk langganan ini.
+sub-item-cancel-sub = Batal Berlangganan
+sub-item-stay-sub = Tetap Berlangganan
+sub-item-cancel-msg =
+    Anda tidak akan dapat menggunakan { $name } setelah
+    { $period }, hari terakhir dari siklus berlangganan Anda.
 
 ## subscription route index
 
