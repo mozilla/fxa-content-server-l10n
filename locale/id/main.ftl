@@ -34,7 +34,7 @@ card-error = Transaksi Anda tidak dapat diproses. Harap verifikasi informasi kar
 ## settings
 
 settings-home = Beranda Akun
-settings-subscriptions = Langganan & Pembayaran
+settings-subscriptions-title = Langganan
 
 ## legal footer
 
@@ -91,6 +91,8 @@ payment-legal-link = Lihat <a>kebijakan privasi Stripe</a>.
 payment-name =
     .placeholder = Nama Lengkap
     .label = Nama yang tertera pada kartu Anda
+payment-cc =
+    .label = Kartu anda
 payment-ccn =
     .label = Nomor kartu
 payment-exp =
@@ -103,22 +105,22 @@ payment-zip =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-day =
+payment-confirm-with-legal-links-day =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } hari</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-week =
+payment-confirm-with-legal-links-week =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } pekan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-month =
+payment-confirm-with-legal-links-month =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } bulan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-year =
+payment-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] Saya mengotorisasi { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } tahun</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
@@ -142,6 +144,7 @@ sub-redirect-skip-survey = Tidak terima kasih, bawa saya ke produk saya.
 ## fields
 
 default-input-error = Bidang ini wajib diisi.
+input-error-is-required = { $label } diperlukan
 
 ## subscription upgrade
 
@@ -158,22 +161,22 @@ sub-update-copy =
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-day =
+sub-update-confirm-with-legal-links-day =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } hari</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-week =
+sub-update-confirm-with-legal-links-week =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } pekan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-month =
+sub-update-confirm-with-legal-links-month =
     { $intervalCount ->
        *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } bulan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-year =
+sub-update-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] Saya mengotorisasi { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } tahun</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
     }
@@ -211,31 +214,33 @@ plan-price-year =
        *[other] { $amount } setiap { $intervalCount } tahun
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
-pay-update-billing-description-day =
+sub-plan-price-day =
     { $intervalCount ->
-       *[other] Anda ditagih sebesar { $amount } setiap { $intervalCount } hari untuk { $name }. Pembayaran selanjutnya terjadi pada { $date }.
+       *[other] { $amount } setiap { $intervalCount } hari
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
-pay-update-billing-description-week =
+sub-plan-price-week =
     { $intervalCount ->
-       *[other] Anda ditagih sebesar { $amount } setiap { $intervalCount } pekan untuk { $name }. Pembayaran selanjutnya terjadi pada { $date }.
+       *[other] { $amount } setiap { $intervalCount } pekan
     }
 #  $intervalCount (Number) - The interval between payments, in months.
-pay-update-billing-description-month =
+sub-plan-price-month =
     { $intervalCount ->
-       *[other] Anda ditagih sebesar { $amount } setiap { $intervalCount } bulan untuk { $name }. Pembayaran selanjutnya terjadi pada { $date }.
+       *[other] { $amount } setiap { $intervalCount } bulan
     }
 #  $intervalCount (Number) - The interval between payments, in years.
-pay-update-billing-description-year =
+sub-plan-price-year =
     { $intervalCount ->
-       *[other] Anda ditagih sebesar { $amount } setiap { $intervalCount } tahun untuk { $name }. Pembayaran selanjutnya terjadi pada { $date }.
+       *[other] { $amount } setiap { $intervalCount } tahun
     }
+
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-next-bill = Tagihan berikutnya pada { $date }
 
 ##
 
@@ -246,9 +251,25 @@ pay-update-change-btn = Ubah
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Ingin tetap menggunakan { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Akses Anda ke { $name } akan berlanjut, dan siklus tagihan
+    dan pembayaran Anda akan tetap sama. Pembayaran selanjutnya sebesar
+    { $amount } ditagihkan pada kartu berakhiran { $last } pada { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Akses Anda ke { $name } akan berlanjut, dan siklus tagihan
+    dan pembayaran Anda akan tetap sama. Pembayaran selanjutnya sebesar
+    { $amount } akan dilakukan pada { $endDate }.
+reactivate-confirm-button = Berlangganan kembali
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Anda membatalkan langganan Anda pada { $date }.
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
