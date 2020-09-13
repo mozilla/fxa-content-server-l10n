@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 07:14+0000\n"
-"Last-Translator: Christer Hollsten <christer.hollsten@gmail.com>\n"
+"PO-Revision-Date: 2020-09-13 12:13+0000\n"
+"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -918,15 +918,15 @@ msgstr "Bli säkrare och smartare online"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Testar Firefox-produkter"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Vidtar åtgärder för att hålla internet friskt"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Säkerhet och integritet online med Firefox och Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
