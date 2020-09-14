@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-14 23:43+0000\n"
+"PO-Revision-Date: 2020-09-14 23:45+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -926,7 +926,7 @@ msgstr "Kesamäj richin nib'an raxinäq chi re ri k'amaya'l"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Jikomal chuqa' ichinanem pa k'amab'ey rik'in Firefox chuqa' Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
