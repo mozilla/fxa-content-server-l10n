@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-12 00:05+0000\n"
+"PO-Revision-Date: 2020-09-14 23:43+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -918,11 +918,11 @@ msgstr "Kajike' chuqa' kana'owinaqin pa k'amab'ey"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Ketojtob'ëx taq utikojil Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Kesamäj richin nib'an raxinäq chi re ri k'amaya'l"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
