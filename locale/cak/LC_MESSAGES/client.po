@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-14 23:45+0000\n"
+"PO-Revision-Date: 2020-09-15 00:04+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -2071,10 +2071,12 @@ msgstr "richin k'a yasamäj pa %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Xqïl itzel b'anoj pa rub'i' ataqoya'l richin Firefox. Richin nachajij ri rub'i' ataqoya'l, tatz'uku' jun k'ak'a' ewan tzij. Xtawokisaj ri ewan tzij ri' richin natikirisaj chik molojri'ïl pa ronojel "
+"samaj k'o pa rub'i' ataqoya'l richin Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Man xkesach ta ri natab'äl, taq yaketal, tikirib'äl molojri'ïl chuqa' ch'aqa' chik taq atzij."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
