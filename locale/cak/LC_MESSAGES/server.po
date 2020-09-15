@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-15 00:09+0000\n"
+"PO-Revision-Date: 2020-09-15 00:15+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -289,19 +289,19 @@ msgstr "Ütz xub'än xachüp ri rujikib'axik pa ka'i' xak ri Rub'i' Ataqoya'l ri
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Xjikib'äx Rub'i' Rutaqoya'l Firefox. Nak'ïs yan."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "¡Wakami ke'axima' ri taq awokisab'al!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sync junam yeruk'waj ri taq ayaketal, ewan taq atzij chuqa' ch'aqa' chik rutzij Firefox pa ronojel awokisab'al."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1304
 msgid "Setup next device"
-msgstr ""
+msgstr "Tib'an runuk'ulem re okisab'äl re'"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -334,7 +334,7 @@ msgstr "¡Matyox ruma acha'on ri Firefox! Yatikïr chuqa' nayäk Firefox richin 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Yojb'ison ruma yab'e"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
