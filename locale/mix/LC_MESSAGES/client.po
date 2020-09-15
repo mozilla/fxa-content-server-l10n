@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-09-15 18:12+0000\n"
+"PO-Revision-Date: 2020-09-15 23:02+0000\n"
 "Last-Translator: Bald3mar <baldemarls@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mix\n"
@@ -240,7 +240,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:96
 msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s tsa ña %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:97
 msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
@@ -248,11 +248,11 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:131
 msgid "Web Session, %(userAgent)s"
-msgstr ""
+msgstr "Sesión Web, %(userAgent)s"
 
 #: .es5/views/settings/clients.js:135
 msgid "Web Session"
-msgstr ""
+msgstr "Sesión web"
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
@@ -269,7 +269,7 @@ msgstr "Sama…"
 
 #: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
 msgid "Add…"
-msgstr ""
+msgstr "Chikaa…"
 
 #: .es5/views/settings/display_name.js:168
 msgid "Choose the name you would like to appear in Firefox and when managing your account."
@@ -293,7 +293,7 @@ msgstr ""
 
 #: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr ""
+msgstr "Inca korreo "
 
 #: .es5/views/settings/recovery_codes.js:66
 msgid "New recovery codes generated"
@@ -357,23 +357,23 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
-msgstr ""
+msgstr "Kuna Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:30
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Kuna Hotmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:35
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Kuna Yahoo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:40
 msgid "Open Outlook"
-msgstr ""
+msgstr "Kuna Outlook"
 
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
-msgstr ""
+msgstr "Kuna Restmail"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
@@ -469,7 +469,7 @@ msgstr ""
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
