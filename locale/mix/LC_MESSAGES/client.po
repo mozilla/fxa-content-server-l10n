@@ -232,7 +232,7 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:92
 msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
+msgstr "%(translatedTimeAgo)s nu %(translatedCountry)s"
 
 #: .es5/views/settings/clients.js:93
 msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
