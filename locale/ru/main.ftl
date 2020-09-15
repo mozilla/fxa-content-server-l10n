@@ -39,7 +39,7 @@ settings-subscriptions-title = Подписки
 ## legal footer
 
 terms = Условия службы
-privacy = Политика приватности
+privacy = Уведомление о конфиденциальности
 
 ## plan details
 
