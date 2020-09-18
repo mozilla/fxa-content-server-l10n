@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
-"PO-Revision-Date: 2020-08-30 13:59+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
+"PO-Revision-Date: 2020-09-14 09:15+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -105,19 +105,19 @@ msgstr "Unbekende account. <a href=\"/signup\">Registrearje</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Account bestiet net mear. Opnij oanmeitsje?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Selektearje ien"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Oars"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b> foar\n"
@@ -920,15 +920,15 @@ msgstr "Wês feiliger en tûker online"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Firefox-produkten teste"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Aksje ûndernimme om it ynternet sûn te hâlden"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Online feilichheid en privacy mei Firefox en Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1701,13 +1701,13 @@ msgstr "Kontakt"
 msgid "What are you contacting us about?"
 msgstr "Wêroer nimme jo kontakt mei ús op?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox-account"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Wêrmei hawwe jo help nedich?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2391,6 +2391,9 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox-account"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Wolle jo in betelle abonnemint opsizze? Gean nei <a href=\"/subscriptions\">Abonneminten &amp; betellingen</a>."

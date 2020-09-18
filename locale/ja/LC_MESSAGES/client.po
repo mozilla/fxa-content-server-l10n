@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-05-30 12:20+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -106,19 +106,19 @@ msgstr "不明なアカウントです。<a href=\"/signup\">ユーザー登録<
 msgid "Account no longer exists. Recreate it?"
 msgstr "アカウントはもう存在しません。再度作成しますか？"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "いずれか一つを選んでください"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "その他"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> について Mozilla サポートにお問い合わせいただき、ありがとうございます。可能な限り速やかにメールで連絡いたします。"
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1704,13 +1704,13 @@ msgstr "お問い合わせ"
 msgid "What are you contacting us about?"
 msgstr "何についてのお問い合わせですか？"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr ""
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "どのような助けが必要ですか？"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"

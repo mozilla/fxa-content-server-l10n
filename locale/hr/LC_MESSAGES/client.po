@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-08-23 15:04+0000\n"
 "Last-Translator: Ivan <ivan.mas342@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +104,19 @@ msgstr "Nepoznat račun. <a href=\"/signup\">Registriraj se</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Račun više ne postoji. Ponovno ga stvoriti?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Odaberi jedno"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Ostalo"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Hvala vam što se kontaktirali Mozilla podršku oko <b>%(escapedLowercaseTopic)s</b>. Kontaktirati ćemo vas putem e-pošte što je prije moguće."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1698,13 +1698,13 @@ msgstr "Kontaktiraj nas"
 msgid "What are you contacting us about?"
 msgstr "Za što nas kontaktiraš?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox račun"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Za što ti treba pomoć?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2380,6 +2380,9 @@ msgstr "Upari pomoću aplikacije"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox račun"
 
 #~ msgid "Subscriptions & Payments"
 #~ msgstr "Pretplate i plaćanja"

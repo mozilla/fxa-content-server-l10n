@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-08-29 14:13+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "Cont necunoscut. <a href=\"/signup\">Înregistrează-te</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Contul nu mai există. Îl recreezi?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Te rugăm să selectezi o opțiune"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Altele"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Îți mulțumim că ai apelat la Mozilla Support pentru <b>%(escapedLowercaseTopic)s</b>. Te vom contacta prin e-mail cât mai curând posibil."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Îți mulțumim că ai apelat la Mozilla Support legat de <b>%(escapedLowercaseTopic)s</b> pentru <b>%(escapedSelectedProduct)s</b>. Te vom contacta prin e-mail cât mai curând posibil."
 
@@ -1711,13 +1711,13 @@ msgstr "Contactează-ne"
 msgid "What are you contacting us about?"
 msgstr "Pentru ce ne contactezi?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Cont Firefox"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Cu ce te putem ajuta?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2397,6 +2397,9 @@ msgstr "Asociere folosind o aplicație"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație Firefox."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Cont Firefox"
 
 #~ msgid "Could not update Ecosystem Anon ID because precondition failed."
 #~ msgstr "Ecosystem Anon ID nu a putut fi actualizat deoarece condiția prealabilă a eșuat."

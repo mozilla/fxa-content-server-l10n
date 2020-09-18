@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-06-06 16:59+0000\n"
 "Last-Translator: Hasdai Pacheco <me@hasdaipacheco.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +104,19 @@ msgstr "Cuenta desconocida. <a href=\"/signup\">Registro</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "La cuenta ya no existe. ¿Quieres crearla de nuevo?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Por favor, selecciona uno"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Otro"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Gracias por comunicarte con Ayuda de Mozilla sobre <b>%(escapedLowercaseTopic)s</b>. Nos pondremos en contacto contigo por correo electrónico lo antes posible."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1699,13 +1699,13 @@ msgstr "Contáctanos"
 msgid "What are you contacting us about?"
 msgstr "¿Por qué te pones en contacto con nosotros?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Cuenta de Firefox"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "¿En qué podemos ayudarte?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2387,6 +2387,9 @@ msgstr "Conectar usando una app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Usaste la cámara del sistema? Tienes que conectarla desde una aplicación de Firefox."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Cuenta de Firefox"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "¿Buscando cómo cancelar una suscripción de pago? Ve a <a href=\"/subscriptions\">Suscripciones y pagos</a>."
