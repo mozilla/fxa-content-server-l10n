@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-06-19 17:55+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +104,19 @@ msgstr "Невядомы ўліковы запіс. <a href=\"/signup\">Зарэ
 msgid "Account no longer exists. Recreate it?"
 msgstr "Уліковы запіс больш не існуе. Стварыць ізноў?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Калі ласка, абярыце што-небудзь"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Іншае"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Дзякуем, што звярнуліся ў службу падтрымкі Mozilla па пытанні <b>%(escapedLowercaseTopic)s</b>. Мы звяжамся з вамі па электроннай пошце як мага хутчэй."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1698,13 +1698,13 @@ msgstr "Сувязь з намі"
 msgid "What are you contacting us about?"
 msgstr "Якое ў вас пытанне да нас?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Уліковы запіс Firefox"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "У чым вам патрэбна дапамога?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2384,6 +2384,9 @@ msgstr "Спарванне з дапамогай праграмы"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы Firefox."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Уліковы запіс Firefox"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Хочаце адмяніць платную падпіску? Перайдзіце ў <a href=\"/subscriptions\">Падпіскі і плацяжы</a>."

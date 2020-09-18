@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-03-06 23:55+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "این حساب دیگر وجود ندارد. دوباره ساخته شود؟"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "لطفا یکی را انتخاب کنید"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "دیگر"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "با تشکر از شما برای اتصال به پشتیبانی موزیلا در مورد <b>%(escapedLowercaseTopic)s</b>. در اسرع وقت با شما از طریق ایمیل تماس خواهیم گرفت."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1699,13 +1699,13 @@ msgstr "ارتباط با ما"
 msgid "What are you contacting us about?"
 msgstr "در چه خصوصی به ما می‌خواهید ارتباط برقرار کنید؟"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr ""
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "در چه خصوصی به کمک احتیاج دارید؟"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"

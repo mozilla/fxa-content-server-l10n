@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-08-30 18:15+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "Tuntematon tili. <a href=\"/signup\">Luo uusi tili</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Tiliä ei ole enää olemassa. Luodaanko se uudelleen?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Valitse yksi"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Muu"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Kiitos, että otit yhteyttä Mozilla-tukeen aiheesta <b>%(escapedLowercaseTopic)s</b>. Otamme sinuun yhteyttä sähköpostitse pikimmiten."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Kiitos että olit yhteydessä Mozilla-tukeen aiheesta <b>%(escapedLowercaseTopic)s</b> koskien tuotetta <b>%(escapedSelectedProduct)s</b>. Olemme yhteydessä sähköpostitse mahdollisimman pian."
 
@@ -1698,13 +1698,13 @@ msgstr "Ota yhteys"
 msgid "What are you contacting us about?"
 msgstr "Minkä asian vuoksi haluat olla yhteydessä meihin?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox-tili"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Minkä kanssa tarvitset apua?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2382,6 +2382,9 @@ msgstr "Parita käyttäen sovellusta"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sovelluksesta."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox-tili"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Haluatko perua maksetun tilauksen? Siirry <a href=\"/subscriptions\">Tilaukset ja maksut -sivulle</a>."

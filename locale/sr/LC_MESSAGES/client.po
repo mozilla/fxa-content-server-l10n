@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-05-29 22:34+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "Непознат налог. <a href=\"/signup\">Пријави се</a>
 msgid "Account no longer exists. Recreate it?"
 msgstr "Налог више не постоји. Поново га направити?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Изаберите једно"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Остало"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Хвала вам што сте се обратили Mozilla подршци у вези <b>%(escapedLowercaseTopic)s</b>. Контактираћемо вас е-поштом што је пре могуће."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Хвала вам што сте се обратили Mozilla подршци у вези <b>%(escapedLowercaseTopic)s</b> за <b>%(escapedSelectedProduct)s</b>. Контактираћемо вас е-поштом што је пре могуће."
 
@@ -1698,13 +1698,13 @@ msgstr "Контактирајте нас"
 msgid "What are you contacting us about?"
 msgstr "Због чега нас контактирате?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox налог"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "За шта вам треба помоћ?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2384,6 +2384,9 @@ msgstr "Упаривање помоћу апликације"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Да ли сте користили системску камеру? Морате да се упарите у оквиру Firefox апликације."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox налог"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Гледате да откажете плаћену претплату? Идите на страницу <a href=\"/subscriptions\">претплате и исплате</a>."

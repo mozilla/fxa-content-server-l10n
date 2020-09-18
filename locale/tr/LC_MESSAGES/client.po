@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-09-04 12:58+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +105,19 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Lütfen birini seçin"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Diğer"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğimiz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedProduct)s</b> için <b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğimiz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
 
@@ -1697,13 +1697,13 @@ msgstr "Bize ulaşın"
 msgid "What are you contacting us about?"
 msgstr "Bizimle hangi konuda iletişime geçiyorsunuz?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox Hesabı"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Ne konuda yardıma ihtiyacınız var?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2385,6 +2385,9 @@ msgstr "Uygulama kullanarak eşleştir"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden eşleştirme yapmalısınız."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox Hesabı"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler ve ödemeler</a> sayfasına gidin."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 16:03+0000\n"
+"POT-Creation-Date: 2020-09-18 16:05+0000\n"
 "PO-Revision-Date: 2020-08-29 21:19+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -105,19 +105,19 @@ msgstr "Ukendt konto. <a href=\"/signup\">Tilmeld dig</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen findes ikke længere. Vil du oprette en ny konto?"
 
-#: .es5/views/support.js:86
+#: .es5/views/support.js:89
 msgid "Please Select One"
 msgstr "Vælg én"
 
-#: .es5/views/support.js:234 .es5/templates/support.mustache:6
+#: .es5/views/support.js:268 .es5/templates/support.mustache:5
 msgid "Other"
 msgstr "Andet"
 
-#: .es5/views/support.js:235
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tak fordi du kontaktede Mozilla Support vedrørende <b>%(escapedLowercaseTopic)s</b>. Vi vil kontakte dig via mail så hurtigt som muligt."
 
-#: .es5/views/support.js:237
+#: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Tak fordi du kontaktede Mozilla Support vedrørende <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. Vi vil kontakte dig via mail så hurtigt som muligt."
 
@@ -1697,13 +1697,13 @@ msgstr "Kontakt os"
 msgid "What are you contacting us about?"
 msgstr "Hvad drejer din henvendelse sig om?"
 
-#: .es5/templates/support.mustache:4
-msgid "Firefox Account"
-msgstr "Firefox-konto"
-
-#: .es5/templates/support.mustache:7
+#: .es5/templates/support.mustache:6
 msgid "What do you need help with?"
 msgstr "Hvad har du brug for hjælp til?"
+
+#: .es5/templates/support.mustache:8
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2383,6 +2383,9 @@ msgstr "Parring ved hjælp af en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brugte du systemets kamera? Du skal parre ved hjælp af en Firefox-app."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Firefox-konto"
 
 #~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
 #~ msgstr "Vil du annullere et betalt abonnement? Gå til <a href=\"/subscriptions\">Abonnementer &amp; betalinger</a>."
