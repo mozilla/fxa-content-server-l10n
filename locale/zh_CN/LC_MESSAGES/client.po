@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-18 16:05+0000\n"
-"PO-Revision-Date: 2020-09-19 00:22+0000\n"
+"PO-Revision-Date: 2020-09-19 00:31+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1695,7 +1695,7 @@ msgstr "您需要什么帮助？"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr "您需要特定应用或服务的帮助吗？ （选填）"
+msgstr "您需要特定应用或服务的帮助吗？（选填）"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
