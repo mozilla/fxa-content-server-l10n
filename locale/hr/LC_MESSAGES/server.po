@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-18 16:05+0000\n"
-"PO-Revision-Date: 2020-09-21 14:33+0000\n"
+"PO-Revision-Date: 2020-09-21 14:42+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -767,15 +767,15 @@ msgstr "Konačni podsjetnik: Aktiviraj svoj račun"
 
 #: lib/senders/email.js:721
 msgid "Account authorization code"
-msgstr ""
+msgstr "Kod za autorizaciju računa"
 
 #: lib/senders/email.js:790
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Potvrdi novu prijavu na %(clientName)s"
 
 #: lib/senders/email.js:835
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Kod za prijavu za %(serviceName)s"
 
 #: lib/senders/email.js:900
 msgid "Confirm primary email"
@@ -799,7 +799,7 @@ msgstr "Lozinka aktualizirana"
 
 #: lib/senders/email.js:1163 lib/senders/email.js:1221
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Otkrivena je sumnjiva aktivnost"
 
 #: lib/senders/email.js:1263 lib/senders/email.js:1350 lib/senders/email.js:1386 lib/senders/email.js:1422 lib/senders/email.js:1456 lib/senders/email.js:1499 lib/senders/email.js:1542
 #: lib/senders/email.js:1585 lib/senders/email.js:1675 lib/senders/email.js:1721
@@ -808,7 +808,7 @@ msgstr "Upravljanje računom"
 
 #: lib/senders/email.js:1299
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Račun je potvrđen. Za dovršavanje postavljanja, sinkroniziraj jedan drugi uređaj"
 
 #: lib/senders/email.js:1385
 msgid "Primary email updated"
@@ -828,11 +828,11 @@ msgstr ""
 
 #: lib/senders/email.js:1637
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 kod za obnovu preostao"
 
 #: lib/senders/email.js:1639
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s koda za obnovu preostalo"
 
 #: lib/senders/email.js:1642
 msgid "Generate codes"
@@ -840,27 +840,27 @@ msgstr "Generiraj kodove"
 
 #: lib/senders/email.js:1766
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Lozinka je aktualizirana pomoću ključa za obnovu"
 
 #: lib/senders/email.js:1767
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Stvori novi ključ za obnovu"
 
 #: lib/senders/email.js:1833
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Nadogradio/la si na %(productNameNew)s"
 
 #: lib/senders/email.js:1912
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Prebacio/la si se na %(productNameNew)s"
 
 #: lib/senders/email.js:1977
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Rok kreditne kartice za %(productName)s uskoro istječe"
 
 #: lib/senders/email.js:1991
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Rok kreditne kartice za tvoju pretplatu uskoro istječe"
 
 #: lib/senders/email.js:2043
 msgid "%(productName)s payment failed"
