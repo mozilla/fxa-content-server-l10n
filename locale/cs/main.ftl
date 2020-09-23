@@ -77,7 +77,7 @@ basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
 
 ## settings
 
-settings-subscriptions = Předplatné a platby
+settings-subscriptions-title = Předplatné
 
 ## legal footer
 
@@ -103,6 +103,8 @@ payment-legal-copy = { -brand-name-mozilla } používá pro bezpečné zpracová
 payment-name =
     .placeholder = Celé jméno
     .label = Jak je uvedeno na vaší kartě
+payment-cc =
+    .label = Vaše karta
 payment-ccn =
     .label = Číslo karty
 payment-exp =
@@ -142,15 +144,17 @@ sub-update-card-exp = Konec platnosti { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-update-new-plan-label = Nový plán
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
