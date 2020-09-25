@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 16:05+0000\n"
-"PO-Revision-Date: 2020-09-16 22:40+0000\n"
+"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"PO-Revision-Date: 2020-09-25 14:28+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -1707,7 +1707,7 @@ msgstr "Em que precisa de ajuda?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Precisa de ajuda com uma aplicação ou serviço específico? (opcional)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
