@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-18 16:05+0000\n"
-"PO-Revision-Date: 2020-09-13 12:13+0000\n"
+"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"PO-Revision-Date: 2020-09-19 14:38+0000\n"
 "Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1705,7 +1705,7 @@ msgstr "Vad behöver du hjälp med?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Behöver du hjälp med en specifik app eller tjänst? (valfritt)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
