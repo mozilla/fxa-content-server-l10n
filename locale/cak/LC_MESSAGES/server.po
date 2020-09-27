@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-09-15 00:22+0000\n"
+"PO-Revision-Date: 2020-09-27 22:50+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -74,8 +74,8 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
-"Xqïl itzel b'anoj pa rub'i' ataqoya'l richin Firefox. Richin man ke'ok pa rub'i' ataqoya'l richin Firefox toq man aya'on ta q'ij, yeqachüp ronojel ri rokisab'al ri rub'i' ataqoya'l chuqa' "
-"niqak'utuj chi tajala' ri ewan atzij richin yatqachajij."
+"Xqïl itzel b'anoj pa rub'i' ataqoya'l richin Firefox. Richin man ke'ok pa rub'i' ataqoya'l richin Firefox toq man aya'on ta q'ij, yeqachüp ronojel ri rokisab'al ri rub'i' ataqoya'l chuqa' niqak'utuj"
+" chi tajala' ri ewan atzij richin yatqachajij."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -170,8 +170,8 @@ msgstr "Nab'ej, tajala' ewan rutzij Ataqoya'l richin Firefox."
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 msgstr ""
-"Ruka'n, we ri Firefox yeruyäk ewan kitzij taq ajk'amaya'l ruxaq, ütz ta ye'ajäl chuqa'. Rik'in jub'a' ri q'eleb'enela' ketaman ri taq ewan tzij, ruma ri' toq k'o chi nanik'oj we k'o q'ab'an tzij "
-"chi kij ri taq samaj pa ri taq rub'i' taqoya'l ri'."
+"Ruka'n, we ri Firefox yeruyäk ewan kitzij taq ajk'amaya'l ruxaq, ütz ta ye'ajäl chuqa'. Rik'in jub'a' ri q'eleb'enela' ketaman ri taq ewan tzij, ruma ri' toq k'o chi nanik'oj we k'o q'ab'an tzij chi"
+" kij ri taq samaj pa ri taq rub'i' taqoya'l ri'."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -493,7 +493,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "¿La nak'utuj chi kij ri rutz'ib'axik kib'i'? Ri to'onel qamolaj e k'o wawe' richin yatkito'."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -597,11 +597,11 @@ msgstr "Toq xtinik'öx re ochochib'äl re' xtuchäp kik'ulik taq rutzijol jikoma
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Tawokisaj re jikib'an b'itz'ib':"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Xtik'is pa 5 ch'utaq ramaj. Toq xtinik'öx re ochochib'äl re' xtuchäp kik'ulik taq rutzijol jikomal chuqa' taq jikib'anïk."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -697,7 +697,7 @@ msgstr "Ruq'atik tz'ib'anïk b'i'aj"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Keq'at kitz'ib'axik b'i'aj"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -705,11 +705,11 @@ msgstr "Tik'ex ri wetamab'al richin wujil"
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "Taqanel rutzijol"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "Ichinanem"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -725,7 +725,7 @@ msgstr "Ruq'atik tz'ib'anïk b'i'aj:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Keq'at kitz'ib'axik b'i'aj"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -1071,8 +1071,8 @@ msgstr "Tiqasäx ri ruk'isib'äl ruwäch"
 
 #~ msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
 #~ msgstr ""
-#~ "Ri Firefox yeruchajij ri taq atzij rik'in yeruyüj ri ximon taq atzij we natzolij ri ewan atzij. Jun ruk'u'x rutzij kolonem nutzolij.  Firefox protege sus datos borrando sus datos sincronizados "
-#~ "si restablece su contraseña. Una clave de recuperación lo restaura."
+#~ "Ri Firefox yeruchajij ri taq atzij rik'in yeruyüj ri ximon taq atzij we natzolij ri ewan atzij. Jun ruk'u'x rutzij kolonem nutzolij.  Firefox protege sus datos borrando sus datos sincronizados si "
+#~ "restablece su contraseña. Una clave de recuperación lo restaura."
 
 #~ msgid "Set up a secondary email:"
 #~ msgstr "Tab'ana' runuk'ulem jun ruka'n taqoya'l: "
@@ -1097,8 +1097,7 @@ msgstr "Tiqasäx ri ruk'isib'äl ruwäch"
 #~ ">Android</a> chuqa' <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-#~ msgstr ""
-#~ "Ütz xawokisaj ri nab'ey awokisaxel pa ri Ataqoya'l Firefox. Wakami yatikïr natikirisaj molojri'ïl pa Sync chi kipam ri ch'aqa' chik taq awokisaxel, achi'el Firefox richin Android chuqa' iOS."
+#~ msgstr "Ütz xawokisaj ri nab'ey awokisaxel pa ri Ataqoya'l Firefox. Wakami yatikïr natikirisaj molojri'ïl pa Sync chi kipam ri ch'aqa' chik taq awokisaxel, achi'el Firefox richin Android chuqa' iOS."
 
 #~ msgid "Sign in to Sync:"
 #~ msgstr "Titikirisäx molojri'ïl pa Sync:"
@@ -1277,11 +1276,11 @@ msgstr "Tiqasäx ri ruk'isib'äl ruwäch"
 #~ msgstr "Titzolïx ewan tzij"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "K'o yan chik q'ij tanük' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa "
-#~ "xab'achike okisanel okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïj ri ataqoya'l."
+#~ "K'o yan chik q'ij tanük' jun Ataqoya'l richin Firefox, xa xe chi man xajikib'a' ta. Jun jikib'an taqoya'l nuya' q'ij chawe yatok pa taq ruwi', yaketal, taq ewan tzij chuqa' natab'äl pa xab'achike "
+#~ "okisanel okisan chupam. Xa xe k'o chi najikib'a' re rochochib'al taqoya'l re' richin natz'ïj ri ataqoya'l."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
