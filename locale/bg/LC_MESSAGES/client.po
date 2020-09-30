@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-09-30 08:24+0000\n"
+"PO-Revision-Date: 2020-09-30 08:29+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -1123,7 +1123,7 @@ msgstr "Трябва да отговаряте на определени въз�
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr "Ноучете повече"
+msgstr "Научете повече"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
@@ -2342,7 +2342,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr "Сканирайте за добавяне на друго устройство"
+msgstr "Сканирайте за свързване на устройство"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
