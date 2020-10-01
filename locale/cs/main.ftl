@@ -77,6 +77,7 @@ basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
 
 ## settings
 
+settings-home = Domovská stránka účtu
 settings-subscriptions-title = Předplatné
 
 ## legal footer
