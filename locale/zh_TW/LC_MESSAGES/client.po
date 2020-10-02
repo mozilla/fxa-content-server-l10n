@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-02 16:05+0000\n"
 "PO-Revision-Date: 2020-09-18 16:25+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2235,8 +2235,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "IP 位置: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "註冊即可獲得更多功能:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2263,12 +2263,12 @@ msgid "Get a lookout for data breaches."
 msgstr "檢查是否發生資料外洩事件。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "安全而私密地分享大檔案"
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2373,6 +2373,15 @@ msgstr "使用應用程式配對"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對。"
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "註冊即可獲得更多功能:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "安全而私密地分享大檔案"
 
 #~ msgid "Firefox Account"
 #~ msgstr "Firefox 帳號"

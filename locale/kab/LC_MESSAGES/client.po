@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-02 16:05+0000\n"
 "PO-Revision-Date: 2020-08-17 16:46+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2243,8 +2243,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "Tansa IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "Jerred akken ad tkecmeḍ ɣer wugar n tmahilin:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2271,12 +2271,12 @@ msgid "Get a lookout for data breaches."
 msgstr "Awi ilɣa ticki tella trewla n yisefka."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "Azen ifuyla meqqren s wudem aɣelsan, abaḍni."
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2381,6 +2381,15 @@ msgstr "Cudd s usnas"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Firefox."
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Jerred akken ad tkecmeḍ ɣer wugar n tmahilin:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Azen ifuyla meqqren s wudem aɣelsan, abaḍni."
 
 #~ msgid "Firefox Account"
 #~ msgstr "Amiḍan Firefox"

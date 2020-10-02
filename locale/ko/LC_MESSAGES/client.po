@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-02 16:05+0000\n"
 "PO-Revision-Date: 2020-09-19 13:47+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2242,8 +2242,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "IP 주소: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "더 많은 기능을 얻으려면 가입하세요:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2270,12 +2270,12 @@ msgid "Get a lookout for data breaches."
 msgstr "데이터 유출에 대비하세요."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "FIrefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "큰 파일을 안전하고 비공개로 보내세요."
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2380,6 +2380,15 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "더 많은 기능을 얻으려면 가입하세요:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "FIrefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "큰 파일을 안전하고 비공개로 보내세요."
 
 #~ msgid "Firefox Account"
 #~ msgstr "Firefox 계정"
