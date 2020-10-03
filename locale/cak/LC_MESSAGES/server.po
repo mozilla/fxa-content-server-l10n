@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-09-27 22:50+0000\n"
+"PO-Revision-Date: 2020-10-03 00:33+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -894,11 +894,11 @@ msgstr ""
 
 #: lib/senders/email.js:2464
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "¡Ütz apetik pa %(productName)s"
 
 #: lib/senders/email.js:2465
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Tiqasäx %(productName)s"
 
 #: lib/senders/email.js:2491
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
@@ -926,6 +926,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Man xilitäj ta ri ruxaq xak'utuj. Xapon yan rutzijol qik'in chuqa'\n"
+"          xtiqanük' xab'achike ximonel xk'apitäj."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -940,6 +942,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"¡K'ayew!, xk'ulwachitäj jun k'ayewal. Xya' yan rutzijol chi qe ruma ri'\n"
+"          toq niqab'än rutzil."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -954,6 +958,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"K'ïy yojkanon qichin ruma ri' toq yojsamäj chi\n"
+"          ri q'inoj nisamäj achi'el rub'anon pe."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

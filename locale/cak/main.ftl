@@ -19,6 +19,7 @@ document =
 
 ## settings
 
+settings-subscriptions-title = Kitz'ib'axik b'i'aj
 
 ## legal footer
 
@@ -66,10 +67,11 @@ privacy = Ichinan Na'oj
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
