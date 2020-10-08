@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-08 19:44+0000\n"
+"PO-Revision-Date: 2020-10-08 19:46+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1392,11 +1392,11 @@ msgstr "Una vez completado, comenzará a generar códigos de seguridad para que 
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Escribe esta clave secreta en tu aplicación de autenticación."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "¿Escanear código QR en su lugar?"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1634,11 +1634,11 @@ msgstr "Crear cuenta"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "¿Quieres sincronizar tu teléfono?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Envía un enlace por SMS para instalar Firefox en tu teléfono."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1650,7 +1650,7 @@ msgstr "Enviar"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Pueden haber cobros asociados a SMS y datos móviles. Se requiere el consentimiento del destinatario. <a %(escapedLearnMoreAttributes)s>Aprender más</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1702,7 +1702,7 @@ msgstr "¿Cómo podemos ayudarte?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "¿Necesitas ayuda con una aplicación o servicio específico? (opcional)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -1876,7 +1876,7 @@ msgstr "Se cancelará cualquier suscripción pagada que tengas"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Toda extensión y tema que hayas publicado en addons.mozilla.org será eliminado"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -2048,7 +2048,7 @@ msgstr "Agregar un correo electrónico secundario"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Añadir un correo secundario te ayuda a regresar a tu cuenta si quedas fuera y no puedes acceder a %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2061,11 +2061,11 @@ msgstr "Usar un correo electrónico diferente"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Por favor, cambia tu contraseña"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "para continuar con %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -2098,27 +2098,27 @@ msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Suscribir %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "¡Dispositivo conectado!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Conectar otro"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Usar SMS en su lugar"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "He terminado por ahora"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Sincroniza Firefox entre dispositivos"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -2130,11 +2130,11 @@ msgstr "Comenzar"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Lo haré más tarde, enviarme un recordatorio"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Descarga Firefox con tu app de cámara"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -2158,7 +2158,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Instala Firefox y ábrelo en tu dispositivo"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
