@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 22:22+0000\n"
+"PO-Revision-Date: 2020-10-09 22:32+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -419,35 +419,35 @@ msgstr "Nik'is yan ruq'ijul ri atarjeta' richin kre'ito'"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Ri atarjeta' richin kre'ito' richin natojb'ej %(productName)s nik'is yan ruq'ijul."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionsPaymentExpired.html:4
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Richin majun k'ayewal rik'in asamaj, <a href=\"%(updateBillingUrl)s\">tak'exa' ri retamab'al atojik</a> pan aninäq."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionsPaymentExpired.txt:4
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Richin majun k'ayewal rik'in asamaj, tak'exa' ri retamab'al atojik pan aninäq:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Takuyu', k'o qak'ayewal rik'in ri atojik"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Xk'oje' qak'ayewal rik'in ri ruk'isib'äl atojik richin %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Kojato' richin niqasöl <a href=\"%(updateBillingUrl)s\">rik'in nak'ëx retamab'al atojik</a> pa oxi' q'ij."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "We man xtiqak'ül ta atzij pan oxi' q'ij, man xkatok ta chik pa %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
