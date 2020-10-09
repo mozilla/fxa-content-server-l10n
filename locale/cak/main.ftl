@@ -13,9 +13,13 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Titz'apïx modal
 
 ## app error dialog
 
+general-error-heading = Rusachoj chijun rusamajixik
+basic-error-message = K'o man xel ta ütz. Tatojtob'ej chik jub'a' chik na.
 
 ## settings
 

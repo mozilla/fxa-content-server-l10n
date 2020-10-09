@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 23:32+0000\n"
+"PO-Revision-Date: 2020-10-09 23:40+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -896,11 +896,11 @@ msgstr "Xtz'ij chik %(productName)s rutz'ib'axik ab'i'"
 
 #: lib/senders/email.js:2304
 msgid "%(productName)s payment received"
-msgstr "Xk'ul ri rutojik %(productName)s"
+msgstr "Xk'ul rutojik %(productName)s"
 
 #: lib/senders/email.js:2392
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Xjikib'äx rutojik %(productName)s"
 
 #: lib/senders/email.js:2464
 msgid "Welcome to %(productName)s"
@@ -912,15 +912,15 @@ msgstr "Tiqasäx %(productName)s"
 
 #: lib/senders/email.js:2491
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Achib'il Anatab'al: Achike Rub'eyal Nitz'aqatisäx Runuk'ulem Sync"
 
 #: lib/senders/email.js:2492
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Ruk'isib'äl Natab'äl: Tz'aqät Runuk'ulem Sync"
 
 #: lib/senders/email.js:2506
 msgid "Sync another device"
-msgstr ""
+msgstr "Tixim jun chik okisab'äl"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
