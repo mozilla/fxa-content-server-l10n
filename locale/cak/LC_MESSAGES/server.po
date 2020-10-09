@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 22:32+0000\n"
+"PO-Revision-Date: 2020-10-09 22:39+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -443,7 +443,7 @@ msgstr "Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in j
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "Kojato' richin niqasöl <a href=\"%(updateBillingUrl)s\">rik'in nak'ëx retamab'al atojik</a> pa oxi' q'ij."
+msgstr "Kojato' richin niqasöl <a href=\"%(updateBillingUrl)s\">rik'in nak'ëx retamab'al atojik</a> pan oxi' q'ij."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
@@ -451,17 +451,19 @@ msgstr "We man xtiqak'ül ta atzij pan oxi' q'ij, man xkatok ta chik pa %(produc
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Kojato' richin niqasöl rik'in nak'ëx retamab'al atojik pan oxi' q'ij."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "¡Matyox xatzïj chik rutz'ib'axik ab'i' pa %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
+"Ri retal apaktura' chuqa' atojik junam nub'än. Ri jun chik atojik ja ri pa %(invoiceTotal)s pa ri %(cardType)s tarjeta' nik'is pa %(lastFour)s pa %(nextInvoiceDateOnly)s. Xtijalatäj ri rutgz'ib'axik"
+" ab'i' toq natöj ri apaktura', man keta ri' we naq'ät."
 
 #: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
