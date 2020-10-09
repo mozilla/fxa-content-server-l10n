@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-09 16:04+0000\n"
 "PO-Revision-Date: 2019-10-29 21:47+0000\n"
 "Last-Translator: VicenteCM <oxlajuntiku@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2235,7 +2235,7 @@ msgid "IP address: %(ipAddress)s"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
+msgid "One account, many services"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
@@ -2263,11 +2263,11 @@ msgid "Get a lookout for data breaches."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
+msgid "Mozilla VPN"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
+msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
