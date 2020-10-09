@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 23:19+0000\n"
+"PO-Revision-Date: 2020-10-09 23:32+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -828,7 +828,7 @@ msgstr "Tinuk'samajïx rub'i' taqoya'l"
 
 #: lib/senders/email.js:1299
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Xjikib'äx rub'i' taqoya'l. Wakami taxima' jun chik okisab'äl richin nak'ïs ri runuk'ulem"
 
 #: lib/senders/email.js:1385
 msgid "Primary email updated"
@@ -868,35 +868,35 @@ msgstr "Titz'uk k'ak'a' kolonel ewan tzij"
 
 #: lib/senders/email.js:1833
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Xak'ëx pa %(productNameNew)s"
 
 #: lib/senders/email.js:1912
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Xajäl pa %(productNameNew)s"
 
 #: lib/senders/email.js:1977
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Rutarjeta' Kre'ito' richin %(productName)s nik'is yan ruq'ijul "
 
 #: lib/senders/email.js:1991
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Rutarjeta' Kre'ito' richin rutz'ib'axik ab'i' nik'is yan ruq'ijul "
 
 #: lib/senders/email.js:2043
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Xsach rik'in ri rutojik %(productName)s"
 
 #: lib/senders/email.js:2094 lib/senders/email.js:2159
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Xqa't ri %(productName)s rutz'ib'axik ab'i'"
 
 #: lib/senders/email.js:2230
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Xtz'ij chik %(productName)s rutz'ib'axik ab'i'"
 
 #: lib/senders/email.js:2304
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Xk'ul ri rutojik %(productName)s"
 
 #: lib/senders/email.js:2392
 msgid "%(productName)s payment confirmed"
