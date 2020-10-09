@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 22:51+0000\n"
+"PO-Revision-Date: 2020-10-09 23:03+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -487,17 +487,19 @@ msgstr "¡Matyox ruma xak'ëx!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Ütz xak'ëx ri %(productNameOld)s rik'in %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Rik'in ri jun chik apaktura', xtijalatäj ri %(paymentAmountOld)s awajil pa %(productPaymentCycle)s rik'in %(paymentAmountNew)s. Chi ri' xtaya' jun ruyonil tojik chi %(paymentProrated)s richin nya' "
+"retal ri nïm atojik richin re %(productPaymentCycle)s re'."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Ri atarjeta' richin kre'ito' richin natojb'ej re rutz'ib'axik b'i'aj re', ri nik'is yan ruq'ijul."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -633,11 +635,11 @@ msgstr "Toq xajikib'a' yan, yatqato' richin nayäk chuqa' nawokisaxj ri Firefox 
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "O, tayaka' pa <a %(desktopLinkAttributes)s >jun chik rokisab'al ajkematz'ib'</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "O, tayaka' pa <a %(cadLinkAttributes)s>jun chik okisab'äl</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
