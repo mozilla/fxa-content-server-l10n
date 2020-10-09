@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-09 23:10+0000\n"
+"PO-Revision-Date: 2020-10-09 23:19+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cak\n"
@@ -691,7 +691,7 @@ msgstr "Xak'ül re taqoya'l ruma chi ri %(email)s k'o jun rub'i' rutaqoya'l rich
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Tanuk'samajij ri runuk'ulem rub'i' ataqoya'l richin Firefox rik'in tatz'ita' ri <a %(accountSettingsLinkAttributes)s> rub'i' taqoya'l</a>."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Terms and cancellation policy"
@@ -699,7 +699,7 @@ msgstr "Rojqanem chuqa' ruq'atik na'ojil"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Tatzija' chik ri rutz'ib'axïk b'i'aj"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
