@@ -76,21 +76,38 @@ payment-exp =
     .label = Nik'is
 payment-cvc =
     .label = CVC
+payment-zip =
+    .label = Postal b'itz'ib'
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Tiq'at
+payment-update-btn = Tik'ex
+payment-pay-btn = Titzij wakami
+payment-validate-name-error = Tatz'ib'aj ab'i'
+payment-validate-zip-required = Najowäx postal b'itz'ib'
+payment-validate-zip-short = Yalan ko'öl ri postal b'itz'ib'
 
 ## subscription redirect
 
+sub-redirect-ready = Ütz chik ri rutz'ib'axik b'i'aj
+sub-redirect-skip-survey = Mani matyox, ninwajo' nintz'ët ri tikojil.
 
 ## fields
 
+default-input-error = K'atzinel re k'ojlib'äl re'.
+input-error-is-required = Najowäx { $label }
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Tanik'oj ri k'exoj
+sub-update-failed = Xsach ri ruk'exoj ajil
+sub-update-title = Retamab'al tojïk
+sub-update-card-ending = Tarjeta Nik'is pa { $last }
+sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
