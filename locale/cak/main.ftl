@@ -64,9 +64,18 @@ product-no-such-plan = Majun ajil richin re tikojil.
 ## payment legal blurb
 
 payment-legal-copy = { -brand-name-mozilla } nrokisaj Stripe richin nijikib'äx ri tojïk.
+payment-legal-link = Titz'et ri <a>ichinan runa'ojil Stripe</a>.
 
 ## payment form
 
+payment-cc =
+    .label = Atarjeta'
+payment-ccn =
+    .label = Rajilab'al tarjeta'
+payment-exp =
+    .label = Nik'is
+payment-cvc =
+    .label = CVC
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
