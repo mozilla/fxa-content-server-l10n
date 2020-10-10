@@ -125,6 +125,7 @@ sub-next-bill = החיוב הבא בתאריך { $date }
 
 ##
 
+pay-update-change-btn = עדכון
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
