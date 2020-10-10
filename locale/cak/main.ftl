@@ -114,6 +114,12 @@ sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-update-submit = Tijikib'äx k'exoj
+sub-update-indicator =
+    .aria-label = Etanel k'exoj
+sub-update-current-plan-label = Ajil wakami
+sub-update-new-plan-label = K'ak'a' ajil
+sub-update-total-label = Ronojel k'ak'a'
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -128,10 +134,13 @@ sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+pay-update-card-exp = Nik'is { $expirationDate }
+pay-update-change-btn = Tijal
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ¿La k'a nawajo' nawokisaj { $name }?
 
 ##  $date (Date) - Last day of product access
 
