@@ -225,4 +225,11 @@ payment-confirmation-amount = { $amount } כל { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } כל יום
+        [two] { $amount } כל יומיים
+       *[other] { $amount } כל { $intervalCount } ימים
+    }
 payment-confirmation-cc-preview = מסתיים ב־{ $last4 }
