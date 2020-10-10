@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-10 17:11+0000\n"
+"PO-Revision-Date: 2020-10-10 17:13+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -387,7 +387,7 @@ msgstr "מספר חשבונית: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "חיוב של %(invoiceTotal)s בתאריך %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
