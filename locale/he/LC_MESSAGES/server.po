@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-10 17:13+0000\n"
+"PO-Revision-Date: 2020-10-10 17:34+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -236,7 +236,7 @@ msgstr "נוצרו קודים חדשים לשחזור"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "ייצרת בהצלחה קודים חדשים לשחזור מההתקן הבא:"
+msgstr "ייצרת בהצלחה קודים חדשים לשחזור מהמכשיר הבא:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1720
 msgid "Account recovery key removed"

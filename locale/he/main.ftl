@@ -35,6 +35,8 @@ privacy = הצהרת פרטיות
 
 ## plan details
 
+product-plan-details-heading = הבה נגדיר את המינוי שלך
+product-plan-details-heading = הבה נגדיר את המינוי שלך
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -79,21 +81,28 @@ payment-zip =
 
 payment-cancel-btn = ביטול
 payment-update-btn = עדכון
+payment-pay-btn = לשלם כעת
 payment-validate-name-error = נא להכניס את השם שלך
+payment-validate-zip-required = נדרש מיקוד
 payment-validate-zip-short = המיקוד קצר מדי
 
 ## subscription redirect
 
 sub-redirect-ready = המינוי שלך מוכן
+sub-redirect-copy = נא להקדיש דקה כדי לספר לנו על החוויה שלך.
+sub-redirect-skip-survey = לא תודה, ארצה להגיע למוצר שלי.
 
 ## fields
 
 default-input-error = שדה זה נדרש
+input-error-is-required = ‏{ $label } נדרש
 
 ## subscription upgrade
 
 product-plan-upgrade-heading = סקירת השדרוג שלך
 sub-update-failed = עדכון התוכנית נכשל
+sub-update-title = פרטי חיוב
+sub-update-card-ending = הכרטיס שמסתיים ב־{ $last }
 sub-update-copy =
     התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
     לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
@@ -145,11 +154,13 @@ reactivate-confirm-without-payment-method-copy =
     הגישה שלך ל־{ $name } תימשך, ומחזור החיוב
     והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה
     { $amount } בתאריך { $endDate }.
+reactivate-confirm-button = חידוש מינוי
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = ביטלת את המינוי שלך בתאריך { $date }.
 reactivate-panel-copy = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
+reactivate-success-copy = תודה! הכול מוכן.
 reactivate-success-button = סגירה
 
 ## subscription item
@@ -190,6 +201,7 @@ sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלח�
 
 ## subscription create
 
+sub-guarantee = החזר כספי מובטח תוך 30 יום
 
 ## plan-details
 
@@ -207,7 +219,10 @@ payment-confirmation-heading-bak = תודה רבה!
 payment-confirmation-subheading = הודעת דוא״ל לאישור נשלחה אל
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
+payment-confirmation-billing-heading = חיוב לטובת
 payment-confirmation-details-heading = פרטי תשלום
+payment-confirmation-amount = { $amount } כל { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = מסתיים ב־{ $last4 }
