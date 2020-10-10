@@ -144,23 +144,34 @@ reactivate-confirm-dialog-header = ¿La k'a nawajo' nawokisaj { $name }?
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Titz'apïx
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = Tatojtob'ej pa jun mej.
+sub-item-cancel-sub = Tiq'at tz'ib'axïk b'i'aj
+account-activated = Xtzij ri rub'i' ataqoya'l, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-cancel-msg-title = Yatqamäy ruma yab'e.
+sub-customer-error =
+    .title = K'o k'ayewal toq nisamajïx ri okisanel
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-show-button = Kek'ut pe ri taq rub'anikil
+plan-details-hide-button = Ke'ewäx ri taq rub'anikil
+plan-details-total-label = Ronojel
 
 ## payment confirmation
 
+payment-confirmation-heading-bak = ¡Matyox Chawe!
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
