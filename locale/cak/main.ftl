@@ -29,9 +29,11 @@ charge-exceeds-source-limit = Xakexa re tojoj re' xtik'o ruwi' rajil jun q'ij. T
 instant-payouts-unsupported = Xakexa ri rutarjeta' e'ito' majun runuk'ulem richin anin tojïk. Tatojtob'ej rik'in jun chik rutajeta' e'ito' o kre'ito'.
 duplicate-transaction = Hmm. Achi'el chi k'a b'a' titaq jun totoj junam. Tanik'oj ri runatab'al atojik.
 coupon-expired = Achi'el chi re sujel b'itz'ib' xk'is ruq'ijul.
+card-error = Man xb'an ta ri tojïk. Tanik'oj ri retamab'al rutarjeta' kre'ito' chuqa' tatojtob'ej chik.
 
 ## settings
 
+settings-home = Rutikirib'al Rub'i' Taqoya'l
 settings-subscriptions-title = Kitz'ib'axik b'i'aj
 
 ## legal footer
@@ -41,6 +43,8 @@ privacy = Ichinan Na'oj
 
 ## plan details
 
+product-plan-details-heading = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
+product-plan-details-heading = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -48,9 +52,18 @@ privacy = Ichinan Na'oj
 
 ## Product route
 
+product-plan-error =
+    .title = K'o k'ayewal toq nisamajïx ri taq ajil
+product-profile-error =
+    .title = K'o k'ayewal toq nisamajïx ri rub'i' awäch
+product-customer-error =
+    .title = K'o k'ayewal toq nisamajïx ri okisanel
+product-plan-not-found = Man xilitäj ta ajil
+product-no-such-plan = Majun ajil richin re tikojil.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } nrokisaj Stripe richin nijikib'äx ri tojïk.
 
 ## payment form
 
