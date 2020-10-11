@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-25 16:05+0000\n"
-"PO-Revision-Date: 2020-10-10 17:34+0000\n"
+"PO-Revision-Date: 2020-10-11 18:18+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -600,7 +600,7 @@ msgstr "נא להשתמש בקוד האימות הזה:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
