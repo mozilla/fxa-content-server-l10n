@@ -42,6 +42,34 @@ product-plan-details-heading = הבה נגדיר את המינוי שלך
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } מחויב ב־{ $amount } כל יום
+        [two] { $productName } מחויב ב־{ $amount } כל יומיים
+       *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } ימים
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } מחויב ב־{ $amount } כל שבוע
+        [two] { $productName } מחויב ב־{ $amount } כל שבועיים
+       *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } שבועות
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } מחויב ב־{ $amount } כל חודש
+        [two] { $productName } מחויב ב־{ $amount } כל חודשיים
+       *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } חודשים
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } מחויב ב־{ $amount } כל שנה
+        [two] { $productName } מחויב ב־{ $amount } כל שנתיים
+       *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } שנים
+    }
 
 ## Product route
 
@@ -124,10 +152,66 @@ sub-update-total-label = סה״כ חדש
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } כל יום
+        [two] { $amount } כל יומיים
+       *[other] { $amount } כל { $intervalCount } ימים
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } כל שבוע
+        [two] { $amount } כל שבועיים
+       *[other] { $amount } כל { $intervalCount } שבועות
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } כל חודש
+        [two] { $amount } כל חודשיים
+       *[other] { $amount } כל { $intervalCount } חודשים
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } כל שנה
+        [two] { $amount } כל שנתיים
+       *[other] { $amount } כל { $intervalCount } שנים
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } כל יום
+        [two] { $amount } כל יומיים
+       *[other] { $amount } כל { $intervalCount } ימים
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } כל שבוע
+        [two] { $amount } כל שבועיים
+       *[other] { $amount } כל { $intervalCount } שבועות
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } כל חודש
+        [two] { $amount } כל חודשיים
+       *[other] { $amount } כל { $intervalCount } חודשים
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } כל שנה
+        [two] { $amount } כל שנתיים
+       *[other] { $amount } כל { $intervalCount } שנים
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
@@ -232,5 +316,26 @@ payment-confirmation-amount-day =
         [one] { $amount } כל יום
         [two] { $amount } כל יומיים
        *[other] { $amount } כל { $intervalCount } ימים
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } כל שבוע
+        [two] { $amount } כל שבועיים
+       *[other] { $amount } כל { $intervalCount } שבועות
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } כל חודש
+        [two] { $amount } כל חודשיים
+       *[other] { $amount } כל { $intervalCount } חודשים
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } כל שנה
+        [two] { $amount } כל שנתיים
+       *[other] { $amount } כל { $intervalCount } שנים
     }
 payment-confirmation-cc-preview = מסתיים ב־{ $last4 }
