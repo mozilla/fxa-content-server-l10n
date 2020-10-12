@@ -306,10 +306,17 @@ sub-item-stay-sub = Tik'oje' na Rutz'ib'axik B'i'aj
 sub-item-cancel-msg =
     Man xtokisäx ta { $name } chi rij ri 
     { $period }, ri ruk'isib'äl ruwujil tojïk.
+sub-item-cancel-confirm =
+    Tiq'at ri wokem chuqa' ri wetamab'al yakon
+    { $name } pa { $period }
 account-activated = Xtzij ri rub'i' ataqoya'l, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Nik'ex ri retamab'al wujil...
+sub-route-idx-reactivating = Xsach ri rutzijik chik rutz'ib'axik b'i'aj
+sub-route-idx-cancel-failed = Xsach ri ruq'atik rutz'ib'axik b'i'aj
+sub-route-idx-contact = Katzijon pa Tob'äl
 sub-route-idx-cancel-msg-title = Yatqamäy ruma yab'e.
 sub-customer-error =
     .title = K'o k'ayewal toq nisamajïx ri okisanel
