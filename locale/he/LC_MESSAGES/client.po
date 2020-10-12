@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-05 16:19+0000\n"
-"Last-Translator: Itiel <itiel_yn8@walla.com>\n"
+"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"PO-Revision-Date: 2020-10-10 07:15+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -593,7 +593,7 @@ msgstr "כתובת זו כבר אומתה על ידי משתמש אחר"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "הפעלה בלתי מאומתת"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
@@ -886,7 +886,7 @@ msgstr "האם הייתה לך טעות בהקלדת הדוא״ל? %(domain)s ל
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "הקובץ גדול מכדי להעלותו."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -910,7 +910,7 @@ msgstr "צפייה בחדשות האחרונות על Mozilla ועל Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
@@ -922,7 +922,7 @@ msgstr "בדיקת מוצרי Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
@@ -1347,7 +1347,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "אישור קוד שחזור"
 
 #: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1557,19 +1557,19 @@ msgstr "שימוש בחשבון אחר"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr "נא להקליד קוד שחזור"
+msgstr "נא למלא קוד שחזור"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "נא לספק קוד שחזור שסופק לך במהלך ההגדרה הראשונית."
+msgstr "נא למלא קוד שחזור שסופק לך במהלך ההגדרה הראשונית."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
-msgstr "נא להקליד קוד שחזור באורך 10 ספרות"
+msgstr "נא למלא קוד שחזור באורך 10 ספרות"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "ננעלת מחוץ לחשבון?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1661,7 +1661,7 @@ msgstr "לא כעת"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "נא לבדוק את ההודעות בטלפון שלך"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
@@ -1701,7 +1701,7 @@ msgstr "במה נוכל לעזור?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "יש לך צורך בעזרה עם יישום או שירות מסוימים? (רשות)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -1859,7 +1859,7 @@ msgstr "מחיקה…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
+msgstr "רוצה לבטל מינוי בתשלום? יש לגשת אל <a href=\"/subscriptions\">מינויים</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1927,7 +1927,7 @@ msgstr "יצירת קודים חדשים לשחזור"
 
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
-msgstr ""
+msgstr "אישור קוד שחזור"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -2090,11 +2090,11 @@ msgstr "הרשמה לעוד"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "ידע חיוני בדרכו אל תיבת הדוא״ל שלך."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "אפשר לקבל ידע חיוני ישירות לתיבת הדוא״ל שלך על:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -2206,7 +2206,7 @@ msgstr "נא לאמת את הססמה שלך עבור %(escapedEmail)s כדי ל
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "נא למלא מפתח שחזור כדי לאשר ששמרת עותק."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
