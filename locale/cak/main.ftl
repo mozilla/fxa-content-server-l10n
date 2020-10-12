@@ -49,6 +49,24 @@ product-plan-details-heading = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } xrelesaj ruwuj { $amount } chi q'ij
+       *[other] { $productName } xrelesaj ruwuj { $amount } jujun { $intervalCount } q'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } xrelesaj ruwuj { $amount } wuqq'ij
+       *[other] { $productName } xrelesaj ruwuj { $amount } jujun { $intervalCount } wuqq'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } xrelesaj ruwuj { $amount } chi ik'ul
+       *[other] { $productName } xrelesaj ruwuj { $amount } jujun { $intervalCount } ik'
+    }
 
 ## Product route
 
