@@ -114,6 +114,25 @@ payment-confirm-with-legal-links-day =
         [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
        *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+payment-confirm = Ninya' q'ij chi re Mozilla, b'anöy Firefox taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>${ $amount } jujun { $interval }</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
 
 ##
 
@@ -127,6 +146,7 @@ payment-validate-zip-short = Yalan ko'öl ri postal b'itz'ib'
 ## subscription redirect
 
 sub-redirect-ready = Ütz chik ri rutz'ib'axik b'i'aj
+sub-redirect-copy = Tajama' jub'a' aramaj richin natzijoj chi qe chi rij ri awetamab'al.
 sub-redirect-skip-survey = Mani matyox, ninwajo' nintz'ët ri tikojil.
 
 ## fields
