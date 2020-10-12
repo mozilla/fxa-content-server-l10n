@@ -271,17 +271,41 @@ pay-update-change-btn = Tijal
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = ¿La k'a nawajo' nawokisaj { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Ri awokem pa { $name } k'a nib'anatäj chuqa' ri retal atojik
+    chuqa' atojik junam xtib'anatäj. Ri jun chik atojik xtab'än pa
+    { $amount } rik'in ri tarjeta' nik'is pa { $last } ri { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Ri awokem pa { $name } k'a nib'anatäj chuqa' ri retal atojik
+    chuqa' atojik junam xtib'anatäj. Ri jun chik atojik xtab'än pa
+    { $amount } pa { $endDate }.
+reactivate-confirm-button = Titz'ib'äx chik b'i'aj
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Xq'at ri rutz'ib'axik b'i'aj pa { $date }.
+reactivate-panel-copy = Xtasäch awokem pa { $name } ri <strong>{ $date }</strong>.
+reactivate-success-copy = ¡Matyox! Ütz chik.
 reactivate-success-button = Titz'apïx
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = K'o k'ayewal toq nisamajïx ri rutz'ib'axik b'i'aj
 sub-item-missing-msg = Tatojtob'ej pa jun mej.
+sub-item-no-such-plan = Majun ajil richin re rutz'ib'axik b'i'aj.
 sub-item-cancel-sub = Tiq'at tz'ib'axïk b'i'aj
+sub-item-stay-sub = Tik'oje' na Rutz'ib'axik B'i'aj
+sub-item-cancel-msg =
+    Man xtokisäx ta { $name } chi rij ri 
+    { $period }, ri ruk'isib'äl ruwujil tojïk.
 account-activated = Xtzij ri rub'i' ataqoya'l, <userEl/>
 
 ## subscription route index
