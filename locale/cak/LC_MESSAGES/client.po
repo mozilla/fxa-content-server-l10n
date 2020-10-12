@@ -2243,8 +2243,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "IP ochochib'äl: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "Tatz'ib'aj ab'i' richin nik'oje' ch'aqa' chik taq b'anikil awik'in:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2271,12 +2271,12 @@ msgid "Get a lookout for data breaches."
 msgstr "Tak'ulu' kitzijol tz'ilan taq tzij."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "Ke'ataqa' nïm taq yakb'äl rik'in jikomal chuqa' ichinanem."
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2381,6 +2381,15 @@ msgstr "Tok rik'in jun chokoy"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy Firefox."
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Tatz'ib'aj ab'i' richin nik'oje' ch'aqa' chik taq b'anikil awik'in:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Ke'ataqa' nïm taq yakb'äl rik'in jikomal chuqa' ichinanem."
 
 #~ msgid "Firefox Account"
 #~ msgstr "Firefox Account"

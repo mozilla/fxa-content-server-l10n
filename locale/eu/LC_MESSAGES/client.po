@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-09 16:04+0000\n"
 "PO-Revision-Date: 2020-08-28 15:42+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2248,7 +2248,7 @@ msgid "IP address: %(ipAddress)s"
 msgstr "IP helbidea: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
+msgid "One account, many services"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
@@ -2276,11 +2276,11 @@ msgid "Get a lookout for data breaches."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
+msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
@@ -2386,6 +2386,9 @@ msgstr "Parekatzea aplikazioa erabiliz"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
 
 #~ msgid "General inquiries"
 #~ msgstr "Kontsulta orokorrak"

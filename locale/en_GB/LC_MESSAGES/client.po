@@ -2239,8 +2239,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "IP address: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "Sign up to get more features:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2267,12 +2267,12 @@ msgid "Get a lookout for data breaches."
 msgstr "Get a lookout for data breaches."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "Send larger files securely and privately."
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2377,6 +2377,15 @@ msgstr "Pair using an app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Did you use the system camera? You must pair from within a Firefox app."
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Sign up to get more features:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Send larger files securely and privately."
 
 #~ msgid "Firefox Account"
 #~ msgstr "Firefox Account"

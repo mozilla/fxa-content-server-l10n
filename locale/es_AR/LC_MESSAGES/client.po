@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 16:05+0000\n"
+"POT-Creation-Date: 2020-10-09 16:04+0000\n"
 "PO-Revision-Date: 2020-09-18 21:24+0000\n"
 "Last-Translator: Gabriela <gmontagu@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2251,8 +2251,8 @@ msgid "IP address: %(ipAddress)s"
 msgstr "Dirección IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "Sign up to get more features:"
-msgstr "Registrate para tener más funciones:"
+msgid "One account, many services"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2279,12 +2279,12 @@ msgid "Get a lookout for data breaches."
 msgstr "Mantenete al día sobre las violaciones de datos."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Send"
-msgstr "Firefox Send"
+msgid "Mozilla VPN"
+msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Send larger files securely and privately."
-msgstr "Enviá archivos grandes con seguridad y privacidad."
+msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2389,6 +2389,15 @@ msgstr "Conectar usando una aplicación"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Usaste la cámara del sistema? Tenés que conectarla desde una aplicación de Firefox."
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Registrate para tener más funciones:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Enviá archivos grandes con seguridad y privacidad."
 
 #~ msgid "Firefox Account"
 #~ msgstr "Firefox Account"
