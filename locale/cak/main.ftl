@@ -260,6 +260,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Jun chik ruwujil tojïk pa { $date }
 
 ##
 
