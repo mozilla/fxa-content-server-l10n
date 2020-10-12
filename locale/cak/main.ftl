@@ -67,6 +67,12 @@ month-based-plan-details-amount =
         [one] { $productName } xrelesaj ruwuj { $amount } chi ik'ul
        *[other] { $productName } xrelesaj ruwuj { $amount } jujun { $intervalCount } ik'
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } xrelesaj ruwuj { $amount } chi juna'
+       *[other] { $productName } xrelesaj ruwuj { $amount } jujun { $intervalCount } juna'
+    }
 
 ## Product route
 
@@ -86,6 +92,9 @@ payment-legal-link = Titz'et ri <a>ichinan runa'ojil Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Tz'aqät B'i'aj
+    .label = Tatz'ib'aj rub'i' achi'el k'o pa ri tarjeta'
 payment-cc =
     .label = Atarjeta'
 payment-ccn =
@@ -99,6 +108,12 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
 
 ##
 
