@@ -161,9 +161,37 @@ sub-update-failed = Xsach ri ruk'exoj ajil
 sub-update-title = Retamab'al tojïk
 sub-update-card-ending = Tarjeta Nik'is pa { $last }
 sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Anin xtijalatäj ri retal rajil chuqa' xtik'ul jun rajil
+    pa ruwi' ri k'a nib'an na ruwujil. Ri nitikïr { $startingDate }
+    xtik'ul ronojel ri rajil.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-update-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-update-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
+    }
 
 ##
 
@@ -177,10 +205,58 @@ sub-update-total-label = Ronojel k'ak'a'
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } chi q'ij
+       *[other] { $amount } jujun { $intervalCount } q'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } chi wuqq'ij
+       *[other] { $amount } jujun { $intervalCount } wuqq'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } chi ik'ul
+       *[other] { $amount } jujun { $intervalCount } ik'
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } pa juna'
+       *[other] { $amount } jujun { $intervalCount } juna'
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } chi q'ij
+       *[other] { $amount } jujun { $intervalCount } q'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } chi wuqq'ij
+       *[other] { $amount } jujun { $intervalCount } wuqq'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } chi ik'ul
+       *[other] { $amount } jujun { $intervalCount } ik'
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } pa juna'
+       *[other] { $amount } jujun { $intervalCount } juna'
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
