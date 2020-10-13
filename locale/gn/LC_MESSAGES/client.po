@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-13 17:30+0000\n"
+"PO-Revision-Date: 2020-10-13 17:32+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2272,7 +2272,7 @@ msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "Peteĩ VPN omoñepyrũvo jerovia ñanduti ñemiguáva."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
