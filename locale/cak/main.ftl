@@ -352,6 +352,34 @@ payment-confirmation-subheading = Jun jikib'anel taqoya'l xtaq pa
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 payment-confirmation-billing-heading = Xb'an pakturar chi re
+payment-confirmation-details-heading = Rub'anikil tojïk
+payment-confirmation-amount = { $amount } chi { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } chi q'ij
+       *[other] { $amount } jujun { $intervalCount } q'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } chi wuqq'ij
+       *[other] { $amount } jujun { $intervalCount } wuqq'ij
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } chi ik'ul
+       *[other] { $amount } jujun { $intervalCount } ik'
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } chi juna'
+       *[other] { $amount } jujun { $intervalCount } juna'
+    }
+payment-confirmation-cc-preview = k'isb'en pa { $last4 }
+payment-confirmation-download-button = K'a tiqasäx
