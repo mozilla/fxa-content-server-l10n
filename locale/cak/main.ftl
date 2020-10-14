@@ -318,21 +318,40 @@ sub-route-idx-reactivating = Xsach ri rutzijik chik rutz'ib'axik b'i'aj
 sub-route-idx-cancel-failed = Xsach ri ruq'atik rutz'ib'axik b'i'aj
 sub-route-idx-contact = Katzijon pa Tob'äl
 sub-route-idx-cancel-msg-title = Yatqamäy ruma yab'e.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ri { $name } rutz'ib'axik ab'i' xq'at.
+          <br />
+          Xkatikïr xkatok pa { $name } k'a pa { $date }.
+sub-route-idx-cancel-aside = ¿La k'o ak'utunik? Tatz'eta' <a>{ -brand-name-mozilla } Tob'äl</a>.
+sub-subscription-error =
+    .title = K'o k'ayewal toq nisamajïx ri rutz'ib'axik b'i'aj
 sub-customer-error =
     .title = K'o k'ayewal toq nisamajïx ri okisanel
+sub-billing-update-success = Ütz xk'ex ri retamab'al paktura'
 
 ## subscription create
 
+sub-guarantee = 30-q'ij tikirel nitzolïx pwäq
 
 ## plan-details
 
+plan-details-header = Rub'anikil tikojil
 plan-details-show-button = Kek'ut pe ri taq rub'anikil
 plan-details-hide-button = Ke'ewäx ri taq rub'anikil
 plan-details-total-label = Ronojel
 
 ## payment confirmation
 
+payment-confirmation-alert = Tipitz' wawe' richin niqasäx
+payment-confirmation-mobile-alert = ¿La man nijaqatäj ta ri chokoy? <a>Tipitz' Wawe'</a>
+payment-confirmation-heading = ¡Matyox Chawe { $displayName }!
 payment-confirmation-heading-bak = ¡Matyox Chawe!
+payment-confirmation-subheading = Jun jikib'anel taqoya'l xtaq pa
+payment-confirmation-order-heading = Rub'anikil taqoj
+payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
+payment-confirmation-billing-heading = Xb'an pakturar chi re
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
