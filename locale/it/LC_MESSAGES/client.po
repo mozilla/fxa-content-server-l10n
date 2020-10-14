@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-13 09:29+0000\n"
-"Last-Translator: Jenny <leanintocuriosity@gmx.com>\n"
+"PO-Revision-Date: 2020-10-13 13:55+0000\n"
+"Last-Translator: Sav22999 <saverio.morelli@outlook.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -2251,7 +2251,7 @@ msgstr "Indirizzo IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Un account, tanti servizi"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
