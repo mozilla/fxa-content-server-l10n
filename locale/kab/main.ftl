@@ -102,6 +102,24 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ass </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wussan</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal imalas </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yimalasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ayyur </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wayyuren</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+    }
 
 ##
 
@@ -137,7 +155,7 @@ sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 sub-update-confirm-with-legal-links-day =
     { $intervalCount ->
         [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ass </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n ussan</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wussan</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 sub-update-confirm-with-legal-links-week =
