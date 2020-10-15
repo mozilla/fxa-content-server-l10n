@@ -174,9 +174,34 @@ plan-price-year =
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } yal ass
+       *[other] { $amount } yal { $intervalCount } n wussan
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } yal imalas
+       *[other] { $amount }{ $amount } yal { $intervalCount } n yimalasen
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } yal ayyur
+       *[other] { $amount } yal { $intervalCount } n wayyuren
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } yal aseggas
+       *[other] { $amount } yal { $intervalCount } n yiseggasen
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Afetter i d-itteddun deg { $date }
 
 ##
 
@@ -187,6 +212,19 @@ pay-update-change-btn = Snifel
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Tebɣiḍ ad tkemmleḍ deg useqdec { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Anekcum-ik•im ɣer { $name } ad ikemmel, daɣen allus-ik•im n ufetter
+    d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili 
+    { $amount } ɣer taggara n tkarḍa deg{ $last } deg { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Anekcum-ik•im ɣer { $name } ad ikemmel, daɣen allus-ik•im n ufetter
+    d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili { $amount } deg { $endDate }.
 reactivate-confirm-button = Ales ajerred
 
 ##  $date (Date) - Last day of product access
@@ -253,6 +291,7 @@ payment-confirmation-heading-bak = Tanemirt!
 payment-confirmation-subheading = Imayl n usentem yettwazen ɣer
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
+payment-confirmation-billing-heading = Ifetter ɣer
 payment-confirmation-details-heading = Talqayt n usellek
 payment-confirmation-amount = { $amount } s { $interval }
 
