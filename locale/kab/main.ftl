@@ -24,6 +24,8 @@ payment-error-1 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Ɛreḍ tikke
 payment-error-2 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Nermes adabu amazan n tkarḍa-k•m n usmad.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
+withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
+charge-exceeds-source-limit = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen neɣ deg 24 n yisragen.
 
 ## settings
 
