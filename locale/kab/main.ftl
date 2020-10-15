@@ -29,6 +29,7 @@ charge-exceeds-source-limit = Ittban-d dakken tanigawt-a tɛedda i talast n usma
 instant-payouts-unsupported = Ittban-d dakken takarḍa-k•m n uktum ur tettuswel ara i uxelleṣ askudan. Ɛreḍ s takarḍa-nniḍen n uktum neɣ n usmad.
 duplicate-transaction = Hmm. Ittban-d dakken tettwazen tanigawt am tin. Senqed azray n uxelleṣ-ik•im.
 coupon-expired = Ittban-d dakken tangalt n udellel temmut.
+card-error = Tanigawt-ik•im ur tezmir ara ad teddu. Ttxil senqed talɣut n tkarḍa-k•m n usmad tɛawdeḍ tikkelt-nniḍen.
 
 ## settings
 
@@ -160,6 +161,9 @@ sub-update-failed = Aɣwas n uleqqem ur yeddi ara
 sub-update-title = Talɣut n ufter
 sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Aɣawas-ik•im ad ibeddel tura kan, tasmekta n tfaturt-ik•im
+    ad tmelles i wayen i d-yeggran deg wallus-ik•im n ufetter. Seg { $startingDate } tamekta tummidt ad ternu ɣer tfaturt-ik•im.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
