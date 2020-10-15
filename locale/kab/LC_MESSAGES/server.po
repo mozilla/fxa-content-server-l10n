@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-15 12:18+0000\n"
+"PO-Revision-Date: 2020-10-15 12:29+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -491,14 +491,16 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
+"Seg tfaturt i d-itteddu, asmad-ik•im ad ibeddel seg %(paymentAmountOld)s yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s. Imir-nni ad yernu daɣen deg tikkelt s %n (paymentProrated)s$ akken ad "
+"tban ssuma meqqren i wayen ixuṣṣen seg %(productPaymentCycle)s-a."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Tesɛiḍ isteqsiyen ɣef yijerriden-ik•im? Tarbaɛt-nneɣ n tallelt a-tt-an da ad ak•am-d-tefk afus: "
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -682,7 +684,7 @@ msgstr "Tremseḍ-d izen-a acku %(email)s igber amiḍan Firefox daɣen tjerrde�
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Teṭṭfeḍ imayl-a acku %(email)s ɣur-s amiḍan n Firefox yerna tjerrdeḍ ɣer waṭas n yifuras."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -702,7 +704,7 @@ msgstr "Sefsex ajerred"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Sefsex ijerriden"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -730,7 +732,7 @@ msgstr "Sefsex ajerred:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Sefsex ijerriden:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -875,7 +877,7 @@ msgstr "Takarḍa n usmad i %(productName)s qrib ad temmet"
 
 #: lib/senders/email.js:1991
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Takarḍa n usmad n yijerriden-ik•im qrib ad temmet"
 
 #: lib/senders/email.js:2043
 msgid "%(productName)s payment failed"
