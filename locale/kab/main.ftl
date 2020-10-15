@@ -27,6 +27,8 @@ insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen
 withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
 charge-exceeds-source-limit = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen neɣ deg 24 n yisragen.
 instant-payouts-unsupported = Ittban-d dakken takarḍa-k•m n uktum ur tettuswel ara i uxelleṣ askudan. Ɛreḍ s takarḍa-nniḍen n uktum neɣ n usmad.
+duplicate-transaction = Hmm. Ittban-d dakken tettwazen tanigawt am tin. Senqed azray n uxelleṣ-ik•im.
+coupon-expired = Ittban-d dakken tangalt n udellel temmut.
 
 ## settings
 
