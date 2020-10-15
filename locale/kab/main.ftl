@@ -20,6 +20,8 @@ close-aria =
 
 general-error-heading = Tuccda n usnas tamatut
 basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
+payment-error-1 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Ɛreḍ tikkelt-nniḍen neɣ  nermes adabu amazan n tkarḍa-k•m n usmad.
+payment-error-2 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Nermes adabu amazan n tkarḍa-k•m n usmad.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
 
@@ -169,10 +171,11 @@ plan-price-year =
        *[other] { $amount } yal { $intervalCount } aseggas
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
@@ -202,6 +205,7 @@ sub-item-missing-msg = Ma ulac aɣilif, ɛreḍ tikelt nniḍen ticki.
 sub-item-no-such-plan = Ulac aɣawas s wanaw-a i ujerred-a.
 sub-item-cancel-sub = Sefsex ajerred
 sub-item-stay-sub = Qqim kan tjerrdeḍ
+sub-item-cancel-msg = Dayen ur tzemmreḍ ara ad tesqedceḍ { $name } deffir n
 sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
@@ -229,6 +233,7 @@ sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 
 ## subscription create
 
+sub-guarantee = Ṭṭmana n tiririt n yidrimen n 30 n wussan
 
 ## plan-details
 

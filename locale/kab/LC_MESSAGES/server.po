@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-15 12:29+0000\n"
+"PO-Revision-Date: 2020-10-15 12:33+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -909,7 +909,7 @@ msgstr "Sader %(productName)s"
 
 #: lib/senders/email.js:2491
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi"
 
 #: lib/senders/email.js:2492
 msgid "Final Reminder: Complete Sync Setup"
