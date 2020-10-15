@@ -133,17 +133,29 @@ sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-update-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ass </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n ussan</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-update-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal imalas </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yimalasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+    }
 #  $intervalCount (Number) - The interval between payments, in months.
 sub-update-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Ad sirgeɣ{ -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ayyur</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ{ -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wayyuren</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ayyur</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wayyuren</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 sub-update-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox }, ad ines s tarrayt-iw n uxelleṣ <strong>{ $amount } yal aseggas</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d <privacyNoticeLink>tsertit n tbaḍnit </privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ{ -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yiseggasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yiseggasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
     }
 
 ##
