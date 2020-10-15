@@ -26,6 +26,7 @@ expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛ
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
 withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
 charge-exceeds-source-limit = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen neɣ deg 24 n yisragen.
+instant-payouts-unsupported = Ittban-d dakken takarḍa-k•m n uktum ur tettuswel ara i uxelleṣ askudan. Ɛreḍ s takarḍa-nniḍen n uktum neɣ n usmad.
 
 ## settings
 
