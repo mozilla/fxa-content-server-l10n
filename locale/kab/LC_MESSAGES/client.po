@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-10-15 11:31+0000\n"
+"PO-Revision-Date: 2020-10-15 11:53+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -925,7 +925,7 @@ msgstr "Xdem kra i tezmert yelhan n internet"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Taɣellist d tbaḍnit deg uẓeṭṭa akked Firefox d Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1699,7 +1699,7 @@ msgstr "Amek i nezmer ad ak-d-nmudd tallelt?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Tesriḍ i tallelt akked kra n usnas neɣ ameẓlu? (d afrayan)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2071,7 +2071,7 @@ msgstr "Nufa-d dkra n ccek deg umiḍan-ik Firefox. Akken ad tḥ€rzeḍ ami�
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Azray yemtawan, ticraḍ n yisebtar, tuqqniwin, d yisefka-nniḍen udmawanen ur ttruḥen ara."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
