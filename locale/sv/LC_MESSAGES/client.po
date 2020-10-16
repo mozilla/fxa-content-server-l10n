@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 16:04+0000\n"
-"PO-Revision-Date: 2020-09-19 14:38+0000\n"
-"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
+"POT-Creation-Date: 2020-10-16 16:03+0000\n"
+"PO-Revision-Date: 2020-10-13 01:29+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -2248,7 +2248,7 @@ msgstr "IP-adress: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Ett konto, många tjänster"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2276,11 +2276,11 @@ msgstr "Få koll på dataintrång."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "Ett VPN från den pålitliga föregångaren inom integritet på internet."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
