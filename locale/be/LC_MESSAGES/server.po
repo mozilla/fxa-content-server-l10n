@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 16:03+0000\n"
-"PO-Revision-Date: 2020-06-24 18:50+0000\n"
-"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
+"PO-Revision-Date: 2020-10-18 12:29+0000\n"
+"Last-Translator: Anna <aaneitchik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -16,19 +16,19 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2495
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Вось ваш напамін пра сінхранізацыю прылад."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2499
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Для сінхранізацыі патрэбныя двое. Сінхранізацыя іншай прылады з Firefox прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя Firefox аднолькавымі ўсюды, дзе вы выкарыстоўваеце Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2496
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Апошнi напамін пра сінхранізацыю прылад!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2502
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Сінхранізацыя іншай прылады з Firefox прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя Firefox аднолькавымі ўсюды, дзе вы выкарыстоўваеце Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -88,7 +88,7 @@ msgstr "Усяго найлепшага,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "Каманда ўліковых запісаў Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -218,8 +218,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі "
-"і пацвярджэння ўваходаў."
+"Вы паспяхова змянілі свой асноўны адрас электроннай пошты на %(email)s. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі і"
+" пацвярджэння ўваходаў."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -291,7 +291,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Сінхранізацыя прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя Firefox аднолькавымі на ўсіх вашых прыладах."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1304
 msgid "Setup next device"
@@ -619,11 +619,11 @@ msgstr "Пасля пацвярджэння, мы дапаможам вам ус
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Або ўсталюйце на <a %(desktopLinkAttributes)s>іншую настольную прыладу</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Або ўсталюйце на <a %(cadLinkAttributes)s>іншую прыладу</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -896,15 +896,15 @@ msgstr "Сцягнуць %(productName)s"
 
 #: lib/senders/email.js:2491
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Ваш сяброўскі напамін: Як завяршыць наладжванне сiнхранiзацыi"
 
 #: lib/senders/email.js:2492
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Апошнi напамін: Завяршыце наладжванне сінхранізацыі"
 
 #: lib/senders/email.js:2506
 msgid "Sync another device"
-msgstr ""
+msgstr "Сінхранізаваць іншую прыладу"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
