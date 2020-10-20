@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 16:03+0000\n"
-"PO-Revision-Date: 2020-10-20 15:22+0000\n"
+"PO-Revision-Date: 2020-10-20 15:25+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -630,7 +630,7 @@ msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਨੂੰ ਇੱਕ ਨਾ-ਪੜਤਾ�
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਨੂੰ ਐਸੇ ਈਮੇਲ ਵਿਚ ਤਬਦੀਲ ਕਰਨ ਵਿਚ ਅਸਮਰੱਥ, ਜੋ ਇਸ ਖਾਤੇ ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹੈ"
+msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਨੂੰ ਐਸੇ ਈਮੇਲ ਵਿਚ ਤਬਦੀਲ ਕਰਨ ਵਿਚ ਅਸਮਰੱਥ, ਜੋ ਇਸ ਖਾਤੇ ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹੈ"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
@@ -1168,7 +1168,7 @@ msgstr "ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਸਥਾਈ ਹੈ"
+msgstr "ਮੁੱਢਲਾ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
