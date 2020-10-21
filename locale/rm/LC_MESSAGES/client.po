@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 16:03+0000\n"
-"PO-Revision-Date: 2020-10-16 12:41+0000\n"
+"PO-Revision-Date: 2020-10-16 13:19+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -326,7 +326,7 @@ msgstr "Tias datas sincronisadas èn protegidas"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Sche ti avessas da perder l'access a tes conto, pudessas ti tuttina restaurar tias datas da sincronisaziun."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -334,11 +334,11 @@ msgstr "Cumenzar a navigar"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Cuntinuar cun %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -426,15 +426,15 @@ msgstr "Problems cun il conto"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "Problems tecnics"
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Dar in resun / dumandar novas funcziunalitads"
 
 #: .es5/models/support-form.js:25
 msgid "Not listed"
-msgstr ""
+msgstr "Betg inditgà"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -594,7 +594,7 @@ msgstr "Questa adressa dad e-mail è gia vegnida verifitgada dad in auter utilis
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Sesida betg verifitgada"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
@@ -602,11 +602,11 @@ msgstr "L'adressa dad e-mail alternativa sto esser differenta da l'adressa da te
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Ti has cuntanschì il dumber maximal dad adressas d'e-mail secundaras permessas"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Questa adressa d'e-mail exista gia en tes conto"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
@@ -883,11 +883,11 @@ msgstr "Renviament nunvalid"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Sbagl da tippar en l'adressa? %(domain)s na porscha naginas adressas dad e-mail."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "La datoteca dal maletg è memia gronda per il transferiment."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -919,15 +919,15 @@ msgstr "Pli segir e pli furber en l'internet"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Testar products da Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "S'engaschar per che l'internet restia saun"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Segirezza e protecziun da datas en l'internet cun Firefox e Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -995,7 +995,7 @@ msgstr "Utilisader/utilisadra u sessiun betg verifitgada"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint nunvalid"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1130,11 +1130,11 @@ msgstr "Dapli infurmaziuns"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Tscherna quai che duai vegnir sincronisà:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Selecziun per sincronisar"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
@@ -1244,7 +1244,7 @@ msgstr "Verifitgar"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Dovras in auter code? Trametter anc ina giada"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
