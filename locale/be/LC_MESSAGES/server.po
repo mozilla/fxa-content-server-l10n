@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 16:03+0000\n"
-"PO-Revision-Date: 2020-10-22 17:52+0000\n"
+"PO-Revision-Date: 2020-10-22 17:55+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -287,7 +287,7 @@ msgstr "Уліковы запіс Firefox пацверджаны. Амаль г�
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Наступная сінхранізацыя паміж вашымі прыладамі!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
@@ -948,6 +948,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Мы зараз моцна загружаны і працуем над тым, каб вярнуць\n"
+"          сістэму ў нармальны стан як мага хутчэй."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
