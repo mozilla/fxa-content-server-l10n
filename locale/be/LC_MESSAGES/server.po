@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 16:03+0000\n"
-"PO-Revision-Date: 2020-10-18 12:29+0000\n"
-"Last-Translator: Anna <aaneitchik@gmail.com>\n"
+"PO-Revision-Date: 2020-10-22 17:52+0000\n"
+"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -283,7 +283,7 @@ msgstr "Вы паспяхова адключылі двухэтапную аўт
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Уліковы запіс Firefox пацверджаны. Амаль гатова."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
