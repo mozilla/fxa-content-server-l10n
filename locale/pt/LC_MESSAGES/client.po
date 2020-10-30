@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
-"PO-Revision-Date: 2020-09-25 14:28+0000\n"
+"POT-Creation-Date: 2020-10-30 16:05+0000\n"
+"PO-Revision-Date: 2020-10-25 23:51+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -2253,7 +2253,7 @@ msgstr "Endereço IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Uma conta, muitos serviços"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2281,11 +2281,11 @@ msgstr "Fique de olho nas violações de dados."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "Uma VPN do pioneiro confiável em privacidade na Internet."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
+"POT-Creation-Date: 2020-10-30 16:05+0000\n"
 "PO-Revision-Date: 2020-09-13 19:26+0000\n"
 "Last-Translator: jlG <jlg.l10n.es@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,21 +14,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2495
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2487
 msgid "Here's your reminder to sync devices."
 msgstr "Aquí está tu recordatorio para sincronizar dispositivos."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2499
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2491
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Se necesitan dos para sincronizar. Sincronizar otro dispositivo con Firefox de forma privada mantiene tus marcadores, contraseñas y otros datos de Firefox iguales en todos los lugares donde usas "
 "Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2496
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2488
 msgid "Last reminder to sync devices!"
 msgstr "¡Último recordatorio para sincronizar dispositivos!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2502
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2494
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Sincronizar otro dispositivo con Firefox de forma privada mantiene tus marcadores, contraseñas y otros datos de Firefox iguales en todos los lugares donde usas Firefox."
 
@@ -65,7 +65,7 @@ msgstr "Hemos notado que te quedan pocos códigos de recuperación. Deberías re
 msgid "Generate codes:"
 msgstr "Generar códigos:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1262
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1254
 msgid "New sign-in to %(clientName)s"
 msgstr "Nuevo inicio de sesión en %(clientName)s"
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Descubre cómo ver qué contraseñas te guarda Firefox."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1674
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1666
 msgid "Account recovery key generated"
 msgstr "Clave de recuperación de cuenta generada"
 
@@ -238,7 +238,7 @@ msgstr "Has utilizado un código de recuperación desde el siguiente dispositivo
 msgid "Consumed recovery code"
 msgstr "Código de recuperación utilizado"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1541
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1533
 msgid "New recovery codes generated"
 msgstr "Nuevos códigos de recuperación generados"
 
@@ -246,7 +246,7 @@ msgstr "Nuevos códigos de recuperación generados"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Has generado correctamente nuevos códigos de recuperación desde el siguiente dispositivo:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1720
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1712
 msgid "Account recovery key removed"
 msgstr "Clave de recuperación de cuenta eliminada"
 
@@ -262,7 +262,7 @@ msgstr "Esta clave de recuperación ya no se puede usar para recuperar tu cuenta
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Has eliminado correctamente una clave de recuperación para tu cuenta de Firefox del siguiente dispositivo:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1421
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1413
 msgid "Secondary email removed"
 msgstr "Se eliminó el correo secundario"
 
@@ -300,7 +300,7 @@ msgstr "¡Ahora sincroniza tus dispositivos!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync mantiene de forma privada tus marcadores, contraseñas y otros datos de Firefox iguales en todos tus dispositivos."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1304
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1296
 msgid "Setup next device"
 msgstr "Configurar el siguiente dispositivo"
 
@@ -308,7 +308,7 @@ msgstr "Configurar el siguiente dispositivo"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "¿Tienes preguntas? Visita %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1349
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1341
 msgid "Secondary email added"
 msgstr "Se agregó una cuenta secundaria"
 
@@ -326,7 +326,7 @@ msgstr "¿Necesitas restablecer tu contraseña?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Haz clic en el botón en los próximos 60 minutos para crear una nueva. Esta solicitud la envió el siguiente dispositivo:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1084
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1076
 msgid "Create new password"
 msgstr "Crear nueva contraseña"
 
@@ -568,7 +568,7 @@ msgstr "Confirma tu cuenta y aprovecha Firefox al máximo cada vez que inicies s
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Para más seguridad, confirma este inicio de sesión desde el siguiente dispositivo:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:793
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:785
 msgid "Confirm sign-in"
 msgstr "Confirmar inicio de sesión"
 
@@ -744,184 +744,184 @@ msgstr "Cancelar suscripciones:"
 msgid "Update billing information:"
 msgstr "Actualizar información de facturación:"
 
-#: lib/senders/email.js:325
+#: lib/senders/email.js:317
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s en %(uaOS)s%(uaOSVersion)s"
 
-#: lib/senders/email.js:330
+#: lib/senders/email.js:322
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s en %(uaOS)s"
 
-#: lib/senders/email.js:356
+#: lib/senders/email.js:348
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:363
+#: lib/senders/email.js:355
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (aproximado)"
 
-#: lib/senders/email.js:368
+#: lib/senders/email.js:360
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (estimado)"
 
-#: lib/senders/email.js:373
+#: lib/senders/email.js:365
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (aproximado)"
 
-#: lib/senders/email.js:555
+#: lib/senders/email.js:547
 msgid "Finish creating your account"
 msgstr "Termina de crear tu cuenta"
 
-#: lib/senders/email.js:556 lib/senders/email.js:684
+#: lib/senders/email.js:548 lib/senders/email.js:676
 msgid "Confirm email"
 msgstr "Confirmar correo"
 
-#: lib/senders/email.js:623
+#: lib/senders/email.js:615
 msgid "Verification code: %(code)s"
 msgstr "Código de verificación: %(code)s"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:656
 msgid "Reminder: Finish creating your account"
 msgstr "Recordatorio: Termina de crear tu cuenta"
 
-#: lib/senders/email.js:666
+#: lib/senders/email.js:658
 msgid "Final reminder: Activate your account"
 msgstr "Último recordatorio: Activa tu cuenta"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:713
 msgid "Account authorization code"
 msgstr "Código de autorización de la cuenta"
 
-#: lib/senders/email.js:790
+#: lib/senders/email.js:782
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Confirmar el nuevo inicio de sesión en %(clientName)s"
 
-#: lib/senders/email.js:835
+#: lib/senders/email.js:827
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Código de inicio de sesión para %(serviceName)s"
 
-#: lib/senders/email.js:900
+#: lib/senders/email.js:892
 msgid "Confirm primary email"
 msgstr "Confirmar correo electrónico principal"
 
-#: lib/senders/email.js:901 lib/senders/email.js:960 lib/senders/email.js:1028
+#: lib/senders/email.js:893 lib/senders/email.js:952 lib/senders/email.js:1020
 msgid "Verify email"
 msgstr "Verificar correo electrónico"
 
-#: lib/senders/email.js:959 lib/senders/email.js:1027
+#: lib/senders/email.js:951 lib/senders/email.js:1019
 msgid "Confirm secondary email"
 msgstr "Confirmar correo electrónico secundario"
 
-#: lib/senders/email.js:1083
+#: lib/senders/email.js:1075
 msgid "Reset your password"
 msgstr "Restablecer tu contraseña"
 
-#: lib/senders/email.js:1125 lib/senders/email.js:1191
+#: lib/senders/email.js:1117 lib/senders/email.js:1183
 msgid "Password updated"
 msgstr "Contraseña actualizada"
 
-#: lib/senders/email.js:1163 lib/senders/email.js:1221
+#: lib/senders/email.js:1155 lib/senders/email.js:1213
 msgid "Suspicious activity detected"
 msgstr "Se ha detectado actividad sospechosa"
 
-#: lib/senders/email.js:1263 lib/senders/email.js:1350 lib/senders/email.js:1386 lib/senders/email.js:1422 lib/senders/email.js:1456 lib/senders/email.js:1499 lib/senders/email.js:1542
-#: lib/senders/email.js:1585 lib/senders/email.js:1675 lib/senders/email.js:1721
+#: lib/senders/email.js:1255 lib/senders/email.js:1342 lib/senders/email.js:1378 lib/senders/email.js:1414 lib/senders/email.js:1448 lib/senders/email.js:1491 lib/senders/email.js:1534
+#: lib/senders/email.js:1577 lib/senders/email.js:1667 lib/senders/email.js:1713
 msgid "Manage account"
 msgstr "Administrar cuenta"
 
-#: lib/senders/email.js:1299
+#: lib/senders/email.js:1291
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Cuenta verificada. Ahora sincroniza otro dispositivo para finalizar la configuración"
 
-#: lib/senders/email.js:1385
+#: lib/senders/email.js:1377
 msgid "Primary email updated"
 msgstr "Correo electrónico principal actualizado"
 
-#: lib/senders/email.js:1455
+#: lib/senders/email.js:1447
 msgid "Two-step verification enabled"
 msgstr "Activada la autenticación en dos pasos"
 
-#: lib/senders/email.js:1498
+#: lib/senders/email.js:1490
 msgid "Two-step verification is off"
 msgstr "Desactivada la autenticación en dos pasos"
 
-#: lib/senders/email.js:1584
+#: lib/senders/email.js:1576
 msgid "Recovery code used"
 msgstr "Código de recuperación utilizado"
 
-#: lib/senders/email.js:1637
+#: lib/senders/email.js:1629
 msgid "1 recovery code remaining"
 msgstr "Queda 1 código de recuperación"
 
-#: lib/senders/email.js:1639
+#: lib/senders/email.js:1631
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Quedan %(numberRemaining)s códigos de recuperación"
 
-#: lib/senders/email.js:1642
+#: lib/senders/email.js:1634
 msgid "Generate codes"
 msgstr "Generar códigos"
 
-#: lib/senders/email.js:1766
+#: lib/senders/email.js:1758
 msgid "Password updated using recovery key"
 msgstr "Contraseña actualizada usando la clave de recuperación"
 
-#: lib/senders/email.js:1767
+#: lib/senders/email.js:1759
 msgid "Create new recovery key"
 msgstr "Crea una clave de recuperación nueva"
 
-#: lib/senders/email.js:1833
+#: lib/senders/email.js:1825
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Te has actualizado a %(productNameNew)s"
 
-#: lib/senders/email.js:1912
+#: lib/senders/email.js:1904
 msgid "You have switched to %(productNameNew)s"
 msgstr "Has cambiado a %(productNameNew)s"
 
-#: lib/senders/email.js:1977
+#: lib/senders/email.js:1969
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Tarjeta de crédito para %(productName)s caduca pronto"
 
-#: lib/senders/email.js:1991
+#: lib/senders/email.js:1983
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "La tarjeta de crédito para tus suscripciones caduca pronto"
 
-#: lib/senders/email.js:2043
+#: lib/senders/email.js:2035
 msgid "%(productName)s payment failed"
 msgstr "Ha fallado el pago de %(productName)s"
 
-#: lib/senders/email.js:2094 lib/senders/email.js:2159
+#: lib/senders/email.js:2086 lib/senders/email.js:2151
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Tu suscripción a %(productName)s ha sido cancelada"
 
-#: lib/senders/email.js:2230
+#: lib/senders/email.js:2222
 msgid "%(productName)s subscription reactivated"
 msgstr "Suscripción a %(productName)s reactivada"
 
-#: lib/senders/email.js:2304
+#: lib/senders/email.js:2296
 msgid "%(productName)s payment received"
 msgstr "Pago recibido para %(productName)s"
 
-#: lib/senders/email.js:2392
+#: lib/senders/email.js:2384
 msgid "%(productName)s payment confirmed"
 msgstr "Pago confirmado para %(productName)s"
 
-#: lib/senders/email.js:2464
+#: lib/senders/email.js:2456
 msgid "Welcome to %(productName)s"
 msgstr "Bienvenido a %(productName)s"
 
-#: lib/senders/email.js:2465
+#: lib/senders/email.js:2457
 msgid "Download %(productName)s"
 msgstr "Descargar %(productName)s"
 
-#: lib/senders/email.js:2491
+#: lib/senders/email.js:2483
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Un amable recordatorio: Cómo completar tus ajustes de sincronización"
 
-#: lib/senders/email.js:2492
+#: lib/senders/email.js:2484
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Recordatorio final: Completar la configuración de Sync"
 
-#: lib/senders/email.js:2506
+#: lib/senders/email.js:2498
 msgid "Sync another device"
 msgstr "Sincronizar otro dispositivo"
 
