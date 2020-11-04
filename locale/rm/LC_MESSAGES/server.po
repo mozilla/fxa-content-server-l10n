@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-23 16:05+0000\n"
-"PO-Revision-Date: 2020-11-04 16:48+0000\n"
-"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
+"PO-Revision-Date: 2020-10-26 21:07+0000\n"
+"Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr "Il team dals contos da Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Impurtant: tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:8 lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
@@ -290,19 +290,19 @@ msgstr "Ti has deactivà cun success l'autentificaziun en dus pass per tes conto
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Verifitgà il conto da Firefox. Ti has quasi finì."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "Ed ussa sincronisescha tes apparats!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "La sincronisaziun segira garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da Firefox sin tut tes apparats."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1304
 msgid "Setup next device"
-msgstr ""
+msgstr "Configurar il proxim apparat"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -335,19 +335,19 @@ msgstr "Grazia per tscherner Firefox! Qua pos ti installar Firefox per telefonin
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Donn che ti vas"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Ti has dacurt stizzà tes conto da Firefox. En consequenza avain nus annullà tes abunament da %(productName)s. Tes pajament final da %(invoiceTotal)s è vegnì pajà ils %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr ""
+msgstr "Ans gida per plaschair da meglierar noss servetschs cun participar a questa <a %(cancellationSurveyLinkAttributes)s>curta enquista</a>."
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Ans gida per plaschair da meglierar noss servetschs cun participar a questa curta enquista:"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
