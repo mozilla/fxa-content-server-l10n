@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-23 16:05+0000\n"
-"PO-Revision-Date: 2020-11-04 17:50+0000\n"
-"Last-Translator: elenatambriz <elenatambriz@hotmail.com>\n"
+"PO-Revision-Date: 2020-11-04 18:04+0000\n"
+"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quc\n"
 "MIME-Version: 1.0\n"
@@ -115,36 +115,36 @@ msgstr "Jun chik"
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij <b>. Kqataq jun taqoqxa'nib'al awuk'  aninaq aq'anoq."
+msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij <b>%(escapedLowercaseTopic)s</b>. Kqataq jun taqoqxa'nib'al awuk'  aninaq aq'anoq."
 
 #: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij  <b>%(escapedLowercaseTopic)s <b> chech <b> %(escapedSelectedProduct)s </b>. kqataq jun taqoqxa'nib'al awuk' aninaq aq'anoq."
 
 #: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
 msgid "Password"
-msgstr ""
+msgstr "Retokib'al"
 
 #: .es5/views/settings/change_password.js:93
 msgid "Change..."
-msgstr ""
+msgstr "Uk'exik..."
 
 #: .es5/views/settings/change_password.js:210
 msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr ""
+msgstr "Are taq chk'is awumal, chakojo' le k'ak' aretokib'al chech umajixik kemchak a ronojel taq awiqkemchakub'al."
 
 #: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
-msgstr ""
+msgstr "Ojer retokib'al"
 
 #: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
-msgstr ""
+msgstr "¿Xasach le aretokib'al?"
 
 #: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
-msgstr ""
+msgstr "K'ak' retokib'al"
 
 #: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
