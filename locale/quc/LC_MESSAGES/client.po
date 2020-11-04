@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-23 16:05+0000\n"
-"PO-Revision-Date: 2020-11-04 18:04+0000\n"
+"PO-Revision-Date: 2020-11-04 18:13+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quc\n"
@@ -119,7 +119,7 @@ msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij <b>%(e
 
 #: .es5/views/support.js:271
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij  <b>%(escapedLowercaseTopic)s <b> chech <b> %(escapedSelectedProduct)s </b>. kqataq jun taqoqxa'nib'al awuk' aninaq aq'anoq."
+msgstr "Tyox chi awech chech ach'awem ruk' Toq'ab'al rech Mozilla chi rij  <b>%(escapedLowercaseTopic)s</b>  chech <b>%(escapedSelectedProduct)s</b>. kqataq jun taqoqxa'nib'al awuk' aninaq aq'anoq."
 
 #: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
 #: .es5/templates/settings/delete_account.mustache:19
