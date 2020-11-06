@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
-"PO-Revision-Date: 2020-09-25 14:28+0000\n"
+"POT-Creation-Date: 2020-11-06 16:04+0000\n"
+"PO-Revision-Date: 2020-10-25 23:51+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -1415,11 +1415,11 @@ msgstr "Pronto"
 msgid "Legal"
 msgstr "Informação legal"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Termos de serviço"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Aviso de privacidade"
 
@@ -1501,7 +1501,7 @@ msgstr "Email"
 msgid "Begin reset"
 msgstr "Iniciar reposição"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
 msgid "Recent Activity"
 msgstr "Atividade recente"
 
@@ -1537,7 +1537,7 @@ msgstr "O seu cartão de crédito expirou. Por favor, atualize-o <a %(escapedCcE
 msgid "Firefox Accounts"
 msgstr "Contas Firefox"
 
-#: .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:5
 msgid "Sign out"
 msgstr "Terminar sessão"
 
@@ -2253,7 +2253,7 @@ msgstr "Endereço IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Uma conta, muitos serviços"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2281,11 +2281,11 @@ msgstr "Fique de olho nas violações de dados."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "Uma VPN do pioneiro confiável em privacidade na Internet."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."

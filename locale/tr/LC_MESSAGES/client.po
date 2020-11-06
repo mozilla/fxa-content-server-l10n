@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
+"POT-Creation-Date: 2020-11-06 16:04+0000\n"
 "PO-Revision-Date: 2020-10-16 11:09+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1411,11 +1411,11 @@ msgstr "Hazır"
 msgid "Legal"
 msgstr "Yasal uyarılar"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Gizlilik Bildirimi"
 
@@ -1497,7 +1497,7 @@ msgstr "E-posta"
 msgid "Begin reset"
 msgstr "Sıfırlamayı başlat"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
 msgid "Recent Activity"
 msgstr "Son etkinlikler"
 
@@ -1533,7 +1533,7 @@ msgstr "Kredi kartınızın süresi dolmuş. Lütfen <a %(escapedCcExpiredLinkAt
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
 
-#: .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:5
 msgid "Sign out"
 msgstr "Çıkış yap"
 
