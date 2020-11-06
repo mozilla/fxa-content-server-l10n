@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
+"POT-Creation-Date: 2020-11-06 16:04+0000\n"
 "PO-Revision-Date: 2020-10-10 07:16+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1408,11 +1408,11 @@ msgstr "พร้อม"
 msgid "Legal"
 msgstr "ข้อกฎหมาย"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "ประกาศความเป็นส่วนตัว"
 
@@ -1493,7 +1493,7 @@ msgstr "อีเมล"
 msgid "Begin reset"
 msgstr "เริ่มต้นการตั้งค่าใหม่"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
 msgid "Recent Activity"
 msgstr "กิจกรรมล่าสุด"
 
@@ -1529,7 +1529,7 @@ msgstr "บัตรเครดิตของคุณหมดอายุแ
 msgid "Firefox Accounts"
 msgstr "บัญชี Firefox"
 
-#: .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:5
 msgid "Sign out"
 msgstr "ลงชื่อออก"
 

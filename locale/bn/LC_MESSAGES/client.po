@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
+"POT-Creation-Date: 2020-11-06 16:04+0000\n"
 "PO-Revision-Date: 2019-11-19 17:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1408,11 +1408,11 @@ msgstr ""
 msgid "Legal"
 msgstr "আইন"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "সেবার শর্তাবলী"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "গোপনীয়তা নীতি"
 
@@ -1492,7 +1492,7 @@ msgstr "ইমেইল"
 msgid "Begin reset"
 msgstr "রিসেট শুরু করুন"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
 msgid "Recent Activity"
 msgstr "সাম্প্রতিক কার্যকলাপ"
 
@@ -1528,7 +1528,7 @@ msgstr ""
 msgid "Firefox Accounts"
 msgstr "ফায়ারফক্স অ্যাকাউন্ট"
 
-#: .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:5
 msgid "Sign out"
 msgstr "সাইন আউট"
 

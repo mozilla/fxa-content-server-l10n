@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 16:05+0000\n"
+"POT-Creation-Date: 2020-11-06 16:04+0000\n"
 "PO-Revision-Date: 2020-10-12 23:59+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1413,11 +1413,11 @@ msgstr "Pronto"
 msgid "Legal"
 msgstr "Jurídico"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:9 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Termos do serviço"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
 msgid "Privacy Notice"
 msgstr "Aviso de privacidade"
 
@@ -1499,7 +1499,7 @@ msgstr "E-mail"
 msgid "Begin reset"
 msgstr "Redefinir"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:7
+#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
 msgid "Recent Activity"
 msgstr "Atividade recente"
 
@@ -1535,7 +1535,7 @@ msgstr "Seu cartão de crédito expirou. Atualize <a %(escapedCcExpiredLinkAttrs
 msgid "Firefox Accounts"
 msgstr "Contas Firefox"
 
-#: .es5/templates/settings.mustache:4
+#: .es5/templates/settings.mustache:5
 msgid "Sign out"
 msgstr "Sair"
 
