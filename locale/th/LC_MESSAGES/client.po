@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 16:04+0000\n"
-"PO-Revision-Date: 2020-11-08 07:42+0000\n"
+"PO-Revision-Date: 2020-11-08 07:43+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -2173,7 +2173,7 @@ msgstr "<span class=\"number\">3</span>ติดตั้ง Firefox และ�
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>ลงชื่อเข้าบัญชีของคุณ"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -2237,7 +2237,7 @@ msgstr "ที่อยู่ IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "บัญชีเดียว กับหลายบริการ"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2265,11 +2265,11 @@ msgstr "ให้เราช่วยคอยเฝ้าระวังดู
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "VPN จากผู้บุกเบิกด้านความเป็นส่วนตัวอินเทอร์เน็ตที่เชื่อถือได้"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
