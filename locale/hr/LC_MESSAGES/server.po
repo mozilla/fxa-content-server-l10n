@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 16:04+0000\n"
-"PO-Revision-Date: 2020-09-21 14:42+0000\n"
-"Last-Translator: Milo <mail@milotype.de>\n"
+"PO-Revision-Date: 2020-11-11 14:27+0000\n"
+"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr ""
+msgstr "Ako ovo nisi bila/bio ti, <a %(revokeAccountRecoveryLinkAttributes)s>klikni ovdje.</a>"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
-msgstr ""
+msgstr "Ako ovo nisi bila/bio ti, opozovi ključ."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
