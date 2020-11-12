@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 16:04+0000\n"
-"PO-Revision-Date: 2020-10-29 08:18+0000\n"
-"Last-Translator: Martin <mcmartin@gmx.ch>\n"
+"PO-Revision-Date: 2020-11-12 18:57+0000\n"
+"Last-Translator: Gion-Andri Cantieni <gion-andri@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
@@ -700,7 +700,7 @@ msgstr "Cundiziuns e reglas per l'annullaziun"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reactivar l'abunament"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
@@ -708,7 +708,7 @@ msgstr "Annullar l'abunament"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Annullar ils abunaments"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -716,11 +716,11 @@ msgstr "Actualisar las infurmaziuns per la facturaziun"
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "Infurmaziuns giuridicas"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "Protecziun da datas"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -736,7 +736,7 @@ msgstr "Annullar l'abunament:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Annullar ils abunaments:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -829,7 +829,7 @@ msgstr "Administrar il conto"
 
 #: lib/senders/email.js:1291
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Verifitgà il conto. Sincronisescha ussa in auter apparat per cumplettar la configuraziun"
 
 #: lib/senders/email.js:1377
 msgid "Primary email updated"
@@ -869,59 +869,59 @@ msgstr "Crear ina nova clav da recuperaziun"
 
 #: lib/senders/email.js:1825
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Ti has midà a %(productNameNew)s"
 
 #: lib/senders/email.js:1904
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Ti has midà a %(productNameNew)s"
 
 #: lib/senders/email.js:1969
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "La carta da credit per %(productName)s scada prest"
 
 #: lib/senders/email.js:1983
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "La carta da credit per tes abunaments scada prest"
 
 #: lib/senders/email.js:2035
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Il pajament per %(productName)s n'è betg reussì"
 
 #: lib/senders/email.js:2086 lib/senders/email.js:2151
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Tes abunament da %(productName)s è vegnì annullà"
 
 #: lib/senders/email.js:2222
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Reactivà l'abunament da %(productName)s"
 
 #: lib/senders/email.js:2296
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Retschavì il pajament per %(productName)s"
 
 #: lib/senders/email.js:2384
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Confermà il pajament per %(productName)s"
 
 #: lib/senders/email.js:2456
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Bainvegni tar %(productName)s"
 
 #: lib/senders/email.js:2457
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Telechargiar %(productName)s"
 
 #: lib/senders/email.js:2483
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Pitschna pro memoria: co cumplettar la configuraziun da Sync"
 
 #: lib/senders/email.js:2484
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Ultima pro memoria: cumplettar la configuraziun da la sincronisaziun"
 
 #: lib/senders/email.js:2498
 msgid "Sync another device"
-msgstr ""
+msgstr "Sincronisar in auter apparat"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -937,6 +937,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"La pagina che ti has dumandà n'è betg vegnida chattada. Nus essan infurmads\n"
+"          e vegnin a curreger eventuals defects da colliaziuns."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -951,6 +953,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Oh, qua è cumparì in problem. Nus essan infurmads\n"
+"          e lavurain per curreger l'errur."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -965,6 +969,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Actualmain è il sistem surchargià. Nus lavurain per ch'il sistem stettia\n"
+"          bainprest puspè a disposiziun sco usità."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
