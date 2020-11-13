@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 16:04+0000\n"
-"PO-Revision-Date: 2020-10-29 15:11+0000\n"
+"PO-Revision-Date: 2020-11-13 05:38+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -477,7 +477,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Anjeun geus laksana undak ti %(productNameOld)s ka %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -623,11 +623,11 @@ msgstr "Sanggeus dikonfirmasi, kami bakal mantuan anjeun masangkeun sarta nyambu
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Atawa, pasang dina <a %(desktopLinkAttributes)s>parabot déstop lianna</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Atawa, pasang dina <a %(cadLinkAttributes)s>séjén parabot</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -671,7 +671,7 @@ msgstr "Katangtuan Layanan Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Anjeun nampa ieu surélék kusabab %(email)s boga akun Firefox sarta anjeun daptar ka %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
@@ -679,7 +679,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Kokolakeun setélan akun Firefox anjeun di <a %(accountSettingsLinkAttributes)s>kaca akun</a>."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Terms and cancellation policy"
@@ -695,7 +695,7 @@ msgstr "Bolay daptar"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Bolay daptar"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -723,7 +723,7 @@ msgstr "Bolay daptar:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Bolay daptar:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -816,7 +816,7 @@ msgstr "Kokolakeun akun"
 
 #: lib/senders/email.js:1291
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Akun dipéripikasi. Salajengna, singkronkeun parabot séjénna pikeun nganggeuskeun setup"
 
 #: lib/senders/email.js:1377
 msgid "Primary email updated"
@@ -868,11 +868,11 @@ msgstr "Kartu kiridit keur %(productName)s téréh kadaluwarsa"
 
 #: lib/senders/email.js:1983
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Kartu kiridit keur pendaptaran anjeun téréh kadaluwarsa"
 
 #: lib/senders/email.js:2035
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "%(productName)s gagal ditawur"
 
 #: lib/senders/email.js:2086 lib/senders/email.js:2151
 msgid "Your %(productName)s subscription has been cancelled"
