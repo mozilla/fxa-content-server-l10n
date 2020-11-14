@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-13 16:04+0000\n"
-"PO-Revision-Date: 2020-11-14 13:05+0000\n"
+"PO-Revision-Date: 2020-11-14 13:10+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1861,7 +1861,7 @@ msgstr "Želiš otkazati plaćenu pretplatu? Idi na <a href=\"/subscriptions\">P
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
+msgstr "Tvoj Firefoxov račun je povezan s Mozillinim proizvodima koji te čine sigurnom i produktivnom osobom na webu:"
 
 #: .es5/templates/settings/delete_account.mustache:14
 msgid "Please acknowledge that by deleting your account:"
@@ -1873,7 +1873,7 @@ msgstr "Sve plaćene pretplate bit će otkazane"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Sva proširenja i teme objavljene na addons.mozilla.org bit će izbrisane"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1885,7 +1885,7 @@ msgstr "Ponovno aktiviranje s ovom e-poštom možda neće vratiti tvoje spremlje
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
+msgstr "Sekundarna adresa e-pošte je dodatna adresa za primanje sigurnosnih obavijesti i potvrdu novih uređaja."
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
@@ -2085,11 +2085,11 @@ msgstr "Prijavi se za daljnje informacije"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Praktično znanje stiže u tvoju ulaznu poštu."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "U svoju ulaznu poštu primi praktično znanje o:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -2201,7 +2201,7 @@ msgstr "Potvrdi lozinku za %(escapedEmail)s da bismo generirali ključ za oporav
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Unesi svoj ključ za oporavak da bi potvrdio/la da si spremio/la njegovu kopiju."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
