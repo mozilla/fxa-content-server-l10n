@@ -108,6 +108,12 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>mintga di { $amount }</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+       *[other] Jau permet a { -brand-name-mozilla }, l'organisaziun che realisescha ils products da { -brand-name-firefox }, da debitar cun mia metoda da pajament <strong>{ $amount } mintga { $intervalCount } dis</strong>, tenor las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+    }
 
 ##
 
