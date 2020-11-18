@@ -13,14 +13,24 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Zavrieť
 
 ## app error dialog
 
 general-error-heading = Všeobecná chyba aplikácie
 basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
+payment-error-1 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skúste to znova alebo sa obráťte na vydavateľa karty.
+payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
+expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
+insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
+withdrawal-count-limit-exceeded-error = Vyzerá to, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
+charge-exceeds-source-limit = Zdá sa, že touto transakciou prekročíte denný limit. Vyskúšajte inú kartu alebo to skúste o 24 hodín.
+coupon-expired = Zdá sa, že platnosť promo kódu skončila.
 
 ## settings
 
+settings-home = Domovská stránka účtu
 settings-subscriptions-title = Predplatné
 
 ## legal footer
@@ -76,13 +86,17 @@ payment-validate-zip-short = PSČ je príliš krátke
 ## subscription redirect
 
 sub-redirect-ready = Vaše predplatné je pripravené
+sub-redirect-copy = Venujte nám chvíľu času a povedzte nám o svojich skúsenostiach s nami.
+sub-redirect-skip-survey = Nie, ďakujem, chcem prejsť na produkt.
 
 ## fields
 
 default-input-error = Toto pole je povinné
+input-error-is-required = Pole "{ $label }" je povinné
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Skontrolujte svoje vylepšenie
 sub-update-failed = Aktualizácia plánu sa nepodarila
 sub-update-title = Platobné informácie
 sub-update-card-ending = Karta končiaca na { $last }
@@ -95,6 +109,7 @@ sub-update-card-exp = Koniec platnosti { $cardExpMonth }/{ $cardExpYear }
 
 sub-update-current-plan-label = Súčasný plán
 sub-update-new-plan-label = Nový plán
+sub-update-total-label = Nová suma spolu
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -109,27 +124,42 @@ sub-update-new-plan-label = Nový plán
 
 ##
 
+pay-update-card-exp = Vyprší { $expirationDate }
 pay-update-change-btn = Zmeniť
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Chcete aj naďalej používať { $name }?
+reactivate-confirm-button = Opätovne predplatiť
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Vaše predplatné ste zrušili { $date }.
+reactivate-panel-copy = Prístup k službe { $name } stratíte <strong>{ $date }</strong>.
+reactivate-success-copy = Ďakujeme. Všetko je nastavené.
 reactivate-success-button = Zavrieť
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problém pri načítaní predplatného
 sub-item-missing-msg = Skúste to znova neskôr.
+sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 sub-item-cancel-sub = Zrušiť predplatné
 account-activated = Váš účet je aktivovaný, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-contact = Kontaktujte podporu
+sub-route-idx-cancel-msg-title = Je nám veľmi ľúto, že odchádzate
+sub-route-idx-cancel-aside = Máte otázky? Navštívte <a>podporu organizácie { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Problém pri načítaní predplatného
+sub-customer-error =
+    .title = Problém pri načítaní zákazníka
+sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizované
 
 ## subscription create
 
@@ -140,9 +170,12 @@ sub-guarantee = 30 dňová záruka vrátenia peňazí
 plan-details-header = Podrobnosti o produkte
 plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
+plan-details-total-label = Celkom
 
 ## payment confirmation
 
+payment-confirmation-alert = Pre prevzatie kliknite sem
+payment-confirmation-mobile-alert = Neotvorila sa aplikácia? <a>Kliknite sem</a>
 payment-confirmation-heading = Ďakujeme, { $displayName }!
 payment-confirmation-heading-bak = Ďakujeme!
 payment-confirmation-subheading = Potvrdzovací e-mail sme poslali na
@@ -150,6 +183,9 @@ payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 payment-confirmation-billing-heading = Odberateľ
 payment-confirmation-details-heading = Podrobnosti o platbe
+payment-confirmation-amount = { $amount } za { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = končiaca na { $last4 }
+payment-confirmation-download-button = Pokračovať na prevzatie
