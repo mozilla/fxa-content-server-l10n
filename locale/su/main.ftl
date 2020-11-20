@@ -16,6 +16,8 @@ document =
 
 ## app error dialog
 
+general-error-heading = Éror aplikasi umum
+basic-error-message = Aya anu salah. Cobaan deui engké.
 
 ## settings
 
@@ -64,10 +66,11 @@ document =
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
