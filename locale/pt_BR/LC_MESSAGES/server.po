@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 16:05+0000\n"
-"PO-Revision-Date: 2020-11-24 12:35+0000\n"
+"PO-Revision-Date: 2020-11-24 22:12+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -220,8 +220,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Você alterou com sucesso o seu e-mail principal para %(email)s. Este endereço é agora o seu nome de usuário para acessar a sua Conta Firefox, assim como receber notificações de segurança e "
-"confirmações de acesso."
+"Você alterou com sucesso o seu email principal para %(email)s. Este endereço é agora seu nome de usuário para acessar sua Conta Firefox, assim como receber notificações de segurança e confirmações "
+"de acesso."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -261,11 +261,11 @@ msgstr "Você removeu com sucesso uma chave de recuperação de conta para sua C
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1413
 msgid "Secondary email removed"
-msgstr "E-mail secundário removido"
+msgstr "Email secundário removido"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Você removeu com sucesso %(secondaryEmail)s como um e-mail secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão mais enviadas para este endereço."
+msgstr "Você removeu com sucesso %(secondaryEmail)s como email secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão mais enviadas para este endereço."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
@@ -305,12 +305,12 @@ msgstr "Tem dúvidas? Visite %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1341
 msgid "Secondary email added"
-msgstr "E-mail secundário adicionado"
+msgstr "Email secundário adicionado"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 msgstr ""
-"Você confirmou com sucesso %(secondaryEmail)s como e-mail secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de e-mail."
+"Você confirmou com sucesso %(secondaryEmail)s como email secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
