@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 16:05+0000\n"
-"PO-Revision-Date: 2020-11-24 22:12+0000\n"
+"PO-Revision-Date: 2020-11-24 22:16+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -367,7 +367,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Se houver um novo software necessário instalar para usar o %(productNameNew)s, você receberá um e-mail separado com instruções de como baixar."
+msgstr "Se houver um novo software necessário instalar para usar o %(productNameNew)s, você receberá um email separado com instruções de como baixar."
 
 #: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
@@ -384,7 +384,7 @@ msgstr "Seu pagamento está em processamento e pode levar até quatro dias útei
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Você receberá um e-mail separado para baixar instruções de como começar a usar o %(productName)s."
+msgstr "Você receberá um email separado para baixar instruções de como começar a usar o %(productName)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
@@ -532,7 +532,7 @@ msgstr "Confirme agora e obtenha a tecnologia que luta por sua privacidade e a p
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr "Confirmar e-mail:"
+msgstr "Confirmar email:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -544,7 +544,7 @@ msgstr "Há quase uma semana você criou uma Conta Firefox, mas nunca a validou.
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Confirme este endereço de e-mail para ativar sua conta e deixe-nos saber que você está bem."
+msgstr "Confirme este endereço de email para ativar sua conta e deixe-nos saber que você está bem."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
@@ -576,7 +576,7 @@ msgstr "Expira em 5 minutos."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr "Validar e-mail principal"
+msgstr "Validar email principal"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -584,19 +584,19 @@ msgstr "Uma solicitação para efetuar uma alteração na conta foi feita a part
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Uma vez validado, será possível realizar alterações na conta nesse dispositivo, como adicionar um e-mail secundário."
+msgstr "Uma vez validado, será possível realizar alterações na conta nesse dispositivo, como adicionar um email secundário."
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "Validar e-mail:"
+msgstr "Validar email:"
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
-msgstr "Validar e-mail secundário"
+msgstr "Validar email secundário"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Foi feita uma solicitação para usar %(email)s como endereço de e-mail secundário da seguinte Conta Firefox:"
+msgstr "Foi feita uma solicitação para usar %(email)s como endereço de email secundário da seguinte Conta Firefox:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -624,7 +624,7 @@ msgstr "Preparar, apontar, sincronizar"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Confirme que você recebeu este e-mail e ajudaremos você a instalar e sincronizar o Firefox em todos os seus dispositivos começando com:"
+msgstr "Confirme que você recebeu este email e ajudaremos você a instalar e sincronizar o Firefox em todos os seus dispositivos começando com:"
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -640,7 +640,7 @@ msgstr "Ou instale em <a %(cadLinkAttributes)s>outro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Este é um e-mail automático. Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha</a>."
+msgstr "Este é um email automático. Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -648,15 +648,15 @@ msgstr "Para mais informações, visite o <a %(supportLinkAttributes)s>Suporte M
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Este é um e-mail automático. Se você não adicionou um novo dispositivo em sua Conta Firefox, deve alterar sua senha imediatamente em %(passwordChangeLink)s"
+msgstr "Este é um email automático. Se você não adicionou um novo dispositivo em sua Conta Firefox, deve alterar sua senha imediatamente em %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Este é um e-mail automático. Se você recebeu por engano, nenhuma ação é necessária."
+msgstr "Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Este é um e-mail automático. Se você não autorizou esta ação, <a %(resetLinkAttributes)s>redefina sua senha</a>."
+msgstr "Este é um email automático. Se você não autorizou esta ação, <a %(resetLinkAttributes)s>redefina sua senha</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -680,11 +680,11 @@ msgstr "Termos do serviço do Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Você está recebendo este e-mail porque %(email)s tem uma Conta Firefox e você assinou o %(productName)s."
+msgstr "Você está recebendo este email porque %(email)s tem uma Conta Firefox e você assinou o %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Você está recebendo este e-mail porque %(email)s tem uma Conta Firefox e você assinou vários produtos."
+msgstr "Você está recebendo este email porque %(email)s tem uma Conta Firefox e você assinou vários produtos."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -768,7 +768,7 @@ msgstr "Concluir a criação da sua conta"
 
 #: lib/senders/email.js:548 lib/senders/email.js:676
 msgid "Confirm email"
-msgstr "Confirmar e-mail"
+msgstr "Confirmar email"
 
 #: lib/senders/email.js:615
 msgid "Verification code: %(code)s"
@@ -796,15 +796,15 @@ msgstr "Código de acesso em %(serviceName)s"
 
 #: lib/senders/email.js:892
 msgid "Confirm primary email"
-msgstr "Confirmar e-mail principal"
+msgstr "Confirmar email principal"
 
 #: lib/senders/email.js:893 lib/senders/email.js:952 lib/senders/email.js:1020
 msgid "Verify email"
-msgstr "Validar e-mail"
+msgstr "Validar email"
 
 #: lib/senders/email.js:951 lib/senders/email.js:1019
 msgid "Confirm secondary email"
-msgstr "Confirmar e-mail secundário"
+msgstr "Confirmar email secundário"
 
 #: lib/senders/email.js:1075
 msgid "Reset your password"
@@ -829,7 +829,7 @@ msgstr "Conta validada. Agora sincronize outro dispositivo para concluir a confi
 
 #: lib/senders/email.js:1377
 msgid "Primary email updated"
-msgstr "E-mail principal atualizado"
+msgstr "Email principal atualizado"
 
 #: lib/senders/email.js:1447
 msgid "Two-step verification enabled"
