@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 16:05+0000\n"
-"PO-Revision-Date: 2020-11-24 12:20+0000\n"
+"PO-Revision-Date: 2020-11-24 12:24+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -372,7 +372,7 @@ msgstr "Se houver um novo software necessário instalar para usar o %(productNam
 #: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Sua inscrição é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar."
+msgstr "Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -680,7 +680,7 @@ msgstr "Termos do serviço do Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Você está recebendo este e-mail porque %(email)s tem uma Conta Firefox e você se inscreveu no %(productName)s."
+msgstr "Você está recebendo este e-mail porque %(email)s tem uma Conta Firefox e você assinou o %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
@@ -700,7 +700,7 @@ msgstr "Reativar assinatura"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
-msgstr "Cancelar inscrição"
+msgstr "Cancelar assinatura"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
@@ -728,7 +728,7 @@ msgstr "Aviso de privacidade:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr "Cancelar inscrição:"
+msgstr "Cancelar assinatura:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
@@ -885,7 +885,7 @@ msgstr "Falha no pagamento de %(productName)s"
 
 #: lib/senders/email.js:2086 lib/senders/email.js:2151
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Sua inscrição de %(productName)s foi cancelada"
+msgstr "Sua assinatura de %(productName)s foi cancelada"
 
 #: lib/senders/email.js:2222
 msgid "%(productName)s subscription reactivated"
