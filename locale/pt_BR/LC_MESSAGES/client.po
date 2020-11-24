@@ -2096,7 +2096,7 @@ msgstr "Conhecimento prático está indo para sua caixa de entrada."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr "Receba conhecimento prático por e-mail sobre:"
+msgstr "Receba conhecimento prático por email sobre:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -2284,7 +2284,7 @@ msgstr "Fique seguro e não reuse senhas."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr "Não deve ser seu endereço de e-mail"
+msgstr "Não deve ser seu endereço de email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
