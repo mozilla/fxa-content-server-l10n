@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 16:07+0000\n"
-"PO-Revision-Date: 2020-11-14 13:14+0000\n"
+"PO-Revision-Date: 2020-12-07 20:04+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -243,11 +243,11 @@ msgstr "Ključ za oporavak računa je uklonjen"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen pomoću sljedećeg uređaja:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Ovaj ključ za oporavak više se ne može koristiti za oporavak tvog računa."
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
