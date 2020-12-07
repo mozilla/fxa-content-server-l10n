@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 16:07+0000\n"
-"PO-Revision-Date: 2020-12-07 20:04+0000\n"
+"PO-Revision-Date: 2020-12-07 20:11+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -251,7 +251,7 @@ msgstr "Ovaj ključ za oporavak više se ne može koristiti za oporavak tvog ra�
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen sa sljedećeg uređaja:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1417
 msgid "Secondary email removed"
@@ -367,11 +367,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Zahvaljujemo na pretplati na %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Tvoja uplata trenutno se obrađuje i može potrajati do četiri radna dana."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
@@ -443,7 +443,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "Zahvaljujemo na ponovnoj pretplati na %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -489,19 +489,19 @@ msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Je li ovo tvoja prijava?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Ako da, ovo je potrebni autorizacijski kôd:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću <a %(reportSignInLinkAttributes)s>prijave problema.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema."
 
 #: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
@@ -509,7 +509,7 @@ msgstr "Dobro došao/Dobro došla u obitelj Firefox"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Prije nekoliko dana stvoren je tvoj Firefox račun, ali nije potvrđen."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -649,11 +649,11 @@ msgstr ""
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP adresa: %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr ""
+msgstr "Upravljaj računom:"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -826,7 +826,7 @@ msgstr "Dvofaktorska autentifikacija isključena"
 
 #: lib/senders/email.js:1580
 msgid "Recovery code used"
-msgstr ""
+msgstr "Iskorišten kôd za oporavak"
 
 #: lib/senders/email.js:1633
 msgid "1 recovery code remaining"
@@ -866,23 +866,23 @@ msgstr "Rok kreditne kartice za tvoju pretplatu uskoro istječe"
 
 #: lib/senders/email.js:2039
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Uplata za %(productName)s nije uspjela"
 
 #: lib/senders/email.js:2090 lib/senders/email.js:2155
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Tvoja pretplata na %(productName)s je otkazana"
 
 #: lib/senders/email.js:2226
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Pretplata na %(productName)s ponovno je aktivirana"
 
 #: lib/senders/email.js:2300
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Uplata za %(productName)s je primljena"
 
 #: lib/senders/email.js:2388
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Uplata za %(productName)s je potvrđena"
 
 #: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"

@@ -22,14 +22,18 @@ general-error-heading = Opća greška programa
 
 ## settings
 
+settings-home = Početna stranica računa
 settings-subscriptions-title = Pretplate
 
 ## legal footer
 
 terms = Uvjeti usluge
+privacy = Napomena o privatnosti
 
 ## plan details
 
+product-plan-details-heading = Postavimo tvoju pretplatu
+product-plan-details-heading = Postavimo tvoju pretplatu
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -80,6 +84,8 @@ default-input-error = Ovo je obavezno polje
 ## subscription upgrade
 
 product-plan-upgrade-heading = Pregledaj svoju nadogradnju
+sub-update-title = Informacije o plaćanju
+sub-update-card-ending = Kartica završava s { $last }
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -88,15 +94,17 @@ sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-update-submit = Potvrdi nadogradnju
+sub-update-current-plan-label = Trenutna tarifa
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
