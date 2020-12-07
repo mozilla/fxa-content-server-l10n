@@ -94,7 +94,11 @@ sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-update-submit = Potvrdi nadogradnju
+sub-update-indicator =
+    .aria-label = indikator nadogradnje
 sub-update-current-plan-label = Trenutna tarifa
+sub-update-new-plan-label = Nova tarifa
+sub-update-total-label = Nova cijena
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -119,6 +123,7 @@ reactivate-confirm-button = Obnovi pretplatu
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Hvala! Spremno je.
 reactivate-success-button = Zatvori
 
 ## subscription item
@@ -127,6 +132,7 @@ reactivate-success-button = Zatvori
 
 sub-item-missing = Problem s učitavanjem pretplata
 sub-item-missing-msg = Pokušaj ponovo kasnije.
+sub-item-no-such-plan = Ne postoji takva tarifa za ovu pretplatu.
 sub-item-cancel-sub = Otkaži pretplatu
 account-activated = Tvoj je račun aktiviran, <userEl/>
 
@@ -153,6 +159,7 @@ payment-confirmation-alert = Pritisni ovdje za preuzimanje
 payment-confirmation-mobile-alert = Program se nije otcorio? <a>Klikni ovdje</a>
 payment-confirmation-heading = Hvala { $displayName }!
 payment-confirmation-heading-bak = Hvala!
+payment-confirmation-subheading = E-poruka s potvrdom poslana je na
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-details-heading = Podaci o plaćanju
