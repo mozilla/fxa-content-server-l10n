@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-11 16:08+0000\n"
-"PO-Revision-Date: 2020-12-11 18:43+0000\n"
+"PO-Revision-Date: 2020-12-11 18:44+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr ""
+msgstr "దీన్ని మార్చింది మీరు కాకపోతే, దయచేసి ఇప్పుడే మీ సంకేతపదాన్ని ఇక్కడ రీసెట్ చేయండి %(resetLink)s"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
 msgid "Your account password was reset with a recovery key"
