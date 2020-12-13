@@ -293,6 +293,7 @@ sub-item-missing-msg = Lütfen daha sonra tekrar deneyin.
 sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
 sub-item-cancel-sub = Aboneliği iptal et
 sub-item-stay-sub = Aboneliğimi sürdür
+sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
 account-activated = <userEl/>, hesabınız etkinleştirildi
 
 ## subscription route index
