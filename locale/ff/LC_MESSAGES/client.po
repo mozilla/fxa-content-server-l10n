@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 16:08+0000\n"
+"POT-Creation-Date: 2020-12-18 16:07+0000\n"
 "PO-Revision-Date: 2020-05-19 19:01+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -101,7 +101,7 @@ msgstr "Seŋiima"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Konte anndaaka. <a href=\"/signup\">Winndito</a>"
 
-#: .es5/views/sign_up_password.js:87
+#: .es5/views/sign_up_password.js:82
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konte ɗee nattii woodde. Sostu-ɗe?"
 

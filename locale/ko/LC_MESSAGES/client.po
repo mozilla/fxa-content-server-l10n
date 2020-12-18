@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 16:08+0000\n"
+"POT-Creation-Date: 2020-12-18 16:07+0000\n"
 "PO-Revision-Date: 2020-10-13 09:03+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr "연결됨"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "계정을 확인할 수 없습니다. <a href=\"/signup\">가입하기</a>"
 
-#: .es5/views/sign_up_password.js:87
+#: .es5/views/sign_up_password.js:82
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
