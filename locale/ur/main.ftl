@@ -76,6 +76,7 @@ payment-pay-btn = ابھی ادا کریں
 
 ##
 
+sub-update-current-plan-label = موجودہ منصوبہ
 sub-update-new-plan-label = نیا منصوبہ
 
 ## subscription upgrade plan details
@@ -97,9 +98,11 @@ pay-update-change-btn = تبدیل کریں
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name }کا استعمال جاری رکھنا چاہتے ہیں؟
+reactivate-confirm-button = دوبارہ رکن بنیں
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = شکریہ! آپ بالکل تیار ہیں۔
 reactivate-success-button = بند کریں
 
 ## subscription item
@@ -107,9 +110,11 @@ reactivate-success-button = بند کریں
 ## $period (Date) - The last day of product access
 
 sub-item-missing-msg = برہ بہربانی بعد ازاں دوبارہ کوشش کریں
+sub-item-cancel-sub = رکنیت منسوخ کریں
 
 ## subscription route index
 
+sub-route-idx-cancel-failed = رکنیت سازی  منسوخ کرنے میں ناکام ہوگیا
 sub-route-idx-cancel-msg-title = ہمیں آپ کو جاتے دیکھ کر افسوس ہے  ۔
 
 ## subscription create
@@ -126,6 +131,7 @@ plan-details-total-label = کل
 
 payment-confirmation-mobile-alert = ایپ نہیں کھلی؟ <a> یہاں کلک کریں </a>
 payment-confirmation-heading-bak = شکریہ!
+payment-confirmation-details-heading = ادائیگی کی تفصیلات
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 

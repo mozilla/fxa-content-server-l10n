@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2020-02-29 12:04+0000\n"
-"Last-Translator: Shahbaz - محمد شہباز عالم <shahbazalam17feb@gmail.com>\n"
+"PO-Revision-Date: 2020-12-21 08:35+0000\n"
+"Last-Translator: Shazia Mansoor <shaz_dvm@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "Firefox  اکاؤنٹ کی تصدیق ہوگئی۔ آپ تقریباً   وہاں ہیں ۔"
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -324,7 +324,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "جاتے ہوئے دیکھ کر افسوس ہو رہا ہے "
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -695,15 +695,15 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "قانونى"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "رازداری"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "شرائط اور منسوخی کی پالیسی"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
@@ -715,7 +715,7 @@ msgstr "رکنیت منسوخ کریں:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "رکنیت منسوخ کریں:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -884,7 +884,7 @@ msgstr ""
 
 #: lib/senders/email.js:2456
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "%(productName)s میں خوش آمدید"
 
 #: lib/senders/email.js:2457
 msgid "Download %(productName)s"
@@ -1115,8 +1115,7 @@ msgstr "تازہ ترین ڈاؤن لوڈ کریں"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
