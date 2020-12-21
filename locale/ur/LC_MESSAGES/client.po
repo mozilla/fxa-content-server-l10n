@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2020-12-21 08:13+0000\n"
-"Last-Translator: shaz_dvm <shaz_dvm@yahoo.com>\n"
+"PO-Revision-Date: 2020-12-21 08:50+0000\n"
+"Last-Translator: Shazia Mansoor <shaz_dvm@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -424,7 +424,7 @@ msgstr "اکاؤنٹ کے مسائل"
 
 #: .es5/models/support-form.js:25
 msgid "Technical issues"
-msgstr ""
+msgstr "تکنیکی مسلہ "
 
 #: .es5/models/support-form.js:25
 msgid "Provide feedback / request features"
@@ -917,7 +917,7 @@ msgstr " آن لائن محفوظ اور ہوشیار رہیں"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr " Firefox  مصنوعات کی جانچ "
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
@@ -1899,7 +1899,7 @@ msgstr "تازہ کریں"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr ""
+msgstr "ای میل شامل کریں"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -2033,7 +2033,7 @@ msgstr "ہو گیا ، بازیابی کی کلید محفوظ ہوگئی پے"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "ثانوی ای میل پتہ شامل کریں"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -2046,11 +2046,11 @@ msgstr "‏‏شاید بعد میں"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "ایک مختلف ای میل استعمال کریں"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "برائے مہربانی اپنا پاس ورڈ تبدیل کریں"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
@@ -2067,15 +2067,15 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "نیا پاس ورڈ دوبارہ درج کریں"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
-msgstr ""
+msgstr "پاس ورڈ تبدیل کریں"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "مزید کے لئے سائن اپ کریں"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
@@ -2131,7 +2131,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "سکین کرنے کے لئے تیار"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
