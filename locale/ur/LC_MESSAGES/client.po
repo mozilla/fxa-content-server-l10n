@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2020-12-21 09:33+0000\n"
-"Last-Translator: Shazia Mansoor <shaz_dvm@yahoo.com>\n"
+"PO-Revision-Date: 2020-12-22 12:11+0000\n"
+"Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -604,7 +604,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "یہ ای میل آپ کے اکاؤنٹ پر پہلے سے موجود ہے"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
@@ -1252,7 +1252,7 @@ msgstr "تصدیق شدہ ای میل"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "اپنا سیٹ اپ مکمل کریں"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1389,7 +1389,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "اس کے بجائے QR کوڈ اسکین کریں؟"
 
 #: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
 msgid "Security code"
@@ -1505,7 +1505,7 @@ msgstr "تصدیق شدہ"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "پر پیدا کیا"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
