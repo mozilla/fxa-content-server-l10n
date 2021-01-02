@@ -41,6 +41,14 @@ product-plan-details-heading = Postavimo tvoju pretplatu
 
 ## Product route
 
+product-plan-error =
+    .title = Problem s učitavanjem tarifa
+product-profile-error =
+    .title = Problem s učitavanjem profila
+product-customer-error =
+    .title = Problem s učitavanjem kupca
+product-plan-not-found = Tarifa nije pronađena
+product-no-such-plan = Za ovaj proizvod ne postoji takva tarifa.
 
 ## payment legal blurb
 
@@ -80,10 +88,12 @@ sub-redirect-ready = Tvoja pretplata je spremna
 ## fields
 
 default-input-error = Ovo je obavezno polje
+input-error-is-required = Polje { $label } je obavezno
 
 ## subscription upgrade
 
 product-plan-upgrade-heading = Pregledaj svoju nadogradnju
+sub-update-failed = Ažuriranje tarife nije uspjelo
 sub-update-title = Informacije o plaćanju
 sub-update-card-ending = Kartica završava s { $last }
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
@@ -134,6 +144,7 @@ sub-item-missing = Problem s učitavanjem pretplata
 sub-item-missing-msg = Pokušaj ponovo kasnije.
 sub-item-no-such-plan = Ne postoji takva tarifa za ovu pretplatu.
 sub-item-cancel-sub = Otkaži pretplatu
+sub-item-stay-sub = Zadrži pretplatu
 account-activated = Tvoj je račun aktiviran, <userEl/>
 
 ## subscription route index
@@ -142,9 +153,14 @@ sub-route-idx-updating = Aktualiziranje podataka naplaćivanja …
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
 sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
 sub-route-idx-contact = Obrati se podršci
+sub-subscription-error =
+    .title = Problem s učitavanjem pretplata
+sub-customer-error =
+    .title = Problem s učitavanjem kupca
 
 ## subscription create
 
+sub-guarantee = 30-dnevno jamstvo povrata novca
 
 ## plan-details
 
