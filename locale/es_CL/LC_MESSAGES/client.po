@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2021-01-03 22:50+0000\n"
+"PO-Revision-Date: 2021-01-03 23:01+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1274,7 +1274,7 @@ msgstr "¿Sigues añadiendo dispositivos?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Conectarse a Firefox en otro dispositivo para completar la configuración"
+msgstr "Conéctate a Firefox en otro dispositivo para completar la configuración"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1282,11 +1282,11 @@ msgstr "¿Todavía añadiendo dispositivos? Conéctate a Firefox en otro disposi
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Conectarse a Firefox para Android para completar la configuración"
+msgstr "Conéctate a Firefox para Android para completar la configuración"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Conectarse a Firefox para iOS para completar la configuración"
+msgstr "Conéctate a Firefox para iOS para completar la configuración"
 
 #: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
