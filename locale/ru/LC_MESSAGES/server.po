@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2021-01-06 16:49+0000\n"
+"PO-Revision-Date: 2018-04-20 18:12+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -200,11 +200,11 @@ msgstr "Если это были не вы, отзовите ключ."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr "Двухфакторная аутентификация включена"
+msgstr "Двухэтапная аутентификация включена"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Вы успешно включили двухфакторную аутентификацию в вашем Аккаунте Firefox со следующего устройства:"
+msgstr "Вы успешно включили двухэтапную аутентификацию в вашем Аккаунте Firefox со следующего устройства:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."

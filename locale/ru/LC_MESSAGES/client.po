@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 16:07+0000\n"
-"PO-Revision-Date: 2021-01-06 16:51+0000\n"
+"PO-Revision-Date: 2021-01-06 17:01+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -32,7 +32,7 @@ msgstr "Войти"
 
 #: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Используйте код %(code)s для настройки двухфакторной аутентификации в поддерживаемых приложениях."
+msgstr "Используйте код %(code)s для настройки двухэтапной аутентификации в поддерживаемых приложениях."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -302,11 +302,11 @@ msgstr "Сгенерированы новые коды восстановлен�
 
 #: .es5/views/settings/two_step_authentication.js:161
 msgid "Two-step authentication removed"
-msgstr "Двухфакторная аутентификация отключена"
+msgstr "Двухэтапная аутентификация отключена"
 
 #: .es5/views/settings/two_step_authentication.js:197
 msgid "Two-step Authentication"
-msgstr "Двухфакторная аутентификация"
+msgstr "Двухэтапная аутентификация"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
@@ -382,7 +382,7 @@ msgstr "Коды восстановления Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
-msgstr "Двухфакторная аутентификация включена"
+msgstr "Двухэтапная аутентификация включена"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Recovery Key"
@@ -674,7 +674,7 @@ msgstr "Некорректный ключ восстановления"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
-msgstr "Для выполнения этого запроса необходимо включить двухфакторную аутентификацию в вашем аккаунте."
+msgstr "Для выполнения этого запроса необходимо включить двухэтапную аутентификацию в вашем аккаунте."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
@@ -855,11 +855,11 @@ msgstr "Номер телефона обязателен"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr "Требуется код двухфакторной аутентификации"
+msgstr "Требуется код двухэтапной аутентификации"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr "Неверный код двухфакторной аутентификации"
+msgstr "Неверный код двухэтапной аутентификации"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
@@ -1363,7 +1363,7 @@ msgstr "Подтвердить"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "Включить двухфакторную аутентификацию"
+msgstr "Включить двухэтапную аутентификацию"
 
 #: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
