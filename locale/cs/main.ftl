@@ -130,10 +130,12 @@ payment-validate-zip-short = PSČ je příliš krátké
 ## subscription redirect
 
 sub-redirect-ready = Vaše předplatné je připraveno
+sub-redirect-copy = Věnujte nám prosím chvilku a sdělte nám své zkušenosti.
 
 ## fields
 
 default-input-error = Toto pole je povinné
+input-error-is-required = Pole „{ $label }“ je povinné
 
 ## subscription upgrade
 
