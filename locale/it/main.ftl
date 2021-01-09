@@ -338,7 +338,7 @@ plan-details-total-label = Totale
 ## payment confirmation
 
 payment-confirmation-alert = Fai clic qui per scaricare
-payment-confirmation-mobile-alert = L'app non si è aperta? <a>Fai clic qui</a>
+payment-confirmation-mobile-alert = L’app non si è aperta? <a>Fai clic qui</a>
 payment-confirmation-heading = Grazie { $displayName }!
 payment-confirmation-heading-bak = Grazie!
 payment-confirmation-subheading = Un’email di conferma è stata inviata a
