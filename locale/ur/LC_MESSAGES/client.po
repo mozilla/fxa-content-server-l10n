@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 16:08+0000\n"
-"PO-Revision-Date: 2021-01-12 14:54+0000\n"
+"PO-Revision-Date: 2021-01-12 15:34+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -885,7 +885,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "تصویری فائل کا سائز اتنا بڑا ہے کہ اسے اپ لوڈ نہیں کیا جاسکتا۔"
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1349,7 +1349,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "بازیافت کوڈ"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1357,7 +1357,7 @@ msgstr "تصدیق کریں"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "دو قدمی توثیق کو فعال کریں"
 
 #: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1629,7 +1629,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "اپنے فون پر Firefox انسٹال کرنے کے لئے ایس ایم ایس کے ذریعہ ایک لنک بھیجیں۔"
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -2001,7 +2001,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "مرحلہ 1 بٹا 2: پاس ورڈ دوبارہ داخل کریں"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -2231,7 +2231,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "ایک اکاؤنٹ ، بہت سی خدمات"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
