@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 16:09+0000\n"
+"POT-Creation-Date: 2021-01-22 16:07+0000\n"
 "PO-Revision-Date: 2021-01-06 17:01+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
@@ -29,6 +29,10 @@ msgstr "Пароль успешно сброшен. Войдите, чтобы �
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
 msgstr "Войти"
+
+#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+msgid "Account deleted successfully"
+msgstr "Аккаунт успешно удалён"
 
 #: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -258,10 +262,6 @@ msgstr "Веб-сессия"
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
 msgstr "Время последней активности неизвестно"
-
-#: .es5/views/settings/delete_account.js:217
-msgid "Account deleted successfully"
-msgstr "Аккаунт успешно удалён"
 
 #: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4

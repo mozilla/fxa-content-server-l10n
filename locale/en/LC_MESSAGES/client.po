@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 16:09+0000\n"
+"POT-Creation-Date: 2021-01-22 16:07+0000\n"
 "PO-Revision-Date: 2014-09-03 08:41+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 #: .es5/views/force_auth.js:197 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
+msgstr ""
+
+#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+msgid "Account deleted successfully"
 msgstr ""
 
 #: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
@@ -255,10 +259,6 @@ msgstr ""
 
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
-msgstr ""
-
-#: .es5/views/settings/delete_account.js:217
-msgid "Account deleted successfully"
 msgstr ""
 
 #: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
