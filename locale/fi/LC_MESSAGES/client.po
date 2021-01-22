@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-15 16:09+0000\n"
+"POT-Creation-Date: 2021-01-22 16:07+0000\n"
 "PO-Revision-Date: 2020-10-21 10:54+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
 msgstr "Kirjaudu sisään"
+
+#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+msgid "Account deleted successfully"
+msgstr "Tilin poistaminen onnistui"
 
 #: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -257,10 +261,6 @@ msgstr "Verkkoistunto"
 #: .es5/views/settings/clients.js:146
 msgid "Last seen time unknown"
 msgstr "Viimeksi nähty -ajankohta tuntematon"
-
-#: .es5/views/settings/delete_account.js:217
-msgid "Account deleted successfully"
-msgstr "Tilin poistaminen onnistui"
 
 #: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
 #: .es5/templates/settings/account_recovery/account_recovery.mustache:4
