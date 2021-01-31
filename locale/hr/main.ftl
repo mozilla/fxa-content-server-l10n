@@ -189,6 +189,20 @@ pay-update-change-btn = Promijeni
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Pristup na { $name } će se nastaviti i ciklus naplate i plaćanje
+    ostat će isti. Sljedeće opterećenje iznosi { $amount } na 
+    karticu koja završava s { $last } na { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Pristup na { $name } će se nastaviti i ciklus naplate i plaćanje
+    ostat će isti. Sljedeće opterećenje iznosi { $amount }
+    na { $endDate }.
 reactivate-confirm-button = Obnovi pretplatu
 
 ##  $date (Date) - Last day of product access
