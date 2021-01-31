@@ -239,6 +239,7 @@ payment-confirmation-heading-bak = Hvala!
 payment-confirmation-subheading = E-poruka s potvrdom poslana je na
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
+payment-confirmation-billing-heading = Naplata za
 payment-confirmation-details-heading = Podaci o plaćanju
 payment-confirmation-amount = { $amount } / { $interval }
 
