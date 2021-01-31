@@ -163,6 +163,20 @@ sub-plan-price-week =
         [few] { $amount } svaka { $intervalCount } tjedna
        *[other] { $amount } svakih { $intervalCount } tjedana
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mjesečno
+        [few] { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $amount } svakih { $intervalCount } mjeseci
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } godišnje
+        [few] { $amount } svake { $intervalCount } godine
+       *[other] { $amount } svakih { $intervalCount } godina
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
