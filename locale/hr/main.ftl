@@ -94,9 +94,13 @@ input-error-is-required = Polje { $label } je obavezno
 
 product-plan-upgrade-heading = Pregledaj nadogradnju
 sub-update-failed = Neuspjelo aktualiziranje tarife
-sub-update-title = Informacije o plaćanju
+sub-update-title = Podaci naplate
 sub-update-card-ending = Kartica završava s { $last }
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Tvoju ćemo tarifu odmah promijeniti i naplatiti prilagođen iznos
+    za ostatak obračunskog razdoblja. Počevši od { $startingDate }
+    naplatit ćemo puni iznos.
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -106,9 +110,9 @@ sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 sub-update-submit = Potvrdi nadogradnju
 sub-update-indicator =
     .aria-label = indikator nadogradnje
-sub-update-current-plan-label = Trenutna tarifa
+sub-update-current-plan-label = Trenutačna tarifa
 sub-update-new-plan-label = Nova tarifa
-sub-update-total-label = Nova cijena
+sub-update-total-label = Nov ukupni iznos
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -185,6 +189,7 @@ sub-subscription-error =
     .title = Problem s učitavanjem pretplata
 sub-customer-error =
     .title = Problem s učitavanjem kupca
+sub-billing-update-success = Podaci naplate uspješno su aktualizirani
 
 ## subscription create
 

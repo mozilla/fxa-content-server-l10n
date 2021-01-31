@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2021-01-02 18:23+0000\n"
-"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
+"PO-Revision-Date: 2021-01-31 13:00+0000\n"
+"Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -693,7 +693,7 @@ msgstr "Otkaži pretplate"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
-msgstr "Ažuriraj podatke za naplatu"
+msgstr "Aktualiziraj podatke naplate"
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
@@ -721,7 +721,7 @@ msgstr "Otkaži pretplate:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
-msgstr "Ažuriraj podatke za naplatu:"
+msgstr "Aktualiziraj podatke naplate:"
 
 #: lib/senders/email.js:316
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -965,7 +965,7 @@ msgstr "Uvjeti pružanja usluge"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr "Potrebno je nadograditi Firefox"
+msgstr "Firefox se mora aktualizirati"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""

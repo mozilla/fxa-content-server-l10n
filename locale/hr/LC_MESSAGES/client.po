@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2021-01-02 18:26+0000\n"
-"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
+"PO-Revision-Date: 2021-01-31 12:59+0000\n"
+"Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -276,7 +276,7 @@ msgstr "Odaberi ime koje želiš prikazati u Firefoxu i prilikom upravljanja ra�
 
 #: .es5/views/settings/display_name.js:229
 msgid "Display name updated"
-msgstr "Prikazano ime je ažurirano"
+msgstr "Ime prikaza je aktualizirano"
 
 #: .es5/views/settings/emails.js:127
 msgid "Secondary email removed"
@@ -700,7 +700,7 @@ msgstr "Pretplata je već otkazana"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
-msgstr "Ažuriranje je odbijeno, pokušajte ponovo"
+msgstr "Aktualiziranje je odbijeno, pokušaj ponovo"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
@@ -1024,12 +1024,8 @@ msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Nastavkom prihvaćate <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Nastavkom prihvaćate <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1098,8 +1094,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Unesite ključ za oporavak koji ste pohranili na sigurnom mjestu da biste ponovno dobili pristup svom Firefox računu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NAPOMENA:</span> Ukoliko resetirate vašu lozinku, a nemate ključ za oporavak računa spremljen, dio vaših podataka će biti obrisan (uključujući sinkronizirane podatke sa "
 "poslužitelja kao povijest i zabilješke)."
@@ -1528,7 +1523,7 @@ msgstr "Natrag na postavke"
 
 #: .es5/templates/settings.mustache:1
 msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Tvoja kreditna kartica je istekla. Ažuriraj ju <a %(escapedCcExpiredLinkAttrs)s>ovdje</a>."
+msgstr "Tvoja kreditna kartica je istekla. Aktualiziraj je <a %(escapedCcExpiredLinkAttrs)s>ovdje</a>."
 
 #: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -2035,8 +2030,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Korak 2 od 2: spremi ključ za oporavak"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
