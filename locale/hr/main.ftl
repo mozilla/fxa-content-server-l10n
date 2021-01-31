@@ -149,6 +149,20 @@ plan-price-year =
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dnevno
+        [few] { $amount } svaka { $intervalCount } dana
+       *[other] { $amount } svakih { $intervalCount } dana
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } tjedno
+        [few] { $amount } svaka { $intervalCount } tjedna
+       *[other] { $amount } svakih { $intervalCount } tjedana
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
@@ -181,7 +195,7 @@ account-activated = Tvoj je račun aktiviran, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Aktualiziranje podataka naplaćivanja …
+sub-route-idx-updating = Aktualiziranje podataka naplate …
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
 sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
 sub-route-idx-contact = Obrati se podršci
