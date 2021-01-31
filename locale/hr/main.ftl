@@ -113,6 +113,34 @@ sub-update-total-label = Nova cijena
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dnevno
+        [few] { $amount } svaka { $intervalCount } dana
+       *[other] { $amount } svakih { $intervalCount } dana
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } tjedno
+        [few] { $amount } svaka { $intervalCount } tjedna
+       *[other] { $amount } svakih { $intervalCount } tjedana
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mjesečno
+        [few] { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $amount } svakih { $intervalCount } mjeseci
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } godišnje
+        [few] { $amount } svake { $intervalCount } godine
+       *[other] { $amount } svakih { $intervalCount } godina
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
