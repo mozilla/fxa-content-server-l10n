@@ -92,8 +92,8 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Pregledaj svoju nadogradnju
-sub-update-failed = Ažuriranje tarife nije uspjelo
+product-plan-upgrade-heading = Pregledaj nadogradnju
+sub-update-failed = Neuspjelo aktualiziranje tarife
 sub-update-title = Informacije o plaćanju
 sub-update-card-ending = Kartica završava s { $last }
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
