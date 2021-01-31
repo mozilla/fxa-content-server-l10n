@@ -38,6 +38,34 @@ product-plan-details-heading = Postavimo tvoju pretplatu
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se naplaćuje { $amount } dnevno
+        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } dana
+       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } dana
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se naplaćuje { $amount } tjedno
+        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } tjedna
+       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } tjedana
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se naplaćuje { $amount } mjesečno
+        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } mjeseci
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } se naplaćuje { $amount } godišnje
+        [few] { $productName } se naplaćuje { $amount } svake { $intervalCount } godine
+       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } godina
+    }
 
 ## Product route
 
@@ -180,6 +208,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Sljedeće naplaćivanje { $date }
 
 ##
 
@@ -219,6 +248,9 @@ sub-item-missing-msg = Pokušaj ponovo kasnije.
 sub-item-no-such-plan = Ne postoji takva tarifa za ovu pretplatu.
 sub-item-cancel-sub = Otkaži pretplatu
 sub-item-stay-sub = Zadrži pretplatu
+sub-item-cancel-msg =
+    Nakon zadnjeg dana ciklusa naplate { $period }
+    više nećeš moći koristiti { $name }.
 account-activated = Tvoj je račun aktiviran, <userEl/>
 
 ## subscription route index
@@ -279,6 +311,13 @@ payment-confirmation-amount-month =
         [one] { $amount } mjesečno
         [few] { $amount } svaka { $intervalCount } mjeseca
        *[other] { $amount } svakih { $intervalCount } mjeseci
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } godišnje
+        [few] { $amount } svake { $intervalCount } godine
+       *[other] { $amount } svakih { $intervalCount } godina
     }
 payment-confirmation-cc-preview = završava na { $last4 }
 payment-confirmation-download-button = Nastavi s preuzimanjem
