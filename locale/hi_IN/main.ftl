@@ -21,7 +21,6 @@ insufficient-funds-error = लगता है आपके कार्ड म�
 
 ## settings
 
-settings-subscriptions = सदस्यता एवं भुगतान
 
 ## legal footer
 
@@ -46,8 +45,12 @@ privacy = गोपनीयता सूचना
 payment-name =
     .placeholder = पूरा नाम
     .label = नाम जो आपके कार्ड पर दर्शाया होता है
+payment-cc =
+    .label = आपका कार्ड
 payment-ccn =
     .label = कार्ड संख्या
+payment-exp =
+    .label = समाप्ति तिथि
 payment-cvc =
     .label = CVC
 payment-zip =
@@ -108,10 +111,17 @@ plan-price-year =
        *[other] { $amount } हर { $intervalCount } वर्ष
     }
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] हर दिन { $amount }
+       *[other] हर { $intervalCount } दिन पर { $amount }
+    }
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
