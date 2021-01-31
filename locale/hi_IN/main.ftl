@@ -120,6 +120,24 @@ sub-plan-price-day =
         [one] हर दिन { $amount }
        *[other] हर { $intervalCount } दिन पर { $amount }
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] हर हफ्ते { $amount }
+       *[other] हर { $intervalCount } हफ्ते पर { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] हर महीने { $amount }
+       *[other] हर { $intervalCount } महीनों पर { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] हर साल { $amount }
+       *[other] हर { $intervalCount } साल पर { $amount }
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
@@ -131,6 +149,7 @@ pay-update-change-btn = बदलें
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } का उपयोग करना जारी रखना चाहते हैं?
 
 ##  $date (Date) - Last day of product access
 
