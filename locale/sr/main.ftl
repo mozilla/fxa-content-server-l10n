@@ -156,10 +156,66 @@ sub-update-total-label = Нови укупни износ
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } дневно
+        [few] { $amount } свака { $intervalCount } дана
+       *[other] { $amount } сваких { $intervalCount } дана
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } недељно
+        [few] { $amount } сваке { $intervalCount } недеље
+       *[other] { $amount } сваких { $intervalCount } недеља
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } месечно
+        [few] { $amount } свака { $intervalCount } месеца
+       *[other] { $amount } сваких { $intervalCount } месеци
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } годишње
+        [few] { $amount } сваке { $intervalCount } године
+       *[other] { $amount } сваких { $intervalCount } година
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } дневно
+        [few] { $amount } свака { $intervalCount } дана
+       *[other] { $amount } сваких { $intervalCount } дана
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } недељно
+        [few] { $amount } сваке { $intervalCount } недеље
+       *[other] { $amount } сваких { $intervalCount } недеља
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } месечно
+        [few] { $amount } свака { $intervalCount } месеца
+       *[other] { $amount } сваких { $intervalCount } месеци
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } годишње
+        [few] { $amount } сваке { $intervalCount } године
+       *[other] { $amount } сваких { $intervalCount } година
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
