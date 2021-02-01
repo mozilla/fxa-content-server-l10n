@@ -28,25 +28,71 @@ withdrawal-count-limit-exceeded-error = Изгледа да ће ова тран
 charge-exceeds-source-limit = Изгледа да ће ова трансакција премашити дневно ограничење ваше картице. Покушајте са другом или поново након 24 сата.
 instant-payouts-unsupported = Изгледа да ваша дебитна картица није подешена за тренутна плаћања. Покушајте са другом или кредитном картицом.
 duplicate-transaction = Изгледа да је идентична трансакција управо послана. Проверите вашу историју плаћања.
+coupon-expired = Изгледа да је тај промотивни код истекао.
+card-error = Ваша трансакција није могла бити обрађена. Проверите податке ваше кредитне картице и покушајте поново.
 
 ## settings
 
+settings-home = Почетна страница налога
+settings-subscriptions-title = Претплате
 
 ## legal footer
 
+terms = Услови коришћења
+privacy = Обавештење о приватности
 
 ## plan details
 
+product-plan-details-heading = Подесимо вашу претплату
+product-plan-details-heading = Подесимо вашу претплату
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } се наплаћује { $amount } дневно
+        [few] { $productName } се наплаћује { $amount } свака { $intervalCount } дана
+       *[other] { $productName } се наплаћује { $amount } сваких { $intervalCount } дана
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } се наплаћује { $amount } недељно
+        [few] { $productName } се наплаћује { $amount } сваке { $intervalCount } недеље
+       *[other] { $productName } се наплаћује { $amount } сваких { $intervalCount } недеља
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } се наплаћује { $amount } месечно
+        [few] { $productName } се наплаћује { $amount } свака { $intervalCount } месеца
+       *[other] { $productName } се наплаћује { $amount } сваких { $intervalCount } месеци
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } се наплаћује { $amount } годишње
+        [few] { $productName } се наплаћује { $amount } сваке { $intervalCount } године
+       *[other] { $productName } се наплаћује { $amount } сваких { $intervalCount } година
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Проблем при учитавању планова
+product-profile-error =
+    .title = Проблем при учитавању профила
+product-customer-error =
+    .title = Проблем при учитавању купца
+product-plan-not-found = План није пронађен
+product-no-such-plan = Не постоји такав план за овај производ.
 
 ## payment legal blurb
 
+payment-legal-copy = { -brand-name-mozilla } користи Stripe за сигурну обраду плаћања.
+payment-legal-link = Погледајте <a>Stripe политику приватности</a>.
 
 ## payment form
 
