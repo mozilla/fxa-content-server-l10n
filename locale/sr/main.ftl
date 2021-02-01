@@ -96,21 +96,47 @@ payment-legal-link = Погледајте <a>Stripe политику прива�
 
 ## payment form
 
+payment-name =
+    .placeholder = Пуно име
+    .label = Приказано име на картици
+payment-cc =
+    .label = Ваша картица
+payment-ccn =
+    .label = Број картице
+payment-exp =
+    .label = Датум истека
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Поштански број
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Откажи
+payment-update-btn = Ажурирај
+payment-pay-btn = Плати сад
+payment-validate-name-error = Унесите ваше име
+payment-validate-zip-required = Поштански број је обавезан
+payment-validate-zip-short = Поштански број је прекратак
 
 ## subscription redirect
 
+sub-redirect-ready = Ваша претплата је спремна
+sub-redirect-copy = Одвојите тренутак да нам кажете какво је ваше искуство.
+sub-redirect-skip-survey = Не, хвала, само ме одведи до мог производа.
 
 ## fields
 
+default-input-error = Ово поље је обавезно
+input-error-is-required = { $label } је обавезно
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Прегледајте надоградњу
+sub-update-failed = Неуспело ажурирање плана
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
