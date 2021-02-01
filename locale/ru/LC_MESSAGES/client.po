@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2021-01-23 19:00+0000\n"
-"Last-Translator: Victor Bychek <a@bychek.ru>\n"
+"PO-Revision-Date: 2021-02-01 16:52+0000\n"
+"Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -2045,11 +2045,11 @@ msgstr "Готово, Ключ восстановления сохранён"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr "Добавьте альтернативный адрес электронной почты"
+msgstr "Добавьте дополнительный адрес электронной почты"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Добавление альтернативной электронной почты поможет вам восстановить свой аккаунт, если он будет заблокирован и вы не сможете получить доступ к %(escapedEmail)s."
+msgstr "Добавление дополнительной электронной почты поможет вам восстановить свой аккаунт, если он будет заблокирован и вы не сможете получить доступ к %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
