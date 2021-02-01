@@ -137,12 +137,21 @@ input-error-is-required = { $label } је обавезно
 
 product-plan-upgrade-heading = Прегледајте надоградњу
 sub-update-failed = Неуспело ажурирање плана
+sub-update-title = Подаци о наплати
+sub-update-card-ending = Картица завршава са { $last }
+sub-update-card-exp = Истиче { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Потврдите надоградњу
+sub-update-indicator =
+    .aria-label = индикатор надоградње
+sub-update-current-plan-label = Тренутни план
+sub-update-new-plan-label = Нови план
+sub-update-total-label = Нови укупни износ
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
