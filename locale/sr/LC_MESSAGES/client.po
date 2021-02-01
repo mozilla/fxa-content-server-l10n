@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2021-02-01 17:42+0000\n"
+"PO-Revision-Date: 2021-02-01 17:51+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -926,7 +926,7 @@ msgstr "Предузимање акције за одржавање интерн
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Онлајн сигурност и приватност уз Firefox и Mozilla-у"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -1701,7 +1701,7 @@ msgstr "За шта вам треба помоћ?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Треба ли вам помоћ око одређене апликације или услуге? (опционално)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -1859,7 +1859,7 @@ msgstr "Избриши…"
 
 #: .es5/templates/settings/delete_account.mustache:4
 msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
+msgstr "Желите отказати плаћену претплату? Идите на <a href=\"/subscriptions\">Претплате</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
@@ -1875,7 +1875,7 @@ msgstr "Све плаћене претплате биће отказане"
 
 #: .es5/templates/settings/delete_account.mustache:16
 msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
+msgstr "Сва проширења и теме које сте објавили на addons.mozilla.org ће бити избрисане"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -1931,7 +1931,7 @@ msgstr "Потврдите код за опоравак"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Претплате"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2062,20 +2062,21 @@ msgstr "Користите другу адресу е-поште"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Промените лозинку"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "за наставак на %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
+"Открили смо сумњиво понашање на вашем Firefox налогу. Да бисте заштитили ваш налог, направите нову лозинку. Ову лозинку ћете користити за поновно повезивање са свим услугама вашег Firefox налога."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Синхронизована историја, забелешке, пријаве и други лични подаци неће бити изгубљени."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
