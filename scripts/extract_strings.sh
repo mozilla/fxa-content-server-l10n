@@ -27,6 +27,7 @@ fi
 MAILER_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
+SETTINGS_DIR="./fxa-settings"
 L10N_DIR="./fxa-content-server-l10n"
 
 while [[ $# > 1 ]]
@@ -44,6 +45,10 @@ case $param in
     ;;
     --payments-repo)
     PAYMENTS_DIR="$2"
+    shift 2
+    ;;
+    --settings-repo)
+    SETTINGS_DIR="$2"
     shift 2
     ;;
     --l10n-repo)
@@ -68,6 +73,8 @@ printf "Checking $CONTENT_DIR.. "
 check_folder $CONTENT_DIR
 printf "Checking $PAYMENTS_DIR.. "
 check_folder $PAYMENTS_DIR
+printf "Checking $SETTINGS_DIR.. "
+check_folder $SETTINGS_DIR
 printf "Checking $L10N_DIR.. "
 check_folder $L10N_DIR
 
@@ -85,6 +92,7 @@ msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/client.po -o $L10N_DIR/locale/sr_La
 msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/server.po -o $L10N_DIR/locale/sr_Latn/LC_MESSAGES/server.po recode-sr-latin
 
 cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
+cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
 
 cd $L10N_DIR
 git checkout -b merge-train-$TRAIN_NUMBER-strings
