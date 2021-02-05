@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2020-05-29 22:34+0000\n"
+"POT-Creation-Date: 2021-02-05 16:06+0000\n"
+"PO-Revision-Date: 2021-02-01 17:55+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
@@ -710,7 +710,7 @@ msgstr "Ovu adresu je već potvrdio drugi korisnik"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Neproverena sesija"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
@@ -1013,7 +1013,7 @@ msgstr "Netačno uneta adresa e-pošte? %(domain)s ne nudi adresu."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Veličina datoteke slike je prevelika za otpremanje."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -1045,15 +1045,15 @@ msgstr "Budite bezbedniji i pametniji na mreži"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Testiranje Firefox proizvoda"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Preduzimanje akcije za održavanje interneta zdravim"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Onlajn sigurnost i privatnost uz Firefox i Mozilla-u"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -2061,7 +2061,7 @@ msgstr "Za šta vam treba pomoć?"
 
 #: .es5/templates/support.mustache:8
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Treba li vam pomoć oko određene aplikacije ili usluge? (opcionalno)"
 
 #: .es5/templates/support.mustache:9
 msgid "Subject (optional)"
@@ -2248,6 +2248,8 @@ msgid ""
 "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions"
 "\">Subscriptions</a>."
 msgstr ""
+"Želite otkazati plaćenu pretplatu? Idite na <a href=\"/subscriptions"
+"\">Pretplate</a>."
 
 #: .es5/templates/settings/delete_account.mustache:6
 msgid ""
@@ -2270,6 +2272,8 @@ msgid ""
 "Any extensions and themes that you published to addons.mozilla.org will be "
 "deleted"
 msgstr ""
+"Sva proširenja i teme koje ste objavili na addons.mozilla.org će biti "
+"izbrisane"
 
 #: .es5/templates/settings/delete_account.mustache:17
 msgid "You may lose saved information and features within Mozilla products"
@@ -2339,7 +2343,7 @@ msgstr "Potvrdite kod za oporavak"
 
 #: .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
-msgstr ""
+msgstr "Pretplate"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2499,11 +2503,11 @@ msgstr "Koristite drugu adresu e-pošte"
 #: .es5/templates/post_verify/password/force_password_change.mustache:1
 #: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Promenite lozinku"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "za nastavak na %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -2511,15 +2515,20 @@ msgid ""
 "account, please create a new password. You’ll use this password to sign back "
 "in to all of your Firefox account services."
 msgstr ""
+"Otkrili smo sumnjivo ponašanje na vašem Firefox nalogu. Da biste zaštitili "
+"vaš nalog, napravite novu lozinku. Ovu lozinku ćete koristiti za ponovno "
+"povezivanje sa svim uslugama vašeg Firefox naloga."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid ""
 "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr ""
+"Sinhronizovana istorija, zabeleške, prijave i drugi lični podaci neće biti "
+"izgubljeni."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Ponovo unesite novu lozinku"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
@@ -2582,7 +2591,7 @@ msgstr "Uradiću to kasnije, pošalji mi podsetnik"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Preuzmite Firefox preko vaše kamere"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid ""
@@ -2601,6 +2610,8 @@ msgid ""
 "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
 "device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Povežite vaš mobilni "
+"uređaj</h1><p>sa QR kodom koji smo napravili samo za vas</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -2716,7 +2727,7 @@ msgstr "IP adresa: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Jedan nalog, mnoštvo usluga"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2748,11 +2759,11 @@ msgstr "Upozorenja o curenju podataka."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "VPN od pouzdanog pionira privatnosti na internetu."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
