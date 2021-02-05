@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-22 16:07+0000\n"
-"PO-Revision-Date: 2020-06-19 16:55+0000\n"
+"POT-Creation-Date: 2021-02-05 16:06+0000\n"
+"PO-Revision-Date: 2021-01-31 11:20+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -2061,11 +2061,11 @@ msgstr "एक अलग ईमेल का उपयोग करें"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "कृपया अपना पासवर्ड बदलें"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s में जारी रखने के लिए"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -2270,7 +2270,7 @@ msgstr "डेटा उल्लंघनों की तलाश करे�
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
