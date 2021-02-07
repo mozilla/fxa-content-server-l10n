@@ -78,12 +78,14 @@ payment-zip =
 
 payment-cancel-btn = キャンセル
 payment-update-btn = 更新
+payment-pay-btn = 今すぐ払う
 
 ## subscription redirect
 
 
 ## fields
 
+default-input-error = この項目は必須です
 
 ## subscription upgrade
 
@@ -134,3 +136,4 @@ payment-update-btn = 更新
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = ダウンロードを続行

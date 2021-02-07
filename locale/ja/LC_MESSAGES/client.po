@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 16:06+0000\n"
-"PO-Revision-Date: 2021-02-07 03:31+0000\n"
+"PO-Revision-Date: 2021-02-07 03:35+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -919,7 +919,7 @@ msgstr "オンラインをより安全でスマートに"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Firefox 製品を試す"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
