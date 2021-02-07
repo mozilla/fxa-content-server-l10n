@@ -20,12 +20,25 @@ close-aria =
 
 general-error-heading = 一般的なアプリケーションエラー
 basic-error-message = 何か問題が発生しました。また後で試してください。
+payment-error-1 = お支払いの承認中に問題が発生しました。もう一度やり直すか、カード発行会社にお問い合わせください。
+payment-error-2 = お支払いの承認中に問題が発生しました。カード発行会社にお問い合わせください。
+expired-card-error = クレジットカードの有効期限が切れているようです。別のカードを試してください。
+insufficient-funds-error = カードの残高が不足しているようです。別のカードを試してください。
+withdrawal-count-limit-exceeded-error = この取引では、ご利用限度額を超えてしまうようです。別のカードを試してください。
+charge-exceeds-source-limit = この取引では、1 日のご利用限度額を超えてしまうようです。別のカードを試すか、24 時間以内に試してください。
+instant-payouts-unsupported = デビットカードが即時支払いに設定されていないようです。別のデビットカードまたはクレジットカードを試してください。
+duplicate-transaction = まったく同じ取引が送信されたようです。お支払いの履歴を確認してください。
+coupon-expired = プロモーションコードの有効期限が切れているようです。
 
 ## settings
 
+settings-home = アカウントホーム
+settings-subscriptions-title = 購読
 
 ## legal footer
 
+terms = 利用規約
+privacy = プライバシー通知
 
 ## plan details
 
@@ -36,18 +49,35 @@ basic-error-message = 何か問題が発生しました。また後で試して�
 
 ## Product route
 
+product-plan-error =
+    .title = プラン読み込みエラー
+product-profile-error =
+    .title = プロファイル読み込みエラー
+product-customer-error =
+    .title = 顧客読み込みエラー
+product-plan-not-found = プランが見つかりませんでした
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-ccn =
+    .label = カード番号
+payment-exp =
+    .label = 有効期限
+payment-cvc =
+    .label = セキュリティコード
+payment-zip =
+    .label = 郵便番号
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = キャンセル
+payment-update-btn = 更新
 
 ## subscription redirect
 
