@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-01-31 12:59+0000\n"
-"Last-Translator: Milo <mail@milotype.de>\n"
+"PO-Revision-Date: 2021-02-13 13:25+0000\n"
+"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -1024,12 +1024,8 @@ msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Nastavkom prihvaćate <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Nastavkom prihvaćate <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1098,8 +1094,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Unesite ključ za oporavak koji ste pohranili na sigurnom mjestu da biste ponovno dobili pristup svom Firefox računu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NAPOMENA:</span> Ukoliko resetirate vašu lozinku, a nemate ključ za oporavak računa spremljen, dio vaših podataka će biti obrisan (uključujući sinkronizirane podatke sa "
 "poslužitelja kao povijest i zabilješke)."
@@ -2035,8 +2030,7 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "Korak 2 od 2: spremi ključ za oporavak"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2075,7 +2069,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Sinkronizirana povijest, zabilješke, prijave i ostali osobni podaci neće biti izgubljeni."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2123,7 +2117,7 @@ msgstr "Sinkroniziraj Firefox između uređaja"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Sinkroniziraj zabilješke, povijest i lozinke s Firefoxom na svojim mobilnim uređajima. Potrebno je samo nekoliko minuta."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
