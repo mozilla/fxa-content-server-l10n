@@ -259,6 +259,7 @@ sub-route-idx-updating = Aktualiziranje podataka naplate …
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
 sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
 sub-route-idx-contact = Obrati se podršci
+sub-route-idx-cancel-msg-title = Žao nam je što nas napuštaš
 sub-subscription-error =
     .title = Problem s učitavanjem pretplata
 sub-customer-error =
