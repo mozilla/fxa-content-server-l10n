@@ -218,6 +218,7 @@ pay-update-change-btn = Promijeni
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Želiš li i dalje upotrebljavati { $name }?
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
@@ -236,6 +237,8 @@ reactivate-confirm-button = Obnovi pretplatu
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Pretplata je otkazana { $date }.
+reactivate-panel-copy = Izgubit ćeš pristup usluzi { $name } <strong>{ $date }</strong>
 reactivate-success-copy = Hvala! Spremno je.
 reactivate-success-button = Zatvori
 
@@ -251,6 +254,9 @@ sub-item-stay-sub = Zadrži pretplatu
 sub-item-cancel-msg =
     Nakon zadnjeg dana ciklusa naplate { $period }
     više nećeš moći koristiti { $name }.
+sub-item-cancel-confirm =
+    Otkaži moj pristup i moje spremljene podatke na usluzi
+    { $name } { $period }
 account-activated = Tvoj je račun aktiviran, <userEl/>
 
 ## subscription route index
@@ -260,6 +266,12 @@ sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
 sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
 sub-route-idx-contact = Obrati se podršci
 sub-route-idx-cancel-msg-title = Žao nam je što nas napuštaš
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tvoja pretplata na { $name } je otkazana.
+          <br />
+          I dalje imaš pristup usluzi { $name } do { $date }.
 sub-route-idx-cancel-aside = Imaš pitanja? Posjeti <a>{ -brand-name-mozilla } podršku</a>.
 sub-subscription-error =
     .title = Problem s učitavanjem pretplata

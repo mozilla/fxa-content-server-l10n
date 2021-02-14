@@ -900,7 +900,7 @@ msgstr ""
 
 #: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Posljednji podsjetnik: dovrši postavljanje sinkronizacije"
 
 #: lib/senders/email.js:2496
 msgid "Sync another device"
