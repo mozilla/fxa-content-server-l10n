@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-01-31 13:47+0000\n"
-"Last-Translator: Milo <mail@milotype.de>\n"
+"PO-Revision-Date: 2021-02-14 14:24+0000\n"
+"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -461,11 +461,11 @@ msgstr "Ciklus naplate i plaćanje ostat će isti. Sljedeće opterećenje iznosi
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Hvala na tvojoj pretplati!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "Primili smo tvoju najnoviju uplatu za %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
@@ -523,7 +523,7 @@ msgstr "Potvrdi adresu e-pošte:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Još si tamo?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
@@ -591,19 +591,19 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Koristi ovaj kôd za potvrdu:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Je li ovo tvoja prijava?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
-msgstr ""
+msgstr "Ako jest, iskoristi ovaj kôd za potvrdu:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
