@@ -19,6 +19,15 @@ close-aria =
 ## app error dialog
 
 general-error-heading = Opća greška programa
+basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
+payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
+payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
+insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
+withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
+charge-exceeds-source-limit = Čini se da ćeš ovom transakcijom prijeći svoj dnevni kreditni limit. Pokušaj s drugom karticom ili za 24 sata.
+instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena za trenutna plaćanja. Pokušaj s drugom debitnom ili kreditnom karticom.
+coupon-expired = Čini se da je taj promotivni kôd istekao.
 
 ## settings
 
@@ -112,6 +121,7 @@ payment-validate-zip-short = Poštanski broj je prekratak
 ## subscription redirect
 
 sub-redirect-ready = Tvoja pretplata je spremna
+sub-redirect-skip-survey = Ne hvala, samo me odvedite do mog proizvoda.
 
 ## fields
 

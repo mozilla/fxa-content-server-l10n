@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-14 14:24+0000\n"
+"PO-Revision-Date: 2021-02-18 12:49+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -663,7 +663,7 @@ msgstr "Mozillina politika privatnosti"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Uvjeti pružanja usluge Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
@@ -896,7 +896,7 @@ msgstr "Preuzmi %(productName)s"
 
 #: lib/senders/email.js:2481
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Tvoj prijateljski podsjetnik: kako dovršiti postavljanje sinkronizacije"
 
 #: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
@@ -948,6 +948,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Trenutno smo preopterećeni i radimo na vraćanju\n"
+"          sustava u normalno stanje što je prije moguće."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
