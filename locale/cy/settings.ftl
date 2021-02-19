@@ -390,9 +390,15 @@ rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
 rk-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
 rk-remove-modal-heading = Dileu'r allwedd adfer?
+rk-remove-modal-content =
+    Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
+    defnyddio'ch allwedd adfer i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Ail e-bost
+    .header = Ail E-bost
+se-cannot-refresh-email = Ymddiheuriadau, bu anhawster wrth adnewyddu'r e-bost hwnnw.
 
 ##
 
