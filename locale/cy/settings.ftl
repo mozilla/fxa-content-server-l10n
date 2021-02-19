@@ -149,15 +149,49 @@ header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
 header-title = { -product-firefox-accounts }
+header-switch-title = Newid i ddyluniad clasurol
+    .title = dolen dyluniad clasurol
+header-help = Cymorth
 
 ## Settings Nav
 
+nav-settings = Gosodiadau
+nav-profile = Proffil
+nav-security = Diogelwch
+nav-connected-services = Gwasanaethau Cysylltiedig
+nav-paid-subs = Tanysgrifiadau Taledig
+nav-email-comm = Cyfathrebu Trwy E-bost
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Bu anhawster amnewid eich codau adfer.
+tfa-replace-code-success =
+    Mae codau newydd wedi'u creu. Cadwch codau defnydd
+    un-waith hyn mewn man diogel — bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
+    eich dyfais symudol gyda chi.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Llun Proffil
+avatar-page-add-photo = Ychwanegu Llun
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tynnwch Lun
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Tynnu Llun
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Tynnwch Lun Eto
+avatar-page-close-button = Cau
+avatar-page-save-button = Cadw
+avatar-page-zoom-out-button = Chwyddo Allan
+avatar-page-zoom-in-button = Chwyddo Mewn
+avatar-page-rotate-button = Troi
+avatar-page-camera-error = Methu cychwyn y camera
+avatar-page-new-avatar =
+    .alt = llun proffil newydd
 
 ##
 
