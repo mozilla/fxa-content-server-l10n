@@ -115,6 +115,11 @@ cs-disconnect-lost-advice-content =
     in Ihren Konteneinstellungen ändern. Sie sollten sich auch bei Ihrem Gerätehersteller
     über Möglichkeiten zur Fernlöschung Ihrer Daten informieren.
 cs-disconnect-suspicious-advice-heading = Verdächtiges Gerät getrennt
+cs-disconnect-suspicious-advice-content =
+    Wenn das getrennte Gerät wirklich verdächtig ist,
+    sollten Sie zum Schutz Ihrer Daten Ihr { -product-firefox-account }-Passwort
+    in den Konteneinstellungen ändern. Sie sollten auch alle anderen in { -brand-firefox }
+    gespeicherten Passwörter ändern, indem Sie about:logins in die Adressleiste eingeben.
 cs-sign-out-button = Abmelden
 
 ##
@@ -142,7 +147,12 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Menü schließen
+header-menu-closed = Menü Seitennavigation
+header-back-to-top-link =
+    .title = Zum Seitenanfang
 header-title = { -product-firefox-accounts }
+header-switch-title = Zum klassischen Design wechseln
+    .title = Link zum klassischen Design
 header-help = Hilfe
 
 ## Settings Nav
@@ -156,6 +166,11 @@ nav-email-comm = E-Mail-Kommunikation
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Beim Ersetzen Ihrer Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-replace-code-success =
+    Neue Codes wurden erstellt. Speichern Sie diese Codes
+    zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
+    Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
 
 ## Avatar change page
 
@@ -176,6 +191,10 @@ avatar-page-save-button = Speichern
 avatar-page-zoom-out-button = Verkleinern
 avatar-page-zoom-in-button = Vergrößern
 avatar-page-rotate-button = Drehen
+avatar-page-camera-error = Kamera konnte nicht initialisiert werden
+avatar-page-new-avatar =
+    .alt = Neues Profilbild
+avatar-page-file-upload-error = Beim Hochladen Ihres Profilbilds ist ein Fehler aufgetreten
 avatar-page-delete-error = Beim Löschen Ihres Avatars ist ein Problem aufgetreten
 avatar-page-image-too-large-error = Die Bilddatei ist zu groß, um hochgeladen zu werden.
 
@@ -186,8 +205,14 @@ avatar-page-image-too-large-error = Die Bilddatei ist zu groß, um hochgeladen z
 
 pw-change-header =
     .title = Passwort ändern
+pw-change-stay-safe = Schützen Sie sich – verwenden Sie Passwörter nicht wieder. Ihr Passwort:
 pw-change-least-8-chars = Muss mindestens 8 Zeichen lang sein
 pw-change-not-contain-email = Darf nicht Ihre E-Mail-Adresse sein
+pw-change-must-match = Neues Passwort stimmt mit Bestätigung überein
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Darf nicht mit dieser <linkExternal>Liste häufiger
+    Passwörter</linkExternal> übereinstimmen
 pw-change-cancel-button = Abbrechen
 pw-change-save-button = Speichern
 pw-change-forgot-password-link = Passwort vergessen?
@@ -203,8 +228,20 @@ pw-change-confirm-password =
 
 ## Delete account page
 
+delete-account-header =
+    .title = Konto löschen
 delete-account-step-1-2 = Schritt 1 von 2
 delete-account-step-2-2 = Schritt 2 von 2
+delete-account-confirm-title = Sie haben Ihr{ -product-firefox-accounts } mit { -brand-mozilla }-Produkten verbunden, mit denen Sie im Web sicher und produktiv sind:
+delete-account-acknowledge = Bitte bestätigen Sie, dass durch Löschung Ihres Kontos:
+delete-account-chk-box-1 =
+    .label = Alle Ihre bezahlten Abonnements storniert werden
+delete-account-chk-box-2 =
+    .label = Sie gespeicherte Daten und Funktionen in { -brand-mozilla }-Produkten verlieren könnten
+delete-account-chk-box-3 =
+    .label = Ihre Daten möglicherweise nicht wiederhergestellt werden, wenn Sie das Konto mit dieser E-Mail-Adresse erneut aktivieren
+delete-account-chk-box-4 =
+    .label = Alle Erweiterungen und Themes, die Sie auf addons.mozilla.org veröffentlicht haben, werden gelöscht
 delete-account-close-button = Schließen
 delete-account-continue-button = Fortsetzen
 delete-account-password-input =
@@ -221,6 +258,7 @@ display-name-input =
     .label = Geben Sie den Anzeigenamen ein
 submit-display-name = Speichern
 cancel-display-name = Abbrechen
+display-name-update-error = Beim Aktualisieren Ihres Anzeigennamens ist ein Fehler aufgetreten.
 
 ##
 
@@ -230,24 +268,45 @@ cancel-display-name = Abbrechen
 recovery-key-cancel-button = Abbrechen
 recovery-key-close-button = Schließen
 recovery-key-continue-button = Fortsetzen
+recovery-key-created = Ihr Wiederherstellungsschlüssel wurde erstellt. Bewahren Sie den Schlüssel an einem sicheren Ort auf, den Sie später leicht finden können. Wenn Sie Ihr Passwort vergessen haben, benötigen Sie den Schlüssel, um wieder auf Ihre Daten zugreifen zu können.
 recovery-key-enter-password =
     .label = Passwort eingeben
+recovery-key-page-title =
+    .title = Wiederherstellungsschlüssel
 recovery-key-step-1 = Schritt 1 von 2
 recovery-key-step-2 = Schritt 2 von 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Beim Erstellen dieser E-Mail-Adresse trat ein Problem auf.
+add-secondary-email-page-title =
+    .title = Zweit-E-Mail-Adresse
 add-secondary-email-enter-address =
     .label = E-Mail-Adresse eingeben
+add-secondary-email-cancel-button = Abbrechen
+add-secondary-email-save-button = Speichern
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Beim Senden des Bestätigungscodes ist ein Fehler aufgetreten.
+verify-secondary-email-page-title =
+    .title = Zweit-E-Mail-Adresse
+verify-secondary-email-verification-code =
+    .label = Geben Sie Ihren Bestätigungscode ein
+verify-secondary-email-cancel-button = Abbrechen
+verify-secondary-email-verify-button = Bestätigen
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Bitte geben Sie innerhalb von 5 Minuten den Bestätigungscode ein, der an <strong>{ $email }</strong> gesendet wurde.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Konto löschen
 
 ## Two Step Authentication
 
@@ -255,6 +314,10 @@ tfa-title = Zwei-Schritt-Authentifizierung
 tfa-step-1-3 = Schritt 1 von 3
 tfa-step-2-3 = Schritt 2 von 3
 tfa-step-3-3 = Schritt 3 von 3
+tfa-button-continue = Weiter
+tfa-button-cancel = Abbrechen
+tfa-button-finish = Abschließen
+tfa-incorrect-totp = Falscher Code für Zwei-Schritt-Authentifizierung
 
 ##
 
