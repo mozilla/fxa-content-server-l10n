@@ -192,45 +192,126 @@ avatar-page-rotate-button = Troi
 avatar-page-camera-error = Methu cychwyn y camera
 avatar-page-new-avatar =
     .alt = llun proffil newydd
+avatar-page-file-upload-error = Bu anhawster wrth lwytho'ch llun proffil i fyny
+avatar-page-delete-error = Bu anhawster wrth ddileu'ch afatar
+avatar-page-image-too-large-error = Mae maint ffeil y ddelwedd yn rhy fawr i'w llwytho i fyny.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Newid Cyfrinair
+pw-change-stay-safe = Cadwch yn ddiogel — peidiwch ag ailddefnyddio cyfrineiriau. Eich cyfrinair:
+pw-change-least-8-chars = Rhaid ei fod o leiaf 8 nod
+pw-change-not-contain-email = Dylai beidio â bod eich e-bost
+pw-change-must-match = Mae cyfrinair newydd yn cyd-fynd â chadarnhad
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Rhaid iddo beidio â bod yr un peth â'r rhai ar y rhestr gyffredin hon <linkExternal>
+    cyfrineiriau</linkExternal>
+pw-change-cancel-button = Diddymu
+pw-change-save-button = Cadw
+pw-change-forgot-password-link = Wedi anghofio'r cyfrinair?
+pw-change-current-password =
+    .label = Rhowch eich cyfrinair cyfredol
+pw-change-new-password =
+    .label = Rhowch gyfrinair newydd
+pw-change-confirm-password =
+    .label = Cadarnhau'r cyfrinair newydd
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Dileu Cyfrif
+delete-account-step-1-2 = Cam 1 o 2
+delete-account-step-2-2 = Cam 2 o 2
+delete-account-confirm-title = Rydych wedi cysylltu'ch { -product-firefox-accounts } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
+delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
+delete-account-chk-box-1 =
+    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu
+delete-account-chk-box-2 =
+    .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn { -brand-mozilla } Mozilla
+delete-account-chk-box-3 =
+    .label = Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd
+delete-account-chk-box-4 =
+    .label = Bydd unrhyw estyniadau a themâu rydych wedi'u cyhoeddi yn addons.mozilla.org yn cael eu dileu
+delete-account-close-button = Cau
+delete-account-continue-button = Parhau
+delete-account-password-input =
+    .label = Rhowch gyfrinair
+delete-account-cancel-button = Diddymu
+delete-account-delete-button = Dileu Cyfrif
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Rhowch enw dangos
+submit-display-name = Cadw
+cancel-display-name = Diddymu
+display-name-update-error = Bu anhawster wrth ddileu'ch enw dangos
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Diddymu
+recovery-key-close-button = Cau
+recovery-key-continue-button = Parhau
+recovery-key-created = Mae eich allwedd adfer wedi'i chreu. Gwnewch yn siŵr eich bod yn cadw'r allwedd mewn man diogel y gallwch chi ddod o hyd iddi yn hawdd yn nes ymlaen — bydd angen yr allwedd arnoch i adennill mynediad i'ch data os byddwch chi'n anghofio'ch cyfrinair.
+recovery-key-enter-password =
+    .label = Rhowch gyfrinair
+recovery-key-page-title =
+    .title = Allwedd adfer
+recovery-key-step-1 = Cam 1 o 2
+recovery-key-step-2 = Cam 2 o 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Bu anhawster wrth greu'r e-bost hwn.
+add-secondary-email-page-title =
+    .title = Ail e-bost
+add-secondary-email-enter-address =
+    .label = Rhowch gyfeiriad e-bost
+add-secondary-email-cancel-button = Diddymu
+add-secondary-email-save-button = Cadw
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Bu anhawster anfon y cod dilysu.
+verify-secondary-email-page-title =
+    .title = Ail e-bost
+verify-secondary-email-verification-code =
+    .label = Rhowch eich cod dilysu
+verify-secondary-email-cancel-button = Diddymu
+verify-secondary-email-verify-button = Dilysu
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Rhowch y cod dilysu a anfonwyd at <strong>{ $email }</strong> o fewn 5 munud.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Dileu Cyfrif
 
 ## Two Step Authentication
 
+tfa-title = Dilysu Dau Gam
+tfa-step-1-3 = Cam 1 o 2
+tfa-step-2-3 = Cam 1 o 2
+tfa-step-3-3 = Cam 3 o 3
 
 ##
 
