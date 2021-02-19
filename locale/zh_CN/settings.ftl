@@ -17,34 +17,67 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefox 账户
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Firefox 账户
+product-mozilla-vpn = Mozilla VPN
+product-firefox-monitor = Firefox Monitor
 
 ##
 
+-google-play = Google Play
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-Step Authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-privacy-notice = 网站隐私声明
+app-footer-terms-of-service = 服务条款
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = 您的头像
+avatar-default-avatar =
+    .alt = 默认头像
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
 
 ##
 
 
 ## Connected services section
 
+cs-heading = 关联服务
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = 缺失或者项目重复？
+cs-disconnect-sync-heading = 断开同步
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = 该设备：
+cs-disconnect-sync-opt-suspicious = 可疑
+cs-disconnect-sync-opt-lost = 丢失或被盗
+cs-disconnect-sync-opt-old = 旧的或不再使用
+cs-disconnect-sync-opt-duplicate = 重复
+cs-disconnect-sync-opt-not-say = 我不想说
 
 ##
 
@@ -55,9 +88,16 @@ cs-sign-out-button = 退出
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = 已下载
+datablock-copy =
+    .message = 已复制
+datablock-print =
+    .message = 已打印
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = 救援码
 get-data-trio-download =
     .title = 下载
 get-data-trio-copy =
@@ -134,39 +174,92 @@ delete-account-header =
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
 delete-account-close-button = 关闭
+delete-account-continue-button = 继续
+delete-account-password-input =
+    .label = 请输入密码
+delete-account-cancel-button = 取消
+delete-account-delete-button = 删除账户
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = 请输入显示名称
+submit-display-name = 保存
+cancel-display-name = 取消
+display-name-update-error = 更新您的显示名称时出现问题。
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = 取消
+recovery-key-close-button = 关闭
+recovery-key-continue-button = 继续
+recovery-key-enter-password =
+    .label = 请输入密码
+recovery-key-page-title =
+    .title = 救援密钥
+recovery-key-step-1 = 步骤（1 / 2）
+recovery-key-step-2 = 步骤（2 / 2）
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = 次要电子邮件地址
+add-secondary-email-enter-address =
+    .label = 请输入电子邮件地址
+add-secondary-email-cancel-button = 取消
+add-secondary-email-save-button = 保存
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = 发送验证码时出现问题。
+verify-secondary-email-page-title =
+    .title = 次要电子邮件地址
+verify-secondary-email-verification-code =
+    .label = 请输入您的验证码
+verify-secondary-email-cancel-button = 取消
+verify-secondary-email-verify-button = 验证
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的验证码。
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = 删除账户
 
 ## Two Step Authentication
 
+tfa-title = 两步验证
+tfa-step-1-3 = 步骤（1 / 3）
+tfa-step-2-3 = 步骤（2 / 3）
+tfa-step-3-3 = 步骤（3 / 3）
+tfa-button-continue = 继续
+tfa-button-cancel = 取消
+tfa-button-finish = 完成
+tfa-incorrect-totp = 错误的两步验证码
+tfa-incorrect-recovery-code = 错误的救援码
+tfa-enabled = 已启用两步验证
+tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
 
 ##
 
 
 ## Profile section
 
+profile-display-name =
+    .header = 显示名称
+profile-password =
+    .header = 密码
 
 ##
 
