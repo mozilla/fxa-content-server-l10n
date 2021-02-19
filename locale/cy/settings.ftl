@@ -151,7 +151,7 @@ header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
 header-title = { -product-firefox-accounts }
-header-switch-title = Newid i ddyluniad clasurol
+header-switch-title = Newid i'r dyluniad clasurol
     .title = dolen dyluniad clasurol
 header-help = Cymorth
 
@@ -182,7 +182,7 @@ avatar-page-add-photo-button =
 avatar-page-take-photo = Tynnwch Lun
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
-avatar-page-remove-photo = Tynnu Llun
+avatar-page-remove-photo = Dileu'r Llun
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tynnwch Lun Eto
@@ -207,12 +207,12 @@ pw-change-header =
     .title = Newid Cyfrinair
 pw-change-stay-safe = Cadwch yn ddiogel — peidiwch ag ailddefnyddio cyfrineiriau. Eich cyfrinair:
 pw-change-least-8-chars = Rhaid ei fod o leiaf 8 nod
-pw-change-not-contain-email = Dylai beidio â bod eich e-bost
-pw-change-must-match = Mae cyfrinair newydd yn cyd-fynd â chadarnhad
+pw-change-not-contain-email = Dylai beidio â bod eich cyfeiriad e-bost
+pw-change-must-match = Mae cyfrinair newydd yn cyd-fynd â'r cadarnhad
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
-    Rhaid iddo beidio â bod yr un peth â'r rhai ar y rhestr gyffredin hon <linkExternal>
-    cyfrineiriau</linkExternal>
+    Rhaid iddo beidio â bod yr un peth â'r rhai ar y rhestr hon o <linkExternal>
+    gyfrineiriau cyffredin</linkExternal>
 pw-change-cancel-button = Diddymu
 pw-change-save-button = Cadw
 pw-change-forgot-password-link = Wedi anghofio'r cyfrinair?
@@ -237,7 +237,7 @@ delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
 delete-account-chk-box-1 =
     .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu
 delete-account-chk-box-2 =
-    .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn { -brand-mozilla } Mozilla
+    .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn cynnyrch { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd
 delete-account-chk-box-4 =
@@ -341,9 +341,9 @@ tfa-save-these-codes =
     Cadwch y codau defnydd unwaith hyn mewn man diogel
     pan nad yw eich dyfais symudol gennych.
 tfa-enter-code-to-confirm =
-    Rhowch un o'ch codau adfer nawr i
-    cadarnhau eich bod wedi ei gadw. Bydd angen cod arnoch os byddwch chi'n colli'ch dyfais ac eisiau
-    cael mynediad i'ch cyfrif.
+    Rhowch un o'ch codau adfer nawr i gadarnhau
+    eich bod wedi ei gadw. Bydd angen cod arnoch os byddwch chi'n colli'ch dyfais
+    ac eisiau cael mynediad i'ch cyfrif.
 tfa-enter-recovery-code =
     .label = Rhowch y cod adfer
 
