@@ -30,6 +30,7 @@ product-firefox-monitor = Firefox Monitor
 ##
 
 -google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
@@ -39,6 +40,7 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = { -brand-mozilla } 徽标
 app-footer-privacy-notice = 网站隐私声明
 app-footer-terms-of-service = 服务条款
 
@@ -65,9 +67,25 @@ connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-fir
 ## Connected services section
 
 cs-heading = 关联服务
+cs-description = 您正在使用并登录的所有项目。
+cs-cannot-refresh = 很抱歉，刷新关联服务列表时出现问题。
+cs-cannot-disconnect = 找不到客户端，无法断开连接
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = 已退出 { $service }。
+cs-refresh-button =
+    .title = 刷新关联服务
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 缺失或者项目重复？
 cs-disconnect-sync-heading = 断开同步
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = 您的浏览数据将继续保留在您的设备（{ $device }），但它将不再与您的账户同步。
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
