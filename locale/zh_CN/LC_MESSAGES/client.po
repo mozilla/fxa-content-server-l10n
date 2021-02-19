@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 03:03+0000\n"
+"PO-Revision-Date: 2021-02-19 03:07+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -43,7 +43,7 @@ msgstr "%(permissionName)s（必填）"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "电子邮件地址"
+msgstr "邮箱地址"
 
 #: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
 msgid "Display name"
@@ -899,7 +899,7 @@ msgstr "无效配置"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr "邮件地址输错？"
+msgstr "邮箱地址输错？"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -1303,7 +1303,7 @@ msgstr "继续操作则表示，您同意我们的<a id=\"fxa-tos\" href=\"/lega
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
-msgstr "请输入电子邮件地址"
+msgstr "请输入邮箱地址"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
@@ -1483,7 +1483,7 @@ msgstr "<span>注意：</span>当您重置密码后，账户亦随之重置。 �
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr "电子邮件地址"
+msgstr "邮箱地址"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1539,7 +1539,7 @@ msgstr "我们发往 %(email)s 的确认邮件已被退回，我们已锁定您�
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "如果这是一个有效的电子邮件地址，<a %(escapedSupportLinkAttrs)s>告诉我们</a>，我们可以帮助您解锁账户。"
+msgstr "如果这是一个有效的邮箱地址，<a %(escapedSupportLinkAttrs)s>告诉我们</a>，我们可以帮助您解锁账户。"
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1877,7 +1877,7 @@ msgstr "您可能丢失在 Mozilla 产品中保存的信息以及功能"
 
 #: .es5/templates/settings/delete_account.mustache:18
 msgid "Reactivating with this email may not restore your saved information"
-msgstr "用此电子邮件地址重新激活，可能无法恢复您已保存的信息"
+msgstr "用此邮箱地址重新激活，可能无法恢复您已保存的信息"
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
@@ -1901,7 +1901,7 @@ msgstr "刷新"
 
 #: .es5/templates/settings/emails.mustache:25
 msgid "Add email"
-msgstr "添加邮件地址"
+msgstr "添加邮箱地址"
 
 #: .es5/templates/settings/emails.mustache:30
 msgid "Add"
@@ -1969,7 +1969,7 @@ msgstr "替换救援码"
 
 #: .es5/templates/settings/upgrade_session.mustache:4
 msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "在查看或修改此项前，需要先验证您的电子邮件地址。"
+msgstr "在查看或修改此项前，需要先验证您的邮箱地址。"
 
 #: .es5/templates/settings/upgrade_session.mustache:5
 msgid "Primary email"

@@ -275,6 +275,19 @@ profile-password =
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = 备用邮箱
+    .header = 备用邮箱
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } 现在是您的主邮箱。
+se-set-primary-error = 抱歉，更改您的主邮箱时出现问题。
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } 成功删除。
+# Button to make secondary email the primary
+se-make-primary = 设为主邮箱
 
 ##
 
@@ -284,6 +297,10 @@ profile-password =
 tfa-row-heading =
     .header = 两步验证
 tfa-row-disabled = 已禁用两步验证
+tfa-row-enabled = 已启用
+tfa-row-not-set = 未设置
+tfa-row-action-add = 添加
+tfa-row-action-disable = 禁用
 tfa-row-cannot-disable = 无法禁用两步验证。
 tfa-row-change-modal-explain = 您将无法撤销此操作。
 
@@ -297,3 +314,4 @@ auth-error-103 = 密码错误
 auth-error-110 = 无效令牌
 auth-error-138 = 未验证的会话
 auth-error-155 = 找不到 TOTP 令牌
+auth-error-1008 = 新旧密码不能相同
