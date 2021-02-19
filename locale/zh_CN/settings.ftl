@@ -100,6 +100,9 @@ avatar-page-zoom-out-button = 缩小
 avatar-page-zoom-in-button = 放大
 avatar-page-rotate-button = 旋转
 avatar-page-camera-error = 无法初始化摄像头
+avatar-page-file-upload-error = 上传您的头像时出现问题
+avatar-page-delete-error = 删除您的头像时出现问题
+avatar-page-image-too-large-error = 图片太大，无法上传。
 
 ##
 
@@ -108,12 +111,29 @@ avatar-page-camera-error = 无法初始化摄像头
 
 pw-change-header =
     .title = 更改密码
+pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
+pw-change-least-8-chars = 至少 8 个字符
+pw-change-not-contain-email = 不能是您的电子邮件地址
+pw-change-cancel-button = 取消
+pw-change-save-button = 保存
+pw-change-forgot-password-link = 忘记密码？
+pw-change-current-password =
+    .label = 请输入当前密码
+pw-change-new-password =
+    .label = 请输入新密码
+pw-change-confirm-password =
+    .label = 请确认新密码
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = 删除账户
+delete-account-step-1-2 = 步骤（1 / 2）
+delete-account-step-2-2 = 步骤（2 / 2）
+delete-account-close-button = 关闭
 
 ##
 
