@@ -420,6 +420,9 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Kaloje si parësor
 se-default-content = Hyni në llogarinë tuaj, nëse s’përdorni dot email-n tuaj parësor.
+se-content-note =
+    Shënim: një email dytësor s’do t’ju rikthejë të dhëna tuaja — për
+    këtë punë do t’ju duhet një <a>kyç rimarrjesh</a>.
 
 ##
 
@@ -435,8 +438,18 @@ tfa-row-action-add = Shtoje
 tfa-row-action-disable = Çaktivizoje
 tfa-row-button-refresh =
     .title = Rifreskoni mirëfilltësim dyhapësh
+tfa-row-cannot-refresh =
+    Na ndjeni, pati një problem në rifreskimin e
+    mirëfilltësimit dyfaktorësh.
+tfa-row-content-explain =
+    Pengojini hyrjen dikujt, duke kërkuar doemos një
+    kod unik, të cilin e dini vetëm ju.
+tfa-row-cannot-verify-session = Na ndjeni, pati një problem në verifikimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
+tfa-row-disable-modal-explain =
+    S’do të jeni në gjendje ta zhbëni këtë veprim. Keni
+    edhe mundësinë e <linkExternal>zëvendësimit të kodeve tuaj të rimarrjeve</linkExternal>.
 tfa-row-cannot-disable = Mirëfilltësimi dyhapësh s’u çaktivizua dot.
 tfa-row-change-modal-heading = Të ndryshohen kode rikthimi?
 tfa-row-change-modal-confirm = Ndryshoji
