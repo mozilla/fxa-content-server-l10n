@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 09:31+0000\n"
+"PO-Revision-Date: 2021-02-19 09:37+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Za sinhronizacijo sta potrebna dva. Sinhronizacija druge naprave s Firefoxom vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
 msgid "Last reminder to sync devices!"
@@ -436,7 +436,7 @@ msgstr "Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način p
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr ""
+msgstr "Pomagajte nam jih odpraviti in <a href=\"%(updateBillingUrl)s\">posodobite svoje podatke za plačila</a> v treh dneh."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
@@ -444,7 +444,7 @@ msgstr "Če v roku treh dni ne prejmemo vašega odgovora, boste izgubili dostop 
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within three days:"
-msgstr ""
+msgstr "Pomagajte nam jih odpraviti in posodobite svoje podatke za plačila v treh dneh:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -472,7 +472,7 @@ msgstr "Prejeli smo vaše zadnje plačilo za %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Hvala za nadgradnjo!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
@@ -694,7 +694,7 @@ msgstr "Prekliči naročnino"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Prekliči naročnine"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -722,7 +722,7 @@ msgstr "Prekliči naročnino:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Prekliči naročnine:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -875,7 +875,7 @@ msgstr ""
 
 #: lib/senders/email.js:2084 lib/senders/email.js:2149
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Vaša naročnina za %(productName)s je preklicana"
 
 #: lib/senders/email.js:2220
 msgid "%(productName)s subscription reactivated"
@@ -899,15 +899,15 @@ msgstr "Prenesite %(productName)s"
 
 #: lib/senders/email.js:2481
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Prijazen opomnik: Kako dokončati nastavitev sinhronizacije"
 
 #: lib/senders/email.js:2482
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Zadnji opomnik: dokončajte nastavitev sinhronizacije"
 
 #: lib/senders/email.js:2496
 msgid "Sync another device"
-msgstr ""
+msgstr "Sinhroniziraj drugo napravo"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1

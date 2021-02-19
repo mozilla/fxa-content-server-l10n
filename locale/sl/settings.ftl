@@ -256,15 +256,38 @@ display-name-update-error = Prišlo je do napake pri spremembi prikaznega imena.
 recovery-key-cancel-button = Prekliči
 recovery-key-close-button = Zapri
 recovery-key-continue-button = Nadaljuj
+recovery-key-enter-password =
+    .label = Vnesite geslo
+recovery-key-page-title =
+    .title = Obnovitveni ključ
+recovery-key-step-1 = Korak 1 od 2
+recovery-key-step-2 = Korak 2 od 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Pomožni e-poštni naslov
+add-secondary-email-enter-address =
+    .label = Vnesite e-poštni naslov
+add-secondary-email-cancel-button = Prekliči
+add-secondary-email-save-button = Shrani
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Prišlo je do napake pri pošiljanju potrditvene kode.
+verify-secondary-email-page-title =
+    .title = Pomožni e-poštni naslov
+verify-secondary-email-verification-code =
+    .label = Vnesite svojo potrditveno kodo
+verify-secondary-email-cancel-button = Prekliči
+verify-secondary-email-verify-button = Potrdi
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = V roku 5 minut vnesite potrditveno kodo, ki je bila poslana na <strong>{ $email }</strong>.
 
 ##
 
