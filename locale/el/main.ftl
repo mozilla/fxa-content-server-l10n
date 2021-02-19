@@ -87,8 +87,8 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυ
 
 ## payment legal blurb
 
-payment-legal-copy = Η { -brand-name-mozilla } χρησιμοποιεί το Stripe για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link = Δείτε την <a>πολιτική απορρήτου του Stripe</a>.
+payment-legal-copy-stripe-paypal = Η { -brand-name-mozilla } χρησιμοποιεί τα Stripe και Paypal για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-stripe-paypal = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του Stripe</stripePrivacyLink> και την <paypalPrivacyLink>πολιτική απορρήτου του Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -334,6 +334,9 @@ sub-billing-update-success = Τα στοιχεία χρέωσής σας ενη�
 ## subscription create
 
 sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερών
+pay-with-heading-other = Επιλέξτε μια μέθοδο πληρωμής
+pay-with-heading-card-or = Ή πληρωμή με κάρτα
+pay-with-heading-card-only = Πληρωμή με κάρτα
 
 ## plan-details
 
