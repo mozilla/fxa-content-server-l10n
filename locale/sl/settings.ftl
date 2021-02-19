@@ -291,39 +291,91 @@ verify-secondary-email-please-enter-code = V roku 5 minut vnesite potrditveno ko
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Izbriši račun
 
 ## Two Step Authentication
 
+tfa-title = Overitev v dveh korakih
+tfa-step-1-3 = Korak 1 od 3
+tfa-step-2-3 = Korak 2 od 3
+tfa-step-3-3 = Korak 3 od 3
+tfa-button-continue = Nadaljuj
+tfa-button-cancel = Prekliči
+tfa-button-finish = Končaj
+tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
+tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
+tfa-enabled = Overitev v dveh korakih je omogočena
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
+tfa-input-enter-totp =
+    .label = Vnesite varnostno kodo
+tfa-enter-recovery-code =
+    .label = Vnesite kodo za obnovitev
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Prikazano ime
+profile-password =
+    .header = Geslo
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Ustvarjeno: { $date }
+profile-primary-email =
+    .header = Glavna e-pošta
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Varnost
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Dodaj
+row-defaults-action-change = Spremeni
 
 ## Recovery key sub-section on main Settings page
 
+rk-action-create = Ustvari
+rk-action-remove = Odstrani
+rk-key-removed = Obnovitveni ključ za račun odstranjen.
+rk-refresh-key = Osveži obnovitveni ključ
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Pomožni e-poštni naslov
+    .header = Pomožni e-poštni naslov
+se-cannot-resend-code = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode.
+# Button to make secondary email the primary
+se-make-primary = Nastavi kot glavno
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Overitev v dveh korakih
+tfa-row-disabled = Overitev v dveh korakih je onemogočena.
+tfa-row-enabled = Omogočeno
+tfa-row-action-add = Dodaj
+tfa-row-action-disable = Onemogoči
+tfa-row-disable-modal-confirm = Onemogoči
+tfa-row-change-modal-confirm = Spremeni
+tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Slika
+avatar-add-link = Dodaj
 
 ## Auth-server based errors that originate from backend service
 
