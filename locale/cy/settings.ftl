@@ -399,12 +399,42 @@ rk-remove-modal-content =
 se-heading = Ail e-bost
     .header = Ail E-bost
 se-cannot-refresh-email = Ymddiheuriadau, bu anhawster wrth adnewyddu'r e-bost hwnnw.
+se-cannot-resend-code = Ymddiheuriadau, bu anhawster wrth ail anfon y cod dilysu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } yw eich prif e-bost nawr.
+se-set-primary-error = Ymddiheuriadau, bu anhawster wrth newid eich prif e-bost.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Dilëwyd { $email } yn llwyddiannus.
+se-delete-email-error = Ymddiheuriadau, bu anhawster wrth ddileu'r e-bost hwn
+se-verify-session = Bydd angen i chi wirio'ch sesiwn gyfredol i gyflawni'r weithred hon.
+se-verify-session-error = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+# Button to remove the secondary email
+se-remove-email =
+    .title = Tynnu e-bost
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Adnewyddu e-bost
+se-unverified = Heb ei wirio
+se-resend-code =
+    Angen gwirio. <button>Ail anfon y cod dilysu</button>
+    os nad yw yn eich blwch derbyn neu'ch ffolder sbam.
+# Button to make secondary email the primary
+se-make-primary = Gwneud yn brif gyfrif
+se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
+se-content-note = Sylwch: ni fydd eich ail e-bost yn adfer eich manylion — byddwch angen <a>allwedd adfer</a> ar gyfer hynny.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Dilysu dau gam
+tfa-row-disabled = Dilysu dau gam wedi ei alluogi
 
 ## Avatar sub-section on main Settings page
 
