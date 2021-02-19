@@ -26,12 +26,36 @@
         [mestnik] Mozilli
         [orodnik] Mozillo
     }
--brand-firefox = Firefox
+-brand-firefox =
+    { $sklon ->
+       *[imenovalnik] Firefox
+        [rodilnik] Firefoxa
+        [dajalnik] Firefoxu
+        [tozilnik] Firefox
+        [mestnik] Firefoxu
+        [orodnik] Firefoxom
+    }
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Računi
+-product-firefox-accounts =
+    { $sklon ->
+       *[imenovalnik] Firefox Računi
+        [rodilnik] Firefox Računov
+        [dajalnik] Firefox Računom
+        [tozilnik] Firefox Račune
+        [mestnik] Firefox Računih
+        [orodnik] Firefox Računi
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox Račun
+-product-firefox-account =
+    { $sklon ->
+       *[imenovalnik] Firefox Račun
+        [rodilnik] Firefox Računa
+        [dajalnik] Firefox Računu
+        [tozilnik] Firefox Račun
+        [mestnik] Firefox Računu
+        [orodnik] Firefox Računom
+    }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -48,12 +72,19 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = Logotip { -brand-mozilla(sklon: "rodilnik") }
+app-footer-privacy-notice = Obvestilo o zasebnosti spletnega mesta
+app-footer-terms-of-service = Pogoji storitve
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Vaš avatar
+avatar-default-avatar =
+    .alt = Privzeti avatar
 
 ##
 
@@ -66,13 +97,26 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 ## Connected services section
 
+cs-heading = Povezane storitve
+cs-description = Vse, kar uporabljate in kamor ste prijavljeni.
+cs-refresh-button =
+    .title = Osveži povezane storitve
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Manjkajoči ali podvojeni elementi?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Naprava je:
+cs-disconnect-sync-opt-suspicious = sumljiva
+cs-disconnect-sync-opt-lost = izgubljena ali ukradena
+cs-disconnect-sync-opt-old = stara ali zamenjana
+cs-disconnect-sync-opt-duplicate = podvojena
+cs-disconnect-sync-opt-not-say = raje ne bi povedal
 
 ##
 
+cs-disconnect-advice-confirm = Razumem
 
 ##
 
