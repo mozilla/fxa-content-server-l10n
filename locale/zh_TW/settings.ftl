@@ -48,6 +48,10 @@ app-footer-terms-of-service = 服務條款
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = 您的大頭照
+avatar-default-avatar =
+    .alt = 預設大頭照
 
 ##
 
@@ -60,10 +64,19 @@ app-footer-terms-of-service = 服務條款
 
 ## Connected services section
 
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = 已登出 { $service }。
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
+cs-disconnect-sync-heading = 中斷與 Sync 的連結
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = 裝置是:
 cs-disconnect-sync-opt-suspicious = 此裝置看來很可疑
 cs-disconnect-sync-opt-lost = 已遺失此裝置
 cs-disconnect-sync-opt-old = 已經不再使用此裝置
@@ -292,6 +305,14 @@ tfa-row-change-modal-confirm = 變更
 ## Avatar sub-section on main Settings page
 
 avatar-heading = 照片
+avatar-add-link = 新增
+avatar-change-link = 變更
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = 未知帳號
+auth-error-103 = 密碼不正確
+auth-error-110 = token 無效
+auth-error-138 = 未驗證的使用階段
+auth-error-155 = 找不到 TOTP token
+auth-error-1008 = 您的新密碼必須與舊密碼不同
