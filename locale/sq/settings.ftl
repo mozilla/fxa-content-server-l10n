@@ -295,6 +295,10 @@ verify-secondary-email-verification-code =
     .label = Jepni kod verifikimi
 verify-secondary-email-cancel-button = Anuloje
 verify-secondary-email-verify-button = Verifikoje
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te <strong>{ $email }</strong>.
 
 ##
 
