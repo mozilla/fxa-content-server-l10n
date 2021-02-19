@@ -119,33 +119,84 @@ cs-disconnect-sync-opt-not-say = raje ne bi povedal
 cs-disconnect-advice-confirm = Razumem
 cs-disconnect-lost-advice-heading = Povezava z izgubljeno/ukradeno napravo je prekinjena
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
+cs-sign-out-button = Odjava
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Preneseno
+datablock-copy =
+    .message = Kopirano
+datablock-print =
+    .message = Natisnjeno
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Kode za obnovitev
+get-data-trio-download =
+    .title = Prenesi
+get-data-trio-copy =
+    .title = Kopiraj
+get-data-trio-print =
+    .title = Natisni
 
 # HeaderLockup component
 
+header-menu-open = Zapri meni
+header-back-to-top-link =
+    .title = Nazaj na vrh
+header-title = { -product-firefox-accounts }
+header-help = Pomoč
 
 ## Settings Nav
 
+nav-settings = Nastavitve
+nav-profile = Profil
+nav-security = Varnost
+nav-connected-services = Povezane storitve
+nav-paid-subs = Plačljive naročnine
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Pri menjavi kod za obnovitev je prišlo do težave.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Slika profila
+avatar-page-add-photo = Dodaj fotografijo
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fotografiraj
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Odstrani fotografijo
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Fotografiraj znova
+avatar-page-close-button = Zapri
+avatar-page-save-button = Shrani
+avatar-page-zoom-out-button = Pomanjšaj
+avatar-page-zoom-in-button = Povečaj
+avatar-page-rotate-button = Zavrti
+avatar-page-camera-error = Kamere ni bilo mogoče zagnati
+avatar-page-new-avatar =
+    .alt = nova slika profila
+avatar-page-file-upload-error = Prišlo je do napake pri nalaganju slike profila
+avatar-page-delete-error = Prišlo je do napake pri brisanju slike profila
+avatar-page-image-too-large-error = Datoteka s sliko je prevelika za nalaganje.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Spremeni geslo
+pw-change-stay-safe = Ostanite varni – ne uporabljajte enakih gesel na več mestih. Vaše geslo:
 
 ##
 
