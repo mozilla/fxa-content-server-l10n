@@ -157,6 +157,26 @@ tfa-replace-code-error = Terjadi masalah saat mengganti kode pemulihan Anda.
 
 avatar-page-title =
     .title = Gambar Profil
+avatar-page-add-photo = Tambahkan Foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ambil Foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Hapus Foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ambil Ulang Foto
+avatar-page-close-button = Tutup
+avatar-page-save-button = Simpan
+avatar-page-zoom-out-button = Perkecil
+avatar-page-zoom-in-button = Perbesar
+avatar-page-rotate-button = Putar
+avatar-page-camera-error = Tidak dapat menginisialisasi kamera
+avatar-page-new-avatar =
+    .alt = gambar profil baru
+avatar-page-file-upload-error = Terjadi masalah saat mengunggah gambar profil Anda
+avatar-page-delete-error = Terjadi masalah saat menghapus avatar Anda
 
 ##
 
