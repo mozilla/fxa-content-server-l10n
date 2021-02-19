@@ -264,36 +264,105 @@ tfa-qa-code-alt =
     Скарыстайцеся кодам { $secret } для настаўлення двухэтапнай аўтарызацыі
     ў падтрыманых праграмах.
 tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
+tfa-input-enter-totp =
+    .label = Увядзіце код бяспекі
+tfa-save-these-codes = Захоўвайце гэтыя аднаразовыя коды ў бяспечным месцы, на выпадак, калі ў вас не будзе мабільнай прылады.
+tfa-enter-recovery-code =
+    .label = Увядзіце код аднаўлення
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Профіль
+profile-display-name =
+    .header = Бачнае імя
+profile-password =
+    .header = Пароль
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Створаны { $date }
+profile-primary-email =
+    .header = Асноўны адрас пошты
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Бяспека
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Дадаць
+row-defaults-action-change = Змяніць
+row-defaults-action-disable = Адключыць
+row-defaults-status = Няма
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Уключана
+rk-not-set = Не ўстаноўлены
+rk-action-create = Стварыць
+rk-action-remove = Выдаліць
+rk-key-removed = Ключ аднаўлення ўліковага запісу выдалены.
+rk-refresh-key = Абнавіць ключ аднаўлення
+rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Дадатковая пошта
+    .header = Дадатковая пошта
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } паспяхова выдалены.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Выдаліць электронную пошту
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Абнавіць электронную пошту
+se-unverified = не спраўджана
+# Button to make secondary email the primary
+se-make-primary = Зрабіць асноўным
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Двухэтапная аўтарызацыя
+tfa-row-disabled = Двухэтапная аўтарызацыя адключана.
+tfa-row-enabled = Уключана
+tfa-row-not-set = Не ўстаноўлена
+tfa-row-action-add = Дадаць
+tfa-row-action-disable = Адключыць
+tfa-row-button-refresh =
+    .title = Абнавіць двухэтапную аўтарызацыю
+tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
+tfa-row-disable-modal-confirm = Адключыць
+tfa-row-cannot-disable = Немагчыма адключыць двухэтапную аўтэнтыфікацыю.
+tfa-row-change-modal-heading = Змяніць коды аднаўлення?
+tfa-row-change-modal-confirm = Змяніць
+tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Выява
+avatar-add-link = Дадаць
+avatar-change-link = Змяніць
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Невядомы ўліковы запіс
+auth-error-103 = Няправільны пароль
+auth-error-110 = Нядзейсны токен
+auth-error-138 = Неправераны сеанс
+auth-error-155 = TOTP-токен не знойдзены
+auth-error-1008 = Ваш новы пароль павінен адрознівацца
