@@ -376,6 +376,12 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 avatar-heading = Slika
 avatar-add-link = Dodaj
+avatar-change-link = Spremeni
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Neznan račun
+auth-error-110 = Neveljaven žeton
+auth-error-138 = Nepreverjena seja
+auth-error-155 = Žetona TOTP ni mogoče najti
+auth-error-1008 = Novo geslo mora biti drugačno
