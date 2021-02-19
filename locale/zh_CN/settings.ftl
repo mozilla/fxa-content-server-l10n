@@ -69,7 +69,7 @@ connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-fir
 cs-heading = 关联服务
 cs-description = 您正在使用并登录的所有项目。
 cs-cannot-refresh = 很抱歉，刷新关联服务列表时出现问题。
-cs-cannot-disconnect = 找不到客户端，无法断开连接
+cs-cannot-disconnect = 找不到客户端，无法解绑
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -86,6 +86,7 @@ cs-disconnect-sync-heading = 断开同步
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content = 您的浏览数据将继续保留在您的设备（{ $device }），但它将不再与您的账户同步。
+cs-disconnect-sync-reason = 要解绑此设备的主要原因是什么？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -99,6 +100,8 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 ##
 
+cs-disconnect-advice-confirm = 好的，明白了
+cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
 cs-sign-out-button = 退出
 
 ##
@@ -309,6 +312,7 @@ security-heading = 安全性
 
 se-heading = 备用邮箱
     .header = 备用邮箱
+se-cannot-resend-code = 抱歉，重新发送验证码时出现问题。
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -318,6 +322,8 @@ se-set-primary-error = 抱歉，更改您的主邮箱时出现问题。
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } 成功删除。
+se-delete-email-error = 抱歉，删除此邮箱地址时出现问题。
+se-verify-session-error = 抱歉，验证您的会话时出现问题。
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 
