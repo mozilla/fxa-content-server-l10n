@@ -117,6 +117,8 @@ cs-disconnect-sync-opt-not-say = raje ne bi povedal
 ##
 
 cs-disconnect-advice-confirm = Razumem
+cs-disconnect-lost-advice-heading = Povezava z izgubljeno/ukradeno napravo je prekinjena
+cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
 
 ##
 
