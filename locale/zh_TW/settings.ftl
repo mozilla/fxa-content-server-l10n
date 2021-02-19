@@ -68,7 +68,7 @@ connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-
 
 cs-heading = 已連結的服務
 cs-description = 您正在使用並登入的所有項目。
-cs-cannot-refresh = 抱歉，重新整理已連結的服務清單時發生問題。
+cs-cannot-refresh = 很抱歉，重新整理已連結的服務清單時發生問題。
 cs-cannot-disconnect = 找不到客戶端，無法取消連線
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -80,6 +80,7 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
 cs-disconnect-sync-heading = 中斷與 Sync 的連結
+cs-disconnect-sync-reason = 要取消連結此裝置的主要原因是什麼？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -95,6 +96,7 @@ cs-disconnect-sync-opt-not-say = 我不想說
 
 cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
+cs-disconnect-lost-advice-content = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-accounts } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-sign-out-button = 登出
 
@@ -167,8 +169,8 @@ avatar-page-rotate-button = 旋轉
 avatar-page-camera-error = 無法初始化攝影機
 avatar-page-new-avatar =
     .alt = 新增個人資料照片
-avatar-page-file-upload-error = 更新您的個人資料大頭照時發生錯誤
-avatar-page-delete-error = 刪除您的大頭照時發生錯誤
+avatar-page-file-upload-error = 更新您的個人資料大頭照時發生問題
+avatar-page-delete-error = 刪除您的大頭照時發生問題
 avatar-page-image-too-large-error = 圖片檔案太大，無法上傳。
 
 ##
@@ -178,9 +180,12 @@ avatar-page-image-too-large-error = 圖片檔案太大，無法上傳。
 
 pw-change-header =
     .title = 更改密碼
+pw-change-stay-safe = 確保安全 — 不要重複使用密碼！您的密碼:
 pw-change-least-8-chars = 至少要 8 個字元長
 pw-change-not-contain-email = 不能是您的 E-Mail 地址
 pw-change-must-match = 新密碼與確認輸入內容相符
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = 不能使用<linkExternal>常見密碼清單</linkExternal>當中的密碼
 pw-change-cancel-button = 取消
 pw-change-save-button = 儲存
 pw-change-forgot-password-link = 忘記密碼？
@@ -200,6 +205,7 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
+delete-account-confirm-title = 您已將 { -product-firefox-accounts } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品:
 delete-account-acknowledge = 請確認若刪除帳號:
 delete-account-chk-box-1 =
     .label = 將取消您所有已付款的訂閱內容
@@ -225,7 +231,7 @@ display-name-input =
     .label = 輸入顯示名稱
 submit-display-name = 儲存
 cancel-display-name = 取消
-display-name-update-error = 更新您的顯示名稱時發生錯誤。
+display-name-update-error = 更新您的顯示名稱時發生問題。
 
 ##
 
@@ -244,7 +250,7 @@ recovery-key-step-2 = 第 2 步，共 2 步
 
 ## Add secondary email page
 
-add-secondary-email-error = 建立此郵件時發生錯誤。
+add-secondary-email-error = 建立此郵件時發生問題。
 add-secondary-email-page-title =
     .title = 次要電子郵件地址
 add-secondary-email-enter-address =
@@ -257,7 +263,7 @@ add-secondary-email-save-button = 儲存
 
 ## Verify secondary email page
 
-verify-secondary-email-error = 寄出驗證碼時發生錯誤。
+verify-secondary-email-error = 寄出驗證碼時發生問題。
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
 verify-secondary-email-verification-code =
@@ -283,6 +289,10 @@ tfa-step-3-3 = 第 3 步，共 3 步
 tfa-button-continue = 繼續
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
+tfa-incorrect-totp = 兩階段驗證碼不正確
+tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
+tfa-cannot-verify-code = 驗證您的救援金鑰時發生問題。
+tfa-incorrect-recovery-code = 救援金鑰不正確
 tfa-enabled = 已開啟兩階段驗證
 # This is the image alt text for a QR code.
 # Variables:
@@ -334,14 +344,42 @@ rk-enabld = 已啟用
 rk-not-set = 未設定
 rk-action-create = 建立
 rk-action-remove = 移除
+rk-cannot-refresh = 很抱歉，重新整理救援金鑰時發生問題。
+rk-key-removed = 已刪除帳號救援金鑰。
+rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
+rk-refresh-key = 重新整理救援金鑰
+rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
+rk-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
+rk-remove-modal-heading = 要移除救援金鑰嗎？
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = 次要電子郵件地址
     .header = 次要電子郵件地址
+se-cannot-refresh-email = 很抱歉，重新整理該電子郵件地址時發生問題。
+se-cannot-resend-code = 很抱歉，重新寄出驗證碼時發生問題。
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = 已將您的主要電子郵件地址更改為 { $email }。
+se-set-primary-error = 很抱歉，更改您的主要電子郵件地址時發生問題。
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = 成功刪除 { $email }。
+se-delete-email-error = 很抱歉，刪除此電子郵件地址時發生問題。
+se-verify-session-error = 很抱歉，確認您的連線階段時發生問題。
+# Button to remove the secondary email
+se-remove-email =
+    .title = 移除電子郵件地址
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = 重新整理電子郵件地址
 se-unverified = 未驗證
+se-resend-code = 需要驗證。若驗證信並未跑到收件匣或垃圾信件匣，可<button>點此重寄驗證碼</button>。
 # Button to make secondary email the primary
 se-make-primary = 設為主要信箱
+se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
 
 ##
 
@@ -355,10 +393,17 @@ tfa-row-enabled = 已啟用
 tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
+tfa-row-button-refresh =
+    .title = 重新整理兩階段驗證狀態
+tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
+tfa-row-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
+tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain = 將無法還原此動作。您還可以<linkExternal>換新救援碼</linkExternal>。
+tfa-row-cannot-disable = 無法停用兩階段驗證。
 tfa-row-change-modal-heading = 要更改救援碼嗎？
 tfa-row-change-modal-confirm = 變更
+tfa-row-change-modal-explain = 將無法恢復此動作。
 
 ## Avatar sub-section on main Settings page
 

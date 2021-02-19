@@ -304,7 +304,7 @@ sub-route-idx-updating = 正在更新帳務資訊…
 sub-route-idx-reactivating = 重新訂閱失敗
 sub-route-idx-cancel-failed = 訂閱取消失敗
 sub-route-idx-contact = 聯絡支援團隊
-sub-route-idx-cancel-msg-title = 很抱歉看到您離開
+sub-route-idx-cancel-msg-title = 很遺憾看到您離開
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg = 已取消您對 { $name } 的訂閱。<br />仍可繼續使用 { $name } 到 { $date }為止。
