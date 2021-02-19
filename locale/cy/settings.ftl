@@ -113,18 +113,42 @@ cs-disconnect-lost-advice-content =
     yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
     gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
+cs-disconnect-suspicious-advice-content =
+    Os yw'r ddyfais sydd wedi'i datgysylltu wir 
+    yn amheus, er mwyn cadw'ch manylion yn ddiogel, dylech newid cyfrinair eich { -product-firefox-account }
+    yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrinair arall
+    a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins i'r bar cyfeiriad.
+cs-sign-out-button = Allgofnodi
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Wedi eu llwytho i lawr
+datablock-copy =
+    .message = Copïwyd
+datablock-print =
+    .message = Argraffwyd
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Codau Adfer
+get-data-trio-download =
+    .title = Llwytho i Lawr
+get-data-trio-copy =
+    .title = Copïo
+get-data-trio-print =
+    .title = Argraffu
 
 # HeaderLockup component
 
+header-menu-open = Cau'r ddewislen
+header-menu-closed = Dewislen llywio'r wefan
+header-back-to-top-link =
+    .title = Nôl i'r brig
+header-title = { -product-firefox-accounts }
 
 ## Settings Nav
 
