@@ -36,6 +36,12 @@
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts(capitalization: "uppercase") }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-Step Authentication")
+app-page-title = { $title } | { -product-firefox-accounts(capitalization: "uppercase") }
 
 ##
 
@@ -73,6 +79,7 @@
 
 # HeaderLockup component
 
+header-title = { -product-firefox-accounts(capitalization: "uppercase") }
 
 ## Settings Nav
 
