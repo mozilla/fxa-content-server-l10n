@@ -239,9 +239,12 @@ recovery-key-enter-password =
     .label = 輸入密碼
 recovery-key-page-title =
     .title = 救援金鑰
+recovery-key-step-1 = 第 1 步，共 2 步
+recovery-key-step-2 = 第 2 步，共 2 步
 
 ## Add secondary email page
 
+add-secondary-email-error = 建立此郵件時發生錯誤。
 add-secondary-email-page-title =
     .title = 次要電子郵件地址
 add-secondary-email-enter-address =
@@ -254,12 +257,17 @@ add-secondary-email-save-button = 儲存
 
 ## Verify secondary email page
 
+verify-secondary-email-error = 寄出驗證碼時發生錯誤。
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
 verify-secondary-email-verification-code =
     .label = 請輸入驗證碼
 verify-secondary-email-cancel-button = 取消
 verify-secondary-email-verify-button = 驗證
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = 請於 5 分鐘內輸入發送到 <strong>{ $email }</strong> 的驗證碼。
 
 ##
 
