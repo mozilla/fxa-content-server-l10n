@@ -117,6 +117,7 @@ header-help = 帮助
 ## Settings Nav
 
 nav-settings = 设置
+nav-profile = 个人资料
 nav-security = 安全
 
 ## Two Step Authentication - replace recovery code
@@ -250,22 +251,35 @@ tfa-incorrect-totp = 错误的两步验证码
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
+tfa-button-cant-scan-qr = 无法扫码？
+tfa-input-enter-totp =
+    .label = 请输入安全码
+tfa-enter-recovery-code =
+    .label = 请输入救援码
 
 ##
 
 
 ## Profile section
 
+porfile-heading = 个人资料
 profile-display-name =
     .header = 显示名称
 profile-password =
     .header = 密码
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = 创建于 { $date }
+profile-primary-email =
+    .header = 主邮箱
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = 安全性
 
 ## Sub-section row Defaults
 
