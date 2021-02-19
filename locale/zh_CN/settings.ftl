@@ -304,9 +304,22 @@ security-heading = 安全性
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = 添加
+row-defaults-action-change = 更改
+row-defaults-action-disable = 禁用
+row-defaults-status = 无
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = 已启用
+rk-not-set = 未设置
+rk-action-create = 创建
+rk-action-remove = 移除
+rk-cannot-refresh = 抱歉，刷新救援密钥时出现问题。
+rk-key-removed = 已移除账户救援密钥。
+rk-cannot-remove-key = 无法删除您的账户救援密钥。
+rk-refresh-key = 刷新救援密钥
+rk-remove-modal-heading = 要移除救援密钥吗？
 
 ## Secondary email sub-section on main Settings page
 
@@ -351,13 +364,14 @@ tfa-row-action-disable = 禁用
 tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
+tfa-row-cannot-verify-session = 抱歉，验证您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
 tfa-row-cannot-disable = 无法禁用两步验证。
 tfa-row-change-modal-heading = 要更改救援码吗？
 tfa-row-change-modal-confirm = 更改
-tfa-row-change-modal-explain = 您将无法撤销此操作。
+tfa-row-change-modal-explain = 此操作无法撤销。
 
 ## Avatar sub-section on main Settings page
 
