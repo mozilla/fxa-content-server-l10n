@@ -435,6 +435,13 @@ se-content-note = Sylwch: ni fydd eich ail e-bost yn adfer eich manylion — byd
 tfa-row-heading =
     .header = Dilysu dau gam
 tfa-row-disabled = Dilysu dau gam wedi ei alluogi
+tfa-row-enabled = Galluogwyd
+tfa-row-not-set = Heb ei Osod
+tfa-row-action-add = Ychwanegu
+tfa-row-action-disable = Analluogi
+tfa-row-button-refresh =
+    .title = Adnewyddu dilysu dau gam
+tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.
 
 ## Avatar sub-section on main Settings page
 
