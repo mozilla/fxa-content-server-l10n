@@ -324,8 +324,17 @@ se-set-primary-error = 抱歉，更改您的主邮箱时出现问题。
 se-delete-email-successful = { $email } 成功删除。
 se-delete-email-error = 抱歉，删除此邮箱地址时出现问题。
 se-verify-session-error = 抱歉，验证您的会话时出现问题。
+# Button to remove the secondary email
+se-remove-email =
+    .title = 移除邮箱地址
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = 刷新邮箱地址
+se-unverified = 未验证
+se-resend-code = 需要验证。若未收到邮件，并确认不在垃圾邮件文件夹中，请<button>点此重新发送验证码</button>。
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
+se-default-content = 主邮箱不可用时，用此访问账户。
 
 ##
 
@@ -339,11 +348,22 @@ tfa-row-enabled = 已启用
 tfa-row-not-set = 未设置
 tfa-row-action-add = 添加
 tfa-row-action-disable = 禁用
+tfa-row-button-refresh =
+    .title = 刷新两步验证状态
+tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
+tfa-row-disable-modal-heading = 要禁用两步验证吗？
+tfa-row-disable-modal-confirm = 禁用
+tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
 tfa-row-cannot-disable = 无法禁用两步验证。
+tfa-row-change-modal-heading = 要更改救援码吗？
+tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 您将无法撤销此操作。
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = 照片
+avatar-add-link = 添加
+avatar-change-link = 更改
 
 ## Auth-server based errors that originate from backend service
 
