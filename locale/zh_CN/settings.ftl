@@ -281,9 +281,16 @@ profile-password =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-cannot-disable = 无法禁用两步验证。
+tfa-row-change-modal-explain = 您将无法撤销此操作。
 
 ## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = 未知账户
+auth-error-103 = 密码错误
+auth-error-110 = 无效令牌
+auth-error-138 = 未验证的会话
+auth-error-155 = 找不到 TOTP 令牌
