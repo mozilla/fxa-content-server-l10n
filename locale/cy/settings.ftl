@@ -71,7 +71,7 @@ connect-another-find-fx-mobile =
 
 cs-heading = Gwasanaethau Cysylltiedig
 cs-description = Popeth rydych chi'n ei ddefnyddio ac wedi mewngofnodi iddo.
-cs-cannot-refresh = Ymddiheuriadau, roedd problem yn adnewyddu'r rhestr o wasanaethau cysylltiedig.
+cs-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r rhestr o wasanaethau cysylltiedig.
 cs-cannot-disconnect = Cleient heb ei ddarganfod, yn methu â datgysylltu
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -88,7 +88,9 @@ cs-disconnect-sync-heading = Datgysylltu o Sync
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Bydd eich data pori yn aros ar eich dyfais ({ $device }), ond ni fydd yn cydweddu â'ch cyfrif bellach.
+cs-disconnect-sync-content =
+    Bydd eich data pori yn aros ar eich dyfais
+    ({ $device }), ond ni fydd yn cydweddu â'ch cyfrif bellach.
 cs-disconnect-sync-reason =
     Beth yw'r prif reswm dros ddatgysylltu'r
     ddyfais hon?
@@ -108,8 +110,8 @@ cs-disconnect-sync-opt-not-say = Gwell peidio dweud
 cs-disconnect-advice-confirm = Iawn
 cs-disconnect-lost-advice-heading = Dyfais coll neu wedi'i dwyn wedi'i datgysylltu
 cs-disconnect-lost-advice-content =
-    Gan bod eich dyfais wedi cael ei cholli neu ei dwyn, i
-    cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
+    Gan bod eich dyfais wedi cael ei cholli
+    neu ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
     yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
     gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
@@ -442,9 +444,31 @@ tfa-row-action-disable = Analluogi
 tfa-row-button-refresh =
     .title = Adnewyddu dilysu dau gam
 tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.
+tfa-row-content-explain =
+    Atal rhywun arall rhag mewngofnodi trwy fynnu
+    cod unigryw dim ond chi sydd â mynediad iddo.
+tfa-row-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
+tfa-row-disable-modal-confirm = Analluogi
+tfa-row-disable-modal-explain =
+    Fyddwch chi ddim yn gallu dadwneud y weithred hon.
+    Mae gennych hefyd y dewis o <linkExternal>greu codau adfer newydd</linkExternal>.
+tfa-row-cannot-disable = Nid oedd modd analluogi dilysu dau gam.
+tfa-row-change-modal-heading = Newid y codau adfer?
+tfa-row-change-modal-confirm = Newid
+tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Llun
+avatar-add-link = Ychwanegu
+avatar-change-link = Newid
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cyfrif anhysbys
+auth-error-103 = Cyfrinair anghywir
+auth-error-110 = Tocyn annilys
+auth-error-138 = Sesiwn heb ei gwirio
+auth-error-155 = Heb ganfod tocyn TOTP
+auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
