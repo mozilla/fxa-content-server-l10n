@@ -83,9 +83,14 @@ cs-sign-out-button = Logga ut
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-copy =
+    .title = Kopiera
+get-data-trio-print =
+    .title = Skriv ut
 
 # HeaderLockup component
 
+header-menu-open = Stäng meny
 header-help = Hjälp
 
 ## Settings Nav
@@ -123,51 +128,82 @@ delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
 delete-account-cancel-button = Avbryt
+delete-account-delete-button = Ta bort konto
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Spara
+cancel-display-name = Avbryt
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Avbryt
+recovery-key-close-button = Stäng
+recovery-key-continue-button = Fortsätt
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Avbryt
+add-secondary-email-save-button = Spara
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Avbryt
+verify-secondary-email-verify-button = Verifiera
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Ta bort konto
 
 ## Two Step Authentication
 
+tfa-title = Tvåstegsautentisering
+tfa-button-continue = Fortsätt
+tfa-button-cancel = Avbryt
+tfa-button-finish = Slutför
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Visningsnamn
+profile-password =
+    .header = Lösenord
+profile-primary-email =
+    .header = Primär e-post
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Säkerhet
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Lägg till
+row-defaults-action-change = Ändra
+row-defaults-action-disable = Inaktivera
+row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Aktiverad
+rk-action-create = Skapa
+rk-action-remove = Ta bort
 
 ## Secondary email sub-section on main Settings page
 
@@ -177,9 +213,16 @@ delete-account-cancel-button = Avbryt
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Aktiverad
+tfa-row-action-add = Lägg till
+tfa-row-action-disable = Inaktivera
+tfa-row-change-modal-confirm = Ändra
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Bild
+avatar-add-link = Lägg till
+avatar-change-link = Ändra
 
 ## Auth-server based errors that originate from backend service
 
