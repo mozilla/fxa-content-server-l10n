@@ -94,30 +94,75 @@ datablock-print =
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Palautuskoodit
+get-data-trio-download =
+    .title = Lataa
+get-data-trio-copy =
+    .title = Kopioi
+get-data-trio-print =
+    .title = Tulosta
 
 # HeaderLockup component
 
+header-menu-open = Sulje valikko
+header-back-to-top-link =
+    .title = Takaisin ylös
+header-title = { -product-firefox-accounts }
+header-help = Ohje
 
 ## Settings Nav
 
+nav-settings = Asetukset
+nav-profile = Profiili
+nav-security = Turvallisuus
+nav-connected-services = Yhdistetyt palvelut
+nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profiilikuva
+avatar-page-add-photo = Lisää kuva
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ota kuva
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Poista kuva
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ota uusi kuva
+avatar-page-close-button = Sulje
+avatar-page-save-button = Tallenna
+avatar-page-zoom-out-button = Loitonna
+avatar-page-zoom-in-button = Lähennä
+avatar-page-rotate-button = Kierrä
+avatar-page-camera-error = Kameraa ei voitu alustaa
+avatar-page-new-avatar =
+    .alt = uusi profiilikuva
 
 ##
 
 
 ## Password change page
 
+pw-change-cancel-button = Peruuta
+pw-change-save-button = Tallenna
 
 ##
 
 
 ## Delete account page
 
+delete-account-step-1-2 = Vaihe 1/2
+delete-account-step-2-2 = Vaihe 2/2
+delete-account-close-button = Sulje
+delete-account-continue-button = Jatka
+delete-account-password-input =
+    .label = Kirjoita salasana
+delete-account-cancel-button = Peruuta
 
 ##
 
@@ -130,21 +175,34 @@ get-data-trio-title = Palautuskoodit
 
 # Recovery key setup page
 
+recovery-key-step-1 = Vaihe 1/2
+recovery-key-step-2 = Vaihe 2/2
 
 ## Add secondary email page
 
+add-secondary-email-enter-address =
+    .label = Kirjoita sähköpostiosoite
+add-secondary-email-cancel-button = Peruuta
+add-secondary-email-save-button = Tallenna
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Peruuta
 
 ##
 
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Vaihe 1/3
+tfa-step-2-3 = Vaihe 2/3
+tfa-step-3-3 = Vaihe 3/3
+tfa-button-continue = Jatka
+tfa-button-cancel = Peruuta
+tfa-button-finish = Viimeistele
 
 ##
 
