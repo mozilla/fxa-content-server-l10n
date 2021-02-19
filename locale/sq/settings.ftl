@@ -319,8 +319,24 @@ tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
 tfa-cannot-verify-code = Pati një problem me verifikimin e kodit tuaj të rimarrjes.
 tfa-incorrect-recovery-code = Kod rimarrjeje i pasaktë
 tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
+tfa-scan-this-code =
+    Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
+    aplikacione mirëfilltësimi</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Përdoreni kodin { $secret } që të rregulloni mirëfilltësim dyhapsh te aplikacione që e mbulojnë.
+tfa-button-cant-scan-qr = S’e skanoni dot kodin?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:
+tfa-enter-totp = Tani jepni kodin e sigurisë prej aplikacionit të mirëfilltësimeve.
 tfa-input-enter-totp =
     .label = Jepni kod sigurie
+tfa-save-these-codes = Ruajini këta kode njëpërdorimsh në një vend të sigurt, për kur të mos keni pajisjen tuaj celulare.
+tfa-enter-code-to-confirm =
+    Ju lutemi, jepni tani një nga kodet tuaj të rimarrjes që
+    të ripohoni se i keni ruajtur. Do t’ju duhet një kod, nëse humbni pajisjen tuaj dhe doni
+    të hyni në llogarinë tuaj.
 tfa-enter-recovery-code =
     .label = Jepni kod rikthimi
 
@@ -363,15 +379,22 @@ rk-action-create = Krijoje
 rk-action-remove = Hiqe
 rk-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes
 rk-key-removed = Kyçi i rimarrjes së llogarisë u hoq.
+rk-cannot-remove-key = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
 rk-refresh-key = Rifreskoni kyç rikthimi
+rk-content-explain = Riktheni të dhënat tuaja, kur harroni fjalëkalimin tuaj.
+rk-content-reset-data = Pse ricaktimi i fjalëkalimit tim shkakton zerimin e të dhënave të mia?
 rk-cannot-verify-session = Na ndjeni, pati një problem në verifikimin e sesionit tuaj
 rk-remove-modal-heading = Të hiqet kyçi i rikthimit?
+rk-remove-modal-content =
+    Për rastet kur ricaktoni fjalëkalimin tuaj, s’do të jeni
+    në gjendje të përdorni kyçin tuaj të rimarrjeve për të hyrë në të dhënat tuaja. S’mund ta zhbëni këtë veprim.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Email dytësor
     .header = Email Dytësor
 se-cannot-refresh-email = Na ndjeni, pati një problem në rifreskimin e këtij email-i
+se-cannot-resend-code = Na ndjeni, pati një problem me ridërgimin e kodit të verifikimit.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -382,6 +405,7 @@ se-set-primary-error = Na ndjeni, pati një problem në ndryshimin e email-it tu
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } u fshi me sukses.
 se-delete-email-error = Na ndjeni, pati një problem në fshirjen e këtij email-i.
+se-verify-session = Që të kryhet ky veprim, do t’ju duhet të verifikoni sesionin tuaj të tanishëm.
 se-verify-session-error = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
 # Button to remove the secondary email
 se-remove-email =
@@ -390,8 +414,12 @@ se-remove-email =
 se-refresh-email =
     .title = Rifreskoni email-in
 se-unverified = i paverifikuar
+se-resend-code =
+    Lypset verifikim. Kërkoni <button>Ridërgim kod verifikimi</button>,
+    nëse s’gjendet te Të marrët, ose te dosja juaj e të padëshiruarve.
 # Button to make secondary email the primary
 se-make-primary = Kaloje si parësor
+se-default-content = Hyni në llogarinë tuaj, nëse s’përdorni dot email-n tuaj parësor.
 
 ##
 
