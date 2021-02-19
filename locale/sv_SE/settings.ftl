@@ -60,12 +60,16 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Hämta { -brand-firefox } till mobil eller surfplatta
+connect-another-find-fx-mobile =
+    Hitta { -brand-firefox } i { -google-play } och { -app-store } eller
+    <br /><linkExternal>skicka en nedladdningslänk till din enhet.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Anslutna tjänster
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -80,9 +84,18 @@ cs-sign-out-button = Logga ut
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Nerladdad
+datablock-copy =
+    .message = Kopierad
+datablock-print =
+    .message = Utskriven
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Återställningskoder
+get-data-trio-download =
+    .title = Hämta
 get-data-trio-copy =
     .title = Kopiera
 get-data-trio-print =
@@ -91,6 +104,11 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Stäng meny
+header-back-to-top-link =
+    .title = Tillbaka till toppen
+header-title = { -product-firefox-accounts }
+header-switch-title = Byt till klassisk design
+    .title = länk till klassisk design
 header-help = Hjälp
 
 ## Settings Nav
@@ -98,12 +116,32 @@ header-help = Hjälp
 nav-settings = Inställningar
 nav-profile = Profil
 nav-security = Säkerhet
+nav-connected-services = Anslutna tjänster
+nav-paid-subs = Betalda prenumerationer
+nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Det gick inte att ersätta återställningskoderna.
+tfa-replace-code-success =
+    Nya koder har skapats. Spara dessa engångskoder
+    på en säker plats — du behöver dem för att komma åt
+    ditt konto om du inte har din mobila enhet.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilbild
+avatar-page-add-photo = Lägg till foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ta ett foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Ta bort foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ta om foto
 avatar-page-close-button = Stäng
 avatar-page-save-button = Spara
 avatar-page-zoom-out-button = Zooma ut
@@ -124,6 +162,13 @@ avatar-page-image-too-large-error = Bildens filstorlek är för stor för att ku
 pw-change-header =
     .title = Ändra lösenord
 pw-change-stay-safe = Var försiktig — återanvänd inte lösenord. Ditt lösenord:
+pw-change-least-8-chars = Måste innehålla minst åtta tecken
+pw-change-not-contain-email = Får inte vara din e-postadress
+pw-change-must-match = Nytt lösenord matchar
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Får inte matcha den här <linkExternal>listan med vanliga
+    lösenord</linkExternal>
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Spara
 pw-change-forgot-password-link = Glömt lösenordet?
