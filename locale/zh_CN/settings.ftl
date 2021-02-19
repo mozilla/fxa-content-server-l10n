@@ -60,6 +60,7 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
+connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 寻找 { -brand-firefox }，或是<br /><linkExternal>将下载链接发送到您的移动设备上。</linkExternal>
 
 ##
 
@@ -102,6 +103,7 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
+cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
 cs-sign-out-button = 退出
 
 ##
