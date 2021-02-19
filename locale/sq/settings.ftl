@@ -98,30 +98,99 @@ cs-disconnect-sync-reason =
 
 cs-disconnect-sync-opt-prefix = Pajisja është:
 cs-disconnect-sync-opt-suspicious = E dyshimtë
+cs-disconnect-sync-opt-lost = E vjedhur ose e Humbur
+cs-disconnect-sync-opt-old = E vjetër ose e Zëvendësuar
+cs-disconnect-sync-opt-duplicate = Përsëdytje
+cs-disconnect-sync-opt-not-say = S’dëshiroj ta them
 
 ##
 
+cs-disconnect-advice-confirm = OK, e mora vesh
+cs-disconnect-lost-advice-heading = U shkëput pajisje e humbur ose e vjedhur
+cs-disconnect-lost-advice-content =
+    Meqë pajisja juaj qe vjedhur ose humbur, për
+    të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-accounts } tuaj
+    te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga
+    prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
+cs-disconnect-suspicious-advice-heading = U shkëput pajisje e dyshimtë
+cs-disconnect-suspicious-advice-content =
+    Nëse pajisja e shkëputur është vërtet
+    e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account }
+    tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
+    tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
+cs-sign-out-button = Dilni
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = U shkarkua
+datablock-copy =
+    .message = U kopjua
+datablock-print =
+    .message = U shtyp
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Kode Rikthimi
+get-data-trio-download =
+    .title = Shkarkoje
+get-data-trio-copy =
+    .title = Kopjoje
+get-data-trio-print =
+    .title = Shtype
 
 # HeaderLockup component
 
+header-menu-open = Mbylle menunë
+header-menu-closed = Menu lëvizje në sajt
+header-back-to-top-link =
+    .title = Mbrapsht te kreu
+header-title = { -product-firefox-accounts }
+header-switch-title = Kalo në skemën klasike
+    .title = lidhje për te skema klasike
+header-help = Ndihmë
 
 ## Settings Nav
 
+nav-settings = Rregullime
+nav-profile = Profil
+nav-security = Siguri
+nav-connected-services = Shërbime të Lidhura
+nav-paid-subs = Pajtime Me Pagesë
+nav-email-comm = Komunikime Me Email
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Pati një problem me zëvendësimin e kodeve tuaj të rimarrjes.
+tfa-replace-code-success =
+    U krijuan kode të reja. Ruajini këto kode njëpërdorimsh në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
+    pajisjen tuaj celulare.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto Profili
+avatar-page-add-photo = Shtoni Foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Bëni Foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Hiqe Foton
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ribëni Foto
+avatar-page-close-button = Mbylle
+avatar-page-save-button = Ruaje
+avatar-page-zoom-out-button = Zvogëlojeni
+avatar-page-zoom-in-button = Zmadhojeni
+avatar-page-rotate-button = Rrotulloje
+avatar-page-camera-error = Nuk u gatit dot kamera
+avatar-page-new-avatar =
+    .alt = foto e re profili
 
 ##
 
