@@ -184,33 +184,86 @@ delete-account-chk-box-2 =
     .label = Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Паўторнае падключэнне на гэту электронную пошту можа не аднавіць захаваную інфармацыю
+delete-account-chk-box-4 =
+    .label = Любыя пашырэнні і тэмы, якія вы апублікавалі на addons.mozilla.org, будуць выдалены
+delete-account-close-button = Закрыць
+delete-account-continue-button = Працягнуць
+delete-account-password-input =
+    .label = Увядзіце пароль
+delete-account-cancel-button = Скасаваць
+delete-account-delete-button = Выдаліць уліковы запіс
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Увядзіце бачнае імя
+submit-display-name = Захаваць
+cancel-display-name = Скасаваць
+display-name-update-error = Узнікла праблема з абнаўленнем бачнага імені.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Скасаваць
+recovery-key-close-button = Закрыць
+recovery-key-continue-button = Працягнуць
+recovery-key-enter-password =
+    .label = Увядзіце пароль
+recovery-key-page-title =
+    .title = Ключ аднаўлення
+recovery-key-step-1 = Крок 1 з 2
+recovery-key-step-2 = Крок 2 з 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Дадатковая пошта
+add-secondary-email-enter-address =
+    .label = Увядзіце адрас электроннай пошты
+add-secondary-email-cancel-button = Скасаваць
+add-secondary-email-save-button = Захаваць
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Дадатковая пошта
+verify-secondary-email-verification-code =
+    .label = Увядзіце свой код пацверджання
+verify-secondary-email-cancel-button = Скасаваць
+verify-secondary-email-verify-button = Пацвердзіць
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Выдаліць уліковы запіс
 
 ## Two Step Authentication
 
+tfa-title = Двухэтапная аўтарызацыя
+tfa-step-1-3 = Крок 1 з 3
+tfa-step-2-3 = Крок 2 з 3
+tfa-step-3-3 = Крок 3 з 3
+tfa-button-continue = Працягнуць
+tfa-button-cancel = Скасаваць
+tfa-button-finish = Гатова
+tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
+tfa-incorrect-recovery-code = Няправільны код аднаўлення
+tfa-enabled = Двухэтапная аўтарызацыя ўключана
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Скарыстайцеся кодам { $secret } для настаўлення двухэтапнай аўтарызацыі
+    ў падтрыманых праграмах.
+tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 
 ##
 
