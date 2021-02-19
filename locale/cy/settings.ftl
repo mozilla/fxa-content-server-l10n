@@ -312,24 +312,84 @@ tfa-title = Dilysu Dau Gam
 tfa-step-1-3 = Cam 1 o 2
 tfa-step-2-3 = Cam 1 o 2
 tfa-step-3-3 = Cam 3 o 3
+tfa-button-continue = Parhau
+tfa-button-cancel = Diddymu
+tfa-button-finish = Gorffen
+tfa-incorrect-totp = Cod dilysu dau gam annilys
+tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
+tfa-cannot-verify-code = Bu anhawster wrth wirio'ch cod adfer.
+tfa-incorrect-recovery-code = Cod adfer anghywir
+tfa-enabled = Mae dilysu dau gam wedi ei alluogi
+tfa-scan-this-code =
+    Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
+    apiau dilysu hyn</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Defnyddiwch y cod { $secret } i osod dilysiad dau gam yn
+    rhaglenni sy'n cael eu cynnal.
+tfa-button-cant-scan-qr = Methu sganio codau?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:
+tfa-enter-totp = Nawr nodwch y cod diogelwch o'r ap dilysu.
+tfa-input-enter-totp =
+    .label = Rhowch y cod dilysu
+tfa-save-these-codes =
+    Cadwch y codau defnydd unwaith hyn mewn man diogel
+    pan nad yw eich dyfais symudol gennych.
+tfa-enter-code-to-confirm =
+    Rhowch un o'ch codau adfer nawr i
+    cadarnhau eich bod wedi ei gadw. Bydd angen cod arnoch os byddwch chi'n colli'ch dyfais ac eisiau
+    cael mynediad i'ch cyfrif.
+tfa-enter-recovery-code =
+    .label = Rhowch y cod adfer
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Proffil
+profile-display-name =
+    .header = Enw dangos
+profile-password =
+    .header = Cyfrinair
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Crëwyd: { $date }
+profile-primary-email =
+    .header = Prif e-bost
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Diogelwch
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Ychwanegu
+row-defaults-action-change = Newid
+row-defaults-action-disable = Analluogi
+row-defaults-status = Dim
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Galluogwyd
+rk-not-set = Heb ei Osod
+rk-action-create = Creu
+rk-action-remove = Tynnu
+rk-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
+rk-key-removed = Tynnwyd yr allwedd adfer cyfrif.
+rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
+rk-refresh-key = Adnewyddu'r allwedd adfer
+rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
+rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
+rk-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+rk-remove-modal-heading = Dileu'r allwedd adfer?
 
 ## Secondary email sub-section on main Settings page
 
