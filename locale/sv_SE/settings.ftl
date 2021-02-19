@@ -109,20 +109,40 @@ avatar-page-save-button = Spara
 avatar-page-zoom-out-button = Zooma ut
 avatar-page-zoom-in-button = Zooma in
 avatar-page-rotate-button = Rotera
+avatar-page-camera-error = Det gick inte att initiera kameran
+avatar-page-new-avatar =
+    .alt = ny profilbild
+avatar-page-file-upload-error = Det gick inte att ladda upp din profilbild
+avatar-page-delete-error = Det gick inte att ta bort din avatar
+avatar-page-image-too-large-error = Bildens filstorlek är för stor för att kunna laddas upp.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Ändra lösenord
+pw-change-stay-safe = Var försiktig — återanvänd inte lösenord. Ditt lösenord:
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Spara
+pw-change-forgot-password-link = Glömt lösenordet?
+pw-change-current-password =
+    .label = Ange nuvarande lösenord
+pw-change-new-password =
+    .label = Ange nytt lösenord
+pw-change-confirm-password =
+    .label = Bekräfta nytt lösenord
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Ta bort konto
+delete-account-step-1-2 = Steg 1 av 2
+delete-account-step-2-2 = Steg 2 av 2
 delete-account-close-button = Stäng
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
@@ -135,8 +155,11 @@ delete-account-delete-button = Ta bort konto
 
 ## Display name page
 
+display-name-input =
+    .label = Ange visningsnamn
 submit-display-name = Spara
 cancel-display-name = Avbryt
+display-name-update-error = Det gick inte att uppdatera ditt visningsnamn.
 
 ##
 
@@ -146,9 +169,20 @@ cancel-display-name = Avbryt
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Stäng
 recovery-key-continue-button = Fortsätt
+recovery-key-enter-password =
+    .label = Ange lösenord
+recovery-key-page-title =
+    .title = Återställningsnyckel
+recovery-key-step-1 = Steg 1 av 2
+recovery-key-step-2 = Steg 2 av 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Det gick inte att skapa sekundär e-post.
+add-secondary-email-page-title =
+    .title = Sekundär e-post
+add-secondary-email-enter-address =
+    .label = Ange e-postadress
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Spara
 
@@ -157,8 +191,17 @@ add-secondary-email-save-button = Spara
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Det gick inte att skicka verifieringskoden.
+verify-secondary-email-page-title =
+    .title = Sekundär e-post
+verify-secondary-email-verification-code =
+    .label = Ange din verifikationskod
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button = Verifiera
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Ange verifieringskoden som skickades till <strong>{ $email }</strong> inom fem minuter.
 
 ##
 
@@ -168,6 +211,9 @@ delete-account-link = Ta bort konto
 ## Two Step Authentication
 
 tfa-title = Tvåstegsautentisering
+tfa-step-1-3 = Steg 1 av 3
+tfa-step-2-3 = Steg 2 av 3
+tfa-step-3-3 = Steg 3 av 3
 tfa-button-continue = Fortsätt
 tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
