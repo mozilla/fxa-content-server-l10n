@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 02:36+0000\n"
+"PO-Revision-Date: 2021-02-19 02:51+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -260,7 +260,7 @@ msgstr "已移除备用邮箱"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "您已成功移除您的 Firefox 账户中的次要邮箱地址 %(secondaryEmail)s。安全通知和登录确认将不再发送到此地址。"
+msgstr "您已成功移除您的 Firefox 账户中的备用邮箱地址 %(secondaryEmail)s。安全通知和登录确认将不再发送到此地址。"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
