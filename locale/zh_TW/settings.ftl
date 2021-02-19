@@ -40,6 +40,7 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = { -brand-mozilla } 圖示
 app-footer-privacy-notice = 網站隱私權保護政策
 app-footer-terms-of-service = 服務條款
 
@@ -58,17 +59,21 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
 
 ##
 
 
 ## Connected services section
 
+cs-heading = 已連結的服務
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = 已登出 { $service }。
+cs-refresh-button =
+    .title = 重新整理已連結的服務
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
 cs-disconnect-sync-heading = 中斷與 Sync 的連結
@@ -87,6 +92,7 @@ cs-disconnect-sync-opt-not-say = 我不想說
 
 cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
+cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-sign-out-button = 登出
 
 ##
@@ -118,6 +124,8 @@ header-menu-closed = 網站導航選單
 header-back-to-top-link =
     .title = 回到頁面頂端
 header-title = { -product-firefox-accounts }
+header-switch-title = 切換回經典設計風格
+    .title = 經典設計鏈結
 header-help = 說明
 
 ## Settings Nav
@@ -125,9 +133,13 @@ header-help = 說明
 nav-settings = 設定
 nav-profile = 個人資料
 nav-security = 安全性
+nav-connected-services = 已連結的服務
+nav-paid-subs = 付費訂閱項目
+nav-email-comm = 電子郵件通訊
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = 取代您的救援碼時發生問題。
 
 ## Avatar change page
 
