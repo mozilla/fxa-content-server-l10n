@@ -191,18 +191,50 @@ avatar-page-rotate-button = Rrotulloje
 avatar-page-camera-error = Nuk u gatit dot kamera
 avatar-page-new-avatar =
     .alt = foto e re profili
+avatar-page-file-upload-error = Pati një problem gjatë ngarkimit të fotos tuaj të profilit.
+avatar-page-delete-error = Pati një problem me fshirjen e avatarit tuaj
+avatar-page-image-too-large-error = Madhësia e kartelës figurë është shumë e madhe për t’u ngarkuar.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Ndryshoni Fjalëkalimin
+pw-change-stay-safe = Rrini pa rrezik — mos ripërdori fjalëkalime. Fjalëkalimi juaj:
+pw-change-least-8-chars = Duhet të jetë të paktën 8 shenja
+pw-change-not-contain-email = S’duhet të jetë adresa juaj email
+pw-change-must-match = Fjalëkalimi i ri përputhet me të ripohuarin
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    S’duhet të ketë përputhje me këtë <linkExternal>listë fjalëkalimesh
+    të rëndomtë</linkExternal>
+pw-change-cancel-button = Anuloje
+pw-change-save-button = Ruaje
+pw-change-forgot-password-link = Harruat  fjalëkalimin?
+pw-change-current-password =
+    .label = Jepni fjalëkalimin e tanishëm
+pw-change-new-password =
+    .label = Jepni fjalëkalimin e ri
+pw-change-confirm-password =
+    .label = Ripohoni fjalëkalimin e ri
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Fshijeni Llogarinë
+delete-account-step-1-2 = Hapi 1 nga 2
+delete-account-step-2-2 = Hapi 2 nga 2
+delete-account-confirm-title = E keni lidhur { -product-firefox-accounts } tuaj me produkte { -brand-mozilla } që ju mbajnë në internet të parrezikuar dhe prodhimtar në internet:
+delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
+delete-account-chk-box-1 =
+    .label = Do të anulohet çfarëdo pajtimi me pagesë që keni
+delete-account-chk-box-2 =
+    .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
 
 ##
 
