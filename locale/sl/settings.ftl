@@ -228,18 +228,34 @@ delete-account-chk-box-1 =
     .label = preklicali vse plačane naročnine
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
+delete-account-chk-box-4 =
+    .label = izbrisali vse razširitve in teme, ki ste jih objavili na addons.mozilla.org
+delete-account-close-button = Zapri
+delete-account-continue-button = Nadaljuj
+delete-account-password-input =
+    .label = Vnesite geslo
+delete-account-cancel-button = Prekliči
+delete-account-delete-button = Izbriši račun
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Vnesite prikazno ime
+submit-display-name = Shrani
+cancel-display-name = Prekliči
+display-name-update-error = Prišlo je do napake pri spremembi prikaznega imena.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Prekliči
+recovery-key-close-button = Zapri
+recovery-key-continue-button = Nadaljuj
 
 ## Add secondary email page
 
