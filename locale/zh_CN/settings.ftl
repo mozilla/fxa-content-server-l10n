@@ -281,6 +281,9 @@ profile-password =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = 两步验证
+tfa-row-disabled = 已禁用两步验证
 tfa-row-cannot-disable = 无法禁用两步验证。
 tfa-row-change-modal-explain = 您将无法撤销此操作。
 
