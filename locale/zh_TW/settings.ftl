@@ -355,9 +355,11 @@ rk-cannot-refresh = 很抱歉，重新整理救援金鑰時發生問題。
 rk-key-removed = 已刪除帳號救援金鑰。
 rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
 rk-refresh-key = 重新整理救援金鑰
+rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
 rk-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
 rk-remove-modal-heading = 要移除救援金鑰嗎？
+rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
 
 ## Secondary email sub-section on main Settings page
 
@@ -375,6 +377,7 @@ se-set-primary-error = 很抱歉，更改您的主要電子郵件地址時發生
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = 成功刪除 { $email }。
 se-delete-email-error = 很抱歉，刪除此電子郵件地址時發生問題。
+se-verify-session = 必須要驗證您目前的使用階段，才能進行此操作。
 se-verify-session-error = 很抱歉，確認您的連線階段時發生問題。
 # Button to remove the secondary email
 se-remove-email =
