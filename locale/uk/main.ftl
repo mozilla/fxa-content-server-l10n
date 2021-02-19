@@ -91,8 +91,8 @@ product-no-such-plan = Такого тарифного плану для цьо�
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } використовує Stripe для безпечної обробки платежів.
-payment-legal-link = Перегляньте <a>політику приватності Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } використовує Stripe та Paypal для безпечної обробки платежів.
+payment-legal-link-stripe-paypal = Перегляньте <stripePrivacyLink>Політику приватності Stripe</stripePrivacyLink> та <paypalPrivacyLink>Політику приватності Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -352,6 +352,9 @@ sub-billing-update-success = Ваші платіжні дані успішно �
 ## subscription create
 
 sub-guarantee = Гарантоване повернення коштів упродовж 30 днів
+pay-with-heading-other = Вибрати спосіб оплати
+pay-with-heading-card-or = Або сплатити карткою
+pay-with-heading-card-only = Сплатити карткою
 
 ## plan-details
 
