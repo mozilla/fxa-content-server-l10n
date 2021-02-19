@@ -140,12 +140,18 @@ header-help = 帮助
 nav-settings = 设置
 nav-profile = 个人资料
 nav-security = 安全
+nav-connected-services = 关联服务
+nav-paid-subs = 付费订阅
+nav-email-comm = 电子邮件通信
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = 更新您的救援码时出现问题。
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = 头像
 avatar-page-add-photo = 添加照片
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
@@ -162,6 +168,8 @@ avatar-page-zoom-out-button = 缩小
 avatar-page-zoom-in-button = 放大
 avatar-page-rotate-button = 旋转
 avatar-page-camera-error = 无法初始化摄像头
+avatar-page-new-avatar =
+    .alt = 更换头像
 avatar-page-file-upload-error = 上传您的头像时出现问题
 avatar-page-delete-error = 删除您的头像时出现问题
 avatar-page-image-too-large-error = 图片太大，无法上传。
@@ -280,12 +288,17 @@ tfa-button-continue = 继续
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
+tfa-cannot-verify-code = 验证您的救援码时出现问题。
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
 tfa-button-cant-scan-qr = 无法扫码？
+# When the user cannot use a QR code.
+tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
+tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
+tfa-save-these-codes = 请妥善保管以下这些一次性救援码，以便您在没有移动设备时使用。
 tfa-enter-recovery-code =
     .label = 请输入救援码
 
@@ -338,6 +351,7 @@ rk-remove-modal-heading = 要移除救援密钥吗？
 
 se-heading = 备用邮箱
     .header = 备用邮箱
+se-cannot-refresh-email = 抱歉，刷新邮箱地址时出现问题。
 se-cannot-resend-code = 抱歉，重新发送验证码时出现问题。
 # This string is used in a notification message near the top of the page.
 # Variables:
