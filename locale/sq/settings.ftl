@@ -134,7 +134,7 @@ datablock-print =
 
 # GetDataTrio component, part of Recovery Key flow
 
-get-data-trio-title = Kode Rikthimi
+get-data-trio-title = Kode Rimarrjeje
 get-data-trio-download =
     .title = Shkarkoje
 get-data-trio-copy =
@@ -265,6 +265,7 @@ display-name-update-error = Pati një problem me përditësimin e emrit tuaj në
 recovery-key-cancel-button = Anuloje
 recovery-key-close-button = Mbylle
 recovery-key-continue-button = Vazhdo
+recovery-key-created = Kyçi juaj i rimarrjeve u krijua. Sigurohuni se e ruani kyçin në një vend të parrezik, që të mund të gjeni kollaj më vonë — kyçi do t’ju duhet të rifitoni hyrje në të dhënat tuaja, nëse harroni fjalëkalimin tuaj.
 recovery-key-enter-password =
     .label = Jepni fjalëkalimin
 recovery-key-page-title =
@@ -312,37 +313,114 @@ tfa-button-finish = Përfundoje
 tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
 tfa-cannot-verify-code = Pati një problem me verifikimin e kodit tuaj të rimarrjes.
-tfa-incorrect-recovery-code = Kod rikthimi i pasaktë
+tfa-incorrect-recovery-code = Kod rimarrjeje i pasaktë
+tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
+tfa-input-enter-totp =
+    .label = Jepni kod sigurie
+tfa-enter-recovery-code =
+    .label = Jepni kod rikthimi
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Emër në ekran
+profile-password =
+    .header = Fjalëkalim
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Krijuar më { $date }
+profile-primary-email =
+    .header = Email parësor
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Siguri
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Shtoje
+row-defaults-action-change = Ndryshoje
+row-defaults-action-disable = Çaktivizoje
+row-defaults-status = Asnjë
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = E aktivizuar
+rk-not-set = S’është caktuar
+rk-action-create = Krijoje
+rk-action-remove = Hiqe
+rk-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes
+rk-key-removed = Kyçi i rimarrjes së llogarisë u hoq.
+rk-refresh-key = Rifreskoni kyç rikthimi
+rk-cannot-verify-session = Na ndjeni, pati një problem në verifikimin e sesionit tuaj
+rk-remove-modal-heading = Të hiqet kyçi i rikthimit?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Email dytësor
+    .header = Email Dytësor
+se-cannot-refresh-email = Na ndjeni, pati një problem në rifreskimin e këtij email-i
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } është tani e tutje email-i juaj parësor.
+se-set-primary-error = Na ndjeni, pati një problem në ndryshimin e email-it tuaj parësor.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } u fshi me sukses.
+se-delete-email-error = Na ndjeni, pati një problem në fshirjen e këtij email-i.
+se-verify-session-error = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Hiqe email-in
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Rifreskoni email-in
+se-unverified = i paverifikuar
+# Button to make secondary email the primary
+se-make-primary = Kaloje si parësor
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Mirëfilltësim dyhapësh
+tfa-row-disabled = Mirëfilltësimi dyhapësh u çaktivizua.
+tfa-row-enabled = I aktivizuar
+tfa-row-not-set = I paujdisur
+tfa-row-action-add = Shtoje
+tfa-row-action-disable = Çaktivizoje
+tfa-row-button-refresh =
+    .title = Rifreskoni mirëfilltësim dyhapësh
+tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
+tfa-row-disable-modal-confirm = Çaktivizoje
+tfa-row-cannot-disable = Mirëfilltësimi dyhapësh s’u çaktivizua dot.
+tfa-row-change-modal-heading = Të ndryshohen kode rikthimi?
+tfa-row-change-modal-confirm = Ndryshoji
+tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Foto
+avatar-add-link = Shtoje
+avatar-change-link = Ndryshoje
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Llogari e panjohur
+auth-error-103 = Fjalëkalim i pasaktë
+auth-error-110 = Token i pavlefshëm
+auth-error-138 = Sesion i paverifikuar
+auth-error-155 = S’u gjet token TOTP
+auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
