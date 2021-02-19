@@ -176,6 +176,8 @@ pw-change-header =
 pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
 pw-change-least-8-chars = 至少 8 个字符
 pw-change-not-contain-email = 不能是您的邮箱地址
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = 不能与<linkExternal>常见密码</linkExternal>相同
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
@@ -195,6 +197,15 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
+delete-account-acknowledge = 请确认，若您真要删除账户：
+delete-account-chk-box-1 =
+    .label = 将取消您的所有付费订阅内容
+delete-account-chk-box-2 =
+    .label = 您可能丢失在 { -brand-mozilla } 产品中保存的信息以及功能
+delete-account-chk-box-3 =
+    .label = 用此邮箱地址重新激活，也无法恢复您保存的信息
+delete-account-chk-box-4 =
+    .label = 您发布到 addons.mozilla.org 的所有扩展和主题都将被删除。
 delete-account-close-button = 关闭
 delete-account-continue-button = 继续
 delete-account-password-input =
@@ -319,6 +330,8 @@ rk-cannot-refresh = 抱歉，刷新救援密钥时出现问题。
 rk-key-removed = 已移除账户救援密钥。
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
+rk-content-reset-data = 为什么重置密码时会重置我的数据？
+rk-cannot-verify-session = 抱歉，验证您的会话时出现问题
 rk-remove-modal-heading = 要移除救援密钥吗？
 
 ## Secondary email sub-section on main Settings page
