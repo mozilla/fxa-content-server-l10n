@@ -34,18 +34,32 @@ product-firefox-monitor = Firefox Monitor
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-Step Authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = { -brand-mozilla }-logo
+app-footer-privacy-notice = Privacyverklaring voor website
+app-footer-terms-of-service = Servicevoorwaarden
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Uw avatar
+avatar-default-avatar =
+    .alt = Standaardavatar
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Download { -brand-firefox } op mobiel of tablet
 
 ##
 
