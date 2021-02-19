@@ -427,7 +427,7 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
-se-content-note = Sylwch: ni fydd eich ail e-bost yn adfer eich manylion — byddwch angen <a>allwedd adfer</a> ar gyfer hynny.
+se-content-note = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — byddwch angen <a>allwedd adfer</a> ar gyfer hynny.
 
 ##
 
