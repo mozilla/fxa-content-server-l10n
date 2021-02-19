@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 02:51+0000\n"
+"PO-Revision-Date: 2021-02-19 03:03+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -410,7 +410,7 @@ msgstr "已打印"
 
 #: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "主要邮件地址验证成功"
+msgstr "主邮箱地址验证成功"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
@@ -518,7 +518,7 @@ msgstr "未知账户"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr "邮件地址大小写错误"
+msgstr "邮箱地址大小写错误"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
@@ -590,7 +590,7 @@ msgstr "无法投递电子邮件"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr "此电子邮件地址已被另一名用户验证"
+msgstr "此邮箱地址已被另一名用户验证"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
@@ -602,15 +602,15 @@ msgstr "备用邮箱地址必须不同于您的账户邮箱地址"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "已达允许的备用电子邮件地址上限"
+msgstr "已达允许的备用邮箱地址上限"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr "您的账户已设定过此电子邮件地址"
+msgstr "您的账户已设定过此邮箱地址"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr "需要使用账号的主要邮件地址登录"
+msgstr "需要使用账户的主邮箱地址登录"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
@@ -618,7 +618,7 @@ msgstr "地址已被另一名用户使用"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr "需要使用账号的主要邮件地址重置"
+msgstr "需要使用账户的主邮箱地址重置"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
@@ -626,15 +626,15 @@ msgstr "无效登录代码"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
-msgstr "无法将主邮箱变更为未验证的电子邮件地址"
+msgstr "无法将主邮箱变更为未验证的邮箱地址"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "无法将主邮箱变更为非属此账户的电子邮件地址"
+msgstr "无法将主邮箱变更为非属此账户的邮箱地址"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
-msgstr "此邮件地址目前用作登录"
+msgstr "此邮箱地址目前用作登录"
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
@@ -767,7 +767,7 @@ msgstr "需要有效的密码"
 
 #: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
-msgstr "需要有效的电子邮件地址"
+msgstr "需要有效的邮箱地址"
 
 #: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
@@ -783,11 +783,11 @@ msgstr "需要有效的 URL"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "您的验证邮件刚被退回了。邮件地址输错了吗？"
+msgstr "您的验证邮件刚被退回了。邮箱地址输错了吗？"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "请输入一个有效的电子邮件地址。firefox.com 不提供电子邮件服务。"
+msgstr "请输入一个有效的邮箱地址。firefox.com 不提供电子邮件服务。"
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -1164,7 +1164,7 @@ msgstr "记起了密码？登录"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "主要邮件地址已经确认"
+msgstr "主邮箱地址已经确认"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -2048,7 +2048,7 @@ msgstr "以后再说"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "使用另一个邮件地址"
+msgstr "使用另一个邮箱地址"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -2273,7 +2273,7 @@ msgstr "保持安全 &mdash; 不要使用重复密码。"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr "不能是您的电子邮件地址"
+msgstr "不能是您的邮箱地址"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"

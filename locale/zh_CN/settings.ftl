@@ -153,7 +153,7 @@ pw-change-header =
     .title = 更改密码
 pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
 pw-change-least-8-chars = 至少 8 个字符
-pw-change-not-contain-email = 不能是您的电子邮件地址
+pw-change-not-contain-email = 不能是您的邮箱地址
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
@@ -209,9 +209,9 @@ recovery-key-step-2 = 步骤（2 / 2）
 ## Add secondary email page
 
 add-secondary-email-page-title =
-    .title = 备用电子邮件地址
+    .title = 备用邮箱地址
 add-secondary-email-enter-address =
-    .label = 请输入电子邮件地址
+    .label = 请输入邮箱地址
 add-secondary-email-cancel-button = 取消
 add-secondary-email-save-button = 保存
 
@@ -222,7 +222,7 @@ add-secondary-email-save-button = 保存
 
 verify-secondary-email-error = 发送验证码时出现问题。
 verify-secondary-email-page-title =
-    .title = 备用电子邮件地址
+    .title = 备用邮箱地址
 verify-secondary-email-verification-code =
     .label = 请输入您的验证码
 verify-secondary-email-cancel-button = 取消

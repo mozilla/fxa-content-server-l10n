@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 02:51+0000\n"
+"PO-Revision-Date: 2021-02-19 02:56+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -216,7 +216,7 @@ msgstr "新的主邮箱"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr "您已成功将您的主要邮件地址更改为 %(email)s。此邮件地址现在是您用于登录 Firefox 账户的用户名，以及用于接收安全通知和登录确认。"
+msgstr "您已成功将您的主邮箱地址更改为 %(email)s。此邮箱地址现在是您用于登录 Firefox 账户的用户名，以及用于接收安全通知和登录确认。"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -516,7 +516,7 @@ msgstr "请立即确认，即可获取为您的隐私而战的相关技术、实
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr "确认电子邮件地址："
+msgstr "确认邮箱地址："
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -528,7 +528,7 @@ msgstr "大约一周前，您创建了一个 Firefox 账户却未进行验证。
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "请确认此电子邮件地址以激活您的账户，让我们知道您没遇到什么问题。"
+msgstr "请确认此邮箱地址以激活您的账户，让我们知道您没遇到什么问题。"
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
@@ -752,7 +752,7 @@ msgstr "账户创建完成"
 
 #: lib/senders/email.js:546 lib/senders/email.js:674
 msgid "Confirm email"
-msgstr "确认电子邮件地址"
+msgstr "确认邮箱地址"
 
 #: lib/senders/email.js:613
 msgid "Verification code: %(code)s"
@@ -788,7 +788,7 @@ msgstr "验证邮箱"
 
 #: lib/senders/email.js:949 lib/senders/email.js:1017
 msgid "Confirm secondary email"
-msgstr "确认备用电子邮件地址"
+msgstr "确认备用邮箱地址"
 
 #: lib/senders/email.js:1073
 msgid "Reset your password"
