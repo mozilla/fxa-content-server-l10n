@@ -169,17 +169,28 @@ delete-account-cancel-button = Peruuta
 
 ## Display name page
 
+submit-display-name = Tallenna
+cancel-display-name = Peruuta
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Peruuta
+recovery-key-close-button = Sulje
+recovery-key-continue-button = Jatka
+recovery-key-enter-password =
+    .label = Kirjoita salasana
+recovery-key-page-title =
+    .title = Palautusavain
 recovery-key-step-1 = Vaihe 1/2
 recovery-key-step-2 = Vaihe 2/2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Toissijainen sähköposti
 add-secondary-email-enter-address =
     .label = Kirjoita sähköpostiosoite
 add-secondary-email-cancel-button = Peruuta
@@ -190,6 +201,8 @@ add-secondary-email-save-button = Tallenna
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Toissijainen sähköposti
 verify-secondary-email-cancel-button = Peruuta
 
 ##
@@ -233,6 +246,8 @@ tfa-button-finish = Viimeistele
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Kuva
+avatar-add-link = Lisää
 
 ## Auth-server based errors that originate from backend service
 
