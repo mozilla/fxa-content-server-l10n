@@ -318,12 +318,45 @@ tfa-button-continue = Weiter
 tfa-button-cancel = Abbrechen
 tfa-button-finish = Abschließen
 tfa-incorrect-totp = Falscher Code für Zwei-Schritt-Authentifizierung
+tfa-cannot-retrieve-code = Beim Abrufen Ihres Codes ist ein Fehler aufgetreten.
+tfa-cannot-verify-code = Beim Bestätigen Ihres Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-incorrect-recovery-code = Falscher Wiederherstellungscode
+tfa-enabled = Zwei-Schritt-Authentifizierung aktiviert
+tfa-scan-this-code =
+    Scannen Sie diesen QR-Code mit <linkExternal>diesen
+    Authentifikations-Apps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Verwenden Sie den Code { $secret } zum Einrichten der Zwei-Schritt-Authentifizierung in unterstützten Anwendungen.
+tfa-button-cant-scan-qr = Lässt sich der Code nicht scannen?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Geben Sie diesen Geheimschlüssel in Ihre Authentifizierungs-App ein:
+tfa-enter-totp = Geben Sie nun den Sicherheitscode über die Authentifizierungs-App ein.
+tfa-input-enter-totp =
+    .label = Sicherheitscode eingeben
+tfa-save-these-codes = Speichern Sie diese Einmalbenutzungscodes an einem sicheren Ort, für den Fall, dass Sie den Zugriff auf Ihr Mobilgerät verlieren.
+tfa-enter-code-to-confirm =
+    Bitte geben Sie jetzt einen Ihrer Wiederherstellungscodes ein,
+    um zu bestätigen, dass Sie ihn gespeichert haben. Sie benötigen einen Code, wenn Sie
+    Ihr Gerät verlieren und auf Ihr Konto zugreifen möchten.
+tfa-enter-recovery-code =
+    .label = Einen Wiederherstellungscode eingeben
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Anzeigename
+profile-password =
+    .header = Passwort
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Erstellt: { $date }
 profile-primary-email =
     .header = Primäre E-Mail-Adresse
 
@@ -338,25 +371,104 @@ security-heading = Sicherheit
 
 row-defaults-action-add = Hinzufügen
 row-defaults-action-change = Ändern
+row-defaults-action-disable = Deaktivieren
+row-defaults-status = Keine
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Aktiviert
+rk-not-set = Nicht festgelegt
 rk-action-create = Erstellen
 rk-action-remove = Entfernen
+rk-cannot-refresh = Bei der Aktualisierung des Wiederherstellungsschlüssels ist ein Fehler aufgetreten.
+rk-key-removed = Kontowiederherstellungsschlüssel entfernt.
+rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
+rk-refresh-key = Wiederherstellungsschlüssel aktualisieren
+rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
+rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
+rk-cannot-verify-session = Beim Überprüfen Ihrer Sitzung ist ein Fehler aufgetreten.
+rk-remove-modal-heading = Wiederherstellungsschlüssel entfernen?
+rk-remove-modal-content =
+    Wenn Sie Ihr Passwort zurücksetzen, können Sie Ihren Wiederherstellungsschlüssel
+    nicht nutzen, um auf Ihre Daten zuzugreifen. Dies kann nicht rückgängig gemacht werden.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Zweit-E-Mail-Adresse
+    .header = Zweit-E-Mail-Adresse
+se-cannot-refresh-email = Beim Aktualisieren dieser E-Mail-Adresse ist ein Fehler aufgetreten.
+se-cannot-resend-code = Beim erneuten Senden des Bestätigungscodes ist ein Fehler aufgetreten.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ist jetzt Ihre primäre E-Mail-Adresse.
+se-set-primary-error = Beim Ändern Ihrer primären E-Mail-Adresse ist ein Fehler aufgetreten.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } erfolgreich gelöscht.
+se-delete-email-error = Beim Löschen dieser E-Mail-Adresse ist ein Fehler aufgetreten.
+se-verify-session = Sie müssen Ihre aktuelle Sitzung bestätigen, um diese Aktion ausführen zu können.
+se-verify-session-error = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-Mail-Adresse entfernen
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-Mail-Adresse aktualisieren
+se-unverified = Nicht überprüft
+se-resend-code =
+    Bestätigung erforderlich. <button>Senden Sie den Bestätigungscode erneut</button>,
+    wenn er sich nicht in Ihrem Posteingang oder Spam-Ordner befindet.
+# Button to make secondary email the primary
+se-make-primary = Zur Primär-E-Mail-Adresse machen
+se-default-content = Greifen Sie auf Ihr Konto zu, wenn Sie sich nicht bei Ihrer primären E-Mail-Adresse anmelden können.
+se-content-note =
+    Hinweis: Eine Zweit-E-Mail-Adresse stellt Ihrer Daten nicht wieder her –
+    dazu benötigen Sie einen <a>Wiederherstellungsschlüssel</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Zwei-Schritt-Authentifizierung
+tfa-row-disabled = Zwei-Schritt-Authentifizierung deaktiviert.
+tfa-row-enabled = Aktiviert
+tfa-row-not-set = Nicht festgelegt
 tfa-row-action-add = Hinzufügen
+tfa-row-action-disable = Deaktiviert
+tfa-row-button-refresh =
+    .title = Zwei-Schritt-Authentifizierung aktualisieren
+tfa-row-cannot-refresh =
+    Beim Aktualisieren der Zwei-Schritt-Authentifizierung
+    ist ein Fehler aufgetreten.
+tfa-row-content-explain =
+    Verhindern Sie mit einem eindeutigen Code, den nur Sie besitzen,
+    fremden Zugriff auf Ihr Konto.
+tfa-row-cannot-verify-session = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+tfa-row-disable-modal-heading = Zwei-Schritt-Authentifizierung deaktivieren?
+tfa-row-disable-modal-confirm = Deaktivieren
+tfa-row-disable-modal-explain =
+    Dies kann nicht rückgängig gemacht werden. Sie können auch
+    <linkExternal>Ihre Wiederherstellungscodes ersetzen</linkExternal>.
+tfa-row-cannot-disable = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
+tfa-row-change-modal-heading = Wiederherstellungscodes ändern?
+tfa-row-change-modal-confirm = Ändern
+tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Bild
+avatar-add-link = Hinzufügen
+avatar-change-link = Ändern
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Unbekanntes Konto
 auth-error-103 = Ungültiges Passwort
+auth-error-110 = Ungültiger Schlüssel
+auth-error-138 = Nicht verifizierte Sitzung
+auth-error-155 = TOTP-Token nicht gefunden
+auth-error-1008 = Ihr neues Passwort muss ein anderes sein
