@@ -235,33 +235,84 @@ delete-account-chk-box-1 =
     .label = Do të anulohet çfarëdo pajtimi me pagesë që keni
 delete-account-chk-box-2 =
     .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Riaktivizimi me këtë email mund të mos rikthejë të dhënat tuaja të ruajtura
+delete-account-chk-box-4 =
+    .label = Çfarëdo zgjerimi dhe teme që keni botuar te addons.mozilla.org do të fshihet
+delete-account-close-button = Mbylle
+delete-account-continue-button = Vazhdo
+delete-account-password-input =
+    .label = Jepni fjalëkalimin
+delete-account-cancel-button = Anuloje
+delete-account-delete-button = Fshije Llogarinë
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Jepni emër për në ekran
+submit-display-name = Ruaje
+cancel-display-name = Anuloje
+display-name-update-error = Pati një problem me përditësimin e emrit tuaj në ekran.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Anuloje
+recovery-key-close-button = Mbylle
+recovery-key-continue-button = Vazhdo
+recovery-key-enter-password =
+    .label = Jepni fjalëkalimin
+recovery-key-page-title =
+    .title = Kyç rimarrjeje
+recovery-key-step-1 = Hapi 1 nga 2
+recovery-key-step-2 = Hapi 2 nga 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Pati një problem me krijimin e këtij email-i.
+add-secondary-email-page-title =
+    .title = Email dytësor
+add-secondary-email-enter-address =
+    .label = Jepni adresë email
+add-secondary-email-cancel-button = Anuloje
+add-secondary-email-save-button = Ruaje
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Pati një problem me dërgimin e kodit të verifikimit.
+verify-secondary-email-page-title =
+    .title = Email dytësor
+verify-secondary-email-verification-code =
+    .label = Jepni kod verifikimi
+verify-secondary-email-cancel-button = Anuloje
+verify-secondary-email-verify-button = Verifikoje
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Fshijeni Llogarinë
 
 ## Two Step Authentication
 
+tfa-title = Mirëfilltësim Dyhapësh
+tfa-step-1-3 = Hapi 1 nga 3
+tfa-step-2-3 = Hapi 2 nga 3
+tfa-step-3-3 = Hapi 3 nga 3
+tfa-button-continue = Vazhdo
+tfa-button-cancel = Anuloje
+tfa-button-finish = Përfundoje
+tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
+tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
+tfa-cannot-verify-code = Pati një problem me verifikimin e kodit tuaj të rimarrjes.
+tfa-incorrect-recovery-code = Kod rikthimi i pasaktë
 
 ##
 
