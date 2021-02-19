@@ -60,6 +60,7 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
+connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }，或是<br /><linkExternal>傳送下載鏈結到您的行動裝置上。</linkExternal>
 
 ##
 
@@ -104,6 +105,7 @@ cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
 cs-disconnect-lost-advice-content = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-accounts } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
+cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
 
 ##
@@ -247,6 +249,7 @@ display-name-update-error = 更新您的顯示名稱時發生問題。
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 關閉
 recovery-key-continue-button = 繼續
+recovery-key-created = 已建立您的救援金鑰。請務必將金鑰儲存在安全，且之後能簡單找到的位置。若忘記密碼時，必須使用金鑰才能拿回存取權。
 recovery-key-enter-password =
     .label = 輸入密碼
 recovery-key-page-title =
@@ -300,6 +303,7 @@ tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
 tfa-cannot-verify-code = 驗證您的救援金鑰時發生問題。
 tfa-incorrect-recovery-code = 救援金鑰不正確
 tfa-enabled = 已開啟兩階段驗證
+tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -310,6 +314,7 @@ tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰:
 tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
+tfa-save-these-codes = 請將這些單次使用的救援碼儲存在安全的地方，以備行動裝置不在手邊時使用。
 tfa-enter-code-to-confirm = 為了確認您已正確收到救援碼，現在請輸入任一組救援碼。當您無法再使用行動裝置時，可以使用救援碼登入帳號。
 tfa-enter-recovery-code =
     .label = 請輸入救援碼
@@ -390,6 +395,7 @@ se-resend-code = 需要驗證。若驗證信並未跑到收件匣或垃圾信件
 # Button to make secondary email the primary
 se-make-primary = 設為主要信箱
 se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
+se-content-note = 註: 設定次要電子郵件帳號無法恢復您的資訊 — 需要有<a>救援金鑰</a>才行。
 
 ##
 
@@ -406,6 +412,7 @@ tfa-row-action-disable = 停用
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
+tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
 tfa-row-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
