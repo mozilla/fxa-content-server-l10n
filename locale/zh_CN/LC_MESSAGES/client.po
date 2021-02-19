@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-12 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 02:22+0000\n"
+"PO-Revision-Date: 2021-02-19 02:34+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -79,7 +79,7 @@ msgstr "主邮箱已验证"
 
 #: .es5/views/ready.js:75
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "账号通知现也在将发送到 %(secondaryEmailVerified)s。"
+msgstr "账户通知现也在将发送到 %(secondaryEmailVerified)s。"
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
@@ -474,7 +474,7 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "次要邮件地址验证成功"
+msgstr "备用邮件地址验证成功"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -598,11 +598,11 @@ msgstr "未验证的会话"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr "次要电子邮件地址必须不同于您的账号电子邮件地址"
+msgstr "备用电子邮件地址必须不同于您的账户电子邮件地址"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "已达允许的次要电子邮件地址上限"
+msgstr "已达允许的备用邮箱地址上限"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
@@ -1881,7 +1881,7 @@ msgstr "用此电子邮件地址重新激活，可能无法恢复您已保存的
 
 #: .es5/templates/settings/emails.mustache:6
 msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "次要电子邮件地址是一个额外的可用于接收安全通知和确认新设备的地址。"
+msgstr "备用邮箱地址是一个额外的可用于接收安全通知和确认新设备的地址。"
 
 #: .es5/templates/settings/emails.mustache:11
 msgid "Verification required"
@@ -2039,7 +2039,7 @@ msgstr "添加一个次要邮件地址"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "绑定次要邮箱有助于您在忘记密码的情况下取回您的账户，避免 %(escapedEmail)s 被锁住无法使用的情况。"
+msgstr "绑定备用邮箱有助于您在忘记密码的情况下取回您的账户，避免 %(escapedEmail)s 被锁住无法使用的情况。"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
