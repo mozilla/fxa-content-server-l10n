@@ -67,28 +67,63 @@ connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telef
 ## Connected services section
 
 cs-heading = Zwjazane słužby
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Falowace abo dwójne elementy?
+cs-disconnect-sync-heading = Ze Sync dźělić
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Grat je:
+cs-disconnect-sync-opt-suspicious = Podhladny
+cs-disconnect-sync-opt-lost = Zhubjeny abo kradnjeny
+cs-disconnect-sync-opt-old = Stary abo wuměnjeny
+cs-disconnect-sync-opt-duplicate = Dwójny
+cs-disconnect-sync-opt-not-say = Bjez podaća
 
 ##
 
+cs-disconnect-advice-confirm = W porjadku, sym zrozumił
+cs-sign-out-button = Wotzjewić
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Sćehnjeny
+datablock-copy =
+    .message = Kopěrowany
+datablock-print =
+    .message = Ćišćane
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Wobnowjenske kody
+get-data-trio-download =
+    .title = Sćahnyć
+get-data-trio-copy =
+    .title = Kopěrować
+get-data-trio-print =
+    .title = Ćišćeć
 
 # HeaderLockup component
 
+header-menu-open = Meni začinić
+header-back-to-top-link =
+    .title = Wróćo horje
+header-title = { -product-firefox-accounts }
+header-switch-title = Ke klasiskemu designej přepinać
+    .title = wotkaz klasiskeho designa
+header-help = Pomoc
 
 ## Settings Nav
 
+nav-settings = Nastajenja
+nav-profile = Profil
+nav-security = Wěstota
+nav-connected-services = Zwjazane słužby
 
 ## Two Step Authentication - replace recovery code
 
