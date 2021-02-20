@@ -17,24 +17,41 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = account Firefox
+product-mozilla-vpn = Mozilla VPN
+product-firefox-monitor = Firefox Monitor
 
 ##
 
+-google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
+app-footer-mozilla-logo-label = Logo { -brand-mozilla }
+app-footer-privacy-notice = Informativa sulla privacy del sito web
+app-footer-terms-of-service = Condizioni di utilizzo del servizio
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Il tuo avatar
+avatar-default-avatar =
+    .alt = Avatar predefinito
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
 
 ##
 
