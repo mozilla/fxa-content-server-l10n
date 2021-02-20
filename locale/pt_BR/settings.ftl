@@ -336,9 +336,45 @@ rk-enabld = Ativado
 rk-not-set = Não definido
 rk-action-create = Criar
 rk-action-remove = Remover
+rk-cannot-refresh = Desculpe, houve um problema ao atualizar a chave de recuperação.
+rk-key-removed = Chave de recuperação da conta removida.
+rk-cannot-remove-key = Não foi possível remover a chave de recuperação da sua conta.
+rk-refresh-key = Atualizar chave de recuperação
+rk-content-explain = Restaure suas informações quando você esquecer sua senha.
+rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
+rk-cannot-verify-session = Desculpe, houve um problema ao verificar sua sessão
+rk-remove-modal-heading = Remover chave de recuperação?
+rk-remove-modal-content = Caso você redefina sua senha, você não poderá usar sua chave de recuperação para acessar seus dados. Esta ação não pode ser desfeita.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Email secundário
+    .header = Email secundário
+se-cannot-refresh-email = Desculpe, houve um problema ao atualizar esse email.
+se-cannot-resend-code = Desculpe, houve um problema ao reenviar o código de verificação.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } agora é seu email principal.
+se-set-primary-error = Desculpe, houve um problema ao alterar seu email principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } excluído com sucesso.
+se-delete-email-error = Desculpe, houve um problema ao excluir este email.
+se-verify-session = Você precisa validar a sessão atual para realizar esta ação.
+se-verify-session-error = Desculpe, houve um problema ao validar sua sessão.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Remover email
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Atualizar email
+se-unverified = não verificado
+se-resend-code = Verificação necessária. <button>Reenvie o código de verificação</button>, se ele não estiver na sua caixa de entrada ou pasta de spam.
+# Button to make secondary email the primary
+se-make-primary = Tornar principal
+se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
 
 ##
 
