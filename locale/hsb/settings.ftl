@@ -276,33 +276,90 @@ tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowansk
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
 tfa-save-these-codes = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+tfa-enter-recovery-code =
+    .label = Wobnowjenski kod zapodać
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Zwobraznjenske mjeno
+profile-password =
+    .header = Hesło
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Wutworjeny: { $date }
+profile-primary-email =
+    .header = Primarna e-mejlowa adresa
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Wěstota
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Přidać
+row-defaults-action-change = Změnić
+row-defaults-action-disable = Znjemóžnić
+row-defaults-status = Žadyn
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Zmóžnjeny
+rk-not-set = Njenastajeny
+rk-action-create = Wutworić
+rk-action-remove = Wotstronić
+rk-key-removed = Kontowy wobnowjenski kluč je so wotstronił.
+rk-refresh-key = Wobnowjenski kluč aktualizować
+rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Druha e-mejlowa adresa
+    .header = Druha e-mejlowa adresa
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } je nětko waša primarna e-mejlowa adresa.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } je so wuspěšnje zhašała.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-mejlowu adresu wotstronić
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-mejlowu adresu aktualizować
+se-unverified = njewobkrućeny
+# Button to make secondary email the primary
+se-make-primary = K primarnej adresy činić
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Dwukročelowa awtentifikacija
+tfa-row-disabled = Dwukročelowa awtentifikacija znjemóžnjena.
+tfa-row-enabled = Zmóžnjeny
+tfa-row-not-set = Njenastajeny
+tfa-row-action-add = Přidać
+tfa-row-action-disable = Znjemóžnić
+tfa-row-button-refresh =
+    .title = Dwukročelowu awtentifikaciju aktualizować
+tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
+tfa-row-disable-modal-confirm = Znjemóžnić
+tfa-row-cannot-disable = Dwukročelowa awtentifikacija njeda so znjemóžnić.
+tfa-row-change-modal-heading = Wobnowjenske kody změnić?
 
 ## Avatar sub-section on main Settings page
 
