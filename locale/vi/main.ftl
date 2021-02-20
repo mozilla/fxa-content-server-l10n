@@ -83,8 +83,8 @@ product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } sử dụng Stripe để xử lý thanh toán an toàn.
-payment-legal-link = Xem chính sách bảo mật của <a>Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } sử dụng Stripe và Paypal để xử lý thanh toán an toàn.
+payment-legal-link-stripe-paypal = Xem <stripePrivacyLink>chính sách bảo mật Stripe</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -314,6 +314,9 @@ sub-billing-update-success = Thông tin thanh toán của bạn đã được c�
 ## subscription create
 
 sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
+pay-with-heading-other = Chọn tùy chọn thanh toán
+pay-with-heading-card-or = Hoặc thanh toán bằng thẻ
+pay-with-heading-card-only = Thanh toán bằng thẻ
 
 ## plan-details
 
