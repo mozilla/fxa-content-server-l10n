@@ -49,12 +49,17 @@ app-footer-terms-of-service = გამოყენების პირობ�
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = თქვენი ავატარი
+avatar-default-avatar =
+    .alt = ნაგულისხმევი ავატარი
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობილურზე ან ტაბლეტზე
 
 ##
 
