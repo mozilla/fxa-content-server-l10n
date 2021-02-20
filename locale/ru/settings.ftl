@@ -84,51 +84,81 @@ header-title = { -product-firefox-accounts }
 
 ## Avatar change page
 
+avatar-page-close-button = Закрыть
+avatar-page-save-button = Сохранить
 
 ##
 
 
 ## Password change page
 
+pw-change-cancel-button = Отмена
+pw-change-save-button = Сохранить
+pw-change-new-password =
+    .label = Введите новый пароль
 
 ##
 
 
 ## Delete account page
 
+delete-account-close-button = Закрыть
+delete-account-continue-button = Продолжить
+delete-account-password-input =
+    .label = Введите пароль
+delete-account-cancel-button = Отмена
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Сохранить
+cancel-display-name = Отмена
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Отмена
+recovery-key-close-button = Закрыть
+recovery-key-continue-button = Продолжить
+recovery-key-enter-password =
+    .label = Введите пароль
+recovery-key-step-1 = Шаг 1 из 2
+recovery-key-step-2 = Шаг 2 из 2
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Отмена
+add-secondary-email-save-button = Сохранить
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Отмена
 
 ##
 
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Шаг 1 из 3
+tfa-step-2-3 = Шаг 2 из 3
+tfa-step-3-3 = Шаг 3 из 3
+tfa-button-continue = Продолжить
+tfa-button-cancel = Отмена
 
 ##
 
 
 ## Profile section
 
+profile-password =
+    .header = Пароль
 
 ##
 
