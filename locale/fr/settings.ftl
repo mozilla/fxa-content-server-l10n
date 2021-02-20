@@ -17,6 +17,8 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $capitalization ->
@@ -30,9 +32,13 @@
        *[lowercase] comptes Firefox
         [uppercase] Comptes Firefox
     }
+product-mozilla-vpn = Mozilla VPN
+product-firefox-monitor = Firefox Monitor
 
 ##
 
+-google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
@@ -42,24 +48,42 @@ app-default-title = { -product-firefox-accounts(capitalization: "uppercase") }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts(capitalization: "uppercase") }
+app-footer-mozilla-logo-label = Logo { -brand-mozilla }
+app-footer-privacy-notice = Politique de confidentialité des sites web
+app-footer-terms-of-service = Conditions d’utilisation
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Votre avatar
+avatar-default-avatar =
+    .alt = Avatar par défaut
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Installez { -brand-firefox } sur mobile ou tablette
+connect-another-find-fx-mobile =
+    Recherchez { -brand-firefox } sur { -google-play } ou l’{ -app-store } ou
+    <br /><linkexternal>envoyez un lien de téléchargement sur votre appareil.</linkexternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Services connectés
+cs-cannot-refresh = Désolé, un problème est survenu lors de l’actualisation de la liste des services connectés.
+cs-cannot-disconnect = Client introuvable, impossible de se déconnecter
+cs-refresh-button =
+    .title = Actualiser les services connectés
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Éléments manquants ou dupliqués ?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
