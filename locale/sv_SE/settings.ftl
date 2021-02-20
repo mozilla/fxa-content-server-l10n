@@ -339,6 +339,13 @@ tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
+tfa-save-these-codes =
+    Spara dessa engångskoder på en säker plats om
+    du inte har tillgång till din mobila enhet.
+tfa-enter-code-to-confirm =
+    Ange en av dina återställningskoder nu för att bekräfta
+    att du har sparat den. Du behöver en kod om du tappar enheten och vill
+    komma åt ditt konto.
 tfa-enter-recovery-code =
     .label = Ange en återställningskod
 
@@ -407,15 +414,48 @@ se-set-primary-error = Tyvärr uppstod ett problem med att ändra din primära e
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } har tagits bort.
 se-delete-email-error = Det gick inte att ta bort den sekundära e-postadressen.
+se-verify-session = Du måste verifiera din nuvarande session för att utföra den här åtgärden.
+se-verify-session-error = Tyvärr uppstod ett problem med att verifiera din session.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Ta bort e-post
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Uppdatera e-post
+se-unverified = overifierad
+se-resend-code =
+    Verifiering behövs. <button>Skicka verifieringskod igen</button>
+    om den inte finns i din inkorg eller skräppostmapp.
+# Button to make secondary email the primary
+se-make-primary = Gör primär
+se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
+se-content-note =
+    Obs! En sekundär e-postadress återställer inte din information — du behöver
+    en <a>återställningsnyckel</a> för det.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Tvåstegsautentisering
+tfa-row-disabled = Tvåstegsautentisering inaktiverad.
 tfa-row-enabled = Aktiverad
+tfa-row-not-set = Inte inställd
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
+tfa-row-button-refresh =
+    .title = Uppdatera tvåstegsautentisering
+tfa-row-cannot-refresh =
+    Tyvärr uppstod ett problem med att uppdatera
+    tvåstegautentisering.
+tfa-row-content-explain =
+    Förhindra att någon annan loggar in genom att kräva en
+    unik kod som endast du har tillgång till.
+tfa-row-cannot-verify-session = Tyvärr uppstod ett problem med att verifiera din session
+tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
+tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-change-modal-confirm = Ändra
 
 ## Avatar sub-section on main Settings page
