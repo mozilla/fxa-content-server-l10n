@@ -148,6 +148,8 @@ nav-settings = Paramètres
 nav-profile = Profil
 nav-security = Sécurité
 nav-connected-services = Services connectés
+nav-paid-subs = Abonnements payants
+nav-email-comm = Communications électroniques
 
 ## Two Step Authentication - replace recovery code
 
