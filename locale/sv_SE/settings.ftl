@@ -456,7 +456,13 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session = Tyvärr uppstod ett problem med att verifiera din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
+tfa-row-disable-modal-explain =
+    Du kan inte ångra den här åtgärden. Du har också
+    möjlighet att <linkExternal>ersätta dina återställningskoder</linkExternal>.
+tfa-row-cannot-disable = Tvåstegsautentisering kunde inte inaktiveras.
+tfa-row-change-modal-heading = Ändra återställningskoder?
 tfa-row-change-modal-confirm = Ändra
+tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 ## Avatar sub-section on main Settings page
 
@@ -466,3 +472,9 @@ avatar-change-link = Ändra
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Okänt konto
+auth-error-103 = Felaktigt lösenord
+auth-error-110 = Ogiltig tecken
+auth-error-138 = Overifierad session
+auth-error-155 = TOTP-tecken hittades inte
+auth-error-1008 = Ditt nya lösenord måste vara annorlunda
