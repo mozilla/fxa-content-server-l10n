@@ -260,30 +260,82 @@ verify-secondary-email-verification-code =
     .label = Digite o código de verificação
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button = Validar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Digite o código de verificação que foi enviado para <strong>{ $email }</strong> em até 5 minutos.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Excluir conta
 
 ## Two Step Authentication
 
+tfa-title = Autenticação em duas etapas
+tfa-step-1-3 = Etapa 1 de 3
+tfa-step-2-3 = Etapa 2 de 3
+tfa-step-3-3 = Etapa 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Concluir
+tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
+tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
+tfa-cannot-verify-code = Houve um problema ao verificar seu código de recuperação.
+tfa-incorrect-recovery-code = Código de recuperação incorreto
+tfa-enabled = Autenticação em duas etapas ativada
+tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Use o código { $secret } para configurar a autenticação em duas etapas em aplicativos suportados.
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Digite esta chave secreta no seu aplicativo de autenticação:
+tfa-enter-totp = Agora digite o código de segurança do seu aplicativo de autenticação.
+tfa-input-enter-totp =
+    .label = Digite o código de segurança
+tfa-save-these-codes = Guarde estes códigos de uso único em um lugar seguro para quando você não estiver com seu dispositivo móvel.
+tfa-enter-code-to-confirm = Digite agora um dos seus códigos de recuperação para confirmar que os guardou. Você precisará de um código se perder seu dispositivo e quiser acessar sua conta.
+tfa-enter-recovery-code =
+    .label = Digite um código de recuperação
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Perfil
+profile-display-name =
+    .header = Nome de exibição
+profile-password =
+    .header = Senha
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Criada em { $date }
+profile-primary-email =
+    .header = Email principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Segurança
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Adicionar
+row-defaults-action-change = Alterar
+row-defaults-action-disable = Desativar
+row-defaults-status = Nenhum
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Ativado
+rk-not-set = Não definido
+rk-action-create = Criar
+rk-action-remove = Remover
 
 ## Secondary email sub-section on main Settings page
 
