@@ -58,6 +58,21 @@ connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
 
 ## Connected services section
 
+cs-heading = Servizi connessi
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Disconnesso da { $service }.
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Elementi duplicati o mancanti?
+cs-disconnect-sync-heading = Disconnetti da Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = I dati relativi alla navigazione rimarranno sul dispositivo ({ $device }), ma non verranno più sincronizzati con il tuo account.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
