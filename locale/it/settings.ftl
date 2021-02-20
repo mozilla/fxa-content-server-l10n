@@ -77,9 +77,18 @@ cs-disconnect-sync-content = I dati relativi alla navigazione rimarranno sul dis
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Il dispositivo è:
+cs-disconnect-sync-opt-suspicious = Sospetto
+cs-disconnect-sync-opt-lost = Perso o rubato
+cs-disconnect-sync-opt-old = Vecchio o sostituito
+cs-disconnect-sync-opt-duplicate = Duplicato
+cs-disconnect-sync-opt-not-say = Preferisco non rispondere
 
 ##
 
+cs-disconnect-lost-advice-heading = Dispositivo perso o rubato disconnesso
+cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
+cs-sign-out-button = Disconnetti
 
 ##
 
@@ -89,18 +98,35 @@ cs-disconnect-sync-content = I dati relativi alla navigazione rimarranno sul dis
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Codici di recupero
+get-data-trio-download =
+    .title = Scarica
+get-data-trio-copy =
+    .title = Copia
+get-data-trio-print =
+    .title = Stampa
 
 # HeaderLockup component
 
+header-menu-open = Chiudi menu
+header-menu-closed = Menu di navigazione del sito
+header-help = Aiuto
 
 ## Settings Nav
 
+nav-settings = Impostazioni
+nav-profile = Profilo
+nav-security = Sicurezza
+nav-connected-services = Servizi connessi
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Si è verificato un problema durante la sostituzione dei codici di recupero.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Immagine del profilo
 avatar-page-camera-error = Impossibile inizializzare la fotocamera
 avatar-page-new-avatar =
     .alt = nuova immagine del profilo
