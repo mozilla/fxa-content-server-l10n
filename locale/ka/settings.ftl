@@ -70,6 +70,10 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = მოწყობილობა არის:
+cs-disconnect-sync-opt-suspicious = საეჭვო
+cs-disconnect-sync-opt-lost = დაკარგული ან მოპარული
+cs-disconnect-sync-opt-old = ძველი ან შეცვლილი
 
 ##
 
