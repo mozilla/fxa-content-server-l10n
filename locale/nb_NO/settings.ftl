@@ -59,12 +59,18 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
+connect-another-find-fx-mobile =
+    Finn { -brand-firefox } på { -google-play } og { -app-store } eller
+    <br /><linkExternal>send en nedlastingslenke til enheten.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Tilknyttede tjenester
+cs-description = Alt du bruker og er innlogget på.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
