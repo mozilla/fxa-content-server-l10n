@@ -79,6 +79,17 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Falowace abo dwójne elementy?
 cs-disconnect-sync-heading = Ze Sync dźělić
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Waše přehladowanske daty na wašim
+    graće ({ $service }) wostanu, ale njebudźe hižo z wašim kontom synchronizować.
+cs-disconnect-sync-reason =
+    Što je hłowna přičina za dźělenje tutoho
+    grata?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -93,6 +104,8 @@ cs-disconnect-sync-opt-not-say = Bjez podaća
 ##
 
 cs-disconnect-advice-confirm = W porjadku, sym zrozumił
+cs-disconnect-lost-advice-heading = Zhubjeny abo kradnjeny grat je so dźělił
+cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
 cs-sign-out-button = Wotzjewić
 
 ##
@@ -120,6 +133,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Meni začinić
+header-menu-closed = Meni sydłoweje nawigacije
 header-back-to-top-link =
     .title = Wróćo horje
 header-title = { -product-firefox-accounts }
@@ -170,8 +184,14 @@ avatar-page-image-too-large-error = Wobrazowa dataja je přewulka za nahraće.
 
 pw-change-header =
     .title = Hesło změnić
+pw-change-stay-safe = Škitajće so – njewužiwajće hesła znowa. Waše hesło:
 pw-change-least-8-chars = Dyrbi znajmjeńša 8 znamješkow dołhe być
 pw-change-not-contain-email = Njesmě waša e-mejlowa adresa być
+pw-change-must-match = Nowe hesło wobkrućenju wotpowěduje
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Njesmě tutej <linkExternal>lisćinje hustych
+    hesłow</linkExternal> wotpowědować
 pw-change-cancel-button = Přetorhnyć
 pw-change-save-button = Składować
 pw-change-forgot-password-link = Sće hesło zabył?
@@ -213,6 +233,8 @@ delete-account-delete-button = Konto zhašeć
 
 ## Display name page
 
+display-name-input =
+    .label = Zapodajće zwobraznjenske mjeno
 submit-display-name = Składować
 cancel-display-name = Přetorhnyć
 
