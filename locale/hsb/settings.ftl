@@ -40,24 +40,33 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = Logo { -brand-mozilla }
+app-footer-privacy-notice = Prawidła priwatnosće websydła
+app-footer-terms-of-service = Wužiwanske wuměnjenja
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Waš awatar
+avatar-default-avatar =
+    .alt = Standardny awatar
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telefon abo tablet
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Zwjazane słužby
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
