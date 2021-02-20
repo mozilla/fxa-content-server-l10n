@@ -165,39 +165,101 @@ avatar-page-retake-photo = Tirar outra foto
 avatar-page-close-button = Fechar
 avatar-page-save-button = Salvar
 avatar-page-zoom-out-button = Reduzir
+avatar-page-zoom-in-button = Ampliar
+avatar-page-rotate-button = Girar
+avatar-page-camera-error = Não foi possível iniciar a câmera
+avatar-page-new-avatar =
+    .alt = nova foto de perfil
+avatar-page-file-upload-error = Houve um problema ao enviar sua foto de perfil
+avatar-page-delete-error = Houve um problema ao excluir seu avatar
+avatar-page-image-too-large-error = O arquivo da imagem é grande demais para ser enviado.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Alterar senha
+pw-change-stay-safe = Mantenha-se seguro — não reuse senhas. Sua senha:
+pw-change-least-8-chars = Deve ter pelo menos 8 caracteres
+pw-change-not-contain-email = Não pode ser seu endereço de email
+pw-change-must-match = A nova senha corresponde à confirmação
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = Não pode estar nesta <linkExternal>lista de senhas comuns</linkExternal>
+pw-change-cancel-button = Cancelar
+pw-change-save-button = Salvar
+pw-change-forgot-password-link = Esqueceu a senha?
+pw-change-current-password =
+    .label = Digite a senha atual
+pw-change-new-password =
+    .label = Digite a nova senha
+pw-change-confirm-password =
+    .label = Confirme a nova senha
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Excluir conta
+delete-account-step-1-2 = Etapa 1 de 2
+delete-account-step-2-2 = Etapa 2 de 2
+delete-account-confirm-title = Você conectou sua { -product-firefox-accounts } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
+delete-account-close-button = Fechar
+delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Digite a senha
+delete-account-cancel-button = Cancelar
+delete-account-delete-button = Excluir conta
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Salvar
+cancel-display-name = Cancelar
+display-name-update-error = Houve um problema ao atualizar seu nome de exibição.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancelar
+recovery-key-close-button = Fechar
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Digite a senha
+recovery-key-page-title =
+    .title = Chave de recuperação
+recovery-key-step-1 = Etapa 1 de 2
+recovery-key-step-2 = Etapa 2 de 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Houve um problema ao criar este email.
+add-secondary-email-page-title =
+    .title = Email secundário
+add-secondary-email-enter-address =
+    .label = Digite um endereço de email
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Salvar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Houve um problema ao enviar o código de verificação.
+verify-secondary-email-page-title =
+    .title = Email secundário
+verify-secondary-email-verification-code =
+    .label = Digite o código de verificação
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Validar
 
 ##
 
