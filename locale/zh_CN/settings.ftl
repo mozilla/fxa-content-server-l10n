@@ -105,6 +105,7 @@ cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
 cs-disconnect-lost-advice-content = 鉴于您的设备已丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-accounts }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
+cs-disconnect-suspicious-advice-content = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
 
 ##
@@ -152,6 +153,7 @@ nav-email-comm = 电子邮件通信
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = 更新您的救援码时出现问题。
+tfa-replace-code-success = 已生成新的救援码，请将这些一次性代码保存在安全的地方，当移动设备不可用时，您可以使用救援码登录账户。
 
 ## Avatar change page
 
@@ -247,6 +249,7 @@ display-name-update-error = 更新您的显示名称时出现问题。
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 关闭
 recovery-key-continue-button = 继续
+recovery-key-created = 您的救援密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
 recovery-key-enter-password =
     .label = 请输入密码
 recovery-key-page-title =
@@ -256,6 +259,7 @@ recovery-key-step-2 = 步骤（2 / 2）
 
 ## Add secondary email page
 
+add-secondary-email-error = 创建此电子邮件时出现问题。
 add-secondary-email-page-title =
     .title = 备用邮箱地址
 add-secondary-email-enter-address =
