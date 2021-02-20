@@ -19,6 +19,8 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Account Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = account Firefox
@@ -64,6 +66,8 @@ cs-heading = Servizi connessi
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Disconnesso da { $service }.
+cs-refresh-button =
+    .title = Aggiorna i servizi connessi
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementi duplicati o mancanti?
 cs-disconnect-sync-heading = Disconnetti da Sync
