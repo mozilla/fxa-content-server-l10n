@@ -67,6 +67,15 @@ connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telef
 ## Connected services section
 
 cs-heading = Zwjazane słužby
+cs-description = Wšitko, štož wužiwaće a hdźež sće přizjewjeny.
+cs-cannot-disconnect = Klient njeje so namakał, zwisk njeda so dźělić
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Wot { $service } wotzjewjeny.
+cs-refresh-button =
+    .title = Zwjazane słužby aktualizować
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Falowace abo dwójne elementy?
 cs-disconnect-sync-heading = Ze Sync dźělić
