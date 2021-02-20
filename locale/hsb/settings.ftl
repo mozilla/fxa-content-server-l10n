@@ -124,24 +124,64 @@ nav-settings = Nastajenja
 nav-profile = Profil
 nav-security = Wěstota
 nav-connected-services = Zwjazane słužby
+nav-paid-subs = Zapłaćene abonementy
+nav-email-comm = E-mejlowa komunikacija
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilowy wobraz
+avatar-page-add-photo = Foto přidać
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fotografować
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Foto wotstronić
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Znowa fotografować
+avatar-page-close-button = Začinić
+avatar-page-save-button = Składować
+avatar-page-zoom-out-button = Pomjeńšić
+avatar-page-zoom-in-button = Powjetšić
+avatar-page-rotate-button = Wjerćeć
+avatar-page-camera-error = Kamera njeda so inicializować
+avatar-page-new-avatar =
+    .alt = nowy profilowy wobraz
+avatar-page-image-too-large-error = Wobrazowa dataja je přewulka za nahraće.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Hesło změnić
+pw-change-least-8-chars = Dyrbi znajmjeńša 8 znamješkow dołhe być
+pw-change-not-contain-email = Njesmě waša e-mejlowa adresa być
+pw-change-cancel-button = Přetorhnyć
+pw-change-save-button = Składować
+pw-change-forgot-password-link = Sće hesło zabył?
+pw-change-current-password =
+    .label = Aktualne hesło zapodać
+pw-change-new-password =
+    .label = Nowe hesło zapodać
+pw-change-confirm-password =
+    .label = Nowe hesło wobkrućić
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Konto zhašeć
+delete-account-step-1-2 = Krok 1 z 2
+delete-account-step-2-2 = Krok 2 z 2
 
 ##
 
