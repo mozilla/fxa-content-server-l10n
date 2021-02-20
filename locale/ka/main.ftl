@@ -87,8 +87,8 @@ product-no-such-plan = ამ პროდუქტისთვის ასე�
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } იყენებს Stripe-ს გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link = იხილეთ <a>Stripe-ის პირადულობის განაცხადი</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } იყენებს Stripe-ს და Paypal-ს გადახდების უსაფრთხოს დასამუშავებლად.
+payment-legal-link-stripe-paypal = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink> და <paypalPrivacyLink>Paypal პირადულობის დებულება</paypalPrivacyLink>
 
 ## payment form
 
@@ -334,6 +334,9 @@ sub-billing-update-success = თქვენი ანგარიშსწო�
 ## subscription create
 
 sub-guarantee = 30-დღიანი თანხის დაბრუნებით
+pay-with-heading-other = აირჩიეთ გადახდის ვარიანტი
+pay-with-heading-card-or = ან გადაიხადე ბარათით
+pay-with-heading-card-only = გადაიხადე ბარათით
 
 ## plan-details
 
