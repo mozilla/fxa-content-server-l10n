@@ -162,6 +162,9 @@ avatar-page-remove-photo = Remover foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tirar outra foto
+avatar-page-close-button = Fechar
+avatar-page-save-button = Salvar
+avatar-page-zoom-out-button = Reduzir
 
 ##
 
