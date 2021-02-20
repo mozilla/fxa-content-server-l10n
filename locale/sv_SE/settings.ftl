@@ -70,13 +70,58 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Anslutna tjänster
+cs-description = Allt du använder och är inloggad på.
+cs-cannot-refresh =
+    Tyvärr uppstod ett problem med att uppdatera listan över anslutna
+    tjänster.
+cs-cannot-disconnect = Klienten hittades inte, kunde inte koppla ifrån
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Utloggad från { $service }.
+cs-refresh-button =
+    .title = Uppdatera anslutna tjänster
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Saknas nått eller dubbletter?
+cs-disconnect-sync-heading = Koppla från Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Din webbinformation förblir på din
+    enhet ({ $device }), men den synkroniseras inte längre med ditt konto.
+cs-disconnect-sync-reason =
+    Vad är den främsta anledningen till att koppla ifrån denna
+    enhet?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Enheten är:
+cs-disconnect-sync-opt-suspicious = Misstänkt
+cs-disconnect-sync-opt-lost = Borttappad eller stulen
+cs-disconnect-sync-opt-old = Gammal eller ersatt
+cs-disconnect-sync-opt-duplicate = Dubblett
+cs-disconnect-sync-opt-not-say = Vill helst inte berätta
 
 ##
 
+cs-disconnect-advice-confirm = Ok, jag förstår
+cs-disconnect-lost-advice-heading = Förlorad eller stulen enhet frånkopplad
+cs-disconnect-lost-advice-content =
+    Eftersom din enhet har tappats bort eller
+    stulits bör du ändra lösenordet för { -product-firefox-accounts } i dina kontoinställningar
+    för att skydda din information. Du bör också leta efter information från
+    enhetstillverkaren om hur du raderar dina data på distans.
+cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
+cs-disconnect-suspicious-advice-content =
+    Om den frånkopplade enheten verkligen är
+    misstänkt bör du ändra lösenordet för { -product-firefox-account } i dina kontoinställningar
+    för att skydda din information. Du bör också ändra alla andra lösenord som du har
+    sparat i { -brand-firefox } genom att skriva about:logins in i adressfältet.
 cs-sign-out-button = Logga ut
 
 ##
@@ -104,6 +149,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Stäng meny
+header-menu-closed = Menyn för webbplatsnavigering
 header-back-to-top-link =
     .title = Tillbaka till toppen
 header-title = { -product-firefox-accounts }
@@ -188,6 +234,13 @@ delete-account-header =
     .title = Ta bort konto
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+delete-account-confirm-title = Du har kopplat ditt { -product-firefox-accounts } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
+delete-account-chk-box-1 =
+    .label = Alla betalda prenumerationer du har kommer att annulleras
+delete-account-chk-box-2 =
+    .label = Du kan förlora sparad information och funktioner i { -brand-mozilla }-produkter
+delete-account-chk-box-3 =
+    .label = Återaktivering med det här e-postadressen kanske inte återställer din sparade information
 delete-account-close-button = Stäng
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
@@ -223,7 +276,7 @@ recovery-key-step-2 = Steg 2 av 2
 
 ## Add secondary email page
 
-add-secondary-email-error = Det gick inte att skapa sekundär e-post.
+add-secondary-email-error = Det gick inte att skapa sekundär e-postadress.
 add-secondary-email-page-title =
     .title = Sekundär e-post
 add-secondary-email-enter-address =
@@ -273,6 +326,10 @@ profile-display-name =
     .header = Visningsnamn
 profile-password =
     .header = Lösenord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Skapad { $date }
 profile-primary-email =
     .header = Primär e-post
 
@@ -293,11 +350,37 @@ row-defaults-status = Ingen
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = Aktiverad
+rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
+rk-cannot-refresh = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
+rk-key-removed = Kontoåterställningsnyckel har tagits bort.
+rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
+rk-refresh-key = Uppdatera återställningsnyckel
+rk-content-explain = Återställ din information när du glömmer lösenordet.
+rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
+rk-cannot-verify-session = Tyvärr uppstod ett problem med att verifiera din session
+rk-remove-modal-heading = Ta bort återställningsnyckel?
+rk-remove-modal-content =
+    Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
+    för att komma åt dina data. Du kan inte ångra den här åtgärden.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundär e-post
+    .header = Sekundär e-post
+se-cannot-refresh-email = Tyvärr uppstod ett problem med att uppdatera den sekundära e-postadressen.
+se-cannot-resend-code = Tyvärr uppstod ett problem med att skicka verifieringskoden igen.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } är nu din primära e-postadress.
+se-set-primary-error = Tyvärr uppstod ett problem med att ändra din primära e-postadress.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } har tagits bort.
+se-delete-email-error = Det gick inte att ta bort den sekundära e-postadressen.
 
 ##
 
