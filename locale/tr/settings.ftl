@@ -244,10 +244,15 @@ security-heading = Güvenlik
 
 row-defaults-action-add = Ekle
 row-defaults-action-change = Değiştir
-row-defaults-action-disable = Devre dışı
+row-defaults-action-disable = Devre dışı bırak
+row-defaults-status = Hiçbiri
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Etkin
+rk-not-set = Ayarlanmamış
+rk-action-create = Oluştur
+rk-action-remove = Kaldır
 
 ## Secondary email sub-section on main Settings page
 
@@ -257,9 +262,31 @@ row-defaults-action-disable = Devre dışı
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = İki aşamalı doğrulama
+tfa-row-disabled = İki aşamalı kimlik doğrulama kapatıldı
+tfa-row-enabled = Etkin
+tfa-row-not-set = Ayarlanmamış
+tfa-row-action-add = Ekle
+tfa-row-action-disable = Devre dışı bırak
+tfa-row-cannot-verify-session = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
+tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
+tfa-row-disable-modal-confirm = Devre dışı bırak
+tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
+tfa-row-change-modal-confirm = Değiştir
+tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Resim
+avatar-add-link = Ekle
+avatar-change-link = Değiştir
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Bilinmeyen hesap
+auth-error-103 = Parola yanlış
+auth-error-110 = Geçersiz jeton
+auth-error-138 = Doğrulanmamış oturum
+auth-error-155 = TOTP jetonu bulunamadı
+auth-error-1008 = Yeni parolanız farklı olmalıdır
