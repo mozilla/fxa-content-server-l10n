@@ -73,6 +73,8 @@ cs-sign-out-button = Выйти
 
 # HeaderLockup component
 
+header-menu-open = Закрыть меню
+header-title = { -product-firefox-accounts }
 
 ## Settings Nav
 
