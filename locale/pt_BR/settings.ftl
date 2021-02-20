@@ -375,12 +375,23 @@ se-resend-code = Verificação necessária. <button>Reenvie o código de verific
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
+se-content-note = Nota: Usar um email secundário não restaura suas informações — você precisa de uma <a>chave de verificação</a> para isso.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticação em duas etapas
+tfa-row-disabled = Autenticação em duas etapas desativada.
+tfa-row-enabled = Ativada
+tfa-row-not-set = Não configurada
+tfa-row-action-add = Adicionar
+tfa-row-action-disable = Desativar
+tfa-row-button-refresh =
+    .title = Atualizar autenticação em duas etapas
+tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 
 ## Avatar sub-section on main Settings page
 
