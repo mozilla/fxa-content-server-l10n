@@ -315,6 +315,7 @@ tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
 tfa-save-these-codes = 请妥善保管以下这些一次性救援码，以便您在没有移动设备时使用。
+tfa-enter-code-to-confirm = 请输入任意一组救援码，以确认您已将其保存。若设备不幸丢失，则可以使用救援码访问您的账户。
 tfa-enter-recovery-code =
     .label = 请输入救援码
 
@@ -362,6 +363,7 @@ rk-refresh-key = 刷新救援密钥
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session = 抱歉，验证您的会话时出现问题
 rk-remove-modal-heading = 要移除救援密钥吗？
+rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
 
 ## Secondary email sub-section on main Settings page
 
@@ -392,6 +394,7 @@ se-resend-code = 需要验证。若未收到邮件，并确认不在垃圾邮件
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
+se-content-note = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>救援密钥</a>。
 
 ##
 
