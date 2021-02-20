@@ -84,29 +84,70 @@ cs-refresh-button =
     .title = Actualiser les services connectés
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Éléments manquants ou dupliqués ?
+cs-disconnect-sync-heading = Se déconnecter de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = Vos données de navigation seront conservées sur cet appareil ({ $device }), mais elles ne seront plus synchronisées avec votre compte.
+cs-disconnect-sync-reason = Quelle est la raison principale de la déconnexion de cet appareil ?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = L’appareil est :
+cs-disconnect-sync-opt-suspicious = Suspect
+cs-disconnect-sync-opt-lost = Perdu ou volé
+cs-disconnect-sync-opt-old = Ancien ou remplacé
+cs-disconnect-sync-opt-duplicate = Un doublon
+cs-disconnect-sync-opt-not-say = Je préfère ne rien indiquer
 
 ##
 
+cs-disconnect-advice-confirm = J’ai compris
+cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconnecté
+cs-sign-out-button = Se déconnecter
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Téléchargé
+datablock-copy =
+    .message = Copié
+datablock-print =
+    .message = Imprimé
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Codes de secours
+get-data-trio-download =
+    .title = Télécharger
+get-data-trio-copy =
+    .title = Copier
+get-data-trio-print =
+    .title = Imprimer
 
 # HeaderLockup component
 
+header-menu-open = Fermer le menu
+header-menu-closed = Menu de navigation du site
+header-back-to-top-link =
+    .title = Haut de la page
 header-title = { -product-firefox-accounts(capitalization: "uppercase") }
+header-switch-title = Revenir à l’interface classique
+    .title = lien vers l’interface classique
+header-help = Aide
 
 ## Settings Nav
 
+nav-settings = Paramètres
+nav-profile = Profil
+nav-security = Sécurité
+nav-connected-services = Services connectés
 
 ## Two Step Authentication - replace recovery code
 
