@@ -68,13 +68,32 @@ connect-another-find-fx-mobile = Encontre o { -brand-firefox } no { -google-play
 ## Connected services section
 
 cs-heading = Serviços conectados
+cs-cannot-disconnect = Cliente não encontrado, não é possível desconectar
+cs-refresh-button =
+    .title = Atualizar serviços conectados
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Itens faltando ou duplicados?
+cs-disconnect-sync-heading = Desconectar do Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = Seus dados de navegação permanecem no seu dispositivo ({ $device }), mas não são mais sincronizados com sua conta.
+cs-disconnect-sync-reason = Qual é o principal motivo para desconectar este dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-suspicious = É suspeito
+cs-disconnect-sync-opt-lost = Foi perdido ou roubado
+cs-disconnect-sync-opt-old = É antigo ou foi substituído
+cs-disconnect-sync-opt-duplicate = É duplicado
+cs-disconnect-sync-opt-not-say = Prefiro não dizer
 
 ##
 
+cs-disconnect-advice-confirm = Ok, entendi
 
 ##
 
