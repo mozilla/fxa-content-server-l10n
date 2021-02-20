@@ -182,33 +182,100 @@ delete-account-header =
     .title = Konto zhašeć
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+delete-account-confirm-title = Sće swoje konto { -product-firefox-accounts } z produktami { -brand-mozilla } zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
+delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
+delete-account-chk-box-1 =
+    .label = Wšě zapłaćene abonementy, kotrež maće, so wupowědźa
+delete-account-chk-box-2 =
+    .label = Móžeće składowane informacije a funkcije produktow { -brand-mozilla } zhubić
+delete-account-chk-box-3 =
+    .label = Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće
+delete-account-chk-box-4 =
+    .label = Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja.
+delete-account-close-button = Začinić
+delete-account-continue-button = Dale
+delete-account-password-input =
+    .label = Hesło zapodać
+delete-account-cancel-button = Přetorhnyć
+delete-account-delete-button = Konto zhašeć
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Składować
+cancel-display-name = Přetorhnyć
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Přetorhnyć
+recovery-key-close-button = Začinić
+recovery-key-continue-button = Dale
+recovery-key-enter-password =
+    .label = Hesło zapodać
+recovery-key-page-title =
+    .title = Wobnowjenski kluč
+recovery-key-step-1 = Krok 1 z 2
+recovery-key-step-2 = Krok 2 z 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Druha e-mejlowa adresa
+add-secondary-email-enter-address =
+    .label = E-mejlowu adresu zapodać
+add-secondary-email-cancel-button = Přetorhnyć
+add-secondary-email-save-button = Składować
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Druha e-mejlowa adresa
+verify-secondary-email-verification-code =
+    .label = Zapodajće swój wobkrućenski kod
+verify-secondary-email-cancel-button = Přetorhnyć
+verify-secondary-email-verify-button = Přepruwować
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <strong>{ $email }</strong> pósłał.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Konto zhašeć
 
 ## Two Step Authentication
 
+tfa-title = Dwukročelowa awtentifikacija
+tfa-step-1-3 = Krok 1 z 3
+tfa-step-2-3 = Krok 2 z 3
+tfa-step-3-3 = Krok 3 z 3
+tfa-button-continue = Dale
+tfa-button-cancel = Přetorhnyć
+tfa-button-finish = Dokónčić
+tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
+tfa-incorrect-recovery-code = Wopačny wobnowjenski kod
+tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Wužiwajće kod { $secret }, zo byšće dwukročelowu awtentifikaciju w
+    podpěranych nałoženjach připrawił.
+tfa-button-cant-scan-qr = Njemóžeće kod skenować?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:
+tfa-input-enter-totp =
+    .label = Wěstotny kod zapodać
+tfa-save-these-codes = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
 
 ##
 
