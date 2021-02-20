@@ -86,8 +86,8 @@ product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } 使用 Stripe 进行安全地处理付款事项。
-payment-legal-link = 查看 <a>Stripe 的隐私政策</a>。
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } 使用 Stripe 和 Paypal 安全地处理付款事项。
+payment-legal-link-stripe-paypal = 查看 <stripePrivacyLink>Stripe 隐私政策</stripePrivacyLink>和 <paypalPrivacyLink>Paypal 隐私政策</paypalPrivacyLink>。
 
 ## payment form
 
@@ -320,6 +320,9 @@ sub-billing-update-success = 已成功更新账单信息
 ## subscription create
 
 sub-guarantee = 30 天退款保证
+pay-with-heading-other = 选择付款方式
+pay-with-heading-card-or = 或刷卡支付
+pay-with-heading-card-only = 刷卡支付
 
 ## plan-details
 

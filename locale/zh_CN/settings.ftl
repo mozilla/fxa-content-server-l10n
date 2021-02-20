@@ -135,6 +135,8 @@ header-menu-closed = 网站导航菜单
 header-back-to-top-link =
     .title = 回到顶端
 header-title = { -product-firefox-accounts }
+header-switch-title = 切回经典设计风格
+    .title = 经典设计链接
 header-help = 帮助
 
 ## Settings Nav
