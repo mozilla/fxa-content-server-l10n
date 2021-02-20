@@ -103,6 +103,7 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
+cs-disconnect-lost-advice-content = 鉴于您的设备已丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-accounts }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
 cs-sign-out-button = 退出
 
@@ -188,6 +189,7 @@ pw-change-header =
 pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
 pw-change-least-8-chars = 至少 8 个字符
 pw-change-not-contain-email = 不能是您的邮箱地址
+pw-change-must-match = 新密码与确认输入内容匹配
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = 不能与<linkExternal>常见密码</linkExternal>相同
 pw-change-cancel-button = 取消
@@ -209,6 +211,7 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
+delete-account-confirm-title = 您已将 { -product-firefox-accounts }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
 delete-account-acknowledge = 请确认，若您真要删除账户：
 delete-account-chk-box-1 =
     .label = 将取消您的所有付费订阅内容
@@ -292,10 +295,15 @@ tfa-button-continue = 继续
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
+tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
 tfa-cannot-verify-code = 验证您的救援码时出现问题。
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = 使用救援码 { $secret } 在支持的应用程序中设置两步验证。
 tfa-button-cant-scan-qr = 无法扫码？
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
@@ -367,6 +375,7 @@ se-set-primary-error = 抱歉，更改您的主邮箱时出现问题。
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } 成功删除。
 se-delete-email-error = 抱歉，删除此邮箱地址时出现问题。
+se-verify-session = 您需要验证当前会话才能执行此操作。
 se-verify-session-error = 抱歉，验证您的会话时出现问题。
 # Button to remove the secondary email
 se-remove-email =
