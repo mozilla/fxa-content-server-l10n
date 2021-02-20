@@ -153,7 +153,7 @@ nav-email-comm = 电子邮件通信
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = 更新您的救援码时出现问题。
-tfa-replace-code-success = 已生成新的救援码，请将这些一次性代码保存在安全的地方，当移动设备不可用时，您可以使用救援码登录账户。
+tfa-replace-code-success = 已生成新的救援码，请将它们保存在安全的地方，当您无法使用移动设备时，可用来访问账户。
 
 ## Avatar change page
 
