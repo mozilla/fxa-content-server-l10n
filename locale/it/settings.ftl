@@ -97,33 +97,100 @@ pw-change-current-password =
 
 ## Delete account page
 
+delete-account-header =
+    .title = Elimina account
+delete-account-step-1-2 = Passaggio 1 di 2
+delete-account-step-2-2 = Passaggio 2 di 2
+delete-account-confirm-title = Hai connesso il tuo { -product-firefox-accounts } a prodotti { -brand-mozilla } che rendono la tua esperienza web sicura e produttiva:
+delete-account-acknowledge = Cancellando il tuo account riconosci che:
+delete-account-chk-box-1 =
+    .label = Eventuali abbonamenti a pagamento saranno annullati
+delete-account-chk-box-2 =
+    .label = Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Anche riattivando l’account con l’indirizzo email corrente, potrebbe non essere possibile ripristinare i dati salvati
+delete-account-chk-box-4 =
+    .label = Tutte le estensioni e i temi da te pubblicati su addons.mozilla.org verranno eliminati
+delete-account-close-button = Chiudi
+delete-account-continue-button = Continua
+delete-account-password-input =
+    .label = Inserire la password
+delete-account-cancel-button = Annulla
+delete-account-delete-button = Elimina account
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Inserire il nome visualizzato
+submit-display-name = Salva
+cancel-display-name = Annulla
+display-name-update-error = Si è verificato un problema durante l’aggiornamento del nome visualizzato.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Annulla
+recovery-key-close-button = Chiudi
+recovery-key-continue-button = Continua
+recovery-key-created = La chiave di recupero è stata creata. Assicurati di salvare la chiave in un luogo sicuro che potrai trovare facilmente in seguito: ti servirà per riottenere l’accesso ai tuoi dati se dimentichi la password.
+recovery-key-enter-password =
+    .label = Inserire la password
+recovery-key-page-title =
+    .title = Chiave di recupero
+recovery-key-step-1 = Passaggio 1 di 2
+recovery-key-step-2 = Passaggio 2 di 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Si è verificato un problema durante la creazione di questa email.
+add-secondary-email-page-title =
+    .title = Email secondaria
+add-secondary-email-enter-address =
+    .label = Inserisci il tuo indirizzo email
+add-secondary-email-cancel-button = Annulla
+add-secondary-email-save-button = Salva
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Si è verificato un problema durante l’invio del codice di verifica.
+verify-secondary-email-page-title =
+    .title = Email secondaria
+verify-secondary-email-verification-code =
+    .label = Inserisci il codice di verifica
+verify-secondary-email-cancel-button = Annulla
+verify-secondary-email-verify-button = Verifica
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Inserisci entro 5 minuti il codice di verifica che è stato inviato a <strong>{ $email }</strong>.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Elimina account
 
 ## Two Step Authentication
 
+tfa-title = Autenticazione in due passaggi
+tfa-step-1-3 = Passaggio 1 di 3
+tfa-step-2-3 = Passaggio 2 di 3
+tfa-step-3-3 = Passaggio 3 di 3
+tfa-button-continue = Continua
+tfa-button-cancel = Annulla
+tfa-button-finish = Fine
+tfa-incorrect-totp = Codice di autenticazione in due passaggi errato
+tfa-cannot-retrieve-code = Si è verificato un problema durante il recupero del codice.
+tfa-cannot-verify-code = Si è verificato un problema durante la verifica del codice di recupero.
+tfa-incorrect-recovery-code = Codice di recupero errato
+tfa-enabled = Autenticazione in due passaggi attivata
 
 ##
 
