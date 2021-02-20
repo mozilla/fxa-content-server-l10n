@@ -87,8 +87,7 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } güvenli ödeme işlemleri için Stripe kullanır.
-payment-legal-link = <a>Stripe gizlilik ilkelerini</a> görüntüleyin.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için Stripe ve Paypal kullanır.
 
 ## payment form
 
@@ -319,6 +318,9 @@ sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
 ## subscription create
 
 sub-guarantee = 30 gün para iade garantisi
+pay-with-heading-other = Ödeme yöntemini seçin
+pay-with-heading-card-or = veya kartla ödeyin
+pay-with-heading-card-only = Kartla öde
 
 ## plan-details
 
