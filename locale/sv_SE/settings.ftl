@@ -235,12 +235,15 @@ delete-account-header =
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
 delete-account-confirm-title = Du har kopplat ditt { -product-firefox-accounts } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
+delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
 delete-account-chk-box-1 =
     .label = Alla betalda prenumerationer du har kommer att annulleras
 delete-account-chk-box-2 =
     .label = Du kan förlora sparad information och funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
     .label = Återaktivering med det här e-postadressen kanske inte återställer din sparade information
+delete-account-chk-box-4 =
+    .label = Alla tillägg och teman som du publicerade på addons.mozilla.org raderas
 delete-account-close-button = Stäng
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
@@ -267,6 +270,7 @@ display-name-update-error = Det gick inte att uppdatera ditt visningsnamn.
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Stäng
 recovery-key-continue-button = Fortsätt
+recovery-key-created = Din återställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att få tillbaka åtkomst till dina data om du glömmer lösenordet.
 recovery-key-enter-password =
     .label = Ange lösenord
 recovery-key-page-title =
@@ -315,6 +319,28 @@ tfa-step-3-3 = Steg 3 av 3
 tfa-button-continue = Fortsätt
 tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
+tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
+tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
+tfa-cannot-verify-code = Det gick inte att verifiera din återställningskod.
+tfa-incorrect-recovery-code = Felaktig återställningskod
+tfa-enabled = Tvåstegsautentisering aktiverad
+tfa-scan-this-code =
+    Skanna den här QR-koden med en av dessa
+    <linkExternal>autentiseringsappar</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Använd koden { $secret } för att ställa in tvåstegsautentisering i
+    applikationer som stöds.
+tfa-button-cant-scan-qr = Kan du inte skanna koden?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
+tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
+tfa-input-enter-totp =
+    .label = Ange säkerhetskod
+tfa-enter-recovery-code =
+    .label = Ange en återställningskod
 
 ##
 
