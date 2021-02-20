@@ -360,9 +360,19 @@ tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
 tfa-row-cannot-disable = Dwukročelowa awtentifikacija njeda so znjemóžnić.
 tfa-row-change-modal-heading = Wobnowjenske kody změnić?
+tfa-row-change-modal-confirm = Změnić
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Wobraz
+avatar-add-link = Přidać
+avatar-change-link = Změnić
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Njeznate konto
+auth-error-103 = Wopačne hesło
+auth-error-110 = Njepłaćiwy token
+auth-error-138 = Njewobkrućene posedźenje
+auth-error-155 = TOTP-token njeje so namakał
+auth-error-1008 = Waše nowe hesło dyrbi druhe być
