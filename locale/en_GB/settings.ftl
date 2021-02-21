@@ -189,51 +189,180 @@ avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Retake Photo
 avatar-page-close-button = Close
+avatar-page-save-button = Save
+avatar-page-zoom-out-button = Zoom Out
+avatar-page-zoom-in-button = Zoom In
+avatar-page-rotate-button = Rotate
+avatar-page-camera-error = Could not initialise camera
+avatar-page-new-avatar =
+    .alt = new profile picture
+avatar-page-file-upload-error = There was a problem uploading your profile picture
+avatar-page-delete-error = There was a problem deleting your avatar
+avatar-page-image-too-large-error = The image file size is too large to be uploaded.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Change Password
+pw-change-stay-safe = Stay safe — don’t reuse passwords. Your password:
+pw-change-least-8-chars = Must be at least 8 characters
+pw-change-not-contain-email = Must not be your email address
+pw-change-must-match = New password matches confirmation
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Must not match this <linkExternal>list of common
+    passwords</linkExternal>
+pw-change-cancel-button = Cancel
+pw-change-save-button = Save
+pw-change-forgot-password-link = Forgot password?
+pw-change-current-password =
+    .label = Enter current password
+pw-change-new-password =
+    .label = Enter new password
+pw-change-confirm-password =
+    .label = Confirm new password
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Delete Account
+delete-account-step-1-2 = Step 1 of 2
+delete-account-step-2-2 = Step 2 of 2
+delete-account-confirm-title = You’ve connected your { -product-firefox-accounts } to { -brand-mozilla } products that keep you secure and productive on the web:
+delete-account-acknowledge = Please acknowledge that by deleting your account:
+delete-account-chk-box-1 =
+    .label = Any paid subscriptions you have will be cancelled
+delete-account-chk-box-2 =
+    .label = You may lose saved information and features within { -brand-mozilla } products
+delete-account-chk-box-3 =
+    .label = Reactivating with this email may not restore your saved information
+delete-account-chk-box-4 =
+    .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
+delete-account-close-button = Close
+delete-account-continue-button = Continue
+delete-account-password-input =
+    .label = Enter password
+delete-account-cancel-button = Cancel
+delete-account-delete-button = Delete Account
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Enter display name
+submit-display-name = Save
+cancel-display-name = Cancel
+display-name-update-error = There was a problem updating your display name.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancel
+recovery-key-close-button = Close
+recovery-key-continue-button = Continue
+recovery-key-created = Your recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
+recovery-key-enter-password =
+    .label = Enter password
+recovery-key-page-title =
+    .title = Recovery key
+recovery-key-step-1 = Step 1 of 2
+recovery-key-step-2 = Step 2 of 2
 
 ## Add secondary email page
 
+add-secondary-email-error = There was a problem creating this email.
+add-secondary-email-page-title =
+    .title = Secondary email
+add-secondary-email-enter-address =
+    .label = Enter email address
+add-secondary-email-cancel-button = Cancel
+add-secondary-email-save-button = Save
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = There was a problem sending the verification code.
+verify-secondary-email-page-title =
+    .title = Secondary email
+verify-secondary-email-verification-code =
+    .label = Enter your verification code
+verify-secondary-email-cancel-button = Cancel
+verify-secondary-email-verify-button = Verify
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Delete Account
 
 ## Two Step Authentication
 
+tfa-title = Two-Step Authentication
+tfa-step-1-3 = Step 1 of 3
+tfa-step-2-3 = Step 2 of 3
+tfa-step-3-3 = Step 3 of 3
+tfa-button-continue = Continue
+tfa-button-cancel = Cancel
+tfa-button-finish = Finish
+tfa-incorrect-totp = Incorrect two-step authentication code
+tfa-cannot-retrieve-code = There was a problem retrieving your code.
+tfa-cannot-verify-code = There was a problem verifying your recovery code.
+tfa-incorrect-recovery-code = Incorrect recovery code
+tfa-enabled = Two-step authentication enabled
+tfa-scan-this-code =
+    Scan this QR code using one of <linkExternal>these
+    authentication apps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Use the code { $secret } to set up two-step authentication in
+    supported applications.
+tfa-button-cant-scan-qr = Can’t scan code?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Enter this secret key into your authenticator app:
+tfa-enter-totp = Now enter the security code from the authentication app.
+tfa-input-enter-totp =
+    .label = Enter security code
+tfa-save-these-codes =
+    Save these one-time use codes in a safe place for when
+    you don’t have your mobile device.
+tfa-enter-code-to-confirm =
+    Please enter one of your recovery codes now to
+    confirm you’ve saved it. You’ll need a code if you lose your device and want
+    to access your account.
+tfa-enter-recovery-code =
+    .label = Enter a recovery code
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profile
+profile-display-name =
+    .header = Display name
+profile-password =
+    .header = Password
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Created { $date }
 
 ##
 
