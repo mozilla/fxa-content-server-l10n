@@ -214,6 +214,7 @@ delete-account-header =
 delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
 delete-account-confirm-title = Você conectou sua { -product-firefox-accounts } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
+delete-account-acknowledge = Esteja ciente que ao excluir sua conta:
 delete-account-chk-box-1 =
     .label = Qualquer assinatura paga que você tenha será cancelada
 delete-account-chk-box-2 =
@@ -234,6 +235,8 @@ delete-account-delete-button = Excluir conta
 
 ## Display name page
 
+display-name-input =
+    .label = Digite o nome de exibição
 submit-display-name = Salvar
 cancel-display-name = Cancelar
 display-name-update-error = Houve um problema ao atualizar seu nome de exibição.
