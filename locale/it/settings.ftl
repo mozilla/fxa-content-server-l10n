@@ -208,7 +208,6 @@ delete-account-header =
     .title = Elimina account
 delete-account-step-1-2 = Passaggio 1 di 2
 delete-account-step-2-2 = Passaggio 2 di 2
-delete-account-confirm-title = Hai connesso il tuo { -product-firefox-accounts } a prodotti { -brand-mozilla } che rendono la tua esperienza web sicura e produttiva:
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
 delete-account-chk-box-1 =
     .label = Eventuali abbonamenti a pagamento saranno annullati
