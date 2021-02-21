@@ -137,6 +137,8 @@ header-menu-closed = Menu di navigazione del sito
 header-back-to-top-link =
     .title = Torna su
 header-title = { -product-firefox-accounts }
+header-switch-title = Passa al layout classico
+    .title = Link al layout classico
 header-help = Aiuto
 
 ## Settings Nav
@@ -145,6 +147,7 @@ nav-settings = Impostazioni
 nav-profile = Profilo
 nav-security = Sicurezza
 nav-connected-services = Servizi connessi
+nav-paid-subs = Abbonamenti a pagamento
 nav-email-comm = Comunicazioni via email
 
 ## Two Step Authentication - replace recovery code
@@ -162,6 +165,7 @@ avatar-page-add-photo-button =
 avatar-page-take-photo = Scatta una foto
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Elimina immagine
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Scatta una nuova foto
