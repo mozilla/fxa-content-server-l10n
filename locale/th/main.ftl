@@ -13,9 +13,12 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = ปิดโมดอล
 
 ## app error dialog
 
+general-error-heading = ข้อผิดพลาดแอปพลิเคชันทั่วไป
 
 ## settings
 
