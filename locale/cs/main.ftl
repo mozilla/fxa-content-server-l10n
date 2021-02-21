@@ -84,6 +84,7 @@ insufficient-funds-error = Vypadá to, že na vaší kartě není dostatek proš
 withdrawal-count-limit-exceeded-error = Vypadá to, že je vyčerpán limit vaší karty. Zkuste použít jinou.
 charge-exceeds-source-limit = Vypadá to, že je vyčerpán denní limit vaší karty. Zkuste to znovu za 24 hodin, nebo použít jinou kartu.
 instant-payouts-unsupported = Vypadá to, že vaše karta nemá povolené okamžité platby. Zkuste použít jinou.
+duplicate-transaction = Vypadá to, že jsme před chvíli přijali zcela stejnou transakci. Zkontrolujte prosím historii svých plateb.
 card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
 
 ## settings
@@ -135,11 +136,19 @@ year-based-plan-details-amount =
 
 ## Product route
 
+product-plan-error =
+    .title = Předplatné se nepodařilo načíst
 product-profile-error =
     .title = Profil se nepodařilo načíst
+product-customer-error =
+    .title = Informace o zákazníkovi se nepodařilo načíst
+product-plan-not-found = Předplatné nenalezeno
+product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb Stripe a Paypal.
+payment-legal-link-stripe-paypal = Přečtěte si zásady ochrany osobních údajů pro služby <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -260,7 +269,9 @@ sub-update-confirm-with-legal-links-year =
 sub-update-submit = Potvrdit povýšení
 sub-update-indicator =
     .aria-label = indikátor povýšení
+sub-update-current-plan-label = Stávající předplatné
 sub-update-new-plan-label = Nový plán
+sub-update-total-label = Nová celková částka
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -337,10 +348,13 @@ pay-update-change-btn = Změnit
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Chcete i nadále používat { $name }?
+reactivate-confirm-button = Obnovit předplatné
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Své předplatné jste zrušili { $date }.
+reactivate-success-copy = Děkujeme. Vše je nastaveno.
 reactivate-success-button = Zavřít
 
 ## subscription item
@@ -351,6 +365,7 @@ sub-item-missing = Předplatné se nepodařilo načíst
 sub-item-missing-msg = Zkuste to prosím znovu později.
 sub-item-no-such-plan = Takové předplatné pro neexistuje.
 sub-item-cancel-sub = Zrušit předplatné
+account-activated = Váš účet účet je aktivován.
 
 ## subscription route index
 
@@ -359,13 +374,19 @@ sub-route-idx-reactivating = Předplatné se nepodařilo obnovit
 sub-route-idx-cancel-failed = Předplatné se nepodařilo zrušit
 sub-route-idx-contact = Kontaktujte podporu
 sub-route-idx-cancel-msg-title = Je nám líto, že odcházíte
+sub-route-idx-cancel-aside = S případnými dotazy se prosím obraťte na <a>Podporu { -brand-name-mozilla(case: "gen") }</a>.
 sub-subscription-error =
     .title = Předplatné se nepodařilo načíst
+sub-customer-error =
+    .title = Informace o zákazníkovi se nepodařilo načíst
 sub-billing-update-success = Vaše platební údaje byly úspěšně aktualizovány
 
 ## subscription create
 
 sub-guarantee = 30denní záruka vrácení peněz
+pay-with-heading-other = Vyberte způsob platby
+pay-with-heading-card-or = Nebo zaplaťte kartou
+pay-with-heading-card-only = Zaplatit kartou
 
 ## plan-details
 
@@ -377,6 +398,7 @@ plan-details-total-label = Celkem
 ## payment confirmation
 
 payment-confirmation-alert = Klepněte zde pro stažení
+payment-confirmation-mobile-alert = Aplikace se neotevřela? <a>Klepněte zde</a>
 payment-confirmation-heading = Děkujeme vám!
 payment-confirmation-heading-bak = Děkujeme vám!
 payment-confirmation-subheading = Poslali jsme vám potvrzovací e-mail
@@ -414,3 +436,4 @@ payment-confirmation-amount-year =
         [few] { $amount } každé { $intervalCount } roky
        *[other] { $amount } každých { $intervalCount } let
     }
+payment-confirmation-download-button = Pokračovat ke stažení
