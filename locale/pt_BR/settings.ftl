@@ -68,7 +68,14 @@ connect-another-find-fx-mobile = Encontre o { -brand-firefox } no { -google-play
 ## Connected services section
 
 cs-heading = Serviços conectados
+cs-description = Tudo que você está usando e acessando conta.
+cs-cannot-refresh = Desculpe, houve um problema ao atualizar a lista de serviços conectados.
 cs-cannot-disconnect = Cliente não encontrado, não é possível desconectar
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Saiu da conta do { $service }.
 cs-refresh-button =
     .title = Atualizar serviços conectados
 # Link text to a support page on missing or duplicate devices
@@ -207,6 +214,14 @@ delete-account-header =
 delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
 delete-account-confirm-title = Você conectou sua { -product-firefox-accounts } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
+delete-account-chk-box-1 =
+    .label = Qualquer assinatura paga que você tenha será cancelada
+delete-account-chk-box-2 =
+    .label = Você pode perder informações e recursos salvos dentro de produtos { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Reativar com este email pode não restaurar suas informações salvas
+delete-account-chk-box-4 =
+    .label = Quaisquer extensões e temas que você publicou em addons.mozilla.org serão excluídos
 delete-account-close-button = Fechar
 delete-account-continue-button = Continuar
 delete-account-password-input =
@@ -231,6 +246,7 @@ display-name-update-error = Houve um problema ao atualizar seu nome de exibiçã
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
+recovery-key-created = Sua chave de recuperação foi criada. Certifique-se de guardar a chave num lugar seguro que você possa encontrar facilmente mais tarde — você precisará da chave para recuperar o acesso aos seus dados se você esquecer sua senha.
 recovery-key-enter-password =
     .label = Digite a senha
 recovery-key-page-title =
@@ -289,6 +305,7 @@ tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicat
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 tfa-qa-code-alt = Use o código { $secret } para configurar a autenticação em duas etapas em aplicativos suportados.
+tfa-button-cant-scan-qr = Não consegue capturar o código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Digite esta chave secreta no seu aplicativo de autenticação:
 tfa-enter-totp = Agora digite o código de segurança do seu aplicativo de autenticação.
@@ -392,9 +409,27 @@ tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
+tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigindo um código único ao qual só você tem acesso.
+tfa-row-cannot-verify-session = Desculpe, houve um problema ao verificar sua sessão.
+tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
+tfa-row-disable-modal-confirm = Desativar
+tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
+tfa-row-cannot-disable = Não foi possível desativar a autenticação em duas etapas.
+tfa-row-change-modal-heading = Alterar códigos de recuperação?
+tfa-row-change-modal-confirm = Alterar
+tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Foto
+avatar-add-link = Adicionar
+avatar-change-link = Alterar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Conta desconhecida
+auth-error-103 = Senha incorreta
+auth-error-110 = Token inválido
+auth-error-138 = Sessão não verificada
+auth-error-155 = Token TOTP não encontrado
+auth-error-1008 = Sua nova senha deve ser diferente
