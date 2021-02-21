@@ -41,31 +41,76 @@ app-default-title = { -product-firefox-accounts }
 #                      (for example: "Two-Step Authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
+app-footer-privacy-notice = Aviso de privacidad del sitio web
+app-footer-terms-of-service = Términos del servicio
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Tu avatar
+avatar-default-avatar =
+    .alt = Avatar predeterminado
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Obtén { -brand-firefox } en un dispositivo móvil o tableta
+connect-another-find-fx-mobile =
+    Busca { -brand-firefox } en { -google-play } y { -app-store } o
+    <br /><linkExternal>envía un enlace de descarga a tu dispositivo.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Servicios conectados
+cs-description = Todo lo que estás usando y en lo que has iniciado sesión.
+cs-cannot-refresh =
+    Lo sentimos, hubo un problema al actualizar la lista de servicios
+    conectados.
+cs-cannot-disconnect = Cliente no encontrado, no se ha podido desconectar
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Desconectado de { $service }.
+cs-refresh-button =
+    .title = Actualizar servicios conectados
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = ¿Faltan elementos o están duplicados?
+cs-disconnect-sync-heading = Desconectar de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Tus datos de navegación permanecerán en tu
+    dispositivo { $device }, pero ya no se sincronizarán con tu cuenta.
+cs-disconnect-sync-reason =
+    ¿Cuál es el motivo principal para desconectar este
+    dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = El dispositivo es:
+cs-disconnect-sync-opt-suspicious = Sospechoso
+cs-disconnect-sync-opt-lost = Perdido o robado
+cs-disconnect-sync-opt-old = Antiguo o reemplazado
+cs-disconnect-sync-opt-duplicate = Duplicado
+cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-disconnect-advice-confirm = De acuerdo, entendido
+cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desconectado
 
 ##
 
