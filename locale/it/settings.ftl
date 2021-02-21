@@ -70,6 +70,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servizi connessi
+cs-description = Tutti i servizi ai quali hai effettuato l’accesso e che stai utilizzando.
 cs-cannot-refresh = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della lista dei servizi connessi.
 cs-cannot-disconnect = Client non trovato, impossibile effettuare la disconnessione
 # This string is used in a notification message near the top of the page.
@@ -88,6 +89,7 @@ cs-disconnect-sync-heading = Disconnetti da Sync
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content = I dati relativi alla navigazione rimarranno sul dispositivo ({ $device }), ma non verranno più sincronizzati con il tuo account.
+cs-disconnect-sync-reason = Per quale motivo stai disconnettendo questo dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
