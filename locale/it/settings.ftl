@@ -143,6 +143,7 @@ nav-settings = Impostazioni
 nav-profile = Profilo
 nav-security = Sicurezza
 nav-connected-services = Servizi connessi
+nav-email-comm = Comunicazioni via email
 
 ## Two Step Authentication - replace recovery code
 
@@ -152,12 +153,15 @@ tfa-replace-code-error = Si è verificato un problema durante la sostituzione de
 
 avatar-page-title =
     .title = Immagine del profilo
+avatar-page-add-photo = Aggiungi un’immagine
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Scatta una foto
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Scatta una nuova foto
 avatar-page-close-button = Chiudi
 avatar-page-save-button = Salva
 avatar-page-zoom-out-button = Riduci zoom
