@@ -74,12 +74,21 @@ year-based-plan-details-amount =
 
 product-plan-error =
     .title = เกิดปัญหาในการโหลดแผน
+product-profile-error =
+    .title = เกิดปัญหาในการโหลดโปรไฟล์
+product-customer-error =
+    .title = เกิดปัญหาในการโหลดลูกค้า
+product-plan-not-found = ไม่พบแผน
+product-no-such-plan = ไม่มีแผนดังกล่าวสำหรับผลิตภัณฑ์นี้
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-name =
+    .placeholder = ชื่อเต็ม
+    .label = ชื่อตามที่ปรากฏอยู่บนบัตรของคุณ
 payment-cc =
     .label = บัตรของคุณ
 payment-ccn =
@@ -88,53 +97,126 @@ payment-exp =
     .label = หมดอายุ
 payment-cvc =
     .label = CVC
+payment-zip =
+    .label = รหัสไปรษณีย์
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = ยกเลิก
+payment-update-btn = อัปเดต
+payment-pay-btn = ชำระเงินตอนนี้
+payment-validate-name-error = โปรดป้อนชื่อของคุณ
+payment-validate-zip-required = ต้องระบุรหัสไปรษณีย์
+payment-validate-zip-short = รหัสไปรษณีย์สั้นเกินไป
 
 ## subscription redirect
 
+sub-redirect-ready = การบอกรับของคุณพร้อมแล้ว
+sub-redirect-copy = โปรดสละเวลาสักครู่เพื่อบอกเราเกี่ยวกับประสบการณ์ของคุณ
+sub-redirect-skip-survey = ไม่ ขอบคุณ แค่พาฉันไปที่ผลิตภัณฑ์ของฉันก็พอ
 
 ## fields
 
+default-input-error = จำเป็นต้องกรอกข้อมูลในช่องนี้
+input-error-is-required = จำเป็นต้องกรอก { $label }
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = ตรวจสอบการอัปเกรดของคุณ
+sub-update-failed = การอัปเดตแผนล้มเหลว
+sub-update-title = ข้อมูลการเรียกเก็บเงิน
+sub-update-card-ending = หมายเลขลงท้ายบัตร { $last }
+sub-update-card-exp = หมดอายุ { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = ยืนยันการอัปเกรด
+sub-update-indicator =
+    .aria-label = ตัวบ่งชี้การอัปเกรด
+sub-update-current-plan-label = แผนปัจจุบัน
+sub-update-new-plan-label = แผนใหม่
+sub-update-total-label = ยอดรวมใหม่
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } วัน
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } สัปดาห์
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } เดือน
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } ปี
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } วัน
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } สัปดาห์
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } เดือน
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+       *[other] { $amount } ทุก { $intervalCount } ปี
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = จะเรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
 
 ##
 
+pay-update-card-exp = หมดอายุ { $expirationDate }
+pay-update-change-btn = เปลี่ยน
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ต้องการใช้ { $name } ต่อไปหรือไม่?
+reactivate-confirm-button = บอกรับใหม่
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = คุณยกเลิกการบอกรับของคุณแล้วเมื่อ { $date }
+reactivate-success-button = ปิด
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = โปรดลองอีกครั้งในภายหลัง
+sub-item-cancel-sub = ยกเลิกการบอกรับ
 
 ## subscription route index
 
