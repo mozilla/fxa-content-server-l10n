@@ -87,8 +87,8 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
-payment-legal-link = Consulta le <a>Politica de confidentialitate de Stripe</a>
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilisa Stripe e PayPal pro le elaboration secur del pagamentos.
+payment-legal-link-stripe-paypal = Visualisa le <stripePrivacyLink>Politica de confidentialitate de Stripe</stripePrivacyLink> e le <paypalPrivacyLink>Politica de confidentialitate de PayPal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -324,6 +324,9 @@ sub-billing-update-success = Tu informationes de facturation ha essite  actualis
 ## subscription create
 
 sub-guarantee = Reimbursamento garantite pro 30-dies
+pay-with-heading-other = Selige un modalitate de pagamento
+pay-with-heading-card-or = O paga con le carta
+pay-with-heading-card-only = Pagar con le carta
 
 ## plan-details
 
