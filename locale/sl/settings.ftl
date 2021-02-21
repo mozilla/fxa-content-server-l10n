@@ -103,6 +103,15 @@ cs-refresh-button =
     .title = Osveži povezane storitve
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manjkajoči ali podvojeni elementi?
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Podatki brskanja bodo ostali na vaši napravi
+    ({ $device }), vendar se ne bodo več sinhronizirali z vašim računom.
+cs-disconnect-sync-reason = Zaradi česa prekinjate povezavo s to napravo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -341,9 +350,13 @@ security-heading = Varnost
 
 row-defaults-action-add = Dodaj
 row-defaults-action-change = Spremeni
+row-defaults-action-disable = Onemogoči
+row-defaults-status = Brez
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Omogočeno
+rk-not-set = Ni nastavljeno
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
 rk-key-removed = Obnovitveni ključ za račun odstranjen.
@@ -354,6 +367,16 @@ rk-refresh-key = Osveži obnovitveni ključ
 se-heading = Pomožni e-poštni naslov
     .header = Pomožni e-poštni naslov
 se-cannot-resend-code = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } je zdaj vaš glavni e-poštni naslov.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Odstrani e-poštni naslov
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Osveži e-poštni naslov
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
 
@@ -366,9 +389,11 @@ tfa-row-heading =
     .header = Overitev v dveh korakih
 tfa-row-disabled = Overitev v dveh korakih je onemogočena.
 tfa-row-enabled = Omogočeno
+tfa-row-not-set = Ni nastavljeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
 tfa-row-disable-modal-confirm = Onemogoči
+tfa-row-cannot-disable = Overitve v dveh korakih ni bilo mogoče izključiti.
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
@@ -381,6 +406,7 @@ avatar-change-link = Spremeni
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznan račun
+auth-error-103 = Napačno geslo
 auth-error-110 = Neveljaven žeton
 auth-error-138 = Nepreverjena seja
 auth-error-155 = Žetona TOTP ni mogoče najti
