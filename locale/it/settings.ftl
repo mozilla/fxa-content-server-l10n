@@ -150,6 +150,7 @@ nav-email-comm = Comunicazioni via email
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Si è verificato un problema durante la sostituzione dei codici di recupero.
+tfa-replace-code-success = Nuovi codici generati. Custodisci questi codici usa e getta in un posto sicuro e usali per accedere al tuo account quando non hai con te il tuo dispositivo mobile.
 
 ## Avatar change page
 
