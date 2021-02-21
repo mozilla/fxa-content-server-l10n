@@ -34,6 +34,12 @@ product-firefox-monitor = Firefox Monitor
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-Step Authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Informativa sulla privacy del sito web
 app-footer-terms-of-service = Condizioni di utilizzo del servizio
@@ -54,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
+connect-another-find-fx-mobile =
+    Trova { -brand-firefox } in { -google-play } e { -app-store } o
+    <br /><linkExternal>invia un link per il download al tuo dispositivo.</linkExternal>
 
 ##
 
@@ -61,6 +70,8 @@ connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
 ## Connected services section
 
 cs-heading = Servizi connessi
+cs-cannot-refresh = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della lista dei servizi connessi.
+cs-cannot-disconnect = Client non trovato, impossibile effettuare la disconnessione
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -90,6 +101,7 @@ cs-disconnect-sync-opt-not-say = Preferisco non rispondere
 
 ##
 
+cs-disconnect-advice-confirm = Ho capito
 cs-disconnect-lost-advice-heading = Dispositivo perso o rubato disconnesso
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
 cs-sign-out-button = Disconnetti
@@ -99,6 +111,12 @@ cs-sign-out-button = Disconnetti
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Scaricato
+datablock-copy =
+    .message = Copiato
+datablock-print =
+    .message = Stampato
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -114,6 +132,9 @@ get-data-trio-print =
 
 header-menu-open = Chiudi menu
 header-menu-closed = Menu di navigazione del sito
+header-back-to-top-link =
+    .title = Torna su
+header-title = { -product-firefox-accounts }
 header-help = Aiuto
 
 ## Settings Nav
