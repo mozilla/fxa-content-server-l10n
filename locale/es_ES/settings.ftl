@@ -111,27 +111,74 @@ cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 cs-disconnect-advice-confirm = De acuerdo, entendido
 cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desconectado
+cs-disconnect-suspicious-advice-heading = El dispositivo sospechoso ha sido desconectado
+cs-sign-out-button = Cerrar sesión
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Descargado
+datablock-copy =
+    .message = Copiado
+datablock-print =
+    .message = Imprimido
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperación
+get-data-trio-download =
+    .title = Descargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 # HeaderLockup component
 
+header-menu-open = Cerrar menú
+header-menu-closed = Menú de navegación del sitio
+header-back-to-top-link =
+    .title = Volver arriba
+header-title = { -product-firefox-accounts }
+header-switch-title = Cambiar al diseño clásico
+    .title = Enlace al diseño clásico
+header-help = Ayuda
 
 ## Settings Nav
 
+nav-settings = Ajustes
+nav-profile = Perfil
+nav-security = Seguridad
+nav-connected-services = Servicios conectados
+nav-paid-subs = Suscripciones de pago
+nav-email-comm = Comunicaciones por correo electrónico
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Ha habido un problema al reemplazar tus códigos de recuperación.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto de perfil
+avatar-page-add-photo = Añadir foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tomar foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Eliminar foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Volver a tomar foto
+avatar-page-close-button = Cerrar
+avatar-page-save-button = Guardar
+avatar-page-zoom-out-button = Reducir
+avatar-page-zoom-in-button = Ampliar
+avatar-page-rotate-button = Rotar
 
 ##
 
