@@ -120,39 +120,89 @@ avatar-page-zoom-out-button = ズームアウト
 avatar-page-zoom-in-button = ズームイン
 avatar-page-rotate-button = 回転
 avatar-page-camera-error = カメラを初期化できませんでした
+avatar-page-new-avatar =
+    .alt = 新しいプロファイル写真
+avatar-page-file-upload-error = プロファイル写真のアップロードに問題が発生しました。
+avatar-page-delete-error = プロファイル写真の削除に問題が発生しました。
+avatar-page-image-too-large-error = 画像ファイルサイズが大きすぎてアップロードできません。
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = パスワードを変更
+pw-change-cancel-button = キャンセル
+pw-change-save-button = 保存
+pw-change-forgot-password-link = パスワードを忘れましたか？
+pw-change-current-password =
+    .label = 現在のパスワードを入力してください
+pw-change-new-password =
+    .label = 新しいパスワードを入力してください
+pw-change-confirm-password =
+    .label = 新しいパスワードを再入力してください
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = アカウントを削除
+delete-account-step-1-2 = ステップ 1/2
+delete-account-step-2-2 = ステップ 2/2
+delete-account-close-button = 閉じる
+delete-account-continue-button = 続ける
+delete-account-password-input =
+    .label = パスワードを入力してください
+delete-account-cancel-button = キャンセル
+delete-account-delete-button = アカウントを削除する
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = 表示名を入力してください
+submit-display-name = 保存
+cancel-display-name = キャンセル
+display-name-update-error = 表示名のアップデートに問題がありました。
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = キャンセル
+recovery-key-close-button = 閉じる
+recovery-key-continue-button = 続ける
+recovery-key-created = 回復用キーが作成されました。後で簡単に見つけられる安全な場所にキーを保存してください — パスワードを忘れた場合、データに再びアクセスするには、キーが必要になります。
+recovery-key-enter-password =
+    .label = パスワードを入力してください
+recovery-key-page-title =
+    .title = 回復用キー
+recovery-key-step-1 = ステップ 1/2
+recovery-key-step-2 = ステップ 2/2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = 予備アドレス
+add-secondary-email-enter-address =
+    .label = メールアドレスを入力してください
+add-secondary-email-cancel-button = キャンセル
+add-secondary-email-save-button = 保存
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = 確認コードの送信に問題がありました。
+verify-secondary-email-page-title =
+    .title = 予備アドレス
 
 ##
 
