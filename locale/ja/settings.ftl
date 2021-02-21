@@ -67,6 +67,7 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
+cs-heading = 接続済みサービス
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -231,30 +232,62 @@ tfa-scan-this-code =
 
 ## Profile section
 
+porfile-heading = プロファイル
+profile-display-name =
+    .header = 表示名
+profile-password =
+    .header = パスワード
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = 作成日: { $date }
+profile-primary-email =
+    .header = 主要アドレス
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = セキュリティ
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = 追加
+row-defaults-action-change = 変更
+row-defaults-action-disable = 無効化
+row-defaults-status = なし
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = 有効化
+rk-not-set = 未設定
+rk-action-create = 作成
+rk-action-remove = 削除
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = 予備アドレス
+    .header = 予備アドレス
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = 2 段階認証
+tfa-row-action-add = 追加
+tfa-row-action-disable = 無効化
+tfa-row-change-modal-heading = 回復用コードを変更しますか？
+tfa-row-change-modal-confirm = 変更
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = 画像
+avatar-add-link = 追加
+avatar-change-link = 変更
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-103 = パスワードが正しくありません
