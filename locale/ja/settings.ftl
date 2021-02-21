@@ -203,12 +203,28 @@ add-secondary-email-save-button = 保存
 verify-secondary-email-error = 確認コードの送信に問題がありました。
 verify-secondary-email-page-title =
     .title = 予備アドレス
+verify-secondary-email-verification-code =
+    .label = 確認コードを入力してください
+verify-secondary-email-cancel-button = キャンセル
+verify-secondary-email-verify-button = 確認
 
 ##
 
 
 ## Two Step Authentication
 
+tfa-step-1-3 = ステップ 1/3
+tfa-step-2-3 = ステップ 2/3
+tfa-step-3-3 = ステップ 3/3
+tfa-button-continue = 続ける
+tfa-button-cancel = キャンセル
+tfa-button-finish = 完了
+tfa-incorrect-totp = 2 段階認証コードが正しくありません
+tfa-cannot-verify-code = 回復用コードの確認に問題がありました。
+tfa-enabled = 2 段階認証が有効化されました
+tfa-scan-this-code =
+    この QR コードを読み取って<linkExternal>この
+    認証アプリ</linkExternal> を使用してください。
 
 ##
 
