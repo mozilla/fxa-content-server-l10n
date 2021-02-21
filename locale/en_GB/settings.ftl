@@ -363,30 +363,118 @@ profile-password =
 # Variables:
 #   $date (String) - a localized date and time string
 profile-password-created-date = Created { $date }
+profile-primary-email =
+    .header = Primary email
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Security
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Add
+row-defaults-action-change = Change
+row-defaults-action-disable = Disable
+row-defaults-status = None
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Enabled
+rk-not-set = Not Set
+rk-action-create = Create
+rk-action-remove = Remove
+rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
+rk-key-removed = Account recovery key removed.
+rk-cannot-remove-key = Your account recovery key could not be removed.
+rk-refresh-key = Refresh recovery key
+rk-content-explain = Restore your information when you forget your password.
+rk-content-reset-data = Why does resetting my password reset my data?
+rk-cannot-verify-session = Sorry, there was a problem verifying your session
+rk-remove-modal-heading = Remove recovery key?
+rk-remove-modal-content =
+    In the event you reset your password, you won’t be
+    able to use your recovery key to access your data. You can’t undo this action.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Secondary email
+    .header = Secondary Email
+se-cannot-refresh-email = Sorry, there was a problem refreshing that email.
+se-cannot-resend-code = Sorry, there was a problem re-sending the verification code.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } is now your primary email.
+se-set-primary-error = Sorry, there was a problem changing your primary email.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } successfully deleted.
+se-delete-email-error = Sorry, there was a problem deleting this email.
+se-verify-session = You’ll need to verify your current session to perform this action.
+se-verify-session-error = Sorry, there was a problem verifying your session.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Remove email
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Refresh email
+se-unverified = unverified
+se-resend-code =
+    Verification needed. <button>Resend verification code</button>
+    if it’s not in your inbox or spam folder.
+# Button to make secondary email the primary
+se-make-primary = Make primary
+se-default-content = Access your account if you can’t log in to your primary email.
+se-content-note =
+    Note: a secondary email won’t restore your information — you’ll
+    need a <a>recovery key</a> for that.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Two-step authentication
+tfa-row-disabled = Two-step authentication disabled.
+tfa-row-enabled = Enabled
+tfa-row-not-set = Not Set
+tfa-row-action-add = Add
+tfa-row-action-disable = Disable
+tfa-row-button-refresh =
+    .title = Refresh two-step authentication
+tfa-row-cannot-refresh =
+    Sorry, there was a problem refreshing two-step
+    authentication.
+tfa-row-content-explain =
+    Prevent someone else from logging in by requiring a
+    unique code only you have access to.
+tfa-row-cannot-verify-session = Sorry, there was a problem verifying your session
+tfa-row-disable-modal-heading = Disable two-step authentication?
+tfa-row-disable-modal-confirm = Disable
+tfa-row-disable-modal-explain =
+    You won’t be able to undo this action. You also
+    have the option of <linkExternal>replacing your recovery codes</linkExternal>.
+tfa-row-cannot-disable = Two-step authentication could not be disabled.
+tfa-row-change-modal-heading = Change recovery codes?
+tfa-row-change-modal-confirm = Change
+tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Picture
+avatar-add-link = Add
+avatar-change-link = Change
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Unknown account
+auth-error-103 = Incorrect password
+auth-error-110 = Invalid token
+auth-error-138 = Unverified session
+auth-error-155 = TOTP token not found
+auth-error-1008 = Your new password must be different
