@@ -75,9 +75,14 @@ cs-refresh-button =
 
 cs-disconnect-sync-opt-prefix = Pe mba’e’oka ha’e:
 cs-disconnect-sync-opt-suspicious = Ivaikuaáva
+cs-disconnect-sync-opt-lost = Okañy térã mondapyre
+cs-disconnect-sync-opt-old = Ituya térã hekoviapyréva
+cs-disconnect-sync-opt-duplicate = Mokõimbyre
+cs-disconnect-sync-opt-not-say = Nda’eséinte
 
 ##
 
+cs-disconnect-advice-confirm = Oĩma, aikumbýma
 cs-sign-out-button = Emboty tembiapo
 
 ##
