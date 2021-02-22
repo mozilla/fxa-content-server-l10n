@@ -6,6 +6,7 @@ rm -rf workspace
 mkdir workspace
 (cd workspace && git clone --depth 1 https://github.com/mozilla/fxa)
 (cd workspace/fxa && yarn workspaces focus fxa-content-server fxa-auth-server fxa-payments-server fxa-settings)
+(cd workspace/fxa && yarn workspace fxa-settings build)
 
 # random release number, avoids collision with old trains or branches
 r=$(( $RANDOM + $RANDOM + 1000 ))
