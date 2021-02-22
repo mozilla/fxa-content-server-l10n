@@ -148,45 +148,71 @@ delete-account-cancel-button = Heja
 
 ## Display name page
 
+submit-display-name = Ñongatu
+cancel-display-name = Heja
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Heja
+recovery-key-close-button = Mboty
+recovery-key-continue-button = Ku’ejey
+recovery-key-enter-password =
+    .label = Emoinge ñe’ẽñemi
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Heja
+add-secondary-email-save-button = Ñongatu
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Heja
+verify-secondary-email-verify-button = Hechajey
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Emboguete mba’ete
 
 ## Two Step Authentication
 
+tfa-button-continue = Ku’ejey
+tfa-button-cancel = Heja
+tfa-button-finish = Mbopaha
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Mba'ete
+profile-password =
+    .header = Ñe'ẽñemi
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Tekorosã
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Mbojuaju
+row-defaults-action-change = Moambue
+row-defaults-action-disable = Pe’a
+row-defaults-status = Avave
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Myandypyre
+rk-action-remove = Mboguete
 
 ## Secondary email sub-section on main Settings page
 
@@ -196,9 +222,17 @@ delete-account-cancel-button = Heja
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Myandypyre
+tfa-row-action-add = Mbojuaju
+tfa-row-action-disable = Pe’a
+tfa-row-disable-modal-confirm = Pe’a
+tfa-row-change-modal-confirm = Moambue
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Avara’ãnga
+avatar-add-link = Mbojuaju
+avatar-change-link = Moambue
 
 ## Auth-server based errors that originate from backend service
 
