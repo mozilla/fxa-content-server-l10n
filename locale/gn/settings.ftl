@@ -59,12 +59,16 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Mba’epuru mbojuajupyre
+cs-refresh-button =
+    .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device

@@ -87,8 +87,6 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } oipuru Stripe ohepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link = Ehecha <a>Stripe remiñemi purureko</a>.
 
 ## payment form
 
@@ -334,6 +332,8 @@ sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
 ## subscription create
 
 sub-guarantee = 30 ára haguépe ome’ẽkuaajey viru
+pay-with-heading-card-or = Térã ehepyme’ẽ kuatia’atãme
+pay-with-heading-card-only = Ehepyme’ẽ kuatia’atãme
 
 ## plan-details
 
