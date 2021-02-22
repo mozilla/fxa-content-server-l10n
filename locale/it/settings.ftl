@@ -194,6 +194,10 @@ pw-change-header =
 pw-change-stay-safe = Rimani al sicuro: non riutilizzare le password. La tua password:
 pw-change-least-8-chars = Deve contenere almeno 8 caratteri
 pw-change-not-contain-email = Deve essere diversa dal tuo indirizzo email
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Non deve essere presente in questa <linkExternal>lista di password
+    comuni</linkExternal>
 pw-change-cancel-button = Annulla
 pw-change-save-button = Salva
 pw-change-forgot-password-link = Password dimenticata?
@@ -298,6 +302,17 @@ tfa-cannot-retrieve-code = Si è verificato un problema durante il recupero del 
 tfa-cannot-verify-code = Si è verificato un problema durante la verifica del codice di recupero.
 tfa-incorrect-recovery-code = Codice di recupero errato
 tfa-enabled = Autenticazione in due passaggi attivata
+tfa-scan-this-code =
+    Scansiona questo codice QR tramite una di <linkExternal>queste
+    app di autenticazione</linkExternal>.
+tfa-button-cant-scan-qr = Non riesci a scansionare il codice?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Inserisci questa chiave segreta nell’app di autenticazione:
+tfa-enter-totp = Inserisci ora il codice di sicurezza dall’app di autenticazione.
+tfa-input-enter-totp =
+    .label = Inserisci il codice di sicurezza
+tfa-enter-recovery-code =
+    .label = Inserisci il codice di recupero
 
 ##
 
