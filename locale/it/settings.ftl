@@ -333,6 +333,7 @@ row-defaults-action-disable = Disattiva
 rk-action-create = Crea
 rk-action-remove = Rimuovi
 rk-key-removed = La chiave di recupero dell’account è stata rimossa.
+rk-refresh-key = Aggiorna chiave di recupero
 
 ## Secondary email sub-section on main Settings page
 
