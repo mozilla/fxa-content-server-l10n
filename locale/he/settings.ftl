@@ -64,6 +64,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחשב לוח
+connect-another-find-fx-mobile =
+    ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store } או
+    <br /><linkExternal>לשלוח קישור להורדה למכשיר שלך.</linkExternal>
 
 ##
 
@@ -72,6 +75,12 @@ connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחש
 
 cs-heading = שירותים מחוברים
 cs-cannot-refresh = הייתה בעיה ברענון רשימת השירותים המחוברים, עמך הסליחה.
+cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = נותק מ־{ $service }.
 cs-refresh-button =
     .title = רענון שירותים מחוברים
 # Link text to a support page on missing or duplicate devices
@@ -295,10 +304,10 @@ tfa-step-3-3 = שלב 3 מתוך 3
 tfa-button-continue = המשך
 tfa-button-cancel = ביטול
 tfa-button-finish = סיום
-tfa-incorrect-totp = קוד אימות דו־שלבי לא נכון
+tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
 tfa-cannot-verify-code = אירעה שגיאה באימות הקוד שלך לשחזור.
-tfa-incorrect-recovery-code = קוד לשחזור לא נכון
+tfa-incorrect-recovery-code = קוד לשחזור שגוי
 tfa-enabled = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
 # This is the image alt text for a QR code.
@@ -409,12 +418,27 @@ tfa-row-action-disable = השבתה
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
+tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
 tfa-row-cannot-verify-session = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
+tfa-row-disable-modal-explain = לא יהיה ניתן לבטל פעולה זו. יש לך גם את האפשרות <linkExternal>להחליף את הקודים שלך לשחזור</linkExternal>.
+tfa-row-cannot-disable = לא ניתן היה להשבית את האימות הדו־שלבי.
+tfa-row-change-modal-heading = לשנות את הקודים לשחזור?
+tfa-row-change-modal-confirm = שינוי
+tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = תמונה
+avatar-add-link = הוספה
+avatar-change-link = שינוי
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = חשבון לא ידוע
+auth-error-103 = ססמה שגויה
+auth-error-110 = אסימון לא חוקי
+auth-error-138 = הפעלה בלתי מאומתת
+auth-error-155 = אסימון TOTP לא נמצא
+auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
