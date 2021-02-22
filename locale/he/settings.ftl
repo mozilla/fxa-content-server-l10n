@@ -312,27 +312,61 @@ tfa-enter-totp = כעת יש להכניס את קוד האבטחה מיישומ�
 tfa-input-enter-totp =
     .label = נא להכניס קוד אבטחה
 tfa-save-these-codes = יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח לזמנים שבהם לא תהיה לך גישה למכשיר הנייד שלך.
+tfa-enter-code-to-confirm = נא להכניס כעת את אחד מהקודים שלך לשחזור כדי לאשר ששמרת אותו. יהיה לך צורך בקוד אם המכשיר שלך יאבד ויהיה ברצונך לגשת לחשבון שלך.
+tfa-enter-recovery-code =
+    .label = נא להכניס קוד לשחזור
 
 ##
 
 
 ## Profile section
 
+porfile-heading = פרופיל
+profile-display-name =
+    .header = שם תצוגה
+profile-password =
+    .header = ססמה
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = נוצר ב־{ $date }
+profile-primary-email =
+    .header = כתובת דוא״ל ראשית
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = אבטחה
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = הוספה
+row-defaults-action-change = שינוי
+row-defaults-action-disable = השבתה
+row-defaults-status = ללא
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = מופעל
+rk-not-set = לא מוגדר
+rk-action-create = יצירה
+rk-action-remove = הסרה
+rk-cannot-refresh = אירעה שגיאה ברענון מפתח השחזור, עמך הסליחה.
+rk-key-removed = מפתח לשחזור החשבון הוסר.
+rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
+rk-refresh-key = רענון מפתח שחזור
+rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
+rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
+rk-cannot-verify-session = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה
+rk-remove-modal-heading = להסיר את מפתח השחזור?
+rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = כתובת דוא״ל משנית
+    .header = כתובת דוא״ל משנית
 
 ##
 
