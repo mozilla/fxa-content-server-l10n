@@ -367,12 +367,51 @@ rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהי
 
 se-heading = כתובת דוא״ל משנית
     .header = כתובת דוא״ל משנית
+se-cannot-refresh-email = אירעה שגיאה ברענון דוא״ל זה, עמך הסליחה.
+se-cannot-resend-code = אירעה שגיאה בשליחת קוד האימות מחדש, עמך הסליחה.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = ‏{ $email } היא כעת כתובת הדוא״ל הראשית שלך.
+se-set-primary-error = אירעה שגיאה בשינוי כתובת הדוא״ל הראשית שלך, עמך הסליחה.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = הכתובת { $email } נמחקה בהצלחה.
+se-delete-email-error = אירעה שגיאה במחיקת דוא״ל זה, עמך הסליחה.
+se-verify-session = יהיה עליך לאמת את ההפעלה הנוכחית שלך כדי לבצע פעולה זו.
+se-verify-session-error = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה.
+# Button to remove the secondary email
+se-remove-email =
+    .title = הסרת דוא״ל
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = רענון דוא״ל
+se-unverified = לא מאומת
+se-resend-code = נדרש אימות. ניתן <button>לשלוח מחדש את קוד האימות</button> אם הוא לא נמצא בתיבת הדואר הנכנס או בתיקיית הספאם שלך.
+# Button to make secondary email the primary
+se-make-primary = הפיכה לכתובת ראשית
+se-default-content = קבלת גישה לחשבון שלך אם אין באפשרותך להתחבר לדוא״ל הראשי שלך.
+se-content-note = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור</a> לשם כך.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = אימות דו־שלבי
+tfa-row-disabled = אימות דו־שלבי הושבת.
+tfa-row-enabled = מופעל
+tfa-row-not-set = לא מוגדר
+tfa-row-action-add = הוספה
+tfa-row-action-disable = השבתה
+tfa-row-button-refresh =
+    .title = רענון אימות דו־שלבי
+tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
+tfa-row-cannot-verify-session = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה
+tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
+tfa-row-disable-modal-confirm = השבתה
 
 ## Avatar sub-section on main Settings page
 
