@@ -67,6 +67,14 @@ avatar-default-avatar =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos mancante o duplicate?
 cs-disconnect-sync-heading = Disconnecter se de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Tu datos de navigation remanera in tu 
+    apparato ({ $device }), ma illos non se synchronisara plus con tu conto.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
