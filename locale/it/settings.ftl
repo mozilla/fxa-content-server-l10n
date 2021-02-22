@@ -378,3 +378,8 @@ tfa-row-disable-modal-confirm = Disattiva
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Account sconosciuto
+auth-error-103 = Password errata
+auth-error-110 = Token non valido
+auth-error-138 = Sessione non verificata
+auth-error-155 = Token TOTP non trovato
