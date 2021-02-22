@@ -20,7 +20,12 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Аккаунты Firefox
+-product-firefox-accounts =
+    { $case ->
+       *[plural] Аккаунты Firefox
+        [singular_nominative] Аккаунт Firefox
+        [singular_genitive] Аккаунта Firefox
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Аккаунт Firefox
@@ -209,16 +214,41 @@ pw-change-header =
     .title = Сменить пароль
 pw-change-stay-safe = Оставайтесь в безопасности — не используйте пароли повторно. Ваш пароль:
 pw-change-least-8-chars = Должен быть не менее 8 символов
+pw-change-not-contain-email = Не должен содержать вашего адреса электронной почты
+pw-change-must-match = Новый пароль совпадает с подтверждением
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Не должен содержать паролей из <linkExternal>списка
+    популярных</linkExternal>
 pw-change-cancel-button = Отмена
 pw-change-save-button = Сохранить
+pw-change-forgot-password-link = Забыли пароль?
+pw-change-current-password =
+    .label = Введите текущий пароль
 pw-change-new-password =
     .label = Введите новый пароль
+pw-change-confirm-password =
+    .label = Подтвердите новый пароль
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Удалить аккаунт
+delete-account-step-1-2 = Шаг 1 из 2
+delete-account-step-2-2 = Шаг 2 из 2
+delete-account-confirm-title = Вы подключили свой { -product-firefox-accounts(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
+delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
+delete-account-chk-box-1 =
+    .label = Все оплаченные вами подписки будут отменены
+delete-account-chk-box-2 =
+    .label = Вы можете потерять сохранённую информацию и возможности продуктов { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Повторная активация с использованием этого адреса электронной почты может не восстановить вашу сохранённую информацию
+delete-account-chk-box-4 =
+    .label = Все расширения и темы, опубликованные вами на addons.mozilla.org, будут удалены
 delete-account-close-button = Закрыть
 delete-account-continue-button = Продолжить
 delete-account-password-input =
