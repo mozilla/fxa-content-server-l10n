@@ -151,7 +151,7 @@ nav-email-comm = תקשורת בדוא״ל
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = אירעה שגיאה בהחלפת הקודים שלך לשחזור.
-tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו שנועדו לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
+tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
 
 ## Avatar change page
 
@@ -291,6 +291,27 @@ delete-account-link = מחיקת חשבון
 tfa-title = אימות דו־שלבי
 tfa-step-1-3 = שלב 1 מתוך 3
 tfa-step-2-3 = שלב 2 מתוך 3
+tfa-step-3-3 = שלב 3 מתוך 3
+tfa-button-continue = המשך
+tfa-button-cancel = ביטול
+tfa-button-finish = סיום
+tfa-incorrect-totp = קוד אימות דו־שלבי לא נכון
+tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
+tfa-cannot-verify-code = אירעה שגיאה באימות הקוד שלך לשחזור.
+tfa-incorrect-recovery-code = קוד לשחזור לא נכון
+tfa-enabled = אימות דו־שלבי הופעל
+tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = ניתן להשתמש בקוד { $secret } כדי להגדיר אימות דו־שלבי ביישומים נתמכים.
+tfa-button-cant-scan-qr = אין לך אפשרות לסרוק קוד?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:
+tfa-enter-totp = כעת יש להכניס את קוד האבטחה מיישומון האימות.
+tfa-input-enter-totp =
+    .label = נא להכניס קוד אבטחה
+tfa-save-these-codes = יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח לזמנים שבהם לא תהיה לך גישה למכשיר הנייד שלך.
 
 ##
 
