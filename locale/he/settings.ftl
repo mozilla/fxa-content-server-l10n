@@ -190,39 +190,107 @@ pw-change-stay-safe = לשמירה על בטיחותך — אין לעשות ש�
 pw-change-least-8-chars = צריכה להיות באורך של 8 תווים לפחות
 pw-change-not-contain-email = אסור שתהיה כתובת הדוא״ל שלך
 pw-change-must-match = הססמה החדשה צריכה להיות תואמת לשדה אימות הססמה
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = אסור שתהיה חלק <linkExternal>מרשימת הססמאות הנפוצות הזאת</linkExternal>
+pw-change-cancel-button = ביטול
+pw-change-save-button = שמירה
+pw-change-forgot-password-link = שכחת את הססמה?
+pw-change-current-password =
+    .label = נא להכניס את הססמה הנוכחית
+pw-change-new-password =
+    .label = נא להכניס ססמה חדשה
+pw-change-confirm-password =
+    .label = נא לאמת את הססמה החדשה
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = מחיקת חשבון
+delete-account-step-1-2 = שלב 1 מתוך 2
+delete-account-step-2-2 = שלב 2 מתוך 2
+delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
+delete-account-chk-box-1 =
+    .label = כל המנויים בתשלום שיש לך יבוטלו
+delete-account-chk-box-2 =
+    .label = מידע ותכונות שנשמרו במוצרי { -brand-mozilla } עלולים להיאבד
+delete-account-chk-box-3 =
+    .label = הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר את המידע השמור שלך
+delete-account-chk-box-4 =
+    .label = כל ההרחבות וערכות הנושא שפרסמת ב־addons.mozilla.org יימחקו
+delete-account-close-button = סגירה
+delete-account-continue-button = המשך
+delete-account-password-input =
+    .label = נא להכניס ססמה
+delete-account-cancel-button = ביטול
+delete-account-delete-button = מחיקת חשבון
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = נא להכניס שם תצוגה
+submit-display-name = שמירה
+cancel-display-name = ביטול
+display-name-update-error = אירעה שגיאה בעדכון שם התצוגה שלך.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = ביטול
+recovery-key-close-button = סגירה
+recovery-key-continue-button = המשך
+recovery-key-created = מפתח השחזור שלך נוצר. יש להקפיד לשמור את המפתח במקום בטוח שתהיה לך האפשרות למצוא בקלות מאוחר יותר — יהיה לך צורך במפתח זה כדי לקבל בחזרה גישה לנתונים שלך במקרה ששכחת את הססמה שלך.
+recovery-key-enter-password =
+    .label = נא להכניס ססמה
+recovery-key-page-title =
+    .title = מפתח שחזור
+recovery-key-step-1 = שלב 1 מתוך 2
+recovery-key-step-2 = שלב 2 מתוך 2
 
 ## Add secondary email page
 
+add-secondary-email-error = אירעה שגיאה ביצירת דוא״ל זה.
+add-secondary-email-page-title =
+    .title = כתובת דוא״ל משנית
+add-secondary-email-enter-address =
+    .label = נא להכניס כתובת דוא״ל
+add-secondary-email-cancel-button = ביטול
+add-secondary-email-save-button = שמירה
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = אירעה שגיאה בשליחת קוד האימות.
+verify-secondary-email-page-title =
+    .title = כתובת דוא״ל משנית
+verify-secondary-email-verification-code =
+    .label = נא להכניס את קוד האימות שלך
+verify-secondary-email-cancel-button = ביטול
+verify-secondary-email-verify-button = אימות
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = נא להכניס את קוד האימות שנשלח אל <strong>{ $email }</strong> תוך 5 דקות.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = מחיקת חשבון
 
 ## Two Step Authentication
 
+tfa-title = אימות דו־שלבי
+tfa-step-1-3 = שלב 1 מתוך 3
+tfa-step-2-3 = שלב 2 מתוך 3
 
 ##
 
