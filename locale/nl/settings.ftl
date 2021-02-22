@@ -350,9 +350,38 @@ rk-enabld = Ingeschakeld
 rk-not-set = Niet ingesteld
 rk-action-create = Aanmaken
 rk-action-remove = Verwijderen
+rk-cannot-refresh = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
+rk-key-removed = Sleutel voor accountherstel verwijderd.
+rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
+rk-refresh-key = Herstelsleutel vernieuwen
+rk-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
+rk-remove-modal-heading = Herstelsleutel verwijderen?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Secundair e-mailadres
+    .header = Secundair e-mailadres
+se-cannot-refresh-email = Sorry, er is een probleem opgetreden bij het vernieuwen van dat e-mailadres.
+se-cannot-resend-code = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van de verificatiecode.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } is nu uw primaire e-mailadres.
+se-set-primary-error = Sorry, er is een probleem opgetreden bij het wijzigen van uw primaire e-mailadres.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } met succes verwijderd.
+se-delete-email-error = Sorry, er is een probleem opgetreden bij het verwijderen van dit e-mailadres.
+se-verify-session = U moet uw huidige sessie verifiëren om deze actie uit te voeren.
+se-verify-session-error = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-mailadres verwijderen
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-mailadres vernieuwen
+se-unverified = niet-geverifieerd
 
 ##
 
