@@ -85,6 +85,7 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = ‏{ -brand-name-mozilla } משתמש ב־Stripe וב־Paypal לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-stripe-paypal = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -286,6 +287,7 @@ sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלח�
 ## subscription create
 
 sub-guarantee = החזר כספי מובטח תוך 30 יום
+pay-with-heading-card-only = תשלום באמצעות כרטיס
 
 ## plan-details
 
