@@ -108,6 +108,7 @@ cs-disconnect-sync-opt-not-say = Preferisco non rispondere
 cs-disconnect-advice-confirm = Ho capito
 cs-disconnect-lost-advice-heading = Dispositivo perso o rubato disconnesso
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
+cs-disconnect-suspicious-advice-content = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell‘{ -product-firefox-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
 cs-sign-out-button = Disconnetti
 
 ##
