@@ -20,8 +20,8 @@ close-aria =
 
 general-error-heading = Общая ошибка приложения
 basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
-payment-error-1 = Хм. При авторизации платежа возникла проблема. Повторите попытку или свяжитесь с издателем карты.
-payment-error-2 = Хм. При авторизации платежа возникла проблема. Свяжитесь с издателем вашей карты.
+payment-error-1 = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
+payment-error-2 = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
 expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
 insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
@@ -91,8 +91,8 @@ product-no-such-plan = Нет такого плана для этого прод
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } использует Stripe для безопасной обработки платежей.
-payment-legal-link = Ознакомьтесь с <a>политикой конфиденциальности Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } использует Stripe и Paypal для безопасной обработки платежей.
+payment-legal-link-stripe-paypal = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -354,6 +354,9 @@ sub-billing-update-success = Ваша платёжная информация б
 ## subscription create
 
 sub-guarantee = 30-дневная гарантия возврата денег
+pay-with-heading-other = Выберите способ оплаты
+pay-with-heading-card-or = Или оплатите картой
+pay-with-heading-card-only = Оплатить картой
 
 ## plan-details
 
