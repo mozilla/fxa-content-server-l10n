@@ -84,8 +84,7 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 ## payment legal blurb
 
-payment-legal-copy = ‏{ -brand-name-mozilla } משתמש ב־Stripe לצורך עיבוד תשלומים מאובטח.
-payment-legal-link = הצגת <a>מדיניות הפרטיות של Stripe</a>.
+payment-legal-copy-stripe-paypal = ‏{ -brand-name-mozilla } משתמש ב־Stripe וב־Paypal לצורך עיבוד תשלומים מאובטח.
 
 ## payment form
 
