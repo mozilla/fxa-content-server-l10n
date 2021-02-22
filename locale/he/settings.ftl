@@ -110,7 +110,7 @@ cs-disconnect-sync-opt-not-say = אעדיף שלא לומר
 
 cs-disconnect-advice-confirm = בסדר, הבנתי
 cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נותק
-cs-disconnect-lost-advice-content = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת ה־{ -product-firefox-accounts } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
+cs-disconnect-lost-advice-content = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
@@ -220,6 +220,7 @@ delete-account-header =
     .title = מחיקת חשבון
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
+delete-account-confirm-title = חיברת את { -product-firefox-account(case: "the") } שלך למוצרי { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
 delete-account-chk-box-1 =
     .label = כל המנויים בתשלום שיש לך יבוטלו
