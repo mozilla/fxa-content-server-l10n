@@ -88,6 +88,7 @@ product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } gebruikt Stripe en Paypal voor veilig betalingsverkeer.
+payment-legal-link-stripe-paypal = Het <stripePrivacyLink>privacybeleid van Stripe</stripePrivacyLink> en van <paypalPrivacyLink>Paypal</paypalPrivacyLink> bekijken.
 
 ## payment form
 
@@ -334,6 +335,8 @@ sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
 
 sub-guarantee = 30-dagen-geldteruggarantie
 pay-with-heading-other = Selecteer betalingsoptie
+pay-with-heading-card-or = Of betaal met kaart
+pay-with-heading-card-only = Betalen met kaart
 
 ## plan-details
 

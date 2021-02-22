@@ -60,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Download { -brand-firefox } op mobiel of tablet
+connect-another-find-fx-mobile =
+    { -brand-firefox } in { -google-play } en de { -app-store } zoeken of
+    <br /><linkExternal>een downloadkoppeling naar uw apparaat sturen.</linkExternal>
 
 ##
 
@@ -82,6 +85,17 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Ontbrekende of dubbele items?
 cs-disconnect-sync-heading = Verbinding met Sync verbreken
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Uw navigatiegegevens blijven op uw apparaat ({ $device })
+    bestaan, maar er wordt niet meer met uw account gesynchroniseerd.
+cs-disconnect-sync-reason =
+    Wat is de belangrijkste reden om dit apparaat
+    te ontkoppelen?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -97,7 +111,17 @@ cs-disconnect-sync-opt-not-say = Zeg ik liever niet
 
 cs-disconnect-advice-confirm = Oké, begrepen
 cs-disconnect-lost-advice-heading = Verloren of gestolen apparaat ontkoppeld
+cs-disconnect-lost-advice-content =
+    Omdat uw apparaat verloren of gestolen is dient u, om
+    uw gegevens veilig te houden, uw wachtwoord van { -product-firefox-accounts } te wijzigen
+    in uw accountinstellingen. U kunt het beste ook informatie bij de producent van uw
+    apparaat opzoeken over het op afstand wissen van uw gegevens.
 cs-disconnect-suspicious-advice-heading = Verdacht apparaat ontkoppeld
+cs-disconnect-suspicious-advice-content =
+    Als het ontkoppelde apparaat inderdaad
+    verdacht is, dient u, om uw gegevens veilig te houden, het wachtwoord van uw { -product-firefox-account }
+    te wijzigen in uw accountinstellingen. U kunt het beste ook alle overige wachtwoorden die
+    u in { -brand-firefox } hebt opgeslagen wijzigen door in de adresbalk about:logins in te typen.
 cs-sign-out-button = Afmelden
 
 ##
@@ -129,6 +153,8 @@ header-menu-closed = Websitenavigatiemenu
 header-back-to-top-link =
     .title = Naar boven
 header-title = { -product-firefox-accounts }
+header-switch-title = Naar klassiek ontwerp omschakelen
+    .title = koppeling naar klassiek ontwerp
 header-help = Help
 
 ## Settings Nav
@@ -143,6 +169,10 @@ nav-email-comm = E-mailcommunicatie
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Er is een probleem opgetreden bij het vervangen van uw herstelcodes.
+tfa-replace-code-success =
+    Er zijn nieuwe codes aangemaakt. Bewaar deze codes voor eenmalig gebruik
+    op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
+    mobiele apparaat niet hebt.
 
 ## Avatar change page
 
@@ -204,6 +234,7 @@ delete-account-header =
     .title = Account verwijderen
 delete-account-step-1-2 = Stap 1 van 2
 delete-account-step-2-2 = Stap 2 van 2
+delete-account-confirm-title = U hebt uw { -product-firefox-accounts } verbonden met { -brand-mozilla }-producten die u veilig en productief houden op internet:
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
 delete-account-chk-box-1 =
     .label = Al uw betaalde abonnementen worden geannuleerd
@@ -239,6 +270,7 @@ display-name-update-error = Er is een probleem opgetreden bij het bijwerken van 
 recovery-key-cancel-button = Annuleren
 recovery-key-close-button = Sluiten
 recovery-key-continue-button = Doorgaan
+recovery-key-created = Uw herstelsleutel is aangemaakt. Zorg ervoor dat u de sleutel op een veilige plek die u later makkelijk kunt vinden bewaart – u hebt de sleutel nodig om opnieuw toegang tot uw gegevens te krijgen als u uw wachtwoord vergeet.
 recovery-key-enter-password =
     .label = Voer wachtwoord in
 recovery-key-page-title =
@@ -310,6 +342,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Bewaar deze codes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
+tfa-enter-code-to-confirm =
+    Voer nu een van uw herstelcodes in om te
+    bevestigen dat u deze hebt opgeslagen. U hebt een code nodig als u uw apparaat kwijtraakt en toegang
+    tot uw account wilt krijgen.
 tfa-enter-recovery-code =
     .label = Voer een herstelcode in
 
@@ -354,8 +390,13 @@ rk-cannot-refresh = Sorry, er is een probleem opgetreden bij het vernieuwen van 
 rk-key-removed = Sleutel voor accountherstel verwijderd.
 rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
 rk-refresh-key = Herstelsleutel vernieuwen
+rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
+rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
 rk-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
 rk-remove-modal-heading = Herstelsleutel verwijderen?
+rk-remove-modal-content =
+    Als u uw wachtwoord herinitialiseert, kunt u uw
+    herstelsleutel niet gebruiken om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
 
 ## Secondary email sub-section on main Settings page
 
@@ -387,6 +428,7 @@ se-resend-code =
     als deze niet in uw Postvak IN of uw map Ongewenste post staat.
 # Button to make secondary email the primary
 se-make-primary = Primair maken
+se-default-content = Toegang tot uw account als u niet kunt aanmelden op uw primaire e-mailadres.
 se-content-note =
     Noot: een secundair e-mailadres herstelt uw gegevens niet – daarvoor
     hebt u een <a>herstelsleutel</a> nodig.
@@ -408,9 +450,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Sorry, er is een probleem opgetreden bij het vernieuwen van authenticatie
     in twee stappen.
+tfa-row-content-explain =
+    Voorkom dat iemand anders aanmeldt door een
+    unieke code waar alleen u toegang toe hebt te vereisen.
 tfa-row-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
+tfa-row-disable-modal-explain =
+    U kunt deze actie niet ongedaan maken. U hebt ook
+    de optie om <linkExternal>uw herstelcodes te vervangen</linkExternal>.
 tfa-row-cannot-disable = Authenticatie in twee stappen kon niet worden uitgeschakeld.
 tfa-row-change-modal-heading = Herstelcodes wijzigen?
 tfa-row-change-modal-confirm = Wijzigen
