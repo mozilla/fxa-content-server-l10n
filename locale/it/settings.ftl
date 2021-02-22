@@ -352,12 +352,26 @@ rk-refresh-key = Aggiorna chiave di recupero
 
 ## Secondary email sub-section on main Settings page
 
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } eliminata con successo.
+se-verify-session = È necessario verificare la sessione in corso per effettuare questa operazione.
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Aggiorna l’email
+se-unverified = Non verificata
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Attiva
+tfa-row-not-set = Non impostata
+tfa-row-action-add = Aggiungi
+tfa-row-action-disable = Disattiva
+tfa-row-disable-modal-confirm = Disattiva
 
 ## Avatar sub-section on main Settings page
 
