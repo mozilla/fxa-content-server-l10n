@@ -93,27 +93,55 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Emboty poravorã
+header-title = { -product-firefox-accounts }
+header-help = Pytyvõ
 
 ## Settings Nav
 
+nav-settings = Ñemboheko
+nav-profile = Mba’ete
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Ta’ãnga mba’etegua
+avatar-page-add-photo = Embojuaju Ta’ãnga
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Eguenohẽ ta’ãnga
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Emboguete Ta’ãnga
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Eguenohẽjey ta’ãnga
+avatar-page-close-button = Mboty
+avatar-page-save-button = Ñongatu
+avatar-page-zoom-out-button = Momichĩ
+avatar-page-zoom-in-button = Mbotuicha
+avatar-page-rotate-button = Mbojere
 
 ##
 
 
 ## Password change page
 
+pw-change-cancel-button = Heja
+pw-change-save-button = Ñongatu
 
 ##
 
 
 ## Delete account page
 
+delete-account-close-button = Mboty
+delete-account-continue-button = Ku’ejey
+delete-account-password-input =
+    .label = Emoinge ñe’ẽñemi
+delete-account-cancel-button = Heja
 
 ##
 
