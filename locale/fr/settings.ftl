@@ -29,8 +29,8 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $capitalization ->
-       *[lowercase] comptes Firefox
-        [uppercase] Comptes Firefox
+       *[lowercase] compte Firefox
+        [uppercase] Compte Firefox
     }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
