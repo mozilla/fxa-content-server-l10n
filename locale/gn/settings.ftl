@@ -36,12 +36,18 @@ product-firefox-monitor = Firefox Monitor
 
 app-default-title = { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } ra’ãnga’i
+app-footer-privacy-notice = Ñanduti renda marandu’i ñemigua
+app-footer-terms-of-service = Mba’epytyvõrã ñemboguata
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Nde avatar
+avatar-default-avatar =
+    .alt = Avatar ypyguáva
 
 ##
 
@@ -58,21 +64,35 @@ app-footer-mozilla-logo-label = { -brand-mozilla } ra’ãnga’i
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Pe mba’e’oka ha’e:
+cs-disconnect-sync-opt-suspicious = Ivaikuaáva
 
 ##
 
+cs-sign-out-button = Emboty tembiapo
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Mboguejypyre
+datablock-copy =
+    .message = Monguatiapyre
+datablock-print =
+    .message = Monguatiapyre
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-copy =
+    .title = Monguatia
+get-data-trio-print =
+    .title = Monguatia
 
 # HeaderLockup component
 
+header-menu-open = Emboty poravorã
 
 ## Settings Nav
 
