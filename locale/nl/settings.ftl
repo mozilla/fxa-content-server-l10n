@@ -149,63 +149,207 @@ tfa-replace-code-error = Er is een probleem opgetreden bij het vervangen van uw 
 avatar-page-title =
     .title = Profielfoto
 avatar-page-add-photo = Foto toevoegen
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Foto maken
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Foto verwijderen
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Foto opnieuw maken
+avatar-page-close-button = Sluiten
+avatar-page-save-button = Opslaan
+avatar-page-zoom-out-button = Uitzoomen
+avatar-page-zoom-in-button = Inzoomen
+avatar-page-rotate-button = Roteren
+avatar-page-camera-error = Kon camera niet initialiseren
+avatar-page-new-avatar =
+    .alt = nieuwe profielafbeelding
+avatar-page-file-upload-error = Er is een probleem opgetreden bij het uploaden van uw profielafbeelding
+avatar-page-delete-error = Er is een probleem opgetreden bij het verwijderen van uw avatar
+avatar-page-image-too-large-error = De afbeeldingsbestandsgrootte is te groot om te uploaden.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Wachtwoord wijzigen
+pw-change-stay-safe = Blijf veilig – gebruik wachtwoorden niet opnieuw. Uw wachtwoord:
+pw-change-least-8-chars = Moet minstens 8 tekens bevatten
+pw-change-not-contain-email = Mag niet uw e-mailadres zijn
+pw-change-must-match = Nieuw wachtwoord komt overeen met bevestiging
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Mag niet overeenkomen met deze <linkExternal>lijst met veelgebruikte
+    wachtwoorden</linkExternal>
+pw-change-cancel-button = Annuleren
+pw-change-save-button = Opslaan
+pw-change-forgot-password-link = Wachtwoord vergeten?
+pw-change-current-password =
+    .label = Voer huidig wachtwoord in
+pw-change-new-password =
+    .label = Voer nieuw wachtwoord in
+pw-change-confirm-password =
+    .label = Bevestig nieuw wachtwoord
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Account verwijderen
+delete-account-step-1-2 = Stap 1 van 2
+delete-account-step-2-2 = Stap 2 van 2
+delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
+delete-account-chk-box-1 =
+    .label = Al uw betaalde abonnementen worden geannuleerd
+delete-account-chk-box-2 =
+    .label = U opgeslagen informatie en functies in { -brand-mozilla }-producten kunt verliezen
+delete-account-chk-box-3 =
+    .label = Uw opgeslagen informatie mogelijk niet hersteld kan worden, als u dit e-mailadres opnieuw activeert
+delete-account-chk-box-4 =
+    .label = Alle extensies en thema’s die u op addons.mozilla.org hebt gepubliceerd zullen worden verwijderd
+delete-account-close-button = Sluiten
+delete-account-continue-button = Doorgaan
+delete-account-password-input =
+    .label = Voer wachtwoord in
+delete-account-cancel-button = Annuleren
+delete-account-delete-button = Account verwijderen
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Voer schermnaam in
+submit-display-name = Opslaan
+cancel-display-name = Annuleren
+display-name-update-error = Er is een probleem opgetreden bij het bijwerken van uw schermnaam.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Annuleren
+recovery-key-close-button = Sluiten
+recovery-key-continue-button = Doorgaan
+recovery-key-enter-password =
+    .label = Voer wachtwoord in
+recovery-key-page-title =
+    .title = Herstelsleutel
+recovery-key-step-1 = Stap 1 van 2
+recovery-key-step-2 = Stap 2 van 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Er is een probleem opgetreden bij het aanmaken van dit e-mailadres.
+add-secondary-email-page-title =
+    .title = Secundair e-mailadres
+add-secondary-email-enter-address =
+    .label = Voer e-mailadres in
+add-secondary-email-cancel-button = Annuleren
+add-secondary-email-save-button = Opslaan
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Er is een probleem opgetreden bij het verzenden van de verificatiecode.
+verify-secondary-email-page-title =
+    .title = Secundair e-mailadres
+verify-secondary-email-verification-code =
+    .label = Voer uw verificatiecode in
+verify-secondary-email-cancel-button = Annuleren
+verify-secondary-email-verify-button = Verifiëren
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Voer binnen 5 minuten de verificatiecode in die naar <strong>{ $email }</strong> is verzonden.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Account verwijderen
 
 ## Two Step Authentication
 
+tfa-title = Authenticatie in twee stappen
+tfa-step-1-3 = Stap 1 van 3
+tfa-step-2-3 = Stap 2 van 3
+tfa-step-3-3 = Stap 3 van 3
+tfa-button-continue = Doorgaan
+tfa-button-cancel = Annuleren
+tfa-button-finish = Voltooien
+tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
+tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
+tfa-cannot-verify-code = Er is een probleem opgetreden bij het verifiëren van uw herstelcode.
+tfa-incorrect-recovery-code = Onjuiste herstelcode
+tfa-enabled = Authenticatie in twee stappen ingeschakeld
+tfa-scan-this-code =
+    Scan deze QR-code met een van <linkExternal>deze
+    authenticatie-apps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Gebruik de code { $secret } om authenticatie in twee stappen in
+    ondersteunde toepassingen in te schakelen.
+tfa-button-cant-scan-qr = Kunt u de code niet scannen?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Voer deze geheime sleutel in in uw app voor authenticatie:
+tfa-enter-totp = Voer nu de beveiligingscode van de authenticatie-app in.
+tfa-input-enter-totp =
+    .label = Voer beveiligingscode in
+tfa-save-these-codes =
+    Bewaar deze codes voor eenmalig gebruik op een veilige plaats voor als
+    u uw mobiele apparaat niet hebt.
+tfa-enter-recovery-code =
+    .label = Voer een herstelcode in
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profiel
+profile-display-name =
+    .header = Weergavenaam
+profile-password =
+    .header = Wachtwoord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Gemaakt op { $date }
+profile-primary-email =
+    .header = Primair e-mailadres
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Beveiliging
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Toevoegen
+row-defaults-action-change = Wijzigen
+row-defaults-action-disable = Uitschakelen
+row-defaults-status = Geen
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Ingeschakeld
+rk-not-set = Niet ingesteld
+rk-action-create = Aanmaken
+rk-action-remove = Verwijderen
 
 ## Secondary email sub-section on main Settings page
 
