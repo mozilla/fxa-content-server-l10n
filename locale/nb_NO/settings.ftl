@@ -99,6 +99,20 @@ cs-description = Alt du bruker og er innlogget på.
 
 ## Avatar change page
 
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ta bilde
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Fjern bilde
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ta bildet på nytt
+avatar-page-close-button = Lukk
+avatar-page-save-button = Lagre
+avatar-page-zoom-out-button = Zoom ut
+avatar-page-zoom-in-button = Zoom inn
+avatar-page-rotate-button = Rotere
 
 ##
 
@@ -111,6 +125,7 @@ cs-description = Alt du bruker og er innlogget på.
 
 ## Delete account page
 
+delete-account-confirm-title = Du har koblet { -product-firefox-accounts } din til { -brand-mozilla }-produkter som holder deg sikker og produktiv på nettet:
 
 ##
 
