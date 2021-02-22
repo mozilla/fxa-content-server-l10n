@@ -103,7 +103,7 @@ cs-disconnect-sync-opt-prefix = מכשיר זה:
 cs-disconnect-sync-opt-suspicious = חשוד
 cs-disconnect-sync-opt-lost = אבוד או גנוב
 cs-disconnect-sync-opt-old = ישן או שהוחלף
-cs-disconnect-sync-opt-duplicate = כפיל
+cs-disconnect-sync-opt-duplicate = כפול
 cs-disconnect-sync-opt-not-say = אעדיף שלא לומר
 
 ##
