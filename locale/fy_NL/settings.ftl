@@ -142,15 +142,45 @@ header-menu-closed = Websitenavigaasjemenu
 header-back-to-top-link =
     .title = Nei boppe
 header-title = { -product-firefox-accounts }
+header-switch-title = Nei klassyk ûntwerp omskeakelje
+    .title = keppeling nei klassyk ûntwerp
+header-help = Help
 
 ## Settings Nav
 
+nav-settings = Ynstellingen
+nav-profile = Profyl
+nav-security = Befeiliging
+nav-connected-services = Ferbûne tsjinsten
+nav-paid-subs = Betelle abonneminten
+nav-email-comm = E-mailkommunikaasje
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Der is in probleem bard by it ferfangen fan jo werstelkoaden.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profylfoto
+avatar-page-add-photo = Foto tafoegje
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Foto meitsje
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Foto fuortsmite
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Foto opnij meitsje
+avatar-page-close-button = Slute
+avatar-page-save-button = Bewarje
+avatar-page-zoom-out-button = Utzoome
+avatar-page-zoom-in-button = Ynzoome
+avatar-page-rotate-button = Draaie
+avatar-page-camera-error = Koe kamera net inisjalisearje
+avatar-page-new-avatar =
+    .alt = nije profylôfbylding
 
 ##
 
