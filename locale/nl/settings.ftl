@@ -382,15 +382,51 @@ se-remove-email =
 se-refresh-email =
     .title = E-mailadres vernieuwen
 se-unverified = niet-geverifieerd
+se-resend-code =
+    Verificatie vereist. <button>Verzend de verificatiecode opnieuw</button>
+    als deze niet in uw Postvak IN of uw map Ongewenste post staat.
+# Button to make secondary email the primary
+se-make-primary = Primair maken
+se-content-note =
+    Noot: een secundair e-mailadres herstelt uw gegevens niet – daarvoor
+    hebt u een <a>herstelsleutel</a> nodig.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Authenticatie in twee stappen
+tfa-row-disabled = Authenticatie in twee stappen uitgeschakeld.
+tfa-row-enabled = Ingeschakeld
+tfa-row-not-set = Niet ingesteld
+tfa-row-action-add = Toevoegen
+tfa-row-action-disable = Uitschakelen
+tfa-row-button-refresh =
+    .title = Authenticatie in twee stappen vernieuwen
+tfa-row-cannot-refresh =
+    Sorry, er is een probleem opgetreden bij het vernieuwen van authenticatie
+    in twee stappen.
+tfa-row-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
+tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
+tfa-row-disable-modal-confirm = Uitschakelen
+tfa-row-cannot-disable = Authenticatie in twee stappen kon niet worden uitgeschakeld.
+tfa-row-change-modal-heading = Herstelcodes wijzigen?
+tfa-row-change-modal-confirm = Wijzigen
+tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Afbeelding
+avatar-add-link = Toevoegen
+avatar-change-link = Wijzigen
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Onbekende account
+auth-error-103 = Onjuist wachtwoord
+auth-error-110 = Ongeldige token
+auth-error-138 = Niet-geverifieerde sessie
+auth-error-155 = TOTP-token niet gevonden
+auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
