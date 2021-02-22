@@ -19,6 +19,15 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefox Accounts
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account =
+    { $case ->
+       *[a] חשבון Firefox
+        [the] חשבון ה־Firefox
+    }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -62,6 +71,7 @@ connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחש
 ## Connected services section
 
 cs-heading = שירותים מחוברים
+cs-cannot-refresh = הייתה בעיה ברענון רשימת השירותים המחוברים, עמך הסליחה.
 cs-refresh-button =
     .title = רענון שירותים מחוברים
 # Link text to a support page on missing or duplicate devices
@@ -81,9 +91,18 @@ cs-disconnect-sync-reason = מהי הסיבה העיקרית לניתוק מכש
 ## device
 
 cs-disconnect-sync-opt-prefix = מכשיר זה:
+cs-disconnect-sync-opt-suspicious = חשוד
+cs-disconnect-sync-opt-lost = אבוד או גנוב
+cs-disconnect-sync-opt-old = ישן או שהוחלף
+cs-disconnect-sync-opt-duplicate = כפיל
+cs-disconnect-sync-opt-not-say = אעדיף שלא לומר
 
 ##
 
+cs-disconnect-advice-confirm = בסדר, הבנתי
+cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נותק
+cs-disconnect-lost-advice-content = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת ה־{ -product-firefox-accounts } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
+cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 
 ##
 
