@@ -107,6 +107,8 @@ cs-disconnect-sync-opt-not-say = Je préfère ne rien indiquer
 
 cs-disconnect-advice-confirm = J’ai compris
 cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconnecté
+cs-disconnect-lost-advice-content = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
+cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-sign-out-button = Se déconnecter
 
 ##
@@ -153,15 +155,41 @@ nav-email-comm = Communications électroniques
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Un problème est survenu lors du remplacement de vos codes de secours.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Image de profil
+avatar-page-add-photo = Ajouter une photo
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Prendre une photo
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Supprimer la photo
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Prendre à nouveau une photo
+avatar-page-close-button = Fermer
+avatar-page-save-button = Enregistrer
+avatar-page-zoom-out-button = Diminuer la taille
+avatar-page-zoom-in-button = Augmenter la taille
+avatar-page-rotate-button = Faire pivoter
+avatar-page-camera-error = Impossible d’initialiser l’appareil photo
+avatar-page-new-avatar =
+    .alt = nouvelle image de profil
+avatar-page-file-upload-error = Un problème est survenu pendant l’envoi de votre image de profil.
+avatar-page-delete-error = Un problème est survenu lors de la suppression de votre avatar
+avatar-page-image-too-large-error = Cette image est trop volumineuse pour être envoyée.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Changement de mot de passe
 
 ##
 
