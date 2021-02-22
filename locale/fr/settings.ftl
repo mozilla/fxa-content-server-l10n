@@ -190,6 +190,9 @@ avatar-page-image-too-large-error = Cette image est trop volumineuse pour être 
 
 pw-change-header =
     .title = Changement de mot de passe
+pw-change-least-8-chars = Doit être long d’au moins 8 caractères
+pw-change-not-contain-email = Doit être différent de votre adresse électronique
+pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
 
 ##
 
