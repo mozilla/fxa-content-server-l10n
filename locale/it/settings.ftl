@@ -304,18 +304,35 @@ tfa-enabled = Autenticazione in due passaggi attivata
 
 ## Profile section
 
+porfile-heading = Profilo
+profile-display-name =
+    .header = Nome visualizzato
+profile-password =
+    .header = Password
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Data di creazione: { $date }
+profile-primary-email =
+    .header = Email principale
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Sicurezza
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Aggiungi
+row-defaults-action-disable = Disattiva
 
 ## Recovery key sub-section on main Settings page
 
+rk-action-create = Crea
+rk-action-remove = Rimuovi
+rk-key-removed = La chiave di recupero dell’account è stata rimossa.
 
 ## Secondary email sub-section on main Settings page
 
