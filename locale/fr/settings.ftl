@@ -193,12 +193,25 @@ pw-change-header =
 pw-change-least-8-chars = Doit être long d’au moins 8 caractères
 pw-change-not-contain-email = Doit être différent de votre adresse électronique
 pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
+pw-change-cancel-button = Annuler
+pw-change-save-button = Enregistrer
+pw-change-forgot-password-link = Mot de passe oublié ?
+pw-change-current-password =
+    .label = Saisissez votre mot de passe actuel
+pw-change-new-password =
+    .label = Saisissez le nouveau mot de passe
+pw-change-confirm-password =
+    .label = Confirmer le nouveau mot de passe
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Supprimer le compte
+delete-account-step-1-2 = Étape 1 sur 2
+delete-account-step-2-2 = Étape 2 sur 2
 
 ##
 
