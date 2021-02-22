@@ -103,33 +103,93 @@ cs-disconnect-advice-confirm = בסדר, הבנתי
 cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נותק
 cs-disconnect-lost-advice-content = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת ה־{ -product-firefox-accounts } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
+cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
+cs-sign-out-button = התנתקות
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = הוּרד
+datablock-copy =
+    .message = הועתק
+datablock-print =
+    .message = הודפס
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = קודים לשחזור
+get-data-trio-download =
+    .title = הורדה
+get-data-trio-copy =
+    .title = העתקה
+get-data-trio-print =
+    .title = הדפסה
 
 # HeaderLockup component
 
+header-menu-open = סגירת תפריט
+header-menu-closed = תפריט ניווט באתר
+header-back-to-top-link =
+    .title = חזרה למעלה
+header-title = { -product-firefox-accounts }
+header-switch-title = מעבר לעיצוב הקלאסי
+    .title = קישור לעיצוב הקלאסי
+header-help = עזרה
 
 ## Settings Nav
 
+nav-settings = הגדרות
+nav-profile = פרופיל
+nav-security = אבטחה
+nav-connected-services = שירותים מחוברים
+nav-paid-subs = מינויים בתשלום
+nav-email-comm = תקשורת בדוא״ל
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = אירעה שגיאה בהחלפת הקודים שלך לשחזור.
+tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו שנועדו לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = תמונת פרופיל
+avatar-page-add-photo = הוספת תמונה
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = צילום תמונה
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = הסרת תמונה
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = צילום תמונה מחדש
+avatar-page-close-button = סגירה
+avatar-page-save-button = שמירה
+avatar-page-zoom-out-button = התרחקות
+avatar-page-zoom-in-button = התקרבות
+avatar-page-rotate-button = סיבוב
+avatar-page-camera-error = לא ניתן לאתחל את המצלמה
+avatar-page-new-avatar =
+    .alt = תמונת פרופיל חדשה
+avatar-page-file-upload-error = אירעה שגיאה בהעלאת תמונת הפרופיל שלך
+avatar-page-delete-error = אירעה שגיאה במחיקת התמונה המייצגת שלך
+avatar-page-image-too-large-error = הקובץ גדול מכדי להעלותו.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = שינוי ססמה
+pw-change-stay-safe = לשמירה על בטיחותך — אין לעשות שימוש חוזר בססמאות. הססמה שלך:
+pw-change-least-8-chars = צריכה להיות באורך של 8 תווים לפחות
+pw-change-not-contain-email = אסור שתהיה כתובת הדוא״ל שלך
+pw-change-must-match = הססמה החדשה צריכה להיות תואמת לשדה אימות הססמה
 
 ##
 
