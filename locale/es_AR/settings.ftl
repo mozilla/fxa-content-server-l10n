@@ -198,6 +198,11 @@ pw-change-header =
     .title = Cambiar contraseña
 pw-change-least-8-chars = Debe tener al menos 8 caracteres.
 pw-change-not-contain-email = No puede ser tu dirección de correo electrónico
+pw-change-must-match = La nueva contraseña coincide con la confirmación
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    No debe coincidir con esta <linkExternal>lista de contraseñas
+    comunes</linkExternal>
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Te olvidaste la contraseña?
@@ -318,6 +323,8 @@ row-defaults-status = Ninguno
 
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-verify-session = Lo sentimos, hubo un problema verificando la sesión
+rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
 ## Secondary email sub-section on main Settings page
 
@@ -340,9 +347,28 @@ tfa-row-enabled = Habilitada
 tfa-row-not-set = No establecida
 tfa-row-action-add = Agregar
 tfa-row-action-disable = Deshabilitar
+tfa-row-button-refresh =
+    .title = Refrescar autenticación de dos pasos
+tfa-row-cannot-refresh =
+    Lo sentimos, hubo un problema refrescando la autenticación
+    de dos pasos.
+tfa-row-disable-modal-heading = ¿Deshabilitar autenticación de dos pasos?
+tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-cannot-disable = La autenticación de dos pasos no puede ser deshabilitada.
+tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
+tfa-row-change-modal-confirm = Cambiar
+tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Foto
+avatar-add-link = Agregar
+avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cuenta desconocida
+auth-error-103 = Contraseña incorrecta
+auth-error-110 = Token inválido
+auth-error-138 = Sesión no verificada
+auth-error-1008 = La nueva contraseña debe ser diferente
