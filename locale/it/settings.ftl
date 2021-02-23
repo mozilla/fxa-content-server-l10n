@@ -364,6 +364,8 @@ se-verify-session = È necessario verificare la sessione in corso per effettuare
 se-refresh-email =
     .title = Aggiorna l’email
 se-unverified = Non verificata
+# Button to make secondary email the primary
+se-make-primary = Rendi principale
 
 ##
 
