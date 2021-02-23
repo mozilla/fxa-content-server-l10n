@@ -89,30 +89,88 @@ cs-disconnect-sync-heading = Desconectarse de Sync
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = El dispositivo:
+cs-disconnect-sync-opt-suspicious = Es sospechoso
+cs-disconnect-sync-opt-lost = Ha sido robado o extraviado
+cs-disconnect-sync-opt-old = Es antiguo o ha sido reemplazado
+cs-disconnect-sync-opt-duplicate = Está duplicado
+cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-disconnect-advice-confirm = Ok, ¡ya caché!
+cs-disconnect-lost-advice-heading = Dispositivo perdido o robado desconectado
+cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
+cs-sign-out-button = Salir
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Descargado
+datablock-copy =
+    .message = Copiado
+datablock-print =
+    .message = Impreso
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperación
+get-data-trio-download =
+    .title = Descargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 # HeaderLockup component
 
+header-menu-open = Cerrar menú
+header-menu-closed = Menú de navegación del sitio
+header-back-to-top-link =
+    .title = Volver arriba
+header-title = { -product-firefox-accounts }
+header-switch-title = Cambiar al diseño clásico
+    .title = enlace del diseño clásico
+header-help = Ayuda
 
 ## Settings Nav
 
+nav-settings = Ajustes
+nav-profile = Perfil
+nav-security = Seguridad
+nav-connected-services = Servicios conectados
+nav-paid-subs = Suscripciones pagadas
+nav-email-comm = Comunicaciones por correo
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Hubo un problema al reemplazar tus códigos de recuperación.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Imagen de perfil
+avatar-page-add-photo = Añadir foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tomar foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Eliminar foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Retomar foto
+avatar-page-close-button = Cerrar
+avatar-page-save-button = Guardar
+avatar-page-zoom-out-button = Alejar
+avatar-page-zoom-in-button = Acercar
+avatar-page-rotate-button = Rotar
+avatar-page-camera-error = No se pudo iniciar la cámara
+avatar-page-new-avatar =
+    .alt = nueva imagen de perfil
 
 ##
 
