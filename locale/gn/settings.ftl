@@ -71,8 +71,20 @@ connect-another-find-fx-mobile =
 
 cs-heading = Mba’epuru mbojuajupyre
 cs-description = Eipurúva guive ha emoñepyrũhápe tembiapo.
+cs-cannot-refresh =
+    Rombyasy, oĩ apañuãi hekopyahúvo mba’epytyvõrã rysýi
+    juajupyre.
+cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Osẽma { $service }-gui.
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = ¿Mba’epuru oĩ’ỹva térã ikõiva?
+cs-disconnect-sync-heading = Sync-gui ñesẽ
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
