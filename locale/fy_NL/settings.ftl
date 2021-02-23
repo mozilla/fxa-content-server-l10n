@@ -260,27 +260,73 @@ display-name-input =
     .label = Fier skermnamme yn
 submit-display-name = Bewarje
 cancel-display-name = Annulearje
+display-name-update-error = Der is in probleem bard by it bywurkjen fan jo skermnamme.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Annulearje
+recovery-key-close-button = Slute
+recovery-key-continue-button = Trochgean
+recovery-key-created = Jo werstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy't jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
+recovery-key-enter-password =
+    .label = Fier wachtwurd yn
+recovery-key-page-title =
+    .title = Werstelkaai
+recovery-key-step-1 = Stap 1 fan 2
+recovery-key-step-2 = Stap 2 fan 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Der is in probleem bard by it oanmeitsjen fan dit e-mailadres.
+add-secondary-email-page-title =
+    .title = Sekundêr e-mailadres
+add-secondary-email-enter-address =
+    .label = Fier e-mailadres yn
+add-secondary-email-cancel-button = Annulearje
+add-secondary-email-save-button = Bewarje
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Der is in probleem bard by it ferstjoeren fan de ferifikaasjekoade.
+verify-secondary-email-page-title =
+    .title = Sekundêr e-mailadres
+verify-secondary-email-verification-code =
+    .label = Fier jo ferifikaasjekoade yn
+verify-secondary-email-cancel-button = Annulearje
+verify-secondary-email-verify-button = Ferifiearje
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei <strong>{ $email }</strong> ferstjoerd is.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Account fuortsmite
 
 ## Two Step Authentication
 
+tfa-title = Autentikaasje yn twa stappen
+tfa-step-1-3 = Stap 1 fan 3
+tfa-step-2-3 = Stap 2 fan 3
+tfa-step-3-3 = Stap 3 fan 3
+tfa-button-continue = Trochgean
+tfa-button-cancel = Annulearje
+tfa-button-finish = Foltôgje
+tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
+tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
+tfa-cannot-verify-code = Der is in probleem bard by it ferifiearjen fan jo werstelkoade.
+tfa-incorrect-recovery-code = Unjildige werstelkoade
+tfa-enabled = Autentikaasje yn twa stappen ynskeakele
+tfa-scan-this-code =
+    Scan dizze QR-koade mei ien fan <linkExternal>dizze 
+    autentikaasje-apps</linkExternal>.
 
 ##
 
