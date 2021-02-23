@@ -87,6 +87,7 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } oipuru Stripe ha Paypal ojehepyme’ẽ hag̃ua tekorosãme.
 
 ## payment form
 
