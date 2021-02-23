@@ -92,6 +92,9 @@ cs-disconnect-sync-heading = Disconnecter se de Sync
 cs-disconnect-sync-content =
     Tu datos de navigation remanera in tu 
     apparato ({ $device }), ma illos non se synchronisara plus con tu conto.
+cs-disconnect-sync-reason =
+    Qual es le ration principal pro disconnecter iste 
+    dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -147,19 +150,33 @@ get-data-trio-print =
 
 header-menu-open = Clauder menu
 header-menu-closed = Menu de navigation del sito
+header-back-to-top-link =
+    .title = Retornar al initio
 header-title = { -product-firefox-accounts }
+header-switch-title = Passar al designo classic
+    .title = ligamine de designo classic
+header-help = Adjuta
 
 ## Settings Nav
 
 nav-settings = Parametros
 nav-profile = Profilo
 nav-security = Securitate
+nav-connected-services = Servicios connexe
+nav-paid-subs = Subscriptiones pagate
+nav-email-comm = Communicationes email
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Il habeva un problema a replaciar tu codices de recuperation.
+tfa-replace-code-success =
+    Nove codices ha essite create. Salvar iste codices a 
+    uso unic in un loco secur: tu los besoniara pro acceder tu conto si tu non 
+    ha tu apparato mobile.
 
 ## Avatar change page
 
+avatar-page-add-photo = Adder Photo
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo-button =
