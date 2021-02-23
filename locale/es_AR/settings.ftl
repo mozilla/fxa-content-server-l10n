@@ -81,6 +81,17 @@ cs-cannot-disconnect = Cliente no encontrado, no se puede desconectar
 cs-logged-out = Desconectado de { $service }.
 cs-refresh-button =
     .title = Refrescar servicios conectados
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = ¿Ítems faltantes o duplicados?
+cs-disconnect-sync-heading = Desconectar de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Tus datos de navegación permanecerán en tu
+    dispositivo ({ $device }), pero no sé sincronizará más con tu cuenta.
 cs-disconnect-sync-reason =
     ¿Cuál es la razón para desconectar este
     dispositivo?
@@ -135,18 +146,37 @@ header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Ir arriba
 header-title = { -product-firefox-accounts }
+header-switch-title = Cambiar a diseño clásico
+    .title = enlace de diseño clásico
+header-help = Ayuda
 
 ## Settings Nav
 
+nav-settings = Configuración
+nav-profile = Perfil
+nav-security = Seguridad
+nav-connected-services = Servicios conectados
+nav-paid-subs = Suscripciones pagas
+nav-email-comm = Comunicaciones por correo electrónico
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Hubo un problema reemplazando los códigos de recuperación.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto de perfil
+avatar-page-add-photo = Añadir foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tomar foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
 avatar-page-remove-photo = Eliminar foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Volver a tomar la foto
 avatar-page-close-button = Cerrar
 avatar-page-save-button = Guardar
 avatar-page-zoom-out-button = Alejar
@@ -167,27 +197,61 @@ avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiad
 pw-change-header =
     .title = Cambiar contraseña
 pw-change-least-8-chars = Debe tener al menos 8 caracteres.
+pw-change-not-contain-email = No puede ser tu dirección de correo electrónico
+pw-change-cancel-button = Cancelar
+pw-change-save-button = Guardar
+pw-change-forgot-password-link = ¿Te olvidaste la contraseña?
+pw-change-current-password =
+    .label = Ingresar contraseña actual
+pw-change-new-password =
+    .label = Ingresar nueva contraseña
+pw-change-confirm-password =
+    .label = Confirmar nueva contraseña
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Borrar cuenta
+delete-account-step-1-2 = Paso 1 de 2
+delete-account-step-2-2 = Paso 2 de 2
+delete-account-close-button = Cerrar
+delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Ingresar contraseña
+delete-account-cancel-button = Cancelar
+delete-account-delete-button = Borrar cuenta
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Guardar
+cancel-display-name = Cancelar
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancelar
+recovery-key-close-button = Cerrar
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Ingresar contraseña
+recovery-key-page-title =
+    .title = Clave de recuperación
+recovery-key-step-1 = Paso 1 de 2
+recovery-key-step-2 = Paso 2 de 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Hubo un problema creando este correo electrónico.
+add-secondary-email-page-title =
+    .title = Correo electrónico secundario
 
 ##
 
