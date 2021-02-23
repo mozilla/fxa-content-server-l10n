@@ -60,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
+connect-another-find-fx-mobile =
+    Eheka { -brand-firefox } { -google-play }-pe ha { -app-store } térã
+    <br /><linkExternal>emondo ñemboguejy juajuha ne mba’e’okápe.</linkExternal>
 
 ##
 
@@ -67,6 +70,7 @@ connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablé
 ## Connected services section
 
 cs-heading = Mba’epuru mbojuajupyre
+cs-description = Eipurúva guive ha emoñepyrũhápe tembiapo.
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
 
