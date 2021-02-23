@@ -58,12 +58,29 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Installa { -brand-firefox } sur mobile o tabletta
+connect-another-find-fx-mobile =
+    Trova { -brand-firefox } in { -google-play } e { -app-store } o
+    <br /><linkExternal>invia un ligamine de discargamento a tu apparato.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Servicios connexe
+cs-description = Toto illos que tu usa e cuje tu es connexe.
+cs-cannot-refresh =
+    Desolate, il habeva un problema a refrescar le lista de servicios
+    connexe.
+cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Disconnexe de { $servicio }.
+cs-refresh-button =
+    .title = Actualisar le servicios connexe
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos mancante o duplicate?
 cs-disconnect-sync-heading = Disconnecter se de Sync
@@ -79,6 +96,7 @@ cs-disconnect-sync-content =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Le apparato es:
 cs-disconnect-sync-opt-suspicious = Suspecte
 cs-disconnect-sync-opt-lost = Perdite o robate
 cs-disconnect-sync-opt-old = Vetule o replaciate
@@ -88,6 +106,19 @@ cs-disconnect-sync-opt-not-say = Prefere non dicer
 ##
 
 cs-disconnect-advice-confirm = Ok, io comprende
+cs-disconnect-lost-advice-heading = Apparato perdite o robate disconnexe
+cs-disconnect-lost-advice-content =
+    Pois que tu dispositivo ha essite perdite o robate, pro
+    mantener tu informationes secur, tu debe cambiar contrasigno de tu { -product-firefox-accounts }
+    in le parametros de tu conto.
+    Tu deberea alsi cercar informationes del
+    fabricante de tu dispositivo re cancellar tu datos a distantia.
+cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnexe
+cs-disconnect-suspicious-advice-content =
+    Si le apparato disconnexe es in effecto
+    suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de
+    { -product-firefox-account } in tu parametros de conto. Tu debe alsi cambiar ulle altere
+    contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
 
 ##
@@ -115,6 +146,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Clauder menu
+header-menu-closed = Menu de navigation del sito
 header-title = { -product-firefox-accounts }
 
 ## Settings Nav
