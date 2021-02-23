@@ -159,12 +159,43 @@ header-help = Agid
 
 ## Settings Nav
 
+nav-settings = Parameters
+nav-profile = Profil
+nav-security = Segirezza
+nav-connected-services = Servetschs connectads
+nav-paid-subs = Abunaments che custan
+nav-email-comm = Communicaziun via e-mail
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Igl ha dà in problem cun remplazzar tes codes da recuperaziun.
+tfa-replace-code-success =
+    Novs codes èn vegnids creads. Memorisescha quests codes
+    a diever unic en in lieu segir – ti als vegns a duvrar per acceder a tes conto sche ti n'has
+    betg tes apparat mobil.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Maletg da profil
+avatar-page-add-photo = Agiuntar ina foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Far ina fotografia
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Allontanar la foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Far ina nova foto
+avatar-page-close-button = Serrar
+avatar-page-save-button = Memorisar
+avatar-page-zoom-out-button = Empitschnir
+avatar-page-zoom-in-button = Engrondir
+avatar-page-rotate-button = Rotar
+avatar-page-camera-error = Impussibel dad inizialisar la camera
+avatar-page-new-avatar =
+    .alt = nov maletg da profil
 
 ##
 
