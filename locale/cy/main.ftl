@@ -103,8 +103,8 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
 ## payment legal blurb
 
-payment-legal-copy = Mae { -brand-name-mozilla } yn defnyddio Stripe ar gyfer prosesu taliadau diogel.
-payment-legal-link = Gweld <a>polisi preifatrwydd Stripe</a>.
+payment-legal-copy-stripe-paypal = Mae { -brand-name-mozilla } yn defnyddio Stripe a Paypal ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-paypal = Darllenwch bolisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -414,6 +414,9 @@ sub-billing-update-success = Diweddarwyd eich manylion bilio'n llwyddiannus
 ## subscription create
 
 sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
+pay-with-heading-other = Dewiswch yr opsiwn talu
+pay-with-heading-card-or = Neu dalu gyda cherdyn
+pay-with-heading-card-only = Talu gyda cherdyn
 
 ## plan-details
 

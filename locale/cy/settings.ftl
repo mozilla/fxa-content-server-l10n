@@ -110,8 +110,8 @@ cs-disconnect-sync-opt-not-say = Gwell peidio dweud
 cs-disconnect-advice-confirm = Iawn
 cs-disconnect-lost-advice-heading = Dyfais coll neu wedi'i dwyn wedi'i datgysylltu
 cs-disconnect-lost-advice-content =
-    Gan bod eich dyfais wedi cael ei cholli
-    neu ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
+    Gan bod eich dyfais wedi cael ei cholli neu
+    ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-accounts }
     yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
     gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
