@@ -93,6 +93,9 @@ cs-disconnect-sync-heading = Sync-gui ñesẽ
 cs-disconnect-sync-content =
     Ne kundahára mba’ekuaarã opytáta ne
     mba’e’okápe, ({ $device }), hákatu noñembojuehevéima ne mba’ete ndive.
+cs-disconnect-sync-reason =
+    ¿Mba’érepa resẽse añetehápe ko
+    mba’e’okágui?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -107,6 +110,8 @@ cs-disconnect-sync-opt-not-say = Nda’eséinte
 ##
 
 cs-disconnect-advice-confirm = Oĩma, aikumbýma
+cs-disconnect-lost-advice-heading = Pe mba’e’oka kañymby térã mondapyre ojepe’áma
+cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
 cs-sign-out-button = Emboty tembiapo
 
 ##
@@ -123,6 +128,9 @@ datablock-print =
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Ayvu jeguerujeyrã
+get-data-trio-download =
+    .title = Mboguejy
 get-data-trio-copy =
     .title = Monguatia
 get-data-trio-print =
@@ -131,6 +139,9 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Emboty poravorã
+header-menu-closed = Tenda kundahára poravorã
+header-back-to-top-link =
+    .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
 header-help = Pytyvõ
 
