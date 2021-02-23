@@ -194,6 +194,7 @@ pw-change-header =
 pw-change-stay-safe = Rimani al sicuro: non riutilizzare le password. La tua password:
 pw-change-least-8-chars = Deve contenere almeno 8 caratteri
 pw-change-not-contain-email = Deve essere diversa dal tuo indirizzo email
+pw-change-must-match = La nuova password corrisponde alla conferma
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Non deve essere presente in questa <linkExternal>lista di password
@@ -203,6 +204,10 @@ pw-change-save-button = Salva
 pw-change-forgot-password-link = Password dimenticata?
 pw-change-current-password =
     .label = Inserire la password attuale
+pw-change-new-password =
+    .label = Inserire una nuova password
+pw-change-confirm-password =
+    .label = Conferma la nuova password
 
 ##
 
