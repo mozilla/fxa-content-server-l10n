@@ -42,7 +42,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = ‏{ $title } | ‏{ -product-firefox-accounts }
 app-footer-mozilla-logo-label = הסמל של { -brand-mozilla }
 app-footer-privacy-notice = הצהרת הפרטיות של האתר
@@ -110,7 +110,7 @@ cs-disconnect-sync-opt-not-say = אעדיף שלא לומר
 
 cs-disconnect-advice-confirm = בסדר, הבנתי
 cs-disconnect-lost-advice-heading = המכשיר האבוד או הגנוב נותק
-cs-disconnect-lost-advice-content = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
+cs-disconnect-lost-advice-content-2 = מכיוון שהמכשיר שלך אבד או נגנב, על מנת לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. כדאי גם לחפש מידע מאת יצרן המכשיר שלך לגבי מחיקת הנתונים שלך מרחוק.
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-firefox-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
@@ -161,6 +161,7 @@ nav-email-comm = תקשורת בדוא״ל
 
 tfa-replace-code-error = אירעה שגיאה בהחלפת הקודים שלך לשחזור.
 tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
+tfa-replace-code-success-alert = הקודים לשחזור החשבון עודכנו.
 
 ## Avatar change page
 
@@ -184,8 +185,8 @@ avatar-page-rotate-button = סיבוב
 avatar-page-camera-error = לא ניתן לאתחל את המצלמה
 avatar-page-new-avatar =
     .alt = תמונת פרופיל חדשה
-avatar-page-file-upload-error = אירעה שגיאה בהעלאת תמונת הפרופיל שלך
-avatar-page-delete-error = אירעה שגיאה במחיקת התמונה המייצגת שלך
+avatar-page-file-upload-error-2 = הייתה בעיה בהעלאת תמונת הפרופיל שלך.
+avatar-page-delete-error-2 = הייתה בעיה במחיקת תמונת הפרופיל שלך.
 avatar-page-image-too-large-error = הקובץ גדול מכדי להעלותו.
 
 ##
@@ -210,6 +211,7 @@ pw-change-new-password =
     .label = נא להכניס ססמה חדשה
 pw-change-confirm-password =
     .label = נא לאמת את הססמה החדשה
+pw-change-success-alert = הססמה עודכנה.
 
 ##
 
@@ -220,7 +222,7 @@ delete-account-header =
     .title = מחיקת חשבון
 delete-account-step-1-2 = שלב 1 מתוך 2
 delete-account-step-2-2 = שלב 2 מתוך 2
-delete-account-confirm-title = חיברת את { -product-firefox-account(case: "the") } שלך למוצרי { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
+delete-account-confirm-title-2 = חיברת את { -product-firefox-account(case: "the") } שלך למוצרי { -brand-mozilla } השומרים על הבטיחות והפרודוקטיביות שלך ברשת:
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
 delete-account-chk-box-1 =
     .label = כל המנויים בתשלום שיש לך יבוטלו
@@ -242,11 +244,14 @@ delete-account-delete-button = מחיקת חשבון
 
 ## Display name page
 
+display-name-page-title =
+    .title = שם תצוגה
 display-name-input =
     .label = נא להכניס שם תצוגה
 submit-display-name = שמירה
 cancel-display-name = ביטול
 display-name-update-error = אירעה שגיאה בעדכון שם התצוגה שלך.
+display-name-success-alert = שם התצוגה עודכן.
 
 ##
 
@@ -263,6 +268,7 @@ recovery-key-page-title =
     .title = מפתח שחזור
 recovery-key-step-1 = שלב 1 מתוך 2
 recovery-key-step-2 = שלב 2 מתוך 2
+recovery-key-success-alert = מפתח שחזור נוצר.
 
 ## Add secondary email page
 
@@ -290,6 +296,10 @@ verify-secondary-email-verify-button = אימות
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = נא להכניס את קוד האימות שנשלח אל <strong>{ $email }</strong> תוך 5 דקות.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = הכתובת { $email } נוספה בהצלחה.
 
 ##
 
@@ -369,7 +379,7 @@ rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור 
 rk-refresh-key = רענון מפתח שחזור
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
 rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
-rk-cannot-verify-session = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה
+rk-cannot-verify-session-2 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה.
 rk-remove-modal-heading = להסיר את מפתח השחזור?
 rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
 
@@ -420,7 +430,7 @@ tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
-tfa-row-cannot-verify-session = אירעה שגיאה באימות ההפעלה שלך, עמך הסליחה
+tfa-row-cannot-verify-session-2 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה.
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
 tfa-row-disable-modal-explain = לא יהיה ניתן לבטל פעולה זו. יש לך גם את האפשרות <linkExternal>להחליף את הקודים שלך לשחזור</linkExternal>.
