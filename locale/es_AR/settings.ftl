@@ -222,6 +222,9 @@ delete-account-header =
     .title = Borrar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title = Conéctate tu { -product-firefox-accounts } a productos de { -brand-mozilla } que te mantienen seguro y productivo en la web:
+delete-account-chk-box-4 =
+    .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org será borrado
 delete-account-close-button = Cerrar
 delete-account-continue-button = Continuar
 delete-account-password-input =
@@ -289,6 +292,12 @@ tfa-step-3-3 = Paso 3 de 3
 tfa-button-continue = Continuar
 tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
+tfa-incorrect-totp = Código de autenticación de dos pasos incorrecto
+tfa-cannot-retrieve-code = Hubo un problema recuperando el código.
+tfa-cannot-verify-code = Hubo un problema verificando el código de recuperación.
+tfa-incorrect-recovery-code = Código de recuperación incorrecto
+tfa-enabled = Autenticación de dos pasos activada
+tfa-button-cant-scan-qr = ¿No se puede escanear el código?
 
 ##
 
