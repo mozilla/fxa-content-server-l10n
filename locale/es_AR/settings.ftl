@@ -70,7 +70,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servicios conectados
-cs-description = Todo lo que está usando y en lo que inició sesión.
+cs-description = Todo lo que estás usando y en lo que iniciaste la sesión.
 cs-cannot-refresh =
     Lo sentimos, hubo un problema refrescando la lista de servicios
     conectados.
@@ -119,9 +119,9 @@ cs-disconnect-lost-advice-content =
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
 cs-disconnect-suspicious-advice-content =
     Si el dispositivo desconectado es realmente
-    sospechoso, para mantener su información segura, debe cambiar la contraseña de { -product-firefox-account }
-    en la configuración de la cuenta. También debe cambiar cualquier otra
-    contraseña que guardó en { -brand-firefox } ingresando  about:logins en la barra de direcciones.
+    sospechoso, para mantener tu información segura, tenés que cambiar la contraseña de { -product-firefox-account }
+    en la configuración de la cuenta. También tenés que cambiar cualquier otra
+    contraseña que guardaste en { -brand-firefox } ingresando  about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar la sesión
 
 ##
@@ -170,8 +170,8 @@ nav-email-comm = Comunicaciones por correo electrónico
 
 tfa-replace-code-error = Hubo un problema reemplazando los códigos de recuperación.
 tfa-replace-code-success =
-    Se crearon códigos nuevos. Guarde estos códigos de uso único
-    en un lugar seguro, los necesitará para acceder a su cuenta si no tiene su dispositivo móvil.
+    Se crearon códigos nuevos. Guardá estos códigos de uso único
+    en un lugar seguro, los necesitarás para acceder a tu cuenta si no tenés tu dispositivo móvil.
 
 ## Avatar change page
 
@@ -206,7 +206,7 @@ avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiad
 
 pw-change-header =
     .title = Cambiar contraseña
-pw-change-stay-safe = Manténgase seguro, no reutilice las contraseñas. Su contraseña:
+pw-change-stay-safe = Mantenete seguro, no reutilices las contraseñas. Tu contraseña:
 pw-change-least-8-chars = Debe tener al menos 8 caracteres.
 pw-change-not-contain-email = No puede ser tu dirección de correo electrónico
 pw-change-must-match = La nueva contraseña coincide con la confirmación
@@ -234,11 +234,11 @@ delete-account-header =
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
 delete-account-confirm-title = Conéctate tu { -product-firefox-accounts } a productos de { -brand-mozilla } que te mantienen seguro y productivo en la web:
-delete-account-acknowledge = Ten en cuenta que al eliminar su cuenta:
+delete-account-acknowledge = Tené en cuenta que al eliminar tu cuenta:
 delete-account-chk-box-1 =
-    .label = Se cancelará cualquier suscripción que haya pagado
+    .label = Se cancelará cualquier suscripción que hayas pagado
 delete-account-chk-box-2 =
-    .label = Puede perder información y funciones guardadas en los productos de { -brand-mozilla }
+    .label = Podés perder información y funciones guardadas en los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Es posible que la reactivación con este correo electrónico no restaure la información guardada
 delete-account-chk-box-4 =
@@ -255,8 +255,11 @@ delete-account-delete-button = Borrar cuenta
 
 ## Display name page
 
+display-name-input =
+    .label = Ingresar el nombre para mostrar
 submit-display-name = Guardar
 cancel-display-name = Cancelar
+display-name-update-error = Hubo un problema al actualizar tu nombre para mostrar.
 
 ##
 
@@ -266,6 +269,7 @@ cancel-display-name = Cancelar
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created = Se creó tu clave de recuperación. Asegurate de guardar la clave en un lugar seguro que puedas encontrar más tarde  ya que la necesitarás para recuperar el acceso a tus datos si olvidás tu contraseña.
 recovery-key-enter-password =
     .label = Ingresar contraseña
 recovery-key-page-title =
@@ -295,6 +299,10 @@ verify-secondary-email-verification-code =
     .label = Ingresar código de verificación
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Ingresá el código de verificación que se envió a <strong> dentar de los próximos 5 minutos.
 
 ##
 
@@ -315,7 +323,27 @@ tfa-cannot-retrieve-code = Hubo un problema recuperando el código.
 tfa-cannot-verify-code = Hubo un problema verificando el código de recuperación.
 tfa-incorrect-recovery-code = Código de recuperación incorrecto
 tfa-enabled = Autenticación de dos pasos activada
+tfa-scan-this-code =
+    Escaneá este código QR usando uno de <linkExternal> estas
+    aplicaciones de autenticación </linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Usá el código { $secret } para configurar la autenticación en dos pasos en las
+    aplicaciones compatibles.
 tfa-button-cant-scan-qr = ¿No se puede escanear el código?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Ingresá esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp = Ahora ingresá el código de seguridad de la aplicación de autenticación.
+tfa-input-enter-totp =
+    .label = Ingresá el código de seguridad
+tfa-save-these-codes = Guardá estos códigos de uso único en un lugar seguro para cuando no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm =
+    Ingresá uno de tus códigos de recuperación ahora para
+    confirmar que lo guardaste Necesitarás un código si perdés tu dispositivo y querés acceder a tu cuenta.
+tfa-enter-recovery-code =
+    .label = Ingresá un código de recuperación
 
 ##
 
@@ -323,6 +351,8 @@ tfa-button-cant-scan-qr = ¿No se puede escanear el código?
 ## Profile section
 
 porfile-heading = Perfil
+profile-display-name =
+    .header = Nombre para mostrar
 profile-password =
     .header = Contraseña
 # This is a string that shows when the user's password was created.
@@ -348,8 +378,12 @@ row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Habilitado
+rk-not-set = No establecida
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-refresh = Disculpá, hubo un problema al refrescar la clave de recuperación.
+rk-key-removed = Se eliminó la clave de recuperación de la cuenta
 rk-cannot-verify-session = Lo sentimos, hubo un problema verificando la sesión
 rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
