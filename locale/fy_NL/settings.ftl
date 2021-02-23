@@ -327,27 +327,81 @@ tfa-enabled = Autentikaasje yn twa stappen ynskeakele
 tfa-scan-this-code =
     Scan dizze QR-koade mei ien fan <linkExternal>dizze 
     autentikaasje-apps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Brûk de koade { $secret } om autentikaasje yn twa stappen yn
+    stipe tapassingen yn te skeakeljen.
+tfa-button-cant-scan-qr = Kinne jo de koade net scanne?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Fier dizze geheime kaai yn yn jo app foar autentikaasje:
+tfa-enter-totp = Fier no de befeiligingskoade fan de ferifikaasje-app yn.
+tfa-input-enter-totp =
+    .label = Fier befeiligingskoade yn
+tfa-save-these-codes =
+    Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as
+    jo jo mobile apparaat net hawwe.
+tfa-enter-code-to-confirm =
+    Fier no ien fan jo werstelkoaden yn om te
+    befêstigjen dat jo dizze bewarre hawwe. Jo hawwe ien koade nedich as jo jo apparaat kwytreitsje en tagong
+    ta jo account krije wolle.
+tfa-enter-recovery-code =
+    .label = Fier in werstelkoade yn
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profyl
+profile-display-name =
+    .header = Werjeftenamme
+profile-password =
+    .header = Wachtwurd
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Makke op { $date }
+profile-primary-email =
+    .header = Primêr e-mailadres
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Befeiliging
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Tafoegje
+row-defaults-action-change = Wizigje
+row-defaults-action-disable = Utskeakelje
+row-defaults-status = Gjin
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Ynskeakele
+rk-not-set = Net ynsteld
+rk-action-create = Oanmeitsje
+rk-action-remove = Fuortsmite
+rk-cannot-refresh = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-key-removed = Kaai foar accountwerstel fuortsmiten.
+rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
+rk-refresh-key = Werstelkaai fernije
+rk-content-explain = Jo gegevens werstelle wannear't jo jo wachtwurd ferjitte.
+rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
+rk-cannot-verify-session = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+rk-remove-modal-heading = Werstelkaai fuortsmite?
+rk-remove-modal-content =
+    As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
+    werstelkaai net brûke om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundêr e-mailadres
+    .header = Sekundêr e-mailadres
 
 ##
 
