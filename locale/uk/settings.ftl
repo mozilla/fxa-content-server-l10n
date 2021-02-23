@@ -197,6 +197,8 @@ avatar-page-rotate-button = Обернути
 avatar-page-camera-error = Не вдалося ініціалізувати камеру
 avatar-page-new-avatar =
     .alt = нове зображення профілю
+avatar-page-file-upload-error-2 = Виникла проблема під час вивантаження зображення профілю.
+avatar-page-delete-error-2 = Виникла проблема під час видалення зображення профілю.
 avatar-page-image-too-large-error = Розмір файлу зображення завеликий для завантаження.
 
 ##
@@ -223,6 +225,7 @@ pw-change-new-password =
     .label = Введіть новий пароль
 pw-change-confirm-password =
     .label = Підтвердьте новий пароль
+pw-change-success-alert = Пароль оновлено.
 
 ##
 
@@ -233,6 +236,7 @@ delete-account-header =
     .title = Видалити обліковий запис
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
+delete-account-confirm-title-2 = Ви під'єднали свій { -product-firefox-account } до продуктів { -brand-mozilla }, які забезпечують для вас захист і продуктивність в Мережі:
 delete-account-acknowledge = Будь ласка, підтвердьте, що при видаленні свого облікового запису:
 delete-account-chk-box-1 =
     .label = Будь-які дійсні передплати будуть скасовані
@@ -254,11 +258,14 @@ delete-account-delete-button = Видалити обліковий запис
 
 ## Display name page
 
+display-name-page-title =
+    .title = Показуване ім’я
 display-name-input =
     .label = Введіть ім'я для показу
 submit-display-name = Зберегти
 cancel-display-name = Скасувати
 display-name-update-error = Виникла проблема при оновленні вашого імені.
+display-name-success-alert = Показуване ім’я оновлено.
 
 ##
 
@@ -275,6 +282,7 @@ recovery-key-page-title =
     .title = Ключ відновлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
+recovery-key-success-alert = Ключ відновлення створено.
 
 ## Add secondary email page
 
@@ -302,6 +310,10 @@ verify-secondary-email-verify-button = Підтвердити
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Введіть код підтвердження, надісланий на <strong>{ $email }</strong> упродовж 5 хвилин.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } успішно додано.
 
 ##
 
@@ -390,6 +402,7 @@ rk-cannot-remove-key = Не вдається видалити ключ відн�
 rk-refresh-key = Оновити ключ відновлення
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
+rk-cannot-verify-session-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема.
 rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
@@ -450,6 +463,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запобігайте увійти комусь іншому, вимагаючи
     унікальний код, який є тільки у вас.
+tfa-row-cannot-verify-session-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема.
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
