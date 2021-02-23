@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logotyp
 app-footer-privacy-notice = Webbplatsens sekretesspolicy
@@ -111,11 +111,6 @@ cs-disconnect-sync-opt-not-say = Vill helst inte berätta
 
 cs-disconnect-advice-confirm = Ok, jag förstår
 cs-disconnect-lost-advice-heading = Förlorad eller stulen enhet frånkopplad
-cs-disconnect-lost-advice-content =
-    Eftersom din enhet har tappats bort eller
-    stulits bör du ändra lösenordet för { -product-firefox-accounts } i dina kontoinställningar
-    för att skydda din information. Du bör också leta efter information från
-    enhetstillverkaren om hur du raderar dina data på distans.
 cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
 cs-disconnect-suspicious-advice-content =
     Om den frånkopplade enheten verkligen är
@@ -196,8 +191,6 @@ avatar-page-rotate-button = Rotera
 avatar-page-camera-error = Det gick inte att initiera kameran
 avatar-page-new-avatar =
     .alt = ny profilbild
-avatar-page-file-upload-error = Det gick inte att ladda upp din profilbild
-avatar-page-delete-error = Det gick inte att ta bort din avatar
 avatar-page-image-too-large-error = Bildens filstorlek är för stor för att kunna laddas upp.
 
 ##
@@ -234,7 +227,6 @@ delete-account-header =
     .title = Ta bort konto
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-delete-account-confirm-title = Du har kopplat ditt { -product-firefox-accounts } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
 delete-account-chk-box-1 =
     .label = Alla betalda prenumerationer du har kommer att annulleras
@@ -256,11 +248,14 @@ delete-account-delete-button = Ta bort konto
 
 ## Display name page
 
+display-name-page-title =
+    .title = Visningsnamn
 display-name-input =
     .label = Ange visningsnamn
 submit-display-name = Spara
 cancel-display-name = Avbryt
 display-name-update-error = Det gick inte att uppdatera ditt visningsnamn.
+display-name-success-alert = Visningsnamn uppdaterat.
 
 ##
 
@@ -277,6 +272,7 @@ recovery-key-page-title =
     .title = Återställningsnyckel
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
+recovery-key-success-alert = Återställningsnyckel skapad.
 
 ## Add secondary email page
 
@@ -304,6 +300,10 @@ verify-secondary-email-verify-button = Verifiera
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Ange verifieringskoden som skickades till <strong>{ $email }</strong> inom fem minuter.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } har lagts till.
 
 ##
 
@@ -392,7 +392,7 @@ rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
 rk-refresh-key = Uppdatera återställningsnyckel
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
-rk-cannot-verify-session = Tyvärr uppstod ett problem med att verifiera din session
+rk-cannot-verify-session-2 = Tyvärr uppstod ett problem med att verifiera din session.
 rk-remove-modal-heading = Ta bort återställningsnyckel?
 rk-remove-modal-content =
     Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
@@ -453,7 +453,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
-tfa-row-cannot-verify-session = Tyvärr uppstod ett problem med att verifiera din session
+tfa-row-cannot-verify-session-2 = Tyvärr uppstod ett problem med att verifiera din session.
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain =
