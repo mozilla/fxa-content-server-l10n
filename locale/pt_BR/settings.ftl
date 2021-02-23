@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logotipo da { -brand-mozilla }
 app-footer-privacy-notice = Aviso de privacidade do site
@@ -103,7 +103,7 @@ cs-disconnect-sync-opt-not-say = Prefiro não dizer
 
 cs-disconnect-advice-confirm = Ok, entendi
 cs-disconnect-lost-advice-heading = Desconectado dispositivo perdido ou roubado
-cs-disconnect-lost-advice-content = Como seu dispositivo foi perdido ou roubado, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-accounts } nas configurações da conta. Também deve buscar informações do fabricante do dispositivo sobre como apagar seus dados remotamente.
+cs-disconnect-lost-advice-content-2 = Como seu dispositivo foi perdido ou roubado, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve buscar informações do fabricante do dispositivo sobre como apagar seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Desconectado dispositivo suspeito
 cs-disconnect-suspicious-advice-content = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-firefox-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
 cs-sign-out-button = Sair
@@ -154,6 +154,7 @@ nav-email-comm = Comunicações por email
 
 tfa-replace-code-error = Houve um problema ao substituir seus códigos de recuperação.
 tfa-replace-code-success = Novos códigos foram criados. Guarde esses códigos de uso único em um lugar seguro. Você precisará deles para acessar sua conta, se não estiver com seu dispositivo móvel.
+tfa-replace-code-success-alert = Códigos de recuperação da conta atualizados.
 
 ## Avatar change page
 
@@ -177,8 +178,8 @@ avatar-page-rotate-button = Girar
 avatar-page-camera-error = Não foi possível iniciar a câmera
 avatar-page-new-avatar =
     .alt = nova foto de perfil
-avatar-page-file-upload-error = Houve um problema ao enviar sua foto de perfil
-avatar-page-delete-error = Houve um problema ao excluir seu avatar
+avatar-page-file-upload-error-2 = Houve um problema ao enviar sua foto de perfil.
+avatar-page-delete-error-2 = Houve um problema ao excluir sua foto de perfil.
 avatar-page-image-too-large-error = O arquivo da imagem é grande demais para ser enviado.
 
 ##
@@ -203,6 +204,7 @@ pw-change-new-password =
     .label = Digite a nova senha
 pw-change-confirm-password =
     .label = Confirme a nova senha
+pw-change-success-alert = Senha atualizada.
 
 ##
 
@@ -213,7 +215,7 @@ delete-account-header =
     .title = Excluir conta
 delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
-delete-account-confirm-title = Você conectou sua { -product-firefox-accounts } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
+delete-account-confirm-title-2 = Você conectou sua { -product-firefox-account } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
 delete-account-acknowledge = Esteja ciente que ao excluir sua conta:
 delete-account-chk-box-1 =
     .label = Qualquer assinatura paga que você tenha será cancelada
@@ -235,11 +237,14 @@ delete-account-delete-button = Excluir conta
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nome de exibição
 display-name-input =
     .label = Digite o nome de exibição
 submit-display-name = Salvar
 cancel-display-name = Cancelar
 display-name-update-error = Houve um problema ao atualizar seu nome de exibição.
+display-name-success-alert = Nome de exibição atualizado.
 
 ##
 
@@ -256,6 +261,7 @@ recovery-key-page-title =
     .title = Chave de recuperação
 recovery-key-step-1 = Etapa 1 de 2
 recovery-key-step-2 = Etapa 2 de 2
+recovery-key-success-alert = Chave de recuperação criada.
 
 ## Add secondary email page
 
@@ -283,6 +289,10 @@ verify-secondary-email-verify-button = Validar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Digite o código de verificação que foi enviado para <strong>{ $email }</strong> em até 5 minutos.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } adicionado com sucesso.
 
 ##
 
@@ -362,7 +372,7 @@ rk-cannot-remove-key = Não foi possível remover a chave de recuperação da su
 rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaure suas informações quando você esquecer sua senha.
 rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
-rk-cannot-verify-session = Desculpe, houve um problema ao verificar sua sessão
+rk-cannot-verify-session-2 = Desculpe, houve um problema ao verificar sua sessão.
 rk-remove-modal-heading = Remover chave de recuperação?
 rk-remove-modal-content = Caso você redefina sua senha, você não poderá usar sua chave de recuperação para acessar seus dados. Esta ação não pode ser desfeita.
 
@@ -413,7 +423,7 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigindo um código único ao qual só você tem acesso.
-tfa-row-cannot-verify-session = Desculpe, houve um problema ao verificar sua sessão.
+tfa-row-cannot-verify-session-2 = Desculpe, houve um problema ao verificar sua sessão.
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
 tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
