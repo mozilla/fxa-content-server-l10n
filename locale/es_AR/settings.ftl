@@ -252,24 +252,45 @@ recovery-key-step-2 = Paso 2 de 2
 add-secondary-email-error = Hubo un problema creando este correo electrónico.
 add-secondary-email-page-title =
     .title = Correo electrónico secundario
+add-secondary-email-enter-address =
+    .label = Ingresar dirección de correo electrónico
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Guardar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Hubo un problema enviando el código de verificación.
+verify-secondary-email-page-title =
+    .title = Correo electrónico secundario
+verify-secondary-email-verification-code =
+    .label = Ingresar código de verificación
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Verificar
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Borrar cuenta
 
 ## Two Step Authentication
 
+tfa-title = Autenticación de dos pasos
+tfa-step-1-3 = Paso 1 de 3
+tfa-step-2-3 = Paso 2 de 3
+tfa-step-3-3 = Paso 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Finalizar
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Perfil
 
 ##
 
