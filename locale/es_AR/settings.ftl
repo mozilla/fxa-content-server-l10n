@@ -291,27 +291,55 @@ tfa-button-finish = Finalizar
 ## Profile section
 
 porfile-heading = Perfil
+profile-password =
+    .header = Contraseña
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Creado el { $date }
+profile-primary-email =
+    .header = Correo electrónico principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Seguridad
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Agregar
+row-defaults-action-change = Cambiar
+row-defaults-action-disable = Deshabilitar
+row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-action-create = Crear
+rk-action-remove = Eliminar
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Correo electrónico secundario
+    .header = Correo electrónico secundario
+# Button to remove the secondary email
+se-remove-email =
+    .title = Eliminar correo electrónico
+se-unverified = no verificado
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticación de dos pasos
+tfa-row-disabled = Autenticación de dos pasos desactivada.
+tfa-row-enabled = Habilitada
+tfa-row-not-set = No establecida
+tfa-row-action-add = Agregar
+tfa-row-action-disable = Deshabilitar
 
 ## Avatar sub-section on main Settings page
 
