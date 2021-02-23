@@ -70,6 +70,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servicios conectados
+cs-description = Todo lo que está usando y en lo que inició sesión.
 cs-cannot-refresh =
     Lo sentimos, hubo un problema refrescando la lista de servicios
     conectados.
@@ -116,6 +117,12 @@ cs-disconnect-lost-advice-content =
     en la configuración de tu cuenta. También deberías buscar información del
     fabricante del dispositivo sobre como borrar los datos de forma remota.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
+cs-disconnect-suspicious-advice-content =
+    Si el dispositivo desconectado es realmente
+    sospechoso, para mantener su información segura, debe cambiar la contraseña de { -product-firefox-account }
+    en la configuración de la cuenta. También debe cambiar cualquier otra
+    contraseña que guardó en { -brand-firefox } ingresando  about:logins en la barra de direcciones.
+cs-sign-out-button = Cerrar la sesión
 
 ##
 
@@ -162,6 +169,9 @@ nav-email-comm = Comunicaciones por correo electrónico
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Hubo un problema reemplazando los códigos de recuperación.
+tfa-replace-code-success =
+    Se crearon códigos nuevos. Guarde estos códigos de uso único
+    en un lugar seguro, los necesitará para acceder a su cuenta si no tiene su dispositivo móvil.
 
 ## Avatar change page
 
@@ -196,6 +206,7 @@ avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiad
 
 pw-change-header =
     .title = Cambiar contraseña
+pw-change-stay-safe = Manténgase seguro, no reutilice las contraseñas. Su contraseña:
 pw-change-least-8-chars = Debe tener al menos 8 caracteres.
 pw-change-not-contain-email = No puede ser tu dirección de correo electrónico
 pw-change-must-match = La nueva contraseña coincide con la confirmación
@@ -223,6 +234,13 @@ delete-account-header =
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
 delete-account-confirm-title = Conéctate tu { -product-firefox-accounts } a productos de { -brand-mozilla } que te mantienen seguro y productivo en la web:
+delete-account-acknowledge = Ten en cuenta que al eliminar su cuenta:
+delete-account-chk-box-1 =
+    .label = Se cancelará cualquier suscripción que haya pagado
+delete-account-chk-box-2 =
+    .label = Puede perder información y funciones guardadas en los productos de { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Es posible que la reactivación con este correo electrónico no restaure la información guardada
 delete-account-chk-box-4 =
     .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org será borrado
 delete-account-close-button = Cerrar
