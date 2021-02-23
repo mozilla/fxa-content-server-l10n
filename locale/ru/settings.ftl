@@ -28,7 +28,11 @@
     }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Аккаунт Firefox
+-product-firefox-account =
+    { $case ->
+       *[singular_nominative] Аккаунт Firefox
+        [singular_genitive] Аккаунта Firefox
+    }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -43,7 +47,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Логотип { -brand-mozilla }
 app-footer-privacy-notice = Уведомление о конфиденциальности веб-сайта
@@ -116,9 +120,9 @@ cs-disconnect-sync-opt-not-say = Не хочу говорить
 
 cs-disconnect-advice-confirm = Ок, понятно
 cs-disconnect-lost-advice-heading = Утерянное или украденное устройство отсоединено
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Поскольку ваше устройство было утеряно или украдено,
-    для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-accounts(case: "singular_genitive") }
+    для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "singular_genitive") }
     в настройках. Вам также следует изучить информацию производителя 
     своего устройства об удалённом стирании своих данных.
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
@@ -178,6 +182,7 @@ tfa-replace-code-success =
     Созданы новые коды. Храните эти одноразовые коды
     в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
     если у вас не будет доступа к мобильному устройству.
+tfa-replace-code-success-alert = Коды восстановления аккаунта обновлены.
 
 ## Avatar change page
 
@@ -201,8 +206,8 @@ avatar-page-rotate-button = Повернуть
 avatar-page-camera-error = Не удалось инициализировать камеру
 avatar-page-new-avatar =
     .alt = новое фото профиля
-avatar-page-file-upload-error = При выгрузке фото вашего профиля произошла ошибка
-avatar-page-delete-error = При удалении вашего аватара произошла ошибка
+avatar-page-file-upload-error-2 = При выгрузке фото вашего профиля произошла ошибка.
+avatar-page-delete-error-2 = При удалении фото вашего профиля произошла ошибка.
 avatar-page-image-too-large-error = Размер файла изображения слишком велик для выгрузки.
 
 ##
@@ -229,6 +234,7 @@ pw-change-new-password =
     .label = Введите новый пароль
 pw-change-confirm-password =
     .label = Подтвердите новый пароль
+pw-change-success-alert = Пароль обновлён.
 
 ##
 
@@ -239,7 +245,7 @@ delete-account-header =
     .title = Удалить аккаунт
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
-delete-account-confirm-title = Вы подключили свой { -product-firefox-accounts(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
+delete-account-confirm-title-2 = Вы подключили свой { -product-firefox-account(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
 delete-account-chk-box-1 =
     .label = Все оплаченные вами подписки будут отменены
@@ -261,11 +267,14 @@ delete-account-delete-button = Удалить аккаунт
 
 ## Display name page
 
+display-name-page-title =
+    .title = Отображаемое имя
 display-name-input =
     .label = Введите отображаемое имя
 submit-display-name = Сохранить
 cancel-display-name = Отмена
 display-name-update-error = При обновлении вашего отображаемого имени произошла ошибка.
+display-name-success-alert = Отображаемое имя обновлено.
 
 ##
 
@@ -282,6 +291,7 @@ recovery-key-page-title =
     .title = Ключ восстановления
 recovery-key-step-1 = Шаг 1 из 2
 recovery-key-step-2 = Шаг 2 из 2
+recovery-key-success-alert = Ключ восстановления создан.
 
 ## Add secondary email page
 
@@ -309,6 +319,10 @@ verify-secondary-email-verify-button = Подтвердить
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Пожалуйста, введите код подтверждения, который был отправлен на <strong>{ $email }</strong>, в течение 5 минут.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } успешно добавлен.
 
 ##
 
@@ -397,7 +411,7 @@ rk-cannot-remove-key = Ключ восстановления вашего акк
 rk-refresh-key = Обновить ключ восстановления
 rk-content-explain = Восстановите свою информацию, если вы забудете свой пароль.
 rk-content-reset-data = Почему при сбросе пароля удаляются мои данные?
-rk-cannot-verify-session = К сожалению, при проверке вашей сессии произошла ошибка
+rk-cannot-verify-session-2 = К сожалению, при подтверждении вашей сессии произошла ошибка.
 rk-remove-modal-heading = Удалить ключ восстановления?
 rk-remove-modal-content =
     При сбросе вашего пароля, вы не сможете
@@ -456,7 +470,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запретите вход другим, затребовав 
     уникальный код, доступ к которому есть только у вас.
-tfa-row-cannot-verify-session = К сожалению, при подтверждении вашей сессии произошла ошибка
+tfa-row-cannot-verify-session-2 = К сожалению, при подтверждении вашей сессии произошла ошибка.
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
 tfa-row-disable-modal-explain =
