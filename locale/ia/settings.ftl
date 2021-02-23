@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-privacy-notice = Aviso de confidentialitate del sito web
 app-footer-terms-of-service = Terminos de servicio
@@ -110,12 +110,6 @@ cs-disconnect-sync-opt-not-say = Prefere non dicer
 
 cs-disconnect-advice-confirm = Ok, io comprende
 cs-disconnect-lost-advice-heading = Apparato perdite o robate disconnexe
-cs-disconnect-lost-advice-content =
-    Pois que tu dispositivo ha essite perdite o robate, pro
-    mantener tu informationes secur, tu debe cambiar contrasigno de tu { -product-firefox-accounts }
-    in le parametros de tu conto.
-    Tu deberea alsi cercar informationes del
-    fabricante de tu dispositivo re cancellar tu datos a distantia.
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnexe
 cs-disconnect-suspicious-advice-content =
     Si le apparato disconnexe es in effecto
@@ -189,6 +183,7 @@ avatar-page-zoom-out-button = Distantiar
 avatar-page-zoom-in-button = Approximar
 avatar-page-rotate-button = Rotar
 avatar-page-camera-error = Impossibile initialisar le camera
+avatar-page-file-upload-error-2 = Problema durante le cargamento de tu imagine.
 avatar-page-image-too-large-error = Le dimension del file imagine es trop grande pro esser cargate.
 
 ##
