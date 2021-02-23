@@ -121,9 +121,20 @@ datablock-print =
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperación
+get-data-trio-download =
+    .title = Descargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 # HeaderLockup component
 
+header-menu-open = Cerrar menú
+header-menu-closed = Menú de navegación del sitio
+header-back-to-top-link =
+    .title = Ir arriba
+header-title = { -product-firefox-accounts }
 
 ## Settings Nav
 
