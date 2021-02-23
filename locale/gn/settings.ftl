@@ -85,6 +85,14 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Mba’epuru oĩ’ỹva térã ikõiva?
 cs-disconnect-sync-heading = Sync-gui ñesẽ
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Ne kundahára mba’ekuaarã opytáta ne
+    mba’e’okápe, ({ $device }), hákatu noñembojuehevéima ne mba’ete ndive.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
