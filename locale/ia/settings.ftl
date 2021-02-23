@@ -168,6 +168,7 @@ tfa-replace-code-success =
     Nove codices ha essite create. Salvar iste codices a 
     uso unic in un loco secur: tu los besoniara pro acceder tu conto si tu non 
     ha tu apparato mobile.
+tfa-replace-code-success-alert = Codices recuperation de conto activate
 
 ## Avatar change page
 
@@ -315,6 +316,7 @@ delete-account-link = Deler le conto
 ## Two Step Authentication
 
 tfa-title = Authentication a duo passos
+tfa-step-1-3 = Passo 1 de 3
 tfa-step-2-3 = Passo 2 de 3
 tfa-step-3-3 = Passo 3 de 3
 tfa-button-continue = Continuar
@@ -377,11 +379,22 @@ rk-enabld = Activate
 rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
+rk-key-removed = Clave de recuperation del conto removite.
+rk-refresh-key = Actualisar le clave de recuperation
+rk-remove-modal-heading = Remover clave de recuperation?
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Adresse de e-mail secundari
     .header = E-mail secundari
+se-cannot-refresh-email = Desolate, problema al actualisation de iste email.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } delite con successo.
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualisar le email
 se-unverified = non verificate
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
@@ -398,11 +411,15 @@ tfa-row-enabled = Activate
 tfa-row-not-set = Non definite
 tfa-row-action-add = Adder
 tfa-row-action-disable = Disactivar
+tfa-row-button-refresh =
+    .title = Actualisar authentication a duo passos
+tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
 tfa-row-change-modal-confirm = Cambiar
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Imagine
 avatar-add-link = Adder
 avatar-change-link = Cambiar
 
