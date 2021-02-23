@@ -66,6 +66,7 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 
 ## Connected services section
 
+cs-heading = დაკავშირებული სერვისები
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
