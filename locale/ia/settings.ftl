@@ -184,6 +184,7 @@ avatar-page-zoom-in-button = Approximar
 avatar-page-rotate-button = Rotar
 avatar-page-camera-error = Impossibile initialisar le camera
 avatar-page-file-upload-error-2 = Problema durante le cargamento de tu imagine.
+avatar-page-delete-error-2 = Problema durante le deletion de tu imagine.
 avatar-page-image-too-large-error = Le dimension del file imagine es trop grande pro esser cargate.
 
 ##
@@ -208,6 +209,7 @@ pw-change-new-password =
 
 delete-account-header =
     .title = Deler le conto
+delete-account-step-1-2 = Passo 1de 2
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
 delete-account-chk-box-1 =
     .label = Omne subscriptiones pagate que tu ha essera cancellate
@@ -229,6 +231,7 @@ delete-account-delete-button = Deler le conto
 
 submit-display-name = Salvar
 cancel-display-name = Cancellar
+display-name-update-error = Problema durante le actualisation de tu nomine a monstrar.
 
 ##
 
@@ -242,9 +245,11 @@ recovery-key-enter-password =
     .label = Insere le contrasigno
 recovery-key-page-title =
     .title = Clave de recuperation
+recovery-key-step-2 = Passo 2 de 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Problema al creation de iste email.
 add-secondary-email-page-title =
     .title = Adresse de e-mail secundari
 add-secondary-email-enter-address =
