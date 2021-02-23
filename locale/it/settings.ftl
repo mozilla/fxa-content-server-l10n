@@ -377,9 +377,14 @@ tfa-row-not-set = Non impostata
 tfa-row-action-add = Aggiungi
 tfa-row-action-disable = Disattiva
 tfa-row-disable-modal-confirm = Disattiva
+tfa-row-change-modal-heading = Cambiare le chiavi di recupero?
+tfa-row-change-modal-confirm = Cambia
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Immagine
+avatar-add-link = Aggiungi
+avatar-change-link = Cambia
 
 ## Auth-server based errors that originate from backend service
 
