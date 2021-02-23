@@ -40,6 +40,7 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Aviso de confidentialitate del sito web
 app-footer-terms-of-service = Terminos de servicio
 
@@ -170,19 +171,26 @@ tfa-replace-code-success =
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Photo del profilo
 avatar-page-add-photo = Adder Photo
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Prende un photo
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Remover photo
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Volver a prender un photo
 avatar-page-close-button = Clauder
 avatar-page-save-button = Salvar
 avatar-page-zoom-out-button = Distantiar
 avatar-page-zoom-in-button = Approximar
 avatar-page-rotate-button = Rotar
 avatar-page-camera-error = Impossibile initialisar le camera
+avatar-page-new-avatar =
+    .alt = nove imagine del profilo
 avatar-page-file-upload-error-2 = Problema durante le cargamento de tu imagine.
 avatar-page-delete-error-2 = Problema durante le deletion de tu imagine.
 avatar-page-image-too-large-error = Le dimension del file imagine es trop grande pro esser cargate.
@@ -196,11 +204,21 @@ pw-change-header =
     .title = Cambiar le contrasigno
 pw-change-least-8-chars = Debe continer al minus 8 characteres
 pw-change-not-contain-email = Non debe esser tu adresse de e-mail
+pw-change-must-match = Le nove contrasigno concorda con confirmation
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Illo non debe concordar ulle de iste <linkExternal>lista de contrasignos
+    commun</linkExternal>
 pw-change-cancel-button = Cancellar
 pw-change-save-button = Salvar
 pw-change-forgot-password-link = Contrasigno oblidate?
+pw-change-current-password =
+    .label = Insere contrasigno actual
 pw-change-new-password =
     .label = Insere le nove contrasigno
+pw-change-confirm-password =
+    .label = Confirmar nove contrasigno
+pw-change-success-alert = Contrasigno actualisate.
 
 ##
 
@@ -210,9 +228,13 @@ pw-change-new-password =
 delete-account-header =
     .title = Deler le conto
 delete-account-step-1-2 = Passo 1de 2
+delete-account-step-2-2 = Passo 2 de 2
+delete-account-confirm-title-2 = Tu ha connectite tu { -product-firefox-account } al productos { -brand-mozilla } que te mantene secur e productive sur le web:
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
 delete-account-chk-box-1 =
     .label = Omne subscriptiones pagate que tu ha essera cancellate
+delete-account-chk-box-2 =
+    .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Reactivar con iste adresse de e-mail pote non restaurar tu informationes salvate
 delete-account-chk-box-4 =
@@ -229,9 +251,14 @@ delete-account-delete-button = Deler le conto
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nomine a monstrar
+display-name-input =
+    .label = Scribe le nomine a monstrar
 submit-display-name = Salvar
 cancel-display-name = Cancellar
 display-name-update-error = Problema durante le actualisation de tu nomine a monstrar.
+display-name-success-alert = Nomine a monstrar actualisate.
 
 ##
 
@@ -245,7 +272,9 @@ recovery-key-enter-password =
     .label = Insere le contrasigno
 recovery-key-page-title =
     .title = Clave de recuperation
+recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
+recovery-key-success-alert = Clave de recuperation create.
 
 ## Add secondary email page
 
@@ -262,10 +291,21 @@ add-secondary-email-save-button = Salvar
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Problema durante le invio del codice de verification.
 verify-secondary-email-page-title =
     .title = Adresse de e-mail secundari
+verify-secondary-email-verification-code =
+    .label = Insere tu codice de verification
 verify-secondary-email-cancel-button = Cancellar
 verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Insere le codice de verification inviate a  <strong>{ $email }</strong> intra 5 minutas.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } addite con successo.
 
 ##
 
@@ -274,13 +314,29 @@ delete-account-link = Deler le conto
 
 ## Two Step Authentication
 
+tfa-title = Authentication a duo passos
+tfa-step-2-3 = Passo 2 de 3
+tfa-step-3-3 = Passo 3 de 3
 tfa-button-continue = Continuar
 tfa-button-cancel = Cancellar
 tfa-button-finish = Finir
+tfa-incorrect-totp = Codice de authentication a duo passos non correcte
+tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
+tfa-cannot-verify-code = Il habeva un problema a verificar tu codices de recuperation.
+tfa-incorrect-recovery-code = Codice de recuperation non correcte
 tfa-enabled = Authentication a duo-grados activate
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Usa le codice { $secret } pro configurar le authentication a duo passos in
+     applicationes supportate.
 tfa-button-cant-scan-qr = Non pote tu scander le codice?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
 tfa-input-enter-totp =
     .label = Insere le codice de securitate
+tfa-save-these-codes = Salva iste codices a uso unic in un loco secur pro le caso que tu perde le accesso a tu apparato mobile.
 tfa-enter-recovery-code =
     .label = Insere un codice de recuperation
 
