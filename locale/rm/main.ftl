@@ -87,8 +87,8 @@ product-no-such-plan = Nagin abunament correspundent per quest product.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } utilisescha Stripe per l'elavuraziun segira dal pajament.
-payment-legal-link = Consultar las <a>infurmaziuns davart la protecziun da datas da Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilisescha Stripe e Paypal per l'elavuraziun segira dal pajament.
+payment-legal-link-stripe-paypal = Consultar las directivas da la protecziun da datas <stripePrivacyLink>da Stripe</stripePrivacyLink> e <paypalPrivacyLink>da Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -334,6 +334,9 @@ sub-billing-update-success = Actualisà cun success tias infurmaziuns da factura
 ## subscription create
 
 sub-guarantee = Garanzia da restituziun da 30 dis
+pay-with-heading-other = Tscherner ina opziun da pajament
+pay-with-heading-card-or = U pajar cun la carta da credit
+pay-with-heading-card-only = Pajar cun la carta
 
 ## plan-details
 
