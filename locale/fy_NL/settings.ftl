@@ -402,15 +402,79 @@ rk-remove-modal-content =
 
 se-heading = Sekundêr e-mailadres
     .header = Sekundêr e-mailadres
+se-cannot-refresh-email = Sorry, der is in probleem bard by it fernijen fan dat e-mailadres.
+se-cannot-resend-code = Der is in probleem bard by it opnij ferstjoeren fan de ferifikaasjekoade.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } is no jo primêre e-mailadres.
+se-set-primary-error = Sorry, der is in probleem bard by it wizigjen fan jo primêre e-mailadres.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } mei sukses fuortsmiten.
+se-delete-email-error = Sorry, der is in probleem bard by it fuortsmiten fan dit e-mailadres.
+se-verify-session = Jo moatte jo aktuele sesje ferifiearje om dizze aksje út te fieren.
+se-verify-session-error = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-mailadres fuortsmite
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-mailadres fernije
+se-unverified = net-ferifiearre
+se-resend-code =
+    Ferifikaasje fereaske. <button>Ferstjoer de ferifikaasjekoade opnij</button>
+    as dizze net yn jo Postfek YN of jo map Net-winske post stiet.
+# Button to make secondary email the primary
+se-make-primary = Primêr meitsje
+se-default-content = Tagong ta jo account as jo net oanmelde kinne op jo primêre e-mailadres.
+se-content-note =
+    Noat: in sekundêr e-mailadres werstelt jo gegevens net – dêrfoar
+    hawwe jo in <a>werstelkaai</a> nedich.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autentikaasje yn twa stappen
+tfa-row-disabled = Autentikaasje yn twa stappen útskeakele.
+tfa-row-enabled = Ynskeakele
+tfa-row-not-set = Net ynsteld
+tfa-row-action-add = Tafoegje
+tfa-row-action-disable = Utskeakelje
+tfa-row-button-refresh =
+    .title = Autentikaasje yn twa stappen fernije
+tfa-row-cannot-refresh =
+    Sorry, der is in probleem bard by it fernijen fan autentikaasje
+    yn twa stappen.
+tfa-row-content-explain =
+    Foarkom dat in oar oanmeldt troch in
+    unike koade wêr't allinnich jo tagong ta hawwe te easkjen.
+tfa-row-cannot-verify-session = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
+tfa-row-disable-modal-confirm = Utskeakelje
+tfa-row-disable-modal-explain =
+    Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
+    de opsje <linkExternal>jo werstelkoaden te ferfangen</linkExternal>.
+tfa-row-cannot-disable = Autentikaasje yn twa stappen koe net útskeakele wurde.
+tfa-row-change-modal-heading = Werstelkoaden wizigje?
+tfa-row-change-modal-confirm = Wizigje
+tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Ofbylding
+avatar-add-link = Tafoegje
+avatar-change-link = Wizigje
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Unbekend account
+auth-error-103 = Ferkeard wachtwurd
+auth-error-110 = Unjildich token
+auth-error-138 = Net-ferifiearre sesje
+auth-error-155 = TOTP-token net fûn
+auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
