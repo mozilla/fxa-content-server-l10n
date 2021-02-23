@@ -111,6 +111,17 @@ cs-disconnect-sync-opt-not-say = Sis ik leaver net
 
 cs-disconnect-advice-confirm = Oké, begrepen
 cs-disconnect-lost-advice-heading = Ferlern of stellen apparaat ûntkeppele
+cs-disconnect-lost-advice-content =
+    Omdat jo apparaat ferlern of stellen is moatte jo, om
+    jo gegevens feilich te hâlden, jo wachtwurd fan { -product-firefox-accounts } wizigje
+    yn jo accountynstellingen. Jo kinne it beste ek ynformaasje by de produsint fan jo
+    apparaat opsykje oer it op ôfstân wiskjen fan jo gegevens.
+cs-disconnect-suspicious-advice-heading = Fertocht apparaat ûntkeppele
+cs-disconnect-suspicious-advice-content =
+    As it ûntkeppele apparaat yndie
+    fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-firefox-account }
+    wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy't
+    jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
 
 ##
@@ -158,6 +169,10 @@ nav-email-comm = E-mailkommunikaasje
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Der is in probleem bard by it ferfangen fan jo werstelkoaden.
+tfa-replace-code-success =
+    Der binne nije koaden oanmakke. Bewarje dizze koaden foar ien kear gebrûk
+    op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
+    mobile apparaat net hawwe.
 
 ## Avatar change page
 
@@ -181,24 +196,70 @@ avatar-page-rotate-button = Draaie
 avatar-page-camera-error = Koe kamera net inisjalisearje
 avatar-page-new-avatar =
     .alt = nije profylôfbylding
+avatar-page-file-upload-error = Der is in probleem bard wylst it opladen fan jo profylôfbylding
+avatar-page-delete-error = Der is in probleem bard by it fuortsmiten fan jo avatar
+avatar-page-image-too-large-error = De ôfbyldingsbestânsgrutte is te grut om op te laden.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Wachtwurd wizigje
+pw-change-stay-safe = Bliuw feilich – brûk wachtwurden net opnij. Jo wachtwurd:
+pw-change-least-8-chars = Moat op syn minst 8 tekens befetsje
+pw-change-not-contain-email = Mei net jo e-mailadres wêze
+pw-change-must-match = Nij wachtwurd komt oerien mei befêstiging
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Mei net oerienkomme mei dizze <linkExternal>list mei faaks brûkte
+    wachtwurden</linkExternal>
+pw-change-cancel-button = Annulearje
+pw-change-save-button = Bewarje
+pw-change-forgot-password-link = Wachtwurd ferjitten?
+pw-change-current-password =
+    .label = Fier aktuele wachtwurd yn
+pw-change-new-password =
+    .label = Fier nij wachtwurd yn
+pw-change-confirm-password =
+    .label = Befêstigje nij wachtwurd
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Account fuortsmite
+delete-account-step-1-2 = Stap 1 fan 2
+delete-account-step-2-2 = Stap 2 fan 2
+delete-account-confirm-title = Jo hawwe jo { -product-firefox-accounts } ferbûn mei { -brand-mozilla }-produkten dy't jo feilich en produktyf hâlde op ynternet:
+delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
+delete-account-chk-box-1 =
+    .label = Alle betelle abonneminten wurde annulearre
+delete-account-chk-box-2 =
+    .label = Jo bewarre ynformaasje en funksjes yn { -brand-mozilla }-produkten ferlieze kinne
+delete-account-chk-box-3 =
+    .label = Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje
+delete-account-chk-box-4 =
+    .label = Alle útwreidingen en tema’s dy't jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
+delete-account-close-button = Slute
+delete-account-continue-button = Trochgean
+delete-account-password-input =
+    .label = Fier wachtwurd yn
+delete-account-cancel-button = Annulearje
+delete-account-delete-button = Account fuortsmite
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Fier skermnamme yn
+submit-display-name = Bewarje
+cancel-display-name = Annulearje
 
 ##
 
