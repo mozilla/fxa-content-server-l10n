@@ -180,6 +180,8 @@ avatar-page-zoom-out-button = Momichĩ
 avatar-page-zoom-in-button = Mbotuicha
 avatar-page-rotate-button = Mbojere
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
+avatar-page-new-avatar =
+    .alt = ta’ãnga pyahu mba’etépe
 
 ##
 
@@ -188,12 +190,23 @@ avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
+pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
+pw-change-current-password =
+    .label = Emoinge ñe’ẽñemi ag̃agua
+pw-change-new-password =
+    .label = Emoinge ñe’ẽñemi pyahu
+pw-change-confirm-password =
+    .label = Emoneĩ ñe’ẽñemi pyahu
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Embogue mba’ete
+delete-account-step-1-2 = Ku’e 1 2-gui
+delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-close-button = Mboty
 delete-account-continue-button = Ku’ejey
 delete-account-password-input =
