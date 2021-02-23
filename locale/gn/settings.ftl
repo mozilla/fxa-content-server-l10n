@@ -143,15 +143,22 @@ header-menu-closed = Tenda kundahára poravorã
 header-back-to-top-link =
     .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
+header-switch-title = Emoambue moha’ãnga ojepuruvévape
+    .title = Joajuha moha’ãnga ojepuruvévape
 header-help = Pytyvõ
 
 ## Settings Nav
 
 nav-settings = Ñemboheko
 nav-profile = Mba’ete
+nav-security = Tekorosã
+nav-connected-services = Mba’epytyvõrã mbojuajupyre
+nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
+nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã.
 
 ## Avatar change page
 
@@ -172,6 +179,7 @@ avatar-page-save-button = Ñongatu
 avatar-page-zoom-out-button = Momichĩ
 avatar-page-zoom-in-button = Mbotuicha
 avatar-page-rotate-button = Mbojere
+avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 
 ##
 
