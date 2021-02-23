@@ -212,6 +212,7 @@ delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
 delete-account-cancel-button = Heja
+delete-account-delete-button = Embogue mba’ete
 
 ##
 
@@ -231,6 +232,8 @@ recovery-key-close-button = Mboty
 recovery-key-continue-button = Ku’ejey
 recovery-key-enter-password =
     .label = Emoinge ñe’ẽñemi
+recovery-key-step-1 = Ku’e 1 2-gui
+recovery-key-step-2 = Ku’e 2 2-gui
 
 ## Add secondary email page
 
