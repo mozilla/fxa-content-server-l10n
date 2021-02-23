@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Prawidła priwatnosće websydła
@@ -152,6 +152,7 @@ nav-email-comm = E-mejlowa komunikacija
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Kontowe wobnowjenske kody su so zaktualizowali.
 
 ## Avatar change page
 
@@ -201,6 +202,7 @@ pw-change-new-password =
     .label = Nowe hesło zapodać
 pw-change-confirm-password =
     .label = Nowe hesło wobkrućić
+pw-change-success-alert = Hesło je so zaktualizowało.
 
 ##
 
@@ -211,7 +213,7 @@ delete-account-header =
     .title = Konto zhašeć
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-delete-account-confirm-title = Sće swoje konto { -product-firefox-accounts } z produktami { -brand-mozilla } zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
+delete-account-confirm-title-2 = Sće swoje konto { -product-firefox-account } z produktami { -brand-mozilla } zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
 delete-account-chk-box-1 =
     .label = Wšě zapłaćene abonementy, kotrež maće, so wupowědźa
@@ -233,10 +235,13 @@ delete-account-delete-button = Konto zhašeć
 
 ## Display name page
 
+display-name-page-title =
+    .title = Zwobraznjenske mjeno
 display-name-input =
     .label = Zapodajće zwobraznjenske mjeno
 submit-display-name = Składować
 cancel-display-name = Přetorhnyć
+display-name-success-alert = Zwobraznjenske mjeno zaktualizowane.
 
 ##
 
@@ -252,6 +257,7 @@ recovery-key-page-title =
     .title = Wobnowjenski kluč
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
+recovery-key-success-alert = Wobnowjenski kluč je so wutworił.
 
 ## Add secondary email page
 
@@ -277,6 +283,10 @@ verify-secondary-email-verify-button = Přepruwować
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <strong>{ $email }</strong> pósłał.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } je so wuspěšnje přidała.
 
 ##
 

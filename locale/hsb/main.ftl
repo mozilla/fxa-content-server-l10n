@@ -96,6 +96,7 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } Stripe a Paypal za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe-paypal = Čitajće <stripePrivacyLink>prawidła priwatnosće Stripe</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće Paypal</paypalPrivacyLink>.
 
 ## payment form
 
