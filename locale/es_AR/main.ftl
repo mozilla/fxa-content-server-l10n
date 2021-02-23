@@ -87,8 +87,8 @@ product-no-such-plan = No existe tal plan para este producto.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } usa Stripe para procesar pagos seguros.
-payment-legal-link = Ver la <a>política de privacidad de Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } usa Stripe y Paypal para procesamiento seguro de pagos.
+payment-legal-link-stripe-paypal = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -331,6 +331,9 @@ sub-billing-update-success = La información de facturación se ha actualizado c
 ## subscription create
 
 sub-guarantee = 30 días de garantía de devolución de dinero
+pay-with-heading-other = Seleccionar opción de pago
+pay-with-heading-card-or = O pagar con tarjeta
+pay-with-heading-card-only = Pagar con tarjeta
 
 ## plan-details
 

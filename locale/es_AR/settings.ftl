@@ -144,6 +144,15 @@ header-title = { -product-firefox-accounts }
 
 ## Avatar change page
 
+avatar-page-remove-photo = Eliminar foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-close-button = Cerrar
+avatar-page-save-button = Guardar
+avatar-page-zoom-out-button = Alejar
+avatar-page-zoom-in-button = Acercar
+avatar-page-rotate-button = Rotar
+avatar-page-camera-error = No se puede inicializar la cámara
 
 ##
 
