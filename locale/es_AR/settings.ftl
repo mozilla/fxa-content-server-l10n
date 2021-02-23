@@ -79,6 +79,11 @@ cs-cannot-disconnect = Cliente no encontrado, no se puede desconectar
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Desconectado de { $service }.
+cs-refresh-button =
+    .title = Refrescar servicios conectados
+cs-disconnect-sync-reason =
+    ¿Cuál es la razón para desconectar este
+    dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
