@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Vill helst inte berätta
 
 cs-disconnect-advice-confirm = Ok, jag förstår
 cs-disconnect-lost-advice-heading = Förlorad eller stulen enhet frånkopplad
+cs-disconnect-lost-advice-content-2 =
+    Eftersom din enhet har tappats bort eller stulits bör du ändra lösenordet
+    för { -product-firefox-account } i dina kontoinställningar för att skydda din
+    information. Du bör också leta efter information från enhetstillverkaren om
+    hur du raderar dina data på distans.
 cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
 cs-disconnect-suspicious-advice-content =
     Om den frånkopplade enheten verkligen är
@@ -168,6 +173,7 @@ tfa-replace-code-success =
     Nya koder har skapats. Spara dessa engångskoder
     på en säker plats — du behöver dem för att komma åt
     ditt konto om du inte har din mobila enhet.
+tfa-replace-code-success-alert = Koder för kontoåterställning uppdaterade.
 
 ## Avatar change page
 
@@ -191,6 +197,8 @@ avatar-page-rotate-button = Rotera
 avatar-page-camera-error = Det gick inte att initiera kameran
 avatar-page-new-avatar =
     .alt = ny profilbild
+avatar-page-file-upload-error-2 = Det gick inte att ladda upp din profilbild.
+avatar-page-delete-error-2 = Det gick inte att ta bort din profilbild.
 avatar-page-image-too-large-error = Bildens filstorlek är för stor för att kunna laddas upp.
 
 ##
@@ -217,6 +225,7 @@ pw-change-new-password =
     .label = Ange nytt lösenord
 pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
+pw-change-success-alert = Lösenord uppdaterat.
 
 ##
 
@@ -227,6 +236,7 @@ delete-account-header =
     .title = Ta bort konto
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+delete-account-confirm-title-2 = Du har kopplat ditt { -product-firefox-account } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
 delete-account-chk-box-1 =
     .label = Alla betalda prenumerationer du har kommer att annulleras
