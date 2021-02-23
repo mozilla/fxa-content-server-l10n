@@ -342,9 +342,12 @@ security-heading = Sicurezza
 
 row-defaults-action-add = Aggiungi
 row-defaults-action-disable = Disattiva
+row-defaults-status = Nessuno
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Attivo
+rk-not-set = Non impostato
 rk-action-create = Crea
 rk-action-remove = Rimuovi
 rk-key-removed = La chiave di recupero dell’account è stata rimossa.
