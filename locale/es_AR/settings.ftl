@@ -88,18 +88,39 @@ cs-disconnect-sync-reason =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Este dispositivo es:
+cs-disconnect-sync-opt-suspicious = Sospechoso
+cs-disconnect-sync-opt-lost = Robado o perdido
+cs-disconnect-sync-opt-old = Viejo o reemplazado
+cs-disconnect-sync-opt-duplicate = Duplicado
+cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-disconnect-advice-confirm = Listo, lo entendí
+cs-disconnect-lost-advice-heading = Dispositivo robado o perdido desconectado
+cs-disconnect-lost-advice-content =
+    Cómo el dispositivo fue robado o perdido, pafa
+    mantener la información segura, deberías cambiar la contraseña de { -product-firefox-accounts }
+    en la configuración de tu cuenta. También deberías buscar información del
+    fabricante del dispositivo sobre como borrar los datos de forma remota.
+cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Descargadas
+datablock-copy =
+    .message = Copiadas
+datablock-print =
+    .message = Impresas
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperación
 
 # HeaderLockup component
 
