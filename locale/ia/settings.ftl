@@ -379,8 +379,10 @@ rk-enabld = Activate
 rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
+rk-cannot-refresh = Desolate, problema al actualisation le clave de recuperation.
 rk-key-removed = Clave de recuperation del conto removite.
 rk-refresh-key = Actualisar le clave de recuperation
+rk-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 rk-remove-modal-heading = Remover clave de recuperation?
 
 ## Secondary email sub-section on main Settings page
@@ -388,10 +390,17 @@ rk-remove-modal-heading = Remover clave de recuperation?
 se-heading = Adresse de e-mail secundari
     .header = E-mail secundari
 se-cannot-refresh-email = Desolate, problema al actualisation de iste email.
+se-cannot-resend-code = Desolate, problema durante le reinvio del codice de verification.
+se-set-primary-error = Desolate, problema a cambiar tu email primari.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } delite con successo.
+se-delete-email-error = Desolate, problema al deletion de iste email.
+se-verify-session-error = Desolate, problema a verificar tu session.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Remover email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Actualisar le email
@@ -413,8 +422,14 @@ tfa-row-action-add = Adder
 tfa-row-action-disable = Disactivar
 tfa-row-button-refresh =
     .title = Actualisar authentication a duo passos
+tfa-row-cannot-refresh =
+    Desolate, problema al actualisation del authentication
+    a duo passos.
+tfa-row-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
+tfa-row-cannot-disable = Impossibile disactivar authentication a duo passos.
+tfa-row-change-modal-heading = Cambiar codices de recuperation?
 tfa-row-change-modal-confirm = Cambiar
 
 ## Avatar sub-section on main Settings page
