@@ -153,12 +153,20 @@ avatar-page-zoom-out-button = Alejar
 avatar-page-zoom-in-button = Acercar
 avatar-page-rotate-button = Rotar
 avatar-page-camera-error = No se puede inicializar la cámara
+avatar-page-new-avatar =
+    .alt = nueva foto de perfil
+avatar-page-file-upload-error = Hubo un problema subiendo la foto de perfil
+avatar-page-delete-error = Hubo un problema borrando el avatar
+avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiado grande para ser subido.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambiar contraseña
+pw-change-least-8-chars = Debe tener al menos 8 caracteres.
 
 ##
 
