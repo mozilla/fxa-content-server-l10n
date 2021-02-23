@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
 app-footer-privacy-notice = Aviso de privacidad del sitio web
@@ -171,12 +171,15 @@ avatar-page-rotate-button = Rotar
 avatar-page-camera-error = No se pudo iniciar la cámara
 avatar-page-new-avatar =
     .alt = nueva imagen de perfil
+avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiado grande para subirlo.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambiar contraseña
 
 ##
 
@@ -198,18 +201,40 @@ avatar-page-new-avatar =
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Guardar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Correo secundario
+verify-secondary-email-verification-code =
+    .label = Ingresar tu código de verificación
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Por favor, ingresa el código de verificación que fue enviado a <strong>{ $email }</strong> dentro de los próximos 5 minutos.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Eliminar cuenta
 
 ## Two Step Authentication
 
+tfa-title = Autenticación en dos pasos
+tfa-step-1-3 = Paso 1 de 3
+tfa-step-2-3 = Paso 2 de 3
+tfa-step-3-3 = Paso 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Finalizar
+tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 
 ##
 
