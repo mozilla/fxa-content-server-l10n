@@ -184,75 +184,177 @@ avatar-page-take-photo-button =
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-close-button = Clauder
+avatar-page-save-button = Salvar
+avatar-page-zoom-out-button = Distantiar
+avatar-page-zoom-in-button = Approximar
+avatar-page-rotate-button = Rotar
+avatar-page-camera-error = Impossibile initialisar le camera
+avatar-page-image-too-large-error = Le dimension del file imagine es trop grande pro esser cargate.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambiar le contrasigno
+pw-change-least-8-chars = Debe continer al minus 8 characteres
+pw-change-not-contain-email = Non debe esser tu adresse de e-mail
+pw-change-cancel-button = Cancellar
+pw-change-save-button = Salvar
+pw-change-forgot-password-link = Contrasigno oblidate?
+pw-change-new-password =
+    .label = Insere le nove contrasigno
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Deler le conto
+delete-account-acknowledge = Per favor recognosce que per deler tu conto:
+delete-account-chk-box-1 =
+    .label = Omne subscriptiones pagate que tu ha essera cancellate
+delete-account-chk-box-3 =
+    .label = Reactivar con iste adresse de e-mail pote non restaurar tu informationes salvate
+delete-account-chk-box-4 =
+    .label = Tote le extensiones e themas que tu ha publicate in addons.mozilla.org essera delite
+delete-account-close-button = Clauder
+delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Insere le contrasigno
+delete-account-cancel-button = Cancellar
+delete-account-delete-button = Deler le conto
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Salvar
+cancel-display-name = Cancellar
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancellar
+recovery-key-close-button = Clauder
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Insere le contrasigno
+recovery-key-page-title =
+    .title = Clave de recuperation
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Adresse de e-mail secundari
+add-secondary-email-enter-address =
+    .label = Insere tu adresse de e-mail
+add-secondary-email-cancel-button = Cancellar
+add-secondary-email-save-button = Salvar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Adresse de e-mail secundari
+verify-secondary-email-cancel-button = Cancellar
+verify-secondary-email-verify-button = Verificar
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Deler le conto
 
 ## Two Step Authentication
 
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancellar
+tfa-button-finish = Finir
+tfa-enabled = Authentication a duo-grados activate
+tfa-button-cant-scan-qr = Non pote tu scander le codice?
+tfa-input-enter-totp =
+    .label = Insere le codice de securitate
+tfa-enter-recovery-code =
+    .label = Insere un codice de recuperation
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profilo
+profile-display-name =
+    .header = Nomine a monstrar
+profile-password =
+    .header = Contrasigno
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Create le { $date }
+profile-primary-email =
+    .header = Adresse de e-mail primari
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Securitate
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Adder
+row-defaults-action-change = Cambiar
+row-defaults-action-disable = Disactivar
+row-defaults-status = Nulle
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activate
+rk-not-set = Non definite
+rk-action-create = Crear
+rk-action-remove = Remover
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Adresse de e-mail secundari
+    .header = E-mail secundari
+se-unverified = non verificate
+# Button to make secondary email the primary
+se-make-primary = Rende lo primari
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Authentication a duo passos
+tfa-row-disabled = Authentication a duo passos disactivate.
+tfa-row-enabled = Activate
+tfa-row-not-set = Non definite
+tfa-row-action-add = Adder
+tfa-row-action-disable = Disactivar
+tfa-row-disable-modal-confirm = Disactivar
+tfa-row-change-modal-confirm = Cambiar
 
 ## Avatar sub-section on main Settings page
 
+avatar-add-link = Adder
+avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Conto incognite
+auth-error-103 = Contrasigno incorrecte
+auth-error-110 = Token invalide
+auth-error-138 = Session non verificate
+auth-error-155 = Token TOTP non trovate
+auth-error-1008 = Tu nove contrasigno debe esser differente
