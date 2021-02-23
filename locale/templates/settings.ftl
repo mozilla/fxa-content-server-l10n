@@ -37,7 +37,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logo
 app-footer-privacy-notice = Website Privacy Notice
@@ -97,8 +97,8 @@ cs-disconnect-sync-reason = What’s the main reason for disconnecting this
 
 cs-disconnect-sync-opt-prefix = The device is:
 cs-disconnect-sync-opt-suspicious = Suspicious
-cs-disconnect-sync-opt-lost = Lost or Stolen
-cs-disconnect-sync-opt-old = Old or Replaced
+cs-disconnect-sync-opt-lost = Lost or stolen
+cs-disconnect-sync-opt-old = Old or replaced
 cs-disconnect-sync-opt-duplicate = Duplicate
 cs-disconnect-sync-opt-not-say = Rather not say
 
@@ -106,8 +106,8 @@ cs-disconnect-sync-opt-not-say = Rather not say
 
 cs-disconnect-advice-confirm = Okay, got it
 cs-disconnect-lost-advice-heading = Lost or stolen device disconnected
-cs-disconnect-lost-advice-content = Since your device was lost or stolen, to
-  keep your information safe, you should change your { -product-firefox-accounts } password
+cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to
+  keep your information safe, you should change your { -product-firefox-account } password
   in your account settings. You should also look for information from your
   device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
@@ -165,31 +165,32 @@ tfa-replace-code-error = There was a problem replacing your recovery codes.
 tfa-replace-code-success = New codes have been created. Save these one-time use
   codes in a safe place — you’ll need them to access your account if you don’t
   have your mobile device.
+tfa-replace-code-success-alert = Account recovery codes updated.
 
 ## Avatar change page
 
 avatar-page-title =
-  .title = Profile Picture
-avatar-page-add-photo = Add Photo
+  .title = Profile picture
+avatar-page-add-photo = Add photo
 avatar-page-add-photo-button =
   .title = { avatar-page-add-photo }
-avatar-page-take-photo = Take Photo
+avatar-page-take-photo = Take photo
 avatar-page-take-photo-button =
   .title = { avatar-page-take-photo }
-avatar-page-remove-photo = Remove Photo
+avatar-page-remove-photo = Remove photo
 avatar-page-remove-photo-button =
   .title = { avatar-page-remove-photo }
-avatar-page-retake-photo = Retake Photo
+avatar-page-retake-photo = Retake photo
 avatar-page-close-button = Close
 avatar-page-save-button = Save
-avatar-page-zoom-out-button = Zoom Out
-avatar-page-zoom-in-button = Zoom In
+avatar-page-zoom-out-button = Zoom out
+avatar-page-zoom-in-button = Zoom in
 avatar-page-rotate-button = Rotate
 avatar-page-camera-error = Could not initialize camera
 avatar-page-new-avatar =
   .alt = new profile picture
-avatar-page-file-upload-error = There was a problem uploading your profile picture
-avatar-page-delete-error = There was a problem deleting your avatar
+avatar-page-file-upload-error-2 = There was a problem uploading your profile picture.
+avatar-page-delete-error-2 = There was a problem deleting your profile picture.
 avatar-page-image-too-large-error = The image file size is too large to be uploaded.
 
 ##
@@ -197,7 +198,7 @@ avatar-page-image-too-large-error = The image file size is too large to be uploa
 ## Password change page
 
 pw-change-header =
-  .title = Change Password
+  .title = Change password
 
 pw-change-stay-safe = Stay safe — don’t reuse passwords. Your password:
 pw-change-least-8-chars = Must be at least 8 characters
@@ -217,17 +218,19 @@ pw-change-new-password =
 pw-change-confirm-password =
   .label = Confirm new password
 
+pw-change-success-alert = Password updated.
+
 ##
 
 ## Delete account page
 
 delete-account-header =
- .title = Delete Account
+ .title = Delete account
 
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 
-delete-account-confirm-title = You’ve connected your { -product-firefox-accounts } to { -brand-mozilla } products that keep you secure and productive on the web:
+delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
 
 delete-account-acknowledge = Please acknowledge that by deleting your account:
 
@@ -247,18 +250,23 @@ delete-account-password-input =
  .label = Enter password
 
 delete-account-cancel-button = Cancel
-delete-account-delete-button = Delete Account
+delete-account-delete-button = Delete
 
 ##
 
 ## Display name page
 
+display-name-page-title =
+  .title = Display name
+
 display-name-input =
- .label = Enter display name
+  .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
 
 display-name-update-error = There was a problem updating your display name.
+
+display-name-success-alert = Display name updated.
 
 ##
 
@@ -274,6 +282,7 @@ recovery-key-page-title =
   .title = Recovery key
 recovery-key-step-1 = Step 1 of 2
 recovery-key-step-2 = Step 2 of 2
+recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
@@ -300,15 +309,19 @@ verify-secondary-email-verify-button = Verify
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } successfully added.
 
 ##
 
 # Link to delete account on main Settings page
-delete-account-link = Delete Account
+delete-account-link = Delete account
 
 ## Two Step Authentication
 
-tfa-title = Two-Step Authentication
+tfa-title = Two-step authentication
 
 tfa-step-1-3 = Step 1 of 3
 tfa-step-2-3 = Step 2 of 3
@@ -381,7 +394,7 @@ row-defaults-status = None
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = Enabled
-rk-not-set = Not Set
+rk-not-set = Not set
 rk-action-create = Create
 rk-action-remove = Remove
 rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
@@ -390,7 +403,7 @@ rk-cannot-remove-key = Your account recovery key could not be removed.
 rk-refresh-key = Refresh recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
-rk-cannot-verify-session = Sorry, there was a problem verifying your session
+rk-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 rk-remove-modal-heading = Remove recovery key?
 rk-remove-modal-content = In the event you reset your password, you won’t be
   able to use your recovery key to access your data. You can’t undo this action.
@@ -398,7 +411,7 @@ rk-remove-modal-content = In the event you reset your password, you won’t be
 ## Secondary email sub-section on main Settings page
 
 se-heading = Secondary email
-  .header = Secondary Email
+  .header = Secondary email
 se-cannot-refresh-email = Sorry, there was a problem refreshing that email.
 se-cannot-resend-code = Sorry, there was a problem re-sending the verification code.
 # This string is used in a notification message near the top of the page.
@@ -436,7 +449,7 @@ tfa-row-heading =
   .header = Two-step authentication
 tfa-row-disabled = Two-step authentication disabled.
 tfa-row-enabled = Enabled
-tfa-row-not-set = Not Set
+tfa-row-not-set = Not set
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
 
@@ -446,7 +459,7 @@ tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step
   authentication.
 tfa-row-content-explain = Prevent someone else from logging in by requiring a
   unique code only you have access to.
-tfa-row-cannot-verify-session = Sorry, there was a problem verifying your session
+tfa-row-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
