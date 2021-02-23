@@ -382,8 +382,10 @@ rk-enabld = Habilitado
 rk-not-set = No establecida
 rk-action-create = Crear
 rk-action-remove = Eliminar
-rk-cannot-refresh = Disculpá, hubo un problema al refrescar la clave de recuperación.
+rk-cannot-refresh = Disculpá, hubo un problema al actualizar la clave de recuperación.
 rk-key-removed = Se eliminó la clave de recuperación de la cuenta
+rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key = Actualizar la clave de recuperación
 rk-cannot-verify-session = Lo sentimos, hubo un problema verificando la sesión
 rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
