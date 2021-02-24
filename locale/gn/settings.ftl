@@ -272,6 +272,10 @@ recovery-key-success-alert = Oñemoheñói mba’eñemi jeguerujeyrã.
 ## Add secondary email page
 
 add-secondary-email-error = Oĩ apañuãi emoheñóivo ko ñanduti veve.
+add-secondary-email-page-title =
+    .title = Ñanduti veve mokõiháva
+add-secondary-email-enter-address =
+    .label = Ehai ñanduti veve kundaharape
 add-secondary-email-cancel-button = Heja
 add-secondary-email-save-button = Ñongatu
 
@@ -280,6 +284,8 @@ add-secondary-email-save-button = Ñongatu
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Ñanduti veve mokõiháva
 verify-secondary-email-cancel-button = Heja
 verify-secondary-email-verify-button = Hechajey
 
@@ -290,6 +296,9 @@ delete-account-link = Emboguete mba’ete
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Ku’e 1 3-gui
+tfa-step-2-3 = Ku’e 2 3-gui
+tfa-step-3-3 = Ku’e 3 3-gui
 tfa-button-continue = Ku’ejey
 tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
@@ -300,8 +309,16 @@ tfa-button-finish = Mbopaha
 ## Profile section
 
 porfile-heading = Mba'ete
+profile-display-name =
+    .header = Téra ehechauka hag̃ua
 profile-password =
     .header = Ñe'ẽñemi
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Heñoipyre { $date }
+profile-primary-email =
+    .header = Ñandutiveve mba’eguasuvéva
 
 ##
 
@@ -320,6 +337,8 @@ row-defaults-status = Avave
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = Myandypyre
+rk-not-set = Noñembohekóiva
+rk-action-create = Moheñói
 rk-action-remove = Mboguete
 
 ## Secondary email sub-section on main Settings page
