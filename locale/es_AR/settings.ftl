@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
 app-footer-privacy-notice = Nota de privacidad del sitio web
@@ -111,8 +111,8 @@ cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 cs-disconnect-advice-confirm = Listo, lo entendí
 cs-disconnect-lost-advice-heading = Dispositivo robado o perdido desconectado
-cs-disconnect-lost-advice-content =
-    Cómo el dispositivo fue robado o perdido, pafa
+cs-disconnect-lost-advice-content-2 =
+    Cómo el dispositivo fue robado o se perdió, para
     mantener la información segura, deberías cambiar la contraseña de { -product-firefox-accounts }
     en la configuración de tu cuenta. También deberías buscar información del
     fabricante del dispositivo sobre como borrar los datos de forma remota.
@@ -172,6 +172,7 @@ tfa-replace-code-error = Hubo un problema reemplazando los códigos de recuperac
 tfa-replace-code-success =
     Se crearon códigos nuevos. Guardá estos códigos de uso único
     en un lugar seguro, los necesitarás para acceder a tu cuenta si no tenés tu dispositivo móvil.
+tfa-replace-code-success-alert = Se actualizaron los códigos de recuperación de la cuenta.
 
 ## Avatar change page
 
@@ -195,8 +196,8 @@ avatar-page-rotate-button = Rotar
 avatar-page-camera-error = No se puede inicializar la cámara
 avatar-page-new-avatar =
     .alt = nueva foto de perfil
-avatar-page-file-upload-error = Hubo un problema subiendo la foto de perfil
-avatar-page-delete-error = Hubo un problema borrando el avatar
+avatar-page-file-upload-error-2 = Hubo un problema al cargar la foto de tu perfil.
+avatar-page-delete-error-2 = Hubo un problema al eliminar la foto de tu perfil.
 avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiado grande para ser subido.
 
 ##
@@ -223,6 +224,7 @@ pw-change-new-password =
     .label = Ingresar nueva contraseña
 pw-change-confirm-password =
     .label = Confirmar nueva contraseña
+pw-change-success-alert = Se actualizó la contraseña.
 
 ##
 
@@ -233,7 +235,7 @@ delete-account-header =
     .title = Borrar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
-delete-account-confirm-title = Conéctate tu { -product-firefox-accounts } a productos de { -brand-mozilla } que te mantienen seguro y productivo en la web:
+delete-account-confirm-title-2 = Conectaste tu { -product-firefox-account } con los productos de { -brand-mozilla } que te mantienen seguro y productivo en la web:
 delete-account-acknowledge = Tené en cuenta que al eliminar tu cuenta:
 delete-account-chk-box-1 =
     .label = Se cancelará cualquier suscripción que hayas pagado
@@ -248,18 +250,21 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Ingresar contraseña
 delete-account-cancel-button = Cancelar
-delete-account-delete-button = Borrar cuenta
+delete-account-delete-button-2 = Eliminar
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nombre para mostrar
 display-name-input =
     .label = Ingresar el nombre para mostrar
 submit-display-name = Guardar
 cancel-display-name = Cancelar
 display-name-update-error = Hubo un problema al actualizar tu nombre para mostrar.
+display-name-success-alert = Se actualizó el nombre para mostrar.
 
 ##
 
@@ -276,6 +281,7 @@ recovery-key-page-title =
     .title = Clave de recuperación
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
+recovery-key-success-alert = Se creó la clave de recuperación.
 
 ## Add secondary email page
 
@@ -303,6 +309,10 @@ verify-secondary-email-verify-button = Verificar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Ingresá el código de verificación que se envió a <strong> dentar de los próximos 5 minutos.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } se agregó correctamente.
 
 ##
 
@@ -386,7 +396,9 @@ rk-cannot-refresh = Disculpá, hubo un problema al actualizar la clave de recupe
 rk-key-removed = Se eliminó la clave de recuperación de la cuenta
 rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuenta.
 rk-refresh-key = Actualizar la clave de recuperación
-rk-cannot-verify-session = Lo sentimos, hubo un problema verificando la sesión
+rk-content-explain = Restaurá tu información cuando te olvides de tu contraseña.
+rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
+rk-cannot-verify-session-2 = Disculpá, hubo un problema al verificar la sesión.
 rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
 ## Secondary email sub-section on main Settings page
