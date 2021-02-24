@@ -393,6 +393,8 @@ rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávol�
 rk-refresh-key = Helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
+rk-cannot-verify-session-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
+rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
 
 ## Secondary email sub-section on main Settings page
 
