@@ -251,7 +251,7 @@ delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
 delete-account-cancel-button = Avbryt
-delete-account-delete-button = Ta bort konto
+delete-account-delete-button-2 = Ta bort
 
 ##
 
