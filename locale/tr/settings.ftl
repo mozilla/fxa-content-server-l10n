@@ -19,6 +19,11 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefox Hesapları
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Firefox hesabı
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -33,9 +38,11 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logosu
+app-footer-privacy-notice = Web Sitesi Gizlilik Bildirimi
+app-footer-terms-of-service = Hizmet Koşulları
 
 ##
 
@@ -58,12 +65,23 @@ avatar-default-avatar =
 
 cs-heading = Bağlı hizmetler
 cs-description = Kullandığınız ve giriş yaptığınız her şey.
+cs-cannot-refresh =
+    Üzgünüz, bağlı hizmetlerin listesi yenilenirken bir
+    sorun oluştu.
 cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eksik veya çift kayıtlar mı var?
 cs-disconnect-sync-heading = Sync bağlantısını kes
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Gezinti verileriniz cihazınızda ({ $device })
+    korunacak ama artık hesabınızla eşitlenmeyecek.
 cs-disconnect-sync-reason =
     Bu cihazın bağlantısının kesilmesinin
     temel nedeni nedir?
@@ -75,9 +93,14 @@ cs-disconnect-sync-opt-prefix = Cihaz:
 cs-disconnect-sync-opt-suspicious = Şüpheli
 cs-disconnect-sync-opt-lost = Kayboldu veya çalındı
 cs-disconnect-sync-opt-old = Eski veya değiştirildi
+cs-disconnect-sync-opt-duplicate = Çift kopya
+cs-disconnect-sync-opt-not-say = Söylemek istemiyorum
 
 ##
 
+cs-disconnect-advice-confirm = Tamam, anladım
+cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı kesildi
+cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-sign-out-button = Çıkış yap
 
 ##
@@ -105,8 +128,10 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Menüyü kapat
+header-menu-closed = Site gezinti menüsü
 header-back-to-top-link =
     .title = Başa dön
+header-title = { -product-firefox-accounts }
 header-switch-title = Klasik tasarımı geç
     .title = klasik tasarım bağlantısı
 header-help = Yardım
@@ -118,9 +143,13 @@ nav-profile = Profil
 nav-security = Güvenlik
 nav-connected-services = Bağlı hizmetler
 nav-paid-subs = Ücretli abonelikler
+nav-email-comm = E-posta iletişimi
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Kurtarma kodlarınız değiştirilirken bir sorun oluştu.
+tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
+tfa-replace-code-success-alert = Hesap kurtarma kodları güncellendi.
 
 ## Avatar change page
 
@@ -132,8 +161,10 @@ avatar-page-add-photo-button =
 avatar-page-take-photo = Fotoğraf çek
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Fotoğrafı kaldır
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Yeniden fotoğraf çek
 avatar-page-close-button = Kapat
 avatar-page-save-button = Kaydet
 avatar-page-zoom-out-button = Uzaklaştır
@@ -142,8 +173,9 @@ avatar-page-rotate-button = Döndür
 avatar-page-camera-error = Kamera başlatılamadı
 avatar-page-new-avatar =
     .alt = yeni profil fotoğrafı
-avatar-page-file-upload-error = Profil fotoğrafınız yüklenirken bir sorun oluştu
-avatar-page-delete-error = Avatarınız silinirken bir sorun oluştu
+avatar-page-file-upload-error-2 = Profil fotoğrafınız yüklenirken bir sorun oluştu.
+avatar-page-delete-error-2 = Profil fotoğrafınız silinirken bir sorun oluştu.
+avatar-page-image-too-large-error = Görüntü dosyası boyutu yüklenemeyecek kadar büyük.
 
 ##
 
@@ -163,12 +195,15 @@ pw-change-new-password =
     .label = Yeni parolanızı yazın
 pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
+pw-change-success-alert = Parola güncellendi.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Hesabı sil
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
@@ -185,16 +220,21 @@ delete-account-continue-button = Devam
 delete-account-password-input =
     .label = Parolanızı yazın
 delete-account-cancel-button = İptal
-delete-account-delete-button = Hesabı sil
+delete-account-delete-button-2 = Sil
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Görünen ad
+display-name-input =
+    .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
 display-name-update-error = Görünen adınız güncellenirken bir sorun oluştu.
+display-name-success-alert = Görünen ad güncellendi.
 
 ##
 
@@ -204,23 +244,60 @@ display-name-update-error = Görünen adınız güncellenirken bir sorun oluştu
 recovery-key-cancel-button = İptal
 recovery-key-close-button = Kapat
 recovery-key-continue-button = Devam et
+recovery-key-enter-password =
+    .label = Parolanızı yazın
+recovery-key-page-title =
+    .title = Kurtarma anahtarı
+recovery-key-step-1 = Adım 1/2
+recovery-key-step-2 = Adım 2/2
+recovery-key-success-alert = Kurtarma anahtarı oluşturuldu.
 
 ## Add secondary email page
 
+add-secondary-email-error = Bu e-posta oluşturulurken bir sorun oluştu.
+add-secondary-email-enter-address =
+    .label = E-posta adresinizi yazın
+add-secondary-email-cancel-button = İptal
+add-secondary-email-save-button = Kaydet
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Doğrulama kodu gönderilirken bir sorun oluştu.
+verify-secondary-email-verification-code =
+    .label = Doğrulama kodunuzu girin
+verify-secondary-email-cancel-button = İptal
+verify-secondary-email-verify-button = Doğrula
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Lütfen <strong>{ $email }</strong> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } başarıyla eklendi.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Hesabı sil
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Adım 1/3
+tfa-step-2-3 = Adım 2/3
+tfa-step-3-3 = Adım 3/3
+tfa-button-continue = Devam et
+tfa-button-cancel = İptal
+tfa-button-finish = Bitir
+tfa-cannot-verify-code = Kurtarma kodunuz doğrulanırken bir sorun oluştu.
+tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
+tfa-enter-recovery-code =
+    .label = Bir kurtarma kodu yazın
 
 ##
 
@@ -269,7 +346,6 @@ tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
-tfa-row-cannot-verify-session = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
