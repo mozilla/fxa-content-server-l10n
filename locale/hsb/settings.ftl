@@ -329,6 +329,7 @@ tfa-qa-code-alt =
 tfa-button-cant-scan-qr = Njemóžeće kod skenować?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:
+tfa-enter-totp = Zapodajće nětko wěstotny kod z awtentifikaciskeho nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
 tfa-save-these-codes = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
@@ -372,22 +373,33 @@ rk-enabld = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
 rk-action-remove = Wotstronić
+rk-cannot-refresh = Bohužel je při aktualizowanju wobnowjenskeho kluča problem nastał.
 rk-key-removed = Kontowy wobnowjenski kluč je so wotstronił.
+rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 rk-refresh-key = Wobnowjenski kluč aktualizować
+rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
+rk-content-reset-data = Čehodla so moje data wróćo stajeja, hdyž swoje hesło wróćo stajam?
+rk-cannot-verify-session-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Druha e-mejlowa adresa
     .header = Druha e-mejlowa adresa
+se-cannot-refresh-email = Bohužel je při aktualizowanju teje e-mejloweje adresy problem nastał.
+se-cannot-resend-code = Bohužel je při wospjetnym słanju wobkrućenskeho koda problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } je nětko waša primarna e-mejlowa adresa.
+se-set-primary-error = Bohužel je při měnjenju wašeje primarneje e-mejloweje adresy problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } je so wuspěšnje zhašała.
+se-delete-email-error = Bohužel je při hašenju teje e-mejloweje adresy problem nastał.
+se-verify-session = Dyrbiće swoje aktualne posedźenje přepruwować, zo byšće tutu akciju wuwjedł.
+se-verify-session-error = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mejlowu adresu wotstronić
