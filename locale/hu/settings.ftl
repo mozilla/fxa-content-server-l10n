@@ -414,6 +414,8 @@ se-set-primary-error = Sajnos probléma merült fel az elsődleges e-mail-cím m
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = A(z) { $email } sikeresen törölve.
+se-delete-email-error = Sajnos probléma merült fel az e-mail-cím törlésekor.
+se-verify-session-error = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 
 ##
 
