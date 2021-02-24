@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } 圖示
 app-footer-privacy-notice = 網站隱私權保護政策
@@ -103,7 +103,7 @@ cs-disconnect-sync-opt-not-say = 我不想說
 
 cs-disconnect-advice-confirm = 好的，知道了
 cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
-cs-disconnect-lost-advice-content = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-accounts } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
+cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
@@ -154,6 +154,7 @@ nav-email-comm = 電子郵件通訊
 
 tfa-replace-code-error = 取代您的救援碼時發生問題。
 tfa-replace-code-success = 已產生新的救援碼，請將這些單次使用代碼保存在安全的地方，當您無法再使用行動裝置時，可以使用救援碼登入帳號。
+tfa-replace-code-success-alert = 已更新帳號救援碼。
 
 ## Avatar change page
 
@@ -177,8 +178,8 @@ avatar-page-rotate-button = 旋轉
 avatar-page-camera-error = 無法初始化攝影機
 avatar-page-new-avatar =
     .alt = 新增個人資料照片
-avatar-page-file-upload-error = 更新您的個人資料大頭照時發生問題
-avatar-page-delete-error = 刪除您的大頭照時發生問題
+avatar-page-file-upload-error-2 = 更新您的個人資料大頭照時發生問題。
+avatar-page-delete-error-2 = 刪除您的個人資料大頭照時發生問題。
 avatar-page-image-too-large-error = 圖片檔案太大，無法上傳。
 
 ##
@@ -203,6 +204,7 @@ pw-change-new-password =
     .label = 輸入新密碼
 pw-change-confirm-password =
     .label = 確認新密碼
+pw-change-success-alert = 密碼已更新。
 
 ##
 
@@ -213,7 +215,7 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
-delete-account-confirm-title = 您已將 { -product-firefox-accounts } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品:
+delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品:
 delete-account-acknowledge = 請確認若刪除帳號:
 delete-account-chk-box-1 =
     .label = 將取消您所有已付款的訂閱內容
@@ -235,11 +237,14 @@ delete-account-delete-button = 刪除帳號
 
 ## Display name page
 
+display-name-page-title =
+    .title = 顯示名稱
 display-name-input =
     .label = 輸入顯示名稱
 submit-display-name = 儲存
 cancel-display-name = 取消
 display-name-update-error = 更新您的顯示名稱時發生問題。
+display-name-success-alert = 已更新顯示名稱。
 
 ##
 
@@ -256,6 +261,7 @@ recovery-key-page-title =
     .title = 救援金鑰
 recovery-key-step-1 = 第 1 步，共 2 步
 recovery-key-step-2 = 第 2 步，共 2 步
+recovery-key-success-alert = 已建立救援金鑰。
 
 ## Add secondary email page
 
@@ -283,6 +289,10 @@ verify-secondary-email-verify-button = 驗證
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 請於 5 分鐘內輸入發送到 <strong>{ $email }</strong> 的驗證碼。
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = 成功加入 { $email }。
 
 ##
 
@@ -362,7 +372,7 @@ rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
 rk-refresh-key = 重新整理救援金鑰
 rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
-rk-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
+rk-cannot-verify-session-2 = 很抱歉，確認您的連線階段時發生問題。
 rk-remove-modal-heading = 要移除救援金鑰嗎？
 rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
 
@@ -413,7 +423,7 @@ tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
-tfa-row-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
+tfa-row-cannot-verify-session-2 = 很抱歉，確認您的連線階段時發生問題。
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain = 將無法還原此動作。您還可以<linkExternal>換新救援碼</linkExternal>。
