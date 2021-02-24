@@ -260,7 +260,7 @@ delete-account-continue-button = Продолжить
 delete-account-password-input =
     .label = Введите пароль
 delete-account-cancel-button = Отмена
-delete-account-delete-button = Удалить аккаунт
+delete-account-delete-button-2 = Удалить
 
 ##
 
