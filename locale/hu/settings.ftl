@@ -416,6 +416,13 @@ se-set-primary-error = Sajnos probléma merült fel az elsődleges e-mail-cím m
 se-delete-email-successful = A(z) { $email } sikeresen törölve.
 se-delete-email-error = Sajnos probléma merült fel az e-mail-cím törlésekor.
 se-verify-session-error = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-mail-cím eltávolítása
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-mail-cím frissítése
+se-unverified = nem ellenőrzött
 
 ##
 
