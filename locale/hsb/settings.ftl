@@ -60,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telefon abo tablet
+connect-another-find-fx-mobile =
+    Namakajće { -brand-firefox } w { -google-play } a { -app-store } abo
+    <br /><linkExternal>sćelće sćehnjenski wotkaz na swój grat.</linkExternal>
 
 ##
 
@@ -68,6 +71,9 @@ connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telef
 
 cs-heading = Zwjazane słužby
 cs-description = Wšitko, štož wužiwaće a hdźež sće přizjewjeny.
+cs-cannot-refresh =
+    Při aktualizowanju lisćiny zwjazanych słužbow je problem
+    nastał.
 cs-cannot-disconnect = Klient njeje so namakał, zwisk njeda so dźělić
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -228,7 +234,6 @@ delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać
 delete-account-cancel-button = Přetorhnyć
-delete-account-delete-button = Konto zhašeć
 
 ##
 
