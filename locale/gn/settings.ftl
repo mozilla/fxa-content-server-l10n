@@ -185,12 +185,19 @@ avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
 avatar-page-file-upload-error-2 = Iñapysẽ apañuãi ehupivo nera’ãnga mba’etépe.
 avatar-page-delete-error-2 = Iñapysẽ apañuãi emboguévo nera’ãnga mba’etépe.
+avatar-page-image-too-large-error = Pe ta’ãnga marandurenda tuichaiterei ehupi hag̃ua.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Emoambue ñe’ẽñemi
+pw-change-stay-safe = Eiko tekorosãme — ani eipurujey ñe’ẽñemi. Ne ñe’ẽñemi:
+pw-change-least-8-chars = Orekova’erã michĩvérõ 8 tai
+pw-change-not-contain-email = Ndaikatúi emoĩ ne ñanduti veve kundaharape
+pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
 pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
