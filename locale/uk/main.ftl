@@ -154,7 +154,7 @@ payment-validate-zip-short = Поштовий індекс закороткий
 ## subscription redirect
 
 sub-redirect-ready = Вашу передплату налаштовано
-sub-redirect-copy = Будь ласка, знайдіть хвилинку, щоб розповісти про свій досвід.
+sub-redirect-copy = Будь ласка, знайдіть хвилинку, щоб розповісти про свої враження.
 sub-redirect-skip-survey = Ні, дякую, я хочу перейти до мого продукту.
 
 ## fields

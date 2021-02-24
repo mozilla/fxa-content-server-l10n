@@ -20,10 +20,64 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Облікові записи Firefox
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Облікові записи Firefox
+                [lower] облікові записи Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Облікових записів Firefox
+                [lower] облікових записів Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Обліковим записам Firefox
+                [lower] обліковим записам Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Облікові записи Firefox
+                [lower] облікові записи Firefox
+            }
+        [abl]
+            { $capitalization ->
+               *[upper] Обліковими записами Firefox
+                [lower] обліковими записами Firefox
+            }
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Обліковий запис Firefox
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Обліковий запис Firefox
+                [lower] обліковий запис Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Облікового запису Firefox
+                [lower] облікового запису Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Обліковому записі Firefox
+                [lower] обліковому записі Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Обліковий запис Firefox
+                [lower] обліковий запис Firefox
+            }
+        [abl]
+            { $capitalization ->
+               *[upper] Обліковим записом Firefox
+                [lower] обліковим записом Firefox
+            }
+    }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -72,7 +126,7 @@ connect-another-find-fx-mobile =
 cs-heading = Під'єднані послуги
 cs-description = Все, чим ви користуєтесь і де ви увійшли.
 cs-cannot-refresh =
-    Шкода, але виникла проблема при оновленні списку
+    Перепрошуємо, але виникла проблема при оновленні списку
     під'єднаних служб.
 cs-cannot-disconnect = Клієнта не знайдено. Неможливо від'єднати
 # This string is used in a notification message near the top of the page.
@@ -113,15 +167,10 @@ cs-disconnect-advice-confirm = Гаразд, зрозуміло
 cs-disconnect-lost-advice-heading = Втрачений або викрадений пристрій від'єднано
 cs-disconnect-lost-advice-content-2 =
     Оскільки ваш пристрій було втрачено або викрадено, щоб
-    захистити свої дані, вам варто змінити пароль { -product-firefox-account }
-    у налаштуваннях вашого облікового запису. Ви також повинні глянути поради
+    захистити свої дані, вам варто змінити пароль { -product-firefox-account(case: "gen") }
+    у його налаштуваннях. Ви також повинні глянути поради
     виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
-cs-disconnect-suspicious-advice-content =
-    Якщо від'єднаний пристрій справді підозрілий,
-    щоб зберегти свою інформацію в безпеці, вам слід змінити пароль { -product-firefox-accounts }
-    у налаштуваннях облікового запису. Вам також варто змінити будь-які інші паролі,
-    які ви зберегли в { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
 
 ##
@@ -197,8 +246,8 @@ avatar-page-rotate-button = Обернути
 avatar-page-camera-error = Не вдалося ініціалізувати камеру
 avatar-page-new-avatar =
     .alt = нове зображення профілю
-avatar-page-file-upload-error-2 = Виникла проблема під час вивантаження зображення профілю.
-avatar-page-delete-error-2 = Виникла проблема під час видалення зображення профілю.
+avatar-page-file-upload-error-2 = Виникла проблема при вивантаженні зображення профілю.
+avatar-page-delete-error-2 = Виникла проблема при видаленні зображення профілю.
 avatar-page-image-too-large-error = Розмір файлу зображення завеликий для завантаження.
 
 ##
@@ -251,7 +300,7 @@ delete-account-continue-button = Продовжити
 delete-account-password-input =
     .label = Введіть пароль
 delete-account-cancel-button = Скасувати
-delete-account-delete-button = Видалити обліковий запис
+delete-account-delete-button-2 = Видалити
 
 ##
 
@@ -259,13 +308,13 @@ delete-account-delete-button = Видалити обліковий запис
 ## Display name page
 
 display-name-page-title =
-    .title = Показуване ім’я
+    .title = Ім'я для показу
 display-name-input =
     .label = Введіть ім'я для показу
 submit-display-name = Зберегти
 cancel-display-name = Скасувати
 display-name-update-error = Виникла проблема при оновленні вашого імені.
-display-name-success-alert = Показуване ім’я оновлено.
+display-name-success-alert = Ім’я для показу оновлено.
 
 ##
 
@@ -396,13 +445,13 @@ rk-enabld = Увімкнено
 rk-not-set = Не встановлено
 rk-action-create = Створити
 rk-action-remove = Вилучити
-rk-cannot-refresh = Шкода, але при оновленні коду відновлення виникла проблема.
+rk-cannot-refresh = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
 rk-key-removed = Ключ відновлення облікового запису вилучено.
 rk-cannot-remove-key = Не вдається видалити ключ відновлення вашого облікового запису.
 rk-refresh-key = Оновити ключ відновлення
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
-rk-cannot-verify-session-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема.
+rk-cannot-verify-session-2 = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
@@ -412,20 +461,20 @@ rk-remove-modal-content =
 
 se-heading = Додаткова адреса е-пошти
     .header = Додаткова адреса е-пошти
-se-cannot-refresh-email = Шкода, але при оновленні цієї адреси виникла проблема.
-se-cannot-resend-code = На жаль, при повторному надсиланні коду підтвердження виникла проблема.
+se-cannot-refresh-email = Перепрошуємо, але при оновленні цієї адреси виникла проблема.
+se-cannot-resend-code = Перепрошуємо, але при повторному надсиланні коду підтвердження виникла проблема.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } тепер ваша основна електронна адреса.
-se-set-primary-error = На жаль, при зміні основної адреси е-пошти виникла проблема.
+se-set-primary-error = Перепрошуємо, але при зміні основної адреси е-пошти виникла проблема.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } успішно видалено.
-se-delete-email-error = На жаль, при видаленні цієї адреси виникла проблема.
+se-delete-email-error = Перепрошуємо, але при видаленні цієї адреси виникла проблема.
 se-verify-session = Щоб виконати цю дію, вам необхідно підтвердити поточний сеанс.
-se-verify-session-error = Шкода, але при підтвердженні сеансу виникла проблема.
+se-verify-session-error = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 # Button to remove the secondary email
 se-remove-email =
     .title = Вилучити е-пошту
@@ -458,12 +507,12 @@ tfa-row-action-disable = Вимкнути
 tfa-row-button-refresh =
     .title = Оновити двоетапну перевірку
 tfa-row-cannot-refresh =
-    На жаль, при оновленні двоетапної перевірки
+    Перепрошуємо, але при оновленні двоетапної перевірки
     виникла проблема.
 tfa-row-content-explain =
     Запобігайте увійти комусь іншому, вимагаючи
     унікальний код, який є тільки у вас.
-tfa-row-cannot-verify-session-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема.
+tfa-row-cannot-verify-session-2 = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
