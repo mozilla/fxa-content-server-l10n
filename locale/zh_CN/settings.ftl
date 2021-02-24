@@ -103,6 +103,7 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
+cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
 cs-disconnect-suspicious-advice-content = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
@@ -153,6 +154,7 @@ nav-email-comm = 电子邮件通信
 
 tfa-replace-code-error = 更新您的救援码时出现问题。
 tfa-replace-code-success = 已生成新的救援码，请将它们保存在安全的地方，当您无法使用移动设备时，可用来访问账户。
+tfa-replace-code-success-alert = 账户救援码已更新。
 
 ## Avatar change page
 
@@ -176,6 +178,8 @@ avatar-page-rotate-button = 旋转
 avatar-page-camera-error = 无法初始化摄像头
 avatar-page-new-avatar =
     .alt = 更换头像
+avatar-page-file-upload-error-2 = 上传您的头像时出现问题。
+avatar-page-delete-error-2 = 删除您的头像时出现问题
 avatar-page-image-too-large-error = 图片太大，无法上传。
 
 ##
@@ -200,6 +204,7 @@ pw-change-new-password =
     .label = 请输入新密码
 pw-change-confirm-password =
     .label = 请确认新密码
+pw-change-success-alert = 密码已更新。
 
 ##
 
@@ -210,6 +215,7 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
+delete-account-confirm-title-2 = 您已将 { -product-firefox-account }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
 delete-account-acknowledge = 请确认，若您真要删除账户：
 delete-account-chk-box-1 =
     .label = 将取消您的所有付费订阅内容
