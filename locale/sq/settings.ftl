@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Stemë { -brand-mozilla }
 app-footer-privacy-notice = Njoftim Privatësie Sajti
@@ -107,9 +107,9 @@ cs-disconnect-sync-opt-not-say = S’dëshiroj ta them
 
 cs-disconnect-advice-confirm = OK, e mora vesh
 cs-disconnect-lost-advice-heading = U shkëput pajisje e humbur ose e vjedhur
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Meqë pajisja juaj qe vjedhur ose humbur, për
-    të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-accounts } tuaj
+    të mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account } tuaj
     te rregullimet e llogarisë tuaj. Duhet të kërkoni gjithashtu informacion nga
     prodhuesi i pajisjes tuaj rreth fshirjes së të dhënave së largëti.
 cs-disconnect-suspicious-advice-heading = U shkëput pajisje e dyshimtë
@@ -168,6 +168,7 @@ tfa-replace-code-error = Pati një problem me zëvendësimin e kodeve tuaj të r
 tfa-replace-code-success =
     U krijuan kode të reja. Ruajini këto kode njëpërdorimsh në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
     pajisjen tuaj celulare.
+tfa-replace-code-success-alert = Kodet e rikthimit të llogarisë u përditësuan.
 
 ## Avatar change page
 
@@ -191,8 +192,8 @@ avatar-page-rotate-button = Rrotulloje
 avatar-page-camera-error = Nuk u gatit dot kamera
 avatar-page-new-avatar =
     .alt = foto e re profili
-avatar-page-file-upload-error = Pati një problem gjatë ngarkimit të fotos tuaj të profilit.
-avatar-page-delete-error = Pati një problem me fshirjen e avatarit tuaj
+avatar-page-file-upload-error-2 = Pati një problem gjatë ngarkimit të fotos tuaj të profilit.
+avatar-page-delete-error-2 = Pati një problem gjatë fshirjes së fotos tuaj të profilit.
 avatar-page-image-too-large-error = Madhësia e kartelës figurë është shumë e madhe për t’u ngarkuar.
 
 ##
@@ -219,6 +220,7 @@ pw-change-new-password =
     .label = Jepni fjalëkalimin e ri
 pw-change-confirm-password =
     .label = Ripohoni fjalëkalimin e ri
+pw-change-success-alert = Fjalëkalimi u përditësua.
 
 ##
 
@@ -229,7 +231,7 @@ delete-account-header =
     .title = Fshijeni Llogarinë
 delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
-delete-account-confirm-title = E keni lidhur { -product-firefox-accounts } tuaj me produkte { -brand-mozilla } që ju mbajnë në internet të parrezikuar dhe prodhimtar në internet:
+delete-account-confirm-title-2 = E keni lidhur { -product-firefox-account } tuaj me produkte { -brand-mozilla } që ju mbajnë në internet të parrezikuar dhe prodhimtar në internet:
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
 delete-account-chk-box-1 =
     .label = Do të anulohet çfarëdo pajtimi me pagesë që keni
@@ -244,18 +246,21 @@ delete-account-continue-button = Vazhdo
 delete-account-password-input =
     .label = Jepni fjalëkalimin
 delete-account-cancel-button = Anuloje
-delete-account-delete-button = Fshije Llogarinë
+delete-account-delete-button-2 = Fshije
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Emër në ekran
 display-name-input =
     .label = Jepni emër për në ekran
 submit-display-name = Ruaje
 cancel-display-name = Anuloje
 display-name-update-error = Pati një problem me përditësimin e emrit tuaj në ekran.
+display-name-success-alert = Emri për në ekran u përditësua.
 
 ##
 
@@ -272,6 +277,7 @@ recovery-key-page-title =
     .title = Kyç rimarrjeje
 recovery-key-step-1 = Hapi 1 nga 2
 recovery-key-step-2 = Hapi 2 nga 2
+recovery-key-success-alert = U krijua kyç rimarrjeje.
 
 ## Add secondary email page
 
@@ -299,6 +305,10 @@ verify-secondary-email-verify-button = Verifikoje
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } u shtua me sukses.
 
 ##
 
@@ -383,7 +393,7 @@ rk-cannot-remove-key = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
 rk-refresh-key = Rifreskoni kyç rikthimi
 rk-content-explain = Riktheni të dhënat tuaja, kur harroni fjalëkalimin tuaj.
 rk-content-reset-data = Pse ricaktimi i fjalëkalimit tim shkakton zerimin e të dhënave të mia?
-rk-cannot-verify-session = Na ndjeni, pati një problem në verifikimin e sesionit tuaj
+rk-cannot-verify-session-2 = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
 rk-remove-modal-heading = Të hiqet kyçi i rikthimit?
 rk-remove-modal-content =
     Për rastet kur ricaktoni fjalëkalimin tuaj, s’do të jeni
@@ -444,7 +454,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pengojini hyrjen dikujt, duke kërkuar doemos një
     kod unik, të cilin e dini vetëm ju.
-tfa-row-cannot-verify-session = Na ndjeni, pati një problem në verifikimin e sesionit tuaj
+tfa-row-cannot-verify-session-2 = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
 tfa-row-disable-modal-explain =
