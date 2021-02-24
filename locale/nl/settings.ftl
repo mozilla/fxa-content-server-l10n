@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
 app-footer-privacy-notice = Privacyverklaring voor website
@@ -111,9 +111,9 @@ cs-disconnect-sync-opt-not-say = Zeg ik liever niet
 
 cs-disconnect-advice-confirm = Oké, begrepen
 cs-disconnect-lost-advice-heading = Verloren of gestolen apparaat ontkoppeld
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Omdat uw apparaat verloren of gestolen is dient u, om
-    uw gegevens veilig te houden, uw wachtwoord van { -product-firefox-accounts } te wijzigen
+    uw gegevens veilig te houden, het wachtwoord van uw { -product-firefox-account } te wijzigen
     in uw accountinstellingen. U kunt het beste ook informatie bij de producent van uw
     apparaat opzoeken over het op afstand wissen van uw gegevens.
 cs-disconnect-suspicious-advice-heading = Verdacht apparaat ontkoppeld
@@ -173,6 +173,7 @@ tfa-replace-code-success =
     Er zijn nieuwe codes aangemaakt. Bewaar deze codes voor eenmalig gebruik
     op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
     mobiele apparaat niet hebt.
+tfa-replace-code-success-alert = Accountherstelcodes bijgewerkt.
 
 ## Avatar change page
 
@@ -196,8 +197,8 @@ avatar-page-rotate-button = Roteren
 avatar-page-camera-error = Kon camera niet initialiseren
 avatar-page-new-avatar =
     .alt = nieuwe profielafbeelding
-avatar-page-file-upload-error = Er is een probleem opgetreden bij het uploaden van uw profielafbeelding
-avatar-page-delete-error = Er is een probleem opgetreden bij het verwijderen van uw avatar
+avatar-page-file-upload-error-2 = Er is een probleem opgetreden bij het uploaden van uw profielafbeelding.
+avatar-page-delete-error-2 = Er is een probleem opgetreden bij het verwijderen van uw profielafbeelding.
 avatar-page-image-too-large-error = De afbeeldingsbestandsgrootte is te groot om te uploaden.
 
 ##
@@ -224,6 +225,7 @@ pw-change-new-password =
     .label = Voer nieuw wachtwoord in
 pw-change-confirm-password =
     .label = Bevestig nieuw wachtwoord
+pw-change-success-alert = Wachtwoord bijgewerkt.
 
 ##
 
@@ -234,7 +236,7 @@ delete-account-header =
     .title = Account verwijderen
 delete-account-step-1-2 = Stap 1 van 2
 delete-account-step-2-2 = Stap 2 van 2
-delete-account-confirm-title = U hebt uw { -product-firefox-accounts } verbonden met { -brand-mozilla }-producten die u veilig en productief houden op internet:
+delete-account-confirm-title-2 = U hebt uw { -product-firefox-account } verbonden met { -brand-mozilla }-producten die u veilig en productief houden op internet:
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
 delete-account-chk-box-1 =
     .label = Al uw betaalde abonnementen worden geannuleerd
@@ -249,18 +251,21 @@ delete-account-continue-button = Doorgaan
 delete-account-password-input =
     .label = Voer wachtwoord in
 delete-account-cancel-button = Annuleren
-delete-account-delete-button = Account verwijderen
+delete-account-delete-button-2 = Verwijderen
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Weergavenaam
 display-name-input =
     .label = Voer schermnaam in
 submit-display-name = Opslaan
 cancel-display-name = Annuleren
 display-name-update-error = Er is een probleem opgetreden bij het bijwerken van uw schermnaam.
+display-name-success-alert = Weergavenaam bijgewerkt.
 
 ##
 
@@ -277,6 +282,7 @@ recovery-key-page-title =
     .title = Herstelsleutel
 recovery-key-step-1 = Stap 1 van 2
 recovery-key-step-2 = Stap 2 van 2
+recovery-key-success-alert = Herstelsleutel aangemaakt.
 
 ## Add secondary email page
 
@@ -304,6 +310,10 @@ verify-secondary-email-verify-button = Verifiëren
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Voer binnen 5 minuten de verificatiecode in die naar <strong>{ $email }</strong> is verzonden.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } met succes toegevoegd.
 
 ##
 
@@ -392,7 +402,7 @@ rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd
 rk-refresh-key = Herstelsleutel vernieuwen
 rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
 rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
-rk-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
+rk-cannot-verify-session-2 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
 rk-remove-modal-heading = Herstelsleutel verwijderen?
 rk-remove-modal-content =
     Als u uw wachtwoord herinitialiseert, kunt u uw
@@ -453,7 +463,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Voorkom dat iemand anders aanmeldt door een
     unieke code waar alleen u toegang toe hebt te vereisen.
-tfa-row-cannot-verify-session = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
+tfa-row-cannot-verify-session-2 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
 tfa-row-disable-modal-explain =
