@@ -348,6 +348,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Mentse ezeket az egyszer használatos kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
+tfa-enter-code-to-confirm =
+    Adja meg az egyik helyreállítási kódját, hogy
+    megerősíthessük, hogy elmentette azokat. Egy kódra lesz szüksége, ha
+    elveszíti az eszközét, és hozzá akar férni a fiókjához.
 tfa-enter-recovery-code =
     .label = Adjon meg egy helyreállítási kódot
 
@@ -388,6 +392,7 @@ rk-enabld = Engedélyezve
 rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
+rk-cannot-refresh = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
 rk-key-removed = Fiók-helyreállítási kulcs eltávolítva.
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key = Helyreállítási kulcs frissítése
@@ -415,6 +420,7 @@ se-set-primary-error = Sajnos probléma merült fel az elsődleges e-mail-cím m
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = A(z) { $email } sikeresen törölve.
 se-delete-email-error = Sajnos probléma merült fel az e-mail-cím törlésekor.
+se-verify-session = A művelet végrehajtásához ellenőriznie kell a jelenlegi munkamenetet.
 se-verify-session-error = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 # Button to remove the secondary email
 se-remove-email =
@@ -474,3 +480,7 @@ avatar-change-link = Módosítás
 
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
+auth-error-110 = Érvénytelen token
+auth-error-138 = Nem ellenőrzött munkamenet
+auth-error-155 = A TOTP token nem található
+auth-error-1008 = Az új jelszónak különbözőnek kell lennie
