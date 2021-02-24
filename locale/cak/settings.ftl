@@ -64,12 +64,17 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Tak'ulu' { -brand-firefox } pan oyonib'äl o kematz'ib'
+connect-another-find-fx-mobile =
+    Takanoj { -brand-firefox } pa { -google-play } chuqa' pa { -app-store } o
+    <br /><linkExternal>tataqa' jun ruximonel qasanïk pan awoyonib'al.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Taq Samaj Ye'okisäx
+cs-description = Ronojel ri nawokisaj chuqa' akuchi' xatikirisaj molojri'ïl.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
