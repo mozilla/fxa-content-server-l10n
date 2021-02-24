@@ -166,33 +166,120 @@ nav-email-comm = E-mail kommunikáció
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Hiba történt a helyreállítási kódok cseréjekor.
+tfa-replace-code-success =
+    Új kódot lettek létrehozva. Mentse ezeket az egyszer használatos
+    kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
+    nélkül kell hozzáférnie a fiókjához.
+tfa-replace-code-success-alert = Fiók-helyreállítási kódok frissítve.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilkép
+avatar-page-add-photo = Fénykép hozzáadása
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fénykép készítése
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Fénykép eltávolítása
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Fénykép újbóli elkészítése
+avatar-page-close-button = Bezárás
+avatar-page-save-button = Mentés
+avatar-page-zoom-out-button = Kicsinyítés
+avatar-page-zoom-in-button = Nagyítás
+avatar-page-rotate-button = Forgatás
+avatar-page-camera-error = A kamera nem készíthető elő
+avatar-page-new-avatar =
+    .alt = új profilkép
+avatar-page-file-upload-error-2 = Hiba történt a profilkép feltöltésekor.
+avatar-page-delete-error-2 = Hiba történt a profilkép törlésekor.
+avatar-page-image-too-large-error = A képfájl mérete túl nagy a feltöltéshez.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Jelszó módosítása
+pw-change-stay-safe = Maradjon biztonságban – ne használja újra a jelszavakat. A jelszava:
+pw-change-least-8-chars = Legalább 8 karakter hosszúnak kell lennie
+pw-change-not-contain-email = Nem lehet az e-mail címe
+pw-change-must-match = Az új jelszó megegyezik a megerősítő szöveggel
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Nem szerepelhez <linkExternal>a gyakori jelszavak
+    között</linkExternal>
+pw-change-cancel-button = Mégse
+pw-change-save-button = Mentés
+pw-change-forgot-password-link = Elfelejtette a jelszót?
+pw-change-current-password =
+    .label = Írja be a jelenlegi jelszavát
+pw-change-new-password =
+    .label = Írja be az új jelszót
+pw-change-confirm-password =
+    .label = Erősítse meg az új jelszót
+pw-change-success-alert = A jelszó frissítve.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Fiók törlése
+delete-account-step-1-2 = 1. / 2. lépés
+delete-account-step-2-2 = 2. / 2. lépés
+delete-account-confirm-title-2 = Összekapcsolta a { -product-firefox-account }ját a { -brand-mozilla } termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:
+delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
+delete-account-chk-box-1 =
+    .label = Az összes előfizetése lemondásra kerül
+delete-account-chk-box-2 =
+    .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
+delete-account-chk-box-3 =
+    .label = Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit
+delete-account-chk-box-4 =
+    .label = Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek
+delete-account-close-button = Bezárás
+delete-account-continue-button = Folytatás
+delete-account-password-input =
+    .label = Adja meg a jelszót
+delete-account-cancel-button = Mégse
+delete-account-delete-button-2 = Törlés
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Megjelenő név
+display-name-input =
+    .label = Írja be a megjelenő nevet
+submit-display-name = Mentés
+cancel-display-name = Mégse
+display-name-update-error = Hiba történt a megjelenő név frissítésekor.
+display-name-success-alert = Megjelenő név frissítve.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Mégse
+recovery-key-close-button = Bezárás
+recovery-key-continue-button = Folytatás
+recovery-key-enter-password =
+    .label = Adja meg a jelszót
+recovery-key-page-title =
+    .title = Helyreállítási kulcs
+recovery-key-step-1 = 1. / 2. lépés
+recovery-key-step-2 = 2. / 2. lépés
+recovery-key-success-alert = Helyreállítási kulcs létrehozva.
 
 ## Add secondary email page
 
