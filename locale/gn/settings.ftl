@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } ra’ãnga’i
 app-footer-privacy-notice = Ñanduti renda marandu’i ñemigua
@@ -159,6 +159,7 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã.
+tfa-replace-code-success-alert = Mba’ete jeguerujey ayvu hekopyahúma.
 
 ## Avatar change page
 
@@ -182,6 +183,8 @@ avatar-page-rotate-button = Mbojere
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
+avatar-page-file-upload-error-2 = Iñapysẽ apañuãi ehupivo nera’ãnga mba’etépe.
+avatar-page-delete-error-2 = Iñapysẽ apañuãi emboguévo nera’ãnga mba’etépe.
 
 ##
 
@@ -212,7 +215,6 @@ delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
 delete-account-cancel-button = Heja
-delete-account-delete-button = Embogue mba’ete
 
 ##
 
