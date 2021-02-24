@@ -335,24 +335,62 @@ tfa-enabled = Kétlépcsős hitelesítés engedélyezve
 tfa-scan-this-code =
     Olvassa be ezt a QR-kódot <linkExternal>ezen
     hitelesítő alkalmazások egyikével</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Használja a(z) { $secret } kódot a kétlépcsős hitelesítés beállításához a támogatott alkalmazásokban.
+tfa-button-cant-scan-qr = Nem tudja leolvasni a kódot?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:
+tfa-enter-totp = Most írja be a biztonsági kódot a hitelesítési alkalmazásból.
+tfa-input-enter-totp =
+    .label = Adja meg a biztonsági kódot
+tfa-save-these-codes =
+    Mentse ezeket az egyszer használatos kódokat biztonságos
+    helyen, arra az esetre, ha nincs mobileszköze.
+tfa-enter-recovery-code =
+    .label = Adjon meg egy helyreállítási kódot
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Megjelenő név
+profile-password =
+    .header = Jelszó
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Létrehozva: { $date }
+profile-primary-email =
+    .header = Elsődleges e-mail
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Biztonság
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Hozzáadás
+row-defaults-action-change = Módosítás
+row-defaults-action-disable = Letiltás
+row-defaults-status = Nincs
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Engedélyezve
+rk-not-set = Nincs beállítva
+rk-action-create = Létrehozás
+rk-action-remove = Eltávolítás
+rk-key-removed = Fiók-helyreállítási kulcs eltávolítva.
+rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
+rk-refresh-key = Helyreállítási kulcs frissítése
 
 ## Secondary email sub-section on main Settings page
 
