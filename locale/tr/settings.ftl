@@ -49,6 +49,8 @@ app-footer-terms-of-service = Hizmet Koşulları
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avatarınız
 avatar-default-avatar =
     .alt = Varsayılan avatar
 
@@ -184,6 +186,7 @@ avatar-page-image-too-large-error = Görüntü dosyası boyutu yüklenemeyecek k
 
 pw-change-header =
     .title = Parolayı değiştir
+pw-change-stay-safe = Güvenliğinizi korumak için aynı parolayı başka yerlerde kullanmayın. Parolanız:
 pw-change-least-8-chars = En az 8 karakter olmalı
 pw-change-not-contain-email = E-posta adresinizle aynı olmamalı
 pw-change-cancel-button = İptal
@@ -346,8 +349,13 @@ tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
+tfa-row-cannot-refresh =
+    Üzgünüz, iki aşamalı doğrulama yenilenirken
+    bir sorun oluştu.
+tfa-row-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
+tfa-row-cannot-disable = İki aşamalı doğrulama devre dışı bırakılamadı.
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
