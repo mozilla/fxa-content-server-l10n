@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Biểu tượng { -brand-mozilla }
 app-footer-privacy-notice = Thông báo bảo mật trang web
@@ -94,11 +94,6 @@ cs-disconnect-sync-opt-not-say = Không có câu trả lời
 
 cs-disconnect-advice-confirm = Ok, đã hiểu
 cs-disconnect-lost-advice-heading = Đã ngắt kết nối khỏi thiết bị đã mất hoặc bị đánh cắp
-cs-disconnect-lost-advice-content =
-    Vì thiết bị của bạn bị mất hoặc bị đánh cắp,
-    để bảo về dữ liệu bạn, bạn nên thay đổi mật khẩu { -product-firefox-accounts }
-    trong cài đặt tài khoản của bạn. Bạn nên tìm kiếm thông tin từ công ty sản xuất 
-    điện thoại của bạn để tìm hiểu cách xóa dữ liệu của bạn từ xa.
 cs-disconnect-suspicious-advice-heading = Đã ngắt kết nối thiết bị khả nghi
 cs-sign-out-button = Đăng xuất
 
@@ -187,42 +182,124 @@ avatar-page-zoom-in-button = Phóng to
 
 # Recovery key setup page
 
+recovery-key-step-1 = Bước 1/2
+recovery-key-step-2 = Bước 2/2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Email phụ
+add-secondary-email-enter-address =
+    .label = Nhập địa chỉ email
+add-secondary-email-cancel-button = Hủy bỏ
+add-secondary-email-save-button = Lưu
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Đã có vấn đề khi gửi mã xác thực.
+verify-secondary-email-page-title =
+    .title = Email phụ
+verify-secondary-email-verification-code =
+    .label = Nhập mã xác thực
+verify-secondary-email-cancel-button = Huỷ bỏ
+verify-secondary-email-verify-button = Xác nhận
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Vui lòng nhập mã xác minh đã được gửi tới <strong>{ $email }</strong> trong vòng 5 phút.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Xóa tài khoản
 
 ## Two Step Authentication
 
+tfa-title = Xác thực hai bước
+tfa-step-1-3 = Bước 1/3
+tfa-step-2-3 = Bước 2/3
+tfa-step-3-3 = Bước 3/3
+tfa-button-continue = Tiếp tục
+tfa-button-cancel = Hủy bỏ
+tfa-button-finish = Hoàn thành
+tfa-incorrect-totp = Mã xác thực hai bước không đúng
+tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
+tfa-cannot-verify-code = Có vấn đề khi xác thực mã khôi phục của bạn.
+tfa-incorrect-recovery-code = Mã khôi phục không đúng
+tfa-enabled = Đã bật xác thực hai bước
+tfa-scan-this-code =
+    Quét mã QR này sử dụng một trong <linkExternal>những
+    ứng dụng xác thực này</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Sử dụng mã { $secret } để thiết lập xác thực hai bước trong
+    các ứng dụng được hỗ trợ.
+tfa-button-cant-scan-qr = Không thể quét mã?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Nhập khóa bí mật này vào ứng dụng xác thực của bạn:
+tfa-enter-totp = Bây giờ nhập mã từ ứng dụng xác thực.
+tfa-input-enter-totp =
+    .label = Nhập mã bảo mật
+tfa-save-these-codes =
+    Lưu trữ các mã sử dụng một lần này ở nơi an toàn khi
+    bạn không có thiết bị di động.
+tfa-enter-recovery-code =
+    .label = Nhập mã khôi phục
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Hồ sơ
+profile-display-name =
+    .header = Tên hiển thị
+profile-password =
+    .header = Mật khẩu
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Đã tạo { $date }
+profile-primary-email =
+    .header = Email chính
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Bảo mật
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Thêm
+row-defaults-action-change = Thay đổi
+row-defaults-action-disable = Vô hiệu hóa
+row-defaults-status = Không có
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Đã bật
+rk-not-set = Chưa tạo
+rk-action-create = Tạo
+rk-action-remove = Xóa
+rk-cannot-refresh = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
+rk-key-removed = Đã xóa khóa khôi phục tài khoản.
+rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
+rk-refresh-key = Tải lại khóa khôi phục
 
 ## Secondary email sub-section on main Settings page
 
+se-set-primary-error = Xin lỗi, đã có vấn đề khi đang thay đổi email chính của bạn.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Đã xóa thành công { $email }.
 
 ##
 
