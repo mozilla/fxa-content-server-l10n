@@ -80,6 +80,15 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Các mục bị thiếu hoặc trùng lặp?
 cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Dữ liệu duyệt web của bạn sẽ vẫn trên thiết bị ({ $device }) của bạn,
+    nhưng nó sẽ không còn đồng bộ với tài khoản của bạn.
+cs-disconnect-sync-reason = Lý do chính để ngắt kết nối thiết bị này?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -122,9 +131,12 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Đóng menu
+header-menu-closed = Menu dẫn hướng trang mạng
 header-back-to-top-link =
     .title = Về đầu trang
 header-title = { -product-firefox-accounts }
+header-switch-title = Chuyển sang giao diện cũ
+    .title = liên kết giao diện cũ
 header-help = Trợ giúp
 
 ## Settings Nav
@@ -139,6 +151,7 @@ nav-email-comm = Truyền thông email
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Có vấn đề khi thay thế mã khôi phục của bạn.
+tfa-replace-code-success-alert = Đã cập nhật mã khôi phục tài khoản.
 
 ## Avatar change page
 
@@ -158,32 +171,96 @@ avatar-page-close-button = Đóng
 avatar-page-save-button = Lưu
 avatar-page-zoom-out-button = Thu nhỏ
 avatar-page-zoom-in-button = Phóng to
+avatar-page-rotate-button = Xoay
+avatar-page-camera-error = Không thể khởi tạo máy ảnh
+avatar-page-new-avatar =
+    .alt = hình hồ sơ mới
+avatar-page-file-upload-error-2 = Đã xảy ra sự cố khi tải lên ảnh hồ sơ của bạn.
+avatar-page-delete-error-2 = Đã xảy ra sự cố khi xóa ảnh hồ sơ của bạn.
+avatar-page-image-too-large-error = Không thể tải lên ảnh có kích thước tập tin quá lớn.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Thay đổi mật khẩu
+pw-change-stay-safe = Giữ an toàn — không sử dụng lại mật khẩu. Mật khẩu của bạn:
+pw-change-least-8-chars = Phải có ít nhất 8 ký tự
+pw-change-not-contain-email = Không được là địa chỉ email của bạn
+pw-change-must-match = Mật khẩu mới khớp với xác nhận mật khẩu
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Không được giống như mật khẩu trong <linkExternal>danh sách 
+    mật khẩu phổ biến</linkExternal> này
+pw-change-cancel-button = Huỷ bỏ
+pw-change-save-button = Lưu
+pw-change-forgot-password-link = Quên mật khẩu?
+pw-change-current-password =
+    .label = Nhập mật khẩu hiện tại:
+pw-change-new-password =
+    .label = Nhập mật khẩu mới:
+pw-change-confirm-password =
+    .label = Xác nhận mật khẩu mới
+pw-change-success-alert = Đã cập nhật mật khẩu.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Xóa tài khoản
+delete-account-step-1-2 = Bước 1/2
+delete-account-step-2-2 = Bước 2/2
+delete-account-confirm-title-2 = Bạn đã kết nối { -product-firefox-account } của mình với các sản phẩm { -brand-mozilla } giúp bạn bảo mật và làm việc hiệu quả trên web:
+delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
+delete-account-chk-box-1 =
+    .label = Mọi thuê bao trả phí bạn có sẽ bị hủy
+delete-account-chk-box-2 =
+    .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Kích hoạt lại với email này có thể không khôi phục thông tin đã lưu của bạn
+delete-account-chk-box-4 =
+    .label = Mọi tiện ích mở rộng và chủ đề mà bạn đã xuất bản lên addons.mozilla.org sẽ bị xóa
+delete-account-close-button = Đóng
+delete-account-continue-button = Tiếp tục
+delete-account-password-input =
+    .label = Nhập mật khẩu
+delete-account-cancel-button = Hủy bỏ
+delete-account-delete-button-2 = Xóa
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Tên hiển thị
+display-name-input =
+    .label = Nhập tên hiển thị
+submit-display-name = Lưu
+cancel-display-name = Huỷ bỏ
+display-name-update-error = Có vấn đề trong khi cập nhật tên hiển thị của bạn.
+display-name-success-alert = Đã cập nhật tên hiển thị.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Hủy bỏ
+recovery-key-close-button = Đóng
+recovery-key-continue-button = Tiếp tục
+recovery-key-created = Khóa khôi phục của bạn đã được tạo. Đảm bảo lưu khóa ở nơi an toàn mà bạn có thể dễ dàng tìm thấy sau này — bạn sẽ cần khóa này để lấy lại quyền truy cập vào dữ liệu của mình nếu bạn quên mật khẩu của mình.
+recovery-key-enter-password =
+    .label = Nhập mật khẩu
+recovery-key-page-title =
+    .title = Khóa khôi phục
 recovery-key-step-1 = Bước 1/2
 recovery-key-step-2 = Bước 2/2
+recovery-key-success-alert = Đã tạo khóa khôi phục.
 
 ## Add secondary email page
 
@@ -210,6 +287,10 @@ verify-secondary-email-verify-button = Xác nhận
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Vui lòng nhập mã xác minh đã được gửi tới <strong>{ $email }</strong> trong vòng 5 phút.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Đã thêm { $email } thành công.
 
 ##
 
@@ -248,6 +329,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Lưu trữ các mã sử dụng một lần này ở nơi an toàn khi
     bạn không có thiết bị di động.
+tfa-enter-code-to-confirm =
+    Vui lòng nhập một trong các mã khôi phục của bạn bây giờ để
+    xác nhận bạn đã lưu nó. Bạn sẽ cần mã nếu mất thiết bị và muốn
+    truy cập tài khoản của bạn.
 tfa-enter-recovery-code =
     .label = Nhập mã khôi phục
 
@@ -292,6 +377,9 @@ rk-cannot-refresh = Xin lỗi, có vấn đề khi làm mới khóa khôi ph�
 rk-key-removed = Đã xóa khóa khôi phục tài khoản.
 rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
 rk-refresh-key = Tải lại khóa khôi phục
+rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
+rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
+rk-remove-modal-heading = Xóa khóa khôi phục?
 
 ## Secondary email sub-section on main Settings page
 
@@ -309,6 +397,15 @@ se-delete-email-successful = Đã xóa thành công { $email }.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Hình ảnh
+avatar-add-link = Thêm
+avatar-change-link = Thay đổi
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Tài khoản không xác định
+auth-error-103 = Mật khẩu không đúng
+auth-error-110 = Mã không hợp lệ
+auth-error-138 = Phiên chưa được xác minh
+auth-error-155 = Không tìm thấy token TOTP
+auth-error-1008 = Mật khẩu mới của bạn phải khác
