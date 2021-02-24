@@ -333,6 +333,10 @@ tfa-enter-totp = Zapodajće nětko wěstotny kod z awtentifikaciskeho nałoženj
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
 tfa-save-these-codes = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+tfa-enter-code-to-confirm =
+    Prošu zapodajće nětko jedyn ze swojich wobnowjenskich
+    kodow, zo byšće wobkrućił, zo sće jón składował. Trjebaće kod, jeli swój grat zhubjeće
+    a chceće přistup k swojemu kontu.
 tfa-enter-recovery-code =
     .label = Wobnowjenski kod zapodać
 
