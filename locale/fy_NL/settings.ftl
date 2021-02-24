@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
 app-footer-privacy-notice = Privacyferklearring foar website
@@ -111,9 +111,9 @@ cs-disconnect-sync-opt-not-say = Sis ik leaver net
 
 cs-disconnect-advice-confirm = Oké, begrepen
 cs-disconnect-lost-advice-heading = Ferlern of stellen apparaat ûntkeppele
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Omdat jo apparaat ferlern of stellen is moatte jo, om
-    jo gegevens feilich te hâlden, jo wachtwurd fan { -product-firefox-accounts } wizigje
+    jo gegevens feilich te hâlden, jo wachtwurd fan { -product-firefox-account } wizigje
     yn jo accountynstellingen. Jo kinne it beste ek ynformaasje by de produsint fan jo
     apparaat opsykje oer it op ôfstân wiskjen fan jo gegevens.
 cs-disconnect-suspicious-advice-heading = Fertocht apparaat ûntkeppele
@@ -173,6 +173,7 @@ tfa-replace-code-success =
     Der binne nije koaden oanmakke. Bewarje dizze koaden foar ien kear gebrûk
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
     mobile apparaat net hawwe.
+tfa-replace-code-success-alert = Accountwerstel bywurke.
 
 ## Avatar change page
 
@@ -196,8 +197,8 @@ avatar-page-rotate-button = Draaie
 avatar-page-camera-error = Koe kamera net inisjalisearje
 avatar-page-new-avatar =
     .alt = nije profylôfbylding
-avatar-page-file-upload-error = Der is in probleem bard wylst it opladen fan jo profylôfbylding
-avatar-page-delete-error = Der is in probleem bard by it fuortsmiten fan jo avatar
+avatar-page-file-upload-error-2 = Der is in probleem bard wylst it opladen fan jo profylôfbylding.
+avatar-page-delete-error-2 = Der is in probleem bard by it fuortsmiten fan jo profylôfbylding.
 avatar-page-image-too-large-error = De ôfbyldingsbestânsgrutte is te grut om op te laden.
 
 ##
@@ -224,6 +225,7 @@ pw-change-new-password =
     .label = Fier nij wachtwurd yn
 pw-change-confirm-password =
     .label = Befêstigje nij wachtwurd
+pw-change-success-alert = Wachtwurd bywurke.
 
 ##
 
@@ -234,7 +236,7 @@ delete-account-header =
     .title = Account fuortsmite
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
-delete-account-confirm-title = Jo hawwe jo { -product-firefox-accounts } ferbûn mei { -brand-mozilla }-produkten dy't jo feilich en produktyf hâlde op ynternet:
+delete-account-confirm-title-2 = Jo hawwe jo { -product-firefox-account } ferbûn mei { -brand-mozilla }-produkten dy't jo feilich en produktyf hâlde op ynternet:
 delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
 delete-account-chk-box-1 =
     .label = Alle betelle abonneminten wurde annulearre
@@ -249,18 +251,21 @@ delete-account-continue-button = Trochgean
 delete-account-password-input =
     .label = Fier wachtwurd yn
 delete-account-cancel-button = Annulearje
-delete-account-delete-button = Account fuortsmite
+delete-account-delete-button-2 = Fuortsmite
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Werjeftenamme
 display-name-input =
     .label = Fier skermnamme yn
 submit-display-name = Bewarje
 cancel-display-name = Annulearje
 display-name-update-error = Der is in probleem bard by it bywurkjen fan jo skermnamme.
+display-name-success-alert = Werjeftenamme bywurke.
 
 ##
 
@@ -277,6 +282,7 @@ recovery-key-page-title =
     .title = Werstelkaai
 recovery-key-step-1 = Stap 1 fan 2
 recovery-key-step-2 = Stap 2 fan 2
+recovery-key-success-alert = Werstelkaai oanmakke.
 
 ## Add secondary email page
 
@@ -304,6 +310,10 @@ verify-secondary-email-verify-button = Ferifiearje
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei <strong>{ $email }</strong> ferstjoerd is.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } mei sukses tafoege.
 
 ##
 
@@ -392,7 +402,7 @@ rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key = Werstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear't jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
-rk-cannot-verify-session = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+rk-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 rk-remove-modal-heading = Werstelkaai fuortsmite?
 rk-remove-modal-content =
     As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
@@ -453,7 +463,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
     unike koade wêr't allinnich jo tagong ta hawwe te easkjen.
-tfa-row-cannot-verify-session = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+tfa-row-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain =
