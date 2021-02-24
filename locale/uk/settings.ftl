@@ -171,6 +171,11 @@ cs-disconnect-lost-advice-content-2 =
     у його налаштуваннях. Ви також повинні глянути поради
     виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
+cs-disconnect-suspicious-advice-content =
+    Якщо від'єднаний пристрій справді підозрілий,
+    щоб зберегти свою інформацію в безпеці, вам слід змінити пароль { -product-firefox-account(case: "gen") }
+    у його налаштуваннях. Вам також варто змінити будь-які інші паролі,
+    які ви зберегли в { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
 
 ##
