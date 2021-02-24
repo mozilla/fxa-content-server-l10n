@@ -229,27 +229,66 @@ delete-account-close-button = Close
 delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Enter password
+delete-account-cancel-button = Cancel
+delete-account-delete-button-2 = Delete
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Display name
+display-name-input =
+    .label = Enter display name
+submit-display-name = Save
+cancel-display-name = Cancel
+display-name-update-error = There was a problem updating your display name.
+display-name-success-alert = Display name updated.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancel
+recovery-key-close-button = Close
+recovery-key-continue-button = Continue
+recovery-key-created = Your recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
+recovery-key-enter-password =
+    .label = Enter password
+recovery-key-page-title =
+    .title = Recovery key
+recovery-key-step-1 = Step 1 of 2
+recovery-key-step-2 = Step 2 of 2
+recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
+add-secondary-email-error = There was a problem creating this email.
+add-secondary-email-page-title =
+    .title = Secondary email
+add-secondary-email-enter-address =
+    .label = Enter email address
+add-secondary-email-cancel-button = Cancel
+add-secondary-email-save-button = Save
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = There was a problem sending the verification code.
+verify-secondary-email-page-title =
+    .title = Secondary email
+verify-secondary-email-verification-code =
+    .label = Enter your verification code
+verify-secondary-email-cancel-button = Cancel
+verify-secondary-email-verify-button = Verify
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
 
 ##
 
