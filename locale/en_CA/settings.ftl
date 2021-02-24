@@ -289,30 +289,88 @@ verify-secondary-email-verify-button = Verify
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } successfully added.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Delete account
 
 ## Two Step Authentication
 
+tfa-title = Two-step authentication
+tfa-step-1-3 = Step 1 of 3
+tfa-step-2-3 = Step 2 of 3
+tfa-step-3-3 = Step 3 of 3
+tfa-button-continue = Continue
+tfa-button-cancel = Cancel
+tfa-button-finish = Finish
+tfa-incorrect-totp = Incorrect two-step authentication code
+tfa-cannot-retrieve-code = There was a problem retrieving your code.
+tfa-cannot-verify-code = There was a problem verifying your recovery code.
+tfa-incorrect-recovery-code = Incorrect recovery code
+tfa-enabled = Two-step authentication enabled
+tfa-scan-this-code = Scan this QR code using one of <linkExternal>these¶authentication apps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Use the code { $secret } to set up two-step authentication in¶supported applications.
+tfa-button-cant-scan-qr = Can't scan code?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Enter this secret key into your authenticator app:
+tfa-enter-totp = Now enter the security code from the authentication app.
+tfa-input-enter-totp =
+    .label = Enter security code
+tfa-save-these-codes =
+    Save these one-time use codes in a safe place for when
+    you don’t have your mobile device.
+tfa-enter-code-to-confirm = Please enter one of your recovery codes now to¶confirm you’ve saved it. You’ll need a code if you lose your device and want¶to access your account.
+tfa-enter-recovery-code =
+    .label = Enter a recovery code
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profile
+profile-display-name =
+    .header = Display name
+profile-password =
+    .header = Password
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Created { $date }
+profile-primary-email =
+    .header = Primary email
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Security
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Add
+row-defaults-action-change = Change
+row-defaults-action-disable = Disable
+row-defaults-status = None
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Enabled
+rk-not-set = Not set
+rk-action-create = Create
+rk-action-remove = Remove
+rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
+rk-key-removed = Account recovery key removed.
+rk-cannot-remove-key = Your account recovery key could not be removed.
 
 ## Secondary email sub-section on main Settings page
 
