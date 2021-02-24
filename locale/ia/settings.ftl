@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Prefere non dicer
 
 cs-disconnect-advice-confirm = Ok, io comprende
 cs-disconnect-lost-advice-heading = Apparato perdite o robate disconnexe
+cs-disconnect-lost-advice-content-2 =
+    Since your device was lost or stolen, to
+    keep your information safe, you should change your { -product-firefox-account } password
+    in your account settings. You should also look for information from your
+    device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnexe
 cs-disconnect-suspicious-advice-content =
     Si le apparato disconnexe es in effecto
@@ -245,7 +250,6 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Insere le contrasigno
 delete-account-cancel-button = Cancellar
-delete-account-delete-button = Deler le conto
 
 ##
 
