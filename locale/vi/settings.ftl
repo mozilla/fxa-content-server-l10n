@@ -379,21 +379,75 @@ rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của b
 rk-refresh-key = Tải lại khóa khôi phục
 rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
 rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
+rk-cannot-verify-session-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
 rk-remove-modal-heading = Xóa khóa khôi phục?
+rk-remove-modal-content =
+    Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không thể
+    sử dụng khóa khôi phục để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Email phụ
+    .header = Email phụ
+se-cannot-refresh-email = Xin lỗi, đã xảy ra sự cố khi làm mới email đó.
+se-cannot-resend-code = Xin lỗi, đã xảy ra sự cố khi gửi lại mã xác minh.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } hiện là email chính của bạn.
 se-set-primary-error = Xin lỗi, đã có vấn đề khi đang thay đổi email chính của bạn.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Đã xóa thành công { $email }.
+se-delete-email-error = Xin lỗi, đã xảy ra sự cố khi xóa email này.
+se-verify-session = Bạn cần xác minh phiên hiện tại của mình để thực hiện hành động này.
+se-verify-session-error = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Xóa email
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Làm mới email
+se-unverified = chưa xác minh
+se-resend-code =
+    Cần xác minh. <button>Gửi lại mã xác minh</button>
+    nếu nó không có trong hộp thư đến hoặc thư mục spam của bạn.
+# Button to make secondary email the primary
+se-make-primary = Đặt làm email chính
+se-default-content = Truy cập tài khoản của bạn nếu bạn không thể đăng nhập vào email chính của mình.
+se-content-note =
+    Lưu ý: email phụ sẽ không khôi phục thông tin của bạn — bạn sẽ
+    cần <a>khóa khôi phục</a> cho việc đó.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Xác thực hai bước
+tfa-row-disabled = Đã tắt xác thực hai bước.
+tfa-row-enabled = Đã bật
+tfa-row-not-set = Chưa tạo
+tfa-row-action-add = Thêm
+tfa-row-action-disable = Vô hiệu hóa
+tfa-row-button-refresh =
+    .title = Làm mới xác thực hai bước
+tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
+tfa-row-content-explain =
+    Ngăn người khác đăng nhập bằng cách yêu cầu
+    mã duy nhất chỉ bạn có quyền truy cập.
+tfa-row-cannot-verify-session-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
+tfa-row-disable-modal-heading = Tắt xác thực hai bước?
+tfa-row-disable-modal-confirm = Tắt
+tfa-row-disable-modal-explain =
+    Bạn sẽ không thể hoàn tác hành động này. Bạn cũng
+    có tùy chọn <linkExternal>thay thế mã khôi phục của bạn</linkExternal>.
+tfa-row-cannot-disable = Không thể tắt xác thực hai bước.
+tfa-row-change-modal-heading = Thay đổi mã khôi phục?
+tfa-row-change-modal-confirm = Thay đổi
+tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
 
 ## Avatar sub-section on main Settings page
 
