@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } 徽标
 app-footer-privacy-notice = 网站隐私声明
@@ -103,7 +103,6 @@ cs-disconnect-sync-opt-not-say = 我不想说
 
 cs-disconnect-advice-confirm = 好的，明白了
 cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
-cs-disconnect-lost-advice-content = 鉴于您的设备已丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-accounts }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
 cs-disconnect-suspicious-advice-content = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
@@ -177,8 +176,6 @@ avatar-page-rotate-button = 旋转
 avatar-page-camera-error = 无法初始化摄像头
 avatar-page-new-avatar =
     .alt = 更换头像
-avatar-page-file-upload-error = 上传您的头像时出现问题
-avatar-page-delete-error = 删除您的头像时出现问题
 avatar-page-image-too-large-error = 图片太大，无法上传。
 
 ##
@@ -213,7 +210,6 @@ delete-account-header =
     .title = 删除账户
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
-delete-account-confirm-title = 您已将 { -product-firefox-accounts }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
 delete-account-acknowledge = 请确认，若您真要删除账户：
 delete-account-chk-box-1 =
     .label = 将取消您的所有付费订阅内容
@@ -235,11 +231,14 @@ delete-account-delete-button = 删除账户
 
 ## Display name page
 
+display-name-page-title =
+    .title = 显示名称
 display-name-input =
     .label = 请输入显示名称
 submit-display-name = 保存
 cancel-display-name = 取消
 display-name-update-error = 更新您的显示名称时出现问题。
+display-name-success-alert = 显示名称已更新。
 
 ##
 
@@ -256,6 +255,7 @@ recovery-key-page-title =
     .title = 救援密钥
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
+recovery-key-success-alert = 已创建救援密钥。
 
 ## Add secondary email page
 
@@ -283,6 +283,10 @@ verify-secondary-email-verify-button = 验证
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的验证码。
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = 已成功添加 { $email }。
 
 ##
 
@@ -362,7 +366,7 @@ rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
-rk-cannot-verify-session = 抱歉，验证您的会话时出现问题
+rk-cannot-verify-session-2 = 抱歉，验证您的会话时出现问题。
 rk-remove-modal-heading = 要移除救援密钥吗？
 rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
 
@@ -413,7 +417,7 @@ tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，防止他人恶意登录。
-tfa-row-cannot-verify-session = 抱歉，验证您的会话时出现问题
+tfa-row-cannot-verify-session-2 = 抱歉，验证您的会话时出现问题。
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
