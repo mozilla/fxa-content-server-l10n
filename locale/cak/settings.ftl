@@ -75,6 +75,10 @@ connect-another-find-fx-mobile =
 
 cs-heading = Taq Samaj Ye'okisäx
 cs-description = Ronojel ri nawokisaj chuqa' akuchi' xatikirisaj molojri'ïl.
+cs-cannot-refresh =
+    Kojakuyu', xk'oje' jun k'ayewal kik'in ri kicholajem taq samaj
+    xe'okisäx.
+cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
