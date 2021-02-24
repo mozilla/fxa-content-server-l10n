@@ -113,7 +113,7 @@ cs-disconnect-advice-confirm = Listo, lo entendí
 cs-disconnect-lost-advice-heading = Dispositivo robado o perdido desconectado
 cs-disconnect-lost-advice-content-2 =
     Cómo el dispositivo fue robado o se perdió, para
-    mantener la información segura, deberías cambiar la contraseña de { -product-firefox-accounts }
+    mantener la información segura, deberías cambiar la contraseña de { -product-firefox-account }
     en la configuración de tu cuenta. También deberías buscar información del
     fabricante del dispositivo sobre como borrar los datos de forma remota.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
@@ -400,11 +400,20 @@ rk-content-explain = Restaurá tu información cuando te olvides de tu contrase�
 rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
 rk-cannot-verify-session-2 = Disculpá, hubo un problema al verificar la sesión.
 rk-remove-modal-heading = ¿Eliminar clave de recuperación?
+rk-remove-modal-content =
+    En el caso de que restablezcas tu contraseña, no 
+    podrás usar tu clave de recuperación para acceder a tus datos. No podés deshacer esta acción.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Correo electrónico secundario
     .header = Correo electrónico secundario
+se-cannot-refresh-email = Disculpá hubo un problema al actualizar ese correo electrónico.
+se-cannot-resend-code = Disculpá, hubo un problema al volver a enviar el código de verificación.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ahora es tu correo correo electrónico primario.
 # Button to remove the secondary email
 se-remove-email =
     .title = Eliminar correo electrónico
