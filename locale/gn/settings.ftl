@@ -228,19 +228,30 @@ delete-account-chk-box-1 =
     .label = Umi ñemboheraguapy rehepyme’ẽva opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
+delete-account-chk-box-3 =
+    .label = Ikatu eipurujeýrõ ko ñanduti veve ndogueruvéima marandu ñongatupyre
+delete-account-chk-box-4 =
+    .label = Oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe oñemboguepáta
 delete-account-close-button = Mboty
 delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
 delete-account-cancel-button = Heja
+delete-account-delete-button-2 = Mboguete
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Téra ehechauka hag̃ua
+display-name-input =
+    .label = Emoinge téra ehechauka hag̃ua
 submit-display-name = Ñongatu
 cancel-display-name = Heja
+display-name-update-error = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua.
+display-name-success-alert = Téra ehechauka hag̃ua hekopyahúva.
 
 ##
 
@@ -252,11 +263,15 @@ recovery-key-close-button = Mboty
 recovery-key-continue-button = Ku’ejey
 recovery-key-enter-password =
     .label = Emoinge ñe’ẽñemi
+recovery-key-page-title =
+    .title = Mba’eñemi jeguerujey
 recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
+recovery-key-success-alert = Oñemoheñói mba’eñemi jeguerujeyrã.
 
 ## Add secondary email page
 
+add-secondary-email-error = Oĩ apañuãi emoheñóivo ko ñanduti veve.
 add-secondary-email-cancel-button = Heja
 add-secondary-email-save-button = Ñongatu
 
