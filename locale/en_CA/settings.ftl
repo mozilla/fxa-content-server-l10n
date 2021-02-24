@@ -101,39 +101,134 @@ cs-disconnect-sync-opt-not-say = Rather not say
 
 ##
 
+cs-disconnect-advice-confirm = Okay, got it
+cs-disconnect-lost-advice-heading = Lost or stolen device disconnected
+cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to¶keep your information safe, you should change your { -product-firefox-account } password¶in your account settings. You should also look for information from your¶device manufacturer about erasing your data remotely.
+cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
+cs-disconnect-suspicious-advice-content = If the disconnected device is indeed¶suspicious, to keep your information safe, you should change your { -product-firefox-account }¶password in your account settings. You should also change any other¶passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
+cs-sign-out-button = Sign out
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Downloaded
+datablock-copy =
+    .message = Copied
+datablock-print =
+    .message = Printed
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Recovery Codes
+get-data-trio-download =
+    .title = Download
+get-data-trio-copy =
+    .title = Copy
+get-data-trio-print =
+    .title = Print
 
 # HeaderLockup component
 
+header-menu-open = Close menu
+header-menu-closed = Site navigation menu
+header-back-to-top-link =
+    .title = Back to top
+header-title = { -product-firefox-accounts }
+header-switch-title = Switch to classic design
+    .title = classic design link
+header-help = Help
 
 ## Settings Nav
 
+nav-settings = Settings
+nav-profile = Profile
+nav-security = Security
+nav-connected-services = Connected Services
+nav-paid-subs = Paid Subscriptions
+nav-email-comm = Email Communications
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = There was a problem replacing your recovery codes.
+tfa-replace-code-success = New codes have been created. Save these one-time use¶codes in a safe place — you’ll need them to access your account if you don’t¶have your mobile device.
+tfa-replace-code-success-alert = Account recovery codes updated.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profile picture
+avatar-page-add-photo = Add photo
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Take photo
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Remove photo
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Retake photo
+avatar-page-close-button = Close
+avatar-page-save-button = Save
+avatar-page-zoom-out-button = Zoom out
+avatar-page-zoom-in-button = Zoom in
+avatar-page-rotate-button = Rotate
+avatar-page-camera-error = Could not initialize camera
+avatar-page-new-avatar =
+    .alt = new profile picture
+avatar-page-file-upload-error-2 = There was a problem uploading your profile picture.
+avatar-page-delete-error-2 = There was a problem deleting your profile picture.
+avatar-page-image-too-large-error = The image file size is too large to be uploaded.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Change password
+pw-change-stay-safe = Stay safe — don’t reuse passwords. Your password:
+pw-change-least-8-chars = Must be at least 8 characters
+pw-change-not-contain-email = Must not be your email address
+pw-change-must-match = New password matches confirmation
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = Must not match this <linkExternal>list of common¶passwords</linkExternal>
+pw-change-cancel-button = Cancel
+pw-change-save-button = Save
+pw-change-forgot-password-link = Forgot password?
+pw-change-current-password =
+    .label = Enter current password
+pw-change-new-password =
+    .label = Enter new password
+pw-change-confirm-password =
+    .label = Confirm new password
+pw-change-success-alert = Password updated.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Delete account
+delete-account-step-1-2 = Step 1 of 2
+delete-account-step-2-2 = Step 2 of 2
+delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
+delete-account-acknowledge = Please acknowledge that by deleting your account:
+delete-account-chk-box-1 =
+    .label = Any paid subscriptions you have will be cancelled
+delete-account-chk-box-2 =
+    .label = You may lose saved information and features within { -brand-mozilla } products
+delete-account-chk-box-3 =
+    .label = Reactivating with this email may not restore your saved information
+delete-account-chk-box-4 =
+    .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
+delete-account-close-button = Close
+delete-account-continue-button = Continue
+delete-account-password-input =
+    .label = Enter password
 
 ##
 
