@@ -198,6 +198,10 @@ pw-change-stay-safe = Eiko tekorosãme — ani eipurujey ñe’ẽñemi. Ne ñe�
 pw-change-least-8-chars = Orekova’erã michĩvérõ 8 tai
 pw-change-not-contain-email = Ndaikatúi emoĩ ne ñanduti veve kundaharape
 pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Ndojokupytyiva’erã ko <linkExternal>ñe’ẽñemi rysýi
+    hetavéva ndive</linkExternal>
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
 pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
@@ -207,6 +211,7 @@ pw-change-new-password =
     .label = Emoinge ñe’ẽñemi pyahu
 pw-change-confirm-password =
     .label = Emoneĩ ñe’ẽñemi pyahu
+pw-change-success-alert = Ñe’ẽñemi hekopyahupyréva.
 
 ##
 
