@@ -391,6 +391,8 @@ rk-action-remove = Eltávolítás
 rk-key-removed = Fiók-helyreállítási kulcs eltávolítva.
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key = Helyreállítási kulcs frissítése
+rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
+rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
 
 ## Secondary email sub-section on main Settings page
 
