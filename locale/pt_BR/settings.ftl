@@ -230,7 +230,7 @@ delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Digite a senha
 delete-account-cancel-button = Cancelar
-delete-account-delete-button = Excluir conta
+delete-account-delete-button-2 = Excluir
 
 ##
 
