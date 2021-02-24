@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Hysbysiad Preifatrwydd Gwefan
@@ -109,9 +109,9 @@ cs-disconnect-sync-opt-not-say = Gwell peidio dweud
 
 cs-disconnect-advice-confirm = Iawn
 cs-disconnect-lost-advice-heading = Dyfais coll neu wedi'i dwyn wedi'i datgysylltu
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Gan bod eich dyfais wedi cael ei cholli neu
-    ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-accounts }
+    ei dwyn, i cadwch eich manylion yn ddiogel, dylech newid eich cyfrinair { -product-firefox-account }
     yn eich gosodiadau cyfrif. Dylech hefyd edrych am wybodaeth o'ch
     gwneuthurwr dyfeisiau ynglŷn â dileu eich data o bell.
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
@@ -171,6 +171,7 @@ tfa-replace-code-success =
     Mae codau newydd wedi'u creu. Cadwch codau defnydd
     un-waith hyn mewn man diogel — bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
     eich dyfais symudol gyda chi.
+tfa-replace-code-success-alert = Diweddarwyd codau adfer cyfrifon.
 
 ## Avatar change page
 
@@ -194,8 +195,8 @@ avatar-page-rotate-button = Troi
 avatar-page-camera-error = Methu cychwyn y camera
 avatar-page-new-avatar =
     .alt = llun proffil newydd
-avatar-page-file-upload-error = Bu anhawster wrth lwytho'ch llun proffil i fyny
-avatar-page-delete-error = Bu anhawster wrth ddileu'ch afatar
+avatar-page-file-upload-error-2 = Bu anhawster wrth lwytho'ch llun proffil i fyny
+avatar-page-delete-error-2 = Bu anhawster wrth ddileu'ch llun proffil.
 avatar-page-image-too-large-error = Mae maint ffeil y ddelwedd yn rhy fawr i'w llwytho i fyny.
 
 ##
@@ -222,6 +223,7 @@ pw-change-new-password =
     .label = Rhowch gyfrinair newydd
 pw-change-confirm-password =
     .label = Cadarnhau'r cyfrinair newydd
+pw-change-success-alert = Diweddarwyd y cyfrinair
 
 ##
 
@@ -232,7 +234,7 @@ delete-account-header =
     .title = Dileu Cyfrif
 delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
-delete-account-confirm-title = Rydych wedi cysylltu'ch { -product-firefox-accounts } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
+delete-account-confirm-title-2 = Rydych wedi cysylltu'ch { -product-firefox-accounts } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
 delete-account-chk-box-1 =
     .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu
@@ -247,18 +249,21 @@ delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
 delete-account-cancel-button = Diddymu
-delete-account-delete-button = Dileu Cyfrif
+delete-account-delete-button-2 = Dileu
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Enw dangos
 display-name-input =
     .label = Rhowch enw dangos
 submit-display-name = Cadw
 cancel-display-name = Diddymu
 display-name-update-error = Bu anhawster wrth ddileu'ch enw dangos
+display-name-success-alert = Diweddarwyd yr enw dangos.
 
 ##
 
@@ -275,6 +280,7 @@ recovery-key-page-title =
     .title = Allwedd adfer
 recovery-key-step-1 = Cam 1 o 2
 recovery-key-step-2 = Cam 2 o 2
+recovery-key-success-alert = Crëwyd yr allwedd adfer.
 
 ## Add secondary email page
 
@@ -302,6 +308,10 @@ verify-secondary-email-verify-button = Dilysu
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Rhowch y cod dilysu a anfonwyd at <strong>{ $email }</strong> o fewn 5 munud.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Ychwanegwyd { $email } yn llwyddiannus.
 
 ##
 
@@ -390,7 +400,7 @@ rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
 rk-refresh-key = Adnewyddu'r allwedd adfer
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
-rk-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+rk-cannot-verify-session-2 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn.
 rk-remove-modal-heading = Dileu'r allwedd adfer?
 rk-remove-modal-content =
     Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
@@ -447,7 +457,7 @@ tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu da
 tfa-row-content-explain =
     Atal rhywun arall rhag mewngofnodi trwy fynnu
     cod unigryw dim ond chi sydd â mynediad iddo.
-tfa-row-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+tfa-row-cannot-verify-session-2 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn.
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain =
