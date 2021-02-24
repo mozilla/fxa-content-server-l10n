@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-Logo
 app-footer-privacy-notice = Datenschutzhinweis zu dieser Website
@@ -109,9 +109,9 @@ cs-disconnect-sync-opt-not-say = Keine Angabe
 
 cs-disconnect-advice-confirm = Ok, verstanden
 cs-disconnect-lost-advice-heading = Verlorenes oder gestohlenes Gerät getrennt
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Da Ihr Gerät verloren ging oder gestohlen wurde,
-    sollten Sie zum Schutz Ihrer Daten Ihr { -product-firefox-accounts }-Passwort
+    sollten Sie zum Schutz Ihrer Daten Ihr { -product-firefox-account }-Passwort
     in Ihren Konteneinstellungen ändern. Sie sollten sich auch bei Ihrem Gerätehersteller
     über Möglichkeiten zur Fernlöschung Ihrer Daten informieren.
 cs-disconnect-suspicious-advice-heading = Verdächtiges Gerät getrennt
@@ -171,6 +171,7 @@ tfa-replace-code-success =
     Neue Codes wurden erstellt. Speichern Sie diese Codes
     zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
     Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
+tfa-replace-code-success-alert = Kontowiederherstellungscodes aktualisiert.
 
 ## Avatar change page
 
@@ -194,8 +195,8 @@ avatar-page-rotate-button = Drehen
 avatar-page-camera-error = Kamera konnte nicht initialisiert werden
 avatar-page-new-avatar =
     .alt = Neues Profilbild
-avatar-page-file-upload-error = Beim Hochladen Ihres Profilbilds ist ein Fehler aufgetreten
-avatar-page-delete-error = Beim Löschen Ihres Avatars ist ein Problem aufgetreten
+avatar-page-file-upload-error-2 = Beim Hochladen Ihres Profilbilds ist ein Fehler aufgetreten.
+avatar-page-delete-error-2 = Beim Löschen Ihres Profilbilds ist ein Fehler aufgetreten.
 avatar-page-image-too-large-error = Die Bilddatei ist zu groß, um hochgeladen zu werden.
 
 ##
@@ -222,6 +223,7 @@ pw-change-new-password =
     .label = Neues Passwort eingeben
 pw-change-confirm-password =
     .label = Neues Passwort bestätigen
+pw-change-success-alert = Passwort aktualisiert.
 
 ##
 
@@ -232,7 +234,7 @@ delete-account-header =
     .title = Konto löschen
 delete-account-step-1-2 = Schritt 1 von 2
 delete-account-step-2-2 = Schritt 2 von 2
-delete-account-confirm-title = Sie haben Ihr{ -product-firefox-accounts } mit { -brand-mozilla }-Produkten verbunden, mit denen Sie im Web sicher und produktiv sind:
+delete-account-confirm-title-2 = Sie haben Ihr{ -product-firefox-account } mit { -brand-mozilla }-Produkten verbunden, mit denen Sie im Web sicher und produktiv sind:
 delete-account-acknowledge = Bitte bestätigen Sie, dass durch Löschung Ihres Kontos:
 delete-account-chk-box-1 =
     .label = Alle Ihre bezahlten Abonnements storniert werden
@@ -247,18 +249,21 @@ delete-account-continue-button = Fortsetzen
 delete-account-password-input =
     .label = Passwort eingeben
 delete-account-cancel-button = Abbrechen
-delete-account-delete-button = Konto löschen
+delete-account-delete-button-2 = Löschen
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Anzeigename
 display-name-input =
     .label = Geben Sie den Anzeigenamen ein
 submit-display-name = Speichern
 cancel-display-name = Abbrechen
 display-name-update-error = Beim Aktualisieren Ihres Anzeigennamens ist ein Fehler aufgetreten.
+display-name-success-alert = Anzeigename aktualisiert.
 
 ##
 
@@ -275,6 +280,7 @@ recovery-key-page-title =
     .title = Wiederherstellungsschlüssel
 recovery-key-step-1 = Schritt 1 von 2
 recovery-key-step-2 = Schritt 2 von 2
+recovery-key-success-alert = Wiederherstellungsschlüssel erstellt.
 
 ## Add secondary email page
 
@@ -302,6 +308,10 @@ verify-secondary-email-verify-button = Bestätigen
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Bitte geben Sie innerhalb von 5 Minuten den Bestätigungscode ein, der an <strong>{ $email }</strong> gesendet wurde.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } erfolgreich hinzugefügt.
 
 ##
 
@@ -386,7 +396,7 @@ rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfer
 rk-refresh-key = Wiederherstellungsschlüssel aktualisieren
 rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
 rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
-rk-cannot-verify-session = Beim Überprüfen Ihrer Sitzung ist ein Fehler aufgetreten.
+rk-cannot-verify-session-2 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 rk-remove-modal-heading = Wiederherstellungsschlüssel entfernen?
 rk-remove-modal-content =
     Wenn Sie Ihr Passwort zurücksetzen, können Sie Ihren Wiederherstellungsschlüssel
@@ -447,7 +457,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Verhindern Sie mit einem eindeutigen Code, den nur Sie besitzen,
     fremden Zugriff auf Ihr Konto.
-tfa-row-cannot-verify-session = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+tfa-row-cannot-verify-session-2 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 tfa-row-disable-modal-heading = Zwei-Schritt-Authentifizierung deaktivieren?
 tfa-row-disable-modal-confirm = Deaktivieren
 tfa-row-disable-modal-explain =
