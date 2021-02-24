@@ -423,15 +423,54 @@ se-remove-email =
 se-refresh-email =
     .title = E-mail-cím frissítése
 se-unverified = nem ellenőrzött
+se-resend-code =
+    Ellenőrzés szükséges. <button>Küldje újra az ellenőrző kódot</button>,
+    ha nincs a beérkezett levelek vagy a levélszemét mappában.
+# Button to make secondary email the primary
+se-make-primary = Elsődlegessé tétel
+se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleges e-mail-fiókjába.
+se-content-note =
+    Megjegyzés: a másodlagos e-mail-címe nem fogja visszaállítani az
+    adatait – ahhoz <a>helyreállítási kulcs</a> szükséges.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Kétlépcsős hitelesítés
+tfa-row-disabled = Kétlépcsős hitelesítés letiltva.
+tfa-row-enabled = Engedélyezve
+tfa-row-not-set = Nincs beállítva
+tfa-row-action-add = Hozzáadás
+tfa-row-action-disable = Letiltás
+tfa-row-button-refresh =
+    .title = Kétlépcsős hitelesítés frissítése
+tfa-row-cannot-refresh =
+    Sajnos probléma merült fel a kétlépéses hitelesítés
+    frissítésekor.
+tfa-row-content-explain =
+    Akadályozza meg, hogy valaki más lépjen be, követeljen meg
+    egy egyedi kódot, amelyhez csak Ön fér hozzá.
+tfa-row-cannot-verify-session-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
+tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
+tfa-row-disable-modal-confirm = Letiltás
+tfa-row-disable-modal-explain =
+    Ezt a műveletet nem fogja tudni visszavonni. Arra is van
+    lehetősége, hogy <linkExternal>lecserélje a helyreállítási kódjait</linkExternal>.
+tfa-row-cannot-disable = A kétlépcsős hitelesítést nem lehetett letiltani.
+tfa-row-change-modal-heading = Megváltoztatja a helyreállítási kódokat?
+tfa-row-change-modal-confirm = Módosítás
+tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Kép
+avatar-add-link = Hozzáadás
+avatar-change-link = Módosítás
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Ismeretlen fiók
+auth-error-103 = Helytelen jelszó
