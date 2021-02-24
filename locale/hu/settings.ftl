@@ -273,6 +273,7 @@ display-name-success-alert = Megjelenő név frissítve.
 recovery-key-cancel-button = Mégse
 recovery-key-close-button = Bezárás
 recovery-key-continue-button = Folytatás
+recovery-key-created = A helyreállítási kulcs létrejött Győződjön meg róla, hogy olyan helyen tárolja biztonságosan, ahol könnyen megtalálja – a jelszó elfelejtése esetén szüksége lesz a kulcsra, hogy visszanyerje a hozzáférést az adataihoz.
 recovery-key-enter-password =
     .label = Adja meg a jelszót
 recovery-key-page-title =
@@ -283,18 +284,57 @@ recovery-key-success-alert = Helyreállítási kulcs létrehozva.
 
 ## Add secondary email page
 
+add-secondary-email-error = Hiba történt az e-mail létrehozásakor.
+add-secondary-email-page-title =
+    .title = Másodlagos e-mail
+add-secondary-email-enter-address =
+    .label = Adja meg az e-mail-címet
+add-secondary-email-cancel-button = Mégse
+add-secondary-email-save-button = Mentés
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Hiba történt az ellenőrző kód elküldésekor.
+verify-secondary-email-page-title =
+    .title = Másodlagos e-mail
+verify-secondary-email-verification-code =
+    .label = Adja meg az ellenőrzési kódját
+verify-secondary-email-cancel-button = Mégse
+verify-secondary-email-verify-button = Ellenőrzés
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzési kódot.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = A(z) { $email } sikeresen hozzáadva.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Fiók törlése
 
 ## Two Step Authentication
 
+tfa-title = Kétlépcsős hitelesítés
+tfa-step-1-3 = 1. / 3. lépés
+tfa-step-2-3 = 2. / 3. lépés
+tfa-step-3-3 = 3. / 3. lépés
+tfa-button-continue = Folytatás
+tfa-button-cancel = Mégse
+tfa-button-finish = Befejezés
+tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
+tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
+tfa-cannot-verify-code = Hiba történt a helyreállítási kódok ellenőrzésekor.
+tfa-incorrect-recovery-code = Helytelen helyreállítási kód
+tfa-enabled = Kétlépcsős hitelesítés engedélyezve
+tfa-scan-this-code =
+    Olvassa be ezt a QR-kódot <linkExternal>ezen
+    hitelesítő alkalmazások egyikével</linkExternal>.
 
 ##
 
