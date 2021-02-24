@@ -158,6 +158,7 @@ nav-email-comm = E-mejlowa komunikacija
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Při wuměnjenju wašich wobnowjenskich kodow je problem nastał.
 tfa-replace-code-success-alert = Kontowe wobnowjenske kody su so zaktualizowali.
 
 ## Avatar change page
@@ -182,6 +183,8 @@ avatar-page-rotate-button = Wjerćeć
 avatar-page-camera-error = Kamera njeda so inicializować
 avatar-page-new-avatar =
     .alt = nowy profilowy wobraz
+avatar-page-file-upload-error-2 = Při nahrawanju wašeho profiloweho wobraza je problem nastał.
+avatar-page-delete-error-2 = Při hašenju wašeho profiloweho wobraza je problem nastał.
 avatar-page-image-too-large-error = Wobrazowa dataja je přewulka za nahraće.
 
 ##
@@ -234,6 +237,7 @@ delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać
 delete-account-cancel-button = Přetorhnyć
+delete-account-delete-button-2 = Zhašeć
 
 ##
 
@@ -246,6 +250,7 @@ display-name-input =
     .label = Zapodajće zwobraznjenske mjeno
 submit-display-name = Składować
 cancel-display-name = Přetorhnyć
+display-name-update-error = Při aktualizowanju wašeho zwobraznjenskeho mjena je problem nastał.
 display-name-success-alert = Zwobraznjenske mjeno zaktualizowane.
 
 ##
@@ -266,6 +271,7 @@ recovery-key-success-alert = Wobnowjenski kluč je so wutworił.
 
 ## Add secondary email page
 
+add-secondary-email-error = Při wutworjenje tuteje e-mejloweje adresy je problem nastał.
 add-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
 add-secondary-email-enter-address =
@@ -278,6 +284,7 @@ add-secondary-email-save-button = Składować
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Při słanju wobkrućenskeho koda je problem nastał.
 verify-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
 verify-secondary-email-verification-code =
@@ -308,8 +315,11 @@ tfa-button-continue = Dale
 tfa-button-cancel = Přetorhnyć
 tfa-button-finish = Dokónčić
 tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
+tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
+tfa-cannot-verify-code = Při přepruwowanju wašeho wobnowjenskeho koda je problem nastał.
 tfa-incorrect-recovery-code = Wopačny wobnowjenski kod
 tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
+tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
