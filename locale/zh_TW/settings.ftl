@@ -230,7 +230,7 @@ delete-account-continue-button = 繼續
 delete-account-password-input =
     .label = 輸入密碼
 delete-account-cancel-button = 取消
-delete-account-delete-button = 刪除帳號
+delete-account-delete-button-2 = 刪除
 
 ##
 
