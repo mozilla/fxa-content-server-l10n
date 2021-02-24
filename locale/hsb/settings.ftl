@@ -424,11 +424,13 @@ tfa-row-action-add = Přidać
 tfa-row-action-disable = Znjemóžnić
 tfa-row-button-refresh =
     .title = Dwukročelowu awtentifikaciju aktualizować
+tfa-row-cannot-verify-session-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
 tfa-row-cannot-disable = Dwukročelowa awtentifikacija njeda so znjemóžnić.
 tfa-row-change-modal-heading = Wobnowjenske kody změnić?
 tfa-row-change-modal-confirm = Změnić
+tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 
 ## Avatar sub-section on main Settings page
 
