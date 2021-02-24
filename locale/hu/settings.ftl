@@ -395,9 +395,25 @@ rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
 rk-cannot-verify-session-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
+rk-remove-modal-content =
+    Ha visszaállítja jelszavát, akkor nem fogja tudni használni
+    a helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Másodlagos e-mail
+    .header = Másodlagos e-mail
+se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
+se-cannot-resend-code = Sajnos probléma merült fel az ellenőrző kód újraküldésékor.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = A(z) { $email } az elsődleges e-mail-címe.
+se-set-primary-error = Sajnos probléma merült fel az elsődleges e-mail-cím megváltoztatásakor.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = A(z) { $email } sikeresen törölve.
 
 ##
 
