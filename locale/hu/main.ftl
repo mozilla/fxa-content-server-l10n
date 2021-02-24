@@ -87,8 +87,8 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
 ## payment legal blurb
 
-payment-legal-copy = A { -brand-name-mozilla } a Stripe-ot használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link = Tekintse meg a <a>Stripe adatvédelmi irányelveit</a>.
+payment-legal-copy-stripe-paypal = A { -brand-name-mozilla } a Stripe-ot és a Paypalt használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-stripe-paypal = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink> és a <paypalPrivacyLink>Paypal adatvédelmi irányelveit</paypalPrivacyLink>.
 
 ## payment form
 
@@ -334,6 +334,9 @@ sub-billing-update-success = A számlázási adatai sikeresen frissítettve
 ## subscription create
 
 sub-guarantee = 30 napos pénzvisszafizetési garancia
+pay-with-heading-other = Válasszon fizetési lehetőséget
+pay-with-heading-card-or = Vagy fizessen kártyával
+pay-with-heading-card-only = Fizessen kártyával
 
 ## plan-details
 
