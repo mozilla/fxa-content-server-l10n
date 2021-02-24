@@ -46,18 +46,24 @@ app-default-title = { -product-firefox-accounts }
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logo
 app-footer-privacy-notice = Taq Rutzijol Richinanem Ajk'amaya'l Ruxaq
+app-footer-terms-of-service = Taq Rojqanem Samaj
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avatar wichin
+avatar-default-avatar =
+    .alt = Avatar k'o wi
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Tak'ulu' { -brand-firefox } pan oyonib'äl o kematz'ib'
 
 ##
 
