@@ -87,8 +87,7 @@ product-no-such-plan = Majun ajil richin re tikojil.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } nrokisaj Stripe richin nijikib'äx ri tojïk.
-payment-legal-link = Titz'et ri <a>ichinan runa'ojil Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' Paypal richin nijikib'äx ri tojïk.
 
 ## payment form
 
