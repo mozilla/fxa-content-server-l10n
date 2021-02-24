@@ -409,6 +409,10 @@ se-refresh-email =
 se-unverified = njewobkrućeny
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy činić
+se-default-content = Mějće přistup k swojemu kontu, jeli njemóžeće so pola swojeje primarneje e-mejloweje adresy přizjewić.
+se-content-note =
+    Pokazka: Sekundarna e-mejlowa adresa waše informacije njewobnowi – trjebaće
+    <a>wobnowjenski kluč</a> za to.
 
 ##
 
@@ -424,9 +428,18 @@ tfa-row-action-add = Přidać
 tfa-row-action-disable = Znjemóžnić
 tfa-row-button-refresh =
     .title = Dwukročelowu awtentifikaciju aktualizować
+tfa-row-cannot-refresh =
+    Bohužel je při aktualizowanju dwukročeloweje awtentfikacije
+    problem nastał.
+tfa-row-content-explain =
+    Požadajće jónkróćny kod, ke kotremuž jenož wy maće přistup,
+    zo byšće zadźěwał tomu, zo so něchtó druhi přizjewja.
 tfa-row-cannot-verify-session-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
+tfa-row-disable-modal-explain =
+    Njemóžeće tutu akciju cofnyć. Maće tež
+    móžnosć <linkExternal>swój wobnowjenske kody wuměnić</linkExternal>.
 tfa-row-cannot-disable = Dwukročelowa awtentifikacija njeda so znjemóžnić.
 tfa-row-change-modal-heading = Wobnowjenske kody změnić?
 tfa-row-change-modal-confirm = Změnić
