@@ -88,6 +88,7 @@ product-no-such-plan = Majun ajil richin re tikojil.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' Paypal richin nijikib'äx ri tojïk.
+payment-legal-link-stripe-paypal = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem Stripe</stripePrivacyLink> chuqa' <paypalPrivacyLink>Runa'ojil Richinanem Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -333,6 +334,9 @@ sub-billing-update-success = Ütz xk'ex ri retamab'al paktura'
 ## subscription create
 
 sub-guarantee = 30-q'ij tikirel nitzolïx pwäq
+pay-with-heading-other = Ticha' ri rub'eyal tojïk
+pay-with-heading-card-or = O tatojo' rik'in tarjeta'
+pay-with-heading-card-only = Titoj rik'in tarjeta'
 
 ## plan-details
 
