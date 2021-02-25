@@ -334,6 +334,9 @@ tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
 tfa-cannot-verify-code = Il habeva un problema a verificar tu codices de recuperation.
 tfa-incorrect-recovery-code = Codice de recuperation non correcte
 tfa-enabled = Authentication a duo-grados activate
+tfa-scan-this-code =
+    Scande iste codice QR per un de <linkExternal>iste
+    applicationes de authentication</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -343,9 +346,14 @@ tfa-qa-code-alt =
 tfa-button-cant-scan-qr = Non pote tu scander le codice?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
+tfa-enter-totp = Ora insere le codice de securitate del application de authentication.
 tfa-input-enter-totp =
     .label = Insere le codice de securitate
 tfa-save-these-codes = Salva iste codices a uso unic in un loco secur pro le caso que tu perde le accesso a tu apparato mobile.
+tfa-enter-code-to-confirm =
+    Insere un de tu codices de recuperation ora pro 
+    confirmar que tu lo ha salvate. Tu debera haber un codice si tu perde tu dispositivo 
+    e vole acceder tu conto.
 tfa-enter-recovery-code =
     .label = Insere un codice de recuperation
 
@@ -388,9 +396,15 @@ rk-action-create = Crear
 rk-action-remove = Remover
 rk-cannot-refresh = Desolate, problema al actualisation le clave de recuperation.
 rk-key-removed = Clave de recuperation del conto removite.
+rk-cannot-remove-key = Tu clave de recuperation del conto non pote esser removite.
 rk-refresh-key = Actualisar le clave de recuperation
+rk-content-explain = Restaura tu informationes quando tu oblida tu contrasigno.
+rk-content-reset-data = Perque remontar mi mi datos de redefinition de contrasigno?
 rk-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 rk-remove-modal-heading = Remover clave de recuperation?
+rk-remove-modal-content =
+    In caso que tu reinitialisa tu contrasigno, tu non potera 
+    usar tu clave de recuperation pro acceder tu datos. Tu non pote disfacer iste action.
 
 ## Secondary email sub-section on main Settings page
 
@@ -398,12 +412,17 @@ se-heading = Adresse de e-mail secundari
     .header = E-mail secundari
 se-cannot-refresh-email = Desolate, problema al actualisation de iste email.
 se-cannot-resend-code = Desolate, problema durante le reinvio del codice de verification.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } es ora tu e-mail primari.
 se-set-primary-error = Desolate, problema a cambiar tu email primari.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } delite con successo.
 se-delete-email-error = Desolate, problema al deletion de iste email.
+se-verify-session = Tu debera verificar tu actual session pro exequer iste action.
 se-verify-session-error = Desolate, problema a verificar tu session.
 # Button to remove the secondary email
 se-remove-email =
@@ -412,8 +431,15 @@ se-remove-email =
 se-refresh-email =
     .title = Actualisar le email
 se-unverified = non verificate
+se-resend-code =
+    Verification necessari. <button>Reinviar le codice de verification</button> 
+    si illo non es in tu cassa de ingresso o plica de SPAM.
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
+se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
+se-content-note =
+    Nota: un email secundari non restaurara tu informationes: tu
+    besoniara de un <a>clave de recuperation</a> pro isto.
 
 ##
 
@@ -432,12 +458,19 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
+tfa-row-content-explain =
+    Impedi a ulle altere de acceder, requirente un
+    unic codice solo tu ha accesso.
 tfa-row-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
+tfa-row-disable-modal-explain =
+    Tu non potera disfacer iste action. Tu alsi
+    ha le option de <linkExternal>replaciar tu codices de recuperation</linkExternal>.
 tfa-row-cannot-disable = Impossibile disactivar authentication a duo passos.
 tfa-row-change-modal-heading = Cambiar codices de recuperation?
 tfa-row-change-modal-confirm = Cambiar
+tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 ## Avatar sub-section on main Settings page
 
