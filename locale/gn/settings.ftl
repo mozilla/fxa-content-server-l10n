@@ -290,6 +290,14 @@ verify-secondary-email-verification-code =
     .label = Emoinge ayvu jehechajeyrã
 verify-secondary-email-cancel-button = Heja
 verify-secondary-email-verify-button = Hechajey
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Emoinge pe ayvu jehechajeyrã romondótava <strong>{ $email }</strong>-pe 5 aravo’i oútavape.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } ojuaju hekopete.
 
 ##
 
@@ -345,6 +353,8 @@ rk-action-remove = Mboguete
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Ñanduti veve mokõiháva
+    .header = Ñanduti veve mokõiháva
 
 ##
 
