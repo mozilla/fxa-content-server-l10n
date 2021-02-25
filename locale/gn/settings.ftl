@@ -312,6 +312,7 @@ tfa-step-3-3 = Ku’e 3 3-gui
 tfa-button-continue = Ku’ejey
 tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
+tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 
 ##
 
@@ -355,6 +356,15 @@ rk-action-remove = Mboguete
 
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
+# Button to remove the secondary email
+se-remove-email =
+    .title = Embogue ñanduti veve
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Embohekopyahu ñanduti veve
+se-unverified = ojehechajey’ỹva
+# Button to make secondary email the primary
+se-make-primary = Ejapo peteĩháramo
 
 ##
 
@@ -362,6 +372,7 @@ se-heading = Ñanduti veve mokõiháva
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-enabled = Myandypyre
+tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
 tfa-row-disable-modal-confirm = Pe’a
