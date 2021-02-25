@@ -208,6 +208,7 @@ avatar-page-image-too-large-error = Le dimension del file imagine es trop grande
 
 pw-change-header =
     .title = Cambiar le contrasigno
+pw-change-stay-safe = Sta secur: non reusa contrasignos. Tu contrasigno:
 pw-change-least-8-chars = Debe continer al minus 8 characteres
 pw-change-not-contain-email = Non debe esser tu adresse de e-mail
 pw-change-must-match = Le nove contrasigno concorda con confirmation
@@ -274,6 +275,7 @@ display-name-success-alert = Nomine a monstrar actualisate.
 recovery-key-cancel-button = Cancellar
 recovery-key-close-button = Clauder
 recovery-key-continue-button = Continuar
+recovery-key-created = Tu clave de recuperation ha essite create. Cura salvar le clave in un loco secur que tu pote facilemente trovar plus tarde: tu debera haber le clave pro reganiar accesso a tu datos si tu oblida tu contrasigno.
 recovery-key-enter-password =
     .label = Insere le contrasigno
 recovery-key-page-title =
