@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo da { -brand-mozilla }
 app-footer-privacy-notice = Directivas da la protecziun da datas da la website
@@ -111,9 +111,9 @@ cs-disconnect-sync-opt-not-say = Jau preferesch da betg respunder
 
 cs-disconnect-advice-confirm = Ok, jau hai chapì
 cs-disconnect-lost-advice-heading = Deconnectà l'apparat pers u engulà
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Cunquai che tes apparat è pers u engulà,
-    duessas ti midar tes pled-clav da { -product-firefox-accounts } en ils parameters dal conto
+    duessas ti midar tes pled-clav dal { -product-firefox-account } en ils parameters dal conto
     per che tias datas restian segiras. Emprova en pli da chattar ora sch'il producent da tes apparat
     pussibilitescha da stizzar tias datas senza che ti hajas a disposiziun l'apparat.
 cs-disconnect-suspicious-advice-heading = Deconnectà l'apparat suspectus
@@ -173,6 +173,7 @@ tfa-replace-code-success =
     Novs codes èn vegnids creads. Memorisescha quests codes
     a diever unic en in lieu segir – ti als vegns a duvrar per acceder a tes conto sche ti n'has
     betg tes apparat mobil.
+tfa-replace-code-success-alert = Actualisà ils codes da recuperaziun dal conto.
 
 ## Avatar change page
 
@@ -196,45 +197,146 @@ avatar-page-rotate-button = Rotar
 avatar-page-camera-error = Impussibel dad inizialisar la camera
 avatar-page-new-avatar =
     .alt = nov maletg da profil
+avatar-page-file-upload-error-2 = Igl ha dà in problem cun transferir tes maletg da profil.
+avatar-page-delete-error-2 = Igl ha dà in problem cun stizzar tes maletg da profil.
+avatar-page-image-too-large-error = La datoteca dal maletg è memia gronda per il transferiment.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Midar il pled-clav
+pw-change-stay-safe = Ta protegia – na dovra betg duas giadas il medem pled-clav. Tes pled-clav:
+pw-change-least-8-chars = Sto cuntegnair almain 8 caracters
+pw-change-not-contain-email = Na dastga betg esser tia adressa dad e-mail
+pw-change-must-match = Il nov pled-clav correspunda a la conferma
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Na dastga betg esser sin questa <linkExternal>glista da 
+    pleds-clav frequents</linkExternal>
+pw-change-cancel-button = Interrumper
+pw-change-save-button = Memorisar
+pw-change-forgot-password-link = Emblidà il pled-clav?
+pw-change-current-password =
+    .label = Endatar il pled-clav actual
+pw-change-new-password =
+    .label = Endatar il nov pled-clav
+pw-change-confirm-password =
+    .label = Confermar il nov pled-clav
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Stizzar il conto
+delete-account-step-1-2 = Pass 1 da 2
+delete-account-step-2-2 = Pass 2 da 2
+delete-account-acknowledge = Considerescha, cun stizzar tes conto:
+delete-account-chk-box-1 =
+    .label = Vegnan annullads eventuals abunaments pajads
+delete-account-chk-box-2 =
+    .label = Perdas ti eventualmain infurmaziuns memorisadas e funcziuns che fan part da products da { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = La reactivaziun cun questa adressa dad e-mail na po betg restaurar tias infurmaziuns memorisadas
+delete-account-chk-box-4 =
+    .label = Tut las extensiuns ed ils designs che ti has publitgà sin addons.mozilla.org vegnan stizzads
+delete-account-close-button = Serrar
+delete-account-continue-button = Cuntinuar
+delete-account-password-input =
+    .label = Endatar il pled-clav
+delete-account-cancel-button = Interrumper
 
 ##
 
 
 ## Display name page
 
+display-name-input =
+    .label = Endatar il num per mussar
+submit-display-name = Memorisar
+cancel-display-name = Interrumper
+display-name-update-error = Igl ha dà in problem cun actualisar tes num per mussar.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Interrumper
+recovery-key-close-button = Serrar
+recovery-key-continue-button = Cuntinuar
+recovery-key-created =
+    Tia clav da recuperaziun è vegnida creada. Fa la segira che tia clav sa chatta en in lieu segir, ma simpel da chattar pli tard – 
+    ti dovras la clav per puspè acceder a tias datas, en cas che ti emblidas tes pled-clav.
+recovery-key-enter-password =
+    .label = Endatar il pled-clav
+recovery-key-page-title =
+    .title = Clav da recuperaziun
+recovery-key-step-1 = Pass 1 da 2
+recovery-key-step-2 = Pass 2 da 2
 
 ## Add secondary email page
 
+add-secondary-email-error = Igl ha dà in problem cun crear quest e-mail.
+add-secondary-email-page-title =
+    .title = Adressa d'e-mail secundara
+add-secondary-email-enter-address =
+    .label = Endatar l'adressa dad e-mail
+add-secondary-email-cancel-button = Interrumper
+add-secondary-email-save-button = Memorisar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Igl ha dà in problem cun trametter il code da verificaziun.
+verify-secondary-email-page-title =
+    .title = Adressa d'e-mail secundara
+verify-secondary-email-verification-code =
+    .label = Endatescha tes code da verificaziun
+verify-secondary-email-cancel-button = Interrumper
+verify-secondary-email-verify-button = Verifitgar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Per plaschair endatar entaifer 5 minutas il code da verificaziun ch'è vegnì tramess a <strong>{ $email }</strong>.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Stizzar il conto
 
 ## Two Step Authentication
 
+tfa-title = Autentificaziun en dus pass
+tfa-step-1-3 = Pass 1 da 3
+tfa-step-2-3 = Pass 2 da 3
+tfa-step-3-3 = Pass 3 da 3
+tfa-button-continue = Cuntinuar
+tfa-button-cancel = Interrumper
+tfa-button-finish = Finir
+tfa-incorrect-totp = Code d'autentificaziun en dus pass nuncorrect
+tfa-cannot-retrieve-code = Igl ha dà in problem cun retschaiver tes code.
+tfa-cannot-verify-code = Igl ha dà in problem cun verifitgar tes code da recuperaziun.
+tfa-incorrect-recovery-code = Code da recuperaziun nuncorrect
+tfa-enabled = Autentificaziun en dus pass activada
+tfa-scan-this-code =
+    Scannescha quest code QR cun agid dad in da <linkExternal>questas
+    apps d'autentificaziun</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Utilisescha il code { $secret } per configurar l'autentificaziun
+    en dus pass en las applicaziuns sustegnidas.
+tfa-button-cant-scan-qr = Betg pussaivel da scannar il code?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Endatescha questa clav secreta en tia app d'autentificaziun:
 
 ##
 
