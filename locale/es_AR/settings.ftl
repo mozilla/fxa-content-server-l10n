@@ -413,7 +413,7 @@ se-cannot-resend-code = Disculpá, hubo un problema al volver a enviar el códig
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } ahora es tu correo correo electrónico primario.
+se-set-primary-successful = { $email } ahora es tu correo correo electrónico principal.
 se-set-primary-error = Disculpá, hubo un problema al cambiar tu correo electrónico principal
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -482,4 +482,5 @@ auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
 auth-error-110 = Token inválido
 auth-error-138 = Sesión no verificada
+auth-error-155 = No se econtró el token TOTP.
 auth-error-1008 = La nueva contraseña debe ser diferente
