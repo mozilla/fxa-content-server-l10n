@@ -414,10 +414,30 @@ se-cannot-resend-code = Disculpá, hubo un problema al volver a enviar el códig
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } ahora es tu correo correo electrónico primario.
+se-set-primary-error = Disculpá, hubo un problema al cambiar tu correo electrónico principal
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } se eliminó correctamente.
+se-delete-email-error = Disculpá hubo un problema al eliminar ese correo electrónico.
+se-verify-session = Necesitarás verificar tu sesión actual para realizar esta acción.
+se-verify-session-error = Disculpá, hubo un problema al verificar la sesión.
 # Button to remove the secondary email
 se-remove-email =
     .title = Eliminar correo electrónico
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualizar el correo electrónico
 se-unverified = no verificado
+se-resend-code =
+    Se necesita verificación. <button> Reenviar código de verificación </button>
+    si no está en tu bandeja de entrada o en tu carpeta de spam.
+# Button to make secondary email the primary
+se-make-primary = Hacer principal
+se-default-content = Accedé a tu cuenta si no podés iniciar sesión en tu correo electrónico principal.
+se-content-note =
+    Nota: un correo electrónico secundario no restaurará tu información; 
+    Para hacerlo necesitarás una <a> clave de recuperación </a>.
 
 ##
 
@@ -436,8 +456,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Lo sentimos, hubo un problema refrescando la autenticación
     de dos pasos.
+tfa-row-content-explain =
+    Evitá que otra persona inicie la sesión solicitando
+    código único al que solo vos tenés acceso.
+tfa-row-cannot-verify-session-2 = Disculpá, hubo un problema al verificar la sesión.
 tfa-row-disable-modal-heading = ¿Deshabilitar autenticación de dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-disable-modal-explain =
+    No podrás deshacer esta acción. Vos también
+    tenés la opción de <linkExternal> reemplazar tus códigos de recuperación </linkExternal>.
 tfa-row-cannot-disable = La autenticación de dos pasos no puede ser deshabilitada.
 tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
 tfa-row-change-modal-confirm = Cambiar
