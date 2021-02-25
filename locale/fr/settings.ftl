@@ -46,7 +46,7 @@ app-default-title = { -product-firefox-accounts(capitalization: "uppercase") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts(capitalization: "uppercase") }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Politique de confidentialité des sites web
@@ -107,7 +107,7 @@ cs-disconnect-sync-opt-not-say = Je préfère ne rien indiquer
 
 cs-disconnect-advice-confirm = J’ai compris
 cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconnecté
-cs-disconnect-lost-advice-content = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
+cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
 cs-sign-out-button = Se déconnecter
 
@@ -179,8 +179,6 @@ avatar-page-rotate-button = Faire pivoter
 avatar-page-camera-error = Impossible d’initialiser l’appareil photo
 avatar-page-new-avatar =
     .alt = nouvelle image de profil
-avatar-page-file-upload-error = Un problème est survenu pendant l’envoi de votre image de profil.
-avatar-page-delete-error = Un problème est survenu lors de la suppression de votre avatar
 avatar-page-image-too-large-error = Cette image est trop volumineuse pour être envoyée.
 
 ##
