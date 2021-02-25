@@ -59,6 +59,10 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya tabletinize indirin
+connect-another-find-fx-mobile =
+    { -google-play }’de ve { -app-store }’da { -brand-firefox }’u arayabilir veya
+    <br /><linkExternal>cihazınıza indirme bağlantısı gönderebilirsiniz.</linkExternal>
 
 ##
 
@@ -71,6 +75,11 @@ cs-cannot-refresh =
     Üzgünüz, bağlı hizmetlerin listesi yenilenirken bir
     sorun oluştu.
 cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } oturumu kapatıldı.
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
 # Link text to a support page on missing or duplicate devices
@@ -258,6 +267,8 @@ recovery-key-success-alert = Kurtarma anahtarı oluşturuldu.
 ## Add secondary email page
 
 add-secondary-email-error = Bu e-posta oluşturulurken bir sorun oluştu.
+add-secondary-email-page-title =
+    .title = İkinci e-posta
 add-secondary-email-enter-address =
     .label = E-posta adresinizi yazın
 add-secondary-email-cancel-button = İptal
@@ -269,6 +280,8 @@ add-secondary-email-save-button = Kaydet
 ## Verify secondary email page
 
 verify-secondary-email-error = Doğrulama kodu gönderilirken bir sorun oluştu.
+verify-secondary-email-page-title =
+    .title = İkinci e-posta
 verify-secondary-email-verification-code =
     .label = Doğrulama kodunuzu girin
 verify-secondary-email-cancel-button = İptal
@@ -289,13 +302,18 @@ delete-account-link = Hesabı sil
 
 ## Two Step Authentication
 
+tfa-title = İki aşamalı doğrulama
 tfa-step-1-3 = Adım 1/3
 tfa-step-2-3 = Adım 2/3
 tfa-step-3-3 = Adım 3/3
 tfa-button-continue = Devam et
 tfa-button-cancel = İptal
 tfa-button-finish = Bitir
+tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
+tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code = Kurtarma kodunuz doğrulanırken bir sorun oluştu.
+tfa-incorrect-recovery-code = Yanlış kurtarma kodu
+tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
@@ -312,6 +330,8 @@ profile-display-name =
     .header = Görünen ad
 profile-password =
     .header = Parola
+profile-primary-email =
+    .header = Birinci e-posta
 
 ##
 
@@ -336,6 +356,23 @@ rk-action-remove = Kaldır
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = İkinci e-posta
+    .header = İkinci e-posta
+se-cannot-refresh-email = Üzgünüz, bu e-posta yenilenirken bir sorun oluştu.
+se-cannot-resend-code = Doğrulama kodu yeniden gönderilirken bir sorun oluştu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } artık birinci e-postanız.
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-postayı kaldır
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-postayı yenile
+se-unverified = doğrulanmamış
+# Button to make secondary email the primary
+se-make-primary = Birinci yap
 
 ##
 
@@ -349,6 +386,8 @@ tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
+tfa-row-button-refresh =
+    .title = İki aşamalı doğrulamayı yenile
 tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
