@@ -225,6 +225,7 @@ pw-change-new-password =
     .label = Endatar il nov pled-clav
 pw-change-confirm-password =
     .label = Confermar il nov pled-clav
+pw-change-success-alert = Actualisà il pled-clav.
 
 ##
 
@@ -235,6 +236,7 @@ delete-account-header =
     .title = Stizzar il conto
 delete-account-step-1-2 = Pass 1 da 2
 delete-account-step-2-2 = Pass 2 da 2
+delete-account-confirm-title-2 = Ti has connectà tes { -product-firefox-account } cun products da { -brand-mozilla } che ta gidan da navigar a moda segira e productiva en il web:
 delete-account-acknowledge = Considerescha, cun stizzar tes conto:
 delete-account-chk-box-1 =
     .label = Vegnan annullads eventuals abunaments pajads
@@ -249,17 +251,21 @@ delete-account-continue-button = Cuntinuar
 delete-account-password-input =
     .label = Endatar il pled-clav
 delete-account-cancel-button = Interrumper
+delete-account-delete-button-2 = Stizzar
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Num per mussar
 display-name-input =
     .label = Endatar il num per mussar
 submit-display-name = Memorisar
 cancel-display-name = Interrumper
 display-name-update-error = Igl ha dà in problem cun actualisar tes num per mussar.
+display-name-success-alert = Actualisà il num per mussar.
 
 ##
 
@@ -278,6 +284,7 @@ recovery-key-page-title =
     .title = Clav da recuperaziun
 recovery-key-step-1 = Pass 1 da 2
 recovery-key-step-2 = Pass 2 da 2
+recovery-key-success-alert = Creà la clav da recuperaziun.
 
 ## Add secondary email page
 
@@ -305,6 +312,10 @@ verify-secondary-email-verify-button = Verifitgar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Per plaschair endatar entaifer 5 minutas il code da verificaziun ch'è vegnì tramess a <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Agiuntà cun success { $email }.
 
 ##
 
@@ -337,36 +348,145 @@ tfa-qa-code-alt =
 tfa-button-cant-scan-qr = Betg pussaivel da scannar il code?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Endatescha questa clav secreta en tia app d'autentificaziun:
+tfa-enter-totp = Endatescha ussa il code da segirezza da l'app d'autentificaziun.
+tfa-input-enter-totp =
+    .label = Endatar il code da segirezza
+tfa-save-these-codes =
+    Memorisescha quests codes a diever unic en in lieu segir per
+    il cas che ti n'has ina giada betg access a tes apparat mobil.
+tfa-enter-code-to-confirm =
+    Endatescha per plaschair in da tes codes da recuperaziun per
+    confermar che ti als has memorisà. Ti vegns a duvrar in code sche ti perdas tes apparat e vuls
+    acceder a tes conto.
+tfa-enter-recovery-code =
+    .label = Endatar in code da recuperaziun
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Num per mussar
+profile-password =
+    .header = Pled-clav
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Data da creaziun: { $date }
+profile-primary-email =
+    .header = E-mail principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Segirezza
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Agiuntar
+row-defaults-action-change = Midar
+row-defaults-action-disable = Deactivar
+row-defaults-status = Nagin
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activà
+rk-not-set = Betg definì
+rk-action-create = Crear
+rk-action-remove = Allontanar
+rk-cannot-refresh = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun.
+rk-key-removed = Allontanà la clav da recuperaziun dal conto.
+rk-cannot-remove-key = Impussibel dad allontanar tia clav da recuperaziun dal conto.
+rk-refresh-key = Actualisar la clav da recuperaziun
+rk-content-explain = Recuperescha tias datas sche ti has emblidà tes pled-clav.
+rk-content-reset-data = Pertge vegnan mias datas reinizialisadas sche jau reinizialisesch mes pled-clav?
+rk-cannot-verify-session-2 = Perstgisa, igl ha dà in problem cun verifitgar tia sesida.
+rk-remove-modal-heading = Allontanar la clav da recuperaziun?
+rk-remove-modal-content =
+    Sche ti reinizialiseschas tes pled-clav, na vegns ti betg pli a pudair
+    utilisar tia clav da recuperaziun per acceder a tias datas. Questa acziun na po betg vegnir revocada.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Adressa d'e-mail secundara
+    .header = Adressa d'e-mail secundara
+se-cannot-refresh-email = Perstgisa, igl ha dà in problem cun actualisar questa adressa dad e-mail.
+se-cannot-resend-code = Perstgisa, igl ha dà in problem cun trametter anc ina giada il code da verificaziun.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } è ussa tia adressa dad e-mail principala.
+se-set-primary-error = Perstgisa, igl ha dà in problem cun midar tia adressa dad e-mail principala.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Stizzà cun success { $email }.
+se-delete-email-error = Perstgisa, igl ha dà in problem cun stizzar questa adressa dad e-mail.
+se-verify-session = Ti stos verifitgar tia sesida actuala per exequir questa acziun.
+se-verify-session-error = Perstgisa, igl ha dà in problem cun verifitgar tia sesida.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Allontanar l'adressa dad e-mail
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualisar l'adressa dad e-mail
+se-unverified = betg verifitgà
+se-resend-code =
+    Verificaziun necessaria. <button>Trametter anc ina giada il code da verificaziun</button>
+    sch'el na sa chatta betg en la posta entrada u en l'ordinatur dals messadis nungiavischads.
+# Button to make secondary email the primary
+se-make-primary = Definir sco adressa principala
+se-default-content = Acceda a tes conto sche ti na pos betg t'annunziar a tia adressa d'e-mail principala.
+se-content-note =
+    Remartga: ina adressa d'e-mail secundara na restaurescha betg tias datas – ti
+    dovras ina <a>clav da recuperaziun</a> per quest intent.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autentificaziun en dus pass
+tfa-row-disabled = Autentificaziun en dus pass deactivada.
+tfa-row-enabled = Activada
+tfa-row-not-set = Betg definida
+tfa-row-action-add = Agiuntar
+tfa-row-action-disable = Deactivar
+tfa-row-button-refresh =
+    .title = Actualisar l'autentificaziun en dus pass
+tfa-row-cannot-refresh =
+    Perstgisa, igl ha dà in problem cun actualisar l'autentificaziun
+    en dus pass.
+tfa-row-content-explain =
+    Impedir ch'insatgi auter possia s'annunziar cun pretender
+    in code unic, al qual mo ti has access.
+tfa-row-cannot-verify-session-2 = Perstgisa, igl ha dà in problem cun verifitgar tia sesida.
+tfa-row-disable-modal-heading = Deactivar l'autentificaziun en dus pass?
+tfa-row-disable-modal-confirm = Deactivar
+tfa-row-disable-modal-explain =
+    Ti na vegns betg a pudair revocar questa acziun. Ti has
+    era la pussaivladad da <linkExternal>remplazzar tes codes da recuperaziun</linkExternal>.
+tfa-row-cannot-disable = Impussibel da deactivar l'autentificaziun en dus pass.
+tfa-row-change-modal-heading = Midar ils codes da recuperaziun?
+tfa-row-change-modal-confirm = Midar
+tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Maletg
+avatar-add-link = Agiuntar
+avatar-change-link = Midar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Conto nunenconuschent
+auth-error-103 = Pled-clav nuncorrect
+auth-error-110 = Token nunvalid
+auth-error-138 = Sesida betg verifitgada
+auth-error-155 = Betg chattà il token TOTP
+auth-error-1008 = Tes pled-clav nov sto esser different
