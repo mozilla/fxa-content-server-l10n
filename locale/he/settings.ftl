@@ -237,7 +237,7 @@ delete-account-continue-button = המשך
 delete-account-password-input =
     .label = נא להכניס ססמה
 delete-account-cancel-button = ביטול
-delete-account-delete-button = מחיקת חשבון
+delete-account-delete-button-2 = מחיקה
 
 ##
 
