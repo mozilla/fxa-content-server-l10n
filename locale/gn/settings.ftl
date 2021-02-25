@@ -286,6 +286,8 @@ add-secondary-email-save-button = Ñongatu
 
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
+verify-secondary-email-verification-code =
+    .label = Emoinge ayvu jehechajeyrã
 verify-secondary-email-cancel-button = Heja
 verify-secondary-email-verify-button = Hechajey
 
@@ -363,3 +365,9 @@ avatar-change-link = Moambue
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Mba’ete ojeikuaa’ỹva
+auth-error-103 = Ñe’ẽñemi oiko’ỹva
+auth-error-110 = Token oiko’ỹva
+auth-error-138 = Tembiapo jehechapyre’ỹva
+auth-error-155 = Token TOTP ojejuhu’ỹva
+auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
