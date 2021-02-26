@@ -181,15 +181,53 @@ nav-email-comm = ელფოსტით კავშირები
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = ხარვეზი წარმოიშვა, თქვენი აღდგენის გასაღებების ჩანაცვლებისას.
+tfa-replace-code-success =
+    ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
+    გასაღებები უსაფრთხო ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის, როცა არ
+    გექნებათ მობილური მოწყობილობა.
+tfa-replace-code-success-alert = ანგარიშის აღდგენის გასაღებები განახლებულია.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = პროფილის სურათი
+avatar-page-add-photo = ფოტოს დამატება
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = სურათის გადაღება
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = ფოტოს მოცილება
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = ახლიდან გადაღება
+avatar-page-close-button = დახურვა
+avatar-page-save-button = შენახვა
+avatar-page-zoom-out-button = დაშორება
+avatar-page-zoom-in-button = მიახლოება
+avatar-page-rotate-button = მობრუნება
+avatar-page-camera-error = კამერის ჩართვა ვერ მოხერხდა
+avatar-page-new-avatar =
+    .alt = პროფილის ახალი სურათი
+avatar-page-file-upload-error-2 = ხარვეზი წარმოიშვა პროფილის სურათის განახლებისას.
+avatar-page-delete-error-2 = ხარვეზი წარმოიშვა პროფილის სურათის წაშლისას.
+avatar-page-image-too-large-error = სურათის ფაილის მოცულობა ზედმეტად დიდია ასატვირთად.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = პაროლის შეცვლა
+pw-change-stay-safe = შეინარჩუნეთ უსაფრთხოება — ნუ გამოიყენებთ ერთნაირ პაროლებს. თქვენი პაროლია:
+pw-change-least-8-chars = უნდა შედგებოდეს სულ მცირე 8 სიმბოლოსგან
+pw-change-not-contain-email = არ უნდა ემთხვეოდეს ელფოსტის მისამართს
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    არ უნდა ემთხვეოდეს ცნობილი <linkExternal>პაროლების სიაში
+    არსებულს</ linkExternal>
+pw-change-cancel-button = გაუქმება
 
 ##
 
