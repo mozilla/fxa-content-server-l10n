@@ -95,8 +95,8 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } Stripe za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link = Cytajśo <a>pšawidła priwatnosći Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } Stripe a Paypal za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link-stripe-paypal = Cytajśo <stripePrivacyLink>pšawidła priwatnosći Stripe</stripePrivacyLink> a <paypalPrivacyLink>pšawidła priwatnosći Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -374,6 +374,9 @@ sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje za
 ## subscription create
 
 sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
+pay-with-heading-other = Płaśeńsku móžnosć wubraś
+pay-with-heading-card-or = Abo płaśćo z kórtu
+pay-with-heading-card-only = Z kórtu płaśiś
 
 ## plan-details
 
