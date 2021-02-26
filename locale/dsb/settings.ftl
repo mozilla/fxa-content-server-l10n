@@ -85,40 +85,115 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Felujuce abo dwójne elementy?
 cs-disconnect-sync-heading = Ze Sync źěliś
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Waše pśeglědowańske daty na wašom
+    rěźe ({ $service }) wóstanu, ale njebuźo wěcej z wašym kontom synchronizěrowaś.
+cs-disconnect-sync-reason =
+    Co jo głowna pśicyna za źělenje toś togo
+    rěda?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Rěd jo:
+cs-disconnect-sync-opt-suspicious = Suspektny
+cs-disconnect-sync-opt-lost = Zgubjony abo kšadnjony
+cs-disconnect-sync-opt-old = Stary abo wuměnjony
+cs-disconnect-sync-opt-duplicate = Dwójny
+cs-disconnect-sync-opt-not-say = Bźez pódaśa
 
 ##
 
+cs-disconnect-advice-confirm = W pórěźe, som zrozměł
+cs-disconnect-lost-advice-heading = Zgubjony abo kšadnjony rěd jo se źělił
+cs-disconnect-suspicious-advice-heading = Suspektny rěd jo se źělił
+cs-sign-out-button = Wótzjawiś
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Ześěgnjony
+datablock-copy =
+    .message = Kopěrowane
+datablock-print =
+    .message = Śišćane
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Wótnowjeńske kody
+get-data-trio-download =
+    .title = Ześěgnuś
+get-data-trio-copy =
+    .title = Kopěrowaś
+get-data-trio-print =
+    .title = Śišćaś
 
 # HeaderLockup component
 
+header-menu-open = Meni zacyniś
+header-menu-closed = Meni sedłoweje nawigacije
+header-back-to-top-link =
+    .title = Slědk górjej
+header-title = { -product-firefox-accounts }
+header-switch-title = Ku klasiskemu designoju pśešaltowaś
+    .title = wótkaz klasiskego designa
+header-help = Pomoc
 
 ## Settings Nav
 
+nav-settings = Nastajenja
+nav-profile = Profil
+nav-security = Wěstota
+nav-connected-services = Zwězane słužby
+nav-paid-subs = Zapłaśone abonementy
+nav-email-comm = E-mailowa komunikacija
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-replace-code-success-alert = Kontowe wótnowjeńske kody su se zaktualizěrowali.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilowy wobraz
+avatar-page-add-photo = Foto pśidaś
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fotografěrowaś
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Foto wótwónoźeś
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Znowego fotografěrowaś
+avatar-page-close-button = Zacyniś
+avatar-page-save-button = Składowaś
+avatar-page-zoom-out-button = Pómjeńšyś
+avatar-page-zoom-in-button = Pówětšyś
+avatar-page-rotate-button = Wobwjertnuś
+avatar-page-camera-error = Kamera njedajo se inicializěrowaś
+avatar-page-new-avatar =
+    .alt = nowy profilowy wobraz
+avatar-page-file-upload-error-2 = Pśi nagrawanju wašogo profilowego wobraza jo problem nastał.
+avatar-page-delete-error-2 = Pśi lašowanju wašogo profilowego wobraza jo problem nastał.
+avatar-page-image-too-large-error = Wobrazowa dataja jo pśewjelika za nagraśe.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Gronidło změniś
 
 ##
 
