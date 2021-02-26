@@ -472,9 +472,31 @@ tfa-row-action-disable = ამორთვა
 tfa-row-button-refresh =
     .title = ორსაფეხურიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორსაფეხურიანი დამოწმების განახლებისას.
+tfa-row-content-explain =
+    დაიცავით ანგარიში უცხო პირთა შესვლისგან
+    თქვენს ხელთ არსებული უნიკალური კოდის მოთხოვნით.
+tfa-row-cannot-verify-session-2 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას.
+tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორსაფეხურიანი დამოწმება?
+tfa-row-disable-modal-confirm = გამორთვა
+tfa-row-disable-modal-explain =
+    ეს ქმედება შეუქცევადია. ამასთან,
+    გაქვთ არჩევანი <linkExternal>შეცვალოთ აღდგენის გასაღებები</linkExternal>.
+tfa-row-cannot-disable = ორსაფეხურიანი დამოწმება ვერ გამოირთვება.
+tfa-row-change-modal-heading = შეიცვალოს აღდგენის გასაღებები?
+tfa-row-change-modal-confirm = შეცვლა
+tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = სურათი
+avatar-add-link = დამატება
+avatar-change-link = შეცვლა
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = უცნობი ანგარიში
+auth-error-103 = არასწორი პაროლი
+auth-error-110 = უმართებულო სიტყვა-ნიშანი
+auth-error-138 = დაუმოწმებელი სეანსი
+auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
+auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
