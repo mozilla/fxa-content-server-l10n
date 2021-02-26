@@ -324,6 +324,7 @@ tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Hubo un problema al recuperar tu código.
 tfa-cannot-verify-code = Hubo un problema al verificar tu código de recuperación.
 tfa-incorrect-recovery-code = Código de recuperación incorrecto
+tfa-enabled = Autenticación en dos pasos activada
 
 ##
 
