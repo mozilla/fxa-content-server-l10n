@@ -20,10 +20,24 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox-ანგარიშები
+-product-firefox-accounts =
+    { $case ->
+       *[nom] Firefox-ანგარიშები
+        [dat] Firefox-ანგარიშებს
+        [gen] Firefox-ანგარიშების
+        [ins] Firefox-ანგარიშებით
+        [add] Firefox-ანგარიშებთან
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox-ანგარიში
+-product-firefox-account =
+    { $case ->
+       *[nom] Firefox-ანგარიში
+        [dat] Firefox-ანგარიშს
+        [gen] Firefox-ანგარიშის
+        [ins] Firefox-ანგარიშით
+        [add] Firefox-ანგარიშთან
+    }
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
