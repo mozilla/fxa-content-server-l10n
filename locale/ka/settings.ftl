@@ -334,24 +334,82 @@ delete-account-link = ანგარიშის წაშლა
 
 ## Two Step Authentication
 
+tfa-title = ორსაფეხურიანი დამოწმება
+tfa-step-1-3 = 1-ლი ნაბიჯი 3-დან
+tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
+tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
+tfa-button-continue = გაგრძელება
+tfa-button-cancel = გაუქმება
+tfa-button-finish = დასრულება
+tfa-incorrect-totp = ორსაფეხურიანი დამოწმების კოდი არასწორია
+tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
+tfa-cannot-verify-code = ხარვეზი წარმოიშვა, თქვენი აღდგენის გასაღებების დამოწმებისას.
+tfa-incorrect-recovery-code = აღდგენის არასწორი გასაღები
+tfa-enabled = ორსაფეხურიანი დამოწმება შესვლისას ჩართულია
+tfa-scan-this-code =
+    წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
+    რომელიმე ამ პროგრამას</ linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    გამოიყენეთ { $secret } კოდი, ორსაფეხურიანი დამოწმებისთვის გასამართად
+    მხარდაჭერილ პროგრამებში.
+tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
+tfa-enter-totp = ახლა კი შეიყვანეთ უსაფრთხოების კოდი დამოწმების პროგრამიდან.
+tfa-input-enter-totp =
+    .label = შეიყვანეთ უსაფრთხოების კოდი
+tfa-save-these-codes =
+    გადაინახეთ ეს ერთჯერადი კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
+    როცა თან არ გექნებათ მობილური მოწყობილობა.
+tfa-enter-code-to-confirm =
+    გთხოვთ, შეიყვანოთ აღდგენის ერთ-ერთი გასაღები ახლა
+    იმის დასამოწმებლად რომ შენახული გაქვთ. ეს გასაღები დაგჭირდებათ, თუ დაკარგავთ მოწყობილობას და მოისურვებთ
+    ანგარიშთან წვდომის დაბრუნებას.
+tfa-enter-recovery-code =
+    .label = შეიყვანეთ აღდგენის გასაღები
 
 ##
 
 
 ## Profile section
 
+porfile-heading = პროფილი
+profile-display-name =
+    .header = გამოსაჩენი სახელი
+profile-password =
+    .header = პაროლი
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = შეიქმნა { $date }
+profile-primary-email =
+    .header = მთავარი ელფოსტა
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = უსაფრთხოება
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = დამატება
+row-defaults-action-change = შეცვლა
+row-defaults-action-disable = ამორთვა
+row-defaults-status = არცერთი
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = ჩართულია
+rk-not-set = არაა დაყენებული
+rk-action-create = შექმნა
+rk-action-remove = მოცილება
+rk-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა აღდგენის გასაღების განახლებისას.
+rk-key-removed = ანგარიშის აღდგენის გასაღები მოცილებულია.
 
 ## Secondary email sub-section on main Settings page
 
