@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 16:06+0000\n"
-"PO-Revision-Date: 2021-02-15 16:13+0000\n"
+"PO-Revision-Date: 2021-02-26 14:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -165,7 +165,9 @@ msgstr "ముందుగ, మీ Firefox ఖాతా సంకేతపదం
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr "రెండవది, Firefox సంకేతపదం వెబ్సైట్లకు భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను తనిఖీ చేయాలి."
+msgstr ""
+"రెండవది, Firefox సంకేతపదం వెబ్సైట్లకు భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను తనిఖీ "
+"చేయాలి."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -185,7 +187,7 @@ msgstr "ఇది మీరు కాకుంటే, <a %(revokeAccountRecovery
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "మీ Firefox ఖాతా కొరకు ఖాతా పునరుద్ధరణ కీని విజయవంతంగా ఈ క్రింది పరికరం నుండి తయారుచేసుకున్నారు:"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
@@ -986,7 +988,9 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr "మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు <a %(iosLinkAttributes)s>ఐఓయస్</a>."
+#~ msgstr ""
+#~ "మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు "
+#~ "<a %(iosLinkAttributes)s>ఐఓయస్</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "విజయవంతంగా మీ Firefox ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు ఆండ్రాయిడ్ మరియు iOS కోసం ఫైర్ఫాక్స్ సహా, మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు."
@@ -1012,12 +1016,15 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్ చేయడానికి సైన్ ఇన్ చేయవచ్చు."
+#~ msgstr ""
+#~ "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్"
+#~ " చేయడానికి సైన్ ఇన్ చేయవచ్చు."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
+#~ msgstr ""
+#~ "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Sync లోనికి ప్రవేశించండి"
@@ -1122,13 +1129,16 @@ msgstr ""
 #~ msgstr "పాస్‌వర్డ్‌ని రీసెట్ చేయి"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
+#~ "కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత "
+#~ "చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను ధృవీకరించండి."
+#~ msgstr ""
+#~ "ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను "
+#~ "ధృవీకరించండి."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
@@ -1145,8 +1155,7 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox ఖాతాల కోసం ఇ-మెయిలుని ధృవీకరించండి"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "మీ Firefox ఖాతాకి %(secondaryEmail)sని అదనపు ఈమెయిల్‌గా విజయవంతంగా ధ్రువీకరించారు. ఇప్పుడు రెండు ఈమెయిల్ చిరునామాలకు భద్రతా గమనికలు మరియు ప్రవేశ ధ్రువీకరణలు పంపిణీ చేయబడును."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
