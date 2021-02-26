@@ -382,7 +382,7 @@ rk-key-removed = Kontowy wobnowjenski kluč je so wotstronił.
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 rk-refresh-key = Wobnowjenski kluč aktualizować
 rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
-rk-content-reset-data = Čehodla so moje data wróćo stajeja, hdyž swoje hesło wróćo stajam?
+rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
 rk-cannot-verify-session-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
 
