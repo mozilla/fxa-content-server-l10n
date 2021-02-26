@@ -159,7 +159,10 @@ nav-email-comm = E-mejlowa komunikacija
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Při wuměnjenju wašich wobnowjenskich kodow je problem nastał.
-tfa-replace-code-success = Nowe kody su so wutworili. Składujće je za jedn
+tfa-replace-code-success =
+    Nowe kody su so wutworili. Składujće je za jónkróćne wužiwanje
+    na wěstym městnje – trjebaće je za přistup k swojemu kontu, jeli nimaće
+    swój mobilny grat.
 tfa-replace-code-success-alert = Kontowe wobnowjenske kody su so zaktualizowali.
 
 ## Avatar change page
@@ -262,6 +265,7 @@ display-name-success-alert = Zwobraznjenske mjeno zaktualizowane.
 recovery-key-cancel-button = Přetorhnyć
 recovery-key-close-button = Začinić
 recovery-key-continue-button = Dale
+recovery-key-created = Waš wobnowjenski kluč je so wutworił. Składujće kluč na wěstym městnje, kotrež móžeće pozdźišo lochko zaso namakać – trjebaće kluč, zo byšće zaso přistup k swojim datam dóstał, jeli sće swoje hesło zabył.
 recovery-key-enter-password =
     .label = Hesło zapodać
 recovery-key-page-title =
