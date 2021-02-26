@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Лагатып { -brand-mozilla }
 app-footer-privacy-notice = Паведамленні аб прыватнасці сайта
@@ -59,12 +59,17 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Усталюйце { -brand-firefox } на мабільную прыладу
+connect-another-find-fx-mobile =
+    Знайдзіце { -brand-firefox } у { -google-play } ці { -app-store } або
+    <br /><linkExternal>адпраўце спасылку для сцягвання на сваю прыладу.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Падключаныя паслугі
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Адсутнічаюць або дублююцца элементы?
 cs-disconnect-sync-heading = Адключыць сінхранізацыю
@@ -191,7 +196,6 @@ delete-account-continue-button = Працягнуць
 delete-account-password-input =
     .label = Увядзіце пароль
 delete-account-cancel-button = Скасаваць
-delete-account-delete-button = Выдаліць уліковы запіс
 
 ##
 
