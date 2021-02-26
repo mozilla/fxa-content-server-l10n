@@ -40,24 +40,51 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = Logo { -brand-mozilla }
+app-footer-privacy-notice = Pšawidła priwatnosći websedła
+app-footer-terms-of-service = Wužywańske wuměnjenja
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Waš awatar
+avatar-default-avatar =
+    .alt = Standardny awatar
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefon abo tablet
+connect-another-find-fx-mobile =
+    Namakajśo { -brand-firefox } w { -google-play } a { -app-store } abo
+    <br /><linkExternal>sćelśo ześěgnjeński wótkaz na swój rěd.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Zwězane słužby
+cs-description = Wškno, což wužywaśo a źož sćo pśizjawjony.
+cs-cannot-refresh =
+    Pśi aktualizěrowanju lisćiny zwězanych słužbow jo problem
+    nastał.
+cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Wót { $service } wótzjawjony.
+cs-refresh-button =
+    .title = Zwězane słužby aktualizěrowaś
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Felujuce abo dwójne elementy?
+cs-disconnect-sync-heading = Ze Sync źěliś
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
