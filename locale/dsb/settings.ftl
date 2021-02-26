@@ -194,18 +194,62 @@ avatar-page-image-too-large-error = Wobrazowa dataja jo pśewjelika za nagraśe.
 
 pw-change-header =
     .title = Gronidło změniś
+pw-change-stay-safe = Šćitajśo se – njewužywajśo gronidła znowego. Wašo gronidło:
+pw-change-least-8-chars = Musy nanejmjenjej 8 znamuškow dłujke byś
+pw-change-not-contain-email = Njesmějo waša e-mailowa adresa byś
+pw-change-must-match = Nowe gronidło wobkšuśenjeju wótpowědujo
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Njesmějo toś tej <linkExternal>lisćinje cestych
+    gronidłow</linkExternal> wótpowědowaś
+pw-change-cancel-button = Pśetergnuś
+pw-change-save-button = Składowaś
+pw-change-forgot-password-link = Sćo gronidło zabył?
+pw-change-current-password =
+    .label = Aktualne gronidło zapódaś
+pw-change-new-password =
+    .label = Nowe gronidło zapódaś
+pw-change-confirm-password =
+    .label = Nowe gronidło wobkšuśiś
+pw-change-success-alert = Gronidło jo se zaktualizěrowało.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Konto wulašowaś
+delete-account-step-1-2 = Kšac 1 z 2
+delete-account-step-2-2 = Kšac 2 z 2
+delete-account-confirm-title-2 = Sćo zwězał swójo konto { -product-firefox-account } z produktami { -brand-mozilla }, kótarež was wěsty a produktiwny we webje źaržy:
+delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
+delete-account-chk-box-1 =
+    .label = Wšykne zapłaśone abonementy, kótarež maśo, se wupowěźiju
+delete-account-chk-box-2 =
+    .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
+delete-account-chk-box-3 =
+    .label = Waše skłaźone informacije njedaju se snaź wótnowiś, gaž toś tu e-mailowu adresu znowego aktiwěrujośo
+delete-account-chk-box-4 =
+    .label = Rozšyrjenja, kótarež sćo wózjawił na addons.mozilla.org, se wulašuju.
+delete-account-close-button = Zacyniś
+delete-account-continue-button = Dalej
+delete-account-password-input =
+    .label = Gronidło zapódaś
+delete-account-cancel-button = Pśetergnuś
+delete-account-delete-button-2 = Lašowaś
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Zwobraznjeńske mě
+display-name-input =
+    .label = Zapódajśo zwobraznjeńske mě
+submit-display-name = Składowaś
+cancel-display-name = Pśetergnuś
 
 ##
 
