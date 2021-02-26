@@ -123,24 +123,64 @@ cs-disconnect-sync-opt-not-say = დუმილს ვამჯობინე�
 
 cs-disconnect-advice-confirm = კარგი, გასაგებია
 cs-disconnect-lost-advice-heading = დაკარგული ან მოპარული მოწყობილობა გამოთიშულია
+cs-disconnect-lost-advice-content-2 =
+    ვინაიდან თქვენი მოწყობილობა დაკარგული ან მოპარულია
+    მონაცემების უსაფრთხოებისთვის, უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") } პაროლი
+    თქვენი პარამეტრებიდან. აგრეთვე, სასურველია გაეცნოთ მითითებებს თავად
+    მოწყობილობის მწარმოებლისგან, მონაცემების დაშორებულად წაშლის თაობაზე.
+cs-disconnect-suspicious-advice-heading = საეჭვო მოწყობილობა გამოთიშულია
+cs-disconnect-suspicious-advice-content =
+    თუ გამოთიშული მოწყობილობა ნამდვილად
+    საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის, უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") }
+    პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
+    პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
+cs-sign-out-button = გამოსვლა
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = ჩამოიტვირთა
+datablock-copy =
+    .message = ასლი აღებულია
+datablock-print =
+    .message = ამოიბეჭდა
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = აღდგენის გასაღებები
+get-data-trio-download =
+    .title = ჩამოტვირთვა
+get-data-trio-copy =
+    .title = ასლი
+get-data-trio-print =
+    .title = ამობეჭდვა
 
 # HeaderLockup component
 
+header-menu-open = მენიუს დახურვა
+header-menu-closed = საიტზე გადაადგილების მენიუ
+header-back-to-top-link =
+    .title = დასაწყისში დაბრუნება
+header-title = { -product-firefox-accounts }
+header-switch-title = ძველი იერსახის დაბრუნება
+    .title = ძველი იერსახის ბმული
+header-help = დახმარება
 
 ## Settings Nav
 
+nav-settings = პარამეტრები
+nav-profile = პროფილი
+nav-security = უსაფრთხოება
+nav-connected-services = დაკავშირებული მომსახურებები
+nav-paid-subs = ფასიანი გამოწერები
+nav-email-comm = ელფოსტით კავშირები
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = ხარვეზი წარმოიშვა, თქვენი აღდგენის გასაღებების ჩანაცვლებისას.
 
 ## Avatar change page
 
