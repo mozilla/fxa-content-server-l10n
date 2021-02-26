@@ -159,6 +159,7 @@ nav-email-comm = E-mejlowa komunikacija
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Při wuměnjenju wašich wobnowjenskich kodow je problem nastał.
+tfa-replace-code-success = Nowe kody su so wutworili. Składujće je za jedn
 tfa-replace-code-success-alert = Kontowe wobnowjenske kody su so zaktualizowali.
 
 ## Avatar change page
@@ -385,6 +386,9 @@ rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył
 rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
 rk-cannot-verify-session-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał.
 rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
+rk-remove-modal-content =
+    Jeli waše hesło wróćo stajeće, njemóžeće swój
+    wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
 
 ## Secondary email sub-section on main Settings page
 
@@ -411,6 +415,9 @@ se-remove-email =
 se-refresh-email =
     .title = E-mejlowu adresu aktualizować
 se-unverified = njewobkrućeny
+se-resend-code =
+    Wobkručenje trěbne. <button>Sćelće wobkrućenski kod znowa</button>,
+    jeli we wašim rjadowaku póstoweho dochada abo w spamowym rjadowaku njeje.
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy činić
 se-default-content = Mějće přistup k swojemu kontu, jeli njemóžeće so pola swojeje primarneje e-mejloweje adresy přizjewić.
