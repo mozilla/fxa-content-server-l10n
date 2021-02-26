@@ -203,6 +203,7 @@ pw-change-new-password =
     .label = Saisissez le nouveau mot de passe
 pw-change-confirm-password =
     .label = Confirmer le nouveau mot de passe
+pw-change-success-alert = Mot de passe mis à jour.
 
 ##
 
@@ -213,33 +214,75 @@ delete-account-header =
     .title = Supprimer le compte
 delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
+delete-account-confirm-title-2 = Votre { -product-firefox-account } est connecté à des produits { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
+delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
+delete-account-chk-box-1 =
+    .label = Tous les abonnements payants dont vous disposez seront résiliés
+delete-account-chk-box-2 =
+    .label = Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Réactiver le compte avec cette adresse électronique peut ne pas restaurer vos informations enregistrées
+delete-account-chk-box-4 =
+    .label = Toutes les extensions et tous les thèmes que vous avez publiés sur addons.mozilla.org seront supprimés
+delete-account-close-button = Fermer
+delete-account-continue-button = Continuer
+delete-account-password-input =
+    .label = Saisissez votre mot de passe
+delete-account-cancel-button = Annuler
+delete-account-delete-button-2 = Supprimer
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nom à afficher
+display-name-input =
+    .label = Saisissez le nom à afficher
+submit-display-name = Enregistrer
+cancel-display-name = Annuler
+display-name-success-alert = Nom affiché mis à jour.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Annuler
+recovery-key-close-button = Fermer
+recovery-key-continue-button = Continuer
+recovery-key-enter-password =
+    .label = Saisissez votre mot de passe
+recovery-key-page-title =
+    .title = Clé de récupération
+recovery-key-step-1 = Étape 1 sur 2
+recovery-key-step-2 = Étape 2 sur 2
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Annuler
+add-secondary-email-save-button = Enregistrer
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Annuler
+verify-secondary-email-verify-button = Vérifier
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Supprimer le compte
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Étape 1 sur 3
+tfa-step-2-3 = Étape 2 sur 3
+tfa-step-3-3 = Étape 3 sur 3
+tfa-button-continue = Continuer
 
 ##
 
