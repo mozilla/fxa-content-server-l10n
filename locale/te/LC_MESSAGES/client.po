@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 16:06+0000\n"
-"PO-Revision-Date: 2021-02-26 14:29+0000\n"
+"PO-Revision-Date: 2021-02-26 14:47+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -2017,7 +2017,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
 msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr ""
+msgstr "మీ సంకేతపదాన్ని రీసెట్ చేసుకున్నప్పుడు, మీ డేటాను చూడడానికి మీ పునరుద్ధరణ కీని వాడలేరు."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:1
 msgid "Step 2 of 2: Save Recovery key"
