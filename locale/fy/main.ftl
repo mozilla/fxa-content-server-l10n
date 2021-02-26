@@ -87,8 +87,8 @@ product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } brûkt Stripe foar feilich betellingsferkear.
-payment-legal-link = De <a>privacyferklearring fan Stripe</a> besjen.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } brûkt Stripe en Paypal foar feilich betellingsferkear.
+payment-legal-link-stripe-paypal = It <stripePrivacyLink>privacybelied fan Stripe</stripePrivacyLink> en fan <paypalPrivacyLink>Paypal</paypalPrivacyLink> besjen.
 
 ## payment form
 
@@ -334,6 +334,9 @@ sub-billing-update-success = Jo betellingsgegevens binne mei sukses bywurke
 ## subscription create
 
 sub-guarantee = 30-dagen-jildweromgarânsje
+pay-with-heading-other = Selektearje betellingsopsje
+pay-with-heading-card-or = Of betelje mei kaart
+pay-with-heading-card-only = Betelje mei kaart
 
 ## plan-details
 

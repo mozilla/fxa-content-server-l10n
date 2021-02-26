@@ -6,6 +6,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 
 document =
   .title = Firefox Accounts
@@ -76,8 +77,8 @@ product-plan-not-found = Plan not found
 product-no-such-plan = No such plan for this product.
 
 ## payment legal blurb
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } uses Stripe and Paypal for secure payment processing.
-payment-legal-link-stripe-paypal = View the <stripePrivacyLink>Stripe privacy policy</stripePrivacyLink> and <paypalPrivacyLink>Paypal privacy policy</paypalPrivacyLink>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } uses Stripe and { -brand-name-paypal } for secure payment processing.
+payment-legal-link-stripe-paypal = View the <stripePrivacyLink>Stripe privacy policy</stripePrivacyLink> and <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
 
 ## payment form
 payment-name =
@@ -138,8 +139,7 @@ input-error-is-required = { $label } is required
 ## subscription upgrade
 product-plan-upgrade-heading = Review your upgrade
 sub-update-failed = Plan update failed
-sub-update-title = Billing information
-sub-update-card-ending = Card Ending { $last }
+sub-update-payment-title = Payment information
 sub-update-card-exp = Expires { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Your plan will change immediately, and you’ll be charged an adjusted
@@ -334,5 +334,5 @@ payment-confirmation-amount-year = { $intervalCount ->
   *[other] { $amount } every { $intervalCount } years
 }
 
-payment-confirmation-cc-preview = ending in { $last4 }
 payment-confirmation-download-button = Continue to download
+payment-confirmation-cc-card-ending-in = Card ending in { $last4 }

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-02-26 16:07+0000\n"
 "PO-Revision-Date: 2020-11-08 07:43+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,19 +108,15 @@ msgstr "ไม่รู้จักบัญชีนี้ <a href=\"/signup\">
 msgid "Account no longer exists. Recreate it?"
 msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "โปรดเลือกหนึ่งรายการ"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "อื่น ๆ"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "ขอบคุณสำหรับการติดต่อฝ่ายสนับสนุนของ Mozilla เกี่ยวกับ <b>%(escapedLowercaseTopic)s</b> สำหรับ <b>%(escapedSelectedProduct)s</b> เราจะติดต่อคุณทางอีเมลโดยเร็วที่สุดเท่าที่จะเป็นไปได้"
 
@@ -157,7 +153,7 @@ msgstr "ป้อนรหัสผ่านอีกครั้ง"
 msgid "Change"
 msgstr "เปลี่ยน"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -415,24 +411,24 @@ msgid "Account verified successfully"
 msgstr "ตรวจสอบบัญชีสำเร็จ"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "การชำระและการเรียกเก็บเงิน"
+msgid "payment & billing"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "ปัญหาบัญชี"
+msgid "account issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "ปัญหาทางเทคนิค"
+msgid "technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
-msgstr "ให้คำติชม / ขอคุณลักษณะ"
+msgid "provide feedback / request features"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
-msgstr "ไม่อยู่ในรายการ"
+msgid "not listed"
+msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1408,11 +1404,11 @@ msgstr "พร้อม"
 msgid "Legal"
 msgstr "ข้อกฎหมาย"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "เงื่อนไขการให้บริการ"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "ประกาศความเป็นส่วนตัว"
 
@@ -1641,7 +1637,7 @@ msgstr "ส่งลิงก์ทาง SMS เพื่อติดตั้�
 msgid "Mobile phone number"
 msgstr "เบอร์โทรศัพท์มือถือ"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "ส่ง"
 
@@ -1686,26 +1682,58 @@ msgid "Why sign in on another device?"
 msgstr "ทำไมถึงควรลงชื่อเข้าใช้บนอุปกรณ์อื่น?"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "การบอกรับ"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "ติดต่อเรา"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "คุณกำลังติดต่อเราเกี่ยวกับอะไร?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please Select One"
+msgstr "โปรดเลือกหนึ่งรายการ"
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "คุณต้องการความช่วยเหลืออะไร?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "การชำระและการเรียกเก็บเงิน"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "ปัญหาบัญชี"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "ปัญหาทางเทคนิค"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "ให้คำติชม / ขอคุณลักษณะ"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "ไม่อยู่ในรายการ"
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "คุณต้องการความช่วยเหลือเกี่ยวกับแอปหรือบริการเฉพาะหรือไม่? (ไม่จำเป็น)"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "หัวข้อ (ตัวเลือก)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "คำอธิบายของปัญหา"
 
@@ -1926,10 +1954,6 @@ msgstr "สร้างรหัสการกู้คืนใหม่"
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
 msgstr "ยืนยันรหัสกู้คืน"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "การบอกรับ"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"

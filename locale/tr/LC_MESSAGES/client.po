@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-02-26 16:07+0000\n"
 "PO-Revision-Date: 2020-12-13 13:15+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,19 +109,15 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "Lütfen birini seçin"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Diğer"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğimiz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedProduct)s</b> için <b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğimiz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
 
@@ -158,7 +154,7 @@ msgstr "Parolayı yeniden yazın"
 msgid "Change"
 msgstr "Değiştir"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -416,24 +412,24 @@ msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "Ödeme ve faturalandırma"
+msgid "payment & billing"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "Hesap sorunları"
+msgid "account issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "Teknik sorunlar"
+msgid "technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
-msgstr "Görüş bildirme / yeni özellik talebi"
+msgid "provide feedback / request features"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
-msgstr "Başka bir konu"
+msgid "not listed"
+msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1411,11 +1407,11 @@ msgstr "Hazır"
 msgid "Legal"
 msgstr "Yasal uyarılar"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Gizlilik Bildirimi"
 
@@ -1645,7 +1641,7 @@ msgstr "Telefonunuza Firefox'u yüklemek için SMS ile link gönderin."
 msgid "Mobile phone number"
 msgstr "Cep telefonu numarası"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Gönder"
 
@@ -1690,26 +1686,58 @@ msgid "Why sign in on another device?"
 msgstr "Neden başka bir cihazdan giriş yapmalısınız?"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "Abonelikler"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "Bize ulaşın"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "Bizimle hangi konuda iletişime geçiyorsunuz?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please Select One"
+msgstr "Lütfen birini seçin"
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "Ne konuda yardıma ihtiyacınız var?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Ödeme ve faturalandırma"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Hesap sorunları"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Teknik sorunlar"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Görüş bildirme / yeni özellik talebi"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Başka bir konu"
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "Belirli bir uygulama veya hizmetle ilgili yardıma mı ihtiyacınız var? (isteğe bağlı)"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "Konu (isteğe bağlı)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Sorunun açıklaması"
 
@@ -1930,10 +1958,6 @@ msgstr "Yeni kurtarma kodları oluştur"
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
 msgstr "Kurtarma kodunu doğrulayın"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Abonelikler"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
