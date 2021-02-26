@@ -319,6 +319,22 @@ tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
 tfa-cannot-verify-code = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał.
 tfa-incorrect-recovery-code = Wopacny wótnowjeński kod
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
+tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Wužywajśo kod { $secret }, aby zarědował dwukšacowu awtentifikaciju w pódpěranych nałoženjach.
+tfa-button-cant-scan-qr = Njamóžośo kod skannowaś?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:
+tfa-enter-totp = Zapódajśo něnto wěstotny kod z awtentifikaciskego nałoženja.
+tfa-input-enter-totp =
+    .label = Wěstotny kod zapódaś
+tfa-save-these-codes = Składujśo toś te kody za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+tfa-enter-code-to-confirm =
+    Pšosym zapódajśo něnto jaden ze swójich wótnowjeńskich
+    kodow, aby wobkšuśił, až sćo jen składł. Trjebaśo kod, jolic swój rěd zgubijośo
+    a cośo pśistup k swójomu kontoju.
 
 ##
 
