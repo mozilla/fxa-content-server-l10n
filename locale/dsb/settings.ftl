@@ -335,24 +335,52 @@ tfa-enter-code-to-confirm =
     Pšosym zapódajśo něnto jaden ze swójich wótnowjeńskich
     kodow, aby wobkšuśił, až sćo jen składł. Trjebaśo kod, jolic swój rěd zgubijośo
     a cośo pśistup k swójomu kontoju.
+tfa-enter-recovery-code =
+    .label = Wótnowjeński kod zapódaś
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Zwobraznjeńske mě
+profile-password =
+    .header = Gronidło
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Napórany: { $date }
+profile-primary-email =
+    .header = Primarna e-mailowa adresa
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Wěstota
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Pśidaś
+row-defaults-action-change = Změniś
+row-defaults-action-disable = Znjemóžniś
+row-defaults-status = Žeden
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Zmóžnjony
+rk-not-set = Njepóstajony
+rk-action-create = Napóraś
+rk-action-remove = Wótwónoźeś
+rk-cannot-refresh = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
+rk-key-removed = Kontowy wótnowjeński kluc jo se wótwónoźeł.
+rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
+rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
+rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
+rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
 
 ## Secondary email sub-section on main Settings page
 
