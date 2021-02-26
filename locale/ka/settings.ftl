@@ -223,41 +223,114 @@ pw-change-header =
 pw-change-stay-safe = შეინარჩუნეთ უსაფრთხოება — ნუ გამოიყენებთ ერთნაირ პაროლებს. თქვენი პაროლია:
 pw-change-least-8-chars = უნდა შედგებოდეს სულ მცირე 8 სიმბოლოსგან
 pw-change-not-contain-email = არ უნდა ემთხვეოდეს ელფოსტის მისამართს
+pw-change-must-match = ახალი პაროლი ემთხვევა დასადასტურებელს
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     არ უნდა ემთხვეოდეს ცნობილი <linkExternal>პაროლების სიაში
     არსებულს</ linkExternal>
 pw-change-cancel-button = გაუქმება
+pw-change-save-button = შენახვა
+pw-change-forgot-password-link = დაგავიწყდათ პაროლი?
+pw-change-current-password =
+    .label = მიუთითეთ არსებული პაროლი
+pw-change-new-password =
+    .label = მიუთითეთ ახალი პაროლი
+pw-change-confirm-password =
+    .label = დაადასტურეთ პაროლი
+pw-change-success-alert = პაროლი განახლდა.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = ანგარიშის წაშლა
+delete-account-step-1-2 = 1-ლი ნაბიჯი 2-დან
+delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
+delete-account-confirm-title-2 = თქვენ დაუკავშირეთ თქვენი { -product-firefox-account } { -brand-mozilla }-ს პროდუქტებს, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
+delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
+delete-account-chk-box-1 =
+    .label = თქვენი ყველა ფასიანი გამოწერა გაუქმდება
+delete-account-chk-box-2 =
+    .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
+delete-account-chk-box-3 =
+    .label = ამ ელფოსტის ხელახლა ამოქმედებით, თქვენი შენახული ინფორმაცია შეიძლება არ აღდგეს
+delete-account-chk-box-4 =
+    .label = ყველა გაფართოება და თემა, რომელიც addons.mozilla.org-ზე გამოგიქვეყნებიათ, წაიშლება
+delete-account-close-button = დახურვა
+delete-account-continue-button = გაგრძელება
+delete-account-password-input =
+    .label = შეიყვანეთ პაროლი
+delete-account-cancel-button = გაუქმება
+delete-account-delete-button-2 = წაშლა
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = გამოსაჩენი სახელი
+display-name-input =
+    .label = შეიყვანეთ გამოსაჩენი სახელი
+submit-display-name = შენახვა
+cancel-display-name = გაუქმება
+display-name-update-error = ხარვეზი წარმოიშვა თქვენი გამოსაჩენი სახელის განახლებისას.
+display-name-success-alert = გამოსაჩენი სახელი განახლებულია.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = გაუქმება
+recovery-key-close-button = დახურვა
+recovery-key-continue-button = გაგრძელება
+recovery-key-created = ახალი გასაღები შეიქმნა. შეინახეთ გასაღები ისეთ უსაფრთხო ადგილას, სადაც ადვილად მიაგნებთ — გამოგადგებათ ანგარიშთან წვდომისთვის იმ შემთხვევაში, თუ პაროლი დაგავიწყდებათ.
+recovery-key-enter-password =
+    .label = შეიყვანეთ პაროლი
+recovery-key-page-title =
+    .title = აღდგენის გასაღები
+recovery-key-step-1 = 1-ლი ნაბიჯი 2-დან
+recovery-key-step-2 = მე-2 ნაბიჯი 2-დან
+recovery-key-success-alert = აღდგენის გასაღები შეიქმნა.
 
 ## Add secondary email page
 
+add-secondary-email-error = ხარვეზი წარმოიშვა ამ ელფოსტის შექმნისას.
+add-secondary-email-page-title =
+    .title = დამატებითი ელფოსტა
+add-secondary-email-enter-address =
+    .label = შეიყვანეთ ელფოსტის მისამართი
+add-secondary-email-cancel-button = გაუქმება
+add-secondary-email-save-button = შენახვა
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = ხარვეზი წარმოიშვა დადასტურების კოდის გამოგზავნისას.
+verify-secondary-email-page-title =
+    .title = დამატებითი ელფოსტა
+verify-secondary-email-verification-code =
+    .label = შეიყვანეთ დამადასტურებელი კოდი
+verify-secondary-email-cancel-button = გაუქმება
+verify-secondary-email-verify-button = დამოწმება
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = გთხოვთ, 5 წუთის განმავლობაში შეიყვანოთ დამადასტურებელი კოდი, რომელიც გამოგზავნილია მისამართზე <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } წარმატებით დაემატა.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = ანგარიშის წაშლა
 
 ## Two Step Authentication
 
