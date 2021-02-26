@@ -250,27 +250,75 @@ display-name-input =
     .label = Zapódajśo zwobraznjeńske mě
 submit-display-name = Składowaś
 cancel-display-name = Pśetergnuś
+display-name-update-error = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał.
+display-name-success-alert = Zwobraznjeńske mě zaktualizěrowane.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Pśetergnuś
+recovery-key-close-button = Zacyniś
+recovery-key-continue-button = Dalej
+recovery-key-enter-password =
+    .label = Gronidło zapódaś
+recovery-key-page-title =
+    .title = Wótnowjeński kluc
+recovery-key-step-1 = Kšac 1 z 2
+recovery-key-step-2 = Kšac 2 z 2
+recovery-key-success-alert = Wótnowjeński kluc jo se napórał.
 
 ## Add secondary email page
 
+add-secondary-email-error = Pś napóranju toś teje e-mailoweje adrese jo problem nastał.
+add-secondary-email-page-title =
+    .title = Druga e-mailowa adresa
+add-secondary-email-enter-address =
+    .label = E-mailowu adresu zapódaś
+add-secondary-email-cancel-button = Pśetergnuś
+add-secondary-email-save-button = Składowaś
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Pśi słanju wobkšuśeńskego koda jo problem nastał.
+verify-secondary-email-page-title =
+    .title = Druga e-mailowa adresa
+verify-secondary-email-verification-code =
+    .label = Zapódajśo swój wobkšućeński kod
+verify-secondary-email-cancel-button = Pśetergnuś
+verify-secondary-email-verify-button = Wobkšuśiś
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } jo se wuspěšnje pśidała.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Konto wulašowaś
 
 ## Two Step Authentication
 
+tfa-title = Dwójokšacowa awtentifikacija
+tfa-step-1-3 = Kšac 1 z 3
+tfa-step-2-3 = Kšac 2 z 3
+tfa-step-3-3 = Kšac 3 z 3
+tfa-button-continue = Dalej
+tfa-button-cancel = Pśetergnuś
+tfa-button-finish = Dokóńcyś
+tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
+tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
+tfa-cannot-verify-code = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-incorrect-recovery-code = Wopacny wótnowjeński kod
+tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 
 ##
 
