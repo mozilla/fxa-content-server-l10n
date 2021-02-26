@@ -70,7 +70,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logotip { -brand-mozilla(sklon: "rodilnik") }
 app-footer-privacy-notice = Obvestilo o zasebnosti spletnega mesta
@@ -194,8 +194,6 @@ avatar-page-rotate-button = Zavrti
 avatar-page-camera-error = Kamere ni bilo mogoče zagnati
 avatar-page-new-avatar =
     .alt = nova slika profila
-avatar-page-file-upload-error = Prišlo je do napake pri nalaganju slike profila
-avatar-page-delete-error = Prišlo je do napake pri brisanju slike profila
 avatar-page-image-too-large-error = Datoteka s sliko je prevelika za nalaganje.
 
 ##
@@ -221,6 +219,7 @@ pw-change-new-password =
     .label = Vnesite novo geslo
 pw-change-confirm-password =
     .label = Potrdite novo geslo
+pw-change-success-alert = Geslo posodobljeno.
 
 ##
 
@@ -231,7 +230,6 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
-delete-account-confirm-title = Svoje { -product-firefox-accounts(sklon: "tozilnik") } ste povezali z izdelki { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
 delete-account-chk-box-1 =
     .label = preklicali vse plačane naročnine
@@ -244,18 +242,21 @@ delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
 delete-account-cancel-button = Prekliči
-delete-account-delete-button = Izbriši račun
+delete-account-delete-button-2 = Izbriši
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Prikazno ime
 display-name-input =
     .label = Vnesite prikazno ime
 submit-display-name = Shrani
 cancel-display-name = Prekliči
 display-name-update-error = Prišlo je do napake pri spremembi prikaznega imena.
+display-name-success-alert = Prikazno ime posodobljeno.
 
 ##
 
