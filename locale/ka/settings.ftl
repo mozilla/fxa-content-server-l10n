@@ -84,9 +84,11 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = დაკავშირებული მომსახურებები
+cs-description = ყველაფერი, რასაც იყენებთ და რაშიც შესული ხართ.
 cs-cannot-refresh =
     სამწუხაროდ, რაღაც შეცდომა წარმოიშვა სიის განახლებისას დაკავშირებული 
     მომსახურებების.
+cs-cannot-disconnect = კლიენტი ვერ მოიძებნა, გამოთიშვა შეუძლებელია
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -410,15 +412,66 @@ rk-action-create = შექმნა
 rk-action-remove = მოცილება
 rk-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა აღდგენის გასაღების განახლებისას.
 rk-key-removed = ანგარიშის აღდგენის გასაღები მოცილებულია.
+rk-cannot-remove-key = თქვენი ანგარიშის აღდგენის გასაღების წაშლა ვერ მოხერხდა.
+rk-refresh-key = აღდგენის გასაღების განახლება
+rk-content-explain = აღადგინეთ მონაცემები, როცა პაროლი დაგავიწყდებათ.
+rk-content-reset-data = რატომ ანულებს მონაცემებს პაროლის განულება?
+rk-cannot-verify-session-2 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას.
+rk-remove-modal-heading = მოცილდეს აღდგენის გასაღები?
+rk-remove-modal-content =
+    იმ შემთხვევაში, თუ თქვენს პაროლს გაანულებთ, ვეღარ შეძლებთ
+    აღდგენის გასაღებით თქვენს მონაცემებზე წვდომას. ეს ქმედება შეუქცევადია.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = დამატებითი ელფოსტა
+    .header = დამატებითი ელფოსტა
+se-cannot-refresh-email = სამწუხაროდ, ხარვეზი წარმოიშვა ამ ელფოსტის განახლებისას.
+se-cannot-resend-code = სამწუხაროდ, ხარვეზი წარმოიშვა დადასტურების კოდის ახლიდან გამოგზავნისას.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ახლა უკვე თქვენი მთავარი ელფოსტაა.
+se-set-primary-error = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი მთავარი ელფოსტის შეცვლისას.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } წარმატებით წაიშალა.
+se-delete-email-error = სამწუხაროდ, ხარვეზი წარმოიშვა ამ ელფოსტის წაშლისას.
+se-verify-session = ამ მოქმედების შესასრულებლად, თქვენი მიმდინარე სეანსის დამოწმება დაგჭირდებათ.
+se-verify-session-error = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას.
+# Button to remove the secondary email
+se-remove-email =
+    .title = ელფოსტის მოცილება
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = ელფოსტის განახლება
+se-unverified = დაუმოწმებელი
+se-resend-code =
+    საჭიროა დამოწმება. <button>ახლიდან გაგზავნეთ დასადასტურებელი კოდი</button>
+    თუ არაა შემოსული ან უსარგებლო წერილების საქაღალდეებში.
+# Button to make secondary email the primary
+se-make-primary = მთავარ მისამართად დაყენება
+se-default-content = მიიღეთ თქვენს ანგარიშზე წვდომა, თუ ვერ შედიხართ მთავარი ელფოსტით.
+se-content-note =
+    გაითვალისწინეთ: დამატებითი ელფოსტა ვერ აღადგენს თქვენს მონაცემებს — ამისთვის
+    დაგჭირდებათ <a>აღდგენის გასაღები</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = ორსაფეხურიანი დამოწმება შესვლისას
+tfa-row-disabled = ორსაფეხურიანი დამოწმება გამორთულია
+tfa-row-enabled = ჩართულია
+tfa-row-not-set = არაა დაყენებული
+tfa-row-action-add = დამატება
+tfa-row-action-disable = ამორთვა
+tfa-row-button-refresh =
+    .title = ორსაფეხურიანი დამოწმების განახლება
+tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორსაფეხურიანი დამოწმების განახლებისას.
 
 ## Avatar sub-section on main Settings page
 
