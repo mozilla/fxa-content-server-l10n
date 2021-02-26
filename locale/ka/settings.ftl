@@ -20,7 +20,7 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox ანგარიშები
+-product-firefox-accounts = Firefox-ანგარიშები
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-ანგარიში
@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } ლოგო
 app-footer-privacy-notice = საიტის პირადი მონაცემების დაცვის განაცხადი
@@ -66,7 +66,7 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 
 ## Connected services section
 
-cs-heading = დაკავშირებული სერვისები
+cs-heading = დაკავშირებული მომსახურებები
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
