@@ -40,7 +40,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Informativa sulla privacy del sito web
@@ -157,6 +157,7 @@ nav-email-comm = Comunicazioni via email
 
 tfa-replace-code-error = Si è verificato un problema durante la sostituzione dei codici di recupero.
 tfa-replace-code-success = Nuovi codici generati. Custodisci questi codici usa e getta in un posto sicuro e usali per accedere al tuo account quando non hai con te il tuo dispositivo mobile.
+tfa-replace-code-success-alert = I codici di recupero dell’account sono stati aggiornati.
 
 ## Avatar change page
 
@@ -180,8 +181,8 @@ avatar-page-rotate-button = Ruota
 avatar-page-camera-error = Impossibile inizializzare la fotocamera
 avatar-page-new-avatar =
     .alt = nuova immagine del profilo
-avatar-page-file-upload-error = Si è verificato un problema durante il caricamento dell’immagine del profilo
-avatar-page-delete-error = Si è verificato un problema durante l’eliminazione dell’avatar
+avatar-page-file-upload-error-2 = Si è verificato un problema durante il caricamento dell’immagine del profilo.
+avatar-page-delete-error-2 = Si è verificato un problema durante l’eliminazione dell’immagine del profilo.
 avatar-page-image-too-large-error = Il file dell’immagine è troppo grande e non può essere caricato.
 
 ##
@@ -208,6 +209,7 @@ pw-change-new-password =
     .label = Inserire una nuova password
 pw-change-confirm-password =
     .label = Conferma la nuova password
+pw-change-success-alert = Password aggiornata.
 
 ##
 
@@ -218,6 +220,7 @@ delete-account-header =
     .title = Elimina account
 delete-account-step-1-2 = Passaggio 1 di 2
 delete-account-step-2-2 = Passaggio 2 di 2
+delete-account-confirm-title-2 = Hai connesso il tuo { -product-firefox-account } a prodotti { -brand-mozilla } che rendono la tua esperienza web sicura e produttiva:
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
 delete-account-chk-box-1 =
     .label = Eventuali abbonamenti a pagamento saranno annullati
@@ -232,18 +235,21 @@ delete-account-continue-button = Continua
 delete-account-password-input =
     .label = Inserire la password
 delete-account-cancel-button = Annulla
-delete-account-delete-button = Elimina account
+delete-account-delete-button-2 = Elimina
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nome visualizzato
 display-name-input =
     .label = Inserire il nome visualizzato
 submit-display-name = Salva
 cancel-display-name = Annulla
 display-name-update-error = Si è verificato un problema durante l’aggiornamento del nome visualizzato.
+display-name-success-alert = Il nome visualizzato è stato aggiornato.
 
 ##
 
@@ -287,6 +293,10 @@ verify-secondary-email-verify-button = Verifica
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Inserisci entro 5 minuti il codice di verifica che è stato inviato a <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } aggiunto correttamente.
 
 ##
 
