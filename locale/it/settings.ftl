@@ -358,6 +358,7 @@ security-heading = Sicurezza
 ## Sub-section row Defaults
 
 row-defaults-action-add = Aggiungi
+row-defaults-action-change = Modifica
 row-defaults-action-disable = Disattiva
 row-defaults-status = Nessuno
 
@@ -367,8 +368,13 @@ rk-enabld = Attivo
 rk-not-set = Non impostato
 rk-action-create = Crea
 rk-action-remove = Rimuovi
+rk-cannot-refresh = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
 rk-key-removed = La chiave di recupero dell’account è stata rimossa.
+rk-cannot-remove-key = La chiave di recupero dell’account non può essere rimossa.
 rk-refresh-key = Aggiorna chiave di recupero
+rk-content-explain = Ripristina i dati in caso di password dimenticata.
+rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
+rk-remove-modal-heading = Rimuovere la chiave di recupero?
 
 ## Secondary email sub-section on main Settings page
 
