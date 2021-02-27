@@ -24,9 +24,12 @@ payment-error-1 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skú
 payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
 insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
-withdrawal-count-limit-exceeded-error = Vyzerá to, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
+withdrawal-count-limit-exceeded-error = Zdá sa, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
 charge-exceeds-source-limit = Zdá sa, že touto transakciou prekročíte denný limit. Vyskúšajte inú kartu alebo to skúste o 24 hodín.
+instant-payouts-unsupported = Zdá sa, že vaša karta nemá nastavené okamžité platby. Skúste použiť inú.
+duplicate-transaction = Zdá sa, že sme pred chvíľou prijali rovnakú platbu. Skontrolujte, prosím, históriu svojich platieb.
 coupon-expired = Zdá sa, že platnosť promo kódu skončila.
+card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, zadané údaje o svojej karte a skúste to znova.
 
 ## settings
 
@@ -52,8 +55,7 @@ product-plan-details-heading = Poďme nastaviť vaše predplatné
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb Stripe
-payment-legal-link = Pozrite si <a>zásady ochrany súkromia</a> spoločnosti Stripe.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb Stripe a PayPal
 
 ## payment form
 
@@ -148,12 +150,22 @@ sub-item-missing = Problém pri načítaní predplatného
 sub-item-missing-msg = Skúste to znova neskôr.
 sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 sub-item-cancel-sub = Zrušiť predplatné
+sub-item-stay-sub = Ponechať predplatné
 account-activated = Váš účet je aktivovaný, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Aktualizujem platobné údaje
+sub-route-idx-reactivating = Predplatné sa nepodarilo obnoviť
+sub-route-idx-cancel-failed = Predplatné sa nepodarilo zrušiť
 sub-route-idx-contact = Kontaktujte podporu
 sub-route-idx-cancel-msg-title = Je nám veľmi ľúto, že odchádzate
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Vaše predplatné služby { $name } bolo zrušené.
+          <br />
+          K službe { $name } máte stále prístup do { $date }.
 sub-route-idx-cancel-aside = Máte otázky? Navštívte <a>podporu organizácie { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Problém pri načítaní predplatného
@@ -164,6 +176,9 @@ sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizovan�
 ## subscription create
 
 sub-guarantee = 30 dňová záruka vrátenia peňazí
+pay-with-heading-other = Vyberte spôsob platby
+pay-with-heading-card-or = Alebo zaplaťte kartou
+pay-with-heading-card-only = Zaplatiť kartou
 
 ## plan-details
 
@@ -187,5 +202,33 @@ payment-confirmation-amount = { $amount } za { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } denne
+        [few] { $amount } každé { $intervalCount } dni
+       *[other] { $amount } každých { $intervalCount } dní
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } týždenne
+        [few] { $amount } každé { $intervalCount } týždne
+       *[other] { $amount } každých { $intervalCount } týždňov
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mesačne
+        [few] { $amount } každé { $intervalCount } mesiace
+       *[other] { $amount } každých { $intervalCount } mesiacov
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } ročne
+        [few] { $amount } každé { $intervalCount } roky
+       *[other] { $amount } každých { $intervalCount } rokov
+    }
 payment-confirmation-cc-preview = končiaca na { $last4 }
 payment-confirmation-download-button = Pokračovať na prevzatie
