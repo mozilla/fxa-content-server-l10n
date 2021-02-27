@@ -381,18 +381,63 @@ rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźe
 rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
+rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Druga e-mailowa adresa
+    .header = Druga e-mailowa adresa
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } jo něnto waša primarna e-mailowa adresa.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } jo se wuspěšnje wulašowała.
+se-delete-email-error = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
+# Button to remove the secondary email
+se-remove-email =
+    .title = E-mailowu adresu wótwónoźeś
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = E-mailowu adresu aktualizěrowaś
+se-unverified = njewobkšuśony
+# Button to make secondary email the primary
+se-make-primary = K primarnej adresy cyniś
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Dwójokšacowa awtentifikacija
+tfa-row-disabled = Dwójokšacowa awtentifikacija jo se znjemóžniła.
+tfa-row-enabled = Zmóžnjony
+tfa-row-not-set = Njepóstajony
+tfa-row-action-add = Pśidaś
+tfa-row-action-disable = Znjemóžniś
+tfa-row-button-refresh =
+    .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
+tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
+tfa-row-disable-modal-confirm = Znjemóžniś
+tfa-row-cannot-disable = Dwójokšacowa awtentifikacija njedajo se znjemóžniś.
+tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
+tfa-row-change-modal-confirm = Změniś
+tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Wobraz
+avatar-add-link = Pśidaś
+avatar-change-link = Změniś
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Njeznate konto
+auth-error-103 = Wopacne gronidło
+auth-error-110 = Njepłaśiwy token
+auth-error-138 = Njewobkšuśone pósejźenje
+auth-error-155 = TOTP-token njejo se namakał
+auth-error-1008 = Wašo nowe gronidło musy druge byś
