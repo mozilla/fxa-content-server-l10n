@@ -19,6 +19,8 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -322,12 +324,20 @@ tfa-enabled = Autenticazione in due passaggi attivata
 tfa-scan-this-code =
     Scansiona questo codice QR tramite una di <linkExternal>queste
     app di autenticazione</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Usa il codice { $secret } per impostare l’autenticazione in due passaggi
+    nelle applicazioni supportate.
 tfa-button-cant-scan-qr = Non riesci a scansionare il codice?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Inserisci questa chiave segreta nell’app di autenticazione:
 tfa-enter-totp = Inserisci ora il codice di sicurezza dall’app di autenticazione.
 tfa-input-enter-totp =
     .label = Inserisci il codice di sicurezza
+tfa-save-these-codes = Conserva questi codici usa e getta in un posto sicuro e usali quando non hai a disposizione il dispositivo mobile.
+tfa-enter-code-to-confirm = Inserisci ora uno dei codici di recupero per confermare il corretto salvataggio. In caso di smarrimento del dispositivo, ti servirà un codice per accedere all’account.
 tfa-enter-recovery-code =
     .label = Inserisci il codice di recupero
 
@@ -374,6 +384,7 @@ rk-cannot-remove-key = La chiave di recupero dell’account non può essere rimo
 rk-refresh-key = Aggiorna chiave di recupero
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
+rk-cannot-verify-session-2 = Si è verificato un problema durante la verifica della sessione.
 rk-remove-modal-heading = Rimuovere la chiave di recupero?
 rk-remove-modal-content =
     Nel caso in cui tu abbia reimpostato la password, non potrai
@@ -426,6 +437,7 @@ tfa-row-button-refresh =
     .title = Ripristina l’autenticazione in due passaggi
 tfa-row-cannot-refresh = Si è verificato un problema durante l’aggiornamento dell’autenticazione in due passaggi.
 tfa-row-content-explain = Impedisci a terzi di accedere al tuo account richiedendo a ogni accesso un codice univoco che conosci solo tu.
+tfa-row-cannot-verify-session-2 = Si è verificato un problema durante la verifica della sessione.
 tfa-row-disable-modal-heading = Disattivare l’autenticazione in due passaggi?
 tfa-row-disable-modal-confirm = Disattiva
 tfa-row-disable-modal-explain =
