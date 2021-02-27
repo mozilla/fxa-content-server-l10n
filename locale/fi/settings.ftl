@@ -161,6 +161,8 @@ avatar-page-rotate-button = Kierrä
 avatar-page-camera-error = Kameraa ei voitu alustaa
 avatar-page-new-avatar =
     .alt = uusi profiilikuva
+avatar-page-file-upload-error-2 = Profiilikuvan lähettämisessä tapahtui virhe.
+avatar-page-delete-error-2 = Profiilikuvan poistamisessa tapahtui virhe.
 avatar-page-image-too-large-error = Kuvatiedoston koko on liian suuri lähetettäväksi.
 
 ##
@@ -198,6 +200,10 @@ delete-account-header =
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
+delete-account-chk-box-1 =
+    .label = Kaikki maksetut tilaukset perutaan
+delete-account-chk-box-3 =
+    .label = Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja
 delete-account-close-button = Sulje
 delete-account-continue-button = Jatka
 delete-account-password-input =
