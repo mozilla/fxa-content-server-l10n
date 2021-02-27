@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
 app-footer-privacy-notice = Sivuston tietosuojakäytäntö
@@ -49,18 +49,32 @@ app-footer-terms-of-service = Käyttöehdot
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avatar-kuva
+avatar-default-avatar =
+    .alt = Oletusavatar
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Hanki { -brand-firefox } puhelimeen tai tablettiin
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Yhdistetyt palvelut
+cs-description = Kaikki mitä käytät ja mihin olet sisäänkirjautuneena.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Kirjautunut ulos palvelusta { $service }.
+cs-refresh-button =
+    .title = Päivitä yhdistetyt palvelut
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
@@ -78,6 +92,9 @@ cs-disconnect-sync-opt-not-say = En halua sanoa
 ##
 
 cs-disconnect-advice-confirm = Selvä
+cs-disconnect-lost-advice-heading = Kadonnut tai varastettu laite on irrotettu
+cs-disconnect-suspicious-advice-heading = Epäilyttävä laite irrotettu
+cs-sign-out-button = Kirjaudu ulos
 
 ##
 
@@ -115,10 +132,12 @@ nav-settings = Asetukset
 nav-profile = Profiili
 nav-security = Turvallisuus
 nav-connected-services = Yhdistetyt palvelut
+nav-paid-subs = Maksetut tilaukset
 nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Tilin palautuskoodit päivitetty.
 
 ## Avatar change page
 
@@ -142,35 +161,62 @@ avatar-page-rotate-button = Kierrä
 avatar-page-camera-error = Kameraa ei voitu alustaa
 avatar-page-new-avatar =
     .alt = uusi profiilikuva
+avatar-page-image-too-large-error = Kuvatiedoston koko on liian suuri lähetettäväksi.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Vaihda salasana
+pw-change-stay-safe = Pysy turvassa — älä käytä salasanoja uudelleen. Salasanasi:
+pw-change-least-8-chars = Täytyy olla vähintään kahdeksan merkkiä
+pw-change-not-contain-email = Ei saa olla sähköpostiosoitteesi
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Ei saa vastata <linkExternal>luetteloa yleisistä 
+    salasanoista</linkExternal>
 pw-change-cancel-button = Peruuta
 pw-change-save-button = Tallenna
+pw-change-forgot-password-link = Unohditko salasanan?
+pw-change-current-password =
+    .label = Kirjoita nykyinen salasana
+pw-change-new-password =
+    .label = Kirjoita uusi salasana
+pw-change-confirm-password =
+    .label = Vahvista uusi salasana
+pw-change-success-alert = Salasana päivitetty.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Poista tili
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
+delete-account-acknowledge = Huomioi, että tilisi poistamalla:
 delete-account-close-button = Sulje
 delete-account-continue-button = Jatka
 delete-account-password-input =
     .label = Kirjoita salasana
 delete-account-cancel-button = Peruuta
+delete-account-delete-button-2 = Poista
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Näyttönimi
+display-name-input =
+    .label = Kirjoita näyttönimi
 submit-display-name = Tallenna
 cancel-display-name = Peruuta
+display-name-success-alert = Näyttönimi päivitetty.
 
 ##
 
@@ -186,6 +232,7 @@ recovery-key-page-title =
     .title = Palautusavain
 recovery-key-step-1 = Vaihe 1/2
 recovery-key-step-2 = Vaihe 2/2
+recovery-key-success-alert = Palautusavain luotu.
 
 ## Add secondary email page
 
@@ -201,48 +248,119 @@ add-secondary-email-save-button = Tallenna
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Vahvistuskoodin lähettämisessä ilmeni ongelma.
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
+verify-secondary-email-verification-code =
+    .label = Kirjoita vahvistuskoodi
 verify-secondary-email-cancel-button = Peruuta
+verify-secondary-email-verify-button = Vahvista
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Kirjoita osoitteeseen <strong>{ $email }</strong> lähetetty vahvistuskoodin viiden minuutin kuluessa.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } lisätty.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Poista tili
 
 ## Two Step Authentication
 
+tfa-title = Kaksivaiheinen todennus
 tfa-step-1-3 = Vaihe 1/3
 tfa-step-2-3 = Vaihe 2/3
 tfa-step-3-3 = Vaihe 3/3
 tfa-button-continue = Jatka
 tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
+tfa-incorrect-recovery-code = Virheellinen palautuskoodi
+tfa-enabled = Kaksivaiheinen todennus käytössä
+tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
+tfa-enter-recovery-code =
+    .label = Kirjoita palautuskoodi
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profiili
+profile-display-name =
+    .header = Näyttönimi
+profile-password =
+    .header = Salasana
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Luotu { $date }
+profile-primary-email =
+    .header = Ensisijainen sähköposti
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Turvallisuus
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Lisää
+row-defaults-action-change = Muuta
+row-defaults-action-disable = Poista käytöstä
+row-defaults-status = Ei mitään
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Käytössä
+rk-not-set = Ei asetettu
+rk-action-create = Luo
+rk-action-remove = Poista
+rk-key-removed = Tilin palautusavain poistettu.
+rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
+rk-refresh-key = Päivitä palautusavain
+rk-remove-modal-heading = Poistetaanko palautusavain?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Toissijainen sähköposti
+    .header = Toissijainen sähköposti
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } on nyt ensisijainen sähköpostiosoitteesi.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } poistettu.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Poista sähköpostiosoite
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Päivitä sähköpostiosoite
+se-unverified = vahvistamaton
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Kaksivaiheinen todennus
+tfa-row-disabled = Kaksivaiheinen todennus poistettu käytöstä.
+tfa-row-enabled = Käytössä
+tfa-row-not-set = Ei asetettu
+tfa-row-action-add = Lisää
+tfa-row-action-disable = Poista käytöstä
+tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
+tfa-row-disable-modal-confirm = Poista käytöstä
+tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 ## Avatar sub-section on main Settings page
 
@@ -251,3 +369,9 @@ avatar-add-link = Lisää
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Tuntematon tili
+auth-error-103 = Virheellinen salasana
+auth-error-110 = Virheellinen poletti
+auth-error-138 = Vahvistamaton istunto
+auth-error-155 = TOTP-polettia ei löytynyt
+auth-error-1008 = Uuden salasanan pitää erota vanhasta

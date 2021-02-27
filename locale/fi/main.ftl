@@ -93,8 +93,7 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } käyttää Stripea turvalliseen maksunvälitykseen.
-payment-legal-link = Lue <a>Stripen tietosuojakäytäntö</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } käyttää Stripea ja Paypalia turvalliseen maksunvälitykseen.
 
 ## payment form
 
@@ -247,6 +246,9 @@ sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
 ## subscription create
 
 sub-guarantee = 30 päivän rahat takaisin -takuu
+pay-with-heading-other = Valitse maksutapa
+pay-with-heading-card-or = Tai maksa kortilla
+pay-with-heading-card-only = Maksa kortilla
 
 ## plan-details
 
@@ -258,6 +260,7 @@ plan-details-total-label = Yhteensä
 ## payment confirmation
 
 payment-confirmation-alert = Napsauta tästä ladataksesi
+payment-confirmation-mobile-alert = Eikö sovellus avautunut? <a>Napsauta tästä</a>
 payment-confirmation-heading = Kiitos, { $displayName }!
 payment-confirmation-heading-bak = Kiitos!
 payment-confirmation-subheading = Vahvistusviesti on lähetetty osoitteeseen
