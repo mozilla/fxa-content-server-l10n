@@ -42,12 +42,17 @@ app-default-title = { -product-firefox-accounts }
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = alugu { -brand-mozilla }
 app-footer-privacy-notice = Tasertit tabaḍnit n usmel web
+app-footer-terms-of-service = Tiwtilin n useqdec
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avaṭar-inek·inem
+avatar-default-avatar =
+    .alt = Avaṭar amezwer
 
 ##
 
