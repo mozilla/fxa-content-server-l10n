@@ -375,33 +375,66 @@ rk-refresh-key = Aggiorna chiave di recupero
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
 rk-remove-modal-heading = Rimuovere la chiave di recupero?
+rk-remove-modal-content =
+    Nel caso in cui tu abbia reimpostato la password, non potrai
+    utilizzare la chiave di recupero per accedere ai tuoi dati. Questa azione è irreversibile.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Email secondaria
+    .header = Email secondaria
+se-cannot-refresh-email = Si è verificato un problema durante l’aggiornamento dell’email.
+se-cannot-resend-code = Si è verificato un problema durante il nuovo invio del codice di verifica.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } è ora la tua email principale.
+se-set-primary-error = Si è verificato un problema durante la modifica dell’email principale.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } eliminata con successo.
+se-delete-email-error = Si è verificato un problema durante l’eliminazione dell’email.
 se-verify-session = È necessario verificare la sessione in corso per effettuare questa operazione.
+se-verify-session-error = Si è verificato un problema durante la verifica della sessione.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Rimuovi l’email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Aggiorna l’email
 se-unverified = Non verificata
+se-resend-code = Da verificare. <button>Ricevi di nuovo il codice di verifica</button> se non lo trovi nella casella di posta in arrivo o nella cartella dello spam.
 # Button to make secondary email the primary
 se-make-primary = Rendi principale
+se-default-content = Usala per accedere all’account se non riesci a effettuare l’accesso con l’email principale.
+se-content-note = Attenzione: non è possibile ripristinare i dati attraverso l’email secondaria. Per questa operazione è necessaria una <a>chiave di recupero</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticazione in due passaggi
+tfa-row-disabled = Autenticazione in due passaggi disattivata.
 tfa-row-enabled = Attiva
 tfa-row-not-set = Non impostata
 tfa-row-action-add = Aggiungi
 tfa-row-action-disable = Disattiva
+tfa-row-button-refresh =
+    .title = Ripristina l’autenticazione in due passaggi
+tfa-row-cannot-refresh = Si è verificato un problema durante l’aggiornamento dell’autenticazione in due passaggi.
+tfa-row-content-explain = Impedisci a terzi di accedere al tuo account richiedendo a ogni accesso un codice univoco che conosci solo tu.
+tfa-row-disable-modal-heading = Disattivare l’autenticazione in due passaggi?
 tfa-row-disable-modal-confirm = Disattiva
+tfa-row-disable-modal-explain =
+    Questa azione è irreversibile.
+    In alternativa, puoi <linkExternal>sostituire le chiavi di recupero</linkExternal>.
+tfa-row-cannot-disable = Impossibile disattivare l’autenticazione in due passaggi.
 tfa-row-change-modal-heading = Cambiare le chiavi di recupero?
 tfa-row-change-modal-confirm = Cambia
+tfa-row-change-modal-explain = Questa azione è irreversibile.
 
 ## Avatar sub-section on main Settings page
 
