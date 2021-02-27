@@ -353,6 +353,13 @@ rk-enabld = Etkin
 rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
+rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
+rk-key-removed = Hesap kurtarma anahtarı silindi.
+rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
+rk-refresh-key = Kurtarma anahtarını yenile
+rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
+rk-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
+rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
 
 ## Secondary email sub-section on main Settings page
 
@@ -364,6 +371,13 @@ se-cannot-resend-code = Doğrulama kodu yeniden gönderilirken bir sorun oluştu
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } artık birinci e-postanız.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } başarıyla silindi.
+se-delete-email-error = Üzgünüz, bu e-posta silinirken bir sorun oluştu.
+se-verify-session = Bu işlemi gerçekleştirmek için mevcut oturumunuzu doğrulamanız gerekecek.
+se-verify-session-error = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-postayı kaldır
