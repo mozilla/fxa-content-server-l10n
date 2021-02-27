@@ -202,8 +202,12 @@ delete-account-step-2-2 = Vaihe 2/2
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
 delete-account-chk-box-1 =
     .label = Kaikki maksetut tilaukset perutaan
+delete-account-chk-box-2 =
+    .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
     .label = Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja
+delete-account-chk-box-4 =
+    .label = Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan
 delete-account-close-button = Sulje
 delete-account-continue-button = Jatka
 delete-account-password-input =
@@ -222,6 +226,7 @@ display-name-input =
     .label = Kirjoita näyttönimi
 submit-display-name = Tallenna
 cancel-display-name = Peruuta
+display-name-update-error = Näyttönimeäsi päivitettäessä tapahtui virhe.
 display-name-success-alert = Näyttönimi päivitetty.
 
 ##
@@ -344,6 +349,7 @@ se-set-primary-successful = { $email } on nyt ensisijainen sähköpostiosoittees
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } poistettu.
+se-verify-session-error = Valitettavasti istunnon vahvistamisessa oli ongelma.
 # Button to remove the secondary email
 se-remove-email =
     .title = Poista sähköpostiosoite
@@ -351,6 +357,8 @@ se-remove-email =
 se-refresh-email =
     .title = Päivitä sähköpostiosoite
 se-unverified = vahvistamaton
+# Button to make secondary email the primary
+se-make-primary = Tee ensisijaiseksi
 
 ##
 
@@ -364,14 +372,18 @@ tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
+tfa-row-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
+tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
+tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 ## Avatar sub-section on main Settings page
 
 avatar-heading = Kuva
 avatar-add-link = Lisää
+avatar-change-link = Vaihda
 
 ## Auth-server based errors that originate from backend service
 
