@@ -449,3 +449,4 @@ auth-error-103 = Password errata
 auth-error-110 = Token non valido
 auth-error-138 = Sessione non verificata
 auth-error-155 = Token TOTP non trovato
+auth-error-1008 = La nuova password deve essere diversa
