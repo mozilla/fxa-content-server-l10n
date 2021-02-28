@@ -279,6 +279,8 @@ verify-secondary-email-page-title =
     .title = Correo electrónico secundario
 verify-secondary-email-verification-code =
     .label = Introduce el código de verificación
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Verificar
 
 ##
 
