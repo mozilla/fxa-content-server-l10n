@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
 app-footer-privacy-notice = Aviso de privacidad del sitio web
@@ -112,6 +112,11 @@ cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 cs-disconnect-advice-confirm = De acuerdo, entendido
 cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desconectado
 cs-disconnect-suspicious-advice-heading = El dispositivo sospechoso ha sido desconectado
+cs-disconnect-suspicious-advice-content =
+    Si el dispositivo desconectado es realmente
+    sospechoso, para mantener tu información segura, deberías cambiar la contraseña de { -product-firefox-account }
+    en la configuración de tu cuenta. También deberías cambiar cualquier otra
+    contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
 
 ##
@@ -159,6 +164,10 @@ nav-email-comm = Comunicaciones por correo electrónico
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Ha habido un problema al reemplazar tus códigos de recuperación.
+tfa-replace-code-success =
+    Se han creado nuevos códigos. Guarda estos códigos de
+    un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
+    cuentas con tu dispositivo móvil.
 
 ## Avatar change page
 
@@ -179,39 +188,97 @@ avatar-page-save-button = Guardar
 avatar-page-zoom-out-button = Reducir
 avatar-page-zoom-in-button = Ampliar
 avatar-page-rotate-button = Rotar
+avatar-page-camera-error = No se puede inicializar la cámara
+avatar-page-new-avatar =
+    .alt = nueva foto de perfil
+avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiado grande para cargarlo.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambiar contraseña
+pw-change-stay-safe = Mantente seguro — no reutilices contraseñas. Tu contraseña:
+pw-change-least-8-chars = Debe tener al menos 8 caracteres
+pw-change-not-contain-email = No debe ser tu dirección de correo electrónico
+pw-change-must-match = La nueva contraseña coincide con la confirmación
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    No debe coincidir con esta <linkExternal>lista de contraseñas
+    comunes</linkExternal>
+pw-change-cancel-button = Cancelar
+pw-change-save-button = Guardar
+pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
+pw-change-current-password =
+    .label = Introduce la contraseña actual
+pw-change-new-password =
+    .label = Introduce la nueva contraseña
+pw-change-confirm-password =
+    .label = Confirmar nueva contraseña
+pw-change-success-alert = Contraseña actualizada.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Eliminar cuenta
+delete-account-step-1-2 = Paso 1 de 2
+delete-account-step-2-2 = Paso 2 de 2
+delete-account-acknowledge = Recuerda que si eliminas tu cuenta:
+delete-account-chk-box-1 =
+    .label = Las suscripciones que hayas pagado se cancelarán
+delete-account-chk-box-2 =
+    .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = La reactivación de este correo no implica recuperar la información guardada
+delete-account-chk-box-4 =
+    .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org se eliminará
+delete-account-close-button = Cerrar
+delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Introducir contraseña
+delete-account-cancel-button = Cancelar
+delete-account-delete-button-2 = Eliminar
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Guardar
+cancel-display-name = Cancelar
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancelar
+recovery-key-close-button = Cerrar
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Introducir contraseña
+recovery-key-page-title =
+    .title = Clave de recuperación
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Guardar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Correo electrónico secundario
+verify-secondary-email-verification-code =
+    .label = Introduce el código de verificación
 
 ##
 
