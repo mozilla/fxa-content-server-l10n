@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logo
 app-footer-privacy-notice = Web Site Privacy Notice
@@ -111,9 +111,9 @@ cs-disconnect-sync-opt-not-say = Rather not say
 
 cs-disconnect-advice-confirm = Okay, got it
 cs-disconnect-lost-advice-heading = Lost or stolen device disconnected
-cs-disconnect-lost-advice-content =
+cs-disconnect-lost-advice-content-2 =
     Since your device was lost or stolen, to
-    keep your information safe, you should change your { -product-firefox-accounts } password
+    keep your information safe, you should change your { -product-firefox-account } password
     in your account settings. You should also look for information from your
     device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
@@ -173,6 +173,7 @@ tfa-replace-code-success =
     New codes have been created. Save these one-time use
     codes in a safe place — you’ll need them to access your account if you don’t
     have your mobile device.
+tfa-replace-code-success-alert = Account recovery codes updated.
 
 ## Avatar change page
 
@@ -196,8 +197,8 @@ avatar-page-rotate-button = Rotate
 avatar-page-camera-error = Could not initialise camera
 avatar-page-new-avatar =
     .alt = new profile picture
-avatar-page-file-upload-error = There was a problem uploading your profile picture
-avatar-page-delete-error = There was a problem deleting your avatar
+avatar-page-file-upload-error-2 = There was a problem uploading your profile picture.
+avatar-page-delete-error-2 = There was a problem deleting your profile picture.
 avatar-page-image-too-large-error = The image file size is too large to be uploaded.
 
 ##
@@ -224,6 +225,7 @@ pw-change-new-password =
     .label = Enter new password
 pw-change-confirm-password =
     .label = Confirm new password
+pw-change-success-alert = Password updated.
 
 ##
 
@@ -234,7 +236,7 @@ delete-account-header =
     .title = Delete Account
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
-delete-account-confirm-title = You’ve connected your { -product-firefox-accounts } to { -brand-mozilla } products that keep you secure and productive on the web:
+delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
 delete-account-acknowledge = Please acknowledge that by deleting your account:
 delete-account-chk-box-1 =
     .label = Any paid subscriptions you have will be cancelled
@@ -249,18 +251,21 @@ delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Enter password
 delete-account-cancel-button = Cancel
-delete-account-delete-button = Delete Account
+delete-account-delete-button-2 = Delete
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Display name
 display-name-input =
     .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
 display-name-update-error = There was a problem updating your display name.
+display-name-success-alert = Display name updated.
 
 ##
 
@@ -277,6 +282,7 @@ recovery-key-page-title =
     .title = Recovery key
 recovery-key-step-1 = Step 1 of 2
 recovery-key-step-2 = Step 2 of 2
+recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
@@ -304,6 +310,10 @@ verify-secondary-email-verify-button = Verify
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } successfully added.
 
 ##
 
@@ -392,7 +402,7 @@ rk-cannot-remove-key = Your account recovery key could not be removed.
 rk-refresh-key = Refresh recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
-rk-cannot-verify-session = Sorry, there was a problem verifying your session
+rk-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 rk-remove-modal-heading = Remove recovery key?
 rk-remove-modal-content =
     In the event you reset your password, you won’t be
@@ -453,7 +463,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Prevent someone else from logging in by requiring a
     unique code only you have access to.
-tfa-row-cannot-verify-session = Sorry, there was a problem verifying your session
+tfa-row-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain =
