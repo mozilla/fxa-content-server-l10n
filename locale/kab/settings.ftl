@@ -59,6 +59,7 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselkim
 
 ##
 

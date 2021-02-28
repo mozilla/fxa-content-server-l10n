@@ -87,8 +87,8 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } seqdec Stripe i usesfer aɣelsan n yiselliken.
-payment-legal-link = Senqed <a>tasertit tabaḍnit n Stripe</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } seqdec Stripe akked Paypal i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-paypal = Wali <stripePrivacyLink>tasertit n tbaḍnit n Stripe</stripePrivacyLink> akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -332,6 +332,9 @@ sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 ## subscription create
 
 sub-guarantee = Ṭṭmana n tiririt n yidrimen n 30 n wussan
+pay-with-heading-other = Fren taxtiṛt n usellek
+pay-with-heading-card-or = neɣ xelleṣ s tkarḍa
+pay-with-heading-card-only = Xelleṣ s tkarḍa
 
 ## plan-details
 
