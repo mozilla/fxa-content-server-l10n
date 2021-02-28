@@ -60,12 +60,18 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselkim
+connect-another-find-fx-mobile =
+    Af-d { -brand-firefox } deg { -google-play } akked { -app-store } neɣ
+    <br /><linkExternal>azen aseɣwen n usadar ɣer yibenk-ik·im.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Imeẓla yeqqnen
+cs-refresh-button =
+    .title = Smiren ibenan yeqqnen
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
