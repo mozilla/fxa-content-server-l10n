@@ -70,6 +70,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Падключаныя паслугі
+cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Адсутнічаюць або дублююцца элементы?
 cs-disconnect-sync-heading = Адключыць сінхранізацыю
