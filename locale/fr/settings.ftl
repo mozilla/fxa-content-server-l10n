@@ -263,6 +263,10 @@ recovery-key-step-2 = Étape 2 sur 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Adresse électronique secondaire
+add-secondary-email-enter-address =
+    .label = Saisissez votre adresse électronique
 add-secondary-email-cancel-button = Annuler
 add-secondary-email-save-button = Enregistrer
 
@@ -308,6 +312,8 @@ profile-password =
 # Variables:
 #   $date (String) - a localized date and time string
 profile-password-created-date = Créé le { $date }
+profile-primary-email =
+    .header = Adresse électronique principale
 
 ##
 
@@ -328,6 +334,10 @@ rk-enabld = Activée
 
 ## Secondary email sub-section on main Settings page
 
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } est désormais votre adresse électronique principale.
 
 ##
 
