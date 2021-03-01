@@ -137,7 +137,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = logo { -brand-mozilla(case: "gen") }
 app-footer-privacy-notice = Zásady ochrany osobních údajů
@@ -228,6 +228,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Zavřít nabídku
+header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
@@ -246,6 +247,12 @@ nav-email-comm = E-mailová komunikace
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Vaše obnovovací kódy se nepodařilo vyměnit.
+tfa-replace-code-success =
+    Nové kódy byly vytvořeni. Uložte si prosím tyto jednorázové
+    kódy na bezpečném místě. Budete je potřebovat pro přístup ke svému účtu
+    v případě, že u sebe nebudete mít své mobilní zařízení.
+tfa-replace-code-success-alert = Obnovovací kódy k vašemu účtu byly aktualizovány.
 
 ## Avatar change page
 
@@ -293,7 +300,6 @@ delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
 delete-account-cancel-button = Zrušit
-delete-account-delete-button = Smazat účet
 
 ##
 
@@ -315,9 +321,17 @@ recovery-key-close-button = Zavřít
 recovery-key-continue-button = Pokračovat
 recovery-key-enter-password =
     .label = Zadejte heslo
+recovery-key-page-title =
+    .title = Obnovovací klíč
+recovery-key-step-1 = Krok 1 ze 2
+recovery-key-step-2 = Krok 2 ze 2
+recovery-key-success-alert = Obnovovací klíč byl vytvořen.
 
 ## Add secondary email page
 
+add-secondary-email-error = Při vytvoření tohoto e-mailu došlo k chybě.
+add-secondary-email-page-title =
+    .title = Záložní e-mail
 add-secondary-email-enter-address =
     .label = Zadejte e-mailovou adresu
 add-secondary-email-cancel-button = Zrušit
@@ -328,7 +342,21 @@ add-secondary-email-save-button = Uložit
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Nepodařilo se odeslat ověřovací kód.
+verify-secondary-email-page-title =
+    .title = Záložní e-mail
+verify-secondary-email-verification-code =
+    .label = Zadejte ověřovací kód
 verify-secondary-email-cancel-button = Zrušit
+verify-secondary-email-verify-button = Ověřit
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Zadejte prosím ověřovací kód, který bude během 5 minut doručen na adresu <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Adresa { $email } úspěšně přidána.
 
 ##
 
@@ -340,6 +368,12 @@ delete-account-link = Smazat účet
 tfa-button-continue = Pokračovat
 tfa-button-cancel = Zrušit
 tfa-button-finish = Dokončit
+tfa-cannot-verify-code = Váš obnovovací kód se nepodařilo ověřit.
+tfa-incorrect-recovery-code = Nesprávný obnovovací kód.
+tfa-enter-code-to-confirm =
+    Potvrďte nám prosím uložení svých obnovovacích kódů
+    zadáním jednoho z nich. V případě ztráty svého zařízení budete kódy potřebovat
+    pro získání přístupu ke svému účtu.
 tfa-enter-recovery-code =
     .label = Zadejte obnovovací kód
 
@@ -372,15 +406,66 @@ row-defaults-action-change = Změnit
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Povoleno
+rk-not-set = Není nastaven
+rk-action-create = Vytvořit
+rk-action-remove = Odebrat
+rk-cannot-refresh = Aktualizace obnovovacího klíče se nezdařila.
+rk-key-removed = Obnovovací klíč k účtu byl odstraněn.
+rk-cannot-remove-key = Obnovovací klíč k vašemu účtu se nepodařilo odebrat.
+rk-refresh-key = Aktualizovat obnovovací klíč
+rk-content-explain = Získejte přístup ke svým datům, pokud zapomenete své heslo.
+rk-content-reset-data = Proč dojde při obnově hesla ke smazání mých dat?
+rk-cannot-verify-session-2 = Je nám líto, nepodařilo se ověřit vaši relaci.
+rk-remove-modal-heading = Odebrat obnovovací klíč?
+rk-remove-modal-content =
+    Pokud obnovíte své heslo, nebudete už moci pro přístup
+    ke svým datům použít svůj obnovovací klíč. Tuto akci nelze vzít zpět.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Záložní e-mail
+    .header = Záložní e-mail
+se-cannot-refresh-email = Obnovení tohoto e-mailu se nezdařilo.
+se-cannot-resend-code = Ověřovací kód se nepodařilo znovu odeslat.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = Adresa je { $email } nyní nastavena jako vaše hlavní.
+se-set-primary-error = Nepodařilo se změnit vaši hlavní e-mailovou adresu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Adresa { $email } byla odebrána.
+se-delete-email-error = Tuto e-mailovou adresu se nepodařilo odebrat.
+se-verify-session = Pro provedení této akce je potřeba ověřit vaši stávající relaci.
+se-verify-session-error = Vaši relaci se nepodařilo ověřit.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Odebrat e-mail
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Obnovit e-mail
+se-unverified = neověřeno
+se-resend-code =
+    Je nutné ověření. Pokud jste ověřovací kód nenašli v doručené ani nevyžádané
+    poště, můžete ho nechat <button>znovu odeslat</button>.
+# Button to make secondary email the primary
+se-make-primary = Nastavit jako hlavní
+se-default-content = Získejte přístup ke svému účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
+se-content-note =
+    Poznámka: pro získání přístupu k vašim datům nestačí záložní e-mail,
+    pro získání přístupu budete potřebovat <a>obnovovací klíč</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-disable-modal-explain =
+    Tuto akci nelze vzít zpět. Máte také možnost
+    <linkExternal>své obnovovací kódy vyměnit</linkExternal>.
+tfa-row-change-modal-heading = Změnit obnovovací kódy?
 tfa-row-change-modal-confirm = Změnit
 
 ## Avatar sub-section on main Settings page
