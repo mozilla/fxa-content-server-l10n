@@ -36,7 +36,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Λογότυπο { -brand-mozilla }
 app-footer-privacy-notice = Σημείωση απορρήτου ιστοσελίδας
@@ -127,8 +127,10 @@ avatar-page-save-button = Αποθήκευση
 
 ## Password change page
 
+pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
+pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 
 ##
 
@@ -142,7 +144,6 @@ delete-account-step-2-2 = Βήμα 2 από 2
 delete-account-close-button = Κλείσιμο
 delete-account-continue-button = Συνέχεια
 delete-account-cancel-button = Ακύρωση
-delete-account-delete-button = Διαγραφή λογαριασμού
 
 ##
 
