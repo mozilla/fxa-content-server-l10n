@@ -85,6 +85,7 @@ withdrawal-count-limit-exceeded-error = Vypadá to, že je vyčerpán limit vaš
 charge-exceeds-source-limit = Vypadá to, že je vyčerpán denní limit vaší karty. Zkuste to znovu za 24 hodin, nebo použít jinou kartu.
 instant-payouts-unsupported = Vypadá to, že vaše karta nemá povolené okamžité platby. Zkuste použít jinou.
 duplicate-transaction = Vypadá to, že jsme před chvíli přijali zcela stejnou transakci. Zkontrolujte prosím historii svých plateb.
+coupon-expired = Platnost tohoto promo kódu už nejspíše skončila.
 card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
 
 ## settings
@@ -200,6 +201,9 @@ payment-confirm-with-legal-links-year =
         [few] <strong>{ $amount } každé { $intervalCount } roky</strong>
        *[other] <strong>{ $amount } každých { $intervalCount } let</strong>
     } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+payment-confirm =
+    Souhlasím, aby Mozila jako autor produktů Firefox strhávala skrze mou preferovanou platební metodu částku
+    <strong>{ $amount } dolarů jednou za { $interval }</strong> v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 
 ##
 
@@ -226,6 +230,7 @@ input-error-is-required = Pole „{ $label }“ je povinné
 product-plan-upgrade-heading = Zkontrolujte povýšení
 sub-update-failed = Nepodařilo se změnit vaše předplatné
 sub-update-title = Platební údaje
+sub-update-card-ending = Platnost karty do { $last }
 sub-update-card-exp = Konec platnosti { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
 
@@ -339,6 +344,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Další platba dne { $date }
 
 ##
 
@@ -404,7 +410,9 @@ payment-confirmation-heading-bak = Děkujeme vám!
 payment-confirmation-subheading = Poslali jsme vám potvrzovací e-mail
 payment-confirmation-order-heading = Detaily objednávky
 payment-confirmation-invoice-number = Faktura č. { $invoiceNumber }
+payment-confirmation-billing-heading = Účtováno
 payment-confirmation-details-heading = Detaily platby
+payment-confirmation-amount = { $amount } jednou za { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -436,4 +444,5 @@ payment-confirmation-amount-year =
         [few] { $amount } každé { $intervalCount } roky
        *[other] { $amount } každých { $intervalCount } let
     }
+payment-confirmation-cc-preview = až do { $last4 }
 payment-confirmation-download-button = Pokračovat ke stažení

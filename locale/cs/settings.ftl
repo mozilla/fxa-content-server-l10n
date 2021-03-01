@@ -168,6 +168,7 @@ connect-another-fx-mobile = Získejte { -brand-firefox(case: "acc") } na mobil n
 cs-heading = Propojené služby
 cs-description = Co vše používáte a kde jste přihlášeni.
 cs-cannot-refresh = Nepodařilo se obnovit seznam propojených služeb.
+cs-cannot-disconnect = Klient nebyl nalezen, nelze se odpojit
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -200,7 +201,15 @@ cs-disconnect-sync-opt-not-say = Raději neupřesňovat
 
 cs-disconnect-advice-confirm = Ok, rozumím
 cs-disconnect-lost-advice-heading = Ztracené nebo ukradené zařízení bylo odpojeno
+cs-disconnect-lost-advice-content-2 =
+    Pokud bylo vaše zařízení ztraceno nebo ukradeno,
+    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
+    Doporučujeme také u výrobce svého zařízení zjistit možnosti pro jeho vzdálené vymazání.
 cs-disconnect-suspicious-advice-heading = Podezřelé zařízení bylo odpojeno
+cs-disconnect-suspicious-advice-content =
+    Pokud je odpojované zařízení skutečně podezřejmé,
+    pro zabezpečení vašich dat byste si měli změnit heslo svého { -product-firefox-account(case: "gen", capitalization: "lower") }.
+    Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-sign-out-button = Odhlásit se
 
 ##
@@ -276,6 +285,9 @@ avatar-page-rotate-button = Otočit
 avatar-page-camera-error = Nepodařilo se inicializovat fotoaparát
 avatar-page-new-avatar =
     .alt = nový profilový obrázek
+avatar-page-file-upload-error-2 = Váš profilový obrázek se nepodařilo nahrát.
+avatar-page-delete-error-2 = Váš profilový obrázek se nepodařilo smazat.
+avatar-page-image-too-large-error = Obrázek je pro nahrání příliš velký.
 
 ##
 
@@ -284,9 +296,22 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Změna hesla
+pw-change-stay-safe = Nastavte si bezpečné a unikátní heslo, které:
+pw-change-least-8-chars = je alespoň 8 znaků dlouhů
+pw-change-not-contain-email = je jiné než vaše e-mailová adresa
+pw-change-must-match = odpovídá potvrzení
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = není v <linkExternal>tomto seznamu běžných hesel</linkExternal>
 pw-change-cancel-button = Zrušit
 pw-change-save-button = Uložit
 pw-change-forgot-password-link = Zapomněli jste heslo?
+pw-change-current-password =
+    .label = Zadejte stávající heslo
+pw-change-new-password =
+    .label = Zadejte nové heslo
+pw-change-confirm-password =
+    .label = Potvrďte nové heslo
+pw-change-success-alert = Heslo změněno.
 
 ##
 
@@ -295,21 +320,37 @@ pw-change-forgot-password-link = Zapomněli jste heslo?
 
 delete-account-header =
     .title = Smazat účet
+delete-account-step-1-2 = Krok 1 ze 2
+delete-account-step-2-2 = Krok 2 ze 2
+delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
+delete-account-chk-box-1 =
+    .label = budou zrušena všechna vaše předplatná
+delete-account-chk-box-2 =
+    .label = můžete ztratit uložené informace a funkce produktů { -brand-mozilla(case: "gen") }
+delete-account-chk-box-3 =
+    .label = následná reaktivace pomocí tohoto e-mailu nemusí obnovit vaše uložené informace
+delete-account-chk-box-4 =
+    .label = všechna rozšíření a vzhledy vámi zveřejněná na serveru addons.mozilla.org budou smazána
 delete-account-close-button = Zavřít
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
 delete-account-cancel-button = Zrušit
+delete-account-delete-button-2 = Smazat
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Zobrazované jméno
 display-name-input =
     .label = Zadejte zobrazované jméno
 submit-display-name = Uložit
 cancel-display-name = Zrušit
+display-name-update-error = Vaši zobrazované jméno se nepodařilo změnit.
+display-name-success-alert = Zobrazované jméno aktualizováno.
 
 ##
 
@@ -319,6 +360,7 @@ cancel-display-name = Zrušit
 recovery-key-cancel-button = Zrušit
 recovery-key-close-button = Zavřít
 recovery-key-continue-button = Pokračovat
+recovery-key-created = Váš obnovovací klíč byl vytvořen. Uložte si ho na bezpečném místě, kde ho v případě potřeby snadno najdete. V případě zapomenutí hesla ho budete potřebovat pro získání přístupu ke svým datům.
 recovery-key-enter-password =
     .label = Zadejte heslo
 recovery-key-page-title =
@@ -365,11 +407,32 @@ delete-account-link = Smazat účet
 
 ## Two Step Authentication
 
+tfa-title = Dvoufázové ověřování
+tfa-step-1-3 = Krok 1 ze 3
+tfa-step-2-3 = Krok 2 ze 3
+tfa-step-3-3 = Krok 3 ze 3
 tfa-button-continue = Pokračovat
 tfa-button-cancel = Zrušit
 tfa-button-finish = Dokončit
+tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
+tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
 tfa-cannot-verify-code = Váš obnovovací kód se nepodařilo ověřit.
 tfa-incorrect-recovery-code = Nesprávný obnovovací kód.
+tfa-enabled = Dvoufázové ověřování zapnuto
+tfa-scan-this-code =
+    Naskenujte tento QR kód jednou z <linkExternal>těchto
+    ověřovacích aplikací</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód { $secret }.
+tfa-button-cant-scan-qr = Nemůžete kód naskenovat?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací aplikace:
+tfa-enter-totp = Nyní zadejte bezpečnostní kód z ověřovací aplikace.
+tfa-input-enter-totp =
+    .label = Zadejte bezpečnostní kód
+tfa-save-these-codes = Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
 tfa-enter-code-to-confirm =
     Potvrďte nám prosím uložení svých obnovovacích kódů
     zadáním jednoho z nich. V případě ztráty svého zařízení budete kódy potřebovat
@@ -391,6 +454,8 @@ profile-password =
 # Variables:
 #   $date (String) - a localized date and time string
 profile-password-created-date = Vytvořeno { $date }
+profile-primary-email =
+    .header = Hlavní e-mail
 
 ##
 
@@ -403,6 +468,8 @@ security-heading = Zabezpečení
 
 row-defaults-action-add = Přidat
 row-defaults-action-change = Změnit
+row-defaults-action-disable = Zakázat
+row-defaults-status = Žádný
 
 ## Recovery key sub-section on main Settings page
 
@@ -462,11 +529,27 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Dvoufázové ověřování
+tfa-row-disabled = Dvoufázové ověřování je vypnuto.
+tfa-row-enabled = Povoleno
+tfa-row-not-set = Nenastaveno
+tfa-row-action-add = Přidat
+tfa-row-action-disable = Vypnout
+tfa-row-button-refresh =
+    .title = Obnovit nastavení dvoufázového ověřování
+tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
+tfa-row-content-explain = Zabraňte cizím lidem v přístupu k vašemu účtu vyžadováním unikátního kódu, který můžete zadat jenom vy.
+tfa-row-cannot-verify-session-2 = Vaši relaci se nepodařilo ověřit.
+tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
+tfa-row-disable-modal-confirm = Vypnout
 tfa-row-disable-modal-explain =
     Tuto akci nelze vzít zpět. Máte také možnost
     <linkExternal>své obnovovací kódy vyměnit</linkExternal>.
+tfa-row-cannot-disable = Dvoufázové ověřování se nepodařilo vypnout.
 tfa-row-change-modal-heading = Změnit obnovovací kódy?
 tfa-row-change-modal-confirm = Změnit
+tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
 
 ## Avatar sub-section on main Settings page
 
