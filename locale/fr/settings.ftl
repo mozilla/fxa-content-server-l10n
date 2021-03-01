@@ -304,18 +304,27 @@ tfa-input-enter-totp =
 porfile-heading = Profil
 profile-password =
     .header = Mot de passe
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Créé le { $date }
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Sécurité
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Ajouter
+row-defaults-action-change = Modifier
+row-defaults-action-disable = Désactiver
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activée
 
 ## Secondary email sub-section on main Settings page
 
@@ -331,3 +340,5 @@ profile-password =
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-103 = Mot de passe incorrect
+auth-error-1008 = Votre nouveau mot de passe doit être différent
