@@ -179,6 +179,8 @@ avatar-page-rotate-button = Faire pivoter
 avatar-page-camera-error = Impossible d’initialiser l’appareil photo
 avatar-page-new-avatar =
     .alt = nouvelle image de profil
+avatar-page-file-upload-error-2 = Un problème est survenu pendant l’envoi de votre image de profil.
+avatar-page-delete-error-2 = Un problème est survenu pendant l’envoi de votre image de profil.
 avatar-page-image-too-large-error = Cette image est trop volumineuse pour être envoyée.
 
 ##
@@ -269,8 +271,15 @@ add-secondary-email-save-button = Enregistrer
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Il y a eu un problème lors de l’envoi du code de vérification.
+verify-secondary-email-verification-code =
+    .label = Saisissez le code de vérification
 verify-secondary-email-cancel-button = Annuler
 verify-secondary-email-verify-button = Vérifier
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Veuillez saisir au cours des 5 prochaines minutes le code de vérification envoyé à <strong>{ $email }</strong>.
 
 ##
 
@@ -283,12 +292,18 @@ tfa-step-1-3 = Étape 1 sur 3
 tfa-step-2-3 = Étape 2 sur 3
 tfa-step-3-3 = Étape 3 sur 3
 tfa-button-continue = Continuer
+tfa-button-cant-scan-qr = Impossible de scanner le code ?
+tfa-input-enter-totp =
+    .label = Saisissez le code de sécurité
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-password =
+    .header = Mot de passe
 
 ##
 
