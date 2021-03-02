@@ -89,48 +89,116 @@ cs-disconnect-sync-heading = Tichup pa Sync
 cs-disconnect-sync-opt-suspicious = Q'ab'axel
 cs-disconnect-sync-opt-lost = Sachon o eleq'an
 cs-disconnect-sync-opt-old = Ri'j o k'exon
+cs-disconnect-sync-opt-duplicate = Kamulun
+cs-disconnect-sync-opt-not-say = Man ninwajo' ta ninb'ij
 
 ##
 
+cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
+cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Xqasäx
+datablock-copy =
+    .message = Wachib'en
+datablock-print =
+    .message = Tz'ajb'en
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Kolonel B'itz'ib'
+get-data-trio-download =
+    .title = Tiqasäx
+get-data-trio-copy =
+    .title = Tiwachib'ëx
+get-data-trio-print =
+    .title = Titz'ajb'äx
 
 # HeaderLockup component
 
+header-menu-open = Titz'apïx k'utsamaj
+header-back-to-top-link =
+    .title = Titzolin pa rutikirib'al
+header-title = { -product-firefox-accounts }
+header-help = Tob'äl
 
 ## Settings Nav
 
+nav-settings = Taq nuk'ulem
+nav-profile = Ruwäch b'i'aj
+nav-security = Jikomal
+nav-connected-services = Taq Samaj Ye'okisäx
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-close-button = Titz'apïx
+avatar-page-save-button = Tiyak
+avatar-page-zoom-out-button = Ruch'utinirisaxik rupalem
+avatar-page-zoom-in-button = Tinimirisäx
+avatar-page-rotate-button = Tisetüx
+avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
+avatar-page-image-too-large-error = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Tijal ewan tzij
+pw-change-least-8-chars = K'o chi man xa xe ta tuk'waj 8 taq tz'ib'
+pw-change-not-contain-email = Man tikirel ta nok rochochib'al ataqoya'l
+pw-change-cancel-button = Tiq'at
+pw-change-save-button = Tiyak
+pw-change-forgot-password-link = ¿La xmestäx ri ewan tzij?
+pw-change-new-password =
+    .label = Titz'ib'äx ri k'ak'a' ewan atzij
+pw-change-confirm-password =
+    .label = Tijikib'äx ri k'ak'a' ewan tzij
+pw-change-success-alert = Xk'extäj ri ewan tzij.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Tiyuj rub'i' taqoya'l
+delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:
+delete-account-chk-box-1 =
+    .label = Ri tz'ib'anïk b'i'aj e'atojon xkeyuj el
+delete-account-chk-box-2 =
+    .label = Yatikïr ye'asäch taq etamab'äl chuqa' taq samaj e'ayakon pa rutikojil ri { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = We natzïj chik rik'in re taqoya'l re' rik'in jub'a' man xkekolotäj ta ri awetamab'al e'ayakon kan
+delete-account-chk-box-4 =
+    .label = Xtiyuj xab'achike k'amal chuqa' wachinel xataluj rutzijol pa addons.mozilla.org
+delete-account-close-button = Titz'apïx
+delete-account-continue-button = Titikïr chik el
+delete-account-password-input =
+    .label = Titz'ib'äx ewan tzij
+delete-account-cancel-button = Tiq'at
+delete-account-delete-button-2 = Tiyuj
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Tik'ut b'i'aj
 
 ##
 
