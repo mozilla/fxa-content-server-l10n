@@ -62,7 +62,15 @@ app-footer-terms-of-service = Όροι υπηρεσίας
 ## Connected services section
 
 cs-heading = Συνδεδεμένες υπηρεσίες
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Έγινε αποσύνδεση από το { $service }.
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
+cs-disconnect-sync-reason =
+    Ποιος είναι ο κύριος λόγος αποσύνδεσης αυτής
+    της συσκευής;
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -221,6 +229,9 @@ tfa-step-3-3 = Βήμα 3 από 3
 tfa-button-continue = Συνέχεια
 tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
+tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
+tfa-input-enter-totp =
+    .label = Εισάγετε κωδικό ασφαλείας
 
 ##
 
@@ -248,8 +259,10 @@ row-defaults-action-disable = Απενεργοποίηση
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Ενεργό
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
+rk-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε.
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
@@ -258,6 +271,14 @@ rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = Το { $email } είναι πλέον το κύριο email σας.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Το { $email } διαγράφηκε επιτυχώς.
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
@@ -275,10 +296,12 @@ se-make-primary = Ορισμός ως κύριο
 tfa-row-heading =
     .header = Ταυτοποίηση σε δύο βήματα
 tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
+tfa-row-enabled = Ενεργή
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης σε δύο βήματα;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
+tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης σε δύο βήματα.
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 
