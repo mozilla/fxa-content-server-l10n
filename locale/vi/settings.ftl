@@ -70,6 +70,11 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Dịch vụ ₫ã kết nối
+cs-description = Mọi thứ bạn đang sử dụng và đã đăng nhập.
+cs-cannot-refresh =
+    Xin lỗi, đã có sự cố khi tải lại danh sách dịch vụ
+    đã kết nối.
+cs-cannot-disconnect = Không tìm thấy ứng dụng khách, không ngắt kết nối được.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -93,6 +98,7 @@ cs-disconnect-sync-reason = Lý do chính để ngắt kết nối thiết bị 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Thiết bị là:
 cs-disconnect-sync-opt-suspicious = Khả nghi
 cs-disconnect-sync-opt-lost = Mất hoặc bị đánh cắp
 cs-disconnect-sync-opt-old = Cũ hoặc thay thế
@@ -103,7 +109,17 @@ cs-disconnect-sync-opt-not-say = Không có câu trả lời
 
 cs-disconnect-advice-confirm = Ok, đã hiểu
 cs-disconnect-lost-advice-heading = Đã ngắt kết nối khỏi thiết bị đã mất hoặc bị đánh cắp
+cs-disconnect-lost-advice-content-2 =
+    Vì thiết bị của bạn bị mất hoặc bị đánh cắp,
+    để bảo về dữ liệu bạn, bạn nên thay đổi mật khẩu { -product-firefox-account }
+    trong cài đặt tài khoản của bạn. Bạn nên tìm kiếm thông tin từ công ty sản xuất 
+    điện thoại của bạn để tìm hiểu cách xóa dữ liệu của bạn từ xa.
 cs-disconnect-suspicious-advice-heading = Đã ngắt kết nối thiết bị khả nghi
+cs-disconnect-suspicious-advice-content =
+    Nếu thiết bị đã ngắt kết nối thực sự đáng ngờ,
+    để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-firefox-account }
+    trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác
+    mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:login vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
 
 ##
@@ -151,6 +167,10 @@ nav-email-comm = Truyền thông email
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Có vấn đề khi thay thế mã khôi phục của bạn.
+tfa-replace-code-success =
+    Đã tạo các mã mới. Lưu các mã sử dụng một lần này
+    vào nơi an toàn — bạn sẽ cần họ truy cập vào tài khoản của mình nếu bạn không
+    có di động của bạn.
 tfa-replace-code-success-alert = Đã cập nhật mã khôi phục tài khoản.
 
 ## Avatar change page
