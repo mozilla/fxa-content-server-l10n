@@ -19,6 +19,8 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Λογαριασμοί Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Λογαριασμός Firefox
@@ -60,13 +62,21 @@ app-footer-terms-of-service = Όροι υπηρεσίας
 ## Connected services section
 
 cs-heading = Συνδεδεμένες υπηρεσίες
+cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Η συσκευή:
+cs-disconnect-sync-opt-suspicious = Είναι ύποπτη
+cs-disconnect-sync-opt-lost = Έχει χαθεί ή κλαπεί
+cs-disconnect-sync-opt-old = Είναι παλιά ή έχει αντικατασταθεί
+cs-disconnect-sync-opt-duplicate = Είναι αντίγραφο
+cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 
 ##
 
+cs-disconnect-advice-confirm = Εντάξει, το 'πιασα
 cs-sign-out-button = Αποσύνδεση
 
 ##
@@ -121,16 +131,25 @@ avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-close-button = Κλείσιμο
 avatar-page-save-button = Αποθήκευση
+avatar-page-zoom-out-button = Σμίκρυνση
+avatar-page-zoom-in-button = Μεγέθυνση
+avatar-page-rotate-button = Περιστροφή
+avatar-page-camera-error = Αδυναμία εκκίνησης κάμερας
+avatar-page-new-avatar =
+    .alt = νέα εικόνα προφίλ
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Αλλαγή κωδικού πρόσβασης
 pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
+pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθηκε.
 
 ##
 
@@ -144,6 +163,7 @@ delete-account-step-2-2 = Βήμα 2 από 2
 delete-account-close-button = Κλείσιμο
 delete-account-continue-button = Συνέχεια
 delete-account-cancel-button = Ακύρωση
+delete-account-delete-button-2 = Διαγραφή
 
 ##
 
@@ -182,6 +202,10 @@ verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-cancel-button = Ακύρωση
 verify-secondary-email-verify-button = Επαλήθευση
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Το { $email } προστέθηκε επιτυχώς.
 
 ##
 
@@ -190,6 +214,7 @@ delete-account-link = Διαγραφή λογαριασμού
 
 ## Two Step Authentication
 
+tfa-title = Ταυτοποίηση σε δύο βήματα
 tfa-step-1-3 = Βήμα 1 από 3
 tfa-step-2-3 = Βήμα 2 από 3
 tfa-step-3-3 = Βήμα 3 από 3
@@ -225,6 +250,7 @@ row-defaults-action-disable = Απενεργοποίηση
 
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
+rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 
@@ -246,8 +272,12 @@ se-make-primary = Ορισμός ως κύριο
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Ταυτοποίηση σε δύο βήματα
+tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
+tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης σε δύο βήματα;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
@@ -261,6 +291,7 @@ avatar-change-link = Αλλαγή
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Άγνωστος λογαριασμός
+auth-error-103 = Λάθος κωδικός πρόσβασης
 auth-error-138 = Μη επαληθευμένη συνεδρία
 auth-error-155 = Δεν βρέθηκε TOTP token
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
