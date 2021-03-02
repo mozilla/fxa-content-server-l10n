@@ -284,6 +284,7 @@ recovery-key-success-alert = Đã tạo khóa khôi phục.
 
 ## Add secondary email page
 
+add-secondary-email-error = Đã có vấn đề khi tạo email này.
 add-secondary-email-page-title =
     .title = Email phụ
 add-secondary-email-enter-address =
