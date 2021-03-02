@@ -79,10 +79,16 @@ cs-cannot-refresh =
     Kojakuyu', xk'oje' jun k'ayewal kik'in ri kicholajem taq samaj
     xe'okisäx.
 cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = ¿La k'a k'o taq ch'akulal nrajo' o ekamulun?
+cs-disconnect-sync-heading = Tichup pa Sync
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-suspicious = Q'ab'axel
+cs-disconnect-sync-opt-lost = Sachon o eleq'an
+cs-disconnect-sync-opt-old = Ri'j o k'exon
 
 ##
 
