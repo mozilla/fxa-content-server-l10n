@@ -60,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Hanki { -brand-firefox } puhelimeen tai tablettiin
+connect-another-find-fx-mobile =
+    Löydä { -brand-firefox } { -google-play }sta ja { -app-store }sta tai
+    <br /><linkExternal>lähetä latauslinkki laitteellesi.</linkExternal>
 
 ##
 
@@ -78,6 +81,17 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Selaustiedot säilyvät
+    laitteellasi ({ $device }), mutta se ei enää synkronoi tilisi kanssa.
+cs-disconnect-sync-reason =
+    Mikä on pääasiallinen syy, jonka vuoksi
+    katkaiset yhteyden tähän laitteeseen?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -121,6 +135,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Sulje valikko
+header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
@@ -289,9 +304,12 @@ tfa-step-3-3 = Vaihe 3/3
 tfa-button-continue = Jatka
 tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
+tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
 tfa-enter-recovery-code =
     .label = Kirjoita palautuskoodi
 
@@ -335,6 +353,7 @@ rk-action-remove = Poista
 rk-key-removed = Tilin palautusavain poistettu.
 rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
+rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
 
 ## Secondary email sub-section on main Settings page
@@ -349,6 +368,8 @@ se-set-primary-successful = { $email } on nyt ensisijainen sähköpostiosoittees
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } poistettu.
+se-delete-email-error = Valitettavasti tämän sähköpostiosoitteen poistamisessa ilmeni ongelma.
+se-verify-session = Tämän toiminnon suorittamiseksi sinun on vahvistettava nykyinen istuntosi.
 se-verify-session-error = Valitettavasti istunnon vahvistamisessa oli ongelma.
 # Button to remove the secondary email
 se-remove-email =
@@ -375,6 +396,7 @@ tfa-row-action-disable = Poista käytöstä
 tfa-row-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
+tfa-row-cannot-disable = Kaksivaiheista todennusta ei voitu poistaa käytöstä.
 tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.

@@ -94,6 +94,7 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } käyttää Stripea ja Paypalia turvalliseen maksunvälitykseen.
+payment-legal-link-stripe-paypal = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>Paypalin tietosuojakäytäntö</paypalPrivacyLink>.
 
 ## payment form
 
