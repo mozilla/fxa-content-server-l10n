@@ -284,6 +284,7 @@ add-secondary-email-save-button = Ñongatu
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Oiko apañuãi emondokuévo ayvu jehechajeyrã.
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code =
@@ -306,12 +307,15 @@ delete-account-link = Emboguete mba’ete
 
 ## Two Step Authentication
 
+tfa-title = Ñemoneĩ mokõi jeku’épe
 tfa-step-1-3 = Ku’e 1 3-gui
 tfa-step-2-3 = Ku’e 2 3-gui
 tfa-step-3-3 = Ku’e 3 3-gui
 tfa-button-continue = Ku’ejey
 tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
+tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
+tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 
 ##
