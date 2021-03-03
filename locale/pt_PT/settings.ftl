@@ -298,21 +298,63 @@ security-heading = Segurança
 row-defaults-action-add = Adicionar
 row-defaults-action-change = Alterar
 row-defaults-action-disable = Desativar
+row-defaults-status = Nenhum
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Ativado
+rk-not-set = Não definida
+rk-action-create = Criar
+rk-action-remove = Remover
+rk-key-removed = Chave de recuperação de conta removida.
+rk-remove-modal-heading = Remover chave de recuperação?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = E-mail secundário
+    .header = E-mail secundário
+# Button to remove the secondary email
+se-remove-email =
+    .title = Remover e-mail
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Atualizar e-mail
+se-unverified = não verificado
+# Button to make secondary email the primary
+se-make-primary = Tornar principal
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticação de dois passos
+tfa-row-disabled = Autenticação de dois passos desativada.
+tfa-row-enabled = Ativado
+tfa-row-not-set = Não definida
+tfa-row-action-add = Adicionar
+tfa-row-action-disable = Desativar
+tfa-row-button-refresh =
+    .title = Atualizar a autenticação de dois passos
+tfa-row-disable-modal-heading = Desativar a autenticação de dois passos?
+tfa-row-disable-modal-confirm = Desativar
+tfa-row-cannot-disable = Não foi possível desativar a autenticação de dois passos.
+tfa-row-change-modal-heading = Alterar códigos de recuperação?
+tfa-row-change-modal-confirm = Alterar
+tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Imagem
+avatar-add-link = Adicionar
+avatar-change-link = Alterar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Conta desconhecida
+auth-error-103 = Palavra-passe incorreta
+auth-error-110 = Código inválido
+auth-error-138 = Sessão não-confirmada
+auth-error-155 = Código TOTP não encontrado
+auth-error-1008 = A sua nova palavra-passe tem de ser diferente
