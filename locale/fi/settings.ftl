@@ -71,6 +71,7 @@ connect-another-find-fx-mobile =
 
 cs-heading = Yhdistetyt palvelut
 cs-description = Kaikki mitä käytät ja mihin olet sisäänkirjautuneena.
+cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -106,8 +107,8 @@ cs-disconnect-sync-opt-not-say = En halua sanoa
 ##
 
 cs-disconnect-advice-confirm = Selvä
-cs-disconnect-lost-advice-heading = Kadonnut tai varastettu laite on irrotettu
-cs-disconnect-suspicious-advice-heading = Epäilyttävä laite irrotettu
+cs-disconnect-lost-advice-heading = Yhteys kadonneeseen tai varastettuun laitteeseen on katkaistu
+cs-disconnect-suspicious-advice-heading = Yhteys epäilyttävään laitteeseen on katkaistu
 cs-sign-out-button = Kirjaudu ulos
 
 ##
@@ -139,6 +140,8 @@ header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
+header-switch-title = Vaihda perinteiseen ulkoasuun
+    .title = perinteisen ulkoasun linkki
 header-help = Ohje
 
 ## Settings Nav
@@ -152,6 +155,7 @@ nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Palautuskoodien vaihtamisessa ilmeni ongelma.
 tfa-replace-code-success-alert = Tilin palautuskoodit päivitetty.
 
 ## Avatar change page
@@ -262,6 +266,7 @@ recovery-key-success-alert = Palautusavain luotu.
 
 ## Add secondary email page
 
+add-secondary-email-error = Tämän sähköpostin luomisessa ilmeni ongelma.
 add-secondary-email-page-title =
     .title = Toissijainen sähköposti
 add-secondary-email-enter-address =
@@ -305,11 +310,18 @@ tfa-button-continue = Jatka
 tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
+tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
+tfa-cannot-verify-code = Palautuskoodisi vahvistamisessa ilmeni ongelma.
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
+tfa-scan-this-code =
+    Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
+    todennussovelluksista</linkExternal>.
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
+tfa-input-enter-totp =
+    .label = Kirjoita turvallisuuskoodi
 tfa-enter-recovery-code =
     .label = Kirjoita palautuskoodi
 
@@ -350,9 +362,12 @@ rk-enabld = Käytössä
 rk-not-set = Ei asetettu
 rk-action-create = Luo
 rk-action-remove = Poista
+rk-cannot-refresh = Palautusavaimen päivittämisessä ilmeni ongelma.
 rk-key-removed = Tilin palautusavain poistettu.
 rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
+rk-content-explain = Palauta tietosi kun unohdat salasanasi.
+rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
 rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
 
@@ -360,6 +375,7 @@ rk-remove-modal-heading = Poistetaanko palautusavain?
 
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
+se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -378,8 +394,12 @@ se-remove-email =
 se-refresh-email =
     .title = Päivitä sähköpostiosoite
 se-unverified = vahvistamaton
+se-resend-code =
+    Vahvistus vaaditaan. <button>Lähetä vahvistuskoodi uudelleen</button>
+    jos se ei ole Saapuneet- tai Roskaposti-kansioissa.
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
+se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
 
 ##
 
