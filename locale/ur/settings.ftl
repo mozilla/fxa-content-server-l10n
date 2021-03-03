@@ -80,21 +80,41 @@ cs-disconnect-sync-opt-suspicious = مشکوک ہے
 cs-disconnect-sync-opt-lost = کھو گیا یا چوری ہو گیا ہے
 cs-disconnect-sync-opt-old = پورانا ہو گیا ہے یا اسے بدل رہے ہیں
 cs-disconnect-sync-opt-duplicate = بنوا رہے ہیں
+cs-disconnect-sync-opt-not-say = بتانا نہیں چاہتے
 
 ##
 
+cs-disconnect-advice-confirm = ٹھیک ہے، سمجھ گیا
+cs-disconnect-lost-advice-heading = گمشدہ یا چوری شدہ آلہ کو منقطع کر دیا گیا
+cs-disconnect-suspicious-advice-heading = مشکوک آلہ کو منقطع کر دیا گیا
+cs-sign-out-button = سائن آؤٹ کریں
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = ڈاؤن لوڈ شدہ
+datablock-copy =
+    .message = نقل شدہ
+datablock-print =
+    .message = ‏‏پرنٹ کیا گیا
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = بازیافت کوڈ
+get-data-trio-download =
+    .title = ڈاؤن لوڈ
+get-data-trio-copy =
+    .title = نقل کریں
+get-data-trio-print =
+    .title = پرنٹ کریں
 
 # HeaderLockup component
 
+header-menu-open = مینیو بند کریں
+header-menu-closed = سائٹ نیویگیشن مینو
 
 ## Settings Nav
 
