@@ -115,15 +115,42 @@ get-data-trio-print =
 
 header-menu-open = مینیو بند کریں
 header-menu-closed = سائٹ نیویگیشن مینو
+header-back-to-top-link =
+    .title = واپس سے اوپر جایں
+header-title = { -product-firefox-accounts }
+header-switch-title = پرانے انداز میں بدلیں
+    .title = پرانے ڈیزائن کا لنک
+header-help = مدد
 
 ## Settings Nav
 
+nav-settings = سیٹنگز
+nav-profile = پروفائل
+nav-security = سلامتی
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = اکاؤنٹ کی بازیابی کے کوڈز اپ ڈیٹ ہو گئے۔
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = پروفائل تصویر
+avatar-page-add-photo = تصویر لگائیں
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = تصویر لیں
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = تصویر ہٹائیں
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = تصویر دوبارہ لیں
+avatar-page-close-button = بند کریں
+avatar-page-save-button = محفوظ کریں
+avatar-page-zoom-out-button = چھوٹا کریں
+avatar-page-zoom-in-button = بڑا کریں
+avatar-page-rotate-button = گهمائیں
 
 ##
 
