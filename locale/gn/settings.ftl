@@ -316,7 +316,9 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
+tfa-cannot-verify-code = Oiko apañuãi ehechajeykuévo ayvu jeguerujeyrã.
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
+tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 
 ##
 
