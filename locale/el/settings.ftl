@@ -110,6 +110,8 @@ header-menu-closed = Μενού πλοήγησης ιστοσελίδας
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = { -product-firefox-accounts }
+header-switch-title = Εναλλαγή σε κλασική εμφάνιση
+    .title = σύνδεσμος κλασικής εμφάνισης
 header-help = Βοήθεια
 
 ## Settings Nav
@@ -256,10 +258,12 @@ security-heading = Ασφάλεια
 row-defaults-action-add = Προσθήκη
 row-defaults-action-change = Αλλαγή
 row-defaults-action-disable = Απενεργοποίηση
+row-defaults-status = Κανένα
 
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = Ενεργό
+rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
 rk-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε.
