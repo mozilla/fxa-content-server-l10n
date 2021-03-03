@@ -279,6 +279,8 @@ se-set-primary-successful = Το { $email } είναι πλέον το κύρι�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Το { $email } διαγράφηκε επιτυχώς.
+se-delete-email-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά τη διαγραφή αυτού του email.
+se-verify-session-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
@@ -287,6 +289,9 @@ se-refresh-email =
     .title = Ανανέωση email
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
+se-content-note =
+    Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας — 
+    θα χρειαστείτε ένα <a>κλειδί ανάκτησης</a> για αυτό.
 
 ##
 
@@ -299,11 +304,16 @@ tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενε
 tfa-row-enabled = Ενεργή
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
+tfa-row-cannot-verify-session-2 = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης σε δύο βήματα;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
+tfa-row-disable-modal-explain =
+    Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
+    την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
 tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης σε δύο βήματα.
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
+tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
 
 ## Avatar sub-section on main Settings page
 
@@ -315,6 +325,7 @@ avatar-change-link = Αλλαγή
 
 auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
+auth-error-110 = Μη έγκυρo token
 auth-error-138 = Μη επαληθευμένη συνεδρία
 auth-error-155 = Δεν βρέθηκε TOTP token
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
