@@ -199,57 +199,139 @@ delete-account-delete-button-2 = Tiyuj
 
 display-name-page-title =
     .title = Tik'ut b'i'aj
+submit-display-name = Tiyak
+cancel-display-name = Tiq'at
+display-name-success-alert = Tik'ut pe ri b'i'aj xk'ex.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Tiq'at
+recovery-key-close-button = Titz'apïx
+recovery-key-continue-button = Titikïr chik el
+recovery-key-enter-password =
+    .label = Titz'ib'äx ewan tzij
+recovery-key-page-title =
+    .title = Kolonel ewan tzij
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Ruka'n taqoya'l
+add-secondary-email-enter-address =
+    .label = Tatz'ib'aj rochochib'al taqoya'l
+add-secondary-email-cancel-button = Tiq'at
+add-secondary-email-save-button = Tiyak
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Ruka'n taqoya'l
+verify-secondary-email-verification-code =
+    .label = Titz'ib'äx rub'itz'ib' ajikib'anem
+verify-secondary-email-cancel-button = Tiq'at
+verify-secondary-email-verify-button = Tinik'öx
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Tiyuj rub'i' taqoya'l
 
 ## Two Step Authentication
 
+tfa-title = Jikib'anem rik'in ka'i'-xak
+tfa-button-continue = Titikïr chik el
+tfa-button-cancel = Tiq'at
+tfa-button-finish = Tik'is
+tfa-enabled = Xtzij ri jikib'anem rik'in ka'i'-xaq
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Tawokisaj ri bitz'ib' { $secret } richin nab'än runuk'ulem ri jikib'anem rik'in ka'i' xak pa ri taq chokoy ya'on q'ij.
+tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
+tfa-input-enter-totp =
+    .label = Tatz'ib'aj ri rub'itz'ib' jikomal
+tfa-save-these-codes =
+    Ke'ayaka' re jun rokisaxik taq b'itz'ib' pa jun jikïl k'ojlib'äl richin toq
+    man k'o ta awik'in ri awoyonib'al.
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Ruwäch b'i'aj
+profile-display-name =
+    .header = Tik'ut b'i'aj
+profile-password =
+    .header = Ewan tzij
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Xtz'uk: { $date }
+profile-primary-email =
+    .header = Nab'ey taqoya'l
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Jikomal
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Titz'aqatisäx
+row-defaults-action-change = Tijalwachïx
+row-defaults-action-disable = Tichup
+row-defaults-status = Majun
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Tzijon
+rk-not-set = Majun runuk'ulem
+rk-action-create = Titz'uk
+rk-action-remove = Tiyuj
+rk-key-removed = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l.
 
 ## Secondary email sub-section on main Settings page
 
+# Button to make secondary email the primary
+se-make-primary = Tichap achi'el nab'ey
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Jikib'anem rik'in ka'i'-xak
+tfa-row-disabled = Xchup ri jikib'anem rik'in ka'i'-xaq.
+tfa-row-enabled = Tzijon
+tfa-row-not-set = Majun runuk'ulem
+tfa-row-action-add = Titz'aqatisäx
+tfa-row-action-disable = Tichup
+tfa-row-disable-modal-confirm = Tichup
+tfa-row-change-modal-confirm = Tijalwachïx
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Wachib'äl
+avatar-add-link = Titz'aqatisäx
+avatar-change-link = Tijal
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Man etaman ta ruwäch rub'i' taqoya'l
+auth-error-103 = Man qitzij ta re ewan tzij
+auth-error-110 = Man okel ta wachib'äl
+auth-error-138 = Man jikib'an ta ri molojri'ïl
+auth-error-155 = Man xilitäj ta ri TOTP token
+auth-error-1008 = K'o chi junwi ri k'ak'a' ewan atzij
