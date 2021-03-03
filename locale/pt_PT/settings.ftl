@@ -103,72 +103,201 @@ datablock-print =
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperação
+get-data-trio-download =
+    .title = Transferir
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 # HeaderLockup component
 
+header-menu-open = Fechar menu
+header-menu-closed = Menu de navegação do site
+header-back-to-top-link =
+    .title = Ir para o topo
+header-title = { -product-firefox-accounts }
+header-help = Ajuda
 
 ## Settings Nav
 
+nav-settings = Definições
+nav-profile = Perfil
+nav-security = Segurança
+nav-connected-services = Serviços associados
+nav-paid-subs = Subscrições pagas
+nav-email-comm = Comunicações por e-mail
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Houve um problema ao substituir os seus códigos de recuperação.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto de perfil
+avatar-page-add-photo = Adicionar foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tirar foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Remover foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Tirar foto novamente
+avatar-page-close-button = Fechar
+avatar-page-save-button = Guardar
+avatar-page-zoom-out-button = Reduzir
+avatar-page-zoom-in-button = Ampliar
+avatar-page-rotate-button = Rodar
+avatar-page-camera-error = Não foi possível iniciar a câmara
+avatar-page-new-avatar =
+    .alt = nova imagem de perfil
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Alterar palavra-passe
+pw-change-cancel-button = Cancelar
+pw-change-save-button = Guardar
+pw-change-forgot-password-link = Esqueceu-se da palavra-passe?
+pw-change-current-password =
+    .label = Introduza a palavra-passe atual
+pw-change-new-password =
+    .label = Insira a nova palavra-passe
+pw-change-confirm-password =
+    .label = Confirme a nova palavra-passe
+pw-change-success-alert = Palavra-passe atualizada.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Eliminar conta
+delete-account-acknowledge = Por favor, note que, ao eliminar a sua conta:
+delete-account-chk-box-1 =
+    .label = Quaisquer subscrições pagas que tenha serão canceladas
+delete-account-chk-box-3 =
+    .label = A reativação com este e-mail poderá não restaurar a sua informação guardada
+delete-account-chk-box-4 =
+    .label = Quaisquer extensões e temas que tenha publicado em addons.mozilla.org serão eliminados
+delete-account-close-button = Fechar
+delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Inserir palavra-passe
+delete-account-cancel-button = Cancelar
+delete-account-delete-button-2 = Eliminar
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nome de apresentação
+display-name-input =
+    .label = Insira o nome de apresentação
+submit-display-name = Guardar
+cancel-display-name = Cancelar
+display-name-update-error = Houve um problema ao atualizar o seu nome de apresentação.
+display-name-success-alert = Nome de apresentação atualizado.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancelar
+recovery-key-close-button = Fechar
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Inserir palavra-passe
+recovery-key-page-title =
+    .title = Chave de recuperação
+recovery-key-success-alert = Chave de recuperação criada.
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Guardar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = E-mail secundário
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Verificar
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } adicionado com sucesso.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Eliminar conta
 
 ## Two Step Authentication
 
+tfa-title = Autenticação de dois passos
+tfa-step-1-3 = Passo 1 de 3
+tfa-step-2-3 = Passo 2 de 3
+tfa-step-3-3 = Passo 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Concluir
+tfa-incorrect-totp = Código de autenticação de dois passos inválido
+tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
+tfa-cannot-verify-code = Houve um problema ao confirmar o seu código de recuperação.
+tfa-incorrect-recovery-code = Código de recuperação inválido
+tfa-enabled = Autenticação de dois passos ativada
+tfa-button-cant-scan-qr = Não consegue digitalizar o código?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autenticação:
+tfa-input-enter-totp =
+    .label = Introduzir código de segurança
+tfa-enter-recovery-code =
+    .label = Introduza um código de recuperação
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Perfil
+profile-display-name =
+    .header = Nome de apresentação
+profile-password =
+    .header = Palavra-passe
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Criado em { $date }
+profile-primary-email =
+    .header = E-mail primário
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Segurança
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Adicionar
+row-defaults-action-change = Alterar
+row-defaults-action-disable = Desativar
 
 ## Recovery key sub-section on main Settings page
 
