@@ -368,6 +368,11 @@ rk-enabld = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
+rk-cannot-refresh = Ore ñyro, oĩ apañuãi hekopyahúvo mba’eñemi jeguerujeyrã.
+rk-key-removed = Oguéma mba’eñemi jeguerujeyrã mba’etégui.
+rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
+rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
+rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 
 ## Secondary email sub-section on main Settings page
 
