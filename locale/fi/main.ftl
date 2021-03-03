@@ -187,6 +187,30 @@ plan-price-year =
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } päivittäin
+       *[other] { $amount } { $intervalCount } päivän välein
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } viikottain
+       *[other] { $amount } { $intervalCount } viikon välein
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } kuukausittain
+       *[other] { $amount } { $intervalCount } kuukauden välein
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } vuosittain
+       *[other] { $amount } { $intervalCount } vuoden välein
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 

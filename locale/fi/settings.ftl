@@ -317,9 +317,16 @@ tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
     Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Käytä koodi { $secret } määrittääksesi kaksivaiheisen todennuksen
+    tuettuihin sovelluksiin.
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
+tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
 tfa-input-enter-totp =
     .label = Kirjoita turvallisuuskoodi
 tfa-enter-recovery-code =
@@ -376,6 +383,7 @@ rk-remove-modal-heading = Poistetaanko palautusavain?
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
+se-cannot-resend-code = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
