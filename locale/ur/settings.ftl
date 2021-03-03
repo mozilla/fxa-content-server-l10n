@@ -58,16 +58,28 @@ avatar-your-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = موبائل یا ٹیبلٹ پر { -brand-firefox } حاصل کریں
+connect-another-find-fx-mobile =
+    { -google-play } اور { -app-store } میں { -brand-firefox } کو تلاش کریں یا 
+    <br /><linkExternal>اپنے آلہ پر ڈونلوڈ کرنے کا لنک بھیجیں۔</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-description = ہر وہ چیز جس کا آپ استعمال کر رہے ہیں اور جس میں آپ سائن ان ہیں۔
+cs-disconnect-sync-reason =
+    اس آلہ کو منقطع کرنے کی
+    اصل وجہ کیا ہے؟
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = آلہ:
+cs-disconnect-sync-opt-suspicious = مشکوک ہے
+cs-disconnect-sync-opt-lost = کھو گیا یا چوری ہو گیا ہے
+cs-disconnect-sync-opt-old = پورانا ہو گیا ہے یا اسے بدل رہے ہیں
+cs-disconnect-sync-opt-duplicate = بنوا رہے ہیں
 
 ##
 
