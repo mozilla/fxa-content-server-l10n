@@ -319,6 +319,17 @@ tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
 tfa-cannot-verify-code = Oiko apañuãi ehechajeykuévo ayvu jeguerujeyrã.
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
+tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
+tfa-enter-totp = Emoinge ko’ág̃a tekorosã ayvu tembipuru’i ñemoneĩmbýpe.
+tfa-input-enter-totp =
+    .label = Emoinge tekorosã ayvu
+tfa-save-these-codes =
+    Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape
+    ndereguerekói jave ne pumbyry.
+tfa-enter-recovery-code =
+    .label = Emoinge ayvu jeguerujeyrã
 
 ##
 
