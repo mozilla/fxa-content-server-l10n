@@ -296,6 +296,8 @@ tfa-step-1-3 = Étape 1 sur 3
 tfa-step-2-3 = Étape 2 sur 3
 tfa-step-3-3 = Étape 3 sur 3
 tfa-button-continue = Continuer
+tfa-button-cancel = Annuler
+tfa-button-finish = Terminer
 tfa-button-cant-scan-qr = Impossible de scanner le code ?
 tfa-input-enter-totp =
     .label = Saisissez le code de sécurité
@@ -327,6 +329,7 @@ security-heading = Sécurité
 row-defaults-action-add = Ajouter
 row-defaults-action-change = Modifier
 row-defaults-action-disable = Désactiver
+row-defaults-status = Aucun
 
 ## Recovery key sub-section on main Settings page
 
