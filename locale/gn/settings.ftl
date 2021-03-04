@@ -373,6 +373,9 @@ rk-key-removed = Oguéma mba’eñemi jeguerujeyrã mba’etégui.
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
+rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
+rk-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
+rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 
 ## Secondary email sub-section on main Settings page
 
