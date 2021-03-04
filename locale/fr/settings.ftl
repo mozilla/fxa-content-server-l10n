@@ -78,8 +78,14 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Services connectés
+cs-description = Tout ce que vous utilisez et auquel vous vous êtes connecté·e.
 cs-cannot-refresh = Désolé, un problème est survenu lors de l’actualisation de la liste des services connectés.
 cs-cannot-disconnect = Client introuvable, impossible de se déconnecter
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Déconnecté·e de { $service }.
 cs-refresh-button =
     .title = Actualiser les services connectés
 # Link text to a support page on missing or duplicate devices
@@ -109,6 +115,7 @@ cs-disconnect-advice-confirm = J’ai compris
 cs-disconnect-lost-advice-heading = L’appareil perdu ou volé a été déconnecté
 cs-disconnect-lost-advice-content-2 = Puisque votre appareil a été perdu ou volé, vous devriez changer le mot de passe de votre { -product-firefox-account } dans les paramètres du compte afin de protéger vos informations. Vous devriez également vous informer auprès du fabricant de l’appareil pour savoir comment effacer vos données à distance.
 cs-disconnect-suspicious-advice-heading = L’appareil suspect est déconnecté.
+cs-disconnect-suspicious-advice-content = Si l’appareil déconnecté est effectivement suspect, pour protéger vos informations, vous devez modifier le mot de passe de votre { -product-firefox-account } dans les paramètres de votre compte. Vous devriez également modifier tout autre mot de passe que vous auriez enregistré dans { -brand-firefox } en tapant about:logins dans la barre d’adresse.
 cs-sign-out-button = Se déconnecter
 
 ##
@@ -156,6 +163,10 @@ nav-email-comm = Communications électroniques
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Un problème est survenu lors du remplacement de vos codes de secours.
+tfa-replace-code-success =
+    De nouveaux codes ont été créés. Enregistrez ces codes à usage unique
+    en lieu sûr — vous aurez besoin d’eux pour accéder à votre compte si vous ne
+    disposez pas de votre appareil mobile.
 
 ## Avatar change page
 
