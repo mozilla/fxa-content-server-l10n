@@ -396,6 +396,7 @@ se-set-primary-error = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipur
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } oñembogue hekopete.
 se-delete-email-error = Ore ñyrõ oĩ apañuãi emboguévo pe ñanduti veve.
+se-verify-session = Tekotevẽ ehechajey ne rembiapo ag̃agua ejapo hag̃ua ko jeku’e.
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
