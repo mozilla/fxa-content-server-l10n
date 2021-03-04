@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Bjez podaća
 
 cs-disconnect-advice-confirm = W porjadku, sym zrozumił
 cs-disconnect-lost-advice-heading = Zhubjeny abo kradnjeny grat je so dźělił
+cs-disconnect-lost-advice-content-2 =
+    Dokelž waš grat je so zhubił abo kradnył, wy měł waše hesło
+    { -product-firefox-account } w swojich kontowych nastajenjach změnić, zo byšće waše informacije
+    wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja
+    pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
 cs-sign-out-button = Wotzjewić
 
