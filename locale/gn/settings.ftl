@@ -384,6 +384,18 @@ rk-remove-modal-content =
 
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
+se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
+se-cannot-resend-code = Ore ñyrõ, oiko apañuãi emondojeykuévo pe ayvu jehechajeyrã.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ko’ág̃a ha’e ne ñanduti veve eipuruvéva.
+se-set-primary-error = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipuruvéva.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } oñembogue hekopete.
+se-delete-email-error = Ore ñyrõ oĩ apañuãi emboguévo pe ñanduti veve.
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
