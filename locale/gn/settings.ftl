@@ -376,6 +376,9 @@ rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígu
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
 rk-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
+rk-remove-modal-content =
+    Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
+    eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 
 ## Secondary email sub-section on main Settings page
 
