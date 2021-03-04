@@ -373,7 +373,7 @@ recovery-key-success-alert = Obnovovací klíč byl vytvořen.
 
 add-secondary-email-error = Při vytvoření tohoto e-mailu došlo k chybě.
 add-secondary-email-page-title =
-    .title = Záložní e-mail
+    .title = Záložní e-mailová adresa
 add-secondary-email-enter-address =
     .label = Zadejte e-mailovou adresu
 add-secondary-email-cancel-button = Zrušit
@@ -386,7 +386,7 @@ add-secondary-email-save-button = Uložit
 
 verify-secondary-email-error = Nepodařilo se odeslat ověřovací kód.
 verify-secondary-email-page-title =
-    .title = Záložní e-mail
+    .title = Záložní e-mailová adresa
 verify-secondary-email-verification-code =
     .label = Zadejte ověřovací kód
 verify-secondary-email-cancel-button = Zrušit
@@ -491,8 +491,8 @@ rk-remove-modal-content =
 
 ## Secondary email sub-section on main Settings page
 
-se-heading = Záložní e-mail
-    .header = Záložní e-mail
+se-heading = Záložní e-mailová adresa
+    .header = Záložní e-mailová adresa
 se-cannot-refresh-email = Obnovení tohoto e-mailu se nezdařilo.
 se-cannot-resend-code = Ověřovací kód se nepodařilo znovu odeslat.
 # This string is used in a notification message near the top of the page.
