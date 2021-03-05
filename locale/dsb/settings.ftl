@@ -433,6 +433,9 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy cyniś
 se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se pla swójeje primarneje e-mailoweje adrese pśizjawiś.
+se-content-note =
+    Pokazka: Sekundarna e-mailowa adresa waše informacije njewótnowijo – trjebaśo
+    <a>wótnowjeński kluc</a> za to.
 
 ##
 
@@ -448,8 +451,18 @@ tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
 tfa-row-button-refresh =
     .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
+tfa-row-cannot-refresh =
+    Bóžko jo pśi aktualizěrowanju dwójokšacoweje
+    awtentifikacije problem nastał.
+tfa-row-content-explain =
+    Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
+    aby zajźował tomu, až se něchten drugi pśizjawja.
+tfa-row-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
+tfa-row-disable-modal-explain =
+    Njamóžośo toś tu akciju anulěrowaś. Maśo teke
+    móžnosć <linkExternal>swój wótnowjeńske kody wuměniś</linkExternal>.
 tfa-row-cannot-disable = Dwójokšacowa awtentifikacija njedajo se znjemóžniś.
 tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś
