@@ -445,7 +445,14 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Rombyasy, oiko apañuãi embopyahúvo ñemoneĩ
     mokõi jeku’egua.
+tfa-row-content-explain =
+    Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
+    ayvu peteĩva ndénte eipurukuaáva.
+tfa-row-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
+tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
+tfa-row-cannot-disable = Ñemoneĩ mokõi jeku’egua ndaikatúi eipe’ávo.
+tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
 
 ## Avatar sub-section on main Settings page
