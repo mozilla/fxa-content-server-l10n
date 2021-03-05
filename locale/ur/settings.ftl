@@ -137,6 +137,7 @@ nav-email-comm = ای میل مواصلات
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = آپ کے بازیافت کوڈ کو بدلنے میں ایک دشواری سامنے آئ۔
 tfa-replace-code-success-alert = اکاؤنٹ کی بازیابی کے کوڈز اپ ڈیٹ ہو گئے۔
 
 ## Avatar change page
@@ -159,6 +160,10 @@ avatar-page-zoom-out-button = چھوٹا کریں
 avatar-page-zoom-in-button = بڑا کریں
 avatar-page-rotate-button = گهمائیں
 avatar-page-camera-error = کیمرا شروع نہیں کیا جاسکا
+avatar-page-new-avatar =
+    .alt = نئی پروفائل تصویر
+avatar-page-file-upload-error-2 = آپ کی پروفائل تصویر کو اپلوڈ کرنے میں ایک دشواری سامنے آئ۔
+avatar-page-delete-error-2 = آپ کی پروفائل تصویر کو حذف کرنے میں ایک دشواری سامنے آئ۔
 
 ##
 
