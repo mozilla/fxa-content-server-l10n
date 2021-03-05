@@ -111,7 +111,17 @@ cs-disconnect-sync-opt-not-say = Bźez pódaśa
 
 cs-disconnect-advice-confirm = W pórěźe, som zrozměł
 cs-disconnect-lost-advice-heading = Zgubjony abo kšadnjony rěd jo se źělił
+cs-disconnect-lost-advice-content-2 =
+    Dokulaž waš rěd jo se zgubił abo kšadnuł, wy měł wašo gronidło
+    { -product-firefox-account } w swójich kontowych nastajenjach změniś, aby waše informacije
+    wěste źaržał. Wy měł teke za informacijami wót wašogo rědowego zgótowarja
+    pytaś, aby waše daty znazdala wulašował.
 cs-disconnect-suspicious-advice-heading = Suspektny rěd jo se źělił
+cs-disconnect-suspicious-advice-content =
+    Jolic wótźělony rěd jo napšawdu
+    suspektny, wy dejał swójo gronidło { -product-firefox-account } w swójich nastajenjach
+    změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
+    adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
 cs-sign-out-button = Wótzjawiś
 
 ##
@@ -159,6 +169,10 @@ nav-email-comm = E-mailowa komunikacija
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-replace-code-success =
+    Nowe kody su s napórali. Składujśo je za jadnorazowe wužywanje
+    na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
+    swój mobilny rěd.
 tfa-replace-code-success-alert = Kontowe wótnowjeńske kody su se zaktualizěrowali.
 
 ## Avatar change page
@@ -261,6 +275,7 @@ display-name-success-alert = Zwobraznjeńske mě zaktualizěrowane.
 recovery-key-cancel-button = Pśetergnuś
 recovery-key-close-button = Zacyniś
 recovery-key-continue-button = Dalej
+recovery-key-created = Waš wótnowjeński kluc jo se napórał. Składujśo kluc na wěstem městnje, kótarež móžośo pózdźej lažko zasej namakaś – trjebaśo kluc, aby zasej pśistup k swójim datam dostał, jolic sćo zabył swójo gronidło.
 recovery-key-enter-password =
     .label = Gronidło zapódaś
 recovery-key-page-title =
