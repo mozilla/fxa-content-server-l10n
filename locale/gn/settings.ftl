@@ -451,6 +451,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
+tfa-row-disable-modal-explain =
+    Nerembojevymo’ãi ko tembiapo. Nde avei
+    eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã</linkExternal>.
 tfa-row-cannot-disable = Ñemoneĩ mokõi jeku’egua ndaikatúi eipe’ávo.
 tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
