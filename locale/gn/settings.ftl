@@ -159,6 +159,10 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã.
+tfa-replace-code-success =
+    Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
+    peteĩ jeýnte ojepurukuaáva tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
+    ndererekóirõ mba’e’oka oku’éva.
 tfa-replace-code-success-alert = Mba’ete jeguerujey ayvu hekopyahúma.
 
 ## Avatar change page
