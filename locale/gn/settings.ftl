@@ -454,6 +454,7 @@ tfa-row-disable-modal-confirm = Pe’a
 tfa-row-cannot-disable = Ñemoneĩ mokõi jeku’egua ndaikatúi eipe’ávo.
 tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
+tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 ## Avatar sub-section on main Settings page
 
