@@ -418,8 +418,12 @@ se-remove-email =
 se-refresh-email =
     .title = Embohekopyahu ñanduti veve
 se-unverified = ojehechajey’ỹva
+se-resend-code =
+    Tekotevẽ jehechajey. <button>Emondojey ayvu ñemoneĩrã</button>
+    ndaipórirõ ñe’ẽmondo g̃uahẽha térã spam ñongatuhápe.
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
+se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
 
 ##
 
