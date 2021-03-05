@@ -396,21 +396,30 @@ rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźe
 rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
+rk-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
+rk-remove-modal-content =
+    Jolic wašo gronidło slědk stajaśo, njamóžośo swój
+    wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Druga e-mailowa adresa
     .header = Druga e-mailowa adresa
+se-cannot-refresh-email = Bóžko jo pśi aktualizěrowanju teje e-mailoweje adrese problem nastał.
+se-cannot-resend-code = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } jo něnto waša primarna e-mailowa adresa.
+se-set-primary-error = Bóžko jo pśi změnjanju wašeje primarneje e-mailoweje adrese problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } jo se wuspěšnje wulašowała.
 se-delete-email-error = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
+se-verify-session = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł.
+se-verify-session-error = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailowu adresu wótwónoźeś
@@ -418,8 +427,12 @@ se-remove-email =
 se-refresh-email =
     .title = E-mailowu adresu aktualizěrowaś
 se-unverified = njewobkšuśony
+se-resend-code =
+    Wobkšuśenje trjebne. <button>Sćelśo wobkšuśeński kod znowego</button>,
+    jolic njejo we wašom zarědniku dochada pósta abo w spamowem zarědniku.
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy cyniś
+se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se pla swójeje primarneje e-mailoweje adrese pśizjawiś.
 
 ##
 
