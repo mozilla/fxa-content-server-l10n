@@ -177,12 +177,24 @@ pw-change-stay-safe = Qqim d aɣellsan — ur ttales ara aseqdec n wawalen uffir
 pw-change-least-8-chars = Ilaq ad yesεu ma drus 8 yisekkilen
 pw-change-not-contain-email = Ur ilaq ara ad yili d tansa-inek·inem n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
+pw-change-cancel-button = Sefsex
+pw-change-save-button = Sekles
+pw-change-forgot-password-link = Tettuḍ awal uffir?
+pw-change-current-password =
+    .label = Sekcem awal uffir amiran
+pw-change-new-password =
+    .label = Sekcem awal uffir amaynut
+pw-change-confirm-password =
+    .label = Sentem awal uffir amaynut
+pw-change-success-alert = Awal uffir yettuleqqem.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Kkes amiḍan
 delete-account-close-button = Mdel
 delete-account-continue-button = Kemmel
 delete-account-password-input =
