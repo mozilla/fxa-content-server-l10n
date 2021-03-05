@@ -204,15 +204,25 @@ avatar-page-new-avatar =
 
 ## Profile section
 
+porfile-heading = Amaɣnu
+profile-display-name =
+    .header = Isem n uskan
+profile-password =
+    .header = Awal uffir
+profile-primary-email =
+    .header = Imayl amezwaru
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Taɣellist
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Rnu
+row-defaults-action-change = Snifel
 
 ## Recovery key sub-section on main Settings page
 
