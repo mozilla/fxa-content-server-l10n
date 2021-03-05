@@ -164,12 +164,15 @@ avatar-page-new-avatar =
     .alt = نئی پروفائل تصویر
 avatar-page-file-upload-error-2 = آپ کی پروفائل تصویر کو اپلوڈ کرنے میں ایک دشواری سامنے آئ۔
 avatar-page-delete-error-2 = آپ کی پروفائل تصویر کو حذف کرنے میں ایک دشواری سامنے آئ۔
+avatar-page-image-too-large-error = اس تصویر کا سائز اتنا بڑا ہے کہ اسے اپلوڈ نہیں کیا جا سکتا۔
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = پاس ورڈ تبدیل کریں
 
 ##
 
