@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-05 16:07+0000\n"
 "PO-Revision-Date: 2020-10-14 16:51+0000\n"
 "Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,19 +109,15 @@ msgstr "Questo account non esiste. <a href=\"/signup\">Registrati</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Questo account non esiste più. Vuoi ripristinarlo?"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "Selezionare un’opzione"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Altro"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Grazie per aver contattato il supporto Mozilla riguardo <b>%(escapedLowercaseTopic)s</b>. Riceverai una risposta via email il prima possibile."
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Grazie per aver contattato il supporto Mozilla riguardo a <b>%(escapedLowercaseTopic)s</b> per <b>%(escapedSelectedProduct)s</b>. Riceverai una risposta via email il prima possibile."
 
@@ -158,7 +154,7 @@ msgstr "Conferma password"
 msgid "Change"
 msgstr "Modifica"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -420,24 +416,24 @@ msgid "Account verified successfully"
 msgstr "L’account è stato verificato con successo"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "Pagamenti e fatturazione"
+msgid "payment & billing"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "Problemi con l’account"
+msgid "account issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "Problemi tecnici"
+msgid "technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
-msgstr "Inviare un’opinione / richiedere nuove funzioni"
+msgid "provide feedback / request features"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
-msgstr "Non elencato"
+msgid "not listed"
+msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1418,11 +1414,11 @@ msgstr "Pronto"
 msgid "Legal"
 msgstr "Note legali"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Termini di servizio"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Informativa sulla privacy"
 
@@ -1652,7 +1648,7 @@ msgstr "Invia un link via SMS per installare Firefox sul tuo telefono."
 msgid "Mobile phone number"
 msgstr "Numero di cellulare"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Invia"
 
@@ -1697,26 +1693,58 @@ msgid "Why sign in on another device?"
 msgstr "Perché accedere da un altro dispositivo?"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "Sottoscrizioni"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "Contatti"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "Per quale motivo ci stai contattando?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please Select One"
+msgstr "Selezionare un’opzione"
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "Come possiamo aiutarti?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Pagamenti e fatturazione"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Problemi con l’account"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Problemi tecnici"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Inviare un’opinione / richiedere nuove funzioni"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Non elencato"
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "Hai bisogno di aiuto con un’app o un servizio specifico? (opzionale)"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "Oggetto (facoltativo)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Descrizione del problema"
 
@@ -1937,10 +1965,6 @@ msgstr "Genera nuovi codici di recupero"
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
 msgstr "Conferma codice di recupero"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Sottoscrizioni"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-05 16:07+0000\n"
 "PO-Revision-Date: 2021-02-28 04:10+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,19 +109,15 @@ msgstr "حساب ناشناس. <a href=\"/signup\">ثبت‌نام</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "این حساب دیگر وجود ندارد. دوباره ساخته شود؟"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "لطفا یکی را انتخاب کنید"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "دیگر"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "با تشکر از شما برای اتصال به پشتیبانی موزیلا در مورد <b>%(escapedLowercaseTopic)s</b>. در اسرع وقت با شما از طریق ایمیل تماس خواهیم گرفت."
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -158,7 +154,7 @@ msgstr "وارد کردن مجدد کلمه عبور"
 msgid "Change"
 msgstr "تغییر"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -416,24 +412,24 @@ msgid "Account verified successfully"
 msgstr "حساب با موفقیت تایید شد"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "پرداخت‌های مالی"
+msgid "payment & billing"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "مشکلات مربوط به حساب"
+msgid "account issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "مشکلات فنی"
+msgid "technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
-msgstr "ارسال بازخورد / درخواست امکانات"
+msgid "provide feedback / request features"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
-msgstr "ثبت نشده است"
+msgid "not listed"
+msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1025,7 +1021,9 @@ msgid "Invalid Token"
 msgstr "نشانه نامعتبر"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
@@ -1097,7 +1095,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "لطفا کلید یکبار مصرف بازیابی را که در محل اول برای دسترسی به حساب فایرفاکس شما وجود دارد را وارد کنید."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE</span>اگر قصد دارید این رمز عبور را بازیابی کنید اما به کلید بازیابی ذخیره شده دسترسی ندارید، تعدادی از اطلاعات شما پاک خواهد شد( شامل اطلاعات همرسانی شده با سرور مانند "
 "تاریخچه مرورگر شما یا نشانک های شما)."
@@ -1156,8 +1155,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>REMEMBER:</span> وقتی شما رمزعبور را بازیابی می‌کنید،‌ شما حساب خود را از نو تنظیم می‌کنید. ممکن است تعدادی از اطلاعات شخصی خود(شامل تاریخچه،‌ نشانک هاو کلمه‌های عبور) را از دست بدهید. علت این"
-" کار رمزنگاری اطلاعات شماست که به وسیله رمز عبور برای محافظت از حریم شخصی شما استفاده می‌شود."
+"<span>REMEMBER:</span> وقتی شما رمزعبور را بازیابی می‌کنید،‌ شما حساب خود را از نو تنظیم می‌کنید. ممکن است تعدادی از اطلاعات شخصی خود(شامل تاریخچه،‌ نشانک هاو کلمه‌های عبور) را از دست بدهید. علت این کار "
+"رمزنگاری اطلاعات شماست که به وسیله رمز عبور برای محافظت از حریم شخصی شما استفاده می‌شود."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1410,11 +1409,11 @@ msgstr "آماده"
 msgid "Legal"
 msgstr "حقوقی"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "قوانین استفاده از سرویس"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "اطلاعیه حریم‌شخصی"
 
@@ -1485,8 +1484,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>NOTE:</span> وقتی که شما کلمه عبور را بازیابی می‌کنید،‌ حساب کاربری خود را از نو راه اندازی می‌کنید. ممکن است تعدادی از اطلاعات شخصی نظیر( تاریخچه، نشانک‌ها، و کلمه های عبور) خود را از دست "
-"بدهید. علت این کار رمزنگاری تمامی اطلاعات شما به وسیله کلمه عبور جهت حفظ حریم شخصی شماست."
+"<span>NOTE:</span> وقتی که شما کلمه عبور را بازیابی می‌کنید،‌ حساب کاربری خود را از نو راه اندازی می‌کنید. ممکن است تعدادی از اطلاعات شخصی نظیر( تاریخچه، نشانک‌ها، و کلمه های عبور) خود را از دست بدهید. "
+"علت این کار رمزنگاری تمامی اطلاعات شما به وسیله کلمه عبور جهت حفظ حریم شخصی شماست."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1644,7 +1643,7 @@ msgstr ""
 msgid "Mobile phone number"
 msgstr "شماره تلفن موبایل"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "ارسال"
 
@@ -1689,26 +1688,58 @@ msgid "Why sign in on another device?"
 msgstr "چرا در یک دستگاه دیگر هم وارد حساب خود شوید؟"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "ارتباط با ما"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "در چه خصوصی به ما می‌خواهید ارتباط برقرار کنید؟"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please Select One"
+msgstr "لطفا یکی را انتخاب کنید"
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "در چه خصوصی به کمک احتیاج دارید؟"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "پرداخت‌های مالی"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "مشکلات مربوط به حساب"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "مشکلات فنی"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "ارسال بازخورد / درخواست امکانات"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "ثبت نشده است"
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr ""
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "عنوان (اختیاری)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "توضیحِ مشکل"
 
@@ -1932,10 +1963,6 @@ msgstr "ساختن شماره‌ های بازآوری جدید"
 msgid "Confirm a recovery code"
 msgstr "تایید یک کلید بازیابی"
 
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "اشتراک‌ها"
-
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
 msgstr "مدیریت…"
@@ -2037,10 +2064,11 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "مرحله ۲ از ۲: ذخیره‌ی کلید بازیابی"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
-"<span class=\"note\">NOTE:</span>اگر رمز عبور خود را فراموش کنید، این کلید برای بازگرداندن دسترسی به داده های شما الزامی ست. کلید بازیابی خود را در یک مکان امن ذخیره کنید، جایی که می توانید آن را به"
-" راحتی بعدا پیدا کنید."
+"<span class=\"note\">NOTE:</span>اگر رمز عبور خود را فراموش کنید، این کلید برای بازگرداندن دسترسی به داده های شما الزامی ست. کلید بازیابی خود را در یک مکان امن ذخیره کنید، جایی که می توانید آن را "
+"به راحتی بعدا پیدا کنید."
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
 msgid "Done, Recovery key saved"
@@ -2554,8 +2582,8 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ msgstr "مدیریت ترجیحات"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "اگر این برنامه را برای حساب برنامه های موزیلا یا خدماتی همچون AMO،‌ Pocket , یا تصاویر گرفته شده از صفحه استفاده می‌کنید، در ابتدا باید وارد شوید سپس تمام اطلاعات شخصی خود را حذف کنید. هر زمان "
 #~ "اطعلات حساب خود را در اینجا پاک کردید شما ممکن است حساب خود را در جاهای دیگر از دست دهید."
@@ -2571,8 +2599,8 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 
 #~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 #~ msgstr ""
-#~ "این موارد کدهای بازیابی یک بار مصرف شماست. آنها را در یک جای امن قراردهید تا زمانی که دسترسی به دستگاه موبایل خود را از دست می‌ دهید به آن ها دسترسی داشته باشید. شما نمی توانید دوباره این کد ها را "
-#~ "مشاهده کنید."
+#~ "این موارد کدهای بازیابی یک بار مصرف شماست. آنها را در یک جای امن قراردهید تا زمانی که دسترسی به دستگاه موبایل خود را از دست می‌ دهید به آن ها دسترسی داشته باشید. شما نمی توانید دوباره این کد ها "
+#~ "را مشاهده کنید."
 
 #~ msgid "Manually enter this secret key into your authentication app:"
 #~ msgstr "به صورت دستی این کلید را در برنامه احراز هویت‌تان وارد کنید:"
@@ -2787,10 +2815,12 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "کوکی‌ها و فضای ذخیره‌سازی محلی لازم هستند."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">قوانین استفاده از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">اطلاعیه حریم‌خصوصی</a> سرویس‌های "
-#~ "ابری فایرفاکس را می‌پذیرید."
+#~ "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">قوانین استفاده از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">اطلاعیه حریم‌خصوصی</a> "
+#~ "سرویس‌های ابری فایرفاکس را می‌پذیرید."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "سرویس‌های ابری فایرفاکس"
@@ -2844,8 +2874,8 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ msgstr "چرا دو (یا چند!) دستگاه را همگام کنید؟"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "همگام‌سازی به شما این امکان را می‌دهد تا نشانک‌ها، تاریخچه، و گذرواژه‌های خود که در فایرفاکس ذخیره می‌کنید را در سایر دستگاه‌های شاملِ فایرفاکس دسترسی داشته باشید. وارد حساب فایرفاکس خود در تلفن یا "
 #~ "تبلت خود بشوید و هر چیزی که در فایرفاکس رومیزی ذخیره کرده‌اید آنجا هم ظاهر می‌شود."
@@ -2855,8 +2885,8 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "سیستم همگام‌سازی به عنوان یک سیستم پشتیبان‌گیری همیشگی طراحی نشده است – این فقط یک سیستم اشتراک‌گذاری چیزهایی است که بطور محلی ذخیره کرده‌اید. اگر شما یکی گذرواژه‌های خود را دوباره تنظیم کنید و "
-#~ "اطلاعات شما حداقل در یک دستگاه دیگر ذخیره نشده باشد، امکان دارد تمام اطلاعات مرتبط با گذرواژه قبلی را از دست بدهید. به همین دلیل است که ممکن است بخواهید فایرفاکس در حداقل در یک دستگاه دیگر نصب و از "
-#~ "سیستم همگام‌سازی استفاده کنید."
+#~ "اطلاعات شما حداقل در یک دستگاه دیگر ذخیره نشده باشد، امکان دارد تمام اطلاعات مرتبط با گذرواژه قبلی را از دست بدهید. به همین دلیل است که ممکن است بخواهید فایرفاکس در حداقل در یک دستگاه دیگر نصب و "
+#~ "از سیستم همگام‌سازی استفاده کنید."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2952,18 +2982,18 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ msgstr "ورود"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>REMEMBER:</span> اگر شما درخواست یک کلمه عبور جدید کرده‌اید، تعدادی از اطلاعات شما می‌توانید از بین برود شامل( اطلاعات همگام سازی شود توسط سرور مانند تاریخچه و نشانک ها) علت آن این است که ما "
 #~ "برای حفظ حریم شخصی شما،‌اطلاعات را رمزنگاری می‌کنیم."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTE:</span> اگر شما درخواست یک کلمه عبور جدید کرده‌اید، تعدادی از اطلاعات شما می‌توانید از بین برود شامل( اطلاعات همگام سازی شود توسط سرور مانند تاریخچه و نشانک ها) علت آن این است که ما برای "
-#~ "حفظ حریم شخصی شما،‌اطلاعات را رمزنگاری می‌کنیم."
+#~ "<span>NOTE:</span> اگر شما درخواست یک کلمه عبور جدید کرده‌اید، تعدادی از اطلاعات شما می‌توانید از بین برود شامل( اطلاعات همگام سازی شود توسط سرور مانند تاریخچه و نشانک ها) علت آن این است که ما "
+#~ "برای حفظ حریم شخصی شما،‌اطلاعات را رمزنگاری می‌کنیم."
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 #~ msgstr "رایانامه ثانوی یک آدرس اضافی برای دریافت گزارش‌های امنیتی و تایید دستگاه‌های قابل همگام‌سازی جدید است"
@@ -3061,19 +3091,21 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 #~ msgid "Sync preferences"
 #~ msgstr "ترجیحات هم‌گام‌سازی"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr ""
-#~ "دنبال همگام‌سازی فایرفاکس هستید؟ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">اینجا شروع کنید</a>"
+#~ "دنبال همگام‌سازی فایرفاکس هستید؟ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">اینجا شروع کنید</"
+#~ "a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "یک حساب با رایانامه متفاوت دارید؟ <a href=\"%(signinUri)s\">وارد شوید</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a "
-#~ "href=\"%(linkLinux)s\">لینوکس</a> در دسترس است."
+#~ "فایرفاکس برای <a href=\"%(linkWindows)s\">ویندوز</a>، <a href=\"%(linkOSX)s\">OS X</a>، <a href=\"%(linkAndroid)s\">اندروید</a>، <a href=\"%(linkIOS)s\">iOS</a> و <a href=\"%(linkLinux)s"
+#~ "\">لینوکس</a> در دسترس است."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "آخرین فعالیت: %(translatedTimeAgo)s"
