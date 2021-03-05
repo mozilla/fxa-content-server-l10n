@@ -223,6 +223,7 @@ security-heading = Taɣellist
 
 row-defaults-action-add = Rnu
 row-defaults-action-change = Snifel
+row-defaults-action-disable = Sens
 
 ## Recovery key sub-section on main Settings page
 
