@@ -305,6 +305,8 @@ rk-key-removed = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Ruka'n taqoya'l
+    .header = Ruka'n taqoya'l
 # Button to make secondary email the primary
 se-make-primary = Tichap achi'el nab'ey
 
