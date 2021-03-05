@@ -143,6 +143,9 @@ tfa-replace-code-error = Yeḍra-d wugur deg usemselsi n tengalin n tririt.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Tugna n umaɣnu
+avatar-page-add-photo = Rnu tawlaft
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo = Ṭṭef tawlaft
@@ -159,12 +162,21 @@ avatar-page-rotate-button = Tuzzya
 avatar-page-camera-error = Ur izmir ara ad iwennez takamiṛat
 avatar-page-new-avatar =
     .alt = tugna n umaɣnu tamaynut
+avatar-page-file-upload-error-2 = Yella-d wugur deg usali n tugna n umaɣnu-inek·inem.
+avatar-page-delete-error-2 = Yella-d wugur deg tukksa n tugna n umaɣnu-inek·inem.
+avatar-page-image-too-large-error = Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Beddel awal uffir
+pw-change-stay-safe = Qqim d aɣellsan — ur ttales ara aseqdec n wawalen uffiren. Awal-ik·im uffir:
+pw-change-least-8-chars = Ilaq ad yesεu ma drus 8 yisekkilen
+pw-change-not-contain-email = Ur ilaq ara ad yili d tansa-inek·inem n yimayl
+pw-change-must-match = Awal uffir amaynut yemṣada d usentem
 
 ##
 
