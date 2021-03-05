@@ -424,16 +424,27 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
 se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
+se-content-note =
+    Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu;
+    Ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Ñemoneĩ mokõi jeku’épe
+tfa-row-disabled = Ñemoneĩ mokõi jeku’épe jepe’apyre.
 tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
+tfa-row-button-refresh =
+    .title = Embopyahu ñemoneĩ mokõi jeku’egua
+tfa-row-cannot-refresh =
+    Rombyasy, oiko apañuãi embopyahúvo ñemoneĩ
+    mokõi jeku’egua.
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-change-modal-confirm = Moambue
 
