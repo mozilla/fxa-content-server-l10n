@@ -171,6 +171,7 @@ avatar-page-new-avatar =
 
 ## Delete account page
 
+delete-account-delete-button-2 = Kkes
 
 ##
 
