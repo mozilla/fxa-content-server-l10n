@@ -68,6 +68,11 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-description = ہر وہ چیز جس کا آپ استعمال کر رہے ہیں اور جس میں آپ سائن ان ہیں۔
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } سے لاگ آؤٹ کر دیا گیا۔
 cs-disconnect-sync-reason =
     اس آلہ کو منقطع کرنے کی
     اصل وجہ کیا ہے؟
@@ -127,6 +132,8 @@ header-help = مدد
 nav-settings = سیٹنگز
 nav-profile = پروفائل
 nav-security = سلامتی
+nav-paid-subs = ادائیگی شدہ سبسکرپشن
+nav-email-comm = ای میل مواصلات
 
 ## Two Step Authentication - replace recovery code
 
@@ -151,6 +158,7 @@ avatar-page-save-button = محفوظ کریں
 avatar-page-zoom-out-button = چھوٹا کریں
 avatar-page-zoom-in-button = بڑا کریں
 avatar-page-rotate-button = گهمائیں
+avatar-page-camera-error = کیمرا شروع نہیں کیا جاسکا
 
 ##
 
