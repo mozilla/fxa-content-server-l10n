@@ -322,6 +322,12 @@ tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
     ñemoneĩrã rembipuru’i</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Eipuru { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
+    tembipuru’i ojokupytývape.
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
@@ -331,6 +337,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape
     ndereguerekói jave ne pumbyry.
+tfa-enter-code-to-confirm =
+    Emoinge peteĩva nde ayvu jeguerujeyrã ko’ág̃a
+    emoneĩ hag̃ua eñongatu hague. Eikotevẽta ayvu okañýrõ nde mba’e’oka ha eikesérõ
+    ne mba’etépe.
 tfa-enter-recovery-code =
     .label = Emoinge ayvu jeguerujeyrã
 
@@ -400,6 +410,7 @@ se-set-primary-error = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipur
 se-delete-email-successful = { $email } oñembogue hekopete.
 se-delete-email-error = Ore ñyrõ oĩ apañuãi emboguévo pe ñanduti veve.
 se-verify-session = Tekotevẽ ehechajey ne rembiapo ag̃agua ejapo hag̃ua ko jeku’e.
+se-verify-session-error = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
