@@ -70,6 +70,16 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Imeẓla yeqqnen
+cs-description = Ayen akk i tseqdaceḍ d wayen wuɣur teqqneḍ.
+cs-cannot-refresh =
+    Nesḥassef, yella wugur deg usmiren n tebdart n yibnkan
+    yeqqnen.
+cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Tuffɣa n { $service }.
 cs-refresh-button =
     .title = Smiren ibenan yeqqnen
 cs-disconnect-sync-heading = Ffeɣ seg Syn
@@ -77,6 +87,7 @@ cs-disconnect-sync-heading = Ffeɣ seg Syn
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Ibenk d:
 cs-disconnect-sync-opt-suspicious = Yella ccek
 cs-disconnect-sync-opt-lost = Iṛuḥ neɣ yettwaker
 cs-disconnect-sync-opt-old = D aqbur neɣ ittwabeddel
@@ -132,6 +143,22 @@ tfa-replace-code-error = Yeḍra-d wugur deg usemselsi n tengalin n tririt.
 
 ## Avatar change page
 
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ṭṭef tawlaft
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Kkes tawlaft
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-close-button = Mdel
+avatar-page-save-button = Sekles
+avatar-page-zoom-out-button = Semẓi
+avatar-page-zoom-in-button = Semɣer
+avatar-page-rotate-button = Tuzzya
+avatar-page-camera-error = Ur izmir ara ad iwennez takamiṛat
+avatar-page-new-avatar =
+    .alt = tugna n umaɣnu tamaynut
 
 ##
 
