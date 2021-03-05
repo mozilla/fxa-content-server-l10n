@@ -171,6 +171,11 @@ avatar-page-new-avatar =
 
 ## Delete account page
 
+delete-account-close-button = Mdel
+delete-account-continue-button = Kemmel
+delete-account-password-input =
+    .label = Sekcem awal uffir
+delete-account-cancel-button = Sefsex
 delete-account-delete-button-2 = Kkes
 
 ##
@@ -178,12 +183,23 @@ delete-account-delete-button-2 = Kkes
 
 ## Display name page
 
+display-name-page-title =
+    .title = Isem yettwaskanen
+display-name-input =
+    .label = Sekcem isem yettwaskanen
+submit-display-name = Sekles
+cancel-display-name = Sefsex
+display-name-update-error = Yella-d wugur deg uleqqem n yisem-ik·im yettwaskanen.
+display-name-success-alert = Yettwaleqqem yisem yettwaskanen.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Sefsex
+recovery-key-close-button = Mdel
+recovery-key-continue-button = Kemmel
 
 ## Add secondary email page
 
