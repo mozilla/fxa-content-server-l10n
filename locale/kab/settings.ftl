@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Axiṛ ur d-qqareɣ ara
 
 cs-disconnect-advice-confirm = Ih, awi-t-id
 cs-disconnect-lost-advice-heading = Ibenk ur nelli neɣ i yettwakren ur yeqqin ara
+cs-disconnect-lost-advice-content-2 =
+    Imi ubenk-ik·im tesruḥeḍ-t neɣ yettwaker
+    eǧǧ talɣut-ik·im d taɣellsant, ilaq ad tbeddleḍ awal-ik·im uffir { -product-firefox-account }
+    deg yiɣewwaren n umiḍan-ik·im. Ilaq daɣen ad testeqsiḍ
+    amfaras n yibenk-ik·im ɣef wamek ara tekkseḍ isefka-inek·inem s wudem anmeggag.
 cs-disconnect-suspicious-advice-heading = Ibenk ideg yella ccekk ur yeqqin ara
 cs-sign-out-button = Ffeɣ
 
@@ -224,6 +229,10 @@ delete-account-chk-box-1 =
     .label = Kra n umulteɣ s lexlaṣ i tesɛiḍ ad yettwasefsex
 delete-account-chk-box-2 =
     .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen
+delete-account-chk-box-4 =
+    .label = Akk isiɣzaf d yisental i d-tessufɣeḍ deg addons.mozilla.org ad ttwakksen
 delete-account-close-button = Mdel
 delete-account-continue-button = Kemmel
 delete-account-password-input =
@@ -310,9 +319,19 @@ tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-verify-code = Yella-d wugur deg usenqed n tengalt-ik•im n tririt.
 tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
 tfa-enabled = Asesteb s snat n tarrayin yermed
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Seqdec tangalt { $secret } i usbeddi n usesteb s snat n tarrayin deg
+    isnasen yettwasefraken.
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
+tfa-enter-totp = Tura sekcem tangalt n tɣellist seg usnas n usesteb.
 tfa-input-enter-totp =
     .label = Sekcem tangalt n tɣellist
+tfa-save-these-codes = Sekles tingalin n useqdec asuf deg umḍiq aɣelsan i wass mi ara teḥwaǧeḍ anekcum ɣer yibenk-ik aziraz.
 tfa-enter-recovery-code =
     .label = Sekcem tangalt n tririt
 
@@ -375,17 +394,30 @@ se-remove-email =
 se-refresh-email =
     .title = Smiren imayl
 se-unverified = Ur yettwasenqed ara
+# Button to make secondary email the primary
+se-make-primary = Err tansa-a d tamezwarut
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Asesteb s snat n tarrayin
+tfa-row-disabled = Asesteb s snat n tarrayin yensa.
 tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
 tfa-row-action-disable = Sens
+tfa-row-button-refresh =
+    .title = Smiren asesteb s snat n tarrayin
+tfa-row-cannot-refresh =
+    Suref-aɣ, yella-d wugur deg usmiren n usesteb
+    s snat n tarrayin.
+tfa-row-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
+tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
+tfa-row-cannot-disable = Asesteb s snat n tarrayin ulamek ad yens.
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
 
@@ -397,4 +429,9 @@ avatar-change-link = Senfel
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Amiḍan arussin
+auth-error-103 = Awal uffir d arameɣtu
+auth-error-110 = Ajuṭun d arameɣtu
+auth-error-138 = Ur tettwasenqed ara tɣimit
 auth-error-155 = Ulac ajiṭun TOTP
+auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
