@@ -51,18 +51,38 @@ app-footer-terms-of-service = 이용 약관
 
 avatar-your-avatar =
     .alt = 내 아바타
+avatar-default-avatar =
+    .alt = 기본 아바타
 
 ##
 
 
 ## Connect another device promo
 
+connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
+connect-another-find-fx-mobile =
+    { -google-play }나 { -app-store }에서 { -brand-firefox }를 찾거나
+    <br /><linkExternal>내 기기로 다운로드 링크를 보냅니다</linkExternal>.
 
 ##
 
 
 ## Connected services section
 
+cs-heading = 연결된 서비스
+cs-description = 사용하고 있거나 로그인 한 모든것입니다.
+cs-cannot-refresh = 죄송합니다. 연결된 서비스 목록은 다시 불러오는데 문제가 발생하였습니다.
+cs-cannot-disconnect = 클라이언트를 찾지 못해 연결할 수 없음
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service }에서 로그아웃 합니다.
+cs-refresh-button =
+    .title = 연결된 서비스 새로 고침
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = 없거나 중복된 항목이 있나요?
+cs-disconnect-sync-heading = Sync 연결 끊기
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
