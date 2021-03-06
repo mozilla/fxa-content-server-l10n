@@ -207,6 +207,10 @@ pw-change-stay-safe = Qqim d aɣellsan — ur ttales ara aseqdec n wawalen uffir
 pw-change-least-8-chars = Ilaq ad yesεu ma drus 8 yisekkilen
 pw-change-not-contain-email = Ur ilaq ara ad yili d tansa-inek·inem n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Ur ilaq ara ad yili deg <linkExternal>tebdart-a n wawalen uffiren
+    yettwassnen</linkExternal>
 pw-change-cancel-button = Sefsex
 pw-change-save-button = Sekles
 pw-change-forgot-password-link = Tettuḍ awal uffir?
@@ -325,6 +329,9 @@ tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
 tfa-cannot-verify-code = Yella-d wugur deg usenqed n tengalt-ik•im n tririt.
 tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
 tfa-enabled = Asesteb s snat n tarrayin yermed
+tfa-scan-this-code =
+    Smiḍen tangalt-a QR s useqdec n yiwen seg <linkExternal>
+    yisnasen-a n usesteb</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -380,9 +387,11 @@ rk-enabld = Yermed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
+rk-cannot-refresh = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
 rk-key-removed = Tasarut n tririt n umiḍan yettwakkes.
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 rk-refresh-key = Smiren tasarut n tririt
+rk-content-explain = Err-d tilɣa-inek•inem mi tettuḍ awal-ik•im uffir.
 rk-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 rk-remove-modal-heading = Tukksa n tsarut n tririt?
 
