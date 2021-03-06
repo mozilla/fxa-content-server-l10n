@@ -117,6 +117,11 @@ cs-disconnect-lost-advice-content-2 =
     deg yiɣewwaren n umiḍan-ik·im. Ilaq daɣen ad testeqsiḍ
     amfaras n yibenk-ik·im ɣef wamek ara tekkseḍ isefka-inek·inem s wudem anmeggag.
 cs-disconnect-suspicious-advice-heading = Ibenk ideg yella ccekk ur yeqqin ara
+cs-disconnect-suspicious-advice-content =
+    Ma ibenk yeffɣen seg tuqqna d tidet
+    deg-s ccekk, akken ad tḥerzeḍ tilɣa-k•m, ilaq ad tbeddleḍ { -product-firefox-account }
+    awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
+    wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
 cs-sign-out-button = Ffeɣ
 
 ##
@@ -347,6 +352,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Sekles tingalin n useqdec asuf deg umḍiq aɣelsan i wass ma yili
     ur teḥwaǧeḍara ibenk-ik·im aziraz.
+tfa-enter-code-to-confirm =
+    Ttxil sekcem yiwet gar tengalin-ik•im n tririt tura iwakken
+    ad tesnetmeḍ dakken teskelseḍ-t. Ad teḥwaǧeḍ tangalt ma tesruḥeḍ ibenk-ik•im yerna tebɣiḍ
+    ad tkecmeḍ ɣer umiḍan-ik•im.
 tfa-enter-recovery-code =
     .label = Sekcem tangalt n tririt
 
@@ -392,8 +401,12 @@ rk-key-removed = Tasarut n tririt n umiḍan yettwakkes.
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 rk-refresh-key = Smiren tasarut n tririt
 rk-content-explain = Err-d tilɣa-inek•inem mi tettuḍ awal-ik•im uffir.
+rk-content-reset-data = Ayɣer awennez n wawal-iw uffir igellu-d s uwennez n yisefka-w?
 rk-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 rk-remove-modal-heading = Tukksa n tsarut n tririt?
+rk-remove-modal-content =
+    Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
+    ad tesqedceḍ tasarut-ik·im n tririt i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 ## Secondary email sub-section on main Settings page
 
@@ -426,6 +439,9 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
 se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
+se-content-note =
+    Tamawt: imayl wis sin ur d-yettarra ara talɣut-ik·im — tesriḍ
+    <a>tasarut n tririt</a> i waya.
 
 ##
 
