@@ -143,6 +143,8 @@ header-menu-closed = Umuɣ n tunigin n usmel
 header-back-to-top-link =
     .title = Uɣal d asawen
 header-title = { -product-firefox-accounts }
+header-switch-title = Beddel ɣer ufeṣṣel aklasiki
+    .title = aseɣwen n ufeṣṣel aklasiki
 header-help = Tallalt
 
 ## Settings Nav
@@ -151,10 +153,13 @@ nav-settings = Iɣewwaren
 nav-profile = Amaɣnu
 nav-security = Taɣellist
 nav-connected-services = Imeẓla yeqqnen
+nav-paid-subs = Amulteɣ s lexlaṣ
+nav-email-comm = Taywalt s yimayl
 
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Yeḍra-d wugur deg usemselsi n tengalin n tririt.
+tfa-replace-code-success-alert = Tingalin n tririt n umiḍan ttwaleqqmen.
 
 ## Avatar change page
 
@@ -169,6 +174,7 @@ avatar-page-take-photo-button =
 avatar-page-remove-photo = Kkes tawlaft
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ṭṭef tawlaft i tikkelt-nniḍen
 avatar-page-close-button = Mdel
 avatar-page-save-button = Sekles
 avatar-page-zoom-out-button = Semẓi
@@ -210,6 +216,10 @@ pw-change-success-alert = Awal uffir yettuleqqem.
 
 delete-account-header =
     .title = Kkes amiḍan
+delete-account-step-1-2 = Asurif 1 seg 2
+delete-account-step-2-2 = Asurif 2 seg 2
+delete-account-confirm-title-2 = Teqqneḍ { -product-firefox-account }-inek•inem ɣer { -brand-mozilla } yifarisen ara k•kem-iḥerzen daɣen ara k•kem-yeǧǧen ad tesnerniḍ tiffursa-k•m deg web:
+delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
 delete-account-close-button = Mdel
 delete-account-continue-button = Kemmel
 delete-account-password-input =
