@@ -89,6 +89,14 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿La k'a k'o taq ch'akulal nrajo' o ekamulun?
 cs-disconnect-sync-heading = Tichup pa Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Ri taq atzij richin okem pa k'amaya'l junelïk xkek'oje' pa re 
+    awokisaxel ({ $device }), xa xe chi man xkexim ta chik rik'in ri rub'i' ataqoya'l.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
