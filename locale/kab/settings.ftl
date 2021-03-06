@@ -331,7 +331,9 @@ tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
 tfa-enter-totp = Tura sekcem tangalt n tɣellist seg usnas n usesteb.
 tfa-input-enter-totp =
     .label = Sekcem tangalt n tɣellist
-tfa-save-these-codes = Sekles tingalin n useqdec asuf deg umḍiq aɣelsan i wass mi ara teḥwaǧeḍ anekcum ɣer yibenk-ik aziraz.
+tfa-save-these-codes =
+    Sekles tingalin n useqdec asuf deg umḍiq aɣelsan i wass ma yili
+    ur teḥwaǧeḍara ibenk-ik·im aziraz.
 tfa-enter-recovery-code =
     .label = Sekcem tangalt n tririt
 
@@ -420,6 +422,7 @@ tfa-row-disable-modal-confirm = Sens
 tfa-row-cannot-disable = Asesteb s snat n tarrayin ulamek ad yens.
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
+tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 ## Avatar sub-section on main Settings page
 
