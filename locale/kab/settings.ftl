@@ -82,7 +82,20 @@ cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
 cs-logged-out = Tuffɣa n { $service }.
 cs-refresh-button =
     .title = Smiren ibenan yeqqnen
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
 cs-disconnect-sync-heading = Ffeɣ seg Syn
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Isefka-k•m n tunigin ad qqimen ɣef yibenk-ik•im
+    ({ $device }), d acu kan ur ttemtawin ara akked umiḍan-ik•im.
+cs-disconnect-sync-reason =
+    D acu-tt tmentilt tagejdant n tuffɣa seg
+    yibenk-a?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -97,6 +110,8 @@ cs-disconnect-sync-opt-not-say = Axiṛ ur d-qqareɣ ara
 ##
 
 cs-disconnect-advice-confirm = Ih, awi-t-id
+cs-disconnect-lost-advice-heading = Ibenk ur nelli neɣ i yettwakren ur yeqqin ara
+cs-disconnect-suspicious-advice-heading = Ibenk ideg yella ccekk ur yeqqin ara
 cs-sign-out-button = Ffeɣ
 
 ##
