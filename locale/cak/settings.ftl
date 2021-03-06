@@ -79,6 +79,13 @@ cs-cannot-refresh =
     Kojakuyu', xk'oje' jun k'ayewal kik'in ri kicholajem taq samaj
     xe'okisäx.
 cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Chupun pa { $service }.
+cs-refresh-button =
+    .title = Titzolïx okisan taq samaj
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿La k'a k'o taq ch'akulal nrajo' o ekamulun?
 cs-disconnect-sync-heading = Tichup pa Sync
