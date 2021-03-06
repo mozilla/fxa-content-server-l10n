@@ -164,6 +164,10 @@ nav-email-comm = Taywalt s yimayl
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Yeḍra-d wugur deg usemselsi n tengalin n tririt.
+tfa-replace-code-success =
+    Tingalin timaynutin ttwarnant. Sekles tingalin-a n useqdec asuf
+    deg wadeg aɣellsan — ad tent-teḥwiǧeḍ i wakken ad tkecmeḍ ɣer umiḍan-ik·im ma yella ulac
+    ibenk-ik·im aziraz.
 tfa-replace-code-success-alert = Tingalin n tririt n umiḍan ttwaleqqmen.
 
 ## Avatar change page
