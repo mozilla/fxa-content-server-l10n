@@ -313,6 +313,8 @@ tfa-enabled = Asesteb s snat n tarrayin yermed
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
 tfa-input-enter-totp =
     .label = Sekcem tangalt n tɣellist
+tfa-enter-recovery-code =
+    .label = Sekcem tangalt n tririt
 
 ##
 
@@ -324,6 +326,10 @@ profile-display-name =
     .header = Isem n uskan
 profile-password =
     .header = Awal uffir
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Yettwarna deg { $date }
 profile-primary-email =
     .header = Imayl amezwaru
 
@@ -339,21 +345,56 @@ security-heading = Taɣellist
 row-defaults-action-add = Rnu
 row-defaults-action-change = Snifel
 row-defaults-action-disable = Sens
+row-defaults-status = Ulac
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Yermed
+rk-not-set = Ur ittusbadu ara
+rk-action-create = Rnu
+rk-action-remove = Kkes
+rk-key-removed = Tasarut n tririt n umiḍan yettwakkes.
+rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
+rk-refresh-key = Smiren tasarut n tririt
+rk-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
+rk-remove-modal-heading = Tukksa n tsarut n tririt?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Imayl wis sin
+    .header = Imayl wis sin
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } yettwakkes akken ilaq.
+se-delete-email-error = Suref-aɣ, yella-d wugur deg tukksa n yimayl.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Kkes imayl
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Smiren imayl
+se-unverified = Ur yettwasenqed ara
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Yettwarmed
+tfa-row-not-set = Ur yettusbadu ara
+tfa-row-action-add = Rnu
+tfa-row-action-disable = Sens
+tfa-row-disable-modal-confirm = Sens
+tfa-row-change-modal-heading = Senfel tingalin n tririt?
+tfa-row-change-modal-confirm = Senfel
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Tugna
+avatar-add-link = Rnu
+avatar-change-link = Senfel
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-155 = Ulac ajiṭun TOTP
