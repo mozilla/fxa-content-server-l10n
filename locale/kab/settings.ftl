@@ -220,6 +220,10 @@ delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
 delete-account-confirm-title-2 = Teqqneḍ { -product-firefox-account }-inek•inem ɣer { -brand-mozilla } yifarisen ara k•kem-iḥerzen daɣen ara k•kem-yeǧǧen ad tesnerniḍ tiffursa-k•m deg web:
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
+delete-account-chk-box-1 =
+    .label = Kra n umulteɣ s lexlaṣ i tesɛiḍ ad yettwasefsex
+delete-account-chk-box-2 =
+    .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
 delete-account-close-button = Mdel
 delete-account-continue-button = Kemmel
 delete-account-password-input =
@@ -249,21 +253,60 @@ display-name-success-alert = Yettwaleqqem yisem yettwaskanen.
 recovery-key-cancel-button = Sefsex
 recovery-key-close-button = Mdel
 recovery-key-continue-button = Kemmel
+recovery-key-enter-password =
+    .label = Sekcem awal uffir
+recovery-key-page-title =
+    .title = Tasarut n tririt
+recovery-key-step-1 = Asurif 1 seg 2
+recovery-key-step-2 = Asurif 2 seg 2
+recovery-key-success-alert = Tasarut n tririt tettwarna.
 
 ## Add secondary email page
 
+add-secondary-email-error = Yella-d wugur deg tmerna n yimayl-a.
+add-secondary-email-page-title =
+    .title = Imayl wis sin
+add-secondary-email-enter-address =
+    .label = Sekcem tansa imayl
+add-secondary-email-cancel-button = Sefsex
+add-secondary-email-save-button = Sekles
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Yella-d wugur deg tuzzna n tengalt n usenqed.
+verify-secondary-email-page-title =
+    .title = Imayl wis sin
+verify-secondary-email-verification-code =
+    .label = Sekcem tangalt-ik•im n usenqed
+verify-secondary-email-cancel-button = Sefsex
+verify-secondary-email-verify-button = Senqed
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Ttxil sekcem tangalt n usenqed i yettwaznen ɣer <strong>{ $email }</strong> deg 5 n tesdatin.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } yettwarna akken ilaq.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Kkes amiḍan
 
 ## Two Step Authentication
 
+tfa-title = Asesteb s snat n tarrayin
+tfa-step-1-3 = Asurif 1 seg 3
+tfa-step-2-3 = Asurif 2 seg 3
+tfa-step-3-3 = Asurif 3 seg 3
+tfa-button-continue = Kemmel
+tfa-button-cancel = Sefsex
+tfa-button-finish = Fakk
+tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 
 ##
 
