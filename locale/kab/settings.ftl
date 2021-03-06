@@ -307,6 +307,12 @@ tfa-button-continue = Kemmel
 tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
+tfa-cannot-verify-code = Yella-d wugur deg usenqed n tengalt-ik•im n tririt.
+tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
+tfa-enabled = Asesteb s snat n tarrayin yermed
+tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
+tfa-input-enter-totp =
+    .label = Sekcem tangalt n tɣellist
 
 ##
 
