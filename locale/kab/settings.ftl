@@ -266,6 +266,7 @@ display-name-success-alert = Yettwaleqqem yisem yettwaskanen.
 recovery-key-cancel-button = Sefsex
 recovery-key-close-button = Mdel
 recovery-key-continue-button = Kemmel
+recovery-key-created = Tasarut-ik·im n tririt tettwarna. Ḍmen teskelseḍ tasarut-a deg wadeg aɣellsan i tzemreḍ ad tafeḍ s sshala ticki — Tesriḍ tasarut-a i wakken ad d-terreḍ anekcum ɣer yisefka-inek·inem ma yella tettuḍ awal-ik·im uffir.
 recovery-key-enter-password =
     .label = Sekcem awal uffir
 recovery-key-page-title =
@@ -320,6 +321,7 @@ tfa-button-continue = Kemmel
 tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
+tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
 tfa-cannot-verify-code = Yella-d wugur deg usenqed n tengalt-ik•im n tririt.
 tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
 tfa-enabled = Asesteb s snat n tarrayin yermed
@@ -388,11 +390,20 @@ rk-remove-modal-heading = Tukksa n tsarut n tririt?
 
 se-heading = Imayl wis sin
     .header = Imayl wis sin
+se-cannot-refresh-email = Suref-aɣ, yella-d wugur deg usmiren n yimayl-nni.
+se-cannot-resend-code = Suref-aɣ, yella-d wugur deg wallus n tuzzna n tengalt n usenqed.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } mačči d imayl-ik•im amezwaru.
+se-set-primary-error = Suref-aɣ, yella-d wugur deg ubeddel n yimayl-ik•im amezwaru.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } yettwakkes akken ilaq.
 se-delete-email-error = Suref-aɣ, yella-d wugur deg tukksa n yimayl.
+se-verify-session = Tesriḍ ad tesneqdeḍ tiɣimit-a-inek•inem akken ad teslekmeḍ tigawt-a.
+se-verify-session-error = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 # Button to remove the secondary email
 se-remove-email =
     .title = Kkes imayl
@@ -400,8 +411,12 @@ se-remove-email =
 se-refresh-email =
     .title = Smiren imayl
 se-unverified = Ur yettwasenqed ara
+se-resend-code =
+    Ilaq usenqed. <button> Yules tuzzna i tengalt n usenqed </button>
+    ma mačči deg tebwaṭ-ik•im neɣ deg ukaram n yispamen i yella.
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
+se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
 
 ##
 
@@ -420,9 +435,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Suref-aɣ, yella-d wugur deg usmiren n usesteb
     s snat n tarrayin.
+tfa-row-content-explain =
+    Ur ttaǧǧa yiwen ad yeqqen, ssuter 
+    tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
 tfa-row-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
+tfa-row-disable-modal-explain =
+    Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
+    tesɛiḍ taxtirt n <linkExternal> usenker n tengalin-ik•im n tririt </linkExternal>.
 tfa-row-cannot-disable = Asesteb s snat n tarrayin ulamek ad yens.
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
