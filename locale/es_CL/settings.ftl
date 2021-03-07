@@ -325,6 +325,12 @@ tfa-cannot-retrieve-code = Hubo un problema al recuperar tu código.
 tfa-cannot-verify-code = Hubo un problema al verificar tu código de recuperación.
 tfa-incorrect-recovery-code = Código de recuperación incorrecto
 tfa-enabled = Autenticación en dos pasos activada
+tfa-button-cant-scan-qr = ¿No puedes escanear el código?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Ingresa esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp = Ahora ingresa el código de seguridad de la aplicación de autenticación.
+tfa-input-enter-totp =
+    .label = Ingresa el código de seguridad
 
 ##
 
@@ -357,18 +363,87 @@ rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuent
 rk-refresh-key = Actualizar clave de recuperación
 rk-content-explain = Restaura tu información cuando olvides tu contraseña.
 rk-content-reset-data = ¿Por qué restablecer mi contraseña resetea mis datos?
+rk-cannot-verify-session-2 = Lo sentimos, hubo un problema al verificar tu sesión.
+rk-remove-modal-heading = ¿Eliminar clave de recuperación?
+rk-remove-modal-content =
+    En el caso de que restablezcas tu contraseña, no podrás
+    usar tu clave de recuperación para acceder a tus datos. No puede deshacer esta acción.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Correo secundario
+    .header = Correo secundario
+se-cannot-refresh-email = Lo sentimos, hubo un problema al actualizar ese correo.
+se-cannot-resend-code = Lo sentimos, hubo un problema al enviar el código de verificación.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } es ahora tu correo principal.
+se-set-primary-error = Lo sentimos, hubo un problema al cambiar tu correo principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } eliminado exitosamente.
+se-delete-email-error = Lo sentimos, hubo un problema al eliminar este correo.
+se-verify-session = Deberás verificar tu sesión actual para realizar esta acción.
+se-verify-session-error = Lo sentimos, hubo un problema al verificar tu sesión.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Eliminar correo
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualizar correo
+se-unverified = no verificado
+se-resend-code =
+    Se requiere verificación. <button>Reenviar código de verificación</button>,
+    en caso de que no esté en tu bandeja de entrada o carpeta de spam.
+# Button to make secondary email the primary
+se-make-primary = Hacer primario
+se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo principal.
+se-content-note =
+    Nota: un correo secundario no restaurará tu información — 
+    necesitarás una <a>clave de recuperación</a> para eso.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticación en dos pasos
+tfa-row-disabled = Autenticación en dos pasos desactivada.
+tfa-row-enabled = Activada
+tfa-row-not-set = No establecida
+tfa-row-action-add = Añadir
+tfa-row-action-disable = Desactivar
+tfa-row-button-refresh =
+    .title = Actualizar autenticación en dos pasos
+tfa-row-cannot-refresh = Lo sentimos, hubo un problema al actualizar la autenticación en dos pasos.
+tfa-row-content-explain =
+    Evita que otra persona se conecte solicitando un
+    código único al que solo tu tienes acceso.
+tfa-row-cannot-verify-session-2 = Lo sentimos, hubo un problema al verificar tu sesión.
+tfa-row-disable-modal-heading = ¿Deshabilitar autenticación en dos pasos?
+tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-disable-modal-explain =
+    No podrás deshacer esta acción. También
+    tienes la opción de <linkexternal>eemplazar tus códigos de recuperación</linkexternal>.
+tfa-row-cannot-disable = La autenticación en dos pasos no pudo ser deshabilitada.
+tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
+tfa-row-change-modal-confirm = Cambiar
+tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Imagen
+avatar-add-link = Añadir
+avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cuenta desconocida
+auth-error-103 = Contraseña incorrecta
+auth-error-110 = Llave inválida
+auth-error-138 = Sesión no verificada
+auth-error-155 = Token TOTP no encontrado
+auth-error-1008 = Tu nueva conraseña debe ser diferente
