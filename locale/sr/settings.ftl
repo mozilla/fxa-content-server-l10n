@@ -461,9 +461,28 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Спречите неовлашћени приступ вашем налогу
     захтевањем јединственог кода који имате само ви.
+tfa-row-cannot-verify-session-2 = Жао нам је, дошло је до проблема приликом потврђивања ваше сесије.
+tfa-row-disable-modal-heading = Онемогућити аутентификацију у два корака?
+tfa-row-disable-modal-confirm = Онемогући
+tfa-row-disable-modal-explain =
+    Нећете моћи да опозовете ову радњу. Такође
+    имате опцију да замените <linkExternal>ваше кодове за опоравак</linkExternal>.
+tfa-row-cannot-disable = Аутентификација у два корака се не може онемогућити.
+tfa-row-change-modal-heading = Промени кодове за опоравак?
+tfa-row-change-modal-confirm = Промени
+tfa-row-change-modal-explain = Нећете моћи да опозовете ову радњу.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Слика
+avatar-add-link = Додај
+avatar-change-link = Промени
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Непознат налог
+auth-error-103 = Погрешна лозинка
+auth-error-110 = Неважећи токен
+auth-error-138 = Непроверена сесија
+auth-error-155 = TOTP токен није пронађен
+auth-error-1008 = Нова лозинка мора да буде другачија
