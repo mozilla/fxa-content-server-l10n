@@ -279,48 +279,181 @@ add-secondary-email-page-title =
 add-secondary-email-enter-address =
     .label = Indtast mailadresse
 add-secondary-email-cancel-button = Annuller
+add-secondary-email-save-button = Gem
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Der opstod et problem under afsendelse af bekræftelseskoden.
+verify-secondary-email-page-title =
+    .title = Sekundær mailadresse
+verify-secondary-email-verification-code =
+    .label = Indtast din bekræftelseskode
+verify-secondary-email-cancel-button = Annuller
+verify-secondary-email-verify-button = Bekræft
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Indtast den bekræftelseskode, der blev sendt til <strong>{ $email }</strong>, indenfor 5 minutter.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } tilføjet.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Slet konto
 
 ## Two Step Authentication
 
+tfa-title = Totrinsgodkendelse
+tfa-step-1-3 = Trin 1 af 3
+tfa-step-2-3 = Trin 2 af 3
+tfa-step-3-3 = Trin 3 af 3
+tfa-button-continue = Fortsæt
+tfa-button-cancel = Annuller
+tfa-button-finish = Afslut
+tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
+tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
+tfa-cannot-verify-code = Der opstod et problem med at bekræfte din genoprettelseskode.
+tfa-incorrect-recovery-code = Forkert genoprettelseskode
+tfa-enabled = Totrinsgodkendelse aktiveret
+tfa-scan-this-code =
+    Skan denne QR-kode ved hjælp af en af <linkExternal>disse
+    godkendelsesapps</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Brug koden { $secret } til at opsætte totrinsgodkendelse i
+    understøttede applikationer.
+tfa-button-cant-scan-qr = Kan du ikke skanne koden?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
+tfa-enter-totp = Indtast nu sikkerhedskoden fra godkendelsesappen.
+tfa-input-enter-totp =
+    .label = Indtast sikkerhedskode
+tfa-enter-code-to-confirm =
+    Indtast en af dine genoprettelseskoder nu for
+    at bekræfte, at du har gemt den. Du skal bruge en kode, hvis du mister din enhed og vil
+    have adgang til din konto.
+tfa-enter-recovery-code =
+    .label = Indtast en genoprettelseskode
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Vist navn
+profile-password =
+    .header = Adgangskode
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Oprettet { $date }
+profile-primary-email =
+    .header = Primær mailadresse
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Sikkerhed
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Tilføj
+row-defaults-action-change = Skift
+row-defaults-action-disable = Deaktiver
+row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Aktiveret
+rk-not-set = Ikke indstillet
+rk-action-create = Opret
+rk-action-remove = Fjern
+rk-key-removed = Genoprettelsesnøgle til kontoen blev fjernet.
+rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
+rk-refresh-key = Opdater genoprettelsesnøgle
+rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
+rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
+rk-remove-modal-heading = Fjern genoprettelsesnøgle?
+rk-remove-modal-content =
+    Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
+    til at få adgang til dine data. Du kan ikke fortryde denne handling.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundær mailadresse
+    .header = Sekundær mailadresse
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } er nu din primære mailadresse.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } blev slettet.
+se-verify-session = Du skal bekræfte din nuværende session for at udføre denne handling.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Fjern mailadresse
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Opdater mailadresse
+se-unverified = ikke bekræftet
+se-resend-code =
+    Bekræftelse nødvendig. <button>Send bekræftelseskode igen</button>,
+    hvis den ikke er i din indbakke eller spam-mappe.
+# Button to make secondary email the primary
+se-make-primary = Sæt som primær
+se-default-content = Få adgang til din konto, hvis du ikke kan logge ind på din primære mailkonto.
+se-content-note =
+    Bemærk: En sekundær mailadresse vil ikke gendanne dine gemte informationer — du
+    skal bruge en <a>genoprettelsesnøgle</a> til det.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Totrinsgodkendelse
+tfa-row-disabled = Totrinsgodkendelse deaktiveret.
+tfa-row-enabled = Aktiveret
+tfa-row-not-set = Ikke indstillet
+tfa-row-action-add = Tilføj
+tfa-row-action-disable = Deaktiver
+tfa-row-button-refresh =
+    .title = Opdater totrinsgodkendelse
+tfa-row-content-explain =
+    Undgå at en anden logger ind ved at kræve en
+    unik kode, kun du har adgang til.
+tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
+tfa-row-disable-modal-confirm = Deaktiver
+tfa-row-cannot-disable = Totrinsgodkendelse kunne ikke deaktiveres.
+tfa-row-change-modal-heading = Skift genoprettelseskoder?
+tfa-row-change-modal-confirm = Skift
+tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Billede
+avatar-add-link = Tilføj
+avatar-change-link = Skift
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Ukendt konto
+auth-error-103 = Forkert adgangskode
+auth-error-110 = Ugyldigt token
+auth-error-138 = Ubekræftet session
+auth-error-155 = TOTP-token ikke fundet
