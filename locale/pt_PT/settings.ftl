@@ -91,6 +91,9 @@ cs-disconnect-sync-heading = Desassociar do Sync
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content = Os seus dados de navegação irão manter-se no seu dispositivo ({ $device }), mas deixarão de ser mais sincronizados com a sua conta.
+cs-disconnect-sync-reason =
+    Qual é o principal motivo para desassociar este
+    dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -105,6 +108,12 @@ cs-disconnect-sync-opt-not-say = Prefiro não dizer
 ##
 
 cs-disconnect-advice-confirm = OK, percebi
+cs-disconnect-lost-advice-heading = Dispositivo perdido ou roubado desassociado
+cs-disconnect-lost-advice-content-2 =
+    Uma vez que seu dispositivo foi perdido ou roubado, para
+    manter os seus dados seguros, deve alterar a sua palavra-passe do { -product-firefox-account }
+    nas configurações da sua conta. Também deve procurar informações no fabricante 
+    do seu dispositivo sobre como apagar os seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
 cs-sign-out-button = Terminar sessão
 
