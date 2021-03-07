@@ -85,6 +85,12 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Faltan elementos o están duplicados?
 cs-disconnect-sync-heading = Desconectarse de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = Tus datos de navegación se mantendrán en tu dispositivo ({ $device }), pero ya no se sincronizarán con tu cuenta.
 cs-disconnect-sync-reason =
     ¿Cuál es la razón principal para desconectar este
     ¿dispositivo?
@@ -267,6 +273,7 @@ display-name-success-alert = Nombre para mostrar actualizado.
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created = Tu clave de recuperación ha sido creada. Asegúrate de guardar la clave en un lugar seguro donde la puedas encontrar más tarde: necesitarás la clave para recuperar el acceso a tus datos si olvidas tu contraseña.
 recovery-key-enter-password =
     .label = Ingresar contraseña
 recovery-key-page-title =
@@ -325,24 +332,49 @@ tfa-cannot-retrieve-code = Hubo un problema al recuperar tu código.
 tfa-cannot-verify-code = Hubo un problema al verificar tu código de recuperación.
 tfa-incorrect-recovery-code = Código de recuperación incorrecto
 tfa-enabled = Autenticación en dos pasos activada
+tfa-scan-this-code =
+    Escanea este código QR usando una de <linkExterior>estas
+    aplicaciones de autenticación</linkexternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Usa el código { $secret } para configurar la autenticación en dos pasos en las aplicaciones soportadas.
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Ingresa esta clave secreta en tu aplicación de autenticación:
 tfa-enter-totp = Ahora ingresa el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Ingresa el código de seguridad
+tfa-save-these-codes = Guarda estos códigos de un solo uso en un lugar seguro para cuando no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm =
+    Por favor, ingresa uno de tus códigos de recuperación ahora para
+    confirmar que los has guardado. Necesitarás un código si pierdes tu dispositivo y quieres acceder a tu cuenta.
+tfa-enter-recovery-code =
+    .label = Ingresar un código de recuperación
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Perfil
+profile-display-name =
+    .header = Nombre para mostrar
+profile-password =
+    .header = Contraseña
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Creada el { $date }
+profile-primary-email =
+    .header = Correo primario
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Seguridad
 
 ## Sub-section row Defaults
 
