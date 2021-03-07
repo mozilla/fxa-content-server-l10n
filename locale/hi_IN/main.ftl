@@ -169,6 +169,8 @@ sub-item-cancel-sub = सदस्यता रद्द करें
 
 ## subscription create
 
+pay-with-heading-card-or = या कार्ड से भुगतान करें
+pay-with-heading-card-only = कार्ड से भुगतान करें
 
 ## plan-details
 
