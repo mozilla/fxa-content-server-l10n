@@ -421,6 +421,21 @@ se-set-primary-error = Жао нам је, дошло је до проблема
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } је успешно обрисан.
+se-delete-email-error = Жао нам је, дошло је до проблем при брисању ове е-поште.
+se-verify-session = Мораћете да потврдите тренутну сесију да бисте извршили ову радњу.
+se-verify-session-error = Жао нам је, дошло је до проблема при потврђивању ваше сесије.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Уклони е-пошту
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Освежи е-пошту
+se-unverified = непотврђено
+se-resend-code =
+    Потребна је потврда. <button>Поново пошаљите верификациони код</button>
+    ако није у вашем пријемном сандучету или директоријуму за нежељену пошту.
+# Button to make secondary email the primary
+se-make-primary = Подеси као примарно
 
 ##
 
