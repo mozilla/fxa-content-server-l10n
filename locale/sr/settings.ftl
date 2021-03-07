@@ -398,6 +398,10 @@ rk-cannot-refresh = Жао нам је, дошло је до проблема п
 rk-key-removed = Кључ за опоравак налога је уклоњен.
 rk-cannot-remove-key = Није могуће уклонити ваш кључ за опоравак налога.
 rk-refresh-key = Освежите кључ за опоравак
+rk-content-explain = Вратите ваше податке када заборавите лозинку.
+rk-content-reset-data = Зашто ресетовање лозинке ресетује моје податке?
+rk-cannot-verify-session-2 = Жао нам је, дошло је до проблема приликом потврђивања ваше сесије.
+rk-remove-modal-heading = Уклонити кључ за опоравак?
 
 ## Secondary email sub-section on main Settings page
 
