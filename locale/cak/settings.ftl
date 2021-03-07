@@ -97,10 +97,12 @@ cs-disconnect-sync-heading = Tichup pa Sync
 cs-disconnect-sync-content =
     Ri taq atzij richin okem pa k'amaya'l junelïk xkek'oje' pa re 
     awokisaxel ({ $device }), xa xe chi man xkexim ta chik rik'in ri rub'i' ataqoya'l.
+cs-disconnect-sync-reason = ¿Achike ruma toq k'o chi nichup re okisab'äl?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Re okisab'äl re' jun:
 cs-disconnect-sync-opt-suspicious = Q'ab'axel
 cs-disconnect-sync-opt-lost = Sachon o eleq'an
 cs-disconnect-sync-opt-old = Ri'j o k'exon
