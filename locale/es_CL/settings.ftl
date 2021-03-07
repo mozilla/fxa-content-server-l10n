@@ -340,9 +340,23 @@ tfa-enabled = Autenticación en dos pasos activada
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Añadir
+row-defaults-action-change = Cambiar
+row-defaults-action-disable = Desactivar
+row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activado
+rk-not-set = No establecido
+rk-action-create = Crear
+rk-action-remove = Eliminar
+rk-cannot-refresh = Lo sentimos, hubo un problema al actualizar la clave de recuperación.
+rk-key-removed = Clave de recuperación de cuenta eliminada.
+rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key = Actualizar clave de recuperación
+rk-content-explain = Restaura tu información cuando olvides tu contraseña.
+rk-content-reset-data = ¿Por qué restablecer mi contraseña resetea mis datos?
 
 ## Secondary email sub-section on main Settings page
 
