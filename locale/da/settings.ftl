@@ -70,6 +70,10 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Forbundne tjenester
+cs-description = Alle tjenester, du bruger og er logget ind på.
+cs-cannot-refresh =
+    Der opstod desværre et problem med at opdatere listen over forbundne
+    tjenester.
 cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelsen
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -165,6 +169,9 @@ nav-email-comm = Mail-kommunikation
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Der opstod et problem med at erstatte dine genoprettelseskoder.
+tfa-replace-code-success =
+    Nye koder er blevet oprettet. Opbevar disse engangskoder
+    et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
 tfa-replace-code-success-alert = Genoprettelsesnøgler til kontoen blev opdateret.
 
 ## Avatar change page
@@ -204,6 +211,10 @@ pw-change-stay-safe = Beskyt dig selv — genbrug ikke adgangskoder forskellige 
 pw-change-least-8-chars = Skal indeholde mindst 8 tegn
 pw-change-not-contain-email = Må ikke være din mailadresse
 pw-change-must-match = Ny adgangskode matcher bekræftelsen
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Må ikke findes på denne <linkExternal>liste over almindelige
+    adgangskoder</linkExternal>
 pw-change-cancel-button = Annuller
 pw-change-save-button = Gem
 pw-change-forgot-password-link = Glemt adgangskode?
@@ -224,6 +235,7 @@ delete-account-header =
     .title = Slet konto
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
+delete-account-confirm-title-2 = Du har knyttet din { -product-firefox-account } til { -brand-mozilla }-produkter, der sikrer dit privatliv og øger din produktivitet på nettet:
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
 delete-account-chk-box-1 =
     .label = Bliver alle dine betalte abonnementer annulleret
@@ -336,6 +348,9 @@ tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
 tfa-enter-totp = Indtast nu sikkerhedskoden fra godkendelsesappen.
 tfa-input-enter-totp =
     .label = Indtast sikkerhedskode
+tfa-save-these-codes =
+    Gem disse engangskoder et sikkert sted. Du skal bruge dem, hvis du
+    mister adgangen til din mobile enhed.
 tfa-enter-code-to-confirm =
     Indtast en af dine genoprettelseskoder nu for
     at bekræfte, at du har gemt den. Du skal bruge en kode, hvis du mister din enhed og vil
@@ -380,11 +395,13 @@ rk-enabld = Aktiveret
 rk-not-set = Ikke indstillet
 rk-action-create = Opret
 rk-action-remove = Fjern
+rk-cannot-refresh = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
 rk-key-removed = Genoprettelsesnøgle til kontoen blev fjernet.
 rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 rk-refresh-key = Opdater genoprettelsesnøgle
 rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
 rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
+rk-cannot-verify-session-2 = Der opstod desværre et problem med at bekræfte din session.
 rk-remove-modal-heading = Fjern genoprettelsesnøgle?
 rk-remove-modal-content =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
@@ -394,15 +411,20 @@ rk-remove-modal-content =
 
 se-heading = Sekundær mailadresse
     .header = Sekundær mailadresse
+se-cannot-refresh-email = Der opstod desværre et problem med at opdatere mailadressen.
+se-cannot-resend-code = Der opstod desværre et problem med at sende bekræftelseskoden igen.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } er nu din primære mailadresse.
+se-set-primary-error = Der opstod desværre et problem med at ændre din primære mailadresse.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } blev slettet.
+se-delete-email-error = Der opstod desværre et problem med at slette denne mailadresse.
 se-verify-session = Du skal bekræfte din nuværende session for at udføre denne handling.
+se-verify-session-error = Der opstod desværre et problem med at bekræfte din session.
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern mailadresse
@@ -434,11 +456,18 @@ tfa-row-action-add = Tilføj
 tfa-row-action-disable = Deaktiver
 tfa-row-button-refresh =
     .title = Opdater totrinsgodkendelse
+tfa-row-cannot-refresh =
+    Der opstod desværre et problem med at opdatere
+    totrinsgodkendelse.
 tfa-row-content-explain =
     Undgå at en anden logger ind ved at kræve en
     unik kode, kun du har adgang til.
+tfa-row-cannot-verify-session-2 = Der opstod desværre et problem med at bekræfte din session.
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
+tfa-row-disable-modal-explain =
+    Du kan ikke fortryde denne handling. Du har også
+    mulighed for at <linkExternal>erstatte dine genoprettelseskoder</linkExternal>.
 tfa-row-cannot-disable = Totrinsgodkendelse kunne ikke deaktiveres.
 tfa-row-change-modal-heading = Skift genoprettelseskoder?
 tfa-row-change-modal-confirm = Skift
@@ -457,3 +486,4 @@ auth-error-103 = Forkert adgangskode
 auth-error-110 = Ugyldigt token
 auth-error-138 = Ubekræftet session
 auth-error-155 = TOTP-token ikke fundet
+auth-error-1008 = Din nye adgangskode skal være anderledes

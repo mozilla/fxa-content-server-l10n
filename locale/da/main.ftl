@@ -334,6 +334,7 @@ sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
 ## subscription create
 
 sub-guarantee = 30-dages pengene-tilbage-garanti
+pay-with-heading-other = Vælg betalingsalternativ
 pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
 
