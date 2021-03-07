@@ -436,12 +436,31 @@ se-resend-code =
     ако није у вашем пријемном сандучету или директоријуму за нежељену пошту.
 # Button to make secondary email the primary
 se-make-primary = Подеси као примарно
+se-default-content = Приступите вашем налогу ако не можете да се пријавите на примарну е-пошту.
+se-content-note =
+    Напомена: секундарна е-поште неће вратити ваше податке,
+    требаће вам <a>кључ за опоравак</a> за то.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Аутентификација у два корака
+tfa-row-disabled = Аутентификација у два корака онемогућена.
+tfa-row-enabled = Омогућено
+tfa-row-not-set = Није постављено
+tfa-row-action-add = Додај
+tfa-row-action-disable = Онемогући
+tfa-row-button-refresh =
+    .title = Освежите аутентификацију у два корака
+tfa-row-cannot-refresh =
+    Жао нам је, дошло је до проблема при освежавању
+    аутентификације у два корака.
+tfa-row-content-explain =
+    Спречите неовлашћени приступ вашем налогу
+    захтевањем јединственог кода који имате само ви.
 
 ## Avatar sub-section on main Settings page
 
