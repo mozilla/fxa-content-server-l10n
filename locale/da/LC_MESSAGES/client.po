@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 16:06+0000\n"
-"PO-Revision-Date: 2021-02-19 20:39+0000\n"
+"PO-Revision-Date: 2021-02-20 17:05+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -47,7 +47,7 @@ msgstr "Mailadresse"
 
 #: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
 msgid "Display name"
-msgstr "Vis navn"
+msgstr "Vist navn"
 
 #: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
 msgid "Account picture"
@@ -277,7 +277,7 @@ msgstr "Vælg det navn du vil have vist i Firefox og når du håndterer din kont
 
 #: .es5/views/settings/display_name.js:229
 msgid "Display name updated"
-msgstr "Vis navn opdateret"
+msgstr "Vist navn opdateret"
 
 #: .es5/views/settings/emails.js:127
 msgid "Secondary email removed"
