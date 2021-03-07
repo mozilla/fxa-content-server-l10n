@@ -60,6 +60,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Obtenha o { -brand-firefox } para telemóvel ou tablet
+connect-another-find-fx-mobile =
+    Encontre o { -brand-firefox } na { -google-play } e na { -app-store } ou
+    <br /> <linkExternal>envie uma ligação de transferência para o seu dispositivo.</linkExternal>
 
 ##
 
@@ -67,11 +70,27 @@ connect-another-fx-mobile = Obtenha o { -brand-firefox } para telemóvel ou tabl
 ## Connected services section
 
 cs-heading = Serviços associados
+cs-description = Tudo que o que está a utilizar e a que está ligado.
+cs-cannot-refresh =
+    Pedimos desculpa, mas acorreu um erro ao atualizar a lista 
+    de serviços associados.
+cs-cannot-disconnect = Cliente não encontrado, não foi possível desassociar
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Desligado de { $service }.
 cs-refresh-button =
     .title = Atualizar serviços associados
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Itens em falta ou duplicados?
 cs-disconnect-sync-heading = Desassociar do Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = Os seus dados de navegação irão manter-se no seu dispositivo ({ $device }), mas deixarão de ser mais sincronizados com a sua conta.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
