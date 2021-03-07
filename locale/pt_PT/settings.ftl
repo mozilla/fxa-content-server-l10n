@@ -115,6 +115,11 @@ cs-disconnect-lost-advice-content-2 =
     nas configurações da sua conta. Também deve procurar informações no fabricante 
     do seu dispositivo sobre como apagar os seus dados remotamente.
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
+cs-disconnect-suspicious-advice-content =
+    Se o dispositivo desassociado é, de fato,
+    suspeito, para manter as suas informações seguras, deve alterar a sua palavra-passe 
+    { -product-firefox-account } nas configurações da sua conta. Também deve alterar quaisquer outras
+    palavras-passe que guardou no { -brand-firefox } digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
 
 ##
@@ -146,6 +151,8 @@ header-menu-closed = Menu de navegação do site
 header-back-to-top-link =
     .title = Ir para o topo
 header-title = { -product-firefox-accounts }
+header-switch-title = Mudar para o design clássico
+    .title = ligação para o design clássico
 header-help = Ajuda
 
 ## Settings Nav
@@ -160,6 +167,11 @@ nav-email-comm = Comunicações por e-mail
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Houve um problema ao substituir os seus códigos de recuperação.
+tfa-replace-code-success =
+    Foram criados novos códigos. Guarde estes códigos 
+    de utilização única num lugar seguro - precisará dos mesmos para aceder à sua conta, caso não
+    tenha o seu dispositivo móvel.
+tfa-replace-code-success-alert = Códigos de recuperação de conta atualizados.
 
 ## Avatar change page
 
@@ -183,6 +195,9 @@ avatar-page-rotate-button = Rodar
 avatar-page-camera-error = Não foi possível iniciar a câmara
 avatar-page-new-avatar =
     .alt = nova imagem de perfil
+avatar-page-file-upload-error-2 = Ocorreu um problema ao enviar a sua foto de perfil.
+avatar-page-delete-error-2 = Ocorreu um problema ao eliminar a sua foto de perfil.
+avatar-page-image-too-large-error = O tamanho do ficheiro de imagem é demasiado grande para ser carregado.
 
 ##
 
@@ -191,6 +206,12 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Alterar palavra-passe
+pw-change-stay-safe = Mantenha-se seguro - não reutilize palavras-passe. A sua palavra-passe:
+pw-change-least-8-chars = Tem de ter, pelo menos, 8 carateres
+pw-change-not-contain-email = Não pode ser o seu endereço de e-mail
+pw-change-must-match = Confirmação que a nova palavra-passe corresponde
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = Não deve corresponder a esta lista <linkExternal>de palavras-passe comuns</linkExternal>
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = Esqueceu-se da palavra-passe?
@@ -209,9 +230,14 @@ pw-change-success-alert = Palavra-passe atualizada.
 
 delete-account-header =
     .title = Eliminar conta
+delete-account-step-1-2 = Passo 1 de 2
+delete-account-step-2-2 = Passo 2 de 2
+delete-account-confirm-title-2 = Associou a sua { -product-firefox-account } aos produtos da { -brand-mozilla } que o mantêm seguro e produtivo na Internet:
 delete-account-acknowledge = Por favor, note que, ao eliminar a sua conta:
 delete-account-chk-box-1 =
     .label = Quaisquer subscrições pagas que tenha serão canceladas
+delete-account-chk-box-2 =
+    .label = Poderá perder informações e funcionalidades guardadas dentro dos produtos da { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = A reativação com este e-mail poderá não restaurar a sua informação guardada
 delete-account-chk-box-4 =
@@ -245,14 +271,20 @@ display-name-success-alert = Nome de apresentação atualizado.
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
+recovery-key-created = A sua chave de recuperação foi criada. Certifique-se que guardou a chave num local seguro que consiga encontrar com facilidade mais tarde - irá precisar da chave para recuperar o acesso aos seus dados na eventualidade de se esquecer da sua palavra-passe.
 recovery-key-enter-password =
     .label = Inserir palavra-passe
 recovery-key-page-title =
     .title = Chave de recuperação
+recovery-key-step-1 = Passo 1 de 2
+recovery-key-step-2 = Passo 2 de 2
 recovery-key-success-alert = Chave de recuperação criada.
 
 ## Add secondary email page
 
+add-secondary-email-error = Ocorreu um problema ao criar este e-mail.
+add-secondary-email-page-title =
+    .title = E-mail secundário
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
 
