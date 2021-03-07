@@ -306,6 +306,14 @@ verify-secondary-email-verification-code =
     .label = Introduce el código de verificación
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Por favor, escribe antes de 5 minutos el código de verificación que ha sido enviado a <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } añadido correctamente.
 
 ##
 
@@ -322,7 +330,13 @@ tfa-button-continue = Continuar
 tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
 tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
+tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
+tfa-cannot-verify-code = Ha surgido un problema al verificar tu código de recuperación.
 tfa-incorrect-recovery-code = Código de recuperación incorrecto.
+tfa-enabled = Autenticación en dos pasos activada
+tfa-scan-this-code =
+    Escanea este código QR usando una de <linkExterior>estas
+    aplicaciones de autenticación</linkexternal>.
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
