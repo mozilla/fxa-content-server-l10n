@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 cs-disconnect-advice-confirm = De acuerdo, entendido
 cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desconectado
+cs-disconnect-lost-advice-content-2 =
+    Ya que tu dispositivo fue extraviado o robado, para
+    mantener tu información segura, deberías cambiar tu contraseña de { -product-firefox-account }
+    en la configuración de tu cuenta. También deberíass buscar la información del
+    fabricante del dispositivo sobre cómo borrar tus datos de forma remota.
 cs-disconnect-suspicious-advice-heading = El dispositivo sospechoso ha sido desconectado
 cs-disconnect-suspicious-advice-content =
     Si el dispositivo desconectado es realmente
@@ -168,6 +173,7 @@ tfa-replace-code-success =
     Se han creado nuevos códigos. Guarda estos códigos de
     un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
     cuentas con tu dispositivo móvil.
+tfa-replace-code-success-alert = Códigos de recuperación de cuenta actualizados.
 
 ## Avatar change page
 
@@ -191,6 +197,8 @@ avatar-page-rotate-button = Rotar
 avatar-page-camera-error = No se puede inicializar la cámara
 avatar-page-new-avatar =
     .alt = nueva foto de perfil
+avatar-page-file-upload-error-2 = Ha surgido un problema al subir tu foto de perfil.
+avatar-page-delete-error-2 = Ha surgido un problema borrando tu foto de perfil.
 avatar-page-image-too-large-error = El tamaño del archivo de imagen es demasiado grande para cargarlo.
 
 ##
@@ -228,6 +236,7 @@ delete-account-header =
     .title = Eliminar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a los productos { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
 delete-account-acknowledge = Recuerda que si eliminas tu cuenta:
 delete-account-chk-box-1 =
     .label = Las suscripciones que hayas pagado se cancelarán
@@ -249,8 +258,14 @@ delete-account-delete-button-2 = Eliminar
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nombre para mostrar
+display-name-input =
+    .label = Introduce el nombre para mostrar
 submit-display-name = Guardar
 cancel-display-name = Cancelar
+display-name-update-error = Ha surgido un problema al actualizar tu nombre para mostrar.
+display-name-success-alert = Nombre para mostrar actualizado.
 
 ##
 
@@ -260,13 +275,22 @@ cancel-display-name = Cancelar
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created = Tu clave de recuperación ha sido creada. Asegúrate de guardar la clave en un lugar seguro donde la puedas encontrar más tarde: necesitarás la clave para recuperar el acceso a tus datos si olvidas tu contraseña.
 recovery-key-enter-password =
     .label = Introducir contraseña
 recovery-key-page-title =
     .title = Clave de recuperación
+recovery-key-step-1 = Paso 1 de 2
+recovery-key-step-2 = Paso 2 de 2
+recovery-key-success-alert = Se ha creado la clave de recuperación.
 
 ## Add secondary email page
 
+add-secondary-email-error = Ha surgido un problema al crear este correo electrónico.
+add-secondary-email-page-title =
+    .title = Correo electrónico secundario
+add-secondary-email-enter-address =
+    .label = Escribe tu dirección de correo
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
 
@@ -275,6 +299,7 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Ha surgido un problema al enviar tu código de verificación.
 verify-secondary-email-page-title =
     .title = Correo electrónico secundario
 verify-secondary-email-verification-code =
@@ -284,27 +309,64 @@ verify-secondary-email-verify-button = Verificar
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Eliminar cuenta
 
 ## Two Step Authentication
 
+tfa-title = Autenticación en dos pasos
+tfa-step-1-3 = Paso 1 de 3
+tfa-step-2-3 = Paso 2 de 3
+tfa-step-3-3 = Paso 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Finalizar
+tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
+tfa-incorrect-recovery-code = Código de recuperación incorrecto.
+tfa-button-cant-scan-qr = ¿No puedes escanear el código?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
+tfa-input-enter-totp =
+    .label = Introduce el código de seguridad
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Perfil
+profile-display-name =
+    .header = Nombre para mostrar
+profile-password =
+    .header = Contraseña
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Creado { $date }
+profile-primary-email =
+    .header = Correo electrónico principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Seguridad
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Añadir
+row-defaults-action-change = Cambiar
+row-defaults-action-disable = Desactivar
+row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activado
+rk-not-set = No establecido
+rk-action-create = Crear
+rk-action-remove = Eliminar
+rk-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación.
 
 ## Secondary email sub-section on main Settings page
 
@@ -320,3 +382,4 @@ verify-secondary-email-verify-button = Verificar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-1008 = La nueva contraseña debe ser diferente
