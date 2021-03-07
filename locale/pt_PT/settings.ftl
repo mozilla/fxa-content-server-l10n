@@ -285,6 +285,8 @@ recovery-key-success-alert = Chave de recuperação criada.
 add-secondary-email-error = Ocorreu um problema ao criar este e-mail.
 add-secondary-email-page-title =
     .title = E-mail secundário
+add-secondary-email-enter-address =
+    .label = Inserir endereço de e-mail
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
 
@@ -293,10 +295,17 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Ocorreu um problema ao enviar o código de confirmação.
 verify-secondary-email-page-title =
     .title = E-mail secundário
+verify-secondary-email-verification-code =
+    .label = Introduzir o seu código de confirmação
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Por favor, introduza nos próximos 5 minutos o código de confirmação que foi enviado para <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -321,11 +330,26 @@ tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
 tfa-cannot-verify-code = Houve um problema ao confirmar o seu código de recuperação.
 tfa-incorrect-recovery-code = Código de recuperação inválido
 tfa-enabled = Autenticação de dois passos ativada
+tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <linkExternal>aplicações de autenticação</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Utilize o código { $secret } para configurar a autenticação de dois passos nas 
+    aplicações suportadas.
 tfa-button-cant-scan-qr = Não consegue digitalizar o código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autenticação:
+tfa-enter-totp = Agora introduza o código de segurança da aplicação de autenticação.
 tfa-input-enter-totp =
     .label = Introduzir código de segurança
+tfa-save-these-codes =
+    Guarde estes códigos de utilização única num local seguro para 
+    quando não tiver o seu dispositivo móvel consigo.
+tfa-enter-code-to-confirm =
+    Por favor, introduza agora um dos seus códigos de recuperação para 
+    confirmar que os guardou. Irá precisar de um código se perder o seu dispositivo e quiser
+    aceder à sua conta.
 tfa-enter-recovery-code =
     .label = Introduza um código de recuperação
 
@@ -366,7 +390,11 @@ rk-enabld = Ativado
 rk-not-set = Não definida
 rk-action-create = Criar
 rk-action-remove = Remover
+rk-cannot-refresh = Pedimos desculpa, mas ocorreu um problema ao atualizar a chave de recuperação.
 rk-key-removed = Chave de recuperação de conta removida.
+rk-cannot-remove-key = Não foi possível remover a sua chave de recuperação de conta.
+rk-refresh-key = Atualizar chave de recuperação
+rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
 rk-remove-modal-heading = Remover chave de recuperação?
 
 ## Secondary email sub-section on main Settings page
