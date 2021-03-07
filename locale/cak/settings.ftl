@@ -163,14 +163,18 @@ avatar-page-add-photo-button =
 avatar-page-take-photo = Telesäx wachib'äl
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Tiyuj wachib'äl
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Telesäx chik wachib'äl
 avatar-page-close-button = Titz'apïx
 avatar-page-save-button = Tiyak
 avatar-page-zoom-out-button = Ruch'utinirisaxik rupalem
 avatar-page-zoom-in-button = Tinimirisäx
 avatar-page-rotate-button = Tisetüx
 avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
+avatar-page-new-avatar =
+    .alt = k'ak'a' ruwachib'al ruwäch b'i'aj
 avatar-page-image-too-large-error = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx.
 
 ##
