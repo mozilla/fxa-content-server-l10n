@@ -157,8 +157,12 @@ nav-connected-services = Taq Samaj Ye'okisäx
 
 ## Avatar change page
 
+avatar-page-add-photo = Titz'aqatisäx wachib'äl
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Telesäx wachib'äl
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-close-button = Titz'apïx
