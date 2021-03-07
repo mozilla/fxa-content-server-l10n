@@ -113,6 +113,7 @@ cs-disconnect-advice-confirm = Tamam, anladım
 cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı kesildi
 cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
+cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-sign-out-button = Çıkış yap
 
 ##
@@ -408,6 +409,7 @@ se-remove-email =
 se-refresh-email =
     .title = E-postayı yenile
 se-unverified = doğrulanmamış
+se-resend-code = Doğrulama gerekiyor. Doğrulama kodu gelen kutunuzda ve spam klasörünüzde görünmüyorsa <button>tekrar gönderebilirsiniz</button>.
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza giriş yapamıyorsanız hesabınıza erişin.
