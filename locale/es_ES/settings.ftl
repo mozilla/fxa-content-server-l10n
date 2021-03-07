@@ -412,16 +412,75 @@ se-heading = Correo electrónico secundario
     .header = Correo electrónico secundario
 se-cannot-refresh-email = Lo sentimos, ha surgido un problema al actualizar ese correo.
 se-cannot-resend-code = Lo sentimos, ha surgido un problema al enviar el código de verificación.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } es ahora tu correo principal.
+se-set-primary-error = Lo sentimos, ha surgido un problema al cambiar tu correo principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } eliminado correctamente.
+se-delete-email-error = Lo sentimos, ha surgido un problema al eliminar este correo.
+se-verify-session = Deberás verificar tu sesión actual para realizar esta acción.
+se-verify-session-error = Lo sentimos, ha surgido un problema al verificar tu sesión.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Eliminar correo electrónico
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualizar correo electrónico
+se-unverified = no verificado
+se-resend-code =
+    Se requiere verificación. <button>Reenviar código de verificación</button>,
+    en caso de que no esté en tu bandeja de entrada o carpeta de spam.
+# Button to make secondary email the primary
+se-make-primary = Hacer principal
+se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo principal.
+se-content-note =
+    Nota: un correo electrónico secundario no restaurará tu información — 
+    necesitarás una <a>clave de recuperación</a> para eso.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticación en dos pasos
+tfa-row-disabled = Autenticación en dos pasos desactivada.
+tfa-row-enabled = Activado
+tfa-row-not-set = No establecida
+tfa-row-action-add = Añadir
+tfa-row-action-disable = Desactivar
+tfa-row-button-refresh =
+    .title = Actualizar autenticación en dos pasos
+tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
+tfa-row-content-explain =
+    Evita que otra persona se conecte solicitando un
+    código único al que solo tú tienes acceso.
+tfa-row-cannot-verify-session-2 = Lo sentimos, ha surgido un problema al verificar tu sesión.
+tfa-row-disable-modal-heading = ¿Desactivar la autenticación en dos pasos?
+tfa-row-disable-modal-confirm = Desactivar
+tfa-row-disable-modal-explain =
+    No podrás deshacer esta acción. También
+    tienes la opción de <linkexternal>reemplazar tus códigos de recuperación</linkexternal>.
+tfa-row-cannot-disable = La autenticación en dos pasos no ha podido ser desactivada.
+tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
+tfa-row-change-modal-confirm = Cambiar
+tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Imagen
+avatar-add-link = Añadir
+avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cuenta desconocida
+auth-error-103 = Contraseña incorrecta
+auth-error-110 = Token no válido
+auth-error-138 = Sesión no verificada
+auth-error-155 = Token TOTP no encontrado
 auth-error-1008 = La nueva contraseña debe ser diferente
