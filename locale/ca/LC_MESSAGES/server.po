@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 16:06+0000\n"
-"PO-Revision-Date: 2019-06-25 00:46+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"PO-Revision-Date: 2021-03-07 16:31+0000\n"
+"Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "Cordialment,"
 
 #: lib/senders/templates/passwordChangeRequired.html:5
 msgid "The Firefox accounts team"
-msgstr ""
+msgstr "L'equip de Comptes del Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -284,7 +284,7 @@ msgstr "Heu inhabilitat l'autenticació en dos passos per al compte del Firefox.
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
-msgstr ""
+msgstr "S'ha verificat el compte del Firefox. Ja gairebé heu acabat."
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Teniu alguna pregunta? Visiteu %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1339
 msgid "Secondary email added"
@@ -993,8 +993,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> "
-#~ "i l'<a %(iosLinkAttributes)s>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> i "
+#~ "l'<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'Android i l'iOS."
@@ -1021,8 +1021,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i "
-#~ "l'<a href='%(iosUrl)s'>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
