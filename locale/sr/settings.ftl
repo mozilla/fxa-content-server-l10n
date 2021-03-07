@@ -402,9 +402,25 @@ rk-content-explain = Вратите ваше податке када забор�
 rk-content-reset-data = Зашто ресетовање лозинке ресетује моје податке?
 rk-cannot-verify-session-2 = Жао нам је, дошло је до проблема приликом потврђивања ваше сесије.
 rk-remove-modal-heading = Уклонити кључ за опоравак?
+rk-remove-modal-content =
+    Ако ресетујете лозинку, нећете моћи да користите
+    кључ за опоравак за приступ подацима. Ово се не може поништити.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Секундарна е-пошта
+    .header = Секундарна е-пошта
+se-cannot-refresh-email = Жао нам је, дошло је до проблема приликом освежавања е-поште.
+se-cannot-resend-code = Жао нам је, дошло је до проблема при поновном слању верификационог кода.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } је сада ваша примарна е-пошта.
+se-set-primary-error = Жао нам је, дошло је до проблема при промени ваше примарне е-поште.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } је успешно обрисан.
 
 ##
 
