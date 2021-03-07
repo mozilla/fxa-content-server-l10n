@@ -111,6 +111,7 @@ cs-disconnect-sync-opt-not-say = Söylemek istemiyorum
 
 cs-disconnect-advice-confirm = Tamam, anladım
 cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı kesildi
+cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-sign-out-button = Çıkış yap
 
@@ -198,6 +199,9 @@ pw-change-header =
 pw-change-stay-safe = Güvenliğinizi korumak için aynı parolayı başka yerlerde kullanmayın. Parolanız:
 pw-change-least-8-chars = En az 8 karakter olmalı
 pw-change-not-contain-email = E-posta adresinizle aynı olmamalı
+pw-change-must-match = Yeni parola eşleşme onayı
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = <linkExternal>Sık kullanılan parolalar listesiyle</linkExternal> eşleşmemelidir
 pw-change-cancel-button = İptal
 pw-change-save-button = Kaydet
 pw-change-forgot-password-link = Parolanızı unuttunuz mu?
@@ -218,6 +222,7 @@ delete-account-header =
     .title = Hesabı sil
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
+delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
 delete-account-chk-box-1 =
     .label = Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir
@@ -256,6 +261,7 @@ display-name-success-alert = Görünen ad güncellendi.
 recovery-key-cancel-button = İptal
 recovery-key-close-button = Kapat
 recovery-key-continue-button = Devam et
+recovery-key-created = Kurtarma anahtarınız oluşturuldu. Anahtarı daha sonra kolayca bulabileceğiniz, güvenli bir yerde saklayın. Parolanızı unutursanız verilerinize yeniden ulaşmak için bu anahtara ihtiyacınız olacak.
 recovery-key-enter-password =
     .label = Parolanızı yazın
 recovery-key-page-title =
@@ -314,9 +320,19 @@ tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code = Kurtarma kodunuz doğrulanırken bir sorun oluştu.
 tfa-incorrect-recovery-code = Yanlış kurtarma kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
+tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için { $secret } kodunu kullanın.
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
+tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
+tfa-save-these-codes = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık kodları güvenli bir yerde saklayın.
+tfa-enter-code-to-confirm = Kurtarma kodlarını kaydettiğinizi doğrulamak için şimdi lütfen bu kodlardan birini yazın. Cihazınızı kaybederseniz hesabınıza ulaşmak için bu kodlara ihtiyacınız olacak.
 tfa-enter-recovery-code =
     .label = Bir kurtarma kodu yazın
 
@@ -330,6 +346,10 @@ profile-display-name =
     .header = Görünen ad
 profile-password =
     .header = Parola
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Oluşturma: { $date }
 profile-primary-email =
     .header = Birinci e-posta
 
@@ -357,9 +377,11 @@ rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluşt
 rk-key-removed = Hesap kurtarma anahtarı silindi.
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key = Kurtarma anahtarını yenile
+rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yükleyin.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
 rk-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
+rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
 
 ## Secondary email sub-section on main Settings page
 
@@ -371,6 +393,7 @@ se-cannot-resend-code = Doğrulama kodu yeniden gönderilirken bir sorun oluştu
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } artık birinci e-postanız.
+se-set-primary-error = Üzgünüz, birinci e-postanız değiştirilirken bir sorun oluştu.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -387,6 +410,8 @@ se-refresh-email =
 se-unverified = doğrulanmamış
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
+se-default-content = Birinci e-postanıza giriş yapamıyorsanız hesabınıza erişin.
+se-content-note = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>kurtarma anahtarı</a> kullanmanız gerekiyor.
 
 ##
 
@@ -405,9 +430,11 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
+tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engelleyin.
 tfa-row-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
+tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
 tfa-row-cannot-disable = İki aşamalı doğrulama devre dışı bırakılamadı.
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
