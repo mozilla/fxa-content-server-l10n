@@ -104,6 +104,7 @@ cs-disconnect-sync-opt-not-say = Не ўказваць
 
 cs-disconnect-advice-confirm = Зразумела
 cs-disconnect-lost-advice-heading = Згубленая або скрадзеная прылада адключана
+cs-disconnect-suspicious-advice-heading = Падазроная прылада адлучана
 cs-sign-out-button = Выйсці
 
 ##
@@ -130,9 +131,13 @@ get-data-trio-print =
 
 # HeaderLockup component
 
+header-menu-open = Закрыць меню
+header-menu-closed = Меню навігацыі па сайце
 header-back-to-top-link =
     .title = Вярнуцца ўгару
 header-title = { -product-firefox-accounts }
+header-switch-title = Пераключыцца на класічны дызайн
+    .title = спасылка на класічны дызайн
 header-help = Даведка
 
 ## Settings Nav
@@ -140,20 +145,29 @@ header-help = Даведка
 nav-settings = Налады
 nav-profile = Профіль
 nav-security = Бяспека
+nav-connected-services = Падключаныя паслугі
+nav-paid-subs = Платныя падпіскі
+nav-email-comm = Зносіны па электроннай пошце
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Узнікла праблема пры замене вашых кодаў аднаўлення.
+tfa-replace-code-success-alert = Коды аднаўлення ўліковага запісу абноўлены.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Выява профілю
 avatar-page-add-photo = Дадаць фота
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Зрабіць фота
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo = Выдаліць фота
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Перазняць фота
 avatar-page-close-button = Закрыць
 avatar-page-save-button = Захаваць
 avatar-page-zoom-out-button = Паменшыць
@@ -162,6 +176,7 @@ avatar-page-rotate-button = Павярнуць
 avatar-page-camera-error = Немагчыма ініцыялізаваць камеру
 avatar-page-new-avatar =
     .alt = новая выява профілю
+avatar-page-image-too-large-error = Памер файла выявы занадта вялікі для зацягвання.
 
 ##
 
@@ -170,6 +185,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Змяніць пароль
+pw-change-stay-safe = Заставайцеся ў бяспецы — не выкарыстоўвайце паролі паўторна. Ваш пароль:
 pw-change-least-8-chars = Мусіць быць не менш за 8 сімвалаў
 pw-change-not-contain-email = Не можа быць ваш адрас эл.пошты
 pw-change-must-match = Новы пароль адпавядае пацверджанню
@@ -182,6 +198,7 @@ pw-change-new-password =
     .label = Увядзіце новы пароль
 pw-change-confirm-password =
     .label = Пацвердзіце новы пароль
+pw-change-success-alert = Пароль абноўлены.
 
 ##
 
@@ -206,17 +223,21 @@ delete-account-continue-button = Працягнуць
 delete-account-password-input =
     .label = Увядзіце пароль
 delete-account-cancel-button = Скасаваць
+delete-account-delete-button-2 = Выдаліць
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Бачнае імя
 display-name-input =
     .label = Увядзіце бачнае імя
 submit-display-name = Захаваць
 cancel-display-name = Скасаваць
 display-name-update-error = Узнікла праблема з абнаўленнем бачнага імені.
+display-name-success-alert = Бачнае імя абноўлена.
 
 ##
 
@@ -232,6 +253,7 @@ recovery-key-page-title =
     .title = Ключ аднаўлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
+recovery-key-success-alert = Ключ аднаўлення створаны.
 
 ## Add secondary email page
 
@@ -247,12 +269,21 @@ add-secondary-email-save-button = Захаваць
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Узнікла праблема пры адпраўцы кода пацвярджэння.
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
 verify-secondary-email-verification-code =
     .label = Увядзіце свой код пацверджання
 verify-secondary-email-cancel-button = Скасаваць
 verify-secondary-email-verify-button = Пацвердзіць
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <strong>{ $email }</strong> на працягу 5 хвілін.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } паспяхова дададзены.
 
 ##
 
@@ -269,6 +300,7 @@ tfa-button-continue = Працягнуць
 tfa-button-cancel = Скасаваць
 tfa-button-finish = Гатова
 tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
+tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
 tfa-incorrect-recovery-code = Няправільны код аднаўлення
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
 # This is the image alt text for a QR code.
@@ -331,6 +363,10 @@ rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 se-heading = Дадатковая пошта
     .header = Дадатковая пошта
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } цяпер ваш асноўны адрас электроннай пошты.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
