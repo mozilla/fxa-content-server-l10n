@@ -397,6 +397,7 @@ rk-action-remove = Уклони
 rk-cannot-refresh = Жао нам је, дошло је до проблема приликом освежавања кода за опоравак.
 rk-key-removed = Кључ за опоравак налога је уклоњен.
 rk-cannot-remove-key = Није могуће уклонити ваш кључ за опоравак налога.
+rk-refresh-key = Освежите кључ за опоравак
 
 ## Secondary email sub-section on main Settings page
 
