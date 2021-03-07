@@ -337,11 +337,25 @@ tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExterior>estas
     aplicaciones de autenticación</linkexternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Usa el código { $secret } para configurar la autenticación en dos pasos en las aplicaciones compatibles.
 tfa-button-cant-scan-qr = ¿No puedes escanear el código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp = Ahora introduce el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Introduce el código de seguridad
+tfa-save-these-codes =
+    Guarda estos códigos de un solo uso en un lugar seguro
+    para cuando no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm =
+    Por favor, introduce uno de tus códigos de recuperación ahora para
+    confirmar que los has guardado. Necesitarás un código si pierdes tu dispositivo y quieres
+    acceder a tu cuenta.
+tfa-enter-recovery-code =
+    .label = Escribir un código de recuperación
 
 ##
 
@@ -381,9 +395,23 @@ rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
 rk-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación.
+rk-key-removed = Clave de recuperación de cuenta eliminada.
+rk-cannot-remove-key = No se ha podido eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key = Actualizar la clave de recuperación
+rk-content-explain = Restaura tu información cuando olvides tu contraseña.
+rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
+rk-cannot-verify-session-2 = Lo sentimos, ha surgido un problema al verificar tu sesión.
+rk-remove-modal-heading = ¿Eliminar clave de recuperación?
+rk-remove-modal-content =
+    En caso de que restablezcas tu contraseña, no podrás
+    usar tu clave de recuperación para acceder a tus datos. No puedes deshacer esta acción.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Correo electrónico secundario
+    .header = Correo electrónico secundario
+se-cannot-refresh-email = Lo sentimos, ha surgido un problema al actualizar ese correo.
+se-cannot-resend-code = Lo sentimos, ha surgido un problema al enviar el código de verificación.
 
 ##
 
