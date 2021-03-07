@@ -112,6 +112,7 @@ cs-disconnect-sync-opt-not-say = Man ninwajo' ta ninb'ij
 ##
 
 cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
+cs-disconnect-lost-advice-heading = Eleq'an o sachon okisab'äl chupül
 cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
