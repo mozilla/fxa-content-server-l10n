@@ -42,10 +42,18 @@ product-plan-details-heading = Давайце наладзім вашу падп
 
 ## Product route
 
+product-plan-error =
+    .title = Праблема загрузкі планаў
+product-profile-error =
+    .title = Праблема з загрузкай профілю
+product-customer-error =
+    .title = Праблема з загрузкай кліента
 product-plan-not-found = План не знойдзены
+product-no-such-plan = Няма такога плана для гэтага прадукту.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } выкарыстоўвае Stripe і Paypal для бяспечнай апрацоўкі плацяжоў.
 
 ## payment form
 
@@ -104,10 +112,45 @@ sub-update-total-label = Новая сума
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } штодзень
+        [few] { $amount } кожныя { $intervalCount } дні
+       *[many] { $amount } кожныя { $intervalCount } дзён
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } штотыдзень
+        [few] { $amount } кожныя { $intervalCount } тыдні
+       *[many] { $amount } кожныя { $intervalCount } тыдняў
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } штомесяц
+        [few] { $amount } кожныя { $intervalCount } месяцы
+       *[many] { $amount } кожныя { $intervalCount } месяцаў
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } штогод
+        [few] { $amount } кожныя { $intervalCount } гады
+       *[many] { $amount } кожныя { $intervalCount } гадоў
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } штодзень
+        [few] { $amount } кожныя { $intervalCount } дні
+       *[many] { $amount } кожныя { $intervalCount } дзён
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
