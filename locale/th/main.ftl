@@ -223,12 +223,25 @@ sub-item-cancel-sub = ยกเลิกการบอกรับ
 
 ## subscription create
 
+pay-with-heading-other = เลือกตัวเลือกการชำระเงิน
+pay-with-heading-card-or = หรือชำระด้วยบัตร
+pay-with-heading-card-only = ชำระด้วยบัตร
 
 ## plan-details
 
+plan-details-header = รายละเอียดสินค้า
+plan-details-show-button = แสดงรายละเอียด
+plan-details-hide-button = ซ่อนรายละเอียด
+plan-details-total-label = รวมทั้งหมด
 
 ## payment confirmation
 
+payment-confirmation-alert = คลิกที่นี่เพื่อดาวน์โหลด
+payment-confirmation-heading-bak = ขอบคุณ!
+payment-confirmation-subheading = อีเมลยืนยันได้ถูกส่งไปที่
+payment-confirmation-order-heading = รายละเอียดการสั่งซื้อ
+payment-confirmation-invoice-number = ใบแจ้งหนี้ #{ $invoiceNumber }
+payment-confirmation-details-heading = รายละเอียดการจ่ายเงิน
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
