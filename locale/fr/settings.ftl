@@ -312,6 +312,9 @@ tfa-button-finish = Terminer
 tfa-button-cant-scan-qr = Impossible de scanner le code ?
 tfa-input-enter-totp =
     .label = Saisissez le code de sécurité
+tfa-enter-code-to-confirm = Veuillez saisir l’un de vos codes de récupération maintenant pour confirmer que vous l’avez sauvegardé. Vous aurez besoin d’un code si vous perdez votre appareil et que vous voulez accéder à votre compte.
+tfa-enter-recovery-code =
+    .label = Saisissez un code de récupération
 
 ##
 
@@ -319,6 +322,8 @@ tfa-input-enter-totp =
 ## Profile section
 
 porfile-heading = Profil
+profile-display-name =
+    .header = Nom d’affichage
 profile-password =
     .header = Mot de passe
 # This is a string that shows when the user's password was created.
@@ -345,6 +350,14 @@ row-defaults-status = Aucun
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = Activée
+rk-not-set = Non définie
+rk-action-create = Créer
+rk-action-remove = Supprimer
+rk-cannot-refresh = Oups, un problème est survenu lors de l’actualisation de la clé de récupération.
+rk-key-removed = La clé de récupération du compte a été supprimée.
+rk-cannot-remove-key = La clé de récupération de votre compte n’a pas pu être supprimée.
+rk-refresh-key = Actualiser la clé de récupération
+rk-content-explain = Restauration de vos informations lorsque vous oubliez votre mot de passe.
 
 ## Secondary email sub-section on main Settings page
 
