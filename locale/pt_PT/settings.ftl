@@ -395,12 +395,31 @@ rk-key-removed = Chave de recuperação de conta removida.
 rk-cannot-remove-key = Não foi possível remover a sua chave de recuperação de conta.
 rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
+rk-content-reset-data = Porque redefinir a minha palavra-passe reinicializa os meus dados?
+rk-cannot-verify-session-2 = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão.
 rk-remove-modal-heading = Remover chave de recuperação?
+rk-remove-modal-content =
+    Na eventualidade de redefinir a sua palavra-passe, não conseguirá
+    utilizar a sua chave de recuperação para aceder aos seus dados. Você não pode desfazer esta ação.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = E-mail secundário
     .header = E-mail secundário
+se-cannot-refresh-email = Pedimos desculpa, mas ocorreu um problema ao atualizar esse e-mail.
+se-cannot-resend-code = Pedimos desculpa, mas ocorreu um problema ao reenviar o código de confirmação.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } é agora o seu e-mail principal.
+se-set-primary-error = Pedimos desculpa, mas ocorreu um problema ao alterar o seu e-mail principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } eliminado com sucesso.
+se-delete-email-error = Pedimos desculpa, mas ocorreu um problema ao eliminar este e-mail.
+se-verify-session = Precisa de confirmar a sua sessão atual para realizar esta ação.
+se-verify-session-error = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão.
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover e-mail
@@ -408,8 +427,15 @@ se-remove-email =
 se-refresh-email =
     .title = Atualizar e-mail
 se-unverified = não verificado
+se-resend-code =
+    Verificação necessária. <button>Reenvie o código de verificação</button>
+    se não estiver na sua caixa de entrada ou na pasta de correio não-solicitado.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
+se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
+se-content-note =
+    Nota: um e-mail secundário não irá restaurar os seus dados - irá 
+    necessitar de uma <a>chave de recuperação</a> para isto.
 
 ##
 
@@ -425,8 +451,18 @@ tfa-row-action-add = Adicionar
 tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
     .title = Atualizar a autenticação de dois passos
+tfa-row-cannot-refresh =
+    Pedimos desculpa, mas ocorreu um problema ao atualizar 
+    a autenticação em dois passos.
+tfa-row-content-explain =
+    Impedir que outra pessoa inicie sessão exigindo um
+    código único ao qual apenas você tem acesso.
+tfa-row-cannot-verify-session-2 = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão.
 tfa-row-disable-modal-heading = Desativar a autenticação de dois passos?
 tfa-row-disable-modal-confirm = Desativar
+tfa-row-disable-modal-explain =
+    Não poderá desfazer esta ação. Também
+    tem a opção de <linkExternal>substituir os seus códigos de recuperação</linkExternal>.
 tfa-row-cannot-disable = Não foi possível desativar a autenticação de dois passos.
 tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
