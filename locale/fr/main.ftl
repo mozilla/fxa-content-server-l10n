@@ -88,6 +88,7 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilise Stripe et PayPal pour un traitement sécurisé des paiements.
+payment-legal-link-stripe-paypal = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink> et la <paypalPrivacyLink>politique de confidentialité de PayPal</paypalPrivacyLink>.
 
 ## payment form
 
