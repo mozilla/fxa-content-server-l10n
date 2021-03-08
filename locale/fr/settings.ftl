@@ -393,6 +393,7 @@ rk-content-explain = Restauration de vos informations lorsque vous oubliez votre
 rk-content-reset-data = Pourquoi la réinitialisation de mon mot de passe réinitialise-t-elle aussi mes données ?
 rk-cannot-verify-session-2 = Un problème est survenu lors de la vérification de votre session.
 rk-remove-modal-heading = Supprimer la clé de récupération ?
+rk-remove-modal-content = Si vous réinitialisez votre mot de passe, vous ne pourrez plus utiliser votre clé de récupération pour accéder à vos données. Cette action est irréversible.
 
 ## Secondary email sub-section on main Settings page
 
