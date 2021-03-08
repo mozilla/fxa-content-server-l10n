@@ -140,6 +140,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Titz'apïx k'utsamaj
+header-menu-closed = Ruk'utsamaj okem pa ruk'amaya'l ruxaq
 header-back-to-top-link =
     .title = Titzolin pa rutikirib'al
 header-title = { -product-firefox-accounts }
