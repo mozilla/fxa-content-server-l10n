@@ -79,13 +79,30 @@ cs-cannot-refresh =
     Kojakuyu', xk'oje' jun k'ayewal kik'in ri kicholajem taq samaj
     xe'okisäx.
 cs-cannot-disconnect = Man xilitäj ta ri okisanel, man xchuputäj ta
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Chupun pa { $service }.
+cs-refresh-button =
+    .title = Titzolïx okisan taq samaj
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿La k'a k'o taq ch'akulal nrajo' o ekamulun?
 cs-disconnect-sync-heading = Tichup pa Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Ri taq atzij richin okem pa k'amaya'l junelïk xkek'oje' pa re 
+    awokisaxel ({ $device }), xa xe chi man xkexim ta chik rik'in ri rub'i' ataqoya'l.
+cs-disconnect-sync-reason = ¿Achike ruma toq k'o chi nichup re okisab'äl?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Re okisab'äl re' jun:
 cs-disconnect-sync-opt-suspicious = Q'ab'axel
 cs-disconnect-sync-opt-lost = Sachon o eleq'an
 cs-disconnect-sync-opt-old = Ri'j o k'exon
@@ -95,6 +112,7 @@ cs-disconnect-sync-opt-not-say = Man ninwajo' ta ninb'ij
 ##
 
 cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
+cs-disconnect-lost-advice-heading = Eleq'an o sachon okisab'äl chupül
 cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
@@ -122,6 +140,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Titz'apïx k'utsamaj
+header-menu-closed = Ruk'utsamaj okem pa ruk'amaya'l ruxaq
 header-back-to-top-link =
     .title = Titzolin pa rutikirib'al
 header-title = { -product-firefox-accounts }
@@ -139,16 +158,24 @@ nav-connected-services = Taq Samaj Ye'okisäx
 
 ## Avatar change page
 
+avatar-page-add-photo = Titz'aqatisäx wachib'äl
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Telesäx wachib'äl
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Tiyuj wachib'äl
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Telesäx chik wachib'äl
 avatar-page-close-button = Titz'apïx
 avatar-page-save-button = Tiyak
 avatar-page-zoom-out-button = Ruch'utinirisaxik rupalem
 avatar-page-zoom-in-button = Tinimirisäx
 avatar-page-rotate-button = Tisetüx
 avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
+avatar-page-new-avatar =
+    .alt = k'ak'a' ruwachib'al ruwäch b'i'aj
 avatar-page-image-too-large-error = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx.
 
 ##
@@ -261,6 +288,8 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Ke'ayaka' re jun rokisaxik taq b'itz'ib' pa jun jikïl k'ojlib'äl richin toq
     man k'o ta awik'in ri awoyonib'al.
+tfa-enter-recovery-code =
+    .label = Tatz'ib'aj jun kolonel b'itz'ib'
 
 ##
 
@@ -303,6 +332,8 @@ rk-key-removed = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Ruka'n taqoya'l
+    .header = Ruka'n taqoya'l
 # Button to make secondary email the primary
 se-make-primary = Tichap achi'el nab'ey
 

@@ -83,8 +83,8 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla }는 안전한 결제 처리를 위해 Stripe를 사용합니다.
-payment-legal-link = <a>Stripe 개인 정보 보호 정책</a> 살펴보기
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 Stripe와 Paypal을 사용합니다.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Stripe 개인정보 보호 정책</stripePrivacyLink>과 <paypalPrivacyLink>Paypal 개인정보 보호 정책</paypalPrivacyLink>을 확인하세요.
 
 ## payment form
 
@@ -314,6 +314,9 @@ sub-billing-update-success = 결제 정보가 성공적으로 업데이트되었
 ## subscription create
 
 sub-guarantee = 30 일 환불 보장
+pay-with-heading-other = 결제 방법 선택
+pay-with-heading-card-or = 또는 카드로 결제
+pay-with-heading-card-only = 카드로 결제
 
 ## plan-details
 

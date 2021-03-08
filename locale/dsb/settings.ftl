@@ -111,7 +111,17 @@ cs-disconnect-sync-opt-not-say = Bźez pódaśa
 
 cs-disconnect-advice-confirm = W pórěźe, som zrozměł
 cs-disconnect-lost-advice-heading = Zgubjony abo kšadnjony rěd jo se źělił
+cs-disconnect-lost-advice-content-2 =
+    Dokulaž waš rěd jo se zgubił abo kšadnuł, wy měł wašo gronidło
+    { -product-firefox-account } w swójich kontowych nastajenjach změniś, aby waše informacije
+    wěste źaržał. Wy měł teke za informacijami wót wašogo rědowego zgótowarja
+    pytaś, aby waše daty znazdala wulašował.
 cs-disconnect-suspicious-advice-heading = Suspektny rěd jo se źělił
+cs-disconnect-suspicious-advice-content =
+    Jolic wótźělony rěd jo napšawdu
+    suspektny, wy dejał swójo gronidło { -product-firefox-account } w swójich nastajenjach
+    změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
+    adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
 cs-sign-out-button = Wótzjawiś
 
 ##
@@ -159,6 +169,10 @@ nav-email-comm = E-mailowa komunikacija
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-replace-code-success =
+    Nowe kody su s napórali. Składujśo je za jadnorazowe wužywanje
+    na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
+    swój mobilny rěd.
 tfa-replace-code-success-alert = Kontowe wótnowjeńske kody su se zaktualizěrowali.
 
 ## Avatar change page
@@ -261,6 +275,7 @@ display-name-success-alert = Zwobraznjeńske mě zaktualizěrowane.
 recovery-key-cancel-button = Pśetergnuś
 recovery-key-close-button = Zacyniś
 recovery-key-continue-button = Dalej
+recovery-key-created = Waš wótnowjeński kluc jo se napórał. Składujśo kluc na wěstem městnje, kótarež móžośo pózdźej lažko zasej namakaś – trjebaśo kluc, aby zasej pśistup k swójim datam dostał, jolic sćo zabył swójo gronidło.
 recovery-key-enter-password =
     .label = Gronidło zapódaś
 recovery-key-page-title =
@@ -381,21 +396,30 @@ rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźe
 rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
+rk-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
+rk-remove-modal-content =
+    Jolic wašo gronidło slědk stajaśo, njamóžośo swój
+    wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Druga e-mailowa adresa
     .header = Druga e-mailowa adresa
+se-cannot-refresh-email = Bóžko jo pśi aktualizěrowanju teje e-mailoweje adrese problem nastał.
+se-cannot-resend-code = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } jo něnto waša primarna e-mailowa adresa.
+se-set-primary-error = Bóžko jo pśi změnjanju wašeje primarneje e-mailoweje adrese problem nastał.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } jo se wuspěšnje wulašowała.
 se-delete-email-error = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
+se-verify-session = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł.
+se-verify-session-error = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailowu adresu wótwónoźeś
@@ -403,8 +427,15 @@ se-remove-email =
 se-refresh-email =
     .title = E-mailowu adresu aktualizěrowaś
 se-unverified = njewobkšuśony
+se-resend-code =
+    Wobkšuśenje trjebne. <button>Sćelśo wobkšuśeński kod znowego</button>,
+    jolic njejo we wašom zarědniku dochada pósta abo w spamowem zarědniku.
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy cyniś
+se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se pla swójeje primarneje e-mailoweje adrese pśizjawiś.
+se-content-note =
+    Pokazka: Sekundarna e-mailowa adresa waše informacije njewótnowijo – trjebaśo
+    <a>wótnowjeński kluc</a> za to.
 
 ##
 
@@ -420,8 +451,18 @@ tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
 tfa-row-button-refresh =
     .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
+tfa-row-cannot-refresh =
+    Bóžko jo pśi aktualizěrowanju dwójokšacoweje
+    awtentifikacije problem nastał.
+tfa-row-content-explain =
+    Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
+    aby zajźował tomu, až se něchten drugi pśizjawja.
+tfa-row-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
+tfa-row-disable-modal-explain =
+    Njamóžośo toś tu akciju anulěrowaś. Maśo teke
+    móžnosć <linkExternal>swój wótnowjeńske kody wuměniś</linkExternal>.
 tfa-row-cannot-disable = Dwójokšacowa awtentifikacija njedajo se znjemóžniś.
 tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś

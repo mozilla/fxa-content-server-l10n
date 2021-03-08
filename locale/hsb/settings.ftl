@@ -117,6 +117,11 @@ cs-disconnect-lost-advice-content-2 =
     wěste dźeržał. Wy měł tež za informacijemi wot wašeho gratoweho zhotowjerja
     pytać, zo by waše daty wotdaloka zhašał.
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
+cs-disconnect-suspicious-advice-content =
+    Jeli wotdźěleny grat je woprawdźe
+    podhladny, wy dyrbjał swoje hesło { -product-firefox-account } w swojich nastajenjach
+    změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
+    adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
 
 ##

@@ -21,6 +21,9 @@
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Účet Firefox
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Účet Firefox
 product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor = Firefox Monitor
 
@@ -56,6 +59,10 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Získajte { -brand-firefox(case: "acc") } na mobil alebo tablet
+connect-another-find-fx-mobile =
+    Nájdite { -brand-firefox } na { -google-play } a v { -app-store } alebo
+    <br /><linkExternal>si nechajte poslať odkaz na svoje zariadenie.</linkExternal>
 
 ##
 
@@ -101,7 +108,11 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Zavrieť ponuku
+header-back-to-top-link =
+    .title = Návrat hore
 header-title = { -product-firefox-accounts }
+header-switch-title = Prepnúť na klasický vzhľad
+    .title = odkaz na klasický vzhľad
 header-help = Pomocník
 
 ## Settings Nav
@@ -109,6 +120,7 @@ header-help = Pomocník
 nav-settings = Nastavenia
 nav-profile = Profil
 nav-security = Bezpečnosť
+nav-connected-services = Pripojené služby
 nav-paid-subs = Predplatné
 
 ## Two Step Authentication - replace recovery code
@@ -127,11 +139,16 @@ avatar-page-take-photo-button =
 avatar-page-remove-photo = Odstrániť fotografiu
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Znovu urobiť fotografiu
 avatar-page-close-button = Zavrieť
 avatar-page-save-button = Uložiť
 avatar-page-zoom-out-button = Oddialiť
 avatar-page-zoom-in-button = Priblížiť
+avatar-page-rotate-button = Otočiť
 avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
+avatar-page-new-avatar =
+    .alt = nová profilová fotka
+avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je príliš veľký.
 
 ##
 
@@ -140,6 +157,11 @@ avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
 
 pw-change-header =
     .title = Zmeniť heslo
+pw-change-stay-safe = Zostaňte v bezpečí - nepoužívajte rovnaké heslá. Vaše heslo:
+pw-change-least-8-chars = Musí mať aspoň 8 znakov
+pw-change-not-contain-email = Nesmie byť totožné s vašou e-mailovou adresou
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = Nie je v <linkExternal>zozname bežných hesiel</linkExternal>
 pw-change-cancel-button = Zrušiť
 pw-change-save-button = Uložiť
 pw-change-forgot-password-link = Zabudli ste heslo?
@@ -283,13 +305,19 @@ tfa-row-heading =
 tfa-row-disabled = Dvojstupňové overenie je vypnuté.
 tfa-row-action-add = Pridať
 tfa-row-change-modal-confirm = Zmeniť
+tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Obrázok
 avatar-add-link = Pridať
 avatar-change-link = Zmeniť
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Neznámy účet
+auth-error-103 = Nesprávne heslo
+auth-error-110 = Neplatný token
+auth-error-138 = Neoverená relácia
+auth-error-155 = Token TOTP sa nenašiel
 auth-error-1008 = Staré a nové heslo sa musia líšiť

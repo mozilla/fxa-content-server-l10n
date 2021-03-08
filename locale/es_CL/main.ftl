@@ -88,6 +88,7 @@ product-no-such-plan = No existe ese plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-paypal = { -brand-name-mozilla } usa Stripe y Paypal para el procesamiento seguro de pagos.
+payment-legal-link-stripe-paypal = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de Paypal</paypalPrivacyLink>.
 
 ## payment form
 
