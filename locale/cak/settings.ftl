@@ -152,6 +152,7 @@ nav-settings = Taq nuk'ulem
 nav-profile = Ruwäch b'i'aj
 nav-security = Jikomal
 nav-connected-services = Taq Samaj Ye'okisäx
+nav-email-comm = Tzijonem pa taqoya'l
 
 ## Two Step Authentication - replace recovery code
 
