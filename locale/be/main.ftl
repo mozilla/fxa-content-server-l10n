@@ -151,12 +151,36 @@ sub-plan-price-day =
         [few] { $amount } кожныя { $intervalCount } дні
        *[many] { $amount } кожныя { $intervalCount } дзён
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } штотыдзень
+        [few] { $amount } кожныя { $intervalCount } тыдні
+       *[many] { $amount } кожныя { $intervalCount } тыдняў
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } штомесяц
+        [few] { $amount } кожныя { $intervalCount } месяцы
+       *[many] { $amount } кожныя { $intervalCount } месяцаў
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } штогод
+        [few] { $amount } кожныя { $intervalCount } гады
+       *[many] { $amount } кожныя { $intervalCount } гадоў
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Наступная аплата { $date }
 
 ##
 
+pay-update-card-exp = Заканчваецца { $expirationDate }
+pay-update-change-btn = Змяніць
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -171,9 +195,14 @@ reactivate-success-button = Закрыць
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = Паспрабуйце пазней, калі ласка.
+sub-item-no-such-plan = Няма такога плана для гэтай падпіскі.
+sub-item-cancel-sub = Ануляваць падпіску
+sub-item-stay-sub = Пакінуць падпіску
 
 ## subscription route index
 
+sub-route-idx-contact = Звязацца з падтрымкай
 
 ## subscription create
 
