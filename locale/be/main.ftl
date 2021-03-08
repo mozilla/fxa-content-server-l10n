@@ -78,9 +78,13 @@ payment-validate-zip-short = Паштовы індэкс надта каротк
 ## subscription redirect
 
 sub-redirect-ready = Ваша падпіска гатовая
+sub-redirect-copy = Знайдзіце хвілінку, каб расказаць нам пра свой досвед.
+sub-redirect-skip-survey = Не, дзякуй, проста пераключыце мяне на мой прадукт.
 
 ## fields
 
+default-input-error = Гэта поле абавязковае
+input-error-is-required = { $label } абавязковае
 
 ## subscription upgrade
 
@@ -90,6 +94,12 @@ sub-redirect-ready = Ваша падпіска гатовая
 
 ##
 
+sub-update-submit = Пацвердзіць абнаўленне
+sub-update-indicator =
+    .aria-label = індыкатар абнаўлення
+sub-update-current-plan-label = Цяперашні план
+sub-update-new-plan-label = Новы план
+sub-update-total-label = Новая сума
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -111,6 +121,8 @@ sub-redirect-ready = Ваша падпіска гатовая
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Дзякуй! Усё гатова.
+reactivate-success-button = Закрыць
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
