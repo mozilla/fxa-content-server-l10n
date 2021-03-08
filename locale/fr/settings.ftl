@@ -251,13 +251,13 @@ delete-account-delete-button-2 = Supprimer
 ## Display name page
 
 display-name-page-title =
-    .title = Nom à afficher
+    .title = Nom d’affichage
 display-name-input =
     .label = Saisissez le nom à afficher
 submit-display-name = Enregistrer
 cancel-display-name = Annuler
 display-name-update-error = Un problème est survenu lors de la mise à jour de votre nom d’affichage.
-display-name-success-alert = Nom affiché mis à jour.
+display-name-success-alert = Nom d’affichage mis à jour.
 
 ##
 
