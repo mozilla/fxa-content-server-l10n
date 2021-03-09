@@ -100,6 +100,9 @@ input-error-is-required = { $label } абавязковае
 
 ## subscription upgrade
 
+sub-update-title = Плацежная інфармацыя
+sub-update-card-ending = Заканчэнне карты { $last }
+sub-update-card-exp = Тэрмін дзеяння канчаецца { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -189,6 +192,7 @@ pay-update-change-btn = Змяніць
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Хочаце працягваць карыстацца { $name }?
 
 ##  $date (Date) - Last day of product access
 
@@ -210,12 +214,21 @@ sub-route-idx-contact = Звязацца з падтрымкай
 
 ## subscription create
 
+pay-with-heading-other = Абярыце варыянт аплаты
+pay-with-heading-card-or = Або аплаціць картай
+pay-with-heading-card-only = Аплаціць картай
 
 ## plan-details
 
+plan-details-header = Інфармацыя аб прадукце
+plan-details-show-button = Паказаць падрабязнасці
+plan-details-hide-button = Схаваць падрабязнасці
+plan-details-total-label = Усяго
 
 ## payment confirmation
 
+payment-confirmation-alert = Націсніце, каб сцягнуць
+payment-confirmation-mobile-alert = Не адкрылася праграма? <a>Націсніце тут</a>
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
