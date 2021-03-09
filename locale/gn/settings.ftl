@@ -117,6 +117,11 @@ cs-disconnect-lost-advice-content-2 =
     ne mba’ete ñembohekópe. Avei eheva’erã pe marandu
     mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã mombyry guive.
 cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
+cs-disconnect-suspicious-advice-content =
+    Pe mba’e’oka pe’apyre ehecháramo
+    ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-firefox-account } pegua
+    ne mba’ete ñembohekópe. Avei emoambue oimeraẽva ambue
+    ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
 
 ##
