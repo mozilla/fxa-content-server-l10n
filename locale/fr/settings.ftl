@@ -205,6 +205,7 @@ pw-change-header =
 pw-change-stay-safe = Restez en sécurité — ne réutilisez pas les mots de passe. Votre mot de passe :
 pw-change-least-8-chars = Doit être long d’au moins 8 caractères
 pw-change-not-contain-email = Doit être différent de votre adresse électronique
+pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = Ne doit pas figurer dans <linkExternal>cette liste de mots de passe trop courants</linkExternal>
 pw-change-cancel-button = Annuler
