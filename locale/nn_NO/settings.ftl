@@ -103,12 +103,20 @@ header-help = Hjelp
 
 ## Avatar change page
 
+avatar-page-save-button = Lagre
+avatar-page-zoom-out-button = Zoom ut
+avatar-page-zoom-in-button = Zoom inn
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Endra passord
+pw-change-cancel-button = Avbryt
+pw-change-save-button = Lagre
+pw-change-forgot-password-link = Gløymt passordet?
 
 ##
 
