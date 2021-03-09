@@ -87,8 +87,7 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } brukar Stripe for sikker betalingsprosessering.
-payment-legal-link = Les <a>personvernerklæringa til Stripes</a>.
+payment-legal-copy-stripe-paypal = { -brand-name-mozilla } brukar Stripe og PayPal for sikker betalingsprosessering.
 
 ## payment form
 
@@ -333,6 +332,9 @@ sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
 ## subscription create
 
 sub-guarantee = 30-dagar pengane-tilbake-garanti
+pay-with-heading-other = Vel betalingsalternativ
+pay-with-heading-card-or = Eller betal med kort
+pay-with-heading-card-only = Betal med kort
 
 ## plan-details
 
