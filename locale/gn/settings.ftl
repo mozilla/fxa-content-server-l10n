@@ -111,6 +111,11 @@ cs-disconnect-sync-opt-not-say = Nda’eséinte
 
 cs-disconnect-advice-confirm = Oĩma, aikumbýma
 cs-disconnect-lost-advice-heading = Pe mba’e’oka kañymby térã mondapyre ojepe’áma
+cs-disconnect-lost-advice-content-2 =
+    Ojehechávo ne mba’e’oka okañy térã oñemonaha, ereko
+    hag̃ua ne marandu tekorosãme, emoambue ñe’ẽñemi { -product-firefox-account } pegua
+    ne mba’ete ñembohekópe. Avei eheva’erã pe marandu
+    mba’e’oka apoharégui mba’éicapa emboguéta ne mba’ekuaarã mombyry guive.
 cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
 cs-sign-out-button = Emboty tembiapo
 
