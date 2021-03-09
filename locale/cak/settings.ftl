@@ -213,6 +213,9 @@ pw-change-success-alert = Xk'extäj ri ewan tzij.
 
 delete-account-header =
     .title = Tiyuj rub'i' taqoya'l
+delete-account-step-1-2 = 1 xak richin 2
+delete-account-step-2-2 = 2 xak richin 2
+delete-account-confirm-title-2 = Xawokisaj ri { -product-firefox-account } kik'in ri taq rutikomal { -brand-mozilla }, ri nub'än chi e jikïl chuqa' e tiköy pa ajk'amaya'l:
 delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:
 delete-account-chk-box-1 =
     .label = Ri tz'ib'anïk b'i'aj e'atojon xkeyuj el
