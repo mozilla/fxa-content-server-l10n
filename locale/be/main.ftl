@@ -214,6 +214,7 @@ sub-route-idx-contact = Звязацца з падтрымкай
 
 ## subscription create
 
+sub-guarantee = 30-дзённая гарантыя вяртання грошай
 pay-with-heading-other = Абярыце варыянт аплаты
 pay-with-heading-card-or = Або аплаціць картай
 pay-with-heading-card-only = Аплаціць картай
@@ -229,6 +230,14 @@ plan-details-total-label = Усяго
 
 payment-confirmation-alert = Націсніце, каб сцягнуць
 payment-confirmation-mobile-alert = Не адкрылася праграма? <a>Націсніце тут</a>
+payment-confirmation-heading = Дзякуй, { $displayName }!
+payment-confirmation-heading-bak = Дзякуй!
+payment-confirmation-subheading = Электронны ліст з пацверджаннем быў адпраўлены на
+payment-confirmation-order-heading = Падрабязнасці замовы
+payment-confirmation-billing-heading = Рахунак выстаўлены на
+payment-confirmation-details-heading = Рэквізіты аплаты
+payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-preview = канчаецца на { $last4 }
