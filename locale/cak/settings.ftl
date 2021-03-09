@@ -156,9 +156,13 @@ nav-email-comm = Tzijonem pa taqoya'l
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Xk'ulwachitäj jun sachoj toq yek'ex ri kolonel taq b'itz'ib'
+tfa-replace-code-success-alert = Xek'ex ri kolonel taq rub'itz'ib' rub'i' taqoya'l.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Ruwachib'al ruwäch b'i'aj
 avatar-page-add-photo = Titz'aqatisäx wachib'äl
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
@@ -177,6 +181,8 @@ avatar-page-rotate-button = Tisetüx
 avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
 avatar-page-new-avatar =
     .alt = k'ak'a' ruwachib'al ruwäch b'i'aj
+avatar-page-file-upload-error-2 = Xk'ulwachitäj jun k'ayewal toq nijotob'äx ri ruwachib'al ruwäch b'i'aj.
+avatar-page-delete-error-2 = Xk'ulwachitäj jun k'ayewal toq niyuj ri ruwachib'al ruwäch b'i'aj.
 avatar-page-image-too-large-error = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx.
 
 ##
@@ -188,9 +194,12 @@ pw-change-header =
     .title = Tijal ewan tzij
 pw-change-least-8-chars = K'o chi man xa xe ta tuk'waj 8 taq tz'ib'
 pw-change-not-contain-email = Man tikirel ta nok rochochib'al ataqoya'l
+pw-change-must-match = Nuk'äm ri' ri k'ak'a' ewan tzij rik'in ri jikib'anïk
 pw-change-cancel-button = Tiq'at
 pw-change-save-button = Tiyak
 pw-change-forgot-password-link = ¿La xmestäx ri ewan tzij?
+pw-change-current-password =
+    .label = Titz'ib'äx ewan tzij wakami
 pw-change-new-password =
     .label = Titz'ib'äx ri k'ak'a' ewan atzij
 pw-change-confirm-password =
