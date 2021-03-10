@@ -249,14 +249,35 @@ add-secondary-email-save-button = محفوظ کریں
 
 ## Verify secondary email page
 
+verify-secondary-email-error = توثیقی کوڈ بھیجنے میں ایک دشواری پیدا ہوئی۔
 verify-secondary-email-page-title =
     .title = ثانوی ای میل
+verify-secondary-email-verification-code =
+    .label = اپنا توثیقی کوڈ داخل کریں
+verify-secondary-email-cancel-button = منسوخ کریں
+verify-secondary-email-verify-button = تصدیق کریں
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = براہ کرم 5 منٹ کے اندر توثیقی کوڈ درج کریں، جسے <strong>{ $email }</strong> پر بھیجا گیا تھا۔
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } کامیابی کے ساتھ شامل کیا گیا۔
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = اکاؤنٹ بند کريں
 
 ## Two Step Authentication
 
+tfa-title = دو-مرحلہ کی تصدیق
+tfa-step-1-3 = مرحلہ 3 میں سے 1
+tfa-step-2-3 = مرحلہ 3 میں سے 2
+tfa-step-3-3 = مرحلہ 3 میں سے 3
+tfa-button-continue = جاری رکھیں
+tfa-button-cancel = منسوخ کریں
 
 ##
 
