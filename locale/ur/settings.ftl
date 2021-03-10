@@ -73,6 +73,7 @@ cs-description = ہر وہ چیز جس کا آپ استعمال کر رہے ہی
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = { $service } سے لاگ آؤٹ کر دیا گیا۔
+cs-disconnect-sync-heading = ھمہ وقت سازی سے منقطع کریں
 cs-disconnect-sync-reason =
     اس آلہ کو منقطع کرنے کی
     اصل وجہ کیا ہے؟
@@ -317,15 +318,39 @@ row-defaults-status = کوئی نہیں
 ## Recovery key sub-section on main Settings page
 
 rk-enabld = فعال شدہ
+rk-not-set = سیٹ نہیں ہے
+rk-action-create = بنائیں
+rk-action-remove = ہٹائیں
+rk-remove-modal-heading = بازیافت کلید ہٹائیں؟
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = ثانوی ای میل
+    .header = ثانوی ای میل
+# Button to remove the secondary email
+se-remove-email =
+    .title = ای میل ہٹائیں
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = ای میل ریفریش کریں
+se-unverified = غیر تصدیق شدہ
+# Button to make secondary email the primary
+se-make-primary = بنیادی بنائیں
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = دو-مرحلہ کی تصدیق
+tfa-row-disabled = دو-مرحلہ کی تصدیق کو غیر فعال کر دیا گیا۔
+tfa-row-enabled = فعال شدہ
+tfa-row-not-set = سیٹ نہیں ہے
+tfa-row-action-add = شامل کریں
+tfa-row-action-disable = غیر فعال کریں
+tfa-row-button-refresh =
+    .title = دو-مرحلہ کی تصدیق کو ریفریش کریں
 
 ## Avatar sub-section on main Settings page
 
