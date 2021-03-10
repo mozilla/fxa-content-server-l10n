@@ -287,6 +287,10 @@ tfa-incorrect-totp = ٹو فیکٹر اوتھینٹیکیشن کوڈ غلط ہے
 tfa-cannot-retrieve-code = آپ کے کوڈ کو بازیافت کرنے میں ایک دشواری پیدا ہوئی۔
 tfa-cannot-verify-code = آپ کے بازیافت کوڈ کی تصدیق کرنے میں ایک دشواری سامنے آئ۔
 tfa-incorrect-recovery-code = غلط بازیافت کوڈ
+tfa-enabled = ٹو فیکٹر اوتھینٹیکیشن فعال کر دیا گیا
+tfa-button-cant-scan-qr = کوڈ اسکین نہیں کر پا رہے؟
+tfa-input-enter-totp =
+    .label = سکیورٹی کوڈ داخل کریں
 tfa-enter-recovery-code =
     .label = بازیافت کوڈ داخل کریں
 
@@ -357,9 +361,14 @@ tfa-row-action-add = شامل کریں
 tfa-row-action-disable = غیر فعال کریں
 tfa-row-button-refresh =
     .title = دو-مرحلہ کی تصدیق کو ریفریش کریں
+tfa-row-disable-modal-confirm = غیر فعال کریں
+tfa-row-change-modal-confirm = تبدیل کریں
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = تصویر
+avatar-add-link = لگائیں
+avatar-change-link = تبدیل کریں
 
 ## Auth-server based errors that originate from backend service
 
