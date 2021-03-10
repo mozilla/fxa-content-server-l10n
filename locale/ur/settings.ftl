@@ -209,21 +209,48 @@ delete-account-delete-button-2 = حذف کریں
 
 ## Display name page
 
+display-name-page-title =
+    .title = ظاہری نام
+display-name-input =
+    .label = ظاہری نام داخل کریں
+submit-display-name = محفوظ کریں
+cancel-display-name = منسوخ کریں
+display-name-update-error = آپ کے ظاہری نام کو تبدیل کرنے میں ایک دشواری پیدا ہوئی۔
+display-name-success-alert = ظاہری نام تبدیل کر دیا گیا۔
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = منسوخ کریں
+recovery-key-close-button = بند کریں
+recovery-key-continue-button = جاری رکھیں
+recovery-key-enter-password =
+    .label = پاس ورڈ داخل کریں
+recovery-key-page-title =
+    .title = بازیافت کلید
+recovery-key-step-1 = مرحلہ 2 میں سے 1
+recovery-key-step-2 = مرحلہ 2 میں سے 2
+recovery-key-success-alert = بازیافت کلید بنا دی گئی۔
 
 ## Add secondary email page
 
+add-secondary-email-error = اس ای میل کو بنانے میں ایک دشواری پیدا ہوئی۔
+add-secondary-email-page-title =
+    .title = ثانوی ای میل
+add-secondary-email-enter-address =
+    .label = ایمیل پتہ داخل کریں
+add-secondary-email-cancel-button = منسوخ کریں
+add-secondary-email-save-button = محفوظ کریں
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = ثانوی ای میل
 
 ##
 
