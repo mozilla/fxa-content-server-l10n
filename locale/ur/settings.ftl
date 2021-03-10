@@ -176,12 +176,33 @@ pw-change-header =
 pw-change-stay-safe = محفوظ رہیں - پاس ورڈ دوبارہ استعمال نہ کریں۔ آپ کا پاس ورڈ یہ ہے:
 pw-change-least-8-chars = کم از کم 8 حروف کا ہونا چاہیئے
 pw-change-not-contain-email = آپ کا ای میل پتہ نہیں ہونا چاہئے
+pw-change-must-match = نیا پاس ورڈ تصدیقی پاس ورڈ سے مماثل ہے
+pw-change-cancel-button = منسوخ کریں
+pw-change-save-button = محفوظ کریں
+pw-change-forgot-password-link = پاس ورڈ بھول چکے ہيں؟
+pw-change-current-password =
+    .label = موجودہ پاسورڈ داخل کریں
+pw-change-new-password =
+    .label = نیا پاس ورڈ داخل کریں
+pw-change-confirm-password =
+    .label = نئے پاس ورڈ کی تصدیق کریں
+pw-change-success-alert = پاس ورڈ تبدیل کر دیا گیا۔
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = اکاؤنٹ بند کريں
+delete-account-step-1-2 = مرحلہ 2 میں سے 1
+delete-account-step-2-2 = مرحلہ 2 میں سے 2
+delete-account-close-button = بند کریں
+delete-account-continue-button = جاری رکھیں
+delete-account-password-input =
+    .label = پاس ورڈ داخل کریں
+delete-account-cancel-button = منسوخ کریں
+delete-account-delete-button-2 = حذف کریں
 
 ##
 
