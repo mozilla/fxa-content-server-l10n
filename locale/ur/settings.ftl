@@ -372,3 +372,9 @@ avatar-change-link = تبدیل کریں
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = ‏‏نامعلوم اکاؤنٹ
+auth-error-103 = غلط پاسورڈ
+auth-error-110 = نامنظور کردہ ٹوکن
+auth-error-138 = غیر تصدیق شدہ سیشن
+auth-error-155 = TOTP ٹوکن نہیں ملا
+auth-error-1008 = آپ کا نیا پاس ورڈ مختلف ہونا چاہیئے
