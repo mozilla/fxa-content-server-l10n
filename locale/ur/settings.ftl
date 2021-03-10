@@ -278,24 +278,45 @@ tfa-step-2-3 = مرحلہ 3 میں سے 2
 tfa-step-3-3 = مرحلہ 3 میں سے 3
 tfa-button-continue = جاری رکھیں
 tfa-button-cancel = منسوخ کریں
+tfa-button-finish = ‏‏مکمل کریں
+tfa-incorrect-recovery-code = غلط بازیافت کوڈ
+tfa-enter-recovery-code =
+    .label = بازیافت کوڈ داخل کریں
 
 ##
 
 
 ## Profile section
 
+porfile-heading = پروفائل
+profile-display-name =
+    .header = ظاہری نام
+profile-password =
+    .header = پاس ورڈ
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = { $date } کو بنایا گیا
+profile-primary-email =
+    .header = بنیادی ای میل
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = سلامتی
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = شامل کریں
+row-defaults-action-change = تبدیل کریں
+row-defaults-action-disable = غیر فعال کریں
+row-defaults-status = کوئی نہیں
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = فعال شدہ
 
 ## Secondary email sub-section on main Settings page
 
