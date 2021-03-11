@@ -152,12 +152,30 @@ sub-plan-price-week =
         [few] { $amount } vsake { $intervalCount } tedne
        *[other] { $amount } vsakih { $intervalCount } tednov
     }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mesečno
+        [two] { $amount } vsaka { $intervalCount } meseca
+        [few] { $amount } vsake { $intervalCount } mesece
+       *[other] { $amount } vsakih { $intervalCount } mesecev
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } letno
+        [two] { $amount } vsaki { $intervalCount } leti
+        [few] { $amount } vsaka { $intervalCount } leta
+       *[other] { $amount } vsakih { $intervalCount } let
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Naslednji obračun { $date }
 
 ##
 
+pay-update-card-exp = Poteče { $expirationDate }
 pay-update-change-btn = Spremeni
 
 ## reactivate
@@ -198,6 +216,7 @@ sub-guarantee = 30-dnevno vračilo denarja
 ## plan-details
 
 plan-details-header = Podrobnosti izdelka
+plan-details-show-button = Pokaži podrobnosti
 plan-details-hide-button = Skrij podrobnosti
 plan-details-total-label = Skupaj
 
@@ -207,6 +226,9 @@ payment-confirmation-alert = Kliknite tukaj za prenos
 payment-confirmation-heading-bak = Hvala!
 payment-confirmation-subheading = Potrditvena e-pošta je bila poslana na
 payment-confirmation-order-heading = Podrobnosti naročila
+payment-confirmation-details-heading = Podatki o plačilu
+payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Nadaljuj prenos
