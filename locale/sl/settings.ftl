@@ -298,6 +298,10 @@ verify-secondary-email-verify-button = Potrdi
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = V roku 5 minut vnesite potrditveno kodo, ki je bila poslana na <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } je uspešno dodan.
 
 ##
 
@@ -314,6 +318,8 @@ tfa-button-continue = Nadaljuj
 tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
+tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
+tfa-cannot-verify-code = Prišlo je do napake pri preverjanju vaše obnovitvene kode.
 tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
 tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-button-cant-scan-qr = Ne morete prebrati kode?
@@ -373,6 +379,10 @@ se-cannot-resend-code = Prišlo je do napake pri ponovnem pošiljanju potrditven
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } je zdaj vaš glavni e-poštni naslov.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } je uspešno izbrisan.
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrani e-poštni naslov
@@ -394,7 +404,11 @@ tfa-row-enabled = Omogočeno
 tfa-row-not-set = Ni nastavljeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
+tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
+tfa-row-disable-modal-explain =
+    Tega dejanja ne morete razveljaviti. Imate tudi
+    možnost <linkExternal>zemanjave kod za obnovitev</linkExternal>.
 tfa-row-cannot-disable = Overitve v dveh korakih ni bilo mogoče izključiti.
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
