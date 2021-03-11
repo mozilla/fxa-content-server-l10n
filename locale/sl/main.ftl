@@ -48,10 +48,14 @@ product-plan-not-found = Načrta ni mogoče najti
 
 ## payment legal blurb
 
-payment-legal-link = Oglejte si <a>obvestilo o zasebnosti Stripe</a>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Polno ime
+    .label = Ime, kot je napisano na osebni izkaznici
+payment-cc =
+    .label = Vaša kartica
 payment-ccn =
     .label = Številka kartice
 payment-zip =
@@ -78,6 +82,7 @@ sub-redirect-skip-survey = Ne, hvala, želim k svojemu izdelku.
 ## fields
 
 default-input-error = To polje je obvezno
+input-error-is-required = { $label } je zahtevan podatek
 
 ## subscription upgrade
 
@@ -95,10 +100,58 @@ sub-update-new-plan-label = Nov načrt
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dnevno
+        [two] { $amount } vsaka { $intervalCount } dneva
+        [few] { $amount } vsake { $intervalCount } dni
+       *[other] { $amount } vsakih { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } tedensko
+        [two] { $amount } vsaka { $intervalCount } tedna
+        [few] { $amount } vsake { $intervalCount } tedne
+       *[other] { $amount } vsakih { $intervalCount } tednov
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mesečno
+        [two] { $amount } vsaka { $intervalCount } meseca
+        [few] { $amount } vsake { $intervalCount } mesece
+       *[other] { $amount } vsakih { $intervalCount } mesecev
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } letno
+        [two] { $amount } vsaki { $intervalCount } leti
+        [few] { $amount } vsaka { $intervalCount } leta
+       *[other] { $amount } vsakih { $intervalCount } let
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } dnevno
+        [two] { $amount } vsaka { $intervalCount } dneva
+        [few] { $amount } vsake { $intervalCount } dni
+       *[other] { $amount } vsakih { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } tedensko
+        [two] { $amount } vsaka { $intervalCount } tedna
+        [few] { $amount } vsake { $intervalCount } tedne
+       *[other] { $amount } vsakih { $intervalCount } tednov
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
