@@ -101,6 +101,11 @@ product-no-such-plan = Такого тарифного плану для цьо�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } використовує Stripe та { -brand-name-paypal } для безпечної обробки платежів.
+payment-legal-link-stripe-and-paypal = Перегляньте <stripePrivacyLink>Політику приватності Stripe</stripePrivacyLink> та <paypalPrivacyLink>Політику приватності { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } використовує { -brand-name-paypal } для безпечної обробки платежів.
+payment-legal-link-paypal = Перегляньте <paypalPrivacyLink>Політику приватності { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } використовує Stripe для безпечної обробки платежів.
+payment-legal-link-stripe = Перегляньте <stripePrivacyLink>Політику приватності Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -174,6 +179,7 @@ input-error-is-required = { $label } обов'язково
 
 product-plan-upgrade-heading = Переглянути оновлення
 sub-update-failed = Помилка оновлення тарифного плану
+sub-update-payment-title = Платіжні дані
 sub-update-card-exp = Термін дії закінчується { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Ваш тарифний план зміниться негайно і з вас буде стягнуто скориговану
@@ -371,11 +377,13 @@ plan-details-total-label = Всього
 
 ## payment-processing
 
+payment-processing-message = Зачекайте, поки ми обробимо ваш платіж...
 
 ## payment confirmation
 
 payment-confirmation-alert = Натисніть тут, щоб завантажити
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
+payment-confirmation-thanks-heading = Дякуємо!
 payment-confirmation-order-heading = Подробиці замовлення
 payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
 payment-confirmation-billing-heading = Оплата за
