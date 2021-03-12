@@ -191,6 +191,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Eguenohẽjey ta’ãnga
 avatar-page-close-button = Mboty
 avatar-page-save-button = Ñongatu
+avatar-page-saving-button = Oñongatuhína…
 avatar-page-zoom-out-button = Momichĩ
 avatar-page-zoom-in-button = Mbotuicha
 avatar-page-rotate-button = Mbojere
