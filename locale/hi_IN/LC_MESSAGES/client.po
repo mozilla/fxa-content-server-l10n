@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2021-03-07 16:25+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,19 +111,15 @@ msgstr "अज्ञात खाता.<a href=\"/signup\">साइन अप<
 msgid "Account no longer exists. Recreate it?"
 msgstr "खाता अब मौजूद नहीं है। इसका पुनः निर्माण करे?"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "कृपया एक का चयन करें"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "अन्य"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -160,7 +156,7 @@ msgstr "कूटशब्द फिर डालें"
 msgid "Change"
 msgstr "बदलें"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -178,8 +174,7 @@ msgstr "हमें इस बारे में सुन के खेद �
 
 #: .es5/views/settings/client_disconnect.js:31
 msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
+msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
 
 #: .es5/views/settings/clients.js:60
 msgid "Last seen %(translatedTimeAgo)s"
@@ -419,23 +414,23 @@ msgid "Account verified successfully"
 msgstr "खाता सफलतापूर्वक सत्यापित"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "भुगतान और बिलिंग"
-
-#: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "खाते की समस्याएँ"
-
-#: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "तकनीकी समस्याएं"
-
-#: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
+msgid "payment & billing"
 msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
+msgid "account issues"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
 msgstr ""
 
 #: .es5/models/sync-engines.js:58
@@ -1028,7 +1023,9 @@ msgid "Invalid Token"
 msgstr "अमान्य टोकन"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
@@ -1098,7 +1095,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "कृपया अपने Firefox खाते तक पहुंच प्राप्त करने के लिए एक सुरक्षित स्थान पर संग्रहीत रिकवरी कुंजी का उपयोग करें।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1155,8 +1153,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy."
 msgstr ""
-"<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि "
-"हम आपकी गोपनीयता को सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
+"<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता को "
+"सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1409,11 +1407,11 @@ msgstr ""
 msgid "Legal"
 msgstr "क़ानूनी"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "निजी सूचना"
 
@@ -1484,8 +1482,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी "
-"गोपनीयता की सुरक्षा के लिए आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
+"<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता की सुरक्षा के लिए "
+"आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1643,7 +1641,7 @@ msgstr "अपने फोन पर Firefox इंस्टॉल करने
 msgid "Mobile phone number"
 msgstr "मोबाइल फ़ोन नंबर"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "भेजें"
 
@@ -1688,26 +1686,58 @@ msgid "Why sign in on another device?"
 msgstr "किसी अन्य डिवाइस पर साइन इन क्यों करें?"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "सदस्यताएँ"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "हमसे संपर्क करें"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "आप हमसे किस बारे में संपर्क कर रहे हैं?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "आपको क्या सहायता चाहिए?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "भुगतान और बिलिंग"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "खाते की समस्याएँ"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "तकनीकी समस्याएं"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr ""
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr ""
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr ""
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "विषय (वैकल्पिक)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "समस्या का विवरण"
 
@@ -1929,10 +1959,6 @@ msgstr "नए पुनर्प्राप्ति कोड बनाएं
 msgid "Confirm a recovery code"
 msgstr ""
 
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "सदस्यताएँ"
-
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
 msgstr "प्रबंधित करें..."
@@ -2032,7 +2058,8 @@ msgid "Step 2 of 2: Save Recovery key"
 msgstr "2 का चरण 2: रिकवरी कुंजी सहेजें"
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+msgid ""
+"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 msgstr ""
 
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:8
@@ -2379,6 +2406,9 @@ msgstr ""
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
 
+#~ msgid "Please Select One"
+#~ msgstr "कृपया एक का चयन करें"
+
 #~ msgid "Sign up to get more features:"
 #~ msgstr "अधिक सुविधाओं के लिए साइन अप करें:"
 
@@ -2710,10 +2740,12 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">निजी सूचना</a> "
-#~ "फ़ायरफ़ॉक्स क्लाउड सेवाओं की."
+#~ "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड "
+#~ "सेवाओं की."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "फ़ायरफ़ॉक्स क्लाउड सेवायें"
@@ -2994,9 +3026,7 @@ msgstr ""
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr ""
-#~ "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी "
-#~ "कार्यात्मकता प्रदान करते हैं."
+#~ msgstr "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
@@ -3125,8 +3155,7 @@ msgstr ""
 #~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
 
 #~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr ""
-#~ "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
+#~ msgstr "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
 
 #~ msgid "You are signed in as"
 #~ msgstr "आप निम्न के रूप में साइन इन हैं"

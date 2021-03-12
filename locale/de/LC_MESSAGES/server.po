@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2020-08-21 16:43+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444941374.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr "Erinnerung: Synchronisieren Sie Ihre Geräte."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Die Synchronisierung braucht zwei Geräte. Durch die private Synchronisierung eines anderen Geräts mit Firefox bleiben Ihre Lesezeichen, Passworter und anderen Firefox-Daten überall dort, wo Sie "
 "Firefox verwenden, gleich."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr "Letzte Erinnerung: Synchronisieren Sie Ihre Geräte!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Durch die private Synchronisierung eines anderen Geräts mit Firefox bleiben Ihre Lesezeichen, Passworter und anderen Firefox-Daten überall dort, wo Sie Firefox verwenden, gleich."
 
@@ -38,15 +38,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "Wenn Sie %(productName)s noch nicht heruntergeladen haben, können Sie jetzt alle Funktionen Ihres Abonnements nutzen:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Fragen zu Ihrem Abonnement? Unser <a href=\"%(subscriptionSupportUrl)s\">Hilfe-Team</a> unterstützt Sie gerne."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Fragen zu Ihrem Abonnement? Unser Hilfe-Team unterstützt Sie gerne:"
 
@@ -400,11 +400,6 @@ msgstr "%(invoiceTotal)s am %(invoiceDateOnly)s abgebucht"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "%(cardType)s-Karte endet auf %(lastFour)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr "Nächte Rechnung: %(nextInvoiceDateOnly)s"
 
@@ -442,30 +437,22 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr "Möglicherweise ist Ihre Kreditkarte abgelaufen oder Ihre aktuelle Zahlungsmethode ist veraltet."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "Helfen Sie uns, das Problem zu beheben, indem Sie <a href=\"%(updateBillingUrl)s\">Ihre Zahlungsinformationen</a> innerhalb von drei Tagen aktualisieren."
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "Wenn wir innerhalb von drei Tagen nichts von Ihnen hören, verlieren Sie leider den Zugriff auf %(productName)s."
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
-msgstr "Helfen Sie uns, das Problem zu beheben, indem Sie Ihre Zahlungsinformationen innerhalb von drei Tagen aktualisieren:"
+msgid "Help us fix it by updating your payment information within 24 hours:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr "Vielen Dank, dass Sie Ihr Abonnement von %(productName)s erneuert haben!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr ""
-"Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt %(invoiceTotal)s am %(nextInvoiceDateOnly)s für die %(cardType)s-Karte, die auf %(lastFour)s endet. Ihr "
-"Abonnement wird automatisch jede Abrechnungsperiode erneuert, es sei denn, sie stornieren es vorher."
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -672,6 +659,14 @@ msgstr "IP-Adresse: %(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "Benutzerkonto verwalten:"
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr "%(cardType)s-Karte endet auf %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -890,35 +885,35 @@ msgstr "%(productName)s-Zahlung fehlgeschlagen"
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ihr Abonnement für %(productName)s wurde gekündigt"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonnement von %(productName)s erneuert"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr "%(productName)s-Zahlung erhalten"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s-Zahlung bestätigt"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr "Willkommen bei %(productName)s"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr "%(productName)s herunterladen"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Freundliche Erinnerung: So schließen Sie Ihre Sync-Einrichtung ab"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Letzte Erinnerung: Schließen Sie die Synchronisierungs-Einrichtung ab"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr "Weiteres Gerät synchronisieren"
 
@@ -1006,6 +1001,22 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Neueste Version herunterladen"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "Helfen Sie uns, das Problem zu beheben, indem Sie <a href=\"%(updateBillingUrl)s\">Ihre Zahlungsinformationen</a> innerhalb von drei Tagen aktualisieren."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "Wenn wir innerhalb von drei Tagen nichts von Ihnen hören, verlieren Sie leider den Zugriff auf %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Helfen Sie uns, das Problem zu beheben, indem Sie Ihre Zahlungsinformationen innerhalb von drei Tagen aktualisieren:"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt %(invoiceTotal)s am %(nextInvoiceDateOnly)s für die %(cardType)s-Karte, die auf %(lastFour)s endet. Ihr "
+#~ "Abonnement wird automatisch jede Abrechnungsperiode erneuert, es sei denn, sie stornieren es vorher."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Vielen Dank, dass Sie %(productName)s abonniert haben!"
