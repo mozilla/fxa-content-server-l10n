@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,11 @@ general-error-heading = Powšykna nałožeńska zmólka
 basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 payment-error-1 = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Wopytajśo hyšći raz abo stajśo se z wudawarjom swójeje kórty do zwiska.
 payment-error-2 = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
+payment-error-3 = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+payment-error-retry-button = Hyšći raz wopytaś
+payment-error-manage-subscription-button = Abonoment zastojaś
+country-currency-mismatch = Pjenjeze toś togo abonementa njejsu płaśiwe za kraj, kótaryž jo z wašym płaśenim zwězany.
+currency-currency-mismatch = Bóžko njamóžośo pjenjeze pśeměniś.
 expired-card-error = Zda se, ako by waša kreditna kórta spadnuła. Wopytajśo drugu kórrtu.
 insufficient-funds-error = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 withdrawal-count-limit-exceeded-error = Zda se, ako by wy z toś teju transakciju swój kórtowy limit pśekšocył. Wopytajśo drugu kórtu.
@@ -41,10 +47,8 @@ settings-subscriptions-title = Abonementy
 terms = Wužywańske wuměnjenja
 privacy = Powěźeńka priwatnosći
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Waš abonement konfigurěrowaś
-product-plan-details-heading = Waš abonement konfigurěrowaś
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,8 +99,6 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } Stripe a Paypal za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe-paypal = Cytajśo <stripePrivacyLink>pšawidła priwatnosći Stripe</stripePrivacyLink> a <paypalPrivacyLink>pšawidła priwatnosći Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -174,8 +176,6 @@ input-error-is-required = { $label } jo trjebne
 
 product-plan-upgrade-heading = Pśeglědujśo swóju aktualizaciju
 sub-update-failed = Aktualizěrowanje plana njejo se raźiło
-sub-update-title = Wótliceńske informacije
-sub-update-card-ending = Kórta kóńcy se na { $last }
 sub-update-card-exp = Spadnjo { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Waš plan se ned změnijo, a za zbytk wótliceńskeje periody se wam
@@ -385,13 +385,13 @@ plan-details-show-button = Drobnostki pokazaś
 plan-details-hide-button = Drobnostki schowaś
 plan-details-total-label = Dogromady
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Klikniśo how, aby ześěgnuł
 payment-confirmation-mobile-alert = Nałoženje se njewócynja? <a>Klikniśo how</a>
-payment-confirmation-heading = Wjeliki źěk, { $displayName }!
-payment-confirmation-heading-bak = Wjeliki źěk!
-payment-confirmation-subheading = Wobkšuśeńska mejlka jo se pósłała na
 payment-confirmation-order-heading = Skazańske drobnostki
 payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zliceńka do
@@ -432,5 +432,4 @@ payment-confirmation-amount-year =
         [few] { $amount } kužde { $intervalCount } lěta
        *[other] { $amount } kužde { $intervalCount } lět
     }
-payment-confirmation-cc-preview = kóńcy se na { $last4 }
 payment-confirmation-download-button = Dalej k ześěgnjenjeju
