@@ -384,6 +384,7 @@ payment-processing-message = Зачекайте, поки ми обробимо 
 payment-confirmation-alert = Натисніть тут, щоб завантажити
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
 payment-confirmation-thanks-heading = Дякуємо!
+payment-confirmation-thanks-subheading = На адресу { $email } надіслано електронний лист із підтвердженням з детальними настановами як почати роботу з { $product_name }.
 payment-confirmation-order-heading = Подробиці замовлення
 payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
 payment-confirmation-billing-heading = Оплата за
@@ -421,3 +422,4 @@ payment-confirmation-amount-year =
        *[many] { $amount } кожні { $intervalCount } років
     }
 payment-confirmation-download-button = Продовжити завантаження
+payment-confirmation-cc-card-ending-in = Картка, номер якої закінчується на { $last4 }
