@@ -189,6 +189,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Fénykép újbóli elkészítése
 avatar-page-close-button = Bezárás
 avatar-page-save-button = Mentés
+avatar-page-saving-button = Mentés…
 avatar-page-zoom-out-button = Kicsinyítés
 avatar-page-zoom-in-button = Nagyítás
 avatar-page-rotate-button = Forgatás

@@ -101,6 +101,7 @@ payment-legal-link-stripe-and-paypal = Tekintse meg a <stripePrivacyLink>Stripe 
 payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-paypal = Tekintse meg a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
 payment-legal-copy-stripe = A { -brand-name-mozilla } a Stripe-ot használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-stripe = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink>.
 
 ## payment form
 
@@ -170,6 +171,7 @@ input-error-is-required = { $label } szükséges
 
 product-plan-upgrade-heading = A frissítése áttekintése
 sub-update-failed = Az előfizetés frissítése sikertelen
+sub-update-payment-title = Fizetési információk
 sub-update-card-exp = Lejárat: { $cardExpMonth } / { $cardExpYear }
 sub-update-copy =
     A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
@@ -357,11 +359,14 @@ plan-details-total-label = Összesen
 
 ## payment-processing
 
+payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
 
 ## payment confirmation
 
 payment-confirmation-alert = Kattintson ide a letöltéshez
 payment-confirmation-mobile-alert = Nem nyitotta meg az alkalmazást? <a>Kattintson ide</a>
+payment-confirmation-thanks-heading = Köszönjük!
+payment-confirmation-thanks-subheading = Egy megerősítő e-mailt küldtünk a(z) { $email } címre, amely részletesen ismerteti a { $product_name } használatának elkezdését.
 payment-confirmation-order-heading = Megrendelés részletei
 payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
 payment-confirmation-billing-heading = Számlázva:
@@ -395,3 +400,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } { $intervalCount } évente
     }
 payment-confirmation-download-button = Tovább a letöltéshez
+payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
