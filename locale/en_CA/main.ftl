@@ -95,6 +95,8 @@ product-no-such-plan = No such plan for this product.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } uses Stripe and { -brand-name-paypal } for secure payment processing.
+payment-legal-copy-paypal = { -brand-name-mozilla } uses { -brand-name-paypal } for secure payment processing.
+payment-legal-link-paypal = View the <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
 
 ## payment form
 
@@ -164,6 +166,7 @@ input-error-is-required = { $label } is required
 
 product-plan-upgrade-heading = Review your upgrade
 sub-update-failed = Plan update failed
+sub-update-payment-title = Payment information
 sub-update-card-exp = Expires { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Your plan will change immediately, and you’ll be charged an adjusted
@@ -356,6 +359,8 @@ plan-details-total-label = Total
 
 payment-confirmation-alert = Click here to download
 payment-confirmation-mobile-alert = Didn’t open app? <a>Click Here</a>
+payment-confirmation-thanks-heading = Thank you!
+payment-confirmation-thanks-subheading = A confirmation email has been sent to { $email } with details on how to get started with { $product_name }.
 payment-confirmation-order-heading = Order details
 payment-confirmation-invoice-number = Invoice #{ $invoiceNumber }
 payment-confirmation-billing-heading = Billed to
@@ -389,3 +394,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } every { $intervalCount } years
     }
 payment-confirmation-download-button = Continue to download
+payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
