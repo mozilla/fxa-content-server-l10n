@@ -27,6 +27,8 @@ payment-error-3 = Váratlan hiba történt a fizetése feldolgozása során, pr�
 payment-error-retry-button = Próbálja újra
 payment-error-manage-subscription-button = Saját feliratkozások kezelése
 country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
+currency-currency-mismatch = Sajnáljuk. Nem válthat a pénznemek között.
+returning-paypal-customer-error = Sajnáljuk. Jelenleg csak egy feliratkozása lehet. Nézzen vissza később.
 expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
 insufficient-funds-error = Úgy tűnik, hogy a bankkártyáján kevés a fedezet. Próbálkozzon egy másik kártyával.
 withdrawal-count-limit-exceeded-error = Úgy tűnik, hogy ez a tranzakció túllép a hitelkeretén. Próbálkozzon egy másik kártyával.
@@ -48,6 +50,9 @@ privacy = Adatvédelmi nyilatkozat
 
 ## Subscription titles
 
+subscription-create-title = Állítsa be a feliratkozását
+subscription-success-title = Feliratkozás megerősítése
+subscription-processing-title = Feliratkozás megerősítése…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
