@@ -27,6 +27,8 @@ payment-error-3 = An unexpected error has occured while processing your payment,
 payment-error-retry-button = Try again
 payment-error-manage-subscription-button = Manage my subscription
 country-currency-mismatch = The currency of this subscription is not valid for the country associated with your payment.
+currency-currency-mismatch = Sorry. You can't switch between currencies.
+returning-paypal-customer-error = Sorry. Currently, you can only sign up for one subscription at a time. Please check back soon.
 expired-card-error = It looks like your credit card has expired. Try another card.
 insufficient-funds-error = It looks like your card has insufficient funds. Try another card.
 withdrawal-count-limit-exceeded-error = It looks like this transaction will put you over your credit limit. Try another card.
@@ -48,6 +50,8 @@ privacy = Privacy Notice
 
 ## Subscription titles
 
+subscription-create-title = Set up your subscription
+subscription-success-title = Subscription confirmation
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -90,6 +94,7 @@ product-no-such-plan = No such plan for this product.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } uses Stripe and { -brand-name-paypal } for secure payment processing.
 
 ## payment form
 
