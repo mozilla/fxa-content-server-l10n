@@ -8,6 +8,7 @@
 project-brand = Firefox 帳號
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox 帳號
 
@@ -22,6 +23,8 @@ general-error-heading = 應用程式一般錯誤
 basic-error-message = 某些東西不對勁，請稍候再試一次。
 payment-error-1 = 取得款項授權時發生問題，請再試一次或與您的發卡單位聯繫。
 payment-error-2 = 取得款項授權時發生問題，請與您的發卡單位聯繫。
+payment-error-retry-button = 重試
+payment-error-manage-subscription-button = 管理我的訂閱
 expired-card-error = 您的信用卡已經過期，請改用其他卡片。
 insufficient-funds-error = 您的卡片額度不足，請改用其他卡片。
 withdrawal-count-limit-exceeded-error = 此交易會超過您的卡片可用額度，請改用其他卡片。
@@ -41,10 +44,8 @@ settings-subscriptions-title = 訂閱
 terms = 服務條款
 privacy = 隱私權公告
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = 來設定訂閱吧
-product-plan-details-heading = 來設定訂閱吧
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +88,6 @@ product-no-such-plan = 此產品無此方案。
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } 使用 Stripe 與 Paypal 來安全地處理交易款項。
-payment-legal-link-stripe-paypal = 可在此檢視 <stripePrivacyLink>Stripe 隱私權保護政策</stripePrivacyLink>及<paypalPrivacyLink>Paypal 隱私權保護政策</paypalPrivacyLink>。
 
 ## payment form
 
@@ -158,8 +157,7 @@ input-error-is-required = { $label } 必填
 
 product-plan-upgrade-heading = 確認升級內容
 sub-update-failed = 方案更新失敗
-sub-update-title = 帳務資訊
-sub-update-card-ending = 卡號結尾: { $last }
+sub-update-payment-title = 付款資訊
 sub-update-card-exp = { $cardExpMonth }/{ $cardExpYear } 到期
 sub-update-copy = 您的方案內容會立刻變更，且會向您收取剩餘帳務週期的差額。自 { $startingDate } 起將會向您收取全額。
 
@@ -329,13 +327,14 @@ plan-details-show-button = 顯示詳細資訊
 plan-details-hide-button = 隱藏詳細資訊
 plan-details-total-label = 總計
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = 點擊此處下載
 payment-confirmation-mobile-alert = 應用程式沒有出現嗎？<a>請點擊此處</a>
-payment-confirmation-heading = 感謝 { $displayName }！
-payment-confirmation-heading-bak = 感謝您！
-payment-confirmation-subheading = 已將確認信發送至
+payment-confirmation-thanks-heading = 感謝您！
 payment-confirmation-order-heading = 訂單詳細資訊
 payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人
@@ -368,5 +367,5 @@ payment-confirmation-amount-year =
         [1] 每年 { $amount }
        *[other] 每 { $intervalCount } 年 { $amount }
     }
-payment-confirmation-cc-preview = 卡號末四碼: { $last4 }
 payment-confirmation-download-button = 前往下載
+payment-confirmation-cc-card-ending-in = 卡號末四碼: { $last4 }
