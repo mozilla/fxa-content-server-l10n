@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2020-10-15 12:33+0000\n"
-"Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
+"PO-Revision-Date: 2021-03-12 19:33+0000\n"
+"Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
@@ -73,8 +73,8 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
-"Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik(im) n Firefox. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik(im) n Firefox, nsens ibenkan akk n umiḍan-ik(im). Ad ak(am)-nsuter ad "
-"tesnifleḍ awal-ik(im) uffir i uḍman n tɣellist."
+"Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik(im) n Firefox. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik(im) n Firefox, nsens ibenkan akk n umiḍan-ik(im). Ad ak(am)-nsuter ad tesnifleḍ"
+" awal-ik(im) uffir i uḍman n tɣellist."
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -221,8 +221,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked "
-"usentem n tuqna."
+"Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked usentem"
+" n tuqna."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -435,15 +435,15 @@ msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n lexla
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
-msgstr ""
+msgstr "Ɛiwen-aɣ ad as-d-naf tifrat s <a href=\"%(updateBillingUrl)s\"> uleqqem n telɣut n lexlaṣ-ik </a> deg 24 n yisragen."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "S usḥissef, ma ur aɣ-d-yuwiḍ ara kra sɣur-k deg 24 n yisragen, ad ak-iruḥ unekcum ɣer %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within 24 hours:"
-msgstr ""
+msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n lexlaṣ-ik deg 24ḍ n yisragen:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -659,7 +659,7 @@ msgstr "Sefrek amiḍan:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
@@ -1012,8 +1012,8 @@ msgstr "Sader aneggaru"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma i d-itteddun ad tili d %(invoiceTotal)s ɣer taggara n tkarḍa %(cardType)s deg %(lastFour)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad "
-#~ "imuynet s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ."
+#~ "Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma i d-itteddun ad tili d %(invoiceTotal)s ɣer taggara n tkarḍa %(cardType)s deg %(lastFour)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad imuynet "
+#~ "s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Tanemmirt ɣef ujerred ɣer %(productName)s!"
@@ -1022,28 +1022,28 @@ msgstr "Sader aneggaru"
 #~ msgstr "Tekkseḍ tineggura-a amiḍan-ik Firefox. Ihi, nsefsex ajerred-ik ɣer %(productName)s. Lexlaṣ-ik aneggaru yettwag deg %(invoiceDateOnly)s.%(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Nsefsex ajerred-ik %(productName)s. Axelleṣ-ik aneggaru n $%(invoiceTotal)s yeḍra-d deg %(invoiceDateOnly)s. Ameẓlu-ik ad ikemmel arma d taggar n twala n ufter, win ara yilin deg "
 #~ "%(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken "
-#~ "ad tban ssuma meẓẓiyen i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
+#~ "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken ad "
+#~ "tban ssuma meẓẓiyen i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "$%(invoiceTotal)s yettwafter deg %(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken "
-#~ "ad tban ssuma meqqren i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
+#~ "S ubeddu n ufter i d-iteddu, asmad-id ad ibeddel seg %(paymentAmountOld)s$ yal %(productPaymentCycle)s ɣer %(paymentAmountNew)s$. Imiren ad yernu daɣen deg tikkelt s %(paymentProrated)s$ akken ad "
+#~ "tban ssuma meqqren i wayen ixuṣṣen seg %(productPaymentCycle)s-agi."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Aql-ak teqqneḍ ɣer umiḍan-ik daɣen tzemreḍ ad tebduḍ tunigin s tɣellist."
@@ -1286,11 +1286,11 @@ msgstr "Sader aneggaru"
 #~ msgstr "Wennez awal uffir"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg "
-#~ "yal ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
+#~ "Kra n wussan ɣer deffir, terniḍ amiḍan Firefox, acukan weṛǧin tessentmeṭ. Amiḍan yettwasentmenad isireg ad tkecmeḍ ɣer yiccaren inek, ticṛaḍ n isebtar, awalen inek uffiren akked umazray inek seg yal"
+#~ " ibenk yeqqnen ɣer umiḍan agi. Sentem kan tansa agi imayl akken ad tremdeḍ amiḍan inek."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Tezri dduṛt aya seg mi ternid amiḍan Firefox, acukan weṛgin tesneqdeṭ. Ihi aqlaɣ nettxemmim fell-ak. Sentem tansa agi imayl akken ad tremdeḍ amiḍan inek udiɣ anẓeṛ d akken kulec iteddu."
@@ -1316,8 +1316,7 @@ msgstr "Sader aneggaru"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Tuksa n imayl wis sin %(secondaryEmail)s ittwakkes akken iwata seg umiḍan-ik Firefox. ilγa n teγlist akked unekcum ur ttwaznen ara sya γer zdat γer tansa-agi."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Asenqed n %(secondaryEmail)s idda akken iwata am imayl wis sin i wemiḍan-ik Firafox. Ilγa n tγellist akked isentam n tuqna ad ttwaznen γer i sin n tansiwin sya d assawen."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

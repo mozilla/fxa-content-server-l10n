@@ -8,6 +8,7 @@
 project-brand = Imiḍanen Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Imiḍanen Firefox
 
@@ -22,6 +23,8 @@ general-error-heading = Tuccda n usnas tamatut
 basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 payment-error-1 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Ɛreḍ tikkelt-nniḍen neɣ  nermes adabu amazan n tkarḍa-k•m n usmad.
 payment-error-2 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Nermes adabu amazan n tkarḍa-k•m n usmad.
+payment-error-retry-button = Ɛreḍ tikkelt-nniḍen
+payment-error-manage-subscription-button = Sefrek amulteɣ-inu
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
 withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
@@ -41,10 +44,8 @@ settings-subscriptions-title = Ajerred
 terms = Tiwtilin n useqdec
 privacy = Tasertit n tbaḍnit
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Aha ad nesbadu ajerred-inek/inem
-product-plan-details-heading = Aha ad nesbadu ajerred-inek/inem
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +88,6 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } seqdec Stripe akked Paypal i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe-paypal = Wali <stripePrivacyLink>tasertit n tbaḍnit n Stripe</stripePrivacyLink> akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +157,6 @@ input-error-is-required = { $label } ilaq
 
 product-plan-upgrade-heading = Senqed lqem-inek/inem
 sub-update-failed = Aɣwas n uleqqem ur yeddi ara
-sub-update-title = Talɣut n ufter
-sub-update-card-ending = Taggara n tkarḍa { $last }
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Aɣawas-ik•im ad ibeddel tura kan, tasmekta n tfaturt-ik•im
@@ -343,13 +340,13 @@ plan-details-show-button = Sken talqayt
 plan-details-hide-button = Ffer talqayt
 plan-details-total-label = Asemday
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Sit dagi i usider
 payment-confirmation-mobile-alert = Ur tezmireḍ ara ad d-teldiḍ asnas? <a>Sit dagi</a>
-payment-confirmation-heading = Tanemmirt { $displayName }!
-payment-confirmation-heading-bak = Tanemirt!
-payment-confirmation-subheading = Imayl n usentem yettwazen ɣer
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ifetter ɣer
@@ -382,5 +379,4 @@ payment-confirmation-amount-year =
         [one] { $amount } n useggas
        *[other] { $amount } yal { $intervalCount } aseggas
     }
-payment-confirmation-cc-preview = Ara yekfun deg { $last4 }
 payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
