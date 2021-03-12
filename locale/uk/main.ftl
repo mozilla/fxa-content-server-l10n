@@ -8,6 +8,7 @@
 project-brand = Облікові записи Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Облікові записи Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Загальна помилка програми
 basic-error-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
 payment-error-1 = Гм. Не вдалося перевірити платіж. Спробуйте ще раз або зв’яжіться з емітентом вашої картки.
 payment-error-2 = Гм. Не вдалося підтвердити платіж. Зв’яжіться з емітентом вашої картки.
+payment-error-3 = Під час обробки вашого платежу сталася неочікувана помилка. Повторіть спробу.
+payment-error-retry-button = Спробувати ще раз
+payment-error-manage-subscription-button = Керувати передплатами
+country-currency-mismatch = Валюта цієї передплати недійсна для країни, пов’язаної з вашим платежем.
+currency-currency-mismatch = Перепрошуємо. Ви не можете перемикатися між валютами.
+returning-paypal-customer-error = Перепрошуємо. Наразі ви можете підписатися лише на одну передплату за раз. Перевірте цю можливість пізніше.
 expired-card-error = Схоже, строк дії вашої кредитної картки закінчився. Спробуйте скористатись іншою карткою.
 insufficient-funds-error = Схоже, на вашій картці недостатньо коштів. Спробуйте скористатись іншою карткою.
 withdrawal-count-limit-exceeded-error = Схоже, що після здійснення платежу буде перевищено кредитний ліміт. Спробуйте скористатись іншою карткою.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Передплати
 terms = Умовами використання
 privacy = Повідомлення про приватність
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Налаштуймо вашу передплату
-product-plan-details-heading = Налаштуймо вашу передплату
+subscription-create-title = Налаштуйте передплату
+subscription-success-title = Підтвердження передплати
+subscription-processing-title = Підтвердження передплати...
+subscription-error-title = Помилка підтвердження передплати...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,8 +100,7 @@ product-no-such-plan = Такого тарифного плану для цьо�
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } використовує Stripe та Paypal для безпечної обробки платежів.
-payment-legal-link-stripe-paypal = Перегляньте <stripePrivacyLink>Політику приватності Stripe</stripePrivacyLink> та <paypalPrivacyLink>Політику приватності Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } використовує Stripe та { -brand-name-paypal } для безпечної обробки платежів.
 
 ## payment form
 
@@ -166,8 +174,6 @@ input-error-is-required = { $label } обов'язково
 
 product-plan-upgrade-heading = Переглянути оновлення
 sub-update-failed = Помилка оновлення тарифного плану
-sub-update-title = Платіжна інформація
-sub-update-card-ending = Останні цифри номеру картки { $last }
 sub-update-card-exp = Термін дії закінчується { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Ваш тарифний план зміниться негайно і з вас буде стягнуто скориговану
@@ -363,13 +369,13 @@ plan-details-show-button = Докладніше
 plan-details-hide-button = Приховати подробиці
 plan-details-total-label = Всього
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Натисніть тут, щоб завантажити
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
-payment-confirmation-heading = Дякуємо { $displayName }!
-payment-confirmation-heading-bak = Дякуємо!
-payment-confirmation-subheading = Електронний лист для підтвердження надіслано на адресу
 payment-confirmation-order-heading = Подробиці замовлення
 payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
 payment-confirmation-billing-heading = Оплата за
@@ -406,5 +412,4 @@ payment-confirmation-amount-year =
         [few] { $amount } кожні { $intervalCount } роки
        *[many] { $amount } кожні { $intervalCount } років
     }
-payment-confirmation-cc-preview = останні цифри номера картки { $last4 }
 payment-confirmation-download-button = Продовжити завантаження
