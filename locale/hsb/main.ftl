@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,8 @@ general-error-heading = Powšitkowny nałoženski zmylk
 basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 payment-error-1 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
 payment-error-2 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
+payment-error-retry-button = Hišće raz spytać
+payment-error-manage-subscription-button = Abonement zrjadować
 expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
 insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 withdrawal-count-limit-exceeded-error = Zda so, kaž byšće z tutej transakciju swój kartowy limit překročał. Spytajće druhu kartu.
@@ -41,10 +44,12 @@ settings-subscriptions-title = Abonementy
 terms = Wužiwanske wuměnjenja
 privacy = Zdźělenka priwatnosće
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Waš abonement konfigurować
-product-plan-details-heading = Waš abonement konfigurować
+subscription-create-title = Waš abonement konfigurować
+subscription-success-title = Wobkrućenje abonementa
+subscription-processing-title = Abonement so wobkruća…
+subscription-error-title = Zmylk při wobkrućenju abonementa…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,8 +100,10 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } Stripe a Paypal za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-paypal = Čitajće <stripePrivacyLink>prawidła priwatnosće Stripe</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } Stripe a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe-and-paypal = Čitajće <stripePrivacyLink>prawidła priwatnosće Stripe</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-copy-stripe = { -brand-name-mozilla } Stripe za wěste předźěłowanje płaćenjow wužiwa.
 
 ## payment form
 
@@ -174,8 +181,7 @@ input-error-is-required = { $label } je trěbne
 
 product-plan-upgrade-heading = Přepruwujće swoju aktualizaciju
 sub-update-failed = Aktualizowanje plana njeje so poradźiło
-sub-update-title = Wotličenske informacije
-sub-update-card-ending = Karta kónči so na { $last }
+sub-update-payment-title = Płaćenske informacije
 sub-update-card-exp = Spadnje { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Waš plan so hnydom změni, a za zbytk wotličenskeje periody so wam
@@ -385,13 +391,15 @@ plan-details-show-button = Podrobnosće pokazać
 plan-details-hide-button = Podrobnosće schować
 plan-details-total-label = Dohromady
 
+## payment-processing
+
+payment-processing-message = Prošu čakajće, mjeztym zo waše płaćenje předźěłujemy…
+
 ## payment confirmation
 
 payment-confirmation-alert = Klikńće, zo byšće sćahnył
 payment-confirmation-mobile-alert = Nałoženje so njewočinja? <a>Klikńće tu</a>
-payment-confirmation-heading = Wulki dźak, { $displayName }!
-payment-confirmation-heading-bak = Wulki dźak!
-payment-confirmation-subheading = Wobkrućenska mejlka je so pósłała na
+payment-confirmation-thanks-heading = Wulki dźak!
 payment-confirmation-order-heading = Skazanske podrobnosće
 payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zličbowanka do
@@ -432,5 +440,5 @@ payment-confirmation-amount-year =
         [few] { $amount } kóžde { $intervalCount } lěta
        *[other] { $amount } kóžde { $intervalCount } lět
     }
-payment-confirmation-cc-preview = kónči so na { $last4 }
 payment-confirmation-download-button = Dale k sćehnjenju
+payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last } kónči

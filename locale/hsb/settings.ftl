@@ -191,6 +191,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Znowa fotografować
 avatar-page-close-button = Začinić
 avatar-page-save-button = Składować
+avatar-page-saving-button = Składuje so…
 avatar-page-zoom-out-button = Pomjeńšić
 avatar-page-zoom-in-button = Powjetšić
 avatar-page-rotate-button = Wjerćeć
