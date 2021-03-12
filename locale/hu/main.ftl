@@ -53,6 +53,7 @@ privacy = Adatvédelmi nyilatkozat
 subscription-create-title = Állítsa be a feliratkozását
 subscription-success-title = Feliratkozás megerősítése
 subscription-processing-title = Feliratkozás megerősítése…
+subscription-error-title = Hiba a feliratkozás megerősítésekor…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,6 +96,11 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = A { -brand-name-mozilla } a Stripe-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-stripe-and-paypal = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink> és a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
+payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
+payment-legal-link-paypal = Tekintse meg a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
+payment-legal-copy-stripe = A { -brand-name-mozilla } a Stripe-ot használja a biztonságos fizetésfeldolgozáshoz.
 
 ## payment form
 
