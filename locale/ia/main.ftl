@@ -8,6 +8,7 @@
 project-brand = Contos de Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Contos de Firefox
 
@@ -22,6 +23,7 @@ general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
 payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
 payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
+payment-error-retry-button = Retentar
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
@@ -41,10 +43,8 @@ settings-subscriptions-title = Subscriptiones
 terms = Terminos de servicio
 privacy = Aviso de confidentialitate
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Que nos prepara tu subscription
-product-plan-details-heading = Que nos prepara tu subscription
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +87,7 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilisa Stripe e PayPal pro le elaboration secur del pagamentos.
-payment-legal-link-stripe-paypal = Visualisa le <stripePrivacyLink>Politica de confidentialitate de Stripe</stripePrivacyLink> e le <paypalPrivacyLink>Politica de confidentialitate de PayPal</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
 
 ## payment form
 
@@ -158,8 +157,6 @@ input-error-is-required = { $etiquetta } es necessari
 
 product-plan-upgrade-heading = Revide tu promotion
 sub-update-failed = Actualisation del plano fallite
-sub-update-title = informationes de facturation
-sub-update-card-ending = Carta finiente per { $last }
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Tu plan cambiara immediatemente e te sera debitate un amonta adjustate pro le resto de tu termino de facturation. A partir del { $startingDate } te sera debitate le plen amonta.
 
@@ -335,13 +332,14 @@ plan-details-show-button = Monstrar le detalios
 plan-details-hide-button = Celar le detalios
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Clicca ci pro discargar
 payment-confirmation-mobile-alert = Le app non se aperi? <a>Clicca hic</a>
-payment-confirmation-heading = Gratias { $displayName }!
-payment-confirmation-heading-bak = Gratias
-payment-confirmation-subheading = Un email de confirmation ha essite inviate a
+payment-confirmation-thanks-heading = Gratias!
 payment-confirmation-order-heading = Detalios del ordine
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturate a
@@ -374,5 +372,4 @@ payment-confirmation-amount-year =
         [one] { $amount } cata anno
        *[other] { $amount } cata { $intervalCount } annos
     }
-payment-confirmation-cc-preview = que fini in { $last4 }
 payment-confirmation-download-button = Continuar a discargar
