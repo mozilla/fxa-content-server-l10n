@@ -97,7 +97,7 @@ payment-legal-link-stripe-paypal = Перегляньте <stripePrivacyLink>П�
 ## payment form
 
 payment-name =
-    .placeholder = Повне ім'я
+    .placeholder = Повне ім’я
     .label = Імʼя, зазначене на вашій картці
 payment-cc =
     .label = Ваша картка

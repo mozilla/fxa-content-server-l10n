@@ -313,9 +313,9 @@ delete-account-delete-button-2 = Видалити
 ## Display name page
 
 display-name-page-title =
-    .title = Ім'я для показу
+    .title = Ім’я для показу
 display-name-input =
-    .label = Введіть ім'я для показу
+    .label = Введіть ім’я для показу
 submit-display-name = Зберегти
 cancel-display-name = Скасувати
 display-name-update-error = Виникла проблема при оновленні вашого імені.
@@ -420,7 +420,7 @@ tfa-enter-recovery-code =
 
 porfile-heading = Профіль
 profile-display-name =
-    .header = Ім'я для показу
+    .header = Ім’я для показу
 profile-password =
     .header = Пароль
 # This is a string that shows when the user's password was created.
