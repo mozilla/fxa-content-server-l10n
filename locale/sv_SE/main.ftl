@@ -26,6 +26,9 @@ payment-error-2 = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med
 payment-error-3 = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 payment-error-retry-button = Försök igen
 payment-error-manage-subscription-button = Hantera min prenumeration
+country-currency-mismatch = Prenumerationens valuta är inte giltig för det land som är kopplat till din betalning.
+currency-currency-mismatch = Tyvärr. Du kan inte växla mellan valutor.
+returning-paypal-customer-error = Tyvärr. För närvarande kan du bara registrera dig för en prenumeration i taget. Kom tillbaka snart.
 expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
 insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
@@ -47,6 +50,10 @@ privacy = Sekretesspolicy
 
 ## Subscription titles
 
+subscription-create-title = Konfigurera din prenumeration
+subscription-success-title = Prenumerationsbekräftelse
+subscription-processing-title = Bekräftar prenumerationen...
+subscription-error-title = Fel vid bekräftelse av prenumeration...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -89,6 +96,10 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } använder Stripe och { -brand-name-paypal } för säker betalningshantering.
+payment-legal-link-stripe-and-paypal = Visa sekretesspolicy för <stripePrivacyLink>Stripe</stripePrivacyLink> och <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
+payment-legal-link-paypal = Se sekretesspolicyn för <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 
 ## payment form
 
