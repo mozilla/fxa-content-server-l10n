@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,9 @@ general-error-heading = General application error
 basic-error-message = Something went wrong. Please try again later.
 payment-error-1 = Hmm. There was a problem authorizing your payment. Try again or get in touch with your card issuer.
 payment-error-2 = Hmm. There was a problem authorizing your payment. Get in touch with your card issuer.
+payment-error-3 = An unexpected error has occured while processing your payment, please try again.
+payment-error-manage-subscription-button = Manage my subscription
+country-currency-mismatch = The currency of this subscription is not valid for the country associated with your payment.
 expired-card-error = It looks like your credit card has expired. Try another card.
 insufficient-funds-error = It looks like your card has insufficient funds. Try another card.
 withdrawal-count-limit-exceeded-error = It looks like this transaction will put you over your credit limit. Try another card.
@@ -41,10 +45,8 @@ settings-subscriptions-title = Subscriptions
 terms = Terms of Service
 privacy = Privacy Notice
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Let’s set up your subscription
-product-plan-details-heading = Let’s set up your subscription
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +89,6 @@ product-no-such-plan = No such plan for this product.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } uses Stripe and PayPal for secure payment processing.
-payment-legal-link-stripe-paypal = View the <stripePrivacyLink>Stripe privacy policy</stripePrivacyLink> and <paypalPrivacyLink>PayPal privacy policy</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +158,6 @@ input-error-is-required = { $label } is required
 
 product-plan-upgrade-heading = Review your upgrade
 sub-update-failed = Plan update failed
-sub-update-title = Billing information
-sub-update-card-ending = Card Ending { $last }
 sub-update-card-exp = Expires { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Your plan will change immediately, and you’ll be charged an adjusted
@@ -345,13 +343,13 @@ plan-details-show-button = Show details
 plan-details-hide-button = Hide details
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Click here to download
 payment-confirmation-mobile-alert = Didn’t open app? <a>Click Here</a>
-payment-confirmation-heading = Thank You { $displayName }!
-payment-confirmation-heading-bak = Thank You!
-payment-confirmation-subheading = A confirmation email has been sent to
 payment-confirmation-order-heading = Order details
 payment-confirmation-invoice-number = Invoice #{ $invoiceNumber }
 payment-confirmation-billing-heading = Billed to
@@ -384,5 +382,4 @@ payment-confirmation-amount-year =
         [one] { $amount } yearly
        *[other] { $amount } every { $intervalCount } years
     }
-payment-confirmation-cc-preview = ending in { $last4 }
 payment-confirmation-download-button = Continue to download
