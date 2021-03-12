@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,8 @@ general-error-heading = Tembipuru’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
+payment-error-retry-button = Eha’ãjey
+payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
@@ -41,10 +44,10 @@ settings-subscriptions-title = Mboheraguapy
 terms = Mba’epytyvõrã ñemboguata
 privacy = Marandu’i ñemiguáva
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Rombohekóta ne mboheraguapy
-product-plan-details-heading = Rombohekóta ne mboheraguapy
+subscription-create-title = Ñemboheraguapy ñemboheko
+subscription-success-title = Ñemboheraguapy ñemoneĩ
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +90,6 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } oipuru Stripe ha Paypal ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-paypal = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink> ha <paypalPrivacyLink>Paypal ñemigua purureko</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +159,6 @@ input-error-is-required = Oñeikotevẽ { $label }
 
 product-plan-upgrade-heading = Ehechajey ne mbohekopyahu
 sub-update-failed = Ojavy tembiaporã mbohekopyahu
-sub-update-title = Ñemuhakuatia marandu
-sub-update-card-ending = Kuata’atã opáva { $last }-pe
 sub-update-card-exp = Opáta { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
@@ -345,13 +344,13 @@ plan-details-show-button = Mba’emimi jehechauka
 plan-details-hide-button = Mba’emimi mokañy
 plan-details-total-label = Opavavete
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
 payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
-payment-confirmation-heading = ¡Aguyje { $displayName }!
-payment-confirmation-heading-bak = ¡Aguyje!
-payment-confirmation-subheading = Oñemondo ñanduti veve ñemoneigua amo
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
@@ -384,5 +383,4 @@ payment-confirmation-amount-year =
         [one] { $amount } arygua
        *[other] { $amount } peteĩ { $intervalCount } arygua
     }
-payment-confirmation-cc-preview = opáma { $last4 }-pe
 payment-confirmation-download-button = Emboguejy ehóvo

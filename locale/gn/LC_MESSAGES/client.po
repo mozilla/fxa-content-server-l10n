@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-12 16:34+0000\n"
+"PO-Revision-Date: 2021-03-12 16:39+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -421,7 +421,7 @@ msgstr "mba’ete apañuãi"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "apañuãi aporekóva"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -429,7 +429,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "tysyi’ỹ"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1684,7 +1684,7 @@ msgstr "¿Mba’ére eñepyrũta tembiapo ambue mba’e’okápe?"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Mba’ete Ñepyrũgua"
 
 #: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -1700,7 +1700,7 @@ msgstr "¿Mba’e eporanduséva oréve?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Ikatúiko eiporavo peteĩ"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
