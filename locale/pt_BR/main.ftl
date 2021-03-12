@@ -8,6 +8,7 @@
 project-brand = Contas Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Contas Firefox
 
@@ -22,6 +23,10 @@ general-error-heading = Erro geral na aplicação.
 basic-error-message = Algo deu errado. Tente novamente mais tarde.
 payment-error-1 = Hmm. Houve um problema ao autorizar seu pagamento. Tente novamente ou entre em contato com o emissor do seu cartão.
 payment-error-2 = Hmm. Houve um problema ao autorizar o pagamento. Entre em contato com o emissor do seu cartão.
+payment-error-3 = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
+payment-error-retry-button = Tentar novamente
+payment-error-manage-subscription-button = Gerenciar minha assinatura
+country-currency-mismatch = A moeda desta assinatura não é válida para o país associado ao seu pagamento.
 expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá seu limite de crédito. Tente outro cartão.
