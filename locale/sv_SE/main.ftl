@@ -99,7 +99,9 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } använder Stripe och { -brand-name-paypal } för säker betalningshantering.
 payment-legal-link-stripe-and-paypal = Visa sekretesspolicy för <stripePrivacyLink>Stripe</stripePrivacyLink> och <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-paypal = Se sekretesspolicyn för <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal = Visa sekretesspolicy för <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } använder Stripe för säker betalningshantering.
+payment-legal-link-stripe = Visa sekretesspolicy för <stripePrivacyLink>Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -169,6 +171,7 @@ input-error-is-required = { $label } krävs
 
 product-plan-upgrade-heading = Granska din uppgradering
 sub-update-failed = Planuppdatering misslyckades
+sub-update-payment-title = Betalningsinformation
 sub-update-card-exp = Förfaller { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Din plan kommer att ändras omedelbart och du kommer att debiteras ett justerat
@@ -356,11 +359,14 @@ plan-details-total-label = Totalt
 
 ## payment-processing
 
+payment-processing-message = Vänta medan vi behandlar din betalning...
 
 ## payment confirmation
 
 payment-confirmation-alert = Klicka här för att ladda ner
 payment-confirmation-mobile-alert = Öppnades ingen app? <a>Klicka här</a>
+payment-confirmation-thanks-heading = Tack så mycket!
+payment-confirmation-thanks-subheading = Ett bekräftelsemeddelande har skickats till { $email } med information om hur du kommer igång med { $product_name }.
 payment-confirmation-order-heading = Orderdetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureras till
@@ -394,3 +400,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } var { $intervalCount } år
     }
 payment-confirmation-download-button = Fortsätt till nedladdning
+payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
