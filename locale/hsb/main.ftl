@@ -28,6 +28,7 @@ payment-error-retry-button = Hišće raz spytać
 payment-error-manage-subscription-button = Abonement zrjadować
 country-currency-mismatch = Měna tutoho abonementa za kraj, kotryž je z wašim płaćenjom zwjazany, płaćiwa njeje.
 currency-currency-mismatch = Bohužel njemóžeće měny přeměnić.
+returning-paypal-customer-error = Bohužel móžeće so tuchwilu jenož za jedyn abonement w datym času registrować. Hladajće prošu pózdźe hišće raz za tym.
 expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
 insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 withdrawal-count-limit-exceeded-error = Zda so, kaž byšće z tutej transakciju swój kartowy limit překročał. Spytajće druhu kartu.
@@ -106,7 +107,9 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } Stripe a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
 payment-legal-link-stripe-and-paypal = Čitajće <stripePrivacyLink>prawidła priwatnosće Stripe</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink> pokazać.
 payment-legal-copy-stripe = { -brand-name-mozilla } Stripe za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe = <stripePrivacyLink>Prawidła priwatnosće Stripe</stripePrivacyLink> pokazać.
 
 ## payment form
 
@@ -403,6 +406,7 @@ payment-processing-message = Prošu čakajće, mjeztym zo waše płaćenje před
 payment-confirmation-alert = Klikńće, zo byšće sćahnył
 payment-confirmation-mobile-alert = Nałoženje so njewočinja? <a>Klikńće tu</a>
 payment-confirmation-thanks-heading = Wulki dźak!
+payment-confirmation-thanks-subheading = Wobkrućenska mejlka je so z podrobnosćemi wo tym, kak móžeće z { $product_name } započeć, na { $email } pósłała.
 payment-confirmation-order-heading = Skazanske podrobnosće
 payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zličbowanka do
