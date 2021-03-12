@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2021-02-19 02:56+0000\n"
 "Last-Translator: 你我皆凡人 <eloli@foxmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr "提醒 🔔 您需与其他设备进行同步。"
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "同步至少需要两台设备。请与其他设备同步您的书签、密码与其他 Firefox 数据。私密浏览，更要无缝衔接。"
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr "请与其他设备同步，最后一次提醒！"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "与其他设备同步您的书签、密码与其他 Firefox 数据。私密浏览，更要无缝衔接。"
 
@@ -36,15 +36,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "若您还未下载 %(productName)s，快来开始使用订阅服务中包含的完整功能："
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "遇到订阅相关的问题？我们的<a href=\"%(subscriptionSupportUrl)s\">支持团队</a>在此为您答疑。"
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "遇到订阅相关的问题？我们的支持团队在此为您答疑："
 
@@ -389,11 +389,6 @@ msgstr "已于 %(invoiceDateOnly)s 收取 %(invoiceTotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "尾号为 %(lastFour)s 的 %(cardType)s 卡"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr "下次扣款日：%(nextInvoiceDateOnly)s"
 
@@ -431,28 +426,22 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr "可能是您的信用卡已过期，或目前的付款方式失效了。"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "请在三日内到<a href=\"%(updateBillingUrl)s\">此页面</a>更新付款信息。"
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "若未在三日内更新付款信息，将停止您的 %(productName)s 访问权。"
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
-msgstr "请在三日内更新付款信息："
+msgid "Help us fix it by updating your payment information within 24 hours:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr "感谢您重新激活 %(productName)s 订阅！"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr "您的账单周期与付款信息将保持不变，下次将于 %(nextInvoiceDateOnly)s，对卡号末四位码为 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主动取消之前，将持续自动续订。"
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -657,6 +646,14 @@ msgstr "IP 地址：%(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "管理账号："
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr "尾号为 %(lastFour)s 的 %(cardType)s 卡"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -875,35 +872,35 @@ msgstr "%(productName)s 付款失败"
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "已取消您的 %(productName)s 产品订阅"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr "已重新激活 %(productName)s 个订阅"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr "已收到 %(productName)s 付款"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr "已确认 %(productName)s 付款"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr "欢迎使用 %(productName)s"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr "下载 %(productName)s"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "友情提醒：完成同步设置的步骤"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "最后一次提醒：请完成同步设置"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr "与其他设备同步"
 
@@ -984,6 +981,20 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "下载最新版本"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "请在三日内到<a href=\"%(updateBillingUrl)s\">此页面</a>更新付款信息。"
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "若未在三日内更新付款信息，将停止您的 %(productName)s 访问权。"
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "请在三日内更新付款信息："
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr "您的账单周期与付款信息将保持不变，下次将于 %(nextInvoiceDateOnly)s，对卡号末四位码为 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主动取消之前，将持续自动续订。"
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "感谢您订阅 %(productName)s！"

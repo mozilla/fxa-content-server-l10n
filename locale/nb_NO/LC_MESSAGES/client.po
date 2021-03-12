@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2020-10-12 22:03+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,19 +109,15 @@ msgstr "Ukjent konto. <a href=\"/signup\">Registrer deg</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen finnes ikke lenger. Vil du gjenskape den?"
 
-#: .es5/views/support.js:89
-msgid "Please Select One"
-msgstr "Velg en"
-
-#: .es5/views/support.js:268 .es5/templates/support.mustache:5
+#: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Annet"
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Takk for at du kontaktet Mozilla Support om <b>%(escapedLowercaseTopic)s</b>. Vi kontakter deg via e-post så snart som mulig."
 
-#: .es5/views/support.js:271
+#: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Takk for at du kontaktet Mozilla Support om <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. Vi kontakter deg via e-post så snart som mulig."
 
@@ -158,7 +154,7 @@ msgstr "Gjenta passord"
 msgid "Change"
 msgstr "Bytt"
 
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:11
+#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
 #: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
 #: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
 #: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
@@ -416,24 +412,24 @@ msgid "Account verified successfully"
 msgstr "Konto verifisert"
 
 #: .es5/models/support-form.js:25
-msgid "Payment & billing"
-msgstr "Betaling og fakturering"
+msgid "payment & billing"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Account issues"
-msgstr "Kontoproblemer"
+msgid "account issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Technical issues"
-msgstr "Tekniske problemer"
+msgid "technical issues"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Provide feedback / request features"
-msgstr "Gi tilbakemelding / forespørsel om funksjoner"
+msgid "provide feedback / request features"
+msgstr ""
 
 #: .es5/models/support-form.js:25
-msgid "Not listed"
-msgstr "Ikke listet"
+msgid "not listed"
+msgstr ""
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1415,11 +1411,11 @@ msgstr "Klar"
 msgid "Legal"
 msgstr "Juridisk"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:13 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Vilkår for bruk"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:14
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Personvernerklæring"
 
@@ -1649,7 +1645,7 @@ msgstr "Send en lenke på SMS for å installere Firefox på telefonen."
 msgid "Mobile phone number"
 msgstr "Mobilnummer"
 
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:12
+#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
 msgstr "Send"
 
@@ -1694,26 +1690,58 @@ msgid "Why sign in on another device?"
 msgstr "Hvorfor logge inn på en annen enhet?"
 
 #: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+msgid "Subscriptions"
+msgstr "Abonnement"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
 msgstr "Kontakt oss"
 
-#: .es5/templates/support.mustache:3
+#: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
 msgstr "Hva kontakter du oss om?"
 
-#: .es5/templates/support.mustache:6
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
 msgstr "Hva trenger du hjelp med?"
 
-#: .es5/templates/support.mustache:8
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Betaling og fakturering"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Kontoproblemer"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Tekniske problemer"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Gi tilbakemelding / forespørsel om funksjoner"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Ikke listet"
+
+#: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
 msgstr "Trenger du hjelp med en bestemt app eller tjeneste? (valgfritt)"
 
-#: .es5/templates/support.mustache:9
+#: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
 msgstr "Emne (valgfritt)"
 
-#: .es5/templates/support.mustache:10
+#: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Beskrivelse av problem"
 
@@ -1934,10 +1962,6 @@ msgstr "Opprett nye gjenopprettingskoder"
 #: .es5/templates/settings/recovery_codes.mustache:16
 msgid "Confirm a recovery code"
 msgstr "Bekreft en gjenopprettingskode"
-
-#: .es5/templates/settings/subscription.mustache:1
-msgid "Subscriptions"
-msgstr "Abonnement"
 
 #: .es5/templates/settings/subscription.mustache:2
 msgid "Manage…"
@@ -2387,6 +2411,9 @@ msgstr "Paring via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
+
+#~ msgid "Please Select One"
+#~ msgstr "Velg en"
 
 #~ msgid "Sign up to get more features:"
 #~ msgstr "Registrer deg for å få tilgang til flere funksjoner:"

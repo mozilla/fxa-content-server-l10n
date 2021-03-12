@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2021-02-20 19:04+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445690547.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr "Вот ваше напоминание о синхронизации устройств."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Для синхронизации требуется два устройства. Синхронизация другого устройства с Firefox конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных Firefox везде, где вы его "
 "используете."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr "Последнее напоминание о синхронизации устройств!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Синхронизация другого устройства с Firefox конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных Firefox везде, где вы его используете."
 
@@ -38,15 +38,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "Если вы ещё не загрузили %(productName)s, то давайте начнём использовать все функции, включённые в вашу подписку:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "У вас есть вопросы по вашей подписке? Наша <a href=\"%(subscriptionSupportUrl)s\">команда поддержки</a> с радостью поможет вам."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "У вас есть вопросы по вашей подписке? Наша команда поддержки с радостью поможет вам:"
 
@@ -367,8 +367,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере "
-"$%(paymentProrated)s для компенсации более низкой стоимости за этот %(productPaymentCycle)s."
+"Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере $"
+"%(paymentProrated)s для компенсации более низкой стоимости за этот %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -402,11 +402,6 @@ msgstr "%(invoiceDateOnly)s оплачено $%(invoiceTotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Карта %(cardType)s, с номером заканчивающимся на %(lastFour)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr "Следующая оплата: %(nextInvoiceDateOnly)s"
 
@@ -444,30 +439,22 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr "Возможно, срок действия вашей банковской карты истёк, или ваш текущий способ оплаты больше не работает."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "Помогите нам исправить проблему, <a href=\"%(updateBillingUrl)s\">обновив вашу платёжную информацию</a> в течение трёх дней."
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "К сожалению, если мы не получим от вас ответа в течение трёх дней, вы потеряете доступ к %(productName)s."
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
-msgstr "Помогите нам исправить проблему, обновив вашу платёжную информацию в течение трёх дней:"
+msgid "Help us fix it by updating your payment information within 24 hours:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr "Благодарим вас за повторную активацию подписки %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr ""
-"Ваш платёжный цикл и сумма платежа останутся прежними. Ваш следующий платёж будет произведён %(nextInvoiceDateOnly)s на сумму %(invoiceTotal)s с карты %(cardType)s, заканчивающейся на %(lastFour)s. "
-"Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не отмените её."
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -674,6 +661,14 @@ msgstr "IP-адрес: %(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "Управлять аккаунтом:"
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr "Карта %(cardType)s, с номером заканчивающимся на %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -892,35 +887,35 @@ msgstr "Платёж за %(productName)s не прошёл"
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ваша подписка на %(productName)s была отменена"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr "Подписка на %(productName)s активирована повторно"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr "Платёж за %(productName)s получен"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr "Оплата за %(productName)s прошла"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr "Добро пожаловать в %(productName)s"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr "Загрузить %(productName)s"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Ваше дружественное напоминание: Как завершить настройку синхронизации"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Последнее напоминание: Завершите настройку синхронизации"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr "Синхронизировать другое устройство"
 
@@ -1009,6 +1004,22 @@ msgstr ""
 msgid "Download latest"
 msgstr "Загрузить последнюю версию"
 
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "Помогите нам исправить проблему, <a href=\"%(updateBillingUrl)s\">обновив вашу платёжную информацию</a> в течение трёх дней."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "К сожалению, если мы не получим от вас ответа в течение трёх дней, вы потеряете доступ к %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Помогите нам исправить проблему, обновив вашу платёжную информацию в течение трёх дней:"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Ваш платёжный цикл и сумма платежа останутся прежними. Ваш следующий платёж будет произведён %(nextInvoiceDateOnly)s на сумму %(invoiceTotal)s с карты %(cardType)s, заканчивающейся на "
+#~ "%(lastFour)s. Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не отмените её."
+
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Спасибо за подписку на %(productName)s!"
 
@@ -1016,28 +1027,28 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Недавно вы удалили свой Аккаунт Firefox. В результате, мы отменили вашу подписку на %(productName)s. Ваш последний платёж в размере $%(invoiceTotal)s был совершён %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Мы отменили вашу подписку на %(productName)s. Ваш последний платёж в размере $%(invoiceTotal)s был совершён %(invoiceDateOnly)s. Доступ к службе будет действовать до конца текущего платёжного "
 #~ "периода, который заканчивается %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере "
-#~ "$%(paymentProrated)s для отражения более низкой стоимости за этот %(productPaymentCycle)s."
+#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вы также получите одноразовый бонус в размере $"
+#~ "%(paymentProrated)s для отражения более низкой стоимости за этот %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Оплачено $%(invoiceTotal)s %(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вам также будет необходимо оплатить "
-#~ "$%(paymentProrated)s для отражения более высокой стоимости за этот %(productPaymentCycle)s."
+#~ "Начиная со следующего периода оплаты, ваш платёж составит $%(paymentAmountNew)s в %(productPaymentCycle)s вместо $%(paymentAmountOld)s. В этот раз вам также будет необходимо оплатить $"
+#~ "%(paymentProrated)s для отражения более высокой стоимости за этот %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Вы вошли и готовы погрузиться в Интернет — защищённо и безопасно."
@@ -1266,8 +1277,8 @@ msgstr "Загрузить последнюю версию"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
+#~ "Вы успешно подключили первое устройство к своему Аккаунту Firefox. Теперь вы можете войти в Синхронизацию с других своих устройств, в том числе Firefox для <a href='%(androidUrl)s'>Android</a> и "
+#~ "<a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1439,14 +1450,15 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Восстановить пароль"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Несколько дней назад вы создали аккаунт Firefox, но не подтвердили его. Подтверждённый аккаунт позволит вам получить доступ к вкладкам, закладкам, паролям и истории на любом подключенном к нему "
 #~ "устройстве. Просто подтвердите этот адрес электронной почты, чтобы активировать ваш аккаунт."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
+#~ msgstr ""
+#~ "Неделю назад вы создали Аккаунт Firefox, но ещё не подтвердили его. Мы обеспокоены. Подтвердите этот адрес электронной почты для активации вашего аккаунта и дайте нам знать, что вы в порядке."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
@@ -1468,18 +1480,21 @@ msgstr "Загрузить последнюю версию"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr ""
-#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот адрес."
+#~ "Вы успешно удалили %(secondaryEmail)s как альтернативный адрес электронной почты вашего Аккаунта Firefox. Уведомления безопасности и подтверждения входа больше не будут доставляться на этот "
+#~ "адрес."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Вы успешно подтвердили %(secondaryEmail)s, как альтернативную эл. почту для своего Аккаунта Firefox. Оповещения безопасности и подтверждения теперь будут доставляться на оба адреса эл. почты."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Как запрошено, вот ссылка для установки Firefox на ваше мобильное устройство: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ к "
-#~ "вашему Аккаунту Firefox."
+#~ "Входили ли вы в свой Аккаунт Firefox из одного из нижеуказанных местоположений за последние 60 дней? Если вы не узнаете указанные местоположения, возможно, кто-то другой пытался получить доступ "
+#~ "к вашему Аккаунту Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Дата и время:"
@@ -1533,7 +1548,8 @@ msgstr "Загрузить последнюю версию"
 #~ msgstr "Уведомление об активности Аккаунта"
 
 #~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
+#~ msgstr ""
+#~ "По соображениям безопасности ваш Аккаунт Firefox был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, щёлкните по ссылке, чтобы вновь подтвердить свой аккаунт."
 
 #~ msgid "Verify account"
 #~ msgstr "Подтвердить аккаунт"

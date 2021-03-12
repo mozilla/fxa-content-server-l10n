@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2020-08-22 04:52+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1424658074.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr "기기 동기화 알림입니다."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "동기화하려면 두가지가 필요합니다. 다른 기기와 Firefox 를 동기화 하면 비공개로 개인 북마크, 비밀번호 및 기타 Firefox 데이터가 Firefox 를 사용하는 모든 곳에서 동일하게 유지됩니다."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr "기기 동기화 마지막 알림!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "다른 기기와 Firefox 를 동기화 하면 비공개로 개인 북마크, 비밀번호 및 기타 Firefox 데이터가 Firefox 를 사용하는 모든 곳에서 동일하게 유지됩니다."
 
@@ -36,15 +36,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "%(productName)s을 아직 다운로드하지 않은 경우 구독에 포함된 모든 기능을 이용해보세요"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "구독에 대한 질문이 있으십니까? <a href=\"%(subscriptionSupportUrl)s\">지원팀</a>이 도와드리겠습니다."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다."
 
@@ -390,11 +390,6 @@ msgstr "%(invoiceDateOnly)s 에 %(invoiceTotal)s 청구됨"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "%(cardType)s 카드 정보: %(lastFour)s 로 끝남"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr "다음 영수증: %(nextInvoiceDateOnly)s"
 
@@ -432,30 +427,22 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr "신용 카드가 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "3일 이내에 <a href=\"%(updateBillingUrl)s\"> 결제 정보를 업데이트 </a>하여 문제를 해결하도록 도와주세요."
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "안타깝게도 3일 이내에 연락이 없으면 %(productName)s에 접근할 수 없게 됩니다."
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
-msgstr "3일 이내에 결제 정보를 업데이트하여 문제를 해결하도록 도와주세요."
+msgid "Help us fix it by updating your payment information within 24 hours:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr "%(productName)s 구독을 재활성화 해 주셔서 감사합니다!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr ""
-"결제 주기와 결제는 동일하게 유지됩니다. 다음번 청구 금액은 %(nextInvoiceDateOnly)s에 %(lastFour)s로 끝나는 %(cardType)s 카드에 대한 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 기"
-"간을 자동으로 갱신합니다."
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -660,6 +647,14 @@ msgstr "IP 주소: %(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "계정 관리:"
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr "%(cardType)s 카드 정보: %(lastFour)s 로 끝남"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -878,35 +873,35 @@ msgstr "%(productName)s 결제 실패"
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "%(productName)s 구독 취소 완료"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s 구독 재활성"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr "%(productName)s 결제 완료"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s 결제 확인"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr "%(productName)s에 오신 것을 환영합니다!"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr "%(productName)s 다운로드"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "알림: 동기화 설정을 완료하는 방법"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "알림: 동기화 설정 완료"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr "다른 기기 동기화"
 
@@ -994,6 +989,22 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "최신 다운로드"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "3일 이내에 <a href=\"%(updateBillingUrl)s\"> 결제 정보를 업데이트 </a>하여 문제를 해결하도록 도와주세요."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "안타깝게도 3일 이내에 연락이 없으면 %(productName)s에 접근할 수 없게 됩니다."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "3일 이내에 결제 정보를 업데이트하여 문제를 해결하도록 도와주세요."
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "결제 주기와 결제는 동일하게 유지됩니다. 다음번 청구 금액은 %(nextInvoiceDateOnly)s에 %(lastFour)s로 끝나는 %(cardType)s 카드에 대한 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 "
+#~ "기간을 자동으로 갱신합니다."
 
 #~ msgid "Connect another device:"
 #~ msgstr "다른 기기 연결:"

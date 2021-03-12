@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2021-02-26 14:49+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -35,15 +35,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr ""
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr ""
 
@@ -165,9 +165,7 @@ msgstr "ముందుగ, మీ Firefox ఖాతా సంకేతపదం
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"రెండవది, Firefox సంకేతపదం వెబ్సైట్లకు భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను తనిఖీ "
-"చేయాలి."
+msgstr "రెండవది, Firefox సంకేతపదం వెబ్సైట్లకు భద్రపరుస్తుంది , మీరు ఆ పాస్ వర్డ్ అలాగే మార్చాలి. దాడిచేసిన ఆ పాస్ వర్డ్ ప్రాప్తి కలిగి ఉండవచ్చు, కాబట్టి మీరు అనుమానాస్పద కార్యాచరణ కోసం ఆ ఖాతాలను తనిఖీ చేయాలి."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -388,11 +386,6 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr ""
 
@@ -430,15 +423,15 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
 msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
+msgid "Help us fix it by updating your payment information within 24 hours:"
 msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
@@ -446,12 +439,6 @@ msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr ""
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -654,6 +641,14 @@ msgstr "IP చిరునామా: %(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "ఖాతా నిర్వహణ:"
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr ""
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -872,35 +867,35 @@ msgstr ""
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr ""
 
@@ -988,9 +983,7 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr ""
-#~ "మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు "
-#~ "<a %(iosLinkAttributes)s>ఐఓయస్</a>."
+#~ msgstr "మీరు విజయవంతంగా మీ ఫైర్ఫాక్స్ ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు, ఫైర్ఫాక్స్ తో సహా <a %(androidLinkAttributes)s>ఆండ్రాయిడ్ </a>మరియు <a %(iosLinkAttributes)s>ఐఓయస్</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "విజయవంతంగా మీ Firefox ఖాతా మీ మొదటి పరికరం కనెక్ట్ అయింది. ఇప్పుడు మీరు ఆండ్రాయిడ్ మరియు iOS కోసం ఫైర్ఫాక్స్ సహా, మీ ఇతర పరికరాల నుండి సింక్ కు సైన్ ఇన్ చేయవచ్చు."
@@ -1016,15 +1009,12 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్"
-#~ " చేయడానికి సైన్ ఇన్ చేయవచ్చు."
+#~ msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. ఇప్పుడు మీరు <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox సహా, మీ ఇతర పరికరాల నుండి సింక్ చేయడానికి సైన్ ఇన్ చేయవచ్చు."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
+#~ msgstr "మీరు విజయవంతంగా మీ Firefox ఖాతాకు మీ మొదటి పరికరం కనెక్ట్ చేశారు. మరింత సింక్ చేయడానికి, <a href='%(androidUrl)s'>ఆండ్రాయిడ్</a> మరియు <a href='%(iosUrl)s'>iOS </a>కోసం Firefox ను కనెక్ట్ చేయండి."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Sync లోనికి ప్రవేశించండి"
@@ -1129,16 +1119,13 @@ msgstr ""
 #~ msgstr "పాస్‌వర్డ్‌ని రీసెట్ చేయి"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత "
-#~ "చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
+#~ "కొన్ని రోజుల క్రితం మీరు ఒక Firefox ఖాతా రూపొందించారు, కానీ తనిఖీ ఎప్పుడూ చేయలేదు. ఒక ధృవీకరించిన ఖాతా మీరు సంబంధించిన ఏదైనా పరికరంలో మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు చరిత్రను ప్రాప్యత చెయ్యవచ్చు. మీ ఖాతాను సక్రియం ఈ-మెయిలు చిరునామా ధృవీకరించాలి."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను "
-#~ "ధృవీకరించండి."
+#~ msgstr "ఒక వారం క్రితం ఒక Firefox ఖాతా రూపొందించినవారు, కానీ తనిఖీ ఎప్పుడూ. మేము మీరు గురించి ఆందోళన చేందుతున్నాము. మీ ఖాతాను సక్రియం చేయడానికి మరియు మాకు మీరు ఓకే తెలియజేయడానికి ఈ ఇమెయిల్ చిరునామాను ధృవీకరించండి."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
@@ -1155,7 +1142,8 @@ msgstr ""
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox ఖాతాల కోసం ఇ-మెయిలుని ధృవీకరించండి"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "మీ Firefox ఖాతాకి %(secondaryEmail)sని అదనపు ఈమెయిల్‌గా విజయవంతంగా ధ్రువీకరించారు. ఇప్పుడు రెండు ఈమెయిల్ చిరునామాలకు భద్రతా గమనికలు మరియు ప్రవేశ ధ్రువీకరణలు పంపిణీ చేయబడును."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

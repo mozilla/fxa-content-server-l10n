@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 16:06+0000\n"
+"POT-Creation-Date: 2021-03-12 16:07+0000\n"
 "PO-Revision-Date: 2020-10-15 12:33+0000\n"
 "Last-Translator: KAHINA <kahinamessaoudi03@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2485
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2491
 msgid "Here's your reminder to sync devices."
 msgstr "Ha-t-a usmekti-inek/inem i umtawi n yibenkan."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2489
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2495
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Ilaq ad ilin ssin i wemtawi. Amtawi n ufecku-nniḍen akked firefox ad yeḥrez ticraḍ n isebtar, awalen uffiren akked isefka-nniḍen n Firefox di yal taswiɛt d yal amkan deg ara tesqedceḍ Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2486
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2492
 msgid "Last reminder to sync devices!"
 msgstr "Asmekti aneggaru i umtawi n yibenkan!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2492
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2498
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Amtawi n yibenk-nniḍen s tbaḍnit n Firefox ad iǧǧ ticraḍ-ik•im n yisebtar awalen uffiren d yisefka-nniḍen n Firefox d widak kan, ur ttbeddilen ara anida tebɣuḍ tesqedceḍ Firefox."
 
@@ -36,15 +36,15 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "Ma yella ur tessadreḍ ara yakan %(productName)s, bdu aseqdec n tmahilin i yellan deg ujerred-ik:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
-#: lib/senders/templates/subscriptionReactivation.html:4 lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
+#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionUpgrade.html:6
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Isteqsiyen ɣer ujerred-ik? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:4
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionReactivation.txt:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:"
 
@@ -397,11 +397,6 @@ msgstr "Yettwafter %(invoiceTotal)s deg %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Takarḍa %(cardType)s tettfak s %(lastFour)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
-#: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
 msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
 
@@ -439,30 +434,22 @@ msgid "It may be that your credit card has expired, or your current payment meth
 msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n lexlaṣ iɛedda-tt wakud."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
-msgstr "Ɛiwen-aɣ ad as-d-naf tifrat s <a href=\"%(updateBillingUrl)s\"> uleqqem n telɣut n lexlaṣ-ik </a> deg kraḍ n wussan."
+msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
-msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
-msgstr "S usḥissef, ma ur aɣ-d-yuwiḍ ara kra sɣur-k deg kraḍ n wussan, ad ak-iruḥ unekcum ɣer %(productName)s."
+msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "Help us fix it by updating your payment information within three days:"
-msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n lexlaṣ-ik deg kraḍ n wussan."
+msgid "Help us fix it by updating your payment information within 24 hours:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
 msgstr "Tanemmirt imi tulseḍ ajerred ɣer %(productName)s!"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
-"automatically renew each billing period unless you choose to cancel."
-msgstr ""
-"Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma i d-itteddun ad tili d %(invoiceTotal)s ɣer taggara n tkarḍa %(cardType)s deg %(lastFour)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad imuynet "
-"s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ."
-
-#: lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionReactivation.txt:3
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
@@ -669,6 +656,14 @@ msgstr "Tansa IP: %(ip)s"
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
 msgstr "Sefrek amiḍan:"
+
+#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
+msgid "PayPal"
+msgstr ""
+
+#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
+msgid "%(cardType)s card ending in %(lastFour)s"
+msgstr "Takarḍa %(cardType)s tettfak s %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -887,35 +882,35 @@ msgstr "Axelleṣ n %(productName)s yecceḍ"
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
-#: lib/senders/email.js:2220
+#: lib/senders/email.js:2221
 msgid "%(productName)s subscription reactivated"
 msgstr "Ajerred n %(productName)s yettwarmed"
 
-#: lib/senders/email.js:2294
+#: lib/senders/email.js:2297
 msgid "%(productName)s payment received"
 msgstr "Lexlaṣ n %(productName)s yettwarmes"
 
-#: lib/senders/email.js:2382
+#: lib/senders/email.js:2387
 msgid "%(productName)s payment confirmed"
 msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2460
 msgid "Welcome to %(productName)s"
 msgstr "Ansuf ɣer %(productName)s"
 
-#: lib/senders/email.js:2455
+#: lib/senders/email.js:2461
 msgid "Download %(productName)s"
 msgstr "Sader %(productName)s"
 
-#: lib/senders/email.js:2481
+#: lib/senders/email.js:2487
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi"
 
-#: lib/senders/email.js:2482
+#: lib/senders/email.js:2488
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Asmekti aneggaru: Asebded ummid n umtawa"
 
-#: lib/senders/email.js:2496
+#: lib/senders/email.js:2502
 msgid "Sync another device"
 msgstr "Mtawi ibenk-nniḍen"
 
@@ -1003,6 +998,22 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Sader aneggaru"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "Ɛiwen-aɣ ad as-d-naf tifrat s <a href=\"%(updateBillingUrl)s\"> uleqqem n telɣut n lexlaṣ-ik </a> deg kraḍ n wussan."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "S usḥissef, ma ur aɣ-d-yuwiḍ ara kra sɣur-k deg kraḍ n wussan, ad ak-iruḥ unekcum ɣer %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Ɛiwen-aɣ ad d-naf tifrat s uleqqem n telɣut n lexlaṣ-ik deg kraḍ n wussan."
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma i d-itteddun ad tili d %(invoiceTotal)s ɣer taggara n tkarḍa %(cardType)s deg %(lastFour)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad "
+#~ "imuynet s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Tanemmirt ɣef ujerred ɣer %(productName)s!"
