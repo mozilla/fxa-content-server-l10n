@@ -48,6 +48,8 @@ privacy = Marandu’i ñemiguáva
 
 subscription-create-title = Ñemboheraguapy ñemboheko
 subscription-success-title = Ñemboheraguapy ñemoneĩ
+subscription-processing-title = Ñemboheraguapy oñemoneĩhína...
+subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -159,6 +161,7 @@ input-error-is-required = Oñeikotevẽ { $label }
 
 product-plan-upgrade-heading = Ehechajey ne mbohekopyahu
 sub-update-failed = Ojavy tembiaporã mbohekopyahu
+sub-update-payment-title = Jehepyme’ẽ marandu
 sub-update-card-exp = Opáta { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
@@ -351,6 +354,7 @@ plan-details-total-label = Opavavete
 
 payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
 payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
+payment-confirmation-thanks-heading = ¡Aguyje!
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
@@ -384,3 +388,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } peteĩ { $intervalCount } arygua
     }
 payment-confirmation-download-button = Emboguejy ehóvo
+payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
