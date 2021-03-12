@@ -189,6 +189,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Chụp hình lại
 avatar-page-close-button = Đóng
 avatar-page-save-button = Lưu
+avatar-page-saving-button = Đang lưu...
 avatar-page-zoom-out-button = Thu nhỏ
 avatar-page-zoom-in-button = Phóng to
 avatar-page-rotate-button = Xoay

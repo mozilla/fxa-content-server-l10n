@@ -8,6 +8,7 @@
 project-brand = Tài khoản Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Tài khoản Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Lỗi ứng dụng chung
 basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 payment-error-1 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
 payment-error-2 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
+payment-error-3 = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+payment-error-retry-button = Thử lại
+payment-error-manage-subscription-button = Quản lý thuê bao của tôi
+country-currency-mismatch = Đơn vị tiền tệ của thuê bao này không hợp lệ cho quốc gia được liên kết với khoản thanh toán của bạn.
+currency-currency-mismatch = Xin lỗi. Bạn không thể chuyển đổi giữa các loại tiền tệ.
+returning-paypal-customer-error = Xin lỗi. Hiện tại, bạn chỉ có thể đăng ký một gói thuê bao tại một thời điểm. Vui lòng kiểm tra lại sau.
 expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
 insufficient-funds-error = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 withdrawal-count-limit-exceeded-error = Có vẻ như đã vượt quá giới hạn tín dụng của bạn. Hãy thử một thẻ khác.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Thuê bao
 terms = Điều khoản dịch vụ
 privacy = Chính sách riêng tư
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Hãy thiết lập đăng ký của bạn
-product-plan-details-heading = Hãy thiết lập đăng ký của bạn
+subscription-create-title = Thiết lập thuê bao của bạn
+subscription-success-title = Xác nhận thuê bao
+subscription-processing-title = Đang xác nhận thuê bao...
+subscription-error-title = Lỗi khi xác nhận thuê bao...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -83,8 +92,12 @@ product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } sử dụng Stripe và Paypal để xử lý thanh toán an toàn.
-payment-legal-link-stripe-paypal = Xem <stripePrivacyLink>chính sách bảo mật Stripe</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } sử dụng Stripe và { -brand-name-paypal } để xử lý thanh toán an toàn.
+payment-legal-link-stripe-and-paypal = Xem <stripePrivacyLink>chính sách bảo mật Stripe</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } sử dụng { -brand-name-paypal } để xử lý thanh toán an toàn.
+payment-legal-link-paypal = Xem <paypalPrivacyLink>chính sách bảo mật của { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } sử dụng Stripe để xử lý thanh toán an toàn.
+payment-legal-link-stripe = Xem chính sách bảo mật của <stripePrivacyLink>Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -150,8 +163,7 @@ input-error-is-required = { $label } là bắt buộc
 
 product-plan-upgrade-heading = Xem lại bản nâng cấp của bạn
 sub-update-failed = Không thể cập nhật lịch
-sub-update-title = Thông tin thanh toán
-sub-update-card-ending = Kết thúc thẻ { $last }
+sub-update-payment-title = Thông tin thanh toán
 sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ phải trả một khoản tiền
@@ -325,13 +337,16 @@ plan-details-show-button = Hiện chi tiết
 plan-details-hide-button = Ẩn chi tiết
 plan-details-total-label = Tổng
 
+## payment-processing
+
+payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn...
+
 ## payment confirmation
 
 payment-confirmation-alert = Nhấp vào đây để tải xuống
 payment-confirmation-mobile-alert = Không thể mở ứng dụng? <a>Nhấp vào đây</a>
-payment-confirmation-heading = Cảm ơn bạn { $displayName }!
-payment-confirmation-heading-bak = Cảm ơn bạn!
-payment-confirmation-subheading = Một email xác nhận đã được gửi tới
+payment-confirmation-thanks-heading = Cảm ơn bạn!
+payment-confirmation-thanks-subheading = Một email xác nhận đã được gửi đến { $email } với các chi tiết về cách bắt đầu với { $product_name }.
 payment-confirmation-order-heading = Chi tiết đơn hàng
 payment-confirmation-invoice-number = Hóa đơn #{ $invoiceNumber }
 payment-confirmation-billing-heading = Hóa đơn cho
@@ -360,5 +375,5 @@ payment-confirmation-amount-year =
     { $intervalCount ->
        *[other] { $amount } mỗi { $intervalCount } năm
     }
-payment-confirmation-cc-preview = kết thúc bằng { $last4 }
 payment-confirmation-download-button = Tiếp tục tải xuống
+payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
