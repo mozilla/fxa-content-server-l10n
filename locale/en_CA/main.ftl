@@ -24,6 +24,7 @@ basic-error-message = Something went wrong. Please try again later.
 payment-error-1 = Hmm. There was a problem authorizing your payment. Try again or get in touch with your card issuer.
 payment-error-2 = Hmm. There was a problem authorizing your payment. Get in touch with your card issuer.
 payment-error-3 = An unexpected error has occured while processing your payment, please try again.
+payment-error-retry-button = Try again
 payment-error-manage-subscription-button = Manage my subscription
 country-currency-mismatch = The currency of this subscription is not valid for the country associated with your payment.
 expired-card-error = It looks like your credit card has expired. Try another card.
