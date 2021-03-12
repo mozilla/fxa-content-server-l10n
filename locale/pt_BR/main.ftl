@@ -41,10 +41,8 @@ settings-subscriptions-title = Assinaturas
 terms = Termos do serviço
 privacy = Aviso de privacidade
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Vamos configurar sua assinatura
-product-plan-details-heading = Vamos configurar sua assinatura
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +85,6 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = A { -brand-name-mozilla } usa Stripe e Paypal para processamento seguro de pagamentos.
-payment-legal-link-stripe-paypal = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink>política de privacidade do Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +154,7 @@ input-error-is-required = É necessário { $label }
 
 product-plan-upgrade-heading = Confira sua atualização
 sub-update-failed = Falha na atualização do plano
-sub-update-title = Informações de cobrança
-sub-update-card-ending = Cartão terminando em { $last }
+sub-update-payment-title = Informações de pagamento
 sub-update-card-exp = Validade { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Seu plano mudará imediatamente e será cobrado um valor de ajuste para o restante do seu ciclo de cobrança. A partir de { $startingDate } será cobrado o valor integral.
 
@@ -334,13 +329,15 @@ plan-details-show-button = Mostra detalhes
 plan-details-hide-button = Ocultar detalhes
 plan-details-total-label = Total
 
+## payment-processing
+
+payment-processing-message = Aguarde enquanto processamos seu pagamento...
+
 ## payment confirmation
 
 payment-confirmation-alert = Clique aqui para baixar
 payment-confirmation-mobile-alert = Não abriu o aplicativo? <a>Clique aqui</a>
-payment-confirmation-heading = Obrigado, { $displayName }!
-payment-confirmation-heading-bak = Obrigado!
-payment-confirmation-subheading = Um email de confirmação foi enviado para
+payment-confirmation-thanks-heading = Obrigado!
 payment-confirmation-order-heading = Detalhes do pedido
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturado para
@@ -373,5 +370,4 @@ payment-confirmation-amount-year =
         [one] { $amount } anualmente
        *[other] { $amount } a cada { $intervalCount } anos
     }
-payment-confirmation-cc-preview = terminando em { $last4 }
 payment-confirmation-download-button = Continuar para baixar
