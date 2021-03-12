@@ -8,6 +8,7 @@
 project-brand = Firefox-fiókok
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox-fiókok
 
@@ -22,6 +23,10 @@ general-error-heading = Általános alkalmazáshiba
 basic-error-message = Hiba történt, próbálja újra később.
 payment-error-1 = Hmm. Hiba történt a fizetés jóváhagyásakor. Próbálkozzon újra, vagy vegye fel a kapcsolatot a kártyakibocsátóval.
 payment-error-2 = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
+payment-error-3 = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+payment-error-retry-button = Próbálja újra
+payment-error-manage-subscription-button = Saját feliratkozások kezelése
+country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
 expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
 insufficient-funds-error = Úgy tűnik, hogy a bankkártyáján kevés a fedezet. Próbálkozzon egy másik kártyával.
 withdrawal-count-limit-exceeded-error = Úgy tűnik, hogy ez a tranzakció túllép a hitelkeretén. Próbálkozzon egy másik kártyával.
@@ -41,10 +46,8 @@ settings-subscriptions-title = Előfizetések
 terms = A szolgáltatás feltételei
 privacy = Adatvédelmi nyilatkozat
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Állítsuk be az előfizetését
-product-plan-details-heading = Állítsuk be az előfizetését
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +90,6 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = A { -brand-name-mozilla } a Stripe-ot és a Paypalt használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-paypal = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink> és a <paypalPrivacyLink>Paypal adatvédelmi irányelveit</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +159,6 @@ input-error-is-required = { $label } szükséges
 
 product-plan-upgrade-heading = A frissítése áttekintése
 sub-update-failed = Az előfizetés frissítése sikertelen
-sub-update-title = Számlázási információk
-sub-update-card-ending = { $last } végződésű kártya
 sub-update-card-exp = Lejárat: { $cardExpMonth } / { $cardExpYear }
 sub-update-copy =
     A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
@@ -345,13 +344,13 @@ plan-details-show-button = Részletek megjelenítése
 plan-details-hide-button = Részletek elrejtése
 plan-details-total-label = Összesen
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Kattintson ide a letöltéshez
 payment-confirmation-mobile-alert = Nem nyitotta meg az alkalmazást? <a>Kattintson ide</a>
-payment-confirmation-heading = Köszönjük, { $displayName }!
-payment-confirmation-heading-bak = Köszönjük!
-payment-confirmation-subheading = Megerősítő e-mail elküldve ide:
 payment-confirmation-order-heading = Megrendelés részletei
 payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
 payment-confirmation-billing-heading = Számlázva:
@@ -384,5 +383,4 @@ payment-confirmation-amount-year =
         [one] { $amount } évente
        *[other] { $amount } { $intervalCount } évente
     }
-payment-confirmation-cc-preview = ezzel ér véget: { $last4 }
 payment-confirmation-download-button = Tovább a letöltéshez
