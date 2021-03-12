@@ -85,6 +85,12 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = A { -brand-name-mozilla } usa o Stripe e o { -brand-name-paypal } para processamento seguro de pagamentos.
+payment-legal-link-stripe-and-paypal = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = A { -brand-name-mozilla } usa o { -brand-name-paypal } para processamento seguro de pagamentos.
+payment-legal-link-paypal = Veja a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = A { -brand-name-mozilla } usa o Stripe para processamento seguro de pagamentos.
+payment-legal-link-stripe = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -338,6 +344,7 @@ payment-processing-message = Aguarde enquanto processamos seu pagamento...
 payment-confirmation-alert = Clique aqui para baixar
 payment-confirmation-mobile-alert = Não abriu o aplicativo? <a>Clique aqui</a>
 payment-confirmation-thanks-heading = Obrigado!
+payment-confirmation-thanks-subheading = Um email de confirmação foi enviado para { $email } com detalhes sobre como começar a usar o { $product_name }.
 payment-confirmation-order-heading = Detalhes do pedido
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturado para
@@ -371,3 +378,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } a cada { $intervalCount } anos
     }
 payment-confirmation-download-button = Continuar para baixar
+payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
