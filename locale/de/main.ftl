@@ -8,6 +8,7 @@
 project-brand = Firefox-Konten
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox-Konten
 
@@ -22,6 +23,12 @@ general-error-heading = Allgemeiner Anwendungsfehler
 basic-error-message = Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.
 payment-error-1 = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
 payment-error-2 = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
+payment-error-3 = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
+payment-error-retry-button = Erneut versuchen
+payment-error-manage-subscription-button = Mein Abonnement verwalten
+country-currency-mismatch = Die Währung dieses Abonnements gilt nicht für das Land, das mit Ihrer Zahlung verknüpft ist.
+currency-currency-mismatch = Leider können Sie nicht zwischen Währungen wechseln.
+returning-paypal-customer-error = Derzeit können leider Sie nur ein Abonnement gleichzeitig abonnieren. Bitte schauen Sie bald wieder vorbei.
 expired-card-error = Es sieht so aus, als sei Ihre Kreditkarte abgelaufen. Versuchen Sie es mit einer anderen Karte.
 insufficient-funds-error = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 withdrawal-count-limit-exceeded-error = Es sieht so aus, als würden Sie mit dieser Transaktion Ihr Kreditlimit überschreiten. Versuchen Sie es mit einer anderen Karte.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Abonnements
 terms = Nutzungsbedingungen
 privacy = Datenschutzhinweis
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Einrichten Ihres Dauerauftrags
-product-plan-details-heading = Einrichten Ihres Dauerauftrags
+subscription-create-title = Ihr Abonnement einrichten
+subscription-success-title = Abonnementbestätigung
+subscription-processing-title = Abonnement wird bestätigt...
+subscription-error-title = Fehler beim Bestätigen des Abonnements…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,12 @@ product-no-such-plan = Für dieses Produkt existiert kein solcher Plan.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } verwenden Stripe und Paypal für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-paypal = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von Striphe</stripePrivacyLink> und die<paypalPrivacyLink>Datenschutzerklärung von Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } verwenden Stripe und { -brand-name-paypal } für die sichere Zahlungsabwicklung.
+payment-legal-link-stripe-and-paypal = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von Stripe</stripePrivacyLink> und die<paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } verwendet { -brand-name-paypal } für die sichere Zahlungsabwicklung.
+payment-legal-link-paypal = Lesen Sie die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } verwendet Stripe für die sichere Zahlungsabwicklung.
+payment-legal-link-stripe = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,8 +171,7 @@ input-error-is-required = { $label } ist erforderlich
 
 product-plan-upgrade-heading = Überprüfen Sie Ihr Upgrade
 sub-update-failed = Aktualisierung des Plans fehlgeschlagen
-sub-update-title = Abrechnungsdaten
-sub-update-card-ending = Karte endet auf { $last }
+sub-update-payment-title = Zahlungsinformationen
 sub-update-card-exp = Läuft ab im { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Ihr Plan wird sofort geändert und für den Rest des Abrechungszeitraums wird
@@ -345,13 +357,16 @@ plan-details-show-button = Details anzeigen
 plan-details-hide-button = Details ausblenden
 plan-details-total-label = Gesamt
 
+## payment-processing
+
+payment-processing-message = Bitte warten Sie, während wir Ihre Zahlung bearbeiten ...
+
 ## payment confirmation
 
 payment-confirmation-alert = Zum Download klicken Sie hier
 payment-confirmation-mobile-alert = Die App öffnet sich nicht? <a>Klicken Sie hier</a>
-payment-confirmation-heading = Vielen Dank, { $displayName }!
-payment-confirmation-heading-bak = Vielen Dank!
-payment-confirmation-subheading = Eine Bestätigungs-E-Mail wurde gesendet an
+payment-confirmation-thanks-heading = Vielen Dank!
+payment-confirmation-thanks-subheading = An { $email } wurde eine Bestätigungs-E-Mail mit Details zu den ersten Schritten mit { $product_name } gesendet.
 payment-confirmation-order-heading = Bestelldetails
 payment-confirmation-invoice-number = Rechnung #{ $invoiceNumber }
 payment-confirmation-billing-heading = Rechnung an:
@@ -384,5 +399,5 @@ payment-confirmation-amount-year =
         [one] { $amount } jährlich
        *[other] { $amount } alle { $intervalCount } Jahre
     }
-payment-confirmation-cc-preview = endet auf { $last4 }
 payment-confirmation-download-button = Weiter zum Download
+payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
