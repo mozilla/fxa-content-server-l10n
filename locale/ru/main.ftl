@@ -424,3 +424,4 @@ payment-confirmation-amount-year =
        *[many] { $amount } каждые { $intervalCount } лет
     }
 payment-confirmation-download-button = Продолжить загрузку
+payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
