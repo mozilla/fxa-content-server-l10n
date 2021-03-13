@@ -96,6 +96,12 @@ product-no-such-plan = No existe tal plan para este producto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } usa Stripe y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-and-paypal = Ver la política de privacidad <stripePrivacyLink>Stripe</stripePrivacyLink> y <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento de pago seguro.
+payment-legal-link-paypal = Ver la <paypalPrivacyLink> { -brand-name-paypal } política de privacidad </paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe para procesar pagos seguros.
+payment-legal-link-stripe = Ver la política de privacidad de <stripePrivacyLink>Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -165,6 +171,7 @@ input-error-is-required = Se necesita { $etiqueta }
 
 product-plan-upgrade-heading = Revisá la actualización
 sub-update-failed = Fallo en la actualización del plan
+sub-update-payment-title = Información del pago
 sub-update-card-exp = Vence { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     El plan cambiará de inmediato y se cobrará un monto
@@ -349,6 +356,7 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Esperá mientras procesamos tu pago...
 
 ## payment confirmation
 
