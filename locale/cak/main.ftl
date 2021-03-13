@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -41,10 +42,8 @@ settings-subscriptions-title = Kitz'ib'axik b'i'aj
 terms = Ketal Samaj
 privacy = Ichinan Na'oj
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
-product-plan-details-heading = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +86,6 @@ product-no-such-plan = Majun ajil richin re tikojil.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' Paypal richin nijikib'äx ri tojïk.
-payment-legal-link-stripe-paypal = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem Stripe</stripePrivacyLink> chuqa' <paypalPrivacyLink>Runa'ojil Richinanem Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +155,6 @@ input-error-is-required = Najowäx { $label }
 
 product-plan-upgrade-heading = Tanik'oj ri k'exoj
 sub-update-failed = Xsach ri ruk'exoj ajil
-sub-update-title = Retamab'al tojïk
-sub-update-card-ending = Tarjeta Nik'is pa { $last }
 sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Anin xtijalatäj ri retal rajil chuqa' xtik'ul jun rajil
@@ -345,13 +340,13 @@ plan-details-show-button = Kek'ut pe ri taq rub'anikil
 plan-details-hide-button = Ke'ewäx ri taq rub'anikil
 plan-details-total-label = Ronojel
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Tipitz' wawe' richin niqasäx
 payment-confirmation-mobile-alert = ¿La man nijaqatäj ta ri chokoy? <a>Tipitz' Wawe'</a>
-payment-confirmation-heading = ¡Matyox Chawe { $displayName }!
-payment-confirmation-heading-bak = ¡Matyox Chawe!
-payment-confirmation-subheading = Jun jikib'anel taqoya'l xtaq pa
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 payment-confirmation-billing-heading = Xb'an pakturar chi re
@@ -384,5 +379,4 @@ payment-confirmation-amount-year =
         [one] { $amount } chi juna'
        *[other] { $amount } jujun { $intervalCount } juna'
     }
-payment-confirmation-cc-preview = k'isb'en pa { $last4 }
 payment-confirmation-download-button = K'a tiqasäx
