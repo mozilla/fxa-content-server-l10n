@@ -87,6 +87,12 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = ‏{ -brand-name-mozilla } משתמש ב־Stripe וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-stripe-and-paypal = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-paypal = הצגת <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = ‏{ -brand-name-mozilla } משתמש ב־Stripe לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-stripe = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -131,6 +137,7 @@ input-error-is-required = ‏{ $label } נדרש
 
 product-plan-upgrade-heading = סקירת השדרוג שלך
 sub-update-failed = עדכון התוכנית נכשל
+sub-update-payment-title = פרטי תשלום
 sub-update-copy =
     התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
     לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
@@ -297,11 +304,13 @@ plan-details-total-label = סה״כ
 
 ## payment-processing
 
+payment-processing-message = נא להמתין בעת עיבוד התשלום שלך...
 
 ## payment confirmation
 
 payment-confirmation-alert = נא ללחוץ כאן להורדה
 payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
+payment-confirmation-thanks-heading = תודה רבה!
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
 payment-confirmation-billing-heading = חיוב לטובת
@@ -338,3 +347,4 @@ payment-confirmation-amount-year =
         [two] { $amount } כל שנתיים
        *[other] { $amount } כל { $intervalCount } שנים
     }
+payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }

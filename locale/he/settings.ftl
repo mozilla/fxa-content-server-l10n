@@ -179,6 +179,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = צילום תמונה מחדש
 avatar-page-close-button = סגירה
 avatar-page-save-button = שמירה
+avatar-page-saving-button = מתבצעת שמירה…
 avatar-page-zoom-out-button = התרחקות
 avatar-page-zoom-in-button = התקרבות
 avatar-page-rotate-button = סיבוב
