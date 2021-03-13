@@ -53,6 +53,7 @@ privacy = Ichinan Na'oj
 subscription-create-title = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 subscription-success-title = Rujikib'axik rutz'ib'axik b'i'aj
 subscription-processing-title = Nijikib'äx rutz'ib'axik b'i'aj
+subscription-error-title = Xsach toq nijikib'äx ri rutz'ib'axik b'i'aj…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,6 +96,7 @@ product-no-such-plan = Majun ajil richin re tikojil.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
 
 ## payment form
 
