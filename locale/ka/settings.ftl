@@ -205,6 +205,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = ახლიდან გადაღება
 avatar-page-close-button = დახურვა
 avatar-page-save-button = შენახვა
+avatar-page-saving-button = ინახება…
 avatar-page-zoom-out-button = დაშორება
 avatar-page-zoom-in-button = მიახლოება
 avatar-page-rotate-button = მობრუნება

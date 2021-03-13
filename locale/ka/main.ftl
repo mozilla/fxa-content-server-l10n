@@ -8,6 +8,7 @@
 project-brand = Firefox-ანგარიშები
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox ანგარიშები
 
@@ -22,6 +23,12 @@ general-error-heading = აპლიკაციის საერთო შე
 basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 payment-error-1 = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. სცადეთ კვლავ ან დაუკავშირდით თქვენი ბარათის გამომშვებს.
 payment-error-2 = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
+payment-error-3 = მოულოდნელი შეცდომა წარმოიშვა, თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+payment-error-retry-button = ხელახლა ცდა
+payment-error-manage-subscription-button = გამოწერების მართვა
+country-currency-mismatch = გამოწერის ეს ვალუტა, არაა მოქმედი იმ ქვეყნისთვის, რომელიც თქვენს ანგარიშზეა მიბმული.
+currency-currency-mismatch = სამწუხაროდ, ვერ შეძლებთ ვალუტის შეცვლას.
+returning-paypal-customer-error = სამწუხაროდ, ამჟამად ერთბაშად მხოლოდ ერთი გამოწერაა დაშვებული. გთხოვთ, დაელოდოთ ცვლილებებს.
 expired-card-error = როგორც ჩანს, თქვენი საკრედიტო ბარათი ვადაგასულია. სცადეთ სხვა ბარათი.
 insufficient-funds-error = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
 withdrawal-count-limit-exceeded-error = როგორც ჩანს, ეს გადარიცხვა აჭარბებს თქვენს საკრედიტო ზღვარს. სცადეთ ხელახლა სხვა ბარათით.
@@ -41,10 +48,12 @@ settings-subscriptions-title = გამოწერები
 terms = გამოყენების პირობები
 privacy = პირადულობის განაცხადი
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = მომსახურების გამოწერა
-product-plan-details-heading = მომსახურების გამოწერა
+subscription-create-title = გამოწერის გამართვა
+subscription-success-title = გამოწერის დადასტურება
+subscription-processing-title = გამოწერა მოწმდება...
+subscription-error-title = შეცდომა, გამოწერის დადასტურებისას...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,12 @@ product-no-such-plan = ამ პროდუქტისთვის ასე�
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } იყენებს Stripe-ს და Paypal-ს გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe-paypal = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink> და <paypalPrivacyLink>Paypal პირადულობის დებულება</paypalPrivacyLink>
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } იყენებს Stripe-ს და { -brand-name-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link-stripe-and-paypal = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink> და <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } იყენებს { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link-paypal = იხილეთ <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } იყენებს Stripe-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+payment-legal-link-stripe = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,8 +171,7 @@ input-error-is-required = { $label } აუცილებელია
 
 product-plan-upgrade-heading = გაუმჯობესების შეთვალიერება
 sub-update-failed = გეგმის განახლება ვერ მოხერხდა
-sub-update-title = ანგარიშსწორების მონაცემები
-sub-update-card-ending = ბარათი დაბოლოებით { $last }
+sub-update-payment-title = გადახდის მონაცემები
 sub-update-card-exp = მოქმედების ვადა { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ შესწორებული
@@ -345,13 +357,16 @@ plan-details-show-button = ვრცლად ჩვენება
 plan-details-hide-button = მოკლედ ჩვენება
 plan-details-total-label = სულ
 
+## payment-processing
+
+payment-processing-message = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება...
+
 ## payment confirmation
 
 payment-confirmation-alert = დააწკაპეთ აქ ჩამოსატვირთად
 payment-confirmation-mobile-alert = არ გაიხსნა? <a>დაწკაპეთ აქ</a>
-payment-confirmation-heading = გმადლობთ { $displayName }!
-payment-confirmation-heading-bak = გმადლობთ!
-payment-confirmation-subheading = დასადასტურებელი ელფოსტა გაიგზავნა მისამართზე
+payment-confirmation-thanks-heading = გმადლობთ!
+payment-confirmation-thanks-subheading = დასტურის წერილი გამოგზავნილია ელფოსტაზე { $email } დაწვრილებითი მითითებებით, თუ როგორ გამოიყენოთ { $product_name }.
 payment-confirmation-order-heading = შეკვეთის მონაცემები
 payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
 payment-confirmation-billing-heading = ანგარიშმსწორები
@@ -384,5 +399,5 @@ payment-confirmation-amount-year =
         [one] { $amount } ყოველწლიურად
        *[other] { $amount } ყოველ { $intervalCount } წელიწადში
     }
-payment-confirmation-cc-preview = დაბოლოებით { $last4 }
 payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
+payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
