@@ -8,6 +8,7 @@
 project-brand = Firefox 账户
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox 账户
 
@@ -22,6 +23,8 @@ general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
 payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡行联系。
 payment-error-2 = 呃，您的付款授权有问题。请与您的发卡行联系。
+payment-error-retry-button = 请重试
+payment-error-manage-subscription-button = 管理我的订阅
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
@@ -41,10 +44,8 @@ settings-subscriptions-title = 订阅
 terms = 服务条款
 privacy = 隐私声明
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = 来设置订阅吧
-product-plan-details-heading = 来设置订阅吧
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -86,8 +87,6 @@ product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } 使用 Stripe 和 Paypal 安全地处理付款事项。
-payment-legal-link-stripe-paypal = 查看 <stripePrivacyLink>Stripe 隐私政策</stripePrivacyLink>和 <paypalPrivacyLink>Paypal 隐私政策</paypalPrivacyLink>。
 
 ## payment form
 
@@ -157,8 +156,6 @@ input-error-is-required = { $label } 必填
 
 product-plan-upgrade-heading = 确认升级内容
 sub-update-failed = 方案更新失败
-sub-update-title = 账单信息
-sub-update-card-ending = 卡尾号 { $last }
 sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 sub-update-copy = 您的方案内容会即刻变更，且会向您收取剩余的差额。自 { $startingDate } 起将会向您收取全额。
 
@@ -331,13 +328,14 @@ plan-details-show-button = 显示详细信息
 plan-details-hide-button = 隐藏详细信息
 plan-details-total-label = 总计
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = 点此下载
 payment-confirmation-mobile-alert = 应用程序没有打开？ <a>请点击此处</a>
-payment-confirmation-heading = 感谢 { $displayName }！
-payment-confirmation-heading-bak = 感谢您！
-payment-confirmation-subheading = 已将确认邮件发送至
+payment-confirmation-thanks-heading = 感谢您！
 payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人：
@@ -366,5 +364,5 @@ payment-confirmation-amount-year =
     { $intervalCount ->
        *[other] 每 { $intervalCount } 年 { $amount }
     }
-payment-confirmation-cc-preview = 卡号末四位: { $last4 }
 payment-confirmation-download-button = 前往下载
+payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }

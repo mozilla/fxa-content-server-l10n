@@ -172,6 +172,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = 重拍照片
 avatar-page-close-button = 关闭
 avatar-page-save-button = 保存
+avatar-page-saving-button = 正在保存…
 avatar-page-zoom-out-button = 缩小
 avatar-page-zoom-in-button = 放大
 avatar-page-rotate-button = 旋转
