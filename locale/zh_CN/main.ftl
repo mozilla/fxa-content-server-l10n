@@ -48,6 +48,10 @@ privacy = 隐私声明
 
 ## Subscription titles
 
+subscription-create-title = 设置您的订阅
+subscription-success-title = 订阅确认
+subscription-processing-title = 正在确认订阅...
+subscription-error-title = 确认订阅时出现错误...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -89,6 +93,11 @@ product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } 使用 Stripe 和 { -brand-name-paypal } 进行安全支付。
+payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
+payment-legal-link-paypal = 查看 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
+payment-legal-copy-stripe = { -brand-name-mozilla } 使用 Stripe 进行安全支付。
+payment-legal-link-stripe = 查看 <stripePrivacyLink>Stripe 隐私政策</stripePrivacyLink>。
 
 ## payment form
 
@@ -333,6 +342,7 @@ plan-details-total-label = 总计
 
 ## payment-processing
 
+payment-processing-message = 请稍候，我们正在处理您的付款...
 
 ## payment confirmation
 
