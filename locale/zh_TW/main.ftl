@@ -50,6 +50,10 @@ privacy = 隱私權公告
 
 ## Subscription titles
 
+subscription-create-title = 設定訂閱
+subscription-success-title = 訂閱確認
+subscription-processing-title = 正在確認訂閱…
+subscription-error-title = 確認訂閱時發生錯誤…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -92,6 +96,12 @@ product-no-such-plan = 此產品無此方案。
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } 使用 Stripe 與 { -brand-name-paypal } 來安全地處理交易款項。
+payment-legal-link-stripe-and-paypal = 可在此檢視 <stripePrivacyLink>Stripe 隱私權保護政策</stripePrivacyLink>及<paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>。
+payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 來安全地處理交易款項。
+payment-legal-link-paypal = 可在此檢視 <paypalPrivacyLink>{ -brand-name-paypal } 的隱私權保護政策</paypalPrivacyLink>。
+payment-legal-copy-stripe = { -brand-name-mozilla } 使用 Stripe 來安全地處理交易款項。
+payment-legal-link-stripe = 可在此檢視 <stripePrivacyLink>Stripe 的隱私權保護政策</stripePrivacyLink>。
 
 ## payment form
 
@@ -333,6 +343,7 @@ plan-details-total-label = 總計
 
 ## payment-processing
 
+payment-processing-message = 請稍候，正在處理付款…
 
 ## payment confirmation
 
