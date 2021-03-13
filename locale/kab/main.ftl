@@ -92,11 +92,12 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } seqdec Stripe akked Paypal akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } isseqdac Stripe akked Paypal akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
 payment-legal-link-stripe-and-paypal = Wali <stripePrivacyLink>tasertit n tbaḍnit n Stripe</stripePrivacyLink>{ -brand-name-paypal } akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
 payment-legal-link-paypal = Wali <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>.
 payment-legal-copy-stripe = { -brand-name-mozilla } isseqdac Stripe i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe = Wali <stripePrivacyLink>tasertit tabaḍnit n Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -166,6 +167,7 @@ input-error-is-required = { $label } ilaq
 
 product-plan-upgrade-heading = Senqed lqem-inek/inem
 sub-update-failed = Aɣwas n uleqqem ur yeddi ara
+sub-update-payment-title = Talɣut n usellek
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Aɣawas-ik•im ad ibeddel tura kan, tasmekta n tfaturt-ik•im
@@ -351,11 +353,14 @@ plan-details-total-label = Asemday
 
 ## payment-processing
 
+payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem...
 
 ## payment confirmation
 
 payment-confirmation-alert = Sit dagi i usider
 payment-confirmation-mobile-alert = Ur tezmireḍ ara ad d-teldiḍ asnas? <a>Sit dagi</a>
+payment-confirmation-thanks-heading = Tanemmirt!
+payment-confirmation-thanks-subheading = Imayl n usentem yettwazen-ak·am-n ɣer { $email } s telqayt ɣef wamek ara tebduḍ akked { $product_name }.
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ifetter ɣer
@@ -389,3 +394,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } yal { $intervalCount } aseggas
     }
 payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
+payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }

@@ -191,6 +191,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Ṭṭef tawlaft i tikkelt-nniḍen
 avatar-page-close-button = Mdel
 avatar-page-save-button = Sekles
+avatar-page-saving-button = Asekles…
 avatar-page-zoom-out-button = Semẓi
 avatar-page-zoom-in-button = Semɣer
 avatar-page-rotate-button = Tuzzya
