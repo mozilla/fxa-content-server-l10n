@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,12 @@ general-error-heading = Error de aplicación general
 basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 payment-error-1 = Hmm. Hubo un problema al autorizar el pago. Probá nuevamente o ponete en contacto con el emisor de su tarjeta.
 payment-error-2 = Hmm. Hubo un problema al autorizar el pago. Ponete en contacto con el emisor de su tarjeta.
+payment-error-3 = Se produjo un error inesperado al procesar el pago. Probá de nuevo.
+payment-error-retry-button = Intentar de nuevo
+payment-error-manage-subscription-button = Administrar mi suscripción
+country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
+currency-currency-mismatch = Disculpá. No podés cambiar entre divisas.
+returning-paypal-customer-error = Disculpá. En este momento, solo podés suscribirte a una suscripción a la vez. Revisá más tarde.
 expired-card-error = Parece que la tarjeta de crédito ha expirado. Probá con otra tarjeta.
 insufficient-funds-error = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción sobrepasará el límite de crédito. Probá otra tarjeta.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Suscripciones
 terms = Términos del servicio
 privacy = Nota de privacidad
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Configuremos la suscripción
-product-plan-details-heading = Configuremos la suscripción
+subscription-create-title = Configurá tu suscripción
+subscription-success-title = Confirmación de la suscripción
+subscription-processing-title = Confirmando suscripción...
+subscription-error-title = Error al confirmar la suscripción…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,6 @@ product-no-such-plan = No existe tal plan para este producto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } usa Stripe y Paypal para procesamiento seguro de pagos.
-payment-legal-link-stripe-paypal = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +165,6 @@ input-error-is-required = Se necesita { $etiqueta }
 
 product-plan-upgrade-heading = Revisá la actualización
 sub-update-failed = Fallo en la actualización del plan
-sub-update-title = Información de facturación
-sub-update-card-ending = Final de la tarjeta { $last }
 sub-update-card-exp = Vence { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     El plan cambiará de inmediato y se cobrará un monto
@@ -342,13 +347,13 @@ plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No abre la aplicación? <a>Clic aquí</a>
-payment-confirmation-heading = ¡Gracias { $displayName }!
-payment-confirmation-heading-bak = ¡Gracias!
-payment-confirmation-subheading = Se ha enviado un correo electrónico de confirmación a
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura número { $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -381,5 +386,4 @@ payment-confirmation-amount-year =
         [one] { $amount } anual
        *[other] { $amount } cada { $intervalCount } años
     }
-payment-confirmation-cc-preview = terminada en { $last4 }
 payment-confirmation-download-button = Continuar descargando
