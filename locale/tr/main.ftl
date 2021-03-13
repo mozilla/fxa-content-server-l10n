@@ -22,6 +22,7 @@ general-error-heading = Genel uygulama hatası
 basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
 payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+payment-error-manage-subscription-button = Aboneliğimi yönet
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
@@ -41,10 +42,8 @@ settings-subscriptions-title = Abonelikler
 terms = Kullanım Koşulları
 privacy = Gizlilik Bildirimi
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Aboneliğinizi ayarlayalım
-product-plan-details-heading = Aboneliğinizi ayarlayalım
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,7 +86,7 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için Stripe ve Paypal kullanır.
+payment-legal-copy-stripe = { -brand-name-mozilla } güvenli ödeme işlemleri için Stripe kullanır.
 
 ## payment form
 
@@ -157,8 +156,6 @@ input-error-is-required = { $label } gereklidir
 
 product-plan-upgrade-heading = Yükseltmenizi gözden geçirin
 sub-update-failed = Plan güncelleme başarısız
-sub-update-title = Fatura bilgileri
-sub-update-card-ending = { $last } ile biten kart
 sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -329,13 +326,14 @@ plan-details-show-button = Ayrıntıları göster
 plan-details-hide-button = Ayrıntıları gizle
 plan-details-total-label = Toplam
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = İndirmek için buraya tıklayın
 payment-confirmation-mobile-alert = Uygulama açılmadı mı? <a>Buraya tıklayın</a>
-payment-confirmation-heading = Teşekkürler { $displayName }!
-payment-confirmation-heading-bak = Teşekkürler!
-payment-confirmation-subheading = Onay e-postasının gönderildiği adres:
+payment-confirmation-thanks-heading = Teşekkürler!
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ödeyen
@@ -368,5 +366,4 @@ payment-confirmation-amount-year =
         [one] Yıllık { $amount }
        *[other] { $intervalCount } yılda bir { $amount }
     }
-payment-confirmation-cc-preview = { $last4 } ile biten
 payment-confirmation-download-button = İndirmeye devam et

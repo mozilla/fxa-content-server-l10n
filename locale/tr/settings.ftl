@@ -180,6 +180,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Yeniden fotoğraf çek
 avatar-page-close-button = Kapat
 avatar-page-save-button = Kaydet
+avatar-page-saving-button = Kaydediliyor…
 avatar-page-zoom-out-button = Uzaklaştır
 avatar-page-zoom-in-button = Yakınlaştır
 avatar-page-rotate-button = Döndür
