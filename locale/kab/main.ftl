@@ -46,6 +46,10 @@ privacy = Tasertit n tbaḍnit
 
 ## Subscription titles
 
+subscription-create-title = Sbadu amulteɣ-ik·im
+subscription-success-title = Asentem n umulteɣ
+subscription-processing-title = Asentem n umulteɣ...
+subscription-error-title = Tuccḍa deg usentem n umulteɣ...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -88,6 +92,11 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } seqdec Stripe akked Paypal akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-and-paypal = Wali <stripePrivacyLink>tasertit n tbaḍnit n Stripe</stripePrivacyLink>{ -brand-name-paypal } akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-paypal = Wali <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } isseqdac Stripe i usesfer aɣelsan n yiselliken.
 
 ## payment form
 
