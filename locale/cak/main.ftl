@@ -97,6 +97,11 @@ product-no-such-plan = Majun ajil richin re tikojil.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
+payment-legal-link-stripe-and-paypal = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem Stripe</stripePrivacyLink> chuqa' <paypalPrivacyLink>{ -brand-name-paypal }Runa'ojil Richinanem </paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } nrokisaj { -brand-name-paypal } richin nijikib'äx ri tojïk.
+payment-legal-link-paypal = Titz'et ri <paypalPrivacyLink>{ -brand-name-paypal } runa'ojil ichinanem</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } nrokisaj Stripe richin nijikib'äx ri tojïk.
+payment-legal-link-stripe = Titz'et ri <stripePrivacyLink>Runa'ojil ichinanem Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -166,6 +171,7 @@ input-error-is-required = Najowäx { $label }
 
 product-plan-upgrade-heading = Tanik'oj ri k'exoj
 sub-update-failed = Xsach ri ruk'exoj ajil
+sub-update-payment-title = Retamab'al tojïk
 sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Anin xtijalatäj ri retal rajil chuqa' xtik'ul jun rajil
@@ -353,11 +359,13 @@ plan-details-total-label = Ronojel
 
 ## payment-processing
 
+payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
 
 ## payment confirmation
 
 payment-confirmation-alert = Tipitz' wawe' richin niqasäx
 payment-confirmation-mobile-alert = ¿La man nijaqatäj ta ri chokoy? <a>Tipitz' Wawe'</a>
+payment-confirmation-thanks-heading = ¡Matyox!
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 payment-confirmation-billing-heading = Xb'an pakturar chi re
@@ -391,3 +399,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } jujun { $intervalCount } juna'
     }
 payment-confirmation-download-button = K'a tiqasäx
+payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
