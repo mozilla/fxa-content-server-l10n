@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-13 05:45+0000\n"
+"PO-Revision-Date: 2021-03-13 06:16+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -425,11 +425,11 @@ msgstr "可能是您的信用卡過期，或目前的付款方式失效了。"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
-msgstr ""
+msgstr "請於 24 小時內到<a href=\"%(updateBillingUrl)s\">此頁面</a>更新付款資訊。"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "若沒有在 24 小時內更新付款資訊，將停止您的 %(productName)s 使用權限。"
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within 24 hours:"

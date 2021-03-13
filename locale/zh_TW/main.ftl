@@ -350,6 +350,7 @@ payment-processing-message = 請稍候，正在處理付款…
 payment-confirmation-alert = 點擊此處下載
 payment-confirmation-mobile-alert = 應用程式沒有出現嗎？<a>請點擊此處</a>
 payment-confirmation-thanks-heading = 感謝您！
+payment-confirmation-thanks-subheading = 我們已將確認郵件發送到 { $email }，當中包含如何開始使用 { $product_name } 的相關資訊。
 payment-confirmation-order-heading = 訂單詳細資訊
 payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人
