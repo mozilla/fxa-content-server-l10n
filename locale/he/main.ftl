@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -18,6 +19,10 @@ document =
 
 general-error-heading = שגיאת יישום כללית
 basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
+payment-error-3 = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+payment-error-retry-button = ניסיון חוזר
+payment-error-manage-subscription-button = ניהול המינוי שלי
+country-currency-mismatch = המטבע של מינוי זה אינו תקף למדינה המשויכת לתשלום שלך.
 expired-card-error = נראה שפג תוקף הכרטיס אשראי שלך. נא לנסות כרטיס אחר.
 insufficient-funds-error = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 withdrawal-count-limit-exceeded-error = נראה שעסקה זו תחריג אותך מעבר למסגרת האשראי שלך. נא לנסות כרטיס אחר.
@@ -34,10 +39,8 @@ settings-subscriptions-title = מינויים
 terms = תנאי השירות
 privacy = הצהרת פרטיות
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = הבה נגדיר את המינוי שלך
-product-plan-details-heading = הבה נגדיר את המינוי שלך
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -84,8 +87,6 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = ‏{ -brand-name-mozilla } משתמש ב־Stripe וב־Paypal לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-paypal = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -130,8 +131,6 @@ input-error-is-required = ‏{ $label } נדרש
 
 product-plan-upgrade-heading = סקירת השדרוג שלך
 sub-update-failed = עדכון התוכנית נכשל
-sub-update-title = פרטי חיוב
-sub-update-card-ending = הכרטיס שמסתיים ב־{ $last }
 sub-update-copy =
     התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
     לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
@@ -296,13 +295,13 @@ plan-details-show-button = הצגת פרטים
 plan-details-hide-button = הסתרת פרטים
 plan-details-total-label = סה״כ
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = נא ללחוץ כאן להורדה
 payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
-payment-confirmation-heading = תודה רבה { $displayName }!
-payment-confirmation-heading-bak = תודה רבה!
-payment-confirmation-subheading = הודעת דוא״ל לאישור נשלחה אל
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
 payment-confirmation-billing-heading = חיוב לטובת
@@ -339,4 +338,3 @@ payment-confirmation-amount-year =
         [two] { $amount } כל שנתיים
        *[other] { $amount } כל { $intervalCount } שנים
     }
-payment-confirmation-cc-preview = מסתיים ב־{ $last4 }
