@@ -27,6 +27,7 @@ payment-error-3 = 处理付款时发生意外错误，请重试。
 payment-error-retry-button = 请重试
 payment-error-manage-subscription-button = 管理我的订阅
 currency-currency-mismatch = 抱歉，您不能切换货币。
+returning-paypal-customer-error = 抱歉，当前同时只能生效一组订阅。请以后再来。
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
@@ -94,6 +95,7 @@ product-no-such-plan = 此产品无此方案。
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } 使用 Stripe 和 { -brand-name-paypal } 进行安全支付。
+payment-legal-link-stripe-and-paypal = 查看 <stripePrivacyLink>Stripe 隐私政策</stripePrivacyLink>和 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
 payment-legal-link-paypal = 查看 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-stripe = { -brand-name-mozilla } 使用 Stripe 进行安全支付。
@@ -349,6 +351,7 @@ payment-processing-message = 请稍候，我们正在处理您的付款...
 payment-confirmation-alert = 点此下载
 payment-confirmation-mobile-alert = 应用程序没有打开？ <a>请点击此处</a>
 payment-confirmation-thanks-heading = 感谢您！
+payment-confirmation-thanks-subheading = 确认邮件已发送至 { $email }，其中包含如何开始使用 { $product_name } 的详细信息。
 payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人：
