@@ -8,6 +8,7 @@
 project-brand = Аккаунты Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Аккаунты Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Общая ошибка приложения
 basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
 payment-error-1 = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
 payment-error-2 = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
+payment-error-3 = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
+payment-error-retry-button = Попробовать снова
+payment-error-manage-subscription-button = Управление моей подпиской
+country-currency-mismatch = Валюта этой подписки недействительна для страны, связанной с вашим платежом.
+currency-currency-mismatch = Извините. Вы не можете переключаться между валютами.
+returning-paypal-customer-error = Извините. В настоящее время вы можете подписаться только на одну подписку за раз. Пожалуйста, загляните попозже.
 expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
 insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Подписки
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Давайте настроим вашу подписку
-product-plan-details-heading = Давайте настроим вашу подписку
+subscription-create-title = Настройка вашей подписки
+subscription-success-title = Подтверждение подписки
+subscription-processing-title = Подтверждение подписки...
+subscription-error-title = Ошибка подтверждения подписки...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,8 +100,12 @@ product-no-such-plan = Нет такого плана для этого прод
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } использует Stripe и Paypal для безопасной обработки платежей.
-payment-legal-link-stripe-paypal = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } использует Stripe и { -brand-name-paypal } для безопасной обработки платежей.
+payment-legal-link-stripe-and-paypal = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } использует { -brand-name-paypal } для безопасной обработки платежей.
+payment-legal-link-paypal = Ознакомьтесь с <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } использует Stripe для безопасной обработки платежей.
+payment-legal-link-stripe = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -166,8 +179,7 @@ input-error-is-required = { $label } обязательное
 
 product-plan-upgrade-heading = Проверьте свое обновление
 sub-update-failed = Не удалось обновить план
-sub-update-title = Платёжная информация
-sub-update-card-ending = Срок действия карты { $last }
+sub-update-payment-title = Платежная информация
 sub-update-card-exp = Срок действия истекает { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Ваш план сменится сразу, и с вас будет списана скорректированная
@@ -365,13 +377,16 @@ plan-details-show-button = Показать подробности
 plan-details-hide-button = Скрыть подробности
 plan-details-total-label = Всего
 
+## payment-processing
+
+payment-processing-message = Подождите, пока мы обработаем ваш платеж...
+
 ## payment confirmation
 
 payment-confirmation-alert = Нажмите здесь для загрузки
 payment-confirmation-mobile-alert = Не открылось приложение? <a>Щёлкните здесь</a>
-payment-confirmation-heading = Спасибо, { $displayName }!
-payment-confirmation-heading-bak = Спасибо!
-payment-confirmation-subheading = Письмо для подтверждения было отправлено на
+payment-confirmation-thanks-heading = Спасибо!
+payment-confirmation-thanks-subheading = На адрес { $email } было отправлено письмо с подтверждением и информацией о том, как начать работу с { $product_name }.
 payment-confirmation-order-heading = Информация о заказе
 payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
 payment-confirmation-billing-heading = Счёт выставлен на
@@ -408,5 +423,4 @@ payment-confirmation-amount-year =
         [few] { $amount } каждые { $intervalCount } года
        *[many] { $amount } каждые { $intervalCount } лет
     }
-payment-confirmation-cc-preview = оканчивается на { $last4 }
 payment-confirmation-download-button = Продолжить загрузку

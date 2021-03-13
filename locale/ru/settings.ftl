@@ -200,6 +200,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Переснять фото
 avatar-page-close-button = Закрыть
 avatar-page-save-button = Сохранить
+avatar-page-saving-button = Сохранение…
 avatar-page-zoom-out-button = Уменьшить
 avatar-page-zoom-in-button = Увеличить
 avatar-page-rotate-button = Повернуть
