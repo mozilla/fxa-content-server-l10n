@@ -26,6 +26,9 @@ payment-error-2 = Hmm. Xk'oje' jun k'ayewal rik'in ruya'ik q'ij tojïk. Katzijon
 payment-error-3 = Xk'ulwachitäj jun man oyob'en ta chi sachoj toq nib'an ri tojïk, tatojtob'ej chik.
 payment-error-retry-button = Titojtob'ëx chik
 payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
+country-currency-mismatch = Man okel ta ri rupwaq re tz'ib'anïk b'i'aj re' richin re amaq' atz'ib'an kan richin ri atojik.
+currency-currency-mismatch = Takuyu'. Man yatikïr ta najäl chi kikojol ri pwaqil.
+returning-paypal-customer-error = Takuyu'. Pa re ramaj re', xa xe yatikïr natz'ib'aj ab'i' pa jun rutz'ib'axik b'i'aj. Tanik'oj pa jumej chik.
 expired-card-error = Xa ke xa ri rutajeta' richin kre'ito' xik'o yan ruq'ijul. Tatojtob'ej chik rik'in jun tarjeta'.
 insufficient-funds-error = Xa ke xa ri tajeta' man k'ïy ta rupam. Tatojtob'ej chik rik'in jun tarjeta'.
 withdrawal-count-limit-exceeded-error = Xakexa re tojoj re' xtik'o ruwi' rajil. Tatojtob'ej jun chik tarjeta'.
@@ -47,6 +50,9 @@ privacy = Ichinan Na'oj
 
 ## Subscription titles
 
+subscription-create-title = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
+subscription-success-title = Rujikib'axik rutz'ib'axik b'i'aj
+subscription-processing-title = Nijikib'äx rutz'ib'axik b'i'aj
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
