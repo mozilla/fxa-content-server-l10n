@@ -23,8 +23,10 @@ general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
 payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡行联系。
 payment-error-2 = 呃，您的付款授权有问题。请与您的发卡行联系。
+payment-error-3 = 处理付款时发生意外错误，请重试。
 payment-error-retry-button = 请重试
 payment-error-manage-subscription-button = 管理我的订阅
+currency-currency-mismatch = 抱歉，您不能切换货币。
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
@@ -156,6 +158,7 @@ input-error-is-required = { $label } 必填
 
 product-plan-upgrade-heading = 确认升级内容
 sub-update-failed = 方案更新失败
+sub-update-payment-title = 付款信息
 sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 sub-update-copy = 您的方案内容会即刻变更，且会向您收取剩余的差额。自 { $startingDate } 起将会向您收取全额。
 
