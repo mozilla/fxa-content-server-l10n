@@ -432,8 +432,13 @@ se-remove-email =
 se-refresh-email =
     .title = Titzolïx taqoya'l
 se-unverified = man jikib'an ta
+se-resend-code =
+    Nrajo' jikib'axïk. <button>Titaq chik rub'itz'ib' jikib'anïk</button>
+    we man k'o ta pan ataqob'al o rumolb'al spam.
 # Button to make secondary email the primary
 se-make-primary = Tichap achi'el nab'ey
+se-default-content = Katok pan ataqoya'l we man yatikïr ta yatok pa ri nab'ey ataqoya'l.
+se-content-note = Ch'utitzijol: jun ruka'n taqoya'l man xtunük' ta ri awetamab'al — xtik'atzin jun <a>kolonel ruk'u'x atzij</a> richin re'.
 
 ##
 
