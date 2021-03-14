@@ -8,6 +8,7 @@
 project-brand = Λογαριασμός Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Λογαριασμός Firefox
 
@@ -22,6 +23,8 @@ general-error-heading = Γενικό σφάλμα εφαρμογής
 basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
 payment-error-1 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
 payment-error-2 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
+payment-error-retry-button = Δοκιμή ξανά
+payment-error-manage-subscription-button = Διαχείριση συνδρομής
 expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
 insufficient-funds-error = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 withdrawal-count-limit-exceeded-error = Φαίνεται πως αυτή η συναλλαγή θα υπερβεί το πιστωτικό σας όριο. Δοκιμάστε με μια άλλη κάρτα.
@@ -41,10 +44,12 @@ settings-subscriptions-title = Συνδρομές
 terms = Όροι υπηρεσίας
 privacy = Σημείωση απορρήτου
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Ας ρυθμίσουμε τη συνδρομή σας
-product-plan-details-heading = Ας ρυθμίσουμε τη συνδρομή σας
+subscription-create-title = Ρύθμιση συνδρομής
+subscription-success-title = Επιβεβαίωση συνδρομής
+subscription-processing-title = Επιβεβαίωση συνδρομής...
+subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +92,6 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυ
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = Η { -brand-name-mozilla } χρησιμοποιεί τα Stripe και Paypal για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-stripe-paypal = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του Stripe</stripePrivacyLink> και την <paypalPrivacyLink>πολιτική απορρήτου του Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +161,7 @@ input-error-is-required = Απαιτείται το { $label }
 
 product-plan-upgrade-heading = Έλεγχος αναβάθμισης
 sub-update-failed = Αποτυχία ενημέρωσης πλάνου
-sub-update-title = Πληροφορίες χρέωσης
-sub-update-card-ending = Κάρτα που λήγει σε { $last }
+sub-update-payment-title = Πληροφορίες πληρωμής
 sub-update-card-exp = Λήγει { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Το πλάνο σας θα αλλάξει αμέσως και θα χρεωθείτε με ένα προσαρμοσμένο
@@ -345,13 +347,14 @@ plan-details-show-button = Εμφάνιση λεπτομερειών
 plan-details-hide-button = Απόκρυψη λεπτομερειών
 plan-details-total-label = Σύνολο
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Κάντε κλικ εδώ για λήψη
 payment-confirmation-mobile-alert = Δεν άνοιξε η εφαρμογή; <a>Κάντε κλικ εδώ</a>
-payment-confirmation-heading = Ευχαριστούμε, { $displayName }!
-payment-confirmation-heading-bak = Ευχαριστούμε!
-payment-confirmation-subheading = Ένα email επιβεβαίωσης έχει σταλεί στο
+payment-confirmation-thanks-heading = Ευχαριστούμε!
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
 payment-confirmation-billing-heading = Χρέωση σε
@@ -384,5 +387,4 @@ payment-confirmation-amount-year =
         [one] { $amount } ετησίως
        *[other] { $amount } κάθε { $intervalCount } χρόνια
     }
-payment-confirmation-cc-preview = λήγει σε { $last4 }
 payment-confirmation-download-button = Συνέχεια στη λήψη

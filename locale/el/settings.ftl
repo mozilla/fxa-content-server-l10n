@@ -141,6 +141,7 @@ avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-close-button = Κλείσιμο
 avatar-page-save-button = Αποθήκευση
+avatar-page-saving-button = Αποθήκευση…
 avatar-page-zoom-out-button = Σμίκρυνση
 avatar-page-zoom-in-button = Μεγέθυνση
 avatar-page-rotate-button = Περιστροφή
