@@ -352,6 +352,9 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Ke'ayaka' re jun rokisaxik taq b'itz'ib' pa jun jikïl k'ojlib'äl richin toq
     man k'o ta awik'in ri awoyonib'al.
+tfa-enter-code-to-confirm =
+    Tatz'ib'aj jun chi ke ri kolonel ab'itz'ib' wakami richin
+    tijikib'äx chi xayäk, xtik'atzin jun ab'itz'ib' we nasäch jun awokisab'al chuqa' we nawajo' yatok pa rub'i' ataqoya'l.
 tfa-enter-recovery-code =
     .label = Tatz'ib'aj jun kolonel b'itz'ib'
 
