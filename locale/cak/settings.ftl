@@ -113,6 +113,12 @@ cs-disconnect-sync-opt-not-say = Man ninwajo' ta ninb'ij
 
 cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
 cs-disconnect-lost-advice-heading = Eleq'an o sachon okisab'äl chupül
+cs-disconnect-lost-advice-content-2 =
+    Ruma chi xeleq'äx o xsach ri okisab'äl, richin
+    nichajïx ri etamab'äl, k'o ta chi najäl ri ewan rutzij { -product-firefox-account }
+    pa ri runuk'ulem rub'i' taqoya'l. Chuqa' k'o ta chi nakanoj retamab'al
+    ri b'anöy okisab'äl richin ye'ayüj ri taq rutzij toq k'o näj.
+cs-disconnect-suspicious-advice-heading = Xchup ri q'elenel okisab'äl
 cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
@@ -152,6 +158,7 @@ nav-settings = Taq nuk'ulem
 nav-profile = Ruwäch b'i'aj
 nav-security = Jikomal
 nav-connected-services = Taq Samaj Ye'okisäx
+nav-paid-subs = Rutz'ib'axik rub'i' Paid
 nav-email-comm = Tzijonem pa taqoya'l
 
 ## Two Step Authentication - replace recovery code
@@ -175,6 +182,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Telesäx chik wachib'äl
 avatar-page-close-button = Titz'apïx
 avatar-page-save-button = Tiyak
+avatar-page-saving-button = Niyak…
 avatar-page-zoom-out-button = Ruch'utinirisaxik rupalem
 avatar-page-zoom-in-button = Tinimirisäx
 avatar-page-rotate-button = Tisetüx
@@ -192,6 +200,7 @@ avatar-page-image-too-large-error = Yalan nïm ruyakb'al ri wachib'äl richin ni
 
 pw-change-header =
     .title = Tijal ewan tzij
+pw-change-stay-safe = Kajike' — man ke'awokisaj ri ewan taq tzij. Ri ewan tzij:
 pw-change-least-8-chars = K'o chi man xa xe ta tuk'waj 8 taq tz'ib'
 pw-change-not-contain-email = Man tikirel ta nok rochochib'al ataqoya'l
 pw-change-must-match = Nuk'äm ri' ri k'ak'a' ewan tzij rik'in ri jikib'anïk
@@ -239,8 +248,11 @@ delete-account-delete-button-2 = Tiyuj
 
 display-name-page-title =
     .title = Tik'ut b'i'aj
+display-name-input =
+    .label = Titz'ib'äx ri b'i'aj richin nik'ut
 submit-display-name = Tiyak
 cancel-display-name = Tiq'at
+display-name-update-error = K'o k'ayewal toq xk'ex ri b'i'aj richin nik'ut.
 display-name-success-alert = Tik'ut pe ri b'i'aj xk'ex.
 
 ##
@@ -255,6 +267,8 @@ recovery-key-enter-password =
     .label = Titz'ib'äx ewan tzij
 recovery-key-page-title =
     .title = Kolonel ewan tzij
+recovery-key-step-1 = 1 xak richin 2
+recovery-key-step-2 = 2 xak richin 2
 
 ## Add secondary email page
 
