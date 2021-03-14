@@ -403,11 +403,20 @@ rk-content-explain = Tatzolij ri awetamab'al toq namestaj ri ewan atzij.
 rk-content-reset-data = ¿Aruma nitzolïx ri ewan nutzij, yerutzolij ri taq nutzij?
 rk-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
 rk-remove-modal-heading = ¿La niyuj ri kolonel ruk'u'x rutzij?
+rk-remove-modal-content =
+    Toq xtikolotäj ri ewan atzij, man
+    xkatikïr ta xtawokisaj ri kolonel ruk'u'x atzij richin yatok pa taq atzij. Man yatikïr ta natzolij re rub'anik.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ruka'n taqoya'l
     .header = Ruka'n taqoya'l
+se-cannot-refresh-email = Takuyu', xk'oje' jun k'ayewal toq nik'ex ri taqoya'l.
+se-cannot-resend-code = Takuyu', xk'oje' k'ayewal toq xtaq chik ri rub'itz'ib' jikib'anïk.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ja ri nab'ey ataqoya'l wakami.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
