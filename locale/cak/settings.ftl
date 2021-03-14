@@ -422,6 +422,8 @@ se-set-primary-error = Kojakuyu', xk'ulwachitäj jun k'ayewal toq nijal ri nab'e
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } ütz xyuj.
+se-delete-email-error = Takuyu', xk'oje' jun k'ayewal toq niyuj re taqoya'l.
+se-verify-session = K'o chi najikib'a' ri amolojri'ïl richin nab'än re b'anoj re'.
 se-verify-session-error = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
 # Button to remove the secondary email
 se-remove-email =
