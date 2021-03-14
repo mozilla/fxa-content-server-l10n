@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,12 @@ general-error-heading = Error general de la aplicación
 basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
 payment-error-1 = Hmm. Hubo un problema autorizando tu pago. Inténtalo otra vez o ponte en contacto con el emisor de su tarjeta
 payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+payment-error-3 = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo
+payment-error-retry-button = Volver a intentarlo
+payment-error-manage-subscription-button = Administrar mi suscripción
+country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
+currency-currency-mismatch = Lo sentimos. No puedes cambiar entre monedas.
+returning-paypal-customer-error = Lo sentimos. En este momento, solo puedes registrarte para una suscripción a la vez. Por favor, vuelve a comprobarlo más tarde.
 expired-card-error = Parece que tu tarjeta de crédito ha caducado. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción superará tu límite de crédito. Prueba con otra tarjeta.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Suscripciones
 terms = Términos del servicio
 privacy = Aviso de privacidad
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Configuremos tu suscripción
-product-plan-details-heading = Configuremos tu suscripción
+subscription-create-title = Configura tu suscripción
+subscription-success-title = Confirmación de la suscripción
+subscription-processing-title = Confirmando la suscripción...
+subscription-error-title = Error al confirmar la suscripción…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,7 @@ product-no-such-plan = No existe el plan para este producto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } usa Stripe y Paypal para el procesamiento seguro de pagos.
-payment-legal-link-stripe-paypal = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } usa Stripe y { -brand-name-paypal } para el procesamiento seguro de pagos.
 
 ## payment form
 
@@ -158,8 +166,6 @@ input-error-is-required = Se requiere { $label }
 
 product-plan-upgrade-heading = Revisa tu actualización
 sub-update-failed = Ha fallado la actualización del plan
-sub-update-title = Información de facturación
-sub-update-card-ending = Tarjeta que termina en { $last }
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tu plan cambiará inmediatamente y se te cobrará un importe ajustado
@@ -345,13 +351,13 @@ plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Haz clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No se abre la aplicación? <a>Haz clic aquí</a>
-payment-confirmation-heading = ¡Gracias { $displayName }!
-payment-confirmation-heading-bak = ¡Gracias!
-payment-confirmation-subheading = Se ha enviado un correo electrónico de confirmación a
 payment-confirmation-order-heading = Detalles del pedido
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -384,5 +390,4 @@ payment-confirmation-amount-year =
         [one] { $amount } al año
        *[other] { $amount } cada { $intervalCount } años
     }
-payment-confirmation-cc-preview = terminada en { $last4 }
 payment-confirmation-download-button = Continuar para descargar
