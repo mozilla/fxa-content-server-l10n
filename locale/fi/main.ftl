@@ -14,6 +14,7 @@ project-brand = Firefox-tilit
         [genitive] Mozillan
     }
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox-tilit
 
@@ -28,6 +29,10 @@ general-error-heading = Yleinen sovellusvirhe
 basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 payment-error-1 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Yritä uudestaan tai ole yhteydessä kortin myöntäjään.
 payment-error-2 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä kortin myöntäjään.
+payment-error-3 = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+payment-error-retry-button = Yritä uudestaan
+payment-error-manage-subscription-button = Hallitse tilausta
+currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
@@ -47,10 +52,11 @@ settings-subscriptions-title = Tilaukset
 terms = Käyttöehdot
 privacy = Tietosuojakäytäntö
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Asetetaan sinulle tilaus
-product-plan-details-heading = Asetetaan sinulle tilaus
+subscription-create-title = Määritä tilaus
+subscription-success-title = Tilauksen vahvistus
+subscription-processing-title = Vahvistetaan tilausta...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -93,8 +99,6 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } käyttää Stripea ja Paypalia turvalliseen maksunvälitykseen.
-payment-legal-link-stripe-paypal = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>Paypalin tietosuojakäytäntö</paypalPrivacyLink>.
 
 ## payment form
 
@@ -140,8 +144,6 @@ input-error-is-required = { $label } vaaditaan
 
 product-plan-upgrade-heading = Katselmoi päivitys
 sub-update-failed = Tilaustyypin päivittäminen epäonnistui
-sub-update-title = Laskutustiedot
-sub-update-card-ending = Kortti, joka päättyy numeroihin { $last }
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -282,13 +284,13 @@ plan-details-show-button = Näytä tiedot
 plan-details-hide-button = Piilota tiedot
 plan-details-total-label = Yhteensä
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Napsauta tästä ladataksesi
 payment-confirmation-mobile-alert = Eikö sovellus avautunut? <a>Napsauta tästä</a>
-payment-confirmation-heading = Kiitos, { $displayName }!
-payment-confirmation-heading-bak = Kiitos!
-payment-confirmation-subheading = Vahvistusviesti on lähetetty osoitteeseen
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-billing-heading = Laskutettu
@@ -321,5 +323,4 @@ payment-confirmation-amount-year =
         [one] { $amount } vuosittain
        *[other] { $amount } joka { $intervalCount }. vuosi
     }
-payment-confirmation-cc-preview = päättyen { $last4 }
 payment-confirmation-download-button = Jatka lataamiseen
