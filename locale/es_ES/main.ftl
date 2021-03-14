@@ -97,6 +97,11 @@ product-no-such-plan = No existe el plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } usa Stripe y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-and-paypal = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-paypal = Ver la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe para el procesamiento seguro de pagos.
+payment-legal-link-stripe = Ver la <stripePrivacyLink>política de privacidad de Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -166,6 +171,7 @@ input-error-is-required = Se requiere { $label }
 
 product-plan-upgrade-heading = Revisa tu actualización
 sub-update-failed = Ha fallado la actualización del plan
+sub-update-payment-title = Información del pago
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tu plan cambiará inmediatamente y se te cobrará un importe ajustado
@@ -353,11 +359,14 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Por favor, espera mientras procesamos tu pago...
 
 ## payment confirmation
 
 payment-confirmation-alert = Haz clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No se abre la aplicación? <a>Haz clic aquí</a>
+payment-confirmation-thanks-heading = ¡Gracias!
+payment-confirmation-thanks-subheading = Se ha enviado un correo electrónico de confirmación a { $email } con detalles sobre cómo comenzar a usar { $product_name }.
 payment-confirmation-order-heading = Detalles del pedido
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -391,3 +400,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 payment-confirmation-download-button = Continuar para descargar
+payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
