@@ -269,9 +269,11 @@ recovery-key-page-title =
     .title = Kolonel ewan tzij
 recovery-key-step-1 = 1 xak richin 2
 recovery-key-step-2 = 2 xak richin 2
+recovery-key-success-alert = Xtz'uk ri k'atzinel kolonel ewan tzij.
 
 ## Add secondary email page
 
+add-secondary-email-error = K'o k'ayewal toq nitz'uk re taqoya'l re'.
 add-secondary-email-page-title =
     .title = Ruka'n taqoya'l
 add-secondary-email-enter-address =
@@ -284,12 +286,21 @@ add-secondary-email-save-button = Tiyak
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Xk'oje' k'ayewal toq xtaq ri rub'itz'ib' jikib'anïk.
 verify-secondary-email-page-title =
     .title = Ruka'n taqoya'l
 verify-secondary-email-verification-code =
     .label = Titz'ib'äx rub'itz'ib' ajikib'anem
 verify-secondary-email-cancel-button = Tiq'at
 verify-secondary-email-verify-button = Tinik'öx
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Tatz'ib'aj ri rub'itz'ib' jikib'anïk xtaq <strong>{ $email }</strong> pa 5 ch'utiramaj.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } ütz xtz'aqatisäx.
 
 ##
 
@@ -299,6 +310,7 @@ delete-account-link = Tiyuj rub'i' taqoya'l
 ## Two Step Authentication
 
 tfa-title = Jikib'anem rik'in ka'i'-xak
+tfa-step-1-3 = 1 xak richin 3
 tfa-button-continue = Titikïr chik el
 tfa-button-cancel = Tiq'at
 tfa-button-finish = Tik'is
