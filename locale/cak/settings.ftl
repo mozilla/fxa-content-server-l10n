@@ -467,7 +467,10 @@ tfa-row-disable-modal-confirm = Tichup
 tfa-row-disable-modal-explain =
     Ma xkatikïr ta nachüp ruwäch re b'anoj. Chuqa'
     yatikïr nacha' <linkExternal>kek'ex ri kolonel taq b'itz'ib'</linkExternal>.
+tfa-row-cannot-disable = Man tikirel ta nichup ri rujikib'axik pa ka'i'-xaq.
+tfa-row-change-modal-heading = ¿La yejal ri kolonel taq b'itz'ib'?
 tfa-row-change-modal-confirm = Tijalwachïx
+tfa-row-change-modal-explain = Man tikirel ta nitzolïx re samaj re'.
 
 ## Avatar sub-section on main Settings page
 
