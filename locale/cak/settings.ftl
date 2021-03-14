@@ -171,6 +171,9 @@ nav-email-comm = Tzijonem pa taqoya'l
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Xk'ulwachitäj jun sachoj toq yek'ex ri kolonel taq b'itz'ib'
+tfa-replace-code-success =
+    Xetz'uk k'ak'a' taq b'itz'ib'. Ke'ayaka' ri taq b'itz'ib' xa juyonil rokisaxik
+    pa jun jikïl k'ojlib'äl, xkek'atzin chawe richin xkatok chupam ri rub'i' ataqoya'l we man k'o ta ri awoyonib'al.
 tfa-replace-code-success-alert = Xek'ex ri kolonel taq rub'itz'ib' rub'i' taqoya'l.
 
 ## Avatar change page
@@ -211,6 +214,10 @@ pw-change-stay-safe = Kajike' — man ke'awokisaj ri ewan taq tzij. Ri ewan tzij
 pw-change-least-8-chars = K'o chi man xa xe ta tuk'waj 8 taq tz'ib'
 pw-change-not-contain-email = Man tikirel ta nok rochochib'al ataqoya'l
 pw-change-must-match = Nuk'äm ri' ri k'ak'a' ewan tzij rik'in ri jikib'anïk
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    K'o chi man nuxïm ta ri' rik'in re <linkExternal>rucholajem
+    relik ewan taq tzij</linkExternal>
 pw-change-cancel-button = Tiq'at
 pw-change-save-button = Tiyak
 pw-change-forgot-password-link = ¿La xmestäx ri ewan tzij?
@@ -270,6 +277,7 @@ display-name-success-alert = Tik'ut pe ri b'i'aj xk'ex.
 recovery-key-cancel-button = Tiq'at
 recovery-key-close-button = Titz'apïx
 recovery-key-continue-button = Titikïr chik el
+recovery-key-created = Xtz'aqatisäx ri kolonel ruk'u'x atzij. Tatz'eta' chi nayäk ri ruk'u'x atzij pa jun jikïl k'ojlib'äl, ri yatikïr nawïl pa jumej — ruma xtik'atzin chawe richin naköl awokem pa ri taq atzij we namestaj ri ewan atzij.
 recovery-key-enter-password =
     .label = Titz'ib'äx ewan tzij
 recovery-key-page-title =
