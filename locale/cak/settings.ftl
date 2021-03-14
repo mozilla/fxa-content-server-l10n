@@ -321,6 +321,9 @@ tfa-cannot-retrieve-code = Xk'ulwachitäj jun k'ayewal toq nikol ri b'itz'ib'.
 tfa-cannot-verify-code = Xk'ulwachitäj jun sachoj toq nijikib'äx ri kolonel b'itz'ib'.
 tfa-incorrect-recovery-code = Man ütz ta ri kolonel b'itz'ib'
 tfa-enabled = Xtzij ri jikib'anem rik'in ka'i'-xaq
+tfa-scan-this-code =
+    Tatz'ajwachib'ej re QR b'itz'ib' akuchi' nawokisaj <linkExternal>re
+    jikib'anel taq chokoy </linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -328,6 +331,7 @@ tfa-qa-code-alt = Tawokisaj ri bitz'ib' { $secret } richin nab'än runuk'ulem ri
 tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
+tfa-enter-totp = Wakami tatz'ib'aj ri rub'itz'ib' rujikomal ruchokoy jikib'anïk.
 tfa-input-enter-totp =
     .label = Tatz'ib'aj ri rub'itz'ib' jikomal
 tfa-save-these-codes =
@@ -374,6 +378,8 @@ rk-not-set = Majun runuk'ulem
 rk-action-create = Titz'uk
 rk-action-remove = Tiyuj
 rk-key-removed = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l.
+rk-refresh-key = Titzolïx jun ruk'u'x rutzij koloj
+rk-content-explain = Tatzolij ri awetamab'al toq namestaj ri ewan atzij.
 
 ## Secondary email sub-section on main Settings page
 
