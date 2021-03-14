@@ -417,6 +417,7 @@ se-cannot-resend-code = Takuyu', xk'oje' k'ayewal toq xtaq chik ri rub'itz'ib' j
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } ja ri nab'ey ataqoya'l wakami.
+se-set-primary-error = Kojakuyu', xk'ulwachitäj jun k'ayewal toq nijal ri nab'ey ataqoya'l.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
