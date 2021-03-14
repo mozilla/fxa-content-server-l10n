@@ -454,6 +454,13 @@ tfa-row-action-add = Titz'aqatisäx
 tfa-row-action-disable = Tichup
 tfa-row-button-refresh =
     .title = Titzolïx ri jikib'anem rik'in ka'i'-xak
+tfa-row-cannot-refresh =
+    Takuyu', xk'oje' jun k'ayewal toq nik'ex ri rujikib'axik
+    pa ka'i' xak.
+tfa-row-content-explain =
+    Man taya' q'ij chi jun chik winäq tok rik'in nuk'utuj jun
+    ruyonil b'itz'ib'
+    ruyonil b'itz'ib' ri xa xe rat yatikïr nawokisaj.
 tfa-row-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
 tfa-row-disable-modal-heading = ¿La nichup ri jikib'anem rik'in ka'i'-xak?
 tfa-row-disable-modal-confirm = Tichup
