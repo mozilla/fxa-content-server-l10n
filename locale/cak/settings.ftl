@@ -380,6 +380,8 @@ rk-action-remove = Tiyuj
 rk-key-removed = Xyuj ri kolonel ewan rutzij rub'i' taqoya'l.
 rk-refresh-key = Titzolïx jun ruk'u'x rutzij koloj
 rk-content-explain = Tatzolij ri awetamab'al toq namestaj ri ewan atzij.
+rk-content-reset-data = ¿Aruma nitzolïx ri ewan nutzij, yerutzolij ri taq nutzij?
+rk-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
 
 ## Secondary email sub-section on main Settings page
 
