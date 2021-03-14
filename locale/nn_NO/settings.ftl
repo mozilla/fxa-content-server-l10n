@@ -97,15 +97,21 @@ header-help = Hjelp
 
 ## Settings Nav
 
+nav-settings = Innstillingar
+nav-profile = Profil
+nav-security = Sikkerheit
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-close-button = Lat att
 avatar-page-save-button = Lagre
+avatar-page-saving-button = Lagrar…
 avatar-page-zoom-out-button = Zoom ut
 avatar-page-zoom-in-button = Zoom inn
+avatar-page-rotate-button = Roter
 
 ##
 
@@ -123,12 +129,24 @@ pw-change-forgot-password-link = Gløymt passordet?
 
 ## Delete account page
 
+delete-account-step-1-2 = Steg 1 av 2
+delete-account-step-2-2 = Steg 2 av 2
+delete-account-close-button = Lat att
+delete-account-continue-button = Fortset
+delete-account-password-input =
+    .label = Skriv inn passord
+delete-account-cancel-button = Avbryt
+delete-account-delete-button-2 = Slett
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Visingsnamn
+display-name-input =
+    .label = Skriv inn visingsnamn
 
 ##
 

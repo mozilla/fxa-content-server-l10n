@@ -8,6 +8,7 @@
 project-brand = Firefox-kontoar
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox-kontoar
 
@@ -22,6 +23,8 @@ general-error-heading = Generell applikasjonsfeil
 basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 payment-error-1 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Prøv igjen eller kontakt kortutskrivaren din.
 payment-error-2 = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
+payment-error-retry-button = Prøv igjen
+payment-error-manage-subscription-button = Handter abonnementet mitt
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv eit anna kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensa di. Prøv eit anna kort.
@@ -41,10 +44,8 @@ settings-subscriptions-title = Abonnement
 terms = Tenestevilkår
 privacy = Personvernerklæring
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = La oss setje opp abonnementet ditt
-product-plan-details-heading = La oss setje opp abonnementet ditt
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,7 +88,6 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } brukar Stripe og PayPal for sikker betalingsprosessering.
 
 ## payment form
 
@@ -157,8 +157,6 @@ input-error-is-required = { $label } er påkravd
 
 product-plan-upgrade-heading = Gå gjennom oppgraderinga di
 sub-update-failed = Mislykka planoppdatering
-sub-update-title = Faktureringsinformasjon
-sub-update-card-ending = Kortet sluttar på { $last }
 sub-update-card-exp = Går ut { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Planen din vil endrast med ein gong, og du vil bli belasta eit justert
@@ -343,13 +341,13 @@ plan-details-show-button = Vis detaljar
 plan-details-hide-button = Skjul detaljar
 plan-details-total-label = Totalt
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Trykk her for å laste ned
 payment-confirmation-mobile-alert = Opna ikkje appen? <a>Klikk her</a>
-payment-confirmation-heading = Tusen takk { $displayName }!
-payment-confirmation-heading-bak = Tusen takk!
-payment-confirmation-subheading = Ein stadfestingsepost er sendt til
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 payment-confirmation-billing-heading = Faktura til:
@@ -382,5 +380,4 @@ payment-confirmation-amount-year =
         [one] { $amount } kvart år
        *[other] { $amount } kvart { $intervalCount } år
     }
-payment-confirmation-cc-preview = sluttar på { $last4 }
 payment-confirmation-download-button = Fortset til nedlasting
