@@ -57,6 +57,7 @@ privacy = Tietosuojakäytäntö
 subscription-create-title = Määritä tilaus
 subscription-success-title = Tilauksen vahvistus
 subscription-processing-title = Vahvistetaan tilausta...
+subscription-error-title = Virhe tilausta vahvistaessa...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -99,6 +100,12 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } käyttää Stripea ja { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
+payment-legal-link-stripe-and-paypal = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
+payment-legal-link-paypal = Katso <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } käyttää Stripea turvalliseen maksunvälitykseen.
+payment-legal-link-stripe = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink>.
 
 ## payment form
 
@@ -144,6 +151,7 @@ input-error-is-required = { $label } vaaditaan
 
 product-plan-upgrade-heading = Katselmoi päivitys
 sub-update-failed = Tilaustyypin päivittäminen epäonnistui
+sub-update-payment-title = Maksun tiedot
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -286,11 +294,14 @@ plan-details-total-label = Yhteensä
 
 ## payment-processing
 
+payment-processing-message = Odota kun käsittelemme maksuasi...
 
 ## payment confirmation
 
 payment-confirmation-alert = Napsauta tästä ladataksesi
 payment-confirmation-mobile-alert = Eikö sovellus avautunut? <a>Napsauta tästä</a>
+payment-confirmation-thanks-heading = Kiitos!
+payment-confirmation-thanks-subheading = Vahvistusviesti on lähetetty osoitteeseen { $email }. Viesti sisältää tiedot, miten saat tuotteen { $product_name } käyttöösi.
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-billing-heading = Laskutettu
@@ -324,3 +335,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } joka { $intervalCount }. vuosi
     }
 payment-confirmation-download-button = Jatka lataamiseen
+payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }

@@ -174,6 +174,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Ota uusi kuva
 avatar-page-close-button = Sulje
 avatar-page-save-button = Tallenna
+avatar-page-saving-button = Tallennetaan…
 avatar-page-zoom-out-button = Loitonna
 avatar-page-zoom-in-button = Lähennä
 avatar-page-rotate-button = Kierrä
