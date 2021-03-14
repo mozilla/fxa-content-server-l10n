@@ -66,6 +66,10 @@ avatar-your-avatar =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Eininga er:
+cs-disconnect-sync-opt-suspicious = Mistenkjeleg
+cs-disconnect-sync-opt-lost = Mista eller stolen
+cs-disconnect-sync-opt-old = Gammal eller skifta ut
 
 ##
 
@@ -106,6 +110,13 @@ nav-security = Sikkerheit
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilbilde
+avatar-page-add-photo = Legg til eit foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
 avatar-page-close-button = Lat att
 avatar-page-save-button = Lagre
 avatar-page-saving-button = Lagrar…
@@ -123,6 +134,13 @@ pw-change-header =
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
+pw-change-current-password =
+    .label = Skriv inn gjeldande passord
+pw-change-new-password =
+    .label = Skriv inn nytt passord
+pw-change-confirm-password =
+    .label = Stadfest nytt passord
+pw-change-success-alert = Passord oppdatert.
 
 ##
 
@@ -147,45 +165,93 @@ display-name-page-title =
     .title = Visingsnamn
 display-name-input =
     .label = Skriv inn visingsnamn
+submit-display-name = Lagre
+cancel-display-name = Avbryt
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Avbryt
+recovery-key-close-button = Lat att
+recovery-key-continue-button = Fortset
+recovery-key-enter-password =
+    .label = Skriv inn passord
+recovery-key-page-title =
+    .title = Gjenopprettingsnøkkel
+recovery-key-step-1 = Steg 1 av 2
+recovery-key-step-2 = Steg 2 av 2
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Avbryt
+add-secondary-email-save-button = Lagre
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Sekundær e-postadresse
+verify-secondary-email-verification-code =
+    .label = Skriv inn stadfestingskode
+verify-secondary-email-cancel-button = Avbryt
+verify-secondary-email-verify-button = Stadfest
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Slett kontoen
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Steg 1 av 3
+tfa-step-2-3 = Steg 2 av 3
+tfa-step-3-3 = Steg 3 av 3
+tfa-button-continue = Fortset
+tfa-button-cancel = Avbryt
+tfa-button-finish = Fullfør
+tfa-enter-recovery-code =
+    .label = Skriv inn ein gjenopprettingskode
 
 ##
 
 
 ## Profile section
 
+porfile-heading = Profil
+profile-display-name =
+    .header = Visingsnamn
+profile-password =
+    .header = Passord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Oppretta: { $date }
+profile-primary-email =
+    .header = Primær e-postadresse
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Sikkerheit
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Legg til
+row-defaults-action-change = Endre
+row-defaults-action-disable = Slå av
+row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Slå på
+rk-action-create = Opprett
+rk-action-remove = Fjern
 
 ## Secondary email sub-section on main Settings page
 
