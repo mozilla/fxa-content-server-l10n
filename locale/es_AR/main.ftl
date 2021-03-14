@@ -362,6 +362,8 @@ payment-processing-message = Esperá mientras procesamos tu pago...
 
 payment-confirmation-alert = Clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No abre la aplicación? <a>Clic aquí</a>
+payment-confirmation-thanks-heading = ¡Gracias!
+payment-confirmation-thanks-subheading = Se envió un correo electrónico de confirmación a { $email } con detalles sobre cómo comenzar con { $product_name }.
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura número { $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -395,3 +397,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 payment-confirmation-download-button = Continuar descargando
+payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
