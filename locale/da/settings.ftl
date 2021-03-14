@@ -190,6 +190,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Tag billede igen
 avatar-page-close-button = Luk
 avatar-page-save-button = Gem
+avatar-page-saving-button = Gemmer…
 avatar-page-zoom-out-button = Zoom ud
 avatar-page-zoom-in-button = Zoom ind
 avatar-page-rotate-button = Roter

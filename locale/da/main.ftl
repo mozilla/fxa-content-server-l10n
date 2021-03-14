@@ -8,6 +8,7 @@
 project-brand = Firefox-konti
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox-konti
 
@@ -22,6 +23,12 @@ general-error-heading = Generel applikationsfejl
 basic-error-message = Noget gik galt. Prøv igen senere.
 payment-error-1 = Hmm. Der opstod et problem med at godkende din betaling. Prøv igen eller kontakt din kortudsteder.
 payment-error-2 = Hmm. Der opstod et problem med at godkende din betaling. Kontakt din kortudsteder.
+payment-error-3 = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+payment-error-retry-button = Prøv igen
+payment-error-manage-subscription-button = Håndter mine abonnementer
+country-currency-mismatch = Dette abonnements valuta er ikke gyldig for det land, der er knyttet til din betaling.
+currency-currency-mismatch = Du kan ikke skifte mellem valutaer.
+returning-paypal-customer-error = Du kan i øjeblikket kun tilmelde dig et abonnement ad gangen. Vend snart tilbage.
 expired-card-error = Det ser ud til, at dit betalingskort er udløbet. Prøv med et andet kort.
 insufficient-funds-error = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 withdrawal-count-limit-exceeded-error = Det ser ud til, at denne transaktion vil overskride din kreditgrænse. Prøv med et andet kort.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Abonnementer
 terms = Tjenestevilkår
 privacy = Privatlivspolitik
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Opsætning af dit abonnement
-product-plan-details-heading = Opsætning af dit abonnement
+subscription-create-title = Opsætning af dit abonnement
+subscription-success-title = Bekræftelse af abonnement
+subscription-processing-title = Bekræfter abonnement ...
+subscription-error-title = Der opstod en fejl under bekræftelse af abonnement...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,12 @@ product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } bruger Stripe og Paypal til sikker behandling af betaling.
-payment-legal-link-stripe-paypal = Se <stripePrivacyLink> Stripes privatlivspolitik</stripePrivacyLink> og <paypalPrivacyLink>Paypals privatlivspolitik</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } bruger Stripe og { -brand-name-paypal } til sikker behandling af betaling.
+payment-legal-link-stripe-and-paypal = Se <stripePrivacyLink> Stripes privatlivspolitik</stripePrivacyLink> og <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
+payment-legal-link-paypal = Se <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } bruger Stripe til sikker behandling af betaling.
+payment-legal-link-stripe = Se <stripePrivacyLink>Stripes privatlivspolitik</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,8 +171,7 @@ input-error-is-required = { $label } er påkrævet
 
 product-plan-upgrade-heading = Gennemgå din opgradering
 sub-update-failed = Opdatering af plan mislykkedes
-sub-update-title = Faktureringsoplysninger
-sub-update-card-ending = Kort ender på { $last }
+sub-update-payment-title = Betalingsinformation
 sub-update-card-exp = Udløber { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Din plan bliver ændret med det samme og du vil blive opkrævet et justeret
@@ -345,13 +357,16 @@ plan-details-show-button = Vis detaljer
 plan-details-hide-button = Skjul detaljer
 plan-details-total-label = I alt
 
+## payment-processing
+
+payment-processing-message = Vent mens vi behandler din betaling...
+
 ## payment confirmation
 
 payment-confirmation-alert = Klik her for at hente
 payment-confirmation-mobile-alert = Åbnede appen ikke? <a>Klik her</a>
-payment-confirmation-heading = Tak, { $displayName }!
-payment-confirmation-heading-bak = Tak!
-payment-confirmation-subheading = En bekræftelsesmail er blevet sendt til
+payment-confirmation-thanks-heading = Tak!
+payment-confirmation-thanks-subheading = En bekræftelsesmail er blevet sendt til { $email } med detaljer om, hvordan du kommer i gang med { $product_name }.
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureret til
@@ -384,5 +399,5 @@ payment-confirmation-amount-year =
         [one] { $amount } årligt
        *[other] { $amount } hvert { $intervalCount } år
     }
-payment-confirmation-cc-preview = ender på { $last4 }
 payment-confirmation-download-button = Fortsæt til hentning
+payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
