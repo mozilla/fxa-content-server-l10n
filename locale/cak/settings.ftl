@@ -464,6 +464,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
 tfa-row-disable-modal-heading = ¿La nichup ri jikib'anem rik'in ka'i'-xak?
 tfa-row-disable-modal-confirm = Tichup
+tfa-row-disable-modal-explain =
+    Ma xkatikïr ta nachüp ruwäch re b'anoj. Chuqa'
+    yatikïr nacha' <linkExternal>kek'ex ri kolonel taq b'itz'ib'</linkExternal>.
 tfa-row-change-modal-confirm = Tijalwachïx
 
 ## Avatar sub-section on main Settings page
