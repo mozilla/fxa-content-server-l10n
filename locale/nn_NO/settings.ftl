@@ -62,6 +62,7 @@ avatar-your-avatar =
 
 ## Connected services section
 
+cs-heading = Tilkopla tenester
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -147,6 +148,8 @@ pw-change-success-alert = Passord oppdatert.
 
 ## Delete account page
 
+delete-account-header =
+    .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
 delete-account-close-button = Lat att

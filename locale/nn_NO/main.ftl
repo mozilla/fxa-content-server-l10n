@@ -46,6 +46,8 @@ privacy = Personvernerklæring
 
 ## Subscription titles
 
+subscription-processing-title = Stadfestar abonnementet…
+subscription-error-title = Feil ved stadfesting av abonnementet…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -348,6 +350,7 @@ plan-details-total-label = Totalt
 
 payment-confirmation-alert = Trykk her for å laste ned
 payment-confirmation-mobile-alert = Opna ikkje appen? <a>Klikk her</a>
+payment-confirmation-thanks-heading = Takk skal du ha!
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 payment-confirmation-billing-heading = Faktura til:
@@ -381,3 +384,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } kvart { $intervalCount } år
     }
 payment-confirmation-download-button = Fortset til nedlasting
+payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
