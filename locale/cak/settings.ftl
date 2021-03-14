@@ -382,11 +382,24 @@ rk-refresh-key = Titzolïx jun ruk'u'x rutzij koloj
 rk-content-explain = Tatzolij ri awetamab'al toq namestaj ri ewan atzij.
 rk-content-reset-data = ¿Aruma nitzolïx ri ewan nutzij, yerutzolij ri taq nutzij?
 rk-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
+rk-remove-modal-heading = ¿La niyuj ri kolonel ruk'u'x rutzij?
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ruka'n taqoya'l
     .header = Ruka'n taqoya'l
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } ütz xyuj.
+se-verify-session-error = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Tiyuj taqoya'l
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Titzolïx taqoya'l
+se-unverified = man jikib'an ta
 # Button to make secondary email the primary
 se-make-primary = Tichap achi'el nab'ey
 
@@ -402,6 +415,10 @@ tfa-row-enabled = Tzijon
 tfa-row-not-set = Majun runuk'ulem
 tfa-row-action-add = Titz'aqatisäx
 tfa-row-action-disable = Tichup
+tfa-row-button-refresh =
+    .title = Titzolïx ri jikib'anem rik'in ka'i'-xak
+tfa-row-cannot-verify-session-2 = Takuyu', xk'oje' jun k'ayewal toq nijikib'äx ri molojri'ïl.
+tfa-row-disable-modal-heading = ¿La nichup ri jikib'anem rik'in ka'i'-xak?
 tfa-row-disable-modal-confirm = Tichup
 tfa-row-change-modal-confirm = Tijalwachïx
 
