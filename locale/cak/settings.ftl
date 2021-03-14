@@ -311,9 +311,15 @@ delete-account-link = Tiyuj rub'i' taqoya'l
 
 tfa-title = Jikib'anem rik'in ka'i'-xak
 tfa-step-1-3 = 1 xak richin 3
+tfa-step-2-3 = 2 xak richin 3
+tfa-step-3-3 = 3 xak richin 3
 tfa-button-continue = Titikïr chik el
 tfa-button-cancel = Tiq'at
 tfa-button-finish = Tik'is
+tfa-incorrect-totp = Man ütz ta ri rub'itz'ib' jikib'anem rik'in ka'i'-xak
+tfa-cannot-retrieve-code = Xk'ulwachitäj jun k'ayewal toq nikol ri b'itz'ib'.
+tfa-cannot-verify-code = Xk'ulwachitäj jun sachoj toq nijikib'äx ri kolonel b'itz'ib'.
+tfa-incorrect-recovery-code = Man ütz ta ri kolonel b'itz'ib'
 tfa-enabled = Xtzij ri jikib'anem rik'in ka'i'-xaq
 # This is the image alt text for a QR code.
 # Variables:
