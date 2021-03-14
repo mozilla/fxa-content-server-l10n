@@ -51,6 +51,9 @@ privacy = Política de privacidade
 ## Subscription titles
 
 subscription-create-title = Configurar a sua subscrição.
+subscription-success-title = Confirmação de subscrição
+subscription-processing-title = A confirmar a subscrição...
+subscription-error-title = Erro ao confirmar a subscrição...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -93,6 +96,12 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utiliza o Stripe e o { -brand-name-paypal } para processar pagamentos de forma segura.
+payment-legal-link-stripe-and-paypal = Consulte a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink> política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } utiliza o { -brand-name-paypal } para processar pagamentos de forma segura.
+payment-legal-link-paypal = Consulte a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } utiliza o Stripe para processar pagamentos de forma segura.
+payment-legal-link-stripe = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -162,6 +171,7 @@ input-error-is-required = { $label } é necessário
 
 product-plan-upgrade-heading = Reveja a sua atualização
 sub-update-failed = Falha na atualização do plano
+sub-update-payment-title = Informação de pagamento
 sub-update-card-exp = Expira em { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     O seu plano irá mudar imediatamente e você vai ser cobrado um valor ajustado 
@@ -349,11 +359,14 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento...
 
 ## payment confirmation
 
 payment-confirmation-alert = Clique aqui para descarregar
 payment-confirmation-mobile-alert = A aplicação não abriu? <a>Clique aqui</a>
+payment-confirmation-thanks-heading = Obrigado!
+payment-confirmation-thanks-subheading = Foi enviado um e-mail de confirmação para { $email } com detalhes sobre como começar a utilizar o { $product_name }.
 payment-confirmation-order-heading = Detalhes de compra
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Debitado a
@@ -387,3 +400,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } a cada { $intervalCount } anos
     }
 payment-confirmation-download-button = Continuar para descarregar
+payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
