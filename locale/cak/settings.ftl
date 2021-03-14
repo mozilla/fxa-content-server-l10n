@@ -119,6 +119,11 @@ cs-disconnect-lost-advice-content-2 =
     pa ri runuk'ulem rub'i' taqoya'l. Chuqa' k'o ta chi nakanoj retamab'al
     ri b'anöy okisab'äl richin ye'ayüj ri taq rutzij toq k'o näj.
 cs-disconnect-suspicious-advice-heading = Xchup ri q'elenel okisab'äl
+cs-disconnect-suspicious-advice-content =
+    We q'eleb'el ri
+    okisab'äl, richin chi jikïl ri awetamab'al, k'o chi najäl ri ewan atzij pa { -product-firefox-account }
+    pa runuk'ulem rub'i' ataqoya'l. Chuqa' k'o chi najäl jun chik xab'achike
+    ewan tzij xayäk pa { -brand-firefox } rik'in natz'ib'aj about:logins pa rukajtz'ik ochochib'äl.
 cs-sign-out-button = Titz'apïx molojri'ïl
 
 ##
@@ -150,6 +155,8 @@ header-menu-closed = Ruk'utsamaj okem pa ruk'amaya'l ruxaq
 header-back-to-top-link =
     .title = Titzolin pa rutikirib'al
 header-title = { -product-firefox-accounts }
+header-switch-title = Tijal pa klasiko' ruwa
+    .title = ruximoj k'asiko' ruwa
 header-help = Tob'äl
 
 ## Settings Nav

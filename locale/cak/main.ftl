@@ -366,6 +366,7 @@ payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
 payment-confirmation-alert = Tipitz' wawe' richin niqasäx
 payment-confirmation-mobile-alert = ¿La man nijaqatäj ta ri chokoy? <a>Tipitz' Wawe'</a>
 payment-confirmation-thanks-heading = ¡Matyox!
+payment-confirmation-thanks-subheading = Xtaq jun rutaqoya' jikib'anïk pa { $email } richin rub'eyal natikirisaj rik'in { $product_name }.
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 payment-confirmation-billing-heading = Xb'an pakturar chi re
