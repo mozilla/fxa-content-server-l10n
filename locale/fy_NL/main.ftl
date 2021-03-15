@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,12 @@ general-error-heading = Algemiene tapassingsflater
 basic-error-message = Der is wat misgien. Probearje it letter opnij.
 payment-error-1 = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Probearje it opnij of nim kontakt mei jo kaartferstrekker.
 payment-error-2 = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
+payment-error-3 = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
+payment-error-retry-button = Opnij probearje
+payment-error-manage-subscription-button = Myn abonnemint beheare
+country-currency-mismatch = De faluta fan dit abonnemint is net jildich foar it lân dat oan jo betelling keppele is.
+currency-currency-mismatch = Sorry. Jo kinne net wikselje tusken faluta.
+returning-paypal-customer-error = Sorry. Op it stuit kinne jo jo allinnich foar ien abonnemint tagelyk oanmelde. Probearje it ynkoarten nochris.
 expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probearje in oare kaart.
 insufficient-funds-error = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 withdrawal-count-limit-exceeded-error = It liket derop dat jo mei dizze transaksje oer jo kredytlimyt gean. Probearje in oare kaart.
@@ -41,10 +48,11 @@ settings-subscriptions-title = Abonneminten
 terms = Tsjinstbetingsten
 privacy = Privacyferklearring
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Litte wy jo abonnemint ynstelle
-product-plan-details-heading = Litte wy jo abonnemint ynstelle
+subscription-create-title = Jo abonnemint ynstelle
+subscription-success-title = Abonnemintsbefêstiging
+subscription-processing-title = Abonnemint befêstigje…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +95,6 @@ product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } brûkt Stripe en Paypal foar feilich betellingsferkear.
-payment-legal-link-stripe-paypal = It <stripePrivacyLink>privacybelied fan Stripe</stripePrivacyLink> en fan <paypalPrivacyLink>Paypal</paypalPrivacyLink> besjen.
 
 ## payment form
 
@@ -158,8 +164,6 @@ input-error-is-required = { $label } is ferplicht
 
 product-plan-upgrade-heading = Jo opwurdearring besjen
 sub-update-failed = Bywurkjen skema mislearre
-sub-update-title = Fakturaasjegegevens
-sub-update-card-ending = Kaart einigjend op { $last }
 sub-update-card-exp = Ferrint { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
@@ -345,13 +349,13 @@ plan-details-show-button = Details toane
 plan-details-hide-button = Details ferstopje
 plan-details-total-label = Totaal
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Klik hjir om te downloaden
 payment-confirmation-mobile-alert = App net iepene? <a>Klik hjir</a>
-payment-confirmation-heading = Tank { $displayName }!
-payment-confirmation-heading-bak = Tige tank!
-payment-confirmation-subheading = Der is in befêstigingsberjocht ferstjoerd nei
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekkening foar
@@ -384,5 +388,4 @@ payment-confirmation-amount-year =
         [one] jierliks { $amount }
        *[other] elke { $intervalCount } jier { $amount }
     }
-payment-confirmation-cc-preview = einigjend op { $last4 }
 payment-confirmation-download-button = Trochgean mei download
