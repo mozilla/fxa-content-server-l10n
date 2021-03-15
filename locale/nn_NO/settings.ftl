@@ -71,9 +71,11 @@ cs-disconnect-sync-opt-prefix = Eininga er:
 cs-disconnect-sync-opt-suspicious = Mistenkjeleg
 cs-disconnect-sync-opt-lost = Mista eller stolen
 cs-disconnect-sync-opt-old = Gammal eller skifta ut
+cs-disconnect-sync-opt-duplicate = Duplikat
 
 ##
 
+cs-disconnect-advice-confirm = Ok, eg forstår
 cs-sign-out-button = Logg ut
 
 ##
