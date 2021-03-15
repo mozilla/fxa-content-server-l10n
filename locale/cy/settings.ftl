@@ -189,6 +189,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Tynnwch Lun Eto
 avatar-page-close-button = Cau
 avatar-page-save-button = Cadw
+avatar-page-saving-button = Yn cadw…
 avatar-page-zoom-out-button = Chwyddo Allan
 avatar-page-zoom-in-button = Chwyddo Mewn
 avatar-page-rotate-button = Troi
