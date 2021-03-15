@@ -8,6 +8,7 @@
 project-brand = Cyfrifon Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Cyfrifon Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Gwall rhaglen cyffredinol
 basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 payment-error-1 = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Rhowch gynnig arall arni neu cysylltwch â chyhoeddwr eich cerdyn.
 payment-error-2 = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Cysylltwch â chyhoeddwr eich cerdyn.
+payment-error-3 = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
+payment-error-retry-button = Ceisiwch eto
+payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
+country-currency-mismatch = Nid yw arian cyfred y tanysgrifiad hwn yn ddilys ar gyfer y wlad sy'n gysylltiedig â'ch taliad.
+currency-currency-mismatch = Ymddiheuriadau. Nid oes modd i chi newid rhwng arian cyfred.
+returning-paypal-customer-error = Ymddiheuriadau. Ar hyn o bryd, dim ond un tanysgrifiad y gallwch chi ei gofrestru ar y tro. Dewch nôl yn fuan.
 expired-card-error = Mae'n edrych fel bod eich cerdyn credyd wedi dod i ben. Rhowch gynnig ar gerdyn arall.
 insufficient-funds-error = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 withdrawal-count-limit-exceeded-error = Mae'n ymddangos y bydd y trafodyn hwn yn eich cymryd dros eich terfyn credyd. Rhowch gynnig ar gerdyn arall.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Tanysgrifiadau
 terms = Amodau Gwasanaeth
 privacy = Hysbysiad Preifatrwydd
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Gadewch i ni osod eich tanysgrifiad
-product-plan-details-heading = Gadewch i ni osod eich tanysgrifiad
+subscription-create-title = Gosod eich tanysgrifiad
+subscription-success-title = Cadarnhad o'ch tanysgrifiad
+subscription-processing-title = Yn cadarnhau eich tanysgrifiad...
+subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -103,8 +112,12 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = Mae { -brand-name-mozilla } yn defnyddio Stripe a Paypal ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-paypal = Darllenwch bolisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = Mae { -brand-name-mozilla } yn defnyddio Stripe a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-and-paypal = Gweld polisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
+payment-legal-link-paypal = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
+payment-legal-copy-stripe = Mae { -brand-name-mozilla } yn defnyddio Stripe ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe = Gweld polisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -190,8 +203,7 @@ input-error-is-required = Mae angen { $label }
 
 product-plan-upgrade-heading = Gwiriwch eich uwchraddiad
 sub-update-failed = Methodd diweddariad y cynllun
-sub-update-title = Manylion bilio
-sub-update-card-ending = Cerdyn yn dod i ben { $last }
+sub-update-payment-title = Manylion talu
 sub-update-card-exp = Yn dod i ben { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Bydd eich cynllun yn newid ar unwaith, a bydd y swm ar gyfer eich
@@ -425,13 +437,16 @@ plan-details-show-button = Dangos manylion
 plan-details-hide-button = Cuddio manylion
 plan-details-total-label = Cyfanswm
 
+## payment-processing
+
+payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad...
+
 ## payment confirmation
 
 payment-confirmation-alert = Cliciwch yma i lwytho i lawr
 payment-confirmation-mobile-alert = Heb agor yr ap? <a>Cliciwch Yma</a>
-payment-confirmation-heading = Diolch { $displayName }!
-payment-confirmation-heading-bak = Diolch!
-payment-confirmation-subheading = Mae e-bost cadarnhau wedi ei anfon at
+payment-confirmation-thanks-heading = Diolch yn fawr!
+payment-confirmation-thanks-subheading = Mae e-bost cadarnhau wedi'i anfon at { $email } gyda manylion ar sut i ddechrau gyda { $product_name }.
 payment-confirmation-order-heading = Manylion yr archeb
 payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
 payment-confirmation-billing-heading = Wedi'i filio i
@@ -480,5 +495,5 @@ payment-confirmation-amount-year =
         [many] { $amount } bob { $intervalCount } mlynedd
        *[other] { $amount } bob { $intervalCount } blynedd
     }
-payment-confirmation-cc-preview = yn gorffen gyda { $last4 }
 payment-confirmation-download-button = Parhau i lwytho i lawr
+payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
