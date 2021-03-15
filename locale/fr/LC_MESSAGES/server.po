@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-12 17:03+0000\n"
+"PO-Revision-Date: 2021-03-12 17:13+0000\n"
 "Last-Translator: goofy <goofy@framasoft.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -445,11 +445,11 @@ msgstr "Aidez-nous à le corriger en <a href=\"%(updateBillingUrl)s\">mettant à
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Malheureusement, si nous n’avons pas de vos nouvelles sous 24 heures, vous perdrez l’accès à %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within 24 hours:"
-msgstr ""
+msgstr "Aidez-nous à corriger le problème en mettant à jour vos informations de paiement sous 24 heures :"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -665,7 +665,7 @@ msgstr "Gérer le compte :"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"

@@ -185,6 +185,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Prendre à nouveau une photo
 avatar-page-close-button = Fermer
 avatar-page-save-button = Enregistrer
+avatar-page-saving-button = Enregistrement…
 avatar-page-zoom-out-button = Diminuer la taille
 avatar-page-zoom-in-button = Augmenter la taille
 avatar-page-rotate-button = Faire pivoter
