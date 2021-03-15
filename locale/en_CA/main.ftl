@@ -324,7 +324,7 @@ account-activated = Your account is activated, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Updating billing information...
+sub-route-idx-updating = Updating billing information…
 sub-route-idx-reactivating = Reactivating subscription failed
 sub-route-idx-cancel-failed = Cancelling subscription failed
 sub-route-idx-contact = Contact Support
