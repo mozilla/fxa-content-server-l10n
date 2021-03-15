@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,12 @@ general-error-heading = Algemene toepassingsfout
 basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
 payment-error-1 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
 payment-error-2 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
+payment-error-3 = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+payment-error-retry-button = Opnieuw proberen
+payment-error-manage-subscription-button = Mijn abonnement beheren
+country-currency-mismatch = De valuta van dit abonnement is niet geldig voor het land dat aan uw betaling is gekoppeld.
+currency-currency-mismatch = Sorry. U kunt niet tussen valuta wisselen.
+returning-paypal-customer-error = Sorry. Momenteel kunt u zich slechts voor één abonnement tegelijk aanmelden. Probeer het binnenkort nog eens.
 expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
 insufficient-funds-error = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 withdrawal-count-limit-exceeded-error = Het lijkt erop dat u met deze transactie uw kredietlimiet overschrijdt. Probeer een andere kaart.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Abonnementen
 terms = Servicevoorwaarden
 privacy = Privacyverklaring
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Laten we uw abonnement instellen
-product-plan-details-heading = Laten we uw abonnement instellen
+subscription-create-title = Uw abonnement instellen
+subscription-success-title = Abonnementsbevestiging
+subscription-processing-title = Abonnement bevestigen…
+subscription-error-title = Fout bij bevestigen abonnement…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,12 @@ product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } gebruikt Stripe en Paypal voor veilig betalingsverkeer.
-payment-legal-link-stripe-paypal = Het <stripePrivacyLink>privacybeleid van Stripe</stripePrivacyLink> en van <paypalPrivacyLink>Paypal</paypalPrivacyLink> bekijken.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } gebruikt Stripe en { -brand-name-paypal } voor veilig betalingsverkeer.
+payment-legal-link-stripe-and-paypal = Het <stripePrivacyLink>privacybeleid van Stripe</stripePrivacyLink> en van <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> bekijken.
+payment-legal-copy-paypal = { -brand-name-mozilla } gebruikt { -brand-name-paypal } voor veilig betalingsverkeer.
+payment-legal-link-paypal = Het <paypalPrivacyLink>privacybeleid van { -brand-name-paypal }</paypalPrivacyLink> bekijken.
+payment-legal-copy-stripe = { -brand-name-mozilla } gebruikt Stripe voor veilig betalingsverkeer.
+payment-legal-link-stripe = Het <stripePrivacyLink>privacybeleid van  Stripe</stripePrivacyLink> bekijken.
 
 ## payment form
 
@@ -158,8 +171,7 @@ input-error-is-required = { $label } is verplicht
 
 product-plan-upgrade-heading = Uw upgrade bekijken
 sub-update-failed = Bijwerken schema mislukt
-sub-update-title = Facturatiegegevens
-sub-update-card-ending = Kaart eindigend op { $last }
+sub-update-payment-title = Betalingsgegevens
 sub-update-card-exp = Vervalt { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
@@ -345,13 +357,16 @@ plan-details-show-button = Details tonen
 plan-details-hide-button = Details verbergen
 plan-details-total-label = Totaal
 
+## payment-processing
+
+payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
+
 ## payment confirmation
 
 payment-confirmation-alert = Klik hier om te downloaden
 payment-confirmation-mobile-alert = App niet geopend? <a>Klik hier</a>
-payment-confirmation-heading = Bedankt { $displayName }!
-payment-confirmation-heading-bak = Bedankt!
-payment-confirmation-subheading = Er is een bevestigingsbericht verzonden naar
+payment-confirmation-thanks-heading = Bedankt!
+payment-confirmation-thanks-subheading = Er is een bevestigingsbericht verzonden naar { $email } met details over hoe u aan de slag kunt met { $product_name }.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekening voor
@@ -384,5 +399,5 @@ payment-confirmation-amount-year =
         [one] jaarlijks { $amount }
        *[other] elke { $intervalCount } jaar { $amount }
     }
-payment-confirmation-cc-preview = eindigend op { $last4 }
 payment-confirmation-download-button = Doorgaan naar download
+payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }

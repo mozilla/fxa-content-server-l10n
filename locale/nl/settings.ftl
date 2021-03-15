@@ -191,6 +191,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Foto opnieuw maken
 avatar-page-close-button = Sluiten
 avatar-page-save-button = Opslaan
+avatar-page-saving-button = Opslaan…
 avatar-page-zoom-out-button = Uitzoomen
 avatar-page-zoom-in-button = Inzoomen
 avatar-page-rotate-button = Roteren
