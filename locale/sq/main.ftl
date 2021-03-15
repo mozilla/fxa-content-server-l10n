@@ -100,6 +100,8 @@ payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } përdor Stripe-in
 payment-legal-link-stripe-and-paypal = Shihni <stripePrivacyLink>rregulla privatësie të Stripe-it</stripePrivacyLink> dhe <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
 payment-legal-link-paypal = Shihni <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } përdor Stripe-in për përpunim të sigurt të pagesave.
+payment-legal-link-stripe = Shihni <stripePrivacyLink>rregulla privatësie të Stripe-it</stripePrivacyLink>.
 
 ## payment form
 
@@ -357,6 +359,7 @@ payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj
 payment-confirmation-alert = Klikoni këtu për ta shkarkuar
 payment-confirmation-mobile-alert = S’u hap aplikacioni? <a>Klikoni Këtu</a>
 payment-confirmation-thanks-heading = Faleminderit!
+payment-confirmation-thanks-subheading = A confirmation email has been sent Te { $email } u dërgua një email ripohimi me udhëzime se si t’ia fillohet me { $product_name }.
 payment-confirmation-order-heading = Hollësi porosie
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturuar për
