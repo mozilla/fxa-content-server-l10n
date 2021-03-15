@@ -91,6 +91,8 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilise Stripe et { -brand-name-paypal } pour un traitement sécurisé des paiements.
+payment-legal-link-stripe-and-paypal = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink> et la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
 
 ## payment form
 
