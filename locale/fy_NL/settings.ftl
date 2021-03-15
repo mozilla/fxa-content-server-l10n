@@ -191,6 +191,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Foto opnij meitsje
 avatar-page-close-button = Slute
 avatar-page-save-button = Bewarje
+avatar-page-saving-button = Bewarje…
 avatar-page-zoom-out-button = Utzoome
 avatar-page-zoom-in-button = Ynzoome
 avatar-page-rotate-button = Draaie

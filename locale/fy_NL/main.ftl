@@ -53,6 +53,7 @@ privacy = Privacyferklearring
 subscription-create-title = Jo abonnemint ynstelle
 subscription-success-title = Abonnemintsbefêstiging
 subscription-processing-title = Abonnemint befêstigje…
+subscription-error-title = Flater by befêstigjen abonnemint…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,6 +96,12 @@ product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } brûkt Stripe en { -brand-name-paypal } foar feilich betellingsferkear.
+payment-legal-link-stripe-and-paypal = It <stripePrivacyLink>privacybelied fan Stripe</stripePrivacyLink> en fan <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-copy-paypal = { -brand-name-mozilla } brûkt { -brand-name-paypal } foar feilich betellingsferkear.
+payment-legal-link-paypal = It <paypalPrivacyLink>privacybelied fan { -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-copy-stripe = { -brand-name-mozilla } brûkt Stripe foar feilich betellingsferkear.
+payment-legal-link-stripe = It <stripePrivacyLink>privacybelied fan  Stripe</stripePrivacyLink> besjen.
 
 ## payment form
 
@@ -164,6 +171,7 @@ input-error-is-required = { $label } is ferplicht
 
 product-plan-upgrade-heading = Jo opwurdearring besjen
 sub-update-failed = Bywurkjen skema mislearre
+sub-update-payment-title = Betellingsgegevens
 sub-update-card-exp = Ferrint { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
@@ -351,11 +359,14 @@ plan-details-total-label = Totaal
 
 ## payment-processing
 
+payment-processing-message = In momint wylst wy jo betelling ferwurkje…
 
 ## payment confirmation
 
 payment-confirmation-alert = Klik hjir om te downloaden
 payment-confirmation-mobile-alert = App net iepene? <a>Klik hjir</a>
+payment-confirmation-thanks-heading = Tige tank!
+payment-confirmation-thanks-subheading = Der is in befêstigingsberjocht ferstjoerd nei { $email } mei details oer hoe't jo oan de slach kinne mei { $product_name }.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekkening foar
@@ -389,3 +400,4 @@ payment-confirmation-amount-year =
        *[other] elke { $intervalCount } jier { $amount }
     }
 payment-confirmation-download-button = Trochgean mei download
+payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
