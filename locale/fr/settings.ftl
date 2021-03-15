@@ -378,7 +378,7 @@ security-heading = Sécurité
 row-defaults-action-add = Ajouter
 row-defaults-action-change = Modifier
 row-defaults-action-disable = Désactiver
-row-defaults-status = Aucun
+row-defaults-status = Aucun·e
 
 ## Recovery key sub-section on main Settings page
 
