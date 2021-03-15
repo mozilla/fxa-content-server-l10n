@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -22,6 +23,9 @@ general-error-heading = Errore generale dell’applicazione
 basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
 payment-error-1 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Riprova o contatta l’emittente della carta.
 payment-error-2 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
+payment-error-3 = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
+payment-error-retry-button = Riprova
+payment-error-manage-subscription-button = Gestione abbonamento
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
@@ -41,10 +45,12 @@ settings-subscriptions-title = Abbonamenti
 terms = Termini di servizio
 privacy = Informativa sulla privacy
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Configura il tuo abbonamento
-product-plan-details-heading = Configura il tuo abbonamento
+subscription-create-title = Configura l’abbonamento
+subscription-success-title = Conferma dell’abbonamento
+subscription-processing-title = Conferma abbonamento…
+subscription-error-title = Errore durante la conferma dell’abbonamento…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +93,11 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilizza Stripe e PayPal per l’elaborazione sicura dei pagamenti.
-payment-legal-link-stripe-paypal = Visualizza l’<stripePrivacyLink>Informativa sulla privacy di Stripe</stripePrivacyLink> e l’<paypalPrivacyLink>Informativa sulla privacy di PayPal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilizza Stripe e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-paypal = Visualizza l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } utilizza Stripe per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe = Visualizza l’<stripePrivacyLink>informativa sulla privacy di Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,8 +167,6 @@ input-error-is-required = { $label } è un campo obbligatorio
 
 product-plan-upgrade-heading = Controlla il tuo aggiornamento
 sub-update-failed = Aggiornamento del piano non riuscito
-sub-update-title = Informazioni sulla fatturazione
-sub-update-card-ending = La carta termina con { $last }
 sub-update-card-exp = Scade il { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
 
@@ -338,13 +345,16 @@ plan-details-show-button = Mostra dettagli
 plan-details-hide-button = Nascondi dettagli
 plan-details-total-label = Totale
 
+## payment-processing
+
+payment-processing-message = Attendi mentre elaboriamo il tuo pagamento…
+
 ## payment confirmation
 
 payment-confirmation-alert = Fai clic qui per scaricare
 payment-confirmation-mobile-alert = L’app non si è aperta? <a>Fai clic qui</a>
-payment-confirmation-heading = Grazie { $displayName }!
-payment-confirmation-heading-bak = Grazie!
-payment-confirmation-subheading = Un’email di conferma è stata inviata a
+payment-confirmation-thanks-heading = Grazie!
+payment-confirmation-thanks-subheading = È stata inviata un’email di conferma a { $email } con i dettagli su come iniziare a usare { $product_name }.
 payment-confirmation-order-heading = Dettagli dell’ordine
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Fatturato a
@@ -377,5 +387,5 @@ payment-confirmation-amount-year =
         [one] { $amount } all’anno
        *[other] { $amount } ogni { $intervalCount } anni
     }
-payment-confirmation-cc-preview = termina con { $last4 }
 payment-confirmation-download-button = Prosegui con il download
+payment-confirmation-cc-card-ending-in = La carta termina con { $last4 }
