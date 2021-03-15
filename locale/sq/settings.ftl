@@ -186,6 +186,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Ribëni Foto
 avatar-page-close-button = Mbylle
 avatar-page-save-button = Ruaje
+avatar-page-saving-button = Po ruhet…
 avatar-page-zoom-out-button = Zvogëlojeni
 avatar-page-zoom-in-button = Zmadhojeni
 avatar-page-rotate-button = Rrotulloje

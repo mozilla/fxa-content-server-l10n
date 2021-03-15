@@ -8,6 +8,7 @@
 project-brand = Llogari Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Llogari Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Gabim i përgjithshëm aplikacioni
 basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 payment-error-1 = Hëm. Pati një problem me autorizimin e pagesës tuaj. Riprovoni ose lidhuni me emetuesin e kartës tuaj.
 payment-error-2 = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
+payment-error-3 = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+payment-error-retry-button = Riprovoni
+payment-error-manage-subscription-button = Administroni pajtimet e mia
+country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
+currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
+returning-paypal-customer-error = Na ndjeni. Aktualisht, mund të regjistroheni vetëm për një pajtim në herë. Ju lutemi, provoni sërish së shpejti.
 expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 insufficient-funds-error = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 withdrawal-count-limit-exceeded-error = Duket sikur ky transaksion do t’ju kalojë tej kufirit tuaj për kredit. Provoni një kartë tjetër.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Pajtime
 terms = Kushte Shërbimi
 privacy = Shënim Mbi Privatësinë
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Le të ujdisim  pajtimin tuaj
-product-plan-details-heading = Le të ujdisim  pajtimin tuaj
+subscription-create-title = Ujdisje e pajtimit tim
+subscription-success-title = Ripohim pajtimi
+subscription-processing-title = Po ripohohet pajtimi…
+subscription-error-title = Gabim në ripohim pajtimi…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,10 @@ product-no-such-plan = S’ka plan të tillë për këtë produkt.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } përdor Stripe-in për përpunim të sigurt pagesash.
-payment-legal-link = Shihni <a>Rregullat e privatësisë së Stripe-it</a>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } përdor Stripe-in dhe { -brand-name-paypal } për përpunim të sigurt pagesash.
+payment-legal-link-stripe-and-paypal = Shihni <stripePrivacyLink>rregulla privatësie të Stripe-it</stripePrivacyLink> dhe <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
+payment-legal-link-paypal = Shihni <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +169,7 @@ input-error-is-required = { $label } është i domosdoshëm
 
 product-plan-upgrade-heading = Shqyrtoni përmirësimin tuaj
 sub-update-failed = Përditësimi i planit dështoi
-sub-update-title = Të dhëna faturimi
-sub-update-card-ending = Karta Që Përfundon Me { $last }
+sub-update-payment-title = Të dhëna pagese
 sub-update-card-exp = Skadon më { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Plani juaj do të ndryshojë menjëherë, dhe do t’ju faturohet vlera e ndryshuar për pjesën e mbetur të ciklit tuaj të faturimit. Duke filluar nga { $startingDate }
@@ -327,6 +337,9 @@ sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me 
 ## subscription create
 
 sub-guarantee = 30 ditë garanci kthimi parash
+pay-with-heading-other = Përzgjidhni mundësi pagese
+pay-with-heading-card-or = Ose paguani me kartë
+pay-with-heading-card-only = Paguani me kartë
 
 ## plan-details
 
@@ -335,13 +348,15 @@ plan-details-show-button = Shfaq hollësi
 plan-details-hide-button = Fshihi hollësitë
 plan-details-total-label = Gjithsej
 
+## payment-processing
+
+payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj…
+
 ## payment confirmation
 
 payment-confirmation-alert = Klikoni këtu për ta shkarkuar
 payment-confirmation-mobile-alert = S’u hap aplikacioni? <a>Klikoni Këtu</a>
-payment-confirmation-heading = Faleminderit { $displayName }!
-payment-confirmation-heading-bak = Faleminderit!
-payment-confirmation-subheading = U dërgua një email ripohimi te
+payment-confirmation-thanks-heading = Faleminderit!
 payment-confirmation-order-heading = Hollësi porosie
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturuar për
@@ -374,5 +389,5 @@ payment-confirmation-amount-year =
         [one] { $amount } çdo vit
        *[other] { $amount } çdo { $intervalCount } vjet
     }
-payment-confirmation-cc-preview = që përfundon me { $last4 }
 payment-confirmation-download-button = Vazhdoni te shkarkimi
+payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
