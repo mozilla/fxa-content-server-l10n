@@ -92,6 +92,7 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
+payment-legal-link-stripe = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
 
@@ -349,6 +350,7 @@ plan-details-total-label = Opavavete
 
 ## payment-processing
 
+payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’ẽ...
 
 ## payment confirmation
 
