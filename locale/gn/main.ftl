@@ -28,6 +28,7 @@ payment-error-retry-button = Eha’ãjey
 payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 country-currency-mismatch = Pe viru ko ñemboheraguapy pegua ndoikói pe tetã ehepyme’ẽseha peguápe.
 currency-currency-mismatch = Rombyasy. Ndakatúi emoambue virukuéra pa’ũme.
+returning-paypal-customer-error = Rombyasy. Ko aravópe, ikatu eñemboheraguapy peteĩ jeyrãnte. ikatúpa ehechajey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
@@ -95,6 +96,7 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } oipuru Stripe ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
