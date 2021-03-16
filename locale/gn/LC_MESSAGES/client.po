@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-12 16:39+0000\n"
+"PO-Revision-Date: 2021-03-16 13:42+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -425,7 +425,7 @@ msgstr "apañuãi aporekóva"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "emondo je’epyre / emba’ejerure tembiapoite"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
