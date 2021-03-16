@@ -24,6 +24,7 @@ basic-error-message = Alco errate eveniva. Reproba plus tarde.
 payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
 payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
 payment-error-retry-button = Retentar
+payment-error-manage-subscription-button = Gerer mi subscription
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
@@ -45,6 +46,8 @@ privacy = Aviso de confidentialitate
 
 ## Subscription titles
 
+subscription-create-title = Preparation de tu subscription
+subscription-success-title = Confirmation del subscription
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -373,3 +376,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } cata { $intervalCount } annos
     }
 payment-confirmation-download-button = Continuar a discargar
+payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
