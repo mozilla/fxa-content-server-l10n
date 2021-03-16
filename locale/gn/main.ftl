@@ -97,6 +97,10 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } oipuru Stripe ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-and-paypal = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink> ha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-paypal = Ehecha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } oipuru Stripe ohepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-stripe = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
