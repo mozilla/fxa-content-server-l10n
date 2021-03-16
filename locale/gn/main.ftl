@@ -23,6 +23,7 @@ general-error-heading = Tembipuru’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
+payment-error-3 = Oiko peteĩ jejavy eha’arõ’ỹva ehepyme’ẽnguévo, ikatúpa eha’ãjey uperire.
 payment-error-retry-button = Eha’ãjey
 payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
