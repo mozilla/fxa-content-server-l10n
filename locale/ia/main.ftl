@@ -48,6 +48,8 @@ privacy = Aviso de confidentialitate
 
 subscription-create-title = Preparation de tu subscription
 subscription-success-title = Confirmation del subscription
+subscription-processing-title = Confirmation del subscription…
+subscription-error-title = Error in confirmation de subscription…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -90,6 +92,7 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilisa Stripe e { -brand-name-paypal } pro le elaboration secur del pagamentos.
 payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
 
 ## payment form
