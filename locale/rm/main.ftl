@@ -8,6 +8,7 @@
 project-brand = Contos da Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Contos da Firefox
 
@@ -22,6 +23,11 @@ general-error-heading = Errur generala da l'applicaziun
 basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
 payment-error-1 = Hm. Igl ha dà in problem cun autorisar tes pajament. Emprova anc ina giada u contactescha l'emittent da tia carta.
 payment-error-2 = Hm. Igl ha dà in problem cun autorisar tes pajament. Contactescha l'emittent da tia carta.
+payment-error-3 = Ina errur nunspetgada è succedida durant l'elavuraziun da tes pajament, emprova per plaschair anc ina giada.
+payment-error-retry-button = Reempruvar
+payment-error-manage-subscription-button = Administrar mes abunament
+country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
+currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
 expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
 insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
 withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
@@ -41,10 +47,8 @@ settings-subscriptions-title = Abunaments
 terms = Cundiziuns d'utilisaziun
 privacy = Infurmaziuns davart la protecziun da datas
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Configurescha tes abunament
-product-plan-details-heading = Configurescha tes abunament
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +91,6 @@ product-no-such-plan = Nagin abunament correspundent per quest product.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } utilisescha Stripe e Paypal per l'elavuraziun segira dal pajament.
-payment-legal-link-stripe-paypal = Consultar las directivas da la protecziun da datas <stripePrivacyLink>da Stripe</stripePrivacyLink> e <paypalPrivacyLink>da Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -158,8 +160,6 @@ input-error-is-required = { $label } è obligatoric
 
 product-plan-upgrade-heading = Controllescha tia actualisaziun
 sub-update-failed = Actualisaziun dal plan betg reussida
-sub-update-title = Infurmaziuns da facturaziun
-sub-update-card-ending = La carta chala cun { $last }
 sub-update-card-exp = Scadenza: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tes plan vegn immediat midà ed i vegn debità ina summa
@@ -345,13 +345,13 @@ plan-details-show-button = Mussar ils detagls
 plan-details-hide-button = Zuppentar ils detagls
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Clicca qua per telechargiar
 payment-confirmation-mobile-alert = L'app n'è betg s'averta? <a>Clicca qua</a>
-payment-confirmation-heading = Grazia { $displayName }!
-payment-confirmation-heading-bak = Grazia!
-payment-confirmation-subheading = In e-mail da conferma è vegnì tramess a
 payment-confirmation-order-heading = Detagls da l'empustaziun
 payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
 payment-confirmation-billing-heading = Quint a:
@@ -384,5 +384,4 @@ payment-confirmation-amount-year =
         [one] { $amount } per onn
        *[other] { $amount } mintga { $intervalCount } onns
     }
-payment-confirmation-cc-preview = chala cun { $last4 }
 payment-confirmation-download-button = Vinavant a la telechargiada
