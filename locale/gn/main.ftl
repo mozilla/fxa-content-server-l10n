@@ -366,6 +366,7 @@ payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’
 payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
 payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
 payment-confirmation-thanks-heading = ¡Aguyje!
+payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ rehegua { $email }-pe oje’ehápe mba’éichapa ojepurúta { $product_name }.
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
