@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-17 07:03+0000\n"
+"PO-Revision-Date: 2021-03-17 07:07+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -451,7 +451,7 @@ msgstr "ขอบคุณที่สมัครเป็นสมาชิก
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "เราได้รับการชำระเงินสำหรับ %(productName)s ครั้งล่าสุดของคุณแล้ว"
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
@@ -459,7 +459,7 @@ msgstr "ขอบคุณสำหรับการอัปเกรด!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "คุณได้อัปเกรดจาก %(productNameOld)s เป็น %(productNameNew)s เรียบร้อยแล้ว"
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
@@ -469,11 +469,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "บัตรเครดิตที่คุณกำลังจะใช้ชำระเงินสำหรับการบอกรับต่อไปนี้กำลังจะหมดอายุ"
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "มีคำถามเกี่ยวกับการบอกรับของคุณหรือไม่? ทีมงานฝ่ายสนับสนุนของเราคอยช่วยเหลือคุณอยู่ที่นี่แล้ว:"
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -605,11 +605,11 @@ msgstr "เมื่อยืนยันแล้ว เราจะช่ว�
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "หรือ ติดตั้งบน<a %(desktopLinkAttributes)s>อุปกรณ์เดสก์ท็อปอื่น</a>"
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "หรือ ติดตั้งบน<a %(cadLinkAttributes)sอุปกรณอื่น</a>"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -846,7 +846,7 @@ msgstr "สร้างรหัสการกู้คืนใหม่"
 
 #: lib/senders/email.js:1823
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "คุณได้อัปเกรดเป็น %(productNameNew)s แล้ว"
 
 #: lib/senders/email.js:1902
 msgid "You have switched to %(productNameNew)s"
@@ -858,7 +858,7 @@ msgstr "บัตรเครดิตสำหรับ % (productName)s จะ
 
 #: lib/senders/email.js:1981
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "บัตรเครดิตสำหรับการบอกรับของคุณจะหมดอายุในไม่ช้า"
 
 #: lib/senders/email.js:2033
 msgid "%(productName)s payment failed"
@@ -970,6 +970,9 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"บัญชี Firefox ใช้ประโยชน์จากคุณลักษณะต่าง ๆ ที่ไม่รองรับ\n"
+"                        ใน Firefox รุ่นที่คุณใช้อยู่ โปรดดาวน์โหลดและติดตั้ง\n"
+"                        Firefox รุ่นล่าสุดเพื่อดำเนินการต่อ"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
