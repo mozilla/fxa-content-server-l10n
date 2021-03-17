@@ -422,7 +422,7 @@ se-refresh-email =
     .title = Actualiser l’adresse
 se-unverified = non vérifiée
 se-resend-code =
-    Vérification nécessaire. <bouton>Renvoyer le code de vérification</button>
+    Vérification nécessaire. <button>Renvoyer le code de vérification</button>
     si celui-ci n’est pas dans votre boîte de réception ou votre dossier de spam.
 # Button to make secondary email the primary
 se-make-primary = En faire l’adresse principale
