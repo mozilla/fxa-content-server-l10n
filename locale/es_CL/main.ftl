@@ -350,6 +350,7 @@ plan-details-total-label = Total
 
 payment-confirmation-alert = Clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No se abrió la aplicación? <a>Haz clic aquí</a>
+payment-confirmation-thanks-heading = ¡Gracias!
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -383,3 +384,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 payment-confirmation-download-button = Continuar para descargar
+payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
