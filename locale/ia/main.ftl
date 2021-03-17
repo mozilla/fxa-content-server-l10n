@@ -23,8 +23,12 @@ general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
 payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
 payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
+payment-error-3 = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 payment-error-retry-button = Retentar
 payment-error-manage-subscription-button = Gerer mi subscription
+country-currency-mismatch = Le moneta de iste subscription non es valide pro le pais associate con tu pagamento.
+currency-currency-mismatch = Desolate. Tu non pote cambiar inter monetas.
+returning-paypal-customer-error = Desolate. Actualmente, tu pote solo inscriber te a un sol subscription cata vice. Retenta tosto.
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
@@ -93,7 +97,11 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilisa Stripe e { -brand-name-paypal } pro le elaboration secur del pagamentos.
+payment-legal-link-stripe-and-paypal = Vide le <stripePrivacyLink>Politica de confidentialitate de Stripe</stripePrivacyLink> e le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } emplea { -brand-name-paypal } pro le processo secur de pagamento.
+payment-legal-link-paypal = Vide le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
+payment-legal-link-stripe = Vider le <stripePrivacyLink>politica de confidentialitate de Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -341,12 +349,14 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Attende durante que nos elabora tu pagamento...
 
 ## payment confirmation
 
 payment-confirmation-alert = Clicca ci pro discargar
 payment-confirmation-mobile-alert = Le app non se aperi? <a>Clicca hic</a>
 payment-confirmation-thanks-heading = Gratias!
+payment-confirmation-thanks-subheading = Un e-mail de confirmation ha essite inviate a { $email } con detalios sur como comenciar con { $product_name }.
 payment-confirmation-order-heading = Detalios del ordine
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturate a
