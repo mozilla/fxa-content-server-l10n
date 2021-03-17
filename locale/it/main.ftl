@@ -26,6 +26,9 @@ payment-error-2 = Uhm… si è verificato un problema durante l’autorizzazione
 payment-error-3 = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 payment-error-retry-button = Riprova
 payment-error-manage-subscription-button = Gestione abbonamento
+country-currency-mismatch = La valuta di questo abbonamento non è valida per il Paese associato alla tua modalità di pagamento.
+currency-currency-mismatch = Siamo spiacenti, non è possibile cambiare la valuta.
+returning-paypal-customer-error = Siamo spiacenti, al momento è possibile effettuare un solo abbonamento alla volta. Ricontrolla in futuro.
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
@@ -94,6 +97,7 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilizza Stripe e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe-and-paypal = Visualizza l’</paypalPrivacyLink>informativa sulla privacy di Stripe</stripePrivacyLink> e l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
 payment-legal-link-paypal = Visualizza l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe = { -brand-name-mozilla } utilizza Stripe per l’elaborazione sicura dei pagamenti.
@@ -167,6 +171,7 @@ input-error-is-required = { $label } è un campo obbligatorio
 
 product-plan-upgrade-heading = Controlla il tuo aggiornamento
 sub-update-failed = Aggiornamento del piano non riuscito
+sub-update-payment-title = Informazioni sul pagamento
 sub-update-card-exp = Scade il { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
 
