@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-15 23:50+0000\n"
+"PO-Revision-Date: 2021-03-16 15:46+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -440,7 +440,7 @@ msgstr "Il pote esser que tu carta de credito ha expirate o tu actual methodo de
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
-msgstr ""
+msgstr "Adjuta nos a remediar lo per le <a href=\"%(updateBillingUrl)s\">actualisation de tu informationes de pagamento</a> intra 24 horas."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
