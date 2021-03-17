@@ -23,6 +23,7 @@ general-error-heading = Error general de la aplicación
 basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 payment-error-1 = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
 payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+payment-error-retry-button = Volver a intentarlo
 expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción será mayor a tu cupo de crédito. Prueba con otra tarjeta.
