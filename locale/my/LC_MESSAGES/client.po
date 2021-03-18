@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
+"POT-Creation-Date: 2021-03-18 22:07+0000\n"
 "PO-Revision-Date: 2019-11-02 17:35+0000\n"
 "Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 msgid "Sign in"
 msgstr "၀င်ပါ"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "အကောင့်ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 

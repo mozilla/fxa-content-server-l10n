@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-10 10:51+0000\n"
+"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"PO-Revision-Date: 2021-03-15 20:40+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -439,15 +439,15 @@ msgstr "Miskien is jo creditcard ferrûn, of jo aktuele betellingsmetoade is fer
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
-msgstr ""
+msgstr "Help ús dit te werstellen troch binnen 24 oer <a href=\"%(updateBillingUrl)s\">jo betellingsgegevens by te wurkjen</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "As wy net binnen 24 oer fan jo hearre, ferlieze jo spitigernôch jo tagong ta %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within 24 hours:"
-msgstr ""
+msgstr "Help ús dit te werstellen troch binnen 24 oer jo betellingsgegevens by te wurkjen:"
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -663,7 +663,7 @@ msgstr "Account beheare:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"

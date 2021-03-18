@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-10 10:50+0000\n"
+"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"PO-Revision-Date: 2021-03-15 20:39+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -29,7 +29,7 @@ msgstr "Wachtwurd is opnij ynsteld. Meld jo oan om troch te gean."
 msgid "Sign in"
 msgstr "Oanmelde"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Account mei sukses fuortsmiten"
 
@@ -415,23 +415,23 @@ msgstr "Account mei sukses ferifiearre"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "betelling & fakturearjen"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "accountproblemen"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "technyske problemen"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "kommentaar jaan / funksjes oanfreegje"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "net fermeld"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1691,7 +1691,7 @@ msgstr "Wêrom oanmelde op in oar apparaat?"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Account-startside"
 
 #: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -1707,7 +1707,7 @@ msgstr "Wêroer nimme jo kontakt mei ús op?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Selektearje der ien"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
