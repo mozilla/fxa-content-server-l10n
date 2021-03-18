@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
+"POT-Creation-Date: 2021-03-18 10:07+0000\n"
 "PO-Revision-Date: 2021-03-04 18:35+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Heslo bylo úspěšně obnoveno. Pro pokračování se přihlaste."
 msgid "Sign in"
 msgstr "Přihlásit se"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Účet byl úspěšně smazán"
 

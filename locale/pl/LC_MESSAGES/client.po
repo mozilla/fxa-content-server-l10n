@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
+"POT-Creation-Date: 2021-03-18 10:07+0000\n"
 "PO-Revision-Date: 2020-10-17 09:31+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -28,7 +28,7 @@ msgstr "Pomyślnie zmieniono hasło. Zaloguj się, aby kontynuować."
 msgid "Sign in"
 msgstr "Zaloguj się"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Pomyślnie usunięto konto"
 

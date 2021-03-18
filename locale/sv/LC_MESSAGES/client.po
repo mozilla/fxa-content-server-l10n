@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2020-10-13 01:29+0000\n"
+"POT-Creation-Date: 2021-03-18 10:07+0000\n"
+"PO-Revision-Date: 2021-03-12 17:22+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -29,7 +29,7 @@ msgstr "Lösenordet återställt. Logga in för att fortsätta."
 msgid "Sign in"
 msgstr "Logga in"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -413,23 +413,23 @@ msgstr "Konto verifierat"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "betalning och fakturering"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "kontoproblem"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "tekniska problem"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "ge återkoppling / begära funktioner"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "inte listad"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1689,7 +1689,7 @@ msgstr "Varför logga in på en annan enhet?"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Startsida för konton"
 
 #: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
 msgid "Subscriptions"
@@ -1705,7 +1705,7 @@ msgstr "Varför kontaktar du oss?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Vänligen välj en"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"

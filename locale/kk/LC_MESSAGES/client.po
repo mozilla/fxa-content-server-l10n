@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 16:07+0000\n"
+"POT-Creation-Date: 2021-03-18 10:07+0000\n"
 "PO-Revision-Date: 2020-06-12 03:05+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
@@ -28,7 +28,7 @@ msgstr "Парольді тастау сәтті аяқталды. Жалғас�
 msgid "Sign in"
 msgstr "Кіру"
 
-#: .es5/views/index.js:169 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
 msgid "Account deleted successfully"
 msgstr "Тіркелгі сәтті өшірілді"
 
