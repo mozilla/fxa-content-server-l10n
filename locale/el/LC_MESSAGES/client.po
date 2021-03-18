@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-12 16:07+0000\n"
-"PO-Revision-Date: 2021-03-14 17:02+0000\n"
-"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"PO-Revision-Date: 2021-03-15 15:43+0000\n"
+"Last-Translator: George kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -1712,7 +1712,7 @@ msgstr "Για ποιο λόγο επικοινωνείτε μαζί μας;"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Παρακαλούμε επιλέξτε ένα"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"

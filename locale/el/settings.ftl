@@ -67,6 +67,8 @@ cs-heading = Συνδεδεμένες υπηρεσίες
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Έγινε αποσύνδεση από το { $service }.
+cs-refresh-button =
+    .title = Ανανέωση συνδεδεμένων υπηρεσιών
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 cs-disconnect-sync-reason =
     Ποιος είναι ο κύριος λόγος αποσύνδεσης αυτής
@@ -85,6 +87,7 @@ cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 ##
 
 cs-disconnect-advice-confirm = Εντάξει, το 'πιασα
+cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
 cs-sign-out-button = Αποσύνδεση
 
 ##
@@ -92,6 +95,12 @@ cs-sign-out-button = Αποσύνδεση
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Έγινε λήψη
+datablock-copy =
+    .message = Έγινε αντιγραφή
+datablock-print =
+    .message = Έγινε εκτύπωση
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -160,6 +169,12 @@ pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθ�
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
+pw-change-current-password =
+    .label = Εισαγωγή τρέχοντος κωδικού πρόσβασης
+pw-change-new-password =
+    .label = Εισαγωγή νέου κωδικού πρόσβασης
+pw-change-confirm-password =
+    .label = Επιβεβαίωση νέου κωδικού πρόσβασης
 pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθηκε.
 
 ##
@@ -181,8 +196,11 @@ delete-account-delete-button-2 = Διαγραφή
 
 ## Display name page
 
+display-name-page-title =
+    .title = Εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
+display-name-success-alert = Το εμφανιζόμενο όνομα ενημερώθηκε.
 
 ##
 
@@ -196,6 +214,7 @@ recovery-key-page-title =
     .title = Κλειδί ανάκτησης
 recovery-key-step-1 = Βήμα 1 από 2
 recovery-key-step-2 = Βήμα 2 από 2
+recovery-key-success-alert = Το κλειδί ανάκτησης δημιουργήθηκε.
 
 ## Add secondary email page
 
