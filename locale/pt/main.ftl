@@ -8,6 +8,7 @@
 project-brand = Contas do Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Contas do Firefox
 
@@ -22,6 +23,12 @@ general-error-heading = Erro geral da aplicação
 basic-error-message = Algo correu mal. Tente novamente mais tarde.
 payment-error-1 = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Tente novamente mais tarde ou entre em contacto com o emissor do seu cartão.
 payment-error-2 = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Entre em contacto com o emissor do seu cartão.
+payment-error-3 = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
+payment-error-retry-button = Tentar novamente
+payment-error-manage-subscription-button = Gerir a minha subscrição
+country-currency-mismatch = A moeda desta subscrição não é válida para o país associado ao seu pagamento.
+currency-currency-mismatch = Pedimos desculpa. Não pode alternar entre moedas.
+returning-paypal-customer-error = Pedimos desculpa. Atualmente, apenas pode ter uma subscrição ativa em simultâneo. Por favor, volte em breve.
 expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá o seu limite de crédito. Tente outro cartão.
@@ -41,10 +48,12 @@ settings-subscriptions-title = Subscrições
 terms = Termos do serviço
 privacy = Política de privacidade
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Vamos configurar a sua subscrição.
-product-plan-details-heading = Vamos configurar a sua subscrição.
+subscription-create-title = Configurar a sua subscrição.
+subscription-success-title = Confirmação de subscrição
+subscription-processing-title = A confirmar a subscrição...
+subscription-error-title = Erro ao confirmar a subscrição...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -87,8 +96,12 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } usa o Stripe e o Paypal para processar pagamentos de forma segura.
-payment-legal-link-stripe-paypal = Consulte a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink> política de privacidade do Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utiliza o Stripe e o { -brand-name-paypal } para processar pagamentos de forma segura.
+payment-legal-link-stripe-and-paypal = Consulte a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink> política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } utiliza o { -brand-name-paypal } para processar pagamentos de forma segura.
+payment-legal-link-paypal = Consulte a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } utiliza o Stripe para processar pagamentos de forma segura.
+payment-legal-link-stripe = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,8 +171,7 @@ input-error-is-required = { $label } é necessário
 
 product-plan-upgrade-heading = Reveja a sua atualização
 sub-update-failed = Falha na atualização do plano
-sub-update-title = Informação de pagamento
-sub-update-card-ending = Cartão que termina com { $last }
+sub-update-payment-title = Informação de pagamento
 sub-update-card-exp = Expira em { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     O seu plano irá mudar imediatamente e você vai ser cobrado um valor ajustado 
@@ -345,13 +357,16 @@ plan-details-show-button = Mostrar detalhes
 plan-details-hide-button = Ocultar detalhes
 plan-details-total-label = Total
 
+## payment-processing
+
+payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento...
+
 ## payment confirmation
 
 payment-confirmation-alert = Clique aqui para descarregar
 payment-confirmation-mobile-alert = A aplicação não abriu? <a>Clique aqui</a>
-payment-confirmation-heading = Obrigado { $displayName }!
-payment-confirmation-heading-bak = Obrigado!
-payment-confirmation-subheading = Foi enviado um e-mail de confirmação para
+payment-confirmation-thanks-heading = Obrigado!
+payment-confirmation-thanks-subheading = Foi enviado um e-mail de confirmação para { $email } com detalhes sobre como começar a utilizar o { $product_name }.
 payment-confirmation-order-heading = Detalhes de compra
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Debitado a
@@ -384,5 +399,5 @@ payment-confirmation-amount-year =
         [one] { $amount } anualmente
        *[other] { $amount } a cada { $intervalCount } anos
     }
-payment-confirmation-cc-preview = termina em { $last4 }
 payment-confirmation-download-button = Continuar para descarregar
+payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
