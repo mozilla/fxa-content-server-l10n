@@ -28,6 +28,7 @@ payment-error-retry-button = Veuillez réessayer
 payment-error-manage-subscription-button = Gérer mon abonnement
 country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
 currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
+returning-paypal-customer-error = Malheureusement, vous ne pouvez actuellement disposer que d’un seul abonnement à la fois. Revenez nous voir bientôt.
 expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
@@ -49,6 +50,7 @@ privacy = Politique de confidentialité
 
 ## Subscription titles
 
+subscription-create-title = Configuration de votre abonnement
 subscription-success-title = Confirmation d’abonnement
 subscription-processing-title = Confirmation de l’abonnement…
 subscription-error-title = Erreur lors de la confirmation de l’abonnement…
