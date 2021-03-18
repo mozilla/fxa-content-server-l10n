@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,7 +24,7 @@ general-error-heading = Powšitkowny nałoženski zmylk
 basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 payment-error-1 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
 payment-error-2 = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
-payment-error-3 = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
+payment-error-3b = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 payment-error-retry-button = Hišće raz spytać
 payment-error-manage-subscription-button = Abonement zrjadować
 country-currency-mismatch = Měna tutoho abonementa za kraj, kotryž je z wašim płaćenjom zwjazany, płaćiwa njeje.
@@ -104,12 +105,12 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } Stripe a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-and-paypal = Čitajće <stripePrivacyLink>prawidła priwatnosće Stripe</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe-and-paypal-2 = Čitajće <stripePrivacyLink>prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
 payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink> pokazać.
-payment-legal-copy-stripe = { -brand-name-mozilla } Stripe za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe = <stripePrivacyLink>Prawidła priwatnosće Stripe</stripePrivacyLink> pokazać.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste předźěłowanje płaćenjow wužiwa.
+payment-legal-link-stripe-2 = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> pokazać.
 
 ## payment form
 
