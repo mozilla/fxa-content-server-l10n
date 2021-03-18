@@ -49,6 +49,9 @@ privacy = Politique de confidentialité
 
 ## Subscription titles
 
+subscription-success-title = Confirmation d’abonnement
+subscription-processing-title = Confirmation de l’abonnement…
+subscription-error-title = Erreur lors de la confirmation de l’abonnement…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -93,6 +96,10 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilise Stripe et { -brand-name-paypal } pour un traitement sécurisé des paiements.
 payment-legal-link-stripe-and-paypal = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink> et la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
+payment-legal-link-paypal = Consultez la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe = { -brand-name-mozilla } utilise Stripe pour un traitement sécurisé des paiements.
+payment-legal-link-stripe = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink>.
 
 ## payment form
 
@@ -162,6 +169,7 @@ input-error-is-required = Le champ « { $label } » est nécessaire
 
 product-plan-upgrade-heading = Examinez votre mise à niveau
 sub-update-failed = La mise à jour de votre forfait a échoué
+sub-update-payment-title = Informations de paiement
 sub-update-card-exp = Expiration : { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Votre forfait changera immédiatement et le montant de votre facture sera
@@ -341,6 +349,7 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Veuillez patienter pendant le traitement de votre paiement…
 
 ## payment confirmation
 
@@ -381,3 +390,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } tous les { $intervalCount } ans
     }
 payment-confirmation-download-button = Continuer vers le téléchargement
+payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
