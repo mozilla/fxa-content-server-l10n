@@ -218,6 +218,7 @@ recovery-key-success-alert = Το κλειδί ανάκτησης δημιουρ
 
 ## Add secondary email page
 
+add-secondary-email-error = Παρουσιάστηκε πρόβλημα κατά τη δημιουργία του email.
 add-secondary-email-page-title =
     .title = Δευτερεύον email
 add-secondary-email-cancel-button = Ακύρωση
@@ -230,6 +231,8 @@ add-secondary-email-save-button = Αποθήκευση
 
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
+verify-secondary-email-verification-code =
+    .label = Εισάγετε τον κωδικό επαλήθευσής σας
 verify-secondary-email-cancel-button = Ακύρωση
 verify-secondary-email-verify-button = Επαλήθευση
 # This string is a confirmation message shown after verifying an email.
@@ -252,6 +255,8 @@ tfa-button-continue = Συνέχεια
 tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
+tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποιήθηκε
+tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 tfa-input-enter-totp =
     .label = Εισάγετε κωδικό ασφαλείας
 
@@ -326,6 +331,7 @@ tfa-row-heading =
     .header = Ταυτοποίηση σε δύο βήματα
 tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
+tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-cannot-verify-session-2 = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
