@@ -609,7 +609,7 @@ msgstr "หรือ ติดตั้งบน<a %(desktopLinkAttributes)s>อ
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "หรือ ติดตั้งบน<a %(cadLinkAttributes)sอุปกรณอื่น</a>"
+msgstr "หรือ ติดตั้งบน<a %(cadLinkAttributes)s>อุปกรณอื่น</a>"
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
