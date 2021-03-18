@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -19,7 +20,7 @@ document =
 
 general-error-heading = שגיאת יישום כללית
 basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
-payment-error-3 = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+payment-error-3b = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 payment-error-retry-button = ניסיון חוזר
 payment-error-manage-subscription-button = ניהול המינוי שלי
 country-currency-mismatch = המטבע של מינוי זה אינו תקף למדינה המשויכת לתשלום שלך.
@@ -87,12 +88,11 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = ‏{ -brand-name-mozilla } משתמש ב־Stripe וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-and-paypal = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
 payment-legal-copy-paypal = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
 payment-legal-link-paypal = הצגת <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = ‏{ -brand-name-mozilla } משתמש ב־Stripe לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe = הצגת <stripePrivacyLink>מדיניות הפרטיות של Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
+payment-legal-link-stripe-2 = הצגת <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
