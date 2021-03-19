@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = 管理我的订阅
 country-currency-mismatch = 您的付款方式所在的国家/地区，无此订阅可用的货币。
 currency-currency-mismatch = 抱歉，您不能切换货币。
 returning-paypal-customer-error = 抱歉，当前每次只能有一组订阅。请稍后回来。
+no-subscription-upgrades = 抱歉，您目前无法升级或降级您的订阅。请稍后再试。
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
@@ -55,6 +56,7 @@ subscription-create-title = 设置您的订阅
 subscription-success-title = 订阅确认
 subscription-processing-title = 正在确认订阅...
 subscription-error-title = 确认订阅时出现错误...
+subscription-noupgrade-title = 不支持订阅层级变更
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
