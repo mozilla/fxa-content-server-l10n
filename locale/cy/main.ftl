@@ -9,6 +9,7 @@ project-brand = Cyfrifon Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Cyfrifon Firefox
 
@@ -23,12 +24,13 @@ general-error-heading = Gwall rhaglen cyffredinol
 basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 payment-error-1 = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Rhowch gynnig arall arni neu cysylltwch â chyhoeddwr eich cerdyn.
 payment-error-2 = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Cysylltwch â chyhoeddwr eich cerdyn.
-payment-error-3 = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
+payment-error-3b = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 payment-error-retry-button = Ceisiwch eto
 payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
 country-currency-mismatch = Nid yw arian cyfred y tanysgrifiad hwn yn ddilys ar gyfer y wlad sy'n gysylltiedig â'ch taliad.
 currency-currency-mismatch = Ymddiheuriadau. Nid oes modd i chi newid rhwng arian cyfred.
 returning-paypal-customer-error = Ymddiheuriadau. Ar hyn o bryd, dim ond un tanysgrifiad y gallwch chi ei gofrestru ar y tro. Dewch nôl yn fuan.
+no-subscription-upgrades = Ymddiheuriadau. Nid oes modd i chi uwchraddio nac israddio'ch tanysgrifiad ar hyn o bryd. Dewch nôl cyn bo hir.
 expired-card-error = Mae'n edrych fel bod eich cerdyn credyd wedi dod i ben. Rhowch gynnig ar gerdyn arall.
 insufficient-funds-error = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 withdrawal-count-limit-exceeded-error = Mae'n ymddangos y bydd y trafodyn hwn yn eich cymryd dros eich terfyn credyd. Rhowch gynnig ar gerdyn arall.
@@ -54,6 +56,7 @@ subscription-create-title = Gosod eich tanysgrifiad
 subscription-success-title = Cadarnhad o'ch tanysgrifiad
 subscription-processing-title = Yn cadarnhau eich tanysgrifiad...
 subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad...
+subscription-noupgrade-title = Nid yw newid haenau tanysgrifio yn cael ei gynnal
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -112,12 +115,12 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = Mae { -brand-name-mozilla } yn defnyddio Stripe a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-and-paypal = Gweld polisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-and-paypal-2 = Darllenwch bolisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
 payment-legal-link-paypal = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
-payment-legal-copy-stripe = Mae { -brand-name-mozilla } yn defnyddio Stripe ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe = Gweld polisi preifatrwydd <stripePrivacyLink>Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-2 = Darllenwch bolisi preifatrwydd <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
