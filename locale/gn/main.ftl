@@ -56,6 +56,7 @@ subscription-create-title = Ñemboheraguapy ñemboheko
 subscription-success-title = Ñemboheraguapy ñemoneĩ
 subscription-processing-title = Ñemboheraguapy oñemoneĩhína...
 subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy...
+subscription-noupgrade-title = Umi ñemoambue ñemboheraguapygua ndaipu’akái
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -98,8 +99,12 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-and-paypal-2 = Ehecha <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink> ha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-paypal = Ehecha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-2 = Ehecha <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
 
