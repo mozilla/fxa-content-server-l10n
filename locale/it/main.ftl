@@ -56,6 +56,7 @@ subscription-create-title = Configura l’abbonamento
 subscription-success-title = Conferma dell’abbonamento
 subscription-processing-title = Conferma abbonamento…
 subscription-error-title = Errore durante la conferma dell’abbonamento…
+subscription-noupgrade-title = Non è possibile cambiare il piano di abbonamento
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
