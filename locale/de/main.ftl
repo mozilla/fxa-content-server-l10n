@@ -9,6 +9,7 @@ project-brand = Firefox-Konten
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-Konten
 
@@ -23,12 +24,13 @@ general-error-heading = Allgemeiner Anwendungsfehler
 basic-error-message = Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.
 payment-error-1 = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
 payment-error-2 = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
-payment-error-3 = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
+payment-error-3b = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 payment-error-retry-button = Erneut versuchen
 payment-error-manage-subscription-button = Mein Abonnement verwalten
 country-currency-mismatch = Die Währung dieses Abonnements gilt nicht für das Land, das mit Ihrer Zahlung verknüpft ist.
 currency-currency-mismatch = Leider können Sie nicht zwischen Währungen wechseln.
 returning-paypal-customer-error = Derzeit können leider Sie nur ein Abonnement gleichzeitig abonnieren. Bitte schauen Sie bald wieder vorbei.
+no-subscription-upgrades = Sie können Ihr Abonnement derzeit nicht aktualisieren oder herunterstufen. Bitte schauen Sie bald wieder vorbei.
 expired-card-error = Es sieht so aus, als sei Ihre Kreditkarte abgelaufen. Versuchen Sie es mit einer anderen Karte.
 insufficient-funds-error = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 withdrawal-count-limit-exceeded-error = Es sieht so aus, als würden Sie mit dieser Transaktion Ihr Kreditlimit überschreiten. Versuchen Sie es mit einer anderen Karte.
@@ -54,6 +56,7 @@ subscription-create-title = Ihr Abonnement einrichten
 subscription-success-title = Abonnementbestätigung
 subscription-processing-title = Abonnement wird bestätigt...
 subscription-error-title = Fehler beim Bestätigen des Abonnements…
+subscription-noupgrade-title = Änderungen der Abonnementstufe werden nicht unterstützt
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +99,12 @@ product-no-such-plan = Für dieses Produkt existiert kein solcher Plan.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } verwenden Stripe und { -brand-name-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-and-paypal = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von Stripe</stripePrivacyLink> und die<paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } und { -brand-name-paypal } für die sichere Zahlungsabwicklung.
+payment-legal-link-stripe-and-paypal-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> und die<paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } verwendet { -brand-name-paypal } für die sichere Zahlungsabwicklung.
 payment-legal-link-paypal = Lesen Sie die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } verwendet Stripe für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } für die sichere Zahlungsabwicklung.
+payment-legal-link-stripe-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
