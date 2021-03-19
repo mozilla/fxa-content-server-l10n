@@ -9,6 +9,7 @@ project-brand = Tài khoản Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Tài khoản Firefox
 
@@ -23,12 +24,13 @@ general-error-heading = Lỗi ứng dụng chung
 basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 payment-error-1 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
 payment-error-2 = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
-payment-error-3 = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+payment-error-3b = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 payment-error-retry-button = Thử lại
 payment-error-manage-subscription-button = Quản lý thuê bao của tôi
 country-currency-mismatch = Đơn vị tiền tệ của thuê bao này không hợp lệ cho quốc gia được liên kết với khoản thanh toán của bạn.
 currency-currency-mismatch = Xin lỗi. Bạn không thể chuyển đổi giữa các loại tiền tệ.
 returning-paypal-customer-error = Xin lỗi. Hiện tại, bạn chỉ có thể đăng ký một gói thuê bao tại một thời điểm. Vui lòng kiểm tra lại sau.
+no-subscription-upgrades = Xin lỗi. Bạn không thể nâng cấp hoặc hạ cấp thuê bao của mình vào lúc này. Vui lòng kiểm tra lại sau.
 expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
 insufficient-funds-error = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 withdrawal-count-limit-exceeded-error = Có vẻ như đã vượt quá giới hạn tín dụng của bạn. Hãy thử một thẻ khác.
@@ -54,6 +56,7 @@ subscription-create-title = Thiết lập thuê bao của bạn
 subscription-success-title = Xác nhận thuê bao
 subscription-processing-title = Đang xác nhận thuê bao...
 subscription-error-title = Lỗi khi xác nhận thuê bao...
+subscription-noupgrade-title = Thay đổi cấp thuê bao không được hỗ trợ
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -92,12 +95,12 @@ product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } sử dụng Stripe và { -brand-name-paypal } để xử lý thanh toán an toàn.
-payment-legal-link-stripe-and-paypal = Xem <stripePrivacyLink>chính sách bảo mật Stripe</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } và { -brand-name-paypal } để xử lý thanh toán an toàn.
+payment-legal-link-stripe-and-paypal-2 = Xem <stripePrivacyLink>chính sách bảo mật của { -brand-name-stripe }</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật của { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } sử dụng { -brand-name-paypal } để xử lý thanh toán an toàn.
 payment-legal-link-paypal = Xem <paypalPrivacyLink>chính sách bảo mật của { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } sử dụng Stripe để xử lý thanh toán an toàn.
-payment-legal-link-stripe = Xem chính sách bảo mật của <stripePrivacyLink>Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
+payment-legal-link-stripe-2 = Xem <stripePrivacyLink>chính sách bảo mật của { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
