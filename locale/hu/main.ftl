@@ -9,6 +9,7 @@ project-brand = Firefox-fiókok
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-fiókok
 
@@ -23,7 +24,7 @@ general-error-heading = Általános alkalmazáshiba
 basic-error-message = Hiba történt, próbálja újra később.
 payment-error-1 = Hmm. Hiba történt a fizetés jóváhagyásakor. Próbálkozzon újra, vagy vegye fel a kapcsolatot a kártyakibocsátóval.
 payment-error-2 = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
-payment-error-3 = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+payment-error-3b = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 payment-error-retry-button = Próbálja újra
 payment-error-manage-subscription-button = Saját feliratkozások kezelése
 country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
@@ -96,12 +97,8 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = A { -brand-name-mozilla } a Stripe-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-and-paypal = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink> és a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-paypal = Tekintse meg a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
-payment-legal-copy-stripe = A { -brand-name-mozilla } a Stripe-ot használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe = Tekintse meg a <stripePrivacyLink>Stripe adatvédelmi irányelveit</stripePrivacyLink>.
 
 ## payment form
 
