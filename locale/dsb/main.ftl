@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Powšykna nałožeńska zmólka
 basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 payment-error-1 = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Wopytajśo hyšći raz abo stajśo se z wudawarjom swójeje kórty do zwiska.
 payment-error-2 = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
-payment-error-3 = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+payment-error-3b = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 payment-error-retry-button = Hyšći raz wopytaś
 payment-error-manage-subscription-button = Abonoment zastojaś
 country-currency-mismatch = Pjenjeze toś togo abonementa njejsu płaśiwe za kraj, kótaryž jo z wašym płaśenim zwězany.
 currency-currency-mismatch = Bóžko njamóžośo pjenjeze pśeměniś.
 returning-paypal-customer-error = Bóžko móžośo se tuchylu jano za jadyn abonement w danem casu registrěrowaś. Glědajśo pšosym pózdźej hyšći raz za tym.
+no-subscription-upgrades = Bóžko njamóžośo swój abonement aktualizěrowaś abo na nišy schójźeńk stajiś. Pšosym pśiźćo skóro zasej.
 expired-card-error = Zda se, ako by waša kreditna kórta spadnuła. Wopytajśo drugu kórrtu.
 insufficient-funds-error = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 withdrawal-count-limit-exceeded-error = Zda se, ako by wy z toś teju transakciju swój kórtowy limit pśekšocył. Wopytajśo drugu kórtu.
@@ -54,6 +56,7 @@ subscription-create-title = Waš abonement konfigurěrowaś
 subscription-success-title = Wobkšuśenje abonementa
 subscription-processing-title = Abonement se wobkšuśijo…
 subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
+subscription-noupgrade-title = Změny abonementowego schójźeńka se njepódpěraju
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -104,12 +107,8 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } Stripe a { -brand-name-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe-and-paypal = Cytajśo <stripePrivacyLink>pšawidła priwatnosći Stripe</stripePrivacyLink> a <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
 payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Pšawidła priwatnosći</paypalPrivacyLink> pokazaś.
-payment-legal-copy-stripe = { -brand-name-mozilla } Stripe za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe = <stripePrivacyLink>Pšawidła priwatnosći Stripe</stripePrivacyLink> pokazaś.
 
 ## payment form
 
