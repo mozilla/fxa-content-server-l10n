@@ -9,6 +9,7 @@ project-brand = Contas Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Contas Firefox
 
@@ -23,7 +24,7 @@ general-error-heading = Erro geral na aplicação.
 basic-error-message = Algo deu errado. Tente novamente mais tarde.
 payment-error-1 = Hmm. Houve um problema ao autorizar seu pagamento. Tente novamente ou entre em contato com o emissor do seu cartão.
 payment-error-2 = Hmm. Houve um problema ao autorizar o pagamento. Entre em contato com o emissor do seu cartão.
-payment-error-3 = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
+payment-error-3b = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
 payment-error-retry-button = Tentar novamente
 payment-error-manage-subscription-button = Gerenciar minha assinatura
 country-currency-mismatch = A moeda desta assinatura não é válida para o país associado ao seu pagamento.
@@ -96,12 +97,8 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = A { -brand-name-mozilla } usa o Stripe e o { -brand-name-paypal } para processamento seguro de pagamentos.
-payment-legal-link-stripe-and-paypal = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink> e a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } usa o { -brand-name-paypal } para processamento seguro de pagamentos.
 payment-legal-link-paypal = Veja a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = A { -brand-name-mozilla } usa o Stripe para processamento seguro de pagamentos.
-payment-legal-link-stripe = Veja a <stripePrivacyLink>política de privacidade do Stripe</stripePrivacyLink>.
 
 ## payment form
 
