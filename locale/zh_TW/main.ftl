@@ -9,6 +9,7 @@ project-brand = Firefox 帳號
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox 帳號
 
@@ -23,12 +24,13 @@ general-error-heading = 應用程式一般錯誤
 basic-error-message = 某些東西不對勁，請稍候再試一次。
 payment-error-1 = 取得款項授權時發生問題，請再試一次或與您的發卡單位聯繫。
 payment-error-2 = 取得款項授權時發生問題，請與您的發卡單位聯繫。
-payment-error-3 = 處理付款時發生未知錯誤，請再試一次。
+payment-error-3b = 處理付款時發生未知錯誤，請再試一次。
 payment-error-retry-button = 重試
 payment-error-manage-subscription-button = 管理我的訂閱
 country-currency-mismatch = 您的付款方式所在的國家，無法使用此訂閱紀錄要使用的貨幣。
 currency-currency-mismatch = 很抱歉，不能切換貨幣。
 returning-paypal-customer-error = 很抱歉，目前只能同時有一組訂閱。請稍候再回來。
+no-subscription-upgrades = 很抱歉，目前無法升級或降級您的訂閱方案。請稍候再試一次。
 expired-card-error = 您的信用卡已經過期，請改用其他卡片。
 insufficient-funds-error = 您的卡片額度不足，請改用其他卡片。
 withdrawal-count-limit-exceeded-error = 此交易會超過您的卡片可用額度，請改用其他卡片。
@@ -54,6 +56,7 @@ subscription-create-title = 設定訂閱
 subscription-success-title = 訂閱確認
 subscription-processing-title = 正在確認訂閱…
 subscription-error-title = 確認訂閱時發生錯誤…
+subscription-noupgrade-title = 不支援更改訂閱方案等級
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +99,12 @@ product-no-such-plan = 此產品無此方案。
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } 使用 Stripe 與 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-stripe-and-paypal = 可在此檢視 <stripePrivacyLink>Stripe 隱私權保護政策</stripePrivacyLink>及<paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>。
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 與 { -brand-name-paypal } 來安全地處理交易款項。
+payment-legal-link-stripe-and-paypal-2 = 可在此檢視 <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink>及<paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>。
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 來安全地處理交易款項。
 payment-legal-link-paypal = 可在此檢視 <paypalPrivacyLink>{ -brand-name-paypal } 的隱私權保護政策</paypalPrivacyLink>。
-payment-legal-copy-stripe = { -brand-name-mozilla } 使用 Stripe 來安全地處理交易款項。
-payment-legal-link-stripe = 可在此檢視 <stripePrivacyLink>Stripe 的隱私權保護政策</stripePrivacyLink>。
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
+payment-legal-link-stripe-2 = 可在此檢視 <stripePrivacyLink>{ -brand-name-stripe } 的隱私權保護政策</stripePrivacyLink>。
 
 ## payment form
 
