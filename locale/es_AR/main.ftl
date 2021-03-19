@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Error de aplicación general
 basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 payment-error-1 = Hmm. Hubo un problema al autorizar el pago. Probá nuevamente o ponete en contacto con el emisor de su tarjeta.
 payment-error-2 = Hmm. Hubo un problema al autorizar el pago. Ponete en contacto con el emisor de su tarjeta.
-payment-error-3 = Se produjo un error inesperado al procesar el pago. Probá de nuevo.
+payment-error-3b = Ocurrió un error inesperado al procesar tu pago. Intentá nuevamente.
 payment-error-retry-button = Intentar de nuevo
 payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Disculpá. No podés cambiar entre divisas.
 returning-paypal-customer-error = Disculpá. En este momento, solo podés suscribirte a una suscripción a la vez. Revisá más tarde.
+no-subscription-upgrades = Lo sentimos. No podés actualizar o reducir tu suscripción en este momento.  Fíjate de nuevo más adelante.
 expired-card-error = Parece que la tarjeta de crédito ha expirado. Probá con otra tarjeta.
 insufficient-funds-error = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción sobrepasará el límite de crédito. Probá otra tarjeta.
@@ -54,6 +56,7 @@ subscription-create-title = Configurá tu suscripción
 subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando suscripción...
 subscription-error-title = Error al confirmar la suscripción…
+subscription-noupgrade-title = Los cambios en el nivel de suscripción no son soportados
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +99,9 @@ product-no-such-plan = No existe tal plan para este producto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } usa Stripe y { -brand-name-paypal } para el procesamiento seguro de pagos.
-payment-legal-link-stripe-and-paypal = Ver la política de privacidad <stripePrivacyLink>Stripe</stripePrivacyLink> y <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de los pagos.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento de pago seguro.
 payment-legal-link-paypal = Ver la <paypalPrivacyLink> { -brand-name-paypal } política de privacidad </paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe para procesar pagos seguros.
-payment-legal-link-stripe = Ver la política de privacidad de <stripePrivacyLink>Stripe</stripePrivacyLink>.
 
 ## payment form
 
