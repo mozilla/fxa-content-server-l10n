@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Administroni pajtimet e mia
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
 currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
 returning-paypal-customer-error = Na ndjeni. Aktualisht, mund të regjistroheni vetëm për një pajtim në herë. Ju lutemi, provoni sërish së shpejti.
+no-subscription-upgrades = Na ndjeni. S’mund ta përmirësoni apo ktheni në një version të mëparshëm këtë çast. Ju lutemi, kontrolloni së shpejti.
 expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 insufficient-funds-error = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 withdrawal-count-limit-exceeded-error = Duket sikur ky transaksion do t’ju kalojë tej kufirit tuaj për kredit. Provoni një kartë tjetër.
@@ -55,6 +56,7 @@ subscription-create-title = Ujdisje e pajtimit tim
 subscription-success-title = Ripohim pajtimi
 subscription-processing-title = Po ripohohet pajtimi…
 subscription-error-title = Gabim në ripohim pajtimi…
+subscription-noupgrade-title = Nuk mbulohet ndryshime në fashën e pajtimeve
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -97,8 +99,12 @@ product-no-such-plan = S’ka plan të tillë për këtë produkt.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } për{ -brand-name-stripe }-in dhe { -brand-name-paypal }-in për përpunim të sigurt pagesash.
+payment-legal-link-stripe-and-paypal-2 = Shihni <stripePrivacyLink>rregulla privatësie { -brand-name-stripe }-i</stripePrivacyLink> dhe <paypalPrivacyLink>rregulla privatësie { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
 payment-legal-link-paypal = Shihni <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
+payment-legal-link-stripe-2 = Shihni <stripePrivacyLink>rregulla privatësie { -brand-name-stripe }-i</stripePrivacyLink>.
 
 ## payment form
 
