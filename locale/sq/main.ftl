@@ -9,6 +9,7 @@ project-brand = Llogari Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Llogari Firefox
 
@@ -23,7 +24,7 @@ general-error-heading = Gabim i përgjithshëm aplikacioni
 basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 payment-error-1 = Hëm. Pati një problem me autorizimin e pagesës tuaj. Riprovoni ose lidhuni me emetuesin e kartës tuaj.
 payment-error-2 = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
-payment-error-3 = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+payment-error-3b = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 payment-error-retry-button = Riprovoni
 payment-error-manage-subscription-button = Administroni pajtimet e mia
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
@@ -96,12 +97,8 @@ product-no-such-plan = S’ka plan të tillë për këtë produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } përdor Stripe-in dhe { -brand-name-paypal } për përpunim të sigurt pagesash.
-payment-legal-link-stripe-and-paypal = Shihni <stripePrivacyLink>rregulla privatësie të Stripe-it</stripePrivacyLink> dhe <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
 payment-legal-link-paypal = Shihni <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } përdor Stripe-in për përpunim të sigurt të pagesave.
-payment-legal-link-stripe = Shihni <stripePrivacyLink>rregulla privatësie të Stripe-it</stripePrivacyLink>.
 
 ## payment form
 
