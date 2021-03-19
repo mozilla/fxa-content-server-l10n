@@ -107,8 +107,12 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link-stripe-and-paypal-2 = Cytajśo <stripePrivacyLink>pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
 payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Pšawidła priwatnosći</paypalPrivacyLink> pokazaś.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste pśeźěłowanje płaśenjow wužywa.
+payment-legal-link-stripe-2 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> pokazaś.
 
 ## payment form
 
