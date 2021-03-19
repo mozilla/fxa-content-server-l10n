@@ -98,8 +98,12 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe-and-paypal-2 = Visualizza l’<stripePrivacyLink>informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink> e l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
 payment-legal-link-paypal = Visualizza l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe-2 = Visualizza l’<stripePrivacyLink>informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
