@@ -9,6 +9,7 @@ project-brand = Comptes Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Comptes Firefox
 
@@ -23,7 +24,7 @@ general-error-heading = Erreur générale de l’application
 basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
 payment-error-1 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Réessayez ou contactez l’émetteur de votre carte.
 payment-error-2 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
-payment-error-3 = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
+payment-error-3b = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 payment-error-retry-button = Veuillez réessayer
 payment-error-manage-subscription-button = Gérer mon abonnement
 country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
@@ -96,12 +97,8 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilise Stripe et { -brand-name-paypal } pour un traitement sécurisé des paiements.
-payment-legal-link-stripe-and-paypal = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink> et la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
 payment-legal-link-paypal = Consultez la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } utilise Stripe pour un traitement sécurisé des paiements.
-payment-legal-link-stripe = Consultez la <stripePrivacyLink>politique de confidentialité de Stripe</stripePrivacyLink>.
 
 ## payment form
 
