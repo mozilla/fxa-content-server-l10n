@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Rusachoj chijun rusamajixik
 basic-error-message = K'o man xel ta ütz. Tatojtob'ej chik jub'a' chik na.
 payment-error-1 = Hmm. Xk'oje' jun k'ayewal rik'in ruya'ik q'ij tojïk. Tatojtob'ej chik o katzijon rik'in ri xya'o ri atarjeta'
 payment-error-2 = Hmm. Xk'oje' jun k'ayewal rik'in ruya'ik q'ij tojïk. Katzijon rik'in ri xya'o ri atarjeta'.
-payment-error-3 = Xk'ulwachitäj jun man oyob'en ta chi sachoj toq nib'an ri tojïk, tatojtob'ej chik.
+payment-error-3b = Xk'ulwachitäj jun man oyob'en ta chi sachoj toq nib'an ri tojïk, tatojtob'ej chik.
 payment-error-retry-button = Titojtob'ëx chik
 payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 country-currency-mismatch = Man okel ta ri rupwaq re tz'ib'anïk b'i'aj re' richin re amaq' atz'ib'an kan richin ri atojik.
 currency-currency-mismatch = Takuyu'. Man yatikïr ta najäl chi kikojol ri pwaqil.
 returning-paypal-customer-error = Takuyu'. Pa re ramaj re', xa xe yatikïr natz'ib'aj ab'i' pa jun rutz'ib'axik b'i'aj. Tanik'oj pa jumej chik.
+no-subscription-upgrades = Takuyu'. Man yatikïr ta nak'ëx chuqa' nichup ruwa ri rutz'ib'axik ab'i' wakami. Tanik'oj pa jumej chik.
 expired-card-error = Xa ke xa ri rutajeta' richin kre'ito' xik'o yan ruq'ijul. Tatojtob'ej chik rik'in jun tarjeta'.
 insufficient-funds-error = Xa ke xa ri tajeta' man k'ïy ta rupam. Tatojtob'ej chik rik'in jun tarjeta'.
 withdrawal-count-limit-exceeded-error = Xakexa re tojoj re' xtik'o ruwi' rajil. Tatojtob'ej jun chik tarjeta'.
@@ -96,12 +98,12 @@ product-no-such-plan = Majun ajil richin re tikojil.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } nrokisaj Stripe chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
-payment-legal-link-stripe-and-paypal = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem Stripe</stripePrivacyLink> chuqa' <paypalPrivacyLink>{ -brand-name-paypal }Runa'ojil Richinanem </paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
+payment-legal-link-stripe-and-paypal-2 = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem { -brand-name-stripe }</stripePrivacyLink> chuqa' <paypalPrivacyLink>{ -brand-name-paypal }Runa'ojil Richinanem </paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } nrokisaj { -brand-name-paypal } richin nijikib'äx ri tojïk.
 payment-legal-link-paypal = Titz'et ri <paypalPrivacyLink>{ -brand-name-paypal } runa'ojil ichinanem</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } nrokisaj Stripe richin nijikib'äx ri tojïk.
-payment-legal-link-stripe = Titz'et ri <stripePrivacyLink>Runa'ojil ichinanem Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } richin nijikib'äx ri tojïk.
+payment-legal-link-stripe-2 = Titz'et ri <stripePrivacyLink>Runa'ojil ichinanem { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
