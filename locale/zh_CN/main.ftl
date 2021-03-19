@@ -24,6 +24,7 @@ general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
 payment-error-1 = 呃，您的付款授权有问题。请再试一次或与您的发卡行联系。
 payment-error-2 = 呃，您的付款授权有问题。请与您的发卡行联系。
+payment-error-3b = 处理付款时发生意外错误，请重试。
 payment-error-retry-button = 请重试
 payment-error-manage-subscription-button = 管理我的订阅
 country-currency-mismatch = 您的付款方式所在的国家/地区，无此订阅可用的货币。
@@ -95,8 +96,12 @@ product-no-such-plan = 此产品无此方案。
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 和 { -brand-name-paypal } 进行安全支付。
+payment-legal-link-stripe-and-paypal-2 = 查看 <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>和 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
 payment-legal-link-paypal = 查看 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
+payment-legal-link-stripe-2 = 查看 <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>。
 
 ## payment form
 
