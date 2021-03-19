@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Errore generale dell’applicazione
 basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
 payment-error-1 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Riprova o contatta l’emittente della carta.
 payment-error-2 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
-payment-error-3 = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
+payment-error-3b = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 payment-error-retry-button = Riprova
 payment-error-manage-subscription-button = Gestione abbonamento
 country-currency-mismatch = La valuta di questo abbonamento non è valida per il Paese associato alla tua modalità di pagamento.
 currency-currency-mismatch = Siamo spiacenti, non è possibile cambiare la valuta.
 returning-paypal-customer-error = Siamo spiacenti, al momento è possibile effettuare un solo abbonamento alla volta. Ricontrolla in futuro.
+no-subscription-upgrades = Siamo spiacenti, al momento non puoi eseguire l’upgrade o il downgrade dell’abbonamento. Ricontrolla in futuro.
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
@@ -96,12 +98,8 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilizza Stripe e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
-payment-legal-link-stripe-and-paypal = Visualizza l’</paypalPrivacyLink>informativa sulla privacy di Stripe</stripePrivacyLink> e l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
 payment-legal-link-paypal = Visualizza l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } utilizza Stripe per l’elaborazione sicura dei pagamenti.
-payment-legal-link-stripe = Visualizza l’<stripePrivacyLink>informativa sulla privacy di Stripe</stripePrivacyLink>.
 
 ## payment form
 
