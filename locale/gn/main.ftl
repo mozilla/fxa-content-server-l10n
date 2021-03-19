@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Tembipuru’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 payment-error-1 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
 payment-error-2 = Épa. Oĩ apañuãi ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
-payment-error-3 = Oiko peteĩ jejavy eha’arõ’ỹva ehepyme’ẽnguévo, ikatúpa eha’ãjey uperire.
+payment-error-3b = Oiko peteĩ jejavy eha’arõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
 payment-error-retry-button = Eha’ãjey
 payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 country-currency-mismatch = Pe viru ko ñemboheraguapy pegua ndoikói pe tetã ehepyme’ẽseha peguápe.
 currency-currency-mismatch = Rombyasy. Ndakatúi emoambue virukuéra pa’ũme.
 returning-paypal-customer-error = Rombyasy. Ko aravópe, ikatu eñemboheraguapy peteĩ jeyrãnte. ikatúpa ehechajey uperire.
+no-subscription-upgrades = Rombyasy. Ndaikatúi embohekopyahu térã emomichĩ ne ñemboheraguapy ko’ag̃a. Ehechajey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
@@ -96,12 +98,8 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } oipuru Stripe ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-and-paypal = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink> ha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-paypal = Ehecha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } oipuru Stripe ohepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe = Ehecha <stripePrivacyLink>Stripe ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
 
