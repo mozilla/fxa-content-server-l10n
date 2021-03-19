@@ -56,6 +56,7 @@ subscription-create-title = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 subscription-success-title = Rujikib'axik rutz'ib'axik b'i'aj
 subscription-processing-title = Nijikib'äx rutz'ib'axik b'i'aj
 subscription-error-title = Xsach toq nijikib'äx ri rutz'ib'axik b'i'aj…
+subscription-noupgrade-title = Man yek'ul ta taq jaloj pa ri rutz'ib'axik rub'i'
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
