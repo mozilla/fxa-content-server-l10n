@@ -8,6 +8,8 @@
 project-brand = Firefox Hesapları
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Hesapları
 
@@ -23,6 +25,7 @@ basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar dene
 payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
 payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
 payment-error-manage-subscription-button = Aboneliğimi yönet
+currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
@@ -44,6 +47,9 @@ privacy = Gizlilik Bildirimi
 
 ## Subscription titles
 
+subscription-success-title = Abonelik onayı
+subscription-processing-title = Abonelik onaylanıyor…
+subscription-error-title = Abonelik onaylanırken hata oluştu...
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -86,7 +92,6 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe = { -brand-name-mozilla } güvenli ödeme işlemleri için Stripe kullanır.
 
 ## payment form
 
@@ -156,6 +161,7 @@ input-error-is-required = { $label } gereklidir
 
 product-plan-upgrade-heading = Yükseltmenizi gözden geçirin
 sub-update-failed = Plan güncelleme başarısız
+sub-update-payment-title = Ödeme bilgileri
 sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -367,3 +373,4 @@ payment-confirmation-amount-year =
        *[other] { $intervalCount } yılda bir { $amount }
     }
 payment-confirmation-download-button = İndirmeye devam et
+payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
