@@ -9,6 +9,7 @@ project-brand = Imiḍanen Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Ameɣri
 document =
     .title = Imiḍanen Firefox
 
@@ -92,12 +93,12 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } isseqdac Stripe akked Paypal akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe-and-paypal = Wali <stripePrivacyLink>tasertit n tbaḍnit n Stripe</stripePrivacyLink>{ -brand-name-paypal } akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-and-paypal-2 = Wali <stripePrivacyLink>{ -brand-name-stripe }tasertit n tbaḍnit n</stripePrivacyLink>{ -brand-name-paypal } akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
 payment-legal-link-paypal = Wali <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } isseqdac Stripe i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe = Wali <stripePrivacyLink>tasertit tabaḍnit n Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-2 = Wali <stripePrivacyLink>{ -brand-name-stripe }tasertit tabaḍnit</stripePrivacyLink>.
 
 ## payment form
 
