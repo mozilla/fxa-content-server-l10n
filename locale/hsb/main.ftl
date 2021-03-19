@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Abonement zrjadować
 country-currency-mismatch = Měna tutoho abonementa za kraj, kotryž je z wašim płaćenjom zwjazany, płaćiwa njeje.
 currency-currency-mismatch = Bohužel njemóžeće měny přeměnić.
 returning-paypal-customer-error = Bohužel móžeće so tuchwilu jenož za jedyn abonement w datym času registrować. Hladajće prošu pózdźe hišće raz za tym.
+no-subscription-upgrades = ´Bohužel njemóžeće swój abonement aktualizować abo na niši schodźenk stajić. Prošu wróćće so bórze.
 expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
 insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 withdrawal-count-limit-exceeded-error = Zda so, kaž byšće z tutej transakciju swój kartowy limit překročał. Spytajće druhu kartu.
@@ -55,6 +56,7 @@ subscription-create-title = Waš abonement konfigurować
 subscription-success-title = Wobkrućenje abonementa
 subscription-processing-title = Abonement so wobkruća…
 subscription-error-title = Zmylk při wobkrućenju abonementa…
+subscription-noupgrade-title = Změny abonementoweho schodźenka so njepodpěruja
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
