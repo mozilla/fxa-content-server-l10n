@@ -148,7 +148,7 @@ nav-profile = 个人资料
 nav-security = 账户安全
 nav-connected-services = 关联服务
 nav-paid-subs = 付费订阅
-nav-email-comm = 电子邮件通信
+nav-email-comm = 新闻通讯
 
 ## Two Step Authentication - replace recovery code
 
