@@ -145,7 +145,7 @@ header-help = 帮助
 
 nav-settings = 设置
 nav-profile = 个人资料
-nav-security = 安全
+nav-security = 账户安全
 nav-connected-services = 关联服务
 nav-paid-subs = 付费订阅
 nav-email-comm = 电子邮件通信
@@ -352,7 +352,7 @@ profile-primary-email =
 
 ## Security section of Setting
 
-security-heading = 安全性
+security-heading = 账户安全
 
 ## Sub-section row Defaults
 
