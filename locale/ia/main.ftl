@@ -9,6 +9,7 @@ project-brand = Contos de Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Contos de Firefox
 
@@ -23,7 +24,7 @@ general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
 payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
 payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
-payment-error-3 = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
+payment-error-3b = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 payment-error-retry-button = Retentar
 payment-error-manage-subscription-button = Gerer mi subscription
 country-currency-mismatch = Le moneta de iste subscription non es valide pro le pais associate con tu pagamento.
@@ -96,12 +97,12 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } utilisa Stripe e { -brand-name-paypal } pro le elaboration secur del pagamentos.
-payment-legal-link-stripe-and-paypal = Vide le <stripePrivacyLink>Politica de confidentialitate de Stripe</stripePrivacyLink> e le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisa { -brand-name-stripe } e { -brand-name-paypal } pro le elaboration secur del pagamentos.
+payment-legal-link-stripe-and-paypal-2 = Vide le <stripePrivacyLink>Politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink> e le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } emplea { -brand-name-paypal } pro le processo secur de pagamento.
 payment-legal-link-paypal = Vide le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } usa Stripe pro un processo de pagamento secur.
-payment-legal-link-stripe = Vider le <stripePrivacyLink>politica de confidentialitate de Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } emplea { -brand-name-stripe } pro le processo secur de pagamento.
+payment-legal-link-stripe-2 = Vider le <stripePrivacyLink>politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
