@@ -9,6 +9,7 @@ project-brand = Аккаунты Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Аккаунты Firefox
 
@@ -23,12 +24,13 @@ general-error-heading = Общая ошибка приложения
 basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
 payment-error-1 = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
 payment-error-2 = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
-payment-error-3 = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
+payment-error-3b = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 payment-error-retry-button = Попробовать снова
 payment-error-manage-subscription-button = Управление моей подпиской
 country-currency-mismatch = Валюта этой подписки недействительна для страны, связанной с вашим платежом.
 currency-currency-mismatch = Извините. Вы не можете переключаться между валютами.
 returning-paypal-customer-error = Извините. В настоящее время вы можете подписаться только на одну подписку за раз. Пожалуйста, загляните попозже.
+no-subscription-upgrades = Извините. В настоящее время вы не можете повысить или понизить свою подписку. Пожалуйста, загляните попозже.
 expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
 insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
@@ -54,6 +56,7 @@ subscription-create-title = Настройка вашей подписки
 subscription-success-title = Подтверждение подписки
 subscription-processing-title = Подтверждение подписки...
 subscription-error-title = Ошибка подтверждения подписки...
+subscription-noupgrade-title = Изменение уровня подписки не поддерживается
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -100,12 +103,12 @@ product-no-such-plan = Нет такого плана для этого прод
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } использует Stripe и { -brand-name-paypal } для безопасной обработки платежей.
-payment-legal-link-stripe-and-paypal = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } использует { -brand-name-stripe } и { -brand-name-paypal } для безопасной обработки платежей.
+payment-legal-link-stripe-and-paypal-2 = Ознакомьтесь с <stripePrivacyLink>Политикой приватности { -brand-name-stripe }</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } использует { -brand-name-paypal } для безопасной обработки платежей.
 payment-legal-link-paypal = Ознакомьтесь с <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } использует Stripe для безопасной обработки платежей.
-payment-legal-link-stripe = Ознакомьтесь с <stripePrivacyLink>Политикой приватности Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
+payment-legal-link-stripe-2 = Ознакомьтесь с <stripePrivacyLink>Политикой приватности { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
