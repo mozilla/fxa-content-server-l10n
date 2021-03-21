@@ -99,6 +99,12 @@ product-no-such-plan = Nagin abunament correspundent per quest product.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } e { -brand-name-paypal } per l'elavuraziun segira dal pajament.
+payment-legal-link-stripe-and-paypal-2 = Consultar las directivas da la protecziun da datas <stripePrivacyLink>da { -brand-name-stripe }</stripePrivacyLink> e <paypalPrivacyLink>da { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } utilisescha { -brand-name-paypal } per l'elavuraziun segira dal pajament.
+payment-legal-link-paypal = Consultar las <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } per l'elavuraziun segira da pajaments.
+payment-legal-link-stripe-2 = Consultar las <stripePrivacyLink>directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -168,6 +174,7 @@ input-error-is-required = { $label } è obligatoric
 
 product-plan-upgrade-heading = Controllescha tia actualisaziun
 sub-update-failed = Actualisaziun dal plan betg reussida
+sub-update-payment-title = Infurmaziuns da pajament
 sub-update-card-exp = Scadenza: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tes plan vegn immediat midà ed i vegn debità ina summa
@@ -355,11 +362,14 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Spetgar per plaschair fertant che nus elavurain il pajament…
 
 ## payment confirmation
 
 payment-confirmation-alert = Clicca qua per telechargiar
 payment-confirmation-mobile-alert = L'app n'è betg s'averta? <a>Clicca qua</a>
+payment-confirmation-thanks-heading = Grazia fitg!
+payment-confirmation-thanks-subheading = In e-mail da conferma è vegnì tramess a { $email } cun infurmaziuns per ils emprims pass cun { $product_name }.
 payment-confirmation-order-heading = Detagls da l'empustaziun
 payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
 payment-confirmation-billing-heading = Quint a:
@@ -393,3 +403,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } mintga { $intervalCount } onns
     }
 payment-confirmation-download-button = Vinavant a la telechargiada
+payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
