@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-18 22:07+0000\n"
-"PO-Revision-Date: 2021-03-21 01:41+0000\n"
-"Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
+"PO-Revision-Date: 2021-02-03 05:48+0000\n"
+"Last-Translator: Juan Mazzetti <jmazzetti@economicas.uba.ar>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -2266,7 +2266,7 @@ msgstr "Dirección IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Una cuenta, muchos servicios"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -2294,7 +2294,7 @@ msgstr "Busca filtraciones de datos."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "A VPN from the trusted pioneer in internet privacy."
@@ -2370,7 +2370,7 @@ msgstr "Se terminó el proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Escanear para conectar otro dispositivo"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."

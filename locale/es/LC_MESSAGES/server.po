@@ -300,7 +300,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1294
 msgid "Setup next device"
-msgstr ""
+msgstr "Configurar el siguiente dispositivo"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
