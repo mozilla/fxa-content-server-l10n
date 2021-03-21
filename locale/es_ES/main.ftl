@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre monedas.
 returning-paypal-customer-error = Lo sentimos. En este momento, solo puedes registrarte para una suscripción a la vez. Por favor, vuelve a comprobarlo más tarde.
+no-subscription-upgrades = Lo sentimos. No puedes mejorar o reducir tu suscripción en este momento.  Prueba de nuevo más tarde.
 expired-card-error = Parece que tu tarjeta de crédito ha caducado. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción superará tu límite de crédito. Prueba con otra tarjeta.
@@ -55,6 +56,7 @@ subscription-create-title = Configura tu suscripción
 subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando la suscripción...
 subscription-error-title = Error al confirmar la suscripción…
+subscription-noupgrade-title = No es posible cambiar el nivel de suscripción
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -97,8 +99,12 @@ product-no-such-plan = No existe el plan para este producto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-and-paypal-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
 payment-legal-link-paypal = Ver la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
