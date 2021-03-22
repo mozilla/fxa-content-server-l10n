@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Gérer mon abonnement
 country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
 currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
 returning-paypal-customer-error = Malheureusement, vous ne pouvez actuellement disposer que d’un seul abonnement à la fois. Revenez nous voir bientôt.
+no-subscription-upgrades = Il n’est malheureusement pas possible de mettre à jour votre abonnement pour le moment. Veuillez réessayer ultérieurement.
 expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
@@ -55,6 +56,7 @@ subscription-create-title = Configuration de votre abonnement
 subscription-success-title = Confirmation d’abonnement
 subscription-processing-title = Confirmation de l’abonnement…
 subscription-error-title = Erreur lors de la confirmation de l’abonnement…
+subscription-noupgrade-title = Les changements de niveau d’abonnement ne sont pas pris en charge
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -97,6 +99,7 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
 payment-legal-link-paypal = Consultez la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
 
