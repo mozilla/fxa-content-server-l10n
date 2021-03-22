@@ -50,6 +50,8 @@ app-footer-terms-of-service = Tenestevilkår
 
 avatar-your-avatar =
     .alt = Avataren din
+avatar-default-avatar =
+    .alt = Standardavatar
 
 ##
 
@@ -266,9 +268,12 @@ rk-action-remove = Fjern
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-action-add = Legg til
 
 ## Avatar sub-section on main Settings page
 
+avatar-add-link = Legg til
+avatar-change-link = Endre
 
 ## Auth-server based errors that originate from backend service
 
