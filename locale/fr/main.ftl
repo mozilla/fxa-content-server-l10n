@@ -100,8 +100,11 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
+payment-legal-link-stripe-and-paypal-2 = Consultez la politique de confidentialité de <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> et celle de <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
 payment-legal-link-paypal = Consultez la <paypalPrivacyLink>politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
+payment-legal-link-stripe-2 = Consultez la <stripePrivacyLink>politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
