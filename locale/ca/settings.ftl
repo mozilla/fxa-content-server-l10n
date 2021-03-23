@@ -373,15 +373,56 @@ rk-key-removed = S'ha eliminat una clau de recuperació del compte.
 rk-cannot-remove-key = No s'ha pogut eliminar la clau de recuperació del compte.
 rk-refresh-key = Actualitza la clau de recuperació
 rk-content-explain = Restaureu la vostra informació en cas que oblideu la contrasenya.
+rk-content-reset-data = Per què en restablir la contrasenya es restableixen les meves dades?
+rk-cannot-verify-session-2 = S'ha produït un problema en verificar la vostra sessió.
+rk-remove-modal-heading = Voleu eliminar la clau de recuperació?
+rk-remove-modal-content = En cas que restabliu la contrasenya, no podreu utilitzar la clau de recuperació per accedir a les vostres dades. Aquesta acció no es pot desfer.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Adreça electrònica secundària
+    .header = Adreça electrònica secundària
+se-cannot-refresh-email = S'ha produït un error en actualitzar aquesta adreça electrònica.
+se-cannot-resend-code = S'ha produït un problema en reenviar el codi de verificació.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } ara és la vostra adreça electrònica principal.
+se-set-primary-error = S'ha produït un problema en canviar la vostra adreça electrònica principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } s'ha suprimit correctament.
+se-delete-email-error = S'ha produït un problema en suprimir aquesta adreça electrònica.
+se-verify-session = Cal verificar la vostra sessió actual per realitzar aquesta acció.
+se-verify-session-error = S'ha produït un problema en verificar la sessió.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Elimina l'adreça electrònica
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualitza l'adreça electrònica
+se-unverified = sense verificar
+se-resend-code = Cal una verificació. Si no és a la safata d'entrada o al correu brossa, podeu <button>tornar a enviar el codi de verificació</button>.
+# Button to make secondary email the primary
+se-make-primary = Converteix en principal
+se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adreça electrònica principal.
+se-content-note = Nota: una adreça electrònica secundària no restaurarà la vostra informació; necessitareu una <a>clau de recuperació</a> per a fer-ho.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Autenticació en dos passos
+tfa-row-disabled = S'ha desactivat l'autenticació en dos passos.
+tfa-row-enabled = Activat
+tfa-row-not-set = No definit
+tfa-row-action-add = Afegeix
+tfa-row-action-disable = Desactiva
+tfa-row-button-refresh =
+    .title = Actualitza l'autenticació en dos passos
 
 ## Avatar sub-section on main Settings page
 
