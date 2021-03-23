@@ -201,39 +201,133 @@ pw-change-common-passwords = No pot ser cap de les que hi ha en aquesta <linkExt
 pw-change-cancel-button = Cancel·la
 pw-change-save-button = Desa
 pw-change-forgot-password-link = Heu oblidat la contrasenya?
+pw-change-current-password =
+    .label = Introduïu la contrasenya actual
+pw-change-new-password =
+    .label = Introduïu una contrasenya nova
+pw-change-confirm-password =
+    .label = Confirmeu la contrasenya nova
+pw-change-success-alert = S'ha actualitzat la contrasenya.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Suprimeix el compte
+delete-account-step-1-2 = Pas 1 de 2
+delete-account-step-2-2 = Pas 2 de 2
+delete-account-confirm-title-2 = Heu connectat el vostre { -product-firefox-account } als productes de { -brand-mozilla } que us mantenen segur i productiu al web:
+delete-account-acknowledge = Tingueu en compte que, en suprimir el vostre compte:
+delete-account-chk-box-1 =
+    .label = Es cancel·laran totes les subscripcions de pagament
+delete-account-chk-box-2 =
+    .label = És possible que perdeu la informació desada i la funcionalitat dels productes de { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Si reactiveu aquesta adreça electrònica, no recuperareu la vostra informació desada
+delete-account-chk-box-4 =
+    .label = S'esborraran totes les extensions i temes que hàgiu publicat a addons.mozilla.org
+delete-account-close-button = Tanca
+delete-account-continue-button = Continua
+delete-account-password-input =
+    .label = Introduïu la contrasenya
+delete-account-cancel-button = Cancel·la
+delete-account-delete-button-2 = Suprimeix
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nom a mostrar
+display-name-input =
+    .label = Introduïu el nom a mostrar
+submit-display-name = Desa
+cancel-display-name = Cancel·la
+display-name-update-error = S'ha produït un problema en actualitzar el vostre nom a mostrar.
+display-name-success-alert = S'ha actualitzat el nom a mostrar.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancel·la
+recovery-key-close-button = Tanca
+recovery-key-continue-button = Continua
+recovery-key-created = S'ha creat la vostra clau de recuperació. Assegureu-vos de desar-la en un lloc segur i que pugueu trobar fàcilment; la necessitareu per recuperar l'accés a les vostres dades si us oblideu la contrasenya.
+recovery-key-enter-password =
+    .label = Introduïu la contrasenya
+recovery-key-page-title =
+    .title = Clau de recuperació
+recovery-key-step-1 = Pas 1 de 2
+recovery-key-step-2 = Pas 2 de 2
+recovery-key-success-alert = S'ha creat una clau de recuperació.
 
 ## Add secondary email page
 
+add-secondary-email-error = S'ha produït un problema en crear aquesta adreça electrònica.
+add-secondary-email-page-title =
+    .title = Adreça electrònica secundària
+add-secondary-email-enter-address =
+    .label = Escriviu una adreça electrònica
+add-secondary-email-cancel-button = Cancel·la
+add-secondary-email-save-button = Desa
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = S'ha produït un problema en enviar el codi de verificació.
+verify-secondary-email-page-title =
+    .title = Adreça electrònica secundària
+verify-secondary-email-verification-code =
+    .label = Introduïu el vostre codi de verificació
+verify-secondary-email-cancel-button = Cancel·la
+verify-secondary-email-verify-button = Verifica
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Introduïu el codi de verificació que s'ha enviat a <strong>{ $email }</strong> en els pròxims 5 minuts.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = L'adreça electrònica { $email } s'ha afegit correctament.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Suprimeix el compte
 
 ## Two Step Authentication
 
+tfa-title = Autenticació en dos passos
+tfa-step-1-3 = Pas 1 de 3
+tfa-step-2-3 = Pas 2 de 3
+tfa-step-3-3 = Pas 3 de 3
+tfa-button-continue = Continua
+tfa-button-cancel = Cancel·la
+tfa-button-finish = Finalitza
+tfa-incorrect-totp = El codi d'autenticació en dos passos és incorrecte
+tfa-cannot-retrieve-code = S'ha produït un problema en recuperar el vostre codi.
+tfa-cannot-verify-code = S'ha produït un problema en verificar el vostre codi de recuperació.
+tfa-incorrect-recovery-code = Codi de recuperació incorrecte
+tfa-enabled = S'ha activat l'autenticació en dos passos
+tfa-scan-this-code = Escanegeu aquest codi QR utilitzant una d'<linkExternal>aquestes aplicacions d'autenticació</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Utilitzeu el codi { $secret } per configurar l'autenticació en dos passos en aplicacions compatibles.
+tfa-button-cant-scan-qr = No podeu escanejar el codi?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Introduïu aquesta clau secreta a la vostra aplicació d'autenticació:
+tfa-enter-totp = Ara, introduïu el codi de seguretat de l'aplicació d'autenticació.
+tfa-input-enter-totp =
+    .label = Introduïu el codi de seguretat
+tfa-save-these-codes = Deseu aquests codis d'un sol ús en un lloc segur per quan no tingueu el dispositiu mòbil a mà.
 
 ##
 
