@@ -328,24 +328,51 @@ tfa-enter-totp = Ara, introduïu el codi de seguretat de l'aplicació d'autentic
 tfa-input-enter-totp =
     .label = Introduïu el codi de seguretat
 tfa-save-these-codes = Deseu aquests codis d'un sol ús en un lloc segur per quan no tingueu el dispositiu mòbil a mà.
+tfa-enter-code-to-confirm = Introduïu un dels vostres codis de recuperació per confirmar que els heu desat. Necessitareu un codi si perdeu el vostre dispositiu i voleu accedir al vostre compte.
+tfa-enter-recovery-code =
+    .label = Introduïu un codi de recuperació
 
 ##
 
 
 ## Profile section
 
+profile-display-name =
+    .header = Nom a mostrar
+profile-password =
+    .header = Contrasenya
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Data de creació: { $date }
+profile-primary-email =
+    .header = Adreça electrònica principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Seguretat
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Afegeix
+row-defaults-action-change = Canvia
+row-defaults-action-disable = Desactiva
+row-defaults-status = Cap
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabld = Activat
+rk-not-set = No definit
+rk-action-create = Crea
+rk-action-remove = Elimina
+rk-cannot-refresh = S'ha produït un error en actualitzar la clau de recuperació.
+rk-key-removed = S'ha eliminat una clau de recuperació del compte.
+rk-cannot-remove-key = No s'ha pogut eliminar la clau de recuperació del compte.
+rk-refresh-key = Actualitza la clau de recuperació
+rk-content-explain = Restaureu la vostra informació en cas que oblideu la contrasenya.
 
 ## Secondary email sub-section on main Settings page
 
