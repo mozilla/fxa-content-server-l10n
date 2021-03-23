@@ -423,6 +423,7 @@ tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
 tfa-row-button-refresh =
     .title = Actualitza l'autenticació en dos passos
+tfa-row-cannot-refresh = S'ha produït un error en actualitzar la verificació en dos passos.
 
 ## Avatar sub-section on main Settings page
 
