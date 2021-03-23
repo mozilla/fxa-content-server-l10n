@@ -72,6 +72,7 @@ connect-another-find-fx-mobile =
 cs-heading = Serveis connectats
 cs-description = Tots els serveis que utilitzeu i en els quals heu iniciat la sessió.
 cs-cannot-refresh = Hi ha hagut un problema en actualitzar la llista de serveis connectats.
+cs-cannot-disconnect = No s'ha trobat el client; no s'ha pogut desconnectar
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -104,6 +105,7 @@ cs-disconnect-sync-opt-not-say = Prefereixo no respondre
 
 cs-disconnect-advice-confirm = Entesos
 cs-disconnect-lost-advice-heading = S'ha desconnectat el dispositiu perdut o robat
+cs-disconnect-lost-advice-content-2 = Com que el vostre dispositiu s'ha extraviat o robat, per tal de mantenir la vostra informació segura, hauríeu de canviar la contrasenya del { -product-firefox-account } des dels paràmetres del compte. Addicionalment, hauríeu de cercar informació del fabricant del dispositiu sobre com esborrar les dades remotament.
 cs-disconnect-suspicious-advice-heading = S'ha desconnectat el dispositiu sospitós
 cs-disconnect-suspicious-advice-content = Si el dispositiu desconnectat és en efecte sospitós, per mantenir la vostra informació segura, hauríeu de canviar la vostra contrasenya del { -product-firefox-account } des dels paràmetres del compte. També hauríeu de canviar qualsevol altra contrasenya desada en el { -brand-firefox } escrivint «about:logins» a la barra de cerca.
 cs-sign-out-button = Tanca la sessió
@@ -133,21 +135,72 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Tanca el menú
+header-menu-closed = Menú de navegació del lloc
+header-back-to-top-link =
+    .title = Torna a dalt
+header-title = { -product-firefox-accounts }
+header-switch-title = Canvia al disseny clàssic
+    .title = enllaç al disseny clàssic
+header-help = Ajuda
 
 ## Settings Nav
 
+nav-settings = Paràmetres
+nav-profile = Perfil
+nav-security = Seguretat
+nav-connected-services = Serveis connectats
+nav-paid-subs = Subscripcions de pagament
+nav-email-comm = Comunicacions per correu electrònic
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = S'ha produït un problema en substituir els codis de recuperació.
+tfa-replace-code-success = S'han creat codis nous. Deseu aquests codis d'un sol ús en un lloc segur; els necessitareu per accedir al compte si no teniu el vostre dispositiu mòbil a mà.
+tfa-replace-code-success-alert = S'han actualitzat els codis de recuperació del compte.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto de perfil
+avatar-page-add-photo = Afegeix una foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fes una foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Elimina la foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Torna a fer la foto
+avatar-page-close-button = Tanca
+avatar-page-save-button = Desa
+avatar-page-saving-button = S'està desant…
+avatar-page-zoom-out-button = Redueix
+avatar-page-zoom-in-button = Amplia
+avatar-page-rotate-button = Gira
+avatar-page-camera-error = No s'ha pogut inicialitzar la càmera
+avatar-page-new-avatar =
+    .alt = foto de perfil nova
+avatar-page-file-upload-error-2 = S'ha produït un problema en pujar la vostra foto de perfil.
+avatar-page-delete-error-2 = S'ha produït un problema en suprimir la vostra foto de perfil.
+avatar-page-image-too-large-error = La mida de la imatge és massa gran per pujar-la.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Canvia la contrasenya
+pw-change-stay-safe = Protegiu-vos: no reutilitzeu contrasenyes. La vostra contrasenya:
+pw-change-least-8-chars = Ha de tenir com a mínim 8 caràcters
+pw-change-not-contain-email = No pot ser la vostra adreça electrònica
+pw-change-must-match = La contrasenya nova coincideix amb la confirmació
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = No pot ser cap de les que hi ha en aquesta <linkExternal>llista de contrasenyes comunes</linkExternal>
+pw-change-cancel-button = Cancel·la
+pw-change-save-button = Desa
+pw-change-forgot-password-link = Heu oblidat la contrasenya?
 
 ##
 

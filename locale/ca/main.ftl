@@ -108,6 +108,7 @@ payment-validate-zip-short = El codi postal és massa curt
 
 sub-redirect-ready = La vostra subscripció ja està a punt
 sub-redirect-copy = Dediqueu un moment a explicar-nos la vostra experiència.
+sub-redirect-skip-survey = No gràcies, porta'm al producte.
 
 ## fields
 
