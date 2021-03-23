@@ -39,10 +39,8 @@ settings-subscriptions-title = Subscripcions
 terms = Condicions del servei
 privacy = Avís de privadesa
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Configureu la vostra subscripció
-product-plan-details-heading = Configureu la vostra subscripció
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -101,12 +99,15 @@ payment-zip =
 
 payment-cancel-btn = Cancel·la
 payment-update-btn = Actualitza
+payment-pay-btn = Paga ara
 payment-validate-name-error = Introduïu el vostre nom
 payment-validate-zip-required = Cal un codi postal
 payment-validate-zip-short = El codi postal és massa curt
 
 ## subscription redirect
 
+sub-redirect-ready = La vostra subscripció ja està a punt
+sub-redirect-copy = Dediqueu un moment a explicar-nos la vostra experiència.
 
 ## fields
 
@@ -209,6 +210,9 @@ sub-item-cancel-sub = Cancel·la la subscripció
 ## plan-details
 
 plan-details-total-label = Total
+
+## payment-processing
+
 
 ## payment confirmation
 
