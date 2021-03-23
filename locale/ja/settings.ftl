@@ -232,7 +232,7 @@ tfa-scan-this-code =
 
 ## Profile section
 
-porfile-heading = プロファイル
+profile-heading = プロファイル
 profile-display-name =
     .header = 表示名
 profile-password =

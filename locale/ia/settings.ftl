@@ -363,7 +363,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Profilo
+profile-heading = Profilo
 profile-display-name =
     .header = Nomine a monstrar
 profile-password =

@@ -335,7 +335,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Perfil
+profile-heading = Perfil
 profile-display-name =
     .header = Nome de exibição
 profile-password =

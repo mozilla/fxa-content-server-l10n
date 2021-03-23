@@ -265,7 +265,7 @@ tfa-input-enter-totp =
 
 ## Profile section
 
-porfile-heading = Προφίλ
+profile-heading = Προφίλ
 profile-password =
     .header = Κωδικός πρόσβασης
 profile-primary-email =

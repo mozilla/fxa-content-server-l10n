@@ -232,7 +232,7 @@ tfa-input-enter-totp =
 
 ## Profile section
 
-porfile-heading = โปรไฟล์
+profile-heading = โปรไฟล์
 profile-display-name =
     .header = ชื่อที่แสดงผล
 profile-password =

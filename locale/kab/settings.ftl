@@ -365,7 +365,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Amaɣnu
+profile-heading = Amaɣnu
 profile-display-name =
     .header = Isem n uskan
 profile-password =

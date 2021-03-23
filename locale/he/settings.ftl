@@ -342,7 +342,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = פרופיל
+profile-heading = פרופיל
 profile-display-name =
     .header = שם תצוגה
 profile-password =

@@ -361,7 +361,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Profil
+profile-heading = Profil
 profile-display-name =
     .header = Megjelenő név
 profile-password =

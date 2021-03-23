@@ -363,7 +363,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Proffil
+profile-heading = Proffil
 profile-display-name =
     .header = Enw dangos
 profile-password =

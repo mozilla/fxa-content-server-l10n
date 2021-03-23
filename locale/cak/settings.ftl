@@ -363,7 +363,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Ruwäch b'i'aj
+profile-heading = Ruwäch b'i'aj
 profile-display-name =
     .header = Tik'ut b'i'aj
 profile-password =
