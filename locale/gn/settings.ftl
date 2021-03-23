@@ -365,7 +365,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Mba'ete
+profile-heading = Mba'ete
 profile-display-name =
     .header = Téra ehechauka hag̃ua
 profile-password =

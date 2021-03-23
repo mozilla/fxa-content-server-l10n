@@ -365,7 +365,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Profyl
+profile-heading = Profyl
 profile-display-name =
     .header = Werjeftenamme
 profile-password =

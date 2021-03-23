@@ -323,7 +323,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Профіль
+profile-heading = Профіль
 profile-display-name =
     .header = Бачнае імя
 profile-password =

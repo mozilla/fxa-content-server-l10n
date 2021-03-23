@@ -182,7 +182,7 @@ tfa-button-cancel = रद्द करें
 
 ## Profile section
 
-porfile-heading = प्रोफाइल
+profile-heading = प्रोफाइल
 profile-display-name =
     .header = प्रदर्शित होने वाला नाम
 profile-password =

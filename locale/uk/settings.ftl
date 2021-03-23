@@ -419,7 +419,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Профіль
+profile-heading = Профіль
 profile-display-name =
     .header = Ім’я для показу
 profile-password =

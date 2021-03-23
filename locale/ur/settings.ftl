@@ -299,7 +299,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = پروفائل
+profile-heading = پروفائل
 profile-display-name =
     .header = ظاہری نام
 profile-password =

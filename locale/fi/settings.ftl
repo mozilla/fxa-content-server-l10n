@@ -338,7 +338,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Profiili
+profile-heading = Profiili
 profile-display-name =
     .header = Näyttönimi
 profile-password =

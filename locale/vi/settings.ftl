@@ -363,7 +363,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = Hồ sơ
+profile-heading = Hồ sơ
 profile-display-name =
     .header = Tên hiển thị
 profile-password =

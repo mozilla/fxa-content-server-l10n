@@ -379,7 +379,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-porfile-heading = პროფილი
+profile-heading = პროფილი
 profile-display-name =
     .header = გამოსაჩენი სახელი
 profile-password =
