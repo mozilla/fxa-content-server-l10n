@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Gerenciar minha assinatura
 country-currency-mismatch = A moeda desta assinatura não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Desculpe, você não pode mudar para outra moeda.
 returning-paypal-customer-error = Desculpe, atualmente você só pode fazer uma assinatura de cada vez. Volte a verificar daqui a pouco.
+no-subscription-upgrades = Desculpe, você não pode aumentar ou reduzir a capacidade da sua assinatura neste momento. Volte a verificar em breve.
 expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá seu limite de crédito. Tente outro cartão.
@@ -55,6 +56,7 @@ subscription-create-title = Configurar assinatura
 subscription-success-title = Confirmação de assinatura
 subscription-processing-title = Confirmando assinatura...
 subscription-error-title = Erro ao confirmar assinatura...
+subscription-noupgrade-title = Não são aceitas alterações no nível da assinatura
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -97,8 +99,12 @@ product-no-such-plan = Não existe esse plano para este produto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } e o { -brand-name-paypal } para processamento seguro de pagamentos.
+payment-legal-link-stripe-and-paypal-2 = Veja a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink> e a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } usa o { -brand-name-paypal } para processamento seguro de pagamentos.
 payment-legal-link-paypal = Veja a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } para processamento seguro de pagamentos.
+payment-legal-link-stripe-2 = Veja a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
