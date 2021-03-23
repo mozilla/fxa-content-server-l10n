@@ -424,9 +424,27 @@ tfa-row-action-disable = Desactiva
 tfa-row-button-refresh =
     .title = Actualitza l'autenticació en dos passos
 tfa-row-cannot-refresh = S'ha produït un error en actualitzar la verificació en dos passos.
+tfa-row-content-explain = Impediu que altres persones iniciïn la sessió demanant un codi únic que no conegui ningú altre.
+tfa-row-cannot-verify-session-2 = S'ha produït un problema en verificar la vostra sessió.
+tfa-row-disable-modal-heading = Voleu desactivar l'autenticació en dos passos?
+tfa-row-disable-modal-confirm = Desactiva
+tfa-row-disable-modal-explain = Aquesta acció no es pot desfer. També teniu l'opció de <linkExternal>reemplaçar els vostres codis de recuperació</linkExternal>.
+tfa-row-cannot-disable = No s'ha pogut desactivar l'autenticació en dos passos.
+tfa-row-change-modal-heading = Voleu canviar els codis de recuperació?
+tfa-row-change-modal-confirm = Canvia
+tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Imatge
+avatar-add-link = Afegeix
+avatar-change-link = Canvia
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = El compte és desconegut
+auth-error-103 = Contrasenya incorrecta
+auth-error-110 = El testimoni no és vàlid
+auth-error-138 = Sessió no verificada
+auth-error-155 = No s'ha trobat el testimoni TOTP
+auth-error-1008 = La contrasenya nova ha de ser diferent
