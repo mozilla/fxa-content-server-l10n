@@ -56,6 +56,7 @@ subscription-create-title = Uw abonnement instellen
 subscription-success-title = Abonnementsbevestiging
 subscription-processing-title = Abonnement bevestigen…
 subscription-error-title = Fout bij bevestigen abonnement…
+subscription-noupgrade-title = Wijzigingen in abonnementsniveaus worden niet ondersteund
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
