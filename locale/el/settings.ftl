@@ -259,6 +259,8 @@ tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποι
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 tfa-input-enter-totp =
     .label = Εισάγετε κωδικό ασφαλείας
+tfa-enter-recovery-code =
+    .label = Εισάγετε έναν κωδικό ανάκτησης
 
 ##
 
@@ -266,6 +268,8 @@ tfa-input-enter-totp =
 ## Profile section
 
 profile-heading = Προφίλ
+profile-display-name =
+    .header = Εμφανιζόμενο όνομα
 profile-password =
     .header = Κωδικός πρόσβασης
 profile-primary-email =
@@ -294,6 +298,8 @@ rk-action-remove = Αφαίρεση
 rk-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε.
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
+rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
+rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 
 ## Secondary email sub-section on main Settings page
