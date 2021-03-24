@@ -165,7 +165,9 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Αλλαγή κωδικού πρόσβασης
+pw-change-least-8-chars = Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες
 pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
+pw-change-must-match = Επιβεβαίωση αντιστοίχισης νέου κωδικού πρόσβασης
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -200,6 +202,7 @@ display-name-page-title =
     .title = Εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
+display-name-update-error = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας.
 display-name-success-alert = Το εμφανιζόμενο όνομα ενημερώθηκε.
 
 ##
