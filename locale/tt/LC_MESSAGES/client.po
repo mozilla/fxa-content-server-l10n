@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-18 22:07+0000\n"
-"PO-Revision-Date: 2021-03-23 18:01+0000\n"
+"PO-Revision-Date: 2021-03-24 21:16+0000\n"
 "Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: .es5/views/settings/two_step_authentication.js:197
 msgid "Two-step Authentication"
-msgstr ""
+msgstr "Ике адымлы аутентификация"
 
 #: .es5/views/settings/account_recovery/account_recovery.js:87
 msgid "Account Recovery"
@@ -464,7 +464,7 @@ msgstr "Банк карталары"
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -849,19 +849,19 @@ msgstr "Телефон номеры кирәк"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Ике адымлы аутентификация коды кирәк"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Ике адымлы аутентификация коды хаталы"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
-msgstr ""
+msgstr "Коткару коды кирәк"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Яраксыз коткару коды"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
@@ -961,7 +961,7 @@ msgstr "Тыелган"
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Мөддәте чыккан токен"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
@@ -989,7 +989,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Яраксыз id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1299,7 +1299,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
-msgstr ""
+msgstr "Эл. почтагызны кертегез"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
@@ -1319,13 +1319,13 @@ msgstr ""
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
-msgstr ""
+msgstr "Йөкләп алу"
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
 #: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
-msgstr ""
+msgstr "Күчереп алу"
 
 #: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
@@ -1347,7 +1347,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
 msgid "Recovery code"
-msgstr ""
+msgstr "Коткару коды"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1395,7 +1395,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
 msgid "Ready"
-msgstr ""
+msgstr "Әзер"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
