@@ -369,6 +369,7 @@ payment-processing-message = Por favor, espera mientras procesamos tu pago…
 payment-confirmation-alert = Clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No se abrió la aplicación? <a>Haz clic aquí</a>
 payment-confirmation-thanks-heading = ¡Gracias!
+payment-confirmation-thanks-subheading = Un correo de confirmación ha sido enviado a { $email } con detalles sobre como empezar con { $product_name }.
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
