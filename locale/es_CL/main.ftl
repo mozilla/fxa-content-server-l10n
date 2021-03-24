@@ -9,6 +9,7 @@ project-brand = Cuentas de Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Cuentas de Firefox
 
@@ -23,9 +24,13 @@ general-error-heading = Error general de la aplicación
 basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 payment-error-1 = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
 payment-error-2 = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
-payment-error-3 = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
+payment-error-3b = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 payment-error-retry-button = Volver a intentarlo
 payment-error-manage-subscription-button = Gestionar mi suscripción
+country-currency-mismatch = La divisa de esta suscripción no es válida para el país asociado con tu pago.
+currency-currency-mismatch = Lo sentimos. No puedes cambiar entre divisas.
+returning-paypal-customer-error = Lo sentimos. Actualmente, solo puedes registrarte para una suscripción a la vez. Por favor, vuelve a revisar pronto.
+no-subscription-upgrades = Lo sentimos. No puedes subir o bajar tu suscripción en este momento. Por favor, vuelve a revisar pronto.
 expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción será mayor a tu cupo de crédito. Prueba con otra tarjeta.
@@ -47,6 +52,11 @@ privacy = Aviso de privacidad
 
 ## Subscription titles
 
+subscription-create-title = Configurar tu suscripción
+subscription-success-title = Confirmación de suscripción
+subscription-processing-title = Confirmando suscripción…
+subscription-error-title = Error al confirmar la suscripción...
+subscription-noupgrade-title = Los cambios en el nivel de suscripción no están soportados
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -89,6 +99,12 @@ product-no-such-plan = No existe ese plan para este producto.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-and-paypal-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-paypal = Ver la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -158,6 +174,7 @@ input-error-is-required = { $label } es requerido
 
 product-plan-upgrade-heading = Revisa tu mejora
 sub-update-failed = Fallo la actualización del plan
+sub-update-payment-title = Información de pago
 sub-update-card-exp = Vence el { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tu plan cambiará de inmediato y se te cobrará una tarifa ajustada
@@ -345,6 +362,7 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Por favor, espera mientras procesamos tu pago…
 
 ## payment confirmation
 
