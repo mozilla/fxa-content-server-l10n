@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-18 22:07+0000\n"
-"PO-Revision-Date: 2021-03-23 17:59+0000\n"
+"PO-Revision-Date: 2021-03-23 18:01+0000\n"
 "Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -328,11 +328,11 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Аккаунтыгызга кагылышлы белдерүләр хәзер %(secondaryEmail)s адресына да җибәреләчәк."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "%(serviceName)s хезмәтенә күчү"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -376,7 +376,7 @@ msgstr "Firefox коткару кодлары"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Ике адымлы аутентификация кабызылды"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Recovery Key"

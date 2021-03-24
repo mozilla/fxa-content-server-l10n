@@ -75,27 +75,51 @@ cs-sign-out-button = Чыгу
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Йөкләнде
+datablock-copy =
+    .message = Күчерелде
+datablock-print =
+    .message = Бастырылды
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-download =
+    .title = Йөкләп алу
 
 # HeaderLockup component
 
+header-back-to-top-link =
+    .title = Сәхифә башына
+header-title = { -product-firefox-accounts }
+header-help = Ярдәм
 
 ## Settings Nav
 
+nav-settings = Көйләүләр
+nav-profile = Профиль
+nav-security = Хәвефсезлек
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-close-button = Ябу
+avatar-page-save-button = Саклау
+avatar-page-camera-error = Камераны кабызып булмады
 
 ##
 
 
 ## Password change page
 
+pw-change-least-8-chars = Кимендә 8 билге булырга тиеш
+pw-change-cancel-button = Баш тарту
+pw-change-save-button = Саклау
+pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
+pw-change-new-password =
+    .label = Яңа паролны языгыз
 
 ##
 
