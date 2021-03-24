@@ -9,6 +9,7 @@ project-brand = Firefox-ანგარიშები
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox ანგარიშები
 
@@ -23,7 +24,7 @@ general-error-heading = აპლიკაციის საერთო შე
 basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 payment-error-1 = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. სცადეთ კვლავ ან დაუკავშირდით თქვენი ბარათის გამომშვებს.
 payment-error-2 = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
-payment-error-3 = მოულოდნელი შეცდომა წარმოიშვა, თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+payment-error-3b = მოულოდნელი შეცდომა წარმოიშვა, თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 payment-error-retry-button = ხელახლა ცდა
 payment-error-manage-subscription-button = გამოწერების მართვა
 country-currency-mismatch = გამოწერის ეს ვალუტა, არაა მოქმედი იმ ქვეყნისთვის, რომელიც თქვენს ანგარიშზეა მიბმული.
@@ -96,12 +97,8 @@ product-no-such-plan = ამ პროდუქტისთვის ასე�
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } იყენებს Stripe-ს და { -brand-name-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe-and-paypal = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink> და <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } იყენებს { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
 payment-legal-link-paypal = იხილეთ <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } იყენებს Stripe-ს გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe = იხილეთ <stripePrivacyLink>Stripe პირადულობის დებულება</stripePrivacyLink>.
 
 ## payment form
 
