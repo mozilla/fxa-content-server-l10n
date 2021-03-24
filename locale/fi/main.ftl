@@ -15,6 +15,7 @@ project-brand = Firefox-tilit
     }
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-tilit
 
@@ -29,10 +30,12 @@ general-error-heading = Yleinen sovellusvirhe
 basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 payment-error-1 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Yritä uudestaan tai ole yhteydessä kortin myöntäjään.
 payment-error-2 = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä kortin myöntäjään.
-payment-error-3 = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+payment-error-3b = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
 payment-error-retry-button = Yritä uudestaan
 payment-error-manage-subscription-button = Hallitse tilausta
+country-currency-mismatch = Tämän tilauksen valuutta ei ole voimassa maksun tapahtumamaassa.
 currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
+returning-paypal-customer-error = Valitettavasti tällä hetkellä voit rekisteröityä vain yhteen tilauksen kerralla. Tarkista tilanne pian uudelleen.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
@@ -100,12 +103,8 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } käyttää Stripea ja { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
-payment-legal-link-stripe-and-paypal = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
 payment-legal-link-paypal = Katso <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } käyttää Stripea turvalliseen maksunvälitykseen.
-payment-legal-link-stripe = Katso <stripePrivacyLink>Stripen tietosuojakäytäntö</stripePrivacyLink>.
 
 ## payment form
 
