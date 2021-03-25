@@ -9,6 +9,7 @@ project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -23,12 +24,13 @@ general-error-heading = Algemiene tapassingsflater
 basic-error-message = Der is wat misgien. Probearje it letter opnij.
 payment-error-1 = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Probearje it opnij of nim kontakt mei jo kaartferstrekker.
 payment-error-2 = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
-payment-error-3 = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
+payment-error-3b = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 payment-error-retry-button = Opnij probearje
 payment-error-manage-subscription-button = Myn abonnemint beheare
 country-currency-mismatch = De faluta fan dit abonnemint is net jildich foar it lân dat oan jo betelling keppele is.
 currency-currency-mismatch = Sorry. Jo kinne net wikselje tusken faluta.
 returning-paypal-customer-error = Sorry. Op it stuit kinne jo jo allinnich foar ien abonnemint tagelyk oanmelde. Probearje it ynkoarten nochris.
+no-subscription-upgrades = Sorry. Jo kinne jo abonnemint op dit stuit net opwurdearje of downgrade. Probearje it ynkoarten nochris.
 expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probearje in oare kaart.
 insufficient-funds-error = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 withdrawal-count-limit-exceeded-error = It liket derop dat jo mei dizze transaksje oer jo kredytlimyt gean. Probearje in oare kaart.
@@ -54,6 +56,7 @@ subscription-create-title = Jo abonnemint ynstelle
 subscription-success-title = Abonnemintsbefêstiging
 subscription-processing-title = Abonnemint befêstigje…
 subscription-error-title = Flater by befêstigjen abonnemint…
+subscription-noupgrade-title = Wizigingen yn abonnemintsnivo's  wurde net stipe
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +99,10 @@ product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } brûkt Stripe en { -brand-name-paypal } foar feilich betellingsferkear.
-payment-legal-link-stripe-and-paypal = It <stripePrivacyLink>privacybelied fan Stripe</stripePrivacyLink> en fan <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } en { -brand-name-paypal } foar feilich betellingsferkear.
+payment-legal-link-stripe-and-paypal-2 = It privacybelied fan <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> en fan <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> besjen.
 payment-legal-copy-paypal = { -brand-name-mozilla } brûkt { -brand-name-paypal } foar feilich betellingsferkear.
 payment-legal-link-paypal = It <paypalPrivacyLink>privacybelied fan { -brand-name-paypal }</paypalPrivacyLink> besjen.
-payment-legal-copy-stripe = { -brand-name-mozilla } brûkt Stripe foar feilich betellingsferkear.
-payment-legal-link-stripe = It <stripePrivacyLink>privacybelied fan  Stripe</stripePrivacyLink> besjen.
 
 ## payment form
 
