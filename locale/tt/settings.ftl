@@ -41,6 +41,7 @@ app-default-title = { -product-firefox-accounts }
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } логотибы
+app-footer-privacy-notice = Сайтның Хоcусыйлык Аңлатмасы
 app-footer-terms-of-service = Куллану Шартлары
 
 ##
@@ -48,6 +49,8 @@ app-footer-terms-of-service = Куллану Шартлары
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Сезнең аватар
 
 ##
 
@@ -86,6 +89,8 @@ datablock-print =
 
 get-data-trio-download =
     .title = Йөкләп алу
+get-data-trio-copy =
+    .title = Күчереп алу
 
 # HeaderLockup component
 
@@ -99,12 +104,22 @@ header-help = Ярдәм
 nav-settings = Көйләүләр
 nav-profile = Профиль
 nav-security = Хәвефсезлек
+nav-connected-services = Тоташтырылган Хезмәтләр
+nav-email-comm = Эл. почта элемтәләр
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Профиль рәсеме
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
 avatar-page-close-button = Ябу
 avatar-page-save-button = Саклау
 avatar-page-camera-error = Камераны кабызып булмады
@@ -126,33 +141,64 @@ pw-change-new-password =
 
 ## Delete account page
 
+delete-account-header =
+    .title = Хисапны бетерү
+delete-account-close-button = Ябу
+delete-account-continue-button = Дәвам итү
+delete-account-password-input =
+    .label = Паролны кертү
+delete-account-cancel-button = Баш тарту
+delete-account-delete-button-2 = Бетерү
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Күрсәтеләчәк исемегез
+submit-display-name = Саклау
+cancel-display-name = Баш тарту
+display-name-success-alert = Күрсәтелүче исем яңартылды.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Баш тарту
+recovery-key-close-button = Ябу
+recovery-key-continue-button = Дәвам итү
+recovery-key-enter-password =
+    .label = Паролны кертү
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Икенчел эл. почта адресы
+add-secondary-email-cancel-button = Баш тарту
+add-secondary-email-save-button = Саклау
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Икенчел эл. почта адресы
+verify-secondary-email-cancel-button = Баш тарту
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Хисапны бетерү
 
 ## Two Step Authentication
 
+tfa-title = Ике адымлы аутентификация
+tfa-button-continue = Дәвам итү
+tfa-button-cancel = Баш тарту
+tfa-enabled = Ике адымлы аутентификация кабызылды
 
 ##
 
@@ -174,15 +220,24 @@ pw-change-new-password =
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Икенчел эл. почта адресы
+    .header = Икенчел эл. почта адресы
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-heading =
+    .header = Ике адымлы аутентификация
+tfa-row-disabled = Ике адымлы аутентификация сүндерелде.
 
 ## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-103 = Парол хаталы
+auth-error-110 = Хаталы токен
+auth-error-155 = TOTP токен табылмады
+auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш

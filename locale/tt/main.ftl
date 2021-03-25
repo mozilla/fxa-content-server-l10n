@@ -43,12 +43,17 @@ privacy = Хосусыйлык сәясәте
 
 ## payment form
 
+payment-cc =
+    .label = Сезнең карта
+payment-cvc =
+    .label = CVC
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Баш тарту
 
 ## subscription redirect
 
@@ -85,6 +90,7 @@ privacy = Хосусыйлык сәясәте
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Ябу
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
