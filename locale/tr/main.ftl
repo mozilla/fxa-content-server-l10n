@@ -24,6 +24,8 @@ general-error-heading = Genel uygulama hatası
 basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
 payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+payment-error-3b = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin.
+payment-error-retry-button = Tekrar dene
 payment-error-manage-subscription-button = Aboneliğimi yönet
 currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
@@ -47,6 +49,7 @@ privacy = Gizlilik Bildirimi
 
 ## Subscription titles
 
+subscription-create-title = Aboneliğinizi ayarlayın
 subscription-success-title = Abonelik onayı
 subscription-processing-title = Abonelik onaylanıyor…
 subscription-error-title = Abonelik onaylanırken hata oluştu...
@@ -92,6 +95,9 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
+payment-legal-copy-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-paypal } kullanır.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
 
 ## payment form
 
