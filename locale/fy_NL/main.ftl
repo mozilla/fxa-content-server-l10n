@@ -103,6 +103,8 @@ payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } brûkt { -brand
 payment-legal-link-stripe-and-paypal-2 = It privacybelied fan <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> en fan <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> besjen.
 payment-legal-copy-paypal = { -brand-name-mozilla } brûkt { -brand-name-paypal } foar feilich betellingsferkear.
 payment-legal-link-paypal = It <paypalPrivacyLink>privacybelied fan { -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } foar feilich betellingsferkear.
+payment-legal-link-stripe-2 = It privacybelied fan <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> besjen.
 
 ## payment form
 
