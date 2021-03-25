@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-25 16:49+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "Parola başarıyla sıfırlandı. Devam etmek için giriş yapın."
 msgid "Sign in"
 msgstr "Giriş yap"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Hesap başarıyla silindi"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için %(code)s kodunu kullanın."
 
@@ -45,11 +45,11 @@ msgstr "%(permissionName)s (gerekli)"
 msgid "Email address"
 msgstr "E-posta adresi"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Görünen ad"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Hesap resmi"
 
@@ -120,200 +120,6 @@ msgstr "<b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedProduct)s</b> için <b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğimiz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Parola"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Değiştir..."
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Değiştirdikten sonra tüm cihazlarınızda giriş yapmak için yeni parolanızı kullanmalısınız."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Eski parola"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Parolanızı unuttunuz mu?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Yeni parola"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Parolayı yeniden yazın"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Değiştir"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Vazgeç"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "Parola başarıyla değiştirildi"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Bunu duyduğumuza üzüldük. Firefox Hesabı parolanızı değiştirmeli, sonra da cihazdaki verilerinizi uzaktan nasıl silebileceğinizi cihaz üreticinizden öğrenmelisiniz."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Bunu duyduğumuza üzüldük. Bu cihaza gerçekten güvenmiyorsanız hem Firefox Hesabı parolanızı hem de Firefox'ta kayıtlı olan parolalarınızı değiştirmelisiniz."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Son görülme %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Son görülme en az %(translatedTimeAgo)s önce"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Son görülme %(translatedTimeAgo)s (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Son görülme en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Son görülme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Son görülme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Son etkinlik: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Son etkinlik en az %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Son etkinlik %(translatedTimeAgo)s (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Son etkinlik en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Son etkinlik %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Son etkinlik en az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "En az %(translatedTimeAgo)s önce"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "En az %(translatedTimeAgo)s (%(translatedCountry)s)"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "En az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Web oturumu, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Web oturumu"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Son görülme zamanı bilinmiyor"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Değiştir…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Ekle…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Firefox’ta ve hesabınızı yönetirken görünmesini istediğiniz adı seçin."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Görünen ad güncellendi"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "İkinci e-posta silindi"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Doğrulama e-postası gönderildi"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "Ana e-posta %(email)s olarak ayarlandı"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "İkinci e-posta"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Yeni kurtarma kodları oluşturuldu"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "İki aşamalı kimlik doğrulama kaldırıldı"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "İki aşamalı doğrulama"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Hesap kurtarma"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Hesap kurtarma etkinleştirildi"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Hesap kurtarma iptal edildi"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -403,10 +209,6 @@ msgstr "İndirildi"
 msgid "Printed"
 msgstr "Yazdırıldı"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Ana e-posta başarıyla doğrulandı"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Hesap başarıyla doğrulandı"
@@ -467,6 +269,10 @@ msgstr "Kredi kartları"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Ana e-posta başarıyla doğrulandı"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "İkinci e-posta başarıyla doğrulandı"
@@ -474,6 +280,10 @@ msgstr "İkinci e-posta başarıyla doğrulandı"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Parola başarıyla sıfırlandı"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Hesap kurtarma etkinleştirildi"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1021,7 +831,9 @@ msgid "Invalid Token"
 msgstr "Geçersiz jeton"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş "
 "oluyorsunuz."
@@ -1093,7 +905,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox Hesabınıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık kurtarma anahtarını yazın."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">NOT:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1157,6 +970,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Kurtarma anahtarınızı kullanarak hesabınızı geri getirdiniz. Verilerinizi korumak için yeni bir parola oluşturun ve parolanızı güvenli bir yerde saklayın."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Yeni parola"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Parolayı yeniden yazın"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Parolanızı hatırladınız mı? Giriş yapın"
@@ -1198,13 +1019,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "%(escapedEmail)s adresine gönderdiğimiz giriş onayı bağlantısını kontrol edin"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Gelen kutusunda da spam klasöründe de yok mu? Yeniden gönder"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Geri dön"
 
@@ -1230,7 +1050,7 @@ msgstr "Lütfen %(escapedEmail)s adresine gönderilen doğrulama kodunu 5 dakika
 msgid "Enter 6-digit code"
 msgstr "6 basamaklı kodu yazın"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Doğrula"
@@ -1296,47 +1116,50 @@ msgstr "Firefox Hesapları'na erişmek için lütfen tarayıcınızda çerezleri
 msgid "Try again"
 msgstr "Tekrar dene"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Parola"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Parolanızı unuttunuz mu?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "E-postanızı yazın"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Devam et"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Kurtarma kodlarını kaydet"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık kodları güvenli bir yerde saklayın."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "İndir"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Kopyala"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Yazdır"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Kurulumu iptal et"
 
@@ -1344,15 +1167,15 @@ msgstr "Kurulumu iptal et"
 msgid "Confirm recovery code"
 msgstr "Kurtarma kodunu doğrulayın"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr "Cihazınız kaybolursa hesabınıza tekrar erişebileceğinizden emin olmak için lütfen kaydettiğiniz kurtarma kodlarınızdan birini girin."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Kurtarma kodu"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Onayla"
 
@@ -1360,7 +1183,7 @@ msgstr "Onayla"
 msgid "Enable two-step authentication"
 msgstr "İki aşamalı doğrulamayı etkinleştir"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "<a %(escapedTotpSupportAttributes)s>Bu kimlik doğrulama uygulamalarından</a> biriyle güvenlik kodları oluşturarak hesabınızın güvenliğini artırın."
 
@@ -1368,19 +1191,19 @@ msgstr "<a %(escapedTotpSupportAttributes)s>Bu kimlik doğrulama uygulamalarınd
 msgid "Scan authentication code"
 msgstr "Kimlik doğrulama kodunu tara"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Kodu yazın"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Kimlik doğrulama uygulamanızla bu QR kodunu tarayın ve uygulamanın verdiği güvenlik kodunu yazın."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Kodu tarayamıyor musunuz?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "İşlem tamamlandığında güvenlik kodları oluşturulmaya başlanacaktır."
 
@@ -1392,11 +1215,11 @@ msgstr "Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın."
 msgid "Scan QR code instead?"
 msgstr "Bunun yerine QR kodu taransın mı?"
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Güvenlik kodu"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Hazır"
 
@@ -1404,11 +1227,11 @@ msgstr "Hazır"
 msgid "Legal"
 msgstr "Yasal uyarılar"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Hizmet Koşulları"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Gizlilik Bildirimi"
 
@@ -1441,6 +1264,11 @@ msgstr "%(serviceName)s, hesabınızdan aşağıdaki bilgileri istiyor:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Kabul et"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Vazgeç"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1490,7 +1318,7 @@ msgstr "E-posta"
 msgid "Begin reset"
 msgstr "Sıfırlamayı başlat"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Son etkinlikler"
 
@@ -1502,7 +1330,7 @@ msgstr "Güvenlik olayları"
 msgid "Event Name"
 msgstr "Olay adı"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Doğrulandı"
 
@@ -1517,18 +1345,6 @@ msgstr "Etkinlikleri sil"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Ayarlara dön"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Kredi kartınızın süresi dolmuş. Lütfen <a %(escapedCcExpiredLinkAttrs)s>buradan</a> güncelleyin."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox Hesapları"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Çıkış yap"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1682,11 +1498,15 @@ msgstr "Gelmedi mi? Yeniden gönder"
 msgid "Why sign in on another device?"
 msgstr "Neden başka bir cihazdan giriş yapmalısınız?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox Hesapları"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Hesap ana sayfası"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Abonelikler"
 
@@ -1746,7 +1566,7 @@ msgstr "Sync hizmeti kalıcı bir yedekleme çözümü değildir. Sync yalnızca
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Verilerinizi geri yüklemek istediğinizde parolanızı unutursanız sorun yaşamamak için en az iki cihaza Firefox'u yüklemeli ve onları eşitlemelisiniz."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Anladım"
 
@@ -1757,280 +1577,6 @@ msgstr "Bu cihazı hesabınızla eşitlemek ister misiniz?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Bu cihazı eşitle"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Fotoğraf çek"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Yükle"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Temizle"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Bitti"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Avatar"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Fotoğrafınızı istediğiniz gibi konumlandırın ve döndürün"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Sync bağlantısını kes"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "%(deviceName)s üzerindeki mevcut verileriniz aynen kalacaktır ama bundan sonra hesabınızla eşitlenmeyecektir."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "%(deviceName)s adlı cihazın Sync bağlantısını kesme nedeniniz:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Şüpheli"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Kayboldu veya çalındı"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Eski veya değiştirildi"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Çift kopya"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Söylemek istemiyorum"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Bağlantıyı kes"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Bağlantı başarıyla kesildi"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Cihazlar ve uygulamalar"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Göster"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Kullandığınız cihaz"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Bağlantıyı kes…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Geçerli oturum"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "İptal et"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "iOS için Firefox"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Hiçbiri bağlı değil"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Android için Firefox"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Eksik veya çift kayıtlar mı var?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Durumu yenile"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "E-posta tercihleri"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Hesabı sil"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Sil…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler</a> sayfasına gidin."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Firefox hesabınızı, internette güvende ve üretken kalmanızı sağlayan Mozilla ürünlerine bağladınız:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecek"
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Mozilla ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Bu e-postayı yeniden etkinleştirseniz bile kayıtlı bilgileriniz geri gelmeyecektir"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "İkinci e-posta, güvenlik bildirimlerini alabileceğiniz ve yeni cihazları onaylayabileceğiniz ek bir adrestir."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Doğrulama gerekiyor"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Birinci yap"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Sil"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Yenile"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "E-posta ekle"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Ekle"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "NOT:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Yeni kurtarma kodları oluşturduğunuzda eski kodlarınızın tümü geçersiz hale gelir. Lütfen yeni kodları güvenli bir yerde saklayın."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Yeni kurtarma kodları oluştur"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Kurtarma kodunu doğrulayın"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Yönet…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "İki aşamalı doğrulama"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Etkinleştir…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Şu anki durum"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Etkin"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Devre dışı"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Kapat"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Etkinleştir"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Kurtarma kodlarını değiştir"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Bu bölümü görmek ve değişiklik yapmak için öncelikle e-posta adresinizi doğrulamalısınız."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Birinci e-posta"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Hesap kurtarma"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Parolanızı unutmanız halinde yer imlerinize, parolalarınıza ve eşitlenmiş verilerinize yeniden ulaşmanızı sağlayacak bir kurtarma anahtarı oluşturabilirsiniz."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Kurtarma anahtarı"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Ayarlanmamış"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Oluştur"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">NOT: </span>Firefox verileriniz, Firefox Hesabınızın parolasıyla şifrelenir. Bu şifreyi yalnızca parolanız veya kurtarma anahtarınız çözebilir. <a "
-"%(escapedLearnMoreLinkAttributes)s>Daha fazla bilgi alın</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2044,28 +1590,6 @@ msgstr "Kurtarma anahtarınızı görmek için parolanızı yazın."
 msgid "Enter Password"
 msgstr "Parolanızı yazın"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "İptal etmek istediğinizden emin misiniz?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Parolanızı sıfırlarsanız verilerinize erişmek için kurtarma anahtarınızı kullanamayacaksınız."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Adım 2/2: Kutarma anahtarını kaydedin"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">NOT: </span>Parolanızı unutursanız, verilerinize tekrar kavuşmak için bu anahtara ihtiyacınız olacak. Kurtarma anahtarınızı daha sonra kolayca bulabileceğiniz güvenli bir yerde "
-"saklayın."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Tamam, kurtarma anahtarımı kaydettim"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "İkinci bir e-posta adresi ekleyin"
@@ -2073,6 +1597,10 @@ msgstr "İkinci bir e-posta adresi ekleyin"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "İkinci bir e-posta eklerseniz %(escapedEmail)s adresine erişemediğiniz zaman hesabınıza yeniden ulaşma şansınız olur."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "İkinci e-posta"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2101,6 +1629,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "Eşitlenmiş geçmiş, yer imleri, hesaplar ve diğer kişisel veriler kaybolmaz."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Eski parola"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2237,6 +1769,10 @@ msgstr "Bir kopyasını kaydettiğinizi onaylamak için kurtarma anahtarınızı
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Kurtarma anahtarını kaydet"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Bitti"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2405,6 +1941,349 @@ msgstr "Uygulama kullanarak eşleştir"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden eşleştirme yapmalısınız."
+
+#~ msgid "Change..."
+#~ msgstr "Değiştir..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Değiştirdikten sonra tüm cihazlarınızda giriş yapmak için yeni parolanızı kullanmalısınız."
+
+#~ msgid "Change"
+#~ msgstr "Değiştir"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Parola başarıyla değiştirildi"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Bunu duyduğumuza üzüldük. Firefox Hesabı parolanızı değiştirmeli, sonra da cihazdaki verilerinizi uzaktan nasıl silebileceğinizi cihaz üreticinizden öğrenmelisiniz."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Bunu duyduğumuza üzüldük. Bu cihaza gerçekten güvenmiyorsanız hem Firefox Hesabı parolanızı hem de Firefox'ta kayıtlı olan parolalarınızı değiştirmelisiniz."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Son görülme %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Son görülme en az %(translatedTimeAgo)s önce"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Son görülme %(translatedTimeAgo)s (%(translatedCountry)s)"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Son görülme en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Son görülme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Son görülme %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Son etkinlik: %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Son etkinlik en az %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Son etkinlik %(translatedTimeAgo)s (%(translatedCountry)s)"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Son etkinlik en az %(translatedTimeAgo)s önce (%(translatedCountry)s)"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Son etkinlik %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Son etkinlik en az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "En az %(translatedTimeAgo)s önce"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s (%(translatedCountry)s)"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "En az %(translatedTimeAgo)s (%(translatedCountry)s)"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "En az %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s yakınlarında"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Web oturumu, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Web oturumu"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Son görülme zamanı bilinmiyor"
+
+#~ msgid "Change…"
+#~ msgstr "Değiştir…"
+
+#~ msgid "Add…"
+#~ msgstr "Ekle…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Firefox’ta ve hesabınızı yönetirken görünmesini istediğiniz adı seçin."
+
+#~ msgid "Display name updated"
+#~ msgstr "Görünen ad güncellendi"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "İkinci e-posta silindi"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Doğrulama e-postası gönderildi"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Ana e-posta %(email)s olarak ayarlandı"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Yeni kurtarma kodları oluşturuldu"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "İki aşamalı kimlik doğrulama kaldırıldı"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "İki aşamalı doğrulama"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Hesap kurtarma"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Hesap kurtarma iptal edildi"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Kredi kartınızın süresi dolmuş. Lütfen <a %(escapedCcExpiredLinkAttrs)s>buradan</a> güncelleyin."
+
+#~ msgid "Sign out"
+#~ msgstr "Çıkış yap"
+
+#~ msgid "Take picture"
+#~ msgstr "Fotoğraf çek"
+
+#~ msgid "Upload"
+#~ msgstr "Yükle"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Temizle"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Fotoğrafınızı istediğiniz gibi konumlandırın ve döndürün"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Sync bağlantısını kes"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "%(deviceName)s üzerindeki mevcut verileriniz aynen kalacaktır ama bundan sonra hesabınızla eşitlenmeyecektir."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "%(deviceName)s adlı cihazın Sync bağlantısını kesme nedeniniz:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Şüpheli"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Kayboldu veya çalındı"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Eski veya değiştirildi"
+
+#~ msgid "Duplicate"
+#~ msgstr "Çift kopya"
+
+#~ msgid "Rather not say"
+#~ msgstr "Söylemek istemiyorum"
+
+#~ msgid "Disconnect"
+#~ msgstr "Bağlantıyı kes"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Bağlantı başarıyla kesildi"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Cihazlar ve uygulamalar"
+
+#~ msgid "Show"
+#~ msgstr "Göster"
+
+#~ msgid "Current device"
+#~ msgstr "Kullandığınız cihaz"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Bağlantıyı kes…"
+
+#~ msgid "Current session"
+#~ msgstr "Geçerli oturum"
+
+#~ msgid "Revoke"
+#~ msgstr "İptal et"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "iOS için Firefox"
+
+#~ msgid "None connected"
+#~ msgstr "Hiçbiri bağlı değil"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Android için Firefox"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Eksik veya çift kayıtlar mı var?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Durumu yenile"
+
+#~ msgid "Email preferences"
+#~ msgstr "E-posta tercihleri"
+
+#~ msgid "Delete account"
+#~ msgstr "Hesabı sil"
+
+#~ msgid "Delete…"
+#~ msgstr "Sil…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Ücretli bir aboneliği sonlandırmak mı istiyorsunuz? <a href=\"/subscriptions\">Abonelikler</a> sayfasına gidin."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Firefox hesabınızı, internette güvende ve üretken kalmanızı sağlayan Mozilla ürünlerine bağladınız:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecek"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Mozilla ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Bu e-postayı yeniden etkinleştirseniz bile kayıtlı bilgileriniz geri gelmeyecektir"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "İkinci e-posta, güvenlik bildirimlerini alabileceğiniz ve yeni cihazları onaylayabileceğiniz ek bir adrestir."
+
+#~ msgid "Verification required"
+#~ msgstr "Doğrulama gerekiyor"
+
+#~ msgid "Make primary"
+#~ msgstr "Birinci yap"
+
+#~ msgid "Remove"
+#~ msgstr "Sil"
+
+#~ msgid "Refresh"
+#~ msgstr "Yenile"
+
+#~ msgid "Add email"
+#~ msgstr "E-posta ekle"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "NOTE:"
+#~ msgstr "NOT:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Yeni kurtarma kodları oluşturduğunuzda eski kodlarınızın tümü geçersiz hale gelir. Lütfen yeni kodları güvenli bir yerde saklayın."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Yeni kurtarma kodları oluştur"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Kurtarma kodunu doğrulayın"
+
+#~ msgid "Manage…"
+#~ msgstr "Yönet…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "İki aşamalı doğrulama"
+
+#~ msgid "Enable…"
+#~ msgstr "Etkinleştir…"
+
+#~ msgid "Current status"
+#~ msgstr "Şu anki durum"
+
+#~ msgid "Enabled"
+#~ msgstr "Etkin"
+
+#~ msgid "Disabled"
+#~ msgstr "Devre dışı"
+
+#~ msgid "Disable"
+#~ msgstr "Kapat"
+
+#~ msgid "Enable"
+#~ msgstr "Etkinleştir"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Kurtarma kodlarını değiştir"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Bu bölümü görmek ve değişiklik yapmak için öncelikle e-posta adresinizi doğrulamalısınız."
+
+#~ msgid "Primary email"
+#~ msgstr "Birinci e-posta"
+
+#~ msgid "Account recovery"
+#~ msgstr "Hesap kurtarma"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Parolanızı unutmanız halinde yer imlerinize, parolalarınıza ve eşitlenmiş verilerinize yeniden ulaşmanızı sağlayacak bir kurtarma anahtarı oluşturabilirsiniz."
+
+#~ msgid "Recovery key"
+#~ msgstr "Kurtarma anahtarı"
+
+#~ msgid "Not set"
+#~ msgstr "Ayarlanmamış"
+
+#~ msgid "Generate"
+#~ msgstr "Oluştur"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">NOT: </span>Firefox verileriniz, Firefox Hesabınızın parolasıyla şifrelenir. Bu şifreyi yalnızca parolanız veya kurtarma anahtarınız çözebilir. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Daha fazla bilgi alın</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "İptal etmek istediğinizden emin misiniz?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Parolanızı sıfırlarsanız verilerinize erişmek için kurtarma anahtarınızı kullanamayacaksınız."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Adım 2/2: Kutarma anahtarını kaydedin"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">NOT: </span>Parolanızı unutursanız, verilerinize tekrar kavuşmak için bu anahtara ihtiyacınız olacak. Kurtarma anahtarınızı daha sonra kolayca bulabileceğiniz güvenli bir "
+#~ "yerde saklayın."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Tamam, kurtarma anahtarımı kaydettim"
 
 #~ msgid "Please Select One"
 #~ msgstr "Lütfen birini seçin"
@@ -2602,11 +2481,11 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgstr "Tercihleri yönet"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Bu hesabı AMO, Pocket ve Screenshots Mozilla uygulamalarında ve servislerinde kullanıyorsanız, önce onlara giriş yaparak kişisel bilgileri kaldırmanızı öneririz. Buradaki hesabınızı sildikten sonra "
-#~ "diğer uygulamalara da ulaşamazsınız."
+#~ "Bu hesabı AMO, Pocket ve Screenshots Mozilla uygulamalarında ve servislerinde kullanıyorsanız, önce onlara giriş yaparak kişisel bilgileri kaldırmanızı öneririz. Buradaki hesabınızı sildikten "
+#~ "sonra diğer uygulamalara da ulaşamazsınız."
 
 #~ msgid "verified"
 #~ msgstr "doğrulandı"
@@ -2689,7 +2568,9 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgstr "Abonelik Platformu Hizmet Koşulları alınamadı"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+#~ msgstr ""
+#~ "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Gizlilik Bildirimini</a> kabul etmiş "
+#~ "oluyorsunuz."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Abonelik Platformu Hizmet Koşulları"
@@ -2850,7 +2731,9 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Çerezler ve yerel depolama gereklidir."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Devam ederek Firefox bulut hizmetlerinin <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Gizlilik "
 #~ "Bildirimini</a> kabul etmiş oluyorsunuz."
@@ -2907,8 +2790,8 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgstr "Neden iki (veya daha fazla) cihazımı eşitleyeyim ki?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
 #~ "Sync özelliği; Firefox'a kaydettiğiniz yer imleri, geçmiş ve parolaları diğer cihazlarınızdaki Firefox'larınızla paylaşmanızı sağlar. Telefon veya tabletinizden Firefox'a giriş yapınca "
 #~ "bilgisayarınızdaki Firefox'ta kaydettiğiniz her şey karşınıza gelir."
@@ -2917,8 +2800,8 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync özelliği kalıcı bir yedekleme çözümü değildir: Yalnızca yerel olarak kaydettiklerinizi paylaşır. Parolanızı sıfırlarsanız ve verileriniz en az bir farklı cihazda depolanmamışsa eski parolanızla"
-#~ " ilişkilendirilmiş tüm bilgileri kaybedebilirsiniz. Bu nedenle Firefox'u birden fazla cihazda kurduysanız Sync'i kullanmanızı öneriyoruz."
+#~ "Sync özelliği kalıcı bir yedekleme çözümü değildir: Yalnızca yerel olarak kaydettiklerinizi paylaşır. Parolanızı sıfırlarsanız ve verileriniz en az bir farklı cihazda depolanmamışsa eski "
+#~ "parolanızla ilişkilendirilmiş tüm bilgileri kaybedebilirsiniz. Bu nedenle Firefox'u birden fazla cihazda kurduysanız Sync'i kullanmanızı öneriyoruz."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3023,15 +2906,15 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgstr "Giriş yap"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>UNUTMAYIN:</span> Parolanızı sıfırlarsanız bazı verileriniz (örn. geçmişiniz ve yer imleriniz gibi sunucuda tutulan veriler) silinecektir. Gizliliğinizi korumak için verilerinizi parolanızı "
-#~ "kullanarak şifreliyoruz ve parolanız sıfırlandığında onları geri getirmek olanaksız hale geliyor."
+#~ "<span>UNUTMAYIN:</span> Parolanızı sıfırlarsanız bazı verileriniz (örn. geçmişiniz ve yer imleriniz gibi sunucuda tutulan veriler) silinecektir. Gizliliğinizi korumak için verilerinizi "
+#~ "parolanızı kullanarak şifreliyoruz ve parolanız sıfırlandığında onları geri getirmek olanaksız hale geliyor."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>NOT:</span> Parolanızı sıfırlarsanız bazı verileriniz (örn. geçmişiniz ve yer imleriniz gibi sunucuda tutulan veriler) silinecektir. Gizliliğinizi korumak için verilerinizi parolanızı "
 #~ "kullanarak şifreliyoruz ve parolanız sıfırlandığında onları geri getirmek olanaksız hale geliyor."
@@ -3159,19 +3042,21 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgid "Sync preferences"
 #~ msgstr "Sync tercihleri"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr ""
-#~ "Firefox Sync’i mi arıyorsunuz? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</a>"
+#~ "Firefox Sync’i mi arıyorsunuz? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Buradan başlayın</"
+#~ "a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Başka bir e-posta adresiyle hesabınız mı var? <a href=\"%(signinUri)s\">Giriş yapın</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</a> "
-#~ "sürümleri mevcuttur."
+#~ "Firefox’un <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ve <a href=\"%(linkLinux)s\">Linux</"
+#~ "a> sürümleri mevcuttur."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Son etkinlik: %(translatedTimeAgo)s"
@@ -3537,12 +3422,16 @@ msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden 
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Zaten hesabınız var mı? Oturum açın."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Kouşllarını</a> ve<a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul "
 #~ "ettiğimi onaylıyorum."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Devam ederek, Firefox bulut servislerinin <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Gizlilik "
 #~ "Bildirimini</a> kabul ettiğimi onaylıyorum."

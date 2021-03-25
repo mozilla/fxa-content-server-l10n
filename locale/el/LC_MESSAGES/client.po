@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-24 10:02+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,11 +28,11 @@ msgstr "Ο κωδικός πρόσβασης άλλαξε επιτυχώς. Συ
 msgid "Sign in"
 msgstr "Σύνδεση"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Ο λογαριασμός διαγράφηκε επιτυχώς"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Χρησιμοποιήστε τον κωδικό %(code)s για να ρυθμίσετε την ταυτοποίηση σε δύο βήματα στις υποστηριζόμενες εφαρμογές."
 
@@ -44,11 +44,11 @@ msgstr "%(permissionName)s (απαιτείται)"
 msgid "Email address"
 msgstr "Διεύθυνση email"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Εμφανιζόμενο όνομα"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Εικόνα λογαριασμού"
 
@@ -121,204 +121,6 @@ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercase
 msgstr ""
 "Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το <b>%(escapedLowercaseTopic)s</b> για το <b>%(escapedSelectedProduct)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το "
 "συντομότερο δυνατό."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Κωδικός πρόσβασης"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Αλλαγή..."
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Μόλις τελειώσετε, συνδεθείτε σε όλες σας τις συσκευές με το νέο σας κωδικό πρόσβασης."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Παλιός κωδικός πρόσβασης"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Νέος κωδικός πρόσβασης"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Εισάγετε ξανά τον κωδικό πρόσβασης"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Αλλαγή"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"Λυπούμαστε που το ακούμε αυτό. Θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη "
-"διαγραφή των δεδομένων σας."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"Λυπούμαστε που το ακούμε αυτό. Αν αυτή δεν είναι μια αξιόπιστη συσκευή, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και να αλλάξετε τυχόν κωδικούς πρόσβασης που "
-"αποθηκεύσατε στο Firefox."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s σε %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s σε %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Πάνω από %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Διαδικτυακή συνεδρία"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Τελευταία εμφάνιση: άγνωστη"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Αλλαγή…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Προσθήκη…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Επιλέξτε το όνομα που θέλετε να εμφανίζεται στον Firefox όταν διαχειρίζεστε τον λογαριασμό σας."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Το εμφανιζόμενο όνομα άλλαξε"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Απεστάλη e-mail επαλήθευσης"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "Το πρωτεύον e-mail ορίστηκε σε %(email)s"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Δευτερεύον e-mail"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Η ταυτοποίηση σε δύο βήματα αφαιρέθηκε"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Ταυτοποίηση σε δύο βήματα"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Ανάκτηση λογαριασμού"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Η ανάκτηση λογαριασμού ενεργοποιήθηκε"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Η ανάκτηση λογαριασμού ανακλήθηκε"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -408,10 +210,6 @@ msgstr "Ελήφθη"
 msgid "Printed"
 msgstr "Εκτυπώθηκε"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Επιτυχής επαλήθευση κύριου email"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Επιτυχής επαλήθευση λογαριασμού"
@@ -472,6 +270,10 @@ msgstr "Πιστωτικές κάρτες"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Επιτυχής επαλήθευση κύριου email"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Επιτυχής επαλήθευση δευτερεύοντος email"
@@ -479,6 +281,10 @@ msgstr "Επιτυχής επαλήθευση δευτερεύοντος email"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Επιτυχής επαναφορά κωδικού πρόσβασης"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Η ανάκτηση λογαριασμού ενεργοποιήθηκε"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1026,7 +832,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο σύμβολο"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Προχωρώντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους Χρήσης</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική Απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -1098,7 +906,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Παρακαλούμε εισάγετε το κλειδί ανάκτησης μίας χρήσης που έχετε αποθηκεύσει σε ένα ασφαλές μέρος για ανάκτηση πρόσβασης στο λογαριασμό Firefox σας."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει κλειδί ανάκτησης λογαριασμού, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων "
 "και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες)."
@@ -1164,6 +973,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Έχετε ανακτήσει επιτυχώς το λογαριασμό σας με το κλειδί ανάκτησης. Δημιουργήστε ένα νέο κωδικό πρόσβασης για προστασία των δεδομένων σας και αποθηκεύστε τον σε μια ασφαλή τοποθεσία."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Νέος κωδικός πρόσβασης"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Εισάγετε ξανά τον κωδικό πρόσβασης"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Θυμάστε τον κωδικό πρόσβασης; Σύνδεση"
@@ -1205,13 +1022,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Ελέγξτε το email σας για το σύνδεσμο επιβεβαίωσης σύνδεσης, που απεστάλη στο %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Όχι στα εισερχόμενα ή στον φάκελο ανεπιθύμητων; Αποστολή ξανά"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Πίσω"
 
@@ -1237,7 +1053,7 @@ msgstr "Παρακαλούμε εισάγετε τον κωδικό επαλήθ
 msgid "Enter 6-digit code"
 msgstr "Εισάγετε τον 6-ψήφιο κωδικό"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Επαλήθευση"
@@ -1305,47 +1121,50 @@ msgstr ""
 msgid "Try again"
 msgstr "Δοκιμάστε ξανά"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">σημείωση απορρήτου</a>."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Εισάγετε το email σας"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Συνέχεια"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Αποθήκευση κωδικών ανάκτησης"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ασφαλές μέρος για την περίπτωση που δεν έχετε την κινητή συσκευή σας."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Λήψη"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Εκτύπωση"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Ακύρωση ρύθμισης"
 
@@ -1353,16 +1172,16 @@ msgstr "Ακύρωση ρύθμισης"
 msgid "Confirm recovery code"
 msgstr "Επιβεβαίωση κωδικού ανάκτησης"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 "Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στο λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλούμε εισάγετε έναν από τους αποθηκευμένους κωδικούς ανάκτησης."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Κωδικός ανάκτησης"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
@@ -1370,7 +1189,7 @@ msgstr "Επιβεβαίωση"
 msgid "Enable two-step authentication"
 msgstr "Ενεργοποίηση ελέγχου ταυτότητας δύο παραγόντων"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλείας στο λογαριασμό σας χρησιμοποιώντας κωδικούς ασφαλείας από μια από <a %(escapedTotpSupportAttributes)s>αυτές τις εφαρμογές πιστοποίησης</a>."
 
@@ -1378,19 +1197,19 @@ msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλεί
 msgid "Scan authentication code"
 msgstr "Σαρώστε τον κωδικό ελέγχου ταυτότητας"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Εισάγετε τον κωδικό χειροκίνητα"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Σαρώστε τον κωδικό QR στην εφαρμογή πιστοποίησής σας και, έπειτα, εισάγετε τον κωδικό ασφαλείας που σάς παρέχει."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Αδυναμία σάρωσης κωδικού;"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "Αφού ολοκληρωθεί, θα αρχίσει η δημιουργία των κωδικών ασφαλείας σας."
 
@@ -1402,11 +1221,11 @@ msgstr "Πληκτρολογήστε αυτό το μυστικό κλειδί �
 msgid "Scan QR code instead?"
 msgstr "Εναλλακτικά, θέλετε να σαρώστε έναν κωδικό QR;"
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Κωδικός ασφαλείας"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Έτοιμο"
 
@@ -1414,11 +1233,11 @@ msgstr "Έτοιμο"
 msgid "Legal"
 msgstr "Νομικά"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Όροι Υπηρεσίας"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Πολιτική Απορρήτου"
 
@@ -1451,6 +1270,11 @@ msgstr "Το %(serviceName)s θέλει τις ακόλουθες πληροφο
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Αποδοχή"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Ακύρωση"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1500,7 +1324,7 @@ msgstr "Email"
 msgid "Begin reset"
 msgstr "Έναρξη επαναφοράς"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Πρόσφατη δραστηριότητα"
 
@@ -1512,7 +1336,7 @@ msgstr "Συμβάντα ασφαλείας"
 msgid "Event Name"
 msgstr "Όνομα συμβάντος"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Επαληθεύτηκε"
 
@@ -1527,18 +1351,6 @@ msgstr "Διαγραφή συμβάντων"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Πίσω στις ρυθμίσεις"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Η πιστωτική σας κάρτα έχει λήξει. Ενημερώστε την <a %(escapedCcExpiredLinkAttrs)s>εδώ</a>."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Λογαριασμοί Firefox"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Έξοδος"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1694,11 +1506,15 @@ msgstr "Δεν έφτασε; Εκ νέου αποστολή"
 msgid "Why sign in on another device?"
 msgstr "Γιατί να συνδεθείτε σε μια άλλη συσκευή;"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Λογαριασμοί Firefox"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Αρχική σελίδα λογαριασμού"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Συνδρομές"
 
@@ -1757,10 +1573,10 @@ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγρα
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον κωδικό"
-" πρόσβασής σας."
+"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+"κωδικό πρόσβασής σας."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Το 'πιασα"
 
@@ -1771,280 +1587,6 @@ msgstr "Θα θέλατε να συγχρονίσετε αυτή τη συσκε
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Συγχρονισμός συσκευής"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Λήψη εικόνας"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Μεταφόρτωση"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Κάμερα"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Εκκαθάριση"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Τέλος"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Εικόνα χρήστη"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Τοποθετήστε και περιστρέψτε την εικόνα σας, όπως επιθυμείτε"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Αποσύνδεση από το Sync"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Τα δεδομένα περιήγησής σας θα παραμείνουν στο %(deviceName)s, αλλά δεν θα συγχρονίζονται πλέον με το λογαριασμό σας."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Αποσυνδέετε το %(deviceName)s από το Sync, επειδή αυτή η συσκευή:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Είναι ύποπτη"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Έχει χαθεί ή κλαπεί"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Είναι παλιά ή έχει αντικατασταθεί"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Είναι αντίγραφο"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Προτιμώ να μην πω"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Αποσύνδεση"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Επιτυχής αποσύνδεση"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Συσκευές & εφαρμογές"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Εμφάνιση"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Τρέχουσα συσκευή"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Αποσύνδεση…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Τρέχουσα συνεδρία"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Ανάκληση"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox για iOS"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Καμία σύνδεση"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox για Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Χαμένα ή διπλά στοιχεία;"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Ανανέωση κατάστασης"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "Προτιμήσεις email"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Διαγραφή λογαριασμού"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Διαγραφή…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Θέλετε να ακυρώσετε μια συνδρομή επί πληρωμή; Μεταβείτε στις <a href=\"/subscriptions\">Συνδρομές</a>."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Έχετε συνδέσει το λογαριασμό Firefox σας με τα προϊόντα Mozilla που σας προστατεύουν και σας βοηθούν στο διαδίκτυο:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Παρακαλούμε λάβετε υπόψη πως διαγράφοντας το λογαριασμό σας:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Όλες οι συνδρομές επί πληρωμή θα ακυρωθούν"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "Όλες οι επεκτάσεις και τα θέματα που δημοσιεύσατε στο addons.mozilla.org θα διαγραφούν"
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Ενδέχεται να χάσετε αποθηκευμένες πληροφορίες και λειτουργίες στα προϊόντα Mozilla"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Η εκ νέου ενεργοποίηση με αυτό το email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Ένα δευτερεύον email είναι μια επιπρόσθετη διεύθυνση για λήψη σημειώσεων ασφαλείας και την επιβεβαίωση νέων συσκευών."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Απαιτείται επαλήθευση"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Ορισμός ως πρωτεύον"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Αφαίρεση"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Ανανέωση"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "Προσθήκη email"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Προσθήκη"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "ΣΗΜΕΙΩΣΗ:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Δημιουργώντας νέους κωδικούς ανάκτησης, όλοι οι προηγούμενοι θα ακυρωθούν. Παρακαλούμε αποθηκεύστε τους νέους κωδικούς σε μια ασφαλή τοποθεσία."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Δημιουργία νέων κωδικών ανάκτησης"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Επιβεβαίωση κωδικού ανάκτησης"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Διαχείριση…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ελέγχου ταυτότητάς σας:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Ταυτοποίηση σε δύο βήματα"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Ενεργοποίηση…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Τρέχουσα κατάσταση"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Ενεργό"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Ανενεργό"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Απενεργοποίηση"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Ενεργοποίηση"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Αντικατάσταση κωδικών ανάκτησης"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Πριν μπορέσετε να προβάλλετε ή να κάνετε αλλάγες σε αυτή την ενότητα, θα χρειαστεί να επαληθεύσετε τη διεύθυνση email σας."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Κύριο email"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Ανάκτηση λογαριασμού"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Δημιουργήστε ένα κλειδί ανάκτησης για ανάκτηση πρόσβασης στους σελιδοδείκτες, τους κωδικούς πρόσβασης και τα συγχρονισμένα δεδομένα του Firefox, αν ξεχάσετε τον κωδικό πρόσβασής σας."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Κλειδί ανάκτησης"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Δεν έχει οριστεί"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Δημιουργία"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Ο κωδικός πρόσβασης του λογαριασμού Firefox σας κρυπτογραφεί τα δεδομένα του Firefox σας. Μπορείτε να προσπελάσετε τα δεδομένα σας μόνο με τον κωδικό πρόσβασης "
-"ή το κλειδί ανάκτησής σας. <a %(escapedLearnMoreLinkAttributes)s>Μάθετε περισσότερα</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2058,28 +1600,6 @@ msgstr "Εισάγετε τον κωδικό πρόσβασής σας για π
 msgid "Enter Password"
 msgstr "Εισάγετε κωδικό πρόσβασης"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Θέλετε σίγουρα να κάνετε ανάκληση;"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Δεν θα μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Βήμα 2 από 2: Αποθήκευση κλειδιού ανάκτησης"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Αν ξεχάσετε τον κωδικό πρόσβασής σας, αυτό το κλειδί απαιτείται για την ανάκτηση της πρόσβασης στα δεδομένα σας. Αποθηκεύστε το κλειδί ανάκτησης σε μια ασφαλή "
-"τοποθεσία, όπου μπορείτε να το βρείτε εύκολα αργότερα."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Τελειώσατε. Το κλειδί ανάκτησης αποθηκεύτηκε"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Προσθήκη δευτερεύουσας διεύθυνσης email"
@@ -2087,6 +1607,10 @@ msgstr "Προσθήκη δευτερεύουσας διεύθυνσης email"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Η προσθήκη ενός δευτερεύοντος email θα σας βοηθήσει να ανακτήσετε το λογαριασμό σας, εάν κλειδωθείτε και δεν έχετε πρόσβαση στο %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Δευτερεύον e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2115,6 +1639,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "Το συγχρονισμένο ιστορικό, οι σελιδοδείκτες, οι συνδέσεις και άλλα προσωπικά δεδομένα δεν θα χαθούν."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Παλιός κωδικός πρόσβασης"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2252,6 +1780,10 @@ msgstr "Εισάγετε το κλειδί ανάκτησης για να επι
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Αποθήκευση κλειδιού ανάκτησης"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Τέλος"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2421,6 +1953,353 @@ msgstr "Σύζευξη με εφαρμογή"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
 
+#~ msgid "Change..."
+#~ msgstr "Αλλαγή..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Μόλις τελειώσετε, συνδεθείτε σε όλες σας τις συσκευές με το νέο σας κωδικό πρόσβασης."
+
+#~ msgid "Change"
+#~ msgstr "Αλλαγή"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr ""
+#~ "Λυπούμαστε που το ακούμε αυτό. Θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την "
+#~ "απομακρυσμένη διαγραφή των δεδομένων σας."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr ""
+#~ "Λυπούμαστε που το ακούμε αυτό. Αν αυτή δεν είναι μια αξιόπιστη συσκευή, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και να αλλάξετε τυχόν κωδικούς πρόσβασης που "
+#~ "αποθηκεύσατε στο Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s σε %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s σε %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Διαδικτυακή συνεδρία"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Τελευταία εμφάνιση: άγνωστη"
+
+#~ msgid "Change…"
+#~ msgstr "Αλλαγή…"
+
+#~ msgid "Add…"
+#~ msgstr "Προσθήκη…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Επιλέξτε το όνομα που θέλετε να εμφανίζεται στον Firefox όταν διαχειρίζεστε τον λογαριασμό σας."
+
+#~ msgid "Display name updated"
+#~ msgstr "Το εμφανιζόμενο όνομα άλλαξε"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Απεστάλη e-mail επαλήθευσης"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Το πρωτεύον e-mail ορίστηκε σε %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Η ταυτοποίηση σε δύο βήματα αφαιρέθηκε"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Ταυτοποίηση σε δύο βήματα"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Ανάκτηση λογαριασμού"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Η ανάκτηση λογαριασμού ανακλήθηκε"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Η πιστωτική σας κάρτα έχει λήξει. Ενημερώστε την <a %(escapedCcExpiredLinkAttrs)s>εδώ</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Έξοδος"
+
+#~ msgid "Take picture"
+#~ msgstr "Λήψη εικόνας"
+
+#~ msgid "Upload"
+#~ msgstr "Μεταφόρτωση"
+
+#~ msgid "Camera"
+#~ msgstr "Κάμερα"
+
+#~ msgid "Clear"
+#~ msgstr "Εκκαθάριση"
+
+#~ msgid "Avatar"
+#~ msgstr "Εικόνα χρήστη"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Τοποθετήστε και περιστρέψτε την εικόνα σας, όπως επιθυμείτε"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Αποσύνδεση από το Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Τα δεδομένα περιήγησής σας θα παραμείνουν στο %(deviceName)s, αλλά δεν θα συγχρονίζονται πλέον με το λογαριασμό σας."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Αποσυνδέετε το %(deviceName)s από το Sync, επειδή αυτή η συσκευή:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Είναι ύποπτη"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Έχει χαθεί ή κλαπεί"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Είναι παλιά ή έχει αντικατασταθεί"
+
+#~ msgid "Duplicate"
+#~ msgstr "Είναι αντίγραφο"
+
+#~ msgid "Rather not say"
+#~ msgstr "Προτιμώ να μην πω"
+
+#~ msgid "Disconnect"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Επιτυχής αποσύνδεση"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Συσκευές & εφαρμογές"
+
+#~ msgid "Show"
+#~ msgstr "Εμφάνιση"
+
+#~ msgid "Current device"
+#~ msgstr "Τρέχουσα συσκευή"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Αποσύνδεση…"
+
+#~ msgid "Current session"
+#~ msgstr "Τρέχουσα συνεδρία"
+
+#~ msgid "Revoke"
+#~ msgstr "Ανάκληση"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox για iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Καμία σύνδεση"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox για Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Χαμένα ή διπλά στοιχεία;"
+
+#~ msgid "Refresh status"
+#~ msgstr "Ανανέωση κατάστασης"
+
+#~ msgid "Email preferences"
+#~ msgstr "Προτιμήσεις email"
+
+#~ msgid "Delete account"
+#~ msgstr "Διαγραφή λογαριασμού"
+
+#~ msgid "Delete…"
+#~ msgstr "Διαγραφή…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Θέλετε να ακυρώσετε μια συνδρομή επί πληρωμή; Μεταβείτε στις <a href=\"/subscriptions\">Συνδρομές</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Έχετε συνδέσει το λογαριασμό Firefox σας με τα προϊόντα Mozilla που σας προστατεύουν και σας βοηθούν στο διαδίκτυο:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Παρακαλούμε λάβετε υπόψη πως διαγράφοντας το λογαριασμό σας:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Όλες οι συνδρομές επί πληρωμή θα ακυρωθούν"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Όλες οι επεκτάσεις και τα θέματα που δημοσιεύσατε στο addons.mozilla.org θα διαγραφούν"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Ενδέχεται να χάσετε αποθηκευμένες πληροφορίες και λειτουργίες στα προϊόντα Mozilla"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Η εκ νέου ενεργοποίηση με αυτό το email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Ένα δευτερεύον email είναι μια επιπρόσθετη διεύθυνση για λήψη σημειώσεων ασφαλείας και την επιβεβαίωση νέων συσκευών."
+
+#~ msgid "Verification required"
+#~ msgstr "Απαιτείται επαλήθευση"
+
+#~ msgid "Make primary"
+#~ msgstr "Ορισμός ως πρωτεύον"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "Refresh"
+#~ msgstr "Ανανέωση"
+
+#~ msgid "Add email"
+#~ msgstr "Προσθήκη email"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "NOTE:"
+#~ msgstr "ΣΗΜΕΙΩΣΗ:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Δημιουργώντας νέους κωδικούς ανάκτησης, όλοι οι προηγούμενοι θα ακυρωθούν. Παρακαλούμε αποθηκεύστε τους νέους κωδικούς σε μια ασφαλή τοποθεσία."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Δημιουργία νέων κωδικών ανάκτησης"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Επιβεβαίωση κωδικού ανάκτησης"
+
+#~ msgid "Manage…"
+#~ msgstr "Διαχείριση…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ελέγχου ταυτότητάς σας:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Ταυτοποίηση σε δύο βήματα"
+
+#~ msgid "Enable…"
+#~ msgstr "Ενεργοποίηση…"
+
+#~ msgid "Current status"
+#~ msgstr "Τρέχουσα κατάσταση"
+
+#~ msgid "Enabled"
+#~ msgstr "Ενεργό"
+
+#~ msgid "Disabled"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Disable"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Enable"
+#~ msgstr "Ενεργοποίηση"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Αντικατάσταση κωδικών ανάκτησης"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Πριν μπορέσετε να προβάλλετε ή να κάνετε αλλάγες σε αυτή την ενότητα, θα χρειαστεί να επαληθεύσετε τη διεύθυνση email σας."
+
+#~ msgid "Primary email"
+#~ msgstr "Κύριο email"
+
+#~ msgid "Account recovery"
+#~ msgstr "Ανάκτηση λογαριασμού"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Δημιουργήστε ένα κλειδί ανάκτησης για ανάκτηση πρόσβασης στους σελιδοδείκτες, τους κωδικούς πρόσβασης και τα συγχρονισμένα δεδομένα του Firefox, αν ξεχάσετε τον κωδικό πρόσβασής σας."
+
+#~ msgid "Recovery key"
+#~ msgstr "Κλειδί ανάκτησης"
+
+#~ msgid "Not set"
+#~ msgstr "Δεν έχει οριστεί"
+
+#~ msgid "Generate"
+#~ msgstr "Δημιουργία"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Ο κωδικός πρόσβασης του λογαριασμού Firefox σας κρυπτογραφεί τα δεδομένα του Firefox σας. Μπορείτε να προσπελάσετε τα δεδομένα σας μόνο με τον κωδικό "
+#~ "πρόσβασης ή το κλειδί ανάκτησής σας. <a %(escapedLearnMoreLinkAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Θέλετε σίγουρα να κάνετε ανάκληση;"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Δεν θα μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Βήμα 2 από 2: Αποθήκευση κλειδιού ανάκτησης"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Αν ξεχάσετε τον κωδικό πρόσβασής σας, αυτό το κλειδί απαιτείται για την ανάκτηση της πρόσβασης στα δεδομένα σας. Αποθηκεύστε το κλειδί ανάκτησης σε μια "
+#~ "ασφαλή τοποθεσία, όπου μπορείτε να το βρείτε εύκολα αργότερα."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Τελειώσατε. Το κλειδί ανάκτησης αποθηκεύτηκε"
+
 #~ msgid "Please Select One"
 #~ msgstr "Παρακαλούμε επιλέξτε ένα"
 
@@ -2546,8 +2425,8 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Μην χρησιμοποιείτε ξανά τον κωδικό πρόσβασης του email σας</span>Αν κάποιος γνωρίζει τον κωδικό πρόσβασης του email σας, μπορούν να εγκρίνουν τη σύνδεση στο Firefox σας από μια άλλη συσκευή "
-#~ "και να προσπελάσουν τα δεδομένα σας."
+#~ "<span>Μην χρησιμοποιείτε ξανά τον κωδικό πρόσβασης του email σας</span>Αν κάποιος γνωρίζει τον κωδικό πρόσβασης του email σας, μπορούν να εγκρίνουν τη σύνδεση στο Firefox σας από μια άλλη "
+#~ "συσκευή και να προσπελάσουν τα δεδομένα σας."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Να θυμάστε τον κωδικό πρόσβασής σας</span>Αν χρειαστεί να αλλάξετε τον κωδικό πρόσβασής σας, θα χάσετε όλα τα δεδομένα του Sync που δεν βρίσκονται σε κάποια από τις συσκευές σας."
@@ -2584,8 +2463,8 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Θα λαμβάνετε ενημερώσεις σχετικά με την ασφάλεια του λογαριασμού σας, τις αλλαγές στην πολιτική μας, τη λειτουργικότητα του λογαριασμού σας και τα emails που σάς βοηθούν να αξιοποιήσετε στο έπακρο "
-#~ "το λογαριασμό Firefox σας."
+#~ "Θα λαμβάνετε ενημερώσεις σχετικά με την ασφάλεια του λογαριασμού σας, τις αλλαγές στην πολιτική μας, τη λειτουργικότητα του λογαριασμού σας και τα emails που σάς βοηθούν να αξιοποιήσετε στο "
+#~ "έπακρο το λογαριασμό Firefox σας."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Επιπλέον, μπορείτε να εγγραφείτε για να λαμβάνετε προωθητικά emails με τις πιο πρόσφατες ειδήσεις από τη Mozilla και το Firefox."
@@ -2597,11 +2476,11 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 #~ msgstr "Διαχείριση προτιμήσεων"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Αν χρησιμοποιείτε αυτό το λογαριασμό για εφαρμογές Mozilla και υπηρεσίες, όπως το AMO, το Pocket και το Screenshots, θα πρέπει πρώτα να συνδεθείτε και να αφαιρέσετε τυχόν αποθηκευμένες προσωπικές "
-#~ "πληροφορίες. Μόλις διαγράψετε το λογαριασμό σας εδώ, ενδέχεται να χάσετε την πρόσβαση σε αυτόν από παντού."
+#~ "Αν χρησιμοποιείτε αυτό το λογαριασμό για εφαρμογές Mozilla και υπηρεσίες, όπως το AMO, το Pocket και το Screenshots, θα πρέπει πρώτα να συνδεθείτε και να αφαιρέσετε τυχόν αποθηκευμένες "
+#~ "προσωπικές πληροφορίες. Μόλις διαγράψετε το λογαριασμό σας εδώ, ενδέχεται να χάσετε την πρόσβαση σε αυτόν από παντού."
 
 #~ msgid "verified"
 #~ msgstr "επαληθεύτηκε"
@@ -2614,7 +2493,8 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 
 #~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 #~ msgstr ""
-#~ "Αυτοί είναι οι κωδικοί ανάκτησης μιας χρήσης. Αποθηκεύστε τους σε κάποιο ασφαλές μέρος σε περίπτωση που χάσετε πρόσβαση στην κινητή σας συσκευή. Δεν θα μπορέσετε να δείτε ξανά αυτούς τους κωδικούς."
+#~ "Αυτοί είναι οι κωδικοί ανάκτησης μιας χρήσης. Αποθηκεύστε τους σε κάποιο ασφαλές μέρος σε περίπτωση που χάσετε πρόσβαση στην κινητή σας συσκευή. Δεν θα μπορέσετε να δείτε ξανά αυτούς τους "
+#~ "κωδικούς."
 
 #~ msgid "Manually enter this secret key into your authentication app:"
 #~ msgstr "Εισάγετε χειροκίνητα αυτό το μυστικό κλειδί στην εφαρμογή πιστοποίησής σας:"
@@ -2665,7 +2545,9 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 #~ msgstr "Μοιραστείτε μεγάλα αρχεία χωρίς αδιάκριτα βλέμματα."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">σημείωση απορρήτου</a>."
+#~ msgstr ""
+#~ "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">σημείωση απορρήτου</"
+#~ "a>."
 
 #~ msgid "Description of Issue"
 #~ msgstr "Περιγραφή ζητήματος"
@@ -2802,10 +2684,12 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Απαιτούνται τα cookies και η τοπική αποθήκευση."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Σημείωση Απορρήτου</a> "
-#~ "των υπηρεσιών cloud του Firefox."
+#~ "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Σημείωση Απορρήτου</"
+#~ "a> των υπηρεσιών cloud του Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Υπηρεσίες cloud του Firefox"
@@ -2859,19 +2743,19 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 #~ msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox στο"
-#~ " τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+#~ "στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν είναι "
-#~ "αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του Firefox και "
-#~ "χρήση του Sync σε περισσότερες από μία συσκευές."
+#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν "
+#~ "είναι αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του "
+#~ "Firefox και χρήση του Sync σε περισσότερες από μία συσκευές."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2973,15 +2857,15 @@ msgstr "Χρησιμοποιήσατε την κάμερα συστήματος;
 #~ msgstr "Σύνδεση"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως ιστορικό και "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατέψουμε το απόρρητό σας."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως το ιστορικό και οι "
 #~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατεύσουμε το απόρρητό σας."

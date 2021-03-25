@@ -9,6 +9,7 @@ project-brand = Firefox-konton
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-konton
 
@@ -23,12 +24,13 @@ general-error-heading = Allmänt applikationsfel
 basic-error-message = Något gick fel. Vänligen försök igen.
 payment-error-1 = Hmm. Det gick inte att godkänna din betalning. Försök igen eller kontakta din kortutgivare.
 payment-error-2 = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
-payment-error-3 = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
+payment-error-3b = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 payment-error-retry-button = Försök igen
 payment-error-manage-subscription-button = Hantera min prenumeration
 country-currency-mismatch = Prenumerationens valuta är inte giltig för det land som är kopplat till din betalning.
 currency-currency-mismatch = Tyvärr. Du kan inte växla mellan valutor.
 returning-paypal-customer-error = Tyvärr. För närvarande kan du bara registrera dig för en prenumeration i taget. Kom tillbaka snart.
+no-subscription-upgrades = Förlåt. Du kan inte uppgradera eller nedgradera din prenumeration just nu. Kom tillbaka snart.
 expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
 insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
@@ -54,6 +56,7 @@ subscription-create-title = Konfigurera din prenumeration
 subscription-success-title = Prenumerationsbekräftelse
 subscription-processing-title = Bekräftar prenumerationen...
 subscription-error-title = Fel vid bekräftelse av prenumeration...
+subscription-noupgrade-title = Ändringar av prenumerationsnivå stöds inte
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +99,12 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } använder Stripe och { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-stripe-and-paypal = Visa sekretesspolicy för <stripePrivacyLink>Stripe</stripePrivacyLink> och <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
+payment-legal-link-stripe-and-paypal-2 = Visa sekretesspolicy för <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> och <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
 payment-legal-link-paypal = Visa sekretesspolicy för <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } använder Stripe för säker betalningshantering.
-payment-legal-link-stripe = Visa sekretesspolicy för <stripePrivacyLink>Stripe</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
+payment-legal-link-stripe-2 = Visa sekretesspolicy för <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
