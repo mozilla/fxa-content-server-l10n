@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2018-11-25 03:20+0000\n"
 "Last-Translator: Norman Haikal <normanh876@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,11 +28,11 @@ msgstr "Tetap semula kata laluan berjaya. Log masuk untuk menyambung."
 msgid "Sign in"
 msgstr "Daftar masuk"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Akaun berjaya dihapuskan"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Guna kod %(code)s untuk menetapkan pengesahan dwi-langkah dalam aplikasi yang disokong."
 
@@ -44,11 +44,11 @@ msgstr "%(permissionName)s (diperlukan)"
 msgid "Email address"
 msgstr "Alamat e-mel"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Nama paparan"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Gambar akaun"
 
@@ -118,200 +118,6 @@ msgstr ""
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Kata laluan"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr ""
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Sebaik sahaja anda siap, gunakan kata laluan baru anda untuk daftar masuk ke semua peranti anda."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Kata laluan lama"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Lupa kata laluan?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Kata laluan baru"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Masukkan semula kata laluan"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Ubah"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Batal"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "Kata laluan berjaya ditukar"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Maaf di atas kesulitan ini. Anda perlu mengubah kata laluan Akaun Firfeox anda, dan dapatkan informasi daripada pengilang peranti anda berkenaan memadam data anda dari jauh."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Maaf di atas kesulitan ini. Jika ini merupakan peranti yang tidak anda percayai, anda perlu menukar kata laluan Akaun Firefox, dan menukar sebarang kata laluan yang tersimpan di Firefox."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr ""
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Terakhir aktif pada %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Terakhir aktif %(translatedTimeAgo)s dalam %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s dalam %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Terakhir aktif %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Melebihi %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s dalam %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Melebihi %(translatedTimeAgo)s dalam %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Melebihi %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Sesi Web, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Sesi Web"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr ""
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Ubah…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Tambah…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Pilih nama anda yang anda ingin paparkan di Firefox dan apabila menguruskan akaun anda."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Nama paparan dikemaskini"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "E-mel sekunder dibuang"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "E-mel pengesahan telah dihantar"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "E-mel utama ditetapkan ke %(email)s"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Emel kedua"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Kod pemulihan baru telah dijana"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Pengesahan dwi-langkah telah dibuang"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Pengesahan Dwi-langkah"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Pemulihan Akaun"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr ""
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
@@ -402,10 +208,6 @@ msgstr "Telah dimuat turun"
 msgid "Printed"
 msgstr "Sudah dicetak"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "E-mel utama berjaya disahkan"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Akaun berjaya disahkan"
@@ -466,6 +268,10 @@ msgstr ""
 msgid "Firefox"
 msgstr ""
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "E-mel utama berjaya disahkan"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "E-mel sekunder berjaya disahkan"
@@ -473,6 +279,10 @@ msgstr "E-mel sekunder berjaya disahkan"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Kata laluan berjaya diset semula"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1161,6 +971,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Anda telah berjaya pulihkan akaun menggunakan kekunci pemulihan. Cipta kata laluan baru untuk melindungi data anda dan simpannya di tempat selamat."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Kata laluan baru"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Masukkan semula kata laluan"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Ingat kata laluan ini? Daftar masuk"
@@ -1202,13 +1020,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Semak e-mel anda untuk mendapatkan pautan pengesahan daftar masuk yang dihantar ke %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Tiada dalam peti masuk atau folder spam? Hantar semula"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Kembali"
 
@@ -1234,7 +1051,7 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Masukkan kod 6-digit"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Sahkan"
@@ -1300,47 +1117,50 @@ msgstr "Sila dayakan kuki dan storan lokal di pelayar anda untuk mengakses Akaun
 msgid "Try again"
 msgstr "Cuba lagi"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Kata laluan"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Lupa kata laluan?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Masukkan e-mel anda"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Teruskan"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Muat turun"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Salin"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Cetak"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr ""
 
@@ -1348,15 +1168,15 @@ msgstr ""
 msgid "Confirm recovery code"
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Sahkan"
 
@@ -1364,7 +1184,7 @@ msgstr "Sahkan"
 msgid "Enable two-step authentication"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Tambah lapisan keselamatan akaun anda dengan meminta kod keselamatan daripada salah satu <a %(escapedTotpSupportAttributes)s>aplikasi pengesahan ini</a>."
 
@@ -1372,19 +1192,19 @@ msgstr "Tambah lapisan keselamatan akaun anda dengan meminta kod keselamatan dar
 msgid "Scan authentication code"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Imbas kod QR dalam aplikasi pengesahan dan masukkan kod keselamatan yang disediakannya."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Tidak dapat mengimbas kod?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr ""
 
@@ -1396,11 +1216,11 @@ msgstr ""
 msgid "Scan QR code instead?"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Kod keselamatan"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr ""
 
@@ -1408,11 +1228,11 @@ msgstr ""
 msgid "Legal"
 msgstr "Perundangan"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Terma Perkhidmatan"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Notis Privasi"
 
@@ -1445,6 +1265,11 @@ msgstr "%(serviceName)s inginkan maklumat berikut dari akaun anda:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Terima"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Batal"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1494,7 +1319,7 @@ msgstr "Emel"
 msgid "Begin reset"
 msgstr "Mulakan set semula"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr ""
 
@@ -1506,7 +1331,7 @@ msgstr ""
 msgid "Event Name"
 msgstr ""
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr ""
 
@@ -1521,18 +1346,6 @@ msgstr ""
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr ""
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Akaun Firefox"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Daftar keluar"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1686,11 +1499,15 @@ msgstr "Tidak sampai? Hantar semula"
 msgid "Why sign in on another device?"
 msgstr ""
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Akaun Firefox"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr ""
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr ""
 
@@ -1750,7 +1567,7 @@ msgstr "Perkhidmatan Sync bukan sandaran kekal, hanya sebagai cara yang selamat 
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Anda perlu memasang Firefox dan sync sekurang-kurangnya dua peranti untuk mengelakkan kehilangan data anda jika anda perlukannya tetapi anda terlupa kata laluan."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Baiklah"
 
@@ -1761,280 +1578,6 @@ msgstr ""
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr ""
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ambil gambar"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Muat naik"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Buang"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Selesai"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr ""
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Posisikan dan putarkan gambar anda mengikut keperluan"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Data pelayaran anda akan kekal dalam %(deviceName)s, tetapi ia tidak lagi sync dgn akaun anda."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr ""
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Biarkan"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Memutuskan"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Berjaya Memutuskan"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Peranti & aplikasi"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Papar"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Peranti semasa"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Memutuskan…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Sesi semasa"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Batalkan"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox untuk iOS"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Tiada yang disambung"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox untuk Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Item hilang atau diduplikasi?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr ""
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "Keutamaan emel"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Buang akaun"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Buang…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "E-mel sekunder adalah alamat tambahan untuk menerima notis keselamatan dan mengesahkan peranti baru."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Jadikan e-mel utama"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Buang"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Muat semula"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Tambah"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "NOTA:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Dengan menjana kod pemulihan baru, semua kod yang terdahulu akan menjadi tidak sah. Sila simpan kod baru di lokasi yang selamat."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Jana kod pemulihan baru"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr ""
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr ""
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Pengesahan dwi-langkah"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Dayakan…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Status semasa"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Didayakan"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Dinyahdayakan"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Nyahdayakan"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Dayakan"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Ganti kod pemulihan"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Anda perlu mengesahkan alamat e-mel anda sebelum melihat atau membuat perubahan di bahagian ini."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "E-mel utama"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Pemulihan akaun"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Jana kekunci pemulihan untuk mendapatkan semula akses ke tandabulu, kata laluan dan data Firefox yang diselaraskan jika terlupa kata laluan."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Kekunci pemulihan"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Tidak ditetapkan"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Jana"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">NOTA: </span>Kata laluan Akaun Firefox mengenkrip data Firefox. Hanya kata laluan atau kekunci pemulihan anda boleh mengakses data anda. <a "
-"%(escapedLearnMoreLinkAttributes)s>Ketahui selanjutnya</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2048,29 +1591,6 @@ msgstr "Masukkan kata laluan untuk melihat kekunci pemulihan."
 msgid "Enter Password"
 msgstr "Masukkan Kata Laluan"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Adakah anda pasti mahu batalkan?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Anda tidak akan boleh menggunakan kekunci pemulihan untuk mengakses data jika anda menetapkan semula kata laluan."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Langkah 2 daripada 2: Simpan kekunci Pemulihan"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">NOTA: </span>Jika anda terlupa kata laluan, kekunci ini diperlukan untuk mendapatkan semula akses ke data anda. Simpan kekunci pemulihan ini di lokasi yang selamat supaya mudah "
-"dicari nanti."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Selesai, kekunci Pemulihan disimpan"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
@@ -2078,6 +1598,10 @@ msgstr ""
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Emel kedua"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2104,6 +1628,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Kata laluan lama"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2240,6 +1768,10 @@ msgstr ""
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Selesai"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2408,6 +1940,259 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Sebaik sahaja anda siap, gunakan kata laluan baru anda untuk daftar masuk ke semua peranti anda."
+
+#~ msgid "Change"
+#~ msgstr "Ubah"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Kata laluan berjaya ditukar"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Maaf di atas kesulitan ini. Anda perlu mengubah kata laluan Akaun Firfeox anda, dan dapatkan informasi daripada pengilang peranti anda berkenaan memadam data anda dari jauh."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Maaf di atas kesulitan ini. Jika ini merupakan peranti yang tidak anda percayai, anda perlu menukar kata laluan Akaun Firefox, dan menukar sebarang kata laluan yang tersimpan di Firefox."
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Terakhir aktif pada %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir aktif %(translatedTimeAgo)s dalam %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s dalam %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir aktif %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir aktif melebihi %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Melebihi %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s dalam %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Melebihi %(translatedTimeAgo)s dalam %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Melebihi %(translatedTimeAgo)s berhampiran %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Sesi Web, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Sesi Web"
+
+#~ msgid "Change…"
+#~ msgstr "Ubah…"
+
+#~ msgid "Add…"
+#~ msgstr "Tambah…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Pilih nama anda yang anda ingin paparkan di Firefox dan apabila menguruskan akaun anda."
+
+#~ msgid "Display name updated"
+#~ msgstr "Nama paparan dikemaskini"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "E-mel sekunder dibuang"
+
+#~ msgid "Verification email sent"
+#~ msgstr "E-mel pengesahan telah dihantar"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "E-mel utama ditetapkan ke %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Kod pemulihan baru telah dijana"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Pengesahan dwi-langkah telah dibuang"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Pengesahan Dwi-langkah"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Pemulihan Akaun"
+
+#~ msgid "Sign out"
+#~ msgstr "Daftar keluar"
+
+#~ msgid "Take picture"
+#~ msgstr "Ambil gambar"
+
+#~ msgid "Upload"
+#~ msgstr "Muat naik"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Buang"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Posisikan dan putarkan gambar anda mengikut keperluan"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Data pelayaran anda akan kekal dalam %(deviceName)s, tetapi ia tidak lagi sync dgn akaun anda."
+
+#~ msgid "Rather not say"
+#~ msgstr "Biarkan"
+
+#~ msgid "Disconnect"
+#~ msgstr "Memutuskan"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Berjaya Memutuskan"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Peranti & aplikasi"
+
+#~ msgid "Show"
+#~ msgstr "Papar"
+
+#~ msgid "Current device"
+#~ msgstr "Peranti semasa"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Memutuskan…"
+
+#~ msgid "Current session"
+#~ msgstr "Sesi semasa"
+
+#~ msgid "Revoke"
+#~ msgstr "Batalkan"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox untuk iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Tiada yang disambung"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox untuk Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Item hilang atau diduplikasi?"
+
+#~ msgid "Email preferences"
+#~ msgstr "Keutamaan emel"
+
+#~ msgid "Delete account"
+#~ msgstr "Buang akaun"
+
+#~ msgid "Delete…"
+#~ msgstr "Buang…"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "E-mel sekunder adalah alamat tambahan untuk menerima notis keselamatan dan mengesahkan peranti baru."
+
+#~ msgid "Make primary"
+#~ msgstr "Jadikan e-mel utama"
+
+#~ msgid "Remove"
+#~ msgstr "Buang"
+
+#~ msgid "Refresh"
+#~ msgstr "Muat semula"
+
+#~ msgid "Add"
+#~ msgstr "Tambah"
+
+#~ msgid "NOTE:"
+#~ msgstr "NOTA:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Dengan menjana kod pemulihan baru, semua kod yang terdahulu akan menjadi tidak sah. Sila simpan kod baru di lokasi yang selamat."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Jana kod pemulihan baru"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Pengesahan dwi-langkah"
+
+#~ msgid "Enable…"
+#~ msgstr "Dayakan…"
+
+#~ msgid "Current status"
+#~ msgstr "Status semasa"
+
+#~ msgid "Enabled"
+#~ msgstr "Didayakan"
+
+#~ msgid "Disabled"
+#~ msgstr "Dinyahdayakan"
+
+#~ msgid "Disable"
+#~ msgstr "Nyahdayakan"
+
+#~ msgid "Enable"
+#~ msgstr "Dayakan"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Ganti kod pemulihan"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Anda perlu mengesahkan alamat e-mel anda sebelum melihat atau membuat perubahan di bahagian ini."
+
+#~ msgid "Primary email"
+#~ msgstr "E-mel utama"
+
+#~ msgid "Account recovery"
+#~ msgstr "Pemulihan akaun"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Jana kekunci pemulihan untuk mendapatkan semula akses ke tandabulu, kata laluan dan data Firefox yang diselaraskan jika terlupa kata laluan."
+
+#~ msgid "Recovery key"
+#~ msgstr "Kekunci pemulihan"
+
+#~ msgid "Not set"
+#~ msgstr "Tidak ditetapkan"
+
+#~ msgid "Generate"
+#~ msgstr "Jana"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">NOTA: </span>Kata laluan Akaun Firefox mengenkrip data Firefox. Hanya kata laluan atau kekunci pemulihan anda boleh mengakses data anda. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Ketahui selanjutnya</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Adakah anda pasti mahu batalkan?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Anda tidak akan boleh menggunakan kekunci pemulihan untuk mengakses data jika anda menetapkan semula kata laluan."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Langkah 2 daripada 2: Simpan kekunci Pemulihan"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">NOTA: </span>Jika anda terlupa kata laluan, kekunci ini diperlukan untuk mendapatkan semula akses ke data anda. Simpan kekunci pemulihan ini di lokasi yang selamat supaya "
+#~ "mudah dicari nanti."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Selesai, kekunci Pemulihan disimpan"
 
 #~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
 #~ msgstr "Hantar Firefox secara terus ke telefon pintar anda dan daftar masuk untuk siapkan set-up"

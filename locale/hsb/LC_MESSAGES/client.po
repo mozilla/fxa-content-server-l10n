@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-12 17:34+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "Hesło je so wuspěšnje wróćo stajiło. Přizjewće so, zo byšće po
 msgid "Sign in"
 msgstr "Přizjewić"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Konto je so wuspěšnje zhašało"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Wužiwajće kod %(code)s, zo byšće dwukročelowu awtentifikaciju w podpěranych nałoženjach připrawił."
 
@@ -45,11 +45,11 @@ msgstr "%(permissionName)s (trěbne)"
 msgid "Email address"
 msgstr "E-mejlowa adresa"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Zwobraznjenske mjeno"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Kontowy wobraz"
 
@@ -121,200 +121,6 @@ msgstr "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> na pomoc 
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Wulki dźak, zo sće so přez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b> na pomoc Mozilla wobroćił. Stajimy so přez wašu e-mejlowu adresu tak bórze kaž móžno do zwiska."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Hesło"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Změnić..."
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Tak ruče kaž sće hotowy, wužiwajće swoje nowe hesło, zo byšće so na wšěch wašich gratach přizjewił."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Stare hesło"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Sće hesło zabył?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Nowe hesło"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Hesło znowa zapodać"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Změnić"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Přetorhnyć"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "Hesło je so wuspěšnje změniło"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Je nam žel to słyšeć. Wy měł hesło swojeho konta Firefox změnić a za informacijemi zhotowjerja swojeho grata wo hašenju wašich datow znazdala pytać."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Je nam žel to słyšeć. Jeli to bě grat, kotremuž woprawdźe njedowěrjeće, wy měł hesło swojeho konta Firefox a hesła, kotrež su w Firefox składowane, změnić."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Posledni wopyt %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Posledni wopyt %(translatedTimeAgo)s w kraju %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s w kraju %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Posledni wopyt %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Posledni raz aktiwny: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Posledni raz aktiwny %(translatedTimeAgo)s w %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s w %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Posledni raz aktiwny %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Wjace hač %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s w %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Wjace hač %(translatedTimeAgo)s w %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Webposedźenje, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Webposedźenje"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Posledni wopyt njeznaty"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Změnić…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Přidać…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Wubjerće mjeno, kotrež ma so w Firefox jewić a hdyž swoje konto rjadujeće."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Zwobraznjenske mjeno zaktualizowane"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "Sekundarna e-mejlowa adresa wotstronjena"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Wobkrućenska e-mejl je so pósłała"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "Primarna e-mejlowa adresa na %(email)s stajena"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Druha e-mejlowa adresa"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Nowe wobnowjenske kody wutworjene"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Dwukročelowa awtentifikacija wotstronjena"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Dwukročelowa awtentifikacija"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Kontowe wobnowjenje"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Kontowe wobnowjenje zmóžnjene"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Kontowe wobnowjenje wotwołane"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -404,10 +210,6 @@ msgstr "Sćehnjeny"
 msgid "Printed"
 msgstr "Ćišćane"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Primarna e-mejlowa adresa je so wuspěšnje wobkrućiła"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Konto je so wuspěšnje přepruwowało"
@@ -468,6 +270,10 @@ msgstr "Kreditne karty"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Primarna e-mejlowa adresa je so wuspěšnje wobkrućiła"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Sekundarna e-mejlowa adresa je so wuspěšnje wobkrućiła"
@@ -475,6 +281,10 @@ msgstr "Sekundarna e-mejlowa adresa je so wuspěšnje wobkrućiła"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Hesło je so wuspěšnje wróćo stajiło"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Kontowe wobnowjenje zmóžnjene"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1163,6 +973,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Sće wuspěšnje swoje konto z pomocu swojeho wobnowjenskeho kluča wobnowił. Wutworće nowe hesło, zo byšće swoje daty zawěsćił a składujće jo na wěstym městnje."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Nowe hesło"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Hesło znowa zapodać"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Dopominaće so na hesło? Přizjewće so"
@@ -1204,13 +1022,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Přepytujće swoju e-mejl za přizjewjenskim wobkrućenskim wotkazom, kotryž je so na %(escapedEmail)s pósłał"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ani w postowym dochadźe ani w spamowym rjadowaku? Znowa pósłać"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Wróćo"
 
@@ -1236,7 +1053,7 @@ msgstr "Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na %(e
 msgid "Enter 6-digit code"
 msgstr "6-městnowy kod zapodać"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Wobkrućić"
@@ -1302,47 +1119,50 @@ msgstr "Prošu zmóžńće placki a lokalny składowak we wašim wobhladowaku, z
 msgid "Try again"
 msgstr "Spytajće hišće raz"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Hesło"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Pokročujće, zo byšće do <a id=\"fxa-tos\" href=\"/legal/terms\">wužiwanskich wuměnjenjow</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">pokazki priwatnosće</a> zwolił."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Sće hesło zabył?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "E-mejlowu adresu zapodać"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Dale"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Wobnowjenske kody składować"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Sćahnyć"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Kopěrować"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Ćišćeć"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Instalaciju přetorhnyć"
 
@@ -1350,15 +1170,15 @@ msgstr "Instalaciju přetorhnyć"
 msgid "Confirm recovery code"
 msgstr "Wobnowjenski kod wobkrućić"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr "Zo byšće zaso přistup k swojemu kontu dóstał, jeli sće swój grat zhubił, zapodajće prošu jedyn ze swojich wobnowjenskich kodow."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "iWobnowjenski kod"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Wobkrućić"
 
@@ -1366,7 +1186,7 @@ msgstr "Wobkrućić"
 msgid "Enable two-step authentication"
 msgstr "Dwukročelowu awtentifikaciju zmóžnić"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Požadajće wěstotne kody z jednoho z <a %(escapedTotpSupportAttributes)s>tutych awtentifikaciskich nałoženjow</a>, zo byšće swojemu kontu wěstotnu runinu přidał."
 
@@ -1374,19 +1194,19 @@ msgstr "Požadajće wěstotne kody z jednoho z <a %(escapedTotpSupportAttributes
 msgid "Scan authentication code"
 msgstr "Awtentificiski kod skenować"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Kod manuelnje zapodać"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Skenujće QR-kod w swojim awtentifikaciskim nałoženju a zapodajće potom k dispoziciji stajeny wěstotny kod."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Njemóžeće kod skenować?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "Hdyž proces je dokónčeny, so wěstotne kody wutworjeja, kotrež móžeće zapodać."
 
@@ -1398,11 +1218,11 @@ msgstr "Zapisajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja
 msgid "Scan QR code instead?"
 msgstr "QR-kod město toho skenować?"
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Wěstotny kod"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Hotowo"
 
@@ -1410,11 +1230,11 @@ msgstr "Hotowo"
 msgid "Legal"
 msgstr "Prawniske wěcy"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Wužiwanske wuměnjenja"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Zdźělenka priwatnosće"
 
@@ -1447,6 +1267,11 @@ msgstr "%(serviceName)s chce slědowace informacije z wašeho konta:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Akceptować"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Přetorhnyć"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1496,7 +1321,7 @@ msgstr "E-mejlowa adresa"
 msgid "Begin reset"
 msgstr "Wróćostajenje započeć"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Najnowša aktiwita"
 
@@ -1508,7 +1333,7 @@ msgstr "Wěstotne podawki"
 msgid "Event Name"
 msgstr "Mjeno podawka"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Wobkrućeny"
 
@@ -1523,18 +1348,6 @@ msgstr "Podawki zhašeć"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Wróćo k nastajenjam"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Waša kreditna karta je spadnyła. Prošu aktualizujće <a %(escapedCcExpiredLinkAttrs)s>tu</a>."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Konta Firefox"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Wotzjewić"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1688,11 +1501,15 @@ msgstr "Njeje dóšło? Znowa słać"
 msgid "Why sign in on another device?"
 msgstr "Čehodla so pola druheho grata přizjewić?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Konta Firefox"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Startowa strona konta"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Abonementy"
 
@@ -1752,7 +1569,7 @@ msgstr "Synchronizowanska słužba stajne zawěsćenuje njeje, je prosće jednor
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Wy měł Firefox instalować a znajmjeńša dwaj grataj synchronizować za škit přećiwo zhubjenju datow, jeli dyrbiće je wobnowić, ale sće swoje hesło zabył."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Sym zrozumił"
 
@@ -1763,280 +1580,6 @@ msgstr "Chceće tutón grat ze swojim kontom synchronizować?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Tutón grat synchronizować"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Fotografować"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Nahrać"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Zhašeć"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Hotowo"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Awatar"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Zaměstńće a wjerćće swój wobraz po swojim dobrozdaću"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Ze Sync dźělić"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Waše přehladowanske daty wostanu na %(deviceName)s, njesynchronizuja so wšak z wašim kontom."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Dźěliće %(deviceName)s ze Sync, dokelž tutón grat je:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Podhladny"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Zhubjeny abo kradnjeny"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Stary abo wuměnjeny"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Dwójny"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Bjez podaća"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Zwisk dźělić"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Dźělenje bě wuspěšne"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Graty a nałoženja"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Pokazać"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Aktualny grat"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Dźělić…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Aktualne posedźenje"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Cofnyć"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox za iOS"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Njezwjazany"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox za Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Falowace abo dwójne elementy?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Status aktualizować"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "E-mejlowe nastajenja"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Konto zhašeć"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Zhašeć…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Chceće płaćomny abonement wupowědźić? Dźiće k <a href=\"/subscriptions\">abonementam</a>."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Sće swoje konto Firefox z produktami Mozilla zwjazał, kotrež was wěsty a produktiwny we webje dźerža:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Prošu zhašejće swoje konto, zo byšće to wobkrućił:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Wšě zapłaćene abonementy, kotrež maće, so wupowědźa"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja."
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Móžeće składowane informacije a funkcije produktow Mozilla zhubić"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Sekundarna e-mejlowa adreesa je přidatna adresa za přijimanje wěstotnych pokazkow a wobkrućenje nowych gratow."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Wobkrućenje trěbne"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "K primarnej adresy činić"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Wotstronić"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Aktualizować"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "E-mejlowu adresu přidać"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Přidać"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "KEDŹBU:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Hdyž nowe wobnowjenske kody wutworiće, budu wšě prjedawše kody njepłaćiwe. Prošu składujće nowe kody na wěstym městnje."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Nowe wobnowjenske kody wutworić"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Wobnowjenski kod wobkrućić"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Rjadować…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Zapodajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Dwukročelowa awtentifikacija"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Zmóžnić…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Aktualny status"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Zmóžnjeny"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Znjemóžnjeny"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Znjemóžnić"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Zmóžnić"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Wobnowjenske kody wuměnić"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Prjedy hač móžeće tutón wotrězk wobhladać abo změnić, dyrbiće swoju e-mejlowu adresu přepruwować."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Primarna e-mejlowa adresa"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Kontowe wobnowjenje"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Wutworće wobnowjenski kluč, zo byšće zaso přistup na swoje zapołožki, hesła a synchronizowane daty wróćo dostał, jeli sće swoje hesło zabył."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Wobnowjenski kluč"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Njepostajeny"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Wutworić"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">KEDŹBU: </span>Hesło wašeho konta Firefox waše daty Firefox zaklučuje. Jenož waše hesło abo waš wobnowjenski kluč ma přistup na waše daty. <a "
-"%(escapedLearnMoreLinkAttributes)s>Dalše informacije</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2050,29 +1593,6 @@ msgstr "Zapodajće swoje hesło, zo byšće swój wobnowjenski kluč widźał."
 msgid "Enter Password"
 msgstr "Hesło zapodać"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Chceće woprawdźe wotwołać?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Nimaće přistup na swojim datam ze swojim wobnowjenskim klučom, hdyž swoje hesło wróćó stajiće."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Krok 2 z 2: Wobnowjenski kluč składować"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">KEDŹBU: </span>Jeli swoje hesło zabudźeće, je tutón kluč trěbny, zo byšće zaso přistup na swoje daty dóstał. Składujće swój wobnowjenski kluč na wěstym městnje, hdźež móžeće "
-"jón lochko zaso namakać."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Dokónčene, wobnowjenski kluč je składowany"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Druhu e-mejlowu adresu přidać"
@@ -2080,6 +1600,10 @@ msgstr "Druhu e-mejlowu adresu přidać"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Hdyž sekundarnu e-mejlowu adresu přidawaće, dóstanjeće so wróćo k swojemu kontu, jeli sće wuzamknjeny a k %(escapedEmail)s přistup nimaće."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Druha e-mejlowa adresa"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2107,6 +1631,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "Synchronizowana historija, zapołožki, přizjewjenja a druhe wosobinske daty so njezhubja."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Stare hesło"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2243,6 +1771,10 @@ msgstr "Zapodajće swój wobnowjenski kluč, zo byšće wobkrućił, zo sće kop
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Wobnowjenski kluč składować"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Hotowo"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2411,6 +1943,349 @@ msgstr "Z nałoženjom koplować"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sće systemowu kameru wužił? Dyrbiće w nałoženju Firefox koplować."
+
+#~ msgid "Change..."
+#~ msgstr "Změnić..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Tak ruče kaž sće hotowy, wužiwajće swoje nowe hesło, zo byšće so na wšěch wašich gratach přizjewił."
+
+#~ msgid "Change"
+#~ msgstr "Změnić"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Hesło je so wuspěšnje změniło"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Je nam žel to słyšeć. Wy měł hesło swojeho konta Firefox změnić a za informacijemi zhotowjerja swojeho grata wo hašenju wašich datow znazdala pytać."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Je nam žel to słyšeć. Jeli to bě grat, kotremuž woprawdźe njedowěrjeće, wy měł hesło swojeho konta Firefox a hesła, kotrež su w Firefox składowane, změnić."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Posledni wopyt %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Posledni wopyt %(translatedTimeAgo)s w kraju %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s w kraju %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Posledni wopyt %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Posledni wopyt wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Posledni raz aktiwny: %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Posledni raz aktiwny %(translatedTimeAgo)s w %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s w %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Posledni raz aktiwny %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Posledni raz aktiwny wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Wjace hač %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s w %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Wjace hač %(translatedTimeAgo)s w %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Wjace hač %(translatedTimeAgo)s blisko %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Webposedźenje, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Webposedźenje"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Posledni wopyt njeznaty"
+
+#~ msgid "Change…"
+#~ msgstr "Změnić…"
+
+#~ msgid "Add…"
+#~ msgstr "Přidać…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Wubjerće mjeno, kotrež ma so w Firefox jewić a hdyž swoje konto rjadujeće."
+
+#~ msgid "Display name updated"
+#~ msgstr "Zwobraznjenske mjeno zaktualizowane"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Sekundarna e-mejlowa adresa wotstronjena"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Wobkrućenska e-mejl je so pósłała"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Primarna e-mejlowa adresa na %(email)s stajena"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Nowe wobnowjenske kody wutworjene"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Dwukročelowa awtentifikacija wotstronjena"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Dwukročelowa awtentifikacija"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Kontowe wobnowjenje"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Kontowe wobnowjenje wotwołane"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Waša kreditna karta je spadnyła. Prošu aktualizujće <a %(escapedCcExpiredLinkAttrs)s>tu</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Wotzjewić"
+
+#~ msgid "Take picture"
+#~ msgstr "Fotografować"
+
+#~ msgid "Upload"
+#~ msgstr "Nahrać"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Zhašeć"
+
+#~ msgid "Avatar"
+#~ msgstr "Awatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Zaměstńće a wjerćće swój wobraz po swojim dobrozdaću"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Ze Sync dźělić"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Waše přehladowanske daty wostanu na %(deviceName)s, njesynchronizuja so wšak z wašim kontom."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Dźěliće %(deviceName)s ze Sync, dokelž tutón grat je:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Podhladny"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Zhubjeny abo kradnjeny"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Stary abo wuměnjeny"
+
+#~ msgid "Duplicate"
+#~ msgstr "Dwójny"
+
+#~ msgid "Rather not say"
+#~ msgstr "Bjez podaća"
+
+#~ msgid "Disconnect"
+#~ msgstr "Zwisk dźělić"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Dźělenje bě wuspěšne"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Graty a nałoženja"
+
+#~ msgid "Show"
+#~ msgstr "Pokazać"
+
+#~ msgid "Current device"
+#~ msgstr "Aktualny grat"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Dźělić…"
+
+#~ msgid "Current session"
+#~ msgstr "Aktualne posedźenje"
+
+#~ msgid "Revoke"
+#~ msgstr "Cofnyć"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox za iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Njezwjazany"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox za Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Falowace abo dwójne elementy?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Status aktualizować"
+
+#~ msgid "Email preferences"
+#~ msgstr "E-mejlowe nastajenja"
+
+#~ msgid "Delete account"
+#~ msgstr "Konto zhašeć"
+
+#~ msgid "Delete…"
+#~ msgstr "Zhašeć…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Chceće płaćomny abonement wupowědźić? Dźiće k <a href=\"/subscriptions\">abonementam</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Sće swoje konto Firefox z produktami Mozilla zwjazał, kotrež was wěsty a produktiwny we webje dźerža:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Prošu zhašejće swoje konto, zo byšće to wobkrućił:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Wšě zapłaćene abonementy, kotrež maće, so wupowědźa"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja."
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Móžeće składowane informacije a funkcije produktow Mozilla zhubić"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Sekundarna e-mejlowa adreesa je přidatna adresa za přijimanje wěstotnych pokazkow a wobkrućenje nowych gratow."
+
+#~ msgid "Verification required"
+#~ msgstr "Wobkrućenje trěbne"
+
+#~ msgid "Make primary"
+#~ msgstr "K primarnej adresy činić"
+
+#~ msgid "Remove"
+#~ msgstr "Wotstronić"
+
+#~ msgid "Refresh"
+#~ msgstr "Aktualizować"
+
+#~ msgid "Add email"
+#~ msgstr "E-mejlowu adresu přidać"
+
+#~ msgid "Add"
+#~ msgstr "Přidać"
+
+#~ msgid "NOTE:"
+#~ msgstr "KEDŹBU:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Hdyž nowe wobnowjenske kody wutworiće, budu wšě prjedawše kody njepłaćiwe. Prošu składujće nowe kody na wěstym městnje."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Nowe wobnowjenske kody wutworić"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Wobnowjenski kod wobkrućić"
+
+#~ msgid "Manage…"
+#~ msgstr "Rjadować…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Zapodajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Dwukročelowa awtentifikacija"
+
+#~ msgid "Enable…"
+#~ msgstr "Zmóžnić…"
+
+#~ msgid "Current status"
+#~ msgstr "Aktualny status"
+
+#~ msgid "Enabled"
+#~ msgstr "Zmóžnjeny"
+
+#~ msgid "Disabled"
+#~ msgstr "Znjemóžnjeny"
+
+#~ msgid "Disable"
+#~ msgstr "Znjemóžnić"
+
+#~ msgid "Enable"
+#~ msgstr "Zmóžnić"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Wobnowjenske kody wuměnić"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Prjedy hač móžeće tutón wotrězk wobhladać abo změnić, dyrbiće swoju e-mejlowu adresu přepruwować."
+
+#~ msgid "Primary email"
+#~ msgstr "Primarna e-mejlowa adresa"
+
+#~ msgid "Account recovery"
+#~ msgstr "Kontowe wobnowjenje"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Wutworće wobnowjenski kluč, zo byšće zaso přistup na swoje zapołožki, hesła a synchronizowane daty wróćo dostał, jeli sće swoje hesło zabył."
+
+#~ msgid "Recovery key"
+#~ msgstr "Wobnowjenski kluč"
+
+#~ msgid "Not set"
+#~ msgstr "Njepostajeny"
+
+#~ msgid "Generate"
+#~ msgstr "Wutworić"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">KEDŹBU: </span>Hesło wašeho konta Firefox waše daty Firefox zaklučuje. Jenož waše hesło abo waš wobnowjenski kluč ma přistup na waše daty. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Dalše informacije</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Chceće woprawdźe wotwołać?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Nimaće přistup na swojim datam ze swojim wobnowjenskim klučom, hdyž swoje hesło wróćó stajiće."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Krok 2 z 2: Wobnowjenski kluč składować"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">KEDŹBU: </span>Jeli swoje hesło zabudźeće, je tutón kluč trěbny, zo byšće zaso přistup na swoje daty dóstał. Składujće swój wobnowjenski kluč na wěstym městnje, hdźež móžeće "
+#~ "jón lochko zaso namakać."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Dokónčene, wobnowjenski kluč je składowany"
 
 #~ msgid "Please Select One"
 #~ msgstr "Prošu wubjerće něšto"

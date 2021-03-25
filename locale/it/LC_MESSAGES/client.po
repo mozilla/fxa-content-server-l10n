@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-15 14:45+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "Reimpostazione della password completata. Effettua l’accesso per conti
 msgid "Sign in"
 msgstr "Accedi"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "L’account è stato correttamente eliminato"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Utilizza il codice %(code)s per impostare l‘autenticazione a due passaggi nelle applicazioni supportate."
 
@@ -45,11 +45,11 @@ msgstr "Autorizzazione di tipo “%(permissionName)s ” richiesta"
 msgid "Email address"
 msgstr "Indirizzo email"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Nome visualizzato"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Immagine per questo account"
 
@@ -120,204 +120,6 @@ msgstr "Grazie per aver contattato il supporto Mozilla riguardo <b>%(escapedLowe
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Grazie per aver contattato il supporto Mozilla riguardo a <b>%(escapedLowercaseTopic)s</b> per <b>%(escapedSelectedProduct)s</b>. Riceverai una risposta via email il prima possibile."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Password"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Cambia…"
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Una volta reimpostata la nuova password, potrai utilizzarla per accedere da qualsiasi dispositivo."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Vecchia password"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Password dimenticata?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Nuova password"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Conferma password"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Modifica"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Annulla"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "La password è stata modificata con successo"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr ""
-"Ci dispiace per il disagio che stai sperimentando. Cambia la password dell'account Firefox e informati presso il produttore del tuo dispositivo sulla procedura da seguire per cancellare i dati in "
-"remoto."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr ""
-"Ci dispiace per il disagio che stai sperimentando. Se hai motivo di credere che il dispositivo in questione non sia affidabile, cambia la password dell'account Firefox e tutte le password che hai "
-"salvato sul browser."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Ultimo accesso: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultimo accesso: %(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultimo accesso: %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Ultima attività: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Ultimo accesso oltre %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultimo accesso %(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Ultimo accesso oltre %(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultimo accesso %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Ultimo accesso oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Oltre %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Oltre %(translatedTimeAgo)s in %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Sessione web, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Sessione web"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Ultima data di accesso sconosciuta"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Modifica…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Aggiungi…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Scegli il nome da visualizzare in Firefox e durante la gestione dell’account."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Il nome visualizzato è stato aggiornato"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "L’email secondaria è stata rimossa"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Email di verifica inviata"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "L’indirizzo principale è %(email)s"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Email secondaria"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Generati nuovi codici di recupero"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Autenticazione in due passaggi disattivata"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Autenticazione in due passaggi"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Recupero dell’account"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Recupero account attivo"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Recupero account revocato"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -407,10 +209,6 @@ msgstr "Scaricato"
 msgid "Printed"
 msgstr "Stampato"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Indirizzo email primario verificato correttamente"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "L’account è stato verificato con successo"
@@ -471,6 +269,10 @@ msgstr "Carte di credito"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Indirizzo email primario verificato correttamente"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Indirizzo email secondario verificato correttamente"
@@ -478,6 +280,10 @@ msgstr "Indirizzo email secondario verificato correttamente"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Password reimpostata correttamente"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Recupero account attivo"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1166,6 +972,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "L’account è stato correttamente recuperato utilizzando la chiave di recupero. Crea una nuova password per garantire la sicurezza dei tuoi dati e conservala in un luogo sicuro."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Nuova password"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Conferma password"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Ricordi la password? Effettua l’accesso"
@@ -1207,13 +1021,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Controlla la tua casella di posta %(escapedEmail)s, ti abbiamo inviato un link per confermare la registrazione"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Il messaggio non si trova nella posta in arrivo e neppure nello spam? Invia nuovamente il link"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Indietro"
 
@@ -1239,7 +1052,7 @@ msgstr "Inserisci entro 5 minuti il codice di verifica che è stato inviato a %(
 msgid "Enter 6-digit code"
 msgstr "Inserisci il codice di 6 cifre"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Verifica"
@@ -1306,47 +1119,50 @@ msgstr ""
 msgid "Try again"
 msgstr "Riprova"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Password"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Proseguendo accetti i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a>."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Password dimenticata?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Inserisci l’indirizzo email"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Avanti"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Salva i codici di recupero"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Conserva questi codici monouso in un posto sicuro dove poterli consultare quando non hai accesso al tuo dispositivo mobile."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Download"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Copia"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Stampa"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Annulla configurazione"
 
@@ -1354,15 +1170,15 @@ msgstr "Annulla configurazione"
 msgid "Confirm recovery code"
 msgstr "Conferma il codice di recupero"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr "Per ottenere nuovamente accesso al tuo account Firefox, nel caso in cui dovessi perdere il tuo dispositivo, inserisci uno dei codici di recupero salvati."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Codice di recupero"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Conferma"
 
@@ -1370,7 +1186,7 @@ msgstr "Conferma"
 msgid "Enable two-step authentication"
 msgstr "Attiva l’autenticazione in due passaggi"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Aggiungi un livello di sicurezza al tuo account richiedendo i codici di verifica con una di queste <a %(escapedTotpSupportAttributes)s>applicazioni di autenticazione</a>."
 
@@ -1378,19 +1194,19 @@ msgstr "Aggiungi un livello di sicurezza al tuo account richiedendo i codici di 
 msgid "Scan authentication code"
 msgstr "Scansiona il codice di autenticazione"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Inserisci il codice manualmente"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Scansiona il codice QR nella tua applicazione di autenticazione, poi inserisci il codice di verifica ottenuto."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Scansione del codice non riuscita?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "Una volta completata la procedura, l’app inizierà a generare codici di sicurezza da inserire."
 
@@ -1402,11 +1218,11 @@ msgstr "Digita questa chiave segreta nell’app di autenticazione."
 msgid "Scan QR code instead?"
 msgstr "Scegli scansione codice QR."
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Codice di verifica"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Pronto"
 
@@ -1414,11 +1230,11 @@ msgstr "Pronto"
 msgid "Legal"
 msgstr "Note legali"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Termini di servizio"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Informativa sulla privacy"
 
@@ -1451,6 +1267,11 @@ msgstr "%(serviceName)s richiede le seguenti informazioni dal tuo account:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Accetta"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Annulla"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1500,7 +1321,7 @@ msgstr "Email"
 msgid "Begin reset"
 msgstr "Avvia ripristino"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Attività recente"
 
@@ -1512,7 +1333,7 @@ msgstr "Eventi di sicurezza"
 msgid "Event Name"
 msgstr "Nome evento"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Verificato"
 
@@ -1527,18 +1348,6 @@ msgstr "Elimina eventi"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Torna alle impostazioni"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "La carta di credito registrata è scaduta. Fare clic <a %(escapedCcExpiredLinkAttrs)s>qui</a> per aggiornarla."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Account Firefox"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Esci"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1692,11 +1501,15 @@ msgstr "Non hai ricevuto la mail? Inviamela nuovamente"
 msgid "Why sign in on another device?"
 msgstr "Perché accedere da un altro dispositivo?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Account Firefox"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Pagina principale dell’account"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Sottoscrizioni"
 
@@ -1756,7 +1569,7 @@ msgstr "Il servizio Sync non è un backup permanente dei dati, ma semplicemente 
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Sincronizzare Firefox su almeno due dispositivi è una protezione contro la perdita di dati in caso di ripristino o smarrimento della password."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Ho capito"
 
@@ -1767,280 +1580,6 @@ msgstr "Desideri sincronizzare questo dispositivo con il tuo account?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Sincronizza questo dispositivo"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Scatta foto"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Carica"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Fotocamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Cancella"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Fatto"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Avatar"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Se necessario, posiziona e ruota l’immagine"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Disconnetti da Sync"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "I dati di navigazione rimarranno archiviati sul dispositivo %(deviceName)s ma non verranno più sincronizzati con l’account Firefox."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Stai disconnettendo %(deviceName)s da Sync perché questo dispositivo è:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Sospetto"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Perso o rubato"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Vecchio o sostituito"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Duplicato"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Preferisco non rispondere"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Scollega"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Disconnessione effettuata correttamente"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Dispositivi e app"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Mostra"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Dispositivo in uso"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Disconnetti…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Sessione attuale"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Revoca"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox per iOS"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Nessun dispositivo connesso"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox per Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Elementi duplicati o mancanti?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Aggiorna stato"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "Preferenze email"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Elimina account"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Elimina…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Vuoi interrompere un abbonamento a pagamento? Vai a <a href=\"/subscriptions\">Abbonamenti</a>."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Hai connesso il tuo account Firefox a prodotti Mozilla che rendono la tua esperienza web sicura e produttiva:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Cancellando il tuo account riconosci che:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Eventuali abbonamenti a pagamento saranno annullati"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "Tutte le estensioni e i temi da te pubblicati su addons.mozilla.org verranno eliminati"
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti Mozilla"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Anche riattivando l’account con l’indirizzo email corrente, potrebbe non essere possibile ripristinare i dati salvati"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Un indirizzo email secondario è un indirizzo aggiuntivo per ricevere avvisi di sicurezza e confermare il collegamento di nuovi dispositivi."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Verifica richiesta"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Usa come principale"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Rimuovi"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Aggiorna"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "Aggiungi indirizzo email"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Aggiungi"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "NOTA:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Generando nuovi codici di recupero, tutti i precedenti codici non saranno più validi. Conserva i nuovi codici in un posto sicuro."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Genera nuovi codici di recupero"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Conferma codice di recupero"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Gestisci…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Inserisci questa chiave segreta nell’app di autenticazione:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Autenticazione in due passaggi"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Attiva…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Stato attuale"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Attivata"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Disattivata"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Disattiva"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Attiva"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Sostituisci i codici di recupero"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Prima di visualizzare o apportare modifiche a questa sezione, è necessario verificare l'indirizzo di posta elettronica inserito."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Indirizzo email primario"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Recupero dell’account"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Genera una chiave di recupero per riottenere accesso a segnalibri, password e dati sincronizzati di Firefox nel caso in cui dimentichi la tua password."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Chiave di recupero"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Non impostata"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Genera"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">ATTENZIONE: </span>Firefox Account utilizza la password per crittare i tuoi dati. Solamente la password o la chiave di recupero possono garantire accesso ai tuoi dati. <a "
-"%(escapedLearnMoreLinkAttributes)s>Ulteriori informazioni</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2054,29 +1593,6 @@ msgstr "Inserisci la password per visualizzare la chiave di recupero."
 msgid "Enter Password"
 msgstr "Inserisci la password"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Revocare la chiave?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Non potrai utilizzare la chiave di recupero per accedere ai tuoi dati nel caso in cui ripristini la tua password."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Passo 2 di 2: salva la chiave di recupero"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">ATTENZIONE: </span>nel caso in cui dimentichi la password, questa chiave permette di riottenere accesso ai tuoi dati. Conserva la chiave di recupero in un luogo sicuro, dove "
-"potrai trovarla facilmente se ne avrai bisogno."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Fatto, chiave di recupero salvata"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Aggiungi un indirizzo email secondario"
@@ -2084,6 +1600,10 @@ msgstr "Aggiungi un indirizzo email secondario"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Impostando un indirizzo email secondario, potrai accedere al tuo account anche nel caso tu perda l’accesso a %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Email secondaria"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2112,6 +1632,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "Cronologia, segnalibri, credenziali di accesso e altri dati personali sincronizzati non andranno persi."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Vecchia password"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2248,6 +1772,10 @@ msgstr "Inserire la chiave di recupero per confermare di averne salvato una copi
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Salva chiave di recupero"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Fatto"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2416,6 +1944,353 @@ msgstr "Associa utilizzando un’app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hai utilizzato la fotocamera di sistema? Bisogna effettuare l’associazione da un’app di Firefox."
+
+#~ msgid "Change..."
+#~ msgstr "Cambia…"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Una volta reimpostata la nuova password, potrai utilizzarla per accedere da qualsiasi dispositivo."
+
+#~ msgid "Change"
+#~ msgstr "Modifica"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "La password è stata modificata con successo"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr ""
+#~ "Ci dispiace per il disagio che stai sperimentando. Cambia la password dell'account Firefox e informati presso il produttore del tuo dispositivo sulla procedura da seguire per cancellare i dati "
+#~ "in remoto."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr ""
+#~ "Ci dispiace per il disagio che stai sperimentando. Se hai motivo di credere che il dispositivo in questione non sia affidabile, cambia la password dell'account Firefox e tutte le password che "
+#~ "hai salvato sul browser."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Ultimo accesso: %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultimo accesso: %(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultimo accesso: %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultimo accesso: oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Ultima attività: %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Ultimo accesso oltre %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultimo accesso %(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultimo accesso oltre %(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultimo accesso %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultimo accesso oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Oltre %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Oltre %(translatedTimeAgo)s in %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Oltre %(translatedTimeAgo)s vicino %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Sessione web, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Sessione web"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Ultima data di accesso sconosciuta"
+
+#~ msgid "Change…"
+#~ msgstr "Modifica…"
+
+#~ msgid "Add…"
+#~ msgstr "Aggiungi…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Scegli il nome da visualizzare in Firefox e durante la gestione dell’account."
+
+#~ msgid "Display name updated"
+#~ msgstr "Il nome visualizzato è stato aggiornato"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "L’email secondaria è stata rimossa"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Email di verifica inviata"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "L’indirizzo principale è %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Generati nuovi codici di recupero"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Autenticazione in due passaggi disattivata"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Autenticazione in due passaggi"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Recupero dell’account"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Recupero account revocato"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "La carta di credito registrata è scaduta. Fare clic <a %(escapedCcExpiredLinkAttrs)s>qui</a> per aggiornarla."
+
+#~ msgid "Sign out"
+#~ msgstr "Esci"
+
+#~ msgid "Take picture"
+#~ msgstr "Scatta foto"
+
+#~ msgid "Upload"
+#~ msgstr "Carica"
+
+#~ msgid "Camera"
+#~ msgstr "Fotocamera"
+
+#~ msgid "Clear"
+#~ msgstr "Cancella"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Se necessario, posiziona e ruota l’immagine"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Disconnetti da Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "I dati di navigazione rimarranno archiviati sul dispositivo %(deviceName)s ma non verranno più sincronizzati con l’account Firefox."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Stai disconnettendo %(deviceName)s da Sync perché questo dispositivo è:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Sospetto"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Perso o rubato"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Vecchio o sostituito"
+
+#~ msgid "Duplicate"
+#~ msgstr "Duplicato"
+
+#~ msgid "Rather not say"
+#~ msgstr "Preferisco non rispondere"
+
+#~ msgid "Disconnect"
+#~ msgstr "Scollega"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Disconnessione effettuata correttamente"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Dispositivi e app"
+
+#~ msgid "Show"
+#~ msgstr "Mostra"
+
+#~ msgid "Current device"
+#~ msgstr "Dispositivo in uso"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Disconnetti…"
+
+#~ msgid "Current session"
+#~ msgstr "Sessione attuale"
+
+#~ msgid "Revoke"
+#~ msgstr "Revoca"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox per iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Nessun dispositivo connesso"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox per Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Elementi duplicati o mancanti?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Aggiorna stato"
+
+#~ msgid "Email preferences"
+#~ msgstr "Preferenze email"
+
+#~ msgid "Delete account"
+#~ msgstr "Elimina account"
+
+#~ msgid "Delete…"
+#~ msgstr "Elimina…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Vuoi interrompere un abbonamento a pagamento? Vai a <a href=\"/subscriptions\">Abbonamenti</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Hai connesso il tuo account Firefox a prodotti Mozilla che rendono la tua esperienza web sicura e produttiva:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Cancellando il tuo account riconosci che:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Eventuali abbonamenti a pagamento saranno annullati"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Tutte le estensioni e i temi da te pubblicati su addons.mozilla.org verranno eliminati"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti Mozilla"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Anche riattivando l’account con l’indirizzo email corrente, potrebbe non essere possibile ripristinare i dati salvati"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Un indirizzo email secondario è un indirizzo aggiuntivo per ricevere avvisi di sicurezza e confermare il collegamento di nuovi dispositivi."
+
+#~ msgid "Verification required"
+#~ msgstr "Verifica richiesta"
+
+#~ msgid "Make primary"
+#~ msgstr "Usa come principale"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Refresh"
+#~ msgstr "Aggiorna"
+
+#~ msgid "Add email"
+#~ msgstr "Aggiungi indirizzo email"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "NOTE:"
+#~ msgstr "NOTA:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Generando nuovi codici di recupero, tutti i precedenti codici non saranno più validi. Conserva i nuovi codici in un posto sicuro."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Genera nuovi codici di recupero"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Conferma codice di recupero"
+
+#~ msgid "Manage…"
+#~ msgstr "Gestisci…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Inserisci questa chiave segreta nell’app di autenticazione:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Autenticazione in due passaggi"
+
+#~ msgid "Enable…"
+#~ msgstr "Attiva…"
+
+#~ msgid "Current status"
+#~ msgstr "Stato attuale"
+
+#~ msgid "Enabled"
+#~ msgstr "Attivata"
+
+#~ msgid "Disabled"
+#~ msgstr "Disattivata"
+
+#~ msgid "Disable"
+#~ msgstr "Disattiva"
+
+#~ msgid "Enable"
+#~ msgstr "Attiva"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Sostituisci i codici di recupero"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Prima di visualizzare o apportare modifiche a questa sezione, è necessario verificare l'indirizzo di posta elettronica inserito."
+
+#~ msgid "Primary email"
+#~ msgstr "Indirizzo email primario"
+
+#~ msgid "Account recovery"
+#~ msgstr "Recupero dell’account"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Genera una chiave di recupero per riottenere accesso a segnalibri, password e dati sincronizzati di Firefox nel caso in cui dimentichi la tua password."
+
+#~ msgid "Recovery key"
+#~ msgstr "Chiave di recupero"
+
+#~ msgid "Not set"
+#~ msgstr "Non impostata"
+
+#~ msgid "Generate"
+#~ msgstr "Genera"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">ATTENZIONE: </span>Firefox Account utilizza la password per crittare i tuoi dati. Solamente la password o la chiave di recupero possono garantire accesso ai tuoi dati. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Ulteriori informazioni</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Revocare la chiave?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Non potrai utilizzare la chiave di recupero per accedere ai tuoi dati nel caso in cui ripristini la tua password."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Passo 2 di 2: salva la chiave di recupero"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">ATTENZIONE: </span>nel caso in cui dimentichi la password, questa chiave permette di riottenere accesso ai tuoi dati. Conserva la chiave di recupero in un luogo sicuro, dove "
+#~ "potrai trovarla facilmente se ne avrai bisogno."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Fatto, chiave di recupero salvata"
 
 #~ msgid "Please Select One"
 #~ msgstr "Selezionare un’opzione"

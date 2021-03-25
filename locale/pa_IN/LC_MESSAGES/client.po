@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2020-02-19 08:43+0000\n"
 "Last-Translator: Satnam S Virdi <pika10singh@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਮੁੜ-ਸੈੱ�
 msgid "Sign in"
 msgstr "ਸਾਈਨ ਇਨ"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "ਖਾਤਾ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪ੍ਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ ਕੋਡ %(code)s ਦੀ ਵਰਤੋਂ ਕਰੋ।"
 
@@ -45,11 +45,11 @@ msgstr "%(permissionName)s (ਲਾਜ਼ਮੀ)"
 msgid "Email address"
 msgstr "ਈਮੇਲ ਸਿਰਨਾਵਾਂ"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "ਖਾਤੇ ਦੀ ਤਸਵੀਰ"
 
@@ -120,200 +120,6 @@ msgstr ""
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "ਪਾਸਵਰਡ"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "...ਬਦਲੋ"
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "ਬਦਲੋ"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "ਰੱਦ ਕਰੋ"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫਸੋਸ ਹੋਇਆ। ਤੁਹਾਨੂੰ ਆਪਣੇ Firefox Account ਦਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਆਪਣੇ ਡਾਟਾ ਨੂੰ ਰਿਮੋਟਲੀ ਮਿਟਾਉਣ ਬਾਰੇ ਡਿਵਾਈਸ ਨਿਰਮਾਤਾ ਤੋਂ ਜਾਣਕਾਰੀ ਲੱਭੋ।"
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ਵਾਰ ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਵੇਖੇ"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ%(translatedTimeAgo)s ਪਹਿਲਾਂ ਵੇਖੇ"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜਏ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਗਰਗਮੀਂ"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਰਗਰਮੀਂ"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s, ਦੇ ਨੇੜੇ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ %(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ ਸੀ"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s ਉੱਤੇ"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ  %(translatedTimeAgo)s ਉੱਤੇ"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਣ ਸਮਾਂ ਅਣਪਛਾਤਾ ਹੈ"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "…ਬਦਲੋ"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "…ਜੋੜੋ"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "ਤਸਦੀਕੀ ਲਈ ਈਮੇਲ ਭੇਜੀ ਗਈ"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "ਮੁੱਢਲੇ ਈਮੇਲ %(email)s ਵਜੋਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "ਨਵਾਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕੀਤਾ ਗਿਆ"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਹਟਾਈ ਗਈ"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "ਖਾਤਾ ਬਹਾਲੀ"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਸਮਰੱਥ ਕੀਤੀ"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਵਾਪਸ ਲਈ ਗਈ"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -403,10 +209,6 @@ msgstr "ਡਾਊਨਲੋਡ ਕੀਤਾ"
 msgid "Printed"
 msgstr "ਛਾਪਿਆ"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਵਜੋਂ ਪੁਸ਼ਟੀ ਕਾਮਯਾਬੀ ਨਾਲ ਹੋ ਗਈ ਹੈ"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "ਖਾਤਾ ਕਾਮਯਾਬੀ ਨਾਲ ਜਾਂਚਿਆ ਗਿਆ"
@@ -467,6 +269,10 @@ msgstr "ਕਰੈਡਿਟ ਕਾਰਡ"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "ਮੁੱਢਲੇ ਈਮੇਲ ਵਜੋਂ ਪੁਸ਼ਟੀ ਕਾਮਯਾਬੀ ਨਾਲ ਹੋ ਗਈ ਹੈ"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਜਾਂਚ"
@@ -474,6 +280,10 @@ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਦੀ ਸਫਲਤਾਪੂਰਵਕ
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਰੀਸੈੱਟ ਕੀਤਾ ਗਿਆ"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਸਮਰੱਥ ਕੀਤੀ"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1159,6 +969,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "ਤੁਸੀਂ ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵਰਤ ਕੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਬਹਾਲ ਕਰ ਲਿਆ ਹੈ। ਆਪਣੇ ਡੇਟਾ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ ਉੱਤੇ ਸਟੋਰ ਕਰਨ ਲਈ ਇੱਕ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ।"
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "ਨਵਾਂ ਪਾਸਵਰਡ"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "ਪਾਸਵਰਡ ਯਾਦ ਰੱਖਣਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰੋ"
@@ -1200,13 +1018,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "%(escapedEmail)s ਨੂੰ ਭੇਜੇ ਗਏ ਤਸਦੀਕੀ ਲਿੰਕ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੇਖੋ"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "ਪਿੱਛੇ"
 
@@ -1232,7 +1049,7 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕੀ ਕੋਡ ਦਾਖਲ �
 msgid "Enter 6-digit code"
 msgstr "6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "ਤਸਦੀਕ ਕਰੋ"
@@ -1298,47 +1115,50 @@ msgstr "ਫਾਇਰਫਾਕਸ ਅਕਾਊਂਟਾਂ ਤੱਕ ਪਹੁੰ
 msgid "Try again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "ਪਾਸਵਰਡ"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "ਆਪਣਾ ਈਮੇਲ ਦਾਖਲ ਕਰੋ"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "ਜਾਰੀ ਰੱਖੋ"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ ਸੰਭਾਲੋ"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "ਕਾਪੀ ਕਰੋ"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 
@@ -1346,15 +1166,15 @@ msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 msgid "Confirm recovery code"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "ਰਿਕਵਰੀ ਕੋਡ"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "ਪੁਸ਼ਟੀ"
 
@@ -1362,7 +1182,7 @@ msgstr "ਪੁਸ਼ਟੀ"
 msgid "Enable two-step authentication"
 msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਕਰੋ"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr ""
 
@@ -1370,19 +1190,19 @@ msgstr ""
 msgid "Scan authentication code"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "ਕੋਡ ਖੁਦ ਭਰੋ"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਹੋ?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr ""
 
@@ -1394,11 +1214,11 @@ msgstr ""
 msgid "Scan QR code instead?"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "ਸੁਰੱਖਿਆ ਕੋਡ"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "ਤਿਆਰ"
 
@@ -1406,11 +1226,11 @@ msgstr "ਤਿਆਰ"
 msgid "Legal"
 msgstr "ਕਾਨੂੰਨੀ"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ"
 
@@ -1443,6 +1263,11 @@ msgstr "%(serviceName)s ਤੁਹਾਡੇ ਖਾਤੇ ਤੋਂ ਅੱਗੇ �
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "ਮਨਜ਼ੂਰ"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1490,7 +1315,7 @@ msgstr "ਈਮੇਲ"
 msgid "Begin reset"
 msgstr "ਮੁੜ-ਸੈਟ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "ਤਾਜ਼ਾ ਸਰਗਰਮੀ"
 
@@ -1502,7 +1327,7 @@ msgstr "ਸੁਰੱਖਿਆ ਘਟਨਾਵਾਂ"
 msgid "Event Name"
 msgstr "ਘਟਨਾ ਦਾ ਨਾਂ"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "ਤਸਦੀਕ ਕੀਤਾ"
 
@@ -1517,18 +1342,6 @@ msgstr "ਘਟਨਾਵਾਂ ਹਟਾਓ"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr ""
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "ਸਾਈਨ ਆਉਟ"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1682,11 +1495,15 @@ msgstr "ਹਾਲੇ ਵੀ ਆਇਆ? ਮੁੜ-ਭੇਜੋ"
 msgid "Why sign in on another device?"
 msgstr "ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਸਾਈਨ ਇਨ ਕਿਓ ਕਰੀਏ?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr ""
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "ਮੈਂਬਰੀ"
 
@@ -1746,7 +1563,7 @@ msgstr "ਸਿੰਕ ਸੇਵਾ ਸਥਾਈ ਬੈਕਅੱਪ ਨਹੀਂ �
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "ਆਪਣੇ ਡਾਟਾ ਖਰਾਬ ਹੋਣ ਤੋਂ ਬਚਾਉਣ ਲਈ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਨੂੰ ਘੱਟੋ ਘੱਟ ਦੋ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਇੰਸਟਾਲ ਅਤੇ ਸਿੰਕ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਬਹਾਲ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋਵੋ।"
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "ਸਮਝੇ"
 
@@ -1757,278 +1574,6 @@ msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਡਿਵਾਈਸ ਨੂੰ ਆਪਣੇ 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "ਇਹ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "ਤਸਵੀਰ ਲਵੋ"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "ਅੱਪਲੋਡ"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "ਕੈਮਰਾ"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "ਸਾਫ਼ ਕਰੋ"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "ਮੁਕੰਮਲ"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "ਅਵਤਾਰ"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "ਆਪਣੀ ਤਸਵੀਰ ਨੂੰ ਲੋੜ ਮੁਤਾਬਕ ਰੱਖੋ ਅਤੇ ਘੁੰਮਾਓ"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "%(deviceName)s ਉੱਤੇ ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ ਤਾਂ ਰਹੇਗਾ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਹੁਣ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।"
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "ਤੁਸੀਂ ਸਿੰਕ ਤੋਂ %(deviceName)s ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨ ਜਾ ਰਹੇ ਹੋ, ਕਿਉਂਕਿ ਇਹ ਡਿਵਾਈਸ ਹੈ:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "ਸ਼ੱਕੀ"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "ਗੁਆਚਿਆ ਜਾਂ ਚੋਰੀ ਹੋਇਆ"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "ਪੁਰਾਣਾ ਜਾਂ ਬਦਲ ਗਿਆ"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "ਡੁਪਲੀਕੇਟ"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "ਦੱਸਣਾ ਨਹੀਂ ਹੈ"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "ਡਿਸ-ਕਨੈਕਸ਼ਨ ਸਫ਼ਲ ਹੈ"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "ਡਿਵਾਈਸ ਤੇ ਐਪਾਂ"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "ਵੇਖਾਓ"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "ਮੌਜੂਦਾ ਡਿਵਾਈਸ"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "…ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "ਮਨਸੂਖ ਕਰੋ"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "ਕੋਈ ਕਨੈਕਟ ਨਹੀਂ"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Android ਲਈ ਫਾਇਰਫਾਕਸ"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "ਚੀਜ਼ ਗੁਆਚ ਗਈਆਂ ਜਾਂ ਡੁਪਲੀਕੇਟ ਹਨ?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "ਹਾਲਤ ਤਾਜ਼ਾ ਕਰੋ"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "ਈਮੇਲ ਪਸੰਦ"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "ਖਾਤਾ ਹਟਾਓ"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "…ਨੂੰ ਹਟਾਓ"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr ""
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "ਤੁਸੀਂ Mozilla ਉਤਪਾਦਾਂ ਵਿੱਚ ਸੰਭਾਲੀ ਜਾਣਕਾਰੀ ਅਤੇ ਫ਼ੀਚਰ ਗੁਆ ਸਕਦੇ ਹੋ"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr ""
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "ਮੁੱਢਲਾ ਬਣਾਓ"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "ਹਟਾਓ"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "ਤਾਜ਼ਾ ਕਰੋ"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "ਈਮੇਲ ਜੋੜੋ"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "ਜੋੜੋ"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "ਸੂਚਨਾ:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕਰਦਿਆਂ ਪਿਛਲੇ ਸਾਰੇ ਕੋਡ ਨਕਾਰਾ ਹੋ ਜਾਣਗੇ। ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਨਵੇਂ ਕੋਡਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ 'ਤੇ ਸਾਂਭ ਕੇ ਰੱਖੋ।"
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਓ"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "…ਬੰਦੋਬਸਤ"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr ""
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "…ਸਮਰੱਥ ਕਰੋ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "ਮੌਜੂਦਾ ਹਾਲਤ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "ਸਮਰੱਥ ਹੈ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "ਅਸਮਰੱਥ ਹੈ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "ਅਸਮਰੱਥ ਕਰੋ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "ਸਮਰੱਥ ਕਰੋ"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "ਬਹਾਲੀ ਕੋਡਾਂ ਨੂੰ ਬਦਲੋ"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr ""
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "ਮੁੱਢਲਾ ਈਮੇਲ"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "ਖਾਤਾ ਬਹਾਲੀ"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "ਜੇਕਰ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ ਤਾਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ ਅਤੇ ਸਿੰਕ ਡਾਟਾ ਦੀ ਵਰਤੋਂ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ।"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "ਬਹਾਲੀ ਕੁੰਜੀ"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "ਸੈੱਟ ਨਹੀਂ"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "ਬਣਾਓ"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2042,27 +1587,6 @@ msgstr "ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਵੇਖਣ ਲਈ ਆ�
 msgid "Enter Password"
 msgstr "ਪਾਸਵਰਡ ਦਿਓ"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "ਕੀ ਤੁਸੀਂ ਮਨਸੂਖ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "ਤੁਸੀਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋਏ ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਣ ਵਿੱਚ ਅਸਮਰੱਥ ਹੋਵੋਗੇ।"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "2 ’ਚੋਂ 2 ਪੜਾਅ: ਰਿਕਰਵੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr "<span class=\"note\">ਸੂਚਨਾ: </span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਇਸ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ. ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ, ਜਿੱਥੇ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਇਸਨੂੰ ਆਸਾਨੀ ਨਾਲ ਲੱਭ ਸਕਦੇ ਹੋ।"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "ਹੋ ਗਿਆ ਹੈ, ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੀ ਗਈ"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਪਤਾ ਜੋੜੋ"
@@ -2070,6 +1594,10 @@ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਪਤਾ ਜੋੜੋ"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2096,6 +1624,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "ਸਿੰਕ ਕੀਤਾ ਅਤੀਤ, ਬੁੱਕਮਾਰਕ, ਲਾਗਇਨ ਅਤੇ ਹੋਰ ਨਿੱਜੀ ਡਾਟਾ ਨਹੀਂ ਗੁਆਚੇਗਾ।"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "ਪੁਰਾਣਾ ਪਾਸਵਰਡ"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2232,6 +1764,10 @@ msgstr ""
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "ਮੁਕੰਮਲ"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2400,6 +1936,310 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid "Change..."
+#~ msgstr "...ਬਦਲੋ"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "ਇੱਕ ਵਾਰ ਤੁਹਾਡੇ ਵਲੋਂ ਪੂਰਾ ਕਰਨ ਦੇ ਬਾਅਦ ਤੁਸੀਂ ਆਪਣੇ ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਇਸਾਂ ਉੱਤੇ ਸਾਇਨ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ"
+
+#~ msgid "Change"
+#~ msgstr "ਬਦਲੋ"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫਸੋਸ ਹੋਇਆ। ਤੁਹਾਨੂੰ ਆਪਣੇ Firefox Account ਦਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਆਪਣੇ ਡਾਟਾ ਨੂੰ ਰਿਮੋਟਲੀ ਮਿਟਾਉਣ ਬਾਰੇ ਡਿਵਾਈਸ ਨਿਰਮਾਤਾ ਤੋਂ ਜਾਣਕਾਰੀ ਲੱਭੋ।"
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "ਸਾਨੂੰ ਇਸ ਬਾਰੇ ਸੁਣ ਕੇ ਅਫ਼ਸੋਸ ਹੋਇਆ। ਜੇ ਇਸ ਡਿਵਾਈਸ ਉਤੇ ਤੁਹਾਨੂੰ ਵਾਕਈ ਭਰੋਸਾ ਨਹੀੰ ਸੀ ਤਾਂ ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਲੈਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚ ਸੰਭਾਲੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ਵਾਰ ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਵੇਖੇ"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ%(translatedTimeAgo)s ਪਹਿਲਾਂ ਵੇਖੇ"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜਏ %(translatedTimeAgo)s ਤੋਂ ਪਹਿਲਾਂ ਵੇਖੇ"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਗਰਗਮੀਂ"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ ਆਖਰੀ ਸਰਗਰਮੀਂ"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s, ਦੇ ਨੇੜੇ %(translatedTimeAgo)s ਆਖਰੀ ਸਰਗਰਮੀਂ"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "ਆਖਰੀ ਵਾਰ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਨੇੜੇ %(translatedTimeAgo)s ਪਹਿਲਾਂ ਸਰਗਰਮ ਸੀ"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s ਉੱਤੇ"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s ਵਿੱਚ %(translatedTimeAgo)s ਉੱਤੇ"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ %(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedCity)s, %(translatedState)s, %(translatedCountry)s ਦੇ ਨੇੜੇ  %(translatedTimeAgo)s ਉੱਤੇ"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "ਵੈੱਬ ਸ਼ੈਸ਼ਨ"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "ਆਖਰੀ ਵਾਰ ਵੇਖਣ ਸਮਾਂ ਅਣਪਛਾਤਾ ਹੈ"
+
+#~ msgid "Change…"
+#~ msgstr "…ਬਦਲੋ"
+
+#~ msgid "Add…"
+#~ msgstr "…ਜੋੜੋ"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "ਨਾਂ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੇ ਪ੍ਰਬੰਧ ਸਮੇਂ ਦਿਖਾਈ ਦੇਵੇ।"
+
+#~ msgid "Display name updated"
+#~ msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾ ਦਿੱਤਾ ਗਿਆ"
+
+#~ msgid "Verification email sent"
+#~ msgstr "ਤਸਦੀਕੀ ਲਈ ਈਮੇਲ ਭੇਜੀ ਗਈ"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "ਮੁੱਢਲੇ ਈਮੇਲ %(email)s ਵਜੋਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "ਨਵਾਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕੀਤਾ ਗਿਆ"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਹਟਾਈ ਗਈ"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "ਦੋ-ਕਦਮ ਪ੍ਰਮਾਣਿਕਤਾ ਦੇ"
+
+#~ msgid "Account Recovery"
+#~ msgstr "ਖਾਤਾ ਬਹਾਲੀ"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਵਾਪਸ ਲਈ ਗਈ"
+
+#~ msgid "Sign out"
+#~ msgstr "ਸਾਈਨ ਆਉਟ"
+
+#~ msgid "Take picture"
+#~ msgstr "ਤਸਵੀਰ ਲਵੋ"
+
+#~ msgid "Upload"
+#~ msgstr "ਅੱਪਲੋਡ"
+
+#~ msgid "Camera"
+#~ msgstr "ਕੈਮਰਾ"
+
+#~ msgid "Clear"
+#~ msgstr "ਸਾਫ਼ ਕਰੋ"
+
+#~ msgid "Avatar"
+#~ msgstr "ਅਵਤਾਰ"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "ਆਪਣੀ ਤਸਵੀਰ ਨੂੰ ਲੋੜ ਮੁਤਾਬਕ ਰੱਖੋ ਅਤੇ ਘੁੰਮਾਓ"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "%(deviceName)s ਉੱਤੇ ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ ਤਾਂ ਰਹੇਗਾ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਹੁਣ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।"
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "ਤੁਸੀਂ ਸਿੰਕ ਤੋਂ %(deviceName)s ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨ ਜਾ ਰਹੇ ਹੋ, ਕਿਉਂਕਿ ਇਹ ਡਿਵਾਈਸ ਹੈ:"
+
+#~ msgid "Suspicious"
+#~ msgstr "ਸ਼ੱਕੀ"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "ਗੁਆਚਿਆ ਜਾਂ ਚੋਰੀ ਹੋਇਆ"
+
+#~ msgid "Old or replaced"
+#~ msgstr "ਪੁਰਾਣਾ ਜਾਂ ਬਦਲ ਗਿਆ"
+
+#~ msgid "Duplicate"
+#~ msgstr "ਡੁਪਲੀਕੇਟ"
+
+#~ msgid "Rather not say"
+#~ msgstr "ਦੱਸਣਾ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Disconnect"
+#~ msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "ਡਿਸ-ਕਨੈਕਸ਼ਨ ਸਫ਼ਲ ਹੈ"
+
+#~ msgid "Devices & apps"
+#~ msgstr "ਡਿਵਾਈਸ ਤੇ ਐਪਾਂ"
+
+#~ msgid "Show"
+#~ msgstr "ਵੇਖਾਓ"
+
+#~ msgid "Current device"
+#~ msgstr "ਮੌਜੂਦਾ ਡਿਵਾਈਸ"
+
+#~ msgid "Disconnect…"
+#~ msgstr "…ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
+
+#~ msgid "Current session"
+#~ msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ"
+
+#~ msgid "Revoke"
+#~ msgstr "ਮਨਸੂਖ ਕਰੋ"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "iOS ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#~ msgid "None connected"
+#~ msgstr "ਕੋਈ ਕਨੈਕਟ ਨਹੀਂ"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Android ਲਈ ਫਾਇਰਫਾਕਸ"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "ਚੀਜ਼ ਗੁਆਚ ਗਈਆਂ ਜਾਂ ਡੁਪਲੀਕੇਟ ਹਨ?"
+
+#~ msgid "Refresh status"
+#~ msgstr "ਹਾਲਤ ਤਾਜ਼ਾ ਕਰੋ"
+
+#~ msgid "Email preferences"
+#~ msgstr "ਈਮੇਲ ਪਸੰਦ"
+
+#~ msgid "Delete account"
+#~ msgstr "ਖਾਤਾ ਹਟਾਓ"
+
+#~ msgid "Delete…"
+#~ msgstr "…ਨੂੰ ਹਟਾਓ"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "ਤੁਸੀਂ Mozilla ਉਤਪਾਦਾਂ ਵਿੱਚ ਸੰਭਾਲੀ ਜਾਣਕਾਰੀ ਅਤੇ ਫ਼ੀਚਰ ਗੁਆ ਸਕਦੇ ਹੋ"
+
+#~ msgid "Verification required"
+#~ msgstr "ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
+
+#~ msgid "Make primary"
+#~ msgstr "ਮੁੱਢਲਾ ਬਣਾਓ"
+
+#~ msgid "Remove"
+#~ msgstr "ਹਟਾਓ"
+
+#~ msgid "Refresh"
+#~ msgstr "ਤਾਜ਼ਾ ਕਰੋ"
+
+#~ msgid "Add email"
+#~ msgstr "ਈਮੇਲ ਜੋੜੋ"
+
+#~ msgid "Add"
+#~ msgstr "ਜੋੜੋ"
+
+#~ msgid "NOTE:"
+#~ msgstr "ਸੂਚਨਾ:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਤਿਆਰ ਕਰਦਿਆਂ ਪਿਛਲੇ ਸਾਰੇ ਕੋਡ ਨਕਾਰਾ ਹੋ ਜਾਣਗੇ। ਮਿਹਰਬਾਨੀ ਕਰਕੇ ਨਵੇਂ ਕੋਡਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਜਗ੍ਹਾ 'ਤੇ ਸਾਂਭ ਕੇ ਰੱਖੋ।"
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "ਨਵੇਂ ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਓ"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "ਰਿਕਵਰੀ ਕੋਡ ਤਸਦੀਕ ਕਰੋ"
+
+#~ msgid "Manage…"
+#~ msgstr "…ਬੰਦੋਬਸਤ"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ"
+
+#~ msgid "Enable…"
+#~ msgstr "…ਸਮਰੱਥ ਕਰੋ"
+
+#~ msgid "Current status"
+#~ msgstr "ਮੌਜੂਦਾ ਹਾਲਤ"
+
+#~ msgid "Enabled"
+#~ msgstr "ਸਮਰੱਥ ਹੈ"
+
+#~ msgid "Disabled"
+#~ msgstr "ਅਸਮਰੱਥ ਹੈ"
+
+#~ msgid "Disable"
+#~ msgstr "ਅਸਮਰੱਥ ਕਰੋ"
+
+#~ msgid "Enable"
+#~ msgstr "ਸਮਰੱਥ ਕਰੋ"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "ਬਹਾਲੀ ਕੋਡਾਂ ਨੂੰ ਬਦਲੋ"
+
+#~ msgid "Primary email"
+#~ msgstr "ਮੁੱਢਲਾ ਈਮੇਲ"
+
+#~ msgid "Account recovery"
+#~ msgstr "ਖਾਤਾ ਬਹਾਲੀ"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "ਜੇਕਰ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ ਤਾਂ ਆਪਣੇ ਫਾਇਰਫਾਕਸ ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ ਅਤੇ ਸਿੰਕ ਡਾਟਾ ਦੀ ਵਰਤੋਂ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ।"
+
+#~ msgid "Recovery key"
+#~ msgstr "ਬਹਾਲੀ ਕੁੰਜੀ"
+
+#~ msgid "Not set"
+#~ msgstr "ਸੈੱਟ ਨਹੀਂ"
+
+#~ msgid "Generate"
+#~ msgstr "ਬਣਾਓ"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "ਕੀ ਤੁਸੀਂ ਮਨਸੂਖ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "ਤੁਸੀਂ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋਏ ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਣ ਵਿੱਚ ਅਸਮਰੱਥ ਹੋਵੋਗੇ।"
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "2 ’ਚੋਂ 2 ਪੜਾਅ: ਰਿਕਰਵੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr "<span class=\"note\">ਸੂਚਨਾ: </span> ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਇਸ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ. ਆਪਣੀ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਕਿਸੇ ਸੁਰੱਖਿਅਤ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ, ਜਿੱਥੇ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਇਸਨੂੰ ਆਸਾਨੀ ਨਾਲ ਲੱਭ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "ਹੋ ਗਿਆ ਹੈ, ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੀ ਗਈ"
 
 #~ msgid "Please Select One"
 #~ msgstr "ਪਹਿਲਾਂ ਇੱਕ ਚੁਣੋ"

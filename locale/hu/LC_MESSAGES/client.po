@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-12 20:55+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "A jelszó sikeresen visszaállítva. Jelentkezzen be a folytatáshoz."
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Fiók sikeresen törölve"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Használja a(z) %(code)s kódot a kétlépcsős hitelesítés beállításához a támogatott alkalmazásokban."
 
@@ -45,11 +45,11 @@ msgstr "%(permissionName)s (szükséges)"
 msgid "Email address"
 msgstr "E-mail cím"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Megjelenő név"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Fiók képe"
 
@@ -121,200 +121,6 @@ msgstr "Köszönjük, hogy felkereste a Mozilla támogatást a következő tém�
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Köszönjük, hogy felkereste a Mozilla támogatást a következő témában: <b>%(escapedLowercaseTopic)s</b><b>%(escapedSelectedProduct)s</b>). A lehető leghamarabb kapcsolatba lépünk Önnel e-mailben."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Jelszó"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Módosítás…"
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Ha befejezte, az új jelszóval minden eszközön bejelentkezhet."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Régi jelszó"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Elfelejtette a jelszót?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Új jelszó"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Jelszó megerősítése"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Módosítás"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Mégse"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "A jelszó sikeresen módosítva"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Sajnálattal halljuk. Célszerű megváltoztatnia a Firefox fiókja jelszavát, és információkat keresnie az eszköz gyártójától az adatok távoli törléséhez."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Sajnálattal halljuk. Ha tényleg nem bízik ebben az eszközben, akkor változtassa meg a Firefox fiókja jelszavát, és minden olyan jelszót, amit mentett a Firefoxban."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Legutóbb látva: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Legutóbb látva több mint ennyi ideje: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Legutóbb látva: %(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Legutóbb látva több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Legutóbb látva: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Legutóbbi látva több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Legutóbb aktív: %(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Legutóbb aktív: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s e közelében: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Webes munkamenetet, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Webes munkamenet"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Legutóbbi ismeretlen ideje látva"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Módosítás…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Hozzáadás…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Válassza ki, hogy hogyan jelenjen meg a neve a Firefoxban és a fiókja kezelésekor."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "A megjelenő név frissítve"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "Másodlagos e-mail cím eltávolítva"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Ellenőrző e-mail elküldve"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "Elsődleges e-mail cím erre állítva: %(email)s"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Másodlagos e-mail"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Új helyreállítási kódok előállítva"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Kétlépcsős hitelesítés eltávolítva"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Kétlépcsős hitelesítés"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Fiók-helyreállítás"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Fiók-helyreállítás engedélyezve"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Fiók-helyreállítás visszavonva"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -404,10 +210,6 @@ msgstr "Letöltve"
 msgid "Printed"
 msgstr "Kinyomtatva"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Elsődleges e-mail sikeresen megerősítve"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "A fiók sikeresen ellenőrizve"
@@ -468,6 +270,10 @@ msgstr "Bankkártyák"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Elsődleges e-mail sikeresen megerősítve"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Másodlagos e-mail sikeresen megerősítve"
@@ -475,6 +281,10 @@ msgstr "Másodlagos e-mail sikeresen megerősítve"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Jelszó sikeresen visszaállítva"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Fiók-helyreállítás engedélyezve"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1163,6 +973,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Sikeresen helyreállította a fiókját a helyreállítási kulccsal. Hozzon létre új jelszót, hogy biztonságban legyenek az adatai, és tárolja biztos helyen."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Új jelszó"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Jelszó megerősítése"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Emlékszik a jelszavára? Jelentkezzen be"
@@ -1204,13 +1022,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Ellenőrizze a leveleit, hogy megérkezett-e a bejelentkezési megerősítő hivatkozás ide: %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nincs a beérkezett vagy a spam mappában? Újraküldés"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Vissza"
 
@@ -1236,7 +1053,7 @@ msgstr "Adja meg 5 percen belül a(z) %(escapedEmail)s címre küldött ellenőr
 msgid "Enter 6-digit code"
 msgstr "Adja meg a 6 számjegyű kódot"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Ellenőrzés"
@@ -1303,47 +1120,50 @@ msgstr ""
 msgid "Try again"
 msgstr "Próbálja újra"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Jelszó"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "A folytatással elfogadja a <a id=\"fxa-tos\" href=\"/legal/terms\">Felhasználási feltételeit</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatot</a>."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Elfelejtette a jelszót?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Adja meg az e-mail címét"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Folytatás"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Helyreállítási kódok mentése"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Tárolja ezeket az egyszer használatos kódokat biztonságos helyen, arra az esetre, ha nincs mobileszköze."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Letöltés"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Másolás"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Nyomtatás"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Beállítás megszakítása"
 
@@ -1351,15 +1171,15 @@ msgstr "Beállítás megszakítása"
 msgid "Confirm recovery code"
 msgstr "Helyreállítási kód megerősítése"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr "Annak érdekében, hogy visszaszerezhesse a fiókját az eszköz elvesztése esetén, írja be az egyik elmentett helyreállítási kódot."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Helyreállítási kód"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Megerősítés"
 
@@ -1367,7 +1187,7 @@ msgstr "Megerősítés"
 msgid "Enable two-step authentication"
 msgstr "Kétlépcsős hitelesítés engedélyezése"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Adjon egy biztonsági réteget a fiókjához az <a %(escapedTotpSupportAttributes)s>ezen hitelesítő alkalmazások</a> egyikéből származó biztonsági kódok megkövetelésével."
 
@@ -1375,19 +1195,19 @@ msgstr "Adjon egy biztonsági réteget a fiókjához az <a %(escapedTotpSupportA
 msgid "Scan authentication code"
 msgstr "Hitelesítési kód leolvasása"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Írja be a kódot kézzel"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Olvassa le a QR-kódot a hitelesítő alkalmazásban, és adja meg az általa adott biztonsági kódot."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Nem tudja leolvasni a kódot?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "Ha kész, megkezdi az Ön biztonsági kódjainak előállítását."
 
@@ -1399,11 +1219,11 @@ msgstr "Írja be ezt a titkos kulcsot a hitelesítő alkalmazásban:"
 msgid "Scan QR code instead?"
 msgstr "Inkább leolvassa a QR-kódot?"
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Biztonsági kód"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Kész"
 
@@ -1411,11 +1231,11 @@ msgstr "Kész"
 msgid "Legal"
 msgstr "Jogi információ"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Felhasználási feltételek"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Adatvédelmi nyilatkozat"
 
@@ -1448,6 +1268,11 @@ msgstr "%(serviceName)s a következő információkat kéri a fiókjáról:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Elfogadás"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Mégse"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1497,7 +1322,7 @@ msgstr "E-mail"
 msgid "Begin reset"
 msgstr "Visszaállítás elkezdése"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Friss tevékenység"
 
@@ -1509,7 +1334,7 @@ msgstr "Biztonsági események"
 msgid "Event Name"
 msgstr "Esemény neve"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Ellenőrizve"
 
@@ -1524,18 +1349,6 @@ msgstr "Események törlése"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Vissza a beállításokhoz"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "A bankkártyája lejárt. Frissítse <a %(escapedCcExpiredLinkAttrs)s>itt</a>."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox fiókok"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Kijelentkezés"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1689,11 +1502,15 @@ msgstr "Nem érkezett meg? Újraküldés"
 msgid "Why sign in on another device?"
 msgstr "Miért jelentkezzen be egy másik eszközön?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox fiókok"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Fiók kezdőlapja"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Előfizetések"
 
@@ -1753,7 +1570,7 @@ msgstr "A Sync szolgáltatás nem egy állandó mentés, ez egyszerűen egy bizt
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Telepítenie kell a Firefoxot és szinkronizálni két eszközt, hogy védekezzen az adatvesztés ellen, ha vissza kell állítania, de nem emlékszik a jelszóra."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Megértettem!"
 
@@ -1764,280 +1581,6 @@ msgstr "Szeretné szinkronizálni ezt az eszközt a fiókjával?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Eszköz szinkronizálása"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Kép készítése"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Feltöltés"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Törlés"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Kész"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Avatár"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Mozgassa és forgassa képét ahogy szeretné"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Leválás a Syncről"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "A böngészőadatai megmaradnak a(z) %(deviceName)s eszközén, de nem fog többé szinkronizálni a fiókjával."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Ön azért választja le a(z) %(deviceName)s eszköz szinkronizálását, mert ez az eszköz:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Gyanús"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Elvesztette vagy ellopták"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Régi vagy lecserélte"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Másolat"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "Inkább nem mondja meg"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Leválasztás"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Sikeres leválasztás"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Eszközök és appok"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Megjelenítés"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Jelenlegi eszköz"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Bontás…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Jelenlegi munkamenet"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Visszavonás"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox for iOS"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Nincs kapcsolódva"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox for Android"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Hiányzó vagy ismétlődő elemek?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Állapot frissítése"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "E-mail beállítások"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Fiók törlése"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Törlés…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Az előfizetését szeretné törölni? Lépjen az <a href=\"/subscriptions\">Előfizetések</a> oldalra."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Összekapcsolta a Firefox-fiókját a Mozilla termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Erősítse meg ezt a fiókja a törlésével:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Az összes előfizetése lemondásra kerül"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek"
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Elveszítheti a Mozilla termékekben elmentett információkat és szolgáltatásokat"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "A másodlagos e-mail cím egy további cím, amelyre megkapja a biztonsági értesítéseket és az új eszközök megerősítéseit."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Ellenőrzés szükséges"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Elsődlegessé tétel"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Eltávolítás"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Frissítés"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "E-mail hozzáadása"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Hozzáadás"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "MEGJEGYZÉS:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Az új helyreállítási kód előállításával minden korábbi kód érvénytelenné válik. Az új kódokat tárolja biztonságos helyen."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Új helyreállítási kódok előállítása"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Erősítsen meg egy helyreállítási kódot"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Kezelés…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Kétlépcsős hitelesítés"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Engedélyezés…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Jelenlegi állapot"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Engedélyezve"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Tiltva"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Letiltás"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Engedélyezés"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Helyreállítási kódok cseréje"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Ezt a részt csak azután tudja megtekinteni és változtatni, miután megerősítette az e-mail címét."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Elsődleges e-mail"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Fiók-helyreállítás"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Állítson elő egy helyreállítási kulcsot, hogy visszakaphassa a hozzáférést a Firefox könyvjelzőihez, jelszavaihoz és szinkronizált adataihoz, ha elfelejtené a jelszavát."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Helyreállítókulcs"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Nincs beállítva"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Előállítás"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">FIGYELEM: </span>A Firefox fiókjának jelszava titkosítja a Firefox adatait. Csak a jelszavával vagy a helyreállítókulccsal férhet az adatokhoz. <a "
-"%(escapedLearnMoreLinkAttributes)s>További tudnivalók</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2051,29 +1594,6 @@ msgstr "Adja meg a jelszavát a helyreállítókulcs megtekintéséhez."
 msgid "Enter Password"
 msgstr "Adja meg a jelszót"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Biztos, hogy vissza akarja vonni?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Nem fogja tudni használni a visszaállítási kulcsát az adatai eléréséhez, ha helyreállítja a jelszavát."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "2. lépés / 2: Mentse a helyreállítókulcsot"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr ""
-"<span class=\"note\">MEGJEGYZÉS:</span>Ha elfelejti a jelszavát, akkor ez a kulcs szükséges az adatai elérésének visszaszerzéséhez. Mentse a helyreállítási kulcsát biztonságos helyre, ahol később "
-"könnyedén megtalálja."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Kész, a helyreállítókulcs mentve"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Másodlagos e-mail cím hozzáadása"
@@ -2081,6 +1601,10 @@ msgstr "Másodlagos e-mail cím hozzáadása"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Egy másodlagos e-mail cím hozzáadása segít visszatérnie a fiókjába, ha kizárta magát és nem éri el a(z) %(escapedEmail)s fiókját."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Másodlagos e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2109,6 +1633,10 @@ msgstr ""
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "A szinkronizált előzmények, könyvjelzők, bejelentkezések és egyéb személyes adatok nem vesznek el."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Régi jelszó"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2245,6 +1773,10 @@ msgstr "Írja be a helyreállítási kulcsot, hogy megerősíthessük, hogy val�
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Helyreállítási kulcs mentése"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Kész"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2413,6 +1945,349 @@ msgstr "Párosítás egy alkalmazás segítségével"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Használta a rendszerkamerát? Párosítania kell egy Firefox alkalmazásból."
+
+#~ msgid "Change..."
+#~ msgstr "Módosítás…"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Ha befejezte, az új jelszóval minden eszközön bejelentkezhet."
+
+#~ msgid "Change"
+#~ msgstr "Módosítás"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "A jelszó sikeresen módosítva"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Sajnálattal halljuk. Célszerű megváltoztatnia a Firefox fiókja jelszavát, és információkat keresnie az eszköz gyártójától az adatok távoli törléséhez."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Sajnálattal halljuk. Ha tényleg nem bízik ebben az eszközben, akkor változtassa meg a Firefox fiókja jelszavát, és minden olyan jelszót, amit mentett a Firefoxban."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Legutóbb látva: %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Legutóbb látva több mint ennyi ideje: %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Legutóbb látva: %(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Legutóbb látva több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Legutóbb látva: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Legutóbbi látva több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Legutóbb aktív: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Legutóbb aktív több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s itt: %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s e közelében: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Több mint ennyi ideje: %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s közelében"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Webes munkamenetet, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Webes munkamenet"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Legutóbbi ismeretlen ideje látva"
+
+#~ msgid "Change…"
+#~ msgstr "Módosítás…"
+
+#~ msgid "Add…"
+#~ msgstr "Hozzáadás…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Válassza ki, hogy hogyan jelenjen meg a neve a Firefoxban és a fiókja kezelésekor."
+
+#~ msgid "Display name updated"
+#~ msgstr "A megjelenő név frissítve"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Másodlagos e-mail cím eltávolítva"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Ellenőrző e-mail elküldve"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Elsődleges e-mail cím erre állítva: %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Új helyreállítási kódok előállítva"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Kétlépcsős hitelesítés eltávolítva"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Kétlépcsős hitelesítés"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Fiók-helyreállítás"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Fiók-helyreállítás visszavonva"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "A bankkártyája lejárt. Frissítse <a %(escapedCcExpiredLinkAttrs)s>itt</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "Take picture"
+#~ msgstr "Kép készítése"
+
+#~ msgid "Upload"
+#~ msgstr "Feltöltés"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Törlés"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatár"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Mozgassa és forgassa képét ahogy szeretné"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Leválás a Syncről"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "A böngészőadatai megmaradnak a(z) %(deviceName)s eszközén, de nem fog többé szinkronizálni a fiókjával."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Ön azért választja le a(z) %(deviceName)s eszköz szinkronizálását, mert ez az eszköz:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Gyanús"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Elvesztette vagy ellopták"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Régi vagy lecserélte"
+
+#~ msgid "Duplicate"
+#~ msgstr "Másolat"
+
+#~ msgid "Rather not say"
+#~ msgstr "Inkább nem mondja meg"
+
+#~ msgid "Disconnect"
+#~ msgstr "Leválasztás"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Sikeres leválasztás"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Eszközök és appok"
+
+#~ msgid "Show"
+#~ msgstr "Megjelenítés"
+
+#~ msgid "Current device"
+#~ msgstr "Jelenlegi eszköz"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Bontás…"
+
+#~ msgid "Current session"
+#~ msgstr "Jelenlegi munkamenet"
+
+#~ msgid "Revoke"
+#~ msgstr "Visszavonás"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox for iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Nincs kapcsolódva"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox for Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Hiányzó vagy ismétlődő elemek?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Állapot frissítése"
+
+#~ msgid "Email preferences"
+#~ msgstr "E-mail beállítások"
+
+#~ msgid "Delete account"
+#~ msgstr "Fiók törlése"
+
+#~ msgid "Delete…"
+#~ msgstr "Törlés…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Az előfizetését szeretné törölni? Lépjen az <a href=\"/subscriptions\">Előfizetések</a> oldalra."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Összekapcsolta a Firefox-fiókját a Mozilla termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Erősítse meg ezt a fiókja a törlésével:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Az összes előfizetése lemondásra kerül"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Elveszítheti a Mozilla termékekben elmentett információkat és szolgáltatásokat"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "A másodlagos e-mail cím egy további cím, amelyre megkapja a biztonsági értesítéseket és az új eszközök megerősítéseit."
+
+#~ msgid "Verification required"
+#~ msgstr "Ellenőrzés szükséges"
+
+#~ msgid "Make primary"
+#~ msgstr "Elsődlegessé tétel"
+
+#~ msgid "Remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "Refresh"
+#~ msgstr "Frissítés"
+
+#~ msgid "Add email"
+#~ msgstr "E-mail hozzáadása"
+
+#~ msgid "Add"
+#~ msgstr "Hozzáadás"
+
+#~ msgid "NOTE:"
+#~ msgstr "MEGJEGYZÉS:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Az új helyreállítási kód előállításával minden korábbi kód érvénytelenné válik. Az új kódokat tárolja biztonságos helyen."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Új helyreállítási kódok előállítása"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Erősítsen meg egy helyreállítási kódot"
+
+#~ msgid "Manage…"
+#~ msgstr "Kezelés…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Kétlépcsős hitelesítés"
+
+#~ msgid "Enable…"
+#~ msgstr "Engedélyezés…"
+
+#~ msgid "Current status"
+#~ msgstr "Jelenlegi állapot"
+
+#~ msgid "Enabled"
+#~ msgstr "Engedélyezve"
+
+#~ msgid "Disabled"
+#~ msgstr "Tiltva"
+
+#~ msgid "Disable"
+#~ msgstr "Letiltás"
+
+#~ msgid "Enable"
+#~ msgstr "Engedélyezés"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Helyreállítási kódok cseréje"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Ezt a részt csak azután tudja megtekinteni és változtatni, miután megerősítette az e-mail címét."
+
+#~ msgid "Primary email"
+#~ msgstr "Elsődleges e-mail"
+
+#~ msgid "Account recovery"
+#~ msgstr "Fiók-helyreállítás"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Állítson elő egy helyreállítási kulcsot, hogy visszakaphassa a hozzáférést a Firefox könyvjelzőihez, jelszavaihoz és szinkronizált adataihoz, ha elfelejtené a jelszavát."
+
+#~ msgid "Recovery key"
+#~ msgstr "Helyreállítókulcs"
+
+#~ msgid "Not set"
+#~ msgstr "Nincs beállítva"
+
+#~ msgid "Generate"
+#~ msgstr "Előállítás"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">FIGYELEM: </span>A Firefox fiókjának jelszava titkosítja a Firefox adatait. Csak a jelszavával vagy a helyreállítókulccsal férhet az adatokhoz. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>További tudnivalók</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Biztos, hogy vissza akarja vonni?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Nem fogja tudni használni a visszaállítási kulcsát az adatai eléréséhez, ha helyreállítja a jelszavát."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "2. lépés / 2: Mentse a helyreállítókulcsot"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">MEGJEGYZÉS:</span>Ha elfelejti a jelszavát, akkor ez a kulcs szükséges az adatai elérésének visszaszerzéséhez. Mentse a helyreállítási kulcsát biztonságos helyre, ahol "
+#~ "később könnyedén megtalálja."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Kész, a helyreállítókulcs mentve"
 
 #~ msgid "Please Select One"
 #~ msgstr "Válasszon egyet"

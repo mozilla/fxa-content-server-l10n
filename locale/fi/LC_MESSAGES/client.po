@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 22:07+0000\n"
+"POT-Creation-Date: 2021-03-25 22:07+0000\n"
 "PO-Revision-Date: 2021-03-14 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr "Salasanan nollaus onnistui. Kirjaudu sisään jatkaaksesi."
 msgid "Sign in"
 msgstr "Kirjaudu sisään"
 
-#: .es5/views/index.js:174 .es5/views/settings/delete_account.js:217
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Tilin poistaminen onnistui"
 
-#: .es5/views/inline_totp_setup.js:155 .es5/views/settings/two_step_authentication.js:143
+#: .es5/views/inline_totp_setup.js:155
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Ota käyttöön kaksivaiheinen todennus tuetuissa sovelluksissa käyttämällä koodia %(code)s."
 
@@ -45,11 +45,11 @@ msgstr "%(permissionName)s (pakollinen)"
 msgid "Email address"
 msgstr "Sähköpostiosoite"
 
-#: .es5/views/permissions.js:49 .es5/views/settings/display_name.js:82 .es5/views/settings/display_name.js:173
+#: .es5/views/permissions.js:49
 msgid "Display name"
 msgstr "Näyttönimi"
 
-#: .es5/views/permissions.js:52 .es5/templates/settings/avatar.mustache:1
+#: .es5/views/permissions.js:52
 msgid "Account picture"
 msgstr "Tilin kuva"
 
@@ -120,200 +120,6 @@ msgstr "Kiitos, että otit yhteyttä Mozilla-tukeen aiheesta <b>%(escapedLowerca
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Kiitos että olit yhteydessä Mozilla-tukeen aiheesta <b>%(escapedLowercaseTopic)s</b> koskien tuotetta <b>%(escapedSelectedProduct)s</b>. Olemme yhteydessä sähköpostitse mahdollisimman pian."
-
-#: .es5/views/settings/change_password.js:90 .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
-#: .es5/templates/settings/delete_account.mustache:19
-msgid "Password"
-msgstr "Salasana"
-
-#: .es5/views/settings/change_password.js:93
-msgid "Change..."
-msgstr "Vaihda..."
-
-#: .es5/views/settings/change_password.js:210
-msgid "Once you're finished, use your new password to sign in on all of your devices."
-msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
-
-#: .es5/views/settings/change_password.js:220 .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Vanha salasana"
-
-#: .es5/views/settings/change_password.js:234 .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
-msgid "Forgot password?"
-msgstr "Unohditko salasanan?"
-
-#: .es5/views/settings/change_password.js:240 .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Uusi salasana"
-
-#: .es5/views/settings/change_password.js:254 .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Kirjoita salasana uudelleen"
-
-#: .es5/views/settings/change_password.js:268 .es5/views/settings/display_name.js:187 .es5/templates/settings/avatar_crop.mustache:3
-msgid "Change"
-msgstr "Vaihda"
-
-#: .es5/views/settings/change_password.js:272 .es5/views/settings/display_name.js:189 .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
-#: .es5/templates/settings/avatar_camera.mustache:2 .es5/templates/settings/avatar_crop.mustache:4 .es5/templates/settings/client_disconnect.mustache:10
-#: .es5/templates/settings/delete_account.mustache:21 .es5/templates/settings/emails.mustache:32 .es5/templates/settings/two_step_authentication.mustache:17
-#: .es5/templates/settings/two_step_authentication.mustache:22 .es5/templates/settings/upgrade_session.mustache:10 .es5/templates/settings/account_recovery/confirm_password.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:4 .es5/templates/pair/auth_allow.mustache:3 .es5/templates/pair/supp_allow.mustache:3
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: .es5/views/settings/change_password.js:374
-msgid "Password changed successfully"
-msgstr "Salasana vaihdettu"
-
-#: .es5/views/settings/client_disconnect.js:30
-msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-msgstr "Ikävä kuulla. Sinun tulisi vaihtaa Firefox-tilisi salasana, ja etsiä laitteesi valmistajalta tietoa siitä, kuinka tyhjennät laitteesi tiedot etänä."
-
-#: .es5/views/settings/client_disconnect.js:31
-msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-msgstr "Ikävä kuulla. Jos kyseessä oli laite, johon et luota, sinun tulisi vaihtaa Firefox-tilisi salasana, ja vaihtaa kaikki Firefoxiin tallennetut salasanat."
-
-#: .es5/views/settings/clients.js:60
-msgid "Last seen %(translatedTimeAgo)s"
-msgstr "Viimeksi nähty %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:61
-msgid "Last seen over %(translatedTimeAgo)s"
-msgstr "Viimeksi nähty yli %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:64
-msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Viimeksi nähty %(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:65
-msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Viimeksi nähty yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:68
-msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Viimeksi nähty %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:69
-msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Viimeksi nähty yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:74
-msgid "Last active %(translatedTimeAgo)s"
-msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:75
-msgid "Last active over %(translatedTimeAgo)s"
-msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:78
-msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Käytetty viimeksi %(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:79
-msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:82
-msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Käytetty viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:83
-msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:88
-msgid "%(translatedTimeAgo)s"
-msgstr "%(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:89
-msgid "Over %(translatedTimeAgo)s"
-msgstr "Yli %(translatedTimeAgo)s"
-
-#: .es5/views/settings/clients.js:92
-msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:93
-msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-msgstr "Yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:96
-msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "%(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:97
-msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-msgstr "Yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#: .es5/views/settings/clients.js:131
-msgid "Web Session, %(userAgent)s"
-msgstr "Verkkoistunto, %(userAgent)s"
-
-#: .es5/views/settings/clients.js:135
-msgid "Web Session"
-msgstr "Verkkoistunto"
-
-#: .es5/views/settings/clients.js:146
-msgid "Last seen time unknown"
-msgstr "Viimeksi nähty -ajankohta tuntematon"
-
-#: .es5/views/settings/display_name.js:94 .es5/templates/settings/avatar.mustache:2 .es5/templates/settings/emails.mustache:3 .es5/templates/settings/two_step_authentication.mustache:4
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:4
-msgid "Change…"
-msgstr "Muuta…"
-
-#: .es5/views/settings/display_name.js:101 .es5/templates/settings/avatar.mustache:3 .es5/templates/settings/emails.mustache:5
-msgid "Add…"
-msgstr "Lisää…"
-
-#: .es5/views/settings/display_name.js:168
-msgid "Choose the name you would like to appear in Firefox and when managing your account."
-msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
-
-#: .es5/views/settings/display_name.js:229
-msgid "Display name updated"
-msgstr "Näyttönimi päivitetty"
-
-#: .es5/views/settings/emails.js:127
-msgid "Secondary email removed"
-msgstr "Toissijainen sähköposti poistetiin"
-
-#: .es5/views/settings/emails.js:159 .es5/views/settings/emails.js:176 .es5/views/mixins/upgrade-session-mixin.js:96
-msgid "Verification email sent"
-msgstr "Vahvistussähköposti lähetettiin"
-
-#: .es5/views/settings/emails.js:198
-msgid "Primary email set to %(email)s"
-msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
-
-#: .es5/views/settings/emails.js:219 .es5/templates/settings/emails.mustache:2 .es5/templates/settings/emails.mustache:23 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Toissijainen sähköposti"
-
-#: .es5/views/settings/recovery_codes.js:66
-msgid "New recovery codes generated"
-msgstr "Uudet palautuskoodit luotu"
-
-#: .es5/views/settings/two_step_authentication.js:161
-msgid "Two-step authentication removed"
-msgstr "Kaksivaiheinen todennus poistettu käytöstä"
-
-#: .es5/views/settings/two_step_authentication.js:197
-msgid "Two-step Authentication"
-msgstr "Kaksivaiheinen todennus"
-
-#: .es5/views/settings/account_recovery/account_recovery.js:87
-msgid "Account Recovery"
-msgstr "Tilin palauttaminen"
-
-#: .es5/views/settings/account_recovery/confirm_password.js:66 .es5/models/auth_brokers/web.js:45
-msgid "Account recovery enabled"
-msgstr "Tilin palauttaminen kytketty päälle"
-
-#: .es5/views/settings/account_recovery/confirm_revoke.js:55
-msgid "Account recovery revoked"
-msgstr "Tilin palauttaminen peruutettu"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -403,10 +209,6 @@ msgstr "Ladattu"
 msgid "Printed"
 msgstr "Tulostettu"
 
-#: .es5/views/mixins/upgrade-session-mixin.js:77 .es5/models/auth_brokers/base.js:110
-msgid "Primary email verified successfully"
-msgstr "Ensisijaisen sähköpostin vahvistaminen onnistui"
-
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
 msgstr "Tilin vahvistaminen onnistui"
@@ -467,6 +269,10 @@ msgstr "Luottokortit"
 msgid "Firefox"
 msgstr "Firefox"
 
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Ensisijaisen sähköpostin vahvistaminen onnistui"
+
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Toissijaisen sähköpostin vahvistaminen onnistui"
@@ -474,6 +280,10 @@ msgstr "Toissijaisen sähköpostin vahvistaminen onnistui"
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Salasana nollattu onnistuneesti"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Tilin palauttaminen kytketty päälle"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -1161,6 +971,14 @@ msgstr ""
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
 msgstr "Olet palauttanut tilisi onnistuneesti palautusavainta käyttäen. Luo uusi salasana suojataksesi tietosi, ja talleta salasana turvalliseen paikkaan."
 
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Kirjoita salasana uudelleen"
+
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Muistatko salasanan? Kirjaudu sisään"
@@ -1202,13 +1020,12 @@ msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail
 msgstr "Katso osoitteeseen %(escapedEmail)s lähetetty kirjautumisen vahvistuslinkki"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9 .es5/templates/settings/emails.mustache:20 .es5/templates/settings/upgrade_session.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ei saapuneissa tai roskapostissa? Lähetä uudestaan"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/settings/recovery_codes.mustache:20
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Takaisin"
 
@@ -1234,7 +1051,7 @@ msgstr "Kirjoita osoitteeseen %(escapedEmail)s lähetetty vahvistuskoodi 5 minuu
 msgid "Enter 6-digit code"
 msgstr "Kirjoita 6-numeroinen koodi"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/settings/upgrade_session.mustache:9
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Vahvista"
@@ -1300,47 +1117,50 @@ msgstr "Ota käyttöön evästeet ja paikallinen tallennustila selaimessasi, jot
 msgid "Try again"
 msgstr "Yritä uudelleen"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+msgid "Password"
+msgstr "Salasana"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Jatkamalla hyväksyt <a id=\"fxa-tos\" href=\"/legal/terms\">käyttöehdot</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">tietosuojaselosteen</a>."
+
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+msgid "Forgot password?"
+msgstr "Unohditko salasanan?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Kirjoita sähköpostiosoitteesi"
 
 #: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/recovery_codes.mustache:13
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Jatka"
 
-#: .es5/templates/inline_recovery_setup.mustache:1 .es5/templates/settings/recovery_codes.mustache:1
+#: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Tallenna palautuskoodit"
 
-#: .es5/templates/inline_recovery_setup.mustache:3 .es5/templates/settings/recovery_codes.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
 msgstr "Säilytä nämä kertakäyttökoodit turvallisessa paikassa. Tarvitset niitä, jos sinulla ei ole mobiililaitettasi."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/settings/clients.mustache:20 .es5/templates/settings/clients.mustache:23 .es5/templates/settings/recovery_codes.mustache:7
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:3 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Lataa"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/settings/recovery_codes.mustache:8 .es5/templates/settings/recovery_codes.mustache:10
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:4 .es5/templates/settings/account_recovery/recovery_key.mustache:6
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Kopioi"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/settings/recovery_codes.mustache:9 .es5/templates/settings/account_recovery/recovery_key.mustache:5
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Tulosta"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-#: .es5/templates/settings/recovery_codes.mustache:14 .es5/templates/settings/recovery_codes.mustache:21
 msgid "Cancel setup"
 msgstr "Peruuta käyttöönotto"
 
@@ -1348,15 +1168,15 @@ msgstr "Peruuta käyttöönotto"
 msgid "Confirm recovery code"
 msgstr "Vahvista palautuskoodi"
 
-#: .es5/templates/inline_recovery_setup.mustache:14 .es5/templates/settings/recovery_codes.mustache:17
+#: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
 msgstr "Anna jokin tallennetuista palautuskoodeista, jotta voit palauttaa tilisi käyttöoikeuden laitteen kadotessa."
 
-#: .es5/templates/inline_recovery_setup.mustache:15 .es5/templates/settings/recovery_codes.mustache:18
+#: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Palautuskoodi"
 
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/settings/recovery_codes.mustache:19 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Vahvista"
 
@@ -1364,7 +1184,7 @@ msgstr "Vahvista"
 msgid "Enable two-step authentication"
 msgstr "Ota kaksivaiheinen vahvistus käyttöön"
 
-#: .es5/templates/inline_totp_setup.mustache:3 .es5/templates/settings/two_step_authentication.mustache:6
+#: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr "Lisää tilisi turvallisuutta vaatimalla turvallisuuskoodien käyttöä jollakin <a %(escapedTotpSupportAttributes)s>näistä todennussovelluksista</a>."
 
@@ -1372,19 +1192,19 @@ msgstr "Lisää tilisi turvallisuutta vaatimalla turvallisuuskoodien käyttöä 
 msgid "Scan authentication code"
 msgstr "Skannaa todennuskoodi"
 
-#: .es5/templates/inline_totp_setup.mustache:10 .es5/templates/settings/totp_secret.mustache:1
+#: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
 msgstr "Kirjoita koodi manuaalisesti"
 
-#: .es5/templates/inline_totp_setup.mustache:12 .es5/templates/settings/two_step_authentication.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
 msgstr "Lue QR-koodi käyttäen valitsemaasi todennussovellusta ja kirjoita sitten kyseisen sovelluksen tarjoama turvallisuuskoodi."
 
-#: .es5/templates/inline_totp_setup.mustache:13 .es5/templates/settings/two_step_authentication.mustache:19
+#: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Etkö voi lukea QR-koodia?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18 .es5/templates/settings/totp_secret.mustache:3
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
 msgstr "Asennettuna oikein se alkaa tuottaa turvakoodeja, joita sinun tulee antaa."
 
@@ -1396,11 +1216,11 @@ msgstr "Kirjoita tämä salainen avain todennussovellukseesi."
 msgid "Scan QR code instead?"
 msgstr "Haluatko sen sijaan skannata QR-koodin?"
 
-#: .es5/templates/inline_totp_setup.mustache:19 .es5/templates/settings/two_step_authentication.mustache:20
+#: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
 msgstr "Turvallisuuskoodi"
 
-#: .es5/templates/inline_totp_setup.mustache:20 .es5/templates/settings/totp_secret.mustache:4 .es5/templates/settings/two_step_authentication.mustache:21
+#: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
 msgstr "Valmis"
 
@@ -1408,11 +1228,11 @@ msgstr "Valmis"
 msgid "Legal"
 msgstr "Lakiteksti"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/settings.mustache:10 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Käyttöehdot"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/settings.mustache:11 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Tietosuojaseloste"
 
@@ -1445,6 +1265,11 @@ msgstr "%(serviceName)s haluaa seuraavat tiedot tililtäsi:"
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
 msgstr "Hyväksy"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
+#: .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Peruuta"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
@@ -1494,7 +1319,7 @@ msgstr "Sähköpostiosoite"
 msgid "Begin reset"
 msgstr "Aloita nollaus"
 
-#: .es5/templates/security_events.mustache:1 .es5/templates/settings.mustache:8
+#: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Viimeisin toiminta"
 
@@ -1506,7 +1331,7 @@ msgstr "Turvallisuuteen liittyvät tapahtumat"
 msgid "Event Name"
 msgstr "Tapahtuman nimi"
 
-#: .es5/templates/security_events.mustache:4 .es5/templates/settings/emails.mustache:9
+#: .es5/templates/security_events.mustache:4
 msgid "Verified"
 msgstr "Vahvistettu"
 
@@ -1521,18 +1346,6 @@ msgstr "Poista tapahtumat"
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
 msgstr "Takaisin asetuksiin"
-
-#: .es5/templates/settings.mustache:1
-msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-msgstr "Luottokorttisi on vanhentunut. Päivitä luottokorttitietosi <a %(escapedCcExpiredLinkAttrs)s>tästä</a>."
-
-#: .es5/templates/settings.mustache:3 .es5/templates/support.mustache:1
-msgid "Firefox Accounts"
-msgstr "Firefox-tilit"
-
-#: .es5/templates/settings.mustache:5
-msgid "Sign out"
-msgstr "Kirjaudu ulos"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1686,11 +1499,15 @@ msgstr "Eikö viesti saapunut? Lähetä uudestaan"
 msgid "Why sign in on another device?"
 msgstr "Miksi kirjautua sisään toiselta laitteelta?"
 
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox-tilit"
+
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
 msgstr "Tilin koti"
 
-#: .es5/templates/support.mustache:3 .es5/templates/settings/subscription.mustache:1
+#: .es5/templates/support.mustache:3
 msgid "Subscriptions"
 msgstr "Tilaukset"
 
@@ -1750,7 +1567,7 @@ msgstr "Synkronointipalvelu ei ole pysyvä varmuuskopio. Se on ainoastaan turval
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
 msgstr "Firefox on asennettava vähintään kahteen eri laitteeseen ja tiedot on synkronoitava niiden välillä, jotta tietosi eivät katoa kun tarvitset niitä, mutta olet unohtanut salasanasi."
 
-#: .es5/templates/why_connect_another_device.mustache:4 .es5/templates/settings/client_disconnect.mustache:12
+#: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
 msgstr "Selvä"
 
@@ -1761,280 +1578,6 @@ msgstr "Haluatko synkronoida tämän laitteen tilillesi?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Synkronoi tämä laite"
-
-#: .es5/templates/settings/avatar_camera.mustache:1
-msgid "Take picture"
-msgstr "Ota kuva"
-
-#: .es5/templates/settings/avatar_change.mustache:1
-msgid "Upload"
-msgstr "Siirrä"
-
-#: .es5/templates/settings/avatar_change.mustache:2
-msgid "Camera"
-msgstr "Kamera"
-
-#: .es5/templates/settings/avatar_change.mustache:3
-msgid "Clear"
-msgstr "Tyhjennä"
-
-#: .es5/templates/settings/avatar_change.mustache:4 .es5/templates/settings/clients.mustache:27 .es5/templates/settings/emails.mustache:28 .es5/templates/settings/upgrade_session.mustache:8
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:16 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
-msgid "Done"
-msgstr "Valmis"
-
-#: .es5/templates/settings/avatar_crop.mustache:1
-msgid "Avatar"
-msgstr "Avatar"
-
-#: .es5/templates/settings/avatar_crop.mustache:2
-msgid "Position and rotate your picture as needed"
-msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
-
-#: .es5/templates/settings/client_disconnect.mustache:1
-msgid "Disconnect from Sync"
-msgstr "Katkaise yhteys Sync-palveluun"
-
-#: .es5/templates/settings/client_disconnect.mustache:2
-msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-msgstr "Selaustietosi säilyvät laitteella %(deviceName)s, mutta niitä ei enää synkronoida tilisi kanssa."
-
-#: .es5/templates/settings/client_disconnect.mustache:3
-msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-msgstr "Olet katkaisemassa laitteen %(deviceName)s yhteyden Sync-palveluun, koska laite on:"
-
-#: .es5/templates/settings/client_disconnect.mustache:4
-msgid "Suspicious"
-msgstr "Epäilyttävä"
-
-#: .es5/templates/settings/client_disconnect.mustache:5
-msgid "Lost or stolen"
-msgstr "Kadonnut tai varastettu"
-
-#: .es5/templates/settings/client_disconnect.mustache:6
-msgid "Old or replaced"
-msgstr "Vanha tai vaihdettu uudempaan"
-
-#: .es5/templates/settings/client_disconnect.mustache:7
-msgid "Duplicate"
-msgstr "Kaksoiskappale"
-
-#: .es5/templates/settings/client_disconnect.mustache:8
-msgid "Rather not say"
-msgstr "En halua sanoa"
-
-#: .es5/templates/settings/client_disconnect.mustache:9 .es5/templates/settings/clients.mustache:13
-msgid "Disconnect"
-msgstr "Katkaise yhteys"
-
-#: .es5/templates/settings/client_disconnect.mustache:11
-msgid "Disconnection Successful"
-msgstr "Yhteyden katkaiseminen onnistui"
-
-#: .es5/templates/settings/clients.mustache:2
-msgid "Devices & apps"
-msgstr "Laitteet ja sovellukset"
-
-#: .es5/templates/settings/clients.mustache:3 .es5/templates/settings/upgrade_session.mustache:2
-msgid "Show"
-msgstr "Näytä"
-
-#: .es5/templates/settings/clients.mustache:6
-msgid "Current device"
-msgstr "Nykyinen laite"
-
-#: .es5/templates/settings/clients.mustache:8
-msgid "Disconnect…"
-msgstr "Katkaise…"
-
-#: .es5/templates/settings/clients.mustache:11
-msgid "Current session"
-msgstr "Nykyinen istunto"
-
-#: .es5/templates/settings/clients.mustache:15 .es5/templates/settings/account_recovery/account_recovery.mustache:11 .es5/templates/settings/account_recovery/confirm_revoke.mustache:3
-msgid "Revoke"
-msgstr "Kumoa"
-
-#: .es5/templates/settings/clients.mustache:18
-msgid "Firefox for iOS"
-msgstr "Firefox iOS:lle"
-
-#: .es5/templates/settings/clients.mustache:19 .es5/templates/settings/clients.mustache:22
-msgid "None connected"
-msgstr "Ei yhdistettyjä laitteita"
-
-#: .es5/templates/settings/clients.mustache:21
-msgid "Firefox for Android"
-msgstr "Firefox Androidille"
-
-#: .es5/templates/settings/clients.mustache:25
-msgid "Missing or duplicate items?"
-msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
-
-#: .es5/templates/settings/clients.mustache:26 .es5/templates/settings/two_step_authentication.mustache:16 .es5/templates/settings/upgrade_session.mustache:7
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:15
-msgid "Refresh status"
-msgstr "Päivitä tila"
-
-#: .es5/templates/settings/communication_preferences.mustache:1
-msgid "Email preferences"
-msgstr "Sähköpostiasetukset"
-
-#: .es5/templates/settings/delete_account.mustache:2 .es5/templates/settings/delete_account.mustache:20
-msgid "Delete account"
-msgstr "Poista tili"
-
-#: .es5/templates/settings/delete_account.mustache:3
-msgid "Delete…"
-msgstr "Poista…"
-
-#: .es5/templates/settings/delete_account.mustache:4
-msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-msgstr "Oletko aikeissa perua maksetun tilauksen? Siirry <a href=\"/subscriptions\">Tilaukset-sivulle</a>."
-
-#: .es5/templates/settings/delete_account.mustache:6
-msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-msgstr "Olet yhdistänyt Firefox-tilisi Mozillan tuotteisiin, jotka pitkävät sinut tuotteliaana ja turvassa verkossa:"
-
-#: .es5/templates/settings/delete_account.mustache:14
-msgid "Please acknowledge that by deleting your account:"
-msgstr "Huomioi, että tilisi poistamalla:"
-
-#: .es5/templates/settings/delete_account.mustache:15
-msgid "Any paid subscriptions you have will be cancelled"
-msgstr "Kaikki maksetut tilaukset perutaan"
-
-#: .es5/templates/settings/delete_account.mustache:16
-msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-msgstr "Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan"
-
-#: .es5/templates/settings/delete_account.mustache:17
-msgid "You may lose saved information and features within Mozilla products"
-msgstr "Saatat menettää Mozillan tuotteisiin tallennetut tiedot ja ominaisuudet"
-
-#: .es5/templates/settings/delete_account.mustache:18
-msgid "Reactivating with this email may not restore your saved information"
-msgstr "Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja"
-
-#: .es5/templates/settings/emails.mustache:6
-msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-msgstr "Toissijainen sähköpostiosoite on lisäosoite, jota käytetään tietoturvaan liittyviä ilmoituksia ja uusien laitteiden vahvistusta varten."
-
-#: .es5/templates/settings/emails.mustache:11
-msgid "Verification required"
-msgstr "Vahvistus vaaditaan"
-
-#: .es5/templates/settings/emails.mustache:12 .es5/templates/settings/emails.mustache:13 .es5/templates/settings/emails.mustache:16 .es5/templates/settings/emails.mustache:17
-msgid "Make primary"
-msgstr "Tee ensisijaiseksi"
-
-#: .es5/templates/settings/emails.mustache:15 .es5/templates/settings/emails.mustache:19
-msgid "Remove"
-msgstr "Poista"
-
-#: .es5/templates/settings/emails.mustache:24
-msgid "Refresh"
-msgstr "Päivitä"
-
-#: .es5/templates/settings/emails.mustache:25
-msgid "Add email"
-msgstr "Lisää sähköposti"
-
-#: .es5/templates/settings/emails.mustache:30
-msgid "Add"
-msgstr "Lisää"
-
-#: .es5/templates/settings/recovery_codes.mustache:2 .es5/templates/settings/upgrade_session.mustache:3
-msgid "NOTE:"
-msgstr "HUOMIO:"
-
-#: .es5/templates/settings/recovery_codes.mustache:3
-msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-msgstr "Kun uudet koodit luodaan, vanhoista koodeista tulee käyttökelvottomia. Talleta uudet koodit turvalliseen paikkaan."
-
-#: .es5/templates/settings/recovery_codes.mustache:4
-msgid "Generate new recovery codes"
-msgstr "Luo uudet palautuskoodit"
-
-#: .es5/templates/settings/recovery_codes.mustache:16
-msgid "Confirm a recovery code"
-msgstr "Vahvista palautuskoodi"
-
-#: .es5/templates/settings/subscription.mustache:2
-msgid "Manage…"
-msgstr "Hallitse…"
-
-#: .es5/templates/settings/totp_secret.mustache:2
-msgid "Enter this secret key into your authentication app:"
-msgstr "Kirjoita tämä salainen avain todennussovellukseesi:"
-
-#: .es5/templates/settings/two_step_authentication.mustache:2
-msgid "Two-step authentication"
-msgstr "Kaksivaiheinen todennus"
-
-#: .es5/templates/settings/two_step_authentication.mustache:3 .es5/templates/settings/account_recovery/account_recovery.mustache:3
-msgid "Enable…"
-msgstr "Ota käyttöön…"
-
-#: .es5/templates/settings/two_step_authentication.mustache:7
-msgid "Current status"
-msgstr "Nykyinen tila"
-
-#: .es5/templates/settings/two_step_authentication.mustache:8 .es5/templates/settings/account_recovery/account_recovery.mustache:8
-msgid "Enabled"
-msgstr "Käytössä"
-
-#: .es5/templates/settings/two_step_authentication.mustache:10
-msgid "Disabled"
-msgstr "Ei käytössä"
-
-#: .es5/templates/settings/two_step_authentication.mustache:11
-msgid "Disable"
-msgstr "Poista käytöstä"
-
-#: .es5/templates/settings/two_step_authentication.mustache:13
-msgid "Enable"
-msgstr "Ota käyttöön"
-
-#: .es5/templates/settings/two_step_authentication.mustache:14
-msgid "Replace recovery codes"
-msgstr "Korvaa palautuskoodit"
-
-#: .es5/templates/settings/upgrade_session.mustache:4
-msgid "Before you can view or make changes to this section, you will need to verify your email address."
-msgstr "Ennen kuin voit katsella tämän osion tietoja tai tehdä muutoksia tietoihisi, sinun tulee vahvistaa sähköpostiosoitteesi."
-
-#: .es5/templates/settings/upgrade_session.mustache:5
-msgid "Primary email"
-msgstr "Ensisijainen sähköposti"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:2
-msgid "Account recovery"
-msgstr "Tilin palauttaminen"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:6
-msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-msgstr "Luo palautusavain, jotta pääset Firefox-kirjanmerkkeihin, -salasanoihin ja synkronoituihin tietoihin, jos unohdat salasanasi."
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:7
-msgid "Recovery key"
-msgstr "Palautusavain"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:10
-msgid "Not set"
-msgstr "Ei asetettu"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:13
-msgid "Generate"
-msgstr "Luo"
-
-#: .es5/templates/settings/account_recovery/account_recovery.mustache:14
-msgid ""
-"<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-"more</a>"
-msgstr ""
-"<span class=\"note\">HUOMIO: </span>Firefox-tilisi salasana salaa Firefox-tietosi. Tietosi ovat käytettävissä vain salasanan tai palautusavaimen avulla. <a "
-"%(escapedLearnMoreLinkAttributes)s>Lisätietoja</a>"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -2048,27 +1591,6 @@ msgstr "Kirjoita salasanasi, niin näet palautusavaimesi."
 msgid "Enter Password"
 msgstr "Kirjoita salasana"
 
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:1
-msgid "Are you sure you want to revoke?"
-msgstr "Haluatko varmasti kumota?"
-
-#: .es5/templates/settings/account_recovery/confirm_revoke.mustache:2
-msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-msgstr "Palautusavainta ei voi käyttää tietojesi käyttöön, jos nollaat salasanasi."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:1
-msgid "Step 2 of 2: Save Recovery key"
-msgstr "Vaihe 2/2: Tallenna palautusavain"
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:2
-msgid ""
-"<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-msgstr "<span class=\"note\">HUOMAA: </span>Jos unohdat salasanasi, tämä avain tarvitaan tietojesi käyttämiseen. Talleta palautusavain turvalliseen paikkaan, josta löydät sen helposti myöhemmin."
-
-#: .es5/templates/settings/account_recovery/recovery_key.mustache:8
-msgid "Done, Recovery key saved"
-msgstr "Valmis, palautusavain tallennettu"
-
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Lisää toissijainen sähköpostiosoite"
@@ -2076,6 +1598,10 @@ msgstr "Lisää toissijainen sähköpostiosoite"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
 msgstr "Toissijaisen sähköpostin lisääminen auttaa pääsemään takaisin tilillesi, jos et pääse sisään tai sähköpostiisi %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Toissijainen sähköposti"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -2102,6 +1628,10 @@ msgstr "Havaitsimme epäilyttävää toimintaa Firefox-tililläsi. Aseta uusi sa
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr "Synkronoitu historia, kirjanmerkit, kirjautumistiedot ja muut henkilökohtaiset tiedot eivät häviä."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Vanha salasana"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -2238,6 +1768,10 @@ msgstr "Kirjoita palautusavain varmistaaksesi, että olet tallentanut kopion."
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Tallenna palautusavain"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Valmis"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -2406,6 +1940,347 @@ msgstr "Parita käyttäen sovellusta"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Käytitkö järjestelmän kameraa? Parittaminen tulee tehdä Firefox-sovelluksesta."
+
+#~ msgid "Change..."
+#~ msgstr "Vaihda..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Kun olet valmis, kirjaudu sisään palveluun uudella salasanalla kaikilla laitteillasi."
+
+#~ msgid "Change"
+#~ msgstr "Vaihda"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Salasana vaihdettu"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Ikävä kuulla. Sinun tulisi vaihtaa Firefox-tilisi salasana, ja etsiä laitteesi valmistajalta tietoa siitä, kuinka tyhjennät laitteesi tiedot etänä."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Ikävä kuulla. Jos kyseessä oli laite, johon et luota, sinun tulisi vaihtaa Firefox-tilisi salasana, ja vaihtaa kaikki Firefoxiin tallennetut salasanat."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Viimeksi nähty %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Viimeksi nähty yli %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Viimeksi nähty %(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Viimeksi nähty yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Viimeksi nähty %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Viimeksi nähty yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Käytetty viimeksi %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Käytetty viimeksi %(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Käytetty viimeksi %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Käytetty viimeksi yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Yli %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Yli %(translatedTimeAgo)s maassa %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Yli %(translatedTimeAgo)s lähellä paikkaa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Verkkoistunto, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Verkkoistunto"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Viimeksi nähty -ajankohta tuntematon"
+
+#~ msgid "Change…"
+#~ msgstr "Muuta…"
+
+#~ msgid "Add…"
+#~ msgstr "Lisää…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Valitse nimi, jonka haluavat näkyvän Firefoxissa ja hallinnoidessasi tiliä."
+
+#~ msgid "Display name updated"
+#~ msgstr "Näyttönimi päivitetty"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Toissijainen sähköposti poistetiin"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Vahvistussähköposti lähetettiin"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Asetettiin %(email)s ensisijaiseksi sähköpostiksi"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Uudet palautuskoodit luotu"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Kaksivaiheinen todennus poistettu käytöstä"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Kaksivaiheinen todennus"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Tilin palauttaminen"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Tilin palauttaminen peruutettu"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Luottokorttisi on vanhentunut. Päivitä luottokorttitietosi <a %(escapedCcExpiredLinkAttrs)s>tästä</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "Take picture"
+#~ msgstr "Ota kuva"
+
+#~ msgid "Upload"
+#~ msgstr "Siirrä"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Kohdista ja käännä kuvaa tarpeen mukaan"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Katkaise yhteys Sync-palveluun"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Selaustietosi säilyvät laitteella %(deviceName)s, mutta niitä ei enää synkronoida tilisi kanssa."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Olet katkaisemassa laitteen %(deviceName)s yhteyden Sync-palveluun, koska laite on:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Epäilyttävä"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Kadonnut tai varastettu"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Vanha tai vaihdettu uudempaan"
+
+#~ msgid "Duplicate"
+#~ msgstr "Kaksoiskappale"
+
+#~ msgid "Rather not say"
+#~ msgstr "En halua sanoa"
+
+#~ msgid "Disconnect"
+#~ msgstr "Katkaise yhteys"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Yhteyden katkaiseminen onnistui"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Laitteet ja sovellukset"
+
+#~ msgid "Show"
+#~ msgstr "Näytä"
+
+#~ msgid "Current device"
+#~ msgstr "Nykyinen laite"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Katkaise…"
+
+#~ msgid "Current session"
+#~ msgstr "Nykyinen istunto"
+
+#~ msgid "Revoke"
+#~ msgstr "Kumoa"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox iOS:lle"
+
+#~ msgid "None connected"
+#~ msgstr "Ei yhdistettyjä laitteita"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox Androidille"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Puuttuuko jokin tai onko jokin kahteen kertaan?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Päivitä tila"
+
+#~ msgid "Email preferences"
+#~ msgstr "Sähköpostiasetukset"
+
+#~ msgid "Delete account"
+#~ msgstr "Poista tili"
+
+#~ msgid "Delete…"
+#~ msgstr "Poista…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Oletko aikeissa perua maksetun tilauksen? Siirry <a href=\"/subscriptions\">Tilaukset-sivulle</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Olet yhdistänyt Firefox-tilisi Mozillan tuotteisiin, jotka pitkävät sinut tuotteliaana ja turvassa verkossa:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Huomioi, että tilisi poistamalla:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Kaikki maksetut tilaukset perutaan"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Saatat menettää Mozillan tuotteisiin tallennetut tiedot ja ominaisuudet"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Toissijainen sähköpostiosoite on lisäosoite, jota käytetään tietoturvaan liittyviä ilmoituksia ja uusien laitteiden vahvistusta varten."
+
+#~ msgid "Verification required"
+#~ msgstr "Vahvistus vaaditaan"
+
+#~ msgid "Make primary"
+#~ msgstr "Tee ensisijaiseksi"
+
+#~ msgid "Remove"
+#~ msgstr "Poista"
+
+#~ msgid "Refresh"
+#~ msgstr "Päivitä"
+
+#~ msgid "Add email"
+#~ msgstr "Lisää sähköposti"
+
+#~ msgid "Add"
+#~ msgstr "Lisää"
+
+#~ msgid "NOTE:"
+#~ msgstr "HUOMIO:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Kun uudet koodit luodaan, vanhoista koodeista tulee käyttökelvottomia. Talleta uudet koodit turvalliseen paikkaan."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Luo uudet palautuskoodit"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Vahvista palautuskoodi"
+
+#~ msgid "Manage…"
+#~ msgstr "Hallitse…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Kirjoita tämä salainen avain todennussovellukseesi:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Kaksivaiheinen todennus"
+
+#~ msgid "Enable…"
+#~ msgstr "Ota käyttöön…"
+
+#~ msgid "Current status"
+#~ msgstr "Nykyinen tila"
+
+#~ msgid "Enabled"
+#~ msgstr "Käytössä"
+
+#~ msgid "Disabled"
+#~ msgstr "Ei käytössä"
+
+#~ msgid "Disable"
+#~ msgstr "Poista käytöstä"
+
+#~ msgid "Enable"
+#~ msgstr "Ota käyttöön"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Korvaa palautuskoodit"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Ennen kuin voit katsella tämän osion tietoja tai tehdä muutoksia tietoihisi, sinun tulee vahvistaa sähköpostiosoitteesi."
+
+#~ msgid "Primary email"
+#~ msgstr "Ensisijainen sähköposti"
+
+#~ msgid "Account recovery"
+#~ msgstr "Tilin palauttaminen"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Luo palautusavain, jotta pääset Firefox-kirjanmerkkeihin, -salasanoihin ja synkronoituihin tietoihin, jos unohdat salasanasi."
+
+#~ msgid "Recovery key"
+#~ msgstr "Palautusavain"
+
+#~ msgid "Not set"
+#~ msgstr "Ei asetettu"
+
+#~ msgid "Generate"
+#~ msgstr "Luo"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">HUOMIO: </span>Firefox-tilisi salasana salaa Firefox-tietosi. Tietosi ovat käytettävissä vain salasanan tai palautusavaimen avulla. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Lisätietoja</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Haluatko varmasti kumota?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Palautusavainta ei voi käyttää tietojesi käyttöön, jos nollaat salasanasi."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Vaihe 2/2: Tallenna palautusavain"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr "<span class=\"note\">HUOMAA: </span>Jos unohdat salasanasi, tämä avain tarvitaan tietojesi käyttämiseen. Talleta palautusavain turvalliseen paikkaan, josta löydät sen helposti myöhemmin."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Valmis, palautusavain tallennettu"
 
 #~ msgid "Please Select One"
 #~ msgstr "Valitse yksi"
