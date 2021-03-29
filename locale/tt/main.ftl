@@ -37,6 +37,7 @@ privacy = Хосусыйлык сәясәте
 
 ## Product route
 
+product-plan-not-found = План табылмады
 
 ## payment legal blurb
 
@@ -47,6 +48,8 @@ payment-cc =
     .label = Сезнең карта
 payment-cvc =
     .label = CVC
+payment-zip =
+    .label = Почта индексы
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -54,12 +57,16 @@ payment-cvc =
 ##
 
 payment-cancel-btn = Баш тарту
+payment-update-btn = Яңарту
+payment-validate-zip-required = Почта индексы кирәк
+payment-validate-zip-short = Почта индексы артык кыска
 
 ## subscription redirect
 
 
 ## fields
 
+input-error-is-required = { $label } кирәк
 
 ## subscription upgrade
 
@@ -83,6 +90,7 @@ payment-cancel-btn = Баш тарту
 
 ##
 
+pay-update-change-btn = Үзгәртү
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-25 22:07+0000\n"
-"PO-Revision-Date: 2021-03-24 23:58+0000\n"
+"PO-Revision-Date: 2021-03-29 13:50+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -584,11 +584,11 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "5 минуттан аның вакыты чыгачак. Адрес расланганнан соң, хәвефсезлек турындагы белдерүләр һәм раслаулар бу адреска да җибәреләчәк."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Теркәлүче Сезме?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code:"
@@ -616,7 +616,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Бу автоматик бер электрон хат. Әгәр бу гамәлгә рөхсәт бирмәгән булсагыз, зинһар <a %(passwordChangeLinkAttributes)s>паролыгызны үзгәртегез</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -696,11 +696,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "Хокукый мәсьәләләр"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "Хосусыйлык"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -708,7 +708,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Хоусыйлык аңлатмасы:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
@@ -756,7 +756,7 @@ msgstr "Эл. почтаны раслау"
 
 #: lib/senders/email.js:615
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Раслау коды: %(code)s"
 
 #: lib/senders/email.js:656
 msgid "Reminder: Finish creating your account"
@@ -784,11 +784,11 @@ msgstr ""
 
 #: lib/senders/email.js:893 lib/senders/email.js:952 lib/senders/email.js:1020
 msgid "Verify email"
-msgstr ""
+msgstr "Эл. почтаны раслау"
 
 #: lib/senders/email.js:951 lib/senders/email.js:1019
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Икенчел эл. почтаны раслау"
 
 #: lib/senders/email.js:1075
 msgid "Reset your password"
@@ -825,15 +825,15 @@ msgstr ""
 
 #: lib/senders/email.js:1576
 msgid "Recovery code used"
-msgstr ""
+msgstr "Коткару коды кулланылды"
 
 #: lib/senders/email.js:1629
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 коткару коды калды"
 
 #: lib/senders/email.js:1631
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s коткару коды калды"
 
 #: lib/senders/email.js:1634
 msgid "Generate codes"
@@ -885,7 +885,7 @@ msgstr ""
 
 #: lib/senders/email.js:2462
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "%(productName)s-ка рәхим итегез"
 
 #: lib/senders/email.js:2463
 msgid "Download %(productName)s"
@@ -917,6 +917,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Сез сораган бит табылмады. Без моның турында хәбәр алдык,\n"
+"һәм хаталы булырга мөмкин сылтамаларны төзәтәчәкбез."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -931,6 +933,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Ий Ходаем, монда нидер булды. Моның хәбәрен алдык\n"
+"һәм бу хатаны төзәтү өстендә эшләячәкбез."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -945,6 +949,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Хәзерге вакытта без авыр йөк астындабыз һәм системаны мөмкин \n"
+"          булганча тиз арада нормаль хәленә китерү өстендә эшлибез."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -964,7 +970,7 @@ msgstr "Куллану шартлары"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox'ны яңарту кирәк"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -988,8 +994,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</"
-#~ "a> өчен Firefox кулланмаларыннан да, керә аласыз."
+#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</a> "
+#~ "өчен Firefox кулланмаларыннан да, керә аласыз."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән Android һәм iOS өчен Firefox кулланмаларыннан да, керә аласыз."
