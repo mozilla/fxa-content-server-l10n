@@ -51,6 +51,8 @@ app-footer-terms-of-service = Куллану Шартлары
 
 avatar-your-avatar =
     .alt = Сезнең аватар
+avatar-default-avatar =
+    .alt = Стандарт аватар
 
 ##
 
@@ -63,6 +65,7 @@ avatar-your-avatar =
 
 ## Connected services section
 
+cs-heading = Тоташтырылган Хезмәтләр
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -87,6 +90,7 @@ datablock-print =
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Коткару кодлары
 get-data-trio-download =
     .title = Йөкләп алу
 get-data-trio-copy =
@@ -122,7 +126,12 @@ avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-close-button = Ябу
 avatar-page-save-button = Саклау
+avatar-page-zoom-out-button = Кечерәйтү
+avatar-page-zoom-in-button = Зурайту
+avatar-page-rotate-button = Борып кую
 avatar-page-camera-error = Камераны кабызып булмады
+avatar-page-new-avatar =
+    .alt = яңа профиль рәсеме
 
 ##
 
@@ -143,6 +152,8 @@ pw-change-new-password =
 
 delete-account-header =
     .title = Хисапны бетерү
+delete-account-step-1-2 = Адым 1/2
+delete-account-step-2-2 = Адым 2/2
 delete-account-close-button = Ябу
 delete-account-continue-button = Дәвам итү
 delete-account-password-input =
@@ -171,6 +182,10 @@ recovery-key-close-button = Ябу
 recovery-key-continue-button = Дәвам итү
 recovery-key-enter-password =
     .label = Паролны кертү
+recovery-key-page-title =
+    .title = Коткару ачкычы
+recovery-key-step-1 = Адым 1/2
+recovery-key-step-2 = Адым 2/2
 
 ## Add secondary email page
 
@@ -196,8 +211,12 @@ delete-account-link = Хисапны бетерү
 ## Two Step Authentication
 
 tfa-title = Ике адымлы аутентификация
+tfa-step-1-3 = Адым 1/3
+tfa-step-2-3 = Адым 2/3
+tfa-step-3-3 = Адым 3/3
 tfa-button-continue = Дәвам итү
 tfa-button-cancel = Баш тарту
+tfa-button-finish = Әзер
 tfa-enabled = Ике адымлы аутентификация кабызылды
 
 ##
@@ -214,9 +233,12 @@ tfa-enabled = Ике адымлы аутентификация кабызылд�
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Өстәү
+row-defaults-action-change = Үзгәртү
 
 ## Recovery key sub-section on main Settings page
 
+rk-action-remove = Бетерү
 
 ## Secondary email sub-section on main Settings page
 
@@ -231,9 +253,13 @@ se-heading = Икенчел эл. почта адресы
 tfa-row-heading =
     .header = Ике адымлы аутентификация
 tfa-row-disabled = Ике адымлы аутентификация сүндерелде.
+tfa-row-action-add = Өстәү
+tfa-row-change-modal-confirm = Үзгәртү
 
 ## Avatar sub-section on main Settings page
 
+avatar-add-link = Өстәү
+avatar-change-link = Үзгәртү
 
 ## Auth-server based errors that originate from backend service
 

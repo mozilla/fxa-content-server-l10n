@@ -104,6 +104,7 @@ reactivate-success-button = Ябу
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
 
 ## subscription route index
 
@@ -113,12 +114,15 @@ reactivate-success-button = Ябу
 
 ## plan-details
 
+plan-details-total-label = Барлыгы
 
 ## payment-processing
 
 
 ## payment confirmation
 
+payment-confirmation-thanks-heading = Рәхмәт!
+payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
