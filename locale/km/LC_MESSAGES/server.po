@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-25 22:07+0000\n"
-"PO-Revision-Date: 2017-11-23 10:37+0000\n"
-"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
+"PO-Revision-Date: 2020-10-19 05:38+0000\n"
+"Last-Translator: Sophat <sophatchy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2493
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "នេះជាការរំលឹករបស់អ្នកដើម្បីធ្វើសមកាលកម្មឧបករណ៍។"
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2497
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -981,13 +981,15 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ឥឡូវ​នេះ​អ្នក​អាច​ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម​ពី​ឧបករណ៍​ផ្សេង​ទៀត ដោយ​រួម​បញ្ចូល​ទាំង Firefox សម្រាប់ <a href='%(androidUrl)s'> Android </a> និង <a href='%(iosUrl)s'>iOS</a>។"
+#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ឥឡូវ​នេះ​អ្នក​អាច​ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម​ពី​ឧបករណ៍​ផ្សេង​ទៀត ដោយ​រួម​បញ្ចូល​ទាំង Firefox សម្រាប់ <a href='%(androidUrl)s'> "
+#~ "Android </a> និង <a href='%(iosUrl)s'>iOS</a>។"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ដើម្បី​បាន​ប្រយោជន៍​កាន់​តែ​ច្រើន​ពី​ការ​ធ្វើ​សមកាលកម្ម សូម​ភ្ជាប់ <a href='%(androidUrl)s'>Firefox សម្រាប់ Android</a> ឬ <a href='%(iosUrl)s'>Firefox សម្រាប់ iOS</a>។"
+#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ដើម្បី​បាន​ប្រយោជន៍​កាន់​តែ​ច្រើន​ពី​ការ​ធ្វើ​សមកាលកម្ម សូម​ភ្ជាប់ <a href='%(androidUrl)s'>Firefox សម្រាប់ Android</a> ឬ <a "
+#~ "href='%(iosUrl)s'>Firefox សម្រាប់ iOS</a>។"
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម"
