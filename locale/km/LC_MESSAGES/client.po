@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-25 22:07+0000\n"
-"PO-Revision-Date: 2019-01-08 04:57+0000\n"
-"Last-Translator: Sovichet <sovichet.tep@gmail.com>\n"
+"PO-Revision-Date: 2020-10-19 05:37+0000\n"
+"Last-Translator: Sophat <sophatchy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr "គណនី​លែង​មាន​ទៀត​ហើយ។ បង�
 
 #: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr ""
+msgstr "ផ្សេងទៀត"
 
 #: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -830,9 +830,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -902,8 +900,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1940,7 +1937,9 @@ msgstr ""
 #~ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក រួច​​រក​មើល​ព័ត៌មាន​ពី​រោងចក្រ​ឧបករណ៍​របស់​អ្នក​អំពី​ការលុប​ទិន្នន័យ​របស់​អ្នក​ពី​ចម្ងាយ។"
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
+#~ msgstr ""
+#~ "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក "
+#~ "និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "សកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
