@@ -70,6 +70,19 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servizos conectados
+cs-description = Todo o que está a utilizar e para o que asinou.
+cs-cannot-refresh = Desculpe, a recarga da lista de servizos conectados sufriu un problema.
+cs-cannot-disconnect = Non se atopou o cliente, non foi posíbel desconectar.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = A sesión en { $service } está cerrada.
+cs-refresh-button =
+    .title = Recargar os servizos conectados
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Elementos que faltan ou están duplicados?
+cs-disconnect-sync-heading = Desconectar de Sync
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
