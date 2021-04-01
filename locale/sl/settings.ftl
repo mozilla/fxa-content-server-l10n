@@ -414,6 +414,7 @@ tfa-row-disable-modal-explain =
     Tega dejanja ne morete razveljaviti. Imate tudi
     možnost <linkExternal>zemanjave kod za obnovitev</linkExternal>.
 tfa-row-cannot-disable = Overitve v dveh korakih ni bilo mogoče izključiti.
+tfa-row-change-modal-heading = Spremeni obnovitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
