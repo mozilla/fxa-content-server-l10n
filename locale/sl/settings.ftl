@@ -188,12 +188,15 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Fotografiraj znova
 avatar-page-close-button = Zapri
 avatar-page-save-button = Shrani
+avatar-page-saving-button = Shranjevanje …
 avatar-page-zoom-out-button = Pomanjšaj
 avatar-page-zoom-in-button = Povečaj
 avatar-page-rotate-button = Zavrti
 avatar-page-camera-error = Kamere ni bilo mogoče zagnati
 avatar-page-new-avatar =
     .alt = nova slika profila
+avatar-page-file-upload-error-2 = Prišlo je do napake pri nalaganju slike profila.
+avatar-page-delete-error-2 = Prišlo je do napake pri brisanju slike profila.
 avatar-page-image-too-large-error = Datoteka s sliko je prevelika za nalaganje.
 
 ##
@@ -272,6 +275,7 @@ recovery-key-page-title =
     .title = Obnovitveni ključ
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
+recovery-key-success-alert = Obnovitveni ključ ustvarjen.
 
 ## Add secondary email page
 
