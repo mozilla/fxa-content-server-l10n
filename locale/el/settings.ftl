@@ -59,6 +59,7 @@ avatar-default-avatar =
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κινητά ή tablet
 
 ##
 
@@ -66,6 +67,7 @@ avatar-default-avatar =
 ## Connected services section
 
 cs-heading = Συνδεδεμένες υπηρεσίες
+cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, δεν είναι δυνατή η αποσύνδεση
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -136,6 +138,8 @@ nav-email-comm = Επικοινωνία μέσω email
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Προέκυψε πρόβλημα κατά την αντικατάσταση των κωδικών ανάκτησής σας.
+tfa-replace-code-success-alert = Οι κωδικοί ανάκτησης του λογαριασμού ενημερώθηκαν.
 
 ## Avatar change page
 
@@ -277,6 +281,10 @@ profile-display-name =
     .header = Εμφανιζόμενο όνομα
 profile-password =
     .header = Κωδικός πρόσβασης
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Δημιουργήθηκε στις { $date }
 profile-primary-email =
     .header = Κύριο email
 

@@ -29,6 +29,8 @@ payment-error-retry-button = Δοκιμή ξανά
 payment-error-manage-subscription-button = Διαχείριση συνδρομής
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
 currency-currency-mismatch = Λυπούμαστε, δεν μπορείτε να κάνετε εναλλαγή νομισμάτων.
+returning-paypal-customer-error = Λυπούμαστε, προς το παρόν μπορείτε να κάνετε μόνο μία συνδρομή κάθε φορά. Παρακαλούμε ελέγξτε ξανά σύντομα.
+no-subscription-upgrades = Λυπούμαστε, δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσετε τη συνδρομή σας προς το παρόν. Παρακαλούμε ελέγξτε ξανά σύντομα.
 expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
 insufficient-funds-error = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 withdrawal-count-limit-exceeded-error = Φαίνεται πως αυτή η συναλλαγή θα υπερβεί το πιστωτικό σας όριο. Δοκιμάστε με μια άλλη κάρτα.
@@ -98,6 +100,7 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυ
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-stripe-and-paypal-2 = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> και την <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-paypal = Δείτε την <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
@@ -366,6 +369,7 @@ payment-processing-message = Παρακαλούμε περιμένετε όσο 
 payment-confirmation-alert = Κάντε κλικ εδώ για λήψη
 payment-confirmation-mobile-alert = Δεν άνοιξε η εφαρμογή; <a>Κάντε κλικ εδώ</a>
 payment-confirmation-thanks-heading = Ευχαριστούμε!
+payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα email επιβεβαίωσης στο { $email } με βασικές οδηγίες για τη λειτουργία του { $product_name }.
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
 payment-confirmation-billing-heading = Χρέωση σε
@@ -399,3 +403,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } κάθε { $intervalCount } χρόνια
     }
 payment-confirmation-download-button = Συνέχεια στη λήψη
+payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
