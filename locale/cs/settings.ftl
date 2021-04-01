@@ -117,6 +117,7 @@
                 [lower] účtem Firefoxu
             }
     }
+product-mozilla-vpn = Mozilla VPN
 product-firefox-monitor =
     { $case ->
        *[nom] Firefox Monitor
@@ -130,6 +131,8 @@ product-firefox-monitor =
 
 ##
 
+-google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
@@ -159,6 +162,9 @@ avatar-default-avatar =
 ## Connect another device promo
 
 connect-another-fx-mobile = Získejte { -brand-firefox(case: "acc") } na mobil nebo tablet
+connect-another-find-fx-mobile =
+    { -brand-firefox(case: "acc") } najdete na { -google-play(case: "loc") } a { -app-store(case: "loc") },
+    <br />nebo si <linkExternal>nechte poslat odkaz do svého zařízení</linkExternal>.
 
 ##
 
@@ -241,8 +247,6 @@ header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
-header-switch-title = Přepnout na klasický vzhled
-    .title = přepne na klasický vzhled
 header-help = Nápověda
 
 ## Settings Nav
@@ -279,6 +283,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Znovu pořídit fotografii
 avatar-page-close-button = Zavřít
 avatar-page-save-button = Uložit
+avatar-page-saving-button = Ukládání…
 avatar-page-zoom-out-button = Zmenšit
 avatar-page-zoom-in-button = Zvětšit
 avatar-page-rotate-button = Otočit
@@ -322,6 +327,7 @@ delete-account-header =
     .title = Smazat účet
 delete-account-step-1-2 = Krok 1 ze 2
 delete-account-step-2-2 = Krok 2 ze 2
+delete-account-confirm-title-2 = Připojili jste svůj { -product-firefox-account(case: "acc", capitalization: "lower") } k produktům { -brand-mozilla(case: "gen") }, které vám na webu pomohou zajistit bezpečí a produktivitu:
 delete-account-acknowledge = Potvrďte prosím, že smazáním účtu:
 delete-account-chk-box-1 =
     .label = budou zrušena všechna vaše předplatná
