@@ -49,6 +49,10 @@ app-footer-terms-of-service = Όροι υπηρεσίας
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Το avatar σας
+avatar-default-avatar =
+    .alt = Προεπιλεγμένο avatar
 
 ##
 
@@ -119,8 +123,6 @@ header-menu-closed = Μενού πλοήγησης ιστοσελίδας
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = { -product-firefox-accounts }
-header-switch-title = Εναλλαγή σε κλασική εμφάνιση
-    .title = σύνδεσμος κλασικής εμφάνισης
 header-help = Βοήθεια
 
 ## Settings Nav

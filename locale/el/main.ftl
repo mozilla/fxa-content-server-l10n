@@ -24,6 +24,7 @@ general-error-heading = Γενικό σφάλμα εφαρμογής
 basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
 payment-error-1 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
 payment-error-2 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
+payment-error-3b = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά.
 payment-error-retry-button = Δοκιμή ξανά
 payment-error-manage-subscription-button = Διαχείριση συνδρομής
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
@@ -53,6 +54,7 @@ subscription-create-title = Ρύθμιση συνδρομής
 subscription-success-title = Επιβεβαίωση συνδρομής
 subscription-processing-title = Επιβεβαίωση συνδρομής...
 subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής...
+subscription-noupgrade-title = Δεν υποστηρίζονται αλλαγές επιπέδου συνδρομής
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,6 +97,11 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυ
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-copy-paypal = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-paypal = Δείτε την <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
+payment-legal-link-stripe-2 = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -352,6 +359,7 @@ plan-details-total-label = Σύνολο
 
 ## payment-processing
 
+payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
 
 ## payment confirmation
 
