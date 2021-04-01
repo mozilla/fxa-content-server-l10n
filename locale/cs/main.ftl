@@ -65,6 +65,28 @@ project-brand =
         [ins] Firefoxem
     }
     .gender = masculine
+-brand-name-paypal =
+    { $case ->
+       *[nom] PayPal
+        [gen] PayPalu
+        [dat] PayPalu
+        [acc] PayPal
+        [voc] PayPale
+        [loc] PayPalu
+        [ins] PayPalem
+    }
+    .gender = masculine
+-brand-name-stripe =
+    { $case ->
+       *[nom] Stripe
+        [gen] Stripu
+        [dat] Stripu
+        [acc] Stripe
+        [voc] Stripe
+        [loc] Stripu
+        [ins] Stripem
+    }
+    .gender = masculine
 document =
     .title = Účet Firefoxu
 
@@ -158,6 +180,12 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-name-paypal(case: "acc") }.
+payment-legal-link-stripe-and-paypal-2 = Přečtěte si zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-paypal(case: "acc") }.
+payment-legal-link-paypal = Přečtěte si zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
+payment-legal-link-stripe-2 = Přečtěte si zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
