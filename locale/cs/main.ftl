@@ -79,6 +79,13 @@ general-error-heading = Obecná chyba aplikace
 basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
 payment-error-1 = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
 payment-error-2 = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
+payment-error-3b = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
+payment-error-retry-button = Zkusit znovu
+payment-error-manage-subscription-button = Správa předplatného
+country-currency-mismatch = Měna použitá pro toto předplatné není platná pro zemi spojenou s vaší platbou.
+currency-currency-mismatch = Změna měny bohužel není možná.
+returning-paypal-customer-error = Nyní můžete mít zároveň pouze jeden program předplatného. Zkuste to prosím později.
+no-subscription-upgrades = Nyní bohužel nelze program vašeho předplatného změnit. Zkuste to prosím později.
 expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
 insufficient-funds-error = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
 withdrawal-count-limit-exceeded-error = Vypadá to, že je vyčerpán limit vaší karty. Zkuste použít jinou.
@@ -98,10 +105,13 @@ settings-subscriptions-title = Předplatné
 terms = Podmínky služby
 privacy = Zásady ochrany osobních údajů
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Pojďme nastavit vaše předplatné
-product-plan-details-heading = Pojďme nastavit vaše předplatné
+subscription-create-title = Nastavení předplatného
+subscription-success-title = Potvrzení předplatného
+subscription-processing-title = Potvrzování předplatného…
+subscription-error-title = Potvrzení předplatného se nezdařilo…
+subscription-noupgrade-title = Změna programu předplatného není podporována
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -148,8 +158,6 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb Stripe a Paypal.
-payment-legal-link-stripe-paypal = Přečtěte si zásady ochrany osobních údajů pro služby <stripePrivacyLink>Stripe</stripePrivacyLink> a <paypalPrivacyLink>Paypal</paypalPrivacyLink>.
 
 ## payment form
 
@@ -229,8 +237,7 @@ input-error-is-required = Pole „{ $label }“ je povinné
 
 product-plan-upgrade-heading = Zkontrolujte povýšení
 sub-update-failed = Nepodařilo se změnit vaše předplatné
-sub-update-title = Platební údaje
-sub-update-card-ending = Platnost karty do { $last }
+sub-update-payment-title = Platební informace
 sub-update-card-exp = Konec platnosti { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
 
@@ -371,6 +378,7 @@ sub-item-missing = Předplatné se nepodařilo načíst
 sub-item-missing-msg = Zkuste to prosím znovu později.
 sub-item-no-such-plan = Takové předplatné pro neexistuje.
 sub-item-cancel-sub = Zrušit předplatné
+sub-item-stay-sub = Zachovat předplatné
 account-activated = Váš účet účet je aktivován.
 
 ## subscription route index
@@ -401,13 +409,15 @@ plan-details-show-button = Zobrazit podrobnosti
 plan-details-hide-button = Skrýt podrobnosti
 plan-details-total-label = Celkem
 
+## payment-processing
+
+payment-processing-message = Počkejte prosím na zpracování vaší platby…
+
 ## payment confirmation
 
 payment-confirmation-alert = Klepněte zde pro stažení
 payment-confirmation-mobile-alert = Aplikace se neotevřela? <a>Klepněte zde</a>
-payment-confirmation-heading = Děkujeme vám!
-payment-confirmation-heading-bak = Děkujeme vám!
-payment-confirmation-subheading = Poslali jsme vám potvrzovací e-mail
+payment-confirmation-thanks-heading = Děkujeme!
 payment-confirmation-order-heading = Detaily objednávky
 payment-confirmation-invoice-number = Faktura č. { $invoiceNumber }
 payment-confirmation-billing-heading = Účtováno
@@ -444,5 +454,5 @@ payment-confirmation-amount-year =
         [few] { $amount } každé { $intervalCount } roky
        *[other] { $amount } každých { $intervalCount } let
     }
-payment-confirmation-cc-preview = až do { $last4 }
 payment-confirmation-download-button = Pokračovat ke stažení
+payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
