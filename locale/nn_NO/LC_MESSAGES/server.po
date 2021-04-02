@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 13:12+0000\n"
+"PO-Revision-Date: 2021-04-02 13:19+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -500,7 +500,7 @@ msgstr "Betalingskortet du brukar for å utføre betalingar for følgjande abonn
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Har du spørsmål om abonnementet ditt? <a href=\"%(subscriptionSupportUrl)s\"> Brukarstøtta</a> vår står klar til å hjelpe deg."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -508,7 +508,7 @@ msgstr "Har du spørsmål om abonnementa dine? Supportteamet vårt står klar ti
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Vi har oppdaga eit problem med betalingsmåten din for følgjande abonnement."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -624,7 +624,7 @@ msgstr "Er det du som registrerer deg?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Om ja, bruk denne stadfestingskoden i registreringsskjemaet:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -897,11 +897,11 @@ msgstr "Betalingskortet for abonnementa dine ugår snart ut"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Oppdatering av betalingsinformasjon er påkravd for %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Oppdatering av betalingsinformasjon er påkravd for Mozilla-abonnementa"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"
