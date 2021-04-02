@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 05:50+0000\n"
+"PO-Revision-Date: 2021-04-02 05:53+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -634,7 +634,7 @@ msgstr "¿Te estás registrando?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Si es así, usá este código de verificación en el formulario de registración:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -907,11 +907,11 @@ msgstr "La tarjeta de crédito para sus suscripciones va a caducar pronto"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Actualización de la información de pago requerida para %(productName)s."
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Actualización de la información de pago requerida para las suscripciones de Mozilla."
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"

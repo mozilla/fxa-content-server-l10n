@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = cuenta de Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,13 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 
 ## Connect another device promo
 
@@ -136,6 +144,9 @@ datablock-copy =
 datablock-print =
     .message = Impresas
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperación
@@ -153,9 +164,17 @@ header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Ir arriba
 header-title = { -product-firefox-accounts }
-header-switch-title = Cambiar a diseño clásico
-    .title = enlace de diseño clásico
 header-help = Ayuda
+
+## Modal
+
+modal-close-title = Cerrar
+modal-cancel-button = Cancelar
+
+## Modal Verify Session
+
+msv-cancel-button = Cancelar
+msv-submit-button = Verificar
 
 ## Settings Nav
 
@@ -389,7 +408,8 @@ row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Habilitado
+rk-header = Clave de recuperación
+rk-enabled = Habilitada
 rk-not-set = No establecida
 rk-action-create = Crear
 rk-action-remove = Eliminar
@@ -404,6 +424,7 @@ rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 rk-remove-modal-content =
     En el caso de que restablezcas tu contraseña, no 
     podrás usar tu clave de recuperación para acceder a tus datos. No podés deshacer esta acción.
+rk-remove-error = La clave de recuperación de la cuenta no pudo ser eliminada.
 
 ## Secondary email sub-section on main Settings page
 
@@ -445,8 +466,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticación de dos pasos
+tfa-row-header = Autenticación de dos pasos
 tfa-row-disabled = Autenticación de dos pasos desactivada.
 tfa-row-enabled = Habilitada
 tfa-row-not-set = No establecida
