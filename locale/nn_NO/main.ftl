@@ -330,6 +330,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem med å laste inn kunde
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
+sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
 sub-route-invalid-payment = Ugyldig betalingsinformation - det er ein feil med kontoen din.<div>Handter</div>
 pay-update-manage-btn = Handter
 
@@ -356,6 +357,7 @@ payment-processing-message = Vent mens vi behandlar betalinga di...
 payment-confirmation-alert = Trykk her for å laste ned
 payment-confirmation-mobile-alert = Opna ikkje appen? <a>Klikk her</a>
 payment-confirmation-thanks-heading = Takk skal du ha!
+payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 payment-confirmation-billing-heading = Faktura til:
