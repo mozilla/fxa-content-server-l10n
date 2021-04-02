@@ -39,6 +39,7 @@
         [add] Firefox-ანგარიშთან
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -70,6 +71,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } Bento-მენიუ
+bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
+bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
+bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -150,6 +162,10 @@ datablock-copy =
 datablock-print =
     .message = ამოიბეჭდა
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = აღდგენის გასაღებები
@@ -167,9 +183,13 @@ header-menu-closed = საიტზე გადაადგილების 
 header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
 header-title = { -product-firefox-accounts }
-header-switch-title = ძველი იერსახის დაბრუნება
-    .title = ძველი იერსახის ბმული
 header-help = დახმარება
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -407,7 +427,6 @@ row-defaults-status = არცერთი
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = ჩართულია
 rk-not-set = არაა დაყენებული
 rk-action-create = შექმნა
 rk-action-remove = მოცილება
@@ -463,8 +482,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = ორსაფეხურიანი დამოწმება შესვლისას
 tfa-row-disabled = ორსაფეხურიანი დამოწმება გამორთულია
 tfa-row-enabled = ჩართულია
 tfa-row-not-set = არაა დაყენებული

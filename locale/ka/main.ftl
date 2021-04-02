@@ -345,6 +345,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = ხარვეზი, მომხმარებლის ჩატვირთვისას
 sub-billing-update-success = თქვენი ანგარიშსწორების მონაცემები წარმატებით განახლდა
+sub-route-payment-modal-heading = ანგარიშსწორების არასწორი მონაცემები
+sub-route-payment-modal-copy = როგორც ჩანს, თქვენს { -brand-name-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად, სათანადო ზომების მიღება დაგვჭირდება.
+sub-route-invalid-payment = გადახდის არასწორი მონაცემები, შეცდომა წარმოიშვა თქვენს ანგარიშზე. <div>მართვა</div>
+pay-update-manage-btn = მართვა
 
 ## subscription create
 
