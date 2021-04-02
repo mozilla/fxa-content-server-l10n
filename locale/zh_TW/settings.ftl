@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 帳號
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,16 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
+bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
+bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 
 ## Connect another device promo
 
@@ -120,6 +131,16 @@ datablock-copy =
 datablock-print =
     .message = 已列印
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account } 選單
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
+drop-down-menu-sign-out = 登出
+drop-down-menu-sign-out-error = 很抱歉，將您登出時發生問題。
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = 救援碼
@@ -137,9 +158,23 @@ header-menu-closed = 網站導航選單
 header-back-to-top-link =
     .title = 回到頁面頂端
 header-title = { -product-firefox-accounts }
-header-switch-title = 切換回經典設計風格
-    .title = 經典設計鏈結
 header-help = 說明
+
+## Modal
+
+modal-close-title = 關閉
+modal-cancel-button = 取消
+
+## Modal Verify Session
+
+mvs-verify-your-email = 驗證您的電子郵件信箱
+mvs-enter-verification-code = 請輸入驗證碼
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = 請於 5 分鐘內輸入發送到 <email>{ $email }</email> 的驗證碼。
+msv-cancel-button = 取消
+msv-submit-button = 驗證
 
 ## Settings Nav
 
@@ -363,7 +398,8 @@ row-defaults-status = 無
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = 已啟用
+rk-header = 救援金鑰
+rk-enabled = 啟用
 rk-not-set = 未設定
 rk-action-create = 建立
 rk-action-remove = 移除
@@ -376,6 +412,8 @@ rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
 rk-cannot-verify-session-2 = 很抱歉，確認您的連線階段時發生問題。
 rk-remove-modal-heading = 要移除救援金鑰嗎？
 rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
+rk-refresh-error = 很抱歉，重新整理救援金鑰時發生問題。
+rk-remove-error = 無法刪除您的帳號救援金鑰。
 
 ## Secondary email sub-section on main Settings page
 
@@ -413,8 +451,7 @@ se-content-note = 註: 設定次要電子郵件帳號無法恢復您的資訊 �
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = 兩階段驗證
+tfa-row-header = 兩階段驗證
 tfa-row-disabled = 已關閉兩階段驗證。
 tfa-row-enabled = 已啟用
 tfa-row-not-set = 未設定

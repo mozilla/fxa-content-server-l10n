@@ -329,6 +329,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = 載入客戶資料時發生問題
 sub-billing-update-success = 成功更新帳務資訊！
+sub-route-payment-modal-heading = 帳務資訊無效
+sub-route-payment-modal-copy = 您的 { -brand-name-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
+sub-route-invalid-payment = 您的帳號發生問題，付款資訊無效。<div>點此管理</div>
+pay-update-manage-btn = 管理
 
 ## subscription create
 
