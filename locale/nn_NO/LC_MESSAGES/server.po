@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 06:34+0000\n"
+"PO-Revision-Date: 2021-04-02 06:40+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -298,7 +298,7 @@ msgstr "Privat synkronisering held bokmerke, passord og andre Firefox-data heilt
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
 msgid "Set up next device"
-msgstr ""
+msgstr "Konfigurer neste eining"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"

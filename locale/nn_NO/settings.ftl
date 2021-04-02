@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -55,6 +56,13 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -90,8 +98,13 @@ datablock-download =
 datablock-copy =
     .message = Kopiert
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = Logg ut
+
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Gjenopprettingskodar
 get-data-trio-download =
     .title = Last ned
 get-data-trio-copy =
@@ -102,13 +115,27 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Lat att meny
+header-title = { -product-firefox-accounts }
 header-help = Hjelp
+
+## Modal
+
+modal-close-title = Lat att
+modal-cancel-button = Avbryt
+
+## Modal Verify Session
+
+mvs-verify-your-email = Stadfest e-postadressa di
+msv-cancel-button = Avbryt
+msv-submit-button = Stadfest
 
 ## Settings Nav
 
 nav-settings = Innstillingar
 nav-profile = Profil
 nav-security = Sikkerheit
+nav-connected-services = Tilkopla tenester
+nav-paid-subs = Betalte abonnement
 
 ## Two Step Authentication - replace recovery code
 
@@ -256,7 +283,6 @@ row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Slå på
 rk-action-create = Opprett
 rk-action-remove = Fjern
 
@@ -269,6 +295,7 @@ rk-action-remove = Fjern
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-action-add = Legg til
+tfa-row-change-modal-confirm = Endre
 
 ## Avatar sub-section on main Settings page
 

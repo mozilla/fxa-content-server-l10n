@@ -160,6 +160,7 @@ input-error-is-required = { $label } er påkravd
 
 product-plan-upgrade-heading = Gå gjennom oppgraderinga di
 sub-update-failed = Mislykka planoppdatering
+sub-update-payment-title = Betalingsinformasjon
 sub-update-card-exp = Går ut { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Planen din vil endrast med ein gong, og du vil bli belasta eit justert
