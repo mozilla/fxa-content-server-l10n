@@ -9,6 +9,7 @@ project-brand = Firefox-konti
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-konti
 
@@ -23,7 +24,7 @@ general-error-heading = Generel applikationsfejl
 basic-error-message = Noget gik galt. Prøv igen senere.
 payment-error-1 = Hmm. Der opstod et problem med at godkende din betaling. Prøv igen eller kontakt din kortudsteder.
 payment-error-2 = Hmm. Der opstod et problem med at godkende din betaling. Kontakt din kortudsteder.
-payment-error-3 = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+payment-error-3b = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 payment-error-retry-button = Prøv igen
 payment-error-manage-subscription-button = Håndter mine abonnementer
 country-currency-mismatch = Dette abonnements valuta er ikke gyldig for det land, der er knyttet til din betaling.
@@ -54,6 +55,7 @@ subscription-create-title = Opsætning af dit abonnement
 subscription-success-title = Bekræftelse af abonnement
 subscription-processing-title = Bekræfter abonnement ...
 subscription-error-title = Der opstod en fejl under bekræftelse af abonnement...
+subscription-noupgrade-title = Ændringer af abonnementsniveau er ikke understøttet
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,12 +98,12 @@ product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-and-paypal = { -brand-name-mozilla } bruger Stripe og { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-stripe-and-paypal = Se <stripePrivacyLink> Stripes privatlivspolitik</stripePrivacyLink> og <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
+payment-legal-link-stripe-and-paypal-2 = Se <stripePrivacyLink>{ -brand-name-stripe }s privatlivspolitik</stripePrivacyLink> og <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
 payment-legal-link-paypal = Se <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
-payment-legal-copy-stripe = { -brand-name-mozilla } bruger Stripe til sikker behandling af betaling.
-payment-legal-link-stripe = Se <stripePrivacyLink>Stripes privatlivspolitik</stripePrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
+payment-legal-link-stripe-2 = Se <stripePrivacyLink>{ -brand-name-stripe }s privatlivspolitik</stripePrivacyLink>.
 
 ## payment form
 
