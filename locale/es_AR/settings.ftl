@@ -156,6 +156,7 @@ drop-down-menu-title = Menú de { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin> Conectado como </signin> <user> { $user } </user>
 drop-down-menu-sign-out = Cerrar la sesión
+drop-down-menu-sign-out-error = Discuple, hubo un problema al cerrar la sesión.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -183,6 +184,12 @@ modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifique su correo electrónico
+mvs-enter-verification-code = Ingrese el código de verificación
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Ingrese el código de verificación enviado a <email>{ $email }</email> dentro de los próximos 5 minutos.
 msv-cancel-button = Cancelar
 msv-submit-button = Verificar
 
@@ -434,6 +441,7 @@ rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 rk-remove-modal-content =
     En el caso de que restablezcas tu contraseña, no 
     podrás usar tu clave de recuperación para acceder a tus datos. No podés deshacer esta acción.
+rk-refresh-error = Disculpe, hubo un problema al actualizar la clave de recuperación.
 rk-remove-error = La clave de recuperación de la cuenta no pudo ser eliminada.
 
 ## Secondary email sub-section on main Settings page
