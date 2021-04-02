@@ -57,6 +57,9 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+
 ## Connect another device promo
 
 
@@ -88,6 +91,10 @@ datablock-copy =
 datablock-print =
     .message = Бастырылды
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account } меню
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коткару кодлары
@@ -95,6 +102,8 @@ get-data-trio-download =
     .title = Йөкләп алу
 get-data-trio-copy =
     .title = Күчереп алу
+get-data-trio-print =
+    .title = Бастыру
 
 # HeaderLockup component
 
@@ -102,6 +111,15 @@ header-back-to-top-link =
     .title = Сәхифә башына
 header-title = { -product-firefox-accounts }
 header-help = Ярдәм
+
+## Modal
+
+modal-close-title = Ябу
+modal-cancel-button = Баш тарту
+
+## Modal Verify Session
+
+msv-cancel-button = Баш тарту
 
 ## Settings Nav
 
@@ -118,6 +136,7 @@ nav-email-comm = Эл. почта элемтәләр
 
 avatar-page-title =
     .title = Профиль рәсеме
+avatar-page-add-photo = Рәсем өстәү
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo-button =
@@ -224,6 +243,8 @@ tfa-enabled = Ике адымлы аутентификация кабызылд�
 
 ## Profile section
 
+profile-display-name =
+    .header = Күрсәтеләчәк исемегез
 
 ##
 
@@ -235,6 +256,7 @@ tfa-enabled = Ике адымлы аутентификация кабызылд�
 
 row-defaults-action-add = Өстәү
 row-defaults-action-change = Үзгәртү
+row-defaults-status = Бернинди дә
 
 ## Recovery key sub-section on main Settings page
 
@@ -250,8 +272,6 @@ se-heading = Икенчел эл. почта адресы
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Ике адымлы аутентификация
 tfa-row-disabled = Ике адымлы аутентификация сүндерелде.
 tfa-row-action-add = Өстәү
 tfa-row-change-modal-confirm = Үзгәртү

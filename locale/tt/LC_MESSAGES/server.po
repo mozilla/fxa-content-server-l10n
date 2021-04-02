@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-03-29 18:04+0000\n"
-"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
+"PO-Revision-Date: 2021-04-02 12:25+0000\n"
+"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -918,7 +918,7 @@ msgstr "%(productName)s-ка рәхим итегез"
 
 #: lib/senders/email.js:2532
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s программасын йөкләп алу"
 
 #: lib/senders/email.js:2558
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
@@ -1011,7 +1011,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Иң соңгы версиясен йөкләп алу"
 
 #~ msgid "The Firefox accounts team"
 #~ msgstr "Firefox хисап язмалары такымы"
@@ -1026,8 +1026,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</"
-#~ "a> өчен Firefox кулланмаларыннан да, керә аласыз."
+#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</a> "
+#~ "өчен Firefox кулланмаларыннан да, керә аласыз."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән Android һәм iOS өчен Firefox кулланмаларыннан да, керә аласыз."
