@@ -334,6 +334,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problema ao carregar o cliente
 sub-billing-update-success = Suas informações de cobrança foram atualizadas com sucesso
+sub-route-payment-modal-heading = Informações de cobrança inválidas
+sub-route-payment-modal-copy = Parece haver um erro na sua conta { -brand-name-paypal }, precisamos que você execute as etapas necessárias para resolver este problema de pagamento.
+sub-route-invalid-payment = Informações de pagamento inválidas, há um erro em sua conta. <div>Gerenciar</div>
+pay-update-manage-btn = Gerenciar
 
 ## subscription create
 

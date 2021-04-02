@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 13:51+0000\n"
+"PO-Revision-Date: 2021-04-02 13:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -901,7 +901,7 @@ msgstr "Necessário atualizar informações de pagamento de %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Necessário atualizar informações de pagamento de assinaturas Mozilla"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"
