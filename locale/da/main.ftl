@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Håndter mine abonnementer
 country-currency-mismatch = Dette abonnements valuta er ikke gyldig for det land, der er knyttet til din betaling.
 currency-currency-mismatch = Du kan ikke skifte mellem valutaer.
 returning-paypal-customer-error = Du kan i øjeblikket kun tilmelde dig et abonnement ad gangen. Vend snart tilbage.
+no-subscription-upgrades = Du kan ikke opgradere eller nedgradere dit abonnement på nuværende tidspunkt. Prøv igen senere.
 expired-card-error = Det ser ud til, at dit betalingskort er udløbet. Prøv med et andet kort.
 insufficient-funds-error = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 withdrawal-count-limit-exceeded-error = Det ser ud til, at denne transaktion vil overskride din kreditgrænse. Prøv med et andet kort.
@@ -344,6 +345,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem med indlæsning af kunde
 sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
+sub-route-payment-modal-heading = Ugyldige faktureringsoplysninger
+sub-route-payment-modal-copy = Der ser ud til at være en fejl med din { -brand-name-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
+sub-route-invalid-payment = Ugyldig betalingsinformation - der er en fejl med din konto.<div>Håndtér</div>
+pay-update-manage-btn = Håndtér
 
 ## subscription create
 
