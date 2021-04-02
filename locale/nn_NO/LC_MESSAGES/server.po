@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 12:31+0000\n"
+"PO-Revision-Date: 2021-04-02 12:36+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -443,11 +443,11 @@ msgstr "Hjelp oss med å rette det ved å <a href=\"%(updateBillingUrl)s\">oppda
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentFailed.txt:5
 msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
-msgstr ""
+msgstr "Dersom vi ikkje høyrer frå deg innan 24 timar, vil du dessverre miste tilgangen til %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "Help us fix it by updating your payment information within 24 hours:"
-msgstr ""
+msgstr "Hjelp oss med å løyse problemet ved å oppdatere betalingsinformasjonen din innan24 timar:"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
