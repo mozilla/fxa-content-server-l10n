@@ -57,6 +57,9 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+
 ## Connect another device promo
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
@@ -120,6 +123,10 @@ datablock-copy =
 datablock-print =
     .message = 已打印
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = 退出
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = 救援码
@@ -137,9 +144,15 @@ header-menu-closed = 网站导航菜单
 header-back-to-top-link =
     .title = 回到顶端
 header-title = { -product-firefox-accounts }
-header-switch-title = 切回经典设计风格
-    .title = 经典设计链接
 header-help = 帮助
+
+## Modal
+
+
+## Modal Verify Session
+
+msv-cancel-button = 取消
+msv-submit-button = 验证
 
 ## Settings Nav
 
@@ -363,7 +376,8 @@ row-defaults-status = 无
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = 已启用
+rk-header = 救援密钥
+rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
@@ -376,6 +390,8 @@ rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-2 = 抱歉，验证您的会话时出现问题。
 rk-remove-modal-heading = 要移除救援密钥吗？
 rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
+rk-refresh-error = 抱歉，刷新救援密钥时出现问题。
+rk-remove-error = 无法删除您的账户救援密钥。
 
 ## Secondary email sub-section on main Settings page
 
@@ -413,8 +429,7 @@ se-content-note = 注意：无法通过备用邮箱恢复您的数据 — 您需
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = 两步验证
+tfa-row-header = 两步验证
 tfa-row-disabled = 已禁用两步验证
 tfa-row-enabled = 已启用
 tfa-row-not-set = 未设置
