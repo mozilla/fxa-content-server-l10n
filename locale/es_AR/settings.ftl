@@ -60,10 +60,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menú Bento de { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } es una tecnología que lucha por su privacidad en línea.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
+bento-menu-firefox-mobile = Navegador para móviles { -brand-firefox }
+bento-menu-made-by-mozilla = Hecho por { -brand-Mozilla }
 
 ## Connect another device promo
 
