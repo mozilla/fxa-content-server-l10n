@@ -184,7 +184,7 @@ modal-cancel-button = Přetorhnyć
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Wobkrućće swoju e-mejlowua dresu
+mvs-verify-your-email = Wobkrućće swoju e-mejlowu adresu
 mvs-enter-verification-code = Zapodajće swój wobkrućenski kod
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
