@@ -422,6 +422,8 @@ sub-subscription-error =
 sub-customer-error =
     .title = Informace o zákazníkovi se nepodařilo načíst
 sub-billing-update-success = Vaše platební údaje byly úspěšně aktualizovány
+sub-route-payment-modal-heading = Neplatné platební údaje
+pay-update-manage-btn = Správa
 
 ## subscription create
 

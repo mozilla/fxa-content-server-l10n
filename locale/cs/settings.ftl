@@ -118,6 +118,7 @@
             }
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor =
     { $case ->
        *[nom] Firefox Monitor
@@ -158,6 +159,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Nabídka { -brand-firefox(case: "gen") }
+bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za vaše soukromí na internetu.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
+bento-menu-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
+bento-menu-made-by-mozilla = Od { -brand-mozilla(case: "gen") }
 
 ## Connect another device promo
 
@@ -230,6 +242,16 @@ datablock-copy =
 datablock-print =
     .message = Vytištěno
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Nabídka { -product-firefox-account(case: "gen", capitalization: "lower") }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Jste přihlášeni jako</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Odhlásit se
+drop-down-menu-sign-out-error = Omlouváme se, odhlášení se nezdařilo.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Obnovovací kódy
@@ -248,6 +270,22 @@ header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
 header-help = Nápověda
+
+## Modal
+
+modal-close-title = Zavřít
+modal-cancel-button = Zrušit
+
+## Modal Verify Session
+
+mvs-verify-your-email = Ověřte svou e-mailovou adresu
+mvs-enter-verification-code = Zadejte ověřovací kód
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Zadejte prosím ověřovací kód, který jsme během posledních 5 minut poslali na adresu <email>{ $email }</email>.
+msv-cancel-button = Zrušit
+msv-submit-button = Ověřit
 
 ## Settings Nav
 
@@ -479,7 +517,8 @@ row-defaults-status = Žádný
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Povoleno
+rk-header = Obnovovací klíč
+rk-enabled = Povoleno
 rk-not-set = Není nastaven
 rk-action-create = Vytvořit
 rk-action-remove = Odebrat
@@ -494,6 +533,8 @@ rk-remove-modal-heading = Odebrat obnovovací klíč?
 rk-remove-modal-content =
     Pokud obnovíte své heslo, nebudete už moci pro přístup
     ke svým datům použít svůj obnovovací klíč. Tuto akci nelze vzít zpět.
+rk-refresh-error = Aktualizace obnovovacího klíče se nezdařila.
+rk-remove-error = Obnovovací klíč k vašemu účtu se nepodařilo odebrat.
 
 ## Secondary email sub-section on main Settings page
 
@@ -535,8 +576,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Dvoufázové ověřování
+tfa-row-header = Dvoufázové ověřování
 tfa-row-disabled = Dvoufázové ověřování je vypnuto.
 tfa-row-enabled = Povoleno
 tfa-row-not-set = Nenastaveno
