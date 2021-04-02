@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Konto Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Bento-meni { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za wašu priwatnosć online wójujo.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
+bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
+bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
 
 ## Connect another device promo
 
@@ -136,6 +148,15 @@ datablock-copy =
 datablock-print =
     .message = Śišćane
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Meni { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Wótzjawiś
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Wótnowjeńske kody
@@ -153,9 +174,13 @@ header-menu-closed = Meni sedłoweje nawigacije
 header-back-to-top-link =
     .title = Slědk górjej
 header-title = { -product-firefox-accounts }
-header-switch-title = Ku klasiskemu designoju pśešaltowaś
-    .title = wótkaz klasiskego designa
 header-help = Pomoc
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -387,7 +412,6 @@ row-defaults-status = Žeden
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
@@ -443,8 +467,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Dwójokšacowa awtentifikacija
 tfa-row-disabled = Dwójokšacowa awtentifikacija jo se znjemóžniła.
 tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony

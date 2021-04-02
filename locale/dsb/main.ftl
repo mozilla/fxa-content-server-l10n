@@ -385,6 +385,9 @@ sub-subscription-error =
 sub-customer-error =
     .title = Zmólka pśi cytanju kupca
 sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje zaktualizěrowali
+sub-route-payment-modal-heading = Njepłaśiwe płaśeńske informacije
+sub-route-invalid-payment = Njepłaśiwe płaśeńske informacije, jo zmólka z wašym kontom. <div>Zastojaś</div>
+pay-update-manage-btn = Zastojaś
 
 ## subscription create
 
