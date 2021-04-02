@@ -345,6 +345,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Πρόβλημα φόρτωσης πελάτη
 sub-billing-update-success = Τα στοιχεία χρέωσής σας ενημερώθηκαν με επιτυχία
+sub-route-payment-modal-heading = Μη έγκυρα στοιχεία χρέωσης
+sub-route-payment-modal-copy = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-name-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
+sub-route-invalid-payment = Μη έγκυρα στοιχεία πληρωμής, υπάρχει σφάλμα με τον λογαριασμό σας. <div>Διαχείριση</div>
+pay-update-manage-btn = Διαχείριση
 
 ## subscription create
 

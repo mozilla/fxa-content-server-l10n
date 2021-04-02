@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Λογαριασμός Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,13 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -108,6 +116,9 @@ datablock-copy =
 datablock-print =
     .message = Έγινε εκτύπωση
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Κωδικοί ανάκτησης
@@ -126,6 +137,12 @@ header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = { -product-firefox-accounts }
 header-help = Βοήθεια
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -304,7 +321,6 @@ row-defaults-status = Κανένα
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
@@ -346,8 +362,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Ταυτοποίηση σε δύο βήματα
 tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
