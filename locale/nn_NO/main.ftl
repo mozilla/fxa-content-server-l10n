@@ -47,6 +47,7 @@ privacy = Personvernerklæring
 
 ## Subscription titles
 
+subscription-success-title = Stadfesting av abonnement
 subscription-processing-title = Stadfestar abonnementet…
 subscription-error-title = Feil ved stadfesting av abonnementet…
 
@@ -91,6 +92,7 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
+payment-legal-link-stripe-2 = Vis personvernpraksis for <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
