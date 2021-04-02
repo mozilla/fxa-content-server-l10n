@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-account
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-firefox-title = { -brand-firefox } is technologie die vecht voor uw online privacy.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Browser voor desktop
+bento-menu-firefox-mobile = { -brand-firefox } Browser voor mobiel
+bento-menu-made-by-mozilla = Gemaakt door { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +148,16 @@ datablock-copy =
 datablock-print =
     .message = Afgedrukt
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account }menu
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Aangemeld als </signin><user>{ $user }</user>
+drop-down-menu-sign-out = Afmelden
+drop-down-menu-sign-out-error = Sorry, er is een probleem opgetreden bij het afmelden.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Herstelcodes
@@ -153,9 +175,23 @@ header-menu-closed = Websitenavigatiemenu
 header-back-to-top-link =
     .title = Naar boven
 header-title = { -product-firefox-accounts }
-header-switch-title = Naar klassiek ontwerp omschakelen
-    .title = koppeling naar klassiek ontwerp
 header-help = Help
+
+## Modal
+
+modal-close-title = Sluiten
+modal-cancel-button = Annuleren
+
+## Modal Verify Session
+
+mvs-verify-your-email = Uw e-mailadres verifiëren
+mvs-enter-verification-code = Voer uw verificatiecode in
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Voer binnen 5 minuten de verificatiecode in die naar <email>{ $email }</email> is verzonden.
+msv-cancel-button = Annuleren
+msv-submit-button = Verifiëren
 
 ## Settings Nav
 
@@ -393,7 +429,8 @@ row-defaults-status = Geen
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Ingeschakeld
+rk-header = Herstelsleutel
+rk-enabled = Ingeschakeld
 rk-not-set = Niet ingesteld
 rk-action-create = Aanmaken
 rk-action-remove = Verwijderen
@@ -408,6 +445,8 @@ rk-remove-modal-heading = Herstelsleutel verwijderen?
 rk-remove-modal-content =
     Als u uw wachtwoord herinitialiseert, kunt u uw
     herstelsleutel niet gebruiken om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
+rk-refresh-error = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
+rk-remove-error = Uw sleutel voor accountherstel kon niet worden verwijderd.
 
 ## Secondary email sub-section on main Settings page
 
@@ -449,8 +488,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Authenticatie in twee stappen
+tfa-row-header = Authenticatie in twee stappen
 tfa-row-disabled = Authenticatie in twee stappen uitgeschakeld.
 tfa-row-enabled = Ingeschakeld
 tfa-row-not-set = Niet ingesteld
