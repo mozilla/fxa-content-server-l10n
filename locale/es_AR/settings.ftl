@@ -67,7 +67,7 @@ bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador para móviles { -brand-firefox }
-bento-menu-made-by-mozilla = Hecho por { -brand-Mozilla }
+bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 
 ## Connect another device promo
 
