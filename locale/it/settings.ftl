@@ -29,6 +29,7 @@
         [uppercase] Account Firefox
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -60,6 +61,15 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Browser { -brand-firefox } per desktop
+bento-menu-firefox-mobile = Browser { -brand-firefox } per dispositivi mobili
+bento-menu-made-by-mozilla = Realizzato da { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -126,6 +136,15 @@ datablock-copy =
 datablock-print =
     .message = Stampato
 
+# DropDownAvatarMenu component
+
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Accesso eseguito come</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Disconnetti
+drop-down-menu-sign-out-error = Si è verificato un problema durante la disconnessione.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codici di recupero
@@ -143,9 +162,23 @@ header-menu-closed = Menu di navigazione del sito
 header-back-to-top-link =
     .title = Torna su
 header-title = { -product-firefox-accounts }
-header-switch-title = Passa al layout classico
-    .title = Link al layout classico
 header-help = Aiuto
+
+## Modal
+
+modal-close-title = Chiudi
+modal-cancel-button = Annulla
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifica il tuo indirizzo email
+mvs-enter-verification-code = Inserisci il codice di verifica
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Inserisci entro 5 minuti il codice di verifica che è stato inviato a <email>{ $email }</email>.
+msv-cancel-button = Annulla
+msv-submit-button = Verifica
 
 ## Settings Nav
 
@@ -375,7 +408,8 @@ row-defaults-status = Nessuno
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Attivo
+rk-header = Chiave di recupero
+rk-enabled = Attiva
 rk-not-set = Non impostato
 rk-action-create = Crea
 rk-action-remove = Rimuovi
@@ -390,6 +424,7 @@ rk-remove-modal-heading = Rimuovere la chiave di recupero?
 rk-remove-modal-content =
     Nel caso in cui tu abbia reimpostato la password, non potrai
     utilizzare la chiave di recupero per accedere ai tuoi dati. Questa azione è irreversibile.
+rk-refresh-error = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
 
 ## Secondary email sub-section on main Settings page
 
@@ -427,8 +462,7 @@ se-content-note = Attenzione: non è possibile ripristinare i dati attraverso l�
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticazione in due passaggi
+tfa-row-header = Autenticazione in due passaggi
 tfa-row-disabled = Autenticazione in due passaggi disattivata.
 tfa-row-enabled = Attiva
 tfa-row-not-set = Non impostata
