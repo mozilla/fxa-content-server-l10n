@@ -224,6 +224,8 @@ delete-account-delete-button-2 = Διαγραφή
 
 display-name-page-title =
     .title = Εμφανιζόμενο όνομα
+display-name-input =
+    .label = Εισάγετε το εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
 display-name-update-error = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας.
