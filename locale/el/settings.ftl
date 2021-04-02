@@ -189,6 +189,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Αλλαγή κωδικού πρόσβασης
+pw-change-stay-safe = Προσοχή — μην χρησιμοποιείτε τον ίδιο κωδικό πρόσβασης. Ο κωδικός πρόσβασής σας:
 pw-change-least-8-chars = Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες
 pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
 pw-change-must-match = Επιβεβαίωση αντιστοίχισης νέου κωδικού πρόσβασης
