@@ -73,6 +73,13 @@ bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 ## Connected services section
 
 cs-heading = Tilkopla tenester
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Logga ut av { $service }.
+cs-refresh-button =
+    .title = Oppdater tilkopla tenester
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -100,6 +107,7 @@ datablock-copy =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account }-meny
 drop-down-menu-sign-out = Logg ut
 
 # GetDataTrio component, part of Recovery Key flow
