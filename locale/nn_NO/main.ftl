@@ -330,6 +330,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem med å laste inn kunde
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
+pay-update-manage-btn = Handter
 
 ## subscription create
 
@@ -347,6 +348,7 @@ plan-details-total-label = Totalt
 
 ## payment-processing
 
+payment-processing-message = Vent mens vi behandlar betalinga di...
 
 ## payment confirmation
 
