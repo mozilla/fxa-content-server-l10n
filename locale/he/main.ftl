@@ -290,6 +290,9 @@ sub-subscription-error =
 sub-customer-error =
     .title = בעיה בטעינת לקוח
 sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
+sub-route-payment-modal-heading = פרטי חיוב שגויים
+sub-route-invalid-payment = פרטי חיוב שגויים, אירעה שגיאה בחשבון שלך. <div>ניהול</div>
+pay-update-manage-btn = ניהול
 
 ## subscription create
 
@@ -312,6 +315,7 @@ payment-processing-message = נא להמתין בעת עיבוד התשלום ש
 payment-confirmation-alert = נא ללחוץ כאן להורדה
 payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
 payment-confirmation-thanks-heading = תודה רבה!
+payment-confirmation-thanks-subheading = דוא״ל לאימות נשלח אל { $email } עם פרטים כיצד להתחיל עם { $product_name }.
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
 payment-confirmation-billing-heading = חיוב לטובת

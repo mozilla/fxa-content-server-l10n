@@ -29,6 +29,7 @@
         [the] חשבון ה־Firefox
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -60,6 +61,16 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנלחמת עבור הפרטיות שלך ברשת.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
+bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
+bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -127,6 +138,16 @@ datablock-copy =
 datablock-print =
     .message = הודפס
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = תפריט { -product-firefox-account(case: "a") }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>נכנסת בתור</signin><user>{ $user }</user>
+drop-down-menu-sign-out = התנתקות
+drop-down-menu-sign-out-error = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = קודים לשחזור
@@ -144,9 +165,23 @@ header-menu-closed = תפריט ניווט באתר
 header-back-to-top-link =
     .title = חזרה למעלה
 header-title = { -product-firefox-accounts }
-header-switch-title = מעבר לעיצוב הקלאסי
-    .title = קישור לעיצוב הקלאסי
 header-help = עזרה
+
+## Modal
+
+modal-close-title = סגירה
+modal-cancel-button = ביטול
+
+## Modal Verify Session
+
+mvs-verify-your-email = אימות הדוא״ל שלך
+mvs-enter-verification-code = נא להכניס את קוד האימות שלך
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = נא להכניס את קוד האימות שנשלח אל <email>{ $email }</email> תוך 5 דקות.
+msv-cancel-button = ביטול
+msv-submit-button = אימות
 
 ## Settings Nav
 
@@ -370,7 +405,8 @@ row-defaults-status = ללא
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = מופעל
+rk-header = מפתח שחזור
+rk-enabled = מופעל
 rk-not-set = לא מוגדר
 rk-action-create = יצירה
 rk-action-remove = הסרה
@@ -383,6 +419,8 @@ rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את ה
 rk-cannot-verify-session-2 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה.
 rk-remove-modal-heading = להסיר את מפתח השחזור?
 rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
+rk-refresh-error = הייתה בעיה ברענון מפתח השחזור, עמך הסליחה.
+rk-remove-error = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
 
 ## Secondary email sub-section on main Settings page
 
@@ -420,8 +458,7 @@ se-content-note = הערה: דוא"ל משני לא ישחזר את המידע �
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = אימות דו־שלבי
+tfa-row-header = אימות דו־שלבי
 tfa-row-disabled = אימות דו־שלבי הושבת.
 tfa-row-enabled = מופעל
 tfa-row-not-set = לא מוגדר
