@@ -9,6 +9,7 @@ project-brand = Firefox-kontoar
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox-kontoar
 
