@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 13:38+0000\n"
+"PO-Revision-Date: 2021-04-02 13:51+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -508,7 +508,7 @@ msgstr "Dúvidas sobre suas assinaturas? Nossa equipe de suporte está aqui para
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Detectamos um problema com seu método de pagamento das seguintes assinaturas."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -624,7 +624,7 @@ msgstr "É você mesmo se cadastrando?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Caso afirmativo, use este código de verificação em seu formulário de cadastro:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -897,7 +897,7 @@ msgstr "A validade do cartão de crédito de suas assinaturas expirará em breve
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Necessário atualizar informações de pagamento de %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
