@@ -20,7 +20,7 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Λογαριασμοί Firefox
+-product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Λογαριασμός Firefox
@@ -75,6 +75,7 @@ connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κ
 ## Connected services section
 
 cs-heading = Συνδεδεμένες υπηρεσίες
+cs-description = Όλες οι υπηρεσίες που χρησιμοποιείτε και έχετε κάνετε σύνδεση.
 cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, δεν είναι δυνατή η αποσύνδεση
 # This string is used in a notification message near the top of the page.
 # Variables:

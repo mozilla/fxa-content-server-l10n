@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 07:29+0000\n"
+"PO-Revision-Date: 2021-04-02 10:23+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -951,7 +951,7 @@ msgstr "Συγχρονισμός άλλης συσκευής"
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "Λογαριασμοί Firefox"
+msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -1003,7 +1003,7 @@ msgstr "Φόρτωση"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Οι Λογαριασμοί Firefox απαιτούν JavaScript."
+msgstr "Το Firefox Accounts απαιτεί JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
@@ -1024,7 +1024,7 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Οι λογαριασμοί Firefox χρησιμοποιούν λειτουργίες που δεν\n"
+"Η υπηρεσία Firefox Accounts χρησιμοποιεί λειτουργίες που δεν\n"
 "                        υποστηρίζονται στην έκδοση του Firefox σας. Παρακαλούμε\n"
 "                        κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του Firefox\n"
 "                        για να συνεχίσετε."
