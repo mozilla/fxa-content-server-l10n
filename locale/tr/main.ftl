@@ -27,6 +27,7 @@ payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren 
 payment-error-3b = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin.
 payment-error-retry-button = Tekrar dene
 payment-error-manage-subscription-button = Aboneliğimi yönet
+country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
 currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
@@ -53,6 +54,7 @@ subscription-create-title = Aboneliğinizi ayarlayın
 subscription-success-title = Abonelik onayı
 subscription-processing-title = Abonelik onaylanıyor…
 subscription-error-title = Abonelik onaylanırken hata oluştu...
+subscription-noupgrade-title = Abonelik planı değişiklikleri desteklenmiyor
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -323,6 +325,8 @@ sub-subscription-error =
 sub-customer-error =
     .title = Müşteri yüklenirken sorun oluştu
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
+sub-route-payment-modal-heading = Geçersiz fatura bilgileri
+pay-update-manage-btn = Yönet
 
 ## subscription create
 
@@ -340,6 +344,7 @@ plan-details-total-label = Toplam
 
 ## payment-processing
 
+payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
 
 ## payment confirmation
 

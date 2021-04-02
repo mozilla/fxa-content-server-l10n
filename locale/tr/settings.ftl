@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox hesabı
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,16 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
+bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
+bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 
 ## Connect another device promo
 
@@ -128,6 +139,16 @@ datablock-copy =
 datablock-print =
     .message = Yazdırıldı
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account } menüsü
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
+drop-down-menu-sign-out = Çıkış yap
+drop-down-menu-sign-out-error = Üzgünüz, çıkış yapılırken bir sorun oluştu.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kurtarma kodları
@@ -145,9 +166,23 @@ header-menu-closed = Site gezinti menüsü
 header-back-to-top-link =
     .title = Başa dön
 header-title = { -product-firefox-accounts }
-header-switch-title = Klasik tasarımı geç
-    .title = klasik tasarım bağlantısı
 header-help = Yardım
+
+## Modal
+
+modal-close-title = Kapat
+modal-cancel-button = İptal
+
+## Modal Verify Session
+
+mvs-verify-your-email = E-postanızı doğrulayın
+mvs-enter-verification-code = Doğrulama kodunuzu girin
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Lütfen <email>{ $email }</email> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
+msv-cancel-button = İptal
+msv-submit-button = Doğrula
 
 ## Settings Nav
 
@@ -371,7 +406,8 @@ row-defaults-status = Hiçbiri
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Etkin
+rk-header = Kurtarma anahtarı
+rk-enabled = Etkin
 rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
@@ -384,6 +420,8 @@ rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlan�
 rk-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
+rk-refresh-error = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
+rk-remove-error = Hesap kurtarma anahtarınız silinemedi.
 
 ## Secondary email sub-section on main Settings page
 
@@ -421,8 +459,7 @@ se-content-note = Not: İkinci e-postanızı kullandığınızda bilgileriniz ge
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = İki aşamalı doğrulama
+tfa-row-header = İki aşamalı doğrulama
 tfa-row-disabled = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
