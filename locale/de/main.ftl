@@ -345,6 +345,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem beim Laden des Kunden
 sub-billing-update-success = Ihre Zahlungsinformationen wurden erfolgreich aktualisiert
+sub-route-payment-modal-heading = Ungültige Zahlungsinformationen
+sub-route-payment-modal-copy = Es scheint ein Problem mit Ihrem { -brand-name-paypal }-Konto zu bestehen. Sie müssen die erforderlichen Schritte ausführen, um dieses Zahlungsproblem zu beheben.
+sub-route-invalid-payment = Ungültige Zahlungsinformationen, es gibt ein Problem bei Ihrem Konto. <div>Verwalten</div>
+pay-update-manage-btn = Verwalten
 
 ## subscription create
 
