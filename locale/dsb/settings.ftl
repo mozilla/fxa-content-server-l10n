@@ -156,6 +156,7 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wótzjawiś
+drop-down-menu-sign-out-error = Bóžko jo pśi wótzjawjanju problem nastał.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -178,9 +179,19 @@ header-help = Pomoc
 
 ## Modal
 
+modal-close-title = Zacyniś
+modal-cancel-button = Pśetergnuś
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Wobkšuśćo swóju e-mailowu adresu
+mvs-enter-verification-code = Zapódajśo swój wobkšućeński kod
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <email>{ $email }</email>.
+msv-cancel-button = Pśetergnuś
+msv-submit-button = Wobkšuśiś
 
 ## Settings Nav
 
@@ -412,6 +423,8 @@ row-defaults-status = Žeden
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Wótnowjeński kluc
+rk-enabled = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
@@ -426,6 +439,8 @@ rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
 rk-remove-modal-content =
     Jolic wašo gronidło slědk stajaśo, njamóžośo swój
     wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
+rk-refresh-error = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
+rk-remove-error = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
 
 ## Secondary email sub-section on main Settings page
 
@@ -467,6 +482,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Dwójokšacowa awtentifikacija
 tfa-row-disabled = Dwójokšacowa awtentifikacija jo se znjemóžniła.
 tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony
