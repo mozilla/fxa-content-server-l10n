@@ -165,6 +165,12 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>შემოსული, როგორც</signin><user>{ $user }</user>
+drop-down-menu-sign-out = გამოსვლა
+drop-down-menu-sign-out-error = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -187,9 +193,19 @@ header-help = დახმარება
 
 ## Modal
 
+modal-close-title = დახურვა
+modal-cancel-button = გაუქმება
 
 ## Modal Verify Session
 
+mvs-verify-your-email = ელფოსტის დამოწმება
+mvs-enter-verification-code = შეიყვანეთ დამადასტურებელი კოდი
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = გთხოვთ, 5 წუთის განმავლობაში შეიყვანოთ დამადასტურებელი კოდი, რომელიც გამოგზავნილია მისამართზე <email>{ $email }</email>.
+msv-cancel-button = გაუქმება
+msv-submit-button = დამოწმება
 
 ## Settings Nav
 
@@ -427,6 +443,8 @@ row-defaults-status = არცერთი
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = აღდგენის გასაღები
+rk-enabled = ჩართულია
 rk-not-set = არაა დაყენებული
 rk-action-create = შექმნა
 rk-action-remove = მოცილება
@@ -441,6 +459,8 @@ rk-remove-modal-heading = მოცილდეს აღდგენის გ�
 rk-remove-modal-content =
     იმ შემთხვევაში, თუ თქვენს პაროლს გაანულებთ, ვეღარ შეძლებთ
     აღდგენის გასაღებით თქვენს მონაცემებზე წვდომას. ეს ქმედება შეუქცევადია.
+rk-refresh-error = სამწუხაროდ, ხარვეზი წარმოიშვა აღდგენის გასაღების განახლებისას.
+rk-remove-error = თქვენი ანგარიშის აღდგენის გასაღების წაშლა ვერ მოხერხდა.
 
 ## Secondary email sub-section on main Settings page
 
@@ -482,6 +502,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = ორსაფეხურიანი დამოწმება
 tfa-row-disabled = ორსაფეხურიანი დამოწმება გამორთულია
 tfa-row-enabled = ჩართულია
 tfa-row-not-set = არაა დაყენებული
