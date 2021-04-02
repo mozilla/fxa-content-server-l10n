@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 13:17+0000\n"
+"PO-Revision-Date: 2021-04-02 13:29+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -70,7 +70,7 @@ msgstr "Nowe přizjewjenje pola %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Změnjenje hesła trěbne"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -625,7 +625,7 @@ msgstr "Registrujeće wy?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -898,11 +898,11 @@ msgstr "Kreditna karta za swoje abonementy bórze spadnje"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Aktualizowanje płaćenskich informacijow je za %(productName)s trěbne"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Aktualizowanje płaćenskich informacijow je za abonementy Mozilla trěbne"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"

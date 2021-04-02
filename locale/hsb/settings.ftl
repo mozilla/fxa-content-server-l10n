@@ -61,6 +61,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Bento-meni { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu priwatnosć online wojuje.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -155,6 +156,7 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Přizjewjeny jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wotzjewić
+drop-down-menu-sign-out-error = Bohužel je při wotzjewjenju problem nastał.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -177,9 +179,19 @@ header-help = Pomoc
 
 ## Modal
 
+modal-close-title = Začinić
+modal-cancel-button = Přetorhnyć
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Wobkrućće swoju e-mejlowua dresu
+mvs-enter-verification-code = Zapodajće swój wobkrućenski kod
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <email>{ $email }</email> pósłał.
+msv-cancel-button = Přetorhnyć
+msv-submit-button = Přepruwować
 
 ## Settings Nav
 
@@ -413,6 +425,8 @@ row-defaults-status = Žadyn
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Wobnowjenski kluč
+rk-enabled = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
 rk-action-remove = Wotstronić
@@ -427,6 +441,8 @@ rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
 rk-remove-modal-content =
     Jeli waše hesło wróćo stajeće, njemóžeće swój
     wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
+rk-refresh-error = Bohužel je při aktualizowanju wobnowjenskeho kluča problem nastał.
+rk-remove-error = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 
 ## Secondary email sub-section on main Settings page
 
@@ -468,6 +484,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Dwukročelowa awtentifikacija
 tfa-row-disabled = Dwukročelowa awtentifikacija znjemóžnjena.
 tfa-row-enabled = Zmóžnjeny
 tfa-row-not-set = Njenastajeny

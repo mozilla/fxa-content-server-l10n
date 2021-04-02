@@ -386,6 +386,7 @@ sub-customer-error =
     .title = Zmylk při čitanju kupca
 sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zaktualizowali
 sub-route-payment-modal-heading = Njepłaćiwe płaćenske informacije
+sub-route-invalid-payment = Njepłaćiwe płaćenske informacije, je zmylk z wašim kontom. <div>Rjadować</div>
 pay-update-manage-btn = Rjadować
 
 ## subscription create
