@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 账户
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -59,6 +60,10 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
@@ -148,9 +153,16 @@ header-help = 帮助
 
 ## Modal
 
+modal-close-title = 关闭
+modal-cancel-button = 取消
 
 ## Modal Verify Session
 
+mvs-enter-verification-code = 请输入您的验证码
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = 请在 5 分钟内输入发送到 <email>{ $email }</email> 的验证码。
 msv-cancel-button = 取消
 msv-submit-button = 验证
 

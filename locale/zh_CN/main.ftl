@@ -331,6 +331,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = 加载客户资料时出现问题
 sub-billing-update-success = 已成功更新账单信息
+pay-update-manage-btn = 管理
 
 ## subscription create
 
