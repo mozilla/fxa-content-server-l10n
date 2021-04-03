@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Tài khoản Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menu { -brand-firefox } Bento
+bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho quyền riêng tư trực tuyến của bạn.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
+bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
+bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -134,6 +146,16 @@ datablock-copy =
 datablock-print =
     .message = Đã in
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Đã đăng nhập bằng</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Đăng xuất
+drop-down-menu-sign-out-error = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Mã khôi phục
@@ -151,9 +173,23 @@ header-menu-closed = Menu dẫn hướng trang mạng
 header-back-to-top-link =
     .title = Về đầu trang
 header-title = { -product-firefox-accounts }
-header-switch-title = Chuyển sang giao diện cũ
-    .title = liên kết giao diện cũ
 header-help = Trợ giúp
+
+## Modal
+
+modal-close-title = Đóng
+modal-cancel-button = Huỷ bỏ
+
+## Modal Verify Session
+
+mvs-verify-your-email = Xác thực email của bạn
+mvs-enter-verification-code = Nhập mã xác minh
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Vui lòng nhập mã xác minh đã được gửi đến <email>{ $email }</email> trong vòng 5 phút.
+msv-cancel-button = Hủy bỏ
+msv-submit-button = Xác minh
 
 ## Settings Nav
 
@@ -391,7 +427,8 @@ row-defaults-status = Không có
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Đã bật
+rk-header = Khóa khôi phục
+rk-enabled = Đã bật
 rk-not-set = Chưa tạo
 rk-action-create = Tạo
 rk-action-remove = Xóa
@@ -406,6 +443,8 @@ rk-remove-modal-heading = Xóa khóa khôi phục?
 rk-remove-modal-content =
     Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không thể
     sử dụng khóa khôi phục để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
+rk-refresh-error = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
+rk-remove-error = Không thể xóa khóa khôi phục của tài khoản của bạn.
 
 ## Secondary email sub-section on main Settings page
 
@@ -447,8 +486,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Xác thực hai bước
+tfa-row-header = Xác thực hai bước
 tfa-row-disabled = Đã tắt xác thực hai bước.
 tfa-row-enabled = Đã bật
 tfa-row-not-set = Chưa tạo

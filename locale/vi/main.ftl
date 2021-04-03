@@ -325,6 +325,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Sự cố tải thông tin khách hàng
 sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
+sub-route-payment-modal-heading = Thông tin thanh toán không hợp lệ
+sub-route-payment-modal-copy = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-name-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
+sub-route-invalid-payment = Thông tin thanh toán không hợp lệ, có lỗi với tài khoản của bạn. <div>Quản lý</div>
+pay-update-manage-btn = Quản lý
 
 ## subscription create
 
