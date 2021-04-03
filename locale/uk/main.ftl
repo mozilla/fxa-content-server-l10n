@@ -363,6 +363,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Не вдалося завантажити сторінку клієнта
 sub-billing-update-success = Ваші платіжні дані успішно оновлено
+sub-route-payment-modal-heading = Недійсна платіжна інформація
+sub-route-payment-modal-copy = Схоже, виникла помилка з вашим обліковим записом { -brand-name-paypal }. Вам необхідно виконати певні кроки для розв'язання проблеми з оплатою.
+sub-route-invalid-payment = Недійсна платіжна інформація. Виникла помилка з вашим обліковим записом. <div>Керувати</div>
+pay-update-manage-btn = Керувати
 
 ## subscription create
 

@@ -79,6 +79,7 @@
             }
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -110,6 +111,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Меню продуктів { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } - це технологія, яка захищає вашу приватність у мережі.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Браузер для комп'ютера
+bento-menu-firefox-mobile = { -brand-firefox } Браузер для мобільного
+bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -190,6 +202,16 @@ datablock-copy =
 datablock-print =
     .message = Надруковано
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Меню { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Ви увійшли як</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Вийти
+drop-down-menu-sign-out-error = Перепрошуємо, але при виході виникла проблема.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коди відновлення
@@ -207,9 +229,23 @@ header-menu-closed = Меню навігації по сайту
 header-back-to-top-link =
     .title = Вгору
 header-title = { -product-firefox-accounts }
-header-switch-title = Перемкнути на класичний вигляд
-    .title = посилання на класичний вигляд
 header-help = Допомога
+
+## Modal
+
+modal-close-title = Закрити
+modal-cancel-button = Скасувати
+
+## Modal Verify Session
+
+mvs-verify-your-email = Підтвердьте свою е-пошту
+mvs-enter-verification-code = Введіть код підтвердження
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Введіть код підтвердження, надісланий на <email>{ $email }{ $email } упродовж 5 хвилин.
+msv-cancel-button = Скасувати
+msv-submit-button = Підтвердити
 
 ## Settings Nav
 
@@ -447,7 +483,8 @@ row-defaults-status = Немає
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Увімкнено
+rk-header = Ключ відновлення
+rk-enabled = Увімкнено
 rk-not-set = Не встановлено
 rk-action-create = Створити
 rk-action-remove = Вилучити
@@ -462,6 +499,8 @@ rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
     свій ключ відновлення для доступу до збережених даних. Цю дію неможливо скасувати.
+rk-refresh-error = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
+rk-remove-error = Не вдається видалити ключ відновлення вашого облікового запису.
 
 ## Secondary email sub-section on main Settings page
 
@@ -503,8 +542,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Двоетапна перевірка
+tfa-row-header = Двоетапна перевірка
 tfa-row-disabled = Двоетапну перевірку вимкнено.
 tfa-row-enabled = Увімкнено
 tfa-row-not-set = Не встановлено
