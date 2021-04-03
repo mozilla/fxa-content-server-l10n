@@ -60,9 +60,13 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Μενού Bento του { -brand-firefox }
+bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
+bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
 bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 
 ## Connect another device promo
