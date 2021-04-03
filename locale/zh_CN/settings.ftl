@@ -136,6 +136,7 @@ datablock-print =
 
 drop-down-menu-title = { -product-firefox-account } 菜单
 drop-down-menu-sign-out = 退出
+drop-down-menu-sign-out-error = 抱歉，退出登录时出现问题。
 
 # GetDataTrio component, part of Recovery Key flow
 
