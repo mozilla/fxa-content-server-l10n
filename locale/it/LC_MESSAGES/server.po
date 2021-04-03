@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-03 12:09+0000\n"
+"PO-Revision-Date: 2021-04-03 12:27+0000\n"
 "Last-Translator: Jenny <leanintocuriosity@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -510,7 +510,7 @@ msgstr "La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta 
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Hai domande sui tuoi abbonamenti? Il nostro <a href=\"%(subscriptionSupportUrl)s\">team di supporto</a> è qui per aiutarti."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -634,7 +634,7 @@ msgstr "Hai effettuato tu questo accesso?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "In caso affermativo, utilizza questo codice di verifica nel modulo di registrazione:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -909,11 +909,11 @@ msgstr "La carta di credito collegata ai tuoi abbonamenti sta per scadere"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Aggiornamento delle informazioni di pagamento richiesto per %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Aggiornamento delle informazioni di pagamento richiesto per gli abbonamenti Mozilla"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"
