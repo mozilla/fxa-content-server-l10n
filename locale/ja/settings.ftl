@@ -38,7 +38,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } ロゴ
 app-footer-privacy-notice = ウェブサイトのプライバシー通知
@@ -53,6 +53,9 @@ avatar-default-avatar =
     .alt = 既定のアバター
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -83,6 +86,9 @@ cs-sign-out-button = ログアウト
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 
@@ -93,11 +99,18 @@ header-back-to-top-link =
 header-title = { -product-firefox-accounts }
 header-help = ヘルプ
 
+## Modal
+
+
+## Modal Verify Session
+
+
 ## Settings Nav
 
 nav-settings = 設定
 nav-profile = プロファイル
 nav-security = セキュリティ
+nav-connected-services = 接続済みサービス
 
 ## Two Step Authentication - replace recovery code
 
@@ -123,8 +136,6 @@ avatar-page-rotate-button = 回転
 avatar-page-camera-error = カメラを初期化できませんでした
 avatar-page-new-avatar =
     .alt = 新しいプロファイル写真
-avatar-page-file-upload-error = プロファイル写真のアップロードに問題が発生しました。
-avatar-page-delete-error = プロファイル写真の削除に問題が発生しました。
 avatar-page-image-too-large-error = 画像ファイルサイズが大きすぎてアップロードできません。
 
 ##
@@ -158,7 +169,6 @@ delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
 delete-account-cancel-button = キャンセル
-delete-account-delete-button = アカウントを削除する
 
 ##
 
@@ -214,6 +224,7 @@ verify-secondary-email-verify-button = 確認
 
 ## Two Step Authentication
 
+tfa-title = 2 段階認証
 tfa-step-1-3 = ステップ 1/3
 tfa-step-2-3 = ステップ 2/3
 tfa-step-3-3 = ステップ 3/3
@@ -260,7 +271,7 @@ row-defaults-status = なし
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = 有効化
+rk-header = 回復用キー
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
@@ -275,10 +286,12 @@ se-heading = 予備アドレス
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = 2 段階認証
+tfa-row-header = 2 段階認証
+tfa-row-disabled = 2 段階認証が無効化されました。
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
+tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
+tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
 
