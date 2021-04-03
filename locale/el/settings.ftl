@@ -68,6 +68,9 @@ bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κινητά ή tablet
+connect-another-find-fx-mobile =
+    Βρείτε το { -brand-firefox } στο { -google-play } και στο { -app-store } ή
+    <br /><linkExternal>στείλτε έναν σύνδεσμο λήψης στη συσκευή σας.</linkExternal>
 
 ##
 
@@ -119,6 +122,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Αποσύνδεση
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -141,9 +145,13 @@ header-help = Βοήθεια
 
 ## Modal
 
+modal-close-title = Κλείσιμο
+modal-cancel-button = Ακύρωση
 
 ## Modal Verify Session
 
+msv-cancel-button = Ακύρωση
+msv-submit-button = Επαλήθευση
 
 ## Settings Nav
 
@@ -325,6 +333,8 @@ row-defaults-status = Κανένα
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Κλειδί ανάκτησης
+rk-enabled = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
@@ -366,6 +376,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Ταυτοποίηση σε δύο βήματα
 tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
