@@ -64,6 +64,8 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menu bento di { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } è una tecnologia che combatte per la tua privacy online.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -138,6 +140,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu dell’{ -product-firefox-account(capitalization: "lowercase") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -425,6 +428,7 @@ rk-remove-modal-content =
     Nel caso in cui tu abbia reimpostato la password, non potrai
     utilizzare la chiave di recupero per accedere ai tuoi dati. Questa azione è irreversibile.
 rk-refresh-error = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
+rk-remove-error = Non è stato possibile rimuovere la chiave di recupero dell’account.
 
 ## Secondary email sub-section on main Settings page
 
