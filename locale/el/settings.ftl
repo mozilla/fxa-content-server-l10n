@@ -244,7 +244,13 @@ delete-account-header =
 delete-account-step-1-2 = Βήμα 1 από 2
 delete-account-step-2-2 = Βήμα 2 από 2
 delete-account-chk-box-1 =
-    .label = Όλες οι συνδρομές σας επί πληρωμή θα ακυρωθούν
+    .label = Όλες οι επί πληρωμή συνδρομές σας θα ακυρωθούν
+delete-account-chk-box-2 =
+    .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Η εκ νέου ενεργοποίηση με το ίδιο email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας
+delete-account-chk-box-4 =
+    .label = Όλες οι επεκτάσεις και τα θέματα που έχετε δημοσιεύει στο addons.mozilla.org θα διαγραφούν
 delete-account-close-button = Κλείσιμο
 delete-account-continue-button = Συνέχεια
 delete-account-cancel-button = Ακύρωση
@@ -310,7 +316,7 @@ delete-account-link = Διαγραφή λογαριασμού
 
 ## Two Step Authentication
 
-tfa-title = Ταυτοποίηση σε δύο βήματα
+tfa-title = Ταυτοποίηση δύο βημάτων
 tfa-step-1-3 = Βήμα 1 από 3
 tfa-step-2-3 = Βήμα 2 από 3
 tfa-step-3-3 = Βήμα 3 από 3
@@ -401,19 +407,21 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Ταυτοποίηση σε δύο βήματα
-tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
+tfa-row-header = Ταυτοποίηση δύο βημάτων
+tfa-row-disabled = Η ταυτοποίηση δύο βήματων απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
+tfa-row-button-refresh =
+    .title = Ανανέωση ταυτοποίησης δύο βημάτων
 tfa-row-cannot-verify-session-2 = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
-tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης σε δύο βήματα;
+tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο βημάτων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
-tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης σε δύο βήματα.
+tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο βημάτων.
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
