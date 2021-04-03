@@ -60,10 +60,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } 产品菜单
 bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
+bento-menu-firefox-mobile = { -brand-firefox } 移动浏览器
+bento-menu-made-by-mozilla = { -brand-mozilla } 出品
 
 ## Connect another device promo
 
@@ -130,6 +134,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } 菜单
 drop-down-menu-sign-out = 退出
 
 # GetDataTrio component, part of Recovery Key flow
@@ -158,6 +163,7 @@ modal-cancel-button = 取消
 
 ## Modal Verify Session
 
+mvs-verify-your-email = 验证您的邮箱
 mvs-enter-verification-code = 请输入您的验证码
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
