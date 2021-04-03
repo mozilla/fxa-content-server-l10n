@@ -71,6 +71,8 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = 接続済みサービス
+cs-refresh-button =
+    .title = 接続済みサービスをリフレッシュ
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -196,6 +198,7 @@ recovery-key-page-title =
     .title = 回復用キー
 recovery-key-step-1 = ステップ 1/2
 recovery-key-step-2 = ステップ 2/2
+recovery-key-success-alert = 回復用キーが作成されました。
 
 ## Add secondary email page
 
@@ -221,6 +224,8 @@ verify-secondary-email-verify-button = 確認
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = アカウントを削除
 
 ## Two Step Authentication
 
@@ -272,9 +277,11 @@ row-defaults-status = なし
 ## Recovery key sub-section on main Settings page
 
 rk-header = 回復用キー
+rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
+rk-refresh-key = 回復用キーをリフレッシュ
 
 ## Secondary email sub-section on main Settings page
 
@@ -288,8 +295,11 @@ se-heading = 予備アドレス
 
 tfa-row-header = 2 段階認証
 tfa-row-disabled = 2 段階認証が無効化されました。
+tfa-row-enabled = 有効
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
+tfa-row-button-refresh =
+    .title = 2 段階認証をリフレッシュ
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
