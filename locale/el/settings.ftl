@@ -92,6 +92,14 @@ cs-logged-out = Έγινε αποσύνδεση από το { $service }.
 cs-refresh-button =
     .title = Ανανέωση συνδεδεμένων υπηρεσιών
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Τα δεδομένα περιήγησής σας θα παραμείνουν στη
+    συσκευή σας ({ $device }), αλλά δεν θα συγχρονίζονται πλέον με τον λογαριασμό σας.
 cs-disconnect-sync-reason =
     Ποιος είναι ο κύριος λόγος αποσύνδεσης αυτής
     της συσκευής;
@@ -126,7 +134,13 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Μενού { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Αποσύνδεση
+drop-down-menu-sign-out-error = Λυπούμαστε, προέκυψε πρόβλημα κατά την αποσύνδεση.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -184,6 +198,7 @@ avatar-page-take-photo-button =
 avatar-page-remove-photo = Αφαίρεση φωτογραφίας
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Νέα λήψη φωτογραφίας
 avatar-page-close-button = Κλείσιμο
 avatar-page-save-button = Αποθήκευση
 avatar-page-saving-button = Αποθήκευση…
@@ -193,6 +208,9 @@ avatar-page-rotate-button = Περιστροφή
 avatar-page-camera-error = Αδυναμία εκκίνησης κάμερας
 avatar-page-new-avatar =
     .alt = νέα εικόνα προφίλ
+avatar-page-file-upload-error-2 = Προέκυψε πρόβλημα κατά τη μεταφόρτωση της εικόνας του προφίλ σας.
+avatar-page-delete-error-2 = Προέκυψε πρόβλημα κατά τη διαγραφή της εικόνας του προφίλ σας.
+avatar-page-image-too-large-error = Το μέγεθος της εικόνας είναι πολύ μεγάλο για μεταφόρτωση.
 
 ##
 
@@ -204,7 +222,7 @@ pw-change-header =
 pw-change-stay-safe = Προσοχή — μην χρησιμοποιείτε τον ίδιο κωδικό πρόσβασης. Ο κωδικός πρόσβασής σας:
 pw-change-least-8-chars = Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες
 pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
-pw-change-must-match = Επιβεβαίωση αντιστοίχισης νέου κωδικού πρόσβασης
+pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -225,6 +243,8 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βήμα 1 από 2
 delete-account-step-2-2 = Βήμα 2 από 2
+delete-account-chk-box-1 =
+    .label = Όλες οι συνδρομές σας επί πληρωμή θα ακυρωθούν
 delete-account-close-button = Κλείσιμο
 delete-account-continue-button = Συνέχεια
 delete-account-cancel-button = Ακύρωση
@@ -271,6 +291,7 @@ add-secondary-email-save-button = Αποθήκευση
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επαλήθευσης.
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-verification-code =
