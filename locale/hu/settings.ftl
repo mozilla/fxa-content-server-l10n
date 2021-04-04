@@ -149,6 +149,12 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menü
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user }</user>
+drop-down-menu-sign-out = Kijelentkezés
+drop-down-menu-sign-out-error = Sajnos probléma merült fel a kijelentkezésekor.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -171,9 +177,19 @@ header-help = Súgó
 
 ## Modal
 
+modal-close-title = Bezárás
+modal-cancel-button = Mégse
 
 ## Modal Verify Session
 
+mvs-verify-your-email = E-mail-cím megerősítése
+mvs-enter-verification-code = Adja meg az ellenőrzési kódját
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzési kódot.
+msv-cancel-button = Mégse
+msv-submit-button = Ellenőrzés
 
 ## Settings Nav
 
@@ -409,6 +425,8 @@ row-defaults-status = Nincs
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Helyreállítókulcs
+rk-enabled = Engedélyezve
 rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
@@ -423,6 +441,8 @@ rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
 rk-remove-modal-content =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
     a helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
+rk-refresh-error = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
+rk-remove-error = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 
 ## Secondary email sub-section on main Settings page
 
@@ -464,6 +484,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Kétlépcsős hitelesítés
 tfa-row-disabled = Kétlépcsős hitelesítés letiltva.
 tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
