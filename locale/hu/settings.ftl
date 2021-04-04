@@ -60,6 +60,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } bentó menü
+bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
+bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
+bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 
 ## Connect another device promo
 
@@ -140,6 +148,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } menü
 
 # GetDataTrio component, part of Recovery Key flow
 
