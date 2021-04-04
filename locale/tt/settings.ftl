@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox хисап язмасы
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -59,6 +60,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
@@ -236,6 +240,7 @@ tfa-step-3-3 = Адым 3/3
 tfa-button-continue = Дәвам итү
 tfa-button-cancel = Баш тарту
 tfa-button-finish = Әзер
+tfa-incorrect-totp = Ике адымлы аутентификация коды хаталы
 tfa-enabled = Ике адымлы аутентификация кабызылды
 
 ##
@@ -243,23 +248,30 @@ tfa-enabled = Ике адымлы аутентификация кабызылд�
 
 ## Profile section
 
+profile-heading = Профиль
 profile-display-name =
     .header = Күрсәтеләчәк исемегез
+profile-password =
+    .header = Парол
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Хәвефсезлек
 
 ## Sub-section row Defaults
 
 row-defaults-action-add = Өстәү
 row-defaults-action-change = Үзгәртү
+row-defaults-action-disable = Cүндерү
 row-defaults-status = Бернинди дә
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Коткару ачкычы
+rk-enabled = Кабызылган
 rk-action-remove = Бетерү
 
 ## Secondary email sub-section on main Settings page
@@ -272,8 +284,12 @@ se-heading = Икенчел эл. почта адресы
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Ике адымлы аутентификация
 tfa-row-disabled = Ике адымлы аутентификация сүндерелде.
+tfa-row-enabled = Кабызылган
 tfa-row-action-add = Өстәү
+tfa-row-action-disable = Cүндерү
+tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-change-modal-confirm = Үзгәртү
 
 ## Avatar sub-section on main Settings page
