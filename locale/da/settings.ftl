@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,16 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
+bento-menu-firefox-mobile = { -brand-firefox } Browser til din telefon
+bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +147,16 @@ datablock-copy =
 datablock-print =
     .message = Udskrevet
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account }-menu
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Log ud
+drop-down-menu-sign-out-error = Der opstod desværre et problem med at logge dig ud.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Genoprettelseskoder
@@ -153,9 +174,23 @@ header-menu-closed = Menu til websteds-navigation
 header-back-to-top-link =
     .title = Tilbage til toppen
 header-title = { -product-firefox-accounts }
-header-switch-title = Skift til klassisk design
-    .title = link til klassisk design
 header-help = Hjælp
+
+## Modal
+
+modal-close-title = Luk
+modal-cancel-button = Annuller
+
+## Modal Verify Session
+
+mvs-verify-your-email = Bekræft din mailadresse
+mvs-enter-verification-code = Indtast din bekræftelseskode
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Indtast den bekræftelseskode, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
+msv-cancel-button = Annuller
+msv-submit-button = Bekræft
 
 ## Settings Nav
 
@@ -392,7 +427,8 @@ row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Aktiveret
+rk-header = Genoprettelsesnøgle
+rk-enabled = Aktiveret
 rk-not-set = Ikke indstillet
 rk-action-create = Opret
 rk-action-remove = Fjern
@@ -407,6 +443,8 @@ rk-remove-modal-heading = Fjern genoprettelsesnøgle?
 rk-remove-modal-content =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
     til at få adgang til dine data. Du kan ikke fortryde denne handling.
+rk-refresh-error = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
+rk-remove-error = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 
 ## Secondary email sub-section on main Settings page
 
@@ -448,8 +486,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Totrinsgodkendelse
+tfa-row-header = Totrinsgodkendelse
 tfa-row-disabled = Totrinsgodkendelse deaktiveret.
 tfa-row-enabled = Aktiveret
 tfa-row-not-set = Ikke indstillet
