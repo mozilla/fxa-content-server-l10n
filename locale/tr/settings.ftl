@@ -60,6 +60,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } bento menüsü
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
@@ -415,7 +416,7 @@ rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluşt
 rk-key-removed = Hesap kurtarma anahtarı silindi.
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key = Kurtarma anahtarını yenile
-rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yükleyin.
+rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
 rk-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
@@ -451,7 +452,7 @@ se-unverified = doğrulanmamış
 se-resend-code = Doğrulama gerekiyor. Doğrulama kodu gelen kutunuzda ve spam klasörünüzde görünmüyorsa <button>tekrar gönderebilirsiniz</button>.
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
-se-default-content = Birinci e-postanıza giriş yapamıyorsanız hesabınıza erişin.
+se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
 se-content-note = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>kurtarma anahtarı</a> kullanmanız gerekiyor.
 
 ##
@@ -470,7 +471,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
-tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engelleyin.
+tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
 tfa-row-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
