@@ -61,6 +61,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }

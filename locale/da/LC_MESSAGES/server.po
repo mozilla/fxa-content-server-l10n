@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-04 11:15+0000\n"
+"PO-Revision-Date: 2021-04-04 11:18+0000\n"
 "Last-Translator: Jakob Kappel <jakobkpetersen@gmail.com>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -498,7 +498,7 @@ msgstr "Betalingskortet, du bruger til at betale for følgende abonnementer, er 
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Har du spørgsmål til dine abonnementer? Vores <a href=\"%(subscriptionSupportUrl)s\">supportteam</a> sidder klar til at hjælpe dig."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -895,11 +895,11 @@ msgstr "Betalingskort for dine abonnementer udløber snart"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Der er nødvendigt at opdatere dine betalingsinformationer for %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Der er nødvendigt at opdatere dine betalingsinformationer for Mozilla-abonnementer"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"
