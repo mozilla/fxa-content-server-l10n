@@ -165,6 +165,10 @@ modal-cancel-button = Peruuta
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Vahvista sähköpostiosoite
+mvs-enter-verification-code = Kirjoita vahvistuskoodi
+msv-cancel-button = Peruuta
+msv-submit-button = Vahvista
 
 ## Settings Nav
 
@@ -388,6 +392,8 @@ row-defaults-status = Ei mitään
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Palautusavain
+rk-enabled = Käytössä
 rk-not-set = Ei asetettu
 rk-action-create = Luo
 rk-action-remove = Poista
@@ -399,6 +405,7 @@ rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
 rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
+rk-remove-error = Tilisi palautusavainta ei voitu poistaa.
 
 ## Secondary email sub-section on main Settings page
 
