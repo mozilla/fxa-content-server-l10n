@@ -345,6 +345,8 @@ sub-subscription-error =
 sub-customer-error =
     .title = Probléma az ügyfél betöltésekor
 sub-billing-update-success = A számlázási adatai sikeresen frissítettve
+sub-route-payment-modal-heading = Érvénytelen számlázási információk
+pay-update-manage-btn = Kezelés
 
 ## subscription create
 

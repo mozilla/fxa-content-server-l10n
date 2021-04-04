@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-fiók
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -55,6 +56,9 @@ avatar-default-avatar =
     .alt = Alapértelmezett avatár
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -134,6 +138,9 @@ datablock-copy =
 datablock-print =
     .message = Kinyomtatva
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Helyreállító kódok
@@ -151,9 +158,13 @@ header-menu-closed = Webhely navigációs menü
 header-back-to-top-link =
     .title = Vissza a tetejére
 header-title = { -product-firefox-accounts }
-header-switch-title = Váltás a klasszikus dizájnra
-    .title = klasszikus dizájn hivatkozása
 header-help = Súgó
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -389,7 +400,6 @@ row-defaults-status = Nincs
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Engedélyezve
 rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
@@ -445,8 +455,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Kétlépcsős hitelesítés
 tfa-row-disabled = Kétlépcsős hitelesítés letiltva.
 tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
