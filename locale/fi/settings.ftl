@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-tili
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,12 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
@@ -123,6 +130,15 @@ datablock-copy =
 datablock-print =
     .message = Tulostettu
 
+# DropDownAvatarMenu component
+
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Kirjaudu ulos
+drop-down-menu-sign-out-error = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Palautuskoodit
@@ -140,9 +156,15 @@ header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
-header-switch-title = Vaihda perinteiseen ulkoasuun
-    .title = perinteisen ulkoasun linkki
 header-help = Ohje
+
+## Modal
+
+modal-close-title = Sulje
+modal-cancel-button = Peruuta
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -366,7 +388,6 @@ row-defaults-status = Ei mitään
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Käytössä
 rk-not-set = Ei asetettu
 rk-action-create = Luo
 rk-action-remove = Poista
@@ -415,8 +436,6 @@ se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähk�
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Kaksivaiheinen todennus
 tfa-row-disabled = Kaksivaiheinen todennus poistettu käytöstä.
 tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu

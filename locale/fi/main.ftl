@@ -276,6 +276,9 @@ sub-subscription-error =
 sub-customer-error =
     .title = Ongelma ladatessa asiakasta
 sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
+sub-route-payment-modal-heading = Virheelliset laskutustiedot
+sub-route-invalid-payment = Virheelliset maksutiedot. Tililläsi on virhe. <div>Hallitse</div>
+pay-update-manage-btn = Hallitse
 
 ## subscription create
 
