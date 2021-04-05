@@ -386,6 +386,7 @@ sub-customer-error =
     .title = Zmólka pśi cytanju kupca
 sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje zaktualizěrowali
 sub-route-payment-modal-heading = Njepłaśiwe płaśeńske informacije
+sub-route-payment-modal-copy = Zda se, až dajo zmólka z wašym kontom { -brand-name-paypal }, musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
 sub-route-invalid-payment = Njepłaśiwe płaśeńske informacije, jo zmólka z wašym kontom. <div>Zastojaś</div>
 pay-update-manage-btn = Zastojaś
 
