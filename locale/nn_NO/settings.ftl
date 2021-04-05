@@ -42,6 +42,7 @@ app-default-title = { -product-firefox-accounts }
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
+app-footer-privacy-notice = Personvernmerknadar for nettstaden
 app-footer-terms-of-service = Tenestevilkår
 
 ##
@@ -60,6 +61,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
+bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din rett til privatliv på nettet.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -67,6 +69,10 @@ bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
+connect-another-find-fx-mobile =
+    Finn { -brand-firefox } på { -google-play } og { -app-store } eller
+    <br /><linkExternal>send ei nedlastingslenke til eininga.</linkExternal>
 
 ##
 
@@ -74,6 +80,7 @@ bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 ## Connected services section
 
 cs-heading = Tilkopla tenester
+cs-description = Alt du brukar og er innlogga på.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
