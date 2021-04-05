@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Cuenta de Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menú Bento de { -brand-firefox }
+bento-menu-firefox-title = La tecnología de { -brand-firefox } lucha por tu privacidad en la red.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
+bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móviles
+bento-menu-made-by-mozilla = Creado por { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +148,16 @@ datablock-copy =
 datablock-print =
     .message = Imprimido
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = menú { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Cerrar sesión
+drop-down-menu-sign-out-error = Lo sentimos, ha surgido un problema al cerrar tu sesión.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperación
@@ -153,9 +175,23 @@ header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Volver arriba
 header-title = { -product-firefox-accounts }
-header-switch-title = Cambiar al diseño clásico
-    .title = Enlace al diseño clásico
 header-help = Ayuda
+
+## Modal
+
+modal-close-title = Cerrar
+modal-cancel-button = Cancelar
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifica tu correo electrónico
+mvs-enter-verification-code = Introduce el código de verificación
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Por favor, escribe antes de 5 minutos el código de verificación que ha sido enviado a <email>{ $email }</email>.
+msv-cancel-button = Cancelar
+msv-submit-button = Verificar
 
 ## Settings Nav
 
@@ -391,7 +427,8 @@ row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activado
+rk-header = Clave de recuperación
+rk-enabled = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
@@ -406,6 +443,8 @@ rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 rk-remove-modal-content =
     En caso de que restablezcas tu contraseña, no podrás
     usar tu clave de recuperación para acceder a tus datos. No puedes deshacer esta acción.
+rk-refresh-error = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación.
+rk-remove-error = No se ha podido eliminar la clave de recuperación de tu cuenta.
 
 ## Secondary email sub-section on main Settings page
 
@@ -447,8 +486,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticación en dos pasos
+tfa-row-header = Autenticación en dos pasos
 tfa-row-disabled = Autenticación en dos pasos desactivada.
 tfa-row-enabled = Activado
 tfa-row-not-set = No establecida
