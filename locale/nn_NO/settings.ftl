@@ -163,14 +163,21 @@ avatar-page-title =
 avatar-page-add-photo = Legg til eit foto
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Ta bilde
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Fjern bilde
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ta bildet på nytt
 avatar-page-close-button = Lat att
 avatar-page-save-button = Lagre
 avatar-page-saving-button = Lagrar…
 avatar-page-zoom-out-button = Zoom ut
 avatar-page-zoom-in-button = Zoom inn
 avatar-page-rotate-button = Roter
+avatar-page-new-avatar =
+    .alt = nytt profilbilde
 
 ##
 
@@ -235,6 +242,10 @@ recovery-key-step-2 = Steg 2 av 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Sekundær e-postadresse
+add-secondary-email-enter-address =
+    .label = Skriv inn e-postadresse
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Lagre
 
@@ -263,6 +274,9 @@ tfa-step-3-3 = Steg 3 av 3
 tfa-button-continue = Fortset
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
+tfa-input-enter-totp =
+    .label = Skriv inn sikkerheitskode
 tfa-enter-recovery-code =
     .label = Skriv inn ein gjenopprettingskode
 
@@ -299,6 +313,7 @@ row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Gjenopprettingsnøkkel
 rk-action-create = Opprett
 rk-action-remove = Fjern
 
