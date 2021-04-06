@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Cyfrif Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Dewislen Bento { -brand-firefox }
+bento-menu-firefox-title = Mae { -brand-name } yn dechnoleg sy'n ymladd dros eich preifatrwydd ar-lein.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
+bento-menu-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
+bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -134,6 +146,16 @@ datablock-copy =
 datablock-print =
     .message = Argraffwyd
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Dewislen { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Mewngofnodwyd fel </signin><user>{ $user }</user>
+drop-down-menu-sign-out = Allgofnodi
+drop-down-menu-sign-out-error = Ymddiheuriadau, bu anhawster wrth i chi allgofnodi.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codau Adfer
@@ -151,9 +173,17 @@ header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
 header-title = { -product-firefox-accounts }
-header-switch-title = Newid i'r dyluniad clasurol
-    .title = dolen dyluniad clasurol
 header-help = Cymorth
+
+## Modal
+
+modal-close-title = Cau
+modal-cancel-button = Diddymu
+
+## Modal Verify Session
+
+mvs-verify-your-email = Gwiriwch eich e-bost
+mvs-enter-verification-code = Rhowch eich cod gwirio
 
 ## Settings Nav
 
@@ -391,7 +421,6 @@ row-defaults-status = Dim
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Galluogwyd
 rk-not-set = Heb ei Osod
 rk-action-create = Creu
 rk-action-remove = Tynnu
@@ -445,8 +474,6 @@ se-content-note = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — b
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Dilysu dau gam
 tfa-row-disabled = Dilysu dau gam wedi ei alluogi
 tfa-row-enabled = Galluogwyd
 tfa-row-not-set = Heb ei Osod
