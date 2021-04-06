@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-06 10:37+0000\n"
+"PO-Revision-Date: 2021-04-06 10:45+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -501,7 +501,7 @@ msgstr "Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tan
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
+msgstr "Cwestiynau am eich tanysgrifiad? Mae ein <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -625,7 +625,7 @@ msgstr "Ai hyn yw chi wedi cofrestru?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr "Os ydych, defnyddiwch y cod dilysu hwn yn eich ffurflen gofrestru:"
+msgstr "Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -902,7 +902,7 @@ msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr "Mae angen diweddaru'r manylion talu am danysgrifau Mozilla"
+msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"

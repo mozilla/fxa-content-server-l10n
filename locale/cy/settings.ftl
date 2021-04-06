@@ -61,7 +61,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
-bento-menu-firefox-title = Mae { -brand-name } yn dechnoleg sy'n ymladd dros eich preifatrwydd ar-lein.
+bento-menu-firefox-title = Mae { -brand-name } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -184,6 +184,12 @@ modal-cancel-button = Diddymu
 
 mvs-verify-your-email = Gwiriwch eich e-bost
 mvs-enter-verification-code = Rhowch eich cod gwirio
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Rhowch y cod gwirio a anfonwyd at <email>{ $email }</email> o fewn 5 munud.
+msv-cancel-button = Diddymu
+msv-submit-button = Gwirio
 
 ## Settings Nav
 
@@ -421,6 +427,8 @@ row-defaults-status = Dim
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Allwedd adfer
+rk-enabled = Galluogwyd
 rk-not-set = Heb ei Osod
 rk-action-create = Creu
 rk-action-remove = Tynnu
@@ -435,6 +443,8 @@ rk-remove-modal-heading = Dileu'r allwedd adfer?
 rk-remove-modal-content =
     Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
     defnyddio'ch allwedd adfer i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
+rk-refresh-error = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
+rk-remove-error = Nid oedd modd dileu allwedd adfer eich cyfrif.
 
 ## Secondary email sub-section on main Settings page
 
@@ -474,6 +484,7 @@ se-content-note = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — b
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Dilysu dau gam
 tfa-row-disabled = Dilysu dau gam wedi ei alluogi
 tfa-row-enabled = Galluogwyd
 tfa-row-not-set = Heb ei Osod
