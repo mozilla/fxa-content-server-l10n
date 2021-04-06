@@ -338,6 +338,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem në ngarkim klienti
 sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me sukses
+sub-route-payment-modal-heading = Të dhëna faturimi të pavlefshme
+sub-route-payment-modal-copy = Duket se ka një gabim me llogarinë tuaj { -brand-name-paypal }, duhet të ndërmerrni hapat e nevojshëm për zgjidhjen e këtij problemi me pagesën.
+sub-route-invalid-payment = Të dhëna të pavlefshme pagese, ka një gabim me llogarinë tuaj. <div>Administrojini</div>
+pay-update-manage-btn = Administrojini
 
 ## subscription create
 

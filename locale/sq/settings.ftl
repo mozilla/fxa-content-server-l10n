@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Llogari Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menu { -brand-firefox } Bento
+bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton për privatësinë tuaj internetore.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
+bento-menu-firefox-mobile = Shfletuesi { -brand-firefox } për Celular
+bento-menu-made-by-mozilla = Krijuar nga { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -132,6 +144,16 @@ datablock-copy =
 datablock-print =
     .message = U shtyp
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Futur si</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Dilni
+drop-down-menu-sign-out-error = Na ndjeni, pati një problem me futjen tuaj.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kode Rimarrjeje
@@ -149,9 +171,23 @@ header-menu-closed = Menu lëvizje në sajt
 header-back-to-top-link =
     .title = Mbrapsht te kreu
 header-title = { -product-firefox-accounts }
-header-switch-title = Kalo në skemën klasike
-    .title = lidhje për te skema klasike
 header-help = Ndihmë
+
+## Modal
+
+modal-close-title = Mbylle
+modal-cancel-button = Anuloje
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifikoni email-in tuaj
+mvs-enter-verification-code = Jepni kodin tuaj të verifikimit
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te <email>{ $email }</email>.
+msv-cancel-button = Anuloje
+msv-submit-button = Verifikoje
 
 ## Settings Nav
 
@@ -384,7 +420,8 @@ row-defaults-status = Asnjë
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = E aktivizuar
+rk-header = Kyç rimarrjeje
+rk-enabled = E aktivizuar
 rk-not-set = S’është caktuar
 rk-action-create = Krijoje
 rk-action-remove = Hiqe
@@ -399,6 +436,8 @@ rk-remove-modal-heading = Të hiqet kyçi i rikthimit?
 rk-remove-modal-content =
     Për rastet kur ricaktoni fjalëkalimin tuaj, s’do të jeni
     në gjendje të përdorni kyçin tuaj të rimarrjeve për të hyrë në të dhënat tuaja. S’mund ta zhbëni këtë veprim.
+rk-refresh-error = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes
+rk-remove-error = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
 
 ## Secondary email sub-section on main Settings page
 
@@ -440,8 +479,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Mirëfilltësim dyhapësh
+tfa-row-header = Mirëfilltësim dyhapësh
 tfa-row-disabled = Mirëfilltësimi dyhapësh u çaktivizua.
 tfa-row-enabled = I aktivizuar
 tfa-row-not-set = I paujdisur
