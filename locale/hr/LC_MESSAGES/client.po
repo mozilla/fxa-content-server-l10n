@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-06 21:54+0000\n"
+"PO-Revision-Date: 2021-04-06 21:55+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1165,7 +1165,7 @@ msgstr "Potvrdi kôd za oporavak"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Da bismo osigurali da možeš vratiti pristup svom računu u slučaju gubitka uređaja, molimo unesi jedan od spremljenih kôdova za oporavak."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
@@ -1842,7 +1842,7 @@ msgstr "Ne može biti tvoja adresa e-pošte"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr ""
+msgstr "Ne smije se podudarati s ovim <a %(escapedCommonPasswordLinkAttrs)s>popisom uobičajenih lozinki</a>"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
