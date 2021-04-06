@@ -287,6 +287,13 @@ rk-refresh-key = 回復用キーをリフレッシュ
 
 se-heading = 予備アドレス
     .header = 予備アドレス
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } が主要アドレスになりました。
+se-set-primary-error = 主要アドレスの変更時に問題が発生しました。
+# Button to make secondary email the primary
+se-make-primary = 主要アドレスに設定
 
 ##
 
