@@ -345,6 +345,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Apañuãi emyanyhẽvo ñemuhára
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
+pay-update-manage-btn = Ñangareko
 
 ## subscription create
 

@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox Account
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -59,6 +60,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Bento poravorã { -brand-firefox } mba’e
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -152,6 +154,8 @@ drop-down-menu-title = { -product-firefox-account } poravopyrã
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
+drop-down-menu-sign-out = Ñesẽ
+drop-down-menu-sign-out-error = Rombyasy, oiko apañuãi embotývo ne rembiapo.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -174,9 +178,14 @@ header-help = Pytyvõ
 
 ## Modal
 
+modal-close-title = Mboty
+modal-cancel-button = Heja
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Ñanduti veve jehechajey
+msv-cancel-button = Heja
+msv-submit-button = Hechajey
 
 ## Settings Nav
 
@@ -414,6 +423,8 @@ row-defaults-status = Avave
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Mba’eñemi guerujeyrã
+rk-enabled = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
@@ -428,6 +439,7 @@ rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
+rk-refresh-error = Rombyasy, oiko apañuãi embohekopyahúvo mba’eñemi guerujeyrã.
 
 ## Secondary email sub-section on main Settings page
 
