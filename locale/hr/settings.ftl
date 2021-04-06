@@ -43,49 +43,102 @@ app-default-title = { -product-firefox-accounts }
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logotip
 app-footer-privacy-notice = Napomena o privatnosti web stranice
+app-footer-terms-of-service = Uvjeti korištenja
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Tvoj avatar
+avatar-default-avatar =
+    .alt = Zadani avatar
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-firefox-title = { -brand-firefox } je tehnologija koja se bori za tvoju privatnost na mreži.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
+bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
+bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
+connect-another-find-fx-mobile =
+    Pronađi { -brand-firefox } u { -google-play }u i { -app-store }u ili
+    <br /><linkExternal>pošalji poveznicu za preuzimanje na svoj uređaj.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Povezane usluge
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Odjavljeno iz { $service }.
+cs-refresh-button =
+    .title = Osvježi povezane usluge
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Nedostajuće ili duplicirane stavke?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Uređaj je:
 
 ##
 
+cs-sign-out-button = Odjava
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Preuzeto
+datablock-copy =
+    .message = Kopirano
+datablock-print =
+    .message = Ispisano
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Izbornik za { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Prijavljeni kao</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Odjava
+drop-down-menu-sign-out-error = Oprosti, dogodila se greška kod odjave.
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Kodovi za oporavak
+get-data-trio-download =
+    .title = Preuzmi
+get-data-trio-copy =
+    .title = Kopiraj
+get-data-trio-print =
+    .title = Ispiši
 
 # HeaderLockup component
 
+header-menu-open = Zatvori izbornik
+header-menu-closed = Izbornik navigacije stranicom
+header-back-to-top-link =
+    .title = Natrag na vrh
+header-title = { -product-firefox-accounts }
 
 ## Modal
 
