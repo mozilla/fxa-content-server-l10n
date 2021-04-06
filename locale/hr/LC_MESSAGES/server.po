@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-06 21:56+0000\n"
+"PO-Revision-Date: 2021-04-06 22:14+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -186,7 +186,7 @@ msgstr "Ako ovo nisi bila/bio ti, <a %(revokeAccountRecoveryLinkAttributes)s>kli
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun sa sljedećeg uređaja:"
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
@@ -198,7 +198,7 @@ msgstr "Dvofaktorska autentifikacija je omogućena"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Uspješno je omogućena autentikacija u dva koraka na tvom Firefox računu sa sljedećeg uređaja:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
