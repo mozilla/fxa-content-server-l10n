@@ -106,6 +106,8 @@ header-help = ヘルプ
 
 ## Modal Verify Session
 
+msv-cancel-button = キャンセル
+msv-submit-button = 確認
 
 ## Settings Nav
 
@@ -221,6 +223,14 @@ verify-secondary-email-verification-code =
     .label = 確認コードを入力してください
 verify-secondary-email-cancel-button = キャンセル
 verify-secondary-email-verify-button = 確認
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = <strong>{ $email }</strong> 宛に送信された確認コードを 5 分以内に入力してください。
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } の追加が完了しました。
 
 ##
 
