@@ -190,6 +190,12 @@ avatar-page-saving-button = Spremanje…
 avatar-page-zoom-out-button = Smanji
 avatar-page-zoom-in-button = Povećaj
 avatar-page-rotate-button = Rotiraj
+avatar-page-camera-error = Nije moguće inicijalizirati kameru
+avatar-page-new-avatar =
+    .alt = nova profilna slika
+avatar-page-file-upload-error-2 = Dogodila se greška tijekom prijenosa tvoje profilne slike.
+avatar-page-delete-error-2 = Dogodila se greška tijekom brisanja tvoje profilne slike.
+avatar-page-image-too-large-error = Slika je prevelika za prijenos.
 
 ##
 
@@ -198,6 +204,8 @@ avatar-page-rotate-button = Rotiraj
 
 pw-change-header =
     .title = Promijeni lozinku
+pw-change-least-8-chars = Mora sadržati barem 8 znakova
+pw-change-not-contain-email = Ne smije biti tvoja adresa e-pošte
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravljena lozinka?
@@ -241,9 +249,20 @@ cancel-display-name = Odustani
 recovery-key-cancel-button = Odustani
 recovery-key-close-button = Zatvori
 recovery-key-continue-button = Nastavi
+recovery-key-enter-password =
+    .label = Unesi lozinku
+recovery-key-page-title =
+    .title = Ključ za oporavak
+recovery-key-step-1 = Korak 1 od 2
+recovery-key-step-2 = Korak 2 od 2
+recovery-key-success-alert = Ključ za oporavak je stvoren.
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Sekundarna adresa e-pošte
+add-secondary-email-enter-address =
+    .label = Unesi adresu e-pošte
 add-secondary-email-cancel-button = Odustani
 add-secondary-email-save-button = Spremi
 
@@ -252,7 +271,12 @@ add-secondary-email-save-button = Spremi
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Sekundarna adresa e-pošte
+verify-secondary-email-verification-code =
+    .label = Unesi verifikacijski kôd
 verify-secondary-email-cancel-button = Odustani
+verify-secondary-email-verify-button = Potvrdi
 
 ##
 
@@ -261,29 +285,58 @@ delete-account-link = Izbriši račun
 
 ## Two Step Authentication
 
+tfa-title = Dvofaktorska autentifikacija
+tfa-step-1-3 = Korak 1 od 3
+tfa-step-2-3 = Korak 2 od 3
+tfa-step-3-3 = Korak 3 od 3
 tfa-button-continue = Nastavi
 tfa-button-cancel = Odustani
+tfa-button-finish = Završi
 
 ##
 
 
 ## Profile section
 
+profile-heading = Profil
+profile-password =
+    .header = Lozinka
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Stvoreno { $date }
+profile-primary-email =
+    .header = Primarna adresa e-pošte
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Sigurnost
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Dodaj
+row-defaults-action-change = Promijeni
+row-defaults-action-disable = Onemogući
+row-defaults-status = Ništa
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Ključ za oporavak
+rk-enabled = Omogućeno
+rk-not-set = Nije postavljeno
+rk-action-create = Stvori
+rk-action-remove = Ukloni
 
 ## Secondary email sub-section on main Settings page
 
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = E-pošta { $email } uspješno izbrisana.
+se-delete-email-error = Oprosti, dogodila se greška kod brisanja ove e-pošte.
 
 ##
 
