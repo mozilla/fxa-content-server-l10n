@@ -139,60 +139,130 @@ header-menu-closed = Izbornik navigacije stranicom
 header-back-to-top-link =
     .title = Natrag na vrh
 header-title = { -product-firefox-accounts }
+header-help = Pomoć
 
 ## Modal
 
+modal-close-title = Zatvori
+modal-cancel-button = Odustani
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Potvrdi svoju e-poštu
+mvs-enter-verification-code = Unesi svoj verifikacijski kôd
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Molimo unesi verifikacijski kôd poslan na <email>{ $email }</email> unutar 5 minuta.
+msv-cancel-button = Odustani
+msv-submit-button = Potvrdi
 
 ## Settings Nav
 
+nav-settings = Postavke
+nav-profile = Profil
+nav-security = Sigurnost
+nav-connected-services = Povezane usluge
+nav-paid-subs = Plaćene pretplate
+nav-email-comm = Komunikacija e-poštom
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Ažurirani su kodovi za oporavak računa.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilna slika
+avatar-page-add-photo = Dodaj sliku
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Snimi sliku
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Ukloni sliku
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Ponovno snimi sliku
+avatar-page-close-button = Zatvori
+avatar-page-save-button = Spremi
+avatar-page-saving-button = Spremanje…
+avatar-page-zoom-out-button = Smanji
+avatar-page-zoom-in-button = Povećaj
+avatar-page-rotate-button = Rotiraj
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Promijeni lozinku
+pw-change-cancel-button = Odustani
+pw-change-save-button = Spremi
+pw-change-forgot-password-link = Zaboravljena lozinka?
+pw-change-current-password =
+    .label = Unesi trenutnu lozinku
+pw-change-new-password =
+    .label = Unesi novu lozinku
+pw-change-confirm-password =
+    .label = Potvrdi novu lozinku
+pw-change-success-alert = Lozinka je ažurirana.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Izbriši račun
+delete-account-step-1-2 = Korak 1 od 2
+delete-account-step-2-2 = Korak 2 od 2
+delete-account-close-button = Zatvori
+delete-account-continue-button = Nastavi
+delete-account-password-input =
+    .label = Unesi lozinku
+delete-account-cancel-button = Odustani
+delete-account-delete-button-2 = Izbriši
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Spremi
+cancel-display-name = Odustani
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Odustani
+recovery-key-close-button = Zatvori
+recovery-key-continue-button = Nastavi
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Odustani
+add-secondary-email-save-button = Spremi
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Odustani
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Izbriši račun
 
 ## Two Step Authentication
 
+tfa-button-continue = Nastavi
+tfa-button-cancel = Odustani
 
 ##
 
