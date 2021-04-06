@@ -8,6 +8,8 @@
 project-brand = Firefox računi
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox računi
 
@@ -22,6 +24,8 @@ general-error-heading = Opća greška programa
 basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
 payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
 payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+payment-error-retry-button = Pokušaj ponovno
+payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
 insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
 withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
@@ -39,10 +43,12 @@ settings-subscriptions-title = Pretplate
 terms = Uvjeti usluge
 privacy = Napomena o privatnosti
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Postavimo tvoju pretplatu
-product-plan-details-heading = Postavimo tvoju pretplatu
+subscription-create-title = Postavi svoju pretplatu
+subscription-success-title = Potvrda pretplate
+subscription-processing-title = Potvrđivanje pretplate…
+subscription-error-title = Pogreška pri potvrđivanju pretplate…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -132,8 +138,7 @@ input-error-is-required = Polje { $label } je obavezno
 
 product-plan-upgrade-heading = Pregledaj nadogradnju
 sub-update-failed = Neuspjelo aktualiziranje tarife
-sub-update-title = Podaci naplate
-sub-update-card-ending = Kartica završava s { $last }
+sub-update-payment-title = Informacije o plaćanju
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Tvoju ćemo tarifu odmah promijeniti i naplatiti prilagođen iznos
@@ -288,10 +293,15 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem s učitavanjem kupca
 sub-billing-update-success = Podaci naplate uspješno su aktualizirani
+sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
+pay-update-manage-btn = Upravljaj
 
 ## subscription create
 
 sub-guarantee = 30-dnevno jamstvo povrata novca
+pay-with-heading-other = Odaberi opciju plaćanja
+pay-with-heading-card-or = Ili plati karticom
+pay-with-heading-card-only = Plati karticom
 
 ## plan-details
 
@@ -300,13 +310,15 @@ plan-details-show-button = Pokaži podatke
 plan-details-hide-button = Sakrij podatke
 plan-details-total-label = Ukupno
 
+## payment-processing
+
+payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
+
 ## payment confirmation
 
 payment-confirmation-alert = Pritisni ovdje za preuzimanje
 payment-confirmation-mobile-alert = Program se nije otcorio? <a>Klikni ovdje</a>
-payment-confirmation-heading = Hvala { $displayName }!
-payment-confirmation-heading-bak = Hvala!
-payment-confirmation-subheading = E-poruka s potvrdom poslana je na
+payment-confirmation-thanks-heading = Hvala ti!
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-billing-heading = Naplata za
@@ -343,5 +355,5 @@ payment-confirmation-amount-year =
         [few] { $amount } svake { $intervalCount } godine
        *[other] { $amount } svakih { $intervalCount } godina
     }
-payment-confirmation-cc-preview = završava na { $last4 }
 payment-confirmation-download-button = Nastavi s preuzimanjem
+payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
