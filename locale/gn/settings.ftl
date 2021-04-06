@@ -57,6 +57,12 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+
 ## Connect another device promo
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
@@ -136,6 +142,9 @@ datablock-copy =
 datablock-print =
     .message = Monguatiapyre
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Ayvu jeguerujeyrã
@@ -153,9 +162,13 @@ header-menu-closed = Tenda kundahára poravorã
 header-back-to-top-link =
     .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
-header-switch-title = Emoambue moha’ãnga ojepuruvévape
-    .title = Joajuha moha’ãnga ojepuruvévape
 header-help = Pytyvõ
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -393,7 +406,6 @@ row-defaults-status = Avave
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
@@ -449,8 +461,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Ñemoneĩ mokõi jeku’épe
 tfa-row-disabled = Ñemoneĩ mokõi jeku’épe jepe’apyre.
 tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
