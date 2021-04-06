@@ -61,6 +61,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Bento poravorã { -brand-firefox } mba’e
+bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne rekoñemi ñandutípe.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
