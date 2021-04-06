@@ -62,6 +62,9 @@ avatar-default-avatar =
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
+bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
+bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 
 ## Connect another device promo
 
@@ -144,6 +147,11 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } poravopyrã
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 
 # GetDataTrio component, part of Recovery Key flow
 
