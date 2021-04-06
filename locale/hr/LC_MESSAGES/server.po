@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-06 22:14+0000\n"
+"PO-Revision-Date: 2021-04-06 22:21+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -21,6 +21,7 @@ msgstr "Tvoj podsjetnik za sinkronizaciju uređaja."
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2566
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Za sinkronizaciju je potrebno dvoje. Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2563
 msgid "Last reminder to sync devices!"
@@ -28,24 +29,24 @@ msgstr "Zadnji podsjetnik za sinkronizaciju uređaja!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2569
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Ako %(productName)s još nije preuzet, krenimo koristiti sve značajke uključene u tvojoj pretplati:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:6
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Pitanja o tvojoj pretplati? Naš <a href=\"%(subscriptionSupportUrl)s\">tim za podršku</a> spreman je pomoći."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:6 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
 #: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -178,7 +179,7 @@ msgstr "Stvoren je ključ za oporavak računa"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun koristeći sljedeći uređaj:"
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -202,7 +203,7 @@ msgstr "Uspješno je omogućena autentikacija u dva koraka na tvom Firefox raču
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
@@ -443,11 +444,11 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Oprosti, imamo problem s tvojom metodom plaćanja"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "Otkrili smo problem s tvojom metodom plaćanja za %(productName)s."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -495,7 +496,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Otkrili smo problem s tvojom metodom plaćanja za sljedeće pretplate."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
