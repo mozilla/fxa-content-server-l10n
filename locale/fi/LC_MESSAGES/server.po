@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-04 09:40+0000\n"
+"PO-Revision-Date: 2021-04-07 09:14+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -299,7 +299,7 @@ msgstr "Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut Firefoxin t
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
 msgid "Set up next device"
-msgstr ""
+msgstr "Määritä seuraava laite"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
