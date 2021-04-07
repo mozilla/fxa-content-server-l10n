@@ -90,14 +90,25 @@ cs-refresh-button =
     .title = Osvježi povezane usluge
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Nedostajuće ili duplicirane stavke?
+cs-disconnect-sync-reason =
+    Koji je glavni razlog za prekidanje veze
+    ovog uređaja?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
 cs-disconnect-sync-opt-prefix = Uređaj je:
+cs-disconnect-sync-opt-suspicious = Sumnjivo
+cs-disconnect-sync-opt-lost = Izgubljeno ili ukradeno
+cs-disconnect-sync-opt-old = Staro ili zamijenjeno
+cs-disconnect-sync-opt-duplicate = Duplikat
+cs-disconnect-sync-opt-not-say = Ne želim reći
 
 ##
 
+cs-disconnect-advice-confirm = U redu, razumijem
+cs-disconnect-lost-advice-heading = Prekinuta veza s izgubljenim ili ukradenim uređajem
+cs-disconnect-suspicious-advice-heading = Prekinuta veza sa sumnjivim uređajem
 cs-sign-out-button = Odjava
 
 ##
@@ -206,6 +217,7 @@ pw-change-header =
     .title = Promijeni lozinku
 pw-change-least-8-chars = Mora sadržati barem 8 znakova
 pw-change-not-contain-email = Ne smije biti tvoja adresa e-pošte
+pw-change-must-match = Nova lozinka podudara se s potvrdom
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravljena lozinka?
@@ -226,6 +238,9 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
+delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
+delete-account-chk-box-1 =
+    .label = Sve plaćene pretplate biti otkazane
 delete-account-close-button = Zatvori
 delete-account-continue-button = Nastavi
 delete-account-password-input =
@@ -292,6 +307,11 @@ tfa-step-3-3 = Korak 3 od 3
 tfa-button-continue = Nastavi
 tfa-button-cancel = Odustani
 tfa-button-finish = Završi
+tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
+tfa-input-enter-totp =
+    .label = Unesi sigurnosni kôd
+tfa-enter-recovery-code =
+    .label = Unesi kôd za oporavak
 
 ##
 
@@ -329,6 +349,8 @@ rk-enabled = Omogućeno
 rk-not-set = Nije postavljeno
 rk-action-create = Stvori
 rk-action-remove = Ukloni
+rk-key-removed = Ključ za oporavak računa je uklonjen.
+rk-refresh-key = Osvježi ključ za oporavak
 
 ## Secondary email sub-section on main Settings page
 
