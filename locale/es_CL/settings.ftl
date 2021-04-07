@@ -149,6 +149,12 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menú de { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Salir
+drop-down-menu-sign-out-error = Lo sentimos, hubo un problema al cerrar tu sesión.
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -171,9 +177,19 @@ header-help = Ayuda
 
 ## Modal
 
+modal-close-title = Cerrar
+modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifica tu correo
+mvs-enter-verification-code = Ingresa tu código de verificación
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Por favor, ingresa el código de verificación que fue enviado a <email>{ $email }</email> dentro de los próximos 5 minutos.
+msv-cancel-button = Cancelar
+msv-submit-button = Verificar
 
 ## Settings Nav
 
@@ -406,6 +422,8 @@ row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Clave de recuperación
+rk-enabled = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
@@ -420,6 +438,8 @@ rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 rk-remove-modal-content =
     En el caso de que restablezcas tu contraseña, no podrás
     usar tu clave de recuperación para acceder a tus datos. No puede deshacer esta acción.
+rk-refresh-error = Lo sentimos, hubo un problema al actualizar la clave de recuperación.
+rk-remove-error = No se pudo eliminar la clave de recuperación de tu cuenta.
 
 ## Secondary email sub-section on main Settings page
 
@@ -461,6 +481,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticación en dos pasos
 tfa-row-disabled = Autenticación en dos pasos desactivada.
 tfa-row-enabled = Activada
 tfa-row-not-set = No establecida
