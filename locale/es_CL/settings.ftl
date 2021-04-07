@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Cuenta de Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,11 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menú Bento de { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu privacidad en línea.
 
 ## Connect another device promo
 
@@ -134,6 +140,9 @@ datablock-copy =
 datablock-print =
     .message = Impreso
 
+# DropDownAvatarMenu component
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperación
@@ -151,9 +160,13 @@ header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Volver arriba
 header-title = { -product-firefox-accounts }
-header-switch-title = Cambiar al diseño clásico
-    .title = enlace del diseño clásico
 header-help = Ayuda
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -386,7 +399,6 @@ row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
@@ -442,8 +454,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticación en dos pasos
 tfa-row-disabled = Autenticación en dos pasos desactivada.
 tfa-row-enabled = Activada
 tfa-row-not-set = No establecida
