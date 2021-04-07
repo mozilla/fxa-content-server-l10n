@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-03-17 01:21+0000\n"
+"PO-Revision-Date: 2021-04-07 13:06+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -72,7 +72,7 @@ msgstr "Nueva conexión de %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Cambio de contraseña requerido"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -88,7 +88,7 @@ msgstr "Regístrate en cualquier dispositivo o servicio donde uses tu cuenta de 
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Importante:</b> Elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente de la de tu cuenta de correo."
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -102,7 +102,7 @@ msgstr "El equipo de cuentas de Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Importante: Elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente de la de tu cuenta de correo."
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -302,7 +302,7 @@ msgstr "Sync mantiene de forma privada tus marcadores, contraseñas y otros dato
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
 msgid "Set up next device"
-msgstr ""
+msgstr "Configurar el siguiente dispositivo"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -456,11 +456,11 @@ msgstr "Ayúdanos a solucionarlo actualizando tu información de pago en un plaz
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Lo sentimos, estamos teniendo problemas con tu método de pago"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "Hemos detectado un problema con tu método de pago para %(productName)s."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -504,7 +504,7 @@ msgstr "La tarjeta de crédito que estás utilizando para realizar pagos para la
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "¿Preguntas acerca de tus suscripciones? Nuestro <a href=\"%(subscriptionSupportUrl)s\">equipo de soporte</a> está aquí para ayudarte."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -512,7 +512,7 @@ msgstr "¿Preguntas sobre tus suscripciones? Nuestro equipo de soporte está aqu
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Hemos detectado un problema con tu método de pago para las siguientes suscripciones."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -628,7 +628,7 @@ msgstr "¿Eres tu quien se está registrando?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "En caso afirmativo, utiliza este código de verificación en tu formulario de registro:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -901,7 +901,7 @@ msgstr "La tarjeta de crédito para tus suscripciones vence pronto"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Se requiere una actualización de la información de pago para %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
@@ -1060,8 +1060,8 @@ msgstr "Bajar la última versión"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de %(invoiceTotal)s a la tarjeta %(cardType)s que termina en %(lastFour)s el %(nextInvoiceDateOnly)s. Tu suscripción "
-#~ "se renovará automáticamente en cada período de facturación a menos que elija cancelarla."
+#~ "Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de %(invoiceTotal)s a la tarjeta %(cardType)s que termina en %(lastFour)s el %(nextInvoiceDateOnly)s. Tu suscripción se "
+#~ "renovará automáticamente en cada período de facturación a menos que elija cancelarla."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "¡Gracias por suscribirte a %(productName)s!"
@@ -1070,18 +1070,18 @@ msgstr "Bajar la última versión"
 #~ msgstr "Eliminaste recientemente tu cuenta de Firefox. Como resultado, hemos cancelado tu suscripción de %(productName)s. Tu último pago por $%(invoiceTotal)s fue realizado el %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Hemos cancelado tu suscripción para %(productName)s. Tu último pago de $%(invoiceTotal)s fue realizado el %(invoiceDateOnly)s. Tu servicio continuará hasta el término del periodo de facturación "
 #~ "actual, el cual es hasta %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "A partir de tu próxima factura, tu cargo cambiará de %(paymentAmountOld)s cada %(productPaymentCycle)s a %(paymentAmountNew)s. En ese momento, también se te va a otorgar un crédito único de $"
-#~ "%(paymentProrated)s para reflejar el cobro reducido producto de lo que quedó del %(productPaymentCycle)s."
+#~ "A partir de tu próxima factura, tu cargo cambiará de %(paymentAmountOld)s cada %(productPaymentCycle)s a %(paymentAmountNew)s. En ese momento, también se te va a otorgar un crédito único de "
+#~ "$%(paymentProrated)s para reflejar el cobro reducido producto de lo que quedó del %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Se cobró $%(invoiceTotal)s el %(invoiceDateOnly)s"
@@ -1090,15 +1090,15 @@ msgstr "Bajar la última versión"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de $%(invoiceTotal)s a la tarjeta %(cardType)s que termina en %(lastFour)s el %(nextInvoiceDateOnly)s. Tu "
-#~ "suscripción se renovará automáticamente en cada período de facturación a menos que elija cancelarla."
+#~ "Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de $%(invoiceTotal)s a la tarjeta %(cardType)s que termina en %(lastFour)s el %(nextInvoiceDateOnly)s. Tu suscripción se"
+#~ " renovará automáticamente en cada período de facturación a menos que elija cancelarla."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "A partir de tu próxima factura, tu cargo cambiará de %(paymentAmountOld)s cada %(productPaymentCycle)s a %(paymentAmountNew)s. En ese momento, también se te va a cobrar un cargo único de $"
-#~ "%(paymentProrated)s para reflejar el cobro mayor producto de la diferencia dentro del %(productPaymentCycle)s."
+#~ "A partir de tu próxima factura, tu cargo cambiará de %(paymentAmountOld)s cada %(productPaymentCycle)s a %(paymentAmountNew)s. En ese momento, también se te va a cobrar un cargo único de "
+#~ "$%(paymentProrated)s para reflejar el cobro mayor producto de la diferencia dentro del %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Estás conectado y listo para empezar a navegar de forma segura."
@@ -1203,8 +1203,8 @@ msgstr "Bajar la última versión"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes conectarte a Sync desde tus otros dispositivos, incluyendo Firefox para <a %(androidLinkAttributes)s>Android</"
-#~ "a> e <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes conectarte a Sync desde tus otros dispositivos, incluyendo Firefox para <a %(androidLinkAttributes)s>Android</a> e "
+#~ "<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes conectarte a Sync desde tus otros dispositivos, incluyendo Firefox para Android e iOS."
@@ -1327,15 +1327,15 @@ msgstr "Bajar la última versión"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes conectarte a Sync desde tus otros dispositivos, incluyendo Firefox para <a href='%(androidUrl)s'>Android</a> e "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Ahora puedes conectarte a Sync desde tus otros dispositivos, incluyendo Firefox para <a href='%(androidUrl)s'>Android</a> e <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Para sacar el mayor provecho a Sync, conecta <a href='%(androidUrl)s'>Firefox para Android</a> o <a "
-#~ "href='%(iosUrl)s'>Firefox para iOS</a>."
+#~ "Conectaste exitosamente tu primer dispositivo a tu cuenta de Firefox. Para sacar el mayor provecho a Sync, conecta <a href='%(androidUrl)s'>Firefox para Android</a> o <a href='%(iosUrl)s'>Firefox "
+#~ "para iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Conectarse a Sync"
@@ -1500,11 +1500,11 @@ msgstr "Bajar la última versión"
 #~ msgstr "Reiniciar contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo en "
-#~ "el que te conectes. Simplemente confirma este email para activar tu cuenta."
+#~ "Hace unos días creaste una cuenta de Firefox, pero nunca la verificaste. Una cuenta verificada te permite acceder a tus pestañas, marcadores, contraseñas e historial en cualquier dispositivo en el "
+#~ "que te conectes. Simplemente confirma este email para activar tu cuenta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Hace una semana creaste una cuenta de Firefox, pero nunca la verificaste. Estamos preocupados por ti. Confirma este email para activar tu cuenta y avisarnos que estás bien."
@@ -1531,8 +1531,7 @@ msgstr "Bajar la última versión"
 #~ msgstr ""
 #~ "Haz eliminado exitosamente %(secondaryEmail)s como correo secundario de tu cuenta de Firefox. Las notificaciones de seguridad y confirmaciones de conexión ya no serán enviadas a esa dirección."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Has verificado exitosamente %(secondaryEmail)s como correo secundario para tu cuenta de Firefox. Las notificaciones de seguridad y las confirmaciones de conexión ahora serán enviadas a ambas "
 #~ "direcciones de correo."
@@ -1702,8 +1701,8 @@ msgstr "Bajar la última versión"
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Este es un correo generado automáticamente; si no has añadido ningún dispositivo nuevo a tu cuenta de Firefox, deberías cambiar inmediatamente tu contraseña en <a href='%(resetLink)s'>"
-#~ "%(resetLink)s</a>."
+#~ "Este es un correo generado automáticamente; si no has añadido ningún dispositivo nuevo a tu cuenta de Firefox, deberías cambiar inmediatamente tu contraseña en <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr "Este es un correo generado automáticamente; si no has cambiado la contraseña de tu cuenta de Firefox, deberías reiniciarla inmediatamente en <a href='%(resetLink)s'>%(resetLink)s</a>."
