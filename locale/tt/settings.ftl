@@ -60,6 +60,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Bento менюсы
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -81,6 +82,7 @@ cs-heading = Тоташтырылган Хезмәтләр
 ##
 
 cs-disconnect-advice-confirm = Яхшы, аңладым
+cs-disconnect-suspicious-advice-heading = Шикле җиһаз тоташкан
 cs-sign-out-button = Чыгу
 
 ##
@@ -98,6 +100,7 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } меню
+drop-down-menu-sign-out = Чыгу
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -111,6 +114,7 @@ get-data-trio-print =
 
 # HeaderLockup component
 
+header-menu-open = Менюны ябу
 header-back-to-top-link =
     .title = Сәхифә башына
 header-title = { -product-firefox-accounts }
@@ -123,7 +127,10 @@ modal-cancel-button = Баш тарту
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Эл. почтагызны раслау
+mvs-enter-verification-code = Раслау кодыгызны языгыз
 msv-cancel-button = Баш тарту
+msv-submit-button = Раслау
 
 ## Settings Nav
 
@@ -131,10 +138,12 @@ nav-settings = Көйләүләр
 nav-profile = Профиль
 nav-security = Хәвефсезлек
 nav-connected-services = Тоташтырылган Хезмәтләр
+nav-paid-subs = Түләүле язылулар
 nav-email-comm = Эл. почта элемтәләр
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Хисап язмасын тергезү кодлары яңартылды.
 
 ## Avatar change page
 
@@ -143,10 +152,13 @@ avatar-page-title =
 avatar-page-add-photo = Рәсем өстәү
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Фотога төшерү
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Фотоны бетерү
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Яңадан фотога төшерү
 avatar-page-close-button = Ябу
 avatar-page-save-button = Саклау
 avatar-page-zoom-out-button = Кечерәйтү
@@ -161,12 +173,15 @@ avatar-page-new-avatar =
 
 ## Password change page
 
+pw-change-header =
+    .title = Серсүзне үзгәртү
 pw-change-least-8-chars = Кимендә 8 билге булырга тиеш
 pw-change-cancel-button = Баш тарту
 pw-change-save-button = Саклау
 pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
 pw-change-new-password =
     .label = Яңа паролны языгыз
+pw-change-success-alert = Серсүз яңартылды.
 
 ##
 
@@ -214,6 +229,8 @@ recovery-key-step-2 = Адым 2/2
 
 add-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
+add-secondary-email-enter-address =
+    .label = Эл. почта адресын кертегез
 add-secondary-email-cancel-button = Баш тарту
 add-secondary-email-save-button = Саклау
 
@@ -224,7 +241,10 @@ add-secondary-email-save-button = Саклау
 
 verify-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
+verify-secondary-email-verification-code =
+    .label = Раслау кодын кертегез
 verify-secondary-email-cancel-button = Баш тарту
+verify-secondary-email-verify-button = Раслау
 
 ##
 
@@ -273,6 +293,7 @@ row-defaults-status = Бернинди дә
 rk-header = Коткару ачкычы
 rk-enabled = Кабызылган
 rk-action-remove = Бетерү
+rk-key-removed = Хисапны коткару ачкычы бетерелде.
 
 ## Secondary email sub-section on main Settings page
 
@@ -289,16 +310,20 @@ tfa-row-disabled = Ике адымлы аутентификация сүндер
 tfa-row-enabled = Кабызылган
 tfa-row-action-add = Өстәү
 tfa-row-action-disable = Cүндерү
+tfa-row-button-refresh =
+    .title = Ике адымлы аутентификацияне яңарту
 tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-change-modal-confirm = Үзгәртү
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Рәсем
 avatar-add-link = Өстәү
 avatar-change-link = Үзгәртү
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Билгесез хисап
 auth-error-103 = Парол хаталы
 auth-error-110 = Хаталы токен
 auth-error-155 = TOTP токен табылмады

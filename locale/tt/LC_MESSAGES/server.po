@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 11:41+0000\n"
-"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2021-04-07 00:57+0000\n"
+"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -834,15 +834,15 @@ msgstr ""
 
 #: lib/senders/email.js:1383
 msgid "Primary email updated"
-msgstr ""
+msgstr "Төп эл. почта адресы яңартылды"
 
 #: lib/senders/email.js:1453
 msgid "Two-step verification enabled"
-msgstr ""
+msgstr "Ике адымлы раслау кабызылды"
 
 #: lib/senders/email.js:1496
 msgid "Two-step verification is off"
-msgstr ""
+msgstr "Ике адымлы раслау сүндерелде"
 
 #: lib/senders/email.js:1582
 msgid "Recovery code used"
@@ -930,7 +930,7 @@ msgstr ""
 
 #: lib/senders/email.js:2573
 msgid "Sync another device"
-msgstr ""
+msgstr "Башка җиһазны синхронлау"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1

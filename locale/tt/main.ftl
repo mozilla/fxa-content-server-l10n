@@ -37,6 +37,12 @@ privacy = Хосусыйлык сәясәте
 
 ## Product route
 
+product-plan-error =
+    .title = Планнарны йөкләгәндә хата китте
+product-profile-error =
+    .title = Профильне йөкләгәндә хата китте
+product-customer-error =
+    .title = Кулланучыны йөкләгәндә хата китте
 product-plan-not-found = План табылмады
 
 ## payment legal blurb
