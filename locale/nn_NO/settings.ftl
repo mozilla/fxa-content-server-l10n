@@ -137,6 +137,8 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Lat att meny
+header-back-to-top-link =
+    .title = Tilbake til toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjelp
 
@@ -148,6 +150,11 @@ modal-cancel-button = Avbryt
 ## Modal Verify Session
 
 mvs-verify-your-email = Stadfest e-postadressa di
+mvs-enter-verification-code = Skriv inn stadfestingskoden din
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Skriv inn stadfestingskoden som vart sendt til <email>{ $email }</email>, innan 5 minutt.
 msv-cancel-button = Avbryt
 msv-submit-button = Stadfest
 
@@ -158,6 +165,7 @@ nav-profile = Profil
 nav-security = Sikkerheit
 nav-connected-services = Tilkopla tenester
 nav-paid-subs = Betalte abonnement
+nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace recovery code
 
@@ -182,8 +190,11 @@ avatar-page-saving-button = Lagrar…
 avatar-page-zoom-out-button = Zoom ut
 avatar-page-zoom-in-button = Zoom inn
 avatar-page-rotate-button = Roter
+avatar-page-camera-error = Klarte ikkje å starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
+avatar-page-file-upload-error-2 = Det oppstod eit problem med opplastinga av profilbildet ditt.
+avatar-page-delete-error-2 = Det oppstod eit problem med slettinga av profilbildet ditt.
 
 ##
 
