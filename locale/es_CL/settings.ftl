@@ -62,6 +62,12 @@ avatar-default-avatar =
 
 bento-menu-title = Menú Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu privacidad en línea.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
+bento-menu-firefox-mobile = Navegador { -brand-firefox } para móviles
+bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -142,6 +148,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menú de { -product-firefox-account }
 
 # GetDataTrio component, part of Recovery Key flow
 
