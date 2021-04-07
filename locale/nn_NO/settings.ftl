@@ -112,10 +112,16 @@ datablock-download =
     .message = Nedlasta
 datablock-copy =
     .message = Kopiert
+datablock-print =
+    .message = Skrive ut
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-meny
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Logga inn som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logg ut
 
 # GetDataTrio component, part of Recovery Key flow
