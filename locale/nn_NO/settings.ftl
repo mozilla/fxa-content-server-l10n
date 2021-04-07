@@ -195,6 +195,7 @@ avatar-page-new-avatar =
     .alt = nytt profilbilde
 avatar-page-file-upload-error-2 = Det oppstod eit problem med opplastinga av profilbildet ditt.
 avatar-page-delete-error-2 = Det oppstod eit problem med slettinga av profilbildet ditt.
+avatar-page-image-too-large-error = Bildefila er for stor til å kunne lastast opp.
 
 ##
 
@@ -331,11 +332,20 @@ row-defaults-status = Ingen
 ## Recovery key sub-section on main Settings page
 
 rk-header = Gjenopprettingsnøkkel
+rk-enabled = Slått på
 rk-action-create = Opprett
 rk-action-remove = Fjern
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundær e-postadresse
+    .header = Sekundær e-postadresse
+# Button to remove the secondary email
+se-remove-email =
+    .title = Fjern e-postadresse
+se-unverified = Ikkje stadfesta
+# Button to make secondary email the primary
+se-make-primary = Bruk som primær e-postadresse
 
 ##
 
