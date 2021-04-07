@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 07:58+0000\n"
-"Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
+"PO-Revision-Date: 2021-04-07 12:08+0000\n"
+"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -201,11 +201,11 @@ msgstr "Si vous n’êtes pas à l’origine de cette action, révoquez cette cl
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr "Validation en deux étapes activée"
+msgstr "Authentification en deux étapes activée"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Vous avez activé la validation en deux étapes pour votre compte Firefox à partir de l’appareil suivant :"
+msgstr "Vous avez activé l’authentification en deux étapes pour votre compte Firefox à partir de l’appareil suivant :"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -213,7 +213,7 @@ msgstr "Un code de sécurité issu de votre application d’authentification ser
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Vous avez activé la validation en deux étapes pour votre compte Firefox. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion."
+msgstr "Vous avez activé l’authentification en deux étapes pour votre compte Firefox. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -274,11 +274,11 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr "Validation en deux étapes désactivée"
+msgstr "Authentification en deux étapes désactivée"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Vous avez désactivé la validation en deux étapes pour votre compte Firefox à partir de l’appareil suivant :"
+msgstr "Vous avez désactivé l’authentification en deux étapes pour votre compte Firefox à partir de l’appareil suivant :"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
@@ -286,7 +286,7 @@ msgstr "Un code de sécurité ne sera désormais plus nécessaire au moment de l
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Vous avez désactivé la validation en deux étapes pour votre compte Firefox. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion."
+msgstr "Vous avez désactivé l’authentification en deux étapes pour votre compte Firefox. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
