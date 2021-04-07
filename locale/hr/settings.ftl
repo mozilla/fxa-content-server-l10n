@@ -307,6 +307,7 @@ tfa-step-3-3 = Korak 3 od 3
 tfa-button-continue = Nastavi
 tfa-button-cancel = Odustani
 tfa-button-finish = Završi
+tfa-enabled = Dvofaktorska autentifikacija je omogućena
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
 tfa-input-enter-totp =
     .label = Unesi sigurnosni kôd
@@ -350,21 +351,41 @@ rk-not-set = Nije postavljeno
 rk-action-create = Stvori
 rk-action-remove = Ukloni
 rk-key-removed = Ključ za oporavak računa je uklonjen.
+rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za oporavak računa.
 rk-refresh-key = Osvježi ključ za oporavak
+rk-remove-modal-heading = Ukloniti ključ za oporavak računa?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundarna adresa e-pošte
+    .header = Sekundarna adresa e-pošte
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = E-pošta { $email } uspješno izbrisana.
 se-delete-email-error = Oprosti, dogodila se greška kod brisanja ove e-pošte.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Ukloni e-poštu
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Osvježi e-poštu
+se-unverified = nepotvrđeno
+# Button to make secondary email the primary
+se-make-primary = Učini primarnom
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-disabled = Dvofaktorska autentifikacija je onemogućena.
+tfa-row-enabled = Omogućeno
+tfa-row-not-set = Nije postavljeno
+tfa-row-action-add = Dodaj
+tfa-row-action-disable = Onemogući
+tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
+tfa-row-disable-modal-confirm = Onemogući
 
 ## Avatar sub-section on main Settings page
 
