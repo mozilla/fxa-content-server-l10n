@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-06 22:41+0000\n"
+"PO-Revision-Date: 2021-04-07 15:42+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -209,7 +209,7 @@ msgstr "Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada ć
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Uspješno je omogućena autentifikaciju u dva koraka na tvom Firefox računu. Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -220,6 +220,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Primarna adresa e-pošte uspješno je promijenjena u %(email)s. Ova adresa je sada tvoje korisničko ime za prijavu na tvoj Firefox račun, te adresa na koju ćeš primati sigurnosne obavijesti i potvrde "
+"prijave."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -263,7 +265,7 @@ msgstr "Sekundarna adresa e-pošte je uklonjena"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
+msgstr "Adresa %(secondaryEmail)s uspješno je uklonjena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave više neće stizati na tu adresu."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
@@ -279,7 +281,7 @@ msgstr "Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Dvofaktorska provjera autentičnosti uspješno je onemogućena za tvoj Firefox račun. Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
@@ -291,7 +293,7 @@ msgstr "Sljedeća sinkronizacija između tvojih uređaja!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Sinkronizacija privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima na svim tvojim uređajima."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
 msgid "Set up next device"
