@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 12:25+0000\n"
+"PO-Revision-Date: 2021-04-07 11:41+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -69,7 +69,7 @@ msgstr "%(clientName)s өчен яңа керү"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Серсүзне үзгәртү кирәк"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -601,7 +601,7 @@ msgstr "Адрес расланганнан соң, хәвефсезлек ту�
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Бу раслау кодын куллану:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
@@ -681,7 +681,7 @@ msgstr "Mozilla'ның Хосусыйлык Сәясәте"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Firefox Болыт-ны куллану шартлары"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
@@ -801,7 +801,7 @@ msgstr ""
 
 #: lib/senders/email.js:898
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Төп эл. почтаны раслау"
 
 #: lib/senders/email.js:899 lib/senders/email.js:958 lib/senders/email.js:1026
 msgid "Verify email"
@@ -817,7 +817,7 @@ msgstr ""
 
 #: lib/senders/email.js:1123 lib/senders/email.js:1189
 msgid "Password updated"
-msgstr ""
+msgstr "Серсүз яңартылды"
 
 #: lib/senders/email.js:1161 lib/senders/email.js:1219
 msgid "Suspicious activity detected"

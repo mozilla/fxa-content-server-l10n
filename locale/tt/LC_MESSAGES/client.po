@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 11:31+0000\n"
+"PO-Revision-Date: 2021-04-07 11:39+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1028,12 +1028,12 @@ msgstr "Парольне үзгәртү хаты җибәрелде"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Яңа серсүз булдыру өчен, бер сәгать эчендә без%(email)s адресына җибәргән сылтамага басыгыз."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Раслау кодын кертү"
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1047,7 +1047,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
-msgstr ""
+msgstr "Раслау"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1076,7 +1076,7 @@ msgstr "Көйләүне тәмамлар өчен бу Firefox'ка керег�
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Әле дә җиһазлар өстисезме?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
@@ -1084,7 +1084,7 @@ msgstr "Көйләүне тәмамлар өчен башка бер җиһаз�
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Әле дә җиһазлар өстисезме? Көйләүне тәмамлар өчен башка бер җиһаздан Firefox-ка керегез"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1116,7 +1116,7 @@ msgstr "Парол"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Дәвам итү нәтиҗәсендә Сез<a id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез."
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
@@ -1134,7 +1134,7 @@ msgstr "Дәвам итү"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Коткару кодларын саклау"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1159,7 +1159,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Коткару кодын раслау"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1175,7 +1175,7 @@ msgstr "Раслау"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Ике адымлы аутентификацияне кабызу"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1278,7 +1278,7 @@ msgstr "Хисабыгыз хәзер!"
 
 #: .es5/templates/ready.mustache:13
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Яңа коткару ачкычын төзү"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1324,7 +1324,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
-msgstr ""
+msgstr "Расланды"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Көйләүләргә кире кайту"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1360,7 +1360,7 @@ msgstr "Башка бер хисапны куллану"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Коткару кодын кертү"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a recovery code that was provided to you during setup."
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Иминлек кодын кертегез"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
@@ -1416,7 +1416,7 @@ msgstr "Firefox Хисабын булдыру"
 
 #: .es5/templates/sign_up_password.mustache:3
 msgid "Change email"
-msgstr ""
+msgstr "Эл. почтаны үзгәртү"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"
@@ -1444,7 +1444,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Мобиль телефон номеры"
 
 #: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
@@ -1504,7 +1504,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Безнең белән элемтәгә керү"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
@@ -1568,11 +1568,11 @@ msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Бу җиһазны синхронлау"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Aдым 1/2: Серсүзне янәдән кертегез"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -1584,7 +1584,7 @@ msgstr "Паролны кертү"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Икенчел эл. почта адресын өстәү"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -1609,7 +1609,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s хезмәтенә күчү"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1626,7 +1626,7 @@ msgstr "Иске серсүз"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Яңа серсүзне кабатлагыз"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Башлап җибәрү"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
 msgid "I'll do this later, send me a reminder"
@@ -1682,7 +1682,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Камера кушымтасы белән Firefox-ны йөкләү"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -1714,7 +1714,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Җиһазыгызда камера кушымтасын ачыгыз"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
@@ -1746,7 +1746,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Серсүзне раслау"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
@@ -1758,7 +1758,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Коткару ачкычын саклау"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1874,7 +1874,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Уңышлы тоташтырылды"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -1898,7 +1898,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
-msgstr ""
+msgstr "Башка җиһазны тоташтыру өчен сканерлау"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
@@ -1906,7 +1906,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
-msgstr ""
+msgstr "Кодны күрсәтү"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
