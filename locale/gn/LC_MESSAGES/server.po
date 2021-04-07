@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 15:41+0000\n"
+"PO-Revision-Date: 2021-04-07 15:46+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -501,7 +501,7 @@ msgstr "Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboher
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "¿Porandu ne mboheraguapy rehegua? Ore <a href=\"%(subscriptionSupportUrl)s\">aty pytyvõha</a> oĩ ápe nepytyvõ hag̃ua."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -509,7 +509,7 @@ msgstr "¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ko’ápe nepytyv
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Rohechakuaa peteĩ apañuãi ne ñehepyme’ẽ ayvu rehegua tenondeve g̃uarãva."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"

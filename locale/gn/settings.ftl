@@ -185,6 +185,7 @@ modal-cancel-button = Heja
 ## Modal Verify Session
 
 mvs-verify-your-email = Ñanduti veve jehechajey
+mvs-enter-verification-code = Emoinge ayvu jehechajeyrã
 msv-cancel-button = Heja
 msv-submit-button = Hechajey
 
@@ -441,6 +442,7 @@ rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 rk-refresh-error = Rombyasy, oiko apañuãi embohekopyahúvo mba’eñemi guerujeyrã.
+rk-remove-error = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 
 ## Secondary email sub-section on main Settings page
 
@@ -482,6 +484,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Ñemoneĩ mokõi jeku’épe
 tfa-row-disabled = Ñemoneĩ mokõi jeku’épe jepe’apyre.
 tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
