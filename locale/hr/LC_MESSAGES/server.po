@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 15:42+0000\n"
+"PO-Revision-Date: 2021-04-07 15:43+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -309,7 +309,7 @@ msgstr "Dodana je sekundarna adresa e-pošte"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Adresa %(secondaryEmail)s uspješno je potvrđena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave sada će biti dostavljane na obje adrese e-pošte."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -317,7 +317,7 @@ msgstr "Moraš ponovo postaviti lozinku?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "U sljedećih sat vremena klikni gumb za stvaranje nove lozinke. Zahtjev je stigao sa sljedećeg uređaja:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1082
 msgid "Create new password"
