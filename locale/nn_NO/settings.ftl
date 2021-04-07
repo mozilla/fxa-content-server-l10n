@@ -352,13 +352,19 @@ se-make-primary = Bruk som primær e-postadresse
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Slått på
 tfa-row-action-add = Legg til
+tfa-row-action-disable = Slå av
+tfa-row-disable-modal-confirm = Slå av
 tfa-row-change-modal-confirm = Endre
 
 ## Avatar sub-section on main Settings page
 
+avatar-heading = Bilde
 avatar-add-link = Legg til
 avatar-change-link = Endre
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Ukjend konto
+auth-error-103 = Feil passord
