@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Fechar mensagem
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -142,6 +146,10 @@ drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</us
 drop-down-menu-sign-out = Desconectar
 drop-down-menu-sign-out-error = Desculpe, houve um problema ao desconectar da sua conta.
 
+## Flow Container
+
+flow-container-back = Voltar
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperação
@@ -160,6 +168,13 @@ header-back-to-top-link =
     .title = Voltar ao início
 header-title = { -product-firefox-accounts }
 header-help = Ajuda
+
+## Input Password
+
+input-password-hide = Ocultar senha
+input-password-show = Exibir senha
+input-password-hide-aria = Oculta a senha na tela.
+input-password-show-aria = Exibe a senha como texto legível. Sua senha fica visível na tela.
 
 ## Modal
 
@@ -206,7 +221,7 @@ avatar-page-remove-photo = Remover foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tirar outra foto
-avatar-page-close-button = Fechar
+avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Salvar
 avatar-page-saving-button = Salvando…
 avatar-page-zoom-out-button = Reduzir
@@ -262,7 +277,6 @@ delete-account-chk-box-3 =
     .label = Reativar com este email pode não restaurar suas informações salvas
 delete-account-chk-box-4 =
     .label = Quaisquer extensões e temas que você publicou em addons.mozilla.org serão excluídos
-delete-account-close-button = Fechar
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Digite a senha
