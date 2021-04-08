@@ -144,6 +144,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu { -product-firefox-account(capitalization: "uppercase") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
