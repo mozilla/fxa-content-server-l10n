@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Закрити повідомлення
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -212,6 +216,10 @@ drop-down-menu-signed-in-as = <signin>Ви увійшли як</signin><user>{ $
 drop-down-menu-sign-out = Вийти
 drop-down-menu-sign-out-error = Перепрошуємо, але при виході виникла проблема.
 
+## Flow Container
+
+flow-container-back = Назад
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коди відновлення
@@ -230,6 +238,13 @@ header-back-to-top-link =
     .title = Вгору
 header-title = { -product-firefox-accounts }
 header-help = Допомога
+
+## Input Password
+
+input-password-hide = Приховати пароль
+input-password-show = Показати пароль
+input-password-hide-aria = Приховати пароль з екрана.
+input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
 
 ## Modal
 
@@ -279,7 +294,7 @@ avatar-page-remove-photo = Вилучити фото
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Зробити новий знімок
-avatar-page-close-button = Закрити
+avatar-page-cancel-button = Скасувати
 avatar-page-save-button = Зберегти
 avatar-page-saving-button = Збереження…
 avatar-page-zoom-out-button = Зменшити
@@ -337,7 +352,6 @@ delete-account-chk-box-3 =
     .label = Повторна активація з використанням цієї електронної пошти може не відновити вашу збережену інформацію
 delete-account-chk-box-4 =
     .label = Будь-які розширення і теми, оприлюднені вами на addons.mozilla.org, будуть видалені
-delete-account-close-button = Закрити
 delete-account-continue-button = Продовжити
 delete-account-password-input =
     .label = Введіть пароль
