@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-01 22:07+0000\n"
+"POT-Creation-Date: 2021-04-08 22:07+0000\n"
 "PO-Revision-Date: 2021-04-03 01:30+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2562
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2631
 msgid "Here's your reminder to sync devices."
 msgstr "Đây là lời nhắc cho bạn để đồng bộ hóa thiết bị."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2566
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2635
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Mất hai để đồng bộ hóa. Đồng bộ hóa một thiết bị khác với Firefox sẽ giữ dấu trang, mật khẩu và dữ liệu Firefox khác của bạn giống nhau ở mọi nơi bạn sử dụng Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2563
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2632
 msgid "Last reminder to sync devices!"
 msgstr "Lời nhắc cuối cùng để đồng bộ hóa thiết bị!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2569
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2638
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Đồng bộ hóa thiết bị khác với Firefox sẽ giữ dấu trang, mật khẩu và dữ liệu Firefox khác của bạn giống nhau ở mọi nơi bạn sử dụng Firefox."
 
@@ -63,7 +63,7 @@ msgstr "Chúng tôi nhận thấy rằng bạn sắp hết mã khôi phục. Vui
 msgid "Generate codes:"
 msgstr "Tạo mã:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1260
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1297
 msgid "New sign-in to %(clientName)s"
 msgstr "Đăng nhập mới vào %(clientName)s"
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Tìm hiểu cách xem Firefox đang lưu trữ mật khẩu nào cho bạn."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1672
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1729
 msgid "Account recovery key generated"
 msgstr "Đã tạo khóa khôi phục tài khoản"
 
@@ -235,7 +235,7 @@ msgstr "Bạn đã sử dụng thành công mã khôi phục từ thiết bị s
 msgid "Consumed recovery code"
 msgstr "Đã sử dụng mã phục hồi"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1539
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1588
 msgid "New recovery codes generated"
 msgstr "Đã tạo mã khôi phục mới"
 
@@ -243,7 +243,7 @@ msgstr "Đã tạo mã khôi phục mới"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Bạn đã tạo thành công mã khôi phục mới từ thiết bị sau:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1718
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1779
 msgid "Account recovery key removed"
 msgstr "Đã xóa khóa khôi phục tài khoản"
 
@@ -259,7 +259,7 @@ msgstr "Khóa khôi phục này không còn được sử dụng để khôi ph�
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Bạn đã xóa thành công khóa khôi phục tài khoản cho Tài khoản Firefox của mình từ thiết bị sau:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1419
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1460
 msgid "Secondary email removed"
 msgstr "Đã xóa email phụ"
 
@@ -295,7 +295,7 @@ msgstr "Tiếp theo, đồng bộ hóa giữa các thiết bị của bạn!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Đồng bộ hóa riêng tư giữ dấu trang, mật khẩu và dữ liệu Firefox khác giống nhau trên tất cả các thiết bị của bạn."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1343
 msgid "Set up next device"
 msgstr "Thiết lập thiết bị tiếp theo"
 
@@ -303,7 +303,7 @@ msgstr "Thiết lập thiết bị tiếp theo"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Có một vài câu hỏi? Truy cập %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1347
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1388
 msgid "Secondary email added"
 msgstr "Đã thêm email phụ"
 
@@ -319,7 +319,7 @@ msgstr "Cần đặt lại mật khẩu của bạn?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Vui lòng nhấp vào nút trong vòng một giờ để đặt mật khẩu mới. Yêu cầu này được thực hiện từ thiết bị sau:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1082
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1111
 msgid "Create new password"
 msgstr "Tạo mật khẩu mới"
 
@@ -351,8 +351,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Chúng tôi đã hủy thuê bao %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là %(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
-" thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+"Chúng tôi đã hủy thuê bao %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là %(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
+"thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -491,8 +491,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(productPaymentCycle)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí một"
-" lần là %(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
+"Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(productPaymentCycle)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí "
+"một lần là %(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -570,7 +570,7 @@ msgstr "Xác nhận tài khoản của bạn và tận dụng tối đa Firefox 
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Để tăng cường bảo mật, vui lòng xác nhận đăng nhập này từ thiết bị sau:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:791
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:800
 msgid "Confirm sign-in"
 msgstr "Xác nhận lần đăng nhập này"
 
@@ -754,192 +754,192 @@ msgstr "Hủy thuê bao:"
 msgid "Update billing information:"
 msgstr "Cập nhật thông tin thanh toán:"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:327
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s trên %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:329
+#: lib/senders/email.js:332
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s trên %(uaOS)s"
 
-#: lib/senders/email.js:355
+#: lib/senders/email.js:358
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:362
+#: lib/senders/email.js:365
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:367
+#: lib/senders/email.js:370
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ước tính)"
 
-#: lib/senders/email.js:372
+#: lib/senders/email.js:375
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ước tính)"
 
-#: lib/senders/email.js:553
+#: lib/senders/email.js:558
 msgid "Finish creating your account"
 msgstr "Kết thúc việc tạo tài khoản của bạn"
 
-#: lib/senders/email.js:554 lib/senders/email.js:682
+#: lib/senders/email.js:559 lib/senders/email.js:687
 msgid "Confirm email"
 msgstr "Xác nhận email"
 
-#: lib/senders/email.js:621
+#: lib/senders/email.js:626
 msgid "Verification code: %(code)s"
 msgstr "Mã xác minh: %(code)s"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:667
 msgid "Reminder: Finish creating your account"
 msgstr "Nhắc nhở: Hoàn tất tạo tài khoản của bạn"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:669
 msgid "Final reminder: Activate your account"
 msgstr "Lời nhắc cuối cùng: Kích hoạt tài khoản của bạn"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:724
 msgid "Account authorization code"
 msgstr "Mã ủy quyền tài khoản"
 
-#: lib/senders/email.js:788
+#: lib/senders/email.js:797
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Xác nhận đăng nhập mới vào %(clientName)s"
 
-#: lib/senders/email.js:833
+#: lib/senders/email.js:846
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Mã đăng nhập cho %(serviceName)s"
 
-#: lib/senders/email.js:898
+#: lib/senders/email.js:915
 msgid "Confirm primary email"
 msgstr "Xác nhận email chính"
 
-#: lib/senders/email.js:899 lib/senders/email.js:958 lib/senders/email.js:1026
+#: lib/senders/email.js:916 lib/senders/email.js:979 lib/senders/email.js:1051
 msgid "Verify email"
 msgstr "Xác nhận Email"
 
-#: lib/senders/email.js:957 lib/senders/email.js:1025
+#: lib/senders/email.js:978 lib/senders/email.js:1050
 msgid "Confirm secondary email"
 msgstr "Xác nhận email phụ"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1110
 msgid "Reset your password"
 msgstr "Đặt lại mật khẩu của bạn"
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1189
+#: lib/senders/email.js:1156 lib/senders/email.js:1226
 msgid "Password updated"
 msgstr "Đã cập nhật mật khẩu"
 
-#: lib/senders/email.js:1161 lib/senders/email.js:1219
+#: lib/senders/email.js:1198 lib/senders/email.js:1256
 msgid "Suspicious activity detected"
 msgstr "Phát hiện hoạt động đáng ngờ"
 
-#: lib/senders/email.js:1261 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1420 lib/senders/email.js:1454 lib/senders/email.js:1497 lib/senders/email.js:1540
-#: lib/senders/email.js:1583 lib/senders/email.js:1673 lib/senders/email.js:1719
+#: lib/senders/email.js:1298 lib/senders/email.js:1389 lib/senders/email.js:1425 lib/senders/email.js:1461 lib/senders/email.js:1495 lib/senders/email.js:1542 lib/senders/email.js:1589
+#: lib/senders/email.js:1636 lib/senders/email.js:1730 lib/senders/email.js:1780
 msgid "Manage account"
 msgstr "Quản lý tài khoản"
 
-#: lib/senders/email.js:1297
+#: lib/senders/email.js:1338
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Đã xác minh tài khoản. Tiếp theo, đồng bộ hóa thiết bị khác để hoàn tất thiết lập"
 
-#: lib/senders/email.js:1383
+#: lib/senders/email.js:1424
 msgid "Primary email updated"
 msgstr "Email chính đã xác minh"
 
-#: lib/senders/email.js:1453
+#: lib/senders/email.js:1494
 msgid "Two-step verification enabled"
 msgstr "Đã bật xác thực hai bước"
 
-#: lib/senders/email.js:1496
+#: lib/senders/email.js:1541
 msgid "Two-step verification is off"
 msgstr "Đã tắt xác thực hai bước"
 
-#: lib/senders/email.js:1582
+#: lib/senders/email.js:1635
 msgid "Recovery code used"
 msgstr "Mã khôi phục đã sử dụng"
 
-#: lib/senders/email.js:1635
+#: lib/senders/email.js:1692
 msgid "1 recovery code remaining"
 msgstr "1 mã khôi phục còn lại"
 
-#: lib/senders/email.js:1637
+#: lib/senders/email.js:1694
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s mã khôi phục còn lại"
 
-#: lib/senders/email.js:1640
+#: lib/senders/email.js:1697
 msgid "Generate codes"
 msgstr "Tạo mã"
 
-#: lib/senders/email.js:1764
+#: lib/senders/email.js:1829
 msgid "Password updated using recovery key"
 msgstr "Đã cập nhật mật khẩu bằng khóa khôi phục"
 
-#: lib/senders/email.js:1765
+#: lib/senders/email.js:1830
 msgid "Create new recovery key"
 msgstr "Tạo khóa khôi phục mới"
 
-#: lib/senders/email.js:1831
+#: lib/senders/email.js:1900
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Bạn đã nâng cấp lên %(productNameNew)s"
 
-#: lib/senders/email.js:1910
+#: lib/senders/email.js:1979
 msgid "You have switched to %(productNameNew)s"
 msgstr "Bạn đã chuyển sang %(productNameNew)s"
 
-#: lib/senders/email.js:1975
+#: lib/senders/email.js:2044
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Thẻ tín dụng cho %(productName)s sắp hết hạn"
 
-#: lib/senders/email.js:1989
+#: lib/senders/email.js:2058
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Thẻ tín dụng cho thuê bao của bạn sắp hết hạn"
 
-#: lib/senders/email.js:2038
+#: lib/senders/email.js:2107
 msgid "Payment information update required for %(productName)s"
 msgstr "Cần cập nhật thông tin thanh toán cho %(productName)s"
 
-#: lib/senders/email.js:2052
+#: lib/senders/email.js:2121
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Cần cập nhật thông tin thanh toán cho các thuê bao Mozilla"
 
-#: lib/senders/email.js:2104
+#: lib/senders/email.js:2173
 msgid "%(productName)s payment failed"
 msgstr "Thanh toán %(productName)s không thành công"
 
-#: lib/senders/email.js:2155 lib/senders/email.js:2220
+#: lib/senders/email.js:2224 lib/senders/email.js:2289
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Thuê bao %(productName)s của bạn đã bị hủy"
 
-#: lib/senders/email.js:2292
+#: lib/senders/email.js:2361
 msgid "%(productName)s subscription reactivated"
 msgstr "Đã kích hoạt lại thuê bao %(productName)s"
 
-#: lib/senders/email.js:2368
+#: lib/senders/email.js:2437
 msgid "%(productName)s payment received"
 msgstr "Đã nhận thanh toán %(productName)s"
 
-#: lib/senders/email.js:2458
+#: lib/senders/email.js:2527
 msgid "%(productName)s payment confirmed"
 msgstr "Đã xác nhận thanh toán%(productName)s"
 
-#: lib/senders/email.js:2531
+#: lib/senders/email.js:2600
 msgid "Welcome to %(productName)s"
 msgstr "Chào mừng đến với %(productName)s"
 
-#: lib/senders/email.js:2532
+#: lib/senders/email.js:2601
 msgid "Download %(productName)s"
 msgstr "Tải xuống %(productName)s"
 
-#: lib/senders/email.js:2558
+#: lib/senders/email.js:2627
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Lời nhắc thân thiện cho bạn: Cách hoàn tất thiết lập đồng bộ hóa của bạn"
 
-#: lib/senders/email.js:2559
+#: lib/senders/email.js:2628
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Lời nhắc cuối cùng: Hoàn tất thiết lập đồng bộ hóa"
 
-#: lib/senders/email.js:2573
+#: lib/senders/email.js:2642
 msgid "Sync another device"
 msgstr "Đồng bộ hóa thiết bị khác"
 
@@ -1056,8 +1056,8 @@ msgstr "Tải xuống"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Chu kỳ thanh toán và thanh toán của bạn sẽ được giữ nguyên. Khoản phí tiếp theo của bạn sẽ là %(invoiceTotal)s cho thẻ %(cardType)s kết thúc bằng %(lastFour)s vào %(nextInvoiceDateOnly)s. Thuê bao "
-#~ "của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy."
+#~ "Chu kỳ thanh toán và thanh toán của bạn sẽ được giữ nguyên. Khoản phí tiếp theo của bạn sẽ là %(invoiceTotal)s cho thẻ %(cardType)s kết thúc bằng %(lastFour)s vào %(nextInvoiceDateOnly)s. Thuê "
+#~ "bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Cảm ơn bạn đã đăng ký %(productName)s!"
@@ -1068,15 +1068,15 @@ msgstr "Tải xuống"
 #~ "%(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
-#~ " thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+#~ "Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
+#~ "thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(paymentAmountOld)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ được cấp tín "
 #~ "dụng một lần là $%(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycle)s này."
@@ -1085,11 +1085,11 @@ msgstr "Tải xuống"
 #~ msgstr "Đã tính phí $%(invoiceTotal)s vào%(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(productPaymentCycle)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí "
-#~ "một lần là $%(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
+#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(productPaymentCycle)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính "
+#~ "phí một lần là $%(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Bạn đã đăng nhập và sẵn sàng bắt đầu khám phá một cách an toàn và bảo mật."

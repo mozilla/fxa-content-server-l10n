@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-01 22:07+0000\n"
+"POT-Creation-Date: 2021-04-08 22:07+0000\n"
 "PO-Revision-Date: 2021-04-02 09:19+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1447424334.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2562
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2631
 msgid "Here's your reminder to sync devices."
 msgstr "Dit is uw herinnering om apparaten te synchroniseren."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2566
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2635
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Er zijn er twee nodig om te synchroniseren. Als u een ander apparaat privé met Firefox synchroniseert, blijven uw bladwijzers, wachtwoorden en andere Firefox-gegevens overal waar u Firefox gebruikt "
 "hetzelfde."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2563
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2632
 msgid "Last reminder to sync devices!"
 msgstr "Laatste herinnering om apparaten te synchroniseren!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2569
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2638
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Als u een ander apparaat privé met Firefox synchroniseert, blijven uw bladwijzers, wachtwoorden en andere Firefox-gegevens overal waar u Firefox gebruikt hetzelfde."
 
@@ -66,7 +66,7 @@ msgstr "We hebben gemerkt dat u nog weinig herstelcodes hebt. Overweeg nieuwe co
 msgid "Generate codes:"
 msgstr "Codes genereren:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1260
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1297
 msgid "New sign-in to %(clientName)s"
 msgstr "Nieuwe aanmelding bij %(clientName)s"
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Lees hoe u kunt zien welke wachtwoorden Firefox voor u bewaart."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1672
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1729
 msgid "Account recovery key generated"
 msgstr "Sleutel voor accountherstel gegenereerd"
 
@@ -239,7 +239,7 @@ msgstr "U hebt een herstelcode verbruikt vanaf het volgende apparaat:"
 msgid "Consumed recovery code"
 msgstr "Verbruikte herstelcode"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1539
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1588
 msgid "New recovery codes generated"
 msgstr "Nieuwe herstelcodes gegenereerd"
 
@@ -247,7 +247,7 @@ msgstr "Nieuwe herstelcodes gegenereerd"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "U hebt nieuwe herstelcodes gegenereerd vanaf het volgende apparaat:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1718
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1779
 msgid "Account recovery key removed"
 msgstr "Sleutel voor accountherstel verwijderd"
 
@@ -263,7 +263,7 @@ msgstr "Deze herstelsleutel kan niet meer worden gebruikt om uw account te herst
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "U hebt met succes een sleutel voor accountherstel voor uw Firefox-account verwijderd vanaf het volgende apparaat:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1419
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1460
 msgid "Secondary email removed"
 msgstr "Secundair e-mailadres verwijderd"
 
@@ -299,7 +299,7 @@ msgstr "Het volgende: synchroniseren tussen uw apparaten!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync houdt op persoonlijke wijze uw bladwijzers, wachtwoorden en andere Firefox-gegevens op al uw apparaten hetzelfde."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1343
 msgid "Set up next device"
 msgstr "Het volgende apparaat instellen"
 
@@ -307,7 +307,7 @@ msgstr "Het volgende apparaat instellen"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Hebt u vragen? Bezoek %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1347
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1388
 msgid "Secondary email added"
 msgstr "Secundair e-mailadres toegevoegd"
 
@@ -324,7 +324,7 @@ msgstr "Dient u uw wachtwoord opnieuw in te stellen?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klik binnen een uur op de knop om een nieuw wachtwoord aan te maken. De aanvraag is afkomstig van het volgende apparaat:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1082
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1111
 msgid "Create new password"
 msgstr "Nieuw wachtwoord aanmaken"
 
@@ -470,8 +470,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
-"Uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is %(invoiceTotal)s op %(nextInvoiceDateOnly)s. Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u"
-" ervoor kiest om op te zeggen."
+"Uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is %(invoiceTotal)s op %(nextInvoiceDateOnly)s. Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij "
+"u ervoor kiest om op te zeggen."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -573,7 +573,7 @@ msgstr "Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit F
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Bevestig deze aanmelding vanaf het volgende apparaat omwille van extra beveiliging:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:791
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:800
 msgid "Confirm sign-in"
 msgstr "Aanmelding bevestigen"
 
@@ -757,192 +757,192 @@ msgstr "Abonnementen opzeggen:"
 msgid "Update billing information:"
 msgstr "Facturatiegegevens bijwerken:"
 
-#: lib/senders/email.js:324
+#: lib/senders/email.js:327
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s op %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:329
+#: lib/senders/email.js:332
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s op %(uaOS)s"
 
-#: lib/senders/email.js:355
+#: lib/senders/email.js:358
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (geschat)"
 
-#: lib/senders/email.js:362
+#: lib/senders/email.js:365
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (geschat)"
 
-#: lib/senders/email.js:367
+#: lib/senders/email.js:370
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (geschat)"
 
-#: lib/senders/email.js:372
+#: lib/senders/email.js:375
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (geschat)"
 
-#: lib/senders/email.js:553
+#: lib/senders/email.js:558
 msgid "Finish creating your account"
 msgstr "Aanmaken van uw account voltooien"
 
-#: lib/senders/email.js:554 lib/senders/email.js:682
+#: lib/senders/email.js:559 lib/senders/email.js:687
 msgid "Confirm email"
 msgstr "E-mailadres bevestigen"
 
-#: lib/senders/email.js:621
+#: lib/senders/email.js:626
 msgid "Verification code: %(code)s"
 msgstr "Verificatiecode: %(code)s"
 
-#: lib/senders/email.js:662
+#: lib/senders/email.js:667
 msgid "Reminder: Finish creating your account"
 msgstr "Herinnering: voltooi het aanmaken van uw account"
 
-#: lib/senders/email.js:664
+#: lib/senders/email.js:669
 msgid "Final reminder: Activate your account"
 msgstr "Laatste herinnering: activeer uw account"
 
-#: lib/senders/email.js:719
+#: lib/senders/email.js:724
 msgid "Account authorization code"
 msgstr "Accountautorisatiecode"
 
-#: lib/senders/email.js:788
+#: lib/senders/email.js:797
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Nieuwe aanmelding bij %(clientName)s bevestigen"
 
-#: lib/senders/email.js:833
+#: lib/senders/email.js:846
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Aanmeldcode voor %(serviceName)s"
 
-#: lib/senders/email.js:898
+#: lib/senders/email.js:915
 msgid "Confirm primary email"
 msgstr "Primair e-mailadres bevestigen"
 
-#: lib/senders/email.js:899 lib/senders/email.js:958 lib/senders/email.js:1026
+#: lib/senders/email.js:916 lib/senders/email.js:979 lib/senders/email.js:1051
 msgid "Verify email"
 msgstr "E-mailadres verifiëren"
 
-#: lib/senders/email.js:957 lib/senders/email.js:1025
+#: lib/senders/email.js:978 lib/senders/email.js:1050
 msgid "Confirm secondary email"
 msgstr "Secundair e-mailadres bevestigen"
 
-#: lib/senders/email.js:1081
+#: lib/senders/email.js:1110
 msgid "Reset your password"
 msgstr "Herinitialiseer uw wachtwoord"
 
-#: lib/senders/email.js:1123 lib/senders/email.js:1189
+#: lib/senders/email.js:1156 lib/senders/email.js:1226
 msgid "Password updated"
 msgstr "Wachtwoord bijgewerkt"
 
-#: lib/senders/email.js:1161 lib/senders/email.js:1219
+#: lib/senders/email.js:1198 lib/senders/email.js:1256
 msgid "Suspicious activity detected"
 msgstr "Verdachte activiteit gedetecteerd"
 
-#: lib/senders/email.js:1261 lib/senders/email.js:1348 lib/senders/email.js:1384 lib/senders/email.js:1420 lib/senders/email.js:1454 lib/senders/email.js:1497 lib/senders/email.js:1540
-#: lib/senders/email.js:1583 lib/senders/email.js:1673 lib/senders/email.js:1719
+#: lib/senders/email.js:1298 lib/senders/email.js:1389 lib/senders/email.js:1425 lib/senders/email.js:1461 lib/senders/email.js:1495 lib/senders/email.js:1542 lib/senders/email.js:1589
+#: lib/senders/email.js:1636 lib/senders/email.js:1730 lib/senders/email.js:1780
 msgid "Manage account"
 msgstr "Account beheren"
 
-#: lib/senders/email.js:1297
+#: lib/senders/email.js:1338
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Account geverifieerd. Synchroniseer als volgende stap een ander apparaat om het instellen te voltooien"
 
-#: lib/senders/email.js:1383
+#: lib/senders/email.js:1424
 msgid "Primary email updated"
 msgstr "Primair e-mailadres bijgewerkt"
 
-#: lib/senders/email.js:1453
+#: lib/senders/email.js:1494
 msgid "Two-step verification enabled"
 msgstr "Verificatie in twee stappen ingeschakeld"
 
-#: lib/senders/email.js:1496
+#: lib/senders/email.js:1541
 msgid "Two-step verification is off"
 msgstr "Verificatie in twee stappen uitgeschakeld"
 
-#: lib/senders/email.js:1582
+#: lib/senders/email.js:1635
 msgid "Recovery code used"
 msgstr "Herstelcode gebruikt"
 
-#: lib/senders/email.js:1635
+#: lib/senders/email.js:1692
 msgid "1 recovery code remaining"
 msgstr "1 herstelcode resterend"
 
-#: lib/senders/email.js:1637
+#: lib/senders/email.js:1694
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s herstelcodes resterend"
 
-#: lib/senders/email.js:1640
+#: lib/senders/email.js:1697
 msgid "Generate codes"
 msgstr "Codes genereren"
 
-#: lib/senders/email.js:1764
+#: lib/senders/email.js:1829
 msgid "Password updated using recovery key"
 msgstr "Wachtwoord bijgewerkt met herstelsleutel"
 
-#: lib/senders/email.js:1765
+#: lib/senders/email.js:1830
 msgid "Create new recovery key"
 msgstr "Nieuwe herstelsleutel genereren"
 
-#: lib/senders/email.js:1831
+#: lib/senders/email.js:1900
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "U hebt geüpgraded naar %(productNameNew)s"
 
-#: lib/senders/email.js:1910
+#: lib/senders/email.js:1979
 msgid "You have switched to %(productNameNew)s"
 msgstr "U bent overgeschakeld naar %(productNameNew)s"
 
-#: lib/senders/email.js:1975
+#: lib/senders/email.js:2044
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "De creditcard voor %(productName)s verloopt binnenkort"
 
-#: lib/senders/email.js:1989
+#: lib/senders/email.js:2058
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "De creditcard voor uw abonnementen verloopt binnenkort"
 
-#: lib/senders/email.js:2038
+#: lib/senders/email.js:2107
 msgid "Payment information update required for %(productName)s"
 msgstr "Bijwerken van betalingsinformatie vereist voor %(productName)s"
 
-#: lib/senders/email.js:2052
+#: lib/senders/email.js:2121
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Bijwerken van betalingsinformatie vereist voor Mozilla-abonnementen"
 
-#: lib/senders/email.js:2104
+#: lib/senders/email.js:2173
 msgid "%(productName)s payment failed"
 msgstr "De betaling voor %(productName)s is mislukt"
 
-#: lib/senders/email.js:2155 lib/senders/email.js:2220
+#: lib/senders/email.js:2224 lib/senders/email.js:2289
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Uw abonnement op %(productName)s is opgezegd"
 
-#: lib/senders/email.js:2292
+#: lib/senders/email.js:2361
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonnement op %(productName)s opnieuw geactiveerd"
 
-#: lib/senders/email.js:2368
+#: lib/senders/email.js:2437
 msgid "%(productName)s payment received"
 msgstr "Betaling voor %(productName)s is ontvangen"
 
-#: lib/senders/email.js:2458
+#: lib/senders/email.js:2527
 msgid "%(productName)s payment confirmed"
 msgstr "De betaling voor %(productName)s is bevestigd"
 
-#: lib/senders/email.js:2531
+#: lib/senders/email.js:2600
 msgid "Welcome to %(productName)s"
 msgstr "Welkom bij %(productName)s"
 
-#: lib/senders/email.js:2532
+#: lib/senders/email.js:2601
 msgid "Download %(productName)s"
 msgstr "%(productName)s downloaden"
 
-#: lib/senders/email.js:2558
+#: lib/senders/email.js:2627
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Een vriendelijke herinnering: instellen van uw Sync voltooien"
 
-#: lib/senders/email.js:2559
+#: lib/senders/email.js:2628
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Laatste herinnering: instellen van Sync voltooien"
 
-#: lib/senders/email.js:2573
+#: lib/senders/email.js:2642
 msgid "Sync another device"
 msgstr "Nog een apparaat synchroniseren"
 
@@ -1064,18 +1064,18 @@ msgstr "Nieuwste versie downloaden"
 #~ "U heeft onlangs uw Firefox-account verwijderd. Als gevolg hiervan hebben we uw %(productName)-abonnement opgezegd. Uw laatste betaling van $%(invoiceTotal)ss is betaald op %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "We hebben uw abonnement op %(productName)s opgezegd. Uw laatste betaling van $%(invoiceTotal)s is betaald op %(invoiceDateOnly)s. Uw abonnement loopt door tot het einde van de huidige "
 #~ "factureringsperiode, te weten tot %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s ten"
-#~ " gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
+#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s "
+#~ "ten gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "$%(invoiceTotal)s in rekening gebracht op %(invoiceDateOnly)s"
@@ -1088,11 +1088,11 @@ msgstr "Nieuwste versie downloaden"
 #~ "abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om te annuleren."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. Er wordt u dan tevens eenmalig een bedrag van $%(paymentProrated)s in "
-#~ "rekening gebracht ten gevolge van de hogere kosten voor de rest van deze %(productPaymentCycle)s."
+#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. Er wordt u dan tevens eenmalig een bedrag van $%(paymentProrated)s "
+#~ "in rekening gebracht ten gevolge van de hogere kosten voor de rest van deze %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "U bent aangemeld en kunt beginnen met veilig verkennen."
@@ -1197,8 +1197,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</a> en"
-#~ " <a %(iosLinkAttributes)s>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</"
+#~ "a> en <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor Android en iOS."
@@ -1321,15 +1321,15 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en "
+#~ "<a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync te"
-#~ " halen."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit "
+#~ "Sync te halen."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aanmelden bij Sync"
@@ -1494,16 +1494,16 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "Wachtwoord herinitialiseren"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Enkele dagen geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. Met een geverifieerde account hebt u op alle apparaten die ermee zijn verbonden toegang tot uw tabbladen, "
 #~ "bladwijzers, wachtwoorden en geschiedenis. Bevestig eenvoudig dit e-mailadres om uw account te activeren."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u "
-#~ "is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met "
+#~ "u is."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Bevestig voor extra beveiliging deze aanmelding om met het synchroniseren met dit apparaat te beginnen:"
@@ -1524,11 +1524,14 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "E-mailadres voor Firefox Accounts verifiëren"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
-
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd."
+#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen "
+#~ "afgeleverd."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Zoals gevraagd, is hier een koppeling voor het installeren van Firefox op uw mobiele apparaat: %(link)s"
@@ -1614,8 +1617,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw wachtwoorden, "
-#~ "bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw "
+#~ "wachtwoorden, bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1705,8 +1708,8 @@ msgstr "Nieuwste versie downloaden"
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a "
-#~ "href='%(resetLink)s'>%(resetLink)s</a>."
+#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a href='%(resetLink)s'>"
+#~ "%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Er wordt nu een nieuw apparaat met uw Firefox-account gesynchroniseerd"
