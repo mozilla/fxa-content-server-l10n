@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-08 15:05+0000\n"
+"PO-Revision-Date: 2021-04-08 15:10+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -301,7 +301,7 @@ msgstr "Sync hâldt op persoanlike wize jo blêdwizers, wachtwurden en oare Fire
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1302
 msgid "Set up next device"
-msgstr ""
+msgstr "It folgjende apparaat ynstelle"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -456,11 +456,11 @@ msgstr "Help ús dit te werstellen troch binnen 24 oer jo betellingsgegevens by 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Sorry, wy hawwe problemen mei jo betellingsmetoade"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "Wy hawwe in probleem mei jo betellingsmetoade foar %(productName)s fêststeld."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -504,7 +504,7 @@ msgstr "De creditcard dy't jo brûke foar betellingen foar de folgjende abonnemi
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Fragen oer jo abonneminten? Us <a href=\"%(subscriptionSupportUrl)s\">stipeteam</a> is der om jo te helpen."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -512,7 +512,7 @@ msgstr "Fragen oer jo abonneminten? Us stipeteam is der om jo te helpen:"
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Wy hawwe in probleem mei jo betellingsmetoade foar de folgjende abonneminten fêststeld."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -628,7 +628,7 @@ msgstr "Is dit jo registraasje?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Sa ja, brûk dan dizze ferifikaasjekoade yn jo registraasjeformulier:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -901,11 +901,11 @@ msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
 
 #: lib/senders/email.js:2038
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Bywurkjen fan betellingsynformaasje fereaske foar %(productName)s"
 
 #: lib/senders/email.js:2052
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Bywurkjen fan betellingsynformaasje fereaske foar Mozilla-abonneminten"
 
 #: lib/senders/email.js:2104
 msgid "%(productName)s payment failed"
