@@ -100,7 +100,7 @@ product-no-such-plan = Für dieses Produkt existiert kein solcher Plan.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } und { -brand-name-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-and-paypal-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> und die<paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-and-paypal-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> und die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } verwendet { -brand-name-paypal } für die sichere Zahlungsabwicklung.
 payment-legal-link-paypal = Lesen Sie die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } für die sichere Zahlungsabwicklung.
