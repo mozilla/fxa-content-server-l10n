@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-01 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 09:14+0000\n"
+"PO-Revision-Date: 2021-04-08 11:06+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -451,7 +451,7 @@ msgstr "Auta meitä korjaamaan asia päivittämällä maksutietosi 24 tunnin kul
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Valitettavasti valitsemasi maksutavan kanssa ilmeni ongelmia"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
