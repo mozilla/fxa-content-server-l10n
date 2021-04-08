@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Stäng meddelande
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user
 drop-down-menu-sign-out = Logga ut
 drop-down-menu-sign-out-error = Tyvärr, det gick inte att logga ut.
 
+## Flow Container
+
+flow-container-back = Tillbaka
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Återställningskoder
@@ -176,6 +184,13 @@ header-back-to-top-link =
     .title = Tillbaka till toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjälp
+
+## Input Password
+
+input-password-hide = Dölj lösenord
+input-password-show = Visa lösenord
+input-password-hide-aria = Dölj lösenord från skärmen.
+input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
 
 ## Modal
 
@@ -225,7 +240,7 @@ avatar-page-remove-photo = Ta bort foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ta om foto
-avatar-page-close-button = Stäng
+avatar-page-cancel-button = Avbryt
 avatar-page-save-button = Spara
 avatar-page-saving-button = Spara…
 avatar-page-zoom-out-button = Zooma ut
@@ -283,7 +298,6 @@ delete-account-chk-box-3 =
     .label = Återaktivering med det här e-postadressen kanske inte återställer din sparade information
 delete-account-chk-box-4 =
     .label = Alla tillägg och teman som du publicerade på addons.mozilla.org raderas
-delete-account-close-button = Stäng
 delete-account-continue-button = Fortsätt
 delete-account-password-input =
     .label = Ange lösenord
