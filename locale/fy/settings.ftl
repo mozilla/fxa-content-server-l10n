@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-account
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } Bento-menu
+bento-menu-firefox-title = { -brand-firefox } is technology dy't stridet foar jo online privacy.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Browser foar desktop
+bento-menu-firefox-mobile = { -brand-firefox } Browser foar mobyl
+bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +148,16 @@ datablock-copy =
 datablock-print =
     .message = Ofdrukt
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account }menu
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Oanmeld as </signin><user>{ $user }</user>
+drop-down-menu-sign-out = Ofmelde
+drop-down-menu-sign-out-error = Sorry, der is in probleem bard by it ôfmelden.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Werstelkoaden
@@ -153,9 +175,23 @@ header-menu-closed = Websitenavigaasjemenu
 header-back-to-top-link =
     .title = Nei boppe
 header-title = { -product-firefox-accounts }
-header-switch-title = Nei klassyk ûntwerp omskeakelje
-    .title = keppeling nei klassyk ûntwerp
 header-help = Help
+
+## Modal
+
+modal-close-title = Slute
+modal-cancel-button = Annulearje
+
+## Modal Verify Session
+
+mvs-verify-your-email = Jo e-mailadres ferifiearje
+mvs-enter-verification-code = Fier jo ferifikaasjekoade yn
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei { $email } ferstjoerd is.
+msv-cancel-button = Annulearje
+msv-submit-button = Ferifiearje
 
 ## Settings Nav
 
@@ -393,7 +429,8 @@ row-defaults-status = Gjin
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Ynskeakele
+rk-header = Werstelkaai
+rk-enabled = Ynskeakele
 rk-not-set = Net ynsteld
 rk-action-create = Oanmeitsje
 rk-action-remove = Fuortsmite
@@ -408,6 +445,8 @@ rk-remove-modal-heading = Werstelkaai fuortsmite?
 rk-remove-modal-content =
     As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
     werstelkaai net brûke om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
+rk-refresh-error = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-remove-error = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 
 ## Secondary email sub-section on main Settings page
 
@@ -449,8 +488,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autentikaasje yn twa stappen
+tfa-row-header = Autentikaasje yn twa stappen
 tfa-row-disabled = Autentikaasje yn twa stappen útskeakele.
 tfa-row-enabled = Ynskeakele
 tfa-row-not-set = Net ynsteld

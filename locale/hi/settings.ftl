@@ -55,6 +55,15 @@ avatar-your-avatar =
 ##
 
 
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = डेस्कटॉप के लिए { -brand-firefox } ब्राउज़र
+bento-menu-firefox-mobile = मोबाइल के लिए { -brand-firefox } ब्राउज़र
+bento-menu-made-by-mozilla = { -brand-mozilla } द्वारा निर्मित
+
 ## Connect another device promo
 
 
@@ -78,12 +87,32 @@ cs-sign-out-button = साइन आउट करें
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account } मेन्यू
+
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-download =
+    .title = डाउनलोड करें
+get-data-trio-copy =
+    .title = कॉपी करें
+get-data-trio-print =
+    .title = प्रिंट करें
 
 # HeaderLockup component
 
+header-menu-open = मेन्यू बंद करें
 header-title = { -product-firefox-accounts }
+
+## Modal
+
+modal-close-title = बंद करें
+modal-cancel-button = रद्द करें
+
+## Modal Verify Session
+
+msv-cancel-button = रद्द करें
 
 ## Settings Nav
 

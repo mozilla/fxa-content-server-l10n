@@ -25,6 +25,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } Bento-meny
+bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din integritet online.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } Browser för datorer
+bento-menu-firefox-mobile = { -brand-firefox } Browser för mobiler
+bento-menu-made-by-mozilla = Skapad av { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +148,16 @@ datablock-copy =
 datablock-print =
     .message = Utskriven
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account }-meny
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Logga ut
+drop-down-menu-sign-out-error = Tyvärr, det gick inte att logga ut.
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Återställningskoder
@@ -153,9 +175,23 @@ header-menu-closed = Menyn för webbplatsnavigering
 header-back-to-top-link =
     .title = Tillbaka till toppen
 header-title = { -product-firefox-accounts }
-header-switch-title = Byt till klassisk design
-    .title = länk till klassisk design
 header-help = Hjälp
+
+## Modal
+
+modal-close-title = Stäng
+modal-cancel-button = Avbryt
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifiera din e-post
+mvs-enter-verification-code = Ange din verifikationskod
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Ange verifieringskoden som skickades till <email>{ $email }</email> inom fem minuter.
+msv-cancel-button = Avbryt
+msv-submit-button = Verifiera
 
 ## Settings Nav
 
@@ -393,7 +429,8 @@ row-defaults-status = Ingen
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Aktiverad
+rk-header = Återställningsnyckel
+rk-enabled = Aktivera
 rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
@@ -408,6 +445,8 @@ rk-remove-modal-heading = Ta bort återställningsnyckel?
 rk-remove-modal-content =
     Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
     för att komma åt dina data. Du kan inte ångra den här åtgärden.
+rk-refresh-error = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
+rk-remove-error = Din kontoåterställningsnyckel kunde inte tas bort.
 
 ## Secondary email sub-section on main Settings page
 
@@ -449,8 +488,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Tvåstegsautentisering
+tfa-row-header = Tvåstegsautentisering
 tfa-row-disabled = Tvåstegsautentisering inaktiverad.
 tfa-row-enabled = Aktiverad
 tfa-row-not-set = Inte inställd
