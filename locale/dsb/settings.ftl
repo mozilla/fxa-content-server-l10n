@@ -190,6 +190,7 @@ header-help = Pomoc
 input-password-hide = Gronidła schowaś
 input-password-show = Gronidło pokazaś
 input-password-hide-aria = Gronidło na wobrazowce schowaś.
+input-password-show-aria = Gronidło ako lutny tekst pokazaś. Wašo gronidło buźo widobne na wobrazowce.
 
 ## Modal
 

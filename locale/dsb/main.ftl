@@ -388,6 +388,7 @@ sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje za
 sub-route-payment-modal-heading = Njepłaśiwe płaśeńske informacije
 sub-route-payment-modal-message = Zda se, až dajo zmólka z wašym kontom { -brand-name-paypal }, musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
 sub-route-missing-billing-agreement-payment-alert = Njepłaśiwe płaśeńske informacije; jo zmólka z wašym kontom. <div>Zastojaś</div>
+sub-route-funding-source-payment-alert = Njepłaśiwe płaśeńske informacije; dajo zmólku z wašym kontom. Toś to warnowanje pitśu casa trjeba, aby se zgubiło, za tym až sćo wuspěšnje zaktualizěrował swóje informacije. <div>Zastojaś</div>
 pay-update-manage-btn = Zastojaś
 
 ## subscription create
