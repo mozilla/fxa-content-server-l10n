@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -124,6 +127,9 @@ drop-down-menu-title = { -product-firefox-account }-meny
 drop-down-menu-signed-in-as = <signin>Logga inn som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logg ut
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Gjenopprettingskodar
@@ -141,6 +147,9 @@ header-back-to-top-link =
     .title = Tilbake til toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjelp
+
+## Input Password
+
 
 ## Modal
 
@@ -184,7 +193,7 @@ avatar-page-remove-photo = Fjern bilde
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ta bildet på nytt
-avatar-page-close-button = Lat att
+avatar-page-cancel-button = Avbryt
 avatar-page-save-button = Lagre
 avatar-page-saving-button = Lagrar…
 avatar-page-zoom-out-button = Zoom ut
@@ -224,7 +233,6 @@ delete-account-header =
     .title = Slett kontoen
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
-delete-account-close-button = Lat att
 delete-account-continue-button = Fortset
 delete-account-password-input =
     .label = Skriv inn passord
@@ -278,6 +286,10 @@ verify-secondary-email-verification-code =
     .label = Skriv inn stadfestingskode
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button = Stadfest
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } er lagt til.
 
 ##
 
