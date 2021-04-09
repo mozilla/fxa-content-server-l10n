@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Üzenet bezárása
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -156,6 +160,10 @@ drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user 
 drop-down-menu-sign-out = Kijelentkezés
 drop-down-menu-sign-out-error = Sajnos probléma merült fel a kijelentkezésekor.
 
+## Flow Container
+
+flow-container-back = Vissza
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Helyreállító kódok
@@ -174,6 +182,13 @@ header-back-to-top-link =
     .title = Vissza a tetejére
 header-title = { -product-firefox-accounts }
 header-help = Súgó
+
+## Input Password
+
+input-password-hide = Jelszó elrejtése
+input-password-show = Jelszó megjelenítése
+input-password-hide-aria = Jelszó elrejtése a képernyőn.
+input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
 
 ## Modal
 
@@ -223,7 +238,7 @@ avatar-page-remove-photo = Fénykép eltávolítása
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Fénykép újbóli elkészítése
-avatar-page-close-button = Bezárás
+avatar-page-cancel-button = Mégse
 avatar-page-save-button = Mentés
 avatar-page-saving-button = Mentés…
 avatar-page-zoom-out-button = Kicsinyítés
@@ -281,7 +296,6 @@ delete-account-chk-box-3 =
     .label = Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit
 delete-account-chk-box-4 =
     .label = Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek
-delete-account-close-button = Bezárás
 delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
