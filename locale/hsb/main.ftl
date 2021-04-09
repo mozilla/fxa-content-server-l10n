@@ -388,6 +388,7 @@ sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zak
 sub-route-payment-modal-heading = Njepłaćiwe płaćenske informacije
 sub-route-payment-modal-message = Zda so, zo je zmylk z wašim kontom { -brand-name-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
 sub-route-missing-billing-agreement-payment-alert = Njepłaćiwe płaćenske informacije; je zmylk z wašim kontom. <div>Rjadować</div>
+sub-route-funding-source-payment-alert = Njepłaciwe płaćenske informacije; je zmylk z wašim kontom. Tute warnowanje trochu časa trjeba, zo by so zhubiło, po tym zo sće wuspěšnje swóje informacije  zaktualizěrował. <div>Rjadować</div>
 pay-update-manage-btn = Rjadować
 
 ## subscription create

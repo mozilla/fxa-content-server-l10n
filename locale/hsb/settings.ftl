@@ -190,6 +190,7 @@ header-help = Pomoc
 input-password-hide = Hesło schować
 input-password-show = Hesło pokazać
 input-password-hide-aria = Hesło na wobrazowce schować.
+input-password-show-aria = Hesło jako luty tekst pokazać. Waše hesło budźe widźomne na wobrazowce.
 
 ## Modal
 
