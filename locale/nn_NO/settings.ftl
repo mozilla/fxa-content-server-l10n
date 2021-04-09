@@ -129,6 +129,7 @@ drop-down-menu-sign-out = Logg ut
 
 ## Flow Container
 
+flow-container-back = Tilbake
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -150,6 +151,8 @@ header-help = Hjelp
 
 ## Input Password
 
+input-password-hide = Gøym passord
+input-password-show = Vis passord
 
 ## Modal
 
