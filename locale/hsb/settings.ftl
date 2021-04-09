@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Zdźělenku začinić
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Přizjewjeny jako</signin><user>{ $user }<
 drop-down-menu-sign-out = Wotzjewić
 drop-down-menu-sign-out-error = Bohužel je při wotzjewjenju problem nastał.
 
+## Flow Container
+
+flow-container-back = Wróćo
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Wobnowjenske kody
@@ -176,6 +184,12 @@ header-back-to-top-link =
     .title = Wróćo horje
 header-title = { -product-firefox-accounts }
 header-help = Pomoc
+
+## Input Password
+
+input-password-hide = Hesło schować
+input-password-show = Hesło pokazać
+input-password-hide-aria = Hesło na wobrazowce schować.
 
 ## Modal
 
@@ -225,7 +239,7 @@ avatar-page-remove-photo = Foto wotstronić
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znowa fotografować
-avatar-page-close-button = Začinić
+avatar-page-cancel-button = Přetorhnyć
 avatar-page-save-button = Składować
 avatar-page-saving-button = Składuje so…
 avatar-page-zoom-out-button = Pomjeńšić
@@ -283,7 +297,6 @@ delete-account-chk-box-3 =
     .label = Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće
 delete-account-chk-box-4 =
     .label = Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja.
-delete-account-close-button = Začinić
 delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać

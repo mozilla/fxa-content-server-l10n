@@ -386,8 +386,8 @@ sub-customer-error =
     .title = Zmylk při čitanju kupca
 sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zaktualizowali
 sub-route-payment-modal-heading = Njepłaćiwe płaćenske informacije
-sub-route-payment-modal-copy = Zda so, zo je zmylk z wašim kontom { -brand-name-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
-sub-route-invalid-payment = Njepłaćiwe płaćenske informacije, je zmylk z wašim kontom. <div>Rjadować</div>
+sub-route-payment-modal-message = Zda so, zo je zmylk z wašim kontom { -brand-name-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
+sub-route-missing-billing-agreement-payment-alert = Njepłaćiwe płaćenske informacije; je zmylk z wašim kontom. <div>Rjadować</div>
 pay-update-manage-btn = Rjadować
 
 ## subscription create
