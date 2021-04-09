@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = 關閉訊息
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -142,6 +146,10 @@ drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user
 drop-down-menu-sign-out = 登出
 drop-down-menu-sign-out-error = 很抱歉，將您登出時發生問題。
 
+## Flow Container
+
+flow-container-back = 上一頁
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = 救援碼
@@ -160,6 +168,13 @@ header-back-to-top-link =
     .title = 回到頁面頂端
 header-title = { -product-firefox-accounts }
 header-help = 說明
+
+## Input Password
+
+input-password-hide = 隱藏密碼
+input-password-show = 顯示密碼
+input-password-hide-aria = 在畫面上隱藏密碼。
+input-password-show-aria = 用明文顯示密碼在螢幕上。
 
 ## Modal
 
@@ -206,7 +221,7 @@ avatar-page-remove-photo = 移除照片
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = 重新拍照
-avatar-page-close-button = 關閉
+avatar-page-cancel-button = 取消
 avatar-page-save-button = 儲存
 avatar-page-saving-button = 儲存中…
 avatar-page-zoom-out-button = 縮小
@@ -262,7 +277,6 @@ delete-account-chk-box-3 =
     .label = 就算重新啟用此信箱，也不會恢復原存的資訊
 delete-account-chk-box-4 =
     .label = 將刪除您所有發佈到 addons.mozilla.org 的擴充套件與佈景主題
-delete-account-close-button = 關閉
 delete-account-continue-button = 繼續
 delete-account-password-input =
     .label = 輸入密碼
