@@ -346,8 +346,9 @@ sub-customer-error =
     .title = Probleem bij het laden van klant
 sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
 sub-route-payment-modal-heading = Ongeldige facturatiegegevens
-sub-route-payment-modal-copy = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
-sub-route-invalid-payment = Ongeldige betalingsgegevens, er is een fout opgetreden met uw account. <div>Beheren</div>
+sub-route-payment-modal-message = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
+sub-route-missing-billing-agreement-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. <div>Beheren</div>
+sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. Deze waarschuwing verdwijnt mogelijk pas enige tijd nadat u met succes uw gegevens hebt bijgewerkt. <div>Beheren</div>
 pay-update-manage-btn = Beheren
 
 ## subscription create

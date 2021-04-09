@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Bericht sluiten
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Aangemeld als </signin><user>{ $user }</us
 drop-down-menu-sign-out = Afmelden
 drop-down-menu-sign-out-error = Sorry, er is een probleem opgetreden bij het afmelden.
 
+## Flow Container
+
+flow-container-back = Terug
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Herstelcodes
@@ -176,6 +184,12 @@ header-back-to-top-link =
     .title = Naar boven
 header-title = { -product-firefox-accounts }
 header-help = Help
+
+## Input Password
+
+input-password-hide = Wachtwoord verbergen
+input-password-show = Wachtwoord tonen
+input-password-hide-aria = Wachtwoord op scherm verbergen
 
 ## Modal
 
@@ -225,7 +239,6 @@ avatar-page-remove-photo = Foto verwijderen
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Foto opnieuw maken
-avatar-page-close-button = Sluiten
 avatar-page-save-button = Opslaan
 avatar-page-saving-button = Opslaan…
 avatar-page-zoom-out-button = Uitzoomen
@@ -283,7 +296,6 @@ delete-account-chk-box-3 =
     .label = Uw opgeslagen informatie mogelijk niet hersteld kan worden, als u dit e-mailadres opnieuw activeert
 delete-account-chk-box-4 =
     .label = Alle extensies en thema’s die u op addons.mozilla.org hebt gepubliceerd zullen worden verwijderd
-delete-account-close-button = Sluiten
 delete-account-continue-button = Doorgaan
 delete-account-password-input =
     .label = Voer wachtwoord in
