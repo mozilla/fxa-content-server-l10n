@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Emboty ñe’ẽmondo
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ram
 drop-down-menu-sign-out = Ñesẽ
 drop-down-menu-sign-out-error = Rombyasy, oiko apañuãi embotývo ne rembiapo.
 
+## Flow Container
+
+flow-container-back = Tapykue
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Ayvu jeguerujeyrã
@@ -176,6 +184,13 @@ header-back-to-top-link =
     .title = Ejevy yvateguápe
 header-title = { -product-firefox-accounts }
 header-help = Pytyvõ
+
+## Input Password
+
+input-password-hide = Emokañy ñe’ẽñemi
+input-password-show = Ehechauka ñe’ẽñemi
+input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
+input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
 
 ## Modal
 
@@ -221,7 +236,7 @@ avatar-page-remove-photo = Emboguete Ta’ãnga
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Eguenohẽjey ta’ãnga
-avatar-page-close-button = Mboty
+avatar-page-cancel-button = Heja
 avatar-page-save-button = Ñongatu
 avatar-page-saving-button = Oñongatuhína…
 avatar-page-zoom-out-button = Momichĩ
@@ -279,7 +294,6 @@ delete-account-chk-box-3 =
     .label = Ikatu eipurujeýrõ ko ñanduti veve ndogueruvéima marandu ñongatupyre
 delete-account-chk-box-4 =
     .label = Oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe oñemboguepáta
-delete-account-close-button = Mboty
 delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
