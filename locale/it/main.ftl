@@ -339,8 +339,9 @@ sub-customer-error =
     .title = Errore nel caricamento del cliente
 sub-billing-update-success = I tuoi dati di fatturazione sono stati aggiornati correttamente
 sub-route-payment-modal-heading = Informazioni di fatturazione non valide
-sub-route-payment-modal-copy = Sembra che si sia verificato un errore con il tuo account { -brand-name-paypal }, è necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.
-sub-route-invalid-payment = Informazioni di pagamento non valide, si è verificato un errore con il tuo account. <div>Gestisci</div>
+sub-route-payment-modal-message = Sembra che si sia verificato un errore con il tuo account { -brand-name-paypal }, è necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.
+sub-route-missing-billing-agreement-payment-alert = Si è verificato un errore con il tuo account: informazioni di pagamento non valide. <div>Gestisci</div>
+sub-route-funding-source-payment-alert = Si è verificato un errore con il tuo account: informazioni di pagamento non valide. Potrebbe trascorrere diverso tempo prima che questo avviso venga rimosso, anche dopo aver aggiornato correttamente le informazioni. <div>Gestisci</div>
 pay-update-manage-btn = Gestisci
 
 ## subscription create

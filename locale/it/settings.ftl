@@ -180,6 +180,7 @@ header-help = Aiuto
 input-password-hide = Nascondi password
 input-password-show = Mostra password
 input-password-hide-aria = Nascondi la password dallo schermo.
+input-password-show-aria = Mostra la password come testo normale (sarà visibile sullo schermo).
 
 ## Modal
 
