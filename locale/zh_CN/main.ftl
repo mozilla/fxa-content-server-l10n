@@ -332,8 +332,8 @@ sub-customer-error =
     .title = 加载客户资料时出现问题
 sub-billing-update-success = 已成功更新账单信息
 sub-route-payment-modal-heading = 账单信息无效
-sub-route-payment-modal-copy = 您的 { -brand-name-paypal } 账户似乎出现问题，请按下列必要步骤解决此付款问题。
-sub-route-invalid-payment = 您的账户出现问题，付款信息无效。<div>点此管理</div>
+sub-route-payment-modal-message = 您的 { -brand-name-paypal } 账户似乎出现问题，请按下列必要步骤解决此付款问题。
+sub-route-missing-billing-agreement-payment-alert = 您的账户出现问题，付款信息无效。<div>点此管理</div>
 pay-update-manage-btn = 管理
 
 ## subscription create

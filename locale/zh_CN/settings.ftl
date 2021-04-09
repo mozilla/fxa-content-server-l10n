@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = 关闭消息
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -142,6 +146,9 @@ drop-down-menu-signed-in-as = <signin>已登录为</signin> <user>{ $user }</use
 drop-down-menu-sign-out = 退出
 drop-down-menu-sign-out-error = 抱歉，退出登录时出现问题。
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = 救援码
@@ -160,6 +167,13 @@ header-back-to-top-link =
     .title = 回到顶端
 header-title = { -product-firefox-accounts }
 header-help = 帮助
+
+## Input Password
+
+input-password-hide = 隐藏密码
+input-password-show = 显示密码
+input-password-hide-aria = 在屏幕上隐藏密码。
+input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
 
 ## Modal
 
@@ -206,7 +220,7 @@ avatar-page-remove-photo = 移除照片
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = 重拍照片
-avatar-page-close-button = 关闭
+avatar-page-cancel-button = 取消
 avatar-page-save-button = 保存
 avatar-page-saving-button = 正在保存…
 avatar-page-zoom-out-button = 缩小
@@ -262,7 +276,6 @@ delete-account-chk-box-3 =
     .label = 用此邮箱地址重新激活，也无法恢复您保存的信息
 delete-account-chk-box-4 =
     .label = 您发布到 addons.mozilla.org 的所有扩展和主题都将被删除。
-delete-account-close-button = 关闭
 delete-account-continue-button = 继续
 delete-account-password-input =
     .label = 请输入密码
