@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Κλείσιμο μηνύματος
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -142,6 +146,10 @@ drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><us
 drop-down-menu-sign-out = Αποσύνδεση
 drop-down-menu-sign-out-error = Λυπούμαστε, προέκυψε πρόβλημα κατά την αποσύνδεση.
 
+## Flow Container
+
+flow-container-back = Πίσω
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Κωδικοί ανάκτησης
@@ -160,6 +168,11 @@ header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = { -product-firefox-accounts }
 header-help = Βοήθεια
+
+## Input Password
+
+input-password-hide = Απόκρυψη κωδικού πρόσβασης
+input-password-show = Εμφάνιση κωδικού πρόσβασης
 
 ## Modal
 
@@ -199,7 +212,7 @@ avatar-page-remove-photo = Αφαίρεση φωτογραφίας
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Νέα λήψη φωτογραφίας
-avatar-page-close-button = Κλείσιμο
+avatar-page-cancel-button = Ακύρωση
 avatar-page-save-button = Αποθήκευση
 avatar-page-saving-button = Αποθήκευση…
 avatar-page-zoom-out-button = Σμίκρυνση
@@ -251,7 +264,6 @@ delete-account-chk-box-3 =
     .label = Η εκ νέου ενεργοποίηση με το ίδιο email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας
 delete-account-chk-box-4 =
     .label = Όλες οι επεκτάσεις και τα θέματα που έχετε δημοσιεύει στο addons.mozilla.org θα διαγραφούν
-delete-account-close-button = Κλείσιμο
 delete-account-continue-button = Συνέχεια
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
