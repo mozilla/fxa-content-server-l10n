@@ -338,8 +338,8 @@ sub-customer-error =
     .title = Erreur de chargement du client
 sub-billing-update-success = Vos informations de facturation ont bien été mises à jour
 sub-route-payment-modal-heading = Informations de facturation invalides
-sub-route-payment-modal-copy = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
-sub-route-invalid-payment = Informations de paiement invalides, une erreur s’est produite avec votre compte. <div>Gérer</div>
+sub-route-payment-modal-message = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
+sub-route-missing-billing-agreement-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. <div>Gérer</div>
 pay-update-manage-btn = Gérer
 
 ## subscription create
