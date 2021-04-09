@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Nachricht schließen
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -156,6 +160,10 @@ drop-down-menu-signed-in-as = <signin>Angemeldet als</signin><user>{ $user }</us
 drop-down-menu-sign-out = Abmelden
 drop-down-menu-sign-out-error = Beim Abmelden ist ein Fehler aufgetreten.
 
+## Flow Container
+
+flow-container-back = Zurück
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Wiederherstellungscodes
@@ -174,6 +182,13 @@ header-back-to-top-link =
     .title = Zum Seitenanfang
 header-title = { -product-firefox-accounts }
 header-help = Hilfe
+
+## Input Password
+
+input-password-hide = Passwort verbergen
+input-password-show = Passwort anzeigen
+input-password-hide-aria = Passwort vom Bildschirm ausblenden.
+input-password-show-aria = Passwort als Klartext anzeigen Ihr Passwort ist auf dem Bildschirm sichtbar.
 
 ## Modal
 
@@ -223,7 +238,7 @@ avatar-page-remove-photo = Foto entfernen
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Foto erneut aufnehmen
-avatar-page-close-button = Schließen
+avatar-page-cancel-button = Abbrechen
 avatar-page-save-button = Speichern
 avatar-page-saving-button = Wird gespeichert…
 avatar-page-zoom-out-button = Verkleinern
@@ -281,7 +296,6 @@ delete-account-chk-box-3 =
     .label = Ihre Daten möglicherweise nicht wiederhergestellt werden, wenn Sie das Konto mit dieser E-Mail-Adresse erneut aktivieren
 delete-account-chk-box-4 =
     .label = Alle Erweiterungen und Themes, die Sie auf addons.mozilla.org veröffentlicht haben, werden gelöscht
-delete-account-close-button = Schließen
 delete-account-continue-button = Fortsetzen
 delete-account-password-input =
     .label = Passwort eingeben
