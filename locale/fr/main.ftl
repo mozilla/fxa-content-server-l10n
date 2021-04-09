@@ -340,6 +340,7 @@ sub-billing-update-success = Vos informations de facturation ont bien été mise
 sub-route-payment-modal-heading = Informations de facturation invalides
 sub-route-payment-modal-message = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
 sub-route-missing-billing-agreement-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. <div>Gérer</div>
+sub-route-funding-source-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. Cette alerte peut prendre un certain temps à disparaitre après la mise à jour de vos informations. <div>Gérer</div>
 pay-update-manage-btn = Gérer
 
 ## subscription create
