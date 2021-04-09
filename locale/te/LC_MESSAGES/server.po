@@ -727,7 +727,7 @@ msgstr "నిబంధనలు, రద్దు విధానం:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "గోప్యతా నోటీసు:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
