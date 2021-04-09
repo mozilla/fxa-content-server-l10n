@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -252,6 +255,9 @@ drop-down-menu-signed-in-as = <signin>Jste přihlášeni jako</signin><user>{ $u
 drop-down-menu-sign-out = Odhlásit se
 drop-down-menu-sign-out-error = Omlouváme se, odhlášení se nezdařilo.
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Obnovovací kódy
@@ -270,6 +276,9 @@ header-back-to-top-link =
     .title = Zpět nahoru
 header-title = { -product-firefox-accounts }
 header-help = Nápověda
+
+## Input Password
+
 
 ## Modal
 
@@ -319,7 +328,6 @@ avatar-page-remove-photo = Odstranit fotografii
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znovu pořídit fotografii
-avatar-page-close-button = Zavřít
 avatar-page-save-button = Uložit
 avatar-page-saving-button = Ukládání…
 avatar-page-zoom-out-button = Zmenšit
@@ -375,7 +383,6 @@ delete-account-chk-box-3 =
     .label = následná reaktivace pomocí tohoto e-mailu nemusí obnovit vaše uložené informace
 delete-account-chk-box-4 =
     .label = všechna rozšíření a vzhledy vámi zveřejněná na serveru addons.mozilla.org budou smazána
-delete-account-close-button = Zavřít
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
@@ -499,7 +506,7 @@ profile-password =
 #   $date (String) - a localized date and time string
 profile-password-created-date = Vytvořeno { $date }
 profile-primary-email =
-    .header = Hlavní e-mail
+    .header = Hlavní e-mailová adresa
 
 ##
 
