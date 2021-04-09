@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Powěźeńku zacyniś
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</
 drop-down-menu-sign-out = Wótzjawiś
 drop-down-menu-sign-out-error = Bóžko jo pśi wótzjawjanju problem nastał.
 
+## Flow Container
+
+flow-container-back = Slědk
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Wótnowjeńske kody
@@ -176,6 +184,12 @@ header-back-to-top-link =
     .title = Slědk górjej
 header-title = { -product-firefox-accounts }
 header-help = Pomoc
+
+## Input Password
+
+input-password-hide = Gronidła schowaś
+input-password-show = Gronidło pokazaś
+input-password-hide-aria = Gronidło na wobrazowce schowaś.
 
 ## Modal
 
@@ -225,7 +239,7 @@ avatar-page-remove-photo = Foto wótwónoźeś
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znowego fotografěrowaś
-avatar-page-close-button = Zacyniś
+avatar-page-cancel-button = Pśetergnuś
 avatar-page-save-button = Składowaś
 avatar-page-saving-button = Składujo se…
 avatar-page-zoom-out-button = Pómjeńšyś
@@ -283,7 +297,6 @@ delete-account-chk-box-3 =
     .label = Waše skłaźone informacije njedaju se snaź wótnowiś, gaž toś tu e-mailowu adresu znowego aktiwěrujośo
 delete-account-chk-box-4 =
     .label = Rozšyrjenja, kótarež sćo wózjawił na addons.mozilla.org, se wulašuju.
-delete-account-close-button = Zacyniś
 delete-account-continue-button = Dalej
 delete-account-password-input =
     .label = Gronidło zapódaś
