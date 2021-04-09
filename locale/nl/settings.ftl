@@ -190,6 +190,7 @@ header-help = Help
 input-password-hide = Wachtwoord verbergen
 input-password-show = Wachtwoord tonen
 input-password-hide-aria = Wachtwoord op scherm verbergen
+input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal zichtbaar zijn op het scherm.
 
 ## Modal
 
@@ -239,6 +240,7 @@ avatar-page-remove-photo = Foto verwijderen
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Foto opnieuw maken
+avatar-page-cancel-button = Annuleren
 avatar-page-save-button = Opslaan
 avatar-page-saving-button = Opslaan…
 avatar-page-zoom-out-button = Uitzoomen
