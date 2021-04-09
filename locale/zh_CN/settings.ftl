@@ -148,6 +148,7 @@ drop-down-menu-sign-out-error = 抱歉，退出登录时出现问题。
 
 ## Flow Container
 
+flow-container-back = 返回
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -243,18 +244,18 @@ pw-change-header =
 pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
 pw-change-least-8-chars = 至少 8 个字符
 pw-change-not-contain-email = 不能是您的邮箱地址
-pw-change-must-match = 新密码与确认输入内容匹配
+pw-change-must-match = 新密码和确认密码输入需一致
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = 不能与<linkExternal>常见密码</linkExternal>相同
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
 pw-change-current-password =
-    .label = 请输入当前密码
+    .label = 输入当前密码
 pw-change-new-password =
-    .label = 请输入新密码
+    .label = 输入新密码
 pw-change-confirm-password =
-    .label = 请确认新密码
+    .label = 确认新密码
 pw-change-success-alert = 密码已更新。
 
 ##
