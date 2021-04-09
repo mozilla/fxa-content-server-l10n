@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -20,14 +21,14 @@ basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por favor.
 
 ## settings
 
-settings-subscriptions = Soscripciones y pagos
+settings-subscriptions-title = Soscripciones
 
 ## legal footer
 
 terms = Términos del serviciu
 privacy = Avisu de privacidá
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -69,10 +70,11 @@ payment-cancel-btn = Encaboxar
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
@@ -97,6 +99,9 @@ payment-cancel-btn = Encaboxar
 
 
 ## plan-details
+
+
+## payment-processing
 
 
 ## payment confirmation
