@@ -95,6 +95,8 @@ cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, �
 cs-logged-out = Έγινε αποσύνδεση από το { $service }.
 cs-refresh-button =
     .title = Ανανέωση συνδεδεμένων υπηρεσιών
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Απουσία ή διπλή παρουσία στοιχείων;
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 # This string is used in a modal dialog when the user starts the disconnect from
 # Sync process.
@@ -121,6 +123,7 @@ cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 ##
 
 cs-disconnect-advice-confirm = Εντάξει, το 'πιασα
+cs-disconnect-lost-advice-heading = Αποσυνδέθηκε απολεσθείσα ή κλεμμένη συσκευή
 cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
 cs-sign-out-button = Αποσύνδεση
 
@@ -427,6 +430,9 @@ tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-button-refresh =
     .title = Ανανέωση ταυτοποίησης δύο βημάτων
+tfa-row-cannot-refresh =
+    Λυπούμαστε, προέκυψε πρόβλημα κατά την ανανέωση
+    της ταυτοποίησης δύο βημάτων.
 tfa-row-cannot-verify-session-2 = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο βημάτων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
