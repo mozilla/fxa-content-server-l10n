@@ -27,7 +27,24 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 -product-firefox-accounts = Λογαριασμοί Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Λογαριασμός Firefox
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Λογαριασμός Firefox
+                [lower] λογαριασμός Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Λογαριασμού Firefox
+                [lower] λογαριασμού Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Λογαριασμό Firefox
+                [lower] λογαριασμό Firefox
+            }
+    }
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
