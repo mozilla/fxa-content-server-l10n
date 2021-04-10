@@ -491,6 +491,14 @@ se-heading = Sekundárna e-mailová adresa
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Adresa { $email } bola úspešne odstránená.
+se-delete-email-error = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém.
+se-verify-session-error = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Odstrániť e-mailovú adresu
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Obnoviť e-mailovú adresu
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako primárnu adresu
 
