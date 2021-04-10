@@ -7,7 +7,14 @@
 
 project-brand = Účet Firefox
 -brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
+-brand-name-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoxu
+    }
+    .gender = masculine
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Účet Firefox
 
@@ -22,6 +29,8 @@ general-error-heading = Všeobecná chyba aplikácie
 basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 payment-error-1 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skúste to znova alebo sa obráťte na vydavateľa karty.
 payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
+payment-error-retry-button = Skúsiť znova
+currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
 insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
 withdrawal-count-limit-exceeded-error = Zdá sa, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
@@ -41,10 +50,8 @@ settings-subscriptions-title = Predplatné
 terms = Podmienky používania služby
 privacy = Zásady ochrany súkromia
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Poďme nastaviť vaše predplatné
-product-plan-details-heading = Poďme nastaviť vaše predplatné
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -55,7 +62,6 @@ product-plan-details-heading = Poďme nastaviť vaše predplatné
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb Stripe a PayPal
 
 ## payment form
 
@@ -100,8 +106,6 @@ input-error-is-required = Pole "{ $label }" je povinné
 
 product-plan-upgrade-heading = Skontrolujte svoje vylepšenie
 sub-update-failed = Aktualizácia plánu sa nepodarila
-sub-update-title = Platobné informácie
-sub-update-card-ending = Karta končiaca na { $last }
 sub-update-card-exp = Koniec platnosti { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -187,13 +191,13 @@ plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
 plan-details-total-label = Celkom
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Pre prevzatie kliknite sem
 payment-confirmation-mobile-alert = Neotvorila sa aplikácia? <a>Kliknite sem</a>
-payment-confirmation-heading = Ďakujeme, { $displayName }!
-payment-confirmation-heading-bak = Ďakujeme!
-payment-confirmation-subheading = Potvrdzovací e-mail sme poslali na
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 payment-confirmation-billing-heading = Odberateľ
@@ -230,5 +234,4 @@ payment-confirmation-amount-year =
         [few] { $amount } každé { $intervalCount } roky
        *[other] { $amount } každých { $intervalCount } rokov
     }
-payment-confirmation-cc-preview = končiaca na { $last4 }
 payment-confirmation-download-button = Pokračovať na prevzatie
