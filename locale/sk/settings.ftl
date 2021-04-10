@@ -334,6 +334,10 @@ delete-account-header =
     .title = Odstrániť účet
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization: "lower") } ste pripojili k produktom { -brand-mozilla(case: "gen") }, ktoré vám pomôžu zaistiť vaše bezpečie a produktivitu na webe:
+delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
+delete-account-chk-box-1 =
+    .label = budú zrušené všetky predplatné
 delete-account-chk-box-4 =
     .label = Všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
 delete-account-continue-button = Pokračovať
@@ -399,6 +403,10 @@ verify-secondary-email-verify-button = Overiť
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = V priebehu 5 minút zadajte overovací kód, ktorý bol odoslaný na e-mailovú adresu <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Adresa { $email } bola úspešne pridaná.
 
 ##
 
@@ -482,16 +490,26 @@ rk-refresh-key = Obnoviť kľúč na obnovenie účtu
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
 rk-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
+rk-refresh-error = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
+rk-remove-error = Kľúč na obnovenie účtu nebolo možné odstrániť.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundárna e-mailová adresa
     .header = Sekundárna e-mailová adresa
+se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
+se-cannot-resend-code = Ľutujeme, pri opätovnom odosielaní overovacieho kódu sa vyskytol problém.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = Adresa { $email } je teraz vašou primárnou e-mailovou adresou.
+se-set-primary-error = Ľutujeme, ale pri zmene vašej primárnej e-mailovej adresy sa vyskytol problém.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Adresa { $email } bola úspešne odstránená.
 se-delete-email-error = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém.
+se-verify-session = Ak chcete vykonať túto akciu, budete musieť overiť svoju aktuálnu reláciu.
 se-verify-session-error = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 # Button to remove the secondary email
 se-remove-email =
@@ -499,6 +517,10 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Obnoviť e-mailovú adresu
+se-unverified = neoverená
+se-resend-code =
+    Vyžaduje sa overenie. <button>Opäť si pošlite overovací kód</button>,
+    ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako primárnu adresu
 
@@ -516,6 +538,7 @@ tfa-row-action-disable = Zakázať
 tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
+tfa-row-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
