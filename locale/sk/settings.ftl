@@ -60,9 +60,37 @@ alert-bar-close-message = Zavrieť správu
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
-    { $capitalization ->
-       *[lowercase] účet Firefox
-        [uppercase] Účet Firefox
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účte Firefox
+                [lower] účte Firefox
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtom Firefox
+                [lower] účtom Firefox
+            }
     }
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
@@ -100,16 +128,21 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Ponuka { -brand-firefox } Bento
+bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
+bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
+bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 
 ## Connect another device promo
 
-connect-another-fx-mobile = Získajte { -brand-firefox(case: "acc") } na mobil alebo tablet
+connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile =
-    Nájdite { -brand-firefox } na { -google-play } a v { -app-store } alebo
-    <br /><linkExternal>si nechajte poslať odkaz na svoje zariadenie.</linkExternal>
+    Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
+    <br />prípadne si <linkExternal>nechajte poslať odkaz na svoje zariadenie</linkExternal>.
 
 ##
 
@@ -150,7 +183,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen") }
+drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
