@@ -183,7 +183,7 @@ cs-disconnect-sync-opt-suspicious = podozrivé
 cs-disconnect-sync-opt-lost = stratené alebo ukradnuté
 cs-disconnect-sync-opt-old = staré alebo nahradené
 cs-disconnect-sync-opt-duplicate = duplicitné
-cs-disconnect-sync-opt-not-say = Neželám si odpovedať
+cs-disconnect-sync-opt-not-say = neželám si odpovedať
 
 ##
 
@@ -338,8 +338,12 @@ delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization:
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
 delete-account-chk-box-1 =
     .label = budú zrušené všetky predplatné
+delete-account-chk-box-2 =
+    .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
+delete-account-chk-box-3 =
+    .label = opätovná aktivácia pomocou tejto e-mailovej adresy nemusí obnoviť vaše uložené informácie
 delete-account-chk-box-4 =
-    .label = Všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
+    .label = všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
 delete-account-continue-button = Pokračovať
 delete-account-password-input =
     .label = Zadajte heslo
