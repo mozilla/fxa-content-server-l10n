@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-08 22:07+0000\n"
-"PO-Revision-Date: 2021-04-10 19:09+0000\n"
+"PO-Revision-Date: 2021-04-10 19:50+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1907,7 +1907,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Otvorte si skener kódov vo vašom Firefoxe a keď budete pripravení, zobrazte si kód."
+msgstr "Vo vašom Firefoxe otvorte skener kódov a keď budete pripravení, zobrazte si kód."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"

@@ -189,6 +189,12 @@ cs-disconnect-sync-opt-not-say = neželám si odpovedať
 
 cs-disconnect-advice-confirm = Ok, rozumiem
 cs-disconnect-lost-advice-heading = Stratené alebo odcudzené zariadenie bolo odpojené
+cs-disconnect-lost-advice-content-2 =
+    Keďže vaše zariadenie bolo stratené alebo odcudzené,
+    aby ste mali svoje informácie v bezpečí, mali by ste si
+    zmeniť heslo { -product-firefox-account(case: "gen", capitalization: "lower") } v jeho nastaveniach.
+    Mali by ste tiež vyhľadať informácie od vášho výrobcu
+    zariadenia o možnostiach vymazanie údajov na diaľku.
 cs-disconnect-suspicious-advice-heading = Podozrivé zariadenie je odpojené
 cs-sign-out-button = Odhlásiť sa
 
