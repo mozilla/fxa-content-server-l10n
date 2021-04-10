@@ -6,7 +6,12 @@
 ## branding
 
 project-brand = Účet Firefox
--brand-name-mozilla = Mozilla
+-brand-name-mozilla =
+    { $case ->
+       *[nom] Mozilla
+        [gen] Mozilly
+    }
+    .gender = feminine
 -brand-name-firefox =
     { $case ->
        *[nom] Firefox
@@ -59,6 +64,9 @@ privacy = Zásady ochrany súkromia
 
 ## Product route
 
+product-profile-error =
+    .title = Problém s načítaním profilu
+product-plan-not-found = Plán nebol nájdený
 
 ## payment legal blurb
 

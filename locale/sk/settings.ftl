@@ -24,10 +24,46 @@ alert-bar-close-message = Zavrieť správu
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Účet Firefox
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účte Firefox
+                [lower] účte Firefox
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtom Firefox
+                [lower] účtom Firefox
+            }
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Účet Firefox
+-product-firefox-account =
+    { $capitalization ->
+       *[lowercase] účet Firefox
+        [uppercase] Účet Firefox
+    }
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
@@ -114,6 +150,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
