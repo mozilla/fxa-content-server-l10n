@@ -366,6 +366,9 @@ sub-customer-error =
     .title = Проблема с загрузкой клиента
 sub-billing-update-success = Ваша платёжная информация была обновлена
 sub-route-payment-modal-heading = Неверная платёжная информация
+sub-route-payment-modal-message = Похоже, в вашем аккаунте { -brand-name-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
+sub-route-missing-billing-agreement-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. <div>Управление</div>
+sub-route-funding-source-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
 pay-update-manage-btn = Управление
 
 ## subscription create

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-08 22:07+0000\n"
-"PO-Revision-Date: 2021-04-10 11:34+0000\n"
+"PO-Revision-Date: 2021-04-10 11:37+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -457,11 +457,11 @@ msgstr "Помогите нам исправить проблему, обнов�
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Извините, у нас возникли проблемы с вашим способом платежа"
+msgstr "Извините, у нас возникли проблемы с вашим способом оплаты"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "Мы обнаружили проблему с вашим способом платежа за %(productName)s."
+msgstr "Мы обнаружили проблему с вашим способом оплаты за %(productName)s."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -513,7 +513,7 @@ msgstr "У вас есть вопросы по вашим подпискам? Н
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Мы обнаружили проблему с вашим способом оплаты для следующих подписок."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -629,7 +629,7 @@ msgstr "Это вы регистрируетесь?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Если да, используйте этот код верификации в своей регистрационной форме:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -902,11 +902,11 @@ msgstr "Срок действия банковской карты для опл�
 
 #: lib/senders/email.js:2107
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Необходимо обновить платежную информацию для %(productName)s"
 
 #: lib/senders/email.js:2121
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Необходимо обновить платежную информацию для подписок Mozilla"
 
 #: lib/senders/email.js:2173
 msgid "%(productName)s payment failed"
