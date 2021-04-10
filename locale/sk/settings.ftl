@@ -285,6 +285,10 @@ nav-email-comm = E-mailová komunikácia
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Pri výmene vašich kódov na obnovenie účtu sa vyskytol problém.
+tfa-replace-code-success =
+    Nové kódy boli vytvorené. Uložte si tieto jednorazové kódy
+    na bezpečnom mieste. Budete ich potrebovať na prístup do svojho
+    účtu v prípade, že nebudete mať svoje mobilné zariadenie.
 tfa-replace-code-success-alert = Kódy na obnovenie účtu boli aktualizované.
 
 ## Avatar change page
@@ -548,6 +552,9 @@ se-resend-code =
     ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako primárnu adresu
+se-content-note =
+    Poznámka: sekundárna e-mailová adresa neslúži na obnovenie vašich údajov,
+    na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 
 ##
 
