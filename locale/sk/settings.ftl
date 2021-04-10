@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Zavrieť správu
 
 ## Firefox and Mozilla Brand
 ##
@@ -28,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Účet Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -62,6 +64,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
@@ -199,6 +204,8 @@ avatar-page-rotate-button = Otočiť
 avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
 avatar-page-new-avatar =
     .alt = nová profilová fotka
+avatar-page-file-upload-error-2 = Pri nahrávaní profilovej fotografie sa vyskytol problém.
+avatar-page-delete-error-2 = Pri odstraňovaní vašej profilovej fotografie sa vyskytol problém.
 avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je príliš veľký.
 
 ##
@@ -250,6 +257,7 @@ display-name-input =
     .label = Zadajte zobrazované meno
 submit-display-name = Uložiť
 cancel-display-name = Zrušiť
+display-name-update-error = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém.
 display-name-success-alert = Zobrazované meno bolo aktualizované.
 
 ##
@@ -270,6 +278,7 @@ recovery-key-success-alert = Obnovovací kľúč bol vytvorený.
 
 ## Add secondary email page
 
+add-secondary-email-error = Pri vytváraní tohto e-mailu sa vyskytol problém.
 add-secondary-email-page-title =
     .title = Sekundárna e-mailová adresa
 add-secondary-email-enter-address =
@@ -282,8 +291,11 @@ add-secondary-email-save-button = Uložiť
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Pri odosielaní overovacieho kódu sa vyskytol problém.
 verify-secondary-email-page-title =
     .title = Sekundárna e-mailová adresa
+verify-secondary-email-verification-code =
+    .label = Zadajte overovací kód
 verify-secondary-email-cancel-button = Zrušiť
 verify-secondary-email-verify-button = Overiť
 
@@ -336,6 +348,7 @@ security-heading = Bezpečnosť
 row-defaults-action-add = Pridať
 row-defaults-action-change = Zmeniť
 row-defaults-action-disable = Vypnúť
+row-defaults-status = Žiadne
 
 ## Recovery key sub-section on main Settings page
 
