@@ -152,6 +152,7 @@ connect-another-find-fx-mobile =
 cs-heading = Pripojené služby
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
+cs-disconnect-sync-reason = Aký je hlavný dôvod odpojenia tohto zariadenia?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -286,8 +287,9 @@ avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je
 pw-change-header =
     .title = Zmeniť heslo
 pw-change-stay-safe = Zostaňte v bezpečí - nepoužívajte rovnaké heslá. Vaše heslo:
-pw-change-least-8-chars = Musí mať aspoň 8 znakov
-pw-change-not-contain-email = Nesmie byť totožné s vašou e-mailovou adresou
+pw-change-least-8-chars = musí obsahovať aspoň 8 znakov
+pw-change-not-contain-email = nesmie byť totožné s vašou e-mailovou adresou
+pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = Nie je v <linkExternal>zozname bežných hesiel</linkExternal>
 pw-change-cancel-button = Zrušiť
