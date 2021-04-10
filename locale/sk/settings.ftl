@@ -519,6 +519,10 @@ rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudne
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
 rk-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
+rk-remove-modal-content =
+    V prípade, že si nastavíte nové heslo, nebudete už môcť
+    použiť kľúč na obnovenie účtu na prístup k vašim údajom.
+    Túto akciu nie je možné vrátiť späť.
 rk-refresh-error = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-remove-error = Kľúč na obnovenie účtu nebolo možné odstrániť.
 
@@ -552,6 +556,7 @@ se-resend-code =
     ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako primárnu adresu
+se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej primárnej e-mailovej adresy.
 se-content-note =
     Poznámka: sekundárna e-mailová adresa neslúži na obnovenie vašich údajov,
     na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
@@ -570,9 +575,15 @@ tfa-row-action-disable = Zakázať
 tfa-row-button-refresh =
     .title = Obnoviť dvojstupňové overenie
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
+tfa-row-content-explain =
+    Zabráňte niekomu inému v prihlásení vyžadovaním
+    jedinečného kódu, ku ktorému máte prístup iba vy.
 tfa-row-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
+tfa-row-disable-modal-explain =
+    Túto akciu nebudete môcť vrátiť späť. Máte tiež
+    možnosť <linkExternal>nahradiť svoje kódy obnovenia účtu</linkExternal>.
 tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
 tfa-row-change-modal-heading = Zmeniť kódy obnovenia účtu?
 tfa-row-change-modal-confirm = Zmeniť
