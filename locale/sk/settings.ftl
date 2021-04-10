@@ -164,6 +164,15 @@ cs-refresh-button =
     .title = Obnoviť pripojené služby
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
+cs-disconnect-sync-heading = Odpojiť zo služby Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Vaše údaje o prehliadaní zostanú vo vašom
+    zariadení ({ $device }), ale toto sa už nebude synchronizovať s vaším účtom.
 cs-disconnect-sync-reason = Aký je hlavný dôvod odpojenia tohto zariadenia?
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -180,6 +189,7 @@ cs-disconnect-sync-opt-not-say = Neželám si odpovedať
 
 cs-disconnect-advice-confirm = Ok, rozumiem
 cs-disconnect-lost-advice-heading = Stratené alebo odcudzené zariadenie bolo odpojené
+cs-disconnect-suspicious-advice-heading = Podozrivé zariadenie je odpojené
 cs-sign-out-button = Odhlásiť sa
 
 ##
@@ -246,7 +256,7 @@ mvs-enter-verification-code = Zadajte overovací kód
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Zadajte verifikačný kód, ktorý bol odoslaný na <email>{ $email }</email> do 5 minút.
+mvs-enter-verification-code-desc = V priebehu 5 minút zadajte overovací kód, ktorý bol odoslaný na e-mailovú adresu <email>{ $email }</email>.
 msv-cancel-button = Zrušiť
 msv-submit-button = Overiť
 
@@ -324,6 +334,8 @@ delete-account-header =
     .title = Odstrániť účet
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+delete-account-chk-box-4 =
+    .label = Všetky rozšírenia a témy vzhľadu, ktoré ste zverejnili na addons.mozilla.org, budú odstránené
 delete-account-continue-button = Pokračovať
 delete-account-password-input =
     .label = Zadajte heslo
@@ -383,6 +395,10 @@ verify-secondary-email-verification-code =
     .label = Zadajte overovací kód
 verify-secondary-email-cancel-button = Zrušiť
 verify-secondary-email-verify-button = Overiť
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = V priebehu 5 minút zadajte overovací kód, ktorý bol odoslaný na e-mailovú adresu <strong>{ $email }</strong>.
 
 ##
 
@@ -463,12 +479,20 @@ rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa v
 rk-key-removed = Kľúč na obnovenie účtu bol odstránený.
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key = Obnoviť kľúč na obnovenie účtu
+rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
+rk-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundárna e-mailová adresa
     .header = Sekundárna e-mailová adresa
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Adresa { $email } bola úspešne odstránená.
+# Button to make secondary email the primary
+se-make-primary = Nastaviť ako primárnu adresu
 
 ##
 
