@@ -107,13 +107,22 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Prihlásený ako</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Odhlásiť sa
+drop-down-menu-sign-out-error = Ľutujeme, vyskytol sa problém s odhlásením.
 
 ## Flow Container
 
+flow-container-back = Naspäť
 
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Obnovovacie kódy
+get-data-trio-download =
+    .title = Prevziať
 get-data-trio-copy =
     .title = Kopírovať
 get-data-trio-print =
@@ -122,6 +131,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Zavrieť ponuku
+header-menu-closed = Navigačná ponuka stránok
 header-back-to-top-link =
     .title = Návrat hore
 header-title = { -product-firefox-accounts }
@@ -129,12 +139,26 @@ header-help = Pomocník
 
 ## Input Password
 
+input-password-hide = Skryť heslo
+input-password-show = Zobraziť heslo
+input-password-hide-aria = Skryť heslo z obrazovky.
+input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
 
 ## Modal
 
+modal-close-title = Zavrieť
+modal-cancel-button = Zrušiť
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Overiť e-mailovú adresu
+mvs-enter-verification-code = Zadajte overovací kód
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Zadajte verifikačný kód, ktorý bol odoslaný na <email>{ $email }</email> do 5 minút.
+msv-cancel-button = Zrušiť
+msv-submit-button = Overiť
 
 ## Settings Nav
 
@@ -143,9 +167,11 @@ nav-profile = Profil
 nav-security = Bezpečnosť
 nav-connected-services = Pripojené služby
 nav-paid-subs = Predplatné
+nav-email-comm = E-mailová komunikácia
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Pri výmene vašich overovacích kódov sa vyskytol problém.
 
 ## Avatar change page
 
