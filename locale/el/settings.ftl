@@ -24,7 +24,7 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Firefox Accounts
+-product-firefox-accounts = Λογαριασμοί Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Λογαριασμός Firefox
