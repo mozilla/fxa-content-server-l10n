@@ -342,7 +342,7 @@ tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησ
 tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποιήθηκε
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 tfa-input-enter-totp =
-    .label = Εισάγετε κωδικό ασφαλείας
+    .label = Εισαγωγή κωδικού ασφαλείας
 tfa-enter-recovery-code =
     .label = Εισάγετε έναν κωδικό ανάκτησης
 
