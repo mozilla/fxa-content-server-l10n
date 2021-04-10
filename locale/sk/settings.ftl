@@ -100,10 +100,12 @@ cs-sign-out-button = Odhlásiť sa
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Prevzatý
 datablock-copy =
-    .message = Skopírované
+    .message = Skopírovaný
 datablock-print =
-    .message = Vytlačené
+    .message = Vytlačený
 
 # DropDownAvatarMenu component
 
@@ -120,7 +122,7 @@ flow-container-back = Naspäť
 
 # GetDataTrio component, part of Recovery Key flow
 
-get-data-trio-title = Obnovovacie kódy
+get-data-trio-title = Kódy na obnovu účtu
 get-data-trio-download =
     .title = Prevziať
 get-data-trio-copy =
@@ -171,7 +173,8 @@ nav-email-comm = E-mailová komunikácia
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Pri výmene vašich overovacích kódov sa vyskytol problém.
+tfa-replace-code-error = Pri výmene vašich kódov na obnovenie účtu sa vyskytol problém.
+tfa-replace-code-success-alert = Kódy na obnovenie účtu boli aktualizované.
 
 ## Avatar change page
 
@@ -187,7 +190,9 @@ avatar-page-remove-photo = Odstrániť fotografiu
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znovu urobiť fotografiu
+avatar-page-cancel-button = Zrušiť
 avatar-page-save-button = Uložiť
+avatar-page-saving-button = Ukladá sa…
 avatar-page-zoom-out-button = Oddialiť
 avatar-page-zoom-in-button = Priblížiť
 avatar-page-rotate-button = Otočiť
@@ -296,9 +301,11 @@ tfa-step-3-3 = Krok 3 z 3
 tfa-button-continue = Pokračovať
 tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
+tfa-cannot-verify-code = Pri overovaní vášho kódu na obnovenie účtu sa vyskytol problém.
+tfa-incorrect-recovery-code = Nesprávny kód na obnovenie
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
 tfa-enter-recovery-code =
-    .label = Zadajte obnovovací kód
+    .label = Zadajte kód na obnovenie účtu
 
 ##
 
@@ -332,8 +339,15 @@ row-defaults-action-disable = Vypnúť
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Kľúč na obnovenie účtu
+rk-enabled = Povolený
+rk-not-set = Nie je nastavený
 rk-action-create = Vytvoriť
 rk-action-remove = Odstrániť
+rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
+rk-key-removed = Kľúč na obnovenie účtu bol odstránený.
+rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
+rk-refresh-key = Obnoviť kľúč na obnovenie účtu
 
 ## Secondary email sub-section on main Settings page
 
@@ -347,6 +361,7 @@ se-heading = Sekundárna e-mailová adresa
 
 tfa-row-disabled = Dvojstupňové overenie je vypnuté.
 tfa-row-action-add = Pridať
+tfa-row-change-modal-heading = Zmeniť kódy obnovenia účtu?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
