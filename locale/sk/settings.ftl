@@ -196,6 +196,13 @@ cs-disconnect-lost-advice-content-2 =
     Mali by ste tiež vyhľadať informácie od vášho výrobcu
     zariadenia o možnostiach vymazanie údajov na diaľku.
 cs-disconnect-suspicious-advice-heading = Podozrivé zariadenie je odpojené
+cs-disconnect-suspicious-advice-content =
+    Ak je odpojené zariadenie skutočne podozrivé,
+    aby ste mali svoje informácie v bezpečí, mali by ste si
+    zmeniť heslo do { -product-firefox-account(case: "gen", capitalization: "lower") } v jeho nastaveniach.
+    Mali by ste tiež zmeniť akékoľvek iné heslá, ktoré ste si
+    uložili na prehliadači { -brand-firefox }, a to zadaním výrazu
+    about:logins do panela s adresou.
 cs-sign-out-button = Odhlásiť sa
 
 ##
@@ -452,6 +459,13 @@ tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej apliká
 tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
 tfa-input-enter-totp =
     .label = Zadajte bezpečnostný kód
+tfa-save-these-codes =
+    Tieto jednorazové kódy si uložte na bezpečné miesto,
+    na ktoré sa dostanete aj bez svojho mobilného zariadenia.
+tfa-enter-code-to-confirm =
+    Potvrďte uloženie kódov na obnovenie účtu zadaním
+    jedného z nich. Ak stratíte zariadenie, budete kódy potrebovať
+    na získanie prístupu do svojho účtu.
 tfa-enter-recovery-code =
     .label = Zadajte kód na obnovenie účtu
 
@@ -497,6 +511,7 @@ rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa v
 rk-key-removed = Kľúč na obnovenie účtu bol odstránený.
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key = Obnoviť kľúč na obnovenie účtu
+rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudnete heslo.
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
 rk-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
