@@ -385,9 +385,26 @@ tfa-step-3-3 = Krok 3 z 3
 tfa-button-continue = Pokračovať
 tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
+tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
+tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
 tfa-cannot-verify-code = Pri overovaní vášho kódu na obnovenie účtu sa vyskytol problém.
 tfa-incorrect-recovery-code = Nesprávny kód na obnovenie
+tfa-enabled = Dvojstupňové overenie bolo povolené
+tfa-scan-this-code =
+    Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
+    aplikácií</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Pomocou kódu { $secret } nastavte dvojstupňové overenie v
+    podporovanej aplikácii.
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
+tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
+tfa-input-enter-totp =
+    .label = Zadajte bezpečnostný kód
 tfa-enter-recovery-code =
     .label = Zadajte kód na obnovenie účtu
 
