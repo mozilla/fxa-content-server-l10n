@@ -34,6 +34,7 @@ general-error-heading = Všeobecná chyba aplikácie
 basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 payment-error-1 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skúste to znova alebo sa obráťte na vydavateľa karty.
 payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
+payment-error-3b = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 payment-error-retry-button = Skúsiť znova
 currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.

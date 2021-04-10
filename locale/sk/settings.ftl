@@ -150,6 +150,13 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Pripojené služby
+cs-description = Všetko, čo používate a k čomu ste sa prihlásili.
+cs-cannot-refresh =
+    Ľutujeme, pri obnovení zoznamu pripojených služieb sa vyskytol
+    problém.
+cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
+cs-refresh-button =
+    .title = Obnoviť pripojené služby
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
 cs-disconnect-sync-reason = Aký je hlavný dôvod odpojenia tohto zariadenia?
@@ -256,7 +263,7 @@ tfa-replace-code-success-alert = Kódy na obnovenie účtu boli aktualizované.
 
 avatar-page-title =
     .title = Profilová fotografia
-avatar-page-add-photo = Pridať fotku
+avatar-page-add-photo = Nahrať fotografiu
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo = Urobiť fotografiu
@@ -274,7 +281,7 @@ avatar-page-zoom-in-button = Priblížiť
 avatar-page-rotate-button = Otočiť
 avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
 avatar-page-new-avatar =
-    .alt = nová profilová fotka
+    .alt = nová profilová fotografia
 avatar-page-file-upload-error-2 = Pri nahrávaní profilovej fotografie sa vyskytol problém.
 avatar-page-delete-error-2 = Pri odstraňovaní vašej profilovej fotografie sa vyskytol problém.
 avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je príliš veľký.
@@ -340,6 +347,7 @@ display-name-success-alert = Zobrazované meno bolo aktualizované.
 recovery-key-cancel-button = Zrušiť
 recovery-key-close-button = Zavrieť
 recovery-key-continue-button = Pokračovať
+recovery-key-created = Váš obnovovací kľúč bol vytvorený. Uistite sa, že ste kľúč uložili na bezpečnom mieste, kde ho neskôr ľahko nájdete. V prípade zabudnutia hesla budete kľúč potrebovať na opätovné získanie prístupu k svojim údajom.
 recovery-key-enter-password =
     .label = Zadajte heslo
 recovery-key-page-title =
