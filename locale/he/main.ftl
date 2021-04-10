@@ -291,7 +291,7 @@ sub-customer-error =
     .title = בעיה בטעינת לקוח
 sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
 sub-route-payment-modal-heading = פרטי חיוב שגויים
-sub-route-invalid-payment = פרטי חיוב שגויים, אירעה שגיאה בחשבון שלך. <div>ניהול</div>
+sub-route-missing-billing-agreement-payment-alert = פרטי חיוב שגויים; אירעה שגיאה בחשבון שלך. <div>ניהול</div>
 pay-update-manage-btn = ניהול
 
 ## subscription create

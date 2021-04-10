@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = סגירת הודעה
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -148,6 +152,10 @@ drop-down-menu-signed-in-as = <signin>נכנסת בתור</signin><user>{ $user 
 drop-down-menu-sign-out = התנתקות
 drop-down-menu-sign-out-error = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה.
 
+## Flow Container
+
+flow-container-back = חזרה
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = קודים לשחזור
@@ -166,6 +174,13 @@ header-back-to-top-link =
     .title = חזרה למעלה
 header-title = { -product-firefox-accounts }
 header-help = עזרה
+
+## Input Password
+
+input-password-hide = הסתרת ססמה
+input-password-show = הצגת ססמה
+input-password-hide-aria = הסתרת הססמה מהמסך.
+input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
 
 ## Modal
 
@@ -212,7 +227,7 @@ avatar-page-remove-photo = הסרת תמונה
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = צילום תמונה מחדש
-avatar-page-close-button = סגירה
+avatar-page-cancel-button = ביטול
 avatar-page-save-button = שמירה
 avatar-page-saving-button = מתבצעת שמירה…
 avatar-page-zoom-out-button = התרחקות
@@ -268,7 +283,6 @@ delete-account-chk-box-3 =
     .label = הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר את המידע השמור שלך
 delete-account-chk-box-4 =
     .label = כל ההרחבות וערכות הנושא שפרסמת ב־addons.mozilla.org יימחקו
-delete-account-close-button = סגירה
 delete-account-continue-button = המשך
 delete-account-password-input =
     .label = נא להכניס ססמה
