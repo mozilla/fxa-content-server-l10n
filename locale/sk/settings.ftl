@@ -285,13 +285,13 @@ avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je
 ## Password change page
 
 pw-change-header =
-    .title = Zmeniť heslo
+    .title = Zmena hesla
 pw-change-stay-safe = Zostaňte v bezpečí - nepoužívajte rovnaké heslá. Vaše heslo:
 pw-change-least-8-chars = musí obsahovať aspoň 8 znakov
 pw-change-not-contain-email = nesmie byť totožné s vašou e-mailovou adresou
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = Nie je v <linkExternal>zozname bežných hesiel</linkExternal>
+pw-change-common-passwords = nenachádza sa v <linkExternal>zozname bežných hesiel</linkExternal>
 pw-change-cancel-button = Zrušiť
 pw-change-save-button = Uložiť
 pw-change-forgot-password-link = Zabudli ste heslo?
@@ -444,8 +444,18 @@ se-heading = Sekundárna e-mailová adresa
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Dvojstupňové overenie
 tfa-row-disabled = Dvojstupňové overenie je vypnuté.
+tfa-row-enabled = Povolené
+tfa-row-not-set = Nie je nastavené
 tfa-row-action-add = Pridať
+tfa-row-action-disable = Zakázať
+tfa-row-button-refresh =
+    .title = Obnoviť dvojstupňové overenie
+tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
+tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
+tfa-row-disable-modal-confirm = Zakázať
+tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
 tfa-row-change-modal-heading = Zmeniť kódy obnovenia účtu?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
