@@ -147,6 +147,11 @@ cs-disconnect-lost-advice-content-2 =
     Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της
     συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
 cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
+cs-disconnect-suspicious-advice-content =
+    Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη,
+    για την προστασία των δεδομένων σας, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
+    { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
+    όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
 cs-sign-out-button = Αποσύνδεση
 
 ##
@@ -163,7 +168,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Μενού { -product-firefox-account }
+drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -281,6 +286,7 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βήμα 1 από 2
 delete-account-step-2-2 = Βήμα 2 από 2
+delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-chk-box-1 =
     .label = Όλες οι επί πληρωμή συνδρομές σας θα ακυρωθούν
 delete-account-chk-box-2 =
@@ -426,6 +432,7 @@ se-set-primary-successful = Το { $email } είναι πλέον το κύρι�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Το { $email } διαγράφηκε επιτυχώς.
 se-delete-email-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά τη διαγραφή αυτού του email.
+se-verify-session = Θα πρέπει να επαληθεύσετε την τρέχουσα σύνδεσή σας για την εκτέλεση αυτή της ενέργειας.
 se-verify-session-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
 # Button to remove the secondary email
 se-remove-email =
