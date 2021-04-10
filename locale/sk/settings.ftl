@@ -155,6 +155,11 @@ cs-cannot-refresh =
     Ľutujeme, pri obnovení zoznamu pripojených služieb sa vyskytol
     problém.
 cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Odhlásené zo služby { $service }.
 cs-refresh-button =
     .title = Obnoviť pripojené služby
 # Link text to a support page on missing or duplicate devices
@@ -458,6 +463,7 @@ rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa v
 rk-key-removed = Kľúč na obnovenie účtu bol odstránený.
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key = Obnoviť kľúč na obnovenie účtu
+rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
 
 ## Secondary email sub-section on main Settings page
 
