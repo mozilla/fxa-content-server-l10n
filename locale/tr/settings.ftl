@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Mesajı kapat
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -150,6 +154,10 @@ drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptı
 drop-down-menu-sign-out = Çıkış yap
 drop-down-menu-sign-out-error = Üzgünüz, çıkış yapılırken bir sorun oluştu.
 
+## Flow Container
+
+flow-container-back = Geri dön
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kurtarma kodları
@@ -168,6 +176,13 @@ header-back-to-top-link =
     .title = Başa dön
 header-title = { -product-firefox-accounts }
 header-help = Yardım
+
+## Input Password
+
+input-password-hide = Parolayı gizle
+input-password-show = Parolayı göster
+input-password-hide-aria = Parolayı ekrandan gizle.
+input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
 
 ## Modal
 
@@ -214,7 +229,7 @@ avatar-page-remove-photo = Fotoğrafı kaldır
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Yeniden fotoğraf çek
-avatar-page-close-button = Kapat
+avatar-page-cancel-button = İptal
 avatar-page-save-button = Kaydet
 avatar-page-saving-button = Kaydediliyor…
 avatar-page-zoom-out-button = Uzaklaştır
@@ -270,7 +285,6 @@ delete-account-chk-box-3 =
     .label = Bu e-postayı yeniden etkinleştirseniz bile kayıtlı bilgileriniz geri gelmeyecektir
 delete-account-chk-box-4 =
     .label = addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecektir
-delete-account-close-button = Kapat
 delete-account-continue-button = Devam
 delete-account-password-input =
     .label = Parolanızı yazın
