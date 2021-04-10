@@ -365,6 +365,8 @@ sub-subscription-error =
 sub-customer-error =
     .title = Проблема с загрузкой клиента
 sub-billing-update-success = Ваша платёжная информация была обновлена
+sub-route-payment-modal-heading = Неверная платёжная информация
+pay-update-manage-btn = Управление
 
 ## subscription create
 

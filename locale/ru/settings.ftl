@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Закрыть сообщение
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +38,7 @@
         [singular_genitive] Аккаунта Firefox
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -65,6 +70,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Меню продуктов { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } — технологии, которые борются за вашу приватность в Интернете.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Браузер { -brand-firefox } для компьютеров
+bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобильных
+bento-menu-made-by-mozilla = Создано { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -145,6 +161,20 @@ datablock-copy =
 datablock-print =
     .message = Распечатаны
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Меню { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Вы вошли как:</signin> <user>{ $user }</user>
+drop-down-menu-sign-out = Выйти
+drop-down-menu-sign-out-error = К сожалению, при выходе возникла проблема.
+
+## Flow Container
+
+flow-container-back = Назад
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коды восстановления
@@ -162,9 +192,30 @@ header-menu-closed = Меню навигации по сайту
 header-back-to-top-link =
     .title = Наверх
 header-title = { -product-firefox-accounts }
-header-switch-title = Переключиться на классический дизайн
-    .title = ссылка на классический дизайн
 header-help = Помощь
+
+## Input Password
+
+input-password-hide = Скрыть пароль
+input-password-show = Показать пароль
+input-password-hide-aria = Скрыть пароль с экрана.
+input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
+
+## Modal
+
+modal-close-title = Закрыть
+modal-cancel-button = Отмена
+
+## Modal Verify Session
+
+mvs-verify-your-email = Подтвердите свою электронную почту
+mvs-enter-verification-code = Введите свой код подтверждения
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Пожалуйста, введите код подтверждения, который был отправлен на <email>{ $email }</email>, в течение 5 минут.
+msv-cancel-button = Отмена
+msv-submit-button = Подтвердить
 
 ## Settings Nav
 
@@ -198,7 +249,7 @@ avatar-page-remove-photo = Удалить фото
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Переснять фото
-avatar-page-close-button = Закрыть
+avatar-page-cancel-button = Отмена
 avatar-page-save-button = Сохранить
 avatar-page-saving-button = Сохранение…
 avatar-page-zoom-out-button = Уменьшить
@@ -256,7 +307,6 @@ delete-account-chk-box-3 =
     .label = Повторная активация с использованием этого адреса электронной почты может не восстановить вашу сохранённую информацию
 delete-account-chk-box-4 =
     .label = Все расширения и темы, опубликованные вами на addons.mozilla.org, будут удалены
-delete-account-close-button = Закрыть
 delete-account-continue-button = Продолжить
 delete-account-password-input =
     .label = Введите пароль
@@ -402,8 +452,9 @@ row-defaults-status = Нет
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Включены
-rk-not-set = Не настроены
+rk-header = Ключ восстановления
+rk-enabled = Включён
+rk-not-set = Не настроен
 rk-action-create = Создать
 rk-action-remove = Удалить
 rk-cannot-refresh = К сожалению, при обновлении ключа восстановления произошла ошибка.
@@ -417,6 +468,8 @@ rk-remove-modal-heading = Удалить ключ восстановления?
 rk-remove-modal-content =
     При сбросе вашего пароля, вы не сможете
     воспользоваться ключами восстановления для доступа к вашим данным. Это действие нельзя отменить.
+rk-refresh-error = К сожалению, при обновлении ключа восстановления произошла ошибка.
+rk-remove-error = Ключ восстановления вашего аккаунта не может быть удалён.
 
 ## Secondary email sub-section on main Settings page
 
@@ -456,8 +509,7 @@ se-content-note = Примечание: дополнительный адрес 
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Двухэтапная аутентификация
+tfa-row-header = Двухэтапная аутентификация
 tfa-row-disabled = Двухэтапная аутентификация отключена.
 tfa-row-enabled = Включена
 tfa-row-not-set = Не настроена
