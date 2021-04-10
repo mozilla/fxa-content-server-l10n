@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,6 +60,9 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+
 ## Connect another device promo
 
 connect-another-fx-mobile = Získajte { -brand-firefox(case: "acc") } na mobil alebo tablet
@@ -70,6 +76,8 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Pripojené služby
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Chýbajúce alebo duplicitné položky?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -97,6 +105,12 @@ datablock-copy =
 datablock-print =
     .message = Vytlačené
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Obnovovacie kódy
@@ -111,9 +125,16 @@ header-menu-open = Zavrieť ponuku
 header-back-to-top-link =
     .title = Návrat hore
 header-title = { -product-firefox-accounts }
-header-switch-title = Prepnúť na klasický vzhľad
-    .title = odkaz na klasický vzhľad
 header-help = Pomocník
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -140,7 +161,6 @@ avatar-page-remove-photo = Odstrániť fotografiu
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znovu urobiť fotografiu
-avatar-page-close-button = Zavrieť
 avatar-page-save-button = Uložiť
 avatar-page-zoom-out-button = Oddialiť
 avatar-page-zoom-in-button = Priblížiť
@@ -182,7 +202,6 @@ delete-account-header =
     .title = Odstrániť účet
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
-delete-account-close-button = Zavrieť
 delete-account-continue-button = Pokračovať
 delete-account-password-input =
     .label = Zadajte heslo
@@ -300,8 +319,6 @@ se-heading = Sekundárna e-mailová adresa
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Dvojstupňové overenie
 tfa-row-disabled = Dvojstupňové overenie je vypnuté.
 tfa-row-action-add = Pridať
 tfa-row-change-modal-confirm = Zmeniť
