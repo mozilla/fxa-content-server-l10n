@@ -346,8 +346,9 @@ sub-customer-error =
     .title = Probléma az ügyfél betöltésekor
 sub-billing-update-success = A számlázási adatai sikeresen frissítettve
 sub-route-payment-modal-heading = Érvénytelen számlázási információk
-sub-route-payment-modal-copy = Úgy tűnik, hogy hiba történt a(z) { -brand-name-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
-sub-route-invalid-payment = Érvénytelen fizetési információk, hiba van a fiókjában. <div>Kezelés</div>
+sub-route-payment-modal-message = Úgy tűnik, hogy hiba történt a(z) { -brand-name-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
+sub-route-missing-billing-agreement-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. <div>Kezelés</div>
+sub-route-funding-source-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. Az értesítés törlése eltarthat egy ideig az adatok sikeres frissítése után. <div>Kezelés</div>
 pay-update-manage-btn = Kezelés
 
 ## subscription create
