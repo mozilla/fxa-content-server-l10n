@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Berjocht slute
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Oanmeld as </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ofmelde
 drop-down-menu-sign-out-error = Sorry, der is in probleem bard by it ôfmelden.
 
+## Flow Container
+
+flow-container-back = Tebek
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Werstelkoaden
@@ -176,6 +184,13 @@ header-back-to-top-link =
     .title = Nei boppe
 header-title = { -product-firefox-accounts }
 header-help = Help
+
+## Input Password
+
+input-password-hide = Wachtwurd ferstopje
+input-password-show = Wachtwurd toane
+input-password-hide-aria = Wachtwurd op skerm ferstopje
+input-password-show-aria = Wachtwurd as platte tekst toane. Jo wachtwurd sil sichtber wêze op it skerm.
 
 ## Modal
 
@@ -225,7 +240,7 @@ avatar-page-remove-photo = Foto fuortsmite
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Foto opnij meitsje
-avatar-page-close-button = Slute
+avatar-page-cancel-button = Annulearje
 avatar-page-save-button = Bewarje
 avatar-page-saving-button = Bewarje…
 avatar-page-zoom-out-button = Utzoome
@@ -283,7 +298,6 @@ delete-account-chk-box-3 =
     .label = Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje
 delete-account-chk-box-4 =
     .label = Alle útwreidingen en tema’s dy't jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
-delete-account-close-button = Slute
 delete-account-continue-button = Trochgean
 delete-account-password-input =
     .label = Fier wachtwurd yn
