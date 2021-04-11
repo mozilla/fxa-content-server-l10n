@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
-cs-heading = Dịch vụ ₫ã kết nối
+cs-heading = Dịch vụ đã kết nối
 cs-description = Mọi thứ bạn đang sử dụng và đã đăng nhập.
 cs-cannot-refresh =
     Xin lỗi, đã có sự cố khi tải lại danh sách dịch vụ
