@@ -104,6 +104,9 @@ connect-another-find-fx-mobile =
 
 cs-heading = Συνδεδεμένες υπηρεσίες
 cs-description = Όλες οι υπηρεσίες που χρησιμοποιείτε και έχετε κάνετε σύνδεση.
+cs-cannot-refresh =
+    Δυστυχώς, προέκυψε πρόβλημα με την ανανέωση της λίστας συνδεδεμένων
+    υπηρεσιών.
 cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, δεν είναι δυνατή η αποσύνδεση
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -212,6 +215,8 @@ modal-cancel-button = Ακύρωση
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Επαλήθευση email
+mvs-enter-verification-code = Εισαγωγή κωδικού επαλήθευσης
 msv-cancel-button = Ακύρωση
 msv-submit-button = Επαλήθευση
 
@@ -288,6 +293,7 @@ delete-account-header =
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
 delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
+delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
 delete-account-chk-box-1 =
     .label = Όλες οι επί πληρωμή συνδρομές σας θα ακυρωθούν
 delete-account-chk-box-2 =
@@ -297,6 +303,8 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Όλες οι επεκτάσεις και τα θέματα που έχετε δημοσιεύει στο addons.mozilla.org θα διαγραφούν
 delete-account-continue-button = Συνέχεια
+delete-account-password-input =
+    .label = Εισαγωγή κωδικού πρόσβασης
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
@@ -322,6 +330,8 @@ display-name-success-alert = Το εμφανιζόμενο όνομα ενημε
 recovery-key-cancel-button = Ακύρωση
 recovery-key-close-button = Κλείσιμο
 recovery-key-continue-button = Συνέχεια
+recovery-key-enter-password =
+    .label = Εισαγωγή κωδικού πρόσβασης
 recovery-key-page-title =
     .title = Κλειδί ανάκτησης
 recovery-key-step-1 = Βημα 1 απο 2
@@ -333,6 +343,8 @@ recovery-key-success-alert = Το κλειδί ανάκτησης δημιουρ
 add-secondary-email-error = Παρουσιάστηκε πρόβλημα κατά τη δημιουργία του email.
 add-secondary-email-page-title =
     .title = Δευτερεύον email
+add-secondary-email-enter-address =
+    .label = Εισαγωγή διεύθυνσης email
 add-secondary-email-cancel-button = Ακύρωση
 add-secondary-email-save-button = Αποθήκευση
 
@@ -372,6 +384,9 @@ tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λή�
 tfa-cannot-verify-code = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας.
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποιήθηκε
+tfa-scan-this-code =
+    Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
+    τις εφαρμογές ταυτοποίησης</linkExternal>.
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
@@ -421,16 +436,22 @@ rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
+rk-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
+rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
+rk-remove-error = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
+se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+se-cannot-resend-code = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναποστολή του κωδικού επαλήθευσης.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = Το { $email } είναι πλέον το κύριο email σας.
+se-set-primary-error = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή του κύριου email σας.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
