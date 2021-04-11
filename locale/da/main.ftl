@@ -348,6 +348,7 @@ sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
 sub-route-payment-modal-heading = Ugyldige faktureringsoplysninger
 sub-route-payment-modal-message = Der ser ud til at være en fejl med din { -brand-name-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
 sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto.<div>Håndtér</div>
+sub-route-funding-source-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto. Det kan tage nogen tid, før denne advarsel forsvinder efter du har opdateret dine oplysninger. <div>Håndtér</div>
 pay-update-manage-btn = Håndtér
 
 ## subscription create

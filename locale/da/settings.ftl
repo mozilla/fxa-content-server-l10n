@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Luk besked
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</us
 drop-down-menu-sign-out = Log ud
 drop-down-menu-sign-out-error = Der opstod desværre et problem med at logge dig ud.
 
+## Flow Container
+
+flow-container-back = Tilbage
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Genoprettelseskoder
@@ -176,6 +184,13 @@ header-back-to-top-link =
     .title = Tilbage til toppen
 header-title = { -product-firefox-accounts }
 header-help = Hjælp
+
+## Input Password
+
+input-password-hide = Skjul adgangskode
+input-password-show = Vis adgangskode
+input-password-hide-aria = Skjul adgangskode fra skærmen.
+input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
 
 ## Modal
 
@@ -224,7 +239,7 @@ avatar-page-remove-photo = Fjern billede
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tag billede igen
-avatar-page-close-button = Luk
+avatar-page-cancel-button = Annuller
 avatar-page-save-button = Gem
 avatar-page-saving-button = Gemmer…
 avatar-page-zoom-out-button = Zoom ud
@@ -282,7 +297,6 @@ delete-account-chk-box-3 =
     .label = Vil genaktivering med denne mailadresse muligvis ikke gendanne dine gemte oplysninger
 delete-account-chk-box-4 =
     .label = Bliver alle udvidelser og temaer, du har udgivet via addons.mozilla.org, slettet
-delete-account-close-button = Luk
 delete-account-continue-button = Fortsæt
 delete-account-password-input =
     .label = Indtast adgangskode
