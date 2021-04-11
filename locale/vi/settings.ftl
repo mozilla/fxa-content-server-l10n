@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Đóng thông báo
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -156,6 +160,10 @@ drop-down-menu-signed-in-as = <signin>Đã đăng nhập bằng</signin><user>{ 
 drop-down-menu-sign-out = Đăng xuất
 drop-down-menu-sign-out-error = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn.
 
+## Flow Container
+
+flow-container-back = Quay lại
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Mã khôi phục
@@ -174,6 +182,13 @@ header-back-to-top-link =
     .title = Về đầu trang
 header-title = { -product-firefox-accounts }
 header-help = Trợ giúp
+
+## Input Password
+
+input-password-hide = Ẩn mật khẩu
+input-password-show = Hiện mật khẩu
+input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
+input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
 
 ## Modal
 
@@ -223,7 +238,7 @@ avatar-page-remove-photo = Xóa ảnh
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Chụp hình lại
-avatar-page-close-button = Đóng
+avatar-page-cancel-button = Hủy bỏ
 avatar-page-save-button = Lưu
 avatar-page-saving-button = Đang lưu...
 avatar-page-zoom-out-button = Thu nhỏ
@@ -281,7 +296,6 @@ delete-account-chk-box-3 =
     .label = Kích hoạt lại với email này có thể không khôi phục thông tin đã lưu của bạn
 delete-account-chk-box-4 =
     .label = Mọi tiện ích mở rộng và chủ đề mà bạn đã xuất bản lên addons.mozilla.org sẽ bị xóa
-delete-account-close-button = Đóng
 delete-account-continue-button = Tiếp tục
 delete-account-password-input =
     .label = Nhập mật khẩu
