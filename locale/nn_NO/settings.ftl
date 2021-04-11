@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Lat att melding
 
 ## Firefox and Mozilla Brand
 ##
