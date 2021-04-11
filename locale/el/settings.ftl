@@ -203,6 +203,7 @@ header-help = Βοήθεια
 
 input-password-hide = Απόκρυψη κωδικού πρόσβασης
 input-password-show = Εμφάνιση κωδικού πρόσβασης
+input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
 
 ## Modal
 
@@ -284,8 +285,8 @@ pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθ�
 
 delete-account-header =
     .title = Διαγραφή λογαριασμού
-delete-account-step-1-2 = Βήμα 1 από 2
-delete-account-step-2-2 = Βήμα 2 από 2
+delete-account-step-1-2 = Βημα 1 απο 2
+delete-account-step-2-2 = Βημα 2 απο 2
 delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-chk-box-1 =
     .label = Όλες οι επί πληρωμή συνδρομές σας θα ακυρωθούν
@@ -323,8 +324,8 @@ recovery-key-close-button = Κλείσιμο
 recovery-key-continue-button = Συνέχεια
 recovery-key-page-title =
     .title = Κλειδί ανάκτησης
-recovery-key-step-1 = Βήμα 1 από 2
-recovery-key-step-2 = Βήμα 2 από 2
+recovery-key-step-1 = Βημα 1 απο 2
+recovery-key-step-2 = Βημα 2 απο 2
 recovery-key-success-alert = Το κλειδί ανάκτησης δημιουργήθηκε.
 
 ## Add secondary email page
@@ -360,12 +361,15 @@ delete-account-link = Διαγραφή λογαριασμού
 ## Two Step Authentication
 
 tfa-title = Ταυτοποίηση δύο βημάτων
-tfa-step-1-3 = Βήμα 1 από 3
-tfa-step-2-3 = Βήμα 2 από 3
-tfa-step-3-3 = Βήμα 3 από 3
+tfa-step-1-3 = Βημα 1 απο 3
+tfa-step-2-3 = Βημα 2 απο 3
+tfa-step-3-3 = Βημα 3 απο 3
 tfa-button-continue = Συνέχεια
 tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
+tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο βημάτων
+tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
+tfa-cannot-verify-code = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας.
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποιήθηκε
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
@@ -440,6 +444,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Ανανέωση email
+se-unverified = μη επαληθευμένο
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
 se-content-note =
@@ -452,7 +457,7 @@ se-content-note =
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ταυτοποίηση δύο βημάτων
-tfa-row-disabled = Η ταυτοποίηση δύο βήματων απενεργοποιήθηκε.
+tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
