@@ -426,8 +426,9 @@ sub-customer-error =
     .title = Anhawster llwytho cwsmer
 sub-billing-update-success = Diweddarwyd eich manylion bilio'n llwyddiannus
 sub-route-payment-modal-heading = Manylion bilio annilys
-sub-route-payment-modal-copy = Mae'n ymddangos bod eich cyfrif { -brand-name-paypal } yn wallus, mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
-sub-route-invalid-payment = Manylion talu annilys, mae eich cyfrif yn wallus. <div>Rheoli</div>
+sub-route-payment-modal-message = Mae'n ymddangos bod eich cyfrif { -brand-name-paypal } yn wallus, rydym  angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
+sub-route-missing-billing-agreement-payment-alert = Manylion talu annilys; mae gwall gyda'ch cyfrif. <div>Rheoli</div>
+sub-route-funding-source-payment-alert = Manylion talu annilys; mae gwall gyda'ch cyfrif. Efallai y bydd y rhybudd hwn yn cymryd peth amser i'w glirio ar ôl i chi ddiweddaru'ch manylion yn llwyddiannus. <div> Rheoli </div>
 pay-update-manage-btn = Rheoli
 
 ## subscription create

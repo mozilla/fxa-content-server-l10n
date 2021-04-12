@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Cau neges
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -156,6 +160,10 @@ drop-down-menu-signed-in-as = <signin>Mewngofnodwyd fel </signin><user>{ $user }
 drop-down-menu-sign-out = Allgofnodi
 drop-down-menu-sign-out-error = Ymddiheuriadau, bu anhawster wrth i chi allgofnodi.
 
+## Flow Container
+
+flow-container-back = Nôl
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codau Adfer
@@ -174,6 +182,13 @@ header-back-to-top-link =
     .title = Nôl i'r brig
 header-title = { -product-firefox-accounts }
 header-help = Cymorth
+
+## Input Password
+
+input-password-hide = Cuddio cyfrinair
+input-password-show = Dangos cyfrinair
+input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
+input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
 
 ## Modal
 
@@ -223,7 +238,7 @@ avatar-page-remove-photo = Dileu'r Llun
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tynnwch Lun Eto
-avatar-page-close-button = Cau
+avatar-page-cancel-button = Diddymu
 avatar-page-save-button = Cadw
 avatar-page-saving-button = Yn cadw…
 avatar-page-zoom-out-button = Chwyddo Allan
@@ -281,7 +296,6 @@ delete-account-chk-box-3 =
     .label = Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd
 delete-account-chk-box-4 =
     .label = Bydd unrhyw estyniadau a themâu rydych wedi'u cyhoeddi yn addons.mozilla.org yn cael eu dileu
-delete-account-close-button = Cau
 delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
