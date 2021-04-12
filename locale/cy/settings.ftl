@@ -65,7 +65,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
-bento-menu-firefox-title = Mae { -brand-name } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
+bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
