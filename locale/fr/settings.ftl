@@ -268,7 +268,7 @@ pw-change-current-password =
 pw-change-new-password =
     .label = Saisissez le nouveau mot de passe
 pw-change-confirm-password =
-    .label = Confirmer le nouveau mot de passe
+    .label = Confirmez le nouveau mot de passe
 pw-change-success-alert = Mot de passe mis à jour.
 
 ##
