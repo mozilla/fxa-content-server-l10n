@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +28,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -55,6 +59,12 @@ avatar-your-avatar =
 ##
 
 
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+
 ## Connect another device promo
 
 
@@ -67,6 +77,7 @@ avatar-your-avatar =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = อุปกรณ์คือ:
 cs-disconnect-sync-opt-suspicious = น่าสงสัย
 cs-disconnect-sync-opt-lost = สูญหายหรือถูกขโมย
 cs-disconnect-sync-opt-duplicate = ทำซ้ำ
@@ -88,6 +99,13 @@ datablock-copy =
 datablock-print =
     .message = พิมพ์แล้ว
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = ลงชื่อออก
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = รหัสการกู้คืน
@@ -106,11 +124,26 @@ header-back-to-top-link =
 header-title = { -product-firefox-accounts }
 header-help = ช่วยเหลือ
 
+## Input Password
+
+
+## Modal
+
+modal-close-title = ปิด
+modal-cancel-button = ยกเลิก
+
+## Modal Verify Session
+
+mvs-verify-your-email = ยืนยันอีเมลของคุณ
+msv-cancel-button = ยกเลิก
+msv-submit-button = ยืนยัน
+
 ## Settings Nav
 
 nav-settings = การตั้งค่า
 nav-profile = โปรไฟล์
 nav-security = ความปลอดภัย
+nav-connected-services = บริการที่เชื่อมต่อ
 
 ## Two Step Authentication - replace recovery code
 
@@ -129,8 +162,8 @@ avatar-page-remove-photo = ลบรูปภาพ
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = ถ่ายภาพใหม่
-avatar-page-close-button = ปิด
 avatar-page-save-button = บันทึก
+avatar-page-saving-button = กำลังบันทึก…
 avatar-page-zoom-out-button = ขยายออก
 avatar-page-zoom-in-button = ขยายเข้า
 avatar-page-rotate-button = หมุน
@@ -143,8 +176,13 @@ avatar-page-rotate-button = หมุน
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
+pw-change-current-password =
+    .label = ป้อนรหัสผ่านปัจจุบัน
 pw-change-new-password =
     .label = ป้อนรหัสผ่านใหม่
+pw-change-confirm-password =
+    .label = ยืนยันรหัสผ่านใหม่
+pw-change-success-alert = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 
 ##
 
@@ -155,7 +193,6 @@ delete-account-header =
     .title = ลบบัญชี
 delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
-delete-account-close-button = ปิด
 delete-account-continue-button = ดำเนินการต่อ
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
@@ -205,6 +242,8 @@ add-secondary-email-save-button = บันทึก
 
 verify-secondary-email-page-title =
     .title = อีเมลสำรอง
+verify-secondary-email-verification-code =
+    .label = ใส่รหัสตรวจสอบ
 verify-secondary-email-cancel-button = ยกเลิก
 verify-secondary-email-verify-button = ยืนยัน
 
@@ -256,13 +295,17 @@ row-defaults-status = ไม่มี
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = เปิดใช้งานอยู่
+rk-enabled = ถูกเปิดใช้งาน
 rk-not-set = ไม่ได้ตั้งค่า
 rk-action-create = สร้าง
 rk-action-remove = เอาออก
 
 ## Secondary email sub-section on main Settings page
 
+# Button to remove the secondary email
+se-remove-email =
+    .title = ลบอีเมล
+se-unverified = ยังไม่ยืนยัน
 
 ##
 
