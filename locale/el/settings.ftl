@@ -372,26 +372,32 @@ delete-account-link = Διαγραφή λογαριασμού
 
 ## Two Step Authentication
 
-tfa-title = Ταυτοποίηση δύο βημάτων
+tfa-title = Ταυτοποίηση δύο παραγόντων
 tfa-step-1-3 = Βημα 1 απο 3
 tfa-step-2-3 = Βημα 2 απο 3
 tfa-step-3-3 = Βημα 3 απο 3
 tfa-button-continue = Συνέχεια
 tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
-tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο βημάτων
+tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
 tfa-cannot-verify-code = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας.
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
-tfa-enabled = Η ταυτοποίηση δύο βημάτων ενεργοποιήθηκε
+tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
     Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
     τις εφαρμογές ταυτοποίησης</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Χρησιμοποιήστε τον κωδικό { $secret } για να ρυθμίσετε την ταυτοποίηση
+    δύο παραγόντων στις υποστηριζόμενες εφαρμογές.
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
 tfa-enter-recovery-code =
-    .label = Εισάγετε έναν κωδικό ανάκτησης
+    .label = Εισαγωγή κωδικού ανάκτησης
 
 ##
 
@@ -477,24 +483,24 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Ταυτοποίηση δύο βημάτων
-tfa-row-disabled = Η ταυτοποίηση σε δύο βήματα απενεργοποιήθηκε.
+tfa-row-header = Ταυτοποίηση δύο παραγόντων
+tfa-row-disabled = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
 tfa-row-button-refresh =
-    .title = Ανανέωση ταυτοποίησης δύο βημάτων
+    .title = Ανανέωση ταυτοποίησης δύο παραγόντων
 tfa-row-cannot-refresh =
     Λυπούμαστε, προέκυψε πρόβλημα κατά την ανανέωση
-    της ταυτοποίησης δύο βημάτων.
-tfa-row-cannot-verify-session-2 = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
-tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο βημάτων;
+    της ταυτοποίησης δύο παραγόντων.
+tfa-row-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
+tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
-tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο βημάτων.
+tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων.
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.

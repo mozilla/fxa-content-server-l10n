@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-08 22:07+0000\n"
-"PO-Revision-Date: 2021-04-11 18:15+0000\n"
+"PO-Revision-Date: 2021-04-12 14:23+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -200,11 +200,11 @@ msgstr "Αν δεν το κάνατε εσείς, ανακαλέστε το κλ
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
+msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -212,7 +212,7 @@ msgstr "Θα απαιτούνται πλέον κωδικοί ασφαλείας
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας. Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
+msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Θα απαιτείται πλέον κωδικός ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -274,11 +274,11 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
-msgstr "Η ταυτοποίηση σε δύο βήματα ενεργοποιήθηκε"
+msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
@@ -286,7 +286,7 @@ msgstr "Οι κωδικοί ασφαλείας δεν θα ζητούνται π
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση σε δύο βήματα στο λογαριασμό Firefox σας. Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση."
+msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
@@ -854,11 +854,11 @@ msgstr "Το κύριο email ενημερώθηκε"
 
 #: lib/senders/email.js:1494
 msgid "Two-step verification enabled"
-msgstr "Η επαλήθευση σε δύο βήματα ενεργοποιήθηκε"
+msgstr "Η επαλήθευση δύο παραγόντων ενεργοποιήθηκε"
 
 #: lib/senders/email.js:1541
 msgid "Two-step verification is off"
-msgstr "Η επαλήθευση σε δύο βήματα είναι ανενεργή"
+msgstr "Η επαλήθευση δύο παραγόντων είναι ανενεργή"
 
 #: lib/senders/email.js:1635
 msgid "Recovery code used"
