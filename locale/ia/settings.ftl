@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Clauder message
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +61,14 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-name } navigator pro scriptorio
 
 ## Connect another device promo
 
@@ -136,6 +149,12 @@ datablock-copy =
 datablock-print =
     .message = Imprimite
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codices de recuperation
@@ -153,9 +172,16 @@ header-menu-closed = Menu de navigation del sito
 header-back-to-top-link =
     .title = Retornar al initio
 header-title = { -product-firefox-accounts }
-header-switch-title = Passar al designo classic
-    .title = ligamine de designo classic
 header-help = Adjuta
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -189,7 +215,6 @@ avatar-page-remove-photo = Remover photo
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Volver a prender un photo
-avatar-page-close-button = Clauder
 avatar-page-save-button = Salvar
 avatar-page-saving-button = Salvamento…
 avatar-page-zoom-out-button = Distantiar
@@ -247,7 +272,6 @@ delete-account-chk-box-3 =
     .label = Reactivar con iste adresse de e-mail pote non restaurar tu informationes salvate
 delete-account-chk-box-4 =
     .label = Tote le extensiones e themas que tu ha publicate in addons.mozilla.org essera delite
-delete-account-close-button = Clauder
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Insere le contrasigno
@@ -391,7 +415,6 @@ row-defaults-status = Nulle
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activate
 rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
@@ -447,8 +470,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Authentication a duo passos
 tfa-row-disabled = Authentication a duo passos disactivate.
 tfa-row-enabled = Activate
 tfa-row-not-set = Non definite
