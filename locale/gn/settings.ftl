@@ -201,6 +201,10 @@ modal-cancel-button = Heja
 
 mvs-verify-your-email = Ñanduti veve jehechajey
 mvs-enter-verification-code = Emoinge ayvu jehechajeyrã
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Ikatúpiko, ehai 5 aravo’i mboyve ayvu jeguerujeyrã oñemondopyre <email>{ $email }</email>-pe.
 msv-cancel-button = Heja
 msv-submit-button = Hechajey
 
