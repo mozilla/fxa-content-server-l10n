@@ -346,6 +346,8 @@ sub-customer-error =
     .title = Apañuãi emyanyhẽvo ñemuhára
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
 sub-route-payment-modal-heading = Marandu kuatiañemure oiko’ỹva
+sub-route-payment-modal-message = Oĩvaiccha jejavy { -brand-name-paypal } mba’ete ndive, roikotevẽ emboguata mba’éichapa emoĩporãta ko apañuãi jehepyme’ẽ rehegua.
+sub-route-missing-billing-agreement-payment-alert = Marandu jehepyme’ẽ rehegua oiko’ỹva; oĩ jejavy mba’ete ndive. <div>Ñangareko</div>
 pay-update-manage-btn = Ñangareko
 
 ## subscription create
