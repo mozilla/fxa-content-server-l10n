@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-08 22:07+0000\n"
-"PO-Revision-Date: 2021-04-12 14:16+0000\n"
+"PO-Revision-Date: 2021-04-12 14:25+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -196,19 +196,19 @@ msgstr "Το email απεστάλη ξανά. Προσθέστε το accounts@f
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
-msgstr "Αντιγράφηκε"
+msgstr "Έγινε αντιγραφή"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr "Αποτυχία αντιγραφής. Παρακαλούμε αντιγράψτε χειροκίνητα."
+msgstr "Αποτυχία αντιγραφής. Παρακαλούμε κάντε χειροκίνητη αντιγραφή."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr "Ελήφθη"
+msgstr "Έγινε λήψη"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr "Εκτυπώθηκε"
+msgstr "Έγινε εκτύπωση"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"

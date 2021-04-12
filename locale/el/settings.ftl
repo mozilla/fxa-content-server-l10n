@@ -474,6 +474,7 @@ se-refresh-email =
 se-unverified = μη επαληθευμένο
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
+se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
 se-content-note =
     Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας — 
     θα χρειαστείτε ένα <a>κλειδί ανάκτησης</a> για αυτό.
@@ -494,6 +495,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Λυπούμαστε, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
+tfa-row-content-explain =
+    Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
+    μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
 tfa-row-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση

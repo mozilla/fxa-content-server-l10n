@@ -89,13 +89,13 @@ year-based-plan-details-amount =
 ## Product route
 
 product-plan-error =
-    .title = Πρόβλημα φόρτωσης πλάνων
+    .title = Πρόβλημα φόρτωσης προγραμμάτων
 product-profile-error =
     .title = Πρόβλημα φόρτωσης προφίλ
 product-customer-error =
     .title = Πρόβλημα φόρτωσης πελάτη
-product-plan-not-found = Το πλάνο δεν βρέθηκε
-product-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτό το προϊόν.
+product-plan-not-found = Το πρόγραμμα δεν βρέθηκε
+product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα για αυτό το προϊόν.
 
 ## payment legal blurb
 
