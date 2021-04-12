@@ -437,6 +437,7 @@ rk-enabled = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
+rk-cannot-refresh = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
 rk-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε.
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
@@ -472,6 +473,9 @@ se-remove-email =
 se-refresh-email =
     .title = Ανανέωση email
 se-unverified = μη επαληθευμένο
+se-resend-code =
+    Απαιτείται επαλήθευση. <button>Επανάληψη αποστολής κωδικού επαλήθευσης</button>
+    σε περίπτωση που δεν υπάρχει στα εισερχόμενα ή στα ανεπιθύμητα μηνύματά σας.
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
 se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
