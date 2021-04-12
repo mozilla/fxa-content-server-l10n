@@ -80,6 +80,7 @@ bento-menu-pocket = { product-pocket }
 cs-disconnect-sync-opt-prefix = อุปกรณ์คือ:
 cs-disconnect-sync-opt-suspicious = น่าสงสัย
 cs-disconnect-sync-opt-lost = สูญหายหรือถูกขโมย
+cs-disconnect-sync-opt-old = เก่าหรือถูกแทนที่
 cs-disconnect-sync-opt-duplicate = ทำซ้ำ
 
 ##
