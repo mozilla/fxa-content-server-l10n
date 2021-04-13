@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Хәбәрне ябу
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -64,6 +68,8 @@ bento-menu-title = { -brand-firefox } Bento менюсы
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
+bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
 
 ## Connect another device promo
 
@@ -78,6 +84,7 @@ cs-heading = Тоташтырылган Хезмәтләр
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Җиһаз:
 
 ##
 
@@ -102,6 +109,10 @@ datablock-print =
 drop-down-menu-title = { -product-firefox-account } меню
 drop-down-menu-sign-out = Чыгу
 
+## Flow Container
+
+flow-container-back = Кире
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коткару кодлары
@@ -119,6 +130,11 @@ header-back-to-top-link =
     .title = Сәхифә башына
 header-title = { -product-firefox-accounts }
 header-help = Ярдәм
+
+## Input Password
+
+input-password-hide = Серсүзне яшерү
+input-password-show = Серсүзне күрсәтү
 
 ## Modal
 
@@ -159,8 +175,9 @@ avatar-page-remove-photo = Фотоны бетерү
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Яңадан фотога төшерү
-avatar-page-close-button = Ябу
+avatar-page-cancel-button = Баш тарту
 avatar-page-save-button = Саклау
+avatar-page-saving-button = Саклау…
 avatar-page-zoom-out-button = Кечерәйтү
 avatar-page-zoom-in-button = Зурайту
 avatar-page-rotate-button = Борып кую
@@ -181,6 +198,8 @@ pw-change-save-button = Саклау
 pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
 pw-change-new-password =
     .label = Яңа паролны языгыз
+pw-change-confirm-password =
+    .label = Яңа серсүзне раслагыз
 pw-change-success-alert = Серсүз яңартылды.
 
 ##
@@ -192,7 +211,6 @@ delete-account-header =
     .title = Хисапны бетерү
 delete-account-step-1-2 = Адым 1/2
 delete-account-step-2-2 = Адым 2/2
-delete-account-close-button = Ябу
 delete-account-continue-button = Дәвам итү
 delete-account-password-input =
     .label = Паролны кертү
@@ -206,6 +224,8 @@ delete-account-delete-button-2 = Бетерү
 
 display-name-page-title =
     .title = Күрсәтеләчәк исемегез
+display-name-input =
+    .label = Күрсәтеләчәк исемне кертегез
 submit-display-name = Саклау
 cancel-display-name = Баш тарту
 display-name-success-alert = Күрсәтелүче исем яңартылды.
@@ -224,6 +244,7 @@ recovery-key-page-title =
     .title = Коткару ачкычы
 recovery-key-step-1 = Адым 1/2
 recovery-key-step-2 = Адым 2/2
+recovery-key-success-alert = Коткару ачкычы ясалды.
 
 ## Add secondary email page
 
@@ -261,7 +282,12 @@ tfa-button-continue = Дәвам итү
 tfa-button-cancel = Баш тарту
 tfa-button-finish = Әзер
 tfa-incorrect-totp = Ике адымлы аутентификация коды хаталы
+tfa-incorrect-recovery-code = Хаталы коткару коды
 tfa-enabled = Ике адымлы аутентификация кабызылды
+tfa-input-enter-totp =
+    .label = Иминлек кодын кертегез
+tfa-enter-recovery-code =
+    .label = Коткару кодын кертегез
 
 ##
 
@@ -292,6 +318,7 @@ row-defaults-status = Бернинди дә
 
 rk-header = Коткару ачкычы
 rk-enabled = Кабызылган
+rk-action-create = Булдыру
 rk-action-remove = Бетерү
 rk-key-removed = Хисапны коткару ачкычы бетерелде.
 
@@ -299,6 +326,17 @@ rk-key-removed = Хисапны коткару ачкычы бетерелде.
 
 se-heading = Икенчел эл. почта адресы
     .header = Икенчел эл. почта адресы
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } уңышлы бетерелде
+# Button to remove the secondary email
+se-remove-email =
+    .title = Эл. почтаны бетерү
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Эл. почтаны яңарту
+se-unverified = расланмаган
 
 ##
 
@@ -313,6 +351,7 @@ tfa-row-action-disable = Cүндерү
 tfa-row-button-refresh =
     .title = Ике адымлы аутентификацияне яңарту
 tfa-row-disable-modal-confirm = Cүндерү
+tfa-row-cannot-disable = Ике адымлы аутентификацияне сүндереп булмады.
 tfa-row-change-modal-confirm = Үзгәртү
 
 ## Avatar sub-section on main Settings page
