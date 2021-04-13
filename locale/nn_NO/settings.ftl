@@ -154,6 +154,7 @@ header-help = Hjelp
 
 input-password-hide = Gøym passord
 input-password-show = Vis passord
+input-password-hide-aria = Skjul passord frå skjermen.
 
 ## Modal
 
@@ -217,6 +218,9 @@ avatar-page-image-too-large-error = Bildefila er for stor til å kunne lastast o
 
 pw-change-header =
     .title = Endra passord
+pw-change-least-8-chars = Må ha minst 8 teikn
+pw-change-not-contain-email = Kan ikkje vere e-postadressa di
+pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
