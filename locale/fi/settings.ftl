@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Sulje viesti
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -139,6 +143,10 @@ drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signi
 drop-down-menu-sign-out = Kirjaudu ulos
 drop-down-menu-sign-out-error = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma.
 
+## Flow Container
+
+flow-container-back = Takaisin
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Palautuskoodit
@@ -157,6 +165,13 @@ header-back-to-top-link =
     .title = Takaisin ylös
 header-title = { -product-firefox-accounts }
 header-help = Ohje
+
+## Input Password
+
+input-password-hide = Piilota salasana
+input-password-show = Näytä salasana
+input-password-hide-aria = Piilota salasana näytöltä.
+input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
 
 ## Modal
 
@@ -198,7 +213,7 @@ avatar-page-remove-photo = Poista kuva
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ota uusi kuva
-avatar-page-close-button = Sulje
+avatar-page-cancel-button = Peruuta
 avatar-page-save-button = Tallenna
 avatar-page-saving-button = Tallennetaan…
 avatar-page-zoom-out-button = Loitonna
@@ -254,7 +269,6 @@ delete-account-chk-box-3 =
     .label = Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja
 delete-account-chk-box-4 =
     .label = Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan
-delete-account-close-button = Sulje
 delete-account-continue-button = Jatka
 delete-account-password-input =
     .label = Kirjoita salasana
