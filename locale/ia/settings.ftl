@@ -69,6 +69,8 @@ bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = { -brand-name } navigator pro scriptorio
+bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
+bento-menu-made-by-mozilla = Producite per{ -brand-mozilla }
 
 ## Connect another device promo
 
@@ -151,9 +153,11 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Clauder session
 
 ## Flow Container
 
+flow-container-back = Retro
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -176,12 +180,20 @@ header-help = Adjuta
 
 ## Input Password
 
+input-password-hide = Celar contrasigno
+input-password-show = Monstrar contrasigno
 
 ## Modal
 
+modal-close-title = Clauder
+modal-cancel-button = Cancellar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifica tu email
+mvs-enter-verification-code = Insere tu codice de verification
+msv-cancel-button = Cancellar
+msv-submit-button = Verificar
 
 ## Settings Nav
 
@@ -215,6 +227,7 @@ avatar-page-remove-photo = Remover photo
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Volver a prender un photo
+avatar-page-cancel-button = Cancellar
 avatar-page-save-button = Salvar
 avatar-page-saving-button = Salvamento…
 avatar-page-zoom-out-button = Distantiar
@@ -415,6 +428,8 @@ row-defaults-status = Nulle
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Clave de recuperation
+rk-enabled = Activate
 rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
@@ -429,6 +444,8 @@ rk-remove-modal-heading = Remover clave de recuperation?
 rk-remove-modal-content =
     In caso que tu reinitialisa tu contrasigno, tu non potera 
     usar tu clave de recuperation pro acceder tu datos. Tu non pote disfacer iste action.
+rk-refresh-error = Desolate, problema al actualisation del clave de recuperation.
+rk-remove-error = Tu clave de recuperation del conto non pote esser removite.
 
 ## Secondary email sub-section on main Settings page
 
@@ -470,6 +487,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Authentication a duo passos
 tfa-row-disabled = Authentication a duo passos disactivate.
 tfa-row-enabled = Activate
 tfa-row-not-set = Non definite
