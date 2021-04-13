@@ -68,7 +68,7 @@ bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vi
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
-bento-menu-firefox-desktop = { -brand-name } navigator pro scriptorio
+bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
 bento-menu-made-by-mozilla = Producite per{ -brand-mozilla }
 
