@@ -153,6 +153,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu { -product-firefox-account }
 drop-down-menu-sign-out = Clauder session
 
 ## Flow Container
