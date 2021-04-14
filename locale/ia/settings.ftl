@@ -154,7 +154,12 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Connexe como</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Clauder session
+drop-down-menu-sign-out-error = Desolate, problema durante tu disconnexion
 
 ## Flow Container
 
@@ -183,6 +188,7 @@ header-help = Adjuta
 
 input-password-hide = Celar contrasigno
 input-password-show = Monstrar contrasigno
+input-password-hide-aria = Celar le contrasigno ab le schermo.
 
 ## Modal
 

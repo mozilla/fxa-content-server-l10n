@@ -333,6 +333,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problema al cargamento del cliente
 sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
+sub-route-payment-modal-heading = Informationes de facturation non valide
 pay-update-manage-btn = Gerer
 
 ## subscription create
