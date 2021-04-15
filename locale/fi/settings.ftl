@@ -136,6 +136,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } -valikko
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -182,6 +183,10 @@ modal-cancel-button = Peruuta
 
 mvs-verify-your-email = Vahvista sähköpostiosoite
 mvs-enter-verification-code = Kirjoita vahvistuskoodi
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Kirjoita osoitteeseen <email>{ $email }</email> lähetetty vahvistuskoodi viiden minuutin kuluessa.
 msv-cancel-button = Peruuta
 msv-submit-button = Vahvista
 
@@ -431,6 +436,7 @@ se-cannot-resend-code = Valitettavasti vahvistuskoodin lähettämisessä uudelle
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } on nyt ensisijainen sähköpostiosoitteesi.
+se-set-primary-error = Valitettavasti ensisijaisen sähköpostiosoitteesi vaihtamisessa ilmeni ongelma.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
