@@ -346,8 +346,9 @@ sub-customer-error =
     .title = Probleem by it laden fan klant
 sub-billing-update-success = Jo betellingsgegevens binne mei sukses bywurke
 sub-route-payment-modal-heading = Ungjildige fakturaasjegegevens
-sub-route-payment-modal-copy = Der liket in flater te barren mei jo { -brand-name-paypal }-account, jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
-sub-route-invalid-payment = Ungjidige betellingsgegevens, der is in flater bard mei jo account. <div>Beheare</div>
+sub-route-payment-modal-message = Der liket in flater te barren mei jo { -brand-name-paypal }-account, jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
+sub-route-missing-billing-agreement-payment-alert = Ungjidige betellingsgegevens; der is in flater bard mei jo account. <div>Beheare</div>
+sub-route-funding-source-payment-alert = Ungjidige betellingsgegevens; der is in flater bard mei jo account. Dizze warskôging ferdwynt mooglik pas nei ferrin fan tiid neidat jo mei sukses jo gegevens bywurke hawwe. <div>Beheare</div>
 pay-update-manage-btn = Beheare
 
 ## subscription create

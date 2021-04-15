@@ -346,8 +346,9 @@ sub-customer-error =
     .title = Problem med att ladda kund
 sub-billing-update-success = Din faktureringsinformation har uppdaterats
 sub-route-payment-modal-heading = Ogiltig faktureringsinformation
-sub-route-payment-modal-copy = Det verkar finnas ett fel med ditt { -brand-name-paypal }-konto, du måste vidta nödvändiga steg för att lösa detta betalningsproblem.
-sub-route-invalid-payment = Ogiltig betalningsinformation, det finns ett problem med ditt konto. <div>Hantera</div>
+sub-route-payment-modal-message = Det verkar finnas ett fel med ditt { -brand-name-paypal }-konto, du måste vidta nödvändiga steg för att lösa detta betalningsproblem.
+sub-route-missing-billing-agreement-payment-alert = Ogiltig betalningsinformation, det finns ett problem med ditt konto. <div>Hantera</div>
+sub-route-funding-source-payment-alert = Ogiltig betalningsinformation. Det finns ett problem med ditt konto. Det kan ta en stund att rensa den här varningen efter att du har uppdaterat din information. <div>Hantera</div>
 pay-update-manage-btn = Hantera
 
 ## subscription create
