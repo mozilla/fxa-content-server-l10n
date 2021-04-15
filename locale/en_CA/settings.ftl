@@ -388,6 +388,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profile
+profile-picture =
+    .header = Picture
 profile-display-name =
     .header = Display name
 profile-password =
@@ -486,12 +488,6 @@ tfa-row-cannot-disable = Two-step authentication could not be disabled.
 tfa-row-change-modal-heading = Change recovery codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Picture
-avatar-add-link = Add
-avatar-change-link = Change
 
 ## Auth-server based errors that originate from backend service
 
