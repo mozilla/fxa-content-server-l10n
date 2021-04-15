@@ -416,6 +416,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Bild
 profile-display-name =
     .header = Visningsnamn
 profile-password =
@@ -526,12 +528,6 @@ tfa-row-cannot-disable = Tvåstegsautentisering kunde inte inaktiveras.
 tfa-row-change-modal-heading = Ändra återställningskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Bild
-avatar-add-link = Lägg till
-avatar-change-link = Ändra
 
 ## Auth-server based errors that originate from backend service
 
