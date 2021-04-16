@@ -414,6 +414,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Hồ sơ
+profile-picture =
+    .header = Hình ảnh
 profile-display-name =
     .header = Tên hiển thị
 profile-password =
@@ -522,12 +524,6 @@ tfa-row-cannot-disable = Không thể tắt xác thực hai bước.
 tfa-row-change-modal-heading = Thay đổi mã khôi phục?
 tfa-row-change-modal-confirm = Thay đổi
 tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Hình ảnh
-avatar-add-link = Thêm
-avatar-change-link = Thay đổi
 
 ## Auth-server based errors that originate from backend service
 
