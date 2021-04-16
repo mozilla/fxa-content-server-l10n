@@ -142,7 +142,7 @@ bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile =
     Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
-    <br />prípadne si <linkExternal>nechajte poslať odkaz na svoje zariadenie</linkExternal>.
+    <br />prípadne si nechajte <linkExternal>poslať odkaz na svoje zariadenie</linkExternal>.
 
 ##
 
@@ -479,6 +479,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Obrázok
 profile-display-name =
     .header = Zobrazované meno
 profile-password =
@@ -588,12 +590,6 @@ tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
 tfa-row-change-modal-heading = Zmeniť kódy obnovenia účtu?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Obrázok
-avatar-add-link = Pridať
-avatar-change-link = Zmeniť
 
 ## Auth-server based errors that originate from backend service
 
