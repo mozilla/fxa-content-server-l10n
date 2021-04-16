@@ -470,6 +470,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Профіль
+profile-picture =
+    .header = Зображення
 profile-display-name =
     .header = Ім’я для показу
 profile-password =
@@ -580,12 +582,6 @@ tfa-row-cannot-disable = Неможливо вимкнути двоетапну 
 tfa-row-change-modal-heading = Змінити коди відновлення?
 tfa-row-change-modal-confirm = Змінити
 tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Зображення
-avatar-add-link = Додати
-avatar-change-link = Змінити
 
 ## Auth-server based errors that originate from backend service
 
