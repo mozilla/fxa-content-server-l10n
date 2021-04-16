@@ -416,6 +416,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profiel
+profile-picture =
+    .header = Afbeelding
 profile-display-name =
     .header = Weergavenaam
 profile-password =
@@ -526,12 +528,6 @@ tfa-row-cannot-disable = Authenticatie in twee stappen kon niet worden uitgescha
 tfa-row-change-modal-heading = Herstelcodes wijzigen?
 tfa-row-change-modal-confirm = Wijzigen
 tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Afbeelding
-avatar-add-link = Toevoegen
-avatar-change-link = Wijzigen
 
 ## Auth-server based errors that originate from backend service
 
