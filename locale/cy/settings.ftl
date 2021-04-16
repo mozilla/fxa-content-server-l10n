@@ -414,6 +414,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Proffil
+profile-picture =
+    .header = Llun
 profile-display-name =
     .header = Enw dangos
 profile-password =
@@ -520,12 +522,6 @@ tfa-row-cannot-disable = Nid oedd modd analluogi dilysu dau gam.
 tfa-row-change-modal-heading = Newid y codau adfer?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Llun
-avatar-add-link = Ychwanegu
-avatar-change-link = Newid
 
 ## Auth-server based errors that originate from backend service
 
