@@ -398,6 +398,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profilo
+profile-picture =
+    .header = Immagine
 profile-display-name =
     .header = Nome visualizzato
 profile-password =
@@ -500,12 +502,6 @@ tfa-row-cannot-disable = Impossibile disattivare l’autenticazione in due passa
 tfa-row-change-modal-heading = Cambiare le chiavi di recupero?
 tfa-row-change-modal-confirm = Cambia
 tfa-row-change-modal-explain = Questa azione è irreversibile.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Immagine
-avatar-add-link = Aggiungi
-avatar-change-link = Cambia
 
 ## Auth-server based errors that originate from backend service
 
