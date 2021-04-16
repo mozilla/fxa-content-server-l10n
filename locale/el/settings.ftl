@@ -218,6 +218,10 @@ modal-cancel-button = Ακύρωση
 
 mvs-verify-your-email = Επαλήθευση email
 mvs-enter-verification-code = Εισαγωγή κωδικού επαλήθευσης
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Παρακαλώ εισάγετε τον κωδικό επαλήθευσης που εστάλη στο <email>{ $email }</email> εντός 5 λεπτών.
 msv-cancel-button = Ακύρωση
 msv-submit-button = Επαλήθευση
 
@@ -233,6 +237,10 @@ nav-email-comm = Επικοινωνία μέσω email
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Προέκυψε πρόβλημα κατά την αντικατάσταση των κωδικών ανάκτησής σας.
+tfa-replace-code-success =
+    Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους κωδικούς
+    μιας χρήσης σε ασφαλές μέρος — όπου θα έχετε πρόσβαση σε περίπτωση απώλειας
+    της κινητής συσκευής σας.
 tfa-replace-code-success-alert = Οι κωδικοί ανάκτησης του λογαριασμού ενημερώθηκαν.
 
 ## Avatar change page
@@ -273,6 +281,10 @@ pw-change-stay-safe = Προσοχή — μην χρησιμοποιείτε τ�
 pw-change-least-8-chars = Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες
 pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
 pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Δεν πρέπει να συμφωνεί με τη <linkExternal>λίστα κοινών
+    κωδικών πρόσβασης</linkExternal>
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -331,6 +343,7 @@ display-name-success-alert = Το εμφανιζόμενο όνομα ενημε
 recovery-key-cancel-button = Ακύρωση
 recovery-key-close-button = Κλείσιμο
 recovery-key-continue-button = Συνέχεια
+recovery-key-created = Δημιουργήθηκε το κλειδί ανάκτησής σας. Αποθηκεύστε αυτό το κλειδί σε ασφαλές μέρος όπου θα έχετε εύκολη πρόσβαση αργότερα — χρειάζεστε αυτό το κλειδί για πρόσβαση στα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 recovery-key-enter-password =
     .label = Εισαγωγή κωδικού πρόσβασης
 recovery-key-page-title =
@@ -361,6 +374,10 @@ verify-secondary-email-verification-code =
     .label = Εισάγετε τον κωδικό επαλήθευσής σας
 verify-secondary-email-cancel-button = Ακύρωση
 verify-secondary-email-verify-button = Επαλήθευση
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Παρακαλώ εισάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -395,6 +412,9 @@ tfa-qa-code-alt =
     Χρησιμοποιήστε τον κωδικό { $secret } για να ρυθμίσετε την ταυτοποίηση
     δύο παραγόντων στις υποστηριζόμενες εφαρμογές.
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
+tfa-enter-totp = Τώρα, εισάγετε τον κωδικό ασφαλείας από την εφαρμογή ταυτοποίησης.
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
 tfa-enter-recovery-code =
@@ -406,6 +426,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Προφίλ
+profile-picture =
+    .header = Εικόνα
 profile-display-name =
     .header = Εμφανιζόμενο όνομα
 profile-password =
@@ -446,6 +468,9 @@ rk-content-explain = Ανακτήστε τις πληροφορίες σας ε�
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
 rk-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
+rk-remove-modal-content =
+    Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
+    μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
 rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
 rk-remove-error = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας.
 
@@ -513,12 +538,6 @@ tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποί�
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Εικόνα
-avatar-add-link = Προσθήκη
-avatar-change-link = Αλλαγή
 
 ## Auth-server based errors that originate from backend service
 
