@@ -410,6 +410,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Bild
 profile-display-name =
     .header = Anzeigename
 profile-password =
@@ -520,12 +522,6 @@ tfa-row-cannot-disable = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert
 tfa-row-change-modal-heading = Wiederherstellungscodes ändern?
 tfa-row-change-modal-confirm = Ändern
 tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Bild
-avatar-add-link = Hinzufügen
-avatar-change-link = Ändern
 
 ## Auth-server based errors that originate from backend service
 
