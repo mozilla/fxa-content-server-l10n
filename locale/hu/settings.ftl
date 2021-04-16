@@ -412,6 +412,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Kép
 profile-display-name =
     .header = Megjelenő név
 profile-password =
@@ -522,12 +524,6 @@ tfa-row-cannot-disable = A kétlépcsős hitelesítést nem lehetett letiltani.
 tfa-row-change-modal-heading = Megváltoztatja a helyreállítási kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Kép
-avatar-add-link = Hozzáadás
-avatar-change-link = Módosítás
 
 ## Auth-server based errors that originate from backend service
 
