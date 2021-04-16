@@ -408,6 +408,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profilo
+profile-picture =
+    .header = Imagine
 profile-display-name =
     .header = Nomine a monstrar
 profile-password =
@@ -518,12 +520,6 @@ tfa-row-cannot-disable = Impossibile disactivar authentication a duo passos.
 tfa-row-change-modal-heading = Cambiar codices de recuperation?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Imagine
-avatar-add-link = Adder
-avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
