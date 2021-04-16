@@ -392,6 +392,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = פרופיל
+profile-picture =
+    .header = תמונה
 profile-display-name =
     .header = שם תצוגה
 profile-password =
@@ -490,12 +492,6 @@ tfa-row-cannot-disable = לא ניתן היה להשבית את האימות ה�
 tfa-row-change-modal-heading = לשנות את הקודים לשחזור?
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = תמונה
-avatar-add-link = הוספה
-avatar-change-link = שינוי
 
 ## Auth-server based errors that originate from backend service
 
