@@ -386,6 +386,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Perfil
+profile-picture =
+    .header = Foto
 profile-display-name =
     .header = Nome de exibição
 profile-password =
@@ -484,12 +486,6 @@ tfa-row-cannot-disable = Não foi possível desativar a autenticação em duas e
 tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Foto
-avatar-add-link = Adicionar
-avatar-change-link = Alterar
 
 ## Auth-server based errors that originate from backend service
 
