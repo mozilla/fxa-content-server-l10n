@@ -386,6 +386,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = 個人資料
+profile-picture =
+    .header = 照片
 profile-display-name =
     .header = 顯示名稱
 profile-password =
@@ -484,12 +486,6 @@ tfa-row-cannot-disable = 無法停用兩階段驗證。
 tfa-row-change-modal-heading = 要更改救援碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = 照片
-avatar-add-link = 新增
-avatar-change-link = 變更
 
 ## Auth-server based errors that originate from backend service
 
