@@ -266,6 +266,10 @@ verify-secondary-email-verification-code =
     .label = Раслау кодын кертегез
 verify-secondary-email-cancel-button = Баш тарту
 verify-secondary-email-verify-button = Раслау
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } уңышлы өстәлде
 
 ##
 
@@ -353,12 +357,6 @@ tfa-row-button-refresh =
 tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-cannot-disable = Ике адымлы аутентификацияне сүндереп булмады.
 tfa-row-change-modal-confirm = Үзгәртү
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Рәсем
-avatar-add-link = Өстәү
-avatar-change-link = Үзгәртү
 
 ## Auth-server based errors that originate from backend service
 
