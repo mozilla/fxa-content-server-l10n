@@ -410,6 +410,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Wobraz
 profile-display-name =
     .header = Zwobraznjeńske mě
 profile-password =
@@ -520,12 +522,6 @@ tfa-row-cannot-disable = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
 tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Wobraz
-avatar-add-link = Pśidaś
-avatar-change-link = Změniś
 
 ## Auth-server based errors that originate from backend service
 
