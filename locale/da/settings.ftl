@@ -415,6 +415,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Billede
 profile-display-name =
     .header = Vist navn
 profile-password =
@@ -525,12 +527,6 @@ tfa-row-cannot-disable = Totrinsgodkendelse kunne ikke deaktiveres.
 tfa-row-change-modal-heading = Skift genoprettelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Billede
-avatar-add-link = Tilføj
-avatar-change-link = Skift
 
 ## Auth-server based errors that originate from backend service
 
