@@ -66,6 +66,9 @@ bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
+connect-another-find-fx-mobile =
+    Atopa { -brand-firefox } na { -google-play } y { -app-store } o
+    <br /><linkExternal>unvia un enllaz de descarga al to preséu</linkExternal>.
 
 ##
 
@@ -122,6 +125,10 @@ modal-cancel-button = Encaboxar
 
 ## Modal Verify Session
 
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Introduz el códigu de verificación que s'unvió a <email>{ $email }</email> en 5 minutos, por favor.
 msv-cancel-button = Encaboxar
 msv-submit-button = Verificar
 
@@ -163,15 +170,20 @@ avatar-page-delete-error-2 = Hebo un problema al desaniciar la semeya del perfil
 
 ## Password change page
 
+pw-change-least-8-chars = Ha tener polo menos 8 caráuteres
+pw-change-not-contain-email = Nun ha incluyir la to direición de corréu
 pw-change-cancel-button = Encaboxar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Escaeciesti la contraseña?
+pw-change-success-alert = Anovóse la contraseña.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Desaniciu de la cuenta
 delete-account-step-1-2 = Pasu 1 de 2
 delete-account-step-2-2 = Pasu 2 de 2
 delete-account-chk-box-4 =
@@ -218,9 +230,12 @@ verify-secondary-email-verify-button = Verificar
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Desaniciar la cuenta
 
 ## Two Step Authentication
 
+tfa-title = Autenticación en dos pasos
 tfa-step-1-3 = Pasu 1 de 3
 tfa-step-2-3 = Pasu 2 de 3
 tfa-step-3-3 = Pasu 3 de 3
@@ -240,6 +255,8 @@ tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 profile-heading = Perfil
 profile-picture =
     .header = Semeya
+profile-password =
+    .header = Contraseña
 
 ##
 
@@ -254,6 +271,7 @@ security-heading = Seguranza
 ## Recovery key sub-section on main Settings page
 
 rk-header = Clave de recuperación
+rk-not-set = Nun s'afitó
 rk-action-create = Crear
 rk-action-remove = Quitar
 rk-cannot-refresh = Sentímoslo, hebo un problema al refrescar la clave de recuperación.
@@ -265,6 +283,8 @@ rk-refresh-error = Sentímoslo, hebo un problema al refrescar la clave de recupe
 
 ## Secondary email sub-section on main Settings page
 
+se-cannot-resend-code = Sentímoslo, hebo un problema al volver unviar el códigu de verificación.
+se-verify-session = Tienes de verificar la sesión actual pa facer esta aición.
 se-verify-session-error = Sentímoslo, hebo un problema al verificar la sesión.
 
 ##
@@ -274,6 +294,7 @@ se-verify-session-error = Sentímoslo, hebo un problema al verificar la sesión.
 
 tfa-row-header = Autenticación en dos pasos
 tfa-row-disabled = Desactivóse l'autenticación en dos pasos.
+tfa-row-not-set = Nun s'afitó
 tfa-row-button-refresh =
     .title = Refrescar l'autenticación en dos pasos
 tfa-row-cannot-verify-session-2 = Sentímoslo, hebo un problema al verificar la sesión.
