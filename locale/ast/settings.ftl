@@ -106,6 +106,7 @@ drop-down-menu-sign-out-error = Sentímoslo, hebo un problema al zarrar la sesi�
 
 ## Flow Container
 
+flow-container-back = Atrás
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -147,8 +148,12 @@ tfa-replace-code-success-alert = Anováronse los códigos de recuperación de la
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Semeya del perfil
+avatar-page-add-photo = Amestar una semeya
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = Facer una semeya
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo-button =
@@ -162,7 +167,9 @@ avatar-page-zoom-in-button =
     .title = Averar
 avatar-page-rotate-button =
     .title = Voltiar
-avatar-page-file-upload-error-2 = Hebo un problema al anovar la semeya del perfil.
+avatar-page-new-avatar =
+    .alt = semeya del perfil nueva
+avatar-page-file-upload-error-2 = Hebo un problema al xubir la semeya del perfil.
 avatar-page-delete-error-2 = Hebo un problema al desaniciar la semeya del perfil.
 
 ##
