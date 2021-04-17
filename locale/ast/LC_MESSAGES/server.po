@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 02:14+0000\n"
+"PO-Revision-Date: 2021-04-17 02:18+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -93,7 +93,7 @@ msgstr "Atentamente,"
 #: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6 lib/senders/templates/passwordResetRequired.html:8
 #: lib/senders/templates/passwordResetRequired.txt:8
 msgid "The Firefox Accounts team"
-msgstr "L'equipu de cuentes de Firefox"
+msgstr "L'equipu de Firefox Accounts"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -109,7 +109,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Esto ye un corréu automatizáu. Si nun camudesti la contraseña de la to cuenta de Firefox, deberíes reaniciala nel intre en %(resetLink)s"
+msgstr "Esto ye un corréu automatizáu. Si nun camudesti la contraseña de la to cuenta de Firefox, habríes reaniciala yá en %(resetLink)s"
 
 #: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
 msgid "Your account password was changed"
@@ -117,11 +117,11 @@ msgstr "Camudó la contraseña de la cuenta"
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Vas precisar introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
+msgstr "Vas tener d'introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Vas precisar introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
+msgstr "Vas tener d'introducir la contraseña nueva nos demás preseos pa siguir cola sincronización."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
-msgstr "Vas precisar xenerar una clave nueva de recuperación."
+msgstr "Vas tener de xenerar una clave de recuperación nueva."
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:4
 msgid "Create new recovery key:"
@@ -149,11 +149,11 @@ msgstr "Pa más información, visita %(supportUrl)s"
 
 #: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
 msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "Deteutemos una actividá sospechosa na to cuenta de Firefox. Quiciabes tea comprometida."
+msgstr "Detectemos una actividá sospechosa na to cuenta de Firefox. Pue tar en riesgu."
 
 #: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
 msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "Pa evitar más accesos non autorizaos nel futuru, reafitemos la to contraseña y avisámoste por precaución."
+msgstr "Pa evitar más accesos non autorizaos nel futuru, reafitemos la contraseña y avisámoste por precaución."
 
 #: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
 msgid "What should you do?"
