@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-10 19:10+0000\n"
+"PO-Revision-Date: 2021-04-17 18:29+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -213,14 +213,14 @@ msgstr "Úspešne ste povolili dvojstupňové overenie na vašom účte Firefox.
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr "Nová primárna e-mailová adresa"
+msgstr "Nová hlavná e-mailová adresa"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
-"Úspešne ste zmenili svoju primárnu e-mailovú adresu na %(email)s. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k účtu Firefox a k zasielaniu bezpečnostných upozornení a potvrdení "
+"Úspešne ste zmenili svoju hlavnú e-mailovú adresu na %(email)s. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k účtu Firefox a k zasielaniu bezpečnostných upozornení a potvrdení "
 "prihlásenia."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
@@ -261,11 +261,11 @@ msgstr "Úspešne ste odstránili obnovovací kľúč pre svoj účet Firefox z 
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1461
 msgid "Secondary email removed"
-msgstr "Sekundárna e-mailová adresa bola odstránená"
+msgstr "Alternatívna e-mailová adresa bola odstránená"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Úspešne ste odstránili %(secondaryEmail)s ako sekundárnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu."
+msgstr "Úspešne ste odstránili %(secondaryEmail)s ako alternatívnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
 msgid "Two-step authentication disabled"
@@ -305,11 +305,11 @@ msgstr "Máte otázky? Navštívte %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1389
 msgid "Secondary email added"
-msgstr "Sekundárna e-mailová adresa bola pridaná"
+msgstr "Alternatívna e-mailová adresa bola pridaná"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Úspešne ste overili %(secondaryEmail)s ako sekundárnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy."
+msgstr "Úspešne ste overili %(secondaryEmail)s ako alternatívnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -574,7 +574,7 @@ msgstr "Jeho platnosť vyprší po 5 minútach."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr "Overiť primárnu e-mailovú adresu"
+msgstr "Overiť hlavnú e-mailovú adresu"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -582,7 +582,7 @@ msgstr "Požiadavka na zmenu v účte prišla z nasledovného zariadenia:"
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Po overení budú k dispozícii zmeny v účte, napríklad pridanie sekundárnej e-mailovej adresy."
+msgstr "Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy."
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
@@ -590,11 +590,11 @@ msgstr "Overenie e-mailu: "
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
-msgstr "Overiť sekundárnu e-mailovú adresu"
+msgstr "Overiť alternatívnu e-mailovú adresu"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Požiadavka na použitie adresy %(email)s ako sekundárnej e-mailovej adresy bola vytvorená z nasledujúceho účtu Firefox Account:"
+msgstr "Požiadavka na použitie adresy %(email)s ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho účtu Firefox Account:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -802,7 +802,7 @@ msgstr "Prihlasovací kód pre %(serviceName)s"
 
 #: lib/senders/email.js:916
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Potvrdiť hlavnú e-mailovú adresu"
 
 #: lib/senders/email.js:917 lib/senders/email.js:980 lib/senders/email.js:1052
 msgid "Verify email"
@@ -835,7 +835,7 @@ msgstr ""
 
 #: lib/senders/email.js:1425
 msgid "Primary email updated"
-msgstr ""
+msgstr "Hlavná e-mailová adresa bola aktualizovaná"
 
 #: lib/senders/email.js:1495
 msgid "Two-step verification enabled"
@@ -1112,8 +1112,8 @@ msgstr "Prevziať najnovšiu verziu"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox. Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</"
-#~ "a> alebo <a href='%(iosUrl)s'>iOS</a>."
+#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox. Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</a> "
+#~ "alebo <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1267,11 +1267,11 @@ msgstr "Prevziať najnovšiu verziu"
 #~ msgstr "Obnoviť heslo"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k "
-#~ "nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
+#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k nemu "
+#~ "pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -1295,19 +1295,18 @@ msgstr "Prevziať najnovšiu verziu"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Overiť e-mailovú adresu pre účet Firefox"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe e-"
-#~ "mailové adresy."
+#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe "
+#~ "e-mailové adresy."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Tu je požadovaný odkaz na inštaláciu Firefoxu na vaše mobilné zariadenie: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
-#~ "niekto ďalší."
+#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
+#~ " ďalší."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Dátum a čas:"

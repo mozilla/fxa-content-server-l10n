@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 18:24+0000\n"
+"PO-Revision-Date: 2021-04-17 18:28+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -83,7 +83,7 @@ msgstr "Upozornenia o účte budú odteraz odosielané taktiež na %(secondaryEm
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr "Sekundárna e-mailová adresa bola overená"
+msgstr "Alternatívna e-mailová adresa bola overená"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
 msgid "Sign-in confirmed"
@@ -275,7 +275,7 @@ msgstr "Hlavná e-mailová adresa bola úspešne overená"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Sekundárna e-mailová adresa bola úspešne overená"
+msgstr "Alternatívna e-mailová adresa bola úspešne overená"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -403,11 +403,11 @@ msgstr "Neoverená relácia"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr "Sekundárna e-mailová adresa musí byť iná ako adresa účtu"
+msgstr "Alternatívna e-mailová adresa musí byť iná ako adresa účtu"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Dosiahli ste maximálny počet sekundárnych e-mailových adries"
+msgstr "Dosiahli ste maximálny počet alternatívnych e-mailových adries"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
@@ -435,7 +435,7 @@ msgstr "Hlavnú e-mailovú adresu nemôžete zmeniť na neoverenú e-mailovú ad
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Primárnu e-mailovú adresu nemožno zmeniť na adresu, ktorá nepatrí k tomuto účtu"
+msgstr "Hlavnú e-mailovú adresu nemožno zmeniť na adresu, ktorá nepatrí k tomuto účtu"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
@@ -981,7 +981,7 @@ msgstr "Zapamätať heslo? Prihlásiť"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Primárna e-mailová adresa už bola overená"
+msgstr "Hlavná e-mailová adresa už bola overená"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1597,7 +1597,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr "Sekundárna e-mailová adresa"
+msgstr "Alternatívna e-mailová adresa"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8

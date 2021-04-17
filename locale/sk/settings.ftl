@@ -402,7 +402,7 @@ recovery-key-success-alert = Obnovovací kľúč bol vytvorený.
 
 add-secondary-email-error = Pri vytváraní tohto e-mailu sa vyskytol problém.
 add-secondary-email-page-title =
-    .title = Sekundárna e-mailová adresa
+    .title = Alternatívna e-mailová adresa
 add-secondary-email-enter-address =
     .label = Zadajte e-mailovú adresu
 add-secondary-email-cancel-button = Zrušiť
@@ -415,7 +415,7 @@ add-secondary-email-save-button = Uložiť
 
 verify-secondary-email-error = Pri odosielaní overovacieho kódu sa vyskytol problém.
 verify-secondary-email-page-title =
-    .title = Sekundárna e-mailová adresa
+    .title = Alternatívna e-mailová adresa
 verify-secondary-email-verification-code =
     .label = Zadajte overovací kód
 verify-secondary-email-cancel-button = Zrušiť
@@ -490,7 +490,7 @@ profile-password =
 #   $date (String) - a localized date and time string
 profile-password-created-date = Vytvorené { $date }
 profile-primary-email =
-    .header = Primárna e-mailová adresa
+    .header = Hlavná e-mailová adresa
 
 ##
 
@@ -530,15 +530,15 @@ rk-remove-error = Kľúč na obnovenie účtu nebolo možné odstrániť.
 
 ## Secondary email sub-section on main Settings page
 
-se-heading = Sekundárna e-mailová adresa
-    .header = Sekundárna e-mailová adresa
+se-heading = Alternatívna e-mailová adresa
+    .header = Alternatívna e-mailová adresa
 se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
 se-cannot-resend-code = Ľutujeme, pri opätovnom odosielaní overovacieho kódu sa vyskytol problém.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = Adresa { $email } je teraz vašou primárnou e-mailovou adresou.
-se-set-primary-error = Ľutujeme, ale pri zmene vašej primárnej e-mailovej adresy sa vyskytol problém.
+se-set-primary-successful = Adresa { $email } je teraz vašou hlavnou e-mailovou adresou.
+se-set-primary-error = Ľutujeme, ale pri zmene vašej hlavnej e-mailovej adresy sa vyskytol problém.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -557,10 +557,10 @@ se-resend-code =
     Vyžaduje sa overenie. <button>Opäť si pošlite overovací kód</button>,
     ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
-se-make-primary = Nastaviť ako primárnu adresu
-se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej primárnej e-mailovej adresy.
+se-make-primary = Nastaviť ako hlavnú adresu
+se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej hlavnej e-mailovej adresy.
 se-content-note =
-    Poznámka: sekundárna e-mailová adresa neslúži na obnovenie vašich údajov,
+    Poznámka: alternatívna e-mailová adresa neslúži na obnovenie vašich údajov,
     na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 
 ##
