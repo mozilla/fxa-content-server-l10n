@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 15:14+0000\n"
+"PO-Revision-Date: 2021-04-17 15:18+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -926,7 +926,7 @@ msgstr "Has cumplir ciertos requirimientos d'edá pa crear una cuenta de Firefox
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Lleer más"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
 msgid "Choose what to sync:"
@@ -1234,7 +1234,7 @@ msgstr ""
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "¡Baxa Firefox pa iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
@@ -1310,11 +1310,11 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Actividá recién"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Eventos de seguranza"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
@@ -1498,7 +1498,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
-msgstr ""
+msgstr "Soscripciones"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
@@ -1526,7 +1526,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Fallos téunicos"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
@@ -1700,7 +1700,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Apunta la cámara al códigu QR y toca l'enllaz qu'apaeza"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
@@ -1792,11 +1792,11 @@ msgstr "Direición IP: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Una cuenta, munchos servicios"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Restolador Firefox"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
