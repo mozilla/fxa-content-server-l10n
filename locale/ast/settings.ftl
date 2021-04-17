@@ -81,6 +81,10 @@ cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = El preséu:
+cs-disconnect-sync-opt-suspicious = Ye sospechosu
+cs-disconnect-sync-opt-lost = Ta perdíu o robáronlu
+cs-disconnect-sync-opt-not-say = Nun quiero dicilo
 
 ##
 
@@ -94,16 +98,20 @@ cs-sign-out-button = Zarrar sesión
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menú de { -product-firefox-account }
+drop-down-menu-sign-out-error = Sentímoslo, hebo un problema al zarrar la sesión.
 
 ## Flow Container
 
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperación
 
 # HeaderLockup component
 
 header-title = { -product-firefox-accounts }
+header-help = Ayuda
 
 ## Input Password
 
@@ -119,9 +127,16 @@ msv-submit-button = Verificar
 
 ## Settings Nav
 
+nav-settings = Axustes
+nav-profile = Perfil
+nav-security = Seguranza
+nav-connected-services = Servicios conectaos
+nav-email-comm = Comunicaciones per corréu
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Hebo un problema al trocar los códigos de recuperación.
+tfa-replace-code-success-alert = Anováronse los códigos de recuperación de la cuenta.
 
 ## Avatar change page
 
@@ -140,6 +155,8 @@ avatar-page-zoom-in-button =
     .title = Averar
 avatar-page-rotate-button =
     .title = Voltiar
+avatar-page-file-upload-error-2 = Hebo un problema al anovar la semeya del perfil.
+avatar-page-delete-error-2 = Hebo un problema al desaniciar la semeya del perfil.
 
 ##
 
@@ -148,6 +165,7 @@ avatar-page-rotate-button =
 
 pw-change-cancel-button = Encaboxar
 pw-change-save-button = Guardar
+pw-change-forgot-password-link = ¿Escaeciesti la contraseña?
 
 ##
 
@@ -156,6 +174,8 @@ pw-change-save-button = Guardar
 
 delete-account-step-1-2 = Pasu 1 de 2
 delete-account-step-2-2 = Pasu 2 de 2
+delete-account-chk-box-4 =
+    .label = Van desaniciase toles estensiones y estilos qu'espublizares n'addons.mozilla.org
 delete-account-continue-button = Siguir
 delete-account-cancel-button = Encaboxar
 delete-account-delete-button-2 = Desaniciar
@@ -176,8 +196,11 @@ cancel-display-name = Encaboxar
 recovery-key-cancel-button = Encaboxar
 recovery-key-close-button = Zarrar
 recovery-key-continue-button = Siguir
+recovery-key-page-title =
+    .title = Clave de recuperación
 recovery-key-step-1 = Pasu 1 de 2
 recovery-key-step-2 = Pasu 2 de 2
+recovery-key-success-alert = Creóse la clave de recuperación.
 
 ## Add secondary email page
 
@@ -189,6 +212,7 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Hebo un problema al unviar el códigu de verificación.
 verify-secondary-email-cancel-button = Encaboxar
 verify-secondary-email-verify-button = Verificar
 
@@ -203,6 +227,9 @@ tfa-step-3-3 = Pasu 3 de 3
 tfa-button-continue = Siguir
 tfa-button-cancel = Encaboxar
 tfa-button-finish = Finar
+tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
+tfa-cannot-verify-code = Hebo un problema al verificar el códigu de recuperación.
+tfa-enabled = Activóse l'autenticación en dos pasos
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 
 ##
@@ -210,6 +237,9 @@ tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 
 ## Profile section
 
+profile-heading = Perfil
+profile-picture =
+    .header = Semeya
 
 ##
 
@@ -224,11 +254,18 @@ security-heading = Seguranza
 ## Recovery key sub-section on main Settings page
 
 rk-header = Clave de recuperación
+rk-action-create = Crear
+rk-action-remove = Quitar
+rk-cannot-refresh = Sentímoslo, hebo un problema al refrescar la clave de recuperación.
+rk-key-removed = Quitóse la clave de recuperación de la cuenta.
+rk-cannot-remove-key = La clave de recuperación de la cuenta nun pudo quitase.
+rk-cannot-verify-session-2 = Sentímoslo, hebo un problema al verificar la sesión.
 rk-remove-modal-heading = Quitar la clave de recuperación?
 rk-refresh-error = Sentímoslo, hebo un problema al refrescar la clave de recuperación.
 
 ## Secondary email sub-section on main Settings page
 
+se-verify-session-error = Sentímoslo, hebo un problema al verificar la sesión.
 
 ##
 
@@ -239,7 +276,17 @@ tfa-row-header = Autenticación en dos pasos
 tfa-row-disabled = Desactivóse l'autenticación en dos pasos.
 tfa-row-button-refresh =
     .title = Refrescar l'autenticación en dos pasos
+tfa-row-cannot-verify-session-2 = Sentímoslo, hebo un problema al verificar la sesión.
+tfa-row-disable-modal-heading = ¿Desactivar l'autenticación en dos pasos?
+tfa-row-disable-modal-explain =
+    Nun vas ser a desfacer esta aición. Tamién
+    tienes la opción de <linkExternal>trocar los códigos de recuperación</linkExternal>.
+tfa-row-cannot-disable = L'autenticación en dos pasos nun pudo desactivase.
+tfa-row-change-modal-heading = ¿Camudar los códigos de recuperación?
 tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-103 = La contraseña ye incorreuta
+auth-error-110 = El pase nun ye válidu
+auth-error-1008 = La contraseña nueva ha ser diferente
