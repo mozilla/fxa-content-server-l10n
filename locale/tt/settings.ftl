@@ -73,6 +73,7 @@ bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-fire
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Мобиль җиһазыгызга { -brand-firefox } программасын урнаштырыгыз
 
 ##
 

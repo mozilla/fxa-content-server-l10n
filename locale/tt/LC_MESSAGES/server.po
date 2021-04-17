@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-07 00:57+0000\n"
-"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
+"PO-Revision-Date: 2021-04-17 17:50+0000\n"
+"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1344
 msgid "Set up next device"
-msgstr ""
+msgstr "Киләсе җиһазны көйләү"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -396,7 +396,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Квитанция номеры: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -673,7 +673,7 @@ msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(lastFour)s белән тәмамланучы %(cardType)s картасы"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -705,11 +705,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Язылудан баш тарту"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Язылулардан баш тарту"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -733,11 +733,11 @@ msgstr "Хоусыйлык аңлатмасы:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Язылудан баш тарту:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Язылулардан баш тарту:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -813,7 +813,7 @@ msgstr "Икенчел эл. почтаны раслау"
 
 #: lib/senders/email.js:1111
 msgid "Reset your password"
-msgstr ""
+msgstr "Серсүзегезне алыштырыгыз"
 
 #: lib/senders/email.js:1157 lib/senders/email.js:1227
 msgid "Password updated"
@@ -1026,8 +1026,8 @@ msgstr "Иң соңгы версиясен йөкләп алу"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</"
-#~ "a> өчен Firefox кулланмаларыннан да, керә аласыз."
+#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</a> "
+#~ "өчен Firefox кулланмаларыннан да, керә аласыз."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән Android һәм iOS өчен Firefox кулланмаларыннан да, керә аласыз."

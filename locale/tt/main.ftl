@@ -22,6 +22,7 @@ payment-error-retry-button = Янәдән тырышып карау
 
 ## settings
 
+settings-subscriptions-title = Язылулар
 
 ## legal footer
 
@@ -30,6 +31,8 @@ privacy = Хосусыйлык сәясәте
 
 ## Subscription titles
 
+subscription-success-title = Язылуны раслау
+subscription-processing-title = Язылуны раслау…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -111,6 +114,7 @@ reactivate-success-button = Ябу
 ## $period (Date) - The last day of product access
 
 sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
+sub-item-cancel-sub = Язылудан баш тарту
 
 ## subscription route index
 
