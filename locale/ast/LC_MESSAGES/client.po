@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 17:53+0000\n"
+"PO-Revision-Date: 2021-04-17 17:56+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -1118,7 +1118,7 @@ msgstr "Al siguir, aceutes los <a id=\"fxa-tos\" href=\"/legal/terms\">términos
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
-msgstr "¿Escaeciesti la contraseña"
+msgstr "¿Escaeciesti la contraseña?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
@@ -1354,7 +1354,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
-msgstr ""
+msgstr "Usar otra cuenta"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
