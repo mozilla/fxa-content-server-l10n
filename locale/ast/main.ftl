@@ -17,7 +17,10 @@ document =
 
 ## app error dialog
 
+general-error-heading = Fallu xeneral de l'aplicación
 basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por favor.
+payment-error-3b = Asocedió un fallu inesperáu mentanto se procesaba'l pagu, volvi tentalo.
+coupon-expired = Paez que'l códigu de promoción caducó.
 
 ## settings
 
@@ -30,6 +33,8 @@ privacy = Avisu de privacidá
 
 ## Subscription titles
 
+subscription-processing-title = Confirmando la soscripción…
+subscription-error-title = Hebo un fallu al confirmar la soscripción…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -37,12 +42,18 @@ privacy = Avisu de privacidá
 
 ## Product route
 
+product-profile-error =
+    .title = Hebo un problema al cargar el perfil
 
 ## payment legal blurb
 
 
 ## payment form
 
+payment-ccn =
+    .label = Númberu de la tarxeta
+payment-exp =
+    .label = Caducidá
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
