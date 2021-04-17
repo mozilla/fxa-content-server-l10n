@@ -63,6 +63,7 @@ bento-menu-firefox-title = { -brand-firefox } ye teunoloxía que llucha pola to 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 
 ## Connect another device promo
 
@@ -167,6 +168,7 @@ avatar-page-zoom-in-button =
     .title = Averar
 avatar-page-rotate-button =
     .title = Voltiar
+avatar-page-camera-error = Nun pudo aniciase la cámara
 avatar-page-new-avatar =
     .alt = semeya del perfil nueva
 avatar-page-file-upload-error-2 = Hebo un problema al xubir la semeya del perfil.

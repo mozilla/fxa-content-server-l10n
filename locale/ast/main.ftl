@@ -103,6 +103,24 @@ sub-plan-price-day =
         [one] { $amount } caldía
        *[other] { $amount } cada { $intervalCount } díes
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } selmanalmente
+       *[other] { $amount } cada { $intervalCount } selmanes
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensualmente
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } añalmente
+       *[other] { $amount } cada { $intervalCount } años
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
@@ -121,9 +139,12 @@ sub-plan-price-day =
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing-msg = Volvi tentalo dempués, por favor.
 
 ## subscription route index
 
+sub-subscription-error =
+    .title = Hebo un problema al cargar les soscripciones
 
 ## subscription create
 
@@ -133,9 +154,36 @@ sub-plan-price-day =
 
 ## payment-processing
 
+payment-processing-message = Espera mentanto procesamos el pagu…
 
 ## payment confirmation
 
+payment-confirmation-alert = Calca equí pa baxar
+payment-confirmation-thanks-heading = ¡Gracies!
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } caldía
+       *[other] { $amount } cada { $intervalCount } díes
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } selmanalmente
+       *[other] { $amount } cada { $intervalCount } selmanes
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } mensualmente
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } añalmente
+       *[other] { $amount } cada { $intervalCount } años
+    }
