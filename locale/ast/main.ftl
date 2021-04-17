@@ -69,10 +69,40 @@ payment-cancel-btn = Encaboxar
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } caldía
+       *[other] { $amount } cada { $intervalCount } díes
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } selmanalmente
+       *[other] { $amount } cada { $intervalCount } selmanes
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensualmente
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } añalmente
+       *[other] { $amount } cada { $intervalCount } años
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } caldía
+       *[other] { $amount } cada { $intervalCount } díes
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
