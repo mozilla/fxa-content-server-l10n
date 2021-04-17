@@ -77,6 +77,7 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Servicios coneutaos
+cs-description = Tolo que tas usando y no qu'aniciesti sesión.
 cs-cannot-refresh =
     Sentímoslo, hebo un fallu al refrescar la llista de servicios
     conectaos.
