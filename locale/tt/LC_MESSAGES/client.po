@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 17:31+0000\n"
+"PO-Revision-Date: 2021-04-17 17:41+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -615,7 +615,7 @@ msgstr "Теркәлү өчен, яшегезне күрсәтүегез кир�
 
 #: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Теркәлү өчен, дөрес яшьне күрсәтүегез кирәк"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
@@ -679,11 +679,11 @@ msgstr "Коткару ачкычы кирәк"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Зинһар, раслау кодын кертегез"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Яраксыз юнәлтү"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
@@ -940,7 +940,7 @@ msgstr ""
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Бу җиһазны синхронламау"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "6-цифрлы кодны кертегез"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
@@ -1155,7 +1155,7 @@ msgstr "Бастыру"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Урнаштырудан баш тарту"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Аутентификация кодын сканерлау"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
-msgstr ""
+msgstr "Иминлек коды"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
@@ -1312,15 +1312,15 @@ msgstr "Башлангыч халәтенә кайтаруны башлау"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Соңгы гамәлләр"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Иминлеккә бәйле вакыйгалар"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Вакыйга исеме"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
@@ -1332,7 +1332,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Вакыйгаларны бетерү"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
@@ -1368,7 +1368,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "10-цифрлы коткару кодын кертегез"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1460,15 +1460,15 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
-msgstr ""
+msgstr "Хәзер түгел"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "SMS-хәбәрләрегезне тикшерегез"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Без сезгә SMS җибәрдек"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1496,11 +1496,11 @@ msgstr "Firefox Хисаплары"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Хисапның баш бите"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
-msgstr ""
+msgstr "Язылулар"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
@@ -1601,11 +1601,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Башка бер эл. почта кулланыгыз"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Зинһар, серсүзегезне үзгәртегез"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
@@ -1654,7 +1654,7 @@ msgstr "Җиһаз тоташтырылды!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Башка бер җиһазны тоташтыру"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
