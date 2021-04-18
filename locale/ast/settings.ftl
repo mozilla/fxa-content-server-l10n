@@ -256,6 +256,7 @@ tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
 tfa-cannot-verify-code = Hebo un problema al verificar el códigu de recuperación.
 tfa-enabled = Activóse l'autenticación en dos pasos
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
+tfa-enter-totp = Agora introduz el códigu de seguranza de l'aplicación d'autenticación.
 
 ##
 
@@ -296,6 +297,7 @@ rk-refresh-error = Sentímoslo, hebo un problema al refrescar la clave de recupe
 se-cannot-resend-code = Sentímoslo, hebo un problema al volver unviar el códigu de verificación.
 se-verify-session = Tienes de verificar la sesión actual pa facer esta aición.
 se-verify-session-error = Sentímoslo, hebo un problema al verificar la sesión.
+se-unverified = ensin verificar
 
 ##
 
@@ -307,6 +309,12 @@ tfa-row-disabled = Desactivóse l'autenticación en dos pasos.
 tfa-row-not-set = Nun s'afitó
 tfa-row-button-refresh =
     .title = Refrescar l'autenticación en dos pasos
+tfa-row-cannot-refresh =
+    Sentímoslo, hebo un problema al refrescar
+    l'autenticación en dos pasos.
+tfa-row-content-explain =
+    Evita que daquién más anicie sesión pidiendo un
+    códigu únicu que namás sabes tu.
 tfa-row-cannot-verify-session-2 = Sentímoslo, hebo un problema al verificar la sesión.
 tfa-row-disable-modal-heading = ¿Desactivar l'autenticación en dos pasos?
 tfa-row-disable-modal-explain =
