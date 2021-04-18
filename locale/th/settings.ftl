@@ -64,6 +64,7 @@ avatar-your-avatar =
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -319,12 +320,6 @@ tfa-row-action-add = เพิ่ม
 tfa-row-action-disable = ปิดใช้งาน
 tfa-row-disable-modal-confirm = ปิดใช้งาน
 tfa-row-change-modal-confirm = เปลี่ยน
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = ภาพ
-avatar-add-link = เพิ่ม
-avatar-change-link = เปลี่ยน
 
 ## Auth-server based errors that originate from backend service
 
