@@ -56,6 +56,7 @@ subscription-create-title = Preparation de tu subscription
 subscription-success-title = Confirmation del subscription
 subscription-processing-title = Confirmation del subscription…
 subscription-error-title = Error in confirmation de subscription…
+subscription-noupgrade-title = Le cambiamentos de nivello de subscription non es supportate
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
