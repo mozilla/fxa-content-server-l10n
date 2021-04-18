@@ -30,6 +30,7 @@ payment-error-manage-subscription-button = Gerer mi subscription
 country-currency-mismatch = Le moneta de iste subscription non es valide pro le pais associate con tu pagamento.
 currency-currency-mismatch = Desolate. Tu non pote cambiar inter monetas.
 returning-paypal-customer-error = Desolate. Actualmente, tu pote solo inscriber te a un sol subscription cata vice. Retenta tosto.
+no-subscription-upgrades = Desolate. Tu non pote promover, ni degradar, tu subscription a iste tempore. Retenta tosto.
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
