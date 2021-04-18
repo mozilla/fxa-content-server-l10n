@@ -64,6 +64,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menu Bento de { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vita private in linea.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
@@ -189,6 +190,7 @@ header-help = Adjuta
 input-password-hide = Celar contrasigno
 input-password-show = Monstrar contrasigno
 input-password-hide-aria = Celar le contrasigno ab le schermo.
+input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
 
 ## Modal
 
@@ -199,6 +201,10 @@ modal-cancel-button = Cancellar
 
 mvs-verify-your-email = Verifica tu email
 mvs-enter-verification-code = Insere tu codice de verification
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Insere le codice de verification que es inviate a <e-mail>{ $email }</e-mail> intra 5 minutas.
 msv-cancel-button = Cancellar
 msv-submit-button = Verificar
 

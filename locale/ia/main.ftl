@@ -338,6 +338,7 @@ sub-billing-update-success = Tu informationes de facturation ha essite  actualis
 sub-route-payment-modal-heading = Informationes de facturation non valide
 sub-route-payment-modal-message = Il pare esser un error con tu conto de { -brand-name-paypal }, nos besonia que tu face le passos necessari pro resolver iste problema de pagamento.
 sub-route-missing-billing-agreement-payment-alert = Informationes de pagamento non valide; il ha un error con tu conto. <div>Gerer</div>
+sub-route-funding-source-payment-alert = Informationes de pagamento non valide; il ha un error con tu conto. Iste aviso pote prender alcun tempore pro clarar se post que tu actualisara con successo tu informationes. <div>Gerer</div>
 pay-update-manage-btn = Gerer
 
 ## subscription create
