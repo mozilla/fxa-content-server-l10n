@@ -346,8 +346,9 @@ sub-customer-error =
     .title = Problema al cargar el cliente
 sub-billing-update-success = Tu información de facturación ha sido actualizada correctamente
 sub-route-payment-modal-heading = Información de facturación no válida
-sub-route-payment-modal-copy = Parece haber un error con tu cuenta de { -brand-name-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
-sub-route-invalid-payment = Información de pago no válida, hay un error con tu cuenta. <div>Administrar</div>
+sub-route-payment-modal-message = Parece haber un error con tu cuenta de { -brand-name-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
+sub-route-missing-billing-agreement-payment-alert = Información de pago no válida, hay un error con tu cuenta. <div>Administrar</div>
+sub-route-funding-source-payment-alert = Información de pago no válida; hay un error con tu cuenta. Puede pasar un tiempo antes de que esta alerta desaparezca, aunque hayas actualizado correctamente la información. <div>Administrar</div>
 pay-update-manage-btn = Administrar
 
 ## subscription create

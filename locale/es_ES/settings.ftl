@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Cerrar mensaje
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -158,6 +162,10 @@ drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</us
 drop-down-menu-sign-out = Cerrar sesión
 drop-down-menu-sign-out-error = Lo sentimos, ha surgido un problema al cerrar tu sesión.
 
+## Flow Container
+
+flow-container-back = Atrás
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperación
@@ -176,6 +184,13 @@ header-back-to-top-link =
     .title = Volver arriba
 header-title = { -product-firefox-accounts }
 header-help = Ayuda
+
+## Input Password
+
+input-password-hide = Ocultar contraseña
+input-password-show = Mostrar contraseña
+input-password-hide-aria = Ocultar la contraseña de la pantalla.
+input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
 
 ## Modal
 
@@ -225,7 +240,7 @@ avatar-page-remove-photo = Eliminar foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Volver a tomar foto
-avatar-page-close-button = Cerrar
+avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = Guardando…
 avatar-page-zoom-out-button = Reducir
@@ -283,7 +298,6 @@ delete-account-chk-box-3 =
     .label = La reactivación de este correo no implica recuperar la información guardada
 delete-account-chk-box-4 =
     .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org se eliminará
-delete-account-close-button = Cerrar
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Introducir contraseña
@@ -400,6 +414,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Perfil
+profile-picture =
+    .header = Imagen
 profile-display-name =
     .header = Nombre para mostrar
 profile-password =
@@ -508,12 +524,6 @@ tfa-row-cannot-disable = La autenticación en dos pasos no ha podido ser desacti
 tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = No podrás deshacer esta acción.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Imagen
-avatar-add-link = Añadir
-avatar-change-link = Cambiar
 
 ## Auth-server based errors that originate from backend service
 
