@@ -98,6 +98,9 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-stripe }와 { -brand-name-paypal }을 사용합니다.
 payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인정보 보호 정책</stripePrivacyLink>과 <paypalPrivacyLink>{ -brand-name-paypal } 개인정보 보호 정책</paypalPrivacyLink>을 확인하세요.
 payment-legal-copy-paypal = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-paypal }을 사용합니다.
+payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } 개인 정보 보호 정책</paypalPrivacyLink>을 확인하세요.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }를 사용합니다.
+payment-legal-link-stripe-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인 정보 보호 정책</stripePrivacyLink>을 확인하세요.
 
 ## payment form
 
@@ -163,6 +166,7 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 product-plan-upgrade-heading = 업그레이드 사항 검토
 sub-update-failed = 업데이트 계획 실패
+sub-update-payment-title = 결제 정보
 sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     요금제가 즉시 변경되며 조정 된 요금이 청구됩니다.
@@ -343,6 +347,7 @@ plan-details-total-label = 전체
 
 payment-confirmation-alert = 다운로드하기
 payment-confirmation-mobile-alert = 앱을 열지 않았습니까? <a>자세히 보기</a>
+payment-confirmation-thanks-heading = 감사합니다!
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
