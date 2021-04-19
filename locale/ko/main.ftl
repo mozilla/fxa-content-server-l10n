@@ -8,6 +8,8 @@
 project-brand = Firefox 계정
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox 계정
 
@@ -22,6 +24,13 @@ general-error-heading = 일반 응용 프로그램 오류
 basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 payment-error-1 = 결제를 승인하는 동안 문제가 발생했습니다. 다시 시도하거나 카드사에 연락하세요.
 payment-error-2 = 결제를 승인하는 동안 문제가 발생했습니다. 카드사에 연락하세요.
+payment-error-3b = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
+payment-error-retry-button = 다시 시도하세요
+payment-error-manage-subscription-button = 내 구독 관리
+country-currency-mismatch = 이 구독의 통화는 결제한 국가에서 유효하지 않습니다.
+currency-currency-mismatch = 죄송합니다. 통화간의 전환을 할 수 없습니다.
+returning-paypal-customer-error = 죄송합니다. 지금은 한 번에 하나의 구독에만 가입할 수 있습니다. 나중에 다시 확인하시기 바랍니다.
+no-subscription-upgrades = 죄송합니다. 현재는 구독을 업그레이드나 다운그레이드할 수 없습니다. 다시 확인해주시기 바랍니다.
 expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 insufficient-funds-error = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 withdrawal-count-limit-exceeded-error = 이 거래로 신용 한도를 초과한 것으로 보입니다. 다른 카드를 사용해보세요.
@@ -41,10 +50,10 @@ settings-subscriptions-title = 구독 정보
 terms = 서비스 약관
 privacy = 개인정보처리방침
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = 구독 설정 시작
-product-plan-details-heading = 구독 설정 시작
+subscription-create-title = 구독 설정
+subscription-success-title = 구독 확인
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -83,8 +92,6 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 
 ## payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 Stripe와 Paypal을 사용합니다.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>Stripe 개인정보 보호 정책</stripePrivacyLink>과 <paypalPrivacyLink>Paypal 개인정보 보호 정책</paypalPrivacyLink>을 확인하세요.
 
 ## payment form
 
@@ -150,8 +157,6 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 product-plan-upgrade-heading = 업그레이드 사항 검토
 sub-update-failed = 업데이트 계획 실패
-sub-update-title = 청구 정보
-sub-update-card-ending = 카드 끝자리 번호 { $last }
 sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     요금제가 즉시 변경되며 조정 된 요금이 청구됩니다.
@@ -325,13 +330,13 @@ plan-details-show-button = 상세 정보 보기
 plan-details-hide-button = 상세 내용 숨기기
 plan-details-total-label = 전체
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = 다운로드하기
 payment-confirmation-mobile-alert = 앱을 열지 않았습니까? <a>자세히 보기</a>
-payment-confirmation-heading = { $displayName }님 감사합니다!
-payment-confirmation-heading-bak = 감사합니다!
-payment-confirmation-subheading = 확인 이메일 발송 완료
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
@@ -360,5 +365,4 @@ payment-confirmation-amount-year =
     { $intervalCount ->
        *[other] { $amount } 매 { $intervalCount } 년마다
     }
-payment-confirmation-cc-preview = 카드 끝자리 { $last4 }
 payment-confirmation-download-button = 다운로드 계속 하기
