@@ -92,6 +92,7 @@ cs-description = Alt du brukar og er innlogga på.
 cs-logged-out = Logga ut av { $service }.
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
+cs-disconnect-sync-heading = Kople frå Sync
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -324,6 +325,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Bilde
 profile-display-name =
     .header = Visingsnamn
 profile-password =
@@ -355,6 +358,7 @@ rk-header = Gjenopprettingsnøkkel
 rk-enabled = Slått på
 rk-action-create = Opprett
 rk-action-remove = Fjern
+rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
 
 ## Secondary email sub-section on main Settings page
 
@@ -377,12 +381,6 @@ tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-change-modal-confirm = Endre
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Bilde
-avatar-add-link = Legg til
-avatar-change-link = Endre
 
 ## Auth-server based errors that originate from backend service
 

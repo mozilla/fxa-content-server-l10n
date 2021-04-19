@@ -47,6 +47,7 @@ privacy = Personvernerklæring
 
 ## Subscription titles
 
+subscription-create-title = Set opp abonnementet ditt
 subscription-success-title = Stadfesting av abonnement
 subscription-processing-title = Stadfestar abonnementet…
 subscription-error-title = Feil ved stadfesting av abonnementet…
@@ -333,7 +334,6 @@ sub-customer-error =
     .title = Problem med å laste inn kunde
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
 sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
-sub-route-invalid-payment = Ugyldig betalingsinformation - det er ein feil med kontoen din.<div>Handter</div>
 pay-update-manage-btn = Handter
 
 ## subscription create
