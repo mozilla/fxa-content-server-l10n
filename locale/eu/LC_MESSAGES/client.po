@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-19 11:22+0000\n"
+"PO-Revision-Date: 2021-04-19 11:25+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1121,7 +1121,7 @@ msgstr "Pasahitza"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Jarraituz gero, <a id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a>eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
@@ -1143,7 +1143,7 @@ msgstr "Gorde berreskuratze-kodeak"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Gorde erabilpen bakarreko kode hauek toki seguru batean, gailu mugikorrik alboan ez duzunean erabil ahal ditzazun."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1160,11 +1160,11 @@ msgstr "Inprimatu"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Utzi konfigurazioa"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Berretsi berreskuratze-kodea"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1180,7 +1180,7 @@ msgstr "Berretsi"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Gaitu bi urratseko autentifikazioa"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1188,7 +1188,7 @@ msgstr "Gehitu segurtasun geruza bat zure kontuari segurtasun kode bat eskatuz o
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Eskaneatu autentifikazio-kodea"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1212,7 +1212,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Eskaneatu QR kodea horren ordez?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1327,7 +1327,7 @@ msgstr "Segurtasun-gertaerak"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Gertaera-izena"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
@@ -1335,7 +1335,7 @@ msgstr "Egiaztatuta"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Sortze-data"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
@@ -1423,7 +1423,7 @@ msgstr "Sortu Firefoxen kontua"
 
 #: .es5/templates/sign_up_password.mustache:3
 msgid "Change email"
-msgstr ""
+msgstr "Aldatu helbide elektronikoa"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "Repeat password"

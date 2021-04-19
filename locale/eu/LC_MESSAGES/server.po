@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2018-12-24 20:53+0000\n"
-"Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
+"PO-Revision-Date: 2021-04-19 11:32+0000\n"
+"Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -197,23 +197,23 @@ msgstr ""
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Bi urratseko autentifikazioa gaituta"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Ondo gaitu duzu bi urratseko autentifikazioa ondorengo gailuko Firefox kontuan:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Hemendik aurrera, zure autentifikazio-aplikazioko segurtasun-kodeak beharko dira saioa hasteko."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Ondo gaitu duzu bi urratseko autentifikazioa zure Firefox kontuan. Hemendik aurrera, zure autentifikazio-aplikazioko segurtasun-kodeak beharko dira saioa hasteko."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Helbide elektroniko nagusi berria"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -313,15 +313,15 @@ msgstr ""
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
-msgstr ""
+msgstr "Pasahitza berrezarri beharra daukazu?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Hurrengo orduan egin klik botoian pasahitz berria sortzeko. Eskaera ondorengo gailutik etorri da:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1112
 msgid "Create new password"
-msgstr ""
+msgstr "Sortu pasahitz berria"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -718,11 +718,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "Lege-oharra"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "Pribatutasuna"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -730,7 +730,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Pribatutasun-oharra:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
@@ -774,23 +774,23 @@ msgstr ""
 
 #: lib/senders/email.js:559 lib/senders/email.js:688
 msgid "Confirm email"
-msgstr ""
+msgstr "Berretsi helbide elektronikoa"
 
 #: lib/senders/email.js:626
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Egiaztapen-kodea: %(code)s"
 
 #: lib/senders/email.js:668
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Oroigarria: amaitu zure kontua sortzen"
 
 #: lib/senders/email.js:670
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Azken oroigarria: aktibatu zure kontua"
 
 #: lib/senders/email.js:725
 msgid "Account authorization code"
-msgstr ""
+msgstr "Kontuaren egiaztapen-kodea"
 
 #: lib/senders/email.js:798
 msgid "Confirm new sign-in to %(clientName)s"
@@ -1046,15 +1046,15 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Orain saioa hasi dezakezu Sync-en zure beste gailuetan, <a href='%(androidUrl)s'>Androiderako</a> eta<a href='%(iosUrl)s'>iOS-erako</"
-#~ "a> Firefox baita."
+#~ "Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Orain saioa hasi dezakezu Sync-en zure beste gailuetan, <a href='%(androidUrl)s'>Androiderako</a> eta<a href='%(iosUrl)s'>iOS-erako</a> "
+#~ "Firefox baita."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Sync-i bere onena ateratzeko konektatu <a href='%(androidUrl)s'>Firefox Androiderako</a> edo <a href='%(iosUrl)s'>Firefox iOS-erako</"
-#~ "a> gailuekin."
+#~ "Arrakastaz lotu duzu zure lehen gailua Firefox kontuarekin. Sync-i bere onena ateratzeko konektatu <a href='%(androidUrl)s'>Firefox Androiderako</a> edo <a href='%(iosUrl)s'>Firefox iOS-erako</a> "
+#~ "gailuekin."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Hasi saioa Sync-en"
