@@ -312,33 +312,111 @@ tfa-enabled = Bi urratseko autentifikazioa gaituta
 tfa-scan-this-code =
     Eskaneatu QR kode hau <linkExternal>hauetako autentifikazio-aplikazio
     bat</linkExternal> erabiliz.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Erabili { $secret } kodea bi urratseko autentifikazioa konfiguratzeko
+    euskarria duten aplikazioetan.
+tfa-button-cant-scan-qr = Ezin duzu kodea eskaneatu?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
+tfa-enter-totp = Orain idatzi autentifikazio-aplikazioko segurtasun-kodea.
+tfa-input-enter-totp =
+    .label = Idatzi segurtasun-kodea
+tfa-save-these-codes =
+    Gorde erabilpen bakarreko kode hauek toki seguru batean,
+    gailu mugikorrik alboan ez duzunean erabil ahal ditzazun.
+tfa-enter-recovery-code =
+    .label = Idatzi berreskuratze-kodea
 
 ##
 
 
 ## Profile section
 
+profile-heading = Profila
+profile-picture =
+    .header = Irudia
+profile-display-name =
+    .header = Bistaratzeko izena
+profile-password =
+    .header = Pasahitza
+profile-primary-email =
+    .header = Helbide elektroniko nagusia
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Segurtasuna
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Gehitu
+row-defaults-action-change = Aldatu
+row-defaults-action-disable = Desgaitu
+row-defaults-status = Bat ere ez
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Berreskuratze-gakoa
+rk-enabled = Gaituta
+rk-not-set = Ezarri gabe
+rk-action-create = Sortu
+rk-action-remove = Kendu
+rk-cannot-refresh = Barkatu, arazoa egon zure berreskuratze-gakoa berritzean.
+rk-key-removed = Kontuaren berreskuratze-gakoa kenduta.
+rk-cannot-remove-key = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
+rk-refresh-key = Berritu berreskuratze-gakoa
+rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
+rk-content-reset-data = Zergatik berrezartzen dira nire datuak pasahitza berrezartzearekin batera?
+rk-cannot-verify-session-2 = Barkatu, arazoa egon da zure saioa egiaztatzean.
+rk-remove-modal-heading = Berreskuratze-gakoa kendu?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Ordezko helbide elektronikoa
+    .header = Ordezko helbide elektronikoa
+# Button to remove the secondary email
+se-remove-email =
+    .title = Kendu helbide elektronikoa
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Berritu helbide elektronikoa
+se-unverified = egiaztatu gabea
+se-resend-code =
+    Egiaztapena behar da. <button>Birbidali egiaztapen-kodea</button>
+    ez baduzu zure sarrera-ontzian edo spam karpetan aurkitzen.
+# Button to make secondary email the primary
+se-make-primary = Bihurtu nagusi
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Bi urratseko autentifikazioa
+tfa-row-disabled = Bi urratseko autentifikazioa desgaituta.
+tfa-row-enabled = Gaituta
+tfa-row-not-set = Ezarri gabe
+tfa-row-action-add = Gehitu
+tfa-row-action-disable = Desgaitu
+tfa-row-button-refresh =
+    .title = Berritu bi urratseko autentifikazioa
+tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
+tfa-row-disable-modal-confirm = Desgaitu
+tfa-row-cannot-disable = Ezin izan da bi urratseko autentifikazioa desgaitu.
+tfa-row-change-modal-heading = Aldatu berreskuratze-kodeak?
+tfa-row-change-modal-confirm = Aldatu
+tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Kontu ezezaguna
+auth-error-103 = Pasahitz okerra
+auth-error-110 = Token baliogabea
+auth-error-138 = Egiaztatu gabeko saioa
+auth-error-155 = Ez da TOTP tokena aurkitu
+auth-error-1008 = Pasahitz berriak desberdina izan behar du

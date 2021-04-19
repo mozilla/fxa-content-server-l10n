@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-19 11:33+0000\n"
+"PO-Revision-Date: 2021-04-19 12:04+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1539,11 +1539,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Eman iritzia / eskatu eginbideak"
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Zerrendatu gabea"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
