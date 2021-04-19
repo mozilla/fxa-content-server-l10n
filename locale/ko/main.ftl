@@ -54,6 +54,9 @@ privacy = 개인정보처리방침
 
 subscription-create-title = 구독 설정
 subscription-success-title = 구독 확인
+subscription-processing-title = 구독 확인 중…
+subscription-error-title = 구독 확인 오류...
+subscription-noupgrade-title = 구독 티어 변경은 지원되지 않습니다.
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -92,6 +95,9 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-stripe }와 { -brand-name-paypal }을 사용합니다.
+payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인정보 보호 정책</stripePrivacyLink>과 <paypalPrivacyLink>{ -brand-name-paypal } 개인정보 보호 정책</paypalPrivacyLink>을 확인하세요.
+payment-legal-copy-paypal = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-paypal }을 사용합니다.
 
 ## payment form
 
