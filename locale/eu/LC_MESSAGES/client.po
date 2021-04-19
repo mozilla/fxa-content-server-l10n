@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 22:07+0000\n"
-"PO-Revision-Date: 2021-04-19 11:25+0000\n"
+"PO-Revision-Date: 2021-04-19 11:33+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -367,7 +367,7 @@ msgstr "Eskaera blokeatu egin da segurtasun-arrazoiak tarteko"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
-msgstr "Egiaztapen-kode baliogabea"
+msgstr "Baimen-kode baliogabea"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Invalid phone number"
@@ -1411,11 +1411,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
+msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako baimen-koderako."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "Idatzi egiaztapen-kodea"
+msgstr "Idatzi baimen-kodea"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Create a Firefox Account"

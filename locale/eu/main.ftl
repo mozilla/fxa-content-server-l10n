@@ -8,16 +8,21 @@
 project-brand = Firefoxeko kontuak
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefoxeko kontuak
 
 ## general-aria
 
+close-aria =
+    .aria-label = Itxi leiho modala
 
 ## app error dialog
 
 general-error-heading = Aplikazioaren errore orokorra
 basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
 ## settings
 
@@ -28,7 +33,7 @@ settings-subscriptions-title = Harpidetzak
 terms = Zerbitzuaren baldintzak
 privacy = Pribatutasun-oharra
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -116,6 +121,9 @@ payment-zip =
 
 
 ## plan-details
+
+
+## payment-processing
 
 
 ## payment confirmation
