@@ -416,6 +416,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Mba'ete
+profile-picture =
+    .header = Ta’ãnga
 profile-display-name =
     .header = Téra ehechauka hag̃ua
 profile-password =
@@ -526,12 +528,6 @@ tfa-row-cannot-disable = Ñemoneĩ mokõi jeku’egua ndaikatúi eipe’ávo.
 tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Avara’ãnga
-avatar-add-link = Mbojuaju
-avatar-change-link = Moambue
 
 ## Auth-server based errors that originate from backend service
 
