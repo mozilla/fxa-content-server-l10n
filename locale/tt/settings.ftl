@@ -86,6 +86,9 @@ cs-heading = Тоташтырылган Хезмәтләр
 ## device
 
 cs-disconnect-sync-opt-prefix = Җиһаз:
+cs-disconnect-sync-opt-suspicious = Шикле
+cs-disconnect-sync-opt-lost = Югалган яки урланган
+cs-disconnect-sync-opt-old = Иске яки алыштырылган
 
 ##
 
