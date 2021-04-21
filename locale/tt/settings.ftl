@@ -89,10 +89,12 @@ cs-disconnect-sync-opt-prefix = Җиһаз:
 cs-disconnect-sync-opt-suspicious = Шикле
 cs-disconnect-sync-opt-lost = Югалган яки урланган
 cs-disconnect-sync-opt-old = Иске яки алыштырылган
+cs-disconnect-sync-opt-duplicate = Кабатланган
 
 ##
 
 cs-disconnect-advice-confirm = Яхшы, аңладым
+cs-disconnect-lost-advice-heading = Югалган яки урланган җиһаз өзелде
 cs-disconnect-suspicious-advice-heading = Шикле җиһаз тоташкан
 cs-sign-out-button = Чыгу
 
@@ -329,6 +331,7 @@ rk-enabled = Кабызылган
 rk-action-create = Булдыру
 rk-action-remove = Бетерү
 rk-key-removed = Хисапны коткару ачкычы бетерелде.
+rk-remove-modal-heading = Коткару ачкычы бетерелсенме?
 
 ## Secondary email sub-section on main Settings page
 
@@ -354,12 +357,15 @@ se-unverified = расланмаган
 tfa-row-header = Ике адымлы аутентификация
 tfa-row-disabled = Ике адымлы аутентификация сүндерелде.
 tfa-row-enabled = Кабызылган
+tfa-row-not-set = Көйләнмәгән
 tfa-row-action-add = Өстәү
 tfa-row-action-disable = Cүндерү
 tfa-row-button-refresh =
     .title = Ике адымлы аутентификацияне яңарту
+tfa-row-disable-modal-heading = Ике адымлы аутентификация сүндерелсенме?
 tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-cannot-disable = Ике адымлы аутентификацияне сүндереп булмады.
+tfa-row-change-modal-heading = Коткару кодлары үзгәрсенме?
 tfa-row-change-modal-confirm = Үзгәртү
 
 ## Auth-server based errors that originate from backend service
