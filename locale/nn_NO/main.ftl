@@ -347,7 +347,7 @@ pay-with-heading-card-only = Betal med kort
 
 plan-details-header = Produktdetaljar
 plan-details-show-button = Vis detaljar
-plan-details-hide-button = Skjul detaljar
+plan-details-hide-button = Gøym detaljar
 plan-details-total-label = Totalt
 
 ## payment-processing

@@ -155,7 +155,7 @@ header-help = Hjelp
 
 input-password-hide = Gøym passord
 input-password-show = Vis passord
-input-password-hide-aria = Skjul passord frå skjermen.
+input-password-hide-aria = Gøym passord frå skjermen.
 
 ## Modal
 
