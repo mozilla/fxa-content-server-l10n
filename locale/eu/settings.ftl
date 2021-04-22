@@ -70,6 +70,18 @@ cs-refresh-button =
     .title = Berritu konektatutako zerbitzuak
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Faltan edo bikoiztuta dauden elementuak?
+cs-disconnect-sync-heading = Deskonektatu sinkronizaziotik
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Zure nabigazio-datuak gailu honetan ({ $device }) mantenduko
+    dira baina hemendik aurrera ez dira zure kontuarekin sinkronizatuko.
+cs-disconnect-sync-reason =
+    Zein da gailu honetatik deskonektatzeko
+    arrazoi nagusia?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -102,6 +114,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } menua
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -164,6 +177,11 @@ nav-paid-subs = Ordainpeko harpidetzak
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Arazoa egon da zure berreskuratze-kodeak ordezkatzean.
+tfa-replace-code-success =
+    Kode berria sortu dira. Gorde erabilera bakarreko kode hauek
+    toki seguru batean — zure kontura sartzeko beharko dituzu zure gailu
+    mugikorra ez baduzu.
 tfa-replace-code-success-alert = Kontuaren berreskuratze-kodeak eguneratuta.
 
 ## Avatar change page
@@ -229,6 +247,8 @@ pw-change-success-alert = Pasahitza eguneratuta.
 
 delete-account-header =
     .title = Ezabatu kontua
+delete-account-chk-box-4 =
+    .label = addons.mozilla.org gunean argitaratu duzun edozein hedapen eta itxura ezabatu egingo da
 delete-account-continue-button = Jarraitu
 delete-account-password-input =
     .label = Idatzi pasahitza

@@ -22,10 +22,12 @@ close-aria =
 
 general-error-heading = Aplikazioaren errore orokorra
 basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+payment-error-retry-button = Saiatu berriro
 payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
 ## settings
 
+settings-home = Kontuaren hasiera-orria
 settings-subscriptions-title = Harpidetzak
 
 ## legal footer
@@ -72,12 +74,18 @@ payment-zip =
 
 ##
 
+payment-cancel-btn = Utzi
+payment-update-btn = Eguneratu
+payment-pay-btn = Ordaindu orain
+payment-validate-name-error = Idatzi zure izena
 
 ## subscription redirect
 
 
 ## fields
 
+default-input-error = Eremu hau beharrezkoa da
+input-error-is-required = { $label } beharrezkoa da
 
 ## subscription upgrade
 
@@ -108,6 +116,7 @@ payment-zip =
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Itxi
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
@@ -131,3 +140,4 @@ payment-zip =
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Jarraitu deskargara
