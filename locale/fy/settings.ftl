@@ -416,6 +416,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profyl
+profile-picture =
+    .header = Ofbylding
 profile-display-name =
     .header = Werjeftenamme
 profile-password =
@@ -526,12 +528,6 @@ tfa-row-cannot-disable = Autentikaasje yn twa stappen koe net útskeakele wurde.
 tfa-row-change-modal-heading = Werstelkoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Ofbylding
-avatar-add-link = Tafoegje
-avatar-change-link = Wizigje
 
 ## Auth-server based errors that originate from backend service
 
