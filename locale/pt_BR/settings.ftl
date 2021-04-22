@@ -112,7 +112,7 @@ cs-disconnect-sync-opt-prefix = O dispositivo:
 cs-disconnect-sync-opt-suspicious = É suspeito
 cs-disconnect-sync-opt-lost = Foi perdido ou roubado
 cs-disconnect-sync-opt-old = É antigo ou foi substituído
-cs-disconnect-sync-opt-duplicate = É duplicado
+cs-disconnect-sync-opt-duplicate = Está duplicado
 cs-disconnect-sync-opt-not-say = Prefiro não dizer
 
 ##
