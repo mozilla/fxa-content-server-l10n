@@ -395,6 +395,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Gorde erabilpen bakarreko kode hauek toki seguru batean,
     gailu mugikorrik alboan ez duzunean erabil ahal ditzazun.
+tfa-enter-code-to-confirm =
+    Idatzi zure berreskuratze-kodeetako bat orain
+    gorde egin duzula berresteko. Kodea beharko duzu gailua galdu eta
+    kontura sartu nahi baduzu.
 tfa-enter-recovery-code =
     .label = Idatzi berreskuratze-kodea
 
@@ -446,11 +450,30 @@ rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
 rk-content-reset-data = Zergatik berrezartzen dira nire datuak pasahitza berrezartzearekin batera?
 rk-cannot-verify-session-2 = Barkatu, arazoa egon da zure saioa egiaztatzean.
 rk-remove-modal-heading = Berreskuratze-gakoa kendu?
+rk-remove-modal-content =
+    Pasahitza berrezartzen baduzu, ezingo duzu
+    berreskuratze-gakoa erabili zure datuetarako sarbidea izateko. Ezin duzu ekintza hau desegin.
+rk-refresh-error = Barkatu, arazoa egon zure berreskuratze-gakoa berritzean.
+rk-remove-error = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ordezko helbide elektronikoa
     .header = Ordezko helbide elektronikoa
+se-cannot-refresh-email = Barkatu, arazoa egon da helbide elektroniko hori berritzean.
+se-cannot-resend-code = Barkatu, arazoa egon da egiaztapen-kodea berriro bidaltzean.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = Zure helbide elektroniko nagusia da orain { $email }.
+se-set-primary-error = Barkatu, arazoa egon da zure helbide elektroniko nagusia aldatzean.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } ondo ezabatuta.
+se-delete-email-error = Barkatu, arazoa egon da helbide elektroniko hori ezabatzean.
+se-verify-session = Zure uneko saioa egiaztatu beharko duzu ekintza hau burutzeko.
+se-verify-session-error = Barkatu, arazoa egon da zure saioa egiaztatzean.
 # Button to remove the secondary email
 se-remove-email =
     .title = Kendu helbide elektronikoa
@@ -463,6 +486,10 @@ se-resend-code =
     ez baduzu zure sarrera-ontzian edo spam karpetan aurkitzen.
 # Button to make secondary email the primary
 se-make-primary = Bihurtu nagusi
+se-default-content = Sartu zure kontura ezin baduzu zure helbide elektroniko nagusiarekin saioa hasi.
+se-content-note =
+    Oharra: ordezko helbide elektronikoak ez du zure informazioa leheneratuko —
+    <a>berreskuratze-gakoa</a> beharko duzu horretarako.
 
 ##
 
@@ -477,8 +504,16 @@ tfa-row-action-add = Gehitu
 tfa-row-action-disable = Desgaitu
 tfa-row-button-refresh =
     .title = Berritu bi urratseko autentifikazioa
+tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa berritzean.
+tfa-row-content-explain =
+    Eragotzi beste inor zure kontuan sartzea
+    zuk bakarrik eskura dezakezun kode esklusiboa eskatuz.
+tfa-row-cannot-verify-session-2 = Barkatu, arazoa egon da zure saioa egiaztatzean.
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
+tfa-row-disable-modal-explain =
+    Ezingo duzu ekintza hau desegin. Bestela,
+    <linkExternal>zure berreskuratze-kodeak ordezkatzeko</linkExternal> aukera era baduzu.
 tfa-row-cannot-disable = Ezin izan da bi urratseko autentifikazioa desgaitu.
 tfa-row-change-modal-heading = Aldatu berreskuratze-kodeak?
 tfa-row-change-modal-confirm = Aldatu
