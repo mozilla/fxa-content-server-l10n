@@ -23,6 +23,11 @@ alert-bar-close-message = Itxi mezua
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefoxeko kontuak
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Firefox kontua
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
@@ -34,6 +39,12 @@ product-firefox-monitor = Firefox Monitor
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-step authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } logoa
 app-footer-privacy-notice = Webgunearen pribatutasun-oharra
 app-footer-terms-of-service = Zerbitzuaren baldintzak
@@ -53,9 +64,18 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Bento menua
+bento-menu-firefox-title = Zure lineako pribatutasunaren alde borrokatzen duen teknologia da { -brand-firefox }.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
+bento-menu-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
+bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Eskuratu mugikor edo tabletarako { -brand-firefox }
 
 ##
 
