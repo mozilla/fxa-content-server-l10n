@@ -405,6 +405,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Photo
 profile-display-name =
     .header = Nom d’affichage
 profile-password =
@@ -509,12 +511,6 @@ tfa-row-cannot-disable = L’authentification en deux étapes n’a pas pu être
 tfa-row-change-modal-heading = Changer les codes de récupération ?
 tfa-row-change-modal-confirm = Changer
 tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Image
-avatar-add-link = Ajouter
-avatar-change-link = Modifier
 
 ## Auth-server based errors that originate from backend service
 
