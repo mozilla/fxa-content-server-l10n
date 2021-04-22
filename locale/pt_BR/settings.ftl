@@ -241,10 +241,10 @@ avatar-page-image-too-large-error = O arquivo da imagem é grande demais para se
 
 pw-change-header =
     .title = Alterar senha
-pw-change-stay-safe = Mantenha-se seguro — não reuse senhas. Sua senha:
-pw-change-least-8-chars = Deve ter pelo menos 8 caracteres
-pw-change-not-contain-email = Não pode ser seu endereço de email
-pw-change-must-match = A nova senha corresponde à confirmação
+pw-change-stay-safe = Mantenha-se protegido, não reuse senhas. Regras:
+pw-change-least-8-chars = A senha deve ter pelo menos 8 caracteres
+pw-change-not-contain-email = A senha não pode ser seu endereço de email
+pw-change-must-match = A nova senha deve ser igual à digitada na confirmação
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = Não pode estar nesta <linkExternal>lista de senhas comuns</linkExternal>
 pw-change-cancel-button = Cancelar
