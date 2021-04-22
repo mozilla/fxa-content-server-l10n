@@ -76,6 +76,9 @@ bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
 ## Connect another device promo
 
 connect-another-fx-mobile = Eskuratu mugikor edo tabletarako { -brand-firefox }
+connect-another-find-fx-mobile =
+    Bilatu { -brand-firefox } { -google-play } eta { -app-store }-etan edo
+    <br /><linkExternal>bidali deskargatzeko lotura zure gailura.</linkExternal>
 
 ##
 
@@ -86,6 +89,11 @@ cs-heading = Konektatutako zerbitzuak
 cs-description = Erabiltzen ari zaren eta saioa hasita duzun guztia.
 cs-cannot-refresh = Barkatu, arazo bat gertatu da konektatutako zerbitzuen zerrenda berritzean.
 cs-cannot-disconnect = Ez da bezeroa aurkitu, ezin da deskonektatu
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } zerbitzutik saioa amaituta.
 cs-refresh-button =
     .title = Berritu konektatutako zerbitzuak
 # Link text to a support page on missing or duplicate devices
@@ -117,7 +125,17 @@ cs-disconnect-sync-opt-not-say = Nahiago dut ez esan
 
 cs-disconnect-advice-confirm = Ados, ulertuta
 cs-disconnect-lost-advice-heading = Galdutako edo lapurtutako gailua deskonektatuta
+cs-disconnect-lost-advice-content-2 =
+    Zure gailua galdu edo lapurtu egin denez, 
+    zure informazioa seguru mantentzeko zure { -product-firefox-account } pasahitza aldatu behar zenuke
+    kontuaren ezarpenetan. Era berean, gailuko datuak urrunetik ezabatzeko informazioa
+    bilatu beharko zenuke.
 cs-disconnect-suspicious-advice-heading = Gailu susmagarria deskonektatuta
+cs-disconnect-suspicious-advice-content =
+    Deskonektatutako gailua susmagarria bada,
+    zure informazioa seguru mantentzeko zure { -product-firefox-account } pasahitza aldatu behar zenuke
+    kontuaren ezarpenetan. Era berean, { -brand-firefox }(e)n gordetako beste edozein
+    pasahitz ere aldatu beharko zenuke, helbide-barran about:logins idatziz.
 cs-sign-out-button = Amaitu saioa
 
 ##
@@ -162,6 +180,7 @@ header-menu-open = Itxi menua
 header-menu-closed = Gunearen nabigazio-menua
 header-back-to-top-link =
     .title = Itzuli gora
+header-title = { -product-firefox-accounts }
 header-help = Laguntza
 
 ## Input Password
@@ -194,6 +213,7 @@ nav-profile = Profila
 nav-security = Segurtasuna
 nav-connected-services = Konektatutako zerbitzuak
 nav-paid-subs = Ordainpeko harpidetzak
+nav-email-comm = Posta bidezko komunikazioak
 
 ## Two Step Authentication - replace recovery code
 
@@ -267,6 +287,8 @@ pw-change-success-alert = Pasahitza eguneratuta.
 
 delete-account-header =
     .title = Ezabatu kontua
+delete-account-step-1-2 = 2tik 1. urratsa
+delete-account-step-2-2 = 2tik 2. urratsa
 delete-account-chk-box-4 =
     .label = addons.mozilla.org gunean argitaratu duzun edozein hedapen eta itxura ezabatu egingo da
 delete-account-continue-button = Jarraitu
@@ -301,10 +323,13 @@ recovery-key-enter-password =
     .label = Idatzi pasahitza
 recovery-key-page-title =
     .title = Berreskuratze-gakoa
+recovery-key-step-1 = 2tik 1. urratsa
+recovery-key-step-2 = 2tik 2. urratsa
 recovery-key-success-alert = Berreskuratze-gakoa sortuta.
 
 ## Add secondary email page
 
+add-secondary-email-error = Arazo bat egon da mezu elektroniko hau sortzean.
 add-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 add-secondary-email-enter-address =
@@ -341,6 +366,9 @@ delete-account-link = Ezabatu kontua
 ## Two Step Authentication
 
 tfa-title = Bi urratseko autentifikazioa
+tfa-step-1-3 = 3tik 1. urratsa
+tfa-step-2-3 = 3tik 2. urratsa
+tfa-step-3-3 = 3tik 3. urratsa
 tfa-button-continue = Jarraitu
 tfa-button-cancel = Utzi
 tfa-button-finish = Amaitu
