@@ -425,6 +425,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Профиль
+profile-picture =
+    .header = Фото
 profile-display-name =
     .header = Отображаемое имя
 profile-password =
@@ -533,12 +535,6 @@ tfa-row-cannot-disable = Двухэтапная аутентификация н�
 tfa-row-change-modal-heading = Сменить коды восстановления?
 tfa-row-change-modal-confirm = Сменить
 tfa-row-change-modal-explain = Вы не сможете отменить это действие.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Фото
-avatar-add-link = Добавить
-avatar-change-link = Сменить
 
 ## Auth-server based errors that originate from backend service
 
