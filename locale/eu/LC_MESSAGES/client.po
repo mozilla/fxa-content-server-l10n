@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 22:08+0000\n"
-"PO-Revision-Date: 2021-04-23 11:44+0000\n"
+"PO-Revision-Date: 2021-04-23 11:46+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1679,7 +1679,7 @@ msgstr "Sinkronizatu Firefox gailuen artean"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Sinkronizatu laster-markak, historia eta pasahitzak zure gailu mugikorretako Firefoxera. Minutu gutxi batzuk hartzen ditu soilik."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
@@ -1695,7 +1695,7 @@ msgstr "Deskargatu Firefox zure kameraren aplikazioa erabiliz"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Firefox instalatu eta gutxienez bi gailuren artean sinkronizatzeak zure datuak galtzetik ere babesten zaitu."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -1703,7 +1703,7 @@ msgstr "Eskaneatzeko prest"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Konektatu zure gailu mugikorra</h1><p>zuretzat sortu berri dugun QR kodea erabiliz</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1911,7 +1911,7 @@ msgstr "Eskaneatu beste gailu bat konektatzeko"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Ireki kode-eskanerra zure Firefox aplikazioan eta prest dagoenean, erakutsi kodea."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
@@ -1919,7 +1919,7 @@ msgstr "Erakutsi kodea"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Gailua ondo parekatuta"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
@@ -1927,11 +1927,11 @@ msgstr "Parekatzea ondo egin da."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "Berretsi <small>%(email)s helbidea</small> parekatzea"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Berretsi parekatzea"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
