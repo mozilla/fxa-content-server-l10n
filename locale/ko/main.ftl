@@ -348,6 +348,7 @@ plan-details-total-label = 전체
 payment-confirmation-alert = 다운로드하기
 payment-confirmation-mobile-alert = 앱을 열지 않았습니까? <a>자세히 보기</a>
 payment-confirmation-thanks-heading = 감사합니다!
+payment-confirmation-thanks-subheading = { $product_name }를 시작하는 방법에 대한 자세한 내용이 담긴 확인 메일이 { $email } 주소로 발송되었습니다.
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
@@ -377,3 +378,4 @@ payment-confirmation-amount-year =
        *[other] { $amount } 매 { $intervalCount } 년마다
     }
 payment-confirmation-download-button = 다운로드 계속 하기
+payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
