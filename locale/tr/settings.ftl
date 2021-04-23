@@ -394,6 +394,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Resim
 profile-display-name =
     .header = Görünen ad
 profile-password =
@@ -494,12 +496,6 @@ tfa-row-cannot-disable = İki aşamalı doğrulama devre dışı bırakılamadı
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Resim
-avatar-add-link = Ekle
-avatar-change-link = Değiştir
 
 ## Auth-server based errors that originate from backend service
 
