@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = 메시지 닫기
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 계정
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -57,6 +62,9 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+
 ## Connect another device promo
 
 connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
@@ -83,13 +91,30 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 없거나 중복된 항목이 있나요?
 cs-disconnect-sync-heading = Sync 연결 끊기
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    브라우징 데이터가 기기({ $device })에 계속 남지만
+    계정과 동기화되지 않습니다.
+cs-disconnect-sync-reason = 이 장치의 연결을 끊는 주요한 이유는 무엇인가요?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = 이 기기는:
+cs-disconnect-sync-opt-suspicious = 의심스러움
+cs-disconnect-sync-opt-lost = 분실 또는 도난당함
+cs-disconnect-sync-opt-old = 오래된 기기 또는 교체된 기기
+cs-disconnect-sync-opt-duplicate = 중복됨
+cs-disconnect-sync-opt-not-say = 답변하지 않음
 
 ##
 
+cs-disconnect-advice-confirm = 알겠습니다.
+cs-disconnect-lost-advice-heading = 분실 또는 도난당한 장치 연걸 해제됨
 
 ##
 
@@ -97,10 +122,25 @@ cs-disconnect-sync-heading = Sync 연결 끊기
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 
 # HeaderLockup component
+
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
 
 
 ## Settings Nav
@@ -176,9 +216,6 @@ cs-disconnect-sync-heading = Sync 연결 끊기
 
 
 ## Two Step Auth sub-section on Settings main page
-
-
-## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
