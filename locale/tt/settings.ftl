@@ -74,6 +74,7 @@ bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-fire
 ## Connect another device promo
 
 connect-another-fx-mobile = Мобиль җиһазыгызга { -brand-firefox } программасын урнаштырыгыз
+connect-another-find-fx-mobile = { -brand-firefox }-ны { -google-play }-дан һәм { -app-store }-дан  таба яисә <br /><linkExternal>җиһазыгызга йөкләү сылтамасын җибәрә аласыз.</linkExternal>
 
 ##
 
