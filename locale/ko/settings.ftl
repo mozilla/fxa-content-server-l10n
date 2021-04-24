@@ -64,6 +64,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Bento 메뉴
+bento-menu-firefox-title = { -brand-firefox }는 온라인 개인정보 보를 위해 싸우는 기술입니다.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
+bento-menu-firefox-mobile = 모바일 용 { -brand-firefox } 브라우저
+bento-menu-made-by-mozilla = { -brand-mozilla } 제작
 
 ## Connect another device promo
 
