@@ -74,8 +74,11 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = 接続済みサービス
+cs-description = ログインして利用中の端末やサービス
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = 項目が不足または重複していますか？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -112,6 +115,7 @@ header-help = ヘルプ
 
 ## Modal
 
+modal-cancel-button = キャンセル
 
 ## Modal Verify Session
 
@@ -141,6 +145,7 @@ avatar-page-remove-photo = 写真を削除
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = 写真を撮り直す
+avatar-page-cancel-button = キャンセル
 avatar-page-save-button = 保存する
 avatar-page-zoom-out-button = ズームアウト
 avatar-page-zoom-in-button = ズームイン
@@ -304,6 +309,9 @@ rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
 rk-refresh-key = 回復用キーをリフレッシュ
+rk-content-explain = パスワードを忘れたときに、あなたの情報を復元します。
+rk-content-reset-data = パスワードをリセットするとデータがリセットされるのはなぜですか？
+rk-remove-modal-heading = 回復用キーを削除しますか？
 
 ## Secondary email sub-section on main Settings page
 
@@ -336,6 +344,7 @@ tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
+tfa-row-change-modal-explain = この操作は元に戻せません。
 
 ## Auth-server based errors that originate from backend service
 
