@@ -123,6 +123,12 @@ cs-disconnect-sync-opt-not-say = 답변하지 않음
 
 cs-disconnect-advice-confirm = 알겠습니다.
 cs-disconnect-lost-advice-heading = 분실 또는 도난당한 장치 연걸 해제됨
+cs-disconnect-lost-advice-content-2 =
+    기기가 분실 또는 도난 되었기 때문에 
+    정보를 안전하게 보호하기 위해 { -product-firefox-account } 비밀번호를 
+    계정 설정에서 변경해야만 합니다. 또한 제조사에서 원격으로 기기의 데이터를 
+    삭제하는 방법을 알아보아야 합니다.
+cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해제됨
 
 ##
 
