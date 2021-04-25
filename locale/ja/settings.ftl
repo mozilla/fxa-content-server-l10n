@@ -316,6 +316,9 @@ se-set-primary-successful = { $email } が主要アドレスになりました�
 se-set-primary-error = 主要アドレスの変更時に問題が発生しました。
 # Button to make secondary email the primary
 se-make-primary = 主要アドレスに設定
+se-content-note =
+    注記: 予備アドレスは情報を復元しません — 復元させるには、
+    <a>回復用キー</a> が必要です。
 
 ##
 
