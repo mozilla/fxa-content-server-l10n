@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -91,6 +94,9 @@ cs-sign-out-button = ログアウト
 # DropDownAvatarMenu component
 
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 
@@ -100,6 +106,9 @@ header-back-to-top-link =
     .title = トップに戻る
 header-title = { -product-firefox-accounts }
 header-help = ヘルプ
+
+## Input Password
+
 
 ## Modal
 
@@ -132,7 +141,6 @@ avatar-page-remove-photo = 写真を削除
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = 写真を撮り直す
-avatar-page-close-button = 閉じる
 avatar-page-save-button = 保存する
 avatar-page-zoom-out-button = ズームアウト
 avatar-page-zoom-in-button = ズームイン
@@ -140,6 +148,8 @@ avatar-page-rotate-button = 回転
 avatar-page-camera-error = カメラを初期化できませんでした
 avatar-page-new-avatar =
     .alt = 新しいプロファイル写真
+avatar-page-file-upload-error-2 = プロファイル写真のアップロードに問題がありました。
+avatar-page-delete-error-2 = プロファイル写真の削除に問題がありました。
 avatar-page-image-too-large-error = 画像ファイルサイズが大きすぎてアップロードできません。
 
 ##
@@ -168,7 +178,6 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
-delete-account-close-button = 閉じる
 delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
@@ -252,6 +261,7 @@ tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
+tfa-button-cant-scan-qr = コードをスキャンできませんか？
 
 ##
 
@@ -259,6 +269,8 @@ tfa-scan-this-code =
 ## Profile section
 
 profile-heading = プロファイル
+profile-picture =
+    .header = 写真
 profile-display-name =
     .header = 表示名
 profile-password =
@@ -321,12 +333,6 @@ tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = 画像
-avatar-add-link = 追加
-avatar-change-link = 変更
 
 ## Auth-server based errors that originate from backend service
 
