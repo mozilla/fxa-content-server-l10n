@@ -19,6 +19,7 @@ charge-exceeds-source-limit = Parece que esta transacción te pondrá por encima
 instant-payouts-unsupported = Parece que tu tarjeta de débito no está configurada para pagos instantáneos. Prueba con otra tarjeta de débito o crédito.
 duplicate-transaction = Hmm. Parece que se acaba de enviar una transacción idéntica. Revisa tu historial de pagos.
 coupon-expired = Parece que ese código promocional ha expirado.
+card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito e intenta nuevamente.
 
 ## settings
 
