@@ -317,9 +317,9 @@ sub-item-missing = Problem beim Laden der Daueraufträge
 sub-item-missing-msg = Bitte versuchen Sie es später erneut.
 sub-item-no-such-plan = Für diesen Dauerauftrag existiert kein solcher Plan.
 sub-item-cancel-sub = Dauerauftrag entfernen
-sub-item-stay-sub = Dauerauftrag erhalten
+sub-item-stay-sub = Dauerauftrag beibehalten
 sub-item-cancel-msg =
-    Nach { $period }, dem letzten Tag Ihres Abrechnungszeitraums
+    Nach { $period }, dem letzten Tag Ihres Abrechnungszeitraums,
     können Sie { $name } nicht mehr verwenden.
 sub-item-cancel-confirm =
     Am { $period } meinen Zugriff beenden und meine in { $name }
@@ -339,7 +339,7 @@ sub-route-idx-cancel-msg =
     Ihr Dauerauftrag für { $name } wurde gekündigt.
     <br />
           Sie haben weiterhin Zugang zu { $name } bis zum { $date }.
-sub-route-idx-cancel-aside = Habe Fragen? Besuchen Sie die <a>{ -brand-name-mozilla }-Hilfe</a>.
+sub-route-idx-cancel-aside = Haben Sie Fragen? Besuchen Sie die <a>{ -brand-name-mozilla }-Hilfe</a>.
 sub-subscription-error =
     .title = Problem beim Laden der Daueraufträge
 sub-customer-error =
