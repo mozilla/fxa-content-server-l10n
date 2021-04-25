@@ -75,6 +75,11 @@ connect-another-find-fx-mobile =
 
 cs-heading = 接続済みサービス
 cs-description = ログインして利用中の端末やサービス
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } からログアウトしました。
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
 # Link text to a support page on missing or duplicate devices
@@ -99,6 +104,7 @@ cs-sign-out-button = ログアウト
 
 ## Flow Container
 
+flow-container-back = 戻る
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -139,6 +145,7 @@ avatar-page-title =
 avatar-page-add-photo = 写真を追加
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = 写真を撮影
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo = 写真を削除
@@ -164,6 +171,10 @@ avatar-page-image-too-large-error = 画像ファイルサイズが大きすぎ�
 
 pw-change-header =
     .title = パスワードを変更
+pw-change-stay-safe = 安全のためにパスワードを使い回ししないでください。
+pw-change-least-8-chars = 少なくとも 8 文字以上でなくてはいけません
+pw-change-not-contain-email = メールアドレスと同じにはできません
+pw-change-must-match = 新しいパスワードを再入力して一致させる必要があります
 pw-change-cancel-button = キャンセル
 pw-change-save-button = 保存
 pw-change-forgot-password-link = パスワードを忘れましたか？
@@ -193,11 +204,14 @@ delete-account-cancel-button = キャンセル
 
 ## Display name page
 
+display-name-page-title =
+    .title = 表示名
 display-name-input =
     .label = 表示名を入力してください
 submit-display-name = 保存
 cancel-display-name = キャンセル
 display-name-update-error = 表示名のアップデートに問題がありました。
+display-name-success-alert = 表示名がアップデートされました。
 
 ##
 
@@ -308,10 +322,16 @@ rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
+rk-key-removed = アカウントの回復用キーが削除されました。
+rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
 rk-refresh-key = 回復用キーをリフレッシュ
 rk-content-explain = パスワードを忘れたときに、あなたの情報を復元します。
 rk-content-reset-data = パスワードをリセットするとデータがリセットされるのはなぜですか？
 rk-remove-modal-heading = 回復用キーを削除しますか？
+rk-remove-modal-content =
+    パスワードをリセットした場合、
+    回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
+rk-remove-error = アカウントの回復用キーを削除できませんでした。
 
 ## Secondary email sub-section on main Settings page
 
@@ -322,6 +342,9 @@ se-heading = 予備アドレス
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } が主要アドレスになりました。
 se-set-primary-error = 主要アドレスの変更時に問題が発生しました。
+# Button to remove the secondary email
+se-remove-email =
+    .title = メールアドレスを削除
 # Button to make secondary email the primary
 se-make-primary = 主要アドレスに設定
 se-content-note =
@@ -349,3 +372,4 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 ## Auth-server based errors that originate from backend service
 
 auth-error-103 = パスワードが正しくありません
+auth-error-1008 = 新しいパスワードは別のものにしてください
