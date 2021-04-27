@@ -461,7 +461,7 @@ se-resend-code = Verificação necessária. <button>Reenvie o código de verific
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
-se-content-note = Nota: Usar um email secundário não restaura suas informações — você precisa de uma <a>chave de verificação</a> para isso.
+se-content-note = Nota: Usar um email secundário não restaura suas informações, você precisa de uma <a>chave de recuperação</a> para isso.
 
 ##
 
