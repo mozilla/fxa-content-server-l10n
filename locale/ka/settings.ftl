@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = შეტყობინების დახურვა
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -172,6 +176,10 @@ drop-down-menu-signed-in-as = <signin>შემოსული, როგორ�
 drop-down-menu-sign-out = გამოსვლა
 drop-down-menu-sign-out-error = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
+## Flow Container
+
+flow-container-back = უკან
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = აღდგენის გასაღებები
@@ -190,6 +198,13 @@ header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
 header-title = { -product-firefox-accounts }
 header-help = დახმარება
+
+## Input Password
+
+input-password-hide = პაროლის დამალვა
+input-password-show = პაროლის ჩვენება
+input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
+input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
 
 ## Modal
 
@@ -239,7 +254,7 @@ avatar-page-remove-photo = ფოტოს მოცილება
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = ახლიდან გადაღება
-avatar-page-close-button = დახურვა
+avatar-page-cancel-button = გაუქმება
 avatar-page-save-button = შენახვა
 avatar-page-saving-button = ინახება…
 avatar-page-zoom-out-button = დაშორება
@@ -297,7 +312,6 @@ delete-account-chk-box-3 =
     .label = ამ ელფოსტის ხელახლა ამოქმედებით, თქვენი შენახული ინფორმაცია შეიძლება არ აღდგეს
 delete-account-chk-box-4 =
     .label = ყველა გაფართოება და თემა, რომელიც addons.mozilla.org-ზე გამოგიქვეყნებიათ, წაიშლება
-delete-account-close-button = დახურვა
 delete-account-continue-button = გაგრძელება
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
@@ -416,6 +430,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = პროფილი
+profile-picture =
+    .header = სურათი
 profile-display-name =
     .header = გამოსაჩენი სახელი
 profile-password =
@@ -524,12 +540,6 @@ tfa-row-cannot-disable = ორსაფეხურიანი დამოწ
 tfa-row-change-modal-heading = შეიცვალოს აღდგენის გასაღებები?
 tfa-row-change-modal-confirm = შეცვლა
 tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = სურათი
-avatar-add-link = დამატება
-avatar-change-link = შეცვლა
 
 ## Auth-server based errors that originate from backend service
 
