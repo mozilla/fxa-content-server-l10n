@@ -106,6 +106,8 @@ cs-disconnect-sync-opt-duplicate = Duplikat
 ##
 
 cs-disconnect-advice-confirm = Ok, eg forstår
+cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
+cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-sign-out-button = Logg ut
 
 ##
