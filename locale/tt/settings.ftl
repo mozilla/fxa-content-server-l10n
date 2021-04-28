@@ -343,6 +343,10 @@ se-heading = Икенчел эл. почта адресы
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } хәзер төп эл. почтагыз.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } уңышлы бетерелде
 # Button to remove the secondary email
 se-remove-email =
@@ -351,6 +355,8 @@ se-remove-email =
 se-refresh-email =
     .title = Эл. почтаны яңарту
 se-unverified = расланмаган
+# Button to make secondary email the primary
+se-make-primary = Төп адрес итү
 
 ##
 
