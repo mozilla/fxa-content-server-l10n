@@ -310,6 +310,8 @@ profile-display-name =
     .header = Күрсәтеләчәк исемегез
 profile-password =
     .header = Парол
+profile-primary-email =
+    .header = Төп эл. почта
 
 ##
 
