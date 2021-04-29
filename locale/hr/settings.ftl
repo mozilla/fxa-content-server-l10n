@@ -246,9 +246,14 @@ avatar-page-image-too-large-error = Slika je prevelika za prijenos.
 
 pw-change-header =
     .title = Promijeni lozinku
+pw-change-stay-safe = Održi svoju sigurnost — ne koristi ponovno iste lozinke. Tvoja lozinka:
 pw-change-least-8-chars = Mora sadržati barem 8 znakova
 pw-change-not-contain-email = Ne smije biti tvoja adresa e-pošte
 pw-change-must-match = Nova lozinka podudara se s potvrdom
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Ne smije se podudarati s ovim <linkExternal>popisom čestih
+    lozinki</linkExternal>
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravljena lozinka?
@@ -274,6 +279,8 @@ delete-account-chk-box-1 =
     .label = Sve plaćene pretplate biti otkazane
 delete-account-chk-box-3 =
     .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
+delete-account-chk-box-4 =
+    .label = Sva proširenja i teme objavljene na addons.mozilla.org bit će izbrisane
 delete-account-continue-button = Nastavi
 delete-account-password-input =
     .label = Unesi lozinku
