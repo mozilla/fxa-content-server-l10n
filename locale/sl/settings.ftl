@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Zapri sporočilo
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,6 +61,7 @@
         [orodnik] Firefox Računom
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -88,6 +93,14 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
+bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
 
 ## Connect another device promo
 
@@ -142,6 +155,14 @@ datablock-copy =
 datablock-print =
     .message = Natisnjeno
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = Odjava
+
+## Flow Container
+
+flow-container-back = Nazaj
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kode za obnovitev
@@ -159,6 +180,23 @@ header-back-to-top-link =
     .title = Nazaj na vrh
 header-title = { -product-firefox-accounts }
 header-help = Pomoč
+
+## Input Password
+
+input-password-hide = Skrij geslo
+input-password-show = Pokaži geslo
+input-password-hide-aria = Skrij geslo z zaslona.
+
+## Modal
+
+modal-close-title = Zapri
+modal-cancel-button = Prekliči
+
+## Modal Verify Session
+
+mvs-enter-verification-code = Vnesite svojo potrditveno kodo
+msv-cancel-button = Prekliči
+msv-submit-button = Potrdi
 
 ## Settings Nav
 
@@ -186,7 +224,7 @@ avatar-page-remove-photo = Odstrani fotografijo
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Fotografiraj znova
-avatar-page-close-button = Zapri
+avatar-page-cancel-button = Prekliči
 avatar-page-save-button = Shrani
 avatar-page-saving-button = Shranjevanje …
 avatar-page-zoom-out-button = Pomanjšaj
@@ -240,7 +278,6 @@ delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
 delete-account-chk-box-4 =
     .label = izbrisali vse razširitve in teme, ki ste jih objavili na addons.mozilla.org
-delete-account-close-button = Zapri
 delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
@@ -340,8 +377,10 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Slika
 profile-display-name =
-    .header = Prikazano ime
+    .header = Prikazno ime
 profile-password =
     .header = Geslo
 # This is a string that shows when the user's password was created.
@@ -367,12 +406,14 @@ row-defaults-status = Brez
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Omogočeno
-rk-not-set = Ni nastavljeno
+rk-header = Obnovitveni ključ
+rk-enabled = Omogočeno
+rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
 rk-key-removed = Obnovitveni ključ za račun odstranjen.
 rk-refresh-key = Osveži obnovitveni ključ
+rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
 
 ## Secondary email sub-section on main Settings page
 
@@ -401,11 +442,10 @@ se-make-primary = Nastavi kot glavno
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Overitev v dveh korakih
+tfa-row-header = Overitev v dveh korakih
 tfa-row-disabled = Overitev v dveh korakih je onemogočena.
 tfa-row-enabled = Omogočeno
-tfa-row-not-set = Ni nastavljeno
+tfa-row-not-set = Ni nastavljena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
@@ -417,12 +457,6 @@ tfa-row-cannot-disable = Overitve v dveh korakih ni bilo mogoče izključiti.
 tfa-row-change-modal-heading = Spremeni obnovitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Slika
-avatar-add-link = Dodaj
-avatar-change-link = Spremeni
 
 ## Auth-server based errors that originate from backend service
 
