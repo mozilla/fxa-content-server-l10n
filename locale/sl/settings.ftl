@@ -247,6 +247,7 @@ pw-change-header =
 pw-change-stay-safe = Ostanite varni – ne uporabljajte enakih gesel na več mestih. Vaše geslo:
 pw-change-least-8-chars = mora vsebovati vsaj 8 znakov
 pw-change-not-contain-email = ne sme biti vaš e-poštni naslov
+pw-change-must-match = se mora ujemati s potrditvijo
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     ne sme biti na tem <linkExternal>seznamu
@@ -413,6 +414,7 @@ rk-action-create = Ustvari
 rk-action-remove = Odstrani
 rk-key-removed = Obnovitveni ključ za račun odstranjen.
 rk-refresh-key = Osveži obnovitveni ključ
+rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
 
 ## Secondary email sub-section on main Settings page
@@ -436,6 +438,9 @@ se-refresh-email =
     .title = Osveži e-poštni naslov
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
+se-content-note =
+    Opomba: pomožni e-poštni naslov ne bo obnovil vaših podatkov – za to
+    boste potrebovali <a>obnovitveni ključ</a>.
 
 ##
 
