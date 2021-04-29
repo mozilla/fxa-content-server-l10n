@@ -104,6 +104,10 @@ bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tablični računalnik
+connect-another-find-fx-mobile =
+    Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali
+    <br /><linkExternal>si pošlite povezavo za prenos na napravo</linkExternal>.
 
 ##
 
@@ -364,9 +368,13 @@ tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
 tfa-cannot-verify-code = Prišlo je do napake pri preverjanju vaše obnovitvene kode.
 tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
 tfa-enabled = Overitev v dveh korakih je omogočena
+tfa-scan-this-code =
+    Skenirajte to kodo QR z eno od <linkExternal>naslednjih
+    aplikacij za overjanje</linkExternal>.
 tfa-button-cant-scan-qr = Ne morete prebrati kode?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
+tfa-enter-totp = Sedaj vnesite varnostno kodo iz aplikacije za overjanje.
 tfa-input-enter-totp =
     .label = Vnesite varnostno kodo
 tfa-enter-recovery-code =
