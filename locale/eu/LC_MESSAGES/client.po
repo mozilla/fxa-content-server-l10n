@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 22:08+0000\n"
-"PO-Revision-Date: 2021-04-23 11:46+0000\n"
+"PO-Revision-Date: 2021-04-29 07:01+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1431,7 +1431,7 @@ msgstr "Errepikatu pasahitza"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Gurekin gordetako zifratutako datu orotarako sarbidea izateko behar duzu pasahitz hau.<br/>Pasahitza berrezarriz gero, ziurrenik pasahitzak eta laster-markak galdu egingo dira."
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1819,7 +1819,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Izan edonon Firefoxen gordetako pasahitzetarako sarbide segurua &mdash; bai eta nabigatzailetik kanpo ere."
+msgstr "Firefoxen gordetako pasahitzetarako sarbide segurua edonondik &mdash; bai eta nabigatzailetik kanpo ere."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Firefox Monitor"
@@ -1843,11 +1843,11 @@ msgstr "Mantendu seguru — ez berrerabili pasahitzak."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr "Badirudi ez dela zure helbide elektronikoa"
+msgstr "Ezin du zure helbide elektronikoa izan"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Ezin du bat etorri <a>pasahitz arrunten zerrendaz %(escapedCommonPasswordLinkAttrs)s </a>"
+msgstr "Ezin du egon <a %(escapedCommonPasswordLinkAttrs)s>ohiko pasahitzen zerrendan</a>"
 
 #: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
