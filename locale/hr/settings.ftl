@@ -209,6 +209,7 @@ nav-email-comm = Komunikacija e-poštom
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Došlo je do greške prilikom zamjene tvojim kôdova za oporavak.
 tfa-replace-code-success-alert = Ažurirani su kodovi za oporavak računa.
 
 ## Avatar change page
