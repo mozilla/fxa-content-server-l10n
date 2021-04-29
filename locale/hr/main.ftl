@@ -26,6 +26,7 @@ payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Poku�
 payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
 payment-error-retry-button = Pokušaj ponovno
 payment-error-manage-subscription-button = Upravljaj mojom pretplatom
+currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
 expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
 insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
 withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
@@ -95,6 +96,10 @@ product-no-such-plan = Za ovaj proizvod ne postoji takva tarifa.
 
 ## payment legal blurb
 
+payment-legal-copy-paypal = { -brand-name-mozilla } koristi { -brand-name-paypal } za sigurnu obradu plaćanja.
+payment-legal-link-paypal = Pogledaj <paypalPrivacyLink>{ -brand-name-paypal }ova pravila o privatnosti</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
+payment-legal-link-stripe-2 = Pogledaj <stripePrivacyLink>{ -brand-name-stripe }ova pravila o privatnosti</stripePrivacyLink>.
 
 ## payment form
 

@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Zatvori poruku
 
 ## Firefox and Mozilla Brand
 ##
@@ -63,6 +64,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Bento izbornik
 bento-menu-firefox-title = { -brand-firefox } je tehnologija koja se bori za tvoju privatnost na mreži.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
@@ -84,6 +86,11 @@ connect-another-find-fx-mobile =
 ## Connected services section
 
 cs-heading = Povezane usluge
+cs-description = Sve što koristiš i gdje je tvoj račun prijavljen.
+cs-cannot-refresh =
+    Žao nam je. Došlo je do greške prilikom osvježavanja popisa
+    povezanih usluga.
+cs-cannot-disconnect = Klijent nije pronađen; nije moguće prekinuti vezu
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -93,6 +100,15 @@ cs-refresh-button =
     .title = Osvježi povezane usluge
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Nedostajuće ili duplicirane stavke?
+cs-disconnect-sync-heading = Prekini vezu sa Syncom
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Tvoji podatci o pregledavanju ostat će na tvom uređaju ({ $device }),
+     ali više neće biti sinkronizirani s tvojim računom.
 cs-disconnect-sync-reason =
     Koji je glavni razlog za prekidanje veze
     ovog uređaja?
@@ -138,6 +154,7 @@ drop-down-menu-sign-out-error = Oprosti, dogodila se greška kod odjave.
 
 ## Flow Container
 
+flow-container-back = Natrag
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -160,6 +177,10 @@ header-help = Pomoć
 
 ## Input Password
 
+input-password-hide = Sakrij lozinku
+input-password-show = Prikaži lozinku
+input-password-hide-aria = Sakrij lozinku sa zaslona.
+input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit će vidljiva na zaslonu.
 
 ## Modal
 
@@ -204,6 +225,7 @@ avatar-page-remove-photo = Ukloni sliku
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ponovno snimi sliku
+avatar-page-cancel-button = Odustani
 avatar-page-save-button = Spremi
 avatar-page-saving-button = Spremanje…
 avatar-page-zoom-out-button = Smanji
@@ -249,6 +271,8 @@ delete-account-step-2-2 = Korak 2 od 2
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
 delete-account-chk-box-1 =
     .label = Sve plaćene pretplate biti otkazane
+delete-account-chk-box-3 =
+    .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
 delete-account-continue-button = Nastavi
 delete-account-password-input =
     .label = Unesi lozinku
@@ -416,6 +440,9 @@ tfa-row-content-explain =
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
+tfa-row-change-modal-heading = Promijeniti kôdove za oporavak?
+tfa-row-change-modal-confirm = Promijeni
+tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
 ## Auth-server based errors that originate from backend service
 
