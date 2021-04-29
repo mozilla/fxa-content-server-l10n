@@ -319,6 +319,7 @@ recovery-key-success-alert = Ključ za oporavak je stvoren.
 
 ## Add secondary email page
 
+add-secondary-email-error = Došlo je do greške prilikom stvaranja ove e-pošte.
 add-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
 add-secondary-email-enter-address =
@@ -331,12 +332,21 @@ add-secondary-email-save-button = Spremi
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Došlo je do greške prilikom slanja verifikacijskom kôda.
 verify-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
 verify-secondary-email-verification-code =
     .label = Unesi verifikacijski kôd
 verify-secondary-email-cancel-button = Odustani
 verify-secondary-email-verify-button = Potvrdi
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Unesi verifikacijski kôd poslan na adresu <strong>{ $email }</strong> unutar 5 minuta.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Adresa { $email } uspješno je dodana.
 
 ##
 
@@ -352,8 +362,18 @@ tfa-step-3-3 = Korak 3 od 3
 tfa-button-continue = Nastavi
 tfa-button-cancel = Odustani
 tfa-button-finish = Završi
+tfa-incorrect-totp = Neispravan kôd za dvofaktorsku autentifikaciju
+tfa-cannot-retrieve-code = Došlo je do greške prilikom dohvaćanja tvog kôda.
+tfa-cannot-verify-code = Došlo je do greške prilikom potvrtde tvog kôda za oporavak.
+tfa-incorrect-recovery-code = Neispravan kôd za oporavak
 tfa-enabled = Dvofaktorska autentifikacija je omogućena
+tfa-scan-this-code =
+    Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
+    aplikacija za provjeru autentičnosti</linkExternal>.
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
+tfa-enter-totp = Sada unesi sigurnosni kôd iz aplikacije za provjeru autentičnosti.
 tfa-input-enter-totp =
     .label = Unesi sigurnosni kôd
 tfa-enter-recovery-code =
@@ -414,6 +434,11 @@ se-heading = Sekundarna adresa e-pošte
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } je sada tvoja primarna e-pošta.
+se-set-primary-error = Žao nam je, došlo je do greške prilikom promjene tvoje primarne e-pošte.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = E-pošta { $email } uspješno izbrisana.
 se-delete-email-error = Oprosti, dogodila se greška kod brisanja ove e-pošte.
 # Button to remove the secondary email
@@ -454,3 +479,9 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Nepoznati račun
+auth-error-103 = Netočna lozinka
+auth-error-110 = Nevažeći token
+auth-error-138 = Nepotvrđena sesija
+auth-error-155 = TOTP token nije pronađen
+auth-error-1008 = Tvoja nova lozinka mora biti drugačija
