@@ -370,12 +370,21 @@ tfa-enabled = Dvofaktorska autentifikacija je omogućena
 tfa-scan-this-code =
     Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
     aplikacija za provjeru autentičnosti</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Koristi kôd { $secret } za postavljanje dvofaktorske autentifikacije u
+    podržanim aplikacijama.
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
 tfa-enter-totp = Sada unesi sigurnosni kôd iz aplikacije za provjeru autentičnosti.
 tfa-input-enter-totp =
     .label = Unesi sigurnosni kôd
+tfa-save-these-codes =
+    Spremi ove jednokratne kôdove na sigurnom mjestu kada
+    nemaš pristup svom mobilnom uređaju.
 tfa-enter-recovery-code =
     .label = Unesi kôd za oporavak
 
@@ -473,6 +482,7 @@ tfa-row-content-explain =
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
+tfa-row-cannot-disable = Nije moguće onemogućiti dvofaktorsku autentifikaciju.
 tfa-row-change-modal-heading = Promijeniti kôdove za oporavak?
 tfa-row-change-modal-confirm = Promijeni
 tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
