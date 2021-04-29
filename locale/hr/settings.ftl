@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -133,6 +136,9 @@ drop-down-menu-signed-in-as = <signin>Prijavljeni kao</signin><user>{ $user }</u
 drop-down-menu-sign-out = Odjava
 drop-down-menu-sign-out-error = Oprosti, dogodila se greška kod odjave.
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kodovi za oporavak
@@ -151,6 +157,9 @@ header-back-to-top-link =
     .title = Natrag na vrh
 header-title = { -product-firefox-accounts }
 header-help = Pomoć
+
+## Input Password
+
 
 ## Modal
 
@@ -195,7 +204,6 @@ avatar-page-remove-photo = Ukloni sliku
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ponovno snimi sliku
-avatar-page-close-button = Zatvori
 avatar-page-save-button = Spremi
 avatar-page-saving-button = Spremanje…
 avatar-page-zoom-out-button = Smanji
@@ -241,7 +249,6 @@ delete-account-step-2-2 = Korak 2 od 2
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
 delete-account-chk-box-1 =
     .label = Sve plaćene pretplate biti otkazane
-delete-account-close-button = Zatvori
 delete-account-continue-button = Nastavi
 delete-account-password-input =
     .label = Unesi lozinku
@@ -253,8 +260,14 @@ delete-account-delete-button-2 = Izbriši
 
 ## Display name page
 
+display-name-page-title =
+    .title = Prikazano ime
+display-name-input =
+    .label = Unesi prikazano ime
 submit-display-name = Spremi
 cancel-display-name = Odustani
+display-name-update-error = Došlo je do greške prilikom ažuriranja tvojeg prikazanog imena
+display-name-success-alert = Prikazano ime je ažurirano.
 
 ##
 
@@ -320,6 +333,10 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Slika
+profile-display-name =
+    .header = Prikazano ime
 profile-password =
     .header = Lozinka
 # This is a string that shows when the user's password was created.
@@ -353,7 +370,10 @@ rk-action-remove = Ukloni
 rk-key-removed = Ključ za oporavak računa je uklonjen.
 rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za oporavak računa.
 rk-refresh-key = Osvježi ključ za oporavak
+rk-content-explain = Vrati svoje informacije kada zaboraviš svoju lozinku.
+rk-content-reset-data = Zašto ponovno postavljanje lozinke briše moje podatke?
 rk-remove-modal-heading = Ukloniti ključ za oporavak računa?
+rk-remove-error = Nije moguće ukloniti tvoj ključ za oporavak računa.
 
 ## Secondary email sub-section on main Settings page
 
@@ -373,22 +393,29 @@ se-refresh-email =
 se-unverified = nepotvrđeno
 # Button to make secondary email the primary
 se-make-primary = Učini primarnom
+se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju primarnu e-poštu.
+se-content-note =
+    Napomena: sekundarna e-pošta ne može vratiti tvoje informacije — za to će ti
+    trebati <a>ključ za oporavak</a>.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Dvofaktorska autentifikacija
 tfa-row-disabled = Dvofaktorska autentifikacija je onemogućena.
 tfa-row-enabled = Omogućeno
 tfa-row-not-set = Nije postavljeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogući
+tfa-row-button-refresh =
+    .title = Osvježi dvofaktorsku autentifikaciju
+tfa-row-content-explain =
+    Spriječi da se netko drugi prijavi na tvoj račun tako da
+    zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
-
-## Avatar sub-section on main Settings page
-
 
 ## Auth-server based errors that originate from backend service
 
