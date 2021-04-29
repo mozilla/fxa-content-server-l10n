@@ -387,7 +387,7 @@ tfa-cannot-verify-code = Arazoa egon da zure berreskuratze-kodea egiaztatzen.
 tfa-incorrect-recovery-code = Berreskuratze-kode okerra
 tfa-enabled = Bi urratseko autentifikazioa gaituta
 tfa-scan-this-code =
-    Eskaneatu QR kode hau <linkExternal>hauetako autentifikazio-aplikazio
+    Eskaneatu QR kodea <linkExternal>hauetako autentifikazio-aplikazio
     bat</linkExternal> erabiliz.
 # This is the image alt text for a QR code.
 # Variables:

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 22:08+0000\n"
-"PO-Revision-Date: 2021-04-29 07:01+0000\n"
+"PO-Revision-Date: 2021-04-29 07:09+0000\n"
 "Last-Translator: julen <julenx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -1196,7 +1196,7 @@ msgstr "Sartu kodea eskuz"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Eskaneatu QR kodea zure autentifikazio-aplikazioaz eta sartu bertan agertzen den segurtasun-kodea."
+msgstr "Eskaneatu QR kodea zure autentifikazio-aplikazioa erabiliz eta sartu bertan agertzen den segurtasun-kodea."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
