@@ -384,6 +384,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profiili
+profile-picture =
+    .header = Kuva
 profile-display-name =
     .header = Näyttönimi
 profile-password =
@@ -475,12 +477,6 @@ tfa-row-cannot-disable = Kaksivaiheista todennusta ei voitu poistaa käytöstä.
 tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Kuva
-avatar-add-link = Lisää
-avatar-change-link = Vaihda
 
 ## Auth-server based errors that originate from backend service
 

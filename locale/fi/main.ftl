@@ -35,7 +35,6 @@ payment-error-retry-button = Yritä uudestaan
 payment-error-manage-subscription-button = Hallitse tilausta
 country-currency-mismatch = Tämän tilauksen valuutta ei ole voimassa maksun tapahtumamaassa.
 currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
-returning-paypal-customer-error = Valitettavasti tällä hetkellä voit rekisteröityä vain yhteen tilauksen kerralla. Tarkista tilanne pian uudelleen.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
@@ -105,6 +104,7 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
 payment-legal-link-paypal = Katso <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
 
 ## payment form
 
@@ -131,6 +131,7 @@ payment-confirm = Valtuutan Mozillan, Firefox-tuotteiden tekijän, veloittamaan 
 payment-cancel-btn = Peruuta
 payment-update-btn = Päivitä
 payment-pay-btn = Maksa nyt
+payment-pay-with-paypal-btn = Maksa { -brand-name-paypal }illa
 payment-validate-name-error = Kirjoita nimesi
 payment-validate-zip-required = Postinumero on pakollinen
 payment-validate-zip-short = Postinumero on liian lyhyt
@@ -277,7 +278,6 @@ sub-customer-error =
     .title = Ongelma ladatessa asiakasta
 sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
 sub-route-payment-modal-heading = Virheelliset laskutustiedot
-sub-route-invalid-payment = Virheelliset maksutiedot. Tililläsi on virhe. <div>Hallitse</div>
 pay-update-manage-btn = Hallitse
 
 ## subscription create
