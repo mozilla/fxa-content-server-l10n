@@ -338,6 +338,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Ugur deg usali n umsaɣ
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
+pay-update-manage-btn = Sefrek
 
 ## subscription create
 

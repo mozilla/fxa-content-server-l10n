@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Mdel izen
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Amiḍan Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -55,6 +60,9 @@ avatar-default-avatar =
     .alt = Avaṭar amezwer
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -136,6 +144,12 @@ datablock-copy =
 datablock-print =
     .message = Ittwasiggez
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Tingalin n tririt
@@ -153,9 +167,16 @@ header-menu-closed = Umuɣ n tunigin n usmel
 header-back-to-top-link =
     .title = Uɣal d asawen
 header-title = { -product-firefox-accounts }
-header-switch-title = Beddel ɣer ufeṣṣel aklasiki
-    .title = aseɣwen n ufeṣṣel aklasiki
 header-help = Tallalt
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -189,7 +210,6 @@ avatar-page-remove-photo = Kkes tawlaft
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ṭṭef tawlaft i tikkelt-nniḍen
-avatar-page-close-button = Mdel
 avatar-page-save-button = Sekles
 avatar-page-saving-button = Asekles…
 avatar-page-zoom-out-button = Semẓi
@@ -247,7 +267,6 @@ delete-account-chk-box-3 =
     .label = Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen
 delete-account-chk-box-4 =
     .label = Akk isiɣzaf d yisental i d-tessufɣeḍ deg addons.mozilla.org ad ttwakksen
-delete-account-close-button = Mdel
 delete-account-continue-button = Kemmel
 delete-account-password-input =
     .label = Sekcem awal uffir
@@ -393,7 +412,6 @@ row-defaults-status = Ulac
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Yermed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
@@ -449,8 +467,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Asesteb s snat n tarrayin
 tfa-row-disabled = Asesteb s snat n tarrayin yensa.
 tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
@@ -474,12 +490,6 @@ tfa-row-cannot-disable = Asesteb s snat n tarrayin ulamek ad yens.
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Tugna
-avatar-add-link = Rnu
-avatar-change-link = Senfel
 
 ## Auth-server based errors that originate from backend service
 
