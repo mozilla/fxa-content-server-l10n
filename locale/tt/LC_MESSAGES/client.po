@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-04-28 19:41+0000\n"
-"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2021-04-30 10:22+0000\n"
+"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
-msgstr ""
+msgstr "Гизүне башлау"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -830,12 +830,10 @@ msgid "Invalid Token"
 msgstr "Хаталы токен"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Дәвам итсәгез, Сез %(serviceName)s%(serviceUri)s хезмәтенең <a id=\"service-tos\" href=\"%(termsUri)s\">Куллану Шартларын</a> һәм <a id=\"service-pp\" href=\"%(privacyUri)s\">Хосусыйлык Белдерүен</"
-"a> кабул итәсез дигән сүз."
+"Дәвам итсәгез, Сез %(serviceName)s%(serviceUri)s хезмәтенең <a id=\"service-tos\" href=\"%(termsUri)s\">Куллану Шартларын</a> һәм <a id=\"service-pp\" href=\"%(privacyUri)s\">Хосусыйлык "
+"Белдерүен</a> кабул итәсез дигән сүз."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -883,7 +881,7 @@ msgstr "Паролыгызны үзгәртү өчен Сез баскан сы�
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Яңа сылтама алу"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with recovery key"
@@ -904,8 +902,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1637,7 +1634,7 @@ msgstr "Серсүзне үзгәртү"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Күбрәк белү өчен теркәлегез"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
@@ -2116,8 +2113,7 @@ msgstr ""
 #~ msgstr "Көйләүләрне саклау"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr ""
-#~ "Билгесез Firefox Хисабы. Өстәмә Кушымталар (Add-ons) мәгълүматына ирешү өчен, Өстәмә Кушымталар хисабыгыздагы элеккеге эл. почта адресыгызны кулланып, <a href=\"/signup\">теркәлү узыгыз</a>."
+#~ msgstr "Билгесез Firefox Хисабы. Өстәмә Кушымталар (Add-ons) мәгълүматына ирешү өчен, Өстәмә Кушымталар хисабыгыздагы элеккеге эл. почта адресыгызны кулланып, <a href=\"/signup\">теркәлү узыгыз</a>."
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Кулланмага сылтама %(phoneNumber)s номерына янәдән җибәрелде"
@@ -2209,12 +2205,10 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Кукилар һәм җирле саклагыч кирәк."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Дәвам итү нәтиҗәсендә Сез Firefox болыт хезмәтләренең <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез."
+#~ "Дәвам итү нәтиҗәсендә Сез Firefox болыт хезмәтләренең <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\" "
+#~ "tabindex=\"-1\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox болыт хезмәтләре"
