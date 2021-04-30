@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Закрыць паведамленне
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Уліковы запіс Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +61,15 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
+bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
+bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -119,6 +133,12 @@ datablock-copy =
 datablock-print =
     .message = Надрукавана
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Коды аднаўлення
@@ -136,9 +156,16 @@ header-menu-closed = Меню навігацыі па сайце
 header-back-to-top-link =
     .title = Вярнуцца ўгару
 header-title = { -product-firefox-accounts }
-header-switch-title = Пераключыцца на класічны дызайн
-    .title = спасылка на класічны дызайн
 header-help = Даведка
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -168,7 +195,6 @@ avatar-page-remove-photo = Выдаліць фота
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Перазняць фота
-avatar-page-close-button = Закрыць
 avatar-page-save-button = Захаваць
 avatar-page-zoom-out-button = Паменшыць
 avatar-page-zoom-in-button = Павялічыць
@@ -218,7 +244,6 @@ delete-account-chk-box-3 =
     .label = Паўторнае падключэнне на гэту электронную пошту можа не аднавіць захаваную інфармацыю
 delete-account-chk-box-4 =
     .label = Любыя пашырэнні і тэмы, якія вы апублікавалі на addons.mozilla.org, будуць выдалены
-delete-account-close-button = Закрыць
 delete-account-continue-button = Працягнуць
 delete-account-password-input =
     .label = Увядзіце пароль
@@ -351,7 +376,6 @@ row-defaults-status = Няма
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Уключана
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
@@ -386,8 +410,6 @@ se-make-primary = Зрабіць асноўным
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Двухэтапная аўтарызацыя
 tfa-row-disabled = Двухэтапная аўтарызацыя адключана.
 tfa-row-enabled = Уключана
 tfa-row-not-set = Не ўстаноўлена
@@ -401,12 +423,6 @@ tfa-row-cannot-disable = Немагчыма адключыць двухэтап�
 tfa-row-change-modal-heading = Змяніць коды аднаўлення?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Выява
-avatar-add-link = Дадаць
-avatar-change-link = Змяніць
 
 ## Auth-server based errors that originate from backend service
 
