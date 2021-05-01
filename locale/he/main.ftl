@@ -119,6 +119,7 @@ payment-zip =
 payment-cancel-btn = ביטול
 payment-update-btn = עדכון
 payment-pay-btn = לשלם כעת
+payment-pay-with-paypal-btn = תשלום באמצעות { -brand-name-paypal }
 payment-validate-name-error = נא להכניס את השם שלך
 payment-validate-zip-required = נדרש מיקוד
 payment-validate-zip-short = המיקוד קצר מדי
