@@ -576,7 +576,7 @@ se-make-primary = Nastavit jako hlavní
 se-default-content = Získejte přístup ke svému účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
 se-content-note =
     Poznámka: pro získání přístupu k vašim datům nestačí záložní e-mail,
-    pro získání přístupu budete potřebovat <a>obnovovací klíč</a>.
+    ale budete potřebovat také <a>obnovovací klíč</a>.
 
 ##
 
@@ -603,12 +603,6 @@ tfa-row-cannot-disable = Dvoufázové ověřování se nepodařilo vypnout.
 tfa-row-change-modal-heading = Změnit obnovovací kódy?
 tfa-row-change-modal-confirm = Změnit
 tfa-row-change-modal-explain = Tuto akci nelze vzít zpět.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Obrázek
-avatar-add-link = Přidat
-avatar-change-link = Změna
 
 ## Auth-server based errors that originate from backend service
 
