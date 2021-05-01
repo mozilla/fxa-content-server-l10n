@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox ਖਾਤਾ
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -57,9 +62,21 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
+bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
+bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
+bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
+
 ## Connect another device promo
 
 connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲਈ { -brand-firefox } ਲਵੋ
+connect-another-find-fx-mobile = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ ਜਾਂ <br /><linkExternal>ਆਪਣੇ ਮੋਬਾਈਲ ਲਈ ਡਾਊਨਲੋਡ ਲਿੰਕ ਭੇਜੋ।</linkExternal>
 
 ##
 
@@ -68,6 +85,8 @@ connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲ�
 
 cs-heading = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ
 cs-description = ਹਰ ਚੀਜ਼ ਜੋ ਤੁਸੀਂ ਵਰਤ ਰਹੇ ਹੋ ਅਤੇ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ।
+cs-cannot-refresh = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ ਦੀ ਸੂਚੀ ਨੂੰ ਤਾਜ਼ਾ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+cs-cannot-disconnect = ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ, ਡਿਸਕਨੈਕਟ ਕਰਨ ਲਈ ਅਸਮਰੱਥ
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -78,6 +97,12 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ਗੁੰਮ ਜਾਂ ਡੁਪਲੀਕੇਟ ਚੀਜ਼ਾਂ ਹਨ?
 cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ({ $device }) ਉੱਤੇ ਹੀ ਰਹੇਗਾ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।
 cs-disconnect-sync-reason = ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨ ਦਾ ਮੁੱਖ ਕਾਰਨ ਕੀ ਸੀ?
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -109,6 +134,20 @@ datablock-copy =
 datablock-print =
     .message = ਪਰਿੰਟ ਕੀਤਾ
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <user>{ $user }</user> ਵਜੋਂ <signin>ਸਾਈਨ ਇਨ ਕੀਤਾ</signin>
+drop-down-menu-sign-out = ਸਾਈਨ ਆਉਟ
+drop-down-menu-sign-out-error = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+
+## Flow Container
+
+flow-container-back = ਪਿੱਛੇ
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = ਰਿਕਵਰੀ ਕੋਡ
@@ -128,20 +167,63 @@ header-back-to-top-link =
 header-title = { -product-firefox-accounts }
 header-help = ਮਦਦ
 
+## Input Password
+
+input-password-hide = ਪਾਸਵਰਡ ਲੁਕਾਓ
+input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
+input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
+input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
+
+## Modal
+
+modal-close-title = ਬੰਦ ਕਰੋ
+modal-cancel-button = ਰੱਦ ਕਰੋ
+
+## Modal Verify Session
+
+mvs-verify-your-email = ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ
+mvs-enter-verification-code = ਆਪਣਾ ਤਸਦੀਕ ਕੋਡ ਦਿਓ
+msv-cancel-button = ਰੱਦ ਕਰੋ
+msv-submit-button = ਤਸਦੀਕ ਕਰੋ
+
 ## Settings Nav
 
 nav-settings = ਸੈਟਿੰਗਾਂ
 nav-profile = ਪਰੋਫਾਇਲ
 nav-security = ਸੁਰੱਖਿਆ
 nav-connected-services = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ
+nav-paid-subs = ਭੁਗਤਾਨ ਕੀਤੀਆਂ ਮੈਂਬਰੀਆਂ
+nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = ਤੁਹਾਡੇ ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+tfa-replace-code-success-alert = ਖਾਤਾ ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਸੀ।
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = ਪਰੋਫਾਈਲ ਤਸਵੀਰ
+avatar-page-add-photo = ਫੋਟੋ ਜੋੜੋ
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
+avatar-page-take-photo = ਫੋਟੋ ਲਵੋ
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = ਫੋਟੋ ਨੂੰ ਹਟਾਓ
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = ਫੋਟੋ ਮੁੜ ਲਵੋ
+avatar-page-cancel-button = ਰੱਦ ਕਰੋ
+avatar-page-save-button = ਸੰਭਾਲੋ
+avatar-page-saving-button = …ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ
+avatar-page-zoom-out-button =
+    .title = ਜ਼ੂਮ ਆਉਟ
+avatar-page-zoom-in-button =
+    .title = ਜ਼ੂਮ ਇਨ
+avatar-page-rotate-button =
+    .title = ਘੁੰਮਾਓ
+avatar-page-camera-error = ਕੈਮਰਾ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ
 
 ##
 
@@ -207,9 +289,6 @@ avatar-page-add-photo-button =
 
 
 ## Two Step Auth sub-section on Settings main page
-
-
-## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
