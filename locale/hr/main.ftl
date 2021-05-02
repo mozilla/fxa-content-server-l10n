@@ -125,6 +125,7 @@ payment-zip =
 payment-cancel-btn = Odustani
 payment-update-btn = Aktualiziraj
 payment-pay-btn = Plati sada
+payment-pay-with-paypal-btn = Plati s { -brand-name-paypal }
 payment-validate-name-error = Upiši tvoje ime
 payment-validate-zip-required = Moraš zadati poštanski broj
 payment-validate-zip-short = Poštanski broj je prekratak
