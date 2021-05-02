@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-05-02 08:54+0000\n"
+"PO-Revision-Date: 2021-05-02 08:55+0000\n"
 "Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -478,7 +478,7 @@ msgstr "Nevažeći ključ za oporavak"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
-msgstr "Ovaj zahtjev zahtjeva omogućenu dvostupanjsku autorizaciju za vaš račun."
+msgstr "Ovaj zahtjev zahtijeva omogućenu dvofaktorsku autentikaciju za vaš račun."
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
@@ -659,11 +659,11 @@ msgstr "Potreban je broj mobitela"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr "Potreban je kȏd dvofaktorske autentifikacije"
+msgstr "Potreban je kȏd dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr "Neispravan kȏd dvofaktorske autentifikacije"
+msgstr "Neispravan kȏd dvofaktorske autentikacije"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
@@ -1177,7 +1177,7 @@ msgstr "Potvrdi"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "Omogući dvofaktorsku autentifikaciju"
+msgstr "Omogući dvofaktorsku autentikaciju"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1185,7 +1185,7 @@ msgstr "Dodaj sloj zaštite na svoj račun zahtijevanjem sigurnosnog kôda iz je
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr "Skeniraj autentifikacijski kôd"
+msgstr "Skeniraj autentikacijski kôd"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
