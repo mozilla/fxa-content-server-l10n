@@ -116,6 +116,14 @@ connect-another-find-fx-mobile =
 
 cs-heading = Povezane storitve
 cs-description = Vse, kar uporabljate in kamor ste prijavljeni.
+cs-cannot-refresh =
+    Oprostite, prišlo je do težave pri osveževanju seznama povezanih
+    storitev.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Odjavljeno iz storitve { $service }.
 cs-refresh-button =
     .title = Osveži povezane storitve
 # Link text to a support page on missing or duplicate devices
@@ -161,7 +169,13 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Meni { -product-firefox-account(sklon: "rodilnik") }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Prijavljeni kot</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
+drop-down-menu-sign-out-error = Oprostite, prišlo je do težave pri odjavljanju.
 
 ## Flow Container
 
@@ -190,6 +204,7 @@ header-help = Pomoč
 input-password-hide = Skrij geslo
 input-password-show = Pokaži geslo
 input-password-hide-aria = Skrij geslo z zaslona.
+input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
 
 ## Modal
 
@@ -198,7 +213,12 @@ modal-cancel-button = Prekliči
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Potrdite svoj e-poštni naslov
 mvs-enter-verification-code = Vnesite svojo potrditveno kodo
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Vnesite potrditveno kodo, ki smo jo poslali na <email>{ $email }</email>, v 5 minutah.
 msv-cancel-button = Prekliči
 msv-submit-button = Potrdi
 
@@ -213,6 +233,7 @@ nav-paid-subs = Plačljive naročnine
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Pri menjavi kod za obnovitev je prišlo do težave.
+tfa-replace-code-success-alert = Kode za obnovitev računa posodobljene.
 
 ## Avatar change page
 
@@ -420,30 +441,36 @@ rk-enabled = Omogočeno
 rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
+rk-cannot-refresh = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
 rk-key-removed = Obnovitveni ključ za račun odstranjen.
 rk-refresh-key = Osveži obnovitveni ključ
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
+rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Pomožni e-poštni naslov
     .header = Pomožni e-poštni naslov
+se-cannot-refresh-email = Oprostite, prišlo je do težave pri osveževanju e-poštnega naslova.
 se-cannot-resend-code = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } je zdaj vaš glavni e-poštni naslov.
+se-set-primary-error = Oprostite, pri spreminjanju glavnega e-poštnega naslova je prišlo do težave.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } je uspešno izbrisan.
+se-delete-email-error = Oprostite, pri brisanju tega sporočila je prišlo do težave.
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrani e-poštni naslov
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Osveži e-poštni naslov
+se-unverified = nepotrjen
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
 se-content-note =
@@ -461,6 +488,11 @@ tfa-row-enabled = Omogočeno
 tfa-row-not-set = Ni nastavljena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
+tfa-row-button-refresh =
+    .title = Osveži overitev v dveh korakih
+tfa-row-cannot-refresh =
+    Oprostite, prišlo je do težave pri osveževanju
+    overitve v dveh korakih.
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain =
