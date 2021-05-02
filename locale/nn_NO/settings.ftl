@@ -369,6 +369,9 @@ se-heading = Sekundær e-postadresse
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern e-postadresse
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Oppdater e-postadresse
 se-unverified = Ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
