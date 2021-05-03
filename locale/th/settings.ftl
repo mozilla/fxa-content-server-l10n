@@ -166,9 +166,12 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = ถ่ายภาพใหม่
 avatar-page-save-button = บันทึก
 avatar-page-saving-button = กำลังบันทึก…
-avatar-page-zoom-out-button = ขยายออก
-avatar-page-zoom-in-button = ขยายเข้า
-avatar-page-rotate-button = หมุน
+avatar-page-zoom-out-button =
+  .title = ขยายออก
+avatar-page-zoom-in-button =
+  .title = ขยายเข้า
+avatar-page-rotate-button =
+  .title = หมุน
 
 ##
 

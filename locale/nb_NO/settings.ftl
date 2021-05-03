@@ -110,9 +110,12 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Ta bildet på nytt
 avatar-page-close-button = Lukk
 avatar-page-save-button = Lagre
-avatar-page-zoom-out-button = Zoom ut
-avatar-page-zoom-in-button = Zoom inn
-avatar-page-rotate-button = Rotere
+avatar-page-zoom-out-button =
+  .title = Zoom ut
+avatar-page-zoom-in-button =
+  .title = Zoom inn
+avatar-page-rotate-button =
+  .title = Rotere
 
 ##
 
