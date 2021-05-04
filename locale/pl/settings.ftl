@@ -295,7 +295,7 @@ nav-profile = Profil
 nav-security = Bezpieczeństwo
 nav-connected-services = Połączone usługi
 nav-paid-subs = Płatne subskrypcje
-nav-email-comm = Komunikacja pocztą e-mail
+nav-email-comm = Ustawienia poczty
 
 ## Two Step Authentication - replace recovery code
 
