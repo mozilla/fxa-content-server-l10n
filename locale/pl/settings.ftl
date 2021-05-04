@@ -207,7 +207,17 @@ cs-disconnect-sync-opt-not-say = Nie chcę powiedzieć
 
 cs-disconnect-advice-confirm = OK
 cs-disconnect-lost-advice-heading = Rozłączono zgubione lub skradzione urządzenie
+cs-disconnect-lost-advice-content-2 =
+    Ponieważ urządzenie zostało zgubione lub skradzione, należy zmienić
+    hasło { -product-firefox-account(case: "gen", capitalization: "lower") } w ustawieniach konta, aby zapewnić bezpieczeństwo
+    swoich danych. Należy także poszukać informacji o możliwości zdalnego
+    usunięcia danych u producenta urządzenia.
 cs-disconnect-suspicious-advice-heading = Rozłączono podejrzane urządzenie
+cs-disconnect-suspicious-advice-content =
+    Jeśli rozłączane urządzenie jest rzeczywiście podejrzane, należy zmienić
+    hasło { -product-firefox-account(case: "acc", capitalization: "lower") } w ustawieniach konta, aby zapewnić bezpieczeństwo
+    swoich danych. Należy także zmienić wszystkie inne hasła zachowane
+    w { -brand-firefox(case: "loc") }, wpisując about:logins na pasku adresu.
 cs-sign-out-button = Wyloguj się
 
 ##
