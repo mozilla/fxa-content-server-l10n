@@ -516,12 +516,34 @@ rk-not-set = Nieustawiony
 rk-action-create = Utwórz
 rk-action-remove = Usuń
 rk-cannot-refresh = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
+rk-key-removed = Usunięto klucz odzyskiwania konta.
+rk-cannot-remove-key = Nie można usunąć klucza odzyskiwania konta.
 rk-refresh-key = Odśwież klucz odzyskiwania
+rk-content-explain = Przywróć swoje dane, gdy zapomnisz hasła.
+rk-content-reset-data = Dlaczego zmiana hasła powoduje usunięcie moich danych?
+rk-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
+rk-remove-modal-heading = Usunąć klucz odzyskiwania?
+rk-refresh-error = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
+rk-remove-error = Nie można usunąć klucza odzyskiwania konta.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Dodatkowy adres e-mail
     .header = Dodatkowy adres e-mail
+se-cannot-refresh-email = Przepraszamy, wystąpił problem podczas odświeżania tego adresu e-mail.
+se-cannot-resend-code = Przepraszamy, wystąpił problem podczas ponownego wysyłania kodu weryfikacyjnego.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } jest teraz głównym adresem e-mail.
+se-set-primary-error = Przepraszamy, wystąpił problem podczas zmieniania głównego adresu e-mail.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Pomyślnie usunięto adres { $email }.
+se-delete-email-error = Przepraszamy, wystąpił problem podczas usuwania tego adresu e-mail.
+se-verify-session = Musisz zweryfikować obecną sesję, aby wykonać to działanie.
+se-verify-session-error = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
 # Button to remove the secondary email
 se-remove-email =
     .title = Usuń adres e-mail
@@ -529,8 +551,15 @@ se-remove-email =
 se-refresh-email =
     .title = Odśwież adres e-mail
 se-unverified = niezweryfikowany
+se-resend-code =
+    Wymagana jest weryfikacja. <button>Wyślij kod weryfikacyjny jeszcze raz</button>,
+    jeśli nie ma go w Odebranych ani w Niechcianych.
 # Button to make secondary email the primary
 se-make-primary = Ustaw jako główny
+se-default-content = Uzyskaj dostęp do konta, jeśli nie możesz zalogować się na główny adres e-mail.
+se-content-note =
+    Uwaga: dodatkowy adres e-mail nie przywróci danych &mdash; do tego
+    potrzebny będzie <a>klucz odzyskiwania</a>.
 
 ##
 
@@ -545,7 +574,15 @@ tfa-row-action-add = Dodaj
 tfa-row-action-disable = Wyłącz
 tfa-row-button-refresh =
     .title = Odśwież uwierzytelnianie dwuetapowe
+tfa-row-cannot-refresh =
+    Przepraszamy, wystąpił problem podczas odświeżania
+    uwierzytelniania dwuetapowego.
+tfa-row-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
+tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
+tfa-row-disable-modal-explain = Tego działania nie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
+tfa-row-cannot-disable = Nie można wyłączyć uwierzytelniania dwuetapowego.
+tfa-row-change-modal-heading = Zmienić kody odzyskiwania?
 tfa-row-change-modal-confirm = Zmień
 
 ## Auth-server based errors that originate from backend service
