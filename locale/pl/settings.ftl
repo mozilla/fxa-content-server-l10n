@@ -230,33 +230,79 @@ drop-down-menu-title = Menu { -product-firefox-account(case: "gen", capitalizati
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Zalogowano jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wyloguj się
+drop-down-menu-sign-out-error = Przepraszamy, wystąpił problem z wylogowaniem.
 
 ## Flow Container
 
+flow-container-back = Wstecz
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Kody odzyskiwania
+get-data-trio-download =
+    .title = Pobierz
+get-data-trio-copy =
+    .title = Kopiuj
+get-data-trio-print =
+    .title = Drukuj
 
 # HeaderLockup component
 
+header-menu-open = Zamknij menu
+header-menu-closed = Menu nawigacji witryny
+header-back-to-top-link =
+    .title = Wróć na górę
+header-title = { -product-firefox-accounts }
+header-help = Pomoc
 
 ## Input Password
 
+input-password-hide = Ukryj hasło
+input-password-show = Pokaż hasło
+input-password-hide-aria = Ukryj hasło z ekranu.
+input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
 
 ## Modal
 
+modal-close-title = Zamknij
+modal-cancel-button = Anuluj
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Zweryfikuj adres e-mail
+mvs-enter-verification-code = Wpisz kod weryfikacyjny
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Proszę wpisać kod weryfikacyjny wysłany na adres %(escapedEmail)s w ciągu 5 minut.
+msv-cancel-button = Anuluj
+msv-submit-button = Zweryfikuj
 
 ## Settings Nav
 
+nav-settings = Ustawienia
+nav-profile = Profil
+nav-security = Bezpieczeństwo
+nav-connected-services = Połączone usługi
+nav-paid-subs = Płatne subskrypcje
+nav-email-comm = Komunikacja pocztą e-mail
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Wystąpił problem podczas zastępowania kodów odzyskiwania.
+tfa-replace-code-success-alert = Zaktualizowano kody odzyskiwania konta.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Zdjęcie profilowe
+avatar-page-add-photo = Dodaj zdjęcie
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Zrób zdjęcie
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Usuń zdjęcie
 
 ##
 
