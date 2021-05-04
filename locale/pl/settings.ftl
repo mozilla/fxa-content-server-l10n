@@ -303,6 +303,8 @@ avatar-page-take-photo = Zrób zdjęcie
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo = Usuń zdjęcie
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Zrób zdjęcie jeszcze raz
 avatar-page-cancel-button = Anuluj
 avatar-page-save-button = Zachowaj
@@ -523,6 +525,9 @@ rk-content-explain = Przywróć swoje dane, gdy zapomnisz hasła.
 rk-content-reset-data = Dlaczego zmiana hasła powoduje usunięcie moich danych?
 rk-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
 rk-remove-modal-heading = Usunąć klucz odzyskiwania?
+rk-remove-modal-content =
+    W przypadku zmiany hasła nie będzie można użyć klucza odzyskiwania
+    do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
 rk-refresh-error = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
 rk-remove-error = Nie można usunąć klucza odzyskiwania konta.
 
@@ -577,13 +582,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
+tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
 tfa-row-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
-tfa-row-disable-modal-explain = Tego działania nie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
+tfa-row-disable-modal-explain = Tego działania nie będzie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
 tfa-row-cannot-disable = Nie można wyłączyć uwierzytelniania dwuetapowego.
 tfa-row-change-modal-heading = Zmienić kody odzyskiwania?
 tfa-row-change-modal-confirm = Zmień
+tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
 ## Auth-server based errors that originate from backend service
 
