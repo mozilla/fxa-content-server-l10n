@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-05-04 12:14+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"PO-Revision-Date: 2021-04-12 16:11+0000\n"
+"Last-Translator: wojciech.bigosinski <wojciech.bigosinski@protonmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -1520,7 +1520,7 @@ msgstr "W jakiej sprawie się z nami kontaktujesz?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Proszę wybrać jedno"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
