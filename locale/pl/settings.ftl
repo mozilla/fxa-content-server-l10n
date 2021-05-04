@@ -303,30 +303,92 @@ avatar-page-take-photo = Zrób zdjęcie
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo = Usuń zdjęcie
+avatar-page-retake-photo = Zrób zdjęcie jeszcze raz
+avatar-page-cancel-button = Anuluj
+avatar-page-save-button = Zachowaj
+avatar-page-saving-button = Zachowywanie…
+avatar-page-zoom-out-button =
+    .title = Pomniejsz
+avatar-page-zoom-in-button =
+    .title = Powiększ
+avatar-page-rotate-button =
+    .title = Obróć
+avatar-page-camera-error = Nie można zainicjować aparatu
+avatar-page-new-avatar =
+    .alt = nowe zdjęcie profilowe
+avatar-page-file-upload-error-2 = Wystąpił problem podczas przesyłania zdjęcia profilowego.
+avatar-page-delete-error-2 = Wystąpił problem podczas usuwania zdjęcia profilowego.
+avatar-page-image-too-large-error = Rozmiar pliku obrazu jest za duży, aby można go było wysłać.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Zmień hasło
+pw-change-stay-safe = Dbaj o bezpieczeństwo — nie używaj tego samego hasła w kilku miejscach. Twoje hasło:
+pw-change-least-8-chars = Musi mieć co najmniej 8 znaków
+pw-change-not-contain-email = Nie może być Twoim adresem e-mail
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Nie może być na tej
+    <a %(escapedCommonPasswordLinkAttrs)s>liście popularnych haseł</a>
+pw-change-cancel-button = Anuluj
+pw-change-save-button = Zachowaj
+pw-change-forgot-password-link = Nie pamiętasz hasła?
+pw-change-current-password =
+    .label = Wpisz obecne hasło
+pw-change-new-password =
+    .label = Wpisz nowe hasło
+pw-change-confirm-password =
+    .label = Potwierdź nowe hasło
+pw-change-success-alert = Zaktualizowano hasło.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Usuń konto
+delete-account-step-1-2 = 1. krok z 2
+delete-account-step-2-2 = 2. krok z 2
+delete-account-continue-button = Kontynuuj
+delete-account-password-input =
+    .label = Wpisz hasło
+delete-account-cancel-button = Anuluj
+delete-account-delete-button-2 = Usuń
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Wyświetlana nazwa
+display-name-input =
+    .label = Wpisz wyświetlaną nazwę
+submit-display-name = Zachowaj
+cancel-display-name = Anuluj
+display-name-update-error = Wystąpił problem podczas aktualizacji wyświetlanej nazwy.
+display-name-success-alert = Zaktualizowano wyświetlaną nazwę.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Anuluj
+recovery-key-close-button = Zamknij
+recovery-key-continue-button = Kontynuuj
+recovery-key-enter-password =
+    .label = Wpisz hasło
+recovery-key-page-title =
+    .title = Klucz odzyskiwania
+recovery-key-step-1 = 1. krok z 2
+recovery-key-step-2 = 2. krok z 2
+recovery-key-success-alert = Utworzono klucz odzyskiwania.
 
 ## Add secondary email page
 
