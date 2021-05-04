@@ -67,6 +67,7 @@ bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 
 ## Connect another device promo
 
+connect-another-fx-mobile = { -brand-firefox } nel móvil o na tableta
 connect-another-find-fx-mobile =
     Atopa { -brand-firefox } na { -google-play } y { -app-store } o
     <br /><linkExternal>unvia un enllaz de descarga al to preséu</linkExternal>.
