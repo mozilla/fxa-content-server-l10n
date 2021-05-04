@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Titz'apïx rutzijol
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -29,6 +33,7 @@
         [uppercase] Account Firefox
     }
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -59,6 +64,9 @@ avatar-default-avatar =
     .alt = Avatar k'o wi
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -138,6 +146,14 @@ datablock-copy =
 datablock-print =
     .message = Tz'ajb'en
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = Titz'apïx molojri'ïl
+
+## Flow Container
+
+flow-container-back = Chi rij
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kolonel B'itz'ib'
@@ -155,9 +171,23 @@ header-menu-closed = Ruk'utsamaj okem pa ruk'amaya'l ruxaq
 header-back-to-top-link =
     .title = Titzolin pa rutikirib'al
 header-title = { -product-firefox-accounts }
-header-switch-title = Tijal pa klasiko' ruwa
-    .title = ruximoj k'asiko' ruwa
 header-help = Tob'äl
+
+## Input Password
+
+input-password-hide = Tewäx ewan tzij
+input-password-show = Tik'ut ewan tzij
+
+## Modal
+
+modal-close-title = Titz'apïx
+modal-cancel-button = Tiq'at
+
+## Modal Verify Session
+
+mvs-enter-verification-code = Titz'ib'äx rub'itz'ib' ajikib'anem
+msv-cancel-button = Tiq'at
+msv-submit-button = Tinik'öx
 
 ## Settings Nav
 
@@ -190,15 +220,15 @@ avatar-page-remove-photo = Tiyuj wachib'äl
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Telesäx chik wachib'äl
-avatar-page-close-button = Titz'apïx
+avatar-page-cancel-button = Tiq'at
 avatar-page-save-button = Tiyak
 avatar-page-saving-button = Niyak…
 avatar-page-zoom-out-button =
-  .title = Ruch'utinirisaxik rupalem
+    .title = Ruch'utinirisaxik rupalem
 avatar-page-zoom-in-button =
-  .title = Tinimirisäx
+    .title = Tinimirisäx
 avatar-page-rotate-button =
-  .title = Tisetüx
+    .title = Tisetüx
 avatar-page-camera-error = Man tikirel ta xtikirisäx elesäy wachib'äl
 avatar-page-new-avatar =
     .alt = k'ak'a' ruwachib'al ruwäch b'i'aj
@@ -251,7 +281,6 @@ delete-account-chk-box-3 =
     .label = We natzïj chik rik'in re taqoya'l re' rik'in jub'a' man xkekolotäj ta ri awetamab'al e'ayakon kan
 delete-account-chk-box-4 =
     .label = Xtiyuj xab'achike k'amal chuqa' wachinel xataluj rutzijol pa addons.mozilla.org
-delete-account-close-button = Titz'apïx
 delete-account-continue-button = Titikïr chik el
 delete-account-password-input =
     .label = Titz'ib'äx ewan tzij
@@ -367,6 +396,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Ruwäch b'i'aj
+profile-picture =
+    .header = Wachib'äl
 profile-display-name =
     .header = Tik'ut b'i'aj
 profile-password =
@@ -394,7 +425,8 @@ row-defaults-status = Majun
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Tzijon
+rk-header = Kolonel ewan tzij
+rk-enabled = Xtzij
 rk-not-set = Majun runuk'ulem
 rk-action-create = Titz'uk
 rk-action-remove = Tiyuj
@@ -409,6 +441,8 @@ rk-remove-modal-heading = ¿La niyuj ri kolonel ruk'u'x rutzij?
 rk-remove-modal-content =
     Toq xtikolotäj ri ewan atzij, man
     xkatikïr ta xtawokisaj ri kolonel ruk'u'x atzij richin yatok pa taq atzij. Man yatikïr ta natzolij re rub'anik.
+rk-refresh-error = Takuyu', xk'ulwachitäj jun k'ayewal toq xk'ex ri kolonel ruk'u'x tzij.
+rk-remove-error = Man tikirel ta niyuj ri kolonel ruk'u'x rutzij rub'i' taqoya'l.
 
 ## Secondary email sub-section on main Settings page
 
@@ -448,8 +482,7 @@ se-content-note = Ch'utitzijol: jun ruka'n taqoya'l man xtunük' ta ri awetamab'
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Jikib'anem rik'in ka'i'-xak
+tfa-row-header = Jikib'anem rik'in ka'i'-xak
 tfa-row-disabled = Xchup ri jikib'anem rik'in ka'i'-xaq.
 tfa-row-enabled = Tzijon
 tfa-row-not-set = Majun runuk'ulem
@@ -474,12 +507,6 @@ tfa-row-cannot-disable = Man tikirel ta nichup ri rujikib'axik pa ka'i'-xaq.
 tfa-row-change-modal-heading = ¿La yejal ri kolonel taq b'itz'ib'?
 tfa-row-change-modal-confirm = Tijalwachïx
 tfa-row-change-modal-explain = Man tikirel ta nitzolïx re samaj re'.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Wachib'äl
-avatar-add-link = Titz'aqatisäx
-avatar-change-link = Tijal
 
 ## Auth-server based errors that originate from backend service
 

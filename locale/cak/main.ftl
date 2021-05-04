@@ -29,7 +29,6 @@ payment-error-retry-button = Titojtob'ëx chik
 payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 country-currency-mismatch = Man okel ta ri rupwaq re tz'ib'anïk b'i'aj re' richin re amaq' atz'ib'an kan richin ri atojik.
 currency-currency-mismatch = Takuyu'. Man yatikïr ta najäl chi kikojol ri pwaqil.
-returning-paypal-customer-error = Takuyu'. Pa re ramaj re', xa xe yatikïr natz'ib'aj ab'i' pa jun rutz'ib'axik b'i'aj. Tanik'oj pa jumej chik.
 no-subscription-upgrades = Takuyu'. Man yatikïr ta nak'ëx chuqa' nichup ruwa ri rutz'ib'axik ab'i' wakami. Tanik'oj pa jumej chik.
 expired-card-error = Xa ke xa ri rutajeta' richin kre'ito' xik'o yan ruq'ijul. Tatojtob'ej chik rik'in jun tarjeta'.
 insufficient-funds-error = Xa ke xa ri tajeta' man k'ïy ta rupam. Tatojtob'ej chik rik'in jun tarjeta'.
@@ -345,6 +344,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = K'o k'ayewal toq nisamajïx ri okisanel
 sub-billing-update-success = Ütz xk'ex ri retamab'al paktura'
+pay-update-manage-btn = Tinuk'samajïx
 
 ## subscription create
 
