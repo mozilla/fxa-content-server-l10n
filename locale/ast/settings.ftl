@@ -279,6 +279,8 @@ security-heading = Seguranza
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Amestar
+row-defaults-action-change = Camudar
 
 ## Recovery key sub-section on main Settings page
 
@@ -308,6 +310,7 @@ se-unverified = ensin verificar
 tfa-row-header = Autenticación en dos pasos
 tfa-row-disabled = Desactivóse l'autenticación en dos pasos.
 tfa-row-not-set = Nun s'afitó
+tfa-row-action-add = Amestar
 tfa-row-button-refresh =
     .title = Refrescar l'autenticación en dos pasos
 tfa-row-cannot-refresh =
@@ -323,6 +326,7 @@ tfa-row-disable-modal-explain =
     tienes la opción de <linkExternal>trocar los códigos de recuperación</linkExternal>.
 tfa-row-cannot-disable = L'autenticación en dos pasos nun pudo desactivase.
 tfa-row-change-modal-heading = ¿Camudar los códigos de recuperación?
+tfa-row-change-modal-confirm = Camudar
 tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
 
 ## Auth-server based errors that originate from backend service
