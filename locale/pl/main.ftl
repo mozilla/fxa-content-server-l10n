@@ -381,10 +381,14 @@ sub-customer-error =
     .title = Problem podczas wczytywania klienta
 sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
 sub-route-payment-modal-heading = Nieprawidłowe dane płatnicze
+pay-update-manage-btn = Zarządzaj
 
 ## subscription create
 
 sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
+pay-with-heading-other = Wybierz opcję płatności
+pay-with-heading-card-or = Lub zapłać kartą
+pay-with-heading-card-only = Zapłać kartą
 
 ## plan-details
 
@@ -395,11 +399,13 @@ plan-details-total-label = Razem
 
 ## payment-processing
 
+payment-processing-message = Prosimy czekać na przetworzenie płatności…
 
 ## payment confirmation
 
 payment-confirmation-alert = Kliknij tutaj, aby pobrać
 payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
+payment-confirmation-thanks-heading = Dziękujemy!
 payment-confirmation-order-heading = Informacje o zamówieniu
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Wystawiona na
@@ -437,3 +443,4 @@ payment-confirmation-amount-year =
        *[many] { $amount } co { $intervalCount } lat
     }
 payment-confirmation-download-button = Kontynuuj, aby pobrać
+payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
