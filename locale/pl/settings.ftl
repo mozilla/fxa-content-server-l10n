@@ -274,7 +274,7 @@ mvs-enter-verification-code = Wpisz kod weryfikacyjny
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Proszę wpisać kod weryfikacyjny wysłany na adres %(escapedEmail)s w ciągu 5 minut.
+mvs-enter-verification-code-desc = Proszę wpisać kod weryfikacyjny wysłany na adres <email>{ $email }</email> w ciągu 5 minut.
 msv-cancel-button = Anuluj
 msv-submit-button = Zweryfikuj
 
@@ -333,7 +333,7 @@ pw-change-not-contain-email = Nie może być Twoim adresem e-mail
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Nie może być na tej
-    <a %(escapedCommonPasswordLinkAttrs)s>liście popularnych haseł</a>
+    <linkExternal>liście popularnych haseł</linkExternal>
 pw-change-cancel-button = Anuluj
 pw-change-save-button = Zachowaj
 pw-change-forgot-password-link = Nie pamiętasz hasła?
@@ -392,45 +392,114 @@ recovery-key-success-alert = Utworzono klucz odzyskiwania.
 
 ## Add secondary email page
 
+add-secondary-email-error = Wystąpił problem podczas tworzenia tego adresu e-mail.
+add-secondary-email-page-title =
+    .title = Dodatkowy adres e-mail
+add-secondary-email-enter-address =
+    .label = Wpisz adres e-mail
+add-secondary-email-cancel-button = Anuluj
+add-secondary-email-save-button = Zachowaj
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Wystąpił problem podczas wysyłania kodu weryfikacyjnego
+verify-secondary-email-page-title =
+    .title = Dodatkowy adres e-mail
+verify-secondary-email-verification-code =
+    .label = Wpisz kod weryfikacyjny
+verify-secondary-email-cancel-button = Anuluj
+verify-secondary-email-verify-button = Zweryfikuj
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Proszę wpisać kod weryfikacyjny wysłany na adres <strong>{ $email }</strong> w ciągu 5 minut.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Pomyślnie dodano adres { $email }.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Usuń konto
 
 ## Two Step Authentication
 
+tfa-title = Uwierzytelnianie dwuetapowe
+tfa-step-1-3 = 1. krok z 3
+tfa-step-2-3 = 2. krok z 3
+tfa-step-3-3 = 3. krok z 3
+tfa-button-continue = Kontynuuj
+tfa-button-cancel = Anuluj
+tfa-button-finish = Dokończ
+tfa-enter-recovery-code =
+    .label = Wpisz kod odzyskiwania
 
 ##
 
 
 ## Profile section
 
+profile-heading = Profil
+profile-picture =
+    .header = Zdjęcie
+profile-display-name =
+    .header = Wyświetlana nazwa
+profile-password =
+    .header = Hasło
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Utworzono { $date }
+profile-primary-email =
+    .header = Główny adres e-mail
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Bezpieczeństwo
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Dodaj
+row-defaults-action-change = Zmień
+row-defaults-action-disable = Wyłącz
+row-defaults-status = Brak
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Klucz odzyskiwania
+rk-enabled = Włączony
+rk-not-set = Nieustawiony
+rk-action-create = Utwórz
+rk-action-remove = Usuń
+rk-refresh-key = Odśwież klucz odzyskiwania
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Dodatkowy adres e-mail
+    .header = Dodatkowy adres e-mail
+# Button to remove the secondary email
+se-remove-email =
+    .title = Usuń adres e-mail
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Odśwież adres e-mail
+se-unverified = niezweryfikowany
+# Button to make secondary email the primary
+se-make-primary = Ustaw jako główny
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Uwierzytelnianie dwuetapowe
 
 ## Auth-server based errors that originate from backend service
 
