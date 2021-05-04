@@ -327,7 +327,7 @@ avatar-page-image-too-large-error = Rozmiar pliku obrazu jest za duży, aby moż
 
 pw-change-header =
     .title = Zmień hasło
-pw-change-stay-safe = Dbaj o bezpieczeństwo — nie używaj tego samego hasła w kilku miejscach. Twoje hasło:
+pw-change-stay-safe = Dbaj o bezpieczeństwo &mdash; nie używaj tego samego hasła w kilku miejscach. Twoje hasło:
 pw-change-least-8-chars = Musi mieć co najmniej 8 znaków
 pw-change-not-contain-email = Nie może być Twoim adresem e-mail
 # linkExternal is a link to a mozilla.org support article on password strength
@@ -354,6 +354,15 @@ delete-account-header =
     .title = Usuń konto
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
+delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
+delete-account-chk-box-1 =
+    .label = Wszelkie płatne subskrypcje zostaną anulowane
+delete-account-chk-box-2 =
+    .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
+delete-account-chk-box-3 =
+    .label = Ponowna aktywacja za pomocą tego adresu e-mail może nie przywrócić zachowanych informacji
+delete-account-chk-box-4 =
+    .label = Wszystkie rozszerzenia i motywy opublikowane przez Ciebie w serwisie addons.mozilla.org zostaną usunięte
 delete-account-continue-button = Kontynuuj
 delete-account-password-input =
     .label = Wpisz hasło
@@ -382,6 +391,7 @@ display-name-success-alert = Zaktualizowano wyświetlaną nazwę.
 recovery-key-cancel-button = Anuluj
 recovery-key-close-button = Zamknij
 recovery-key-continue-button = Kontynuuj
+recovery-key-created = Utworzono klucz odzyskiwania. Pamiętaj, aby zachować klucz w bezpiecznym miejscu, które będzie można później łatwo znaleźć &mdash; będzie on potrzebny do odzyskania dostępu do swoich danych, jeśli zapomnisz hasła.
 recovery-key-enter-password =
     .label = Wpisz hasło
 recovery-key-page-title =
@@ -435,6 +445,9 @@ tfa-step-3-3 = 3. krok z 3
 tfa-button-continue = Kontynuuj
 tfa-button-cancel = Anuluj
 tfa-button-finish = Dokończ
+tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
+tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
+tfa-cannot-verify-code = Wystąpił problem z weryfikacją kodu odzyskiwania.
 tfa-enter-recovery-code =
     .label = Wpisz kod odzyskiwania
 
@@ -500,6 +513,21 @@ se-make-primary = Ustaw jako główny
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
+tfa-row-disabled = Uwierzytelnianie dwuetapowe jest wyłączone.
+tfa-row-enabled = Włączone
+tfa-row-not-set = Nieustawione
+tfa-row-action-add = Dodaj
+tfa-row-action-disable = Wyłącz
+tfa-row-button-refresh =
+    .title = Odśwież uwierzytelnianie dwuetapowe
+tfa-row-disable-modal-confirm = Wyłącz
+tfa-row-change-modal-confirm = Zmień
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Nieznane konto
+auth-error-103 = Niepoprawne hasło
+auth-error-110 = Nieprawidłowy token
+auth-error-138 = Niezweryfikowana sesja
+auth-error-155 = Nie odnaleziono tokena TOTP
+auth-error-1008 = Nowe hasło musi być inne niż poprzednie
