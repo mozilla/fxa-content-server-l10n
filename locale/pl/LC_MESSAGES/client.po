@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-05-04 13:40+0000\n"
+"PO-Revision-Date: 2021-05-04 13:48+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1201,7 +1201,7 @@ msgstr "Zeskanuj kod QR w aplikacji uwierzytelniania, a następnie wpisz podan
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr "Nie można zeskanować kodu?"
+msgstr "Nie możesz zeskanować kodu?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."

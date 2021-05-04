@@ -415,7 +415,7 @@ add-secondary-email-save-button = Zachowaj
 
 ## Verify secondary email page
 
-verify-secondary-email-error = Wystąpił problem podczas wysyłania kodu weryfikacyjnego
+verify-secondary-email-error = Wystąpił problem podczas wysyłania kodu weryfikacyjnego.
 verify-secondary-email-page-title =
     .title = Dodatkowy adres e-mail
 verify-secondary-email-verification-code =
@@ -447,7 +447,31 @@ tfa-button-cancel = Anuluj
 tfa-button-finish = Dokończ
 tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
-tfa-cannot-verify-code = Wystąpił problem z weryfikacją kodu odzyskiwania.
+tfa-cannot-verify-code = Wystąpił problem podczas weryfikowania kodu odzyskiwania.
+tfa-incorrect-recovery-code = Niepoprawny kod odzyskiwania
+tfa-enabled = Włączono uwierzytelnianie dwuetapowe
+tfa-scan-this-code =
+    Zeskanuj ten kod QR za pomocą jednej
+    z <linkExternal>tych aplikacji uwierzytelniania</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie
+    dwuetapowe w obsługiwanych aplikacjach.
+tfa-button-cant-scan-qr = Nie możesz zeskanować kodu?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniającej:
+tfa-enter-totp = Wpisz teraz kod zabezpieczeń z aplikacji uwierzytelniającej.
+tfa-input-enter-totp =
+    .label = Wpisz kod zabezpieczeń
+tfa-save-these-codes =
+    Przechowuj te kody jednorazowego użytku w bezpiecznym miejscu
+    na wypadek sytuacji, w której nie masz swojego telefonu.
+tfa-enter-code-to-confirm =
+    Wpisz teraz jeden z kodów odzyskiwania, aby potwierdzić,
+    że je zachowano. Kod będzie potrzebny w razie zgubienia
+    urządzenia, aby odzyskać dostęp do konta.
 tfa-enter-recovery-code =
     .label = Wpisz kod odzyskiwania
 
@@ -491,6 +515,7 @@ rk-enabled = Włączony
 rk-not-set = Nieustawiony
 rk-action-create = Utwórz
 rk-action-remove = Usuń
+rk-cannot-refresh = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
 rk-refresh-key = Odśwież klucz odzyskiwania
 
 ## Secondary email sub-section on main Settings page
