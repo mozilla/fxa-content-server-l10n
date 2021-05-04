@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-05-04 12:21+0000\n"
+"PO-Revision-Date: 2021-05-04 12:24+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -505,7 +505,7 @@ msgstr "Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:"
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Wykryliśmy problem z wybraną metodą płatności za poniższe subskrypcje."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -621,7 +621,7 @@ msgstr "Czy to Ty się rejestrujesz?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Jeśli tak, użyj tego kodu weryfikacyjnego w formularzu rejestracyjnym:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -677,7 +677,7 @@ msgstr "Zarządzaj kontem:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
@@ -894,11 +894,11 @@ msgstr "Karta płatnicza dla subskrypcji wkrótce wygaśnie"
 
 #: lib/senders/email.js:2110
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Wymagana jest aktualizacja informacji o płatności za %(productName)s"
 
 #: lib/senders/email.js:2124
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Wymagana jest aktualizacja informacji o płatności za subskrypcje Mozilli"
 
 #: lib/senders/email.js:2176
 msgid "%(productName)s payment failed"

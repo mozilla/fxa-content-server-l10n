@@ -24,6 +24,8 @@ project-brand = Konta Firefoksa
         [ins] Firefoksem
         [loc] Firefoksie
     }
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Konta Firefoksa
 
@@ -38,6 +40,12 @@ general-error-heading = Ogólny błąd aplikacji
 basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
 payment-error-1 = Wystąpił problem z upoważnieniem płatności. Spróbuj ponownie lub skontaktuj się z wystawcą karty.
 payment-error-2 = Wystąpił problem z upoważnieniem płatności. Skontaktuj się z wystawcą karty.
+payment-error-3b = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
+payment-error-retry-button = Spróbuj ponownie
+payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
+country-currency-mismatch = Waluta tej subskrypcji nie jest prawidłowa w kraju powiązanym z płatnością.
+currency-currency-mismatch = Przepraszamy. Nie można zmieniać waluty.
+no-subscription-upgrades = Przepraszamy. W tej chwili nie możesz rozszerzyć ani obniżyć swojej subskrypcji. Zapraszamy wkrótce.
 expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
 insufficient-funds-error = Wygląda na to, że karta ma niewystarczające środki. Spróbuj użyć innej karty.
 withdrawal-count-limit-exceeded-error = Wygląda na to, że ta transakcja spowoduje przekroczenie limitu kredytowego. Spróbuj użyć innej karty.
@@ -57,10 +65,13 @@ settings-subscriptions-title = Subskrypcje
 terms = Regulamin usługi
 privacy = Zasady ochrony prywatności
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Skonfigurujmy Twoją subskrypcję
-product-plan-details-heading = Skonfigurujmy Twoją subskrypcję
+subscription-create-title = Skonfiguruj swoją subskrypcję
+subscription-success-title = Potwierdzenie subskrypcji
+subscription-processing-title = Potwierdzanie subskrypcji…
+subscription-error-title = Błąd podczas potwierdzania subskrypcji…
+subscription-noupgrade-title = Zmiany poziomu subskrypcji są nieobsługiwane
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -107,8 +118,12 @@ product-no-such-plan = Nie ma takiego planu dla tego produktu.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } korzysta z usług firmy Stripe do bezpiecznego przetwarzania płatności.
-payment-legal-link = Wyświetl <a>zasady ochrony prywatności firmy Stripe</a>.
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } korzysta z serwisów { -brand-name-stripe } i { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
+payment-legal-link-stripe-and-paypal-2 = Wyświetl <stripePrivacyLink>zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink> i <paypalPrivacyLink>zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } korzysta z serwisu { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
+payment-legal-link-paypal = Wyświetl <paypalPrivacyLink>zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } korzysta z serwisu { -brand-name-stripe } do bezpiecznego przetwarzania płatności.
+payment-legal-link-stripe-2 = Wyświetl <stripePrivacyLink>zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -182,8 +197,6 @@ input-error-is-required = Pole „{ $label }” jest wymagane
 
 product-plan-upgrade-heading = Przejrzyj swoje rozszerzenie planu
 sub-update-failed = Aktualizacja planu się nie powiodła
-sub-update-title = Informacje rozliczeniowe
-sub-update-card-ending = Karta kończąca się na { $last }
 sub-update-card-exp = Wygasa { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
@@ -377,13 +390,13 @@ plan-details-show-button = Wyświetl informacje
 plan-details-hide-button = Ukryj informacje
 plan-details-total-label = Razem
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Kliknij tutaj, aby pobrać
 payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
-payment-confirmation-heading = Dziękujemy!
-payment-confirmation-heading-bak = Dziękujemy!
-payment-confirmation-subheading = Wiadomość z potwierdzeniem została wysłana na adres
 payment-confirmation-order-heading = Informacje o zamówieniu
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Wystawiona na
@@ -420,5 +433,4 @@ payment-confirmation-amount-year =
         [few] { $amount } co { $intervalCount } lata
        *[many] { $amount } co { $intervalCount } lat
     }
-payment-confirmation-cc-preview = kończąca się na { $last4 }
 payment-confirmation-download-button = Kontynuuj, aby pobrać
