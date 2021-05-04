@@ -290,6 +290,7 @@ nav-email-comm = Komunikacja pocztą e-mail
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Wystąpił problem podczas zastępowania kodów odzyskiwania.
+tfa-replace-code-success = Utworzono nowe kody. Zachowaj te kody jednorazowego użytku w bezpiecznym miejscu &mdash; będą one potrzebne do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
 tfa-replace-code-success-alert = Zaktualizowano kody odzyskiwania konta.
 
 ## Avatar change page
@@ -332,6 +333,7 @@ pw-change-header =
 pw-change-stay-safe = Dbaj o bezpieczeństwo &mdash; nie używaj tego samego hasła w kilku miejscach. Twoje hasło:
 pw-change-least-8-chars = Musi mieć co najmniej 8 znaków
 pw-change-not-contain-email = Nie może być Twoim adresem e-mail
+pw-change-must-match = Nowe hasło zgadza się z potwierdzeniem
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Nie może być na tej
@@ -356,6 +358,7 @@ delete-account-header =
     .title = Usuń konto
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
+delete-account-confirm-title-2 = { -product-firefox-account } jest połączone z produktami { -brand-mozilla(case: "gen") }, które zapewniają bezpieczeństwo i produktywność w Internecie:
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
 delete-account-chk-box-1 =
     .label = Wszelkie płatne subskrypcje zostaną anulowane

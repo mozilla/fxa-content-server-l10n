@@ -383,6 +383,7 @@ sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
 sub-route-payment-modal-heading = Nieprawidłowe dane płatnicze
 sub-route-payment-modal-message = Wygląda na to, że wystąpił błąd na Twoim koncie { -brand-name-paypal }. Musisz podjąć niezbędne kroki, aby rozwiązać ten problem z płatnością.
 sub-route-missing-billing-agreement-payment-alert = Nieprawidłowe informacje o płatności &mdash; wystąpił błąd na Twoim koncie. <div>Zarządzaj</div>
+sub-route-funding-source-payment-alert = Nieprawidłowe informacje o płatności &mdash; wystąpił błąd na Twoim koncie. To powiadomienie może być widoczne jeszcze przez jakiś czas po pomyślnej aktualizacji informacji. <div>Zarządzaj</div>
 pay-update-manage-btn = Zarządzaj
 
 ## subscription create
@@ -408,6 +409,7 @@ payment-processing-message = Prosimy czekać na przetworzenie płatności…
 payment-confirmation-alert = Kliknij tutaj, aby pobrać
 payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
 payment-confirmation-thanks-heading = Dziękujemy!
+payment-confirmation-thanks-subheading = Na adres { $email } wysłano wiadomość z potwierdzeniem i informacjami, jak zacząć używać usługi { $product_name }.
 payment-confirmation-order-heading = Informacje o zamówieniu
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Wystawiona na
