@@ -178,6 +178,7 @@ payment-confirm = Upoważniam Mozillę, producenta produktów Firefox, do pobier
 payment-cancel-btn = Anuluj
 payment-update-btn = Aktualizuj
 payment-pay-btn = Zapłać teraz
+payment-pay-with-paypal-btn = Zapłać za pomocą serwisu { -brand-name-paypal }
 payment-validate-name-error = Proszę podać swoje imię i nazwisko
 payment-validate-zip-required = Kod pocztowy jest wymagany
 payment-validate-zip-short = Kod pocztowy jest za krótki
@@ -197,6 +198,7 @@ input-error-is-required = Pole „{ $label }” jest wymagane
 
 product-plan-upgrade-heading = Przejrzyj swoje rozszerzenie planu
 sub-update-failed = Aktualizacja planu się nie powiodła
+sub-update-payment-title = Informacje o płatności
 sub-update-card-exp = Wygasa { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Twój plan zmieni się natychmiast, a opłata zostanie skorygowana
@@ -378,6 +380,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem podczas wczytywania klienta
 sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
+sub-route-payment-modal-heading = Nieprawidłowe dane płatnicze
 
 ## subscription create
 
