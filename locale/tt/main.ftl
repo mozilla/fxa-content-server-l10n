@@ -113,11 +113,17 @@ reactivate-success-button = Ябу
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Язылуларны йөкләгәндә хата китте
 sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
 sub-item-cancel-sub = Язылудан баш тарту
+account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
 
+sub-subscription-error =
+    .title = Язылуларны йөкләгәндә хата китте
+sub-customer-error =
+    .title = Кулланучыны йөкләгәндә хата китте
 
 ## subscription create
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-05-05 21:41+0000\n"
+"PO-Revision-Date: 2021-05-05 21:48+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1187,7 +1187,7 @@ msgstr "Аутентификация кодын сканерлау"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Кодны кулдан кертү"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1270,7 +1270,7 @@ msgstr "Уңышлы"
 
 #: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
 msgid "Continue to my account"
-msgstr ""
+msgstr "Хисабыма үтү"
 
 #: .es5/templates/ready.mustache:12
 msgid "Your account is ready!"
@@ -1476,7 +1476,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Ялгыш номермы?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -1484,7 +1484,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Килмәдеме? Яңадан җибәрү"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
@@ -1524,11 +1524,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
-msgstr ""
+msgstr "Хисап проблемалары"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Техник проблемалар"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
@@ -1548,7 +1548,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
-msgstr ""
+msgstr "Проблеманың тасвирламасы"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1850,7 +1850,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Хәбәрегез ярдәмчеләр төркеменә җибәрелде"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
@@ -1910,23 +1910,23 @@ msgstr "Кодны күрсәтү"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Җиһаз уңышлы ялганды"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Ялгау уңышлы булды."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr ""
+msgstr "<small>%(email)s өчен</small> ялгауны раслау"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Ялгауны раслау"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Кушымта ярдәмендә ялгау"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."

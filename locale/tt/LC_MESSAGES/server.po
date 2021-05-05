@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:07+0000\n"
-"PO-Revision-Date: 2021-04-17 17:50+0000\n"
+"PO-Revision-Date: 2021-05-05 21:50+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2635
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Җиһазларны синхронлау өчен соңгы искәртү!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2641
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -300,7 +300,7 @@ msgstr "Киләсе җиһазны көйләү"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr ""
+msgstr "Сорауларыгыз бармы? %(supportUrl)s адресын зиярат итегез"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1391
 msgid "Secondary email added"
@@ -370,7 +370,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "%(productName)s хәбәрләренә язылганыгыз өчен рәхмәт"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -1026,8 +1026,8 @@ msgstr "Иң соңгы версиясен йөкләп алу"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</"
-#~ "a> өчен Firefox кулланмаларыннан да, керә аласыз."
+#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</a> "
+#~ "өчен Firefox кулланмаларыннан да, керә аласыз."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән Android һәм iOS өчен Firefox кулланмаларыннан да, керә аласыз."
