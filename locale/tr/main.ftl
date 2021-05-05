@@ -304,6 +304,7 @@ sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
 sub-item-cancel-sub = Aboneliği iptal et
 sub-item-stay-sub = Aboneliğimi sürdür
 sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
+sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
 account-activated = <userEl/>, hesabınız etkinleştirildi
 
 ## subscription route index
