@@ -65,11 +65,13 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento менюсы
+bento-menu-firefox-title = { -brand-firefox } — онлайн хосусыйлыгыгыз өчен көрәшүче технологияләр.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
 bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
+bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитештерелгән
 
 ## Connect another device promo
 
@@ -82,6 +84,10 @@ connect-another-find-fx-mobile = { -brand-firefox }-ны { -google-play }-дан
 ## Connected services section
 
 cs-heading = Тоташтырылган Хезмәтләр
+cs-cannot-refresh =
+    Гафу итегез, тоташтырылган хезмәтләр исемлеген яңартканда
+    кыенлыклар килеп чыкты.
+cs-cannot-disconnect = Клиент табылмады, тоташуны өзеп булмый
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -186,11 +192,11 @@ avatar-page-cancel-button = Баш тарту
 avatar-page-save-button = Саклау
 avatar-page-saving-button = Саклау…
 avatar-page-zoom-out-button =
-  .title = Кечерәйтү
+    .title = Кечерәйтү
 avatar-page-zoom-in-button =
-  .title = Зурайту
+    .title = Зурайту
 avatar-page-rotate-button =
-  .title = Борып кую
+    .title = Борып кую
 avatar-page-camera-error = Камераны кабызып булмады
 avatar-page-new-avatar =
     .alt = яңа профиль рәсеме
