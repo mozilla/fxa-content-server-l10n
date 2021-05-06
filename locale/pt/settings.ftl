@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -42,7 +45,7 @@ app-default-title = { -product-firefox-accounts }
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logótipo da { -brand-mozilla }
 app-footer-privacy-notice = Nota de privacidade do site
-app-footer-terms-of-service = Termos do serviço
+app-footer-terms-of-service = Condições de utilização
 
 ##
 
@@ -55,6 +58,9 @@ avatar-default-avatar =
     .alt = Avatar predefinido
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -134,6 +140,12 @@ datablock-copy =
 datablock-print =
     .message = Impresso
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Códigos de recuperação
@@ -151,9 +163,16 @@ header-menu-closed = Menu de navegação do site
 header-back-to-top-link =
     .title = Ir para o topo
 header-title = { -product-firefox-accounts }
-header-switch-title = Mudar para o design clássico
-    .title = ligação para o design clássico
 header-help = Ajuda
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -187,7 +206,6 @@ avatar-page-remove-photo = Remover foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tirar foto novamente
-avatar-page-close-button = Fechar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = A guardar…
 avatar-page-zoom-out-button =
@@ -246,7 +264,6 @@ delete-account-chk-box-3 =
     .label = A reativação com este e-mail poderá não restaurar a sua informação guardada
 delete-account-chk-box-4 =
     .label = Quaisquer extensões e temas que tenha publicado em addons.mozilla.org serão eliminados
-delete-account-close-button = Fechar
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Inserir palavra-passe
@@ -390,7 +407,6 @@ row-defaults-status = Nenhum
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Ativado
 rk-not-set = Não definida
 rk-action-create = Criar
 rk-action-remove = Remover
@@ -446,8 +462,6 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticação de dois passos
 tfa-row-disabled = Autenticação de dois passos desativada.
 tfa-row-enabled = Ativado
 tfa-row-not-set = Não definida
@@ -471,12 +485,6 @@ tfa-row-cannot-disable = Não foi possível desativar a autenticação de dois p
 tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Não poderá desfazer esta ação.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Imagem
-avatar-add-link = Adicionar
-avatar-change-link = Alterar
 
 ## Auth-server based errors that originate from backend service
 

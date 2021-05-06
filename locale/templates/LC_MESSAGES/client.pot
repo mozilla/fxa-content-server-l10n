@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-29 22:07+0000\n"
+"POT-Creation-Date: 2021-05-06 22:07+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Password reset successfully. Sign in to continue."
 msgstr ""
 
-#: .es5/views/force_auth.js:197
+#: .es5/views/force_auth.js:199
 #: .es5/lib/strings.js:44
 #: .es5/templates/connect_another_device.mustache:11
 #: .es5/templates/force_auth.mustache:1
@@ -199,6 +199,16 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
+msgstr ""
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr ""
+
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
 msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
@@ -1269,6 +1279,12 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:7
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr ""
@@ -1554,11 +1570,6 @@ msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
-
-#: .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -2091,11 +2102,6 @@ msgstr ""
 msgid ""
 "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common "
 "passwords</a>"
-msgstr ""
-
-#: .es5/templates/partial/show-password.mustache:1
-#: .es5/templates/partial/show-password.mustache:2
-msgid "Show password"
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
