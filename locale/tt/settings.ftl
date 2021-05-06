@@ -289,6 +289,7 @@ recovery-key-success-alert = Коткару ачкычы ясалды.
 
 ## Add secondary email page
 
+add-secondary-email-error = Бу эл. почтаны ясаганда хата китте.
 add-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
 add-secondary-email-enter-address =
@@ -301,6 +302,7 @@ add-secondary-email-save-button = Саклау
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Раслау кодын җибәргәндә хата килеп чыкты.
 verify-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
 verify-secondary-email-verification-code =
@@ -327,8 +329,11 @@ tfa-button-continue = Дәвам итү
 tfa-button-cancel = Баш тарту
 tfa-button-finish = Әзер
 tfa-incorrect-totp = Ике адымлы аутентификация коды хаталы
+tfa-cannot-retrieve-code = Кодыгызны алганда хата килеп чыкты.
+tfa-cannot-verify-code = Коткару кодыгызны тикшергәндә хата килеп чыкты.
 tfa-incorrect-recovery-code = Хаталы коткару коды
 tfa-enabled = Ике адымлы аутентификация кабызылды
+tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
 tfa-input-enter-totp =
     .label = Иминлек кодын кертегез
 tfa-enter-recovery-code =
@@ -340,10 +345,16 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Профиль
+profile-picture =
+    .header = Рәсем
 profile-display-name =
     .header = Күрсәтеләчәк исемегез
 profile-password =
     .header = Парол
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Төзелгән: { $date }
 profile-primary-email =
     .header = Төп эл. почта
 
@@ -365,23 +376,34 @@ row-defaults-status = Бернинди дә
 
 rk-header = Коткару ачкычы
 rk-enabled = Кабызылган
+rk-not-set = Көйләнмәгән
 rk-action-create = Булдыру
 rk-action-remove = Бетерү
+rk-cannot-refresh = Гафу итегез, коткару ачкычын яңартканда хата килеп чыкты.
 rk-key-removed = Хисапны коткару ачкычы бетерелде.
+rk-cannot-remove-key = Хисабыгызны коткару ачкычын бетереп булмады.
+rk-refresh-key = Коткару ачкычын яңарту
+rk-cannot-verify-session-2 = Гафу итегез, сессиягезне тикшергәндә хата килеп чыкты.
 rk-remove-modal-heading = Коткару ачкычы бетерелсенме?
+rk-refresh-error = Гафу итегез, коткару ачкычын яңартканда хата килеп чыкты.
+rk-remove-error = Хисабыгызны коткару ачкычын бетереп булмады.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Икенчел эл. почта адресы
     .header = Икенчел эл. почта адресы
+se-cannot-refresh-email = Гафу итегез, бу эл. почтаны яңартканда хата килеп чыкты.
+se-cannot-resend-code = Гафу итегез, раслау кодын яңадан җибәргәндә хата килеп чыкты.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } хәзер төп эл. почтагыз.
+se-set-primary-error = Гафу итегез, төп эл. почтагызны үзгәрткәндә хата килеп чыкты.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } уңышлы бетерелде
+se-delete-email-error = Гафу итегез, бу эл. почтаны бетергәндә хата килеп чыкты.
 # Button to remove the secondary email
 se-remove-email =
     .title = Эл. почтаны бетерү
