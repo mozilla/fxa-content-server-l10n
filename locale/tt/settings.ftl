@@ -88,6 +88,11 @@ cs-cannot-refresh =
     Гафу итегез, тоташтырылган хезмәтләр исемлеген яңартканда
     кыенлыклар килеп чыкты.
 cs-cannot-disconnect = Клиент табылмады, тоташуны өзеп булмый
+cs-refresh-button =
+    .title = Бәйләнгән хезмәтләрне яңарту
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Табылмаган яки кабатланган элементлар бармы?
+cs-disconnect-sync-heading = Синхронлауны өзү
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
