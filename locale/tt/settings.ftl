@@ -93,6 +93,7 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Табылмаган яки кабатланган элементлар бармы?
 cs-disconnect-sync-heading = Синхронлауны өзү
+cs-disconnect-sync-reason = Бу җиһазны өзүнең төп сәбәбе нинди?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -125,7 +126,12 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } меню
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <user>{ $user }</user><signin> буларак кердегез</signin>
 drop-down-menu-sign-out = Чыгу
+drop-down-menu-sign-out-error = Гафу итегез, сезне чыгарганда кыенлыклар килеп чыкты.
 
 ## Flow Container
 
@@ -144,6 +150,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Менюны ябу
+header-menu-closed = Сайт навигациясе менюсы
 header-back-to-top-link =
     .title = Сәхифә башына
 header-title = { -product-firefox-accounts }
@@ -153,6 +160,7 @@ header-help = Ярдәм
 
 input-password-hide = Серсүзне яшерү
 input-password-show = Серсүзне күрсәтү
+input-password-hide-aria = Серсүзне экраннан яшерү.
 
 ## Modal
 
@@ -163,6 +171,10 @@ modal-cancel-button = Баш тарту
 
 mvs-verify-your-email = Эл. почтагызны раслау
 mvs-enter-verification-code = Раслау кодыгызны языгыз
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Зинһар, 5 минут эчендә <email>{ $email }</email> адресына җибәрелгән раслау кодын кертегез.
 msv-cancel-button = Баш тарту
 msv-submit-button = Раслау
 
@@ -177,6 +189,7 @@ nav-email-comm = Эл. почта элемтәләр
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Коткару кодыгызны алыштырганда кыенлыклар килеп чыкты.
 tfa-replace-code-success-alert = Хисап язмасын тергезү кодлары яңартылды.
 
 ## Avatar change page
@@ -205,6 +218,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Камераны кабызып булмады
 avatar-page-new-avatar =
     .alt = яңа профиль рәсеме
+avatar-page-file-upload-error-2 = Профиль рәсемегезне йөкләгәндә хата китте.
+avatar-page-delete-error-2 = Профиль рәсемегезне бетергәндә хата китте.
 
 ##
 
@@ -213,10 +228,14 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Серсүзне үзгәртү
+pw-change-stay-safe = Имин булу өчен бер үк серсүзне кабат-кабат кулланмагыз. Серсүзегез:
 pw-change-least-8-chars = Кимендә 8 билге булырга тиеш
+pw-change-not-contain-email = Эл. почта адресыгыз булырга тиеш түгел
 pw-change-cancel-button = Баш тарту
 pw-change-save-button = Саклау
 pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
+pw-change-current-password =
+    .label = Хәзерге серсүзегезне кертегез
 pw-change-new-password =
     .label = Яңа паролны языгыз
 pw-change-confirm-password =
@@ -249,6 +268,7 @@ display-name-input =
     .label = Күрсәтеләчәк исемне кертегез
 submit-display-name = Саклау
 cancel-display-name = Баш тарту
+display-name-update-error = Күрсәтелүче исемегезне яңартканда хата китте.
 display-name-success-alert = Күрсәтелүче исем яңартылды.
 
 ##
