@@ -404,6 +404,7 @@ se-set-primary-error = Гафу итегез, төп эл. почтагызны 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } уңышлы бетерелде
 se-delete-email-error = Гафу итегез, бу эл. почтаны бетергәндә хата килеп чыкты.
+se-verify-session-error = Гафу итегез, сезнең сессияне тикшергәндә хата килеп чыкты.
 # Button to remove the secondary email
 se-remove-email =
     .title = Эл. почтаны бетерү
@@ -427,6 +428,10 @@ tfa-row-action-add = Өстәү
 tfa-row-action-disable = Cүндерү
 tfa-row-button-refresh =
     .title = Ике адымлы аутентификацияне яңарту
+tfa-row-cannot-refresh =
+    Гафу итегез, ике адымлы аутентификацияне яңартканда
+    хата килеп чыкты.
+tfa-row-cannot-verify-session-2 = Гафу итегез, сезнең сессияне тикшергәндә хата килеп чыкты.
 tfa-row-disable-modal-heading = Ике адымлы аутентификация сүндерелсенме?
 tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-cannot-disable = Ике адымлы аутентификацияне сүндереп булмады.
