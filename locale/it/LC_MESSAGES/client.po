@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 22:07+0000\n"
+"POT-Creation-Date: 2021-05-06 22:07+0000\n"
 "PO-Revision-Date: 2021-03-15 14:45+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Reimpostazione della password completata. Effettua l’accesso per continuare."
 
 #. submit button
-#: .es5/views/force_auth.js:197 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
 msgstr "Accedi"
@@ -176,6 +176,14 @@ msgstr "Apri Outlook"
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "Apri Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr ""
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Mostra password"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
@@ -1127,7 +1135,11 @@ msgstr "Password"
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Proseguendo accetti i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a>."
 
-#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Utilizza un altro account"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Password dimenticata?"
 
@@ -1364,10 +1376,6 @@ msgstr "Se sei sicuro di aver inserito un indirizzo email valido, <a %(escapedSu
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
 msgstr "Non controlli più questo indirizzo email? Crea un nuovo account"
-
-#: .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Utilizza un altro account"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1852,10 +1860,6 @@ msgstr "Deve essere diversa dal tuo indirizzo email"
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
 msgstr "Non deve corrispondere a questa <a %(escapedCommonPasswordLinkAttrs)s>lista di password di uso comune</a>"
-
-#: .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
-msgid "Show password"
-msgstr "Mostra password"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 22:07+0000\n"
+"POT-Creation-Date: 2021-05-06 22:07+0000\n"
 "PO-Revision-Date: 2021-02-01 17:55+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 
 #. submit button
-#: .es5/views/force_auth.js:197 .es5/lib/strings.js:44
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
 #: .es5/templates/connect_another_device.mustache:11
 #: .es5/templates/force_auth.mustache:1
 #: .es5/templates/sign_in_password.mustache:1
@@ -207,6 +207,16 @@ msgstr "Otvori Outlook"
 #: .es5/views/mixins/open-webmail-mixin.js:45
 msgid "Open Restmail"
 msgstr "Otvori Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr ""
+
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Prikaži lozinku"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
@@ -1293,6 +1303,12 @@ msgstr ""
 "privatnosti</a>."
 
 #: .es5/templates/force_auth.mustache:7
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Koristi drugi nalog"
+
+#: .es5/templates/force_auth.mustache:8
 #: .es5/templates/sign_in_password.mustache:8
 msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
@@ -1594,11 +1610,6 @@ msgstr ""
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
 msgstr "Više niste vlasnik te adrese? Napravite novi nalog"
-
-#: .es5/templates/sign_in_password.mustache:7
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Koristi drugi nalog"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -2174,11 +2185,6 @@ msgid ""
 msgstr ""
 "Ne može se poklapati sa ovom <a %(escapedCommonPasswordLinkAttrs)s>listom "
 "čestih lozinki</a>"
-
-#: .es5/templates/partial/show-password.mustache:1
-#: .es5/templates/partial/show-password.mustache:2
-msgid "Show password"
-msgstr "Prikaži lozinku"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid ""

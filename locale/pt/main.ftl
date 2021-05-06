@@ -29,7 +29,6 @@ payment-error-retry-button = Tentar novamente
 payment-error-manage-subscription-button = Gerir a minha subscrição
 country-currency-mismatch = A moeda desta subscrição não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Pedimos desculpa. Não pode alternar entre moedas.
-returning-paypal-customer-error = Pedimos desculpa. Atualmente, apenas pode ter uma subscrição ativa em simultâneo. Por favor, volte em breve.
 no-subscription-upgrades = Pedimos desculpa, mas não pode valorizar ou desvalorizar a sua assinatura neste momento. Por favor, tente novamente mais tarde.
 expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
@@ -346,6 +345,10 @@ sub-customer-error =
     .title = Problema em carregar o cliente
 sub-billing-update-success = A sua informação de pagamento foi atualizada com sucesso
 sub-route-payment-modal-heading = Informação de faturação inválida
+sub-route-payment-modal-message = Parece haver um erro com a sua conta { -brand-name-paypal }, precisamos que execute os passos necessários para resolver este problema de pagamento.
+sub-route-missing-billing-agreement-payment-alert = Informação de pagamento inválida; há um erro com a sua conta. <div>Gerir</div>
+sub-route-funding-source-payment-alert = Informação de pagamento inválida; há um erro com a sua conta. Este alerta pode levar algum tempo a desaparecer depois de atualizar as suas informações com sucesso. <div>Gerir</div>
+pay-update-manage-btn = Gerir
 
 ## subscription create
 
