@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Zavřít zprávu
 
 ## Firefox and Mozilla Brand
 ##
@@ -257,6 +258,7 @@ drop-down-menu-sign-out-error = Omlouváme se, odhlášení se nezdařilo.
 
 ## Flow Container
 
+flow-container-back = Zpět
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -279,6 +281,10 @@ header-help = Nápověda
 
 ## Input Password
 
+input-password-hide = Skrýt heslo
+input-password-show = Zobrazit heslo
+input-password-hide-aria = Skrýt heslo z obrazovky.
+input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude viditelné na obrazovce.
 
 ## Modal
 
@@ -328,14 +334,15 @@ avatar-page-remove-photo = Odstranit fotografii
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Znovu pořídit fotografii
+avatar-page-cancel-button = Zrušit
 avatar-page-save-button = Uložit
 avatar-page-saving-button = Ukládání…
 avatar-page-zoom-out-button =
-  .title = Zmenšit
+    .title = Zmenšit
 avatar-page-zoom-in-button =
-  .title = Zvětšit
+    .title = Zvětšit
 avatar-page-rotate-button =
-  .title = Otočit
+    .title = Otočit
 avatar-page-camera-error = Nepodařilo se inicializovat fotoaparát
 avatar-page-new-avatar =
     .alt = nový profilový obrázek
@@ -500,6 +507,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Obrázek
 profile-display-name =
     .header = Zobrazované jméno
 profile-password =
