@@ -443,5 +443,6 @@ tfa-row-change-modal-confirm = Үзгәртү
 auth-error-102 = Билгесез хисап
 auth-error-103 = Парол хаталы
 auth-error-110 = Хаталы токен
+auth-error-138 = Расланмаган утырыш
 auth-error-155 = TOTP токен табылмады
 auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш

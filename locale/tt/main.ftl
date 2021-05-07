@@ -132,21 +132,71 @@ sub-update-new-plan-label = Яңа план
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] Көнгә { $amount }
+       *[other] { $intervalCount } көн саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] Атнага { $amount }
+       *[other] { $intervalCount } атна саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] Айга { $amount }
+       *[other] { $intervalCount } ай саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] Елга { $amount }
+       *[other] { $intervalCount } ел саен{ $amount }
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] Көнгә{ $amount }
+       *[other] { $intervalCount } көн саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] Атнага { $amount }
+       *[other] { $intervalCount } атна саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] Айга { $amount }
+       *[other] { $intervalCount } ай саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] Елга { $amount }
+       *[other] { $intervalCount } ел саен { $amount }
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
 
+pay-update-card-exp = Вакыты чыга: { $expirationDate }
 pay-update-change-btn = Үзгәртү
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Яңадан язылу
 
 ##  $date (Date) - Last day of product access
 
@@ -167,12 +217,17 @@ sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
+pay-update-manage-btn = Идарә итү
 
 ## subscription create
 
+pay-with-heading-card-or = Яки карта белән түләү
+pay-with-heading-card-only = Карта белән түләү
 
 ## plan-details
 
+plan-details-show-button = Нечкәлекләрен күрсәтү
+plan-details-hide-button = Нечкәлекләрен яшерү
 plan-details-total-label = Барлыгы
 
 ## payment-processing
@@ -185,3 +240,28 @@ payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] Көнгә { $amount }
+       *[other] { $intervalCount } көн саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] Атнага { $amount }
+       *[other] { $intervalCount } атна саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] Айга { $amount }
+       *[other] { $intervalCount } ай саен { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] Елга { $amount }
+       *[other] { $intervalCount } ел саен { $amount }
+    }
+payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
