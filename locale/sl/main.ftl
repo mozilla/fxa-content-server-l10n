@@ -8,6 +8,8 @@
 project-brand = Firefox Računi
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Računi
 
@@ -17,6 +19,7 @@ document =
 ## app error dialog
 
 basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
+payment-error-retry-button = Poskusi znova
 coupon-expired = Videti je, da je promocijska koda potekla.
 card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
 
@@ -29,10 +32,8 @@ settings-subscriptions-title = Naročnine
 terms = Pogoji storitve
 privacy = Obvestilo o zasebnosti
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Nastavimo vašo naročnino
-product-plan-details-heading = Nastavimo vašo naročnino
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -220,11 +221,12 @@ plan-details-show-button = Pokaži podrobnosti
 plan-details-hide-button = Skrij podrobnosti
 plan-details-total-label = Skupaj
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Kliknite tukaj za prenos
-payment-confirmation-heading-bak = Hvala!
-payment-confirmation-subheading = Potrditvena e-pošta je bila poslana na
 payment-confirmation-order-heading = Podrobnosti naročila
 payment-confirmation-details-heading = Podatki o plačilu
 payment-confirmation-amount = { $amount } na { $interval }
