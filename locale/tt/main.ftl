@@ -76,6 +76,7 @@ product-plan-not-found = План табылмады
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
 
@@ -213,6 +214,7 @@ account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
 
+sub-route-idx-contact = Ярдәм хезмәтенә мөрәҗәгать итү
 sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
