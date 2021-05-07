@@ -209,6 +209,7 @@ sub-subscription-error =
     .title = Težava pri nalaganju naročnin
 sub-customer-error =
     .title = Napaka pri nalaganju stranke
+pay-update-manage-btn = Upravljaj
 
 ## subscription create
 
@@ -228,6 +229,7 @@ plan-details-total-label = Skupaj
 
 payment-confirmation-alert = Kliknite tukaj za prenos
 payment-confirmation-order-heading = Podrobnosti naročila
+payment-confirmation-invoice-number = Račun št. { $invoiceNumber }
 payment-confirmation-details-heading = Podatki o plačilu
 payment-confirmation-amount = { $amount } na { $interval }
 
