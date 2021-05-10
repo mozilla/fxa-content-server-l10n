@@ -99,7 +99,9 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
 payment-legal-copy-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-paypal } kullanır.
+payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkelerini</paypalPrivacyLink> inceleyin.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
+payment-legal-link-stripe-2 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkelerini</stripePrivacyLink> inceleyin.
 
 ## payment form
 
@@ -150,6 +152,7 @@ payment-confirm = Firefox ürünlerinin yapımcısı Mozilla'nın <termsOfServic
 payment-cancel-btn = İptal et
 payment-update-btn = Güncelle
 payment-pay-btn = Ödeme yap
+payment-pay-with-paypal-btn = { -brand-name-paypal } ile öde
 payment-validate-name-error = Lütfen adınızı girin
 payment-validate-zip-required = Posta kodu gerekli
 payment-validate-zip-short = Posta kodu çok kısa
