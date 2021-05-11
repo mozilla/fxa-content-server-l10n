@@ -29,7 +29,6 @@ payment-error-retry-button = Riprovoni
 payment-error-manage-subscription-button = Administroni pajtimet e mia
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
 currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
-returning-paypal-customer-error = Na ndjeni. Aktualisht, mund të regjistroheni vetëm për një pajtim në herë. Ju lutemi, provoni sërish së shpejti.
 no-subscription-upgrades = Na ndjeni. S’mund ta përmirësoni apo ktheni në një version të mëparshëm këtë çast. Ju lutemi, kontrolloni së shpejti.
 expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 insufficient-funds-error = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
@@ -155,6 +154,7 @@ payment-confirm = E autorizoj Mozilla-n, prodhuesen e produkteve Firefox, të fa
 payment-cancel-btn = Anuloje
 payment-update-btn = Përditësoje
 payment-pay-btn = Paguani tani
+payment-pay-with-paypal-btn = Paguani me { -brand-name-paypal }
 payment-validate-name-error = Ju lutemi, jepni emrin tuaj
 payment-validate-zip-required = Kodi ZIP është i domosdoshëm
 payment-validate-zip-short = Kodi ZIP është shumë i shkurtër
@@ -339,8 +339,9 @@ sub-customer-error =
     .title = Problem në ngarkim klienti
 sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me sukses
 sub-route-payment-modal-heading = Të dhëna faturimi të pavlefshme
-sub-route-payment-modal-copy = Duket se ka një gabim me llogarinë tuaj { -brand-name-paypal }, duhet të ndërmerrni hapat e nevojshëm për zgjidhjen e këtij problemi me pagesën.
-sub-route-invalid-payment = Të dhëna të pavlefshme pagese, ka një gabim me llogarinë tuaj. <div>Administrojini</div>
+sub-route-payment-modal-message = Duket se ka një gabim me llogarinë tuaj { -brand-name-paypal }, duhet të ndërmerrni hapat e nevojshëm për zgjidhjen e këtij problemi me pagesën.
+sub-route-missing-billing-agreement-payment-alert = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj. <div>Shiheni</div>
+sub-route-funding-source-payment-alert = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj. Mund të duhet ca kohë që të hiqet ky sinjalizim, pasi të përditësoni me sukses hollësitë tuaja. <div>Shiheni</div>
 pay-update-manage-btn = Administrojini
 
 ## subscription create

@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Mbylle mesazhin
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -154,6 +158,10 @@ drop-down-menu-signed-in-as = <signin>Futur si</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Dilni
 drop-down-menu-sign-out-error = Na ndjeni, pati një problem me futjen tuaj.
 
+## Flow Container
+
+flow-container-back = Mbrapsht
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kode Rimarrjeje
@@ -172,6 +180,12 @@ header-back-to-top-link =
     .title = Mbrapsht te kreu
 header-title = { -product-firefox-accounts }
 header-help = Ndihmë
+
+## Input Password
+
+input-password-hide = Fshihe fjalëkalimin
+input-password-show = Shfaqe fjalëkalimin
+input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
 
 ## Modal
 
@@ -220,15 +234,14 @@ avatar-page-remove-photo = Hiqe Foton
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ribëni Foto
-avatar-page-close-button = Mbylle
 avatar-page-save-button = Ruaje
 avatar-page-saving-button = Po ruhet…
 avatar-page-zoom-out-button =
-  .title = Zvogëlojeni
+    .title = Zvogëlojeni
 avatar-page-zoom-in-button =
-  .title = Zmadhojeni
+    .title = Zmadhojeni
 avatar-page-rotate-button =
-  .title = Rrotulloje
+    .title = Rrotulloje
 avatar-page-camera-error = Nuk u gatit dot kamera
 avatar-page-new-avatar =
     .alt = foto e re profili
@@ -281,7 +294,6 @@ delete-account-chk-box-3 =
     .label = Riaktivizimi me këtë email mund të mos rikthejë të dhënat tuaja të ruajtura
 delete-account-chk-box-4 =
     .label = Çfarëdo zgjerimi dhe teme që keni botuar te addons.mozilla.org do të fshihet
-delete-account-close-button = Mbylle
 delete-account-continue-button = Vazhdo
 delete-account-password-input =
     .label = Jepni fjalëkalimin
@@ -506,12 +518,6 @@ tfa-row-cannot-disable = Mirëfilltësimi dyhapësh s’u çaktivizua dot.
 tfa-row-change-modal-heading = Të ndryshohen kode rikthimi?
 tfa-row-change-modal-confirm = Ndryshoji
 tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Foto
-avatar-add-link = Shtoje
-avatar-change-link = Ndryshoje
 
 ## Auth-server based errors that originate from backend service
 
