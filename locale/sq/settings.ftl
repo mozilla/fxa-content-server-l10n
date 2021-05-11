@@ -186,6 +186,7 @@ header-help = Ndihmë
 input-password-hide = Fshihe fjalëkalimin
 input-password-show = Shfaqe fjalëkalimin
 input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
+input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
 
 ## Modal
 
@@ -234,6 +235,7 @@ avatar-page-remove-photo = Hiqe Foton
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ribëni Foto
+avatar-page-cancel-button = Anuloje
 avatar-page-save-button = Ruaje
 avatar-page-saving-button = Po ruhet…
 avatar-page-zoom-out-button =
@@ -408,6 +410,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Foto
 profile-display-name =
     .header = Emër në ekran
 profile-password =
