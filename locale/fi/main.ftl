@@ -102,9 +102,12 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a ja { -brand-name-paypal }ia maksujen turvalliseen käsittelyyn.
+payment-legal-link-stripe-and-paypal-2 = Katso <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
 payment-legal-link-paypal = Katso <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
+payment-legal-link-stripe-2 = Katso <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink>.
 
 ## payment form
 
@@ -278,6 +281,8 @@ sub-customer-error =
     .title = Ongelma ladatessa asiakasta
 sub-billing-update-success = Laskutustietosi on päivitetty onnistuneesti
 sub-route-payment-modal-heading = Virheelliset laskutustiedot
+sub-route-payment-modal-message = { -brand-name-paypal }-tililläsi vaikuttaa olevan virhe. Sinun on tehtävä tarvittavat toimet tämän maksuongelman ratkaisemiseksi.
+sub-route-missing-billing-agreement-payment-alert = Virheelliset maksutiedot. Tiliisi kohdistuu virhe. <div>Hallitse</div>
 pay-update-manage-btn = Hallitse
 
 ## subscription create
