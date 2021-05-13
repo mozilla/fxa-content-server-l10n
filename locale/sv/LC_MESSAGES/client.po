@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-06 22:07+0000\n"
-"PO-Revision-Date: 2021-03-12 17:22+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2021-05-13 22:07+0000\n"
+"PO-Revision-Date: 2021-05-06 23:29+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -179,7 +179,7 @@ msgstr "Öppna Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Dölj lösenord"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
