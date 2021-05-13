@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Serrar il messadi
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Conto da Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +61,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menu Bento da { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } è ina tecnologia che cumbatta per la protecziun da tias datas en l'internet.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navigatur { -brand-firefox } per computers
+bento-menu-firefox-mobile = Navigatur { -brand-firefox } per apparats mobils
+bento-menu-made-by-mozilla = Realisà da { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -136,6 +152,20 @@ datablock-copy =
 datablock-print =
     .message = Stampà
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Menu dal { -product-firefox-account(capitalization: "lowercase") }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Annunzià sco</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Sortir
+drop-down-menu-sign-out-error = Perstgisa, igl ha dà in problem cun deconnectar.
+
+## Flow Container
+
+flow-container-back = Enavos
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codes da recuperaziun
@@ -153,9 +183,30 @@ header-menu-closed = Menu da navigaziun da la website
 header-back-to-top-link =
     .title = Turnar ensi
 header-title = { -product-firefox-accounts }
-header-switch-title = Midar al design classic
-    .title = colliaziun al design classic
 header-help = Agid
+
+## Input Password
+
+input-password-hide = Zuppentar il pled-clav
+input-password-show = Mussar il pled-clav
+input-password-hide-aria = Zuppentar il pled-clav dal visur.
+input-password-show-aria = Mussar il pled-clav sco text decifrà. Tes pled-clav vegn ad esser visibel sin il visur.
+
+## Modal
+
+modal-close-title = Serrar
+modal-cancel-button = Interrumper
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifitgar l'adressa dad e-mail
+mvs-enter-verification-code = Endatescha tes code da verificaziun
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Per plaschair endatar entaifer 5 minutas il code da verificaziun ch'è vegnì tramess a <email>{ $email }</email>.
+msv-cancel-button = Interrumper
+msv-submit-button = Verifitgar
 
 ## Settings Nav
 
@@ -189,15 +240,15 @@ avatar-page-remove-photo = Allontanar la foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Far ina nova foto
-avatar-page-close-button = Serrar
+avatar-page-cancel-button = Interrumper
 avatar-page-save-button = Memorisar
 avatar-page-saving-button = Memorisar…
 avatar-page-zoom-out-button =
-  .title = Empitschnir
+    .title = Empitschnir
 avatar-page-zoom-in-button =
-  .title = Engrondir
+    .title = Engrondir
 avatar-page-rotate-button =
-  .title = Rotar
+    .title = Rotar
 avatar-page-camera-error = Impussibel dad inizialisar la camera
 avatar-page-new-avatar =
     .alt = nov maletg da profil
@@ -250,7 +301,6 @@ delete-account-chk-box-3 =
     .label = La reactivaziun cun questa adressa dad e-mail na po betg restaurar tias infurmaziuns memorisadas
 delete-account-chk-box-4 =
     .label = Tut las extensiuns ed ils designs che ti has publitgà sin addons.mozilla.org vegnan stizzads
-delete-account-close-button = Serrar
 delete-account-continue-button = Cuntinuar
 delete-account-password-input =
     .label = Endatar il pled-clav
@@ -371,6 +421,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Profil
+profile-picture =
+    .header = Maletg
 profile-display-name =
     .header = Num per mussar
 profile-password =
@@ -398,7 +450,8 @@ row-defaults-status = Nagin
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activà
+rk-header = Clav da recuperaziun
+rk-enabled = Activà
 rk-not-set = Betg definì
 rk-action-create = Crear
 rk-action-remove = Allontanar
@@ -413,6 +466,8 @@ rk-remove-modal-heading = Allontanar la clav da recuperaziun?
 rk-remove-modal-content =
     Sche ti reinizialiseschas tes pled-clav, na vegns ti betg pli a pudair
     utilisar tia clav da recuperaziun per acceder a tias datas. Questa acziun na po betg vegnir revocada.
+rk-refresh-error = Perstgisa, igl ha dà in problem cun actualisar la clav da recuperaziun.
+rk-remove-error = Impussibel dad allontanar tia clav da recuperaziun dal conto.
 
 ## Secondary email sub-section on main Settings page
 
@@ -454,8 +509,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autentificaziun en dus pass
+tfa-row-header = Autentificaziun en dus pass
 tfa-row-disabled = Autentificaziun en dus pass deactivada.
 tfa-row-enabled = Activada
 tfa-row-not-set = Betg definida
@@ -479,12 +533,6 @@ tfa-row-cannot-disable = Impussibel da deactivar l'autentificaziun en dus pass.
 tfa-row-change-modal-heading = Midar ils codes da recuperaziun?
 tfa-row-change-modal-confirm = Midar
 tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Maletg
-avatar-add-link = Agiuntar
-avatar-change-link = Midar
 
 ## Auth-server based errors that originate from backend service
 

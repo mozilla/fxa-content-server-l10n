@@ -29,7 +29,6 @@ payment-error-retry-button = Reempruvar
 payment-error-manage-subscription-button = Administrar mes abunament
 country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
 currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
-returning-paypal-customer-error = Perstgisa, per il mument pos ti mo avair in abunament a medem temp. Dà prest puspè in tgit en qua.
 no-subscription-upgrades = Perstgisa. Actualmain na stattan upgrades e downgrades da tes abunament betg a disposiziun. Turna prest puspè per empruvar danovamain.
 expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
 insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
@@ -155,6 +154,7 @@ payment-confirm = Jau permet a Mozilla, l'organisaziun che realisescha ils produ
 payment-cancel-btn = Interrumper
 payment-update-btn = Actualisar
 payment-pay-btn = Pajar ussa
+payment-pay-with-paypal-btn = Pajar cun { -brand-name-paypal }
 payment-validate-name-error = Endatescha per plaschair tes num
 payment-validate-zip-required = Il numer postal è obligatoric
 payment-validate-zip-short = Il numer postal è memia curt
@@ -345,6 +345,11 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problem cun chargiar il client
 sub-billing-update-success = Actualisà cun success tias infurmaziuns da facturaziun
+sub-route-payment-modal-heading = Infurmaziuns da facturaziun nunvalidas
+sub-route-payment-modal-message = I para da dar ina errur cun tes conto da { -brand-name-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
+sub-route-missing-billing-agreement-payment-alert = Infurmaziun da pajament nunvalida. Igl è succedida ina errur cun tes conto. <div>Administrar</div>
+sub-route-funding-source-payment-alert = Infurmaziuns da pajament nunvalidas. Igl è succedida ina errur cun tes conto. I po cuzzar in mument enfin che quest avis svanescha suenter l'actualisaziun da tias infurmaziuns. <div>Administrar</div>
+pay-update-manage-btn = Administrar
 
 ## subscription create
 

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-06 22:07+0000\n"
-"PO-Revision-Date: 2021-04-03 09:53+0000\n"
+"PO-Revision-Date: 2021-04-04 09:54+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rm\n"
@@ -88,7 +88,7 @@ msgstr "T'annunzia danovamain sin in dals apparats tar in dals servetschs nua ch
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Impurtant:</b> Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -102,7 +102,7 @@ msgstr "il team dals contos da Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Impurtant: Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -303,7 +303,7 @@ msgstr "La sincronisaziun segira garantescha che ti chattas ils medems segnapagi
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1354
 msgid "Set up next device"
-msgstr ""
+msgstr "Configurar il proxim apparat"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -456,11 +456,11 @@ msgstr "Ans gida da schliar il problem cun actualisar tias infurmaziuns da pajam
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Perstgisa, nus avain in problem cun tia metoda da pajament"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "Nus essan fruntads sin in problem cun tia metoda da pajament per %(productName)s."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -504,7 +504,7 @@ msgstr "La carta da credit che ti utiliseschas per far pajaments per il suandant
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Dumondas davart tes abunaments? Noss <a href=\"%(subscriptionSupportUrl)s\">team d'agid</a> stat a tia disposiziun."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
@@ -512,7 +512,7 @@ msgstr "Dumondas davart tes abunaments? Noss team da support ta gida:"
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Nus essan fruntads sin in problem cun tia metoda da pajament per ils suandants abunaments."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -628,7 +628,7 @@ msgstr "Es ti la persuna che s'annunzia?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Sche gea, utilisescha quest code da verificaziun en tes formular da registraziun:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -901,11 +901,11 @@ msgstr "La carta da credit per tes abunaments scada prest"
 
 #: lib/senders/email.js:2118
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Actualisaziun da las infurmaziuns da pajament necessaria per %(productName)s"
 
 #: lib/senders/email.js:2132
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Actualisaziun da las infurmaziuns da pajament necessaria per ils abunaments da Mozilla"
 
 #: lib/senders/email.js:2184
 msgid "%(productName)s payment failed"
@@ -1060,8 +1060,8 @@ msgstr "Telechargiar la pli nova"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Tes ciclus da facturaziun e pajament vegn a restar medem. La proxima debitaziun munta a %(invoiceTotal)s e succeda ils %(nextInvoiceDateOnly)s via la carta %(cardType)s che chala cun "
-#~ "%(lastFour)s. Tes abunament vegn renovà automaticamain mintga perioda da facturaziun nun che ti decidas dad annullar l'abunament."
+#~ "Tes ciclus da facturaziun e pajament vegn a restar medem. La proxima debitaziun munta a %(invoiceTotal)s e succeda ils %(nextInvoiceDateOnly)s via la carta %(cardType)s che chala cun %(lastFour)s. "
+#~ "Tes abunament vegn renovà automaticamain mintga perioda da facturaziun nun che ti decidas dad annullar l'abunament."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Ti es annunzià e pront per entschaiver a navigar en tutta segirezza."
@@ -1109,8 +1109,8 @@ msgstr "Telechargiar la pli nova"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Ti has connectà cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti t'annunziar tar Sync sin tut tes auters apparats, inclus Firefox per <a %(androidLinkAttributes)s>Android</a> "
-#~ "ed <a %(iosLinkAttributes)s>iOS</a>."
+#~ "Ti has connectà cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti t'annunziar tar Sync sin tut tes auters apparats, inclus Firefox per <a %(androidLinkAttributes)s>Android</a> ed "
+#~ "<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti s'annunziar tar Sync da mintga auter apparat, inclusivamain Firefox per Android ed iOS."
@@ -1143,15 +1143,15 @@ msgstr "Telechargiar la pli nova"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti s'anunziar per sincronisar cun auters apparats, inclusivamain Firefox per <a href='%(androidUrl)s'>Android</a> "
-#~ "ed <a href='%(iosUrl)s'>iOS</a>."
+#~ "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti s'anunziar per sincronisar cun auters apparats, inclusivamain Firefox per <a href='%(androidUrl)s'>Android</a> ed "
+#~ "<a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Ti has collia cun success tes emprim apparat cun tes conto da Firefox. Per profitar dals avantatgs da Sync collia <a href='%(androidUrl)s'>Firefox per Android</a> u <a href='%(iosUrl)s'>Firefox "
-#~ "per iOS</a>."
+#~ "Ti has collia cun success tes emprim apparat cun tes conto da Firefox. Per profitar dals avantatgs da Sync collia <a href='%(androidUrl)s'>Firefox per Android</a> u <a href='%(iosUrl)s'>Firefox per "
+#~ "iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "S'annunziar per sincronisar"
@@ -1287,11 +1287,11 @@ msgstr "Telechargiar la pli nova"
 #~ msgstr "Redefinir il pled-clav"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Avant in pèr dis has ti creà in conto da Firefox, ma ti n'al has mai verifitgà. In conto verifitgà ta lascha acceder tes tabs, segnapaginas, pleds-clav e la cronologia sin mintga apparat "
-#~ "associà. Conferma simplamain questa adressa dad e-mail per activar tes conto."
+#~ "Avant in pèr dis has ti creà in conto da Firefox, ma ti n'al has mai verifitgà. In conto verifitgà ta lascha acceder tes tabs, segnapaginas, pleds-clav e la cronologia sin mintga apparat associà. "
+#~ "Conferma simplamain questa adressa dad e-mail per activar tes conto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Avant in'emna has ti creà in conto da Firefox senza al verifitgar pli tard. Tge è succedì? Conferma questa adressa dad e-mail per activar tes conto."
