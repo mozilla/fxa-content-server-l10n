@@ -139,7 +139,7 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
-cs-heading = Під'єднані послуги
+cs-heading = Під'єднані служби
 cs-description = Все, чим ви користуєтесь і де ви увійшли.
 cs-cannot-refresh =
     Перепрошуємо, але виникла проблема при оновленні списку
@@ -298,11 +298,11 @@ avatar-page-cancel-button = Скасувати
 avatar-page-save-button = Зберегти
 avatar-page-saving-button = Збереження…
 avatar-page-zoom-out-button =
-  .title = Зменшити
+    .title = Зменшити
 avatar-page-zoom-in-button =
-  .title = Збільшити
+    .title = Збільшити
 avatar-page-rotate-button =
-  .title = Обернути
+    .title = Обернути
 avatar-page-camera-error = Не вдалося ініціалізувати камеру
 avatar-page-new-avatar =
     .alt = нове зображення профілю
