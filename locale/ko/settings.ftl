@@ -129,12 +129,24 @@ cs-disconnect-lost-advice-content-2 =
     계정 설정에서 변경해야만 합니다. 또한 제조사에서 원격으로 기기의 데이터를 
     삭제하는 방법을 알아보아야 합니다.
 cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해제됨
+cs-disconnect-suspicious-advice-content =
+    연결 해제된 장치가 실제로 의심스러울 경우,
+    정보를 안전하게 보호하기 위해 계정 정보에서 { -product-firefox-account } 암호를
+    변경 해야 합니다. { -brand-firefox }에 저장된 다른 암호도 
+    주소창에 about:logins를 입력해서 변경해야 합니다.
+cs-sign-out-button = 로그아웃
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = 다운로드됨
+datablock-copy =
+    .message = 복사됨
+datablock-print =
+    .message = 인쇄됨
 
 # DropDownAvatarMenu component
 
@@ -144,9 +156,22 @@ cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해�
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = 복구 코드
+get-data-trio-download =
+    .title = 다운로드
+get-data-trio-copy =
+    .title = 복사
+get-data-trio-print =
+    .title = 인쇄
 
 # HeaderLockup component
 
+header-menu-open = 메뉴 닫기
+header-menu-closed = 사이트 탐색 메뉴
+header-back-to-top-link =
+    .title = 맨 위로
+header-title = Firefox Account
+header-help = 도움말
 
 ## Input Password
 
@@ -159,6 +184,10 @@ cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해�
 
 ## Settings Nav
 
+nav-settings = 설정
+nav-profile = 프로필
+nav-security = 보안
+nav-connected-services = 연결된 서비스
 
 ## Two Step Authentication - replace recovery code
 

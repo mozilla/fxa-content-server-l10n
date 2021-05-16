@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 22:07+0000\n"
-"PO-Revision-Date: 2020-08-22 04:52+0000\n"
-"Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
+"PO-Revision-Date: 2021-05-16 11:03+0000\n"
+"Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "%(clientName)s에 새로 로그인"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "비밀번호 변경 필요"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -84,7 +84,7 @@ msgstr "Firefox 계정을 사용하는 모든 기기 또는 서비스에 다시 
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>중요:</b> 이전에 사용하던 것과 다른 비밀번호를 선택하고 이메일 계정과 다른지 확인하세요."
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -167,8 +167,7 @@ msgstr "첫번째로, Firefox Account 비밀번호를 변경하세요."
 #: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
 msgid ""
 "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr ""
-"두번째로, 만약 Firefox가 웹사이트들의 비밀번호를 저장하고 있다면, 이 비밀번호도 변경해야 합니다. 공격자가 이 비밀번호들에 접근했을 수 있으며, 이 계정들에 의심스러운 행동은 없는지 확인해야 합니다."
+msgstr "두번째로, 만약 Firefox가 웹사이트들의 비밀번호를 저장하고 있다면, 이 비밀번호도 변경해야 합니다. 공격자가 이 비밀번호들에 접근했을 수 있으며, 이 계정들에 의심스러운 행동은 없는지 확인해야 합니다."
 
 #: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
 msgid "Learn how to see what passwords Firefox is storing for you."
@@ -294,7 +293,7 @@ msgstr "동기화는 북마크, 비밀번호 및 기타 Firefox 데이터를 모
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1354
 msgid "Set up next device"
-msgstr ""
+msgstr "다음 기기 설정"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -355,9 +354,7 @@ msgstr "성공적으로 %(productNameOld)s 에서 %(productNameNew)s 로 바뀌�
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
-"다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 이 때 %(productPaymentCycle)s의 나머지 부분에 대한 더 낮은 요금을 반영하기 위해 "
-"%(paymentProrated)s의 일회성 크레딧도 제공됩니다."
+msgstr "다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 이 때 %(productPaymentCycle)s의 나머지 부분에 대한 더 낮은 요금을 반영하기 위해 %(paymentProrated)s의 일회성 크레딧도 제공됩니다."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -445,11 +442,11 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "죄송합니다. 결제 수단에 문제가 있습니다."
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "%(productName)s에 대한 결제 방법에 문제가 있습니다."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -481,9 +478,7 @@ msgstr "%(productNameOld)s에서 %(productNameNew)s로 성공적으로 업그레
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr ""
-"다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 또한 %(productPaymentCycle)s의 나머지 부분에 대해 더 높은 요금을 반영하기 위해 "
-"%(paymentProrated)s의 일회성 요금이 청구됩니다."
+msgstr "다음 청구서부터 청구 금액이 %(productPaymentCycle)s 당 %(paymentAmountOld)s에서 %(paymentAmountNew)s로 변경됩니다. 또한 %(productPaymentCycle)s의 나머지 부분에 대해 더 높은 요금을 반영하기 위해 %(paymentProrated)s의 일회성 요금이 청구됩니다."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -1046,9 +1041,7 @@ msgstr "최신 다운로드"
 #~ msgid ""
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
-#~ msgstr ""
-#~ "결제 주기와 결제는 동일하게 유지됩니다. 다음번 청구 금액은 %(nextInvoiceDateOnly)s에 %(lastFour)s로 끝나는 %(cardType)s 카드에 대한 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 "
-#~ "기간을 자동으로 갱신합니다."
+#~ msgstr "결제 주기와 결제는 동일하게 유지됩니다. 다음번 청구 금액은 %(nextInvoiceDateOnly)s에 %(lastFour)s로 끝나는 %(cardType)s 카드에 대한 %(invoiceTotal)s입니다. 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다."
 
 #~ msgid "Connect another device:"
 #~ msgstr "다른 기기 연결:"
@@ -1062,9 +1055,7 @@ msgstr "최신 다운로드"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr ""
-#~ "첫번째 기기를 성공적으로 Firefox Account에 연결했습니다. Firefox for <a %(androidLinkAttributes)s>Android</a> 와 <a %(iosLinkAttributes)s>iOS</a> 를 포함한 다른 기기에서 Sync로 로그인할 수 있습니"
-#~ "다."
+#~ msgstr "첫번째 기기를 성공적으로 Firefox Account에 연결했습니다. Firefox for <a %(androidLinkAttributes)s>Android</a> 와 <a %(iosLinkAttributes)s>iOS</a> 를 포함한 다른 기기에서 Sync로 로그인할 수 있습니다."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "성공적으로 첫번째 기기를 Firefox Account에 연결하였습니다. 이제 Firefox for Android 와 iOS 같은 다른 기기에도 Sync 하기 위해 로그인 할 수 있습니다."
@@ -1096,16 +1087,12 @@ msgstr "최신 다운로드"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. 이제 <a href='%(androidUrl)s'>Android용 Firefox</a>와 <a href='%(iosUrl)s'>iOS용 Firefox</a>와 같은 다른 기기에서 Sync에 로그인 할 수 있습"
-#~ "니다."
+#~ msgstr "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. 이제 <a href='%(androidUrl)s'>Android용 Firefox</a>와 <a href='%(iosUrl)s'>iOS용 Firefox</a>와 같은 다른 기기에서 Sync에 로그인 할 수 있습니다."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr ""
-#~ "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. Sync의 기능을 최대한으로 활용하려면, <a href='%(androidUrl)s'>Firefox for Android</a> 나 <a href='%(iosUrl)s'>Firefox for iOS</a> 와 연결"
-#~ "하세요."
+#~ msgstr "기기를 성공적으로 처음 Firefox Account와 연결하였습니다. Sync의 기능을 최대한으로 활용하려면, <a href='%(androidUrl)s'>Firefox for Android</a> 나 <a href='%(iosUrl)s'>Firefox for iOS</a> 와 연결하세요."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "동기화에 로그인"
@@ -1219,11 +1206,9 @@ msgstr "최신 다운로드"
 #~ msgstr "암호 재설정"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
-#~ msgstr ""
-#~ "몇 일 전 Firefox Account 계정을 생성했지만, 인증되지 않았습니다. 계정을 인증해야 탭, 북마크, 비밀번호, 방문 기록을 다른 연결된 기기에서 접근 가능하게 합니다. 간단히 말해, 계정을 활성화 하기 위해 "
-#~ "이 이메일을 확인해주세요."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
+#~ msgstr "몇 일 전 Firefox Account 계정을 생성했지만, 인증되지 않았습니다. 계정을 인증해야 탭, 북마크, 비밀번호, 방문 기록을 다른 연결된 기기에서 접근 가능하게 합니다. 간단히 말해, 계정을 활성화 하기 위해 이 이메일을 확인해주세요."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "일주일 전 Firefox Account 를 생성했지만, 인증하지 않았습니다. 걱정하고 있습니다. 계정을 활성화하기 위해 이 이메일 주소를 확인해주세요, 그리고 문제가 없는지 알려주세요."
@@ -1243,8 +1228,7 @@ msgstr "최신 다운로드"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox 계정을 위한 이메일 확인"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s 이메일이 Firefox 계정의 보조 이메일로 성공적으로 인증되었습니다. 보안 알림과 로그인 확인은 이제 두 이메일 주소로 전송됩니다."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
