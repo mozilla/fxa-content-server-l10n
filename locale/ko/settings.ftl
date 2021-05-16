@@ -188,6 +188,8 @@ nav-settings = 설정
 nav-profile = 프로필
 nav-security = 보안
 nav-connected-services = 연결된 서비스
+nav-paid-subs = 유료 구독
+nav-email-comm = 이메일 커뮤니케이션
 
 ## Two Step Authentication - replace recovery code
 
