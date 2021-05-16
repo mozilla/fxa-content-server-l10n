@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 22:07+0000\n"
-"PO-Revision-Date: 2021-05-16 21:13+0000\n"
+"PO-Revision-Date: 2021-05-16 21:21+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr "күрсәтелмәгән"
+msgstr "исемлектә юк"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -695,7 +695,7 @@ msgstr "Яраксыз юнәлтү"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Адресыгызны дөрес язмадыгызмы?"
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
@@ -711,7 +711,7 @@ msgstr "Хаталы көйләү"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Адресыгызны дөрес язмадыгызмы?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -1207,7 +1207,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Кодны сканерлый алмыйсызмы?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1219,7 +1219,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Аның урынына QR кодны сканерларгамы?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1544,7 +1544,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Исемлектә юк"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
@@ -1605,7 +1605,7 @@ msgstr "Икенчел эл. почта адресы"
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
-msgstr ""
+msgstr "Бәлки соңрак"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1666,11 +1666,11 @@ msgstr "Башка бер җиһазны тоташтыру"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Моның урынына SMS куллану"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Хәзергә җитәр"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
@@ -1738,7 +1738,7 @@ msgstr "<span class=\"number\">4</span>Хисабыгызга керегез"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Мәгълүматыгызны коткару ачкычы ярдәмендә саклагыз"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1810,7 +1810,7 @@ msgstr "Firefox браузеры"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Табларыгыз, серсүзләрегез һәм башкаларны һәр җиһазыгызда да cинхронлау."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Firefox Lockwise"
@@ -1842,7 +1842,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Эл. почта адресыгыз белән тәңгәл килмәскә тиеш"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
@@ -1858,7 +1858,7 @@ msgstr "Хәбәрегез ярдәмчеләр төркеменә җибәре�
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Язылуларга кире кайту"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1898,7 +1898,7 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:3
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Урнаштыру процессы өзелде."
 
 #: .es5/templates/pair/index.mustache:2
 msgid "Scan to connect another device"
