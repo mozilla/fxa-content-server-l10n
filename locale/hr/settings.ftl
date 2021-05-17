@@ -230,11 +230,11 @@ avatar-page-cancel-button = Odustani
 avatar-page-save-button = Spremi
 avatar-page-saving-button = Spremanje…
 avatar-page-zoom-out-button =
-  .title = Smanji
+    .title = Smanji
 avatar-page-zoom-in-button =
-  .title = Povećaj
+    .title = Povećaj
 avatar-page-rotate-button =
-  .title = Rotiraj
+    .title = Rotiraj
 avatar-page-camera-error = Nije moguće inicijalizirati kameru
 avatar-page-new-avatar =
     .alt = nova profilna slika
@@ -453,6 +453,8 @@ se-set-primary-error = Žao nam je, došlo je do greške prilikom promjene tvoje
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = E-pošta { $email } uspješno izbrisana.
 se-delete-email-error = Oprosti, dogodila se greška kod brisanja ove e-pošte.
+se-verify-session = Moraš potvrditi svoju trenutnu sesiju za izvršenje ove radnje.
+se-verify-session-error = Žao nam je, došlo je do greške tijekom provjere tvoje sesije.
 # Button to remove the secondary email
 se-remove-email =
     .title = Ukloni e-poštu
@@ -483,6 +485,7 @@ tfa-row-button-refresh =
 tfa-row-content-explain =
     Spriječi da se netko drugi prijavi na tvoj račun tako da
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
+tfa-row-cannot-verify-session-2 = Žao nam je, došlo je do greške tijekom provjere tvoje sesije.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
 tfa-row-cannot-disable = Nije moguće onemogućiti dvofaktorsku autentifikaciju.
