@@ -202,11 +202,13 @@ plan-details-total-label = Celkom
 
 ## payment-processing
 
+payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
 
 ## payment confirmation
 
-payment-confirmation-alert = Pre prevzatie kliknite sem
+payment-confirmation-alert = Pre stiahnutie kliknite sem
 payment-confirmation-mobile-alert = Neotvorila sa aplikácia? <a>Kliknite sem</a>
+payment-confirmation-thanks-heading = Ďakujeme!
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 payment-confirmation-billing-heading = Odberateľ
@@ -243,4 +245,4 @@ payment-confirmation-amount-year =
         [few] { $amount } každé { $intervalCount } roky
        *[other] { $amount } každých { $intervalCount } rokov
     }
-payment-confirmation-download-button = Pokračovať na prevzatie
+payment-confirmation-download-button = Pokračovať na stiahnutie

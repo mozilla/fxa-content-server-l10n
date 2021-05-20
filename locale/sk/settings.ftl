@@ -211,7 +211,7 @@ cs-sign-out-button = Odhlásiť sa
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 datablock-download =
-    .message = Prevzatý
+    .message = Stiahnuté
 datablock-copy =
     .message = Skopírovaný
 datablock-print =
@@ -235,7 +235,7 @@ flow-container-back = Naspäť
 
 get-data-trio-title = Kódy na obnovu účtu
 get-data-trio-download =
-    .title = Prevziať
+    .title = Stiahnuť
 get-data-trio-copy =
     .title = Kopírovať
 get-data-trio-print =
@@ -309,11 +309,11 @@ avatar-page-cancel-button = Zrušiť
 avatar-page-save-button = Uložiť
 avatar-page-saving-button = Ukladá sa…
 avatar-page-zoom-out-button =
-  .title = Oddialiť
+    .title = Oddialiť
 avatar-page-zoom-in-button =
-  .title = Priblížiť
+    .title = Priblížiť
 avatar-page-rotate-button =
-  .title = Otočiť
+    .title = Otočiť
 avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
 avatar-page-new-avatar =
     .alt = nová profilová fotografia
