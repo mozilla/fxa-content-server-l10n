@@ -144,6 +144,7 @@ payment-confirm = Eg autoriserer Mozilla, utviklar av Firefox-produkt, til å be
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal no
+payment-pay-with-paypal-btn = Betal med { -brand-name-paypal }
 payment-validate-name-error = Skriv inn namnet ditt
 payment-validate-zip-required = Postnummer er påkravd
 payment-validate-zip-short = Postnummeret er for kort
