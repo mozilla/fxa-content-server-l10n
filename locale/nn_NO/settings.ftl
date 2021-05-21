@@ -281,6 +281,7 @@ display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
+display-name-success-alert = Visingsnamn oppdatert.
 
 ##
 
