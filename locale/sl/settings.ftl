@@ -119,6 +119,7 @@ cs-description = Vse, kar uporabljate in kamor ste prijavljeni.
 cs-cannot-refresh =
     Oprostite, prišlo je do težave pri osveževanju seznama povezanih
     storitev.
+cs-cannot-disconnect = Odjemalec ni najden, povezave ni bilo mogoče prekiniti
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -128,6 +129,7 @@ cs-refresh-button =
     .title = Osveži povezane storitve
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manjkajoči ali podvojeni elementi?
+cs-disconnect-sync-heading = Odklopi od Synca
 # This string is used in a modal dialog when the user starts the disconnect from
 # Sync process.
 # Variables:
@@ -194,6 +196,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Zapri meni
+header-menu-closed = Meni za krmarjenje po strani
 header-back-to-top-link =
     .title = Nazaj na vrh
 header-title = { -product-firefox-accounts }
@@ -229,10 +232,15 @@ nav-profile = Profil
 nav-security = Varnost
 nav-connected-services = Povezane storitve
 nav-paid-subs = Plačljive naročnine
+nav-email-comm = E-poštno obveščanje
 
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Pri menjavi kod za obnovitev je prišlo do težave.
+tfa-replace-code-success =
+    Ustvarjene so bile nove kode. Te kode za enkratno
+    uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
+    računa, če ne boste imeli mobilne naprave.
 tfa-replace-code-success-alert = Kode za obnovitev računa posodobljene.
 
 ## Avatar change page
@@ -253,11 +261,11 @@ avatar-page-cancel-button = Prekliči
 avatar-page-save-button = Shrani
 avatar-page-saving-button = Shranjevanje …
 avatar-page-zoom-out-button =
-  .title = Pomanjšaj
+    .title = Pomanjšaj
 avatar-page-zoom-in-button =
-  .title = Povečaj
+    .title = Povečaj
 avatar-page-rotate-button =
-  .title = Zavrti
+    .title = Zavrti
 avatar-page-camera-error = Kamere ni bilo mogoče zagnati
 avatar-page-new-avatar =
     .alt = nova slika profila
@@ -305,6 +313,8 @@ delete-account-chk-box-1 =
     .label = preklicali vse plačane naročnine
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
+delete-account-chk-box-3 =
+    .label = pri ponovni aktivaciji tega e-poštnega računa morda ne boste mogli obnoviti shranjenih podatkov
 delete-account-chk-box-4 =
     .label = izbrisali vse razširitve in teme, ki ste jih objavili na addons.mozilla.org
 delete-account-continue-button = Nadaljuj
@@ -446,10 +456,13 @@ rk-action-create = Ustvari
 rk-action-remove = Odstrani
 rk-cannot-refresh = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
 rk-key-removed = Obnovitveni ključ za račun odstranjen.
+rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key = Osveži obnovitveni ključ
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
+rk-remove-modal-heading = Odstrani obnovitveni ključ?
 rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
+rk-remove-error = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 
 ## Secondary email sub-section on main Settings page
 
