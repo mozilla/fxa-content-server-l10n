@@ -155,6 +155,11 @@ cs-disconnect-sync-opt-not-say = raje ne bi povedal
 cs-disconnect-advice-confirm = Razumem
 cs-disconnect-lost-advice-heading = Povezava z izgubljeno/ukradeno napravo je prekinjena
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
+cs-disconnect-suspicious-advice-content =
+    Če je naprava, ki ste jo odklopili, res sumljiva,
+    morate zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") }
+    v nastavitvah računa. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili
+    v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-sign-out-button = Odjava
 
 ##
@@ -308,6 +313,7 @@ delete-account-header =
     .title = Izbriši račun
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
+delete-account-confirm-title-2 = Svoj { -product-firefox-account(sklon: "tozilnik") } ste povezali z izdelki { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
 delete-account-chk-box-1 =
     .label = preklicali vse plačane naročnine
@@ -345,6 +351,7 @@ display-name-success-alert = Prikazno ime posodobljeno.
 recovery-key-cancel-button = Prekliči
 recovery-key-close-button = Zapri
 recovery-key-continue-button = Nadaljuj
+recovery-key-created = Vaš obnovitveni ključ je bil ustvarjen. Ključ shranite na varnem mestu, kjer ga boste pozneje zlahka našli – potrebovali ga boste za ponovni dostop do svojih podatkov, če pozabite geslo.
 recovery-key-enter-password =
     .label = Vnesite geslo
 recovery-key-page-title =
