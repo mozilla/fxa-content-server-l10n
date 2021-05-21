@@ -85,6 +85,7 @@ connect-another-find-fx-mobile =
 
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
+cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -92,7 +93,20 @@ cs-description = Alt du brukar og er innlogga på.
 cs-logged-out = Logga ut av { $service }.
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Manglande- eller duplikatelement?
 cs-disconnect-sync-heading = Kople frå Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Nettlesardataa dine vil framleis vere på
+    eininga di ({ $device }), men vil ikkje lenger synkronisere med kontoen din.
+cs-disconnect-sync-reason =
+    Kva er hovudgrunnen for å kople frå denne
+    eininga?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -102,6 +116,7 @@ cs-disconnect-sync-opt-suspicious = Mistenkjeleg
 cs-disconnect-sync-opt-lost = Mista eller stolen
 cs-disconnect-sync-opt-old = Gammal eller skifta ut
 cs-disconnect-sync-opt-duplicate = Duplikat
+cs-disconnect-sync-opt-not-say = Vil helst ikkje fortelje det
 
 ##
 
@@ -148,6 +163,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Lat att meny
+header-menu-closed = Meny for nettstadnavigering
 header-back-to-top-link =
     .title = Tilbake til toppen
 header-title = { -product-firefox-accounts }
@@ -158,6 +174,7 @@ header-help = Hjelp
 input-password-hide = Gøym passord
 input-password-show = Vis passord
 input-password-hide-aria = Gøym passord frå skjermen.
+input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
 
 ## Modal
 
@@ -205,11 +222,11 @@ avatar-page-cancel-button = Avbryt
 avatar-page-save-button = Lagre
 avatar-page-saving-button = Lagrar…
 avatar-page-zoom-out-button =
-  .title = Zoom ut
+    .title = Zoom ut
 avatar-page-zoom-in-button =
-  .title = Zoom inn
+    .title = Zoom inn
 avatar-page-rotate-button =
-  .title = Roter
+    .title = Roter
 avatar-page-camera-error = Klarte ikkje å starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
