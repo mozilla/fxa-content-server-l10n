@@ -222,11 +222,11 @@ avatar-page-cancel-button = Peruuta
 avatar-page-save-button = Tallenna
 avatar-page-saving-button = Tallennetaan…
 avatar-page-zoom-out-button =
-  .title = Loitonna
+    .title = Loitonna
 avatar-page-zoom-in-button =
-  .title = Lähennä
+    .title = Lähennä
 avatar-page-rotate-button =
-  .title = Kierrä
+    .title = Kierrä
 avatar-page-camera-error = Kameraa ei voitu alustaa
 avatar-page-new-avatar =
     .alt = uusi profiilikuva
@@ -429,6 +429,7 @@ rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
 rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
+rk-refresh-error = Valitettavasti palautusavaimen päivittämisessä ilmeni ongelma.
 rk-remove-error = Tilisi palautusavainta ei voitu poistaa.
 
 ## Secondary email sub-section on main Settings page
@@ -468,11 +469,20 @@ se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähk�
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Kaksivaiheinen todennus
 tfa-row-disabled = Kaksivaiheinen todennus poistettu käytöstä.
 tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
+tfa-row-button-refresh =
+    .title = Päivitä kaksivaiheinen todennus
+tfa-row-cannot-refresh =
+    Valitettavasti kaksivaiheisen todennuksen
+    päivittämisessä ilmeni ongelma.
+tfa-row-content-explain =
+    Estä muita kirjautumasta vaatimalla
+    yksilöllinen koodi, jonka vain sinä saat tietää.
 tfa-row-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
