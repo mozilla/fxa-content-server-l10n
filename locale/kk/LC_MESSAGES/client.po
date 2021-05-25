@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-05-25 08:12+0000\n"
+"PO-Revision-Date: 2021-05-25 08:13+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1325,27 +1325,27 @@ msgstr "Парольді тастауды бастау"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Жуырдағы белсенділік"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Қауіпсіздік оқиғалары"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Оқиға атауы"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
-msgstr ""
+msgstr "Расталған"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Жасалған"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Оқиғаларды өшіру"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
@@ -1505,15 +1505,15 @@ msgstr "Firefox тіркелгілері"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Тіркелгінің басты беті"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
-msgstr ""
+msgstr "Жазылулар"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Кері байланыс"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
