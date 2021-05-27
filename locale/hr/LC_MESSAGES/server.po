@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-05-27 10:05+0000\n"
+"PO-Revision-Date: 2021-05-27 10:08+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -620,7 +620,7 @@ msgstr "Priprema, pozor, sinkroniziraj"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Potvrdi primanje ove e-pošte i pomoći ćemo ti instalirati i sinkronizirati Firefox na svim tvojim uređajima počevši od:"
+msgstr "Potvrdi primanje ovog e-maila i pomoći ćemo ti instalirati i sinkronizirati Firefox na svim tvojim uređajima počevši od:"
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -636,11 +636,11 @@ msgstr "Ili instaliraj na <a %(cadLinkAttributes)s>jedan drugi uređaj</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Ovo je automatski e-mail; ako nisi autorizirao/la ovu radnju, <a %(passwordChangeLinkAttributes)s>promijeni lozinku</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr ""
+msgstr "Za više informacija posjeti stranicu <a %(supportLinkAttributes)s>Mozilla podrška</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
