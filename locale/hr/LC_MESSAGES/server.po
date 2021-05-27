@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-04-29 20:03+0000\n"
-"Last-Translator: Ivan <1vanhorvat@protonmail.com>\n"
+"PO-Revision-Date: 2021-05-27 10:05+0000\n"
+"Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -592,11 +592,11 @@ msgstr "Potvrdi sekundarnu adresu e-pošte"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr ""
+msgstr "Zahtjev za korištenje %(email)s kao sekundarne adrese e-pošte podnijet je sa sljedećeg Firefox računa:"
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Nakon potvrde, na ovu će adresu početi pristizati sigurnosne obavijesti i potvrde."
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
@@ -620,19 +620,19 @@ msgstr "Priprema, pozor, sinkroniziraj"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr ""
+msgstr "Potvrdi primanje ove e-pošte i pomoći ćemo ti instalirati i sinkronizirati Firefox na svim tvojim uređajima počevši od:"
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr ""
+msgstr "Nakon potvrde pomoći ćemo ti instalirati i povezati Firefox na barem još jedan uređaj."
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Ili instaliraj na <a %(desktopLinkAttributes)s>jedan drugi desktop uređaj</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Ili instaliraj na <a %(cadLinkAttributes)s>jedan drugi uređaj</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
