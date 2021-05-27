@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-05-27 10:21+0000\n"
+"PO-Revision-Date: 2021-05-27 10:24+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -684,15 +684,15 @@ msgstr "Uvjeti pružanja usluge Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i prijavio/la si se za %(productName)s."
+msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se prijavio/la za %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se pretplatio na više proizvoda."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Upravljaj postavkama tvog Firefox računa na <a %(accountSettingsLinkAttributes)s>stranici računa</a>."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Terms and cancellation policy"

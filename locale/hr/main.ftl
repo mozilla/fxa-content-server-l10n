@@ -26,13 +26,16 @@ payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Poku�
 payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
 payment-error-retry-button = Pokušaj ponovno
 payment-error-manage-subscription-button = Upravljaj mojom pretplatom
+country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
 currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
 expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
 insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
 withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
 charge-exceeds-source-limit = Čini se da ćeš ovom transakcijom prijeći svoj dnevni kreditni limit. Pokušaj s drugom karticom ili za 24 sata.
 instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena za trenutna plaćanja. Pokušaj s drugom debitnom ili kreditnom karticom.
+duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana. Provjeri povijest plaćanja.
 coupon-expired = Čini se da je taj promotivni kôd istekao.
+card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
 
 ## settings
 
