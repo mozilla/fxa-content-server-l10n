@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-05-27 10:08+0000\n"
+"PO-Revision-Date: 2021-05-27 10:21+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -644,19 +644,19 @@ msgstr "Za više informacija posjeti stranicu <a %(supportLinkAttributes)s>Mozil
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Ovo je automatski e-mail; ako nisi dodao/la novi uređaj tvom Firefox računu, promijeni lozinku na %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
-msgstr ""
+msgstr "Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja."
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Ovo je automatski e-mail; ako nisi odobrio/la ovu radnju, <a %(resetLinkAttributes)s>obnovi svoju lozinku</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku."
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -684,7 +684,7 @@ msgstr "Uvjeti pružanja usluge Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i prijavio/la si se za %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
