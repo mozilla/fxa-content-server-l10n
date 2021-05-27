@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-07 04:38+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "成功重設密碼，請登入以繼續。"
 msgid "Sign in"
 msgstr "登入"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "已成功刪除帳號"
 
@@ -1140,7 +1140,11 @@ msgstr "忘記密碼？"
 msgid "Enter your email"
 msgstr "請輸入您的電子郵件地址"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "電子郵件地址"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1315,10 +1319,6 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr "<span>註：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。"
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "電子郵件地址"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

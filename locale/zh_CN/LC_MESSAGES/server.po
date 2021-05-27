@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-21 01:42+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444933939.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2648
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
 msgid "Here's your reminder to sync devices."
 msgstr "提醒 🔔 您需与其他设备进行同步。"
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2652
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "同步至少需要两台设备。请与其他设备同步您的书签、密码与其他 Firefox 数据。私密浏览，更要无缝衔接。"
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2649
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
 msgstr "请与其他设备同步，最后一次提醒！"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2655
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "与其他设备同步您的书签、密码与其他 Firefox 数据。私密浏览，更要无缝衔接。"
 
@@ -354,7 +354,9 @@ msgstr "您已成功从 %(productNameOld)s 切换至 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 调整为 %(paymentAmountNew)s。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 %(paymentProrated)s 以余额的形式一次性返还到您的账户，以反映较低的收费金额。"
+msgstr ""
+"从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 调整为 %(paymentAmountNew)s。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 %(paymentProrated)s 以余额的形式一次"
+"性返还到您的账户，以反映较低的收费金额。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -454,6 +456,42 @@ msgid ""
 "choose to cancel."
 msgstr "您的账单周期与付款信息将保持不变，下次将于 %(nextInvoiceDateOnly)s 收取 %(invoiceTotal)s。在您主动取消之前，将持续自动续订。"
 
+#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
+msgid "Your subscription will be renewed soon"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
+msgid ""
+"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+"%(invoiceTotal)s will be applied to the payment method on your account."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:3
+msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:4
+msgid ""
+"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please <a href=\"%(subscriptionSupportUrl)s\">contact "
+"us</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:5 lib/senders/templates/subscriptionRenewalReminder.txt:5
+msgid "Sincerely,"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
+msgid "The %(productName)s team"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:3
+msgid "You can ensure that your payment method and account information are up to date here:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:4
+msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please contact us:"
+msgstr ""
+
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
 msgstr "感谢您成为订阅者！"
@@ -474,7 +512,9 @@ msgstr "您已成功从 %(productNameOld)s 升级至 %(productNameNew)s。"
 msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 调整为 %(paymentAmountNew)s。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 %(paymentProrated)s，以反映较高的收费金额。"
+msgstr ""
+"从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 调整为 %(paymentAmountNew)s。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 %(paymentProrated)s，以"
+"反映较高的收费金额。"
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -877,51 +917,55 @@ msgstr "订阅 %(productName)s 所用信用卡即将过期"
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "订阅所用信用卡即将过期"
 
-#: lib/senders/email.js:2120
+#: lib/senders/email.js:2122
 msgid "Payment information update required for %(productName)s"
 msgstr "需要更新 %(productName)s 的付款信息"
 
-#: lib/senders/email.js:2134
+#: lib/senders/email.js:2138
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "需要更新 Mozilla 产品订阅的付款信息"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2184
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s 付款失败"
 
-#: lib/senders/email.js:2237 lib/senders/email.js:2302
+#: lib/senders/email.js:2235 lib/senders/email.js:2300
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "已取消您的 %(productName)s 产品订阅"
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2372
 msgid "%(productName)s subscription reactivated"
 msgstr "已重新激活 %(productName)s 个订阅"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2428
+msgid "%(productName)s automatic renewal notice"
+msgstr ""
+
+#: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
 msgstr "已收到 %(productName)s 付款"
 
-#: lib/senders/email.js:2544
+#: lib/senders/email.js:2597
 msgid "%(productName)s payment confirmed"
 msgstr "已确认 %(productName)s 付款"
 
-#: lib/senders/email.js:2617
+#: lib/senders/email.js:2670
 msgid "Welcome to %(productName)s"
 msgstr "欢迎使用 %(productName)s"
 
-#: lib/senders/email.js:2618
+#: lib/senders/email.js:2671
 msgid "Download %(productName)s"
 msgstr "下载 %(productName)s"
 
-#: lib/senders/email.js:2644
+#: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "友情提醒：完成同步设置的步骤"
 
-#: lib/senders/email.js:2645
+#: lib/senders/email.js:2698
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "最后一次提醒：请完成同步设置"
 
-#: lib/senders/email.js:2659
+#: lib/senders/email.js:2712
 msgid "Sync another device"
 msgstr "与其他设备同步"
 
@@ -1048,14 +1092,16 @@ msgstr "下载最新版本"
 #~ msgstr "您最近删除了 Firefox 账户，因此我们也同步取消了您的 %(productName)s 订阅。最后一次付款发生于 %(invoiceDateOnly)s，金额为 %(invoiceTotal)s。"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr "您的 %(productName)s 订阅已经取消，最后一次付款日期在 %(invoiceDateOnly)s，金额为 $%(invoiceTotal)s。您的服务将持续到目前的计费周期结束为止，即 %(serviceLastActiveDateOnly)s。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s 以余额的形式一次性返还到您的账户，以反映较低的收费金额。"
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们会将剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s 以"
+#~ "余额的形式一次性返还到您的账户，以反映较低的收费金额。"
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "已于 %(invoiceDateOnly)s 收取 %(invoiceTotal)s"
@@ -1066,9 +1112,11 @@ msgstr "下载最新版本"
 #~ msgstr "您的账单周期与付款信息将保持不变，下次将于 %(nextInvoiceDateOnly)s，对卡号末四位为 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主动取消之前，将保持自动续订。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 $%(paymentProrated)s，以反映较高的收费金额。"
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "从下一期账单开始，我们就会从每 %(productPaymentCycle)s 收费 %(paymentAmountOld)s 美元调整为 %(paymentAmountNew)s 美元。届时我们将向您一次性收取剩余期间 %(productPaymentCycle)s 的差额 $"
+#~ "%(paymentProrated)s，以反映较高的收费金额。"
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "您已登录，可安全地开始探索。"
@@ -1464,8 +1512,8 @@ msgstr "下载最新版本"
 #~ msgstr "重置密码"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr "几天前您创建了一个 Firefox 账户，但还没有验证它。已验证的账号使您可以在任何已连接账户的设备上访问您的标签页、书签、密码和历史记录。激活您的账户，只需确认这个电子邮件地址。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1492,7 +1540,8 @@ msgstr "下载最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已移除 Firefox 账户的次要邮箱 %(secondaryEmail)s。安全通知和登录确认将不再发往该地址。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功验证 %(secondaryEmail)s 作为您的 Firefox 账号的次要邮件地址。安全通知和登录确认现在将同时发送给两个电子邮件地址。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1576,7 +1625,9 @@ msgstr "下载最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个电子邮件地址，以激活您的账号。"
+#~ msgstr ""
+#~ "几周前您创建了一个 Firefox 账号，但还没有验证它。我们很想念你。Firefox 可以在 Windows、Mac、Linux、Android 和 iOS 系统上使用。您可以用账号同步您的 Firefox 密码、书签和历史记录。我们渴望您确认这个"
+#~ "电子邮件地址，以激活您的账号。"
 
 #~ msgid "env"
 #~ msgstr "env"

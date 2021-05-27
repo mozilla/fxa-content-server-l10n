@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2019-07-01 19:47+0000\n"
 "Last-Translator: Selva Makilan <66makilan66@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "கடவுச்சொல் வெற்றிகரமாக மீ�
 msgid "Sign in"
 msgstr "உள்நுழை"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "கணக்கு வெற்றிகரமாக நீக்கப்பட்டது"
 
@@ -1142,7 +1142,11 @@ msgstr "கடவுச்சொல்லை மறந்துவிட்�
 msgid "Enter your email"
 msgstr ""
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "மின்னஞ்சல்"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1317,10 +1321,6 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "மின்னஞ்சல்"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

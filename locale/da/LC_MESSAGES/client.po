@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-07 14:05+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -29,7 +29,7 @@ msgstr "Adgangskode nulstillet. Log ind for at fortsætte."
 msgid "Sign in"
 msgstr "Log ind"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "Kontoen er slettet"
 
@@ -1144,7 +1144,11 @@ msgstr "Glemt adgangskode?"
 msgid "Enter your email"
 msgstr "Indtast din mailadresse"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Mailadresse"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1321,10 +1325,6 @@ msgid ""
 msgstr ""
 "<span>BEMÆRK:</span> Når du nulstiller din adgangskode, nulstiller du din konto. Nogle af dine personlige oplysninger (herunder historik, bogmærker og adgangskoder) kan gå tabt. Det skyldes, at vi "
 "krypterer dine data med din adgangskode for at beskytte dit privatliv."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "Mailadresse"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

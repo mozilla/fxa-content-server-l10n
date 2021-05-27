@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-04-08 15:10+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
+"PO-Revision-Date: 2021-05-21 09:51+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444998452.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2648
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
 msgid "Here's your reminder to sync devices."
 msgstr "Dit is jo omtinken om apparaten te syngronisearjen."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2652
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke "
 "itselde."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2649
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
 msgstr "Lêste omtinken om apparaten te syngronisearjen!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2655
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke itselde."
 
@@ -443,11 +443,11 @@ msgstr "Miskien is jo creditcard ferrûn, of jo aktuele betellingsmetoade is fer
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
+msgstr "Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch <a href=\"%(updateBillingUrl)s\">jo betellingsgegevens by te wurkjen</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
+msgstr "Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch jo betellingsgegevens by te wurkjen:"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
@@ -469,6 +469,42 @@ msgid ""
 msgstr ""
 "Jo betellingssyklus en betelling bliuwe itselde. Jo folgjende ôfskriuwing is %(invoiceTotal)s op %(nextInvoiceDateOnly)s. Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein "
 "jo derfoar kieze om op te sizzen."
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
+msgid "Your subscription will be renewed soon"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
+msgid ""
+"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+"%(invoiceTotal)s will be applied to the payment method on your account."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:3
+msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:4
+msgid ""
+"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please <a href=\"%(subscriptionSupportUrl)s\">contact "
+"us</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:5 lib/senders/templates/subscriptionRenewalReminder.txt:5
+msgid "Sincerely,"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
+msgid "The %(productName)s team"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:3
+msgid "You can ensure that your payment method and account information are up to date here:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:4
+msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please contact us:"
+msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -895,51 +931,55 @@ msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
 
-#: lib/senders/email.js:2120
+#: lib/senders/email.js:2122
 msgid "Payment information update required for %(productName)s"
 msgstr "Bywurkjen fan betellingsynformaasje fereaske foar %(productName)s"
 
-#: lib/senders/email.js:2134
+#: lib/senders/email.js:2138
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Bywurkjen fan betellingsynformaasje fereaske foar Mozilla-abonneminten"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2184
 msgid "%(productName)s payment failed"
 msgstr "De betelling foar %(productName)s is mislearre"
 
-#: lib/senders/email.js:2237 lib/senders/email.js:2302
+#: lib/senders/email.js:2235 lib/senders/email.js:2300
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Jo abonnemint op %(productName)s is opsein"
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2372
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonnemint op %(productName)s opnij aktivearre"
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2428
+msgid "%(productName)s automatic renewal notice"
+msgstr ""
+
+#: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
 msgstr "Betelling foar %(productName)s is ûntfongen"
 
-#: lib/senders/email.js:2544
+#: lib/senders/email.js:2597
 msgid "%(productName)s payment confirmed"
 msgstr "De betelling foar %(productName)s is befêstige"
 
-#: lib/senders/email.js:2617
+#: lib/senders/email.js:2670
 msgid "Welcome to %(productName)s"
 msgstr "Wolkom by %(productName)s"
 
-#: lib/senders/email.js:2618
+#: lib/senders/email.js:2671
 msgid "Download %(productName)s"
 msgstr "%(productName)s downloade"
 
-#: lib/senders/email.js:2644
+#: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "In freonlik omtinken: ynstellen fan jo Sync foltôgje"
 
-#: lib/senders/email.js:2645
+#: lib/senders/email.js:2698
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Lêste omtinken: ynstellen fan Sync foltôgje"
 
-#: lib/senders/email.js:2659
+#: lib/senders/email.js:2712
 msgid "Sync another device"
 msgstr "Noch in apparaat syngronisearje"
 

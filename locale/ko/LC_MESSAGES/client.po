@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-07 00:14+0000\n"
 "Last-Translator: jane day <hoyeon.choi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -1144,7 +1144,11 @@ msgstr "비밀번호를 잊으셨습니까?"
 msgid "Enter your email"
 msgstr "이메일 입력"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "이메일"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1321,10 +1325,6 @@ msgid ""
 msgstr ""
 "<span>안내:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 때"
 "문입니다."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "이메일"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

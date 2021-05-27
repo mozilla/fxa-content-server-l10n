@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-11 21:19+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Fjalëkalimi u ricaktua me sukses. Hyni që të vazhdoni."
 msgid "Sign in"
 msgstr "Hyni"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "Llogaria u fshi me sukses"
 
@@ -1193,7 +1193,11 @@ msgstr "Harruat  fjalëkalimin?"
 msgid "Enter your email"
 msgstr "Jepni email-in tuaj"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Email"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1370,10 +1374,6 @@ msgid ""
 msgstr ""
 "<span>SHËNIM:</span> Kur ricaktoni fjalëkalimin tuaj, riktheni në fillimet llogarinë tuaj. Mund të humbni disa nga të dhënat tuaja personale (përfshi historikun, faqerojtësit, dhe fjalëkalimet). "
 "Kjo vjen ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, për të mbrojtur privatësinë tuaj."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "Email"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

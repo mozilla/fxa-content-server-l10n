@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2020-06-06 16:59+0000\n"
 "Last-Translator: Hasdai Pacheco <me@hasdaipacheco.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Contraseña restablecida correctamente. Identifícate para continuar."
 msgid "Sign in"
 msgstr "Inicia sesión"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "Cuenta eliminada exitosamente"
 
@@ -1145,7 +1145,11 @@ msgstr "¿Olvidaste la contraseña?"
 msgid "Enter your email"
 msgstr "Ingresa tu correo electrónico"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1322,10 +1326,6 @@ msgid ""
 msgstr ""
 "<span>NOTA:</span> Cuando restableces tu contraseña, restableces también tu cuenta. Puede que pierdas parte de tu información personal (historial, contraseñas y marcadores). Esto ocurre porque "
 "ciframos tus datos con tu contraseña para proteger tu privacidad."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "Correo electrónico"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

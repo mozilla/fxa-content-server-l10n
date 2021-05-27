@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-04-08 15:33+0000\n"
 "Last-Translator: Wannaphong Phatthiyaphaibun <wannaphong@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "ตั้งรหัสผ่านใหม่สำเร็จแล
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "ได้ลบบัญชีเรียบร้อยแล้ว"
 
@@ -1141,7 +1141,11 @@ msgstr "ลืมรหัสผ่าน?"
 msgid "Enter your email"
 msgstr "ใส่อีเมลของคุณ"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "อีเมล"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1317,10 +1321,6 @@ msgid ""
 "data with your password to protect your privacy."
 msgstr ""
 "<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "อีเมล"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"

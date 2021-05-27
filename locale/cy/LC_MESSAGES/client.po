@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-05-12 15:27+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 msgid "Sign in"
 msgstr "Mewngofnodi"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
@@ -1146,7 +1146,11 @@ msgstr "Wedi anghofio'r cyfrinair?"
 msgid "Enter your email"
 msgstr "Rhowch eich e-bost"
 
-#: .es5/templates/index.mustache:3 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-bost"
+
+#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1323,10 +1327,6 @@ msgid ""
 msgstr ""
 "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). Mae "
 "hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "E-bost"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
