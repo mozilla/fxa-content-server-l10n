@@ -136,6 +136,7 @@ payment-validate-zip-short = Poštanski broj je prekratak
 ## subscription redirect
 
 sub-redirect-ready = Tvoja pretplata je spremna
+sub-redirect-copy = Odvoji malo vremena i reci nam nešto o vlastitom iskustvu.
 sub-redirect-skip-survey = Ne hvala, samo me odvedite do mog proizvoda.
 
 ## fields
@@ -328,6 +329,7 @@ payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
 payment-confirmation-alert = Pritisni ovdje za preuzimanje
 payment-confirmation-mobile-alert = Program se nije otcorio? <a>Klikni ovdje</a>
 payment-confirmation-thanks-heading = Hvala ti!
+payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-billing-heading = Naplata za
