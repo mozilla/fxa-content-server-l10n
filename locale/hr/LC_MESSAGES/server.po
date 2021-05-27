@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-20 22:07+0000\n"
-"PO-Revision-Date: 2021-05-27 11:15+0000\n"
+"PO-Revision-Date: 2021-05-27 11:17+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -556,11 +556,11 @@ msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjes
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr ""
+msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjestu prijave."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr ""
+msgstr "Za dodatnu sigurnost, potvrdi ovu prijavu sa sljedećeg uređaja:"
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:813
 msgid "Confirm sign-in"
