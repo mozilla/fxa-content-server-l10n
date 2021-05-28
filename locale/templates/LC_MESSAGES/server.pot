@@ -688,7 +688,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions "
-"about your subscription or need more information about %(productName)s "
+"about your subscription or need more information about %(productName)s, "
 "please <a href=\"%(subscriptionSupportUrl)s\">contact us</a>."
 msgstr ""
 
@@ -711,7 +711,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions "
-"about your subscription or need more information about %(productName)s "
+"about your subscription or need more information about %(productName)s, "
 "please contact us:"
 msgstr ""
 
