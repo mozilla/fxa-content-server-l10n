@@ -25,7 +25,7 @@ msgstr "要有兩台裝置連結起來才算「同步」。可透過 Sync 安全
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
-msgstr "最後一次提醒您要記得同步裝置！"
+msgstr "這是最後一次顯示提醒囉，要記得同步裝置！"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -818,7 +818,7 @@ msgstr "提醒: 請完成帳號註冊"
 
 #: lib/senders/email.js:682
 msgid "Final reminder: Activate your account"
-msgstr "最後一次提醒: 啟用您的帳號"
+msgstr "這是最後一次顯示提醒囉：請啟用帳號"
 
 #: lib/senders/email.js:737
 msgid "Account authorization code"
@@ -963,7 +963,7 @@ msgstr "善意提醒：如何完成 Sync 設定"
 
 #: lib/senders/email.js:2698
 msgid "Final Reminder: Complete Sync Setup"
-msgstr "最後一次提醒：完成 Sync 設定"
+msgstr "這是最後一次顯示提醒囉：請完成 Sync 設定"
 
 #: lib/senders/email.js:2712
 msgid "Sync another device"
