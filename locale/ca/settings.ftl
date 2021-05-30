@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Tanca el missatge
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Compte del Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +61,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menú Bento del { -brand-firefox }
+bento-menu-firefox-title = El { -brand-firefox } és una tecnologia que lluita per la vostra privadesa en línia.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } per a l'escriptori
+bento-menu-firefox-mobile = Navegador { -brand-firefox } per al mòbil
+bento-menu-made-by-mozilla = Creat per { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -122,6 +138,12 @@ datablock-copy =
 datablock-print =
     .message = S'ha imprès
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codis de recuperació
@@ -139,9 +161,16 @@ header-menu-closed = Menú de navegació del lloc
 header-back-to-top-link =
     .title = Torna a dalt
 header-title = { -product-firefox-accounts }
-header-switch-title = Canvia al disseny clàssic
-    .title = enllaç al disseny clàssic
 header-help = Ajuda
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -172,15 +201,14 @@ avatar-page-remove-photo = Elimina la foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Torna a fer la foto
-avatar-page-close-button = Tanca
 avatar-page-save-button = Desa
 avatar-page-saving-button = S'està desant…
 avatar-page-zoom-out-button =
-  .title = Redueix
+    .title = Redueix
 avatar-page-zoom-in-button =
-  .title = Amplia
+    .title = Amplia
 avatar-page-rotate-button =
-  .title = Gira
+    .title = Gira
 avatar-page-camera-error = No s'ha pogut inicialitzar la càmera
 avatar-page-new-avatar =
     .alt = foto de perfil nova
@@ -231,7 +259,6 @@ delete-account-chk-box-3 =
     .label = Si reactiveu aquesta adreça electrònica, no recuperareu la vostra informació desada
 delete-account-chk-box-4 =
     .label = S'esborraran totes les extensions i temes que hàgiu publicat a addons.mozilla.org
-delete-account-close-button = Tanca
 delete-account-continue-button = Continua
 delete-account-password-input =
     .label = Introduïu la contrasenya
@@ -367,7 +394,6 @@ row-defaults-status = Cap
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activat
 rk-not-set = No definit
 rk-action-create = Crea
 rk-action-remove = Elimina
@@ -417,8 +443,6 @@ se-content-note = Nota: una adreça electrònica secundària no restaurarà la v
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticació en dos passos
 tfa-row-disabled = S'ha desactivat l'autenticació en dos passos.
 tfa-row-enabled = Activat
 tfa-row-not-set = No definit
@@ -436,12 +460,6 @@ tfa-row-cannot-disable = No s'ha pogut desactivar l'autenticació en dos passos.
 tfa-row-change-modal-heading = Voleu canviar els codis de recuperació?
 tfa-row-change-modal-confirm = Canvia
 tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Imatge
-avatar-add-link = Afegeix
-avatar-change-link = Canvia
 
 ## Auth-server based errors that originate from backend service
 
