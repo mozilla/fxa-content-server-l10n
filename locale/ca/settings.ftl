@@ -140,9 +140,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menú del { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Heu iniciat la sessió com a</signin> <user>{ $user }</user>
+drop-down-menu-sign-out = Tanca la sessió
+drop-down-menu-sign-out-error = S'ha produït un problema en tancar la sessió.
 
 ## Flow Container
 
+flow-container-back = Enrere
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -165,12 +173,26 @@ header-help = Ajuda
 
 ## Input Password
 
+input-password-hide = Amaga la contrasenya
+input-password-show = Mostra la contrasenya
+input-password-hide-aria = Amaga la contrasenya de la pantalla.
+input-password-show-aria = Mostra la contrasenya com a text net. La contrasenya serà visible a la pantalla.
 
 ## Modal
 
+modal-close-title = Tanca
+modal-cancel-button = Cancel·la
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifiqueu l'adreça electrònica
+mvs-enter-verification-code = Introduïu el vostre codi de verificació
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Introduïu el codi de verificació que s'ha enviat a <email>{ $email }</email> en els pròxims 5 minuts.
+msv-cancel-button = Cancel·la
+msv-submit-button = Verifica
 
 ## Settings Nav
 
@@ -201,6 +223,7 @@ avatar-page-remove-photo = Elimina la foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Torna a fer la foto
+avatar-page-cancel-button = Cancel·la
 avatar-page-save-button = Desa
 avatar-page-saving-button = S'està desant…
 avatar-page-zoom-out-button =
@@ -367,6 +390,9 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
+profile-heading = Perfil
+profile-picture =
+    .header = Imatge
 profile-display-name =
     .header = Nom a mostrar
 profile-password =
@@ -394,7 +420,9 @@ row-defaults-status = Cap
 
 ## Recovery key sub-section on main Settings page
 
-rk-not-set = No definit
+rk-header = Clau de recuperació
+rk-enabled = Activada
+rk-not-set = No definida
 rk-action-create = Crea
 rk-action-remove = Elimina
 rk-cannot-refresh = S'ha produït un error en actualitzar la clau de recuperació.
@@ -406,6 +434,8 @@ rk-content-reset-data = Per què en restablir la contrasenya es restableixen les
 rk-cannot-verify-session-2 = S'ha produït un problema en verificar la vostra sessió.
 rk-remove-modal-heading = Voleu eliminar la clau de recuperació?
 rk-remove-modal-content = En cas que restabliu la contrasenya, no podreu utilitzar la clau de recuperació per accedir a les vostres dades. Aquesta acció no es pot desfer.
+rk-refresh-error = S'ha produït un error en actualitzar la clau de recuperació.
+rk-remove-error = No s'ha pogut eliminar la clau de recuperació del compte.
 
 ## Secondary email sub-section on main Settings page
 
@@ -443,9 +473,10 @@ se-content-note = Nota: una adreça electrònica secundària no restaurarà la v
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticació en dos passos
 tfa-row-disabled = S'ha desactivat l'autenticació en dos passos.
-tfa-row-enabled = Activat
-tfa-row-not-set = No definit
+tfa-row-enabled = Activada
+tfa-row-not-set = No definida
 tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
 tfa-row-button-refresh =
