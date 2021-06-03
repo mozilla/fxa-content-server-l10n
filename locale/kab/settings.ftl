@@ -183,12 +183,25 @@ header-help = Tallalt
 
 ## Input Password
 
+input-password-hide = Ffer awal uffir
+input-password-show = Sken awal uffir
+input-password-hide-aria = Ffer awal uffir deg ugdil.
 
 ## Modal
 
+modal-close-title = Mdel
+modal-cancel-button = Sefsex
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Senqed imayl-ik·im
+mvs-enter-verification-code = Sekcem tangalt-ik•im n usenqed
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Ttxil sekcem tangalt n usenqed i yettwaznen ɣer <email>{ $email }</email> deg 5 n tesdatin.
+msv-cancel-button = Sefsex
+msv-submit-button = Senqed
 
 ## Settings Nav
 
@@ -222,6 +235,7 @@ avatar-page-remove-photo = Kkes tawlaft
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ṭṭef tawlaft i tikkelt-nniḍen
+avatar-page-cancel-button = Sefsex
 avatar-page-save-button = Sekles
 avatar-page-saving-button = Asekles…
 avatar-page-zoom-out-button =
@@ -400,6 +414,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Amaɣnu
+profile-picture =
+    .header = Tugna
 profile-display-name =
     .header = Isem n uskan
 profile-password =
@@ -427,6 +443,8 @@ row-defaults-status = Ulac
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Tasarutt n tririt
+rk-enabled = Yettwarmed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
@@ -441,6 +459,8 @@ rk-remove-modal-heading = Tukksa n tsarut n tririt?
 rk-remove-modal-content =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
     ad tesqedceḍ tasarut-ik·im n tririt i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
+rk-refresh-error = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
+rk-remove-error = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 
 ## Secondary email sub-section on main Settings page
 
@@ -482,6 +502,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Asesteb s snat n tarrayin
 tfa-row-disabled = Asesteb s snat n tarrayin yensa.
 tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
