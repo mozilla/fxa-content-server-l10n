@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 
 #: lib/senders/templates/cadReminderFirst.txt:1
-#: lib/senders/email.js:2648
+#: lib/senders/email.js:2701
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:2
-#: lib/senders/email.js:2652
+#: lib/senders/email.js:2705
 msgid ""
 "It takes two to sync. Syncing another device with Firefox privately keeps "
 "your bookmarks, passwords and other Firefox data the same everywhere you "
@@ -25,12 +25,12 @@ msgid ""
 msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1
-#: lib/senders/email.js:2649
+#: lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
 msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:2
-#: lib/senders/email.js:2655
+#: lib/senders/email.js:2708
 msgid ""
 "Syncing another device with Firefox privately keeps your bookmarks, "
 "passwords and other Firefox data the same everywhere you use Firefox."
@@ -665,6 +665,56 @@ msgid ""
 "automatically renew each billing period unless you choose to cancel."
 msgstr ""
 
+#: lib/senders/templates/subscriptionRenewalReminder.html:1
+#: lib/senders/templates/subscriptionRenewalReminder.txt:1
+msgid "Your subscription will be renewed soon"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:2
+#: lib/senders/templates/subscriptionRenewalReminder.txt:2
+msgid ""
+"Your current subscription is set to automatically renew in "
+"%(reminderLength)s days. At that time, Mozilla will renew your "
+"%(planIntervalCount)s %(planInterval)s subscription and a charge of "
+"%(invoiceTotal)s will be applied to the payment method on your account."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:3
+msgid ""
+"You can ensure that your payment method and account information are up to "
+"date <a href=\"%(updateBillingUrl)s\">here</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:4
+msgid ""
+"Thank you for subscribing to %(productName)s. If you have any questions "
+"about your subscription or need more information about %(productName)s, "
+"please <a href=\"%(subscriptionSupportUrl)s\">contact us</a>."
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:5
+#: lib/senders/templates/subscriptionRenewalReminder.txt:5
+msgid "Sincerely,"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:6
+#: lib/senders/templates/subscriptionRenewalReminder.txt:6
+msgid "The %(productName)s team"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:3
+msgid ""
+"You can ensure that your payment method and account information are up to "
+"date here:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.txt:4
+msgid ""
+"Thank you for subscribing to %(productName)s. If you have any questions "
+"about your subscription or need more information about %(productName)s, "
+"please contact us:"
+msgstr ""
+
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
 msgstr ""
@@ -1209,52 +1259,56 @@ msgstr ""
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2120
+#: lib/senders/email.js:2122
 msgid "Payment information update required for %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2134
+#: lib/senders/email.js:2138
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr ""
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2184
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2237
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2235
+#: lib/senders/email.js:2300
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2372
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2454
+#: lib/senders/email.js:2428
+msgid "%(productName)s automatic renewal notice"
+msgstr ""
+
+#: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2544
+#: lib/senders/email.js:2597
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2617
+#: lib/senders/email.js:2670
 msgid "Welcome to %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2618
+#: lib/senders/email.js:2671
 msgid "Download %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2644
+#: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2645
+#: lib/senders/email.js:2698
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2659
+#: lib/senders/email.js:2712
 msgid "Sync another device"
 msgstr ""
 

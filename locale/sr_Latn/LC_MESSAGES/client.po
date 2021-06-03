@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 22:07+0000\n"
+"POT-Creation-Date: 2021-05-27 22:09+0000\n"
 "PO-Revision-Date: 2021-02-01 17:55+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 msgid "Sign in"
 msgstr "Prijavi se"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:172
 msgid "Account deleted successfully"
 msgstr "Nalog uspešno obrisan"
 
@@ -1317,7 +1317,12 @@ msgstr "Zaboravili ste lozinku?"
 msgid "Enter your email"
 msgstr "Unesite vašu adresu"
 
-#: .es5/templates/index.mustache:3
+#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-pošta"
+
+#: .es5/templates/index.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:10
 #: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:5
@@ -1549,11 +1554,6 @@ msgstr ""
 "Možda ćete izgubiti neke lične informacije (uključujući istoriju, zabeleške "
 "i lozinke). To je zato što šifrujemo vaše podatke sa vašom lozinkom kako bi "
 "zaštitili vašu privatnost."
-
-#: .es5/templates/reset_password.mustache:5
-#: .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "E-pošta"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
