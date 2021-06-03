@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Tanca el missatge
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Compte del Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -56,6 +61,17 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-title = Menú Bento del { -brand-firefox }
+bento-menu-firefox-title = El { -brand-firefox } és una tecnologia que lluita per la vostra privadesa en línia.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } per a l'escriptori
+bento-menu-firefox-mobile = Navegador { -brand-firefox } per al mòbil
+bento-menu-made-by-mozilla = Creat per { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -122,6 +138,20 @@ datablock-copy =
 datablock-print =
     .message = S'ha imprès
 
+# DropDownAvatarMenu component
+
+drop-down-menu-title = Menú del { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Heu iniciat la sessió com a</signin> <user>{ $user }</user>
+drop-down-menu-sign-out = Tanca la sessió
+drop-down-menu-sign-out-error = S'ha produït un problema en tancar la sessió.
+
+## Flow Container
+
+flow-container-back = Enrere
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Codis de recuperació
@@ -139,9 +169,30 @@ header-menu-closed = Menú de navegació del lloc
 header-back-to-top-link =
     .title = Torna a dalt
 header-title = { -product-firefox-accounts }
-header-switch-title = Canvia al disseny clàssic
-    .title = enllaç al disseny clàssic
 header-help = Ajuda
+
+## Input Password
+
+input-password-hide = Amaga la contrasenya
+input-password-show = Mostra la contrasenya
+input-password-hide-aria = Amaga la contrasenya de la pantalla.
+input-password-show-aria = Mostra la contrasenya com a text net. La contrasenya serà visible a la pantalla.
+
+## Modal
+
+modal-close-title = Tanca
+modal-cancel-button = Cancel·la
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifiqueu l'adreça electrònica
+mvs-enter-verification-code = Introduïu el vostre codi de verificació
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Introduïu el codi de verificació que s'ha enviat a <email>{ $email }</email> en els pròxims 5 minuts.
+msv-cancel-button = Cancel·la
+msv-submit-button = Verifica
 
 ## Settings Nav
 
@@ -172,15 +223,15 @@ avatar-page-remove-photo = Elimina la foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Torna a fer la foto
-avatar-page-close-button = Tanca
+avatar-page-cancel-button = Cancel·la
 avatar-page-save-button = Desa
 avatar-page-saving-button = S'està desant…
 avatar-page-zoom-out-button =
-  .title = Redueix
+    .title = Redueix
 avatar-page-zoom-in-button =
-  .title = Amplia
+    .title = Amplia
 avatar-page-rotate-button =
-  .title = Gira
+    .title = Gira
 avatar-page-camera-error = No s'ha pogut inicialitzar la càmera
 avatar-page-new-avatar =
     .alt = foto de perfil nova
@@ -231,7 +282,6 @@ delete-account-chk-box-3 =
     .label = Si reactiveu aquesta adreça electrònica, no recuperareu la vostra informació desada
 delete-account-chk-box-4 =
     .label = S'esborraran totes les extensions i temes que hàgiu publicat a addons.mozilla.org
-delete-account-close-button = Tanca
 delete-account-continue-button = Continua
 delete-account-password-input =
     .label = Introduïu la contrasenya
@@ -340,6 +390,9 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
+profile-heading = Perfil
+profile-picture =
+    .header = Imatge
 profile-display-name =
     .header = Nom a mostrar
 profile-password =
@@ -367,8 +420,9 @@ row-defaults-status = Cap
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Activat
-rk-not-set = No definit
+rk-header = Clau de recuperació
+rk-enabled = Activada
+rk-not-set = No definida
 rk-action-create = Crea
 rk-action-remove = Elimina
 rk-cannot-refresh = S'ha produït un error en actualitzar la clau de recuperació.
@@ -380,6 +434,8 @@ rk-content-reset-data = Per què en restablir la contrasenya es restableixen les
 rk-cannot-verify-session-2 = S'ha produït un problema en verificar la vostra sessió.
 rk-remove-modal-heading = Voleu eliminar la clau de recuperació?
 rk-remove-modal-content = En cas que restabliu la contrasenya, no podreu utilitzar la clau de recuperació per accedir a les vostres dades. Aquesta acció no es pot desfer.
+rk-refresh-error = S'ha produït un error en actualitzar la clau de recuperació.
+rk-remove-error = No s'ha pogut eliminar la clau de recuperació del compte.
 
 ## Secondary email sub-section on main Settings page
 
@@ -417,11 +473,10 @@ se-content-note = Nota: una adreça electrònica secundària no restaurarà la v
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Autenticació en dos passos
+tfa-row-header = Autenticació en dos passos
 tfa-row-disabled = S'ha desactivat l'autenticació en dos passos.
-tfa-row-enabled = Activat
-tfa-row-not-set = No definit
+tfa-row-enabled = Activada
+tfa-row-not-set = No definida
 tfa-row-action-add = Afegeix
 tfa-row-action-disable = Desactiva
 tfa-row-button-refresh =
@@ -436,12 +491,6 @@ tfa-row-cannot-disable = No s'ha pogut desactivar l'autenticació en dos passos.
 tfa-row-change-modal-heading = Voleu canviar els codis de recuperació?
 tfa-row-change-modal-confirm = Canvia
 tfa-row-change-modal-explain = Aquesta acció no es pot desfer.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Imatge
-avatar-add-link = Afegeix
-avatar-change-link = Canvia
 
 ## Auth-server based errors that originate from backend service
 

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-27 22:09+0000\n"
-"PO-Revision-Date: 2021-03-07 16:31+0000\n"
+"PO-Revision-Date: 2021-05-30 17:07+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
 #: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:6 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr ""
+msgstr "Teniu dubtes sobre la vostra subscripció? El nostre equip de suport és aquí per ajudar-vos:"
 
 #: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
 msgid "Low recovery codes remaining"
@@ -70,13 +70,15 @@ msgstr "Inici de sessió nou al %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Cal que canvieu la contrasenya"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
+"Hem detectat comportaments sospitosos al vostre compte del Firefox. Per impedir accessos no autoritzats al vostre compte del Firefox, hem desconnectat tots els dispositius del vostre compte i us "
+"demanem que canvieu la contrasenya com a precaució."
 
 #: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -84,7 +86,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "<b>Important:</b> Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic."
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:7
 #: lib/senders/templates/passwordResetRequired.txt:7
@@ -98,7 +100,7 @@ msgstr "L'equip de Comptes del Firefox"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Important: Trieu una contrasenya diferent de la que utilitzàveu prèviament i assegureu-vos que sigui diferent de la del vostre compte de correu electrònic."
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
@@ -599,11 +601,11 @@ msgstr "Confirmeu l'inici de la sessió"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr ""
+msgstr "Si és així, aquí teniu el codi de verificació:"
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
-msgstr ""
+msgstr "Caduca d'aquí a 5 minuts."
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
@@ -639,7 +641,7 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr ""
+msgstr "Caduca d'aquí a 5 minuts. Després de la verificació, aquesta adreça rebrà notificacions i confirmacions de seguretat."
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
@@ -1058,8 +1060,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> "
-#~ "i l'<a %(iosLinkAttributes)s>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> i "
+#~ "l'<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'Android i l'iOS."
@@ -1086,8 +1088,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i "
-#~ "l'<a href='%(iosUrl)s'>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "

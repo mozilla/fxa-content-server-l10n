@@ -135,9 +135,11 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Выйсці
 
 ## Flow Container
 
+flow-container-back = Назад
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -160,12 +162,26 @@ header-help = Даведка
 
 ## Input Password
 
+input-password-hide = Схаваць пароль
+input-password-show = Паказаць пароль
+input-password-hide-aria = Схаваць пароль з экрана.
+input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
 
 ## Modal
 
+modal-close-title = Закрыць
+modal-cancel-button = Скасаваць
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Пацвердзіце сваю электронную пошту
+mvs-enter-verification-code = Увядзіце свой код пацвярджэння
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <email>{ $email }</email> на працягу 5 хвілін.
+msv-cancel-button = Скасаваць
+msv-submit-button = Пацвердзіць
 
 ## Settings Nav
 
@@ -197,11 +213,11 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Перазняць фота
 avatar-page-save-button = Захаваць
 avatar-page-zoom-out-button =
-  .title = Паменшыць
+    .title = Паменшыць
 avatar-page-zoom-in-button =
-  .title = Павялічыць
+    .title = Павялічыць
 avatar-page-rotate-button =
-  .title = Павярнуць
+    .title = Павярнуць
 avatar-page-camera-error = Немагчыма ініцыялізаваць камеру
 avatar-page-new-avatar =
     .alt = новая выява профілю
