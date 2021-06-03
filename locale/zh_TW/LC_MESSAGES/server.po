@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-27 22:09+0000\n"
-"PO-Revision-Date: 2021-06-03 04:51+0000\n"
+"PO-Revision-Date: 2021-06-03 04:55+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -466,7 +466,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "您可以到<a href=\"%(updateBillingUrl)s\">此處</a>確認付款方式與帳戶資訊。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid ""
@@ -476,7 +476,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5 lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Sincerely,"
-msgstr ""
+msgstr "感謝您，"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "The %(productName)s team"
@@ -484,7 +484,7 @@ msgstr "%(productName)s 團隊"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "您可以到下列位置確認付款方式與帳戶資訊："
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please contact us:"
@@ -935,7 +935,7 @@ msgstr "已重新開始訂閱 %(productName)s"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "%(productName)s 自動續訂通知"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
