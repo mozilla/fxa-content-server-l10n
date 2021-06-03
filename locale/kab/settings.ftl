@@ -186,6 +186,7 @@ header-help = Tallalt
 input-password-hide = Ffer awal uffir
 input-password-show = Sken awal uffir
 input-password-hide-aria = Ffer awal uffir deg ugdil.
+input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
 
 ## Modal
 
