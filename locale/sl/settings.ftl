@@ -96,11 +96,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox }ov meni
+bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vašo zasebnost na spletu.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
+bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 
 ## Connect another device promo
 
@@ -362,6 +365,7 @@ recovery-key-success-alert = Obnovitveni ključ ustvarjen.
 
 ## Add secondary email page
 
+add-secondary-email-error = Pri dodajanju tega e-poštnega naslova je prišlo do napake.
 add-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
 add-secondary-email-enter-address =
@@ -467,6 +471,7 @@ rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key = Osveži obnovitveni ključ
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
+rk-cannot-verify-session-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 rk-remove-modal-heading = Odstrani obnovitveni ključ?
 rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
 rk-remove-error = Ključa za obnovitev računa ni bilo mogoče odstraniti.
@@ -487,6 +492,7 @@ se-set-primary-error = Oprostite, pri spreminjanju glavnega e-poštnega naslova 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } je uspešno izbrisan.
 se-delete-email-error = Oprostite, pri brisanju tega sporočila je prišlo do težave.
+se-verify-session-error = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrani e-poštni naslov
@@ -496,6 +502,7 @@ se-refresh-email =
 se-unverified = nepotrjen
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
+se-default-content = Obdržite dostop do svojega računa v primeru, da se ne morete prijaviti v glavni e-poštni naslov.
 se-content-note =
     Opomba: pomožni e-poštni naslov ne bo obnovil vaših podatkov – za to
     boste potrebovali <a>obnovitveni ključ</a>.
@@ -516,6 +523,10 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Oprostite, prišlo je do težave pri osveževanju
     overitve v dveh korakih.
+tfa-row-content-explain =
+    Preprečite, da bi se v vaš račun prijavil kdo drug, z
+    zahtevanjem edinstvene kode, do katere imate dostop samo vi.
+tfa-row-cannot-verify-session-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain =
