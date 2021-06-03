@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-27 22:09+0000\n"
+"POT-Creation-Date: 2021-06-03 22:07+0000\n"
 "PO-Revision-Date: 2021-05-30 17:07+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -466,35 +466,39 @@ msgid "Your subscription will be renewed soon"
 msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
+msgid "Dear %(productName)s customer,"
+msgstr ""
+
+#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.html:3
+#: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
+#: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please <a href=\"%(subscriptionSupportUrl)s\">contact "
+"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.html:5 lib/senders/templates/subscriptionRenewalReminder.txt:5
+#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
+#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.txt:3
+#: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
 msgstr ""
 
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s please contact us:"
+#: lib/senders/templates/subscriptionRenewalReminder.txt:5
+msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
 msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
@@ -1060,8 +1064,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> i "
-#~ "l'<a %(iosLinkAttributes)s>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a %(androidLinkAttributes)s>Android</a> "
+#~ "i l'<a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'Android i l'iOS."
@@ -1088,8 +1092,8 @@ msgstr ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i l'<a "
-#~ "href='%(iosUrl)s'>iOS</a>."
+#~ "Heu connectat el vostre primer dispositiu al compte del Firefox. Ara podeu iniciar la sessió al Sync des d'altres dispositius, com ara el Firefox per a l'<a href='%(androidUrl)s'>Android</a> i "
+#~ "l'<a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
