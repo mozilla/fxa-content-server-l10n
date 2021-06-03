@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-27 22:09+0000\n"
-"PO-Revision-Date: 2021-06-03 09:02+0000\n"
+"PO-Revision-Date: 2016-06-12 13:42+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -988,7 +988,7 @@ msgstr "Συγχρονισμός άλλης συσκευής"
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox Accounts"
+msgstr "Λογαριασμοί Firefox"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -1040,7 +1040,7 @@ msgstr "Φόρτωση"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Το Firefox Accounts απαιτεί JavaScript."
+msgstr "Οι Λογαριασμοί Firefox απαιτούν JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
