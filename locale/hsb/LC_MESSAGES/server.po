@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-27 22:09+0000\n"
-"PO-Revision-Date: 2021-06-03 14:51+0000\n"
+"PO-Revision-Date: 2021-06-03 14:53+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "Waš abonement so bórze podlěši"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid ""
@@ -491,7 +491,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5 lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Sincerely,"
-msgstr ""
+msgstr "Z přećelnym postrowom"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "The %(productName)s team"
@@ -952,7 +952,7 @@ msgstr "Abonement %(productName)s je so zaso zaktiwizował"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "Zdźělenka wo awtomatiskim podlěšenjom %(productName)s"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
