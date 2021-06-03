@@ -64,6 +64,12 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
+bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
+bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -146,6 +152,12 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Umuɣ { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Ffeɣ
 
 ## Flow Container
 
@@ -213,11 +225,11 @@ avatar-page-retake-photo = Ṭṭef tawlaft i tikkelt-nniḍen
 avatar-page-save-button = Sekles
 avatar-page-saving-button = Asekles…
 avatar-page-zoom-out-button =
-  .title = Semẓi
+    .title = Semẓi
 avatar-page-zoom-in-button =
-  .title = Semɣer
+    .title = Semɣer
 avatar-page-rotate-button =
-  .title = Tuzzya
+    .title = Tuzzya
 avatar-page-camera-error = Ur izmir ara ad iwennez takamiṛat
 avatar-page-new-avatar =
     .alt = tugna n umaɣnu tamaynut
