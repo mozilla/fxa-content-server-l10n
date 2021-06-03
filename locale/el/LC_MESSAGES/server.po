@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-27 22:09+0000\n"
-"PO-Revision-Date: 2016-06-12 13:42+0000\n"
+"PO-Revision-Date: 2021-06-03 09:45+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -955,7 +955,7 @@ msgstr "Η συνδρομή στο %(productName)s επανενεργοποιή�
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "Ειδοποίηση αυτόματης ανανέωσης %(productName)s"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
