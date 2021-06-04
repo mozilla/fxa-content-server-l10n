@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-04 20:24+0000\n"
+"PO-Revision-Date: 2021-06-04 20:28+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -485,13 +485,15 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Móžeće <a href=\"%(updateBillingUrl)s\">tu</a> zawěsćić, zo waša płaćenska metoda a waše kontowe informacije su aktualne:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
 msgstr ""
+"Wulki dźak, zo sće %(productName)s abonował. Jeli prašenja wo swojim abonemenće maće abo wjace informacijow wo %(productName)s trjebaće,  <a href=\"%(subscriptionSupportUrl)s\">stajće so prošu z "
+"nami do zwiska</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
@@ -507,7 +509,7 @@ msgstr "Móžeće tu zawěsćić, zo waša płaćenska metoda a waše kontowe in
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "Wulki dźak, zo sće %(productName)s abonował. Jeli prašenja wo swojim abonemenće maće abo wjace informacijow wo %(productName)s trjebaće,  stajće so prošu z nami do zwiska."
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
