@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2020-11-13 05:38+0000\n"
+"PO-Revision-Date: 2021-02-14 08:08+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Ngahaturkeun nuhun pikeun ngalanggan!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -729,7 +729,7 @@ msgstr "Anjeun nampa ieu surélék kusabab %(email)s boga akun Firefox sarta anj
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Anjeun nampa ieu surélék kusabab %(email)s boga akun Firefox sarta anjeun daptar ka rupa-rupa produk."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -938,11 +938,11 @@ msgstr "%(productName)s gagal ditawur"
 
 #: lib/senders/email.js:2235 lib/senders/email.js:2300
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Langganan %(productName)s anjeun geus dibedokeun"
 
 #: lib/senders/email.js:2372
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Langganan %(productName)s geus aktip deui"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
@@ -950,7 +950,7 @@ msgstr ""
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Nawur %(productName)s geus katampa"
 
 #: lib/senders/email.js:2597
 msgid "%(productName)s payment confirmed"
@@ -958,11 +958,11 @@ msgstr ""
 
 #: lib/senders/email.js:2670
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Wilujeng sumping di %(productName)s"
 
 #: lib/senders/email.js:2671
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Undeur %(productName)s"
 
 #: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
@@ -974,7 +974,7 @@ msgstr ""
 
 #: lib/senders/email.js:2712
 msgid "Sync another device"
-msgstr ""
+msgstr "Singkronkeun séjén alat"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1

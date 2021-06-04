@@ -13,11 +13,14 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Tutup modal
 
 ## app error dialog
 
 general-error-heading = Éror aplikasi umum
 basic-error-message = Aya anu salah. Cobaan deui engké.
+payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deui atawa béjaan anu ngaluarkeun kartu anjeun.
 
 ## settings
 
@@ -25,7 +28,7 @@ basic-error-message = Aya anu salah. Cobaan deui engké.
 ## legal footer
 
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -95,6 +98,9 @@ basic-error-message = Aya anu salah. Cobaan deui engké.
 
 
 ## plan-details
+
+
+## payment-processing
 
 
 ## payment confirmation
