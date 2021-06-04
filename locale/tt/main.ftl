@@ -20,10 +20,13 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = Гомуми кушымта хатасы
 payment-error-retry-button = Янәдән тырышып карау
+payment-error-manage-subscription-button = Минем язылу белән идарә итү
 
 ## settings
 
+settings-home = Хисапның баш бите
 settings-subscriptions-title = Язылулар
 
 ## legal footer
@@ -77,7 +80,9 @@ product-plan-not-found = План табылмады
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
+payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }'ның хосусыйлык сәясәтен</stripePrivacyLink> һәм <paypalPrivacyLink>{ -brand-name-paypal }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
+payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
 
 ## payment form
