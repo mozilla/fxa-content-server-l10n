@@ -418,7 +418,7 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
-profile-heading = Mba'ete
+profile-heading = Mba’ete
 profile-picture =
     .header = Ta’ãnga
 profile-display-name =
