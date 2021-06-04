@@ -84,9 +84,13 @@ payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
 payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
+payment-legal-link-stripe-2 = <paypalPrivacyLink>{ -brand-name-stripe }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 
 ## payment form
 
+payment-name =
+    .placeholder = Тулы исем
+    .label = Исемегез картагызда язылганча
 payment-cc =
     .label = Сезнең карта
 payment-ccn =
@@ -107,11 +111,13 @@ payment-cancel-btn = Баш тарту
 payment-update-btn = Яңарту
 payment-pay-btn = Хәзер үк түләү
 payment-pay-with-paypal-btn = { -brand-name-paypal } белән түләү
+payment-validate-name-error = Зинһар, исемегезне кертегез
 payment-validate-zip-required = Почта индексы кирәк
 payment-validate-zip-short = Почта индексы артык кыска
 
 ## subscription redirect
 
+sub-redirect-ready = Язылуыгыз әзер
 
 ## fields
 
@@ -121,6 +127,7 @@ input-error-is-required = { $label } кирәк
 ## subscription upgrade
 
 product-plan-upgrade-heading = Яңартугызны тикшерегез
+sub-update-failed = Планны яңарту уңышсыз тәмамланды
 sub-update-payment-title = Түләү турында мәгълүмат
 sub-update-card-exp = Вакыты чыга: { $cardExpMonth }/{ $cardExpYear }
 
@@ -134,6 +141,7 @@ sub-update-indicator =
     .aria-label = яңарту күрсәткече
 sub-update-current-plan-label = Хәзерге план
 sub-update-new-plan-label = Яңа план
+sub-update-total-label = Яңа сумма
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -206,6 +214,7 @@ reactivate-confirm-button = Яңадан язылу
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-copy = Рәхмәт! Сезнең өчен барысы да әзер.
 reactivate-success-button = Ябу
 
 ## subscription item
@@ -224,15 +233,18 @@ sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
+sub-route-payment-modal-heading = Яраксыз хисап бирү мәгълүматы
 pay-update-manage-btn = Идарә итү
 
 ## subscription create
 
+pay-with-heading-other = Түләү ысулын сайлагыз
 pay-with-heading-card-or = Яки карта белән түләү
 pay-with-heading-card-only = Карта белән түләү
 
 ## plan-details
 
+plan-details-header = Продукт нечкәлекләре
 plan-details-show-button = Нечкәлекләрен күрсәтү
 plan-details-hide-button = Нечкәлекләрен яшерү
 plan-details-total-label = Барлыгы
@@ -242,7 +254,12 @@ plan-details-total-label = Барлыгы
 
 ## payment confirmation
 
+payment-confirmation-alert = Йөкләү өчен монда басыгыз
+payment-confirmation-mobile-alert = Кушымта ачылмадымы? <a>Монда басыгыз</a>
 payment-confirmation-thanks-heading = Рәхмәт!
+payment-confirmation-order-heading = Заказ нечкәлекләре
+payment-confirmation-invoice-number = Квитанция №{ $invoiceNumber }
+payment-confirmation-details-heading = Түләү нечкәлекләре
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -271,4 +288,5 @@ payment-confirmation-amount-year =
         [one] Елга { $amount }
        *[other] { $intervalCount } ел саен { $amount }
     }
+payment-confirmation-download-button = Йөкләүне дәвам итү
 payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
