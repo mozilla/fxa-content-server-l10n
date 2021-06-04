@@ -244,11 +244,11 @@ avatar-page-cancel-button = Heja
 avatar-page-save-button = Ñongatu
 avatar-page-saving-button = Oñongatuhína…
 avatar-page-zoom-out-button =
-  .title = Momichĩ
+    .title = Momichĩ
 avatar-page-zoom-in-button =
-  .title = Mbotuicha
+    .title = Mbotuicha
 avatar-page-rotate-button =
-  .title = Mbojere
+    .title = Mbojere
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
@@ -424,7 +424,7 @@ profile-picture =
 profile-display-name =
     .header = Téra ehechauka hag̃ua
 profile-password =
-    .header = Ñe'ẽñemi
+    .header = Ñe’ẽñemi
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
