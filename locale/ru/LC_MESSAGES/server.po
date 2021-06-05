@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-05 10:04+0000\n"
+"PO-Revision-Date: 2021-06-05 10:10+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -486,10 +486,12 @@ msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"Ваша текущая подписка настроена на автоматическое продление через %(reminderLength)s дней. За это время Mozilla продлит вашу подписку на %(planIntervalCount)s %(planInterval)s, и спишет сумму в "
+"размере %(invoiceTotal)s с использованием способа оплаты, выбранного в вашей учетной записи."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это <a href=\"%(updateBillingUrl)s\">здесь</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
