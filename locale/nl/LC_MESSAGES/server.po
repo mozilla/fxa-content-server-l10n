@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-03 05:34+0000\n"
+"PO-Revision-Date: 2021-06-04 06:23+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -466,8 +466,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
-"Uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is %(invoiceTotal)s op %(nextInvoiceDateOnly)s. Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij "
-"u ervoor kiest om op te zeggen."
+"Uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is %(invoiceTotal)s op %(nextInvoiceDateOnly)s. Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u"
+" ervoor kiest om op te zeggen."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
@@ -475,39 +475,41 @@ msgstr "Uw abonnement wordt binnenkort verlengd"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "Beste klant van %(productName)s,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"Uw huidige abonnement wordt over %(reminderLength)s dagen automatisch verlengd. Op dat moment verlengt Mozilla uw %(planIntervalCount)s %(planInterval)s-abonnement en wordt %(invoiceTotal)s in "
+"rekening gebracht op de betaalmethode op uw account."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "U kunt <a href=\"%(updateBillingUrl)s\">hier</a> ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
-msgstr ""
+msgstr "Bedankt voor uw abonnement op %(productName)s. Als u vragen over uw abonnement hebt, of meer informatie over %(productName)s wilt, <a href=\"%(subscriptionSupportUrl)s\">neem dan contact op</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
-msgstr ""
+msgstr "Hoogachtend,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "Het %(productName)s-team"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "U kunt hier ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "Bedankt voor uw abonnement op %(productName)s. Als u vragen over uw abonnement hebt, of meer informatie over %(productName)s wilt, neem dan contact op:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -956,7 +958,7 @@ msgstr "Abonnement op %(productName)s opnieuw geactiveerd"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "Automatische verlengingsmelding voor %(productName)s"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
@@ -1113,18 +1115,18 @@ msgstr "Nieuwste versie downloaden"
 #~ "U heeft onlangs uw Firefox-account verwijderd. Als gevolg hiervan hebben we uw %(productName)-abonnement opgezegd. Uw laatste betaling van $%(invoiceTotal)ss is betaald op %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "We hebben uw abonnement op %(productName)s opgezegd. Uw laatste betaling van $%(invoiceTotal)s is betaald op %(invoiceDateOnly)s. Uw abonnement loopt door tot het einde van de huidige "
 #~ "factureringsperiode, te weten tot %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s "
-#~ "ten gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
+#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. U ontvangt dan tevens een eenmalig krediet van $%(paymentProrated)s ten"
+#~ " gevolge van de lagere kosten voor de rest van deze %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "$%(invoiceTotal)s in rekening gebracht op %(invoiceDateOnly)s"
@@ -1137,11 +1139,11 @@ msgstr "Nieuwste versie downloaden"
 #~ "abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om te annuleren."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. Er wordt u dan tevens eenmalig een bedrag van $%(paymentProrated)s "
-#~ "in rekening gebracht ten gevolge van de hogere kosten voor de rest van deze %(productPaymentCycle)s."
+#~ "Vanaf uw volgende factuur wijzigen uw kosten van $%(paymentAmountOld)s per %(productPaymentCycle)s naar $%(paymentAmountNew)s. Er wordt u dan tevens eenmalig een bedrag van $%(paymentProrated)s in "
+#~ "rekening gebracht ten gevolge van de hogere kosten voor de rest van deze %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "U bent aangemeld en kunt beginnen met veilig verkennen."
@@ -1246,8 +1248,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</"
-#~ "a> en <a %(iosLinkAttributes)s>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a %(androidLinkAttributes)s>Android</a> en"
+#~ " <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor Android en iOS."
@@ -1370,15 +1372,15 @@ msgstr "Nieuwste versie downloaden"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en "
-#~ "<a href='%(iosUrl)s'>iOS</a>."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. U kunt zich nu aanmelden bij Sync vanaf uw andere apparaten, waaronder Firefox voor <a href='%(androidUrl)s'>Android</a> en <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit "
-#~ "Sync te halen."
+#~ "U hebt uw eerste apparaat met succes aan uw Firefox-account gekoppeld. Koppel <a href='%(androidUrl)s'>Firefox voor Android</a> of <a href='%(iosUrl)s'>Firefox voor iOS</a> om het meeste uit Sync te"
+#~ " halen."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aanmelden bij Sync"
@@ -1543,16 +1545,16 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "Wachtwoord herinitialiseren"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Enkele dagen geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. Met een geverifieerde account hebt u op alle apparaten die ermee zijn verbonden toegang tot uw tabbladen, "
 #~ "bladwijzers, wachtwoorden en geschiedenis. Bevestig eenvoudig dit e-mailadres om uw account te activeren."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met "
-#~ "u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u "
+#~ "is."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Bevestig voor extra beveiliging deze aanmelding om met het synchroniseren met dit apparaat te beginnen:"
@@ -1573,14 +1575,11 @@ msgstr "Nieuwste versie downloaden"
 #~ msgstr "E-mailadres voor Firefox Accounts verifiëren"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr ""
-#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
+#~ msgstr "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen "
-#~ "afgeleverd."
+#~ "U hebt %(secondaryEmail)s met succes als secundair e-mailadres voor uw Firefox-account geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Zoals gevraagd, is hier een koppeling voor het installeren van Firefox op uw mobiele apparaat: %(link)s"
@@ -1666,8 +1665,8 @@ msgstr "Nieuwste versie downloaden"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw "
-#~ "wachtwoorden, bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
+#~ "Een week geleden hebt u een Firefox-account aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u. Firefox is beschikbaar voor Windows, Mac, Linux, Android en iOS. U kunt uw wachtwoorden, "
+#~ "bladwijzers en geschiedenis van Firefox hiertussen synchroniseren. Bevestig dit e-mailadres om uw account te activeren en te laten weten of alles goed met u is."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1757,8 +1756,8 @@ msgstr "Nieuwste versie downloaden"
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr ""
-#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a href='%(resetLink)s'>"
-#~ "%(resetLink)s</a>."
+#~ "Dit is een geautomatiseerd e-mailbericht; als u het wachtwoord voor uw Firefox-account niet opnieuw hebt ingesteld, dient u het direct opnieuw in te stellen op <a "
+#~ "href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Er wordt nu een nieuw apparaat met uw Firefox-account gesynchroniseerd"
