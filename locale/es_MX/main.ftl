@@ -93,6 +93,8 @@ product-profile-error =
     .title = Problema al cargar el perfil
 product-customer-error =
     .title = Problema al cargar el cliente
+product-plan-not-found = No se encontró el plan
+product-no-such-plan = No existe ese plan para este producto
 
 ## payment legal blurb
 
