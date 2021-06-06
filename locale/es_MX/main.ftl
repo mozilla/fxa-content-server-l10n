@@ -78,9 +78,21 @@ month-based-plan-details-amount =
         [one] { $productName } facturó { $amount } por mes
        *[other] { $productName } facturó { $amount } cada { $intervalCount } meses
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } facturado { $amount } anualmente
+       *[other] { $productName } facturado { $amount } cada { $intervalCount } años
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Problema al cargar los planes
+product-profile-error =
+    .title = Problema al cargar el perfil
+product-customer-error =
+    .title = Problema al cargar el cliente
 
 ## payment legal blurb
 
