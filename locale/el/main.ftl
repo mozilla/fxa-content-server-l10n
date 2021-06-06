@@ -155,7 +155,7 @@ payment-cancel-btn = Ακύρωση
 payment-update-btn = Ενημέρωση
 payment-pay-btn = Πληρωμή τώρα
 payment-pay-with-paypal-btn = Πληρωμή με { -brand-name-paypal }
-payment-validate-name-error = Παρακαλούμε εισάγετε το όνομά σας
+payment-validate-name-error = Παρακαλώ εισαγάγετε το όνομά σας
 payment-validate-zip-required = Απαιτείται ταχυδρομικός κώδικας
 payment-validate-zip-short = Ο ταχυδρομικός κώδικας είναι πολύ μικρός
 

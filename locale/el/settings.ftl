@@ -221,7 +221,7 @@ mvs-enter-verification-code = Εισαγωγή κωδικού επαλήθευσ
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Παρακαλώ εισάγετε τον κωδικό επαλήθευσης που εστάλη στο <email>{ $email }</email> εντός 5 λεπτών.
+mvs-enter-verification-code-desc = Παρακαλώ εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο <email>{ $email }</email> εντός 5 λεπτών.
 msv-cancel-button = Ακύρωση
 msv-submit-button = Επαλήθευση
 
@@ -292,7 +292,7 @@ pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 pw-change-current-password =
-    .label = Εισαγωγή τρέχοντος κωδικού πρόσβασης
+    .label = Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης
 pw-change-new-password =
     .label = Εισαγωγή νέου κωδικού πρόσβασης
 pw-change-confirm-password =
@@ -374,13 +374,13 @@ verify-secondary-email-error = Προέκυψε πρόβλημα κατά την
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-verification-code =
-    .label = Εισάγετε τον κωδικό επαλήθευσής σας
+    .label = Εισαγάγετε τον κωδικό επαλήθευσής σας
 verify-secondary-email-cancel-button = Ακύρωση
 verify-secondary-email-verify-button = Επαλήθευση
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Παρακαλώ εισάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
+verify-secondary-email-please-enter-code = Παρακαλώ εισαγάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -416,15 +416,15 @@ tfa-qa-code-alt =
     δύο παραγόντων στις υποστηριζόμενες εφαρμογές.
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
 # When the user cannot use a QR code.
-tfa-enter-secret-key = Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
-tfa-enter-totp = Τώρα, εισάγετε τον κωδικό ασφαλείας από την εφαρμογή ταυτοποίησης.
+tfa-enter-secret-key = Εισαγάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
+tfa-enter-totp = Τώρα, εισαγάγετε τον κωδικό ασφαλείας από την εφαρμογή ταυτοποίησης.
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
 tfa-save-these-codes =
     Αποθηκεύστε αυτούς τους κωδικούς μιας χρήσης σε ασφαλές μέρος
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
 tfa-enter-code-to-confirm =
-    Παρακαλώ εισάγετε τώρα έναν από τους κωδικούς ανάκτησής σας για να
+    Παρακαλώ εισαγάγετε τώρα έναν από τους κωδικούς ανάκτησής σας για να
     επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Θα χρειαστείτε έναν κωδικό ανάκτησης σε περίπτωση
     που χάσετε τη συσκευή σας και θελήσετε να αποκτήσετε πρόσβαση στον λογαριασμό σας.
 tfa-enter-recovery-code =

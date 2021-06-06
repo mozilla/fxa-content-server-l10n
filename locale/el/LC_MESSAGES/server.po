@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-04 10:03+0000\n"
+"PO-Revision-Date: 2021-06-06 10:47+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -121,11 +121,11 @@ msgstr "Ο κωδικός πρόσβασης του λογαριασμού σα�
 
 #: lib/senders/templates/passwordReset.html:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Θα χρειαστεί να εισάγετε το νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε το συγχρονισμό."
+msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
 
 #: lib/senders/templates/passwordReset.txt:2
 msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Θα χρειαστεί να εισάγετε το νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε το συγχρονισμό."
+msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
 
 #: lib/senders/templates/passwordReset.txt:3
 msgid "If you did not change it, please reset your password now at %(resetLink)s"
