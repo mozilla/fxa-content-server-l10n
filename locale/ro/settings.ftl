@@ -102,7 +102,7 @@ nav-settings = Setări
 nav-profile = Profil
 nav-security = Securitate
 nav-connected-services = Servicii conectate
-nav-paid-subs = Abonamente plătite
+nav-paid-subs = Abonamente cu plată
 nav-email-comm = Comunicări prin e-mail
 
 ## Two Step Authentication - replace recovery code
@@ -259,6 +259,8 @@ row-defaults-action-change = Modifică
 rk-header = Cheie de recuperare
 rk-not-set = Nu este setată
 rk-action-create = Creează
+rk-content-explain = Restaurează-ți informațiile când uiți parola.
+rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
 
 ## Secondary email sub-section on main Settings page
 

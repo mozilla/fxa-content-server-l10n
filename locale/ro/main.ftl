@@ -41,10 +41,9 @@ settings-subscriptions-title = Abonamente
 terms = Termenii de utilizare a serviciului
 privacy = Notificare privind confidențialitatea
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Să configurăm abonamentul
-product-plan-details-heading = Să configurăm abonamentul
+subscription-create-title = Configurează-ți abonamentul
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,8 +90,6 @@ product-no-such-plan = Nu există un astfel de plan pentru acest produs.
 
 ## payment legal blurb
 
-payment-legal-copy = { -brand-name-mozilla } folosește Stripe pentru prelucrarea securizată a plăților.
-payment-legal-link = Citește <a>politica de confidențialitate Stripe</a>.
 
 ## payment form
 
@@ -166,8 +163,6 @@ input-error-is-required = { $label } este necesar
 
 product-plan-upgrade-heading = Afișează varianta superioară a abonamentului
 sub-update-failed = Actualizarea planului a eșuat
-sub-update-title = Informații de facturare
-sub-update-card-ending = Card care se termină în { $last }
 sub-update-card-exp = Data expirării: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Planul tău va fi modificat imediat și ți se va percepe o sumă ajustată
@@ -354,6 +349,9 @@ sub-billing-update-success = Informațiile tale de facturare au fost actualizate
 ## subscription create
 
 sub-guarantee = Garanție de rambursare a banilor în 30 de zile
+pay-with-heading-other = Selectează opțiunea de plată
+pay-with-heading-card-or = Sau plătește cu cardul
+pay-with-heading-card-only = Plătește cu cardul
 
 ## plan-details
 
@@ -362,13 +360,13 @@ plan-details-show-button = Afișează detaliile
 plan-details-hide-button = Ascunde detaliile
 plan-details-total-label = Total
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = Dă clic aici pentru descărcare
 payment-confirmation-mobile-alert = Nu s-a deschis aplicația? <a>Dă clic aici</a>
-payment-confirmation-heading = Îți mulțumim, { $displayName }!
-payment-confirmation-heading-bak = Îți mulțumim!
-payment-confirmation-subheading = A fost trimis un mesaj de confirmare pe e-mail la
 payment-confirmation-order-heading = Detalii comandă
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturat către
@@ -405,5 +403,4 @@ payment-confirmation-amount-year =
         [few] { $amount } la fiecare { $intervalCount } ani
        *[other] { $amount } la fiecare { $intervalCount } de ani
     }
-payment-confirmation-cc-preview = care se termină în { $last4 }
 payment-confirmation-download-button = Continuă cu descărcarea
