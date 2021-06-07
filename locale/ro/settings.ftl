@@ -307,6 +307,7 @@ se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } este acum e-mailul tău principal.
+se-set-primary-error = Ne pare rău, a apărut o problemă la modificarea e-mailului principal.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -319,6 +320,7 @@ se-resend-code =
     dacă nu se află în dosarul de mesaje primite sau spam.
 # Button to make secondary email the primary
 se-make-primary = Desemnează ca e-mail principal
+se-default-content = Accesează contul dacă nu te poți autentifica în e-mailul principal.
 se-content-note =
     Notă: un e-mail secundar nu îți va restabili informațiile - vei
     avea nevoie de o <a>cheie de recuperare</a> pentru asta.

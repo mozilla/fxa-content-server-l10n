@@ -22,6 +22,7 @@ general-error-heading = Eroare generală de aplicație
 basic-error-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
 payment-error-1 = Hmm. A apărut o problemă la autorizarea plății tale. Încearcă din nou sau contactează emitentul cardului.
 payment-error-2 = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
+payment-error-manage-subscription-button = Gestionează abonamentul meu
 expired-card-error = Se pare că ți-a expirat cardul de credit. Încearcă alt card.
 insufficient-funds-error = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 withdrawal-count-limit-exceeded-error = Se pare că această tranzacție îți depășește limita de credit. Încearcă alt card.
@@ -345,6 +346,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problemă la încărcarea clientului
 sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
+pay-update-manage-btn = Gestionează
 
 ## subscription create
 

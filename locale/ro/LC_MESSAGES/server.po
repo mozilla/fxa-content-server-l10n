@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 13:04+0000\n"
+"PO-Revision-Date: 2021-06-07 14:39+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -255,7 +255,7 @@ msgstr "Cheie de recuperare a contului eliminată"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Ai eliminat cu succes o cheie de recuperare a contului tău Firefox de pe următorul dispozitiv:"
+msgstr "Ai eliminat cu succes o cheie de recuperare din contul tău Firefox utilizând următorul dispozitiv:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
@@ -263,7 +263,7 @@ msgstr "Această cheie de recuperare nu mai poate fi folosită pentru recuperare
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Ai eliminat cu succes o cheie de recuperare a contului tău Firefox de pe următorul dispozitiv:"
+msgstr "Ai eliminat cu succes o cheie de recuperare din contul tău Firefox utilizând următorul dispozitiv:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1473
 msgid "Secondary email removed"
@@ -854,7 +854,7 @@ msgstr "Cod de autentificare pentru %(serviceName)s"
 
 #: lib/senders/email.js:928
 msgid "Confirm primary email"
-msgstr "Confirmă e-mailul primar"
+msgstr "Confirmă e-mailul principal"
 
 #: lib/senders/email.js:929 lib/senders/email.js:992 lib/senders/email.js:1064
 msgid "Verify email"
