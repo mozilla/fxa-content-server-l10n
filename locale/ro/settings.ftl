@@ -107,6 +107,7 @@ nav-email-comm = Comunicări prin e-mail
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Codurile de recuperare a contului au fost actualizate.
 
 ## Avatar change page
 
@@ -166,6 +167,9 @@ delete-account-header =
     .title = Șterge contul
 delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
+delete-account-chk-box-1 =
+    .label = Orice abonamente cu plată pe care le ai vor fi anulate
+delete-account-continue-button = Continuă
 
 ##
 
@@ -186,6 +190,9 @@ display-name-success-alert = Numele afișat actualizat.
 
 # Recovery key setup page
 
+recovery-key-continue-button = Continuă
+recovery-key-step-1 = Pasul 1 din 2
+recovery-key-step-2 = Pasul 2 din 2
 recovery-key-success-alert = Cheie de recuperare creată.
 
 ## Add secondary email page
@@ -221,14 +228,31 @@ delete-account-link = Șterge contul
 ## Two Step Authentication
 
 tfa-title = Autentificare în doi pași
+tfa-step-1-3 = Pasul 1 din 3
+tfa-step-2-3 = Pasul 2 din 3
+tfa-step-3-3 = Pasul 3 din 3
+tfa-button-continue = Continuă
+tfa-button-cancel = Anulează
+tfa-button-finish = Finalizează
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
 tfa-enabled = Autentificare în doi pași activată
+tfa-scan-this-code =
+    Scanează acest cod QR folosind unul dintre <linkExternal>aceste
+    aplicații de autentificare</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 tfa-qa-code-alt =
     Folosește codul { $secret } pentru a configura autentificarea în doi pași
     în aplicațiile suportate.
+tfa-button-cant-scan-qr = Nu poți scana codul?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autentificare:
+tfa-enter-totp = Acum introdu codul de securitate din aplicația de autentificare.
+tfa-input-enter-totp =
+    .label = Introdu codul de securitate
+tfa-enter-recovery-code =
+    .label = Introdu un cod de recuperare
 
 ##
 
@@ -289,12 +313,22 @@ se-content-note =
 tfa-row-header = Autentificare în doi pași
 tfa-row-disabled = Autentificare în doi pași dezactivată.
 tfa-row-not-set = Nu este setată
+tfa-row-action-add = Adaugă
+tfa-row-action-disable = Dezactivează
 tfa-row-button-refresh =
     .title = Reîmprospătează autentificarea în doi pași
 tfa-row-cannot-refresh =
     Ne pare rău, a apărut o problemă la reîmprospătarea
     autentificării în doi pași.
+tfa-row-content-explain =
+    Împiedică pe altcineva să se autentifice solicitând un
+    cod unic la care numai tu ai acces.
+tfa-row-cannot-verify-session-2 = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
+tfa-row-disable-modal-confirm = Dezactivează
+tfa-row-disable-modal-explain =
+    Nu vei putea anula această acțiune. Ai şi
+    opțiunea <linkExternal>să înlocuiești codurile de recuperare</linkExternal>.
 tfa-row-cannot-disable = Autentificarea în doi pași nu a putut fi dezactivată.
 tfa-row-change-modal-heading = Schimbi codurile de recuperare?
 tfa-row-change-modal-confirm = Modifică
