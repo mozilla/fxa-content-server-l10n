@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 12:00+0000\n"
+"PO-Revision-Date: 2021-06-07 13:04+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -854,7 +854,7 @@ msgstr "Cod de autentificare pentru %(serviceName)s"
 
 #: lib/senders/email.js:928
 msgid "Confirm primary email"
-msgstr "Confirmă adresa de e-mail primară"
+msgstr "Confirmă e-mailul primar"
 
 #: lib/senders/email.js:929 lib/senders/email.js:992 lib/senders/email.js:1064
 msgid "Verify email"
@@ -887,7 +887,7 @@ msgstr "Cont verificat. Sincronizează alt dispozitiv pentru a finaliza configur
 
 #: lib/senders/email.js:1437
 msgid "Primary email updated"
-msgstr "Adresă de e-mail primară actualizată"
+msgstr "E-mail principal actualizat"
 
 #: lib/senders/email.js:1507
 msgid "Two-step verification enabled"

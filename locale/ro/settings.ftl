@@ -172,6 +172,14 @@ delete-account-step-2-2 = Pasul 2 din 2
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nume afișat
+display-name-input =
+    .label = Introdu numele afișat
+submit-display-name = Salvează
+cancel-display-name = Anulează
+display-name-update-error = A apărut o problemă la actualizarea numelui tău afișat.
+display-name-success-alert = Numele afișat actualizat.
 
 ##
 
@@ -182,14 +190,24 @@ recovery-key-success-alert = Cheie de recuperare creată.
 
 ## Add secondary email page
 
+add-secondary-email-error = A apărut o problemă la crearea acestui e-mail.
+add-secondary-email-page-title =
+    .title = E-mail secundar
 add-secondary-email-enter-address =
     .label = Introdu adresa de e-mail
+add-secondary-email-cancel-button = Anulează
+add-secondary-email-save-button = Salvează
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = A apărut o problemă la trimiterea codului de verificare.
+verify-secondary-email-page-title =
+    .title = E-mail secundar
+verify-secondary-email-cancel-button = Anulează
+verify-secondary-email-verify-button = Verifică
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -217,6 +235,8 @@ tfa-qa-code-alt =
 
 ## Profile section
 
+profile-display-name =
+    .header = Nume afișat
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
@@ -250,6 +270,14 @@ se-set-primary-successful = { $email } este acum e-mailul tău principal.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } a fost șters cu succes.
+se-resend-code =
+    Verificare necesară. <button>Retrimite codul de verificare</button>
+    dacă nu se află în dosarul de mesaje primite sau spam.
+# Button to make secondary email the primary
+se-make-primary = Desemnează ca e-mail principal
+se-content-note =
+    Notă: un e-mail secundar nu îți va restabili informațiile - vei
+    avea nevoie de o <a>cheie de recuperare</a> pentru asta.
 
 ##
 
@@ -272,3 +300,4 @@ tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-138 = Sesiune neverificată

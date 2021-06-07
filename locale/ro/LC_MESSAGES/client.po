@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 12:49+0000\n"
+"PO-Revision-Date: 2021-06-07 13:05+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -422,7 +422,7 @@ msgstr "E-mailul secundar trebuie să fie diferit de cel principal"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Ai atins numărul maxim de adrese de e-mail secundare"
+msgstr "Ai atins numărul maxim de e-mailuri secundare"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
