@@ -91,6 +91,10 @@ drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconecta
 
 ## Modal Verify Session
 
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <email>{ $email }</email>.
 
 ## Settings Nav
 
@@ -174,15 +178,22 @@ delete-account-step-2-2 = Pasul 2 din 2
 
 # Recovery key setup page
 
+recovery-key-success-alert = Cheie de recuperare creată.
 
 ## Add secondary email page
 
+add-secondary-email-enter-address =
+    .label = Introdu adresa de e-mail
 
 ##
 
 
 ## Verify secondary email page
 
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <strong>{ $email }</strong>.
 
 ##
 
@@ -206,6 +217,12 @@ tfa-qa-code-alt =
 
 ## Profile section
 
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Creată în { $date }
+profile-primary-email =
+    .header = E-mail principal
 
 ##
 
