@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 13:05+0000\n"
+"PO-Revision-Date: 2021-06-07 13:28+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -1865,7 +1865,7 @@ msgstr "Nu trebuie să fie adresa ta de e-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Nu trebuie să fie în  <a %(escapedCommonPasswordLinkAttrs)s>lista de parole frecvent întâlnite</a>"
+msgstr "Nu trebuie să corespundă acestei <a %(escapedCommonPasswordLinkAttrs)s>lista de parole obișnuite</a>"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."

@@ -54,6 +54,13 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 cs-heading = Servicii conectate
 cs-description = Tot ce folosești și în care ești autentificat.
+cs-cannot-refresh =
+    Ne pare rău, a apărut o problemă la actualizarea listei de servicii
+    conectate.
+cs-refresh-button =
+    .title = Reîmprospătează serviciile conectate
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Obiecte lipsă sau duplicate?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -142,7 +149,7 @@ pw-change-header =
 pw-change-stay-safe = Rămâi în siguranță - nu refolosi parolele. Parola ta:
 pw-change-least-8-chars = Trebuie să aibă cel puțin 8 caractere
 pw-change-not-contain-email = Trebuie să nu fie adresa ta de e-mail
-pw-change-must-match = Noua parolă se potrivește cu confirmarea
+pw-change-must-match = Noua parolă să se potrivească cu confirmarea
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Nu trebuie să corespundă acestei <linkExternal>liste de parole
@@ -170,6 +177,10 @@ delete-account-step-2-2 = Pasul 2 din 2
 delete-account-chk-box-1 =
     .label = Orice abonamente cu plată pe care le ai vor fi anulate
 delete-account-continue-button = Continuă
+delete-account-password-input =
+    .label = Introdu parola
+delete-account-cancel-button = Anulează
+delete-account-delete-button-2 = Șterge
 
 ##
 
@@ -283,11 +294,15 @@ row-defaults-action-change = Modifică
 rk-header = Cheie de recuperare
 rk-not-set = Nu este setată
 rk-action-create = Creează
+rk-cannot-refresh = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
+rk-refresh-key = Reîmprospătează cheia de recuperare
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
 rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
+rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
 
 ## Secondary email sub-section on main Settings page
 
+se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătarea acestui e-mail.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -296,6 +311,9 @@ se-set-primary-successful = { $email } este acum e-mailul tău principal.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } a fost șters cu succes.
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Reîmprospătează e-mailul
 se-resend-code =
     Verificare necesară. <button>Retrimite codul de verificare</button>
     dacă nu se află în dosarul de mesaje primite sau spam.
