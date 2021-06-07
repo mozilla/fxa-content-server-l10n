@@ -47,6 +47,8 @@
 
 ## Connected services section
 
+cs-heading = Servicii conectate
+cs-description = Tot ce folosești și în care ești autentificat.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -84,6 +86,10 @@
 
 ## Settings Nav
 
+nav-settings = Setări
+nav-profile = Profil
+nav-security = Securitate
+nav-connected-services = Servicii conectate
 
 ## Two Step Authentication - replace recovery code
 
@@ -102,6 +108,10 @@
 
 ## Delete account page
 
+delete-account-header =
+    .title = Șterge contul
+delete-account-step-1-2 = Pasul 1 din 2
+delete-account-step-2-2 = Pasul 2 din 2
 
 ##
 
