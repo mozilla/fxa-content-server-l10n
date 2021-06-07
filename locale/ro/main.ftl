@@ -346,6 +346,8 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problemă la încărcarea clientului
 sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
+sub-route-missing-billing-agreement-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. <div>Gestionează</div>
+sub-route-funding-source-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. Această alertă poate dura ceva timp până să dispară după ce îți actualizezi cu succes informațiile. <div>Gestionează</div>
 pay-update-manage-btn = Gestionează
 
 ## subscription create
