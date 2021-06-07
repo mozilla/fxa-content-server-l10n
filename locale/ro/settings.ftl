@@ -26,6 +26,11 @@
 
 ##  Application page title and footer
 
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-step authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
 
 ##
 
@@ -56,6 +61,7 @@ cs-description = Tot ce folosești și în care ești autentificat.
 
 ##
 
+cs-sign-out-button = Deconectează-te
 
 ##
 
@@ -65,6 +71,8 @@ cs-description = Tot ce folosești și în care ești autentificat.
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Deconectează-te
+drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconectare.
 
 ## Flow Container
 
@@ -90,18 +98,60 @@ nav-settings = Setări
 nav-profile = Profil
 nav-security = Securitate
 nav-connected-services = Servicii conectate
+nav-paid-subs = Abonamente plătite
+nav-email-comm = Comunicări prin e-mail
 
 ## Two Step Authentication - replace recovery code
 
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Poză de profil
+avatar-page-add-photo = Adaugă o fotografie
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Fă o fotografie
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Elimină fotografia
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Refă fotografia
+avatar-page-cancel-button = Anulează
+avatar-page-save-button = Salvează
+avatar-page-saving-button = Se salvează...
+avatar-page-rotate-button =
+    .title = Rotește
+avatar-page-camera-error = Nu s-a putut inițializa camera
+avatar-page-new-avatar =
+    .alt = poză de profil nouă
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Schimbă parola
+pw-change-stay-safe = Rămâi în siguranță - nu refolosi parolele. Parola ta:
+pw-change-least-8-chars = Trebuie să aibă cel puțin 8 caractere
+pw-change-not-contain-email = Trebuie să nu fie adresa ta de e-mail
+pw-change-must-match = Noua parolă se potrivește cu confirmarea
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Nu trebuie să corespundă acestei <linkExternal>liste de parole
+    obișnuite</linkExternal>
+pw-change-cancel-button = Anulează
+pw-change-save-button = Salvează
+pw-change-forgot-password-link = Ți-ai uitat parola?
+pw-change-current-password =
+    .label = Introdu parola actuală
+pw-change-new-password =
+    .label = Introdu parola nouă
+pw-change-confirm-password =
+    .label = Confirmă noua parolă
+pw-change-success-alert = Parolă actualizată.
 
 ##
 
@@ -136,9 +186,20 @@ delete-account-step-2-2 = Pasul 2 din 2
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Șterge contul
 
 ## Two Step Authentication
 
+tfa-title = Autentificare în doi pași
+tfa-incorrect-totp = Cod de autentificare în doi pași incorect
+tfa-enabled = Autentificare în doi pași activată
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Folosește codul { $secret } pentru a configura autentificarea în doi pași
+    în aplicațiile suportate.
 
 ##
 
@@ -154,9 +215,13 @@ delete-account-step-2-2 = Pasul 2 din 2
 
 ## Sub-section row Defaults
 
+row-defaults-action-change = Modifică
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Cheie de recuperare
+rk-not-set = Nu este setată
+rk-action-create = Creează
 
 ## Secondary email sub-section on main Settings page
 
@@ -164,12 +229,29 @@ delete-account-step-2-2 = Pasul 2 din 2
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } este acum e-mailul tău principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } a fost șters cu succes.
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autentificare în doi pași
+tfa-row-disabled = Autentificare în doi pași dezactivată.
+tfa-row-not-set = Nu este setată
+tfa-row-button-refresh =
+    .title = Reîmprospătează autentificarea în doi pași
+tfa-row-cannot-refresh =
+    Ne pare rău, a apărut o problemă la reîmprospătarea
+    autentificării în doi pași.
+tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
+tfa-row-cannot-disable = Autentificarea în doi pași nu a putut fi dezactivată.
+tfa-row-change-modal-heading = Schimbi codurile de recuperare?
+tfa-row-change-modal-confirm = Modifică
+tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
 
 ## Auth-server based errors that originate from backend service
 
