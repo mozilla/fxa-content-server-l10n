@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-08 04:05+0000\n"
+"PO-Revision-Date: 2021-06-08 04:16+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -470,21 +470,23 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "თქვენი გამოწერა განახლდება მალე"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "%(productName)s-ის ძვირფასო მომხმარებელო,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"თქვენს მიმდინარე გამოწერას მითითებული აქვს, რომ გაგრძელდება %(reminderLength)s დღეში. მაგ დროისთვის, Mozilla განაახლებს თქვენს %(planIntervalCount)s %(planInterval)s გამოწერას და ჩამოიჭრება "
+"%(invoiceTotal)s მითითებული გადახდის საშუალებიდან."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "შეგიძლიათ გადაამოწმოთ, რომ თქვენი გადახდის საშუალება და ანგარიშის მონაცემები განახლებულია, <a href=\"%(updateBillingUrl)s\">აქედან</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
@@ -498,7 +500,7 @@ msgstr "პატივისცემით,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "%(productName)s-ის გუნდი"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
@@ -955,7 +957,7 @@ msgstr "%(productName)s გამოწერა კვლავ ამოქმ
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "%(productName)s გამოწერის თვითგანახლების უწყება"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
