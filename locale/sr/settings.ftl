@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -25,6 +28,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox налог
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -55,6 +59,9 @@ avatar-default-avatar =
     .alt = Подразумевани аватар
 
 ##
+
+
+# BentoMenu component
 
 
 ## Connect another device promo
@@ -136,6 +143,12 @@ datablock-copy =
 datablock-print =
     .message = Одштампано
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Кодови за опоравак
@@ -153,9 +166,16 @@ header-menu-closed = Мени навигације странице
 header-back-to-top-link =
     .title = Назад на врх
 header-title = { -product-firefox-accounts }
-header-switch-title = Пребаците на класични дизајн
-    .title = веза до класничног дизајна
 header-help = Помоћ
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -189,14 +209,13 @@ avatar-page-remove-photo = Уклони фотографију
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Сними фотографију поново
-avatar-page-close-button = Затвори
 avatar-page-save-button = Сачувај
 avatar-page-zoom-out-button =
-  .title = Умањи
+    .title = Умањи
 avatar-page-zoom-in-button =
-  .title = Увећај
+    .title = Увећај
 avatar-page-rotate-button =
-  .title = Ротирај
+    .title = Ротирај
 avatar-page-camera-error = Није могуће покренути камеру
 avatar-page-new-avatar =
     .alt = нова слика профила
@@ -247,7 +266,6 @@ delete-account-chk-box-3 =
     .label = Поновна активација ове адресе е-поште неће повратити сачуване податке
 delete-account-chk-box-4 =
     .label = Сва проширења и теме које сте објавили на addons.mozilla.org биће обрисане
-delete-account-close-button = Затвори
 delete-account-continue-button = Настави
 delete-account-password-input =
     .label = Унесите лозинку
@@ -393,7 +411,6 @@ row-defaults-status = Ништа
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = Омогућено
 rk-not-set = Није постављено
 rk-action-create = Направи
 rk-action-remove = Уклони
@@ -449,8 +466,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = Аутентификација у два корака
+tfa-row-header = Аутентификација у два корака
 tfa-row-disabled = Аутентификација у два корака онемогућена.
 tfa-row-enabled = Омогућено
 tfa-row-not-set = Није постављено
@@ -474,12 +490,6 @@ tfa-row-cannot-disable = Аутентификација у два корака �
 tfa-row-change-modal-heading = Промени кодове за опоравак?
 tfa-row-change-modal-confirm = Промени
 tfa-row-change-modal-explain = Нећете моћи да опозовете ову радњу.
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = Слика
-avatar-add-link = Додај
-avatar-change-link = Промени
 
 ## Auth-server based errors that originate from backend service
 
