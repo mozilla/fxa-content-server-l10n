@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -38,7 +41,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo { -brand-mozilla }
 app-footer-privacy-notice = Pemberitahuan Privasi Situs Web
@@ -56,6 +59,10 @@ avatar-default-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-made-by-mozilla = Dibuat oleh { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -119,6 +126,13 @@ datablock-copy =
 datablock-print =
     .message = Dicetak
 
+# DropDownAvatarMenu component
+
+drop-down-menu-sign-out = Keluar
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Kode Pemulihan
@@ -136,9 +150,22 @@ header-menu-closed = Menu navigasi situs
 header-back-to-top-link =
     .title = Kembali ke atas
 header-title = { -product-firefox-accounts }
-header-switch-title = Beralih ke desain klasik
-    .title = tautan desain klasik
 header-help = Bantuan
+
+## Input Password
+
+
+## Modal
+
+modal-close-title = Tutup
+modal-cancel-button = Batalkan
+
+## Modal Verify Session
+
+mvs-verify-your-email = Verifikasi surel Anda
+mvs-enter-verification-code = Masukkan kode verifikasi Anda
+msv-cancel-button = Batalkan
+msv-submit-button = Verifikasi
 
 ## Settings Nav
 
@@ -167,25 +194,29 @@ avatar-page-remove-photo = Hapus Foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ambil Ulang Foto
-avatar-page-close-button = Tutup
 avatar-page-save-button = Simpan
 avatar-page-zoom-out-button =
-  .title = Perkecil
+    .title = Perkecil
 avatar-page-zoom-in-button =
-  .title = Perbesar
+    .title = Perbesar
 avatar-page-rotate-button =
-  .title = Putar
+    .title = Putar
 avatar-page-camera-error = Tidak dapat menginisialisasi kamera
 avatar-page-new-avatar =
     .alt = gambar profil baru
-avatar-page-file-upload-error = Terjadi masalah saat mengunggah gambar profil Anda
-avatar-page-delete-error = Terjadi masalah saat menghapus avatar Anda
+avatar-page-file-upload-error-2 = Terjadi kesalahan saat mengunggah gambar profil Anda.
+avatar-page-delete-error-2 = Terjadi kesalahan saat menghapus gambar profil Anda.
+avatar-page-image-too-large-error = Ukuran berkas gambar terlalu besar untuk diunggah.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Ubah kata sandi
+pw-change-save-button = Simpan
+pw-change-forgot-password-link = Lupa kata sandi?
 
 ##
 
@@ -245,9 +276,6 @@ avatar-page-delete-error = Terjadi masalah saat menghapus avatar Anda
 
 
 ## Two Step Auth sub-section on Settings main page
-
-
-## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
