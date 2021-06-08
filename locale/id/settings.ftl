@@ -217,12 +217,27 @@ pw-change-header =
     .title = Ubah kata sandi
 pw-change-save-button = Simpan
 pw-change-forgot-password-link = Lupa kata sandi?
+pw-change-current-password =
+    .label = Masukkan kata sandi lama
+pw-change-new-password =
+    .label = Masukkan kata sandi baru
+pw-change-confirm-password =
+    .label = Konfirmasi kata sandi baru
+pw-change-success-alert = Kata sandi telah diperbarui.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Hapus akun
+delete-account-step-1-2 = Langkah 1 dari 2
+delete-account-step-2-2 = Langkah 2 dari 2
+delete-account-confirm-title-2 = Anda telah menyambungkan { -product-firefox-account } Anda ke produk { -brand-mozilla } yang membuat Anda tetap aman dan produktif di web:
+delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
+delete-account-chk-box-1 =
+    .label = Semua langganan berbayar yang Anda miliki akan dibatalkan
 
 ##
 
