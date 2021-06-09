@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 14:52+0000\n"
+"PO-Revision-Date: 2021-06-09 15:03+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -481,16 +481,20 @@ msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"Waš aktualny abonement se za %(reminderLength)s dnjow awtomatiski pśedlejšyjo. Pótom Mozilla waš abonement %(planIntervalCount)s %(planInterval)s pśedlejšy a wót wašogo konta buźo se wužywajucy "
+"płaśeńsku metodu suma %(invoiceTotal)s wótpisowaś."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Móžośo <a href=\"%(updateBillingUrl)s\">how</a> zawěsćiś, až waša płaśeńska metoda a waše kontowe informacije su aktualne:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
 msgstr ""
+"Wjeliki źěk, až sćo aboněrował %(productName)s. Jolic pšašanja wó swójom abonemenśe maśo abo wěcej informacijow wó %(productName)s trjebaśo,  <a href=\"%(subscriptionSupportUrl)s\">stajśo se pšosym "
+"z nami do zwiska</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
