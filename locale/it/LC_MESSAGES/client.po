@@ -39,7 +39,7 @@ msgstr "Utilizza il codice %(code)s per impostare l‘autenticazione a due passa
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr "Autorizzazione di tipo “%(permissionName)s ” richiesta"
+msgstr "“%(permissionName)s” (obbligatorio)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
