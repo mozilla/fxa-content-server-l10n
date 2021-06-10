@@ -98,26 +98,58 @@ product-no-such-plan = No existe ese plan para este producto
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-and-paypal-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-paypal = Ver la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>
 
 ## payment form
 
+payment-name =
+    .placeholder = Nombre completo
+    .label = El nombre tal y como aparece en tu tarjeta
+payment-cc =
+    .label = Tu tarjeta
+payment-ccn =
+    .label = Número de tarjeta
+payment-exp =
+    .label = vencimiento
+payment-cvc =
+    .label = CVV
+payment-zip =
+    .label = Código postal
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Cancelar
+payment-update-btn = Actualizar
+payment-pay-btn = Pagar ahora
+payment-pay-with-paypal-btn = Pagar con { -brand-name-paypal }
+payment-validate-name-error = Por favor, ingresa tu nombre
+payment-validate-zip-required = Se requiere código postal
+payment-validate-zip-short = El código postal es demasiado corto
 
 ## subscription redirect
 
+sub-redirect-ready = Tu suscripción está lista
 sub-redirect-copy = Por favor tómate un momento para contarnos sobre tu experiencia.
+sub-redirect-skip-survey = No gracias, solo llévame a mi producto.
 
 ## fields
 
 default-input-error = Este campo es requerido
+input-error-is-required = Se requiere { $label }
 
 ## subscription upgrade
 
+product-plan-upgrade-heading = Revisa tu actualización
+sub-update-failed = Ha fallado la actualización del plan
+sub-update-payment-title = Información del pago
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
