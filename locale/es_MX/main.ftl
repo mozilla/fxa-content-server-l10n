@@ -150,16 +150,29 @@ input-error-is-required = Se requiere { $label }
 product-plan-upgrade-heading = Revisa tu actualización
 sub-update-failed = Ha fallado la actualización del plan
 sub-update-payment-title = Información del pago
+sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+sub-update-submit = Confirmar actualización
+sub-update-indicator =
+    .aria-label = Indicador de actualización
+sub-update-current-plan-label = Plan actual
+sub-update-new-plan-label = Nuevo plan
+sub-update-total-label = Nuevo total
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } diariamente
+       *[other] { $amount } cada { $intervalCount } días
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
