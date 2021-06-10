@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-05-21 09:51+0000\n"
+"POT-Creation-Date: 2021-06-10 22:07+0000\n"
+"PO-Revision-Date: 2021-06-07 09:24+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -472,43 +472,45 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "Jo abonnemint wurdt ynkoarten ferlinge"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "Beste klant fan %(productName)s,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"Jo hjoeddeistige abonnemint wurdt oer %(reminderLength)s dagen automatysk ferlinge. Op dat momint ferlingt Mozilla jo %(planIntervalCount)s %(planInterval)s-abonnemint en wurdt %(invoiceTotal)s yn "
+"rekkening brocht op de betelmetoade op jo account."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Jo kinne <a href=\"%(updateBillingUrl)s\">hjir</a> derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
-msgstr ""
+msgstr "Tank foar jo abonnemint op %(productName)s. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer %(productName)s wolle, <a href=\"%(subscriptionSupportUrl)s\">nim dan kontakt op</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
-msgstr ""
+msgstr "Mei heechachting,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "It %(productName)s-team"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "Jo kinne hjir derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "Tank foar jo abonnemint op %(productName)s. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer %(productName)s wolle, nim dan kontakt op:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -957,7 +959,7 @@ msgstr "Abonnemint op %(productName)s opnij aktivearre"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "Automatyske ferlingingsmelding foar %(productName)s"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"

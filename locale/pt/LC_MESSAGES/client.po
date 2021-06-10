@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 22:07+0000\n"
-"PO-Revision-Date: 2021-03-12 22:27+0000\n"
-"Last-Translator: Pedro Coelho <pedrozc99@gmail.com>\n"
+"POT-Creation-Date: 2021-06-10 22:07+0000\n"
+"PO-Revision-Date: 2021-06-08 23:12+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr "Abrir Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Ocultar palavra-passe"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
