@@ -173,6 +173,24 @@ plan-price-day =
         [one] { $amount } diariamente
        *[other] { $amount } cada { $intervalCount } días
     }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } semanal
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+       *[other] { $amount } cada { $intervalCount } años
+    }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -180,24 +198,59 @@ plan-price-day =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Próxima facturación el { $date }
 
 ##
 
+pay-update-card-exp = Vence { $expirationDate }
+pay-update-change-btn = Cambiar
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = ¿Quieres seguir usando { $name }?
+reactivate-confirm-button = Volver a suscribirse
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Cancelaste tu suscripción el { $date }.
+reactivate-panel-copy = Perderás el acceso a { $name } el <strong>{ $date }</strong>.
+reactivate-success-copy = ¡Gracias! Está todo listo.
+reactivate-success-button = Cerrar
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Problema al cargar suscripciones
+sub-item-missing-msg = Por favor, intenta de nuevo más tarde.
+sub-item-no-such-plan = No existe ese plan para esta suscripción.
+sub-item-cancel-sub = Cancelar suscripción
+sub-item-stay-sub = Mantener suscripción
+sub-item-cancel-msg =
+    Ya no podrás usar { $name } después de
+    { $period }, el último día de tu ciclo de facturación.
+sub-item-cancel-confirm =
+    Cancelar mi acceso y mi información guardada en
+    { $name } el { $period }
+account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Actualizando datos de facturación…
+sub-route-idx-reactivating = Ha fallado la reactivación de la suscripción
+sub-route-idx-cancel-failed = Ha fallado la cancelación de la suscripción
+sub-route-idx-contact = Contactar con soporte
+sub-route-idx-cancel-msg-title = Lamentamos que te vayas
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tu suscripción a { $name } ha sido cancelada.
+          <br />
+          Todavía tendrás acceso a { $name } hasta el { $date }.
+sub-route-idx-cancel-aside = ¿Alguna pregunta? Visita la <a>ayuda de { -brand-name-mozilla }</a>.
+sub-subscription-error =
+    .title = Problema al cargar las suscripciones
 
 ## subscription create
 
