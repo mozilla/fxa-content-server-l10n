@@ -104,18 +104,28 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 cs-disconnect-sync-opt-prefix = El dispositivo es:
 cs-disconnect-sync-opt-suspicious = Sospechoso
+cs-disconnect-sync-opt-duplicate = Duplicado
+cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-sign-out-button = Cerrar sesión
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Descargado
+datablock-copy =
+    .message = Copiado
+datablock-print =
+    .message = Imprimido
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menú de { -product-firefox-account }
 
 ## Flow Container
 
