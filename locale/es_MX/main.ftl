@@ -251,18 +251,44 @@ sub-route-idx-cancel-msg =
 sub-route-idx-cancel-aside = ¿Alguna pregunta? Visita la <a>ayuda de { -brand-name-mozilla }</a>.
 sub-subscription-error =
     .title = Problema al cargar las suscripciones
+sub-customer-error =
+    .title = Problema al cargar cliente
+sub-billing-update-success = Tus datos de facturación han sido actualizados correctamente
+sub-route-payment-modal-heading = Datos de facturación inválidos
+sub-route-payment-modal-message = Parece haber un error con tu cuenta de { -brand-name-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
+sub-route-missing-billing-agreement-payment-alert = Datos de pago no válidos, hay un error con tu cuenta. <div>Administrar</div>
+pay-update-manage-btn = Administrar
 
 ## subscription create
 
+sub-guarantee = 30 días de garantía de devolución de dinero
+pay-with-heading-other = Seleccionar opción de pago
+pay-with-heading-card-or = O paga con tarjeta
+pay-with-heading-card-only = Pagar con tarjeta
 
 ## plan-details
 
+plan-details-header = Detalles del producto
+plan-details-show-button = Mostrar detalles
+plan-details-hide-button = Ocultar detalles
+plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Por favor, espera mientras procesamos tu pago…
 
 ## payment confirmation
 
+payment-confirmation-alert = Haz clic aquí para descargar
+payment-confirmation-mobile-alert = ¿No se abre la aplicación? <a>Haz clic aquí</a>
+payment-confirmation-thanks-heading = ¡Gracias!
+payment-confirmation-order-heading = Detalles del pedido
+payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading = Detalles del pago
+payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Continuar para descargar
+payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
