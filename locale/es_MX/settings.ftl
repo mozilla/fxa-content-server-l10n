@@ -76,6 +76,9 @@ bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Obtén { -brand-firefox } en tu dispositivo móvil o tablet
+connect-another-find-fx-mobile =
+    Busca { -brand-firefox } en { -google-play } y { -app-store } o
+    <br /><linkExternal>envía un enlace de descarga a tu dispositivo.</linkExternal>
 
 ##
 
@@ -98,6 +101,17 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Faltan elementos o están duplicados?
 cs-disconnect-sync-heading = Desconectar de Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Tus datos de navegación permanecerán en tu
+    dispositivo { $device }, pero ya no se sincronizarán con tu cuenta.
+cs-disconnect-sync-reason =
+    ¿Cuál es el motivo principal para desconectar este
+    dispositivo?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -111,6 +125,13 @@ cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-disconnect-advice-confirm = Ok, entendido
+cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desconectado
+cs-disconnect-lost-advice-content-2 =
+    Ya que tu dispositivo fue extraviado o robado, para
+    mantener tu información segura, deberías cambiar tu contraseña de { -product-firefox-account }
+    en la configuración de tu cuenta. También deberías buscar la información del
+    fabricante del dispositivo sobre cómo borrar tus datos de forma remota.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
 cs-sign-out-button = Cerrar sesión
 
@@ -356,12 +377,41 @@ rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
 ## Secondary email sub-section on main Settings page
 
+# Button to remove the secondary email
+se-remove-email =
+    .title = Eliminar correo electrónico
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Actualizar correo electrónico
+se-unverified = no verificado
+# Button to make secondary email the primary
+se-make-primary = Hacer principal
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticación en dos pasos
+tfa-row-disabled = Autenticación en dos pasos deshabilitada.
+tfa-row-enabled = Habilitada
+tfa-row-not-set = No establecida
+tfa-row-action-add = Agregar
+tfa-row-action-disable = Deshabilitar
+tfa-row-button-refresh =
+    .title = Actualizar autenticación en dos pasos
+tfa-row-disable-modal-heading = ¿Deshabilitar la autenticación en dos pasos?
+tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-cannot-disable = La autenticación en dos pasos no ha podido ser deshabilitada.
+tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
+tfa-row-change-modal-confirm = Cambiar
+tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cuenta desconocida
+auth-error-103 = Contraseña incorrecta
+auth-error-110 = Token inválido
+auth-error-138 = Sesión no verificada
+auth-error-155 = Token TOTP no encontrado
+auth-error-1008 = Tu nueva contraseña debe ser diferente
