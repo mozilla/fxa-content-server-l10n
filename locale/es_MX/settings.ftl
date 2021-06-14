@@ -104,11 +104,14 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 cs-disconnect-sync-opt-prefix = El dispositivo es:
 cs-disconnect-sync-opt-suspicious = Sospechoso
+cs-disconnect-sync-opt-lost = Perdido o robado
+cs-disconnect-sync-opt-old = Antiguo o reemplazado
 cs-disconnect-sync-opt-duplicate = Duplicado
 cs-disconnect-sync-opt-not-say = Prefiero no decirlo
 
 ##
 
+cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
 cs-sign-out-button = Cerrar sesión
 
 ##
@@ -126,90 +129,230 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menú de { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Cerrar sesión
+drop-down-menu-sign-out-error = Lo sentimos, ha surgido un problema al cerrar tu sesión.
 
 ## Flow Container
 
+flow-container-back = Atrás
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Códigos de recuperación
+get-data-trio-download =
+    .title = Descargar
+get-data-trio-copy =
+    .title = Copiar
+get-data-trio-print =
+    .title = Imprimir
 
 # HeaderLockup component
 
+header-menu-open = Cerrar menú
+header-menu-closed = Menú de navegación del sitio
+header-back-to-top-link =
+    .title = Volver arriba
+header-title = Cuenta de Firefox
+header-help = Ayuda
 
 ## Input Password
 
+input-password-hide = Ocultar contraseña
+input-password-show = Mostrar contraseña
+input-password-hide-aria = Ocultar contraseña de la pantalla.
+input-password-show-aria = Muestra la contraseña como texto plano. Tu contraseña será visible en la pantalla.
 
 ## Modal
 
+modal-close-title = Cerrar
+modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifica tu correo electrónico
+mvs-enter-verification-code = Ingresa tu código de verificación
+msv-cancel-button = Cancelar
+msv-submit-button = Verificar
 
 ## Settings Nav
 
+nav-settings = Ajustes
+nav-profile = Perfil
+nav-security = Seguridad
+nav-connected-services = Servicios conectados
+nav-paid-subs = Suscripciones de pago
+nav-email-comm = Comunicaciones por correo electrónico
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-success-alert = Códigos de recuperación de cuenta actualizados.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Foto de perfil
+avatar-page-add-photo = Agregar foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tomar foto
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Eliminar foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Volver a tomar foto
+avatar-page-cancel-button = Cancelar
+avatar-page-save-button = Guardar
+avatar-page-saving-button = Guardando…
+avatar-page-zoom-out-button =
+    .title = Alejar
+avatar-page-zoom-in-button =
+    .title = Acercar
+avatar-page-rotate-button =
+    .title = Rotar
+avatar-page-camera-error = No se puede inicializar la cámara
+avatar-page-new-avatar =
+    .alt = nueva foto de perfil
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Cambiar contraseña
+pw-change-cancel-button = Cancelar
+pw-change-save-button = Guardar
+pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Eliminar cuenta
+delete-account-step-1-2 = Paso 1 de 2
+delete-account-step-2-2 = Paso 2 de 2
+delete-account-continue-button = Continuar
+delete-account-cancel-button = Cancelar
+delete-account-delete-button-2 = Eliminar
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nombre para mostrar
+display-name-input =
+    .label = Ingresa el nombre para mostrar
+submit-display-name = Guardar
+cancel-display-name = Cancelar
+display-name-success-alert = Nombre para mostrar actualizado.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Cancelar
+recovery-key-close-button = Cerrar
+recovery-key-continue-button = Continuar
+recovery-key-enter-password =
+    .label = Ingresar contraseña
+recovery-key-page-title =
+    .title = Clave de recuperación
+recovery-key-step-1 = Paso 1 de 2
+recovery-key-step-2 = Paso 2 de 2
 
 ## Add secondary email page
 
+add-secondary-email-page-title =
+    .title = Correo electrónico secundario
+add-secondary-email-enter-address =
+    .label = Ingresar dirección de correo electrónico
+add-secondary-email-cancel-button = Cancelar
+add-secondary-email-save-button = Guardar
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = Correo electrónico secundario
+verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button = Verificar
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } se agregó correctamente.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Eliminar cuenta
 
 ## Two Step Authentication
 
+tfa-title = Autenticación en dos pasos
+tfa-step-1-3 = Paso 1 de 3
+tfa-step-2-3 = Paso 2 de 3
+tfa-step-3-3 = Paso 3 de 3
+tfa-button-continue = Continuar
+tfa-button-cancel = Cancelar
+tfa-button-finish = Finalizar
+tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
+tfa-enter-recovery-code =
+    .label = Ingresar un código de recuperación
 
 ##
 
 
 ## Profile section
 
+profile-heading = Perfil
+profile-picture =
+    .header = Imagen
+profile-display-name =
+    .header = Nombre para mostrar
+profile-password =
+    .header = Contraseña
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = Creado el { $date }
+profile-primary-email =
+    .header = Correo electrónico principal
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Seguridad
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Agregar
+row-defaults-action-change = Cambiar
+row-defaults-action-disable = Deshabilitar
+row-defaults-status = Ninguno
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Clave de recuperación
+rk-enabled = Habilitado
+rk-not-set = No establecido
+rk-action-create = Crear
+rk-action-remove = Eliminar
+rk-key-removed = Clave de recuperación de cuenta eliminada.
+rk-remove-modal-heading = ¿Eliminar clave de recuperación?
 
 ## Secondary email sub-section on main Settings page
 
