@@ -133,6 +133,11 @@ cs-disconnect-lost-advice-content-2 =
     en la configuración de tu cuenta. También deberías buscar la información del
     fabricante del dispositivo sobre cómo borrar tus datos de forma remota.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
+cs-disconnect-suspicious-advice-content =
+    Si el dispositivo desconectado es realmente
+    sospechoso, para mantener tu información segura, deberías cambiar la contraseña de { -product-firefox-account }
+    en la configuración de tu cuenta. También deberías cambiar cualquier otra
+    contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
 
 ##
@@ -196,6 +201,10 @@ modal-cancel-button = Cancelar
 
 mvs-verify-your-email = Verifica tu correo electrónico
 mvs-enter-verification-code = Ingresa tu código de verificación
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Por favor, escribe antes de 5 minutos el código de verificación que se ha enviado a <email>{ $email }</email>.
 msv-cancel-button = Cancelar
 msv-submit-button = Verificar
 
@@ -210,6 +219,11 @@ nav-email-comm = Comunicaciones por correo electrónico
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Hubo un problema al reemplazar tus códigos de recuperación.
+tfa-replace-code-success =
+    Se han creado nuevos códigos. Guarda estos códigos de
+    un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
+    cuentas con tu dispositivo móvil.
 tfa-replace-code-success-alert = Códigos de recuperación de cuenta actualizados.
 
 ## Avatar change page
@@ -238,6 +252,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = No se puede inicializar la cámara
 avatar-page-new-avatar =
     .alt = nueva foto de perfil
+avatar-page-file-upload-error-2 = Hubo un problema al subir tu foto de perfil.
+avatar-page-delete-error-2 = Hubo un problema al eliminar tu foto de perfil.
+avatar-page-image-too-large-error = El tamaño de la imagen es demasiado grande para subir.
 
 ##
 
@@ -246,9 +263,24 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Cambiar contraseña
+pw-change-stay-safe = Mantente seguro — no reutilices contraseñas. Tu contraseña:
+pw-change-least-8-chars = Debe tener a lo menos 8 caracteres
+pw-change-not-contain-email = No debe ser tu dirección de correo electrónico
+pw-change-must-match = La nueva contraseña coincide con la confirmación
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    No debe coincidir con esta <linkExternal>lista de contraseñas
+    comunes</linkExternal>
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
+pw-change-current-password =
+    .label = Ingresa la contraseña actual
+pw-change-new-password =
+    .label = Ingresa nueva contraseña
+pw-change-confirm-password =
+    .label = Confirma nueva contraseña
+pw-change-success-alert = Contraseña actualizada.
 
 ##
 
@@ -259,7 +291,19 @@ delete-account-header =
     .title = Eliminar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a los productos { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
+delete-account-acknowledge = Por favor, recuerda que si eliminas tu cuenta:
+delete-account-chk-box-1 =
+    .label = Las suscripciones que hayas pagado se cancelarán
+delete-account-chk-box-2 =
+    .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Es posible que la reactivación con este correo electrónico no restaure la información guardada
+delete-account-chk-box-4 =
+    .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org se eliminará
 delete-account-continue-button = Continuar
+delete-account-password-input =
+    .label = Ingresar contraseña
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -274,6 +318,7 @@ display-name-input =
     .label = Ingresa el nombre para mostrar
 submit-display-name = Guardar
 cancel-display-name = Cancelar
+display-name-update-error = Hubo un problema al actualizar tu nombre para mostrar.
 display-name-success-alert = Nombre para mostrar actualizado.
 
 ##
@@ -284,15 +329,18 @@ display-name-success-alert = Nombre para mostrar actualizado.
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created = Tu clave de recuperación ha sido creada. Asegúrate de guardar la clave en un lugar seguro donde la puedas encontrar más tarde: necesitarás la clave para recuperar el acceso a tus datos si olvidas tu contraseña.
 recovery-key-enter-password =
     .label = Ingresar contraseña
 recovery-key-page-title =
     .title = Clave de recuperación
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
+recovery-key-success-alert = Se ha creado la clave de recuperación.
 
 ## Add secondary email page
 
+add-secondary-email-error = Ha surgido un problema al crear este correo electrónico.
 add-secondary-email-page-title =
     .title = Correo electrónico secundario
 add-secondary-email-enter-address =
@@ -305,10 +353,17 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+verify-secondary-email-error = Ha surgido un problema al enviar tu código de verificación.
 verify-secondary-email-page-title =
     .title = Correo electrónico secundario
+verify-secondary-email-verification-code =
+    .label = Ingresa el código de verificación
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button = Verificar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Por favor, escribe antes de 5 minutos el código de verificación que ha sido enviado a <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -329,6 +384,30 @@ tfa-button-continue = Continuar
 tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
 tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
+tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
+tfa-cannot-verify-code = Ha surgido un problema al verificar tu código de recuperación.
+tfa-incorrect-recovery-code = Código de recuperación incorrecto.
+tfa-enabled = Autenticación en dos pasos activada
+tfa-scan-this-code =
+    Escanea este código QR usando una de <linkExterior>estas
+    aplicaciones de autenticación</linkexternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Usa el código { $secret } para configurar la autenticación en dos pasos en las aplicaciones compatibles.
+tfa-button-cant-scan-qr = ¿No puedes escanear el código?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autenticación:
+tfa-enter-totp = Ahora ingresa el código de seguridad de la aplicación de autenticación.
+tfa-input-enter-totp =
+    .label = Ingresa código de seguridad
+tfa-save-these-codes =
+    Guarda estos códigos de un solo uso en un lugar seguro
+    para cuando no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm =
+    Por favor, ingresa uno de tus códigos de recuperación ahora para
+    confirmar que los has guardado. Necesitarás un código si pierdes tu dispositivo y quieres
+    acceder a tu cuenta.
 tfa-enter-recovery-code =
     .label = Ingresar un código de recuperación
 
@@ -372,11 +451,38 @@ rk-enabled = Habilitado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación.
 rk-key-removed = Clave de recuperación de cuenta eliminada.
+rk-cannot-remove-key = No se ha podido eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key = Actualizar la clave de recuperación
+rk-content-explain = Restaura tu información cuando olvides tu contraseña.
+rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
+rk-cannot-verify-session-2 = Lo sentimos, ha surgido un problema al verificar tu sesión.
 rk-remove-modal-heading = ¿Eliminar clave de recuperación?
+rk-remove-modal-content =
+    En caso de que restablezcas tu contraseña, no podrás
+    usar tu clave de recuperación para acceder a tus datos. No puedes deshacer esta acción.
+rk-refresh-error = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación.
+rk-remove-error = No se ha podido eliminar la clave de recuperación de tu cuenta.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Correo electrónico secundario
+    .header = Correo electrónico secundario
+se-cannot-refresh-email = Lo sentimos, ha surgido un problema al actualizar ese correo.
+se-cannot-resend-code = Lo sentimos, ha surgido un problema al enviar el código de verificación.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } es ahora tu correo principal.
+se-set-primary-error = Lo sentimos, ha surgido un problema al cambiar tu correo principal.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } se eliminó correctamente.
+se-delete-email-error = Lo sentimos, ha surgido un problema al eliminar este correo.
+se-verify-session = Deberás verificar tu sesión actual para realizar esta acción.
+se-verify-session-error = Lo sentimos, ha surgido un problema al verificar tu sesión.
 # Button to remove the secondary email
 se-remove-email =
     .title = Eliminar correo electrónico
@@ -384,8 +490,15 @@ se-remove-email =
 se-refresh-email =
     .title = Actualizar correo electrónico
 se-unverified = no verificado
+se-resend-code =
+    Se requiere verificación. <button>Reenviar código de verificación</button>,
+    en caso de que no esté en tu bandeja de entrada o carpeta de spam.
 # Button to make secondary email the primary
 se-make-primary = Hacer principal
+se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo principal.
+se-content-note =
+    Nota: un correo electrónico secundario no restaurará tu información — 
+    necesitarás una <a>clave de recuperación</a> para eso.
 
 ##
 
@@ -400,8 +513,16 @@ tfa-row-action-add = Agregar
 tfa-row-action-disable = Deshabilitar
 tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
+tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
+tfa-row-content-explain =
+    Evita que otra persona se conecte solicitando un
+    código único al que solo tú tienes acceso.
+tfa-row-cannot-verify-session-2 = Lo sentimos, ha surgido un problema al verificar tu sesión.
 tfa-row-disable-modal-heading = ¿Deshabilitar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-disable-modal-explain =
+    No podrás deshacer esta acción. También
+    tienes la opción de <linkexternal>reemplazar tus códigos de recuperación</linkexternal>.
 tfa-row-cannot-disable = La autenticación en dos pasos no ha podido ser deshabilitada.
 tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
 tfa-row-change-modal-confirm = Cambiar
