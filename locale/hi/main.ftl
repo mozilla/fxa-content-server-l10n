@@ -8,6 +8,8 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox Accounts
 
@@ -27,7 +29,7 @@ insufficient-funds-error = लगता है आपके कार्ड म�
 terms = सेवा की शर्तें
 privacy = गोपनीयता सूचना
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -64,6 +66,7 @@ payment-zip =
 payment-cancel-btn = रद्द करें
 payment-update-btn = अपडेट करें
 payment-pay-btn = अभी भुगतान करें
+payment-pay-with-paypal-btn = { -brand-name-paypal } द्वारा भुगतान करें
 payment-validate-name-error = कृपया अपना नाम दर्ज करें
 
 ## subscription redirect
@@ -179,12 +182,13 @@ plan-details-show-button = विवरण दिखाएं
 plan-details-hide-button = विवरण छिपाएं
 plan-details-total-label = कुल
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-alert = डाउनलोड करने के लिये यहां क्लिक करें
 payment-confirmation-mobile-alert = ऐप नहीं खोला? <a>यहां क्लिक करें</a>
-payment-confirmation-heading = धन्यवाद { $displayName }!
-payment-confirmation-heading-bak = धन्यवाद!
 payment-confirmation-order-heading = ऑर्डर का विवरण
 payment-confirmation-details-heading = भुगतान विवरण
 payment-confirmation-amount = { $amount } हर { $interval }
