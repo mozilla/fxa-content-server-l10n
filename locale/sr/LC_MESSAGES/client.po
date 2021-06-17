@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-17 23:13+0000\n"
+"PO-Revision-Date: 2021-06-17 23:19+0000\n"
 "Last-Translator: Ђорђе Васиљевић <djordje.vasiljevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -155,7 +155,7 @@ msgstr "никад"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr "Последњи пут проверено: %(lastCheckTime)s"
+msgstr "Последња провера: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -179,7 +179,7 @@ msgstr "Отвори Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Сакриј лозинку"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -227,11 +227,11 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "проблеми са налогом"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "технички проблеми"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "није на листи"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -343,7 +343,7 @@ msgstr "Непотврђен налог"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
-msgstr "Неважећи код за потврду"
+msgstr "Неважећи верификациони кôд"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
@@ -1665,7 +1665,7 @@ msgstr "Претплатите се за %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr "Уређај је повезан!"
+msgstr "Уређај је повезан"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
