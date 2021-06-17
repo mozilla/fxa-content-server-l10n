@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -91,6 +94,9 @@ cs-sign-out-button = साइन आउट करें
 
 drop-down-menu-title = { -product-firefox-account } मेन्यू
 
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-download =
@@ -104,6 +110,11 @@ get-data-trio-print =
 
 header-menu-open = मेन्यू बंद करें
 header-title = { -product-firefox-accounts }
+
+## Input Password
+
+input-password-hide = पासवर्ड छिपाएं
+input-password-show = पासवर्ड दिखाएं
 
 ## Modal
 
@@ -130,7 +141,6 @@ avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
-avatar-page-close-button = बंद करें
 avatar-page-save-button = सहेजें
 
 ##
@@ -156,7 +166,6 @@ pw-change-success-alert = पासवर्ड अपडेट किया ग
 
 ## Delete account page
 
-delete-account-close-button = बंद करें
 delete-account-continue-button = जारी रखें
 delete-account-password-input =
     .label = पासवर्ड दर्ज करें
@@ -240,11 +249,6 @@ row-defaults-action-change = बदलें
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-action-add = जोड़ें
-
-## Avatar sub-section on main Settings page
-
-avatar-add-link = जोड़ें
-avatar-change-link = बदलें
 
 ## Auth-server based errors that originate from backend service
 
