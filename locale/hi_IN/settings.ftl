@@ -115,6 +115,7 @@ header-title = { -product-firefox-accounts }
 
 input-password-hide = पासवर्ड छिपाएं
 input-password-show = पासवर्ड दिखाएं
+input-password-hide-aria = स्क्रीन से पासवर्ड छिपाएं।
 
 ## Modal
 
@@ -141,6 +142,7 @@ avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
+avatar-page-cancel-button = रद्द करें
 avatar-page-save-button = सहेजें
 
 ##
