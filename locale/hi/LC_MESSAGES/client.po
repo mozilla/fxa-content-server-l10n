@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 22:07+0000\n"
-"PO-Revision-Date: 2021-04-02 16:31+0000\n"
+"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"PO-Revision-Date: 2021-06-17 13:29+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -181,7 +181,7 @@ msgstr "Restmail खोलें"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "पासवर्ड छिपाएं"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -225,15 +225,15 @@ msgstr "खाता सफलतापूर्वक सत्यापित"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "भुगतान और बिलिंग"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "खाते की समस्याएं"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "तकनीकी समस्याएं"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
