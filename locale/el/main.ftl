@@ -172,8 +172,8 @@ input-error-is-required = Απαιτείται το { $label }
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Έλεγχος αναβάθμισης
-sub-update-failed = Αποτυχία ενημέρωσης πλάνου
+product-plan-change-heading = Ελέγξτε την αλλαγή σας
+sub-change-failed = Η αλλαγή προγράμματος απέτυχε
 sub-update-payment-title = Πληροφορίες πληρωμής
 sub-update-card-exp = Λήγει { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Επιβεβαίωση αναβάθμισης
-sub-update-indicator =
-    .aria-label = δείκτης αναβάθμισης
+sub-change-submit = Επιβεβαίωση αλλαγής
+sub-change-indicator =
+    .aria-label = δείκτης αλλαγής
 sub-update-current-plan-label = Τρέχον πλάνο
 sub-update-new-plan-label = Νέο πλάνο
 sub-update-total-label = Νέο σύνολο
