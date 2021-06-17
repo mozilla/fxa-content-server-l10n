@@ -180,8 +180,8 @@ input-error-is-required = { $label } обов'язково
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Переглянути оновлення
-sub-update-failed = Помилка оновлення тарифного плану
+product-plan-change-heading = Переглянути свої зміни
+sub-change-failed = Помилка зміни тарифного плану
 sub-update-payment-title = Платіжні дані
 sub-update-card-exp = Термін дії закінчується { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -222,9 +222,7 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Підтвердити оновлення
-sub-update-indicator =
-    .aria-label = статус оновлення
+sub-change-submit = Підтвердити зміни
 sub-update-current-plan-label = Поточний тарифний план
 sub-update-new-plan-label = Новий тарифний план
 sub-update-total-label = Нова сума
