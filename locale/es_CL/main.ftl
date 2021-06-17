@@ -172,8 +172,8 @@ input-error-is-required = { $label } es requerido
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Revisa tu mejora
-sub-update-failed = Fallo la actualización del plan
+product-plan-change-heading = Revisa tu cambio
+sub-change-failed = Falló el cambio del plan
 sub-update-payment-title = Información de pago
 sub-update-card-exp = Vence el { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confirmar mejora
-sub-update-indicator =
-    .aria-label = indicador de mejora
+sub-change-submit = Confirmar cambio
+sub-change-indicator =
+    .aria-label = indicador de cambio
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nuevo plan
 sub-update-total-label = Nuevo total
