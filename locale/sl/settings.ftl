@@ -492,6 +492,7 @@ se-set-primary-error = Oprostite, pri spreminjanju glavnega e-poštnega naslova 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } je uspešno izbrisan.
 se-delete-email-error = Oprostite, pri brisanju tega sporočila je prišlo do težave.
+se-verify-session = Za izvedbo tega dejanja boste morali potrditi svojo trenutno sejo.
 se-verify-session-error = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 # Button to remove the secondary email
 se-remove-email =
