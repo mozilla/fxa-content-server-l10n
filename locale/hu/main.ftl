@@ -172,8 +172,8 @@ input-error-is-required = { $label } szükséges
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = A frissítése áttekintése
-sub-update-failed = Az előfizetés frissítése sikertelen
+product-plan-change-heading = Módosítás áttekintése
+sub-change-failed = Az előfizetés módosítása sikertelen
 sub-update-payment-title = Fizetési információk
 sub-update-card-exp = Lejárat: { $cardExpMonth } / { $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Frissítés megerősítése
-sub-update-indicator =
-    .aria-label = frissítésjelző
+sub-change-submit = Módosítás megerősítése
+sub-change-indicator =
+    .aria-label = módosításjelző
 sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
 sub-update-total-label = Új összeg
