@@ -106,7 +106,6 @@ payment-error-retry-button = Zkusit znovu
 payment-error-manage-subscription-button = Správa předplatného
 country-currency-mismatch = Měna použitá pro toto předplatné není platná pro zemi spojenou s vaší platbou.
 currency-currency-mismatch = Změna měny bohužel není možná.
-returning-paypal-customer-error = Nyní můžete mít zároveň pouze jeden program předplatného. Zkuste to prosím později.
 no-subscription-upgrades = Nyní bohužel nelze program vašeho předplatného změnit. Zkuste to prosím později.
 expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
 insufficient-funds-error = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
@@ -246,6 +245,7 @@ payment-confirm =
 payment-cancel-btn = Zrušit
 payment-update-btn = Aktualizovat
 payment-pay-btn = Zaplatit
+payment-pay-with-paypal-btn = Zaplatit přes { -brand-name-paypal }
 payment-validate-name-error = Zadejte prosím své jméno
 payment-validate-zip-required = PSČ je povinné
 payment-validate-zip-short = PSČ je příliš krátké
@@ -263,8 +263,8 @@ input-error-is-required = Pole „{ $label }“ je povinné
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Zkontrolujte povýšení
-sub-update-failed = Nepodařilo se změnit vaše předplatné
+product-plan-change-heading = Zkontrolujte změnu předplatného
+sub-change-failed = Nepodařilo se změnit vaše předplatné
 sub-update-payment-title = Platební informace
 sub-update-card-exp = Konec platnosti { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
@@ -306,9 +306,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Potvrdit povýšení
-sub-update-indicator =
-    .aria-label = indikátor povýšení
+sub-change-submit = Potvrdit změnu
+sub-change-indicator =
+    .aria-label = indikátor změny
 sub-update-current-plan-label = Stávající předplatné
 sub-update-new-plan-label = Nový plán
 sub-update-total-label = Nová celková částka
