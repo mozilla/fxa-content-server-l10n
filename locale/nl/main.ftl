@@ -172,8 +172,8 @@ input-error-is-required = { $label } is verplicht
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Uw upgrade bekijken
-sub-update-failed = Bijwerken schema mislukt
+product-plan-change-heading = Uw wijziging bekijken
+sub-change-failed = Abonnementswijziging mislukt
 sub-update-payment-title = Betalingsgegevens
 sub-update-card-exp = Vervalt { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Upgrade bevestigen
-sub-update-indicator =
-    .aria-label = upgrade-indicator
+sub-change-submit = Wijziging bevestigen
+sub-change-indicator =
+    .aria-label = wijzigingsindator
 sub-update-current-plan-label = Huidig schema
 sub-update-new-plan-label = Nieuw schema
 sub-update-total-label = Nieuw totaalbedrag
