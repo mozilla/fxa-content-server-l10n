@@ -172,8 +172,8 @@ input-error-is-required = { $etiquetta } es necessari
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Revide tu promotion
-sub-update-failed = Actualisation del plano fallite
+product-plan-change-heading = Revide tu cambio
+sub-change-failed = Cambio de plano fallite
 sub-update-payment-title = Information de pagamento
 sub-update-card-exp = Expira { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Tu plan cambiara immediatemente e te sera debitate un amonta adjustate pro le resto de tu termino de facturation. A partir del { $startingDate } te sera debitate le plen amonta.
@@ -207,9 +207,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confirmar le promotion
-sub-update-indicator =
-    .aria-label = indicator de promotion
+sub-change-submit = Confirmar le cambio
+sub-change-indicator =
+    .aria-label = indicator de cambio
 sub-update-current-plan-label = Plano actual
 sub-update-new-plan-label = Nove plano
 sub-update-total-label = Nove total
