@@ -172,8 +172,8 @@ input-error-is-required = Le champ « { $label } » est nécessaire
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Examinez votre mise à niveau
-sub-update-failed = La mise à jour de votre forfait a échoué
+product-plan-change-heading = Examinez vos modifications
+sub-change-failed = La modification de votre forfait a échoué
 sub-update-payment-title = Informations de paiement
 sub-update-card-exp = Expiration : { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confirmer la mise à niveau
-sub-update-indicator =
-    .aria-label = indicateur de mise à niveau
+sub-change-submit = Confirmer la modification
+sub-change-indicator =
+    .aria-label = indicateur de modification
 sub-update-current-plan-label = Forfait actuel
 sub-update-new-plan-label = Nouveau forfait
 sub-update-total-label = Nouveau total
