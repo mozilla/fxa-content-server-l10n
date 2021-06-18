@@ -172,8 +172,8 @@ input-error-is-required = { $label } è un campo obbligatorio
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Controlla il tuo aggiornamento
-sub-update-failed = Aggiornamento del piano non riuscito
+product-plan-change-heading = Rivedi la tua modifica
+sub-change-failed = Modifica del piano non riuscita
 sub-update-payment-title = Informazioni sul pagamento
 sub-update-card-exp = Scade il { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato un importo calcolato per la parte restante del ciclo di fatturazione. A partire da { $startingDate } ti verrà addebitato l’importo intero.
@@ -207,9 +207,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Conferma l’aggiornamento
-sub-update-indicator =
-    .aria-label = indicatore dell’aggiornamento
+sub-change-submit = Conferma modifica
+sub-change-indicator =
+    .aria-label = indicatore di modifica
 sub-update-current-plan-label = Piano attuale
 sub-update-new-plan-label = Nuovo piano
 sub-update-total-label = Nuovo totale
