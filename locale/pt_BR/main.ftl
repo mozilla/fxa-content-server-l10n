@@ -172,8 +172,8 @@ input-error-is-required = É necessário { $label }
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Confira sua atualização
-sub-update-failed = Falha na atualização do plano
+product-plan-change-heading = Confira sua alteração
+sub-change-failed = Falha na alteração do plano
 sub-update-payment-title = Informações de pagamento
 sub-update-card-exp = Validade { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Seu plano mudará imediatamente e será cobrado um valor de ajuste para o restante do seu ciclo de cobrança. A partir de { $startingDate } será cobrado o valor integral.
@@ -207,9 +207,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confirmar atualização
-sub-update-indicator =
-    .aria-label = indicador de atualização
+sub-change-submit = Confirmar alteração
+sub-change-indicator =
+    .aria-label = indicador de alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
