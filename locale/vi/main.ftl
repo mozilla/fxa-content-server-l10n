@@ -164,8 +164,8 @@ input-error-is-required = { $label } là bắt buộc
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Xem lại bản nâng cấp của bạn
-sub-update-failed = Không thể cập nhật lịch
+product-plan-change-heading = Xem lại thay đổi của bạn
+sub-change-failed = Thay đổi gói không thành công
 sub-update-payment-title = Thông tin thanh toán
 sub-update-card-exp = Hết hạn vào { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -198,9 +198,7 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Xác nhận nâng cấp
-sub-update-indicator =
-    .aria-label = chỉ số nâng cấp
+sub-change-submit = Xác nhận thay đổi
 sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
 sub-update-total-label = Tổng số mới
