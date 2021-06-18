@@ -204,7 +204,8 @@ input-error-is-required = Mae angen { $label }
 
 ## subscription upgrade
 
-product-plan-change-heading = Adolygwch eich newid
+product-plan-change-heading = Gwiriwch eich newid
+sub-change-failed = Methodd newid y cynllun
 sub-update-payment-title = Manylion talu
 sub-update-card-exp = Yn dod i ben { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -257,6 +258,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
+sub-change-submit = Cadarnhau'r newid
+sub-change-indicator =
+    .aria-label = dangosydd newid
 sub-update-current-plan-label = Cynllun cyfredol
 sub-update-new-plan-label = Cynllun newydd
 sub-update-total-label = Cyfanswm newydd
