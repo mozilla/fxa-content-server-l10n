@@ -199,6 +199,8 @@ sub-update-confirm-with-legal-links-year =
 ##
 
 sub-change-submit = Xác nhận thay đổi
+sub-change-indicator =
+    .aria-label = thay đổi chỉ số
 sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
 sub-update-total-label = Tổng số mới
