@@ -212,7 +212,7 @@ sub-update-confirm-with-legal-links-year =
 
 sub-change-submit = Wijziging bevestigen
 sub-change-indicator =
-    .aria-label = wijzigingsindator
+    .aria-label = wijzigingsindicator
 sub-update-current-plan-label = Huidig schema
 sub-update-new-plan-label = Nieuw schema
 sub-update-total-label = Nieuw totaalbedrag
