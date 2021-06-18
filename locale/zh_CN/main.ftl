@@ -171,8 +171,8 @@ input-error-is-required = { $label } 必填
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = 确认升级内容
-sub-update-failed = 方案更新失败
+product-plan-change-heading = 确认您的更改
+sub-change-failed = 方案更改失败
 sub-update-payment-title = 付款信息
 sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 sub-update-copy = 您的方案内容会即刻变更，且会向您收取剩余的差额。自 { $startingDate } 起将会向您收取全额。
@@ -206,9 +206,7 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = 确认升级
-sub-update-indicator =
-    .aria-label = 升级指标
+sub-change-submit = 确认更改
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金额
