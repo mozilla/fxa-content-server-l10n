@@ -188,8 +188,8 @@ input-error-is-required = { $label } jo trjebne
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Pśeglědujśo swóju aktualizaciju
-sub-update-failed = Aktualizěrowanje plana njejo se raźiło
+product-plan-change-heading = Pśeglědujśo swóju změnu
+sub-change-failed = Njejo se raźiło, plan změniś
 sub-update-payment-title = Płaśeńske informacije
 sub-update-card-exp = Spadnjo { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -234,9 +234,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Aktualizaciju wobkšuśiś
-sub-update-indicator =
-    .aria-label = aktualizěrowańske zwobraznjenje
+sub-change-submit = Změnu wobkšuśiś
+sub-change-indicator =
+    .aria-label = indikator změny
 sub-update-current-plan-label = Aktualny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
