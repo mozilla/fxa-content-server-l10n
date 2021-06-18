@@ -172,8 +172,8 @@ input-error-is-required = { $label } 必填
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = 確認升級內容
-sub-update-failed = 方案更新失敗
+product-plan-change-heading = 確認變更內容
+sub-change-failed = 方案變更失敗
 sub-update-payment-title = 付款資訊
 sub-update-card-exp = { $cardExpMonth }/{ $cardExpYear } 到期
 sub-update-copy = 您的方案內容會立刻變更，且會向您收取剩餘帳務週期的差額。自 { $startingDate } 起將會向您收取全額。
@@ -207,9 +207,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = 確認升級
-sub-update-indicator =
-    .aria-label = 升級指標
+sub-change-submit = 確認變更
+sub-change-indicator =
+    .aria-label = 變更指示圖
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金額
