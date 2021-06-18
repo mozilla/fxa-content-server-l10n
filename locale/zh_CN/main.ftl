@@ -207,6 +207,8 @@ sub-update-confirm-with-legal-links-year =
 ##
 
 sub-change-submit = 确认更改
+sub-change-indicator =
+    .aria-label = 变更一览
 sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金额
