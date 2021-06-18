@@ -416,12 +416,19 @@ tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-scan-this-code =
     Skenirajte to kodo QR z eno od <linkExternal>naslednjih
     aplikacij za overjanje</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Uporabite kodo { $secret } za nastavitev dvostopenjskega overjanja v podprtih programih.
 tfa-button-cant-scan-qr = Ne morete prebrati kode?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
 tfa-enter-totp = Sedaj vnesite varnostno kodo iz aplikacije za overjanje.
 tfa-input-enter-totp =
     .label = Vnesite varnostno kodo
+tfa-save-these-codes =
+    Shranite te kode za enkratno uporabo na varno mesto za primere,
+    ko nimate mobilne naprave.
 tfa-enter-recovery-code =
     .label = Vnesite kodo za obnovitev
 
