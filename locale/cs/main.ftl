@@ -390,11 +390,26 @@ pay-update-change-btn = Změnit
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Chcete i nadále používat { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Až do konce stávajícího platebního období zůstane váš přístup a platby
+    za službu { $name } beze změny. Vaše další platba ve výši { $amount }
+    bude stržena z karty s číslem končícím na { $last } dne { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Až do konce stávajícího platebního období zůstane váš přístup a platby
+    za službu { $name } beze změny. Vaše další platba ve výši { $amount }
+    bude účtována dne { $endDate }.
 reactivate-confirm-button = Obnovit předplatné
 
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Své předplatné jste zrušili { $date }.
+reactivate-panel-copy = Přístup ke službě { $name } ztratíte <strong>{ $date }</strong>.
 reactivate-success-copy = Děkujeme. Vše je nastaveno.
 reactivate-success-button = Zavřít
 
@@ -407,6 +422,10 @@ sub-item-missing-msg = Zkuste to prosím znovu později.
 sub-item-no-such-plan = Takové předplatné pro neexistuje.
 sub-item-cancel-sub = Zrušit předplatné
 sub-item-stay-sub = Zachovat předplatné
+sub-item-cancel-msg =
+    Po skončení předplaceného období { $period }
+    už nebudete mít ke službě { $name } přístup.
+sub-item-cancel-confirm = Zrušit můj přístup a smazat má uložená data ve službě { $name } dne { $period }
 account-activated = Váš účet účet je aktivován.
 
 ## subscription route index
@@ -416,6 +435,12 @@ sub-route-idx-reactivating = Předplatné se nepodařilo obnovit
 sub-route-idx-cancel-failed = Předplatné se nepodařilo zrušit
 sub-route-idx-contact = Kontaktujte podporu
 sub-route-idx-cancel-msg-title = Je nám líto, že odcházíte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Vaše předplatné služby { $name } bylo zrušeno.
+          <br />
+          Přístup ke službě { $name } vám zůstane do { $date }.
 sub-route-idx-cancel-aside = S případnými dotazy se prosím obraťte na <a>Podporu { -brand-name-mozilla(case: "gen") }</a>.
 sub-subscription-error =
     .title = Předplatné se nepodařilo načíst
@@ -423,6 +448,9 @@ sub-customer-error =
     .title = Informace o zákazníkovi se nepodařilo načíst
 sub-billing-update-success = Vaše platební údaje byly úspěšně aktualizovány
 sub-route-payment-modal-heading = Neplatné platební údaje
+sub-route-payment-modal-message = U vašeho účtu { -brand-name-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky pro vyřešení problému s touto platbou.
+sub-route-missing-billing-agreement-payment-alert = Neplatné platební údaje. U vašeho účtu došlo k chybě. <div>Spravovat</div>
+sub-route-funding-source-payment-alert = Neplatné platební údaje. U vašeho účtu došlo k chybě. Tato chyba se může zobrazovat i nějaký čas poté, co své údaje aktualizujete. <div>Spravovat</div>
 pay-update-manage-btn = Správa
 
 ## subscription create
@@ -448,6 +476,7 @@ payment-processing-message = Počkejte prosím na zpracování vaší platby…
 payment-confirmation-alert = Klepněte zde pro stažení
 payment-confirmation-mobile-alert = Aplikace se neotevřela? <a>Klepněte zde</a>
 payment-confirmation-thanks-heading = Děkujeme!
+payment-confirmation-thanks-subheading = Na adresu { $email } jsme vám poslali e-mail v potvrzením a podrobnostmi jak začít náš produkt { $product_name } používat.
 payment-confirmation-order-heading = Detaily objednávky
 payment-confirmation-invoice-number = Faktura č. { $invoiceNumber }
 payment-confirmation-billing-heading = Účtováno
