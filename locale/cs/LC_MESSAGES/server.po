@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-19 18:03+0000\n"
+"PO-Revision-Date: 2021-06-19 18:07+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -80,7 +80,7 @@ msgstr "Váš účet Firefoxu se začal chovat podezřele. Abychom zabránili ne
 
 #: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr ""
+msgstr "Přihlaste se zpět v každém zařízením nebo službě, kde používáte účet Firefoxu, a postupujte podle pokynů, které se vám zobrazí."
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -461,6 +461,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
+"Částka a platební období zůstane beze změny. Vaše další platba %(invoiceTotal)s bude zaúčtována %(nextInvoiceDateOnly)s. Vaše předplatné bude pravidelně automaticky obnovováno, dokud se nerozhodnete"
+" ho zrušit."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
@@ -676,11 +678,11 @@ msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a přip
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Nebo nainstalujte na <a %(desktopLinkAttributes)s>jiný počítač</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Nebo nainstalujte na <a %(cadLinkAttributes)s>jiné zařízení</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
