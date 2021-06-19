@@ -180,8 +180,8 @@ input-error-is-required = { $label } обязательное
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Проверьте свое обновление
-sub-update-failed = Не удалось обновить план
+product-plan-change-heading = Проверьте свое изменение
+sub-change-failed = Не удалось изменить план
 sub-update-payment-title = Платежная информация
 sub-update-card-exp = Срок действия истекает { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -222,9 +222,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Подтвердить обновление
-sub-update-indicator =
-    .aria-label = индикатор обновления
+sub-change-submit = Подтвердить изменение
+sub-change-indicator =
+    .aria-label = индикатор изменения
 sub-update-current-plan-label = Текущий план
 sub-update-new-plan-label = Новый план
 sub-update-total-label = Новый итог
