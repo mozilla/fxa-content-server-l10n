@@ -196,8 +196,8 @@ input-error-is-required = Pole „{ $label }” jest wymagane
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Przejrzyj swoje rozszerzenie planu
-sub-update-failed = Aktualizacja planu się nie powiodła
+product-plan-change-heading = Sprawdź zmianę
+sub-change-failed = Zmiana planu się nie powiodła
 sub-update-payment-title = Informacje o płatności
 sub-update-card-exp = Wygasa { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -238,9 +238,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Potwierdź rozszerzenie
-sub-update-indicator =
-    .aria-label = wskaźnik rozszerzenia
+sub-change-submit = Potwierdź zmianę
+sub-change-indicator =
+    .aria-label = wskaźnik zmiany
 sub-update-current-plan-label = Obecny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
