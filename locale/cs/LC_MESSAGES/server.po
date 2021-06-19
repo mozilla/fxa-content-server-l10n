@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-19 15:03+0000\n"
+"PO-Revision-Date: 2021-06-19 15:22+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -17,19 +17,19 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Připomínáme nastavení synchronizace dalších zařízení."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Poslední připomenutí na synchronizaci dalšího zařízení."
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -542,7 +542,7 @@ msgstr "Máte dotaz ohledně vašich předplatných? Pomůže vám náš tým po
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "S vaší platební metodou platbou pro úhradu následujících předplatných se vyskytly problémy."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -734,7 +734,7 @@ msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(em
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a máte předplaceno několik produktů."
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
@@ -931,11 +931,11 @@ msgstr "Platnost platební karty pro úhradu vašich předplatných brzy vyprš�
 
 #: lib/senders/email.js:2122
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Je vyžadována aktualizace platebních údajů pro úhradu produktu %(productName)s"
 
 #: lib/senders/email.js:2138
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Je vyžadována aktualizace platebních údajů pro úhradu předplatných od Mozilly"
 
 #: lib/senders/email.js:2184
 msgid "%(productName)s payment failed"
@@ -971,15 +971,15 @@ msgstr "Stáhnout %(productName)s"
 
 #: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Přátelsky připomínáme: Jak dokončit nastavení synchronizace"
 
 #: lib/senders/email.js:2698
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Poslední připomenutí: Nezapomeňte si nastavit synchronizaci"
 
 #: lib/senders/email.js:2712
 msgid "Sync another device"
-msgstr ""
+msgstr "Synchronizovat další zařízení"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
