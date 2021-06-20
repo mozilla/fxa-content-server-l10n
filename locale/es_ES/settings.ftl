@@ -130,7 +130,7 @@ cs-disconnect-lost-advice-heading = El dispositivo perdido o robado ha sido desc
 cs-disconnect-lost-advice-content-2 =
     Ya que tu dispositivo fue extraviado o robado, para
     mantener tu información segura, deberías cambiar tu contraseña de { -product-firefox-account }
-    en la configuración de tu cuenta. También deberíass buscar la información del
+    en la configuración de tu cuenta. También deberías buscar la información del
     fabricante del dispositivo sobre cómo borrar tus datos de forma remota.
 cs-disconnect-suspicious-advice-heading = El dispositivo sospechoso ha sido desconectado
 cs-disconnect-suspicious-advice-content =
@@ -244,11 +244,11 @@ avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = Guardando…
 avatar-page-zoom-out-button =
-  .title = Reducir
+    .title = Reducir
 avatar-page-zoom-in-button =
-  .title = Ampliar
+    .title = Ampliar
 avatar-page-rotate-button =
-  .title = Rotar
+    .title = Rotar
 avatar-page-camera-error = No se puede inicializar la cámara
 avatar-page-new-avatar =
     .alt = nueva foto de perfil
