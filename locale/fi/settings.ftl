@@ -244,6 +244,7 @@ pw-change-header =
 pw-change-stay-safe = Pysy turvassa — älä käytä salasanoja uudelleen. Salasanasi:
 pw-change-least-8-chars = Täytyy olla vähintään kahdeksan merkkiä
 pw-change-not-contain-email = Ei saa olla sähköpostiosoitteesi
+pw-change-must-match = Uusi salasana vastaa vahvistusta
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Ei saa vastata <linkExternal>luetteloa yleisistä 
@@ -486,6 +487,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
+tfa-row-disable-modal-explain =
+    Et voi kumota tätä toimintoa. Sinulla on myös
+    mahdollisuus <linkExternal>uusia palautuskoodisi</linkExternal>.
 tfa-row-cannot-disable = Kaksivaiheista todennusta ei voitu poistaa käytöstä.
 tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
 tfa-row-change-modal-confirm = Vaihda
