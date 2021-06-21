@@ -466,7 +466,9 @@ se-resend-code = Verification needed. <button>Resend verification code</button>�
 # Button to make secondary email the primary
 se-make-primary = Make primary
 se-default-content = Access your account if you can’t log in to your primary email.
-se-content-note = Note: a secondary email won’t restore your information — you’ll need a <a>recovery key</a> for that.
+se-content-note =
+    Note: a secondary email won’t restore your information — you’ll
+    need a <a>recovery key</a> for that.
 
 ##
 
