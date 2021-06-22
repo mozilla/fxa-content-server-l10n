@@ -173,6 +173,7 @@ input-error-is-required = Oñeikotevẽ { $label }
 ## subscription upgrade
 
 product-plan-change-heading = Ehecha ne moambuekue
+sub-change-failed = Ojavy ne moambue raperã
 sub-update-payment-title = Jehepyme’ẽ marandu
 sub-update-card-exp = Opáta { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -209,6 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
+sub-change-submit = Emoneĩ moambue
+sub-change-indicator =
+    .aria-label = moambue ohechaukáva
 sub-update-current-plan-label = Ag̃agua tembiaporã
 sub-update-new-plan-label = Tembiaporã pyahu
 sub-update-total-label = Ipyahupaite
