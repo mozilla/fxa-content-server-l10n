@@ -223,6 +223,8 @@ sub-update-confirm-with-legal-links-year =
 ##
 
 sub-change-submit = Підтвердити зміни
+sub-change-indicator =
+    .aria-label = індикатор зміни
 sub-update-current-plan-label = Поточний тарифний план
 sub-update-new-plan-label = Новий тарифний план
 sub-update-total-label = Нова сума
