@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-22 21:13+0000\n"
+"PO-Revision-Date: 2021-06-22 21:15+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -119,15 +119,15 @@ msgstr "Благодарим ви, че се свързахте с екипа з
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Благодарим ви, че се свързахте с екипа за поддръжка на Mozilla относно <b>%(escapedLowercaseTopic)s</b> за <b>%(escapedSelectedProduct)s</b>. Ще се свържем с вас по имейл възможно най-скоро."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Синхронизираните данни са защитени"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Ако загубите достъп до профила си, ще можете да възстановите синхронизираните данни."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
