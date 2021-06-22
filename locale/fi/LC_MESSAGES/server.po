@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-04 06:35+0000\n"
+"PO-Revision-Date: 2021-06-22 06:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -953,7 +953,7 @@ msgstr "%(productName)s -tilaus aktivoitu uudelleen"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "%(productName)s - automaattinen uusimisilmoitus"
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"

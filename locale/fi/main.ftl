@@ -152,8 +152,7 @@ input-error-is-required = { $label } vaaditaan
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Katselmoi päivitys
-sub-update-failed = Tilaustyypin päivittäminen epäonnistui
+product-plan-change-heading = Tarkista muutos
 sub-update-payment-title = Maksun tiedot
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
@@ -162,9 +161,7 @@ sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
-sub-update-submit = Vahvista päivitys
-sub-update-indicator =
-    .aria-label = päivityksen ilmaisin
+sub-change-submit = Vahvista muutos
 sub-update-current-plan-label = Nykyinen tilaustyyppi
 sub-update-new-plan-label = Uusi tilaustyyppi
 sub-update-total-label = Uusi summa
