@@ -172,8 +172,8 @@ input-error-is-required = { $label } აუცილებელია
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = გაუმჯობესების შეთვალიერება
-sub-update-failed = გეგმის განახლება ვერ მოხერხდა
+product-plan-change-heading = გადახედეთ თქვენს ცვლილებას
+sub-change-failed = გეგმის ცვლილება ვერ მოხერხდა
 sub-update-payment-title = გადახდის მონაცემები
 sub-update-card-exp = მოქმედების ვადა { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = გაუმჯობესების დასტური
-sub-update-indicator =
-    .aria-label = გაუმჯობესების მაჩვენებელი
+sub-change-submit = ცვლილების დადასტურება
+sub-change-indicator =
+    .aria-label = ცვლილების მაჩვენებელი
 sub-update-current-plan-label = მიმდინარე გეგმა
 sub-update-new-plan-label = ახალი გეგმა
 sub-update-total-label = ახალი სულ
