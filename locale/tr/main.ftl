@@ -170,8 +170,7 @@ input-error-is-required = { $label } gereklidir
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Yükseltmenizi gözden geçirin
-sub-update-failed = Plan güncelleme başarısız
+sub-change-failed = Plan değişikliği başarısız oldu
 sub-update-payment-title = Ödeme bilgileri
 sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
 
@@ -204,9 +203,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Yükseltmeyi onayla
-sub-update-indicator =
-    .aria-label = yükseltme göstergesi
+sub-change-submit = Değişikliği onaylayın
+sub-change-indicator =
+    .aria-label = değişim göstergesi
 sub-update-current-plan-label = Geçerli plan
 sub-update-new-plan-label = Yeni plan
 sub-update-total-label = Yeni toplam
