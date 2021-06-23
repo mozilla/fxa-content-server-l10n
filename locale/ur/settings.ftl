@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -54,6 +57,10 @@ avatar-your-avatar =
 
 ##
 
+
+# BentoMenu component
+
+bento-menu-firefox-mobile = { -brand-firefox } موبائل کے لئے  راؤزر
 
 ## Connect another device promo
 
@@ -107,6 +114,12 @@ datablock-copy =
 datablock-print =
     .message = ‏‏پرنٹ کیا گیا
 
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = بازیافت کوڈ
@@ -124,9 +137,16 @@ header-menu-closed = سائٹ نیویگیشن مینو
 header-back-to-top-link =
     .title = واپس سے اوپر جایں
 header-title = { -product-firefox-accounts }
-header-switch-title = پرانے انداز میں بدلیں
-    .title = پرانے ڈیزائن کا لنک
 header-help = مدد
+
+## Input Password
+
+
+## Modal
+
+
+## Modal Verify Session
+
 
 ## Settings Nav
 
@@ -155,14 +175,13 @@ avatar-page-remove-photo = تصویر ہٹائیں
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = تصویر دوبارہ لیں
-avatar-page-close-button = بند کریں
 avatar-page-save-button = محفوظ کریں
 avatar-page-zoom-out-button =
-  .title = چھوٹا کریں
+    .title = چھوٹا کریں
 avatar-page-zoom-in-button =
-  .title = بڑا کریں
+    .title = بڑا کریں
 avatar-page-rotate-button =
-  .title = گهمائیں
+    .title = گهمائیں
 avatar-page-camera-error = کیمرا شروع نہیں کیا جاسکا
 avatar-page-new-avatar =
     .alt = نئی پروفائل تصویر
@@ -204,7 +223,6 @@ delete-account-step-2-2 = مرحلہ 2 میں سے 2
 delete-account-acknowledge = برائے مہربانی یہ جان لیں کی اکاؤنٹ حذف کرنے سے:
 delete-account-chk-box-1 =
     .label = آپ کے پاس موجود ادا کردہ سبسکرپشنز منسوخ کردی جائیں گی
-delete-account-close-button = بند کریں
 delete-account-continue-button = جاری رکھیں
 delete-account-password-input =
     .label = پاس ورڈ داخل کریں
@@ -330,7 +348,6 @@ row-defaults-status = کوئی نہیں
 
 ## Recovery key sub-section on main Settings page
 
-rk-enabld = فعال شدہ
 rk-not-set = سیٹ نہیں ہے
 rk-action-create = بنائیں
 rk-action-remove = ہٹائیں
@@ -355,8 +372,6 @@ se-make-primary = بنیادی بنائیں
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-heading =
-    .header = دو-مرحلہ کی تصدیق
 tfa-row-disabled = دو-مرحلہ کی تصدیق کو غیر فعال کر دیا گیا۔
 tfa-row-enabled = فعال شدہ
 tfa-row-not-set = سیٹ نہیں ہے
@@ -366,12 +381,6 @@ tfa-row-button-refresh =
     .title = دو-مرحلہ کی تصدیق کو ریفریش کریں
 tfa-row-disable-modal-confirm = غیر فعال کریں
 tfa-row-change-modal-confirm = تبدیل کریں
-
-## Avatar sub-section on main Settings page
-
-avatar-heading = تصویر
-avatar-add-link = لگائیں
-avatar-change-link = تبدیل کریں
 
 ## Auth-server based errors that originate from backend service
 
