@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-06-24 22:07+0000\n"
 "PO-Revision-Date: 2021-04-19 15:56+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr "ستُرسل الآن تنبيهات الحساب إلى %(secondaryEmai
 msgid "Secondary email verified"
 msgstr "أُكِّد البريد الإلكتروني الثانوي"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "أُكِّد الولوج"
 
@@ -864,7 +864,7 @@ msgstr "%(country)s (تقريبًا)"
 msgid "IP address: %(ip)s"
 msgstr "عنوان IP:‏ %(ip)s"
 
-#: .es5/lib/strings.js:39
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "لمزيد من الأمان، رجاءً أكّد تسجيل دخولك لبداء علمية التزامُن مع هذا الجهاز:"
 
@@ -1397,6 +1397,7 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "أُعلم فريقنا. التقارير مثل هذا تساعدنا على درء المتسللين."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "ائذن بهذا الولوج"
 
@@ -1595,6 +1596,42 @@ msgstr "أدخِل كلمة السرّ لعرض مفتاح الاستعادة."
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr "أدخل كلمة السرّ"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr ""
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "أكّد تسجيل الدخول"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1881,10 +1918,6 @@ msgstr ""
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "الجهاز متصل"
-
-#: .es5/templates/pair/auth_complete.mustache:2
-msgid "Successfully connected"
-msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -2847,9 +2880,6 @@ msgstr ""
 
 #~ msgid "Verify your email to finish your Firefox Account sign-in"
 #~ msgstr "أكّد بريدك الإلكتروني لتسجيل الدخول بحساب فَيَرفُكس الخاص بك"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "أكّد تسجيل الدخول"
 
 #~ msgid "(current)"
 #~ msgstr "(الحالي)"

@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-02-01 17:55+0000\n"
-"Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
+"POT-Creation-Date: 2021-06-24 22:07+0000\n"
+"PO-Revision-Date: 2021-06-17 23:19+0000\n"
+"Last-Translator: Đorđe Vasiljević <djordje.vasiljevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr_Latn\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgstr "Lozinka je uspešno resetovana. Prijavite se da biste nastavili."
 #: .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:5
 msgid "Sign in"
-msgstr "Prijavi se"
+msgstr "Prijavi me"
 
 #: .es5/views/index.js:172
 msgid "Account deleted successfully"
-msgstr "Nalog uspešno obrisan"
+msgstr "Nalog je uspešno izbrisan"
 
 #: .es5/views/inline_totp_setup.js:155
 msgid ""
@@ -47,23 +47,23 @@ msgstr ""
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (neophodno)"
+msgstr "%(permissionName)s (obavezno)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Adresa e-pošte"
+msgstr "Imejl-adresa"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
-msgstr "Prikaži ime"
+msgstr "Ime za prikaz"
 
 #: .es5/views/permissions.js:52
 msgid "Account picture"
-msgstr "Slika naloga"
+msgstr "Profilna slika"
 
 #: .es5/views/ready.js:56
 msgid "Welcome back"
-msgstr "Dobrodošli nazad"
+msgstr "Dobro došli nazad"
 
 #: .es5/views/ready.js:57
 msgid "Firefox Sync will resume momentarily"
@@ -71,7 +71,7 @@ msgstr "Firefox Sync će odmah nastaviti"
 
 #: .es5/views/ready.js:61 .es5/views/ready.js:66
 msgid "Your password has been reset"
-msgstr "Vaša lozinka je resetovana"
+msgstr "Lozinka je resetovana"
 
 #: .es5/views/ready.js:62 .es5/views/ready.js:67
 msgid ""
@@ -86,7 +86,7 @@ msgstr "Sada ste spremni za pravljenje izmena u vašem Firefox nalogu."
 
 #: .es5/views/ready.js:72
 msgid "Primary email verified"
-msgstr "Primarana adresa e-pošte je potvrđena"
+msgstr "Primarna imejl-adresa je potvrđena"
 
 #: .es5/views/ready.js:75
 msgid ""
@@ -96,11 +96,12 @@ msgstr ""
 
 #: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr "Sekundarna adresa e-pošte je potvrđena"
+msgstr "Sekundarna imejl-adresa je potvrđena"
 
 #: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr "Prijava potvrđena"
+msgstr "Prijava je potvrđena"
 
 #: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93
 #: .es5/templates/ready.mustache:4 .es5/templates/ready.mustache:10
@@ -186,7 +187,7 @@ msgstr "nikad"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr "Poslednji put provereno: %(lastCheckTime)s"
+msgstr "Poslednja provera: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -210,7 +211,7 @@ msgstr "Otvori Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Sakrij lozinku"
 
 #: .es5/views/mixins/password-mixin.js:169
 #: .es5/templates/partial/show-password.mustache:1
@@ -264,11 +265,11 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "problemi sa nalogom"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "tehnički problemi"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -276,11 +277,11 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "nije na listi"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr "Zabeleške"
+msgstr "Obeleživači"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
@@ -300,7 +301,7 @@ msgstr "Otvorite jezičke"
 
 #: .es5/models/sync-engines.js:78
 msgid "Preferences"
-msgstr "Postavke"
+msgstr "Podešavanja"
 
 #: .es5/models/sync-engines.js:86
 msgid "Addresses"
@@ -316,11 +317,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Primarana adresa e-pošte je potvrđena uspešno"
+msgstr "Primarna imejl-adresa je potvrđena"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Sekundarna adresa e-pošte je potvrđena uspešno"
+msgstr "Sekundarna imejl-adresa je potvrđena"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -384,7 +385,7 @@ msgstr "Nepotvrđen nalog"
 
 #: .es5/lib/auth-errors.js:72
 msgid "Invalid verification code"
-msgstr "Nevažeći kod za potvrdu"
+msgstr "Nevažeći verifikacioni kôd"
 
 #: .es5/lib/auth-errors.js:76
 msgid "Invalid JSON in request body"
@@ -923,7 +924,7 @@ msgstr "%(country)s (procenjeno)"
 msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
-#: .es5/lib/strings.js:39
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid ""
 "For added security, please confirm this sign-in to begin syncing with this "
 "device:"
@@ -1641,6 +1642,7 @@ msgstr ""
 #: .es5/templates/sign_in_token_code.mustache:2
 #: .es5/templates/sign_in_unblock.mustache:1
 #: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Ovlasti ovo prijavljivanje"
 
@@ -1869,6 +1871,48 @@ msgstr "Unesite vašu lozinku da vidite ključ za oporavak."
 msgid "Enter Password"
 msgstr "Unesite lozinku"
 
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Uspešno povezano"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Potvrdi prijavu"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
+
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1953,7 +1997,7 @@ msgstr "Pretplatite se za %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr "Uređaj je povezan!"
+msgstr "Uređaj je povezan"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
@@ -2221,10 +2265,6 @@ msgstr "Odobrite uređaj"
 #: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Uređaj je povezan"
-
-#: .es5/templates/pair/auth_complete.mustache:2
-msgid "Successfully connected"
-msgstr "Uspešno povezano"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -3773,9 +3813,6 @@ msgstr ""
 
 #~ msgid "Verify your email to finish your Firefox Account sign-in"
 #~ msgstr "Potvrdite vašu e-poštu da završite prijavu na Firefox nalog"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "Potvrdi prijavu"
 
 #~ msgid "(current)"
 #~ msgstr "(trenutni)"
