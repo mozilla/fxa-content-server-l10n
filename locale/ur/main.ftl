@@ -73,6 +73,7 @@ payment-zip =
 payment-cancel-btn = منسوخ کریں
 payment-update-btn = اپڈیٹ
 payment-pay-btn = ابھی ادا کریں
+payment-pay-with-paypal-btn = { -brand-name-paypal } کے ساتھ ادائیگی کریں
 
 ## subscription redirect
 

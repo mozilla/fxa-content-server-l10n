@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2020-12-21 08:35+0000\n"
-"Last-Translator: Shazia Mansoor <shaz_dvm@yahoo.com>\n"
+"PO-Revision-Date: 2021-06-24 10:11+0000\n"
+"Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -701,7 +701,7 @@ msgstr "اکاؤنٹ بندوبست کریں:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
@@ -1184,8 +1184,7 @@ msgstr "تازہ ترین ڈاؤن لوڈ کریں"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
