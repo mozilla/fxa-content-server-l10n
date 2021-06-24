@@ -28,6 +28,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox اکاؤنٹ
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -60,6 +61,8 @@ avatar-your-avatar =
 
 # BentoMenu component
 
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-firefox-desktop = { -brand-firefox } براؤزر برائے ڈیسک ٹاپ
 bento-menu-firefox-mobile = { -brand-firefox } موبائل کے لئے  راؤزر
 
 ## Connect another device promo
@@ -116,6 +119,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } مینو
 
 ## Flow Container
 
