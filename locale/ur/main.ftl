@@ -8,6 +8,8 @@
 project-brand = Firefox اکاؤنٹس
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox اکاؤنٹس
 
@@ -18,6 +20,9 @@ close-aria =
 
 ## app error dialog
 
+general-error-heading = عمومی ایپلیکیشن کی خرابی
+basic-error-message = کچھ غلط ہو گیا. براہ مہربانی کچھ دیر بعد کوشش کریں.
+payment-error-retry-button = دوبارہ کوشش کریں
 
 ## settings
 
@@ -28,7 +33,7 @@ settings-subscriptions-title = رکنیت
 terms = خدمت کی شرائط
 privacy = رازداری کا نوٹس
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -37,6 +42,13 @@ privacy = رازداری کا نوٹس
 
 ## Product route
 
+product-plan-error =
+    .title = منصوبہ لوڈ کرنے میں مسلہ ہے
+product-profile-error =
+    .title = پروفائل لوڈ کرنے میں مسلہ ہے
+product-customer-error =
+    .title = صارف کو لوڈ کرنے میں مسئلہ ہے
+product-plan-not-found = منصوبہ نہیں ملا
 product-no-such-plan = اس مصنوعہ  کے لئے ایسا کوئی منصوبہ نہیں ہے۔
 
 ## payment legal blurb
@@ -127,10 +139,12 @@ plan-details-show-button = &تفصیلات دکھائیں
 plan-details-hide-button = تفصیلات چھپائیں
 plan-details-total-label = کل
 
+## payment-processing
+
+
 ## payment confirmation
 
 payment-confirmation-mobile-alert = ایپ نہیں کھلی؟ <a> یہاں کلک کریں </a>
-payment-confirmation-heading-bak = شکریہ!
 payment-confirmation-details-heading = ادائیگی کی تفصیلات
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
