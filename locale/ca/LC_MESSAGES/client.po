@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-03-23 20:42+0000\n"
+"PO-Revision-Date: 2021-06-25 10:17+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -179,7 +179,7 @@ msgstr "Obre Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Amaga la contrasenya"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -223,15 +223,15 @@ msgstr "El compte s'ha verificat correctament"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "pagament i facturació"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "problemes amb el compte"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "problemes tècnics"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -839,9 +839,7 @@ msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -911,8 +909,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -2385,12 +2382,10 @@ msgstr ""
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Ja teniu un compte? Inicieu la sessió"
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avís de privadesa</a> "
-#~ "dels serveis en el núvol del Firefox."
+#~ "En continuar, accepto les <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">condicions del servei</a> i l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avís de privadesa</a> dels "
+#~ "serveis en el núvol del Firefox."
 
 #~ msgid "Password changed"
 #~ msgstr "Contrasenya canviada."
