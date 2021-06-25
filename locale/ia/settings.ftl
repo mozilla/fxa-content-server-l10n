@@ -85,11 +85,9 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
-cs-heading = Servicios connexe
-cs-description = Toto illos que tu usa e cuje tu es connexe.
-cs-cannot-refresh =
-    Desolate, il habeva un problema a refrescar le lista de servicios
-    connexe.
+cs-heading = Servicios connectite
+cs-description = Tote le servicios que tu usa e in le quales tu ha aperite session.
+cs-cannot-refresh = Desolate, occurreva un problema durante le actualisation del lista de servicios connectite.
 cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -97,7 +95,7 @@ cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Disconnexe de { $servicio }.
 cs-refresh-button =
-    .title = Actualisar le servicios connexe
+    .title = Actualisar le servicios connectite
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos mancante o duplicate?
 cs-disconnect-sync-heading = Disconnecter se de Sync
@@ -213,7 +211,7 @@ msv-submit-button = Verificar
 nav-settings = Parametros
 nav-profile = Profilo
 nav-security = Securitate
-nav-connected-services = Servicios connexe
+nav-connected-services = Servicios connectite
 nav-paid-subs = Subscriptiones pagate
 nav-email-comm = Communicationes email
 
@@ -244,11 +242,11 @@ avatar-page-cancel-button = Cancellar
 avatar-page-save-button = Salvar
 avatar-page-saving-button = Salvamento…
 avatar-page-zoom-out-button =
-  .title = Distantiar
+    .title = Distantiar
 avatar-page-zoom-in-button =
-  .title = Approximar
+    .title = Approximar
 avatar-page-rotate-button =
-  .title = Rotar
+    .title = Rotar
 avatar-page-camera-error = Impossibile initialisar le camera
 avatar-page-new-avatar =
     .alt = nove imagine del profilo
