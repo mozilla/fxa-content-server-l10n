@@ -93,7 +93,7 @@ cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Disconnexe de { $servicio }.
+cs-logged-out = Session de { $servicio } claudite.
 cs-refresh-button =
     .title = Actualisar le servicios connectite
 # Link text to a support page on missing or duplicate devices
@@ -124,18 +124,14 @@ cs-disconnect-sync-opt-not-say = Prefere non dicer
 ##
 
 cs-disconnect-advice-confirm = Ok, io comprende
-cs-disconnect-lost-advice-heading = Apparato perdite o robate disconnexe
+cs-disconnect-lost-advice-heading = Apparato perdite o robate disconnectite
 cs-disconnect-lost-advice-content-2 =
     Pois que tu dispositivo ha essite perdite o robate, pro
     mantener tu informationes secur, tu debe cambiar contrasigno de tu { -product-firefox-account }
     in le parametros de tu conto. Tu debe alsi cercar informationes ex le
     fabricante de tu dispositivo re cancellar tu datos a distantia.
-cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnexe
-cs-disconnect-suspicious-advice-content =
-    Si le apparato disconnexe es in effecto
-    suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de
-    { -product-firefox-account } in tu parametros de conto. Tu debe alsi cambiar ulle altere
-    contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
+cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
+cs-disconnect-suspicious-advice-content = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-firefox-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
 
 ##
@@ -156,7 +152,7 @@ drop-down-menu-title = Menu { -product-firefox-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Connexe como</signin> <user>{ $user }</user>
+drop-down-menu-signed-in-as = <signin>In session como</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Clauder session
 drop-down-menu-sign-out-error = Desolate, problema durante tu disconnexion
 
