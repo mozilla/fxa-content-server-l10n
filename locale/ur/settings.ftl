@@ -151,6 +151,7 @@ header-help = مدد
 
 ## Modal Verify Session
 
+mvs-enter-verification-code = اپنا توثیقی کوڈ داخل کریں
 
 ## Settings Nav
 
