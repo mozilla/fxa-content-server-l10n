@@ -150,9 +150,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } 메뉴
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>로그인 됨</signin>
+drop-down-menu-sign-out = 로그아웃
+drop-down-menu-sign-out-error = 로그아웃 중 문제가 발생했습니다.
 
 ## Flow Container
 
+flow-container-back = 이전
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -175,12 +183,20 @@ header-help = 도움말
 
 ## Input Password
 
+input-password-hide = 비밀번호 숨기기
+input-password-show = 비밀번호 표시
+input-password-hide-aria = 화면에서 비밀번호 숨기기
+input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 비밀번호가 화면에 표시됩니다.
 
 ## Modal
 
+modal-close-title = 닫기
+modal-cancel-button = 취소
 
 ## Modal Verify Session
 
+mvs-verify-your-email = 이메일 확인
+mvs-enter-verification-code = 인증 코드를 입력하세요
 
 ## Settings Nav
 
