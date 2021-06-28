@@ -329,12 +329,26 @@ recovery-key-success-alert = 복구 키가 생성되었습니다.
 
 ## Add secondary email page
 
+add-secondary-email-error = 이메일을 생성하는 데 문제가 발생했습니다.
+add-secondary-email-page-title =
+    .title = 보조 이메일
+add-secondary-email-enter-address =
+    .label = 이메일 주소 입력
+add-secondary-email-cancel-button = 취소
+add-secondary-email-save-button = 저장
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-error = 인증 코드를 보내는 데 문제가 발생했습니다.
+verify-secondary-email-page-title =
+    .title = 보조 이메일
+verify-secondary-email-verification-code =
+    .label = 인증 코드를 입력하세요
+verify-secondary-email-cancel-button = 취소
+verify-secondary-email-verify-button = 확인
 
 ##
 
