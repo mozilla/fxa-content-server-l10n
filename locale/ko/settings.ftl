@@ -197,6 +197,12 @@ modal-cancel-button = 취소
 
 mvs-verify-your-email = 이메일 확인
 mvs-enter-verification-code = 인증 코드를 입력하세요
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = 5분 이내에 <email>{ $email }</email>로 전송된 인증 코드를 입력하세요.
+msv-cancel-button = 취소
+msv-submit-button = 확인
 
 ## Settings Nav
 
@@ -209,9 +215,30 @@ nav-email-comm = 이메일 커뮤니케이션
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = 복원 코드를 대체하는 데 문제가 발생했습니다.
+tfa-replace-code-success =
+    새 코드가 생성됐습니다. 한번 만 사용할 수 있으니
+    안전한 곳에 저장하세요. — 모바일 기기 없이 계정에
+    접근하려면 이 코드가 필요합니다.
+tfa-replace-code-success-alert = 계정 복구 코드가 업데이트되었습니다.
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = 프로필 사진
+avatar-page-add-photo = 사진 추가
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = 사진 찍기
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = 사진 삭제
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = 사진 다시 찍기
+avatar-page-cancel-button = 취소
+avatar-page-save-button = 저장
+avatar-page-saving-button = 저장 중...
 
 ##
 
