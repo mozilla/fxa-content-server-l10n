@@ -319,6 +319,13 @@ display-name-success-alert = 표시 이름이 업데이트 되었습니다.
 recovery-key-cancel-button = 취소
 recovery-key-close-button = 닫기
 recovery-key-continue-button = 계속
+recovery-key-enter-password =
+    .label = 암호 입력
+recovery-key-page-title =
+    .title = 복구 키
+recovery-key-step-1 = 1/2 단계
+recovery-key-step-2 = 2/2 단계
+recovery-key-success-alert = 복구 키가 생성되었습니다.
 
 ## Add secondary email page
 
