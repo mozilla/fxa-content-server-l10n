@@ -256,24 +256,69 @@ pw-change-header =
 pw-change-stay-safe = 안전하게 보호하세요 — 암호를 재사용하지 마세요. 비밀번호:
 pw-change-least-8-chars = 최소 8글자 이상이어야 합니다
 pw-change-not-contain-email = 이메일 주소가 아니어야 합니다
+pw-change-must-match = 새 비밀번호가 확인과 일치합니다.
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    <linkExternal>흔한 비밀번호 목록</linkExternal>과
+    일치하지 않아야 합니다.
+pw-change-cancel-button = 취소
+pw-change-save-button = 저장
+pw-change-forgot-password-link = 비밀번호를 잊으셨나요?
+pw-change-current-password =
+    .label = 현재 비밀번호 입력
+pw-change-new-password =
+    .label = 새 비밀번호 입력
+pw-change-confirm-password =
+    .label = 새 비밀번호 확인
+pw-change-success-alert = 비밀번호 수정 완료
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = 계정 삭제
+delete-account-step-1-2 = 1/2 단계
+delete-account-step-2-2 = 2/2 단계
+delete-account-confirm-title-2 = 웹에서 안전함과 생산성을 유지할 수 있도록 { -product-firefox-account }를 { -brand-mozilla } 제품에 연결했습니다:
+delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
+delete-account-chk-box-1 =
+    .label = 모든 유료 구독이 취소됩니다.
+delete-account-chk-box-2 =
+    .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
+delete-account-chk-box-3 =
+    .label = 이 메일을 재활성화하면 저장된 정보를 복원하지 못할 수 있습니다.
+delete-account-chk-box-4 =
+    .label = addons.mozilla.org에 게시한 모든 확장기능과 테마는 삭제됩니다.
+delete-account-continue-button = 계속하기
+delete-account-password-input =
+    .label = 비밀번호 입력
+delete-account-cancel-button = 취소
+delete-account-delete-button-2 = 삭제
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = 표시 이름
+display-name-input =
+    .label = 표시 이름 입력
+submit-display-name = 저장
+cancel-display-name = 취소
+display-name-update-error = 표시 이름을 업데이트하는 데 문제가 발생했습니다.
+display-name-success-alert = 표시 이름이 업데이트 되었습니다.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = 취소
+recovery-key-close-button = 닫기
+recovery-key-continue-button = 계속
 
 ## Add secondary email page
 
