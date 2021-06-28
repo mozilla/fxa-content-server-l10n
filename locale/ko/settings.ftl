@@ -239,12 +239,23 @@ avatar-page-retake-photo = 사진 다시 찍기
 avatar-page-cancel-button = 취소
 avatar-page-save-button = 저장
 avatar-page-saving-button = 저장 중...
+avatar-page-camera-error = 카메라를 초기화할 수 없습니다.
+avatar-page-new-avatar =
+    .alt = 새 프로필 사진
+avatar-page-file-upload-error-2 = 프로필 사진을 업로드하는 데 문제가 발생했습니다.
+avatar-page-delete-error-2 = 프로필 사진을 삭제하는 데 문제가 발생했습니다.
+avatar-page-image-too-large-error = 이미지 파일이 너무 커서 업로드할 수 없습니다.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = 암호 변경
+pw-change-stay-safe = 안전하게 보호하세요 — 암호를 재사용하지 마세요. 비밀번호:
+pw-change-least-8-chars = 최소 8글자 이상이어야 합니다
+pw-change-not-contain-email = 이메일 주소가 아니어야 합니다
 
 ##
 
