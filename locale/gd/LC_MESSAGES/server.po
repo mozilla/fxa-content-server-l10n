@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-30 15:41+0000\n"
+"PO-Revision-Date: 2021-06-30 15:45+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gd\n"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Mòran taing airson fo-sgrìobhadh fhaighinn!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -507,7 +507,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Mòran taing airson ùrachadh!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
@@ -645,7 +645,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "An tusa a tha a’ clàradh leinn?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
@@ -673,7 +673,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -709,7 +709,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "Cairt %(cardType)s a chrìochnaicheas ann an %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -741,11 +741,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Cuir crìoch air an fho-sgrìobhadh"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Cuir crìoch air na fo-sgrìobhaidhean"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -753,11 +753,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Legal"
-msgstr ""
+msgstr "Nòtaichean laghail"
 
 #: lib/senders/templates/layouts/subscription.html:11
 msgid "Privacy"
-msgstr ""
+msgstr "Prìobhaideachd"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -769,11 +769,11 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Cuir crìoch air an fho-sgrìobhadh:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Cuir crìoch air na fo-sgrìobhaidhean:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -805,7 +805,7 @@ msgstr "%(country)s (tuairmeas)"
 
 #: lib/senders/email.js:562
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Cuir crìoch air cruthachadh a’ chunntais agad"
 
 #: lib/senders/email.js:563 lib/senders/email.js:700
 msgid "Confirm email"
@@ -813,7 +813,7 @@ msgstr "Dearbh am post-d"
 
 #: lib/senders/email.js:630
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Còd dearbhaidh: %(code)s"
 
 #: lib/senders/email.js:680
 msgid "Reminder: Finish creating your account"
@@ -837,15 +837,15 @@ msgstr ""
 
 #: lib/senders/email.js:928
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Dearbh am prìomh phost-d"
 
 #: lib/senders/email.js:929 lib/senders/email.js:992 lib/senders/email.js:1064
 msgid "Verify email"
-msgstr ""
+msgstr "Dearbh am post-d"
 
 #: lib/senders/email.js:991 lib/senders/email.js:1063
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Dearbh am post-d eile"
 
 #: lib/senders/email.js:1123
 msgid "Reset your password"
