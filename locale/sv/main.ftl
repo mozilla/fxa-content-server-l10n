@@ -172,8 +172,8 @@ input-error-is-required = { $label } krävs
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Granska din uppgradering
-sub-update-failed = Planuppdatering misslyckades
+product-plan-change-heading = Granska din ändring
+sub-change-failed = Planändring misslyckades
 sub-update-payment-title = Betalningsinformation
 sub-update-card-exp = Förfaller { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Bekräfta uppgraderingen
-sub-update-indicator =
-    .aria-label = uppgraderingsindikator
+sub-change-submit = Bekräfta ändring
+sub-change-indicator =
+    .aria-label = ändringsindikator
 sub-update-current-plan-label = Nuvarande plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny summa
