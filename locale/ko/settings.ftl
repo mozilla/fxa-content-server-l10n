@@ -352,9 +352,33 @@ verify-secondary-email-verify-button = 확인
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = 계정 삭제
 
 ## Two Step Authentication
 
+tfa-title = 2단계 인증
+tfa-step-1-3 = 1/3 단계
+tfa-step-2-3 = 2/3 단계
+tfa-step-3-3 = 3/3 단계
+tfa-button-continue = 계속
+tfa-button-cancel = 취소
+tfa-button-finish = 완료
+tfa-incorrect-totp = 잘못된 2단계 인증 코드
+tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
+tfa-cannot-verify-code = 복원 코드를 확인하는 중 문제가 발생했습니다.
+tfa-incorrect-recovery-code = 잘못된 복원 코드
+tfa-enabled = 2단계 인증 활성화됨
+tfa-scan-this-code =
+    <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
+    QR 코드를 스캔하세요.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    지원되는 어플리케이션에서 2단계 인증을 설정하기 위해 { $secret } 코드를
+    사용하세요.
+tfa-button-cant-scan-qr = 코드를 스캔할 수 없습니까?
 
 ##
 
