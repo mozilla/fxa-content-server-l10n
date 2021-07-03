@@ -315,7 +315,7 @@ nav-email-comm = E-mailová komunikace
 
 tfa-replace-code-error = Vaše obnovovací kódy se nepodařilo vyměnit.
 tfa-replace-code-success =
-    Nové kódy byly vytvořeni. Uložte si prosím tyto jednorázové
+    Nové kódy byly vytvořeny. Uložte si prosím tyto jednorázové
     kódy na bezpečném místě. Budete je potřebovat pro přístup ke svému účtu
     v případě, že u sebe nebudete mít své mobilní zařízení.
 tfa-replace-code-success-alert = Obnovovací kódy k vašemu účtu byly aktualizovány.
