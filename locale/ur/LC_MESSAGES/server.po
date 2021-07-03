@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-06-24 10:11+0000\n"
+"PO-Revision-Date: 2021-07-03 06:07+0000\n"
 "Last-Translator: عمر <um.qshi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ur\n"
@@ -954,7 +954,7 @@ msgstr "%(productName)s میں خوش آمدید"
 
 #: lib/senders/email.js:2671
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "%(productName)s ڈاؤن لوڈ کریں"
 
 #: lib/senders/email.js:2697
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"

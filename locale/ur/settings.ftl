@@ -120,6 +120,7 @@ datablock-print =
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } مینو
+drop-down-menu-sign-out = سائن آؤٹ کریں
 
 ## Flow Container
 

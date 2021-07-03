@@ -23,6 +23,7 @@ close-aria =
 general-error-heading = عمومی ایپلیکیشن کی خرابی
 basic-error-message = کچھ غلط ہو گیا. براہ مہربانی کچھ دیر بعد کوشش کریں.
 payment-error-retry-button = دوبارہ کوشش کریں
+payment-error-manage-subscription-button = میری رکنیت منظم کریں
 
 ## settings
 
