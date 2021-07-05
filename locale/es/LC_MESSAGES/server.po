@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-17 22:07+0000\n"
-"PO-Revision-Date: 2021-07-05 19:45+0000\n"
+"PO-Revision-Date: 2021-07-05 19:50+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "¡Último recordatorio para sincronizar dispositivos!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
@@ -293,7 +293,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
 msgid "Next sync between your devices!"
-msgstr ""
+msgstr "¡Ahora sincroniza entre tus dispositivos!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
@@ -348,7 +348,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr ""
+msgstr "Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -358,7 +358,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "Has cambiado exitosamente de %(productNameOld)s a %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -377,7 +377,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Gracias por suscribirte a %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
@@ -385,25 +385,25 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2
 msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr ""
+msgstr "Recibirás un correo electrónico aparte con instrucciones de descarga sobre cómo empezar a usar %(productName)s."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Número de factura: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionSubsequentInvoice.html:5
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Se cobró %(invoiceTotal)s el %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Próxima facturación: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Número de factura: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -422,15 +422,15 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Lo sentimos, estamos teniendo problemas con tu pago"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
-msgstr ""
+msgstr "Tuvimos un problema con tu último pago para %(productName)s."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
@@ -510,11 +510,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
-msgstr ""
+msgstr "Recibimos el último pago por %(productName)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "¡Gracias por la actualización!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
@@ -536,7 +536,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "¿Tienes preguntas acerca de tus suscripciones? Nuestro equipo de soporte está aquí para ayudarte:"
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
@@ -672,11 +672,11 @@ msgstr "Una vez confirmado, te ayudaremos a instalar y conectar Firefox al menos
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "O, instálalo en <a %(desktopLinkAttributes)s>otro dispositivo de escritorio</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "O, instálalo en <a %(cadLinkAttributes)s>otro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -716,7 +716,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "Tarjeta %(cardType)s terminada en %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
@@ -736,7 +736,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Administra la configuración de tu cuenta de Firefox visitando tu <a %(accountSettingsLinkAttributes)s>página de la cuenta</a>."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Terms and cancellation policy"
@@ -744,7 +744,7 @@ msgstr "Términos y política de cancelación"
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Reactivar suscripción"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
@@ -752,7 +752,7 @@ msgstr "Cancelar la suscripción"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Cancelar suscripciones"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Update billing information"
@@ -780,7 +780,7 @@ msgstr "Cancelar la suscripción:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Cancelar suscripciones:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
@@ -941,11 +941,11 @@ msgstr ""
 
 #: lib/senders/email.js:2235 lib/senders/email.js:2300
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Tu suscripción a %(productName)s ha sido cancelada"
 
 #: lib/senders/email.js:2372
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Suscripción a %(productName)s reactivada"
 
 #: lib/senders/email.js:2428
 msgid "%(productName)s automatic renewal notice"
@@ -953,15 +953,15 @@ msgstr ""
 
 #: lib/senders/email.js:2507
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Pago recibido para %(productName)s"
 
 #: lib/senders/email.js:2597
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Pago confirmado para %(productName)s"
 
 #: lib/senders/email.js:2670
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Te damos la bienvenida a %(productName)s"
 
 #: lib/senders/email.js:2671
 msgid "Download %(productName)s"
@@ -977,7 +977,7 @@ msgstr ""
 
 #: lib/senders/email.js:2712
 msgid "Sync another device"
-msgstr ""
+msgstr "Sincronizar otro dispositivo"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -993,6 +993,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"La página que solicitaste no se encontró. Hemos sido notificados y\n"
+"          arreglaremos cualquier enlace que pueda estar roto."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
