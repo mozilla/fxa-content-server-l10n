@@ -350,6 +350,14 @@ verify-secondary-email-verification-code =
     .label = 인증 코드를 입력하세요
 verify-secondary-email-cancel-button = 취소
 verify-secondary-email-verify-button = 확인
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = <strong>{ $email }</strong>로 발송된 인증 코드를 5분 안에 입력하세요.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email }이 성공적으로 추가되었습니다.
 
 ##
 
@@ -380,33 +388,119 @@ tfa-qa-code-alt =
     지원되는 어플리케이션에서 2단계 인증을 설정하기 위해 { $secret } 코드를
     사용하세요.
 tfa-button-cant-scan-qr = 코드를 스캔할 수 없습니까?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = 이 비밀 키를 인증 앱에 입력하세요:
+tfa-enter-totp = 이제 인증 앱에서 비밀 코드를 입력하세요.
+tfa-input-enter-totp =
+    .label = 비밀 코드 입력
+tfa-save-these-codes =
+    모바일 기기가 없을 때를 대비해
+    이 일회용 코드를 안전한 곳에 저장하세요.
+tfa-enter-code-to-confirm =
+    복구 코드 중 하나를 입력하여
+    코드를 저장했음을 확인하여 주십시오. 기기를 분실했을 때 계정에 접근하기 위해
+    필요합니다.
+tfa-enter-recovery-code =
+    .label = 복구 코드를 입력하세요
 
 ##
 
 
 ## Profile section
 
+profile-heading = 프로필
+profile-picture =
+    .header = 사진
+profile-display-name =
+    .header = 표시 이름
+profile-password =
+    .header = 비밀번호
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = { $date }에 생성됨
+profile-primary-email =
+    .header = 기본 메일
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = 보안
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = 추가
+row-defaults-action-change = 변경
+row-defaults-action-disable = 비활성화
+row-defaults-status = 없음
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = 복구 키
+rk-enabled = 활성화됨
+rk-not-set = 설정되지 않음
+rk-action-create = 생성
+rk-action-remove = 제거
+rk-cannot-refresh = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
+rk-key-removed = 계정 복구 키가 삭제되었습니다.
+rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
+rk-refresh-key = 복구 키 새로고침
+rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원하십시오.
+rk-content-reset-data = 비밀번호 재설정시 데이터가 재설정되는 이유는 무엇입니까?
+rk-cannot-verify-session-2 = 세션을 확인하는 중 오류가 발생했습니다.
+rk-remove-modal-heading = 복구 키를 제거하시겠습니까?
+rk-remove-modal-content =
+    비밀번호를 재설정하면
+    복구 키로 데이터에 접근하는 것이 불가능해집니다. 이 작업은 취소할 수 없습니다.
+rk-refresh-error = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
+rk-remove-error = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = 보조 메일
+    .header = 보조 메일
+se-cannot-refresh-email = 이메일을 새로고침하는 중에 문제가 발생했습니다.
+se-cannot-resend-code = 확인 코드를 재전송하는 중에 문제가 발생했습니다.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email }이 이제 기본 이메일입니다.
+se-set-primary-error = 죄송합니다. 기본 메일을 변경하는 중에 문제가 발생했습니다.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } 메일이 성공적으로 삭제되었습니다.
+se-delete-email-error = 죄송합니다. 이메일을 삭제하는 중에 문제가 발생했습니다.
+se-verify-session = 이 작업을 수행하려면 현재 세션을 확인해야 합니다.
+# Button to remove the secondary email
+se-remove-email =
+    .title = 이메일 삭제
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = 이메일 새로고침
+se-unverified = 인증안됨
+# Button to make secondary email the primary
+se-make-primary = 주 이메일로 사용
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = 2단계 인증
+tfa-row-not-set = 설정 안됨
+tfa-row-action-add = 추가
+tfa-row-action-disable = 비활성화
+tfa-row-disable-modal-confirm = 비활성화
+tfa-row-change-modal-confirm = 변경
+tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = 알 수 없는 계정
+auth-error-103 = 잘못된 비밀번호
+auth-error-110 = 유효하지 않은 토큰
+auth-error-155 = TOTP 토큰 찾을 수 없음
+auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
