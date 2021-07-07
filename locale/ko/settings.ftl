@@ -319,6 +319,7 @@ display-name-success-alert = 표시 이름이 업데이트 되었습니다.
 recovery-key-cancel-button = 취소
 recovery-key-close-button = 닫기
 recovery-key-continue-button = 계속
+recovery-key-created = 복구 키가 생성되었습니다. 복구 키를 안전하고 찾기 쉬운 곳에 저장하십시오 — 암호를 잊어버린 경우 이 키를 통해 데이터에 다시 접근할 수 있습니다.
 recovery-key-enter-password =
     .label = 암호 입력
 recovery-key-page-title =
