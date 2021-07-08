@@ -98,6 +98,7 @@ drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconecta
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Verifică e-mailul
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
@@ -138,6 +139,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nu s-a putut inițializa camera
 avatar-page-new-avatar =
     .alt = poză de profil nouă
+avatar-page-file-upload-error-2 = A apărut o problemă la încărcarea fotografiei de profil.
+avatar-page-delete-error-2 = A apărut o problemă la ștergerea fotografiei de profil.
 
 ##
 
@@ -224,12 +227,18 @@ add-secondary-email-save-button = Salvează
 verify-secondary-email-error = A apărut o problemă la trimiterea codului de verificare.
 verify-secondary-email-page-title =
     .title = E-mail secundar
+verify-secondary-email-verification-code =
+    .label = Introdu-ți codul de verificare
 verify-secondary-email-cancel-button = Anulează
 verify-secondary-email-verify-button = Verifică
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } a fost adăugat cu succes.
 
 ##
 
@@ -270,6 +279,8 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
+profile-picture =
+    .header = Fotografie
 profile-display-name =
     .header = Nume afișat
 # This is a string that shows when the user's password was created.
@@ -284,6 +295,7 @@ profile-primary-email =
 
 ## Security section of Setting
 
+security-heading = Securitate
 
 ## Sub-section row Defaults
 
@@ -303,7 +315,10 @@ rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea chei
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = E-mail secundar
+    .header = E-mail secundar
 se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătarea acestui e-mail.
+se-cannot-resend-code = Ne pare rău, a apărut o problemă la retrimiterea codului de verificare.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -313,6 +328,8 @@ se-set-primary-error = Ne pare rău, a apărut o problemă la modificarea e-mail
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } a fost șters cu succes.
+se-verify-session = Va trebui să îți verifici sesiunea actuală pentru a efectua această acțiune.
+se-verify-session-error = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Reîmprospătează e-mailul
