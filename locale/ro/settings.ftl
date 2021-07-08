@@ -20,6 +20,23 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts =
+    { $capitalization ->
+       *[lower-indefinite-article] conturi Firefox
+        [lower-definite-article] conturile Firefox
+        [upper-indefinite-article] Conturi Firefox
+        [upper-definite-article] Conturile Firefox
+    }
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account =
+    { $capitalization ->
+       *[lower-indefinite-article] cont Firefox
+        [lower-definite-article] contul Firefox
+        [upper-indefinite-article] Cont Firefox
+        [upper-definite-article] Contul Firefox
+    }
 
 ##
 
@@ -95,14 +112,18 @@ drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconecta
 
 ## Modal
 
+modal-cancel-button = Anulează
 
 ## Modal Verify Session
 
 mvs-verify-your-email = Verifică e-mailul
+mvs-enter-verification-code = Introdu codul de verificare
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
 mvs-enter-verification-code-desc = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <email>{ $email }</email>.
+msv-cancel-button = Anulează
+msv-submit-button = Verifică
 
 ## Settings Nav
 
@@ -177,6 +198,7 @@ delete-account-header =
     .title = Șterge contul
 delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
+delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(capitalization: "lower-definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
 delete-account-chk-box-1 =
     .label = Orice abonamente cu plată pe care le ai vor fi anulate
 delete-account-continue-button = Continuă
@@ -204,6 +226,7 @@ display-name-success-alert = Numele afișat actualizat.
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Anulează
 recovery-key-continue-button = Continuă
 recovery-key-step-1 = Pasul 1 din 2
 recovery-key-step-2 = Pasul 2 din 2
@@ -228,7 +251,7 @@ verify-secondary-email-error = A apărut o problemă la trimiterea codului de ve
 verify-secondary-email-page-title =
     .title = E-mail secundar
 verify-secondary-email-verification-code =
-    .label = Introdu-ți codul de verificare
+    .label = Introdu codul de verificare
 verify-secondary-email-cancel-button = Anulează
 verify-secondary-email-verify-button = Verifică
 # This string is an instruction in a form.
@@ -255,6 +278,7 @@ tfa-button-continue = Continuă
 tfa-button-cancel = Anulează
 tfa-button-finish = Finalizează
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
+tfa-cannot-verify-code = A apărut o problemă la verificarea codului de recuperare.
 tfa-enabled = Autentificare în doi pași activată
 tfa-scan-this-code =
     Scanează acest cod QR folosind unul dintre <linkExternal>aceste
@@ -311,6 +335,7 @@ rk-cannot-refresh = Ne pare rău, a apărut o problemă la reîmprospătarea che
 rk-refresh-key = Reîmprospătează cheia de recuperare
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
 rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
+rk-cannot-verify-session-2 = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
 
 ## Secondary email sub-section on main Settings page
