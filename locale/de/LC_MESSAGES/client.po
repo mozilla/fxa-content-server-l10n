@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-07-08 22:07+0000\n"
 "PO-Revision-Date: 2021-05-07 03:55+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgstr "Kontobenachrichtigungen werden jetzt auch an %(secondaryEmailVerified)s 
 msgid "Secondary email verified"
 msgstr "Zweit-E-Mail-Adresse verifiziert"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6
+#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Anmeldung bestätigt"
 
@@ -868,7 +868,7 @@ msgstr "%(country)s (geschätzt)"
 msgid "IP address: %(ip)s"
 msgstr "IP-Adresse: %(ip)s"
 
-#: .es5/lib/strings.js:39
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Zur zusätzlichen Sicherheit bestätigen Sie bitte diese Anmeldung, bevor Sie mit diesem Gerät synchronisieren:"
 
@@ -1405,6 +1405,7 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Unser Team wurde benachrichtigt. Meldungen wie diese helfen uns bei der Abwehr von Eindringlingen."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Diese Anmeldung autorisieren"
 
@@ -1607,6 +1608,42 @@ msgstr "Geben Sie Ihr Passwort ein, um Ihren Wiederherstellungsschlüssel anzuse
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr "Passwort eingeben"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Verbinden erfolgreich"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Anmeldung bestätigen"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1898,10 +1935,6 @@ msgstr "Gerät freischalten"
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Gerät verbunden"
-
-#: .es5/templates/pair/auth_complete.mustache:2
-msgid "Successfully connected"
-msgstr "Verbinden erfolgreich"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
@@ -3228,9 +3261,6 @@ msgstr "Haben Sie die Systemkamera verwendet? Dann müssen Sie aus einer Firefox
 
 #~ msgid "Verify your email to finish your Firefox Account sign-in"
 #~ msgstr "Bestätigen Sie Ihre E-Mail-Adresse, um die Anmeldung mit Ihrem Firefox-Konto abzuschließen."
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "Anmeldung bestätigen"
 
 #~ msgid "(current)"
 #~ msgstr "(aktuell)"

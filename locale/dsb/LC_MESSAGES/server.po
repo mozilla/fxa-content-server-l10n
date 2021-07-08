@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-07-08 22:07+0000\n"
 "PO-Revision-Date: 2021-06-09 15:03+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481614.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2707
 msgid "Here's your reminder to sync devices."
 msgstr "How jo wašo dopomnjeśe na sychronizoěrwanje rědow."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2711
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z Firefox waše cytańske znamjenja, gronidła a druge daty Firefox jadnake źaržy, źožkuli Firefox wužywaśo."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2708
 msgid "Last reminder to sync devices!"
 msgstr "Slědne dopomnjeśe na synchronizěrowanje rědow!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2714
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Priwatna synchronizacija drugego rěda z Firefox waše cytańske znamjenja, gronidła a druge daty Firefox jadnake źaržy, źožkuli Firefox wužywaśo."
 
@@ -945,47 +945,47 @@ msgstr "Aktualizěrowanje płaśeńskich informacijow jo za %(productName)s trje
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Aktualizěrowanje płaśeńskich informacijow jo za abonementy Mozilla trjebne"
 
-#: lib/senders/email.js:2184
+#: lib/senders/email.js:2190
 msgid "%(productName)s payment failed"
 msgstr "Płaśenje %(productName)s njejo se raźiło"
 
-#: lib/senders/email.js:2235 lib/senders/email.js:2300
+#: lib/senders/email.js:2241 lib/senders/email.js:2306
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Waš abonement %(productName)s jo se wótskazał"
 
-#: lib/senders/email.js:2372
+#: lib/senders/email.js:2378
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonement %(productName)s jo se zasej zaktiwěrował"
 
-#: lib/senders/email.js:2428
+#: lib/senders/email.js:2434
 msgid "%(productName)s automatic renewal notice"
 msgstr "Powěźeńka wó awtomatiskem pśedlejšenju %(productName)s"
 
-#: lib/senders/email.js:2507
+#: lib/senders/email.js:2513
 msgid "%(productName)s payment received"
 msgstr "Płaśenje %(productName)s dostane"
 
-#: lib/senders/email.js:2597
+#: lib/senders/email.js:2603
 msgid "%(productName)s payment confirmed"
 msgstr "Płaśenje %(productName)s wobkšuśone"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2676
 msgid "Welcome to %(productName)s"
 msgstr "Witajśo k %(productName)s"
 
-#: lib/senders/email.js:2671
+#: lib/senders/email.js:2677
 msgid "Download %(productName)s"
 msgstr "%(productName)s ześěgnuś"
 
-#: lib/senders/email.js:2697
+#: lib/senders/email.js:2703
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś"
 
-#: lib/senders/email.js:2698
+#: lib/senders/email.js:2704
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Slědne dopomnjeśe: Dokóńcćo konfiguracije synchronizacije"
 
-#: lib/senders/email.js:2712
+#: lib/senders/email.js:2718
 msgid "Sync another device"
 msgstr "Drugi rěd synchronizěrowaś"
 

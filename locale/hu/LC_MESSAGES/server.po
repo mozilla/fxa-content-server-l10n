@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-07-08 22:07+0000\n"
 "PO-Revision-Date: 2021-06-04 08:59+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1439195700.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2707
 msgid "Here's your reminder to sync devices."
 msgstr "Itt az emlékeztető, hogy szinkronizálja az eszközeit."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2711
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Kettőre van szükség a szinkronizáláshoz. Egy másik firefoxos eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb Firefox-adatokat mindenütt, ahol a Firefoxot "
 "használja."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2708
 msgid "Last reminder to sync devices!"
 msgstr "Utolsó emlékeztető az eszközök szinkronizálására!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2714
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Egy másik firefoxos eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb Firefox-adatokat mindenütt, ahol a Firefoxot használja."
 
@@ -951,47 +951,47 @@ msgstr "A fizetési információk frissítése szükséges a következőnél: %(
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "A fizetési információk frissítése szükséges a mozillás előfizetéseknél"
 
-#: lib/senders/email.js:2184
+#: lib/senders/email.js:2190
 msgid "%(productName)s payment failed"
 msgstr "A(z) %(productName)s befizetése sikertelen"
 
-#: lib/senders/email.js:2235 lib/senders/email.js:2300
+#: lib/senders/email.js:2241 lib/senders/email.js:2306
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Lemondta a(z) %(productName)s előfizetését"
 
-#: lib/senders/email.js:2372
+#: lib/senders/email.js:2378
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s-előfizetés újraaktiválva"
 
-#: lib/senders/email.js:2428
+#: lib/senders/email.js:2434
 msgid "%(productName)s automatic renewal notice"
 msgstr "%(productName)s automatikus megújítási értesítés"
 
-#: lib/senders/email.js:2507
+#: lib/senders/email.js:2513
 msgid "%(productName)s payment received"
 msgstr "A(z) %(productName)s befizetése megérkezett"
 
-#: lib/senders/email.js:2597
+#: lib/senders/email.js:2603
 msgid "%(productName)s payment confirmed"
 msgstr "A(z) %(productName)s befizetése megerősítve"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2676
 msgid "Welcome to %(productName)s"
 msgstr "Üdvözli a(z) %(productName)s"
 
-#: lib/senders/email.js:2671
+#: lib/senders/email.js:2677
 msgid "Download %(productName)s"
 msgstr "%(productName)s letöltése"
 
-#: lib/senders/email.js:2697
+#: lib/senders/email.js:2703
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását"
 
-#: lib/senders/email.js:2698
+#: lib/senders/email.js:2704
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Végső emlékeztető: Fejezze be a Sync beállítását"
 
-#: lib/senders/email.js:2712
+#: lib/senders/email.js:2718
 msgid "Sync another device"
 msgstr "Másik eszköz szinkronizálása"
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-07-08 22:07+0000\n"
 "PO-Revision-Date: 2021-06-20 22:00+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2707
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2711
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2708
 msgid "Last reminder to sync devices!"
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2714
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -925,47 +925,47 @@ msgstr ""
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr ""
 
-#: lib/senders/email.js:2184
+#: lib/senders/email.js:2190
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2235 lib/senders/email.js:2300
+#: lib/senders/email.js:2241 lib/senders/email.js:2306
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2372
+#: lib/senders/email.js:2378
 msgid "%(productName)s subscription reactivated"
 msgstr "Reactivóse la soscripción"
 
-#: lib/senders/email.js:2428
+#: lib/senders/email.js:2434
 msgid "%(productName)s automatic renewal notice"
 msgstr ""
 
-#: lib/senders/email.js:2507
+#: lib/senders/email.js:2513
 msgid "%(productName)s payment received"
 msgstr "Recibióse'l pagu de %(productName)s"
 
-#: lib/senders/email.js:2597
+#: lib/senders/email.js:2603
 msgid "%(productName)s payment confirmed"
 msgstr "Confirmóse'l pagu de %(productName)s"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2676
 msgid "Welcome to %(productName)s"
 msgstr "Afáyate en %(productName)s"
 
-#: lib/senders/email.js:2671
+#: lib/senders/email.js:2677
 msgid "Download %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2697
+#: lib/senders/email.js:2703
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2698
+#: lib/senders/email.js:2704
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2712
+#: lib/senders/email.js:2718
 msgid "Sync another device"
 msgstr ""
 
@@ -1122,7 +1122,8 @@ msgstr ""
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
+#~ msgstr ""
+#~ "Coneutesti con ésitu'l to primer preséu a la cuenta de Firefox. P'aprovechar al máximu Sync, coneuta <a href='%(androidUrl)s'>Firefox p'Android</a> o <a href='%(iosUrl)s'>Firefox pa iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Aniciar sesión en Sync"
@@ -1206,11 +1207,11 @@ msgstr ""
 #~ msgstr "Reaniciar contraseña"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier preséu "
-#~ "coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
+#~ "Hai dellos díes creasti una cuenta de Firefox pero enxamás nun la verifiquesti. Una cuenta verificada déxate acceder a les tos llingüetes, marcadores, contraseñes ya hisotria en cualesquier "
+#~ "preséu coneutáu con ello. Namái confirma esta direición p'activar la to cuenta."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Hai una selmana que creasti la to cuenta de Firefox pero enxamás nun la verifiquesti. Tábemos esmolecíos. Confirma esta direición de corréu p'activar la to cuenta y saber que tas bien."
@@ -1232,7 +1233,8 @@ msgstr ""
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de Firefox."
+#~ "¿Aniciesti sesión na to cuenta de Firefox dende cualesquiera de los allugamientos de darréu nos caberos 60 díes? Si nun los reconoces, daquién más quiciabes tenga accesu a la to cuenta de "
+#~ "Firefox."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Data y hora:"

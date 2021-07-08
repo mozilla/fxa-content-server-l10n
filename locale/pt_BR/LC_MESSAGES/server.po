@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-17 22:07+0000\n"
+"POT-Creation-Date: 2021-07-08 22:07+0000\n"
 "PO-Revision-Date: 2021-06-04 02:52+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1429366227.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2701
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2707
 msgid "Here's your reminder to sync devices."
 msgstr "Aqui está seu lembrete para sincronizar dispositivos."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2705
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2711
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Precisam dois para sincronizar. A sincronização com outro dispositivo mantém iguais, com privacidade, seus favoritos, senhas e outros dados do Firefox em todo lugar em que usar o Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2702
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2708
 msgid "Last reminder to sync devices!"
 msgstr "Último lembrete para sincronizar dispositivos!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2708
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2714
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Sincronizar com outro dispositivo mantém iguais, com privacidade, seus favoritos, senhas e outros dados do Firefox em todo lugar em que usar o Firefox."
 
@@ -944,47 +944,47 @@ msgstr "Necessário atualizar informações de pagamento de %(productName)s"
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Necessário atualizar informações de pagamento de assinaturas Mozilla"
 
-#: lib/senders/email.js:2184
+#: lib/senders/email.js:2190
 msgid "%(productName)s payment failed"
 msgstr "Falha no pagamento de %(productName)s"
 
-#: lib/senders/email.js:2235 lib/senders/email.js:2300
+#: lib/senders/email.js:2241 lib/senders/email.js:2306
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Sua assinatura de %(productName)s foi cancelada"
 
-#: lib/senders/email.js:2372
+#: lib/senders/email.js:2378
 msgid "%(productName)s subscription reactivated"
 msgstr "Assinatura do %(productName)s reativada"
 
-#: lib/senders/email.js:2428
+#: lib/senders/email.js:2434
 msgid "%(productName)s automatic renewal notice"
 msgstr "Aviso de renovação automática do %(productName)s"
 
-#: lib/senders/email.js:2507
+#: lib/senders/email.js:2513
 msgid "%(productName)s payment received"
 msgstr "Recebido pagamento de %(productName)s"
 
-#: lib/senders/email.js:2597
+#: lib/senders/email.js:2603
 msgid "%(productName)s payment confirmed"
 msgstr "Pagamento de %(productName)s confirmado"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2676
 msgid "Welcome to %(productName)s"
 msgstr "Boas-vindas ao %(productName)s"
 
-#: lib/senders/email.js:2671
+#: lib/senders/email.js:2677
 msgid "Download %(productName)s"
 msgstr "Baixar o %(productName)s"
 
-#: lib/senders/email.js:2697
+#: lib/senders/email.js:2703
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Seu lembrete amigável: Como concluir sua configuração de sincronização"
 
-#: lib/senders/email.js:2698
+#: lib/senders/email.js:2704
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Lembrete final: Conclua a configuração de sincronização"
 
-#: lib/senders/email.js:2712
+#: lib/senders/email.js:2718
 msgid "Sync another device"
 msgstr "Sincronizar outro dispositivo"
 
