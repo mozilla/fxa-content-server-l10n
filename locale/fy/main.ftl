@@ -172,8 +172,8 @@ input-error-is-required = { $label } is ferplicht
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Jo opwurdearring besjen
-sub-update-failed = Bywurkjen skema mislearre
+product-plan-change-heading = Jo wiziging besjen
+sub-change-failed = Abonnemintswiziging mislearre
 sub-update-payment-title = Betellingsgegevens
 sub-update-card-exp = Ferrint { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +210,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Opwurdearjen befêstigje
-sub-update-indicator =
-    .aria-label = opwurdear-yndikator
+sub-change-submit = Wiziging befêstigje
+sub-change-indicator =
+    .aria-label = wizigingsyndikator
 sub-update-current-plan-label = Aktuele skema
 sub-update-new-plan-label = Nij skema
 sub-update-total-label = Nij totaalbedrach
