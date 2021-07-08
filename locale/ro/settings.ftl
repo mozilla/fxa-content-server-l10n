@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Închide mesajul
 
 ## Firefox and Mozilla Brand
 ##
@@ -20,6 +21,8 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $capitalization ->
@@ -37,17 +40,24 @@
         [upper-indefinite-article] Cont Firefox
         [upper-definite-article] Contul Firefox
     }
+product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
+product-firefox-monitor = Firefox Monitor
 
 ##
 
+-google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts(capitalization: "upper-indefinite-article") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
+app-page-title = { $title } | { -product-firefox-accounts(capitalization: "upper-indefinite-article") }
+app-footer-mozilla-logo-label = Sigla { -brand-mozilla }
 
 ##
 
@@ -107,6 +117,7 @@ drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconecta
 
 # HeaderLockup component
 
+header-title = Cont Firefox
 
 ## Input Password
 
