@@ -60,6 +60,7 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 # BentoMenu component
 
+bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
 
 ## Connect another device promo
 
