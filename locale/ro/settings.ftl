@@ -294,6 +294,7 @@ row-defaults-action-change = Modifică
 rk-header = Cheie de recuperare
 rk-not-set = Nu este setată
 rk-action-create = Creează
+rk-action-remove = Elimină
 rk-cannot-refresh = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
 rk-refresh-key = Reîmprospătează cheia de recuperare
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
