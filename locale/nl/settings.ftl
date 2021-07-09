@@ -244,11 +244,11 @@ avatar-page-cancel-button = Annuleren
 avatar-page-save-button = Opslaan
 avatar-page-saving-button = Opslaan…
 avatar-page-zoom-out-button =
-  .title = Uitzoomen
+    .title = Uitzoomen
 avatar-page-zoom-in-button =
-  .title = Inzoomen
+    .title = Inzoomen
 avatar-page-rotate-button =
-  .title = Roteren
+    .title = Roteren
 avatar-page-camera-error = Kon camera niet initialiseren
 avatar-page-new-avatar =
     .alt = nieuwe profielafbeelding
@@ -537,6 +537,12 @@ tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 auth-error-102 = Onbekende account
 auth-error-103 = Onjuist wachtwoord
 auth-error-110 = Ongeldige token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = U hebt het te vaak geprobeerd. Probeer het over { $retryAfter } opnieuw.
 auth-error-138 = Niet-geverifieerde sessie
 auth-error-155 = TOTP-token niet gevonden
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
