@@ -258,11 +258,11 @@ avatar-page-cancel-button = გაუქმება
 avatar-page-save-button = შენახვა
 avatar-page-saving-button = ინახება…
 avatar-page-zoom-out-button =
-  .title = დაშორება
+    .title = დაშორება
 avatar-page-zoom-in-button =
-  .title = მიახლოება
+    .title = მიახლოება
 avatar-page-rotate-button =
-  .title = მობრუნება
+    .title = მობრუნება
 avatar-page-camera-error = კამერის ჩართვა ვერ მოხერხდა
 avatar-page-new-avatar =
     .alt = პროფილის ახალი სურათი
@@ -549,6 +549,12 @@ tfa-row-change-modal-explain = ეს ქმედება შეუქცე�
 auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
 auth-error-110 = უმართებულო სიტყვა-ნიშანი
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-138 = დაუმოწმებელი სეანსი
 auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
