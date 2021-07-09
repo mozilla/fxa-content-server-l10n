@@ -29,7 +29,7 @@ payment-error-retry-button = Спробувати знову
 payment-error-manage-subscription-button = Керувати передплатою
 country-currency-mismatch = Валюта цієї передплати недійсна для країни, пов’язаної з вашим платежем.
 currency-currency-mismatch = Перепрошуємо. Ви не можете перемикатися між валютами.
-no-subscription-upgrades = Перепрошуємо, але наразі ви не можете підвищити чи знизити свою передплату. Будь ласка, перевірте цю можливість згодом.
+no-subscription-change = Перепрошуємо, але ви не можете змінити свій тарифний план.
 expired-card-error = Схоже, строк дії вашої кредитної картки закінчився. Спробуйте скористатись іншою карткою.
 insufficient-funds-error = Схоже, на вашій картці недостатньо коштів. Спробуйте скористатись іншою карткою.
 withdrawal-count-limit-exceeded-error = Схоже, що після здійснення платежу буде перевищено кредитний ліміт. Спробуйте скористатись іншою карткою.
@@ -55,7 +55,7 @@ subscription-create-title = Налаштуйте передплату
 subscription-success-title = Підтвердження передплати
 subscription-processing-title = Підтвердження передплати...
 subscription-error-title = Помилка підтвердження передплати...
-subscription-noupgrade-title = Зміна рівня передплати не підтримується
+subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

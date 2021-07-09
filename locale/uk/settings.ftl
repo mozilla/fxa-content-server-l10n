@@ -591,6 +591,12 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 auth-error-102 = Невідомий обліковий запис
 auth-error-103 = Неправильний пароль
 auth-error-110 = Недійсний код
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
 auth-error-138 = Непідтверджений сеанс
 auth-error-155 = TOTP-код не знайдено
 auth-error-1008 = Ваш новий пароль повинен бути іншим
