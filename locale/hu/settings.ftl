@@ -242,11 +242,11 @@ avatar-page-cancel-button = Mégse
 avatar-page-save-button = Mentés
 avatar-page-saving-button = Mentés…
 avatar-page-zoom-out-button =
-  .title = Kicsinyítés
+    .title = Kicsinyítés
 avatar-page-zoom-in-button =
-  .title = Nagyítás
+    .title = Nagyítás
 avatar-page-rotate-button =
-  .title = Forgatás
+    .title = Forgatás
 avatar-page-camera-error = A kamera nem készíthető elő
 avatar-page-new-avatar =
     .alt = új profilkép
@@ -533,6 +533,12 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
 auth-error-110 = Érvénytelen token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
 auth-error-138 = Nem ellenőrzött munkamenet
 auth-error-155 = A TOTP token nem található
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie

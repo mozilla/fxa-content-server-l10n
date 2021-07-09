@@ -29,7 +29,7 @@ payment-error-retry-button = Próbálja újra
 payment-error-manage-subscription-button = Saját feliratkozások kezelése
 country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
 currency-currency-mismatch = Sajnáljuk. Nem válthat a pénznemek között.
-no-subscription-upgrades = Sajnáljuk. Jelenleg nem emelheti vagy csökkentheti az előfizetési kategóriáját. Nézzen vissza később.
+no-subscription-change = Sajnáljuk. Nem módosíthatja az előfizetési csomagot.
 expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
 insufficient-funds-error = Úgy tűnik, hogy a bankkártyáján kevés a fedezet. Próbálkozzon egy másik kártyával.
 withdrawal-count-limit-exceeded-error = Úgy tűnik, hogy ez a tranzakció túllép a hitelkeretén. Próbálkozzon egy másik kártyával.
@@ -55,7 +55,7 @@ subscription-create-title = Állítsa be a feliratkozását
 subscription-success-title = Feliratkozás megerősítése
 subscription-processing-title = Feliratkozás megerősítése…
 subscription-error-title = Hiba a feliratkozás megerősítésekor…
-subscription-noupgrade-title = Az előfizetés szintjének módosítása nem támogatott
+subscription-noplanchange-title = Az előfizetési csomag ezen módosítása nem támogatott
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
