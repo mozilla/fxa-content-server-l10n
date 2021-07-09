@@ -225,11 +225,11 @@ avatar-page-cancel-button = 取消
 avatar-page-save-button = 保存
 avatar-page-saving-button = 正在保存…
 avatar-page-zoom-out-button =
-  .title = 缩小
+    .title = 缩小
 avatar-page-zoom-in-button =
-  .title = 放大
+    .title = 放大
 avatar-page-rotate-button =
-  .title = 旋转
+    .title = 旋转
 avatar-page-camera-error = 无法初始化摄像头
 avatar-page-new-avatar =
     .alt = 更换头像
@@ -495,6 +495,12 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 auth-error-102 = 未知账户
 auth-error-103 = 密码错误
 auth-error-110 = 无效令牌
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = 您已尝试太多次，请 { $retryAfter } 后再试。
 auth-error-138 = 未验证的会话
 auth-error-155 = 找不到 TOTP 令牌
 auth-error-1008 = 新旧密码不能相同
