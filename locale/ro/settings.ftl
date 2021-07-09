@@ -58,22 +58,36 @@ app-default-title = { -product-firefox-accounts(capitalization: "upper-indefinit
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts(capitalization: "upper-indefinite-article") }
 app-footer-mozilla-logo-label = Sigla { -brand-mozilla }
+app-footer-privacy-notice = Notificare privind confidențialitatea site-ului web
+app-footer-terms-of-service = Termenii de utilizare a serviciului
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avatarul tău
+avatar-default-avatar =
+    .alt = Avatar implicit
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title = Meniu bento { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } este tehnologia care luptă pentru confidențialitatea ta online.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
+bento-menu-firefox-mobile = Browserul { -brand-firefox } pentru dispozitiv mobil
+bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Obține { -brand-firefox } pe dispozitivul mobil sau tabletă
 
 ##
 
@@ -85,17 +99,37 @@ cs-description = Tot ce folosești și în care ești autentificat.
 cs-cannot-refresh =
     Ne pare rău, a apărut o problemă la actualizarea listei de servicii
     conectate.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Deconectat din { $service }.
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Obiecte lipsă sau duplicate?
+cs-disconnect-sync-heading = Deconectare de la Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = Datele tale de navigare vor rămâne pe dispozitiv ({ $device }), însă nu se vor mai sincroniza cu contul tău.
+cs-disconnect-sync-reason = Care este principalul motiv pentru deconectarea acestui dispozitiv?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Dispozitivul este:
+cs-disconnect-sync-opt-suspicious = Suspect
+cs-disconnect-sync-opt-lost = Pierdut sau furat
+cs-disconnect-sync-opt-old = Vechi sau înlocuit
+cs-disconnect-sync-opt-duplicate = Duplicat
+cs-disconnect-sync-opt-not-say = Prefer să nu spun
 
 ##
 
+cs-disconnect-advice-confirm = OK, am înțeles
 cs-sign-out-button = Deconectează-te
 
 ##
@@ -111,19 +145,32 @@ drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconecta
 
 ## Flow Container
 
+flow-container-back = Înapoi
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Coduri de recuperare
+get-data-trio-download =
+    .title = Descarcă
+get-data-trio-copy =
+    .title = Copiază
+get-data-trio-print =
+    .title = Tipărește
 
 # HeaderLockup component
 
+header-menu-open = Închide meniul
 header-title = Cont Firefox
 
 ## Input Password
 
+input-password-hide = Ascunde parola
+input-password-show = Afișează parola
+input-password-hide-aria = Ascunde parola de pe ecran.
 
 ## Modal
 
+modal-close-title = Închide
 modal-cancel-button = Anulează
 
 ## Modal Verify Session
@@ -148,6 +195,7 @@ nav-email-comm = Comunicări prin e-mail
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = A apărut o problemă la înlocuirea codurilor de recuperare.
 tfa-replace-code-success-alert = Codurile de recuperare a contului au fost actualizate.
 
 ## Avatar change page
@@ -240,6 +288,10 @@ display-name-success-alert = Numele afișat actualizat.
 
 recovery-key-cancel-button = Anulează
 recovery-key-continue-button = Continuă
+recovery-key-enter-password =
+    .label = Introdu parola
+recovery-key-page-title =
+    .title = Cheie de recuperare
 recovery-key-step-1 = Pasul 1 din 2
 recovery-key-step-2 = Pasul 2 din 2
 recovery-key-success-alert = Cheie de recuperare creată.
@@ -315,10 +367,13 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
+profile-heading = Profil
 profile-picture =
     .header = Fotografie
 profile-display-name =
     .header = Nume afișat
+profile-password =
+    .header = Parolă
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
@@ -335,7 +390,9 @@ security-heading = Securitate
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Adaugă
 row-defaults-action-change = Modifică
+row-defaults-action-disable = Dezactivează
 
 ## Recovery key sub-section on main Settings page
 
