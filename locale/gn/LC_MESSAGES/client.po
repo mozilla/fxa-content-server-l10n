@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-09 13:33+0000\n"
+"PO-Revision-Date: 2021-07-09 13:39+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1622,15 +1622,15 @@ msgstr "Emondo marandu’i push tembiapo ñepyrũ rehegua"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Ehechajey nde Firefox mba’e’oka jeikegua tendayke ñemoneĩgua tembiapo ñepyrũ roguerahaukáva."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Emondojey tendayke"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "¿Nog̃uahẽi tendayke? Emondo ñanduti veve hendaguépe"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
