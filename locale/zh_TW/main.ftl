@@ -29,7 +29,7 @@ payment-error-retry-button = 重試
 payment-error-manage-subscription-button = 管理我的訂閱
 country-currency-mismatch = 您的付款方式所在的國家，無法使用此訂閱紀錄要使用的貨幣。
 currency-currency-mismatch = 很抱歉，不能切換貨幣。
-no-subscription-upgrades = 很抱歉，目前無法升級或降級您的訂閱方案。請稍候再試一次。
+no-subscription-change = 很抱歉，無法更改您的訂閱方案。
 expired-card-error = 您的信用卡已經過期，請改用其他卡片。
 insufficient-funds-error = 您的卡片額度不足，請改用其他卡片。
 withdrawal-count-limit-exceeded-error = 此交易會超過您的卡片可用額度，請改用其他卡片。
@@ -55,7 +55,7 @@ subscription-create-title = 設定訂閱
 subscription-success-title = 訂閱確認
 subscription-processing-title = 正在確認訂閱…
 subscription-error-title = 確認訂閱時發生錯誤…
-subscription-noupgrade-title = 不支援更改訂閱方案等級
+subscription-noplanchange-title = 不支援更改此訂閱方案
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

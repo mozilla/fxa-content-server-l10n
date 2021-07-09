@@ -225,11 +225,11 @@ avatar-page-cancel-button = 取消
 avatar-page-save-button = 儲存
 avatar-page-saving-button = 儲存中…
 avatar-page-zoom-out-button =
-  .title = 縮小
+    .title = 縮小
 avatar-page-zoom-in-button =
-  .title = 放大
+    .title = 放大
 avatar-page-rotate-button =
-  .title = 旋轉
+    .title = 旋轉
 avatar-page-camera-error = 無法初始化攝影機
 avatar-page-new-avatar =
     .alt = 新增個人資料照片
@@ -495,6 +495,12 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 auth-error-102 = 未知帳號
 auth-error-103 = 密碼不正確
 auth-error-110 = token 無效
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }後再試。
 auth-error-138 = 未驗證的使用階段
 auth-error-155 = 找不到 TOTP token
 auth-error-1008 = 您的新密碼必須與舊密碼不同
