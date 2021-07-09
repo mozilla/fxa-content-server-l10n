@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-09 21:59+0000\n"
+"PO-Revision-Date: 2021-07-09 22:05+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv_SE\n"
@@ -1622,15 +1622,15 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Kontrollera dina anslutna Firefox-enheter för bekräftelsefliken för inloggning som vi har skickat."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Skicka fliken igen"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Fick du inte fliken? Skicka bekräftelse via e-post istället"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

@@ -244,11 +244,11 @@ avatar-page-cancel-button = Avbryt
 avatar-page-save-button = Spara
 avatar-page-saving-button = Spara…
 avatar-page-zoom-out-button =
-  .title = Zooma ut
+    .title = Zooma ut
 avatar-page-zoom-in-button =
-  .title = Zooma in
+    .title = Zooma in
 avatar-page-rotate-button =
-  .title = Rotera
+    .title = Rotera
 avatar-page-camera-error = Det gick inte att initiera kameran
 avatar-page-new-avatar =
     .alt = ny profilbild
@@ -537,6 +537,12 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 auth-error-102 = Okänt konto
 auth-error-103 = Felaktigt lösenord
 auth-error-110 = Ogiltig tecken
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-138 = Overifierad session
 auth-error-155 = TOTP-tecken hittades inte
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
