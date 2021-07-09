@@ -242,11 +242,11 @@ avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = Guardando…
 avatar-page-zoom-out-button =
-  .title = Alejar
+    .title = Alejar
 avatar-page-zoom-in-button =
-  .title = Acercar
+    .title = Acercar
 avatar-page-rotate-button =
-  .title = Rotar
+    .title = Rotar
 avatar-page-camera-error = No se pudo iniciar la cámara
 avatar-page-new-avatar =
     .alt = nueva imagen de perfil
@@ -528,6 +528,12 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
 auth-error-110 = Llave inválida
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo en { $retryAfter }.
 auth-error-138 = Sesión no verificada
 auth-error-155 = Token TOTP no encontrado
 auth-error-1008 = Tu nueva conraseña debe ser diferente
