@@ -29,7 +29,7 @@ payment-error-retry-button = Riprova
 payment-error-manage-subscription-button = Gestione abbonamento
 country-currency-mismatch = La valuta di questo abbonamento non è valida per il Paese associato alla tua modalità di pagamento.
 currency-currency-mismatch = Siamo spiacenti, non è possibile cambiare la valuta.
-no-subscription-upgrades = Siamo spiacenti, al momento non puoi eseguire l’upgrade o il downgrade dell’abbonamento. Ricontrolla in futuro.
+no-subscription-change = Siamo spiacenti, non puoi modificare il tuo piano di abbonamento.
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
@@ -55,7 +55,7 @@ subscription-create-title = Configura l’abbonamento
 subscription-success-title = Conferma dell’abbonamento
 subscription-processing-title = Conferma abbonamento…
 subscription-error-title = Errore durante la conferma dell’abbonamento…
-subscription-noupgrade-title = Non è possibile cambiare il piano di abbonamento
+subscription-noplanchange-title = Questa modifica al piano di abbonamento non è supportata
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

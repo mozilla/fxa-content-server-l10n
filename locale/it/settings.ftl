@@ -231,11 +231,11 @@ avatar-page-cancel-button = Annulla
 avatar-page-save-button = Salva
 avatar-page-saving-button = Salvataggio in corso…
 avatar-page-zoom-out-button =
-  .title = Riduci zoom
+    .title = Riduci zoom
 avatar-page-zoom-in-button =
-  .title = Aumenta zoom
+    .title = Aumenta zoom
 avatar-page-rotate-button =
-  .title = Ruota
+    .title = Ruota
 avatar-page-camera-error = Impossibile inizializzare la fotocamera
 avatar-page-new-avatar =
     .alt = nuova immagine del profilo
@@ -511,6 +511,12 @@ tfa-row-change-modal-explain = Questa azione è irreversibile.
 auth-error-102 = Account sconosciuto
 auth-error-103 = Password errata
 auth-error-110 = Token non valido
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Hai effettuato troppi tentativi errati. Riprova tra { $retryAfter }.
 auth-error-138 = Sessione non verificata
 auth-error-155 = Token TOTP non trovato
 auth-error-1008 = La nuova password deve essere diversa
