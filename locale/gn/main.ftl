@@ -29,7 +29,7 @@ payment-error-retry-button = Eha’ãjey
 payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 country-currency-mismatch = Pe viru ko ñemboheraguapy pegua ndoikói pe tetã ehepyme’ẽseha peguápe.
 currency-currency-mismatch = Rombyasy. Ndakatúi emoambue virukuéra pa’ũme.
-no-subscription-upgrades = Rombyasy. Ndaikatúi embohekopyahu térã emomichĩ ne ñemboheraguapy ko’ag̃a. Ehechajey uperire.
+no-subscription-change = Rombyasy. Neremoambuekuaái ñemboheraguapy rape.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eipuru ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eipuru ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eipuru ambue kuatia’atã.
@@ -55,7 +55,7 @@ subscription-create-title = Ñemboheraguapy ñemboheko
 subscription-success-title = Ñemboheraguapy ñemoneĩ
 subscription-processing-title = Ñemboheraguapy oñemoneĩhína...
 subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy...
-subscription-noupgrade-title = Umi ñemoambue ñemboheraguapygua ndaipu’akái
+subscription-noplanchange-title = Ko ñemoambue rape ñemboheraguapygua noñepytyvõi
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

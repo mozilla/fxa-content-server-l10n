@@ -537,6 +537,12 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 auth-error-102 = Mba’ete ojeikuaa’ỹva
 auth-error-103 = Ñe’ẽñemi oiko’ỹva
 auth-error-110 = Token oiko’ỹva
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138 = Tembiapo jehechapyre’ỹva
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
