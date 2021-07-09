@@ -29,7 +29,7 @@ payment-error-retry-button = ხელახლა ცდა
 payment-error-manage-subscription-button = გამოწერების მართვა
 country-currency-mismatch = გამოწერის ეს ვალუტა, არაა მოქმედი იმ ქვეყნისთვის, რომელიც თქვენს ანგარიშზეა მიბმული.
 currency-currency-mismatch = სამწუხაროდ, ვერ შეძლებთ ვალუტის შეცვლას.
-no-subscription-upgrades = სამწუხაროდ, ამჟამად შეუძლებელია გამოწერის დონის ცვლილება. სცადეთ მოგვიანებით.
+no-subscription-change = ვწუხვართ. თქვენ ვერ შეძლებთ სახელშეკრულებო გეგმის შეცვლას.
 expired-card-error = როგორც ჩანს, თქვენი საკრედიტო ბარათი ვადაგასულია. სცადეთ სხვა ბარათი.
 insufficient-funds-error = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
 withdrawal-count-limit-exceeded-error = როგორც ჩანს, ეს გადარიცხვა აჭარბებს თქვენს საკრედიტო ზღვარს. სცადეთ ხელახლა სხვა ბარათით.
@@ -55,7 +55,7 @@ subscription-create-title = გამოწერის გამართვა
 subscription-success-title = გამოწერის დადასტურება
 subscription-processing-title = გამოწერა მოწმდება...
 subscription-error-title = შეცდომა, გამოწერის დადასტურებისას...
-subscription-noupgrade-title = გამოწერის დონის ცვლილება არაა მხარდაჭერილი
+subscription-noplanchange-title = გამოწერის გეგმის ცვლილება არაა მხარდაჭერილი
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
