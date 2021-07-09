@@ -199,6 +199,8 @@ nav-settings = การตั้งค่า
 nav-profile = โปรไฟล์
 nav-security = ความปลอดภัย
 nav-connected-services = บริการที่เชื่อมต่อ
+nav-paid-subs = การบอกรับแบบเสียค่าใช้จ่าย
+nav-email-comm = การติดต่อสื่อสารทางอีเมล
 
 ## Two Step Authentication - replace recovery code
 
@@ -314,9 +316,11 @@ recovery-key-page-title =
     .title = รหัสการกู้คืน
 recovery-key-step-1 = ขั้นตอนที่ 1 จาก 2
 recovery-key-step-2 = ขั้นตอนที่ 2 จาก 2
+recovery-key-success-alert = สร้างกุญแจการกู้คืนแล้ว
 
 ## Add secondary email page
 
+add-secondary-email-error = เกิดปัญหาในการสร้างอีเมลนี้
 add-secondary-email-page-title =
     .title = อีเมลสำรอง
 add-secondary-email-enter-address =
@@ -329,12 +333,21 @@ add-secondary-email-save-button = บันทึก
 
 ## Verify secondary email page
 
+verify-secondary-email-error = เกิดปัญหาในการส่งรหัสยืนยัน
 verify-secondary-email-page-title =
     .title = อีเมลสำรอง
 verify-secondary-email-verification-code =
     .label = ใส่รหัสตรวจสอบ
 verify-secondary-email-cancel-button = ยกเลิก
 verify-secondary-email-verify-button = ยืนยัน
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = โปรดใส่รหัสตรวจสอบที่ส่งไปยัง <strong>{ $email }</strong> ภายใน 5 นาที
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = เพิ่ม { $email } เรียบร้อยแล้ว
 
 ##
 
@@ -350,10 +363,16 @@ tfa-step-3-3 = ขั้นตอนที่ 3 จาก 3
 tfa-button-continue = ดำเนินการต่อ
 tfa-button-cancel = ยกเลิก
 tfa-button-finish = เสร็จสิ้น
+tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
+tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
+tfa-cannot-verify-code = เกิดปัญหาในการตรวจสอบรหัสกู้คืนของคุณ
+tfa-incorrect-recovery-code = รหัสกู้คืนไม่ถูกต้อง
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
 tfa-input-enter-totp =
     .label = ป้อนรหัสความปลอดภัย
+tfa-enter-recovery-code =
+    .label = ใส่รหัสกู้คืน
 
 ##
 
@@ -361,10 +380,16 @@ tfa-input-enter-totp =
 ## Profile section
 
 profile-heading = โปรไฟล์
+profile-picture =
+    .header = รูปภาพ
 profile-display-name =
     .header = ชื่อที่แสดงผล
 profile-password =
     .header = รหัสผ่าน
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = สร้างเมื่อ { $date }
 profile-primary-email =
     .header = อีเมลหลัก
 
@@ -384,10 +409,17 @@ row-defaults-status = ไม่มี
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = กุญแจการกู้คืน
 rk-enabled = ถูกเปิดใช้งาน
 rk-not-set = ไม่ได้ตั้งค่า
 rk-action-create = สร้าง
 rk-action-remove = เอาออก
+rk-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชกุญแจการกู้คืน
+rk-key-removed = กุญแจกู้คืนบัญชีถูกเอาออกแล้ว
+rk-cannot-remove-key = ไม่สามารถลบกุญแจกู้คืนบัญชีของคุณ
+rk-refresh-key = รีเฟรชกุญแจกู้คืน
+rk-content-explain = เรียกคืนข้อมูลของคุณเมื่อคุณลืมรหัสผ่าน
+rk-remove-modal-heading = ต้องการเอากุญแจกู้คืนออกหรือไม่?
 
 ## Secondary email sub-section on main Settings page
 
