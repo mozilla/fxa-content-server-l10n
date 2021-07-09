@@ -242,11 +242,11 @@ avatar-page-cancel-button = Diddymu
 avatar-page-save-button = Cadw
 avatar-page-saving-button = Yn cadw…
 avatar-page-zoom-out-button =
-  .title = Chwyddo Allan
+    .title = Chwyddo Allan
 avatar-page-zoom-in-button =
-  .title = Chwyddo Mewn
+    .title = Chwyddo Mewn
 avatar-page-rotate-button =
-  .title = Troi
+    .title = Troi
 avatar-page-camera-error = Methu cychwyn y camera
 avatar-page-new-avatar =
     .alt = llun proffil newydd
@@ -531,6 +531,12 @@ tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
 auth-error-110 = Tocyn annilys
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach.
 auth-error-138 = Sesiwn heb ei gwirio
 auth-error-155 = Heb ganfod tocyn TOTP
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol

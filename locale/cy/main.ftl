@@ -29,7 +29,7 @@ payment-error-retry-button = Ceisiwch eto
 payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
 country-currency-mismatch = Nid yw arian cyfred y tanysgrifiad hwn yn ddilys ar gyfer y wlad sy'n gysylltiedig â'ch taliad.
 currency-currency-mismatch = Ymddiheuriadau. Nid oes modd i chi newid rhwng arian cyfred.
-no-subscription-upgrades = Ymddiheuriadau. Nid oes modd i chi uwchraddio nac israddio'ch tanysgrifiad ar hyn o bryd. Dewch nôl cyn bo hir.
+no-subscription-change = Ymddiheuriadau. Nid oes modd i chi newid eich cynllun tanysgrifio.
 expired-card-error = Mae'n edrych fel bod eich cerdyn credyd wedi dod i ben. Rhowch gynnig ar gerdyn arall.
 insufficient-funds-error = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 withdrawal-count-limit-exceeded-error = Mae'n ymddangos y bydd y trafodyn hwn yn eich cymryd dros eich terfyn credyd. Rhowch gynnig ar gerdyn arall.
@@ -55,7 +55,7 @@ subscription-create-title = Gosod eich tanysgrifiad
 subscription-success-title = Cadarnhad o'ch tanysgrifiad
 subscription-processing-title = Yn cadarnhau eich tanysgrifiad...
 subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad...
-subscription-noupgrade-title = Nid yw newid haenau tanysgrifio yn cael ei gynnal
+subscription-noplanchange-title = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
