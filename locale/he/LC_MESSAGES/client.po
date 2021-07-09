@@ -1628,7 +1628,7 @@ msgstr "שליחת לשונית מחדש"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "הלשונית לא מגיעה? ניתן לשלוח דוא״ל במקום"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

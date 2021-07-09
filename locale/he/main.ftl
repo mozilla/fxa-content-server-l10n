@@ -24,6 +24,8 @@ payment-error-3b = אירעה שגיאה לא צפויה בעת עיבוד הת�
 payment-error-retry-button = ניסיון חוזר
 payment-error-manage-subscription-button = ניהול המינוי שלי
 country-currency-mismatch = המטבע של מינוי זה אינו תקף למדינה המשויכת לתשלום שלך.
+currency-currency-mismatch = מצטערים. אין לך אפשרות לעבור בין מטבעות.
+no-subscription-change = מצטערים. אין לך אפשרות לשנות את תוכנית המינוי שלך.
 expired-card-error = נראה שפג תוקף הכרטיס אשראי שלך. נא לנסות כרטיס אחר.
 insufficient-funds-error = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 withdrawal-count-limit-exceeded-error = נראה שעסקה זו תחריג אותך מעבר למסגרת האשראי שלך. נא לנסות כרטיס אחר.
@@ -42,6 +44,7 @@ privacy = הצהרת פרטיות
 
 ## Subscription titles
 
+subscription-create-title = הגדרת המינוי שלך
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -137,8 +140,8 @@ input-error-is-required = ‏{ $label } נדרש
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = סקירת השדרוג שלך
-sub-update-failed = עדכון התוכנית נכשל
+product-plan-change-heading = סקירת השינוי שלך
+sub-change-failed = שינוי התוכנית נכשל
 sub-update-payment-title = פרטי תשלום
 sub-update-copy =
     התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
@@ -150,9 +153,9 @@ sub-update-copy =
 
 ##
 
-sub-update-submit = אישור השדרוג
-sub-update-indicator =
-    .aria-label = מחוון שדרוג
+sub-change-submit = אישור השינוי
+sub-change-indicator =
+    .aria-label = מחוון שינוי
 sub-update-current-plan-label = תוכנית נוכחית
 sub-update-new-plan-label = תוכנית חדשה
 sub-update-total-label = סה״כ חדש
