@@ -242,11 +242,11 @@ avatar-page-cancel-button = Hủy bỏ
 avatar-page-save-button = Lưu
 avatar-page-saving-button = Đang lưu...
 avatar-page-zoom-out-button =
-  .title = Thu nhỏ
+    .title = Thu nhỏ
 avatar-page-zoom-in-button =
-  .title = Phóng to
+    .title = Phóng to
 avatar-page-rotate-button =
-  .title = Xoay
+    .title = Xoay
 avatar-page-camera-error = Không thể khởi tạo máy ảnh
 avatar-page-new-avatar =
     .alt = hình hồ sơ mới
@@ -533,6 +533,12 @@ tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động 
 auth-error-102 = Tài khoản không xác định
 auth-error-103 = Mật khẩu không đúng
 auth-error-110 = Mã không hợp lệ
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
 auth-error-138 = Phiên chưa được xác minh
 auth-error-155 = Không tìm thấy token TOTP
 auth-error-1008 = Mật khẩu mới của bạn phải khác

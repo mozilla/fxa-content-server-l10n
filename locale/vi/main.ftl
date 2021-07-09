@@ -29,7 +29,7 @@ payment-error-retry-button = Thử lại
 payment-error-manage-subscription-button = Quản lý thuê bao của tôi
 country-currency-mismatch = Đơn vị tiền tệ của thuê bao này không hợp lệ cho quốc gia được liên kết với khoản thanh toán của bạn.
 currency-currency-mismatch = Xin lỗi. Bạn không thể chuyển đổi giữa các loại tiền tệ.
-no-subscription-upgrades = Xin lỗi. Bạn không thể nâng cấp hoặc hạ cấp thuê bao của mình vào lúc này. Vui lòng kiểm tra lại sau.
+no-subscription-change = Rất tiếc. Bạn không thể thay đổi gói thuê bao của mình.
 expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
 insufficient-funds-error = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 withdrawal-count-limit-exceeded-error = Có vẻ như đã vượt quá giới hạn tín dụng của bạn. Hãy thử một thẻ khác.
@@ -55,7 +55,7 @@ subscription-create-title = Thiết lập thuê bao của bạn
 subscription-success-title = Xác nhận thuê bao
 subscription-processing-title = Đang xác nhận thuê bao...
 subscription-error-title = Lỗi khi xác nhận thuê bao...
-subscription-noupgrade-title = Thay đổi cấp thuê bao không được hỗ trợ
+subscription-noplanchange-title = Thay đổi gói thuê bao này không được hỗ trợ
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
