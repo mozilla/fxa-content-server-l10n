@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-09 07:56+0000\n"
+"PO-Revision-Date: 2021-07-09 08:57+0000\n"
 "Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -1625,7 +1625,7 @@ msgstr "Invia notifica push di accesso"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Controlla nei tuoi dispositivi Firefox collegati la scheda di conferma dell’accesso che ti abbiamo inviato."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1633,7 +1633,7 @@ msgstr "Reinvia scheda"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "La scheda non è arrivata? Invia un’email in alternativa"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
