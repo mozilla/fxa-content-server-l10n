@@ -242,11 +242,11 @@ avatar-page-cancel-button = Abbrechen
 avatar-page-save-button = Speichern
 avatar-page-saving-button = Wird gespeichert…
 avatar-page-zoom-out-button =
-  .title = Verkleinern
+    .title = Verkleinern
 avatar-page-zoom-in-button =
-  .title = Vergrößern
+    .title = Vergrößern
 avatar-page-rotate-button =
-  .title = Drehen
+    .title = Drehen
 avatar-page-camera-error = Kamera konnte nicht initialisiert werden
 avatar-page-new-avatar =
     .alt = Neues Profilbild
@@ -531,6 +531,12 @@ tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 auth-error-102 = Unbekanntes Konto
 auth-error-103 = Ungültiges Passwort
 auth-error-110 = Ungültiger Schlüssel
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es nach { $retryAfter } erneut.
 auth-error-138 = Nicht verifizierte Sitzung
 auth-error-155 = TOTP-Token nicht gefunden
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
