@@ -244,11 +244,11 @@ avatar-page-cancel-button = Přetorhnyć
 avatar-page-save-button = Składować
 avatar-page-saving-button = Składuje so…
 avatar-page-zoom-out-button =
-  .title = Pomjeńšić
+    .title = Pomjeńšić
 avatar-page-zoom-in-button =
-  .title = Powjetšić
+    .title = Powjetšić
 avatar-page-rotate-button =
-  .title = Wjerćeć
+    .title = Wjerćeć
 avatar-page-camera-error = Kamera njeda so inicializować
 avatar-page-new-avatar =
     .alt = nowy profilowy wobraz
@@ -533,6 +533,12 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopačne hesło
 auth-error-110 = Njepłaćiwy token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
 auth-error-138 = Njewobkrućene posedźenje
 auth-error-155 = TOTP-token njeje so namakał
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
