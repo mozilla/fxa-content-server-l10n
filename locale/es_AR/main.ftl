@@ -29,7 +29,7 @@ payment-error-retry-button = Intentar de nuevo
 payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Disculpá. No podés cambiar entre divisas.
-no-subscription-upgrades = Lo sentimos. No podés actualizar o reducir tu suscripción en este momento.  Fíjate de nuevo más adelante.
+no-subscription-change = Lo sentimos. No se puede cambiar el plan de suscripción.
 expired-card-error = Parece que la tarjeta de crédito ha expirado. Probá con otra tarjeta.
 insufficient-funds-error = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción sobrepasará el límite de crédito. Probá otra tarjeta.
@@ -55,7 +55,7 @@ subscription-create-title = Configurá tu suscripción
 subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando suscripción...
 subscription-error-title = Error al confirmar la suscripción…
-subscription-noupgrade-title = Los cambios en el nivel de suscripción no son soportados
+subscription-noplanchange-title = Este cambio de plan de suscripción no está soportado
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
