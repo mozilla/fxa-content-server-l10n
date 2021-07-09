@@ -26,6 +26,8 @@ payment-error-1 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Ɛreḍ tikke
 payment-error-2 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Nermes adabu amazan n tkarḍa-k•m n usmad.
 payment-error-retry-button = Ɛreḍ tikkelt-nniḍen
 payment-error-manage-subscription-button = Sefrek amulteɣ-inu
+currency-currency-mismatch = Nesḥassef. Ur tezmireḍ ara ad tnegzeḍ seg yibenk ɣer wayeḍ.
+no-subscription-change = Nesḥassef. Ur tezmireḍ ara ad tbeddleḍ aɣawas n ujerred-inek·inem.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
 withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
@@ -167,8 +169,8 @@ input-error-is-required = { $label } ilaq
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Senqed lqem-inek/inem
-sub-update-failed = Aɣwas n uleqqem ur yeddi ara
+product-plan-change-heading = Senqed asnifel-ik·im
+sub-change-failed = Asnifel n uɣawas yecceḍ
 sub-update-payment-title = Talɣut n usellek
 sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -204,9 +206,7 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Sentem aleqqem
-sub-update-indicator =
-    .aria-label = Leqqem anammal
+sub-change-submit = Sentem abeddel
 sub-update-current-plan-label = Aɣawas amiran
 sub-update-new-plan-label = Aɣawas amaynut
 sub-update-total-label = Asemday amaynut
