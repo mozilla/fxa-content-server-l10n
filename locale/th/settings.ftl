@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = ปิดข้อความ
 
 ## Firefox and Mozilla Brand
 ##
@@ -55,25 +56,58 @@ app-footer-terms-of-service = เงื่อนไขการให้บร�
 
 avatar-your-avatar =
     .alt = อวตารของคุณ
+avatar-default-avatar =
+    .alt = อวตารเริ่มต้น
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title = เมนู Bento ของ { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } เป็นเทคโนโลยีที่ต่อสู้เพื่อความเป็นส่วนตัวออนไลน์ของคุณ
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
+bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
+connect-another-find-fx-mobile = ค้นหา { -brand-firefox } ใน { -google-play } และ { -app-store } หรือ<br /><linkExternal>ส่งลิงก์ดาวน์โหลดไปยังอุปกรณ์ของคุณ</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = บริการที่เชื่อมต่อ
+cs-description = ทุกสิ่งที่คุณใช้และลงชื่อเข้า
+cs-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชรายการบริการที่เชื่อมต่อ
+cs-cannot-disconnect = ไม่พบไคลเอ็นต์ ไม่สามารถยกเลิกการเชื่อมต่อได้
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = ออกจากระบบ { $service } แล้ว
+cs-refresh-button =
+    .title = รีเฟรชบริการที่เชื่อมต่อ
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = รายการขาดหายหรือซ้ำ?
+cs-disconnect-sync-heading = ตัดการเชื่อมต่อจาก Sync
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    ข้อมูลการท่องเว็บของคุณจะยังคงอยู่บนอุปกรณ์ของคุณ ({ $device })
+    แต่จะไม่ซิงค์กับบัญชีของคุณอีกต่อไป
+cs-disconnect-sync-reason =
+    เหตุผลหลักที่ตัดการเชื่อมต่ออุปกรณ์นี้
+    คืออะไร?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -83,10 +117,13 @@ cs-disconnect-sync-opt-suspicious = น่าสงสัย
 cs-disconnect-sync-opt-lost = สูญหายหรือถูกขโมย
 cs-disconnect-sync-opt-old = เก่าหรือถูกแทนที่
 cs-disconnect-sync-opt-duplicate = ทำซ้ำ
+cs-disconnect-sync-opt-not-say = ไม่ระบุ
 
 ##
 
 cs-disconnect-advice-confirm = ตกลง เข้าใจแล้ว
+cs-disconnect-lost-advice-heading = อุปกรณ์ที่สูญหายหรือถูกขโมยถูกตัดการเชื่อมต่อ
+cs-disconnect-suspicious-advice-heading = อุปกรณ์ที่น่าสงสัยถูกตัดการเชื่อมต่อ
 cs-sign-out-button = ลงชื่อออก
 
 ##
@@ -103,10 +140,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = เมนู { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>ลงชื่อเข้าแล้วในชื่อ</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ลงชื่อออก
+drop-down-menu-sign-out-error = ขออภัย เกิดปัญหาในการลงชื่อออก
 
 ## Flow Container
 
+flow-container-back = กลับ
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -121,6 +165,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = ปิดเมนู
+header-menu-closed = เมนูนำทางไซต์
 header-back-to-top-link =
     .title = กลับขึ้นด้านบน
 header-title = { -product-firefox-accounts }
@@ -128,6 +173,9 @@ header-help = ช่วยเหลือ
 
 ## Input Password
 
+input-password-hide = ซ่อนรหัสผ่าน
+input-password-show = แสดงรหัสผ่าน
+input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 
 ## Modal
 
@@ -137,6 +185,11 @@ modal-cancel-button = ยกเลิก
 ## Modal Verify Session
 
 mvs-verify-your-email = ยืนยันอีเมลของคุณ
+mvs-enter-verification-code = ใส่รหัสตรวจสอบ
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = โปรดใส่รหัสตรวจสอบที่ส่งไปยัง <email>{ $email }</email> ภายใน 5 นาที
 msv-cancel-button = ยกเลิก
 msv-submit-button = ยืนยัน
 
@@ -149,6 +202,8 @@ nav-connected-services = บริการที่เชื่อมต่อ
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = เกิดปัญหาในการเปลี่ยนรหัสกู้คืนของคุณ
+tfa-replace-code-success-alert = อัปเดตรหัสกู้คืนบัญชีแล้ว
 
 ## Avatar change page
 
@@ -164,20 +219,37 @@ avatar-page-remove-photo = ลบรูปภาพ
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = ถ่ายภาพใหม่
+avatar-page-cancel-button = ยกเลิก
 avatar-page-save-button = บันทึก
 avatar-page-saving-button = กำลังบันทึก…
 avatar-page-zoom-out-button =
-  .title = ขยายออก
+    .title = ขยายออก
 avatar-page-zoom-in-button =
-  .title = ขยายเข้า
+    .title = ขยายเข้า
 avatar-page-rotate-button =
-  .title = หมุน
+    .title = หมุน
+avatar-page-camera-error = ไม่สามารถเริ่มใช้กล้องได้
+avatar-page-new-avatar =
+    .alt = รูปโปรไฟล์ใหม่
+avatar-page-file-upload-error-2 = เกิดปัญหาในการอัปโหลดรูปโปรไฟล์ของคุณ
+avatar-page-delete-error-2 = เกิดปัญหาในการลบรูปโปรไฟล์ของคุณ
+avatar-page-image-too-large-error = ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = เปลี่ยนรหัสผ่าน
+pw-change-stay-safe = รักษาความปลอดภัยโดยอย่าใช้รหัสผ่านที่ซ้ำกัน รหัสผ่านของคุณ:
+pw-change-least-8-chars = ต้องมีอย่างน้อย 8 อักขระ
+pw-change-not-contain-email = ต้องไม่ใช่ที่อยู่อีเมลของคุณ
+pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    ต้องไม่ตรงกับ<linkExternal>รายการรหัสผ่าน
+    ที่พบบ่อย</linkExternal>
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
@@ -198,6 +270,16 @@ delete-account-header =
     .title = ลบบัญชี
 delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
+delete-account-confirm-title-2 = คุณได้เชื่อมต่อ{ -product-firefox-account } ของคุณกับผลิตภัณฑ์ { -brand-mozilla } ที่ช่วยให้คุณปลอดภัยและทำงานได้อย่างมีประสิทธิภาพบนเว็บแล้ว:
+delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
+delete-account-chk-box-1 =
+    .label = การบอกรับสมาชิกแบบเสียค่าใช้จ่ายใด ๆ ที่คุณมีจะถูกยกเลิก
+delete-account-chk-box-2 =
+    .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = การเปิดใช้งานอีเมลนี้ใหม่อาจไม่คืนค่าข้อมูลที่บันทึกไว้ของคุณ
+delete-account-chk-box-4 =
+    .label = ส่วนขยายและชุดตกแต่งใด ๆ ที่คุณเผยแพร่ไปยัง addons.mozilla.org จะถูกลบ
 delete-account-continue-button = ดำเนินการต่อ
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
@@ -215,6 +297,8 @@ display-name-input =
     .label = ป้อนชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
+display-name-update-error = เกิดปัญหาในการอัปเดตชื่อที่ใช้แสดงของคุณ
+display-name-success-alert = อัปเดตชื่อที่ใช้แสดงแล้ว
 
 ##
 
