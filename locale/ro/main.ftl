@@ -162,8 +162,6 @@ input-error-is-required = { $label } este necesar
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Afișează varianta superioară a abonamentului
-sub-update-failed = Actualizarea planului a eșuat
 sub-update-card-exp = Data expirării: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Planul tău va fi modificat imediat și ți se va percepe o sumă ajustată
@@ -203,9 +201,6 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confirmă trecerea la varianta superioară a abonamentului
-sub-update-indicator =
-    .aria-label = indicator de trecere la o variantă superioară
 sub-update-current-plan-label = Plan curent
 sub-update-new-plan-label = Plan nou
 sub-update-total-label = Total nou
@@ -340,7 +335,7 @@ sub-route-idx-cancel-msg =
     Abonamentul tău pentru { $name } a fost anulat.
           <br />
           Vei mai avea acces la { $name } până la data de { $date }.
-sub-route-idx-cancel-aside = Ai întrebări? Intră pe <a>{ -brand-name-mozilla } Asistență</a>.
+sub-route-idx-cancel-aside = Ai întrebări? Vizitează <a>{ -brand-name-mozilla } Support</a>.
 sub-subscription-error =
     .title = Problemă la încărcarea abonamentelor
 sub-customer-error =
