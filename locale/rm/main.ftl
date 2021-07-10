@@ -29,7 +29,6 @@ payment-error-retry-button = Reempruvar
 payment-error-manage-subscription-button = Administrar mes abunament
 country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
 currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
-no-subscription-upgrades = Perstgisa. Actualmain na stattan upgrades e downgrades da tes abunament betg a disposiziun. Turna prest puspè per empruvar danovamain.
 expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
 insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
 withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
@@ -55,7 +54,6 @@ subscription-create-title = Configurescha tes abunament
 subscription-success-title = Conferma da l'abunament.
 subscription-processing-title = Confermar l'abunament…
 subscription-error-title = Errur cun confermar l'abunament…
-subscription-noupgrade-title = Midadas dal plan da l'abunament n'èn betg pussaivlas
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -172,8 +170,8 @@ input-error-is-required = { $label } è obligatoric
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Controllescha tia actualisaziun
-sub-update-failed = Actualisaziun dal plan betg reussida
+product-plan-change-heading = Controllescha tia midada
+sub-change-failed = Midada dal plan betg reussida
 sub-update-payment-title = Infurmaziuns da pajament
 sub-update-card-exp = Scadenza: { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -210,9 +208,9 @@ sub-update-confirm-with-legal-links-year =
 
 ##
 
-sub-update-submit = Confermar l'actualisaziun
-sub-update-indicator =
-    .aria-label = indicatur da l'actualisaziun
+sub-change-submit = Confermar la midada
+sub-change-indicator =
+    .aria-label = indicatur da midadas
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Nov plan
 sub-update-total-label = Nov total
