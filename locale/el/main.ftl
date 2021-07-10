@@ -29,7 +29,7 @@ payment-error-retry-button = Δοκιμή ξανά
 payment-error-manage-subscription-button = Διαχείριση συνδρομής
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
 currency-currency-mismatch = Λυπούμαστε, δεν μπορείτε να κάνετε εναλλαγή νομισμάτων.
-no-subscription-upgrades = Λυπούμαστε, δεν μπορείτε να αναβαθμίσετε ή να υποβαθμίσετε τη συνδρομή σας προς το παρόν. Παρακαλούμε ελέγξτε ξανά σύντομα.
+no-subscription-change = Λυπούμαστε. Δεν μπορείτε να αλλάξετε το πακέτο συνδρομής σας.
 expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
 insufficient-funds-error = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 withdrawal-count-limit-exceeded-error = Φαίνεται πως αυτή η συναλλαγή θα υπερβεί το πιστωτικό σας όριο. Δοκιμάστε με μια άλλη κάρτα.
@@ -55,7 +55,7 @@ subscription-create-title = Ρύθμιση συνδρομής
 subscription-success-title = Επιβεβαίωση συνδρομής
 subscription-processing-title = Επιβεβαίωση συνδρομής...
 subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής...
-subscription-noupgrade-title = Δεν υποστηρίζονται αλλαγές επιπέδου συνδρομής
+subscription-noplanchange-title = Δεν υποστηρίζεται αυτή η αλλαγή πακέτου συνδρομής
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
