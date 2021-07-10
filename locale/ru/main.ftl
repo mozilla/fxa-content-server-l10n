@@ -29,7 +29,7 @@ payment-error-retry-button = Попробовать снова
 payment-error-manage-subscription-button = Управление моей подпиской
 country-currency-mismatch = Валюта этой подписки недействительна для страны, связанной с вашим платежом.
 currency-currency-mismatch = Извините. Вы не можете переключаться между валютами.
-no-subscription-upgrades = Извините. В настоящее время вы не можете повысить или понизить свою подписку. Пожалуйста, загляните попозже.
+no-subscription-change = Извините. Вы не можете изменить свой план подписки.
 expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
 insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
@@ -55,7 +55,7 @@ subscription-create-title = Настройка вашей подписки
 subscription-success-title = Подтверждение подписки
 subscription-processing-title = Подтверждение подписки...
 subscription-error-title = Ошибка подтверждения подписки...
-subscription-noupgrade-title = Изменение уровня подписки не поддерживается
+subscription-noplanchange-title = Это изменение плана подписки не поддерживается
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

@@ -253,11 +253,11 @@ avatar-page-cancel-button = Отмена
 avatar-page-save-button = Сохранить
 avatar-page-saving-button = Сохранение…
 avatar-page-zoom-out-button =
-  .title = Уменьшить
+    .title = Уменьшить
 avatar-page-zoom-in-button =
-  .title = Увеличить
+    .title = Увеличить
 avatar-page-rotate-button =
-  .title = Повернуть
+    .title = Повернуть
 avatar-page-camera-error = Не удалось инициализировать камеру
 avatar-page-new-avatar =
     .alt = новое фото профиля
@@ -544,6 +544,12 @@ tfa-row-change-modal-explain = Вы не сможете отменить это 
 auth-error-102 = Неизвестный аккаунт
 auth-error-103 = Неверный пароль
 auth-error-110 = Некорректный токен
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Вы сделали слишком много попыток. Попробуйте снова через { $retryAfter }.
 auth-error-138 = Неподтверждённая сессия
 auth-error-155 = TOTP-токен не найден
 auth-error-1008 = Ваш новый пароль должен быть другим
