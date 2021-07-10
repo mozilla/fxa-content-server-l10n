@@ -309,6 +309,10 @@ verify-secondary-email-verification-code =
     .label = Раслау кодын кертегез
 verify-secondary-email-cancel-button = Баш тарту
 verify-secondary-email-verify-button = Раслау
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Зинһар, 5 минут эчендә <strong>{ $email }</strong> адресына җибәрелгән раслау кодын кертегез.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.

@@ -21,6 +21,7 @@ close-aria =
 ## app error dialog
 
 general-error-heading = Гомуми кушымта хатасы
+basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
 payment-error-retry-button = Янәдән тырышып карау
 payment-error-manage-subscription-button = Минем язылу белән идарә итү
 
@@ -38,6 +39,7 @@ privacy = Хосусыйлык сәясәте
 
 subscription-success-title = Язылуны раслау
 subscription-processing-title = Язылуны раслау…
+subscription-error-title = Язылуны раслау хатасы…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -126,8 +128,7 @@ input-error-is-required = { $label } кирәк
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Яңартугызны тикшерегез
-sub-update-failed = Планны яңарту уңышсыз тәмамланды
+sub-change-failed = Планны үзгәртү уңышсыз тәмамланды
 sub-update-payment-title = Түләү турында мәгълүмат
 sub-update-card-exp = Вакыты чыга: { $cardExpMonth }/{ $cardExpYear }
 
@@ -136,9 +137,6 @@ sub-update-card-exp = Вакыты чыга: { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
-sub-update-submit = Яңартуны раслау
-sub-update-indicator =
-    .aria-label = яңарту күрсәткече
 sub-update-current-plan-label = Хәзерге план
 sub-update-new-plan-label = Яңа план
 sub-update-total-label = Яңа сумма
@@ -228,7 +226,10 @@ account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
 
+sub-route-idx-updating = Түләү турындагы мәгълүматны яңарту…
+sub-route-idx-cancel-failed = Язылудан баш тарту уңышсыз тәмамланды
 sub-route-idx-contact = Ярдәм хезмәтенә мөрәҗәгать итү
+sub-route-idx-cancel-msg-title = Сезнең белән саубуллашу кызганыч
 sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
