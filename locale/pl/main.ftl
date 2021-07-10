@@ -71,6 +71,7 @@ subscription-create-title = Skonfiguruj swoją subskrypcję
 subscription-success-title = Potwierdzenie subskrypcji
 subscription-processing-title = Potwierdzanie subskrypcji…
 subscription-error-title = Błąd podczas potwierdzania subskrypcji…
+subscription-noplanchange-title = Ta zmiana planu subskrypcji nie jest obsługiwana
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
