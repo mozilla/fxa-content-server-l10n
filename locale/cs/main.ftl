@@ -106,7 +106,7 @@ payment-error-retry-button = Zkusit znovu
 payment-error-manage-subscription-button = Správa předplatného
 country-currency-mismatch = Měna použitá pro toto předplatné není platná pro zemi spojenou s vaší platbou.
 currency-currency-mismatch = Změna měny bohužel není možná.
-no-subscription-upgrades = Nyní bohužel nelze program vašeho předplatného změnit. Zkuste to prosím později.
+no-subscription-change = Promiňte. Svůj plán předplatného nemůžete změnit.
 expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
 insufficient-funds-error = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
 withdrawal-count-limit-exceeded-error = Vypadá to, že je vyčerpán limit vaší karty. Zkuste použít jinou.
@@ -132,7 +132,7 @@ subscription-create-title = Nastavení předplatného
 subscription-success-title = Potvrzení předplatného
 subscription-processing-title = Potvrzování předplatného…
 subscription-error-title = Potvrzení předplatného se nezdařilo…
-subscription-noupgrade-title = Změna programu předplatného není podporována
+subscription-noplanchange-title = Tato změna předplatného není podporována
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
