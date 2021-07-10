@@ -45,7 +45,7 @@ payment-error-retry-button = Spróbuj ponownie
 payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
 country-currency-mismatch = Waluta tej subskrypcji nie jest prawidłowa w kraju powiązanym z płatnością.
 currency-currency-mismatch = Przepraszamy. Nie można zmieniać waluty.
-no-subscription-upgrades = Przepraszamy. W tej chwili nie możesz rozszerzyć ani obniżyć swojej subskrypcji. Zapraszamy wkrótce.
+no-subscription-change = Przepraszamy. Nie można zmieniać planu subskrypcji.
 expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
 insufficient-funds-error = Wygląda na to, że karta ma niewystarczające środki. Spróbuj użyć innej karty.
 withdrawal-count-limit-exceeded-error = Wygląda na to, że ta transakcja spowoduje przekroczenie limitu kredytowego. Spróbuj użyć innej karty.
@@ -71,7 +71,6 @@ subscription-create-title = Skonfiguruj swoją subskrypcję
 subscription-success-title = Potwierdzenie subskrypcji
 subscription-processing-title = Potwierdzanie subskrypcji…
 subscription-error-title = Błąd podczas potwierdzania subskrypcji…
-subscription-noupgrade-title = Zmiany poziomu subskrypcji są nieobsługiwane
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

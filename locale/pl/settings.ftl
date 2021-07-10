@@ -610,6 +610,12 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 auth-error-102 = Nieznane konto
 auth-error-103 = Niepoprawne hasło
 auth-error-110 = Nieprawidłowy token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie za { $retryAfter }.
 auth-error-138 = Niezweryfikowana sesja
 auth-error-155 = Nie odnaleziono tokena TOTP
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
