@@ -127,6 +127,7 @@ flow-container-back = 戻る
 # HeaderLockup component
 
 header-menu-open = メニューを閉じる
+header-menu-closed = サイトナビゲーションメニュー
 header-back-to-top-link =
     .title = トップに戻る
 header-title = { -product-firefox-accounts }
@@ -141,6 +142,7 @@ modal-cancel-button = キャンセル
 
 ## Modal Verify Session
 
+mvs-enter-verification-code = 確認コードを入力してください
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
@@ -199,6 +201,8 @@ pw-change-stay-safe = 安全のためにパスワードを使い回ししない�
 pw-change-least-8-chars = 少なくとも 8 文字以上でなくてはいけません
 pw-change-not-contain-email = メールアドレスと同じにはできません
 pw-change-must-match = 新しいパスワードを再入力して一致させる必要があります
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = <linkExternal>よくあるパスワード</linkExternal> は使えません
 pw-change-cancel-button = キャンセル
 pw-change-save-button = 保存
 pw-change-forgot-password-link = パスワードを忘れましたか？
@@ -305,6 +309,11 @@ tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
 tfa-button-cant-scan-qr = コードをスキャンできませんか？
+# When the user cannot use a QR code.
+tfa-enter-secret-key = この秘密キーを認証アプリに入力してください:
+tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
+tfa-input-enter-totp =
+    .label = セキュリティコードを入力
 
 ##
 

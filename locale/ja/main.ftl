@@ -79,6 +79,7 @@ payment-zip =
 payment-cancel-btn = キャンセル
 payment-update-btn = 更新
 payment-pay-btn = 今すぐ払う
+payment-validate-name-error = お名前を入力してください。
 
 ## subscription redirect
 
