@@ -500,6 +500,12 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 auth-error-102 = Tuntematon tili
 auth-error-103 = Virheellinen salasana
 auth-error-110 = Virheellinen poletti
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-138 = Vahvistamaton istunto
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
