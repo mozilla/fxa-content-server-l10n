@@ -28,6 +28,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox アカウント
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -60,6 +61,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } 弁当メニュー
+bento-menu-firefox-title = { -brand-firefox } はユーザーのオンラインプライバシーに立ち向かう専門技術を持っています。
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
+bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
+bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -101,6 +110,7 @@ cs-sign-out-button = ログアウト
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } メニュー
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -116,6 +126,7 @@ flow-container-back = 戻る
 
 # HeaderLockup component
 
+header-menu-open = メニューを閉じる
 header-back-to-top-link =
     .title = トップに戻る
 header-title = { -product-firefox-accounts }
