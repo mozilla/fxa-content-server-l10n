@@ -40,7 +40,7 @@ settings-subscriptions-title = 購読
 terms = 利用規約
 privacy = プライバシー通知
 
-## plan details
+## Subscription titles
 
 
 ##  $productName (String) - The name of the subscribed product.
@@ -116,11 +116,17 @@ default-input-error = この項目は必須です
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = { $date } に購読をキャンセルしました。
+reactivate-panel-copy = <strong>{ $date }</strong> に { $name } へのアクセスができなくなります。
+reactivate-success-copy = ありがとうございます！ これで準備完了です。
+reactivate-success-button = 閉じる
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = 購読の読み込みに問題があります
+sub-item-missing-msg = また後で試してください。
 
 ## subscription route index
 
@@ -129,6 +135,9 @@ default-input-error = この項目は必須です
 
 
 ## plan-details
+
+
+## payment-processing
 
 
 ## payment confirmation

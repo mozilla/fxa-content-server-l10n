@@ -101,6 +101,11 @@ cs-sign-out-button = ログアウト
 
 # DropDownAvatarMenu component
 
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
+drop-down-menu-sign-out = ログアウト
 
 ## Flow Container
 
@@ -125,6 +130,10 @@ modal-cancel-button = キャンセル
 
 ## Modal Verify Session
 
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = <email>{ $email }</email> 宛に送信された確認コードを 5 分以内に入力してください。
 msv-cancel-button = キャンセル
 msv-submit-button = 確認
 
@@ -134,6 +143,7 @@ nav-settings = 設定
 nav-profile = プロファイル
 nav-security = セキュリティ
 nav-connected-services = 接続済みサービス
+nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace recovery code
 
@@ -155,11 +165,11 @@ avatar-page-retake-photo = 写真を撮り直す
 avatar-page-cancel-button = キャンセル
 avatar-page-save-button = 保存する
 avatar-page-zoom-out-button =
-  .title = ズームアウト
+    .title = ズームアウト
 avatar-page-zoom-in-button =
-  .title = ズームイン
+    .title = ズームイン
 avatar-page-rotate-button =
-  .title = 回転
+    .title = 回転
 avatar-page-camera-error = カメラを初期化できませんでした
 avatar-page-new-avatar =
     .alt = 新しいプロファイル写真
@@ -345,11 +355,16 @@ se-heading = 予備アドレス
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } が主要アドレスになりました。
 se-set-primary-error = 主要アドレスの変更時に問題が発生しました。
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } の削除が完了しました。
 # Button to remove the secondary email
 se-remove-email =
     .title = メールアドレスを削除
 # Button to make secondary email the primary
 se-make-primary = 主要アドレスに設定
+se-default-content = 主要アドレスでログインできない場合の予備アカウントです。
 se-content-note =
     注記: 予備アドレスは情報を復元しません — 復元させるには、
     <a>回復用キー</a> が必要です。
@@ -362,10 +377,12 @@ se-content-note =
 tfa-row-header = 2 段階認証
 tfa-row-disabled = 2 段階認証が無効化されました。
 tfa-row-enabled = 有効
+tfa-row-not-set = 未設定
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
+tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
@@ -375,4 +392,10 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 ## Auth-server based errors that originate from backend service
 
 auth-error-103 = パスワードが正しくありません
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
 auth-error-1008 = 新しいパスワードは別のものにしてください
