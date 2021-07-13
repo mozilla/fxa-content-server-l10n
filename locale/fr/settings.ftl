@@ -238,11 +238,11 @@ avatar-page-cancel-button = Annuler
 avatar-page-save-button = Enregistrer
 avatar-page-saving-button = Enregistrement…
 avatar-page-zoom-out-button =
-  .title = Diminuer la taille
+    .title = Diminuer la taille
 avatar-page-zoom-in-button =
-  .title = Augmenter la taille
+    .title = Augmenter la taille
 avatar-page-rotate-button =
-  .title = Faire pivoter
+    .title = Faire pivoter
 avatar-page-camera-error = Impossible d’initialiser l’appareil photo
 avatar-page-new-avatar =
     .alt = nouvelle image de profil
@@ -520,6 +520,12 @@ tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
 auth-error-102 = Compte inconnu
 auth-error-103 = Mot de passe incorrect
 auth-error-110 = Jeton invalide
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
 auth-error-138 = Session non vérifiée
 auth-error-155 = Jeton TOTP introuvable
 auth-error-1008 = Votre nouveau mot de passe doit être différent

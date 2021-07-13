@@ -29,7 +29,7 @@ payment-error-retry-button = Veuillez réessayer
 payment-error-manage-subscription-button = Gérer mon abonnement
 country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
 currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
-no-subscription-upgrades = Il n’est malheureusement pas possible de mettre à jour votre abonnement pour le moment. Veuillez réessayer ultérieurement.
+no-subscription-change = Désolé. Vous ne pouvez pas modifier votre forfait d’abonnement.
 expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
@@ -55,7 +55,7 @@ subscription-create-title = Configuration de votre abonnement
 subscription-success-title = Confirmation d’abonnement
 subscription-processing-title = Confirmation de l’abonnement…
 subscription-error-title = Erreur lors de la confirmation de l’abonnement…
-subscription-noupgrade-title = Les changements de niveau d’abonnement ne sont pas pris en charge
+subscription-noplanchange-title = Ce changement de forfait d’abonnement n’est pas pris en charge
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
