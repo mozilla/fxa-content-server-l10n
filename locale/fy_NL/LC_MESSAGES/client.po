@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-14 11:43+0000\n"
+"PO-Revision-Date: 2021-07-14 11:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1630,11 +1630,11 @@ msgstr "Kontrolearje jo ferbûne Firefox-apparaten oo it oanmeldingsbefêstiging
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Ljepblêd opnij ferstjoere"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Komt it ljepblêd net oan? Stjoer yn stee dêrfan in e-mailberjocht"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

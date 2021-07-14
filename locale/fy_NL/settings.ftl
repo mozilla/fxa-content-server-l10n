@@ -244,11 +244,11 @@ avatar-page-cancel-button = Annulearje
 avatar-page-save-button = Bewarje
 avatar-page-saving-button = Bewarje…
 avatar-page-zoom-out-button =
-  .title = Utzoome
+    .title = Utzoome
 avatar-page-zoom-in-button =
-  .title = Ynzoome
+    .title = Ynzoome
 avatar-page-rotate-button =
-  .title = Draaie
+    .title = Draaie
 avatar-page-camera-error = Koe kamera net inisjalisearje
 avatar-page-new-avatar =
     .alt = nije profylôfbylding
@@ -537,6 +537,12 @@ tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 auth-error-102 = Unbekend account
 auth-error-103 = Ferkeard wachtwurd
 auth-error-110 = Unjildich token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Jo hawwe it te faak probearre. Probearje it oer { $retryAfter } opnij.
 auth-error-138 = Net-ferifiearre sesje
 auth-error-155 = TOTP-token net fûn
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze
