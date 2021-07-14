@@ -29,6 +29,7 @@ payment-error-retry-button = Tekrar dene
 payment-error-manage-subscription-button = Aboneliğimi yönet
 country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
 currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
+no-subscription-change = Maalesef abonelik planınızı değiştiremezsiniz.
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
@@ -54,7 +55,7 @@ subscription-create-title = Aboneliğinizi ayarlayın
 subscription-success-title = Abonelik onayı
 subscription-processing-title = Abonelik onaylanıyor…
 subscription-error-title = Abonelik onaylanırken hata oluştu...
-subscription-noupgrade-title = Abonelik planı değişiklikleri desteklenmiyor
+subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -170,6 +171,7 @@ input-error-is-required = { $label } gereklidir
 
 ## subscription upgrade
 
+product-plan-change-heading = Değişikliğinizi gözden geçirin
 sub-change-failed = Plan değişikliği başarısız oldu
 sub-update-payment-title = Ödeme bilgileri
 sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
