@@ -554,6 +554,12 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
 auth-error-110 = Μη έγκυρo token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
 auth-error-138 = Μη επαληθευμένη συνεδρία
 auth-error-155 = Δεν βρέθηκε TOTP token
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός

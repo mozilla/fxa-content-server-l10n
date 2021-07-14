@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-10 15:24+0000\n"
+"PO-Revision-Date: 2021-07-14 17:51+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1612,7 +1612,7 @@ msgstr "Επιτυχής σύνδεση"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Παρακαλούμε κλείστε αυτή τη σελίδα και συνεχίστε στην άλλη συσκευή."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
@@ -1628,11 +1628,11 @@ msgstr "Αν υποπτεύεστε ότι κάποιος προσπαθεί ν�
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Αποστολή ειδοποίησης push σύνδεσης"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Ελέγξτε τις συσκευές που έχετε συνδέσει στο Firefox για την καρτέλα επιβεβαίωσης σύνδεσης που έχουμε στείλει."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1640,7 +1640,7 @@ msgstr "Νέα αποστολή καρτέλας"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Δεν βλέπετε την καρτέλα; Δοκιμάστε με αποστολή email"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
