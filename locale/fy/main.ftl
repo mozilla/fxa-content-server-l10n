@@ -29,7 +29,7 @@ payment-error-retry-button = Opnij probearje
 payment-error-manage-subscription-button = Myn abonnemint beheare
 country-currency-mismatch = De faluta fan dit abonnemint is net jildich foar it lân dat oan jo betelling keppele is.
 currency-currency-mismatch = Sorry. Jo kinne net wikselje tusken faluta.
-no-subscription-upgrades = Sorry. Jo kinne jo abonnemint op dit stuit net opwurdearje of downgrade. Probearje it ynkoarten nochris.
+no-subscription-change = Sorry. Jo kinne jo abonnemint net wizigje.
 expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probearje in oare kaart.
 insufficient-funds-error = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 withdrawal-count-limit-exceeded-error = It liket derop dat jo mei dizze transaksje oer jo kredytlimyt gean. Probearje in oare kaart.
@@ -55,7 +55,7 @@ subscription-create-title = Jo abonnemint ynstelle
 subscription-success-title = Abonnemintsbefêstiging
 subscription-processing-title = Abonnemint befêstigje…
 subscription-error-title = Flater by befêstigjen abonnemint…
-subscription-noupgrade-title = Wizigingen yn abonnemintsnivo's  wurde net stipe
+subscription-noplanchange-title = Dizze abonnemintswiziging wurdt net stipe
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
