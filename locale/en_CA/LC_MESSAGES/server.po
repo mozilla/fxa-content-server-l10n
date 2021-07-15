@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-15 23:07+0000\n"
+"PO-Revision-Date: 2021-07-15 23:11+0000\n"
 "Last-Translator: pdehaan <pdehaan@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_CA\n"
@@ -380,11 +380,11 @@ msgstr "Your subscription has been cancelled"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "We’ve cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "We’ve cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
