@@ -13,6 +13,7 @@
 
 payment-error-3b = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre divisas.
+no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
 
 ## settings
 
@@ -23,6 +24,7 @@ currency-currency-mismatch = Lo sentimos. No puedes cambiar entre divisas.
 ## Subscription titles
 
 subscription-success-title = Confirmación de suscripción
+subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -33,6 +35,7 @@ subscription-success-title = Confirmación de suscripción
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
 payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
@@ -66,6 +69,12 @@ payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } a la semana
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
