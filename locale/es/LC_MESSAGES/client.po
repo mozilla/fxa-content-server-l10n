@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-14 02:18+0000\n"
+"PO-Revision-Date: 2021-07-15 18:29+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -1604,7 +1604,7 @@ msgstr "Conectado exitosamente"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Por favor, cierra esta página y continúa en el otro dispositivo."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
@@ -1616,7 +1616,7 @@ msgstr "Confirmar inicio de sesión"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Si sospechas que alguien está intentando ganar acceso a tu cuenta, <a id=\"change-password\" href=\"/settings/change_password\">por favor cambia tu contraseña.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1790,11 +1790,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Debido a que esta información es crítica para tu seguridad, Firefox la elimina para protegerlo cuando se restablece tu contraseña para evitar que otras personas accedan a ella."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Obtener una clave de recuperación"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
@@ -1802,11 +1802,11 @@ msgstr "Confirmar contraseña"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Por favor, confirma tu contraseña para %(escapedEmail)s para generar tu clave de recuperación."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Ingresa tu clave de recuperación para confirmar que has guardado una copia."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"

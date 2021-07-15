@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-07-14 02:18+0000\n"
+"PO-Revision-Date: 2021-07-15 18:31+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -33,14 +33,14 @@ msgstr ""
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Si todavía no has descargado %(productName)s, comienza a usar todas las funcionalidades incluidas en tu suscripción:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:5
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "¿Preguntas sobre tu suscripción? Nuestro <a href=\"%(subscriptionSupportUrl)s\">equipo de soporte</a> está aquí para ayudarte."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:7
 #: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
@@ -70,7 +70,7 @@ msgstr "Nuevo inicio de sesión en %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Se requiere cambio de contraseña"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -490,15 +490,15 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
-msgstr ""
+msgstr "Sinceramente,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "El equipo de %(productName)s"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "Puedes asegurarte de que tu método de pago y la información de tu cuenta están actualizados aquí:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
