@@ -29,7 +29,7 @@ payment-error-retry-button = Försök igen
 payment-error-manage-subscription-button = Hantera min prenumeration
 country-currency-mismatch = Prenumerationens valuta är inte giltig för det land som är kopplat till din betalning.
 currency-currency-mismatch = Tyvärr. Du kan inte växla mellan valutor.
-no-subscription-upgrades = Förlåt. Du kan inte uppgradera eller nedgradera din prenumeration just nu. Kom tillbaka snart.
+no-subscription-change = Tyvärr. Du kan inte ändra din prenumerationsplan.
 expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
 insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
@@ -55,7 +55,7 @@ subscription-create-title = Konfigurera din prenumeration
 subscription-success-title = Prenumerationsbekräftelse
 subscription-processing-title = Bekräftar prenumerationen...
 subscription-error-title = Fel vid bekräftelse av prenumeration...
-subscription-noupgrade-title = Ändringar av prenumerationsnivå stöds inte
+subscription-noplanchange-title = Ändringen av prenumerationsplanen stöds inte
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

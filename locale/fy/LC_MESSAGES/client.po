@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-08 22:07+0000\n"
-"PO-Revision-Date: 2021-05-10 12:26+0000\n"
+"POT-Creation-Date: 2021-07-15 22:07+0000\n"
+"PO-Revision-Date: 2021-07-14 11:44+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1609,11 +1609,11 @@ msgstr "Mei sukses ferbûn"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Slút dizze side en gean fierder op it oare apparaat."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Nije oanmelding by Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1621,23 +1621,23 @@ msgstr "Oanmelding befêstigje"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "As jo tinke dat ien tagong ta jo account probearret te krijen, <a id=\"change-password\" href=\"/settings/change_password\">wizigje dan jo wachtwurd.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Pushnotifikaasje foar oanmelden ferstjoeren"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Kontrolearje jo ferbûne Firefox-apparaten oo it oanmeldingsbefêstigingsljepblêd dat wy ferstjoerd hawwe."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Ljepblêd opnij ferstjoere"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Komt it ljepblêd net oan? Stjoer yn stee dêrfan in e-mailberjocht"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
