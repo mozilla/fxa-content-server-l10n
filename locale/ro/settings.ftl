@@ -25,11 +25,21 @@ alert-bar-close-message = Închide mesajul
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
-    { $capitalization ->
-       *[lower-indefinite-article] conturi Firefox
-        [lower-definite-article] conturile Firefox
-        [upper-indefinite-article] Conturi Firefox
-        [upper-definite-article] Conturile Firefox
+    { $case ->
+       *[indefinite-article]
+            { $capitalization ->
+               *[lower] conturi Firefox
+                [upper] Conturi Firefox
+            }
+        [definite-article]
+            { $capitalization ->
+               *[lower] conturile Firefox
+                [upper] Conturile Firefox
+            }
+        [genitive-or-dative]
+            { $capitalization ->
+               *[lower] conturilor Firefox
+            }
     }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
@@ -51,12 +61,12 @@ product-firefox-monitor = Firefox Monitor
 
 ##  Application page title and footer
 
-app-default-title = { -product-firefox-accounts(capitalization: "upper-indefinite-article") }
+app-default-title = { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts(capitalization: "upper-indefinite-article") }
+app-page-title = { $title } | { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
 app-footer-mozilla-logo-label = Sigla { -brand-mozilla }
 app-footer-privacy-notice = Notificare privind confidențialitatea site-ului web
 app-footer-terms-of-service = Termenii de utilizare a serviciului
