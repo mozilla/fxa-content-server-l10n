@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-16 11:32+0000\n"
+"PO-Revision-Date: 2021-07-16 11:34+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -375,11 +375,11 @@ msgstr "המינוי שלך בוטל"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "ביטלנו את המינוי שלך ל־%(productName)s עקב ריבוי ניסיונות תשלום כושלים. כדי לקבל שוב גישה, יש להפעיל מינוי חדש עם אמצעי תשלום מעודכן."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "ביטלנו את המינוי שלך ל־%(productName)s עקב ריבוי ניסיונות תשלום כושלים.  כדי לקבל שוב גישה, יש להפעיל מינוי חדש עם אמצעי תשלום מעודכן."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -404,7 +404,7 @@ msgstr "חיוב של %(invoiceTotal)s בתאריך %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">הצגת החשבונית שלך</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -417,7 +417,7 @@ msgstr "מספר חשבונית: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "הצגת חשבונית: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
