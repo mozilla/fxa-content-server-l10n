@@ -44,11 +44,21 @@ alert-bar-close-message = Închide mesajul
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
-    { $capitalization ->
-       *[lower-indefinite-article] cont Firefox
-        [lower-definite-article] contul Firefox
-        [upper-indefinite-article] Cont Firefox
-        [upper-definite-article] Contul Firefox
+    { $case ->
+       *[indefinite-article]
+            { $capitalization ->
+               *[lower] cont Firefox
+                [upper] Cont Firefox
+            }
+        [definite-article]
+            { $capitalization ->
+               *[lower] contul Firefox
+                [upper] Contul Firefox
+            }
+        [genitive-or-dative]
+            { $capitalization ->
+               *[lower] contului Firefox
+            }
     }
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
@@ -268,7 +278,7 @@ delete-account-header =
     .title = Șterge contul
 delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
-delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(capitalization: "lower-definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
+delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(case: "definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
 delete-account-chk-box-1 =
     .label = Orice abonamente cu plată pe care le ai vor fi anulate
 delete-account-continue-button = Continuă
