@@ -29,7 +29,7 @@ payment-error-retry-button = Hyšći raz wopytaś
 payment-error-manage-subscription-button = Abonoment zastojaś
 country-currency-mismatch = Pjenjeze toś togo abonementa njejsu płaśiwe za kraj, kótaryž jo z wašym płaśenim zwězany.
 currency-currency-mismatch = Bóžko njamóžośo pjenjeze pśeměniś.
-no-subscription-upgrades = Bóžko njamóžośo swój abonement aktualizěrowaś abo na nišy schójźeńk stajiś. Pšosym pśiźćo skóro zasej.
+no-subscription-change = Bóžko njamóžośo swój abonementowy plan změniś.
 expired-card-error = Zda se, ako by waša kreditna kórta spadnuła. Wopytajśo drugu kórrtu.
 insufficient-funds-error = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 withdrawal-count-limit-exceeded-error = Zda se, ako by wy z toś teju transakciju swój kórtowy limit pśekšocył. Wopytajśo drugu kórtu.
@@ -55,7 +55,7 @@ subscription-create-title = Waš abonement konfigurěrowaś
 subscription-success-title = Wobkšuśenje abonementa
 subscription-processing-title = Abonement se wobkšuśijo…
 subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
-subscription-noupgrade-title = Změny abonementowego schójźeńka se njepódpěraju
+subscription-noplanchange-title = Toś ta změna abonementowego plana se njepódpěra
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.

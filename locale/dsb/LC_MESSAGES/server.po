@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-06-09 15:03+0000\n"
+"PO-Revision-Date: 2021-07-16 13:49+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -364,8 +364,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s na %(productPaymentCycle)s do %(paymentAmountNew)s změnijo. Pótom teke jadnorazowe pśipisanje %(paymentProrated)s "
-"na konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
+"Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s na %(productPaymentCycle)s do %(paymentAmountNew)s změnijo. Pótom teke jadnorazowe pśipisanje %(paymentProrated)s na"
+" konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -378,15 +378,15 @@ msgstr "Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, sna�
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Waš abonement jo se wupowěźeł"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Smy wupowěźeli waš abonement %(productName)s, dokulaž někotare płaśeńske wopyty njejsu se raźili. Aby znowegu pśistup měł, startujśo nowy abonement ze zaktualizěrowaneju płaśeńskeju metodu."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Smy wupowěźeli waš abonement %(productName)s, dokulaž někotare płaśeńske wopyty njejsu se raźili. Aby znowegu pśistup měł, startujśo nowy abonement ze zaktualizěrowaneju płaśeńskeju metodu."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -411,7 +411,7 @@ msgstr "%(invoiceTotal)s dnja %(invoiceDateOnly)s wópisane"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Wašu zliceńku pokazaś</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -424,7 +424,7 @@ msgstr "Numer zliceńki: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Zliceńku pokazaś: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -1132,8 +1132,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. "
-#~ "Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
+#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. Waš "
+#~ "abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Wjeliki źěk, až sćo aboněrował %(productName)s!"
@@ -1142,15 +1142,15 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgstr "Sćo njedawno wukašował swójo konto Firefox. Togodla smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło dnja %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło %(invoiceDateOnly)s. Waša słužba až do kóńca wašeje aktualnego casa wótlicenja dalej źo, "
-#~ "pótakem do %(serviceLastActiveDateOnly)s."
+#~ "Smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło %(invoiceDateOnly)s. Waša słužba až do kóńca wašeje aktualnego casa wótlicenja dalej źo, pótakem"
+#~ " do %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změnijo. Pótom teke jadnorazowe pśipisanje "
 #~ "%(paymentProrated)s $ na konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
@@ -1162,12 +1162,12 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s $ za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. "
-#~ "Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
+#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s $ za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. Waš "
+#~ "abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změnijo. Pótom teke musyśo jadnorazowe pśipisanje "
 #~ "%(paymentProrated)s $ płaśiś, aby se wušy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
@@ -1406,8 +1406,7 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. Aby nejwěcej ze Sync wuwónoźeł zwězajśo z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</"
-#~ "a>."
+#~ "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. Aby nejwěcej ze Sync wuwónoźeł zwězajśo z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Pla Sync pśizjawiś"
@@ -1572,11 +1571,11 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgstr "Gronidło slědk stajiś"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž "
-#~ "jo z nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
+#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž jo z "
+#~ "nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -1601,8 +1600,7 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sćo swójomu kontoju Firefox wuspěšnje %(secondaryEmail)s ako drugu e-mailowu adresu wobkšuśił. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adrese pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1687,8 +1685,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske "
-#~ "znamjenja a historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
+#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske znamjenja a "
+#~ "historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
 
 #~ msgid "env"
 #~ msgstr "env"

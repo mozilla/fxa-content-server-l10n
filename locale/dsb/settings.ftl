@@ -244,11 +244,11 @@ avatar-page-cancel-button = Pśetergnuś
 avatar-page-save-button = Składowaś
 avatar-page-saving-button = Składujo se…
 avatar-page-zoom-out-button =
-  .title = Pómjeńšyś
+    .title = Pómjeńšyś
 avatar-page-zoom-in-button =
-  .title = Pówětšyś
+    .title = Pówětšyś
 avatar-page-rotate-button =
-  .title = Wobwjertnuś
+    .title = Wobwjertnuś
 avatar-page-camera-error = Kamera njedajo se inicializěrowaś
 avatar-page-new-avatar =
     .alt = nowy profilowy wobraz
@@ -531,6 +531,12 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
 auth-error-110 = Njepłaśiwy token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
 auth-error-138 = Njewobkšuśone pósejźenje
 auth-error-155 = TOTP-token njejo se namakał
 auth-error-1008 = Wašo nowe gronidło musy druge byś

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-16 13:42+0000\n"
+"PO-Revision-Date: 2021-07-16 13:44+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1625,15 +1625,15 @@ msgstr "Pśi pśizjawjenju eksternu powěźeńku pósłaś"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Pśeglědujśo swóje zwězane rědy Fiefox za pśizjawjeński wobkšuśeński rejtarik, kótaryž smy pósłali."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Rejtarik znowego pósłaś"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Rejtarik njedochada? Sćelśo město togo mejlku"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
