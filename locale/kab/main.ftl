@@ -24,8 +24,10 @@ general-error-heading = Tuccda n usnas tamatut
 basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 payment-error-1 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Ɛreḍ tikkelt-nniḍen neɣ  nermes adabu amazan n tkarḍa-k•m n usmad.
 payment-error-2 = Hmm. Yella wugur deg usireg n uxelleṣ-ik•im. Nermes adabu amazan n tkarḍa-k•m n usmad.
+payment-error-3b = Tuccḍa ur netturaǧu ara teḍra-d deg usesfer lexlaṣ-ik·im, ɛreḍ tikkelt-nniḍen.
 payment-error-retry-button = Ɛreḍ tikkelt-nniḍen
 payment-error-manage-subscription-button = Sefrek amulteɣ-inu
+country-currency-mismatch = Tadrimt n umulteɣ-a d arameɣtu i tmurt icudden ɣer lexlaṣ-ik·im.
 currency-currency-mismatch = Nesḥassef. Ur tezmireḍ ara ad tnegzeḍ seg yibenk ɣer wayeḍ.
 no-subscription-change = Nesḥassef. Ur tezmireḍ ara ad tbeddleḍ aɣawas n ujerred-inek·inem.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
@@ -53,6 +55,7 @@ subscription-create-title = Sbadu amulteɣ-ik·im
 subscription-success-title = Asentem n umulteɣ
 subscription-processing-title = Asentem n umulteɣ...
 subscription-error-title = Tuccḍa deg usentem n umulteɣ...
+subscription-noplanchange-title = Asnifel n uɣawas n umulteɣ ur yettusefrak ara
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -207,6 +210,8 @@ sub-update-confirm-with-legal-links-year =
 ##
 
 sub-change-submit = Sentem abeddel
+sub-change-indicator =
+    .aria-label = Anamal n ubeddel
 sub-update-current-plan-label = Aɣawas amiran
 sub-update-new-plan-label = Aɣawas amaynut
 sub-update-total-label = Asemday amaynut
@@ -338,6 +343,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Ugur deg usali n umsaɣ
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
+sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
 pay-update-manage-btn = Sefrek
 
 ## subscription create
