@@ -64,6 +64,8 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Umuɣ Bento n { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -158,9 +160,11 @@ drop-down-menu-title = Umuɣ { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ffeɣ
+drop-down-menu-sign-out-error = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna.
 
 ## Flow Container
 
+flow-container-back = Uɣal ɣer deffir
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -533,6 +537,12 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 auth-error-102 = Amiḍan arussin
 auth-error-103 = Awal uffir d arameɣtu
 auth-error-110 = Ajuṭun d arameɣtu
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍen { $retryAfter }.
 auth-error-138 = Ur tettwasenqed ara tɣimit
 auth-error-155 = Ulac ajiṭun TOTP
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
