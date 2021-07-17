@@ -539,6 +539,12 @@ tfa-row-change-modal-explain = Ti na vegns betg a pudair revocar questa acziun.
 auth-error-102 = Conto nunenconuschent
 auth-error-103 = Pled-clav nuncorrect
 auth-error-110 = Token nunvalid
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
 auth-error-138 = Sesida betg verifitgada
 auth-error-155 = Betg chattà il token TOTP
 auth-error-1008 = Tes pled-clav nov sto esser different

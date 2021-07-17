@@ -29,6 +29,7 @@ payment-error-retry-button = Reempruvar
 payment-error-manage-subscription-button = Administrar mes abunament
 country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
 currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
+no-subscription-change = Perstgisa. Ti na pos betg midar tes plan d'abunaments.
 expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
 insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
 withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
@@ -54,6 +55,7 @@ subscription-create-title = Configurescha tes abunament
 subscription-success-title = Conferma da l'abunament.
 subscription-processing-title = Confermar l'abunament…
 subscription-error-title = Errur cun confermar l'abunament…
+subscription-noplanchange-title = La midada da quest plan d'abunaments na vegn betg sustegnida
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
