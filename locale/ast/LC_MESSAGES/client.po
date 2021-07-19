@@ -1603,7 +1603,7 @@ msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr "Confirmar aniciu de sesión"
+msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
