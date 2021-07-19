@@ -180,6 +180,8 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Închide meniul
+header-back-to-top-link =
+    .title = Înapoi în partea de sus
 header-title = Cont Firefox
 
 ## Input Password
@@ -279,8 +281,15 @@ delete-account-header =
 delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
 delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(case: "definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
+delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
 delete-account-chk-box-1 =
     .label = Orice abonamente cu plată pe care le ai vor fi anulate
+delete-account-chk-box-2 =
+    .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Reactivarea cu acest e-mail este posibil să nu îți restabilească informațiile salvate
+delete-account-chk-box-4 =
+    .label = Orice extensie și temă pe care le-ai publicat pe addons.mozilla.org vor fi șterse
 delete-account-continue-button = Continuă
 delete-account-password-input =
     .label = Introdu parola
@@ -413,6 +422,7 @@ security-heading = Securitate
 row-defaults-action-add = Adaugă
 row-defaults-action-change = Modifică
 row-defaults-action-disable = Dezactivează
+row-defaults-status = Niciunul
 
 ## Recovery key sub-section on main Settings page
 
