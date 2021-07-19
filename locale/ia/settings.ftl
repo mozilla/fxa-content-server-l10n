@@ -529,6 +529,12 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
 auth-error-110 = Token invalide
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-138 = Session non verificate
 auth-error-155 = Token TOTP non trovate
 auth-error-1008 = Tu nove contrasigno debe esser differente
