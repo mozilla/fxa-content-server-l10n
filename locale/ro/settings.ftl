@@ -182,7 +182,7 @@ get-data-trio-print =
 header-menu-open = Închide meniul
 header-back-to-top-link =
     .title = Înapoi în partea de sus
-header-title = Cont Firefox
+header-title = { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
 
 ## Input Password
 
