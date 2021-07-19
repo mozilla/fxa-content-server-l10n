@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-19 19:23+0000\n"
+"PO-Revision-Date: 2021-07-19 19:31+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1615,15 +1615,15 @@ msgstr "Confirmar apertura de session"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Si tu suspecta que qualcuno tenta ganiar accesso a tu conto, <a id=\"change-password\" href=\"/settings/change_password\">cambia tu contrasigno.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Invia aviso de transmission credential "
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Verifica tu apparatos connectite a Firefox pro le scheda confirmation credential que nos ha inviate."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1631,7 +1631,7 @@ msgstr "Reinviar le scheda"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Scheda non arrivate? Inviar un e-mail in vice"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
