@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-15 22:40+0000\n"
+"PO-Revision-Date: 2021-07-22 17:51+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -67,7 +67,7 @@ msgstr "Згенерувати коди:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1330
 msgid "New sign-in to %(clientName)s"
-msgstr "Новий вхід в %(clientName)s"
+msgstr "Новий вхід у %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
@@ -865,7 +865,7 @@ msgstr "Код підтвердження облікового запису"
 
 #: lib/senders/email.js:830
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Схвалити новий вхід в %(clientName)s"
+msgstr "Схвалити новий вхід у %(clientName)s"
 
 #: lib/senders/email.js:879
 msgid "Sign-in code for %(serviceName)s"
