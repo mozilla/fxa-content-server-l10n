@@ -243,11 +243,11 @@ avatar-page-cancel-button = Annuller
 avatar-page-save-button = Gem
 avatar-page-saving-button = Gemmer…
 avatar-page-zoom-out-button =
-  .title = Zoom ud
+    .title = Zoom ud
 avatar-page-zoom-in-button =
-  .title = Zoom ind
+    .title = Zoom ind
 avatar-page-rotate-button =
-  .title = Roter
+    .title = Roter
 avatar-page-camera-error = Kunne ikke initialisere kamera
 avatar-page-new-avatar =
     .alt = nyt profilbillede
@@ -536,6 +536,12 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 auth-error-102 = Ukendt konto
 auth-error-103 = Forkert adgangskode
 auth-error-110 = Ugyldigt token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on the accept language in request.
+#                           (for example: "15 minutes")
+auth-error-114 = Du har prøvet for mange gange. Prøv igen om { $retryAfter }.
 auth-error-138 = Ubekræftet session
 auth-error-155 = TOTP-token ikke fundet
 auth-error-1008 = Din nye adgangskode skal være anderledes

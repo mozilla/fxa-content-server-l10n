@@ -29,7 +29,7 @@ payment-error-retry-button = Prøv igen
 payment-error-manage-subscription-button = Håndter mine abonnementer
 country-currency-mismatch = Dette abonnements valuta er ikke gyldig for det land, der er knyttet til din betaling.
 currency-currency-mismatch = Du kan ikke skifte mellem valutaer.
-no-subscription-upgrades = Du kan ikke opgradere eller nedgradere dit abonnement på nuværende tidspunkt. Prøv igen senere.
+no-subscription-change = Du kan ikke ændre din abonnementsplan.
 expired-card-error = Det ser ud til, at dit betalingskort er udløbet. Prøv med et andet kort.
 insufficient-funds-error = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 withdrawal-count-limit-exceeded-error = Det ser ud til, at denne transaktion vil overskride din kreditgrænse. Prøv med et andet kort.
@@ -55,7 +55,7 @@ subscription-create-title = Opsætning af dit abonnement
 subscription-success-title = Bekræftelse af abonnement
 subscription-processing-title = Bekræfter abonnement ...
 subscription-error-title = Der opstod en fejl under bekræftelse af abonnement...
-subscription-noupgrade-title = Ændringer af abonnementsniveau er ikke understøttet
+subscription-noplanchange-title = Denne ændring af abonnementsplan understøttes ikke
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
