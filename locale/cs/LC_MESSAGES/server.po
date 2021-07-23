@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-07-17 12:00+0000\n"
+"PO-Revision-Date: 2021-07-23 12:29+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -379,11 +379,11 @@ msgstr "Vaše předplatné bylo zrušeno"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby. Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby.  Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
