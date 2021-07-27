@@ -146,8 +146,6 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Pregledaj nadogradnju
-sub-update-failed = Neuspjelo aktualiziranje tarife
 sub-update-payment-title = Informacije o plaćanju
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -160,9 +158,9 @@ sub-update-copy =
 
 ##
 
-sub-update-submit = Potvrdi nadogradnju
-sub-update-indicator =
-    .aria-label = indikator nadogradnje
+sub-change-submit = Potvrdi promjenu
+sub-change-indicator =
+    .aria-label = indikator promjene
 sub-update-current-plan-label = Trenutačna tarifa
 sub-update-new-plan-label = Nova tarifa
 sub-update-total-label = Nov ukupni iznos
