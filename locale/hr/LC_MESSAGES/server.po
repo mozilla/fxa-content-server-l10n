@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-05-27 11:24+0000\n"
+"PO-Revision-Date: 2021-07-27 16:32+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -375,7 +375,7 @@ msgstr "Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Tvoja pretplata je prekinuta"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -408,7 +408,7 @@ msgstr "Naplaćeno %(invoiceTotal)s, %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Prikaži tvoj račun</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -421,7 +421,7 @@ msgstr "Broj računa: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Prikaži račun: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -484,7 +484,7 @@ msgstr "Ciklus naplate i plaćanje ostat će isti. Sljedeće opterećenje iznosi
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "Tvoja će se pretplata uskoro obnoviti"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
