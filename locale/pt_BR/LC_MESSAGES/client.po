@@ -1719,7 +1719,7 @@ msgstr "Confirmar senha"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Criar senha"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
