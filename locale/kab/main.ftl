@@ -404,3 +404,13 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
 payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
+
+## new user email form
+
+new-user-confirm-email =
+    .label = Sentem imayl-inek·inem
+new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
+new-user-email-validate = Imayl-a d arameɣtu
+new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
+new-user-existing-account-sign-in = Tesɛiḍ yakan amiḍan, <a>Qqen</a>
