@@ -431,3 +431,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Продовжити завантаження
 payment-confirmation-cc-card-ending-in = Картка, номер якої закінчується на { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
+new-user-email =
+    .placeholder = foxy@mozilla.comfoxy@mozilla.com
+    .label = Введіть адресу своєї е-пошти
+new-user-confirm-email =
+    .label = Підтвердьте електронну адресу
+new-user-subscribe-product-updates = Я хочу отримувати новини про продукти від { -brand-name-firefox }
+new-user-subscribe-product-assurance = Ми застосовуємо вашу електронну адресу лише для створення вашого облікового запису. Ми ніколи не продаватимемо її стороннім.
+new-user-email-validate = Ваша адреса е-пошти недійсна
+new-user-email-validate-confirm = Адреси е-пошти відрізняються
+new-user-existing-account-sign-in = У вас уже є обліковий запис. <a>Увійдіть до нього</a>
