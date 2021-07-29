@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:07+0000\n"
-"PO-Revision-Date: 2021-06-07 09:24+0000\n"
+"POT-Creation-Date: 2021-07-29 22:05+0000\n"
+"PO-Revision-Date: 2021-07-16 10:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444998452.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2771
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2862
 msgid "Here's your reminder to sync devices."
 msgstr "Dit is jo omtinken om apparaten te syngronisearjen."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2775
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2866
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke "
 "itselde."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2772
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2863
 msgid "Last reminder to sync devices!"
 msgstr "Lêste omtinken om apparaten te syngronisearjen!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2778
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2869
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke itselde."
 
@@ -37,16 +37,17 @@ msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêd
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 msgstr "As jo %(productName)s noch net download hawwe, litte wy dan no oan it wurk gean mei alle mooglikheden fan jo abonnemint:"
 
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8
-#: lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
+#: lib/senders/templates/subscriptionDowngrade.html:6 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4
+#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Fragen oer jo abonnemint? Us <a href=\"%(subscriptionSupportUrl)s\">stipeteam</a> is der om jo te helpen."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
-#: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionDowngrade.txt:5
+#: lib/senders/templates/subscriptionFirstInvoice.txt:8 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
+#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
+#: lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Fragen oer jo abonnemint? Us stipeteam is der om jo te helpen:"
 
@@ -66,7 +67,7 @@ msgstr "Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje
 msgid "Generate codes:"
 msgstr "Koaden generearje:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1330
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1333
 msgid "New sign-in to %(clientName)s"
 msgstr "Nije oanmelding by %(clientName)s"
 
@@ -179,7 +180,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Ynfo oer hoe't jo sjen kinne hokker wachtwurden Firefox foar jo bewarret."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1762
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1765
 msgid "Account recovery key generated"
 msgstr "Kaai foar accountwerstel generearre"
 
@@ -239,7 +240,7 @@ msgstr "Jo hawwe mei sukses in werstelkoade brûkt fan it folgjende appaaraat ô
 msgid "Consumed recovery code"
 msgstr "Brûkte werstelkoade"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1621
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1624
 msgid "New recovery codes generated"
 msgstr "Nije werstelkoaden generearre"
 
@@ -247,7 +248,7 @@ msgstr "Nije werstelkoaden generearre"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Jo hawwe mei sukses nije werstelkoaden generearre fan it folgjende apparaat ôf:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1812
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1815
 msgid "Account recovery key removed"
 msgstr "Kaai foar accountwerstel fuortsmiten"
 
@@ -263,7 +264,7 @@ msgstr "Dizze werstelkaai kin net mear brûkt wurde om jo account te werstellen.
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Jo hawwe mei sukses in kaai foar accountwerstel foar jo Firefox-account fuortsmiten fan it folgjende apparaat ôf:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1493
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1496
 msgid "Secondary email removed"
 msgstr "Sekundêr e-mailadres fuortsmiten"
 
@@ -299,7 +300,7 @@ msgstr "It folgjende: syngronisearje tusken jo apparaten!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync hâldt op persoanlike wize jo blêdwizers, wachtwurden en oare Firefox-gegevens op al jo apparaten itselde."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1376
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1379
 msgid "Set up next device"
 msgstr "It folgjende apparaat ynstelle"
 
@@ -307,7 +308,7 @@ msgstr "It folgjende apparaat ynstelle"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Hawwe jo fragen? Besykje %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1421
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1424
 msgid "Secondary email added"
 msgstr "Twadde e-mail tafoege"
 
@@ -324,7 +325,7 @@ msgstr "Moatte jo jo wachtwurd opnij ynstelle?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klik binnen in oer op de knop om in nij wachtwurd oan te meitsjen. De oanfraach is ôfkomstich fan it folgjende apparaat:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1144
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1147
 msgid "Create new password"
 msgstr "Nij wachtwurd oanmeitsje"
 
@@ -349,6 +350,30 @@ msgstr "Help ús ús tsjinstferliening te ferbetterjen troch dizze <a %(cancella
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Help ús ús tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:"
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2831
+msgid "Welcome to %(productName)s"
+msgstr "Wolkom by %(productName)s"
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
+msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
+msgid "Next, you'll create a Firefox account password and download %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
+msgid "Invoice number: %(invoiceNumber)s"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
+msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
+msgid "Next invoice: %(nextInvoiceDateOnly)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -381,15 +406,15 @@ msgstr "Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, út
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Jo abonnemint is opsein"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Wy hawwe jo abonnemint op %(productName)s opsein, omdat meardere betellingsbesykjen mislearre binne. Start in nij abonnemint mei in bywurke betellingsmetoade om wer tagong te krijen."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Wy hawwe jo abonnemint op %(productName)s opsein, omdat meardere betellingsbesykjen mislearre binne. Start in nij abonnemint mei in bywurke betellingsmetoade om wer tagong te krijen."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -414,7 +439,7 @@ msgstr "%(invoiceTotal)s yn rekkening brocht op %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Jo faktuer besjen</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -427,7 +452,7 @@ msgstr "Faktuernûmer: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Faktuer besjen: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -632,7 +657,7 @@ msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte ú
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Befêstigje dizze oanmelding fan it folgjende apparaat ôf foar ekstra befeiliging:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:833
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:836
 msgid "Confirm sign-in"
 msgstr "Oanmelding befêstigje"
 
@@ -740,6 +765,10 @@ msgstr "IP-adres: %(ip)s"
 msgid "Manage account:"
 msgstr "Account beheare:"
 
+#: lib/senders/templates/partials/paymentPlanDetails.html:1
+msgid "Payment details:"
+msgstr ""
+
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
 msgstr "PayPal"
@@ -816,196 +845,196 @@ msgstr "Abonneminten opsizze:"
 msgid "Update billing information:"
 msgstr "Fakturaasjegegevens bywurkje:"
 
-#: lib/senders/email.js:335
+#: lib/senders/email.js:338
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s op %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:340
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s op %(uaOS)s"
 
-#: lib/senders/email.js:366
+#: lib/senders/email.js:369
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (skatting)"
 
-#: lib/senders/email.js:373
+#: lib/senders/email.js:376
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (skat)"
 
-#: lib/senders/email.js:378
+#: lib/senders/email.js:381
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (skatting)"
 
-#: lib/senders/email.js:383
+#: lib/senders/email.js:386
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (skat)"
 
-#: lib/senders/email.js:582
+#: lib/senders/email.js:585
 msgid "Finish creating your account"
 msgstr "Oanmeitsjen fan jo account foltôgje"
 
-#: lib/senders/email.js:583 lib/senders/email.js:720
+#: lib/senders/email.js:586 lib/senders/email.js:723
 msgid "Confirm email"
 msgstr "E-mailadres befêstigje"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:653
 msgid "Verification code: %(code)s"
 msgstr "Ferifikaasjekoade: %(code)s"
 
-#: lib/senders/email.js:700
+#: lib/senders/email.js:703
 msgid "Reminder: Finish creating your account"
 msgstr "Oantinken: foltôgje it oanmeitsjen fan jo account"
 
-#: lib/senders/email.js:702
+#: lib/senders/email.js:705
 msgid "Final reminder: Activate your account"
 msgstr "Lêste oantinken: aktivearje jo account"
 
-#: lib/senders/email.js:757
+#: lib/senders/email.js:760
 msgid "Account authorization code"
 msgstr "Accountautorisaasjekoade"
 
-#: lib/senders/email.js:830
+#: lib/senders/email.js:833
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Nije oanmelding by %(clientName)s befêstigje"
 
-#: lib/senders/email.js:879
+#: lib/senders/email.js:882
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Oanmeldkoade foar %(serviceName)s"
 
-#: lib/senders/email.js:948
+#: lib/senders/email.js:951
 msgid "Confirm primary email"
 msgstr "Primêr e-mailadres befêstigje"
 
-#: lib/senders/email.js:949 lib/senders/email.js:1012 lib/senders/email.js:1084
+#: lib/senders/email.js:952 lib/senders/email.js:1015 lib/senders/email.js:1087
 msgid "Verify email"
 msgstr "E-mailadres ferifiearje"
 
-#: lib/senders/email.js:1011 lib/senders/email.js:1083
+#: lib/senders/email.js:1014 lib/senders/email.js:1086
 msgid "Confirm secondary email"
 msgstr "Sekundêr e-mailadres befêstigje"
 
-#: lib/senders/email.js:1143
+#: lib/senders/email.js:1146
 msgid "Reset your password"
 msgstr "Wachtwurd werinisjalisearje"
 
-#: lib/senders/email.js:1189 lib/senders/email.js:1259
+#: lib/senders/email.js:1192 lib/senders/email.js:1262
 msgid "Password updated"
 msgstr "Wachtwurd bywurke"
 
-#: lib/senders/email.js:1231 lib/senders/email.js:1289
+#: lib/senders/email.js:1234 lib/senders/email.js:1292
 msgid "Suspicious activity detected"
 msgstr "Fertochte aktiviteit detektearre"
 
-#: lib/senders/email.js:1331 lib/senders/email.js:1422 lib/senders/email.js:1458 lib/senders/email.js:1494 lib/senders/email.js:1528 lib/senders/email.js:1575 lib/senders/email.js:1622
-#: lib/senders/email.js:1669 lib/senders/email.js:1763 lib/senders/email.js:1813
+#: lib/senders/email.js:1334 lib/senders/email.js:1425 lib/senders/email.js:1461 lib/senders/email.js:1497 lib/senders/email.js:1531 lib/senders/email.js:1578 lib/senders/email.js:1625
+#: lib/senders/email.js:1672 lib/senders/email.js:1766 lib/senders/email.js:1816
 msgid "Manage account"
 msgstr "Account beheare"
 
-#: lib/senders/email.js:1371
+#: lib/senders/email.js:1374
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Account ferifiearre. Syngronisearje as folgjende stap in oar apparaat om it ynstellen te foltôgjen"
 
-#: lib/senders/email.js:1457
+#: lib/senders/email.js:1460
 msgid "Primary email updated"
 msgstr "Primêr e-mailadres fernijd"
 
-#: lib/senders/email.js:1527
+#: lib/senders/email.js:1530
 msgid "Two-step verification enabled"
 msgstr "Autentikaasje yn twa stappen ynskeakele"
 
-#: lib/senders/email.js:1574
+#: lib/senders/email.js:1577
 msgid "Two-step verification is off"
 msgstr "Autentikaasje yn twa stappen útskeakele"
 
-#: lib/senders/email.js:1668
+#: lib/senders/email.js:1671
 msgid "Recovery code used"
 msgstr "Werstelkoade brûkt"
 
-#: lib/senders/email.js:1725
+#: lib/senders/email.js:1728
 msgid "1 recovery code remaining"
 msgstr "1 werstelkoade oer"
 
-#: lib/senders/email.js:1727
+#: lib/senders/email.js:1730
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s werstelkoaden oer"
 
-#: lib/senders/email.js:1730
+#: lib/senders/email.js:1733
 msgid "Generate codes"
 msgstr "Koaden generearje"
 
-#: lib/senders/email.js:1862
+#: lib/senders/email.js:1865
 msgid "Password updated using recovery key"
 msgstr "Wachtwurd bywurke mei werstelkaai"
 
-#: lib/senders/email.js:1863
+#: lib/senders/email.js:1866
 msgid "Create new recovery key"
 msgstr "Nije werstelkaai generearje"
 
-#: lib/senders/email.js:1933
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "Jo hawwe opwurdearre nei %(productNameNew)s"
+#: lib/senders/email.js:1950
+msgid "Create a password"
+msgstr ""
 
-#: lib/senders/email.js:2012
-msgid "You have switched to %(productNameNew)s"
-msgstr "Jo binne oerskeakele nei %(productNameNew)s"
-
-#: lib/senders/email.js:2077
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
-
-#: lib/senders/email.js:2091
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
-
-#: lib/senders/email.js:2142
-msgid "Payment information update required for %(productName)s"
-msgstr "Bywurkjen fan betellingsynformaasje fereaske foar %(productName)s"
-
-#: lib/senders/email.js:2158
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr "Bywurkjen fan betellingsynformaasje fereaske foar Mozilla-abonneminten"
-
-#: lib/senders/email.js:2204
-msgid "%(productName)s payment failed"
-msgstr "De betelling foar %(productName)s is mislearre"
-
-#: lib/senders/email.js:2255 lib/senders/email.js:2320 lib/senders/email.js:2381
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Jo abonnemint op %(productName)s is opsein"
-
-#: lib/senders/email.js:2438
-msgid "%(productName)s subscription reactivated"
-msgstr "Abonnemint op %(productName)s opnij aktivearre"
-
-#: lib/senders/email.js:2494
-msgid "%(productName)s automatic renewal notice"
-msgstr "Automatyske ferlingingsmelding foar %(productName)s"
-
-#: lib/senders/email.js:2574
-msgid "%(productName)s payment received"
-msgstr "Betelling foar %(productName)s is ûntfongen"
-
-#: lib/senders/email.js:2666
+#: lib/senders/email.js:1953 lib/senders/email.js:2757
 msgid "%(productName)s payment confirmed"
 msgstr "De betelling foar %(productName)s is befêstige"
 
-#: lib/senders/email.js:2740
-msgid "Welcome to %(productName)s"
-msgstr "Wolkom by %(productName)s"
+#: lib/senders/email.js:2024
+msgid "You have upgraded to %(productNameNew)s"
+msgstr "Jo hawwe opwurdearre nei %(productNameNew)s"
 
-#: lib/senders/email.js:2741
+#: lib/senders/email.js:2103
+msgid "You have switched to %(productNameNew)s"
+msgstr "Jo binne oerskeakele nei %(productNameNew)s"
+
+#: lib/senders/email.js:2168
+msgid "Credit card for %(productName)s expiring soon"
+msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
+
+#: lib/senders/email.js:2182
+msgid "Credit card for your subscriptions is expiring soon"
+msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
+
+#: lib/senders/email.js:2233
+msgid "Payment information update required for %(productName)s"
+msgstr "Bywurkjen fan betellingsynformaasje fereaske foar %(productName)s"
+
+#: lib/senders/email.js:2249
+msgid "Payment information update required for Mozilla subscriptions"
+msgstr "Bywurkjen fan betellingsynformaasje fereaske foar Mozilla-abonneminten"
+
+#: lib/senders/email.js:2295
+msgid "%(productName)s payment failed"
+msgstr "De betelling foar %(productName)s is mislearre"
+
+#: lib/senders/email.js:2346 lib/senders/email.js:2411 lib/senders/email.js:2472
+msgid "Your %(productName)s subscription has been cancelled"
+msgstr "Jo abonnemint op %(productName)s is opsein"
+
+#: lib/senders/email.js:2529
+msgid "%(productName)s subscription reactivated"
+msgstr "Abonnemint op %(productName)s opnij aktivearre"
+
+#: lib/senders/email.js:2585
+msgid "%(productName)s automatic renewal notice"
+msgstr "Automatyske ferlingingsmelding foar %(productName)s"
+
+#: lib/senders/email.js:2665
+msgid "%(productName)s payment received"
+msgstr "Betelling foar %(productName)s is ûntfongen"
+
+#: lib/senders/email.js:2832
 msgid "Download %(productName)s"
 msgstr "%(productName)s downloade"
 
-#: lib/senders/email.js:2767
+#: lib/senders/email.js:2858
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "In freonlik omtinken: ynstellen fan jo Sync foltôgje"
 
-#: lib/senders/email.js:2768
+#: lib/senders/email.js:2859
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Lêste omtinken: ynstellen fan Sync foltôgje"
 
-#: lib/senders/email.js:2782
+#: lib/senders/email.js:2873
 msgid "Sync another device"
 msgstr "Noch in apparaat syngronisearje"
 

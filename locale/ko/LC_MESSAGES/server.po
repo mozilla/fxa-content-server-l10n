@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:07+0000\n"
+"POT-Creation-Date: 2021-07-29 22:05+0000\n"
 "PO-Revision-Date: 2021-05-16 11:03+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1424658074.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2771
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2862
 msgid "Here's your reminder to sync devices."
 msgstr "기기 동기화 알림입니다."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2775
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2866
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "동기화하려면 두가지가 필요합니다. 다른 기기와 Firefox 를 동기화 하면 비공개로 개인 북마크, 비밀번호 및 기타 Firefox 데이터가 Firefox 를 사용하는 모든 곳에서 동일하게 유지됩니다."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2772
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2863
 msgid "Last reminder to sync devices!"
 msgstr "기기 동기화 마지막 알림!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2778
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2869
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "다른 기기와 Firefox 를 동기화 하면 비공개로 개인 북마크, 비밀번호 및 기타 Firefox 데이터가 Firefox 를 사용하는 모든 곳에서 동일하게 유지됩니다."
 
@@ -35,16 +35,17 @@ msgstr "다른 기기와 Firefox 를 동기화 하면 비공개로 개인 북마
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 msgstr "%(productName)s을 아직 다운로드하지 않은 경우 구독에 포함된 모든 기능을 이용해보세요"
 
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8
-#: lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
+#: lib/senders/templates/subscriptionDowngrade.html:6 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4
+#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
+#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "구독에 대한 질문이 있으십니까? <a href=\"%(subscriptionSupportUrl)s\">지원팀</a>이 도와드리겠습니다."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
-#: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionDowngrade.txt:5
+#: lib/senders/templates/subscriptionFirstInvoice.txt:8 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
+#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
+#: lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다."
 
@@ -64,7 +65,7 @@ msgstr "복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 �
 msgid "Generate codes:"
 msgstr "코드 생성:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1330
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1333
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s에 새로 로그인"
 
@@ -174,7 +175,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Firefox에 저장되어 있는 비밀번호들을 확인하는 방법을 알아봅시다."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1762
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1765
 msgid "Account recovery key generated"
 msgstr "계정 복구 키가 생성됨"
 
@@ -232,7 +233,7 @@ msgstr "다음 기기에서 성공적으로 복구 코드가 사용되었습니�
 msgid "Consumed recovery code"
 msgstr "사용된 복구 코드"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1621
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1624
 msgid "New recovery codes generated"
 msgstr "새로운 복구 코드가 생성되었습니다"
 
@@ -240,7 +241,7 @@ msgstr "새로운 복구 코드가 생성되었습니다"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "다음 기기에서 새 복구 코드를 성공적으로 생성했습니다:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1812
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1815
 msgid "Account recovery key removed"
 msgstr "계정 복구 키가 삭제됨"
 
@@ -256,7 +257,7 @@ msgstr "이 복구 키는 더 이상 계정을 복구하는 데 사용할 수 �
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "다음 기기에서 성공적으로 Firefox 계정 복구 키를 삭제하였습니다:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1493
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1496
 msgid "Secondary email removed"
 msgstr "보조 이메일 삭제됨"
 
@@ -292,7 +293,7 @@ msgstr "다음으로 기기 간 동기화!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "동기화는 북마크, 비밀번호 및 기타 Firefox 데이터를 모든 기기에서 동일하게 유지합니다."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1376
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1379
 msgid "Set up next device"
 msgstr "다음 기기 설정"
 
@@ -300,7 +301,7 @@ msgstr "다음 기기 설정"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "질문이 있으십니까? %(supportUrl)s를 방문하세요"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1421
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1424
 msgid "Secondary email added"
 msgstr "보조 이메일 주소를 추가했습니다"
 
@@ -316,7 +317,7 @@ msgstr "비밀번호를 재설정하시겠습니까?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "새 비밀번호를 만들려면 다음 시간 안에 버튼을 클릭하세요. 요청은 다음 기기에서 온 것입니다:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1144
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1147
 msgid "Create new password"
 msgstr "새로운 비밀번호 생성"
 
@@ -340,6 +341,30 @@ msgstr "간단한 <a %(cancellationSurveyLinkAttributes)s>설문 조사</a>에 �
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오."
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2831
+msgid "Welcome to %(productName)s"
+msgstr "%(productName)s에 오신 것을 환영합니다!"
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
+msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
+msgid "Next, you'll create a Firefox account password and download %(productName)s."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
+msgid "Invoice number: %(invoiceNumber)s"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
+msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
+msgid "Next invoice: %(nextInvoiceDateOnly)s"
+msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -617,7 +642,7 @@ msgstr "계정을 확인하고 로그인하는 모든 곳에서 Firefox를 최�
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "추가 보안을 위해, 다음 기기의 이 로그인을 확인해주세요:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:833
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:836
 msgid "Confirm sign-in"
 msgstr "로그인 확인"
 
@@ -725,6 +750,10 @@ msgstr "IP 주소: %(ip)s"
 msgid "Manage account:"
 msgstr "계정 관리:"
 
+#: lib/senders/templates/partials/paymentPlanDetails.html:1
+msgid "Payment details:"
+msgstr ""
+
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
 msgstr ""
@@ -801,196 +830,196 @@ msgstr "구독 취소:"
 msgid "Update billing information:"
 msgstr "결제 정보 업데이트:"
 
-#: lib/senders/email.js:335
+#: lib/senders/email.js:338
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s %(uaBrowser)s"
 
-#: lib/senders/email.js:340
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s %(uaBrowser)s"
 
-#: lib/senders/email.js:366
+#: lib/senders/email.js:369
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (추정)"
 
-#: lib/senders/email.js:373
+#: lib/senders/email.js:376
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (추정)"
 
-#: lib/senders/email.js:378
+#: lib/senders/email.js:381
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (추정)"
 
-#: lib/senders/email.js:383
+#: lib/senders/email.js:386
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (추정)"
 
-#: lib/senders/email.js:582
+#: lib/senders/email.js:585
 msgid "Finish creating your account"
 msgstr "계정 생성 완료"
 
-#: lib/senders/email.js:583 lib/senders/email.js:720
+#: lib/senders/email.js:586 lib/senders/email.js:723
 msgid "Confirm email"
 msgstr "이메일 확인"
 
-#: lib/senders/email.js:650
+#: lib/senders/email.js:653
 msgid "Verification code: %(code)s"
 msgstr "검증 코드: %(code)s"
 
-#: lib/senders/email.js:700
+#: lib/senders/email.js:703
 msgid "Reminder: Finish creating your account"
 msgstr "알림: 계정 생성 완료"
 
-#: lib/senders/email.js:702
+#: lib/senders/email.js:705
 msgid "Final reminder: Activate your account"
 msgstr "마지막 알림 : 계정 활성화"
 
-#: lib/senders/email.js:757
+#: lib/senders/email.js:760
 msgid "Account authorization code"
 msgstr "계정 인증 코드"
 
-#: lib/senders/email.js:830
+#: lib/senders/email.js:833
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s에서 신규 로그인 확인"
 
-#: lib/senders/email.js:879
+#: lib/senders/email.js:882
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s의 로그인 코드"
 
-#: lib/senders/email.js:948
+#: lib/senders/email.js:951
 msgid "Confirm primary email"
 msgstr "기본 이메일 확인"
 
-#: lib/senders/email.js:949 lib/senders/email.js:1012 lib/senders/email.js:1084
+#: lib/senders/email.js:952 lib/senders/email.js:1015 lib/senders/email.js:1087
 msgid "Verify email"
 msgstr "이메일 검증"
 
-#: lib/senders/email.js:1011 lib/senders/email.js:1083
+#: lib/senders/email.js:1014 lib/senders/email.js:1086
 msgid "Confirm secondary email"
 msgstr "보조 이메일 확인"
 
-#: lib/senders/email.js:1143
+#: lib/senders/email.js:1146
 msgid "Reset your password"
 msgstr "비밀번호 재설정"
 
-#: lib/senders/email.js:1189 lib/senders/email.js:1259
+#: lib/senders/email.js:1192 lib/senders/email.js:1262
 msgid "Password updated"
 msgstr "비밀번호 수정 완료"
 
-#: lib/senders/email.js:1231 lib/senders/email.js:1289
+#: lib/senders/email.js:1234 lib/senders/email.js:1292
 msgid "Suspicious activity detected"
 msgstr "의심스러운 활동 감지"
 
-#: lib/senders/email.js:1331 lib/senders/email.js:1422 lib/senders/email.js:1458 lib/senders/email.js:1494 lib/senders/email.js:1528 lib/senders/email.js:1575 lib/senders/email.js:1622
-#: lib/senders/email.js:1669 lib/senders/email.js:1763 lib/senders/email.js:1813
+#: lib/senders/email.js:1334 lib/senders/email.js:1425 lib/senders/email.js:1461 lib/senders/email.js:1497 lib/senders/email.js:1531 lib/senders/email.js:1578 lib/senders/email.js:1625
+#: lib/senders/email.js:1672 lib/senders/email.js:1766 lib/senders/email.js:1816
 msgid "Manage account"
 msgstr "계정 관리"
 
-#: lib/senders/email.js:1371
+#: lib/senders/email.js:1374
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "계정을 확인하였습니다.다른 기기와 동기화하여 설정을 완료하세요."
 
-#: lib/senders/email.js:1457
+#: lib/senders/email.js:1460
 msgid "Primary email updated"
 msgstr "기본 이메일 수정 완료"
 
-#: lib/senders/email.js:1527
+#: lib/senders/email.js:1530
 msgid "Two-step verification enabled"
 msgstr "2단계 인증 사용"
 
-#: lib/senders/email.js:1574
+#: lib/senders/email.js:1577
 msgid "Two-step verification is off"
 msgstr "단계 인증 해제"
 
-#: lib/senders/email.js:1668
+#: lib/senders/email.js:1671
 msgid "Recovery code used"
 msgstr "사용된 복구 코드"
 
-#: lib/senders/email.js:1725
+#: lib/senders/email.js:1728
 msgid "1 recovery code remaining"
 msgstr "남은 복구 코드 1개"
 
-#: lib/senders/email.js:1727
+#: lib/senders/email.js:1730
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "남은 복구 코드 %(numberRemaining)s개"
 
-#: lib/senders/email.js:1730
+#: lib/senders/email.js:1733
 msgid "Generate codes"
 msgstr "코드 생성하기"
 
-#: lib/senders/email.js:1862
+#: lib/senders/email.js:1865
 msgid "Password updated using recovery key"
 msgstr "복구 키를 사용하여 비밀번호 수정"
 
-#: lib/senders/email.js:1863
+#: lib/senders/email.js:1866
 msgid "Create new recovery key"
 msgstr "새로운 복구 키 생성"
 
-#: lib/senders/email.js:1933
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "%(productNameNew)s로 업그레이드 완료"
-
-#: lib/senders/email.js:2012
-msgid "You have switched to %(productNameNew)s"
-msgstr "%(productNameNew)s로 전환 완료"
-
-#: lib/senders/email.js:2077
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "%(productName)s 신용 카드 만료 예정"
-
-#: lib/senders/email.js:2091
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "결제용 신용 카드 만료 예정"
-
-#: lib/senders/email.js:2142
-msgid "Payment information update required for %(productName)s"
+#: lib/senders/email.js:1950
+msgid "Create a password"
 msgstr ""
 
-#: lib/senders/email.js:2158
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
-
-#: lib/senders/email.js:2204
-msgid "%(productName)s payment failed"
-msgstr "%(productName)s 결제 실패"
-
-#: lib/senders/email.js:2255 lib/senders/email.js:2320 lib/senders/email.js:2381
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "%(productName)s 구독 취소 완료"
-
-#: lib/senders/email.js:2438
-msgid "%(productName)s subscription reactivated"
-msgstr "%(productName)s 구독 재활성"
-
-#: lib/senders/email.js:2494
-msgid "%(productName)s automatic renewal notice"
-msgstr ""
-
-#: lib/senders/email.js:2574
-msgid "%(productName)s payment received"
-msgstr "%(productName)s 결제 완료"
-
-#: lib/senders/email.js:2666
+#: lib/senders/email.js:1953 lib/senders/email.js:2757
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s 결제 확인"
 
-#: lib/senders/email.js:2740
-msgid "Welcome to %(productName)s"
-msgstr "%(productName)s에 오신 것을 환영합니다!"
+#: lib/senders/email.js:2024
+msgid "You have upgraded to %(productNameNew)s"
+msgstr "%(productNameNew)s로 업그레이드 완료"
 
-#: lib/senders/email.js:2741
+#: lib/senders/email.js:2103
+msgid "You have switched to %(productNameNew)s"
+msgstr "%(productNameNew)s로 전환 완료"
+
+#: lib/senders/email.js:2168
+msgid "Credit card for %(productName)s expiring soon"
+msgstr "%(productName)s 신용 카드 만료 예정"
+
+#: lib/senders/email.js:2182
+msgid "Credit card for your subscriptions is expiring soon"
+msgstr "결제용 신용 카드 만료 예정"
+
+#: lib/senders/email.js:2233
+msgid "Payment information update required for %(productName)s"
+msgstr ""
+
+#: lib/senders/email.js:2249
+msgid "Payment information update required for Mozilla subscriptions"
+msgstr ""
+
+#: lib/senders/email.js:2295
+msgid "%(productName)s payment failed"
+msgstr "%(productName)s 결제 실패"
+
+#: lib/senders/email.js:2346 lib/senders/email.js:2411 lib/senders/email.js:2472
+msgid "Your %(productName)s subscription has been cancelled"
+msgstr "%(productName)s 구독 취소 완료"
+
+#: lib/senders/email.js:2529
+msgid "%(productName)s subscription reactivated"
+msgstr "%(productName)s 구독 재활성"
+
+#: lib/senders/email.js:2585
+msgid "%(productName)s automatic renewal notice"
+msgstr ""
+
+#: lib/senders/email.js:2665
+msgid "%(productName)s payment received"
+msgstr "%(productName)s 결제 완료"
+
+#: lib/senders/email.js:2832
 msgid "Download %(productName)s"
 msgstr "%(productName)s 다운로드"
 
-#: lib/senders/email.js:2767
+#: lib/senders/email.js:2858
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "알림: 동기화 설정을 완료하는 방법"
 
-#: lib/senders/email.js:2768
+#: lib/senders/email.js:2859
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "알림: 동기화 설정 완료"
 
-#: lib/senders/email.js:2782
+#: lib/senders/email.js:2873
 msgid "Sync another device"
 msgstr "다른 기기 동기화"
 
