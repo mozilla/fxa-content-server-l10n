@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:07+0000\n"
+"POT-Creation-Date: 2021-07-29 22:05+0000\n"
 "PO-Revision-Date: 2021-06-17 13:29+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -660,7 +660,7 @@ msgstr "यह एक आवश्यक जगह है"
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
@@ -1128,7 +1128,7 @@ msgstr "पुनः प्रयास करें"
 msgid "Password"
 msgstr "कूटशब्द"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
@@ -1427,7 +1427,7 @@ msgstr "%(email)s के लिए भेजा प्राधिकरण क�
 msgid "Enter authorization code"
 msgstr "प्राधिकार कूट दर्ज करें"
 
-#: .es5/templates/sign_up_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "एक फ़ायरफ़ॉक्स खाता बनायें"
 
@@ -1701,6 +1701,27 @@ msgstr ""
 msgid "Subscribe %(email)s"
 msgstr ""
 
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "पासवर्ड की पुष्टि करें"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr ""
+
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
 msgstr ""
@@ -1796,10 +1817,6 @@ msgstr ""
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
 msgstr ""
-
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1 .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
-msgid "Confirm password"
-msgstr "पासवर्ड की पुष्टि करें"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
