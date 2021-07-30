@@ -417,3 +417,4 @@ new-user-email =
     .label = Ehai ne ñanduti veve
 new-user-confirm-email =
     .label = Emoneĩjey ne ñanduti veve
+new-user-email-validate = Ne ñanduti veve ndoikói
