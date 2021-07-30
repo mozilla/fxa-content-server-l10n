@@ -396,12 +396,14 @@ payment-confirmation-cc-card-ending-in = 卡號末四碼: { $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = 已經有 { -brand-name-firefox } 帳號了嗎？<a>請登入</a>
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = 輸入您的電子郵件信箱
 new-user-confirm-email =
     .label = 確認電子郵件信箱
 new-user-subscribe-product-updates = 我想要收到 { -brand-name-firefox } 的產品更新資訊
+new-user-subscribe-product-assurance = 我們只會使用您的電子郵件地址來註冊帳號，絕對不會銷售給第三方。
 new-user-email-validate = 輸入的電子郵件信箱無效
 new-user-email-validate-confirm = 兩次輸入的電子郵件信箱不相符
 new-user-existing-account-sign-in = 您已經註冊過帳號，<a>請登入</a>
