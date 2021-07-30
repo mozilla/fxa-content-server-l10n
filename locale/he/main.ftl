@@ -357,3 +357,15 @@ payment-confirmation-amount-year =
        *[other] { $amount } כל { $intervalCount } שנים
     }
 payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+
+## new user email form
+
+new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = נא להכניס את הדוא״ל שלך
+new-user-subscribe-product-updates = ברצוני לקבל עדכוני מוצר מ־{ -brand-name-firefox }
+new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
+new-user-email-validate = כתובת הדוא״ל אינה תקינה
+new-user-email-validate-confirm = כתובות הדוא״ל אינן תואמות
+new-user-existing-account-sign-in = כבר יש לך חשבון, <a>ניתן להיכנס</a>
