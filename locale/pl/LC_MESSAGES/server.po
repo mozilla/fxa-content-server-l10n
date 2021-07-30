@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 16:12+0000\n"
+"PO-Revision-Date: 2021-07-30 16:20+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -354,7 +354,7 @@ msgstr "Płatność jest przetwarzana, co może zająć do czterech dni roboczyc
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "Następnie utworzysz hasło konta Firefoksa i pobierzesz %(productName)s."
+msgstr "Następnie utworzysz hasło konta Firefoksa i pobierzesz program %(productName)s."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
