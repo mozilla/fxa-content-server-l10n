@@ -419,6 +419,7 @@ new-user-email =
 new-user-confirm-email =
     .label = Erősítse meg az e-mail-címét
 new-user-subscribe-product-updates = Szeretnék termékkel kapcsolatos híreket kapni a { -brand-name-firefox }ról
+new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 new-user-email-validate = Az e-mail-cím érvénytelen
 new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
 new-user-existing-account-sign-in = Már van felhasználói fiókja, <a>jelentkezzen be</a>
