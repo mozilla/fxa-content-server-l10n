@@ -409,3 +409,7 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Συνέχεια στη λήψη
 payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
+
+## new user email form
+
+new-user-email-validate = Το email δεν είναι έγκυρο
