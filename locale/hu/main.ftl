@@ -409,3 +409,16 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Tovább a letöltéshez
 payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
+
+## new user email form
+
+new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Adja meg az e-mail-címét
+new-user-confirm-email =
+    .label = Erősítse meg az e-mail-címét
+new-user-subscribe-product-updates = Szeretnék termékkel kapcsolatos híreket kapni a { -brand-name-firefox }ról
+new-user-email-validate = Az e-mail-cím érvénytelen
+new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
+new-user-existing-account-sign-in = Már van felhasználói fiókja, <a>jelentkezzen be</a>
