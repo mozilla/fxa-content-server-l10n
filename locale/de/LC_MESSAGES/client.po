@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 12:28+0000\n"
-"Last-Translator: Philipp Fischbeck <pfischbeck@googlemail.com>\n"
+"PO-Revision-Date: 2021-07-30 15:42+0000\n"
+"Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1712,7 +1712,7 @@ msgstr "Für %(email)s abonnieren"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Dem Link, auf den Sie geklickt haben, fehlten Zeichen und er wurde möglicherweise von Ihrem E-Mail-Programm beschädigt."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
