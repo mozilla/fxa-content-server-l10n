@@ -409,3 +409,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
 payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = შეიყვანეთ თქვენი ელფოსტა
+new-user-confirm-email =
+    .label = ელფოსტის დადასტურება
+new-user-subscribe-product-updates = მსურს მივიღო სიახლეები { -brand-name-firefox }-ზე
+new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
+new-user-email-validate = ელფოსტა არამართებულია
+new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
+new-user-existing-account-sign-in = უკვე გაქვთ ანგარიში, <a>შედით</a>
