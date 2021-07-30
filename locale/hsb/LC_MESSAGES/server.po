@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 10:51+0000\n"
+"PO-Revision-Date: 2021-07-30 10:53+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -366,11 +366,11 @@ msgstr "Čisło zličbowanki: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Wotknihowany: %(invoiceTotal)s dnja %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Přichodna zličbowanka: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -768,7 +768,7 @@ msgstr "Konto rjadować:"
 
 #: lib/senders/templates/partials/paymentPlanDetails.html:1
 msgid "Payment details:"
-msgstr ""
+msgstr "Płaćenske podrobnosće:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
@@ -973,7 +973,7 @@ msgstr "Nowy wobnowjenski kluč wutworić"
 
 #: lib/senders/email.js:1950
 msgid "Create a password"
-msgstr ""
+msgstr "Hesło wutworić"
 
 #: lib/senders/email.js:1953 lib/senders/email.js:2757
 msgid "%(productName)s payment confirmed"

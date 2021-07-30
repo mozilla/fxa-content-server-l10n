@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 10:51+0000\n"
+"PO-Revision-Date: 2021-07-30 10:56+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1708,7 +1708,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Dale k %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
