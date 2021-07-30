@@ -406,3 +406,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuar descargando
 payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = ¿Ya tenés una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Ingresá tu correo electrónico
+new-user-confirm-email =
+    .label = Confirmá tu correo electrónico
+new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de productos de { -brand-name-firefox }
+new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear la cuenta. Nunca lo venderemos a terceros.
+new-user-email-validate = El correo electrónico no es válido
+new-user-email-validate-confirm = Los correos electrónicos no coinciden
+new-user-existing-account-sign-in = Ya tenés una cuenta, <a>Iniciar sesión</a>
