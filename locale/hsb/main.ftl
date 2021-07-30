@@ -467,6 +467,7 @@ new-user-email =
 new-user-confirm-email =
     .label = Wobkrućće swoju e-mejlowu adresu
 new-user-subscribe-product-updates = Bych rady produktowe aktualizacije wot { -brand-name-firefox } dóstał
+new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adresu, zo bychmy waše konto załožili. Třećemu poskićowarjej ju ženje njepředamy.
 new-user-email-validate = E-mejlowa adresa płaćiwa njeje
 new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
 new-user-existing-account-sign-in = Maće hižo konto, <a>Přizjewić</a>
