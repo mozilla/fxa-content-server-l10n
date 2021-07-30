@@ -409,3 +409,11 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Emboguejy ehóvo
 payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
+
+## new user email form
+
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Ehai ne ñanduti veve
+new-user-confirm-email =
+    .label = Emoneĩjey ne ñanduti veve
