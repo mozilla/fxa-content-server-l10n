@@ -409,3 +409,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Vinavant a la telechargiada
 payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
+
+## new user email form
+
+new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Endatescha tia adressa d'e-mail
+new-user-confirm-email =
+    .label = Confermar tes e-mail
+new-user-subscribe-product-updates = Jau vi retschaiver novitads davart products da { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
+new-user-email-validate = L'e-mail n'è betg valid
+new-user-email-validate-confirm = Las adressas na correspundan betg
+new-user-existing-account-sign-in = Ti has gia in conto, <a>t'annunzia</a>
