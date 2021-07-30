@@ -448,3 +448,12 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Kontynuuj, aby pobrać
 payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Masz już konto { -brand-name-firefox(case: "gen") }? <a>Zaloguj się</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Wpisz swój adres e-mail
+new-user-confirm-email =
+    .label = Potwierdź adres e-mail
