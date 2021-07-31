@@ -391,3 +391,15 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = 前往下载
 payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
+
+## new user email form
+
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = 输入您的电子邮件地址
+new-user-confirm-email =
+    .label = 确认邮箱地址
+new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产品更新信息。
+new-user-email-validate = 电子邮件地址无效
+new-user-email-validate-confirm = 两次输入的邮箱地址不同
+new-user-existing-account-sign-in = 您已注册过账户，<a>请登录</a>
