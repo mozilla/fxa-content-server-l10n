@@ -385,3 +385,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Tiếp tục tải xuống
 payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Nhập địa chỉ email của bạn
+new-user-confirm-email =
+    .label = Xác nhận email của bạn
+new-user-subscribe-product-updates = Tôi muốn nhận các cập nhật sản phẩm từ { -brand-name-firefox }
+new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản của bạn. Chúng tôi sẽ không bao giờ bán nó cho bên thứ ba.
+new-user-email-validate = Email không hợp lệ
+new-user-email-validate-confirm = Email không khớp
+new-user-existing-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>

@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-14 00:10+0000\n"
+"PO-Revision-Date: 2021-07-31 06:06+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -498,7 +498,9 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
-msgstr "Không xác định được đăng ký."
+msgstr ""
+""
+"Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
@@ -838,9 +840,7 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -912,8 +912,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Vui lòng nhập khóa khôi phục sử dụng một lần mà bạn đã lưu trữ ở nơi an toàn để lấy lại quyền truy cập vào Tài khoản Firefox của bạn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">LƯU Ý:</span> Nếu bạn đặt lại mật khẩu và không có khóa khôi phục tài khoản đã lưu, một số dữ liệu của bạn sẽ bị xóa (bao gồm cả dữ liệu máy chủ được đồng bộ hóa như lịch sử và "
 "dấu trang)."
@@ -1324,8 +1323,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy."
 msgstr ""
-"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã "
-"hóa dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
+"<span>LƯU Ý:</span> Khi bạn đặt lại mật khẩu, bạn đặt lại tài khoản của mình. Bạn có thể mất một số thông tin cá nhân của mình (bao gồm lịch sử, dấu trang và mật khẩu). Đó là bởi vì chúng tôi mã hóa"
+" dữ liệu của bạn bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1706,15 +1705,15 @@ msgstr "Theo dõi %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Liên kết bạn nhấp vào đã thiếu ký tự và có thể đã bị ứng dụng email của bạn phá vỡ."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Tiếp tục đến %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Nhập mật khẩu"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1723,7 +1722,7 @@ msgstr "Xác nhận mật khẩu"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Tạo mật khẩu"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -2014,8 +2013,7 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 #~ msgstr ""
-#~ "Chúng tôi rất tiếc khi biết về điều này. Nếu đây là thiết bị bạn thực sự không tin tưởng, bạn nên thay đổi mật khẩu Tài khoản Firefox của mình và thay đổi bất kỳ mật khẩu nào được lưu trong "
-#~ "Firefox."
+#~ "Chúng tôi rất tiếc khi biết về điều này. Nếu đây là thiết bị bạn thực sự không tin tưởng, bạn nên thay đổi mật khẩu Tài khoản Firefox của mình và thay đổi bất kỳ mật khẩu nào được lưu trong Firefox."
 
 #~ msgid "Last seen %(translatedTimeAgo)s"
 #~ msgstr "Đã xem lần cuối %(translatedTimeAgo)s"
@@ -2333,11 +2331,10 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Bước 2 của 2: Lưu khóa khôi phục"
 
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ "
-#~ "dàng tìm thấy nó sau này."
+#~ "<span class=\"note\">LƯU Ý: </span>Nếu bạn quên mật khẩu, khóa này là bắt buộc để lấy lại quyền truy cập vào dữ liệu của bạn. Lưu khóa khôi phục của bạn ở một vị trí an toàn, nơi bạn có thể dễ dàng "
+#~ "tìm thấy nó sau này."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Đã hoàn tất, Khóa khôi phục đã lưu"
@@ -2532,8 +2529,8 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Bạn sẽ nhận được thông tin liên lạc liên quan đến bảo mật tài khoản của bạn, các thay đổi đối với chính sách của chúng tôi, chức năng của tài khoản và email ban đầu để giúp bạn tận dụng tối đa "
-#~ "Tài khoản Firefox của mình."
+#~ "Bạn sẽ nhận được thông tin liên lạc liên quan đến bảo mật tài khoản của bạn, các thay đổi đối với chính sách của chúng tôi, chức năng của tài khoản và email ban đầu để giúp bạn tận dụng tối đa Tài "
+#~ "khoản Firefox của mình."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Ngoài ra, bạn có thể đăng ký nhận email quảng cáo với những tin tức mới nhất từ ​​Mozilla và Firefox."
@@ -2545,11 +2542,11 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ msgstr "Quản lý tùy chỉnh"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của "
-#~ "mình ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
+#~ "Nếu bạn sử dụng tài khoản này cho các ứng dụng và dịch vụ của Mozilla như AMO, Pocket và Screenshots, trước tiên bạn nên đăng nhập và xóa mọi thông tin cá nhân đã lưu. Khi bạn xóa tài khoản của mình"
+#~ " ở đây, bạn có thể mất quyền truy cập vào tài khoản ở mọi nơi."
 
 #~ msgid "verified"
 #~ msgstr "đã xác nhận"
@@ -2630,9 +2627,7 @@ msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối
 #~ msgstr "Không thể nhận điều khoản dịch vụ nền tảng đăng ký"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Thông báo bảo mật</"
-#~ "a>."
+#~ msgstr "Bằng cách tiếp tục, bạn đồng ý với <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Điều khoản dịch vụ</a> và <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Thông báo bảo mật</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Điều khoản dịch vụ nền tảng đăng ký"
