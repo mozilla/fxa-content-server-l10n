@@ -433,3 +433,14 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Продолжить загрузку
 payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Введите адрес своей эл. почты
+new-user-confirm-email =
+    .label = Подтвердите свою электронную почту
+new-user-email-validate-confirm = Адреса электронной почты не совпадают
+new-user-existing-account-sign-in = У вас уже есть учётная запись, <a>Войдите</a>
