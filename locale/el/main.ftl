@@ -412,4 +412,7 @@ payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $la
 
 ## new user email form
 
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Εισαγάγετε το email σας
 new-user-email-validate = Το email δεν είναι έγκυρο
