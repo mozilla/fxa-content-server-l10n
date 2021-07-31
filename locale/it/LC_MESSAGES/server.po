@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 09:58+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2021-07-31 13:17+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -369,7 +369,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Successivamente, sarà necessario creare una password per l’account Firefox e scaricare %(productName)s."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -377,7 +377,7 @@ msgstr "Numero fattura: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Addebito: %(invoiceTotal)s il %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
@@ -989,7 +989,7 @@ msgstr "Crea una nuova chiave di recupero"
 
 #: lib/senders/email.js:1950
 msgid "Create a password"
-msgstr ""
+msgstr "Crea una password"
 
 #: lib/senders/email.js:1953 lib/senders/email.js:2757
 msgid "%(productName)s payment confirmed"

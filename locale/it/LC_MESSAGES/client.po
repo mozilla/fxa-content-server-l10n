@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 09:45+0000\n"
-"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
+"PO-Revision-Date: 2021-07-31 13:15+0000\n"
+"Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1705,7 +1705,7 @@ msgstr "Iscriviti a %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Il link su cui hai fatto clic era privo di alcuni caratteri e potrebbe essere stato modificato dal tuo client di posta elettronica."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
