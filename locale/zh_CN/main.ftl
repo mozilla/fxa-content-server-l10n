@@ -394,12 +394,14 @@ payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = 输入您的电子邮件地址
 new-user-confirm-email =
     .label = 确认邮箱地址
 new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产品更新信息。
+new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
 new-user-email-validate = 电子邮件地址无效
 new-user-email-validate-confirm = 两次输入的邮箱地址不同
 new-user-existing-account-sign-in = 您已注册过账户，<a>请登录</a>
