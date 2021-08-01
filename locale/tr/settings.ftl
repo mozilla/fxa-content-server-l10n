@@ -233,11 +233,11 @@ avatar-page-cancel-button = İptal
 avatar-page-save-button = Kaydet
 avatar-page-saving-button = Kaydediliyor…
 avatar-page-zoom-out-button =
-  .title = Uzaklaştır
+    .title = Uzaklaştır
 avatar-page-zoom-in-button =
-  .title = Yakınlaştır
+    .title = Yakınlaştır
 avatar-page-rotate-button =
-  .title = Döndür
+    .title = Döndür
 avatar-page-camera-error = Kamera başlatılamadı
 avatar-page-new-avatar =
     .alt = yeni profil fotoğrafı
@@ -505,6 +505,14 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 auth-error-102 = Bilinmeyen hesap
 auth-error-103 = Parola yanlış
 auth-error-110 = Geçersiz jeton
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
 auth-error-138 = Doğrulanmamış oturum
 auth-error-155 = TOTP jetonu bulunamadı
 auth-error-1008 = Yeni parolanız farklı olmalıdır

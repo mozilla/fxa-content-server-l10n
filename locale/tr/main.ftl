@@ -390,3 +390,9 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = İndirmeye devam et
 payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
+
+## new user email form
+
+new-user-email-validate = E-posta geçerli değil
+new-user-email-validate-confirm = E-postalar eşleşmiyor
+new-user-existing-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
