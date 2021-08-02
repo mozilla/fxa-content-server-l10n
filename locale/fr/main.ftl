@@ -405,3 +405,8 @@ payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Entrez votre adresse électronique
+new-user-confirm-email =
+    .label = Confirmez votre adresse électronique
