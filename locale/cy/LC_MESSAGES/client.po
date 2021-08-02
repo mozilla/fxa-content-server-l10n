@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-08-02 15:03+0000\n"
+"PO-Revision-Date: 2021-08-02 15:12+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -1703,7 +1703,7 @@ msgstr "Tanysgrifiwch i %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Roedd rhai o nodau'r ddolen y gwnaethoch chi ei chlicio ar goll, efallai eu bod wedi'u torri gan eich rhaglen e-bost."
+msgstr "Roedd rhai o nodau'r ddolen y gwnaethoch chi eu clicio ar goll, efallai eu bod wedi'u torri gan eich rhaglen e-bost."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"

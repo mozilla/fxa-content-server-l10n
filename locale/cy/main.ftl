@@ -505,3 +505,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Parhau i lwytho i lawr
 payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Rhowch eich cyfeiriad e-bost
+new-user-confirm-email =
+    .label = Cadarnhewch eich e-bost
+new-user-subscribe-product-updates = Hoffwn i dderbyn diweddariadau am gynnyrch { -brand-name-firefox }
+new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
+new-user-email-validate = Nid yw'r e-bost yn ddilys
+new-user-email-validate-confirm = Nid yw'r e-byst yn cyfateb
+new-user-existing-account-sign-in = Mae gennych gyfrif eisoes, <a>Mewngofnodi</a>
