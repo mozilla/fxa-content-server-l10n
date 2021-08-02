@@ -20,6 +20,8 @@ document =
 general-error-heading = Fallu xeneral de l'aplicación
 basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por favor.
 payment-error-3b = Asocedió un fallu inesperáu mentanto se procesaba'l pagu, volvi tentalo.
+no-subscription-change = Sentímoslo, nun pues camudar el plan de la soscripción.
+expired-card-error = Paez que la tarxeta de creitu caducóte. Prueba con otra.
 coupon-expired = Paez que'l códigu de promoción caducó.
 
 ## settings
@@ -198,3 +200,6 @@ payment-confirmation-amount-year =
         [one] { $amount } añalmente
        *[other] { $amount } cada { $intervalCount } años
     }
+
+## new user email form
+
