@@ -401,3 +401,7 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuer vers le téléchargement
 payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
