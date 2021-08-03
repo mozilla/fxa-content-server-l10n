@@ -399,3 +399,13 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuar a discargar
 payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Ha tu jam un conto { -brand-name-firefox }? <a>Accede</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Insere tu email
+new-user-confirm-email =
+    .label = Confirma tu email
+new-user-subscribe-product-updates = Io vole reciper actualisationes  de productos ab { -brand-name-firefox }
