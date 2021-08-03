@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-08-03 05:24+0000\n"
+"PO-Revision-Date: 2021-08-03 05:43+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -975,7 +975,7 @@ msgstr "Crear nove clave de recuperation"
 
 #: lib/senders/email.js:1950
 msgid "Create a password"
-msgstr ""
+msgstr "Crear un contrasigno"
 
 #: lib/senders/email.js:1953 lib/senders/email.js:2757
 msgid "%(productName)s payment confirmed"
