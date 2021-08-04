@@ -457,3 +457,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Dalej k ześěgnjenjeju
 payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last } kóńcy
+
+## new user email form
+
+new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Zapódajśo swóju e-mailowu adresu
+new-user-confirm-email =
+    .label = Wašu e-mailowu adresu wobkšuśiś
+new-user-subscribe-product-updates = Ja by rady dostał produktowe aktualizacije wót { -brand-name-firefox }
+new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
+new-user-email-validate = E-mailowa adresa njejo płaśiwa
+new-user-email-validate-confirm = E-mailowej adresy njejstej jadnakej.
+new-user-existing-account-sign-in = Maśo južo konto, <a>Pśizjawiś</a>
