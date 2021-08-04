@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-29 22:05+0000\n"
-"PO-Revision-Date: 2021-07-30 13:34+0000\n"
+"PO-Revision-Date: 2021-08-04 16:31+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Kuatiañemungue papapy: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
