@@ -340,3 +340,16 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Jatka lataamiseen
 payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Kirjoita sähköpostiosoitteesi
+new-user-confirm-email =
+    .label = Vahvista sähköposti
+new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
+new-user-email-validate = Sähköpostiosoite ei ole kelvollinen
+new-user-email-validate-confirm = Sähköpostiosoitteet eivät täsmää
+new-user-existing-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään</a>
