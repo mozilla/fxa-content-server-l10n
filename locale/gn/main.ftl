@@ -412,6 +412,7 @@ payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## new user email form
 
+new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>Eñepyrũ tembiapo</a>
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ehai ne ñanduti veve
