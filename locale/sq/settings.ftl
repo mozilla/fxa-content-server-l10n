@@ -528,6 +528,14 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 auth-error-102 = Llogari e panjohur
 auth-error-103 = Fjalëkalim i pasaktë
 auth-error-110 = Token i pavlefshëm
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
 auth-error-138 = Sesion i paverifikuar
 auth-error-155 = S’u gjet token TOTP
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
