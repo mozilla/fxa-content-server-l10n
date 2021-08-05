@@ -38,6 +38,7 @@ instant-payouts-unsupported = 看来您的借记卡不允许即时付款。请�
 duplicate-transaction = 呃，看起来刚刚发生了相同的交易。请检查您的付款记录。
 coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
+fxa-signup-error = 创建账户时遇到问题。请稍后再试。
 
 ## settings
 
@@ -176,33 +177,6 @@ sub-change-failed = 方案更改失败
 sub-update-payment-title = 付款信息
 sub-update-card-exp = 有效期 { $cardExpMonth } / { $cardExpYear }
 sub-update-copy = 您的方案内容会即刻变更，且会向您收取剩余的差额。自 { $startingDate } 起将会向您收取全额。
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每天持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 天持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每周持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 周持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每月持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 月持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每年持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 根据<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，我授权 { -brand-name-firefox } 产品的制造商 { -brand-name-mozilla } 依照付款条件，<strong>每 { $intervalCount } 年持续对我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
 
 ##
 
