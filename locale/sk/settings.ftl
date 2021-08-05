@@ -599,6 +599,14 @@ tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 auth-error-102 = Neznámy účet
 auth-error-103 = Nesprávne heslo
 auth-error-110 = Neplatný token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-138 = Neoverená relácia
 auth-error-155 = Token TOTP sa nenašiel
 auth-error-1008 = Staré a nové heslo sa musia líšiť
