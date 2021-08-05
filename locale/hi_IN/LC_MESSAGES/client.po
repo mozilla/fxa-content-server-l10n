@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 22:05+0000\n"
+"POT-Creation-Date: 2021-08-05 22:06+0000\n"
 "PO-Revision-Date: 2021-06-17 13:29+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "साइन इन"
 msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
-#: .es5/views/inline_totp_setup.js:155
+#: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "%(code)s कोड को समर्थित अनुप्रयोगों में द्वि-चरणीय प्रमाणीकरण स्थापित करने के लिए उपयोग करें."
 

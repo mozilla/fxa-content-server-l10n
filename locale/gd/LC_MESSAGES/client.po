@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 22:05+0000\n"
+"POT-Creation-Date: 2021-08-05 22:06+0000\n"
 "PO-Revision-Date: 2021-06-30 15:40+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr "Clàraich a-steach"
 msgid "Account deleted successfully"
 msgstr "Chaidh an cunntas a sguabadh às"
 
-#: .es5/views/inline_totp_setup.js:155
+#: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Cleachd an còd %(code)s airson dearbhadh dà-cheumnach a shuidheachadh ann an aplacaidean a chuireas taic ris."
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 22:05+0000\n"
+"POT-Creation-Date: 2021-08-05 22:06+0000\n"
 "PO-Revision-Date: 2021-07-10 20:06+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "Přihlásit se"
 msgid "Account deleted successfully"
 msgstr "Účet byl úspěšně smazán"
 
-#: .es5/views/inline_totp_setup.js:155
+#: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód %(code)s."
 

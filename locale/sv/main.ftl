@@ -409,3 +409,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Fortsätt till nedladdning
 payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Ange din e-postadress
+new-user-confirm-email =
+    .label = bekräfta din e-postadress
+new-user-subscribe-product-updates = Jag vill få produktuppdateringar från { -brand-name-firefox }
+new-user-subscribe-product-assurance = Vi använder bara din e-postadress för att skapa ditt konto. Vi kommer aldrig att sälja den till en tredje part.
+new-user-email-validate = E-postadressen är inte giltig
+new-user-email-validate-confirm = E-postadresserna matchar inte
+new-user-existing-account-sign-in = Du har redan ett konto, <a>Logga in</a>
