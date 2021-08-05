@@ -247,11 +247,14 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 
 ## new user email form
 
+new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste sa</a>
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Zadajte vašu e-mailovú adresu
 new-user-confirm-email =
     .label = Potvrďte vašu e-mailovú adresu
+new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -brand-name-firefox }e
+new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
 new-user-existing-account-sign-in = Účet už máte. <a>Prihláste sa</a>
