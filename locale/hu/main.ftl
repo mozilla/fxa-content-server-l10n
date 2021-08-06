@@ -38,6 +38,7 @@ instant-payouts-unsupported = Úgy tűnik, hogy a bankkártyája nincs beállít
 duplicate-transaction = Hmm. Úgy tűnik, hogy egy azonos tranzakció lett elküldve. Ellenőrizze a fizetési előzményeket.
 coupon-expired = Úgy tűnik, hogy a promóciós kód lejárt.
 card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
+fxa-signup-error = Hiba történt a fiók létrehozásakor. Próbálja újra később.
 
 ## settings
 
@@ -180,33 +181,6 @@ sub-update-copy =
     A csomagja azonnal megváltozik, és a számlázási időszak fennmaradó részében
     módosított összeget fog fizetni. A következő dátumtól kezdve a teljes összeg
     kerül kiszámlázásra: { $startingDate }.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>naponta { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>{ $intervalCount } naponta { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>hetente { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>{ $intervalCount } hetente { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>havonta { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>{ $intervalCount } havonta { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>évente { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-       *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy <strong>{ $intervalCount } évente { $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
-    }
 
 ##
 
