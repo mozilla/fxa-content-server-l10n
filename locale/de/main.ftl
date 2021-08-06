@@ -38,6 +38,7 @@ instant-payouts-unsupported = Ihre Debitkarte ist anscheinend nicht für soforti
 duplicate-transaction = Hmm. Es sieht so aus, als ob gerade eine identische Transaktion gesendet wurde. Überprüfen Sie Ihre Zahlungshistorie.
 coupon-expired = Es sieht so aus, als ob der Promo-Code abgelaufen ist.
 card-error = Ihre Transaktion konnte nicht verarbeitet werden. Bitte überprüfen Sie Ihre Kreditkarteninformationen und versuchen Sie es erneut.
+fxa-signup-error = Bei der Erstellung Ihres Kontos trat ein Problem auf.  Bitte versuchen Sie es später erneut.
 
 ## settings
 
@@ -180,33 +181,6 @@ sub-update-copy =
     Ihr Plan wird sofort geändert und für den Rest des Abrechungszeitraums wird
     ein geänderter Betrag berechnet. Ab dem { $startingDate } wird der 
     volle Betrag berechnet.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>täglich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Tage mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>wöchentlich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Wochen mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>monatlich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Monate mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>jährlich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
 
 ##
 
