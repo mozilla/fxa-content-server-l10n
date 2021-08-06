@@ -181,33 +181,6 @@ sub-update-copy =
     ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
     le montant total vous sera facturé.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par jour</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } jours</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par semaine</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } toutes les { $intervalCount } semaines</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par mois</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } mois</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par an</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-       *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } ans</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-    }
-
 ##
 
 sub-change-submit = Confirmer la modification
@@ -410,3 +383,8 @@ new-user-email =
     .label = Entrez votre adresse électronique
 new-user-confirm-email =
     .label = Confirmez votre adresse électronique
+new-user-subscribe-product-updates = J’aimerais recevoir l’actualité des produits { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nous utilisons votre adresse électronique uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
+new-user-email-validate = L’adresse électronique n’est pas valide
+new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
+new-user-existing-account-sign-in = Vous avez déjà un compte, vous pouvez <a>vous connecter</a>
