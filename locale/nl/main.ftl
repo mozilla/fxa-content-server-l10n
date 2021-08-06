@@ -38,6 +38,7 @@ instant-payouts-unsupported = Het lijkt erop dat uw bankpas niet is ingesteld vo
 duplicate-transaction = Hmm. Het lijkt erop dat zojuist een identieke transactie is verzonden. Controleer uw betalingsgeschiedenis.
 coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
 card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
+fxa-signup-error = Er is een probleem opgetreden bij het aanmaken van uw account. Probeer het later nog eens.
 
 ## settings
 
@@ -180,33 +181,6 @@ sub-update-copy =
     Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
     gebracht voor het restant van uw facturatieperiode. Vanaf { $startingDate }
     wordt u het volledige bedrag in rekening gebracht.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>dagelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-       *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount }{ $intervalCount } dagen { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>wekelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-       *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount } weken { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>maandelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-       *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount } maanden { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>jaarlijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-       *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount } jaar { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <termsOfServiceLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-    }
 
 ##
 
@@ -409,3 +383,17 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Doorgaan naar download
 payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Voer uw e-mailadres in
+new-user-confirm-email =
+    .label = Bevestig uw e-mailadres
+new-user-subscribe-product-updates = Ik wil graag productupdates van { -brand-name-firefox } ontvangen
+new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
+new-user-email-validate = E-mailadres is niet geldig
+new-user-email-validate-confirm = E-mailadressen komen niet overeen
+new-user-existing-account-sign-in = U hebt al een account, <a>aanmelden</a>
