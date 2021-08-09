@@ -8,6 +8,7 @@
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
@@ -21,6 +22,7 @@ close-aria =
 general-error-heading = Éror aplikasi umum
 basic-error-message = Aya anu salah. Cobaan deui engké.
 payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deui atawa béjaan anu ngaluarkeun kartu anjeun.
+payment-error-retry-button = Pecakan deui
 
 ## settings
 
@@ -57,9 +59,6 @@ payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deu
 
 
 ## subscription upgrade
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
@@ -108,4 +107,7 @@ payment-error-1 = Duh. Aya masalah sanggeus mastikeun bayaran anjeun. Cobaan deu
 payment-confirmation-mobile-alert = Teu muka aplikasi? <a>Klik Ieu</a>
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## new user email form
 
