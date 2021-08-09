@@ -43,6 +43,7 @@ instant-payouts-unsupported = Vaikuttaa siltä, että debit-kortissasi ei ole ot
 duplicate-transaction = Hmm. Vaikuttaa siltä, että sama tapahtuma lähetettiin juuri. Tarkista maksuhistoriasi.
 coupon-expired = Vaikuttaa siltä, että tarjouskoodi on vanhentunut.
 card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
+fxa-signup-error = Tiliä luotaessa tapahtui virhe.  Yritä uudelleen myöhemmin.
 
 ## settings
 
@@ -155,9 +156,6 @@ input-error-is-required = { $label } vaaditaan
 product-plan-change-heading = Tarkista muutos
 sub-update-payment-title = Maksun tiedot
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
