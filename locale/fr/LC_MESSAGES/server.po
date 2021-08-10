@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-07-26 10:02+0000\n"
-"Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
+"PO-Revision-Date: 2021-08-01 11:23+0000\n"
+"Last-Translator: Yaya.Cout <yaya.cout@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Ensuite, vous allez créer un mot de passe pour votre compte Firefox et télécharger %(productName)s."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
