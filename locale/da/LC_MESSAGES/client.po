@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-07-30 08:03+0000\n"
+"PO-Revision-Date: 2021-08-10 07:45+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -957,7 +957,7 @@ msgstr "Link til nulstilling af adgangskode beskadiget"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Linket du klikkede på manglede tegn, og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen."
+msgstr "Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram. Kopier adressen, og prøv igen."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1700,7 +1700,7 @@ msgstr "Tilmeld %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Linket, du klikkede på, manglede tegn og kan være blevet ødelagt af dit mailprogram."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
