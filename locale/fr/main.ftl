@@ -38,6 +38,7 @@ instant-payouts-unsupported = Il semble que votre carte de débit n’est pas co
 duplicate-transaction = Hum. Il semblerait qu’une transaction identique vienne d’être envoyée. Vérifiez votre historique de paiements.
 coupon-expired = Il semble que ce code promotionnel a expiré.
 card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les informations relatives à votre carte de crédit et réessayez.
+fxa-signup-error = Une erreur s’est produite lors de la création de votre compte. Veuillez réessayer plus tard.
 
 ## settings
 
