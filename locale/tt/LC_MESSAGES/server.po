@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-07-10 00:58+0000\n"
+"PO-Revision-Date: 2021-08-11 17:54+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Язылуыгыз бетерелде"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -428,7 +428,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Квитанциягезне карагыз</a>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -441,12 +441,12 @@ msgstr "Квитанция номеры: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Квитанцияне карау: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Сезнең кредит картасының вакыты чыгып килә"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
@@ -508,7 +508,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "Хөрмәтле %(productName)s мөштәрие,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
@@ -528,11 +528,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
-msgstr ""
+msgstr "Хөрмәт илә,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "%(productName)s такымы"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
@@ -991,7 +991,7 @@ msgstr "%(productName)s өчен түләү уңышсыз тәмамланды"
 
 #: lib/senders/email.js:2351 lib/senders/email.js:2416 lib/senders/email.js:2477
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Сезнең %(productName)s продуктына язылуыгыз бетерелде"
 
 #: lib/senders/email.js:2534
 msgid "%(productName)s subscription reactivated"
@@ -1115,8 +1115,8 @@ msgstr "Иң соңгы версиясен йөкләп алу"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</"
-#~ "a> өчен Firefox кулланмаларыннан да, керә аласыз."
+#~ "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән  <a %(androidLinkAttributes)s>Android</a> һәм <a %(iosLinkAttributes)s>iOS</a> "
+#~ "өчен Firefox кулланмаларыннан да, керә аласыз."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Тәүге җиһазыгызны Firefox Хисабыгызга уңышлы тоташтырдыгыз. Хәзер Синхронлау'га башка җиһазларыгыздан да, шул исәптән Android һәм iOS өчен Firefox кулланмаларыннан да, керә аласыз."
