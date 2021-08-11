@@ -128,12 +128,10 @@ input-error-is-required = { $label } кирәк
 
 ## subscription upgrade
 
+product-plan-change-heading = Үзгәртүләрегезне күздән кичерегез
 sub-change-failed = Планны үзгәртү уңышсыз тәмамланды
 sub-update-payment-title = Түләү турында мәгълүмат
 sub-update-card-exp = Вакыты чыга: { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
@@ -291,3 +289,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Йөкләүне дәвам итү
 payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
+
+## new user email form
+
