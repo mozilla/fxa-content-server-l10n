@@ -38,6 +38,7 @@ instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepym
 duplicate-transaction = Épa. Oñemondoramoite peteĩ mba’e ojueheguaitéva. Ehecha ne ñehepyme’ẽ rembiasakue.
 coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
 card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñemurã rehegua ha eha’ãjey uperire.
+fxa-signup-error = Oiko apañuãi emoheñoinguévo mba’ete. Eha’ãjey ag̃amieve.
 
 ## settings
 
@@ -180,33 +181,6 @@ sub-update-copy =
     Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái
     ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate }
     guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva ára</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } ára</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva arapokõindýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } arapokõindýpe </strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva jasýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } jasýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva arýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-       *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } arýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
-    }
 
 ##
 
