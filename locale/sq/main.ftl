@@ -29,7 +29,7 @@ payment-error-retry-button = Riprovoni
 payment-error-manage-subscription-button = Administroni pajtimet e mia
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
 currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
-no-subscription-upgrades = Na ndjeni. S’mund ta përmirësoni apo ktheni në një version të mëparshëm këtë çast. Ju lutemi, kontrolloni së shpejti.
+no-subscription-change = Na ndjeni. S’mund të ndryshoni planin tuaj të pajtimit.
 expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 insufficient-funds-error = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 withdrawal-count-limit-exceeded-error = Duket sikur ky transaksion do t’ju kalojë tej kufirit tuaj për kredit. Provoni një kartë tjetër.
@@ -38,6 +38,7 @@ instant-payouts-unsupported = Duket sikur karta juaj e debitit s’është ujdis
 duplicate-transaction = Hëm. Duket sikur sapo u dërgua një transaksion identik. Kontrolloni historikun tuaj të pagesave.
 coupon-expired = Duket sikur ai kod promocional të ketë skaduar.
 card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat e kartës tuaj të kreditit dhe riprovoni.
+fxa-signup-error = Pati një problem me krijimin e llogarisë tuaj. Ju lutemi, riprovoni më vonë.
 
 ## settings
 
@@ -55,7 +56,7 @@ subscription-create-title = Ujdisje e pajtimit tim
 subscription-success-title = Ripohim pajtimi
 subscription-processing-title = Po ripohohet pajtimi…
 subscription-error-title = Gabim në ripohim pajtimi…
-subscription-noupgrade-title = Nuk mbulohet ndryshime në fashën e pajtimeve
+subscription-noplanchange-title = Ky ndryshim plani pajtimi nuk mbulohet
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -172,46 +173,19 @@ input-error-is-required = { $label } është i domosdoshëm
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Shqyrtoni përmirësimin tuaj
-sub-update-failed = Përditësimi i planit dështoi
+product-plan-change-heading = Shqyrtoni ndryshimin tuaj
+sub-change-failed = Ndryshimi i planit dështoi
 sub-update-payment-title = Të dhëna pagese
 sub-update-card-exp = Skadon më { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Plani juaj do të ndryshojë menjëherë, dhe do t’ju faturohet vlera e ndryshuar për pjesën e mbetur të ciklit tuaj të faturimit. Duke filluar nga { $startingDate }
     do t’ju faturohet vlera e plotë.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } ditë</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } ditë</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } javë</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } javë</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } muaj</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } vjet</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-       *[other] E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës <strong>{ $amount } çdo { $intervalCount } vjet</strong>, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
-    }
-
 ##
 
-sub-update-submit = Ripohoni përmirësimin
-sub-update-indicator =
-    .aria-label = tregues përmirësimi
+sub-change-submit = Ripohoni ndryshimin
+sub-change-indicator =
+    .aria-label = tregues ndryshimi
 sub-update-current-plan-label = Plani i tanishëm
 sub-update-new-plan-label = Plan i ri
 sub-update-total-label = Shumë e re
@@ -402,3 +376,14 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Vazhdoni te shkarkimi
 payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Jepni email-in tuaj
+new-user-confirm-email =
+    .label = Ripohoni email-in tuaj
+new-user-subscribe-product-updates = Do të doja të merrja përditësime produktesh nga { -brand-name-firefox }
+new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
