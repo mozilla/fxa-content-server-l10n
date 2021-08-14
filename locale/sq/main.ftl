@@ -387,3 +387,6 @@ new-user-confirm-email =
     .label = Ripohoni email-in tuaj
 new-user-subscribe-product-updates = Do të doja të merrja përditësime produktesh nga { -brand-name-firefox }
 new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
+new-user-email-validate = Email-i s’është i vlefshëm
+new-user-email-validate-confirm = Email-et nuk përputhen
+new-user-existing-account-sign-in = Keni tashmë një llogari, <a>Hyni në të</a>
