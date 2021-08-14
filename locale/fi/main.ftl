@@ -35,6 +35,7 @@ payment-error-retry-button = Yritä uudestaan
 payment-error-manage-subscription-button = Hallitse tilausta
 country-currency-mismatch = Tämän tilauksen valuutta ei ole voimassa maksun tapahtumamaassa.
 currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
+no-subscription-change = Valitettavasti et voi muuttaa tilaustyyppiäsi.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.

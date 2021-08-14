@@ -379,6 +379,13 @@ tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
 tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
 tfa-input-enter-totp =
     .label = Kirjoita turvallisuuskoodi
+tfa-save-these-codes =
+    Tallenna nämä kertakäyttökoodit turvalliseen paikkaan
+    sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
+tfa-enter-code-to-confirm =
+    Kirjoita yksi palautuskoodeista varmistaaksesi,
+    että ne on sinulla tallennettuna. Tarvitset koodin, jos et voi käyttää
+    laitettasi ja tarvitset pääsyn tiliisi.
 tfa-enter-recovery-code =
     .label = Kirjoita palautuskoodi
 
@@ -464,6 +471,9 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
 se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
+se-content-note =
+    Huomio: toissijainen sähköposti ei palauta tietojasi — tarvitset
+    <a>palautusavaimen</a> sitä varten.
 
 ##
 
@@ -503,8 +513,10 @@ auth-error-110 = Virheellinen poletti
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-138 = Vahvistamaton istunto
 auth-error-155 = TOTP-polettia ei löytynyt
