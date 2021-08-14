@@ -61,6 +61,7 @@ subscription-create-title = Määritä tilaus
 subscription-success-title = Tilauksen vahvistus
 subscription-processing-title = Vahvistetaan tilausta...
 subscription-error-title = Virhe tilausta vahvistaessa...
+subscription-noplanchange-title = Tämä tilaustyypin vaihtaminen ei ole tuettu
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -154,6 +155,7 @@ input-error-is-required = { $label } vaaditaan
 ## subscription upgrade
 
 product-plan-change-heading = Tarkista muutos
+sub-change-failed = Tilaustyypin vaihtaminen epäonnistui
 sub-update-payment-title = Maksun tiedot
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
 
