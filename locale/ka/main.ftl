@@ -38,6 +38,7 @@ instant-payouts-unsupported = როგორც ჩანს, თქვენ�
 duplicate-transaction = ჰმ. როგორც ჩანს, მსგავსი გადარიცხვა უკვე გაიგზავნა. შეამოწმეთ თქვენი გადახდების ისტორია.
 coupon-expired = როგორც ჩანს, ფასდაკლების კოდი ვადაგასულია.
 card-error = თქვენი გადარიცხვა ვერ სრულდება. გთხოვთ, გადაამოწმოთ საკრედიტო ბარათის მონაცემები და კვლავ სცადოთ.
+fxa-signup-error = მოხდა შეცდომა, თქვენი ანგარიშის შექმნისას.  გთხოვთ, სცადოთ მოგვიანებით.
 
 ## settings
 
@@ -180,33 +181,6 @@ sub-update-copy =
     თქვენი გეგმა დაუყოვნებლივ შეიცვლება და ჩამოგეჭრებათ შესწორებული
     ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $startingDate }
     კი ჩამოგეჭრებათ სრული ოდენობა.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველდღიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-       *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } დღეში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველკვირეულად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-       *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } კვირაში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველთვიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-       *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } თვეში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველწლიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-       *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $amount } წელიწადში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
-    }
 
 ##
 
