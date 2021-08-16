@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-08-16 19:57+0000\n"
+"PO-Revision-Date: 2021-08-16 20:16+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -359,12 +359,12 @@ msgstr "Benvenite a %(productName)s"
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
 msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
 msgstr ""
-"Tu pagamento es actualmente in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera "
-"de lo cancellar."
+"Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo "
+"cancellar."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Successivemente, tu creara un contrasigno de conto Firefox e discargara %(productName)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
