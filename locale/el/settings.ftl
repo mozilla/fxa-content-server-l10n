@@ -553,13 +553,15 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 
 auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
-auth-error-110 = Μη έγκυρo token
+auth-error-110 = Μη έγκυρο διακριτικό
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
 auth-error-138 = Μη επαληθευμένη συνεδρία
-auth-error-155 = Δεν βρέθηκε TOTP token
+auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
