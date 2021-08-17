@@ -22,8 +22,8 @@ close-aria =
 
 general-error-heading = Error de aplicación general
 basic-error-message = Algo salió mal. Probá de nuevo más tarde.
-payment-error-1 = Hmm. Hubo un problema al autorizar el pago. Probá nuevamente o ponete en contacto con el emisor de su tarjeta.
-payment-error-2 = Hmm. Hubo un problema al autorizar el pago. Ponete en contacto con el emisor de su tarjeta.
+payment-error-1 = Hmm. Hubo un problema al autorizar el pago. Probá nuevamente o ponete en contacto con el emisor de tu tarjeta.
+payment-error-2 = Hmm. Hubo un problema al autorizar el pago. Ponete en contacto con el emisor de tu tarjeta.
 payment-error-3b = Ocurrió un error inesperado al procesar tu pago. Intentá nuevamente.
 payment-error-retry-button = Intentar de nuevo
 payment-error-manage-subscription-button = Administrar mi suscripción

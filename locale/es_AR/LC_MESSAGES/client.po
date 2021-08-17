@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-08-17 10:21+0000\n"
+"PO-Revision-Date: 2021-08-17 10:23+0000\n"
 "Last-Translator: Waldo Luis Ribeiro <waldoribeiro@sapo.pt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -120,7 +120,7 @@ msgstr "Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowe
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-"Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowercaseTopic)</b> %(escapedLowercaseTopic)s por <b>%(escapedSelectedProduct)s</b>. Nos vamos a contacrar con vos por correo "
+"Gracias por comunicarte con el Soporte de Mozilla sobre <b>%(escapedLowercaseTopic)</b> %(escapedLowercaseTopic)s por <b>%(escapedSelectedProduct)s</b>. Nos vamos a contactar con vos por correo "
 "electrónico lo antes posible."
 
 #: .es5/views/post_verify/verified.js:53
@@ -209,7 +209,7 @@ msgstr "Copiado"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr "La copia falló. Copie de manera manual."
+msgstr "La copia falló. Copiá de manera manual."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
