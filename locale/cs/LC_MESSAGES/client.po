@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-05 22:06+0000\n"
-"PO-Revision-Date: 2021-08-18 14:05+0000\n"
+"PO-Revision-Date: 2021-08-19 13:59+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -1710,7 +1710,7 @@ msgstr "Pokračovat na %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Zadejte heslo"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1719,7 +1719,7 @@ msgstr "Potvrdit heslo"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Vytvoření hesla"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

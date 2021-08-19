@@ -115,6 +115,7 @@ instant-payouts-unsupported = Vypadá to, že vaše karta nemá povolené okamž
 duplicate-transaction = Vypadá to, že jsme před chvíli přijali zcela stejnou transakci. Zkontrolujte prosím historii svých plateb.
 coupon-expired = Platnost tohoto promo kódu už nejspíše skončila.
 card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
+fxa-signup-error = Při vytváření vašeho účtu došlo k chybě. Zkuste to prosím znovu.
 
 ## settings
 
@@ -268,41 +269,6 @@ sub-change-failed = Nepodařilo se změnit vaše předplatné
 sub-update-payment-title = Platební informace
 sub-update-card-exp = Konec platnosti { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy = Vaše předplatné se změní okamžitě a bude vám naúčtována platba jako doplatek do konce stávajícího předplatného. Od { $startingDate } vám bude účtována plná částka.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala skrze mou preferovanou platební metodu částku
-    { $intervalCount ->
-        [one] <strong>{ $amount } každý den</strong>
-        [few] <strong>{ $amount } každé { $intervalCount } dny</strong>
-       *[other] <strong>{ $amount } každých { $intervalCount } dní</strong>
-    } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala skrze mou preferovanou platební metodu částku
-    { $intervalCount ->
-        [one] <strong>{ $amount } týdně</strong>
-        [few] <strong>{ $amount } každé { $intervalCount } týdny</strong>
-       *[other] <strong>{ $amount } každých { $intervalCount } týdnů</strong>
-    } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala skrze mou preferovanou platební metodu částku
-    { $intervalCount ->
-        [one] <strong>{ $amount } měsíčně</strong>
-        [few] <strong>{ $amount } každé { $intervalCount } měsíce</strong>
-       *[other] <strong>{ $amount } každých { $intervalCount } měsíců</strong>
-    } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    Souhlasím, aby { -brand-name-mozilla } jako autor produktů { -brand-name-firefox } strhávala skrze mou preferovanou platební metodu částku
-    { $intervalCount ->
-        [one] <strong>{ $amount } ročně</strong>
-        [few] <strong>{ $amount } každé { $intervalCount } roky</strong>
-       *[other] <strong>{ $amount } každých { $intervalCount } let</strong>
-    } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 
 ##
 
@@ -515,3 +481,16 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Pokračovat ke stažení
 payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
+new-user-email =
+    .placeholder = foxy@example.com
+    .label = Zadejte svou e-mailovou adresu
+new-user-confirm-email =
+    .label = Potvrďte svou e-mailovou adresu
+new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
+new-user-email-validate = E-mailová adresa je neplatná
+new-user-email-validate-confirm = E-mailové adresy se neshodují
+new-user-existing-account-sign-in = Účet už máte, <a>přihlaste se</a>
