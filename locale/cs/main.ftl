@@ -490,6 +490,7 @@ new-user-email =
     .label = Zadejte svou e-mailovou adresu
 new-user-confirm-email =
     .label = Potvrďte svou e-mailovou adresu
+new-user-subscribe-product-updates = Chci dostávat produktové novinky o { -brand-name-firefox(case: "loc") }
 new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
 new-user-email-validate = E-mailová adresa je neplatná
 new-user-email-validate-confirm = E-mailové adresy se neshodují
