@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2021-04-08 15:33+0000\n"
 "Last-Translator: Wannaphong Phatthiyaphaibun <wannaphong@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -967,9 +967,8 @@ msgstr "สร้างรหัสผ่านใหม่"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1318,9 +1317,8 @@ msgstr "ทำไมสิ่งนี้จึงเกิดขึ้น?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1989,6 +1987,19 @@ msgstr "จับคู่โดยใช้แอป"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>โปรดจำไว้ว่า</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) "
+#~ "เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>หมายเหตุ:</span> เมื่อคุณตั้งค่ารหัสผ่านของคุณใหม่ คุณจะตั้งค่าบัญชีของคุณใหม่ด้วย คุณอาจสูญเสียข้อมูลส่วนตัวบางอย่างของคุณ (รวมถึงประวัติ ที่คั่นหน้า และรหัสผ่าน) เนื่องจากเราเข้ารหัสข้อมูลของคุณด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ"
 
 #~ msgid "Change..."
 #~ msgstr "เปลี่ยน..."

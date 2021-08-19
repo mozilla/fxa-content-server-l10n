@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2021-07-30 09:19+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -973,10 +973,8 @@ msgstr "Įveskite naująjį slaptažodį"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>NEPAMIRŠKITE!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip "
-"yra todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1325,10 +1323,8 @@ msgstr "Kodėl taip nutiko?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>SVARBU!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip yra "
-"todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1998,6 +1994,20 @@ msgstr "Susieti naudojant programą"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>NEPAMIRŠKITE!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip "
+#~ "yra todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>SVARBU!</span> Atkurdami slaptažodį, atkursite ir savo paskyrą. Dalis jūsų asmeninių duomenų (įskaitant naršymo žurnalą, adresyną ir įsimintus slaptažodžius) gali būti prarasta. Taip yra "
+#~ "todėl, kad jūsų duomenys užšifruojami naudojant jūsų slaptažodį, siekiant apsaugoti jūsų duomenų privatumą."
 
 #~ msgid "Change..."
 #~ msgstr "Keisti…"

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -1073,7 +1073,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your "
 "account. You may lose some of your personal information (including history, "
 "bookmarks, and passwords). That’s because we encrypt your data with your "
-"password to protect your privacy."
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have."
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
@@ -1522,7 +1523,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. "
 "You may lose some of your personal information (including history, "
 "bookmarks, and passwords). That’s because we encrypt your data with your "
-"password to protect your privacy."
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have."
 msgstr ""
 
 #: .es5/templates/reset_password.mustache:6

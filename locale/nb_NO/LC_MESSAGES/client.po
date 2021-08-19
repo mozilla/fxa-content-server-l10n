@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2021-03-16 07:45+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -973,10 +973,8 @@ msgstr "Opprett nytt passord"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>HUSK:</span> Når du tilbakestiller ditt passord, nullstiller du din konto. Du kan miste noen av dine persondata (inkludert historikk, bokmerker og passord). Det skyldes at vi krypterer dine "
-"data med ditt passord for å beskytte ditt personvern."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1325,10 +1323,8 @@ msgstr "Hvorfor skjer dette?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er fordi "
-"vi krypterer dataene dine med passordet ditt for å beskytte ditt personvern."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1997,6 +1993,20 @@ msgstr "Paring via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>HUSK:</span> Når du tilbakestiller ditt passord, nullstiller du din konto. Du kan miste noen av dine persondata (inkludert historikk, bokmerker og passord). Det skyldes at vi krypterer "
+#~ "dine data med ditt passord for å beskytte ditt personvern."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er "
+#~ "fordi vi krypterer dataene dine med passordet ditt for å beskytte ditt personvern."
 
 #~ msgid "Change..."
 #~ msgstr "Endre…"
