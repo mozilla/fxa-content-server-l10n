@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2021-08-06 17:13+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444481614.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2867
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2875
 msgid "Here's your reminder to sync devices."
 msgstr "How jo wašo dopomnjeśe na sychronizoěrwanje rědow."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2871
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2879
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z Firefox waše cytańske znamjenja, gronidła a druge daty Firefox jadnake źaržy, źožkuli Firefox wužywaśo."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2868
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2876
 msgid "Last reminder to sync devices!"
 msgstr "Slědne dopomnjeśe na synchronizěrowanje rědow!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2874
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2882
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Priwatna synchronizacija drugego rěda z Firefox waše cytańske znamjenja, gronidła a druge daty Firefox jadnake źaržy, źožkuli Firefox wužywaśo."
 
@@ -65,7 +65,7 @@ msgstr "Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym roz
 msgid "Generate codes:"
 msgstr "Kody napóraś:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1334
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1338
 msgid "New sign-in to %(clientName)s"
 msgstr "Nowe pśizjawjenje pla %(clientName)s"
 
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Learn how to see what passwords Firefox is storing for you."
 msgstr "Zgóńśo, kak móžośo spóznaś, kótare gronidła Firefox za was składujo."
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1766
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1774
 msgid "Account recovery key generated"
 msgstr "Kontowy wótnowjeński kluc jo se napórał"
 
@@ -238,7 +238,7 @@ msgstr "Sćo wuspěšnje wužył wótnowjeński kod ze slědujucego rěda:"
 msgid "Consumed recovery code"
 msgstr "Wužyty wótnowjeński kod"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1625
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1630
 msgid "New recovery codes generated"
 msgstr "Nowy wótnowjeński kod napórany"
 
@@ -246,7 +246,7 @@ msgstr "Nowy wótnowjeński kod napórany"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Sćo wuspěšnje napórał nowe wótnowjeńske kody ze slědujucego rěda:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1816
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1824
 msgid "Account recovery key removed"
 msgstr "Kontowy wótnowjeński kluc jo se wótwónoźeł"
 
@@ -262,7 +262,7 @@ msgstr "Toś ten wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo kont
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Sćo wuspěšnje wótwónoźeł nowy wótnowjeński kluc za swójo konto Firefox z slědujucego rěda:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1497
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1502
 msgid "Secondary email removed"
 msgstr "Druga e-mailowa adresa jo se wótwónoźeła"
 
@@ -298,7 +298,7 @@ msgstr "Pśiduca synchronizacija mjazy rědami!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Priwatna synchronizacija waše cytańske znamjenja, gronidła a druge daty Firefox na wšych wašych rědach jadnake źaržy."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1380
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1384
 msgid "Set up next device"
 msgstr "Pśiducy rěd konfigurěrowaś"
 
@@ -306,7 +306,7 @@ msgstr "Pśiducy rěd konfigurěrowaś"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Maśo pšašanja? Woglědajśo se k %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1425
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1430
 msgid "Secondary email added"
 msgstr "Druga e-mailowa adresa jo se pśidała"
 
@@ -323,7 +323,7 @@ msgstr "Musyśo swojo gronidło slědk stajiś?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klikniśo na tłocašk w běgu góźinu, aby napórał nowe gronidło. Napšašowanje pśiźo wót slědujucego rěda:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1148
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1152
 msgid "Create new password"
 msgstr "Nowe gronidło napóraś"
 
@@ -348,7 +348,7 @@ msgstr "Pšosym wobźělśo se na toś tom <a %(cancellationSurveyLinkAttributes
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2836
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2844
 msgid "Welcome to %(productName)s"
 msgstr "Witajśo k %(productName)s"
 
@@ -389,8 +389,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 msgstr ""
-"Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s na %(productPaymentCycle)s do %(paymentAmountNew)s změnijo. Pótom teke jadnorazowe pśipisanje %(paymentProrated)s na"
-" konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
+"Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s na %(productPaymentCycle)s do %(paymentAmountNew)s změnijo. Pótom teke jadnorazowe pśipisanje %(paymentProrated)s "
+"na konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -657,7 +657,7 @@ msgstr "Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z Firefox, wšuźi, �
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Aby wěstotu pówušył, wobkšuśćo pšosym toś to pśizjawjenje ze slědujucego rěda:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:837
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:841
 msgid "Confirm sign-in"
 msgstr "Pśizjawjenje wobkšuśiś"
 
@@ -869,172 +869,176 @@ msgstr "%(stateCode)s, %(country)s (licone)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (licony)"
 
-#: lib/senders/email.js:586
+#: lib/senders/email.js:590
 msgid "Finish creating your account"
 msgstr "Dokóńcćo załožowanje swójogo konta"
 
-#: lib/senders/email.js:587 lib/senders/email.js:724
+#: lib/senders/email.js:591 lib/senders/email.js:728
 msgid "Confirm email"
 msgstr "E-mailowu adresu wobkšuśiś"
 
-#: lib/senders/email.js:654
+#: lib/senders/email.js:658
 msgid "Verification code: %(code)s"
 msgstr "Wobkšuśeński kod: %(code)s"
 
-#: lib/senders/email.js:704
+#: lib/senders/email.js:708
 msgid "Reminder: Finish creating your account"
 msgstr "Dopominanje: Skóńcćo załožowanje swójogo konta"
 
-#: lib/senders/email.js:706
+#: lib/senders/email.js:710
 msgid "Final reminder: Activate your account"
 msgstr "Slědne dopomnjeśe: Aktiwěrujśo swójo konto"
 
-#: lib/senders/email.js:761
+#: lib/senders/email.js:765
 msgid "Account authorization code"
 msgstr "Awtorizěrowański kod konta"
 
-#: lib/senders/email.js:834
+#: lib/senders/email.js:838
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Nowe pśizjawjenje pla %(clientName)s wobkšuśiś"
 
-#: lib/senders/email.js:883
+#: lib/senders/email.js:887
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Pśizjawjeński kod za %(serviceName)s"
 
-#: lib/senders/email.js:952
+#: lib/senders/email.js:956
 msgid "Confirm primary email"
 msgstr "Primarnu e-maijlowu adresu wobkšuśiś"
 
-#: lib/senders/email.js:953 lib/senders/email.js:1016 lib/senders/email.js:1088
+#: lib/senders/email.js:957 lib/senders/email.js:1020 lib/senders/email.js:1092
 msgid "Verify email"
 msgstr "E-mailowu adresu wobkšuśiś"
 
-#: lib/senders/email.js:1015 lib/senders/email.js:1087
+#: lib/senders/email.js:1019 lib/senders/email.js:1091
 msgid "Confirm secondary email"
 msgstr "Sekundarnu e-mailowu adresu wobkšuśiś"
 
-#: lib/senders/email.js:1147
+#: lib/senders/email.js:1151
 msgid "Reset your password"
 msgstr "Stajśo swójo gronidło slědk"
 
-#: lib/senders/email.js:1193 lib/senders/email.js:1263
+#: lib/senders/email.js:1197 lib/senders/email.js:1267
 msgid "Password updated"
 msgstr "Gronidło jo se zaktualizěrowało"
 
-#: lib/senders/email.js:1235 lib/senders/email.js:1293
+#: lib/senders/email.js:1239 lib/senders/email.js:1297
 msgid "Suspicious activity detected"
 msgstr "Zawózdatna aktiwita namakana"
 
-#: lib/senders/email.js:1335 lib/senders/email.js:1426 lib/senders/email.js:1462 lib/senders/email.js:1498 lib/senders/email.js:1532 lib/senders/email.js:1579 lib/senders/email.js:1626
-#: lib/senders/email.js:1673 lib/senders/email.js:1767 lib/senders/email.js:1817
+#: lib/senders/email.js:1339 lib/senders/email.js:1431 lib/senders/email.js:1467 lib/senders/email.js:1503 lib/senders/email.js:1537 lib/senders/email.js:1584 lib/senders/email.js:1631
+#: lib/senders/email.js:1678 lib/senders/email.js:1775 lib/senders/email.js:1825
 msgid "Manage account"
 msgstr "Konto zastojaś"
 
-#: lib/senders/email.js:1375
+#: lib/senders/email.js:1379
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Konto jo pśeglědane. Synchronizěrujśo něnto drugi rěd, aby konfiguraciju zakóńcył."
 
-#: lib/senders/email.js:1461
+#: lib/senders/email.js:1466
 msgid "Primary email updated"
 msgstr "Primarna e-mailowa adresa jo se zaktualizěrowała"
 
-#: lib/senders/email.js:1531
+#: lib/senders/email.js:1536
 msgid "Two-step verification enabled"
 msgstr "Dwójokšacowa awtentifikacija jo se zmóžniła"
 
-#: lib/senders/email.js:1578
+#: lib/senders/email.js:1583
 msgid "Two-step verification is off"
 msgstr "Dwójokšacowa awtentifikacija jo se znjemóžniła"
 
-#: lib/senders/email.js:1672
+#: lib/senders/email.js:1677
 msgid "Recovery code used"
 msgstr "Wótnowjeński kod se wužywa"
 
-#: lib/senders/email.js:1729
+#: lib/senders/email.js:1737
 msgid "1 recovery code remaining"
 msgstr "1 wótnowjeński kod wušej"
 
-#: lib/senders/email.js:1731
+#: lib/senders/email.js:1739
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s wótnowjeńskich kodow wušej"
 
-#: lib/senders/email.js:1734
+#: lib/senders/email.js:1742
 msgid "Generate codes"
 msgstr "Kody napóraś"
 
-#: lib/senders/email.js:1866
+#: lib/senders/email.js:1874
 msgid "Password updated using recovery key"
 msgstr "Gronidło jo se zaktualizěrowało z pomocu wótnowjeńskego kluca"
 
-#: lib/senders/email.js:1867
+#: lib/senders/email.js:1875
 msgid "Create new recovery key"
 msgstr "Nowy wótnowjeński kluc napóraś"
 
-#: lib/senders/email.js:1955
+#: lib/senders/email.js:1961
 msgid "Create a password"
 msgstr "Gronidło napóraś"
 
-#: lib/senders/email.js:1958 lib/senders/email.js:2762
-msgid "%(productName)s payment confirmed"
-msgstr "Płaśenje %(productName)s wobkšuśone"
+#: lib/senders/email.js:1964
+msgid "Welcome to %(productName)s: Please set your password."
+msgstr ""
 
-#: lib/senders/email.js:2029
+#: lib/senders/email.js:2037
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Sćo aktualizěrował na %(productNameNew)s"
 
-#: lib/senders/email.js:2108
+#: lib/senders/email.js:2116
 msgid "You have switched to %(productNameNew)s"
 msgstr "Sćo pśejšeł k %(productNameNew)s"
 
-#: lib/senders/email.js:2173
+#: lib/senders/email.js:2181
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Kreditowa kórta za %(productName)s skóro spadnjo"
 
-#: lib/senders/email.js:2187
+#: lib/senders/email.js:2195
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Kreditowa kórta za swóje abonementy skóro spadnjo"
 
-#: lib/senders/email.js:2238
+#: lib/senders/email.js:2246
 msgid "Payment information update required for %(productName)s"
 msgstr "Aktualizěrowanje płaśeńskich informacijow jo za %(productName)s trjebne"
 
-#: lib/senders/email.js:2254
+#: lib/senders/email.js:2262
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Aktualizěrowanje płaśeńskich informacijow jo za abonementy Mozilla trjebne"
 
-#: lib/senders/email.js:2300
+#: lib/senders/email.js:2308
 msgid "%(productName)s payment failed"
 msgstr "Płaśenje %(productName)s njejo se raźiło"
 
-#: lib/senders/email.js:2351 lib/senders/email.js:2416 lib/senders/email.js:2477
+#: lib/senders/email.js:2359 lib/senders/email.js:2424 lib/senders/email.js:2485
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Waš abonement %(productName)s jo se wótskazał"
 
-#: lib/senders/email.js:2534
+#: lib/senders/email.js:2542
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonement %(productName)s jo se zasej zaktiwěrował"
 
-#: lib/senders/email.js:2590
+#: lib/senders/email.js:2598
 msgid "%(productName)s automatic renewal notice"
 msgstr "Powěźeńka wó awtomatiskem pśedlejšenju %(productName)s"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2678
 msgid "%(productName)s payment received"
 msgstr "Płaśenje %(productName)s dostane"
 
-#: lib/senders/email.js:2837
+#: lib/senders/email.js:2770
+msgid "%(productName)s payment confirmed"
+msgstr "Płaśenje %(productName)s wobkšuśone"
+
+#: lib/senders/email.js:2845
 msgid "Download %(productName)s"
 msgstr "%(productName)s ześěgnuś"
 
-#: lib/senders/email.js:2863
+#: lib/senders/email.js:2871
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś"
 
-#: lib/senders/email.js:2864
+#: lib/senders/email.js:2872
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Slědne dopomnjeśe: Dokóńcćo konfiguracije synchronizacije"
 
-#: lib/senders/email.js:2878
+#: lib/senders/email.js:2886
 msgid "Sync another device"
 msgstr "Drugi rěd synchronizěrowaś"
 
@@ -1161,8 +1165,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. Waš "
-#~ "abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
+#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. "
+#~ "Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Wjeliki źěk, až sćo aboněrował %(productName)s!"
@@ -1171,15 +1175,15 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgstr "Sćo njedawno wukašował swójo konto Firefox. Togodla smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło dnja %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło %(invoiceDateOnly)s. Waša słužba až do kóńca wašeje aktualnego casa wótlicenja dalej źo, pótakem"
-#~ " do %(serviceLastActiveDateOnly)s."
+#~ "Smy wótskazali waš abonement %(productName)s. Wašo kóńcne płaśenje %(invoiceTotal)s $ jo se zapłaśiło %(invoiceDateOnly)s. Waša słužba až do kóńca wašeje aktualnego casa wótlicenja dalej źo, "
+#~ "pótakem do %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změnijo. Pótom teke jadnorazowe pśipisanje "
 #~ "%(paymentProrated)s $ na konto dostanjośo, aby se nišy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
@@ -1191,12 +1195,12 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s $ za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. Waš "
-#~ "abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
+#~ "Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje %(invoiceTotal)s $ za kórtu %(cardType)s  wucynijo, kótaraž se za %(lastFour)s dnja %(nextInvoiceDateOnly)s kóńcy. "
+#~ "Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót %(paymentAmountOld)s $ na %(productPaymentCycle)s do %(paymentAmountNew)s $ změnijo. Pótom teke musyśo jadnorazowe pśipisanje "
 #~ "%(paymentProrated)s $ płaśiś, aby se wušy płaśonk za zbytk %(productPaymentCycle)s wótbłyšćował."
@@ -1435,7 +1439,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. Aby nejwěcej ze Sync wuwónoźeł zwězajśo z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</a>."
+#~ "Sćo swój prědny rěd wuspěšnje ze swójim kontom Firefox zwězał. Aby nejwěcej ze Sync wuwónoźeł zwězajśo z <a href='%(androidUrl)s'>Firefox za Android</a> abo <a href='%(iosUrl)s'>Firefox za iOS</"
+#~ "a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Pla Sync pśizjawiś"
@@ -1600,11 +1605,11 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgstr "Gronidło slědk stajiś"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž jo z "
-#~ "nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
+#~ "Pśed pór dnjami sćo konto Firefox załožył, ale njejsćo jo nigda wobkšuśił. Z wobkšuśonym kontom maśo pśistup na swóje rejtarki, cytańske znamjenja, gronidła a historiju na kuždem rěźe, kótaryž "
+#~ "jo z nim zwězany. Wobkšuśćo jadnorje toś tu e-mailowu adresu, aby swójo konto aktiwěrował."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -1629,7 +1634,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "E-mailowu adresu za Firefox Accounts wobkšuśiś"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Sćo swójomu kontoju Firefox wuspěšnje %(secondaryEmail)s ako drugu e-mailowu adresu wobkšuśił. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adrese pósćelu."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1714,8 +1720,8 @@ msgstr "Nejnowšu ześěgnuś"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske znamjenja a "
-#~ "historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
+#~ "Zachadny tyźeń sćo konto Firefox załožył, ale njejśco jo wobkšuśił. Starosćimy se wó was. Firefox jo za Windows, Mac, Linux, Android a iOS k dispoziciji. Móžośo swóje gronidła, cytańske "
+#~ "znamjenja a historiju Firefox mjazy nimi wšymi synchronizěrowaś. Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, lěc wšykno jo w rěźe z wami."
 
 #~ msgid "env"
 #~ msgstr "env"

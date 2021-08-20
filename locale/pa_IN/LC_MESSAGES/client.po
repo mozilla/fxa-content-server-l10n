@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2020-02-19 08:43+0000\n"
 "Last-Translator: Satnam S Virdi <pika10singh@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -968,10 +968,8 @@ msgstr "ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span> ਯਾਦ ਰੱਖੋ:</span> ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ। ਤੁਸੀਂ ਆਪਣੀ ਕੁਝ ਨਿੱਜੀ ਜਾਣਕਾਰੀ (ਅਤੀਤ, ਬੁੱਕਮਾਰਕ ਅਤੇ ਪਾਸਵਰਡ) ਗੁਆ ਸਕਦੇ ਹੋ। ਇਸ ਲਈ ਕਿਉਂਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਤੁਹਾਡੇ ਪਾਸਵਰਡ "
-"ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਹੈ।"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1320,7 +1318,7 @@ msgstr "ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
 
 #: .es5/templates/reset_password.mustache:6
@@ -1990,6 +1988,13 @@ msgstr "ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਸੀ? ਤੁਹਾਨੂੰ ਫਾਇਰਫਾਕਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਅੰਦਰੋਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span> ਯਾਦ ਰੱਖੋ:</span> ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਮੁੜ-ਸੈਟ ਕਰਦੇ ਹੋ। ਤੁਸੀਂ ਆਪਣੀ ਕੁਝ ਨਿੱਜੀ ਜਾਣਕਾਰੀ (ਅਤੀਤ, ਬੁੱਕਮਾਰਕ ਅਤੇ ਪਾਸਵਰਡ) ਗੁਆ ਸਕਦੇ ਹੋ। ਇਸ ਲਈ ਕਿਉਂਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਤੁਹਾਡੇ "
+#~ "ਪਾਸਵਰਡ ਨਾਲ ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਹੈ।"
 
 #~ msgid "Change..."
 #~ msgstr "...ਬਦਲੋ"

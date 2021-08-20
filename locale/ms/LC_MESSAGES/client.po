@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 22:06+0000\n"
+"POT-Creation-Date: 2021-08-19 22:08+0000\n"
 "PO-Revision-Date: 2018-11-25 03:20+0000\n"
 "Last-Translator: Norman Haikal <normanh876@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -970,10 +970,8 @@ msgstr "Cipta kata laluan baru"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>Ingat:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
-"kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1322,10 +1320,8 @@ msgstr "Kenapa ini terjadi?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>NOTA:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
-"kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1994,6 +1990,20 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>Ingat:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
+#~ "kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>NOTA:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
+#~ "kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
 
 #~ msgid "Once you're finished, use your new password to sign in on all of your devices."
 #~ msgstr "Sebaik sahaja anda siap, gunakan kata laluan baru anda untuk daftar masuk ke semua peranti anda."

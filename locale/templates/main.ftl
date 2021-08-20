@@ -40,7 +40,10 @@ duplicate-transaction = Hmm. Looks like an identical transaction was just sent. 
 coupon-expired = It looks like that promo code has expired.
 card-error = Your transaction could not be processed. Please verify your credit card information and try again.
 
-fxa-signup-error = There was a problem creating your account.  Please try again later.
+##  $productName (String) - The name of the subscribed product.
+fxa-account-signup-error = A system error caused your ${ productName } sign-up to fail. Your payment method has not been charged. Please try again.
+newsletter-signup-error = You're not signed up for product update emails. You can try again in your account settings.
+fxa-post-passwordless-sub-error = Subscription confirmed, but the confirmation page failed to load. Please check your email to set up your account.
 
 ## settings
 settings-home = Account Home
@@ -49,6 +52,7 @@ settings-subscriptions-title = Subscriptions
 ## legal footer
 terms = Terms of Service
 privacy = Privacy Notice
+terms-download = Download Terms
 
 ## Subscription titles
 subscription-create-title = Set up your subscription
@@ -92,13 +96,13 @@ product-no-such-plan = No such plan for this product.
 
 ## payment legal blurb
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } uses { -brand-name-stripe } and { -brand-name-paypal } for secure payment processing.
-payment-legal-link-stripe-and-paypal-2 = View the <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink> and <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
 
 payment-legal-copy-paypal = { -brand-name-mozilla } uses { -brand-name-paypal } for secure payment processing.
-payment-legal-link-paypal = View the <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } privacy policy</paypalPrivacyLink>.
 
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } uses { -brand-name-stripe } for secure payment processing.
-payment-legal-link-stripe-2 = View the <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privacy policy</stripePrivacyLink>.
 
 ## payment form
 payment-name =
@@ -313,11 +317,19 @@ payment-processing-message = Please wait while we process your payment…
 payment-confirmation-alert = Click here to download
 payment-confirmation-mobile-alert = Didn't open app? <a>Click Here</a>
 payment-confirmation-thanks-heading = Thank you!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = A confirmation email has been sent to { $email } with details on how to get started with { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Thanks, now check your email!
+
+## $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = You'll receive an email at { $email } with instructions for setting up your account, as well as your payment details.
 payment-confirmation-order-heading = Order details
 payment-confirmation-invoice-number = Invoice #{ $invoiceNumber }
 payment-confirmation-billing-heading = Billed to
-payment-confirmation-details-heading = Payment details
+payment-confirmation-details-heading-2 = Payment information
 payment-confirmation-amount = { $amount } per { $interval }
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -346,6 +358,8 @@ payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
 ## new user email form
 new-user-sign-in-link = Already have a { -brand-name-firefox } account? <a>Sign in</a>
+new-user-step-1 = 1. Create a { -brand-name-firefox } account
+new-user-step-2 = 2. Choose your payment method
 new-user-email =
   .placeholder = foxy@mozilla.com
   .label = Enter your email
@@ -355,4 +369,6 @@ new-user-subscribe-product-updates = I'd like to receive product updates from { 
 new-user-subscribe-product-assurance = We only use your email to create your account. We will never sell it to a third party.
 new-user-email-validate = Email is not valid
 new-user-email-validate-confirm = Emails do not match
-new-user-existing-account-sign-in = You already have an account, <a>Sign in</a>
+new-user-already-has-account-sign-in = You already have an account. <a>Sign in</a>
+new-user-card-title = Enter your card information
+new-user-submit = Subscribe Now
