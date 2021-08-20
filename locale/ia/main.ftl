@@ -385,6 +385,8 @@ payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Ha tu jam un conto { -brand-name-firefox }? <a>Accede</a>
+new-user-step-1 = 1. Crea un conto { -brand-name-firefox }
+new-user-step-2 = 2. Elige tu methodo de pagamento
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Insere tu email
@@ -394,4 +396,5 @@ new-user-subscribe-product-updates = Io vole reciper actualisationes  de product
 new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear tu conto. Nos mais lo vendera a tertie parte.
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
+new-user-already-has-account-sign-in = Tu jam ha un conto. <a>Accede</a>
 new-user-submit = Abona te ora
