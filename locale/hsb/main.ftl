@@ -439,6 +439,8 @@ payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last } kónči
 ## new user email form
 
 new-user-sign-in-link = Maće hižo konto { -brand-name-firefox }? <a>Přizjewić</a>
+new-user-step-1 = 1. Załožće konto { -brand-name-firefox }
+new-user-step-2 = 2. Wubjerće swoju płaćensku mentodu
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Zapodajće swoju e-mejlowu adresu
@@ -448,3 +450,6 @@ new-user-subscribe-product-updates = Bych rady produktowe aktualizacije wot { -b
 new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adresu, zo bychmy waše konto załožili. Třećemu poskićowarjej ju ženje njepředamy.
 new-user-email-validate = E-mejlowa adresa płaćiwa njeje
 new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
+new-user-already-has-account-sign-in = Maće hižo konto. <a>Přizjewić</a>
+new-user-card-title = Zapodajće swoje kartowe informacije
+new-user-submit = Nětko abonować
