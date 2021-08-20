@@ -38,7 +38,9 @@ instant-payouts-unsupported = Parece que seu cartão de débito não está confi
 duplicate-transaction = Hmm. Parece que uma transação idêntica acabou de ser enviada. Verifique seu histórico de pagamentos.
 coupon-expired = Parece que o código promocional expirou.
 card-error = Não foi possível processar sua transação. Confira as informações do seu cartão de crédito e tente novamente.
-fxa-signup-error = Houve um problema ao criar sua conta. Tente novamente mais tarde.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -100,11 +102,8 @@ product-no-such-plan = Não existe esse plano para este produto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } e o { -brand-name-paypal } para processamento seguro de pagamentos.
-payment-legal-link-stripe-and-paypal-2 = Veja a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink> e a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } usa o { -brand-name-paypal } para processamento seguro de pagamentos.
-payment-legal-link-paypal = Veja a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } para processamento seguro de pagamentos.
-payment-legal-link-stripe-2 = Veja a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -337,11 +336,19 @@ payment-processing-message = Aguarde enquanto processamos seu pagamento...
 payment-confirmation-alert = Clique aqui para baixar
 payment-confirmation-mobile-alert = Não abriu o aplicativo? <a>Clique aqui</a>
 payment-confirmation-thanks-heading = Obrigado!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Um email de confirmação foi enviado para { $email } com detalhes sobre como começar a usar o { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Detalhes do pedido
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturado para
-payment-confirmation-details-heading = Detalhes do pagamento
+payment-confirmation-details-heading-2 = Informação de pagamento
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -376,6 +383,8 @@ payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Já tem uma Conta { -brand-name-firefox }? <a>Entre</a>
+new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
+new-user-step-2 = 2. Escolha um método de pagamento
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Digite seu email
@@ -385,4 +394,6 @@ new-user-subscribe-product-updates = Quero receber novidades de produtos do { -b
 new-user-subscribe-product-assurance = Só usamos seu email para criar sua conta. Nunca iremos vender a terceiros.
 new-user-email-validate = Email inválido
 new-user-email-validate-confirm = Os emails não coincidem
-new-user-existing-account-sign-in = Você já tem uma conta, <a>entre</a>
+new-user-already-has-account-sign-in = Você já tem uma conta. <a>Entre</a>
+new-user-card-title = Digite as informações do seu cartão
+new-user-submit = Assinar agora
