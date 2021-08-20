@@ -38,7 +38,9 @@ instant-payouts-unsupported = 看来您的借记卡不允许即时付款。请�
 duplicate-transaction = 呃，看起来刚刚发生了相同的交易。请检查您的付款记录。
 coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
-fxa-signup-error = 创建账户时遇到问题。请稍后再试。
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = 订阅
 
 terms = 服务条款
 privacy = 隐私声明
+terms-download = 下载条款
 
 ## Subscription titles
 
@@ -99,11 +102,11 @@ product-no-such-plan = 此产品无此方案。
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 和 { -brand-name-paypal } 进行安全支付。
-payment-legal-link-stripe-and-paypal-2 = 查看 <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>和 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
-payment-legal-link-paypal = 查看 <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
-payment-legal-link-stripe-2 = 查看 <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>。
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>.
 
 ## payment form
 
@@ -334,11 +337,21 @@ payment-processing-message = 请稍候，我们正在处理您的付款...
 payment-confirmation-alert = 点此下载
 payment-confirmation-mobile-alert = 应用程序没有打开？ <a>请点击此处</a>
 payment-confirmation-thanks-heading = 感谢您！
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = 确认邮件已发送至 { $email }，其中包含如何开始使用 { $product_name } 的详细信息。
+payment-confirmation-thanks-heading-account-exists = 感谢，请注意查收邮件！
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = 您将会在 { $email } 收到一封邮件，其中包括如何设置账户、付款方式等信息。
 payment-confirmation-order-heading = 订单详细信息
 payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人：
-payment-confirmation-details-heading = 付款详情
+payment-confirmation-details-heading-2 = 付款信息
 payment-confirmation-amount = 每 { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -369,6 +382,8 @@ payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 ## new user email form
 
 new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
+new-user-step-1 = 1. 创建 { -brand-name-firefox } 账户
+new-user-step-2 = 2. 选择付款方式
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = 输入您的电子邮件地址
@@ -378,4 +393,6 @@ new-user-subscribe-product-updates = 我想接收 { -brand-name-firefox } 的产
 new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
 new-user-email-validate = 电子邮件地址无效
 new-user-email-validate-confirm = 两次输入的邮箱地址不同
-new-user-existing-account-sign-in = 您已注册过账户，<a>请登录</a>
+new-user-already-has-account-sign-in = 您已有账户，<a>请登录</a>
+new-user-card-title = 输入您的卡片信息
+new-user-submit = 立即订阅
