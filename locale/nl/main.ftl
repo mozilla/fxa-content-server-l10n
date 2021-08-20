@@ -38,7 +38,12 @@ instant-payouts-unsupported = Het lijkt erop dat uw bankpas niet is ingesteld vo
 duplicate-transaction = Hmm. Het lijkt erop dat zojuist een identieke transactie is verzonden. Controleer uw betalingsgeschiedenis.
 coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
 card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
-fxa-signup-error = Er is een probleem opgetreden bij het aanmaken van uw account. Probeer het later nog eens.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Door een systeemfout is uw registratie bij { productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
+newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
+fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = Abonnementen
 
 terms = Servicevoorwaarden
 privacy = Privacyverklaring
+terms-download = Voorwaarden downloaden
 
 ## Subscription titles
 
@@ -100,11 +106,11 @@ product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } en { -brand-name-paypal } voor veilig betalingsverkeer.
-payment-legal-link-stripe-and-paypal-2 = Het privacybeleid van <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> en <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> bekijken.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } gebruikt { -brand-name-paypal } voor veilig betalingsverkeer.
-payment-legal-link-paypal = Het <paypalPrivacyLink>privacybeleid van { -brand-name-paypal }</paypalPrivacyLink> bekijken.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
-payment-legal-link-stripe-2 = Het <stripePrivacyLink>privacybeleid van { -brand-name-stripe }</stripePrivacyLink> bekijken.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +354,21 @@ payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
 payment-confirmation-alert = Klik hier om te downloaden
 payment-confirmation-mobile-alert = App niet geopend? <a>Klik hier</a>
 payment-confirmation-thanks-heading = Bedankt!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Er is een bevestigingsbericht verzonden naar { $email } met details over hoe u aan de slag kunt met { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Bedankt, controleer nu uw e-mail!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = U ontvangt een e-mailbericht op { $email } met instructies over het instellen van uw account, evenals uw betalingsgegevens.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekening voor
-payment-confirmation-details-heading = Betalingsgegevens
+payment-confirmation-details-heading-2 = Betalingsgegevens
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -387,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
+new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
+new-user-step-2 = 2. Kies uw betalingsmethode
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Voer uw e-mailadres in
@@ -396,4 +414,6 @@ new-user-subscribe-product-updates = Ik wil graag productupdates van { -brand-na
 new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
 new-user-email-validate = E-mailadres is niet geldig
 new-user-email-validate-confirm = E-mailadressen komen niet overeen
-new-user-existing-account-sign-in = U hebt al een account, <a>aanmelden</a>
+new-user-already-has-account-sign-in = U hebt al een account. <a>Aanmelden</a>
+new-user-card-title = Voer uw kaartgegevens in
+new-user-submit = Nu abonneren
