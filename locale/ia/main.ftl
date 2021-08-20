@@ -38,7 +38,9 @@ instant-payouts-unsupported = Il pare que tu carta de debito non es configurate 
 duplicate-transaction = Hmm. Il pare que un identic transaction ha essite justo inviate. Verifica tu chronologia de pagamento.
 coupon-expired = Il pare que ille codice de promotion ha expirate.
 card-error = Tu transaction non pote esser processate. Verifica le informationes de tu carta de credito e reproba.
-fxa-signup-error = Un error ha occurrite durante le creation de tu conto.  Retenta plus tarde.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = Subscriptiones
 
 terms = Terminos de servicio
 privacy = Aviso de confidentialitate
+terms-download = Discargar terminos
 
 ## Subscription titles
 
@@ -100,11 +103,8 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisa { -brand-name-stripe } e { -brand-name-paypal } pro le elaboration secur del pagamentos.
-payment-legal-link-stripe-and-paypal-2 = Vide le <stripePrivacyLink>Politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink> e le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } emplea { -brand-name-paypal } pro le processo secur de pagamento.
-payment-legal-link-paypal = Vide le <paypalPrivacyLink>politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } emplea { -brand-name-stripe } pro le processo secur de pagamento.
-payment-legal-link-stripe-2 = Vider le <stripePrivacyLink>politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -338,11 +338,19 @@ payment-processing-message = Attende durante que nos elabora tu pagamento...
 payment-confirmation-alert = Clicca ci pro discargar
 payment-confirmation-mobile-alert = Le app non se aperi? <a>Clicca hic</a>
 payment-confirmation-thanks-heading = Gratias!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Un e-mail de confirmation ha essite inviate a { $email } con detalios sur como comenciar con { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Detalios del ordine
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturate a
-payment-confirmation-details-heading = Detalios del pagamento
+payment-confirmation-details-heading-2 = Information de pagamento
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -386,4 +394,4 @@ new-user-subscribe-product-updates = Io vole reciper actualisationes  de product
 new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear tu conto. Nos mais lo vendera a tertie parte.
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
-new-user-existing-account-sign-in = Tu jam ha un conto. <a>Accede</a>
+new-user-submit = Abona te ora
