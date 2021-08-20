@@ -38,7 +38,12 @@ instant-payouts-unsupported = Có vẻ như thẻ ghi nợ của bạn không đ
 duplicate-transaction = Hừm. Có vẻ như một giao dịch giống hệt nhau vừa được gửi. Hãy kiểm tra lịch sử thanh toán của bạn.
 coupon-expired = Có vẻ như mã khuyến mãi đã hết hạn.
 card-error = Không thể xử lý giao dịch của bạn. Vui lòng xác minh thông tin thẻ tín dụng của bạn và thử lại.
-fxa-signup-error = Đã xảy ra sự cố khi tạo tài khoản của bạn.  Vui lòng thử lại sau.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Lỗi hệ thống khiến quá trình đăng ký ${ productName } của bạn không thành công. Phương thức thanh toán của bạn chưa bị tính phí. Vui lòng thử lại.
+newsletter-signup-error = Bạn chưa đăng ký nhận email cập nhật sản phẩm. Bạn có thể thử lại trong cài đặt tài khoản của mình.
+fxa-post-passwordless-sub-error = Thuê bao đã được xác nhận, nhưng trang xác nhận không tải được. Vui lòng kiểm tra email của bạn để thiết lập tài khoản của bạn.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = Thuê bao
 
 terms = Điều khoản dịch vụ
 privacy = Chính sách riêng tư
+terms-download = Tải xuống các điều khoản
 
 ## Subscription titles
 
@@ -96,11 +102,11 @@ product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } và { -brand-name-paypal } để xử lý thanh toán an toàn.
-payment-legal-link-stripe-and-paypal-2 = Xem <stripePrivacyLink>chính sách bảo mật của { -brand-name-stripe }</stripePrivacyLink> và <paypalPrivacyLink>chính sách bảo mật của { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Chính sách riêng tư của { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } sử dụng { -brand-name-paypal } để xử lý thanh toán an toàn.
-payment-legal-link-paypal = Xem <paypalPrivacyLink>chính sách bảo mật của { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Chính sách riêng tư của { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
-payment-legal-link-stripe-2 = Xem <stripePrivacyLink>chính sách bảo mật của { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -332,11 +338,21 @@ payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý tha
 payment-confirmation-alert = Nhấp vào đây để tải xuống
 payment-confirmation-mobile-alert = Không thể mở ứng dụng? <a>Nhấp vào đây</a>
 payment-confirmation-thanks-heading = Cảm ơn bạn!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Một email xác nhận đã được gửi đến { $email } với các chi tiết về cách bắt đầu với { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Cảm ơn, bây giờ hãy kiểm tra email của bạn!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Bạn sẽ nhận được một email tại { $email } với các hướng dẫn để thiết lập tài khoản, cũng như các chi tiết thanh toán của bạn.
 payment-confirmation-order-heading = Chi tiết đơn hàng
 payment-confirmation-invoice-number = Hóa đơn #{ $invoiceNumber }
 payment-confirmation-billing-heading = Hóa đơn cho
-payment-confirmation-details-heading = Chi tiết thanh toán
+payment-confirmation-details-heading-2 = Thông tin thanh toán
 payment-confirmation-amount = { $amount } mỗi { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -367,6 +383,8 @@ payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
+new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
+new-user-step-2 = 2. Chọn phương thức thanh toán của bạn
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Nhập địa chỉ email của bạn
@@ -376,4 +394,6 @@ new-user-subscribe-product-updates = Tôi muốn nhận các cập nhật sản 
 new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản của bạn. Chúng tôi sẽ không bao giờ bán nó cho bên thứ ba.
 new-user-email-validate = Email không hợp lệ
 new-user-email-validate-confirm = Email không khớp
-new-user-existing-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>
+new-user-already-has-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>
+new-user-card-title = Nhập thông tin thẻ của bạn
+new-user-submit = Theo dõi ngay
