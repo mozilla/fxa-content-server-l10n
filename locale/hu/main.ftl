@@ -41,6 +41,8 @@ card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatai
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Rendszerhiba miatt a(z) { productName } regisztrációja sikertelen volt. A fizetési módja nem lett megterhelve. Próbálja újra.
+newsletter-signup-error = Nem regisztrált a termékhíreket tartalmazó e-mailekre. Megpróbálhatja újra a fiókbeállításokban.
 
 ## settings
 
