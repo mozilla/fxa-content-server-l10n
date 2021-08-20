@@ -24,6 +24,11 @@ general-error-heading = Гомуми кушымта хатасы
 basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
 payment-error-retry-button = Янәдән тырышып карау
 payment-error-manage-subscription-button = Минем язылу белән идарә итү
+currency-currency-mismatch = Гафу. Валюталарны алмаштыра алмыйсыз.
+no-subscription-change = Гафу. Язылу планыгызны үзгәртә алмыйсыз.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -37,6 +42,7 @@ privacy = Хосусыйлык сәясәте
 
 ## Subscription titles
 
+subscription-create-title = Язылуларыгызны көйләү
 subscription-success-title = Язылуны раслау
 subscription-processing-title = Язылуны раслау…
 subscription-error-title = Язылуны раслау хатасы…
@@ -78,15 +84,13 @@ product-profile-error =
 product-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
 product-plan-not-found = План табылмады
+product-no-such-plan = Әлеге продукт өчен андый план юк.
 
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
-payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe }'ның хосусыйлык сәясәтен</stripePrivacyLink> һәм <paypalPrivacyLink>{ -brand-name-paypal }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
-payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
-payment-legal-link-stripe-2 = <paypalPrivacyLink>{ -brand-name-stripe }'ның хосусыйлык сәясәтен</paypalPrivacyLink> укыгыз.
 
 ## payment form
 
@@ -135,6 +139,9 @@ sub-update-card-exp = Вакыты чыга: { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-change-submit = Үзгәртүне раслау
+sub-change-indicator =
+    .aria-label = үзгәрү күрсәткече
 sub-update-current-plan-label = Хәзерге план
 sub-update-new-plan-label = Яңа план
 sub-update-total-label = Яңа сумма
@@ -256,9 +263,16 @@ plan-details-total-label = Барлыгы
 payment-confirmation-alert = Йөкләү өчен монда басыгыз
 payment-confirmation-mobile-alert = Кушымта ачылмадымы? <a>Монда басыгыз</a>
 payment-confirmation-thanks-heading = Рәхмәт!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Заказ нечкәлекләре
 payment-confirmation-invoice-number = Квитанция №{ $invoiceNumber }
-payment-confirmation-details-heading = Түләү нечкәлекләре
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
