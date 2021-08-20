@@ -44,7 +44,9 @@ instant-payouts-unsupported = Vaikuttaa siltä, että debit-kortissasi ei ole ot
 duplicate-transaction = Hmm. Vaikuttaa siltä, että sama tapahtuma lähetettiin juuri. Tarkista maksuhistoriasi.
 coupon-expired = Vaikuttaa siltä, että tarjouskoodi on vanhentunut.
 card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
-fxa-signup-error = Tiliä luotaessa tapahtui virhe.  Yritä uudelleen myöhemmin.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -106,11 +108,8 @@ product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppi�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a ja { -brand-name-paypal }ia maksujen turvalliseen käsittelyyn.
-payment-legal-link-stripe-and-paypal-2 = Katso <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink> ja <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } käyttää { -brand-name-paypal }ia turvalliseen maksunvälitykseen.
-payment-legal-link-paypal = Katso <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
-payment-legal-link-stripe-2 = Katso <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink>.
 
 ## payment form
 
@@ -306,11 +305,20 @@ payment-processing-message = Odota kun käsittelemme maksuasi...
 payment-confirmation-alert = Napsauta tästä ladataksesi
 payment-confirmation-mobile-alert = Eikö sovellus avautunut? <a>Napsauta tästä</a>
 payment-confirmation-thanks-heading = Kiitos!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Vahvistusviesti on lähetetty osoitteeseen { $email }. Viesti sisältää tiedot, miten saat tuotteen { $product_name } käyttöösi.
+payment-confirmation-thanks-heading-account-exists = Kiitos, tarkista nyt sähköpostisi!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-billing-heading = Laskutettu
-payment-confirmation-details-heading = Maksun tiedot
+payment-confirmation-details-heading-2 = Maksun tiedot
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -345,12 +353,17 @@ payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
+new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
+new-user-step-2 = 2. Valitse maksutapa
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Kirjoita sähköpostiosoitteesi
 new-user-confirm-email =
     .label = Vahvista sähköposti
+new-user-subscribe-product-updates = Haluan saada tuotepäivityksiä { -brand-name-firefox }ilta
 new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
 new-user-email-validate = Sähköpostiosoite ei ole kelvollinen
 new-user-email-validate-confirm = Sähköpostiosoitteet eivät täsmää
-new-user-existing-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään</a>
+new-user-already-has-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään</a>
+new-user-card-title = Anna korttisi tiedot
+new-user-submit = Tilaa nyt
