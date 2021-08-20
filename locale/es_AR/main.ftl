@@ -38,7 +38,11 @@ instant-payouts-unsupported = Parece que la tarjeta de débito no está configur
 duplicate-transaction = Hmm. Parece que se acaba de enviar una transacción idéntica. Revisá tu historial de pagos.
 coupon-expired = Parece que ese código promocional ha expirado.
 card-error = La transacción no pudo ser procesada. Verificá la información de la tarjeta de crédito y probá nuevamente.
-fxa-signup-error = Hubo un problema creando la cuenta.  Intentá de nuevo más tarde.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Un error del sistema causó que el registro de ${ productName } fallara. El método de pago no ha sido cargado. Intentalo de nuevo.
+newsletter-signup-error = No estás registrado para los correos de actualización de producto. Podés volver a intentarlo en la configuración de tu cuenta.
 
 ## settings
 
@@ -100,11 +104,8 @@ product-no-such-plan = No existe tal plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de los pagos.
-payment-legal-link-stripe-and-paypal-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink> y la <paypalPrivacyLink>política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento de pago seguro.
-payment-legal-link-paypal = Ver la <paypalPrivacyLink> { -brand-name-paypal } política de privacidad </paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de los pagos.
-payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -345,11 +346,18 @@ payment-processing-message = Esperá mientras procesamos tu pago...
 payment-confirmation-alert = Clic aquí para descargar
 payment-confirmation-mobile-alert = ¿No abre la aplicación? <a>Clic aquí</a>
 payment-confirmation-thanks-heading = ¡Gracias!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Se envió un correo electrónico de confirmación a { $email } con detalles sobre cómo comenzar con { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura número { $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
-payment-confirmation-details-heading = Detalles del pago
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -393,4 +401,3 @@ new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de pro
 new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear la cuenta. Nunca lo venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Los correos electrónicos no coinciden
-new-user-existing-account-sign-in = Ya tenés una cuenta, <a>Iniciar sesión</a>
