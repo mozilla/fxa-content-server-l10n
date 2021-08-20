@@ -38,7 +38,9 @@ instant-payouts-unsupported = Ihre Debitkarte ist anscheinend nicht für soforti
 duplicate-transaction = Hmm. Es sieht so aus, als ob gerade eine identische Transaktion gesendet wurde. Überprüfen Sie Ihre Zahlungshistorie.
 coupon-expired = Es sieht so aus, als ob der Promo-Code abgelaufen ist.
 card-error = Ihre Transaktion konnte nicht verarbeitet werden. Bitte überprüfen Sie Ihre Kreditkarteninformationen und versuchen Sie es erneut.
-fxa-signup-error = Bei der Erstellung Ihres Kontos trat ein Problem auf.  Bitte versuchen Sie es später erneut.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = Abonnements
 
 terms = Nutzungsbedingungen
 privacy = Datenschutzhinweis
+terms-download = Nutzungsbedingungen herunterladen
 
 ## Subscription titles
 
@@ -100,11 +103,11 @@ product-no-such-plan = Für dieses Produkt existiert kein solcher Plan.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } und { -brand-name-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-and-paypal-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> und die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } verwendet { -brand-name-paypal } für die sichere Zahlungsabwicklung.
-payment-legal-link-paypal = Lesen Sie die <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Datenschutzerklärung von { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } verwendet { -brand-name-stripe } für die sichere Zahlungsabwicklung.
-payment-legal-link-stripe-2 = Lesen Sie die <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Datenschutzerklärung von { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +351,19 @@ payment-processing-message = Bitte warten Sie, während wir Ihre Zahlung bearbei
 payment-confirmation-alert = Zum Download klicken Sie hier
 payment-confirmation-mobile-alert = Die App öffnet sich nicht? <a>Klicken Sie hier</a>
 payment-confirmation-thanks-heading = Vielen Dank!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = An { $email } wurde eine Bestätigungs-E-Mail mit Details zu den ersten Schritten mit { $product_name } gesendet.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Bestelldetails
 payment-confirmation-invoice-number = Rechnung #{ $invoiceNumber }
 payment-confirmation-billing-heading = Rechnung an:
-payment-confirmation-details-heading = Zahlungsdetails
+payment-confirmation-details-heading-2 = Zahlungsinformationen
 payment-confirmation-amount = { $amount } pro { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -396,4 +407,4 @@ new-user-subscribe-product-updates = Ich möchte Neuigkeiten zu Produkten von { 
 new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nur, um Ihr Konto zu erstellen. Wir verkaufen Sie nie an Dritte.
 new-user-email-validate = Ihre E-Mail-Adresse ist ungültig.
 new-user-email-validate-confirm = E-Mail-Adressen stimmen nicht überein.
-new-user-existing-account-sign-in = Sie haben bereits ein Benutzerkonto, <a>melden Sie sich an</a>.
+new-user-submit = Jetzt abonnieren
