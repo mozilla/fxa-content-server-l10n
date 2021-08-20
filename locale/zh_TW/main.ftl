@@ -38,7 +38,12 @@ instant-payouts-unsupported = 看來您的 Debit Card 不允許即時付款，�
 duplicate-transaction = 看來已經有相同的交易發生過了，請檢查您的付款紀錄。
 coupon-expired = 看來折扣碼已經失效。
 card-error = 無法處理本交易。請檢查您的信用卡資訊後再試一次。
-fxa-signup-error = 註冊帳號時發生問題，請稍後再試。
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = 系統發生錯誤，導致您的 ${ productName } 註冊失敗。您並未被收費，請再試一次。
+newsletter-signup-error = 您並未註冊接收產品更新郵件，可以到帳戶設定頁面中再試一次。
+fxa-post-passwordless-sub-error = 已確認訂閱完成，但無法載入確認頁面。請到您的電子郵件信箱收信，繼續設定帳號。
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = 訂閱
 
 terms = 服務條款
 privacy = 隱私權公告
+terms-download = 下載條款
 
 ## Subscription titles
 
@@ -100,11 +106,11 @@ product-no-such-plan = 此產品無此方案。
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 與 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-stripe-and-paypal-2 = 可在此檢視 <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink>及<paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>。
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-paypal = 可在此檢視 <paypalPrivacyLink>{ -brand-name-paypal } 的隱私權保護政策</paypalPrivacyLink>。
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
-payment-legal-link-stripe-2 = 可在此檢視 <stripePrivacyLink>{ -brand-name-stripe } 的隱私權保護政策</stripePrivacyLink>。
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink>.
 
 ## payment form
 
@@ -332,11 +338,21 @@ payment-processing-message = 請稍候，正在處理付款…
 payment-confirmation-alert = 點擊此處下載
 payment-confirmation-mobile-alert = 應用程式沒有出現嗎？<a>請點擊此處</a>
 payment-confirmation-thanks-heading = 感謝您！
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = 我們已將確認郵件發送到 { $email }，當中包含如何開始使用 { $product_name } 的相關資訊。
+payment-confirmation-thanks-heading-account-exists = 謝謝，接下來請到信箱收信！
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = 您將會在 { $email } 收到一封信，當中包含如何設定帳號、付款方式的相關資訊。
 payment-confirmation-order-heading = 訂單詳細資訊
 payment-confirmation-invoice-number = 發票號碼 #{ $invoiceNumber }
 payment-confirmation-billing-heading = 付款人
-payment-confirmation-details-heading = 付款詳細資訊
+payment-confirmation-details-heading-2 = 付款資訊
 payment-confirmation-amount = 每 { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -371,6 +387,8 @@ payment-confirmation-cc-card-ending-in = 卡號末四碼: { $last4 }
 ## new user email form
 
 new-user-sign-in-link = 已經有 { -brand-name-firefox } 帳號了嗎？<a>請登入</a>
+new-user-step-1 = 1. 註冊 { -brand-name-firefox } 帳號
+new-user-step-2 = 2. 選擇付款方式
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = 輸入您的電子郵件信箱
@@ -380,4 +398,6 @@ new-user-subscribe-product-updates = 我想要收到 { -brand-name-firefox } 的
 new-user-subscribe-product-assurance = 我們只會使用您的電子郵件地址來註冊帳號，絕對不會銷售給第三方。
 new-user-email-validate = 輸入的電子郵件信箱無效
 new-user-email-validate-confirm = 兩次輸入的電子郵件信箱不相符
-new-user-existing-account-sign-in = 您已經註冊過帳號，<a>請登入</a>
+new-user-already-has-account-sign-in = 您已經註冊過帳號，<a>請登入</a>
+new-user-card-title = 輸入您的卡片資訊
+new-user-submit = 立刻訂閱
