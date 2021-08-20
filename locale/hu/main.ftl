@@ -38,7 +38,9 @@ instant-payouts-unsupported = Úgy tűnik, hogy a bankkártyája nincs beállít
 duplicate-transaction = Hmm. Úgy tűnik, hogy egy azonos tranzakció lett elküldve. Ellenőrizze a fizetési előzményeket.
 coupon-expired = Úgy tűnik, hogy a promóciós kód lejárt.
 card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
-fxa-signup-error = Hiba történt a fiók létrehozásakor. Próbálja újra később.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = Előfizetések
 
 terms = A szolgáltatás feltételei
 privacy = Adatvédelmi nyilatkozat
+terms-download = Letöltési feltételek
 
 ## Subscription titles
 
@@ -100,11 +103,11 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-and-paypal-2 = Tekintse meg a <stripePrivacyLink>{ -brand-name-stripe } adatvédelmi irányelveit</stripePrivacyLink> és a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-name-paypal } adatvédemi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-paypal = Tekintse meg a <paypalPrivacyLink>{ -brand-name-paypal } adatvédelmi irányelveit</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>A { -brand-name-paypal } adatvédelmi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-2 = Tekintse meg a <stripePrivacyLink>{ -brand-name-stripe } adatvédelmi irányelveit</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +351,20 @@ payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
 payment-confirmation-alert = Kattintson ide a letöltéshez
 payment-confirmation-mobile-alert = Nem nyitotta meg az alkalmazást? <a>Kattintson ide</a>
 payment-confirmation-thanks-heading = Köszönjük!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Egy megerősítő e-mailt küldtünk a(z) { $email } címre, amely részletesen ismerteti a { $product_name } használatának elkezdését.
+payment-confirmation-thanks-heading-account-exists = Köszönjük, most pedig nézze meg az e-mailjeit!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Megrendelés részletei
 payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
 payment-confirmation-billing-heading = Számlázva:
-payment-confirmation-details-heading = Fizetési részletek
+payment-confirmation-details-heading-2 = Fizetési információk
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -387,6 +399,8 @@ payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 ## new user email form
 
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
+new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
+new-user-step-2 = 2. Válassza ki a fizetési módot
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Adja meg az e-mail-címét
@@ -396,4 +410,6 @@ new-user-subscribe-product-updates = Szeretnék termékkel kapcsolatos híreket 
 new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 new-user-email-validate = Az e-mail-cím érvénytelen
 new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
-new-user-existing-account-sign-in = Már van felhasználói fiókja, <a>jelentkezzen be</a>
+new-user-already-has-account-sign-in = Már van felhasználói fiókja. <a>Jelentkezzen be</a>
+new-user-card-title = Adja meg a kártyaadatait
+new-user-submit = Előfizetés most
