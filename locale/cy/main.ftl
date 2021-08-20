@@ -42,7 +42,8 @@ card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn 
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Achosodd gwall system i'ch mewngofnodi i ${ productName } fethu. Nid oes taliad wedi ei godi ar eich dull talu. Ceisiwch eto.
-newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst diweddaru am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
+newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst newyddion am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
+fxa-post-passwordless-sub-error = Cadarnhawyd eich tanysgrifiad, ond methodd y dudalen gadarnhau â llwytho. Gwiriwch eich e-bost i greu eich cyfrif.
 
 ## settings
 
@@ -53,6 +54,7 @@ settings-subscriptions-title = Tanysgrifiadau
 
 terms = Amodau Gwasanaeth
 privacy = Hysbysiad Preifatrwydd
+terms-download = Amodau Llwytho i Lawr
 
 ## Subscription titles
 
@@ -120,8 +122,11 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-space-paypal = Darllenwch <stripePrivacyLink>bolisi preifatrwydd { -brand-name-stripe }/stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
+payment-legal-link-paypal-2 = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
+payment-legal-link-stripe-3 = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
 
 ## payment form
 
@@ -419,12 +424,15 @@ payment-confirmation-thanks-heading = Diolch yn fawr!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Mae e-bost cadarnhau wedi'i anfon at { $email } gyda manylion ar sut i ddechrau gyda { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Diolch, nawr edrychwch ar eich e-bost!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Byddwch yn derbyn e-bost o { $email } gyda chyfarwyddiadau ar gyfer creu eich cyfrif, yn ogystal â'ch manylion talu.
 payment-confirmation-order-heading = Manylion yr archeb
 payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
 payment-confirmation-billing-heading = Wedi'i filio i
+payment-confirmation-details-heading-2 = Manylion talu
 payment-confirmation-amount = { $amount } fesul { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -475,6 +483,8 @@ payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
+new-user-step-1 = Creu cyfrif { -brand-name-firefox }
+new-user-step-2 = 2. Dewiswch eich dull talu
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Rhowch eich cyfeiriad e-bost
@@ -484,3 +494,6 @@ new-user-subscribe-product-updates = Hoffwn i dderbyn diweddariadau am gynnyrch 
 new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
 new-user-email-validate = Nid yw'r e-bost yn ddilys
 new-user-email-validate-confirm = Nid yw'r e-byst yn cyfateb
+new-user-already-has-account-sign-in = Mae gennych gyfrif eisoes. <a>Mewngofnodi</a>
+new-user-card-title = Rhowch fanylion eich cerdyn
+new-user-submit = Tanysgrifiwch Nawr
