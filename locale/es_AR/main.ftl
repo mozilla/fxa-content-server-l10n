@@ -43,6 +43,7 @@ card-error = La transacción no pudo ser procesada. Verificá la información de
 
 fxa-account-signup-error = Un error del sistema causó que el registro de ${ productName } fallara. El método de pago no ha sido cargado. Intentalo de nuevo.
 newsletter-signup-error = No estás registrado para los correos de actualización de producto. Podés volver a intentarlo en la configuración de tu cuenta.
+fxa-post-passwordless-sub-error = Suscripción confirmada, pero la página de confirmación no se pudo cargar. Revisá tu correo para configurar tu cuenta.
 
 ## settings
 
@@ -53,6 +54,7 @@ settings-subscriptions-title = Suscripciones
 
 terms = Términos del servicio
 privacy = Nota de privacidad
+terms-download = Descargar términos
 
 ## Subscription titles
 
@@ -104,8 +106,11 @@ product-no-such-plan = No existe tal plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de los pagos.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento de pago seguro.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de los pagos.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -352,12 +357,15 @@ payment-confirmation-thanks-heading = ¡Gracias!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Se envió un correo electrónico de confirmación a { $email } con detalles sobre cómo comenzar con { $product_name }.
+payment-confirmation-thanks-heading-account-exists = ¡Gracias, ahora mirá tu correo electrónico!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Vas a recibir un correo en { $email } con instrucciones para configurar tu cuenta, así como los detalles de tu pago.
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura número { $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading-2 = Información de pago
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -392,6 +400,8 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 ## new user email form
 
 new-user-sign-in-link = ¿Ya tenés una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
+new-user-step-1 = 1. Creá una cuenta de { -brand-name-firefox }
+new-user-step-2 = 2. Elegí tu método de pago
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ingresá tu correo electrónico
@@ -401,3 +411,6 @@ new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de pro
 new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear la cuenta. Nunca lo venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Los correos electrónicos no coinciden
+new-user-already-has-account-sign-in = Ya tenés una cuenta. <a>Iniciar sesión</a>
+new-user-card-title = Ingresá la información de tu tarjeta
+new-user-submit = Suscribirse ahora
