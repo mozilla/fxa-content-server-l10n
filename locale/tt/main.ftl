@@ -213,6 +213,7 @@ pay-update-change-btn = Үзгәртү
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } продуктын куллануны дәвам итәсегез киләме?
 reactivate-confirm-button = Яңадан язылу
 
 ##  $date (Date) - Last day of product access
@@ -226,15 +227,19 @@ reactivate-success-button = Ябу
 
 sub-item-missing = Язылуларны йөкләгәндә хата китте
 sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
+sub-item-no-such-plan = Әлеге язылу өчен андый план юк.
 sub-item-cancel-sub = Язылудан баш тарту
+sub-item-stay-sub = Язылуда калу
 account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
 
 sub-route-idx-updating = Түләү турындагы мәгълүматны яңарту…
+sub-route-idx-reactivating = Язылуны яңадан активләштерү уңышсыз тәмамланды
 sub-route-idx-cancel-failed = Язылудан баш тарту уңышсыз тәмамланды
 sub-route-idx-contact = Ярдәм хезмәтенә мөрәҗәгать итү
 sub-route-idx-cancel-msg-title = Сезнең белән саубуллашу кызганыч
+sub-route-idx-cancel-aside = Сорауларыгыз бармы? <a>{ -brand-name-mozilla } Ярдәм</a> битен зыярат итегез
 sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
@@ -244,6 +249,7 @@ pay-update-manage-btn = Идарә итү
 
 ## subscription create
 
+sub-guarantee = 30 көн эчендә акчаны кире кайтару гарантиясе
 pay-with-heading-other = Түләү ысулын сайлагыз
 pay-with-heading-card-or = Яки карта белән түләү
 pay-with-heading-card-only = Карта белән түләү
