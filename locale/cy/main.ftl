@@ -38,7 +38,11 @@ instant-payouts-unsupported = Mae'n edrych fel nad yw'ch cerdyn debyd wedi'i oso
 duplicate-transaction = Hmm. Yn edrych fel bod trafodyn tebyg wedi'i anfon. Gwiriwch eich hanes talu.
 coupon-expired = Mae'n edrych fel bod y cod hyrwyddo wedi dod i ben.
 card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn credyd a rhoi cynnig arall arni.
-fxa-signup-error = Bu gwall wrth greu eich cyfrif. Ceisiwch eto, os gwelwch yn dda.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Achosodd gwall system i'ch mewngofnodi i ${ productName } fethu. Nid oes taliad wedi ei godi ar eich dull talu. Ceisiwch eto.
+newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst diweddaru am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
 
 ## settings
 
@@ -116,11 +120,8 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-and-paypal-2 = Darllenwch <stripePrivacyLink>bolisi preifatrwydd { -brand-name-stripe }/stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-paypal = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-2 = Darllenwch bolisi preifatrwydd <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -412,11 +413,18 @@ payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad...
 payment-confirmation-alert = Cliciwch yma i lwytho i lawr
 payment-confirmation-mobile-alert = Heb agor yr ap? <a>Cliciwch Yma</a>
 payment-confirmation-thanks-heading = Diolch yn fawr!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Mae e-bost cadarnhau wedi'i anfon at { $email } gyda manylion ar sut i ddechrau gyda { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Manylion yr archeb
 payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
 payment-confirmation-billing-heading = Wedi'i filio i
-payment-confirmation-details-heading = Manylion talu
 payment-confirmation-amount = { $amount } fesul { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -476,4 +484,3 @@ new-user-subscribe-product-updates = Hoffwn i dderbyn diweddariadau am gynnyrch 
 new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
 new-user-email-validate = Nid yw'r e-bost yn ddilys
 new-user-email-validate-confirm = Nid yw'r e-byst yn cyfateb
-new-user-existing-account-sign-in = Mae gennych gyfrif eisoes, <a>Mewngofnodi</a>
