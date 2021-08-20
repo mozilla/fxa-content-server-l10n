@@ -41,6 +41,9 @@ card-error = Ihre Transaktion konnte nicht verarbeitet werden. Bitte überprüfe
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Ein Systemfehler hat dazu geführt, dass Ihre Anmeldung bei ${ productName } fehlgeschlagen ist. Ihre Zahlungsmethode wurde nicht belastet. Bitte versuchen Sie es erneut.
+newsletter-signup-error = Sie haben keine Produktneuigkeiten per E-Mail abonniert. Sie können es in Ihren Kontoeinstellungen erneut versuchen.
+fxa-post-passwordless-sub-error = Abonnement bestätigt, aber die Bestätigungsseite konnte nicht geladen werden. Bitte sehen Sie nach Ihren E-Mails, um Ihr Konto einzurichten.
 
 ## settings
 
@@ -357,9 +360,11 @@ payment-confirmation-thanks-heading = Vielen Dank!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = An { $email } wurde eine Bestätigungs-E-Mail mit Details zu den ersten Schritten mit { $product_name } gesendet.
+payment-confirmation-thanks-heading-account-exists = Vielen Dank, bitte sehen Sie jetzt nach Ihren E-Mails!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Sie erhalten eine E-Mail an { $email } mit Anweisungen zum Einrichten Ihres Kontos sowie Ihren Zahlungsdetails.
 payment-confirmation-order-heading = Bestelldetails
 payment-confirmation-invoice-number = Rechnung #{ $invoiceNumber }
 payment-confirmation-billing-heading = Rechnung an:
@@ -398,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Sie haben bereits einen { -brand-name-firefox } Account? <a>Melden Sie sich an</a>
+new-user-step-1 = 1. Erstellen Sie einen { -brand-name-firefox } Account
+new-user-step-2 = 2. Wählen Sie Ihre Zahlungsmethode
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ihre E-Mail-Adresse
@@ -407,4 +414,6 @@ new-user-subscribe-product-updates = Ich möchte Neuigkeiten zu Produkten von { 
 new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nur, um Ihr Konto zu erstellen. Wir verkaufen Sie nie an Dritte.
 new-user-email-validate = Ihre E-Mail-Adresse ist ungültig.
 new-user-email-validate-confirm = E-Mail-Adressen stimmen nicht überein.
+new-user-already-has-account-sign-in = Sie haben bereits ein Benutzerkonto. <a>Melden Sie sich an</a>.
+new-user-card-title = Geben Sie Ihre Kartendaten ein
 new-user-submit = Jetzt abonnieren
