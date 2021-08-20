@@ -38,7 +38,12 @@ instant-payouts-unsupported = Схоже, вашу дебетову картку
 duplicate-transaction = Гм. Схоже, що ідентичний платіж щойно було здійснено. Перевірте історію своїх платежів.
 coupon-expired = Схоже, термін дії промо-коду минув.
 card-error = Ваш платіж не вдалося обробити. Підтвердьте дані своєї кредитної картки та повторіть спробу.
-fxa-signup-error = Не вдалося створити обліковий запис.  Повторіть спробу пізніше.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Системна помилка призвела до збою реєстрації в ${ productName }. Платіж за вказаним способом оплати не було проведено. Будь ласка, спробуйте знову.
+newsletter-signup-error = Ви не підписалися на сповіщення про оновлення продукту. Ви можете спробувати знову зробити це в налаштуваннях облікового запису.
+fxa-post-passwordless-sub-error = Передплату підтверджено, але не вдалося завантажити сторінку підтвердження. Перевірте свою електронну пошту для завершення налаштування облікового запису.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = Передплати
 
 terms = Умовами використання
 privacy = Повідомлення про приватність
+terms-download = Завантажити умови
 
 ## Subscription titles
 
@@ -104,11 +110,11 @@ product-no-such-plan = Такого тарифного плану для цьо�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } і { -brand-name-paypal } для безпечної обробки платежів.
-payment-legal-link-stripe-and-paypal-2 = Ознайомтеся з <stripePrivacyLink>Політикою приватності { -brand-name-stripe }</stripePrivacyLink> та <paypalPrivacyLink>Політикою приватності { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } використовує { -brand-name-paypal } для безпечної обробки платежів.
-payment-legal-link-paypal = Перегляньте <paypalPrivacyLink>Політику приватності { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
-payment-legal-link-stripe-2 = Ознайомтеся з <stripePrivacyLink>Політикою приватності { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -362,11 +368,21 @@ payment-processing-message = Зачекайте, поки ми обробимо 
 payment-confirmation-alert = Натисніть тут, щоб завантажити
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
 payment-confirmation-thanks-heading = Дякуємо!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = На адресу { $email } надіслано електронний лист із підтвердженням та настановами про початок роботи з { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Дякуємо! Тепер перевірте свою електронну пошту!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Ви отримаєте лист на адресу { $email } з інструкціями для налаштування свого облікового запису, а також подробицями платежу.
 payment-confirmation-order-heading = Подробиці замовлення
 payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
 payment-confirmation-billing-heading = Оплата за
-payment-confirmation-details-heading = Подробиці оплати
+payment-confirmation-details-heading-2 = Платіжні дані
 payment-confirmation-amount = { $amount } на { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -405,6 +421,8 @@ payment-confirmation-cc-card-ending-in = Картка, номер якої за�
 ## new user email form
 
 new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
+new-user-step-1 = 1. Створіть обліковий запис { -brand-name-firefox }
+new-user-step-2 = 2. Виберіть спосіб оплати
 new-user-email =
     .placeholder = foxy@mozilla.comfoxy@mozilla.com
     .label = Введіть адресу своєї е-пошти
@@ -414,4 +432,6 @@ new-user-subscribe-product-updates = Я хочу отримувати новин
 new-user-subscribe-product-assurance = Ми застосовуємо вашу електронну адресу лише для створення вашого облікового запису. Ми ніколи не продаватимемо її стороннім.
 new-user-email-validate = Ваша адреса е-пошти недійсна
 new-user-email-validate-confirm = Адреси е-пошти відрізняються
-new-user-existing-account-sign-in = У вас уже є обліковий запис. <a>Увійдіть до нього</a>
+new-user-already-has-account-sign-in = У вас вже є обліковий запис. <a>Увійти</a>
+new-user-card-title = Введіть дані своєї картки
+new-user-submit = Передплатити
