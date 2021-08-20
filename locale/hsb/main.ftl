@@ -38,7 +38,9 @@ instant-payouts-unsupported = Zda so, kaž njeby waša debitna karta za hnydomne
 duplicate-transaction = Hmm. Zda so, kaž by so identiska transakcija runje pósłała. Přepruwujće swoju historiju płaćenjow.
 coupon-expired = Zda so, kaž by promokod spadnył.
 card-error = Waša transakcija njeda so předźěłować. Přepruwujće prošu informacije swojeje kreditneje karty a spytajće hišće raz.
-fxa-signup-error = Při załoženju wašeho konta je problem nastał.  Prošu spytajće pozdźišo hišće raz.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = Abonementy
 
 terms = Wužiwanske wuměnjenja
 privacy = Zdźělenka priwatnosće
+terms-download = Sćehnjenske wuměnjenja
 
 ## Subscription titles
 
@@ -108,11 +111,11 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-and-paypal-2 = Čitajće <stripePrivacyLink>prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink> pokazać.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-2 = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> pokazać.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -380,11 +383,20 @@ payment-processing-message = Prošu čakajće, mjeztym zo waše płaćenje před
 payment-confirmation-alert = Klikńće, zo byšće sćahnył
 payment-confirmation-mobile-alert = Nałoženje so njewočinja? <a>Klikńće tu</a>
 payment-confirmation-thanks-heading = Wulki dźak!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Wobkrućenska mejlka je so z podrobnosćemi wo tym, kak móžeće z { $product_name } započeć, na { $email } pósłała.
+payment-confirmation-thanks-heading-account-exists = Wulki dźak, přepruwujće nětko swoju e-mejl!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Skazanske podrobnosće
 payment-confirmation-invoice-number = Zličbowanka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zličbowanka do
-payment-confirmation-details-heading = Płaćenske podrobnosće
+payment-confirmation-details-heading-2 = Płaćenske informacije
 payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -436,4 +448,3 @@ new-user-subscribe-product-updates = Bych rady produktowe aktualizacije wot { -b
 new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adresu, zo bychmy waše konto załožili. Třećemu poskićowarjej ju ženje njepředamy.
 new-user-email-validate = E-mejlowa adresa płaćiwa njeje
 new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
-new-user-existing-account-sign-in = Maće hižo konto, <a>Přizjewić</a>
