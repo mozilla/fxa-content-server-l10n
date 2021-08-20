@@ -43,6 +43,7 @@ card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatai
 
 fxa-account-signup-error = Rendszerhiba miatt a(z) { productName } regisztrációja sikertelen volt. A fizetési módja nem lett megterhelve. Próbálja újra.
 newsletter-signup-error = Nem regisztrált a termékhíreket tartalmazó e-mailekre. Megpróbálhatja újra a fiókbeállításokban.
+fxa-post-passwordless-sub-error = Az előfizetés megerősítve, de a megerősítő oldal betöltése nem sikerült. Ellenőrizze az e-mail-címét a fiók beállításához.
 
 ## settings
 
@@ -363,6 +364,7 @@ payment-confirmation-thanks-heading-account-exists = Köszönjük, most pedig n�
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Egy levelet fog kapni a(z) { $email } címre a fiókbeállítási utasításokkal és a fizetés részleteiről.
 payment-confirmation-order-heading = Megrendelés részletei
 payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
 payment-confirmation-billing-heading = Számlázva:
