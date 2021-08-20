@@ -41,6 +41,7 @@ card-error = 无法处理您的交易。请检查您的信用卡信息，然后�
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败。请查收邮件，继续设置账户。
 
 ## settings
 
