@@ -115,7 +115,9 @@ instant-payouts-unsupported = Vypadá to, že vaše karta nemá povolené okamž
 duplicate-transaction = Vypadá to, že jsme před chvíli přijali zcela stejnou transakci. Zkontrolujte prosím historii svých plateb.
 coupon-expired = Platnost tohoto promo kódu už nejspíše skončila.
 card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
-fxa-signup-error = Při vytváření vašeho účtu došlo k chybě. Zkuste to prosím znovu.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -181,11 +183,11 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-name-paypal(case: "acc") }.
-payment-legal-link-stripe-and-paypal-2 = Přečtěte si zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = Zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-paypal(case: "acc") }.
-payment-legal-link-paypal = Přečtěte si zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
-payment-legal-link-stripe-2 = Přečtěte si zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = Zásady ochrany osobních údajů pro službu <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -442,11 +444,21 @@ payment-processing-message = Počkejte prosím na zpracování vaší platby…
 payment-confirmation-alert = Klepněte zde pro stažení
 payment-confirmation-mobile-alert = Aplikace se neotevřela? <a>Klepněte zde</a>
 payment-confirmation-thanks-heading = Děkujeme!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Na adresu { $email } jsme vám poslali e-mail v potvrzením a podrobnostmi jak začít náš produkt { $product_name } používat.
+payment-confirmation-thanks-heading-account-exists = Děkujeme. Nyní zkontrolujte svou e-mailovou schránku.
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Na adresu { $email } vám zasíláme e-mail s pokyny pro nastavení vašeho účtu a s informacemi k platbě.
 payment-confirmation-order-heading = Detaily objednávky
 payment-confirmation-invoice-number = Faktura č. { $invoiceNumber }
 payment-confirmation-billing-heading = Účtováno
-payment-confirmation-details-heading = Detaily platby
+payment-confirmation-details-heading-2 = Platební informace
 payment-confirmation-amount = { $amount } jednou za { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -485,6 +497,8 @@ payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
+new-user-step-1 = 1. Vytvořte si účet { -brand-name-firefox(case: "gen") }
+new-user-step-2 = 2. Vyberte způsob platby
 new-user-email =
     .placeholder = foxy@example.com
     .label = Zadejte svou e-mailovou adresu
@@ -494,4 +508,6 @@ new-user-subscribe-product-updates = Chci dostávat produktové novinky o { -bra
 new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
 new-user-email-validate = E-mailová adresa je neplatná
 new-user-email-validate-confirm = E-mailové adresy se neshodují
-new-user-existing-account-sign-in = Účet už máte, <a>přihlaste se</a>
+new-user-already-has-account-sign-in = Účet už máte, <a>přihlaste se</a>
+new-user-card-title = Zadejte informace o platební kartě
+new-user-submit = Odebírat
