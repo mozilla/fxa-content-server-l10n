@@ -39,6 +39,9 @@ duplicate-transaction = Φαίνεται πως μόλις απεστάλη μι
 coupon-expired = Φαίνεται πως ο κωδικός της προωθητικής ενέργειας έχει λήξει.
 card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Παρακαλούμε επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-home = Αρχική σελίδα λογαριασμού
@@ -48,6 +51,7 @@ settings-subscriptions-title = Συνδρομές
 
 terms = Όροι υπηρεσίας
 privacy = Σημείωση απορρήτου
+terms-download = Λήψη όρων
 
 ## Subscription titles
 
@@ -99,11 +103,8 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα γ�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-stripe-and-paypal-2 = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> και την <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-paypal = Δείτε την <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-stripe-2 = Δείτε την <stripePrivacyLink>πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -347,11 +348,19 @@ payment-processing-message = Παρακαλούμε περιμένετε όσο 
 payment-confirmation-alert = Κάντε κλικ εδώ για λήψη
 payment-confirmation-mobile-alert = Δεν άνοιξε η εφαρμογή; <a>Κάντε κλικ εδώ</a>
 payment-confirmation-thanks-heading = Ευχαριστούμε!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα email επιβεβαίωσης στο { $email } με βασικές οδηγίες για τη λειτουργία του { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
 payment-confirmation-billing-heading = Χρέωση σε
-payment-confirmation-details-heading = Λεπτομέρειες πληρωμής
+payment-confirmation-details-heading-2 = Στοιχεία πληρωμής
 payment-confirmation-amount = { $amount } ανά { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -392,4 +401,3 @@ new-user-email =
 new-user-subscribe-product-updates = Επιθυμώ να λαμβάνω ενημερώσεις προϊόντων από το { -brand-name-firefox }
 new-user-email-validate = Το email δεν είναι έγκυρο
 new-user-email-validate-confirm = Τα email δεν ταιριάζουν
-new-user-existing-account-sign-in = Έχετε ήδη λογαριασμό, <a>συνδεθείτε</a>
