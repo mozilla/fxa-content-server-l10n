@@ -42,6 +42,8 @@ card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosy
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Systemowa zmólka jo zawinowała, až wašo registrěrowanje za ${ productName } njejo raźiło. Waša płaśeńska metoda njejo se wobśěžyła. Wopytajśo pšosym hyšći raz.
+newsletter-signup-error = Njejsćo se registrěrował za mejlki wó produktowych aktualizacijach . Móžośo to w swójich kontowych nastajenjach hyšći raz wopytaś.
+fxa-post-passwordless-sub-error = Abonement jo wobkšuśony, ale wobkšuśeński bok njedajo se zacytaś. Pšosym pśeglědujśo swóje mejlki, aby swójo konto konfigurěrował.
 
 ## settings
 
@@ -394,6 +396,7 @@ payment-confirmation-thanks-heading-account-exists = Wjeliki źěk, pśeglědaj�
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Dostanjośo mejlku na { $email } z instrukcijami za konfigurěrowanje wašogo konta ako teke waše płaśeńske drobnostki.
 payment-confirmation-order-heading = Skazańske drobnostki
 payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zliceńka do
