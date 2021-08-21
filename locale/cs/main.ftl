@@ -128,6 +128,7 @@ settings-subscriptions-title = Předplatné
 
 terms = Podmínky služby
 privacy = Zásady ochrany osobních údajů
+terms-download = Stáhnout podmínky
 
 ## Subscription titles
 
