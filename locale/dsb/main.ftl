@@ -38,7 +38,9 @@ instant-payouts-unsupported = Zda se, ako njeby waša debitna kórta za płaśen
 duplicate-transaction = Hmm. Zda se, ako by se identiska transakcija rowno pósłała. Pśeglědujśo swóju historiju płaśenjow.
 coupon-expired = Zda se, ako by promokod spadnuł.
 card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosym informacije swójeje kreditoweje kórty a wopytajśo hyšći raz.
-fxa-signup-error = Pśi załožowanju wašogo konta jo problem nastał.  Pšosym wopytajśo pózdźej hyšći raz.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -49,6 +51,7 @@ settings-subscriptions-title = Abonementy
 
 terms = Wužywańske wuměnjenja
 privacy = Powěźeńka priwatnosći
+terms-download = Ześěgnjeńske wuměnjenja
 
 ## Subscription titles
 
@@ -108,11 +111,11 @@ product-no-such-plan = Žeden plan za toś ten produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe-and-paypal-2 = Cytajśo <stripePrivacyLink>pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal }l za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } Pšawidła priwatnosći</paypalPrivacyLink> pokazaś.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Pšawidła priwatnosći</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste pśeźěłowanje płaśenjow wužywa.
-payment-legal-link-stripe-2 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> pokazaś.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -380,11 +383,20 @@ payment-processing-message = Pšosym cakajśo, mjaztym až wašo płaśenje pśe
 payment-confirmation-alert = Klikniśo how, aby ześěgnuł
 payment-confirmation-mobile-alert = Nałoženje se njewócynja? <a>Klikniśo how</a>
 payment-confirmation-thanks-heading = Wjeliki źěk!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Wobkšuśeńska mejlka jo se pósłała z drobnostkami wó tom, kak móžośo z { $product_name } zapchopiś, na { $email }.
+payment-confirmation-thanks-heading-account-exists = Wjeliki źěk, pśeglědajśo něnto swóju e-mail!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Skazańske drobnostki
 payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
 payment-confirmation-billing-heading = Zliceńka do
-payment-confirmation-details-heading = Płaśeńske drobnostki
+payment-confirmation-details-heading-2 = Płaśeńske informacije
 payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -427,6 +439,8 @@ payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last } kóń
 ## new user email form
 
 new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
+new-user-step-1 = 1. Załožćo konto { -brand-name-firefox }
+new-user-step-2 = 2. Wubjeŕśo swóju płaśeńsku mentodu
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Zapódajśo swóju e-mailowu adresu
@@ -436,4 +450,6 @@ new-user-subscribe-product-updates = Ja by rady dostał produktowe aktualizacije
 new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 new-user-email-validate = E-mailowa adresa njejo płaśiwa
 new-user-email-validate-confirm = E-mailowej adresy njejstej jadnakej.
-new-user-existing-account-sign-in = Maśo južo konto, <a>Pśizjawiś</a>
+new-user-already-has-account-sign-in = Maśo južo konto. <a>Pśizjawiś</a>
+new-user-card-title = Zapodajśo swóje kórtowe informacije
+new-user-submit = Něnto aboněrowaś
