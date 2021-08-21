@@ -41,6 +41,7 @@ card-error = Tu transaction non pote esser processate. Verifica le informationes
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Un error de systema ha impedite tu inscription a ${ productName }. Tu methodo de pagamento non ha essite cargate. Retenta.
 
 ## settings
 
