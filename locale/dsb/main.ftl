@@ -41,6 +41,7 @@ card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosy
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Systemowa zmólka jo zawinowała, až wašo registrěrowanje za ${ productName } njejo raźiło. Waša płaśeńska metoda njejo se wobśěžyła. Wopytajśo pšosym hyšći raz.
 
 ## settings
 
