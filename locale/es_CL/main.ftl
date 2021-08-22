@@ -110,6 +110,7 @@ payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Política de privaci
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -359,12 +360,15 @@ payment-confirmation-thanks-heading = ¡Gracias!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Un correo de confirmación ha sido enviado a { $email } con detalles sobre como empezar con { $product_name }.
+payment-confirmation-thanks-heading-account-exists = ¡Gracias, ahora revisa tu correo!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Recibirás un correo en { $email } con instrucciones para configurar tu cuenta, así como los detalles de tu pago.
 payment-confirmation-order-heading = Detalles de la orden
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading-2 = Información de pago
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -399,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
 ## new user email form
 
 new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Conéctate</a>
+new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
+new-user-step-2 = 2. Elige tu método de pago
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ingresa tu correo
@@ -408,3 +414,6 @@ new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de pro
 new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear tu cuenta. Nunca lo venderemos a terceros.
 new-user-email-validate = El correo no es válido
 new-user-email-validate-confirm = Los correos no coinciden
+new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Conéctate</a>
+new-user-card-title = Ingresa la información de tu tarjeta
+new-user-submit = Suscríbete ahora
