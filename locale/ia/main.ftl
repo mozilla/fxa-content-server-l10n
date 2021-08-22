@@ -110,6 +110,7 @@ payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Política de confide
 payment-legal-copy-paypal = { -brand-name-mozilla } emplea { -brand-name-paypal } pro le processo secur de pagamento.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } emplea { -brand-name-stripe } pro le processo secur de pagamento.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Politica de confidentialitate de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -349,9 +350,11 @@ payment-confirmation-thanks-heading = Gratias!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Un e-mail de confirmation ha essite inviate a { $email } con detalios sur como comenciar con { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Gratias, ora verifica tu e-mail!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Tu recipera un e-mail a { $email } con instructiones pro le preparation de tu conto, e tu datos de pagamento.
 payment-confirmation-order-heading = Detalios del ordine
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturate a
@@ -402,4 +405,5 @@ new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear t
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
 new-user-already-has-account-sign-in = Tu jam ha un conto. <a>Accede</a>
+new-user-card-title = Insere informationes de tu carta
 new-user-submit = Abona te ora
