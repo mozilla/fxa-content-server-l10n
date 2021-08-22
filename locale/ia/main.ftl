@@ -42,6 +42,8 @@ card-error = Tu transaction non pote esser processate. Verifica le informationes
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Un error de systema ha impedite tu inscription a ${ productName }. Tu methodo de pagamento non ha essite cargate. Retenta.
+newsletter-signup-error = Tu non es inscribite al e-mails de actualisation del producto. Tu pote retentar in tu parametros de conto.
+fxa-post-passwordless-sub-error = Subscription confirmate, ma es impossibile cargar le pagina de confirmation. Verifica tu e-mail pro configurar tu conto.
 
 ## settings
 
@@ -104,7 +106,9 @@ product-no-such-plan = Nulle tal plano pro iste producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisa { -brand-name-stripe } e { -brand-name-paypal } pro le elaboration secur del pagamentos.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Política de confidentialitate de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } emplea { -brand-name-paypal } pro le processo secur de pagamento.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Politica de confidentialitate de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } emplea { -brand-name-stripe } pro le processo secur de pagamento.
 
 ## payment form
