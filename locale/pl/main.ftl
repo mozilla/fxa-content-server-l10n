@@ -54,7 +54,12 @@ instant-payouts-unsupported = Wygląda na to, że karta debetowa nie jest skonfi
 duplicate-transaction = Wygląda na to, że właśnie wysłano identyczną transakcję. Sprawdź swoją historię płatności.
 coupon-expired = Wygląda na to, że ten kod promocyjny wygasł.
 card-error = Nie można przetworzyć transakcji. Sprawdź poprawność informacji z karty płatniczej i spróbuj ponownie.
-fxa-signup-error = Wystąpił problem podczas tworzenia konta. Proszę spróbować ponownie później.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Błąd systemu spowodował, że rejestracja ${ productName } się nie powiodła. Metoda płatności nie została obciążona. Proszę spróbować ponownie.
+newsletter-signup-error = Nie zapisano na wiadomości o produktach. Można spróbować ponownie w ustawieniach konta.
+fxa-post-passwordless-sub-error = Subskrypcja została potwierdzona, ale wczytanie strony potwierdzenia się nie powiodło. Sprawdź pocztę, aby skonfigurować konto.
 
 ## settings
 
@@ -65,6 +70,7 @@ settings-subscriptions-title = Subskrypcje
 
 terms = Regulamin usługi
 privacy = Zasady ochrony prywatności
+terms-download = Warunki pobierania
 
 ## Subscription titles
 
@@ -120,11 +126,11 @@ product-no-such-plan = Nie ma takiego planu dla tego produktu.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } korzysta z serwisów { -brand-name-stripe } i { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
-payment-legal-link-stripe-and-paypal-2 = Wyświetl <stripePrivacyLink>zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink> i <paypalPrivacyLink>zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } korzysta z serwisu { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
-payment-legal-link-paypal = Wyświetl <paypalPrivacyLink>zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } korzysta z serwisu { -brand-name-stripe } do bezpiecznego przetwarzania płatności.
-payment-legal-link-stripe-2 = Wyświetl <stripePrivacyLink>zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -379,11 +385,21 @@ payment-processing-message = Prosimy czekać na przetworzenie płatności…
 payment-confirmation-alert = Kliknij tutaj, aby pobrać
 payment-confirmation-mobile-alert = Aplikacja się nie otworzyła? <a>Kliknij tutaj</a>
 payment-confirmation-thanks-heading = Dziękujemy!
-payment-confirmation-thanks-subheading = Na adres { $email } wysłano wiadomość z potwierdzeniem i informacjami, jak zacząć używać usługi { $product_name }.
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+payment-confirmation-thanks-subheading = Na adres { $email } wysłano wiadomość z potwierdzeniem i informacjami, jak zacząć używać { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Dzięki, teraz sprawdź pocztę!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Otrzymasz wiadomość na adres { $email } z instrukcjami konfiguracji konta, a także informacjami o płatności.
 payment-confirmation-order-heading = Informacje o zamówieniu
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Wystawiona na
-payment-confirmation-details-heading = Informacje o płatności
+payment-confirmation-details-heading-2 = Informacje o płatności
 payment-confirmation-amount = { $amount } co { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -431,4 +447,3 @@ new-user-subscribe-product-updates = Chcę otrzymywać wiadomości o produktach
 new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
 new-user-email-validate = Adres e-mail jest nieprawidłowy
 new-user-email-validate-confirm = Adresy e-mail się nie zgadzają
-new-user-existing-account-sign-in = Masz już konto, <a>zaloguj się</a>
