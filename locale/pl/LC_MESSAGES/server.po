@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-19 22:08+0000\n"
-"PO-Revision-Date: 2021-08-22 12:24+0000\n"
+"PO-Revision-Date: 2021-08-22 12:36+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -971,7 +971,7 @@ msgstr "Utwórz hasło"
 
 #: lib/senders/email.js:1964
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr "Witamy w %(productName)s: prosimy ustawić swoje hasło."
+msgstr "Witamy w %(productName)s: prosimy ustawić hasło."
 
 #: lib/senders/email.js:2037
 msgid "You have upgraded to %(productNameNew)s"

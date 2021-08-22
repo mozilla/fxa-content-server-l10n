@@ -438,6 +438,8 @@ payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Masz już konto { -brand-name-firefox(case: "gen") }? <a>Zaloguj się</a>
+new-user-step-1 = 1. Utwórz konto { -brand-name-firefox(case: "gen") }
+new-user-step-2 = 2. Wybierz metodę płatności
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Wpisz swój adres e-mail
@@ -447,3 +449,6 @@ new-user-subscribe-product-updates = Chcę otrzymywać wiadomości o produktach
 new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
 new-user-email-validate = Adres e-mail jest nieprawidłowy
 new-user-email-validate-confirm = Adresy e-mail się nie zgadzają
+new-user-already-has-account-sign-in = Masz już konto. <a>Zaloguj się</a>
+new-user-card-title = Podaj informacje o karcie
+new-user-submit = Subskrybuj
