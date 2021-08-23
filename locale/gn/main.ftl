@@ -42,6 +42,7 @@ card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñe
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Peteĩ apopyvusu ndoikóiva ojavyka ${ productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽi gueteri. Eha’ã ag̃ave.
+newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ãjey ag̃ave ne mba’ete ñembohekópe.
 
 ## settings
 
