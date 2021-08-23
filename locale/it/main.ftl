@@ -38,7 +38,10 @@ instant-payouts-unsupported = Questa carta di debito non risulta configurata per
 duplicate-transaction = Uhm… sembra che sia stata appena inviata una transazione identica. Controlla la cronologia dei pagamenti.
 coupon-expired = Il codice promozionale risulta scaduto.
 card-error = La transazione non può essere elaborata. Verifica i dati della tua carta di credito e riprova.
-fxa-signup-error = Si è verificato un problema durante la creazione del tuo account. Riprova più tardi.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Un errore di sistema ha impedito la registrazione a ${ productName }. Non è stato applicato alcun addebito sul tuo metodo di pagamento. Riprova.
 
 ## settings
 
@@ -100,11 +103,8 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
-payment-legal-link-stripe-and-paypal-2 = Visualizza l’<stripePrivacyLink>informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink> e l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
-payment-legal-link-paypal = Visualizza l’<paypalPrivacyLink>informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } per l’elaborazione sicura dei pagamenti.
-payment-legal-link-stripe-2 = Visualizza l’<stripePrivacyLink>informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -341,11 +341,18 @@ payment-processing-message = Attendi mentre elaboriamo il tuo pagamento…
 payment-confirmation-alert = Fai clic qui per scaricare
 payment-confirmation-mobile-alert = L’app non si è aperta? <a>Fai clic qui</a>
 payment-confirmation-thanks-heading = Grazie!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = È stata inviata un’email di conferma a { $email } con i dettagli su come iniziare a usare { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Dettagli dell’ordine
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Fatturato a
-payment-confirmation-details-heading = Dettagli del pagamento
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -389,4 +396,3 @@ new-user-subscribe-product-updates = Voglio ricevere aggiornamenti sui prodotti 
 new-user-subscribe-product-assurance = Utilizziamo la tua email solo per creare il tuo account. Non la venderemo mai a terzi.
 new-user-email-validate = L’email non è valida
 new-user-email-validate-confirm = Gli indirizzi email non corrispondono
-new-user-existing-account-sign-in = Hai già un account, <a>accedi</a>
