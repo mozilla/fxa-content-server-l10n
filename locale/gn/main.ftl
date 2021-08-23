@@ -414,3 +414,6 @@ new-user-subscribe-product-updates = Hi’ã og̃uahẽ chéve ñembohekopyahu {
 new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
+new-user-already-has-account-sign-in = Erekóma ne mba’ete. <a>Eñepyrũ tembiapo</a>
+new-user-card-title = Emoinge marandu kuatia’atã rehegua
+new-user-submit = Eñemboheraguapy Ko’ág̃a
