@@ -38,7 +38,10 @@ instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepym
 duplicate-transaction = Épa. Oñemondoramoite peteĩ mba’e ojueheguaitéva. Ehecha ne ñehepyme’ẽ rembiasakue.
 coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
 card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñemurã rehegua ha eha’ãjey uperire.
-fxa-signup-error = Oiko apañuãi emoheñoinguévo mba’ete. Eha’ãjey ag̃amieve.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Peteĩ apopyvusu ndoikóiva ojavyka ${ productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽi gueteri. Eha’ã ag̃ave.
 
 ## settings
 
@@ -100,11 +103,8 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-and-paypal-2 = Ehecha <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink> ha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-paypal = Ehecha <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-2 = Ehecha <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +348,18 @@ payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’
 payment-confirmation-alert = Eikutu ápe emboguejy hag̃ua
 payment-confirmation-mobile-alert = ¿Ani embojuruja tembipuru’i? <a>Eikutu ápe</a>
 payment-confirmation-thanks-heading = ¡Aguyje!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ rehegua { $email }-pe oje’ehápe mba’éichapa ojepurúta { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
-payment-confirmation-details-heading = Mba’éicha ehepyme’ẽta
 payment-confirmation-amount = { $amount } { $interval } rehe
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -396,4 +403,3 @@ new-user-subscribe-product-updates = Hi’ã og̃uahẽ chéve ñembohekopyahu {
 new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
-new-user-existing-account-sign-in = Erekóma mba’ete, <a>Emoñepyrũ tembiapo</a>
