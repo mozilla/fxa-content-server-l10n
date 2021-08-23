@@ -39,6 +39,9 @@ duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. 
 coupon-expired = Promosyon kodunun süresi dolmuş.
 card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-home = Hesap ana sayfası
@@ -100,9 +103,7 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
 payment-legal-copy-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-paypal } kullanır.
-payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkelerini</paypalPrivacyLink> inceleyin.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
-payment-legal-link-stripe-2 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkelerini</stripePrivacyLink> inceleyin.
 
 ## payment form
 
@@ -329,10 +330,19 @@ payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
 payment-confirmation-alert = İndirmek için buraya tıklayın
 payment-confirmation-mobile-alert = Uygulama açılmadı mı? <a>Buraya tıklayın</a>
 payment-confirmation-thanks-heading = Teşekkürler!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ödeyen
-payment-confirmation-details-heading = Ödeme ayrıntıları
+payment-confirmation-details-heading-2 = Ödeme bilgileri
 payment-confirmation-amount = { $interval } { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -367,6 +377,7 @@ payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 ## new user email form
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
+new-user-step-2 = 2. Ödeme yönteminizi seçin
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = E-postanızı yazın
@@ -374,4 +385,6 @@ new-user-confirm-email =
     .label = E-postanızı doğrulayın
 new-user-email-validate = E-posta geçerli değil
 new-user-email-validate-confirm = E-postalar eşleşmiyor
-new-user-existing-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
+new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
+new-user-card-title = Kart bilgilerinizi girin
+new-user-submit = Şimdi abone ol
