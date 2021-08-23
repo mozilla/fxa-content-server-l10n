@@ -33,6 +33,9 @@ charge-exceeds-source-limit = נראה שעסקה זו תחריג אותך מע�
 instant-payouts-unsupported = נראה כי כרטיס החיוב שלך לא מוגדר לתשלומים מיידיים. נא לנסות כרטיס חיוב או אשראי אחר.
 card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת את פרטי כרטיס האשראי שלך ולנסות שוב.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-subscriptions-title = מינויים
@@ -41,6 +44,7 @@ settings-subscriptions-title = מינויים
 
 terms = תנאי השירות
 privacy = הצהרת פרטיות
+terms-download = תנאי הורדה
 
 ## Subscription titles
 
@@ -92,11 +96,11 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-and-paypal-2 = הצגת <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-paypal = הצגת <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-2 = הצגת <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -147,9 +151,6 @@ sub-update-copy =
     התוכנית שלך תשתנה באופן מיידי, ויבוצע חיוב יחסי
     לשאר מחזור החיוב שלך. החל מ־{ $startingDate }
     יבוצע חיוב בסכום המלא.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
@@ -319,11 +320,21 @@ payment-processing-message = נא להמתין בעת עיבוד התשלום ש
 payment-confirmation-alert = נא ללחוץ כאן להורדה
 payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
 payment-confirmation-thanks-heading = תודה רבה!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = דוא״ל לאימות נשלח אל { $email } עם פרטים כיצד להתחיל עם { $product_name }.
+payment-confirmation-thanks-heading-account-exists = תודה, עכשיו יש לבדוק את הדוא״ל שלך!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = תתקבל הודעת דוא״ל לכתובת { $email } עם הוראות להגדרת החשבון שלך, כמו גם פרטי התשלום שלך.
 payment-confirmation-order-heading = פרטי הזמנה
 payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber }
 payment-confirmation-billing-heading = חיוב לטובת
-payment-confirmation-details-heading = פרטי תשלום
+payment-confirmation-details-heading-2 = פרטי תשלום
 payment-confirmation-amount = { $amount } כל { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -368,4 +379,5 @@ new-user-subscribe-product-updates = ברצוני לקבל עדכוני מוצר
 new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
 new-user-email-validate = כתובת הדוא״ל אינה תקינה
 new-user-email-validate-confirm = כתובות הדוא״ל אינן תואמות
-new-user-existing-account-sign-in = כבר יש לך חשבון, <a>ניתן להיכנס</a>
+new-user-card-title = נא להכניס את פרטי הכרטיס שלך
+new-user-submit = הרשמה כמינוי כעת
