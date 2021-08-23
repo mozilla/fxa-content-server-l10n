@@ -42,6 +42,7 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Un errore di sistema ha impedito la registrazione a ${ productName }. Non è stato applicato alcun addebito sul tuo metodo di pagamento. Riprova.
+fxa-post-passwordless-sub-error = La sottoscrizione dell’abbonamento è confermata ma il caricamento della pagina di conferma non è riuscito. Verifica la tua email per configurare il tuo account.
 
 ## settings
 
@@ -347,12 +348,15 @@ payment-confirmation-thanks-heading = Grazie!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = È stata inviata un’email di conferma a { $email } con i dettagli su come iniziare a usare { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Grazie! Ora controlla la tua email.
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Riceverai un’email all’indirizzo { $email } con le istruzioni per configurare il tuo account e i dettagli per il pagamento.
 payment-confirmation-order-heading = Dettagli dell’ordine
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Fatturato a
+payment-confirmation-details-heading-2 = Informazioni sul pagamento
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -387,6 +391,8 @@ payment-confirmation-cc-card-ending-in = La carta termina con { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Hai già un account { -brand-name-firefox }? <a>Accedi</a>
+new-user-step-1 = 1. Crea un account { -brand-name-firefox }
+new-user-step-2 = 2. Scegli il tuo metodo di pagamento
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Inserisci la tua email
@@ -396,3 +402,6 @@ new-user-subscribe-product-updates = Voglio ricevere aggiornamenti sui prodotti 
 new-user-subscribe-product-assurance = Utilizziamo la tua email solo per creare il tuo account. Non la venderemo mai a terzi.
 new-user-email-validate = L’email non è valida
 new-user-email-validate-confirm = Gli indirizzi email non corrispondono
+new-user-already-has-account-sign-in = Hai già un account. <a>Accedi</a>
+new-user-card-title = Inserisci le informazioni relative alla tua carta di credito
+new-user-submit = Abbonati adesso
