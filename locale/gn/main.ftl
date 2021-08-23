@@ -106,8 +106,11 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua purureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }Ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } ñemigua purureko</stripePrivacyLink>.
 
 ## payment form
 
@@ -357,9 +360,11 @@ payment-confirmation-thanks-heading = ¡Aguyje!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Oñemondo ñanduti veve ñemoneĩ rehegua { $email }-pe oje’ehápe mba’éichapa ojepurúta { $product_name }.
+payment-confirmation-thanks-heading-account-exists = ¡Aguyje, ko’ág̃a ehecha ne ñanduti veve!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Og̃uahẽta ndéve ñandutiveve { $email } rupive embohekokuaahápe ne mba’ete, avei mba’eichaitépa ehepyme’ẽta.
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
