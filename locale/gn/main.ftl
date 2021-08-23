@@ -368,6 +368,7 @@ payment-confirmation-thanks-subheading-account-exists = Og̃uahẽta ndéve ñan
 payment-confirmation-order-heading = Mba’emimi jerurepyre
 payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
 payment-confirmation-billing-heading = Kuatiañemungue ko
+payment-confirmation-details-heading-2 = Jehepyme’ẽrã marandu
 payment-confirmation-amount = { $amount } { $interval } rehe
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -402,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 ## new user email form
 
 new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>Eñepyrũ tembiapo</a>
+new-user-step-1 = 1. Emoheñói mba’ete { -brand-name-firefox }-pe
+new-user-step-2 = 2. Eiporavo mba’éichapa ehepyme’ẽta
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ehai ne ñanduti veve
