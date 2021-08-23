@@ -43,6 +43,7 @@ card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñe
 
 fxa-account-signup-error = Peteĩ apopyvusu ndoikóiva ojavyka ${ productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽi gueteri. Eha’ã ag̃ave.
 newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ãjey ag̃ave ne mba’ete ñembohekópe.
+fxa-post-passwordless-sub-error = Mboheraguapy moneĩmbyre, hákatu kuatiarogue ñemoneĩ nahenyhẽkuaái. Ehecha ne ñanduti veve emboheko hag̃ua ne mba’ete.
 
 ## settings
 
@@ -53,6 +54,7 @@ settings-subscriptions-title = Mboheraguapy
 
 terms = Mba’epytyvõrã ñemboguata
 privacy = Marandu’i ñemiguáva
+terms-download = Emboguejy ñemboguatarã
 
 ## Subscription titles
 
