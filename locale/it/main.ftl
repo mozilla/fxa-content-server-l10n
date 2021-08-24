@@ -42,6 +42,7 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = Un errore di sistema ha impedito la registrazione a ${ productName }. Non è stato applicato alcun addebito sul tuo metodo di pagamento. Riprova.
+newsletter-signup-error = Non sei iscritto alle notifiche via mail relative agli aggiornamenti del prodotto. Puoi riprovare nelle impostazioni del tuo account.
 fxa-post-passwordless-sub-error = La sottoscrizione dell’abbonamento è confermata ma il caricamento della pagina di conferma non è riuscito. Verifica la tua email per configurare il tuo account.
 
 ## settings
@@ -104,8 +105,11 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } e { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilizza { -brand-name-paypal } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Informativa sulla privacy di { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilizza { -brand-name-stripe } per l’elaborazione sicura dei pagamenti.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Informativa sulla privacy di { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
