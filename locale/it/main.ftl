@@ -54,6 +54,7 @@ settings-subscriptions-title = Abbonamenti
 
 terms = Termini di servizio
 privacy = Informativa sulla privacy
+terms-download = Scarica i termini
 
 ## Subscription titles
 
