@@ -38,7 +38,11 @@ instant-payouts-unsupported = Det ser ud til, at dit betalingskort ikke kan brug
 duplicate-transaction = Hmm. Det ser ud til, at en identisk transaktion lige blev sendt. Kontrollér din betalingshistorik.
 coupon-expired = Det ser ud til, at promo-koden er udløbet.
 card-error = Din transaktion kunne ikke behandles. Kontroller oplysningerne om dit betalingskort og prøv igen.
-fxa-signup-error = Der opstod et problem med at oprette din konto. Prøv igen senere.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = På grund af en systemfejl mislykkedes din tilmelding til ${ productName }. Du er ikke blevet opkrævet. Prøv igen.
+fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsessiden kunne ikke indlæses. Tjek din mail for at oprette din konto.
 
 ## settings
 
@@ -100,11 +104,8 @@ product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-stripe-and-paypal-2 = Se <stripePrivacyLink>{ -brand-name-stripe }s privatlivspolitik</stripePrivacyLink> og <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-paypal = Se <paypalPrivacyLink>{ -brand-name-paypal }s privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
-payment-legal-link-stripe-2 = Se <stripePrivacyLink>{ -brand-name-stripe }s privatlivspolitik</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +349,18 @@ payment-processing-message = Vent mens vi behandler din betaling...
 payment-confirmation-alert = Klik her for at hente
 payment-confirmation-mobile-alert = Åbnede appen ikke? <a>Klik her</a>
 payment-confirmation-thanks-heading = Tak!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = En bekræftelsesmail er blevet sendt til { $email } med detaljer om, hvordan du kommer i gang med { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureret til
-payment-confirmation-details-heading = Betalingsdetaljer
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -396,4 +404,3 @@ new-user-subscribe-product-updates = Jeg vil gerne modtage nyheder om produkter 
 new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at oprette din konto. Vi vil aldrig sælge den til en tredjepart.
 new-user-email-validate = Mailadressen er ikke gyldig
 new-user-email-validate-confirm = Mailadresserne matcher ikke
-new-user-existing-account-sign-in = Du har allerede en konto, <a>Log ind</a>
