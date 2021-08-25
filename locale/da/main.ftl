@@ -42,6 +42,7 @@ card-error = Din transaktion kunne ikke behandles. Kontroller oplysningerne om d
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error = På grund af en systemfejl mislykkedes din tilmelding til ${ productName }. Du er ikke blevet opkrævet. Prøv igen.
+newsletter-signup-error = Du har ikke tilmeldt dig nyhedsmails om produktopdateringer. Du kan prøve igen i dine kontoindstillinger.
 fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsessiden kunne ikke indlæses. Tjek din mail for at oprette din konto.
 
 ## settings
@@ -363,6 +364,7 @@ payment-confirmation-thanks-heading-account-exists = Tak. Tjek nu din mail!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Du vil modtage en mail på { $email } med dine betalingsoplysninger og en vejledning til at oprette din konto.
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureret til
@@ -413,4 +415,5 @@ new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at opre
 new-user-email-validate = Mailadressen er ikke gyldig
 new-user-email-validate-confirm = Mailadresserne matcher ikke
 new-user-already-has-account-sign-in = Du har allerede en konto. <a>Log ind</a>
+new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
