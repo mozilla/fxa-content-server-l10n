@@ -53,6 +53,7 @@ settings-subscriptions-title = Abonnementer
 
 terms = Tjenestevilkår
 privacy = Privatlivspolitik
+terms-download = Betingelser for hentning
 
 ## Subscription titles
 
@@ -104,8 +105,11 @@ product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink>.
 
 ## payment form
 
@@ -355,12 +359,14 @@ payment-confirmation-thanks-heading = Tak!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = En bekræftelsesmail er blevet sendt til { $email } med detaljer om, hvordan du kommer i gang med { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Tak. Tjek nu din mail!
 
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureret til
+payment-confirmation-details-heading-2 = Betalingsinformation
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -395,6 +401,8 @@ payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Har du allerede en { -brand-name-firefox }-konto? <a>Log ind</a>
+new-user-step-1 = 1. Opret en { -brand-name-firefox }-konto
+new-user-step-2 = 2. Vælg din betalingsmetode
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Indtast din mailadresse
@@ -404,3 +412,5 @@ new-user-subscribe-product-updates = Jeg vil gerne modtage nyheder om produkter 
 new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at oprette din konto. Vi vil aldrig sælge den til en tredjepart.
 new-user-email-validate = Mailadressen er ikke gyldig
 new-user-email-validate-confirm = Mailadresserne matcher ikke
+new-user-already-has-account-sign-in = Du har allerede en konto. <a>Log ind</a>
+new-user-submit = Abonner nu
