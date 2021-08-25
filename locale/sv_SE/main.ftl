@@ -41,6 +41,9 @@ card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsin
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Ett systemfel orsakade att registreringen för { productName } misslyckades. Din betalningsmetod har inte debiterats. Var god försök igen.
+newsletter-signup-error = Du har inte registrerat dig för produktuppdateringsmeddelanden. Du kan försöka igen i dina kontoinställningar.
+fxa-post-passwordless-sub-error = Prenumerationen bekräftades, men bekräftelsesidan kunde inte laddas. Kontrollera din e-post för att konfigurera ditt konto.
 
 ## settings
 
@@ -51,6 +54,7 @@ settings-subscriptions-title = Prenumerationer
 
 terms = Användarvillkor
 privacy = Sekretesspolicy
+terms-download = Nerladdningsvillkor
 
 ## Subscription titles
 
