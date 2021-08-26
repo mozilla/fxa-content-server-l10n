@@ -41,7 +41,7 @@ card-error = 無法處理本交易。請檢查您的信用卡資訊後再試一�
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = 系統發生錯誤，導致您的 ${ productName } 註冊失敗。您並未被收費，請再試一次。
+fxa-account-signup-error-2 = 系統發生錯誤，導致您的 { $productName } 註冊失敗。您並未被收費，請再試一次。
 newsletter-signup-error = 您並未註冊接收產品更新郵件，可以到帳戶設定頁面中再試一次。
 fxa-post-passwordless-sub-error = 已確認訂閱完成，但無法載入確認頁面。請到您的電子郵件信箱收信，繼續設定帳號。
 
@@ -106,7 +106,7 @@ product-no-such-plan = 此產品無此方案。
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 與 { -brand-name-paypal } 來安全地處理交易款項。
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隱私權保護政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 來安全地處理交易款項。
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隱私權保護政策</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
