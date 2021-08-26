@@ -41,7 +41,7 @@ card-error = 无法处理您的交易。请检查您的信用卡信息，然后�
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = 系统出错，导致 ${ productName } 订阅失败。尚未扣费，请继续尝试。
+fxa-account-signup-error-2 = 系统出错，导致 { $productName } 订阅失败。尚未扣费，请继续尝试。
 newsletter-signup-error = 您并未订阅接收产品更新邮件，可到账户设置页面中重试。
 fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败。请查收邮件，继续设置账户。
 
@@ -105,7 +105,7 @@ product-no-such-plan = 此产品无此方案。
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 和 { -brand-name-paypal } 进行安全支付。
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-paypal = { -brand-name-mozilla } 使用 { -brand-name-paypal } 进行安全支付。
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
