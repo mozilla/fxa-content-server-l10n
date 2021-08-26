@@ -118,6 +118,9 @@ card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zada
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error = Chyba v systému zabránila registraci produktu ${ productName }. Nebyla vám zaúčtována žádná platba. Zkuste to prosím znovu.
+newsletter-signup-error = Nejste přihlášeni k odběru e-mailů o produktových novinkách. Přihlásit se můžete v nastavení účtu.
+fxa-post-passwordless-sub-error = Předplatné je potvrzeno, ale nepodařilo se načíst stránku s potvrzením. Informace ohledně nastavení účtu najdete ve své e-mailové schránce.
 
 ## settings
 
