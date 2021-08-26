@@ -38,7 +38,12 @@ instant-payouts-unsupported = Det ser ut som att ditt betalkort inte är instäl
 duplicate-transaction = Hmm. Det verkar som om en identisk transaktion just skickades. Kolla in din betalningshistorik.
 coupon-expired = Det ser ut som att kampanjkoden har gått ut.
 card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsinformation och försök igen.
-fxa-signup-error = Det gick inte att skapa ditt konto.  Vänligen försök igen senare.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error = Ett systemfel orsakade att registreringen för { productName } misslyckades. Din betalningsmetod har inte debiterats. Var god försök igen.
+newsletter-signup-error = Du har inte registrerat dig för produktuppdateringsmeddelanden. Du kan försöka igen i dina kontoinställningar.
+fxa-post-passwordless-sub-error = Prenumerationen bekräftades, men bekräftelsesidan kunde inte laddas. Kontrollera din e-post för att konfigurera ditt konto.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = Prenumerationer
 
 terms = Användarvillkor
 privacy = Sekretesspolicy
+terms-download = Nerladdningsvillkor
 
 ## Subscription titles
 
@@ -100,11 +106,11 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-stripe-and-paypal-2 = Visa sekretesspolicy för <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> och <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-paypal = Visa sekretesspolicy för <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
-payment-legal-link-stripe-2 = Visa sekretesspolicy för <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +354,21 @@ payment-processing-message = Vänta medan vi behandlar din betalning...
 payment-confirmation-alert = Klicka här för att ladda ner
 payment-confirmation-mobile-alert = Öppnades ingen app? <a>Klicka här</a>
 payment-confirmation-thanks-heading = Tack så mycket!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Ett bekräftelsemeddelande har skickats till { $email } med information om hur du kommer igång med { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Tack, kolla nu din mejl!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Du får ett e -postmeddelande till { $email } med instruktioner för hur du konfigurerar ditt konto samt dina betalningsuppgifter.
 payment-confirmation-order-heading = Orderdetaljer
 payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faktureras till
-payment-confirmation-details-heading = Betalningsinformation
+payment-confirmation-details-heading-2 = Betalningsinformation
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -387,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
+new-user-step-1 = 1. Skapa ett { -brand-name-firefox }-konto
+new-user-step-2 = 2. Välj din betalningsmetod
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ange din e-postadress
@@ -396,4 +414,6 @@ new-user-subscribe-product-updates = Jag vill få produktuppdateringar från { -
 new-user-subscribe-product-assurance = Vi använder bara din e-postadress för att skapa ditt konto. Vi kommer aldrig att sälja den till en tredje part.
 new-user-email-validate = E-postadressen är inte giltig
 new-user-email-validate-confirm = E-postadresserna matchar inte
-new-user-existing-account-sign-in = Du har redan ett konto, <a>Logga in</a>
+new-user-already-has-account-sign-in = Har du redan ett konto, <a>Logga in</a>
+new-user-card-title = Ange din kortinformation
+new-user-submit = Prenumerera nu

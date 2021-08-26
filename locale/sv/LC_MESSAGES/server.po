@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 22:08+0000\n"
-"PO-Revision-Date: 2021-08-01 11:57+0000\n"
+"POT-Creation-Date: 2021-08-26 22:06+0000\n"
+"PO-Revision-Date: 2021-08-25 08:21+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
@@ -977,7 +977,7 @@ msgstr "Skapa ett lösenord"
 
 #: lib/senders/email.js:1964
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
+msgstr "Välkommen till %(productName)s: Ange ditt lösenord."
 
 #: lib/senders/email.js:2037
 msgid "You have upgraded to %(productNameNew)s"
