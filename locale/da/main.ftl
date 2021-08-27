@@ -41,7 +41,7 @@ card-error = Din transaktion kunne ikke behandles. Kontroller oplysningerne om d
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = På grund af en systemfejl mislykkedes din tilmelding til ${ productName }. Du er ikke blevet opkrævet. Prøv igen.
+fxa-account-signup-error-2 = På grund af en systemfejl mislykkedes din tilmelding til { $productName }. Du er ikke blevet opkrævet. Prøv igen.
 newsletter-signup-error = Du har ikke tilmeldt dig nyhedsmails om produktopdateringer. Du kan prøve igen i dine kontoindstillinger.
 fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsessiden kunne ikke indlæses. Tjek din mail for at oprette din konto.
 
@@ -106,7 +106,7 @@ product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } bruger { -brand-name-paypal } til sikker behandling af betaling.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
