@@ -41,7 +41,7 @@ card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatai
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Rendszerhiba miatt a(z) { productName } regisztrációja sikertelen volt. A fizetési módja nem lett megterhelve. Próbálja újra.
+fxa-account-signup-error-2 = Rendszerhiba miatt a(z) { $productName } regisztrációja sikertelen volt. A fizetési módja nem lett megterhelve. Próbálja újra.
 newsletter-signup-error = Nem regisztrált a termékhíreket tartalmazó e-mailekre. Megpróbálhatja újra a fiókbeállításokban.
 fxa-post-passwordless-sub-error = Az előfizetés megerősítve, de a megerősítő oldal betöltése nem sikerült. Ellenőrizze az e-mail-címét a fiók beállításához.
 
@@ -106,7 +106,7 @@ product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-name-paypal } adatvédemi irányelvei</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-name-paypal } adatvédemi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-paypal = A { -brand-name-mozilla } a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>A { -brand-name-paypal } adatvédelmi irányelvei</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
