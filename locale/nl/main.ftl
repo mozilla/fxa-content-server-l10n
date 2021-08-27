@@ -41,7 +41,7 @@ card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgeg
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Door een systeemfout is uw registratie bij { productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
+fxa-account-signup-error-2 = Door een systeemfout is uw registratie bij { $productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
 newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
 fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
 
@@ -106,7 +106,7 @@ product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } en { -brand-name-paypal } voor veilig betalingsverkeer.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } gebruikt { -brand-name-paypal } voor veilig betalingsverkeer.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
