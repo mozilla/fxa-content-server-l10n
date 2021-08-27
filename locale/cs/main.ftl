@@ -118,7 +118,7 @@ card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zada
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Chyba v systému zabránila registraci produktu ${ productName }. Nebyla vám zaúčtována žádná platba. Zkuste to prosím znovu.
+fxa-account-signup-error-2 = Chyba v systému zabránila registraci produktu { $productName }. Nebyla vám zaúčtována žádná platba. Zkuste to prosím znovu.
 newsletter-signup-error = Nejste přihlášeni k odběru e-mailů o produktových novinkách. Přihlásit se můžete v nastavení účtu.
 fxa-post-passwordless-sub-error = Předplatné je potvrzeno, ale nepodařilo se načíst stránku s potvrzením. Informace ohledně nastavení účtu najdete ve své e-mailové schránce.
 
@@ -187,7 +187,7 @@ product-no-such-plan = Takové předplatné pro tento produkt neexistuje.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") } a { -brand-name-paypal(case: "acc") }.
-payment-legal-link-stripe-space-paypal = Zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = Zásady ochrany osobních údajů pro služby <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-paypal(case: "acc") }.
 payment-legal-link-paypal-2 = Zásady ochrany osobních údajů pro službu <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
