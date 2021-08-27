@@ -41,7 +41,7 @@ card-error = La transacción no pudo ser procesada. Verificá la información de
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Un error del sistema causó que el registro de ${ productName } fallara. El método de pago no ha sido cargado. Intentalo de nuevo.
+fxa-account-signup-error-2 = Un error de sistema causó que fallara el registro a { $productName }. El método de pago no ha sido cargado. Intentá nuevamente.
 newsletter-signup-error = No estás registrado para los correos de actualización de producto. Podés volver a intentarlo en la configuración de tu cuenta.
 fxa-post-passwordless-sub-error = Suscripción confirmada, pero la página de confirmación no se pudo cargar. Revisá tu correo para configurar tu cuenta.
 
@@ -106,7 +106,7 @@ product-no-such-plan = No existe tal plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de los pagos.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento de pago seguro.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de los pagos.
