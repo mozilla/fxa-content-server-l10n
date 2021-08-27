@@ -41,7 +41,7 @@ card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuata’atã ñe
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Peteĩ apopyvusu ndoikóiva ojavyka ${ productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽi gueteri. Eha’ã ag̃ave.
+fxa-account-signup-error-2 = Peteĩ apopyvusu ndoikóiva ojavyka { $productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽiramo gueteri. Eha’ã ag̃ave.
 newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ãjey ag̃ave ne mba’ete ñembohekópe.
 fxa-post-passwordless-sub-error = Mboheraguapy moneĩmbyre, hákatu kuatiarogue ñemoneĩ nahenyhẽkuaái. Ehecha ne ñanduti veve emboheko hag̃ua ne mba’ete.
 
@@ -106,7 +106,7 @@ product-no-such-plan = Ndaipóri tembiaporã ko apopyrépe g̃uarã
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ha { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua purureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }Ñemigua purureko</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } Ñemigua purureko</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }ñemigua purureko</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } oipuru { -brand-name-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } ñemigua purureko</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } oipuru { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
