@@ -38,7 +38,12 @@ instant-payouts-unsupported = როგორც ჩანს, თქვენ�
 duplicate-transaction = ჰმ. როგორც ჩანს, მსგავსი გადარიცხვა უკვე გაიგზავნა. შეამოწმეთ თქვენი გადახდების ისტორია.
 coupon-expired = როგორც ჩანს, ფასდაკლების კოდი ვადაგასულია.
 card-error = თქვენი გადარიცხვა ვერ სრულდება. გთხოვთ, გადაამოწმოთ საკრედიტო ბარათის მონაცემები და კვლავ სცადოთ.
-fxa-signup-error = მოხდა შეცდომა, თქვენი ანგარიშის შექმნისას.  გთხოვთ, სცადოთ მოგვიანებით.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error-2 = სისტემის შეცდომის გამო, { $productName } ვერ დამოწმდა. თქვენი გადახდის საშუალებიდან, თანხა არ ჩამოჭრილა. გთხოვთ, კვლავ სცადოთ.
+newsletter-signup-error = თქვენ გაქვთ გამოწერილი პროდუქტის სიახლეები ელფოსტაზე. შეგიძლიათ კვლავ სცადოთ ანგარიშის პარამეტრებიდან.
+fxa-post-passwordless-sub-error = გამოწერა დამოწმებულია, მაგრამ დადასტურების გვერდი ვერ ჩაიტვირთა. გთხოვთ, შეამოწმოთ თქვენი ელფოსტა, ანგარიშის გასამართად.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = გამოწერები
 
 terms = გამოყენების პირობები
 privacy = პირადულობის განაცხადი
+terms-download = პირობების ჩამოტვირთვა
 
 ## Subscription titles
 
@@ -100,11 +106,11 @@ product-no-such-plan = ამ პროდუქტისთვის ასე�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს და { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe-and-paypal-2 = იხილეთ <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink> და <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } იყენებს { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-paypal = იხილეთ <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
-payment-legal-link-stripe-2 = იხილეთ <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +354,20 @@ payment-processing-message = გთხოვთ, მოითმინოთ, �
 payment-confirmation-alert = დააწკაპეთ აქ ჩამოსატვირთად
 payment-confirmation-mobile-alert = არ გაიხსნა? <a>დაწკაპეთ აქ</a>
 payment-confirmation-thanks-heading = გმადლობთ!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = დასტურის წერილი გამოგზავნილია ელფოსტაზე { $email } დაწვრილებითი მითითებებით, თუ როგორ გამოიყენოთ { $product_name }.
+payment-confirmation-thanks-heading-account-exists = გმადლობთ, ახლა კი შეამოწმეთ თქვენი ელფოსტა!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = თქვენ მიიღებთ წერილს ელფოსტაზე { $email } ანგარიშის შექმნის მითითებებით, ასევე გადახდის შესახებ მონაცემებით.
 payment-confirmation-order-heading = შეკვეთის მონაცემები
 payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
 payment-confirmation-billing-heading = ანგარიშმსწორები
-payment-confirmation-details-heading = გადახდის მონაცემები
 payment-confirmation-amount = { $amount } ყოველი { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -396,4 +411,3 @@ new-user-subscribe-product-updates = მსურს მივიღო სი�
 new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 new-user-email-validate = ელფოსტა არამართებულია
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
-new-user-existing-account-sign-in = უკვე გაქვთ ანგარიში, <a>შედით</a>
