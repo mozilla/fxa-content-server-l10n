@@ -41,7 +41,7 @@ card-error = Waša transakcija njeda so předźěłować. Přepruwujće prošu i
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Systemowy zmylk je zawinował, zo waše registrowanje za ${ productName } njeje poradźiło. Waša płaćenska metoda njeje so wobćežiła. Spytajće prošu hišće raz.
+fxa-account-signup-error-2 = Systemowy zmylk je zawinował, zo waše registrowanje za { $productName } njeje poradźiło. Waša płaćenska metoda njeje so wobćežiła. Spytajće prošu hišće raz.
 newsletter-signup-error = Njejsće so za e-mejle wo produktowych aktualizacijach registrował. Móžeće to w swojich kontowych nastajenjach hišće raz spytać.
 fxa-post-passwordless-sub-error = Abonement je wobkrućeny, ale wobkrućenska strona njeda so začitać. Prošu přepruwujće swoje mejlki, zo byšće swoje konto konfigurował.
 
@@ -114,7 +114,7 @@ product-no-such-plan = Žadyn plan za tutón produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Prawidła priwatnosće { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>prawidła priwatnosće { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } { -brand-name-paypal } za wěste předźěłowanje płaćenjow wužiwa.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Prawidła priwatnosće</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste předźěłowanje płaćenjow wužiwa.
