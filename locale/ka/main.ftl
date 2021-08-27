@@ -368,6 +368,7 @@ payment-confirmation-thanks-subheading-account-exists = თქვენ მი�
 payment-confirmation-order-heading = შეკვეთის მონაცემები
 payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
 payment-confirmation-billing-heading = ანგარიშმსწორები
+payment-confirmation-details-heading-2 = გადახდის მონაცემები
 payment-confirmation-amount = { $amount } ყოველი { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -402,6 +403,8 @@ payment-confirmation-cc-card-ending-in = ბარათი დაბოლო�
 ## new user email form
 
 new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
+new-user-step-1 = 1. შექმენით { -brand-name-firefox }-ანგარიში
+new-user-step-2 = 2. შეარჩიეთ გადახდის საშუალება
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = შეიყვანეთ თქვენი ელფოსტა
@@ -411,3 +414,6 @@ new-user-subscribe-product-updates = მსურს მივიღო სი�
 new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 new-user-email-validate = ელფოსტა არამართებულია
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
+new-user-already-has-account-sign-in = უკვე გაქვთ ანგარიში. <a>შესვლა</a>
+new-user-card-title = შეიყვანეთ თქვენი ბარათის ინფორმაცია
+new-user-submit = გამოწერა ახლავე
