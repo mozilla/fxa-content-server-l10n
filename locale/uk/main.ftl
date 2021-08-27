@@ -41,7 +41,7 @@ card-error = Ваш платіж не вдалося обробити. Підт�
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Системна помилка призвела до збою реєстрації в ${ productName }. Платіж за вказаним способом оплати не було проведено. Будь ласка, спробуйте знову.
+fxa-account-signup-error-2 = Системна помилка призвела до збою реєстрації в { $productName }. Платіж за вказаним способом оплати не було проведено. Будь ласка, спробуйте знову.
 newsletter-signup-error = Ви не підписалися на сповіщення про оновлення продукту. Ви можете спробувати знову зробити це в налаштуваннях облікового запису.
 fxa-post-passwordless-sub-error = Передплату підтверджено, але не вдалося завантажити сторінку підтвердження. Перевірте свою електронну пошту для завершення налаштування облікового запису.
 
@@ -110,7 +110,7 @@ product-no-such-plan = Такого тарифного плану для цьо�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } і { -brand-name-paypal } для безпечної обробки платежів.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } використовує { -brand-name-paypal } для безпечної обробки платежів.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
