@@ -41,7 +41,6 @@ card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les 
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Une erreur système a entraîné l’échec de votre inscription à { productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
 newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
 fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
 
@@ -106,7 +105,6 @@ product-no-such-plan = Aucun forfait de ce type pour ce produit.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilise { -brand-name-paypal } pour un traitement sécurisé des paiements.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
@@ -407,3 +405,5 @@ new-user-subscribe-product-assurance = Nous utilisons votre adresse électroniqu
 new-user-email-validate = L’adresse électronique n’est pas valide
 new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
 new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
+new-user-card-title = Saisissez les informations de votre carte
+new-user-submit = S’abonner maintenant
