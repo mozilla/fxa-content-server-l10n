@@ -103,7 +103,7 @@ product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα γ�
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
