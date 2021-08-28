@@ -57,7 +57,7 @@ card-error = Nie można przetworzyć transakcji. Sprawdź poprawność informacj
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Błąd systemu spowodował, że rejestracja ${ productName } się nie powiodła. Metoda płatności nie została obciążona. Proszę spróbować ponownie.
+fxa-account-signup-error-2 = Błąd systemu spowodował, że rejestracja { $productName } się nie powiodła. Metoda płatności nie została obciążona. Proszę spróbować ponownie.
 newsletter-signup-error = Nie zapisano na wiadomości o produktach. Można spróbować ponownie w ustawieniach konta.
 fxa-post-passwordless-sub-error = Subskrypcja została potwierdzona, ale wczytanie strony potwierdzenia się nie powiodło. Sprawdź pocztę, aby skonfigurować konto.
 
@@ -126,7 +126,7 @@ product-no-such-plan = Nie ma takiego planu dla tego produktu.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } korzysta z serwisów { -brand-name-stripe } i { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>Zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Zasady ochrony prywatności firmy { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } korzysta z serwisu { -brand-name-paypal } do bezpiecznego przetwarzania płatności.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Zasady ochrony prywatności firmy { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } korzysta z serwisu { -brand-name-stripe } do bezpiecznego przetwarzania płatności.
