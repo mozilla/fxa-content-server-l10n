@@ -41,6 +41,7 @@ card-error = Ваша транзакция не может быть обрабо
 
 ##  $productName (String) - The name of the subscribed product.
 
+newsletter-signup-error = Вы не подписались на письма с новостями о продукте. Вы можете попробовать ещё раз в настройках своего аккаунта.
 
 ## settings
 
@@ -427,3 +428,6 @@ new-user-confirm-email =
     .label = Подтвердите свою электронную почту
 new-user-subscribe-product-updates = Я хочу получать новости о продукте от { -brand-name-firefox }
 new-user-email-validate-confirm = Адреса электронной почты не совпадают
+new-user-already-has-account-sign-in = У вас уже есть аккаунт. <a>Войдите</a>
+new-user-card-title = Введите данные вашей карты
+new-user-submit = Подписаться
