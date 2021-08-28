@@ -418,9 +418,12 @@ payment-confirmation-cc-card-ending-in = Номер карты заканчив�
 ## new user email form
 
 new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
+new-user-step-1 = 1. Создайте аккаунт { -brand-name-firefox }
+new-user-step-2 = 2. Выберите способ оплаты
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Введите адрес своей эл. почты
 new-user-confirm-email =
     .label = Подтвердите свою электронную почту
+new-user-subscribe-product-updates = Я хочу получать новости о продукте от { -brand-name-firefox }
 new-user-email-validate-confirm = Адреса электронной почты не совпадают
