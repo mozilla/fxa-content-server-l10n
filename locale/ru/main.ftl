@@ -39,6 +39,9 @@ duplicate-transaction = Хм. Похоже, что только что была 
 coupon-expired = Похоже, что срок действия промокода истёк.
 card-error = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте ещё раз.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-home = Главная страница аккаунта
@@ -103,11 +106,11 @@ product-no-such-plan = Нет такого плана для этого прод
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } использует { -brand-name-stripe } и { -brand-name-paypal } для безопасной обработки платежей.
-payment-legal-link-stripe-and-paypal-2 = Ознакомьтесь с <stripePrivacyLink>Политикой приватности { -brand-name-stripe }</stripePrivacyLink> и <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink> и <paypalPrivacyLink>Политика конфиденциальности { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } использует { -brand-name-paypal } для безопасной обработки платежей.
-payment-legal-link-paypal = Ознакомьтесь с <paypalPrivacyLink>Политикой приватности { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Политика конфиденциальности { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
-payment-legal-link-stripe-2 = Ознакомьтесь с <stripePrivacyLink>Политикой приватности { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -188,37 +191,6 @@ sub-update-copy =
     Ваш план сменится сразу, и с вас будет списана скорректированная
     сумма за оставшуюся часть вашего платёжного цикла. Начиная с { $startDate },
     с вас будет сниматься полная сумма.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } день</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дня</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дней</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждую { $intervalCount } неделю</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недели</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недель</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } месяц</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяца</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяцев</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } год</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } года</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } лет</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
 
 ##
 
@@ -394,11 +366,20 @@ payment-processing-message = Подождите, пока мы обработа�
 payment-confirmation-alert = Нажмите здесь для загрузки
 payment-confirmation-mobile-alert = Не открылось приложение? <a>Щёлкните здесь</a>
 payment-confirmation-thanks-heading = Спасибо!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = На адрес { $email } было отправлено письмо с подтверждением и информацией о том, как начать работу с { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Спасибо, теперь проверьте свою электронную почту!
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Информация о заказе
 payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
 payment-confirmation-billing-heading = Счёт выставлен на
-payment-confirmation-details-heading = Детали оплаты
+payment-confirmation-details-heading-2 = Платежная информация
 payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -443,4 +424,3 @@ new-user-email =
 new-user-confirm-email =
     .label = Подтвердите свою электронную почту
 new-user-email-validate-confirm = Адреса электронной почты не совпадают
-new-user-existing-account-sign-in = У вас уже есть учётная запись, <a>Войдите</a>
