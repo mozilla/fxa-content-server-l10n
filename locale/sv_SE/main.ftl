@@ -106,9 +106,7 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-stripe-paypal =
-    <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp;
-    <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
