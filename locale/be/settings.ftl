@@ -368,6 +368,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Профіль
+profile-picture =
+    .header = Выява
 profile-display-name =
     .header = Бачнае імя
 profile-password =
@@ -395,6 +397,8 @@ row-defaults-status = Няма
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Ключ аднаўлення
+rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
@@ -429,6 +433,7 @@ se-make-primary = Зрабіць асноўным
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Двухэтапная аўтарызацыя
 tfa-row-disabled = Двухэтапная аўтарызацыя адключана.
 tfa-row-enabled = Уключана
 tfa-row-not-set = Не ўстаноўлена
