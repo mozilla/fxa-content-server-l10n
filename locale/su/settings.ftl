@@ -79,9 +79,11 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Modal
 
+modal-cancel-button = Bolay
 
 ## Modal Verify Session
 
+msv-cancel-button = Bolay
 
 ## Settings Nav
 
@@ -91,30 +93,35 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Avatar change page
 
+avatar-page-cancel-button = Bolay
 
 ##
 
 
 ## Password change page
 
+pw-change-cancel-button = Bolay
 
 ##
 
 
 ## Delete account page
 
+delete-account-cancel-button = Bolay
 
 ##
 
 
 ## Display name page
 
+cancel-display-name = Bolay
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Bolay
 
 ## Add secondary email page
 
