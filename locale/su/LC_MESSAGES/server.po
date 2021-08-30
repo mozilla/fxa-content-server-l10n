@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-02-14 08:08+0000\n"
+"PO-Revision-Date: 2021-08-30 02:31+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -1036,13 +1036,15 @@ msgstr "Firefox Accounts"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
-msgstr "Kaca euweuh"
+msgstr "Kaca teu kapanggih"
 
 #: server/templates/pages/src/404.html:3
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Kaca nu dipundut ku anjeun teu kapanggih. Kami geus diiberan sarta\n"
+"          bakal menerkeun tutumbu anu pegat."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
