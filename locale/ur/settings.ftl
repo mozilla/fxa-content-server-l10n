@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = پیغام بند کریں
 
 ## Firefox and Mozilla Brand
 ##
@@ -149,6 +150,7 @@ header-help = مدد
 
 ## Modal
 
+modal-close-title = بند کریں
 
 ## Modal Verify Session
 
