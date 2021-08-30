@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-08-30 20:32+0000\n"
+"PO-Revision-Date: 2021-08-30 20:43+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -735,7 +735,7 @@ msgstr "Firefox продуктларын сынау"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Сәламәт Интернетка сәламәт булып калырга ярдәм итәбез"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
@@ -811,15 +811,15 @@ msgstr "Яраксыз id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Ерактагы җиһаздан хаталы хәбәр"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Ерактагы җиһазга тоташканда хата китте"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Ерактагы җиһазга бәйләнеш өзелде, зинһар тагын бер кат тырышып карагыз"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
@@ -1219,7 +1219,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Бу яшерен ачкычны аутентификация кушымтагызга кертегез."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1352,7 +1352,7 @@ msgstr "Көйләүләргә кире кайту"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Гафу. Без хисабыгызны&nbsp;блокладык."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1397,7 +1397,7 @@ msgstr "Бу керүне раслау"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Эл. почтагыздан %(email)s адресына җибәрелгән кодны эзләгез."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
