@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-08-30 02:31+0000\n"
+"PO-Revision-Date: 2021-08-30 05:29+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -203,7 +203,7 @@ msgstr "Oténtikasi dua léngkah dihurungkeun"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu di handap:"
+msgstr "Anjeun geus hasil ngaktipkeun oténtikasi dua léngkah na Firefox Account anjeun ti béréndélan parangkat ieu di handap:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -211,7 +211,7 @@ msgstr "Perlu kodeu kaamanan ti aplikasi oténtikasi anjeun mun arék asup téh.
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Anjeun geus hasil ngahurungkeun oténtikasi dua léngkah na Firefox Account anjeun. Kodeu kaamanan ti aplikasi oténtikasi anjeun ayeuna mah bakal diperlukeun mangsa rék asup."
+msgstr "Anjeun geus hasil ngaktipkeun oténtikasi dua léngkah na Firefox Account anjeun. Kodeu kaamanan ti aplikasi oténtikasi anjeun ayeuna mah bakal diperlukeun mangsa rék asup."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -927,7 +927,7 @@ msgstr "Surélék utama geus diropéa"
 
 #: lib/senders/email.js:1536
 msgid "Two-step verification enabled"
-msgstr "Péripikasi dua léngkah dihurungkeun"
+msgstr "Péripikasi dua léngkah diaktipkeun"
 
 #: lib/senders/email.js:1583
 msgid "Two-step verification is off"

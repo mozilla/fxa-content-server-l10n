@@ -130,6 +130,7 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Two Step Authentication
 
+tfa-enabled = Oténtikasi dua léngkah diaktipkeun
 
 ##
 
@@ -148,6 +149,7 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Recovery key sub-section on main Settings page
 
+rk-enabled = Diaktipkeun
 
 ## Secondary email sub-section on main Settings page
 
@@ -157,6 +159,7 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Diaktipkeun
 
 ## Auth-server based errors that originate from backend service
 
