@@ -118,18 +118,21 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Bolay
 
 ##
 
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Bolay
 
 ##
 
 
 ## Two Step Authentication
 
+tfa-button-cancel = Bolay
 tfa-enabled = Oténtikasi dua léngkah diaktipkeun
 
 ##
