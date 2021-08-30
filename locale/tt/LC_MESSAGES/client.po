@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-08-30 20:43+0000\n"
+"PO-Revision-Date: 2021-08-30 20:50+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1405,7 +1405,7 @@ msgstr "Иминлек кодын кертегез"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Аутентификация кушымтасын ачыгыз һәм ул биргән иминлек кодын кертегез."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
@@ -1413,7 +1413,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Эл. почтагыздан %(email)s адресына җибәрелгән авторизация кодын эзләгез."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
