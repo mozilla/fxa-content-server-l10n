@@ -441,6 +441,7 @@ tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
 tfa-row-button-refresh =
     .title = Абнавіць двухэтапную аўтарызацыю
+tfa-row-cannot-verify-session-2 = На жаль, узнікла праблема з пацвярджэннем сеансу.
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
 tfa-row-cannot-disable = Немагчыма адключыць двухэтапную аўтэнтыфікацыю.
