@@ -63,7 +63,7 @@ app-default-title = { -product-firefox-accounts }
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Λογότυπο { -brand-mozilla }
-app-footer-privacy-notice = Σημείωση απορρήτου ιστοσελίδας
+app-footer-privacy-notice = Σημείωση απορρήτου ιστοτόπου
 app-footer-terms-of-service = Όροι υπηρεσίας
 
 ##
@@ -196,7 +196,7 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Κλείσιμο μενού
-header-menu-closed = Μενού πλοήγησης ιστοσελίδας
+header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-title = { -product-firefox-accounts }
