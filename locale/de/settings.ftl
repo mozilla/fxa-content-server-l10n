@@ -442,7 +442,7 @@ row-defaults-status = Keine
 
 ## Recovery key sub-section on main Settings page
 
-rk-header = Wiederherstellungsschlüssel
+rk-header = Wiederherstellungs-schlüssel
 rk-enabled = Aktiviert
 rk-not-set = Nicht festgelegt
 rk-action-create = Erstellen
@@ -534,8 +534,10 @@ auth-error-110 = Ungültiger Schlüssel
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es nach { $retryAfter } erneut.
 auth-error-138 = Nicht verifizierte Sitzung
 auth-error-155 = TOTP-Token nicht gefunden
