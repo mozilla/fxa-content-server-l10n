@@ -47,6 +47,7 @@ card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yrit�
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Järjestelmävirhe aiheutti { $productName } -rekisteröitymisen epäonnistumisen. Maksutapaasi ei ole veloitettu. Yritä uudelleen.
 
 ## settings
 
