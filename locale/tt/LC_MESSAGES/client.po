@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-08-30 20:50+0000\n"
-"Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
+"PO-Revision-Date: 2021-08-20 19:49+0000\n"
+"Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
 "MIME-Version: 1.0\n"
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Телефоныгызда Firefox урнаштыру өчен SMS аша сылтама җибәрегез."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
