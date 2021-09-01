@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-26 22:06+0000\n"
-"PO-Revision-Date: 2021-08-30 02:29+0000\n"
+"PO-Revision-Date: 2021-09-01 04:13+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -179,7 +179,7 @@ msgstr "Buka Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Sumputkeun sandi"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -223,23 +223,23 @@ msgstr "Akun ngahasil divérifikasi"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "babayar & tagihan"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "masalah akun"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "masalah téhnis"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "ngirim kamandang / rekés pitur"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "teu kadaptar"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1508,7 +1508,7 @@ msgstr "Firefox Accounts"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Tepas Akun"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1524,7 +1524,7 @@ msgstr "Aya perlu naon?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Pilih hiji"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1604,11 +1604,11 @@ msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Anyar asup ka Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Konfirmasi asup"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
@@ -1704,11 +1704,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Teruskeun ka %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Asupkeun sandi"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1717,7 +1717,7 @@ msgstr "Puguhkeun kecap sandi"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Jieun sandi"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
