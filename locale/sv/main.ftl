@@ -41,7 +41,7 @@ card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsin
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Ett systemfel orsakade att registreringen för { productName } misslyckades. Din betalningsmetod har inte debiterats. Var god försök igen.
+fxa-account-signup-error-2 = Ett systemfel orsakade att registreringen för { $productName } misslyckades. Din betalningsmetod har inte debiterats. Var god försök igen.
 newsletter-signup-error = Du har inte registrerat dig för produktuppdateringsmeddelanden. Du kan försöka igen i dina kontoinställningar.
 fxa-post-passwordless-sub-error = Prenumerationen bekräftades, men bekräftelsesidan kunde inte laddas. Kontrollera din e-post för att konfigurera ditt konto.
 
@@ -106,7 +106,7 @@ product-no-such-plan = Ingen sådan plan för denna produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } använder { -brand-name-paypal } för säker betalningshantering.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.

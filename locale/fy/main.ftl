@@ -39,6 +39,12 @@ duplicate-transaction = Hmm. It liket derop dat sakrekt in identike transaksje f
 coupon-expired = It liket derop dat dy promoasjekoade ferrûn is.
 card-error = Jo transaksje koe net ferwurke wurde. Kontrolearje jo creditkaartgegevens en probearje it opnij.
 
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error-2 = Troch in systeemflater is jo registraasje by { $productName } mislearre. Der binne gjin kosten yn rekkening brocht by jo betelmetoade. Probearje it opnij.
+newsletter-signup-error = Jo binne net ynskreaun foar e-mailberjochten oer produktupdates. Jo kinne it opnij probearje yn jo accountynstellingen.
+fxa-post-passwordless-sub-error = Abonnemint befêstige, mar de befêstigingsside kin net laden wurde. Kontrolearje jo e-mail om jo account yn te stellen.
+
 ## settings
 
 settings-home = Account-startside
@@ -48,6 +54,7 @@ settings-subscriptions-title = Abonneminten
 
 terms = Tsjinstbetingsten
 privacy = Privacyferklearring
+terms-download = Betingsten downloade
 
 ## Subscription titles
 
@@ -99,11 +106,11 @@ product-no-such-plan = Soksoarte skema bestiet net foar dit produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } en { -brand-name-paypal } foar feilich betellingsferkear.
-payment-legal-link-stripe-and-paypal-2 = It privacybelied fan <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> en fan <paypalPrivacyLink>{ -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybelied</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybelied</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } brûkt { -brand-name-paypal } foar feilich betellingsferkear.
-payment-legal-link-paypal = It <paypalPrivacyLink>privacybelied fan { -brand-name-paypal }</paypalPrivacyLink> besjen.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacybelied</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } brûkt { -brand-name-stripe } foar feilich betellingsferkear.
-payment-legal-link-stripe-2 = It privacybelied fan <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink> besjen.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybelied</stripePrivacyLink>.
 
 ## payment form
 
@@ -180,33 +187,6 @@ sub-update-copy =
     Jo skema wiziget daliks, en der wurdt in oanpast bedrach yn rekkening
     brocht foar it restant fan jo fakturaasjeperioade. Fan { $startingDate } ôf
     wurdt jo it folsleine bedrach yn rekkening brocht.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> deistich { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } dagen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke wike { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } wiken { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke moanne { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } moannen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elk jier { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } jier { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
 
 ##
 
@@ -374,11 +354,21 @@ payment-processing-message = In momint wylst wy jo betelling ferwurkje…
 payment-confirmation-alert = Klik hjir om te downloaden
 payment-confirmation-mobile-alert = App net iepene? <a>Klik hjir</a>
 payment-confirmation-thanks-heading = Tige tank!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Der is in befêstigingsberjocht ferstjoerd nei { $email } mei details oer hoe't jo oan de slach kinne mei { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Tige tank, kontrolearje no jo e-mail!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Jo ûntfange in e-mailberjocht op { $email } mei ynstruksjes oer it ynstellen fan jo account, krekt as jo betellingsgegevens.
 payment-confirmation-order-heading = Bestelgegevens
 payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
 payment-confirmation-billing-heading = Rekkening foar
-payment-confirmation-details-heading = Betellingsgegevens
+payment-confirmation-details-heading-2 = Betellingsgegevens
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -409,3 +399,21 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Trochgean mei download
 payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanmelde</a>
+new-user-step-1 = 1. Meitsje in { -brand-name-firefox }-account oan
+new-user-step-2 = 2. Kies jo betellingsmetoade
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Fier jo e-mailadres yn
+new-user-confirm-email =
+    .label = Befêstigje jo e-mailadres
+new-user-subscribe-product-updates = Ik wol graach produktupdates fan { -brand-name-firefox } ûntfange
+new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo account oan te meitsjen. Wy sille it nea oan in tredde partij ferkeapje.
+new-user-email-validate = E-mailadres is net jildich
+new-user-email-validate-confirm = E-mailadressen komme net oerien
+new-user-already-has-account-sign-in = Jo hawwe al in account. <a>Oanmelde</a>
+new-user-card-title = Fier jo kaartgegevens yn
+new-user-submit = No abonnearje
