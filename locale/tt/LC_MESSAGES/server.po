@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-09-03 21:05+0000\n"
+"PO-Revision-Date: 2021-09-03 21:09+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -963,11 +963,11 @@ msgstr "%(productName)s программасына рәхим итегез: Зи
 
 #: lib/senders/email.js:2037
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s продуктына күтәрелү уңышлы узды"
 
 #: lib/senders/email.js:2116
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "%(productNameNew)s продуктына күчтегез"
 
 #: lib/senders/email.js:2181
 msgid "Credit card for %(productName)s expiring soon"
@@ -979,7 +979,7 @@ msgstr "Язылуларыгыз өчен кулланылучы кредит к
 
 #: lib/senders/email.js:2246
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "%(productName)s өчен түләү турындагы мәгълүматны яңарту кирәк"
 
 #: lib/senders/email.js:2262
 msgid "Payment information update required for Mozilla subscriptions"

@@ -39,6 +39,7 @@ settings-subscriptions-title = Язылулар
 
 terms = Куллану Шартлары
 privacy = Хосусыйлык сәясәте
+terms-download = Куллану шартларын йөкләп алу
 
 ## Subscription titles
 
@@ -46,6 +47,7 @@ subscription-create-title = Язылуларыгызны көйләү
 subscription-success-title = Язылуны раслау
 subscription-processing-title = Язылуны раслау…
 subscription-error-title = Язылуны раслау хатасы…
+subscription-noplanchange-title = Абунә планындагы мондый үзгәреш мөмкин түгел
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -90,7 +92,9 @@ product-no-such-plan = Әлеге продукт өчен андый план ю
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } хосусыйлык сәясәте</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } хосусыйлык сәясәте</stripePrivacyLink>.
 
 ## payment form
 
@@ -124,6 +128,7 @@ payment-validate-zip-short = Почта индексы артык кыска
 ## subscription redirect
 
 sub-redirect-ready = Язылуыгыз әзер
+sub-redirect-copy = Тәҗрибәгез турында безгә сөйлисегез килмиме?
 
 ## fields
 
@@ -244,6 +249,7 @@ sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
+sub-billing-update-success = Түләү турындагы мәгълүматларыгыз уңышлы яңартылды
 sub-route-payment-modal-heading = Яраксыз хисап бирү мәгълүматы
 pay-update-manage-btn = Идарә итү
 
