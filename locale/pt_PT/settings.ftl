@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Fechar mensagem
 
 ## Firefox and Mozilla Brand
 ##
@@ -62,6 +63,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
 
 ## Connect another device promo
 
@@ -142,6 +146,7 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Terminar sessão
 
 ## Flow Container
 
@@ -170,9 +175,13 @@ header-help = Ajuda
 
 ## Modal
 
+modal-close-title = Fechar
+modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+msv-cancel-button = Cancelar
+msv-submit-button = Confirmar
 
 ## Settings Nav
 
@@ -206,14 +215,15 @@ avatar-page-remove-photo = Remover foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tirar foto novamente
+avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = A guardar…
 avatar-page-zoom-out-button =
-  .title = Reduzir
+    .title = Reduzir
 avatar-page-zoom-in-button =
-  .title = Ampliar
+    .title = Ampliar
 avatar-page-rotate-button =
-  .title = Rodar
+    .title = Rodar
 avatar-page-camera-error = Não foi possível iniciar a câmara
 avatar-page-new-avatar =
     .alt = nova imagem de perfil
@@ -380,6 +390,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Perfil
+profile-picture =
+    .header = Imagem
 profile-display-name =
     .header = Nome de apresentação
 profile-password =
@@ -407,6 +419,8 @@ row-defaults-status = Nenhum
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Chave de recuperação
+rk-enabled = Ativada
 rk-not-set = Não definida
 rk-action-create = Criar
 rk-action-remove = Remover
@@ -462,6 +476,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticação de dois passos
 tfa-row-disabled = Autenticação de dois passos desativada.
 tfa-row-enabled = Ativado
 tfa-row-not-set = Não definida
@@ -491,6 +506,14 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
 auth-error-110 = Código inválido
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Tentou demasiadas vezes. Tente novamente depois de { $retryAfter }.
 auth-error-138 = Sessão não-confirmada
 auth-error-155 = Código TOTP não encontrado
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
