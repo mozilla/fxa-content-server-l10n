@@ -249,7 +249,7 @@ sub-subscription-error =
     .title = Язылуларны йөкләгәндә хата китте
 sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
-sub-billing-update-success = Түләү турындагы мәгълүматларыгыз уңышлы яңартылды
+sub-billing-update-success = Түләү турындагы мәгълүматларыгызны яңарту уңышлы узды
 sub-route-payment-modal-heading = Яраксыз хисап бирү мәгълүматы
 pay-update-manage-btn = Идарә итү
 
@@ -280,11 +280,13 @@ payment-confirmation-thanks-heading = Рәхмәт!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = Рәхмәт, ә хәзер эл. почтагызны тикшерегез!
 
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = Заказ нечкәлекләре
 payment-confirmation-invoice-number = Квитанция №{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Түләү турындагы мәгълүмат
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -318,3 +320,16 @@ payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамлан�
 
 ## new user email form
 
+new-user-sign-in-link = { -brand-name-firefox } хисабыгыз бармы инде? <a>Керү</a>
+new-user-step-1 = 1. { -brand-name-firefox } хисабын булдырыгыз
+new-user-step-2 = 2. Түләү ысулын сайлагыз
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Эл. почтагызны кертегез
+new-user-confirm-email =
+    .label = Эл. почтагызны раслагыз
+new-user-email-validate = Эл. почта адресы яраклы түгел
+new-user-email-validate-confirm = Эл. почта адреслары бер-берсенә туры килми
+new-user-already-has-account-sign-in = Сезнең хисабыгыз бар инде. <a>Керү</a>
+new-user-card-title = Кредит картагызның язуларын кертегез
+new-user-submit = Хәзер үк язылу

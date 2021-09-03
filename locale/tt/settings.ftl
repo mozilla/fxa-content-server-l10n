@@ -103,6 +103,7 @@ cs-disconnect-sync-opt-suspicious = Шикле
 cs-disconnect-sync-opt-lost = Югалган яки урланган
 cs-disconnect-sync-opt-old = Иске яки алыштырылган
 cs-disconnect-sync-opt-duplicate = Кабатланган
+cs-disconnect-sync-opt-not-say = Әйтәсем килми
 
 ##
 
@@ -220,6 +221,7 @@ avatar-page-new-avatar =
     .alt = яңа профиль рәсеме
 avatar-page-file-upload-error-2 = Профиль рәсемегезне йөкләгәндә хата китте.
 avatar-page-delete-error-2 = Профиль рәсемегезне бетергәндә хата китте.
+avatar-page-image-too-large-error = Рәсем файлы йөкләп булмаслык зур.
 
 ##
 
