@@ -360,6 +360,7 @@ payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα emai
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Θα λάβετε ένα email στο { $email } με οδηγίες για τη ρύθμιση του λογαριασμού και των στοιχείων πληρωμής σας.
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
 payment-confirmation-billing-heading = Χρέωση σε
