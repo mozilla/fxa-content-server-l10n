@@ -399,6 +399,7 @@ payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $la
 ## new user email form
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
+new-user-step-1 = 1. Δημιουργήστε έναν λογαριασμό { -brand-name-firefox }
 new-user-step-2 = 2. Επιλέξτε τη μέθοδο πληρωμής σας
 new-user-email =
     .placeholder = foxy@mozilla.com
@@ -406,3 +407,6 @@ new-user-email =
 new-user-subscribe-product-updates = Επιθυμώ να λαμβάνω ενημερώσεις προϊόντων από το { -brand-name-firefox }
 new-user-email-validate = Το email δεν είναι έγκυρο
 new-user-email-validate-confirm = Τα email δεν ταιριάζουν
+new-user-already-has-account-sign-in = Έχετε ήδη λογαριασμό. <a>Σύνδεση</a>
+new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
+new-user-submit = Συνδρομή τώρα
