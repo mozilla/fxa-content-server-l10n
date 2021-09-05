@@ -8,6 +8,8 @@
 project-brand = Firefox アカウント
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = Firefox アカウント
 
@@ -29,6 +31,9 @@ charge-exceeds-source-limit = この取引では、1 日のご利用限度額を
 instant-payouts-unsupported = デビットカードが即時支払いに設定されていないようです。別のデビットカードまたはクレジットカードを試してください。
 duplicate-transaction = まったく同じ取引が送信されたようです。お支払いの履歴を確認してください。
 coupon-expired = プロモーションコードの有効期限が切れているようです。
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -91,9 +96,6 @@ default-input-error = この項目は必須です
 ## subscription upgrade
 
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ##
 
 
@@ -144,6 +146,17 @@ sub-item-missing-msg = また後で試してください。
 ## payment confirmation
 
 
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
+
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 payment-confirmation-download-button = ダウンロードを続行
+
+## new user email form
+
