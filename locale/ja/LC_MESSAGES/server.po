@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-09-05 02:24+0000\n"
+"PO-Revision-Date: 2021-09-05 02:35+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -497,7 +497,7 @@ msgstr "%(productName)s のサブスクリプションを再開していただ�
 msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
-msgstr ""
+msgstr "請求サイクルとお支払い方法は同じです。次回は %(nextInvoiceDateOnly)s に %(invoiceTotal)s が請求されます。キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
@@ -505,27 +505,27 @@ msgstr "サブスクリプションはまもなく更新されます"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr "%(productName)s のお客様へ"
+msgstr "拝啓、%(productName)s のお客様へ"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
+msgstr "現在のサブスクリプションはあと %(reminderLength)s 日で自動的に更新されるよう設定されています。更新時に、Mozilla は %(planIntervalCount)s %(planInterval)s のサブスクリプションを更新し、%(invoiceTotal)s の料金があなたのアカウントの支払い方法に適用されます。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "現在のお支払い方法とアカウント情報は <a href=\"%(updateBillingUrl)s\">こちら</a> で確認できます。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
-msgstr ""
+msgstr "%(productName)s にご登録いただきありがとうございます。%(productName)s のサブスクリプションや他の情報についての質問は、<a href=\"%(subscriptionSupportUrl)s\">こちらからお問い合わせください</a>。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
-msgstr ""
+msgstr "敬具"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
