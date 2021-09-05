@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-09-05 21:17+0000\n"
+"PO-Revision-Date: 2021-09-05 21:22+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -532,10 +532,12 @@ msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"A sua subscrição atual está configurada para ser renovada automaticamente em %(reminderLength)s dias. Nessa altura, a Mozilla irá renovar a sua subscrição %(planIntervalCount)s %(planInterval)s e "
+"será feita uma cobrança de %(invoiceTotal)s no método de pagamento da sua conta."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Pode garantir que a forma de pagamento e as informações da conta estão atualizadas <a href=\"%(updateBillingUrl)s\">aqui</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
