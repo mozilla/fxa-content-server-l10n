@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-09-05 02:15+0000\n"
+"PO-Revision-Date: 2021-09-05 02:24+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -331,7 +331,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "最近、Firefox アカウントを削除したため、%(productName)s のサブスクリプションがキャンセルされました。最後のお支払いは %(invoiceDateOnly)s に %(invoiceTotal)s でした。"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -351,7 +351,7 @@ msgstr "お支払いは処理中です。完了するまで最大 4 営業日か
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "次に、Firefox アカウントのパスワードを作成して %(productName)s をダウンロードします。"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr ""
+msgstr "%(productNameOld)s から %(productNameNew)s への切り替えが完了しました。"
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
@@ -388,11 +388,11 @@ msgstr ""
 #: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "サブスクリプションがキャンセルされました"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -430,34 +430,34 @@ msgstr ""
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "次回の請求: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "請求書番号: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "請求書の表示：%(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "クレジットカードの有効期限が近づいています"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "%(productName)s の支払いに使用しているクレジットカードの有効期限が近づいています。"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "サービスの中断を防ぐため、できるだけ早く <a href=\"%(updateBillingUrl)s\">お支払い情報を更新</a> してください。"
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
@@ -491,7 +491,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr ""
+msgstr "%(productName)s のサブスクリプションを再開していただき、ありがとうございます。"
 
 #: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
 msgid ""
@@ -501,11 +501,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "サブスクリプションはまもなく更新されます"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "%(productName)s のお客様へ"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
@@ -529,7 +529,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "%(productName)s チームより"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
