@@ -29,6 +29,7 @@ payment-error-retry-button = Tentar novamente
 payment-error-manage-subscription-button = Gerir a minha subscrição
 country-currency-mismatch = A moeda desta subscrição não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Pedimos desculpa. Não pode alternar entre moedas.
+no-subscription-change = Lamentamos mas não pode alterar o seu plano de subscrição.
 expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá o seu limite de crédito. Tente outro cartão.
@@ -40,6 +41,9 @@ card-error = Não foi possível processar sua transação. Verifique as informa�
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Um erro de sistema fez com que a sua subscrição no(a) { $productName } falhasse. Não houve cobrança no seu método de pagamento. Por favor, tente novamente.
+newsletter-signup-error = Não subscreveu a quaisquer e-mails de atualizações do produto. Pode tentar novamente nas definições da sua conta.
+fxa-post-passwordless-sub-error = Subscrição confirmada, mas o carregamento da página de confirmação falhou. Por favor, consulte o seu e-mail para configurar a sua conta.
 
 ## settings
 
@@ -50,6 +54,7 @@ settings-subscriptions-title = Subscrições
 
 terms = Termos do serviço
 privacy = Política de privacidade
+terms-download = Termos da transferência
 
 ## Subscription titles
 
