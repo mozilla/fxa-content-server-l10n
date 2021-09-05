@@ -29,6 +29,7 @@ alert-bar-close-message = Fechar mensagem
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Conta Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -63,9 +64,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menu Bento { -brand-firefox }
+bento-menu-firefox-title = O { -brand-firefox } é tecnologia que luta pela sua privacidade na Internet.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
+bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
+bento-menu-made-by-mozilla = Criado pela { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -146,10 +152,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Autenticado como </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Terminar sessão
+drop-down-menu-sign-out-error = Pedimos desculpa, mas ocorreu um problema ao terminar a sua sessão.
 
 ## Flow Container
 
+flow-container-back = Voltar
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -172,6 +185,10 @@ header-help = Ajuda
 
 ## Input Password
 
+input-password-hide = Ocultar palavra-passe
+input-password-show = Mostrar palavra-passe
+input-password-hide-aria = Ocultar a palavra-passe do ecrã
+input-password-show-aria = Mostrar a palavra-passe como texto simples. A sua palavra-passe ficará visível no ecrã.
 
 ## Modal
 
@@ -180,6 +197,12 @@ modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Confirmar o seu e-mail
+mvs-enter-verification-code = Introduzir o seu código de confirmação
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Por favor, introduza o código de confirmação que foi enviado para <email>{ $email }</email> nos próximos 5 minutos.
 msv-cancel-button = Cancelar
 msv-submit-button = Confirmar
 
@@ -435,6 +458,8 @@ rk-remove-modal-heading = Remover chave de recuperação?
 rk-remove-modal-content =
     Na eventualidade de redefinir a sua palavra-passe, não conseguirá
     utilizar a sua chave de recuperação para aceder aos seus dados. Você não pode desfazer esta ação.
+rk-refresh-error = Pedimos desculpa, mas ocorreu um problema ao atualizar a chave de recuperação.
+rk-remove-error = Não foi possível remover a sua chave de recuperação de conta.
 
 ## Secondary email sub-section on main Settings page
 
