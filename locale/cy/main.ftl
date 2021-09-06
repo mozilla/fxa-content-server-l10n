@@ -41,7 +41,7 @@ card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn 
 
 ##  $productName (String) - The name of the subscribed product.
 
-fxa-account-signup-error = Achosodd gwall system i'ch mewngofnodi i ${ productName } fethu. Nid oes taliad wedi ei godi ar eich dull talu. Ceisiwch eto.
+fxa-account-signup-error-2 = Achosodd gwall system i'ch mewngofnodi i { $productName } fethu. Nid oes taliad wedi ei godi ar eich dull talu. Ceisiwch eto.
 newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst newyddion am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
 fxa-post-passwordless-sub-error = Cadarnhawyd eich tanysgrifiad, ond methodd y dudalen gadarnhau â llwytho. Gwiriwch eich e-bost i greu eich cyfrif.
 
@@ -122,7 +122,7 @@ product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
-payment-legal-link-stripe-space-paypal = Darllenwch <stripePrivacyLink>bolisi preifatrwydd { -brand-name-stripe }/stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>polisi preifatrwydd { -brand-name-stripe }/stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
 payment-legal-link-paypal-2 = Gweld polisi preifatrwydd <paypalPrivacyLink> { -brand-name-paypal } </paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
