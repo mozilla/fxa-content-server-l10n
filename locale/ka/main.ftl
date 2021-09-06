@@ -333,7 +333,7 @@ pay-update-manage-btn = მართვა
 
 ## subscription create
 
-sub-guarantee = 30-დღიანი თანხის დაბრუნებით
+sub-guarantee = 30-დღიანი ვადა თანხის დასაბრუნებლად
 pay-with-heading-other = აირჩიეთ გადახდის ვარიანტი
 pay-with-heading-card-or = ან გადაიხადეთ ბარათით
 pay-with-heading-card-only = ბარათით გადახდა
