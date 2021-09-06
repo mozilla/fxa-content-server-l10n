@@ -47,9 +47,20 @@ settings-home = Tepas Akun
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } maké { -brand-name-stripe } jeung { -brand-name-paypal } pikeun kaamanan prosés mayarna.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } kawijakan pripasi</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } kawijakan pripasi</paypalPrivacyLink>.
+payment-legal-copy-paypal = { -brand-name-mozilla } maké { -brand-name-paypal } pikeun kaamanan prosés mayarna.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } kawijakan pripasi</paypalPrivacyLink>.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } maké { -brand-name-stripe } pikeun kaamanan prosés mayarna.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } kawijakan pripasi</stripePrivacyLink>.
 
 ## payment form
 
+payment-name =
+    .placeholder = Ngaran Lengkep
+    .label = Ngaran luyu jeung kartu anjeun
+payment-cc =
+    .label = Kartu anjeun
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
