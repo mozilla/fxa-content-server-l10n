@@ -340,6 +340,8 @@ tfa-cannot-verify-code = Коткару кодыгызны тикшергәнд�
 tfa-incorrect-recovery-code = Хаталы коткару коды
 tfa-enabled = Ике адымлы аутентификация кабызылды
 tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Бу яшерен ачкычны аутентификация кушымтагызга кертегез:
 tfa-input-enter-totp =
     .label = Иминлек кодын кертегез
 tfa-enter-recovery-code =
@@ -410,6 +412,7 @@ se-set-primary-error = Гафу итегез, төп эл. почтагызны 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } уңышлы бетерелде
 se-delete-email-error = Гафу итегез, бу эл. почтаны бетергәндә хата килеп чыкты.
+se-verify-session = Бу гамәлне башкару өчен Сезгә хәзерге утырышыгызны раслау кирәк булачак.
 se-verify-session-error = Гафу итегез, сезнең сессияне тикшергәндә хата килеп чыкты.
 # Button to remove the secondary email
 se-remove-email =
@@ -449,6 +452,14 @@ tfa-row-change-modal-confirm = Үзгәртү
 auth-error-102 = Билгесез хисап
 auth-error-103 = Парол хаталы
 auth-error-110 = Хаталы токен
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Артык күп тапкыр тырышып карадыгыз. Зинһар, { $retryAfter } вакыт кичкәч, янәдән тырышыгыз.
 auth-error-138 = Расланмаган утырыш
 auth-error-155 = TOTP токен табылмады
 auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш
