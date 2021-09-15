@@ -31,9 +31,13 @@ payment-error-manage-subscription-button = Kokolakeun langganan kami
 ## settings
 
 settings-home = Tepas Akun
+settings-subscriptions-title = Langganan
 
 ## legal footer
 
+terms = Katangtuan Layanan
+privacy = Wawar Privasi
+terms-download = Undeur Katangtuan
 
 ## Subscription titles
 
@@ -44,6 +48,10 @@ settings-home = Tepas Akun
 
 ## Product route
 
+product-profile-error =
+    .title = Propil hésé dimuat
+product-customer-error =
+    .title = Konsumén hésé dimuat
 
 ## payment legal blurb
 
