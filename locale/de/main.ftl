@@ -296,7 +296,7 @@ reactivate-success-button = Schließen
 sub-item-missing = Problem beim Laden der Daueraufträge
 sub-item-missing-msg = Bitte versuchen Sie es später erneut.
 sub-item-no-such-plan = Für diesen Dauerauftrag existiert kein solcher Plan.
-sub-item-cancel-sub = Dauerauftrag entfernen
+sub-item-cancel-sub = Dauerauftrag stornieren
 sub-item-stay-sub = Dauerauftrag beibehalten
 sub-item-cancel-msg =
     Nach { $period }, dem letzten Tag Ihres Abrechnungszeitraums,
