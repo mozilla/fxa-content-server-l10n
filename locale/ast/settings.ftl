@@ -256,6 +256,15 @@ tfa-button-finish = Finar
 tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
 tfa-cannot-verify-code = Hebo un problema al verificar el códigu de recuperación.
 tfa-enabled = Activóse l'autenticación en dos pasos
+tfa-scan-this-code =
+    Escania esti códigu QR con <linkExternal>estes
+    aplicaciones d'autenticación</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Usa'l códigu { $secret } pa configurar la verificación en dos
+    pasos nes aplicaciones compatibles.
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 tfa-enter-totp = Agora introduz el códigu de seguranza de l'aplicación d'autenticación.
 
