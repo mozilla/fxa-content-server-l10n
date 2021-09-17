@@ -158,7 +158,7 @@ payment-confirm = Ich ermächtige Mozilla, Hersteller von Firefox-Produkten, gem
 
 ##
 
-payment-cancel-btn = Abbrechen
+payment-cancel-btn = Abonnement kündigen
 payment-update-btn = Aktualisieren
 payment-pay-btn = Jetzt bezahlen
 payment-pay-with-paypal-btn = Mit { -brand-name-paypal } bezahlen
