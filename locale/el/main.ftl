@@ -41,6 +41,8 @@ card-error = Δεν ήταν δυνατή η επεξεργασία της συ�
 
 ##  $productName (String) - The name of the subscribed product.
 
+newsletter-signup-error = Δεν έχετε εγγραφεί για email ενημέρωσης προϊόντων. Μπορείτε να δοκιμάσετε ξανά στις ρυθμίσεις του λογαριασμού σας.
+fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε, αλλά η φόρτωση της σελίδας επιβεβαίωσης απέτυχε. Παρακαλούμε ελέγξτε το email σας για να ρυθμίσετε τον λογαριασμό σας.
 
 ## settings
 
@@ -357,6 +359,7 @@ payment-confirmation-thanks-heading = Ευχαριστούμε!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα email επιβεβαίωσης στο { $email } με βασικές οδηγίες για τη λειτουργία του { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Ευχαριστούμε, τώρα ελέγξτε το email σας!
 
 ## $email (string) - The user's email.
 
