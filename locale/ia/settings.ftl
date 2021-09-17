@@ -486,7 +486,7 @@ se-refresh-email =
 se-unverified = non verificate
 se-resend-code =
     Verification necessari. <button>Reinviar le codice de verification</button> 
-    si illo non es in tu cassa de ingresso o plica de SPAM.
+    si illo non es in tu cassa de entrata o dossier de spam.
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
 se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
@@ -532,8 +532,10 @@ auth-error-110 = Token invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-138 = Session non verificate
 auth-error-155 = Token TOTP non trovate
