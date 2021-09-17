@@ -391,7 +391,7 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Usa le codice { $secret } pro configurar le authentication a duo passos in
      applicationes supportate.
-tfa-button-cant-scan-qr = Non pote tu scander le codice?
+tfa-button-cant-scan-qr = Non pote tu scannar le codice?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
 tfa-enter-totp = Ora insere le codice de securitate del application de authentication.
