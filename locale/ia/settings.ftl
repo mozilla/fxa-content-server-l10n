@@ -383,7 +383,7 @@ tfa-cannot-verify-code = Il habeva un problema a verificar tu codices de recuper
 tfa-incorrect-recovery-code = Codice de recuperation non correcte
 tfa-enabled = Authentication a duo-grados activate
 tfa-scan-this-code =
-    Scande iste codice QR per un de <linkExternal>iste
+    Scanna iste codice QR usante un de <linkExternal>iste
     applicationes de authentication</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
