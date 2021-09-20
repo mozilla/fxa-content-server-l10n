@@ -38,7 +38,12 @@ instant-payouts-unsupported = I para che tia carta da debit na saja betg configu
 duplicate-transaction = Hm. I para ch'ina transacziun identica saja gist vegnida tramessa. Controllescha tes extract dal conto.
 coupon-expired = I para che quest code da promoziun saja scadì.
 card-error = Impussibel dad elavurar tia transacziun. Verifitgescha per plaschair las datas da tia carta da credit ed emprova anc ina giada.
-fxa-signup-error = Igl ha dà in problem cun crear tes conto.   Emprova per plaschair pli tard anc ina giada.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error-2 = Ina errur dal sistem ha gì per consequenza ch'i n'è betg reussì dad abunar { $productName }. Tia metoda da pajament n'è betg vegnida debitada. Emprova per plaschair anc ina giada.
+newsletter-signup-error = Ti n'has betg abunà e-mails davart actualisaziuns dal product. Ti pos anc empruvar ina giada en ils parameters da tes conto.
+fxa-post-passwordless-sub-error = Tes abunament è confermà, ma i n'è betg reussì da chargiar la pagina da conferma. Controllescha per plaschair tes e-mails per endrizzar tes conto.
 
 ## settings
 
@@ -49,6 +54,7 @@ settings-subscriptions-title = Abunaments
 
 terms = Cundiziuns d'utilisaziun
 privacy = Infurmaziuns davart la protecziun da datas
+terms-download = Telechargiar las cundiziuns
 
 ## Subscription titles
 
@@ -100,11 +106,11 @@ product-no-such-plan = Nagin abunament correspundent per quest product.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } e { -brand-name-paypal } per l'elavuraziun segira dal pajament.
-payment-legal-link-stripe-and-paypal-2 = Consultar las directivas da la protecziun da datas <stripePrivacyLink>da { -brand-name-stripe }</stripePrivacyLink> e <paypalPrivacyLink>da { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utilisescha { -brand-name-paypal } per l'elavuraziun segira dal pajament.
-payment-legal-link-paypal = Consultar las <paypalPrivacyLink>directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Directivas da la protecziun da datas da { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilisescha { -brand-name-stripe } per l'elavuraziun segira da pajaments.
-payment-legal-link-stripe-2 = Consultar las <stripePrivacyLink>directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Directivas da la protecziun da datas da { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -348,11 +354,21 @@ payment-processing-message = Spetgar per plaschair fertant che nus elavurain il 
 payment-confirmation-alert = Clicca qua per telechargiar
 payment-confirmation-mobile-alert = L'app n'è betg s'averta? <a>Clicca qua</a>
 payment-confirmation-thanks-heading = Grazia fitg!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = In e-mail da conferma è vegnì tramess a { $email } cun infurmaziuns per ils emprims pass cun { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Grazia, controllescha ussa tes e-mails!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Ti retschaivas in e-mail sin { $email } cun instrucziuns per endrizzar tes conto, sco era tias datas da pajament.
 payment-confirmation-order-heading = Detagls da l'empustaziun
 payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
 payment-confirmation-billing-heading = Quint a:
-payment-confirmation-details-heading = Detagls dal pajament
+payment-confirmation-details-heading-2 = Infurmaziuns da pajament
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -387,6 +403,8 @@ payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
 ## new user email form
 
 new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
+new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
+new-user-step-2 = 2. Tscherner tia metoda da pajament
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Endatescha tia adressa d'e-mail
@@ -396,4 +414,6 @@ new-user-subscribe-product-updates = Jau vi retschaiver novitads davart products
 new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
 new-user-email-validate = L'e-mail n'è betg valid
 new-user-email-validate-confirm = Las adressas na correspundan betg
-new-user-existing-account-sign-in = Ti has gia in conto, <a>t'annunzia</a>
+new-user-already-has-account-sign-in = Ti has gia in conto. <a>T'annunzia</a>
+new-user-card-title = Endatescha las infurmaziuns da tia carta
+new-user-submit = Abunar ussa
