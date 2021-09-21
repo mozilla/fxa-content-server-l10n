@@ -22,8 +22,8 @@ close-aria =
 
 general-error-heading = Error general del application
 basic-error-message = Alco errate eveniva. Reproba plus tarde.
-payment-error-1 = Hmm. Il habeva un problema al autorisation de tu pagamento. Reproba o continge tu emissor de carta.
-payment-error-2 = Hmm. Il habeva un problema al autorisation de tu pagamento. Continge tu emissor de carta.
+payment-error-1 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Reproba o contacta tu emissor de carta.
+payment-error-2 = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
 payment-error-3b = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 payment-error-retry-button = Retentar
 payment-error-manage-subscription-button = Gerer mi subscription
