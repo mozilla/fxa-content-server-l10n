@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-09-17 20:02+0000\n"
+"PO-Revision-Date: 2021-09-21 02:38+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -739,7 +739,7 @@ msgstr "Ager pro mantener Internet in bon sanitate"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr "Securitate e confidentialitate online con Firefox e Mozilla"
+msgstr "Securitate e confidentialitate in linea con Firefox e Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
