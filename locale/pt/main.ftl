@@ -29,7 +29,7 @@ payment-error-retry-button = Tentar novamente
 payment-error-manage-subscription-button = Gerir a minha subscrição
 country-currency-mismatch = A moeda desta subscrição não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Pedimos desculpa. Não pode alternar entre moedas.
-no-subscription-upgrades = Pedimos desculpa, mas não pode valorizar ou desvalorizar a sua assinatura neste momento. Por favor, tente novamente mais tarde.
+no-subscription-change = Lamentamos mas não pode alterar o seu plano de subscrição.
 expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá o seu limite de crédito. Tente outro cartão.
@@ -38,6 +38,12 @@ instant-payouts-unsupported = Parece que o seu cartão de débito não está con
 duplicate-transaction = Hmm. Parece que uma transação idêntica acabou de ser enviada. Verifique o seu histórico de pagamentos.
 coupon-expired = Parece que este código promocional expirou.
 card-error = Não foi possível processar sua transação. Verifique as informações do seu cartão de crédito e tente novamente.
+
+##  $productName (String) - The name of the subscribed product.
+
+fxa-account-signup-error-2 = Um erro de sistema fez com que a sua subscrição no(a) { $productName } falhasse. Não houve cobrança no seu método de pagamento. Por favor, tente novamente.
+newsletter-signup-error = Não subscreveu a quaisquer e-mails de atualizações do produto. Pode tentar novamente nas definições da sua conta.
+fxa-post-passwordless-sub-error = Subscrição confirmada, mas o carregamento da página de confirmação falhou. Por favor, consulte o seu e-mail para configurar a sua conta.
 
 ## settings
 
@@ -48,6 +54,7 @@ settings-subscriptions-title = Subscrições
 
 terms = Termos do serviço
 privacy = Política de privacidade
+terms-download = Termos da transferência
 
 ## Subscription titles
 
@@ -55,7 +62,7 @@ subscription-create-title = Configurar a sua subscrição.
 subscription-success-title = Confirmação de subscrição
 subscription-processing-title = A confirmar a subscrição...
 subscription-error-title = Erro ao confirmar a subscrição...
-subscription-noupgrade-title = Não são suportadas alterações ao nível da subscrição
+subscription-noplanchange-title = Esta alteração do plano de subscrição não é suportada
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -99,11 +106,11 @@ product-no-such-plan = Não existe esse plano para este produto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } utiliza o { -brand-name-stripe } e o { -brand-name-paypal } para processar pagamentos de forma segura.
-payment-legal-link-stripe-and-paypal-2 = Consulte a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink> e a <paypalPrivacyLink> política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } utiliza o { -brand-name-paypal } para processar pagamentos de forma segura.
-payment-legal-link-paypal = Consulte a <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utiliza o { -brand-name-stripe } para processar pagamentos de forma segura.
-payment-legal-link-stripe-2 = Veja a <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
+payment-legal-link-stripe-3 = <stripePrivacyLink>política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -154,6 +161,7 @@ payment-confirm = Eu autorizo a Mozilla, criadora dos produtos Firefox, a cobrar
 payment-cancel-btn = Cancelar
 payment-update-btn = Atualizar
 payment-pay-btn = Pagar agora
+payment-pay-with-paypal-btn = Pagar com { -brand-name-paypal }
 payment-validate-name-error = Por favor, insira o seu nome
 payment-validate-zip-required = O código postal é obrigátorio
 payment-validate-zip-short = O código postal é muito pequeno
@@ -171,8 +179,8 @@ input-error-is-required = { $label } é necessário
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Reveja a sua atualização
-sub-update-failed = Falha na atualização do plano
+product-plan-change-heading = Rever a sua alteração
+sub-change-failed = A alteração do plano falhou
 sub-update-payment-title = Informação de pagamento
 sub-update-card-exp = Expira em { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -180,38 +188,11 @@ sub-update-copy =
     durante o resto do seu ciclo de pagamento. A partir de { $startingDate }
     você será cobrado o valor total.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as { $intervalCount } semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-
 ##
 
-sub-update-submit = Confirmar atualização
-sub-update-indicator =
-    .aria-label = indicador de atualização
+sub-change-submit = Confirmar alteração
+sub-change-indicator =
+    .aria-label = indicador de alteração
 sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
@@ -373,11 +354,21 @@ payment-processing-message = Por favor, aguarde enquanto processamos o seu pagam
 payment-confirmation-alert = Clique aqui para descarregar
 payment-confirmation-mobile-alert = A aplicação não abriu? <a>Clique aqui</a>
 payment-confirmation-thanks-heading = Obrigado!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Foi enviado um e-mail de confirmação para { $email } com detalhes sobre como começar a utilizar o { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Obrigado, agora consulte o seu email!
+
+## $email (string) - The user's email.
+
+payment-confirmation-thanks-subheading-account-exists = Irá receber um e-mail em { $email } com instruções para configurar a sua conta, bem como os seus detalhes de pagamento.
 payment-confirmation-order-heading = Detalhes de compra
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Debitado a
-payment-confirmation-details-heading = Detalhes de pagamento
+payment-confirmation-details-heading-2 = Informação de pagamento
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -408,3 +399,21 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuar para descarregar
 payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
+
+## new user email form
+
+new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie sessão</a>
+new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
+new-user-step-2 = 2. Escolha o seu método de pagamento
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Introduza o seu e-mail
+new-user-confirm-email =
+    .label = Confirme o seu e-mail
+new-user-subscribe-product-updates = Eu gostaria de receber atualizações do produto do { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
+new-user-email-validate = O e-mail não é válido
+new-user-email-validate-confirm = Os e-mails não coincidem
+new-user-already-has-account-sign-in = Já tem uma conta. <a>Inicie sessão</a>
+new-user-card-title = Introduza a informação do seu cartão
+new-user-submit = Subscrever agora
