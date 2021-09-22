@@ -97,7 +97,7 @@ cs-cannot-disconnect = Không tìm thấy ứng dụng khách, không ngắt k�
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Đã đăng xuất khỏi { $service }.
 cs-refresh-button =
-    .title = Tải lại dịch vụ đã kết nối.
+    .title = Tải lại dịch vụ đã kết nối
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Các mục bị thiếu hoặc trùng lặp?
 cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
@@ -536,8 +536,10 @@ auth-error-110 = Mã không hợp lệ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
 auth-error-138 = Phiên chưa được xác minh
 auth-error-155 = Không tìm thấy token TOTP
