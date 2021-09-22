@@ -13,7 +13,7 @@ jobs:
 
             openssl aes-256-cbc -md md5 -d -in secret-env-cipher -k $KEY >> ~/.circlerc
             sudo apt-get update; sudo apt-get install gettext graphicsmagick
-            sudo npm install -g grunt-cli gh@1.12.14
+            sudo npm install -g grunt-cli gh@2.8.9
             source ~/.circlerc
             GITHUB_TOKEN=$GITHUB_TOKEN GITHUB_USER=$GITHUB_USER node scripts/ci-creds.js
             mkdir -p ~/.config/configstore/
