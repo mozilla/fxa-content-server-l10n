@@ -38,6 +38,8 @@
 
 # BentoMenu component
 
+bento-menu-firefox-desktop = { -brand-firefox } Panyungsi keur Déstop
+bento-menu-firefox-mobile = { -brand-firefox } Panyungsi keur Sélulér
 
 ## Connect another device promo
 
