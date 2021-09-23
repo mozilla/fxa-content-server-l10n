@@ -387,6 +387,10 @@ payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
 new-user-step-1 = 1. 创建 { -brand-name-firefox } 账户
 new-user-step-2 = 2. 选择付款方式
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = 须同意
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = 输入您的电子邮件地址
