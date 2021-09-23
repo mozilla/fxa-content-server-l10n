@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 new-user-sign-in-link = ¿Erekóma mba’ete { -brand-name-firefox } pegua? <a>Eñepyrũ tembiapo</a>
 new-user-step-1 = 1. Emoheñói mba’ete { -brand-name-firefox }-pe
 new-user-step-2 = 2. Eiporavo mba’éichapa ehepyme’ẽta
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Tekotevẽva
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ehai ne ñanduti veve
