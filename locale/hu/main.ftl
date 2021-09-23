@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
 new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
 new-user-step-2 = 2. Válassza ki a fizetési módot
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Kötelező
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Adja meg az e-mail-címét
