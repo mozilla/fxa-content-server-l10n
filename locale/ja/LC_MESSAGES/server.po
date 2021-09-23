@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-02 22:06+0000\n"
+"POT-Creation-Date: 2021-09-22 18:14+0000\n"
 "PO-Revision-Date: 2021-09-05 02:36+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1423120631.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2875
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2840
 msgid "Here's your reminder to sync devices."
 msgstr ""
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2879
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2844
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2876
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2841
 msgid "Last reminder to sync devices!"
 msgstr ""
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2882
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2847
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr "あなたの回復用コードは残り少なくなっているようで
 msgid "Generate codes:"
 msgstr "コードを生成:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1338
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1303
 msgid "New sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログイン"
 
@@ -87,13 +87,11 @@ msgstr "Firefox アカウントを使用している端末またはサービス�
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
 msgstr "<b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。"
 
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5 lib/senders/templates/passwordResetRequired.html:7
-#: lib/senders/templates/passwordResetRequired.txt:7
+#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
 msgid "Best,"
 msgstr "ご利用ありがとうございます"
 
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6 lib/senders/templates/passwordResetRequired.html:8
-#: lib/senders/templates/passwordResetRequired.txt:8
+#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
 msgid "The Firefox Accounts team"
 msgstr "Firefox アカウントチーム"
 
@@ -149,32 +147,7 @@ msgstr "新しい回復用キーを作成:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "詳しい情報は %(supportUrl)s をご覧ください。"
 
-#: lib/senders/templates/passwordResetRequired.html:1 lib/senders/templates/passwordResetRequired.txt:1
-msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-msgstr "あなたの Firefox アカウントで不審なアクティビティが検出されました。アカウントが危険にさらされている可能性があります。"
-
-#: lib/senders/templates/passwordResetRequired.html:2 lib/senders/templates/passwordResetRequired.txt:2
-msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-msgstr "今後 Firefox アカウントへの不正アクセスを防ぐためにパスワードがリセットされましたので、念のためお知らせします。"
-
-#: lib/senders/templates/passwordResetRequired.html:3 lib/senders/templates/passwordResetRequired.txt:3
-msgid "What should you do?"
-msgstr "やるべきこと"
-
-#: lib/senders/templates/passwordResetRequired.html:4 lib/senders/templates/passwordResetRequired.txt:4
-msgid "First, change your Firefox Account password."
-msgstr "まず、Firefox アカウントのパスワードを変更します。"
-
-#: lib/senders/templates/passwordResetRequired.html:5 lib/senders/templates/passwordResetRequired.txt:5
-msgid ""
-"Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
-msgstr "次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアクティビティがないか確認してください。"
-
-#: lib/senders/templates/passwordResetRequired.html:6 lib/senders/templates/passwordResetRequired.txt:6
-msgid "Learn how to see what passwords Firefox is storing for you."
-msgstr "Firefox がどのパスワードを保存しているか確認する方法はこちらです。"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1774
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1739
 msgid "Account recovery key generated"
 msgstr "アカウント回復用キーが生成されました"
 
@@ -232,7 +205,7 @@ msgstr "次の端末から回復用コードの使用が完了しました:"
 msgid "Consumed recovery code"
 msgstr "使用された回復用コード"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1630
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1595
 msgid "New recovery codes generated"
 msgstr "新しい回復用コードが生成されました"
 
@@ -240,7 +213,7 @@ msgstr "新しい回復用コードが生成されました"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "次の端末から新しい回復用コードの生成が完了しました:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1824
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1789
 msgid "Account recovery key removed"
 msgstr "アカウント回復用キーが削除されました"
 
@@ -256,7 +229,7 @@ msgstr "この回復用キーはもはやあなたのアカウントの回復に
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "以下の端末からあなたの Firefox アカウントの回復用キーの削除が完了しました:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1502
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1467
 msgid "Secondary email removed"
 msgstr "予備アドレスが削除されました"
 
@@ -292,7 +265,7 @@ msgstr ""
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr ""
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1384
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1349
 msgid "Set up next device"
 msgstr ""
 
@@ -300,7 +273,7 @@ msgstr ""
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "ご質問はこちらから: %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1430
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1395
 msgid "Secondary email added"
 msgstr "予備のメールアドレスが追加されました"
 
@@ -316,7 +289,7 @@ msgstr "パスワード変更の必要がありますか？"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "1 時間以内にボタンをクリックして新しいパスワードを設定してください。このリクエストは次の端末から行われました:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1152
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1144
 msgid "Create new password"
 msgstr "新しいパスワードを設定"
 
@@ -341,7 +314,7 @@ msgstr ""
 msgid "Please help us improve our services by taking this short survey:"
 msgstr ""
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2844
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2809
 msgid "Welcome to %(productName)s"
 msgstr "%(productName)s へようこそ"
 
@@ -511,7 +484,9 @@ msgstr "拝啓、%(productName)s のお客様へ"
 msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr "現在のサブスクリプションはあと %(reminderLength)s 日で自動的に更新されるよう設定されています。更新時に、Mozilla は %(planIntervalCount)s %(planInterval)s のサブスクリプションを更新し、%(invoiceTotal)s の料金があなたのアカウントの支払い方法に適用されます。"
+msgstr ""
+"現在のサブスクリプションはあと %(reminderLength)s 日で自動的に更新されるよう設定されています。更新時に、Mozilla は %(planIntervalCount)s %(planInterval)s のサブスクリプションを更新"
+"し、%(invoiceTotal)s の料金があなたのアカウントの支払い方法に適用されます。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
@@ -521,7 +496,8 @@ msgstr "現在のお支払い方法とアカウント情報は <a href=\"%(updat
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
-msgstr "%(productName)s にご登録いただきありがとうございます。%(productName)s のサブスクリプションや他の情報についての質問は、<a href=\"%(subscriptionSupportUrl)s\">こちらからお問い合わせください</a>。"
+msgstr ""
+"%(productName)s にご登録いただきありがとうございます。%(productName)s のサブスクリプションや他の情報についての質問は、<a href=\"%(subscriptionSupportUrl)s\">こちらからお問い合わせください</a>。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
@@ -637,7 +613,7 @@ msgstr ""
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "念のため、次の端末からのログインを確認してください:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:841
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:833
 msgid "Confirm sign-in"
 msgstr "ログインを確認"
 
@@ -825,200 +801,200 @@ msgstr ""
 msgid "Update billing information:"
 msgstr "支払い情報を更新:"
 
-#: lib/senders/email.js:340
+#: lib/senders/email.js:338
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s / %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:345
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s / %(uaOS)s"
 
-#: lib/senders/email.js:371
+#: lib/senders/email.js:369
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s、%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:378
+#: lib/senders/email.js:376
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s、%(city)s (おおよその位置)"
 
-#: lib/senders/email.js:383
+#: lib/senders/email.js:381
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s、%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:388
+#: lib/senders/email.js:386
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (おおよその位置)"
 
-#: lib/senders/email.js:590
+#: lib/senders/email.js:582
 msgid "Finish creating your account"
 msgstr "アカウント作成を完了してください"
 
-#: lib/senders/email.js:591 lib/senders/email.js:728
+#: lib/senders/email.js:583 lib/senders/email.js:720
 msgid "Confirm email"
 msgstr "メールアドレス確認"
 
-#: lib/senders/email.js:658
+#: lib/senders/email.js:650
 msgid "Verification code: %(code)s"
 msgstr "確認コード: %(code)s"
 
-#: lib/senders/email.js:708
+#: lib/senders/email.js:700
 msgid "Reminder: Finish creating your account"
 msgstr "通知: アカウント作成を完了してください"
 
-#: lib/senders/email.js:710
+#: lib/senders/email.js:702
 msgid "Final reminder: Activate your account"
 msgstr "最終通知：アカウントを有効にしてください"
 
-#: lib/senders/email.js:765
+#: lib/senders/email.js:757
 msgid "Account authorization code"
 msgstr "アカウントの認証コード"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:830
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "%(clientName)s への新規ログインを確認"
 
-#: lib/senders/email.js:887
+#: lib/senders/email.js:879
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s のログインコード"
 
-#: lib/senders/email.js:956
+#: lib/senders/email.js:948
 msgid "Confirm primary email"
 msgstr "優先メールアドレス確認"
 
-#: lib/senders/email.js:957 lib/senders/email.js:1020 lib/senders/email.js:1092
+#: lib/senders/email.js:949 lib/senders/email.js:1012 lib/senders/email.js:1084
 msgid "Verify email"
 msgstr "メールアドレスの確認"
 
-#: lib/senders/email.js:1019 lib/senders/email.js:1091
+#: lib/senders/email.js:1011 lib/senders/email.js:1083
 msgid "Confirm secondary email"
 msgstr "予備メールアドレスの確認"
 
-#: lib/senders/email.js:1151
+#: lib/senders/email.js:1143
 msgid "Reset your password"
 msgstr "パスワードをリセットしました"
 
-#: lib/senders/email.js:1197 lib/senders/email.js:1267
+#: lib/senders/email.js:1189 lib/senders/email.js:1260
 msgid "Password updated"
 msgstr "パスワードを更新しました"
 
-#: lib/senders/email.js:1239 lib/senders/email.js:1297
+#: lib/senders/email.js:1231
 msgid "Suspicious activity detected"
 msgstr "疑わしいアクティビティが検出されました"
 
-#: lib/senders/email.js:1339 lib/senders/email.js:1431 lib/senders/email.js:1467 lib/senders/email.js:1503 lib/senders/email.js:1537 lib/senders/email.js:1584 lib/senders/email.js:1631
-#: lib/senders/email.js:1678 lib/senders/email.js:1775 lib/senders/email.js:1825
+#: lib/senders/email.js:1304 lib/senders/email.js:1396 lib/senders/email.js:1432 lib/senders/email.js:1468 lib/senders/email.js:1502 lib/senders/email.js:1549 lib/senders/email.js:1596
+#: lib/senders/email.js:1643 lib/senders/email.js:1740 lib/senders/email.js:1790
 msgid "Manage account"
 msgstr "アカウント管理"
 
-#: lib/senders/email.js:1379
+#: lib/senders/email.js:1344
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr ""
 
-#: lib/senders/email.js:1466
+#: lib/senders/email.js:1431
 msgid "Primary email updated"
 msgstr "主要アドレスが更新されました"
 
-#: lib/senders/email.js:1536
+#: lib/senders/email.js:1501
 msgid "Two-step verification enabled"
 msgstr "2 段階認証が有効です"
 
-#: lib/senders/email.js:1583
+#: lib/senders/email.js:1548
 msgid "Two-step verification is off"
 msgstr "2 段階認証が設定されていません"
 
-#: lib/senders/email.js:1677
+#: lib/senders/email.js:1642
 msgid "Recovery code used"
 msgstr ""
 
-#: lib/senders/email.js:1737
+#: lib/senders/email.js:1702
 msgid "1 recovery code remaining"
 msgstr ""
 
-#: lib/senders/email.js:1739
+#: lib/senders/email.js:1704
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr ""
 
-#: lib/senders/email.js:1742
+#: lib/senders/email.js:1707
 msgid "Generate codes"
 msgstr "コードを生成"
 
-#: lib/senders/email.js:1874
+#: lib/senders/email.js:1839
 msgid "Password updated using recovery key"
 msgstr "回復用キーでパスワードが更新されました"
 
-#: lib/senders/email.js:1875
+#: lib/senders/email.js:1840
 msgid "Create new recovery key"
 msgstr "新しい回復用キーを作成"
 
-#: lib/senders/email.js:1961
+#: lib/senders/email.js:1926
 msgid "Create a password"
 msgstr ""
 
-#: lib/senders/email.js:1964
+#: lib/senders/email.js:1929
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr ""
 
-#: lib/senders/email.js:2037
+#: lib/senders/email.js:2002
 msgid "You have upgraded to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:2116
+#: lib/senders/email.js:2081
 msgid "You have switched to %(productNameNew)s"
 msgstr ""
 
-#: lib/senders/email.js:2181
+#: lib/senders/email.js:2146
 msgid "Credit card for %(productName)s expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2195
+#: lib/senders/email.js:2160
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr ""
 
-#: lib/senders/email.js:2246
+#: lib/senders/email.js:2211
 msgid "Payment information update required for %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2262
+#: lib/senders/email.js:2227
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr ""
 
-#: lib/senders/email.js:2308
+#: lib/senders/email.js:2273
 msgid "%(productName)s payment failed"
 msgstr ""
 
-#: lib/senders/email.js:2359 lib/senders/email.js:2424 lib/senders/email.js:2485
+#: lib/senders/email.js:2324 lib/senders/email.js:2389 lib/senders/email.js:2450
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr ""
 
-#: lib/senders/email.js:2542
+#: lib/senders/email.js:2507
 msgid "%(productName)s subscription reactivated"
 msgstr ""
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2563
 msgid "%(productName)s automatic renewal notice"
 msgstr ""
 
-#: lib/senders/email.js:2678
+#: lib/senders/email.js:2643
 msgid "%(productName)s payment received"
 msgstr ""
 
-#: lib/senders/email.js:2770
+#: lib/senders/email.js:2735
 msgid "%(productName)s payment confirmed"
 msgstr ""
 
-#: lib/senders/email.js:2845
+#: lib/senders/email.js:2810
 msgid "Download %(productName)s"
 msgstr "%(productName)s をダウンロード"
 
-#: lib/senders/email.js:2871
+#: lib/senders/email.js:2836
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2872
+#: lib/senders/email.js:2837
 msgid "Final Reminder: Complete Sync Setup"
 msgstr ""
 
-#: lib/senders/email.js:2886
+#: lib/senders/email.js:2851
 msgid "Sync another device"
 msgstr ""
 
@@ -1098,6 +1074,28 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "最新バージョンをダウンロードする"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "あなたの Firefox アカウントで不審なアクティビティが検出されました。アカウントが危険にさらされている可能性があります。"
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "今後 Firefox アカウントへの不正アクセスを防ぐためにパスワードがリセットされましたので、念のためお知らせします。"
+
+#~ msgid "What should you do?"
+#~ msgstr "やるべきこと"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "まず、Firefox アカウントのパスワードを変更します。"
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "次に、Firefox がウェブサイトのパスワードを保存している場合は、これらのパスワードも変更してください。攻撃者はこれらのパスワードにもアクセスできる可能性があるので、これらのアカウントで不審なアク"
+#~ "ティビティがないか確認してください。"
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Firefox がどのパスワードを保存しているか確認する方法はこちらです。"
 
 #~ msgid "If yes, use this verification code:"
 #~ msgstr "はいの場合、この確認コードを使用してください:"
@@ -1207,12 +1205,14 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr "あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の Firefox など他の端末から Sync へログインできます。"
+#~ msgstr ""
+#~ "あなたの Firefox アカウントへ最初の端末が接続されました。今後、<a href='%(androidUrl)s'>Android 版</a> や <a href='%(iosUrl)s'>iOS 版</a> の Firefox など他の端末から Sync へログインできます。"
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
-#~ msgstr "あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
+#~ msgstr ""
+#~ "あなたの Firefox アカウントへ最初の端末が接続されました。Sync を最大限活用するには、<a href='%(androidUrl)s'>Android 版 Firefox</a> か <a href='%(iosUrl)s'>iOS 版 Firefox</a> を接続してください。"
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Sync へログイン"
@@ -1338,12 +1338,16 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgstr "パスワードをリセット"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
-#~ msgstr "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスできるようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "あなたは数日前に Firefox アカウントを作成されましたが、まだ確認を済ませていません。アカウントの確認が完了すると、接続されているあらゆる端末から、タブやブックマーク、パスワード、履歴にアクセスでき"
+#~ "るようになります。アカウントはこのメールアドレスを確認するだけで有効化されます。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+#~ msgstr ""
+#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ確認を済ませていません。私たちはあなたのことが気に掛かっています。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無"
+#~ "事を知らせてください。"
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "念のため、この端末との同期を開始する前にログインを確認してください:"
@@ -1366,7 +1370,8 @@ msgstr "最新バージョンをダウンロードする"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "あなたの Firefox アカウントの予備アドレス %(secondaryEmail)s を削除しました。セキュリティ通知やログイン確認は今後このアドレスには送られなくなります。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s を Firefox アカウントの予備アドレスとして確認できました。今後はセキュリティ通知やログイン確認を両方のメールアドレスにお送りします。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1451,8 +1456,8 @@ msgstr "最新バージョンをダウンロードする"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。Firefox "
-#~ "のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
+#~ "あなたは 1 週間前に Firefox アカウントを作成しましたが、まだ認証を済ませていません。私たちはあなたのことが気に掛かっています。Firefox は、Windows、Mac、Linux、Android、iOS に対応しています。"
+#~ "Firefox のパスワードやブックマーク、履歴をそれらすべての端末で同期できます。このメールアドレスを確認してアカウントを有効化し、私たちにあなたの無事を知らせてください。"
 
 #~ msgid "env"
 #~ msgstr "env"

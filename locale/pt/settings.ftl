@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Fechar mensagem
 
 ## Firefox and Mozilla Brand
 ##
@@ -28,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Conta Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -62,6 +64,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menu Bento { -brand-firefox }
+bento-menu-firefox-title = O { -brand-firefox } é tecnologia que luta pela sua privacidade na Internet.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
+bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
+bento-menu-made-by-mozilla = Criado pela { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -142,9 +152,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Autenticado como </signin><user>{ $user }</user>
+drop-down-menu-sign-out = Terminar sessão
+drop-down-menu-sign-out-error = Pedimos desculpa, mas ocorreu um problema ao terminar a sua sessão.
 
 ## Flow Container
 
+flow-container-back = Voltar
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -167,12 +185,26 @@ header-help = Ajuda
 
 ## Input Password
 
+input-password-hide = Ocultar palavra-passe
+input-password-show = Mostrar palavra-passe
+input-password-hide-aria = Ocultar a palavra-passe do ecrã
+input-password-show-aria = Mostrar a palavra-passe como texto simples. A sua palavra-passe ficará visível no ecrã.
 
 ## Modal
 
+modal-close-title = Fechar
+modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Confirmar o seu e-mail
+mvs-enter-verification-code = Introduzir o seu código de confirmação
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Por favor, introduza o código de confirmação que foi enviado para <email>{ $email }</email> nos próximos 5 minutos.
+msv-cancel-button = Cancelar
+msv-submit-button = Confirmar
 
 ## Settings Nav
 
@@ -206,14 +238,15 @@ avatar-page-remove-photo = Remover foto
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Tirar foto novamente
+avatar-page-cancel-button = Cancelar
 avatar-page-save-button = Guardar
 avatar-page-saving-button = A guardar…
 avatar-page-zoom-out-button =
-  .title = Reduzir
+    .title = Reduzir
 avatar-page-zoom-in-button =
-  .title = Ampliar
+    .title = Ampliar
 avatar-page-rotate-button =
-  .title = Rodar
+    .title = Rodar
 avatar-page-camera-error = Não foi possível iniciar a câmara
 avatar-page-new-avatar =
     .alt = nova imagem de perfil
@@ -380,6 +413,8 @@ tfa-enter-recovery-code =
 ## Profile section
 
 profile-heading = Perfil
+profile-picture =
+    .header = Imagem
 profile-display-name =
     .header = Nome de apresentação
 profile-password =
@@ -407,6 +442,8 @@ row-defaults-status = Nenhum
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Chave de recuperação
+rk-enabled = Ativada
 rk-not-set = Não definida
 rk-action-create = Criar
 rk-action-remove = Remover
@@ -421,6 +458,8 @@ rk-remove-modal-heading = Remover chave de recuperação?
 rk-remove-modal-content =
     Na eventualidade de redefinir a sua palavra-passe, não conseguirá
     utilizar a sua chave de recuperação para aceder aos seus dados. Você não pode desfazer esta ação.
+rk-refresh-error = Pedimos desculpa, mas ocorreu um problema ao atualizar a chave de recuperação.
+rk-remove-error = Não foi possível remover a sua chave de recuperação de conta.
 
 ## Secondary email sub-section on main Settings page
 
@@ -462,6 +501,7 @@ se-content-note =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autenticação de dois passos
 tfa-row-disabled = Autenticação de dois passos desativada.
 tfa-row-enabled = Ativado
 tfa-row-not-set = Não definida
@@ -491,6 +531,14 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
 auth-error-110 = Código inválido
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Tentou demasiadas vezes. Tente novamente depois de { $retryAfter }.
 auth-error-138 = Sessão não-confirmada
 auth-error-155 = Código TOTP não encontrado
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente

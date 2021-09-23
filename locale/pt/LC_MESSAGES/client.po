@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-02 22:06+0000\n"
-"PO-Revision-Date: 2021-06-08 23:12+0000\n"
+"POT-Creation-Date: 2021-09-22 18:14+0000\n"
+"PO-Revision-Date: 2021-09-05 20:38+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -972,6 +972,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
+"<span>LEMBRE-SE:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto é porque nós "
+"encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1322,6 +1324,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
+"<span>NOTA:</span> Quando repõe a sua palavra-passe, repõe a sua conta. Pode perder alguma da sua informação pessoal (incluindo histórico, marcadores, e palavras-passe). Isto é porque nós "
+"encriptamos os seus dados com a sua palavra-passe para proteger a sua privacidade. Irá continuar a manter quaisquer subscrições que tenha."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1602,11 +1606,11 @@ msgstr "Associado com sucesso"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Por favor, feche esta página e continue no outro dispositivo."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Novo início de sessão no Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1614,23 +1618,23 @@ msgstr "Confirmar início de sessão"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Se suspeita que alguém está a tentar obter acesso à sua conta, <a id=\"change-password\" href=\"/settings/change_password\">por favor, altere a sua palavra-passe</a>."
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Enviar notificação imediata de autenticação"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Consulte os seus dispositivos associados ao Firefox para aceder ao separador de confirmação da autenticação que enviámos."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Reenviar separador"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "O separador não está a chegar? Como alternativa, envie um e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1702,15 +1706,15 @@ msgstr "Subscrever %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "A ligação na qual clicou tinha carateres em falta e pode ter sido danificada pelo seu cliente de e-mail."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Continuar para %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Introduza uma palavra-passe"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1719,7 +1723,7 @@ msgstr "Confirmar palavra-passe"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Criar palavra-passe"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
