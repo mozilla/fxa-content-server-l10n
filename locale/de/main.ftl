@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
 new-user-sign-in-link = Sie haben bereits einen { -brand-name-firefox } Account? <a>Melden Sie sich an</a>
 new-user-step-1 = 1. Erstellen Sie einen { -brand-name-firefox } Account
 new-user-step-2 = 2. Wählen Sie Ihre Zahlungsmethode
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Erforderlich
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ihre E-Mail-Adresse
