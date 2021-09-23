@@ -423,6 +423,10 @@ payment-confirmation-cc-card-ending-in = Картка, номер якої за�
 new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
 new-user-step-1 = 1. Створіть обліковий запис { -brand-name-firefox }
 new-user-step-2 = 2. Виберіть спосіб оплати
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Обов'язково
 new-user-email =
     .placeholder = foxy@mozilla.comfoxy@mozilla.com
     .label = Введіть адресу своєї е-пошти
