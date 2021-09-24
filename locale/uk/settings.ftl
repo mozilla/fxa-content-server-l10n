@@ -551,10 +551,10 @@ se-resend-code =
     якщо його немає у вашій поштовій скриньці чи спамі.
 # Button to make secondary email the primary
 se-make-primary = Зробити основною
-se-default-content = Доступ до облікового запису, якщо ви не можете увійти з основною е-поштою.
+se-default-content = Доступ до облікового запису, якщо ви не можете увійти за допомогою основної е-пошти.
 se-content-note =
-    Примітка: додаткова адреса е-пошти не дозволяє відновити вашу інформацію.
-    Вам знадобиться для цього <a>ключ відновлення</a>.
+    Примітка: додаткова адреса е-пошти не дає змогу відновити вашу інформацію.
+    Для цього вам знадобиться <a>ключ відновлення</a>.
 
 ##
 
@@ -594,8 +594,10 @@ auth-error-110 = Недійсний код
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
 auth-error-138 = Непідтверджений сеанс
 auth-error-155 = TOTP-код не знайдено
