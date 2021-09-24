@@ -550,6 +550,14 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
 auth-error-110 = Neveljaven žeton
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-138 = Nepreverjena seja
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-1008 = Novo geslo mora biti drugačno
