@@ -385,6 +385,10 @@ payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
 new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
 new-user-step-2 = 2. Chọn phương thức thanh toán của bạn
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Bắt buộc
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Nhập địa chỉ email của bạn
