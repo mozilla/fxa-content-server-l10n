@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
 new-user-step-1 = 1. Skapa ett { -brand-name-firefox }-konto
 new-user-step-2 = 2. Välj din betalningsmetod
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Krävs
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Ange din e-postadress
