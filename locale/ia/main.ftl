@@ -395,6 +395,10 @@ payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 new-user-sign-in-link = Ha tu jam un conto { -brand-name-firefox }? <a>Accede</a>
 new-user-step-1 = 1. Crea un conto { -brand-name-firefox }
 new-user-step-2 = 2. Elige tu methodo de pagamento
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Necessari
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Insere tu email
