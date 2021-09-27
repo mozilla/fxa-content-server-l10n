@@ -503,6 +503,10 @@ payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
 new-user-step-1 = 1. Vytvořte si účet { -brand-name-firefox(case: "gen") }
 new-user-step-2 = 2. Vyberte způsob platby
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Povinné
 new-user-email =
     .placeholder = foxy@example.com
     .label = Zadejte svou e-mailovou adresu
