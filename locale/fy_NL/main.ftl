@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanmelde</a>
 new-user-step-1 = 1. Meitsje in { -brand-name-firefox }-account oan
 new-user-step-2 = 2. Kies jo betellingsmetoade
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Fereaske
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Fier jo e-mailadres yn
