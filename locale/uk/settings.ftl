@@ -241,9 +241,9 @@ header-help = Допомога
 
 ## Input Password
 
-input-password-hide = Приховати пароль
+input-password-hide = Сховати пароль
 input-password-show = Показати пароль
-input-password-hide-aria = Приховати пароль з екрана.
+input-password-hide-aria = Сховати пароль з екрана.
 input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
 
 ## Modal

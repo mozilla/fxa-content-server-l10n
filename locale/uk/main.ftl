@@ -356,7 +356,7 @@ pay-with-heading-card-only = Сплатити карткою
 
 plan-details-header = Докладніше про продукт
 plan-details-show-button = Докладніше
-plan-details-hide-button = Приховати подробиці
+plan-details-hide-button = Сховати подробиці
 plan-details-total-label = Всього
 
 ## payment-processing
