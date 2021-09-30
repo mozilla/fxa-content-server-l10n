@@ -345,6 +345,7 @@ recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Step 1 of 2
 add-secondary-email-error = There was a problem creating this email.
 add-secondary-email-page-title =
   .title = Secondary email
@@ -357,6 +358,7 @@ add-secondary-email-save-button = Save
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Step 2 of 2
 verify-secondary-email-error = There was a problem sending the verification code.
 verify-secondary-email-page-title =
   .title = Secondary email
