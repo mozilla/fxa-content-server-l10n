@@ -319,6 +319,7 @@ recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Step 1 of 2
 add-secondary-email-error = There was a problem creating this email.
 add-secondary-email-page-title =
     .title = Secondary email
@@ -332,6 +333,7 @@ add-secondary-email-save-button = Save
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Step 2 of 2
 verify-secondary-email-error = There was a problem sending the verification code.
 verify-secondary-email-page-title =
     .title = Secondary email
@@ -502,8 +504,10 @@ auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138 = Unverified session
 auth-error-155 = TOTP token not found
