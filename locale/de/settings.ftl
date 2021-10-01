@@ -338,6 +338,7 @@ recovery-key-success-alert = Wiederherstellungsschlüssel erstellt.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Schritt 1 von 2
 add-secondary-email-error = Beim Erstellen dieser E-Mail-Adresse trat ein Problem auf.
 add-secondary-email-page-title =
     .title = Zweit-E-Mail-Adresse
@@ -351,6 +352,7 @@ add-secondary-email-save-button = Speichern
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Schritt 2 von 2
 verify-secondary-email-error = Beim Senden des Bestätigungscodes ist ein Fehler aufgetreten.
 verify-secondary-email-page-title =
     .title = Zweit-E-Mail-Adresse
