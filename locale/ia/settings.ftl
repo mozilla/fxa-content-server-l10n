@@ -334,6 +334,7 @@ recovery-key-success-alert = Clave de recuperation create.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Passo 1de 2
 add-secondary-email-error = Problema al creation de iste email.
 add-secondary-email-page-title =
     .title = Adresse de e-mail secundari
@@ -347,6 +348,7 @@ add-secondary-email-save-button = Salvar
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Passo 2 de 2
 verify-secondary-email-error = Problema durante le invio del codice de verification.
 verify-secondary-email-page-title =
     .title = Adresse de e-mail secundari
