@@ -1,0 +1,52 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+fxa-privacy-url = Политика за неприкосновеност на личните данни на Mozilla
+subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
+manage-account = Управление на сметка
+codes-generate = Генериране на кодове
+newDeviceLogin-subject = Ново вписване от { $clientName }
+newDeviceLogin-title = { newDeviceLogin-subject }
+passwordChanged-title = Паролата е успешно сменена
+passwordReset-title = Паролата за сметката ви е сменена
+passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
+postAddAccountRecovery-subject = Генериран ключ за възстановяване на сметката
+postAddAccountRecovery-title = { postAddAccountRecovery-subject }
+postAddAccountRecovery-action = { manage-account }
+postAddTwoStepAuthentication-subject = Двуетапно удостоверяване е включено
+postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
+postAddTwoStepAuthentication-action = { manage-account }
+postChangePrimary-title = Нов основен ел. адрес
+postChangePrimary-description = Успешно променихте основният ел. адрес на { $email }. Този адрес вече е вашето потребителско име, с което влизате в своя Firefox Account, също така на него се получават известия по сигурността и 
+postConsumeRecoveryCode-title = Кодът за възстановяване е използван
+postNewRecoveryCodes-subject = Кодовете за възстановяване са подновени
+postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
+postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
+postRemoveAccountRecovery-action = { manage-account }
+postRemoveSecondary-subject = Допълнителният ел. адрес е премахнат
+postRemoveSecondary-title = { postRemoveSecondary-subject }
+postRemoveSecondary-description = Допълнителният ел. адрес { $secondaryEmail } е премахнат успешно от вашия Firefox Account. Известията по сигурността и потвържденията за влизане няма да бъдат изпращани към него.
+postRemoveTwoStepAuthentication-title = Двуетапното удостоверяване е изключено
+postRemoveTwoStepAuthentication-action = { manage-account }
+postVerify-support = Имате въпроси? Посетете { $supportUrl }
+postVerifySecondary-subject = Добавен е допълнителен ел. адрес
+postVerifySecondary-title = { postVerifySecondary-subject }
+recovery-subject = Нулиране на парола
+recovery-title = Трябва да анулирате паролата си?
+recovery-description = Щракнете бутона в рамките на следващия час, да изберете нова парола. Заявката е изпратена от следното устройство:
+unblockCode-title = Вие ли се вписахте?
+unblockCode-prompt = Ако е така, ето кода за упълномощаване:
+verificationReminderFirst-title = Добре дошли в семейството на Firefox
+verificationReminderFirst-action = { confirm-email }
+verificationReminderSecond-title = Още ли сте тук?
+verifyLogin-title = Ново вписване от { $clientName }
+verifyLogin-description = За по-голяма сигурност, моля потвърдете вписване от следното устройството:
+verifyLogin-subject = Потвърждение на вписване от { $clientName }
+verifyLoginCode-title = Вие ли се вписахте?
+verifyPrimary-title = Потвърждаване на основен ел. адрес
+verifyPrimary-description = Заявка за промяна на сметката е направена от следното устройство:
+verifySecondary-title = Потвърждаване на допълнителен ел. адрес
+verifySecondary-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния Firefox Account:
+verifySecondaryCode-title = Потвърждаване на допълнителен ел. адрес
+verifySecondaryCode-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния Firefox Account:

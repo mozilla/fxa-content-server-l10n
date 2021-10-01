@@ -1,0 +1,49 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+fxa-privacy-url = Política de privacidá de Mozilla
+subplat-automated-email = Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada.
+subplat-privacy-plaintext = Avisu de privacidá:
+manage-account = Xestionar la cuenta
+codes-reminder-title = Queden pocos códigos de recuperación
+codes-reminder-description = Decatémonos de que tas quedando ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor.
+newDeviceLogin-subject = Aniciu de sesión nuevu en { $clientName }
+newDeviceLogin-title = { newDeviceLogin-subject }
+passwordChanged-title = La contraseña camudó con ésitu
+passwordReset-title = Camudó la contraseña de la cuenta
+passwordResetAccountRecovery-regen-required = Vas tener de xenerar una clave de recuperación nueva.
+postAddAccountRecovery-title = { postAddAccountRecovery-subject }
+postAddAccountRecovery-action = { manage-account }
+postAddTwoStepAuthentication-subject = Activóse l'autenticación en dos pasos
+postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
+postAddTwoStepAuthentication-action = { manage-account }
+postChangePrimary-title = Corréu primariu nuevu
+postNewRecoveryCodes-subject = Xeneráronse códigos de recuperación nuevos
+postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
+postRemoveAccountRecovery-subject = Quitóse la clave de recuperación de la cuenta
+postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
+postRemoveAccountRecovery-action = { manage-account }
+postRemoveSecondary-subject = Quitóse'l corréu secundariu
+postRemoveSecondary-title = { postRemoveSecondary-subject }
+postRemoveTwoStepAuthentication-subject = La verificación en dos pasos ta desactivada
+postRemoveTwoStepAuthentication-title = Desactivóse l'autenticación en dos pasos
+postRemoveTwoStepAuthentication-action = { manage-account }
+postVerify-support = ¿Tienes entrugues? Visita { $supportUrl }
+postVerifySecondary-subject = Amestóse'l corréu secundariu
+postVerifySecondary-title = { postVerifySecondary-subject }
+recovery-title = ¿Tienes de reaniciar la contraseña?
+recovery-description = Calca'l botón dientro d'una hora pa crear una contraseña. La solicitú vieno del preséu de darréu:
+unblockCode-title = ¿Yes tu aniciando sesión?
+unblockCode-prompt = Si ye asina, esti ye'l códigu d'autorización que precises:
+verificationReminderFirst-title = Afáyate na familia de Firefox
+verificationReminderFirst-description = Hai unos díes creesti una cuenta de Firefox mas enxamás la confirmesti.
+verificationReminderFirst-action = { confirm-email }
+verificationReminderSecond-title = ¿Sigues ehí?
+verificationReminderSecond-description = Hai cuasi una selmana que creesti una cuenta de Firefox mas enxamás la verifiquesti. Tiénesnos esmolecíos.
+verifyLogin-title = Aniciu de sesión nuevu en { $clientName }
+verifyLogin-subject = Confirmación d'un aniciu de sesión nuevu en { $clientName }
+verifyLoginCode-subject = Codigu de verificación: { $code }
+verifyLoginCode-title = ¿Yes tu aniciando sesión?
+verifyLoginCode-prompt = Si ye asina, equí ta'l códigu de verificación:
+verifyShortCode-subject = Codigu de verificación: { $code }
