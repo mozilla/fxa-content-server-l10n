@@ -338,6 +338,7 @@ recovery-key-success-alert = Helyreállítási kulcs létrehozva.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 1. / 2. lépés
 add-secondary-email-error = Hiba történt az e-mail létrehozásakor.
 add-secondary-email-page-title =
     .title = Másodlagos e-mail
@@ -351,6 +352,7 @@ add-secondary-email-save-button = Mentés
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 2. / 2. lépés
 verify-secondary-email-error = Hiba történt az ellenőrző kód elküldésekor.
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
@@ -536,8 +538,10 @@ auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
 auth-error-138 = Nem ellenőrzött munkamenet
 auth-error-155 = A TOTP token nem található
