@@ -333,6 +333,7 @@ add-secondary-email-save-button = 保存
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 步骤（2 / 2）
 verify-secondary-email-error = 发送验证码时出现问题。
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
