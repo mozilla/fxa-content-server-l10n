@@ -394,6 +394,7 @@ recovery-key-success-alert = Ключ відновлення створено.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Крок 1 з 2
 add-secondary-email-error = Виникла проблема при додаванні цієї адреси.
 add-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
@@ -407,6 +408,7 @@ add-secondary-email-save-button = Зберегти
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Крок 2 з 2
 verify-secondary-email-error = Виникла проблема при надсиланні коду підтвердження.
 verify-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
