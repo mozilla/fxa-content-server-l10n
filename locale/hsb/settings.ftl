@@ -340,6 +340,7 @@ recovery-key-success-alert = Wobnowjenski kluč je so wutworił.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Krok 1 z 2
 add-secondary-email-error = Při wutworjenje tuteje e-mejloweje adresy je problem nastał.
 add-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
@@ -353,6 +354,7 @@ add-secondary-email-save-button = Składować
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Krok 2 z 2
 verify-secondary-email-error = Při słanju wobkrućenskeho koda je problem nastał.
 verify-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
@@ -536,8 +538,10 @@ auth-error-110 = Njepłaćiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
 auth-error-138 = Njewobkrućene posedźenje
 auth-error-155 = TOTP-token njeje so namakał
