@@ -338,6 +338,7 @@ recovery-key-success-alert = Đã tạo khóa khôi phục.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Bước 1/2
 add-secondary-email-error = Đã có vấn đề khi tạo email này.
 add-secondary-email-page-title =
     .title = Email phụ
@@ -351,6 +352,7 @@ add-secondary-email-save-button = Lưu
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Bước 2/2
 verify-secondary-email-error = Đã có vấn đề khi gửi mã xác thực.
 verify-secondary-email-page-title =
     .title = Email phụ
