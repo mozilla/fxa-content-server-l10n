@@ -327,6 +327,7 @@ recovery-key-success-alert = La chiave di recupero è stata generata.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Passaggio 1 di 2
 add-secondary-email-error = Si è verificato un problema durante la creazione di questa email.
 add-secondary-email-page-title =
     .title = Email secondaria
@@ -340,6 +341,7 @@ add-secondary-email-save-button = Salva
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Passaggio 2 di 2
 verify-secondary-email-error = Si è verificato un problema durante l’invio del codice di verifica.
 verify-secondary-email-page-title =
     .title = Email secondaria
@@ -514,8 +516,10 @@ auth-error-110 = Token non valido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Hai effettuato troppi tentativi errati. Riprova tra { $retryAfter }.
 auth-error-138 = Sessione non verificata
 auth-error-155 = Token TOTP non trovato
