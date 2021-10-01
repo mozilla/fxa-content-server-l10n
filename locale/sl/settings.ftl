@@ -365,6 +365,7 @@ recovery-key-success-alert = Obnovitveni ključ ustvarjen.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Korak 1 od 2
 add-secondary-email-error = Pri dodajanju tega e-poštnega naslova je prišlo do napake.
 add-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
@@ -378,6 +379,7 @@ add-secondary-email-save-button = Shrani
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Korak 2 od 2
 verify-secondary-email-error = Prišlo je do napake pri pošiljanju potrditvene kode.
 verify-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
