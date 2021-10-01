@@ -319,6 +319,7 @@ recovery-key-success-alert = 已建立救援金鑰。
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 第 1 步，共 2 步
 add-secondary-email-error = 建立此郵件時發生問題。
 add-secondary-email-page-title =
     .title = 次要電子郵件地址
@@ -332,6 +333,7 @@ add-secondary-email-save-button = 儲存
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 第 2 步，共 2 步
 verify-secondary-email-error = 寄出驗證碼時發生問題。
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
@@ -498,8 +500,10 @@ auth-error-110 = token 無效
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }後再試。
 auth-error-138 = 未驗證的使用階段
 auth-error-155 = 找不到 TOTP token
