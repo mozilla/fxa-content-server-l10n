@@ -340,6 +340,7 @@ recovery-key-success-alert = Herstelsleutel aangemaakt.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Stap 1 van 2
 add-secondary-email-error = Er is een probleem opgetreden bij het aanmaken van dit e-mailadres.
 add-secondary-email-page-title =
     .title = Secundair e-mailadres
@@ -353,6 +354,7 @@ add-secondary-email-save-button = Opslaan
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Stap 2 van 2
 verify-secondary-email-error = Er is een probleem opgetreden bij het verzenden van de verificatiecode.
 verify-secondary-email-page-title =
     .title = Secundair e-mailadres
@@ -540,8 +542,10 @@ auth-error-110 = Ongeldige token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het over { $retryAfter } opnieuw.
 auth-error-138 = Niet-geverifieerde sessie
 auth-error-155 = TOTP-token niet gevonden
