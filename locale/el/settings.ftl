@@ -357,6 +357,7 @@ recovery-key-success-alert = Το κλειδί ανάκτησης δημιουρ
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Βήμα 1 από 2
 add-secondary-email-error = Παρουσιάστηκε πρόβλημα κατά τη δημιουργία του email.
 add-secondary-email-page-title =
     .title = Δευτερεύον email
@@ -370,6 +371,7 @@ add-secondary-email-save-button = Αποθήκευση
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Βήμα 2 από 2
 verify-secondary-email-error = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επαλήθευσης.
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
