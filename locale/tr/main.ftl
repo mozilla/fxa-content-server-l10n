@@ -378,6 +378,10 @@ payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
 new-user-step-2 = 2. Ödeme yönteminizi seçin
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Gerekli
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = E-postanızı yazın

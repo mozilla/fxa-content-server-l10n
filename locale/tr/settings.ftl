@@ -327,6 +327,7 @@ recovery-key-success-alert = Kurtarma anahtarı oluşturuldu.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Adım 1/2
 add-secondary-email-error = Bu e-posta oluşturulurken bir sorun oluştu.
 add-secondary-email-page-title =
     .title = İkinci e-posta
@@ -340,6 +341,7 @@ add-secondary-email-save-button = Kaydet
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Adım 2/2
 verify-secondary-email-error = Doğrulama kodu gönderilirken bir sorun oluştu.
 verify-secondary-email-page-title =
     .title = İkinci e-posta
