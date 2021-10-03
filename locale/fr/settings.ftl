@@ -332,6 +332,7 @@ recovery-key-success-alert = La clé de récupération a été créée.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Étape 1 sur 2
 add-secondary-email-error = Un problème est survenu lors de la création de cette adresse électronique.
 add-secondary-email-page-title =
     .title = Adresse électronique secondaire
@@ -345,6 +346,7 @@ add-secondary-email-save-button = Enregistrer
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Étape 2 sur 2
 verify-secondary-email-error = Il y a eu un problème lors de l’envoi du code de vérification.
 verify-secondary-email-page-title =
     .title = Adresse électronique secondaire
@@ -523,8 +525,10 @@ auth-error-110 = Jeton invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
 auth-error-138 = Session non vérifiée
 auth-error-155 = Jeton TOTP introuvable
