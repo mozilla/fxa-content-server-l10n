@@ -405,6 +405,10 @@ payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
 new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
 new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
 new-user-step-2 = 2. Tscherner tia metoda da pajament
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Obligatoric
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Endatescha tia adressa d'e-mail

@@ -342,6 +342,7 @@ recovery-key-success-alert = Creà la clav da recuperaziun.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Pass 1 da 2
 add-secondary-email-error = Igl ha dà in problem cun crear quest e-mail.
 add-secondary-email-page-title =
     .title = Adressa d'e-mail secundara
@@ -355,6 +356,7 @@ add-secondary-email-save-button = Memorisar
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Pass 2 da 2
 verify-secondary-email-error = Igl ha dà in problem cun trametter il code da verificaziun.
 verify-secondary-email-page-title =
     .title = Adressa d'e-mail secundara
@@ -542,8 +544,10 @@ auth-error-110 = Token nunvalid
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
 auth-error-138 = Sesida betg verifitgada
 auth-error-155 = Betg chattà il token TOTP
