@@ -432,6 +432,7 @@ recovery-key-success-alert = Obnovovací klíč byl vytvořen.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Krok 1 ze 2
 add-secondary-email-error = Při vytvoření tohoto e-mailu došlo k chybě.
 add-secondary-email-page-title =
     .title = Záložní e-mailová adresa
@@ -445,6 +446,7 @@ add-secondary-email-save-button = Uložit
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Krok 2 ze 2
 verify-secondary-email-error = Nepodařilo se odeslat ověřovací kód.
 verify-secondary-email-page-title =
     .title = Záložní e-mailová adresa
@@ -624,8 +626,10 @@ auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $retryAfter }.
 auth-error-138 = Neověřená relace
 auth-error-155 = TOTP token nenalezen
