@@ -106,8 +106,11 @@ product-no-such-plan = No existe el plan para este producto.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink> &nbsp;<paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -402,10 +405,18 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
 new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
 new-user-step-2 = 2. Elige tu método de pago
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Requerido
+new-user-email =
+    .label = Escribe tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
 new-user-subscribe-product-updates = Me gustaría recibir noticias de productos de { -brand-name-firefox }
 new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 new-user-email-validate = El correo electrónico no es válido
 new-user-email-validate-confirm = Las direcciones de correo electrónico no coinciden
+new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Iniciar sesión</a>
+new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
