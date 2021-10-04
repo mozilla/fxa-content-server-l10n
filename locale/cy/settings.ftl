@@ -338,6 +338,7 @@ recovery-key-success-alert = Crëwyd yr allwedd adfer.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Cam 1 o 2
 add-secondary-email-error = Bu anhawster wrth greu'r e-bost hwn.
 add-secondary-email-page-title =
     .title = Ail e-bost
@@ -351,6 +352,7 @@ add-secondary-email-save-button = Cadw
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Cam 2 o 2
 verify-secondary-email-error = Bu anhawster anfon y cod dilysu.
 verify-secondary-email-page-title =
     .title = Ail e-bost
@@ -534,8 +536,10 @@ auth-error-110 = Tocyn annilys
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach.
 auth-error-138 = Sesiwn heb ei gwirio
 auth-error-155 = Heb ganfod tocyn TOTP
