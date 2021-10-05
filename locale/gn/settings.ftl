@@ -340,6 +340,7 @@ recovery-key-success-alert = Oñemoheñói mba’eñemi jeguerujeyrã.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Ku’e 1 2-gui
 add-secondary-email-error = Oĩ apañuãi emoheñóivo ko ñanduti veve.
 add-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
@@ -353,6 +354,7 @@ add-secondary-email-save-button = Ñongatu
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Ku’e 2 2-gui
 verify-secondary-email-error = Oiko apañuãi emondokuévo ayvu jehechajeyrã.
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
@@ -540,8 +542,10 @@ auth-error-110 = Token oiko’ỹva
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138 = Tembiapo jehechapyre’ỹva
 auth-error-155 = Token TOTP ojejuhu’ỹva
