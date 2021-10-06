@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Prawidła priwatnosće Mozilla
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-plaintext = Zdźělenka priwatnosće:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Dóstawaće tutu mejlku, dokelž { $email } ma konto Firefox a wy sće za { $productName } zregistrowany.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Dóstawaće tutu mejlku, dokelž { $email } ma konto Firefox a sće wjacore produkty abonował.
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
 subplat-cancel = Abonement wupowědźić
@@ -13,6 +20,7 @@ subplat-reactivate = Abonement zaso aktiwizować
 subplat-update-billing = Płaćenske informacije aktualizować
 subplat-legal = Prawniske
 manage-account = Konto rjadować
+subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
 cadReminderFirst-subject = Waše přećelne dopomnjeće: Kak móžeće konfiguraciju swojeje synchronizacije dokónčić
 cadReminderFirst-action = Druhi grat synchronizować
 cadReminderFirst-title = Tu je waše dopomnjeće na synchronizowanje gratow.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Poslednje dopomnjeće na synchronizowanje gratow!
 codes-reminder-title = Mało wobnowjenskich kodow wyše
 codes-reminder-description = Smy zwěsćili, zo mało wobnowjenskich kodow wužiwaće. Prošu rozwažujćo, hač nowe kody wutworiće, zo byšće zawrjenje swojeho konta wobešoł.
 codes-generate = Kody wutworić
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Hesło je so zaktualizowało
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Sće dwukročelowu awtentifikaciju na
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primarna e-mejlowa adresa je so zaktualizowała
 postChangePrimary-title = Nowa primarna e-mejlowa adresa
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta Firefox a zo byšće wěstotne powěsće a přizjewjenske 
 postConsumeRecoveryCode-subject = Wobnowjenski kod so wužiwa
 postConsumeRecoveryCode-title = Wobnowjenski kod je so wužił
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Sće wuspěšnje nowy wobnowjenski kluč
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu ze swojeho konta Firefox wuspěšnje wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja njebudu so hižo na tutu adresu słać.
 postRemoveTwoStepAuthentication-subject = Dwukročelowa awtentifikacija znjemóžnjena
 postRemoveTwoStepAuthentication-title = Dwukročelowa awtentifikacija znjemóžnjena
@@ -74,12 +88,21 @@ postVerify-title = Přichodna synchronizacija mjez gratami!
 postVerify-description = Priwatna synchronizacija waše zapołožki, hesła a druhe daty Firefox na wšěch wašich gratach jenake dźerži.
 postVerify-subject = Konto je přepruwowane. Synchronizujće nětko druhi grat, zo byšće konfiguraciju zakónčił.
 postVerify-setup = Přichodny grat konfigurować
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Maće prašenja? Wopytajće { $supportUrl }
 postVerifySecondary-subject = Druha e-mejlowa adresa je so přidała
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Stajće swoje hesło wróćo
 recovery-title = Dyrbiće swoje hesło wróćo stajić?
 recovery-description = Klikńće na tłóčatko wob hodźinu, zo byšće nowe hesło wutworił. Naprašowanje přińdźe wot slědowaceho grata:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kreditna karta za { $productName } bórze spadnje
+subscriptionPaymentExpired-title = Waša kreditna karta bórze spadnje
+subscriptionsPaymentExpired-subject = Kreditna karta za swoje abonementy bórze spadnje
+subscriptionsPaymentExpired-title = Waša kreditna karta bórze spadnje
+subscriptionsPaymentExpired-content = Kreditna karta, z kotrejž płaćenja za slědowace abonementy přewjedźeće, bórze spadnje.
 unblockCode-subject = Kod kontoweje awtorizacije
 unblockCode-title = Chceće so wy přizjewić?
 unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Před nimale jednym tydźenjom sće kon
 verificationReminderSecond-sub-description = Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, zo wam derje dźe.
 verify-title = Swójbu produktow Firefox aktiwizować
 verify-subject = Dokónčće załoženje swojeho konta
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nowe přizjewjenje pola { $clientName }
 verifyLogin-description = Zo byšće wěstotu powyšił, wobkrućće prošu tute přizjewjenje ze slědowaceho grata:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Nowe přizjewjenje pola { $clientName } wobkrućić
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Wobkrućenski kod: { $code }
 verifyLoginCode-title = Chceće so wy přizjewić?
 verifyLoginCode-prompt = Jeli haj, tu je wobkrućenski kod:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Primarnu e-mejlowu adresu wobkrućić
 verifyPrimary-action = E-mejlowu adresu wobkrućić
 verifySecondary-subject = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondary-title = Druhu e-mejlowu adresu wobkrućić
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Slědowace konto Firefox je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
 verifySecondary-action = E-mejlowu adresu wobkrućić
 verifySecondaryCode-subject = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondaryCode-title = Druhu e-mejlowu adresu wobkrućić
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědowace konto Firefox je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
 verifySecondaryCode-prompt = Tutón wobkrućenski kod zapodać:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Wobkrućenski kod: { $code }
 verifyShortCode-title = Registrujeće wy?
 verifyShortCode-prompt = Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:

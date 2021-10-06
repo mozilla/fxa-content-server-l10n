@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = គោលនយោបាយ​ឯកជនភាព Mozilla
 subplat-automated-email = នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នកទទួល​បាន​អ៊ីម៉ែល​នេះ​ដោយ​កំហុស សូម​ទុក​វា​ចោល​ចុះ។
 cadReminderFirst-title = នេះជាការរំលឹករបស់អ្នកដើម្បីធ្វើសមកាលកម្មឧបករណ៍។

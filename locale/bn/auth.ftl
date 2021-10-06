@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozilla গোপনীয়তা নীতি
 subplat-automated-email = এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।
 subplat-privacy-plaintext = গোপনীয়তা নীতিমালা:
@@ -10,6 +12,8 @@ subplat-cancel = সাবস্ক্রিপশন বাতিল করু�
 subplat-update-billing = বিলিং তথ্য হালনাগাদ
 manage-account = অ্যাকাউন্ট ব্যবস্থাপনা
 codes-generate = কোড তৈরি করুন
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } এর নতুন সাইন ইন
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = সফলভাবে পাসওয়ার্ড পরিবর্তন হয়েছে
@@ -38,6 +42,8 @@ postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-title = টু-স্টেপ অথেনটিকেশন নিষ্ক্রিয় হয়েছে
 postRemoveTwoStepAuthentication-description-plaintext = আপনি সফলভাবে আপনার Firefox অ্যাকাউন্টে টু-স্টেপ অথেনটিকেশন বন্ধ করেছেন। সুরক্ষা কোডগুলো আর প্রতিটি সাইন-ইন করার সময় প্রয়োজন হবে না।
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = প্রশ্ন আছে? { $supportUrl } এ দেখুন
 postVerifySecondary-subject = সেকেন্ডারি ইমেইল যুক্ত হয়েছে
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -50,13 +56,23 @@ verificationReminderFirst-description = কিছু দিন আগে আপ�
 confirm-email = ইমেইল নিশ্চিত করুন
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = এখনও এখানে?
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } এর নতুন সাইন ইন
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = যাচাইকরণ কোড: { $code }
 verifyLoginCode-title = আপনিই কি সাইন ইন করছেন?
 verifyPrimary-title = প্রাথমিক মেইল যাচাই করুন
 verifySecondary-title = সেকেন্ডারি ইমেইল ভেরিফাই করুন
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Firefox Account হতে { $email } কে সেকেন্ডারি ইমেইল ঠিকানা হিসেবে ব্যবহারের অনুরোধ করা হয়েছে:
 verifySecondaryCode-title = সেকেন্ডারি ইমেইল ভেরিফাই করুন
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Firefox Account হতে { $email } কে সেকেন্ডারি ইমেইল ঠিকানা হিসেবে ব্যবহারের অনুরোধ করা হয়েছে:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = যাচাইকরণ কোড: { $code }
 verifyShortCode-title = এটি কি আপনি যে সাইন আপ করছেন?

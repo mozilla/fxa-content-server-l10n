@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Politica de confidentialitate de Mozilla
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
 subplat-privacy-plaintext = Aviso de confidentialitate:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Tu recipe iste email perque { $email } ha un Conto Firefox e tu te inscribeva a { $productName }.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Tu recipe iste message perque { $email } ha un conto Firefox e tu te ha subscribite a plure productos.
 subplat-terms-policy = Terminos e politica de cancellation
 subplat-cancel = Cancellar subscription
@@ -13,6 +20,7 @@ subplat-reactivate = Reactivar subscription
 subplat-update-billing = Actualisar le informationes de factura
 subplat-legal = Legal
 manage-account = Gerer le conto
+subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
 cadReminderFirst-subject = Tu memento amical: como completar tu installation de Sync
 cadReminderFirst-action = Synchronisar un altere apparato
 cadReminderFirst-title = Ecce le memento pro synchronisar tu apparatos.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Ultime memento pro synchronisar tu apparatos!
 codes-reminder-title = Pauc codices de recuperation restante
 codes-reminder-description = Nos ha constatate que te resta pauc codices de recuperation. Considera generar nove codices pro evitar perder le accesso a tu conto.
 codes-generate = Generar codices
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nove apertura de session in { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Contrasigno actualisate
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Tu ha activate con successo le authen
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = E-mail primari actualisate
 postChangePrimary-title = Nove e-mail primari
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu conto Firefox, e pro reciper notificationes de securitate e 
 postConsumeRecoveryCode-subject = Codice de recuperation usate
 postConsumeRecoveryCode-title = Codice de recuperation consumite
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Tu ha removite con successo un clave de 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tu ha retirate { $secondaryEmail } como adresse de e-mail secundari de tu conto Firefox. Le notificationes de securitate e le confirmationes de apertura de session non plus essera inviate a iste 
 postRemoveTwoStepAuthentication-subject = Verification a duo passos disactivate
 postRemoveTwoStepAuthentication-title = Authentication a duo passos disactivate
@@ -74,12 +88,21 @@ postVerify-title = Seque synchronisation inter tu apparatos!
 postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, contrasignos e altere datos de Firefox identic inter tote tu apparatos.
 postVerify-subject = Conto verificate. Seque synchronisar un altere dispositivo pro finir installation
 postVerify-setup = Configurar apparato sequente
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Questiones? Visita { $supportUrl }
 postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
 recovery-description = Clicca sur le button in le proxime hora pro crear un nove contrasigno. Le requesta proveni del apparato sequente:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Le carta de credito pro { $productName } va expirar tosto
+subscriptionPaymentExpired-title = Tu carta de credito va expirar
+subscriptionsPaymentExpired-subject = Le carta de credito pro tu subscriptiones va expirar tosto
+subscriptionsPaymentExpired-title = Tu carta de credito va expirar
+subscriptionsPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro le sequente subscriptiones es sur le puncto de expirar.
 unblockCode-subject = Codice de autorisation del conto
 unblockCode-title = Es tu qui aperi session?
 unblockCode-prompt = In tal caso, ecce le codice de autorisation que tu require:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Quasi un septimana retro tu creava un c
 verificationReminderSecond-sub-description = Confirma iste adresse de e-mail pro activar tu conto e facer nos saper que toto es in ordine.
 verify-title = Activar le familia de productos Firefox
 verify-subject = Termina le creation de tu conto
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nove apertura de session in { $clientName }
 verifyLogin-description = Pro ulterior securitate, per favor confirma iste apertura de session ab le sequente apparato:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confirmar apertura de session a { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Codice de verification: { $code }
 verifyLoginCode-title = Es tu qui aperi session?
 verifyLoginCode-prompt = Si si, ecce le codice de verification:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Confirmar e-mail primari
 verifyPrimary-action = Verificar le email
 verifySecondary-subject = Confirmar e-mail secundari
 verifySecondary-title = Verificar e-mail secundari
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Un requesta a usar { $email } como adresse de e-mail secundari ha essite facite a partir del sequente conto Firefox:
 verifySecondary-action = Verificar le email
 verifySecondaryCode-subject = Confirmar e-mail secundari
 verifySecondaryCode-title = Verificar e-mail secundari
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Un requesta a usar { $email } como adresse de e-mail secundari ha essite facite a partir del sequente conto Firefox:
 verifySecondaryCode-prompt = Usa iste codice de verification:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Codice de verification: { $code }
 verifyShortCode-title = Es vermente tu qui vole inscriber se?
 verifyShortCode-prompt = Si si, usa iste codice de verification in tu modulo de registration:

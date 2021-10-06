@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozillas privatlivspolitik
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
 subplat-privacy-plaintext = Privatlivspolitik:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Du modtager denne mail, fordi { $email } har en Firefox-konto, og du har tilmeldt dig { $productName }.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en Firefox-konto, og du har abonneret på flere produkter.
 subplat-terms-policy = Betingelser og regler for annullering
 subplat-cancel = Annuller abonnement
@@ -13,6 +20,7 @@ subplat-reactivate = Forny abonnement
 subplat-update-billing = Opdater faktureringsoplysninger
 subplat-legal = Juridisk
 manage-account = Håndter konto
+subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
 cadReminderFirst-subject = En venlig påmindelse: Sådan færdiggør du din opsætning af Sync
 cadReminderFirst-action = Synkroniser en enhed til
 cadReminderFirst-title = Her er din påmindelse om at synkronisere enheder.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Sidste påmindelse om at synkronisere enheder!
 codes-reminder-title = Kun få genoprettelseskoder tilbage
 codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
 codes-generate = Generer koder
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nyt login til { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Adgangskode opdateret
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Du har aktiveret totrinsgodkendelse p
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primær mailadresse opdateret
 postChangePrimary-title = Ny primær mailadresse
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Du har ændret din primære mailadresse til { $email }. Den mailadresse er nu dit brugernavn, som du skal bruge til at logge ind på din Firefox-konto og til at modtage sikkerhedsmeddelelser og login-
 postConsumeRecoveryCode-subject = Genoprettelseskode brugt
 postConsumeRecoveryCode-title = Genoprettelseskode brugt
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Du har fjernet en genoprettelsesnøgle t
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveTwoStepAuthentication-subject = Totrinsgodkendelse er slået fra
 postRemoveTwoStepAuthentication-title = Totrinsgodkendelse deaktiveret
@@ -74,12 +88,21 @@ postVerify-title = Synkroniser nu mellem dine enheder!
 postVerify-description = Med privat synkronisering forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme på alle dine enheder.
 postVerify-subject = Konto bekræftet. Synkroniser nu en anden enhed for at afslutte opsætningen.
 postVerify-setup = Opsæt næste enhed
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
 recovery-description = Klik på knappen inden for den næste time for at oprette en ny adgangskode. Anmodningen kom fra følgende enhed:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Betalingskort for { $productName } udløber snart
+subscriptionPaymentExpired-title = Dit betalingskort er ved at udløbe
+subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
+subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
+subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
 unblockCode-subject = Godkendelseskode til konto
 unblockCode-title = Er det dig, der logger ind?
 unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = For næsten en uge siden oprettede du e
 verificationReminderSecond-sub-description = Bekræft denne mailadresse for at aktivere din konto - og for at lade os vide, at du er ok ;)
 verify-title = Aktiver hele Firefox-familien
 verify-subject = Færdiggør oprettelsen af din konto
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nyt login til { $clientName }
 verifyLogin-description = Som en ekstra sikkerhed skal du bekræfte dette login fra følgende enhed:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Bekræft nyt login til { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Bekræftelseskode: { $code }
 verifyLoginCode-title = Er det dig, der logger ind?
 verifyLoginCode-prompt = Hvis det er, så er bekræftelseskoden her:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Bekræft primær mailadresse
 verifyPrimary-action = Bekræft mailadresse
 verifySecondary-subject = Bekræft sekundær mailadresse
 verifySecondary-title = Bekræft sekundær mailadresse
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Fra følgende Firefox-konto kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondary-action = Bekræft mailadresse
 verifySecondaryCode-subject = Bekræft sekundær mailadresse
 verifySecondaryCode-title = Bekræft sekundær mailadresse
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Fra følgende Firefox-konto kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt = Brug denne bekræftelseskode:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Bekræftelseskode: { $code }
 verifyShortCode-title = Er det dig, der tilmelder dig?
 verifyShortCode-prompt = Hvis det er, så brug denne bekræftelseskode i din registreringsformular:

@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordResetAccountRecovery-action = नवीन पुनर्प्राप्ती की तयार करा
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }

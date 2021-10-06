@@ -2,12 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozilla Məxfilik Siyasəti
 subplat-automated-email = Bu avtomatik e-poçtdur; əgər bunu səhvən almısınızsa, bir şey etməyinizə ehtiyyac yoxdur.
 manage-account = Hesabı idarə et
 codes-reminder-title = Az bərpa kodları qaldı
 codes-reminder-description = Çox az bərpa kodunuz qalıb. Lütfən hesabınız heç vaxt kilitlənməsin deyə yeni bərpa kodlarını yaradın.
 codes-generate = Kodları yarat
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } üçün yeni daxil olma
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Parol müvəffəqiyyətlə dəyişdirildi
@@ -26,6 +30,8 @@ postAddTwoStepAuthentication-description-plaintext = Uğurla Firefox Hesabınız
 postAddTwoStepAuthentication-description = Bu cihazdan uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı aktivləşdirdiniz:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Yeni əsas e-poçt
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Əsas e-poçtunuzu müvəffəqiyyətlə { $email } ünvanına dəyişdirdiniz. Bu ünvan artıq Firefox Hesabınıza daxil olmaq üçün istifadə adınızdır, həmçinin təhlükəsizlik bildirişləri və daxil olma 
 postConsumeRecoveryCode-title = Bərpa etmə kodu istifadə edildi
 postConsumeRecoveryCode-description = Bu cihazdan uğurla bərpa etmə kodunu istifadə etdiniz:
@@ -38,11 +44,15 @@ postRemoveAccountRecovery-description = Bu cihazdan uğurla Firefox Hesabınız 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = İkinci e-poçt silindi
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = İkinci e-poçtunuz { $secondaryEmail } Firefox Hesabınızdan silindi. Təhlükəsizlik bildirişləri və daxil olma təsdiqləmələri artıq bu hesaba göndərilməyəcək.
 postRemoveTwoStepAuthentication-title = İki mərhələli daxil olma söndürüldü
 postRemoveTwoStepAuthentication-description = Bu cihazdan uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı söndürdünüz:
 postRemoveTwoStepAuthentication-description-plaintext = Uğurla Firefox Hesabınız üçün iki mərhələli daxil olmanı söndürdünüz. Təhlükəsizlik kodları artıq daxil olmada tələb edilməyəcək.
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Sualınız var? { $supportUrl } ziyarət edin
 postVerifySecondary-subject = İkinci e-poçt əlavə edildi
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -60,13 +70,21 @@ verificationReminderSecond-title = Hələ də buradasınız?
 verificationReminderSecond-description = Hardasa 1 həftə əvvəl Firefox Hesabı yaratdınız və hələ də onu təsdiqləmədiniz. Sizin üçün narahatıq.
 verificationReminderSecond-sub-description = Bu e-poçt ünvanını təsdiqləyərək hesabınızı aktivləşdirin və yaxşı olduğunuzu bizə bildirmiş olun.
 verify-title = Firefox məhsulları ailəsini aktivləşdirin
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } üçün yeni daxil olma
 verifyLogin-description = Əlavə təhlükəsizlik üçün, lütfən, bu cihazdan olan daxil olmanı təsdiqləyin:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName } üçün yeni daxil olmanı təsdiqləyin
 verifyLoginCode-title = Daxil olmaq istəyən sizsiniz?
 verifyPrimary-title = Əsas e-poçtunuzu təsdiqləyin
 verifyPrimary-description = Hesab dəyişikliyi bu cihazdan istəndi:
 verifySecondary-title = İkinci e-poçtu təsdiqlə
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Bu Firefox Hesabından { $email } ünvanını ikinci e-poçt olaraq işlətmə istəyi gəldi:
 verifySecondaryCode-title = İkinci e-poçtu təsdiqlə
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Bu Firefox Hesabından { $email } ünvanını ikinci e-poçt olaraq işlətmə istəyi gəldi:

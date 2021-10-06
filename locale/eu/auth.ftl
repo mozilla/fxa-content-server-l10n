@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozillaren pribatutasun politika
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 subplat-privacy-plaintext = Pribatutasun-oharra:
@@ -22,6 +24,8 @@ postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } zure bigarren helbide elektronikoa gisa ondo kendu da zure Firefox kontutik. Ez dira gehiago bidaliko segurtasun jakinarazpenak eta saio hasiera baieztapenak helbide horretara.
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-subject = Helbide elektroniko alternatiboa gehitua
@@ -37,13 +41,21 @@ confirm-email = Berretsi helbide elektronikoa
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = Azken oroigarria: aktibatu zure kontua
 verificationReminderSecond-title = Oraindik hor?
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Egiaztapen-kodea: { $code }
 verifyLoginCode-title = Zuk hasi duzu saioa?
 verifyLoginCode-prompt = Hala bada, hau da egiaztapen-kodea:
 verifySecondary-title = Egiaztatu helbide elektroniko alternatiboa
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo Firefox kontutik:
 verifySecondaryCode-title = Egiaztatu helbide elektroniko alternatiboa
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo Firefox kontutik:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Egiaztapen-kodea: { $code }
 verifyShortCode-title = Saioa hasten saiatu zara?
 verifyShortCode-prompt = Hala bada, erabili egiaztapen-kode hau erregistratzeko inprimakian:

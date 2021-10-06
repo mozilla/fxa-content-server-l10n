@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Poileasaidh prìobhaideachd Mozilla
 subplat-automated-email = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 subplat-cancel = Cuir crìoch air an fho-sgrìobhadh
@@ -10,6 +12,8 @@ manage-account = Stiùirich an cunntas
 codes-reminder-title = Chan eil mòran chòdan aisig air fhàgail agad
 codes-reminder-description = Mhothaich sinn nach eil mòran chòdan aisig air fhàgail agad. Nach gin thu feadhainn gus nach dèid do ghlasadh a-mach às a’ chunntas agad?
 codes-generate = Gin còdan
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Clàradh a-steach gu { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Chaidh am facal-faire atharrachadh
@@ -28,6 +32,8 @@ postAddTwoStepAuthentication-description-plaintext = Chuir thu dearbhadh dà-che
 postAddTwoStepAuthentication-description = Chuir thu dearbhadh dà-cheumnach an comas sa chunntas Firefox agad o na h-uidheaman a leanas:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Prìomh phost-d ùr
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = ’S e { $email } am prìomh phost-d agad a-nis. Sin seòladh a chleachdas tu mar ainm-cleachdaiche agad a-nis airson clàradh a-steach dhan chunntas Firefox agad agus airson brathan tèarainteachd agus 
 postConsumeRecoveryCode-title = Chaidh an còd aisig a chur gu feum
 postConsumeRecoveryCode-description = Chuir thu gu feum còd aisig on uidheam a leanas:
@@ -40,11 +46,15 @@ postRemoveAccountRecovery-description = Thug thu air falbh iuchair aisig dhan ch
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Chaidh am post-d dàrnach a thoirt air falbh
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Thug thu air falbh { $secondaryEmail } mar phost-d dàrnach on chunntas Firefox agad. Cha dèid brathan is dearbhaidhean mu chlàradh a-steach a chur gun t-seòladh ud tuilleadh.
 postRemoveTwoStepAuthentication-title = Tha an dearbhadh dà-cheumnach à comas
 postRemoveTwoStepAuthentication-description = Chuir thu dearbhadh dà-cheumnach à comas sa chunntas Firefox agad o na h-uidheaman a leanas:
 postRemoveTwoStepAuthentication-description-plaintext = Chuir thu dearbhadh dà-cheumnach à comas sa chunntas Firefox agad. Cha dèid còdan tèarainteachd iarraidh gach turas a chlàraicheas tu a-steach tuilleadh.
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = A bheil ceist agad? Tadhail air { $supportUrl }
 postVerifySecondary-subject = Chaidh post-d dàrnach a chur ris
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -62,9 +72,15 @@ verificationReminderSecond-description = Chruthaich thu cunntas Firefox cha mhò
 verificationReminderSecond-sub-description = Dearbh an seòladh puist-d gus an cunntas agad a ghnìomhachadh agus airson ’s gum bi fios againn gu bheil gach rud mar bu chòir.
 verify-title = Gnìomhaich teaghlach bathar Firefox
 verify-subject = Cuir crìoch air cruthachadh a’ chunntais agad
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Clàradh a-steach gu { $clientName }
 verifyLogin-description = Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach air na h-uidheaman seo:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Dearbh an clàradh a-steach ùr o { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Còd dearbhaidh: { $code }
 verifyLoginCode-title = An tusa a tha a’ clàradh a-steach?
 verifyPrimary-title = Dearbh am prìomh phost-d
@@ -73,10 +89,16 @@ verifyPrimary-subject = Dearbh am prìomh phost-d
 verifyPrimary-action = Dearbh am post-d
 verifySecondary-subject = Dearbh am post-d eile
 verifySecondary-title = Dearbh am post-d dàrnach
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Chaidh iarrtas a dhèanamh on chunntas Firefox a leanas airson { $email } a chur ris mar sheòladh puist-d dàrnach:
 verifySecondary-action = Dearbh am post-d
 verifySecondaryCode-subject = Dearbh am post-d eile
 verifySecondaryCode-title = Dearbh am post-d dàrnach
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Chaidh iarrtas a dhèanamh on chunntas Firefox a leanas airson { $email } a chur ris mar sheòladh puist-d dàrnach:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Còd dearbhaidh: { $code }
 verifyShortCode-title = An tusa a tha a’ clàradh leinn?

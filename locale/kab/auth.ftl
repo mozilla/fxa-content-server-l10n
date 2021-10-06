@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Tasertit tabaḍnit n Mozilla
 subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
 subplat-privacy-plaintext = Tasertit n tbaḍnit:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Tremseḍ-d izen-a acku { $email } igber amiḍan Firefox daɣen tjerrdeḍ ɣer umulteɣ n { $productName }.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Teṭṭfeḍ imayl-a acku { $email } ɣur-s amiḍan n Firefox yerna tjerrdeḍ ɣer waṭas n yifuras.
 subplat-terms-policy = Tiwtilin akked tsertit n usefsex
 subplat-cancel = Sefsex ajerred
@@ -13,6 +20,7 @@ subplat-reactivate = Ales armad n ujerred
 subplat-update-billing = Aleqqem n telɣut n ufter
 subplat-legal = Usḍif
 manage-account = Sefrek amiḍan
+subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
 cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
 codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
 codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik.
 codes-generate = Sirew tingalin
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Awal uffir yettuleqqem
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Tremdeḍ akken iwata asesteb s snat 
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Imayl amezwaru ittuleqqem
 postChangePrimary-title = Imayl amezwaru amaynut
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked 
 postConsumeRecoveryCode-subject = Tangalt n usellek tettwaseqdec
 postConsumeRecoveryCode-title = Tangalt n tririt tettwaseqdec yakan
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Tekkseḍ akken iwata amiḍan n tririt 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tekkseḍ akken iwata { $secondaryEmail } imayl-ik asnawan seg umiḍan-ik Firefox. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl.
 postRemoveTwoStepAuthentication-subject = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
@@ -74,12 +88,21 @@ postVerify-title = Amtawi i d-iteddun, gar yibenkan-inek/inem!
 postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n Firefox d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im.
 postVerify-subject = Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded
 postVerify-setup = Sbadu ibenk-nniḍen
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Tesɛiḍ isteqsiyen? Rzu ɣer { $supportUrl }
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Wennez awal uffir-ik
 recovery-title = Tesriḍ tulsa uwennez n wawal uffir inek?
 recovery-description = Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Takarḍa n usmad i { $productName } qrib ad temmet
+subscriptionPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
+subscriptionsPaymentExpired-subject = Takarḍa n usmad n yijerriden-ik•im qrib ad temmet
+subscriptionsPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
+subscriptionsPaymentExpired-content = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet.
 unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?
 unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Imalas aya, terniḍ amiḍan Firefox, 
 verificationReminderSecond-sub-description = Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ.
 verify-title = Rmed tawacult n yifarisen Firefox
 verify-subject = Fak timerna n umiḍan-ik
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Tuqqna tamaynut ɣer { $clientName }
 verifyLogin-description = I ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi seg yibenk agi:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Sentem tuqqna tamaynut ɣer { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Tangalt n usenqed: { $code }
 verifyLoginCode-title = D kečč i d-yessutren tuqqna agi?
 verifyLoginCode-prompt = Ma ih, att-a tengalt n usenqed:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Sentem tansa tagejdant
 verifyPrimary-action = Seqed tansa-inek imayl
 verifySecondary-subject = Sentem tansa tis snat
 verifySecondary-title = Senqed imayl wi sin
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n Firefox:
 verifySecondary-action = Seqed tansa-inek imayl
 verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title = Senqed imayl wi sin
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n Firefox:
 verifySecondaryCode-prompt = Seqdec tangalt-a n usenqed:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Tangalt n usenqed: { $code }
 verifyShortCode-title = D kečč i d-yessutren ajerred-agi?
 verifyShortCode-prompt = Ma yella ih, seqdec tangalt-a n usenqed deg tferkit-ik·im n usekles:

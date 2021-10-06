@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Dawirgol Suturo Mozilla
 subplat-automated-email = Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte.
 subplat-cancel = Haaytin binnditagol
@@ -22,11 +24,15 @@ postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Iimeel ɗiɗaɓo momtaama
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Aɗa jogii naamne? Yillo { $supportUrl }
 postVerifySecondary-subject = Iimeel ɗiɗaɓo ɓeydaama
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Firlit finnde maa
 recovery-title = Aɗa sokli firlit-de finnde maa?
+subscriptionPaymentExpired-title = Karte maa banke ko ko ndaari gasde
+subscriptionsPaymentExpired-title = Karte maa banke ko ko ndaari gasde
 unblockCode-title = Ko aan woni ceŋiiɗo ɗoo oo?
 unblockCode-prompt = So tawii ko aan, kod jamirgol oo nani:
 verificationReminderFirst-description = Waɗii balɗe seeɗa a sosiino konte Firefox, kono a teeŋtinaani ɗe abada.

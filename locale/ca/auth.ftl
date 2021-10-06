@@ -2,12 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Política de privadesa de Mozilla
 subplat-automated-email = Aquest és un missatge automàtic; si l'heu rebut per error, no cal que feu res.
 manage-account = Gestiona el compte
 codes-reminder-title = Queden pocs codis de recuperació
 codes-reminder-description = S'ha detectat que us queden pocs codis de recuperació. Considereu generar codis nous perquè no se us bloquegi l'accés al compte.
 codes-generate = Genera codis
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Inici de sessió nou al { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = La contrasenya s'ha canviat correctament
@@ -30,6 +34,8 @@ postAddTwoStepAuthentication-description-plaintext = Heu habilitat l'autenticaci
 postAddTwoStepAuthentication-description = Heu habilitat l'autenticació en dos passos per al vostre compte del Firefox des del següent dispositiu:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Adreça electrònica principal nova
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Heu canviat l'adreça electrònica principal per { $email }. Ara aquesta adreça és el nom d'usuari per iniciar la sessió al compte del Firefox, per rebre notificacions de seguretat i confirmacions 
 postConsumeRecoveryCode-title = S'ha utilitzat un codi de recuperació
 postConsumeRecoveryCode-description = Heu utilitzat un codi de recuperació des del següent dispositiu:
@@ -42,12 +48,16 @@ postRemoveAccountRecovery-description = Heu eliminat una clau de recuperació de
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = S'ha eliminat l'adreça electrònica secundària
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Heu eliminat { $secondaryEmail } com a adreça electrònica secundària del compte del Firefox. Ja no s'enviaran notificacions de seguretat ni confirmacions d'inici de sessió a aquesta adreça.
 postRemoveTwoStepAuthentication-title = S'ha inhabilitat l'autenticació en dos passos
 postRemoveTwoStepAuthentication-description = Heu inhabilitat l'autenticació en dos passos per al compte del Firefox des del següent dispositiu:
 postRemoveTwoStepAuthentication-description-plaintext = Heu inhabilitat l'autenticació en dos passos per al compte del Firefox. Ja no es demanaran els codis de seguretat en iniciar la sessió.
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerify-sub-title = S'ha verificat el compte del Firefox. Ja gairebé heu acabat.
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Teniu alguna pregunta? Visiteu { $supportUrl }
 postVerifySecondary-subject = S'ha afegit l'adreça electrònica secundària
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -60,14 +70,22 @@ verificationReminderFirst-title = Us donem la benvinguda a la família Firefox
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = Encara hi sou?
 verify-title = Activeu la família de productes Firefox
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Inici de sessió nou al { $clientName }
 verifyLogin-description = Per més seguretat, confirmeu aquest inici de sessió des del següent dispositiu:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confirmeu l'inici de sessió nou al { $clientName }
 verifyLoginCode-title = Esteu iniciant la sessió?
 verifyLoginCode-prompt = Si és així, aquí teniu el codi de verificació:
 verifyPrimary-title = Verifiqueu l'adreça electrònica principal
 verifyPrimary-description = S'ha sol·licitat un canvi de compte des del següent dispositiu:
 verifySecondary-title = Verifiqueu l'adreça electrònica secundària
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = S'ha sol·licitat utilitzar { $email } com a adreça electrònica secundària des del següent compte del Firefox:
 verifySecondaryCode-title = Verifiqueu l'adreça electrònica secundària
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = S'ha sol·licitat utilitzar { $email } com a adreça electrònica secundària des del següent compte del Firefox:

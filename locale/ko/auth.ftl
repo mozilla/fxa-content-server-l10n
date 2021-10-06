@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozilla 개인정보처리방침
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
 subplat-privacy-plaintext = 개인정보처리방침:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = { $email }은 기존 Firefox 계정이 있고 { $productName }에 가입하셨기 때문에 발송되었습니다.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Firefox 계정 { $email }에서 여러 제품을 구독 하셨기 때문에 이 이메일을 보내드립니다.
 subplat-terms-policy = 약관 및 취소 정책
 subplat-cancel = 구독 취소
@@ -13,6 +20,7 @@ subplat-reactivate = 구독 재활성
 subplat-update-billing = 결제 정보 업데이트
 subplat-legal = 법적 고지
 manage-account = 계정 관리
+subscriptionUpdatePayment-plaintext = 서비스 중단을 방지하려면 가능한 한 빨리 결제 정보를 업데이트하십시오.
 cadReminderFirst-subject = 알림: 동기화 설정을 완료하는 방법
 cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-title = 기기 동기화 알림입니다.
@@ -22,6 +30,8 @@ cadReminderSecond-title = 기기 동기화 마지막 알림!
 codes-reminder-title = 복구 코드가 얼마 남지 않았습니다
 codes-reminder-description = 복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 사용 불가능한 상황을 피하기 위해 새 코드 생성을 권장합니다.
 codes-generate = 코드 생성하기
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName }에 새로 로그인
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = 비밀번호 수정 완료
@@ -49,6 +59,8 @@ postAddTwoStepAuthentication-description = 다음 기기에서 Firefox 계정의
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = 기본 이메일 수정 완료
 postChangePrimary-title = 새 기본 이메일
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = 기본 이메일을 { $email }로 성공적으로 변경했습니다. 이 주소는 이제 Firefox 계정에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다.
 postConsumeRecoveryCode-subject = 사용된 복구 코드
 postConsumeRecoveryCode-title = 복구 코드 사용됨
@@ -62,6 +74,8 @@ postRemoveAccountRecovery-description = Firefox 계정의 복구 키를 다음 �
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Firefox 계정에서 { $secondaryEmail }을 보조 이메일에서 삭제하였습니다. 보안 알림과 로그인 확인은 더 이상 이 이메일로 전송되지 않습니다.
 postRemoveTwoStepAuthentication-subject = 단계 인증 해제
 postRemoveTwoStepAuthentication-title = 2단계 인증을 사용하지 않습니다
@@ -73,12 +87,21 @@ postVerify-title = 다음으로 기기 간 동기화!
 postVerify-description = 동기화는 북마크, 비밀번호 및 기타 Firefox 데이터를 모든 기기에서 동일하게 유지합니다.
 postVerify-subject = 계정을 확인하였습니다.다른 기기와 동기화하여 설정을 완료하세요.
 postVerify-setup = 다음 기기 설정
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = 질문이 있으십니까? { $supportUrl }를 방문하세요
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = 비밀번호 재설정
 recovery-title = 비밀번호를 재설정하시겠습니까?
 recovery-description = 새 비밀번호를 만들려면 다음 시간 안에 버튼을 클릭하세요. 요청은 다음 기기에서 온 것입니다:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = { $productName } 신용 카드 만료 예정
+subscriptionPaymentExpired-title = 신용 카드 만료 예정
+subscriptionsPaymentExpired-subject = 결제용 신용 카드 만료 예정
+subscriptionsPaymentExpired-title = 신용 카드 만료 예정
+subscriptionsPaymentExpired-content = 다음 구독에 대한 결제에 사용 중인 신용 카드가 곧 만료됩니다.
 unblockCode-subject = 계정 인증 코드
 unblockCode-title = 로그인하신 게 맞나요?
 unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
@@ -94,9 +117,15 @@ verificationReminderSecond-description = 거의 일주일 전에 Firefox 계정�
 verificationReminderSecond-sub-description = 이 이메일 주소를 확인하여 계정을 활성화하고 정상 사용자임을 알려주세요.
 verify-title = Firefox 제품군 활성화
 verify-subject = 계정 생성 완료
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName }에 새로 로그인
 verifyLogin-description = 추가 보안을 위해, 다음 기기의 이 로그인을 확인해주세요:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName }에서 신규 로그인 확인
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = 검증 코드: { $code }
 verifyLoginCode-title = 로그인하신 게 맞나요?
 verifyLoginCode-prompt = 그렇다면 검증 코드는 다음과 같습니다:
@@ -106,11 +135,17 @@ verifyPrimary-subject = 기본 이메일 확인
 verifyPrimary-action = 이메일 검증
 verifySecondary-subject = 보조 이메일 확인
 verifySecondary-title = 보조 이메일 검증
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = 다음 Firefox 계정으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondary-action = 이메일 검증
 verifySecondaryCode-subject = 보조 이메일 확인
 verifySecondaryCode-title = 보조 이메일 검증
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 다음 Firefox 계정으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt = 인증 코드 사용:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = 검증 코드: { $code }
 verifyShortCode-title = 가입 하신 게 맞나요?

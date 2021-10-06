@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Zásady ochrany súkromia
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 subplat-privacy-plaintext = Zásady ochrany súkromia:
@@ -14,6 +16,8 @@ manage-account = Spravovať účet
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
 codes-generate = Vygenerovať kódy
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Heslo bolo aktualizované
@@ -37,6 +41,8 @@ postAddTwoStepAuthentication-description = Úspešne ste povolili dvojstupňové
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Hlavná e-mailová adresa bola aktualizovaná
 postChangePrimary-title = Nová hlavná e-mailová adresa
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Úspešne ste zmenili svoju hlavnú e-mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k účtu Firefox a k zasielaniu bezpečnostných upozornení a potvrdení 
 postConsumeRecoveryCode-subject = Bol použitý obnovovací kód
 postConsumeRecoveryCode-title = Obnovovací kód bol použitý
@@ -50,18 +56,24 @@ postRemoveAccountRecovery-description = Úspešne ste odstránili obnovovací k�
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Úspešne ste odstránili { $secondaryEmail } ako alternatívnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu.
 postRemoveTwoStepAuthentication-subject = Dvojstupňové overenie je vypnuté
 postRemoveTwoStepAuthentication-title = Dvojstupňové overenie bolo zakázané
 postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupňové overenie na vašom účte Firefox z nasledujúceho zariadenia:
 postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom účte Firefox. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Máte otázky? Navštívte { $supportUrl }
 postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Obnoviť heslo
 recovery-title = Potrebujete obnoviť svoje heslo?
 recovery-description = Pre vytvorenie nového hesla kliknite v priebehu hodiny na tlačidlo nižšie. Požiadavka prišla z nasledujúceho zariadenia:
+subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
 unblockCode-subject = Autorizačný kód účtu
 unblockCode-title = Spoznávate toto prihlásenie?
 unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
@@ -77,9 +89,15 @@ verificationReminderSecond-description = Takmer pred týždňom ste si vytvorili
 verificationReminderSecond-sub-description = Potvrďte túto e-mailovú adresu a aktivujte svoj účet.
 verify-title = Aktivujte si celú rodinu produktov Firefoxu
 verify-subject = Dokončite vytváranie svojho účtu
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nové prihlásenie k { $clientName }
 verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte toto prihlásenie z nasledujúceho zariadenia:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Potvrdenie nového prihlásenia k { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Overovací kód: { $code }
 verifyLoginCode-title = Spoznávate toto prihlásenie?
 verifyLoginCode-prompt = Ak áno, tu je overovací kód:
@@ -87,10 +105,16 @@ verifyPrimary-title = Overiť hlavnú e-mailovú adresu
 verifyPrimary-description = Požiadavka na zmenu v účte prišla z nasledovného zariadenia:
 verifyPrimary-subject = Potvrdiť hlavnú e-mailovú adresu
 verifySecondary-title = Overiť alternatívnu e-mailovú adresu
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho účtu Firefox Account:
 verifySecondaryCode-title = Overiť alternatívnu e-mailovú adresu
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho účtu Firefox Account:
 verifySecondaryCode-prompt = Použite tento overovací kód:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Overovací kód: { $code }
 verifyShortCode-title = Prihlasujete sa naozaj vy?
 verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:

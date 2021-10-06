@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Politique de confidentialité de Mozilla
 subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
 subplat-privacy-plaintext = Politique de confidentialité :
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Vous recevez ce message car { $email } possède un compte Firefox et vous avez souscrit un abonnement à { $productName }.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Vous recevez ce message car { $email } possède un compte Firefox et vous avez souscrit plusieurs abonnements.
 subplat-terms-policy = Conditions et politique d’annulation
 subplat-cancel = Annuler l’abonnement
@@ -13,6 +20,7 @@ subplat-reactivate = Réactiver l’abonnement
 subplat-update-billing = Mettre à jour les informations de facturation
 subplat-legal = Mentions légales
 manage-account = Gérer le compte
+subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre service, veuillez mettre à jour vos informations de paiement dès que possible :
 cadReminderFirst-subject = Petit rappel : voici comment terminer votre configuration de la synchronisation
 cadReminderFirst-action = Synchroniser un autre appareil
 cadReminderFirst-title = Voici votre rappel pour synchroniser vos appareils.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Dernier rappel pour synchroniser vos appareils !
 codes-reminder-title = Il vous reste peu de codes de récupération
 codes-reminder-description = Nous avons remarqué qu’il vous reste peu de codes de récupération. Vous devriez générer de nouveaux codes pour éviter de perdre l’accès à votre compte.
 codes-generate = Générer des codes
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nouvelle connexion via { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Mot de passe mis à jour
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Vous avez activé l’authentificatio
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Adresse électronique principale mise à jour
 postChangePrimary-title = Nouvelle adresse électronique principale
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Votre adresse électronique principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre compte Firefox et elle recevra les notifications de 
 postConsumeRecoveryCode-subject = Code de récupération utilisé
 postConsumeRecoveryCode-title = Code de récupération utilisé
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Vous avez supprimé une clé de récupé
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses électroniques secondaires de votre compte Firefox. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse électronique.
 postRemoveTwoStepAuthentication-subject = La validation en deux étapes est désactivée
 postRemoveTwoStepAuthentication-title = Authentification en deux étapes désactivée
@@ -74,12 +88,21 @@ postVerify-title = À présent, synchronisez vos appareils !
 postVerify-description = La synchronisation conserve confidentiellement vos marque-pages, mots de passe et autres données Firefox à l’identique sur tous vos appareils.
 postVerify-subject = Compte vérifié. Synchronisez à présent un autre appareil pour terminer la configuration.
 postVerify-setup = Configurer un autre appareil
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Vous avez des questions ? Consultez { $supportUrl }
 postVerifySecondary-subject = Adresse électronique secondaire ajoutée
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Réinitialiser le mot de passe
 recovery-title = Vous devez réinitialiser votre mot de passe ?
 recovery-description = Cliquez sur le bouton d’ici moins d’une heure pour créer un nouveau mot de passe. La demande a été effectuée depuis cet appareil :
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = La carte bancaire pour { $productName } expire bientôt
+subscriptionPaymentExpired-title = Votre carte bancaire est sur le point d’expirer
+subscriptionsPaymentExpired-subject = La carte bancaire utilisée pour vos abonnements expire bientôt
+subscriptionsPaymentExpired-title = Votre carte bancaire est sur le point d’expirer
+subscriptionsPaymentExpired-content = La carte bancaire que vous utilisez pour effectuer des paiements pour les abonnements suivants est sur le point d’expirer.
 unblockCode-subject = Code d’autorisation du compte
 unblockCode-title = Étiez-vous à l’origine de cette connexion ?
 unblockCode-prompt = Si oui, voici le code d’autorisation dont vous avez besoin :
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Il y a presque une semaine, vous avez c
 verificationReminderSecond-sub-description = Confirmez cette adresse électronique pour activer votre compte et faites-nous savoir que vous allez bien.
 verify-title = Activez la famille de produits Firefox
 verify-subject = Terminez la création de votre compte
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nouvelle connexion via { $clientName }
 verifyLogin-description = Pour une sécurité renforcée, veuillez confirmer cette connexion depuis l’appareil suivant :
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confirmer la nouvelle connexion via { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Code de vérification : { $code }
 verifyLoginCode-title = Étiez-vous à l’origine de cette connexion ?
 verifyLoginCode-prompt = Si oui, voici le code de vérification :
@@ -107,12 +136,18 @@ verifyPrimary-subject = Confirmer l’adresse principale
 verifyPrimary-action = Vérifier l’adresse électronique
 verifySecondary-subject = Confirmer l’adresse secondaire
 verifySecondary-title = Confirmer l’adresse secondaire
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte Firefox suivant :
 verifySecondary-action = Vérifier l’adresse électronique
 verifySecondaryCode-subject = Confirmer l’adresse secondaire
 verifySecondaryCode-title = Confirmer l’adresse secondaire
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte Firefox suivant :
 verifySecondaryCode-prompt = Utilisez ce code de vérification :
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Code de vérification : { $code }
 verifyShortCode-title = Étiez-vous à l’origine de cette inscription ?
 verifyShortCode-prompt = Si oui, utilisez ce code de vérification dans votre formulaire d’inscription :

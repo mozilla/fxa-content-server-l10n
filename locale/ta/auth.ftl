@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = மொசில்லா தனியுரிமை கொள்கைகள்
 manage-account = கணக்கை நிர்வகி
 newDeviceLogin-title = { newDeviceLogin-subject }
@@ -23,6 +25,10 @@ verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = இருக்கிறீர்களா?
 verifyLoginCode-title = உள்நுழைவது நீங்கள் தானா?
 verifySecondary-title = இரண்டாம் மின்னஞ்சலைச் சரிபார்க்கவும்
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = { $email } இரண்டாம் மின்னஞ்சல் முகவரியைப் பயன்படுத்துவதற்கான கோரிக்கையை பின்வரும் பயர்பாஃசு கணக்கிலிருந்து உருவாக்கப்பட்டது:
 verifySecondaryCode-title = இரண்டாம் மின்னஞ்சலைச் சரிபார்க்கவும்
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } இரண்டாம் மின்னஞ்சல் முகவரியைப் பயன்படுத்துவதற்கான கோரிக்கையை பின்வரும் பயர்பாஃசு கணக்கிலிருந்து உருவாக்கப்பட்டது:

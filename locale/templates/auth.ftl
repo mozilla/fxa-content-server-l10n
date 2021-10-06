@@ -55,6 +55,11 @@ user-ip = IP address: { $ip }
 manage-account = Manage account
 manage-account-plaintext = { manage-account }:
 
+subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
+subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
+
+subscriptionUpdatePayment = To prevent any interruption to your service, please <a data-l10n-name="updateBillingUrl">update your payment information</a> as soon as possible.
+subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
 ## Variables:
 ##  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = For more information, please visit { $supportUrl }
@@ -184,6 +189,22 @@ recovery-title = Need to reset your password?
 recovery-description = Click the button within the next hour to create a new password. The request came from the following device:
 recovery-action = Create new password
 
+
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Credit card for { $productName } expiring soon
+subscriptionPaymentExpired-title = Your credit card is about to expire
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = The credit card you're using to make payments for { $productName } is about to expire.
+
+subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
+subscriptionsPaymentExpired-title = Your credit card is about to expire
+subscriptionsPaymentExpired-content = The credit card you're using to make payments for the following subscriptions is about to expire.
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionsPaymentExpired-name = { $productName }
+
 unblockCode-subject = Account authorization code
 unblockCode-title = Is this you signing in?
 unblockCode-prompt = If yes, here is the authorization code you need:
@@ -248,6 +269,7 @@ verifySecondary-post-verification = Once verified, this address will begin recei
 
 verifySecondaryCode-subject = Confirm secondary email
 verifySecondaryCode-title = Verify secondary email
+## Variables:
 ##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A request to use { $email } as a secondary email address has been made from the following Firefox Account:
 verifySecondaryCode-prompt = Use this verification code:

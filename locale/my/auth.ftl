@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 manage-account = အကောင့်ကို စီမံရန်
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = စကားဝှက်ကို အောင်မြင်စွာပြောင်းလဲခဲ့သည်

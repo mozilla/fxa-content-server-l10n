@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Rregulla Privatësie të Mozilla-s
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 subplat-privacy-plaintext = Shënim mbi privatësinë:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një llogari Firefox dhe jeni regjistruar për { $productName }.
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një llogari Firefox dhe jeni pajtuar te disa produkte.
 subplat-terms-policy = Kushte dhe rregulla anulimi
 subplat-cancel = Anulojeni pajtimin
@@ -13,6 +20,7 @@ subplat-reactivate = Riaktivizo pajtimin
 subplat-update-billing = Përditësoni të dhëna faturimi
 subplat-legal = Ligjore
 manage-account = Administroni llogarinë
+subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
 cadReminderFirst-subject = Kujtuesi Juaj Dashamirës: Si të Plotësohet Ujdisja e Njëkohësimit
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-title = Ja kujtuesi juaj për njëkohësim pajisjesh.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Kujtuesi i fundit për njëkohësim pajisjesh!
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
 codes-reminder-description = Vumë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mundësinë e prodhimit të kodeve të rinj, për të shmangur që të mbeten jashtë llogarisë tuaj.
 codes-generate = Prodho kode
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Fjalëkalimi u përditësua
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Keni aktivizuar me sukses mirëfillt�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = E ndryshuar me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te Llogaria juaj Firefox, si edhe për të marrë njoftime sigurie dhe konfirmime hyrjesh.
 postConsumeRecoveryCode-subject = U përdor kod rimarrjeje
 postConsumeRecoveryCode-title = Kodi i rikthimit u përdor
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Hoqët me sukses një kyç rimarrjeje ll
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = E hoqët me sukses prej Llogarisë tuaj Firefox { $secondaryEmail } si një email dytësor. Te kjo adresë nuk do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveTwoStepAuthentication-subject = Verifikimi dyhapësh është i çaktivizuar
 postRemoveTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u çaktivizua
@@ -74,12 +88,21 @@ postVerify-title = Njëkohësimi pasues me pajisjeve tuaja!
 postVerify-description = Njëkohësimi i mban privatisht faqerojtësit, fjalëkalimet dhe të dhëna të tjera Firefox të njëjta nëpër krejt pajisjet tuaja.
 postVerify-subject = Llogaria u verifikua. Më pas, njëkohësoni pajisje tjetër, që të përfundohet ujdisja
 postVerify-setup = Ujdisni pajisjen pasuese
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Keni pyetje? Vizitoni { $supportUrl }
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title = Keni nvojë të ricaktoni fjalëkalimin tuaj?
 recovery-description = Klikoni mbi butonin brenda orës së ardhshme që të krijoni një fjalëkalim të ri. Kërkesa erdhi nga pajisja vijuese:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kartë krediti për { $productName } që skadon së shpejti
+subscriptionPaymentExpired-title = Karta juaj e kreditit është afër skadimit
+subscriptionsPaymentExpired-subject = Karta e kreditit për pajtimet tuaja skadon së shpejti
+subscriptionsPaymentExpired-title = Karta juaj e kreditit është afër skadimit
+subscriptionsPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese është afër skadimit.
 unblockCode-subject = Kod autorizimi llogarie
 unblockCode-title = A jeni ju që po hyni?
 unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Gati një javë më parë krijuat një 
 verificationReminderSecond-sub-description = Ripohojeni këtë adresë email që të aktivizohet llogaria juaj dhe që të na bëni të ditur se jeni në rregull.
 verify-title = Aktivizoni familjen e produkteve Firefox
 verify-subject = Përfundoni krijimin e llogarisë tuaj
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Hyrje e re te { $clientName }
 verifyLogin-description = Për më tepër siguri, ju lutemi, ripohojeni këtë hyrje që nga pajisja vijuese:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Ripohoni hyrje të re te { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Kod verifikimi: { $code }
 verifyLoginCode-title = A jeni ju që po hyni?
 verifyLoginCode-prompt = Nëse po, ja kodi i verifikimit:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action = Verifikoni email-in
 verifySecondary-subject = Ripohoni email dytësor
 verifySecondary-title = Verifikoni email-in dytësor
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Prej Llogarisë vijuese Firefox është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondary-action = Verifikoni email-in
 verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title = Verifikoni email-in dytësor
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Prej Llogarisë vijuese Firefox është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt = Përdor këtë kod verifikimi:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Kod verifikimi: { $code }
 verifyShortCode-title = A jeni ju që po regjistroheni?
 verifyShortCode-prompt = Nëse po, përdoreni këtë kod verifikimi në formularin e regjistrimit tuaj:

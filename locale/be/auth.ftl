@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Палітыка прыватнасці Mozilla
 subplat-automated-email = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 subplat-privacy-plaintext = Паведамленне аб прыватнасці:
@@ -19,6 +21,8 @@ cadReminderSecond-title = Апошнi напамін пра сінхраніза
 codes-reminder-title = Засталося мала кодаў аднаўлення
 codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
 codes-generate = Згенераваць коды
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Пароль абноўлены
@@ -42,6 +46,8 @@ postAddTwoStepAuthentication-description = Вы паспяхова ўключы�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Вы паспяхова змянілі свой асноўны адрас электроннай пошты на { $email }. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс Firefox, а таксама для атрымання абвестак бяспекі 
 postConsumeRecoveryCode-subject = Выкарыстаны код аднаўлення
 postConsumeRecoveryCode-title = Код аднаўлення выкарыстаны
@@ -55,6 +61,8 @@ postRemoveAccountRecovery-description = Вы паспяхова выдалілі
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Вы паспяхова выдалілі другі адрас { $secondaryEmail } з вашага ўліковага запісу Firefox. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць.
 postRemoveTwoStepAuthentication-subject = Двухэтапная аўтарызацыя выключана
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
@@ -64,12 +72,16 @@ postRemoveTwoStepAuthentication-action = { manage-account }
 postVerify-sub-title = Уліковы запіс Firefox пацверджаны. Амаль гатова.
 postVerify-title = Наступная сінхранізацыя паміж вашымі прыладамі!
 postVerify-description = Сінхранізацыя прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя Firefox аднолькавымі на ўсіх вашых прыладах.
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Ёсць пытанні? Наведайце { $supportUrl }
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Скінуць пароль
 recovery-title = Трэба скінуць пароль?
 recovery-description = Націсніце кнопку цягам наступнай гадзіны, каб стварыць новы пароль. Запыт прыйшоў з наступнай прылады:
+subscriptionPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
+subscriptionsPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
 unblockCode-subject = Код аўтарызацыі ўліковага запісу
 unblockCode-title = Гэта вы ўваходзіце?
 unblockCode-prompt = Калі так, вось код аўтарызацыі, які вам патрэбен:
@@ -85,9 +97,15 @@ verificationReminderSecond-description = Амаль тыдзень таму вы
 verificationReminderSecond-sub-description = Пацвердзіце гэты адрас электроннай пошты, каб актываваць свой уліковы запіс, і дайце нам знаць, што вы ў парадку.
 verify-title = Актываваць сямейства прадуктаў Firefox
 verify-subject = Скончыце стварэнне ўліковага запісу
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Новы ўваход у { $clientName }
 verifyLogin-description = Для дадатковай бяспекі, калі ласка, пацвердзіце гэты ўваход з наступнай прылады:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Пацвердзіце новы ўваход у { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Код пацвярджэння: { $code }
 verifyLoginCode-title = Гэта вы ўваходзіце?
 verifyLoginCode-prompt = Калі так, вось код пацвярджэння:
@@ -97,11 +115,17 @@ verifyPrimary-subject = Пацвердзіце асноўную электрон
 verifyPrimary-action = Пацвердзіць эл.пошту
 verifySecondary-subject = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondary-title = Пацвердзіць другі адрас эл.пошты
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага ўліковага запісу Firefox:
 verifySecondary-action = Пацвердзіць эл.пошту
 verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-title = Пацвердзіць другі адрас эл.пошты
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага ўліковага запісу Firefox:
 verifySecondaryCode-prompt = Выкарыстайце гэты код пацверджання:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Код пацвярджэння: { $code }
 verifyShortCode-title = Гэта вы рэгіструецеся?

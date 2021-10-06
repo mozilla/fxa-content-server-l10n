@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = మొజిల్లా గోప్యతా విధానం
 subplat-automated-email = ఇది స్వయంచాలక ఈమెయిలు; ఇది మీకు పొరపాటున వచ్చివుంటే, మీరేమీ చేయాల్సినవసరం లేదు.
 subplat-privacy-plaintext = గోప్యతా నోటీసు:
@@ -9,6 +11,8 @@ manage-account = ఖాతా నిర్వహణ
 codes-reminder-title = తక్కువ పునరుద్ధరణ సంకేతాలు మిగిలి ఉన్నాయి
 codes-reminder-description = మీ పునరుద్ధరణ సంకేతాలు నిండుకోబోతున్నాయని మేం గమనించాం. మీ ఖాతా నుండి బయటికిపంపేయబడటాన్ని తప్పించుకోడానికి దయచేసి కొత్త సంకేతాలను తయారుచేసుకోగలరు.
 codes-generate = సంకేతాలను సృష్టించు
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } లోనికి కొత్త ప్రవేశం
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = సంకేతపదం విజయవంతంగా మార్చబడింది
@@ -49,13 +53,21 @@ confirm-email = ఈమెయిలు నిర్థారించండి
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = ఇంకా ఉన్నారా?
 verify-title = Firefox ఉత్పత్తుల కుటుంబాన్ని చేతనం చేసుకోండి
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } లోనికి కొత్త ప్రవేశం
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName }కు క్రొత్త సైన్-ఇన్ను నిర్ధారించండి
 verifyLoginCode-title = ప్రవేశిస్తున్నది మీరేనా?
 verifyLoginCode-prompt = మీరే అయితే, తనిఖీ సంకేతం ఇదుగోండి:
 verifyPrimary-title = ప్రాథమిక ఇమెయిల్ ని ధృవీకరించండి
 verifySecondary-title = రెండవ ఇ-మెయిలుని ధృవీకరించండి
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = అదనపు ఈమెయిల్‌గా { $email } వాడుటకు ఈ కింది Firefox ఖాతా నుండి అభ్యర్ధన చేయబడినది:
 verifySecondaryCode-title = రెండవ ఇ-మెయిలుని ధృవీకరించండి
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = అదనపు ఈమెయిల్‌గా { $email } వాడుటకు ఈ కింది Firefox ఖాతా నుండి అభ్యర్ధన చేయబడినది:
 verifyShortCode-title = నమోదవుతున్నది మీరేనా?

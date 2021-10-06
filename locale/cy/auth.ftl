@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Polisi Preifatrwydd Mozilla
 subplat-automated-email = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
 subplat-privacy-plaintext = Hysbysiad preifatrwydd:
+## Variables:
+##  $email (String) - A user's primary email address
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif Firefox a'ch bod wedi cofrestru ar gyfer { $productName }
+## Variables:
+##  $email (String) - A user's primary email address
 subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif Firefox a'ch bod wedi cofrestru i nifer o gynnyrch.
 subplat-terms-policy = Polisi telerau a chanslo
 subplat-cancel = Canslo tanysgrifiad
@@ -13,6 +20,7 @@ subplat-reactivate = Ailgychwyn y tanysgrifiad
 subplat-update-billing = Diweddaru'r manylion bilio
 subplat-legal = Cyfreithiol
 manage-account = Rheoli cyfrif
+subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync
 cadReminderFirst-action = Cydweddu dyfais arall
 cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
@@ -22,6 +30,8 @@ cadReminderSecond-title = Nodyn atgoffa olaf i gydweddu dyfeisiau!
 codes-reminder-title = Prinder codau adfer
 codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o'ch cyfrif.
 codes-generate = Creu codau
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Mewngofnodi newydd i { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Diweddarwyd y cyfrinair
@@ -50,6 +60,8 @@ postAddTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam y
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Diweddarwyd y prif e-bost
 postChangePrimary-title = Prif e-bost newydd
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch Cyfrif Firefox, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau 
 postConsumeRecoveryCode-subject = Cod adfer wedi'i ddefnyddio
 postConsumeRecoveryCode-title = Cod adfer wedi ei ddefnyddio
@@ -63,6 +75,8 @@ postRemoveAccountRecovery-description = Rydych wedi tynnu allwedd adfer ar gyfer
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn.
 postRemoveTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei ddiffodd
 postRemoveTwoStepAuthentication-title = Mae dilysu dau gam wedi ei analluogi
@@ -74,12 +88,21 @@ postVerify-title = nesaf, cydweddwch eich dyfeisiau!
 postVerify-description = Mae Sync yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ar draws eich holl ddyfeisiau.
 postVerify-subject = Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod
 postVerify-setup = Gosod y ddyfais nesaf
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Unrhyw gwestiynau? Ewch i { $supportUrl }
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Ailosod eich cyfrinair
 recovery-title = Angen ailosod eich cyfrinair?
 recovery-description = Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:
+## Variables:
+##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Bydd cerdyn credyd { $productName } yn dod i ben yn fuan
+subscriptionPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
+subscriptionsPaymentExpired-subject = Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan
+subscriptionsPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
+subscriptionsPaymentExpired-content = Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben.
 unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi'n allgofnodi?
 unblockCode-prompt = Os ie, dyma'r cod awdurdodi sydd ei angen arnoch:
@@ -95,9 +118,15 @@ verificationReminderSecond-description = Bron i wythnos yn ôl fe wnaethoch greu
 verificationReminderSecond-sub-description = Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi'n iawn.
 verify-title = Defnyddiwch gynnyrch teulu Firefox
 verify-subject = Gorffen creu eich cyfrif
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Mewngofnodi newydd i { $clientName }
 verifyLogin-description = Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Cadarnhau'r mewngofnodi newydd i { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Cod dilysu: { $code }
 verifyLoginCode-title = Ai hwn yw chi'n allgofnodi?
 verifyLoginCode-prompt = Os ydyw, defnyddiwch y cod dilysu hwn:
@@ -107,12 +136,18 @@ verifyPrimary-subject = Cadarnhau'r prif e-bost
 verifyPrimary-action = Dilysu'r e-bost
 verifySecondary-subject = Cadarnhau'r ail e-bost
 verifySecondary-title = Dilysu'r ail gyfrif
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r Cyfrif Firefox canlynol:
 verifySecondary-action = Dilysu'r e-bost
 verifySecondaryCode-subject = Cadarnhau'r ail e-bost
 verifySecondaryCode-title = Dilysu'r ail gyfrif
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r Cyfrif Firefox canlynol:
 verifySecondaryCode-prompt = Defnyddiwch y cod dilysu hwn:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Cod dilysu: { $code }
 verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
 verifyShortCode-prompt = Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:

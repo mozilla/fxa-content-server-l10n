@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Mozilla गोपनीयता नीति
 subplat-automated-email = यह एक स्वाचालित ईमेल है; यदि आपने इसको किसी त्रुटि के तहत प्राप्त किया है, कोई क्रिया आवश्यक नहीं.
 subplat-privacy-plaintext = गोपनीयता सूचना:
@@ -12,6 +14,8 @@ subplat-legal = कानूनी
 manage-account = खाता प्रबंधित करें
 codes-reminder-title = कम वसूली कोड शेष
 codes-generate = कोड जनरेट करें
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } पर नया साइन-इन
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = पासवर्ड अपडेट किया गया
@@ -34,6 +38,8 @@ postAddTwoStepAuthentication-description = आपने निम्न डि�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = प्राथमिक ईमेल अपडेट किया गया
 postChangePrimary-title = नया प्राथमिक ईमेल
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = आपने सफलतापूर्वक अपना प्राथमिक ईमेल { $email } में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।
 postConsumeRecoveryCode-subject = पुनर्प्राप्ति कोड का उपयोग किया गया
 postConsumeRecoveryCode-title = पुनर्प्राप्ति कोड की खपत
@@ -47,17 +53,23 @@ postRemoveAccountRecovery-description = आपने निम्न डिव�
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = द्वितीयक ईमेल हटा दिया गया
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = आपने अपने Firefox खाते से एक द्वितीयक ईमेल के रूप में { $secondaryEmail } को सफलतापूर्वक निकाल दिया हैं। सुरक्षा सूचनाएं और साइन-इन पुष्टियां अब इस पते पर डिलीवर नहीं की जाएंगी।
 postRemoveTwoStepAuthentication-subject = दो-चरणीय सत्यापन बंद है
 postRemoveTwoStepAuthentication-title = द्वि-चरणीय प्रमाणीकरण अक्षम
 postRemoveTwoStepAuthentication-description = आपने निम्न डिवाइस से अपने Firefox खाते पर दो-चरणीय प्रमाणीकरण को सफलतापूर्वक अक्षम कर दिया है:
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = कोई सवाल? { $supportUrl } पर जाएँ
 postVerifySecondary-subject = द्वितीयक ई-मेल जोड़ा गया
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = अपना कूटशब्द बदली करें
 recovery-title = क्या कूटशब्द पुनः ठीक करने की आवश्यकता है?
 recovery-description = नया पासवर्ड बनाने के लिए अगले एक घंटे के भीतर बटन पर क्लिक करें। निम्न डिवाइस से अनुरोध आया है:
+subscriptionPaymentExpired-title = आपके क्रेडिट कार्ड की अवधि समाप्त होने वाली है
+subscriptionsPaymentExpired-title = आपके क्रेडिट कार्ड की अवधि समाप्त होने वाली है
 unblockCode-subject = खाता प्राधिकरण कोड
 unblockCode-title = क्या आप ही साइन-इन कर रहे हैं?
 unblockCode-prompt = यदि हाँ, तो ये है आपका प्राधिकरण कोड जिसकी आपको ज़रूरत है:
@@ -70,9 +82,15 @@ verificationReminderSecond-subject = अंतिम अनुस्मारक
 verificationReminderSecond-title = वहाँ अभी भी?
 verify-title = उत्पादों के Firefox परिवार को सक्रिय करें
 verify-subject = अपना खाता बनाना पूर्ण करें
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } पर नया साइन-इन
 verifyLogin-description = अतिरिक्त सुरक्षा के लिए, कृपया निम्न डिवाइस से इस साइन-इन की पुष्टि करें:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName } पर नए साइन-इन की पुष्टि करें
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = सत्यापन कोड: { $code }
 verifyLoginCode-title = क्या आप ही साइन-इन कर रहे हैं?
 verifyLoginCode-prompt = यदि हाँ, तो सत्यापन कोड यहाँ है:
@@ -82,10 +100,16 @@ verifyPrimary-subject = प्राथमिक ईमेल की पुष�
 verifyPrimary-action = ईमेल सत्यापित करें
 verifySecondary-subject = द्वितीयक ईमेल की पुष्टि करें
 verifySecondary-title = द्वितीयक ई-मेल सत्यापित करें
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = { $email } को एक द्वितिय इमैल के रुप मे उपयोग करने हेतु निम्नलिखित खाते से अनुरोध किया गया हैं:
 verifySecondary-action = ईमेल सत्यापित करें
 verifySecondaryCode-subject = द्वितीयक ईमेल की पुष्टि करें
 verifySecondaryCode-title = द्वितीयक ई-मेल सत्यापित करें
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } को एक द्वितिय इमैल के रुप मे उपयोग करने हेतु निम्नलिखित खाते से अनुरोध किया गया हैं:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = सत्यापन कोड: { $code }
 verifyShortCode-title = क्या आप ही साइन-इन कर रहे हैं?

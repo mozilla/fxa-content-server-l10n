@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Localization for Firefox Accounts emails, from `fxa-auth-server`
+
 fxa-privacy-url = Kebijakan Privasi Mozilla
 subplat-automated-email = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
 subplat-privacy-plaintext = Pemberitahuan privasi:
@@ -11,6 +13,8 @@ manage-account = Kelola akun
 codes-reminder-title = Kode pemulihan tersedia sedikit lagi
 codes-reminder-description = Kami mengetahui bahwa Anda mulai kekurangan kode pemulihan. Silakan segera hasilkan kode baru untuk menghindari terkuncinya akun Anda.
 codes-generate = Buat kode
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Proses masuk baru ke { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Sandi telah diperbarui
@@ -32,6 +36,8 @@ postAddTwoStepAuthentication-description-plaintext = Anda berhasil mengaktifkan 
 postAddTwoStepAuthentication-description = Anda berhasil mengaktifkan autentikasi dua langkah pada Firefox Account Anda dari peranti berikut:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Surel utama baru
+## Variables:
+##  $email (String) - A user's email address
 postChangePrimary-description = Anda sukses mengubah surel utama Anda ke { $email }. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke Firefox Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk.
 postConsumeRecoveryCode-title = Kode pemulihan telah terpakai
 postConsumeRecoveryCode-description = Anda berhasil memakai kode pemulihan dari perangkat berikut:
@@ -44,12 +50,16 @@ postRemoveAccountRecovery-description = Anda berhasil menghapus kunci pemulihan 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Surel sekunder telah dihapus
 postRemoveSecondary-title = { postRemoveSecondary-subject }
+## Variables:
+##  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Anda telah berhasil menghapus { $secondaryEmail } sebagai email sekunder dari Firefox Account Anda. Pemberitahuan keamanan dan konfirmasi masuk tidak akan lagi dikirim ke alamat ini.
 postRemoveTwoStepAuthentication-subject = Verifikasi dua langkah dinonaktifkan
 postRemoveTwoStepAuthentication-title = Autentikasi dua langkah dinonaktifkan
 postRemoveTwoStepAuthentication-description = Anda berhasil menonaktifkan autentikasi dua langkah pada Firefox Account Anda dari peranti berikut:
 postRemoveTwoStepAuthentication-description-plaintext = Anda berhasil menonaktifkan otentikasi dua langkah pada akun Firefox Anda. Kode keamanan tidak diperlukan lagi ketika catat masuk.
 postRemoveTwoStepAuthentication-action = { manage-account }
+## Variables:
+##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Punya pertanyaan? Kunjungi { $supportUrl }
 postVerifySecondary-subject = Surel sekunder ditambahkan
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -67,16 +77,28 @@ verificationReminderSecond-title = Masih di sana?
 verificationReminderSecond-description = Hampir sepekan yang lalu Anda membuat Firefox Account namun tidak pernah memverifikasinya. Kami khawatir tentang Anda.
 verificationReminderSecond-sub-description = Konfirmasikan alamat surel ini untuk mengaktifkan akun Anda dan beri tahu kami bahwa Anda baik-baik saja.
 verify-title = Aktifkan keluarga produk Firefox
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Proses masuk baru ke { $clientName }
 verifyLogin-description = Untuk keamanan tambahan, mohon konfirmasi proses masuk dari perangkat berikut:
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Konfirmasi proses masuk baru ke { $clientName }
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Kode verifikasi: { $code }
 verifyLoginCode-title = Apakah Anda benar-benar sedang masuk?
 verifyPrimary-title = Verifikasi surel utama
 verifyPrimary-description = Permintaan untuk melakukan perubahan akun telah dibuat dari peranti berikut:
 verifySecondary-title = Verifikasi surel sekunder
+## Variables:
+##  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Permintaan untuk memakai { $email } sebagai alamat surel sekunder telah dibuat dari Firefox Account berikut:
 verifySecondaryCode-title = Verifikasi surel sekunder
+## Variables:
+##  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Permintaan untuk memakai { $email } sebagai alamat surel sekunder telah dibuat dari Firefox Account berikut:
 verifySecondaryCode-prompt = Gunakan kode verifikasi ini:
+## Variables:
+##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Kode verifikasi: { $code }
