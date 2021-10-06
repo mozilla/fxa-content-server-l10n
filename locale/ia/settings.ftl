@@ -452,7 +452,7 @@ rk-key-removed = Clave de recuperation del conto removite.
 rk-cannot-remove-key = Tu clave de recuperation del conto non pote esser removite.
 rk-refresh-key = Actualisar le clave de recuperation
 rk-content-explain = Restaura tu informationes quando tu oblida tu contrasigno.
-rk-content-reset-data = Perque remontar mi mi datos de redefinition de contrasigno?
+rk-content-reset-data = Proque reinitialisar mi contrasigno elimina mi datos?
 rk-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 rk-remove-modal-heading = Remover clave de recuperation?
 rk-remove-modal-content =
@@ -512,9 +512,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
-tfa-row-content-explain =
-    Impedi a ulle altere de acceder, requirente un
-    unic codice solo tu ha accesso.
+tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente un codice unic al qual solo tu ha accesso.
 tfa-row-cannot-verify-session-2 = Desolate, problema a verificar tu session.
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
