@@ -340,6 +340,7 @@ recovery-key-success-alert = Werstelkaai oanmakke.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Stap 1 fan 2
 add-secondary-email-error = Der is in probleem bard by it oanmeitsjen fan dit e-mailadres.
 add-secondary-email-page-title =
     .title = Sekundêr e-mailadres
@@ -353,6 +354,7 @@ add-secondary-email-save-button = Bewarje
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Stap 2 fan 2
 verify-secondary-email-error = Der is in probleem bard by it ferstjoeren fan de ferifikaasjekoade.
 verify-secondary-email-page-title =
     .title = Sekundêr e-mailadres
@@ -540,8 +542,10 @@ auth-error-110 = Unjildich token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it oer { $retryAfter } opnij.
 auth-error-138 = Net-ferifiearre sesje
 auth-error-155 = TOTP-token net fûn
