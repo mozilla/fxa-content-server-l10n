@@ -51,6 +51,7 @@ settings-subscriptions-title = Abonelikler
 
 terms = Kullanım Koşulları
 privacy = Gizlilik Bildirimi
+terms-download = İndirme koşulları
 
 ## Subscription titles
 
@@ -102,8 +103,11 @@ product-no-such-plan = Bu ürün için böyle bir plan yok.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink> ve <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-paypal } kullanır.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink>
 
 ## payment form
 
@@ -377,6 +381,7 @@ payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 ## new user email form
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
+new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
 new-user-step-2 = 2. Ödeme yönteminizi seçin
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
@@ -387,6 +392,8 @@ new-user-email =
     .label = E-postanızı yazın
 new-user-confirm-email =
     .label = E-postanızı doğrulayın
+new-user-subscribe-product-updates = { -brand-name-firefox } ile ilgili yeniliklerden haberdar olmak istiyorum
+new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
 new-user-email-validate = E-posta geçerli değil
 new-user-email-validate-confirm = E-postalar eşleşmiyor
 new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
