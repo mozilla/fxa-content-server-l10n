@@ -323,7 +323,7 @@ pay-update-manage-btn = Gerer
 
 ## subscription create
 
-sub-guarantee = Reimbursamento garantite pro 30-dies
+sub-guarantee = Garantia de reimbursamento de 30 dies
 pay-with-heading-other = Selige un modalitate de pagamento
 pay-with-heading-card-or = O paga con le carta
 pay-with-heading-card-only = Pagar con le carta
