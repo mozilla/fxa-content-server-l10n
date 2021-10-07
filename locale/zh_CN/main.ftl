@@ -159,7 +159,7 @@ payment-confirm = 我授权 Firefox 产品的开发商 Mozilla 依照付款条�
 
 payment-cancel-btn = 取消
 payment-update-btn = 更新
-payment-pay-btn = 现在付款
+payment-pay-btn = 立即付款
 payment-pay-with-paypal-btn = 通过 { -brand-name-paypal } 付款
 payment-validate-name-error = 请输入您的名字
 payment-validate-zip-required = 须填写邮政编码
