@@ -320,7 +320,7 @@ pw-change-header =
 pw-change-stay-safe = Будьте в безпеці — не використовуйте паролі повторно. Ваш пароль:
 pw-change-least-8-chars = Повинно бути не менше 8 символів
 pw-change-not-contain-email = Використайте іншу адресу е-пошти
-pw-change-must-match = Новий пароль відповідає підтвердженню
+pw-change-must-match = Новий пароль збігається з підтвердженням
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords =
     Повинен відрізнятися від цього <linkExternal>списку
