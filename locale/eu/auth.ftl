@@ -3,20 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozillaren pribatutasun politika
+fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
-subplat-privacy-plaintext = Pribatutasun-oharra:
 subplat-legal = Lege-oharra
 manage-account = Kudeatu kontua
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Pasahitza ondo aldatu da
+passwordChangeRequired-signoff = Onena,
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Bi urratseko autentifikazioa gaituta
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Ondo gaitu duzu bi urratseko autentifikazioa zure Firefox kontuan. Hemendik aurrera, zure autentifikazio-aplikazioko segurtasun-kodeak beharko dira saioa hasteko.
-postAddTwoStepAuthentication-description = Ondo gaitu duzu bi urratseko autentifikazioa ondorengo gailuko Firefox kontuan:
+postAddTwoStepAuthentication-description-plaintext = Ondo gaitu duzu bi urratseko autentifikazioa zure { -brand-firefox } kontuan. Hemendik aurrera, zure autentifikazio-aplikazioko segurtasun-kodeak beharko dira saioa hasteko.
+postAddTwoStepAuthentication-description = Ondo gaitu duzu bi urratseko autentifikazioa ondorengo gailuko { -brand-firefox } kontuan:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Helbide elektroniko nagusi berria
 postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
@@ -26,7 +29,7 @@ postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { $secondaryEmail } zure bigarren helbide elektronikoa gisa ondo kendu da zure Firefox kontutik. Ez dira gehiago bidaliko segurtasun jakinarazpenak eta saio hasiera baieztapenak helbide horretara.
+postRemoveSecondary-description = { $secondaryEmail } zure bigarren helbide elektronikoa gisa ondo kendu da zure { -brand-firefox } kontutik. Ez dira gehiago bidaliko segurtasun jakinarazpenak eta saio hasiera baieztapenak helbide horretara.
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-subject = Helbide elektroniko alternatiboa gehitua
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -49,11 +52,11 @@ verifyLoginCode-prompt = Hala bada, hau da egiaztapen-kodea:
 verifySecondary-title = Egiaztatu helbide elektroniko alternatiboa
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo Firefox kontutik:
+verifySecondary-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo { -brand-firefox } kontutik:
 verifySecondaryCode-title = Egiaztatu helbide elektroniko alternatiboa
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo Firefox kontutik:
+verifySecondaryCode-explainer = Helbide alternatibo gisa { $email } helbidea erabiltzeko eskaera egin da ondorengo { -brand-firefox } kontutik:
 ## Variables:
 ##  $code (Number) - e.g. 123456
 verifyShortCode-subject = Egiaztapen-kodea: { $code }

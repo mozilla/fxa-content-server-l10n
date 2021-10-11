@@ -3,8 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Dawirgol Suturo Mozilla
+fxa-privacy-url = Dawirgol Suturo { -brand-mozilla }
 subplat-automated-email = Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte.
 subplat-cancel = Haaytin binnditagol
 subplat-legal = Laawol
@@ -12,6 +15,7 @@ manage-account = Yiil konte
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Finnde hesɗitinaama
 passwordChanged-title = Finnde wayliraama no haaniri
+passwordChangeRequired-signoff = Buri fof,
 passwordReset-subject = Finnde hesɗitinaama
 passwordReset-title = Finnde konte maa waylinooma
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
@@ -35,7 +39,6 @@ subscriptionPaymentExpired-title = Karte maa banke ko ko ndaari gasde
 subscriptionsPaymentExpired-title = Karte maa banke ko ko ndaari gasde
 unblockCode-title = Ko aan woni ceŋiiɗo ɗoo oo?
 unblockCode-prompt = So tawii ko aan, kod jamirgol oo nani:
-verificationReminderFirst-description = Waɗii balɗe seeɗa a sosiino konte Firefox, kono a teeŋtinaani ɗe abada.
 confirm-email = Teeŋtin iimeel
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = Aɗa ɗoo tawo?

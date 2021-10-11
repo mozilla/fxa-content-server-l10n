@@ -3,11 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
 fxa-privacy-url = மொசில்லா தனியுரிமை கொள்கைகள்
 manage-account = கணக்கை நிர்வகி
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது
+passwordChangeRequired-signoff = சிறந்த,
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }

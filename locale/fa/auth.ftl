@@ -3,10 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
 fxa-privacy-url = سیاست‌های حریم‌خصوصی موزیلا
 subplat-automated-email = این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست.
 manage-account = مدیریت حساب‌کاربری
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = تعداد کمی کد بازیابی باقی‌مانده
 codes-reminder-description = متوجه شدیم که شما تعداد کمی کد بازیابی دارید. لطفا جهت جلوگیری از عدم امکانِ دسترسی به حساب خود، کدهای جدید ایجاد کنید.
 ## Variables:
@@ -14,6 +18,7 @@ codes-reminder-description = متوجه شدیم که شما تعداد کمی �
 newDeviceLogin-subject = ورود جدید به { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = گذرواژه با موفقیت تغییر کرد
+passwordChangeRequired-signoff = بهترین ها،
 passwordReset-title = گذرواژه حساب شما تغییر کرد
 passwordResetAccountRecovery-title = گذرواژهٔ حساب شما با یک کلید بازیابی بازنشانی شد
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }

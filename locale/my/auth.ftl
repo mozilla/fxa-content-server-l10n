@@ -3,10 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
 manage-account = အကောင့်ကို စီမံရန်
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = စကားဝှက်ကို အောင်မြင်စွာပြောင်းလဲခဲ့သည်
+passwordChangeRequired-signoff = အကောင်းဆုံး၊
 passwordReset-title = သင့်အကောင့်စကားဝှက်ကိုပြောင်းလဲခဲ့သည်
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }

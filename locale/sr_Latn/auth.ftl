@@ -3,21 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla polisa privatnosti
+fxa-privacy-url = { -brand-mozilla } polisa privatnosti
 subplat-automated-email = Ovo je automatska e-pošta; ako ste je greškom primili, nijedna radnja nije 
-subplat-privacy-plaintext = Politika privatnosti:
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Primili ste ovu poruku zato što { $email } ima Firefox nalog i pretplatili 
 subplat-terms-policy = Uslovi i polisa otkazivanja
 subplat-cancel = Otkažite pretplatu
 subplat-reactivate = Ponovo aktivirajte pretplatu
 subplat-update-billing = Ažurirajte podatke o plaćanju
 subplat-legal = Pravne informacije
 manage-account = Upravljajte nalogom
-subscriptionUpdatePayment-plaintext = Da biste izbegli bilo kakve prekide usluge, ažurirajte vaše podatke o 
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mali broj kodova za oporavak je ostao
 codes-reminder-description = Primetili smo da vam je ostao mali broj kodova za oporavak. Razmislite o 
 codes-generate = Generiši kodove
@@ -28,6 +26,7 @@ newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Lozinka je ažurirana
 passwordChanged-title = Lozinka je uspešno promenjena
 passwordChangeRequired-subject = Otkrivena je sumnjiva radnja
+passwordChangeRequired-signoff = Najbolje,
 passwordReset-subject = Lozinka je ažurirana
 passwordReset-title = Lozinka vašeg naloga je promenjena
 passwordResetAccountRecovery-subject = Lozinka je ažurirana pomoću ključa za oporavak
@@ -37,11 +36,11 @@ passwordResetAccountRecovery-action = Napravite novi ključ za oporavak
 passwordResetAccountRecovery-regen-required = Morate generisati novi ključ za oporavak.
 postAddAccountRecovery-subject = Ključ za oporavak naloga generisan
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = Uspešno ste generisali ključ za oporavak naloga za vaš Firefox nalog 
+postAddAccountRecovery-description = Uspešno ste generisali ključ za oporavak naloga za vaš { -brand-firefox } nalog 
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Autentifikacija u dva koraka omogućena
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description = Uspešno ste omogućili autentifikaciju u dva koraka na vašem Firefox nalogu 
+postAddTwoStepAuthentication-description = Uspešno ste omogućili autentifikaciju u dva koraka na vašem { -brand-firefox } nalogu 
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primarna adresa e-pošte je ažurirana
 postChangePrimary-title = Nova primarna adresa e-pošte
@@ -53,14 +52,14 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = Uspešno ste generisali nove kodove za oporavak sa uređaja:
 postRemoveAccountRecovery-subject = Ključ za oporavak naloga uklonjen
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = Uspešno ste uklonili ključ za oporavak naloga za vaš Firefox nalog iz 
+postRemoveAccountRecovery-description = Uspešno ste uklonili ključ za oporavak naloga za vaš { -brand-firefox } nalog iz 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Uklonjena je sekundarna adresa e-pošte
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-subject = Autentifikacija u dva koraka onemogućena
 postRemoveTwoStepAuthentication-title = Autentifikacija u dva koraka onemogućena
-postRemoveTwoStepAuthentication-description = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem Firefox nalogu 
-postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem Firefox 
+postRemoveTwoStepAuthentication-description = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem { -brand-firefox } nalogu 
+postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem { -brand-firefox } 
 postRemoveTwoStepAuthentication-action = { manage-account }
 ## Variables:
 ##  $email (String) - Link to https://accounts.firefox.com/support
@@ -79,16 +78,15 @@ unblockCode-subject = Kod za autorizaciju naloga
 unblockCode-title = Da li ste se ovo vi prijavili?
 unblockCode-prompt = Ako jeste, evo autorizacionog koda koji vam je potreban:
 verificationReminderFirst-subject = Opomena: završite pravljenje vašeg naloga
-verificationReminderFirst-title = Dobrodošli u Firefox porodicu
-verificationReminderFirst-description = Pre nekoliko dana ste napravili Firefox nalog, ali ga niste i potvrdili.
+verificationReminderFirst-title = Dobrodošli u { -brand-firefox } porodicu
 verificationReminderFirst-sub-description = Potvrdite sada i usvojite tehnologiju koja se bori za vaša prava, štiti vašu 
 confirm-email = Potvrdite svoju e-poštu
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = Poslednja opomena: aktivirajte vaš nalog
 verificationReminderSecond-title = Još uvek ste ovde?
-verificationReminderSecond-description = Pre skoro nedelju dana napravili ste Firefox nalog, ali ga nikada niste i 
+verificationReminderSecond-description = Pre skoro nedelju dana napravili ste { -brand-firefox } nalog, ali ga nikada niste i 
 verificationReminderSecond-sub-description = Potvrdite ovu e-adresu da biste aktivirali svoj nalog i javite nam da ste 
-verify-title = Aktivirajte Firefox porodicu proizvoda
+verify-title = Aktivirajte { -brand-firefox } porodicu proizvoda
 verify-subject = Završite pravljenje vašeg naloga
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)

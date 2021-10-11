@@ -3,14 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
 fxa-privacy-url = سياسة موزيلا للخصوصيّة
 subplat-automated-email = هذا بريد إلكتروني الآلي، إذا تلقيته لوجود خطأ فليس مطلوب أي إجراء.
-subplat-privacy-plaintext = تنويه الخصوصية:
 subplat-terms-policy = الشروط وتنويه الإلغاء
 subplat-cancel = ألغِ الاشتراك
 subplat-update-billing = حدّث معلومات الفوترة
 manage-account = أدِر الحساب
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = رموز الاستعادة المتبقية قليلة
 codes-reminder-description = لاحظنا بأن رموز الاستعادة لديك باتت قليلة. من فضلك خُذ بالحسبان أن توليد رموز جديدة يقيك من استحالة الوصول إلى حسابك.
 codes-generate = ولّد الرموز
@@ -20,6 +23,7 @@ newDeviceLogin-subject = ولوج جديد إلى { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = تحدّثت كلمة السر
 passwordChanged-title = غُيّرت كلمة السرّ بنجاح
+passwordChangeRequired-signoff = تحياتنا،
 passwordReset-subject = تحدّثت كلمة السر
 passwordReset-title = تغيّرت كلمة سر حسابك
 passwordResetAccountRecovery-title = صُفِّرت كلمة سر حسابك بأحد مفاتيح الاستعادة
@@ -70,7 +74,7 @@ unblockCode-subject = رمز تخويل الحساب
 unblockCode-title = هل هذا أنت من تُحاول الولوج؟
 unblockCode-prompt = إذا كان الجواب نعم، هذا هو رمز التخويل الذي تحتاجة:
 verificationReminderFirst-subject = تذكير: أنهِ إنشاء حسابك
-verificationReminderFirst-title = مرحبًا بك في عائلة Firefox
+verificationReminderFirst-title = مرحبًا بك في عائلة { -brand-firefox }
 confirm-email = أكّد عنوان البريد
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = تذكير أخير: فعّل حسابك

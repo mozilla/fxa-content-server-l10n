@@ -3,12 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla-ның жекелік саясаты
+fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
 subplat-automated-email = Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес.
 manage-account = Тіркелгіні басқару
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Пароль сәтті өзгертілді
+passwordChangeRequired-signoff = Құрметпен,
 passwordReset-title = Тіркелгіңіздің паролі өзгертілді
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }
@@ -23,7 +27,7 @@ postRemoveSecondary-subject = Екіншілік эл. пошта адресі �
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Сіз Firefox тіркелгіңізден { $secondaryEmail } адресін екіншілік адресі ретінде сәтті өшірдіңіз. Қауіпсіздік ескертулері және кіру хабарламалары ол адреске енді жіберілмейтін болады.
+postRemoveSecondary-description = Сіз { -brand-firefox } тіркелгіңізден { $secondaryEmail } адресін екіншілік адресі ретінде сәтті өшірдіңіз. Қауіпсіздік ескертулері және кіру хабарламалары ол адреске енді жіберілмейтін болады.
 postRemoveTwoStepAuthentication-title = Екі қадамды аутентификация іске сөндірілді
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-subject = Екіншілік эл. пошта адресі қосылған
@@ -39,8 +43,8 @@ verifyPrimary-description = Тіркелгіде өзгерістерді жас
 verifySecondary-title = Екіншілік эл. поштаны растау
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі Firefox тіркелгісінен жасалған:
+verifySecondary-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -brand-firefox } тіркелгісінен жасалған:
 verifySecondaryCode-title = Екіншілік эл. поштаны растау
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі Firefox тіркелгісінен жасалған:
+verifySecondaryCode-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -brand-firefox } тіркелгісінен жасалған:

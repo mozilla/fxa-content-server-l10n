@@ -3,30 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla personvernbestemmelser
+fxa-privacy-url = { -brand-mozilla } personvernbestemmelser
 subplat-automated-email = Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe.
-subplat-privacy-plaintext = Personvernbestemmelser:
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Du mottar denne e-postmeldingen fordi { $email } har en Firefox-konto og du registrerte deg for { $productName }.
-## Variables:
-##  $email (String) - A user's primary email address
-subplat-explainer-multiple = Du mottar denne e-postmeldingen fordi { $email } har en Firefox-konto og du har abonnert på flere produkter.
 subplat-terms-policy = Vilkår og avbestillingsregler
 subplat-cancel = Avbryt abonnement
 subplat-reactivate = Reaktiver abonnement
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-legal = Juridisk
 manage-account = Behandle konto
-subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din så snart som mulig for å unngå avbrudd i din tjeneste:
 cadReminderFirst-subject = Din vennlige påminnelse: Slik fullfører du synkroniseringsoppsettet
 cadReminderFirst-action = Synkroniser en annen enhet
 cadReminderFirst-title = Her er påminnelsen din om å synkronisere enheter.
 cadReminderSecond-subject = Endelig påminnelse: Fullør synkroniseringsoppsett
 cadReminderSecond-action = Synkroniser en annen enhet
 cadReminderSecond-title = Siste påminnelse om å synkronisere enheter!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettelseskoder igjen
 codes-reminder-description = Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utestengt fra kontoen din.
 codes-generate = Generer koder
@@ -38,10 +33,8 @@ passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaget
 passwordChangeRequired-title = Passordendring kreves
-passwordChangeRequired-suspicious-activity = Vi oppdaget mistenkelig oppførsel på Firefox-kontoen din. For å forhindre uautorisert tilgang til kontoen din, har vi koblet fra alle enhetene på kontoen og krever at du endrer passordet ditt som 
-passwordChangeRequired-sign-in = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker Firefox-kontoen din, og følg trinnene som vil bli presentert for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
-passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
+passwordChangeRequired-signoff = Med vennlig hilsen
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt ble endret
 passwordResetAccountRecovery-subject = Passord oppdatert ved hjelp av gjenopprettingsnøkkel
@@ -51,18 +44,18 @@ passwordResetAccountRecovery-action = Opprett ny gjenopprettingsnøkkel
 passwordResetAccountRecovery-regen-required = Du må generere en ny gjenopprettingsnøkkel.
 postAddAccountRecovery-subject = Gjenopprettingsnøkkel for konto opprettet
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = Du har opprettet en nøkkel for kontogjenoppretting for din Firefox-konto ved hjelp av følgende enhet:
+postAddAccountRecovery-description = Du har opprettet en nøkkel for kontogjenoppretting for din { -brand-firefox }-konto ved hjelp av følgende enhet:
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Totrinns-verifisering aktivert
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Du har aktivert totrinns-verifisering på din Firefox-konto. Sikkerhetskoder fra autentiseringappen din vil nå kreves ved hver pålogging.
-postAddTwoStepAuthentication-description = Du har aktivert totrinns-verifisering på din Firefox-konto fra følgende enhet:
+postAddTwoStepAuthentication-description-plaintext = Du har aktivert totrinns-verifisering på din { -brand-firefox }-konto. Sikkerhetskoder fra autentiseringappen din vil nå kreves ved hver pålogging.
+postAddTwoStepAuthentication-description = Du har aktivert totrinns-verifisering på din { -brand-firefox }-konto fra følgende enhet:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på Firefox-kontoen din, samt for å ta imot sikkerhetsvarsler og bekreftelser på 
+postChangePrimary-description = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på { -brand-firefox }-kontoen din, samt for å ta imot sikkerhetsvarsler og bekreftelser på 
 postConsumeRecoveryCode-subject = Gjenopprettingskode brukt
 postConsumeRecoveryCode-title = Gjenopprettingskode brukt
 postConsumeRecoveryCode-description = Du har brukt en gjenopprettingskode fra følgende enhet:
@@ -71,21 +64,21 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = Du har generert nye gjenopprettingskoder fra følgende enhet:
 postRemoveAccountRecovery-subject = Gjenopprettingsnøkkel for konto fjernet
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = Du har fjernet en nøkkel for kontogjenoppretting for din Firefox-konto ved hjelp av følgende enhet:
+postRemoveAccountRecovery-description = Du har fjernet en nøkkel for kontogjenoppretting for din { -brand-firefox }-konto ved hjelp av følgende enhet:
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra Firefox-kontoen din. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
+postRemoveSecondary-description = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra { -brand-firefox }-kontoen din. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
 postRemoveTwoStepAuthentication-subject = Totrinns-verifisering er slått av
 postRemoveTwoStepAuthentication-title = Totrinns-verifisering deaktivert
-postRemoveTwoStepAuthentication-description = Du har deaktivert totrinns-verifisering på din Firefox-konto fra følgende enhet:
-postRemoveTwoStepAuthentication-description-plaintext = Du har deaktivert totrinns-verifisering på din Firefox-konto. Sikkerhetskoder vil ikke lenger kreves ved hver pålogging.
+postRemoveTwoStepAuthentication-description = Du har deaktivert totrinns-verifisering på din { -brand-firefox }-konto fra følgende enhet:
+postRemoveTwoStepAuthentication-description-plaintext = Du har deaktivert totrinns-verifisering på din { -brand-firefox }-konto. Sikkerhetskoder vil ikke lenger kreves ved hver pålogging.
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Firefox-konto bekreftet. Du er nesten klar.
+postVerify-sub-title = { -brand-firefox }-konto bekreftet. Du er nesten klar.
 postVerify-title = Synkroniser enhetene dine nå!
-postVerify-description = Privat synkronisering holder bokmerkene, passordene og andre Firefox-data helt lik på alle enhetene dine.
+postVerify-description = Privat synkronisering holder bokmerkene, passordene og andre { -brand-firefox }-data helt lik på alle enhetene dine.
 postVerify-subject = Kontoen bekreftet. Synkroniser nå en annen enhet for å fullføre installasjonen
 postVerify-setup = Konfigurer neste enhet
 ## Variables:
@@ -107,16 +100,15 @@ unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som logger inn?
 unblockCode-prompt = Hvis ja, her er godkjenningskoden du trenger:
 verificationReminderFirst-subject = Påminnelse: Fullfør oppretting av kontoen din
-verificationReminderFirst-title = Velkommen til Firefox-familien
-verificationReminderFirst-description = For noen dager siden laget du en Firefox-konto, men du bekreftet den aldri.
+verificationReminderFirst-title = Velkommen til { -brand-firefox }-familien
 verificationReminderFirst-sub-description = Bekreft nå og få teknologi som kjemper for og beskytter personvernet ditt, gir deg praktisk kunnskap og respekten du fortjener.
 confirm-email = Bekreft e-postadressen
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = Siste påminnelse: Aktiver din konto
 verificationReminderSecond-title = Fortsatt der?
-verificationReminderSecond-description = For nesten en uke siden opprettet du en Firefox-konto, men bekreftet den aldri. Vi lurer på hva som skjedde.
+verificationReminderSecond-description = For nesten en uke siden opprettet du en { -brand-firefox }-konto, men bekreftet den aldri. Vi lurer på hva som skjedde.
 verificationReminderSecond-sub-description = Bekreft denne e-postadressen for å aktivere kontoen din, og la oss få vite at du har det bra.
-verify-title = Aktiver hele Firefox-familien
+verify-title = Aktiver hele { -brand-firefox }-familien
 verify-subject = Fullfør oppretting av kontoen din
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -138,13 +130,13 @@ verifySecondary-subject = Bekreft sekundær e-postadresse
 verifySecondary-title = Verifiser sekundær e-postadresse
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende Firefox-konto:
+verifySecondary-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -brand-firefox }-konto:
 verifySecondary-action = Bekreft e-post
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
 verifySecondaryCode-title = Verifiser sekundær e-postadresse
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende Firefox-konto:
+verifySecondaryCode-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -brand-firefox }-konto:
 verifySecondaryCode-prompt = Bruk denne bekreftelseskoden:
 ## Variables:
 ##  $code (Number) - e.g. 123456

@@ -3,11 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Política de privacidá de Mozilla
+fxa-privacy-url = Política de privacidá de { -brand-mozilla }
 subplat-automated-email = Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada.
-subplat-privacy-plaintext = Avisu de privacidá:
 manage-account = Xestionar la cuenta
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Queden pocos códigos de recuperación
 codes-reminder-description = Decatémonos de que tas quedando ensin códigos de recuperación. Vete pensando en xenerar otros nuevos pa evitar el bloquéu de la cuenta, por favor.
 ## Variables:
@@ -15,6 +18,7 @@ codes-reminder-description = Decatémonos de que tas quedando ensin códigos de 
 newDeviceLogin-subject = Aniciu de sesión nuevu en { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = La contraseña camudó con ésitu
+passwordChangeRequired-signoff = Atentamente,
 passwordReset-title = Camudó la contraseña de la cuenta
 passwordResetAccountRecovery-regen-required = Vas tener de xenerar una clave de recuperación nueva.
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
@@ -44,11 +48,10 @@ subscriptionPaymentExpired-title = La tarxeta de creitu ta a piques de caducar
 subscriptionsPaymentExpired-title = La tarxeta de creitu ta a piques de caducar
 unblockCode-title = ¿Yes tu aniciando sesión?
 unblockCode-prompt = Si ye asina, esti ye'l códigu d'autorización que precises:
-verificationReminderFirst-title = Afáyate na familia de Firefox
-verificationReminderFirst-description = Hai unos díes creesti una cuenta de Firefox mas enxamás la confirmesti.
+verificationReminderFirst-title = Afáyate na familia de { -brand-firefox }
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = ¿Sigues ehí?
-verificationReminderSecond-description = Hai cuasi una selmana que creesti una cuenta de Firefox mas enxamás la verifiquesti. Tiénesnos esmolecíos.
+verificationReminderSecond-description = Hai cuasi una selmana que creesti una cuenta de { -brand-firefox } mas enxamás la verifiquesti. Tiénesnos esmolecíos.
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Aniciu de sesión nuevu en { $clientName }

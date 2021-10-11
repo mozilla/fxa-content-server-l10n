@@ -3,30 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
 fxa-privacy-url = Zasady ochrony prywatności Mozilli
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
-subplat-privacy-plaintext = Zasady ochrony prywatności:
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano konto Firefoksa i zapisano się na usługę { $productName }.
-## Variables:
-##  $email (String) - A user's primary email address
-subplat-explainer-multiple = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano konto Firefoksa i subskrybowano wiele produktów.
 subplat-terms-policy = Regulamin i zasady anulowania
 subplat-cancel = Anuluj subskrypcję
 subplat-reactivate = Ponownie aktywuj subskrypcję
 subplat-update-billing = Zaktualizuj dane płatnicze
 subplat-legal = Podstawa prawna
 manage-account = Zarządzaj kontem
-subscriptionUpdatePayment-plaintext = Aby zapobiec przerwom w działaniu, prosimy zaktualizować informacje o płatności tak szybko, jak to możliwe:
 cadReminderFirst-subject = Przyjacielskie przypomnienie: jak dokończyć konfigurację synchronizacji
 cadReminderFirst-action = Synchronizuj inne urządzenie
 cadReminderFirst-title = Przypomnienie o synchronizacji urządzeń.
 cadReminderSecond-subject = Ostatnie przypomnienie: dokończ konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title = Ostatnie przypomnienie o synchronizacji urządzeń!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pozostało mało kodów odzyskiwania
 codes-reminder-description = Zauważyliśmy, że pozostało mało kodów odzyskiwania. Prosimy rozważyć utworzenie nowych, aby uniknąć zablokowania konta.
 codes-generate = Utwórz kody
@@ -38,10 +33,8 @@ passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
 passwordChangeRequired-subject = Wykryto podejrzane działania
 passwordChangeRequired-title = Wymagana jest zmiana hasła
-passwordChangeRequired-suspicious-activity = Wykryliśmy podejrzane zachowanie na Twoim koncie Firefoksa. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków 
-passwordChangeRequired-sign-in = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z konta Firefoksa i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
 passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
-passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
+passwordChangeRequired-signoff = Pozdrawiamy,
 passwordReset-subject = Zaktualizowano hasło
 passwordReset-title = Hasło konta zostało zmienione
 passwordResetAccountRecovery-subject = Zaktualizowano hasło za pomocą klucza odzyskiwania
@@ -108,7 +101,6 @@ unblockCode-title = Czy to Ty się logujesz?
 unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
 verificationReminderFirst-subject = Przypomnienie: dokończ tworzenie konta
 verificationReminderFirst-title = Witamy w rodzinie Firefoksa
-verificationReminderFirst-description = Kilka dni temu utworzono konto Firefoksa, ale nigdy go nie potwierdzono.
 verificationReminderFirst-sub-description = Potwierdź teraz i korzystaj z technologii, która walczy o Twoją prywatność i chroni ją, uzbraja Cię w praktyczną wiedzę oraz darzy Cię szacunkiem, na jaki zasługujesz.
 confirm-email = Potwierdź adres e-mail
 verificationReminderFirst-action = { confirm-email }

@@ -3,8 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla maxfiylik siyosati
+fxa-privacy-url = { -brand-mozilla } maxfiylik siyosati
 newDeviceLogin-title = { newDeviceLogin-subject }
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }

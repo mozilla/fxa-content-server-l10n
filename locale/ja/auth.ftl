@@ -3,16 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla プライバシーポリシー
+fxa-privacy-url = { -brand-mozilla } プライバシーポリシー
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
-subplat-privacy-plaintext = プライバシー通知:
 subplat-terms-policy = 利用規約とキャンセルポリシー
 subplat-cancel = 購読を解除
 subplat-update-billing = 支払い情報を更新
 subplat-legal = 法的通知
 manage-account = アカウント管理
-subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
 codes-generate = コードを生成
@@ -24,10 +26,8 @@ passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-title = パスワードの変更が必要です
-passwordChangeRequired-suspicious-activity = Firefox アカウントで疑わしい動作が検出されました。 Firefox アカウントへの不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
-passwordChangeRequired-sign-in = Firefox アカウントを使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
 passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
-passwordChangeRequired-different-password-plaintext = 重要: 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
+passwordChangeRequired-signoff = ご利用ありがとうございます
 passwordReset-subject = パスワードを更新しました
 passwordReset-title = アカウントのパスワードが変更されました
 passwordResetAccountRecovery-subject = 回復用キーでパスワードが更新されました
@@ -37,18 +37,18 @@ passwordResetAccountRecovery-action = 新しい回復用キーを作成
 passwordResetAccountRecovery-regen-required = 新しい回復用キーを生成する必要があります。
 postAddAccountRecovery-subject = アカウント回復用キーが生成されました
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = 以下の端末を使ってあなたの Firefox アカウントの回復用キーの生成が完了しました:
+postAddAccountRecovery-description = 以下の端末を使ってあなたの { -brand-firefox } アカウントの回復用キーの生成が完了しました:
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = 2 段階認証が有効化されました
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Firefox アカウント上の 2 段階認証の有効化が完了しました。今後ログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
-postAddTwoStepAuthentication-description = 次の端末から Firefox アカウント上の 2 段階認証の有効化が完了しました:
+postAddTwoStepAuthentication-description-plaintext = { -brand-firefox } アカウント上の 2 段階認証の有効化が完了しました。今後ログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
+postAddTwoStepAuthentication-description = 次の端末から { -brand-firefox } アカウント上の 2 段階認証の有効化が完了しました:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = 主要アドレスが更新されました
 postChangePrimary-title = 新しい主要アドレス
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、Firefox アカウントへログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
+postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、{ -brand-firefox } アカウントへログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postConsumeRecoveryCode-title = 回復用コードが使用されました
 postConsumeRecoveryCode-description = 次の端末から回復用コードの使用が完了しました:
 postNewRecoveryCodes-subject = 新しい回復用コードが生成されました
@@ -56,19 +56,19 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = 次の端末から新しい回復用コードの生成が完了しました:
 postRemoveAccountRecovery-subject = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = 以下の端末を使ってあなたの Firefox アカウントの回復用キーの削除が完了しました:
+postRemoveAccountRecovery-description = 以下の端末を使ってあなたの { -brand-firefox } アカウントの回復用キーの削除が完了しました:
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { $secondaryEmail } があなたの Firefox アカウントの予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスには送られなくなります。
+postRemoveSecondary-description = { $secondaryEmail } があなたの { -brand-firefox } アカウントの予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスには送られなくなります。
 postRemoveTwoStepAuthentication-subject = 2 段階認証が設定されていません
 postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
-postRemoveTwoStepAuthentication-description = 次の端末から Firefox アカウント上の 2 段階認証の無効化が完了しました:
-postRemoveTwoStepAuthentication-description-plaintext = Firefox アカウント上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要はなくなります。
+postRemoveTwoStepAuthentication-description = 次の端末から { -brand-firefox } アカウント上の 2 段階認証の無効化が完了しました:
+postRemoveTwoStepAuthentication-description-plaintext = { -brand-firefox } アカウント上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要はなくなります。
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Firefox アカウントが確認されました。あと少しです。
+postVerify-sub-title = { -brand-firefox } アカウントが確認されました。あと少しです。
 ## Variables:
 ##  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = ご質問はこちらから: { $supportUrl }
@@ -83,8 +83,7 @@ unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
 unblockCode-prompt = もしそうなら、ここに必要な認証コードがあります:
 verificationReminderFirst-subject = 通知: アカウント作成を完了してください
-verificationReminderFirst-title = Firefox ファミリーへようこそ
-verificationReminderFirst-description = 数日前に Firefox アカウントを作成されましたが、まだ確認が行われていません。
+verificationReminderFirst-title = { -brand-firefox } ファミリーへようこそ
 confirm-email = メールアドレス確認
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = 最終通知：アカウントを有効にしてください
@@ -111,13 +110,13 @@ verifySecondary-subject = 予備メールアドレスの確認
 verifySecondary-title = 予備アドレスを確認
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の Firefox アカウントから行われました:
+verifySecondary-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -brand-firefox } アカウントから行われました:
 verifySecondary-action = メールアドレスの確認
 verifySecondaryCode-subject = 予備メールアドレスの確認
 verifySecondaryCode-title = 予備アドレスを確認
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の Firefox アカウントから行われました:
+verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -brand-firefox } アカウントから行われました:
 ## Variables:
 ##  $code (Number) - e.g. 123456
 verifyShortCode-subject = 確認コード: { $code }

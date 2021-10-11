@@ -3,30 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla 隱私權保護政策
+fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
-subplat-privacy-plaintext = 隱私權保護政策:
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊了 Firefox 帳號，並且訂購了 { $productName }。
-## Variables:
-##  $email (String) - A user's primary email address
-subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 Firefox 帳號，並且訂閱了多套產品。
 subplat-terms-policy = 條款及取消政策
 subplat-cancel = 取消訂閱
 subplat-reactivate = 重新啟用訂閱
 subplat-update-billing = 更新帳務資訊
 subplat-legal = 法律資訊
 manage-account = 管理帳號
-subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊:
 cadReminderFirst-subject = 善意提醒：如何完成 Sync 設定
 cadReminderFirst-action = 同步另一台裝置
 cadReminderFirst-title = 提醒您要記得同步裝置。
 cadReminderSecond-subject = 這是最後一次顯示提醒囉：請完成 Sync 設定
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title = 這是最後一次顯示提醒囉，要記得同步裝置！
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
 codes-generate = 產生新代碼
@@ -38,10 +33,8 @@ passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
 passwordChangeRequired-subject = 偵測到可疑行為
 passwordChangeRequired-title = 需要更改密碼
-passwordChangeRequired-suspicious-activity = 我們偵測到您的 Firefox 帳號有可疑行為。為了防止您的帳號未經授權被使用，我們已解除您的帳號下所有裝置的連結，並且要求您更改密碼。
-passwordChangeRequired-sign-in = 請到您會使用 Firefox 帳號的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-different-password = <b>重要:</b> 請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
-passwordChangeRequired-different-password-plaintext = 重要: 請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
+passwordChangeRequired-signoff = 順頌　時祺
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordResetAccountRecovery-subject = 已使用救援金鑰更新密碼
@@ -51,18 +44,18 @@ passwordResetAccountRecovery-action = 產生新的救援金鑰
 passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰。
 postAddAccountRecovery-subject = 已產生新的救援金鑰
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = 您已使用下列裝置，成功產生新的 Firefox 帳號救援金鑰:
+postAddAccountRecovery-description = 您已使用下列裝置，成功產生新的 { -brand-firefox } 帳號救援金鑰:
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = 您已成功開啟 Firefox 帳號的兩階段驗證。每次登入時將會要求您輸入驗證程式中的安全碼。
-postAddTwoStepAuthentication-description = 您已從下列裝置成功為 Firefox 帳號開啟兩階段驗證:
+postAddTwoStepAuthentication-description-plaintext = 您已成功開啟 { -brand-firefox } 帳號的兩階段驗證。每次登入時將會要求您輸入驗證程式中的安全碼。
+postAddTwoStepAuthentication-description = 您已從下列裝置成功為 { -brand-firefox } 帳號開啟兩階段驗證:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 Firefox 帳號，也會在這個信箱中收到安全性通知、登入確認信等等。
+postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -brand-firefox } 帳號，也會在這個信箱中收到安全性通知、登入確認信等等。
 postConsumeRecoveryCode-subject = 已使用救援碼
 postConsumeRecoveryCode-title = 已使用救援碼
 postConsumeRecoveryCode-description = 您已在下列裝置上，成功使用救援碼登入:
@@ -71,21 +64,21 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = 您已在下列裝置上，成功產生新救援碼:
 postRemoveAccountRecovery-subject = 已刪除救援金鑰
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = 您已使用下列裝置，成功移除 Firefox 帳號救援金鑰:
+postRemoveAccountRecovery-description = 您已使用下列裝置，成功移除 { -brand-firefox } 帳號救援金鑰:
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從次要 Firefox 帳號刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
+postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從次要 { -brand-firefox } 帳號刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
 postRemoveTwoStepAuthentication-subject = 已關閉兩階段驗證
 postRemoveTwoStepAuthentication-title = 已關閉兩階段驗證
-postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 Firefox 帳號關閉兩階段驗證:
-postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 Firefox 帳號的兩階段驗證。登入時將不再要求您輸入安全碼。
+postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -brand-firefox } 帳號關閉兩階段驗證:
+postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -brand-firefox } 帳號的兩階段驗證。登入時將不再要求您輸入安全碼。
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Firefox 帳號驗證完成，快完成了。
+postVerify-sub-title = { -brand-firefox } 帳號驗證完成，快完成了。
 postVerify-title = 接下來與您的其他裝置同步！
-postVerify-description = Sync 會安全地在您所有的裝置間同步書籤、密碼與其他 Firefox 資料。
+postVerify-description = Sync 會安全地在您所有的裝置間同步書籤、密碼與其他 { -brand-firefox } 資料。
 postVerify-subject = 帳號驗證完成。接下來請與另一台裝置同步來完成設定過程
 postVerify-setup = 設定下一台裝置
 ## Variables:
@@ -107,16 +100,15 @@ unblockCode-subject = 帳號授權碼
 unblockCode-title = 要登入的是您嗎？
 unblockCode-prompt = 是的話，以下是您的授權碼：
 verificationReminderFirst-subject = 提醒: 請完成帳號註冊
-verificationReminderFirst-title = 歡迎來到 Firefox 的大家庭
-verificationReminderFirst-description = 幾天前您註冊了 Firefox 帳號，但沒有進行確認。
+verificationReminderFirst-title = 歡迎來到 { -brand-firefox } 的大家庭
 verificationReminderFirst-sub-description = 請立即確認，即可獲得為您的隱私而戰的相關技術、實用知識以及您應得的尊重。
 confirm-email = 確認電子郵件信箱
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = 這是最後一次顯示提醒囉：請啟用帳號
 verificationReminderSecond-title = 您還在嗎？
-verificationReminderSecond-description = 接近一週前，您註冊了 Firefox 帳號，但尚未確認電子郵件地址。
+verificationReminderSecond-description = 接近一週前，您註冊了 { -brand-firefox } 帳號，但尚未確認電子郵件地址。
 verificationReminderSecond-sub-description = 請確認這個信箱是否有效，並且啟用帳號，讓我們知道您沒遇到什麼問題。
-verify-title = 啟用 Firefox 系列產品
+verify-title = 啟用 { -brand-firefox } 系列產品
 verify-subject = 完成帳號註冊
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -138,13 +130,13 @@ verifySecondary-subject = 確認次要電子郵件地址
 verifySecondary-title = 驗證次要電子郵件地址
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = 有人要求將 { $email } 加入為下列 Firefox 帳號的次要地址:
+verifySecondary-explainer = 有人要求將 { $email } 加入為下列 { -brand-firefox } 帳號的次要地址:
 verifySecondary-action = 驗證信箱
 verifySecondaryCode-subject = 確認次要電子郵件地址
 verifySecondaryCode-title = 驗證次要電子郵件地址
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 Firefox 帳號的次要地址:
+verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -brand-firefox } 帳號的次要地址:
 verifySecondaryCode-prompt = 使用這組驗證碼:
 ## Variables:
 ##  $code (Number) - e.g. 123456

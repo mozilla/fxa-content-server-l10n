@@ -3,10 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Mozilla کی رازداری پالیسی
+fxa-privacy-url = { -brand-mozilla } کی رازداری پالیسی
 subplat-automated-email = یہ ایک خودکار ای میل ہے؛ اگر یہ آپ کو کسی نقص میں موصول ہوئی ہے، کو عمل کرنے کی ظرورت نہیں ہے۔
-subplat-privacy-plaintext = رازداری کا نوٹس:
 subplat-terms-policy = شرائط اور منسوخی کی پالیسی
 subplat-cancel = رکنیت منسوخ کریں
 subplat-legal = قانونى
@@ -18,6 +20,7 @@ newDeviceLogin-subject = { $clientName } میں نیا سائن ان
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے
 passwordChangeRequired-subject = مشکوک سرگرمی کا پتہ چلا ہے
+passwordChangeRequired-signoff = بہترين
 passwordReset-title = آپ کے اکاؤنٹ کا پاس ورڈ تبدیل کیا گیا تھا
 passwordResetAccountRecovery-action = نیابازیافت کلید بنائیں
 postAddAccountRecovery-subject = اکاؤنٹ کی بازیابی کی کلید بنادی گئی
@@ -37,7 +40,7 @@ postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-subject = دو قدمی توثیق بند ہے
 postRemoveTwoStepAuthentication-title = دو قدمی توثیق غیر فعال ہوگئ
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Firefox  اکاؤنٹ کی تصدیق ہوگئی۔ آپ تقریباً   وہاں ہیں ۔
+postVerify-sub-title = { -brand-firefox }  اکاؤنٹ کی تصدیق ہوگئی۔ آپ تقریباً   وہاں ہیں ۔
 postVerify-setup = اگلا آلہ ترتیب دیں۔
 ## Variables:
 ##  $email (String) - Link to https://accounts.firefox.com/support
@@ -47,8 +50,7 @@ postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = اپنا پاس ورڈ دوبارہ سیٹ کریں
 recovery-title = اپنا پاس ورڈ پھر کرنے کی ظرورت ہے؟
 unblockCode-title = کیا یہ آُپ ہیں جو سائن ان کر رہے ہیں؟
-verificationReminderFirst-title = Firefox کے خاندان میں خوش آمدید
-verificationReminderFirst-description = کچھ دن پہلے آپ نے Firefox اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔
+verificationReminderFirst-title = { -brand-firefox } کے خاندان میں خوش آمدید
 confirm-email = ای میل کی توثیق کریں
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = آخری یاد دہانی: اپنا اکاؤنٹ چالو کریں

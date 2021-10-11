@@ -3,30 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Politique de confidentialité de Mozilla
+fxa-privacy-url = Politique de confidentialité de { -brand-mozilla }
 subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
-subplat-privacy-plaintext = Politique de confidentialité :
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Vous recevez ce message car { $email } possède un compte Firefox et vous avez souscrit un abonnement à { $productName }.
-## Variables:
-##  $email (String) - A user's primary email address
-subplat-explainer-multiple = Vous recevez ce message car { $email } possède un compte Firefox et vous avez souscrit plusieurs abonnements.
 subplat-terms-policy = Conditions et politique d’annulation
 subplat-cancel = Annuler l’abonnement
 subplat-reactivate = Réactiver l’abonnement
 subplat-update-billing = Mettre à jour les informations de facturation
 subplat-legal = Mentions légales
 manage-account = Gérer le compte
-subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre service, veuillez mettre à jour vos informations de paiement dès que possible :
 cadReminderFirst-subject = Petit rappel : voici comment terminer votre configuration de la synchronisation
 cadReminderFirst-action = Synchroniser un autre appareil
 cadReminderFirst-title = Voici votre rappel pour synchroniser vos appareils.
 cadReminderSecond-subject = Dernier rappel : terminer la configuration de la synchronisation
 cadReminderSecond-action = Synchroniser un autre appareil
 cadReminderSecond-title = Dernier rappel pour synchroniser vos appareils !
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Il vous reste peu de codes de récupération
 codes-reminder-description = Nous avons remarqué qu’il vous reste peu de codes de récupération. Vous devriez générer de nouveaux codes pour éviter de perdre l’accès à votre compte.
 codes-generate = Générer des codes
@@ -38,10 +33,8 @@ passwordChanged-subject = Mot de passe mis à jour
 passwordChanged-title = Modification du mot de passe
 passwordChangeRequired-subject = Activité suspecte détectée
 passwordChangeRequired-title = Changement de mot de passe nécessaire
-passwordChangeRequired-suspicious-activity = Nous avons détecté un comportement suspect sur votre compte Firefox. Pour empêcher tout accès non autorisé à votre compte Firefox, nous avons déconnecté tous les appareils de votre compte et vous 
-passwordChangeRequired-sign-in = Reconnectez-vous à tout appareil ou service sur lequel vous utilisez votre compte Firefox et suivez les étapes qui vous seront présentées.
 passwordChangeRequired-different-password = <b>Important :</b> choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
-passwordChangeRequired-different-password-plaintext = Important : choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
+passwordChangeRequired-signoff = Cordialement,
 passwordReset-subject = Mot de passe mis à jour
 passwordReset-title = Le mot de passe de votre compte a été changé
 passwordResetAccountRecovery-subject = Le mot de passe a été mis à jour à l’aide de la clé de récupération
@@ -51,18 +44,18 @@ passwordResetAccountRecovery-action = Créer une nouvelle clé de récupération
 passwordResetAccountRecovery-regen-required = Vous devez générer une nouvelle clé de récupération.
 postAddAccountRecovery-subject = La clé de récupération du compte a été générée
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = Vous avez réussi à générer une clé de récupération de votre compte Firefox en utilisant l’appareil suivant :
+postAddAccountRecovery-description = Vous avez réussi à générer une clé de récupération de votre compte { -brand-firefox } en utilisant l’appareil suivant :
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Authentification en deux étapes activée
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Vous avez activé l’authentification en deux étapes pour votre compte Firefox. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion.
-postAddTwoStepAuthentication-description = Vous avez activé l’authentification en deux étapes pour votre compte Firefox à partir de l’appareil suivant :
+postAddTwoStepAuthentication-description-plaintext = Vous avez activé l’authentification en deux étapes pour votre compte { -brand-firefox }. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion.
+postAddTwoStepAuthentication-description = Vous avez activé l’authentification en deux étapes pour votre compte { -brand-firefox } à partir de l’appareil suivant :
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Adresse électronique principale mise à jour
 postChangePrimary-title = Nouvelle adresse électronique principale
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = Votre adresse électronique principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre compte Firefox et elle recevra les notifications de 
+postChangePrimary-description = Votre adresse électronique principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre compte { -brand-firefox } et elle recevra les notifications de 
 postConsumeRecoveryCode-subject = Code de récupération utilisé
 postConsumeRecoveryCode-title = Code de récupération utilisé
 postConsumeRecoveryCode-description = Vous avez utilisé un code de récupération à partir de l’appareil suivant :
@@ -71,21 +64,21 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = Vous avez généré de nouveaux codes de récupération à partir de l’appareil suivant :
 postRemoveAccountRecovery-subject = La clé de récupération a été supprimée
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = Vous avez supprimé une clé de récupération de votre compte Firefox en utilisant l’appareil suivant :
+postRemoveAccountRecovery-description = Vous avez supprimé une clé de récupération de votre compte { -brand-firefox } en utilisant l’appareil suivant :
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses électroniques secondaires de votre compte Firefox. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse électronique.
+postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses électroniques secondaires de votre compte { -brand-firefox }. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse électronique.
 postRemoveTwoStepAuthentication-subject = La validation en deux étapes est désactivée
 postRemoveTwoStepAuthentication-title = Authentification en deux étapes désactivée
-postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authentification en deux étapes pour votre compte Firefox à partir de l’appareil suivant :
-postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre compte Firefox. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authentification en deux étapes pour votre compte { -brand-firefox } à partir de l’appareil suivant :
+postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre compte { -brand-firefox }. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Compte Firefox vérifié. Vous y êtes presque.
+postVerify-sub-title = Compte { -brand-firefox } vérifié. Vous y êtes presque.
 postVerify-title = À présent, synchronisez vos appareils !
-postVerify-description = La synchronisation conserve confidentiellement vos marque-pages, mots de passe et autres données Firefox à l’identique sur tous vos appareils.
+postVerify-description = La synchronisation conserve confidentiellement vos marque-pages, mots de passe et autres données { -brand-firefox } à l’identique sur tous vos appareils.
 postVerify-subject = Compte vérifié. Synchronisez à présent un autre appareil pour terminer la configuration.
 postVerify-setup = Configurer un autre appareil
 ## Variables:
@@ -107,16 +100,15 @@ unblockCode-subject = Code d’autorisation du compte
 unblockCode-title = Étiez-vous à l’origine de cette connexion ?
 unblockCode-prompt = Si oui, voici le code d’autorisation dont vous avez besoin :
 verificationReminderFirst-subject = Rappel : terminez la création de votre compte
-verificationReminderFirst-title = Bienvenue dans la famille Firefox
-verificationReminderFirst-description = Il y a quelques jours, vous avez créé un compte Firefox, mais vous ne l’avez jamais confirmé.
+verificationReminderFirst-title = Bienvenue dans la famille { -brand-firefox }
 verificationReminderFirst-sub-description = Confirmez votre compte pour adopter une technologie qui lutte pour vos droits, protège votre vie privée, et vous offre des connaissances utiles et le respect que vous méritez.
 confirm-email = Confirmez votre adresse électronique
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = Dernier rappel : activez votre compte
 verificationReminderSecond-title = Toujours là ?
-verificationReminderSecond-description = Il y a presque une semaine, vous avez créé un compte Firefox, mais vous ne l’avez jamais vérifié. Nous commençons à nous inquiéter.
+verificationReminderSecond-description = Il y a presque une semaine, vous avez créé un compte { -brand-firefox }, mais vous ne l’avez jamais vérifié. Nous commençons à nous inquiéter.
 verificationReminderSecond-sub-description = Confirmez cette adresse électronique pour activer votre compte et faites-nous savoir que vous allez bien.
-verify-title = Activez la famille de produits Firefox
+verify-title = Activez la famille de produits { -brand-firefox }
 verify-subject = Terminez la création de votre compte
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -138,13 +130,13 @@ verifySecondary-subject = Confirmer l’adresse secondaire
 verifySecondary-title = Confirmer l’adresse secondaire
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte Firefox suivant :
+verifySecondary-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte { -brand-firefox } suivant :
 verifySecondary-action = Vérifier l’adresse électronique
 verifySecondaryCode-subject = Confirmer l’adresse secondaire
 verifySecondaryCode-title = Confirmer l’adresse secondaire
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte Firefox suivant :
+verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le compte { -brand-firefox } suivant :
 verifySecondaryCode-prompt = Utilisez ce code de vérification :
 ## Variables:
 ##  $code (Number) - e.g. 123456

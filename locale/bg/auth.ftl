@@ -3,8 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Политика за неприкосновеност на личните данни на Mozilla
+fxa-privacy-url = Политика за неприкосновеност на личните данни на { -brand-mozilla }
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 manage-account = Управление на сметка
 codes-generate = Генериране на кодове
@@ -13,6 +16,7 @@ codes-generate = Генериране на кодове
 newDeviceLogin-subject = Ново вписване от { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Паролата е успешно сменена
+passwordChangeRequired-signoff = С най-добри пожелания,
 passwordReset-title = Паролата за сметката ви е сменена
 passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
 postAddAccountRecovery-subject = Генериран ключ за възстановяване на сметката
@@ -24,7 +28,7 @@ postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = Нов основен ел. адрес
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = Успешно променихте основният ел. адрес на { $email }. Този адрес вече е вашето потребителско име, с което влизате в своя Firefox Account, също така на него се получават известия по сигурността и 
+postChangePrimary-description = Успешно променихте основният ел. адрес на { $email }. Този адрес вече е вашето потребителско име, с което влизате в своя { -brand-firefox } Account, също така на него се получават известия по сигурността и 
 postConsumeRecoveryCode-title = Кодът за възстановяване е използван
 postNewRecoveryCodes-subject = Кодовете за възстановяване са подновени
 postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
@@ -34,7 +38,7 @@ postRemoveSecondary-subject = Допълнителният ел. адрес е �
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Допълнителният ел. адрес { $secondaryEmail } е премахнат успешно от вашия Firefox Account. Известията по сигурността и потвържденията за влизане няма да бъдат изпращани към него.
+postRemoveSecondary-description = Допълнителният ел. адрес { $secondaryEmail } е премахнат успешно от вашия { -brand-firefox } Account. Известията по сигурността и потвържденията за влизане няма да бъдат изпращани към него.
 postRemoveTwoStepAuthentication-title = Двуетапното удостоверяване е изключено
 postRemoveTwoStepAuthentication-action = { manage-account }
 ## Variables:
@@ -47,7 +51,7 @@ recovery-title = Трябва да анулирате паролата си?
 recovery-description = Щракнете бутона в рамките на следващия час, да изберете нова парола. Заявката е изпратена от следното устройство:
 unblockCode-title = Вие ли се вписахте?
 unblockCode-prompt = Ако е така, ето кода за упълномощаване:
-verificationReminderFirst-title = Добре дошли в семейството на Firefox
+verificationReminderFirst-title = Добре дошли в семейството на { -brand-firefox }
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = Още ли сте тук?
 ## Variables:
@@ -63,8 +67,8 @@ verifyPrimary-description = Заявка за промяна на сметкат
 verifySecondary-title = Потвърждаване на допълнителен ел. адрес
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния Firefox Account:
+verifySecondary-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния { -brand-firefox } Account:
 verifySecondaryCode-title = Потвърждаване на допълнителен ел. адрес
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния Firefox Account:
+verifySecondaryCode-explainer = Заявка за използване на { $email } като допълнителен ел. адрес е направена от следния { -brand-firefox } Account:

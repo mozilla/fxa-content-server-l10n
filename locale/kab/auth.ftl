@@ -3,30 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Localization for Firefox Accounts emails, from `fxa-auth-server`
+## Emails do not contain buttons, only links.
+## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
+## but sometimes they differ slightly.
 
-fxa-privacy-url = Tasertit tabaḍnit n Mozilla
+fxa-privacy-url = Tasertit tabaḍnit n { -brand-mozilla }
 subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
-subplat-privacy-plaintext = Tasertit n tbaḍnit:
-## Variables:
-##  $email (String) - A user's primary email address
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Tremseḍ-d izen-a acku { $email } igber amiḍan Firefox daɣen tjerrdeḍ ɣer umulteɣ n { $productName }.
-## Variables:
-##  $email (String) - A user's primary email address
-subplat-explainer-multiple = Teṭṭfeḍ imayl-a acku { $email } ɣur-s amiḍan n Firefox yerna tjerrdeḍ ɣer waṭas n yifuras.
 subplat-terms-policy = Tiwtilin akked tsertit n usefsex
 subplat-cancel = Sefsex ajerred
 subplat-reactivate = Ales armad n ujerred
 subplat-update-billing = Aleqqem n telɣut n ufter
 subplat-legal = Usḍif
 manage-account = Sefrek amiḍan
-subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
 cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
 cadReminderSecond-subject = Asmekti aneggaru: Asebded ummid n umtawa
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
 codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik.
 codes-generate = Sirew tingalin
@@ -38,10 +33,8 @@ passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
-passwordChangeRequired-suspicious-activity = Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik(im) n Firefox. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik(im) n Firefox, nsens ibenkan akk n umiḍan-ik(im). Ad ak(am)-nsuter ad 
-passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer tkebbanit anida i tseqdaceḍ amiḍan-ik/im Firefox syen ḍfer imecwaṛen ara ak(am)-d-yettunefken.
 passwordChangeRequired-different-password = <b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
-passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
+passwordChangeRequired-signoff = S tegmatt,
 passwordReset-subject = Awal uffir yettuleqqem
 passwordReset-title = Awal uffir n umiḍan inek ibeddel
 passwordResetAccountRecovery-subject = Awal uffir ibeddel s tsarut n tririt
@@ -51,18 +44,18 @@ passwordResetAccountRecovery-action = Rnu tasarutt n tririt tamaynut
 passwordResetAccountRecovery-regen-required = Nesra asirew n tsarutt n tririt tamaynut.
 postAddAccountRecovery-subject = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
-postAddAccountRecovery-description = Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:
+postAddAccountRecovery-description = Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik { -brand-firefox } s useqdec n ibenk-agi:
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Asesteb s snat n tarrayin yermed
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tangalt n tɣelllist n usnas-ik n usesteb ad ak-yettusuter yal tuqqna.
-postAddTwoStepAuthentication-description = Tremdeḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:
+postAddTwoStepAuthentication-description-plaintext = Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik { -brand-firefox }. Tangalt n tɣelllist n usnas-ik n usesteb ad ak-yettusuter yal tuqqna.
+postAddTwoStepAuthentication-description = Tremdeḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik { -brand-firefox } Account seg yibenk-agi:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Imayl amezwaru ittuleqqem
 postChangePrimary-title = Imayl amezwaru amaynut
 ## Variables:
 ##  $email (String) - A user's email address
-postChangePrimary-description = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked 
+postChangePrimary-description = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik { -brand-firefox }, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked 
 postConsumeRecoveryCode-subject = Tangalt n usellek tettwaseqdec
 postConsumeRecoveryCode-title = Tangalt n tririt tettwaseqdec yakan
 postConsumeRecoveryCode-description = Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:
@@ -71,21 +64,21 @@ postNewRecoveryCodes-title = { postNewRecoveryCodes-subject }
 postNewRecoveryCodes-description = Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:
 postRemoveAccountRecovery-subject = Tasarutt n tririt n umiḍan tettwakkes
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
-postRemoveAccountRecovery-description = Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:
+postRemoveAccountRecovery-description = Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik { -brand-firefox } s useqdec n ibenk-agi:
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 ## Variables:
 ##  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Tekkseḍ akken iwata { $secondaryEmail } imayl-ik asnawan seg umiḍan-ik Firefox. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl.
+postRemoveSecondary-description = Tekkseḍ akken iwata { $secondaryEmail } imayl-ik asnawan seg umiḍan-ik { -brand-firefox }. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl.
 postRemoveTwoStepAuthentication-subject = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
-postRemoveTwoStepAuthentication-description = Tsenseḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:
-postRemoveTwoStepAuthentication-description-plaintext = Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tingalin n tɣelllist ur laqent ara yal atuqqna.
+postRemoveTwoStepAuthentication-description = Tsenseḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik { -brand-firefox } Account seg yibenk-agi:
+postRemoveTwoStepAuthentication-description-plaintext = Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik { -brand-firefox }. Tingalin n tɣelllist ur laqent ara yal atuqqna.
 postRemoveTwoStepAuthentication-action = { manage-account }
-postVerify-sub-title = Amiḍan n Firefox yettwasenqed. Qrib ad tsaliḍ.
+postVerify-sub-title = Amiḍan n { -brand-firefox } yettwasenqed. Qrib ad tsaliḍ.
 postVerify-title = Amtawi i d-iteddun, gar yibenkan-inek/inem!
-postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n Firefox d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im.
+postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n { -brand-firefox } d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im.
 postVerify-subject = Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded
 postVerify-setup = Sbadu ibenk-nniḍen
 ## Variables:
@@ -107,16 +100,15 @@ unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?
 unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 verificationReminderFirst-subject = Asmekti: Fak timerna n umiḍan-ik
-verificationReminderFirst-title = Ansuf ɣer twacult Firefox
-verificationReminderFirst-description = Kra n wussan aya terniḍ amiḑan Firefox, dacu mazal ur t-tsentmeḍ ara.
+verificationReminderFirst-title = Ansuf ɣer twacult { -brand-firefox }
 verificationReminderFirst-sub-description = Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ.
 confirm-email = Sentem imayl
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = Asmekti aneggaru: Rmed amiḍan-ik
 verificationReminderSecond-title = Aqla-k da?
-verificationReminderSecond-description = Imalas aya, terniḍ amiḍan Firefox, maca ur ǧǧin tsentmeḍ-t. Ihi aql-aɣ netqelleq.
+verificationReminderSecond-description = Imalas aya, terniḍ amiḍan { -brand-firefox }, maca ur ǧǧin tsentmeḍ-t. Ihi aql-aɣ netqelleq.
 verificationReminderSecond-sub-description = Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ.
-verify-title = Rmed tawacult n yifarisen Firefox
+verify-title = Rmed tawacult n yifarisen { -brand-firefox }
 verify-subject = Fak timerna n umiḍan-ik
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -138,13 +130,13 @@ verifySecondary-subject = Sentem tansa tis snat
 verifySecondary-title = Senqed imayl wi sin
 ## Variables:
 ##  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n Firefox:
+verifySecondary-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -brand-firefox }:
 verifySecondary-action = Seqed tansa-inek imayl
 verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title = Senqed imayl wi sin
 ## Variables:
 ##  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n Firefox:
+verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -brand-firefox }:
 verifySecondaryCode-prompt = Seqdec tangalt-a n usenqed:
 ## Variables:
 ##  $code (Number) - e.g. 123456
