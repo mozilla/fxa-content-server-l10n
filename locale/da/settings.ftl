@@ -339,6 +339,7 @@ recovery-key-success-alert = Genoprettelsesnøgle oprettet.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Trin 1 af 2
 add-secondary-email-error = Der opstod et problem med at oprette denne mailadresse.
 add-secondary-email-page-title =
     .title = Sekundær mailadresse
@@ -352,6 +353,7 @@ add-secondary-email-save-button = Gem
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Trin 2 af 2
 verify-secondary-email-error = Der opstod et problem under afsendelse af bekræftelseskoden.
 verify-secondary-email-page-title =
     .title = Sekundær mailadresse
@@ -539,8 +541,10 @@ auth-error-110 = Ugyldigt token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Du har prøvet for mange gange. Prøv igen om { $retryAfter }.
 auth-error-138 = Ubekræftet session
 auth-error-155 = TOTP-token ikke fundet
