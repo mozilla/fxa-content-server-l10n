@@ -19,7 +19,7 @@
 ## NOTE: We currently sometimes we refer to  "Firefox Account" rather than "Firefox account". This is a known issue (FXA-4071 / fxa/issues/10654).
 -product-firefox-account = Firefox account
 
-## Emails
+## Email content
 
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
 fxa-service-url = { -brand-firefox } Cloud Terms of Service
@@ -33,10 +33,10 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = You're receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
+subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-multiple = You're receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
+subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
 subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
 subplat-terms-policy = Terms and cancellation policy
 subplat-cancel = Cancel subscription
@@ -87,7 +87,7 @@ support-message = For more information, please visit { $supportUrl }
 
 cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
 cadReminderFirst-action = Sync another device
-cadReminderFirst-title = Here's your reminder to sync devices.
+cadReminderFirst-title = Here’s your reminder to sync devices.
 cadReminderFirst-description = It takes two to sync. Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
 
 cadReminderSecond-subject = Final Reminder: Complete Sync Setup
@@ -189,7 +189,7 @@ postRemoveTwoStepAuthentication-description-plaintext = You have successfully di
 postRemoveTwoStepAuthentication-action = { manage-account }
 postRemoveTwoStepAuthentication-not-required = Security codes will no longer be required at each sign-in.
 
-postVerify-sub-title = { -brand-firefox } Account verified. You're almost there.
+postVerify-sub-title = { -brand-firefox } Account verified. You’re almost there.
 postVerify-title = Next sync between your devices!
 postVerify-description = Sync privately keeps your bookmarks, passwords and other { -brand-firefox } data the same across all your devices.
 postVerify-subject = Account verified. Next, sync another device to finish setup
@@ -218,11 +218,11 @@ subscriptionPaymentExpired-subject = Credit card for { $productName } expiring s
 subscriptionPaymentExpired-title = Your credit card is about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = The credit card you're using to make payments for { $productName } is about to expire.
+subscriptionPaymentExpired-content = The credit card you’re using to make payments for { $productName } is about to expire.
 
 subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
 subscriptionsPaymentExpired-title = Your credit card is about to expire
-subscriptionsPaymentExpired-content = The credit card you're using to make payments for the following subscriptions is about to expire.
+subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionsPaymentExpired-name = { $productName }
@@ -247,7 +247,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderSecond-subject = Final reminder: Activate your account
 verificationReminderSecond-title = Still there?
 verificationReminderSecond-description = Almost a week ago you created a { -brand-firefox } Account but never verified it. We’re worried about you.
-verificationReminderSecond-sub-description = Confirm this email address to activate your account and let us know you're okay.
+verificationReminderSecond-sub-description = Confirm this email address to activate your account and let us know you’re okay.
 verificationReminderSecond-action = { confirm-email }
 
 verify-title = Activate the { -brand-firefox } family of products

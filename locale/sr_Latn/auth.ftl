@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = { -brand-mozilla } polisa privatnosti
 subplat-automated-email = Ovo je automatska e-pošta; ako ste je greškom primili, nijedna radnja nije 

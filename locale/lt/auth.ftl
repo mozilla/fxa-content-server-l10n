@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = „Mozillos“ privatumo nuostatai
 subplat-automated-email = Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia.

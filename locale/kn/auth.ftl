@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = ಮೊಝಿಲ್ಲಾ ಖಾಸಗಿ ನಿಯಮ
 newDeviceLogin-title = { newDeviceLogin-subject }

@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = { -brand-mozilla } プライバシーポリシー
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。

@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = Ichinan Runa'oj { -brand-mozilla }
 subplat-automated-email = Ruyonil nitaq re taqoya'l re'; we xak'ül ruma jun sachoj, majun achike tab'ana'.

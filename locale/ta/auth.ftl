@@ -7,7 +7,7 @@
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-## Emails
+## Email content
 
 fxa-privacy-url = மொசில்லா தனியுரிமை கொள்கைகள்
 manage-account = கணக்கை நிர்வகி
