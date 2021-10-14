@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Kawijakan Salindungan { -brand-mozilla }
 subplat-automated-email = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
@@ -23,8 +25,8 @@ cadReminderSecond-title = Panggeuing pamungkas pikeun nyingkronkeun paranti!
 codes-reminder-title = Kodeu pamulangan sayaga sakeudeung deui
 codes-reminder-description = Kami perhatikeun yén anjeun béakkeun kodeu pamulangan. Pék tinimbangan nyieun kodeu anyar téh pikeun nyingkahan kakoncina akun anjeun.
 codes-generate = Pangjieunkeun kodeu
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Peta asup anyar ka { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Kecap sandi geus diropéa
@@ -50,8 +52,8 @@ postAddTwoStepAuthentication-description = Anjeun geus hasil ngaktipkeun oténti
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Surélék utama geus diropéa
 postChangePrimary-title = Surélék utama anyar
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Anjeun geus hasil ngarobah surélék utama anjeun ka { $email }. Ieu alamat ayeuna jadi sandiasma pikeun peta asup kana { -brand-firefox } Account anjeun, sarta nampa iber kaamanan jeung konfirmasi asup.
 postConsumeRecoveryCode-subject = Sandi pemulihan dipaké
 postConsumeRecoveryCode-title = Kodeu pamulangan geus digunakeun
@@ -65,8 +67,8 @@ postRemoveAccountRecovery-description = Anjeun geus hasil ngalaan konci akun pam
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Surélék sékunder geus dilaan
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Anjeun geus hasil ngalaan { $secondaryEmail } minangka surélék sékundér ti { -brand-firefox } Account anjeun. Iber kaamanan sarta konfirmasi peta asup moal ditepikeun ka ieu alamat.
 postRemoveTwoStepAuthentication-subject = Péripikasi dua léngkah dipareuman
 postRemoveTwoStepAuthentication-title = Oténtikasi dua léngkah dipareuman
@@ -77,16 +79,16 @@ postVerify-sub-title = Akun { -brand-firefox } geus dipéripikasi. Kari saeutik 
 postVerify-title = Lajeng singkronan antara paranti anjeun!
 postVerify-description = Singkron nyamuni ngajaga markah, kecap sandi, jeung data { -brand-firefox } lianna sarua di sakabéh paranti anjeun.
 postVerify-subject = Akun dipéripikasi. Salajengna, singkronkeun parabot séjénna pikeun nganggeuskeun setup
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Aya patarosan? Sorang { $supportUrl }
 postVerifySecondary-subject = Surélék sékundér ditambahkeun
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Setél ulang kecap sandi anjeun
 recovery-title = Perlu nyetél ulang sandi anjeun?
 recovery-description = Klik tumbul selang sajam deui pikeun nyieun sandi anyar. Pamundut datang ti parangkat di handap:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kartu kiridit keur { $productName } téréh kadaluwarsa
 subscriptionPaymentExpired-title = Kartu kiridit anjeun tos badé kadaluwarsa
 subscriptionsPaymentExpired-subject = Kartu kiridit keur pendaptaran anjeun téréh kadaluwarsa
@@ -105,15 +107,15 @@ verificationReminderSecond-description = Ampir heuleut saminggu anjeun nyieun { 
 verificationReminderSecond-sub-description = Konfirmasi ieu alamat surélék pikeun ngaktifkeun akun anjeun sarta béjaan kami hibar anjeun.
 verify-title = Aktifkeun produk sawargi { -brand-firefox }
 verify-subject = Réngsékeun nyieun akun anjeun
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Peta asup anyar ka { $clientName }
 verifyLogin-description = Pikeun nambahan kaamanan, prak konfirmasi ieu peta asup ti parangkat di handap:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Konfirmasi peta asup anyar ka { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Sandi péripikasi: { $code }
 verifyLoginCode-title = Nu asup téh anjeun lin?
 verifyLoginCode-prompt = Lamun enya, ieu sandi péripikasina:
@@ -123,17 +125,17 @@ verifyPrimary-subject = Puguhkeun surél utama
 verifyPrimary-action = Pastikeun surél
 verifySecondary-subject = Puguhkeun surél sekundér
 verifySecondary-title = Vérifikasi surélék sékundér
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Pamundutan pikeun maké { $email } minangka surélék sékundér téh geus dijieun ti { -brand-firefox } Account ieu:
 verifySecondary-action = Pastikeun surél
 verifySecondaryCode-subject = Puguhkeun surél sekundér
 verifySecondaryCode-title = Vérifikasi surélék sékundér
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Pamundutan pikeun maké { $email } minangka surélék sékundér téh geus dijieun ti { -brand-firefox } Account ieu:
 verifySecondaryCode-prompt = Paké sandi péripikasi ieu:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Sandi péripikasi: { $code }
 verifyShortCode-title = Anu daptar téh bener anjeun?

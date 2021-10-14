@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } polisa privatnosti
 subplat-automated-email = Ovo je automatska e-pošta; ako ste je greškom primili, nijedna radnja nije 
@@ -19,8 +21,8 @@ manage-account = Upravljajte nalogom
 codes-reminder-title = Mali broj kodova za oporavak je ostao
 codes-reminder-description = Primetili smo da vam je ostao mali broj kodova za oporavak. Razmislite o 
 codes-generate = Generiši kodove
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo prijavljivanje na klijentu { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Lozinka je ažurirana
@@ -61,16 +63,16 @@ postRemoveTwoStepAuthentication-title = Autentifikacija u dva koraka onemogućen
 postRemoveTwoStepAuthentication-description = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem { -brand-firefox } nalogu 
 postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogućili autentifikaciju u dva koraka na vašem { -brand-firefox } 
 postRemoveTwoStepAuthentication-action = { manage-account }
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Imate pitanja? Posetite { $supportUrl }
 postVerifySecondary-subject = Sekundarna adresa dodata
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Resetujte lozinku
 recovery-title = Potrebno vam je resetovanje lozinke?
 recovery-description = Kliknite na dugme u toku sledećeg sata da kreirate novu lozinku. Zahtev je 
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditna kartica za { $productName } uskoro ističe
 subscriptionPaymentExpired-title = Vaša kreditna kartica uskoro ističe
 subscriptionsPaymentExpired-title = Vaša kreditna kartica uskoro ističe
@@ -88,15 +90,15 @@ verificationReminderSecond-description = Pre skoro nedelju dana napravili ste { 
 verificationReminderSecond-sub-description = Potvrdite ovu e-adresu da biste aktivirali svoj nalog i javite nam da ste 
 verify-title = Aktivirajte { -brand-firefox } porodicu proizvoda
 verify-subject = Završite pravljenje vašeg naloga
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Novo prijavljivanje na klijentu { $clientName }
 verifyLogin-description = Za dodatnu bezbednost, molimo vas da potvrdite prijavljivanje na sledećem 
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Potvrdite novo prijavljivanje na { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Verifikacioni kod: { $code }
 verifyLoginCode-title = Da li ste se ovo vi prijavili?
 verifyLoginCode-prompt = Ako je odgovor da, izvolite verifikacioni kod:
@@ -106,17 +108,17 @@ verifyPrimary-subject = Potvrdite primarnu adresu e-pošte
 verifyPrimary-action = Verifikujte adresu e-pošte
 verifySecondary-subject = Potvrdite sekundarnu adresu e-pošte
 verifySecondary-title = Verifikujte sekundarnu adresu
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Zahtev za korišćenje { $email } kao sekundarne adrese je poslat sa sledećeg 
 verifySecondary-action = Verifikujte adresu e-pošte
 verifySecondaryCode-subject = Potvrdite sekundarnu adresu e-pošte
 verifySecondaryCode-title = Verifikujte sekundarnu adresu
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Zahtev za korišćenje { $email } kao sekundarne adrese je poslat sa sledećeg 
 verifySecondaryCode-prompt = Iskoristite ovaj verifikacioni kod:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Verifikacioni kod: { $code }
 verifyShortCode-title = Da li ste se ovo vi prijavili?

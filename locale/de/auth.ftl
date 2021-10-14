@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla }-Datenschutzerklärung
 subplat-automated-email = Dies ist eine automatisierte E-Mail; wenn Sie diese fälschlicherweise erhalten haben, müssen Sie nichts tun.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Letzte Erinnerung: Synchronisieren Sie Ihre Geräte!
 codes-reminder-title = Nur noch wenige übrige Wiederherstellungscodes
 codes-reminder-description = Wir haben festgestellt, dass Sie nur noch wenige Wiederherstellungscodes besitzen. Überlegen Sie bitte, ob Sie neue Codes erzeugen möchten, um nicht aus Ihrem Konto ausgesperrt zu werden.
 codes-generate = Codes erzeugen
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Neue Anmeldung bei { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Passwort aktualisiert
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Sie haben die Zwei-Schritt-Authentifi
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primär-E-Mail-Adresse aktualisiert
 postChangePrimary-title = Neue Primär-E-Mail-Adresse
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Sie haben Ihre Primär-E-Mail-Adresse zu { $email } geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem { -brand-firefox }-Konto, sowie zum Erhalt von Sicherheitsbenachrichtigungen 
 postConsumeRecoveryCode-subject = Wiederherstellungscode verwendet
 postConsumeRecoveryCode-title = Wiederherstellungscode verwendet
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Sie haben erfolgreich einen Kontowiederh
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sie haben { $secondaryEmail } als Zweit-E-Mail-Adresse Ihres { -brand-firefox }-Kontos entfernt. Sicherheitshinweise und Anmeldebestätigungen werden nicht mehr an diese Adresse geschickt.
 postRemoveTwoStepAuthentication-subject = Zwei-Schritt-Verifizierung ist deaktiviert
 postRemoveTwoStepAuthentication-title = Zwei-Schritt-Authentifizierung deaktiviert
@@ -81,16 +83,16 @@ postVerify-title = Jetzt synchronisieren Sie Ihre Geräte!
 postVerify-description = Durch die private Synchronisierung bleiben Ihre Lesezeichen, Kennwörter und anderen { -brand-firefox }-Daten auf allen Geräten gleich.
 postVerify-subject = Konto verifiziert. Synchronisieren Sie jetzt ein anderes Gerät, um die Einrichtung abzuschließen
 postVerify-setup = Nächstes Gerät einrichten
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Haben Sie Fragen? { $supportUrl } besuchen
 postVerifySecondary-subject = Zweit-E-Mail-Adresse hinzugefügt
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Setzen Sie Ihr Passwort zurück
 recovery-title = Müssen Sie Ihr Passwort zurücksetzen?
 recovery-description = Klicken Sie innerhalb der nächsten Stunde auf die Schaltfläche, um ein neues Passwort zu erstellen. Diese Anfrage kam von folgendem Gerät:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditkarte für { $productName } läuft bald ab
 subscriptionPaymentExpired-title = Ihre Kreditkarte läuft bald ab
 subscriptionsPaymentExpired-subject = Die Kreditkarte für Ihre Abonnements läuft bald ab
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Vor fast einer Woche haben Sie ein { -b
 verificationReminderSecond-sub-description = Bestätigen Sie diese E-Mail-Adresse, um Ihr Konto zu aktivieren und uns mitzuteilen, dass es Ihnen gut geht.
 verify-title = Aktivieren Sie die { -brand-firefox }-Produktfamilie
 verify-subject = Erstellung Ihres Kontos abschließen
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Neue Anmeldung bei { $clientName }
 verifyLogin-description = Bestätigen Sie bitte zwecks verbesserter Sicherheit diese Anmeldung von folgendem Gerät:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Neue Anmeldung bei { $clientName } bestätigen
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Bestätigungscode: { $code }
 verifyLoginCode-title = Sind Sie das, der sich da anmeldet?
 verifyLoginCode-prompt = Wenn ja, ist hier der Bestätigungscode:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Primäre E-Mail-Adresse bestätigen
 verifyPrimary-action = E-Mail-Adresse bestätigen
 verifySecondary-subject = Sekundäre E-Mail-Adresse bestätigen
 verifySecondary-title = Zweit-E-Mail-Adresse verifizieren
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Von folgendem { -brand-firefox }-Konto erfolgte eine Anfrage, { $email } als Zweit-E-Mail-Adresse zu nutzen:
 verifySecondary-action = E-Mail-Adresse bestätigen
 verifySecondaryCode-subject = Sekundäre E-Mail-Adresse bestätigen
 verifySecondaryCode-title = Zweit-E-Mail-Adresse verifizieren
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Von folgendem { -brand-firefox }-Konto erfolgte eine Anfrage, { $email } als Zweit-E-Mail-Adresse zu nutzen:
 verifySecondaryCode-prompt = Diesen Verifizierungscode verwenden:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Bestätigungscode: { $code }
 verifyShortCode-title = Sind Sie das, der sich da registriert?
 verifyShortCode-prompt = Wenn ja, verwenden Sie diesen Bestätigungscode in Ihrem Registrierungsformular:

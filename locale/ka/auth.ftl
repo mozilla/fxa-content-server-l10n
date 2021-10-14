@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla }-ს პირადი მონაცემების დაცვის დებულება
 subplat-automated-email = ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
@@ -25,8 +27,8 @@ cadReminderSecond-title = ბოლო შეხსენება მოწყ�
 codes-reminder-title = აღდგენის კოდები თავდება
 codes-reminder-description = ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად.
 codes-generate = კოდების შექმნა
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = პაროლი განახლდა
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = ორსაფეხურიან�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = მთავარი ელფოსტა განახლებულია
 postChangePrimary-title = ახალი მთავარი ელფოსტა
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = მთავარი ელფოსტა წარმატებით შეიცვალა { $email } მისამართით. უკვე შეგიძლიათ მისი გამოყენება { -brand-firefox }-ანგარიშზე შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების 
 postConsumeRecoveryCode-subject = აღდგენის კოდი გამოყენებულია
 postConsumeRecoveryCode-title = აღდგენის კოდი გამოყენებულია
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = თქვენ წარმატებ
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } მოცილებულია { -brand-firefox }-ანგარიშის დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები, ამ მისამართზე აღარ 
 postRemoveTwoStepAuthentication-subject = ორსაფეხურიანი დამოწმება გამორთულია
 postRemoveTwoStepAuthentication-title = ორსაფეხურიანი დამოწმება შესვლისას გამორთულია
@@ -81,16 +83,16 @@ postVerify-title = შემდეგია, მოწყობილობე�
 postVerify-description = დასინქრონებით უსაფრთხოდ ინახება თქვენი სანიშნები, პაროლები და სხვა { -brand-firefox }-მონაცემები, ყველა თქვენს მოწყობილობაზე.
 postVerify-subject = ანგარიში დამოწმებულია. შემდეგ, დაასინქრონეთ კიდევ ერთი მოწყობილობა გამართვის დასასრულებლად
 postVerify-setup = გამართეთ შემდეგი მოწყობილობა
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = კითხვები გაქვთ? იხილეთ { $supportUrl }
 postVerifySecondary-subject = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = პაროლის განულება
 recovery-title = გესაჭიროებათ პაროლის განულება?
 recovery-description = დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } მომსახურებისთვის საკრედიტო ბარათს ვადა ეწურება
 subscriptionPaymentExpired-title = თქვენი საკრედიტო ბარათის ვადა იწურება
 subscriptionsPaymentExpired-subject = თქვენი გამოწერების საკრედიტო ბარათს ვადა ეწურება
@@ -110,15 +112,15 @@ verificationReminderSecond-description = თითქმის ერთი კ�
 verificationReminderSecond-sub-description = დაადასტურეთ ელფოსტის ეს მისამართი, რითიც აამოქმედებთ თქვენს ანგარიშს და გვაცნობებთ, რომ ყველაფერი რიგზე გაქვთ.
 verify-title = აამოქმედეთ { -brand-firefox }-ის პროდუქტების სრული ოჯახი
 verify-subject = დაასრულეთ ანგარიშის შექმნა
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = ახალი შესვლა { $clientName }
 verifyLogin-description = დამატებითი უსაფრთხოებისთვის, გთხოვთ, დაადასტუროთ ეს შესვლა შემდეგი მოწყობილობიდან:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = ახალი შესვლის დადასტურება { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = დამადასტურებელი კოდი: { $code }
 verifyLoginCode-title = ეს თქვენი შესვლაა?
 verifyLoginCode-prompt = თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:
@@ -128,18 +130,18 @@ verifyPrimary-subject = მთავარი ელფოსტის დამ
 verifyPrimary-action = ელფოსტის დამოწმება
 verifySecondary-subject = დამატებითი ელფოსტის დამოწმება
 verifySecondary-title = დამატებითი ელფოსტის დამოწმება
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = { $email }-ის დამატებით მისამართად გამოყენების მოთხოვნა გამოგზავნილია ამ { -brand-firefox }-ანგარიშიდან:
 verifySecondary-action = ელფოსტის დამოწმება
 verifySecondaryCode-subject = დამატებითი ელფოსტის დამოწმება
 verifySecondaryCode-title = დამატებითი ელფოსტის დამოწმება
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email }-ის დამატებით მისამართად გამოყენების მოთხოვნა გამოგზავნილია ამ { -brand-firefox }-ანგარიშიდან:
 verifySecondaryCode-prompt = გამოიყენეთ დამადასტურებელი კოდი:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = დამადასტურებელი კოდი: { $code }
 verifyShortCode-title = ეს ანგარიში თქვენ შექმენით?
 verifyShortCode-prompt = თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:

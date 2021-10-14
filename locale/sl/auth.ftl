@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Mozillina politika zasebnosti
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
@@ -24,8 +26,8 @@ cadReminderSecond-title = Zadnji opomnik za sinhronizacijo naprav!
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
 codes-reminder-description = Opazili smo, da vam zmanjkuje kod za obnovitev. Ustvarite nove kode, da preprečite izgubo dostopa do svojega računa.
 codes-generate = Ustvari kode
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava v { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Geslo posodobljeno
@@ -52,8 +54,8 @@ postAddTwoStepAuthentication-description = Uspešno ste omogočili overitev v dv
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Glavni e-poštni naslov posodobljen
 postChangePrimary-title = Nov glavni e-poštni naslov
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -brand-firefox } Račun, kot tudi naslov za prejemanje varnostnih obvestil ter 
 postConsumeRecoveryCode-subject = Uporabljene obnovitvene kode
 postConsumeRecoveryCode-title = Koda za obnovitev uporabljena
@@ -67,8 +69,8 @@ postRemoveAccountRecovery-description = Uspešno ste odstranili obnovitveni klju
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -brand-firefox } Računa. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveTwoStepAuthentication-subject = Preverjanje v dveh korakih je izključeno
 postRemoveTwoStepAuthentication-title = Overitev v dveh korakih je onemogočena
@@ -78,8 +80,8 @@ postRemoveTwoStepAuthentication-action = { manage-account }
 postVerify-sub-title = { -brand-firefox } Račun je potrjen. Skoraj ste gotovi.
 postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
 postVerify-setup = Nastavite naslednjo napravo
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -102,15 +104,15 @@ verificationReminderSecond-description = Pred slabim tednom ste ustvarili { -bra
 verificationReminderSecond-sub-description = Potrdite ta e-poštni naslov, da omogočite svoj račun in nam sporočite, da ste v redu.
 verify-title = Aktivirajte družino { -brand-firefox }ovih izdelkov
 verify-subject = Dokončajte ustvarjanje računa
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nova prijava v { $clientName }
 verifyLogin-description = Za večjo varnost potrdite to prijavo z naslednje naprave:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Potrdite novo prijavo v { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Potrditvena koda: { $code }
 verifyLoginCode-title = Se prijavljate vi?
 verifyLoginCode-prompt = Če da, uporabite to potrditveno kodo:
@@ -120,17 +122,17 @@ verifyPrimary-subject = Potrdi glavni e-poštni naslov
 verifyPrimary-action = Potrdi e-poštni naslov
 verifySecondary-subject = Potrdi pomožni e-poštni naslov
 verifySecondary-title = Potrdi pomožni e-poštni naslov
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -brand-firefox } Računa:
 verifySecondary-action = Potrdi e-poštni naslov
 verifySecondaryCode-subject = Potrdi pomožni e-poštni naslov
 verifySecondaryCode-title = Potrdi pomožni e-poštni naslov
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -brand-firefox } Računa:
 verifySecondaryCode-prompt = Uporabite to potrditveno kodo:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Potrditvena koda: { $code }
 verifyShortCode-title = Se prijavljate vi?

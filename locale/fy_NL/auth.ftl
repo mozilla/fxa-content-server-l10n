@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla }-privacybelied
 subplat-automated-email = Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Lêste omtinken om apparaten te syngronisearjen!
 codes-reminder-title = Net in protte werstelkoaden restearjend
 codes-reminder-description = Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje nije koaden te generearjen om te foar te kommen dat jo gjin tagong mear hawwe ta jo account.
 codes-generate = Koaden generearje
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Wachtwurd bywurke
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat ô
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primêr e-mailadres fernijd
 postChangePrimary-title = Nij primêr e-mailadres
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Jo hawwe jo primêre e-mailadres mei sukses nei { $email } wizige. Dit adres is no jo brûkersnamme foar it oanmelden by jo { -brand-firefox }-account, krekt as foar it ûntfangen fan befeiligingsmeldingen en 
 postConsumeRecoveryCode-subject = Werstelkoade brûkt
 postConsumeRecoveryCode-title = Werstelkoade brûkt
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Jo hawwe mei sukses in kaai foar account
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Sekundêr e-mailadres fuortsmiten
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres fan jo { -brand-firefox }-account fuortsmiten. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde net mear op dit adres ôflevere.
 postRemoveTwoStepAuthentication-subject = Autentikaasje yn twa stappen útskeakele
 postRemoveTwoStepAuthentication-title = Twa-staps autentikaasje útskeakele
@@ -81,16 +83,16 @@ postVerify-title = It folgjende: syngronisearje tusken jo apparaten!
 postVerify-description = Sync hâldt op persoanlike wize jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens op al jo apparaten itselde.
 postVerify-subject = Account ferifiearre. Syngronisearje as folgjende stap in oar apparaat om it ynstellen te foltôgjen
 postVerify-setup = It folgjende apparaat ynstelle
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Hawwe jo fragen? Besykje { $supportUrl }
 postVerifySecondary-subject = Twadde e-mail tafoege
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Wachtwurd werinisjalisearje
 recovery-title = Moatte jo jo wachtwurd opnij ynstelle?
 recovery-description = Klik binnen in oer op de knop om in nij wachtwurd oan te meitsjen. De oanfraach is ôfkomstich fan it folgjende apparaat:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = De creditcard foar { $productName } ferrint ynkoarten
 subscriptionPaymentExpired-title = Jo creditcard ferrint ynkoarten
 subscriptionsPaymentExpired-subject = De creditcard foar jo abonneminten ferrint ynkoarten
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Hast in wike lyn hawwe jo in { -brand-f
 verificationReminderSecond-sub-description = Befêstigje dit e-mailadres om jo account te aktivearjen en lit ús witte dat it jo goed giet.
 verify-title = Aktivearje de { -brand-firefox }-produktfamylje
 verify-subject = Oanmeitsjen fan jo account foltôgje
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nije oanmelding by { $clientName }
 verifyLogin-description = Befêstigje dizze oanmelding fan it folgjende apparaat ôf foar ekstra befeiliging:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Nije oanmelding by { $clientName } befêstigje
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Ferifikaasjekoade: { $code }
 verifyLoginCode-title = Binne jo dit, dy't harren oanmeldt?
 verifyLoginCode-prompt = Sa ja, dan is dit de ferifikaasjekoade:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Primêr e-mailadres befêstigje
 verifyPrimary-action = E-mailadres ferifiearje
 verifySecondary-subject = Sekundêr e-mailadres befêstigje
 verifySecondary-title = Sekundêr e-mailadres ferifiearje
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Der is in oanfraach foar it gebrûk fan { $email } as twadde e-mailadres dien fan de folgjende { -brand-firefox }-account ôf:
 verifySecondary-action = E-mailadres ferifiearje
 verifySecondaryCode-subject = Sekundêr e-mailadres befêstigje
 verifySecondaryCode-title = Sekundêr e-mailadres ferifiearje
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Der is in oanfraach foar it gebrûk fan { $email } as twadde e-mailadres dien fan de folgjende { -brand-firefox }-account ôf:
 verifySecondaryCode-prompt = Brûk dizze ferifikaasjekoade:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ferifikaasjekoade: { $code }
 verifyShortCode-title = Is dit jo registraasje?
 verifyShortCode-prompt = Sa ja, brûk dan dizze ferifikaasjekoade yn jo registraasjeformulier:

@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Ultima promemoria per sincronisar tes apparats!
 codes-reminder-title = I restan paucs codes da recuperaziun
 codes-reminder-description = Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l'access a tes conto.
 codes-generate = Generar codes
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova connexiun via { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Actualisà il pled-clav
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Ti has activà cun success l'autentif
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Adressa dad e-mail principala actualisada
 postChangePrimary-title = Nova adressa dad e-mail principala
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes conto da { -brand-firefox }. En pli serva ella per retschaiver communicaziuns da segirezza e 
 postConsumeRecoveryCode-subject = Code da recuperaziun utilisà
 postConsumeRecoveryCode-title = Code da recuperaziun utilisà
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Ti has stizzà cun success ina clav da r
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Allontanà l'adressa dad e-mail alternativa
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail alternativa da tes conto da { -brand-firefox }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
 postRemoveTwoStepAuthentication-subject = Verificaziun en dus pass è deactivada
 postRemoveTwoStepAuthentication-title = Autentificaziun en dus pass deactivada
@@ -81,16 +83,16 @@ postVerify-title = Ed ussa sincronisescha tes apparats!
 postVerify-description = La sincronisaziun segira garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da { -brand-firefox } sin tut tes apparats.
 postVerify-subject = Verifitgà il conto. Sincronisescha ussa in auter apparat per cumplettar la configuraziun
 postVerify-setup = Configurar il proxim apparat
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Has dumondas? Visita { $supportUrl }
 postVerifySecondary-subject = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Redefinir tes pled-clav
 recovery-title = Stos ti reinizialisar tes pled-clav?
 recovery-description = Clicca entaifer la proxima ura sin il buttun per crear in nov pled-clav. La dumonda è vegnida da suandant apparat:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La carta da credit per { $productName } scada prest
 subscriptionPaymentExpired-title = Tia carta da credit scada prest
 subscriptionsPaymentExpired-subject = La carta da credit per tes abunaments scada prest
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Avant bunamain ina emna has ti creà in
 verificationReminderSecond-sub-description = Conferma questa adressa d'e-mail per activar tes conto ed ans lascha savair che ti stas bain.
 verify-title = Activescha la paletta da products da { -brand-firefox }
 verify-subject = Finir la creaziun da tes conto
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nova connexiun via { $clientName }
 verifyLogin-description = Per motivs da segirezza, conferma p.pl. questa annunzia dal suandant apparat:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confermar la nova annunzia via { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Code da verificaziun: { $code }
 verifyLoginCode-title = Emprovas ti da t'annunziar?
 verifyLoginCode-prompt = Sche gea, qua è tes code da verificaziun:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Confermar l'adressa dad e-mail principala
 verifyPrimary-action = Verifitgar l'adressa dad e-mail
 verifySecondary-subject = Confermar l'adressa dad e-mail secundara
 verifySecondary-title = Verifitgar l'adressa dad e-mail alternativa
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant conto da { -brand-firefox }:
 verifySecondary-action = Verifitgar l'adressa dad e-mail
 verifySecondaryCode-subject = Confermar l'adressa dad e-mail secundara
 verifySecondaryCode-title = Verifitgar l'adressa dad e-mail alternativa
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant conto da { -brand-firefox }:
 verifySecondaryCode-prompt = Dovra quest code da verificaziun:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Code da verificaziun: { $code }
 verifyShortCode-title = Es ti la persuna che s'annunzia?
 verifyShortCode-prompt = Sche gea, utilisescha quest code da verificaziun en tes formular da registraziun:

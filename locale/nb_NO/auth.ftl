@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } personvernbestemmelser
 subplat-automated-email = Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Siste påminnelse om å synkronisere enheter!
 codes-reminder-title = Kun få gjenopprettelseskoder igjen
 codes-reminder-description = Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utestengt fra kontoen din.
 codes-generate = Generer koder
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny innlogging på { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Passord oppdatert
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Du har aktivert totrinns-verifisering
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på { -brand-firefox }-kontoen din, samt for å ta imot sikkerhetsvarsler og bekreftelser på 
 postConsumeRecoveryCode-subject = Gjenopprettingskode brukt
 postConsumeRecoveryCode-title = Gjenopprettingskode brukt
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Du har fjernet en nøkkel for kontogjeno
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra { -brand-firefox }-kontoen din. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
 postRemoveTwoStepAuthentication-subject = Totrinns-verifisering er slått av
 postRemoveTwoStepAuthentication-title = Totrinns-verifisering deaktivert
@@ -81,16 +83,16 @@ postVerify-title = Synkroniser enhetene dine nå!
 postVerify-description = Privat synkronisering holder bokmerkene, passordene og andre { -brand-firefox }-data helt lik på alle enhetene dine.
 postVerify-subject = Kontoen bekreftet. Synkroniser nå en annen enhet for å fullføre installasjonen
 postVerify-setup = Konfigurer neste enhet
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Har du spørsmål? Gå til { $supportUrl }
 postVerifySecondary-subject = Sekundær e-postadresse lagt til
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Tilbakestill passord
 recovery-title = Trenger du å tilbakestille passordet ditt?
 recovery-description = Trykk på knappen innen den neste timen for å lage et nytt passord. Forespørselen kom fra følgende enhet:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Betalingskort for { $productName } utløper snart
 subscriptionPaymentExpired-title = Ditt betalingskort er i ferd med å utløpe
 subscriptionsPaymentExpired-subject = Betalingskortet for abonnementene dine utløper snart
@@ -110,15 +112,15 @@ verificationReminderSecond-description = For nesten en uke siden opprettet du en
 verificationReminderSecond-sub-description = Bekreft denne e-postadressen for å aktivere kontoen din, og la oss få vite at du har det bra.
 verify-title = Aktiver hele { -brand-firefox }-familien
 verify-subject = Fullfør oppretting av kontoen din
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Ny innlogging på { $clientName }
 verifyLogin-description = For ekstra sikkerhet, bekreftet denne innloggingen fra følgende enhet:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Bekreftet ny innlogging på { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Bekreftelseskode: { $code }
 verifyLoginCode-title = Er det du som logger inn?
 verifyLoginCode-prompt = Hvis ja, her er bekreftelseskoden:
@@ -128,17 +130,17 @@ verifyPrimary-subject = Bekreft primær e-postadresse
 verifyPrimary-action = Bekreft e-post
 verifySecondary-subject = Bekreft sekundær e-postadresse
 verifySecondary-title = Verifiser sekundær e-postadresse
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -brand-firefox }-konto:
 verifySecondary-action = Bekreft e-post
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
 verifySecondaryCode-title = Verifiser sekundær e-postadresse
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -brand-firefox }-konto:
 verifySecondaryCode-prompt = Bruk denne bekreftelseskoden:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Bekreftelseskode: { $code }
 verifyShortCode-title = Er det du som registrerer deg?

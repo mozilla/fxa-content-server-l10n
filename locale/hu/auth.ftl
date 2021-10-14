@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
 subplat-automated-email = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Utolsó emlékeztető az eszközök szinkronizálásá
 codes-reminder-title = Kevés helyreállító kód maradt
 codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
 codes-generate = Kódok előállítása
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = A jelszó frissítve
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Sikeresen engedélyezte a kétlépcs�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Elsődleges e-mail frissítve
 postChangePrimary-title = Új elsődleges e-mail cím
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -brand-firefox } fiókba bejelentkezéshez, és ide fognal érkezni a biztonsági értesítések, és a 
 postConsumeRecoveryCode-subject = Helyreállítási kód felhasználva
 postConsumeRecoveryCode-title = Helyreállítási kód elhasználva
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Sikeresen eltávolított egy fiók helyr
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sikeresen eltávolította a következő másodlagos e-mail címet a { -brand-firefox } fiókjából: { $secondaryEmail }. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a 
 postRemoveTwoStepAuthentication-subject = Kétlépcsős ellenőrzés kikapcsolva
 postRemoveTwoStepAuthentication-title = Kétlépcsős hitelesítés letiltva
@@ -81,16 +83,16 @@ postVerify-title = Most pedig szinkronizáljon az eszközök között.
 postVerify-description = A Sync biztonságosan szinkronban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat az eszközei között.
 postVerify-subject = A fiók ellenőrizve. Ezután szinkronizáljon egy másik eszközre a beállítás befejezéséhez
 postVerify-setup = A következő eszköz beállítása
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Kérdése van? Keresse fel: { $supportUrl }
 postVerifySecondary-subject = Másodlagos e-mail hozzáadva
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Jelszó visszaállítása
 recovery-title = Helyre kell állítania a jelszavát?
 recovery-description = Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = A(z) { $productName } termékhez tartozó bankkártya hamarosan lejár
 subscriptionPaymentExpired-title = A bankkártyája hamarosan lejár
 subscriptionsPaymentExpired-subject = Az előfizetéseihez tartozó bankkártya hamarosan lejár
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Majd egy héttel ezelőtt létrehozott 
 verificationReminderSecond-sub-description = Erősítse meg ezt az e-mail címet a fiók aktiválásához, és tudassa velünk, hogy rendben van.
 verify-title = Aktiválja a { -brand-firefox } termékcsaládot
 verify-subject = A fiókja létrehozásának befejezése
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Új bejelentkezés itt: { $clientName }
 verifyLogin-description = A nagyobb biztonság érdekében, erősítse meg ezt a bejelentkezést a következő eszközön:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Erősítse meg bejelentkezését ide: { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Ellenőrzőkód: { $code }
 verifyLoginCode-title = Ez az ön bejelentkezése?
 verifyLoginCode-prompt = Ha igen, akkor itt az ellenőrzőkód:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Elsődleges e-mail cím megerősítése
 verifyPrimary-action = E-mail cím megerősítése
 verifySecondary-subject = Másodlagos e-mail megerősítése
 verifySecondary-title = Másodlagos e-mail megerősítése
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -brand-firefox } fiókból lett küldve:
 verifySecondary-action = E-mail cím megerősítése
 verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title = Másodlagos e-mail megerősítése
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -brand-firefox } fiókból lett küldve:
 verifySecondaryCode-prompt = Használja ezt az ellenőrzőkódot:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
 verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:

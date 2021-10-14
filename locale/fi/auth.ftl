@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Viimeinen muistutus laitteidesi synkronoimiseksi!
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
 codes-generate = Luo koodeja
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Salasana päivitetty
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Olet ottanut onnistuneesti käyttöö
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Ensisijainen sähköpostiosoite päivitetty
 postChangePrimary-title = Uusi ensisijainen sähköposti
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Olet vaihtanut ensisijaisen sähköpostin osoitteeseen { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -brand-firefox }-tilille kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisen 
 postConsumeRecoveryCode-subject = Palautuskoodi käytetty
 postConsumeRecoveryCode-title = Palautuskoodi käytetty
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Olet poistanut tilin palautusavaimen { -
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Olet poistanut toissijaisen sähköpostiosoitteen { $secondaryEmail } { -brand-firefox }-tililtäsi. Tietoturvailmoituksia ja kirjautumisvahvistuksia ei enää lähetetä tähän osoitteeseen.
 postRemoveTwoStepAuthentication-subject = Kaksivaiheinen vahvistus on pois käytöstä
 postRemoveTwoStepAuthentication-title = Kaksivaiheinen todennus poistettu käytöstä
@@ -81,16 +83,16 @@ postVerify-title = Seuraavaksi synkronoi laitteesi!
 postVerify-description = Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut { -brand-firefox }in tiedot samassa tilassa eri laitteidesi välillä.
 postVerify-subject = Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset
 postVerify-setup = Määritä seuraava laite
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Kysymyksiä? Käy sivulla { $supportUrl }
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Nollaa salasanasi
 recovery-title = Tarvitseeko sinun nollata salasanasi?
 recovery-description = Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Tuotteella { $productName } käytettävä luottokortti vanhenee pian
 subscriptionPaymentExpired-title = Luottokorttisi vanhenee pian
 subscriptionsPaymentExpired-subject = Tilauksiin käyttämäsi luottokortti vanhenee pian
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Loit { -brand-firefox }-tilin noin viik
 verificationReminderSecond-sub-description = Vahvista tämä sähköpostiosoite aktivoidaksesi tilisi ja kuitataksesi, että kaikki on kunnossa.
 verify-title = Aktivoi { -brand-firefox }-tuoteperhe
 verify-subject = Viimeistele tilisi luominen
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Uusi kirjautuminen: { $clientName }
 verifyLogin-description = Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Vahvista uusi kirjautuminen: { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Vahvistuskoodi: { $code }
 verifyLoginCode-title = Kirjaudutko sinä sisään?
 verifyLoginCode-prompt = Jos kyllä, tässä on vahvistuskoodi:
@@ -128,17 +130,17 @@ verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-action = Vahvista sähköpostiosoite
 verifySecondary-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondary-title = Toissijaisen sähköpostin vahvistaminen
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -brand-firefox }-tililtä:
 verifySecondary-action = Vahvista sähköpostiosoite
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title = Toissijaisen sähköpostin vahvistaminen
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -brand-firefox }-tililtä:
 verifySecondaryCode-prompt = Käytä tätä vahvistuskoodia:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Vahvistuskoodi: { $code }
 verifyShortCode-title = Yritätkö rekisteröityä?

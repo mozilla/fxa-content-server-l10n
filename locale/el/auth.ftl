@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Πολιτική Απορρήτου της { -brand-mozilla }
 subplat-automated-email = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
@@ -25,8 +27,8 @@ cadReminderSecond-title = Τελευταία υπενθύμιση για συγ�
 codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
 codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας.
 codes-generate = Δημιουργία κωδικών
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Έχετε ενεργοποιήσει
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στο λογαριασμό { -brand-firefox } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας 
 postConsumeRecoveryCode-subject = Χρησιμοποιήθηκε κωδικός ανάκτησης
 postConsumeRecoveryCode-title = Χρησιμοποιήθηκε κωδικός ανάκτησης
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Έχετε αφαιρέσει επιτυ
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Έχετε αφαιρέσει επιτυχώς το { $secondaryEmail } από δευτερεύον e-mail από το λογαριασμό { -brand-firefox } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτή τη 
 postRemoveTwoStepAuthentication-subject = Η επαλήθευση δύο παραγόντων είναι ανενεργή
 postRemoveTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
@@ -81,16 +83,16 @@ postVerify-title = Επόμενος συγχρονισμός μεταξύ των
 postVerify-description = Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του { -brand-firefox }, σε όλες τις συσκευές σας.
 postVerify-subject = Ο λογαριασμός επαληθεύτηκε. Έπειτα, συγχρονίστε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
 postVerify-setup = Ρύθμιση επόμενης συσκευής
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Έχετε απορίες; Επισκεφθείτε την { $supportUrl }
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
 recovery-description = Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα
 subscriptionPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Σχεδόν μια εβδομάδα π
 verificationReminderSecond-sub-description = Επιβεβαιώστε αυτή τη διεύθυνση email για να ενεργοποιήσετε το λογαριασμό σας και να μάς ενημερώσετε ότι είστε εντάξει.
 verify-title = Ενεργοποιήστε την οικογένεια των προϊόντων { -brand-firefox }
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Νέα σύνδεση στο { $clientName }
 verifyLogin-description = Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Επιβεβαίωση νέας σύνδεσης στο { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Κωδικός επαλήθευσης: { $code }
 verifyLoginCode-title = Γίνεται σύνδεση;
 verifyLoginCode-prompt = Αν ναι, ορίστε ο κωδικός επαλήθευσης:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Επιβεβαίωση πρωτεύοντος email
 verifyPrimary-action = Επαλήθευση email
 verifySecondary-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondary-title = Επαλήθευση δευτερεύοντος email
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Υποβλήθηκε ένα αίτημα για χρήση του { $email } ως δευτερεύουσα διεύθυνση e-mail από τον ακόλουθο Λογαριασμό { -brand-firefox }:
 verifySecondary-action = Επαλήθευση email
 verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-title = Επαλήθευση δευτερεύοντος email
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Υποβλήθηκε ένα αίτημα για χρήση του { $email } ως δευτερεύουσα διεύθυνση e-mail από τον ακόλουθο Λογαριασμό { -brand-firefox }:
 verifySecondaryCode-prompt = Χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Κωδικός επαλήθευσης: { $code }
 verifyShortCode-title = Κάνετε εσείς εγγραφή;
 verifyShortCode-prompt = Εάν ναι, χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:

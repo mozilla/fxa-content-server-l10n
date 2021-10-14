@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = គោលនយោបាយ​ឯកជនភាព { -brand-mozilla }
 subplat-automated-email = នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នកទទួល​បាន​អ៊ីម៉ែល​នេះ​ដោយ​កំហុស សូម​ទុក​វា​ចោល​ចុះ។

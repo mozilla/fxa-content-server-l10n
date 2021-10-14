@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Dawirgol Suturo { -brand-mozilla }
 subplat-automated-email = Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte.
@@ -28,8 +30,8 @@ postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Iimeel ɗiɗaɓo momtaama
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-action = { manage-account }
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Aɗa jogii naamne? Yillo { $supportUrl }
 postVerifySecondary-subject = Iimeel ɗiɗaɓo ɓeydaama
 postVerifySecondary-title = { postVerifySecondary-subject }

@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } գաղտնիության քաղաքականություն
 subplat-automated-email = Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։
@@ -17,8 +19,8 @@ manage-account = Կառավարել հաշիվը
 codes-reminder-title = Վերականգնման մի քանի կոդեր մնացին
 codes-reminder-description = Նկատեցինք, որ վերականգնման քիչ կոդեր ունեք։ Խնդրում ենք ստեղծել նոր կոդեր՝ ձեր հաշվի արգելափակումից խուսափելու համար։
 codes-generate = Ստեղծեք կոդեր
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Նոր մուտք դեպի { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Գաղտնաբառը թարմացվել է
@@ -43,8 +45,8 @@ postAddTwoStepAuthentication-description = Դուք հետևյալ սարքից 
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Առաջնային էլ֊փոստը թարմացվել է
 postChangePrimary-title = Նոր առաջնային էլ֊փոստ
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Դուք հաջողությամբ փոխել եք ձեր առաջնային էլ֊փոստը { $email }։ Այս հասցեն այժմ ձեր օգտանունն է՝ ձեր { -brand-firefox }-ի հաշիվ մուտք գործելու, ինչպես նաև, որպես անվտանգության ծանուցումների ստանալու և մուտք 
 postConsumeRecoveryCode-subject = Վերականգնման կոդը օգտագործվել է
 postConsumeRecoveryCode-title = Վերականգնման կոդը օգտագործված է
@@ -58,16 +60,16 @@ postRemoveAccountRecovery-description = Դուք, հետևյալ սարքը օգ
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Երկրորդային էլ֊փոստը հեռացվեց
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Դուք Ձեր { -brand-firefox } հաշվից հաջողությամբ հեռացրիք { $secondaryEmail }֊ը որպես երկրորդային էլ֊փոստ։ Անվտանգության ծանուցումները և մուտքի հաստատումները այլևս չեն ուղարկվի այս հասցեին։
 postRemoveTwoStepAuthentication-subject = Երկքայլ հաստատումը անջատված է
 postRemoveTwoStepAuthentication-title = Երկքայլ վավերացումն անջատվել է
 postRemoveTwoStepAuthentication-description = Դուք հետևյալ սարքից Ձեր { -brand-firefox }-ի հաշվում հաջողությամբ անջատել եք երկքայլ վավերացումը․
 postRemoveTwoStepAuthentication-description-plaintext = Դուք հաջողությամբ անջատել եք { -brand-firefox }֊ի հաշվի երկքայլանի վավերացումը։ Յուրաքանչյուր մուտքի ժամանակ անվտանգության կոդեր այլևս չեն պահանջվի։
 postRemoveTwoStepAuthentication-action = { manage-account }
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Հարցեր ունե՞ք։ Այցելեք { $supportUrl }
 postVerifySecondary-subject = Երկրորդային էլ֊փոստը ավելացվել է
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -88,15 +90,15 @@ verificationReminderSecond-description = Գրեթե մեկ շաբաթ առաջ �
 verificationReminderSecond-sub-description = Հատատեք այս էլ֊փոստի հասցեն՝ ձեր հաշիվը գործունացնելու համար և տեղեկացրեք մեզ, որ լավ եք։
 verify-title = Գործունացրեք { -brand-firefox }֊ի ընտանիքի արտադրանքները
 verify-subject = Ավարտեք ձեր հաշիվը
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Նոր մուտք դեպի { $clientName }
 verifyLogin-description = Ավելացված անվտանգության համար, հետևյալ սարքից հաստատեք այս մուտքը․
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Հաստատեք նոր մուտքը { $clientName }֊ով։
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Ստուգման կոդ՝ { $code }
 verifyLoginCode-title = Դու՞ք եք մուտք գործել։
 verifyLoginCode-prompt = Եթե այո, ապա սա հաստատման կոդն է․
@@ -106,16 +108,16 @@ verifyPrimary-subject = Հաստատեք առաջնային էլ․փոստը
 verifyPrimary-action = Հաստատեք էլ֊փոտը
 verifySecondary-subject = Հաստատեք երկրորդական էլ․փոստը
 verifySecondary-title = Ստուգել երկրորդային էլ․փոստը
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = որպես երկրորդային { $email } էլ-փոստի հասցե օգտագործելու հարցումը կատարվել է հետևյալ { -brand-firefox } հաշվից.
 verifySecondary-action = Հաստատեք էլ֊փոտը
 verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․փոստը
 verifySecondaryCode-title = Ստուգել երկրորդային էլ․փոստը
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = որպես երկրորդային { $email } էլ-փոստի հասցե օգտագործելու հարցումը կատարվել է հետևյալ { -brand-firefox } հաշվից.
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ստուգման կոդ՝ { $code }
 verifyShortCode-title = Դու՞ք եք գրանցվել։

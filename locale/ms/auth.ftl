@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = Polisi Privasi { -brand-mozilla }
 subplat-automated-email = Ini adalah emel automatik; jika anda tersilap terima, tiada tindakan diperlukan.
@@ -14,8 +16,8 @@ manage-account = Urus akaun
 codes-reminder-title = Kod pemulihan semakin habis
 codes-reminder-description = Kami mengesan bahawa kod pemulihan anda semakin habis. Sila jana kod baru untuk mengelakkan anda terkunci di luar akaun.
 codes-generate = Jana kod
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Daftar masuk baru ke { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Kata laluan berjaya diubah
@@ -35,8 +37,8 @@ postAddTwoStepAuthentication-description-plaintext = Anda telah berjaya dayakan 
 postAddTwoStepAuthentication-description = Anda telah berjaya dayakan pengesahan dwi-langkah Akaun { -brand-firefox } anda dari peranti berikut:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-title = E-mel utama baru
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Anda telah berjaya menukar e-mel utama ke { $email }. Alamat ini kini menjadi nama pengguna anda untuk mendaftar masuk ke Akaun { -brand-firefox }, serta menerima notifikasi sekuriti dan pengesahan daftar 
 postConsumeRecoveryCode-title = Kod pemulihan telah digunakan
 postConsumeRecoveryCode-description = Anda telah berjaya menggunakan kod pemulihan dari peranti berikut:
@@ -49,8 +51,8 @@ postRemoveAccountRecovery-description = Anda telah berjaya membuang kekunci pemu
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = E-mel sekunder dibuang
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Anda berjaya membuang { $secondaryEmail } sebagai e-mel sekunder daripada Akaun { -brand-firefox } anda. Notifikasi keselamatan dan pengesahan daftar masuk tidak lagi akan dihantar ke alamat ini.
 postRemoveTwoStepAuthentication-title = Pengesahan dwi-langkah telah dinyahdayakan
 postRemoveTwoStepAuthentication-description = Anda telah berjaya nyahdayakan pengesahan dwi-langkah Akaun { -brand-firefox } anda dari peranti berikut:
@@ -64,21 +66,21 @@ unblockCode-title = Anda mendaftar masuk?
 unblockCode-prompt = Jika ya, ini adalah kod pengesahan yang anda perlukan:
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = Masih di sini?
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Daftar masuk baru ke { $clientName }
 verifyLogin-description = Untuk keselamatan tambahan, sila sahkan daftar masuk daripada peranti ini:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Sahkan daftar masuk baru ke { $clientName }
 verifyLoginCode-title = Anda mendaftar masuk?
 verifyPrimary-title = Sahkan e-mel utama
 verifyPrimary-description = Permintaan untuk melaksanakan pertukaran akaun telah dibuat dari peranti berikut:
 verifySecondary-title = Sahkan e-mel sekunder
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Permintaan untuk menggunakan { $email } sebagai e-mel sekunder telah dibuat daripada Akaun { -brand-firefox } berikut:
 verifySecondaryCode-title = Sahkan e-mel sekunder
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Permintaan untuk menggunakan { $email } sebagai e-mel sekunder telah dibuat daripada Akaun { -brand-firefox } berikut:

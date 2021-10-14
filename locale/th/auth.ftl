@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
 subplat-automated-email = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
@@ -21,8 +23,8 @@ cadReminderSecond-action = ซิงค์กับอุปกรณ์อื�
 codes-reminder-title = รหัสการกู้คืนเหลือน้อย
 codes-reminder-description = เราสังเกตว่ารหัสการกู้คืนของคุณเหลือน้อย โปรดพิจารณาสร้างรหัสใหม่เพื่อป้องกันไม่ให้บัญชีของคุณถูกล็อก
 codes-generate = สร้างรหัส
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
@@ -47,8 +49,8 @@ postAddTwoStepAuthentication-description = คุณได้เปิดใช�
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = อีเมลหลักได้รับการปรับปรุงแล้ว
 postChangePrimary-title = อีเมลหลักใหม่
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = คุณได้เปลี่ยนแปลงอีเมลหลักเป็น { $email } สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใช้ใน { -brand-firefox } Account ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใจ
 postConsumeRecoveryCode-subject = ได้ใช้รหัสการกู้คืนแล้ว
 postConsumeRecoveryCode-title = ใช้รหัสการกู้คืนแล้ว
@@ -62,24 +64,24 @@ postRemoveAccountRecovery-description = คุณได้เอาคีย์�
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = อีเมลสำรองถูกลบแล้ว
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = คุณได้ลบ { $secondaryEmail } จากอีเมลสำรองจากบัญชี { -brand-firefox } ของคุณสำเร็จแล้ว การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะไม่มีการส่งไปยังที่อยู่นี้อีก
 postRemoveTwoStepAuthentication-subject = การยืนยันแบบสองขั้นตอนปิดอยู่
 postRemoveTwoStepAuthentication-title = ปิดใช้งานการรับรองความถูกต้องสองขั้นตอนแล้ว
 postRemoveTwoStepAuthentication-description = คุณได้ปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนบน { -brand-firefox } Account ของคุณจากอุปกรณ์ต่อไปนี้สำเร็จแล้ว:
 postRemoveTwoStepAuthentication-description-plaintext = คุณได้ปิดใช้งานการรับรองการยืนยันตัวบุคคลแบบสองขั้นตอนบน { -brand-firefox } Account ของคุณสำเร็จแล้ว คุณไม่ต้องป้อนรหัสความปลอดภัยในแต่ละครั้งที่คุณลงชื่อเข้าใช้อีก
 postRemoveTwoStepAuthentication-action = { manage-account }
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = มีคำถาม? เยี่ยมชม { $supportUrl }
 postVerifySecondary-subject = เพิ่มอีเมลสำรองแล้ว
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = ตั้งรหัสผ่านใหม่
 recovery-title = ต้องการตั้งรหัสผ่านของคุณใหม่?
 recovery-description = คลิกปุ่มภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่ คำขอมาจากอุปกรณ์ต่อไปนี้:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = บัตรเครดิตสำหรับ % (productName)s จะหมดอายุในไม่ช้า
 subscriptionPaymentExpired-title = บัตรเครดิตของคุณกำลังจะหมดอายุ
 subscriptionsPaymentExpired-subject = บัตรเครดิตสำหรับการบอกรับของคุณจะหมดอายุในไม่ช้า
@@ -99,15 +101,15 @@ verificationReminderSecond-description = คุณได้สร้างบั
 verificationReminderSecond-sub-description = ยืนยันที่อยู่อีเมลนี้เพื่อเปิดใช้งานบัญชีของคุณและแจ้งให้เราทราบว่าคุณไม่มีปัญหาอะไรแล้ว
 verify-title = เปิดใช้งานผลิตภัณฑ์ตระกูล { -brand-firefox }
 verify-subject = สร้างบัญชีของคุณให้เสร็จ
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
 verifyLogin-description = เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้าใช้นี้จากอุปกรณ์ต่อไปนี้:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = ยืนยันการเข้าสู่ระบบของ { $clientName }
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = รหัสยืนยัน: { $code }
 verifyLoginCode-title = ใช่คุณที่ลงชื่อเข้าหรือไม่?
 verifyLoginCode-prompt = หากใช่ นี่คือรหัสยืนยัน:
@@ -117,17 +119,17 @@ verifyPrimary-subject = ยืนยันอีเมลหลัก
 verifyPrimary-action = ยืนยันอีเมล
 verifySecondary-subject = ยืนยันอีเมลสำรอง
 verifySecondary-title = ยืนยันอีเมลสำรอง
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = คำขอเพื่อใช้ { $email } เป็นที่อยู่อีเมลอันดับสองถูกสร้างขึ้นจากบัญชี { -brand-firefox } นี้:
 verifySecondary-action = ยืนยันอีเมล
 verifySecondaryCode-subject = ยืนยันอีเมลสำรอง
 verifySecondaryCode-title = ยืนยันอีเมลสำรอง
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = คำขอเพื่อใช้ { $email } เป็นที่อยู่อีเมลอันดับสองถูกสร้างขึ้นจากบัญชี { -brand-firefox } นี้:
 verifySecondaryCode-prompt = ใช้รหัสยืนยันนี้:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = รหัสยืนยัน: { $code }
 verifyShortCode-title = ใช่คุณที่ลงชื่อเข้า?

@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } Ñemigua Purureko
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
@@ -25,8 +27,8 @@ cadReminderSecond-title = ¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’ok
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
 codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
 codes-generate = Emoheñói ayvu
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName } ndive
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = Emoheñói porã jeguerujeyrã mokõi
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = Emoambue hekopete ne ñandutiveve eipuruvéva { $email }. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo { -brand-firefox } Account-pe ha og̃uahẽ hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ 
 postConsumeRecoveryCode-subject = Ojepuru ayvu jeguerujeyrã
 postConsumeRecoveryCode-title = Eipuru ayvu jeguerujeyrã
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = Embogue porã pe mba’eñemi jeguerujey
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Emboguéma hekopete { $secondaryEmail } ñanduti veve mokõiguáva nde { -brand-firefox } Account pegua. Umi marandu’i tekorosãrã ha ñemoneĩ tembiapo ñepyrũ rehegua nog̃uahẽmo’ãvéima ko kundaharapépe.
 postRemoveTwoStepAuthentication-subject = Jehechajey mokõi jeku’egua ndoikovéima
 postRemoveTwoStepAuthentication-title = Ojepe’áma ñemoneĩ mokõi jeku’e pegua
@@ -81,16 +83,16 @@ postVerify-title = ¡Embojuehe ko’ág̃a ne mba’e’oka!
 postVerify-description = Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha ambue { -brand-firefox } mba’ekuaarã ojuehegua opaite ne mba’e’okápe.
 postVerify-subject = Mba’ete hechajeypyre. Ko’ág̃a emboguejy ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu
 postVerify-setup = Emboheko mba’e’oka upeigua
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = ¿Ereko porandu? Eike { $supportUrl }
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
 recovery-description = Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Nde kuatia’atã ñemurã { $productName } ndokovéitama
 subscriptionPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 subscriptionsPaymentExpired-subject = Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama
@@ -110,15 +112,15 @@ verificationReminderSecond-description = Ohasáma arapokõindy emoheñói hague 
 verificationReminderSecond-sub-description = Emoneĩ ñanduti veve emyandy hag̃ua ne mba’ete ha péicha roikuaáta oĩporãmbaha.
 verify-title = Emyandy { -brand-firefox } apopyre aty
 verify-subject = Emoheñoimava’erã mba’ete
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Tembiapo ñepyrũ pyahu { $clientName } ndive
 verifyLogin-description = Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyrũ amo mba’e’oka guive:
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Emoneĩ jeike pyahu { $clientName }-pe
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Ayvu rechajeyrã: { $code }
 verifyLoginCode-title = ¿Ndépa emoñepyrũve tembiapo?
 verifyLoginCode-prompt = Upéicharõ, eipuru ko ayvu rechajeyrã:
@@ -128,18 +130,18 @@ verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action = Ñandutiveve hechajey
 verifySecondary-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondary-title = Ehechajey ñanduti veve mokõiháva
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -brand-firefox } mba’etépe g̃uarã:
 verifySecondary-action = Ñandutiveve hechajey
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -brand-firefox } mba’etépe g̃uarã:
 verifySecondaryCode-prompt = Eipuru ko ayvu rechajeyrã:
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
 verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:

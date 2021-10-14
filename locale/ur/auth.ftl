@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } کی رازداری پالیسی
 subplat-automated-email = یہ ایک خودکار ای میل ہے؛ اگر یہ آپ کو کسی نقص میں موصول ہوئی ہے، کو عمل کرنے کی ظرورت نہیں ہے۔
@@ -14,8 +16,8 @@ subplat-cancel = رکنیت منسوخ کریں
 subplat-legal = قانونى
 manage-account = اکاؤنٹ بندوبست کریں
 codes-generate = کوڈ تخلیق کریں
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } میں نیا سائن ان
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے
@@ -42,8 +44,8 @@ postRemoveTwoStepAuthentication-title = دو قدمی توثیق غیر فعال
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerify-sub-title = { -brand-firefox }  اکاؤنٹ کی تصدیق ہوگئی۔ آپ تقریباً   وہاں ہیں ۔
 postVerify-setup = اگلا آلہ ترتیب دیں۔
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = سوالات ہیں؟ { $supportUrl } ملاحظہ کریں
 postVerifySecondary-subject = ثانوی ای میل شامل کر دی گئی
 postVerifySecondary-title = { postVerifySecondary-subject }
@@ -56,8 +58,8 @@ verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-subject = آخری یاد دہانی: اپنا اکاؤنٹ چالو کریں
 verificationReminderSecond-title = ابھی تک موجود ہے؟
 verify-subject = اپنا اکاؤنٹ بنانا ختم کریں
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } میں نیا سائن ان
 verifyLogin-description = اظاافی سلامتی کے لئے،،براہ مہربانی مندرجہ زیل آلہ کے سائن کی تصدیق کریں:
 verifyLoginCode-title = کیا یہ آُپ ہیں جو سائن ان کر رہے ہیں؟

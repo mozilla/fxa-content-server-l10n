@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Localization for Firefox Accounts emails, from `fxa-auth-server`
-## Emails do not contain buttons, only links.
-## Emails have a rich HTML version and a plaintext version. The strings are usually the same,
-## but sometimes they differ slightly.
+### Localization for Firefox Accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+## Emails
 
 fxa-privacy-url = { -brand-mozilla } 隐私政策
 subplat-automated-email = 这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。
@@ -25,8 +27,8 @@ cadReminderSecond-title = 请与其他设备同步，最后一次提醒！
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
 codes-generate = 生成救援码
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-subject = 密码已更新
@@ -53,8 +55,8 @@ postAddTwoStepAuthentication-description = 您已成功用下列设备启用 { -
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
-## Variables:
-##  $email (String) - A user's email address
+# Variables:
+#  $email (String) - A user's email address
 postChangePrimary-description = 您已成功将您的主邮箱地址更改为 { $email }。此邮箱地址现在是您用于登录 { -brand-firefox } 账户的用户名，以及用于接收安全通知和登录确认。
 postConsumeRecoveryCode-subject = 已使用救援码
 postConsumeRecoveryCode-title = 救援码已被使用
@@ -68,8 +70,8 @@ postRemoveAccountRecovery-description = 您已使用下列设备，成功移除 
 postRemoveAccountRecovery-action = { manage-account }
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = { postRemoveSecondary-subject }
-## Variables:
-##  $secondaryEmail (String) - A user's email address
+# Variables:
+#  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功移除您的 { -brand-firefox } 账户中的备用邮箱地址 { $secondaryEmail }。安全通知和登录确认将不再发送到此地址。
 postRemoveTwoStepAuthentication-subject = 已关闭两步验证
 postRemoveTwoStepAuthentication-title = 已禁用两步验证
@@ -81,16 +83,16 @@ postVerify-title = 接下来与您的其他设备同步！
 postVerify-description = 同步服务会安全地在您所有设备间同步书签、密码与其他 { -brand-firefox } 数据。
 postVerify-subject = 账户验证完毕。接下来，与另一台同步设备以完成设置
 postVerify-setup = 设置下一台设备
-## Variables:
-##  $email (String) - Link to https://accounts.firefox.com/support
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 备用邮箱已绑定
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
 recovery-description = 请在一小时内点击下面的按钮来创建新密码。此次重设密码的请求来自以下设备：
-## Variables:
-##  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将过期
 subscriptionPaymentExpired-title = 您的信用卡即将到期
 subscriptionsPaymentExpired-subject = 订阅所用信用卡即将过期
@@ -110,15 +112,15 @@ verificationReminderSecond-description = 大约一周前，您创建了一个 { 
 verificationReminderSecond-sub-description = 请确认此邮箱地址以激活您的账户，让我们知道您没遇到什么问题。
 verify-title = 激活 { -brand-firefox } 系列产品
 verify-subject = 账户创建完成
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = { $clientName } 有新的登录活动
 verifyLogin-description = 为了您的安全，请确认从下列设备的登录：
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = 确认新的 { $clientName } 登录活动
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyLoginCode-subject = 验证码：{ $code }
 verifyLoginCode-title = 是您在登录吗？
 verifyLoginCode-prompt = 如果是，请使用此验证码：
@@ -128,18 +130,18 @@ verifyPrimary-subject = 确认主邮箱
 verifyPrimary-action = 验证邮箱
 verifySecondary-subject = 确认备用邮箱地址
 verifySecondary-title = 验证备用邮箱地址
-## Variables:
-##  $email (String) - A user's unverified secondary email address
+# Variables:
+#  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = 有人请求使用 { $email } 作为下列 { -brand-firefox } 账户的备用邮箱地址：
 verifySecondary-action = 验证邮箱
 verifySecondaryCode-subject = 确认备用邮箱地址
 verifySecondaryCode-title = 验证备用邮箱地址
-## Variables:
-##  $email (string) A user's unverified secondary email address
+# Variables:
+#  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -brand-firefox } 账户的备用邮箱地址：
 verifySecondaryCode-prompt = 使用此验证码：
-## Variables:
-##  $code (Number) - e.g. 123456
+# Variables:
+#  $code (Number) - e.g. 123456
 verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-prompt = 如果是，请在注册表单中输入此验证码：
