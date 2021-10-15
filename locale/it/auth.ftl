@@ -44,16 +44,28 @@ subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email 
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
+subplat-manage-account = Gestisci le impostazioni del tuo { -product-firefox-account } visitando la <a data-l10n-name="subplat-account-page">pagina dell’account</a>.
 subplat-terms-policy = Termini e condizioni di annullamento
 subplat-cancel = Annulla abbonamento
 subplat-reactivate = Rinnova l’abbonamento
 subplat-update-billing = Aggiorna le informazioni di fatturazione
 subplat-legal = Note legali
 subplat-privacy = Privacy
+another-desktop-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo desktop</a>.
+another-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo</a>.
+automated-email-change =
+    Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="passwordChangeLink">cambia la tua password</a>.
+    Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’account { -brand-firefox }, cambia subito la password utilizzando il link { $passwordChangeLink }
-automated-email-plaintext = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+automated-email-change-plaintext = Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’account { -brand-firefox }, cambia subito la password utilizzando il link { $passwordChangeLink }
+automated-email =
+    Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore puoi semplicemente ignorarla.
+    Per ulteriori informazioni visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
+automated-email-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+automated-email-reset =
+    Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="resetLink">ripristina la tua password</a>.
+    Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se non sei stato tu a effettuare questa modifica, reimposta la password al link { $resetLink }
@@ -75,14 +87,21 @@ support-message = Per ulteriori informazioni visita { $supportUrl }
 cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione della sincronizzazione
 cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
+cadReminderFirst-description = Bisogna essere in due per sincronizzarsi… Sincronizzando un altro dispositivo con { -brand-firefox } potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi { -brand-firefox }, senza rinunciare alla riservatezza.
 cadReminderSecond-subject = Promemoria finale: completa la configurazione della sincronizzazione
 cadReminderSecond-action = Sincronizza un altro dispositivo
 cadReminderSecond-title = Ultimo promemoria per sincronizzare i dispositivi.
+cadReminderSecond-description = Sincronizzando un altro dispositivo con { -brand-firefox } potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi { -brand-firefox }, senza rinunciare alla riservatezza.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sono rimasti pochi codici di recupero
 codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di recupero. Genera dei nuovi codici per evitare di restare tagliato fuori dal tuo account.
 codes-generate = Genera codici
 codes-generate-plaintext = { codes-generate }:
+lowRecoveryCodes-subject =
+    { NUMBER($numberRemaining) ->
+        [one] Rimane 1 codice di recupero
+       *[other] Rimangono { NUMBER($numberRemaining) } codici di recupero
+    }
 lowRecoveryCodes-action = { codes-generate }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -91,27 +110,37 @@ newDeviceLogin-title = { newDeviceLogin-subject }
 newDeviceLogin-action = { manage-account }
 passwordChanged-subject = Password aggiornata
 passwordChanged-title = Password modificata correttamente
+passwordChanged-description = La password dell’account { -brand-firefox } è stata modificata correttamente dal seguente dispositivo:
 passwordChangeRequired-subject = Rilevata attività sospetta
 passwordChangeRequired-title = Cambio password necessario
+passwordChangeRequired-suspicious-activity = Abbiamo rilevato attività sospette sul tuo { -product-firefox-account }. Per impedire accessi non autorizzati, tutti i dispositivi sono stati disconnessi dal tuo account { -brand-firefox } e, a scopo precauzionale, è obbligatorio cambiare la password.
+passwordChangeRequired-sign-in = Effettua nuovamente l’accesso in qualsiasi dispositivo o servizio in cui usi il tuo { -product-firefox-account } e segui i passaggi che ti verranno presentati.
 passwordChangeRequired-different-password = <b>Importante:</b> scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che non sia uguale al tuo indirizzo di posta.
 passwordChangeRequired-signoff = Cordialmente,
 passwordChangeRequired-signoff-name = Il team di { -product-firefox-accounts }
+passwordChangeRequired-different-password-plaintext = Importante: scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che non sia uguale al tuo indirizzo di posta.
 passwordReset-subject = Password aggiornata
 passwordReset-title = La tua password è stata modificata
+passwordReset-description = Per riprendere la sincronizzazione inserisci la nuova password sugli altri dispositivi collegati.
 passwordResetAccountRecovery-subject = Password aggiornata utilizzando la chiave di recupero
 passwordResetAccountRecovery-title = La password dell’account è stata ripristinata con una chiave di recupero
 passwordResetAccountRecovery-description = La password è stata correttamente ripristinata utilizzando una chiave di recupero dal seguente dispositivo:
 passwordResetAccountRecovery-action = Crea una nuova chiave di recupero
 passwordResetAccountRecovery-regen-required = È necessario generare una nuova chiave di recupero.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key = Crea una nuova chiave di recupero:
 postAddAccountRecovery-subject = Generata chiave di recupero
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-description = La chiave di recupero per l’account { -brand-firefox } è stata correttamente generata dal seguente dispositivo:
 postAddAccountRecovery-action = { manage-account }
+postAddAccountRecovery-recovery = Se non hai effettuato questa operazione, <a data-l10n-name="revokeAccountRecoveryLink">fai clic qui</a>.
+postAddAccountRecovery-revoke = Se non hai effettuato questa operazione, revoca la chiave.
 postAddTwoStepAuthentication-subject = Autenticazione in due passaggi attivata
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
 postAddTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox }. Da ora in avanti a ogni accesso verranno richiesti i codici di verifica generati dall’app di autenticazione.
 postAddTwoStepAuthentication-description = L’autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox } dal seguente dispositivo:
 postAddTwoStepAuthentication-action = { manage-account }
+postAddTwoStepAuthentication-code-required = Da ora in avanti a ogni nuovo accesso verranno richiesti i codici generati dall’app di autenticazione.
 postChangePrimary-subject = Indirizzo email primario aggiornato
 postChangePrimary-title = Nuovo indirizzo email primario
 # Variables:
@@ -130,6 +159,7 @@ postRemoveAccountRecovery-subject = Eliminata chiave di recupero account
 postRemoveAccountRecovery-title = { postRemoveAccountRecovery-subject }
 postRemoveAccountRecovery-description = La chiave di recupero per l’account { -brand-firefox } è stata correttamente rimossa dal seguente dispositivo:
 postRemoveAccountRecovery-action = { manage-account }
+postRemoveAccountRecovery-invalid = Non è più possibile utilizzare questa chiave di recupero per recuperare il tuo account.
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 # Variables:
@@ -141,6 +171,7 @@ postRemoveTwoStepAuthentication-title = Autenticazione in due passaggi disattiva
 postRemoveTwoStepAuthentication-description = L’autenticazione in due passaggi per il tuo account { -brand-firefox } è stata disattivata correttamente dal seguente dispositivo:
 postRemoveTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi per il tuo account { -brand-firefox } è stata disattivata correttamente. I codici di verifica non verranno più richiesti ad ogni accesso.
 postRemoveTwoStepAuthentication-action = { manage-account }
+postRemoveTwoStepAuthentication-not-required = I codici di verifica non verranno più richiesti a ogni accesso.
 postVerify-sub-title = L’account { -brand-firefox } è stato verificato. Hai quasi finito.
 postVerify-title = Adesso sincronizza i tuoi dispositivi.
 postVerify-description = Sincronizza i tuoi segnalibri, le password e altri dati di { -brand-firefox } in tutti i tuoi dispositivi, garantendone la riservatezza.
@@ -152,14 +183,21 @@ postVerify-support = Hai domande o dubbi? Visita { $supportUrl }
 postVerify-action = { postVerify-setup }
 postVerifySecondary-subject = Email secondaria aggiunta correttamente
 postVerifySecondary-title = { postVerifySecondary-subject }
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = L’indirizzo email { $secondaryEmail } è stato correttamente verificato e sarà utilizzato come indirizzo secondario per l’account { -brand-firefox }. Da questo momento le notifiche di sicurezza e le conferme d’accesso verranno inviate a entrambi gli indirizzi email.
 postVerifySecondary-action = { manage-account }
 recovery-subject = Reimpostazione della password
 recovery-title = Desideri reimpostare la password?
 recovery-description = Per impostare una nuova password fai clic sul pulsante entro un’ora. La richiesta di modifica password è stata inoltrata dal seguente dispositivo:
+recovery-action = Crea nuova password
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La carta di credito per { $productName } sta per scadere
 subscriptionPaymentExpired-title = La carta di credito in uso sta per scadere
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = La carta di credito in uso per i pagamenti di { $productName } sta per scadere.
 subscriptionsPaymentExpired-subject = La carta di credito collegata ai tuoi abbonamenti sta per scadere
 subscriptionsPaymentExpired-title = La carta di credito in uso sta per scadere
 subscriptionsPaymentExpired-content = La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta per scadere.
@@ -169,8 +207,14 @@ subscriptionsPaymentExpired-name = { $productName }
 unblockCode-subject = Codice di autorizzazione per l’account
 unblockCode-title = Hai effettuato tu questo accesso?
 unblockCode-prompt = In caso affermativo, questo è il codice di autorizzazione da utilizzare:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = In caso affermativo, questo è il codice di autorizzazione da utilizzare: { $unblockCode }
+unblockCode-report = In caso contrario, aiutaci a tenere alla larga gli intrusi <a data-l10n-name="reportSignInLink">segnalandocelo</a>.
+unblockCode-report-plaintext = In caso contrario, aiutaci a tenere alla larga gli intrusi segnalandocelo.
 verificationReminderFirst-subject = Promemoria: completa la creazione del tuo account
 verificationReminderFirst-title = Benvenuto nella famiglia { -brand-firefox }
+verificationReminderFirst-description = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato.
 verificationReminderFirst-sub-description = Conferma subito il tuo account e sfrutta i vantaggi di una tecnologia che protegge la tua privacy, arricchisce le tue conoscenze pratiche del Web e rispetta i tuoi diritti di utente.
 confirm-email = Verifica indirizzo email
 verificationReminderFirst-action = { confirm-email }
