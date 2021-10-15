@@ -10,6 +10,9 @@
 ## Email content
 
 fxa-privacy-url = { -brand-mozilla } maxfiylik siyosati
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP manzil: { $ip }
 newDeviceLogin-title = { newDeviceLogin-subject }
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }

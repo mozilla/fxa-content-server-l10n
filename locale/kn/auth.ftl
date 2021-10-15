@@ -10,6 +10,9 @@
 ## Email content
 
 fxa-privacy-url = ಮೊಝಿಲ್ಲಾ ಖಾಸಗಿ ನಿಯಮ
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = ಐಪಿ ವಿಳಾಸ: { $ip }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = ಗುಪ್ತಪದದ ಯಶಸ್ವಿಯಾಗಿ ಬದಲಿಸಲಾಗಿದೆ
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }

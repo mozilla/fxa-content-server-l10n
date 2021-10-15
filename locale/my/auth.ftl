@@ -24,5 +24,6 @@ postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-title = { postVerifySecondary-subject }
 verificationReminderFirst-action = { confirm-email }
+verifyLogin-action = ဝင်ရောက်မှုကို အတည်ပြုပါ
 verifySecondary-title = အခြားအီးမေးလ်ကို အတည်ပြုပါ
 verifySecondaryCode-title = အခြားအီးမေးလ်ကို အတည်ပြုပါ

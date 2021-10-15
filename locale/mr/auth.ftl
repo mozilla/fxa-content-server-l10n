@@ -9,6 +9,8 @@
 
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordResetAccountRecovery-action = नवीन पुनर्प्राप्ती की तयार करा
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key = नवीन पुनर्प्राप्ती की तयार करा:
 postAddAccountRecovery-title = { postAddAccountRecovery-subject }
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
@@ -20,4 +22,5 @@ postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-title = आपला पासवर्ड बदलण्याची आवश्यकता आहे?
+recovery-action = नवीन पासवर्ड तयार करा
 verificationReminderFirst-action = { confirm-email }

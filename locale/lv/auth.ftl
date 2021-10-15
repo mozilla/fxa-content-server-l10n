@@ -11,6 +11,14 @@
 
 fxa-privacy-url = { -brand-mozilla } privātuma politika
 subplat-automated-email = Šis ir automātisks epasts; jā jūs to saņēmāt kļūdas pēc, nekāda darbība nav nepieciešama.
+automated-email-plaintext = Šis ir automātisks epasts; jā jūs to saņēmāt kļūdas pēc, nekāda darbība nav nepieciešama.
+change-password-plaintext = Ja jums ir aizdomas ka kāds cenšas piekļūt jūsu kontam, lūdzu izmainiet savu paroli.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adrese: { $ip }
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Lai iegūtu vairāk informācijas, lūdzu apmeklējiet { $supportUrl }
 newDeviceLogin-title = { newDeviceLogin-subject }
 passwordChanged-title = Parole tika veiksmīgi nomainīta
 passwordChangeRequired-signoff = Ar sveicieniem,
@@ -25,5 +33,7 @@ postRemoveSecondary-title = { postRemoveSecondary-subject }
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerifySecondary-title = { postVerifySecondary-subject }
 recovery-subject = Atstatiet savu paroli
+recovery-action = Izveidot jaunu paroli
 verificationReminderFirst-action = { confirm-email }
 verificationReminderSecond-title = Vai jūs te joprojām esat?
+verifyLogin-action = Apstiprināt ieiešanu
