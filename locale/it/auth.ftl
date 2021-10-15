@@ -72,10 +72,10 @@ subscriptionUpdatePayment-plaintext = Per evitare interruzioni del servizio, agg
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Per ulteriori informazioni visita { $supportUrl }
-cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione della sincronizzazione
+cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione di Sync
 cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
-cadReminderSecond-subject = Promemoria finale: completa la configurazione della sincronizzazione
+cadReminderSecond-subject = Promemoria finale: completa la configurazione di Sync
 cadReminderSecond-action = Sincronizza un altro dispositivo
 cadReminderSecond-title = Ultimo promemoria per sincronizzare i dispositivi.
 # The user has a low number of valid recovery codes remaining for use
@@ -109,14 +109,14 @@ postAddAccountRecovery-description = La chiave di recupero per l’account { -br
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Autenticazione in due passaggi attivata
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox }. Da ora in avanti a ogni accesso verranno richiesti i codici di verifica generati dall’app di autenticazione.
-postAddTwoStepAuthentication-description = L’autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox } dal seguente dispositivo:
+postAddTwoStepAuthentication-description-plaintext = L'autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox }. Da ora in avanti a ogni accesso verranno richiesti i codici di verifica generati dall’app di
+postAddTwoStepAuthentication-description = L'autenticazione in due passaggi è stata attivata correttamente per il tuo account { -brand-firefox } dal seguente dispositivo:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Indirizzo email primario aggiornato
 postChangePrimary-title = Nuovo indirizzo email primario
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’account { -brand-firefox }, ricevere notifiche di sicurezza e conferme.
+postChangePrimary-description = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’account { -brand-firefox }, ricevere le notifiche di
 postChangePrimary-action = { manage-account }
 postConsumeRecoveryCode-subject = Codice di recupero utilizzato
 postConsumeRecoveryCode-title = Codice di recupero utilizzato
@@ -143,7 +143,7 @@ postRemoveTwoStepAuthentication-description-plaintext = L’autenticazione in du
 postRemoveTwoStepAuthentication-action = { manage-account }
 postVerify-sub-title = L’account { -brand-firefox } è stato verificato. Hai quasi finito.
 postVerify-title = Adesso sincronizza i tuoi dispositivi.
-postVerify-description = Sincronizza i tuoi segnalibri, le password e altri dati di { -brand-firefox } in tutti i tuoi dispositivi, garantendone la riservatezza.
+postVerify-description = Sync sincronizza i tuoi segnalibri, le password e altri dati di { -brand-firefox } in tutti i tuoi dispositivi, garantendone la riservatezza.
 postVerify-subject = L’account è stato verificato. Adesso sincronizza un altro dispositivo per completare la configurazione
 postVerify-setup = Configura un altro dispositivo
 # Variables:
@@ -155,7 +155,7 @@ postVerifySecondary-title = { postVerifySecondary-subject }
 postVerifySecondary-action = { manage-account }
 recovery-subject = Reimpostazione della password
 recovery-title = Desideri reimpostare la password?
-recovery-description = Per impostare una nuova password fai clic sul pulsante entro un’ora. La richiesta di modifica password è stata inoltrata dal seguente dispositivo:
+recovery-description = Per impostare una nuova password fai clic sul pulsante entro un'ora. La richiesta di modifica password è stata inoltrata dal seguente dispositivo:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La carta di credito per { $productName } sta per scadere
@@ -176,7 +176,7 @@ confirm-email = Verifica indirizzo email
 verificationReminderFirst-action = { confirm-email }
 confirm-email-plaintext = { confirm-email }:
 verificationReminderSecond-subject = Ultimo promemoria: attiva il tuo account
-verificationReminderSecond-title = Ci sei ancora?
+verificationReminderSecond-title = Ancora qui?
 verificationReminderSecond-description = È trascorsa quasi una settimana da quando hai registrato un account { -brand-firefox }, ma non lo hai ancora verificato. Stiamo iniziando a preoccuparci.
 verificationReminderSecond-sub-description = Verifica questo indirizzo email per attivare il tuo account e farci sapere che è tutto a posto.
 verificationReminderSecond-action = { confirm-email }
@@ -189,7 +189,7 @@ verify-action = { confirm-email }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Nuovo accesso a { $clientName }
-verifyLogin-description = Per una maggiore sicurezza, conferma l’accesso da questo dispositivo:
+verifyLogin-description = Per una maggiore sicurezza, conferma l'accesso da questo dispositivo:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Conferma nuovo accesso a { $clientName }
@@ -201,7 +201,7 @@ verifyLoginCode-title = Hai effettuato tu questo accesso?
 verifyLoginCode-prompt = Se desideri procedere, ecco il codice di verifica:
 verifyLoginCode-expiry-notice = Scade tra 5 minuti.
 verifyPrimary-title = Verifica l’indirizzo email principale
-verifyPrimary-description = Una richiesta di autorizzazione per modificare l‘account è stata inviata dal seguente dispositivo:
+verifyPrimary-description = Una richiesta di autorizzazione a modificare l‘account è stata inviata dal seguente dispositivo:
 verifyPrimary-subject = Conferma l’indirizzo email primario
 verifyPrimary-action = Verifica indirizzo email
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
@@ -213,7 +213,7 @@ verifySecondary-title = Verifica l’indirizzo email secondario
 verifySecondary-explainer = Il seguente account { -brand-firefox } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondary-action = Verifica indirizzo email
 verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Una volta verificato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
+verifySecondary-post-verification = Una volta verificato, il presente indirizzo email riceverà notifiche e messaggi di conferma.
 verifySecondaryCode-subject = Conferma l’indirizzo email secondario
 verifySecondaryCode-title = Verifica l’indirizzo email secondario
 # Variables:
