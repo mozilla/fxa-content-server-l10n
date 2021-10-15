@@ -37,13 +37,6 @@ subplat-privacy-plaintext = Informativa sulla privacy:
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
 subplat-terms-policy = Termini e condizioni di annullamento
 subplat-cancel = Annulla sottoscrizione
 subplat-reactivate = Rinnova l'abbonamento
@@ -194,14 +187,12 @@ verifySecondary-title = Verifica l’indirizzo email secondario
 verifySecondary-explainer = Il seguente account { -brand-firefox } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondary-action = Verifica indirizzo email
 verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Una volta verificato, il presente indirizzo email riceverà notifiche e messaggi di conferma.
 verifySecondaryCode-subject = Conferma l’indirizzo email secondario
 verifySecondaryCode-title = Verifica l’indirizzo email secondario
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Il seguente account { -brand-firefox } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondaryCode-prompt = Usa questo codice di verifica:
-verifySecondaryCode-expiry-notice = Il codice scadrà tra 5 minuti. Una volta verificato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Codice di verifica: { $code }
