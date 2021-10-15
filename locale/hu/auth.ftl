@@ -49,7 +49,19 @@ subplat-legal = Jogi információk
 subplat-privacy = Adatvédelem
 another-desktop-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
 another-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
+automated-email-change =
+    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -brand-firefox }-fiókjához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
+automated-email =
+    Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
+    További információkért keresse fel a { -brand-mozilla } támogatást</a>.
 automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
+automated-email-reset =
+    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ha nem módosította, akkor állítsa helyre jelszavát itt: { $resetLink }
@@ -211,7 +223,9 @@ verificationReminderSecond-action = { confirm-email }
 verify-title = Aktiválja a { -brand-firefox } termékcsaládot
 verify-description-common = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik.
 verify-description-plaintext = { verify-description-common }.
+verify-description = Ezzel kezdődő { verify-description-common }:
 verify-subject = A fiókja létrehozásának befejezése
+verify-action = { confirm-email }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Új bejelentkezés itt: { $clientName }
@@ -219,29 +233,37 @@ verifyLogin-description = A nagyobb biztonság érdekében, erősítse meg ezt a
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Erősítse meg bejelentkezését ide: { $clientName }
+verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyLoginCode-subject = Ellenőrzőkód: { $code }
 verifyLoginCode-title = Ez az ön bejelentkezése?
 verifyLoginCode-prompt = Ha igen, akkor itt az ellenőrzőkód:
+verifyLoginCode-expiry-notice = 5 perc múlva lejár.
 verifyPrimary-title = Elsődleges e-mail cím megerősítése
 verifyPrimary-description = A kérés, hogy módosítsa a fiókját a következő eszközről lett elküldve:
 verifyPrimary-subject = Elsődleges e-mail cím megerősítése
 verifyPrimary-action = E-mail cím megerősítése
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
+verifyPrimary-post-verify = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail-cím hozzáadása, lehetségesek lesznek erről az eszközről.
 verifySecondary-subject = Másodlagos e-mail megerősítése
 verifySecondary-title = Másodlagos e-mail megerősítése
 # Variables:
 #  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -brand-firefox } fiókból lett küldve:
 verifySecondary-action = E-mail cím megerősítése
+verifySecondary-prompt = { verifySecondary-action }:
+verifySecondary-post-verification = Ha hitelesíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title = Másodlagos e-mail megerősítése
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -brand-firefox } fiókból lett küldve:
 verifySecondaryCode-prompt = Használja ezt az ellenőrzőkódot:
+verifySecondaryCode-expiry-notice = 5 perc múlva lejár. Ha hitelesíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
 verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
+verifyShortCode-expiry-notice = 5 perc múlva lejár.
