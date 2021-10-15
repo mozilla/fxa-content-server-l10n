@@ -2,79 +2,21 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ### Localization for Firefox Accounts emails, from `fxa-auth-server`
 ### Emails do not contain buttons, only links.
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-
-## Firefox and Mozilla Brand
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-
-## "Accounts" can be localized, "Firefox" must be treated as a brand.
-
--product-firefox-accounts = Firefox Accounts
-
-## "Account" can be localized, "Firefox" must be treated as a brand.
-## This is used to refer to a user's account, e.g. "update your Firefox account ..."
-## NOTE: We currently sometimes we refer to  "Firefox Account" rather than "Firefox account". This is a known issue (FXA-4071 / fxa/issues/10654).
-
--product-firefox-account = Firefox account
-
 ## Email content
 
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
-fxa-service-url = { -brand-firefox } Cloud Terms of Service
 subplat-automated-email = This is an automated email; if you received it in error, no action is required.
-subplat-privacy-plaintext = Privacy notice:
-subplat-terms-policy-plaintext = { subplat-terms-policy }:
-subplat-cancel-plaintext = { subplat-cancel }:
-subplat-update-billing-plaintext = { subplat-update-billing }:
-# Variables:
-#  $email (String) - A user's primary email address
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
-subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
-subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
 subplat-terms-policy = Terms and cancellation policy
 subplat-cancel = Cancel subscription
 subplat-reactivate = Reactivate subscription
 subplat-update-billing = Update billing information
 subplat-legal = Legal
-subplat-privacy = Privacy
-another-desktop-device = Or, install on <a data-l10n-name="anotherDeviceLink">another desktop device</a>.
-another-device = Or, install on <a data-l10n-name="anotherDeviceLink">another device</a>.
-automated-email-change =
-    This is an automated email; if you did not authorize this action, then <a data-l10n-name="passwordChangeLink">please change your password</a>.
-    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = This is an automated email; if you didn’t add a new device to your { -brand-firefox } Account, you should change your password immediately at { $passwordChangeLink }
-automated-email =
-    This is an automated email; if you received it in error, no action is required.
-    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
-automated-email-reset =
-    This is an automated email; if you did not authorize this action, then <a data-l10n-name="resetLink">please reset your password</a>.
-    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
-change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP address: { $ip }
 manage-account = Manage account
-manage-account-plaintext = { manage-account }:
-subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
-# After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
-subscriptionUpdatePayment = To prevent any interruption to your service, please <a data-l10n-name="updateBillingUrl">update your payment information</a> as soon as possible.
 cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
 cadReminderFirst-action = Sync another device
 cadReminderFirst-title = Here’s your reminder to sync devices.
@@ -115,7 +57,7 @@ postChangePrimary-subject = Primary email updated
 postChangePrimary-title = New primary email
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -brand-firefox } Account, as well as receiving security notifications and sign-in
+postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -brand-firefox } Account, as well as receiving security notifications and sign-in 
 postConsumeRecoveryCode-subject = Recovery code used
 postConsumeRecoveryCode-title = Recovery code consumed
 postConsumeRecoveryCode-description = You have successfully consumed a recovery code from the following device:
