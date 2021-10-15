@@ -32,7 +32,7 @@
 
 fxa-privacy-url = Informativa sulla privacy { -brand-mozilla }
 fxa-service-url = Termini di servizio di { -brand-firefox } Cloud
-subplat-automated-email = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+subplat-automated-email = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore puoi semplicemente ignorarla.
 subplat-privacy-plaintext = Informativa sulla privacy:
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel-plaintext = { subplat-cancel }:
@@ -45,16 +45,33 @@ subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email 
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
 subplat-terms-policy = Termini e condizioni di annullamento
-subplat-cancel = Annulla sottoscrizione
-subplat-reactivate = Rinnova l'abbonamento
+subplat-cancel = Annulla abbonamento
+subplat-reactivate = Rinnova l’abbonamento
 subplat-update-billing = Aggiorna le informazioni di fatturazione
 subplat-legal = Note legali
 subplat-privacy = Privacy
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’account { -brand-firefox }, cambia subito la password utilizzando il link { $passwordChangeLink }
+automated-email-plaintext = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Se non sei stato tu a effettuare questa modifica, reimposta la password al link { $resetLink }
+change-password-plaintext = Se ritieni che qualcuno stia tentando di accedere indebitamente al tuo account, cambia subito la password.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Indirizzo IP: { $ip }
 manage-account = Gestisci account
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Hai delle domande sull’abbonamento? Il <a data-l10n-name="subscriptionSupportUrl">team di supporto</a> è a tua disposizione.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Hai delle domande sull’abbonamento? Il team di supporto è a tua disposizione:
+subscriptionUpdatePayment = Al fine di prevenire l’interruzione del servizio è consigliato <a data-l10n-name="updateBillingUrl">aggiornare le informazioni di pagamento</a> il prima possibile.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Per evitare interruzioni del servizio, aggiorna le informazioni di pagamento il prima possibile:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Per ulteriori informazioni visita { $supportUrl }
 cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione di Sync
 cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
@@ -164,7 +181,9 @@ verificationReminderSecond-description = È trascorsa quasi una settimana da qua
 verificationReminderSecond-sub-description = Verifica questo indirizzo email per attivare il tuo account e farci sapere che è tutto a posto.
 verificationReminderSecond-action = { confirm-email }
 verify-title = Attiva la famiglia di prodotti { -brand-firefox }
+verify-description-common = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi sincronizzati
 verify-description-plaintext = { verify-description-common }.
+verify-description = { verify-description-common } a partire da:
 verify-subject = Completa la creazione del tuo account
 verify-action = { confirm-email }
 # Variables:
