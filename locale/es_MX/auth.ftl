@@ -2,31 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ### Localization for Firefox Accounts emails, from `fxa-auth-server`
 ### Emails do not contain buttons, only links.
 ### Emails have a rich HTML version and a plaintext version. The strings are usually identical
 ### but sometimes they differ slightly.
 
-
-## Firefox and Mozilla Brand
-
--brand-firefox = Firefox
-
-## "Accounts" can be localized, "Firefox" must be treated as a brand.
-
-
-## "Account" can be localized, "Firefox" must be treated as a brand.
-## This is used to refer to a user's account, e.g. "update your Firefox account ..."
-## NOTE: We currently sometimes we refer to  "Firefox Account" rather than "Firefox account". This is a known issue (FXA-4071 / fxa/issues/10654).
-
-
 ## Email content
 
 fxa-privacy-url = Política de Privacidad de { -brand-mozilla }
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
-subplat-cancel-plaintext = { subplat-cancel }:
-subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Términos y política de cancelación
 subplat-cancel = Cancelar suscripción
 subplat-reactivate = Reactivar suscripción
@@ -66,14 +50,14 @@ postAddAccountRecovery-description = Generaste una llave de recuperación de cue
 postAddAccountRecovery-action = { manage-account }
 postAddTwoStepAuthentication-subject = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title = { postAddTwoStepAuthentication-subject }
-postAddTwoStepAuthentication-description-plaintext = Has activado correctamente la autenticación en dos pasos en tu cuenta de { -brand-firefox }. A partir de ahora se solicitarán los códigos de seguridad de tu aplicación de autenticación cada vez que inicies
+postAddTwoStepAuthentication-description-plaintext = Has activado correctamente la autenticación en dos pasos en tu cuenta de { -brand-firefox }. A partir de ahora se solicitarán los códigos de seguridad de tu aplicación de autenticación cada vez que inicies 
 postAddTwoStepAuthentication-description = Has activado correctamente la autenticación en dos pasos en tu cuenta de { -brand-firefox } desde el siguiente dispositivo:
 postAddTwoStepAuthentication-action = { manage-account }
 postChangePrimary-subject = Correo principal actualizado
 postChangePrimary-title = Nuevo correo electrónico principal
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Cambiaste exitosamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para conectarte a tu cuenta de { -brand-firefox }, así como para recibir notificaciones de seguridad y
+postChangePrimary-description = Cambiaste exitosamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para conectarte a tu cuenta de { -brand-firefox }, así como para recibir notificaciones de seguridad y 
 postConsumeRecoveryCode-subject = Código de recuperación utilizado
 postConsumeRecoveryCode-title = Código de recuperación utilizado
 postConsumeRecoveryCode-description = Has utilizado exitosamente un código de recuperación desde el siguiente dispositivo:
@@ -88,7 +72,7 @@ postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = { postRemoveSecondary-subject }
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Has eliminado correctamente { $secondaryEmail } como correo electrónico secundario de tu cuenta de { -brand-firefox }. Las notificaciones de seguridad y confirmación de inicio de sesión ya no se entregarán a
+postRemoveSecondary-description = Has eliminado correctamente { $secondaryEmail } como correo electrónico secundario de tu cuenta de { -brand-firefox }. Las notificaciones de seguridad y confirmación de inicio de sesión ya no se entregarán a 
 postRemoveTwoStepAuthentication-subject = Verificación en dos pasos deshabilitada
 postRemoveTwoStepAuthentication-title = Autenticación en dos pasos desactivada
 postRemoveTwoStepAuthentication-description = Has desactivado exitosamente la autenticación en dos pasos en tu cuenta de { -brand-firefox } desde el siguiente dispositivo:
