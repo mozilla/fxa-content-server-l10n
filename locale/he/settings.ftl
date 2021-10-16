@@ -231,11 +231,11 @@ avatar-page-cancel-button = ביטול
 avatar-page-save-button = שמירה
 avatar-page-saving-button = מתבצעת שמירה…
 avatar-page-zoom-out-button =
-  .title = התרחקות
+    .title = התרחקות
 avatar-page-zoom-in-button =
-  .title = התקרבות
+    .title = התקרבות
 avatar-page-rotate-button =
-  .title = סיבוב
+    .title = סיבוב
 avatar-page-camera-error = לא ניתן לאתחל את המצלמה
 avatar-page-new-avatar =
     .alt = תמונת פרופיל חדשה
@@ -325,6 +325,7 @@ recovery-key-success-alert = מפתח שחזור נוצר.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = שלב 1 מתוך 2
 add-secondary-email-error = אירעה שגיאה ביצירת דוא״ל זה.
 add-secondary-email-page-title =
     .title = כתובת דוא״ל משנית
@@ -338,6 +339,7 @@ add-secondary-email-save-button = שמירה
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = שלב 2 מתוך 2
 verify-secondary-email-error = אירעה שגיאה בשליחת קוד האימות.
 verify-secondary-email-page-title =
     .title = כתובת דוא״ל משנית
