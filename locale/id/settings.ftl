@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Tutup pesan
 
 ## Firefox and Mozilla Brand
 ##
@@ -28,6 +29,7 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Akun Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
 
 ##
@@ -62,6 +64,13 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Menu Bento { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } adalah teknologi yang memperjuangkan privasi daring Anda.
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-desktop = Peramban { -brand-firefox } untuk Desktop
+bento-menu-firefox-mobile = Peramban { -brand-firefox } untuk Seluler
 bento-menu-made-by-mozilla = Dibuat oleh { -brand-mozilla }
 
 ## Connect another device promo
@@ -112,6 +121,17 @@ cs-disconnect-sync-opt-not-say = Cenderung tidak mengatakan
 
 cs-disconnect-advice-confirm = Oke, paham
 cs-disconnect-lost-advice-heading = Sambungan perangkat yang hilang atau dicuri terputus
+cs-disconnect-lost-advice-content-2 =
+    Karena perangkat anda telah hilang atau dicuri, untuk
+    menjaga keamanan informasi Anda, Anda harus mengubah kata sandi { -product-firefox-account } Anda 
+    di pengaturan akun. Anda juga harus mencari informasi dari
+    produsen perangkat Anda mengenai cara menghapus data anda dari jarak jauh.
+cs-disconnect-suspicious-advice-heading = Perangkat yang mencurigakan terputus
+cs-disconnect-suspicious-advice-content =
+    Jika perangkat yang terputus ternyata¶
+    mencurigakan, untuk menjaga informasi Anda agar tetap aman, Anda perlu mengubah kata sandi¶
+    { -product-firefox-account } di pengaturan akun. Anda juga disarankan untuk mengubah¶
+    kata sandi lainnya yang Anda simpan pada { -brand-firefox } dengan mengetikkan tentang:logins pada bilah alamat.
 cs-sign-out-button = Keluar
 
 ##
@@ -128,10 +148,17 @@ datablock-print =
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Menu { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Masuk sebagai</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Keluar
+drop-down-menu-sign-out-error = Maaf, terjadi masalah saat mengeluarkan Anda.
 
 ## Flow Container
 
+flow-container-back = Kembali
 
 # GetDataTrio component, part of Recovery Key flow
 
@@ -154,6 +181,10 @@ header-help = Bantuan
 
 ## Input Password
 
+input-password-hide = Sembunyikan sandi
+input-password-show = Tampilkan sandi
+input-password-hide-aria = Sembunyikan sandi dari layar.
+input-password-show-aria = Tampilkan sandi sebagai teks biasa. Sandi Anda akan terlihat di layar.
 
 ## Modal
 
@@ -164,6 +195,10 @@ modal-cancel-button = Batalkan
 
 mvs-verify-your-email = Verifikasi surel Anda
 mvs-enter-verification-code = Masukkan kode verifikasi Anda
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Masukkan kode verifikasi yang telah dikirim ke <email>{ $email }</email> dalam 5 menit.
 msv-cancel-button = Batalkan
 msv-submit-button = Verifikasi
 
