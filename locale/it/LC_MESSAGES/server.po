@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-10-16 13:34+0000\n"
+"PO-Revision-Date: 2021-10-16 13:41+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -721,7 +721,8 @@ msgstr "Oppure installalo su <a %(cadLinkAttributes)s>un altro dispositivo</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Questo messaggio è stato generato automaticamente. Se non hai autorizzato questa operazione, procedi subito alla <a %(passwordChangeLinkAttributes)s>modifica della password dell’account</a>."
+msgstr ""
+"Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa operazione, procedi subito alla <a %(passwordChangeLinkAttributes)s>modifica della password dell’account</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -730,8 +731,7 @@ msgstr "Per ulteriori informazioni visita il <a %(supportLinkAttributes)s>sito d
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
 msgstr ""
-"Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’account Firefox, cambia subito la password seguendo il link "
-"%(passwordChangeLink)s"
+"Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’account Firefox, cambia subito la password seguendo il link %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
@@ -739,7 +739,7 @@ msgstr "Questa email è stata inviata da un servizio automatico. Se hai ricevuto
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Questo messaggio è stato inviato da un servizio automatico. Se non vuoi autorizzare questa operazione <a %(resetLinkAttributes)s>ripristina la password</a>."
+msgstr "Questa email è stata inviata da un servizio automatico. Se non vuoi autorizzare questa operazione <a %(resetLinkAttributes)s>ripristina la password</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -795,7 +795,7 @@ msgstr "Rinnova l'abbonamento"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Cancel subscription"
-msgstr "Annulla sottoscrizione"
+msgstr "Annulla abbonamento"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscriptions"
