@@ -403,6 +403,7 @@ recovery-key-success-alert = Obnovovací kľúč bol vytvorený.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Krok 1 z 2
 add-secondary-email-error = Pri vytváraní tohto e-mailu sa vyskytol problém.
 add-secondary-email-page-title =
     .title = Alternatívna e-mailová adresa
@@ -416,6 +417,7 @@ add-secondary-email-save-button = Uložiť
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Krok 2 z 2
 verify-secondary-email-error = Pri odosielaní overovacieho kódu sa vyskytol problém.
 verify-secondary-email-page-title =
     .title = Alternatívna e-mailová adresa
