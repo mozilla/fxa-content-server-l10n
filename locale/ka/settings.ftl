@@ -303,7 +303,7 @@ pw-change-success-alert = პაროლი განახლდა.
 
 delete-account-header =
     .title = ანგარიშის წაშლა
-delete-account-step-1-2 = 1-ლი ნაბიჯი 2-დან
+delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
 delete-account-confirm-title-2 = თქვენ დაუკავშირეთ თქვენი { -product-firefox-account } { -brand-mozilla }-ს პროდუქტებს, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
@@ -348,12 +348,13 @@ recovery-key-enter-password =
     .label = შეიყვანეთ პაროლი
 recovery-key-page-title =
     .title = აღდგენის გასაღები
-recovery-key-step-1 = 1-ლი ნაბიჯი 2-დან
+recovery-key-step-1 = 1-ელი ნაბიჯი 2-დან
 recovery-key-step-2 = მე-2 ნაბიჯი 2-დან
 recovery-key-success-alert = აღდგენის გასაღები შეიქმნა.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 1-ელი ნაბიჯი 2-დან
 add-secondary-email-error = ხარვეზი წარმოიშვა ამ ელფოსტის შექმნისას.
 add-secondary-email-page-title =
     .title = დამატებითი ელფოსტა
@@ -367,6 +368,7 @@ add-secondary-email-save-button = შენახვა
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = მე-2 ნაბიჯი 2-დან
 verify-secondary-email-error = ხარვეზი წარმოიშვა დადასტურების კოდის გამოგზავნისას.
 verify-secondary-email-page-title =
     .title = დამატებითი ელფოსტა
@@ -391,7 +393,7 @@ delete-account-link = ანგარიშის წაშლა
 ## Two Step Authentication
 
 tfa-title = ორსაფეხურიანი დამოწმება
-tfa-step-1-3 = 1-ლი ნაბიჯი 3-დან
+tfa-step-1-3 = 1-ელი ნაბიჯი 3-დან
 tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
 tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
 tfa-button-continue = გაგრძელება
@@ -552,8 +554,10 @@ auth-error-110 = უმართებულო სიტყვა-ნიშა�
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-138 = დაუმოწმებელი სეანსი
 auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
