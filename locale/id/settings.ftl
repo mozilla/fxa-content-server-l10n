@@ -128,9 +128,9 @@ cs-disconnect-lost-advice-content-2 =
     produsen perangkat Anda mengenai cara menghapus data anda dari jarak jauh.
 cs-disconnect-suspicious-advice-heading = Perangkat yang mencurigakan terputus
 cs-disconnect-suspicious-advice-content =
-    Jika perangkat yang terputus ternyata¶
-    mencurigakan, untuk menjaga informasi Anda agar tetap aman, Anda perlu mengubah kata sandi¶
-    { -product-firefox-account } di pengaturan akun. Anda juga disarankan untuk mengubah¶
+    Jika perangkat yang terputus ternyata
+    mencurigakan, untuk menjaga informasi Anda agar tetap aman, Anda perlu mengubah kata sandi
+    { -product-firefox-account } di pengaturan akun. Anda juga disarankan untuk mengubah
     kata sandi lainnya yang Anda simpan pada { -brand-firefox } dengan mengetikkan tentang:logins pada bilah alamat.
 cs-sign-out-button = Keluar
 
