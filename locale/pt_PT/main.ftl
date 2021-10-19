@@ -317,8 +317,8 @@ sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
     A sua subscrição { $name } foi cencelada.
-     · <br />
-     · Ainda terá acesso a { $name } até { $date }.
+    <br />
+    Ainda terá acesso a { $name } até { $date }.
 sub-route-idx-cancel-aside = Tem questões? Visite <a>{ -brand-name-mozilla } Suporte</a>.
 sub-subscription-error =
     .title = Problema em carregar as subscrições
