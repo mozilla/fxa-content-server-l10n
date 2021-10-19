@@ -270,15 +270,15 @@ reactivate-confirm-dialog-header = Deseja continuar a usar { $name }?
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
-    O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
-    e pagamento irão permanecer. O seu próximo débito será de¶
+    O seu acesso a { $name } irá continuar e o seu ciclo de faturação
+    e pagamento irão permanecer. O seu próximo débito será de
     { $amount } para o cartão que termina em { $last } em { $endDate }.
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
 reactivate-confirm-without-payment-method-copy =
-    O seu acesso a { $name } irá continuar e o seu ciclo de faturação¶
-    e de pagamento irão permanecer os mesmos. O seu próximo débito será de¶
+    O seu acesso a { $name } irá continuar e o seu ciclo de faturação
+    e de pagamento irão permanecer os mesmos. O seu próximo débito será de
     { $amount } a { $endDate }.
 reactivate-confirm-button = Resubscrever
 
@@ -299,10 +299,10 @@ sub-item-no-such-plan = Não existe um plano para esta subscrição.
 sub-item-cancel-sub = Cancelar subscrição
 sub-item-stay-sub = Manter a subscrição
 sub-item-cancel-msg =
-    Não vai poder mais o { $name } após¶
+    Não vai poder mais o { $name } após
     { $period }, o último dia do seu ciclo de faturação.
 sub-item-cancel-confirm =
-    Cancelar o meu acesso e a minha informação guardada em¶
+    Cancelar o meu acesso e a minha informação guardada em
     { $name } em { $period }
 account-activated = A sua conta está ativada, <userEl/>
 
@@ -316,8 +316,8 @@ sub-route-idx-cancel-msg-title = Lamentamos vê-lo partir
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
-    A sua subscrição { $name } foi cencelada.¶
-     · <br />¶
+    A sua subscrição { $name } foi cencelada.
+     · <br />
      · Ainda terá acesso a { $name } até { $date }.
 sub-route-idx-cancel-aside = Tem questões? Visite <a>{ -brand-name-mozilla } Suporte</a>.
 sub-subscription-error =
