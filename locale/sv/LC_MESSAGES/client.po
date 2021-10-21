@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 22:07+0000\n"
+"POT-Creation-Date: 2021-10-21 22:06+0000\n"
 "PO-Revision-Date: 2021-08-25 08:21+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -25,11 +25,11 @@ msgstr "Lösenordet återställt. Logga in för att fortsätta."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Logga in"
 
-#: .es5/views/index.js:172
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -53,51 +53,51 @@ msgstr "Visningsnamn"
 msgid "Account picture"
 msgstr "Kontobild"
 
-#: .es5/views/ready.js:56
+#: .es5/views/ready.js:58
 msgid "Welcome back"
 msgstr "Välkommen tillbaka"
 
-#: .es5/views/ready.js:57
+#: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync återupptas om ett ögonblick"
 
-#: .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
 msgstr "Ditt lösenord har återställts"
 
-#: .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Slutför konfigurationen genom att ange det nya lösenordet på dina andra Firefox-enheter."
 
-#: .es5/views/ready.js:70
+#: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Du kan nu göra ändringar i ditt Firefox-konto."
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:74
 msgid "Primary email verified"
 msgstr "Primär e-post verifierad"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Kontoaviseringar skickas nu också till %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
 msgstr "Sekundär e-post verifierad"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Inloggning bekräftad"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4 .es5/templates/ready.mustache:10
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan nu använda %(serviceName)s"
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:89
 msgid "Account verified"
 msgstr "Konto verifierat"
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:94
 msgid "Connected"
 msgstr "Ansluten"
 
@@ -105,7 +105,7 @@ msgstr "Ansluten"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
-#: .es5/views/sign_up_password.js:82
+#: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot existerar inte längre. Återskapa det?"
 
@@ -898,10 +898,10 @@ msgstr "Hämta ny länk"
 msgid "Reset password with recovery key"
 msgstr "Återställ lösenord med återställningsnyckel"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
-#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
@@ -944,7 +944,7 @@ msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-kont
 msgid "Learn more"
 msgstr "Läs mer"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
 msgstr "Välj vad som ska synkroniseras:"
 
@@ -1126,19 +1126,19 @@ msgstr "Aktivera kakor och lokal lagring i din webbläsare för att komma åt Fi
 msgid "Try again"
 msgstr "Försök igen"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
 msgstr "Lösenord"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Genom att fortsätta godkänner du <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkoren</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a>."
 
-#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Använd ett annat konto"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12
 msgid "Forgot password?"
 msgstr "Glömt lösenordet?"
 
@@ -1146,11 +1146,15 @@ msgstr "Glömt lösenordet?"
 msgid "Enter your email"
 msgstr "Ange din e-postadress"
 
-#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
+msgid "Continue to"
+msgstr ""
+
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "E-post"
 
-#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:6 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1292,15 +1296,19 @@ msgstr "Avbryt"
 msgid "Success"
 msgstr "Klart"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Fortsätt till mitt konto"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
 msgstr "Ditt konto är klart!"
 
-#: .es5/templates/ready.mustache:13
+#: .es5/templates/ready.mustache:15
 msgid "Generate a new recovery key"
 msgstr "Skapa en ny återställningsnyckel"
 
@@ -1376,6 +1384,15 @@ msgstr "Om det här är en giltig e-postadress, <a %(escapedSupportLinkAttrs)s>k
 msgid "No longer own that email? Create a new account"
 msgstr "Äger du inte längre den e-postadressen? Skapa ett nytt konto"
 
+#: .es5/templates/sign_in_password.mustache:8
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket's <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox's <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
 msgstr "Ange återställningskod"
@@ -1433,25 +1450,34 @@ msgstr "Ange behörighetskod"
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
-#: .es5/templates/sign_up_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Ändra e-postadress"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr "Du behöver det här lösenordet för att få åtkomst till krypterad information som du lagrar hos oss.<br/>En återställning innebär att data som lösenord och bokmärken förloras."
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Praktisk kunskap kommer till din inkorg. Registrera dig för mer:"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "Skapa konto"
+
+#: .es5/templates/sign_up_password.mustache:18
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket's <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Firefox's <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1877,28 +1903,40 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Synkronisera dina bokmärken, lösenord och mer på alla enheter."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Pocket"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Save and discover the best stories from accross the web."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: .es5/templates/partial/firefox-family-services.mustache:5
+#: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
 msgstr "Få åtkomst till lösenord som sparats i Firefox var som helst &mdash; även utanför webbläsaren."
 
-#: .es5/templates/partial/firefox-family-services.mustache:6
+#: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Firefox Monitor"
 msgstr "Firefox Monitor"
 
-#: .es5/templates/partial/firefox-family-services.mustache:7
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "Get a lookout for data breaches."
 msgstr "Få koll på dataintrång."
 
-#: .es5/templates/partial/firefox-family-services.mustache:8
+#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:9
+#: .es5/templates/partial/firefox-family-services.mustache:12
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "Ett VPN från den pålitliga föregångaren inom integritet på internet."
+
+#: .es5/templates/partial/firefox-family-services.mustache:13
+msgid "See all"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."

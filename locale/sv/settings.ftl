@@ -340,6 +340,7 @@ recovery-key-success-alert = Återställningsnyckel skapad.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Steg 1 av 2
 add-secondary-email-error = Det gick inte att skapa sekundär e-postadress.
 add-secondary-email-page-title =
     .title = Sekundär e-post
@@ -353,6 +354,7 @@ add-secondary-email-save-button = Spara
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Steg 2 av 2
 verify-secondary-email-error = Det gick inte att skicka verifieringskoden.
 verify-secondary-email-page-title =
     .title = Sekundär e-post
@@ -540,8 +542,10 @@ auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-138 = Overifierad session
 auth-error-155 = TOTP-tecken hittades inte
