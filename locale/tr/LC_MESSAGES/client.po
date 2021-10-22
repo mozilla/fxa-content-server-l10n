@@ -1706,7 +1706,7 @@ msgstr "Tıkladığınız linkte eksik karakterler verdi. E-posta istemciniz lin
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr "%(productName)s ürününe devam et"
+msgstr "%(productName)s servisine devam et"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
