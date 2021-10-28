@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 22:07+0000\n"
+"POT-Creation-Date: 2021-10-28 22:07+0000\n"
 "PO-Revision-Date: 2021-08-20 07:29+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442258677.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2867
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2941
 msgid "Here's your reminder to sync devices."
 msgstr "Připomínáme nastavení synchronizace dalších zařízení."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2871
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2868
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
 msgid "Last reminder to sync devices!"
 msgstr "Poslední připomenutí na synchronizaci dalšího zařízení."
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2874
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte Firefox."
 
@@ -36,16 +36,17 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "Pokud jste si ještě nestáhli %(productName)s, začněte ho používat včetně všech funkcí, které jsou součástí vašeho předplatného:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionDowngrade.html:6 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:5
+#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8
+#: lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a href=\"%(subscriptionSupportUrl)s\">tým podpory</a>."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionDowngrade.txt:5
-#: lib/senders/templates/subscriptionFirstInvoice.txt:8 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
+#: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:"
 
@@ -65,7 +66,7 @@ msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. 
 msgid "Generate codes:"
 msgstr "Vygenerovat kódy:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1324
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1400
 msgid "New sign-in to %(clientName)s"
 msgstr "Nové přihlášení skrze %(clientName)s"
 
@@ -147,7 +148,7 @@ msgstr "Vytvořit nový obnovovací klíč:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Pro více informací prosím navštivte stránku %(supportUrl)s"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1760
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1836
 msgid "Account recovery key generated"
 msgstr "Obnovovací klíč k účtu byl vygenerován"
 
@@ -207,7 +208,7 @@ msgstr "Úspěšně jste použili obnovovací kód z následujícího zařízen�
 msgid "Consumed recovery code"
 msgstr "Byl použit obnovovací kód"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1692
 msgid "New recovery codes generated"
 msgstr "Byly vygenerovány nové obnovovací kódy"
 
@@ -215,7 +216,7 @@ msgstr "Byly vygenerovány nové obnovovací kódy"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Úspěšně jste vygenerovali nové obnovovací kódy z následujícího zařízení:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1810
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1886
 msgid "Account recovery key removed"
 msgstr "Obnovovací klíč k účtu byl odstraněn"
 
@@ -231,7 +232,7 @@ msgstr "Tento obnovovací klíč už není možné použít pro obnovení vašeh
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Úspěšně jste odstranili obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1488
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
 msgid "Secondary email removed"
 msgstr "Záložní e-mailová adresa byla odebrána"
 
@@ -267,7 +268,7 @@ msgstr "Nyní si nastavte synchronizaci svých zařízení."
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data Firefoxu na všech vašich zařízení."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1370
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1446
 msgid "Set up next device"
 msgstr "Nastavit další zařízení"
 
@@ -275,7 +276,7 @@ msgstr "Nastavit další zařízení"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Máte otázky? Navštivte %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1416
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
 msgid "Secondary email added"
 msgstr "Záložní e-mailová adresa byla přidána"
 
@@ -291,7 +292,7 @@ msgstr "Potřebujete obnovit své heslo?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1165
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
 msgid "Create new password"
 msgstr "Vytvořit nové heslo"
 
@@ -316,7 +317,7 @@ msgstr "Vyplňte prosím <a %(cancellationSurveyLinkAttributes)s>krátký formul
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2836
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2910
 msgid "Welcome to %(productName)s"
 msgstr "Vítá vás %(productName)s"
 
@@ -339,6 +340,28 @@ msgstr "Dne %(invoiceDateOnly)s účtováno %(invoiceTotal)s"
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
 msgstr "Další platba: %(nextInvoiceDateOnly)s"
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
+msgid "You can't access your subscription yet"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
+msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
+msgid "Select “Create Password” to set up a new password and finish verifying your account."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
+msgid "Create a password:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
+msgid "Welcome to Firefox!"
+msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -624,7 +647,7 @@ msgstr "Potvrďte svůj účet a využívejte výhody všude, kde se přihlásí
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Pro větší bezpečnost prosím potvrďte toto přihlášení z následujícího zařízení:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:854
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:930
 msgid "Confirm sign-in"
 msgstr "Potvrdit přihlášení"
 
@@ -744,11 +767,11 @@ msgstr "PayPal"
 msgid "%(cardType)s card ending in %(lastFour)s"
 msgstr "%(cardType)s karta končící na %(lastFour)s"
 
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
+#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
 msgid "Mozilla Privacy Policy"
 msgstr "Zásady ochrany osobních údajů"
 
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
+#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
 msgid "Firefox Cloud Terms of Service"
 msgstr "Podmínky poskytování služby Firefox Cloud"
 
@@ -757,38 +780,42 @@ msgid "You're receiving this email because %(email)s has a Firefox account and y
 msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a jste přihlášení v produktu %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
+msgid "You're receiving this email because %(email)s has a Firefox account"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
 msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a máte předplaceno několik produktů."
 
-#: lib/senders/templates/layouts/subscription.html:4
+#: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
 msgstr "Nastavení svého účtu Firefoxu můžete měnit na <a %(accountSettingsLinkAttributes)s>stránce účtu</a>."
 
-#: lib/senders/templates/layouts/subscription.html:5
+#: lib/senders/templates/layouts/subscription.html:6
 msgid "Terms and cancellation policy"
 msgstr "Podmínky zrušení"
 
-#: lib/senders/templates/layouts/subscription.html:6
+#: lib/senders/templates/layouts/subscription.html:7
 msgid "Reactivate subscription"
 msgstr "Obnovit předplatné"
 
-#: lib/senders/templates/layouts/subscription.html:7
+#: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscription"
 msgstr "Zrušit předplatné"
 
-#: lib/senders/templates/layouts/subscription.html:8
+#: lib/senders/templates/layouts/subscription.html:9
 msgid "Cancel subscriptions"
 msgstr "Zrušit předplatná"
 
-#: lib/senders/templates/layouts/subscription.html:9
+#: lib/senders/templates/layouts/subscription.html:10
 msgid "Update billing information"
 msgstr "Aktualizovat platební informace"
 
-#: lib/senders/templates/layouts/subscription.html:10
+#: lib/senders/templates/layouts/subscription.html:13
 msgid "Legal"
 msgstr "Právní informace"
 
-#: lib/senders/templates/layouts/subscription.html:11
+#: lib/senders/templates/layouts/subscription.html:14
 msgid "Privacy"
 msgstr "Ochrana osobních údajů"
 
@@ -812,200 +839,208 @@ msgstr "Zrušit předplatná:"
 msgid "Update billing information:"
 msgstr "Aktualizovat platební informace:"
 
-#: lib/senders/email.js:347
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:352
+#: lib/senders/email.js:353
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:378
+#: lib/senders/email.js:379
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:385
+#: lib/senders/email.js:386
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:390
+#: lib/senders/email.js:391
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:395
+#: lib/senders/email.js:396
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:603
+#: lib/senders/email.js:604
 msgid "Finish creating your account"
 msgstr "Dokončit vytváření účtu"
 
-#: lib/senders/email.js:604 lib/senders/email.js:741
+#: lib/senders/email.js:605 lib/senders/email.js:742
 msgid "Confirm email"
 msgstr "Potvrdit e-mailovou adresu"
 
-#: lib/senders/email.js:671
+#: lib/senders/email.js:672
 msgid "Verification code: %(code)s"
 msgstr "Ověřovací kód: %(code)s"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:722
 msgid "Reminder: Finish creating your account"
 msgstr "Připomínka: Dokončete vytvoření svého účtu"
 
-#: lib/senders/email.js:723
+#: lib/senders/email.js:724
 msgid "Final reminder: Activate your account"
 msgstr "Poslední připomenutí: Aktivujte svůj účet"
 
-#: lib/senders/email.js:778
-msgid "Account authorization code"
-msgstr "Autorizační kód účtu"
+#: lib/senders/email.js:775
+msgid "Reminder: Finish setting up your account"
+msgstr ""
 
-#: lib/senders/email.js:851
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Potvrzení nového přihlášení skrze %(clientName)s"
+#: lib/senders/email.js:777
+msgid "Final reminder: Setup your account"
+msgstr ""
 
-#: lib/senders/email.js:900
-msgid "Sign-in code for %(serviceName)s"
-msgstr "Přihlašovací kód pro %(serviceName)s"
-
-#: lib/senders/email.js:969
-msgid "Confirm primary email"
-msgstr "Ověřit hlavní e-mailovou adresu"
-
-#: lib/senders/email.js:970 lib/senders/email.js:1033 lib/senders/email.js:1105
-msgid "Verify email"
-msgstr "Ověřit e-mailovou adresu"
-
-#: lib/senders/email.js:1032 lib/senders/email.js:1104
-msgid "Confirm secondary email"
-msgstr "Ověřit záložní e-mailovou adresu"
-
-#: lib/senders/email.js:1164
-msgid "Reset your password"
-msgstr "Obnovit heslo"
-
-#: lib/senders/email.js:1210 lib/senders/email.js:1281
-msgid "Password updated"
-msgstr "Heslo změněno"
-
-#: lib/senders/email.js:1252
-msgid "Suspicious activity detected"
-msgstr "Zjištěna podezřelá aktivita"
-
-#: lib/senders/email.js:1325 lib/senders/email.js:1417 lib/senders/email.js:1453 lib/senders/email.js:1489 lib/senders/email.js:1523 lib/senders/email.js:1570 lib/senders/email.js:1617
-#: lib/senders/email.js:1664 lib/senders/email.js:1761 lib/senders/email.js:1811
-msgid "Manage account"
-msgstr "Správa účtu"
-
-#: lib/senders/email.js:1365
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení"
-
-#: lib/senders/email.js:1452
-msgid "Primary email updated"
-msgstr "Hlavní e-mailová adresa aktualizována"
-
-#: lib/senders/email.js:1522
-msgid "Two-step verification enabled"
-msgstr "Dvoufázové ověřování zapnuto"
-
-#: lib/senders/email.js:1569
-msgid "Two-step verification is off"
-msgstr "Dvoufázové ověřování vypnuto"
-
-#: lib/senders/email.js:1663
-msgid "Recovery code used"
-msgstr "Obnovovací kód byl použit"
-
-#: lib/senders/email.js:1723
-msgid "1 recovery code remaining"
-msgstr "Zbývá jeden záložní kódů"
-
-#: lib/senders/email.js:1725
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "Zbývající záložní kódy: %(numberRemaining)s"
-
-#: lib/senders/email.js:1728
-msgid "Generate codes"
-msgstr "Vygenerovat kódy"
-
-#: lib/senders/email.js:1860
-msgid "Password updated using recovery key"
-msgstr "Heslo bylo obnoveno pomocí obnovovacího klíče"
-
-#: lib/senders/email.js:1861
-msgid "Create new recovery key"
-msgstr "Vytvořit nový obnovovací klíč"
-
-#: lib/senders/email.js:1953
+#: lib/senders/email.js:817 lib/senders/email.js:2027
 msgid "Create a password"
 msgstr "Vytvoření hesla"
 
-#: lib/senders/email.js:1956
+#: lib/senders/email.js:854
+msgid "Account authorization code"
+msgstr "Autorizační kód účtu"
+
+#: lib/senders/email.js:927
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Potvrzení nového přihlášení skrze %(clientName)s"
+
+#: lib/senders/email.js:976
+msgid "Sign-in code for %(serviceName)s"
+msgstr "Přihlašovací kód pro %(serviceName)s"
+
+#: lib/senders/email.js:1045
+msgid "Confirm primary email"
+msgstr "Ověřit hlavní e-mailovou adresu"
+
+#: lib/senders/email.js:1046 lib/senders/email.js:1109 lib/senders/email.js:1181
+msgid "Verify email"
+msgstr "Ověřit e-mailovou adresu"
+
+#: lib/senders/email.js:1108 lib/senders/email.js:1180
+msgid "Confirm secondary email"
+msgstr "Ověřit záložní e-mailovou adresu"
+
+#: lib/senders/email.js:1240
+msgid "Reset your password"
+msgstr "Obnovit heslo"
+
+#: lib/senders/email.js:1286 lib/senders/email.js:1357
+msgid "Password updated"
+msgstr "Heslo změněno"
+
+#: lib/senders/email.js:1328
+msgid "Suspicious activity detected"
+msgstr "Zjištěna podezřelá aktivita"
+
+#: lib/senders/email.js:1401 lib/senders/email.js:1493 lib/senders/email.js:1529 lib/senders/email.js:1565 lib/senders/email.js:1599 lib/senders/email.js:1646 lib/senders/email.js:1693
+#: lib/senders/email.js:1740 lib/senders/email.js:1837 lib/senders/email.js:1887
+msgid "Manage account"
+msgstr "Správa účtu"
+
+#: lib/senders/email.js:1441
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr "Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení"
+
+#: lib/senders/email.js:1528
+msgid "Primary email updated"
+msgstr "Hlavní e-mailová adresa aktualizována"
+
+#: lib/senders/email.js:1598
+msgid "Two-step verification enabled"
+msgstr "Dvoufázové ověřování zapnuto"
+
+#: lib/senders/email.js:1645
+msgid "Two-step verification is off"
+msgstr "Dvoufázové ověřování vypnuto"
+
+#: lib/senders/email.js:1739
+msgid "Recovery code used"
+msgstr "Obnovovací kód byl použit"
+
+#: lib/senders/email.js:1799
+msgid "1 recovery code remaining"
+msgstr "Zbývá jeden záložní kódů"
+
+#: lib/senders/email.js:1801
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr "Zbývající záložní kódy: %(numberRemaining)s"
+
+#: lib/senders/email.js:1804
+msgid "Generate codes"
+msgstr "Vygenerovat kódy"
+
+#: lib/senders/email.js:1936
+msgid "Password updated using recovery key"
+msgstr "Heslo bylo obnoveno pomocí obnovovacího klíče"
+
+#: lib/senders/email.js:1937
+msgid "Create new recovery key"
+msgstr "Vytvořit nový obnovovací klíč"
+
+#: lib/senders/email.js:2030
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Vítá vás %(productName)s: Nastavte si prosím heslo."
 
-#: lib/senders/email.js:2029
+#: lib/senders/email.js:2103
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Úspěšně jste povýšili na %(productNameNew)s"
 
-#: lib/senders/email.js:2108
+#: lib/senders/email.js:2182
 msgid "You have switched to %(productNameNew)s"
 msgstr "Úspěšně jste přepnuli na %(productNameNew)s"
 
-#: lib/senders/email.js:2173
+#: lib/senders/email.js:2247
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Platnost platební karty pro %(productName)s brzy vyprší"
 
-#: lib/senders/email.js:2187
+#: lib/senders/email.js:2261
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Platnost platební karty pro úhradu vašich předplatných brzy vyprší"
 
-#: lib/senders/email.js:2238
+#: lib/senders/email.js:2312
 msgid "Payment information update required for %(productName)s"
 msgstr "Je vyžadována aktualizace platebních údajů pro úhradu produktu %(productName)s"
 
-#: lib/senders/email.js:2254
+#: lib/senders/email.js:2328
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Je vyžadována aktualizace platebních údajů pro úhradu předplatných od Mozilly"
 
-#: lib/senders/email.js:2300
+#: lib/senders/email.js:2374
 msgid "%(productName)s payment failed"
 msgstr "Platba produktu %(productName)s se nezdařila"
 
-#: lib/senders/email.js:2351 lib/senders/email.js:2416 lib/senders/email.js:2477
+#: lib/senders/email.js:2425 lib/senders/email.js:2490 lib/senders/email.js:2551
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Vaše předplatné produktu %(productName)s bylo zrušeno"
 
-#: lib/senders/email.js:2534
+#: lib/senders/email.js:2608
 msgid "%(productName)s subscription reactivated"
 msgstr "Předplatné produktu %(productName)s obnoveno"
 
-#: lib/senders/email.js:2590
+#: lib/senders/email.js:2664
 msgid "%(productName)s automatic renewal notice"
 msgstr "Oznámení o automatickém obnovení předplatného produktu %(productName)s"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2744
 msgid "%(productName)s payment received"
 msgstr "Platba za produkt %(productName)s přijata"
 
-#: lib/senders/email.js:2762
+#: lib/senders/email.js:2836
 msgid "%(productName)s payment confirmed"
 msgstr "Platba za produkt %(productName)s potvrzena"
 
-#: lib/senders/email.js:2837
+#: lib/senders/email.js:2911
 msgid "Download %(productName)s"
 msgstr "Stáhnout %(productName)s"
 
-#: lib/senders/email.js:2863
+#: lib/senders/email.js:2937
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Přátelsky připomínáme: Jak dokončit nastavení synchronizace"
 
-#: lib/senders/email.js:2864
+#: lib/senders/email.js:2938
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Poslední připomenutí: Nezapomeňte si nastavit synchronizaci"
 
-#: lib/senders/email.js:2878
+#: lib/senders/email.js:2952
 msgid "Sync another device"
 msgstr "Synchronizovat další zařízení"
 
