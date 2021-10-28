@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-07-16 01:11+0000\n"
+"PO-Revision-Date: 2021-08-11 22:17+0000\n"
 "Last-Translator: Christian Eduardo Noriega <cafiovafo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -347,7 +347,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Próxima factura: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""

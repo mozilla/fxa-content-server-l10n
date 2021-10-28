@@ -358,6 +358,7 @@ payment-confirmation-thanks-subheading = Se ha enviado un correo electrónico de
 payment-confirmation-order-heading = Detalles del pedido
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
+payment-confirmation-details-heading-2 = Información de pago
 payment-confirmation-amount = { $amount } por { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
