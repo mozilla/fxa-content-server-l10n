@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-10-31 21:52+0000\n"
+"PO-Revision-Date: 2021-10-31 21:54+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -327,7 +327,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Më pas do të krijoni një fjalëkalim llogarie Firefox-i dhe do të shkarkoni %(productName)s."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -372,7 +372,7 @@ msgstr "Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, der
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Pajtimi juaj është anuluar"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -405,7 +405,7 @@ msgstr "U faturuan %(invoiceTotal)s më %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Shihni faturën tuaj</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -418,7 +418,7 @@ msgstr "Numër Fature: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Shihni Faturën: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -737,7 +737,7 @@ msgstr "Administroni llogarinë:"
 
 #: lib/senders/templates/partials/paymentPlanDetails.html:1
 msgid "Payment details:"
-msgstr ""
+msgstr "Hollësi pagese:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
@@ -942,11 +942,11 @@ msgstr "Krijo kyç të ri rimarrjeje"
 
 #: lib/senders/email.js:1953
 msgid "Create a password"
-msgstr ""
+msgstr "Krijoni fjalëkalim"
 
 #: lib/senders/email.js:1956
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
+msgstr "Mirë se vini në %(productName)s: Ju lutemi, caktoni fjalëkalimin tuaj."
 
 #: lib/senders/email.js:2029
 msgid "You have upgraded to %(productNameNew)s"
