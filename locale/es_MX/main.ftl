@@ -396,4 +396,7 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-required-payment-consent = Requerido
+new-user-confirm-email =
+    .label = Confirma tu correo electrónico
+new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de productos de { -brand-name-firefox }
 new-user-submit = Suscribirse ahora
