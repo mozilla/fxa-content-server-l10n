@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-09-13 08:35+0000\n"
-"Last-Translator: Nabin Dhakal <nabin6707@gmail.com>\n"
+"PO-Revision-Date: 2021-11-02 03:18+0000\n"
+"Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
 "MIME-Version: 1.0\n"
@@ -210,15 +210,15 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
-msgstr ""
+msgstr "डाउनलोड भयो"
 
 #: .es5/views/mixins/save-options-mixin.js:90
 msgid "Printed"
-msgstr ""
+msgstr "छापियो"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account verified successfully"
-msgstr ""
+msgstr "खाता सफलतापूर्वक प्रमाणित भयो"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -278,7 +278,7 @@ msgstr ""
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "मुख्य इमेल सफलतापूर्वक प्रमाणित भयो"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
@@ -482,11 +482,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
-msgstr ""
+msgstr "रिकभरी कुञ्जी अमान्य"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "यो अनुरोधलाई तपाईंको खातामा दुई चरण प्रमाणीकरण सक्षम गरिएको हुनुपर्नेछ।"
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
@@ -522,16 +522,16 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "सर्भर व्यस्त छ, एकैछिन पछि फेरि प्रयास गर्नुहोस्"
 
 #: .es5/lib/auth-errors.js:296
 msgid "Feature not enabled"
-msgstr ""
+msgstr "सुबिधा सक्षम गरिएको छैन"
 
 #: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
 #: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
-msgstr ""
+msgstr "प्रणाली उपलब्ध छैन, एकैछिन पछि पुन: प्रयास गर्नुहोस्"
 
 #: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
@@ -539,23 +539,23 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "लगइन प्रयास रद्द गरियो"
 
 #: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
-msgstr ""
+msgstr "सत्र समाप्त भयो। जारी राख्नको लागि साइन इन गर्नुहोस्।"
 
 #: .es5/lib/auth-errors.js:324
 msgid "Cookies are still disabled"
-msgstr ""
+msgstr "कुकीजहरू अझै पनि असक्षम छन्"
 
 #: .es5/lib/auth-errors.js:328
 msgid "Passwords do not match"
-msgstr ""
+msgstr "पासवर्डहरु मेल खाएनन्"
 
 #: .es5/lib/auth-errors.js:332
 msgid "Working…"
-msgstr ""
+msgstr "कार्य गर्दै..."
 
 #: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
@@ -838,9 +838,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -910,8 +908,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1994,7 +1991,9 @@ msgstr ""
 #~ msgstr "यस बारेमा सुन्न हामी क्षमा प्रार्थी छौं। तपाईंले आफ्नो फायरफक्स खाता पासवर्ड परिवर्तन गर्नुपर्दछ, र तपाईंको डाटा निर्माताबाट जानकारीलाई टाढाको डाटा मेटाउनको लागि खोज्नुहोस् ।"
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू परिवर्तन गर्नुपर्छ।"
+#~ msgstr ""
+#~ "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू"
+#~ " परिवर्तन गर्नुपर्छ।"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "पछिल्लो सक्रियता %(translatedTimeAgo)s"
