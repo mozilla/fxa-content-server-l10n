@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-11-02 03:16+0000\n"
+"PO-Revision-Date: 2021-11-02 03:25+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -88,11 +88,11 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
 msgid "Best,"
-msgstr ""
+msgstr "उत्तम,"
 
 #: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
 msgid "The Firefox Accounts team"
-msgstr ""
+msgstr "फायरफक्स खाता टोली"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -100,11 +100,11 @@ msgstr ""
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr ""
+msgstr "तपाईंको फायरफक्स खाताको पासवर्ड सफलतापूर्वक निम्न उपकरणबाट परिवर्तन भयो:"
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "नयाँ प्राथमिक ईमेल"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1488
 msgid "Secondary email removed"
-msgstr ""
+msgstr "माध्यमिक ईमेल हटाइयो"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -274,7 +274,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1416
 msgid "Secondary email added"
-msgstr ""
+msgstr "माध्यमिक ईमेल थपियो"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -551,11 +551,11 @@ msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "के यो साइन इन गर्न खोज्ने तपाइँ हुनुहुन्छ?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "यदि हुनुहुन्छ भने, तपाईलाई आवश्यक प्रमाणिकरण कोड हो:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:854
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "साइन इन पुष्टि गर्नुहोस्"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
@@ -695,7 +695,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "यो स्वचालित ईमेल हो; यदि तपाइँ आफ्नो फायरफक्स खातामा नयाँ यन्त्र थप गर्नुभएन भने, तपाईंले %(passwordChangeLink)s मा तुरुन्तै आफ्नो पासवर्ड परिवर्तन गर्नुपर्दछ।"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
@@ -707,7 +707,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr ""
+msgstr "यदि तपाईंलाई सम्भावित छ कि, कसैले तपाईंको खातामा पहुँच प्राप्त गर्ने प्रयास गर्दैछ, कृपया आफ्नो पासवर्ड परिवर्तन गर्नुहोस् ।"
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr ""
+msgstr "खाता व्यवस्थापन गर्नुहोस्:"
 
 #: lib/senders/templates/partials/paymentPlanDetails.html:1
 msgid "Payment details:"
@@ -731,7 +731,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "मोजिल्ला गोपनीयता नीति"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
 msgid "Firefox Cloud Terms of Service"
@@ -880,7 +880,7 @@ msgstr ""
 #: lib/senders/email.js:1325 lib/senders/email.js:1417 lib/senders/email.js:1453 lib/senders/email.js:1489 lib/senders/email.js:1523 lib/senders/email.js:1570 lib/senders/email.js:1617
 #: lib/senders/email.js:1664 lib/senders/email.js:1761 lib/senders/email.js:1811
 msgid "Manage account"
-msgstr ""
+msgstr "खाता व्यवस्थापन गर्नुहोस्"
 
 #: lib/senders/email.js:1365
 msgid "Account verified. Next, sync another device to finish setup"
@@ -997,7 +997,7 @@ msgstr ""
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr ""
+msgstr "फायरफक्स खाताहरू"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"

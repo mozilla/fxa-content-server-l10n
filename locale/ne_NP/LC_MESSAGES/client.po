@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 22:07+0000\n"
-"PO-Revision-Date: 2021-11-02 03:18+0000\n"
+"PO-Revision-Date: 2021-11-02 03:20+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -559,19 +559,19 @@ msgstr "कार्य गर्दै..."
 
 #: .es5/lib/auth-errors.js:336
 msgid "Could not get Privacy Notice"
-msgstr ""
+msgstr "गोपनीयता सूचना प्राप्त गर्न सकिएन"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
-msgstr ""
+msgstr "सेवाका सर्तहरू प्राप्त गर्न सकिएन"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
-msgstr ""
+msgstr "तपाईंको नयाँ पासवर्ड फरक हुनुपर्छ"
 
 #: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
-msgstr ""
+msgstr "कम से कम 8 अक्षरको हुनुपर्दछ"
 
 #: .es5/lib/auth-errors.js:352
 msgid "Valid password required"
