@@ -510,6 +510,9 @@ se-remove-email =
 se-refresh-email =
     .title = Osveži e-poštni naslov
 se-unverified = nepotrjen
+se-resend-code =
+    Potrebna je potrditev. <button>Ponovno pošlji potrditveno kodo</button>,
+    če ni prispela med prejeto ali neželeno pošto.
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
 se-default-content = Obdržite dostop do svojega računa v primeru, da se ne morete prijaviti v glavni e-poštni naslov.
