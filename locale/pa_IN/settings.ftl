@@ -265,33 +265,90 @@ pw-change-success-alert = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗ
 
 delete-account-header =
     .title = ਖਾਤਾ ਹਟਾਓ
+delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
+delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+delete-account-continue-button = ਜਾਰੀ ਰੱਖੋ
+delete-account-password-input =
+    .label = ਪਾਸਵਰਡ ਭਰੋ
+delete-account-cancel-button = ਰੱਦ ਕਰੋ
+delete-account-delete-button-2 = ਹਟਾਓ
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
+display-name-input =
+    .label = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
+submit-display-name = ਸੰਭਾਲੋ
+cancel-display-name = ਰੱਦ ਕਰੋ
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = ਰੱਦ ਕਰੋ
+recovery-key-close-button = ਬੰਦ ਕਰੋ
+recovery-key-continue-button = ਜਾਰੀ ਰੱਖੋ
+recovery-key-enter-password =
+    .label = ਪਾਸਵਰਡ ਭਰੋ
+recovery-key-page-title =
+    .title = ਬਹਾਲੀ ਕੁੰਜੀ
+recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
+recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+recovery-key-success-alert = ਬਹਾਲੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ।
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
+add-secondary-email-page-title =
+    .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
+add-secondary-email-enter-address =
+    .label = ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ
+add-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
+add-secondary-email-save-button = ਸੰਭਾਲੋ
 
 ##
 
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+verify-secondary-email-error = ਤਸਦੀਕ ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਗੜਬੜ ਹੋਈ।
+verify-secondary-email-page-title =
+    .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
+verify-secondary-email-verification-code =
+    .label = ਆਪਣਾ ਤਸਦੀਕ ਕੋਡ ਦਿਓ
+verify-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
+verify-secondary-email-verify-button = ਤਸਦੀਕ ਕਰੋ
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } ਕਾਮਯਾਬੀ ਨਾਲ ਜੋੜਿਆ ਗਿਆ।
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = ਖਾਤਾ ਹਟਾਓ
 
 ## Two Step Authentication
 
+tfa-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
+tfa-step-1-3 = 3 ਚੋਂ 1 ਪੜਾਅ
+tfa-step-2-3 = 3 ਚੋਂ 2 ਪੜਾਅ
+tfa-step-3-3 = 3 ਚੋਂ 3 ਪੜਾਅ
+tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
+tfa-button-cancel = ਰੱਦ ਕਰੋ
+tfa-button-finish = ਮੁਕੰਮਲ
+tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
+tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
+tfa-input-enter-totp =
+    .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
+tfa-enter-recovery-code =
+    .label = ਬਹਾਲੀ ਕੋਡ ਦਿਓ
 
 ##
 
