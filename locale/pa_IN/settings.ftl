@@ -355,27 +355,89 @@ tfa-enter-recovery-code =
 
 ## Profile section
 
+profile-heading = ਪਰੋਫਾਇਲ
+profile-picture =
+    .header = ਤਸਵੀਰ
+profile-display-name =
+    .header = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
+profile-password =
+    .header = ਪਾਸਵਰਡ
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+profile-password-created-date = { $date } ਨੂੰ ਬਣਾਇਆ
+profile-primary-email =
+    .header = ਮੁੱਢਲਾ ਈਮੇਲ
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = ਸੁਰੱਖਿਆ
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = ਜੋੜੋ
+row-defaults-action-change = ਬਦਲੋ
+row-defaults-action-disable = ਅਸਮਰੱਥ ਕਰੋ
+row-defaults-status = ਕੋਈ ਨਹੀਂ
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = ਬਹਾਲੀ ਕੁੰਜੀ
+rk-enabled = ਸਮਰੱਥ ਹੈ
+rk-not-set = ਸੈੱਟ ਨਹੀਂ
+rk-action-create = ਬਣਾਓ
+rk-action-remove = ਹਟਾਓ
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = ਸੈਕੰਡਰੀ ਈਮੇਲ
+    .header = ਸੈਕੰਡਰੀ ਈਮੇਲ
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ।
+# Button to remove the secondary email
+se-remove-email =
+    .title = ਈਮੇਲ ਹਟਾਓ
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = ਈਮੇਲ ਤਾਜ਼ਾ ਕਰੋ
+se-unverified = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ
+# Button to make secondary email the primary
+se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
+tfa-row-disabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ।
+tfa-row-enabled = ਸਮਰੱਥ ਹੈ
+tfa-row-not-set = ਸੈੱਟ ਨਹੀਂ
+tfa-row-action-add = ਜੋੜੋ
+tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
+tfa-row-button-refresh =
+    .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਤਾਜ਼ਾ ਕਰੋ
+tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
+tfa-row-change-modal-heading = ਬਹਾਲੀ ਕੋਡ ਬਦਲਣੇ ਹਨ?
+tfa-row-change-modal-confirm = ਬਦਲੋ
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
+auth-error-103 = ਗਲਤ ਪਾਸਵਰਡ
+auth-error-110 = ਗਲਤ ਟੋਕਨ
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
+auth-error-138 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
+auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
