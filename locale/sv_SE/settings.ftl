@@ -200,7 +200,7 @@ modal-cancel-button = Avbryt
 ## Modal Verify Session
 
 mvs-verify-your-email = Verifiera din e-post
-mvs-enter-verification-code = Ange din verifikationskod
+mvs-enter-verification-code = Ange din verifieringskod
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
@@ -359,7 +359,7 @@ verify-secondary-email-error = Det gick inte att skicka verifieringskoden.
 verify-secondary-email-page-title =
     .title = Sekundär e-post
 verify-secondary-email-verification-code =
-    .label = Ange din verifikationskod
+    .label = Ange din verifieringskod
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button = Verifiera
 # This string is an instruction in a form.
