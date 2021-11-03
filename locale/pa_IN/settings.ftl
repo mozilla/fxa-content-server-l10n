@@ -183,6 +183,10 @@ modal-cancel-button = ਰੱਦ ਕਰੋ
 
 mvs-verify-your-email = ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ
 mvs-enter-verification-code = ਆਪਣਾ ਤਸਦੀਕ ਕੋਡ ਦਿਓ
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = <email>{ $email }</email> ਉੱਤੇ ਭੇਜੇ ਤਸਦੀਕੀ ਕੋਡ ਨੂੰ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਭਰੋ।
 msv-cancel-button = ਰੱਦ ਕਰੋ
 msv-submit-button = ਤਸਦੀਕ ਕਰੋ
 
@@ -224,12 +228,34 @@ avatar-page-zoom-in-button =
 avatar-page-rotate-button =
     .title = ਘੁੰਮਾਓ
 avatar-page-camera-error = ਕੈਮਰਾ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ
+avatar-page-new-avatar =
+    .alt = ਨਵੀਂ ਪਰੋਫਾਈਲ ਤਸਵੀਰ
+avatar-page-file-upload-error-2 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤਸਵੀਰ ਅੱਪਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
+avatar-page-delete-error-2 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤਸਵੀਰ ਹਟਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
+avatar-page-image-too-large-error = ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਚਿੱਤਰ ਤਸਵੀਰ ਬਹੁਤ ਵੱਡੀ ਹੈ।
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = ਪਾਸਵਰਡ ਬਦਲੋ
+pw-change-stay-safe = ਸੁਰੱਖਿਅਤ ਰਹੋ — ਆਪਣੇ ਪਾਸਵਰਡ ਮੁੜ ਨਾ ਵਰਤੋਂ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ:
+pw-change-least-8-chars = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
+pw-change-not-contain-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ
+pw-change-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ ਕਰੋ
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = ਇਹ <linkExternal>ਆਮ ਪਾਸਵਰਡ ਦੀ ਸੂਚੀ</linkExternal> ਨਾਲ ਮਿਲਦਾ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ
+pw-change-cancel-button = ਰੱਦ ਕਰੋ
+pw-change-save-button = ਸੰਭਾਲੋ
+pw-change-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
+pw-change-current-password =
+    .label = ਮੌਜੂਦਾ ਪਾਸਵਰਡ ਦਿਓ
+pw-change-new-password =
+    .label = ਨਵਾਂ ਪਾਸਵਰਡ ਦਿਓ
+pw-change-confirm-password =
+    .label = ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 
 ##
 

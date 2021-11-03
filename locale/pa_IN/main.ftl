@@ -8,6 +8,8 @@
 project-brand = ਫਾਇਰਫਾਕਸ ਖਾਤੇ
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
 document =
     .title = ਫਾਇਰਫਾਕਸ ਖਾਤੇ
 
@@ -16,19 +18,30 @@ document =
 
 ## app error dialog
 
+general-error-heading = ਆਮ ਐਪਲੀਕੇਸ਼ਨ ਗਲਤੀ
+basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
 settings-home = ਖਾਤਾ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
-settings-subscriptions = ਮੈਂਬਰੀ ਤੇ ਭੁਗਤਾਨ
+settings-subscriptions-title = ਮੈਂਬਰੀਆਂ
 
 ## legal footer
 
 terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
+terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ
 
-## plan details
+## Subscription titles
 
+subscription-create-title = ਆਪਣੀ ਮੈਂਬਰੀ ਸੈਟਅੱਪ ਕਰੋ
+subscription-success-title = ਮੈਂਬਰੀ ਦੀ ਤਸਦੀਕ
+subscription-processing-title = ਮੈਂਬਰੀ ਤਸਦੀਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -62,17 +75,18 @@ payment-zip =
 payment-cancel-btn = ਰੱਦ ਕਰੋ
 payment-update-btn = ਅੱਪਡੇਟ
 payment-pay-btn = ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ
+payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
+payment-validate-zip-required = ਜ਼ਿਪ ਕੋਡ ਲੋੜੀਂਦਾ ਹੈ
+payment-validate-zip-short = ਜ਼ਿਪ ਕੋਡ ਬਹੁਤ ਛੋਟਾ ਹੈ
 
 ## subscription redirect
 
+sub-redirect-ready = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਤਿਆਰ ਹੈ
 
 ## fields
 
 
 ## subscription upgrade
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
@@ -82,10 +96,11 @@ payment-pay-btn = ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## payment update
-##  $name (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-##  $date (Date) - The date for the next time a charge will occur.
+## subscription billing details
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## $date (Date) - The date for the next time a charge will occur.
 
 
 ##
@@ -112,8 +127,23 @@ payment-pay-btn = ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ
 ## plan-details
 
 
+## payment-processing
+
+
 ## payment confirmation
+
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
 
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## new user email form
+
+new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
