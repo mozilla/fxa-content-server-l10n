@@ -256,12 +256,15 @@ pw-change-new-password =
     .label = ਨਵਾਂ ਪਾਸਵਰਡ ਦਿਓ
 pw-change-confirm-password =
     .label = ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+pw-change-success-alert = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ।
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = ਖਾਤਾ ਹਟਾਓ
 
 ##
 
