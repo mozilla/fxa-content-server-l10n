@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 22:07+0000\n"
+"POT-Creation-Date: 2021-11-04 22:07+0000\n"
 "PO-Revision-Date: 2018-11-25 03:20+0000\n"
 "Last-Translator: Norman Haikal <normanh876@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,11 @@ msgstr "Tetap semula kata laluan berjaya. Log masuk untuk menyambung."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Daftar masuk"
 
-#: .es5/views/index.js:172
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Akaun berjaya dihapuskan"
 
@@ -52,51 +52,51 @@ msgstr "Nama paparan"
 msgid "Account picture"
 msgstr "Gambar akaun"
 
-#: .es5/views/ready.js:56
+#: .es5/views/ready.js:58
 msgid "Welcome back"
 msgstr "Selamat kembali"
 
-#: .es5/views/ready.js:57
+#: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync akan diteruskan sebentar"
 
-#: .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
 msgstr "Kata laluan anda telah diset semula"
 
-#: .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Lengkapkan set-up dengan memasukkan kata laluan baru pada peranti Firefox anda yang lain."
 
-#: .es5/views/ready.js:70
+#: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Anda kini sudah bersedia untuk membuat perubahan kepada Akaun Firefox anda."
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:74
 msgid "Primary email verified"
 msgstr "E-mel utama disahkan"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Notifikasi akaun juga akan dihantar ke %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
 msgstr "E-mel sekunder disahkan"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Daftar masuk disahkan"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4 .es5/templates/ready.mustache:10
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Anda kini sedia untuk menggunakan %(serviceName)s"
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:89
 msgid "Account verified"
 msgstr "Akaun disahkan"
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:94
 msgid "Connected"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Akaun tidak diketahui. <a href=\"/signup\">Daftar</a>"
 
-#: .es5/views/sign_up_password.js:82
+#: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
 msgstr "Akaun tidak lagi wujud. Cipta kembali?"
 
@@ -897,10 +897,10 @@ msgstr "Menerima pautan baru"
 msgid "Reset password with recovery key"
 msgstr "Tetapkan semula kata laluan dengan kekunci pemulihan"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:4 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
-#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
@@ -943,7 +943,7 @@ msgstr "Anda mesti telah mencapai keperluan sesuatu umur untuk mencipta Akaun Fi
 msgid "Learn more"
 msgstr "Ketahui lanjut"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
 msgstr ""
 
@@ -1048,21 +1048,25 @@ msgstr "Klik pautan dalam e-mel ke %(email)s dalam tempoh sejam berikutnya untuk
 msgid "Enter verification code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
+msgid "Continue to"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Masukkan kod 6-digit"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Sahkan"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
 msgstr ""
 
@@ -1123,19 +1127,19 @@ msgstr "Sila dayakan kuki dan storan lokal di pelayar anda untuk mengakses Akaun
 msgid "Try again"
 msgstr "Cuba lagi"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
 msgstr "Kata laluan"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Gunakan akaun lain"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12
 msgid "Forgot password?"
 msgstr "Lupa kata laluan?"
 
@@ -1143,11 +1147,15 @@ msgstr "Lupa kata laluan?"
 msgid "Enter your email"
 msgstr "Masukkan e-mel anda"
 
-#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgstr ""
+
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "Emel"
 
-#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:6 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1289,15 +1297,19 @@ msgstr "Batal"
 msgid "Success"
 msgstr "Berjaya"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Teruskan ke akaun saya"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
 msgstr "Akaun anda sudah sedia!"
 
-#: .es5/templates/ready.mustache:13
+#: .es5/templates/ready.mustache:15
 msgid "Generate a new recovery key"
 msgstr "Jana kekunci pemulihan baru"
 
@@ -1371,6 +1383,15 @@ msgstr "Jika alamat e-mel ini sah, <a %(escapedSupportLinkAttrs)s>maklumkan kami
 msgid "No longer own that email? Create a new account"
 msgstr "Bukan lagi pemilik e-mel itu? Cipta akaun baru"
 
+#: .es5/templates/sign_in_password.mustache:8
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
 msgstr "Masukkan kod pemulihan"
@@ -1428,25 +1449,34 @@ msgstr "Masukkan kod pengesahan"
 msgid "Create a Firefox Account"
 msgstr "Cipta Akaun Firefox"
 
-#: .es5/templates/sign_up_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "Ulang semua kata laluan"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "Cipta akaun"
+
+#: .es5/templates/sign_up_password.mustache:18
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1727,7 +1757,7 @@ msgstr ""
 msgid "Connect another one"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
 msgstr ""
 
@@ -1747,7 +1777,7 @@ msgstr ""
 msgid "Get started"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr ""
 
@@ -1872,27 +1902,39 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Firefox Lockwise"
+msgid "Pocket"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:6
-msgid "Firefox Monitor"
+msgid "Save and discover the best stories from accross the web."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Get a lookout for data breaches."
+msgid "Firefox Lockwise"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Mozilla VPN"
+msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Firefox Monitor"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
+msgid "Get a lookout for data breaches."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:11
+msgid "Mozilla VPN"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:12
 msgid "A VPN from the trusted pioneer in internet privacy."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:13
+msgid "See all"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1

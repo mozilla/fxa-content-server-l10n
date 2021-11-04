@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 22:07+0000\n"
+"POT-Creation-Date: 2021-11-04 22:07+0000\n"
 "PO-Revision-Date: 2021-08-20 15:33+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2867
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2941
 msgid "Here's your reminder to sync devices."
 msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2871
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2868
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
 msgid "Last reminder to sync devices!"
 msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2874
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
 
@@ -36,16 +36,17 @@ msgid "If you haven't already downloaded %(productName)s, let's get started usin
 msgstr "Os nad ydych eisoes wedi llwytho %(productName)s i lawr, gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionDowngrade.html:6 lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
+#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionPaymentExpired.html:4 lib/senders/templates/subscriptionPaymentFailed.html:5
+#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8
+#: lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
 msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
 
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionDowngrade.txt:5
-#: lib/senders/templates/subscriptionFirstInvoice.txt:8 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
+#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
+#: lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5
+#: lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7 lib/senders/templates/subscriptionUpgrade.txt:6
 msgid "Questions about your subscription? Our support team is here to help you:"
 msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i'ch helpu chi:"
 
@@ -65,7 +66,7 @@ msgstr "Rydym wedi sylwi eich bod yn fyr o godau adfer. Ystyriwch greu codau new
 msgid "Generate codes:"
 msgstr "Creu codau:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1324
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1400
 msgid "New sign-in to %(clientName)s"
 msgstr "Mewngofnodi newydd i %(clientName)s"
 
@@ -149,7 +150,7 @@ msgstr "Creu allwedd adfer newydd:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Am ragor o wybodaeth, ewch i %(supportUrl)s"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1760
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1836
 msgid "Account recovery key generated"
 msgstr "Cynhyrchwyd allwedd adfer cyfrif"
 
@@ -209,7 +210,7 @@ msgstr "Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:"
 msgid "Consumed recovery code"
 msgstr "Cod adfer wedi ei ddefnyddio"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1616
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1692
 msgid "New recovery codes generated"
 msgstr "Wedi creu cod adfer newydd"
 
@@ -217,7 +218,7 @@ msgstr "Wedi creu cod adfer newydd"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1810
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1886
 msgid "Account recovery key removed"
 msgstr "Tynnwyd yr allwedd adfer cyfrif"
 
@@ -233,7 +234,7 @@ msgstr "Nid oes modd defnyddio'r allwedd adfer hwn bellach i adfer eich cyfrif."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1488
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
 msgid "Secondary email removed"
 msgstr "Tynnwyd yr ail e-bost"
 
@@ -269,7 +270,7 @@ msgstr "nesaf, cydweddwch eich dyfeisiau!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Mae Sync yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ar draws eich holl ddyfeisiau."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1370
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1446
 msgid "Set up next device"
 msgstr "Gosod y ddyfais nesaf"
 
@@ -277,7 +278,7 @@ msgstr "Gosod y ddyfais nesaf"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1416
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
 msgid "Secondary email added"
 msgstr "Ychwanegwyd ail e-bost"
 
@@ -293,7 +294,7 @@ msgstr "Angen ailosod eich cyfrinair?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1165
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
 msgid "Create new password"
 msgstr "Creu cyfrinair newydd"
 
@@ -319,7 +320,7 @@ msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r <a %(cancellationSurveyL
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r arolwg byr hwn:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2836
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2910
 msgid "Welcome to %(productName)s"
 msgstr "Croeso i %(productName)s"
 
@@ -342,6 +343,28 @@ msgstr "Codwyd: $%(invoiceTotal)s ar %(invoiceDateOnly)s"
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
 msgstr "Anfoneb nesaf: %(nextInvoiceDateOnly)s"
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
+msgid "You can't access your subscription yet"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
+msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
+#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
+msgid "Select “Create Password” to set up a new password and finish verifying your account."
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
+msgid "Create a password:"
+msgstr ""
+
+#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
+msgid "Welcome to Firefox!"
+msgstr ""
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -631,7 +654,7 @@ msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:854
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:930
 msgid "Confirm sign-in"
 msgstr "Cadarnhau eich mewngofnodi"
 
@@ -751,11 +774,11 @@ msgstr "PayPal"
 msgid "%(cardType)s card ending in %(lastFour)s"
 msgstr "Mae cerdyn %(cardType)s yn gorffen ymhen %(lastFour)s"
 
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1
+#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
 msgid "Mozilla Privacy Policy"
 msgstr "Polisi Preifatrwydd Mozilla"
 
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2
+#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
 msgid "Firefox Cloud Terms of Service"
 msgstr "Amodau Gwasanaethau Firefox Cloud"
 
@@ -764,38 +787,42 @@ msgid "You're receiving this email because %(email)s has a Firefox account and y
 msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru ar gyfer %(productName)s"
 
 #: lib/senders/templates/layouts/subscription.html:3
+msgid "You're receiving this email because %(email)s has a Firefox account"
+msgstr ""
+
+#: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
 msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru i nifer o gynnyrch."
 
-#: lib/senders/templates/layouts/subscription.html:4
+#: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
 msgstr "Rheolwch osodiadau eich cyfrif Firefox trwy ymweld â'ch  <a %(accountSettingsLinkAttributes)s> tudalen cyfrif</a>."
 
-#: lib/senders/templates/layouts/subscription.html:5
+#: lib/senders/templates/layouts/subscription.html:6
 msgid "Terms and cancellation policy"
 msgstr "Polisi telerau a chanslo"
 
-#: lib/senders/templates/layouts/subscription.html:6
+#: lib/senders/templates/layouts/subscription.html:7
 msgid "Reactivate subscription"
 msgstr "Ailgychwyn y tanysgrifiad"
 
-#: lib/senders/templates/layouts/subscription.html:7
+#: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscription"
 msgstr "Canslo tanysgrifiad"
 
-#: lib/senders/templates/layouts/subscription.html:8
+#: lib/senders/templates/layouts/subscription.html:9
 msgid "Cancel subscriptions"
 msgstr "Diddymu tanysgrifiadau"
 
-#: lib/senders/templates/layouts/subscription.html:9
+#: lib/senders/templates/layouts/subscription.html:10
 msgid "Update billing information"
 msgstr "Diweddaru'r manylion bilio"
 
-#: lib/senders/templates/layouts/subscription.html:10
+#: lib/senders/templates/layouts/subscription.html:13
 msgid "Legal"
 msgstr "Cyfreithiol"
 
-#: lib/senders/templates/layouts/subscription.html:11
+#: lib/senders/templates/layouts/subscription.html:14
 msgid "Privacy"
 msgstr "Preifatrwydd"
 
@@ -819,200 +846,208 @@ msgstr "Diddymu tanysgrifiadau:"
 msgid "Update billing information:"
 msgstr "Diweddaru'r manylion bilio:"
 
-#: lib/senders/email.js:347
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:352
+#: lib/senders/email.js:353
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s"
 
-#: lib/senders/email.js:378
+#: lib/senders/email.js:379
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:385
+#: lib/senders/email.js:386
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:390
+#: lib/senders/email.js:391
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:395
+#: lib/senders/email.js:396
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
 
-#: lib/senders/email.js:603
+#: lib/senders/email.js:604
 msgid "Finish creating your account"
 msgstr "Gorffen creu eich cyfrif"
 
-#: lib/senders/email.js:604 lib/senders/email.js:741
+#: lib/senders/email.js:605 lib/senders/email.js:742
 msgid "Confirm email"
 msgstr "E-bost cadarnhau"
 
-#: lib/senders/email.js:671
+#: lib/senders/email.js:672
 msgid "Verification code: %(code)s"
 msgstr "Cod dilysu: %(code)s"
 
-#: lib/senders/email.js:721
+#: lib/senders/email.js:722
 msgid "Reminder: Finish creating your account"
 msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
 
-#: lib/senders/email.js:723
+#: lib/senders/email.js:724
 msgid "Final reminder: Activate your account"
 msgstr "Nodyn atgoffa terfynol: Gweithredwch eich cyfrif"
 
-#: lib/senders/email.js:778
-msgid "Account authorization code"
-msgstr "Cod awdurdodi cyfrif"
+#: lib/senders/email.js:775
+msgid "Reminder: Finish setting up your account"
+msgstr ""
 
-#: lib/senders/email.js:851
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
+#: lib/senders/email.js:777
+msgid "Final reminder: Setup your account"
+msgstr ""
 
-#: lib/senders/email.js:900
-msgid "Sign-in code for %(serviceName)s"
-msgstr "Cod mewngofnodi ar gyfer %(serviceName)s"
-
-#: lib/senders/email.js:969
-msgid "Confirm primary email"
-msgstr "Cadarnhau'r prif e-bost"
-
-#: lib/senders/email.js:970 lib/senders/email.js:1033 lib/senders/email.js:1105
-msgid "Verify email"
-msgstr "Dilysu'r e-bost"
-
-#: lib/senders/email.js:1032 lib/senders/email.js:1104
-msgid "Confirm secondary email"
-msgstr "Cadarnhau'r ail e-bost"
-
-#: lib/senders/email.js:1164
-msgid "Reset your password"
-msgstr "Ailosod eich cyfrinair"
-
-#: lib/senders/email.js:1210 lib/senders/email.js:1281
-msgid "Password updated"
-msgstr "Diweddarwyd y cyfrinair"
-
-#: lib/senders/email.js:1252
-msgid "Suspicious activity detected"
-msgstr "Gweithgaredd amheus wedi'i ganfod"
-
-#: lib/senders/email.js:1325 lib/senders/email.js:1417 lib/senders/email.js:1453 lib/senders/email.js:1489 lib/senders/email.js:1523 lib/senders/email.js:1570 lib/senders/email.js:1617
-#: lib/senders/email.js:1664 lib/senders/email.js:1761 lib/senders/email.js:1811
-msgid "Manage account"
-msgstr "Rheoli cyfrif"
-
-#: lib/senders/email.js:1365
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
-
-#: lib/senders/email.js:1452
-msgid "Primary email updated"
-msgstr "Diweddarwyd y prif e-bost"
-
-#: lib/senders/email.js:1522
-msgid "Two-step verification enabled"
-msgstr "Mae dilysu dau gam wedi ei alluogi"
-
-#: lib/senders/email.js:1569
-msgid "Two-step verification is off"
-msgstr "Mae dilysu dau gam wedi ei ddiffodd"
-
-#: lib/senders/email.js:1663
-msgid "Recovery code used"
-msgstr "Cod adfer wedi'i ddefnyddio"
-
-#: lib/senders/email.js:1723
-msgid "1 recovery code remaining"
-msgstr "1 cod adfer yn weddill"
-
-#: lib/senders/email.js:1725
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "%(numberRemaining)s cod adfer yn weddill"
-
-#: lib/senders/email.js:1728
-msgid "Generate codes"
-msgstr "Creu codau"
-
-#: lib/senders/email.js:1860
-msgid "Password updated using recovery key"
-msgstr "Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer"
-
-#: lib/senders/email.js:1861
-msgid "Create new recovery key"
-msgstr "Creu allwedd adfer newydd"
-
-#: lib/senders/email.js:1953
+#: lib/senders/email.js:817 lib/senders/email.js:2027
 msgid "Create a password"
 msgstr "Crëwch gyfrinair"
 
-#: lib/senders/email.js:1956
+#: lib/senders/email.js:854
+msgid "Account authorization code"
+msgstr "Cod awdurdodi cyfrif"
+
+#: lib/senders/email.js:927
+msgid "Confirm new sign-in to %(clientName)s"
+msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
+
+#: lib/senders/email.js:976
+msgid "Sign-in code for %(serviceName)s"
+msgstr "Cod mewngofnodi ar gyfer %(serviceName)s"
+
+#: lib/senders/email.js:1045
+msgid "Confirm primary email"
+msgstr "Cadarnhau'r prif e-bost"
+
+#: lib/senders/email.js:1046 lib/senders/email.js:1109 lib/senders/email.js:1181
+msgid "Verify email"
+msgstr "Dilysu'r e-bost"
+
+#: lib/senders/email.js:1108 lib/senders/email.js:1180
+msgid "Confirm secondary email"
+msgstr "Cadarnhau'r ail e-bost"
+
+#: lib/senders/email.js:1240
+msgid "Reset your password"
+msgstr "Ailosod eich cyfrinair"
+
+#: lib/senders/email.js:1286 lib/senders/email.js:1357
+msgid "Password updated"
+msgstr "Diweddarwyd y cyfrinair"
+
+#: lib/senders/email.js:1328
+msgid "Suspicious activity detected"
+msgstr "Gweithgaredd amheus wedi'i ganfod"
+
+#: lib/senders/email.js:1401 lib/senders/email.js:1493 lib/senders/email.js:1529 lib/senders/email.js:1565 lib/senders/email.js:1599 lib/senders/email.js:1646 lib/senders/email.js:1693
+#: lib/senders/email.js:1740 lib/senders/email.js:1837 lib/senders/email.js:1887
+msgid "Manage account"
+msgstr "Rheoli cyfrif"
+
+#: lib/senders/email.js:1441
+msgid "Account verified. Next, sync another device to finish setup"
+msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
+
+#: lib/senders/email.js:1528
+msgid "Primary email updated"
+msgstr "Diweddarwyd y prif e-bost"
+
+#: lib/senders/email.js:1598
+msgid "Two-step verification enabled"
+msgstr "Mae dilysu dau gam wedi ei alluogi"
+
+#: lib/senders/email.js:1645
+msgid "Two-step verification is off"
+msgstr "Mae dilysu dau gam wedi ei ddiffodd"
+
+#: lib/senders/email.js:1739
+msgid "Recovery code used"
+msgstr "Cod adfer wedi'i ddefnyddio"
+
+#: lib/senders/email.js:1799
+msgid "1 recovery code remaining"
+msgstr "1 cod adfer yn weddill"
+
+#: lib/senders/email.js:1801
+msgid "%(numberRemaining)s recovery codes remaining"
+msgstr "%(numberRemaining)s cod adfer yn weddill"
+
+#: lib/senders/email.js:1804
+msgid "Generate codes"
+msgstr "Creu codau"
+
+#: lib/senders/email.js:1936
+msgid "Password updated using recovery key"
+msgstr "Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer"
+
+#: lib/senders/email.js:1937
+msgid "Create new recovery key"
+msgstr "Creu allwedd adfer newydd"
+
+#: lib/senders/email.js:2030
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Croeso i %(productName)s: Cyflwynwch eich cyfrinair."
 
-#: lib/senders/email.js:2029
+#: lib/senders/email.js:2103
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
 
-#: lib/senders/email.js:2108
+#: lib/senders/email.js:2182
 msgid "You have switched to %(productNameNew)s"
 msgstr "Rydych wedi newid i %(productNameNew)s"
 
-#: lib/senders/email.js:2173
+#: lib/senders/email.js:2247
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2187
+#: lib/senders/email.js:2261
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2238
+#: lib/senders/email.js:2312
 msgid "Payment information update required for %(productName)s"
 msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
 
-#: lib/senders/email.js:2254
+#: lib/senders/email.js:2328
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
 
-#: lib/senders/email.js:2300
+#: lib/senders/email.js:2374
 msgid "%(productName)s payment failed"
 msgstr "Methodd taliad %(productName)s"
 
-#: lib/senders/email.js:2351 lib/senders/email.js:2416 lib/senders/email.js:2477
+#: lib/senders/email.js:2425 lib/senders/email.js:2490 lib/senders/email.js:2551
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
 
-#: lib/senders/email.js:2534
+#: lib/senders/email.js:2608
 msgid "%(productName)s subscription reactivated"
 msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
 
-#: lib/senders/email.js:2590
+#: lib/senders/email.js:2664
 msgid "%(productName)s automatic renewal notice"
 msgstr "Hysbysiad adnewyddu awtomatig %(productName)"
 
-#: lib/senders/email.js:2670
+#: lib/senders/email.js:2744
 msgid "%(productName)s payment received"
 msgstr "Derbyniwyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2762
+#: lib/senders/email.js:2836
 msgid "%(productName)s payment confirmed"
 msgstr "Cadarnhawyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2837
+#: lib/senders/email.js:2911
 msgid "Download %(productName)s"
 msgstr "Llwythwch %(productName)s i lawr"
 
-#: lib/senders/email.js:2863
+#: lib/senders/email.js:2937
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync"
 
-#: lib/senders/email.js:2864
+#: lib/senders/email.js:2938
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd"
 
-#: lib/senders/email.js:2878
+#: lib/senders/email.js:2952
 msgid "Sync another device"
 msgstr "Cydweddu dyfais arall"
 
