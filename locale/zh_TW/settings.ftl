@@ -475,7 +475,7 @@ se-content-note = 註：只設定次要電子郵件帳號無法恢復您的資�
 
 tfa-row-header = 兩階段驗證
 tfa-row-disabled = 已關閉兩階段驗證。
-tfa-row-enabled = 已啟用
+tfa-row-enabled = 啟用
 tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
