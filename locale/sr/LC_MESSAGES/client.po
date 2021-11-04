@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 22:07+0000\n"
+"POT-Creation-Date: 2021-11-04 22:07+0000\n"
 "PO-Revision-Date: 2021-06-17 23:19+0000\n"
 "Last-Translator: Ђорђе Васиљевић <djordje.vasiljevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,11 @@ msgstr "Лозинка је успешно ресетована. Пријави�
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:5
+#: .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
 msgstr "Пријави ме"
 
-#: .es5/views/index.js:172
+#: .es5/views/index.js:174
 msgid "Account deleted successfully"
 msgstr "Налог је успешно избрисан"
 
@@ -53,51 +53,51 @@ msgstr "Име за приказ"
 msgid "Account picture"
 msgstr "Профилна слика"
 
-#: .es5/views/ready.js:56
+#: .es5/views/ready.js:58
 msgid "Welcome back"
 msgstr "Добро дошли назад"
 
-#: .es5/views/ready.js:57
+#: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
 msgstr "Firefox Sync ће одмах наставити"
 
-#: .es5/views/ready.js:61 .es5/views/ready.js:66
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
 msgstr "Лозинка је ресетована"
 
-#: .es5/views/ready.js:62 .es5/views/ready.js:67
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Завршите подешавање тако што ћете унети нову лозинку на вашим осталим Firefox уређајима."
 
-#: .es5/views/ready.js:70
+#: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Сада сте спремни за прављење измена у вашем Firefox налогу."
 
-#: .es5/views/ready.js:72
+#: .es5/views/ready.js:74
 msgid "Primary email verified"
 msgstr "Примарна имејл-адреса је потврђена"
 
-#: .es5/views/ready.js:75
+#: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Обавештења о налогу ће сада такође бити слата на %(secondaryEmailVerified)s."
 
-#: .es5/views/ready.js:77 .es5/views/post_verify/verified.js:61
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
 msgstr "Секундарна имејл-адреса је потврђена"
 
-#: .es5/views/ready.js:82 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Пријава је потврђена"
 
-#: .es5/views/ready.js:83 .es5/views/ready.js:88 .es5/views/ready.js:93 .es5/templates/ready.mustache:4 .es5/templates/ready.mustache:10
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Сада сте спремни да користите %(serviceName)s"
 
-#: .es5/views/ready.js:87
+#: .es5/views/ready.js:89
 msgid "Account verified"
 msgstr "Налог је потврђен"
 
-#: .es5/views/ready.js:92
+#: .es5/views/ready.js:94
 msgid "Connected"
 msgstr "Повезано"
 
@@ -105,7 +105,7 @@ msgstr "Повезано"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Непознат налог. <a href=\"/signup\">Пријави се</a>"
 
-#: .es5/views/sign_up_password.js:82
+#: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
 msgstr "Налог више не постоји. Поново га направити?"
 
@@ -898,10 +898,10 @@ msgstr "Примите нову везу"
 msgid "Reset password with recovery key"
 msgstr "Ресетујте лозинку кључен за опоравак"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:2 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:4 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
-#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
@@ -943,7 +943,7 @@ msgstr "Ви морате да испуните одређене услове д
 msgid "Learn more"
 msgstr "Сазнајте више"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:11
+#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
 msgstr "Изаберите шта ћете синхронизовати:"
 
@@ -1048,21 +1048,25 @@ msgstr "Кликните на везу послату на адресу %(email)
 msgid "Enter verification code"
 msgstr "Унесите верификациони код"
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
+msgid "Continue to"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Унесите верификациони код који је послан на %(escapedEmail)s у наредних 5 минута."
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Унесите шестоцифрени код"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Потврди"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
 msgstr "Треба вам други код? Пошаљи поново"
 
@@ -1123,19 +1127,19 @@ msgstr "Омогућите колачиће и локално складиште
 msgid "Try again"
 msgstr "Покушај поново"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:3 .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
 msgstr "Лозинка"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_up_password.mustache:16 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Настављањем прихватате <a id=\"fxa-tos\" href=\"/legal/terms\">услове коришћења</a> и<a id=\"fxa-pp\" href=\"/legal/privacy\">политику приватности</a>."
 
-#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Користи други налог"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12
 msgid "Forgot password?"
 msgstr "Заборавили сте лозинку?"
 
@@ -1143,11 +1147,15 @@ msgstr "Заборавили сте лозинку?"
 msgid "Enter your email"
 msgstr "Унесите вашу адресу"
 
-#: .es5/templates/index.mustache:3 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgstr ""
+
+#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "Е-пошта"
 
-#: .es5/templates/index.mustache:4 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:5
+#: .es5/templates/index.mustache:6 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
@@ -1289,15 +1297,19 @@ msgstr "Откажи"
 msgid "Success"
 msgstr "Успешно"
 
-#: .es5/templates/ready.mustache:8 .es5/templates/ready.mustache:14
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Настави на мој налог"
 
-#: .es5/templates/ready.mustache:12
+#: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
 msgstr "Ваш налог је спреман!"
 
-#: .es5/templates/ready.mustache:13
+#: .es5/templates/ready.mustache:15
 msgid "Generate a new recovery key"
 msgstr "Генеришите нови кључ за опоравак"
 
@@ -1371,6 +1383,15 @@ msgstr "Ако је ово исправна адреса е-поште, <a %(esc
 msgid "No longer own that email? Create a new account"
 msgstr "Више нисте власник те адресе? Направите нови налог"
 
+#: .es5/templates/sign_in_password.mustache:8
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
 msgstr "Унесите код за опоравак"
@@ -1428,25 +1449,34 @@ msgstr "Унесите ауторизациони код"
 msgid "Create a Firefox Account"
 msgstr "Направи Firefox налог"
 
-#: .es5/templates/sign_up_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Промените адресу е-поште"
 
-#: .es5/templates/sign_up_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
 msgstr "Поновите лозинку"
 
-#: .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr "Ова вам је лозинка потребна за приступ шифрованим подацима које чувате код нас.<br/>Поништавање исте може резултовати губитком података попут лозинки и обележивача."
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Примајте корисна знања директно у инбокс. Пријавите се да сазнате више:"
 
-#: .es5/templates/sign_up_password.mustache:15
+#: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
 msgstr "Направи налог"
+
+#: .es5/templates/sign_up_password.mustache:18
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1728,7 +1758,7 @@ msgstr "Уређај је повезан"
 msgid "Connect another one"
 msgstr "Повежите други уређај"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4 .es5/templates/post_verify/cad_qr/scan_code.mustache:10
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
 msgstr "Користите SMS уместо"
 
@@ -1748,7 +1778,7 @@ msgstr "Синхронизујте обележиваче, историју и �
 msgid "Get started"
 msgstr "Започните"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:5
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr "Урадићу то касније, пошаљи ми подсетник"
 
@@ -1873,28 +1903,40 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Синхронизујте обележиваче, лозинке и остало на сваком уређају."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
+msgid "Pocket"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:5
+msgid "Save and discover the best stories from accross the web."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
 msgstr "Firefox Lockwise"
 
-#: .es5/templates/partial/firefox-family-services.mustache:5
+#: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
 msgstr "Безбедно приступите лозинкама сачуваним у Firefox-у било где - чак и ван прегледача."
 
-#: .es5/templates/partial/firefox-family-services.mustache:6
+#: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Firefox Monitor"
 msgstr "Firefox Monitor"
 
-#: .es5/templates/partial/firefox-family-services.mustache:7
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "Get a lookout for data breaches."
 msgstr "Упозорења о цурењу података."
 
-#: .es5/templates/partial/firefox-family-services.mustache:8
+#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:9
+#: .es5/templates/partial/firefox-family-services.mustache:12
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "VPN од поузданог пионира приватности на интернету."
+
+#: .es5/templates/partial/firefox-family-services.mustache:13
+msgid "See all"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."

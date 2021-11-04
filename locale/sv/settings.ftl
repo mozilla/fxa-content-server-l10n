@@ -200,7 +200,7 @@ modal-cancel-button = Avbryt
 ## Modal Verify Session
 
 mvs-verify-your-email = Verifiera din e-post
-mvs-enter-verification-code = Ange din verifikationskod
+mvs-enter-verification-code = Ange din verifieringskod
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
@@ -340,6 +340,7 @@ recovery-key-success-alert = Återställningsnyckel skapad.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Steg 1 av 2
 add-secondary-email-error = Det gick inte att skapa sekundär e-postadress.
 add-secondary-email-page-title =
     .title = Sekundär e-post
@@ -353,11 +354,12 @@ add-secondary-email-save-button = Spara
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Steg 2 av 2
 verify-secondary-email-error = Det gick inte att skicka verifieringskoden.
 verify-secondary-email-page-title =
     .title = Sekundär e-post
 verify-secondary-email-verification-code =
-    .label = Ange din verifikationskod
+    .label = Ange din verifieringskod
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button = Verifiera
 # This string is an instruction in a form.
@@ -540,8 +542,10 @@ auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-138 = Overifierad session
 auth-error-155 = TOTP-tecken hittades inte
