@@ -10,6 +10,8 @@ project-brand = Firefox-konton
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
 document =
     .title = Firefox-konton
 
@@ -304,6 +306,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt min åtkomst och min sparade information för
     { $name } den { $period }
+
+## subscription iap item
+
 account-activated = Ditt konto är aktiverat, <userEl/>
 
 ## subscription route index
