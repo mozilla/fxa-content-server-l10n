@@ -10,6 +10,14 @@ project-brand = Llogari Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Llogari Firefox
 
@@ -38,7 +46,9 @@ instant-payouts-unsupported = Duket sikur karta juaj e debitit s’është ujdis
 duplicate-transaction = Hëm. Duket sikur sapo u dërgua një transaksion identik. Kontrolloni historikun tuaj të pagesave.
 coupon-expired = Duket sikur ai kod promocional të ketë skaduar.
 card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat e kartës tuaj të kreditit dhe riprovoni.
-fxa-signup-error = Pati një problem me krijimin e llogarisë tuaj. Ju lutemi, riprovoni më vonë.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -100,11 +110,8 @@ product-no-such-plan = S’ka plan të tillë për këtë produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } për{ -brand-name-stripe }-in dhe { -brand-name-paypal }-in për përpunim të sigurt pagesash.
-payment-legal-link-stripe-and-paypal-2 = Shihni <stripePrivacyLink>rregulla privatësie { -brand-name-stripe }-i</stripePrivacyLink> dhe <paypalPrivacyLink>rregulla privatësie { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
-payment-legal-link-paypal = Shihni <paypalPrivacyLink>rregulla privatësie të { -brand-name-paypal }-it</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
-payment-legal-link-stripe-2 = Shihni <stripePrivacyLink>rregulla privatësie { -brand-name-stripe }-i</stripePrivacyLink>.
 
 ## payment form
 
@@ -249,6 +256,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Faturimi i ardhshëm më { $date }
+sub-expires-on = Skadon më { $date }
 
 ##
 
@@ -291,6 +299,10 @@ sub-item-cancel-sub = Anulojeni Pajtimin
 sub-item-stay-sub = Qëndroni i Pajtuar
 sub-item-cancel-msg = Pas { $period }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $name }.
 sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $name }
+
+## subscription iap item
+
+sub-iap-item-manage-button = Administrojini
 account-activated = Llogaria juaj është aktivizuar, <userEl />
 
 ## subscription route index
@@ -341,11 +353,19 @@ payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj
 payment-confirmation-alert = Klikoni këtu për ta shkarkuar
 payment-confirmation-mobile-alert = S’u hap aplikacioni? <a>Klikoni Këtu</a>
 payment-confirmation-thanks-heading = Faleminderit!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = A confirmation email has been sent Te { $email } u dërgua një email ripohimi me udhëzime se si t’ia fillohet me { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Hollësi porosie
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturuar për
-payment-confirmation-details-heading = Hollësi pagese
+payment-confirmation-details-heading-2 = Hollësi pagese
 payment-confirmation-amount = { $amount } në { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -380,6 +400,12 @@ payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 ## new user email form
 
 new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
+new-user-step-1 = 1. Krijoni një llogari { -brand-name-firefox }
+new-user-step-2 = 2. Zgjidhni metodën tuaj të pagesës
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = E domosdoshme
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Jepni email-in tuaj
@@ -389,4 +415,5 @@ new-user-subscribe-product-updates = Do të doja të merrja përditësime produk
 new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
 new-user-email-validate = Email-i s’është i vlefshëm
 new-user-email-validate-confirm = Email-et nuk përputhen
-new-user-existing-account-sign-in = Keni tashmë një llogari, <a>Hyni në të</a>
+new-user-already-has-account-sign-in = Keni tashmë një llogar. <a>Hyni</a>
+new-user-submit = Pajtohuni Tani

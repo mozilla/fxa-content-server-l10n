@@ -148,6 +148,12 @@ datablock-copy =
 datablock-print =
     .message = U shtyp
 
+## Data collection section
+
+dc-heading = Grumbullim dhe Përdorim të Dhënash
+dc-subheader = Ndihmoni të përmirësohet { -product-firefox-accounts }
+dc-learn-more = Mësoni më tepër
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
@@ -210,6 +216,7 @@ nav-settings = Rregullime
 nav-profile = Profil
 nav-security = Siguri
 nav-connected-services = Shërbime të Lidhura
+nav-data-collection = Grumbullim dhe Përdorim të Dhënash
 nav-paid-subs = Pajtime Me Pagesë
 nav-email-comm = Komunikime Me Email
 
@@ -335,6 +342,7 @@ recovery-key-success-alert = U krijua kyç rimarrjeje.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Hapi 1 nga 2
 add-secondary-email-error = Pati një problem me krijimin e këtij email-i.
 add-secondary-email-page-title =
     .title = Email dytësor
@@ -348,6 +356,7 @@ add-secondary-email-save-button = Ruaje
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Hapi 2 nga 2
 verify-secondary-email-error = Pati një problem me dërgimin e kodit të verifikimit.
 verify-secondary-email-page-title =
     .title = Email dytësor
@@ -429,6 +438,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Siguri
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Çaktivizojeni
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Aktivizojeni
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Po parashtrohet…
+switch-is-on = on
+switch-is-off = off
 
 ## Sub-section row Defaults
 
