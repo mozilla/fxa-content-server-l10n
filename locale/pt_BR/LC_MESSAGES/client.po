@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 13:13+0000\n"
+"PO-Revision-Date: 2021-11-05 13:18+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1149,7 +1149,7 @@ msgstr "Digite seu email"
 
 #: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Continuar para o <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1299,7 +1299,7 @@ msgstr "Sucesso"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use"
-msgstr ""
+msgstr "Agora está pronto para você usar"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1905,11 +1905,11 @@ msgstr "Sincronize seus favoritos, senhas e muito mais em todos os dispositivos.
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from accross the web."
-msgstr ""
+msgstr "Salve e descubra as melhores histórias da web."
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
@@ -1937,7 +1937,7 @@ msgstr "Uma VPN da confiável pioneira em privacidade na internet."
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Ver tudo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
