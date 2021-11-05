@@ -152,6 +152,9 @@ datablock-copy =
 datablock-print =
     .message = Utskriven
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-meny
@@ -440,6 +443,11 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Säkerhet
+
+## Switch component
+
+switch-is-on = på
+switch-is-off = av
 
 ## Sub-section row Defaults
 
