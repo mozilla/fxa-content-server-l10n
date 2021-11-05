@@ -150,6 +150,15 @@ datablock-copy =
 datablock-print =
     .message = Gedruckt
 
+## Data collection section
+
+dc-heading = Datenerfassung und -nutzung
+dc-subheader = Helfen Sie dabei, { -product-firefox-accounts } zu verbessern
+dc-subheader-content = Firefox { -product-firefox-accounts } erlauben, technische und Interaktionsdaten an { -brand-mozilla } zu senden.
+dc-opt-out-success = Widerspruch erfolgreich. { -product-firefox-accounts } sendet keine technischen oder Interaktionsdaten an { -brand-mozilla }.
+dc-opt-in-success = Vielen Dank! Die Weitergabe dieser Daten hilft uns, { -product-firefox-accounts } zu verbessern.
+dc-learn-more = Weitere Informationen
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-Menü
@@ -212,6 +221,7 @@ nav-settings = Einstellungen
 nav-profile = Profil
 nav-security = Sicherheit
 nav-connected-services = Verbundene Dienste
+nav-data-collection = Datenerfassung und -nutzung
 nav-paid-subs = Bezahlte Abonnements
 nav-email-comm = E-Mail-Kommunikation
 
@@ -434,6 +444,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sicherheit
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Deaktivieren
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Aktivieren
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Senden...
+switch-is-on = An
+switch-is-off = Aus
 
 ## Sub-section row Defaults
 
