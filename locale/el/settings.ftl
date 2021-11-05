@@ -171,6 +171,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Συλλογή και χρήση δεδομένων
 dc-learn-more = Μάθετε περισσότερα
 
 # DropDownAvatarMenu component
