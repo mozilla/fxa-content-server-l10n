@@ -479,4 +479,5 @@ new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
 new-user-already-has-account-sign-in = Maće hižo konto. <a>Přizjewić</a>
 new-user-card-title = Zapodajće swoje kartowe informacije
 new-user-submit = Nětko abonować
+manage-pocket-title = Pytaće za premiumowym abonementom { -brand-name-pocket }?
 manage-pocket-body = <a>Klikńće tu</a>, zo byšće rjadował.
