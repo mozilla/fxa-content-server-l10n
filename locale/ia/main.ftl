@@ -10,6 +10,11 @@ project-brand = Contos de Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Contos de Firefox
 
@@ -63,6 +68,7 @@ subscription-success-title = Confirmation del subscription
 subscription-processing-title = Confirmation del subscription…
 subscription-error-title = Error in confirmation de subscription…
 subscription-noplanchange-title = Iste cambiamento de plano de subscription non es supportate
+subscription-iapsubscribed-title = Jam abonate
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -253,6 +259,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxime factura le { $date }
+sub-expires-on = Expira le { $date }
 
 ##
 
@@ -294,6 +301,10 @@ sub-item-cancel-sub = Cancellar subscription
 sub-item-stay-sub = Resta abonate
 sub-item-cancel-msg = Tu non sera plus capace usar { $nomine } post { $periodo }, le ultime die de tu termino de facturation.
 sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate intra { $nomine } le { $periodo }
+
+## subscription iap item
+
+sub-iap-item-manage-button = Gerer
 account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
