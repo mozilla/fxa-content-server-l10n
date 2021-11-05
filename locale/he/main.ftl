@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = חנות { -brand-name-google } Play
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -26,6 +34,8 @@ payment-error-manage-subscription-button = ניהול המינוי שלי
 country-currency-mismatch = המטבע של מינוי זה אינו תקף למדינה המשויכת לתשלום שלך.
 currency-currency-mismatch = מצטערים. אין לך אפשרות לעבור בין מטבעות.
 no-subscription-change = מצטערים. אין לך אפשרות לשנות את תוכנית המינוי שלך.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = כבר קיים לך מינוי דרך { $mobileAppStore }.
 expired-card-error = נראה שפג תוקף הכרטיס אשראי שלך. נא לנסות כרטיס אחר.
 insufficient-funds-error = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 withdrawal-count-limit-exceeded-error = נראה שעסקה זו תחריג אותך מעבר למסגרת האשראי שלך. נא לנסות כרטיס אחר.
@@ -35,6 +45,8 @@ card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = שגיאת מערכת גרמה לכשל בהרשמה שלך ל־{ $productName }. אמצעי התשלום שלך לא חויב. נא לנסות שוב.
+newsletter-signup-error = לא נרשמת להודעות דוא״ל עבור עדכוני מוצר. באפשרותך לנסות שוב בהגדרות החשבון שלך.
 
 ## settings
 
@@ -49,6 +61,8 @@ terms-download = תנאי הורדה
 ## Subscription titles
 
 subscription-create-title = הגדרת המינוי שלך
+subscription-noplanchange-title = שינוי תוכנית המינוי הזה אינו נתמך
+subscription-iapsubscribed-title = כבר רשום כמינוי
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,7 +110,7 @@ product-no-such-plan = אין תוכנית כזו למוצר הזה.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
-payment-legal-link-stripe-space-paypal = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>
 payment-legal-copy-paypal = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
@@ -274,6 +288,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     בטלו את הגישה ואת המידע השמור שלי
     בתוך { $name } בתאריך { $period }
+
+## subscription iap item
+
 account-activated = החשבון שלך מופעל, <userEl/>
 
 ## subscription route index
