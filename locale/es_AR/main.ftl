@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Disculpá. No podés cambiar entre divisas.
 no-subscription-change = Lo sentimos. No se puede cambiar el plan de suscripción.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ya estás suscripto a través de { $mobileAppStore }.
 expired-card-error = Parece que la tarjeta de crédito ha expirado. Probá con otra tarjeta.
 insufficient-funds-error = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción sobrepasará el límite de crédito. Probá otra tarjeta.
@@ -71,6 +73,7 @@ subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando suscripción...
 subscription-error-title = Error al confirmar la suscripción…
 subscription-noplanchange-title = Este cambio de plan de suscripción no está soportado
+subscription-iapsubscribed-title = Ya suscripto
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -264,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-expires-on = Expira el { $date }
 
 ##
 
@@ -312,6 +316,7 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Administrar
 account-activated = La cuenta está activada, <userEl/>
 
 ## subscription route index
@@ -429,3 +434,5 @@ new-user-email-validate-confirm = Los correos electrónicos no coinciden
 new-user-already-has-account-sign-in = Ya tenés una cuenta. <a>Iniciar sesión</a>
 new-user-card-title = Ingresá la información de tu tarjeta
 new-user-submit = Suscribirse ahora
+manage-pocket-title = ¿Buscando una suscripción premium de { -brand-name-pocket }?
+manage-pocket-body = Para administrarlo, <a>hacé clic aquí</a>.
