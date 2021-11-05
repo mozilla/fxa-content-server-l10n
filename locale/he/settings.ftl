@@ -142,6 +142,15 @@ datablock-copy =
 datablock-print =
     .message = הודפס
 
+## Data collection section
+
+dc-heading = איסוף ושימוש בנתונים
+dc-subheader = עזרה בשיפור { -product-firefox-accounts }
+dc-subheader-content = לאפשר ל־{ -product-firefox-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
+dc-opt-out-success = ביטול ההצטרפות הצליח. { -product-firefox-accounts } לא ישלח נתונים טכניים אל { -brand-mozilla }.
+dc-opt-in-success = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-firefox-accounts }.
+dc-learn-more = מידע נוסף
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = תפריט { -product-firefox-account(case: "a") }
@@ -204,6 +213,7 @@ nav-settings = הגדרות
 nav-profile = פרופיל
 nav-security = אבטחה
 nav-connected-services = שירותים מחוברים
+nav-data-collection = איסוף ושימוש בנתונים
 nav-paid-subs = מינויים בתשלום
 nav-email-comm = תקשורת בדוא״ל
 
@@ -416,6 +426,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = אבטחה
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = כיבוי
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = הפעלה
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = מתבצעת שליחה…
+switch-is-on = פעיל
+switch-is-off = כבוי
 
 ## Sub-section row Defaults
 

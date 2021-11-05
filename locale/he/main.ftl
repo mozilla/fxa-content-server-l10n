@@ -282,6 +282,7 @@ sub-item-missing = בעיה בטעינת מינויים
 sub-item-missing-msg = נא לנסות שוב מאוחר יותר.
 sub-item-no-such-plan = אין תוכנית כזו למנוי הזה.
 sub-item-cancel-sub = ביטול מינוי
+sub-item-stay-sub = להישאר רשום כמינוי
 sub-item-cancel-msg =
     לא תהיה לך עוד אפשרות להשתמש ב־{ $name } אחרי
     { $period }, היום האחרון של מחזור החיוב שלך.
@@ -291,6 +292,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = ‏{ -brand-name-google }: רכישה מתוך היישומון
+sub-iap-item-apple-purchase = ‏{ -brand-name-apple }: רכישה מתוך היישומון
+sub-iap-item-manage-button = ניהול
 account-activated = החשבון שלך מופעל, <userEl/>
 
 ## subscription route index
@@ -313,7 +317,9 @@ sub-customer-error =
     .title = בעיה בטעינת לקוח
 sub-billing-update-success = פרטי החיוב שלך עודכנו בהצלחה
 sub-route-payment-modal-heading = פרטי חיוב שגויים
+sub-route-payment-modal-message = נראה שיש שגיאה בחשבון ה־{ -brand-name-paypal } שלך, אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
 sub-route-missing-billing-agreement-payment-alert = פרטי חיוב שגויים; אירעה שגיאה בחשבון שלך. <div>ניהול</div>
+sub-route-funding-source-payment-alert = פרטי תשלום לא חוקיים; יש שגיאה עם החשבון שלך. ייתכן שהתראה זו תופיע למשך זמן מה לאחר שהמידע שלך יעודכן בהצלחה. <div>ניהול</div>
 pay-update-manage-btn = ניהול
 
 ## subscription create
@@ -396,5 +402,8 @@ new-user-subscribe-product-updates = ברצוני לקבל עדכוני מוצר
 new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
 new-user-email-validate = כתובת הדוא״ל אינה תקינה
 new-user-email-validate-confirm = כתובות הדוא״ל אינן תואמות
+new-user-already-has-account-sign-in = כבר יש לך חשבון. <a>כניסה</a>
 new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 new-user-submit = הרשמה כמינוי כעת
+manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
+manage-pocket-body = כדי לנהל אותו, <a>יש ללחוץ כאן</a>.
