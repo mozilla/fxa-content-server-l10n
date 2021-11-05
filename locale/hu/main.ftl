@@ -10,6 +10,14 @@ project-brand = Firefox-fiókok
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Áruház
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox-fiókok
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Saját feliratkozások kezelése
 country-currency-mismatch = Az előfizetés pénzneme nem érvényes a fizetéséhez társított országban.
 currency-currency-mismatch = Sajnáljuk. Nem válthat a pénznemek között.
 no-subscription-change = Sajnáljuk. Nem módosíthatja az előfizetési csomagot.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Már előfizetett a(z) { $mobileAppStore } oldalon.
 expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
 insufficient-funds-error = Úgy tűnik, hogy a bankkártyáján kevés a fedezet. Próbálkozzon egy másik kártyával.
 withdrawal-count-limit-exceeded-error = Úgy tűnik, hogy ez a tranzakció túllép a hitelkeretén. Próbálkozzon egy másik kártyával.
@@ -63,6 +73,7 @@ subscription-success-title = Feliratkozás megerősítése
 subscription-processing-title = Feliratkozás megerősítése…
 subscription-error-title = Hiba a feliratkozás megerősítésekor…
 subscription-noplanchange-title = Az előfizetési csomag ezen módosítása nem támogatott
+subscription-iapsubscribed-title = Már előfizető
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Következő számlázás: { $date }
+sub-expires-on = Lejár: { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     A(z) { $name } szolgáltatás hozzáférésének lemondása,
     és az abban mentett adatok törlése ekkor: { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: alkalmazáson belüli vásárlás
+sub-iap-item-apple-purchase = { -brand-name-apple }: alkalmazáson belüli vásárlás
+sub-iap-item-manage-button = Kezelés
 account-activated = A fiókja aktiválva van, <userEl/>
 
 ## subscription route index
@@ -421,3 +439,5 @@ new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
 new-user-already-has-account-sign-in = Már van felhasználói fiókja. <a>Jelentkezzen be</a>
 new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
+manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
+manage-pocket-body = A kezeléséhez <a>kattintson ide</a>.

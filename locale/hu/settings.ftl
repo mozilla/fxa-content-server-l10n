@@ -150,6 +150,15 @@ datablock-copy =
 datablock-print =
     .message = Kinyomtatva
 
+## Data collection section
+
+dc-heading = Adatgyűjtés és -felhasználás
+dc-subheader = Segítsen a { -product-firefox-accounts } fejlesztésében
+dc-subheader-content = Engedélyezés, hogy a { -product-firefox-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
+dc-opt-out-success = Sikeres leiratkozás. A { -product-firefox-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
+dc-opt-in-success = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-firefox-accounts } fejlesztésében.
+dc-learn-more = További tudnivalók
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menü
@@ -212,6 +221,7 @@ nav-settings = Beállítások
 nav-profile = Profil
 nav-security = Biztonság
 nav-connected-services = Kapcsolódó szolgáltatások
+nav-data-collection = Adatgyűjtés és -felhasználás
 nav-paid-subs = Előfizetések
 nav-email-comm = E-mail kommunikáció
 
@@ -436,6 +446,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Biztonság
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Kikapcsolás
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Bekapcsolás
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Beküldés…
+switch-is-on = be
+switch-is-off = ki
 
 ## Sub-section row Defaults
 
