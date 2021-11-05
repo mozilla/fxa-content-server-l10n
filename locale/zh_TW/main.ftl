@@ -10,6 +10,14 @@ project-brand = Firefox 帳號
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox 帳號
 
@@ -63,6 +71,7 @@ subscription-success-title = 訂閱確認
 subscription-processing-title = 正在確認訂閱…
 subscription-error-title = 確認訂閱時發生錯誤…
 subscription-noplanchange-title = 不支援更改此訂閱方案
+subscription-iapsubscribed-title = 已經訂閱
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -253,6 +262,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下次收費時間: { $date }
+sub-expires-on = 於 { $date } 到期
 
 ##
 
@@ -291,6 +301,10 @@ sub-item-cancel-sub = 取消訂閱
 sub-item-stay-sub = 保持訂閱
 sub-item-cancel-msg = 在帳務週期最後一天（{ $period }）之後，將無法再使用 { $name }。
 sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用權限與儲存的所有資訊
+
+## subscription iap item
+
+sub-iap-item-manage-button = 管理
 account-activated = <userEl/>，已啟用您的帳號
 
 ## subscription route index
