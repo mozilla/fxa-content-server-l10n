@@ -10,6 +10,14 @@ project-brand = Contas Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Contas Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Gerenciar minha assinatura
 country-currency-mismatch = A moeda desta assinatura não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Desculpe, você não pode mudar para outra moeda.
 no-subscription-change = Desculpe, você não pode alterar seu plano de assinatura.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Você já assinou através da { $mobileAppStore }.
 expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá seu limite de crédito. Tente outro cartão.
@@ -293,6 +303,9 @@ sub-item-cancel-msg = Você não poderá mais usar o { $name } após { $period }
 sub-item-cancel-confirm =
     Cancele meu acesso e minhas informações salvas dentro do
     { $name } em { $period }
+
+## subscription iap item
+
 account-activated = Sua conta foi ativada, <userEl/>
 
 ## subscription route index
