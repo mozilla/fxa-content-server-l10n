@@ -472,6 +472,8 @@ switch-turn-off = Απενεργοποίηση
 switch-turn-on = Ενεργοποίηση
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = Υποβολή…
+switch-is-on = ενεργό
+switch-is-off = ανενεργό
 
 ## Sub-section row Defaults
 
