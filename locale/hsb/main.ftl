@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Abonement zrjadować
 country-currency-mismatch = Měna tutoho abonementa za kraj, kotryž je z wašim płaćenjom zwjazany, płaćiwa njeje.
 currency-currency-mismatch = Bohužel njemóžeće měny přeměnić.
 no-subscription-change = Bohužel njemóžeće swój abonementowy plan změnić.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Sće hižo přez { $mobileAppStore } abonował.
 expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
 insufficient-funds-error = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 withdrawal-count-limit-exceeded-error = Zda so, kaž byšće z tutej transakciju swój kartowy limit překročał. Spytajće druhu kartu.

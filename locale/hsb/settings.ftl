@@ -156,6 +156,7 @@ datablock-print =
 
 dc-heading = Zběranje a wužiwanje datow
 dc-subheader = Pomhajće { -product-firefox-accounts } polěpšić
+dc-subheader-content = { -product-firefox-accounts } dowolić, zo byšće techniske a interakciske datyna { -brand-mozilla } pósłał.
 dc-learn-more = Dalše informacije
 
 # DropDownAvatarMenu component
