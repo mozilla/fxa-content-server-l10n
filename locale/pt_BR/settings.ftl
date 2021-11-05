@@ -136,6 +136,12 @@ datablock-copy =
 datablock-print =
     .message = Impresso
 
+## Data collection section
+
+dc-heading = Coleta e uso de dados
+dc-subheader = Ajude a melhorar o { -product-firefox-accounts }
+dc-subheader-content = Permita que { -product-firefox-accounts } envie dados técnicos e de interação para a { -brand-mozilla }.
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu da { -product-firefox-account }
@@ -410,6 +416,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segurança
+
+## Switch component
+
 
 ## Sub-section row Defaults
 

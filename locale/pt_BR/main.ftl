@@ -73,6 +73,7 @@ subscription-success-title = Confirmação de assinatura
 subscription-processing-title = Confirmando assinatura...
 subscription-error-title = Erro ao confirmar assinatura...
 subscription-noplanchange-title = Esta mudança de plano de assinatura não é aceita
+subscription-iapsubscribed-title = Já tem assinatura
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -263,6 +264,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança em { $date }
+sub-expires-on = Expira em { $date }
 
 ##
 
@@ -306,6 +308,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Compra no aplicativo
+sub-iap-item-apple-purchase = { -brand-name-apple }: Compra no aplicativo
+sub-iap-item-manage-button = Gerenciar
 account-activated = Sua conta foi ativada, <userEl/>
 
 ## subscription route index
@@ -423,3 +428,5 @@ new-user-email-validate-confirm = Os emails não coincidem
 new-user-already-has-account-sign-in = Você já tem uma conta. <a>Entre</a>
 new-user-card-title = Digite as informações do seu cartão
 new-user-submit = Assinar agora
+manage-pocket-title = Procurando sua assinatura premium do { -brand-name-pocket }?
+manage-pocket-body = Para gerenciar, <a>clique aqui</a>.
