@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -63,6 +71,7 @@ subscription-success-title = Wobkrućenje abonementa
 subscription-processing-title = Abonement so wobkruća…
 subscription-error-title = Zmylk při wobkrućenju abonementa…
 subscription-noplanchange-title = Tuta změna abonementoweho plana so njepodpěruje
+subscription-iapsubscribed-title = Hižo abonowany
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -288,6 +297,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Přichodna zličbowanka: { $date }
+sub-expires-on = Spadnje { $date }
 
 ##
 
@@ -336,6 +346,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój přistup a moje w { $name }
     składowane informacije wotstronić
+
+## subscription iap item
+
 account-activated = Waše konto je zmóžnjene, <userEl/>
 
 ## subscription route index
