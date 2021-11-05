@@ -10,6 +10,14 @@ project-brand = Облікові записи Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Маркет
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Облікові записи Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Керувати передплато
 country-currency-mismatch = Валюта цієї передплати недійсна для країни, пов’язаної з вашим платежем.
 currency-currency-mismatch = Перепрошуємо. Ви не можете перемикатися між валютами.
 no-subscription-change = Перепрошуємо, але ви не можете змінити свій тарифний план.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ви вже оформили передплату через { $mobileAppStore }.
 expired-card-error = Схоже, строк дії вашої кредитної картки закінчився. Спробуйте скористатись іншою карткою.
 insufficient-funds-error = Схоже, на вашій картці недостатньо коштів. Спробуйте скористатись іншою карткою.
 withdrawal-count-limit-exceeded-error = Схоже, що після здійснення платежу буде перевищено кредитний ліміт. Спробуйте скористатись іншою карткою.
@@ -63,6 +73,7 @@ subscription-success-title = Підтвердження передплати
 subscription-processing-title = Підтвердження передплати...
 subscription-error-title = Помилка підтвердження передплати...
 subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
+subscription-iapsubscribed-title = Уже передплачено
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -272,6 +283,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступна оплата { $date }
+sub-expires-on = Чинний до { $date }
 
 ##
 
@@ -318,6 +330,12 @@ sub-item-cancel-msg =
     Ви більше не зможете користуватися { $name } після
     { $period }, останній день вашого платіжного циклу.
 sub-item-cancel-confirm = Скасувати мій доступ до { $name } разом зі збереженими даними { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Покупка в програмі
+sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в програмі
+sub-iap-item-manage-button = Керувати
 account-activated = Ваш обліковий запис активовано, <userEl/>
 
 ## subscription route index
@@ -439,3 +457,5 @@ new-user-email-validate-confirm = Адреси е-пошти відрізняю�
 new-user-already-has-account-sign-in = У вас вже є обліковий запис. <a>Увійти</a>
 new-user-card-title = Введіть дані своєї картки
 new-user-submit = Передплатити
+manage-pocket-title = Шукаєте свою передплату { -brand-name-pocket } преміум?
+manage-pocket-body = Щоб керувати нею, <a>натисніть тут</a>.

@@ -206,6 +206,15 @@ datablock-copy =
 datablock-print =
     .message = Надруковано
 
+## Data collection section
+
+dc-heading = Збір та використання даних
+dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts }
+dc-subheader-content = Дозволити { -product-firefox-accounts } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-opt-out-success = Скасування пройшло успішно. { -product-firefox-accounts } не надсилатиме технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts }.
+dc-learn-more = Докладніше
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Меню { -product-firefox-account }
@@ -268,6 +277,7 @@ nav-settings = Налаштування
 nav-profile = Профіль
 nav-security = Безпека
 nav-connected-services = Під'єднані служби
+nav-data-collection = Збір та використання даних
 nav-paid-subs = Передплати
 nav-email-comm = Зв’язок електронною поштою
 
@@ -494,6 +504,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Безпека
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Вимкнути
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Увімкнути
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Надсилання…
+switch-is-on = увімкнено
+switch-is-off = вимкнено
 
 ## Sub-section row Defaults
 
