@@ -349,6 +349,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Kup w nałoženju
+sub-iap-item-apple-purchase = { -brand-name-apple }: Kup w nałoženju
+sub-iap-item-manage-button = Rjadować
 account-activated = Waše konto je zmóžnjene, <userEl/>
 
 ## subscription route index
@@ -474,3 +477,4 @@ new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
 new-user-already-has-account-sign-in = Maće hižo konto. <a>Přizjewić</a>
 new-user-card-title = Zapodajće swoje kartowe informacije
 new-user-submit = Nětko abonować
+manage-pocket-body = <a>Klikńće tu</a>, zo byšće rjadował.

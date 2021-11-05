@@ -152,6 +152,12 @@ datablock-copy =
 datablock-print =
     .message = Ćišćane
 
+## Data collection section
+
+dc-heading = Zběranje a wužiwanje datow
+dc-subheader = Pomhajće { -product-firefox-accounts } polěpšić
+dc-learn-more = Dalše informacije
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Meni { -product-firefox-account }
@@ -214,6 +220,7 @@ nav-settings = Nastajenja
 nav-profile = Profil
 nav-security = Wěstota
 nav-connected-services = Zwjazane słužby
+nav-data-collection = Zběranje a wužiwanje datow
 nav-paid-subs = Zapłaćene abonementy
 nav-email-comm = E-mejlowa komunikacija
 
@@ -436,6 +443,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Wěstota
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Znjemóžnić
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Zmóžnić
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Sćele so…
+switch-is-on = zapinjeny
+switch-is-off = wupinjeny
 
 ## Sub-section row Defaults
 
