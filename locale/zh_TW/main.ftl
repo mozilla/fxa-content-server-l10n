@@ -304,6 +304,8 @@ sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用�
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }：應用程式內購買
+sub-iap-item-apple-purchase = { -brand-name-apple }：應用程式內購買
 sub-iap-item-manage-button = 管理
 account-activated = <userEl/>，已啟用您的帳號
 
