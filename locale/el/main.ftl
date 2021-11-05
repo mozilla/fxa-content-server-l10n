@@ -256,6 +256,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Επόμενη χρέωση στις { $date }
+sub-expires-on = Λήγει στις { $date }
 
 ##
 
@@ -304,6 +305,10 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Ακύρωση πρόσβασης και αποθηκευμένων πληροφοριών στο
     { $name } στις { $period }
+
+## subscription iap item
+
+sub-iap-item-manage-button = Διαχείριση
 account-activated = Ο λογαριασμός σας ενεργοποιήθηκε, <userEl/>
 
 ## subscription route index

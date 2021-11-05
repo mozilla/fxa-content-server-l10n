@@ -169,6 +169,10 @@ datablock-copy =
 datablock-print =
     .message = Έγινε εκτύπωση
 
+## Data collection section
+
+dc-learn-more = Μάθετε περισσότερα
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capitalization: "lower") }
@@ -231,6 +235,7 @@ nav-settings = Ρυθμίσεις
 nav-profile = Προφίλ
 nav-security = Ασφάλεια
 nav-connected-services = Συνδεδεμένες υπηρεσίες
+nav-data-collection = Συλλογή και χρήση δεδομένων
 nav-paid-subs = Συνδρομές επί πληρωμή
 nav-email-comm = Επικοινωνία μέσω email
 
@@ -457,6 +462,15 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Ασφάλεια
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Απενεργοποίηση
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Ενεργοποίηση
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Υποβολή…
 
 ## Sub-section row Defaults
 
