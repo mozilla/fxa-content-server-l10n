@@ -13,6 +13,9 @@ project-brand = Contos de Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
 brand-name-apple-app-store = App Store
 document =
@@ -35,6 +38,8 @@ payment-error-manage-subscription-button = Gerer mi subscription
 country-currency-mismatch = Le moneta de iste subscription non es valide pro le pais associate con tu pagamento.
 currency-currency-mismatch = Desolate. Tu non pote cambiar inter monetas.
 no-subscription-change = Desolate. Tu non pote cambiar tu plano de subscription.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Tu es jam subscribite per { $mobileAppStore }.
 expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
 insufficient-funds-error = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 withdrawal-count-limit-exceeded-error = Il pare que iste transaction te ponera ultra tu limite de credito. Prova un altere carta.
@@ -304,6 +309,8 @@ sub-item-cancel-confirm = Cancellar mi credentiales e mi informationes salvate i
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: compras In-App
+sub-iap-item-apple-purchase = { -brand-name-apple }: compras In-App
 sub-iap-item-manage-button = Gerer
 account-activated = Tu conto es activate, <userEl/>
 
@@ -422,3 +429,5 @@ new-user-email-validate-confirm = Emails discorde
 new-user-already-has-account-sign-in = Tu jam ha un conto. <a>Accede</a>
 new-user-card-title = Insere informationes de tu carta
 new-user-submit = Abona te ora
+manage-pocket-title = Recerca tu un abonamento premio pro tu { -brand-name-pocket }?
+manage-pocket-body = Pro gerer lo, <a>clicca hic</a>.
