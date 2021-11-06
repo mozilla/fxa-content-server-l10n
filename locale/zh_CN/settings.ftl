@@ -139,6 +139,10 @@ datablock-print =
 ## Data collection section
 
 dc-heading = 数据收集与使用
+dc-subheader = 帮助我们改进 { -product-firefox-accounts }
+dc-subheader-content = 允许 { -product-firefox-accounts }向 { -brand-mozilla } 发送技术与交互数据。
+dc-opt-out-success = 成功退出，{ -product-firefox-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
+dc-opt-in-success = 感谢！共享此数据可帮助我们改进 { -product-firefox-accounts }。
 dc-learn-more = 详细了解
 
 # DropDownAvatarMenu component
@@ -425,6 +429,8 @@ switch-turn-off = 关闭
 switch-turn-on = 开启
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = 正在提交…
+switch-is-on = 开启
+switch-is-off = 关闭
 
 ## Sub-section row Defaults
 

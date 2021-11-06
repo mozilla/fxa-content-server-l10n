@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = 管理我的订阅
 country-currency-mismatch = 您的付款方式所在的国家/地区，无此订阅可用的货币。
 currency-currency-mismatch = 抱歉，您不能切换货币。
 no-subscription-change = 抱歉，无法更改您的订阅方案。
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = 您已通过 { $mobileAppStore } 订阅。
 expired-card-error = 您的信用卡已过期，请改用其他卡。
 insufficient-funds-error = 您的卡余额不足，请改用其他卡。
 withdrawal-count-limit-exceeded-error = 此交易会超过您的卡可用额度，请改用其他卡。
@@ -71,6 +73,7 @@ subscription-success-title = 订阅确认
 subscription-processing-title = 正在确认订阅...
 subscription-error-title = 确认订阅时出现错误...
 subscription-noplanchange-title = 不支持更改此订阅方案
+subscription-iapsubscribed-title = 已经订阅
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -260,6 +263,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下个结算日在 { $date }
+sub-expires-on = 到期于 { $date }
 
 ##
 
