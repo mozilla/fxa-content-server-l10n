@@ -73,6 +73,7 @@ subscription-success-title = Επιβεβαίωση συνδρομής
 subscription-processing-title = Επιβεβαίωση συνδρομής...
 subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής...
 subscription-noplanchange-title = Δεν υποστηρίζεται αυτή η αλλαγή πακέτου συνδρομής
+subscription-iapsubscribed-title = Έχετε ήδη εγγραφεί
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
