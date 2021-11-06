@@ -316,6 +316,8 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Compras integradas
+sub-iap-item-apple-purchase = { -brand-name-apple }: Compras integradas
 sub-iap-item-manage-button = Administrar
 account-activated = La cuenta está activada, <userEl/>
 
