@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 21:24+0000\n"
+"PO-Revision-Date: 2021-11-06 08:13+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -344,7 +344,7 @@ msgstr "Fatura pasuese: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
-msgstr ""
+msgstr "S’mund të përdorni ende pajtimin tuaj"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
