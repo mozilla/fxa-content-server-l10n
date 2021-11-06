@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 07:32+0000\n"
+"PO-Revision-Date: 2021-11-05 07:29+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1905,11 +1905,11 @@ msgstr "Sekmelerinizi, yer imlerinizi ve daha fazlasını tüm cihazlarınızda 
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from accross the web."
-msgstr ""
+msgstr "Web’deki en iyi makaleleri kaydedin ve keşfedin."
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
@@ -1937,7 +1937,7 @@ msgstr "İnternette gizliliğin öncüsünden, güvenilir bir VPN hizmeti."
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Tümünü göster"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."

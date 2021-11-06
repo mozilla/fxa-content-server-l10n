@@ -144,6 +144,10 @@ datablock-copy =
 datablock-print =
     .message = Yazdırıldı
 
+## Data collection section
+
+dc-learn-more = Daha fazla bilgi al
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menüsü
@@ -418,6 +422,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Güvenlik
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Kapat
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Aç
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Gönderiliyor…
+switch-is-on = açık
+switch-is-off = kapalı
 
 ## Sub-section row Defaults
 
