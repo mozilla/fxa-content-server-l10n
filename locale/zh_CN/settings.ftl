@@ -136,6 +136,11 @@ datablock-copy =
 datablock-print =
     .message = 已打印
 
+## Data collection section
+
+dc-heading = 数据收集与使用
+dc-learn-more = 详细了解
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } 菜单
@@ -198,6 +203,7 @@ nav-settings = 设置
 nav-profile = 个人资料
 nav-security = 账户安全
 nav-connected-services = 关联服务
+nav-data-collection = 数据收集与使用
 nav-paid-subs = 付费订阅
 nav-email-comm = 新闻通讯
 
@@ -410,6 +416,15 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = 账户安全
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = 关闭
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = 开启
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = 正在提交…
 
 ## Sub-section row Defaults
 

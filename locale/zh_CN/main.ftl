@@ -10,6 +10,14 @@ project-brand = Firefox 账户
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play 商店
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox 账户
 
@@ -290,6 +298,12 @@ sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
 sub-item-cancel-msg = 在账单最后一天（{ $date }）之后，将无法继续使用 { $name }。
 sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问权限与保存的所有信息
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }：应用内购买
+sub-iap-item-apple-purchase = { -brand-name-apple }：应用内购买
+sub-iap-item-manage-button = 管理
 account-activated = 您的账户已激活，<userEl/>
 
 ## subscription route index
@@ -403,3 +417,5 @@ new-user-email-validate-confirm = 两次输入的邮箱地址不同
 new-user-already-has-account-sign-in = 您已有账户，<a>请登录</a>
 new-user-card-title = 输入您的卡片信息
 new-user-submit = 立即订阅
+manage-pocket-title = 在寻找您的 { -brand-name-pocket } Premium 订阅吗？
+manage-pocket-body = 若要管理，<a>请点击此处</a>。

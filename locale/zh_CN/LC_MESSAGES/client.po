@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-06 13:41+0000\n"
+"PO-Revision-Date: 2021-11-06 13:42+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1475,6 +1475,9 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"若继续，则代表您同意：<br />\n"
+"Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
+"Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1901,11 +1904,11 @@ msgstr "与您的所有设备同步标签页、书签、密码等等。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from accross the web."
-msgstr ""
+msgstr "保存并发现网络上的优质文章。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
@@ -1933,7 +1936,7 @@ msgstr "由互联网隐私先驱者推出的 VPN，值得信赖。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "查看全部"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
