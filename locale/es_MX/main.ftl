@@ -29,6 +29,7 @@ payment-error-retry-button = Intentar de nuevo
 payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre monedas.
+no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
 expired-card-error = Parece que tu tarjeta de crédito ha expirado. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción te pondrá por encima de tu límite de crédito. Prueba con otra tarjeta.
@@ -40,6 +41,9 @@ card-error = Tu transacción no pudo ser procesada. Verifica la información de 
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Un error del sistema ha provocado que tu registro de { $productName } fallara. No se ha cobrado nada a tu método de pago. Inténtalo de nuevo.
+newsletter-signup-error = No estás registrado para recibir correos de actualización de productos. Puedes volver a intentarlo en la configuración de tu cuenta.
+fxa-post-passwordless-sub-error = Se ha confirmado la suscripción, pero no se ha podido cargar la página de confirmación. Revisa tu correo electrónico para configurar tu cuenta.
 
 ## settings
 
@@ -58,6 +62,7 @@ subscription-create-title = Configurar tu suscripción
 subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando suscripción…
 subscription-error-title = Error al confirmar la suscripción…
+subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -101,8 +106,11 @@ product-no-such-plan = No existe ese plan para este producto
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } usa { -brand-name-stripe } y { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } política de privacidad</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }política de privacidad</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } usa { -brand-name-paypal } para el procesamiento seguro de pagos.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidad de { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } política de privacidad</stripePrivacyLink>
 
 ## payment form
 
@@ -296,6 +304,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar mi acceso y mi información guardada en
     { $name } el { $period }
+
+## subscription iap item
+
 account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
@@ -352,9 +363,11 @@ payment-confirmation-thanks-heading = ¡Gracias!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Se ha enviado un correo electrónico de confirmación a { $email } con detalles sobre cómo comenzar a usar { $product_name }.
+payment-confirmation-thanks-heading-account-exists = ¡Gracias, ahora revisa tu correo electrónico!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Recibirás un mensaje en { $email } con instrucciones para configurar tu cuenta, así como los detalles de tu pago.
 payment-confirmation-order-heading = Detalles del pedido
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Facturado a
@@ -392,11 +405,21 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
+new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
+new-user-step-2 = 2. Elige tu método de pago
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-required-payment-consent = Requerido
+new-user-email =
+    .label = Escribe tu correo electrónico
 new-user-confirm-email =
     .label = Confirma tu correo electrónico
 new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de productos de { -brand-name-firefox }
+new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
+new-user-email-validate = El correo electrónico no es válido
+new-user-email-validate-confirm = Las direcciones de correo electrónico no coinciden
+new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Iniciar sesión</a>
+new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
