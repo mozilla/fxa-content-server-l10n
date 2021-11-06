@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Διαχείριση συνδρομή
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
 currency-currency-mismatch = Λυπούμαστε, δεν μπορείτε να κάνετε εναλλαγή νομισμάτων.
 no-subscription-change = Λυπούμαστε. Δεν μπορείτε να αλλάξετε το πακέτο συνδρομής σας.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Έχετε ήδη εγγραφεί μέσω του { $mobileAppStore }.
 expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
 insufficient-funds-error = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 withdrawal-count-limit-exceeded-error = Φαίνεται πως αυτή η συναλλαγή θα υπερβεί το πιστωτικό σας όριο. Δοκιμάστε με μια άλλη κάρτα.
@@ -436,3 +438,5 @@ new-user-email-validate-confirm = Τα email δεν ταιριάζουν
 new-user-already-has-account-sign-in = Έχετε ήδη λογαριασμό. <a>Σύνδεση</a>
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 new-user-submit = Συνδρομή τώρα
+manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
+manage-pocket-body = Για διαχείριση, <a>κάντε κλικ εδώ</a>.
