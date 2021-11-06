@@ -10,6 +10,9 @@ project-brand = Cuentas de Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
 document =
     .title = Cuentas de Firefox
 
