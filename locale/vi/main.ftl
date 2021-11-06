@@ -10,6 +10,14 @@ project-brand = Tài khoản Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = Cửa hàng { -brand-name-google } Play
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Tài khoản Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Quản lý thuê bao của tôi
 country-currency-mismatch = Đơn vị tiền tệ của thuê bao này không hợp lệ cho quốc gia được liên kết với khoản thanh toán của bạn.
 currency-currency-mismatch = Xin lỗi. Bạn không thể chuyển đổi giữa các loại tiền tệ.
 no-subscription-change = Rất tiếc. Bạn không thể thay đổi gói thuê bao của mình.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Bạn đã đăng ký qua { $mobileAppStore }
 expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
 insufficient-funds-error = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 withdrawal-count-limit-exceeded-error = Có vẻ như đã vượt quá giới hạn tín dụng của bạn. Hãy thử một thẻ khác.
@@ -63,6 +73,7 @@ subscription-success-title = Xác nhận thuê bao
 subscription-processing-title = Đang xác nhận thuê bao...
 subscription-error-title = Lỗi khi xác nhận thuê bao...
 subscription-noplanchange-title = Thay đổi gói thuê bao này không được hỗ trợ
+subscription-iapsubscribed-title = Đã đăng ký
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -240,6 +251,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Thanh toán tiếp theo vào { $date }
+sub-expires-on = Hết hạn vào { $date }
 
 ##
 
@@ -288,6 +300,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Hủy quyền truy cập của tôi và thông tin đã lưu của tôi trong
     { $name } vào { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Mua hàng trong ứng dụng
+sub-iap-item-apple-purchase = { -brand-name-apple }: Mua hàng trong ứng dụng
+sub-iap-item-manage-button = Quản lý
 account-activated = Tài khoản của bạn đã được kích hoạt, <userEl/>
 
 ## subscription route index
@@ -401,3 +419,5 @@ new-user-email-validate-confirm = Email không khớp
 new-user-already-has-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>
 new-user-card-title = Nhập thông tin thẻ của bạn
 new-user-submit = Theo dõi ngay
+manage-pocket-title = Bạn đang tìm cách đăng ký { -brand-name-pocket } premium?
+manage-pocket-body = Để quản lý nó, hãy <a>nhấp vào đây</a>.

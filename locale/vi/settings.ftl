@@ -150,6 +150,15 @@ datablock-copy =
 datablock-print =
     .message = Đã in
 
+## Data collection section
+
+dc-heading = Thu thập và sử dụng dữ liệu
+dc-subheader = Giúp cải thiện { -product-firefox-accounts }
+dc-subheader-content = Cho phép { -product-firefox-accounts } gửi dữ liệu kỹ thuật và tương tác tới { -brand-mozilla }.
+dc-opt-out-success = Đã thoát thành công. { -product-firefox-accounts } sẽ không gửi dữ liệu kỹ thuật hoặc dữ liệu tương tác tới { -brand-mozilla }.
+dc-opt-in-success = Cảm ơn! Dữ liệu được chia sẻ này giúp chúng tôi cải thiện { -product-firefox-accounts }.
+dc-learn-more = Tìm hiểu thêm
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
@@ -212,6 +221,7 @@ nav-settings = Cài đặt
 nav-profile = Hồ sơ
 nav-security = Bảo mật
 nav-connected-services = Dịch vụ đã kết nối
+nav-data-collection = Thu thập và sử dụng dữ liệu
 nav-paid-subs = Thuê bao đã trả phí
 nav-email-comm = Truyền thông email
 
@@ -438,6 +448,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Bảo mật
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Tắt
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Bật
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Đang gửi…
+switch-is-on = bật
+switch-is-off = tắt
 
 ## Sub-section row Defaults
 
