@@ -447,6 +447,8 @@ security-heading = Seguridad
 
 ## Switch component
 
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Enviando…
 
 ## Sub-section row Defaults
 
