@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = 管理我的訂閱
 country-currency-mismatch = 您的付款方式所在的國家，無法使用此訂閱紀錄要使用的貨幣。
 currency-currency-mismatch = 很抱歉，不能切換貨幣。
 no-subscription-change = 很抱歉，無法更改您的訂閱方案。
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = 您已透過 { $mobileAppStore } 訂閱。
 expired-card-error = 您的信用卡已經過期，請改用其他卡片。
 insufficient-funds-error = 您的卡片額度不足，請改用其他卡片。
 withdrawal-count-limit-exceeded-error = 此交易會超過您的卡片可用額度，請改用其他卡片。
@@ -421,3 +423,5 @@ new-user-email-validate-confirm = 兩次輸入的電子郵件信箱不相符
 new-user-already-has-account-sign-in = 您已經註冊過帳號，<a>請登入</a>
 new-user-card-title = 輸入您的卡片資訊
 new-user-submit = 立刻訂閱
+manage-pocket-title = 在尋找您的 { -brand-name-pocket } Premium 訂閱嗎？
+manage-pocket-body = 若要管理，<a>請點擊此處</a>。

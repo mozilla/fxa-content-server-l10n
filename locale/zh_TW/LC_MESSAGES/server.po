@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 09:11+0000\n"
+"PO-Revision-Date: 2021-11-06 13:39+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -288,7 +288,7 @@ msgstr "需要重設密碼嗎？"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "請在一個小時內點擊下面的按鈕來建立新密碼。此請求來自下列裝置:"
+msgstr "請在一個小時內點擊下面的按鈕來建立新密碼。此請求來自下列裝置："
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
 msgid "Create new password"
@@ -346,12 +346,12 @@ msgstr "您暫時還不能使用您的訂閱項目"
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "幾天前，您註冊了 Firefox 帳號但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
@@ -767,7 +767,7 @@ msgstr "您會收到這封信，是因為 %(email)s 註冊了 Firefox 帳號，�
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "您會收到這封郵件，是因為 %(email)s 註冊了 Firefox 帳號"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."

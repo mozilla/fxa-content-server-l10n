@@ -139,6 +139,10 @@ datablock-print =
 ## Data collection section
 
 dc-heading = 資料收集與使用
+dc-subheader = 幫助我們改善 { -product-firefox-accounts }
+dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
+dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
+dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
 dc-learn-more = 了解更多
 
 # DropDownAvatarMenu component
