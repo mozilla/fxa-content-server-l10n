@@ -316,6 +316,8 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Αγορά εντός εφαρμογής
+sub-iap-item-apple-purchase = { -brand-name-apple }: Αγορά εντός εφαρμογής
 sub-iap-item-manage-button = Διαχείριση
 account-activated = Ο λογαριασμός σας ενεργοποιήθηκε, <userEl/>
 
