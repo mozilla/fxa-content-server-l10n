@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Administroni pajtimet e mia
 country-currency-mismatch = Monedha e këtij pajtimi s’është e vlefshme për vendin e përshoqëruar me pagesën tuaj.
 currency-currency-mismatch = Na ndjeni. S’mund të kaloni nga një monedhë në tjetër.
 no-subscription-change = Na ndjeni. S’mund të ndryshoni planin tuaj të pajtimit.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Jeni tashmë i pajtuar përmes { $mobileAppStore }.
 expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 insufficient-funds-error = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 withdrawal-count-limit-exceeded-error = Duket sikur ky transaksion do t’ju kalojë tej kufirit tuaj për kredit. Provoni një kartë tjetër.
@@ -49,6 +51,9 @@ card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Një gabim sistemi shkaktoi dështimin e regjistrimit tuaj për { $productName }. Nuk ju është faturuar gjë. Ju lutemi, riprovoni.
+newsletter-signup-error = S’jeni pajtuar për email-e përditësimesh produktesh. Mund të riprovoni që nga rregullimet e llogarisë tuaj.
+fxa-post-passwordless-sub-error = Pajtimi u ripohua, por faqja e ripohimit s’arriti të ngarkohej. Që të ujdisni llogarinë tuaj, ju lutemi, shihni te email-et tuaj.
 
 ## settings
 
@@ -59,6 +64,7 @@ settings-subscriptions-title = Pajtime
 
 terms = Kushte Shërbimi
 privacy = Shënim Mbi Privatësinë
+terms-download = Kushte Shkarkimi
 
 ## Subscription titles
 
@@ -67,6 +73,7 @@ subscription-success-title = Ripohim pajtimi
 subscription-processing-title = Po ripohohet pajtimi…
 subscription-error-title = Gabim në ripohim pajtimi…
 subscription-noplanchange-title = Ky ndryshim plani pajtimi nuk mbulohet
+subscription-iapsubscribed-title = I pajtuar tashmë
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -110,8 +117,11 @@ product-no-such-plan = S’ka plan të tillë për këtë produkt.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } për{ -brand-name-stripe }-in dhe { -brand-name-paypal }-in për përpunim të sigurt pagesash.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } rregulla privatësie policy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } rregulla privatësie</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } përdor { -brand-name-paypal } për përpunim të sigurt të pagesave.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } rregulla privatësie</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } rregulla privatësie</stripePrivacyLink>
 
 ## payment form
 
@@ -302,6 +312,8 @@ sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna t�
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Blerje që nga aplikacioni
+sub-iap-item-apple-purchase = { -brand-name-apple }: Blerje që nga aplikacioni
 sub-iap-item-manage-button = Administrojini
 account-activated = Llogaria juaj është aktivizuar, <userEl />
 
@@ -359,9 +371,11 @@ payment-confirmation-thanks-heading = Faleminderit!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = A confirmation email has been sent Te { $email } u dërgua një email ripohimi me udhëzime se si t’ia fillohet me { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Faleminderit, tani kontrolloni email-in tuaj!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Do të merrni një email te { $email }, me udhëzime për ujdisjen e llogarisë tuaj, si dhe me hollësitë e pagesës tuaj.
 payment-confirmation-order-heading = Hollësi porosie
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Faturuar për
@@ -416,4 +430,7 @@ new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të
 new-user-email-validate = Email-i s’është i vlefshëm
 new-user-email-validate-confirm = Email-et nuk përputhen
 new-user-already-has-account-sign-in = Keni tashmë një llogar. <a>Hyni</a>
+new-user-card-title = Jepni hollësitë e kartës tuaj
 new-user-submit = Pajtohuni Tani
+manage-pocket-title = Po shihni për pajtimin tuaj me pagesë në { -brand-name-pocket }?
+manage-pocket-body = Për ta administruar, <a>klikoni këtu</a>.
