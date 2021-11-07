@@ -15,6 +15,9 @@ payment-error-3b = Ha ocurrido un error inesperado mientras se procesaba tu pago
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre divisas.
 no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 
@@ -36,7 +39,6 @@ subscription-noplanchange-title = Este cambio del plan de suscripción no está 
 ## payment legal blurb
 
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
-payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad de { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -54,9 +56,6 @@ payment-legal-link-stripe-2 = Ver la <stripePrivacyLink>política de privacidad 
 
 
 ## subscription upgrade
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
@@ -94,6 +93,9 @@ sub-plan-price-week =
 ## $period (Date) - The last day of product access
 
 
+## subscription iap item
+
+
 ## subscription route index
 
 
@@ -105,9 +107,32 @@ sub-plan-price-week =
 
 ## payment-processing
 
+payment-processing-message = Por favor, espera mientras procesamos tu pago…
 
 ## payment confirmation
 
+payment-confirmation-thanks-heading = ¡Gracias!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
+payment-confirmation-details-heading-2 = Información de pago
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+
+## new user email form
+
+new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
+new-user-step-2 = 2. Elige tu método de pago
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Requerido
+new-user-confirm-email =
+    .label = Confirma tu correo electrónico
+new-user-subscribe-product-updates = Me gustaría recibir actualizaciones de productos de { -brand-name-firefox }

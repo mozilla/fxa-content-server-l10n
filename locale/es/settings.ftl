@@ -40,6 +40,7 @@ app-default-title = { -product-firefox-accounts }
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
+app-footer-terms-of-service = Términos del servicio
 
 ##
 
@@ -75,6 +76,7 @@ bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-suspicious = Sospechoso
 
 ##
 
@@ -91,6 +93,9 @@ datablock-copy =
     .message = Copiado
 datablock-print =
     .message = Impreso
+
+## Data collection section
+
 
 # DropDownAvatarMenu component
 
@@ -190,6 +195,9 @@ delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a
 
 
 ## Security section of Setting
+
+
+## Switch component
 
 
 ## Sub-section row Defaults
