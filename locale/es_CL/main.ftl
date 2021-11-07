@@ -439,3 +439,5 @@ new-user-email-validate-confirm = Los correos no coinciden
 new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Conéctate</a>
 new-user-card-title = Ingresa la información de tu tarjeta
 new-user-submit = Suscríbete ahora
+manage-pocket-title = ¿Buscas tu suscripción premium a { -brand-name-pocket }?
+manage-pocket-body = Para gestionarla, <a>haz clic aquí</a>.
