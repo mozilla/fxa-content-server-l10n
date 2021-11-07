@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -253,6 +261,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prossimo addebito il { $date }
+sub-expires-on = Scade il { $date }
 
 ##
 
@@ -297,6 +306,9 @@ sub-item-cancel-sub = Annulla abbonamento
 sub-item-stay-sub = Resta abbonato
 sub-item-cancel-msg = Non potrai più utilizzare { $name } dopo il { $period }, ultimo giorno del tuo ciclo di fatturazione.
 sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate in { $name } il { $period }
+
+## subscription iap item
+
 account-activated = Il tuo account è attivo, <userEl/>
 
 ## subscription route index
