@@ -309,6 +309,7 @@ sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate i
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Gestisci
 account-activated = Il tuo account è attivo, <userEl/>
 
 ## subscription route index
