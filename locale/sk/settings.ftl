@@ -217,6 +217,14 @@ datablock-copy =
 datablock-print =
     .message = Vytlačený
 
+## Data collection section
+
+dc-heading = Zbieranie údajov a ich použitie
+dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalization: "lower", case: "acc") }
+dc-subheader-content = Povoliť { -product-firefox-accounts(capitalizaion: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebude posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
+dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitalization: "lower") }
@@ -503,6 +511,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Bezpečnosť
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
