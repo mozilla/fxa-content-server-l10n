@@ -10,6 +10,14 @@ project-brand = Cuentas de Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Cuentas de Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Gestionar mi suscripción
 country-currency-mismatch = La divisa de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre divisas.
 no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ya tienes una suscripción a través de { $mobileAppStore }.
 expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción será mayor a tu cupo de crédito. Prueba con otra tarjeta.
@@ -63,6 +73,7 @@ subscription-success-title = Confirmación de suscripción
 subscription-processing-title = Confirmando suscripción…
 subscription-error-title = Error al confirmar la suscripción...
 subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
+subscription-iapsubscribed-title = Ya cuentas con una suscripción
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-expires-on = Expira el { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar mi acceso y mi información guardada dentro de
     { $name } el{ $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Compra desde la aplicación
+sub-iap-item-apple-purchase = { -brand-name-apple }: Compra desde la aplicación
+sub-iap-item-manage-button = Gestionar
 account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
