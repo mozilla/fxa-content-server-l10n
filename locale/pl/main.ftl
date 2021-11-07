@@ -299,7 +299,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Następna płatność: { $date }
-sub-expires-on = Wygasa { $date }
+sub-expires-on = Wygasa: { $date }
 
 ##
 
