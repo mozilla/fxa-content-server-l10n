@@ -154,6 +154,9 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Datainsamling och användning
+dc-subheader = Hjälp till att förbättra { -product-firefox-accounts }
+dc-subheader-content = Tillåt { -product-firefox-accounts } att skicka teknisk data och användningsdata till { -brand-mozilla }.
 
 # DropDownAvatarMenu component
 

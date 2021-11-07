@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Hantera min prenumeration
 country-currency-mismatch = Prenumerationens valuta är inte giltig för det land som är kopplat till din betalning.
 currency-currency-mismatch = Tyvärr. Du kan inte växla mellan valutor.
 no-subscription-change = Tyvärr. Du kan inte ändra din prenumerationsplan.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Du prenumererar redan via { $mobileAppStore }.
 expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
 insufficient-funds-error = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 withdrawal-count-limit-exceeded-error = Det ser ut som att denna transaktion överskred din kreditgräns. Prova ett annat kort.
@@ -71,6 +73,7 @@ subscription-success-title = Prenumerationsbekräftelse
 subscription-processing-title = Bekräftar prenumerationen...
 subscription-error-title = Fel vid bekräftelse av prenumeration...
 subscription-noplanchange-title = Ändringen av prenumerationsplanen stöds inte
+subscription-iapsubscribed-title = Har redan prenumererat
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -264,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
+sub-expires-on = Upphör { $date }
 
 ##
 
@@ -315,6 +319,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Köp i appen
+sub-iap-item-apple-purchase = { -brand-name-apple }: Köp i appen
+sub-iap-item-manage-button = Hantera
 account-activated = Ditt konto är aktiverat, <userEl/>
 
 ## subscription route index
@@ -432,3 +439,5 @@ new-user-email-validate-confirm = E-postadresserna matchar inte
 new-user-already-has-account-sign-in = Har du redan ett konto, <a>Logga in</a>
 new-user-card-title = Ange din kortinformation
 new-user-submit = Prenumerera nu
+manage-pocket-title = Letar du efter din premiumprenumeration på { -brand-name-pocket }?
+manage-pocket-body = För att hantera den, <a>klicka här</a>.
