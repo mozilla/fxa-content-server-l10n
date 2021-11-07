@@ -439,6 +439,7 @@ security-heading = Sicurezza
 switch-turn-off = Disattiva
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Attiva
+switch-is-off = disattivato
 
 ## Sub-section row Defaults
 
