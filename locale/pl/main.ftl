@@ -26,6 +26,14 @@ project-brand = Konta Firefoksa
     }
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = Sklep { -brand-name-google } Play
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Konta Firefoksa
 
@@ -46,6 +54,8 @@ payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
 country-currency-mismatch = Waluta tej subskrypcji nie jest prawidłowa w kraju powiązanym z płatnością.
 currency-currency-mismatch = Przepraszamy. Nie można zmieniać waluty.
 no-subscription-change = Przepraszamy. Nie można zmieniać planu subskrypcji.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Masz już subskrypcję przez { $mobileAppStore }.
 expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
 insufficient-funds-error = Wygląda na to, że karta ma niewystarczające środki. Spróbuj użyć innej karty.
 withdrawal-count-limit-exceeded-error = Wygląda na to, że ta transakcja spowoduje przekroczenie limitu kredytowego. Spróbuj użyć innej karty.
@@ -79,6 +89,7 @@ subscription-success-title = Potwierdzenie subskrypcji
 subscription-processing-title = Potwierdzanie subskrypcji…
 subscription-error-title = Błąd podczas potwierdzania subskrypcji…
 subscription-noplanchange-title = Ta zmiana planu subskrypcji nie jest obsługiwana
+subscription-iapsubscribed-title = Już subskrybowane
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -288,6 +299,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Następna płatność: { $date }
+sub-expires-on = Wygasa { $date }
 
 ##
 
@@ -335,6 +347,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Anuluj mój dostęp i moje zachowane informacje
     w { $name } w dniu { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: zakup w aplikacji
+sub-iap-item-apple-purchase = { -brand-name-apple }: zakup w aplikacji
+sub-iap-item-manage-button = Zarządzaj
 account-activated = Konto użytkownika <userEl/> zostało aktywowane
 
 ## subscription route index
@@ -456,3 +474,5 @@ new-user-email-validate-confirm = Adresy e-mail się nie zgadzają
 new-user-already-has-account-sign-in = Masz już konto. <a>Zaloguj się</a>
 new-user-card-title = Podaj informacje o karcie
 new-user-submit = Subskrybuj
+manage-pocket-title = Szukasz swojej subskrypcji premium { -brand-name-pocket }?
+manage-pocket-body = Aby ją zarządzać, <a>kliknij tutaj</a>.

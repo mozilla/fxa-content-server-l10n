@@ -232,6 +232,10 @@ datablock-copy =
 datablock-print =
     .message = Wydrukowano
 
+## Data collection section
+
+dc-heading = Zbieranie i wykorzystywanie danych
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account(case: "gen", capitalization: "lower") }
@@ -517,6 +521,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Bezpieczeństwo
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
