@@ -20,6 +20,14 @@ project-brand = Účet Firefox
     .gender = masculine
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = Obchod { -brand-name-google } Play
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Účet Firefox
 
@@ -36,6 +44,7 @@ payment-error-1 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skú
 payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
 payment-error-3b = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 payment-error-retry-button = Skúsiť znova
+payment-error-manage-subscription-button = Spravovať moje predplatné
 currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
 insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
@@ -46,6 +55,9 @@ duplicate-transaction = Zdá sa, že sme pred chvíľou prijali rovnakú platbu.
 coupon-expired = Zdá sa, že platnosť promo kódu skončila.
 card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, zadané údaje o svojej karte a skúste to znova.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-home = Domovská stránka účtu
@@ -55,9 +67,11 @@ settings-subscriptions-title = Predplatné
 
 terms = Podmienky používania služby
 privacy = Zásady ochrany súkromia
+terms-download = Stiahnuť podmienky
 
 ## Subscription titles
 
+subscription-create-title = Nastavte si predplatné
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -71,6 +85,8 @@ product-plan-not-found = Plán nebol nájdený
 
 ## payment legal blurb
 
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-link-stripe-3 = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink>
 
 ## payment form
 
@@ -113,10 +129,8 @@ input-error-is-required = Pole "{ $label }" je povinné
 
 ## subscription upgrade
 
+sub-update-payment-title = Informácie o platbe
 sub-update-card-exp = Koniec platnosti { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
@@ -162,6 +176,9 @@ sub-item-missing-msg = Skúste to znova neskôr.
 sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 sub-item-cancel-sub = Zrušiť predplatné
 sub-item-stay-sub = Ponechať predplatné
+
+## subscription iap item
+
 account-activated = Váš účet je aktivovaný, <userEl/>
 
 ## subscription route index
@@ -207,10 +224,18 @@ payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
 payment-confirmation-alert = Pre stiahnutie kliknite sem
 payment-confirmation-mobile-alert = Neotvorila sa aplikácia? <a>Kliknite sem</a>
 payment-confirmation-thanks-heading = Ďakujeme!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 payment-confirmation-billing-heading = Odberateľ
-payment-confirmation-details-heading = Podrobnosti o platbe
+payment-confirmation-details-heading-2 = Informácie o platbe
 payment-confirmation-amount = { $amount } za { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -257,4 +282,3 @@ new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -b
 new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
-new-user-existing-account-sign-in = Účet už máte. <a>Prihláste sa</a>
