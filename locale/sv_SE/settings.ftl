@@ -157,6 +157,8 @@ datablock-print =
 dc-heading = Datainsamling och användning
 dc-subheader = Hjälp till att förbättra { -product-firefox-accounts }
 dc-subheader-content = Tillåt { -product-firefox-accounts } att skicka teknisk data och användningsdata till { -brand-mozilla }.
+dc-opt-in-success = Tack! Att dela denna data hjälper oss att förbättra { -product-firefox-accounts }.
+dc-learn-more = Läs mer
 
 # DropDownAvatarMenu component
 
@@ -220,6 +222,7 @@ nav-settings = Inställningar
 nav-profile = Profil
 nav-security = Säkerhet
 nav-connected-services = Anslutna tjänster
+nav-data-collection = Datainsamling och användning
 nav-paid-subs = Betalda prenumerationer
 nav-email-comm = E-postkommunikation
 
@@ -449,6 +452,12 @@ security-heading = Säkerhet
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Stäng av
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Slå på
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Skickar in…
 switch-is-on = på
 switch-is-off = av
 
