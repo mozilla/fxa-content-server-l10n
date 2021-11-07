@@ -45,7 +45,9 @@ payment-error-2 = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obr�
 payment-error-3b = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 payment-error-retry-button = Skúsiť znova
 payment-error-manage-subscription-button = Spravovať moje predplatné
+country-currency-mismatch = Mena tohto predplatného nie je platná pre krajinu spojenú s vašou platbou.
 currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
+no-subscription-change = Ľutujeme, váš plán predplatného nemôžete zmeniť.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
 insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
 withdrawal-count-limit-exceeded-error = Zdá sa, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
@@ -57,6 +59,7 @@ card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, z
 
 ##  $productName (String) - The name of the subscribed product.
 
+newsletter-signup-error = Nie ste zaregistrovaný na odber e-mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
 
 ## settings
 
@@ -72,6 +75,7 @@ terms-download = Stiahnuť podmienky
 ## Subscription titles
 
 subscription-create-title = Nastavte si predplatné
+subscription-success-title = Potvrdenie predplatného
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -179,6 +183,7 @@ sub-item-stay-sub = Ponechať predplatné
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Spravovať
 account-activated = Váš účet je aktivovaný, <userEl/>
 
 ## subscription route index
@@ -200,6 +205,7 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problém pri načítaní zákazníka
 sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizované
+pay-update-manage-btn = Spravovať
 
 ## subscription create
 
@@ -229,6 +235,7 @@ payment-confirmation-thanks-heading = Ďakujeme!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e-mail!
 
 ## $email (string) - The user's email.
 
@@ -282,3 +289,4 @@ new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -b
 new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
+new-user-card-title = Zadajte informácie o svojej karte

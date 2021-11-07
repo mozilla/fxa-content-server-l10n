@@ -224,6 +224,7 @@ dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalizat
 dc-subheader-content = Povoliť { -product-firefox-accounts(capitalizaion: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebude posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
+dc-learn-more = Ďalšie informácie
 
 # DropDownAvatarMenu component
 
@@ -287,6 +288,7 @@ nav-settings = Nastavenia
 nav-profile = Profil
 nav-security = Bezpečnosť
 nav-connected-services = Pripojené služby
+nav-data-collection = Zbieranie údajov a ich použitie
 nav-paid-subs = Predplatné
 nav-email-comm = E-mailová komunikácia
 
@@ -514,6 +516,14 @@ security-heading = Bezpečnosť
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Vypnúť
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Zapnúť
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Odosiela sa…
+switch-is-on = zapnuté
+switch-is-off = vypnuté
 
 ## Sub-section row Defaults
 
