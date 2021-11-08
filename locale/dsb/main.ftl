@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Abonoment zastojaś
 country-currency-mismatch = Pjenjeze toś togo abonementa njejsu płaśiwe za kraj, kótaryž jo z wašym płaśenim zwězany.
 currency-currency-mismatch = Bóžko njamóžośo pjenjeze pśeměniś.
 no-subscription-change = Bóžko njamóžośo swój abonementowy plan změniś.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Sćo južo aboněrował pśez { $mobileAppStore }.
 expired-card-error = Zda se, ako by waša kreditna kórta spadnuła. Wopytajśo drugu kórrtu.
 insufficient-funds-error = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 withdrawal-count-limit-exceeded-error = Zda se, ako by wy z toś teju transakciju swój kórtowy limit pśekšocył. Wopytajśo drugu kórtu.
@@ -63,6 +73,7 @@ subscription-success-title = Wobkšuśenje abonementa
 subscription-processing-title = Abonement se wobkšuśijo…
 subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
 subscription-noplanchange-title = Toś ta změna abonementowego plana se njepódpěra
+subscription-iapsubscribed-title = Južo aboněrowany
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -288,6 +299,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Pśiduca zliceńka: { $date }
+sub-expires-on = Spadnjo { $date }
 
 ##
 
@@ -336,6 +348,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój pśistup a móje w { $name }
     skłaźone informacije wótwónoźeś
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Kup w nałoženju
+sub-iap-item-apple-purchase = { -brand-name-apple }: Kup w nałoženju
+sub-iap-item-manage-button = Zastojaś
 account-activated = Wašo konto jo zmóžnjone, <userEl/>
 
 ## subscription route index
@@ -461,3 +479,4 @@ new-user-email-validate-confirm = E-mailowej adresy njejstej jadnakej.
 new-user-already-has-account-sign-in = Maśo južo konto. <a>Pśizjawiś</a>
 new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
+manage-pocket-title = Pytaśo za premiumowym abonementom { -brand-name-pocket }?
