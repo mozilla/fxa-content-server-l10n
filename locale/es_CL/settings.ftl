@@ -155,6 +155,7 @@ datablock-print =
 dc-heading = Recolección de datos y uso
 dc-subheader = Ayuda a mejorar { -product-firefox-accounts }
 dc-subheader-content = Permite que { -product-firefox-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
+dc-opt-out-success = Salida exitosa. { -product-firefox-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success = ¡Gracias! Compartir estos datos nos ayuda a mejorar { -product-firefox-accounts }.
 dc-learn-more = Aprender más
 
