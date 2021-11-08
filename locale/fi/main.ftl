@@ -16,6 +16,9 @@ project-brand = Firefox-tilit
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
 document =
     .title = Firefox-tilit
 
@@ -67,6 +70,7 @@ subscription-success-title = Tilauksen vahvistus
 subscription-processing-title = Vahvistetaan tilausta...
 subscription-error-title = Virhe tilausta vahvistaessa...
 subscription-noplanchange-title = Tämä tilaustyypin vaihtaminen ei ole tuettu
+subscription-iapsubscribed-title = Tilattu jo aiemmin
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -230,6 +234,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Seuraava laskutus { $date }
+sub-expires-on = Vanhenee { $date }
 
 ##
 
@@ -261,6 +266,11 @@ sub-item-stay-sub = Jatka tilausta
 sub-item-cancel-msg =
     Käyttöoikeutesi tuotteeseen { $name } päättyy
     { $period }, joka on laskutusjakson viimeinen päivä.
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Sovelluksen sisäinen osto
+sub-iap-item-apple-purchase = { -brand-name-apple }: Sovelluksen sisäinen osto
 account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index

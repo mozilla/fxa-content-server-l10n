@@ -134,6 +134,11 @@ datablock-copy =
 datablock-print =
     .message = Tulostettu
 
+## Data collection section
+
+dc-heading = Tietojen keruu ja käyttö
+dc-learn-more = Lue lisää
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } -valikko
@@ -196,6 +201,7 @@ nav-settings = Asetukset
 nav-profile = Profiili
 nav-security = Turvallisuus
 nav-connected-services = Yhdistetyt palvelut
+nav-data-collection = Tietojen keruu ja käyttö
 nav-paid-subs = Maksetut tilaukset
 nav-email-comm = Sähköpostiviestintä
 
@@ -316,6 +322,7 @@ recovery-key-success-alert = Palautusavain luotu.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Vaihe 1/2
 add-secondary-email-error = Tämän sähköpostin luomisessa ilmeni ongelma.
 add-secondary-email-page-title =
     .title = Toissijainen sähköposti
@@ -329,6 +336,7 @@ add-secondary-email-save-button = Tallenna
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Vaihe 2/2
 verify-secondary-email-error = Vahvistuskoodin lähettämisessä ilmeni ongelma.
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
@@ -414,6 +422,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Turvallisuus
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Poista käytöstä
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Ota käyttöön
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Lähetetään…
+switch-is-on = päällä
+switch-is-off = pois
 
 ## Sub-section row Defaults
 
