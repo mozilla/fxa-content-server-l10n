@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 07:10+0000\n"
+"PO-Revision-Date: 2021-11-08 07:04+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -1050,7 +1050,7 @@ msgstr "Voer verificatiecode in"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to"
-msgstr ""
+msgstr "Doorgaan naar"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1149,7 +1149,7 @@ msgstr "Voer uw e-mailadres in"
 
 #: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Doorgaan naar <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1394,6 +1394,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Als u doorgaat, stemt u in met:<br />\n"
+"              De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
+"              De <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1481,6 +1486,11 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Als u doorgaat, Stemt u in met:<br />\n"
+"            De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Servicevoorwaarden</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyverklaring</a> van Pocket<br />\n"
+"            De <a id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Firefox\n"
+"          "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1911,7 +1921,7 @@ msgstr "Synchroniseer uw bladwijzers, wachtwoorden en meer op al uw apparaten."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from accross the web."
@@ -1943,7 +1953,7 @@ msgstr "Een VPN van de vertrouwde pionier op het gebied van internetprivacy."
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Alles bekijken"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
