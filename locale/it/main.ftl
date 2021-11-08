@@ -309,6 +309,8 @@ sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate i
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: acquisto in-app
+sub-iap-item-apple-purchase = { -brand-name-apple }: acquisto in-app
 sub-iap-item-manage-button = Gestisci
 account-activated = Il tuo account è attivo, <userEl/>
 
