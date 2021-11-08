@@ -222,6 +222,7 @@ nav-settings = Configuración
 nav-profile = Perfil
 nav-security = Seguridad
 nav-connected-services = Servicios conectados
+nav-data-collection = Recolección y uso de datos
 nav-paid-subs = Suscripciones pagas
 nav-email-comm = Comunicaciones por correo electrónico
 
@@ -447,8 +448,14 @@ security-heading = Seguridad
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Desactivar
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Activar
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = Enviando…
+switch-is-on = activado
+switch-is-off = desactivado
 
 ## Sub-section row Defaults
 
