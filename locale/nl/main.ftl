@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Mijn abonnement beheren
 country-currency-mismatch = De valuta van dit abonnement is niet geldig voor het land dat aan uw betaling is gekoppeld.
 currency-currency-mismatch = Sorry. U kunt niet tussen valuta wisselen.
 no-subscription-change = Sorry. U kunt uw abonnement niet wijzigen.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = U bent al geabonneerd via de { $mobileAppStore }.
 expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
 insufficient-funds-error = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 withdrawal-count-limit-exceeded-error = Het lijkt erop dat u met deze transactie uw kredietlimiet overschrijdt. Probeer een andere kaart.
@@ -63,6 +73,7 @@ subscription-success-title = Abonnementsbevestiging
 subscription-processing-title = Abonnement bevestigen…
 subscription-error-title = Fout bij bevestigen abonnement…
 subscription-noplanchange-title = Deze abonnementswijziging wordt niet ondersteund
+subscription-iapsubscribed-title = Al geabonneerd
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
+sub-expires-on = Vervalt op { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Mijn toegang tot en opgeslagen gegevens in { $name }
     op { $period } opzeggen
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: in-app-aankoop
+sub-iap-item-apple-purchase = { -brand-name-apple }: in-app-aankoop
+sub-iap-item-manage-button = Beheren
 account-activated = Uw account is geactiveerd, <userEl/>
 
 ## subscription route index
@@ -421,3 +439,5 @@ new-user-email-validate-confirm = E-mailadressen komen niet overeen
 new-user-already-has-account-sign-in = U hebt al een account. <a>Aanmelden</a>
 new-user-card-title = Voer uw kaartgegevens in
 new-user-submit = Nu abonneren
+manage-pocket-title = Op zoek naar uw abonnement op { -brand-name-pocket } premium?
+manage-pocket-body = <a>Klik hier</a> om het te beheren.

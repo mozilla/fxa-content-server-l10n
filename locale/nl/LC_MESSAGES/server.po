@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 07:11+0000\n"
+"PO-Revision-Date: 2021-11-05 07:13+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -366,7 +366,7 @@ msgstr "Een wachtwoord aanmaken:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Welkom bij Firefox!"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -784,7 +784,7 @@ msgstr "U ontvangt dit bericht omdat %(email)s een Firefox-account heeft en u be
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "U ontvangt dit e-mailbericht omdat %(email)s een Firefox-account heeft"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
@@ -888,11 +888,11 @@ msgstr "Laatste herinnering: activeer uw account"
 
 #: lib/senders/email.js:775
 msgid "Reminder: Finish setting up your account"
-msgstr ""
+msgstr "Herinnering: voltooi het instellen van uw account"
 
 #: lib/senders/email.js:777
 msgid "Final reminder: Setup your account"
-msgstr ""
+msgstr "Laatste herinnering: stel uw account in"
 
 #: lib/senders/email.js:817 lib/senders/email.js:2027
 msgid "Create a password"
