@@ -480,3 +480,4 @@ new-user-already-has-account-sign-in = Maśo južo konto. <a>Pśizjawiś</a>
 new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
 manage-pocket-title = Pytaśo za premiumowym abonementom { -brand-name-pocket }?
+manage-pocket-body = <a>Klikniśo how</a>, aby zastojał.
