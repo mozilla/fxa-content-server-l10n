@@ -10,6 +10,8 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
 document =
     .title = Firefox Accounts
 
@@ -304,6 +306,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Myn tagong ta en bewarre gegevens yn { $name }
     op { $period } opsizze
+
+## subscription iap item
+
 account-activated = Jo account is aktivearre, <userEl/>
 
 ## subscription route index
