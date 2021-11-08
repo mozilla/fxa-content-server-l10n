@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-05 02:41+0000\n"
+"PO-Revision-Date: 2021-11-08 03:18+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -360,7 +360,7 @@ msgstr "Todavía no podés acceder a tu suscripción"
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "Hace pocos días creaste una Cuenta de Firefox pero nunca la verificarse. Esperamos que terminés de configurar tu cuenta, así podés usar tu nueva suscripción."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
@@ -791,7 +791,7 @@ msgstr "Recibiste este correo electrónico porque % (email)s tiene una cuenta de
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Estás recibiendo este correo electrónico porque %(email)s tiene una Cuenta de Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
