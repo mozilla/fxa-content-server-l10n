@@ -152,6 +152,15 @@ datablock-copy =
 datablock-print =
     .message = Ofdrukt
 
+## Data collection section
+
+dc-heading = Gegevenssamling en gebrûk
+dc-subheader = Help { -product-firefox-accounts } te ferbetterjen
+dc-subheader-content = { -product-firefox-accounts } tastean om technyske en ynteraksjegegevens nei { -brand-mozilla } te ferstjoeren.
+dc-opt-out-success = Ofmelden suksesfol. { -product-firefox-accounts } stjoert gjin technyske of ynteraksjegegevens nei { -brand-mozilla }.
+dc-opt-in-success = Tank! Troch dizze gegevens te dielen helpe jo ús { -product-firefox-accounts } te ferbetterjen.
+dc-learn-more = Mear ynfo
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }menu
@@ -214,6 +223,7 @@ nav-settings = Ynstellingen
 nav-profile = Profyl
 nav-security = Befeiliging
 nav-connected-services = Ferbûne tsjinsten
+nav-data-collection = Gegevenssamling en gebrûk
 nav-paid-subs = Betelle abonneminten
 nav-email-comm = E-mailkommunikaasje
 
@@ -440,6 +450,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Befeiliging
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Utskeakelje
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Ynskeakelje
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Yntsjinje…
+switch-is-on = oan
+switch-is-off = út
 
 ## Sub-section row Defaults
 
