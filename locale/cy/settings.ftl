@@ -150,6 +150,15 @@ datablock-copy =
 datablock-print =
     .message = Argraffwyd
 
+## Data collection section
+
+dc-heading = Casglu a'r Defnydd o Ddata
+dc-subheader = Helpwch i wella { -product-firefox-accounts }
+dc-subheader-content = Caniatáu i { -product-firefox-accounts } anfon data technegol a rhyngweithio i { -brand-mozilla }.
+dc-opt-out-success = Eithrio'n llwyddiannus. Ni fydd { -product-firefox-accounts } yn anfon data technegol neu ryngweithio i { -brand-mozilla }.
+dc-opt-in-success = Diolch! Mae rhannu'r data hwn yn ein helpu i wella { -product-firefox-accounts }.
+dc-learn-more = Dysgu rhagor
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Dewislen { -product-firefox-account }
@@ -212,6 +221,7 @@ nav-settings = Gosodiadau
 nav-profile = Proffil
 nav-security = Diogelwch
 nav-connected-services = Gwasanaethau Cysylltiedig
+nav-data-collection = Casglu a'r Defnydd o Ddata
 nav-paid-subs = Tanysgrifiadau Taledig
 nav-email-comm = Cyfathrebu Trwy E-bost
 
@@ -438,6 +448,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Diogelwch
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Diffodd
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Cychwyn
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Yn cyflwyno...
+switch-is-on = ymlaen
+switch-is-off = i ffwrdd
 
 ## Sub-section row Defaults
 

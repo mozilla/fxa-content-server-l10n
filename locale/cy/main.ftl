@@ -10,6 +10,14 @@ project-brand = Cyfrifon Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Cyfrifon Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
 country-currency-mismatch = Nid yw arian cyfred y tanysgrifiad hwn yn ddilys ar gyfer y wlad sy'n gysylltiedig â'ch taliad.
 currency-currency-mismatch = Ymddiheuriadau. Nid oes modd i chi newid rhwng arian cyfred.
 no-subscription-change = Ymddiheuriadau. Nid oes modd i chi newid eich cynllun tanysgrifio.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Rydych eisoes wedi tanysgrifio trwy'r { $mobileAppStore }
 expired-card-error = Mae'n edrych fel bod eich cerdyn credyd wedi dod i ben. Rhowch gynnig ar gerdyn arall.
 insufficient-funds-error = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 withdrawal-count-limit-exceeded-error = Mae'n ymddangos y bydd y trafodyn hwn yn eich cymryd dros eich terfyn credyd. Rhowch gynnig ar gerdyn arall.
@@ -63,6 +73,7 @@ subscription-success-title = Cadarnhad o'ch tanysgrifiad
 subscription-processing-title = Yn cadarnhau eich tanysgrifiad...
 subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad...
 subscription-noplanchange-title = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
+subscription-iapsubscribed-title = Eisoes wedi tanysgrifio
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -320,6 +331,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
+sub-expires-on = Yn dod i ben ar: { $date }
 
 ##
 
@@ -368,6 +380,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Diddymwch fy mynediad a'm manylion sydd wedi'u 
     cadw o fewn { $name } ar { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Prynu o fewn yr ap
+sub-iap-item-apple-purchase = { -brand-name-apple }: Prynu o fewn yr ap
+sub-iap-item-manage-button = Rheoli
 account-activated = Mae eich cyfrif wedi'i agor, <userEl/>
 
 ## subscription route index
@@ -501,3 +519,5 @@ new-user-email-validate-confirm = Nid yw'r e-byst yn cyfateb
 new-user-already-has-account-sign-in = Mae gennych gyfrif eisoes. <a>Mewngofnodi</a>
 new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
+manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
+manage-pocket-body = I'w reoli, <a>cliciwch yma</a>.

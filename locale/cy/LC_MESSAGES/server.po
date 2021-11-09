@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-09 11:44+0000\n"
+"PO-Revision-Date: 2021-11-09 11:45+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -364,7 +364,7 @@ msgstr "Crëwch gyfrinair:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Croeso i Firefox"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -788,7 +788,7 @@ msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
@@ -892,11 +892,11 @@ msgstr "Nodyn atgoffa terfynol: Gweithredwch eich cyfrif"
 
 #: lib/senders/email.js:775
 msgid "Reminder: Finish setting up your account"
-msgstr ""
+msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
 
 #: lib/senders/email.js:777
 msgid "Final reminder: Setup your account"
-msgstr ""
+msgstr "Nodyn atgoffa terfynol: Crëwch eich cyfrif"
 
 #: lib/senders/email.js:817 lib/senders/email.js:2027
 msgid "Create a password"
