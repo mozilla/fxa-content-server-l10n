@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-07 10:13+0000\n"
-"Last-Translator: Nicole <nicolecosen@gmail.com>\n"
+"PO-Revision-Date: 2021-11-07 17:02+0000\n"
+"Last-Translator: Michele Rodaro <michele.rodaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1050,7 +1050,7 @@ msgstr "Inserisci il codice di verifica"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to"
-msgstr ""
+msgstr "Prosegui su"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1150,7 +1150,7 @@ msgstr "Inserisci l’indirizzo email"
 
 #: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Prosegui su <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1394,6 +1394,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+" Proseguendo confermi di accettare:<br />\n"
+" i <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Termini di servizio</a> e l’<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Informativa sulla privacy</a> di Pocket<br />\n"
+" i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di Servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> di Firefox\n"
+" "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1480,6 +1485,11 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+" Proseguendo confermi di accettare:<br />\n"
+" i <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Termini di servizio</a> e l’<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Informativa sulla privacy</a> di Pocket<br />\n"
+" i <a id=\"fxa-tos\" href=\"/legal/terms\">Termini di Servizio</a> e l’<a id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> di Firefox\n"
+" "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
