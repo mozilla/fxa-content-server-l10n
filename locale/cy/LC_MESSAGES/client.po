@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-09 11:34+0000\n"
+"PO-Revision-Date: 2021-11-09 11:42+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -1391,6 +1391,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+" Trwy barhau, rydych chi'n cytuno i: <br />\n"
+" <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth</a> ac <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu </a> <br />\n"
+"\n"
+" <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a id=\"fxa-tos\" href=\"/legal/terms\">Hysbysiad Preifatrwydd</a>Firefox."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1478,6 +1483,11 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+" Trwy barhau, rydych chi'n cytuno i: <br />\n"
+" <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth Pocket</a> ac <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Preifatrwydd </a> <br />\n"
+"\n"
+" <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> Firefox."
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1906,11 +1916,11 @@ msgstr "Cydweddwch eich nodau tudalen, cyfrineiriau a rhagor ar bob dyfais."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from accross the web."
-msgstr ""
+msgstr "Cadw a darganfod y straeon gorau o bob rhan o'r we."
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
@@ -1938,7 +1948,7 @@ msgstr "VPN gan arloeswr dibynadwy preifatrwydd ar y rhyngrwyd."
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Gweld y cyfan"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
