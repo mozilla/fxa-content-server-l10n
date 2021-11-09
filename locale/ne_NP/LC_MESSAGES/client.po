@@ -787,7 +787,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
-msgstr ""
+msgstr "कुनै पनि सन्देश छैनन्"
 
 #: .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
