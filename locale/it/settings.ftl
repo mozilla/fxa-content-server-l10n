@@ -439,6 +439,10 @@ security-heading = Sicurezza
 switch-turn-off = Disattiva
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Attiva
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Invio in corso…
+switch-is-on = attivo
+switch-is-off = disattivato
 
 ## Sub-section row Defaults
 

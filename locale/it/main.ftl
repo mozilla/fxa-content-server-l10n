@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Gestione abbonamento
 country-currency-mismatch = La valuta di questo abbonamento non è valida per il Paese associato alla tua modalità di pagamento.
 currency-currency-mismatch = Siamo spiacenti, non è possibile cambiare la valuta.
 no-subscription-change = Siamo spiacenti, non puoi modificare il tuo piano di abbonamento.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Sei già abbonato tramite { $mobileAppStore }.
 expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
 insufficient-funds-error = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 withdrawal-count-limit-exceeded-error = La transazione supera il limite di credito disponibile per questa carta. Prova con un’altra carta.
@@ -71,6 +73,7 @@ subscription-success-title = Conferma dell’abbonamento
 subscription-processing-title = Conferma abbonamento…
 subscription-error-title = Errore durante la conferma dell’abbonamento…
 subscription-noplanchange-title = Questa modifica al piano di abbonamento non è supportata
+subscription-iapsubscribed-title = Già abbonato
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -429,3 +432,5 @@ new-user-email-validate-confirm = Gli indirizzi email non corrispondono
 new-user-already-has-account-sign-in = Hai già un account. <a>Accedi</a>
 new-user-card-title = Inserisci le informazioni relative alla tua carta di credito
 new-user-submit = Abbonati adesso
+manage-pocket-title = Cerchi il tuo abbonamento premium a { -brand-name-pocket }?
+manage-pocket-body = Per gestirlo, <a>fai clic qui</a>.
