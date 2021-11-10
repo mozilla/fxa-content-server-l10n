@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Gérer mon abonnement
 country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
 currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
 no-subscription-change = Désolé. Vous ne pouvez pas modifier votre forfait d’abonnement.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Vous êtes déjà abonné·e via { $mobileAppStore }.
 expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
 insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
@@ -71,6 +73,7 @@ subscription-success-title = Confirmation d’abonnement
 subscription-processing-title = Confirmation de l’abonnement…
 subscription-error-title = Erreur lors de la confirmation de l’abonnement…
 subscription-noplanchange-title = Ce changement de forfait d’abonnement n’est pas pris en charge
+subscription-iapsubscribed-title = Déjà abonné·e
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
