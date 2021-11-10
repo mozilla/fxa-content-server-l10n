@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-10 18:48+0000\n"
+"PO-Revision-Date: 2021-11-10 13:52+0000\n"
 "Last-Translator: Yaya.Cout <yaya.cout@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -795,7 +795,7 @@ msgstr "Vous recevez ce message car %(email)s possède un compte Firefox et vous
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Vous recevez cet e-mail, car %(email)s possède un compte Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."

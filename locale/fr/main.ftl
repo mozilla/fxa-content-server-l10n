@@ -267,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prochaine facturation le { $date }
+sub-expires-on = Date d’expiration : { $date }
 
 ##
 
@@ -310,6 +311,7 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Gérer
 account-activated = Votre compte est activé, <userEl />
 
 ## subscription route index
@@ -427,3 +429,5 @@ new-user-email-validate-confirm = Les adresses électroniques ne correspondent p
 new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
 new-user-card-title = Saisissez les informations de votre carte
 new-user-submit = S’abonner maintenant
+manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
+manage-pocket-body = Pour le gérer, <a>cliquez ici</a>.
