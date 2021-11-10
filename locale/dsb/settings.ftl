@@ -157,6 +157,7 @@ datablock-print =
 dc-heading = Zběranje a wužywanje datow
 dc-subheader = Pomagajśo { -product-firefox-accounts } pólěpšyś
 dc-subheader-content = { -product-firefox-accounts } dowóliś, aby techniske a interakciske daty na { -brand-mozilla } pósłał.
+dc-opt-out-success = Wótzjawjenje wuspěšne. { -product-firefox-accounts } njebuźo techniske abo interakciske daty na { -brand-mozilla } słaś.
 dc-opt-in-success = Wjeliki źěk! Źělenje toś tych datow nam pomaga, { -product-firefox-accounts } pólěpšyś.
 dc-learn-more = Dalšne informacije
 
