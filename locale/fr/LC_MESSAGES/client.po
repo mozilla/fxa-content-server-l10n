@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-11-10 15:31+0000\n"
+"PO-Revision-Date: 2021-11-11 11:46+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1299,7 +1299,7 @@ msgstr "Succès"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use"
-msgstr ""
+msgstr "Vous êtes maintenant prêt·e à utiliser"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
