@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-04 22:07+0000\n"
+"POT-Creation-Date: 2021-11-11 22:07+0000\n"
 "PO-Revision-Date: 2021-03-13 00:22+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1048,8 +1048,8 @@ msgstr "Tipitz' pa ruwi' ri ximonel xtaq pa %(email)s ri ramaj wakami richin nat
 msgid "Enter verification code"
 msgstr "Titz'ib'äx rub'itz'ib' jikib'anem"
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to"
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
@@ -1146,10 +1146,6 @@ msgstr "¿La xmestäx ri ewan tzij?"
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Tatz'ib'aj ri ataqoya'l"
-
-#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1298,7 +1294,11 @@ msgid "Success"
 msgstr "Xojtikïr"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use"
+msgid ""
+"\n"
+"              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
+"              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"          "
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1448,6 +1448,14 @@ msgstr "Titz'ib'äx rub'itz'ib' ya'oj q'ij"
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Titz'uk jun Rub'i' Rutaqoya'l Firefox"
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid ""
+"\n"
+"                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
+"                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"            "
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
@@ -1909,7 +1917,7 @@ msgid "Pocket"
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from accross the web."
+msgid "Save and discover the best stories from across the web."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7

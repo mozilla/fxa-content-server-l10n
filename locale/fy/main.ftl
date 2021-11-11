@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Myn abonnemint beheare
 country-currency-mismatch = De faluta fan dit abonnemint is net jildich foar it lân dat oan jo betelling keppele is.
 currency-currency-mismatch = Sorry. Jo kinne net wikselje tusken faluta.
 no-subscription-change = Sorry. Jo kinne jo abonnemint net wizigje.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Jo binne al abonnearre fia de { $mobileAppStore }.
 expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probearje in oare kaart.
 insufficient-funds-error = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 withdrawal-count-limit-exceeded-error = It liket derop dat jo mei dizze transaksje oer jo kredytlimyt gean. Probearje in oare kaart.
@@ -63,6 +73,7 @@ subscription-success-title = Abonnemintsbefêstiging
 subscription-processing-title = Abonnemint befêstigje…
 subscription-error-title = Flater by befêstigjen abonnemint…
 subscription-noplanchange-title = Dizze abonnemintswiziging wurdt net stipe
+subscription-iapsubscribed-title = Al abonnearre
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Folgjende ynkasso op { $date }
+sub-expires-on = Ferrint op { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Myn tagong ta en bewarre gegevens yn { $name }
     op { $period } opsizze
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: yn-app-oankeap
+sub-iap-item-apple-purchase = { -brand-name-apple }: yn-app-oankeap
+sub-iap-item-manage-button = Beheare
 account-activated = Jo account is aktivearre, <userEl/>
 
 ## subscription route index
@@ -421,3 +439,5 @@ new-user-email-validate-confirm = E-mailadressen komme net oerien
 new-user-already-has-account-sign-in = Jo hawwe al in account. <a>Oanmelde</a>
 new-user-card-title = Fier jo kaartgegevens yn
 new-user-submit = No abonnearje
+manage-pocket-title = Op syk nei jo abonnemint op { -brand-name-pocket } premium?
+manage-pocket-body = <a>Klik hjir</a> om it te behearen.
