@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-09-01 09:32+0000\n"
+"POT-Creation-Date: 2021-11-11 22:07+0000\n"
+"PO-Revision-Date: 2021-11-08 12:37+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1053,9 +1053,9 @@ msgstr "Klik binnen in oer op de keppeling dy't nei %(email)s ferstjoerd is om i
 msgid "Enter verification code"
 msgstr "Fier ferifikaasjekoade yn"
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to"
-msgstr ""
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgstr "Trochgean nei <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1151,10 +1151,6 @@ msgstr "Wachtwurd ferjitten?"
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Fier jo e-mailadres yn"
-
-#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1303,7 +1299,11 @@ msgid "Success"
 msgstr "Slagge"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use"
+msgid ""
+"\n"
+"              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
+"              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"          "
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1398,6 +1398,12 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyferklearring</a> fan "
+"Pocket<br />\n"
+"              De <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1456,6 +1462,14 @@ msgstr "Autorisaasjekoade ynfiere"
 msgid "Create a Firefox Account"
 msgstr "In Firefox-account oanmeitsje"
 
+#: .es5/templates/sign_up_password.mustache:2
+msgid ""
+"\n"
+"                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
+"                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"            "
+msgstr ""
+
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "E-mailadres wizigje"
@@ -1484,6 +1498,12 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            As jo trochgean, Stimme jo yn mei:<br />\n"
+"            De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyferklearring</a> fan "
+"Pocket<br />\n"
+"            De <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox\n"
+"          "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1914,10 +1934,10 @@ msgstr "Syngronisearje jo blêdwizers, wachtwurden en mear op al jo apparaten."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from accross the web."
+msgid "Save and discover the best stories from across the web."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
@@ -1946,7 +1966,7 @@ msgstr "In VPN fan de fertroude pionier op it mêd fan ynternetprivacy."
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Alles besjen"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2043,6 +2063,12 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
+
+#~ msgid "Continue to"
+#~ msgstr "Trochgean nei"
+
+#~ msgid "Save and discover the best stories from accross the web."
+#~ msgstr "Bewarje en ûntdek de beste ferhalen fan oeral op ynternet."
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "

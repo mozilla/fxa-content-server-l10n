@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-04 22:07+0000\n"
-"PO-Revision-Date: 2021-08-25 08:21+0000\n"
+"POT-Creation-Date: 2021-11-11 22:07+0000\n"
+"PO-Revision-Date: 2021-11-07 21:40+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1051,9 +1051,9 @@ msgstr "Klicka på länken som skickats till %(email)s inom den kommande timmen 
 msgid "Enter verification code"
 msgstr "Ange verifieringskod"
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to"
-msgstr ""
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgstr "Fortsätt till <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1149,10 +1149,6 @@ msgstr "Glömt lösenordet?"
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
 msgstr "Ange din e-postadress"
-
-#: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1301,7 +1297,11 @@ msgid "Success"
 msgstr "Klart"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use"
+msgid ""
+"\n"
+"              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
+"              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"          "
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1396,6 +1396,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Genom att fortsätta godkänner du:<br />\n"
+"              Pockets <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">användarvillkor</a> och <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">sekretesspolicy</a><br />\n"
+"              Firefoxs <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkor</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a>\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1454,6 +1459,14 @@ msgstr "Ange behörighetskod"
 msgid "Create a Firefox Account"
 msgstr "Skapa ett Firefox-konto"
 
+#: .es5/templates/sign_up_password.mustache:2
+msgid ""
+"\n"
+"                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
+"                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"            "
+msgstr ""
+
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
 msgstr "Ändra e-postadress"
@@ -1482,6 +1495,11 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Genom att fortsätta godkänner du:<br />\n"
+"            Pockets <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">användarvillkor</a> och <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">sekretesspolicy</a><br />\n"
+"            Firefoxs <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkor</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a>\n"
+"          "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1908,10 +1926,10 @@ msgstr "Synkronisera dina bokmärken, lösenord och mer på alla enheter."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from accross the web."
+msgid "Save and discover the best stories from across the web."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
@@ -1940,7 +1958,7 @@ msgstr "Ett VPN från den pålitliga föregångaren inom integritet på internet
 
 #: .es5/templates/partial/firefox-family-services.mustache:13
 msgid "See all"
-msgstr ""
+msgstr "Visa alla"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2037,6 +2055,15 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Continue to"
+#~ msgstr "Fortsätt till"
+
+#~ msgid "You are now ready to use"
+#~ msgstr "Du är nu klar att använda"
+
+#~ msgid "Save and discover the best stories from accross the web."
+#~ msgstr "Spara och upptäck de bästa berättelserna från hela webben."
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
