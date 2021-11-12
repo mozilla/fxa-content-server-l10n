@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-11 22:07+0000\n"
-"PO-Revision-Date: 2021-11-12 16:21+0000\n"
+"PO-Revision-Date: 2021-11-12 16:28+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1302,8 +1302,9 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"<!-- L10N: Pocket image follows `You are now ready to use` -->\n"
-"             Móžeće nětko <div class=\"graphic graphic-client-pocket\">Pocket</div> wužiwać"
+"              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
+"              Móžeće nětko <div class=\"graphic graphic-client-pocket\">Pocket</div> wužiwać\n"
+"          "
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1462,6 +1463,10 @@ msgid ""
 "                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
 "            "
 msgstr ""
+"\n"
+"                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
+"                Dale k <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+"            "
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
@@ -1922,7 +1927,7 @@ msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "Składujće a namakajće najlěpše stawiznički z cyłeho weba."
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Firefox Lockwise"
