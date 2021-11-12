@@ -24,7 +24,24 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
--product-firefox-accounts = Λογαριασμοί Firefox
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Λογαριασμοί Firefox
+                [lower] λογαριασμοί Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Λογαριασμών Firefox
+                [lower] λογαριασμών Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Λογαριασμούς Firefox
+                [lower] λογαριασμούς Firefox
+            }
+    }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -56,12 +73,12 @@ product-firefox-monitor = Firefox Monitor
 
 ##  Application page title and footer
 
-app-default-title = { -product-firefox-accounts }
+app-default-title = { -product-firefox-accounts(case: "nom", capitalization: "upper") }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
+app-page-title = { $title } | { -product-firefox-accounts(case: "nom", capitalization: "upper") }
 app-footer-mozilla-logo-label = Λογότυπο { -brand-mozilla }
 app-footer-privacy-notice = Σημείωση απορρήτου ιστοτόπου
 app-footer-terms-of-service = Όροι υπηρεσίας
@@ -172,6 +189,8 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Συλλογή και χρήση δεδομένων
+dc-subheader = Βοηθήστε στη βελτίωση των { -product-firefox-accounts(case: "gen", capitalization: "upper") }
+dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
 dc-learn-more = Μάθετε περισσότερα
 
 # DropDownAvatarMenu component
@@ -204,7 +223,7 @@ header-menu-open = Κλείσιμο μενού
 header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
-header-title = { -product-firefox-accounts }
+header-title = Λογαριασμός Firefox
 header-help = Βοήθεια
 
 ## Input Password
