@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-11 22:07+0000\n"
-"PO-Revision-Date: 2021-11-09 03:40+0000\n"
+"PO-Revision-Date: 2021-11-13 04:32+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -26,11 +26,11 @@ msgstr "पासवर्ड रिसेट सफलतापूर्वक 
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 #: .es5/templates/sign_in_password.mustache:7
 msgid "Sign in"
-msgstr "साइन इन"
+msgstr "साइन इन गर्नुहोस्"
 
 #: .es5/views/index.js:174
 msgid "Account deleted successfully"
-msgstr "सफलतापूर्वक खाता मेटियो"
+msgstr "सफलतापूर्वक खाता हटाइयो"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -42,11 +42,11 @@ msgstr "%(permissionName)s (जरुरी)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "इ - मेल ठेगाना"
+msgstr "इमेल ठेगाना"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
-msgstr "प्रदर्शनी नाम"
+msgstr "प्रदर्शन नाम"
 
 #: .es5/views/permissions.js:52
 msgid "Account picture"
@@ -58,7 +58,7 @@ msgstr "पुनः स्वागत छ"
 
 #: .es5/views/ready.js:59
 msgid "Firefox Sync will resume momentarily"
-msgstr "फायरफक्स समक्रमण क्षणमा पुनः सुरु हुनेछ"
+msgstr "Firefox सिङ्क केहि क्षणमा पुनः सुचारु हुनेछ"
 
 #: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
@@ -66,23 +66,23 @@ msgstr "तपाईको पासवर्ड रिसेट गरिएक
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "तपाईंको अन्य फायरफक्स यन्त्रहरूमा नयाँ पासवर्ड हालेर सेट अप पूरा गर्नुहोस् ।"
+msgstr "तपाईंको अन्य Firefox यन्त्रहरूमा नयाँ पासवर्ड हालेर सेट अप पूरा गर्नुहोस् ।"
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "तपाईं अब तपाईंको फायरफक्स खातामा परिवर्तन गर्न तयार हुनुहुन्छ ।"
+msgstr "तपाईं अब तपाईंको Firefox खातामा परिवर्तन गर्न तयार हुनुहुन्छ ।"
 
 #: .es5/views/ready.js:74
 msgid "Primary email verified"
-msgstr "प्राथमिक ईमेल प्रमाणित भयो"
+msgstr "प्राथमिक इमेल प्रमाणित भयो"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "खाताको सुचनाहरु अब %(secondaryEmailVerfied)s मा पनि पठाईनेछ।"
+msgstr "खाताको सुचनाहरु अब %(secondaryEmailVerfied)s मा पनि पठाइनेछ।"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr "माध्यमिक ईमेल प्रमाणित गरियो"
+msgstr "माध्यमिक इमेल प्रमाणित गरियो"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -838,9 +838,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -910,8 +908,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -2044,7 +2041,9 @@ msgstr ""
 #~ msgstr "यस बारेमा सुन्न हामी क्षमा प्रार्थी छौं। तपाईंले आफ्नो फायरफक्स खाता पासवर्ड परिवर्तन गर्नुपर्दछ, र तपाईंको डाटा निर्माताबाट जानकारीलाई टाढाको डाटा मेटाउनको लागि खोज्नुहोस् ।"
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू परिवर्तन गर्नुपर्छ।"
+#~ msgstr ""
+#~ "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू"
+#~ " परिवर्तन गर्नुपर्छ।"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "पछिल्लो सक्रियता %(translatedTimeAgo)s"
