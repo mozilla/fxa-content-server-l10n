@@ -182,6 +182,7 @@ datablock-print =
 dc-heading = Zbiranje in uporaba podatkov
 dc-subheader = Pomagajte izboljšati { -product-firefox-accounts(sklon: "tožilnik") }
 dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
+dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
 dc-opt-in-success = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-firefox-accounts(sklon: "tožilnik") }.
 dc-learn-more = Več o tem
 
