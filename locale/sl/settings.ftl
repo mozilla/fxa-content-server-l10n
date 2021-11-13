@@ -157,6 +157,11 @@ cs-disconnect-sync-opt-not-say = raje ne bi povedal
 
 cs-disconnect-advice-confirm = Razumem
 cs-disconnect-lost-advice-heading = Povezava z izgubljeno/ukradeno napravo je prekinjena
+cs-disconnect-lost-advice-content-2 =
+    Ker je bila vaša naprava izgubljena oziroma ukradena, morate
+    zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") } v
+    nastavitvah računa. Prav tako pri proizvajalcu naprave preverite, ali
+    obstaja možnost izbrisa podatkov na daljavo.
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
 cs-disconnect-suspicious-advice-content =
     Če je naprava, ki ste jo odklopili, res sumljiva,
