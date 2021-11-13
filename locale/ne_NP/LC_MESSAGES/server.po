@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-11 22:07+0000\n"
-"PO-Revision-Date: 2021-11-02 03:25+0000\n"
+"PO-Revision-Date: 2021-11-13 04:53+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -93,7 +93,7 @@ msgstr "उत्तम,"
 
 #: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
 msgid "The Firefox Accounts team"
-msgstr "फायरफक्स खाता टोली"
+msgstr "Firefox खाता टोली"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -105,7 +105,7 @@ msgstr "पासवर्ड सफलतापूर्वक परिवर�
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "तपाईंको फायरफक्स खाताको पासवर्ड सफलतापूर्वक निम्न उपकरणबाट परिवर्तन भयो:"
+msgstr "तपाईंको Firefox खाताको पासवर्ड सफलतापूर्वक निम्न उपकरणबाट परिवर्तन भयो:"
 
 #: lib/senders/templates/passwordChanged.txt:3
 msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr "नयाँ प्राथमिक ईमेल"
+msgstr "नयाँ प्राथमिक इमेल"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -231,7 +231,7 @@ msgstr ""
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
 msgid "Secondary email removed"
-msgstr "माध्यमिक ईमेल हटाइयो"
+msgstr "माध्यमिक इमेल हटाइयो"
 
 #: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
 msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
@@ -275,7 +275,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
 msgid "Secondary email added"
-msgstr "माध्यमिक ईमेल थपियो"
+msgstr "माध्यमिक इमेल थपियो"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -754,7 +754,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
 msgid "Mozilla Privacy Policy"
-msgstr "मोजिल्ला गोपनीयता नीति"
+msgstr "Mozilla गोपनीयता नीति"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
 msgid "Firefox Cloud Terms of Service"
@@ -1032,7 +1032,7 @@ msgstr ""
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "फायरफक्स खाताहरू"
+msgstr "Firefox खाताहरू"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -1078,7 +1078,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "फायरफक्स खातालाई जाभास्क्रिप्टको आवश्यकता पर्दछ।"
+msgstr "Firefox खातालाई JavaScript को आवश्यकता पर्दछ।"
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"

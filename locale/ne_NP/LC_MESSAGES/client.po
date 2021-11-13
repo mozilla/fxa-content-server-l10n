@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-11 22:07+0000\n"
-"PO-Revision-Date: 2021-11-13 04:42+0000\n"
+"PO-Revision-Date: 2021-11-13 04:47+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -535,7 +535,7 @@ msgstr "प्रणाली उपलब्ध छैन, एकैछिन �
 
 #: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
-msgstr "यो एन्ढपोइन्ट अब समर्थित छैन"
+msgstr "यो एन्डपोइन्ट अब समर्थित छैन"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
@@ -771,7 +771,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
-msgstr "अनुमति नभएको"
+msgstr "अनाधिकृत"
 
 #: .es5/lib/oauth-errors.js:74
 msgid "Forbidden"
