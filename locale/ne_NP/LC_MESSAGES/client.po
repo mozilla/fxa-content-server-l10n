@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-11 22:07+0000\n"
-"PO-Revision-Date: 2021-11-13 04:32+0000\n"
+"PO-Revision-Date: 2021-11-13 04:42+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -86,7 +86,7 @@ msgstr "माध्यमिक इमेल प्रमाणित गरि
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr "साइन-इन पुष्टिकरण"
+msgstr "साइन-इन पुष्टिकरण भयो"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
@@ -106,11 +106,11 @@ msgstr "अज्ञात खाता। <a href=\"/signup\">साइन अ�
 
 #: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
-msgstr "खाताको अब अस्तित्व छैन। फेरी बनउनुहुन्छ ? "
+msgstr "खाताको अब अस्तित्व छैन। फेरी बनाउनुहुन्छ ?"
 
 #: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr "अरू"
+msgstr "अन्य"
 
 #: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -122,7 +122,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr "तपाइँको sync डाटा सुरक्षित छ"
+msgstr "तपाइँको सिङ्क डाटा सुरक्षित छ"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
@@ -226,7 +226,7 @@ msgstr "भुक्तानी र बिलिङ्ग"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr "खाता सम्बन्धी मुद्दाहरू"
+msgstr "खाता सम्बन्धी समस्याहरु"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
@@ -242,7 +242,7 @@ msgstr "सूचीबद्ध छैन"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
-msgstr "पुस्तकचिनोहरू"
+msgstr "बुकमार्कहरु"
 
 #: .es5/models/sync-engines.js:62
 msgid "History"
@@ -254,7 +254,7 @@ msgstr "लगइनहरू र पासवर्डहरू"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
-msgstr "एडअनहरू"
+msgstr "एड-अनहरू"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
@@ -278,15 +278,15 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "मुख्य इमेल सफलतापूर्वक प्रमाणित भयो"
+msgstr "प्राथमिक इमेल सफलतापूर्वक प्रमाणित भयो"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "दोस्रो इमेल सफलतापूर्वक प्रमाणिकरण गरियो"
+msgstr "माध्यमिक इमेल सफलतापूर्वक प्रमाणिकरण गरियो"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
+msgstr "पासवर्ड सफलतापूर्वक रिसेट भयो"
 
 #: .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
@@ -294,11 +294,11 @@ msgstr "खाता रिकभरी सक्षम गरियो"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
-msgstr "अनपेक्षित त्रुटि"
+msgstr "अनापेक्षित त्रुटि"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr "इमेल प्रमाणिकरण गर्न क्लिक गर्नुभएको लिङ्कको म्याद सकिएको छ ।"
+msgstr "तपाईंको इमेल प्रमाणिकरण गर्न क्लिक गर्नुभएको लिङ्कको म्याद सकिएको छ ।"
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -330,7 +330,7 @@ msgstr "अज्ञात खाता"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr "गलत ईमेल मामला"
+msgstr "गलत इमेल मामला"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
