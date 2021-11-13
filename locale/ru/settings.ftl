@@ -161,6 +161,10 @@ datablock-copy =
 datablock-print =
     .message = Распечатаны
 
+## Data collection section
+
+dc-learn-more = Подробнее
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Меню { -product-firefox-account }
@@ -223,6 +227,7 @@ nav-settings = Настройки
 nav-profile = Профиль
 nav-security = Безопасность
 nav-connected-services = Подсоединённые устройства
+nav-data-collection = Сбор и использование данных
 nav-paid-subs = Платные подписки
 nav-email-comm = Почтовые рассылки
 
@@ -349,6 +354,7 @@ recovery-key-success-alert = Ключ восстановления создан.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Шаг 1 из 2
 add-secondary-email-error = При добавлении этого адреса электронной почты произошла ошибка.
 add-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
@@ -362,6 +368,7 @@ add-secondary-email-save-button = Сохранить
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Шаг 2 из 2
 verify-secondary-email-error = При отправке кода подтверждения произошла ошибка.
 verify-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
@@ -447,6 +454,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Безопасность
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Отключить
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Включить
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Отправка…
+switch-is-on = включено
+switch-is-off = выключено
 
 ## Sub-section row Defaults
 
@@ -547,8 +565,10 @@ auth-error-110 = Некорректный токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Вы сделали слишком много попыток. Попробуйте снова через { $retryAfter }.
 auth-error-138 = Неподтверждённая сессия
 auth-error-155 = TOTP-токен не найден
