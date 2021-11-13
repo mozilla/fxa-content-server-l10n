@@ -441,6 +441,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Shranite te kode za enkratno uporabo na varno mesto za primere,
     ko nimate mobilne naprave.
+tfa-enter-code-to-confirm =
+    Sedaj vnesite eno od kod za obnovitev, da potrdite,
+    da ste jih shranili. Kodo boste potrebovali, da ohranite dostop do računa,
+    v kolikor boste izgubili svojo napravo.
 tfa-enter-recovery-code =
     .label = Vnesite kodo za obnovitev
 
@@ -503,6 +507,9 @@ rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
 rk-cannot-verify-session-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 rk-remove-modal-heading = Odstrani obnovitveni ključ?
+rk-remove-modal-content =
+    V primeru, da ponastavite geslo, obnovitvenega ključa
+    ne boste mogli uporabiti za dostop do podatkov. Tega dejanja ne morete razveljaviti.
 rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
 rk-remove-error = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 
