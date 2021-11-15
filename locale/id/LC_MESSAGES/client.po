@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 22:07+0000\n"
+"POT-Creation-Date: 2021-11-15 20:11+0000\n"
 "PO-Revision-Date: 2020-06-22 20:54+0000\n"
 "Last-Translator: romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1049,7 +1049,7 @@ msgstr "Klik tautan yang dikirimkan ke %(email)s dalam satu jam ke depan untuk m
 msgid "Enter verification code"
 msgstr "Masukkan kode verifikasi"
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
+#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 msgstr ""
 
@@ -1295,11 +1295,7 @@ msgid "Success"
 msgstr "Sukses"
 
 #: .es5/templates/ready.mustache:4
-msgid ""
-"\n"
-"              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
-"              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-"          "
+msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1449,14 +1445,6 @@ msgstr "Masukkan kode autentikasi"
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Buat Firefox Account"
-
-#: .es5/templates/sign_up_password.mustache:2
-msgid ""
-"\n"
-"                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
-"                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-"            "
-msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
