@@ -440,3 +440,4 @@ new-user-already-has-account-sign-in = Já tem uma conta. <a>Inicie sessão</a>
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
 manage-pocket-title = A procurar pela sua subscrição premium do { -brand-name-pocket }?
+manage-pocket-body = Para gerir, <a>clique aqui</a>.
