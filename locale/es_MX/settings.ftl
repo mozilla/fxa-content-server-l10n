@@ -154,6 +154,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Recopilación y uso de datos
 dc-opt-in-success = ¡Gracias! compartir estos datos ayudan a mejorar { -product-firefox-accounts }.
 dc-learn-more = Saber más
 
