@@ -166,6 +166,15 @@ datablock-copy =
 datablock-print =
     .message = ამოიბეჭდა
 
+## Data collection section
+
+dc-heading = მონაცემთა აღრიცხვა და გამოყენება
+dc-subheader = დაგვეხმარეთ, გავაუმჯობესოთ { -product-firefox-accounts }
+dc-subheader-content = ნების დართვა, რომ { -product-firefox-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს, ტექნიკური და გამოყენების მონაცემები.
+dc-opt-out-success = უარი მიღებულია. { -product-firefox-accounts } არ გაუგზავნის { -brand-mozilla }-ს, ტექნიკურ და გამოყენების მონაცემებს.
+dc-opt-in-success = გმადლობთ! ამ მონაცემების გაზიარება, მეტად დაგვეხმარება, რომ განვავითაროთ { -product-firefox-accounts }
+dc-learn-more = ვრცლად
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
@@ -228,6 +237,7 @@ nav-settings = პარამეტრები
 nav-profile = პროფილი
 nav-security = უსაფრთხოება
 nav-connected-services = დაკავშირებული მომსახურებები
+nav-data-collection = მონაცემთა აღრიცხვა და გამოყენება
 nav-paid-subs = ფასიანი გამოწერები
 nav-email-comm = ელფოსტით კავშირები
 
@@ -454,6 +464,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = უსაფრთხოება
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = გამორთვა
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = ჩართვა
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = იგზავნება…
+switch-is-on = ჩართ.
+switch-is-off = გამორთ.
 
 ## Sub-section row Defaults
 

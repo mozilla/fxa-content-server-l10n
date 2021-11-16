@@ -10,6 +10,14 @@ project-brand = Firefox-ანგარიშები
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox ანგარიშები
 
@@ -63,6 +71,7 @@ subscription-success-title = გამოწერის დადასტუ�
 subscription-processing-title = გამოწერა მოწმდება...
 subscription-error-title = შეცდომა, გამოწერის დადასტურებისას...
 subscription-noplanchange-title = გამოწერის გეგმის ცვლილება არაა მხარდაჭერილი
+subscription-iapsubscribed-title = უკვე გამოწერილია
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +265,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = მომდევნო ანგარიშსწორება { $date }
+sub-expires-on = ბოლო ვადაა { $date }
 
 ##
 
@@ -304,6 +314,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     გაუქმდეს წვდომა და მონაცემები, მომსახურებასთან
     { $name } თარიღზე { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: აპის შიდა შენაძენი
+sub-iap-item-apple-purchase = { -brand-name-apple }: აპის შიდა შენაძენი
+sub-iap-item-manage-button = მართვა
 account-activated = თქვენი ანგარიში ამოქმედებულია, <userEl/>
 
 ## subscription route index
