@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-13 04:47+0000\n"
+"PO-Revision-Date: 2021-11-16 06:31+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -34,7 +34,7 @@ msgstr "सफलतापूर्वक खाता हटाइयो"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "यो कोड %(code)s समर्थित एपहरूमा दुई-चरण प्रमाणीकरण सेटअप गर्न प्रयोग गर्नुहोस्।"
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -114,11 +114,11 @@ msgstr "अन्य"
 
 #: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "<b>%(escapedLowercaseTopic)s</b> को बारेमा Mozilla समर्थनमा पुग्नु भएकोमा धन्यवाद। हामी तपाईंलाई सकेसम्म छिटो इमेल मार्फत सम्पर्क गर्नेछौं।"
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "<b>%(escapedSelectedProduct)s</b> को लागि <b>%(escapedLowercaseTopic)s</b> को बारेमा Mozilla समर्थनमा सम्पर्क गर्नुभएकोमा धन्यवाद। हामी तपाईंलाई सकेसम्म चाँडो इमेल मार्फत सम्पर्क गर्नेछौं।"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -838,9 +838,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -910,8 +908,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -2032,7 +2029,9 @@ msgstr ""
 #~ msgstr "यस बारेमा सुन्न हामी क्षमा प्रार्थी छौं। तपाईंले आफ्नो फायरफक्स खाता पासवर्ड परिवर्तन गर्नुपर्दछ, र तपाईंको डाटा निर्माताबाट जानकारीलाई टाढाको डाटा मेटाउनको लागि खोज्नुहोस् ।"
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू परिवर्तन गर्नुपर्छ।"
+#~ msgstr ""
+#~ "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू"
+#~ " परिवर्तन गर्नुपर्छ।"
 
 #~ msgid "Last active %(translatedTimeAgo)s"
 #~ msgstr "पछिल्लो सक्रियता %(translatedTimeAgo)s"
