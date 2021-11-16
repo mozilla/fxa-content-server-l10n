@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-16 06:31+0000\n"
+"PO-Revision-Date: 2021-11-16 06:42+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne_NP\n"
@@ -126,7 +126,7 @@ msgstr "तपाइँको सिङ्क डाटा सुरक्षि
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "यदि तपाईंले आफ्नो खातामा पहुँच गुमाउनुभयो भने, तपाईं आफ्नो सिङ्क डाटा पुनर्स्थापना गर्न सक्षम हुनुहुनेछ।"
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -134,15 +134,15 @@ msgstr "ब्राउजिङ्ग सुरु गर्नुहोस्"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "खाता सूचनाहरू अब %(secondaryEmail)s मा पनि पठाइनेछ।"
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "%(serviceName)s मा जारी राख्नुहोस्"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "तपाईको खाता सुरक्षा कारणहरुले लक गरिएको छ"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
@@ -150,11 +150,11 @@ msgstr "पासवर्ड परिवर्तन गर्नुहोस�
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
-msgstr ""
+msgstr "केही पनि होइन"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "अन्तिम पटक जाँच गरिएको: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -362,15 +362,15 @@ msgstr "अमान्य अनुरोध हस्ताक्षर"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr ""
+msgstr "सामग्री-लम्बाइ शीर्षक छुटेको छ"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
-msgstr ""
+msgstr "अनुरोध गरिएको भाग धेरै ठुलो छ"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "यो अनुरोधलाई सुरक्षा कारणहरुले रोकिएको थियो"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
@@ -394,47 +394,47 @@ msgstr "तपाईको इमेल भर्खरै फिर्ता �
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "तपाईको इमेल भर्खरै फिर्ता भयो। गलत टाइप गरिएको इमेल थियो र ?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "इमेल डेलिभर गर्न सकिएन"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "यो इमेल पहिलानै अर्को प्रयोगकर्ताद्वारा प्रमाणित गरिएको थियो"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "अप्रमाणित सत्र"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "माध्यमिक इमेल तपाईंको खाताको इमेल भन्दा फरक हुनुपर्छ"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "तपाईं अधिकतम अनुमति प्राप्त माध्यमिक इमेलहरूको सङ्ख्यामा पुग्नुभएको छ"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "यो इमेल तपाईंको खातामा पहिलानै अवस्थित छ"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "साइन-इनको लागि प्राथमिक खाताको इमेल आवश्यक छ"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
-msgstr ""
+msgstr "अर्को खाताद्वारा प्रयोग गरिएको ठेगाना"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "रिसेट गर्नका लागि प्राथमिक खाता इमेल आवश्यक छ"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
-msgstr ""
+msgstr "अमान्य साइन इन कोड"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
