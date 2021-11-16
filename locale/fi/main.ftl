@@ -51,6 +51,7 @@ card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yrit�
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error-2 = Järjestelmävirhe aiheutti { $productName } -rekisteröitymisen epäonnistumisen. Maksutapaasi ei ole veloitettu. Yritä uudelleen.
+newsletter-signup-error = Et ole tilannut tuotepäivityksiin liittyviä sähköposteja. Voit yrittää uudelleen tilisi asetuksista.
 fxa-post-passwordless-sub-error = Tilaus on vahvistettu, mutta vahvistussivun lataaminen epäonnistui. Tarkista sähköpostistasi ohjeet, kuinka määrität tilin valmiiksi.
 
 ## settings
@@ -330,6 +331,7 @@ payment-confirmation-thanks-heading-account-exists = Kiitos, tarkista nyt sähk�
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Saat sähköpostin osoitteeseen { $email }. Viesti sisältää ohjeet tilin luomiseen ja maksutiedot.
 payment-confirmation-order-heading = Tilauksen tiedot
 payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 payment-confirmation-billing-heading = Laskutettu
@@ -386,3 +388,5 @@ new-user-email-validate-confirm = Sähköpostiosoitteet eivät täsmää
 new-user-already-has-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään</a>
 new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
+manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?
+manage-pocket-body = Hallinnoi sitä <a>napsauttamalla tästä</a>.
