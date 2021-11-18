@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-18 11:06+0000\n"
+"PO-Revision-Date: 2021-11-18 11:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -22,7 +22,7 @@ msgstr "Dit is jo omtinken om apparaten te syngronisearjen."
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
-"Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke "
+"Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke "
 "itselde."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
@@ -31,7 +31,7 @@ msgstr "Lêste omtinken om apparaten te syngronisearjen!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke itselde."
+msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke itselde."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Meld jo opnij oan op ien fan de apparaten of services wêr't jo jo Firefox-account brûke en folgje de presintearre stappen."
+msgstr "Meld jo opnij oan op ien fan de apparaten of services wêr’t jo jo Firefox-account brûke en folgje de presintearre stappen."
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -641,11 +641,11 @@ msgstr "Aktivearje de Firefox-produktfamylje"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox, te begjinnen mei:"
+msgstr "Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út Firefox, te begjinnen mei:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox."
+msgstr "Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út Firefox."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"

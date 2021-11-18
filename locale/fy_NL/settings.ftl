@@ -543,7 +543,7 @@ tfa-row-cannot-refresh =
     yn twa stappen.
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
-    unike koade wêr't allinnich jo tagong ta hawwe te easkjen.
+    unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
 tfa-row-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje

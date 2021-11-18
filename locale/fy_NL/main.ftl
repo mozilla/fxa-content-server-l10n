@@ -106,7 +106,7 @@ year-based-plan-details-amount =
 ## Product route
 
 product-plan-error =
-    .title = Probleem by it laden fan de skema's
+    .title = Probleem by it laden fan de skema’s
 product-profile-error =
     .title = Probleem by it laden fan it profyl
 product-customer-error =
