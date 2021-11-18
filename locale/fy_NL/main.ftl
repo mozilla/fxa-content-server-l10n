@@ -377,7 +377,7 @@ payment-confirmation-thanks-heading = Tige tank!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
-payment-confirmation-thanks-subheading = Der is in befêstigingsberjocht ferstjoerd nei { $email } mei details oer hoe't jo oan de slach kinne mei { $product_name }.
+payment-confirmation-thanks-subheading = Der is in befêstigingsberjocht ferstjoerd nei { $email } mei details oer hoe’t jo oan de slach kinne mei { $product_name }.
 payment-confirmation-thanks-heading-account-exists = Tige tank, kontrolearje no jo e-mail!
 
 ## $email (string) - The user's email.
