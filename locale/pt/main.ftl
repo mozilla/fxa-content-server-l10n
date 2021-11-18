@@ -10,6 +10,14 @@ project-brand = Contas do Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = Play Store da { -brand-name-google }
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Contas do Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Gerir a minha subscrição
 country-currency-mismatch = A moeda desta subscrição não é válida para o país associado ao seu pagamento.
 currency-currency-mismatch = Pedimos desculpa. Não pode alternar entre moedas.
 no-subscription-change = Lamentamos mas não pode alterar o seu plano de subscrição.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Já está subscrito através da { $mobileAppStore }.
 expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
 insufficient-funds-error = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 withdrawal-count-limit-exceeded-error = Parece que esta transação excederá o seu limite de crédito. Tente outro cartão.
@@ -63,6 +73,7 @@ subscription-success-title = Confirmação de subscrição
 subscription-processing-title = A confirmar a subscrição...
 subscription-error-title = Erro ao confirmar a subscrição...
 subscription-noplanchange-title = Esta alteração do plano de subscrição não é suportada
+subscription-iapsubscribed-title = Já está subscrito
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima cobrança a { $date }
+sub-expires-on = Expira a { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar o meu acesso e a minha informação guardada em
     { $name } em { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Compra na aplicação
+sub-iap-item-apple-purchase = { -brand-name-apple }: Compra na aplicação
+sub-iap-item-manage-button = Gerir
 account-activated = A sua conta está ativada, <userEl/>
 
 ## subscription route index
@@ -405,6 +423,10 @@ payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 new-user-sign-in-link = Já tem uma conta { -brand-name-firefox }? <a>Inicie sessão</a>
 new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
 new-user-step-2 = 2. Escolha o seu método de pagamento
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Necessário
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Introduza o seu e-mail
@@ -417,3 +439,5 @@ new-user-email-validate-confirm = Os e-mails não coincidem
 new-user-already-has-account-sign-in = Já tem uma conta. <a>Inicie sessão</a>
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
+manage-pocket-title = A procurar pela sua subscrição premium do { -brand-name-pocket }?
+manage-pocket-body = Para gerir, <a>clique aqui</a>.

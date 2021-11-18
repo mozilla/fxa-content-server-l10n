@@ -479,7 +479,7 @@ row-defaults-status = None
 
 rk-header = Recovery key
 rk-enabled = Enabled
-rk-not-set = Not set
+rk-not-set = Not Set
 rk-action-create = Create
 rk-action-remove = Remove
 rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
@@ -535,7 +535,7 @@ se-content-note = Note: a secondary email won’t restore your information — y
 tfa-row-header = Two-step authentication
 tfa-row-disabled = Two-step authentication disabled.
 tfa-row-enabled = Enabled
-tfa-row-not-set = Not set
+tfa-row-not-set = Not Set
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
 
@@ -561,6 +561,7 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
+auth-error-105 = Invalid verification code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:

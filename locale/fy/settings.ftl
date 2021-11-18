@@ -65,7 +65,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
-bento-menu-firefox-title = { -brand-firefox } is technology dy't stridet foar jo online privacy.
+bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar jo online privacy.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -136,7 +136,7 @@ cs-disconnect-suspicious-advice-heading = Fertocht apparaat ûntkeppele
 cs-disconnect-suspicious-advice-content =
     As it ûntkeppele apparaat yndie
     fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-firefox-account }
-    wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy't
+    wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t
     jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
 
@@ -213,7 +213,7 @@ mvs-enter-verification-code = Fier jo ferifikaasjekoade yn
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei { $email } ferstjoerd is.
+mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei { $email } ferstjoerd is.
 msv-cancel-button = Annulearje
 msv-submit-button = Ferifiearje
 
@@ -301,7 +301,7 @@ delete-account-header =
     .title = Account fuortsmite
 delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
-delete-account-confirm-title-2 = Jo hawwe jo { -product-firefox-account } ferbûn mei { -brand-mozilla }-produkten dy't jo feilich en produktyf hâlde op ynternet:
+delete-account-confirm-title-2 = Jo hawwe jo { -product-firefox-account } ferbûn mei { -brand-mozilla }-produkten dy’t jo feilich en produktyf hâlde op ynternet:
 delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
 delete-account-chk-box-1 =
     .label = Alle betelle abonneminten wurde opsein
@@ -310,7 +310,7 @@ delete-account-chk-box-2 =
 delete-account-chk-box-3 =
     .label = Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje
 delete-account-chk-box-4 =
-    .label = Alle útwreidingen en tema’s dy't jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
+    .label = Alle útwreidingen en tema’s dy’t jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
 delete-account-continue-button = Trochgean
 delete-account-password-input =
     .label = Fier wachtwurd yn
@@ -339,7 +339,7 @@ display-name-success-alert = Werjeftenamme bywurke.
 recovery-key-cancel-button = Annulearje
 recovery-key-close-button = Slute
 recovery-key-continue-button = Trochgean
-recovery-key-created = Jo werstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy't jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
+recovery-key-created = Jo werstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy’t jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
 recovery-key-enter-password =
     .label = Fier wachtwurd yn
 recovery-key-page-title =
@@ -375,7 +375,7 @@ verify-secondary-email-verify-button = Ferifiearje
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei <strong>{ $email }</strong> ferstjoerd is.
+verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <strong>{ $email }</strong> ferstjoerd is.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -480,7 +480,7 @@ rk-cannot-refresh = Sorry, der is in probleem bard by it fernijen fan de werstel
 rk-key-removed = Kaai foar accountwerstel fuortsmiten.
 rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key = Werstelkaai fernije
-rk-content-explain = Jo gegevens werstelle wannear't jo jo wachtwurd ferjitte.
+rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
 rk-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 rk-remove-modal-heading = Werstelkaai fuortsmite?
@@ -543,7 +543,7 @@ tfa-row-cannot-refresh =
     yn twa stappen.
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
-    unike koade wêr't allinnich jo tagong ta hawwe te easkjen.
+    unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
 tfa-row-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
