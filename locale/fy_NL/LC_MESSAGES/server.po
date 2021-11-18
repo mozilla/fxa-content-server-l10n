@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-08 12:40+0000\n"
+"PO-Revision-Date: 2021-11-18 11:06+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -81,8 +81,8 @@ msgid ""
 "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
 "password as a precaution."
 msgstr ""
-"Wy hawwe fertocht gedrach yn jo Firefox-account detektearre. Om net tastiene tagong ta jo Firefox-account op te kearen, hawwe wy alle apparaten yn jo account ûntkeppele en jo moatte út foarsoarch "
-"jo wachtwurd wizigje."
+"Wy hawwe fertocht gedrach yn jo Firefox-account detektearre. Om net tastiene tagong ta jo Firefox-account op te kearen, hawwe wy alle apparaten yn jo account ûntkeppele en jo moatte út foarsoarch jo"
+" wachtwurd wizigje."
 
 #: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -455,7 +455,7 @@ msgstr "Jo creditcard ferrint ynkoarten"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "De creditcard dy't jo brûke foar betellingen foar %(productName)s ferrint ynkoarten."
+msgstr "De creditcard dy’t jo brûke foar betellingen foar %(productName)s ferrint ynkoarten."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
@@ -577,7 +577,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "De creditcard dy't jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten."
+msgstr "De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
@@ -593,11 +593,11 @@ msgstr "Wy hawwe in probleem mei jo betellingsmetoade foar de folgjende abonnemi
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr "Binne jo dit, dy't harren oanmeldt?"
+msgstr "Binne jo dit, dy’t harren oanmeldt?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr "As ja, dan is hjir de autorisaasjekoade dy't jo nedich hawwe:"
+msgstr "As ja, dan is hjir de autorisaasjekoade dy’t jo nedich hawwe:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
@@ -617,7 +617,7 @@ msgstr "Jo hawwe inkelde dagen lyn in Firefox-account oanmakke, mar dit nea bef�
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Befêstigje no en ûntfang technology dy't foar jo privacy fjochtte en dizze beskermet, jo fersterket mei praktyske kennis en jo it respekt jout dat jo fertsjinje."
+msgstr "Befêstigje no en ûntfang technology dy’t foar jo privacy fjochtte en dizze beskermet, jo fersterket mei praktyske kennis en jo it respekt jout dat jo fertsjinje."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
@@ -1061,7 +1061,7 @@ msgstr "Side net fûn"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werstelle."
+msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy’t mooglik net wurkje werstelle."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -1118,7 +1118,7 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox Accounts makket gebrûk fan funksjes dy't\n"
+"Firefox Accounts makket gebrûk fan funksjes dy’t\n"
 "                        net stipe wurde yn jo ferzje fan Firefox.\n"
 "                        Download en ynstallearje de lêste ferzje fan Firefox om\n"
 "                        troch te gean."
@@ -1140,8 +1140,7 @@ msgstr "Lêste downloade"
 #~ msgstr "As earste, stel jo Firefox-accountwachtwurd opnij yn."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr ""
 #~ "As Firefox wachtwurden foar websites bewarret, moatte jo dizze wachtwurden ek wizigje. Oanfallers kinne tagong ta de wachtwurden krigen hawwe, dus kontrolearje ek de bybehearrende accounts op "
 #~ "fertochte aktiviteit."
@@ -1198,15 +1197,15 @@ msgstr "Lêste downloade"
 #~ "%(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Wy hawwe jo abonnemint op %(productName)s opsein. Jo lêste betelling fan $%(invoiceTotal)s is betelle op %(invoiceDateOnly)s. Jo abonnemint rint troch oant it ein fan de aktuele "
 #~ "fakturearringsperioade, te witten oant %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fan jo folgjende faktuer ôf wizigje jo kosten fan $%(paymentAmountOld)s per %(productPaymentCycle)s nei $%(paymentAmountNew)s. Jo ûntfange dan ek ien kear in kredyt fan $%(paymentProrated)s ta "
 #~ "gefolch fan de legere kosten foar de rest fan dizze %(productPaymentCycle)s."
@@ -1222,8 +1221,8 @@ msgstr "Lêste downloade"
 #~ "abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om te annulearjen."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fan jo folgjende faktuer ôf wizigje jo kosten fan $%(paymentAmountOld)s per %(productPaymentCycle)s nei $%(paymentAmountNew)s. Der wurdt jo dan ek ien kear in bedrach fan $%(paymentProrated)s yn "
 #~ "rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze %(productPaymentCycle)s."
@@ -1462,8 +1461,8 @@ msgstr "Lêste downloade"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Keppel <a href='%(androidUrl)s'>Firefox foar Android</a> of <a href='%(iosUrl)s'>Firefox foar iOS</a> om it measte út Sync "
-#~ "te heljen."
+#~ "Jo hawwe jo earste apparaat mei sukses oan jo Firefox-account keppele. Keppel <a href='%(androidUrl)s'>Firefox foar Android</a> of <a href='%(iosUrl)s'>Firefox foar iOS</a> om it measte út Sync te "
+#~ "heljen."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Oanmelde by Sync"
@@ -1628,16 +1627,16 @@ msgstr "Lêste downloade"
 #~ msgstr "Wachtwurd opnij ynstelle"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Inkelde dagen lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Mei in ferifiearre account hawwe jo op alle apparaten dy't dermei ferbûn binne tagong ta jo ljepblêden, blêdwizers, "
 #~ "wachtwurden en skiednis. Befêstigje ienfâldichwei dit e-mailadres om jo account te aktivearjen."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Wy meitsje ús soargen om jo. Befêstigje dit e-mailadres om jo account te aktivearjen en witte te litten oft alles goed mei "
-#~ "jo is."
+#~ "In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. Wy meitsje ús soargen om jo. Befêstigje dit e-mailadres om jo account te aktivearjen en witte te litten oft alles goed mei jo "
+#~ "is."
 
 #~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 #~ msgstr "Befêstigje foar ekstra befeiliging dizze oanmelding om mei it syngronisearjen mei dit apparaat te begjinnen:"
@@ -1657,8 +1656,7 @@ msgstr "Lêste downloade"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "E-mailadres foar Firefox Accounts ferifiearje"
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Jo hawwe %(secondaryEmail)s mei sukses as sekundêr e-mailadres foar jo Firefox-account ferifiearre. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde no op beide e-mailadressen ôflevere."
 
@@ -1667,8 +1665,7 @@ msgstr "Lêste downloade"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo Firefox-account oanmeld? As jo dizze lokaasjes net bekend foar komt, kin in oar tagong ta jo Firefox-account krigen "
-#~ "hawwe."
+#~ "Hawwe jo jo de ôfrûne 60 dagen fan ien fan de folgjende lokaasjes ôf by jo Firefox-account oanmeld? As jo dizze lokaasjes net bekend foar komt, kin in oar tagong ta jo Firefox-account krigen hawwe."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Datum en tiid:"
@@ -1746,8 +1743,8 @@ msgstr "Lêste downloade"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. We meitsje ús soargen om jo. Firefox is beskikber foar Windows, Mac, Linux, Android en iOS. Jo kinne jo wachtwurden, "
-#~ "blêdwizers en skiednis fan Firefox hjir tusken syngronisearje. Befêstigje dit e-mailberjocht om jo account te aktivearjen en witte te litten oft alles goed mei jo is."
+#~ "In wike lyn hawwe jo in Firefox-account oanmakke, mar nea ferifiearre. We meitsje ús soargen om jo. Firefox is beskikber foar Windows, Mac, Linux, Android en iOS. Jo kinne jo wachtwurden, blêdwizers"
+#~ " en skiednis fan Firefox hjir tusken syngronisearje. Befêstigje dit e-mailberjocht om jo account te aktivearjen en witte te litten oft alles goed mei jo is."
 
 #~ msgid "env"
 #~ msgstr "env"
@@ -1834,8 +1831,7 @@ msgstr "Lêste downloade"
 #~ msgstr "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net wizige hawwe, moatte jo it daliks opnij ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr ""
-#~ "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net opnij ynsteld hawwe, moatte jo it daliks opnij ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Dit is in automatisearre e-mailberjocht; as jo it wachtwurd foar jo Firefox-account net opnij ynsteld hawwe, moatte jo it daliks opnij ynstelle op <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "A new device is now syncing to your Firefox Account"
 #~ msgstr "Der wurdt no in nij apparaat mei jo Firefox-account syngronisearre"

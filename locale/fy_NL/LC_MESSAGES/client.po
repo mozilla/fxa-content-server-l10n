@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-16 07:25+0000\n"
+"PO-Revision-Date: 2021-11-18 11:06+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -910,7 +910,7 @@ msgstr "Trochgean nei %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Fier de werstelkaai foar ienmalich gebrûk dy't jo op in feilich plak bewarre hawwe yn om wer tagong ta jo Firefox-account te krijen."
+msgstr "Fier de werstelkaai foar ienmalich gebrûk dy’t jo op in feilich plak bewarre hawwe yn om wer tagong ta jo Firefox-account te krijen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1021,11 +1021,11 @@ msgstr "Dizze oanmelding befêstigje"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Kontrolearje jo e-mail op de ferifikaasjekeppeling dy't&nbsp;nei %(escapedEmail)s is ferstjoerd"
+msgstr "Kontrolearje jo e-mail op de ferifikaasjekeppeling dy’t&nbsp;nei %(escapedEmail)s is ferstjoerd"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei %(escapedEmail)s ferstjoerd is"
+msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy’t nei %(escapedEmail)s ferstjoerd is"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
@@ -1043,7 +1043,7 @@ msgstr "Keppeling foar opnij ynstellen ferstjoerd"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Klik binnen in oer op de keppeling dy't nei %(email)s ferstjoerd is om in nij wachtwurd oan te meitsjen."
+msgstr "Klik binnen in oer op de keppeling dy’t nei %(email)s ferstjoerd is om in nij wachtwurd oan te meitsjen."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1056,7 +1056,7 @@ msgstr "Trochgean nei <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Fier binnen 5 minuten de ferifikaasjekoade yn dy't nei %(escapedEmail)s ferstjoerd is."
+msgstr "Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei %(escapedEmail)s ferstjoerd is."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1226,7 +1226,7 @@ msgstr "Kinne jo de koade net scanne?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Nei foltôgjen wurde befeiligingskoaden foar jo generearre dy't jo ynfiere kinne."
+msgstr "Nei foltôgjen wurde befeiligingskoaden foar jo generearre dy’t jo ynfiere kinne."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1373,7 +1373,7 @@ msgstr "Sorry. Wy hawwe jo&nbsp;account beskoattele."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "De befêstigingsmail dy't wy nei %(email)s ferstjoerd hawwe, is retoernearre en om jo Firefox-gegevens te beskermjen, is jo account beskoattele."
+msgstr "De befêstigingsmail dy’t wy nei %(email)s ferstjoerd hawwe, is retoernearre en om jo Firefox-gegevens te beskermjen, is jo account beskoattele."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
@@ -1403,7 +1403,7 @@ msgstr "Fier werstelkoade yn"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Fier in werstelkoade yn dy't by it ynstellen opjûn is."
+msgstr "Fier in werstelkoade yn dy’t by it ynstellen opjûn is."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
@@ -1428,7 +1428,7 @@ msgstr "Dizze oanmelding autorisearje"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr "Kontrolearje jo e-mail op de koade dy't nei %(email)s is ferstjoerd."
+msgstr "Kontrolearje jo e-mail op de koade dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1444,7 +1444,7 @@ msgstr "Problemen by it ynfieren fan de koade?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Kontrolearje jo e-mail op de autorisaasjekoade dy't nei %(email)s is ferstjoerd."
+msgstr "Kontrolearje jo e-mail op de autorisaasjekoade dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1464,7 +1464,7 @@ msgstr "Nochris it wachtwurd"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy't jo by ús bewarje.<br/>In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en blêdwizers."
+msgstr "Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy’t jo by ús bewarje.<br/>In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en blêdwizers."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1807,7 +1807,7 @@ msgstr "Ree om te scannen"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Ferbyn jo mobile apparaat</h1><p>mei in QR-koade dy't wy spesjaal foar jo makke hawwe</p>"
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Ferbyn jo mobile apparaat</h1><p>mei in QR-koade dy’t wy spesjaal foar jo makke hawwe</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1815,7 +1815,7 @@ msgstr "Iepenje de kamera-app op jo apparaat"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "Rjochtsje de kamera op de QR-koade en tik op de keppeling dy't ferskynt"
+msgstr "Rjochtsje de kamera op de QR-koade en tik op de keppeling dy’t ferskynt"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
@@ -1831,7 +1831,7 @@ msgstr "<span class=\"number\">1</span>Iepenje de kamera-app op jo apparaat"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Rjochtsje de kamera op de QR-koade en tik op de keppeling dy't ferskynt"
+msgstr "<span class=\"number\">2</span>Rjochtsje de kamera op de QR-koade en tik op de keppeling dy’t ferskynt"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
@@ -1929,7 +1929,7 @@ msgstr "Firefox Lockwise"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Krij oeral feilich tagong ta wachtwurden dy't jo yn Firefox bewarre hawwe &ndash; sels bûten de browser."
+msgstr "Krij oeral feilich tagong ta wachtwurden dy’t jo yn Firefox bewarre hawwe &ndash; sels bûten de browser."
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Firefox Monitor"
