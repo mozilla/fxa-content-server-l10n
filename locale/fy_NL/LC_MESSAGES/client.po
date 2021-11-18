@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-18 11:06+0000\n"
+"PO-Revision-Date: 2021-11-18 11:09+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -972,7 +972,7 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>ÛNTHÂLD:</span> wannear't jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit "
+"<span>ÛNTHÂLD:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit "
 "komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten."
 
 #: .es5/templates/complete_reset_password.mustache:11
@@ -1332,7 +1332,7 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 msgstr ""
-"<span>NOAT:</span> wannear't jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt "
+"<span>NOAT:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit komt "
 "trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten."
 
 #: .es5/templates/reset_password.mustache:6
@@ -1852,7 +1852,7 @@ msgstr "Jo syngronisearre gegevens kinne bewarre wachtwurden befetsje."
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
-"Omdat dizze ynformaasje fan krusjaal belang is foar jo feilichheid, smyt Firefox dizze fuort om jo te beskermjen wannear't jo wachtwurd opnij ynsteld wurdt, om te foar te kommen dat oaren der tagong"
+"Omdat dizze ynformaasje fan krusjaal belang is foar jo feilichheid, smyt Firefox dizze fuort om jo te beskermjen wannear’t jo wachtwurd opnij ynsteld wurdt, om te foar te kommen dat oaren der tagong"
 " ta krije."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
@@ -2017,7 +2017,7 @@ msgstr "Scanne om in oar apparaat te ferbinen"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Iepenje de koadescanner yn jo Firefox-app en lit de koade sjen wannear't jo ree binne."
+msgstr "Iepenje de koadescanner yn jo Firefox-app en lit de koade sjen wannear’t jo ree binne."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
