@@ -88,20 +88,31 @@ codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja m
 codes-generate = Kódok előállítása
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Kódok előállítása
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 helyreállítási kód maradt
+       *[other] { $numberRemaining } helyreállítási kód maradt
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
+newDeviceLogin-title = Új bejelentkezés itt: { $clientName }
 
 ##
 
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
+passwordChanged-description = A { -product-firefox-account }ja jelszavát sikeresen megváltoztatva erről az eszközről:
 passwordChangeRequired-subject = Gyanús tevékenység észlelve
 passwordChangeRequired-title = Jelszómódosítás szükséges
+passwordChangeRequired-suspicious-activity = Gyanús viselkedést észleltünk a { -product-firefox-account }jában. A { -product-firefox-account }jához való jogosulatlan hozzáférés megakadályozása érdekében leválasztottuk a fiókja összes eszközét, és elővigyázatosságként arra kérjük, hogy módosítsa a jelszavát.
+passwordChangeRequired-sign-in = Jelentkezzen újra be bármelyik eszközbe vagy szolgáltatásba, ahol a { -product-firefox-account }ját használja, és kövesse a bemutatott lépéseket.
 passwordChangeRequired-different-password = <b>Fontos:</b> Válasszon egy másik jelszót, mint amit korábban használt, és ellenőrizze, hogy az eltér-e az e-mail-címétől.
 passwordChangeRequired-signoff = A legjobbakat,
+passwordChangeRequired-signoff-name = A { -product-firefox-accounts } csapata
 passwordChangeRequired-different-password-plaintext = Fontos: Válasszon egy másik jelszót, mint amit korábban használt, és ellenőrizze, hogy az eltér-e az e-mail-címétől.
 passwordReset-subject = A jelszó frissítve
 passwordReset-title = A fiók jelszava megváltozott
@@ -115,14 +126,21 @@ passwordResetAccountRecovery-regen-required = Új helyreállítási kulcsot kell
 passwordResetAccountRecovery-create-key = Új helyreállítási kulcs létrehozása:
 postAddAccountRecovery-subject = Fiók helyreállítási kulcs előállítva
 postAddAccountRecovery-title = Fiók helyreállítási kulcs előállítva
+postAddAccountRecovery-description = Sikeresen előállított egy fiók helyreállítási kulcsot a { -product-firefox-account }jához a következő eszközön:
 postAddAccountRecovery-action = Fiók kezelése
+postAddAccountRecovery-recovery = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">kattintson ide.</a>
 postAddAccountRecovery-revoke = Ha ez nem Ön volt, vonja vissza a kulcsot.
 postAddTwoStepAuthentication-subject = Kétlépcsős hitelesítés engedélyezve
 postAddTwoStepAuthentication-title = Kétlépcsős hitelesítés engedélyezve
+postAddTwoStepAuthentication-description-plaintext = Sikeresen engedélyezte a kétlépcsős hitelesítést a { -product-firefox-account }jához. A hitelesítő alkalmazásból származó biztonsági kód minden bejelentkezésnél szükséges lesz.
+postAddTwoStepAuthentication-description = Sikeresen engedélyezte a kétlépcsős hitelesítést a { -product-firefox-account }jához a következő eszközön:
 postAddTwoStepAuthentication-action = Fiók kezelése
 postAddTwoStepAuthentication-code-required = A hitelesítő alkalmazásból származó biztonsági kód minden bejelentkezésnél szükséges lesz.
 postChangePrimary-subject = Elsődleges e-mail frissítve
 postChangePrimary-title = Új elsődleges e-mail cím
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-firefox-account }ba bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
 postConsumeRecoveryCode-subject = Helyreállítási kód felhasználva
 postConsumeRecoveryCode-title = Helyreállítási kód elhasználva
@@ -134,42 +152,78 @@ postNewRecoveryCodes-description = Sikeresen állított elő új helyreállítá
 postNewRecoveryCodes-action = Fiók kezelése
 postRemoveAccountRecovery-subject = Fiók helyreállítási kulcs eltávolítva
 postRemoveAccountRecovery-title = Fiók helyreállítási kulcs eltávolítva
+postRemoveAccountRecovery-description = Sikeresen eltávolított egy fiók-helyreállítási kulcsot a { -product-firefox-account }jához a következő eszközön:
 postRemoveAccountRecovery-action = Fiók kezelése
 postRemoveAccountRecovery-invalid = Ez a helyreállítási kulcs már nem használható a fiókja helyreállításához.
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Sikeresen eltávolította a következő másodlagos e-mail címet a { -product-firefox-account }jából: { $secondaryEmail }. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a címre.
 postRemoveSecondary-action = Fiók kezelése
 postRemoveTwoStepAuthentication-subject = Kétlépcsős ellenőrzés kikapcsolva
 postRemoveTwoStepAuthentication-title = Kétlépcsős hitelesítés letiltva
+postRemoveTwoStepAuthentication-description = Sikeresen kikapcsolta a kétlépcsős hitelesítést a { -product-firefox-account }jához a következő eszközön:
+postRemoveTwoStepAuthentication-description-plaintext = Sikeresen letiltotta a kétlépcsős hitelesítést a { -product-firefox-account }jához. A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
 postRemoveTwoStepAuthentication-action = Fiók kezelése
 postRemoveTwoStepAuthentication-not-required = A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
+postVerify-sub-title = { -product-firefox-account } ellenőrizve. Mindjárt kész is van.
 postVerify-title = Most pedig szinkronizáljon az eszközök között.
 postVerify-description = A Sync biztonságosan szinkronban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat az eszközei között.
 postVerify-subject = A fiók ellenőrizve. Ezután szinkronizáljon egy másik eszközre a beállítás befejezéséhez
 postVerify-setup = A következő eszköz beállítása
 postVerify-action = A következő eszköz beállítása
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Kérdése van? Keresse fel: { $supportUrl }
 postVerifySecondary-subject = Másodlagos e-mail hozzáadva
 postVerifySecondary-title = Másodlagos e-mail hozzáadva
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail-címet a { -product-firefox-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét címére el lesznek küldve.
 postVerifySecondary-action = Fiók kezelése
 recovery-subject = Jelszó visszaállítása
 recovery-title = Helyre kell állítania a jelszavát?
 recovery-description = Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:
 recovery-action = Új jelszó létrehozása
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = A(z) { $productName } termékhez tartozó bankkártya hamarosan lejár
 subscriptionPaymentExpired-title = A bankkártyája hamarosan lejár
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = A(z) { $productName } előfizetésének befizetéséhez használt bankkártyája hamarosan lejár.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } előfizetés újraaktiválva
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Köszönjük, hogy újraaktiválta a %{ $productName } előfizetését.
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = A számlázási ciklusa és fizetése változatlan marad. A következő terhelés { $invoiceTotal } lesz, ekkor: { $nextInvoiceDateOnly }. Előfizetése automatikusan megújítja az összes számlázási időszakot, hacsak nem dönt úgy, hogy lemondja.
 subscriptionsPaymentExpired-subject = Az előfizetéseihez tartozó bankkártya hamarosan lejár
 subscriptionsPaymentExpired-title = A bankkártyája hamarosan lejár
 subscriptionsPaymentExpired-content = A következő előfizetésekhez használt bankkártyája hamarosan lejár.
 unblockCode-subject = Fiók engedélyezési kód
 unblockCode-title = Ez az ön bejelentkezése?
 unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szüksége:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Ha igen, akkor erre az engedélyezési kódra van szüksége: { $unblockCode }
+unblockCode-report = Ha nem, akkor segítsen kivédeni a behatolókat, és <a data-l10n-name="reportSignInLink">jelentse nekünk.</a>
 unblockCode-report-plaintext = Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk.
 verificationReminderFirst-subject = Emlékeztető: Fejezze be a fiókja létrehozását
 verificationReminderFirst-title = Üdvözöljük a { -brand-firefox } családban
+verificationReminderFirst-description = Néhány napja létrehozott egy { -product-firefox-account }ot, de azt nem erősítette meg.
 verificationReminderFirst-sub-description = Erősítse meg most, és kapjon olyan technológiát, amely megvédi és küzd az adatvédelméért, felvértezi gyakorlati ismeretekkel, és megadja az Önnek járó tiszteletet.
 confirm-email = E-mail cím megerősítése
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-mail cím megerősítése
 verificationReminderSecond-subject = Végső emlékeztető: Aktiválja fiókját
 verificationReminderSecond-title = Ott van még?
+verificationReminderSecond-description = Majd egy héttel ezelőtt létrehozott egy { -product-firefox-account }ot, de nem erősítette meg. Aggódunk Ön miatt.
 verificationReminderSecond-sub-description = Erősítse meg ezt az e-mail címet a fiók aktiválásához, és tudassa velünk, hogy rendben van.
 verificationReminderSecond-action = E-mail cím megerősítése
 verify-title = Aktiválja a { -brand-firefox } termékcsaládot
@@ -177,8 +231,17 @@ verify-description-plaintext = Erősítse meg fiókját, és hozza ki a lehető 
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
 verify-action = E-mail cím megerősítése
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Új bejelentkezés itt: { $clientName }
 verifyLogin-description = A nagyobb biztonság érdekében, erősítse meg ezt a bejelentkezést a következő eszközön:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Erősítse meg bejelentkezését ide: { $clientName }
 verifyLogin-action = Bejelentkezés megerősítése
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Ellenőrzőkód: { $code }
 verifyLoginCode-title = Ez az ön bejelentkezése?
 verifyLoginCode-prompt = Ha igen, akkor itt az ellenőrzőkód:
 verifyLoginCode-expiry-notice = 5 perc múlva lejár.
@@ -186,15 +249,26 @@ verifyPrimary-title = Elsődleges e-mail cím megerősítése
 verifyPrimary-description = A kérés, hogy módosítsa a fiókját a következő eszközről lett elküldve:
 verifyPrimary-subject = Elsődleges e-mail cím megerősítése
 verifyPrimary-action = E-mail cím megerősítése
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail cím hozzáadása, lehetségesek lesznek erről az eszközről.
 verifySecondary-subject = Másodlagos e-mail megerősítése
 verifySecondary-title = Másodlagos e-mail megerősítése
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 verifySecondary-action = E-mail cím megerősítése
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Ha hitelesíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title = Másodlagos e-mail megerősítése
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 verifySecondaryCode-prompt = Használja ezt az ellenőrzőkódot:
 verifySecondaryCode-expiry-notice = 5 perc múlva lejár. Ha hitelesíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
 verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
