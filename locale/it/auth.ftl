@@ -92,20 +92,31 @@ codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di r
 codes-generate = Genera codici
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Genera codici
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] È rimasto %(numberRemaining)s codice di recupero
+       *[other] Sono rimasti %(numberRemaining)s codici di recupero
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nuovo accesso a { $clientName }
+newDeviceLogin-title = Nuovo accesso a { $clientName }
 
 ##
 
 newDeviceLogin-action = Gestisci account
 passwordChanged-subject = Password aggiornata
 passwordChanged-title = Password modificata correttamente
+passwordChanged-description = La password dell’{ -product-firefox-account } è stata modificata correttamente dal seguente dispositivo:
 passwordChangeRequired-subject = Rilevata attività sospetta
 passwordChangeRequired-title = Cambio password necessario
+passwordChangeRequired-suspicious-activity = Abbiamo rilevato attività sospette sul tuo { -product-firefox-account }. Per impedire accessi non autorizzati, tutti i dispositivi sono stati disconnessi dal tuo { -product-firefox-account } e, a scopo precauzionale, è obbligatorio cambiare la password.
+passwordChangeRequired-sign-in = Effettua nuovamente l’accesso in qualsiasi dispositivo o servizio in cui usi il tuo { -product-firefox-account } e segui i passaggi che ti verranno presentati.
 passwordChangeRequired-different-password = <b>Importante:</b> scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che non sia uguale al tuo indirizzo di posta.
 passwordChangeRequired-signoff = Cordialmente,
+passwordChangeRequired-signoff-name = Il team di { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: scegli una password diversa da quella che stavi utilizzando in precedenza e assicurati che non sia uguale al tuo indirizzo di posta.
 passwordReset-subject = Password aggiornata
 passwordReset-title = La tua password è stata modificata
@@ -119,14 +130,21 @@ passwordResetAccountRecovery-regen-required = È necessario generare una nuova c
 passwordResetAccountRecovery-create-key = Crea una nuova chiave di recupero:
 postAddAccountRecovery-subject = Generata chiave di recupero
 postAddAccountRecovery-title = Generata chiave di recupero
+postAddAccountRecovery-description = La chiave di recupero per l’{ -product-firefox-account } è stata correttamente generata dal seguente dispositivo:
 postAddAccountRecovery-action = Gestisci account
+postAddAccountRecovery-recovery = Se non hai effettuato questa operazione, <a data-l10n-name="revokeAccountRecoveryLink">fai clic qui</a>.
 postAddAccountRecovery-revoke = Se non hai effettuato questa operazione, revoca la chiave.
 postAddTwoStepAuthentication-subject = Autenticazione in due passaggi attivata
 postAddTwoStepAuthentication-title = Autenticazione in due passaggi attivata
+postAddTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi è stata attivata correttamente per il tuo { -product-firefox-account }. D’ora in avanti a ogni accesso verranno richiesti i codici di verifica generati dall’app di autenticazione.
+postAddTwoStepAuthentication-description = L'autenticazione in due passaggi è stata attivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
 postAddTwoStepAuthentication-action = Gestisci account
-postAddTwoStepAuthentication-code-required = Da ora in avanti a ogni nuovo accesso verranno richiesti i codici generati dall’app di autenticazione.
+postAddTwoStepAuthentication-code-required = D’ora in avanti a ogni nuovo accesso verranno richiesti i codici generati dall’app di autenticazione.
 postChangePrimary-subject = Indirizzo email primario aggiornato
 postChangePrimary-title = Nuovo indirizzo email primario
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’{ -product-firefox-account }, ricevere notifiche di sicurezza e conferme.
 postChangePrimary-action = Gestisci account
 postConsumeRecoveryCode-subject = Codice di recupero utilizzato
 postConsumeRecoveryCode-title = Codice di recupero utilizzato
@@ -138,34 +156,67 @@ postNewRecoveryCodes-description = Nuovi codici di recupero sono stati generati 
 postNewRecoveryCodes-action = Gestisci account
 postRemoveAccountRecovery-subject = Eliminata chiave di recupero account
 postRemoveAccountRecovery-title = Eliminata chiave di recupero account
+postRemoveAccountRecovery-description = La chiave di recupero per l’{ -product-firefox-account } è stata correttamente generata dal seguente dispositivo:
 postRemoveAccountRecovery-action = Gestisci account
 postRemoveAccountRecovery-invalid = Non è più possibile utilizzare questa chiave di recupero per recuperare il tuo account.
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = L’indirizzo email { $secondaryEmail } non è più configurato come indirizzo secondario per il tuo { -product-firefox-account }. Da questo momento le notifiche di sicurezza e le verifiche d’accesso non verranno più inviate a questo indirizzo.
 postRemoveSecondary-action = Gestisci account
 postRemoveTwoStepAuthentication-subject = L’autenticazione in due passaggi è disattivata
 postRemoveTwoStepAuthentication-title = Autenticazione in due passaggi disattivata
+postRemoveTwoStepAuthentication-description = L'autenticazione in due passaggi è stata disattivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
+postRemoveTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi per il tuo { -product-firefox-account } è stata disattivata correttamente. I codici di verifica non verranno più richiesti ad ogni accesso.
 postRemoveTwoStepAuthentication-action = Gestisci account
 postRemoveTwoStepAuthentication-not-required = I codici di verifica non verranno più richiesti ad ogni accesso.
+postVerify-sub-title = L’{ -product-firefox-account } è stato verificato. Hai quasi finito.
 postVerify-title = Adesso sincronizza i tuoi dispositivi.
 postVerify-description = Sync sincronizza i tuoi segnalibri, le password e altri dati di { -brand-firefox } in tutti i tuoi dispositivi, garantendone la riservatezza.
 postVerify-subject = L’account è stato verificato. Adesso sincronizza un altro dispositivo per completare la configurazione
 postVerify-setup = Configura un altro dispositivo
 postVerify-action = Configura un altro dispositivo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Hai domande o dubbi? Visita { $supportUrl }
 postVerifySecondary-subject = Email secondaria aggiunta correttamente
 postVerifySecondary-title = Email secondaria aggiunta correttamente
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = L’indirizzo email { $secondaryEmail } è stato correttamente verificato e sarà utilizzato come indirizzo secondario per l’{ -product-firefox-account }. Da questo momento le notifiche di sicurezza e le conferme d’accesso verranno inviate a entrambi gli indirizzi email.
 postVerifySecondary-action = Gestisci account
-recovery-subject = Reimpostazione della password dell’{ -product-firefox-account }
+recovery-subject = Reimposta la tua password
 recovery-title = Desideri reimpostare la password?
 recovery-description = Per impostare una nuova password fai clic sul pulsante entro un’ora. La richiesta di modifica password è stata inoltrata dal seguente dispositivo:
 recovery-action = Crea nuova password
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = La carta di credito per { $productName } sta per scadere
 subscriptionPaymentExpired-title = La carta di credito in uso sta per scadere
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = La carta di credito in uso per i pagamenti di { $productName } sta per scadere.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Abbonamento a { $productName } riattivato
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Grazie per aver riattivato il tuo abbonamento a { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Il ciclo di fatturazione e l’importo resteranno invariati. Il tuo prossimo addebito sarà di { $invoiceTotal } e avverrà il { $nextInvoiceDateOnly }. Il tuo abbonamento si rinnoverà automaticamente a ogni scadenza di fatturazione, a meno che tu non decida di annullarlo.
 subscriptionsPaymentExpired-subject = La carta di credito collegata ai tuoi abbonamenti sta per scadere
 subscriptionsPaymentExpired-title = La carta di credito in uso sta per scadere
 subscriptionsPaymentExpired-content = La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta per scadere.
 unblockCode-subject = Codice di autorizzazione per l’account
 unblockCode-title = Hai effettuato tu questo accesso?
 unblockCode-prompt = In caso affermativo, questo è il codice di autorizzazione da utilizzare:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = In caso affermativo, questo è il codice di autorizzazione da utilizzare: { $unblockCode }
+unblockCode-report = In caso contrario, aiutaci a tenere alla larga gli intrusi <a data-l10n-name="reportSignInLink">segnalandocelo</a>.
 unblockCode-report-plaintext = In caso contrario, aiutaci a tenere alla larga gli intrusi segnalandocelo.
 verificationReminderFirst-subject = Promemoria: completa la creazione del tuo account
 verificationReminderFirst-title = Benvenuto nella famiglia { -brand-firefox }
