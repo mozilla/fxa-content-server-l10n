@@ -30,9 +30,73 @@
     }
     .gender = masculine
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox accounts
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účte Firefox
+                [lower] účte Firefox
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtom Firefox
+                [lower] účtom Firefox
+            }
+    }
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-account = Firefox account
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefox
+                [lower] účtu Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefox
+                [lower] účet Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účte Firefox
+                [lower] účte Firefox
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtom Firefox
+                [lower] účtom Firefox
+            }
+    }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
@@ -46,6 +110,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Podmienky zrušenia
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušiť predplatné
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Opätovne aktivovať predplatné
 subplat-update-billing = Aktualizovať informácie o spôsobe platby
 subplat-legal = Právne informácie
@@ -53,10 +118,12 @@ subplat-privacy = Súkromie
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
 manage-account = Spravovať účet
+manage-account-plaintext = { manage-account }:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
 codes-generate = Vygenerovať kódy
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Vygenerovať kódy
 
 ## Variables:
@@ -124,17 +191,19 @@ unblockCode-title = Spoznávate toto prihlásenie?
 unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
 unblockCode-report-plaintext = Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to.
 verificationReminderFirst-subject = Pripomienka: dokončite vytváranie svojho účtu
-verificationReminderFirst-title = Vitajte v rodine { -brand-firefox }u
-verificationReminderFirst-description = Pred niekoľkými dňami ste si vytvorili účet { -brand-firefox }, ale nikdy ste ho nepotvrdili.
+verificationReminderFirst-title = Vitajte v rodine { -brand-firefox(case: "gen") }
+verificationReminderFirst-description = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale zatiaľ ste ho nepotvrdili.
 verificationReminderFirst-sub-description = Potvrďte ho teraz a získajte technológiu, ktorá bojuje za vaše súkromie a chráni ho, vyzbrojuje vás praktickými znalosťami a prejavuje vám zaslúžený rešpekt.
 confirm-email = Potvrdiť e-mailovú adresu
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Potvrdiť e-mailovú adresu
 verificationReminderSecond-subject = Posledná pripomienka: aktivujte svoj účet
 verificationReminderSecond-title = Ste tu ešte?
+verificationReminderSecond-description = Takmer pred týždňom ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale zatiaľ ste ho nepotvrdili. Bojíme sa o vás.
 verificationReminderSecond-sub-description = Potvrďte túto e-mailovú adresu a aktivujte svoj účet.
 verificationReminderSecond-action = Potvrdiť e-mailovú adresu
 verify-title = Aktivujte si celú rodinu produktov { -brand-firefox }u
-verify-description-plaintext = Potvrďte svoj účet a využívajte výhody všade, kde sa prihlásite.
+verify-description-plaintext = Potvrďte svoj účet a vyťažte maximum z { -brand-firefox(case: "gen") } všade, kde sa prihlásite.
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action = Potvrdiť e-mailovú adresu
