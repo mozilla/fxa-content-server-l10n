@@ -59,10 +59,17 @@ codes-reminder-description = Nos ha constatate que te resta pauc codices de recu
 codes-generate = Generar codices
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar codices
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 codice de recuperation restante
+       *[other] { $numberRemaining } codices de recuperation restante
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nove accesso a { $clientName }
+newDeviceLogin-title = Nove accesso a { $clientName }
 
 ##
 
@@ -74,6 +81,7 @@ passwordChangeRequired-title = Cambio de contrasigno obligatori
 passwordChangeRequired-sign-in = Re-signa in ulle dispositivo o servicio ubi tu usa tu Conto { -brand-firefox } e seque le grados que te sera presentate.
 passwordChangeRequired-different-password = <b>Importante:</b> elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 passwordChangeRequired-signoff = Cordialmente,
+passwordChangeRequired-signoff-name = Le equipa de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 passwordReset-subject = Contrasigno actualisate
 passwordReset-title = Le contrasigno de tu conto ha essite cambiate
@@ -91,10 +99,15 @@ postAddAccountRecovery-action = Gerer le conto
 postAddAccountRecovery-revoke = Si iste non esseva tu, revoca le clave.
 postAddTwoStepAuthentication-subject = Authentication a duo passos activate
 postAddTwoStepAuthentication-title = Authentication a duo passos activate
+postAddTwoStepAuthentication-description-plaintext = Tu ha correctemente activate le authentication a duo passos sur tu conto { -product-firefox-account }. Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session.
+postAddTwoStepAuthentication-description = Tu ha activate con successo le authentication a duo passos in tu { -product-firefox-account } ab le apparato sequente:
 postAddTwoStepAuthentication-action = Gerer le conto
 postAddTwoStepAuthentication-code-required = Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session.
 postChangePrimary-subject = E-mail primari actualisate
 postChangePrimary-title = Nove e-mail primari
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
 postConsumeRecoveryCode-subject = Codice de recuperation usate
 postConsumeRecoveryCode-title = Codice de recuperation consumite
@@ -120,6 +133,9 @@ postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, co
 postVerify-subject = Conto verificate. Seque synchronisar un altere dispositivo pro finir installation
 postVerify-setup = Configurar apparato sequente
 postVerify-action = Configurar apparato sequente
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Questiones? Visita { $supportUrl }
 postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
 postVerifySecondary-action = Gerer le conto
@@ -127,7 +143,19 @@ recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
 recovery-description = Clicca sur le button in le proxime hora pro crear un nove contrasigno. Le requesta proveni del apparato sequente:
 recovery-action = Crear le nove contrasigno
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Le carta de credito pro { $productName } va expirar tosto
 subscriptionPaymentExpired-title = Tu carta de credito va expirar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro { $productName } es preste a expirar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Subscription a { $productName } reactivate
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Gratias pro le reactivation de tu subscription a { $productName }!
 subscriptionsPaymentExpired-subject = Le carta de credito pro tu subscriptiones va expirar tosto
 subscriptionsPaymentExpired-title = Tu carta de credito va expirar
 subscriptionsPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro le sequente subscriptiones es sur le puncto de expirar.
@@ -140,6 +168,7 @@ verificationReminderFirst-title = Benvenite al familia de { -brand-firefox }
 verificationReminderFirst-description = Alcun dies retro tu ha create un conto de { -brand-firefox }, ma tu non lo ha ancora confirmate.
 verificationReminderFirst-sub-description = Confirma lo ora e obtene un technologia que defende e protege tu vita private, te arma con cognoscentias practic, e te accorda le respecto que tu merita.
 confirm-email = Confirmar email
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Rememoration final: Activa tu conto
 verificationReminderSecond-title = Ancora ci?
@@ -150,8 +179,17 @@ verify-description-plaintext = Confirma tu conto e tira le maximo de { -brand-fi
 verify-description = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
 verify-subject = Termina le creation de tu conto
 verify-action = Confirmar email
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nove apertura de session in { $clientName }
 verifyLogin-description = Pro ulterior securitate, per favor confirma iste apertura de session ab le sequente apparato:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Confirmar apertura de session a { $clientName }
 verifyLogin-action = Confirmar apertura de session
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Codice de verification: { $code }
 verifyLoginCode-title = Es tu qui aperi session?
 verifyLoginCode-prompt = Si si, ecce le codice de verification:
 verifyLoginCode-expiry-notice = Illo expira in 5 minutas.
@@ -159,15 +197,20 @@ verifyPrimary-title = Verificar e-mail primari
 verifyPrimary-description = Requesta de modificar le conto per le sequente apparato:
 verifyPrimary-subject = Confirmar e-mail primari
 verifyPrimary-action = Verificar le email
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Post le verifica le cambios del conto, como adder le email secundari, sera possibile per le apparato.
 verifySecondary-subject = Confirmar e-mail secundari
 verifySecondary-title = Verificar e-mail secundari
 verifySecondary-action = Verificar le email
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 verifySecondaryCode-subject = Confirmar e-mail secundari
 verifySecondaryCode-title = Verificar e-mail secundari
 verifySecondaryCode-prompt = Usa iste codice de verification:
 verifySecondaryCode-expiry-notice = Illo expira in 5 minutas. Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Codice de verification: { $code }
 verifyShortCode-title = Es vermente tu qui vole inscriber se?
 verifyShortCode-prompt = Si si, usa iste codice de verification in tu modulo de registration:
 verifyShortCode-expiry-notice = Illo expira in 5 minutas.
