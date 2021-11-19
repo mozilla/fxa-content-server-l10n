@@ -220,11 +220,14 @@ unblockCode-report = In caso contrario, aiutaci a tenere alla larga gli intrusi 
 unblockCode-report-plaintext = In caso contrario, aiutaci a tenere alla larga gli intrusi segnalandocelo.
 verificationReminderFirst-subject = Promemoria: completa la creazione del tuo account
 verificationReminderFirst-title = Benvenuto nella famiglia { -brand-firefox }
+verificationReminderFirst-description = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato.
 verificationReminderFirst-sub-description = Conferma subito il tuo account e sfrutta i vantaggi di una tecnologia che protegge la tua privacy, arricchisce le tue conoscenze pratiche del Web e rispetta i tuoi diritti di utente.
 confirm-email = Verifica indirizzo email
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Verifica indirizzo email
 verificationReminderSecond-subject = Ultimo promemoria: attiva il tuo account
-verificationReminderSecond-title = Intendi ancora attivare un { -product-firefox-account }?
+verificationReminderSecond-title = Ci sei ancora?
+verificationReminderSecond-description = È trascorsa quasi una settimana da quando hai registrato un { -product-firefox-account }, ma non lo hai ancora verificato. Stiamo iniziando a preoccuparci.
 verificationReminderSecond-sub-description = Verifica questo indirizzo email per attivare il tuo account e farci sapere che è tutto a posto.
 verificationReminderSecond-action = Verifica indirizzo email
 verify-title = Attiva la famiglia di prodotti { -brand-firefox }
@@ -232,8 +235,17 @@ verify-description-plaintext = Conferma il tuo account e ottieni il massimo da {
 verify-description = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi da cui accedi, a cominciare da:
 verify-subject = Completa la creazione del tuo account
 verify-action = Verifica indirizzo email
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nuovo accesso a { $clientName }
 verifyLogin-description = Per una maggiore sicurezza, conferma l’accesso da questo dispositivo:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Conferma nuovo accesso a { $clientName }
 verifyLogin-action = Conferma accesso
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Codice di verifica: { $code }
 verifyLoginCode-title = Hai effettuato tu questo accesso?
 verifyLoginCode-prompt = Se desideri procedere, ecco il codice di verifica:
 verifyLoginCode-expiry-notice = Il codice scadrà entro 5 minuti.
@@ -241,15 +253,26 @@ verifyPrimary-title = Verifica l’indirizzo email principale
 verifyPrimary-description = Una richiesta di autorizzazione a modificare l‘account è stata inviata dal seguente dispositivo:
 verifyPrimary-subject = Conferma l’indirizzo email primario
 verifyPrimary-action = Verifica indirizzo email
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una volta verificata la richiesta, sarà possibile modificare le impostazioni dell’account, per esempio aggiungendo un indirizzo email secondario, direttamente dal dispositivo.
 verifySecondary-subject = Conferma l’indirizzo email secondario
 verifySecondary-title = Verifica l’indirizzo email secondario
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Il seguente { -product-firefox-account } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondary-action = Verifica indirizzo email
-verifySecondary-post-verification = Una volta verificato, il presente indirizzo email riceverà notifiche e messaggi di conferma dall’{ -product-firefox-account }.
+verifySecondary-prompt = { verifySecondary-action }:
+verifySecondary-post-verification = Una volta verificato, il presente indirizzo email riceverà notifiche e messaggi di conferma.
 verifySecondaryCode-subject = Conferma l’indirizzo email secondario
 verifySecondaryCode-title = Verifica l’indirizzo email secondario
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Il seguente { -product-firefox-account } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondaryCode-prompt = Usa questo codice di verifica:
-verifySecondaryCode-expiry-notice = Il codice scadrà tra 5 minuti. Una volta verificato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma dall’{ -product-firefox-account }.
+verifySecondaryCode-expiry-notice = Il codice scadrà tra 5 minuti. Una volta verificato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Codice di verifica: { $code }
 verifyShortCode-title = Hai effettuato tu questo accesso?
 verifyShortCode-prompt = In caso affermativo, utilizza questo codice di verifica nel modulo di registrazione:
 verifyShortCode-expiry-notice = Il codice scadrà entro 5 minuti.
