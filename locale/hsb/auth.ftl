@@ -2,39 +2,93 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Konta Firefox
--product-firefox-account = Konto Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Konta Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Konto Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-plaintext = Zdźělenka priwatnosće:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowědźić
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonement zaso aktiwizować
 subplat-update-billing = Płaćenske informacije aktualizować
 subplat-legal = Prawniske
 subplat-privacy = Priwatnosć
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = To je awtomatiska e-mejlka; jeli njejsće swojemu kontu{ -product-firefox-account } nowy grat přidał, změńcé prošu hnydom swoje hesło na { $passwordChangeLink }
 automated-email-plaintext = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nětko swoje hesło na { $resetLink } wróćo
 change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup na waše konto dóstać, prošu změńće swoje hesło.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-adresa: { $ip }
 manage-account = Konto rjadować
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Maće prašenja wo swojim abonemenće? Naš <a data-l10n-name="subscriptionSupportUrl">team pomocy</a> je tu, zo by wam pomhał.
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Maće prašenja wo swojim abonemenće? Naš team pomocy je tu, zo by wam pomhał:
+subscriptionUpdatePayment = Zo byšće přetorhnjenje swojeje słužby wobešoł, <a data-l10n-name="updateBillingUrl">aktualizujće prošu swoje płaćenske informacije</a> tak bórze kaž móžno.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Za dalše informacije hlejće { $supportUrl }
 cadReminderFirst-subject = Waše přećelne dopomnjeće: Kak móžeće konfiguraciju swojeje synchronizacije dokónčić
 cadReminderFirst-action = Druhi grat synchronizować
 cadReminderFirst-title = Tu je waše dopomnjeće na synchronizowanje gratow.
+cadReminderFirst-description = Za synchronizowanje stej dwaj trěbnej. Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
 cadReminderSecond-subject = Poslednje dopomnjeće: Dokónčće konfiguracije synchronizacije
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title = Poslednje dopomnjeće na synchronizowanje gratow!
+cadReminderSecond-description = Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wobnowjenskich kodow wyše
 codes-reminder-description = Smy zwěsćili, zo mało wobnowjenskich kodow wužiwaće. Prošu rozwažujćo, hač nowe kody wutworiće, zo byšće zawrjenje swojeho konta wobešoł.
 codes-generate = Kody wutworić
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Kody wutworić
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] { $numberRemaining } wobnowjenski kod wyše
+        [two] { $numberRemaining } wobnowjenskej kodaj wyše
+        [few] { $numberRemaining } wobnowjenske kody wyše
+       *[other] { $numberRemaining } wobnowjenskich kodow wyše
+    }
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
+newDeviceLogin-title = Nowe přizjewjenje pola { $clientName }
+
+##
+
 newDeviceLogin-action = Konto rjadować
 passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
+passwordChanged-description = Hesło wašeho konta { -product-firefox-account } je so wuspěšnje ze slědowaceho grata změniło:
 passwordChangeRequired-subject = Podhladna aktiwita wotkryta
 passwordChangeRequired-title = Změnjenje hesła trěbne
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
@@ -48,6 +102,7 @@ passwordResetAccountRecovery-title = Waše kontowe hesło jo so wróćo stajiło
 passwordResetAccountRecovery-description = Sće wuspěšnje swoje hesło z pomocu wobnowjenskeho kluča ze slědowaceho grata wróćo stajił:
 passwordResetAccountRecovery-action = Nowy wobnowjenski kluč wutworić
 passwordResetAccountRecovery-regen-required = Dyrbiće nowy wobnowjenski kluč wutworić.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nowy wobnowjenski kluč wutworić:
 postAddAccountRecovery-subject = Kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title = Kontowy wobnowjenski kluč je so wutworił
@@ -134,4 +189,3 @@ verifySecondaryCode-expiry-notice = Spadnje za 5 mjeńšin. Tak ruče kaž je so
 verifyShortCode-title = Registrujeće wy?
 verifyShortCode-prompt = Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:
 verifyShortCode-expiry-notice = Spadnje za 5 mjeńšin.
-
