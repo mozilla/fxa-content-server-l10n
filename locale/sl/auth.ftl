@@ -69,6 +69,9 @@ another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo na
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
+automated-email =
+    To sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni treba storiti ničesar.
+    Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 automated-email-plaintext = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo.
 # Variables:
@@ -166,16 +169,28 @@ postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveAccountRecovery-invalid = Tega obnovitvenega ključa ne morete več uporabiti za obnovitev svojega računa.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveSecondary-action = Upravljanje računa
 postRemoveTwoStepAuthentication-subject = Preverjanje v dveh korakih je izključeno
 postRemoveTwoStepAuthentication-title = Overitev v dveh korakih je onemogočena
+postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account } z naslednje naprave:
+postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
+postVerify-sub-title = { -product-firefox-account } je potrjen. Skoraj ste gotovi.
 postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
 postVerify-setup = Nastavite naslednjo napravo
 postVerify-action = Nastavite naslednjo napravo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
