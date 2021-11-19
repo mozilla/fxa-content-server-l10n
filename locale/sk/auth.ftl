@@ -2,16 +2,49 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
+-brand-mozilla =
+    { $case ->
+       *[nom] Mozilla
+        [gen] Mozilly
+        [dat] Mozille
+        [acc] Mozillu
+        [loc] Mozille
+        [ins] Mozillou
+    }
+    .gender = feminine
+-brand-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoxu
+        [dat] Firefoxu
+        [acc] Firefox
+        [loc] Firefoxe
+        [ins] Firefoxom
+    }
+    .gender = masculine
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-fxa-privacy-url = Zásady ochrany súkromia
+
+## Email content
+
+fxa-privacy-url = Zásady ochrany súkromia { -brand-mozilla(case: "gen") }
 fxa-service-url = Podmienky poskytovania služby { -product-firefox-cloud }
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 subplat-privacy-plaintext = Zásady ochrany súkromia:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Podmienky zrušenia
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušiť predplatné
 subplat-reactivate = Opätovne aktivovať predplatné
 subplat-update-billing = Aktualizovať informácie o spôsobe platby
@@ -20,10 +53,18 @@ subplat-privacy = Súkromie
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
 manage-account = Spravovať účet
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
 codes-generate = Vygenerovať kódy
 lowRecoveryCodes-action = Vygenerovať kódy
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
@@ -37,6 +78,7 @@ passwordResetAccountRecovery-title = Heslo k vášmu účtu bolo obnovené pomoc
 passwordResetAccountRecovery-description = Úspešne ste obnovili svoje heslo pomocou obnovovacieho kľúča z nasledujúceho zariadenia:
 passwordResetAccountRecovery-action = Vytvoriť nový obnovovací kľúč
 passwordResetAccountRecovery-regen-required = Musíte si vytvoriť nový obnovovací kľúč.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Vytvoriť nový obnovovací kľúč:
 postAddAccountRecovery-subject = Obnovovací kľúč k účtu bol vygenerovaný
 postAddAccountRecovery-title = Obnovovací kľúč k účtu bol vygenerovaný
@@ -113,4 +155,3 @@ verifySecondaryCode-expiry-notice = Jeho platnosť vyprší po 5 minútach. Po o
 verifyShortCode-title = Prihlasujete sa naozaj vy?
 verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
-
