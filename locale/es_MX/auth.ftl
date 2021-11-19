@@ -32,6 +32,9 @@ subplat-legal = Legal
 subplat-privacy = Privacidad
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
 change-password-plaintext = Si sospechas que alguien está tratando de acceder a tu cuenta, por favor, cambia tu contraseña.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
