@@ -24,33 +24,73 @@
 
 ## Email content
 
-fxa-privacy-url = Informativa sulla privacy { -brand-mozilla }
+fxa-privacy-url = Informativa sulla privacy  di { -brand-mozilla }
 fxa-service-url = Termini di servizio di { -product-firefox-cloud }
 subplat-automated-email = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
 subplat-privacy-plaintext = Informativa sulla privacy:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
+subplat-manage-account = Gestisci le impostazioni del tuo { -product-firefox-account } visitando la <a data-l10n-name="subplat-account-page">pagina dell’account</a>.
 subplat-terms-policy = Termini e condizioni di annullamento
-subplat-cancel = Annulla sottoscrizione
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Annulla abbonamento
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Rinnova l’abbonamento
 subplat-update-billing = Aggiorna le informazioni di fatturazione
 subplat-legal = Note legali
 subplat-privacy = Privacy
+another-desktop-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo desktop</a>.
+another-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo</a>.
+automated-email-change =
+    Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="passwordChangeLink">cambia la tua password</a>.
+    Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’{ -product-firefox-account }, cambia subito la password utilizzando il link { $passwordChangeLink }
+automated-email =
+    Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore puoi semplicemente ignorarla.
+    Per ulteriori informazioni visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-plaintext = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+automated-email-reset =
+    Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="resetLink">ripristina la tua password</a>.
+    Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Se non sei stato tu a effettuare questa modifica, reimposta la password al link { $resetLink }
 change-password-plaintext = Se ritieni che qualcuno stia tentando di accedere indebitamente al tuo account, cambiane subito la password.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Indirizzo IP: { $ip }
 manage-account = Gestisci account
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Hai delle domande sull’abbonamento? Il <a data-l10n-name="subscriptionSupportUrl">team di supporto</a> è a tua disposizione.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupport-plaintext = Hai delle domande sulle sottoscrizioni? Il team di supporto è a tua disposizione:
+subscriptionSupport-plaintext = Hai delle domande sull’abbonamento? Il team di supporto è a tua disposizione:
+subscriptionUpdatePayment = Al fine di prevenire l’interruzione del servizio è consigliato <a data-l10n-name="updateBillingUrl">aggiornare le informazioni di pagamento</a> il prima possibile.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Per evitare interruzioni del servizio, aggiorna le tue modalità di pagamento il prima possibile:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Per ulteriori informazioni visita { $supportUrl }
 cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione di Sync
 cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
+cadReminderFirst-description = Bisogna essere in due per sincronizzarsi… Sincronizzando un altro dispositivo con { -brand-firefox } potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi { -brand-firefox }, senza rinunciare alla riservatezza.
 cadReminderSecond-subject = Promemoria finale: completa la configurazione di Sync
 cadReminderSecond-action = Sincronizza un altro dispositivo
 cadReminderSecond-title = Ultimo promemoria per sincronizzare i dispositivi.
+cadReminderSecond-description = Sincronizzando un altro dispositivo con { -brand-firefox } potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi { -brand-firefox }, senza rinunciare alla riservatezza.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sono rimasti pochi codici di recupero
 codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di recupero. Genera dei nuovi codici per evitare di restare tagliato fuori dal tuo account.
 codes-generate = Genera codici
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Genera codici
 
 ## Variables:
