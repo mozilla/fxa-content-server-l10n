@@ -71,6 +71,7 @@ subscription-success-title = Confirmación de la suscripción
 subscription-processing-title = Confirmando suscripción…
 subscription-error-title = Error al confirmar la suscripción…
 subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
+subscription-iapsubscribed-title = Ya tienes una suscripción
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -316,6 +317,7 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Administrar
 account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index

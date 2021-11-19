@@ -24,8 +24,11 @@ fxa-privacy-url = Política de Privacidad de { -brand-mozilla }
 fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
 subplat-privacy-plaintext = Aviso de privacidad:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Términos y política de cancelación
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivar suscripción
 subplat-update-billing = Actualizar información de facturación
 subplat-legal = Legal
@@ -36,6 +39,7 @@ change-password-plaintext = Si sospechas que alguien está tratando de acceder a
 #  $ip (Number) - User's IP address
 user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -50,11 +54,13 @@ cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
 codes-generate = Generar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar códigos
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
 
 ##
 
@@ -65,6 +71,7 @@ passwordChangeRequired-subject = Actividad sospechosa detectada
 passwordChangeRequired-title = Se requiere cambio de contraseña
 passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-signoff = Saludos,
+passwordChangeRequired-signoff-name = El equipo de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
@@ -111,6 +118,9 @@ postVerify-description = Sync mantiene de forma privada tus marcadores, contrase
 postVerify-subject = Cuenta verificada. Sincroniza otro dispositivo para finalizar la configuración
 postVerify-setup = Configurar el siguiente dispositivo
 postVerify-action = Configurar el siguiente dispositivo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = ¿Tienes preguntas? Visita { $supportUrl }
 postVerifySecondary-subject = Correo electrónico secundario agregado
 postVerifySecondary-title = Correo electrónico secundario agregado
 postVerifySecondary-action = Administrar cuenta
@@ -130,6 +140,7 @@ verificationReminderFirst-subject = Recordatorio: Terminar de crear tu cuenta
 verificationReminderFirst-title = Bienvenido a la familia { -brand-firefox }
 verificationReminderFirst-sub-description = Confírmala ahora y accede a una tecnología que protege y lucha por tu privacidad, te ofrece información útil y el respeto que te mereces.
 confirm-email = Confirmar correo electrónico
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar correo electrónico
 verificationReminderSecond-subject = Recordatorio final: Activa tu cuenta
 verificationReminderSecond-title = ¿Sigues ahí?
@@ -140,7 +151,13 @@ verify-description-plaintext = Confirma tu cuenta y obtén lo mejor de { -brand-
 verify-description = Confirma tu cuenta y saca el máximo provecho de { -brand-firefox } dondequiera que inicies sesión, empezando por:
 verify-subject = Terminar de crear tu cuenta
 verify-action = Confirmar correo electrónico
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nuevo inicio de sesión en { $clientName }
 verifyLogin-description = Para mayor seguridad, confirma este inicio de sesión para que comience la sincronización con este dispositivo:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Confirmar nuevo inicio de sesión en { $clientName }
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $code (Number) - e.g. 123456
@@ -152,10 +169,12 @@ verifyPrimary-title = Verificar correo electrónico principal
 verifyPrimary-description = Hubo una petición de realizar un cambio de cuenta desde el siguiente dispositivo:
 verifyPrimary-subject = Confirmar correo principal
 verifyPrimary-action = Verificar correo
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una vez verificado este dispositivo, será posible realizar cambios a la cuenta, como agregar un correo electrónico secundario.
 verifySecondary-subject = Confirmar correo secundario
 verifySecondary-title = Verificar correo electrónico secundario
 verifySecondary-action = Verificar correo
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title = Verificar correo electrónico secundario

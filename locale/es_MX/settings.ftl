@@ -456,6 +456,8 @@ switch-turn-off = Desactivar
 switch-turn-on = Activar
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = Enviando…
+switch-is-on = activado
+switch-is-off = desactivado
 
 ## Sub-section row Defaults
 
