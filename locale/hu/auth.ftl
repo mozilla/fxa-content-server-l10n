@@ -2,36 +2,99 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox-fiókok
--product-firefox-account = Firefox-fiók
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox-fiókok
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox-fiók
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
 subplat-automated-email = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
 subplat-privacy-plaintext = Adatvédelmi nyilatkozat:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Azért kapta ezt az e-mailt, mert a(z) { $email } rendelkezik { -product-firefox-account }kal, és feliratkozott erre: { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Azért kapta ezt az e-mailt, mert a(z) { $email } rendelkezik { -product-firefox-account }kal, és több termékre is előfizet.
+subplat-manage-account = A { -product-firefox-account }ja beállításait a <a data-l10n-name="subplat-account-page">fiókoldal</a> felkeresésével kezelheti.
 subplat-terms-policy = Feltételek és lemondási feltételek
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Előfizetés lemondása
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Előfizetés újraaktiválása
 subplat-update-billing = Számlázási információk frissítése
 subplat-legal = Jogi információk
 subplat-privacy = Adatvédelem
+another-desktop-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
+another-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
+automated-email-change =
+    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -product-firefox-account }jához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
+automated-email =
+    Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
+    További információkért keresse fel a { -brand-mozilla } támogatást</a>.
 automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
+automated-email-reset =
+    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ha nem módosította, akkor állítsa helyre jelszavát itt: { $resetLink }
 change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, kérjük változtassa meg jelszavát.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-cím: { $ip }
 manage-account = Fiók kezelése
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:
+subscriptionUpdatePayment = A szolgáltatás folytonossága érdekében <a data-l10n-name="updateBillingUrl">frissítse a fizetési információit</a> a lehető leghamarabb.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekében frissítse a fizetési információit a lehető leghamarabb:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = További információkért keresse fel a { $supportUrl } oldalt
 cadReminderFirst-subject = Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását
 cadReminderFirst-action = Másik eszköz szinkronizálása
 cadReminderFirst-title = Itt az emlékeztető, hogy szinkronizálja az eszközeit.
+cadReminderFirst-description = Két félre van szükség a szinkronizáláshoz. Egy másik { -brand-firefox }ot használó eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat mindenütt, ahol a { -brand-firefox }ot használja.
 cadReminderSecond-subject = Végső emlékeztető: Fejezze be a Sync beállítását
 cadReminderSecond-action = Másik eszköz szinkronizálása
 cadReminderSecond-title = Utolsó emlékeztető az eszközök szinkronizálására!
+cadReminderSecond-description = Egy másik { -brand-firefox }ot használó eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat mindenütt, ahol a { -brand-firefox }ot használja.
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kevés helyreállító kód maradt
 codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
 codes-generate = Kódok előállítása
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Kódok előállítása
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
@@ -48,6 +111,7 @@ passwordResetAccountRecovery-title = A fiókja jelszava helyreállításra kerü
 passwordResetAccountRecovery-description = Sikeresen helyreállította a jelszavát egy helyreállítási kulccsal a következő eszközről:
 passwordResetAccountRecovery-action = Új helyreállítási kulcs létrehozása
 passwordResetAccountRecovery-regen-required = Új helyreállítási kulcsot kell előállítania.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Új helyreállítási kulcs létrehozása:
 postAddAccountRecovery-subject = Fiók helyreállítási kulcs előállítva
 postAddAccountRecovery-title = Fiók helyreállítási kulcs előállítva
@@ -134,4 +198,3 @@ verifySecondaryCode-expiry-notice = 5 perc múlva lejár. Ha hitelesíti, akkor 
 verifyShortCode-title = Ez az ön regisztrációja?
 verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
-
