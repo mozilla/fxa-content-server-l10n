@@ -49,44 +49,71 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Це автоматично надісланий лист; якщо ви не додавали новий пристрій до свого { -product-firefox-account }, вам потрібно негайно змінити свій пароль на { $passwordChangeLink }
+automated-email =
+    Це автоматично надісланий лист; якщо ви отримали його помилково, нічого робити не потрібно.
+    Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
 automated-email-plaintext = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
+automated-email-reset =
+    Це автоматично надісланий лист; якщо ви не авторизували цю дію, <a data-l10n-name="resetLink">скиньте свій пароль</a>.
+    Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Якщо ви не змінювали його, будь ласка, негайно скиньте його за посиланням { $resetLink }
 change-password-plaintext = Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-адреса: { $ip }
 manage-account = Керування обліковим записом
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Маєте питання щодо передплати? Наша <a data-l10n-name="subscriptionSupportUrl">команда підтримки</a> з радістю вам допоможе.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
+subscriptionUpdatePayment = Щоб уникнути будь-яких переривань в роботі вашої служби, якнайшвидше оновіть <a data-l10n-name="updateBillingUrl">свої платіжні дані</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Для отримання додаткової інформації, відвідайте { $supportUrl }
 cadReminderFirst-subject = Ваше нагадування: Як завершити налаштування синхронізації
 cadReminderFirst-action = Синхронізувати інший пристрій
 cadReminderFirst-title = Це ваше нагадування для синхронізації пристроїв.
+cadReminderFirst-description = Для синхронізації необхідно два пристрої. Синхронізація іншого пристрою з { -brand-firefox } приватно зберігає ваші закладки, паролі та інші дані { -brand-firefox }, щоб вони були однаковими всюди, де ви використовуєте { -brand-firefox }.
 cadReminderSecond-subject = Останнє нагадування: Завершіть налаштування синхронізації
 cadReminderSecond-action = Синхронізувати інший пристрій
 cadReminderSecond-title = Останнє нагадування про синхронізацію пристроїв!
+cadReminderSecond-description = Синхронізація іншого пристрою з { -brand-firefox } приватно зберігає ваші закладки, паролі та інші дані { -brand-firefox }, щоб вони були однаковими всюди, де ви використовуєте { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Залишилося мало кодів відновлення
 codes-reminder-description = У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису.
 codes-generate = Генерувати коди
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Генерувати коди
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Залишився 1 код відновлення
+        [few] Залишилося { $numberRemaining } коди відновлення
+       *[many] Залишилося { $numberRemaining } кодів відновлення
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Новий вхід у { $clientName }
+newDeviceLogin-title = Новий вхід у { $clientName }
 
 ##
 
 newDeviceLogin-action = Керування обліковим записом
 passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
+passwordChanged-description = Пароль вашого { -product-firefox-account } був успішно змінений з цього пристрою:
 passwordChangeRequired-subject = Виявлено підозрілу активність
 passwordChangeRequired-title = Необхідно змінити пароль
+passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account }. Для запобігання несанкціонованому доступу до вашого { -product-firefox-account }, ми відʼєднали всі пристрої повʼязані з вашим обліковим записом та вимагаємо змінити ваш пароль як запобіжний захід.
 passwordChangeRequired-sign-in = Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій обліковий запис { -product-firefox-account } і виконайте запропоновані вказівки.
 passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordChangeRequired-signoff = Всього найкращого,
+passwordChangeRequired-signoff-name = Команда { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
@@ -100,14 +127,21 @@ passwordResetAccountRecovery-regen-required = Вам необхідно буде
 passwordResetAccountRecovery-create-key = Створити новий ключ відновлення:
 postAddAccountRecovery-subject = Ключ відновлення облікового запису згенеровано
 postAddAccountRecovery-title = Ключ відновлення облікового запису згенеровано
+postAddAccountRecovery-description = Ви успішно згенерували ключ відновлення свого { -product-firefox-account } за допомогою цього пристрою:
 postAddAccountRecovery-action = Керування обліковим записом
+postAddAccountRecovery-recovery = Якщо це були не ви, <a data-l10n-name="revokeAccountRecoveryLink">натисніть тут.</a>
 postAddAccountRecovery-revoke = Якщо це були не ви, відхиліть ключ.
 postAddTwoStepAuthentication-subject = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title = Двоетапну перевірку увімкнено
+postAddTwoStepAuthentication-description-plaintext = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account }. Відтепер за кожного входу необхідно вводити коди безпеки з вашого застосунку автентифікації.
+postAddTwoStepAuthentication-description = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account } з такого пристрою:
 postAddTwoStepAuthentication-action = Керування обліковим записом
 postAddTwoStepAuthentication-code-required = Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації.
 postChangePrimary-subject = Основну адресу електронної пошти оновлено
 postChangePrimary-title = Нова основна адреса електронної пошти
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Ви успішно змінили свою основну адресу електронної пошти на { $email }. Ця адреса відтепер є вашим ім’ям користувача для входу в { -product-firefox-account }, а також отримання сповіщень безпеки та підтверджень входу.
 postChangePrimary-action = Керування обліковим записом
 postConsumeRecoveryCode-subject = Використано код відновлення
 postConsumeRecoveryCode-title = Використано код відновлення
