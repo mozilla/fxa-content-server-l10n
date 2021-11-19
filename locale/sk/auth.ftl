@@ -117,8 +117,14 @@ subplat-legal = Právne informácie
 subplat-privacy = Súkromie
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adresa: { $ip }
 manage-account = Spravovať účet
 manage-account-plaintext = { manage-account }:
+cadReminderFirst-action = Synchronizovať ďalšie zariadenie
+cadReminderSecond-action = Synchronizovať ďalšie zariadenie
+cadReminderSecond-title = Posledná pripomienka na synchronizáciu zariadení!
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
@@ -136,6 +142,7 @@ newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
 passwordChangeRequired-subject = Bola zistená podozrivá aktivita
+passwordChangeRequired-title = Vyžaduje sa zmena hesla
 passwordChangeRequired-signoff = S pozdravom,
 passwordReset-subject = Heslo bolo aktualizované
 passwordReset-title = Heslo k vášmu účtu bolo zmenené
@@ -177,6 +184,7 @@ postRemoveTwoStepAuthentication-subject = Dvojstupňové overenie je vypnuté
 postRemoveTwoStepAuthentication-title = Dvojstupňové overenie bolo zakázané
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
+postVerify-subject = Účet overený. Nastavenie dokončite synchronizáciou iného zariadenia
 postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-action = Spravovať účet
@@ -209,18 +217,28 @@ verify-subject = Dokončite vytváranie svojho účtu
 verify-action = Potvrdiť e-mailovú adresu
 verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte toto prihlásenie z nasledujúceho zariadenia:
 verifyLogin-action = Potvrdiť prihlásenie
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Overovací kód: { $code }
 verifyLoginCode-title = Spoznávate toto prihlásenie?
 verifyLoginCode-prompt = Ak áno, tu je overovací kód:
 verifyLoginCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
 verifyPrimary-title = Overiť hlavnú e-mailovú adresu
 verifyPrimary-description = Požiadavka na zmenu v účte prišla z nasledovného zariadenia:
-verifyPrimary-subject = Potvrdiť hlavnú e-mailovú adresu
+verifyPrimary-subject = Potvrdenie hlavnej e-mailovej adresy
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy.
+verifySecondary-subject = Potvrdenie alternatívnej e-mailovej adresy
 verifySecondary-title = Overiť alternatívnu e-mailovú adresu
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
+verifySecondaryCode-subject = Potvrdenie alternatívnej e-mailovej adresy
 verifySecondaryCode-title = Overiť alternatívnu e-mailovú adresu
 verifySecondaryCode-prompt = Použite tento overovací kód:
 verifySecondaryCode-expiry-notice = Jeho platnosť vyprší po 5 minútach. Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Overovací kód: { $code }
 verifyShortCode-title = Prihlasujete sa naozaj vy?
 verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
