@@ -153,34 +153,67 @@ postNewRecoveryCodes-description = Ви успішно згенерували н
 postNewRecoveryCodes-action = Керування обліковим записом
 postRemoveAccountRecovery-subject = Ключ відновлення облікового запису вилучено
 postRemoveAccountRecovery-title = Ключ відновлення облікового запису вилучено
+postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account } за допомогою цього пристрою:
 postRemoveAccountRecovery-action = Керування обліковим записом
 postRemoveAccountRecovery-invalid = Цей ключ більше не можна використати для відновлення вашого облікового запису.
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account }. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу.
 postRemoveSecondary-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-subject = Двоетапна перевірка вимкнена
 postRemoveTwoStepAuthentication-title = Двоетапну перевірку вимкнено
+postRemoveTwoStepAuthentication-description = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account } з такого пристрою:
+postRemoveTwoStepAuthentication-description-plaintext = Ви успішно вимкнули двоетапну перевірку { -product-firefox-account }. Відтепер більше не потрібно вводити коди безпеки за кожного входу.
 postRemoveTwoStepAuthentication-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-not-required = Тепер коди безпеки більше не будуть вимагатися при кожному вході.
+postVerify-sub-title = { -product-firefox-account } підтверджено. Майже все готово.
 postVerify-title = Тепер синхронізуйте інформацію між своїми пристроями!
 postVerify-description = Ваші закладки, паролі та інші дані { -brand-firefox } приватно синхронізуються на всіх ваших пристроях.
 postVerify-subject = Обліковий запис підтверджено. Тепер синхронізуйте інший пристрій, щоб завершити налаштування
 postVerify-setup = Налаштувати інший пристрій
 postVerify-action = Налаштувати інший пристрій
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Є питання? Відвідайте { $supportUrl }
 postVerifySecondary-subject = Альтернативну електронну пошту додано
 postVerifySecondary-title = Альтернативну електронну пошту додано
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account }. Сповіщення безпеки та підтвердження входу тепер будуть надсилатися на обидві адреси.
 postVerifySecondary-action = Керування обліковим записом
 recovery-subject = Відновити свій пароль
 recovery-title = Необхідно скинути пароль?
 recovery-description = Натисніть на кнопку протягом наступної години, щоб створити новий пароль. Запит надійшов з такого пристрою:
 recovery-action = Створити новий пароль
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Незабаром, завершується термін дії кредитної картки для оплати за { $productName }
 subscriptionPaymentExpired-title = Закінчується термін дії вашої кредитної картки
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Завершується термін дії кредитної картки, з якої здійснюються платежі за користування { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Передплату { $productName } поновлено
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Дякуємо, що поновили передплату на { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ваш цикл платежів та їхній розмір залишаться незмінними. Наступна оплата складе { $invoiceTotal } та буде здійснена { $nextInvoiceDateOnly }. Ваша передплата автоматично продовжуватиметься на встановлений розрахунковий період, доки ви не скасуєте її.
 subscriptionsPaymentExpired-subject = Кредитна картка для ваших передплат незабаром втрачає чинність
 subscriptionsPaymentExpired-title = Закінчується термін дії вашої кредитної картки
 subscriptionsPaymentExpired-content = Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність.
 unblockCode-subject = Код підтвердження облікового запису
 unblockCode-title = Це ви виконуєте вхід?
 unblockCode-prompt = Якщо так, ось код авторизації, який вам потрібен:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Якщо так, ось код авторизації, який вам потрібен: { $unblockCode }
+unblockCode-report = Якщо ні, допоможіть нам не допустити зловмисників і <a data-l10n-name="reportSignInLink">повідомте про це нас.</a>
 unblockCode-report-plaintext = Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас.
 verificationReminderFirst-subject = Нагадування: Завершіть створення свого облікового запису
 verificationReminderFirst-title = Ласкаво просимо до сімейства { -brand-firefox }
@@ -191,6 +224,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Підтвердьте електронну пошту
 verificationReminderSecond-subject = Остаточне нагадування: Активуйте свій обліковий запис
 verificationReminderSecond-title = Досі тут?
+verificationReminderSecond-description = Майже тиждень тому ви створили обліковий запис { -product-firefox-account }, але не підтвердили його. Ми хвилюємося за вас.
 verificationReminderSecond-sub-description = Підтвердьте цю адресу електронної пошти, щоб активувати обліковий запис і дати нам знати, що все гаразд.
 verificationReminderSecond-action = Підтвердьте електронну пошту
 verify-title = Активуйте сімейство продуктів { -brand-firefox }
@@ -198,8 +232,17 @@ verify-description-plaintext = Підтвердьте свій облікови�
 verify-description = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-firefox } усюди де ви зайдете, починаючи з:
 verify-subject = Завершіть створення свого облікового запису
 verify-action = Підтвердьте електронну пошту
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Новий вхід у { $clientName }
 verifyLogin-description = Для додаткової безпеки, схваліть цей вхід з такого пристрою:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Схвалити новий вхід у { $clientName }
 verifyLogin-action = Підтвердити вхід
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Код підтвердження: { $code }
 verifyLoginCode-title = Це ви виконуєте вхід?
 verifyLoginCode-prompt = Якщо так, ось код підтвердження:
 verifyLoginCode-expiry-notice = Термін його дії спливає через 5 хвилин.
@@ -211,11 +254,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Після підтвердження з цього пристрою стануть доступними такі зміни облікового запису, як додавання альтернативної електронної пошти.
 verifySecondary-subject = Підтвердьте альтернативну адресу електронної пошти
 verifySecondary-title = Підтвердьте альтернативну е-пошту
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Запит на використання { $email } альтернативною електронною поштою, було зроблено з такого { -product-firefox-account }:
 verifySecondary-action = Підтвердьте е-пошту
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Одразу після підтвердження, на цю адресу почнуть приходити сповіщення безпеки і входу.
 verifySecondaryCode-subject = Підтвердьте альтернативну адресу електронної пошти
 verifySecondaryCode-title = Підтвердьте альтернативну е-пошту
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Запит на використання { $email } альтернативною електронною поштою, було зроблено з такого { -product-firefox-account }:
 verifySecondaryCode-prompt = Використати цей код підтвердження:
 verifySecondaryCode-expiry-notice = Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів.
 # Variables:
