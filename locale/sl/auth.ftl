@@ -2,42 +2,90 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Mozillina politika zasebnosti
 fxa-service-url = Pogoji uporabe { -brand-firefox }a v oblaku
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 subplat-privacy-plaintext = Obvestilo o zasebnosti:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Pogoji in pravila odpovedi
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Prekliči naročnino
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-update-billing = Posodobi podatke za račun
 subplat-legal = Pravne informacije
 subplat-privacy = Zasebnost
 automated-email-plaintext = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Naslov IP: { $ip }
 manage-account = Upravljanje računa
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Imate vprašanja o svoji naročnini? Naša <a data-l10n-name="subscriptionSupportUrl">ekipa za podporo</a> je tu, da vam pomaga.
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Imate vprašanja o vaši naročnini? Naša ekipa za podporo je tu, da vam pomaga:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Za več informacij obiščite { $supportUrl }
 cadReminderFirst-subject = Prijazen opomnik: Kako dokončati nastavitev sinhronizacije
 cadReminderFirst-action = Sinhroniziraj drugo napravo
 cadReminderFirst-title = Pošiljamo vam opomnik za sinhronizacijo naprav.
+cadReminderFirst-description = Za sinhronizacijo sta potrebna dva. Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
 cadReminderSecond-subject = Zadnji opomnik: dokončajte nastavitev sinhronizacije
 cadReminderSecond-action = Sinhroniziraj drugo napravo
 cadReminderSecond-title = Zadnji opomnik za sinhronizacijo naprav!
+cadReminderSecond-description = Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
 codes-reminder-description = Opazili smo, da vam zmanjkuje kod za obnovitev. Ustvarite nove kode, da preprečite izgubo dostopa do svojega računa.
 codes-generate = Ustvari kode
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Ustvari kode
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 preostala obnovitvena koda
+        [two] { $numberRemaining } preostali obnovitveni kodi
+        [few] { $numberRemaining } preostale obnovitvene kode
+       *[other] { $numberRemaining } preostalih obnovitvenih kod
+    }
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+newDeviceLogin-subject = Nova prijava v { $clientName }
+newDeviceLogin-title = Nova prijava v { $clientName }
+
+##
+
 newDeviceLogin-action = Upravljanje računa
 passwordChanged-subject = Geslo posodobljeno
 passwordChanged-title = Geslo uspešno spremenjeno
+passwordChanged-description = Geslo vašega { -product-firefox-account(sklon: "rodilnik") } je bilo uspešno spremenjeno z naslednje naprave:
 passwordChangeRequired-subject = Odkrita sumljiva aktivnost
 passwordChangeRequired-title = Zahtevana je sprememba gesla
-passwordChangeRequired-sign-in = Znova se prijavite v katerokoli napravo ali storitev, kjer uporabljate svoj { -brand-firefox } Račun, in sledite korakom, ki vam bodo predstavljeni.
+passwordChangeRequired-suspicious-activity = V vašem { -product-firefox-account(sklon: "mestnik") } smo zaznali sumljivo dejavnost. Da bi preprečili nepooblaščen dostop do vašega { -product-firefox-account(sklon: "rodilnik") }, smo iz njega odklopili vse naprave in iz previdnosti zahtevamo, da spremenite geslo.
+passwordChangeRequired-sign-in = Znova se prijavite v katerokoli napravo ali storitev, kjer uporabljate svoj { -product-firefox-account }, in sledite korakom, ki vam bodo predstavljeni.
 passwordChangeRequired-different-password = <b>Pomembno:</b> Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
 passwordChangeRequired-signoff = Lep pozdrav,
+passwordChangeRequired-signoff-name = Ekipa { -product-firefox-accounts(sklon: "rodilnik") }
 passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
 passwordReset-subject = Geslo posodobljeno
 passwordReset-title = Geslo vašega računa je bilo spremenjeno
@@ -47,13 +95,17 @@ passwordResetAccountRecovery-title = Geslo vašega računa je bilo ponastavljeno
 passwordResetAccountRecovery-description = Uspešno ste ponastavili svoje geslo z uporabo obnovitvenega ključa, z naslednje naprave:
 passwordResetAccountRecovery-action = Ustvari nov obnovitveni ključ
 passwordResetAccountRecovery-regen-required = Morali boste ustvariti nov obnovitveni ključ.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Ustvari nov obnovitveni ključ:
 postAddAccountRecovery-subject = Obnovitveni ključ za račun ustvarjen
 postAddAccountRecovery-title = Obnovitveni ključ za račun ustvarjen
+postAddAccountRecovery-description = Uspešno ste ustvarili obnovitveni ključ za svoj { -product-firefox-account } z uporabo naslednje naprave:
 postAddAccountRecovery-action = Upravljanje računa
+postAddAccountRecovery-recovery = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">kliknite tukaj</a>.
 postAddAccountRecovery-revoke = Če to niste bili vi, razveljavite ključ.
 postAddTwoStepAuthentication-subject = Overitev v dveh korakih je omogočena
 postAddTwoStepAuthentication-title = Overitev v dveh korakih je omogočena
+postAddTwoStepAuthentication-description-plaintext = Uspešno ste omogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode iz vaše aplikacije za overitev bodo odslej zahtevane ob vsaki prijavi.
 postAddTwoStepAuthentication-action = Upravljanje računa
 postAddTwoStepAuthentication-code-required = Varnostne kode iz vaše aplikacije za overitev bodo odslej zahtevane ob vsaki prijavi.
 postChangePrimary-subject = Glavni e-poštni naslov posodobljen
@@ -129,4 +181,3 @@ verifySecondaryCode-prompt = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
 verifyShortCode-title = Se prijavljate vi?
 verifyShortCode-expiry-notice = Poteče čez 5 minut.
-
