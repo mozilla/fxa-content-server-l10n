@@ -2,11 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Cuenta de Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Cuenta de Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Política de Privacidad de { -brand-mozilla }
 fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
@@ -20,7 +33,9 @@ subplat-privacy = Privacidad
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
 change-password-plaintext = Si sospechas que alguien está tratando de acceder a tu cuenta, por favor, cambia tu contraseña.
 manage-account = Administrar cuenta
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualizá tu información de pago lo antes posible:
 cadReminderFirst-subject = Un amable recordatorio: Cómo completar tus ajustes de sincronización
 cadReminderFirst-action = Sincronizar otro dispositivo
@@ -28,10 +43,18 @@ cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositiv
 cadReminderSecond-subject = Recordatorio final: Completar la configuración de Sync
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
 codes-generate = Generar códigos
 lowRecoveryCodes-action = Generar códigos
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
@@ -48,6 +71,7 @@ passwordResetAccountRecovery-title = La contraseña de tu cuenta fue restablecid
 passwordResetAccountRecovery-description = Haz restablecido exitosamente tu contraseña usando una llave de recuperación desde el siguiente dispositivo:
 passwordResetAccountRecovery-action = Crear nueva llave de recuperación
 passwordResetAccountRecovery-regen-required = Necesitarás generar una nueva llave de recuperación.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear nueva llave de recuperación:
 postAddAccountRecovery-subject = Llave de recuperación de cuenta generada
 postAddAccountRecovery-title = Llave de recuperación de cuenta generada
@@ -115,6 +139,9 @@ verify-subject = Terminar de crear tu cuenta
 verify-action = Confirmar correo electrónico
 verifyLogin-description = Para mayor seguridad, confirma este inicio de sesión para que comience la sincronización con este dispositivo:
 verifyLogin-action = Confirmar inicio de sesión
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Código de verificación: { $code }
 verifyLoginCode-title = ¿Eres tú iniciando sesión?
 verifyLoginCode-prompt = En caso afirmativo, aquí está el código de verificación:
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
@@ -131,7 +158,9 @@ verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title = Verificar correo electrónico secundario
 verifySecondaryCode-prompt = Usar este código de verificación:
 verifySecondaryCode-expiry-notice = Caduca en 5 minutos. Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Código de verificación: { $code }
 verifyShortCode-title = ¿Eres tú el que se ha registrado?
 verifyShortCode-prompt = En caso afirmativo, utiliza este código de verificación en tu formulario de registro:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
-
