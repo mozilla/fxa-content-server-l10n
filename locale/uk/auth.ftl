@@ -2,13 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
-fxa-service-url = Умови користування хмарними службами { -brand-firefox }
+fxa-service-url = Умови користування { -product-firefox-cloud }
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
 subplat-privacy-plaintext = Повідомлення про приватність:
 subplat-terms-policy = Умови та політика відмови від послуг
@@ -20,7 +33,9 @@ subplat-privacy = Приватність
 automated-email-plaintext = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
 change-password-plaintext = Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль.
 manage-account = Керування обліковим записом
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:
 cadReminderFirst-subject = Ваше нагадування: Як завершити налаштування синхронізації
 cadReminderFirst-action = Синхронізувати інший пристрій
@@ -28,10 +43,18 @@ cadReminderFirst-title = Це ваше нагадування для синхр�
 cadReminderSecond-subject = Останнє нагадування: Завершіть налаштування синхронізації
 cadReminderSecond-action = Синхронізувати інший пристрій
 cadReminderSecond-title = Останнє нагадування про синхронізацію пристроїв!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Залишилося мало кодів відновлення
 codes-reminder-description = У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису.
 codes-generate = Генерувати коди
 lowRecoveryCodes-action = Генерувати коди
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Керування обліковим записом
 passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
@@ -49,6 +72,7 @@ passwordResetAccountRecovery-title = Пароль вашого обліково�
 passwordResetAccountRecovery-description = Ви успішно відновили свій пароль з використанням ключа з такого пристрою:
 passwordResetAccountRecovery-action = Створити новий ключ відновлення
 passwordResetAccountRecovery-regen-required = Вам необхідно буде генерувати новий ключ відновлення.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Створити новий ключ відновлення:
 postAddAccountRecovery-subject = Ключ відновлення облікового запису згенеровано
 postAddAccountRecovery-title = Ключ відновлення облікового запису згенеровано
@@ -136,4 +160,3 @@ verifySecondaryCode-expiry-notice = Термін його дії спливає 
 verifyShortCode-title = Це ви виконуєте вхід?
 verifyShortCode-prompt = Якщо так, використайте цей код підтвердження у своїй формі реєстрації:
 verifyShortCode-expiry-notice = Термін його дії спливає через 5 хвилин.
-
