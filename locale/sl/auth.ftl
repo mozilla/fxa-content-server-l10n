@@ -64,6 +64,11 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-update-billing = Posodobi podatke za račun
 subplat-legal = Pravne informacije
 subplat-privacy = Zasebnost
+another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
+another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
 automated-email-plaintext = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo.
 # Variables:
