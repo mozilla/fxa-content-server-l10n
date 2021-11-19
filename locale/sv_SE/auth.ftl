@@ -157,6 +157,7 @@ verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som a
 verifySecondary-subject = Bekräfta sekundär e-postadress
 verifySecondary-title = Verifiera sekundär e-post
 verifySecondary-action = Verifiera e-postadress
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = När den är verifierad, kommer att denna adress börja ta emot säkerhetsmeddelanden och bekräftelser.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
 verifySecondaryCode-title = Verifiera sekundär e-post
