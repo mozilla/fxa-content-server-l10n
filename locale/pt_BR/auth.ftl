@@ -2,39 +2,76 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Contas Firefox
--product-firefox-account = Conta Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Contas Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Conta Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
 fxa-service-url = Termos do serviço do { -product-firefox-cloud }
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 subplat-privacy-plaintext = Aviso de privacidade:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Termos e política de cancelamento
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar assinatura
 subplat-update-billing = Atualizar informações de cobrança
 subplat-legal = Jurídico
 subplat-privacy = Privacidade
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Endereço IP: { $ip }
 manage-account = Gerenciar conta
+manage-account-plaintext = { manage-account }:
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre sua assinatura? Nossa equipe de suporte está aqui para ajudar.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Para mais informações, visite { $supportUrl }
 cadReminderFirst-subject = Seu lembrete amigável: Como concluir sua configuração de sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Aqui está seu lembrete para sincronizar dispositivos.
 cadReminderSecond-subject = Lembrete final: Conclua a configuração de sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title = Último lembrete para sincronizar dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada.
 codes-generate = Gerar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Gerar códigos
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+newDeviceLogin-subject = Novo acesso no { $clientName }
+newDeviceLogin-title = Novo acesso no { $clientName }
+
+##
+
 newDeviceLogin-action = Gerenciar conta
 passwordChanged-subject = Senha atualizada
 passwordChanged-title = Senha alterada com sucesso
+passwordChanged-description = Sua senha da { -product-firefox-account } foi alterada com sucesso a partir do seguinte dispositivo:
 passwordChangeRequired-subject = Detectada atividade suspeita
 passwordChangeRequired-title = Necessário mudar a senha
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
@@ -48,6 +85,7 @@ passwordResetAccountRecovery-title = A senha da sua conta foi redefinida com uma
 passwordResetAccountRecovery-description = Você redefiniu sua senha com sucesso usando uma chave de recuperação no seguinte dispositivo:
 passwordResetAccountRecovery-action = Criar nova chave de recuperação
 passwordResetAccountRecovery-regen-required = Você precisará gerar uma nova chave de recuperação.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Criar nova chave de recuperação:
 postAddAccountRecovery-subject = Gerada chave de recuperação de conta
 postAddAccountRecovery-title = Gerada chave de recuperação de conta
@@ -126,12 +164,15 @@ verifyPrimary-post-verify = Uma vez validado, será possível realizar alteraç�
 verifySecondary-subject = Confirmar email secundário
 verifySecondary-title = Validar email secundário
 verifySecondary-action = Validar email
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Uma vez validado, este endereço começará a receber notificações de segurança e confirmações.
 verifySecondaryCode-subject = Confirmar email secundário
 verifySecondaryCode-title = Validar email secundário
 verifySecondaryCode-prompt = Use este código de verificação:
 verifySecondaryCode-expiry-notice = Ele expira em 5 minutos. Uma vez validado, este endereço começará a receber notificações e confirmações de segurança.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Código de verificação: { $code }
 verifyShortCode-title = É você mesmo se cadastrando?
 verifyShortCode-prompt = Caso afirmativo, use este código de verificação em seu formulário de cadastro:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
-
