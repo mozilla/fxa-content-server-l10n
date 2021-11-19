@@ -2,17 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox-konton
--product-firefox-account = Firefox-konto
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox-konton
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox-konto
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 subplat-automated-email = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
 subplat-privacy-plaintext = Sekretesspolicy:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Villkor och avbokningsregler
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt prenumeration
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Återaktivera prenumerationen
 subplat-update-billing = Uppdatera faktureringsinformation
 subplat-legal = Juridisk information
@@ -20,7 +36,10 @@ subplat-privacy = Sekretess
 automated-email-plaintext = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
 change-password-plaintext = Om du misstänker att någon försöker få åtkomst till ditt konto, ändra ditt lösenord.
 manage-account = Hantera konto
+manage-account-plaintext = { manage-account }:
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Frågor om din prenumeration? Vårt supportteam är här för att hjälpa dig:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = För att förhindra avbrott i din tjänst, uppdatera din betalningsinformation så snart som möjligt:
 cadReminderFirst-subject = En vänlig påminnelse: Så slutför du din konfiguration av Sync
 cadReminderFirst-action = Synkronisera en annan enhet
@@ -28,10 +47,19 @@ cadReminderFirst-title = Här är din påminnelse om att synkronisera enheter.
 cadReminderSecond-subject = Sista påminnelse: Slutför konfiguration av Sync
 cadReminderSecond-action = Synkronisera en annan enhet
 cadReminderSecond-title = Sista påminnelse om att synkronisera enheter!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Få återställningskoder återstår
 codes-reminder-description = Få återställningskoder återstår. Tänk på att generera nya koder för att undvika att bli utelåst från ditt konto.
 codes-generate = Generera koder
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generera koder
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Hantera konto
 passwordChanged-subject = Lösenord uppdaterat
 passwordChanged-title = Lösenord har ändrats
@@ -48,6 +76,7 @@ passwordResetAccountRecovery-title = Lösenordet till ditt konto återställdes 
 passwordResetAccountRecovery-description = Du har återställt ditt lösenord med hjälp av en återställningsnyckel från följande enhet:
 passwordResetAccountRecovery-action = Skapa ny återställningsnyckel
 passwordResetAccountRecovery-regen-required = Du måste skapa en ny återställningsnyckel.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Skapa ny återställningsnyckel:
 postAddAccountRecovery-subject = Återställningsnyckel genererad
 postAddAccountRecovery-title = Återställningsnyckel genererad
@@ -103,6 +132,7 @@ verificationReminderFirst-subject = Påminnelse: Slutför skapande av ditt konto
 verificationReminderFirst-title = Välkommen till { -brand-firefox }-familjen
 verificationReminderFirst-sub-description = Bekräfta nu och få teknik som bekämpar och skyddar din integritet och ger dig den praktiska kunskapen och respekten du förtjänar.
 confirm-email = Bekräfta e-postadress
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Bekräfta e-postadress
 verificationReminderSecond-subject = Sista påminnelse: Aktivera ditt konto
 verificationReminderSecond-title = Fortfarande där?
@@ -122,6 +152,7 @@ verifyPrimary-title = Verifiera primär e-post
 verifyPrimary-description = En begäran om att göra en kontoändring har gjorts från följande enhet:
 verifyPrimary-subject = Bekräfta primär e-postadress
 verifyPrimary-action = Verifiera e-postadress
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som att lägga till en sekundär e-post att bli möjlig från den här enheten.
 verifySecondary-subject = Bekräfta sekundär e-postadress
 verifySecondary-title = Verifiera sekundär e-post
@@ -134,4 +165,3 @@ verifySecondaryCode-expiry-notice = Den upphör inom 5 minuter. När den har ver
 verifyShortCode-title = Är det du som registrerar dig?
 verifyShortCode-prompt = Om ja, använd den här verifieringskoden i ditt registreringsformulär:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.
-
