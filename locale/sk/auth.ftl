@@ -135,6 +135,7 @@ lowRecoveryCodes-action = Vygenerovať kódy
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nové prihlásenie k { $clientName }
 
 ##
 
@@ -192,7 +193,14 @@ recovery-subject = Obnoviť heslo
 recovery-title = Potrebujete obnoviť svoje heslo?
 recovery-description = Pre vytvorenie nového hesla kliknite v priebehu hodiny na tlačidlo nižšie. Požiadavka prišla z nasledujúceho zariadenia:
 recovery-action = Vytvoriť nové heslo
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Platnosť kreditnej karty pre { $productName } čoskoro vyprší
 subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Predplatné pre { $productName } bolo znova aktivované
+subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše odbery čoskoro vyprší
 subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
 unblockCode-subject = Autorizačný kód účtu
 unblockCode-title = Spoznávate toto prihlásenie?
@@ -216,6 +224,9 @@ verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefo
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action = Potvrdiť e-mailovú adresu
 verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte toto prihlásenie z nasledujúceho zariadenia:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Potvrdenie nového prihlásenia k { $clientName }
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $code (Number) - e.g. 123456
