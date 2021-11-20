@@ -2,25 +2,51 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account =
+    { $case ->
+       *[a] חשבון Firefox
+        [the] חשבון ה־Firefox
+    }
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
 fxa-service-url = תנאי השירות של { -product-firefox-cloud }
-subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. 
+subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 subplat-privacy-plaintext = הצהרת פרטיות:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת אל { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
 subplat-terms-policy = תנאים ומדיניות ביטול
 subplat-cancel = ביטול מינוי
 subplat-reactivate = הפעלת המינוי מחדש
 subplat-update-billing = עדכון פרטי החיוב
 subplat-legal = מידע משפטי
 subplat-privacy = פרטיות
-automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך. 
+automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 change-password-plaintext = אם קיים חשש  שמישהו מנסה להשיג גישה לחשבונך, עליך לאפס את הססמה שלך.
 manage-account = ניהול חשבון
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = שאלות לגבי המנוי שלך? צוות התמיכה שלנו כאן כדי לעזור לך:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = כדי למנוע הפרעה כלשהי לשירות שלך, נא לעדכן את פרטי התשלום שלך בהקדם האפשרי:
 cadReminderFirst-subject = התזכורת הידידותית שלך: איך להשלים את הגדרת ה־Sync שלך
 cadReminderFirst-action = סנכרון מכשיר נוסף
@@ -28,16 +54,24 @@ cadReminderFirst-title = להלן התזכורת שלך לסנכרון מכשי�
 cadReminderSecond-subject = תזכורת אחרונה: נא להשלים את ההגדרה של Sync
 cadReminderSecond-action = סנכרון מכשיר נוסף
 cadReminderSecond-title = תזכורת אחרונה לסנכרון מכשירים!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = נותרו מעט קודים לשחזור
 codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
 codes-generate = יצירת קודים
 lowRecoveryCodes-action = יצירת קודים
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
 passwordChangeRequired-subject = זוהתה פעילות חשודה
 passwordChangeRequired-title = נדרש שינוי לססמה
-passwordChangeRequired-sign-in = יש להתחבר שוב לכל מכשיר או שירות שבו חשבון ה־{ -brand-firefox } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
+passwordChangeRequired-sign-in = יש להתחבר שוב לכל מכשיר או שירות שבו { -product-firefox-account(case: "the") } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
 passwordChangeRequired-different-password = <b>חשוב:</b> יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
 passwordChangeRequired-signoff = בברכה,
 passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
@@ -49,6 +83,7 @@ passwordResetAccountRecovery-title = ססמת החשבון שלך אופסה ע�
 passwordResetAccountRecovery-description = איפסת את הססמה שלך בהצלחה באמצעות מפתח שחזור מהמכשיר הבא:
 passwordResetAccountRecovery-action = יצירת מפתח שחזור חדש
 passwordResetAccountRecovery-regen-required = יהיה עליך לייצר מפתח שחזור חדש.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = יצירת מפתח שחזור חדש:
 postAddAccountRecovery-subject = נוצר מפתח לשחזור החשבון
 postAddAccountRecovery-title = נוצר מפתח לשחזור החשבון
@@ -101,7 +136,7 @@ unblockCode-prompt = אם כן, להלן קוד ההרשאה בו יש לך צו
 unblockCode-report-plaintext = אם לא, עזרו לנו להדוף פורצים ודווחו לנו על זה.
 verificationReminderFirst-subject = תזכורת: סיום יצירת החשבון שלך
 verificationReminderFirst-title = ברוכים הבאים למשפחת { -brand-firefox }
-verificationReminderFirst-description = לפני מספר ימים יצרת חשבון { -brand-firefox }, אבל לא אימתת אותו.
+verificationReminderFirst-description = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אבל לא אימתת אותו.
 confirm-email = אימות דוא״ל
 verificationReminderFirst-action = אימות דוא״ל
 verificationReminderSecond-subject = תזכורת אחרונה: הפעלת החשבון שלך
@@ -133,4 +168,3 @@ verifySecondaryCode-expiry-notice = הקוד יפוג בתוך 5 דקות. לא�
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
 verifyShortCode-prompt = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
-
