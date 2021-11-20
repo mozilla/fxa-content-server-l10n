@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-20 13:10+0000\n"
+"PO-Revision-Date: 2021-11-20 14:17+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -355,7 +355,7 @@ msgstr "Вы пока не можете получить доступ к сво�
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "Несколько дней назад вы создали аккаунт Firefox, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта и сможете использовать новую подписку."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
@@ -405,11 +405,11 @@ msgstr "Ваша подписка была отменена"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Мы отменили вашу подписку на %(productName)s из-за нескольких неудачных попыток взимания платы. Чтобы снова получить доступ, создайте новую подписку с обновлённым способом оплаты."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Мы отменили вашу подписку на %(productName)s из-за нескольких неудачных попыток взимания платы.  Чтобы снова получить доступ, создайте новую подписку с обновлённым способом оплаты."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -790,7 +790,7 @@ msgstr "Вы получили это письмо, так как на %(email)s 
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Вы получили это письмо, потому что у %(email)s есть аккаунт Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
