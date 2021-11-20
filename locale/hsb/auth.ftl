@@ -32,6 +32,7 @@ subplat-explainer-specific = Dóstawaće tutu mejlku, dokelž { $email } ma kont
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a sće wjacore produkty abonował.
+subplat-manage-account = Wopytajće swoju <a data-l10n-name="subplat-account-page">kontowu stronu</a>, zo byšće swoje nastajenja { -product-firefox-account } rjadował.
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowědźić
@@ -40,10 +41,21 @@ subplat-reactivate = Abonement zaso aktiwizować
 subplat-update-billing = Płaćenske informacije aktualizować
 subplat-legal = Prawniske
 subplat-privacy = Priwatnosć
+another-desktop-device = Abo instalujće na <a data-l10n-name="anotherDeviceLink">druhim desktopowym graće</a>.
+another-device = Abo instalujće na <a data-l10n-name="anotherDeviceLink">druhim graće</a>.
+automated-email-change =
+    To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="passwordChangeLink">změńće prošu swoje hesło.</a>.
+    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To je awtomatiska e-mejlka; jeli njejsće swojemu kontu{ -product-firefox-account } nowy grat přidał, změńcé prošu hnydom swoje hesło na { $passwordChangeLink }
+automated-email =
+    To je awtomatizowana mejlka; jeli sće ju mylnje dóstał, njetrjebaće ničo činić.
+    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
 automated-email-plaintext = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
+automated-email-reset =
+    To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="resetLink">stajće prošu swoje hesło wróćo.</a>.
+    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nětko swoje hesło na { $resetLink } wróćo
