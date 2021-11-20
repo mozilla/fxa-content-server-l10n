@@ -2,17 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox 帳號
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox 帳號
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
 fxa-service-url = { -product-firefox-cloud } 服務條款
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-plaintext = 隱私權保護政策:
+subplat-update-billing-plaintext = { subplat-update-billing }：
 subplat-terms-policy = 條款及取消政策
+subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消訂閱
+subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新啟用訂閱
 subplat-update-billing = 更新帳務資訊
 subplat-legal = 法律資訊
@@ -20,7 +36,10 @@ subplat-privacy = 隱私權
 automated-email-plaintext = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。
 manage-account = 管理帳號
+manage-account-plaintext = { manage-account }：
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 有訂閱內容的相關問題嗎？我們的技術支援團隊在此幫忙:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊:
 cadReminderFirst-subject = 善意提醒：如何完成 Sync 設定
 cadReminderFirst-action = 同步另一台裝置
@@ -28,10 +47,19 @@ cadReminderFirst-title = 提醒您要記得同步裝置。
 cadReminderSecond-subject = 這是最後一次顯示提醒囉：請完成 Sync 設定
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title = 這是最後一次顯示提醒囉，要記得同步裝置！
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
 codes-generate = 產生新代碼
+codes-generate-plaintext = { codes-generate }：
 lowRecoveryCodes-action = 產生新代碼
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
@@ -48,6 +76,7 @@ passwordResetAccountRecovery-title = 已使用救援金鑰重設密碼
 passwordResetAccountRecovery-description = 您已自下列裝置成功使用救援金鑰重設密碼:
 passwordResetAccountRecovery-action = 產生新的救援金鑰
 passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 產生新的救援金鑰:
 postAddAccountRecovery-subject = 已產生新的救援金鑰
 postAddAccountRecovery-title = 已產生新的救援金鑰
@@ -98,14 +127,21 @@ subscriptionsPaymentExpired-content = 您用來付款訂購下列項目的信用
 unblockCode-subject = 帳號授權碼
 unblockCode-title = 要登入的是您嗎？
 unblockCode-prompt = 是的話，以下是您的授權碼：
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $unblockCode }
+unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
 verificationReminderFirst-subject = 提醒: 請完成帳號註冊
 verificationReminderFirst-title = 歡迎來到 { -brand-firefox } 的大家庭
+verificationReminderFirst-description = 幾天前您註冊了 { -product-firefox-account }，但沒有進行確認。
 verificationReminderFirst-sub-description = 請立即確認，即可獲得為您的隱私而戰的相關技術、實用知識以及您應得的尊重。
 confirm-email = 確認電子郵件信箱
+confirm-email-plaintext = { confirm-email }：
 verificationReminderFirst-action = 確認電子郵件信箱
 verificationReminderSecond-subject = 這是最後一次顯示提醒囉：請啟用帳號
 verificationReminderSecond-title = 您還在嗎？
+verificationReminderSecond-description = 接近一週前，您註冊了 { -product-firefox-account }，但尚未確認電子郵件地址。
 verificationReminderSecond-sub-description = 請確認這個信箱是否有效，並且啟用帳號，讓我們知道您沒遇到什麼問題。
 verificationReminderSecond-action = 確認電子郵件信箱
 verify-title = 啟用 { -brand-firefox } 系列產品
@@ -115,6 +151,9 @@ verify-subject = 完成帳號註冊
 verify-action = 確認電子郵件信箱
 verifyLogin-description = 為了確保安全，請確認此次來自下列裝置的登入要求:
 verifyLogin-action = 確認登入
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = 驗證碼：{ $code }
 verifyLoginCode-title = 要登入的是您嗎？
 verifyLoginCode-prompt = 有的話，請使用下列驗證碼:
 verifyLoginCode-expiry-notice = 將於 5 分鐘後失效。
@@ -122,16 +161,20 @@ verifyPrimary-title = 驗證主要電子郵件地址
 verifyPrimary-description = 收到來自下列裝置的帳號變更請求:
 verifyPrimary-subject = 確認主要電子郵件地址
 verifyPrimary-action = 驗證信箱
+verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
 verifySecondary-subject = 確認次要電子郵件地址
 verifySecondary-title = 驗證次要電子郵件地址
 verifySecondary-action = 驗證信箱
+verifySecondary-prompt = { verifySecondary-action }：
 verifySecondary-post-verification = 驗證完成後，此信箱也會收到安全性通知與確認郵件。
 verifySecondaryCode-subject = 確認次要電子郵件地址
 verifySecondaryCode-title = 驗證次要電子郵件地址
 verifySecondaryCode-prompt = 使用這組驗證碼:
 verifySecondaryCode-expiry-notice = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = 驗證碼：{ $code }
 verifyShortCode-title = 您有註冊帳號嗎？
 verifyShortCode-prompt = 如果是的話，請在註冊標單輸入下列驗證碼:
 verifyShortCode-expiry-notice = 將於 5 分鐘後失效。
-
