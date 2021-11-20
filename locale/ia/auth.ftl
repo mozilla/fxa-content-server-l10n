@@ -157,11 +157,17 @@ postRemoveAccountRecovery-action = Gerer le conto
 postRemoveAccountRecovery-invalid = Iste clave de recuperation pote non plus esser usate pro recuperar tu conto.
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Tu ha removite con successo { $secondaryEmail }, como email secundari, de tu { -product-firefox-account }. Le notificationes de securitate e le confirmationes de authentication non sera plus livrate a iste adresse.
 postRemoveSecondary-action = Gerer le conto
 postRemoveTwoStepAuthentication-subject = Verification a duo passos disactivate
 postRemoveTwoStepAuthentication-title = Authentication a duo passos disactivate
+postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le authentication a duo passos in tu { -product-firefox-account } ab le apparato sequente:
+postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
 postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required = Le codices de securitate non essera plus necessari a cata authentication.
+postVerify-sub-title = { -product-firefox-account } verificate. Tu es quasi illac.
 postVerify-title = Seque synchronisation inter tu apparatos!
 postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, contrasignos e altere datos de { -brand-firefox } identic inter tote tu apparatos.
 postVerify-subject = Conto verificate. Seque synchronisar un altere dispositivo pro finir installation
@@ -172,6 +178,9 @@ postVerify-action = Configurar apparato sequente
 postVerify-support = Questiones? Visita { $supportUrl }
 postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Tu ha verificate con successo { $secondaryEmail } como email secundari de tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses e-mail.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
@@ -190,12 +199,19 @@ subscriptionReactivation-subject = Subscription a { $productName } reactivate
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Gratias pro le reactivation de tu subscription a { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
 subscriptionsPaymentExpired-subject = Le carta de credito pro tu subscriptiones va expirar tosto
 subscriptionsPaymentExpired-title = Tu carta de credito va expirar
 subscriptionsPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro le sequente subscriptiones es sur le puncto de expirar.
 unblockCode-subject = Codice de autorisation del conto
 unblockCode-title = Es tu qui aperi session?
 unblockCode-prompt = In tal caso, ecce le codice de autorisation que tu require:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Si si, ecce le codice de autorisation que te besonia: { $unblockCode }
 unblockCode-report-plaintext = Si non, adjuta nos a parar le intrusos e reporta lo a nos.
 verificationReminderFirst-subject = Rememoration: Termina le creation de tu conto
 verificationReminderFirst-title = Benvenite al familia de { -brand-firefox }
@@ -206,6 +222,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Rememoration final: Activa tu conto
 verificationReminderSecond-title = Ancora ci?
+verificationReminderSecond-description = Quasi un septimana retro tu ha create un { -product-firefox-account }, ma jammais verificate. Nos es preoccupate pro te.
 verificationReminderSecond-sub-description = Confirma iste adresse de e-mail pro activar tu conto e facer nos saper que toto es in ordine.
 verificationReminderSecond-action = Confirmar email
 verify-title = Activar le familia de productos { -brand-firefox }
