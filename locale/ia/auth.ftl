@@ -28,7 +28,11 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Tu recipe iste e-mail perque { $email } tu ha un { -product-firefox-account } e tu te inscribeva a { $productName }.
+subplat-explainer-specific = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu te inscribeva a { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu es abonate a plure productos.
+subplat-manage-account = Gere tu parametros del { -product-firefox-account } visitante tu <a data-l10n-name="subplat-account-page">pagina de conto</a>.
 subplat-terms-policy = Terminos e politica de cancellation
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancellar subscription
@@ -37,13 +41,31 @@ subplat-reactivate = Reactivar subscription
 subplat-update-billing = Actualisar le informationes de factura
 subplat-legal = Legal
 subplat-privacy = Confidentialitate
+another-desktop-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato scriptorio</a>.
+another-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato</a>.
+automated-email-change =
+    Isto es un e-mail automatisate; si tu non autorisa iste action, alora <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>.
+    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Isto es un e-mail automatisate; si tu non habeva addite un nove apparato a tu { -product-firefox-account }, tu debe cambiar tu contrasigno immediatemente a { $passwordChangeLink }
+automated-email =
+    Isto es un e-mail automatisate; si tu lo ha recipite per error, nulle action es necessari.
+    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
 automated-email-plaintext = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
+automated-email-reset =
+    Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
+    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Si tu non lo cambia, per favor reinitialisa tu contrasigno ora a { $resetLink }
 change-password-plaintext = Si tu suspecta que alcuno tenta ganiar accesso a tu conto, cambia tu contrasigno.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Adresse IP: { $ip }
 manage-account = Gerer le conto
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Questiones re tu subscription? Nostre <a data-l10n-name="subscriptionSupportUrl">equipa de assistentia</a> es hic pro adjutar te.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
