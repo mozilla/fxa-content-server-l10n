@@ -28,6 +28,7 @@ fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
 fxa-service-url = תנאי השירות של { -product-firefox-cloud }
 subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 subplat-privacy-plaintext = הצהרת פרטיות:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -35,12 +36,18 @@ subplat-explainer-specific = קיבלת הודעת דוא״ל זו מכיוון 
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
+subplat-manage-account = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } על־ידי ביקור ב<a data-l10n-name="subplat-account-page">דף החשבון</a> שלך.
 subplat-terms-policy = תנאים ומדיניות ביטול
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ביטול מינוי
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = הפעלת המינוי מחדש
 subplat-update-billing = עדכון פרטי החיוב
 subplat-legal = מידע משפטי
 subplat-privacy = פרטיות
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = זוהי הודעת דוא״ל שנשלחה באופן אוטומטי; אם לא הוספת מכשיר חדש ל{ -product-firefox-account(case: "the") }, עליך לשנות את ססמתך באופן מיידי בכתובת { $passwordChangeLink }
 automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
 change-password-plaintext = אם קיים חשש  שמישהו מנסה להשיג גישה לחשבונך, עליך לאפס את הססמה שלך.
 manage-account = ניהול חשבון
@@ -69,11 +76,14 @@ lowRecoveryCodes-action = יצירת קודים
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
+passwordChanged-description = ססמת { -product-firefox-account(case: "the") } שלך שונתה בהצלחה מהמכשיר הבא:
 passwordChangeRequired-subject = זוהתה פעילות חשודה
 passwordChangeRequired-title = נדרש שינוי לססמה
+passwordChangeRequired-suspicious-activity = איתרנו התנהגות חשודה ב{ -product-firefox-account(case: "the") } שלך. כדי למנוע גישה בלתי מורשית ל{ -product-firefox-account(case: "the") } שלך, ניתקנו את כל המכשירים בחשבון שלך ואנו דורשים ממך לשנות את הססמה שלך כאמצעי זהירות.
 passwordChangeRequired-sign-in = יש להתחבר שוב לכל מכשיר או שירות שבו { -product-firefox-account(case: "the") } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
 passwordChangeRequired-different-password = <b>חשוב:</b> יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
 passwordChangeRequired-signoff = בברכה,
+passwordChangeRequired-signoff-name = צוות { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
 passwordReset-subject = הססמה עודכנה
 passwordReset-title = ססמת החשבון שלך הוחלפה
@@ -87,14 +97,20 @@ passwordResetAccountRecovery-regen-required = יהיה עליך לייצר מפ�
 passwordResetAccountRecovery-create-key = יצירת מפתח שחזור חדש:
 postAddAccountRecovery-subject = נוצר מפתח לשחזור החשבון
 postAddAccountRecovery-title = נוצר מפתח לשחזור החשבון
+postAddAccountRecovery-description = ייצרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postAddAccountRecovery-action = ניהול חשבון
 postAddAccountRecovery-revoke = אם לא ביצעת את הפעולה, כדאי לשלול את המפתח.
 postAddTwoStepAuthentication-subject = אימות דו־שלבי הופעל
 postAddTwoStepAuthentication-title = אימות דו־שלבי הופעל
+postAddTwoStepAuthentication-description-plaintext = הפעלת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
+postAddTwoStepAuthentication-description = הפעלת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postAddTwoStepAuthentication-action = ניהול חשבון
 postAddTwoStepAuthentication-code-required = מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
 postChangePrimary-subject = כתובת הדוא״ל הראשית עודכנה
 postChangePrimary-title = כתובת דוא״ל ראשית חדשה
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-firefox-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
 postChangePrimary-action = ניהול חשבון
 postConsumeRecoveryCode-subject = נעשה שימוש בקוד שחזור
 postConsumeRecoveryCode-title = קוד השחזור הופעל
@@ -106,21 +122,31 @@ postNewRecoveryCodes-description = ייצרת בהצלחה קודים חדשים
 postNewRecoveryCodes-action = ניהול חשבון
 postRemoveAccountRecovery-subject = מפתח לשחזור החשבון הוסר
 postRemoveAccountRecovery-title = מפתח לשחזור החשבון הוסר
+postRemoveAccountRecovery-description = הסרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postRemoveAccountRecovery-action = ניהול חשבון
 postRemoveAccountRecovery-invalid = לא ניתן יותר להשתמש במפתח שחזור זה כדי לשחזר את החשבון שלך.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = הסרת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה לא יישלחו יותר לכתובת זו.
 postRemoveSecondary-action = ניהול חשבון
 postRemoveTwoStepAuthentication-subject = אימות דו־שלבי כבוי
 postRemoveTwoStepAuthentication-title = אימות דו־שלבי הושבת
+postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
+postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
+postVerify-sub-title = { -product-firefox-account(case: "the") } אומת. כמעט סיימת.
 postVerify-title = עכשיו ניתן לסנכרן בין המכשירים שלך!
 postVerify-subject = החשבון אומת. כעת, יש לסנכרן מכשיר נוסף כדי לסיים את ההתקנה
 postVerify-setup = הגדרת המכשיר הבא
 postVerify-action = הגדרת המכשיר הבא
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
 recovery-title = רצית לאפס את הססמה שלך?
@@ -141,6 +167,7 @@ confirm-email = אימות דוא״ל
 verificationReminderFirst-action = אימות דוא״ל
 verificationReminderSecond-subject = תזכורת אחרונה: הפעלת החשבון שלך
 verificationReminderSecond-title = עדיין פה?
+verificationReminderSecond-description = לפני כשבוע יצרת { -product-firefox-account(case: "a") } אך לא אימתת אותו. אנחנו דואגים לך.
 verificationReminderSecond-action = אימות דוא״ל
 verify-title = הפעלת משפחת המוצרים של { -brand-firefox }
 verify-description-plaintext = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר.
@@ -159,10 +186,16 @@ verifyPrimary-action = אימות דוא״ל
 verifyPrimary-post-verify = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
 verifySecondary-subject = אימות כתובת דוא״ל משנית
 verifySecondary-title = אימות כתובת דוא״ל משנית
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
 verifySecondary-action = אימות דוא״ל
 verifySecondary-post-verification = לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
 verifySecondaryCode-title = אימות כתובת דוא״ל משנית
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
 verifySecondaryCode-prompt = נא להשתמש בקוד האימות הזה:
 verifySecondaryCode-expiry-notice = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
