@@ -152,6 +152,7 @@ postNewRecoveryCodes-description = Tu ha generate con successo nove codices de r
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject = Clave de recuperation del conto removite
 postRemoveAccountRecovery-title = Clave de recuperation del conto removite
+postRemoveAccountRecovery-description = Tu ha removite con successo un clave de recuperation de tu { -product-firefox-account } per le sequente apparato:
 postRemoveAccountRecovery-action = Gerer le conto
 postRemoveAccountRecovery-invalid = Iste clave de recuperation pote non plus esser usate pro recuperar tu conto.
 postRemoveSecondary-subject = E-mail secundari removite
