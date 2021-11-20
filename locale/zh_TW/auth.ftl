@@ -43,15 +43,26 @@ subplat-legal = 法律資訊
 subplat-privacy = 隱私權
 another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
 another-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝。
+automated-email-change = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="passwordChangeLink">請立即更改密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = 這是由系統自動發出的郵件，若您並未新增裝置到 { -product-firefox-account }，請立即到 { $passwordChangeLink } 更改密碼。
+automated-email = 這是由系統自動發出的郵件，若您意外收到此郵件，可直接忽略並刪除。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-plaintext = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
+automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = 若您沒有要求變更，請立即到 { $resetLink } 重設密碼。
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP 地址：{ $ip }
 manage-account = 管理帳號
 manage-account-plaintext = { manage-account }：
+subscriptionSupport = 有關於訂閱服務的任何問題嗎？我們的<a data-l10n-name="subscriptionSupportUrl">技術支援團隊</a>在此為您服務。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 有訂閱內容的相關問題嗎？我們的技術支援團隊在此幫忙:
+subscriptionUpdatePayment = 為了避免服務中斷，請及早<a data-l10n-name="updateBillingUrl">更新付款資訊</a>。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊:
 # Variables:
@@ -60,15 +71,21 @@ support-message = 若需更多資訊，請到 { $supportUrl }
 cadReminderFirst-subject = 善意提醒：如何完成 Sync 設定
 cadReminderFirst-action = 同步另一台裝置
 cadReminderFirst-title = 提醒您要記得同步裝置。
+cadReminderFirst-description = 要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
 cadReminderSecond-subject = 這是最後一次顯示提醒囉：請完成 Sync 設定
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title = 這是最後一次顯示提醒囉，要記得同步裝置！
+cadReminderSecond-description = 可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
 codes-generate = 產生新代碼
 codes-generate-plaintext = { codes-generate }：
 lowRecoveryCodes-action = 產生新代碼
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+       *[other] 剩餘 { $numberRemaining } 組救援碼
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -84,6 +101,8 @@ passwordChanged-title = 已成功修改密碼
 passwordChanged-description = 已從下列裝置成功更改您的 { -product-firefox-account } 密碼：
 passwordChangeRequired-subject = 偵測到可疑行為
 passwordChangeRequired-title = 需要更改密碼
+passwordChangeRequired-suspicious-activity = 我們偵測到您的 { -product-firefox-account } 有可疑行為。為了防止您的 { -product-firefox-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
+passwordChangeRequired-sign-in = 請到您會使用 { -product-firefox-account } 的裝置重新登入，並依照顯示的步驟操作。
 passwordChangeRequired-different-password = <b>重要:</b> 請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
 passwordChangeRequired-signoff = 順頌　時祺
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } 團隊
@@ -106,10 +125,15 @@ postAddAccountRecovery-recovery = 若不是您做的，<a data-l10n-name="revoke
 postAddAccountRecovery-revoke = 若這不是您做的，請註銷該金鑰。
 postAddTwoStepAuthentication-subject = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title = 已開啟兩階段驗證
+postAddTwoStepAuthentication-description-plaintext = 您已成功開啟 { -product-firefox-account } 的兩階段驗證。每次登入時將會要求您輸入驗證程式中的安全碼。
+postAddTwoStepAuthentication-description = 您已從下列裝置成功為 { -product-firefox-account } 開啟兩階段驗證：
 postAddTwoStepAuthentication-action = 管理帳號
 postAddTwoStepAuthentication-code-required = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
 postConsumeRecoveryCode-subject = 已使用救援碼
 postConsumeRecoveryCode-title = 已使用救援碼
