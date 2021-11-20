@@ -171,6 +171,9 @@ postVerify-action = 設定下一台裝置
 postVerify-support = 有問題嗎？請到 { $supportUrl }
 postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title = 需要重設密碼嗎？
