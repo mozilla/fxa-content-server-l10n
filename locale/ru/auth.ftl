@@ -21,17 +21,34 @@
 ## Email content
 
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
-fxa-service-url = Условия предоставления облачных сервисов { -brand-firefox }
+fxa-service-url = Условия использования { -product-firefox-cloud }
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
 subplat-privacy-plaintext = Уведомление о конфиденциальности:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Вы получили это письмо, так как на { $email } заведён { -product-firefox-account }, и вы подписались на { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Вы получили это письмо, так как на { $email } заведён { -product-firefox-account }, и вы подписались на несколько продуктов.
+subplat-manage-account = Управляйте настройками { -product-firefox-account }, посетив <a data-l10n-name="subplat-account-page">страницу своего аккаунта</a>.
 subplat-terms-policy = Условия и политика отказа от подписки
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Отменить подписку
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Активировать подписку повторно
 subplat-update-billing = Обновить платёжную информацию
 subplat-legal = Права
 subplat-privacy = Приватность
+another-device = Или установите на <a data-l10n-name="anotherDeviceLink">другом устройстве</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Это автоматическое сообщение; если вы не добавляли новое устройство в ваш { -product-firefox-account }, вы должны немедленно сменить свой пароль через { $passwordChangeLink }
 automated-email-plaintext = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Если вы его не меняли, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
 change-password-plaintext = Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, пожалуйста, измените ваш пароль.
 manage-account = Управление аккаунтом
 # After the colon, there's a link to https://accounts.firefox.com/support

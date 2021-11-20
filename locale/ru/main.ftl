@@ -13,6 +13,9 @@ project-brand = Аккаунты Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
 brand-name-apple-app-store = App Store
 document =
@@ -35,6 +38,8 @@ payment-error-manage-subscription-button = Управление моей под�
 country-currency-mismatch = Валюта этой подписки недействительна для страны, связанной с вашим платежом.
 currency-currency-mismatch = Извините. Вы не можете переключаться между валютами.
 no-subscription-change = Извините. Вы не можете изменить свой план подписки.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Вы уже подписались через { $mobileAppStore }.
 expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
 insufficient-funds-error = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 withdrawal-count-limit-exceeded-error = Похоже, эта транзакция приведёт к превышению вашего кредитного лимита. Попробуйте другую карту.
@@ -66,6 +71,7 @@ subscription-success-title = Подтверждение подписки
 subscription-processing-title = Подтверждение подписки...
 subscription-error-title = Ошибка подтверждения подписки...
 subscription-noplanchange-title = Это изменение плана подписки не поддерживается
+subscription-iapsubscribed-title = Уже подписаны
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -327,6 +333,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Покупка в приложении
+sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в приложении
+sub-iap-item-manage-button = Управление
 account-activated = Ваш аккаунт активирован, <userEl/>
 
 ## subscription route index
@@ -446,3 +455,5 @@ new-user-email-validate-confirm = Адреса электронной почты
 new-user-already-has-account-sign-in = У вас уже есть аккаунт. <a>Войдите</a>
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
+manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
+manage-pocket-body = Чтобы управлять им, <a>щелкните здесь</a>.
