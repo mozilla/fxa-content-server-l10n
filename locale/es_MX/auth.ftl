@@ -44,6 +44,9 @@ manage-account-plaintext = { manage-account }:
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualizá tu información de pago lo antes posible:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Para obtener más información, visita { $supportUrl }
 cadReminderFirst-subject = Un amable recordatorio: Cómo completar tus ajustes de sincronización
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositivos.
@@ -61,6 +64,7 @@ lowRecoveryCodes-action = Generar códigos
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
 newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
+newDeviceLogin-title = Nuevo inicio de sesión en { $clientName }
 
 ##
 
@@ -138,6 +142,7 @@ unblockCode-prompt = Si es así, aquí está el código de autorización que nec
 unblockCode-report-plaintext = Si no es así, ayúdanos a defendernos de los intrusos e informarnos.
 verificationReminderFirst-subject = Recordatorio: Terminar de crear tu cuenta
 verificationReminderFirst-title = Bienvenido a la familia { -brand-firefox }
+verificationReminderFirst-description = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste.
 verificationReminderFirst-sub-description = Confírmala ahora y accede a una tecnología que protege y lucha por tu privacidad, te ofrece información útil y el respeto que te mereces.
 confirm-email = Confirmar correo electrónico
 confirm-email-plaintext = { confirm-email }:
