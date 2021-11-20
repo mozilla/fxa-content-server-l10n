@@ -25,6 +25,10 @@ fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
 subplat-privacy-plaintext = Aviso de confidentialitate:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Tu recipe iste e-mail perque { $email } tu ha un { -product-firefox-account } e tu te inscribeva a { $productName }.
 subplat-terms-policy = Terminos e politica de cancellation
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancellar subscription
