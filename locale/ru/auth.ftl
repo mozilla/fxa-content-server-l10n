@@ -50,32 +50,53 @@ automated-email-plaintext = Это автоматическое сообщени
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Если вы его не меняли, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
 change-password-plaintext = Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, пожалуйста, измените ваш пароль.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-адрес: { $ip }
 manage-account = Управление аккаунтом
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = У вас есть вопросы по вашей подписке? Наша <a data-l10n-name="subscriptionSupportUrl">команда поддержки</a> с радостью поможет вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = У вас есть вопросы по вашей подписке? Наша команда поддержки с радостью поможет вам:
+subscriptionUpdatePayment = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее <a data-l10n-name="updateBillingUrl">обновите вашу платёжную информацию</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите вашу платёжную информацию:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Для получения большей информации, посетите { $supportUrl }
 cadReminderFirst-subject = Ваше дружественное напоминание: Как завершить настройку синхронизации
 cadReminderFirst-action = Синхронизировать другое устройство
 cadReminderFirst-title = Вот ваше напоминание о синхронизации устройств.
+cadReminderFirst-description = Для синхронизации требуется два устройства. Синхронизация другого устройства с { -brand-firefox } конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } везде, где вы его используете { -brand-firefox }.
 cadReminderSecond-subject = Последнее напоминание: Завершите настройку синхронизации
 cadReminderSecond-action = Синхронизировать другое устройство
 cadReminderSecond-title = Последнее напоминание о синхронизации устройств!
+cadReminderSecond-description = Синхронизация другого устройства с { -brand-firefox } конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } везде, где вы его используете { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Осталось мало кодов восстановления
 codes-reminder-description = Мы заметили, что у вас осталось мало кодов восстановления. Пожалуйста, создайте новые коды, чтобы избежать блокировки вашего аккаунта.
 codes-generate = Сгенерировать коды
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Сгенерировать коды
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Остался %(numberRemaining)s код восстановления
+        [few] Осталось %(numberRemaining)s кода восстановления
+       *[many] Осталось %(numberRemaining)s кодов восстановления
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Новый вход в { $clientName }
+newDeviceLogin-title = Новый вход в { $clientName }
 
 ##
 
 newDeviceLogin-action = Управление аккаунтом
 passwordChanged-subject = Пароль изменён
 passwordChanged-title = Пароль успешно изменён
+passwordChanged-description = Пароль вашего { -product-firefox-account(case: "singular_genitive") }  был успешно изменён со следующего устройства:
 passwordChangeRequired-subject = Обнаружена подозрительная активность
 passwordChangeRequired-title = Необходима смена пароля
 passwordChangeRequired-sign-in = Войдите снова на любое устройство или службу, где вы используете свой аккаунт { -brand-firefox }, и следуйте инструкциям, которые будут вам предложены.
