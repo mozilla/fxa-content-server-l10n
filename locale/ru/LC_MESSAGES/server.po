@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-20 12:34+0000\n"
+"PO-Revision-Date: 2021-11-20 13:10+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -360,7 +360,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Выберите «Создать пароль», чтобы установить новый пароль и завершить проверку аккаунта."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"

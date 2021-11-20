@@ -27,6 +27,7 @@ alert-bar-close-message = Закрыть сообщение
 -product-firefox-accounts =
     { $case ->
        *[plural] Аккаунты Firefox
+        [plural_dative] Аккаунтам Firefox
         [singular_nominative] Аккаунт Firefox
         [singular_genitive] Аккаунта Firefox
     }
@@ -54,7 +55,7 @@ app-default-title = { -product-firefox-accounts }
 # Variables:
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
+app-page-title = { $title } | { -product-firefox-accounts(case: "plural") }
 app-footer-mozilla-logo-label = Логотип { -brand-mozilla }
 app-footer-privacy-notice = Уведомление о конфиденциальности веб-сайта
 app-footer-terms-of-service = Условия использования
@@ -165,15 +166,15 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Сбор и использование данных
-dc-subheader = Помогите улучшить { -product-firefox-accounts }
-dc-subheader-content = Разрешить { -product-firefox-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
-dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
-dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts }.
+dc-subheader = Помогите улучшить { -product-firefox-accounts(case: "plural") }
+dc-subheader-content = Разрешить { -product-firefox-accounts(case: "plural_dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "plural") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "plural") }.
 dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account }
+drop-down-menu-title = Меню { -product-firefox-account(case: "singular_genitive") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -201,7 +202,7 @@ header-menu-open = Закрыть меню
 header-menu-closed = Меню навигации по сайту
 header-back-to-top-link =
     .title = Наверх
-header-title = { -product-firefox-accounts }
+header-title = Аккаунт Firefox
 header-help = Помощь
 
 ## Input Password

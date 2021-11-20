@@ -216,6 +216,9 @@ verifySecondary-action = Подтвердить почту
 verifySecondary-post-verification = После подтверждения, на этот адрес станут приходить оповещения безопасности и подтверждения.
 verifySecondaryCode-subject = Подтвердите дополнительную электронную почту
 verifySecondaryCode-title = Подтвердите дополнительную электронную почту
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Запрос на использование { $email } в качестве дополнительного адреса электронной почты был выполнен со следующего { -product-firefox-account(case: "singular_genitive") }:
 verifySecondaryCode-prompt = Используйте этот код подтверждения:
 verifySecondaryCode-expiry-notice = Срок его действия истекает через 5 минут. После подтверждения, на этот адрес станут приходить оповещения безопасности и подтверждения.
 verifyShortCode-title = Это вы регистрируетесь?
