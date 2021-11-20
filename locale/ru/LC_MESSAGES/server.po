@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-20 14:17+0000\n"
+"PO-Revision-Date: 2021-11-20 14:29+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <LL@li.org>\n"
 "Language: ru\n"
@@ -750,7 +750,7 @@ msgstr "Это автоматическое сообщение; если вы п
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a %(resetLinkAttributes)s>смените свой пароль</a>."
+msgstr "Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a %(resetLinkAttributes)s>сбросьте свой пароль</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
