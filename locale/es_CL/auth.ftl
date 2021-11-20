@@ -25,6 +25,14 @@ fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un email automático. Si lo recibiste por error, no necesitas hacer nada.
 subplat-privacy-plaintext = Aviso de privacidad:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para múltiples productos.
+subplat-manage-account = Gestiona los ajustes de tu cuenta de { -product-firefox-account } visitando nuestra <a data-l10n-name="subplat-account-page">página de la cuenta.
 subplat-terms-policy = Términos y política de cancelación
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
@@ -33,23 +41,41 @@ subplat-reactivate = Reactivar suscripción
 subplat-update-billing = Actualizar información de pagos
 subplat-legal = Legal
 subplat-privacy = Privacidad
+another-desktop-device = O, instalalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo de escritorio</a>.
+another-device = O, instalalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Este es un email generado automáticamente; si no has añadido ningún dispositivo nuevo a tu { -product-firefox-account }, deberías cambiar inmediatamente tu contraseña en { $passwordChangeLink }
 automated-email-plaintext = Este es un email automático. Si lo recibiste por error, no necesitas hacer nada.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Si no la cambiaste, por favor reinicia tu contraseña ahora en { $resetLink }
 change-password-plaintext = Si sospechas que alguien está intentando ganar acceso a tu cuenta, por favor cambia tu contraseña.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de soporte está aquí para ayudarte:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Para más información, por favor visita { $supportUrl }
 cadReminderFirst-subject = Tu recordatorio amigable: Cómo completar la configuración de Sync
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-title = Aquí está su recordatorio para sincronizar dispositivos.
+cadReminderFirst-description = Se necesitan dos para sincronizar. Sincronizar otro dispositivo con { -brand-firefox } de forma privada mantiene tus marcadores, contraseñas y otros datos de { -brand-firefox } iguales en todos los lugares donde usas { -brand-firefox }.
 cadReminderSecond-subject = Recordatorio final: Completar la configuración de Sync
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+cadReminderSecond-description = Sincronizar otro dispositivo con { -brand-firefox } de forma privada mantiene tus marcadores, contraseñas y otros datos de { -brand-firefox } iguales en todos los lugares donde usas { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Notamos que te estás quedando corto en códigos de recuperación. Por favor, considera generar nuevos códigos para evitar quedar sin acceso a tu cuenta.
 codes-generate = Generar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar códigos
 
 ## Variables:
