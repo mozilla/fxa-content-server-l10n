@@ -77,9 +77,11 @@ support-message = För mer information, besök { $supportUrl }
 cadReminderFirst-subject = En vänlig påminnelse: Så slutför du din konfiguration av Sync
 cadReminderFirst-action = Synkronisera en annan enhet
 cadReminderFirst-title = Här är din påminnelse om att synkronisera enheter.
+cadReminderFirst-description = Synkronisering kräver två enheter. Genom att privat synkronisera en annan enhet med { -brand-firefox } förblir dina bokmärken, lösenord och andra { -brand-firefox }-data desamma var du än använder { -brand-firefox }.
 cadReminderSecond-subject = Sista påminnelse: Slutför konfiguration av Sync
 cadReminderSecond-action = Synkronisera en annan enhet
 cadReminderSecond-title = Sista påminnelse om att synkronisera enheter!
+cadReminderSecond-description = Genom att privat synkronisera en annan enhet med { -brand-firefox } förblir dina bokmärken, lösenord och andra { -brand-firefox }-data desamma var du än använder { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Få återställningskoder återstår
 codes-reminder-description = Få återställningskoder återstår. Tänk på att generera nya koder för att undvika att bli utelåst från ditt konto.
@@ -131,10 +133,14 @@ postAddAccountRecovery-revoke = Om det inte var du, återkalla nyckeln.
 postAddTwoStepAuthentication-subject = Tvåstegsautentisering aktiverad
 postAddTwoStepAuthentication-title = Tvåstegsautentisering aktiverad
 postAddTwoStepAuthentication-description-plaintext = Du har framgångsrikt aktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder från din autentiseringsapp kommer nu att krävas vid varje inloggning.
+postAddTwoStepAuthentication-description = Du har framgångsrikt aktiverat tvåstegsautentisering på ditt { -product-firefox-account } från följande enhet:
 postAddTwoStepAuthentication-action = Hantera konto
 postAddTwoStepAuthentication-code-required = Säkerhetskoder från din autentiseringsapp kommer nu att krävas vid varje inloggning.
 postChangePrimary-subject = Primär e-post uppdaterad
 postChangePrimary-title = Ny primär e-post
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
 postConsumeRecoveryCode-subject = Återställningskod använd
 postConsumeRecoveryCode-title = Återställningskod förbrukad
@@ -146,43 +152,78 @@ postNewRecoveryCodes-description = Du har genererat nya återställningskoder fr
 postNewRecoveryCodes-action = Hantera konto
 postRemoveAccountRecovery-subject = Kontoåterställningsnyckeln borttagen
 postRemoveAccountRecovery-title = Kontoåterställningsnyckeln borttagen
+postRemoveAccountRecovery-description = Du har tagit bort en kontoåterställningsnyckel för ditt { -product-firefox-account } med följande enhet:
 postRemoveAccountRecovery-action = Hantera konto
 postRemoveAccountRecovery-invalid = Den här återställningsnyckeln kan inte längre användas för att återställa ditt konto.
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Du har tagit bort { $secondaryEmail } som en sekundär e-post från ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den här adressen.
 postRemoveSecondary-action = Hantera konto
 postRemoveTwoStepAuthentication-subject = Tvåstegsverifiering är avstängd
 postRemoveTwoStepAuthentication-title = Tvåstegsautentisering inaktiverad
+postRemoveTwoStepAuthentication-description = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account } från följande enhet:
+postRemoveTwoStepAuthentication-description-plaintext = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder kommer inte längre att krävas vid varje inloggning.
 postRemoveTwoStepAuthentication-action = Hantera konto
 postRemoveTwoStepAuthentication-not-required = Säkerhetskoder behövs inte längre vid varje inloggning.
+postVerify-sub-title = { -product-firefox-account } verifierad. Du är nästan klar.
 postVerify-title = Synkronisera nu dina enheter!
 postVerify-description = Privat synkronisering håller dina bokmärken, lösenord och andra { -brand-firefox }-data desamma på alla dina enheter.
 postVerify-subject = Kontot verifierat. Synkronisera nu en annan enhet för att slutföra installationen
 postVerify-setup = Ställ in nästa enhet
 postVerify-action = Ställ in nästa enhet
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Har frågor? Besök { $supportUrl }
 postVerifySecondary-subject = Sekundär e-post tillagd
 postVerifySecondary-title = Sekundär e-post tillagd
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Du har framgångsrikt verifierat { $secondaryEmail } som en sekundär e-post från ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
 recovery-title = Behöver du återställa ditt lösenord?
 recovery-description = Klicka på knappen inom den närmaste timmen för att skapa ett nytt lösenord. Begäran kom från följande enhet:
 recovery-action = Skapa nytt lösenord
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kreditkortet för { $productName } upphör snart
 subscriptionPaymentExpired-title = Ditt kreditkort håller på att gå ut
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Kreditkortet du använder för att göra betalningar för { $productName } håller på att upphöra.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Prenumerationen på { $productName } har återaktiverats
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Tack för att du återaktiverade din prenumeration på { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Din faktureringscykel och betalning förblir desamma. Din nästa debitering blir { $invoiceTotal } den { $nextInvoiceDateOnly }. Ditt abonnemang förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 subscriptionsPaymentExpired-subject = Kreditkort för dina prenumerationer upphöra att gälla snart
 subscriptionsPaymentExpired-title = Ditt kreditkort håller på att gå ut
 subscriptionsPaymentExpired-content = Kreditkortet du använder för att betala för följande prenumerationer håller på att upphöra att gälla.
 unblockCode-subject = Behörighetskod för konto
 unblockCode-title = Är det du som loggar in?
 unblockCode-prompt = Om ja, här behörighetskoden som du behöver:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Om ja, här är auktoriseringskoden du behöver: { $unblockCode }
+unblockCode-report = Om nej, hjälp oss att avvärja inkräktare och <a data-l10n-name="reportSignInLink">rapportera det till oss</a>.
 unblockCode-report-plaintext = Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss.
 verificationReminderFirst-subject = Påminnelse: Slutför skapande av ditt konto
 verificationReminderFirst-title = Välkommen till { -brand-firefox }-familjen
+verificationReminderFirst-description = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig.
 verificationReminderFirst-sub-description = Bekräfta nu och få teknik som bekämpar och skyddar din integritet och ger dig den praktiska kunskapen och respekten du förtjänar.
 confirm-email = Bekräfta e-postadress
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Bekräfta e-postadress
 verificationReminderSecond-subject = Sista påminnelse: Aktivera ditt konto
 verificationReminderSecond-title = Fortfarande där?
+verificationReminderSecond-description = För nästan en vecka sedan skapade du ett { -product-firefox-account } men verifierade det aldrig. Vi undrar vad som hände.
 verificationReminderSecond-sub-description = Bekräfta den här e-postadressen för att aktivera ditt konto och meddela oss att du är okej.
 verificationReminderSecond-action = Bekräfta e-postadress
 verify-title = Aktivera { -brand-firefox }-familjen av produkter
@@ -212,11 +253,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som att lägga till en sekundär e-post att bli möjlig från den här enheten.
 verifySecondary-subject = Bekräfta sekundär e-postadress
 verifySecondary-title = Verifiera sekundär e-post
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
 verifySecondary-action = Verifiera e-postadress
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = När den är verifierad, kommer att denna adress börja ta emot säkerhetsmeddelanden och bekräftelser.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
 verifySecondaryCode-title = Verifiera sekundär e-post
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
 verifySecondaryCode-prompt = Använd den här verifieringskoden:
 verifySecondaryCode-expiry-notice = Den upphör inom 5 minuter. När den har verifierats börjar denna adress ta emot säkerhetsmeddelanden och bekräftelser.
 # Variables:
