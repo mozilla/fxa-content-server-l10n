@@ -2,17 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Cuentas de Firefox
--product-firefox-account = Cuenta de Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Cuentas de Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Cuenta de Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Política de privacidad de { -brand-mozilla }
 fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un email automático. Si lo recibiste por error, no necesitas hacer nada.
 subplat-privacy-plaintext = Aviso de privacidad:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Términos y política de cancelación
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivar suscripción
 subplat-update-billing = Actualizar información de pagos
 subplat-legal = Legal
@@ -20,7 +36,9 @@ subplat-privacy = Privacidad
 automated-email-plaintext = Este es un email automático. Si lo recibiste por error, no necesitas hacer nada.
 change-password-plaintext = Si sospechas que alguien está intentando ganar acceso a tu cuenta, por favor cambia tu contraseña.
 manage-account = Administrar cuenta
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de soporte está aquí para ayudarte:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
 cadReminderFirst-subject = Tu recordatorio amigable: Cómo completar la configuración de Sync
 cadReminderFirst-action = Sincronizar otro dispositivo
@@ -28,10 +46,18 @@ cadReminderFirst-title = Aquí está su recordatorio para sincronizar dispositiv
 cadReminderSecond-subject = Recordatorio final: Completar la configuración de Sync
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Notamos que te estás quedando corto en códigos de recuperación. Por favor, considera generar nuevos códigos para evitar quedar sin acceso a tu cuenta.
 codes-generate = Generar códigos
 lowRecoveryCodes-action = Generar códigos
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
@@ -48,6 +74,7 @@ passwordResetAccountRecovery-title = La contraseña de tu cuenta fue restablecid
 passwordResetAccountRecovery-description = Has restablecido exitosamente tu contraseña usando una clave de recuperación desde el siguiente dispositivo:
 passwordResetAccountRecovery-action = Crear una nueva clave de recuperación
 passwordResetAccountRecovery-regen-required = Ahora deberás generar una nueva clave de recuperación.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear una nueva clave de recuperación:
 postAddAccountRecovery-subject = Clave de recuperación de cuenta generada
 postAddAccountRecovery-title = Clave de recuperación de cuenta generada
@@ -134,4 +161,3 @@ verifySecondaryCode-expiry-notice = Expira en 5 minutos. Una vez verificada, est
 verifyShortCode-title = ¿Eres tu quien se está registrando?
 verifyShortCode-prompt = En caso afirmativo, utiliza este código de verificación en tu formulario de registro:
 verifyShortCode-expiry-notice = Expira en 5 minutos.
-
