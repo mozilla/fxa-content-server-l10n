@@ -136,6 +136,9 @@ subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πι
 unblockCode-subject = Κωδικός εξουσιοδότησης λογαριασμού
 unblockCode-title = Γίνεται σύνδεση;
 unblockCode-prompt = Αν ναι, ορίστε ο κωδικός εξουσιοδότησης που χρειάζεστε:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε: { $unblockCode }
 unblockCode-report-plaintext = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς.
 verificationReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verificationReminderFirst-title = Καλώς ορίσατε στην οικογένεια { -brand-firefox }
