@@ -56,8 +56,10 @@ change-password-plaintext = Si sospechas que alguien está intentando ganar acce
 user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = ¿Preguntas acerca de tu suscripción? Nuestro <a data-l10n-name="subscriptionSupportUrl">equipo de soporte</a> está aquí para ayudarte.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de soporte está aquí para ayudarte:
+subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio,<a data-l10n-name="updateBillingUrl">actualiza tu información de pago</a> lo antes posible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
 # Variables:
@@ -246,11 +248,18 @@ verifySecondary-title = Verificar correo secundario
 #  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
 verifySecondary-action = Verificar correo
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Una vez verificada, esta dirección empezará a recibir notificaciones de seguridad.y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title = Verificar correo secundario
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
 verifySecondaryCode-prompt = Usar este código de verificación:
 verifySecondaryCode-expiry-notice = Expira en 5 minutos. Una vez verificada, esta dirección empezará a recibir notificaciones de seguridad.y confirmaciones.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Código de verificación: { $code }
 verifyShortCode-title = ¿Eres tu quien se está registrando?
 verifyShortCode-prompt = En caso afirmativo, utiliza este código de verificación en tu formulario de registro:
 verifyShortCode-expiry-notice = Expira en 5 minutos.
