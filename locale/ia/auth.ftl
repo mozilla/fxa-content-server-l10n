@@ -212,6 +212,7 @@ unblockCode-prompt = In tal caso, ecce le codice de autorisation que tu require:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = Si si, ecce le codice de autorisation que te besonia: { $unblockCode }
+unblockCode-report = Si non, adjuta nos a parar le intrusos e <a data-l10n-name="reportSignInLink">reporta lo a nos</a>.
 unblockCode-report-plaintext = Si non, adjuta nos a parar le intrusos e reporta lo a nos.
 verificationReminderFirst-subject = Rememoration: Termina le creation de tu conto
 verificationReminderFirst-title = Benvenite al familia de { -brand-firefox }
@@ -252,11 +253,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Post le verifica le cambios del conto, como adder le email secundari, sera possibile per le apparato.
 verifySecondary-subject = Confirmar e-mail secundari
 verifySecondary-title = Verificar e-mail secundari
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
 verifySecondary-action = Verificar le email
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 verifySecondaryCode-subject = Confirmar e-mail secundari
 verifySecondaryCode-title = Verificar e-mail secundari
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
 verifySecondaryCode-prompt = Usa iste codice de verification:
 verifySecondaryCode-expiry-notice = Illo expira in 5 minutas. Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 # Variables:
