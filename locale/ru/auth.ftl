@@ -2,15 +2,29 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
 fxa-service-url = Условия предоставления облачных сервисов { -brand-firefox }
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
 subplat-privacy-plaintext = Уведомление о конфиденциальности:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Условия и политика отказа от подписки
 subplat-cancel = Отменить подписку
 subplat-reactivate = Активировать подписку повторно
@@ -20,7 +34,9 @@ subplat-privacy = Приватность
 automated-email-plaintext = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
 change-password-plaintext = Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, пожалуйста, измените ваш пароль.
 manage-account = Управление аккаунтом
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = У вас есть вопросы по вашей подписке? Наша команда поддержки с радостью поможет вам:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите вашу платёжную информацию:
 cadReminderFirst-subject = Ваше дружественное напоминание: Как завершить настройку синхронизации
 cadReminderFirst-action = Синхронизировать другое устройство
@@ -28,10 +44,18 @@ cadReminderFirst-title = Вот ваше напоминание о синхро�
 cadReminderSecond-subject = Последнее напоминание: Завершите настройку синхронизации
 cadReminderSecond-action = Синхронизировать другое устройство
 cadReminderSecond-title = Последнее напоминание о синхронизации устройств!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Осталось мало кодов восстановления
 codes-reminder-description = Мы заметили, что у вас осталось мало кодов восстановления. Пожалуйста, создайте новые коды, чтобы избежать блокировки вашего аккаунта.
 codes-generate = Сгенерировать коды
 lowRecoveryCodes-action = Сгенерировать коды
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Управление аккаунтом
 passwordChanged-subject = Пароль изменён
 passwordChanged-title = Пароль успешно изменён
@@ -49,6 +73,7 @@ passwordResetAccountRecovery-title = Пароль вашего аккаунта 
 passwordResetAccountRecovery-description = Вы успешно сбросили свой пароль с помощью ключа восстановления со следующего устройства:
 passwordResetAccountRecovery-action = Создать новый ключ восстановления
 passwordResetAccountRecovery-regen-required = Вам нужно сгенерировать новый ключ восстановления.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Создать новый ключ восстановления:
 postAddAccountRecovery-subject = Сгенерирован ключ восстановления аккаунта
 postAddAccountRecovery-title = Сгенерирован ключ восстановления аккаунта
@@ -136,4 +161,3 @@ verifySecondaryCode-expiry-notice = Срок его действия истек�
 verifyShortCode-title = Это вы регистрируетесь?
 verifyShortCode-prompt = Если да, используйте этот код верификации в своей регистрационной форме:
 verifyShortCode-expiry-notice = Срок его действия истечёт через 5 минут.
-
