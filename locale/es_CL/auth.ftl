@@ -77,10 +77,17 @@ codes-reminder-description = Notamos que te estás quedando corto en códigos de
 codes-generate = Generar códigos
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar códigos
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Queda 1 código de recuperación
+       *[other] Quedan { $numberRemaining } códigos de recuperación
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nueva conexión de { $clientName }
+newDeviceLogin-title = Nueva conexión de { $clientName }
 
 ##
 
