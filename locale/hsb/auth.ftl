@@ -25,6 +25,13 @@ fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-plaintext = Zdźělenka priwatnosće:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a wy sće za { $productName } zregistrowany.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a sće wjacore produkty abonował.
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowědźić
