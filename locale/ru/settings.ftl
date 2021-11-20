@@ -36,6 +36,7 @@ alert-bar-close-message = Закрыть сообщение
     { $case ->
        *[singular_nominative] Аккаунт Firefox
         [singular_genitive] Аккаунта Firefox
+        [singular_prepositional] Аккаунте Firefox
     }
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
