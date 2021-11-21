@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-21 00:52+0000\n"
+"PO-Revision-Date: 2021-11-21 01:02+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -415,11 +415,11 @@ msgstr "رایانامه کمکی باید با رایانامه حساب‌کا
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "شما به حداکثر مجازِ ایمیل‌های ثانویه رسیده‌اید"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "این ایمیل از پیش در حساب شما ثبت شده است"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
@@ -700,7 +700,7 @@ msgstr "ایمیل را اشتباه وارد کردید؟ %(domain)s امکان
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "حجم این تصویر برای آپلود خیلی بزرگ است."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
@@ -732,7 +732,7 @@ msgstr "به صورت آنلاین امن‌تر و باهوش‌تر بمانی
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "تست محصولات Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
@@ -740,7 +740,7 @@ msgstr ""
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "ایمنی و حریم خصوصی آنلاین با Firefox و Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -808,7 +808,7 @@ msgstr "جلسه یا کاربر تایید نشده"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "id_token_hint نامعتبر است"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
@@ -1048,7 +1048,7 @@ msgstr "کد تاییدیه را وارد کنید"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "ادامه به <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1474,7 +1474,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "آیا می‌خواهید تلفن خود را همگام‌سازی کنید؟"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
@@ -1506,7 +1506,7 @@ msgstr "متن‌های خود را بررسی کنید"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "برای شما یک پیامک فرستادیم"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1534,7 +1534,7 @@ msgstr "حساب‌های فایرفاکس"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "صفحهٔ اصلی"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1550,7 +1550,7 @@ msgstr "در چه خصوصی به ما می‌خواهید ارتباط برقر
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "لطفاً یکی را انتخاب کنید"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1578,7 +1578,7 @@ msgstr "ثبت نشده است"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "آیا برای برنامه یا سرویس خاصی به کمک نیاز دارید؟ (اختیاری)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
@@ -1624,7 +1624,7 @@ msgstr "رمزعبور را وارد کنید"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "با موفقیت متصل شد"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
@@ -1652,7 +1652,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "ارسال مجدد زبانه"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
@@ -1730,32 +1730,32 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "ادامه به %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "یک گذرواژه وارد کنید"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "تأیید گذرواژه"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "ایجاد گذرواژه"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "دستگاه متصل شد!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "اتصال یک دستگاه دیگر"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
-msgstr ""
+msgstr "استفاده از SMS"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
