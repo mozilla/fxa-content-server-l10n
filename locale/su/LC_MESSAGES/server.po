@@ -1,11 +1,11 @@
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-09-06 05:01+0000\n"
+"PO-Revision-Date: 2021-11-15 14:26+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: su\n"
@@ -356,11 +356,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
-msgstr ""
+msgstr "Jieun kecap sandi:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Wilujeng sumping di Firefox!"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -426,7 +426,7 @@ msgstr "Ditagih %(invoiceTotal)s ping %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Tingali tagihan anjeun</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:7
 #: lib/senders/templates/subscriptionSubsequentInvoice.txt:6
@@ -439,7 +439,7 @@ msgstr "Nomer Faktur: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Tingali Tagihan: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -1129,11 +1129,10 @@ msgstr "Undeur panganyarna"
 #~ msgstr "Mimiti mah, robah sandi Firefox Account anjeun."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr ""
-#~ "Kadua, mun Firefox neundeun sandi ka situs wéb, anjeun ogé kudu ngarobah éta sandi. Panarajang meureun baé boga aksés kana éta sandi, jadi anjeun kudu ngariksa éta akun sangkan mikanyaho "
-#~ "aktivitas nu nyurigakeun."
+#~ "Kadua, mun Firefox neundeun sandi ka situs wéb, anjeun ogé kudu ngarobah éta sandi. Panarajang meureun baé boga aksés kana éta sandi, jadi anjeun kudu ngariksa éta akun sangkan mikanyaho aktivitas "
+#~ "nu nyurigakeun."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "Lenyepan cara nempoan sandi nu diteundeun Firefox jang anjeun."

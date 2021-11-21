@@ -64,6 +64,9 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 
@@ -156,12 +159,18 @@ tfa-enabled = Oténtikasi dua léngkah diaktipkeun
 ## Security section of Setting
 
 
+## Switch component
+
+
 ## Sub-section row Defaults
 
 
 ## Recovery key sub-section on main Settings page
 
 rk-enabled = Diaktipkeun
+rk-remove-modal-content =
+    Nalika nyetél deui sandi, anjeun moal bisa
+    maké konci pamulihan pikeun muka data anjeun. Anjeun moal bisa ngabolaykeun ieu peta.
 
 ## Secondary email sub-section on main Settings page
 
