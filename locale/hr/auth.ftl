@@ -2,12 +2,25 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox računi
--product-firefox-account = Firefox račun
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-fxa-privacy-url = Mozillina politika privatnosti
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox računi
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox račun
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
+fxa-privacy-url = { -brand-mozilla } - politika privatnosti
 fxa-service-url = Uvjeti pružanja usluge { -product-firefox-cloud }
 subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
 subplat-privacy-plaintext = Napomena o privatnosti:
@@ -20,7 +33,9 @@ subplat-privacy = Privatnost
 automated-email-plaintext = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
 change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
 manage-account = Upravljanje računom
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 cadReminderFirst-subject = Tvoj prijateljski podsjetnik: kako dovršiti postavljanje sinkronizacije
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
@@ -28,10 +43,18 @@ cadReminderFirst-title = Tvoj podsjetnik za sinkronizaciju uređaja.
 cadReminderSecond-subject = Posljednji podsjetnik: dovrši postavljanje sinkronizacije
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
 cadReminderSecond-title = Zadnji podsjetnik za sinkronizaciju uređaja!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Preostao je mali broj kodova za oporavak
 codes-reminder-description = Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu.
 codes-generate = Generiraj kodove
 lowRecoveryCodes-action = Generiraj kodove
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
@@ -48,6 +71,7 @@ passwordResetAccountRecovery-title = Lozinka tvog računa ponovno je postavljena
 passwordResetAccountRecovery-description = Tvoja je zaporka uspješno ponovno postavljena koristeći ključ za oporavak na sljedećem uređaju:
 passwordResetAccountRecovery-action = Stvori novi ključ za obnovu
 passwordResetAccountRecovery-regen-required = Morat ćeš generirati novi ključ za oporavak.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Stvori novi ključ za oporavak:
 postAddAccountRecovery-subject = Stvoren je ključ za oporavak računa
 postAddAccountRecovery-title = Stvoren je ključ za oporavak računa
@@ -133,4 +157,3 @@ verifySecondaryCode-prompt = Koristi ovaj kôd za potvrdu:
 verifySecondaryCode-expiry-notice = Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde.
 verifyShortCode-title = Je li ovo tvoja prijava?
 verifyShortCode-expiry-notice = Istječe za 5 minuta.
-
