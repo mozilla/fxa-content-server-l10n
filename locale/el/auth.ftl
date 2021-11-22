@@ -117,11 +117,15 @@ postRemoveTwoStepAuthentication-subject = Η επαλήθευση δύο παρ�
 postRemoveTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required = Οι κωδικοί ασφαλείας δεν θα ζητούνται πλέον σε κάθε σύνδεση.
+postVerify-sub-title = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } επαληθεύτηκε. Σχεδόν τελειώσατε.
 postVerify-title = Επόμενος συγχρονισμός μεταξύ των συσκευών σας!
 postVerify-description = Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του { -brand-firefox }, σε όλες τις συσκευές σας.
 postVerify-subject = Ο λογαριασμός επαληθεύτηκε. Έπειτα, συγχρονίστε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
 postVerify-setup = Ρύθμιση επόμενης συσκευής
 postVerify-action = Ρύθμιση επόμενης συσκευής
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Έχετε ερωτήσεις; Επισκεφθείτε το { $supportUrl }
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = Προστέθηκε δευτερεύον email
 postVerifySecondary-action = Διαχείριση λογαριασμού
@@ -129,7 +133,13 @@ recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
 recovery-description = Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα
 subscriptionPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
 subscriptionsPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών.
@@ -160,6 +170,9 @@ verify-action = Επιβεβαίωση email
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title = Νέα σύνδεση στο { $clientName }
 verifyLogin-description = Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Επιβεβαίωση νέας σύνδεσης στο { $clientName }
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
 #  $code (Number) - e.g. 123456
