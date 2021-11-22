@@ -447,6 +447,14 @@ security-heading = Tekorosã
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Pe’aite
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Myandy
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Ohohína…
+switch-is-on = Myandypyre
+switch-is-off = Mboguepyre
 
 ## Sub-section row Defaults
 
