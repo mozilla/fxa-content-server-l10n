@@ -2,17 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox Account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox Account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } Ñemigua Purureko
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-plaintext = Ñemigua purureko:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Ñemboguata ha jeheja purureko
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ñemboheraguapy jeheja
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Emyandyjey mboheraguapy
 subplat-update-billing = Embohekopyahu marandu kuatiañemugua
 subplat-legal = Añete
@@ -20,7 +36,10 @@ subplat-privacy = Ñemigua
 automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
 manage-account = Mba’ete ñangareko
+manage-account-plaintext = { manage-account }:
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ápe nepytyvõ hag̃ua:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
 cadReminderFirst-subject = Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
@@ -28,10 +47,19 @@ cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
 cadReminderSecond-subject = Mandu’arã ipaháva: Embojuehepa Sync
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title = ¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
 codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
 codes-generate = Emoheñói ayvu
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Emoheñói ayvu
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
@@ -49,6 +77,7 @@ passwordResetAccountRecovery-title = Ne mba’ete ñe’ẽñemi ojeguerujey mba
 passwordResetAccountRecovery-description = Eguerujeýma ne ñe’ẽñemi eipurúvo mba’eñemi jeguerujeyrã tenondevegua mba’e’oka guive:
 passwordResetAccountRecovery-action = Emoheñói mba’eñemi jeguerujeyrã pyahu
 passwordResetAccountRecovery-regen-required = Emoheñóiva’erã mba’eñemi jeguerujeyrã pyahu.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Emoheñói mba’eñemi jeguerujeyrã pyahu:
 postAddAccountRecovery-subject = Mba’eñemi jeguerujeyrã mba’ete ipyahúvape
 postAddAccountRecovery-title = Mba’eñemi jeguerujeyrã mba’ete ipyahúvape
@@ -111,6 +140,7 @@ verificationReminderFirst-subject = Mandu’arã: Emoheñoimba ne mba’ete
 verificationReminderFirst-title = Eg̃uahẽporãite { -brand-firefox } mba’eteépe
 verificationReminderFirst-sub-description = Emoneĩ ko’ág̃a ha eguerekóta tembipurupyahu omo’ã ha oñorairõva ne rekorosãrãre, ome’ẽséva marandu iporãva ha opamba’e eikotevẽva.
 confirm-email = Ñandutiveve ñemoneĩ
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Ñandutiveve ñemoneĩ
 verificationReminderSecond-subject = Mandu’arã paha: emyandy ne mba’ete
 verificationReminderSecond-title = ¿Eime gueteri?
@@ -131,10 +161,12 @@ verifyPrimary-title = Ehechajey ñandutiveve mba’eguasuvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:
 verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action = Ñandutiveve hechajey
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Ojehechajeývo, umi mba’ete ambuepyre ojuajukuaáva ñanduti veve mokõihávare ejapóta ko mba’e’oka guive.
 verifySecondary-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondary-title = Ehechajey ñanduti veve mokõiháva
 verifySecondary-action = Ñandutiveve hechajey
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Ojehechajey vove, ko mba’ete oñepyrũta omog̃uahẽ marandu’i tekorosã ha ñemoneĩ rehegua.
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
@@ -143,4 +175,3 @@ verifySecondaryCode-expiry-notice = Opáta 5 aravo’ípe. Ojehechajey vove, ko 
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
 verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
-

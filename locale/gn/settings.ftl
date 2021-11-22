@@ -152,6 +152,10 @@ datablock-copy =
 datablock-print =
     .message = Monguatiapyre
 
+## Data collection section
+
+dc-learn-more = Kuaave
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } poravopyrã
@@ -440,6 +444,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Tekorosã
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
