@@ -32,7 +32,7 @@ subplat-explainer-specific = U ontvangt dit bericht omdat { $email } een { -prod
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = U ontvangt dit bericht omdat { $email } een { -product-firefox-account } heeft en u bent geabonneerd op meerdere producten.
-subplat-manage-account = Beheer uw { -product-firefox-account }instellingen door naar uw <a data-l10n-name="subplat-account-page">accountpagina</a> te gaan.
+subplat-manage-account = Beheer uw { -product-firefox-account }-instellingen door naar uw <a data-l10n-name="subplat-account-page">accountpagina</a> te gaan.
 subplat-terms-policy = Voorwaarden en opzeggingsbeleid
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonnement opzeggen
