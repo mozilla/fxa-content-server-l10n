@@ -2,15 +2,29 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = comptes Firefox
--product-firefox-account = compte Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = comptes Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = compte Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Politique de confidentialité de { -brand-mozilla }
 fxa-service-url = Conditions d’utilisation de { -product-firefox-cloud }
 subplat-automated-email = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
 subplat-privacy-plaintext = Politique de confidentialité :
+subplat-update-billing-plaintext = { subplat-update-billing } :
 subplat-terms-policy = Conditions et politique d’annulation
 subplat-cancel = Annuler l’abonnement
 subplat-reactivate = Réactiver l’abonnement
@@ -20,7 +34,9 @@ subplat-privacy = Vie privée
 automated-email-plaintext = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
 change-password-plaintext = Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe.
 manage-account = Gérer le compte
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Des questions sur votre abonnement ? Notre équipe d’assistance est là pour vous aider :
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre service, veuillez mettre à jour vos informations de paiement dès que possible :
 cadReminderFirst-subject = Petit rappel : voici comment terminer votre configuration de la synchronisation
 cadReminderFirst-action = Synchroniser un autre appareil
@@ -28,10 +44,18 @@ cadReminderFirst-title = Voici votre rappel pour synchroniser vos appareils.
 cadReminderSecond-subject = Dernier rappel : terminer la configuration de la synchronisation
 cadReminderSecond-action = Synchroniser un autre appareil
 cadReminderSecond-title = Dernier rappel pour synchroniser vos appareils !
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Il vous reste peu de codes de récupération
 codes-reminder-description = Nous avons remarqué qu’il vous reste peu de codes de récupération. Vous devriez générer de nouveaux codes pour éviter de perdre l’accès à votre compte.
 codes-generate = Générer des codes
 lowRecoveryCodes-action = Générer des codes
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Gérer le compte
 passwordChanged-subject = Mot de passe mis à jour
 passwordChanged-title = Modification du mot de passe
@@ -48,6 +72,7 @@ passwordResetAccountRecovery-title = Le mot de passe de votre compte a été ré
 passwordResetAccountRecovery-description = Vous avez réinitialisé votre mot de passe en utilisant une clé de récupération depuis l’appareil suivant :
 passwordResetAccountRecovery-action = Créer une nouvelle clé de récupération
 passwordResetAccountRecovery-regen-required = Vous devez générer une nouvelle clé de récupération.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Créer une nouvelle clé de récupération :
 postAddAccountRecovery-subject = La clé de récupération du compte a été générée
 postAddAccountRecovery-title = La clé de récupération du compte a été générée
@@ -134,4 +159,3 @@ verifySecondaryCode-expiry-notice = Celui-ci expire dans 5 minutes. Une fois vé
 verifyShortCode-title = Étiez-vous à l’origine de cette inscription ?
 verifyShortCode-prompt = Si oui, utilisez ce code de vérification dans votre formulaire d’inscription :
 verifyShortCode-expiry-notice = Il expire dans 5 minutes.
-
