@@ -77,28 +77,42 @@ support-message = Besykje { $supportUrl } foar mear ynformaasje
 cadReminderFirst-subject = In freonlik omtinken: ynstellen fan jo Sync foltôgje
 cadReminderFirst-action = Noch in apparaat syngronisearje
 cadReminderFirst-title = Dit is jo omtinken om apparaten te syngronisearjen.
+cadReminderFirst-description = Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
 cadReminderSecond-subject = Lêste omtinken: ynstellen fan Sync foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title = Lêste omtinken om apparaten te syngronisearjen!
+cadReminderSecond-description = As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Net in protte werstelkoaden restearjend
 codes-reminder-description = Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje nije koaden te generearjen om te foar te kommen dat jo gjin tagong mear hawwe ta jo account.
 codes-generate = Koaden generearje
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Koaden generearje
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Ien werstelkoade restearjend
+       *[other] { $numberRemaining } werstelkoaden restearjend
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nije oanmelding by { $clientName }
+newDeviceLogin-title = Nije oanmelding by { $clientName }
 
 ##
 
 newDeviceLogin-action = Account beheare
 passwordChanged-subject = Wachtwurd bywurke
 passwordChanged-title = Wachtwurd mei sukses wizige
+passwordChanged-description = Jo { -product-firefox-account }-wachtwurd is mei sukses op it folgjende apparaat wizige:
 passwordChangeRequired-subject = Fertochte aktiviteit detektearre
 passwordChangeRequired-title = Wachtwurdwiziging fereaske
+passwordChangeRequired-suspicious-activity = Wy hawwe fertocht gedrach yn jo { -product-firefox-account }-account detektearre. Om net tastiene tagong ta jo { -product-firefox-account } op te kearen, hawwe wy alle apparaten yn jo account ûntkeppele en jo moatte út foarsoarch jo wachtwurd wizigje.
+passwordChangeRequired-sign-in = Meld jo opnij oan op ien fan de apparaten of services wêr’t jo jo { -product-firefox-account } brûke en folgje de presintearre stappen.
 passwordChangeRequired-different-password = <b>Wichtich:</b> kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
 passwordChangeRequired-signoff = Freonlike groetnis,
+passwordChangeRequired-signoff-name = It { -product-firefox-accounts }-team
 passwordChangeRequired-different-password-plaintext = Wichtich: kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
 passwordReset-subject = Wachtwurd bywurke
 passwordReset-title = Jo accountwachtwurd is wizige
@@ -112,6 +126,7 @@ passwordResetAccountRecovery-regen-required = Jo moatte in nije werstelkaai gene
 passwordResetAccountRecovery-create-key = Nije werstelkaai generearje:
 postAddAccountRecovery-subject = Kaai foar accountwerstel generearre
 postAddAccountRecovery-title = Kaai foar accountwerstel generearre
+postAddAccountRecovery-description = Jo hawwe mei sukses in kaai foar accountwerstel foar jo { -product-firefox-account } generearre fia it folgjende apparaat:
 postAddAccountRecovery-action = Account beheare
 postAddAccountRecovery-revoke = As jo dit net dien hawwe, lûk dan de kaai yn.
 postAddTwoStepAuthentication-subject = Twa-staps autentikaasje ynskeakele
