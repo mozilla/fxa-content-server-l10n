@@ -10,6 +10,14 @@ project-brand = Firefox-konti
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox-konti
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Håndter mine abonnementer
 country-currency-mismatch = Dette abonnements valuta er ikke gyldig for det land, der er knyttet til din betaling.
 currency-currency-mismatch = Du kan ikke skifte mellem valutaer.
 no-subscription-change = Du kan ikke ændre din abonnementsplan.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Du abonnerer allerede via { $mobileAppStore }.
 expired-card-error = Det ser ud til, at dit betalingskort er udløbet. Prøv med et andet kort.
 insufficient-funds-error = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 withdrawal-count-limit-exceeded-error = Det ser ud til, at denne transaktion vil overskride din kreditgrænse. Prøv med et andet kort.
@@ -63,6 +73,7 @@ subscription-success-title = Bekræftelse af abonnement
 subscription-processing-title = Bekræfter abonnement ...
 subscription-error-title = Der opstod en fejl under bekræftelse af abonnement...
 subscription-noplanchange-title = Denne ændring af abonnementsplan understøttes ikke
+subscription-iapsubscribed-title = Abonnerer allerede
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Næste fakturering den { $date }
+sub-expires-on = Udløber den { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Annuller min adgang og kassér mine informationer gemt i
     { $name } den { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Køb i appen
+sub-iap-item-apple-purchase = { -brand-name-apple }: Køb i appen
+sub-iap-item-manage-button = Håndter
 account-activated = <userEl/>, din konto er aktiveret
 
 ## subscription route index
@@ -421,3 +439,5 @@ new-user-email-validate-confirm = Mailadresserne matcher ikke
 new-user-already-has-account-sign-in = Du har allerede en konto. <a>Log ind</a>
 new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
+manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
+manage-pocket-body = For at håndtere det, <a>klik her</a>.

@@ -77,28 +77,42 @@ support-message = For mere information, besøg { $supportUrl }
 cadReminderFirst-subject = En venlig påmindelse: Sådan færdiggør du din opsætning af Sync
 cadReminderFirst-action = Synkroniser en enhed til
 cadReminderFirst-title = Her er din påmindelse om at synkronisere enheder.
+cadReminderFirst-description = Der skal to til at synkronisere. Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme overalt, hvor du bruger { -brand-firefox }.
 cadReminderSecond-subject = Sidste påmindelse: Færdiggør opsætning af Sync
 cadReminderSecond-action = Synkroniser en enhed til
 cadReminderSecond-title = Sidste påmindelse om at synkronisere enheder!
+cadReminderSecond-description = Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme overalt, hvor du bruger { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få genoprettelseskoder tilbage
 codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
 codes-generate = Generer koder
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generer koder
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1genoprettelseskode tilbage
+       *[other] { $numberRemaining } genoprettelseskoder tilbage
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nyt login til { $clientName }
+newDeviceLogin-title = Nyt login til { $clientName }
 
 ##
 
 newDeviceLogin-action = Håndter konto
 passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
+passwordChanged-description = Adgangskoden til din { -product-firefox-account } blev ændret fra følgende enhed:
 passwordChangeRequired-subject = Mistænkelig aktivitet konstateret
 passwordChangeRequired-title = Ændring af adgangskode påkrævet
+passwordChangeRequired-suspicious-activity = Vi har konstateret mistænkelig adfærd på din { -product-firefox-account }. For at undgå uautoriseret adgang til din { -product-firefox-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
+passwordChangeRequired-sign-in = Log ind igen på en enheder eller tjeneste, hvor du bruger din { -product-firefox-account }. Følg derefter de beskrevne trin.
 passwordChangeRequired-different-password = <b>Vigtigt:</b> Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordChangeRequired-signoff = Med venlig hilsen
+passwordChangeRequired-signoff-name = Holdet bag { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 passwordReset-subject = Adgangskode opdateret
 passwordReset-title = Adgangskoden til din konto blev er blevet ændret
@@ -112,14 +126,21 @@ passwordResetAccountRecovery-regen-required = Du skal oprette en ny genoprettels
 passwordResetAccountRecovery-create-key = Opret en ny genoprettelsesnøgle:
 postAddAccountRecovery-subject = Genoprettelsesnøgle til konto oprettet
 postAddAccountRecovery-title = Genoprettelsesnøgle til konto oprettet
+postAddAccountRecovery-description = Du har oprettet en genoprettelsesnøgle til din { -product-firefox-account } med følgende enhed:
 postAddAccountRecovery-action = Håndter konto
+postAddAccountRecovery-recovery = Hvis det ikke var dig , så <a data-l10n-name="revokeAccountRecoveryLink">klik her.</a>
 postAddAccountRecovery-revoke = Hvis det ikke var dig, så tilbagekald nøglen.
 postAddTwoStepAuthentication-subject = Totrinsgodkendelse aktiveret
 postAddTwoStepAuthentication-title = Totrinsgodkendelse aktiveret
+postAddTwoStepAuthentication-description-plaintext = Du har aktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet ved hvert login.
+postAddTwoStepAuthentication-description = Du har aktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
 postAddTwoStepAuthentication-action = Håndter konto
 postAddTwoStepAuthentication-code-required = Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet ved hvert login.
 postChangePrimary-subject = Primær mailadresse opdateret
 postChangePrimary-title = Ny primær mailadresse
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Du har ændret din primære mailadresse til { $email }. Den mailadresse er nu dit brugernavn, som du skal bruge til at logge ind på din { -product-firefox-account } og til at modtage sikkerhedsmeddelelser og login-bekræftelser.
 postChangePrimary-action = Håndter konto
 postConsumeRecoveryCode-subject = Genoprettelseskode brugt
 postConsumeRecoveryCode-title = Genoprettelseskode brugt
@@ -131,42 +152,78 @@ postNewRecoveryCodes-description = Du har genereret nye genoprettelseskoder fra 
 postNewRecoveryCodes-action = Håndter konto
 postRemoveAccountRecovery-subject = Genoprettelsesnøgle til kontoen blev fjernet
 postRemoveAccountRecovery-title = Genoprettelsesnøgle til kontoen blev fjernet
+postRemoveAccountRecovery-description = Du har fjernet en genoprettelsesnøgle til din { -product-firefox-account } med følgende enhed:
 postRemoveAccountRecovery-action = Håndter konto
 postRemoveAccountRecovery-invalid = Denne genoprettelsesnøgle kan ikke længere bruges til at genoprette din konto.
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveSecondary-action = Håndter konto
 postRemoveTwoStepAuthentication-subject = Totrinsgodkendelse er slået fra
 postRemoveTwoStepAuthentication-title = Totrinsgodkendelse deaktiveret
+postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
+postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
 postRemoveTwoStepAuthentication-action = Håndter konto
 postRemoveTwoStepAuthentication-not-required = Sikkerhedskoder vil ikke længere være påkrævet ved login.
+postVerify-sub-title = { -product-firefox-account } bekræftet. Du er næsten klar.
 postVerify-title = Synkroniser nu mellem dine enheder!
 postVerify-description = Med privat synkronisering forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme på alle dine enheder.
 postVerify-subject = Konto bekræftet. Synkroniser nu en anden enhed for at afslutte opsætningen.
 postVerify-setup = Opsæt næste enhed
 postVerify-action = Opsæt næste enhed
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = Sekundær mailadresse tilføjet
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
 recovery-description = Klik på knappen inden for den næste time for at oprette en ny adgangskode. Anmodningen kom fra følgende enhed:
 recovery-action = Opret ny adgangskode
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Betalingskort for { $productName } udløber snart
 subscriptionPaymentExpired-title = Dit betalingskort er ved at udløbe
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Betalingskortet, du bruger til at betale for { $productName }, er ved at udløbe.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Fornyelse af abonnement på { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Tak fordi du har fornyet dit abonnement på { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Frekvensen af faktureringer og dine betalinger ændrer sig ikke. Din næste opkrævning er på { $invoiceTotal } og vil blive trukket { $nextInvoiceDateOnly }. Dit abonnement er fortløbende og bliver automatisk fornyet, hvis du ikke annullerer det.
 subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
 subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
 subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
 unblockCode-subject = Godkendelseskode til konto
 unblockCode-title = Er det dig, der logger ind?
 unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Hvis det er, skal du bruge denne godkendelseskode: { $unblockCode }
+unblockCode-report = Hvis det ikke er, så hjælp os med at afværge ubudne gæster og <a data-l10n-name="reportSignInLink">rapportér det til os.</a>
 unblockCode-report-plaintext = Hvis det ikke er, så hjælp os med at afværge ubudne gæster og rapportér det til os.
 verificationReminderFirst-subject = Påmindelse: Færdiggør oprettelsen af din konto
 verificationReminderFirst-title = Velkommen til { -brand-firefox }-familien
+verificationReminderFirst-description = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig.
 verificationReminderFirst-sub-description = Bekræft nu og få adgang til teknik, der kæmper for din ret til privatliv på nettet, giver dig nyttig viden og den respekt, du fortjener.
 confirm-email = Bekræft mailadresse
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Bekræft mailadresse
 verificationReminderSecond-subject = Sidste påmindelse: Aktivér din konto
 verificationReminderSecond-title = Er du der stadig?
+verificationReminderSecond-description = For næsten en uge siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi bliver helt bekymrede for dig.
 verificationReminderSecond-sub-description = Bekræft denne mailadresse for at aktivere din konto - og for at lade os vide, at du er ok ;)
 verificationReminderSecond-action = Bekræft mailadresse
 verify-title = Aktiver hele { -brand-firefox }-familien
@@ -174,8 +231,17 @@ verify-description-plaintext = Bekræft din konto og få mest muligt ud af { -br
 verify-description = Bekræft din konto og få mest muligt ud af { -brand-firefox }, overalt hvor du logger ind, startende med:
 verify-subject = Færdiggør oprettelsen af din konto
 verify-action = Bekræft mailadresse
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nyt login til { $clientName }
 verifyLogin-description = Som en ekstra sikkerhed skal du bekræfte dette login fra følgende enhed:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Bekræft nyt login til { $clientName }
 verifyLogin-action = Bekræft login
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Bekræftelseskode: { $code }
 verifyLoginCode-title = Er det dig, der logger ind?
 verifyLoginCode-prompt = Hvis det er, så er bekræftelseskoden her:
 verifyLoginCode-expiry-notice = Den udløber om 5 minutter.
@@ -183,15 +249,26 @@ verifyPrimary-title = Bekræft primær mailadresse
 verifyPrimary-description = Følgende enhed har anmodet om at foretage en ændring af kontoen:
 verifyPrimary-subject = Bekræft primær mailadresse
 verifyPrimary-action = Bekræft mailadresse
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Når denne mailadresse er blevet bekræftet, kan ændringer af kontoen som fx tilføjelse af en sekundær mailadresse foretages fra denne enhed.
 verifySecondary-subject = Bekræft sekundær mailadresse
 verifySecondary-title = Bekræft sekundær mailadresse
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondary-action = Bekræft mailadresse
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
 verifySecondaryCode-subject = Bekræft sekundær mailadresse
 verifySecondaryCode-title = Bekræft sekundær mailadresse
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Bekræftelseskode: { $code }
 verifyShortCode-title = Er det dig, der tilmelder dig?
 verifyShortCode-prompt = Hvis det er, så brug denne bekræftelseskode i din registreringsformular:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.

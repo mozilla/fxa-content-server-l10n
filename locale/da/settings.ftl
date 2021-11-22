@@ -152,6 +152,15 @@ datablock-copy =
 datablock-print =
     .message = Udskrevet
 
+## Data collection section
+
+dc-heading = Dataindsamling og -brug
+dc-subheader = Hjælp med at forbedre { -product-firefox-accounts }
+dc-subheader-content = Tillad at { -product-firefox-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
+dc-opt-out-success = Fravalget lykkedes. { -product-firefox-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
+dc-opt-in-success = Tak! Deling af disse data hjælper os med at forbedre { -product-firefox-accounts }.
+dc-learn-more = Læs mere
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account }-menu
@@ -214,6 +223,7 @@ nav-settings = Indstillinger
 nav-profile = Profil
 nav-security = Sikkerhed
 nav-connected-services = Forbundne tjenester
+nav-data-collection = Dataindsamling og -brug
 nav-paid-subs = Betalte abonnementer
 nav-email-comm = Mail-kommunikation
 
@@ -439,6 +449,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sikkerhed
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Slå fra
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Slå til
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Indsender...
+switch-is-on = til
+switch-is-off = fra
 
 ## Sub-section row Defaults
 
