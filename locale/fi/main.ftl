@@ -272,6 +272,7 @@ sub-item-cancel-msg =
 
 sub-iap-item-google-purchase = { -brand-name-google }: Sovelluksen sisäinen osto
 sub-iap-item-apple-purchase = { -brand-name-apple }: Sovelluksen sisäinen osto
+sub-iap-item-manage-button = Hallitse
 account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index
