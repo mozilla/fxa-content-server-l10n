@@ -139,11 +139,15 @@ subscriptionsPaymentExpired-content = La tarjeta de crédito que estás utilizan
 unblockCode-subject = Código de autorización de la cuenta
 unblockCode-title = ¿Eres tú iniciando sesión?
 unblockCode-prompt = Si es así, aquí está el código de autorización que necesitas:
-unblockCode-report-plaintext = Si no es así, ayúdanos a defendernos de los intrusos e informarnos.
-verificationReminderFirst-subject = Recordatorio: Terminar de crear tu cuenta
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = De ser así, este es el código de autorización que necesitas: { $unblockCode }
+unblockCode-report = En caso contrario, ayúdanos a alejar a los intrusos <a data-l10n-name="reportSignInLink">reportándolo</a>.
+unblockCode-report-plaintext = Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos.
+verificationReminderFirst-subject = Recordatorio: Termina de crear tu cuenta
 verificationReminderFirst-title = Bienvenido a la familia { -brand-firefox }
 verificationReminderFirst-description = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste.
-verificationReminderFirst-sub-description = Confírmala ahora y accede a una tecnología que protege y lucha por tu privacidad, te ofrece información útil y el respeto que te mereces.
+verificationReminderFirst-sub-description = Confírmala ahora y obtén tecnología que lucha y protege tu privacidad, te equipa con información útil y te da el respeto que mereces.
 confirm-email = Confirmar correo electrónico
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar correo electrónico
@@ -183,6 +187,9 @@ verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title = Verificar correo electrónico secundario
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
 verifySecondaryCode-prompt = Usar este código de verificación:
 verifySecondaryCode-expiry-notice = Caduca en 5 minutos. Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
 # Variables:

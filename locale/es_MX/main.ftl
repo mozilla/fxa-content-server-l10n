@@ -434,3 +434,4 @@ new-user-email-validate-confirm = Las direcciones de correo electrónico no coin
 new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Iniciar sesión</a>
 new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
+manage-pocket-body = Para administrarla, <a>haz clic aquí</a>.
