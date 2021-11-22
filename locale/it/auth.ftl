@@ -94,8 +94,8 @@ codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Genera codici
 lowRecoveryCodes-subject =
     { $numberRemaining ->
-        [one] È rimasto %(numberRemaining)s codice di recupero
-       *[other] Sono rimasti %(numberRemaining)s codici di recupero
+        [one] È rimasto 1 codice di recupero
+       *[other] Sono rimasti { $numberRemaining } codici di recupero
     }
 
 ## Variables:
@@ -137,7 +137,7 @@ postAddAccountRecovery-revoke = Se non hai effettuato questa operazione, revoca 
 postAddTwoStepAuthentication-subject = Autenticazione in due passaggi attivata
 postAddTwoStepAuthentication-title = Autenticazione in due passaggi attivata
 postAddTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi è stata attivata correttamente per il tuo { -product-firefox-account }. D’ora in avanti a ogni accesso verranno richiesti i codici di verifica generati dall’app di autenticazione.
-postAddTwoStepAuthentication-description = L'autenticazione in due passaggi è stata attivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
+postAddTwoStepAuthentication-description = L’autenticazione in due passaggi è stata attivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
 postAddTwoStepAuthentication-action = Gestisci account
 postAddTwoStepAuthentication-code-required = D’ora in avanti a ogni nuovo accesso verranno richiesti i codici generati dall’app di autenticazione.
 postChangePrimary-subject = Indirizzo email primario aggiornato
@@ -167,7 +167,7 @@ postRemoveSecondary-description = L’indirizzo email { $secondaryEmail } non è
 postRemoveSecondary-action = Gestisci account
 postRemoveTwoStepAuthentication-subject = L’autenticazione in due passaggi è disattivata
 postRemoveTwoStepAuthentication-title = Autenticazione in due passaggi disattivata
-postRemoveTwoStepAuthentication-description = L'autenticazione in due passaggi è stata disattivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
+postRemoveTwoStepAuthentication-description = L’autenticazione in due passaggi è stata disattivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
 postRemoveTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi per il tuo { -product-firefox-account } è stata disattivata correttamente. I codici di verifica non verranno più richiesti ad ogni accesso.
 postRemoveTwoStepAuthentication-action = Gestisci account
 postRemoveTwoStepAuthentication-not-required = I codici di verifica non verranno più richiesti ad ogni accesso.
