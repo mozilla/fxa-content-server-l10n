@@ -140,7 +140,7 @@ postChangePrimary-subject = Primair e-mailadres bijgewerkt
 postChangePrimary-title = Nieuw primair e-mailadres
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-firefox-account }t, evenals voor het ontvangen van beveiligingsmeldingen
+postChangePrimary-description = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-firefox-account }, evenals voor het ontvangen van beveiligingsmeldingen
 postChangePrimary-action = Account beheren
 postConsumeRecoveryCode-subject = Herstelcode gebruikt
 postConsumeRecoveryCode-title = Herstelcode verbruikt
@@ -195,7 +195,7 @@ subscriptionPaymentExpired-title = Uw creditcard verloopt binnenkort
 subscriptionPaymentExpired-content = De creditcard die u gebruikt voor betalingen voor { $productName } verloopt binnenkort.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abonnement op { $productName }s opnieuw geactiveerd
+subscriptionReactivation-subject = Abonnement op { $productName } opnieuw geactiveerd
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Bedankt voor het opnieuw activeren van uw abonnement op { $productName }!
