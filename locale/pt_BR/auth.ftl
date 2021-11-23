@@ -42,6 +42,7 @@ subplat-update-billing = Atualizar informações de cobrança
 subplat-legal = Jurídico
 subplat-privacy = Privacidade
 another-desktop-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
+another-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro dispositivo</a>.
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
