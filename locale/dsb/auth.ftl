@@ -2,25 +2,49 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Konta Firefox
--product-firefox-account = Konto Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Konta Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Konto Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Pšawidła priwatnosći { -brand-mozilla }
 fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 subplat-privacy-plaintext = Powěźeńka priwatnosći:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Wuměnjenja a wótwołańske pšawidła
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowěźeś
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonement zasej aktiwěrowaś
 subplat-update-billing = Płaśeńske informacije aktualizěrowaś
 subplat-legal = Pšawniske
 subplat-privacy = Priwatnosć
 automated-email-plaintext = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, změńśo pšosym swójo gronidło.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-adresa: { $ip }
 manage-account = Konto zastojaś
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Maśo pšašanja wó swójom abonemenśe? Naš <a data-l10n-name="subscriptionSupportUrl">team pomocy</a> jo how, aby wam pomagał.
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Maśo pšašanja wó swójom abonemenśe? Naš team pomocy jo how, aby wam pomagał:
+subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a data-l10n-name="updateBillingUrl">aktualizěrujśo pšosym swóje płaśeńske informacije</a> tak skóro ako móžno.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
 cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
@@ -28,10 +52,18 @@ cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
 cadReminderSecond-subject = Slědne dopomnjeśe: Dokóńcćo konfiguracije synchronizacije
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title = Slědne dopomnjeśe na synchronizěrowanje rědow!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wótnowjeńskich kodow wušej
 codes-reminder-description = Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym rozwažujśo, lěc nowe kody napórajośo, aby se wobinuł zastajenja swójogo konta.
 codes-generate = Kody napóraś
 lowRecoveryCodes-action = Kody napóraś
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Konto zastojaś
 passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
@@ -48,6 +80,7 @@ passwordResetAccountRecovery-title = Wašo kontowe gronidło jo se slědk staji�
 passwordResetAccountRecovery-description = Sćo wuspěšnje slědk stajił swójo gronidło z pomocu wótnowjeńskego kluca ze slědujucego rěda:
 passwordResetAccountRecovery-action = Nowy wótnowjeński kluc napóraś
 passwordResetAccountRecovery-regen-required = Musyśo nowy wótnowjeński kluc napóraś.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nowy wótnowjeński kluc napóraś:
 postAddAccountRecovery-subject = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title = Kontowy wótnowjeński kluc jo se napórał
@@ -134,4 +167,3 @@ verifySecondaryCode-expiry-notice = Spadnjo za 5 minutow. Gaž jo se wobkšuśi�
 verifyShortCode-title = Registrěrujośo wy?
 verifyShortCode-prompt = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
-
