@@ -43,7 +43,19 @@ subplat-legal = Pšawniske
 subplat-privacy = Priwatnosć
 another-desktop-device = Abo instalujěrśo na <a data-l10n-name="anotherDeviceLink">drugem desktopowem rěźe</a>.
 another-device = Abo instalěrujśo na <a data-l10n-name="anotherDeviceLink">drugem rěźe</a>.
+automated-email-change =
+    To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="passwordChangeLink">změńśo pšosym swójo gronidło.</a>.
+    Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju { -product-firefox-account } nowy rěd pśidał, změńśo pšosym ned swójo gronidło na { $passwordChangeLink }
+automated-email =
+    To jo awtomatizěrowana mejlka; jolic sćo ju mylnje dostał, njetrjebaśo nic cyniś.
+    Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
 automated-email-plaintext = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
+automated-email-reset =
+    To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="resetLink">stajśo pšosym swójo gronidło slědk.</a>.
+    Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jolic njejsćo jo změnił, stajśo pšosym něnto swójo gronidło na { $resetLink } slědk
@@ -59,31 +71,50 @@ subscriptionSupport-plaintext = Maśo pšašanja wó swójom abonemenśe? Naš t
 subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a data-l10n-name="updateBillingUrl">aktualizěrujśo pšosym swóje płaśeńske informacije</a> tak skóro ako móžno.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Za dalšne informacije woglědajśo se pšosym k %(supportUrl)s
 cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
 cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
+cadReminderFirst-description = Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
 cadReminderSecond-subject = Slědne dopomnjeśe: Dokóńcćo konfiguracije synchronizacije
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title = Slědne dopomnjeśe na synchronizěrowanje rědow!
+cadReminderSecond-description = Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wótnowjeńskich kodow wušej
 codes-reminder-description = Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym rozwažujśo, lěc nowe kody napórajośo, aby se wobinuł zastajenja swójogo konta.
 codes-generate = Kody napóraś
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Kody napóraś
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] { $numberRemaining } wótnowjeński kod wušej
+        [two] { $numberRemaining } wótnowjeńskej koda wušej
+        [few] { $numberRemaining } wótnowjeńske kody wušej
+       *[other] { $numberRemaining } wótnowjeńskich kodow wušej
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
+newDeviceLogin-title = Nowe pśizjawjenje pla { $clientName }
 
 ##
 
 newDeviceLogin-action = Konto zastojaś
 passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
+passwordChanged-description = Gronidło wašogo konta { -product-firefox-account } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChangeRequired-subject = Zawózdatna aktiwita namakana
 passwordChangeRequired-title = Změnjanje gronidła trěbne
+passwordChangeRequired-suspicious-activity = Smy zwěsćili suspektne zaźaržanje na wašom konśe { -product-firefox-account }. Aby my njeawtorizěrowanemu pśistupoju k wašomu kontu { -product-firefox-account } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
+passwordChangeRequired-sign-in = Pśizjawśo se zasej pla rěda abo słužby, źož swójo konto { -product-firefox-account } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
 passwordChangeRequired-different-password = <b>Wažny:</b> Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordChangeRequired-signoff = Z pśijaśelnym póstrowom,
+passwordChangeRequired-signoff-name = Team { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
@@ -97,10 +128,13 @@ passwordResetAccountRecovery-regen-required = Musyśo nowy wótnowjeński kluc n
 passwordResetAccountRecovery-create-key = Nowy wótnowjeński kluc napóraś:
 postAddAccountRecovery-subject = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title = Kontowy wótnowjeński kluc jo se napórał
+postAddAccountRecovery-description = Sćo wuspěšnje napórał nowy wótnowjeński kluc za swójo konto { -product-firefox-account } z pomocu slědujucego rěda:
 postAddAccountRecovery-action = Konto zastojaś
+postAddAccountRecovery-recovery = Jolic wy to njejsćo był, <a data-l10n-name="revokeAccountRecoveryLink">klikniśo how.</a>
 postAddAccountRecovery-revoke = Jolic wy to njejsćo był, wótwołajśo kluc.
 postAddTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se zmóžniła
+postAddTwoStepAuthentication-description-plaintext = Sćo wuspěšnje zmóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account }. Wěstotne kody z wašogo awtentifikaciskego nałoženja su wótněnta trěbne pśi kuždem přizjawjenju.
 postAddTwoStepAuthentication-action = Konto zastojaś
 postAddTwoStepAuthentication-code-required = Wěstotne kody z wašogo awtentifikaciskego nałoženja su wótněnta trěbne pśi kuždem pśizjawjenju.
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
@@ -149,6 +183,7 @@ verificationReminderFirst-subject = Dopominanje: Skóńcćo załožowanje swójo
 verificationReminderFirst-title = Witajśo k swóźbje { -brand-firefox }
 verificationReminderFirst-sub-description = Wobkšuśćo něnto a wobstarajśo se technologiju, kótaraž za wašu priwatnosć wójujo a ju šćita, was z praktiskeju wědu a respekt wugótujo, kótaryž se zasłužyjo.
 confirm-email = E-mailowu adresu wobkšuśiś
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-mailowu adresu wobkšuśiś
 verificationReminderSecond-subject = Slědne dopomnjeśe: Aktiwěrujśo swójo konto
 verificationReminderSecond-title = Sćo hyšći how?
@@ -168,10 +203,12 @@ verifyPrimary-title = Primarnu e-maijlowu adresu pśepytowaś
 verifyPrimary-description = Slědujucy rěd jo sebje pominał, kontowu změnu pśewjasć:
 verifyPrimary-subject = Primarnu e-maijlowu adresu wobkšuśiś
 verifyPrimary-action = E-mailowu adresu wobkšuśiś
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
 verifySecondary-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondary-title = Drugu e-mailowu adresu wobkšuśiś
 verifySecondary-action = E-mailowu adresu wobkšuśiś
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
 verifySecondaryCode-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-title = Drugu e-mailowu adresu wobkšuśiś
