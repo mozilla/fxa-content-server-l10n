@@ -7,9 +7,7 @@ mkdir workspace
 (cd workspace && git clone --depth 1 https://github.com/mozilla/fxa)
 (cd workspace/fxa && yarn workspaces focus fxa-content-server fxa-auth-server fxa-payments-server fxa-settings)
 (cd workspace/fxa && yarn workspace fxa-settings build)
-
-# We should re-enable once auth-server is ready to support ftl
-# (cd workspace/fxa && yarn workspace fxa-auth-server grunt merge-ftl)
+(cd workspace/fxa && yarn workspace fxa-auth-server grunt merge-ftl)
 
 # random release number, avoids collision with old trains or branches
 r=$(( $RANDOM + $RANDOM + 1000 ))
