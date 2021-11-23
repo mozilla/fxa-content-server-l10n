@@ -25,6 +25,14 @@ fxa-service-url = Termos do serviço do { -product-firefox-cloud }
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 subplat-privacy-plaintext = Aviso de privacidade:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Você recebeu este email porque { $email } tem uma { -product-firefox-account } e você assinou o { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Você recebeu este email porque { $email } tem uma { -product-firefox-account } e você assinou vários produtos.
+subplat-manage-account = Gerencie as configurações da sua { -product-firefox-account } na <a data-l10n-name="subplat-account-page">página da conta</a>.
 subplat-terms-policy = Termos e política de cancelamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
@@ -33,6 +41,7 @@ subplat-reactivate = Reativar assinatura
 subplat-update-billing = Atualizar informações de cobrança
 subplat-legal = Jurídico
 subplat-privacy = Privacidade
+another-desktop-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
