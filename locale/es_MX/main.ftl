@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 country-currency-mismatch = La moneda de esta suscripción no es válida para el país asociado con tu pago.
 currency-currency-mismatch = Lo sentimos. No puedes cambiar entre monedas.
 no-subscription-change = Lo sentimos. No puedes cambiar tu plan de suscripción.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ya tienes una suscripción a través de { $mobileAppStore }.
 expired-card-error = Parece que tu tarjeta de crédito ha expirado. Prueba con otra tarjeta.
 insufficient-funds-error = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
 withdrawal-count-limit-exceeded-error = Parece que esta transacción te pondrá por encima de tu límite de crédito. Prueba con otra tarjeta.
@@ -317,6 +319,8 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: compras en la app
+sub-iap-item-apple-purchase = { -brand-name-apple }: compras en la app
 sub-iap-item-manage-button = Administrar
 account-activated = Tu cuenta está activada, <userEl/>
 
@@ -434,4 +438,5 @@ new-user-email-validate-confirm = Las direcciones de correo electrónico no coin
 new-user-already-has-account-sign-in = Ya tienes una cuenta. <a>Iniciar sesión</a>
 new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
+manage-pocket-title = ¿Buscas tu suscripción premium de { -brand-name-pocket }?
 manage-pocket-body = Para administrarla, <a>haz clic aquí</a>.
