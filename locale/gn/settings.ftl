@@ -158,6 +158,7 @@ dc-heading = Ñembyaty ha mba’ekuaarã jepuru
 dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
+dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
@@ -222,6 +223,7 @@ nav-settings = Ñemboheko
 nav-profile = Mba’ete
 nav-security = Tekorosã
 nav-connected-services = Mba’epytyvõrã mbojuajupyre
+nav-data-collection = Ñembyaty ha mba’ekuaarã jepuru
 nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
 nav-email-comm = Ñemongeta ñanduti veve rupive
 
