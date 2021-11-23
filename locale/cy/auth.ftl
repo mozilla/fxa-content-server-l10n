@@ -182,26 +182,52 @@ postVerify-action = Gosod y ddyfais nesaf
 postVerify-support = Unrhyw gwestiynau? Ewch i { $supportUrl }
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad hyn.
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
 recovery-title = Angen ailosod eich cyfrinair?
 recovery-description = Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:
 recovery-action = Creu cyfrinair newydd
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Bydd cerdyn credyd { $productName } yn dod i ben cyn bo hir
 subscriptionPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am { $productName } ar fin dod i ben.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Ail-gychwynnwyd tanysgrifiad { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Diolch am ail gychwyn eich tanysgrifiad { $productName }s
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd { $invoiceTotal } ar { $nextInvoiceDateOnly }. Bydd eich tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu.
 subscriptionsPaymentExpired-subject = Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan
 subscriptionsPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
 subscriptionsPaymentExpired-content = Mae’r cerdyn credyd rydych chi‘n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben.
 unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi’n allgofnodi?
 unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Os ie, dyma'r cod awdurdodi sydd ei angen arnoch:
+unblockCode-report = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a data-l10n-name="reportSignInLink">adrodd arno i ni.</a>
 unblockCode-report-plaintext = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni.
 verificationReminderFirst-subject = Nodyn atgoffa: Gorffennwch greu eich cyfrif
 verificationReminderFirst-title = Croeso i deulu { -brand-firefox }
+verificationReminderFirst-description = Rhai dyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau.
 verificationReminderFirst-sub-description = Cadarnhewch nawr a chael technoleg sy’n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a‘r parch rydych yn ei haeddu.
 confirm-email = E-bost cadarnhau
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-bost cadarnhau
 verificationReminderSecond-subject = Nodyn atgoffa terfynol: Gweithredwch eich cyfrif
 verificationReminderSecond-title = Dal yna?
+verificationReminderSecond-description = Bron i wythnos yn ôl fe wnaethoch greu { -product-firefox-account } ond heb ei ddilysu. Rydym yn poeni amdanoch chi.
 verificationReminderSecond-sub-description = Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi’n iawn.
 verificationReminderSecond-action = E-bost cadarnhau
 verify-title = Defnyddiwch gynnyrch teulu { -brand-firefox }
@@ -209,8 +235,17 @@ verify-description-plaintext = Cadarnhewch eich cyfrif a chael y gorau o { -bran
 verify-description = Cadarnhewch eich cyfrif a chael y gorau o { -brand-firefox } ym mhob man rydych chi’n mewngofnodi gan gychwyn yn:
 verify-subject = Gorffen creu eich cyfrif
 verify-action = E-bost cadarnhau
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Mewngofnodiad newydd i { $clientName }
 verifyLogin-description = Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o’r ddyfais ganlynol:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Cadarnhewch y mewngofnodi newydd i { $clientName }
 verifyLogin-action = Cadarnhau eich mewngofnodi
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Cod dilysu: { $code }
 verifyLoginCode-title = Ai hwn yw chi’n allgofnodi?
 verifyLoginCode-prompt = Os ydyw, defnyddiwch y cod dilysu hwn:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
@@ -218,10 +253,15 @@ verifyPrimary-title = Dilysu prif e-bost
 verifyPrimary-description = Mae cais wedi ei wneud o’r ddyfais ganlynol i newid cyfrif:
 verifyPrimary-subject = Cadarnhau’r prif e-bost
 verifyPrimary-action = Dilysu’r e-bost
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Unwaith bydd wedi ei ddilysu, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o’r ddyfais hon.
 verifySecondary-subject = Cadarnhau’r ail e-bost
 verifySecondary-title = Dilysu’r ail gyfrif
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
 verifySecondary-action = Dilysu’r e-bost
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Unwaith iddo gael ei ddilysu, bydd y cyfrif hwn yn cychwyn derbyn hysbysiadau diogelwch a negeseuon cadarnhau.
 verifySecondaryCode-subject = Cadarnhau’r ail e-bost
 verifySecondaryCode-title = Dilysu’r ail gyfrif
