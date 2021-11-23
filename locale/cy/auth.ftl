@@ -112,8 +112,11 @@ passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
 passwordChanged-description = Mae eich cyfrinair { -product-firefox-account } wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:
 passwordChangeRequired-subject = Gweithgaredd amheus wedi’i ganfod
 passwordChangeRequired-title = Mae Angen Newid Cyfrinair
+passwordChangeRequired-suspicious-activity = Rydym wedi canfod ymddygiad amheus ar eich { -product-firefox-account }. Er mwyn atal mynediad heb awdurdod i'ch { -product-firefox-account }, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich cyfrinair rhag ofn.
+passwordChangeRequired-sign-in = Mewngofnodwch i unrhyw ddyfais neu wasanaeth lle rydych chi'n defnyddio'ch { -product-firefox-account } a dilynwch y camau fydd yn cael eu cyflwyno i chi.
 passwordChangeRequired-different-password = <b>Pwysig:</b> Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
 passwordChangeRequired-signoff = Hwyl,
+passwordChangeRequired-signoff-name = Y tîm Cyfrif Firefox
 passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
 passwordReset-subject = Diweddarwyd y cyfrinair
 passwordReset-title = Mae cyfrinair eich cyfrif wedi newid
@@ -127,14 +130,21 @@ passwordResetAccountRecovery-regen-required = Bydd angen i chi gynhyrchu allwedd
 passwordResetAccountRecovery-create-key = Creu allwedd adfer newydd:
 postAddAccountRecovery-subject = Cynhyrchwyd allwedd adfer cyfrif
 postAddAccountRecovery-title = Cynhyrchwyd allwedd adfer cyfrif
+postAddAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postAddAccountRecovery-action = Rheoli cyfrif
+postAddAccountRecovery-recovery = Os nad chi oedd hwn, <a data-l10n-name="revokeAccountRecoveryLink">>cliciwch yma.</a>
 postAddAccountRecovery-revoke = Os nad chi oedd hwn, diddymwch yr allwedd.
 postAddTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei alluogi
 postAddTwoStepAuthentication-title = Mae dilysu dau gam wedi ei alluogi
+postAddTwoStepAuthentication-description-plaintext = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif { -brand-firefox } o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi.
+postAddTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif { -brand-firefox } o'r ddyfais ganlynol:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
 postAddTwoStepAuthentication-code-required = Bydd angen codau diogel o’ch ap dilysu bob tro fyddwch yn mewngofnodi.
 postChangePrimary-subject = Diweddarwyd y prif e-bost
 postChangePrimary-title = Prif e-bost newydd
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch Cyfrif { -brand-firefox }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
 postChangePrimary-action = Rheoli cyfrif
 postConsumeRecoveryCode-subject = Cod adfer wedi’i ddefnyddio
 postConsumeRecoveryCode-title = Cod adfer wedi ei ddefnyddio
@@ -146,20 +156,30 @@ postNewRecoveryCodes-description = Rydych wedi creu cod adfer newydd yn llwyddia
 postNewRecoveryCodes-action = Rheoli cyfrif
 postRemoveAccountRecovery-subject = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-title = Tynnwyd yr allwedd adfer cyfrif
+postRemoveAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postRemoveAccountRecovery-action = Rheoli cyfrif
 postRemoveAccountRecovery-invalid = Nid oes modd defnyddio’r allwedd adfer hwn bellach i adfer eich cyfrif.
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn.
 postRemoveSecondary-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei ddiffodd
 postRemoveTwoStepAuthentication-title = Mae dilysu dau gam wedi ei analluogi
+postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol:
+postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellach wrth fewngofnodi.
+postVerify-sub-title = { -product-firefox-account } wedi'i wirio. Rydych chi bron yno.
 postVerify-title = nesaf, cydweddwch eich dyfeisiau!
 postVerify-description = Mae Sync yn breifat yn cadw’ch nodau tudalen, cyfrineiriau a data { -brand-firefox } arall yr un peth ar draws eich holl ddyfeisiau.
 postVerify-subject = Cyfrif wedi’i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod
 postVerify-setup = Gosod y ddyfais nesaf
 postVerify-action = Gosod y ddyfais nesaf
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Unrhyw gwestiynau? Ewch i { $supportUrl }
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
 postVerifySecondary-action = Rheoli cyfrif
