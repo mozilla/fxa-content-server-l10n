@@ -81,12 +81,18 @@ cadReminderFirst-description = Precisa de pelo menos dois para sincronizar. A si
 cadReminderSecond-subject = Lembrete final: Conclua a configuração de sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title = Último lembrete para sincronizar dispositivos!
+cadReminderSecond-description = A sincronização privativa com outro dispositivo com { -brand-firefox } mantém seus favoritos, senhas e outros dados no { -brand-firefox } iguais em qualquer lugar onde use o { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada.
 codes-generate = Gerar códigos
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Gerar códigos
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 código de recuperação restante
+       *[other] { $numberRemaining } códigos de recuperação restantes
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -103,8 +109,10 @@ passwordChanged-description = Sua senha da { -product-firefox-account } foi alte
 passwordChangeRequired-subject = Detectada atividade suspeita
 passwordChangeRequired-title = Necessário mudar a senha
 passwordChangeRequired-suspicious-activity = Detectamos comportamento suspeito em sua { -product-firefox-account }. Para evitar acesso não autorizado à sua { -product-firefox-account }, por precaução desconectamos todos os dispositivos da sua conta e solicitamos que você mude sua senha.
+passwordChangeRequired-sign-in = Entre na sua conta novamente em qualquer dispositivo ou serviço em que use sua { -product-firefox-account } e siga as instruções.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
 passwordChangeRequired-signoff = Atenciosamente,
+passwordChangeRequired-signoff-name = A equipe de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
 passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
@@ -118,10 +126,14 @@ passwordResetAccountRecovery-regen-required = Você precisará gerar uma nova ch
 passwordResetAccountRecovery-create-key = Criar nova chave de recuperação:
 postAddAccountRecovery-subject = Gerada chave de recuperação de conta
 postAddAccountRecovery-title = Gerada chave de recuperação de conta
+postAddAccountRecovery-description = Você gerou com sucesso uma chave de recuperação de conta da sua { -product-firefox-account } usando o seguinte dispositivo:
 postAddAccountRecovery-action = Gerenciar conta
+postAddAccountRecovery-recovery = Se não foi você, <a data-l10n-name="revokeAccountRecoveryLink">clique aqui</a>.
 postAddAccountRecovery-revoke = Se não foi você, revogue a chave.
 postAddTwoStepAuthentication-subject = Autenticação em duas etapas ativada
 postAddTwoStepAuthentication-title = Autenticação em duas etapas ativada
+postAddTwoStepAuthentication-description-plaintext = Você ativou com sucesso a autenticação em duas etapas na sua { -product-firefox-account }. Agora os códigos de segurança do seu aplicativo de autenticação serão solicitados cada vez que entrar na sua conta.
+postAddTwoStepAuthentication-description = Você ativou com sucesso a autenticação em duas etapas na sua { -product-firefox-account } através do seguinte dispositivo:
 postAddTwoStepAuthentication-action = Gerenciar conta
 postAddTwoStepAuthentication-code-required = Agora serão solicitados códigos de segurança do seu aplicativo de autenticação a cada novo acesso.
 postChangePrimary-subject = Email principal atualizado
