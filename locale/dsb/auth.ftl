@@ -135,10 +135,14 @@ postAddAccountRecovery-revoke = Jolic wy to njejsćo był, wótwołajśo kluc.
 postAddTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-description-plaintext = Sćo wuspěšnje zmóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account }. Wěstotne kody z wašogo awtentifikaciskego nałoženja su wótněnta trěbne pśi kuždem přizjawjenju.
+postAddTwoStepAuthentication-description = Sćo wuspěšnje zmóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account } ze slědujucego rěda:
 postAddTwoStepAuthentication-action = Konto zastojaś
 postAddTwoStepAuthentication-code-required = Wěstotne kody z wašogo awtentifikaciskego nałoženja su wótněnta trěbne pśi kuždem pśizjawjenju.
 postChangePrimary-subject = Primarna e-mailowa adresa jo se zaktualizěrowała
 postChangePrimary-title = Nowa primarna e-mailowa adresa
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
 postConsumeRecoveryCode-subject = Wótnowjeński kod se wužywa
 postConsumeRecoveryCode-title = Wótnowjeński kod jo se wužył
@@ -150,43 +154,78 @@ postNewRecoveryCodes-description = Sćo wuspěšnje napórał nowe wótnowjeńsk
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject = Kontowy wótnowjeński kluc jo se wótwónoźeł
 postRemoveAccountRecovery-title = Kontowy wótnowjeński kluc jo se wótwónoźeł
+postRemoveAccountRecovery-description = Sćo wuspěšnje wótwónoźeł wótnowjeński kluc za swójo konto { -product-firefox-account } z pomocu slědujucego rěda:
 postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveAccountRecovery-invalid = Toś ten wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo konto wótnowił.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Sćo { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo konta { -product-firefox-account } wuspěšnje wótwónoźeł. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja njebudu se wěcej na toś tu adresu słaś.
 postRemoveSecondary-action = Konto zastojaś
 postRemoveTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se znjemóžniła
 postRemoveTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se znjemóžniła
+postRemoveTwoStepAuthentication-description = Sćo wuspěšnje znjemóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account } ze slědujucego rěda:
+postRemoveTwoStepAuthentication-description-plaintext = Sćo wuspěšnje znjemóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account }. Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždem pśizjawjenju.
 postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždym pśizjawjenju.
+postVerify-sub-title = Konto { -product-firefox-account } jo pśeglědane. Sćo skóro gótowy.
 postVerify-title = Pśiduca synchronizacija mjazy rědami!
 postVerify-description = Priwatna synchronizacija waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } na wšych wašych rědach jadnake źaržy.
 postVerify-subject = Konto jo pśeglědane. Synchronizěrujśo něnto drugi rěd, aby konfiguraciju zakóńcył.
 postVerify-setup = Pśiducy rěd konfigurěrowaś
 postVerify-action = Pśiducy rěd konfigurěrowaś
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Maśo pšašanja? Woglědajśo se k { $supportUrl }
 postVerifySecondary-subject = Druga e-mailowa adresa jo se pśidała
 postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu ze swójogo konta { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
 recovery-title = Musyśo swojo gronidło slědk stajiś?
 recovery-description = Klikniśo na tłocašk w běgu góźinu, aby napórał nowe gronidło. Napšašowanje pśiźo wót slědujucego rěda:
 recovery-action = Nowe gronidło napóraś
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kreditowa kórta za { $productName } skóro spadnjo
 subscriptionPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za { $productName } pśewjeźośo, skóro spadnjo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Abonement{ $productName } jo se zasej zaktiwěrował
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Wjeliki źěk, až sćo zasej zaktiwěrował swój abonement { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje { $invoiceTotal } buźo dnja { $nextInvoiceDateOnly }. Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo.
 subscriptionsPaymentExpired-subject = Kreditowa kórta za swóje abonementy skóro spadnjo
 subscriptionsPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
 subscriptionsPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, skóro spadnjo.
 unblockCode-subject = Awtorizěrowański kod konta
 unblockCode-title = Cośo se wy pśizjawiś?
 unblockCode-prompt = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaśo:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaśo: { $unblockCode }
+unblockCode-report = Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a data-l10n-name="reportSignInLink">dajśo nam to k wěsći.</a>
 unblockCode-report-plaintext = Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći.
 verificationReminderFirst-subject = Dopominanje: Skóńcćo załožowanje swójogo konta
 verificationReminderFirst-title = Witajśo k swóźbje { -brand-firefox }
+verificationReminderFirst-description = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale nichten njejo jo wobkšuśił.
 verificationReminderFirst-sub-description = Wobkšuśćo něnto a wobstarajśo se technologiju, kótaraž za wašu priwatnosć wójujo a ju šćita, was z praktiskeju wědu a respekt wugótujo, kótaryž se zasłužyjo.
 confirm-email = E-mailowu adresu wobkšuśiś
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-mailowu adresu wobkšuśiś
 verificationReminderSecond-subject = Slědne dopomnjeśe: Aktiwěrujśo swójo konto
 verificationReminderSecond-title = Sćo hyšći how?
+verificationReminderSecond-description = Pśed skóro jadnym tyźenim sćo załožył konto { -product-firefox-account }, ale njejsćo jo wobkšuśił. Gótujomy sebje starosći wó was.
 verificationReminderSecond-sub-description = Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, až wam derje źo.
 verificationReminderSecond-action = E-mailowu adresu wobkšuśiś
 verify-title = Swójźbu produktow { -brand-firefox } aktiwěrowaś
@@ -194,8 +233,17 @@ verify-description-plaintext = Wobkšuśćo swójo konto a wuwńoźćo nejlěpš
 verify-description = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-subject = Dokóńcćo załožowanje swójogo konta
 verify-action = E-mailowu adresu wobkšuśiś
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nowe pśizjawjenje pla { $clientName }
 verifyLogin-description = Aby wěstotu pówušył, wobkšuśćo pšosym toś to pśizjawjenje ze slědujucego rěda:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Nowe pśizjawjenje pla { $clientName } wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Wobkšuśeński kod: { $code }
 verifyLoginCode-title = Cośo se wy pśizjawiś?
 verifyLoginCode-prompt = Jolic jo, how jo wobkšuśeński kod:
 verifyLoginCode-expiry-notice = Spadnjo za 5 minutow.
@@ -207,13 +255,22 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
 verifySecondary-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondary-title = Drugu e-mailowu adresu wobkšuśiś
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondary-action = E-mailowu adresu wobkšuśiś
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
 verifySecondaryCode-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-title = Drugu e-mailowu adresu wobkšuśiś
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondaryCode-prompt = Toś ten wobkšuśeński kod wužywaś:
 verifySecondaryCode-expiry-notice = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Wobkšuśeński kod: { $code }
 verifyShortCode-title = Registrěrujośo wy?
 verifyShortCode-prompt = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
