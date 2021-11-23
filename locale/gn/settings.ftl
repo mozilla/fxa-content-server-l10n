@@ -155,6 +155,9 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Ñembyaty ha mba’ekuaarã jepuru
+dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
+dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
+dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
