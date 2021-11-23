@@ -25,6 +25,14 @@ fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
 subplat-privacy-plaintext = Powěźeńka priwatnosći:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a wy sćo za { $productName } zregistrěrowany.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a sćo aboněrował někotare produkty.
+subplat-manage-account = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby swóje nastajenja { -product-firefox-account } zastojał.
 subplat-terms-policy = Wuměnjenja a wótwołańske pšawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowěźeś
@@ -33,7 +41,12 @@ subplat-reactivate = Abonement zasej aktiwěrowaś
 subplat-update-billing = Płaśeńske informacije aktualizěrowaś
 subplat-legal = Pšawniske
 subplat-privacy = Priwatnosć
+another-desktop-device = Abo instalujěrśo na <a data-l10n-name="anotherDeviceLink">drugem desktopowem rěźe</a>.
+another-device = Abo instalěrujśo na <a data-l10n-name="anotherDeviceLink">drugem rěźe</a>.
 automated-email-plaintext = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Jolic njejsćo jo změnił, stajśo pšosym něnto swójo gronidło na { $resetLink } slědk
 change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, změńśo pšosym swójo gronidło.
 # Variables:
 #  $ip (Number) - User's IP address
