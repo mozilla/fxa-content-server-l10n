@@ -43,6 +43,15 @@ subplat-legal = Jurídico
 subplat-privacy = Privacidade
 another-desktop-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
 another-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro dispositivo</a>.
+automated-email-change =
+    Este é um email automático. Se você não autorizou esta ação, <a data-l10n-name="passwordChangeLink">mude sua senha</a>.
+    Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Este é um email automático. Se você não adicionou um novo dispositivo à sua { -product-firefox-account }, deve mudar sua senha imediatamente em { $passwordChangeLink }
+automated-email =
+    Este é um email automático. Se você o recebeu por engano, nenhuma ação é necessária.
+    Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
