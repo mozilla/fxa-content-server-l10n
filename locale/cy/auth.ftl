@@ -2,25 +2,65 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Cyfrifon Firefox
--product-firefox-account = Cyfrif Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Cyfrifon Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Cyfrif Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
 subplat-automated-email = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
 subplat-privacy-plaintext = Hysbysiad preifatrwydd:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi cofrestru ar gyfer { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
+subplat-manage-account = Rheolwch gosodiadau eich { -product-firefox-account } trwy ymweld â'ch <a data-l10n-name="subplat-account-page">tudalen cyfrif </a>.
 subplat-terms-policy = Polisi telerau a chanslo
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Canslo tanysgrifiad
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ailgychwyn y tanysgrifiad
 subplat-update-billing = Diweddaru’r manylion bilio
 subplat-legal = Cyfreithiol
 subplat-privacy = Preifatrwydd
+another-desktop-device = Neu, gosod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
+another-device = Neu, gosod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
+automated-email-change =
+    Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="passwordChangeLink"> newidiwch eich cyfrinair </a>.
+    Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch { -product-firefox-account }, dylech newid eich cyfrinair yn syth yn { $passwordChangeLink }
+automated-email =
+    Mae hwn yn e-bost awtomatig; os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen gweithredu.
+    Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 automated-email-plaintext = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
+automated-email-reset =
+    Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="resetLink"> newidiwch eich cyfrinair</a>.
+    Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
 manage-account = Rheoli cyfrif
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i’ch helpu chi:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync
 cadReminderFirst-action = Cydweddu dyfais arall
@@ -28,10 +68,18 @@ cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
 cadReminderSecond-subject = Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd
 cadReminderSecond-action = Cydweddu dyfais arall
 cadReminderSecond-title = Nodyn atgoffa olaf i gydweddu dyfeisiau!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Prinder codau adfer
 codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o’ch cyfrif.
 codes-generate = Creu codau
 lowRecoveryCodes-action = Creu codau
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Rheoli cyfrif
 passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
@@ -48,6 +96,7 @@ passwordResetAccountRecovery-title = Cafodd cyfrinair eich cyfrif ei ailosod gyd
 passwordResetAccountRecovery-description = Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer o’r ddyfais ganlynol:
 passwordResetAccountRecovery-action = Creu allwedd adfer newydd
 passwordResetAccountRecovery-regen-required = Bydd angen i chi gynhyrchu allwedd adfer newydd.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Creu allwedd adfer newydd:
 postAddAccountRecovery-subject = Cynhyrchwyd allwedd adfer cyfrif
 postAddAccountRecovery-title = Cynhyrchwyd allwedd adfer cyfrif
@@ -134,4 +183,3 @@ verifySecondaryCode-expiry-notice = Daw i ben mewn 5 munud. Ar ôl ei wirio, byd
 verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
 verifyShortCode-prompt = Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
-
