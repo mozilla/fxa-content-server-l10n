@@ -138,6 +138,9 @@ postAddTwoStepAuthentication-action = Gerenciar conta
 postAddTwoStepAuthentication-code-required = Agora serão solicitados códigos de segurança do seu aplicativo de autenticação a cada novo acesso.
 postChangePrimary-subject = Email principal atualizado
 postChangePrimary-title = Novo email principal
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-firefox-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
 postConsumeRecoveryCode-subject = Código de recuperação usado
 postConsumeRecoveryCode-title = Código de recuperação utilizado
@@ -149,20 +152,30 @@ postNewRecoveryCodes-description = Você gerou com sucesso novos códigos de rec
 postNewRecoveryCodes-action = Gerenciar conta
 postRemoveAccountRecovery-subject = Removida a chave de recuperação de conta
 postRemoveAccountRecovery-title = Removida a chave de recuperação de conta
+postRemoveAccountRecovery-description = Você removeu com sucesso uma chave de recuperação de conta da sua { -product-firefox-account } usando o seguinte dispositivo:
 postRemoveAccountRecovery-action = Gerenciar conta
 postRemoveAccountRecovery-invalid = Essa chave de recuperação não pode mais ser usada para recuperar sua conta.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Você removeu com sucesso { $secondaryEmail } como email secundário da sua { -product-firefox-account }. Notificações de segurança e confirmações de acesso não serão mais enviadas para este endereço.
 postRemoveSecondary-action = Gerenciar conta
 postRemoveTwoStepAuthentication-subject = A autenticação em duas etapas está desativada
 postRemoveTwoStepAuthentication-title = Autenticação em duas etapas desativado
+postRemoveTwoStepAuthentication-description = Você desativou com sucesso a autenticação em duas etapas da sua { -product-firefox-account } através do seguinte dispositivo:
+postRemoveTwoStepAuthentication-description-plaintext = Você desativou com sucesso a autenticação em duas etapas na sua { -product-firefox-account }. Códigos de segurança não serão mais necessários a cada novo acesso.
 postRemoveTwoStepAuthentication-action = Gerenciar conta
 postRemoveTwoStepAuthentication-not-required = Códigos de segurança não serão mais necessários a cada novo acesso.
+postVerify-sub-title = { -product-firefox-account } validada. Está quase pronto.
 postVerify-title = Próxima sincronização entre seus dispositivos!
 postVerify-description = A sincronização mantém de forma privativa seus favoritos, senhas e outros dados do { -brand-firefox } iguais em todos os seus dispositivos.
 postVerify-subject = Conta validada. Agora sincronize outro dispositivo para concluir a configuração
 postVerify-setup = Configurar próximo dispositivo
 postVerify-action = Configurar próximo dispositivo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Tem dúvidas? Visite { $supportUrl }
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
 postVerifySecondary-action = Gerenciar conta

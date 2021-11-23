@@ -482,7 +482,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Atualizar email
-se-unverified = não verificado
+se-unverified = não validada
 se-resend-code = Verificação necessária. <button>Reenvie o código de verificação</button>, se ele não estiver na sua caixa de entrada ou pasta de spam.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
@@ -526,6 +526,6 @@ auth-error-110 = Token inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
-auth-error-138 = Sessão não verificada
+auth-error-138 = Sessão não validada
 auth-error-155 = Token TOTP não encontrado
 auth-error-1008 = Sua nova senha deve ser diferente

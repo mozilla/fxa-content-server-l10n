@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-16 12:10+0000\n"
+"PO-Revision-Date: 2021-11-23 14:40+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -407,7 +407,7 @@ msgstr "Este email já foi validado por outro usuário"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr "Sessão não verificada"
+msgstr "Sessão não validada"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
