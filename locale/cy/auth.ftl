@@ -32,7 +32,7 @@ subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(e
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
-subplat-manage-account = Rheolwch gosodiadau eich { -product-firefox-account } trwy ymweld â'ch <a data-l10n-name="subplat-account-page">tudalen cyfrif </a>.
+subplat-manage-account = Rheolwch osodiadau eich { -product-firefox-account } trwy ymweld â <a data-l10n-name="subplat-account-page">thudalen eich cyfrif </a>.
 subplat-terms-policy = Polisi telerau a chanslo
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Canslo tanysgrifiad
@@ -41,8 +41,8 @@ subplat-reactivate = Ailgychwyn y tanysgrifiad
 subplat-update-billing = Diweddaru’r manylion bilio
 subplat-legal = Cyfreithiol
 subplat-privacy = Preifatrwydd
-another-desktop-device = Neu, gosod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
-another-device = Neu, gosod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
+another-desktop-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
+another-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
 automated-email-change =
     Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="passwordChangeLink"> newidiwch eich cyfrinair </a>.
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
@@ -58,7 +58,7 @@ automated-email-reset =
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair nawr yn { $resetLink }
+automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair yn syth yn { $resetLink }
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -116,7 +116,7 @@ passwordChangeRequired-suspicious-activity = Rydym wedi canfod ymddygiad amheus 
 passwordChangeRequired-sign-in = Mewngofnodwch i unrhyw ddyfais neu wasanaeth lle rydych chi'n defnyddio'ch { -product-firefox-account } a dilynwch y camau fydd yn cael eu cyflwyno i chi.
 passwordChangeRequired-different-password = <b>Pwysig:</b> Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
 passwordChangeRequired-signoff = Hwyl,
-passwordChangeRequired-signoff-name = Y tîm Cyfrif Firefox
+passwordChangeRequired-signoff-name = Y tîm { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
 passwordReset-subject = Diweddarwyd y cyfrinair
 passwordReset-title = Mae cyfrinair eich cyfrif wedi newid
@@ -130,21 +130,21 @@ passwordResetAccountRecovery-regen-required = Bydd angen i chi gynhyrchu allwedd
 passwordResetAccountRecovery-create-key = Creu allwedd adfer newydd:
 postAddAccountRecovery-subject = Cynhyrchwyd allwedd adfer cyfrif
 postAddAccountRecovery-title = Cynhyrchwyd allwedd adfer cyfrif
-postAddAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
+postAddAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postAddAccountRecovery-action = Rheoli cyfrif
 postAddAccountRecovery-recovery = Os nad chi oedd hwn, <a data-l10n-name="revokeAccountRecoveryLink">>cliciwch yma.</a>
 postAddAccountRecovery-revoke = Os nad chi oedd hwn, diddymwch yr allwedd.
 postAddTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei alluogi
 postAddTwoStepAuthentication-title = Mae dilysu dau gam wedi ei alluogi
-postAddTwoStepAuthentication-description-plaintext = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif { -brand-firefox } o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi.
-postAddTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif { -brand-firefox } o'r ddyfais ganlynol:
+postAddTwoStepAuthentication-description-plaintext = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi.
+postAddTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
 postAddTwoStepAuthentication-code-required = Bydd angen codau diogel o’ch ap dilysu bob tro fyddwch yn mewngofnodi.
 postChangePrimary-subject = Diweddarwyd y prif e-bost
 postChangePrimary-title = Prif e-bost newydd
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch Cyfrif { -brand-firefox }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
+postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch { -product-firefox-account }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
 postChangePrimary-action = Rheoli cyfrif
 postConsumeRecoveryCode-subject = Cod adfer wedi’i ddefnyddio
 postConsumeRecoveryCode-title = Cod adfer wedi ei ddefnyddio
@@ -265,8 +265,14 @@ verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Unwaith iddo gael ei ddilysu, bydd y cyfrif hwn yn cychwyn derbyn hysbysiadau diogelwch a negeseuon cadarnhau.
 verifySecondaryCode-subject = Cadarnhau’r ail e-bost
 verifySecondaryCode-title = Dilysu’r ail gyfrif
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
 verifySecondaryCode-prompt = Defnyddiwch y cod dilysu hwn:
 verifySecondaryCode-expiry-notice = Daw i ben mewn 5 munud. Ar ôl ei wirio, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Cod dilysu: { $code }
 verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
 verifyShortCode-prompt = Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
