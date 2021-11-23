@@ -53,14 +53,22 @@ automated-email =
     Este é um email automático. Se você o recebeu por engano, nenhuma ação é necessária.
     Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
+automated-email-reset =
+    Este é um email automático. Se você não autorizou esta ação, <a data-l10n-name="resetLink">redefina sua senha</a>.
+    Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Se você não mudou sua senha, redefina a senha agora em { $resetLink }
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Endereço IP: { $ip }
 manage-account = Gerenciar conta
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Dúvidas sobre sua assinatura? Nossa <a data-l10n-name="subscriptionSupportUrl">equipe de suporte</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre sua assinatura? Nossa equipe de suporte está aqui para ajudar.
+subscriptionUpdatePayment = Para evitar qualquer interrupção em seu serviço, <a data-l10n-name="updateBillingUrl">atualize suas informações de pagamento</a> assim que possível.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:
 # Variables:
@@ -69,6 +77,7 @@ support-message = Para mais informações, visite { $supportUrl }
 cadReminderFirst-subject = Seu lembrete amigável: Como concluir sua configuração de sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Aqui está seu lembrete para sincronizar dispositivos.
+cadReminderFirst-description = Precisa de pelo menos dois para sincronizar. A sincronização privativa com outro dispositivo com { -brand-firefox } mantém seus favoritos, senhas e outros dados no { -brand-firefox } iguais em qualquer lugar onde use o { -brand-firefox }.
 cadReminderSecond-subject = Lembrete final: Conclua a configuração de sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title = Último lembrete para sincronizar dispositivos!
