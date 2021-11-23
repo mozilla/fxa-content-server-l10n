@@ -73,6 +73,7 @@ subscription-success-title = Ñemboheraguapy ñemoneĩ
 subscription-processing-title = Ñemboheraguapy oñemoneĩhína...
 subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy...
 subscription-noplanchange-title = Ko ñemoambue rape ñemboheraguapygua noñepytyvõi
+subscription-iapsubscribed-title = Eñemboheraguapýma
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -266,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
+sub-expires-on = Opáta { $date }
 
 ##
 
@@ -317,6 +319,8 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: ejogua tembipuru’ípe
+sub-iap-item-apple-purchase = { -brand-name-apple }: ejogua tembipuru’ípe
 sub-iap-item-manage-button = Ñangareko
 account-activated = Pe mba’ete hendyhína, <userEl/>
 
@@ -435,3 +439,5 @@ new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
 new-user-already-has-account-sign-in = Erekóma ne mba’ete. <a>Eñepyrũ tembiapo</a>
 new-user-card-title = Emoinge marandu kuatia’atã rehegua
 new-user-submit = Eñemboheraguapy Ko’ág̃a
+manage-pocket-title = ¿Eheka ne ñemboheraguapy guasu { -brand-name-pocket } pegua?
+manage-pocket-body = Eñangarekokuaa hag̃ua, <a>eikutu ápe</a>.

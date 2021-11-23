@@ -154,6 +154,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Ñembyaty ha mba’ekuaarã jepuru
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
