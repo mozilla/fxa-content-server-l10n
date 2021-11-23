@@ -56,33 +56,60 @@ automated-email-plaintext = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-b
 automated-email-reset =
     Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="resetLink"> newidiwch eich cyfrinair</a>.
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair nawr yn { $resetLink }
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Cyfeiriad IP: %(ip)s
 manage-account = Rheoli cyfrif
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a data-l10n-name="subscriptionSupportUrl">tîm cymorth</a> yma i'ch helpu chi.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i’ch helpu chi:
+subscriptionUpdatePayment = Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a data-l10n-name="updateBillingUrl">diweddarwch eich manylion talu</a> cyn gynted â phosibl.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Am ragor o wybodaeth, ewch i { $supportUrl }
 cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync
 cadReminderFirst-action = Cydweddu dyfais arall
 cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
+cadReminderFirst-description = Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â { -brand-firefox } yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data { -brand-firefox }arall yr un peth ym mhobman rydych chi'n defnyddio { -brand-firefox }.
 cadReminderSecond-subject = Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd
 cadReminderSecond-action = Cydweddu dyfais arall
 cadReminderSecond-title = Nodyn atgoffa olaf i gydweddu dyfeisiau!
+cadReminderSecond-description = Mae cydweddu dyfais arall â { -brand-firefox } yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data { -brand-firefox }arall yr un peth ym mhobman rydych chi'n defnyddio { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Prinder codau adfer
 codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o’ch cyfrif.
 codes-generate = Creu codau
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Creu codau
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [zero] 0 codau adfer ar ôl
+        [one] 1 cod adfer ar ôl
+        [two] { $numberRemaining } god adfer ar ôl
+        [few] { $numberRemaining } cod adfer ar ôl
+        [many] { $numberRemaining } cod adfer ar ôl
+       *[other] { $numberRemaining } cod adfer ar ôl
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Mewngofnod newydd i { $clientName }
+newDeviceLogin-title = Mewngofnod newydd i { $clientName }
 
 ##
 
 newDeviceLogin-action = Rheoli cyfrif
 passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
+passwordChanged-description = Mae eich cyfrinair { -product-firefox-account } wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:
 passwordChangeRequired-subject = Gweithgaredd amheus wedi’i ganfod
 passwordChangeRequired-title = Mae Angen Newid Cyfrinair
 passwordChangeRequired-different-password = <b>Pwysig:</b> Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
