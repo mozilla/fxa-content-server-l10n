@@ -57,6 +57,9 @@ manage-account-plaintext = { manage-account }:
 subscriptionSupport-plaintext = ¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ápe nepytyvõ hag̃ua:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Eñemomaranduve hag̃ua, eikeva’rã { $supportUrl }-pe
 cadReminderFirst-subject = Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
