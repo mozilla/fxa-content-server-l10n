@@ -32,6 +32,7 @@ subplat-explainer-specific = Og̃uahẽ ko ñanduti veve { $email } eguereko rup
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
+subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
 subplat-terms-policy = Ñemboguata ha jeheja purureko
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ñemboheraguapy jeheja
@@ -40,6 +41,8 @@ subplat-reactivate = Emyandyjey mboheraguapy
 subplat-update-billing = Embohekopyahu marandu kuatiañemugua
 subplat-legal = Añete
 subplat-privacy = Ñemigua
+another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
+another-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
 automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
 manage-account = Mba’ete ñangareko
