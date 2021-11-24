@@ -53,7 +53,7 @@
 ## Email content
 
 fxa-privacy-url = Mozillina politika zasebnosti
-fxa-service-url = Pogoji uporabe { -brand-firefox }a v oblaku
+fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 subplat-privacy-plaintext = Obvestilo o zasebnosti:
 subplat-update-billing-plaintext = { subplat-update-billing }:
