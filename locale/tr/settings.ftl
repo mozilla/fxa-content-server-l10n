@@ -146,6 +146,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Veri toplanması ve kullanımı
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
@@ -210,6 +211,7 @@ nav-settings = Ayarlar
 nav-profile = Profil
 nav-security = Güvenlik
 nav-connected-services = Bağlı hizmetler
+nav-data-collection = Veri toplanması ve kullanımı
 nav-paid-subs = Ücretli abonelikler
 nav-email-comm = E-posta iletişimi
 

@@ -2,13 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox Hesapları
--product-firefox-account = Firefox hesabı
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox Hesapları
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox hesabı
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
-fxa-service-url = { -brand-firefox } Bulut Hizmet Koşulları
+fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-plaintext = Gizlilik bildirimi:
 subplat-terms-policy = Koşullar ve iptal politikası
@@ -19,19 +32,35 @@ subplat-legal = Yasal Bilgiler
 subplat-privacy = Gizlilik
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adresi: { $ip }
 manage-account = Hesabı yönet
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Daha fazla bilgi için lütfen { $supportUrl } adresini ziyaret edin
 cadReminderFirst-subject = Hatırlatma: Sync kurulumunuzu tamamlayın
 cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-title = Cihazları eşitlemenizi hatırlatalım dedik.
 cadReminderSecond-subject = Son hatırlatma: Sync kurulumunu tamamlayın
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title = Cihazları eşitlemeniz için son hatırlatma!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
 codes-generate = Kodları oluştur
 lowRecoveryCodes-action = Kodları oluştur
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Hesabı yönet
 passwordChanged-subject = Parola güncellendi
 passwordChanged-title = Parola başarıyla değiştirildi
@@ -48,6 +77,7 @@ passwordResetAccountRecovery-title = Hesap parolanız bir kurtarma anahtarıyla 
 passwordResetAccountRecovery-description = Kurtarma anahtarı kullanarak parolanızı aşağıdaki cihazdan başarıyla sıfırladınız:
 passwordResetAccountRecovery-action = Yeni kurtarma anahtarı oluştur
 passwordResetAccountRecovery-regen-required = Yeni bir kurtarma anahtarı oluşturmanız gerekecek.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Yeni kurtarma anahtarı oluştur:
 postAddAccountRecovery-subject = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title = Hesap kurtarma anahtarı oluşturuldu
@@ -92,6 +122,9 @@ recovery-title = Parolanızı sıfırlamanız mı gerekiyor?
 recovery-description = Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:
 recovery-action = Yeni parola oluştur
 subscriptionPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } aboneliği yeniden etkinleştirildi
 subscriptionsPaymentExpired-subject = Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor
 subscriptionsPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
 subscriptionsPaymentExpired-content = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
@@ -131,6 +164,8 @@ verifySecondaryCode-subject = İkinci e-postayı onayla
 verifySecondaryCode-title = İkinci e-postayı doğrula
 verifySecondaryCode-prompt = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Doğrulama kodu: { $code }
 verifyShortCode-title = Kaydolan siz misiniz?
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
-
