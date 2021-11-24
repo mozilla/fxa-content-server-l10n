@@ -104,6 +104,7 @@ passwordChangeRequired-suspicious-activity = Nous avons détecté un comportemen
 passwordChangeRequired-sign-in = Reconnectez-vous à tout appareil ou service sur lequel vous utilisez votre { -product-firefox-account } et suivez les étapes qui vous seront présentées.
 passwordChangeRequired-different-password = <b>Important :</b> choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
 passwordChangeRequired-signoff = Cordialement,
+passwordChangeRequired-signoff-name = L’équipe { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Important : choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
 passwordReset-subject = Mot de passe mis à jour
 passwordReset-title = Le mot de passe de votre compte a été changé
