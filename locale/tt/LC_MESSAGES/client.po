@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-24 21:51+0000\n"
+"PO-Revision-Date: 2021-11-24 21:57+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1046,7 +1046,7 @@ msgstr "Раслау кодын кертү"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "<div class=\"graphic graphic-client-pocket\">Pocket-ка</div> күчү"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1109,7 +1109,7 @@ msgstr "Көйләүне тәмамлар өчен iOS өчен Firefox'ка к�
 
 #: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Ни өчен бердән артык җиһаз кирәк?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1212,7 +1212,7 @@ msgstr "Кодны кулдан кертү"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Аутентификация кушымтасында бу QR кодны сканерлагыз, шуннан ул биргән иминлек кодын кертегез."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1291,7 +1291,7 @@ msgstr "Уңышлы"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Сез хәзер <div class=\"graphic graphic-client-pocket\">Pocket</div> хезмәтен куллана аласыз"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1383,6 +1383,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"    Дәвам итү нәтиҗәсендә Сез<br />\n"
+"    Pocket-ның <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Куллану Шартлары</a> һәм <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Хосусыйлык Аңлатмасы</a><br />\n"
+"    Firefox-ның <a id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез\n"
+"    "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1398,7 +1403,7 @@ msgstr "10-цифрлы коткару кодын кертегез"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Хисабыгыз биклеме?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1427,7 +1432,7 @@ msgstr "Аутентификация кушымтасын ачыгыз һәм у
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Код кертүдә проблема бармы?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1455,7 +1460,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Практик белемнәр сезнең почтагызга килер. Күбрәк белү өчен теркәлегез:"
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
@@ -1469,10 +1474,15 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"    Дәвам итү нәтиҗәсендә Сез<br />\n"
+"    Pocket-ның <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Куллану Шартлары</a> һәм <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Хосусыйлык Аңлатмасы</a><br />\n"
+"     Firefox-ның <a id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез\n"
+"     "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Телефоныгызны cинхронлыйсыгыз киләме?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
