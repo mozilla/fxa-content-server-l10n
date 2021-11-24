@@ -44,7 +44,13 @@ subplat-privacy = Ñemigua
 another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
 another-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
 automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Neremoambuéiramo, embojevyjey ne ñe’ẽñemi ko’ág̃a { $resetLink } ndive
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP kundaharape: { $ip }
 manage-account = Mba’ete ñangareko
 manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
