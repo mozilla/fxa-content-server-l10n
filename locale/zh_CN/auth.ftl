@@ -22,13 +22,16 @@
 
 fxa-privacy-url = { -brand-mozilla } 隐私政策
 fxa-service-url = { -product-firefox-cloud } 服务条款
-subplat-automated-email = 这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。
+subplat-automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 subplat-privacy-plaintext = 隐私声明：
 subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 您收到此电子邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了 { $productName }。
+subplat-explainer-specific = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了 { $productName }。
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了多个产品。
 subplat-terms-policy = 条款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
@@ -37,7 +40,7 @@ subplat-reactivate = 重新激活订阅
 subplat-update-billing = 更新结算信息
 subplat-legal = 法律
 subplat-privacy = 隐私
-automated-email-plaintext = 这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。
+automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 # Variables:
 #  $ip (Number) - User's IP address
@@ -138,6 +141,7 @@ verificationReminderFirst-subject = 提醒: 请完成账户创建
 verificationReminderFirst-title = 欢迎来到 { -brand-firefox } 大家庭
 verificationReminderFirst-sub-description = 请立即确认，即可获取为您的隐私而战的相关技术、实用知识以及您应得的尊重。
 confirm-email = 确认邮箱地址
+confirm-email-plaintext = { confirm-email }：
 verificationReminderFirst-action = 确认邮箱地址
 verificationReminderSecond-subject = 最后一次提醒：请激活您的账户
 verificationReminderSecond-title = 还在吗？
