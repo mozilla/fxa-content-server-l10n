@@ -129,22 +129,44 @@ recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
 recovery-description = 请在一小时内点击下面的按钮来创建新密码。此次重设密码的请求来自以下设备：
 recovery-action = 创建新密码
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将过期
 subscriptionPaymentExpired-title = 您的信用卡即将到期
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = 您用于付款 { $productName } 的信用卡即将到期。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = 已重新开始订阅 { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = 感谢您重新开始订阅 { $productName }！
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = 您的账单周期与付款信息将保持不变，下次将于 { $nextInvoiceDateOnly } 收取 { $invoiceTotal }。在您主动取消之前，将一直自动续订。
 subscriptionsPaymentExpired-subject = 订阅所用信用卡即将过期
 subscriptionsPaymentExpired-title = 您的信用卡即将到期
 subscriptionsPaymentExpired-content = 您用于付款的信用卡即将到期。
 unblockCode-subject = 账户授权码
 unblockCode-title = 是您在登录吗？
 unblockCode-prompt = 如果是，这是您所需的授权码：
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = 如若是，这里是您需要的授权码：{ $unblockCode }
+unblockCode-report = 如若不是，请帮助我们抵御入侵者，并<a data-l10n-name="reportSignInLink">向我们报告</a>。
 unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，向我们报告此事例。
 verificationReminderFirst-subject = 提醒: 请完成账户创建
 verificationReminderFirst-title = 欢迎来到 { -brand-firefox } 大家庭
+verificationReminderFirst-description = 几天前您创建了 { -product-firefox-account }，但未进行确认。
 verificationReminderFirst-sub-description = 请立即确认，即可获取为您的隐私而战的相关技术、实用知识以及您应得的尊重。
 confirm-email = 确认邮箱地址
 confirm-email-plaintext = { confirm-email }：
 verificationReminderFirst-action = 确认邮箱地址
 verificationReminderSecond-subject = 最后一次提醒：请激活您的账户
 verificationReminderSecond-title = 还在吗？
+verificationReminderSecond-description = 大约一周前，您创建了 { -product-firefox-account }，却未进行验证。我们对此表示担忧。
 verificationReminderSecond-sub-description = 请确认此邮箱地址以激活您的账户，让我们知道您没遇到什么问题。
 verificationReminderSecond-action = 确认邮箱地址
 verify-title = 激活 { -brand-firefox } 系列产品
@@ -152,8 +174,17 @@ verify-description-plaintext = 确认您的账户，即可在任何登录的设�
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
 verify-action = 确认邮箱地址
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = { $clientName } 有新的登录活动
 verifyLogin-description = 为了您的安全，请确认从下列设备的登录：
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = 确认新的 { $clientName } 登录活动
 verifyLogin-action = 确认登录
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = 验证码：{ $code }
 verifyLoginCode-title = 是您在登录吗？
 verifyLoginCode-prompt = 如果是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
@@ -161,15 +192,26 @@ verifyPrimary-title = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
 verifyPrimary-subject = 确认主邮箱
 verifyPrimary-action = 验证邮箱
+verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 通过验证后，将可从此设备执行添加备用邮箱等账户更改。
 verifySecondary-subject = 确认备用邮箱地址
 verifySecondary-title = 验证备用邮箱地址
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
 verifySecondary-action = 验证邮箱
+verifySecondary-prompt = { verifySecondary-action }：
 verifySecondary-post-verification = 在验证后，此地址将接受有关的安全通知和确认邮件。
 verifySecondaryCode-subject = 确认备用邮箱地址
 verifySecondaryCode-title = 验证备用邮箱地址
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
 verifySecondaryCode-prompt = 使用此验证码：
 verifySecondaryCode-expiry-notice = 5 分钟内有效。在验证后，此地址将接受有关的安全通知和确认邮件。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-prompt = 如果是，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
