@@ -47,15 +47,22 @@ automated-email-change = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
+automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
+automated-email-reset = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="resetLink">请立即重置密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = 若您未进行更改，请立即到 { $resetLink } 重置密码
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP 地址：{ $ip }
 manage-account = 管理账号
 manage-account-plaintext = { manage-account }：
+subscriptionSupport = 遇到订阅相关的问题？我们的<a data-l10n-name="subscriptionSupportUrl">用户支持团队</a>在此为您答疑。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：
+subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-name="updateBillingUrl">更新付款信息</a>。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 # Variables:
@@ -64,9 +71,11 @@ support-message = 更多信息请访问 { $supportUrl }
 cadReminderFirst-subject = 友情提醒：完成同步设置的步骤
 cadReminderFirst-action = 与其他设备同步
 cadReminderFirst-title = 提醒 🔔 您需与其他设备进行同步。
+cadReminderFirst-description = 同步至少需要两台设备。请与另一台设备同步您的书签、密码和其他 { -brand-firefox } 数据。私密浏览，更要无缝衔接。
 cadReminderSecond-subject = 最后一次提醒：请完成同步设置
 cadReminderSecond-action = 与其他设备同步
 cadReminderSecond-title = 请与其他设备同步，最后一次提醒！
+cadReminderSecond-description = 请与另一台设备同步您的书签、密码和其他 { -brand-firefox } 数据。私密浏览，更要无缝衔接。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
