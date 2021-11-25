@@ -2,25 +2,65 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Contas Firefox
--product-firefox-account = Conta Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Contas Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Conta Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
 fxa-service-url = Termos de Serviço do { -product-firefox-cloud }
 subplat-automated-email = Este é um email automático; se o recebeu por erro, nenhuma ação é requerida.
 subplat-privacy-plaintext = Política de privacidade:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu múltiplos produtos.
+subplat-manage-account = Faça a gestão das definições da sua { -product-firefox-account } visitando a <a data-l10n-name="subplat-account-page">página da conta</a>.
 subplat-terms-policy = Termos e política de cancelamento
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar subscrição
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar subscrição
 subplat-update-billing = Atualizar a informação de faturação
 subplat-legal = Informações legais
 subplat-privacy = Privacidade
+another-desktop-device = Ou instale <a data-l10n-name="anotherDeviceLink">noutro computador</a>.
+another-device = Ou instale <a data-l10n-name="anotherDeviceLink">noutro dispositivo</a>.
+automated-email-change =
+    Este é um e-mail automático; se não autorizou esta ação, <a data-l10n-name="passwordChangeLink">por favor altere a sua palavra-passe</a>.
+    Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Este é um e-mail automático; se não adicionou nenhum novo dispositivo à sua { -product-firefox-account }, deve alterar imediatamente a sua palavra-passe em { $passwordChangeLink }
+automated-email =
+    Este é um e-mail automático; se o recebeu por engano, não é necessária qualquer ação.
+    Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
 automated-email-plaintext = Este é um email automático; se o recebeu por erro, nenhuma ação é requerida.
+automated-email-reset =
+    Este é um e-mail automático; se não autorizou esta ação, <a data-l10n-name="resetLink">por favor altere a sua palavra-passe</a>.
+    Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
 change-password-plaintext = Se suspeita que alguém está a tentar obter acesso à sua conta, por favor, altere a sua palavra-passe.
 manage-account = Gerir conta
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu serviço, por favor, atualize a sua informação de pagamento assim que possível:
 cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuração da sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
@@ -28,10 +68,18 @@ cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
 cadReminderSecond-subject = Lembrete final: concluir a configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title = Último lembrete para sincronizar os dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Notámos que está com poucos códigos de recuperação. Por favor considere gerar novos códigos para evitar que fique sem acesso à sua conta.
 codes-generate = Gerar códigos
 lowRecoveryCodes-action = Gerar códigos
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Gerir conta
 passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
@@ -48,6 +96,7 @@ passwordResetAccountRecovery-title = A palavra-passe da sua conta foi reposta co
 passwordResetAccountRecovery-description = Repôs a sua palavra passe utilizando uma chave de recuperação com sucesso a partir do seguinte dispositivo:
 passwordResetAccountRecovery-action = Criar nova chave de recuperação
 passwordResetAccountRecovery-regen-required = Irá necessitar de gerar uma nova chave de recuperação.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Criar nova chave de recuperação:
 postAddAccountRecovery-subject = Chave de recuperação de conta gerada
 postAddAccountRecovery-title = Chave de recuperação de conta gerada
@@ -134,4 +183,3 @@ verifySecondaryCode-expiry-notice = Expira em 5 minutos. Assim que for confirmad
 verifyShortCode-title = É você que se está a registar?
 verifyShortCode-prompt = Em caso afirmativo, utilize este código de confirmação no seu formulário de registo:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
-

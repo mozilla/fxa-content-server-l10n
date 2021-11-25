@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-10-19 14:59+0000\n"
-"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
+"POT-Creation-Date: 2021-11-25 22:08+0000\n"
+"PO-Revision-Date: 2021-11-15 22:28+0000\n"
+"Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -351,25 +351,25 @@ msgstr "Próxima fatura: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
-msgstr ""
+msgstr "Ainda não pode aceder à sua subscrição"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "Criou uma conta do Firefox há alguns dias, mas nunca a confirmou. Gostaríamos que terminasse de configurar a sua conta para que possa utilizar a sua nova subscrição."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Selecione “Criar palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
-msgstr ""
+msgstr "Criar uma palavra-passe:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Bem-vindo(a) ao Firefox!"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -791,7 +791,7 @@ msgstr "Está a receber este e-mail porque %(email)s tem uma conta Firefox e voc
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Está a receber este e-mail porque %(email)s tem uma conta Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
@@ -895,11 +895,11 @@ msgstr "Lembrete final: ative a sua conta"
 
 #: lib/senders/email.js:775
 msgid "Reminder: Finish setting up your account"
-msgstr ""
+msgstr "Lembrete: termine a configuração da sua conta"
 
 #: lib/senders/email.js:777
 msgid "Final reminder: Setup your account"
-msgstr ""
+msgstr "Lembrete final: Configure a sua conta"
 
 #: lib/senders/email.js:817 lib/senders/email.js:2027
 msgid "Create a password"

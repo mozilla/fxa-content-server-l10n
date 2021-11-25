@@ -30,6 +30,7 @@ alert-bar-close-message = Close message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -67,6 +68,7 @@ bento-menu-firefox-title = { -brand-firefox } is tech that fights for your onlin
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
 
@@ -213,6 +215,10 @@ mvs-enter-verification-code = Enter your verification code
 mvs-enter-verification-code-desc = Please enter the verification code that was sent to <email>{ $email }</email> within 5 minutes.
 msv-cancel-button = Cancel
 msv-submit-button = Verify
+
+## Auth-server based errors that originate from backend service
+
+auth-error-183 = Invalid or expired verification code
 
 ## Settings Nav
 
@@ -364,7 +370,9 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancel
 add-secondary-email-save-button = Save
 
-##
+## Auth-server based errors that originate from backend service
+
+auth-error-139 = Secondary email must be different than your account email
 
 ## Verify secondary email page
 
@@ -479,7 +487,7 @@ row-defaults-status = None
 
 rk-header = Recovery key
 rk-enabled = Enabled
-rk-not-set = Not set
+rk-not-set = Not Set
 rk-action-create = Create
 rk-action-remove = Remove
 rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
@@ -527,6 +535,8 @@ se-make-primary = Make primary
 se-default-content = Access your account if you can’t log in to your primary email.
 se-content-note = Note: a secondary email won’t restore your information — you’ll
   need a <a>recovery key</a> for that.
+# Default value for the secondary email
+se-secondary-email-none = None
 
 ##
 
@@ -535,7 +545,7 @@ se-content-note = Note: a secondary email won’t restore your information — y
 tfa-row-header = Two-step authentication
 tfa-row-disabled = Two-step authentication disabled.
 tfa-row-enabled = Enabled
-tfa-row-not-set = Not set
+tfa-row-not-set = Not Set
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
 
@@ -561,6 +571,7 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
+auth-error-105 = Invalid verification code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-08 12:40+0000\n"
+"POT-Creation-Date: 2021-11-25 22:08+0000\n"
+"PO-Revision-Date: 2021-11-18 11:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -22,7 +22,7 @@ msgstr "Dit is jo omtinken om apparaten te syngronisearjen."
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
-"Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke "
+"Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke "
 "itselde."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
@@ -31,7 +31,7 @@ msgstr "Lêste omtinken om apparaten te syngronisearjen!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr't jo Firefox brûke itselde."
+msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke itselde."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
 msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Meld jo opnij oan op ien fan de apparaten of services wêr't jo jo Firefox-account brûke en folgje de presintearre stappen."
+msgstr "Meld jo opnij oan op ien fan de apparaten of services wêr’t jo jo Firefox-account brûke en folgje de presintearre stappen."
 
 #: lib/senders/templates/passwordChangeRequired.html:4
 msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
@@ -455,7 +455,7 @@ msgstr "Jo creditcard ferrint ynkoarten"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "De creditcard dy't jo brûke foar betellingen foar %(productName)s ferrint ynkoarten."
+msgstr "De creditcard dy’t jo brûke foar betellingen foar %(productName)s ferrint ynkoarten."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
@@ -577,7 +577,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "De creditcard dy't jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten."
+msgstr "De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
@@ -593,11 +593,11 @@ msgstr "Wy hawwe in probleem mei jo betellingsmetoade foar de folgjende abonnemi
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr "Binne jo dit, dy't harren oanmeldt?"
+msgstr "Binne jo dit, dy’t harren oanmeldt?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr "As ja, dan is hjir de autorisaasjekoade dy't jo nedich hawwe:"
+msgstr "As ja, dan is hjir de autorisaasjekoade dy’t jo nedich hawwe:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
@@ -617,7 +617,7 @@ msgstr "Jo hawwe inkelde dagen lyn in Firefox-account oanmakke, mar dit nea bef�
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Befêstigje no en ûntfang technology dy't foar jo privacy fjochtte en dizze beskermet, jo fersterket mei praktyske kennis en jo it respekt jout dat jo fertsjinje."
+msgstr "Befêstigje no en ûntfang technology dy’t foar jo privacy fjochtte en dizze beskermet, jo fersterket mei praktyske kennis en jo it respekt jout dat jo fertsjinje."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
@@ -641,11 +641,11 @@ msgstr "Aktivearje de Firefox-produktfamylje"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox, te begjinnen mei:"
+msgstr "Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út Firefox, te begjinnen mei:"
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Befêstigje jo account en helje oeral wêr't jo jo oanmelde it measte út Firefox."
+msgstr "Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út Firefox."
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
@@ -1061,7 +1061,7 @@ msgstr "Side net fûn"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werstelle."
+msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy’t mooglik net wurkje werstelle."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -1118,7 +1118,7 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
-"Firefox Accounts makket gebrûk fan funksjes dy't\n"
+"Firefox Accounts makket gebrûk fan funksjes dy’t\n"
 "                        net stipe wurde yn jo ferzje fan Firefox.\n"
 "                        Download en ynstallearje de lêste ferzje fan Firefox om\n"
 "                        troch te gean."

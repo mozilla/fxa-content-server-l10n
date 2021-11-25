@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-11-25 22:08+0000\n"
 "PO-Revision-Date: 2021-11-15 14:26+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1129,10 +1129,11 @@ msgstr "Undeur panganyarna"
 #~ msgstr "Mimiti mah, robah sandi Firefox Account anjeun."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr ""
-#~ "Kadua, mun Firefox neundeun sandi ka situs wéb, anjeun ogé kudu ngarobah éta sandi. Panarajang meureun baé boga aksés kana éta sandi, jadi anjeun kudu ngariksa éta akun sangkan mikanyaho aktivitas "
-#~ "nu nyurigakeun."
+#~ "Kadua, mun Firefox neundeun sandi ka situs wéb, anjeun ogé kudu ngarobah éta sandi. Panarajang meureun baé boga aksés kana éta sandi, jadi anjeun kudu ngariksa éta akun sangkan mikanyaho "
+#~ "aktivitas nu nyurigakeun."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "Lenyepan cara nempoan sandi nu diteundeun Firefox jang anjeun."
