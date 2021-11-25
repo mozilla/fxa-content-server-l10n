@@ -2,25 +2,51 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox 账户
--product-firefox-account = Firefox 账户
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox 账户
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox 账户
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } 隐私政策
 fxa-service-url = { -product-firefox-cloud } 服务条款
 subplat-automated-email = 这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。
 subplat-privacy-plaintext = 隐私声明：
+subplat-update-billing-plaintext = { subplat-update-billing }：
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = 您收到此电子邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了 { $productName }。
 subplat-terms-policy = 条款及取消政策
+subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
+subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新激活订阅
 subplat-update-billing = 更新结算信息
 subplat-legal = 法律
 subplat-privacy = 隐私
 automated-email-plaintext = 这是一封自动发送的邮件；如果您并未要求但收到这封信件，您不需要进行任何操作。
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP 地址：{ $ip }
 manage-account = 管理账号
+manage-account-plaintext = { manage-account }：
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 cadReminderFirst-subject = 友情提醒：完成同步设置的步骤
 cadReminderFirst-action = 与其他设备同步
@@ -28,10 +54,18 @@ cadReminderFirst-title = 提醒 🔔 您需与其他设备进行同步。
 cadReminderSecond-subject = 最后一次提醒：请完成同步设置
 cadReminderSecond-action = 与其他设备同步
 cadReminderSecond-title = 请与其他设备同步，最后一次提醒！
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
 codes-generate = 生成救援码
 lowRecoveryCodes-action = 生成救援码
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = 管理账号
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
@@ -48,6 +82,7 @@ passwordResetAccountRecovery-title = 您的密码已通过救援密钥重置
 passwordResetAccountRecovery-description = 您已使用下列设备中的救援密钥成功重置密码：
 passwordResetAccountRecovery-action = 生成新的救援密钥
 passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组密钥。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 生成新的救援密钥：
 postAddAccountRecovery-subject = 已生成新的救援密钥
 postAddAccountRecovery-title = 已生成新的救援密钥
@@ -134,4 +169,3 @@ verifySecondaryCode-expiry-notice = 5 分钟内有效。在验证后，此地址
 verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-prompt = 如果是，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
-
