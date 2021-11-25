@@ -21,7 +21,7 @@
 ## Email content
 
 fxa-privacy-url = { -brand-mozilla }’ның Хосусыйлык Сәясәте
-fxa-service-url = { -brand-firefox } Болыт-ны куллану шартлары
+fxa-service-url = { -product-firefox-cloud } хезмәтен куллану шартлары
 subplat-automated-email = Бу автоматик электрон хат. Аның килүе бер хата аркасында булды дип уйласагыз, берни дә эшләргә кирәкми.
 subplat-privacy-plaintext = Хоусыйлык аңлатмасы:
 subplat-update-billing-plaintext = { subplat-update-billing }:
