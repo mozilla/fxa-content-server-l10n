@@ -2,25 +2,53 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla }-ს პირადი მონაცემების დაცვის დებულება
 fxa-service-url = { -product-firefox-cloud }-ის მომსახურების პირობები
 subplat-automated-email = ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
 subplat-privacy-plaintext = პირადი მონაცემების დაცვის განაცხადი:
+subplat-update-billing-plaintext = { subplat-update-billing }
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = თქვენ მიიღეთ ეს წერილი, ვინაიდან { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = თქვენ მიიღეთ ეს წერილი, { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ რამდენიმე პროდუქტი.
+subplat-manage-account = გამართეთ თქვენი { -product-firefox-account(case: "gen") } პარამეტრები <a data-l10n-name="subplat-account-page">ანგარიშის გვერდიდან</a>.
 subplat-terms-policy = პირობები და გაუქმების დებულება
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = გამოწერის გაუქმება
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = გამოწერის კვლავ ამოქმედება
 subplat-update-billing = ანგარიშსწორების მონაცემების განახლება
 subplat-legal = სამართლებრივი
 subplat-privacy = პირადულობა
+another-desktop-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა კომპიუტერზე</a>.
+another-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა მოწყობილობაზე</a>.
 automated-email-plaintext = ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
 manage-account = ანგარიშის მართვა
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენს დასახმარებლად:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
 cadReminderFirst-subject = მეგობრული შეხსენება: როგორ დაასრულოთ სინქრონიზაციის გამართვა
 cadReminderFirst-action = სხვა მოწყობილობის დასინქრონება
@@ -28,10 +56,18 @@ cadReminderFirst-title = შეხსენება, მოწყობილ�
 cadReminderSecond-subject = საბოლოო შეხსენება: დაასრულეთ სინქრონიზაციის გამართვა
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
 cadReminderSecond-title = ბოლო შეხსენება მოწყობილობების დასინქრონებისთვის!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = აღდგენის კოდები თავდება
 codes-reminder-description = ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად.
 codes-generate = კოდების შექმნა
 lowRecoveryCodes-action = კოდების შექმნა
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = ანგარიშის მართვა
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
@@ -49,6 +85,7 @@ passwordResetAccountRecovery-title = თქვენი ანგარიში
 passwordResetAccountRecovery-description = თქვენ წარმატებით გაანულეთ თქვენი პაროლი აღდგენის გასაღების მეშვეობით შემდეგი მოწყობილობიდან:
 passwordResetAccountRecovery-action = აღდგენის ახალი გასაღების შექმნა
 passwordResetAccountRecovery-regen-required = საჭიროა აღდგენის ახალი გასაღების შექმნა.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = აღდგენის ახალი გასაღების შექმნა:
 postAddAccountRecovery-subject = ანგარიშის აღდგენის გასაღები შექმნილია
 postAddAccountRecovery-title = ანგარიშის აღდგენის გასაღები შექმნილია
@@ -136,4 +173,3 @@ verifySecondaryCode-expiry-notice = ვადა გაუვა 5 წუთშ�
 verifyShortCode-title = ეს ანგარიში თქვენ შექმენით?
 verifyShortCode-prompt = თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.
-
