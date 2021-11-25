@@ -201,7 +201,7 @@ subscriptionsPaymentExpired-title = 您的信用卡即将到期
 subscriptionsPaymentExpired-content = 您用于付款的信用卡即将到期。
 unblockCode-subject = 账户授权码
 unblockCode-title = 是您在登录吗？
-unblockCode-prompt = 如果是，这是您所需的授权码：
+unblockCode-prompt = 如若是，这是您所需的授权码：
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = 如若是，这里是您需要的授权码：{ $unblockCode }
@@ -236,7 +236,7 @@ verifyLogin-action = 确认登录
 #  $code (Number) - e.g. 123456
 verifyLoginCode-subject = 验证码：{ $code }
 verifyLoginCode-title = 是您在登录吗？
-verifyLoginCode-prompt = 如果是，请使用此验证码：
+verifyLoginCode-prompt = 如若是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
 verifyPrimary-title = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
@@ -263,5 +263,5 @@ verifySecondaryCode-expiry-notice = 5 分钟内有效。在验证后，此地址
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
-verifyShortCode-prompt = 如果是，请在注册表单中输入此验证码：
+verifyShortCode-prompt = 如若是，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
