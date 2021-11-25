@@ -128,13 +128,19 @@ postAddAccountRecovery-subject = Chave de recuperação de conta gerada
 postAddAccountRecovery-title = Chave de recuperação de conta gerada
 postAddAccountRecovery-description = Gerou com sucesso uma chave de recuperação de conta para a sua { -product-firefox-account } utilizando o seguinte dispositivo:
 postAddAccountRecovery-action = Gerir conta
+postAddAccountRecovery-recovery = Caso não seja o autor desta alteração, <a data-l10n-name="revokeAccountRecoveryLink">clique aqui.</a>
 postAddAccountRecovery-revoke = Se não foi você, revogue a chave.
 postAddTwoStepAuthentication-subject = Autenticação de dois passos ativada
 postAddTwoStepAuthentication-title = Autenticação de dois passos ativada
+postAddTwoStepAuthentication-description-plaintext = Ativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação serão agora solicitados a cada início de sessão.
+postAddTwoStepAuthentication-description = Ativou com sucesso a autenticação de dois passos na sua { -product-firefox-account } a partir do seguinte dispositivo:
 postAddTwoStepAuthentication-action = Gerir conta
 postAddTwoStepAuthentication-code-required = Os códigos de segurança da sua aplicação de autenticação serão agora requeridos a cada início de sessão.
 postChangePrimary-subject = E-mail principal atualizado
 postChangePrimary-title = Novo email primário
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Alterou com sucesso o seu e-mail primário para { $email }. Este endereço é agora o seu nome de utilizador para iniciar sessão na sua { -product-firefox-account }, assim como para receber notificações de segurança e confirmações de autenticação.
 postChangePrimary-action = Gerir conta
 postConsumeRecoveryCode-subject = Código de recuperação utilizado
 postConsumeRecoveryCode-title = Código de recuperação consumido
@@ -146,20 +152,30 @@ postNewRecoveryCodes-description = Gerou novos códigos de recuperação com suc
 postNewRecoveryCodes-action = Gerir conta
 postRemoveAccountRecovery-subject = Chave de recuperação de conta removida
 postRemoveAccountRecovery-title = Chave de recuperação de conta removida
+postRemoveAccountRecovery-description = Removeu com sucesso uma chave de recuperação de conta para a sua { -product-firefox-account } utilizando o seguinte dispositivo:
 postRemoveAccountRecovery-action = Gerir conta
 postRemoveAccountRecovery-invalid = Esta chave de recuperação já não pode ser utilizada para recuperar a sua conta.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
 postRemoveSecondary-action = Gerir conta
 postRemoveTwoStepAuthentication-subject = A confirmação de dois passos está desativada
 postRemoveTwoStepAuthentication-title = Autenticação de dois passos desativada
+postRemoveTwoStepAuthentication-description = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account } a partir do seguinte dispositivo:
+postRemoveTwoStepAuthentication-description-plaintext = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação não serão mais solicitados a cada início de sessão.
 postRemoveTwoStepAuthentication-action = Gerir conta
 postRemoveTwoStepAuthentication-not-required = Os códigos de segurança não serão mais requeridos a cada início de sessão.
+postVerify-sub-title = { -product-firefox-account } verificada. Está quase lá.
 postVerify-title = Próxima sincronização entre os seus dispositivos!
 postVerify-description = O Sync mantém igual e de modo privado os seus marcadores, palavras-passe e outra informação do { -brand-firefox } em todos os seus dispotivos.
 postVerify-subject = Conta verificada. Em seguida, sincronize outro dispositivo para concluir a configuração.
 postVerify-setup = Configurar o próximo dispositivo
 postVerify-action = Configurar o próximo dispositivo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Tem questões? Visite { $supportUrl }
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
 postVerifySecondary-action = Gerir conta
