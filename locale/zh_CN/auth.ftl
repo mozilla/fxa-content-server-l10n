@@ -90,13 +90,19 @@ passwordResetAccountRecovery-create-key = 生成新的救援密钥：
 postAddAccountRecovery-subject = 已生成新的救援密钥
 postAddAccountRecovery-title = 已生成新的救援密钥
 postAddAccountRecovery-action = 管理账号
+postAddAccountRecovery-recovery = 若不是您操作的，<a data-l10n-name="revokeAccountRecoveryLink">请点击此处</a>。
 postAddAccountRecovery-revoke = 若不是您操作的，请吊销该密钥。
 postAddTwoStepAuthentication-subject = 已启用两步验证
 postAddTwoStepAuthentication-title = 已启用两步验证
+postAddTwoStepAuthentication-description-plaintext = 您已成功启用 { -product-firefox-account }的两步验证。现在起，每次登录时都会要求您输入身份验证应用上的安全码。
+postAddTwoStepAuthentication-description = 您已成功用下列设备启用 { -product-firefox-account }的两步验证：
 postAddTwoStepAuthentication-action = 管理账号
 postAddTwoStepAuthentication-code-required = 现在起，每次登录时都会需要您输入身份验证应用上的安全码。
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = 您已成功将您的主邮箱地址更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账号
 postConsumeRecoveryCode-subject = 已使用救援码
 postConsumeRecoveryCode-title = 救援码已被使用
@@ -108,6 +114,7 @@ postNewRecoveryCodes-description = 您已成功用下列设备生成新的救援
 postNewRecoveryCodes-action = 管理账号
 postRemoveAccountRecovery-subject = 已移除账户救援密钥
 postRemoveAccountRecovery-title = 已移除账户救援密钥
+postRemoveAccountRecovery-description = 您已使用下列设备，成功移除 { -product-firefox-account }救援密钥：
 postRemoveAccountRecovery-action = 管理账号
 postRemoveAccountRecovery-invalid = 将无法再使用该救援密钥来救援您的账户。
 postRemoveSecondary-subject = 已移除备用邮箱
@@ -115,15 +122,24 @@ postRemoveSecondary-title = 已移除备用邮箱
 postRemoveSecondary-action = 管理账号
 postRemoveTwoStepAuthentication-subject = 已关闭两步验证
 postRemoveTwoStepAuthentication-title = 已禁用两步验证
+postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 { -product-firefox-account }的两步验证：
+postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
 postRemoveTwoStepAuthentication-action = 管理账号
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
+postVerify-sub-title = { -product-firefox-account }验证完毕，就快完成了。
 postVerify-title = 接下来与您的其他设备同步！
 postVerify-description = 同步服务会安全地在您所有设备间同步书签、密码与其他 { -brand-firefox } 数据。
 postVerify-subject = 账户验证完毕。接下来，与另一台同步设备以完成设置
 postVerify-setup = 设置下一台设备
 postVerify-action = 设置下一台设备
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 备用邮箱已绑定
 postVerifySecondary-title = 备用邮箱已绑定
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = 您已成功验证 { $secondaryEmail } 作为您的 { -product-firefox-account }的备用邮箱地址。安全通知和登录确认从现在起将同时发送到两个邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
@@ -131,7 +147,7 @@ recovery-description = 请在一小时内点击下面的按钮来创建新密码
 recovery-action = 创建新密码
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将过期
+subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将到期
 subscriptionPaymentExpired-title = 您的信用卡即将到期
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
