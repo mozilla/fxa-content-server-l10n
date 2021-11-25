@@ -77,28 +77,42 @@ support-message = Para mais informação, por favor visite { $supportUrl }
 cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuração da sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
+cadReminderFirst-description = São necessários dois para sincronizar. A sincronização com outro dispositivo com o { -brand-firefox } de forma privada mantém os seus marcadores, palavras-passe e outros dados do { -brand-firefox } iguais em todo o lado onde utilize o { -brand-firefox }.
 cadReminderSecond-subject = Lembrete final: concluir a configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title = Último lembrete para sincronizar os dispositivos!
+cadReminderSecond-description = A sincronização com outro dispositivo com o { -brand-firefox } de forma privada mantém os seus marcadores, palavras-passe e outros dados do { -brand-firefox } iguais em todo o lado onde utilize o { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Notámos que está com poucos códigos de recuperação. Por favor considere gerar novos códigos para evitar que fique sem acesso à sua conta.
 codes-generate = Gerar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Gerar códigos
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 código de recuperação remanescente
+       *[other] { $numberRemaining } códigos de recuperação remanescentes
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Novo início de sessão para { $clientName }
+newDeviceLogin-title = Novo início de sessão para { $clientName }
 
 ##
 
 newDeviceLogin-action = Gerir conta
 passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
+passwordChanged-description = A palavra-passe das { -product-firefox-account } foi alterada com sucesso a partir do seguinte dispositivo:
 passwordChangeRequired-subject = Detetada atividade suspeita
 passwordChangeRequired-title = Alteração de palavra-passe necessária
+passwordChangeRequired-suspicious-activity = Detetámos um comportamento suspeito nas { -product-firefox-account }. Para impedir acessos não autorizados ao seu produto { -product-firefox-account }, desassociámos todos os dispositivos da sua conta e iremos solicitar que altere a sua palavra-passe como precaução.
+passwordChangeRequired-sign-in = Inicie sessão novamente em qualquer dispositivo em que utiliza a sua { -product-firefox-account } e siga os procedimentos que lhe serão indicados.
 passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordChangeRequired-signoff = O melhor,
+passwordChangeRequired-signoff-name = A equipa das { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
 passwordReset-subject = Palavra-passe atualizada
 passwordReset-title = A palavra-passe da sua conta foi alterada
@@ -112,6 +126,7 @@ passwordResetAccountRecovery-regen-required = Irá necessitar de gerar uma nova 
 passwordResetAccountRecovery-create-key = Criar nova chave de recuperação:
 postAddAccountRecovery-subject = Chave de recuperação de conta gerada
 postAddAccountRecovery-title = Chave de recuperação de conta gerada
+postAddAccountRecovery-description = Gerou com sucesso uma chave de recuperação de conta para a sua { -product-firefox-account } utilizando o seguinte dispositivo:
 postAddAccountRecovery-action = Gerir conta
 postAddAccountRecovery-revoke = Se não foi você, revogue a chave.
 postAddTwoStepAuthentication-subject = Autenticação de dois passos ativada
