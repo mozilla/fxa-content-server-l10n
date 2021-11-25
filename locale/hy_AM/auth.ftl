@@ -2,11 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } գաղտնիության քաղաքականություն
 fxa-service-url = { -product-firefox-cloud } ծառայությունների մատուցման պայմաններ
 subplat-automated-email = Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։
@@ -17,10 +30,18 @@ subplat-update-billing = Թարմացրեք վճարման մասին տեղեկ
 automated-email-plaintext = Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։
 change-password-plaintext = Եթե կասկածում եք, որ ինչ-որ մեկը փորձում է հասանելիություն ստանալ ձեր հաշիվ, ապա փոխեք ձեր գաղտնաբառը։
 manage-account = Կառավարել հաշիվը
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Վերականգնման մի քանի կոդեր մնացին
 codes-reminder-description = Նկատեցինք, որ վերականգնման քիչ կոդեր ունեք։ Խնդրում ենք ստեղծել նոր կոդեր՝ ձեր հաշվի արգելափակումից խուսափելու համար։
 codes-generate = Ստեղծեք կոդեր
 lowRecoveryCodes-action = Ստեղծեք կոդեր
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Կառավարել հաշիվը
 passwordChanged-subject = Գաղտնաբառը թարմացվել է
 passwordChanged-title = Գաղտնաբառը հաջողությամբ փոփոխվեց
@@ -34,6 +55,7 @@ passwordResetAccountRecovery-title = Ձեր հաշվի գաղտնաբառը վե
 passwordResetAccountRecovery-description = Դուք հաջողությամբ վերատեղադրել եք ձեր գաղտնաբառը՝ օգտագործելով վերականգնման ստեղնը հետևյալ սարքից․
 passwordResetAccountRecovery-action = Ստեղծեք նոր վերականգնման ստեղն
 passwordResetAccountRecovery-regen-required = Դուք պետք է ստեղծեք վերականգման նոր ստեղն։
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Ստեղծել նոր վերականգնման ստեղն․
 postAddAccountRecovery-subject = Ստեղծվեց հաշվի վերականգնման ստեղն
 postAddAccountRecovery-title = Ստեղծվեց հաշվի վերականգնման ստեղն
@@ -78,7 +100,7 @@ unblockCode-prompt = Եթե այո, ապա Ձեզ հարկավոր է լիազո
 unblockCode-report-plaintext = Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և դա զեկուցեք մեզ այդ մասին։
 verificationReminderFirst-subject = Հիշեցում․ Գործունացրեք Ձեր հաշվի ստեղծումը
 verificationReminderFirst-title = Բարի գալուստ { -brand-firefox }֊ի ընտանիք
-verificationReminderFirst-description = Մի քանի օր առաջ դուք ստեղծել եք { -brand-firefox }-ի հաշիվ, բայց այն չեք հաստատել։
+verificationReminderFirst-description = Մի քանի օր առաջ դուք ստեղծել եք { -product-firefox-account }-ի հաշիվ, բայց այն չեք հաստատել։
 verificationReminderFirst-sub-description = Հաստատեք հիմա և ստացեք տեխնոլոգիա, որը պայքարում է և պաշտպանում է ձեր գաղտնիությունը, զինում է ձեզ գործնական գիտելիքներով որին դուք արժանի եք․
 confirm-email = Հաստատեք էլ․փոստը
 verificationReminderFirst-action = Հաստատեք էլ․փոստը
@@ -109,4 +131,3 @@ verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․փ�
 verifySecondaryCode-title = Ստուգել երկրորդային էլ․փոստը
 verifyShortCode-title = Դու՞ք եք գրանցվել։
 verifyShortCode-expiry-notice = Այն ավարտվում է 5 րոպեի ընթացքում։
-
