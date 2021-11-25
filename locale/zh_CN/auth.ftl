@@ -46,7 +46,7 @@ another-device = 或到<a data-l10n-name="anotherDeviceLink">另一设备</a>安
 automated-email-change = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="passwordChangeLink">请立即更改密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到您的 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
+automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
 automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 # Variables:
