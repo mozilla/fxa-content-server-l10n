@@ -32,6 +32,7 @@ subplat-explainer-specific = 您收到此邮件是因为 { $email } 绑定有 { 
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了多个产品。
+subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
 subplat-terms-policy = 条款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
@@ -40,6 +41,12 @@ subplat-reactivate = 重新激活订阅
 subplat-update-billing = 更新结算信息
 subplat-legal = 法律
 subplat-privacy = 隐私
+another-desktop-device = 或到<a data-l10n-name="anotherDeviceLink">另一桌面设备</a>安装。
+another-device = 或到<a data-l10n-name="anotherDeviceLink">另一设备</a>安装。
+automated-email-change = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="passwordChangeLink">请立即更改密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到您的 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
 automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 # Variables:
