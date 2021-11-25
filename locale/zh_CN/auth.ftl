@@ -51,6 +51,9 @@ manage-account-plaintext = { manage-account }：
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = 更多信息请访问 { $supportUrl }
 cadReminderFirst-subject = 友情提醒：完成同步设置的步骤
 cadReminderFirst-action = 与其他设备同步
 cadReminderFirst-title = 提醒 🔔 您需与其他设备进行同步。
@@ -61,21 +64,32 @@ cadReminderSecond-title = 请与其他设备同步，最后一次提醒！
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
 codes-generate = 生成救援码
+codes-generate-plaintext = { codes-generate }：
 lowRecoveryCodes-action = 生成救援码
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+       *[other] 剩余 { $numberRemaining } 组救援码
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = { $clientName } 有新的登录活动
+newDeviceLogin-title = { $clientName } 有新的登录活动
 
 ##
 
 newDeviceLogin-action = 管理账号
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
+passwordChanged-description = 已从下列设备成功更改您的 { -product-firefox-account }密码：
 passwordChangeRequired-subject = 检测到可疑活动
 passwordChangeRequired-title = 需要更改密码
+passwordChangeRequired-suspicious-activity = 我们监测到您的 { -product-firefox-account }存在可疑行为。为了防止他人未经授权访问您的 { -product-firefox-account }，我们已断开该账户下所有设备的连接，并要求您更改密码。
+passwordChangeRequired-sign-in = 请到常用设备或服务中重新登录 { -product-firefox-account }，并按照所显示步骤进行操作。
 passwordChangeRequired-different-password = <b>重要</b>：请改用您从未使用过的全新密码，并确保该密码不要与您的电子邮件账户密码相同。
 passwordChangeRequired-signoff = 祝好，
+passwordChangeRequired-signoff-name = { -product-firefox-accounts }团队
 passwordChangeRequired-different-password-plaintext = 重要：请改用您从未使用过的全新密码，并确保该密码不要与您的电子邮件账户密码相同。
 passwordReset-subject = 密码已更新
 passwordReset-title = 您的密码已变更
@@ -89,6 +103,7 @@ passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组�
 passwordResetAccountRecovery-create-key = 生成新的救援密钥：
 postAddAccountRecovery-subject = 已生成新的救援密钥
 postAddAccountRecovery-title = 已生成新的救援密钥
+postAddAccountRecovery-description = 您已使用下列设备，成功生成 { -product-firefox-account }救援密钥：
 postAddAccountRecovery-action = 管理账号
 postAddAccountRecovery-recovery = 若不是您操作的，<a data-l10n-name="revokeAccountRecoveryLink">请点击此处</a>。
 postAddAccountRecovery-revoke = 若不是您操作的，请吊销该密钥。
@@ -102,7 +117,7 @@ postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = 您已成功将您的主邮箱地址更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
+postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账号
 postConsumeRecoveryCode-subject = 已使用救援码
 postConsumeRecoveryCode-title = 救援码已被使用
@@ -119,6 +134,9 @@ postRemoveAccountRecovery-action = 管理账号
 postRemoveAccountRecovery-invalid = 将无法再使用该救援密钥来救援您的账户。
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
 postRemoveSecondary-action = 管理账号
 postRemoveTwoStepAuthentication-subject = 已关闭两步验证
 postRemoveTwoStepAuthentication-title = 已禁用两步验证
