@@ -56,12 +56,24 @@ automated-email-plaintext = Este é um email automático; se o recebeu por erro,
 automated-email-reset =
     Este é um e-mail automático; se não autorizou esta ação, <a data-l10n-name="resetLink">por favor altere a sua palavra-passe</a>.
     Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Se não a alterou, por favor, faça imediatamente a reposição da sua palavra-passe em { $resetLink }
 change-password-plaintext = Se suspeita que alguém está a tentar obter acesso à sua conta, por favor, altere a sua palavra-passe.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Endereço de IP: { $ip }
 manage-account = Gerir conta
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
+subscriptionUpdatePayment = Para evitar qualquer interrupção no seu serviço, por favor, <a data-l10n-name="updateBillingUrl">atualize a sua informação de pagamento</a> assim que possível.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu serviço, por favor, atualize a sua informação de pagamento assim que possível:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Para mais informação, por favor visite { $supportUrl }
 cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuração da sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
