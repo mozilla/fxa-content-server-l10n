@@ -2,25 +2,47 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Llogari Firefox
--product-firefox-account = Llogari Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Llogari Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Llogari Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
 fxa-service-url = Kushte Shërbimi { -product-firefox-cloud }
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 subplat-privacy-plaintext = Shënim mbi privatësinë:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Kushte dhe rregulla anulimi
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anulojeni pajtimin
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Riaktivizo pajtimin
 subplat-update-billing = Përditësoni të dhëna faturimi
 subplat-legal = Ligjore
 subplat-privacy = Privatësi
 automated-email-plaintext = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju lutemi, ndërroni fjalëkalimin tuaj.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adresë IP: { $ip }
 manage-account = Administroni llogarinë
+manage-account-plaintext = { manage-account }:
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pyetje rreth pajtimit tuaj? Ekipi ynë i asistencës është këtu për t’ju ndihmuar:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
 cadReminderFirst-subject = Kujtuesi Juaj Dashamirës: Si të Plotësohet Ujdisja e Njëkohësimit
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
@@ -28,10 +50,19 @@ cadReminderFirst-title = Ja kujtuesi juaj për njëkohësim pajisjesh.
 cadReminderSecond-subject = Kujtues Përfundimtar: Plotësoni Ujdisjen e Njëkohësimeve
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 cadReminderSecond-title = Kujtuesi i fundit për njëkohësim pajisjesh!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
 codes-reminder-description = Vumë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mundësinë e prodhimit të kodeve të rinj, për të shmangur që të mbeten jashtë llogarisë tuaj.
 codes-generate = Prodho kode
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Prodho kode
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
@@ -39,6 +70,7 @@ passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
 passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordChangeRequired-signoff = Gjithë të mirat,
+passwordChangeRequired-signoff-name = Ekipi i { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordReset-subject = Fjalëkalimi u përditësua
 passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
@@ -48,6 +80,7 @@ passwordResetAccountRecovery-title = Fjalëkalimi i llogarisë tuaj qe ricaktuar
 passwordResetAccountRecovery-description = E ricaktuat me sukses fjalëkalimin tuaj duke përdorur një kyç rimarrjeje nga pajisja vijuese:
 passwordResetAccountRecovery-action = Krijo kyç të ri rimarrjeje
 passwordResetAccountRecovery-regen-required = Do t’ju duhet të prodhoni një kyç të ri rimarrjeje.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Krijo kyç të ri rimarrjeje:
 postAddAccountRecovery-subject = U prodhua kyç rimarrjeje llogarie
 postAddAccountRecovery-title = U prodhua kyç rimarrjeje llogarie
@@ -103,6 +136,7 @@ verificationReminderFirst-subject = Kujtues: Përfundoni krijimin e llogarinë t
 verificationReminderFirst-title = Mirë se vini në familjen { -brand-firefox }
 verificationReminderFirst-sub-description = Ripohojeni tani dhe merrni teknologji që lufton për dhe e mbron privatësinë tuaj, ju armatos me dije praktike, dhe respektin që meritoni.
 confirm-email = Ripohoni email-in
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Ripohoni email-in
 verificationReminderSecond-subject = Kujtues përfundimtar: Aktivizoni llogarinë tuaj
 verificationReminderSecond-title = Ende këtu?
@@ -115,6 +149,9 @@ verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action = Ripohoni email-in
 verifyLogin-description = Për më tepër siguri, ju lutemi, ripohojeni këtë hyrje që nga pajisja vijuese:
 verifyLogin-action = Ripohoni hyrjen
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Kod verifikimi: { $code }
 verifyLoginCode-title = A jeni ju që po hyni?
 verifyLoginCode-prompt = Nëse po, ja kodi i verifikimit:
 verifyLoginCode-expiry-notice = Skadon për 5 minuta.
@@ -122,16 +159,20 @@ verifyPrimary-title = Verifikoni email-in parësor
 verifyPrimary-description = Nga pajisja vijuese u bë një kërkesë për kryerjen e një ndryshimi llogarie:
 verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action = Verifikoni email-in
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
 verifySecondary-subject = Ripohoni email dytësor
 verifySecondary-title = Verifikoni email-in dytësor
 verifySecondary-action = Verifikoni email-in
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Pas verifikimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title = Verifikoni email-in dytësor
 verifySecondaryCode-prompt = Përdor këtë kod verifikimi:
 verifySecondaryCode-expiry-notice = Skadon për 5 minuta. Pas verifikimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Kod verifikimi: { $code }
 verifyShortCode-title = A jeni ju që po regjistroheni?
 verifyShortCode-prompt = Nëse po, përdoreni këtë kod verifikimi në formularin e regjistrimit tuaj:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
-
