@@ -25,6 +25,14 @@ fxa-service-url = Kushte Shërbimi { -product-firefox-cloud }
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 subplat-privacy-plaintext = Shënim mbi privatësinë:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një { -product-firefox-account } dhe jeni regjistruar për { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
+subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
 subplat-terms-policy = Kushte dhe rregulla anulimi
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anulojeni pajtimin
@@ -33,6 +41,8 @@ subplat-reactivate = Riaktivizo pajtimin
 subplat-update-billing = Përditësoni të dhëna faturimi
 subplat-legal = Ligjore
 subplat-privacy = Privatësi
+another-desktop-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje desktop</a>.
+another-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje</a>.
 automated-email-plaintext = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
 change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju lutemi, ndërroni fjalëkalimin tuaj.
 # Variables:
