@@ -128,13 +128,19 @@ postAddAccountRecovery-subject = U prodhua kyç rimarrjeje llogarie
 postAddAccountRecovery-title = U prodhua kyç rimarrjeje llogarie
 postAddAccountRecovery-description = Prodhuat me sukses një kyç rimarrjeje llogarie për { -product-firefox-account } tuajën, duke përdorur pajisjen vijuese:
 postAddAccountRecovery-action = Administroni llogarinë
+postAddAccountRecovery-recovery = Nëse s’qetë ju, <a data-l10n-name="revokeAccountRecoveryLink">klikoni këtu</a>.
 postAddAccountRecovery-revoke = Nëse ky s’qetë ju, shfuqizojeni kyçin.
 postAddTwoStepAuthentication-subject = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u aktivizua
+postAddTwoStepAuthentication-description-plaintext = Keni aktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën. Tani e tutje, për çdo hyrje do të kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
+postAddTwoStepAuthentication-description = Keni aktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën që nga pajisja vijuese:
 postAddTwoStepAuthentication-action = Administroni llogarinë
 postAddTwoStepAuthentication-code-required = Tani e tutje, për çdo hyrje do të kërkohen kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = E ndryshuar me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe konfirmime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
 postConsumeRecoveryCode-subject = U përdor kod rimarrjeje
 postConsumeRecoveryCode-title = Kodi i rikthimit u përdor
@@ -146,43 +152,78 @@ postNewRecoveryCodes-description = Prodhuat me sukses kode të rinj rikthimi nga
 postNewRecoveryCodes-action = Administroni llogarinë
 postRemoveAccountRecovery-subject = Kyçi i rimarrjes së llogarisë u hoq
 postRemoveAccountRecovery-title = Kyçi i rimarrjes së llogarisë u hoq
+postRemoveAccountRecovery-description = Hoqët me sukses një kyç rimarrjeje llogarie për { -product-firefox-account } tuajën, duke përdorur pajisjen vijuese:
 postRemoveAccountRecovery-action = Administroni llogarinë
 postRemoveAccountRecovery-invalid = Ky kyç rimarrjeje s’mund të përdoret më për të rimarrë llogarinë tuaj.
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-subject = Verifikimi dyhapësh është i çaktivizuar
 postRemoveTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u çaktivizua
+postRemoveTwoStepAuthentication-description = Keni çaktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën që nga pajisja vijuese:
+postRemoveTwoStepAuthentication-description-plaintext = E çaktivizuat me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën. S’do të kërkohen më kode sigurie për çdo hyrje.
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-not-required = S’do të kërkohen më kode sigurie për çdo hyrje.
+postVerify-sub-title = { -product-firefox-account } u verifikua. Thuajse mbaruat.
 postVerify-title = Njëkohësimi pasues me pajisjeve tuaja!
 postVerify-description = Njëkohësimi i mban privatisht faqerojtësit, fjalëkalimet dhe të dhëna të tjera { -brand-firefox } të njëjta nëpër krejt pajisjet tuaja.
 postVerify-subject = Llogaria u verifikua. Më pas, njëkohësoni pajisje tjetër, që të përfundohet ujdisja
 postVerify-setup = Ujdisni pajisjen pasuese
 postVerify-action = Ujdisni pajisjen pasuese
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Keni pyetje? Vizitoni { $supportUrl }
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Verifikuat me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Njoftime sigurie dhe ripohime hyrjesh tani do të dërgohen te të dy email-et.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title = Keni nvojë të ricaktoni fjalëkalimin tuaj?
 recovery-description = Klikoni mbi butonin brenda orës së ardhshme që të krijoni një fjalëkalim të ri. Kërkesa erdhi nga pajisja vijuese:
 recovery-action = Krijoni fjalëkalim të ri
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kartë krediti për { $productName } që skadon së shpejti
 subscriptionPaymentExpired-title = Karta juaj e kreditit është afër skadimit
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për { $productName } është afër skadimit.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Pajtimi në { $productName } u riaktivizua
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Faleminderit për riaktivizimin e pajtimit tuaj në { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Cikli juaj i faturimeve dhe pagesa do të mbesin njësoj. Faturimi pasues do të jetë { $invoiceTotal }, më { $nextInvoiceDateOnly }. Pajtimi juaj do të rinovohet automatikisht në çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
 subscriptionsPaymentExpired-subject = Karta e kreditit për pajtimet tuaja skadon së shpejti
 subscriptionsPaymentExpired-title = Karta juaj e kreditit është afër skadimit
 subscriptionsPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese është afër skadimit.
 unblockCode-subject = Kod autorizimi llogarie
 unblockCode-title = A jeni ju që po hyni?
 unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Nëse po, ja ku keni kodin e autorizimit që ju duhet: { $unblockCode }
+unblockCode-report = Nëse jo, ndihmonani të mbajmë jashtë të padëshiruarit dhe <a data-l10n-name="reportSignInLink">na e raportoni këtë.</a>
 unblockCode-report-plaintext = Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne.
 verificationReminderFirst-subject = Kujtues: Përfundoni krijimin e llogarinë tuaj
 verificationReminderFirst-title = Mirë se vini në familjen { -brand-firefox }
+verificationReminderFirst-description = Pak ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë aktin.
 verificationReminderFirst-sub-description = Ripohojeni tani dhe merrni teknologji që lufton për dhe e mbron privatësinë tuaj, ju armatos me dije praktike, dhe respektin që meritoni.
 confirm-email = Ripohoni email-in
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Ripohoni email-in
 verificationReminderSecond-subject = Kujtues përfundimtar: Aktivizoni llogarinë tuaj
 verificationReminderSecond-title = Ende këtu?
+verificationReminderSecond-description = Gati një javë më parë krijuat një { -product-firefox-account }, por s’e verifikuat kurrë. Na bëtë merak.
 verificationReminderSecond-sub-description = Ripohojeni këtë adresë email që të aktivizohet llogaria juaj dhe që të na bëni të ditur se jeni në rregull.
 verificationReminderSecond-action = Ripohoni email-in
 verify-title = Aktivizoni familjen e produkteve { -brand-firefox }
@@ -190,7 +231,13 @@ verify-description-plaintext = Ripohoni llogarinë tuaj dhe përfitoni maksimumi
 verify-description = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action = Ripohoni email-in
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Hyrje e re te { $clientName }
 verifyLogin-description = Për më tepër siguri, ju lutemi, ripohojeni këtë hyrje që nga pajisja vijuese:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Ripohoni hyrje të re te { $clientName }
 verifyLogin-action = Ripohoni hyrjen
 # Variables:
 #  $code (Number) - e.g. 123456
@@ -206,11 +253,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
 verifySecondary-subject = Ripohoni email dytësor
 verifySecondary-title = Verifikoni email-in dytësor
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondary-action = Verifikoni email-in
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Pas verifikimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title = Verifikoni email-in dytësor
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt = Përdor këtë kod verifikimi:
 verifySecondaryCode-expiry-notice = Skadon për 5 minuta. Pas verifikimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 # Variables:
