@@ -43,41 +43,73 @@ subplat-legal = Ligjore
 subplat-privacy = Privatësi
 another-desktop-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje desktop</a>.
 another-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje</a>.
+automated-email-change =
+    Ky është një email i automatizuar; nëse nuk e autorizuat ju këtë veprim, atëherë <a data-l10n-name="passwordChangeLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
+    Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Ky është një email i automatizuar; nëse s’keni shtuar ndonjë pajisje të re te { -product-firefox-account } e juaja, do të duhej të ndryshonit menjëherë fjalëkalimin tuaj, te { $passwordChangeLink }
+automated-email =
+    Ky është një email i automatizuar; nëse e morët gabimisht, s’lypset dot një veprim.
+    Për më tepër informacion, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
 automated-email-plaintext = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
+automated-email-reset =
+    Ky është një email i automatizuar; nëse nuk e autorizuat ju këtë veprim, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
+    Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Nëse s’e ndryshuat ju, ju lutemi, fjalëkalimin tuaj që tani te { $resetLink }
 change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju lutemi, ndërroni fjalëkalimin tuaj.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Adresë IP: { $ip }
 manage-account = Administroni llogarinë
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Pyetje rreth pajtimit tuaj? <a data-l10n-name="subscriptionSupportUrl">Ekipi ynë i asistencës</a> është këtu për t’ju ndihmuar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pyetje rreth pajtimit tuaj? Ekipi ynë i asistencës është këtu për t’ju ndihmuar:
+subscriptionUpdatePayment = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, <a data-l10n-name="updateBillingUrl">përditësoni të dhënat tuaja të pagesës</a> sa më shpejt të jetë e mundur.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Për më tepër të dhëna, ju lutemi, vizitoni { $supportUrl }
 cadReminderFirst-subject = Kujtuesi Juaj Dashamirës: Si të Plotësohet Ujdisja e Njëkohësimit
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-title = Ja kujtuesi juaj për njëkohësim pajisjesh.
+cadReminderFirst-description = Për njëkohësim duhen dy palë. Njëkohësimi i një pajisjeje tjetër privatisht me { -brand-firefox }-in i mban faqerojtësit tuaj, fjalëkalimet dhe të dhëna të tjera { -brand-firefox } të njëjta, kudo që përdorni { -brand-firefox }-in.
 cadReminderSecond-subject = Kujtues Përfundimtar: Plotësoni Ujdisjen e Njëkohësimeve
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 cadReminderSecond-title = Kujtuesi i fundit për njëkohësim pajisjesh!
+cadReminderSecond-description = Njëkohësimi i një pajisjeje tjetër privatisht me { -brand-firefox }-in i mban faqerojtësit tuaj, fjalëkalimet dhe të dhëna të tjera { -brand-firefox } të njëjta, kudo që përdorni { -brand-firefox }-in.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
 codes-reminder-description = Vumë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mundësinë e prodhimit të kodeve të rinj, për të shmangur që të mbeten jashtë llogarisë tuaj.
 codes-generate = Prodho kode
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Prodho kode
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Edhe 1 kod rimarrjeje
+       *[other] { $numberRemaining } recovery codes remaining
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Hyrje e re te { $clientName }
+newDeviceLogin-title = Hyrje e re te { $clientName }
 
 ##
 
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
+passwordChanged-description = Fjalëkalimi juaj për { -product-firefox-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
+passwordChangeRequired-suspicious-activity = Pikasëm sjellje të dyshimtë në { -product-firefox-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-firefox-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
+passwordChangeRequired-sign-in = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-firefox-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
 passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 passwordChangeRequired-signoff = Gjithë të mirat,
 passwordChangeRequired-signoff-name = Ekipi i { -product-firefox-accounts }
@@ -94,6 +126,7 @@ passwordResetAccountRecovery-regen-required = Do t’ju duhet të prodhoni një 
 passwordResetAccountRecovery-create-key = Krijo kyç të ri rimarrjeje:
 postAddAccountRecovery-subject = U prodhua kyç rimarrjeje llogarie
 postAddAccountRecovery-title = U prodhua kyç rimarrjeje llogarie
+postAddAccountRecovery-description = Prodhuat me sukses një kyç rimarrjeje llogarie për { -product-firefox-account } tuajën, duke përdorur pajisjen vijuese:
 postAddAccountRecovery-action = Administroni llogarinë
 postAddAccountRecovery-revoke = Nëse ky s’qetë ju, shfuqizojeni kyçin.
 postAddTwoStepAuthentication-subject = Mirëfilltësimi dyhapësh u aktivizua
