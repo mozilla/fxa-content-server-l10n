@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-16 13:35+0000\n"
-"Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
+"PO-Revision-Date: 2021-11-27 05:02+0000\n"
+"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1318,7 +1318,7 @@ msgstr "举报事件"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr "为何？"
+msgstr "为何需要这样操作？"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
