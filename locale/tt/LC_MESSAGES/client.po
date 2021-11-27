@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-24 21:57+0000\n"
+"PO-Revision-Date: 2021-11-27 04:28+0000\n"
 "Last-Translator: Ilnar Selimcan <ilnar@selimcan.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tt\n"
@@ -1502,7 +1502,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Нигә берничә җиһазны синхронлау кирәк?"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
@@ -1534,7 +1534,7 @@ msgstr "Килмәдеме? Яңадан җибәрү"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Ни өчен башка җиһаздан керү кирәк?"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1554,7 +1554,7 @@ msgstr "Безнең белән элемтәгә керү"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Ни сәбәпле безнең белән элемтәгә керәсегез килә?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
@@ -1610,7 +1610,7 @@ msgstr "Аңладым"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Бу җиһаз хисабыгыз белән синхронлансынмы?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1634,7 +1634,7 @@ msgstr "Уңышлы тоташтырылды"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Зинһар, бу битне ябыгыз һәм башка җиһазда дәвам итегез."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
@@ -1650,7 +1650,7 @@ msgstr "Әгәр кем дә булса Сезнең хисабыгызны ку
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Керү турында push-белдерүне җибәрү"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
@@ -1849,11 +1849,11 @@ msgstr "Коткару ачкычын алу"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Зинһар, коткару ачкычын ясату өчен %(escapedEmail)s серсүзен раслагыз."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Бер күчермәсен саклаганыгызны раслау өчен коткару ачкычыгызны кертегез."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
@@ -1905,7 +1905,7 @@ msgstr "Табларыгыз, серсүзләрегез һәм башкалар
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "Save and discover the best stories from across the web."
