@@ -9,28 +9,126 @@
 ### but sometimes they differ slightly.
 
 # Firefox and Mozilla Brand
--brand-mozilla = Mozilla
--brand-firefox = Firefox
+-brand-mozilla =
+    { $case ->
+       *[nom] Mozilla
+        [gen] Mozilli
+        [dat] Mozilli
+        [acc] Mozillę
+        [ins] Mozillą
+        [loc] Mozilli
+    }
+-brand-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoksa
+        [dat] Firefoksowi
+        [acc] Firefoksa
+        [ins] Firefoksem
+        [loc] Firefoksie
+    }
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox accounts
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Konta Firefoksa
+                [lower] konta Firefoksa
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Kont Firefoksa
+                [lower] kont Firefoksa
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Kontom Firefoksa
+                [lower] kontom Firefoksa
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Konta Firefoksa
+                [lower] konta Firefoksa
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Kontami Firefoksa
+                [lower] kontami Firefoksa
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Kontach Firefoksa
+                [lower] kontach Firefoksa
+            }
+    }
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-account = Firefox account
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Konto Firefoksa
+                [lower] konto Firefoksa
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Konta Firefoksa
+                [lower] konta Firefoksa
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Kontu Firefoksa
+                [lower] kontu Firefoksa
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Konto Firefoksa
+                [lower] konto Firefoksa
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Kontem Firefoksa
+                [lower] kontem Firefoksa
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Koncie Firefoksa
+                [lower] koncie Firefoksa
+            }
+    }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
 ## Email content
 
-fxa-privacy-url = Zasady ochrony prywatności Mozilli
+fxa-privacy-url = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 subplat-privacy-plaintext = Zasady ochrony prywatności:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") } i zapisano się na usługę { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Otrzymujesz tę wiadomość, ponieważ na adres { $email } zarejestrowano { -product-firefox-account(case: "acc", capitalization: "lower") } i subskrybowano wiele produktów.
+subplat-manage-account = Zarządzaj ustawieniami { -product-firefox-account(case: "gen", capitalization: "lower") } na stronie swojego <a data-l10n-name="subplat-account-page">konta</a>.
 subplat-terms-policy = Regulamin i zasady anulowania
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anuluj subskrypcję
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ponownie aktywuj subskrypcję
 subplat-update-billing = Zaktualizuj dane płatnicze
 subplat-legal = Podstawa prawna
 subplat-privacy = Prywatność
+another-desktop-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym komputerze</a>.
+another-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym urządzeniu</a>.
+automated-email-change =
+    Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy <a data-l10n-name="passwordChangeLink">zmienić hasło</a>.
+    Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do { -product-firefox-account(case: "gen", capitalization: "lower") }, to należy natychmiast zmienić hasło pod adresem { $passwordChangeLink }
 automated-email-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 change-password-plaintext = Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to prosimy zmienić hasło.
 manage-account = Zarządzaj kontem
