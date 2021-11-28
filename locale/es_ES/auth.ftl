@@ -2,25 +2,47 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Cuenta de Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Cuenta de Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Política de privacidad de { -brand-mozilla }
 fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un correo automático; si lo recibiste por error, no tienes que hacer nada.
 subplat-privacy-plaintext = Aviso de privacidad:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Términos y política de cancelación
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivar suscripción
 subplat-update-billing = Actualizar información de facturación
 subplat-legal = Legal
 subplat-privacy = Privacidad
 automated-email-plaintext = Este es un correo automático; si lo recibiste por error, no tienes que hacer nada.
 change-password-plaintext = Si crees que alguien está intentando acceder a tu cuenta, cambia la contraseña.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
+manage-account-plaintext = { manage-account }:
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, por favor actualiza tu información de pago lo antes posible:
 cadReminderFirst-subject = Un amable recordatorio: Cómo completar tus ajustes de sincronización
 cadReminderFirst-action = Sincronizar otro dispositivo
@@ -28,10 +50,21 @@ cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositiv
 cadReminderSecond-subject = Recordatorio final: Completar la configuración de Sync
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
 codes-generate = Generar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar códigos
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
+newDeviceLogin-title = Nuevo inicio de sesión en { $clientName }
+
+##
+
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Has cambiado la contraseña correctamente
@@ -39,6 +72,7 @@ passwordChangeRequired-subject = Se ha detectado actividad sospechosa
 passwordChangeRequired-title = Se requiere cambair la contraseña
 passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-signoff = Saludos,
+passwordChangeRequired-signoff-name = El equipo de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
@@ -48,6 +82,7 @@ passwordResetAccountRecovery-title = Tu contraseña de la cuenta ha sido reinici
 passwordResetAccountRecovery-description = Has restablecido correctamente la contraseña con una clave de recuperación del siguiente dispositivo:
 passwordResetAccountRecovery-action = Crea una clave de recuperación nueva
 passwordResetAccountRecovery-regen-required = Necesitarás generar una clave de recuperación nueva.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear nueva clave de recuperación:
 postAddAccountRecovery-subject = Clave de recuperación de cuenta generada
 postAddAccountRecovery-title = Clave de recuperación de cuenta generada
@@ -122,16 +157,20 @@ verifyPrimary-title = Verificar correo principal
 verifyPrimary-description = Se ha solicitado un cambio en la cuenta desde el siguiente dispositivo:
 verifyPrimary-subject = Confirmar correo electrónico principal
 verifyPrimary-action = Verificar correo electrónico
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una vez verificado, podrás hacer cambios en la cuenta desde este dispositivo, como agregar un correo adicional.
 verifySecondary-subject = Confirmar correo electrónico secundario
 verifySecondary-title = Verificar cuenta secundaria
 verifySecondary-action = Verificar correo electrónico
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Una vez comprobada, esta cuenta empezará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo electrónico secundario
 verifySecondaryCode-title = Verificar cuenta secundaria
 verifySecondaryCode-prompt = Usa este código de verificación:
 verifySecondaryCode-expiry-notice = Caduca en 5 minutos. Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Código de verificación: { $code }
 verifyShortCode-title = ¿Eres tú el que se ha registrado?
 verifyShortCode-prompt = En caso afirmativo, utiliza este código de verificación en tu formulario de registro:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
-
