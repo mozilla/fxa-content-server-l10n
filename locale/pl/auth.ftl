@@ -2,15 +2,29 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Zasady ochrony prywatności Mozilli
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 subplat-privacy-plaintext = Zasady ochrony prywatności:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Regulamin i zasady anulowania
 subplat-cancel = Anuluj subskrypcję
 subplat-reactivate = Ponownie aktywuj subskrypcję
@@ -20,7 +34,9 @@ subplat-privacy = Prywatność
 automated-email-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 change-password-plaintext = Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to prosimy zmienić hasło.
 manage-account = Zarządzaj kontem
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby zapobiec przerwom w działaniu, prosimy zaktualizować informacje o płatności tak szybko, jak to możliwe:
 cadReminderFirst-subject = Przyjacielskie przypomnienie: jak dokończyć konfigurację synchronizacji
 cadReminderFirst-action = Synchronizuj inne urządzenie
@@ -28,10 +44,18 @@ cadReminderFirst-title = Przypomnienie o synchronizacji urządzeń.
 cadReminderSecond-subject = Ostatnie przypomnienie: dokończ konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title = Ostatnie przypomnienie o synchronizacji urządzeń!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pozostało mało kodów odzyskiwania
 codes-reminder-description = Zauważyliśmy, że pozostało mało kodów odzyskiwania. Prosimy rozważyć utworzenie nowych, aby uniknąć zablokowania konta.
 codes-generate = Utwórz kody
 lowRecoveryCodes-action = Utwórz kody
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Zarządzaj kontem
 passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
@@ -49,6 +73,7 @@ passwordResetAccountRecovery-title = Hasło konta zostało zmienione za pomocą 
 passwordResetAccountRecovery-description = Pomyślnie zmieniono hasło za pomocą klucza odzyskiwania z tego urządzenia:
 passwordResetAccountRecovery-action = Utwórz nowy klucz odzyskiwania
 passwordResetAccountRecovery-regen-required = Będzie trzeba utworzyć nowy klucz odzyskiwania.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Utwórz nowy klucz odzyskiwania:
 postAddAccountRecovery-subject = Utworzono klucz odzyskiwania konta
 postAddAccountRecovery-title = Utworzono klucz odzyskiwania konta
@@ -136,4 +161,3 @@ verifySecondaryCode-expiry-notice = Wygasa za 5 minut. Po zweryfikowaniu ten ad
 verifyShortCode-title = Czy to Ty się rejestrujesz?
 verifyShortCode-prompt = Jeśli tak, użyj tego kodu weryfikacyjnego w formularzu rejestracyjnym:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
-
