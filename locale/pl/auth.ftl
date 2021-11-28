@@ -129,39 +129,71 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do { -product-firefox-account(case: "gen", capitalization: "lower") }, to należy natychmiast zmienić hasło pod adresem { $passwordChangeLink }
+automated-email =
+    Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
+    Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 automated-email-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
+automated-email-reset =
+    Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy <a data-l10n-name="resetLink">zmienić hasło</a>.
+    Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Jeśli nie zmieniono hasła, to należy je teraz zmienić pod adresem { $resetLink }
 change-password-plaintext = Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to prosimy zmienić hasło.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adres IP: { $ip }
 manage-account = Zarządzaj kontem
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Masz pytania dotyczące subskrypcji? Nasz <a data-l10n-name="subscriptionSupportUrl">zespół wsparcia</a> Ci pomoże.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:
+subscriptionUpdatePayment = Aby zapobiec przerwom w działaniu, prosimy <a data-l10n-name="updateBillingUrl">zaktualizować informacje o płatności</a> tak szybko, jak to możliwe.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby zapobiec przerwom w działaniu, prosimy zaktualizować informacje o płatności tak szybko, jak to możliwe:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Więcej informacji można znaleźć na { $supportUrl }
 cadReminderFirst-subject = Przyjacielskie przypomnienie: jak dokończyć konfigurację synchronizacji
 cadReminderFirst-action = Synchronizuj inne urządzenie
 cadReminderFirst-title = Przypomnienie o synchronizacji urządzeń.
+cadReminderFirst-description = Do synchronizacji trzeba dwojga. Prywatna synchronizacja innego urządzenia z { -brand-firefox(case: "ins") } spowoduje, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } będą takie same wszędzie, gdzie go używasz.
 cadReminderSecond-subject = Ostatnie przypomnienie: dokończ konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title = Ostatnie przypomnienie o synchronizacji urządzeń!
+cadReminderSecond-description = Prywatna synchronizacja innego urządzenia z { -brand-firefox(case: "ins") } spowoduje, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } będą takie same wszędzie, gdzie go używasz.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pozostało mało kodów odzyskiwania
 codes-reminder-description = Zauważyliśmy, że pozostało mało kodów odzyskiwania. Prosimy rozważyć utworzenie nowych, aby uniknąć zablokowania konta.
 codes-generate = Utwórz kody
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Utwórz kody
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Pozostał jeden kod odzyskiwania
+        [few] Pozostał { $numberRemaining } kody odzyskiwania
+       *[many] Pozostało { $numberRemaining } kodów odzyskiwania
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
+newDeviceLogin-title = Nowe logowanie do „{ $clientName }”
 
 ##
 
 newDeviceLogin-action = Zarządzaj kontem
 passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
+passwordChanged-description = Pomyślnie zmieniono hasło { -product-firefox-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
 passwordChangeRequired-subject = Wykryto podejrzane działania
 passwordChangeRequired-title = Wymagana jest zmiana hasła
-passwordChangeRequired-sign-in = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z konta Firefoksa i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
+passwordChangeRequired-suspicious-activity = Wykryliśmy podejrzane zachowanie na Twoim { -product-firefox-account(case: "loc", capitalization: "lower") }. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków ostrożności.
+passwordChangeRequired-sign-in = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z { -product-firefox-account(case: "gen", capitalization: "lower") } i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
 passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 passwordChangeRequired-signoff = Pozdrawiamy,
+passwordChangeRequired-signoff-name = Zespół { -product-firefox-accounts(case: "gen", capitalization: "lower") }
 passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 passwordReset-subject = Zaktualizowano hasło
 passwordReset-title = Hasło konta zostało zmienione
@@ -175,14 +207,21 @@ passwordResetAccountRecovery-regen-required = Będzie trzeba utworzyć nowy kluc
 passwordResetAccountRecovery-create-key = Utwórz nowy klucz odzyskiwania:
 postAddAccountRecovery-subject = Utworzono klucz odzyskiwania konta
 postAddAccountRecovery-title = Utworzono klucz odzyskiwania konta
+postAddAccountRecovery-description = Pomyślnie utworzono klucz odzyskiwania { -product-firefox-account(case: "gen", capitalization: "lower") } za pomocą tego urządzenia:
 postAddAccountRecovery-action = Zarządzaj kontem
+postAddAccountRecovery-recovery = Jeśli to nie Ty, to <a data-l10n-name="revokeAccountRecoveryLink">kliknij tutaj</a>.
 postAddAccountRecovery-revoke = Jeśli to nie Ty, to unieważnij klucz.
 postAddTwoStepAuthentication-subject = Włączono uwierzytelnianie dwuetapowe
 postAddTwoStepAuthentication-title = Włączono uwierzytelnianie dwuetapowe
+postAddTwoStepAuthentication-description-plaintext = Pomyślnie włączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") }. Od teraz podczas każdego logowania wymagane będą kody zabezpieczeń z aplikacji do uwierzytelniania.
+postAddTwoStepAuthentication-description = Pomyślnie włączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") } z tego urządzenia:
 postAddTwoStepAuthentication-action = Zarządzaj kontem
 postAddTwoStepAuthentication-code-required = Od teraz podczas każdego logowania wymagane będą kody zabezpieczeń z aplikacji do uwierzytelniania.
 postChangePrimary-subject = Zaktualizowano główny adres e-mail
 postChangePrimary-title = Nowy główny adres e-mail
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-firefox-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
 postChangePrimary-action = Zarządzaj kontem
 postConsumeRecoveryCode-subject = Użyto kod odzyskiwania
 postConsumeRecoveryCode-title = Zużyto kod odzyskiwania
@@ -194,52 +233,96 @@ postNewRecoveryCodes-description = Pomyślnie utworzono nowe kody odzyskiwania z
 postNewRecoveryCodes-action = Zarządzaj kontem
 postRemoveAccountRecovery-subject = Usunięto klucz odzyskiwania konta
 postRemoveAccountRecovery-title = Usunięto klucz odzyskiwania konta
+postRemoveAccountRecovery-description = Pomyślnie usunięto klucz odzyskiwania { -product-firefox-account(case: "gen", capitalization: "lower") } za pomocą tego urządzenia:
 postRemoveAccountRecovery-action = Zarządzaj kontem
 postRemoveAccountRecovery-invalid = Tego klucza odzyskiwania nie będzie już można użyć do odzyskania konta.
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Pomyślnie usunięto dodatkowy adres e-mail { $secondaryEmail } z { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres.
 postRemoveSecondary-action = Zarządzaj kontem
 postRemoveTwoStepAuthentication-subject = Weryfikacja dwuetapowa jest wyłączona
 postRemoveTwoStepAuthentication-title = Wyłączono uwierzytelnianie dwuetapowe
+postRemoveTwoStepAuthentication-description = Pomyślnie wyłączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") } z tego urządzenia:
+postRemoveTwoStepAuthentication-description-plaintext = Pomyślnie wyłączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") }. Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
 postRemoveTwoStepAuthentication-not-required = Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
+postVerify-sub-title = { -product-firefox-account } zostało zweryfikowane. Prawie gotowe.
 postVerify-title = Teraz zsynchronizuj swoje urządzenia!
-postVerify-description = Synchronizacja zapewnia, że zakładki, hasła i inne dane Firefoksa są takie same na wszystkich Twoich urządzeniach.
+postVerify-description = Synchronizacja zapewnia, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } są takie same na wszystkich Twoich urządzeniach.
 postVerify-subject = Zweryfikowano konto. Teraz zsynchronizuj inne urządzenie, aby dokończyć konfigurację
 postVerify-setup = Skonfiguruj następne urządzenie
 postVerify-action = Skonfiguruj następne urządzenie
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Masz pytania? Odwiedź { $supportUrl }
 postVerifySecondary-subject = Dodano dodatkowy adres e-mail
 postVerifySecondary-title = Dodano dodatkowy adres e-mail
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Pomyślnie zweryfikowano %(secondaryEmail)s jako dodatkowy adres e-mail dla { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania będą teraz wysyłane na oba adresy.
 postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
 recovery-title = Potrzeba zmienić hasło?
 recovery-description = Kliknij przycisk w ciągu godziny, aby utworzyć nowe hasło. Żądanie przyszło z tego urządzenia:
 recovery-action = Utwórz nowe hasło
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Karta płatnicza dla { $productName } wkrótce wygaśnie
 subscriptionPaymentExpired-title = Karta płatnicza wkrótce wygaśnie
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Karta płatnicza używana do dokonywania płatności za { $productName } niedługo wygaśnie.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Ponownie aktywowano subskrypcję { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Dziękujemy za ponowną aktywację subskrypcji { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Twój okres rozliczeniowy i płatność pozostaną takie same. Następna opłata będzie wynosiła { $invoiceTotal } w dniu { $nextInvoiceDateOnly }. Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 subscriptionsPaymentExpired-subject = Karta płatnicza dla subskrypcji wkrótce wygaśnie
 subscriptionsPaymentExpired-title = Karta płatnicza wkrótce wygaśnie
 subscriptionsPaymentExpired-content = Karta płatnicza używana do dokonywania płatności za poniższe subskrypcje niedługo wygaśnie.
 unblockCode-subject = Kod upoważnienia konta
 unblockCode-title = Czy to Ty się logujesz?
 unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Jeśli tak, to potrzebny jest ten kod upoważnienia: { $unblockCode }
+unblockCode-report = Jeśli nie, prosimy pomóc nam odpędzić intruzów <a data-l10n-name="reportSignInLink">zgłaszając to</a>.
 unblockCode-report-plaintext = Jeśli nie, prosimy pomóc nam odpędzić intruzów zgłaszając to.
 verificationReminderFirst-subject = Przypomnienie: dokończ tworzenie konta
-verificationReminderFirst-title = Witamy w rodzinie Firefoksa
-verificationReminderFirst-description = Kilka dni temu utworzono konto Firefoksa, ale nigdy go nie potwierdzono.
+verificationReminderFirst-title = Witamy w rodzinie { -brand-firefox(case: "gen") }
+verificationReminderFirst-description = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono.
 verificationReminderFirst-sub-description = Potwierdź teraz i korzystaj z technologii, która walczy o Twoją prywatność i chroni ją, uzbraja Cię w praktyczną wiedzę oraz darzy Cię szacunkiem, na jaki zasługujesz.
 confirm-email = Potwierdź adres e-mail
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Potwierdź adres e-mail
 verificationReminderSecond-subject = Ostatnie przypomnienie: aktywuj swoje konto
 verificationReminderSecond-title = Nadal z nami?
+verificationReminderSecond-description = Prawie tydzień temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie zweryfikowano. Martwimy się o Ciebie.
 verificationReminderSecond-sub-description = Potwierdź ten adres e-mail, aby aktywować konto i dać nam znać, że wszystko w porządku.
 verificationReminderSecond-action = Potwierdź adres e-mail
-verify-title = Aktywuj rodzinę produktów Firefoksa
-verify-description-plaintext = Potwierdź konto i w pełni wykorzystaj Firefoksa wszędzie, gdzie się zalogujesz.
-verify-description = Potwierdź konto i w pełni wykorzystaj Firefoksa wszędzie, gdzie się zalogujesz, zaczynając od:
+verify-title = Aktywuj rodzinę produktów { -brand-firefox(case: "gen") }
+verify-description-plaintext = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz.
+verify-description = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verify-subject = Dokończ tworzenie konta
 verify-action = Potwierdź adres e-mail
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nowe logowanie do „{ $clientName }”
 verifyLogin-description = W celu zwiększenia bezpieczeństwa, proszę potwierdzić to logowanie z tego urządzenia:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Potwierdź nowe logowanie do „{ $clientName }”
 verifyLogin-action = Potwierdź logowanie
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Kod weryfikacyjny: { $code }
 verifyLoginCode-title = Czy to Ty się logujesz?
 verifyLoginCode-prompt = Jeśli tak, oto kod weryfikacyjny:
 verifyLoginCode-expiry-notice = Wygasa za 5 minut.
@@ -247,15 +330,26 @@ verifyPrimary-title = Zweryfikuj główny adres e-mail
 verifyPrimary-description = Z tego urządzenia zażądano wykonania zmiany na koncie:
 verifyPrimary-subject = Potwierdź główny adres e-mail
 verifyPrimary-action = Zweryfikuj adres e-mail
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po zweryfikowaniu na tym urządzeniu będzie można wykonywać zmiany na koncie, takie jak dodawanie dodatkowego adresu e-mail.
 verifySecondary-subject = Potwierdź dodatkowy adres e-mail
 verifySecondary-title = Zweryfikuj dodatkowy adres e-mail
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Z tego { -product-firefox-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondary-action = Zweryfikuj adres e-mail
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Po zweryfikowaniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
 verifySecondaryCode-subject = Potwierdź dodatkowy adres e-mail
 verifySecondaryCode-title = Zweryfikuj dodatkowy adres e-mail
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Z tego { -product-firefox-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondaryCode-prompt = Użyj tego kodu weryfikacyjnego:
 verifySecondaryCode-expiry-notice = Wygasa za 5 minut. Po zweryfikowaniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Kod weryfikacyjny: { $code }
 verifyShortCode-title = Czy to Ty się rejestrujesz?
 verifyShortCode-prompt = Jeśli tak, użyj tego kodu weryfikacyjnego w formularzu rejestracyjnym:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
