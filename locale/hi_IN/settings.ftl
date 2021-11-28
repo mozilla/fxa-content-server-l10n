@@ -89,6 +89,13 @@ cs-sign-out-button = साइन आउट करें
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = डाउनलोड की गई
+datablock-copy =
+    .message = कॉपी की गई
+
+## Data collection section
+
 
 # DropDownAvatarMenu component
 
@@ -232,6 +239,9 @@ profile-password =
 
 
 ## Security section of Setting
+
+
+## Switch component
 
 
 ## Sub-section row Defaults
