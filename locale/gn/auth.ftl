@@ -166,6 +166,12 @@ subscriptionPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikovéitama.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Mboheraguapy { $productName } hendyjeýma
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = ¡Aguyje emyandyjeýre ne mboheraguapy { $productName }-pe!
 subscriptionsPaymentExpired-subject = Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama
 subscriptionsPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboheraguapy pegua ndoikovéi potaitéma.
@@ -189,8 +195,17 @@ verify-description-plaintext = Emoneĩ ne mba’ete ha eipuruporã { -brand-fire
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action = Ñandutiveve ñemoneĩ
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Tembiapo ñepyrũ pyahu { $clientName } ndive
 verifyLogin-description = Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyrũ amo mba’e’oka guive:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Emoneĩ jeike pyahu { $clientName }-pe
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Ayvu rechajeyrã: { $code }
 verifyLoginCode-title = ¿Ndépa emoñepyrũve tembiapo?
 verifyLoginCode-prompt = Upéicharõ, eipuru ko ayvu rechajeyrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
@@ -209,6 +224,9 @@ verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
 verifySecondaryCode-prompt = Eipuru ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽ ñepyrũta marandu’i tekorosã ha ñemoneĩ rehegua.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
 verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
