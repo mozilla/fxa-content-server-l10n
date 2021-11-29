@@ -93,9 +93,7 @@ msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/server.po -o $L10N_DIR/locale/sr_La
 
 cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
-
-# We should re-enable once auth-server is ready to support ftl
-# cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
+cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
 
 cd $L10N_DIR
 git checkout -b merge-train-$TRAIN_NUMBER-strings
