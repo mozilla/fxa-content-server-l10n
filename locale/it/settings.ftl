@@ -127,7 +127,7 @@ cs-disconnect-advice-confirm = Ho capito
 cs-disconnect-lost-advice-heading = Dispositivo perso o rubato disconnesso
 cs-disconnect-lost-advice-content-2 = Poiché il tuo dispositivo è stato smarrito o rubato, per mantenere le tue informazioni al sicuro è consigliato cambiare la password dell’{ -product-firefox-account } nelle impostazioni. Dovresti anche verificare con il produttore del tuo dispositivo come cancellare i dati da remoto.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
-cs-disconnect-suspicious-advice-content = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell‘{ -product-firefox-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
+cs-disconnect-suspicious-advice-content = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell’{ -product-firefox-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
 cs-sign-out-button = Disconnetti
 
 ##

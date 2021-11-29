@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-16 06:07+0000\n"
+"PO-Revision-Date: 2021-11-29 06:47+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -35,7 +35,7 @@ msgstr "L’account è stato correttamente eliminato"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Utilizza il codice %(code)s per impostare l‘autenticazione a due passaggi nelle applicazioni supportate."
+msgstr "Utilizza il codice %(code)s per impostare l’autenticazione a due passaggi nelle applicazioni supportate."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -363,7 +363,7 @@ msgstr "Firma della richiesta non valida"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr "Header ‘content-length’ mancante"
+msgstr "Header “content-length” mancante"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
@@ -515,7 +515,7 @@ msgstr "L’abbonamento è già stato cancellato"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
-msgstr "L‘aggiornamento è stato rifiutato, riprova"
+msgstr "L’aggiornamento è stato rifiutato, riprova"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"

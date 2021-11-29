@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-29 06:42+0000\n"
+"PO-Revision-Date: 2021-11-29 06:46+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -43,7 +43,7 @@ msgstr "Se non hai ancora scaricato %(productName)s, inizia a utilizzare le funz
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3 lib/senders/templates/subscriptionSubsequentInvoice.html:8
 #: lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Hai delle domande sull‘abbonamento? Il <a href=\"%(subscriptionSupportUrl)s\">team di supporto</a> è a tua disposizione."
+msgstr "Hai delle domande sull’abbonamento? Il <a href=\"%(subscriptionSupportUrl)s\">team di supporto</a> è a tua disposizione."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
@@ -810,7 +810,7 @@ msgstr "Ricevi questa email perché l’indirizzo %(email)s è associato a un ac
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Gestisci le impostazioni del tuo account Firefox visitando la <a %(accountSettingsLinkAttributes)s>pagina dell‘account</a>."
+msgstr "Gestisci le impostazioni del tuo account Firefox visitando la <a %(accountSettingsLinkAttributes)s>pagina dell’account</a>."
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Terms and cancellation policy"
@@ -1134,7 +1134,7 @@ msgid ""
 "                        not supported in your version of Firefox. Please\n"
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
-msgstr "Firefox Accounts utilizza delle funzionalità che non sono supportate dalla tua versione di Firefox. Per continuare scarica e installa l‘ultima versione."
+msgstr "Firefox Accounts utilizza delle funzionalità che non sono supportate dalla tua versione di Firefox. Per continuare scarica e installa l’ultima versione."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
