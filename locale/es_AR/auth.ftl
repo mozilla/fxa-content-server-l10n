@@ -46,9 +46,19 @@ another-device = O, instalalo en <a data-l10n-name="anotherDeviceLink">otro disp
 automated-email-change =
     Este es un correo electrónico automático; si no autorizaste esta acción, entonces <a data-l10n-name="passwordChangeLink">cambiá tu contraseña</a>.
     Para más información, visitá <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Este es un correo electrónico automático; si no agregaste ningún dispositivo nuevo a tu { -product-firefox-account }, debés cambiar la contraseña inmediatamente en { $passwordChangeLink }
+automated-email =
+    Este es un correo electrónico automático; si lo recibiste por error, no necesitás hacer nada.
+    Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada.
 change-password-plaintext = Si creés que alguien está intentando acceder a tu cuenta, por favor cambiá la contraseña.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas acerca de la suscripción? Nuestro equipo de soporte está acá para ayudarte:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
