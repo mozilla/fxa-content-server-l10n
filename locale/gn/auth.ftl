@@ -72,10 +72,17 @@ codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jegueruje
 codes-generate = Emoheñói ayvu
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Emoheñói ayvu
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Opyta 1 ayvu jeguerujeyrã
+       *[other] { $numberRemaining } opyta ayvu jeguerujeyrã{ $numberRemaining } códigos de recuperación{ $numberRemaining } códigos de recuperación
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
+newDeviceLogin-title = Tembiapo ñepyrũ pyahu { $clientName }-pe
 
 ##
 
@@ -87,6 +94,7 @@ passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
+passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
 passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
@@ -102,6 +110,7 @@ postAddAccountRecovery-subject = Mba’eñemi jeguerujeyrã mba’ete ipyahúvap
 postAddAccountRecovery-title = Mba’eñemi jeguerujeyrã mba’ete ipyahúvape
 postAddAccountRecovery-description = Emoheñói porã mba’eñemi jeguerujeyrã { -product-firefox-account } peg̃uarã eipurúvo ko tenondevegua mba’e’oka:
 postAddAccountRecovery-action = Mba’ete ñangareko
+postAddAccountRecovery-recovery = Nandéiramo, <a data-l10n-name="revokeAccountRecoveryLink">eikutu ko’ápe</a>.
 postAddAccountRecovery-revoke = Nandéiramo, eipe’a mba’eñemi.
 postAddTwoStepAuthentication-subject = Ijurujáma mokõi jeku’épe ñemoneĩ
 postAddTwoStepAuthentication-title = Ijurujáma mokõi jeku’épe ñemoneĩ
@@ -140,6 +149,9 @@ postVerify-description = Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha a
 postVerify-subject = Mba’ete hechajeypyre. Ko’ág̃a emboguejy ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu
 postVerify-setup = Emboheko mba’e’oka upeigua
 postVerify-action = Emboheko mba’e’oka upeigua
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = ¿Eporandusépa? Eike { $supportUrl }-pe
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-action = Mba’ete ñangareko
@@ -147,7 +159,13 @@ recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
 recovery-description = Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:
 recovery-action = Emoheñói ñe’ẽñemi pyahu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Nde kuatia’atã ñemurã { $productName } ndokovéitama
 subscriptionPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikovéitama.
 subscriptionsPaymentExpired-subject = Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama
 subscriptionsPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboheraguapy pegua ndoikovéi potaitéma.
