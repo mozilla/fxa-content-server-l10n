@@ -24,18 +24,23 @@ fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-plaintext = Gizlilik bildirimi:
+subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
 subplat-terms-policy = Koşullar ve iptal politikası
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Aboneliği iptal et
 subplat-reactivate = Aboneliği yeniden etkinleştir
 subplat-update-billing = Fatura bilgilerini güncelle
 subplat-legal = Yasal Bilgiler
 subplat-privacy = Gizlilik
+another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
+another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP adresi: { $ip }
 manage-account = Hesabı yönet
+subscriptionSupport = Aboneliğinizle ilgili sorularınız mı var? <a data-l10n-name="subscriptionSupportUrl">Destek ekibimiz</a> size yardımcı olabilir.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -54,10 +59,17 @@ codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
 codes-generate = Kodları oluştur
 lowRecoveryCodes-action = Kodları oluştur
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 kurtarma kodu kaldı
+       *[other] { $numberRemaining } kurtarma kodu kaldı
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Yeni { $clientName } girişi
+newDeviceLogin-title = Yeni { $clientName } girişi
 
 ##
 
@@ -68,6 +80,7 @@ passwordChangeRequired-subject = Şüpheli etkinlik algılandı
 passwordChangeRequired-title = Parola değişikliği gerekiyor
 passwordChangeRequired-different-password = <b>Önemli:</b> Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin.
 passwordChangeRequired-signoff = Sevgiler,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } ekibi
 passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin.
 passwordReset-subject = Parola güncellendi
 passwordReset-title = Hesap parolanız değiştirildi

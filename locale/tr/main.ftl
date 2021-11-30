@@ -415,3 +415,5 @@ new-user-email-validate-confirm = E-postalar eşleşmiyor
 new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
+manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
+manage-pocket-body = Yönetmek için <a>buraya tıklayın</a>.
