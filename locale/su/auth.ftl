@@ -62,7 +62,13 @@ cadReminderSecond-title = Panggeuing pamungkas pikeun nyingkronkeun paranti!
 codes-reminder-title = Kodeu pamulangan sayaga sakeudeung deui
 codes-reminder-description = Kami perhatikeun yén anjeun béakkeun kodeu pamulangan. Pék tinimbangan nyieun kodeu anyar téh pikeun nyingkahan kakoncina akun anjeun.
 codes-generate = Pangjieunkeun kodeu
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Pangjieunkeun kodeu
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Sandi pamulihan kari 1
+       *[other] Sandi pamulihan kari { $numberRemaining }
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
