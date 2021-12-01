@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = Aboneliğimi yönet
 country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
 currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
 no-subscription-change = Maalesef abonelik planınızı değiştiremezsiniz.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = { $mobileAppStore } üzerinden zaten abone oldunuz.
 expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
 insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
@@ -325,6 +327,8 @@ sub-customer-error =
     .title = Müşteri yüklenirken sorun oluştu
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
 sub-route-payment-modal-heading = Geçersiz fatura bilgileri
+sub-route-payment-modal-message = { -brand-name-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
+sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var. <div>Yönet</div>
 pay-update-manage-btn = Yönet
 
 ## subscription create
@@ -355,10 +359,12 @@ payment-confirmation-thanks-heading = Teşekkürler!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = { $email } adresine { $product_name } ürününü kullanmaya nasıl başlayacağınızla ilgili ayrıntıları içeren bir onay e-postası gönderildi.
 payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = { $email } adresine, hesabınızın kurulumuna ilişkin talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
 payment-confirmation-order-heading = Sipariş ayrıntıları
 payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ödeyen
