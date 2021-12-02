@@ -53,41 +53,66 @@ automated-email =
     Este es un correo electrónico automático; si lo recibiste por error, no necesitás hacer nada.
     Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada.
+automated-email-reset =
+    Este es un correo electrónico automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">cambiá tu contraseña</a>.
+    Para más información, visitá <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Si no la cambiaste, restablecé tu contraseña ahora mismo aquí { $resetLink }
 change-password-plaintext = Si creés que alguien está intentando acceder a tu cuenta, por favor cambiá la contraseña.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = ¿Tenés preguntas acerca de tu suscripción? Nuestro <a data-l10n-name="subscriptionSupportUrl">equipo de ayuda</a> está aquí para ayudarte.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas acerca de la suscripción? Nuestro equipo de soporte está acá para ayudarte:
+subscriptionUpdatePayment = Para evitar cualquier interrupción de tu servicio,<a data-l10n-name="updateBillingUrl">actualizá tu información de pago</a> lo antes posible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualizá tu información de pago lo antes posible:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Para más información, visitá { $supportUrl }
 cadReminderFirst-subject = Tu recordatorio amigable: cómo completar la configuración de Sync
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositivos.
+cadReminderFirst-description = Se necesitan dos para sincronizar. Sincronizar otro dispositivo con { -brand-firefox } de forma privada mantiene tus marcadores, contraseñas y otros datos de { -brand-firefox } iguales en todos los lugares donde usás { -brand-firefox }.
 cadReminderSecond-subject = Recordatorio final: configuración completa de Sync
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+cadReminderSecond-description = Sincronizar otro dispositivo con { -brand-firefox } de forma privada mantiene tus marcadores, contraseñas y otros datos de { -brand-firefox } iguales en todos los lugares donde usás { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Notamos que te estás quedando sin códigos de recuperación. Considerá generar nuevos códigos para evitar el bloqueo de la cuenta.
 codes-generate = Generar códigos
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generar códigos
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Queda 1 código de recuperación
+       *[other] Quedan { $numberRemaining } códigos de recuperación
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
+newDeviceLogin-title = Nuevo inicio de sesión en { $clientName }
 
 ##
 
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
+passwordChanged-description = La contraseña de tu { -product-firefox-account } se cambió correctamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
 passwordChangeRequired-title = Se requiere cambio de contraseña
+passwordChangeRequired-suspicious-activity = Detectamos un comportamiento sospechoso en tu { -product-firefox-account }. Para evitar el acceso no autorizado a tu { -product-firefox-account }, desconectamos todos los dispositivos en tu cuenta y te pedimos que cambies tu contraseña como precaución.
+passwordChangeRequired-sign-in = Registrate en cualquier dispositivo o servicio donde uses tu { -product-firefox-account } y seguí los pasos indicados.
 passwordChangeRequired-different-password = <b>Importante:</b> Elegí una contraseña diferente a la que estabas usando anteriormente y asegurate que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-signoff = Saludos,
+passwordChangeRequired-signoff-name = El equipo de { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Importante: Elegí una contraseña diferente a la que estabas usando anteriormente y asegurate que sea diferente a la de tu cuenta de correo electrónico.
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = La constraseña de la cuenta fue cambiada
@@ -101,6 +126,7 @@ passwordResetAccountRecovery-regen-required = Deberá generar una nueva clave de
 passwordResetAccountRecovery-create-key = Crear una nueva clave de recuperación:
 postAddAccountRecovery-subject = Se generó una clave de recuperación de la cuenta
 postAddAccountRecovery-title = Se generó una clave de recuperación de la cuenta
+postAddAccountRecovery-description = Generaste correctamente una clave de recuperación de cuenta para tu { -product-firefox-account } usando el siguiente dispositivo:
 postAddAccountRecovery-action = Administrar cuenta
 postAddAccountRecovery-revoke = Si no fue usted, anule la clave.
 postAddTwoStepAuthentication-subject = Se habilitó la autenticación en dos pasos
