@@ -128,13 +128,19 @@ postAddAccountRecovery-subject = Se generó una clave de recuperación de la cue
 postAddAccountRecovery-title = Se generó una clave de recuperación de la cuenta
 postAddAccountRecovery-description = Generaste correctamente una clave de recuperación de cuenta para tu { -product-firefox-account } usando el siguiente dispositivo:
 postAddAccountRecovery-action = Administrar cuenta
+postAddAccountRecovery-recovery = Si no fuiste vos, <a data-l10n-name="revokeAccountRecoveryLink">hacé clic aquí.</a>
 postAddAccountRecovery-revoke = Si no fue usted, anule la clave.
 postAddTwoStepAuthentication-subject = Se habilitó la autenticación en dos pasos
 postAddTwoStepAuthentication-title = Se habilitó la autenticación en dos pasos
+postAddTwoStepAuthentication-description-plaintext = Activaste correctamente la autenticación en dos pasos en tu { -product-firefox-account }. Ahora los códigos de seguridad de tu aplicación de autenticación serán requeridos en cada conexión.
+postAddTwoStepAuthentication-description = Activaste correctamente la autenticación en dos pasos en tu { -product-firefox-account } desde el siguiente dispositivo:
 postAddTwoStepAuthentication-action = Administrar cuenta
 postAddTwoStepAuthentication-code-required = A partir de ahora se te van a pedir los códigos de seguridad de tu aplicación de autenticación cada vez que inicies una sesión.
 postChangePrimary-subject = Correo electrónico principal actualizado
 postChangePrimary-title = Nuevo correo electrónico principal
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Cambiaste correctamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
 postConsumeRecoveryCode-subject = Se usó un código de recuperación
 postConsumeRecoveryCode-title = Utilizó un código de recuperación
@@ -146,20 +152,30 @@ postNewRecoveryCodes-description = Generó correctamente nuevos códigos de recu
 postNewRecoveryCodes-action = Administrar cuenta
 postRemoveAccountRecovery-subject = Se eliminó la clave de recuperación de la cuenta
 postRemoveAccountRecovery-title = Se eliminó la clave de recuperación de la cuenta
+postRemoveAccountRecovery-description = Eliminaste correctamente una clave de recuperación de cuenta para tu { -product-firefox-account } usando el siguiente dispositivo:
 postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveAccountRecovery-invalid = Esta clave de recuperación ya no puede ser usada para recuperar su cuenta.
 postRemoveSecondary-subject = Correo electrónico secundario eliminado
 postRemoveSecondary-title = Correo electrónico secundario eliminado
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Eliminaste correctamente { $secondaryEmail } como correo electrónico secundario de tu cuenta de { -product-firefox-account } Las notificaciones de seguridad y confirmaciones de inicio de sesión no se van a enviar más a esta dirección.
 postRemoveSecondary-action = Administrar cuenta
 postRemoveTwoStepAuthentication-subject = La verificación en dos pasos está deshabilitada
 postRemoveTwoStepAuthentication-title = Se deshabilitó la autenticación en dos pasos
+postRemoveTwoStepAuthentication-description = Desactivaste correctamente la autenticación en dos pasos en tu { -product-firefox-account } desde el siguiente dispositivo:
+postRemoveTwoStepAuthentication-description-plaintext = Desactivaste correctamente la autenticación en dos pasos en tu { -product-firefox-account }. Los códigos de seguridad ya no serán requeridos en cada inicio de sesión.
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required = Los códigos de seguridad ya no van a ser necesarios en cada inicio de sesión.
+postVerify-sub-title = { -product-firefox-account } verificada. Ya casi terminaste.
 postVerify-title = ¡Ahora sincronizá tus dispsitivos!
 postVerify-description = Sync mantiene tus marcadores, contraseñas y otros datos de { -brand-firefox } iguales en todos tus dispositivos.
 postVerify-subject = Cuenta verificada. Lo próximo es sincronizar otro dispositivo para finalizar la configuración
 postVerify-setup = Configurar el siguiente dispositivo
 postVerify-action = Configurar el siguiente dispositivo
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = ¿Tenés preguntas? Visitá { $supportUrl }
 postVerifySecondary-subject = Correo electrónico secundario añadido
 postVerifySecondary-title = Correo electrónico secundario añadido
 postVerifySecondary-action = Administrar cuenta
