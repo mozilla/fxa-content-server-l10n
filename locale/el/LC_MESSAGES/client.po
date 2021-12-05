@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-11-15 21:17+0000\n"
+"PO-Revision-Date: 2021-12-05 23:04+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -20,7 +20,7 @@ msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Ο κωδικός πρόσβασης άλλαξε επιτυχώς. Συνδεθείτε για συνέχεια."
+msgstr "Έγινε επιτυχής επαναφορά του κωδικού πρόσβασης. Συνδεθείτε για να συνεχίσετε."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
@@ -30,7 +30,7 @@ msgstr "Σύνδεση"
 
 #: .es5/views/index.js:174
 msgid "Account deleted successfully"
-msgstr "Ο λογαριασμός διαγράφηκε επιτυχώς"
+msgstr "Ο λογαριασμός διαγράφτηκε επιτυχώς"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -66,15 +66,15 @@ msgstr "Έγινε επαναφορά του κωδικού πρόσβασής �
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Ολοκληρώστε τη ρύθμιση εισάγοντας το νέο κωδικό πρόσβασης στις άλλες σας συσκευές με Firefox."
+msgstr "Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασης στις άλλες σας συσκευές με το Firefox."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Τώρα μπορείτε να κάνετε αλλαγές στο λογαριασμό Firefox σας."
+msgstr "Τώρα μπορείτε να κάνετε αλλαγές στον λογαριασμό Firefox σας."
 
 #: .es5/views/ready.js:74
 msgid "Primary email verified"
-msgstr "Το κύριο e-mail επαληθεύτηκε"
+msgstr "Το κύριο email επαληθεύτηκε"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,11 +82,11 @@ msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλ
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr "Το δευτερεύον e-mail επαληθεύτηκε"
+msgstr "Το δευτερεύον email επαληθεύτηκε"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr "Η είσοδος επιβεβαιώθηκε"
+msgstr "Η σύνδεση επιβεβαιώθηκε"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
@@ -106,7 +106,7 @@ msgstr "Άγνωστος λογαριασμός. <a href=\"/signup\">Εγγρα�
 
 #: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
-msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Επαναδημιουργία;"
+msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Θέλετε να τον δημιουργήσετε ξανά;"
 
 #: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
@@ -114,12 +114,12 @@ msgstr "Άλλο"
 
 #: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το <b>%(escapedLowercaseTopic)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το συντομότερο δυνατό."
+msgstr "Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το θέμα: <b>%(escapedLowercaseTopic)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το συντομότερο δυνατό."
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-"Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το <b>%(escapedLowercaseTopic)s</b> για το <b>%(escapedSelectedProduct)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το "
+"Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το θέμα: <b>%(escapedLowercaseTopic)s</b> για το <b>%(escapedSelectedProduct)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το "
 "συντομότερο δυνατό."
 
 #: .es5/views/post_verify/verified.js:53
@@ -128,7 +128,7 @@ msgstr "Τα δεδομένα συγχρονισμού σας προστατεύ
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Αν χάσετε την πρόσβαση στο λογαριασμό σας, θα μπορείτε να επαναφέρετε τα δεδομένα συγχρονισμού σας."
+msgstr "Αν χάσετε την πρόσβαση στον λογαριασμό σας, θα μπορείτε να επαναφέρετε τα δεδομένα συγχρονισμού σας."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -140,7 +140,7 @@ msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλ
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr "Συνέχεια στο %(serviceName)s"
+msgstr "Συνέχεια στο %(serviceName)s "
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -332,11 +332,11 @@ msgstr "Άγνωστος λογαριασμός"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr "Λανθασμένη περίπτωση ηλ. διεύθυνσης"
+msgstr "Εσφαλμένη περίπτωση email"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
-msgstr "Λανθασμένος κωδικός"
+msgstr "Εσφαλμένος κωδικός πρόσβασης"
 
 #: .es5/lib/auth-errors.js:68
 msgid "Unverified account"
@@ -356,7 +356,7 @@ msgstr "Μη έγκυρη παράμετρος: %(param)s"
 
 #: .es5/lib/auth-errors.js:84
 msgid "Missing parameter: %(param)s"
-msgstr "Παράμετρος που λείπει: %(param)s"
+msgstr "Απούσα παράμετρος: %(param)s"
 
 #: .es5/lib/auth-errors.js:88
 msgid "Invalid request signature"
@@ -364,11 +364,11 @@ msgstr "Μη έγκυρη υπογραφή αιτήματος"
 
 #: .es5/lib/auth-errors.js:92
 msgid "Missing content-length header"
-msgstr "Έλλειψη της κεφαλίδας content-length"
+msgstr "Απουσία κεφαλίδας «content-length»"
 
 #: .es5/lib/auth-errors.js:96
 msgid "Request body too large"
-msgstr "Πολύ μεγάλο κύριο μέρος αιτήματος"
+msgstr "Πολύ μεγάλο σώμα αιτήματος"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
@@ -376,7 +376,7 @@ msgstr "Το αίτημα αποκλείστηκε για λόγους ασφα�
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
-msgstr "Μη έγκυρος κωδικός πιστοποίησης"
+msgstr "Μη έγκυρος κωδικός ταυτοποίησης"
 
 #: .es5/lib/auth-errors.js:127
 msgid "Invalid phone number"
@@ -384,27 +384,27 @@ msgstr "Μη έγκυρος αριθμός τηλεφώνου"
 
 #: .es5/lib/auth-errors.js:131
 msgid "Cannot send to this country"
-msgstr "Αδυναμία αποστολής σε αυτή τη χώρα"
+msgstr "Δεν είναι δυνατή η αποστολή σε αυτήν τη χώρα"
 
 #: .es5/lib/auth-errors.js:140
 msgid "Could not send a message to this number"
-msgstr "Αδυναμία αποστολής μηνύματος σε αυτό τον αριθμό"
+msgstr "Δεν ήταν δυνατή η αποστολή μηνύματος σε αυτόν τον αριθμό"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr "Το e-mail σας μόλις επιστράφηκε"
+msgstr "Το email σας μόλις επιστράφηκε"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Το e-mail σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;"
+msgstr "Το email σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr "Αδυναμία παράδοσης e-mail"
+msgstr "Δεν ήταν δυνατή η παράδοση του email"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr "Αυτό το e-mail επαληθεύτηκε ήδη από κάποιο άλλο χρήστη"
+msgstr "Αυτό το email επαληθεύτηκε ήδη από κάποιον άλλο χρήστη"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
@@ -412,11 +412,11 @@ msgstr "Μη επαληθευμένη συνεδρία"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr "Το δευτερεύον e-mail πρέπει να είναι διαφορετικό από το λογαριασμό e-mail σας"
+msgstr "Το δευτερεύον email πρέπει να διαφέρει από το email του λογαριασμού σας"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Έχετε φτάσει το μέγιστο αριθμό δευτερευόντων email"
+msgstr "Έχετε φτάσει τον μέγιστο αριθμό δευτερευόντων email"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"

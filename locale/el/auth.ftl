@@ -287,16 +287,22 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Μόλις γίνει επαλήθευση, οι αλλαγές του λογαριασμού, όπως η προσθήκη δευτερεύοντος email, θα καταστούν δυνατές από αυτήν τη συσκευή.
 verifySecondary-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondary-title = Επαλήθευση δευτερεύοντος email
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
 verifySecondary-action = Επαλήθευση email
 verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Μόλις επαληθευτεί, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
+verifySecondary-post-verification = Μόλις γίνει επαλήθευση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-title = Επαλήθευση δευτερεύοντος email
-verifySecondaryCode-prompt = Χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης:
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
+verifySecondaryCode-prompt = Χρησιμοποιήστε αυτόν τον κωδικό επαλήθευσης:
 verifySecondaryCode-expiry-notice = Λήγει σε 5 λεπτά. Μόλις γίνει επαλήθευση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Κωδικός επαλήθευσης: { $code }
 verifyShortCode-title = Κάνετε εσείς εγγραφή;
-verifyShortCode-prompt = Εάν ναι, χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:
+verifyShortCode-prompt = Αν ναι, χρησιμοποιήστε αυτόν τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
