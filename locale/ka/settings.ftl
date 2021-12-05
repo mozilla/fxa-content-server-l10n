@@ -30,9 +30,9 @@ alert-bar-close-message = შეტყობინების დახურ�
         [dat] Firefox-ანგარიშებს
         [gen] Firefox-ანგარიშების
         [ben] Firefox-ანგარიშებისთვის
+        [loc] Firefox-ანგარიშებზე
         [ins] Firefox-ანგარიშებით
         [add] Firefox-ანგარიშებთან
-        [sup] Firefox-ანგარიშებზე
     }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
@@ -41,6 +41,8 @@ alert-bar-close-message = შეტყობინების დახურ�
        *[nom] Firefox-ანგარიში
         [dat] Firefox-ანგარიშს
         [gen] Firefox-ანგარიშის
+        [ben] Firefox-ანგარიშისთვის
+        [loc] Firefox-ანგარიშზე
         [ins] Firefox-ანგარიშით
         [add] Firefox-ანგარიშთან
     }
