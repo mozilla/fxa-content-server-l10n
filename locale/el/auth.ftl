@@ -12,19 +12,61 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Λογαριασμοί Firefox
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Λογαριασμοί Firefox
+                [lower] λογαριασμοί Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Λογαριασμών Firefox
+                [lower] λογαριασμών Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Λογαριασμούς Firefox
+                [lower] λογαριασμούς Firefox
+            }
+    }
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-account = Λογαριασμός Firefox
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Λογαριασμός Firefox
+                [lower] λογαριασμός Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Λογαριασμού Firefox
+                [lower] λογαριασμού Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Λογαριασμό Firefox
+                [lower] λογαριασμό Firefox
+            }
+    }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
 ## Email content
 
-fxa-privacy-url = Πολιτική Απορρήτου της { -brand-mozilla }
+fxa-privacy-url = Πολιτική απορρήτου της { -brand-mozilla }
 fxa-service-url = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-automated-email = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
 subplat-privacy-plaintext = Σημείωση απορρήτου:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-firefox-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί στο { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Λαμβάνετε αυτό το email επειδή το { $email } διαθέτει { -product-firefox-account(case: "acc", capitalization: "lower") } και έχετε εγγραφεί σε πολλαπλά προϊόντα.
+subplat-manage-account = Διαχειριστείτε τις ρυθμίσεις του { -product-firefox-account(case: "gen", capitalization: "lower") } σας μεταβαίνοντας στη <a data-l10n-name="subplat-account-page">σελίδα λογαριασμού</a>.
 subplat-terms-policy = Όροι και πολιτική ακύρωσης
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ακύρωση συνδρομής
