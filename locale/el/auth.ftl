@@ -12,9 +12,9 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox accounts
+-product-firefox-accounts = Λογαριασμοί Firefox
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-account = Firefox account
+-product-firefox-account = Λογαριασμός Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
@@ -139,7 +139,13 @@ subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για τ�
 subscriptionPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές του { $productName } πρόκειται να λήξει.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Ευχαριστούμε για την εκ νέου ενεργοποίηση της συνδρομής σας στους { $productName }!
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
 subscriptionsPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών.
@@ -149,6 +155,7 @@ unblockCode-prompt = Αν ναι, ορίστε ο κωδικός εξουσιο�
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε: { $unblockCode }
+unblockCode-report = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και <a data-l10n-name="reportSignInLink">αναφέρετέ το σε εμάς</a>.
 unblockCode-report-plaintext = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς.
 verificationReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verificationReminderFirst-title = Καλώς ορίσατε στην οικογένεια { -brand-firefox }
