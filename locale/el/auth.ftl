@@ -59,6 +59,11 @@ codes-reminder-description = Παρατηρήσαμε ότι σας απομέν
 codes-generate = Δημιουργία κωδικών
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Δημιουργία κωδικών
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Απομένει 1 κωδικός ανάκτησης
+       *[other] Απομένουν { $numberRemaining } κωδικοί ανάκτησης
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -90,6 +95,7 @@ passwordResetAccountRecovery-create-key = Δημιουργία νέου κλει
 postAddAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
+postAddAccountRecovery-recovery = Αν δεν το κάνατε εσείς, <a data-l10n-name="revokeAccountRecoveryLink">κάντε κλικ εδώ</a>.
 postAddAccountRecovery-revoke = Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί.
 postAddTwoStepAuthentication-subject = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postAddTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
