@@ -178,12 +178,24 @@ postVerify-action = Configurar o próximo dispositivo
 postVerify-support = Tem questões? Visite { $supportUrl }
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-description = Verificou com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão serão agora entregues em ambos os endereços.
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title = Precisa de repor a sua palavra-passe?
 recovery-description = Clique no botão dentro da próxima hora para criar uma nova palavra passe. A solicitação veio a partir do seguinte dispositivo:
 recovery-action = Criar nova palavra-passe
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Cartão de crédito para { $productName } irá expirar em breve
 subscriptionPaymentExpired-title = O seu cartão de crédito está prestes a expirar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos para { $productName } está a expirar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Subscrição de { $productName } reativada
 subscriptionsPaymentExpired-subject = Cartão de crédito para as suas subscrições expira em breve
 subscriptionsPaymentExpired-title = O seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições está quase a expirar.
