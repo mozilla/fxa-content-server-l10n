@@ -75,15 +75,34 @@ subplat-reactivate = Επανενεργοποίηση συνδρομής
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
 subplat-legal = Νομικά
 subplat-privacy = Απόρρητο
+another-desktop-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">έναν άλλο υπολογιστή</a>.
+another-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">μια άλλη συσκευή</a>.
+automated-email-change =
+    Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="passwordChangeLink">παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας</a>.
+    Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, πρέπει να αλλάξετε άμεσα στον κωδικό πρόσβασής σας στο { $passwordChangeLink }
+automated-email =
+    Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
+    Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 automated-email-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
-change-password-plaintext = Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στο λογαριασμό σας, παρακαλώ αλλάξτε τον κωδικό πρόσβασής σας.
+automated-email-reset =
+    Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας</a>.
+    Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο { $resetLink }
+change-password-plaintext = Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Διεύθυνση IP: { $ip }
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
+subscriptionSupport = Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a data-l10n-name="subscriptionSupportUrl">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:
+subscriptionUpdatePayment = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε <a data-l10n-name="updateBillingUrl">ενημερώστε τα στοιχεία πληρωμών σας</a> το συντομότερο δυνατό.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:
 # Variables:
@@ -92,12 +111,14 @@ support-message = Για περισσότερες πληροφορίες, παρ
 cadReminderFirst-subject = Φιλική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού
 cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-title = Υπενθύμιση για συγχρονισμό συσκευών.
+cadReminderFirst-description = Χρειάζονται δύο συσκευές για συγχρονισμό. Ο συγχρονισμός μιας άλλης συσκευής με το { -brand-firefox } προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων του { -brand-firefox } όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
 cadReminderSecond-subject = Τελική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title = Τελευταία υπενθύμιση για συγχρονισμό συσκευών!
+cadReminderSecond-description = Ο συγχρονισμός μιας άλλης συσκευής με το { -brand-firefox } προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων του { -brand-firefox } όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
-codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας.
+codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε δημιουργήστε νέους κωδικούς για να μην κλειδωθείτε έξω από τον λογαριασμό σας.
 codes-generate = Δημιουργία κωδικών
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Δημιουργία κωδικών
@@ -118,6 +139,7 @@ newDeviceLogin-title = Νέα σύνδεση στο { $clientName }
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
+passwordChanged-description = Ο κωδικός πρόσβασης του { -product-firefox-account(case: "gen", capitalization: "lower") } σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:
 passwordChangeRequired-subject = Εντοπίστηκε ύποπτη δραστηριότητα
 passwordChangeRequired-title = Απαιτείται αλλαγή κωδικού πρόσβασης
 passwordChangeRequired-sign-in = Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν.
