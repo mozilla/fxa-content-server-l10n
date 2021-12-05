@@ -90,6 +90,7 @@ newDeviceLogin-title = ახალი შესვლა { $clientName }
 newDeviceLogin-action = ანგარიშის მართვა
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
+passwordChanged-description = თქვენი { -product-firefox-account(case: "gen") } პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:
 passwordChangeRequired-subject = აღმოჩენილია საეჭვო მოქმედება
 passwordChangeRequired-title = პაროლის შეცვლა აუცილებელია
 passwordChangeRequired-sign-in = შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ { -brand-firefox }-ანგარიშს და მიჰყევით მოცემულ ნაბიჯებს.
