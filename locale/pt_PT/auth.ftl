@@ -196,20 +196,34 @@ subscriptionPaymentExpired-content = O cartão de crédito que está a utilizar 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Subscrição de { $productName } reativada
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Obrigado por reativar a sua subscrição de { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = O seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $invoiceTotal } a { $nextInvoiceDateOnly }. A sua subscrição será renovada automaticamente em cada período de débito exceto se optar por cancelar.
 subscriptionsPaymentExpired-subject = Cartão de crédito para as suas subscrições expira em breve
 subscriptionsPaymentExpired-title = O seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições está quase a expirar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = É mesmo você a iniciar sessão?
 unblockCode-prompt = Se sim, aqui está o código de autorização de que necessita:
-unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e denuncie-nos a atividade.
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Se sim, aqui está o código de autorização que precisa: { $unblockCode }
+unblockCode-report = Se não, ajude-nos a afastar os intrusos e <a data-l10n-name="reportSignInLink">reporte a situação à nossa equipa</a>.
+unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e reporte a situação à nossa equipa.
 verificationReminderFirst-subject = Lembrete: termine a criação da sua conta
 verificationReminderFirst-title = Bem-vindo(a) à família { -brand-firefox }
+verificationReminderFirst-description = Há alguns dias criou uma { -product-firefox-account } mas nunca a confirmou.
 verificationReminderFirst-sub-description = Confirme agora e obtenha tecnologia que luta e protege a sua privacidade, oferece-lhe conhecimento prático e o respeito que merece.
 confirm-email = Confirmar email
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Lembrete final: ative a sua conta
 verificationReminderSecond-title = Ainda aqui?
+verificationReminderSecond-description = Há quase uma semana criou uma { -product-firefox-account } mas nunca a verificou. Estamos preocupados consigo.
 verificationReminderSecond-sub-description = Confirme este endereço de email para ativar a sua conta e deixe-nos saber que está bem.
 verificationReminderSecond-action = Confirmar email
 verify-title = Ative a família de produtos do { -brand-firefox }
@@ -217,8 +231,17 @@ verify-description-plaintext = Confirme a sua conta e aproveite ao máximo o { -
 verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os lugares em que iniciar sessão, a começar por:
 verify-subject = Conclua a criação da sua conta
 verify-action = Confirmar email
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Novo início de sessão para { $clientName }
 verifyLogin-description = Para segurança adicional, por favor confirme este início de sessão do seguinte dispositivo:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Confirmar novo início de sessão em { $clientName }
 verifyLogin-action = Confirmar novo início de sessão
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Código de confirmação: { $code }
 verifyLoginCode-title = É mesmo você a iniciar sessão?
 verifyLoginCode-prompt = Se sim, aqui está o código de confirmação:
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
@@ -226,15 +249,26 @@ verifyPrimary-title = Verificar email primário
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar e-mail principal
 verifyPrimary-action = Confirmar e-mail
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Assim que verificado, alterações de conta tais como adicionar um email secundário irão ficar disponíveis a partir deste dispositivo.
 verifySecondary-subject = Confirmar e-mail secundário
 verifySecondary-title = Verificar email secundário
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
 verifySecondary-action = Confirmar e-mail
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Assim que verificado, este endereço irá começar a receber notificações de segurança e confirmações.
 verifySecondaryCode-subject = Confirmar e-mail secundário
 verifySecondaryCode-title = Verificar email secundário
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
 verifySecondaryCode-prompt = Utilizar este código de confirmação:
 verifySecondaryCode-expiry-notice = Expira em 5 minutos. Assim que for confirmado, este endereço irá começar a receber notificações de segurança e confirmações.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Código de confirmação: { $code }
 verifyShortCode-title = É você que se está a registar?
 verifyShortCode-prompt = Em caso afirmativo, utilize este código de confirmação no seu formulário de registo:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
