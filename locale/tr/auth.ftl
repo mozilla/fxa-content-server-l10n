@@ -25,6 +25,13 @@ fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-plaintext = Gizlilik bildirimi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve { $productName } ürününe kaydolduğunuz için bu e-postayı aldınız.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve birden fazla ürüne kaydolduğunuz için bu e-postayı aldınız.
 subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
 subplat-terms-policy = Koşullar ve iptal politikası
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -36,7 +43,13 @@ subplat-legal = Yasal Bilgiler
 subplat-privacy = Gizlilik
 another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
 another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Parolanızı siz değiştirmediyseniz lütfen hemen { $resetLink } adresinden sıfırlayın
 change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -130,20 +143,30 @@ postNewRecoveryCodes-description = Aşağıdaki cihaz aracılığıyla başarıy
 postNewRecoveryCodes-action = Hesabı yönet
 postRemoveAccountRecovery-subject = Hesap kurtarma anahtarı silindi
 postRemoveAccountRecovery-title = Hesap kurtarma anahtarı silindi
+postRemoveAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-firefox-account }nız için hesap kurtarma anahtarını başarıyla sildiniz:
 postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveAccountRecovery-invalid = Bu kurtarma anahtarı artık hesabınızı kurtarmak için kullanılamaz.
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = { -product-firefox-account }nızda ikinci e-posta olarak kayıtlı { $secondaryEmail } adresini başarıyla sildiniz. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir.
 postRemoveSecondary-action = Hesabı yönet
 postRemoveTwoStepAuthentication-subject = İki aşamalı doğrulama kapalı
 postRemoveTwoStepAuthentication-title = İki aşamalı kimlik doğrulama kapatıldı
+postRemoveTwoStepAuthentication-description = Aşağıdaki cihaz aracılığıyla { -product-firefox-account }nızda iki aşamalı doğrulamayı başarıyla kapattınız:
+postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır.
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
+postVerify-sub-title = { -product-firefox-account } doğrulandı. İşimiz bitmek üzere.
 postVerify-title = Şimdi cihazlarınızı eşitleyin!
 postVerify-description = Sync özelliği; yer imlerinizin, parolalarınızın ve diğer { -brand-firefox } verilerinizin tüm cihazlarınızda aynı kalmasını sağlar.
 postVerify-subject = Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin
 postVerify-setup = Sonraki cihazı kur
 postVerify-action = Sonraki cihazı kur
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Sorularınız mı var? { $supportUrl } adresini ziyaret edin
 postVerifySecondary-subject = İkinci e-posta eklendi
 postVerifySecondary-title = İkinci e-posta eklendi
 postVerifySecondary-action = Hesabı yönet
@@ -151,24 +174,40 @@ recovery-subject = Parolanızı sıfırlayın
 recovery-title = Parolanızı sıfırlamanız mı gerekiyor?
 recovery-description = Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:
 recovery-action = Yeni parola oluştur
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = { $productName } için kredi kartının kullanım süresi yakında doluyor
 subscriptionPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = { $productName } için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } aboneliği yeniden etkinleştirildi
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = { $productName } aboneliğinizi yeniden etkinleştirdiğiniz için teşekkür ederiz!
 subscriptionsPaymentExpired-subject = Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor
 subscriptionsPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
 subscriptionsPaymentExpired-content = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
 unblockCode-subject = Hesap yetkilendirme kodu
 unblockCode-title = Giriş yapan siz misiniz?
 unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz: { $unblockCode }
+unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
 verificationReminderFirst-subject = Hatırlatma: Hesabınızı oluşturmayı tamamlayın
 verificationReminderFirst-title = { -brand-firefox } ailesine hoş geldiniz
+verificationReminderFirst-description = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız.
 verificationReminderFirst-sub-description = Hesabınızı şimdi doğrulayın; gizliliğiniz için mücadele eden, sizi pratik bilgilerle donatan ve size hak ettiğiniz saygıyı gösteren teknolojiye kavuşun.
 confirm-email = E-postanızı doğrulayın
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-postanızı doğrulayın
 verificationReminderSecond-subject = Son hatırlatma: Hesabınızı etkinleştirin
 verificationReminderSecond-title = Orada mısınız?
+verificationReminderSecond-description = Yaklaşık bir hafta önce { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Sizi merak ettik.
 verificationReminderSecond-sub-description = Her şey yolundaysa hesabınızı etkinleştirmek için bu e-posta adresini onaylayın.
 verificationReminderSecond-action = E-postanızı doğrulayın
 verify-title = { -brand-firefox } ürün ailesini etkinleştirin
@@ -176,8 +215,17 @@ verify-description-plaintext = Hesabınız doğrulayın, giriş yaptığınız h
 verify-description = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action = E-postanızı doğrulayın
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Yeni { $clientName } girişi
 verifyLogin-description = Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan giriş yaptığınızı onaylayın:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Yeni { $clientName } girişini onaylayın
 verifyLogin-action = Girişi onayla
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Doğrulama kodu: { $code }
 verifyLoginCode-title = Giriş yapan siz misiniz?
 verifyLoginCode-prompt = Doğrulama kodunuz:
 verifyLoginCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
@@ -185,13 +233,21 @@ verifyPrimary-title = Ana e-posta adresini doğrula
 verifyPrimary-description = Aşağıdaki cihazdan bir hesap değiştirme isteği yapılmıştır:
 verifyPrimary-subject = Ana e-posta adresini onayla
 verifyPrimary-action = E-postayı doğrula
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
 verifySecondary-subject = İkinci e-postayı onayla
 verifySecondary-title = İkinci e-postayı doğrula
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-firefox-account }ndan bir istek yapıldı:
 verifySecondary-action = E-postayı doğrula
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 verifySecondaryCode-subject = İkinci e-postayı onayla
 verifySecondaryCode-title = İkinci e-postayı doğrula
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-firefox-account }ndan bir istek yapıldı:
 verifySecondaryCode-prompt = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 # Variables:

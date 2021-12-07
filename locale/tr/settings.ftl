@@ -147,6 +147,7 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Veri toplanması ve kullanımı
+dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts } ürününü geliştirmemize yardımcı oluyor.
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
