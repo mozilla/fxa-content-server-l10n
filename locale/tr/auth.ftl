@@ -24,10 +24,12 @@ fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-plaintext = Gizlilik bildirimi:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
 subplat-terms-policy = Koşullar ve iptal politikası
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Aboneliği iptal et
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aboneliği yeniden etkinleştir
 subplat-update-billing = Fatura bilgilerini güncelle
 subplat-legal = Yasal Bilgiler
@@ -40,6 +42,7 @@ change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığ
 #  $ip (Number) - User's IP address
 user-ip = IP adresi: { $ip }
 manage-account = Hesabı yönet
+manage-account-plaintext = { manage-account }:
 subscriptionSupport = Aboneliğinizle ilgili sorularınız mı var? <a data-l10n-name="subscriptionSupportUrl">Destek ekibimiz</a> size yardımcı olabilir.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:
@@ -56,10 +59,12 @@ cadReminderFirst-description = Eşitleme için iki cihazınız olmalı. Başka b
 cadReminderSecond-subject = Son hatırlatma: Sync kurulumunu tamamlayın
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title = Cihazları eşitlemeniz için son hatırlatma!
+cadReminderSecond-description = Başka bir cihazınızı { -brand-firefox }’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer { -brand-firefox } verilerinizi { -brand-firefox }’u kullandığınız her yere taşıyabilirsiniz.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
 codes-generate = Kodları oluştur
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Kodları oluştur
 lowRecoveryCodes-subject =
     { $numberRemaining ->
@@ -99,6 +104,7 @@ passwordResetAccountRecovery-regen-required = Yeni bir kurtarma anahtarı oluşt
 passwordResetAccountRecovery-create-key = Yeni kurtarma anahtarı oluştur:
 postAddAccountRecovery-subject = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title = Hesap kurtarma anahtarı oluşturuldu
+postAddAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-firefox-account }nız için hesap kurtarma anahtarını başarıyla oluşturdunuz:
 postAddAccountRecovery-action = Hesabı yönet
 postAddAccountRecovery-recovery = Bu siz değilseniz <a data-l10n-name="revokeAccountRecoveryLink">buraya tıklayın</a>.
 postAddAccountRecovery-revoke = Bu işlemi siz yapmadıysanız anahtarı iptal edin.
@@ -110,6 +116,9 @@ postAddTwoStepAuthentication-action = Hesabı yönet
 postAddTwoStepAuthentication-code-required = Bundan sonra her girişinizde kimlik doğrulama uygulamanızın ürettiği güvenlik kodları gerekecektir.
 postChangePrimary-subject = Ana e-posta güncellendi
 postChangePrimary-title = Yeni ana e-posta
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
 postConsumeRecoveryCode-subject = Kullanılan kurtarma kodu
 postConsumeRecoveryCode-title = Kurtarma kodu kullanıldı
