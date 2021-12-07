@@ -2,12 +2,25 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-fxa-privacy-url = మొజిల్లా గోప్యతా విధానం
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
+fxa-privacy-url = { -brand-mozilla } గోప్యతా విధానం
 fxa-service-url = { -product-firefox-cloud } సేవా నిబంధనలు
 subplat-automated-email = ఇది స్వయంచాలక ఈమెయిలు; ఇది మీకు పొరపాటున వచ్చివుంటే, మీరేమీ చేయాల్సినవసరం లేదు.
 subplat-privacy-plaintext = గోప్యతా నోటీసు:
@@ -15,10 +28,18 @@ subplat-privacy = గోప్యత
 automated-email-plaintext = ఇది స్వయంచాలక ఈమెయిలు; ఇది మీకు పొరపాటున వచ్చివుంటే, మీరేమీ చేయాల్సినవసరం లేదు.
 change-password-plaintext = ఎవరైనా మీ ఖాతాను పొందటం ప్రయత్నిస్తున్నారు అనుమానిస్తున్నారు ఉంటే, దయచేసి మీ పాస్వర్డ్ను మార్చండి.
 manage-account = ఖాతా నిర్వహణ
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = తక్కువ పునరుద్ధరణ సంకేతాలు మిగిలి ఉన్నాయి
 codes-reminder-description = మీ పునరుద్ధరణ సంకేతాలు నిండుకోబోతున్నాయని మేం గమనించాం. మీ ఖాతా నుండి బయటికిపంపేయబడటాన్ని తప్పించుకోడానికి దయచేసి కొత్త సంకేతాలను తయారుచేసుకోగలరు.
 codes-generate = సంకేతాలను సృష్టించు
 lowRecoveryCodes-action = సంకేతాలను సృష్టించు
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = ఖాతా నిర్వహణ
 passwordChanged-title = సంకేతపదం విజయవంతంగా మార్చబడింది
 passwordChangeRequired-signoff = ఉత్తమ
@@ -27,6 +48,7 @@ passwordResetAccountRecovery-title = పునరుద్ధరణ కీతో
 passwordResetAccountRecovery-description = పునరుద్ధరణ సంకేతాన్ని వాడి మీరు ఈ క్రింది పరికరంలో మీ సంకేతపదాన్ని విజయవంతంగా రీసెట్ చేసుకున్నారు:
 passwordResetAccountRecovery-action = కొత్త పునరుద్ధరణ కీని సృష్టించు
 passwordResetAccountRecovery-regen-required = మీరు కొత్త పునరుద్ధరణ కీని సృష్టించాలి.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = కొత్త పునరుద్ధరణ కీని సృష్టించండి:
 postAddAccountRecovery-subject = ఖాతా పునరుద్ధరణ కీ సృష్టించబడింది
 postAddAccountRecovery-title = ఖాతా పునరుద్ధరణ కీ సృష్టించబడింది
@@ -80,4 +102,3 @@ verifySecondaryCode-title = రెండవ ఇ-మెయిలుని ధృ�
 verifySecondaryCode-expiry-notice = ఇది 5 నిమిషాలలో కాలంచెల్లిపోతుంది. తనిఖీ అయిన తర్వాత, భద్రతా గమనింపులను, నిర్ధారణలను ఈ చిరునామా అందుకోవడం మొదలుపెడుతుంది.
 verifyShortCode-title = నమోదవుతున్నది మీరేనా?
 verifyShortCode-expiry-notice = ఇది 5 నిమిషాలలో కాలంచెల్లిపోతుంది.
-
