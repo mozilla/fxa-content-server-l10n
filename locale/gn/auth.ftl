@@ -185,6 +185,7 @@ unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = Upéicharõ, ayvu jeguerujeyrã reikotevẽva ha’e kóva: { $unblockCode }
+unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a data-l10n-name="reportSignInLink">oremomarandu</a>.
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
 verificationReminderFirst-subject = Mandu’arã: Emoheñoimba ne mba’ete
 verificationReminderFirst-title = Eg̃uahẽporãite { -brand-firefox } mba’eteépe
