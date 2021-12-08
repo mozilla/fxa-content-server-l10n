@@ -41,6 +41,8 @@ subplat-reactivate = Réactiver l’abonnement
 subplat-update-billing = Mettre à jour les informations de facturation
 subplat-legal = Mentions légales
 subplat-privacy = Vie privée
+another-desktop-device = Ou, l’installer sur <a data-l10n-name="anotherDeviceLink">un autre ordinateur de bureau</a>.
+another-device = Ou, l’installer sur <a data-l10n-name="anotherDeviceLink">un autre appareil</a>.
 automated-email-change =
     Il s’agit d’un courrier électronique automatisé ; si vous n’avez pas autorisé cette action, <a data-l10n-name="passwordChangeLink">veuillez changer de mot de passe</a>.
     Pour plus d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
