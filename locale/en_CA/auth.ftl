@@ -40,39 +40,76 @@ subplat-legal = Legal
 subplat-privacy = Privacy
 another-desktop-device = Or, install on <a data-l10n-name="anotherDeviceLink">another desktop device</a>.
 another-device = Or, install on <a data-l10n-name="anotherDeviceLink">another device</a>.
+automated-email-change =
+    This is an automated email; if you did not authorize this action, then <a data-l10n-name="passwordChangeLink">please change your password</a>.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = This is an automated email; if you didn’t add a new device to your { -product-firefox-account }, you should change your password immediately at { $passwordChangeLink }
+automated-email =
+    This is an automated email; if you received it in error, no action is required.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
+automated-email-reset =
+    This is an automated email; if you did not authorize this action, then <a data-l10n-name="resetLink">please reset your password</a>.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
 change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP address: { $ip }
 manage-account = Manage account
+manage-account-plaintext = { manage-account }:
+subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
+subscriptionUpdatePayment = To prevent any interruption to your service, please <a data-l10n-name="updateBillingUrl">update your payment information</a> as soon as possible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = For more information, please visit { $supportUrl }
 cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
 cadReminderFirst-action = Sync another device
 cadReminderFirst-title = Here’s your reminder to sync devices.
+cadReminderFirst-description = It takes two to sync. Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords, and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
 cadReminderSecond-subject = Final Reminder: Complete Sync Setup
 cadReminderSecond-action = Sync another device
 cadReminderSecond-title = Last reminder to sync devices!
+cadReminderSecond-description = Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords, and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Low recovery codes remaining
 codes-reminder-description = We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account.
 codes-generate = Generate codes
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generate codes
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 recovery code remaining
+       *[other] { $numberRemaining } recovery codes remaining
+    }
 
 ## Variables:
 ##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 
+newDeviceLogin-subject = New sign-in to { $clientName }
+newDeviceLogin-title = New sign-in to { $clientName }
 
 ##
 
 newDeviceLogin-action = Manage account
 passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
+passwordChanged-description = Your { -product-firefox-account } password was successfully changed from the following device:
 passwordChangeRequired-subject = Suspicious activity detected
 passwordChangeRequired-title = Password Change Required
+passwordChangeRequired-suspicious-activity = We detected suspicious behaviour on your { -product-firefox-account }. To prevent unauthorized access to your { -product-firefox-account }, we’ve disconnected all devices on your account and are requiring you to change your password as a precaution.
 passwordChangeRequired-sign-in = Sign back into any device or service where you use your { -product-firefox-account } and follow the steps that will be presented to you.
 passwordChangeRequired-different-password = <b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account.
 passwordChangeRequired-signoff = Best,
+passwordChangeRequired-signoff-name = The { -product-firefox-accounts } team
 passwordChangeRequired-different-password-plaintext = Important: Pick a different password than what you were previously using and make sure that it is different from your email account.
 passwordReset-subject = Password updated
 passwordReset-title = Your account password was changed
