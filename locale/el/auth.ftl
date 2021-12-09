@@ -306,3 +306,10 @@ verifyShortCode-subject = Κωδικός επαλήθευσης: { $code }
 verifyShortCode-title = Κάνετε εσείς εγγραφή;
 verifyShortCode-prompt = Αν ναι, χρησιμοποιήστε αυτόν τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
+cancellationSurvey-plaintext = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:
+subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
+subscriptionCancellation-title = Λυπούμαστε που φεύγετε
+subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+subscriptionUpgrade-title = Ευχαριστούμε για την αναβάθμιση!
+subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+

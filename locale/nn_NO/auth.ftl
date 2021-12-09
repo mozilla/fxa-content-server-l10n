@@ -135,3 +135,12 @@ verifyShortCode-title = Er det du som registrerer deg?
 verifyShortCode-prompt = Om ja, bruk denne stadfestingskoden i registreringsskjemaet:
 verifyShortCode-expiry-notice = Den går ut om 5 minutt.
 
+cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
+passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -brand-firefox }-kontoen din, og følg stega som vil bli presentert for deg.
+subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
+subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
+subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+subscriptionUpgrade-title = Takk for at du oppgraderer!
+subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+verificationReminderFirst-description = For nokre dagar sidan laga du ein { -brand-firefox }-konto, men du stadfesta det aldri.
+

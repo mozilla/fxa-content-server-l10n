@@ -272,3 +272,10 @@ verifyShortCode-subject = Código de confirmação: { $code }
 verifyShortCode-title = É você que se está a registar?
 verifyShortCode-prompt = Em caso afirmativo, utilize este código de confirmação no seu formulário de registo:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
+cancellationSurvey-plaintext = Ajude-nos a melhorar os nossos serviços respondendo a este pequeno questionário:
+subscriptionAccountDeletion-title = Temos pena que se vá embora
+subscriptionCancellation-title = Temos pena que se vá embora
+subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
+subscriptionUpgrade-title = Obrigado por atualizar!
+subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
+

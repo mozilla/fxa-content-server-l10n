@@ -353,3 +353,10 @@ verifyShortCode-subject = Kod weryfikacyjny: { $code }
 verifyShortCode-title = Czy to Ty się rejestrujesz?
 verifyShortCode-prompt = Jeśli tak, użyj tego kodu weryfikacyjnego w formularzu rejestracyjnym:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
+cancellationSurvey-plaintext = Pomóż nam ulepszać nasze usługi wypełniając tę krótką ankietę:
+subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegnać
+subscriptionCancellation-title = Przykro nam, że chcesz się z nami pożegnać
+subscriptionDowngrade-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
+subscriptionUpgrade-title = Dziękujemy!
+subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
+

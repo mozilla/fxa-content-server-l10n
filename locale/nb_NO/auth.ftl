@@ -134,3 +134,12 @@ verifySecondaryCode-expiry-notice = Den utløper om 5 minutter. Når e-postadres
 verifyShortCode-title = Er det du som registrerer deg?
 verifyShortCode-expiry-notice = Den løper ut om 5 minutter.
 
+cancellationSurvey-plaintext = Hjelp oss med å forbedre tjenestene våre ved å ta denne korte undersøkelsen:
+passwordChangeRequired-sign-in = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker { -brand-firefox }-kontoen din, og følg trinnene som vil bli presentert for deg.
+subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
+subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
+subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+subscriptionUpgrade-title = Takk for at du oppgraderer!
+subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
+verificationReminderFirst-description = For noen dager siden laget du en { -brand-firefox }-konto, men du bekreftet den aldri.
+

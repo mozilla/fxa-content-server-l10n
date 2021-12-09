@@ -271,3 +271,10 @@ verifyShortCode-subject = Mã xác minh: { $code }
 verifyShortCode-title = Đây có phải là bạn đăng nhập không?
 verifyShortCode-prompt = Nếu có, hãy sử dụng mã xác minh này trong biểu mẫu đăng ký của bạn:
 verifyShortCode-expiry-notice = Nó hết hạn sau 5 phút.
+cancellationSurvey-plaintext = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện khảo sát ngắn này:
+subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
+subscriptionCancellation-title = Rất tiếc vì bạn chuẩn bị ra đi
+subscriptionDowngrade-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
+subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
+subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
+

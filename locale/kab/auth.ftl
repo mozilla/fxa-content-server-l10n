@@ -135,3 +135,12 @@ verifyShortCode-title = D kečč i d-yessutren ajerred-agi?
 verifyShortCode-prompt = Ma yella ih, seqdec tangalt-a n usenqed deg tferkit-ik·im n usekles:
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
 
+cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
+passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer tkebbanit anida i tseqdaceḍ amiḍan-ik/im { -brand-firefox } syen ḍfer imecwaṛen ara ak(am)-d-yettunefken.
+subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
+subscriptionCancellation-title = Neḥzen imi tṛuḥeḍ
+subscriptionDowngrade-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
+subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
+subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
+verificationReminderFirst-description = Kra n wussan aya terniḍ amiḑan { -brand-firefox }, dacu mazal ur t-tsentmeḍ ara.
+

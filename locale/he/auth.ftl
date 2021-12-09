@@ -260,3 +260,10 @@ verifyShortCode-subject = קוד אימות: { $code }
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
 verifyShortCode-prompt = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
+cancellationSurvey-plaintext = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי סקר קצר זה:
+subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
+subscriptionCancellation-title = עצוב לנו שבחרת לעזוב
+subscriptionDowngrade-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+subscriptionUpgrade-title = תודה ששידרגת!
+subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+

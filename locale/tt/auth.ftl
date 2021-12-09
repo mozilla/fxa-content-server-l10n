@@ -202,3 +202,8 @@ verifySecondaryCode-expiry-notice = 5 минуттан аның вакыты ч�
 verifyShortCode-subject = Раслау коды: { $code }
 verifyShortCode-title = Теркәлүче Сезме?
 verifyShortCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
+cancellationSurvey-plaintext = Зинһар, хезмәтләребезне яхшыртырга ярдәм итү өчен бу кыска сораулыкны алыгыз:
+subscriptionAccountDeletion-title = Китүегез безгә кызганыч
+subscriptionCancellation-title = Китүегез безгә кызганыч
+subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
+

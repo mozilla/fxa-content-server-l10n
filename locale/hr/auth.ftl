@@ -157,3 +157,12 @@ verifySecondaryCode-prompt = Koristi ovaj kôd za potvrdu:
 verifySecondaryCode-expiry-notice = Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde.
 verifyShortCode-title = Je li ovo tvoja prijava?
 verifyShortCode-expiry-notice = Istječe za 5 minuta.
+cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
+passwordChangeRequired-sign-in = Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj { -brand-firefox } račun i slijedite korake koji će ti biti predstavljeni.
+subscriptionAccountDeletion-title = Žao nam je što odlaziš
+subscriptionCancellation-title = Žao nam je što odlaziš
+subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
+subscriptionUpgrade-title = Hvala na nadogradnji!
+subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
+verificationReminderFirst-description = Prije nekoliko dana stvoren je tvoj { -brand-firefox } račun, ali nije potvrđen.
+

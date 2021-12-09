@@ -276,3 +276,10 @@ verifyShortCode-subject = Cod dilysu: { $code }
 verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
 verifyShortCode-prompt = Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
+cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r arolwg byr hwn:
+subscriptionAccountDeletion-title = Mae’n ddrwg gennym eich gweld chi‘n gadael
+subscriptionCancellation-title = Mae’n ddrwg gennym eich gweld chi‘n gadael
+subscriptionDowngrade-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
+subscriptionUpgrade-title = Diolch am uwchraddio!
+subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
+

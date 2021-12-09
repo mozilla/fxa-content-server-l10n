@@ -272,3 +272,10 @@ verifyShortCode-subject = Verifieringskod: { $code }
 verifyShortCode-title = Är det du som registrerar dig?
 verifyShortCode-prompt = Om ja, använd den här verifieringskoden i ditt registreringsformulär:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.
+cancellationSurvey-plaintext = Hjälp oss att förbättra våra tjänster genom att ta göra en kort undersökning:
+subscriptionAccountDeletion-title = Ledsen att se dig sluta
+subscriptionCancellation-title = Ledsen att se dig sluta
+subscriptionDowngrade-content-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
+subscriptionUpgrade-title = Tack för att du har uppgraderat!
+subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
+
