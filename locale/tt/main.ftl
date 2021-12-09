@@ -251,6 +251,9 @@ sub-item-stay-sub = Язылуда калу
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Кушымта эчендә сатып алу
+sub-iap-item-apple-purchase = { -brand-name-apple }: Кушымта эчендә сатып алу
+sub-iap-item-manage-button = Идарә итү
 account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
