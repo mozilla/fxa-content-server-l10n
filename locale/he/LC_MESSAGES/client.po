@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-09 22:07+0000\n"
 "PO-Revision-Date: 2021-11-05 12:02+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1909,38 +1909,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "סנכרון הסימניות שלך, הססמאות ועוד בכל מכשיר."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr "Pocket"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "גישה מאובטחת לססמאות השמורות ב־Firefox מכל מקום &mdash; גם מחוץ לדפדפן."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "קבלת התרעות על דליפות נתונים."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr ""
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr "הצגת הכל"
 
@@ -2039,6 +2031,18 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישום Firefox."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "גישה מאובטחת לססמאות השמורות ב־Firefox מכל מקום &mdash; גם מחוץ לדפדפן."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "קבלת התרעות על דליפות נתונים."
 
 #~ msgid "Save and discover the best stories from accross the web."
 #~ msgstr "לשמור ולגלות את הסיפורים הטובים ביותר מרחבי הרשת."
