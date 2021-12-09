@@ -10,6 +10,14 @@ project-brand = Firefox Хисап язмалары
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Хисап язмалары
 
@@ -26,6 +34,8 @@ payment-error-retry-button = Янәдән тырышып карау
 payment-error-manage-subscription-button = Минем язылу белән идарә итү
 currency-currency-mismatch = Гафу. Валюталарны алмаштыра алмыйсыз.
 no-subscription-change = Гафу. Язылу планыгызны үзгәртә алмыйсыз.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Сез инде { $mobileAppStore } аша язылгансыз.
 
 ##  $productName (String) - The name of the subscribed product.
 
@@ -48,6 +58,7 @@ subscription-success-title = Язылуны раслау
 subscription-processing-title = Язылуны раслау…
 subscription-error-title = Язылуны раслау хатасы…
 subscription-noplanchange-title = Абунә планындагы мондый үзгәреш мөмкин түгел
+subscription-iapsubscribed-title = Инде язылган
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,6 +102,7 @@ product-no-such-plan = Әлеге продукт өчен андый план ю
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-ның хосусыйлык сәясәте</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-ның хосусыйлык сәясәте</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } хосусыйлык сәясәте</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
@@ -209,6 +221,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-expires-on = Вакыты чыга: { $date }
 
 ##
 
@@ -235,6 +248,9 @@ sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
 sub-item-no-such-plan = Әлеге язылу өчен андый план юк.
 sub-item-cancel-sub = Язылудан баш тарту
 sub-item-stay-sub = Язылуда калу
+
+## subscription iap item
+
 account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
