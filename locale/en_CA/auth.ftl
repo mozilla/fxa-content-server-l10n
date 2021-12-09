@@ -2,25 +2,50 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
 fxa-service-url = { -product-firefox-cloud } Terms of Service
 subplat-automated-email = This is an automated email; if you received it in error, no action is required.
 subplat-privacy-plaintext = Privacy notice:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = You’re receiving this email because { $email } has a { -product-firefox-account } and you signed up for { $productName }.
+subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
 subplat-terms-policy = Terms and cancellation policy
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivate subscription
 subplat-update-billing = Update billing information
 subplat-legal = Legal
 subplat-privacy = Privacy
+another-desktop-device = Or, install on <a data-l10n-name="anotherDeviceLink">another desktop device</a>.
+another-device = Or, install on <a data-l10n-name="anotherDeviceLink">another device</a>.
 automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
 change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
 manage-account = Manage account
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
 cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
 cadReminderFirst-action = Sync another device
@@ -28,10 +53,18 @@ cadReminderFirst-title = Here’s your reminder to sync devices.
 cadReminderSecond-subject = Final Reminder: Complete Sync Setup
 cadReminderSecond-action = Sync another device
 cadReminderSecond-title = Last reminder to sync devices!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Low recovery codes remaining
 codes-reminder-description = We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account.
 codes-generate = Generate codes
 lowRecoveryCodes-action = Generate codes
+
+## Variables:
+##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+
+
+##
+
 newDeviceLogin-action = Manage account
 passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
@@ -49,6 +82,7 @@ passwordResetAccountRecovery-title = Your account password was reset with a reco
 passwordResetAccountRecovery-description = You have successfully reset your password using a recovery key from the following device:
 passwordResetAccountRecovery-action = Create new recovery key
 passwordResetAccountRecovery-regen-required = You will need to generate a new recovery key.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Create new recovery key:
 postAddAccountRecovery-subject = Account recovery key generated
 postAddAccountRecovery-title = Account recovery key generated
@@ -136,4 +170,3 @@ verifySecondaryCode-expiry-notice = It expires in 5 minutes. Once verified, this
 verifyShortCode-title = Is this you signing up?
 verifyShortCode-prompt = If yes, use this verification code in your registration form:
 verifyShortCode-expiry-notice = It expires in 5 minutes.
-
