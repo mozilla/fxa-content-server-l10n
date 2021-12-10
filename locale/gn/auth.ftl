@@ -66,6 +66,7 @@ cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
 cadReminderSecond-subject = Mandu’arã ipaháva: Embojuehepa Sync
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title = ¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!
+cadReminderSecond-description = Embojuehévo ambue mba’e’oka nde { -brand-firefox } ndive tekoñemíme oguereko nde rechaukaha ha ambuéva mba’ekuaarã { -brand-firefox } pegua peteĩchaite tenda eipuruhápe.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
 codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
@@ -92,6 +93,7 @@ passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
 passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
+passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
 passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -product-firefox-account } ha eipykúi pe tape ehechátava rupi.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
