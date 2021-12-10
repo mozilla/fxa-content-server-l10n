@@ -238,11 +238,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Ojehechajeývo, umi mba’ete ambuepyre ojuajukuaáva ñanduti veve mokõihávare ejapóta ko mba’e’oka guive.
 verifySecondary-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondary-title = Ehechajey ñanduti veve mokõiháva
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondary-action = Ñandutiveve hechajey
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Ojehechajey vove, ko mba’ete oñepyrũta omog̃uahẽ marandu’i tekorosã ha ñemoneĩ rehegua.
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondaryCode-prompt = Eipuru ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽ ñepyrũta marandu’i tekorosã ha ñemoneĩ rehegua.
 # Variables:
