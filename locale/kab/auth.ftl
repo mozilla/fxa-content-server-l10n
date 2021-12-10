@@ -2,11 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Imiḍanen Firefox
--product-firefox-account = Amiḍan Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Imiḍanen Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Amiḍan Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Tasertit tabaḍnit n { -brand-mozilla }
 fxa-service-url = Tiwtilin n useqdec n { -product-firefox-cloud }
 subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
@@ -18,9 +31,13 @@ subplat-update-billing = Aleqqem n telɣut n ufter
 subplat-legal = Usḍif
 subplat-privacy = Tabaḍnit
 automated-email-plaintext = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
 manage-account = Sefrek amiḍan
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
 cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
@@ -28,6 +45,7 @@ cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
 cadReminderSecond-subject = Asmekti aneggaru: Asebded ummid n umtawa
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
 codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik.
 codes-generate = Sirew tingalin
@@ -37,6 +55,7 @@ passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
+passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer umeẓlu seg wanida i tesseqdaceḍ { -product-firefox-account } syen ḍfer imecwaṛen ara ak·am-d-yettunefken.
 passwordChangeRequired-different-password = <b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 passwordChangeRequired-signoff = S tegmatt,
 passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
@@ -48,6 +67,7 @@ passwordResetAccountRecovery-title = Awal uffir n umiḍa-ik/im ittuwennez s tsa
 passwordResetAccountRecovery-description = Twennzeḍ akken iwata awal uffir-ik/im s tsarutt n tririt seg yibenk-agi:
 passwordResetAccountRecovery-action = Rnu tasarutt n tririt tamaynut
 passwordResetAccountRecovery-regen-required = Nesra asirew n tsarutt n tririt tamaynut.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Rnu tasarutt n tririt tamaynut:
 postAddAccountRecovery-subject = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-title = Tasarutt n tririt n umiḍan tettusirew
@@ -91,16 +111,22 @@ recovery-subject = Wennez awal uffir-ik
 recovery-title = Tesriḍ tulsa uwennez n wawal uffir inek?
 recovery-description = Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:
 recovery-action = Sekcem awal uffir amaynut
+subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
+subscriptionCancellation-title = Neḥzen imi tṛuḥeḍ
+subscriptionDowngrade-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 subscriptionPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
 subscriptionsPaymentExpired-subject = Takarḍa n usmad n yijerriden-ik•im qrib ad temmet
 subscriptionsPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
 subscriptionsPaymentExpired-content = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet.
+subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
+subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?
 unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 unblockCode-report-plaintext = Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid.
 verificationReminderFirst-subject = Asmekti: Fak timerna n umiḍan-ik
 verificationReminderFirst-title = Ansuf ɣer twacult { -brand-firefox }
+verificationReminderFirst-description = Kra n wussan aya terniḍ { -product-firefox-account }, d acu mazal ur t-tsentmeḍ ara.
 verificationReminderFirst-sub-description = Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ.
 confirm-email = Sentem imayl
 verificationReminderFirst-action = Sentem imayl
@@ -134,13 +160,3 @@ verifySecondaryCode-expiry-notice = Aya ad yemmet deg 5 n tesdatin. Ticki ittwas
 verifyShortCode-title = D kečč i d-yessutren ajerred-agi?
 verifyShortCode-prompt = Ma yella ih, seqdec tangalt-a n usenqed deg tferkit-ik·im n usekles:
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
-
-cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
-passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer tkebbanit anida i tseqdaceḍ amiḍan-ik/im { -brand-firefox } syen ḍfer imecwaṛen ara ak(am)-d-yettunefken.
-subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
-subscriptionCancellation-title = Neḥzen imi tṛuḥeḍ
-subscriptionDowngrade-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
-subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
-subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
-verificationReminderFirst-description = Kra n wussan aya terniḍ amiḑan { -brand-firefox }, dacu mazal ur t-tsentmeḍ ara.
-
