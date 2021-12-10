@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消訂閱
 subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新啟用訂閱
+subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新帳務資訊
 subplat-legal = 法律資訊
 subplat-privacy = 隱私權
@@ -53,6 +54,9 @@ automated-email-reset = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 若您沒有要求變更，請立即到 { $resetLink } 重設密碼。
+cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl")s>簡短問卷</a>幫助我們改善服務品質。
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = 請填寫這份簡短問卷幫助我們改善服務品質:
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。
 # Variables:
 #  $ip (Number) - User's IP address
@@ -86,15 +90,12 @@ lowRecoveryCodes-subject =
     { $numberRemaining ->
        *[other] 剩餘 { $numberRemaining } 組救援碼
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = { $clientName } 的新登入通知
-
-##
-
 newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
@@ -179,6 +180,20 @@ recovery-subject = 重設您的密碼
 recovery-title = 需要重設密碼嗎？
 recovery-description = 請在一個小時內點擊下面的按鈕來建立新密碼。此請求來自下列裝置:
 recovery-action = 建立新密碼
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = 已取消您的 { $productName } 產品訂閱
+subscriptionAccountDeletion-title = 很遺憾看見您離開
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = 您最近刪除了 { -product-firefox-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = 已取消您的 { $productName } 產品訂閱
+subscriptionCancellation-title = 很遺憾看見您離開
+subscriptionDowngrade-content-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動更新訂閱並收費。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = 訂購 { $productName } 所使用的信用卡即將過期
@@ -199,6 +214,8 @@ subscriptionReactivation-content = 您的帳務週期與付款內容將保持原
 subscriptionsPaymentExpired-subject = 訂購多項產品所使用的信用卡即將過期
 subscriptionsPaymentExpired-title = 您的信用卡即將過期
 subscriptionsPaymentExpired-content = 您用來付款訂購下列項目的信用卡即將過期。
+subscriptionUpgrade-title = 感謝您升級訂購內容！
+subscriptionUpgrade-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動更新訂閱並收費。
 unblockCode-subject = 帳號授權碼
 unblockCode-title = 要登入的是您嗎？
 unblockCode-prompt = 是的話，以下是您的授權碼：
@@ -265,10 +282,3 @@ verifyShortCode-subject = 驗證碼：{ $code }
 verifyShortCode-title = 您有註冊帳號嗎？
 verifyShortCode-prompt = 如果是的話，請在註冊標單輸入下列驗證碼:
 verifyShortCode-expiry-notice = 將於 5 分鐘後失效。
-cancellationSurvey-plaintext = 請填寫這份簡短問卷幫助我們改善服務品質:
-subscriptionAccountDeletion-title = 很遺憾看見您離開
-subscriptionCancellation-title = 很遺憾看見您離開
-subscriptionDowngrade-content-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動更新訂閱並收費。
-subscriptionUpgrade-title = 感謝您升級訂購內容！
-subscriptionUpgrade-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動更新訂閱並收費。
-
