@@ -92,6 +92,7 @@ passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
 passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
+passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -product-firefox-account } ha eipykúi pe tape ehechátava rupi.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
 passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
@@ -120,6 +121,9 @@ postAddTwoStepAuthentication-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-code-required = Ko’ág̃a guive ojejeturéta ne rembipuru’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Emoambue hekopete ne ñandutiveve eipuruvéva { $email }. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 postChangePrimary-action = Mba’ete ñangareko
 postConsumeRecoveryCode-subject = Ojepuru ayvu jeguerujeyrã
 postConsumeRecoveryCode-title = Eipuru ayvu jeguerujeyrã
