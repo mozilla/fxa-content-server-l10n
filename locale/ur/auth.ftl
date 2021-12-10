@@ -81,3 +81,8 @@ verifySecondaryCode-title = ثانوی ای میل کی توثیق کریں
 verifyShortCode-title = کیا یہ آپ ہیں جو سائن اپ کر رہے ہیں؟
 verifyShortCode-expiry-notice = یہ 5 منٹ میں ختم ہو جاتا ہے۔
 
+subscriptionAccountDeletion-title = جاتے ہوئے دیکھ کر افسوس ہو رہا ہے 
+subscriptionCancellation-title = جاتے ہوئے دیکھ کر افسوس ہو رہا ہے 
+subscriptionUpgrade-title = اپ گریڈ کرنے کے لیے شکریہ!
+verificationReminderFirst-description = کچھ دن پہلے آپ نے { -brand-firefox } اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔
+

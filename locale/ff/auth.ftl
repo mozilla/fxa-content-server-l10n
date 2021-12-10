@@ -56,3 +56,6 @@ verifyLoginCode-expiry-notice = Ɗuum gasat e nder hojomaaji 5.
 verifyShortCode-title = Ko aan woni binndittoɗo ɗoo oo?
 verifyShortCode-expiry-notice = Ɗuum gasat e nder hojomaaji 5.
 
+subscriptionAccountDeletion-title = Njaafoɗaa e yiyde ma aɗa yaha
+subscriptionCancellation-title = Njaafoɗaa e yiyde ma aɗa yaha
+

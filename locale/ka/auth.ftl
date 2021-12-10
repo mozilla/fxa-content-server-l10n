@@ -272,3 +272,10 @@ verifyShortCode-subject = დამადასტურებელი კო�
 verifyShortCode-title = ეს ანგარიში თქვენ შექმენით?
 verifyShortCode-prompt = თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.
+cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
+subscriptionAccountDeletion-title = სამწუხაროა, რომ გვტოვებთ
+subscriptionCancellation-title = სამწუხაროა, რომ გვტოვებთ
+subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
+subscriptionUpgrade-title = გმადლობთ, განახლებისთვის!
+subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
+

@@ -255,3 +255,10 @@ verifySecondaryCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır. Adre
 verifyShortCode-subject = Doğrulama kodu: { $code }
 verifyShortCode-title = Kaydolan siz misiniz?
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
+cancellationSurvey-plaintext = Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:
+subscriptionAccountDeletion-title = Ayrılık sevdaya dahil
+subscriptionCancellation-title = Ayrılık sevdaya dahil
+subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
+subscriptionUpgrade-title = Yükseltme yaptığınız için teşekkürler!
+subscriptionUpgrade-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
+

@@ -274,3 +274,10 @@ verifyShortCode-subject = Wobkšuśeński kod: { $code }
 verifyShortCode-title = Registrěrujośo wy?
 verifyShortCode-prompt = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
+cancellationSurvey-plaintext = Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:
+subscriptionAccountDeletion-title = Škóda, až wótejźośo
+subscriptionCancellation-title = Škóda, až wótejźośo
+subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+subscriptionUpgrade-title = Wjeliki źěk za aktualizěrowanje!
+subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+

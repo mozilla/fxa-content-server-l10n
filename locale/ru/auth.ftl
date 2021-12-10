@@ -273,3 +273,10 @@ verifyShortCode-subject = Код подтверждения: { $code }
 verifyShortCode-title = Это вы регистрируетесь?
 verifyShortCode-prompt = Если да, используйте этот код верификации в своей регистрационной форме:
 verifyShortCode-expiry-notice = Срок его действия истечёт через 5 минут.
+cancellationSurvey-plaintext = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом кратком опросе:
+subscriptionAccountDeletion-title = Жаль, что вы уходите
+subscriptionCancellation-title = Жаль, что вы уходите
+subscriptionDowngrade-content-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
+subscriptionUpgrade-title = Спасибо за обновление!
+subscriptionUpgrade-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
+

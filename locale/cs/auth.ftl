@@ -137,3 +137,10 @@ verifyShortCode-title = Jste to vy, kdo se přihlašuje?
 verifyShortCode-prompt = Pokud ano, použijte v registračním formuláři tento ověřovací kód:
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.
 
+cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
+subscriptionAccountDeletion-title = Je nám líto, že odcházíte
+subscriptionCancellation-title = Je nám líto, že odcházíte
+subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
+subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
+subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
+

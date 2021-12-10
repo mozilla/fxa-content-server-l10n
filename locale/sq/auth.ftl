@@ -272,3 +272,10 @@ verifyShortCode-subject = Kod verifikimi: { $code }
 verifyShortCode-title = A jeni ju që po regjistroheni?
 verifyShortCode-prompt = Nëse po, përdoreni këtë kod verifikimi në formularin e regjistrimit tuaj:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
+cancellationSurvey-plaintext = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë pyetësor të shkurtër:
+subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
+subscriptionCancellation-title = Ju shohim me keqardhje teksa ikni
+subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+subscriptionUpgrade-title = Faleminderit për përmirësimin!
+subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+

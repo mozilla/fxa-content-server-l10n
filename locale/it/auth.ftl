@@ -276,3 +276,10 @@ verifyShortCode-subject = Codice di verifica: { $code }
 verifyShortCode-title = Hai effettuato tu questo accesso?
 verifyShortCode-prompt = In caso affermativo, utilizza questo codice di verifica nel modulo di registrazione:
 verifyShortCode-expiry-notice = Il codice scadrà entro 5 minuti.
+cancellationSurvey-plaintext = Aiutaci a migliorare i nostri servizi partecipando a questo breve sondaggio:
+subscriptionAccountDeletion-title = Ci mancherai.
+subscriptionCancellation-title = Ci mancherai.
+subscriptionDowngrade-content-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
+subscriptionUpgrade-title = Grazie per aver effettuato l’aggiornamento.
+subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
+

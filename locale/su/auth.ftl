@@ -175,3 +175,9 @@ verifySecondaryCode-prompt = Paké sandi péripikasi ieu:
 verifySecondaryCode-expiry-notice = Ieu bakal kadaluwarsa dina 5 menit. Sanggeus dipéripikasi, ieu alamat bakal mimiti narima iber sarta konfirmasi kaamanan.
 verifyShortCode-title = Anu daptar téh bener anjeun?
 verifyShortCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.
+cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
+subscriptionAccountDeletion-title = Pileuleuyan
+subscriptionCancellation-title = Pileuleuyan
+subscriptionDowngrade-content-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
+subscriptionUpgrade-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
+

@@ -135,3 +135,12 @@ verifyShortCode-title = Es ti la persuna che s’annunzia?
 verifyShortCode-prompt = Sche gea, utilisescha quest code da verificaziun en tes formular da registraziun:
 verifyShortCode-expiry-notice = El scada en 5 minutas.
 
+cancellationSurvey-plaintext = Ans gida per plaschair da meglierar noss servetschs cun participar a questa curta enquista:
+passwordChangeRequired-sign-in = T’annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes conto da { -brand-firefox } e suonda ils pass che ta vegnan preschentads.
+subscriptionAccountDeletion-title = Donn che ti vas
+subscriptionCancellation-title = Donn che ti vas
+subscriptionDowngrade-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
+subscriptionUpgrade-title = Grazia per l’upgrade!
+subscriptionUpgrade-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
+verificationReminderFirst-description = Avant in pèr dis has ti creà in conto da { -brand-firefox }, ma ti n’al has mai confermà.
+

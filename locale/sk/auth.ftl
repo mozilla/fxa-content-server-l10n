@@ -253,3 +253,9 @@ verifyShortCode-subject = Overovací kód: { $code }
 verifyShortCode-title = Prihlasujete sa naozaj vy?
 verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
+cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
+subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
+subscriptionCancellation-title = Mrzí nás, že odchádzate
+subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
+subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
+

@@ -93,3 +93,6 @@ verifySecondaryCode-subject = Dearbh am post-d eile
 verifySecondaryCode-title = Dearbh am post-d dàrnach
 verifyShortCode-title = An tusa a tha a’ clàradh leinn?
 
+subscriptionUpgrade-title = Mòran taing airson ùrachadh!
+verificationReminderFirst-description = Chruthaich thu cunntas { -brand-firefox } beagan làithean air ais ach cha do rinn thu a dhearbhadh gu ruige seo.
+

@@ -272,3 +272,10 @@ verifyShortCode-subject = Verificatiecode: { $code }
 verifyShortCode-title = Registreert u zich?
 verifyShortCode-prompt = Zo ja, gebruik dan deze verificatiecode in uw registratieformulier:
 verifyShortCode-expiry-notice = Deze verloopt over vijf minuten.
+cancellationSurvey-plaintext = Help ons onze dienstverlening te verbeteren door deze korte enquête in te vullen:
+subscriptionAccountDeletion-title = Jammer dat u vertrekt
+subscriptionCancellation-title = Jammer dat u vertrekt
+subscriptionDowngrade-content-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
+subscriptionUpgrade-title = Bedankt voor uw upgrade!
+subscriptionUpgrade-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
+

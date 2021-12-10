@@ -259,3 +259,8 @@ verifySecondaryCode-expiry-notice = Poteče čez 5 minut. Ko naslov potrdite, bo
 verifyShortCode-subject = Koda za potrditev: { $code }
 verifyShortCode-title = Se prijavljate vi?
 verifyShortCode-expiry-notice = Poteče čez 5 minut.
+cancellationSurvey-plaintext = Pomagajte nam izboljšati naše storitve, tako da izpolnite to kratko anketo.
+subscriptionAccountDeletion-title = Žal nam je, ker odhajate
+subscriptionCancellation-title = Žal nam je, ker odhajate
+subscriptionUpgrade-title = Hvala za nadgradnjo!
+

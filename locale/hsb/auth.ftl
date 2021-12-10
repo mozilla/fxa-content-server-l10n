@@ -274,3 +274,10 @@ verifyShortCode-subject = Wobkrućenski kod: { $code }
 verifyShortCode-title = Registrujeće wy?
 verifyShortCode-prompt = Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:
 verifyShortCode-expiry-notice = Spadnje za 5 mjeńšin.
+cancellationSurvey-plaintext = Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby polěpšić:
+subscriptionAccountDeletion-title = Škoda, zo woteńdźeće
+subscriptionCancellation-title = Škoda, zo woteńdźeće
+subscriptionDowngrade-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
+subscriptionUpgrade-title = Wulki dźak za aktualizowanje!
+subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
+

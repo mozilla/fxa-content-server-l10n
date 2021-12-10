@@ -257,3 +257,12 @@ verifyShortCode-subject = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
 verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
+cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’epururã rojapóvo ko ñeporandu:
+passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -brand-firefox } mba’ete ha tereho pe tape ehechátavape.
+subscriptionAccountDeletion-title = Ambyasy eho haguére
+subscriptionCancellation-title = Ambyasy eho haguére
+subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
+subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+verificationReminderFirst-description = Nda’areiete emoheñói hague mba’ete { -brand-firefox }-pe, hákatu neremoneĩri.
+
