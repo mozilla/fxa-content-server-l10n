@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Скасувати передплату
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Поновити передплату
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Оновіть платіжну інформацію
 subplat-legal = Правові положення
 subplat-privacy = Приватність
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Якщо ви не змінювали його, будь ласка, негайно скиньте його за посиланням { $resetLink }
+cancellationSurvey = Будь ласка, допоможіть вдосконалити наші послуги, долучившись до цього <a data-l10n-name="cancellationSurveyUrl")s>простого опитування</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому швидкому опитуванні:
 change-password-plaintext = Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -94,15 +98,12 @@ lowRecoveryCodes-subject =
         [few] Залишилося { $numberRemaining } коди відновлення
        *[many] Залишилося { $numberRemaining } кодів відновлення
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новий вхід у { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Новий вхід у { $clientName }
-
-##
-
 newDeviceLogin-action = Керування обліковим записом
 passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
@@ -187,6 +188,42 @@ recovery-subject = Відновити свій пароль
 recovery-title = Необхідно скинути пароль?
 recovery-description = Натисніть на кнопку протягом наступної години, щоб створити новий пароль. Запит надійшов з такого пристрою:
 recovery-action = Створити новий пароль
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Вашу передплату { $productName } було скасовано
+subscriptionAccountDeletion-title = Шкода, що ви йдете
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Ви нещодавно видалили свій { -product-firefox-account }. Як наслідок, ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Вашу передплату { $productName } було скасовано
+subscriptionCancellation-title = Шкода, що ви йдете
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }. Ваша послуга залишатиметься активною упродовж чинного оплаченого періоду, який завершується { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Ви перейшли на { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Ви успішно перейшли з { $productNameOld } на { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = Починаючи з вашого наступного рахунку, сума платежу зміниться з { $paymentAmountOld } за { $productPaymentCycle } на { $paymentAmountNew }. У той самий час вам також буде надано одноразовий кредит розміром { $paymentProrated } для покриття нижчої вартості залишку цього { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = При наявності нового програмного забезпечення, яке необхідно встановити для користування { $productNameNew }, ви отримаєте окремий лист з інструкціями щодо завантаження.
+subscriptionDowngrade-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Незабаром, завершується термін дії кредитної картки для оплати за { $productName }
@@ -207,6 +244,24 @@ subscriptionReactivation-content = Ваш цикл платежів та їхн�
 subscriptionsPaymentExpired-subject = Кредитна картка для ваших передплат незабаром втрачає чинність
 subscriptionsPaymentExpired-title = Закінчується термін дії вашої кредитної картки
 subscriptionsPaymentExpired-content = Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Ви перейшли на { $productNameNew }
+subscriptionUpgrade-title = Дякуємо вам за передплату!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Ви успішно перейшли з { $productNameOld } на { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Починаючи з вашого наступного рахунку, сума платежу зміниться з { $paymentAmountOld } за { $productPaymentCycle } на { $paymentAmountNew }. У той самий час з вас також буде стягнуто одноразовий платіж розміром { $paymentProrated } для покриття вищої вартості залишку цього { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = При наявності нового програмного забезпечення, яке необхідно встановити для користування { $productNameNew }, ви отримаєте окремий лист з інструкціями щодо завантаження.
+subscriptionUpgrade-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 unblockCode-subject = Код підтвердження облікового запису
 unblockCode-title = Це ви виконуєте вхід?
 unblockCode-prompt = Якщо так, ось код авторизації, який вам потрібен:
@@ -273,10 +328,3 @@ verifyShortCode-subject = Код підтвердження: { $code }
 verifyShortCode-title = Це ви виконуєте вхід?
 verifyShortCode-prompt = Якщо так, використайте цей код підтвердження у своїй формі реєстрації:
 verifyShortCode-expiry-notice = Термін його дії спливає через 5 хвилин.
-cancellationSurvey-plaintext = Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому швидкому опитуванні:
-subscriptionAccountDeletion-title = Шкода, що ви йдете
-subscriptionCancellation-title = Шкода, що ви йдете
-subscriptionDowngrade-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
-subscriptionUpgrade-title = Дякуємо вам за передплату!
-subscriptionUpgrade-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
-
