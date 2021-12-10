@@ -270,6 +270,7 @@ sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
 sub-billing-update-success = Түләү турындагы мәгълүматларыгызны яңарту уңышлы узды
 sub-route-payment-modal-heading = Яраксыз хисап бирү мәгълүматы
+sub-route-missing-billing-agreement-payment-alert = Яраксыз түләү мәгълүматы; хисабыгызга бәйле бер проблема бар. <div>Хәл итү</div>
 pay-update-manage-btn = Идарә итү
 
 ## subscription create
@@ -342,13 +343,20 @@ payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамлан�
 new-user-sign-in-link = { -brand-name-firefox } хисабыгыз бармы инде? <a>Керү</a>
 new-user-step-1 = 1. { -brand-name-firefox } хисабын булдырыгыз
 new-user-step-2 = 2. Түләү ысулын сайлагыз
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Кирәкле
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Эл. почтагызны кертегез
 new-user-confirm-email =
     .label = Эл. почтагызны раслагыз
+new-user-subscribe-product-updates = Мин { -brand-name-firefox } җибәргән яңалыклардан хәбәрдар булырга телим.
 new-user-email-validate = Эл. почта адресы яраклы түгел
 new-user-email-validate-confirm = Эл. почта адреслары бер-берсенә туры килми
 new-user-already-has-account-sign-in = Сезнең хисабыгыз бар инде. <a>Керү</a>
 new-user-card-title = Кредит картагызның язуларын кертегез
 new-user-submit = Хәзер үк язылу
+manage-pocket-title = { -brand-name-pocket } премиум абунәгезне эзлисезме?
+manage-pocket-body = Аның белән идарә итү өчен <a>монда басыгыз</a>.

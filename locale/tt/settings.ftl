@@ -88,6 +88,11 @@ cs-cannot-refresh =
     Гафу итегез, тоташтырылган хезмәтләр исемлеген яңартканда
     кыенлыклар килеп чыкты.
 cs-cannot-disconnect = Клиент табылмады, тоташуны өзеп булмый
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } хезмәтеннән чыктыгыз.
 cs-refresh-button =
     .title = Бәйләнгән хезмәтләрне яңарту
 # Link text to a support page on missing or duplicate devices
@@ -123,6 +128,11 @@ datablock-copy =
     .message = Күчерелде
 datablock-print =
     .message = Бастырылды
+
+## Data collection section
+
+dc-heading = Мәгълүмат туплау һәм аны куллану
+dc-subheader = { -product-firefox-accounts } эшен яхшыртырга ярдәм итегез
 
 # DropDownAvatarMenu component
 
@@ -372,6 +382,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Хәвефсезлек
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
