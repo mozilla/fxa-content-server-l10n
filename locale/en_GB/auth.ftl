@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivate subscription
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Update billing information
 subplat-legal = Legal
 subplat-privacy = Privacy
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
+cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl")s>short survey</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Please help us improve our services by taking this short survey:
 change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 recovery code remaining
        *[other] { $numberRemaining } recovery codes remaining
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = New sign-in to { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = New sign-in to { $clientName }
-
-##
-
 newDeviceLogin-action = Manage account
 passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
@@ -186,6 +187,42 @@ recovery-subject = Reset your password
 recovery-title = Need to reset your password?
 recovery-description = Click the button within the next hour to create a new password. The request came from the following device:
 recovery-action = Create new password
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Your { $productName } subscription has been cancelled
+subscriptionAccountDeletion-title = Sorry to see you go
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = You recently deleted your { -product-firefox-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Your { $productName } subscription has been cancelled
+subscriptionCancellation-title = Sorry to see you go
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = We’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }. Your service will continue until the end of your current billing period, which is { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = You have switched to { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = You have successfully switched from { $productNameOld } to { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycle } to { $paymentAmountNew }. At that time you will also be given a one-time credit of { $paymentProrated } to reflect the lower charge for the remainder of this { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = If there is new software for you to install in order to use { $productNameNew }, you will receive a separate email with download instructions.
+subscriptionDowngrade-content-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Credit card for { $productName } expiring soon
@@ -206,6 +243,24 @@ subscriptionReactivation-content = Your billing cycle and payment will remain th
 subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
 subscriptionsPaymentExpired-title = Your credit card is about to expire
 subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = You have upgraded to { $productNameNew }
+subscriptionUpgrade-title = Thank you for upgrading!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = You have successfully upgraded from { $productNameOld } to { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycle } to { $paymentAmountNew }. At that time you will also be charged a one-time fee of { $paymentProrated } to reflect the higher charge for the remainder of this { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = If there is new software for you to install in order to use { $productNameNew }, you will receive a separate email with download instructions.
+subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 unblockCode-subject = Account authorisation code
 unblockCode-title = Is this you signing in?
 unblockCode-prompt = If yes, here is the authorisation code you need:
@@ -272,10 +327,3 @@ verifyShortCode-subject = Verification code: { $code }
 verifyShortCode-title = Is this you signing up?
 verifyShortCode-prompt = If yes, use this verification code in your registration form:
 verifyShortCode-expiry-notice = It expires in 5 minutes.
-cancellationSurvey-plaintext = Please help us improve our services by taking this short survey:
-subscriptionAccountDeletion-title = Sorry to see you go
-subscriptionCancellation-title = Sorry to see you go
-subscriptionDowngrade-content-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
-subscriptionUpgrade-title = Thank you for upgrading!
-subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
-
