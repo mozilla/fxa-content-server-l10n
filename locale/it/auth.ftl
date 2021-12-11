@@ -256,6 +256,12 @@ subscriptionUpgrade-title = Grazie per aver effettuato l’aggiornamento.
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = L’aggiornamento da { $productNameOld } a { $productNameNew } è stato effettuato correttamente.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = A partire dalla prossima fattura, il tuo pagamento per { $productPaymentCycle } sarà modificato da { $paymentAmountOld } a { $paymentAmountNew }. Contestualmente ti verrà accreditato un importo una tantum di { $paymentProrated } per riflettere la tariffa più alta per il resto di questo { $productPaymentCycle }.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Nel caso sia necessario installare software aggiuntivo per utilizzare { $productNameNew }, riceverai in un’altra email le istruzioni per scaricarlo.
 subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
