@@ -59,6 +59,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Nëse s’e ndryshuat ju, ju lutemi, fjalëkalimin tuaj që tani te { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë pyetësor të shkurtër:
 change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju lutemi, ndërroni fjalëkalimin tuaj.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +95,12 @@ lowRecoveryCodes-subject =
         [one] Edhe 1 kod rimarrjeje
        *[other] { $numberRemaining } recovery codes remaining
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Hyrje e re te { $clientName }
-
-##
-
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
@@ -186,6 +185,9 @@ recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title = Keni nvojë të ricaktoni fjalëkalimin tuaj?
 recovery-description = Klikoni mbi butonin brenda orës së ardhshme që të krijoni një fjalëkalim të ri. Kërkesa erdhi nga pajisja vijuese:
 recovery-action = Krijoni fjalëkalim të ri
+subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
+subscriptionCancellation-title = Ju shohim me keqardhje teksa ikni
+subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kartë krediti për { $productName } që skadon së shpejti
@@ -206,6 +208,12 @@ subscriptionReactivation-content = Cikli juaj i faturimeve dhe pagesa do të mbe
 subscriptionsPaymentExpired-subject = Karta e kreditit për pajtimet tuaja skadon së shpejti
 subscriptionsPaymentExpired-title = Karta juaj e kreditit është afër skadimit
 subscriptionsPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese është afër skadimit.
+subscriptionUpgrade-title = Faleminderit për përmirësimin!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Bëtë me sukses përmirësimin nga { $productNameOld } në { $productNameNew }.
+subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 unblockCode-subject = Kod autorizimi llogarie
 unblockCode-title = A jeni ju që po hyni?
 unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
@@ -272,10 +280,3 @@ verifyShortCode-subject = Kod verifikimi: { $code }
 verifyShortCode-title = A jeni ju që po regjistroheni?
 verifyShortCode-prompt = Nëse po, përdoreni këtë kod verifikimi në formularin e regjistrimit tuaj:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
-cancellationSurvey-plaintext = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë pyetësor të shkurtër:
-subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
-subscriptionCancellation-title = Ju shohim me keqardhje teksa ikni
-subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
-subscriptionUpgrade-title = Faleminderit për përmirësimin!
-subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
-
