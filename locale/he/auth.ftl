@@ -236,14 +236,7 @@ subscriptionReactivation-content = מחזור החיוב והתשלום שלך �
 subscriptionsPaymentExpired-subject = תוקף כרטיס האשראי עבור המינויים שלך יפוג בקרוב
 subscriptionsPaymentExpired-title = תוקף כרטיס האשראי שלך עומד לפוג
 subscriptionsPaymentExpired-content = תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור המינויים הבאים עומד לפוג.
-# Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = שודרגת ל־{ $productNameNew }
 subscriptionUpgrade-title = תודה ששידרגת!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = שודרגת בהצלחה מ־{ $productNameOld } ל־{ $productNameNew }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
