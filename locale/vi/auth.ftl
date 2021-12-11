@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hủy thuê bao
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Kích hoạt lại thuê bao
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Cập nhật thông tin thanh toán
 subplat-legal = Pháp lý
 subplat-privacy = Riêng tư
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Nếu bạn không thay đổi mật khẩu, vui lòng đặt lại mật khẩu của bạn ngay bây giờ tại { $resetLink }
+cancellationSurvey = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện <a data-l10n-name="cancellationSurveyUrl")s>khảo sát ngắn</a> này.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện khảo sát ngắn này:
 change-password-plaintext = Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài khoản của bạn, vui lòng thay đổi mật khẩu của bạn.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -92,15 +96,12 @@ lowRecoveryCodes-subject =
     { $numberRemaining ->
        *[other] { $numberRemaining } mã khôi phục còn lại
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Đăng nhập mới vào { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Đăng nhập mới vào { $clientName }
-
-##
-
 newDeviceLogin-action = Quản lý tài khoản
 passwordChanged-subject = Đã cập nhật mật khẩu
 passwordChanged-title = Mật khẩu đã thay đổi thành công
@@ -185,6 +186,42 @@ recovery-subject = Đặt lại mật khẩu của bạn
 recovery-title = Cần đặt lại mật khẩu của bạn?
 recovery-description = Vui lòng nhấp vào nút trong vòng một giờ để đặt mật khẩu mới. Yêu cầu này được thực hiện từ thiết bị sau:
 recovery-action = Tạo mật khẩu mới
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Thuê bao { $productName } của bạn đã bị hủy
+subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Gần đây bạn đã xóa { -product-firefox-account }. Do đó, chúng tôi đã hủy thuê bao { $productName } của bạn. Khoản thanh toán cuối cùng { $invoiceTotal } của bạn đã được thực hiện vào { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Thuê bao { $productName } của bạn đã bị hủy
+subscriptionCancellation-title = Rất tiếc vì bạn chuẩn bị ra đi
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Chúng tôi đã hủy thuê bao { $productName } của bạn. Khoản thanh toán cuối cùng của bạn { $invoiceTotal } đã được thực hiện vào { $invoiceDateOnly }. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc thời hạn thanh toán hiện tại, đó là { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Bạn đã được chuyển sang { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Bạn đã chuyển thành công từ { $productNameOld } sang { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = Bắt đầu với hóa đơn tiếp theo, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên { $productPaymentCycle } thành { $paymentAmountNew }. Vào thời điểm đó, bạn cũng sẽ được nhận tín dụng một lần là { $paymentProrated } để phản ánh khoản phí thấp hơn cho phần còn lại của khoản { $productPaymentCycle } này.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productNameNew }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
+subscriptionDowngrade-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Thẻ tín dụng cho { $productName } sắp hết hạn
@@ -205,6 +242,24 @@ subscriptionReactivation-content = Chu kỳ lập hóa đơn và thanh toán c�
 subscriptionsPaymentExpired-subject = Thẻ tín dụng cho thuê bao của bạn sắp hết hạn
 subscriptionsPaymentExpired-title = Thẻ tín dụng của bạn sắp hết hạn
 subscriptionsPaymentExpired-content = Thẻ tín dụng bạn đang sử dụng để thanh toán cho các thuê bao sau sắp hết hạn.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productNameNew }
+subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Bạn đã nâng cấp thành công từ { $productNameOld } thành { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên { $productPaymentCycle } thành { $paymentAmountNew }. Vào thời điểm đó, bạn cũng sẽ bị tính phí một lần là { $paymentProrated } để phản ánh mức phí cao hơn cho phần còn lại của { $productPaymentCycle } này.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productNameNew }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
+subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 unblockCode-subject = Mã ủy quyền tài khoản
 unblockCode-title = Đây có phải là bạn đăng nhập không?
 unblockCode-prompt = Nếu có, dưới đây là mã ủy quyền bạn cần:
@@ -271,10 +326,3 @@ verifyShortCode-subject = Mã xác minh: { $code }
 verifyShortCode-title = Đây có phải là bạn đăng nhập không?
 verifyShortCode-prompt = Nếu có, hãy sử dụng mã xác minh này trong biểu mẫu đăng ký của bạn:
 verifyShortCode-expiry-notice = Nó hết hạn sau 5 phút.
-cancellationSurvey-plaintext = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện khảo sát ngắn này:
-subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
-subscriptionCancellation-title = Rất tiếc vì bạn chuẩn bị ra đi
-subscriptionDowngrade-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
-subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-
