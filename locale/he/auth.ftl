@@ -42,6 +42,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ביטול מינוי
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = הפעלת המינוי מחדש
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = עדכון פרטי החיוב
 subplat-legal = מידע משפטי
 subplat-privacy = פרטיות
@@ -49,6 +50,12 @@ subplat-privacy = פרטיות
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = זוהי הודעת דוא״ל שנשלחה באופן אוטומטי; אם לא הוספת מכשיר חדש ל{ -product-firefox-account(case: "the") }, עליך לשנות את ססמתך באופן מיידי בכתובת { $passwordChangeLink }
 automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = אם לא החלפת את הססמה שלך, נא לאפס אותה כעת בכתובת { $resetLink }
+cancellationSurvey = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי <a data-l10n-name="cancellationSurveyUrl")s>סקר קצר</a> זה.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי סקר קצר זה:
 change-password-plaintext = אם קיים חשש  שמישהו מנסה להשיג גישה לחשבונך, עליך לאפס את הססמה שלך.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -83,15 +90,12 @@ lowRecoveryCodes-subject =
         [one] נותר קוד אחד לשחזור
        *[other] נותרו { $numberRemaining } קודים לשחזור
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = כניסה חדשה ל־{ $clientName }
-
-##
-
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
@@ -176,6 +180,12 @@ recovery-subject = איפוס ססמה
 recovery-title = רצית לאפס את הססמה שלך?
 recovery-description = יש ללחוץ על הכפתור בשעה הקרובה כדי ליצור ססמה חדשה. הבקשה הגיעה מהמכשיר הבא:
 recovery-action = יצירת ססמה חדשה
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = התשלום שלך עבור { $productName } בוטל
+subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
+subscriptionCancellation-title = עצוב לנו שבחרת לעזוב
+subscriptionDowngrade-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = תוקף כרטיס האשראי עבור { $productName } יפוג בקרוב
@@ -196,6 +206,8 @@ subscriptionReactivation-content = מחזור החיוב והתשלום שלך �
 subscriptionsPaymentExpired-subject = תוקף כרטיס האשראי עבור המינויים שלך יפוג בקרוב
 subscriptionsPaymentExpired-title = תוקף כרטיס האשראי שלך עומד לפוג
 subscriptionsPaymentExpired-content = תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור המינויים הבאים עומד לפוג.
+subscriptionUpgrade-title = תודה ששידרגת!
+subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 unblockCode-subject = קוד הרשאת חשבון
 unblockCode-title = האם התחברות זו מוכרת לך?
 unblockCode-prompt = אם כן, להלן קוד ההרשאה בו יש לך צורך:
@@ -260,10 +272,3 @@ verifyShortCode-subject = קוד אימות: { $code }
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
 verifyShortCode-prompt = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
-cancellationSurvey-plaintext = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי סקר קצר זה:
-subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
-subscriptionCancellation-title = עצוב לנו שבחרת לעזוב
-subscriptionDowngrade-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
-subscriptionUpgrade-title = תודה ששידרגת!
-subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
-
