@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowěźeś
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonement zasej aktiwěrowaś
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Płaśeńske informacije aktualizěrowaś
 subplat-legal = Pšawniske
 subplat-privacy = Priwatnosć
@@ -59,6 +60,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jolic njejsćo jo změnił, stajśo pšosym něnto swójo gronidło na { $resetLink } slědk
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:
 change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, změńśo pšosym swójo gronidło.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -95,15 +98,12 @@ lowRecoveryCodes-subject =
         [few] { $numberRemaining } wótnowjeńske kody wušej
        *[other] { $numberRemaining } wótnowjeńskich kodow wušej
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nowe pśizjawjenje pla { $clientName }
-
-##
-
 newDeviceLogin-action = Konto zastojaś
 passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
@@ -188,6 +188,9 @@ recovery-subject = Stajśo swójo gronidło slědk
 recovery-title = Musyśo swojo gronidło slědk stajiś?
 recovery-description = Klikniśo na tłocašk w běgu góźinu, aby napórał nowe gronidło. Napšašowanje pśiźo wót slědujucego rěda:
 recovery-action = Nowe gronidło napóraś
+subscriptionAccountDeletion-title = Škóda, až wótejźośo
+subscriptionCancellation-title = Škóda, až wótejźośo
+subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditowa kórta za { $productName } skóro spadnjo
@@ -208,6 +211,8 @@ subscriptionReactivation-content = Waš wótliceński cyklus a płaśenje samske
 subscriptionsPaymentExpired-subject = Kreditowa kórta za swóje abonementy skóro spadnjo
 subscriptionsPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
 subscriptionsPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, skóro spadnjo.
+subscriptionUpgrade-title = Wjeliki źěk za aktualizěrowanje!
+subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 unblockCode-subject = Awtorizěrowański kod konta
 unblockCode-title = Cośo se wy pśizjawiś?
 unblockCode-prompt = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaśo:
@@ -274,10 +279,3 @@ verifyShortCode-subject = Wobkšuśeński kod: { $code }
 verifyShortCode-title = Registrěrujośo wy?
 verifyShortCode-prompt = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
-cancellationSurvey-plaintext = Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:
-subscriptionAccountDeletion-title = Škóda, až wótejźośo
-subscriptionCancellation-title = Škóda, až wótejźośo
-subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
-subscriptionUpgrade-title = Wjeliki źěk za aktualizěrowanje!
-subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
-
