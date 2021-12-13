@@ -575,4 +575,5 @@ auth-error-114 = Probaste demasiadas veces. Intentá en { $retryAfter }.
 auth-error-138 = Sesión no verificada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
+auth-error-183 = El código de verificación no es válido o ya venció
 auth-error-1008 = La nueva contraseña debe ser diferente
