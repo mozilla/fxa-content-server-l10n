@@ -31,6 +31,7 @@ alert-bar-close-message = Emboty ñe’ẽmondo
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = Tembipurupyahu { -brand-firefox } mba’e oykeko ne r
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
 bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
@@ -359,9 +361,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Heja
 add-secondary-email-save-button = Ñongatu
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
@@ -524,6 +523,8 @@ se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ña
 se-content-note =
     Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu;
     Ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
+# Default value for the secondary email
+se-secondary-email-none = Avave
 
 ##
 
@@ -559,6 +560,7 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 auth-error-102 = Mba’ete ojeikuaa’ỹva
 auth-error-103 = Ñe’ẽñemi oiko’ỹva
+auth-error-105 = Ayvu jehechajeyrã ndoikói
 auth-error-110 = Token oiko’ỹva
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -570,4 +572,5 @@ auth-error-110 = Token oiko’ỹva
 auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138 = Tembiapo jehechapyre’ỹva
 auth-error-155 = Token TOTP ojejuhu’ỹva
+auth-error-183 = Ayvu jehechajeyrã ndoikói térã hekoru’ãma
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã

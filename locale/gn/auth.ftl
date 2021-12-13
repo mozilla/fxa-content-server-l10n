@@ -68,6 +68,7 @@ support-message = Eñemomaranduve hag̃ua, eikeva’rã { $supportUrl }-pe
 cadReminderFirst-subject = Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
+cadReminderFirst-description = Eikotevẽ mokõi embojuehe hag̃ua. Embojuehe ambue mba’e’oka { -brand-firefox } ndive tekoñemíme oreko nde rechaukaha, ñe’ẽñemi ha ambue mba’ekuaarã { -brand-firefox } peteĩcha tenda eipuruhápe { -brand-firefox }.
 cadReminderSecond-subject = Mandu’arã ipaháva: Embojuehepa Sync
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title = ¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!
