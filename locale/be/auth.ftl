@@ -2,11 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Уліковыя запісы Firefox
--product-firefox-account = Уліковы запіс Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Уліковыя запісы Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Уліковы запіс Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
 fxa-service-url = Умовы выкарыстання { -product-firefox-cloud }
 subplat-automated-email = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
@@ -19,6 +32,7 @@ subplat-privacy = Прыватнасць
 automated-email-plaintext = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
 manage-account = Кіраванне ўліковым запісам
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
 cadReminderFirst-subject = Ваш сяброўскі напамін: Як завяршыць наладжванне сiнхранiзацыi
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
@@ -26,6 +40,7 @@ cadReminderFirst-title = Вось ваш напамін пра сінхрані�
 cadReminderSecond-subject = Апошнi напамін: Завяршыце наладжванне сінхранізацыі
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-title = Апошнi напамін пра сінхранізацыю прылад!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Засталося мала кодаў аднаўлення
 codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
 codes-generate = Згенераваць коды
@@ -43,6 +58,7 @@ passwordResetAccountRecovery-title = Ваш пароль быў скінуты �
 passwordResetAccountRecovery-description = Вы паспяхова скінулі свой пароль з дапамогай ключа аднаўлення з наступнай прылады:
 passwordResetAccountRecovery-action = Стварыць новы ключ аднаўлення
 passwordResetAccountRecovery-regen-required = Вам трэба будзе згенераваць новы ключ аднаўлення.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Стварыць новы ключ аднаўлення:
 postAddAccountRecovery-subject = Ключ аднаўлення ўліковага запісу згенераваны
 postAddAccountRecovery-title = Ключ аднаўлення ўліковага запісу згенераваны
@@ -91,6 +107,7 @@ unblockCode-prompt = Калі так, вось код аўтарызацыі, я
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
 verificationReminderFirst-subject = Напамін: Скончыце стварэнне ўліковага запісу
 verificationReminderFirst-title = Сардэчна запрашаем у сям’ю { -brand-firefox }
+verificationReminderFirst-description = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго.
 verificationReminderFirst-sub-description = Пацвердзіце зараз і атрымайце тэхналогію, якая абараняе і змагаецца за вашу прыватнасць, узбройвае вас практычнымі ведамі і павагай, якой вы вартыя.
 confirm-email = Пацвердзіце электронную пошту
 verificationReminderFirst-action = Пацвердзіце электронную пошту
@@ -123,6 +140,3 @@ verifySecondaryCode-prompt = Выкарыстайце гэты код пацве
 verifySecondaryCode-expiry-notice = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля праверкі, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 verifyShortCode-title = Гэта вы рэгіструецеся?
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
-
-verificationReminderFirst-description = Некалькі дзён таму вы стварылі ўліковы запіс { -brand-firefox }, але так і не пацвердзілі яго.
-
