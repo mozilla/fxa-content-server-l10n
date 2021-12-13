@@ -187,6 +187,9 @@ recovery-subject = Redefina a sua senha
 recovery-title = Precisa redefinir a sua senha?
 recovery-description = Clique no botão em até uma hora para criar uma nova senha. A solicitação veio do seguinte dispositivo:
 recovery-action = Criar nova senha
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Sua assinatura do { $productName } foi cancelada
 subscriptionAccountDeletion-title = Lamentamos ver você partir
 subscriptionCancellation-title = Lamentamos ver você partir
 subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
