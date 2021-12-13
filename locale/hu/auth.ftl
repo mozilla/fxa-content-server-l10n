@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Előfizetés lemondása
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Előfizetés újraaktiválása
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Számlázási információk frissítése
 subplat-legal = Jogi információk
 subplat-privacy = Adatvédelem
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ha nem módosította, akkor állítsa helyre jelszavát itt: { $resetLink }
+cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl")s>rövid kérdőívet</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti az alábbi rövid kérdőívet:
 change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, kérjük változtassa meg jelszavát.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 helyreállítási kód maradt
        *[other] { $numberRemaining } helyreállítási kód maradt
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Új bejelentkezés itt: { $clientName }
-
-##
-
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
@@ -186,6 +187,12 @@ recovery-subject = Jelszó visszaállítása
 recovery-title = Helyre kell állítania a jelszavát?
 recovery-description = Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:
 recovery-action = Új jelszó létrehozása
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Lemondta a(z) { $productName } előfizetését
+subscriptionAccountDeletion-title = Sajnáljuk, hogy távozik
+subscriptionCancellation-title = Sajnáljuk, hogy távozik
+subscriptionDowngrade-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = A(z) { $productName } termékhez tartozó bankkártya hamarosan lejár
@@ -206,6 +213,8 @@ subscriptionReactivation-content = A számlázási ciklusa és fizetése változ
 subscriptionsPaymentExpired-subject = Az előfizetéseihez tartozó bankkártya hamarosan lejár
 subscriptionsPaymentExpired-title = A bankkártyája hamarosan lejár
 subscriptionsPaymentExpired-content = A következő előfizetésekhez használt bankkártyája hamarosan lejár.
+subscriptionUpgrade-title = Köszönjük, hogy magasabb csomagra frissített!
+subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 unblockCode-subject = Fiók engedélyezési kód
 unblockCode-title = Ez az ön bejelentkezése?
 unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szüksége:
@@ -272,10 +281,3 @@ verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
 verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
-cancellationSurvey-plaintext = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti az alábbi rövid kérdőívet:
-subscriptionAccountDeletion-title = Sajnáljuk, hogy távozik
-subscriptionCancellation-title = Sajnáljuk, hogy távozik
-subscriptionDowngrade-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
-subscriptionUpgrade-title = Köszönjük, hogy magasabb csomagra frissített!
-subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
-
