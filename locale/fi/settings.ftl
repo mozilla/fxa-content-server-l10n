@@ -331,9 +331,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Peruuta
 add-secondary-email-save-button = Tallenna
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Vaihe 2/2
@@ -528,6 +525,7 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 auth-error-102 = Tuntematon tili
 auth-error-103 = Virheellinen salasana
+auth-error-105 = Virheellinen vahvistuskoodi
 auth-error-110 = Virheellinen poletti
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -538,5 +536,7 @@ auth-error-110 = Virheellinen poletti
 #                           (for example: "in 15 minutes")
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-138 = Vahvistamaton istunto
+auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
+auth-error-183 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta

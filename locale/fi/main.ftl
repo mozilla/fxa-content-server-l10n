@@ -372,11 +372,9 @@ payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
 new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
 new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
-new-user-step-2 = 2. Valitse maksutapa
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Vaadittu
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Kirjoita sähköpostiosoitteesi
@@ -391,3 +389,7 @@ new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
 manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?
 manage-pocket-body = Hallinnoi sitä <a>napsauttamalla tästä</a>.
+payment-method-header = Valitse maksutapa
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Valitse maksutapa
+payment-method-required = Pakollinen
