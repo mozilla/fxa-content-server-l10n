@@ -462,11 +462,9 @@ payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last } kóń
 
 new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
 new-user-step-1 = 1. Załožćo konto { -brand-name-firefox }
-new-user-step-2 = 2. Wubjeŕśo swóju płaśeńsku mentodu
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Trjebny
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Zapódajśo swóju e-mailowu adresu
@@ -481,3 +479,7 @@ new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
 manage-pocket-title = Pytaśo za premiumowym abonementom { -brand-name-pocket }?
 manage-pocket-body = <a>Klikniśo how</a>, aby zastojał.
+payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Wubjeŕśo swóju płaśeńsku metodu
+payment-method-required = Trjebny

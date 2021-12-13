@@ -31,6 +31,7 @@ alert-bar-close-message = Powěźeńku zacyniś
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za waš
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
 bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefo
 connect-another-find-fx-mobile =
     Namakajśo { -brand-firefox } w { -google-play } a { -app-store } abo
     <br /><linkExternal>sćelśo ześěgnjeński wótkaz na swój rěd.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Ześěgniśo { -brand-firefox } wót { -google-play }
+connect-another-app-store-image =
+    .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ##
 
@@ -359,9 +367,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Pśetergnuś
 add-secondary-email-save-button = Składowaś
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Kšac 2 z 2
@@ -518,6 +523,8 @@ se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se 
 se-content-note =
     Pokazka: Sekundarna e-mailowa adresa waše informacije njewótnowijo – trjebaśo
     <a>wótnowjeński kluc</a> za to.
+# Default value for the secondary email
+se-secondary-email-none = Žedna
 
 ##
 
@@ -553,6 +560,7 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
+auth-error-105 = Njepłaśiwy wobkšuśeński kode
 auth-error-110 = Njepłaśiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -563,5 +571,7 @@ auth-error-110 = Njepłaśiwy token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
 auth-error-138 = Njewobkšuśone pósejźenje
+auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
+auth-error-183 = Njepłaśiwy abo spadnjony wobkšuśeński kod
 auth-error-1008 = Wašo nowe gronidło musy druge byś
