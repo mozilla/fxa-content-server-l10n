@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar assinatura
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Atualizar informações de cobrança
 subplat-legal = Jurídico
 subplat-privacy = Privacidade
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se você não mudou sua senha, redefina a senha agora em { $resetLink }
+cancellationSurvey = Ajude-nos a melhorar nossos serviços participando desta <a data-l10n-name="cancellationSurveyUrl")s>breve pesquisa</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ajude-nos a melhorar nossos serviços participando desta breve pesquisa:
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 código de recuperação restante
        *[other] { $numberRemaining } códigos de recuperação restantes
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Novo acesso no { $clientName }
-
-##
-
 newDeviceLogin-action = Gerenciar conta
 passwordChanged-subject = Senha atualizada
 passwordChanged-title = Senha alterada com sucesso
@@ -186,6 +187,9 @@ recovery-subject = Redefina a sua senha
 recovery-title = Precisa redefinir a sua senha?
 recovery-description = Clique no botão em até uma hora para criar uma nova senha. A solicitação veio do seguinte dispositivo:
 recovery-action = Criar nova senha
+subscriptionAccountDeletion-title = Lamentamos ver você partir
+subscriptionCancellation-title = Lamentamos ver você partir
+subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = O cartão de crédito de { $productName } expira em breve
@@ -206,6 +210,8 @@ subscriptionReactivation-content = Seu ciclo de faturamento e pagamento permanec
 subscriptionsPaymentExpired-subject = A validade do cartão de crédito de suas assinaturas expirará em breve
 subscriptionsPaymentExpired-title = A validade do seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir está prestes a expirar.
+subscriptionUpgrade-title = Obrigado por atualizar!
+subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = Foi você que tentou entrar na sua conta?
 unblockCode-prompt = Se foi você, use este código de verificação:
@@ -272,10 +278,3 @@ verifyShortCode-subject = Código de verificação: { $code }
 verifyShortCode-title = É você mesmo se cadastrando?
 verifyShortCode-prompt = Caso afirmativo, use este código de verificação em seu formulário de cadastro:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
-cancellationSurvey-plaintext = Ajude-nos a melhorar nossos serviços participando desta breve pesquisa:
-subscriptionAccountDeletion-title = Lamentamos ver você partir
-subscriptionCancellation-title = Lamentamos ver você partir
-subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
-subscriptionUpgrade-title = Obrigado por atualizar!
-subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
-
