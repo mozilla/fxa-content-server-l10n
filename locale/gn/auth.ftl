@@ -47,6 +47,8 @@ automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñ
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Neremoambuéiramo, embojevyjey ne ñe’ẽñemi ko’ág̃a { $resetLink } ndive
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’epururã rojapóvo ko ñeporandu:
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -78,15 +80,12 @@ lowRecoveryCodes-subject =
         [one] Opyta 1 ayvu jeguerujeyrã
        *[other] { $numberRemaining } opyta ayvu jeguerujeyrã{ $numberRemaining } códigos de recuperación{ $numberRemaining } códigos de recuperación
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Tembiapo ñepyrũ pyahu { $clientName }-pe
-
-##
-
 newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
@@ -94,7 +93,7 @@ passwordChanged-description = Oñemoambue hekoitépe nde { -product-firefox-acco
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
 passwordChangeRequired-suspicious-activity = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
-passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -product-firefox-account } ha eipykúi pe tape ehechátava rupi.
+passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -product-firefox-account } ha tereho pe tape ehechátavape.
 passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eipurúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
 passwordChangeRequired-signoff = Maitei,
 passwordChangeRequired-signoff-name = Ko { -product-firefox-accounts } atygua
@@ -171,6 +170,9 @@ recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
 recovery-description = Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:
 recovery-action = Emoheñói ñe’ẽñemi pyahu
+subscriptionAccountDeletion-title = Ambyasy eho haguére
+subscriptionCancellation-title = Ambyasy eho haguére
+subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Nde kuatia’atã ñemurã { $productName } ndokovéitama
@@ -191,6 +193,8 @@ subscriptionReactivation-content = Nde ñemuhague ha jehepyme’ẽ opytáta pé
 subscriptionsPaymentExpired-subject = Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama
 subscriptionsPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboheraguapy pegua ndoikovéi potaitéma.
+subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
+subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
 unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
@@ -201,7 +205,7 @@ unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
 verificationReminderFirst-subject = Mandu’arã: Emoheñoimba ne mba’ete
 verificationReminderFirst-title = Eg̃uahẽporãite { -brand-firefox } mba’eteépe
-verificationReminderFirst-description = Nda’areiete emoheñói hague mba’ete { -product-firefox-account }-pe, hákatu neremoneĩri.
+verificationReminderFirst-description = Nda’areiete emoheñói hague { -product-firefox-account }, hákatu neremoneĩri.
 verificationReminderFirst-sub-description = Emoneĩ ko’ág̃a ha eguerekóta tembipurupyahu omo’ã ha oñorairõva ne rekorosãrãre, ome’ẽséva marandu iporãva ha opamba’e eikotevẽva.
 confirm-email = Ñandutiveve ñemoneĩ
 confirm-email-plaintext = { confirm-email }:
@@ -257,12 +261,3 @@ verifyShortCode-subject = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
 verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
-cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’epururã rojapóvo ko ñeporandu:
-passwordChangeRequired-sign-in = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’epuru eipuruhápe nde { -brand-firefox } mba’ete ha tereho pe tape ehechátavape.
-subscriptionAccountDeletion-title = Ambyasy eho haguére
-subscriptionCancellation-title = Ambyasy eho haguére
-subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
-subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
-subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
-verificationReminderFirst-description = Nda’areiete emoheñói hague mba’ete { -brand-firefox }-pe, hákatu neremoneĩri.
-
