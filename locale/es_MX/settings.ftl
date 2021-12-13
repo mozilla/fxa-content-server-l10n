@@ -81,6 +81,12 @@ connect-another-fx-mobile = Obtén { -brand-firefox } en tu dispositivo móvil o
 connect-another-find-fx-mobile =
     Busca { -brand-firefox } en { -google-play } y { -app-store } o
     <br /><linkExternal>envía un enlace de descarga a tu dispositivo.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Descargar { -brand-firefox } en { -google-play }
+connect-another-app-store-image =
+    .title = Descargar { -brand-firefox } en { -app-store }
 
 ##
 
