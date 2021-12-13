@@ -31,6 +31,7 @@ alert-bar-close-message = Cerrar mensaje
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = La tecnología de { -brand-firefox } lucha por tu pri
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móviles
 bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
@@ -359,9 +361,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Paso 2 de 2
@@ -522,6 +521,8 @@ se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo prin
 se-content-note =
     Nota: un correo electrónico secundario no restaurará tu información — 
     necesitarás una <a>clave de recuperación</a> para eso.
+# Default value for the secondary email
+se-secondary-email-none = Ninguno
 
 ##
 
@@ -565,5 +566,6 @@ auth-error-110 = Token inválido
 #                           (for example: "in 15 minutes")
 auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo en { $retryAfter }.
 auth-error-138 = Sesión no verificada
+auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 auth-error-1008 = Tu nueva contraseña debe ser diferente
