@@ -31,6 +31,7 @@ alert-bar-close-message = Cerrar mensaje
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } es tecnología que lucha por tu pr
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para móviles
 bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Obtener { -brand-firefox } en tu celular o tablet
 connect-another-find-fx-mobile =
     Busca { -brand-firefox } en { -google-play } y { -app-store } o
     <br /><linkExternal>envía un enlace de descarga a tu dispositivo. /linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Descarga { -brand-firefox } en { -google-play }
+connect-another-app-store-image =
+    .title = Descarga { -brand-firefox } en { -app-store }
 
 ##
 
@@ -357,9 +365,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Paso 2 de 2
@@ -517,6 +522,8 @@ se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo prin
 se-content-note =
     Nota: un correo secundario no restaurará tu información — 
     necesitarás una <a>clave de recuperación</a> para eso.
+# Default value for the secondary email
+se-secondary-email-none = Ninguno
 
 ##
 
@@ -550,6 +557,7 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
+auth-error-105 = Código de verificación no válido
 auth-error-110 = Llave inválida
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -560,5 +568,7 @@ auth-error-110 = Llave inválida
 #                           (for example: "in 15 minutes")
 auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo en { $retryAfter }.
 auth-error-138 = Sesión no verificada
+auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+auth-error-183 = Código de conexión inválido o expirado
 auth-error-1008 = Tu nueva conraseña debe ser diferente
