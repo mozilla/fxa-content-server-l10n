@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-12-13 19:43+0000\n"
+"PO-Revision-Date: 2021-12-13 19:45+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1533,7 +1533,7 @@ msgstr "Уліковыя запісы Firefox"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Галоўная старонка ўліковага запісу"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1549,7 +1549,7 @@ msgstr "Якое ў вас пытанне да нас?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Калі ласка, абярыце што-небудзь"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1565,7 +1565,7 @@ msgstr "Праблемы з уліковым запісам"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Тэхнічныя праблемы"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
