@@ -35,6 +35,7 @@ alert-bar-close-message = סגירת הודעה
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -72,6 +73,7 @@ bento-menu-firefox-title = ‏{ -brand-firefox } הוא טכנולוגיה שנ�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
 bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
 bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
@@ -82,6 +84,12 @@ connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחש
 connect-another-find-fx-mobile =
     ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store } או
     <br /><linkExternal>לשלוח קישור להורדה למכשיר שלך.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = הורדת { -brand-firefox } מה־{ -google-play }
+connect-another-app-store-image =
+    .title = הורדת { -brand-firefox } מה־{ -app-store }
 
 ##
 
@@ -344,9 +352,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = ביטול
 add-secondary-email-save-button = שמירה
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = שלב 2 מתוך 2
@@ -494,6 +499,8 @@ se-resend-code = נדרש אימות. ניתן <button>לשלוח מחדש את 
 se-make-primary = הפיכה לכתובת ראשית
 se-default-content = קבלת גישה לחשבון שלך אם אין באפשרותך להתחבר לדוא״ל הראשי שלך.
 se-content-note = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור</a> לשם כך.
+# Default value for the secondary email
+se-secondary-email-none = ללא
 
 ##
 
@@ -523,7 +530,10 @@ tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
 auth-error-102 = חשבון לא ידוע
 auth-error-103 = ססמה שגויה
+auth-error-105 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
 auth-error-138 = הפעלה בלתי מאומתת
+auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
+auth-error-183 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
