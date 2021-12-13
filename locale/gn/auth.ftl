@@ -211,6 +211,10 @@ subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepym
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Embohekopyahúma { $productNameNew }-pe
 subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
