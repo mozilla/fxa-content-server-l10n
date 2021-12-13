@@ -81,6 +81,12 @@ connect-another-fx-mobile = Installa { -brand-firefox } sur mobile o tabletta
 connect-another-find-fx-mobile =
     Trova { -brand-firefox } in { -google-play } e { -app-store } o
     <br /><linkExternal>invia un ligamine de discargamento a tu apparato.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Descargar { -brand-firefox } de{ -google-play }
+connect-another-app-store-image =
+    .title = Descargar { -brand-firefox } de { -app-store }
 
 ##
 

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-12-13 20:40+0000\n"
+"PO-Revision-Date: 2021-12-13 20:44+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1932,7 +1932,7 @@ msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Inscribe te a nove contos sin toccar tu adresse e-mail."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
