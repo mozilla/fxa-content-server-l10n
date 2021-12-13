@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-09-05 20:38+0000\n"
+"POT-Creation-Date: 2021-12-09 22:07+0000\n"
+"PO-Revision-Date: 2021-11-15 22:24+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -1052,7 +1052,7 @@ msgstr "Inserir código de confirmação"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Continuar para o <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1297,7 +1297,7 @@ msgstr "Sucesso"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Está agora pronto para utilizar o <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1391,6 +1391,12 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Ao continuar, concorda com:<br />\n"
+"              Os <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">termos do serviço</a> e a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">informação de privacidade</a> "
+"do Pocket<br />\n"
+"              Os <a id=\"fxa-tos\" href=\"/legal/terms\">termos do serviço</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">informação de privacidade</a> do Firefox \n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1477,6 +1483,12 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ao continuar, concorda com:<br />\n"
+"            Os <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">termos do serviço</a> e a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">informação de privacidade</a> do "
+"Pocket<br />\n"
+"            Os <a id=\"fxa-tos\" href=\"/legal/terms\">termos do serviço</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">informação de privacidade</a> do Firefox\n"
+"          "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
@@ -1905,40 +1917,32 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Sincronize os seus marcadores, palavras-passe e muito mais, em qualquer dispositivo."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Aceda com segurança e em qualquer lugar às palavras-passe guardadas no Firefox &mdash; mesmo fora do navegador."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Fique de olho nas violações de dados."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "Uma VPN do pioneiro confiável em privacidade na Internet."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
-msgid "See all"
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr "Guarde e descubra as melhores histórias da Internet."
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
 msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
+msgid "See all"
+msgstr "Ver tudo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2035,6 +2039,18 @@ msgstr "Emparelhar utilizando uma aplicação"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação do Firefox."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Aceda com segurança e em qualquer lugar às palavras-passe guardadas no Firefox &mdash; mesmo fora do navegador."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Fique de olho nas violações de dados."
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
