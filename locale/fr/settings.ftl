@@ -351,9 +351,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Annuler
 add-secondary-email-save-button = Enregistrer
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Étape 2 sur 2
@@ -456,7 +453,7 @@ switch-is-off = désactivé
 row-defaults-action-add = Ajouter
 row-defaults-action-change = Modifier
 row-defaults-action-disable = Désactiver
-row-defaults-status = Aucun·e
+row-defaults-status = Aucun
 
 ## Recovery key sub-section on main Settings page
 
@@ -511,6 +508,8 @@ se-default-content = Accédez à votre compte si vous ne pouvez pas vous connect
 se-content-note =
     Remarque : une adresse secondaire ne permettra pas de restaurer vos informations — vous
     aurez besoin d’une <a>clé de récupération</a> pour cela.
+# Default value for the secondary email
+se-secondary-email-none = Aucune
 
 ##
 
