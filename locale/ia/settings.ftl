@@ -31,6 +31,7 @@ alert-bar-close-message = Clauder message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } es technologia que lucta pro tu vi
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
 bento-menu-made-by-mozilla = Producite per{ -brand-mozilla }
@@ -353,9 +355,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancellar
 add-secondary-email-save-button = Salvar
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passo 2 de 2
@@ -516,6 +515,8 @@ se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
 se-content-note =
     Nota: un email secundari non restaurara tu informationes: tu
     besoniara de un <a>clave de recuperation</a> pro isto.
+# Default value for the secondary email
+se-secondary-email-none = Nihil
 
 ##
 
@@ -549,6 +550,7 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
+auth-error-105 = Codice de verification invalide
 auth-error-110 = Token invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -559,5 +561,7 @@ auth-error-110 = Token invalide
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-138 = Session non verificate
+auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
+auth-error-183 = Codice de verification invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
