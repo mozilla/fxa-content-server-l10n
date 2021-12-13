@@ -31,6 +31,7 @@ alert-bar-close-message = Nachricht schließen
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } ist eine Technologie, die für Ihr
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser für Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser für Mobilgeräte
 bento-menu-made-by-mozilla = Entwickelt von { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Holen Sie sich { -brand-firefox } auf Ihr Mobilgerä
 connect-another-find-fx-mobile =
     Finden Sie { -brand-firefox } im { -google-play } und im { -app-store } oder
     <br /><linkExternal>senden Sie einen Download-Link an Ihr Gerät.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Laden Sie { -brand-firefox } auf { -google-play } herunter
+connect-another-app-store-image =
+    .title = Laden Sie { -brand-firefox } im { -app-store } herunter
 
 ##
 
@@ -357,9 +365,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Abbrechen
 add-secondary-email-save-button = Speichern
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Schritt 2 von 2
@@ -518,6 +523,8 @@ se-default-content = Greifen Sie auf Ihr Konto zu, wenn Sie sich nicht bei Ihrer
 se-content-note =
     Hinweis: Eine Zweit-E-Mail-Adresse stellt Ihrer Daten nicht wieder her –
     dazu benötigen Sie einen <a>Wiederherstellungsschlüssel</a>.
+# Default value for the secondary email
+se-secondary-email-none = Keine
 
 ##
 
@@ -553,6 +560,7 @@ tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 
 auth-error-102 = Unbekanntes Konto
 auth-error-103 = Ungültiges Passwort
+auth-error-105 = Ungültiger Verifizierungscode
 auth-error-110 = Ungültiger Schlüssel
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -563,5 +571,7 @@ auth-error-110 = Ungültiger Schlüssel
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es nach { $retryAfter } erneut.
 auth-error-138 = Nicht verifizierte Sitzung
+auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
 auth-error-155 = TOTP-Token nicht gefunden
+auth-error-183 = Ungültiger oder abgelaufener Anmeldungs-Verifizierungscode
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
