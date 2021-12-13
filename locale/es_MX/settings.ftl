@@ -556,6 +556,7 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
+auth-error-105 = Código de verificación inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -568,4 +569,5 @@ auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo en { $retry
 auth-error-138 = Sesión no verificada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+auth-error-183 = Código de verificación no válido o caducado
 auth-error-1008 = Tu nueva contraseña debe ser diferente
