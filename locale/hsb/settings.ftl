@@ -31,6 +31,7 @@ alert-bar-close-message = Zdźělenku začinić
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Wobhladowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobhladowak { -brand-firefox } za mobilne graty
 bento-menu-made-by-mozilla = Wot { -brand-mozilla } wuwity
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telef
 connect-another-find-fx-mobile =
     Namakajće { -brand-firefox } w { -google-play } a { -app-store } abo
     <br /><linkExternal>sćelće sćehnjenski wotkaz na swój grat.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Sćehńće { -brand-firefox } wot { -google-play }
+connect-another-app-store-image =
+    .title = Sćehńće { -brand-firefox } wot { -app-store }
 
 ##
 
@@ -359,9 +367,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Přetorhnyć
 add-secondary-email-save-button = Składować
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
@@ -520,6 +525,8 @@ se-default-content = Mějće přistup k swojemu kontu, jeli njemóžeće so pola
 se-content-note =
     Pokazka: Sekundarna e-mejlowa adresa waše informacije njewobnowi – trjebaće
     <a>wobnowjenski kluč</a> za to.
+# Default value for the secondary email
+se-secondary-email-none = Žana
 
 ##
 
@@ -555,6 +562,7 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopačne hesło
+auth-error-105 = Njepłaćiwy wobkrućenski kod
 auth-error-110 = Njepłaćiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -565,5 +573,7 @@ auth-error-110 = Njepłaćiwy token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
 auth-error-138 = Njewobkrućene posedźenje
+auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
+auth-error-183 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
