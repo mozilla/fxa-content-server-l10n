@@ -180,3 +180,12 @@ verifySecondaryCode-prompt = 인증 코드 사용:
 verifySecondaryCode-expiry-notice = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
 verifyShortCode-title = 가입 하신 게 맞나요?
 verifyShortCode-expiry-notice = 5분 후에 만료됩니다.
+cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오.
+passwordChangeRequired-sign-in = { -brand-firefox } 계정을 사용하는 모든 기기 또는 서비스에 다시 로그인하고 제시된 단계를 따라주세요.
+subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
+subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
+subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
+subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
+subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
+verificationReminderFirst-description = 며칠 전에 { -brand-firefox } 계정을 만들었지만 아직 확인하지 않았습니다.
+

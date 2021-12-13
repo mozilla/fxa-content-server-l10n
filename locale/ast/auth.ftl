@@ -64,3 +64,7 @@ verifyLoginCode-prompt = Si ye asina, equí ta’l códigu de verificación:
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
 
+cancellationSurvey-plaintext = Ayúdanos a ameyorar los nuesos servicios completando esta encuesta:
+subscriptionUpgrade-title = ¡Gracies por anovar!
+verificationReminderFirst-description = Hai unos díes creesti una cuenta de { -brand-firefox } mas enxamás la confirmesti.
+

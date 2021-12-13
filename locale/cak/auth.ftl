@@ -130,3 +130,12 @@ verifySecondaryCode-expiry-notice = Xtik’is pa 5 ch‘utaq ramaj. Toq xtinik'�
 verifyShortCode-title = ¿La ja rat ri xutz’ib‘aj rub'i'?
 verifyShortCode-expiry-notice = Xtik’is ruq‘ijul pa 5 ch'utiramaj.
 
+cancellationSurvey-plaintext = Kojato’ richin niqutzilaj ri qasamaj rik‘in runojiaxik re ko'öl cholwuj:
+passwordChangeRequired-sign-in = Tatikirisaj moloj pa xab’achike okisab‘äl o samaj akuchi' nawokisaj ri rub'i' ataqoya'l richin { -brand-firefox } chuqa' tawojqaj ri ya'on rutzijol.
+subscriptionAccountDeletion-title = Yojb’ison ruma yab‘e
+subscriptionCancellation-title = Yojb’ison ruma yab‘e
+subscriptionDowngrade-content-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
+subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
+subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
+verificationReminderFirst-description = Jujun kan q’ij xatz‘ük jun rub'i' ataqoya'l richin { -brand-firefox }, xa xe chi man xajikib'a' ta.
+

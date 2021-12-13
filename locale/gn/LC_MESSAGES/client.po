@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-11-22 11:02+0000\n"
+"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"PO-Revision-Date: 2021-12-10 13:53+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1053,7 +1053,7 @@ msgstr "Emoinge ayvu jehechajeyrã"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Epyta <div class=\"graphic graphic-client-pocket\">Pocket</div> ndive"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1298,7 +1298,7 @@ msgstr "Oĩporã"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr ""
+msgstr "Reiméma reipuru hag̃uáicha <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1916,7 +1916,7 @@ msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "Eñongatu ha ehecha tembiasakue iporãva ñanduti pegua."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"

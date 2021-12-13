@@ -773,11 +773,11 @@ msgstr "קיבלת הודעת דוא״ל זו מכיוון שלכתובת %(emai
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "קיבלת את הודעת הדוא״ל הזאת מכיוון שלכתובת %(email)s יש חשבון Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "קיבלת את הודעת הדוא״ל הזאת מכיוון שלכתובת %(email)s יש חשבון Firefox ונרשמת כמינוי למגוון מוצרים."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."

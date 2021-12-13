@@ -10,6 +10,14 @@ project-brand = Firefox Хисап язмалары
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Хисап язмалары
 
@@ -26,6 +34,8 @@ payment-error-retry-button = Янәдән тырышып карау
 payment-error-manage-subscription-button = Минем язылу белән идарә итү
 currency-currency-mismatch = Гафу. Валюталарны алмаштыра алмыйсыз.
 no-subscription-change = Гафу. Язылу планыгызны үзгәртә алмыйсыз.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Сез инде { $mobileAppStore } аша язылгансыз.
 
 ##  $productName (String) - The name of the subscribed product.
 
@@ -48,6 +58,7 @@ subscription-success-title = Язылуны раслау
 subscription-processing-title = Язылуны раслау…
 subscription-error-title = Язылуны раслау хатасы…
 subscription-noplanchange-title = Абунә планындагы мондый үзгәреш мөмкин түгел
+subscription-iapsubscribed-title = Инде язылган
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,6 +102,7 @@ product-no-such-plan = Әлеге продукт өчен андый план ю
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } һәм { -brand-name-paypal } куллана.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-ның хосусыйлык сәясәте</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-ның хосусыйлык сәясәте</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-paypal } куллана.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } хосусыйлык сәясәте</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } түләүләрне хәвефсез эшкәртү өчен { -brand-name-stripe } куллана.
@@ -209,6 +221,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-expires-on = Вакыты чыга: { $date }
 
 ##
 
@@ -235,6 +248,12 @@ sub-item-missing-msg = Зинһар соңрак тырышып карагыз.
 sub-item-no-such-plan = Әлеге язылу өчен андый план юк.
 sub-item-cancel-sub = Язылудан баш тарту
 sub-item-stay-sub = Язылуда калу
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Кушымта эчендә сатып алу
+sub-iap-item-apple-purchase = { -brand-name-apple }: Кушымта эчендә сатып алу
+sub-iap-item-manage-button = Идарә итү
 account-activated = <userEl/>, хисабыгыз активлаштырылды
 
 ## subscription route index
@@ -251,6 +270,7 @@ sub-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
 sub-billing-update-success = Түләү турындагы мәгълүматларыгызны яңарту уңышлы узды
 sub-route-payment-modal-heading = Яраксыз хисап бирү мәгълүматы
+sub-route-missing-billing-agreement-payment-alert = Яраксыз түләү мәгълүматы; хисабыгызга бәйле бер проблема бар. <div>Хәл итү</div>
 pay-update-manage-btn = Идарә итү
 
 ## subscription create
@@ -323,13 +343,20 @@ payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамлан�
 new-user-sign-in-link = { -brand-name-firefox } хисабыгыз бармы инде? <a>Керү</a>
 new-user-step-1 = 1. { -brand-name-firefox } хисабын булдырыгыз
 new-user-step-2 = 2. Түләү ысулын сайлагыз
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-required-payment-consent = Кирәкле
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Эл. почтагызны кертегез
 new-user-confirm-email =
     .label = Эл. почтагызны раслагыз
+new-user-subscribe-product-updates = Мин { -brand-name-firefox } җибәргән яңалыклардан хәбәрдар булырга телим.
 new-user-email-validate = Эл. почта адресы яраклы түгел
 new-user-email-validate-confirm = Эл. почта адреслары бер-берсенә туры килми
 new-user-already-has-account-sign-in = Сезнең хисабыгыз бар инде. <a>Керү</a>
 new-user-card-title = Кредит картагызның язуларын кертегез
 new-user-submit = Хәзер үк язылу
+manage-pocket-title = { -brand-name-pocket } премиум абунәгезне эзлисезме?
+manage-pocket-body = Аның белән идарә итү өчен <a>монда басыгыз</a>.

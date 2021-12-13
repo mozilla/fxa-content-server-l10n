@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowědźić
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonement zaso aktiwizować
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Płaćenske informacije aktualizować
 subplat-legal = Prawniske
 subplat-privacy = Priwatnosć
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nětko swoje hesło na { $resetLink } wróćo
+cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl")s>krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby polěpšić:
 change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup na waše konto dóstać, prošu změńće swoje hesło.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -95,15 +99,12 @@ lowRecoveryCodes-subject =
         [few] { $numberRemaining } wobnowjenske kody wyše
        *[other] { $numberRemaining } wobnowjenskich kodow wyše
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nowe přizjewjenje pola { $clientName }
-
-##
-
 newDeviceLogin-action = Konto rjadować
 passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
@@ -188,6 +189,42 @@ recovery-subject = Stajće swoje hesło wróćo
 recovery-title = Dyrbiće swoje hesło wróćo stajić?
 recovery-description = Klikńće na tłóčatko wob hodźinu, zo byšće nowe hesło wutworił. Naprašowanje přińdźe wot slědowaceho grata:
 recovery-action = Nowe hesło wutworić
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Waš abonement { $productName } je so wotskazał
+subscriptionAccountDeletion-title = Škoda, zo woteńdźeće
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Sće njedawno swoje konto { -product-firefox-account } zhašał. Tohodla smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } zapłaćiło.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Waš abonement { $productName } je so wotskazał
+subscriptionCancellation-title = Škoda, zo woteńdźeće
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so { $invoiceDateOnly } zapłaćiło. Waša słužba hač do kónca wašeje aktualneje wotličenskeje doby dale dźe, tuž do { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Sće k { $productNameNew } přešoł
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Sće wuspěšnje wot { $productNameOld } do { $productNameNew } přeměnił.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = Započinajo z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycle } do { $paymentAmountNew } změni. Potom tež jónkróćny dobropis { $paymentProrated } dóstanjeće, zo by so niši popłatk za zbytk { $productPaymentCycle } wotbłyšćował.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Jeli dyrbiće nowu softwaru instalować, zo byšće { $productNameNew }s wužiwał, dóstanjeće separatnu mejlku ze sćehnjenskimi instrukcijemi.
+subscriptionDowngrade-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditna karta za { $productName } bórze spadnje
@@ -208,6 +245,24 @@ subscriptionReactivation-content = Waš wotličenski cyklus a płaćenje samsnej
 subscriptionsPaymentExpired-subject = Kreditna karta za swoje abonementy bórze spadnje
 subscriptionsPaymentExpired-title = Waša kreditna karta bórze spadnje
 subscriptionsPaymentExpired-content = Kreditna karta, z kotrejž płaćenja za slědowace abonementy přewjedźeće, bórze spadnje.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Sće na { $productNameNew } zaktualizował
+subscriptionUpgrade-title = Wulki dźak za aktualizowanje!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Sće wuspěšnje wot { $productNameOld } na { $productNameNew } aktualizował.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Započinajo z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycle } do { $paymentAmountNew } změni. Potom dyrbiće tež jónkróćny popłatk { $paymentProrated } płaćić, zo by so wyši popłatk za zbytk { $productPaymentCycle } wotbłyšćował.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Jeli dyrbiće nowu softwaru instalować, zo byšće { $productNameNew }s wužiwał, dóstanjeće separatnu mejlku ze sćehnjenskimi instrukcijemi.
+subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 unblockCode-subject = Kod kontoweje awtorizacije
 unblockCode-title = Chceće so wy přizjewić?
 unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:

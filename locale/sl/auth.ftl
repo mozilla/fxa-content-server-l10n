@@ -61,6 +61,7 @@ subplat-terms-policy = Pogoji in pravila odpovedi
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Prekliči naročnino
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Posodobi podatke za račun
 subplat-legal = Pravne informacije
 subplat-privacy = Zasebnost
@@ -73,6 +74,12 @@ automated-email =
     To sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni treba storiti ničesar.
     Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 automated-email-plaintext = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Če ga niste spremenili vi, nemudoma ponastavite geslo na { $resetLink }
+cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl")s>kratko anketo</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Pomagajte nam izboljšati naše storitve, tako da izpolnite to kratko anketo.
 change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -106,15 +113,12 @@ lowRecoveryCodes-subject =
         [few] { $numberRemaining } preostale obnovitvene kode
        *[other] { $numberRemaining } preostalih obnovitvenih kod
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava v { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nova prijava v { $clientName }
-
-##
-
 newDeviceLogin-action = Upravljanje računa
 passwordChanged-subject = Geslo posodobljeno
 passwordChanged-title = Geslo uspešno spremenjeno
@@ -165,6 +169,7 @@ postNewRecoveryCodes-description = Uspešno ste ustvarili nove kode za obnovitev
 postNewRecoveryCodes-action = Upravljanje računa
 postRemoveAccountRecovery-subject = Obnovitveni ključ za račun odstranjen
 postRemoveAccountRecovery-title = Obnovitveni ključ za račun odstranjen
+postRemoveAccountRecovery-description = Uspešno ste odstranili obnovitveni ključ za svoj { -product-firefox-account } z uporabo naslednje naprave:
 postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveAccountRecovery-invalid = Tega obnovitvenega ključa ne morete več uporabiti za obnovitev svojega računa.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
@@ -196,8 +201,35 @@ recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
 recovery-description = Kliknite gumb v naslednji uri, da ustvarite novo geslo. Zahteva je bila prejeta z naslednje naprave:
 recovery-action = Ustvarite novo geslo
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Vaša naročnina za { $productName } je preklicana
+subscriptionAccountDeletion-title = Žal nam je, ker odhajate
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Pred kratkim ste izbrisali svoj { -product-firefox-account }. Zaradi tega smo preklicali vašo naročnino za { $productName }. Vaše zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Vaša naročnina za { $productName } je preklicana
+subscriptionCancellation-title = Žal nam je, ker odhajate
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Preklicali smo vašo naročnino za { $productName }. Zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }. Storitev se bo nadaljevala do konca trenutnega obračunskega obdobja, to je { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Preklopili ste na { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Uspešno ste preklopili z { $productNameOld } na { $productNameNew }.
 subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
+subscriptionUpgrade-title = Hvala za nadgradnjo!
 unblockCode-subject = Overitvena koda računa
 unblockCode-title = Se prijavljate vi?
 unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:

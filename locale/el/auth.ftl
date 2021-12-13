@@ -72,6 +72,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ακύρωση συνδρομής
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Επανενεργοποίηση συνδρομής
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
 subplat-legal = Νομικά
 subplat-privacy = Απόρρητο
@@ -93,6 +94,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:
 change-password-plaintext = Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -127,15 +130,12 @@ lowRecoveryCodes-subject =
         [one] Απομένει 1 κωδικός ανάκτησης
        *[other] Απομένουν { $numberRemaining } κωδικοί ανάκτησης
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Νέα σύνδεση στο { $clientName }
-
-##
-
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
@@ -220,6 +220,12 @@ recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
 recovery-description = Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε έναν νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Η συνδρομή σας στο { $productName } έχει ακυρωθεί
+subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
+subscriptionCancellation-title = Λυπούμαστε που φεύγετε
+subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα
@@ -240,6 +246,8 @@ subscriptionReactivation-content = Ο κύκλος χρέωσης και η πλ
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
 subscriptionsPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών.
+subscriptionUpgrade-title = Ευχαριστούμε για την αναβάθμιση!
+subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 unblockCode-subject = Κωδικός ταυτοποίησης λογαριασμού
 unblockCode-title = Κάνετε εσείς σύνδεση;
 unblockCode-prompt = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε:

@@ -132,3 +132,10 @@ verifySecondaryCode-expiry-notice = Expiră în 5 minute. Odată verificată, ac
 verifyShortCode-title = Tu ești cel/cea care se înscrie?
 verifyShortCode-expiry-notice = Expiră în 5 minute.
 
+cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile efectuând acest scurt sondaj:
+subscriptionAccountDeletion-title = Ne pare rău că pleci
+subscriptionCancellation-title = Ne pare rău că pleci
+subscriptionDowngrade-content-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
+subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+

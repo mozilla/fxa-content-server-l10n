@@ -88,6 +88,11 @@ cs-cannot-refresh =
     Гафу итегез, тоташтырылган хезмәтләр исемлеген яңартканда
     кыенлыклар килеп чыкты.
 cs-cannot-disconnect = Клиент табылмады, тоташуны өзеп булмый
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = { $service } хезмәтеннән чыктыгыз.
 cs-refresh-button =
     .title = Бәйләнгән хезмәтләрне яңарту
 # Link text to a support page on missing or duplicate devices
@@ -123,6 +128,15 @@ datablock-copy =
     .message = Күчерелде
 datablock-print =
     .message = Бастырылды
+
+## Data collection section
+
+dc-heading = Мәгълүмат туплау һәм аны куллану
+dc-subheader = { -product-firefox-accounts } эшен яхшыртырга ярдәм итегез
+dc-subheader-content = { -product-firefox-accounts } хезмәтенә техник мәгълүматларны һәм кулланылыш статистикасын { -brand-mozilla }-га җибәрергә рөхсәт итү.
+dc-opt-out-success = Баш тарту кабул ителде. { -product-firefox-accounts } { -brand-mozilla }-га техник мәгълүматларны яки кулланылыш статистикасын җибәрмәячәк.
+dc-opt-in-success = Рәхмәт! Бу мәгълүматны уртаклашу безгә { -product-firefox-accounts } эшен яхшыртырга ярдәм итә.
+dc-learn-more = Күбрәк белү
 
 # DropDownAvatarMenu component
 
@@ -185,6 +199,7 @@ nav-settings = Көйләүләр
 nav-profile = Профиль
 nav-security = Хәвефсезлек
 nav-connected-services = Тоташтырылган Хезмәтләр
+nav-data-collection = Мәгълүмат туплау һәм аны куллану
 nav-paid-subs = Түләүле язылулар
 nav-email-comm = Эл. почта элемтәләр
 
@@ -233,6 +248,7 @@ pw-change-header =
 pw-change-stay-safe = Имин булу өчен бер үк серсүзне кабат-кабат кулланмагыз. Серсүзегез:
 pw-change-least-8-chars = Кимендә 8 билге булырга тиеш
 pw-change-not-contain-email = Эл. почта адресыгыз булырга тиеш түгел
+pw-change-must-match = Яңа серсүз раслауга туры килә
 pw-change-cancel-button = Баш тарту
 pw-change-save-button = Саклау
 pw-change-forgot-password-link = Паролыгызны оныттыгызмы?
@@ -291,6 +307,7 @@ recovery-key-success-alert = Коткару ачкычы ясалды.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Адым 1/2
 add-secondary-email-error = Бу эл. почтаны ясаганда хата китте.
 add-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
@@ -304,6 +321,7 @@ add-secondary-email-save-button = Саклау
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Адым 2/2
 verify-secondary-email-error = Раслау кодын җибәргәндә хата килеп чыкты.
 verify-secondary-email-page-title =
     .title = Икенчел эл. почта адресы
@@ -339,9 +357,14 @@ tfa-cannot-retrieve-code = Кодыгызны алганда хата килеп
 tfa-cannot-verify-code = Коткару кодыгызны тикшергәндә хата килеп чыкты.
 tfa-incorrect-recovery-code = Хаталы коткару коды
 tfa-enabled = Ике адымлы аутентификация кабызылды
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt = Тәэмин ителгән кушымталарда ике адымлы аутентификацияне көйләү өчен { $secret } кодын кулланыгыз.
 tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Бу яшерен ачкычны аутентификация кушымтагызга кертегез:
+tfa-enter-totp = Хәзер аутентификация кушымтасыннан алынган иминлек кодын кертегез.
 tfa-input-enter-totp =
     .label = Иминлек кодын кертегез
 tfa-enter-recovery-code =
@@ -373,6 +396,17 @@ profile-primary-email =
 
 security-heading = Хәвефсезлек
 
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Cүндерү
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Кабызу
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Җибәрү…
+switch-is-on = кабынган
+switch-is-off = cүнгән
+
 ## Sub-section row Defaults
 
 row-defaults-action-add = Өстәү
@@ -391,6 +425,7 @@ rk-cannot-refresh = Гафу итегез, коткару ачкычын яңа�
 rk-key-removed = Хисапны коткару ачкычы бетерелде.
 rk-cannot-remove-key = Хисабыгызны коткару ачкычын бетереп булмады.
 rk-refresh-key = Коткару ачкычын яңарту
+rk-content-reset-data = Нигә серсүземне үзгәрткәч мәгълүматларым юкка чыга?
 rk-cannot-verify-session-2 = Гафу итегез, сессиягезне тикшергәндә хата килеп чыкты.
 rk-remove-modal-heading = Коткару ачкычы бетерелсенме?
 rk-refresh-error = Гафу итегез, коткару ачкычын яңартканда хата килеп чыкты.
@@ -446,6 +481,7 @@ tfa-row-disable-modal-confirm = Cүндерү
 tfa-row-cannot-disable = Ике адымлы аутентификацияне сүндереп булмады.
 tfa-row-change-modal-heading = Коткару кодлары үзгәрсенме?
 tfa-row-change-modal-confirm = Үзгәртү
+tfa-row-change-modal-explain = Бу гамәлне кире кайтара алмаячаксыз.
 
 ## Auth-server based errors that originate from backend service
 

@@ -265,3 +265,10 @@ verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-prompt = 是的话，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
+cancellationSurvey-plaintext = 请填写这份简短问卷，帮助我们改善服务质量：
+subscriptionAccountDeletion-title = 不敢说后会有期，但愿有缘再见
+subscriptionCancellation-title = 不敢说后会有期，但愿有缘再见
+subscriptionDowngrade-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
+subscriptionUpgrade-title = 感谢您的升级订阅！
+subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
+

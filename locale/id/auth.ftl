@@ -94,3 +94,5 @@ verifySecondary-post-verification = Setelah diverifikasi, alamat surel ini akan 
 verifySecondaryCode-title = Verifikasi surel sekunder
 verifySecondaryCode-prompt = Gunakan kode verifikasi ini:
 
+verificationReminderFirst-description = Beberapa hari yang lalu Anda membuat sebuah akun { -brand-firefox }, tetapi akunnya belum dikonfirmasi.
+

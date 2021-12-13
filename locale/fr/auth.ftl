@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy } :
 subplat-cancel = Annuler l’abonnement
 subplat-cancel-plaintext = { subplat-cancel } :
 subplat-reactivate = Réactiver l’abonnement
+subplat-reactivate-plaintext = { subplat-reactivate } :
 subplat-update-billing = Mettre à jour les informations de facturation
 subplat-legal = Mentions légales
 subplat-privacy = Vie privée
@@ -59,6 +60,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Si vous ne l’avez pas changé, veuillez réinitialiser votre mot de passe immédiatement depuis { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Aidez-nous à améliorer nos services en répondant à ce court questionnaire :
 change-password-plaintext = Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +96,12 @@ lowRecoveryCodes-subject =
         [one] 1 code de récupération restant
        *[other] { $numberRemaining } codes de récupération restants
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nouvelle connexion via { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nouvelle connexion via { $clientName }
-
-##
-
 newDeviceLogin-action = Gérer le compte
 passwordChanged-subject = Mot de passe mis à jour
 passwordChanged-title = Modification du mot de passe
@@ -186,6 +186,9 @@ recovery-subject = Réinitialiser le mot de passe
 recovery-title = Vous devez réinitialiser votre mot de passe ?
 recovery-description = Cliquez sur le bouton d’ici moins d’une heure pour créer un nouveau mot de passe. La demande a été effectuée depuis cet appareil :
 recovery-action = Créer un nouveau mot de passe
+subscriptionAccountDeletion-title = Nous sommes tristes de vous voir partir
+subscriptionCancellation-title = Nous sommes tristes de vous voir partir
+subscriptionDowngrade-content-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La carte bancaire pour { $productName } expire bientôt
@@ -206,6 +209,8 @@ subscriptionReactivation-content = Votre cycle de facturation et de paiement res
 subscriptionsPaymentExpired-subject = La carte bancaire utilisée pour vos abonnements expire bientôt
 subscriptionsPaymentExpired-title = Votre carte bancaire est sur le point d’expirer
 subscriptionsPaymentExpired-content = La carte bancaire que vous utilisez pour effectuer des paiements pour les abonnements suivants est sur le point d’expirer.
+subscriptionUpgrade-title = Merci pour la mise à jour !
+subscriptionUpgrade-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 unblockCode-subject = Code d’autorisation du compte
 unblockCode-title = Étiez-vous à l’origine de cette connexion ?
 unblockCode-prompt = Si oui, voici le code d’autorisation dont vous avez besoin :

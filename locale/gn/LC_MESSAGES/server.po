@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-11-23 16:26+0000\n"
+"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"PO-Revision-Date: 2021-12-10 13:57+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -347,7 +347,7 @@ msgstr "Ñemurekuatia oútava: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
-msgstr ""
+msgstr "Ndereikekuaái gueteri ne ñemboheraguapýpe"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
@@ -357,7 +357,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha ehechajey ne mba’ete."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
