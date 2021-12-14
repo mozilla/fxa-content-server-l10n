@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
 subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新激活订阅
+subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新结算信息
 subplat-legal = 法律
 subplat-privacy = 隐私
@@ -53,6 +54,8 @@ automated-email-reset = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 若您未进行更改，请立即到 { $resetLink } 重置密码
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = 请填写这份简短问卷，帮助我们改善服务质量：
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 # Variables:
 #  $ip (Number) - User's IP address
@@ -86,15 +89,12 @@ lowRecoveryCodes-subject =
     { $numberRemaining ->
        *[other] 剩余 { $numberRemaining } 组救援码
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = { $clientName } 有新的登录活动
-
-##
-
 newDeviceLogin-action = 管理账号
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
@@ -179,6 +179,29 @@ recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
 recovery-description = 请在一小时内点击下面的按钮来创建新密码。此次重设密码的请求来自以下设备：
 recovery-action = 创建新密码
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = 您的 { $productName } 订阅已取消
+subscriptionAccountDeletion-title = 不敢说后会有期，但愿有缘再见
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = 您最近删除了 { -product-firefox-account }，因此我们也同步取消了您的 { $productName } 订阅。最后一次付款发生于 { $invoiceDateOnly }，金额为 { $invoiceTotal }。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = 您的 { $productName } 订阅已取消
+subscriptionCancellation-title = 不敢说后会有期，但愿有缘再见
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = 您的 { $productName } 订阅已经取消，最后一次付款日期在 { $invoiceDateOnly }，金额为 { $invoiceTotal }。您的服务将持续到目前的计费周期结束为止，即 { $serviceLastActiveDateOnly }。
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = 您已切换至 { $productNameNew }
+subscriptionDowngrade-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将到期
@@ -199,6 +222,17 @@ subscriptionReactivation-content = 您的账单周期与付款信息将保持不
 subscriptionsPaymentExpired-subject = 订阅所用信用卡即将过期
 subscriptionsPaymentExpired-title = 您的信用卡即将到期
 subscriptionsPaymentExpired-content = 您用于付款的信用卡即将到期。
+subscriptionUpgrade-title = 感谢您的升级订阅！
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = 从下一期账单开始，我们就会从每 { $productPaymentCycle } 收费 { $paymentAmountOld } 美元调整为 { $paymentAmountNew } 美元。届时我们将向您一次性收取剩余期间 { $productPaymentCycle } 的差额 { $paymentProrated }，以反映较高的收费金额。
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = 若需要安装新软件才能使用 { $productNameNew }，我们会将下载方式用另一封电子邮件发送予您。
+subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 unblockCode-subject = 账户授权码
 unblockCode-title = 是您在登录吗？
 unblockCode-prompt = 是的话，这是您所需的授权码：
@@ -265,10 +299,3 @@ verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-prompt = 是的话，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
-cancellationSurvey-plaintext = 请填写这份简短问卷，帮助我们改善服务质量：
-subscriptionAccountDeletion-title = 不敢说后会有期，但愿有缘再见
-subscriptionCancellation-title = 不敢说后会有期，但愿有缘再见
-subscriptionDowngrade-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
-subscriptionUpgrade-title = 感谢您的升级订阅！
-subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
-
