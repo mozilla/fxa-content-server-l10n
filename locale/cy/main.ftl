@@ -502,11 +502,9 @@ payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
 new-user-step-1 = Creu cyfrif { -brand-name-firefox }
-new-user-step-2 = 2. Dewiswch eich dull talu
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Angenrheidiol
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Rhowch eich cyfeiriad e-bost
@@ -521,3 +519,7 @@ new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
 manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
 manage-pocket-body = I'w reoli, <a>cliciwch yma</a>.
+payment-method-header = Dewiswch eich dull talu
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Dewiswch eich dull talu
+payment-method-required = Angenrheidiol
