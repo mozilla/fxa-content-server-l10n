@@ -215,11 +215,11 @@ modal-cancel-button = Mégse
 ## Modal Verify Session
 
 mvs-verify-your-email = E-mail-cím megerősítése
-mvs-enter-verification-code = Adja meg az ellenőrzési kódját
+mvs-enter-verification-code = Adja meg az ellenőrzőkódját
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzési kódot.
+mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzőkódot.
 msv-cancel-button = Mégse
 msv-submit-button = Ellenőrzés
 
@@ -368,17 +368,17 @@ add-secondary-email-save-button = Mentés
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
-verify-secondary-email-error = Hiba történt az ellenőrző kód elküldésekor.
+verify-secondary-email-error = Hiba történt az ellenőrzőkód elküldésekor.
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
 verify-secondary-email-verification-code =
-    .label = Adja meg az ellenőrzési kódját
+    .label = Adja meg az ellenőrzőkódját
 verify-secondary-email-cancel-button = Mégse
 verify-secondary-email-verify-button = Ellenőrzés
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzési kódot.
+verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzőkódot.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -496,7 +496,7 @@ rk-remove-error = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
-se-cannot-resend-code = Sajnos probléma merült fel az ellenőrző kód újraküldésékor.
+se-cannot-resend-code = Sajnos probléma merült fel az ellenőrzőkód újraküldésékor.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -517,7 +517,7 @@ se-refresh-email =
     .title = E-mail-cím frissítése
 se-unverified = nem ellenőrzött
 se-resend-code =
-    Ellenőrzés szükséges. <button>Küldje újra az ellenőrző kódot</button>,
+    Ellenőrzés szükséges. <button>Küldje újra az ellenőrzőkódot</button>,
     ha nincs a beérkezett levelek vagy a levélszemét mappában.
 # Button to make secondary email the primary
 se-make-primary = Elsődlegessé tétel

@@ -325,5 +325,5 @@ verifySecondaryCode-expiry-notice = 5 perc múlva lejár. Ha hitelesíti, akkor 
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
-verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
+verifyShortCode-prompt = Ha igen, használja ezt az ellenőrzőkódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
