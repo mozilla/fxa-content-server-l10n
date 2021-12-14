@@ -31,6 +31,7 @@ alert-bar-close-message = 關閉訊息
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
 bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
 bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
@@ -77,6 +79,12 @@ bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
 connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }，或是<br /><linkExternal>傳送下載鏈結到您的行動裝置上。</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = 到 { -google-play } 下載 { -brand-firefox }
+connect-another-app-store-image =
+    .title = 到 { -app-store } 下載 { -brand-firefox }
 
 ##
 
@@ -338,9 +346,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = 取消
 add-secondary-email-save-button = 儲存
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 第 2 步，共 2 步
@@ -488,6 +493,8 @@ se-resend-code = 需要驗證。若驗證信並未跑到收件匣或垃圾信件
 se-make-primary = 設為主要信箱
 se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
 se-content-note = 註：只設定次要電子郵件帳號無法恢復您的資訊，還需要有<a>救援金鑰</a>才行。
+# Default value for the secondary email
+se-secondary-email-none = 無
 
 ##
 
@@ -517,6 +524,7 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 
 auth-error-102 = 未知帳號
 auth-error-103 = 密碼不正確
+auth-error-105 = 驗證碼無效
 auth-error-110 = token 無效
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -527,5 +535,7 @@ auth-error-110 = token 無效
 #                           (for example: "in 15 minutes")
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }後再試。
 auth-error-138 = 未驗證的使用階段
+auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
+auth-error-183 = 驗證碼無效或過期
 auth-error-1008 = 您的新密碼必須與舊密碼不同
