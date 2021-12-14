@@ -31,6 +31,7 @@ alert-bar-close-message = Close message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } is tech that fights for your onlin
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Get { -brand-firefox } on mobile or tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } in the { -google-play } and { -app-store } or
     <br /><linkExternal>send a download link to your device.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Download { -brand-firefox } on { -google-play }
+connect-another-app-store-image =
+    .title = Download { -brand-firefox } on { -app-store }
 
 ##
 
@@ -359,9 +367,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancel
 add-secondary-email-save-button = Save
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Step 2 of 2
@@ -524,6 +529,8 @@ se-default-content = Access your account if you can’t log in to your primary e
 se-content-note =
     Note: a secondary email won’t restore your information — you’ll
     need a <a>recovery key</a> for that.
+# Default value for the secondary email
+se-secondary-email-none = None
 
 ##
 
@@ -559,6 +566,7 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
+auth-error-105 = Invalid verification code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -569,5 +577,7 @@ auth-error-110 = Invalid token
 #                           (for example: "in 15 minutes")
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138 = Unverified session
+auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
+auth-error-183 = Invalid or expired verification code
 auth-error-1008 = Your new password must be different
