@@ -44,6 +44,9 @@ subplat-legal = Añete
 subplat-privacy = Ñemigua
 another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
 another-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
+automated-email-change =
+    Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a>.
+    Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
 automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
