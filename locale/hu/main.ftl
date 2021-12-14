@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
 new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
-new-user-step-2 = 2. Válassza ki a fizetési módot
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Kötelező
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Adja meg az e-mail-címét
@@ -441,3 +439,7 @@ new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
 manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
 manage-pocket-body = A kezeléséhez <a>kattintson ide</a>.
+payment-method-header = Válassza ki a fizetési módot
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Válassza ki a fizetési módot
+payment-method-required = Kötelező

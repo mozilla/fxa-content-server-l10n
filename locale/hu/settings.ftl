@@ -31,6 +31,7 @@ alert-bar-close-message = Üzenet bezárása
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy tábl
 connect-another-find-fx-mobile =
     Keresse meg a { -brand-firefox }ot a { -google-play }en és az { -app-store }-on, vagy
     <br /><linkExternal>küldjön letöltési hivatkozást az eszközére.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = A { -brand-firefox } letöltése a { -google-play }ből
+connect-another-app-store-image =
+    .title = A { -brand-firefox } letöltése az { -app-store }-ból
 
 ##
 
@@ -357,9 +365,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Mégse
 add-secondary-email-save-button = Mentés
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
@@ -520,6 +525,8 @@ se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleg
 se-content-note =
     Megjegyzés: a másodlagos e-mail-címe nem fogja visszaállítani az
     adatait – ahhoz <a>helyreállítási kulcs</a> szükséges.
+# Default value for the secondary email
+se-secondary-email-none = Nincs
 
 ##
 
@@ -555,6 +562,7 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
+auth-error-105 = Érvénytelen ellenőrzőkód
 auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -565,5 +573,7 @@ auth-error-110 = Érvénytelen token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
 auth-error-138 = Nem ellenőrzött munkamenet
+auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
+auth-error-183 = Érvénytelen vagy lejárt ellenőrzőkód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
