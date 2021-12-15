@@ -56,6 +56,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Please help us improve our services by taking this short survey:
 change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -90,15 +92,12 @@ lowRecoveryCodes-subject =
         [one] 1 recovery code remaining
        *[other] { $numberRemaining } recovery codes remaining
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = New sign-in to { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = New sign-in to { $clientName }
-
-##
-
 newDeviceLogin-action = Manage account
 passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
@@ -123,14 +122,21 @@ passwordResetAccountRecovery-regen-required = You will need to generate a new re
 passwordResetAccountRecovery-create-key = Create new recovery key:
 postAddAccountRecovery-subject = Account recovery key generated
 postAddAccountRecovery-title = Account recovery key generated
+postAddAccountRecovery-description = You have successfully generated an account recovery key for your { -product-firefox-account } using the following device:
 postAddAccountRecovery-action = Manage account
+postAddAccountRecovery-recovery = If this was not you, <a data-l10n-name="revokeAccountRecoveryLink">click here</a>.
 postAddAccountRecovery-revoke = If this was not you, revoke key.
 postAddTwoStepAuthentication-subject = Two-step authentication enabled
 postAddTwoStepAuthentication-title = Two-step authentication enabled
+postAddTwoStepAuthentication-description-plaintext = You have successfully enabled two-step authentication on your { -product-firefox-account }. Security codes from your authentication app will now be required at each sign-in.
+postAddTwoStepAuthentication-description = You have successfully enabled two-step authentication on your { -product-firefox-account } from the following device:
 postAddTwoStepAuthentication-action = Manage account
 postAddTwoStepAuthentication-code-required = Security codes from your authentication app will now be required at each sign-in.
 postChangePrimary-subject = Primary email updated
 postChangePrimary-title = New primary email
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-firefox-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
 postConsumeRecoveryCode-subject = Recovery code used
 postConsumeRecoveryCode-title = Recovery code consumed
@@ -142,20 +148,30 @@ postNewRecoveryCodes-description = You have successfully generated new recovery 
 postNewRecoveryCodes-action = Manage account
 postRemoveAccountRecovery-subject = Account recovery key removed
 postRemoveAccountRecovery-title = Account recovery key removed
+postRemoveAccountRecovery-description = You have successfully removed an account recovery key for your { -product-firefox-account } using the following device:
 postRemoveAccountRecovery-action = Manage account
 postRemoveAccountRecovery-invalid = This recovery key can no longer be used to recover your account.
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = You have successfully removed { $secondaryEmail } as a secondary email from your { -product-firefox-account }. Security notifications and sign-in confirmations will no longer be delivered to this address.
 postRemoveSecondary-action = Manage account
 postRemoveTwoStepAuthentication-subject = Two-step verification is off
 postRemoveTwoStepAuthentication-title = Two-step authentication disabled
+postRemoveTwoStepAuthentication-description = You have successfully disabled two-step authentication on your { -product-firefox-account } from the following device:
+postRemoveTwoStepAuthentication-description-plaintext = You have successfully disabled two-step authentication on your { -product-firefox-account }. Security codes will no longer be required at each sign-in.
 postRemoveTwoStepAuthentication-action = Manage account
 postRemoveTwoStepAuthentication-not-required = Security codes will no longer be required at each sign-in.
+postVerify-sub-title = { -product-firefox-account } verified. You’re almost there.
 postVerify-title = Next sync between your devices!
 postVerify-description = Sync privately keeps your bookmarks, passwords and other { -brand-firefox } data the same across all your devices.
 postVerify-subject = Account verified. Next, sync another device to finish setup
 postVerify-setup = Set up next device
 postVerify-action = Set up next device
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Have questions? Visit { $supportUrl }
 postVerifySecondary-subject = Secondary email added
 postVerifySecondary-title = Secondary email added
 postVerifySecondary-action = Manage account
@@ -163,13 +179,35 @@ recovery-subject = Reset your password
 recovery-title = Need to reset your password?
 recovery-description = Click the button within the next hour to create a new password. The request came from the following device:
 recovery-action = Create new password
+subscriptionAccountDeletion-title = Sorry to see you go
+subscriptionCancellation-title = Sorry to see you go
+subscriptionDowngrade-content-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 subscriptionPaymentExpired-title = Your credit card is about to expire
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = The credit card you’re using to make payments for { $productName } is about to expire.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } subscription reactivated
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Thank you for reactivating your { $productName } subscription!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Your billing cycle and payment will remain the same. Your next charge will be { $invoiceTotal } on { $nextInvoiceDateOnly }. Your subscription will automatically renew each billing period unless you choose to cancel.
 subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
 subscriptionsPaymentExpired-title = Your credit card is about to expire
 subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
+subscriptionUpgrade-title = Thank you for upgrading!
+subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 unblockCode-subject = Account authorization code
 unblockCode-title = Is this you signing in?
 unblockCode-prompt = If yes, here is the authorization code you need:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = If yes, here is the authorization code you need: { $unblockCode }
+unblockCode-report = If no, help us fend off intruders and <a data-l10n-name="reportSignInLink">report it to us</a>.
 unblockCode-report-plaintext = If no, help us fend off intruders and report it to us.
 verificationReminderFirst-subject = Reminder: Finish creating your account
 verificationReminderFirst-title = Welcome to the { -brand-firefox } family
@@ -207,10 +245,3 @@ verifySecondaryCode-expiry-notice = It expires in 5 minutes. Once verified, this
 verifyShortCode-title = Is this you signing up?
 verifyShortCode-prompt = If yes, use this verification code in your registration form:
 verifyShortCode-expiry-notice = It expires in 5 minutes.
-cancellationSurvey-plaintext = Please help us improve our services by taking this short survey:
-subscriptionAccountDeletion-title = Sorry to see you go
-subscriptionCancellation-title = Sorry to see you go
-subscriptionDowngrade-content-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
-subscriptionUpgrade-title = Thank you for upgrading!
-subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
-
