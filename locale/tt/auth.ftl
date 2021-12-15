@@ -137,8 +137,17 @@ recovery-subject = Серсүзегезне алыштырыгыз
 recovery-title = Паролыгызны үзгәртү кирәкме?
 recovery-description = Яңа бер парол булдыру өчен бер сәгать эчендә бу төймәгә басыгыз. Бу үтенеч түбәндәге җиһаздан килде:
 recovery-action = Яңа парол булдыру
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
 subscriptionAccountDeletion-title = Китүегез безгә кызганыч
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
 subscriptionCancellation-title = Китүегез безгә кызганыч
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productNameNew } хезмәтенә күчтегез
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } өчен кулланылучы кредит картасының тиздән вакыты чыгачак
