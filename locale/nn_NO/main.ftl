@@ -10,6 +10,14 @@ project-brand = Firefox-kontoar
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox-kontoar
 
@@ -34,6 +42,9 @@ instant-payouts-unsupported = Det ser ut som at betalingskortet ditt ikkje er ko
 duplicate-transaction = Hmm. Det ser ut som ein identisk transaksjon nettopp vart utført. Sjekk betalingshistorikken.
 coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 card-error = Transaksjonen din kunne ikkje behandlast. Kontroller betalingskortinformasjonen din og prøv igjen.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -93,7 +104,6 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## payment legal blurb
 
-payment-legal-link-stripe-2 = Vis personvernpraksis for <stripePrivacyLink>{ -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -162,8 +172,6 @@ input-error-is-required = { $label } er påkravd
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Gå gjennom oppgraderinga di
-sub-update-failed = Mislykka planoppdatering
 sub-update-payment-title = Betalingsinformasjon
 sub-update-card-exp = Går ut { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -171,38 +179,11 @@ sub-update-copy =
     beløp for resten av faktureringssyklusen. Frå og med { $startingDate }
     vert du belasta med heile beløpet.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } dagleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } dag</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } månadleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } månad</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } årleg</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvart { $intervalCount } år</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-    }
-
 ##
 
-sub-update-submit = Stadfest oppgradering
-sub-update-indicator =
-    .aria-label = oppgraderingsindikator
+sub-change-submit = Stadfest endring
+sub-change-indicator =
+    .aria-label = endringsindikator
 sub-update-current-plan-label = Gjeldande plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny sum
@@ -266,6 +247,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
+sub-expires-on = Går ut { $date }
 
 ##
 
@@ -313,6 +295,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt tilgangen min og den lagra informasjonen min for
     { $name } den { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Kjøp i appen
+sub-iap-item-apple-purchase = { -brand-name-apple }: KJøp i appen
+sub-iap-item-manage-button = Handter
 account-activated = Kontoen din er aktivert, <userEl/>
 
 ## subscription route index
@@ -360,11 +348,18 @@ payment-processing-message = Vent mens vi behandlar betalinga di...
 payment-confirmation-alert = Trykk her for å laste ned
 payment-confirmation-mobile-alert = Opna ikkje appen? <a>Klikk her</a>
 payment-confirmation-thanks-heading = Takk skal du ha!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Ein stadfestings e-post er sendt til { $email } med detaljar om korleis du kjem i gang med { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Ordredetaljar
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 payment-confirmation-billing-heading = Faktura til:
-payment-confirmation-details-heading = Betalningsinformasjon
 payment-confirmation-amount = { $amount } per { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -395,3 +390,14 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Fortset til nedlasting
 payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
+
+## new user email form
+
+new-user-step-1 = 1. Opprett ein { -brand-name-firefox }-konto
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Skriv inn e-postadressa di
+new-user-confirm-email =
+    .label = Stadfest e-postadressa di
