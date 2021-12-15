@@ -31,6 +31,7 @@ alert-bar-close-message = Fechar mensagem
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } é tecnologia que defende sua priv
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
 bento-menu-made-by-mozilla = Feito pela { -brand-mozilla }
@@ -77,6 +79,12 @@ bento-menu-made-by-mozilla = Feito pela { -brand-mozilla }
 
 connect-another-fx-mobile = Instale o { -brand-firefox } no celular ou tablet
 connect-another-find-fx-mobile = Encontre o { -brand-firefox } no { -google-play } e na { -app-store }, ou<br /><linkExternal>envie um link de download para seu dispositivo</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Instale o { -brand-firefox } a partir do { -google-play }
+connect-another-app-store-image =
+    .title = Instale o { -brand-firefox } a partir da { -app-store }
 
 ##
 
@@ -338,9 +346,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Salvar
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Etapa 2 de 2
@@ -488,6 +493,8 @@ se-resend-code = Verificação necessária. <button>Reenvie o código de verific
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
 se-content-note = Nota: Usar um email secundário não restaura suas informações, você precisa de uma <a>chave de recuperação</a> para isso.
+# Default value for the secondary email
+se-secondary-email-none = Nenhum
 
 ##
 
@@ -517,6 +524,7 @@ tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
 auth-error-102 = Conta desconhecida
 auth-error-103 = Senha incorreta
+auth-error-105 = Código de verificação inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -527,5 +535,7 @@ auth-error-110 = Token inválido
 #                           (for example: "in 15 minutes")
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
 auth-error-138 = Sessão não validada
+auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
+auth-error-183 = Código de verificação inválido ou vencido
 auth-error-1008 = Sua nova senha deve ser diferente
