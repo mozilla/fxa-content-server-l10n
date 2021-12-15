@@ -149,6 +149,10 @@ subscriptionCancellation-title = Китүегез безгә кызганыч
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productNameNew } хезмәтенә күчтегез
 # Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } продуктыннан { $productNameNew } продуктына күчү уңышлы узды.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } өчен кулланылучы кредит картасының тиздән вакыты чыгачак
 subscriptionPaymentExpired-title = Сезнең кредит картасының вакыты чыгып килә
@@ -160,7 +164,14 @@ subscriptionReactivation-subject = { $productName } продуктына язы�
 subscriptionReactivation-title = { $productName } абунәгезне яңартуыгыз өчен рәхмәт!
 subscriptionsPaymentExpired-subject = Язылуларыгыз өчен кулланылучы кредит картасының тиздән вакыты чыгачак
 subscriptionsPaymentExpired-title = Сезнең кредит картасының вакыты чыгып килә
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = { $productNameNew } продуктына күтәрелү уңышлы узды
 subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = { $productNameOld } продуктын { $productNameNew } продуктына яңарту уңышлы узды.
 unblockCode-subject = Хисабыгызны авторизацияләү коды
 unblockCode-title = Керүче Сезме?
 unblockCode-prompt = Әйе булса, Сезгә кирәкле авторизация коды менә бу:
@@ -202,11 +213,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Расланганнан соң, икенчел эл. почта адресын өстәү кебек хисапка үзгәрешләр кертү турындагы гаризалар бу җиһазда да күренәчәк.
 verifySecondary-subject = Икенчел эл. почтаны раслау
 verifySecondary-title = Икенчел эл. почтаны раслау
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
 verifySecondary-action = Эл. почтаны раслау
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Адрес расланганнан соң, хәвефсезлек турындагы белдерүләр һәм раслаулар бу адреска да җибәреләчәк.
 verifySecondaryCode-subject = Икенчел эл. почтаны раслау
 verifySecondaryCode-title = Икенчел эл. почтаны раслау
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
 verifySecondaryCode-prompt = Бу раслау кодын куллану:
 verifySecondaryCode-expiry-notice = 5 минуттан аның вакыты чыгачак. Адрес расланганнан соң, хәвефсезлек турындагы белдерүләр һәм раслаулар бу адреска да җибәреләчәк.
 # Variables:

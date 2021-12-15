@@ -31,6 +31,7 @@ alert-bar-close-message = Хәбәрне ябу
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } — онлайн хосусыйл�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
 bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
 bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитештерелгән
@@ -77,6 +79,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } тарафыннан җитеш�
 
 connect-another-fx-mobile = Мобиль җиһазыгызга { -brand-firefox } программасын урнаштырыгыз
 connect-another-find-fx-mobile = { -brand-firefox }-ны { -google-play }-дан һәм { -app-store }-дан  таба яисә <br /><linkExternal>җиһазыгызга йөкләү сылтамасын җибәрә аласыз.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -google-play }-дан { -brand-firefox }-ны алу
+connect-another-app-store-image =
+    .title = { -app-store }-дан { -brand-firefox }-ны алу
 
 ##
 
@@ -316,9 +324,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Баш тарту
 add-secondary-email-save-button = Саклау
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Адым 2/2
@@ -458,6 +463,8 @@ se-refresh-email =
 se-unverified = расланмаган
 # Button to make secondary email the primary
 se-make-primary = Төп адрес итү
+# Default value for the secondary email
+se-secondary-email-none = Бернинди дә
 
 ##
 
@@ -487,6 +494,7 @@ tfa-row-change-modal-explain = Бу гамәлне кире кайтара ал�
 
 auth-error-102 = Билгесез хисап
 auth-error-103 = Парол хаталы
+auth-error-105 = Раслау кодында хата
 auth-error-110 = Хаталы токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -497,5 +505,7 @@ auth-error-110 = Хаталы токен
 #                           (for example: "in 15 minutes")
 auth-error-114 = Артык күп тапкыр тырышып карадыгыз. Зинһар, { $retryAfter } вакыт кичкәч, янәдән тырышыгыз.
 auth-error-138 = Расланмаган утырыш
+auth-error-139 = Икенчел эл. почта хисабыгызның төп эл. почтасыннан башка булырга тиеш
 auth-error-155 = TOTP токен табылмады
+auth-error-183 = Яраксыз яки вакыты чыккан раслау коды
 auth-error-1008 = Яңа парол иске паролдан үзгә булырга тиеш

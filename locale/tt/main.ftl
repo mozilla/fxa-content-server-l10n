@@ -342,11 +342,9 @@ payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамлан�
 
 new-user-sign-in-link = { -brand-name-firefox } хисабыгыз бармы инде? <a>Керү</a>
 new-user-step-1 = 1. { -brand-name-firefox } хисабын булдырыгыз
-new-user-step-2 = 2. Түләү ысулын сайлагыз
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Кирәкле
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Эл. почтагызны кертегез
@@ -360,3 +358,7 @@ new-user-card-title = Кредит картагызның язуларын ке�
 new-user-submit = Хәзер үк язылу
 manage-pocket-title = { -brand-name-pocket } премиум абунәгезне эзлисезме?
 manage-pocket-body = Аның белән идарә итү өчен <a>монда басыгыз</a>.
+payment-method-header = Түләү ысулын сайлагыз
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Түләү ысулын сайлагыз
+payment-method-required = Кирәкле
