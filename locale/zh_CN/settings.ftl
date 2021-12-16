@@ -79,6 +79,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 出品
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
 connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 寻找 { -brand-firefox }，或是<br /><linkExternal>将下载链接发送到您的移动设备上。</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = 到 { -google-play } 下载 { -brand-firefox }
+connect-another-app-store-image =
+    .title = 到 { -app-store } 下载 { -brand-firefox }
 
 ##
 
@@ -487,6 +493,8 @@ se-resend-code = 需要验证。若未收到邮件，并确认不在垃圾邮件
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
 se-content-note = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>救援密钥</a>。
+# Default value for the secondary email
+se-secondary-email-none = 无
 
 ##
 
@@ -516,6 +524,7 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 
 auth-error-102 = 未知账户
 auth-error-103 = 密码错误
+auth-error-105 = 验证码无效
 auth-error-110 = 无效令牌
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -526,5 +535,7 @@ auth-error-110 = 无效令牌
 #                           (for example: "in 15 minutes")
 auth-error-114 = 您已尝试太多次，请 { $retryAfter } 后再试。
 auth-error-138 = 未验证的会话
+auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
+auth-error-183 = 验证码无效或过期
 auth-error-1008 = 新旧密码不能相同
