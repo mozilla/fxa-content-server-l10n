@@ -31,6 +31,7 @@ alert-bar-close-message = 关闭消息
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
 bento-menu-firefox-mobile = { -brand-firefox } 移动浏览器
 bento-menu-made-by-mozilla = { -brand-mozilla } 出品
@@ -337,9 +339,6 @@ add-secondary-email-enter-address =
     .label = 请输入邮箱地址
 add-secondary-email-cancel-button = 取消
 add-secondary-email-save-button = 保存
-
-##
-
 
 ## Verify secondary email page
 
