@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-12-16 12:18+0000\n"
+"PO-Revision-Date: 2021-12-16 12:37+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -639,7 +639,7 @@ msgstr "Ακόμη εκεί;"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Σχεδόν μια εβδομάδα πριν δημιουργήσατε ένα λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς."
+msgstr "Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
