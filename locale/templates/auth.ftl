@@ -21,7 +21,7 @@
 -product-firefox-cloud = Firefox Cloud
 
 # Other brands
--paypal = PayPal
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -83,7 +83,7 @@ manage-account-plaintext = { manage-account }:
 
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Payment Method:
-payment-provider-paypal-plaintext = { payment-method } { -paypal }
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
@@ -344,7 +344,7 @@ subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expi
 subscriptionsPaymentExpired-title = Your credit card is about to expire
 subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
 
-subscriptionsPaymentProviderCancelled-subject = Payment information update required for Mozilla subscriptions
+subscriptionsPaymentProviderCancelled-subject = Payment information update required for { -brand-mozilla } subscriptions
 subscriptionsPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
 subscriptionsPaymentProviderCancelled-content-detected = We have detected a problem with your payment method for the following subscriptions.
 subscriptionsPaymentProviderCancelled-content-payment = It may be that your credit card has expired, or your current payment method is out of date.
