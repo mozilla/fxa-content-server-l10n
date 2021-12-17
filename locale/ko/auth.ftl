@@ -43,6 +43,7 @@ subplat-legal = 법적 고지
 subplat-privacy = 개인 정보 정책
 another-desktop-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 데스크톱 기기</a> 에 설치합니다.
 another-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 기기</a> 에 설치합니다.
+automated-email-change = 자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="passwordChangeLink">비밀번호를 변경</a>하십시오. 자세한 내용은 <a data-l10n-name="supportLink"> { -brand-mozilla }지원 페이지</a>를 참조하십시오.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 자동으로 발송된 이메일입니다. 만약 { -product-firefox-account } 계정에 새로운 기기를 추가한 적이 없다면, { $passwordChangeLink } 링크를 통해 즉시 비밀번호를 변경하십시오.

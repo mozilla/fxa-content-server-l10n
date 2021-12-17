@@ -153,6 +153,9 @@ datablock-print =
 dc-heading = 데이터 수집 및 사용
 dc-subheader = { -product-firefox-accounts } 개선에 참여
 dc-subheader-content = { -product-firefox-accounts }가 기술 및 상호작용 데이터를 { -brand-mozilla }에 보낼 수 있도록 허용합니다.
+dc-opt-out-success = 동의 철회에 성공헀습니다. { -product-firefox-accounts }는 기술 또는 상호작용 데이터를 { -brand-mozilla }에 보내지 않습니다.
+dc-opt-in-success = 감사합니다! 이 데이터를 공유하면 { -product-firefox-accounts } 개선에 도움이 됩니다.
+dc-learn-more = 자세히 알아보기
 
 # DropDownAvatarMenu component
 
@@ -216,6 +219,7 @@ nav-settings = 설정
 nav-profile = 프로필
 nav-security = 보안
 nav-connected-services = 연결된 서비스
+nav-data-collection = 데이터 수집 및 사용
 nav-paid-subs = 유료 구독
 nav-email-comm = 이메일 커뮤니케이션
 
@@ -342,6 +346,7 @@ recovery-key-success-alert = 복구 키가 생성되었습니다.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = 2단계 중 1단계
 add-secondary-email-error = 이메일을 생성하는 데 문제가 발생했습니다.
 add-secondary-email-page-title =
     .title = 보조 이메일
@@ -352,6 +357,7 @@ add-secondary-email-save-button = 저장
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = 2단계 중 2단계
 verify-secondary-email-error = 인증 코드를 보내는 데 문제가 발생했습니다.
 verify-secondary-email-page-title =
     .title = 보조 이메일
@@ -440,6 +446,14 @@ security-heading = 보안
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = 끄기
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = 켜기
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = 제출 중…
+switch-is-on = 켜짐
+switch-is-off = 꺼짐
 
 ## Sub-section row Defaults
 
@@ -486,6 +500,7 @@ se-set-primary-error = 죄송합니다. 기본 메일을 변경하는 중에 문
 se-delete-email-successful = { $email } 메일이 성공적으로 삭제되었습니다.
 se-delete-email-error = 죄송합니다. 이메일을 삭제하는 중에 문제가 발생했습니다.
 se-verify-session = 이 작업을 수행하려면 현재 세션을 확인해야 합니다.
+se-verify-session-error = 죄송합니다. 세션을 확인하는 중에 문제가 발생했습니다.
 # Button to remove the secondary email
 se-remove-email =
     .title = 이메일 삭제
@@ -493,8 +508,15 @@ se-remove-email =
 se-refresh-email =
     .title = 이메일 새로고침
 se-unverified = 인증안됨
+se-resend-code =
+    확인이 필요합니다. 받은 편지함이나 스팸 폴더에 없는 경우
+    <button>인증 코드를 재전송하세요.</button>
 # Button to make secondary email the primary
 se-make-primary = 주 이메일로 사용
+se-default-content = 기본 이메일에 로그인할 수 없는 경우 계정에 접근하세요.
+se-content-note =
+    참고: 보조 이메일은 정보를 복원하지 않습니다.
+    이를 위해서는 <a>복구 키</a>가 필요합니다.
 
 ##
 
@@ -502,10 +524,27 @@ se-make-primary = 주 이메일로 사용
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2단계 인증
+tfa-row-disabled = 2단계 인증이 비활성화되었습니다.
+tfa-row-enabled = 활성화됨
 tfa-row-not-set = 설정 안됨
 tfa-row-action-add = 추가
 tfa-row-action-disable = 비활성화
+tfa-row-button-refresh =
+    .title = 2단계 인증 새로 고침
+tfa-row-cannot-refresh =
+    죄송합니다. 2단계 인증을 새로고침하는 중에 문제가
+    발생했습니다.
+tfa-row-content-explain =
+    당신만이 접근할 수 있는 고유 코드를 필요로 하여
+    다른 사람이 로그인하는 것을 방지합니다.
+tfa-row-cannot-verify-session-2 = 죄송합니다. 세션을 확인하는 중에 문제가 발생했습니다.
+tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
+tfa-row-disable-modal-explain =
+    이 작업은 되돌릴 수 없습니다.
+    <linkExternal>복구 코드를 바꾸는</linkExternal> 옵션도 있습니다.
+tfa-row-cannot-disable = 2단계 인증을 비활성화할 수 없습니다.
+tfa-row-change-modal-heading = 복구 코드를 변경하시겠습니까?
 tfa-row-change-modal-confirm = 변경
 tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 
@@ -514,5 +553,14 @@ tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 auth-error-102 = 알 수 없는 계정
 auth-error-103 = 잘못된 비밀번호
 auth-error-110 = 유효하지 않은 토큰
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = 너무 많이 시도했습니다. { $retryAfter } 후 다시 시도하십시오.
+auth-error-138 = 확인되지 않은 세션
 auth-error-155 = TOTP 토큰 찾을 수 없음
 auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
