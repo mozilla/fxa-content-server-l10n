@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
 new-user-sign-in-link = Har du allerede en { -brand-name-firefox }-konto? <a>Log ind</a>
 new-user-step-1 = 1. Opret en { -brand-name-firefox }-konto
-new-user-step-2 = 2. Vælg din betalingsmetode
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Påkrævet
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Indtast din mailadresse
@@ -441,3 +439,7 @@ new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
 manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
 manage-pocket-body = For at håndtere det, <a>klik her</a>.
+payment-method-header = Vælg din betalingsmetode
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Vælg din betalingsmetode
+payment-method-required = Påkrævet

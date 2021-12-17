@@ -31,6 +31,7 @@ alert-bar-close-message = Luk besked
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
 bento-menu-firefox-mobile = { -brand-firefox } Browser til din telefon
 bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } i { -google-play } og { -app-store } eller
     <br /><linkExternal>send et link til at hente appen på din enhed.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Hent { -brand-firefox } på { -google-play }
+connect-another-app-store-image =
+    .title = Hent { -brand-firefox } på { -app-store }
 
 ##
 
@@ -358,9 +366,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Annuller
 add-secondary-email-save-button = Gem
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trin 2 af 2
@@ -523,6 +528,8 @@ se-default-content = Få adgang til din konto, hvis du ikke kan logge ind på di
 se-content-note =
     Bemærk: En sekundær mailadresse vil ikke gendanne dine gemte informationer — du
     skal bruge en <a>genoprettelsesnøgle</a> til det.
+# Default value for the secondary email
+se-secondary-email-none = Ingen
 
 ##
 
@@ -558,6 +565,7 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
 auth-error-102 = Ukendt konto
 auth-error-103 = Forkert adgangskode
+auth-error-105 = Ugyldig bekræftelseskode
 auth-error-110 = Ugyldigt token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -568,5 +576,7 @@ auth-error-110 = Ugyldigt token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Du har prøvet for mange gange. Prøv igen om { $retryAfter }.
 auth-error-138 = Ubekræftet session
+auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
+auth-error-183 = Ugyldig eller udløbet bekræftelseskode
 auth-error-1008 = Din nye adgangskode skal være anderledes
