@@ -148,6 +148,12 @@ datablock-copy =
 datablock-print =
     .message = 인쇄됨
 
+## Data collection section
+
+dc-heading = 데이터 수집 및 사용
+dc-subheader = { -product-firefox-accounts } 개선에 참여
+dc-subheader-content = { -product-firefox-accounts }가 기술 및 상호작용 데이터를 { -brand-mozilla }에 보낼 수 있도록 허용합니다.
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } 메뉴
@@ -344,9 +350,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = 취소
 add-secondary-email-save-button = 저장
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-error = 인증 코드를 보내는 데 문제가 발생했습니다.
@@ -434,6 +437,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = 보안
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
