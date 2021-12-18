@@ -31,6 +31,7 @@ alert-bar-close-message = Mesajı kapat
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için sa
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
 bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
 bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
@@ -79,6 +81,12 @@ connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya table
 connect-another-find-fx-mobile =
     { -google-play }’de ve { -app-store }’da { -brand-firefox }’u arayabilir veya
     <br /><linkExternal>cihazınıza indirme bağlantısı gönderebilirsiniz.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -brand-firefox }’u { -google-play }’den indir
+connect-another-app-store-image =
+    .title = { -brand-firefox }’u { -app-store }’dan indir
 
 ##
 
@@ -343,9 +351,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = İptal
 add-secondary-email-save-button = Kaydet
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Adım 2/2
@@ -493,6 +498,8 @@ se-resend-code = Doğrulama gerekiyor. Doğrulama kodu gelen kutunuzda ve spam k
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
 se-content-note = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>kurtarma anahtarı</a> kullanmanız gerekiyor.
+# Default value for the secondary email
+se-secondary-email-none = Yok
 
 ##
 
@@ -524,6 +531,7 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 auth-error-102 = Bilinmeyen hesap
 auth-error-103 = Parola yanlış
+auth-error-105 = Geçersiz doğrulama kodu
 auth-error-110 = Geçersiz jeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -535,4 +543,5 @@ auth-error-110 = Geçersiz jeton
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
 auth-error-138 = Doğrulanmamış oturum
 auth-error-155 = TOTP jetonu bulunamadı
+auth-error-183 = Geçersiz veya süresi dolmuş doğrulama kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
