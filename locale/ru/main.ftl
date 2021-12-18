@@ -442,11 +442,9 @@ payment-confirmation-cc-card-ending-in = Номер карты заканчив�
 
 new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
 new-user-step-1 = 1. Создайте аккаунт { -brand-name-firefox }
-new-user-step-2 = 2. Выберите способ оплаты
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Обязательно
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Введите адрес своей эл. почты
@@ -461,3 +459,7 @@ new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
 manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
 manage-pocket-body = Чтобы управлять им, <a>щелкните здесь</a>.
+payment-method-header = Выберите способ оплаты
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Выберите способ оплаты
+payment-method-required = Обязательно
