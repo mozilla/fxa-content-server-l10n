@@ -31,6 +31,7 @@ alert-bar-close-message = Lat att melding
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din r
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
@@ -136,6 +138,9 @@ datablock-copy =
     .message = Kopiert
 datablock-print =
     .message = Skrive ut
+
+## Data collection section
+
 
 # DropDownAvatarMenu component
 
@@ -307,9 +312,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Lagre
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-page-title =
@@ -367,6 +369,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sikkerheit
+
+## Switch component
+
 
 ## Sub-section row Defaults
 

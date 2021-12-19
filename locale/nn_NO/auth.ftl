@@ -24,9 +24,13 @@ fxa-privacy-url = { -brand-mozilla } personvernpraksis
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 subplat-privacy-plaintext = Personvernmerknad:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Vilkår og avbestillingsreglar
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reaktiver abonnement
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-legal = Juridisk
 subplat-privacy = Personvern
@@ -34,7 +38,11 @@ automated-email-plaintext = Dette er ei automatisk e-postmelding: Dersom du har 
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
 change-password-plaintext = Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endre passordet ditt.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-adresse: { $ip }
 manage-account = Handter kontoen
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -49,7 +57,13 @@ cadReminderSecond-title = Siste påminning om å synkronisere einingar!
 codes-reminder-title = Kun få gjenopprettingskodar att
 codes-reminder-description = Det er få gjenopprettingskodar att. Tenk på å generere nye kodar for å unngå å bli utelåst frå kontoen din.
 codes-generate = Generer kodar
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Generer kodar
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 gjenopprettingskode att
+       *[other] { $numberRemaining } gjenopprettingskodar att
+    }
 newDeviceLogin-action = Handter kontoen
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
@@ -148,15 +162,20 @@ verifyPrimary-title = Verifiser primær e-postadresse
 verifyPrimary-description = Ein førespurnad om å utføre ei kontoendring er gjort frå følgjande eining:
 verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action = Verifiser e-postadresse
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Når denne e-postadressa er stadfesta, vil endringar i kontoen som å leggje til ei sekundær e-postadresse, bli muleg frå denne eininga.
 verifySecondary-subject = Stadfest sekundær e-postadresse
 verifySecondary-title = Verifiser sekundær e-postadresse
 verifySecondary-action = Verifiser e-postadresse
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Når e-postadressa er stadfesta, vil denne adressa begynneå ta imot tryggingsvarsel og stadfestingar.
 verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title = Verifiser sekundær e-postadresse
 verifySecondaryCode-prompt = Bruk denne stadfestingskoden:
 verifySecondaryCode-expiry-notice = Den går ut om 5 minutter. Når e-postadressa er verifisert, vil den begynne å få tryggingsvarsel og stadfestingar.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Stadfestingskode: { $code }
 verifyShortCode-title = Er det du som registrerer deg?
 verifyShortCode-prompt = Om ja, bruk denne stadfestingskoden i registreringsskjemaet:
 verifyShortCode-expiry-notice = Den går ut om 5 minutt.
