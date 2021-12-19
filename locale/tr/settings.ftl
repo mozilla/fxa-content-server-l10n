@@ -542,6 +542,7 @@ auth-error-110 = Geçersiz jeton
 #                           (for example: "in 15 minutes")
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
 auth-error-138 = Doğrulanmamış oturum
+auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
 auth-error-183 = Geçersiz veya süresi dolmuş doğrulama kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
