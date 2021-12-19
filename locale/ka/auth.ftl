@@ -189,17 +189,30 @@ recovery-description = დააჭირეთ ღილაკს მომდ�
 recovery-action = შეიყვანეთ ახალი პაროლი
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountDeletion-subject = თქვენი { $productName } გამოწერა გაუქმებულია
+subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
 subscriptionAccountDeletion-title = სამწუხაროა, რომ გვტოვებთ
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = თქვენ ახლახანს წაშალეთ თქვენი { -product-firefox-account }. შედეგად, ჩვენ გავაუქმეთ თქვენი { $productName }-გამოწერა. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = თქვენ ახლახანს წაშალეთ თქვენი { -product-firefox-account }. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-subject = თქვენი { $productName } გამოწერა გაუქმებულია
+subscriptionCancellation-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
 subscriptionCancellation-title = სამწუხაროა, რომ გვტოვებთ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }. თქვენი მომსახურება გაგრძელდება, მიმდინარე საანგარიშო პერიოდის დასრულებამდე, თარიღით { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = გადართვის შედეგად მიიღეთ { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } ჩანაცვლდა წარმატებულად და მიღებულია { $productNameNew }.
 subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -210,7 +223,7 @@ subscriptionPaymentExpired-title = თქვენი საკრედიტ�
 subscriptionPaymentExpired-content = { $productName } მომსახურების გადახდებისთვის გამოყენებული საკრეტიდო ბარათს ვადა ეწურება.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } გამოწერა კვლავ ამოქმედებულია
+subscriptionReactivation-subject = გამოწერილი { $productName } კვლავ ამოქმედებულია
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = გმადლობთ, რომ კვლავ გამოიწერეთ { $productName }!

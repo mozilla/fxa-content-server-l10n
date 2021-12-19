@@ -377,9 +377,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = გაუქმება
 add-secondary-email-save-button = შენახვა
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = მე-2 ნაბიჯი 2-დან

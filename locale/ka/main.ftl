@@ -334,7 +334,7 @@ sub-route-idx-cancel-msg-title = სამწუხაროა, რომ გ�
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
-    თქვენი { $name } გამოწერა გაუქმებულია.
+    თქვენ მიერ გამოწერილი { $name } გაუქმებულია.
           <br />
           ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
 sub-route-idx-cancel-aside = კითხვები გაქვთ? იხილეთ <a>{ -brand-name-mozilla } მხარდაჭერა</a>.
@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = ბარათი დაბოლო�
 
 new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
 new-user-step-1 = 1. შექმენით { -brand-name-firefox }-ანგარიში
-new-user-step-2 = 2. შეარჩიეთ გადახდის საშუალება
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = აუცილებელია
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = შეიყვანეთ თქვენი ელფოსტა
