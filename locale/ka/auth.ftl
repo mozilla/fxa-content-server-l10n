@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = გამოწერის გაუქმება
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = გამოწერის კვლავ ამოქმედება
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = ანგარიშსწორების მონაცემების განახლება
 subplat-legal = სამართლებრივი
 subplat-privacy = პირადულობა
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = თუ თქვენ არ შეგიცვლიათ, გთხოვთ, ახლავე გაანულოთ პაროლი ბმულზე { $resetLink }
+cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl")s>მცირე კითხვარი</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 აღდგენის კოდია დარჩენილი
        *[other] { $numberRemaining } აღდგენის კოდია დარჩენილი
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = ახალი შესვლა { $clientName }
-
-##
-
 newDeviceLogin-action = ანგარიშის მართვა
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
@@ -186,6 +187,20 @@ recovery-subject = პაროლის განულება
 recovery-title = გესაჭიროებათ პაროლის განულება?
 recovery-description = დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:
 recovery-action = შეიყვანეთ ახალი პაროლი
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = თქვენი { $productName } გამოწერა გაუქმებულია
+subscriptionAccountDeletion-title = სამწუხაროა, რომ გვტოვებთ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = თქვენ ახლახანს წაშალეთ თქვენი { -product-firefox-account }. შედეგად, ჩვენ გავაუქმეთ თქვენი { $productName }-გამოწერა. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = თქვენი { $productName } გამოწერა გაუქმებულია
+subscriptionCancellation-title = სამწუხაროა, რომ გვტოვებთ
+subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } მომსახურებისთვის საკრედიტო ბარათს ვადა ეწურება
@@ -206,6 +221,8 @@ subscriptionReactivation-content = თქვენი საანგარი�
 subscriptionsPaymentExpired-subject = თქვენი გამოწერების საკრედიტო ბარათს ვადა ეწურება
 subscriptionsPaymentExpired-title = თქვენი საკრედიტო ბარათის ვადა იწურება
 subscriptionsPaymentExpired-content = საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადა ეწურება.
+subscriptionUpgrade-title = გმადლობთ, განახლებისთვის!
+subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 unblockCode-subject = ანგარიშზე დაშვების კოდი
 unblockCode-title = ეს თქვენი შესვლაა?
 unblockCode-prompt = თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი:
@@ -272,10 +289,3 @@ verifyShortCode-subject = დამადასტურებელი კო�
 verifyShortCode-title = ეს ანგარიში თქვენ შექმენით?
 verifyShortCode-prompt = თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.
-cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
-subscriptionAccountDeletion-title = სამწუხაროა, რომ გვტოვებთ
-subscriptionCancellation-title = სამწუხაროა, რომ გვტოვებთ
-subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
-subscriptionUpgrade-title = გმადლობთ, განახლებისთვის!
-subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
-
