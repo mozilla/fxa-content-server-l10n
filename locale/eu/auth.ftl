@@ -35,6 +35,11 @@ subplat-reactivate = Aktibatu berriro harpidetza
 subplat-update-billing = Eguneratu fakturazio-informazioa
 subplat-legal = Lege-oharra
 subplat-privacy = Pribatutasuna
+another-desktop-device = Edo instalatu <a data-l10n-name="anotherDeviceLink">mahaigaineko beste gailu batean</a>.
+another-device = Edo instalatu <a data-l10n-name="anotherDeviceLink">beste gailu batean</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Hau mezu automatiko bat da; zure { -product-firefox-account } kontuan gailu berririk gehitu ez baduzu, pasahitza berehala aldatu beharko zenuke { $passwordChangeLink } helbidean
 automated-email-plaintext = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 change-password-plaintext = Inor zure kontuan sartzen saiatzen ari dela susmatzen baduzu, mesedez aldatu zure pasahitza.
 manage-account = Kudeatu kontua
