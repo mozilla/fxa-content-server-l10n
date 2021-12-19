@@ -433,3 +433,5 @@ tfa-row-change-modal-confirm = Endre
 
 auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
+auth-error-105 = Ugyldig stadfestingskonto
+auth-error-110 = Ugyldig token
