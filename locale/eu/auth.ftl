@@ -2,14 +2,37 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefoxeko kontuak
--product-firefox-account = Firefox kontua
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefoxeko kontuak
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox kontua
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
 fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
+fxa-service-url = { -product-firefox-cloud } Zerbitzuaren baldintzak
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 subplat-privacy-plaintext = Pribatutasun-oharra:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Mezu elektroniko hau jaso duzu { $email }-(e)k { -product-firefox-account } duelako eta { $productName }(e)n erregistratu zarelako.
+subplat-terms-policy = Baldintzak eta bertan behera uzteko politika
+subplat-cancel = Utzi harpidetza
+subplat-reactivate = Aktibatu berriro harpidetza
+subplat-update-billing = Eguneratu fakturazio-informazioa
 subplat-legal = Lege-oharra
 subplat-privacy = Pribatutasuna
 automated-email-plaintext = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
@@ -60,4 +83,3 @@ verifySecondary-post-verification = Egiaztatu ondoren, helbide honetan segurtasu
 verifySecondaryCode-title = Egiaztatu helbide elektroniko alternatiboa
 verifyShortCode-title = Saioa hasten saiatu zara?
 verifyShortCode-prompt = Hala bada, erabili egiaztapen-kode hau erregistratzeko inprimakian:
-
