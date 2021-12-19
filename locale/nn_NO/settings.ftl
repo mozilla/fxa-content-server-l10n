@@ -141,6 +141,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
 
@@ -372,6 +373,14 @@ security-heading = Sikkerheit
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Slå av
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Slå på
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Sender inn...
+switch-is-on = på
+switch-is-off = av
 
 ## Sub-section row Defaults
 
@@ -384,6 +393,7 @@ row-defaults-status = Ingen
 
 rk-header = Gjenopprettingsnøkkel
 rk-enabled = Slått på
+rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
 rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
@@ -401,16 +411,22 @@ se-refresh-email =
 se-unverified = Ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
+# Default value for the secondary email
+se-secondary-email-none = Ingen
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Tostegsverifisering
+tfa-row-disabled = Tostegs-verifisering deaktivert
 tfa-row-enabled = Slått på
+tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-change-modal-heading = Endre gjenopprettingskodar?
 tfa-row-change-modal-confirm = Endre
 
 ## Auth-server based errors that originate from backend service
