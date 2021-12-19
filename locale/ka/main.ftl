@@ -439,3 +439,7 @@ new-user-card-title = შეიყვანეთ თქვენი ბარ�
 new-user-submit = გამოწერა ახლავე
 manage-pocket-title = გსურთ, შეიძინოთ { -brand-name-pocket }-ის რჩეული ვერსია?
 manage-pocket-body = სამართავად <a>დაწკაპეთ აქ</a>.
+payment-method-header = შეარჩიეთ გადახდის საშუალება
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } შეარჩიეთ გადახდის საშუალება
+payment-method-required = აუცილებელია

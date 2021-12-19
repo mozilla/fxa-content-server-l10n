@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-12-19 22:51+0000\n"
+"PO-Revision-Date: 2021-12-19 22:52+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -1931,7 +1931,7 @@ msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "შექმენით ახალი ანგარიშები, თქვენი ელფოსტის გამჟღავნების გარეშე."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
