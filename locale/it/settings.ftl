@@ -35,6 +35,7 @@ alert-bar-close-message = Chiudi messaggio
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -73,6 +74,7 @@ bento-menu-firefox-title = { -brand-firefox } è una tecnologia che combatte per
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Browser { -brand-firefox } per desktop
 bento-menu-firefox-mobile = Browser { -brand-firefox } per dispositivi mobili
 bento-menu-made-by-mozilla = Realizzato da { -brand-mozilla }
@@ -83,6 +85,12 @@ connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
 connect-another-find-fx-mobile =
     Trova { -brand-firefox } in { -google-play } e { -app-store } o
     <br /><linkExternal>invia un link per il download al tuo dispositivo.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Scarica { -brand-firefox } su { -google-play }
+connect-another-app-store-image =
+    .title = Scarica { -brand-firefox } su { -app-store }
 
 ##
 
@@ -346,9 +354,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Annulla
 add-secondary-email-save-button = Salva
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passaggio 2 di 2
@@ -502,6 +507,8 @@ se-resend-code = Da verificare. <button>Ricevi di nuovo il codice di verifica</b
 se-make-primary = Rendi principale
 se-default-content = Usala per accedere all’account se non riesci a effettuare l’accesso con l’email principale.
 se-content-note = Attenzione: non è possibile ripristinare i dati attraverso l’email secondaria. Per questa operazione è necessaria una <a>chiave di recupero</a>.
+# Default value for the secondary email
+se-secondary-email-none = Nessuna
 
 ##
 
@@ -533,6 +540,7 @@ tfa-row-change-modal-explain = Questa azione è irreversibile.
 
 auth-error-102 = Account sconosciuto
 auth-error-103 = Password errata
+auth-error-105 = Codice di verifica non valido
 auth-error-110 = Token non valido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -543,5 +551,7 @@ auth-error-110 = Token non valido
 #                           (for example: "in 15 minutes")
 auth-error-114 = Hai effettuato troppi tentativi errati. Riprova tra { $retryAfter }.
 auth-error-138 = Sessione non verificata
+auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
 auth-error-155 = Token TOTP non trovato
+auth-error-183 = Codice di verifica non valido o scaduto
 auth-error-1008 = La nuova password deve essere diversa

@@ -42,6 +42,7 @@ alert-bar-close-message = Закрыть сообщение
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -80,6 +81,7 @@ bento-menu-firefox-title = { -brand-firefox } — технологии, кото
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Браузер { -brand-firefox } для компьютеров
 bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобильных
 bento-menu-made-by-mozilla = Создано { -brand-mozilla }
@@ -90,6 +92,12 @@ connect-another-fx-mobile = Установите { -brand-firefox } на сво�
 connect-another-find-fx-mobile =
     Найдите { -brand-firefox } в { -google-play } и { -app-store } или
     <br /><linkExternal>отправьте ссылку для загрузки на своё устройство.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Загрузите { -brand-firefox } в { -google-play }
+connect-another-app-store-image =
+    .title = Загрузите { -brand-firefox } в { -app-store }
 
 ##
 
@@ -370,9 +378,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Отмена
 add-secondary-email-save-button = Сохранить
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Шаг 2 из 2
@@ -533,6 +538,8 @@ se-resend-code =
 se-make-primary = Сделать основным
 se-default-content = Получите доступ к своему аккаунту, если вы не можете войти в свой основной адрес электронной почты.
 se-content-note = Примечание: дополнительный адрес электронной почты не восстановит вашу информацию — для этого вам понадобится <a>ключ восстановления</a>.
+# Default value for the secondary email
+se-secondary-email-none = Нет
 
 ##
 
@@ -568,6 +575,7 @@ tfa-row-change-modal-explain = Вы не сможете отменить это 
 
 auth-error-102 = Неизвестный аккаунт
 auth-error-103 = Неверный пароль
+auth-error-105 = Неверный код подтверждения
 auth-error-110 = Некорректный токен
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -578,5 +586,7 @@ auth-error-110 = Некорректный токен
 #                           (for example: "in 15 minutes")
 auth-error-114 = Вы сделали слишком много попыток. Попробуйте снова через { $retryAfter }.
 auth-error-138 = Неподтверждённая сессия
+auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
 auth-error-155 = TOTP-токен не найден
+auth-error-183 = Неверный или истёкший код подтверждения
 auth-error-1008 = Ваш новый пароль должен быть другим

@@ -49,6 +49,7 @@ alert-bar-close-message = შეტყობინების დახურ�
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -87,6 +88,7 @@ bento-menu-firefox-title = { -brand-firefox } არის ტექკომპ
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
 bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
@@ -97,6 +99,12 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 connect-another-find-fx-mobile =
     მონახეთ { -brand-firefox } მაღაზიებში { -google-play } და { -app-store } ან
     <br /><linkExternal>გაგზავნეთ ჩამოსატვირთი ბმული თქვენს მოწყობილობაზე.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = ჩამოტვირთეთ { -brand-firefox }, გამოიყენეთ { -google-play }
+connect-another-app-store-image =
+    .title = ჩამოტვირთეთ { -brand-firefox }, გამოიყენეთ { -app-store }
 
 ##
 
@@ -377,9 +385,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = გაუქმება
 add-secondary-email-save-button = შენახვა
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = მე-2 ნაბიჯი 2-დან
@@ -542,6 +547,8 @@ se-default-content = მიიღეთ თქვენს ანგარიშ
 se-content-note =
     გაითვალისწინეთ: დამატებითი ელფოსტა ვერ აღადგენს თქვენს მონაცემებს — ამისთვის
     დაგჭირდებათ <a>აღდგენის გასაღები</a>.
+# Default value for the secondary email
+se-secondary-email-none = ცარიელი
 
 ##
 
@@ -575,6 +582,7 @@ tfa-row-change-modal-explain = ეს ქმედება შეუქცე�
 
 auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
+auth-error-105 = არასწორი დამადასტურებელი კოდი
 auth-error-110 = უმართებულო სიტყვა-ნიშანი
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -585,5 +593,7 @@ auth-error-110 = უმართებულო სიტყვა-ნიშა�
 #                           (for example: "in 15 minutes")
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-138 = დაუმოწმებელი სეანსი
+auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-ნიშანი ვერ მოიძებნა
+auth-error-183 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს

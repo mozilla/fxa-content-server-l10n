@@ -1941,7 +1941,7 @@ msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Créez de nouveaux comptes sans transmettre votre adresse électronique."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"

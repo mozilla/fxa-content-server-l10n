@@ -39,6 +39,7 @@ alert-bar-close-message = Fermer le message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -77,6 +78,7 @@ bento-menu-firefox-title = { -brand-firefox } est une technologie qui lutte pour
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navigateur { -brand-firefox } pour ordinateur
 bento-menu-firefox-mobile = Navigateur { -brand-firefox } pour mobile
 bento-menu-made-by-mozilla = Conçu par { -brand-mozilla }
@@ -87,6 +89,12 @@ connect-another-fx-mobile = Installez { -brand-firefox } sur mobile ou tablette
 connect-another-find-fx-mobile =
     Recherchez { -brand-firefox } sur { -google-play } ou l’{ -app-store } ou
     <br /><linkexternal>envoyez un lien de téléchargement sur votre appareil.</linkexternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Télécharger { -brand-firefox } sur { -google-play }
+connect-another-app-store-image =
+    .title = Télécharger { -brand-firefox } sur l’{ -app-store }
 
 ##
 
@@ -541,6 +549,7 @@ tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
 
 auth-error-102 = Compte inconnu
 auth-error-103 = Mot de passe incorrect
+auth-error-105 = Code de vérification invalide
 auth-error-110 = Jeton invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -551,5 +560,7 @@ auth-error-110 = Jeton invalide
 #                           (for example: "in 15 minutes")
 auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
 auth-error-138 = Session non vérifiée
+auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable
+auth-error-183 = Code de vérification invalide ou expiré
 auth-error-1008 = Votre nouveau mot de passe doit être différent

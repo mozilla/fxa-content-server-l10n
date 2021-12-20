@@ -31,6 +31,7 @@ alert-bar-close-message = Lat att melding
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din r
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
@@ -136,6 +138,10 @@ datablock-copy =
     .message = Kopiert
 datablock-print =
     .message = Skrive ut
+
+## Data collection section
+
+dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
 
@@ -307,9 +313,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Lagre
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-page-title =
@@ -368,6 +371,17 @@ profile-primary-email =
 
 security-heading = Sikkerheit
 
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Slå av
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Slå på
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Sender inn...
+switch-is-on = på
+switch-is-off = av
+
 ## Sub-section row Defaults
 
 row-defaults-action-add = Legg til
@@ -379,6 +393,7 @@ row-defaults-status = Ingen
 
 rk-header = Gjenopprettingsnøkkel
 rk-enabled = Slått på
+rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
 rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
@@ -396,19 +411,27 @@ se-refresh-email =
 se-unverified = Ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
+# Default value for the secondary email
+se-secondary-email-none = Ingen
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Tostegsverifisering
+tfa-row-disabled = Tostegs-verifisering deaktivert
 tfa-row-enabled = Slått på
+tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-change-modal-heading = Endre gjenopprettingskodar?
 tfa-row-change-modal-confirm = Endre
 
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
+auth-error-105 = Ugyldig stadfestingskonto
+auth-error-110 = Ugyldig token

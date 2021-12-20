@@ -401,3 +401,6 @@ new-user-email =
     .label = Skriv inn e-postadressa di
 new-user-confirm-email =
     .label = Stadfest e-postadressa di
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Vel betalingsmåte
+payment-method-required = Påkravd

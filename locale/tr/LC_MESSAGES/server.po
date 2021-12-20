@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -325,11 +325,11 @@ msgstr "%(productName)s uygulamasına hoş geldiniz"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
 msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Sonra bir Firefox hesabı açacak ve %(productName)s yazılımını indireceksiniz."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -355,7 +355,7 @@ msgstr "Birkaç gün önce Firefox Hesabı açtınız ama hesabınızı henüz d
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Yeni parola belirlemek için “Parola oluştur” seçerek hesabınızı doğrulamayı tamamlayın."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
+msgstr "Birkaç gün içinde ödeme almayı tekrar deneyeceğiz. Sorunu gidermek için ödeme bilgilerinizi güncellemeniz gerekebilir:"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
@@ -517,7 +517,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını <a href=\"%(updateBillingUrl)s\">buradan</a> kontrol edebilirsiniz."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
@@ -535,7 +535,7 @@ msgstr "%(productName)s ekibi"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını buradan kontrol edebilirsiniz:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
@@ -970,7 +970,7 @@ msgstr "Yeni kurtarma anahtarı oluştur"
 
 #: lib/senders/email.js:2034
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
+msgstr "%(productName)s hizmetine hoş geldiniz: Lütfen parolanızı belirleyin."
 
 #: lib/senders/email.js:2107
 msgid "You have upgraded to %(productNameNew)s"
@@ -1134,11 +1134,10 @@ msgstr "Son sürümü indir"
 #~ msgstr "Öncelikle Firefox Hesabı parolanızı değiştirin."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr ""
-#~ "Ardından, Firefox’ta web sitelerine ait parolaları kaydettiyseniz o parolaları da değiştirmelisiniz. Saldırganlar o parolaları erişmiş olabilir. O hesaplarda da şüpheli bir etkinlik olup "
-#~ "olmadığını kontrol etmelisiniz."
+#~ "Ardından, Firefox’ta web sitelerine ait parolaları kaydettiyseniz o parolaları da değiştirmelisiniz. Saldırganlar o parolaları erişmiş olabilir. O hesaplarda da şüpheli bir etkinlik olup olmadığını "
+#~ "kontrol etmelisiniz."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "Firefox’ta hangi parolaları depoladığınızı öğrenin."
@@ -1183,8 +1182,8 @@ msgstr "Son sürümü indir"
 #~ msgstr "Yakın zamanda Firefox Hesabınızı sildiniz. Bu nedenle %(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s$ tutarındaki son ödemeniz %(invoiceDateOnly)s tarihinde ödendi."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "%(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s $ tutarındaki son ödemenizi %(invoiceDateOnly)s tarihinde almıştık. Ödediğiniz dönemin son günü olan %(serviceLastActiveDateOnly)s "
 #~ "tarihine kadar hizmetiniz devam edecektir."
@@ -1292,8 +1291,8 @@ msgstr "Son sürümü indir"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
-#~ "Snc’e giriş yapabilirsiniz."
+#~ "İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan Snc’e"
+#~ " giriş yapabilirsiniz."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş yapabilirsiniz."
@@ -1589,8 +1588,8 @@ msgstr "Son sürümü indir"
 #~ msgstr "Parolanızı sıfırlayın"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
 #~ "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
@@ -1619,8 +1618,7 @@ msgstr "Son sürümü indir"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızdan ikinci e-posta olarak kaldırdınız. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "%(secondaryEmail)s adresinizi Firefox Hesabınızın ikinci e-posta adresi olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki e-posta adresine birden gönderilecektir."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
