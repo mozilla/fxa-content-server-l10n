@@ -20,6 +20,9 @@
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
+# Other brands
+-brand-paypal = PayPal
+
 ## Email content
 
 fxa-privacy-url = { -brand-mozilla } Privacy Policy
@@ -78,6 +81,14 @@ user-ip = IP address: { $ip }
 manage-account = Manage account
 manage-account-plaintext = { manage-account }:
 
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Payment Method:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } card ending in { $lastFour }
+
 subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
@@ -89,6 +100,16 @@ subscriptionUpdatePayment-plaintext = To prevent any interruption to your servic
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = For more information, please visit { $supportUrl }
+
+updateBilling = We’ll try your payment again over the next few days, but you may need to help us fix it by <a data-l10n-name="updateBillingUrl">updating your payment information</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:
+
+view-invoice = <a data-l10n-name="invoiceLink">View your invoice</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = View Invoice: { $invoiceLink }
 
 cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
 cadReminderFirst-action = Sync another device
@@ -259,11 +280,54 @@ subscriptionDowngrade-content-auto-renew = Your subscription will automatically 
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } payment confirmed
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Thank you for subscribing to { $productName }
+subscriptionFirstInvoice-content-processing = Your payment is currently processing and may take up to four business days to complete.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = You will receive a separate email with download instructions on how to start using { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Invoice Number: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Invoice Number: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Charged { $invoiceTotal } on { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
+
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Credit card for { $productName } expiring soon
 subscriptionPaymentExpired-title = Your credit card is about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = The credit card you’re using to make payments for { $productName } is about to expire.
+
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } payment failed
+subscriptionPaymentFailed-title = Sorry, we’re having trouble with your payment
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = We had a problem with your latest payment for { $productName }.
+subscriptionPaymentFailed-content-outdated = It may be that your credit card has expired, or your current payment method is out of date.
+
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Payment information update required for { $productName }
+subscriptionPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = We have detected a problem with your payment method for { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = It may be that your credit card has expired, or your current payment method is out of date.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -279,6 +343,35 @@ subscriptionReactivation-content = Your billing cycle and payment will remain th
 subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
 subscriptionsPaymentExpired-title = Your credit card is about to expire
 subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
+
+subscriptionsPaymentProviderCancelled-subject = Payment information update required for { -brand-mozilla } subscriptions
+subscriptionsPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
+subscriptionsPaymentProviderCancelled-content-detected = We have detected a problem with your payment method for the following subscriptions.
+subscriptionsPaymentProviderCancelled-content-payment = It may be that your credit card has expired, or your current payment method is out of date.
+
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } payment received
+subscriptionSubsequentInvoice-title = Thank you for being a subscriber!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = We received your latest payment for { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Invoice Number: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Invoice Number: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Plan change: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Charged { $invoiceTotal } on { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
 
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -31,6 +31,7 @@ alert-bar-close-message = Stäng meddelande
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } är teknik som kämpar för din in
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser för datorer
 bento-menu-firefox-mobile = { -brand-firefox } Browser för mobiler
 bento-menu-made-by-mozilla = Skapad av { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Hämta { -brand-firefox } till mobil eller surfplatt
 connect-another-find-fx-mobile =
     Hitta { -brand-firefox } i { -google-play } och { -app-store } eller
     <br /><linkExternal>skicka en nedladdningslänk till din enhet.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Ladda ner { -brand-firefox } på { -google-play }
+connect-another-app-store-image =
+    .title = Ladda ner { -brand-firefox } på { -app-store }
 
 ##
 
@@ -359,9 +367,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Spara
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Steg 2 av 2
@@ -524,6 +529,8 @@ se-default-content = Få åtkomst till ditt konto om du inte kan logga in med di
 se-content-note =
     Obs! En sekundär e-postadress återställer inte din information — du behöver
     en <a>återställningsnyckel</a> för det.
+# Default value for the secondary email
+se-secondary-email-none = Ingen
 
 ##
 
@@ -559,6 +566,7 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 auth-error-102 = Okänt konto
 auth-error-103 = Felaktigt lösenord
+auth-error-105 = Ogiltig verifieringskod
 auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -569,5 +577,7 @@ auth-error-110 = Ogiltig tecken
 #                           (for example: "in 15 minutes")
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-138 = Overifierad session
+auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
+auth-error-183 = Ogiltig eller upphörd verifieringskod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda

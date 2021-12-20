@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 22:07+0000\n"
-"PO-Revision-Date: 2021-11-16 00:52+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"PO-Revision-Date: 2021-12-13 19:28+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1930,11 +1930,11 @@ msgstr "Spara och upptäck de bästa historierna från hela webben."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Registrera dig för nya konton utan att lämna ut din e-postadress."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
