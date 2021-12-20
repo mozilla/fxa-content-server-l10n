@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Laden Sie { -brand-firefox } auf { -google-play } herunter
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Laden Sie { -brand-firefox } im { -app-store } herunter
 
 ##
@@ -241,6 +241,8 @@ tfa-replace-code-success =
     zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
     Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
 tfa-replace-code-success-alert = Kontowiederherstellungscodes aktualisiert.
+tfa-replace-code-1-2 = Schritt 1 von 2
+tfa-replace-code-2-2 = Schritt 2 von 2
 
 ## Avatar change page
 
