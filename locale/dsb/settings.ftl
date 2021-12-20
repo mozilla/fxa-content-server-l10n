@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Ześěgniśo { -brand-firefox } wót { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ##
@@ -243,6 +243,8 @@ tfa-replace-code-success =
     na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
     swój mobilny rěd.
 tfa-replace-code-success-alert = Kontowe wótnowjeńske kody su se zaktualizěrowali.
+tfa-replace-code-1-2 = Kšac 1 z 2
+tfa-replace-code-2-2 = Kšac 2 z 2
 
 ## Avatar change page
 
