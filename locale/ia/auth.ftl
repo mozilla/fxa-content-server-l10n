@@ -74,6 +74,10 @@ manage-account-plaintext = { manage-account }:
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Methodo de pagamento:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Carta de credito { $cardType } que termina con { $lastFour }
 subscriptionSupport = Questiones re tu subscription? Nostre <a data-l10n-name="subscriptionSupportUrl">equipa de assistentia</a> es hic pro adjutar te.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:
@@ -83,6 +87,7 @@ subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servici
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Pro altere informationes visita { $supportUrl }
+updateBilling = Nos tentara tu pagamento de novo poc dies proxime, ma tu pote deber adjutar nos a corriger lo <a data-l10n-name="updateBillingUrl">actualisante tu informationes de pagamento</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 updateBilling-plaintext = Nos provara tu pagamento de novo in le sequente poc dies, ma tu pote deber adjutar nos a corriger lo, actualisante tu informationes de pagamento:
 view-invoice = <a data-l10n-name="invoiceLink">Vide tu factura</a>.
@@ -253,6 +258,10 @@ subscriptionFirstInvoice-content-invoice-number = Numero de factura: <b>{ $invoi
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Numero de factura : { $invoiceNumber }
 # Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = { $invoiceTotal } facturate le { $invoiceDateOnly }
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
 # Variables:
@@ -308,6 +317,16 @@ subscriptionSubsequentInvoice-content-invoice-number = Numero de factura: <b>{ $
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Numero de factura: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Plano de facturation: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } facturate le { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tu ha promovite a { $productNameNew }.
