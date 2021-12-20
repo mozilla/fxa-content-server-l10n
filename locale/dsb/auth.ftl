@@ -17,6 +17,8 @@
 -product-firefox-account = Konto Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wa
 user-ip = IP-adresa: { $ip }
 manage-account = Konto zastojaś
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Płaśeńska metoda:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Kórta { $cardType } se na { $lastFour } kóńcy
 subscriptionSupport = Maśo pšašanja wó swójom abonemenśe? Naš <a data-l10n-name="subscriptionSupportUrl">team pomocy</a> jo how, aby wam pomagał.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Maśo pšašanja wó swójom abonemenśe? Naš team pomocy jo how, aby wam pomagał:
@@ -78,6 +87,14 @@ subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wo
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Za dalšne informacije woglědajśo se pšosym k %(supportUrl)s
+updateBilling = Buźomy wopytowaś, wašo płaśenje za pśiduce dny znowego pśewjasć, ale musyśo snaź <a data-l10n-name="updateBillingUrl">swóje płaśeńske informacije aktualizěrowaś</a>, aby nam pomagali, problem rozwězaś.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Buźomy wopytowaś, wašo płaśenje za pśiduce dny znowego pśewjasć, ale musyśo snaź swóje płaśeńske informacije aktualizěrowaś, aby nam pomagali, problem rozwězaś.
+view-invoice = <a data-l10n-name="invoiceLink">Wašu zliceńku pokazaś</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Zliceńku pokazaś: { $invoiceLink }
 cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
 cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
@@ -225,6 +242,17 @@ subscriptionDowngrade-content-charge = Zachopinajucy z wašeju pśiduceju zlice�
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productNameNew } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
 subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Płaśenje { $productName } wobkšuśone
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Wjeliki źěk, až sćo aboněrował { $productName }
+subscriptionFirstInvoice-content-processing = Wašo płaśenje se tuchylu pśeźěłujo a móžo až do styrich wobchodnych dnjow traś.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami a wó tom, kak móžośo { $productName } wužywaś.
+subscriptionFirstInvoice-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditowa kórta za { $productName } skóro spadnjo
