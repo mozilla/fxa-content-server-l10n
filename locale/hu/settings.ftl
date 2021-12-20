@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = A { -brand-firefox } letöltése a { -google-play }ből
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = A { -brand-firefox } letöltése az { -app-store }-ból
 
 ##
@@ -241,6 +241,8 @@ tfa-replace-code-success =
     kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
     nélkül kell hozzáférnie a fiókjához.
 tfa-replace-code-success-alert = Fiók-helyreállítási kódok frissítve.
+tfa-replace-code-1-2 = 1. / 2. lépés
+tfa-replace-code-2-2 = 2. / 2. lépés
 
 ## Avatar change page
 
