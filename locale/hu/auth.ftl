@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-fiók
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáf�
 user-ip = IP-cím: { $ip }
 manage-account = Fiók kezelése
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Fizetési mód:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = %(lastFour)s végződésű { $cardType } kártya
 subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:
@@ -78,6 +87,10 @@ subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekébe
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = További információkért keresse fel a { $supportUrl } oldalt
+updateBilling = A következő napokban újra megpróbáljuk a befizetését, de előfordulhat, hogy segítenie kell nekünk a <a data-l10n-name="updateBillingUrl">fizetési információinak frissítésével</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = A következő napokban újra megpróbáljuk a befizetését, de előfordulhat, hogy segítenie kell nekünk a fizetési információinak frissítésével:
+view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
 cadReminderFirst-subject = Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását
 cadReminderFirst-action = Másik eszköz szinkronizálása
 cadReminderFirst-title = Itt az emlékeztető, hogy szinkronizálja az eszközeit.
