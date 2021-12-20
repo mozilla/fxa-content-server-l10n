@@ -116,7 +116,9 @@ connect-another-find-fx-mobile =
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
-    .title = Prenesite { -brand-firefox } z { -google-play }
+    .title = Prenesite { -brand-firefox } iz trgovine { -google-play }
+connect-another-app-store-image-2 =
+    .title = Prenesite { -brand-firefox } iz trgovine { -app-store }
 
 ##
 
@@ -271,6 +273,8 @@ tfa-replace-code-success =
     uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
     računa, če ne boste imeli mobilne naprave.
 tfa-replace-code-success-alert = Kode za obnovitev računa posodobljene.
+tfa-replace-code-1-2 = Korak 1 od 2
+tfa-replace-code-2-2 = Korak 2 od 2
 
 ## Avatar change page
 
@@ -555,6 +559,8 @@ se-default-content = Obdržite dostop do svojega računa v primeru, da se ne mor
 se-content-note =
     Opomba: pomožni e-poštni naslov ne bo obnovil vaših podatkov – za to
     boste potrebovali <a>obnovitveni ključ</a>.
+# Default value for the secondary email
+se-secondary-email-none = Brez
 
 ##
 
@@ -590,6 +596,7 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
+auth-error-105 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -600,5 +607,7 @@ auth-error-110 = Neveljaven žeton
 #                           (for example: "in 15 minutes")
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-138 = Nepreverjena seja
+auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
+auth-error-183 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno
