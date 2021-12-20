@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,9 @@ change-password-plaintext = Si tu suspecta que alcuno tenta ganiar accesso a tu 
 user-ip = Adresse IP: { $ip }
 manage-account = Gerer le conto
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Methodo de pagamento:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = Questiones re tu subscription? Nostre <a data-l10n-name="subscriptionSupportUrl">equipa de assistentia</a> es hic pro adjutar te.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:
