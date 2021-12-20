@@ -63,6 +63,7 @@ alert-bar-close-message = Zapri sporočilo
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -101,6 +102,7 @@ bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vaš
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
 bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
@@ -111,6 +113,10 @@ connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tabli
 connect-another-find-fx-mobile =
     Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali
     <br /><linkExternal>si pošlite povezavo za prenos na napravo</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Prenesite { -brand-firefox } z { -google-play }
 
 ##
 
@@ -388,9 +394,6 @@ add-secondary-email-enter-address =
     .label = Vnesite e-poštni naslov
 add-secondary-email-cancel-button = Prekliči
 add-secondary-email-save-button = Shrani
-
-##
-
 
 ## Verify secondary email page
 
