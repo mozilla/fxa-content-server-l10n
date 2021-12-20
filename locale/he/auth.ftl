@@ -304,7 +304,24 @@ subscriptionSubsequentInvoice-content-invoice-number = מספר חשבונית: 
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = מספר חשבונית: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = שינוי תוכנית: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = חיוב של { $invoiceTotal } בתאריך { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = שידרגת ל־{ $productNameNew }
 subscriptionUpgrade-title = תודה ששידרגת!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = שידרגת בהצלחה מ־{ $productNameOld } ל־{ $productNameNew }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
