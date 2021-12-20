@@ -17,6 +17,8 @@
 -product-firefox-account = Cuenta de Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,9 @@ change-password-plaintext = Si sospechas que alguien está tratando de acceder a
 user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Método de pago:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = ¿Preguntas acerca de tu suscripción? Nuestro <a data-l10n-name="subscriptionSupportUrl">equipo de soporte</a> está aquí para ayudarte.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de asistencia está aquí para ayudarte:
@@ -78,6 +83,11 @@ subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Para obtener más información, visita { $supportUrl }
+view-invoice = <a data-l10n-name="invoiceLink">Ver tu factura</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Ver factura: { $invoiceLink }
 cadReminderFirst-subject = Un amable recordatorio: Cómo completar tus ajustes de sincronización
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositivos.
@@ -225,6 +235,9 @@ subscriptionDowngrade-content-install = Si hay un nuevo software que debes insta
 subscriptionDowngrade-content-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación a menos que quieras cancelar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Gracias por suscribirte a { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La tarjeta de crédito para { $productName } vence pronto
 subscriptionPaymentExpired-title = Tu tarjeta de crédito ya va a expirar
 # Variables:
@@ -243,6 +256,9 @@ subscriptionReactivation-content = Tu ciclo de facturación y pago seguirá sien
 subscriptionsPaymentExpired-subject = La tarjeta de crédito para tus suscripciones caduca pronto
 subscriptionsPaymentExpired-title = Tu tarjeta de crédito ya va a expirar
 subscriptionsPaymentExpired-content = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está a punto de caducar.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Has actualizado a { $productNameNew }.
