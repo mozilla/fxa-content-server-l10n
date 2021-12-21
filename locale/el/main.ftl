@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $la
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
 new-user-step-1 = 1. Δημιουργήστε έναν λογαριασμό { -brand-name-firefox }
-new-user-step-2 = 2. Επιλέξτε τη μέθοδο πληρωμής σας
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Απαιτείται
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Εισαγάγετε το email σας
@@ -441,3 +439,4 @@ new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτ
 new-user-submit = Συνδρομή τώρα
 manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
 manage-pocket-body = Για διαχείριση, <a>κάντε κλικ εδώ</a>.
+payment-method-required = Απαιτείται
