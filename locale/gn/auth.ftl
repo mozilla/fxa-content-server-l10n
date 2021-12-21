@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox Account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
