@@ -65,7 +65,7 @@ automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nět
 cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl")s>krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby polěpšić:
-change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup na waše konto dóstać, prošu změńće swoje hesło.
+change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup k wašemu kontu dóstać, prošu změńće swoje hesło.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-adresa: { $ip }
