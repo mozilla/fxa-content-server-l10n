@@ -395,6 +395,9 @@ payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 
 ## new user email form
 
 new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = נא להכניס את הדוא״ל שלך
@@ -407,3 +410,6 @@ new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 new-user-submit = הרשמה כמינוי כעת
 manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
 manage-pocket-body = כדי לנהל אותו, <a>יש ללחוץ כאן</a>.
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } בחירת אמצעי התשלום שלך
+payment-method-required = נדרש

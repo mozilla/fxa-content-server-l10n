@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-07-29 22:20+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2941
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
 msgid "Here's your reminder to sync devices."
 msgstr "Ha-t-a usmekti-inek/inem i umtawi n yibenkan."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Ilaq ad ilin ssin i wemtawi. Amtawi n ufecku-nniḍen akked firefox ad yeḥrez ticraḍ n isebtar, awalen uffiren akked isefka-nniḍen n Firefox di yal taswiɛt d yal amkan deg ara tesqedceḍ Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
 msgid "Last reminder to sync devices!"
 msgstr "Asmekti aneggaru i umtawi n yibenkan!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Amtawi n yibenk-nniḍen s tbaḍnit n Firefox ad iǧǧ ticraḍ-ik•im n yisebtar awalen uffiren d yisefka-nniḍen n Firefox d widak kan, ur ttbeddilen ara anida tebɣuḍ tesqedceḍ Firefox."
 
@@ -66,7 +66,7 @@ msgstr "Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirwe�
 msgid "Generate codes:"
 msgstr "Sirew tingalin:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1400
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1402
 msgid "New sign-in to %(clientName)s"
 msgstr "Tuqqna tamaynut ɣer %(clientName)s"
 
@@ -150,7 +150,7 @@ msgstr "Rnu tasarutt n tririt tamaynut:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Ugar n telɣut, ddu ɣer %(supportUrl)s"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1836
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1838
 msgid "Account recovery key generated"
 msgstr "Tasarutt n tririt n umiḍan tettusirew"
 
@@ -210,7 +210,7 @@ msgstr "Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:"
 msgid "Consumed recovery code"
 msgstr "Teččiḍ tangalt n tririt"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1692
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1694
 msgid "New recovery codes generated"
 msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
 
@@ -218,7 +218,7 @@ msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1886
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1888
 msgid "Account recovery key removed"
 msgstr "Tasarutt n tririt n umiḍan tettwakkes"
 
@@ -234,7 +234,7 @@ msgstr "Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr 
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1566
 msgid "Secondary email removed"
 msgstr "Imay wis sin ittwakkes"
 
@@ -270,7 +270,7 @@ msgstr "Amtawi i d-iteddun, gar yibenkan-inek/inem!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n Firefox d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1446
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1448
 msgid "Set up next device"
 msgstr "Sbadu ibenk-nniḍen"
 
@@ -278,7 +278,7 @@ msgstr "Sbadu ibenk-nniḍen"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1494
 msgid "Secondary email added"
 msgstr "Imay wis sin ittwarna"
 
@@ -294,7 +294,7 @@ msgstr "Tesriḍ tulsa uwennez n wawal uffir inek?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1243
 msgid "Create new password"
 msgstr "Sekcem awal uffir amaynut"
 
@@ -319,7 +319,7 @@ msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki de
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2910
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
 msgid "Welcome to %(productName)s"
 msgstr "Ansuf ɣer %(productName)s"
 
@@ -645,7 +645,7 @@ msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqq
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "I ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi seg yibenk agi:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:932
 msgid "Confirm sign-in"
 msgstr "Sentem tuqqna"
 
@@ -837,208 +837,208 @@ msgstr "Sefsex ijerriden:"
 msgid "Update billing information:"
 msgstr "Aleqqem n telɣut n ufter:"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:349
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s di %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:354
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s di %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:380
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:387
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:392
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:397
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ahat)"
 
-#: lib/senders/email.js:604
+#: lib/senders/email.js:605
 msgid "Finish creating your account"
 msgstr "Fak timerna n umiḍan-ik"
 
-#: lib/senders/email.js:605 lib/senders/email.js:742
+#: lib/senders/email.js:606 lib/senders/email.js:743
 msgid "Confirm email"
 msgstr "Sentem imayl"
 
-#: lib/senders/email.js:672
+#: lib/senders/email.js:673
 msgid "Verification code: %(code)s"
 msgstr "Tangalt n usenqed: %(code)s"
 
-#: lib/senders/email.js:722
+#: lib/senders/email.js:723
 msgid "Reminder: Finish creating your account"
 msgstr "Asmekti: Fak timerna n umiḍan-ik"
 
-#: lib/senders/email.js:724
+#: lib/senders/email.js:725
 msgid "Final reminder: Activate your account"
 msgstr "Asmekti aneggaru: Rmed amiḍan-ik"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:776
 msgid "Reminder: Finish setting up your account"
 msgstr ""
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:778
 msgid "Final reminder: Setup your account"
 msgstr ""
 
-#: lib/senders/email.js:817 lib/senders/email.js:2027
+#: lib/senders/email.js:820 lib/senders/email.js:2031
 msgid "Create a password"
 msgstr "Rnu awal uffir"
 
-#: lib/senders/email.js:854
+#: lib/senders/email.js:856
 msgid "Account authorization code"
 msgstr "Tangalt n tsiregt n umiḍan"
 
-#: lib/senders/email.js:927
+#: lib/senders/email.js:929
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Sentem tuqqna tamaynut ɣer %(clientName)s"
 
-#: lib/senders/email.js:976
+#: lib/senders/email.js:978
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Tangalt n tuqqna i %(serviceName)s"
 
-#: lib/senders/email.js:1045
+#: lib/senders/email.js:1047
 msgid "Confirm primary email"
 msgstr "Sentem tansa tagejdant"
 
-#: lib/senders/email.js:1046 lib/senders/email.js:1109 lib/senders/email.js:1181
+#: lib/senders/email.js:1048 lib/senders/email.js:1111 lib/senders/email.js:1183
 msgid "Verify email"
 msgstr "Seqed tansa-inek imayl"
 
-#: lib/senders/email.js:1108 lib/senders/email.js:1180
+#: lib/senders/email.js:1110 lib/senders/email.js:1182
 msgid "Confirm secondary email"
 msgstr "Sentem tansa tis snat"
 
-#: lib/senders/email.js:1240
+#: lib/senders/email.js:1242
 msgid "Reset your password"
 msgstr "Wennez awal uffir-ik"
 
-#: lib/senders/email.js:1286 lib/senders/email.js:1357
+#: lib/senders/email.js:1288 lib/senders/email.js:1359
 msgid "Password updated"
 msgstr "Awal uffir yettuleqqem"
 
-#: lib/senders/email.js:1328
+#: lib/senders/email.js:1330
 msgid "Suspicious activity detected"
 msgstr "Armud anida yella ccek yettwaf"
 
-#: lib/senders/email.js:1401 lib/senders/email.js:1493 lib/senders/email.js:1529 lib/senders/email.js:1565 lib/senders/email.js:1599 lib/senders/email.js:1646 lib/senders/email.js:1693
-#: lib/senders/email.js:1740 lib/senders/email.js:1837 lib/senders/email.js:1887
+#: lib/senders/email.js:1403 lib/senders/email.js:1495 lib/senders/email.js:1531 lib/senders/email.js:1567 lib/senders/email.js:1601 lib/senders/email.js:1648 lib/senders/email.js:1695
+#: lib/senders/email.js:1742 lib/senders/email.js:1839 lib/senders/email.js:1889
 msgid "Manage account"
 msgstr "Sefrek amiḍan"
 
-#: lib/senders/email.js:1441
+#: lib/senders/email.js:1443
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded"
 
-#: lib/senders/email.js:1528
+#: lib/senders/email.js:1530
 msgid "Primary email updated"
 msgstr "Imayl amezwaru ittuleqqem"
 
-#: lib/senders/email.js:1598
+#: lib/senders/email.js:1600
 msgid "Two-step verification enabled"
 msgstr "Asesteb s snat n tarrayin yermed"
 
-#: lib/senders/email.js:1645
+#: lib/senders/email.js:1647
 msgid "Two-step verification is off"
 msgstr "Asesteb s snat n tarrayin yensa"
 
-#: lib/senders/email.js:1739
+#: lib/senders/email.js:1741
 msgid "Recovery code used"
 msgstr "Tangalt n usellek tettwaseqdec"
 
-#: lib/senders/email.js:1799
+#: lib/senders/email.js:1801
 msgid "1 recovery code remaining"
 msgstr "Qqiment-d 1 n tigalin n usellek"
 
-#: lib/senders/email.js:1801
+#: lib/senders/email.js:1803
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s tigalin n usellek id-yeqqimen"
 
-#: lib/senders/email.js:1804
+#: lib/senders/email.js:1806
 msgid "Generate codes"
 msgstr "Sirew tingalin"
 
-#: lib/senders/email.js:1936
+#: lib/senders/email.js:1938
 msgid "Password updated using recovery key"
 msgstr "Awal uffir ibeddel s tsarut n tririt"
 
-#: lib/senders/email.js:1937
+#: lib/senders/email.js:1939
 msgid "Create new recovery key"
 msgstr "Rnu tasarutt n tririt tamaynut"
 
-#: lib/senders/email.js:2030
+#: lib/senders/email.js:2034
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr ""
 
-#: lib/senders/email.js:2103
+#: lib/senders/email.js:2107
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Tleqqmeḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:2182
+#: lib/senders/email.js:2186
 msgid "You have switched to %(productNameNew)s"
 msgstr "Tbeddleḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:2247
+#: lib/senders/email.js:2251
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Takarḍa n usmad i %(productName)s qrib ad temmet"
 
-#: lib/senders/email.js:2261
+#: lib/senders/email.js:2265
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Takarḍa n usmad n yijerriden-ik•im qrib ad temmet"
 
-#: lib/senders/email.js:2312
+#: lib/senders/email.js:2316
 msgid "Payment information update required for %(productName)s"
 msgstr "Aleqqem n telɣut n lexlaṣ tettusra i %(productName)s"
 
-#: lib/senders/email.js:2328
+#: lib/senders/email.js:2332
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Aleqqem n telɣut n lexlaṣ tettusra i yimultaɣ n Mozilla"
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2378
 msgid "%(productName)s payment failed"
 msgstr "Axelleṣ n %(productName)s yecceḍ"
 
-#: lib/senders/email.js:2425 lib/senders/email.js:2490 lib/senders/email.js:2551
+#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
-#: lib/senders/email.js:2608
+#: lib/senders/email.js:2612
 msgid "%(productName)s subscription reactivated"
 msgstr "Ajerred n %(productName)s yettwarmed"
 
-#: lib/senders/email.js:2664
+#: lib/senders/email.js:2668
 msgid "%(productName)s automatic renewal notice"
 msgstr "Alɣu allus awurman n %(productName)s"
 
-#: lib/senders/email.js:2744
+#: lib/senders/email.js:2748
 msgid "%(productName)s payment received"
 msgstr "Lexlaṣ n %(productName)s yettwarmes"
 
-#: lib/senders/email.js:2836
+#: lib/senders/email.js:2840
 msgid "%(productName)s payment confirmed"
 msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
-#: lib/senders/email.js:2911
+#: lib/senders/email.js:2915
 msgid "Download %(productName)s"
 msgstr "Sader %(productName)s"
 
-#: lib/senders/email.js:2937
+#: lib/senders/email.js:2941
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi"
 
-#: lib/senders/email.js:2938
+#: lib/senders/email.js:2942
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Asmekti aneggaru: Asebded ummid n umtawa"
 
-#: lib/senders/email.js:2952
+#: lib/senders/email.js:2956
 msgid "Sync another device"
 msgstr "Mtawi ibenk-nniḍen"
 

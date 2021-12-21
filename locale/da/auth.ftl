@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annuller abonnement
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Forny abonnement
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Opdater faktureringsoplysninger
 subplat-legal = Juridisk
 subplat-privacy = Privatliv
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Hvis du ikke ændrede den, så nulstil din adgangskode nu på { $resetLink }
+cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl")s>korte undersøgelse</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Hjælp os med at forbedre vores tjenester ved at deltage i denne korte undersøgelse:
 change-password-plaintext = Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så skift din adgangskode.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1genoprettelseskode tilbage
        *[other] { $numberRemaining } genoprettelseskoder tilbage
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nyt login til { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nyt login til { $clientName }
-
-##
-
 newDeviceLogin-action = Håndter konto
 passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
@@ -186,6 +187,42 @@ recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
 recovery-description = Klik på knappen inden for den næste time for at oprette en ny adgangskode. Anmodningen kom fra følgende enhed:
 recovery-action = Opret ny adgangskode
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Dit abonnement på { $productName } er blevet annulleret
+subscriptionAccountDeletion-title = Vi er kede af, at du opsiger dit abonnement
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Du har for nylig slettet din { -product-firefox-account }. Derfor har vi annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Dit abonnement på { $productName } er blevet annulleret
+subscriptionCancellation-title = Vi er kede af, at du opsiger dit abonnement
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Vi har annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }. Tjenesten fortsætter indtil udgangen af din nuværende faktureringsperiode, som er { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Du har skiftet til { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Du har skiftet fra { $productNameOld } til { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycle } til { $paymentAmountNew }. På det tidspunkt vil du også få godskrevet et engangsbeløb på { $paymentProrated } for at afspejle den lavere opkrævning for resten af dette { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
+subscriptionDowngrade-content-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Betalingskort for { $productName } udløber snart
@@ -206,6 +243,24 @@ subscriptionReactivation-content = Frekvensen af faktureringer og dine betalinge
 subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
 subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
 subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Du har opgraderet til { $productNameNew }
+subscriptionUpgrade-title = Tak fordi du opgraderer!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Du har opgraderet fra { $productNameOld } til { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycle } til { $paymentAmountNew }. På det tidspunkt vil du også blive opkrævet et engangsbeløb på { $paymentProrated } for at afspejle den højere opkrævning for resten af dette { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
+subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 unblockCode-subject = Godkendelseskode til konto
 unblockCode-title = Er det dig, der logger ind?
 unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:

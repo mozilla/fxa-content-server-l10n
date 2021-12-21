@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-11-26 15:00+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -534,7 +534,7 @@ msgstr "Veçori e paaktivizuar"
 
 # riprovoni
 # ndaj përpiquni sërish
-# 
+#
 # Siç mund të shihet, edhe sikur nga ana e domethënies të ishte i
 # përshtatshëm, përkthimi "përpiquni sërish" thuajse dyfishon "riprovoni". Nga
 # pikëpamja e ekonomisë në përkthim, kjo nuk përligjet.
@@ -851,10 +851,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -925,7 +927,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Ju lutemi, që të rimerrni hyrjen te Llogaria juaj Firefox, jepni kyçin njëpërdorimsh të rimarrjes që keni depozituar në një vend të parrezik."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga "
 "shërbyesi, të tilla si historik dhe shfletues)."
@@ -979,7 +982,7 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # pse fjala në Anglisht ka një grafemë edhe në Shqip. Puna është që kuptimet
 # që "karakteri" ka në Shqip janë tmerrësisht larg atij që po i vishet
 # "character"-it të Anglishtes:
-# 
+#
 # KARAKTER m.
 #     1. Tërësia e veçorive psikike më kryesore, që shfaqen në veprimtarinë e
 # në sjelljen e njeriut në shoqëri dhe që e shquajnë personalitetin e tij;
@@ -998,10 +1001,10 @@ msgstr "Lidhja e ricaktimit të fjalëkalimit është e dëmtuar"
 # Karakter letrar. Karakter i plotë (i gjallë). Karakter dramatik (tragjik).
 # Karakter në letërsi (në art). Karakteret në prozën e Migjenit. Krijoi (dha)
 # një karakter të ri.
-# 
+#
 # Mjerisht, shumë shpesh, gomarllëqe të tilla nga të paditur të patëkeq lihen
 # të kalojnë me një syleshllëk të çuditshëm...
-# 
+#
 # P.S. Se kush e përdori i pari si "karaktere", nuk dihet.
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1438,7 +1441,8 @@ msgid ""
 msgstr ""
 "\n"
 "              Duke vazhduar, pajtoheni me:<br />\n"
-"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Shënim Privatësie</a> të Pocket-it<br />\n"
+"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Shënim Privatësie</a> të Pocket-"
+"it<br />\n"
 "              <a id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Firefox-it"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1528,7 +1532,8 @@ msgid ""
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Njoftim Privatësie</a> të Pocket-it<br />\n"
+"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Njoftim Privatësie</a> të Pocket-"
+"it<br />\n"
 "            <a id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\">Njoftim Privatësie</a> të Firefox-it\n"
 "          "
 
@@ -1961,38 +1966,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Njëkohësoni faqerojtësit, fjalëkalimet tuaja, dhe të tjera gjëra, në çdo pajisje."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr "Pocket"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr "Ruani dhe zbuloni shkrimet më të mira nëpër internet."
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Hyni pa rrezik te fjalëkalime të ruajtur në Firefox, prej ngado &mdash; madje edhe jashtë shfletuesit."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Merrni njoftime mbi cenim të dhënash."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "Një VPN prej pionierit të besuar për privatësi në internet."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr "Ruani dhe zbuloni shkrimet më të mira nëpër internet."
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr "Shihini krejt"
 
@@ -2092,6 +2089,18 @@ msgstr "Çiftoji duke përdorur një aplikacion"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit Firefox."
 
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Hyni pa rrezik te fjalëkalime të ruajtur në Firefox, prej ngado &mdash; madje edhe jashtë shfletuesit."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Merrni njoftime mbi cenim të dhënash."
+
 #~ msgid "Continue to"
 #~ msgstr "Vazhdo te"
 
@@ -2102,18 +2111,18 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "Ruani dhe zbuloni shkrimet më të mira nëpër internet."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>MOS HARRONI:</span> Kur ricaktoni fjalëkalimin tuaj, ktheni në fillimet llogarinë tuaj. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh ngaqë i "
-#~ "fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj."
+#~ "<span>MOS HARRONI:</span> Kur ricaktoni fjalëkalimin tuaj, ktheni në fillimet llogarinë tuaj. Mund të humbni ca të dhëna personale (përfshi historik, faqerojtës, dhe fjalëkalime). Kjo ndodh "
+#~ "ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>SHËNIM:</span> Kur ricaktoni fjalëkalimin tuaj, riktheni në fillimet llogarinë tuaj. Mund të humbni disa nga të dhënat tuaja personale (përfshi historikun, faqerojtësit, dhe fjalëkalimet). Kjo"
-#~ " vjen ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, për të mbrojtur privatësinë tuaj."
+#~ "<span>SHËNIM:</span> Kur ricaktoni fjalëkalimin tuaj, riktheni në fillimet llogarinë tuaj. Mund të humbni disa nga të dhënat tuaja personale (përfshi historikun, faqerojtësit, dhe fjalëkalimet). "
+#~ "Kjo vjen ngaqë i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, për të mbrojtur privatësinë tuaj."
 
 #~ msgid "Change..."
 #~ msgstr "Ndryshoni…"
@@ -2129,8 +2138,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 
 #~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
 #~ msgstr ""
-#~ "Na vjen keq që e dëgjojmë këtë. Do të duhej të ndryshoni fjalëkalimin tuaj për te Llogari Firefox, dhe të shihni për informacion nga prodhuesi i pajisjes suaj lidhur me fshirjen prej së largëti të "
-#~ "të dhënave tuaja."
+#~ "Na vjen keq që e dëgjojmë këtë. Do të duhej të ndryshoni fjalëkalimin tuaj për te Llogari Firefox, dhe të shihni për informacion nga prodhuesi i pajisjes suaj lidhur me fshirjen prej së largëti "
+#~ "të të dhënave tuaja."
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 #~ msgstr ""
@@ -2441,8 +2450,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 #~ "more</a>"
 #~ msgstr ""
-#~ "<span class=\"note\">SHËNIM: </span>Fjalëkalimi i Llogarisë tuaj Firefox fshehtëzon të dhënat tuaja Firefox. Te të dhënat tuaja mund të hyhet vetëm me fjalëkalimin ose kyçin tuaj të rimarrjes. <a "
-#~ "%(escapedLearnMoreLinkAttributes)s>Mësoni më tepër</a>"
+#~ "<span class=\"note\">SHËNIM: </span>Fjalëkalimi i Llogarisë tuaj Firefox fshehtëzon të dhënat tuaja Firefox. Te të dhënat tuaja mund të hyhet vetëm me fjalëkalimin ose kyçin tuaj të rimarrjes. "
+#~ "<a %(escapedLearnMoreLinkAttributes)s>Mësoni më tepër</a>"
 
 #~ msgid "Are you sure you want to revoke?"
 #~ msgstr "Jeni të sigurt se doni të shfuqizohet?"
@@ -2453,10 +2462,11 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Hapi 2 nga 2: Ruani kyçin e Rimarrjes"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">SHËNIM: </span>Nëse e harroni fjalëkalimin tuaj, ky kyç është i domosdoshëm për të rifituar hyrje në të dhënat tuaja. Ruajeni kyçin tuaj të rimarrjes në një vend të parrezik, ku"
-#~ " mund ta gjeni lehtë më vonë."
+#~ "<span class=\"note\">SHËNIM: </span>Nëse e harroni fjalëkalimin tuaj, ky kyç është i domosdoshëm për të rifituar hyrje në të dhënat tuaja. Ruajeni kyçin tuaj të rimarrjes në një vend të "
+#~ "parrezik, ku mund ta gjeni lehtë më vonë."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "U bë, kyçi i Rimarrjes u ruajt"
@@ -2601,7 +2611,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Mos e ripërdorni fjalëkalimin tuaj email</span>Nëse dikush e di fjalëkalimin e email-it tuaj, ata mund të miratojnë hyrje tuajën Firefox në një pajisje të re dhe të hyjnë në të dhënat tuaja."
+#~ "<span>Mos e ripërdorni fjalëkalimin tuaj email</span>Nëse dikush e di fjalëkalimin e email-it tuaj, ata mund të miratojnë hyrje tuajën Firefox në një pajisje të re dhe të hyjnë në të dhënat "
+#~ "tuaja."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Mbajeni mend fjalëkalimin tuaj</span>Nëse ju duhet të ricaktoni fjalëkalimin tuaj, do të humbni çfarëdo të dhënash që s’gjenden në një nga pajisjet tuaja."
@@ -2638,8 +2649,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Do të merrni mesazhe lidhur me sigurinë e llogarisë tuaj, ndryshime te rregullat tona, funksionimin e llogarisë tuaj dhe email-e sa për fillim për t’ju ndihmuar të përfitoni maksimumin nga Llogaria "
-#~ "juaj Firefox."
+#~ "Do të merrni mesazhe lidhur me sigurinë e llogarisë tuaj, ndryshime te rregullat tona, funksionimin e llogarisë tuaj dhe email-e sa për fillim për t’ju ndihmuar të përfitoni maksimumin nga "
+#~ "Llogaria juaj Firefox."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Veç kësaj, mund të pajtoheni për të marrë email-e promocionalë me lajmet më të reja nga Mozilla dhe Firefox-i."
@@ -2651,11 +2662,11 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "Administroni parapëlqime"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Nëse e përdorni këtë llogari për aplikacione dhe shërbime Mozilla, të tillë si AMO, Pocket, dhe Screenshots, së pari duhet të bëni hyrjen dhe hiqni çfarëdo të dhënash personale të ruajtura. Pasi të "
-#~ "fshini llogarinë tuaj këtu, mund të humbni hyrje në të prej nga kudo qoftë."
+#~ "Nëse e përdorni këtë llogari për aplikacione dhe shërbime Mozilla, të tillë si AMO, Pocket, dhe Screenshots, së pari duhet të bëni hyrjen dhe hiqni çfarëdo të dhënash personale të ruajtura. Pasi "
+#~ "të fshini llogarinë tuaj këtu, mund të humbni hyrje në të prej nga kudo qoftë."
 
 #~ msgid "verified"
 #~ msgstr "i verifikuar"
@@ -2668,8 +2679,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 
 #~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
 #~ msgstr ""
-#~ "Këto janë kodet tuaj njëpërdorimsh për rimarrje. Depozitojini në një vend të parrezik, për rastet kur do t’ju bllokohet hyrja te pajisja juaj celulare. S’do të jeni në gjendje t’i shihni sërish këta"
-#~ " kode."
+#~ "Këto janë kodet tuaj njëpërdorimsh për rimarrje. Depozitojini në një vend të parrezik, për rastet kur do t’ju bllokohet hyrja te pajisja juaj celulare. S’do të jeni në gjendje t’i shihni sërish "
+#~ "këta kode."
 
 #~ msgid "Manually enter this secret key into your authentication app:"
 #~ msgstr "Jepeni dorazi këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:"
@@ -2738,7 +2749,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "S’u morën dot Kushte Shërbimi të Platformës së Pajtimeve"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Duke vazhduar, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Njoftimin mbi Privatësinë</a>."
+#~ msgstr ""
+#~ "Duke vazhduar, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Kushte Shërbimi</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Njoftimin mbi Privatësinë</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Kushte Shërbimi të Platformës së Pajtimeve"
@@ -2804,7 +2816,8 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "Ruaji rregullimet"
 
 #~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Llogari Firefox e Panjohur. Që të mund të përdorni të dhënat tuaja prej Shtesash, <a href=\"/signup\">regjistrohuni</a> duke përdorur adresën email të llogarisë suaj të mëparshme te Shtesa."
+#~ msgstr ""
+#~ "Llogari Firefox e Panjohur. Që të mund të përdorni të dhënat tuaja prej Shtesash, <a href=\"/signup\">regjistrohuni</a> duke përdorur adresën email të llogarisë suaj të mëparshme te Shtesa."
 
 #~ msgid "App link resent to %(phoneNumber)s"
 #~ msgstr "Lidhje aplikacioni e ridërguar te %(phoneNumber)s"
@@ -2896,7 +2909,9 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookie-t dhe depozitimi vendor janë të domosdoshëm."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Duke vazhduar më tej, pajtoheni me <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Kushtet e Shërbimit</a> dhe <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Shënimet Mbi "
 #~ "Privatësinë</a> të shërbimeve re të Firefox-it."
@@ -2953,19 +2968,19 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "Pse të njëkohësohen dy (ose më tepër!) pajisje?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe do "
-#~ "të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
+#~ "Sync-u ju lejon të përdorni faqerojtësit, historikun dhe fjalëkalimet që ruani te Firefox-i në një pajisje me Firefox-in në pajisje të tjera. Hyni te Firefox-i në telefonin ose tabletin tuaj dhe "
+#~ "do të shfaqet gjithçka që keni ruajtur te Firefox-i për desktop."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat tuaja"
-#~ " s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe të "
-#~ "përdorni Sync-un në më shumë se një pajisje."
+#~ "Sync-u s’është konceptuar si kopjeruajtje e përhershme – është thjesht një mjet për të përdorur në pajisje të tjera çfarë keni ruajtur lokalisht. Nëse ricaktoni fjalëkalimin tuaj dhe të dhënat "
+#~ "tuaja s’janë ruajtur të paktën në një nga pajisjet e tjera, mund të humbni krejt informacionin përshoqëruar me fjalëkalimin e vjetër. Kjo është arsyeja pse do të doni të instaloni Firefox-in dhe "
+#~ "të përdorni Sync-un në më shumë se një pajisje."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3060,15 +3075,15 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgstr "Hyni"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>MOS HARRONI:</span> Nëse ricaktoni fjalëkalimin tuaj, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna shërbyesi të njëkohësuara, të tilla si historik dhe faqerojtës). Kjo ndodh ngaqë "
-#~ "i fshehtëzojmë të dhënat tuaja, për të mbrojtur privatësinë tuaj."
+#~ "<span>MOS HARRONI:</span> Nëse ricaktoni fjalëkalimin tuaj, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna shërbyesi të njëkohësuara, të tilla si historik dhe faqerojtës). Kjo ndodh "
+#~ "ngaqë i fshehtëzojmë të dhënat tuaja, për të mbrojtur privatësinë tuaj."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna shërbyesi të njëkohësuara, të tilla si historik dhe faqerojtës). Kjo ndodh ngaqë i "
 #~ "fshehtëzojmë të dhënat tuaja, për të mbrojtur privatësinë tuaj."
@@ -3192,18 +3207,20 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ msgid "Sync preferences"
 #~ msgstr "Parapëlqime për Sync"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Po kërkoni për Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Fillojani këtu</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Keni një llogari me një tjetër email? <a href=\"%(signinUri)s\">Hyni</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox-i është i gatshëm për <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dhe <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Së fundi aktiv: %(translatedTimeAgo)s"
@@ -3424,5 +3441,5 @@ msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda a
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të mundur "
-#~ "funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."
+#~ "Ju lutemi, aktivizoni cookie-t te shfletuesi juaj, të cilat janë të domosdoshme për Llogari Firefox. Cookie-t janë copëza të vogla të dhënash, të depozituara në shfletuesin tuaj, që bëjnë të "
+#~ "mundur funksione të tillë si mbajtja mend e sesioneve tuaj nga njëri në tjetrin."

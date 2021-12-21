@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Aboneliği iptal et
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aboneliği yeniden etkinleştir
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fatura bilgilerini güncelle
 subplat-legal = Yasal Bilgiler
 subplat-privacy = Gizlilik
@@ -50,6 +51,8 @@ automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Parolanızı siz değiştirmediyseniz lütfen hemen { $resetLink } adresinden sıfırlayın
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:
 change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -84,15 +87,12 @@ lowRecoveryCodes-subject =
         [one] 1 kurtarma kodu kaldı
        *[other] { $numberRemaining } kurtarma kodu kaldı
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Yeni { $clientName } girişi
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Yeni { $clientName } girişi
-
-##
-
 newDeviceLogin-action = Hesabı yönet
 passwordChanged-subject = Parola güncellendi
 passwordChanged-title = Parola başarıyla değiştirildi
@@ -174,6 +174,15 @@ recovery-subject = Parolanızı sıfırlayın
 recovery-title = Parolanızı sıfırlamanız mı gerekiyor?
 recovery-description = Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:
 recovery-action = Yeni parola oluştur
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = { $productName } aboneliğiniz iptal edildi
+subscriptionAccountDeletion-title = Ayrılık sevdaya dahil
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = { $productName } aboneliğiniz iptal edildi
+subscriptionCancellation-title = Ayrılık sevdaya dahil
+subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } için kredi kartının kullanım süresi yakında doluyor
@@ -190,6 +199,8 @@ subscriptionReactivation-title = { $productName } aboneliğinizi yeniden etkinle
 subscriptionsPaymentExpired-subject = Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor
 subscriptionsPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
 subscriptionsPaymentExpired-content = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
+subscriptionUpgrade-title = Yükseltme yaptığınız için teşekkürler!
+subscriptionUpgrade-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 unblockCode-subject = Hesap yetkilendirme kodu
 unblockCode-title = Giriş yapan siz misiniz?
 unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:

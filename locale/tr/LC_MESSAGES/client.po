@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-12-01 21:15+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -841,8 +841,8 @@ msgstr "Geçersiz jeton"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşullarını</a> ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimini</a> kabul etmiş "
-"oluyorsunuz."
+"Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşulları</a>'nı ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimi</a>'ni kabul "
+"etmiş oluyorsunuz."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -1131,7 +1131,7 @@ msgstr "Parola"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşullarını</a> ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimini</a> kabul etmiş oluyorsunuz."
+msgstr "Devam ederek <a id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul etmiş oluyorsunuz."
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1900,38 +1900,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Sekmelerinizi, yer imlerinizi ve daha fazlasını tüm cihazlarınızda eşitleyin."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr "Pocket"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr "Web’deki en iyi makaleleri kaydedin ve keşfedin."
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Firefox’a kaydettiğiniz parolalara her yerden güvenle erişin: tarayıcı dışından bile."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Veri hırsızlıklarından haberiniz olsun."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "İnternette gizliliğin öncüsünden, güvenilir bir VPN hizmeti."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr "Web’deki en iyi makaleleri kaydedin ve keşfedin."
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr "Firefox Relay"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr "Tümünü göster"
 
@@ -2030,6 +2022,18 @@ msgstr "Uygulama kullanarak eşleştir"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden eşleştirme yapmalısınız."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Firefox’a kaydettiğiniz parolalara her yerden güvenle erişin: tarayıcı dışından bile."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Veri hırsızlıklarından haberiniz olsun."
 
 #~ msgid "Save and discover the best stories from accross the web."
 #~ msgstr "Web’deki en iyi makaleleri kaydedin ve keşfedin."

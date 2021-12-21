@@ -404,11 +404,9 @@ payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
 new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
-new-user-step-2 = 2. Ödeme yönteminizi seçin
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Gerekli
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = E-postanızı yazın
@@ -423,3 +421,7 @@ new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
 manage-pocket-body = Yönetmek için <a>buraya tıklayın</a>.
+payment-method-header = Ödeme yönteminizi seçin
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Ödeme yönteminizi seçin
+payment-method-required = Gerekli

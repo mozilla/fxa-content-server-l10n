@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
 new-user-sign-in-link = ¿Ya tienes una cuenta de { -brand-name-firefox }? <a>Iniciar sesión</a>
 new-user-step-1 = 1. Crea una cuenta de { -brand-name-firefox }
-new-user-step-2 = 2. Elige tu método de pago
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Requerido
 new-user-email =
     .label = Escribe tu correo electrónico
 new-user-confirm-email =
@@ -440,3 +438,7 @@ new-user-card-title = Escribe la información de tu tarjeta
 new-user-submit = Suscribirse ahora
 manage-pocket-title = ¿Buscas tu suscripción premium de { -brand-name-pocket }?
 manage-pocket-body = Para administrarla, <a>haz clic aquí</a>.
+payment-method-header = Elige tu método de pago
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Elige tu método de pago
+payment-method-required = Requerido

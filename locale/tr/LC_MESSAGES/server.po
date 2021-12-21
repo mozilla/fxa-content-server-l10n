@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-12-07 12:58+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445256872.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2941
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
 msgid "Here's your reminder to sync devices."
 msgstr "Cihazları eşitlemenizi hatırlatalım dedik."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
 msgid "Last reminder to sync devices!"
 msgstr "Cihazları eşitlemeniz için son hatırlatma!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
 
@@ -66,7 +66,7 @@ msgstr "Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın 
 msgid "Generate codes:"
 msgstr "Kodları oluştur:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1400
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1402
 msgid "New sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişi"
 
@@ -150,7 +150,7 @@ msgstr "Yeni kurtarma anahtarı oluştur:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Daha fazla bilgi için lütfen %(supportUrl)s adresini ziyaret edin"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1836
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1838
 msgid "Account recovery key generated"
 msgstr "Hesap kurtarma anahtarı oluşturuldu"
 
@@ -210,7 +210,7 @@ msgstr "Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:"
 msgid "Consumed recovery code"
 msgstr "Kullanılan kurtarma kodu"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1692
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1694
 msgid "New recovery codes generated"
 msgstr "Yeni kurtarma kodları üretildi"
 
@@ -218,7 +218,7 @@ msgstr "Yeni kurtarma kodları üretildi"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1886
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1888
 msgid "Account recovery key removed"
 msgstr "Hesap kurtarma anahtarı silindi"
 
@@ -234,7 +234,7 @@ msgstr "Bu kurtarma anahtarı artık hesabınızı kurtarmak için kullanılamaz
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için bir hesap kurtarma anahtarını başarıyla sildiniz:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1566
 msgid "Secondary email removed"
 msgstr "İkinci e-posta silindi"
 
@@ -270,7 +270,7 @@ msgstr "Şimdi cihazlarınızı eşitleyin!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync özelliği; yer imlerinizin, parolalarınızın ve diğer Firefox verilerinizin tüm cihazlarınızda aynı kalmasını sağlar."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1446
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1448
 msgid "Set up next device"
 msgstr "Sonraki cihazı kur"
 
@@ -278,7 +278,7 @@ msgstr "Sonraki cihazı kur"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Sorularınız mı var? %(supportUrl)s adresini ziyaret edin"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1494
 msgid "Secondary email added"
 msgstr "İkinci e-posta eklendi"
 
@@ -294,7 +294,7 @@ msgstr "Parolanızı sıfırlamanız mı gerekiyor?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1243
 msgid "Create new password"
 msgstr "Yeni parola oluştur"
 
@@ -319,17 +319,17 @@ msgstr "Hizmetlerimizi iyileştirebilmemiz için bu <a %(cancellationSurveyLinkA
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2910
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
 msgid "Welcome to %(productName)s"
 msgstr "%(productName)s uygulamasına hoş geldiniz"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
 msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Sonra bir Firefox hesabı açacak ve %(productName)s yazılımını indireceksiniz."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -355,7 +355,7 @@ msgstr "Birkaç gün önce Firefox Hesabı açtınız ama hesabınızı henüz d
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Yeni parola belirlemek için “Parola oluştur” seçerek hesabınızı doğrulamayı tamamlayın."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
+msgstr "Birkaç gün içinde ödeme almayı tekrar deneyeceğiz. Sorunu gidermek için ödeme bilgilerinizi güncellemeniz gerekebilir:"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
@@ -517,7 +517,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını <a href=\"%(updateBillingUrl)s\">buradan</a> kontrol edebilirsiniz."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
@@ -535,7 +535,7 @@ msgstr "%(productName)s ekibi"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını buradan kontrol edebilirsiniz:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
@@ -639,7 +639,7 @@ msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan 
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan giriş yaptığınızı onaylayın:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:932
 msgid "Confirm sign-in"
 msgstr "Girişi onayla"
 
@@ -831,208 +831,208 @@ msgstr "Abonelikleri iptal et:"
 msgid "Update billing information:"
 msgstr "Fatura bilgilerini güncelle:"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:349
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:354
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:380
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:387
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:392
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:397
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
 
-#: lib/senders/email.js:604
+#: lib/senders/email.js:605
 msgid "Finish creating your account"
 msgstr "Hesabınızı oluşturmayı tamamlayın"
 
-#: lib/senders/email.js:605 lib/senders/email.js:742
+#: lib/senders/email.js:606 lib/senders/email.js:743
 msgid "Confirm email"
 msgstr "E-postanızı doğrulayın"
 
-#: lib/senders/email.js:672
+#: lib/senders/email.js:673
 msgid "Verification code: %(code)s"
 msgstr "Doğrulama kodu: %(code)s"
 
-#: lib/senders/email.js:722
+#: lib/senders/email.js:723
 msgid "Reminder: Finish creating your account"
 msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
 
-#: lib/senders/email.js:724
+#: lib/senders/email.js:725
 msgid "Final reminder: Activate your account"
 msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:776
 msgid "Reminder: Finish setting up your account"
 msgstr "Hatırlatma: Hesabınızın kurulumunu tamamlayın"
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:778
 msgid "Final reminder: Setup your account"
 msgstr "Son hatırlatma: Hesabınızı kurun"
 
-#: lib/senders/email.js:817 lib/senders/email.js:2027
+#: lib/senders/email.js:820 lib/senders/email.js:2031
 msgid "Create a password"
 msgstr "Parola oluştur"
 
-#: lib/senders/email.js:854
+#: lib/senders/email.js:856
 msgid "Account authorization code"
 msgstr "Hesap yetkilendirme kodu"
 
-#: lib/senders/email.js:927
+#: lib/senders/email.js:929
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Yeni %(clientName)s girişini onaylayın"
 
-#: lib/senders/email.js:976
+#: lib/senders/email.js:978
 msgid "Sign-in code for %(serviceName)s"
 msgstr "%(serviceName)s giriş kodu"
 
-#: lib/senders/email.js:1045
+#: lib/senders/email.js:1047
 msgid "Confirm primary email"
 msgstr "Ana e-posta adresini onayla"
 
-#: lib/senders/email.js:1046 lib/senders/email.js:1109 lib/senders/email.js:1181
+#: lib/senders/email.js:1048 lib/senders/email.js:1111 lib/senders/email.js:1183
 msgid "Verify email"
 msgstr "E-postayı doğrula"
 
-#: lib/senders/email.js:1108 lib/senders/email.js:1180
+#: lib/senders/email.js:1110 lib/senders/email.js:1182
 msgid "Confirm secondary email"
 msgstr "İkinci e-postayı onayla"
 
-#: lib/senders/email.js:1240
+#: lib/senders/email.js:1242
 msgid "Reset your password"
 msgstr "Parolanızı sıfırlayın"
 
-#: lib/senders/email.js:1286 lib/senders/email.js:1357
+#: lib/senders/email.js:1288 lib/senders/email.js:1359
 msgid "Password updated"
 msgstr "Parola güncellendi"
 
-#: lib/senders/email.js:1328
+#: lib/senders/email.js:1330
 msgid "Suspicious activity detected"
 msgstr "Şüpheli etkinlik algılandı"
 
-#: lib/senders/email.js:1401 lib/senders/email.js:1493 lib/senders/email.js:1529 lib/senders/email.js:1565 lib/senders/email.js:1599 lib/senders/email.js:1646 lib/senders/email.js:1693
-#: lib/senders/email.js:1740 lib/senders/email.js:1837 lib/senders/email.js:1887
+#: lib/senders/email.js:1403 lib/senders/email.js:1495 lib/senders/email.js:1531 lib/senders/email.js:1567 lib/senders/email.js:1601 lib/senders/email.js:1648 lib/senders/email.js:1695
+#: lib/senders/email.js:1742 lib/senders/email.js:1839 lib/senders/email.js:1889
 msgid "Manage account"
 msgstr "Hesabı yönet"
 
-#: lib/senders/email.js:1441
+#: lib/senders/email.js:1443
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin"
 
-#: lib/senders/email.js:1528
+#: lib/senders/email.js:1530
 msgid "Primary email updated"
 msgstr "Ana e-posta güncellendi"
 
-#: lib/senders/email.js:1598
+#: lib/senders/email.js:1600
 msgid "Two-step verification enabled"
 msgstr "İki aşamalı doğrulama etkinleştirildi"
 
-#: lib/senders/email.js:1645
+#: lib/senders/email.js:1647
 msgid "Two-step verification is off"
 msgstr "İki aşamalı doğrulama kapalı"
 
-#: lib/senders/email.js:1739
+#: lib/senders/email.js:1741
 msgid "Recovery code used"
 msgstr "Kullanılan kurtarma kodu"
 
-#: lib/senders/email.js:1799
+#: lib/senders/email.js:1801
 msgid "1 recovery code remaining"
 msgstr "1 kurtarma kodu kaldı"
 
-#: lib/senders/email.js:1801
+#: lib/senders/email.js:1803
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s kurtarma kodu kaldı"
 
-#: lib/senders/email.js:1804
+#: lib/senders/email.js:1806
 msgid "Generate codes"
 msgstr "Kodları oluştur"
 
-#: lib/senders/email.js:1936
+#: lib/senders/email.js:1938
 msgid "Password updated using recovery key"
 msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
 
-#: lib/senders/email.js:1937
+#: lib/senders/email.js:1939
 msgid "Create new recovery key"
 msgstr "Yeni kurtarma anahtarı oluştur"
 
-#: lib/senders/email.js:2030
+#: lib/senders/email.js:2034
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
+msgstr "%(productName)s hizmetine hoş geldiniz: Lütfen parolanızı belirleyin."
 
-#: lib/senders/email.js:2103
+#: lib/senders/email.js:2107
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "%(productNameNew)s aboneliğine yükselttiniz"
 
-#: lib/senders/email.js:2182
+#: lib/senders/email.js:2186
 msgid "You have switched to %(productNameNew)s"
 msgstr "%(productNameNew)s aboneliğine geçtiniz"
 
-#: lib/senders/email.js:2247
+#: lib/senders/email.js:2251
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "%(productName)s için kredi kartının kullanım süresi yakında doluyor"
 
-#: lib/senders/email.js:2261
+#: lib/senders/email.js:2265
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor"
 
-#: lib/senders/email.js:2312
+#: lib/senders/email.js:2316
 msgid "Payment information update required for %(productName)s"
 msgstr "%(productName)s için ödeme bilgilerinizi güncellemeniz gerekiyor"
 
-#: lib/senders/email.js:2328
+#: lib/senders/email.js:2332
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Mozilla abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor"
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2378
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s ödemesi başarısız oldu"
 
-#: lib/senders/email.js:2425 lib/senders/email.js:2490 lib/senders/email.js:2551
+#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "%(productName)s aboneliğiniz iptal edildi"
 
-#: lib/senders/email.js:2608
+#: lib/senders/email.js:2612
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s aboneliği yeniden etkinleştirildi"
 
-#: lib/senders/email.js:2664
+#: lib/senders/email.js:2668
 msgid "%(productName)s automatic renewal notice"
 msgstr "%(productName)s otomatik yenileme bildirimi"
 
-#: lib/senders/email.js:2744
+#: lib/senders/email.js:2748
 msgid "%(productName)s payment received"
 msgstr "%(productName)s ödemesi alındı"
 
-#: lib/senders/email.js:2836
+#: lib/senders/email.js:2840
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s ödemesi onaylandı"
 
-#: lib/senders/email.js:2911
+#: lib/senders/email.js:2915
 msgid "Download %(productName)s"
 msgstr "%(productName)s uygulamasını indirin"
 
-#: lib/senders/email.js:2937
+#: lib/senders/email.js:2941
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Hatırlatma: Sync kurulumunuzu tamamlayın"
 
-#: lib/senders/email.js:2938
+#: lib/senders/email.js:2942
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Son hatırlatma: Sync kurulumunu tamamlayın"
 
-#: lib/senders/email.js:2952
+#: lib/senders/email.js:2956
 msgid "Sync another device"
 msgstr "Başka bir cihazı eşitle"
 

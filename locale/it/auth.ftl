@@ -21,6 +21,8 @@
     }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -42,6 +44,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annulla abbonamento
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Rinnova l’abbonamento
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aggiorna le informazioni di fatturazione
 subplat-legal = Note legali
 subplat-privacy = Privacy
@@ -63,12 +66,22 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se non sei stato tu a effettuare questa modifica, reimposta la password al link { $resetLink }
+cancellationSurvey = Aiutaci a migliorare i nostri servizi partecipando a questo <a data-l10n-name="cancellationSurveyUrl")s>breve sondaggio</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Aiutaci a migliorare i nostri servizi partecipando a questo breve sondaggio:
 change-password-plaintext = Se ritieni che qualcuno stia tentando di accedere indebitamente al tuo account, cambiane subito la password.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Indirizzo IP: { $ip }
 manage-account = Gestisci account
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Metodo di pagamento:
+payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = La carta di credito { $cardType } termina con { $lastFour }
 subscriptionSupport = Hai delle domande sull’abbonamento? Il <a data-l10n-name="subscriptionSupportUrl">team di supporto</a> è a tua disposizione.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Hai delle domande sull’abbonamento? Il team di supporto è a tua disposizione:
@@ -78,6 +91,14 @@ subscriptionUpdatePayment-plaintext = Per evitare interruzioni del servizio, agg
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Per ulteriori informazioni visita { $supportUrl }
+updateBilling = Proveremo a effettuare nuovamente il pagamento nei prossimi giorni, ma potrebbe essere necessario aiutarci a risolvere il problema <a data-l10n-name="updateBillingUrl">aggiornando le informazioni di pagamento</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Proveremo a effettuare nuovamente il pagamento nei prossimi giorni, ma potrebbe essere necessario aiutarci a risolvere il problema aggiornando le informazioni di pagamento:
+view-invoice = <a data-l10n-name="invoiceLink">Visualizza la tua fattura</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Visualizza fattura: { $invoiceLink }
 cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione di Sync
 cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
@@ -97,15 +118,12 @@ lowRecoveryCodes-subject =
         [one] È rimasto 1 codice di recupero
        *[other] Sono rimasti { $numberRemaining } codici di recupero
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuovo accesso a { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nuovo accesso a { $clientName }
-
-##
-
 newDeviceLogin-action = Gestisci account
 passwordChanged-subject = Password aggiornata
 passwordChanged-title = Password modificata correttamente
@@ -190,6 +208,66 @@ recovery-subject = Reimposta la tua password
 recovery-title = Desideri reimpostare la password?
 recovery-description = Per impostare una nuova password fai clic sul pulsante entro un’ora. La richiesta di modifica password è stata inoltrata dal seguente dispositivo:
 recovery-action = Crea nuova password
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Il tuo abbonamento a { $productName } è stato annullato
+subscriptionAccountDeletion-title = Ci mancherai.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Di recente hai eliminato il tuo { -product-firefox-account }. Di conseguenza, abbiamo annullato il tuo abbonamento a { $productName }. Il pagamento finale di { $invoiceTotal } è stato effettuato in data { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Il tuo abbonamento a { $productName } è stato annullato
+subscriptionCancellation-title = Ci mancherai.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Abbiamo annullato il tuo abbonamento a { $productName }. Il tuo pagamento finale di { $invoiceTotal } è stato effettuato il { $invoiceDateOnly }. Potrai continuare a usufruire del servizio fino alla fine del periodo di fatturazione corrente, che termina il { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Sei passato a { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Il passaggio da { $productNameOld } a { $productNameNew } è stato completato correttamente.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = A partire dalla prossima fattura, il tuo pagamento per { $productPaymentCycle } sarà modificato da { $paymentAmountOld } a { $paymentAmountNew }. Contestualmente ti verrà accreditato un importo una tantum di { $paymentProrated } per riflettere la tariffa più bassa per il resto di questo { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Nel caso sia necessario installare software aggiuntivo per utilizzare { $productNameNew }, riceverai in un’altra email le istruzioni per scaricarlo.
+subscriptionDowngrade-content-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Il pagamento per { $productName } è stato confermato
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Grazie per aver sottoscritto un abbonamento a { $productName }
+subscriptionFirstInvoice-content-processing = Il pagamento è in fase di elaborazione, l’operazione potrebbe richiedere fino a quattro giorni lavorativi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Riceverai un’email specifica con le istruzioni scaricabili su come iniziare a utilizzare { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Numero fattura: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Numero fattura: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Addebitato { $invoiceTotal } il { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Prossima fattura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = La carta di credito per { $productName } sta per scadere
@@ -197,6 +275,22 @@ subscriptionPaymentExpired-title = La carta di credito in uso sta per scadere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = La carta di credito in uso per i pagamenti di { $productName } sta per scadere.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Pagamento per { $productName } non riuscito
+subscriptionPaymentFailed-title = Siamo spiacenti, stiamo riscontrando problemi con il tuo pagamento
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Si è verificato un problema con il tuo ultimo pagamento per { $productName }.
+subscriptionPaymentFailed-content-outdated = È possibile che la carta di credito utilizzata sia scaduta o il che il metodo di pagamento selezionato non sia aggiornato.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Aggiornamento delle informazioni di pagamento richiesto per { $productName }
+subscriptionPaymentProviderCancelled-title = Siamo spiacenti, stiamo riscontrando problemi con il tuo metodo di pagamento
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Abbiamo rilevato un problema con il metodo di pagamento scelto per { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = È possibile che la carta di credito utilizzata sia scaduta o il che il metodo di pagamento selezionato non sia aggiornato.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abbonamento a { $productName } riattivato
@@ -210,6 +304,51 @@ subscriptionReactivation-content = Il ciclo di fatturazione e l’importo rester
 subscriptionsPaymentExpired-subject = La carta di credito collegata ai tuoi abbonamenti sta per scadere
 subscriptionsPaymentExpired-title = La carta di credito in uso sta per scadere
 subscriptionsPaymentExpired-content = La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta per scadere.
+subscriptionsPaymentProviderCancelled-subject = Aggiornamento delle informazioni di pagamento richiesto per gli abbonamenti { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Siamo spiacenti, stiamo riscontrando problemi con il tuo metodo di pagamento
+subscriptionsPaymentProviderCancelled-content-detected = Abbiamo rilevato un problema con il metodo di pagamento scelto per i seguenti abbonamenti.
+subscriptionsPaymentProviderCancelled-content-payment = È possibile che la carta di credito utilizzata sia scaduta o il che il metodo di pagamento selezionato non sia aggiornato.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Il pagamento per { $productName } è stato ricevuto
+subscriptionSubsequentInvoice-title = Grazie per il tuo abbonamento.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = L’ultimo pagamento per { $productName } è stato ricevuto.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Numero fattura: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Numero fattura: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Modifica del piano: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Addebitato { $invoiceTotal } il { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Prossima fattura: { $nextInvoiceDateOnly }
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Hai effettuato l’aggiornamento a { $productNameNew }
+subscriptionUpgrade-title = Grazie per aver effettuato l’aggiornamento.
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = L’aggiornamento da { $productNameOld } a { $productNameNew } è stato effettuato correttamente.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = A partire dalla prossima fattura, il tuo pagamento per { $productPaymentCycle } sarà modificato da { $paymentAmountOld } a { $paymentAmountNew }. Contestualmente ti verrà accreditato un importo una tantum di { $paymentProrated } per riflettere la tariffa più alta per il resto di questo { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Nel caso sia necessario installare software aggiuntivo per utilizzare { $productNameNew }, riceverai in un’altra email le istruzioni per scaricarlo.
+subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 unblockCode-subject = Codice di autorizzazione per l’account
 unblockCode-title = Hai effettuato tu questo accesso?
 unblockCode-prompt = In caso affermativo, questo è il codice di autorizzazione da utilizzare:

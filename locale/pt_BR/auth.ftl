@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar assinatura
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Atualizar informações de cobrança
 subplat-legal = Jurídico
 subplat-privacy = Privacidade
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se você não mudou sua senha, redefina a senha agora em { $resetLink }
+cancellationSurvey = Ajude-nos a melhorar nossos serviços participando desta <a data-l10n-name="cancellationSurveyUrl")s>breve pesquisa</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ajude-nos a melhorar nossos serviços participando desta breve pesquisa:
 change-password-plaintext = Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 código de recuperação restante
        *[other] { $numberRemaining } códigos de recuperação restantes
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Novo acesso no { $clientName }
-
-##
-
 newDeviceLogin-action = Gerenciar conta
 passwordChanged-subject = Senha atualizada
 passwordChanged-title = Senha alterada com sucesso
@@ -186,6 +187,42 @@ recovery-subject = Redefina a sua senha
 recovery-title = Precisa redefinir a sua senha?
 recovery-description = Clique no botão em até uma hora para criar uma nova senha. A solicitação veio do seguinte dispositivo:
 recovery-action = Criar nova senha
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Sua assinatura do { $productName } foi cancelada
+subscriptionAccountDeletion-title = Lamentamos ver você partir
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Você excluiu recentemente sua { -product-firefox-account }. Como resultado, cancelamos sua assinatura do { $productName }. Seu pagamento final de { $invoiceTotal } foi feito em { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Sua assinatura do { $productName } foi cancelada
+subscriptionCancellation-title = Lamentamos ver você partir
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Cancelamos sua assinatura do { $productName }. Seu pagamento final de { $invoiceTotal } foi feito em { $invoiceDateOnly }. O serviço continuará disponível para você até o final do período de cobrança atual, que é { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Você mudou para o { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Você mudou com sucesso de { $productNameOld } para { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = A partir da próxima fatura, sua cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycle } para { $paymentAmountNew }. Nesse momento, você também receberá um crédito único de { $paymentProrated } para refletir a cobrança menor pelo restante desse { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Se for necessário instalar outro software para usar o { $productNameNew }, você receberá um email separado com instruções de como baixar.
+subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = O cartão de crédito de { $productName } expira em breve
@@ -206,6 +243,24 @@ subscriptionReactivation-content = Seu ciclo de faturamento e pagamento permanec
 subscriptionsPaymentExpired-subject = A validade do cartão de crédito de suas assinaturas expirará em breve
 subscriptionsPaymentExpired-title = A validade do seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir está prestes a expirar.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Você atualizou para { $productNameNew }
+subscriptionUpgrade-title = Obrigado por atualizar!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Você atualizou com sucesso de { $productNameOld } para %{ $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = A partir da próxima fatura, sua cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycle } para { $paymentAmountNew }. Nesse momento, também será cobrado um valor único de { $paymentProrated } para refletir a cobrança maior pelo restante desse { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Se for necessário instalar outro software para usar o { $productNameNew }, você receberá um email separado com instruções de como baixar.
+subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = Foi você que tentou entrar na sua conta?
 unblockCode-prompt = Se foi você, use este código de verificação:

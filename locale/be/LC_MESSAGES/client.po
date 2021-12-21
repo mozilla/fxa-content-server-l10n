@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-06-18 13:18+0000\n"
-"Last-Translator: Anna <aaneitchik@gmail.com>\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"PO-Revision-Date: 2021-12-13 19:45+0000\n"
+"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgstr "Дзякуем, што звярнуліся ў службу падтры
 
 #: .es5/views/support.js:269
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Дзякуем, што звярнуліся ў службу падтрымкі Mozilla па пытанні <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedProduct)s</b>. Мы звяжамся з вамі па электроннай пошце як мага хутчэй."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -222,15 +222,15 @@ msgstr "Уліковы запіс паспяхова пацверджаны"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "аплата і выстаўленне рахункаў"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "праблемы з уліковым запісам"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "тэхнічныя праблемы"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -731,7 +731,7 @@ msgstr "Будзьце больш разумнымі і бяспечнымі ў 
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Тэсціраванне прадуктаў Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
@@ -1232,7 +1232,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Замест гэтага сканаваць QR-код?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1536,7 +1536,7 @@ msgstr "Уліковыя запісы Firefox"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Галоўная старонка ўліковага запісу"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1552,7 +1552,7 @@ msgstr "Якое ў вас пытанне да нас?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Калі ласка, абярыце што-небудзь"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1568,7 +1568,7 @@ msgstr "Праблемы з уліковым запісам"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Тэхнічныя праблемы"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
@@ -1898,38 +1898,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Сінхранізуйце закладкі, паролі і шмат іншага на кожнай прыладзе."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Атрымлівайце бяспечны доступ да захаваных у Firefox пароляў у любым месцы — нават за межамі браўзера."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Праяўляйце пільнасць да ўцечак дадзеных."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "VPN ад надзейнага першапраходца прыватнасці ў Інтэрнэце."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr ""
 
@@ -2028,6 +2020,18 @@ msgstr "Спарванне з дапамогай праграмы"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы Firefox."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Атрымлівайце бяспечны доступ да захаваных у Firefox пароляў у любым месцы — нават за межамі браўзера."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Праяўляйце пільнасць да ўцечак дадзеных."
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "

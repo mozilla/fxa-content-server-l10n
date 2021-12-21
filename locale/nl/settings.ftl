@@ -31,6 +31,7 @@ alert-bar-close-message = Bericht sluiten
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } is technologie die vecht voor uw o
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser voor desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser voor mobiel
 bento-menu-made-by-mozilla = Gemaakt door { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Download { -brand-firefox } op mobiel of tablet
 connect-another-find-fx-mobile =
     { -brand-firefox } in { -google-play } en de { -app-store } zoeken of
     <br /><linkExternal>een downloadkoppeling naar uw apparaat sturen.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Download { -brand-firefox } op { -google-play }
+connect-another-app-store-image =
+    .title = Download { -brand-firefox } in de { -app-store }
 
 ##
 
@@ -359,9 +367,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Annuleren
 add-secondary-email-save-button = Opslaan
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 van 2
@@ -524,6 +529,8 @@ se-default-content = Toegang tot uw account als u niet kunt aanmelden op uw prim
 se-content-note =
     Noot: een secundair e-mailadres herstelt uw gegevens niet – daarvoor
     hebt u een <a>herstelsleutel</a> nodig.
+# Default value for the secondary email
+se-secondary-email-none = Geen
 
 ##
 
@@ -559,6 +566,7 @@ tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 
 auth-error-102 = Onbekende account
 auth-error-103 = Onjuist wachtwoord
+auth-error-105 = Ongeldige verificatiecode
 auth-error-110 = Ongeldige token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -569,5 +577,7 @@ auth-error-110 = Ongeldige token
 #                           (for example: "in 15 minutes")
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het over { $retryAfter } opnieuw.
 auth-error-138 = Niet-geverifieerde sessie
+auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
+auth-error-183 = Ongeldige of verlopen verificatiecode
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen

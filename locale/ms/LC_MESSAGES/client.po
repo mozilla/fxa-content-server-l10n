@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-12-02 06:19+0000\n"
 "Last-Translator: Norman Haikal <normanh876@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -838,8 +838,12 @@ msgid "Invalid Token"
 msgstr "Token tidak sah"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan meneruskan, anda bersetuju dengan <a id=\"service-tos\" href=\"%(termsUri)s\">Terma Perkhidmatan</a> dan<a id=\"service-pp\" href=\"%(privacyUri)s\">Notis Privasi</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -908,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Sila masukkan kekunci pemulihan sekali guna yang anda simpan untuk mendapatkan semula akses ke Akaun Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Jika anda tetapkan semula kata laluan dan tidak ada kekunci pemulihan, sesetengah data akan dibuang (termasuk data pelayan yang diselaraskan seperti sejarah dan "
 "tandabuku)."
@@ -1893,38 +1898,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr ""
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr ""
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr ""
 
@@ -2025,18 +2022,18 @@ msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>Ingat:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
 #~ "kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTA:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana kami"
-#~ " enkrip data anda dengan kata laluan untuk melindungi privasi anda."
+#~ "<span>NOTA:</span> Apabila mengeset semula kata laluan, anda mengeset semula akaun. Anda mungkin kehilangan beberapa maklumat peribadi (termasuk sejarah, tandabuku, dan kata laluan). Ini kerana "
+#~ "kami enkrip data anda dengan kata laluan untuk melindungi privasi anda."
 
 #~ msgid "Once you're finished, use your new password to sign in on all of your devices."
 #~ msgstr "Sebaik sahaja anda siap, gunakan kata laluan baru anda untuk daftar masuk ke semua peranti anda."
@@ -2282,10 +2279,11 @@ msgstr ""
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Langkah 2 daripada 2: Simpan kekunci Pemulihan"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">NOTA: </span>Jika anda terlupa kata laluan, kekunci ini diperlukan untuk mendapatkan semula akses ke data anda. Simpan kekunci pemulihan ini di lokasi yang selamat supaya mudah "
-#~ "dicari nanti."
+#~ "<span class=\"note\">NOTA: </span>Jika anda terlupa kata laluan, kekunci ini diperlukan untuk mendapatkan semula akses ke data anda. Simpan kekunci pemulihan ini di lokasi yang selamat supaya "
+#~ "mudah dicari nanti."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Selesai, kekunci Pemulihan disimpan"
@@ -2369,7 +2367,8 @@ msgstr ""
 #~ msgstr "Jangan hilang kata laluan ini. Jika perlu ditetapkan semula, data Sync anda mungkin hilang."
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Jangan guna semula kata laluan e-mel anda</span>Jika ada pihak lain tahu kata laluan e-mel anda, mereka boleh luluskan daftar masuk Firefox dalam peranti baru dan mengakses data anda."
+#~ msgstr ""
+#~ "<span>Jangan guna semula kata laluan e-mel anda</span>Jika ada pihak lain tahu kata laluan e-mel anda, mereka boleh luluskan daftar masuk Firefox dalam peranti baru dan mengakses data anda."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Ingat kata laluan anda</span>Jika perlu ditetapkan semula, data Sync dalam peranti bukan milik anda mungkin akan hilang."
@@ -2414,8 +2413,8 @@ msgstr ""
 #~ msgstr "Langgan"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "Jika anda guna akaun ini untuk aplikasi Mozilla seperti AMO, Pocket dan Screenshots, anda perlu log masuk dahulu dan buang apa-apa maklumat yang disimpan. Apabila anda buang akaun di sini, anda "
 #~ "mungkin kehilangan akses kepadanya dari mana-mana jua."
@@ -2445,7 +2444,9 @@ msgstr ""
 #~ msgstr "Ingat kata laluan ini &mdash; mengeset semula akan menghapuskan data anda daripada pelayan kami."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Notis Privasi</a>."
+#~ msgstr ""
+#~ "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Notis "
+#~ "Privasi</a>."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s didaftarkan."
@@ -2567,10 +2568,12 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Kuki dan storan lokal diperlukan."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Notis Privasi</a>"
-#~ " perkhidmatan cloud Firefox."
+#~ "Dengan meneruskan, anda bersetuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terma Perkhidmatan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Notis "
+#~ "Privasi</a> perkhidmatan cloud Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Perkhidmatan cloud Firefox"
@@ -2623,18 +2626,18 @@ msgstr ""
 #~ msgstr "Kenapa Sync dua (atau lebih!) peranti?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon atau "
-#~ "tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
+#~ "Sync membolehkan anda berkongsi tanda buku, sejarah dan kata laluan yang anda simpan ke Firefox dalam satu peranti dengan Firefox dalam peranti yang lain. Daftar masuk ke Firefox dalam telefon "
+#~ "atau tablet anda dan semua yang anda telah simpan ke Firefox untuk desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam satu "
-#~ "peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
+#~ "Sync tidak direka sebagai sandaran kekal – ia hanya untuk berkongsi apa yang telah disimpan secara lokal. Jika anda set semua kata laluan dan data anda tidak disimpan sekurang-kurangnya dalam "
+#~ "satu peranti lain, anda boleh hilang semua maklumat terikat dengan kata laluan lama. Itulah sebabnya mengapa anda perlu memasang Firefox dan gunakan Sync lebih dari satu peranti."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2739,15 +2742,15 @@ msgstr ""
 #~ msgstr "Daftar masuk"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
 #~ "<span>PERINGATAN:</span> Jika anda set semula kata laluan anda, beberapa data akan terpadam (termasuk data sync pelayan seperti sejarah dan tanda buku). Ini kerana kami enkrip data dengan kata "
 #~ "laluan untuk melindungi privasi anda."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
 #~ "<span>PERINGATAN:</span> Jika anda set semula kata laluan anda, beberapa data akan terpadam (termasuk data sync pelayan seperti sejarah dan tanda buku). Ini kerana kami enkrip data dengan kata "
 #~ "laluan untuk melindungi privasi anda."

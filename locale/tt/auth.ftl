@@ -30,6 +30,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Язылудан баш тарту
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Язылуны яңадан активлаштыру
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Түләү турындагы мәгълүматны яңарту
 subplat-legal = Хокукый мәсьәләләр
 subplat-privacy = Хосусыйлык
@@ -40,6 +41,8 @@ automated-email-plaintext = Бу автоматик электрон хат. А�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Зинһар, хезмәтләребезне яхшыртырга ярдәм итү өчен бу кыска сораулыкны алыгыз:
 change-password-plaintext = Берәрсе хисабыгызны кулга төшерергә маташа дип шикләнсәгез, зинһар паролыгызны үзгәртегез.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -65,15 +68,12 @@ lowRecoveryCodes-subject =
         [one] Бер коткару коды калды
        *[other] { $numberRemaining } коткару коды калды
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } эченә яңа керү
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = { $clientName } эченә яңа керү
-
-##
-
 newDeviceLogin-action = Хисап белән идарә итү
 passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
@@ -137,6 +137,21 @@ recovery-subject = Серсүзегезне алыштырыгыз
 recovery-title = Паролыгызны үзгәртү кирәкме?
 recovery-description = Яңа бер парол булдыру өчен бер сәгать эчендә бу төймәгә басыгыз. Бу үтенеч түбәндәге җиһаздан килде:
 recovery-action = Яңа парол булдыру
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
+subscriptionAccountDeletion-title = Китүегез безгә кызганыч
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
+subscriptionCancellation-title = Китүегез безгә кызганыч
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productNameNew } хезмәтенә күчтегез
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } продуктыннан { $productNameNew } продуктына күчү уңышлы узды.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } өчен кулланылучы кредит картасының тиздән вакыты чыгачак
@@ -149,6 +164,14 @@ subscriptionReactivation-subject = { $productName } продуктына язы�
 subscriptionReactivation-title = { $productName } абунәгезне яңартуыгыз өчен рәхмәт!
 subscriptionsPaymentExpired-subject = Язылуларыгыз өчен кулланылучы кредит картасының тиздән вакыты чыгачак
 subscriptionsPaymentExpired-title = Сезнең кредит картасының вакыты чыгып килә
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = { $productNameNew } продуктына күтәрелү уңышлы узды
+subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = { $productNameOld } продуктын { $productNameNew } продуктына яңарту уңышлы узды.
 unblockCode-subject = Хисабыгызны авторизацияләү коды
 unblockCode-title = Керүче Сезме?
 unblockCode-prompt = Әйе булса, Сезгә кирәкле авторизация коды менә бу:
@@ -190,11 +213,17 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Расланганнан соң, икенчел эл. почта адресын өстәү кебек хисапка үзгәрешләр кертү турындагы гаризалар бу җиһазда да күренәчәк.
 verifySecondary-subject = Икенчел эл. почтаны раслау
 verifySecondary-title = Икенчел эл. почтаны раслау
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
 verifySecondary-action = Эл. почтаны раслау
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Адрес расланганнан соң, хәвефсезлек турындагы белдерүләр һәм раслаулар бу адреска да җибәреләчәк.
 verifySecondaryCode-subject = Икенчел эл. почтаны раслау
 verifySecondaryCode-title = Икенчел эл. почтаны раслау
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = { $email } адресын икенчел эл. почта адресы буларак куллану өчен түбәндәге { -product-firefox-account } хисабыннан бер үтенеч килде:
 verifySecondaryCode-prompt = Бу раслау кодын куллану:
 verifySecondaryCode-expiry-notice = 5 минуттан аның вакыты чыгачак. Адрес расланганнан соң, хәвефсезлек турындагы белдерүләр һәм раслаулар бу адреска да җибәреләчәк.
 # Variables:

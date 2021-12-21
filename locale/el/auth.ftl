@@ -51,6 +51,8 @@
     }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -72,6 +74,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ακύρωση συνδρομής
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Επανενεργοποίηση συνδρομής
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
 subplat-legal = Νομικά
 subplat-privacy = Απόρρητο
@@ -93,12 +96,17 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:
 change-password-plaintext = Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Διεύθυνση IP: { $ip }
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Μέθοδος πληρωμής:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a data-l10n-name="subscriptionSupportUrl">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:
@@ -127,15 +135,12 @@ lowRecoveryCodes-subject =
         [one] Απομένει 1 κωδικός ανάκτησης
        *[other] Απομένουν { $numberRemaining } κωδικοί ανάκτησης
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Νέα σύνδεση στο { $clientName }
-
-##
-
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
@@ -220,6 +225,15 @@ recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
 recovery-description = Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε έναν νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Η συνδρομή σας στο { $productName } έχει ακυρωθεί
+subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
+subscriptionCancellation-title = Λυπούμαστε που φεύγετε
+subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Η πληρωμή του { $productName } επιβεβαιώθηκε
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα
@@ -227,6 +241,9 @@ subscriptionPaymentExpired-title = Η πιστωτική σας κάρτα πρ�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές του { $productName } πρόκειται να λήξει.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Η πληρωμή του { $productName } απέτυχε
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
@@ -240,6 +257,24 @@ subscriptionReactivation-content = Ο κύκλος χρέωσης και η πλ
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
 subscriptionsPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών.
+subscriptionsPaymentProviderCancelled-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμής σας
+subscriptionsPaymentProviderCancelled-content-detected = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές.
+subscriptionsPaymentProviderCancelled-content-payment = Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Αριθμός τιμολογίου: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Έχετε αναβαθμίσει στο { $productNameNew }
+subscriptionUpgrade-title = Ευχαριστούμε για την αναβάθμιση!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Κάνατε επιτυχή αναβάθμιση από το { $productNameOld } στο { $productNameNew }.
+subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 unblockCode-subject = Κωδικός ταυτοποίησης λογαριασμού
 unblockCode-title = Κάνετε εσείς σύνδεση;
 unblockCode-prompt = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε:
@@ -257,7 +292,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Επιβεβαίωση email
 verificationReminderSecond-subject = Τελική υπενθύμιση: Ενεργοποιήστε τον λογαριασμό σας
 verificationReminderSecond-title = Είστε ακόμα εκεί;
-verificationReminderSecond-description = Σχεδόν μια εβδομάδα πριν, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς.
+verificationReminderSecond-description = Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς.
 verificationReminderSecond-sub-description = Επιβεβαιώστε αυτήν τη διεύθυνση email για να ενεργοποιήσετε τον λογαριασμό σας και να μας ενημερώσετε ότι είστε εντάξει.
 verificationReminderSecond-action = Επιβεβαίωση email
 verify-title = Ενεργοποιήστε την οικογένεια των προϊόντων { -brand-firefox }

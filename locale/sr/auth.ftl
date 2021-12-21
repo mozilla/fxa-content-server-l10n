@@ -118,3 +118,11 @@ verifySecondaryCode-expiry-notice = Истиче за 5 минута. Једно
 verifyShortCode-title = Да ли сте се ово ви пријавили?
 verifyShortCode-expiry-notice = Истиче за 5 минута.
 
+cancellationSurvey-plaintext = Помозите нам да побољшамо наше услуге одговарањем на овај кратак упитник:
+subscriptionAccountDeletion-title = Тужни смо што одлазите
+subscriptionCancellation-title = Тужни смо што одлазите
+subscriptionDowngrade-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
+subscriptionUpgrade-title = Хвала што сте ажурирали!
+subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
+verificationReminderFirst-description = Пре неколико дана сте направили { -brand-firefox } налог, али га нисте и потврдили.
+

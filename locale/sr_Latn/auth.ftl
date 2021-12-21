@@ -119,3 +119,10 @@ verifySecondaryCode-expiry-notice = Ističe za 5 minuta. Jednom kada verifikujet
 verifyShortCode-title = Da li ste se ovo vi prijavili?
 verifyShortCode-expiry-notice = Ističe za 5 minuta.
 
+cancellationSurvey-plaintext = Pomozite nam da poboljšamo naše usluge odgovaranjem na ovaj kratak upitnik:
+subscriptionAccountDeletion-title = Tužni smo što odlazite
+subscriptionCancellation-title = Tužni smo što odlazite
+subscriptionDowngrade-content-auto-renew = Vaša pretplata će se automatski obnavljati svakog obračunskog perioda, osim ako ne odlučite da je otkažete.
+subscriptionUpgrade-title = Hvala što ste ažurirali!
+subscriptionUpgrade-auto-renew = Vaša pretplata će se automatski obnavljati svakog obračunskog perioda, osim ako ne odlučite da je otkažete.
+

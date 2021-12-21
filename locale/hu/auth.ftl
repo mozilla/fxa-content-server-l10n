@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-fiók
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -38,6 +40,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Előfizetés lemondása
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Előfizetés újraaktiválása
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Számlázási információk frissítése
 subplat-legal = Jogi információk
 subplat-privacy = Adatvédelem
@@ -59,12 +62,22 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ha nem módosította, akkor állítsa helyre jelszavát itt: { $resetLink }
+cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl")s>rövid kérdőívet</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti az alábbi rövid kérdőívet:
 change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, kérjük változtassa meg jelszavát.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-cím: { $ip }
 manage-account = Fiók kezelése
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Fizetési mód:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = %(lastFour)s végződésű { $cardType } kártya
 subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:
@@ -74,6 +87,14 @@ subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekébe
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = További információkért keresse fel a { $supportUrl } oldalt
+updateBilling = A következő napokban újra megpróbáljuk a befizetését, de előfordulhat, hogy segítenie kell nekünk a <a data-l10n-name="updateBillingUrl">fizetési információinak frissítésével</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = A következő napokban újra megpróbáljuk a befizetését, de előfordulhat, hogy segítenie kell nekünk a fizetési információinak frissítésével:
+view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Díjbekérő megtekintése: { $invoiceLink }
 cadReminderFirst-subject = Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását
 cadReminderFirst-action = Másik eszköz szinkronizálása
 cadReminderFirst-title = Itt az emlékeztető, hogy szinkronizálja az eszközeit.
@@ -93,15 +114,12 @@ lowRecoveryCodes-subject =
         [one] 1 helyreállítási kód maradt
        *[other] { $numberRemaining } helyreállítási kód maradt
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Új bejelentkezés itt: { $clientName }
-
-##
-
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
@@ -186,6 +204,66 @@ recovery-subject = Jelszó visszaállítása
 recovery-title = Helyre kell állítania a jelszavát?
 recovery-description = Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:
 recovery-action = Új jelszó létrehozása
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Lemondta a(z) { $productName } előfizetését
+subscriptionAccountDeletion-title = Sajnáljuk, hogy távozik
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Nemrég törölte a { -product-firefox-account }ját. Ezért megszakítottuk a(z) { $productName } előfizetését. Az utolsó { $invoiceTotal } $ értékű befizetése ekkor történt: { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Lemondta a(z) { $productName } előfizetését
+subscriptionCancellation-title = Sajnáljuk, hogy távozik
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Lemondtuk a(z) { $productName } előfizetését. Az utolsó befizetésének ideje { $invoiceDateOnly }, összege { $invoiceTotal }. Az előfizetése aktív marad a befizetett periódus végéig, melynek dátuma { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Váltott erre: { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Sikeresen váltott erről: { $productNameOld }, erre: { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = A következő számlától fogva a levonása megváltozik { $paymentAmountOld }/{ $productPaymentCycle } összegről a következőre: { $paymentAmountNew }. Akkor kapni fog egy egyszeri { $paymentProrated } értékű jóváírást, amely a(z) { $productPaymentCycle } hátralévő időszakára eső különbözet.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Ha új szoftver telepítése szükséges a { $productNameNew } használatához, akkor külön e-mailt fog kapni a letöltési utasításokkal.
+subscriptionDowngrade-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = A(z) { $productName } befizetése megerősítve
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Köszönjük, hogy feliratkozott a(z) { $productName } szolgáltatásra
+subscriptionFirstInvoice-content-processing = Az ön befizetése feldolgozás alatt áll, ami akár négy munkanapig is tarthat.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Kapni fog egy külön e-mailt a letöltési utasításokkal, és arról, hogyan tudja használni a(z) { $productName } szolgáltatást.
+subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Számla száma: <b>%(invoiceNumber)s</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Számla száma: %(invoiceNumber)s
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Következő számla: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = A(z) { $productName } termékhez tartozó bankkártya hamarosan lejár
@@ -193,6 +271,22 @@ subscriptionPaymentExpired-title = A bankkártyája hamarosan lejár
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = A(z) { $productName } előfizetésének befizetéséhez használt bankkártyája hamarosan lejár.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = A(z) { $productName } befizetése sikertelen
+subscriptionPaymentFailed-title = Sajnáljuk, gondok vannak a befizetésével
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Probléma merült fel a legutóbbi { $productName } befizetésével kapcsolatban.
+subscriptionPaymentFailed-content-outdated = Lehet, hogy a bankkártyája lejárt, vagy a jelenlegi fizetési mód elavult.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = A fizetési információk frissítése szükséges a következőnél: { $productName }
+subscriptionPaymentProviderCancelled-title = Sajnáljuk, gondok vannak a fizetési módjával
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Problémát észleltünk a { $productName } termékhez tartozó fizetési módjával kapcsolatban.
+subscriptionPaymentProviderCancelled-content-reason = Lehet, hogy a bankkártyája lejárt, vagy a jelenlegi fizetési mód elavult.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } előfizetés újraaktiválva
@@ -206,6 +300,51 @@ subscriptionReactivation-content = A számlázási ciklusa és fizetése változ
 subscriptionsPaymentExpired-subject = Az előfizetéseihez tartozó bankkártya hamarosan lejár
 subscriptionsPaymentExpired-title = A bankkártyája hamarosan lejár
 subscriptionsPaymentExpired-content = A következő előfizetésekhez használt bankkártyája hamarosan lejár.
+subscriptionsPaymentProviderCancelled-subject = A fizetési információk frissítése szükséges a { -brand-mozilla(ending: "accented") }s előfizetéseknél
+subscriptionsPaymentProviderCancelled-title = Sajnáljuk, gondok vannak a fizetési módjával
+subscriptionsPaymentProviderCancelled-content-detected = Problémát észleltünk a következő előfizetésekhez tartozó fizetési módjával kapcsolatban.
+subscriptionsPaymentProviderCancelled-content-payment = Lehet, hogy a bankkártyája lejárt, vagy a jelenlegi fizetési mód elavult.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = A(z) { $productName } befizetése megérkezett
+subscriptionSubsequentInvoice-title = Köszönjük, hogy előfizető lett!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Megkaptuk legutóbbi { $productName } befizetését.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Számla száma: <b>%(invoiceNumber)s</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Számla száma: %(invoiceNumber)s
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Csomagmódosítás: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Következő számla: { $nextInvoiceDateOnly }
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Frissített erre: { $productNameNew }
+subscriptionUpgrade-title = Köszönjük, hogy magasabb csomagra frissített!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Sikeresen frissített erről: { $productNameOld }, erre: { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = A következő számlától fogva a levonása megváltozik { $paymentAmountOld }/{ $productPaymentCycle } összegről a következőre: { $paymentAmountNew }. Akkor kapni fog egy egyszeri { $paymentProrated } értékű levonást, amely a(z) { $productPaymentCycle } hátralévő időszakára eső különbözet.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Ha új szoftver telepítése szükséges a { $productNameNew } használatához, akkor külön e-mailt fog kapni a letöltési utasításokkal.
+subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 unblockCode-subject = Fiók engedélyezési kód
 unblockCode-title = Ez az ön bejelentkezése?
 unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szüksége:
@@ -270,5 +409,5 @@ verifySecondaryCode-expiry-notice = 5 perc múlva lejár. Ha hitelesíti, akkor 
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Ellenőrzőkód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
-verifyShortCode-prompt = Ha igen, használja ezt az ellenőrző kódot a regisztrációs űrlapján:
+verifyShortCode-prompt = Ha igen, használja ezt az ellenőrzőkódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.

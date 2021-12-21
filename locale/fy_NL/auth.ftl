@@ -272,3 +272,10 @@ verifyShortCode-subject = Ferifikaasjekoade: { $code }
 verifyShortCode-title = Is dit jo registraasje?
 verifyShortCode-prompt = Sa ja, brûk dan dizze ferifikaasjekoade yn jo registraasjeformulier:
 verifyShortCode-expiry-notice = Dizze ferrin oer fiif minuten.
+cancellationSurvey-plaintext = Help ús ús tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:
+subscriptionAccountDeletion-title = Spitich dat jo ôfsette
+subscriptionCancellation-title = Spitich dat jo ôfsette
+subscriptionDowngrade-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+subscriptionUpgrade-title = Tank foar it opwurdearjen!
+subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+

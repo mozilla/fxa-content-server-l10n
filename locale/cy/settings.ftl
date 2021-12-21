@@ -31,6 +31,7 @@ alert-bar-close-message = Cau neges
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
 bento-menu-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
 bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Cael { -brand-firefox } ar ffôn symudol neu dabled
 connect-another-find-fx-mobile =
     Canfod { -brand-firefox } yn y { -google-play } a { -app-store } neu
     <br /><linkExternal> anfon dolen llwytho i lawr i'ch dyfais. </linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Llwytho { -brand-firefox } i lawr ar { -google-play }
+connect-another-app-store-image =
+    .title = Llwytho { -brand-firefox } i lawr ar yr { -app-store }
 
 ##
 
@@ -357,9 +365,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Diddymu
 add-secondary-email-save-button = Cadw
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Cam 2 o 2
@@ -520,6 +525,8 @@ se-resend-code =
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
 se-content-note = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — byddwch angen <a>allwedd adfer</a> ar gyfer hynny.
+# Default value for the secondary email
+se-secondary-email-none = Dim
 
 ##
 
@@ -553,6 +560,7 @@ tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
 auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
+auth-error-105 = Cod dilysu annilys
 auth-error-110 = Tocyn annilys
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -563,5 +571,7 @@ auth-error-110 = Tocyn annilys
 #                           (for example: "in 15 minutes")
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach.
 auth-error-138 = Sesiwn heb ei gwirio
+auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
+auth-error-183 = Cod dilysu annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol

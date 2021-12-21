@@ -31,6 +31,7 @@ alert-bar-close-message = Cerrar mensaje
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } es una tecnología que lucha por s
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para escritorio
 bento-menu-firefox-mobile = Navegador para móviles { -brand-firefox }
 bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Instalá { -brand-firefox } en tu celular o tablet
 connect-another-find-fx-mobile =
     Buscá { -brand-firefox } en{ -google-play } y { -app-store } o
     <br /><linkExternal>enviá un enlace de descarga a tu dispositivo.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Descargar { -brand-firefox } en { -google-play }
+connect-another-app-store-image-2 =
+    .title = Descargá { -brand-firefox } en { -app-store }
 
 ##
 
@@ -234,6 +242,8 @@ tfa-replace-code-success =
     Se crearon códigos nuevos. Guardá estos códigos de uso único
     en un lugar seguro, los necesitarás para acceder a tu cuenta si no tenés tu dispositivo móvil.
 tfa-replace-code-success-alert = Se actualizaron los códigos de recuperación de la cuenta.
+tfa-replace-code-1-2 = Paso 1 de 2
+tfa-replace-code-2-2 = Paso 2 de 2
 
 ## Avatar change page
 
@@ -357,9 +367,6 @@ add-secondary-email-enter-address =
     .label = Ingresar dirección de correo electrónico
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
-
-##
-
 
 ## Verify secondary email page
 
@@ -520,6 +527,8 @@ se-default-content = Accedé a tu cuenta si no podés iniciar sesión en tu corr
 se-content-note =
     Nota: un correo electrónico secundario no restaurará tu información; 
     Para hacerlo necesitarás una <a> clave de recuperación </a>.
+# Default value for the secondary email
+se-secondary-email-none = Ninguno
 
 ##
 
@@ -555,6 +564,7 @@ tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
+auth-error-105 = Código de verificación inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -565,5 +575,7 @@ auth-error-110 = Token inválido
 #                           (for example: "in 15 minutes")
 auth-error-114 = Probaste demasiadas veces. Intentá en { $retryAfter }.
 auth-error-138 = Sesión no verificada
+auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
+auth-error-183 = El código de verificación no es válido o ya venció
 auth-error-1008 = La nueva contraseña debe ser diferente

@@ -85,6 +85,7 @@ alert-bar-close-message = Закрити повідомлення
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -123,6 +124,7 @@ bento-menu-firefox-title = { -brand-firefox } - це технологія, як�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Браузер для комп'ютера
 bento-menu-firefox-mobile = { -brand-firefox } Браузер для мобільного
 bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
@@ -133,6 +135,12 @@ connect-another-fx-mobile = Отримайте { -brand-firefox } для моб�
 connect-another-find-fx-mobile =
     Знайдіть { -brand-firefox } в { -google-play } та { -app-store } або
     <br /><linkExternal>надішліть посилання для завантаження на свій пристрій.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Завантажити { -brand-firefox } із { -google-play }
+connect-another-app-store-image-2 =
+    .title = Завантажити { -brand-firefox } з { -app-store }
 
 ##
 
@@ -289,6 +297,8 @@ tfa-replace-code-success =
     в надійному місці — вам вони знадобляться для доступу до облікового запису
     при відсутності вашого мобільного пристрою.
 tfa-replace-code-success-alert = Коди відновлення облікового запису оновлено.
+tfa-replace-code-1-2 = Крок 1 з 2
+tfa-replace-code-2-2 = Крок 2 з 2
 
 ## Avatar change page
 
@@ -412,9 +422,6 @@ add-secondary-email-enter-address =
     .label = Введіть адресу е-пошти
 add-secondary-email-cancel-button = Скасувати
 add-secondary-email-save-button = Зберегти
-
-##
-
 
 ## Verify secondary email page
 
@@ -578,6 +585,8 @@ se-default-content = Доступ до облікового запису, якщ
 se-content-note =
     Примітка: додаткова адреса е-пошти не дає змогу відновити вашу інформацію.
     Для цього вам знадобиться <a>ключ відновлення</a>.
+# Default value for the secondary email
+se-secondary-email-none = Немає
 
 ##
 
@@ -613,6 +622,7 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 
 auth-error-102 = Невідомий обліковий запис
 auth-error-103 = Неправильний пароль
+auth-error-105 = Недійсний код підтвердження
 auth-error-110 = Недійсний код
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -623,5 +633,7 @@ auth-error-110 = Недійсний код
 #                           (for example: "in 15 minutes")
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
 auth-error-138 = Непідтверджений сеанс
+auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
+auth-error-183 = Недійсний код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
 "PO-Revision-Date: 2021-11-16 11:14+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430041708.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2941
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
 msgid "Here's your reminder to sync devices."
 msgstr "Tässä muistutus laitteidesi synkronoimiseksi."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Synkronointiin tarvitaan kaksi. Toisen laitteen synkronointi Firefoxin kanssa pitää kirjanmerkit, salasanat ja muut Firefox-tiedot yksityisenä ja samana kaikkialla, missä käytät Firefoxia."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2942
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
 msgid "Last reminder to sync devices!"
 msgstr "Viimeinen muistutus laitteidesi synkronoimiseksi!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2948
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Toisen laitteen synkronointi Firefoxin kanssa pitää kirjanmerkit, salasanat ja muut Firefox-tiedot yksityisenä ja samana kaikkialla, missä käytät Firefoxia."
 
@@ -66,7 +66,7 @@ msgstr "Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet 
 msgid "Generate codes:"
 msgstr "Luo koodeja:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1400
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1402
 msgid "New sign-in to %(clientName)s"
 msgstr "Uusi kirjautuminen: %(clientName)s"
 
@@ -150,7 +150,7 @@ msgstr "Luo uusi palautusavain:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "Lisätietoja on osoitteessa %(supportUrl)s"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1836
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1838
 msgid "Account recovery key generated"
 msgstr "Tilin palautusavain luotu"
 
@@ -210,7 +210,7 @@ msgstr "Olet käyttänyt turvallisuuskoodin laitteella:"
 msgid "Consumed recovery code"
 msgstr "Käytetty palautuskoodi"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1692
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1694
 msgid "New recovery codes generated"
 msgstr "Uudet palautuskoodit on luotu"
 
@@ -218,7 +218,7 @@ msgstr "Uudet palautuskoodit on luotu"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Olet luonut uudet palautuskoodit laitteella:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1886
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1888
 msgid "Account recovery key removed"
 msgstr "Tilin palautusavain poistettu"
 
@@ -234,7 +234,7 @@ msgstr "Tätä palautusavainta ei voi enää käyttää tilisi palauttamiseen."
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Olet poistanut tilin palautusavaimen Firefox-tililtäsi laitteella:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1564
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1566
 msgid "Secondary email removed"
 msgstr "Toissijainen sähköposti poistettiin"
 
@@ -270,7 +270,7 @@ msgstr "Seuraavaksi synkronoi laitteesi!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut Firefoxin tiedot samassa tilassa eri laitteidesi välillä."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1446
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1448
 msgid "Set up next device"
 msgstr "Määritä seuraava laite"
 
@@ -278,7 +278,7 @@ msgstr "Määritä seuraava laite"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Kysymyksiä? Käy sivulla %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1492
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1494
 msgid "Secondary email added"
 msgstr "Toissijainen sähköpostiosoite lisätty"
 
@@ -295,7 +295,7 @@ msgstr "Tarvitseeko sinun nollata salasanasi?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1241
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1243
 msgid "Create new password"
 msgstr "Luo uusi salasana"
 
@@ -320,7 +320,7 @@ msgstr "Auta meitä parantamaan palveluitamme täyttämällä <a %(cancellationS
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2910
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
 msgid "Welcome to %(productName)s"
 msgstr "Tervetuloa, käytössäsi on %(productName)s"
 
@@ -647,7 +647,7 @@ msgstr "Vahvista tilisi ja ota kaikki hyöty irti Firefoxista kaikkialla missä 
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:930
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:932
 msgid "Confirm sign-in"
 msgstr "Vahvista kirjautuminen"
 
@@ -839,208 +839,208 @@ msgstr "Peru tilaukset:"
 msgid "Update billing information:"
 msgstr "Päivitä laskutustiedot:"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:349
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:354
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s alustalla %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:380
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:387
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:392
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (arvio)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:397
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (arvio)"
 
-#: lib/senders/email.js:604
+#: lib/senders/email.js:605
 msgid "Finish creating your account"
 msgstr "Viimeistele tilisi luominen"
 
-#: lib/senders/email.js:605 lib/senders/email.js:742
+#: lib/senders/email.js:606 lib/senders/email.js:743
 msgid "Confirm email"
 msgstr "Vahvista sähköposti"
 
-#: lib/senders/email.js:672
+#: lib/senders/email.js:673
 msgid "Verification code: %(code)s"
 msgstr "Vahvistuskoodi: %(code)s"
 
-#: lib/senders/email.js:722
+#: lib/senders/email.js:723
 msgid "Reminder: Finish creating your account"
 msgstr "Muistutus: viimeistele tilisi luominen"
 
-#: lib/senders/email.js:724
+#: lib/senders/email.js:725
 msgid "Final reminder: Activate your account"
 msgstr "Viimeinen muistutus: aktivoi tilisi"
 
-#: lib/senders/email.js:775
+#: lib/senders/email.js:776
 msgid "Reminder: Finish setting up your account"
 msgstr "Muistutus: viimeistele tilisi määrittäminen"
 
-#: lib/senders/email.js:777
+#: lib/senders/email.js:778
 msgid "Final reminder: Setup your account"
 msgstr "Viimeinen muistutus: määritä tilisi"
 
-#: lib/senders/email.js:817 lib/senders/email.js:2027
+#: lib/senders/email.js:820 lib/senders/email.js:2031
 msgid "Create a password"
 msgstr "Luo salasana"
 
-#: lib/senders/email.js:854
+#: lib/senders/email.js:856
 msgid "Account authorization code"
 msgstr "Tilin valtuuskoodi"
 
-#: lib/senders/email.js:927
+#: lib/senders/email.js:929
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Vahvista uusi kirjautuminen: %(clientName)s"
 
-#: lib/senders/email.js:976
+#: lib/senders/email.js:978
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Kirjautumiskoodi palveluun %(serviceName)s"
 
-#: lib/senders/email.js:1045
+#: lib/senders/email.js:1047
 msgid "Confirm primary email"
 msgstr "Vahvista ensisijainen sähköpostiosoite"
 
-#: lib/senders/email.js:1046 lib/senders/email.js:1109 lib/senders/email.js:1181
+#: lib/senders/email.js:1048 lib/senders/email.js:1111 lib/senders/email.js:1183
 msgid "Verify email"
 msgstr "Vahvista sähköpostiosoite"
 
-#: lib/senders/email.js:1108 lib/senders/email.js:1180
+#: lib/senders/email.js:1110 lib/senders/email.js:1182
 msgid "Confirm secondary email"
 msgstr "Vahvista toissijainen sähköpostiosoite"
 
-#: lib/senders/email.js:1240
+#: lib/senders/email.js:1242
 msgid "Reset your password"
 msgstr "Nollaa salasanasi"
 
-#: lib/senders/email.js:1286 lib/senders/email.js:1357
+#: lib/senders/email.js:1288 lib/senders/email.js:1359
 msgid "Password updated"
 msgstr "Salasana päivitetty"
 
-#: lib/senders/email.js:1328
+#: lib/senders/email.js:1330
 msgid "Suspicious activity detected"
 msgstr "Epäilyttävää toimintaa havaittu"
 
-#: lib/senders/email.js:1401 lib/senders/email.js:1493 lib/senders/email.js:1529 lib/senders/email.js:1565 lib/senders/email.js:1599 lib/senders/email.js:1646 lib/senders/email.js:1693
-#: lib/senders/email.js:1740 lib/senders/email.js:1837 lib/senders/email.js:1887
+#: lib/senders/email.js:1403 lib/senders/email.js:1495 lib/senders/email.js:1531 lib/senders/email.js:1567 lib/senders/email.js:1601 lib/senders/email.js:1648 lib/senders/email.js:1695
+#: lib/senders/email.js:1742 lib/senders/email.js:1839 lib/senders/email.js:1889
 msgid "Manage account"
 msgstr "Hallinnoi tiliä"
 
-#: lib/senders/email.js:1441
+#: lib/senders/email.js:1443
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset"
 
-#: lib/senders/email.js:1528
+#: lib/senders/email.js:1530
 msgid "Primary email updated"
 msgstr "Ensisijainen sähköpostiosoite päivitetty"
 
-#: lib/senders/email.js:1598
+#: lib/senders/email.js:1600
 msgid "Two-step verification enabled"
 msgstr "Kaksivaiheinen vahvistus otettu käyttöön"
 
-#: lib/senders/email.js:1645
+#: lib/senders/email.js:1647
 msgid "Two-step verification is off"
 msgstr "Kaksivaiheinen vahvistus on pois käytöstä"
 
-#: lib/senders/email.js:1739
+#: lib/senders/email.js:1741
 msgid "Recovery code used"
 msgstr "Palautuskoodi käytetty"
 
-#: lib/senders/email.js:1799
+#: lib/senders/email.js:1801
 msgid "1 recovery code remaining"
 msgstr "1 palautuskoodi jäljellä"
 
-#: lib/senders/email.js:1801
+#: lib/senders/email.js:1803
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s palautuskoodia jäljellä"
 
-#: lib/senders/email.js:1804
+#: lib/senders/email.js:1806
 msgid "Generate codes"
 msgstr "Luo koodeja"
 
-#: lib/senders/email.js:1936
+#: lib/senders/email.js:1938
 msgid "Password updated using recovery key"
 msgstr "Salasana päivitetty palautusavainta käyttäen"
 
-#: lib/senders/email.js:1937
+#: lib/senders/email.js:1939
 msgid "Create new recovery key"
 msgstr "Luo uusi palautusavain"
 
-#: lib/senders/email.js:2030
+#: lib/senders/email.js:2034
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Tervetuloa, tämä on %(productName)s: Aseta salasanasi."
 
-#: lib/senders/email.js:2103
+#: lib/senders/email.js:2107
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Päivitit tuotteeseen %(productNameNew)s"
 
-#: lib/senders/email.js:2182
+#: lib/senders/email.js:2186
 msgid "You have switched to %(productNameNew)s"
 msgstr "Vaihdoit tuotteeseen %(productNameNew)s"
 
-#: lib/senders/email.js:2247
+#: lib/senders/email.js:2251
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Tuotteella %(productName)s käytettävä luottokortti vanhenee pian"
 
-#: lib/senders/email.js:2261
+#: lib/senders/email.js:2265
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Tilauksiin käyttämäsi luottokortti vanhenee pian"
 
-#: lib/senders/email.js:2312
+#: lib/senders/email.js:2316
 msgid "Payment information update required for %(productName)s"
 msgstr "%(productName)s vaatii maksutietojen päivittämisen"
 
-#: lib/senders/email.js:2328
+#: lib/senders/email.js:2332
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Maksutietojen päivitys vaaditaan Mozilla-tilauksiin"
 
-#: lib/senders/email.js:2374
+#: lib/senders/email.js:2378
 msgid "%(productName)s payment failed"
 msgstr "Tuotteen %(productName)s maksu epäonnistui"
 
-#: lib/senders/email.js:2425 lib/senders/email.js:2490 lib/senders/email.js:2551
+#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "%(productName)s -tilauksesi on peruttu"
 
-#: lib/senders/email.js:2608
+#: lib/senders/email.js:2612
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s -tilaus aktivoitu uudelleen"
 
-#: lib/senders/email.js:2664
+#: lib/senders/email.js:2668
 msgid "%(productName)s automatic renewal notice"
 msgstr "%(productName)s - automaattinen uusimisilmoitus"
 
-#: lib/senders/email.js:2744
+#: lib/senders/email.js:2748
 msgid "%(productName)s payment received"
 msgstr "%(productName)s -maksu vastaanotettu"
 
-#: lib/senders/email.js:2836
+#: lib/senders/email.js:2840
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s -maksu vahvistettu"
 
-#: lib/senders/email.js:2911
+#: lib/senders/email.js:2915
 msgid "Download %(productName)s"
 msgstr "Lataa %(productName)s"
 
-#: lib/senders/email.js:2937
+#: lib/senders/email.js:2941
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Ystävällinen muistutus: Kuinka saattaa synkronoinnin asetukset valmiiksi"
 
-#: lib/senders/email.js:2938
+#: lib/senders/email.js:2942
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Viimeinen muistutus: Määritä synkronoinnin asetukset valmiiksi"
 
-#: lib/senders/email.js:2952
+#: lib/senders/email.js:2956
 msgid "Sync another device"
 msgstr "Synkronoi toinen laite"
 
@@ -1141,10 +1141,11 @@ msgstr "Lataa viimeisin"
 #~ msgstr "Ensimmäiseksi vaihda Firefox-tilisi salasana."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr ""
-#~ "Toiseksi, jos Firefox tallentaa verkkosivustojen salasanoja, sinun tulisi vaihtaa myös niiden sivustojen salasanat. Hyökkääjät ovat voineet päästä käsiksi salasanoihin, joten sinun tulisi tarkistaa "
-#~ "niiden tilit epäilyttävän toiminnan varalta."
+#~ "Toiseksi, jos Firefox tallentaa verkkosivustojen salasanoja, sinun tulisi vaihtaa myös niiden sivustojen salasanat. Hyökkääjät ovat voineet päästä käsiksi salasanoihin, joten sinun tulisi "
+#~ "tarkistaa niiden tilit epäilyttävän toiminnan varalta."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "Lue, mistä näet, mitä salasanoja Firefox tallentaa."
@@ -1555,11 +1556,11 @@ msgstr "Lataa viimeisin"
 #~ msgstr "Nollaa salasana"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa tiliin"
-#~ " yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
+#~ "Muutamia päiviä sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Vahvistettu tili mahdollistaa sinun käyttää välilehtiäsi, kirjanmerkkejäsi, salasanojasi ja historiaasi millä tahansa "
+#~ "tiliin yhdistetyllä laitteella. Aktivoi tilisi vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
@@ -1652,8 +1653,8 @@ msgstr "Lataa viimeisin"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida Firefoxin"
-#~ " salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
+#~ "Viikko sitten loit Firefox-tilin, mutta et ole vahvistanut sitä. Olemme huolissamme sinusta. Firefox on saatavilla Windowsille, Macille, Linuxille, Androidille ja iOS:lle. Voit synkronoida "
+#~ "Firefoxin salasanat, kirjanmerkit ja historian kaikkien niiden kanssa. Aktivoi tilisi ja kerro olevasi kunnossa vahvistamalla tämä sähköpostiosoite."
 
 #~ msgid "env"
 #~ msgstr "env"

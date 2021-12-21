@@ -65,6 +65,7 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -103,6 +104,7 @@ bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογί
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
 bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
 bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
@@ -113,6 +115,12 @@ connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κ
 connect-another-find-fx-mobile =
     Βρείτε το { -brand-firefox } στο { -google-play } και στο { -app-store } ή
     <br /><linkExternal>στείλτε έναν σύνδεσμο λήψης στη συσκευή σας.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Λήψη του { -brand-firefox } στο { -google-play }
+connect-another-app-store-image-2 =
+    .title = Λήψη του { -brand-firefox } στο { -app-store }
 
 ##
 
@@ -269,6 +277,8 @@ tfa-replace-code-success =
     μιας χρήσης σε ασφαλές μέρος — όπου θα έχετε πρόσβαση σε περίπτωση που δεν
     έχετε την κινητή συσκευή σας.
 tfa-replace-code-success-alert = Οι κωδικοί ανάκτησης του λογαριασμού ενημερώθηκαν.
+tfa-replace-code-1-2 = Βήμα 1 από 2
+tfa-replace-code-2-2 = Βήμα 2 από 2
 
 ## Avatar change page
 
@@ -392,9 +402,6 @@ add-secondary-email-enter-address =
     .label = Εισαγωγή διεύθυνσης email
 add-secondary-email-cancel-button = Ακύρωση
 add-secondary-email-save-button = Αποθήκευση
-
-##
-
 
 ## Verify secondary email page
 
@@ -558,6 +565,8 @@ se-default-content = Αποκτήστε πρόσβαση στον λογαρια
 se-content-note =
     Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας — 
     θα χρειαστείτε ένα <a>κλειδί ανάκτησης</a> για αυτό.
+# Default value for the secondary email
+se-secondary-email-none = Κανένα
 
 ##
 
@@ -593,6 +602,7 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 
 auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
+auth-error-105 = Μη έγκυρος κωδικός επαλήθευσης
 auth-error-110 = Μη έγκυρο διακριτικό
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -603,5 +613,7 @@ auth-error-110 = Μη έγκυρο διακριτικό
 #                           (for example: "in 15 minutes")
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
 auth-error-138 = Μη επαληθευμένη συνεδρία
+auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
+auth-error-183 = Μη έγκυρος ή παλιός κωδικός επαλήθευσης
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός

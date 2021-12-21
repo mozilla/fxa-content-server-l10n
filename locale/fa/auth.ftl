@@ -2,16 +2,30 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-fxa-privacy-url = سیاست‌های حریم‌خصوصی موزیلا
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Email content
+
+fxa-privacy-url = سیاست‌های حریم‌خصوصی { -brand-mozilla }
 subplat-automated-email = این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست.
 automated-email-plaintext = این ایمیل به صورت خودکار ارسال شده؛ اگر اشتباها آن را دریافت کرده‌اید، نیاز به انجام کار خاصی نیست.
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = تعداد کمی کد بازیابی باقی‌مانده
 codes-reminder-description = متوجه شدیم که شما تعداد کمی کد بازیابی دارید. لطفا جهت جلوگیری از عدم امکانِ دسترسی به حساب خود، کدهای جدید ایجاد کنید.
 newDeviceLogin-action = مدیریت حساب‌کاربری
@@ -52,4 +66,3 @@ verifySecondary-post-verification = پس از تایید، این نشانی ا�
 verifySecondaryCode-title = تایید رایانامه دوم
 verifyShortCode-title = این شما هستید که می‌خواهید وارد شوید؟
 verifyShortCode-expiry-notice = 5 دقیقه دیگر منقضی می‌شود.
-

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-05-06 22:27+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"PO-Revision-Date: 2021-12-15 00:29+0000\n"
 "Last-Translator: Björn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -1651,7 +1651,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Send fane på nytt"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
@@ -1729,11 +1729,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Fortset til %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Skriv inn passord"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1742,7 +1742,7 @@ msgstr "Stadfest passordet"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Opprett passord"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1897,40 +1897,32 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Synkroniser bokmerka dine, passord og meir, på kvar eining."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr ""
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Få sikker tilgang til passord som er lagra i Firefox i frå kvar som helst &mdash; sjølv utanfor nettlesaren."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Få kontroll på datalekkasjar."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "Eit VPN frå ein påliteleg pioner innan datapersonvern på internett."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
-msgid "See all"
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
 msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr "Firefox Relay"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
+msgid "See all"
+msgstr "Vis alle"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -2027,6 +2019,18 @@ msgstr "Paring via ein app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkameraet? Du må pare i ein Firefox-app."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Få sikker tilgang til passord som er lagra i Firefox i frå kvar som helst &mdash; sjølv utanfor nettlesaren."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Få kontroll på datalekkasjar."
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "

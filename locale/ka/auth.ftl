@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = გამოწერის გაუქმება
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = გამოწერის კვლავ ამოქმედება
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = ანგარიშსწორების მონაცემების განახლება
 subplat-legal = სამართლებრივი
 subplat-privacy = პირადულობა
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = თუ თქვენ არ შეგიცვლიათ, გთხოვთ, ახლავე გაანულოთ პაროლი ბმულზე { $resetLink }
+cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl")s>მცირე კითხვარი</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -93,15 +97,12 @@ lowRecoveryCodes-subject =
         [one] 1 აღდგენის კოდია დარჩენილი
        *[other] { $numberRemaining } აღდგენის კოდია დარჩენილი
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = ახალი შესვლა { $clientName }
-
-##
-
 newDeviceLogin-action = ანგარიშის მართვა
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
@@ -186,6 +187,42 @@ recovery-subject = პაროლის განულება
 recovery-title = გესაჭიროებათ პაროლის განულება?
 recovery-description = დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:
 recovery-action = შეიყვანეთ ახალი პაროლი
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
+subscriptionAccountDeletion-title = სამწუხაროა, რომ გვტოვებთ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = თქვენ ახლახანს წაშალეთ თქვენი { -product-firefox-account }. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
+subscriptionCancellation-title = სამწუხაროა, რომ გვტოვებთ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }. თქვენი მომსახურება გაგრძელდება, მიმდინარე საანგარიშო პერიოდის დასრულებამდე, თარიღით { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = გადართვის შედეგად მიიღეთ { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } ჩანაცვლდა წარმატებულად და მიღებულია { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycle } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew }. ამასთან, იმ დროისთვის, ერთჯერადად დაგერიცხებათ { $paymentProrated }, შემცირებული გადასახადის ნაშთში სწორად ასახვისთვის { $productPaymentCycle } მონაკვეთში.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productNameNew }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
+subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = { $productName } მომსახურებისთვის საკრედიტო ბარათს ვადა ეწურება
@@ -195,7 +232,7 @@ subscriptionPaymentExpired-title = თქვენი საკრედიტ�
 subscriptionPaymentExpired-content = { $productName } მომსახურების გადახდებისთვის გამოყენებული საკრეტიდო ბარათს ვადა ეწურება.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } გამოწერა კვლავ ამოქმედებულია
+subscriptionReactivation-subject = გამოწერილი { $productName } კვლავ ამოქმედებულია
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = გმადლობთ, რომ კვლავ გამოიწერეთ { $productName }!
@@ -206,6 +243,24 @@ subscriptionReactivation-content = თქვენი საანგარი�
 subscriptionsPaymentExpired-subject = თქვენი გამოწერების საკრედიტო ბარათს ვადა ეწურება
 subscriptionsPaymentExpired-title = თქვენი საკრედიტო ბარათის ვადა იწურება
 subscriptionsPaymentExpired-content = საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადა ეწურება.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = განახლების შედეგად მიიღეთ { $productNameNew }
+subscriptionUpgrade-title = გმადლობთ, განახლებისთვის!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდა წარმატებულად და მიღებულია { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycle } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew }. ამასთან, იმ დროისთვის, ერთჯერადად ჩამოგეჭრებათ { $paymentProrated }, გაზრდილი გადასახადის ნაშთში სწორად ასახვისთვის { $productPaymentCycle } მონაკვეთში.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productNameNew }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
+subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 unblockCode-subject = ანგარიშზე დაშვების კოდი
 unblockCode-title = ეს თქვენი შესვლაა?
 unblockCode-prompt = თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი:

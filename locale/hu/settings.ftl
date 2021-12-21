@@ -31,6 +31,7 @@ alert-bar-close-message = Üzenet bezárása
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy tábl
 connect-another-find-fx-mobile =
     Keresse meg a { -brand-firefox }ot a { -google-play }en és az { -app-store }-on, vagy
     <br /><linkExternal>küldjön letöltési hivatkozást az eszközére.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = A { -brand-firefox } letöltése a { -google-play }ből
+connect-another-app-store-image-2 =
+    .title = A { -brand-firefox } letöltése az { -app-store }-ból
 
 ##
 
@@ -207,11 +215,11 @@ modal-cancel-button = Mégse
 ## Modal Verify Session
 
 mvs-verify-your-email = E-mail-cím megerősítése
-mvs-enter-verification-code = Adja meg az ellenőrzési kódját
+mvs-enter-verification-code = Adja meg az ellenőrzőkódját
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzési kódot.
+mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzőkódot.
 msv-cancel-button = Mégse
 msv-submit-button = Ellenőrzés
 
@@ -233,6 +241,8 @@ tfa-replace-code-success =
     kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
     nélkül kell hozzáférnie a fiókjához.
 tfa-replace-code-success-alert = Fiók-helyreállítási kódok frissítve.
+tfa-replace-code-1-2 = 1. / 2. lépés
+tfa-replace-code-2-2 = 2. / 2. lépés
 
 ## Avatar change page
 
@@ -357,23 +367,20 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Mégse
 add-secondary-email-save-button = Mentés
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
-verify-secondary-email-error = Hiba történt az ellenőrző kód elküldésekor.
+verify-secondary-email-error = Hiba történt az ellenőrzőkód elküldésekor.
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
 verify-secondary-email-verification-code =
-    .label = Adja meg az ellenőrzési kódját
+    .label = Adja meg az ellenőrzőkódját
 verify-secondary-email-cancel-button = Mégse
 verify-secondary-email-verify-button = Ellenőrzés
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzési kódot.
+verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzőkódot.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -491,7 +498,7 @@ rk-remove-error = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
-se-cannot-resend-code = Sajnos probléma merült fel az ellenőrző kód újraküldésékor.
+se-cannot-resend-code = Sajnos probléma merült fel az ellenőrzőkód újraküldésékor.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -512,7 +519,7 @@ se-refresh-email =
     .title = E-mail-cím frissítése
 se-unverified = nem ellenőrzött
 se-resend-code =
-    Ellenőrzés szükséges. <button>Küldje újra az ellenőrző kódot</button>,
+    Ellenőrzés szükséges. <button>Küldje újra az ellenőrzőkódot</button>,
     ha nincs a beérkezett levelek vagy a levélszemét mappában.
 # Button to make secondary email the primary
 se-make-primary = Elsődlegessé tétel
@@ -520,6 +527,8 @@ se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleg
 se-content-note =
     Megjegyzés: a másodlagos e-mail-címe nem fogja visszaállítani az
     adatait – ahhoz <a>helyreállítási kulcs</a> szükséges.
+# Default value for the secondary email
+se-secondary-email-none = Nincs
 
 ##
 
@@ -555,6 +564,7 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
+auth-error-105 = Érvénytelen ellenőrzőkód
 auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -565,5 +575,7 @@ auth-error-110 = Érvénytelen token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
 auth-error-138 = Nem ellenőrzött munkamenet
+auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
+auth-error-183 = Érvénytelen vagy lejárt ellenőrzőkód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie

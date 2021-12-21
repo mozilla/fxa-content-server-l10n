@@ -113,3 +113,8 @@ verifySecondaryCode-expiry-notice = この確認コードは 5 分で使用期�
 verifyShortCode-title = これはあなたが登録しようとしているアカウントですか？
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。
 
+passwordChangeRequired-sign-in = { -brand-firefox } アカウントを使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
+subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+verificationReminderFirst-description = 数日前に { -brand-firefox } アカウントを作成されましたが、まだ確認が行われていません。
+

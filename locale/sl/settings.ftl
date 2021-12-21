@@ -63,6 +63,7 @@ alert-bar-close-message = Zapri sporočilo
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -101,6 +102,7 @@ bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vaš
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
 bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
@@ -111,6 +113,12 @@ connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tabli
 connect-another-find-fx-mobile =
     Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali
     <br /><linkExternal>si pošlite povezavo za prenos na napravo</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Prenesite { -brand-firefox } iz trgovine { -google-play }
+connect-another-app-store-image-2 =
+    .title = Prenesite { -brand-firefox } iz trgovine { -app-store }
 
 ##
 
@@ -265,6 +273,8 @@ tfa-replace-code-success =
     uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
     računa, če ne boste imeli mobilne naprave.
 tfa-replace-code-success-alert = Kode za obnovitev računa posodobljene.
+tfa-replace-code-1-2 = Korak 1 od 2
+tfa-replace-code-2-2 = Korak 2 od 2
 
 ## Avatar change page
 
@@ -388,9 +398,6 @@ add-secondary-email-enter-address =
     .label = Vnesite e-poštni naslov
 add-secondary-email-cancel-button = Prekliči
 add-secondary-email-save-button = Shrani
-
-##
-
 
 ## Verify secondary email page
 
@@ -552,6 +559,8 @@ se-default-content = Obdržite dostop do svojega računa v primeru, da se ne mor
 se-content-note =
     Opomba: pomožni e-poštni naslov ne bo obnovil vaših podatkov – za to
     boste potrebovali <a>obnovitveni ključ</a>.
+# Default value for the secondary email
+se-secondary-email-none = Brez
 
 ##
 
@@ -587,6 +596,7 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
+auth-error-105 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -597,5 +607,7 @@ auth-error-110 = Neveljaven žeton
 #                           (for example: "in 15 minutes")
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-138 = Nepreverjena seja
+auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
+auth-error-183 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno

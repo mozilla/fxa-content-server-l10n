@@ -122,3 +122,8 @@ verifySecondaryCode-prompt = Usar este código de verificación:
 verifyShortCode-title = ¿Eres tú el que se está registrando?
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
 
+cancellationSurvey-plaintext = Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:
+subscriptionAccountDeletion-title = Lamentamos que te vayas
+subscriptionCancellation-title = Lamentamos que te vayas
+subscriptionUpgrade-title = ¡Gracias por la actualización!
+

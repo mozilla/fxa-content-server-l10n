@@ -150,6 +150,15 @@ datablock-copy =
 datablock-print =
     .message = Impresso
 
+## Data collection section
+
+dc-heading = Recolha e utilização de dados
+dc-subheader = Ajude a melhorar as { -product-firefox-accounts }
+dc-subheader-content = Permitir que as { -product-firefox-accounts } enviem dados técnicos e de interação para a { -brand-mozilla }.
+dc-opt-out-success = Cancelamento com sucesso. As { -product-firefox-accounts } não enviarão dados técnicos ou de interação para a { -brand-mozilla }.
+dc-opt-in-success = Obrigado! Ao partilhar estes dados ajuda-nos a melhorar as { -product-firefox-accounts }.
+dc-learn-more = Saber mais
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu { -product-firefox-account }
@@ -212,6 +221,7 @@ nav-settings = Definições
 nav-profile = Perfil
 nav-security = Segurança
 nav-connected-services = Serviços associados
+nav-data-collection = Recolha e utilização de dados
 nav-paid-subs = Subscrições pagas
 nav-email-comm = Comunicações por e-mail
 
@@ -336,6 +346,7 @@ recovery-key-success-alert = Chave de recuperação criada.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Passo 1 de 2
 add-secondary-email-error = Ocorreu um problema ao criar este e-mail.
 add-secondary-email-page-title =
     .title = E-mail secundário
@@ -349,6 +360,7 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Passo 2 de 2
 verify-secondary-email-error = Ocorreu um problema ao enviar o código de confirmação.
 verify-secondary-email-page-title =
     .title = E-mail secundário
@@ -432,6 +444,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segurança
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Desligar
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Ligar
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = A submeter…
+switch-is-on = ligado
+switch-is-off = desligado
 
 ## Sub-section row Defaults
 

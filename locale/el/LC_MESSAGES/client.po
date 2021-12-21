@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 20:11+0000\n"
-"PO-Revision-Date: 2021-12-05 23:26+0000\n"
+"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"PO-Revision-Date: 2021-12-21 10:24+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1921,38 +1921,30 @@ msgid "Sync your bookmarks, passwords, and more on every device."
 msgstr "Συγχρονισμός σελιδοδεικτών, κωδικών πρόσβασης και άλλων δεδομένων σε κάθε συσκευή."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Pocket"
-msgstr "Pocket"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "Save and discover the best stories from across the web."
-msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Firefox Lockwise"
-msgstr "Firefox Lockwise"
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-msgstr "Ασφαλής πρόσβαση σε αποθηκευμένους κωδικούς πρόσβασης του Firefox οπουδήποτε &mdash; ακόμη και εκτός του προγράμματος περιήγησης."
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Firefox Monitor"
-msgstr "Firefox Monitor"
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "Get a lookout for data breaches."
-msgstr "Παρακολούθηση παραβιάσεων δεδομένων."
-
-#: .es5/templates/partial/firefox-family-services.mustache:11
 msgid "Mozilla VPN"
 msgstr "Mozilla VPN"
 
-#: .es5/templates/partial/firefox-family-services.mustache:12
+#: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
 msgstr "Ένα VPN από τους αξιόπιστους πρωτοπόρους στο διαδικτυακό απόρρητο."
 
-#: .es5/templates/partial/firefox-family-services.mustache:13
+#: .es5/templates/partial/firefox-family-services.mustache:6
+msgid "Pocket"
+msgstr "Pocket"
+
+#: .es5/templates/partial/firefox-family-services.mustache:7
+msgid "Save and discover the best stories from across the web."
+msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
+
+#: .es5/templates/partial/firefox-family-services.mustache:8
+msgid "Firefox Relay"
+msgstr "Firefox Relay"
+
+#: .es5/templates/partial/firefox-family-services.mustache:9
+msgid "Sign up for new accounts without handing over your email address."
+msgstr ""
+
+#: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
 msgstr "Προβολή όλων"
 
@@ -2051,6 +2043,18 @@ msgstr "Σύζευξη με εφαρμογή"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Ασφαλής πρόσβαση σε αποθηκευμένους κωδικούς πρόσβασης του Firefox οπουδήποτε &mdash; ακόμη και εκτός του προγράμματος περιήγησης."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Παρακολούθηση παραβιάσεων δεδομένων."
 
 #~ msgid ""
 #~ "\n"

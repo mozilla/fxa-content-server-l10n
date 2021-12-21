@@ -38,6 +38,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Canslo tanysgrifiad
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ailgychwyn y tanysgrifiad
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Diweddaru’r manylion bilio
 subplat-legal = Cyfreithiol
 subplat-privacy = Preifatrwydd
@@ -59,6 +60,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair yn syth yn { $resetLink }
+cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a a data-l10n-name="cancellationSurveyUrl")s>arolwg byr</a> hwn.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r arolwg byr hwn:
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -97,15 +101,12 @@ lowRecoveryCodes-subject =
         [many] { $numberRemaining } cod adfer ar ôl
        *[other] { $numberRemaining } cod adfer ar ôl
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Mewngofnod newydd i { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Mewngofnod newydd i { $clientName }
-
-##
-
 newDeviceLogin-action = Rheoli cyfrif
 passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
@@ -190,6 +191,42 @@ recovery-subject = Ailosod eich cyfrinair
 recovery-title = Angen ailosod eich cyfrinair?
 recovery-description = Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:
 recovery-action = Creu cyfrinair newydd
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Mae eich tanysgrifiad i { $productName } wedi'i ddiddymu
+subscriptionAccountDeletion-title = Mae’n ddrwg gennym eich gweld chi‘n gadael
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Fe wnaethoch chi ddileu eich { -product-firefox-account } yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad i { $productName }. Talwyd eich taliad olaf o { $invoiceTotal } ar { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Mae eich tanysgrifiad i { $productName } wedi'i ddiddymu
+subscriptionCancellation-title = Mae’n ddrwg gennym eich gweld chi‘n gadael
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Rydym wedi diddymu eich tanysgrifiad am { $productName }. Talwyd eich taliad olaf o { $invoiceTotal } ar { $invoiceDateOnly }. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio cyfredol, sef { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Rydych wedi newid i { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Rydych wedi symud o { $productNameOld } i { $productNameNew } yn llwyddiannus.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycle } i { $paymentAmountNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
+subscriptionDowngrade-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Bydd cerdyn credyd { $productName } yn dod i ben cyn bo hir
@@ -210,6 +247,24 @@ subscriptionReactivation-content = Bydd eich cylch bilio a'ch taliad yn aros yr 
 subscriptionsPaymentExpired-subject = Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan
 subscriptionsPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
 subscriptionsPaymentExpired-content = Mae’r cerdyn credyd rydych chi‘n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Rydych wedi uwchraddio i { $productNameNew }
+subscriptionUpgrade-title = Diolch am uwchraddio!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Rydych wedi symud o { $productNameOld } i { $productNameNew } yn llwyddiannus.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycle } i { $paymentAmountNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
+subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi’n allgofnodi?
 unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:

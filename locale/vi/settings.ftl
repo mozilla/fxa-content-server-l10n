@@ -31,6 +31,7 @@ alert-bar-close-message = Đóng thông báo
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } là công nghệ đấu tranh cho 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
 bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
 bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Tải xuống { -brand-firefox } trên điện tho�
 connect-another-find-fx-mobile =
     Tìm kiếm { -brand-firefox } trong { -google-play } và { -app-store } hoặc
     <br /><linkExternal>gửi liên kết tải xuống cho thiết bị của bạn.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Tải xuống { -brand-firefox } trên { -google-play }
+connect-another-app-store-image-2 =
+    .title = Tải xuống { -brand-firefox } trên { -app-store }
 
 ##
 
@@ -233,6 +241,8 @@ tfa-replace-code-success =
     vào nơi an toàn — bạn sẽ cần họ truy cập vào tài khoản của mình nếu bạn không
     có di động của bạn.
 tfa-replace-code-success-alert = Đã cập nhật mã khôi phục tài khoản.
+tfa-replace-code-1-2 = Bước 1/2
+tfa-replace-code-2-2 = Bước 2/2
 
 ## Avatar change page
 
@@ -356,9 +366,6 @@ add-secondary-email-enter-address =
     .label = Nhập địa chỉ email
 add-secondary-email-cancel-button = Hủy bỏ
 add-secondary-email-save-button = Lưu
-
-##
-
 
 ## Verify secondary email page
 
@@ -522,6 +529,8 @@ se-default-content = Truy cập tài khoản của bạn nếu bạn không th�
 se-content-note =
     Lưu ý: email phụ sẽ không khôi phục thông tin của bạn — bạn sẽ
     cần <a>khóa khôi phục</a> cho việc đó.
+# Default value for the secondary email
+se-secondary-email-none = Không có
 
 ##
 
@@ -555,6 +564,7 @@ tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động 
 
 auth-error-102 = Tài khoản không xác định
 auth-error-103 = Mật khẩu không đúng
+auth-error-105 = Mã xác minh không hợp lệ
 auth-error-110 = Mã không hợp lệ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -565,5 +575,7 @@ auth-error-110 = Mã không hợp lệ
 #                           (for example: "in 15 minutes")
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
 auth-error-138 = Phiên chưa được xác minh
+auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
+auth-error-183 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác

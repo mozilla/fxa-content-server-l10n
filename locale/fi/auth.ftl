@@ -166,3 +166,12 @@ verifyShortCode-subject = Vahvistuskoodi: { $code }
 verifyShortCode-title = Yritätkö rekisteröityä?
 verifyShortCode-prompt = Jos kyllä, käytä tätä vahvistuskoodia rekisteröintilomakkeessa:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.
+cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
+passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
+subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
+subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
+subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
+subscriptionUpgrade-title = Kiitos, että päivitit!
+subscriptionUpgrade-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
+verificationReminderFirst-description = Loit { -brand-firefox }-tilin muutama päivä sitten, mutta et koskaan vahvistanut sitä.
+
