@@ -140,7 +140,7 @@ connect-another-find-fx-mobile =
 connect-another-play-store-image =
     .title = Завантажити { -brand-firefox } із { -google-play }
 connect-another-app-store-image-2 =
-    .title = Завантажити { -brand-firefox } в { -app-store }
+    .title = Завантажити { -brand-firefox } з { -app-store }
 
 ##
 
