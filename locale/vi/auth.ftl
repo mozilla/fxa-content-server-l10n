@@ -17,6 +17,8 @@
 -product-firefox-account = Tài khoản Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Nếu bạn nghi ngờ rằng ai đó đang cố tru
 user-ip = Địa chỉ IP: { $ip }
 manage-account = Quản lý tài khoản
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Phương thức thanh toán:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Thẻ { $cardType } kết thúc bằng { $lastFour }
 subscriptionSupport = Câu hỏi về thuê bao của bạn? <a data-l10n-name="subscriptionSupportUrl">Nhóm hỗ trợ</a> của chúng tôi sẵn sàng giúp đỡ bạn.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Có câu hỏi về thuê bao của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:
@@ -78,6 +87,14 @@ subscriptionUpdatePayment-plaintext = Để ngăn chặn bất kỳ sự gián �
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Để biết thêm thông tin, vui lòng truy cập { $supportUrl }
+updateBilling = Chúng tôi sẽ thử lại khoản thanh toán của bạn trong vài ngày tới, nhưng bạn có thể cần giúp chúng tôi khắc phục bằng cách <a data-l10n-name="updateBillingUrl">cập nhật thông tin thanh toán của bạn</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Chúng tôi sẽ thử lại khoản thanh toán của bạn trong vài ngày tới, nhưng bạn có thể cần giúp chúng tôi khắc phục sự cố này bằng cách cập nhật thông tin thanh toán của bạn:
+view-invoice = <a data-l10n-name="invoiceLink">Xem hóa đơn của bạn</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Xem hóa đơn: { $invoiceLink }
 cadReminderFirst-subject = Lời nhắc thân thiện cho bạn: Cách hoàn tất thiết lập đồng bộ hóa của bạn
 cadReminderFirst-action = Đồng bộ hóa thiết bị khác
 cadReminderFirst-title = Đây là lời nhắc cho bạn để đồng bộ hóa thiết bị.
@@ -224,11 +241,51 @@ subscriptionDowngrade-content-install = Nếu có phần mềm mới để bạn
 subscriptionDowngrade-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Đã xác nhận thanh toán { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Cảm ơn bạn đã đăng ký { $productName }
+subscriptionFirstInvoice-content-processing = Thanh toán của bạn hiện đang xử lý và có thể mất tới bốn ngày làm việc để hoàn tất.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Bạn sẽ nhận được một email riêng với hướng dẫn tải xuống về cách bắt đầu sử dụng { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Số hóa đơn: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Số hóa đơn: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Thẻ tín dụng cho { $productName } sắp hết hạn
 subscriptionPaymentExpired-title = Thẻ tín dụng của bạn sắp hết hạn
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Thẻ tín dụng bạn đang sử dụng để thanh toán cho { $productName } sắp hết hạn.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Thanh toán { $productName } không thành công
+subscriptionPaymentFailed-title = Xin lỗi, chúng tôi gặp sự cố với thanh toán của bạn
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Chúng tôi đã gặp sự cố với khoản thanh toán mới nhất của bạn cho { $productName }.
+subscriptionPaymentFailed-content-outdated = Có thể là thẻ tín dụng của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn đã hết hạn.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Cần cập nhật thông tin thanh toán cho { $productName }
+subscriptionPaymentProviderCancelled-title = Xin lỗi, chúng tôi đang gặp sự cố với phương thức thanh toán của bạn
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Chúng tôi đã phát hiện thấy sự cố với phương thức thanh toán của bạn cho { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Có thể là thẻ tín dụng của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn đã hết hạn.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Đã kích hoạt lại thuê bao { $productName }
@@ -242,6 +299,33 @@ subscriptionReactivation-content = Chu kỳ lập hóa đơn và thanh toán c�
 subscriptionsPaymentExpired-subject = Thẻ tín dụng cho thuê bao của bạn sắp hết hạn
 subscriptionsPaymentExpired-title = Thẻ tín dụng của bạn sắp hết hạn
 subscriptionsPaymentExpired-content = Thẻ tín dụng bạn đang sử dụng để thanh toán cho các thuê bao sau sắp hết hạn.
+subscriptionsPaymentProviderCancelled-subject = Cần cập nhật thông tin thanh toán cho các thuê bao { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Xin lỗi, chúng tôi đang gặp sự cố với phương thức thanh toán của bạn
+subscriptionsPaymentProviderCancelled-content-detected = Chúng tôi đã phát hiện ra sự cố với phương thức thanh toán của bạn cho các thuê bao sau.
+subscriptionsPaymentProviderCancelled-content-payment = Có thể là thẻ tín dụng của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn đã hết hạn.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Đã nhận thanh toán { $productName }
+subscriptionSubsequentInvoice-title = Cảm ơn bạn đã là một thuê bao!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Chúng tôi đã nhận được khoản thanh toán mới nhất của bạn cho { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Số hóa đơn: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Số hóa đơn: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Thay đổi gói: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productNameNew }

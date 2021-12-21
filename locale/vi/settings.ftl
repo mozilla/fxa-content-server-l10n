@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Tải xuống { -brand-firefox } trên { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Tải xuống { -brand-firefox } trên { -app-store }
 
 ##
@@ -241,6 +241,8 @@ tfa-replace-code-success =
     vào nơi an toàn — bạn sẽ cần họ truy cập vào tài khoản của mình nếu bạn không
     có di động của bạn.
 tfa-replace-code-success-alert = Đã cập nhật mã khôi phục tài khoản.
+tfa-replace-code-1-2 = Bước 1/2
+tfa-replace-code-2-2 = Bước 2/2
 
 ## Avatar change page
 
