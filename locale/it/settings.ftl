@@ -89,7 +89,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Scarica { -brand-firefox } su { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Scarica { -brand-firefox } su { -app-store }
 
 ##
@@ -230,6 +230,8 @@ nav-email-comm = Comunicazioni via email
 tfa-replace-code-error = Si è verificato un problema durante la sostituzione dei codici di recupero.
 tfa-replace-code-success = Nuovi codici generati. Custodisci questi codici usa e getta in un posto sicuro e usali per accedere al tuo account quando non hai con te il tuo dispositivo mobile.
 tfa-replace-code-success-alert = I codici di recupero dell’account sono stati aggiornati.
+tfa-replace-code-1-2 = Passaggio 1 di 2
+tfa-replace-code-2-2 = Passaggio 2 di 2
 
 ## Avatar change page
 
