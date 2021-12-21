@@ -85,8 +85,6 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Emboguejy { -brand-firefox } { -google-play } rupive
-connect-another-app-store-image =
-    .title = Emboguejy { -brand-firefox } { -app-store } rupive
 
 ##
 
@@ -243,6 +241,8 @@ tfa-replace-code-success =
     peteĩ jeýnte ojepurukuaáva tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
     ndererekóirõ mba’e’oka oku’éva.
 tfa-replace-code-success-alert = Mba’ete jeguerujey ayvu hekopyahúma.
+tfa-replace-code-1-2 = Ku’e 1 2-gui
+tfa-replace-code-2-2 = Ku’e 2 2-gui
 
 ## Avatar change page
 
