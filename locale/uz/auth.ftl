@@ -35,3 +35,14 @@ subplat-explainer-specific = Bu xat sizga yuborildi, chunki { $email } emailiga 
 #  $email (String) - A user's primary email address
 subplat-explainer-multiple = Bu xat sizga yuborildi, chunki { $email } emailiga { -product-firefox-account } biriktirilgan va bir nechta mahsulotlarga obuna boʻlgansiz.
 subplat-manage-account = <a data-l10n-name="subplat-account-page">hisobingiz sahifasiga</a> kirish orqali { -product-firefox-account } sozlamalarini boshqaring.
+subplat-terms-policy = Shartlar va bekor qilish siyosati
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Obunani bekor qilish
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Obunani yana faollashtirish
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Hisob-kitob maʼlumotlarini yangilang
+subplat-legal = Qonuniy
+subplat-privacy = Maxfiylik
+another-desktop-device = Yoki <a data-l10n-name="anotherDeviceLink">boshqa kompyuterga</a> oʻrnating.
+another-device = Yoki <a data-l10n-name="anotherDeviceLink">boshqa qurilmaga</a> oʻrnating.
