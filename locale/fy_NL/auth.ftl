@@ -331,6 +331,19 @@ subscriptionSubsequentInvoice-content-next-invoice = Folgjende faktuer: { $nextI
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Jo hawwe opwurdearre nei %(productNameNew)s
 subscriptionUpgrade-title = Tank foar it opwurdearjen!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Jo binne mei sukses oerskeakele fan { $productNameOld } nei { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-charge-info = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } per { $productPaymentCycle } nei { $paymentAmountNew }. Der wurdt dan ek ien kear in bedrach fan { $paymentProrated }  yn rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze { $productPaymentCycle }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = As jo nije software ynstallearje moatte om { $productNameNew } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade
 unblockCode-title = Binne jo dit, dy’t harren oanmeldt?
