@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -38,6 +40,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonnemint opsizze
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonnemint opnij aktivearje
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fakturaasjegegevens bywurkje
 subplat-legal = Juridysk
 subplat-privacy = Privacy
@@ -59,12 +62,18 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = As jo it net wizige hawwe, stel jo wachtwurd dan no opnij yn fia { $resetLink }
+cancellationSurvey = Help ús ús tsjinstferliening te ferbetterjen troch dizze <a data-l10n-name="cancellationSurveyUrl")s>koarte enkête</a> yn te foljen.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Help ús ús tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:
 change-password-plaintext = As jo tinke dat ien tagong ta jo account probearret te krijen, wizigje dan jo wachtwurd.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-adres: { $ip }
 manage-account = Account beheare
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Betellingsmetoade:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = Fragen oer jo abonnemint? Us <a data-l10n-name="subscriptionSupportUrl">ondersteuningsteam</a> is der om jo te helpen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Fragen oer jo abonnemint? Us stipeteam is der om jo te helpen:
@@ -93,15 +102,12 @@ lowRecoveryCodes-subject =
         [one] Ien werstelkoade restearjend
        *[other] { $numberRemaining } werstelkoaden restearjend
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nije oanmelding by { $clientName }
-
-##
-
 newDeviceLogin-action = Account beheare
 passwordChanged-subject = Wachtwurd bywurke
 passwordChanged-title = Wachtwurd mei sukses wizige
@@ -186,6 +192,9 @@ recovery-subject = Wachtwurd werinisjalisearje
 recovery-title = Moatte jo jo wachtwurd opnij ynstelle?
 recovery-description = Klik binnen in oer op de knop om in nij wachtwurd oan te meitsjen. De oanfraach is ôfkomstich fan it folgjende apparaat:
 recovery-action = Nij wachtwurd oanmeitsje
+subscriptionAccountDeletion-title = Spitich dat jo ôfsette
+subscriptionCancellation-title = Spitich dat jo ôfsette
+subscriptionDowngrade-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = De creditcard foar { $productName } ferrint ynkoarten
@@ -206,6 +215,8 @@ subscriptionReactivation-content = Jo betellingssyklus en betelling bliuwe itsel
 subscriptionsPaymentExpired-subject = De creditcard foar jo abonneminten ferrint ynkoarten
 subscriptionsPaymentExpired-title = Jo creditcard ferrint ynkoarten
 subscriptionsPaymentExpired-content = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten.
+subscriptionUpgrade-title = Tank foar it opwurdearjen!
+subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade
 unblockCode-title = Binne jo dit, dy’t harren oanmeldt?
 unblockCode-prompt = As ja, dan is hjir de autorisaasjekoade dy’t jo nedich hawwe:
@@ -272,10 +283,3 @@ verifyShortCode-subject = Ferifikaasjekoade: { $code }
 verifyShortCode-title = Is dit jo registraasje?
 verifyShortCode-prompt = Sa ja, brûk dan dizze ferifikaasjekoade yn jo registraasjeformulier:
 verifyShortCode-expiry-notice = Dizze ferrin oer fiif minuten.
-cancellationSurvey-plaintext = Help ús ús tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:
-subscriptionAccountDeletion-title = Spitich dat jo ôfsette
-subscriptionCancellation-title = Spitich dat jo ôfsette
-subscriptionDowngrade-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
-subscriptionUpgrade-title = Tank foar it opwurdearjen!
-subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
-
