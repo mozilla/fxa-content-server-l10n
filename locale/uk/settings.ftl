@@ -139,8 +139,8 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Завантажити { -brand-firefox } із { -google-play }
-connect-another-app-store-image =
-    .title = Завантажити { -brand-firefox } із { -app-store }
+connect-another-app-store-image-2 =
+    .title = Завантажити { -brand-firefox } в { -app-store }
 
 ##
 
@@ -297,6 +297,8 @@ tfa-replace-code-success =
     в надійному місці — вам вони знадобляться для доступу до облікового запису
     при відсутності вашого мобільного пристрою.
 tfa-replace-code-success-alert = Коди відновлення облікового запису оновлено.
+tfa-replace-code-1-2 = Крок 1 з 2
+tfa-replace-code-2-2 = Крок 2 з 2
 
 ## Avatar change page
 

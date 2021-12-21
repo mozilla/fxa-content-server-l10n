@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Якщо ви підозрюєте, що хтось 
 user-ip = IP-адреса: { $ip }
 manage-account = Керування обліковим записом
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Спосіб оплати:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Картка { $cardType }, що закінчується на { $lastFour }
 subscriptionSupport = Маєте питання щодо передплати? Наша <a data-l10n-name="subscriptionSupportUrl">команда підтримки</a> з радістю вам допоможе.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
@@ -78,6 +87,14 @@ subscriptionUpdatePayment-plaintext = Щоб уникнути будь-яких 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Для отримання додаткової інформації, відвідайте { $supportUrl }
+updateBilling = Ми спробуємо виконати ваш платіж знову протягом наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, <a data-l10n-name="updateBillingUrl">оновивши свої платіжні дані</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Ми спробуємо виконати ваш платіж знову протягом наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, оновивши свої платіжні дані:
+view-invoice = <a data-l10n-name="invoiceLink">Перегляньте свій рахунок</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Переглянути рахунок: { $invoiceLink }
 cadReminderFirst-subject = Ваше нагадування: Як завершити налаштування синхронізації
 cadReminderFirst-action = Синхронізувати інший пристрій
 cadReminderFirst-title = Це ваше нагадування для синхронізації пристроїв.
@@ -226,11 +243,51 @@ subscriptionDowngrade-content-install = При наявності нового �
 subscriptionDowngrade-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Платіж за { $productName } підтверджено
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Дякуємо вам за передплату { $productName }
+subscriptionFirstInvoice-content-processing = Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Ви отримаєте окреме повідомлення електронною поштою з інструкціями про початок роботи з { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Незабаром, завершується термін дії кредитної картки для оплати за { $productName }
 subscriptionPaymentExpired-title = Закінчується термін дії вашої кредитної картки
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Завершується термін дії кредитної картки, з якої здійснюються платежі за користування { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Не вдалося оплатити { $productName }
+subscriptionPaymentFailed-title = Перепрошуємо, але в нас виникли проблеми з вашим платежем
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = У нас виникли проблеми з вашим останнім платежем для { $productName }.
+subscriptionPaymentFailed-content-outdated = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Необхідно оновити платіжні дані для { $productName }
+subscriptionPaymentProviderCancelled-title = Перепрошуємо, але у нас виникли проблеми з вашим способом оплати
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Ми виявили проблему з вашим способом оплати для { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Передплату { $productName } поновлено
@@ -244,6 +301,33 @@ subscriptionReactivation-content = Ваш цикл платежів та їхн�
 subscriptionsPaymentExpired-subject = Кредитна картка для ваших передплат незабаром втрачає чинність
 subscriptionsPaymentExpired-title = Закінчується термін дії вашої кредитної картки
 subscriptionsPaymentExpired-content = Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність.
+subscriptionsPaymentProviderCancelled-subject = Для передплат { -brand-mozilla } необхідно оновити платіжну інформацію
+subscriptionsPaymentProviderCancelled-title = Перепрошуємо, але у нас виникли проблеми з вашим способом оплати
+subscriptionsPaymentProviderCancelled-content-detected = Ми виявили проблему з вашим способом оплати для таких передплат.
+subscriptionsPaymentProviderCancelled-content-payment = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Платіж за { $productName } отримано
+subscriptionSubsequentInvoice-title = Ми вдячні вам за передплату!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Ми отримали ваш останній платіж для { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Зміна тарифного плану: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ви перейшли на { $productNameNew }
