@@ -27,3 +27,11 @@ fxa-service-url = { -product-firefox-cloud } foydalanish shartlari
 subplat-automated-email = Bu avtomatik xat. Adashib borgan boʻlsa, sizdan hech qanday harakat talab qilinmaydi.
 subplat-privacy-plaintext = Maxfiylik eslatmalari:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Bu xat sizga yuborildi, chunki { $email } emailiga { -product-firefox-account } biriktirilgan va { $productName } uchun roʻyxatdan oʻtilgan.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-multiple = Bu xat sizga yuborildi, chunki { $email } emailiga { -product-firefox-account } biriktirilgan va bir nechta mahsulotlarga obuna boʻlgansiz.
+subplat-manage-account = <a data-l10n-name="subplat-account-page">hisobingiz sahifasiga</a> kirish orqali { -product-firefox-account } sozlamalarini boshqaring.
