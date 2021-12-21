@@ -267,6 +267,19 @@ subscriptionPaymentExpired-content = 您用來付款訂購 { $productName } 的�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失敗
+subscriptionPaymentFailed-title = 很抱歉，處理付款時遇到問題
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = 處理您最近對 { $productName } 的付款時，遇到問題。
+subscriptionPaymentFailed-content-outdated = 可能是您的信用卡過期，或目前的付款方式失效了。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = 需要更新 { $productName } 的付款資訊
+subscriptionPaymentProviderCancelled-title = 很抱歉，處理付款時遇到問題
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = 處理您最近對 { $productName } 的付款時，遇到問題。
+subscriptionPaymentProviderCancelled-content-reason = 可能是您的信用卡過期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = 已重新開始訂閱 { $productName }
@@ -280,6 +293,8 @@ subscriptionReactivation-content = 您的帳務週期與付款內容將保持原
 subscriptionsPaymentExpired-subject = 訂購多項產品所使用的信用卡即將過期
 subscriptionsPaymentExpired-title = 您的信用卡即將過期
 subscriptionsPaymentExpired-content = 您用來付款訂購下列項目的信用卡即將過期。
+subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 產品訂閱的付款資訊
+subscriptionsPaymentProviderCancelled-title = 很抱歉，處理付款時遇到問題
 subscriptionsPaymentProviderCancelled-content-detected = 處理您最近對下列訂閱項目的付款時，遇到問題。
 subscriptionsPaymentProviderCancelled-content-payment = 可能是您的信用卡過期，或目前的付款方式失效了。
 # Variables:
@@ -289,6 +304,9 @@ subscriptionSubsequentInvoice-title = 感謝您成為訂閱者！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = 我們已收到您最近為 { $productName } 支付的款項。
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = 請款單號碼：<b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = 請款單號碼：{ $invoiceNumber }
