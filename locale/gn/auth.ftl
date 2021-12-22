@@ -282,6 +282,12 @@ subscriptionsPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
 subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboheraguapy pegua ndoikovéi potaitéma.
 subscriptionsPaymentProviderCancelled-subject = Marandu tepyme’ẽgua rekopyahu oikotevẽva { -brand-mozilla } mboheraguapýpe g̃uarã.
 subscriptionsPaymentProviderCancelled-title = Rombyasy, roguereko apañuãi ne ñehepyme’ẽ rekópe
+subscriptionsPaymentProviderCancelled-content-detected = Rohechakuaa peteĩ apañuãi ne ñehepyme’ẽ reko rehegua mboheraguapy tenondeve g̃uarãva.
+subscriptionsPaymentProviderCancelled-content-payment = Ikatu nde kuatia’atã ñemurã ndoikovéima térã pe ehepyme’ẽha ko’ag̃agua ndahekopyahúi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Jehepyme’ẽ oúva { $productName }-gui
+subscriptionSubsequentInvoice-title = ¡Aguyje ne mboheraguapýre!
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Embohekopyahúma { $productNameNew }-pe
