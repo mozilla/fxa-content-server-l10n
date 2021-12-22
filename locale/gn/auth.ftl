@@ -230,6 +230,9 @@ subscriptionDowngrade-subject = Eñemoambuéma { $productNameNew }-pe
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
 subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -326,6 +329,9 @@ subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
