@@ -85,6 +85,8 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Emboguejy { -brand-firefox } { -google-play } rupive
+connect-another-app-store-image-2 =
+    .title = Emboguejy { -brand-firefox } { -app-store } rupi
 
 ##
 
@@ -577,6 +579,7 @@ auth-error-110 = Token oiko’ỹva
 #                           (for example: "in 15 minutes")
 auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-138 = Tembiapo jehechapyre’ỹva
+auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
 auth-error-183 = Ayvu jehechajeyrã ndoikói térã hekoru’ãma
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã

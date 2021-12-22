@@ -298,6 +298,16 @@ subscriptionSubsequentInvoice-content-invoice-number = Ñemuhague papapy: <b>{ $
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Ñemuhague papapy: { $invoiceNumber }
 # Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Tembiaporã moambue: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Hepyme’ẽmbyre { $invoiceTotal } { $invoiceDateOnly } rehegua
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Embohekopyahúma { $productNameNew }-pe
 subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
