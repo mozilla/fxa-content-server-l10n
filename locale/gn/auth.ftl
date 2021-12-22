@@ -208,10 +208,21 @@ recovery-action = Emoheñói ñe’ẽñemi pyahu
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
 subscriptionAccountDeletion-title = Ambyasy eho haguére
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Embogueramoite nde { -product-firefox-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
 subscriptionCancellation-title = Ambyasy eho haguére
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Roipe’áma ne ñemboheraguapy { $productName } pegua. Rehepyme’ẽ ramovéva { $invoiceTotal } oiko hína { $invoiceDateOnly }-pe. Ne mba’epuru oku’ejeýta ipahaite peve ikatúva ehepyme’ẽ, ha’éva { $serviceLastActiveDateOnly }.
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Eñemoambuéma { $productNameNew }-pe
