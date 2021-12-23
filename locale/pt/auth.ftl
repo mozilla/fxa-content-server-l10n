@@ -17,6 +17,8 @@
 -product-firefox-account = Conta Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -38,6 +40,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar subscrição
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar subscrição
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Atualizar a informação de faturação
 subplat-legal = Informações legais
 subplat-privacy = Privacidade
@@ -59,12 +62,17 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se não a alterou, por favor, faça imediatamente a reposição da sua palavra-passe em { $resetLink }
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Ajude-nos a melhorar os nossos serviços respondendo a este pequeno questionário:
 change-password-plaintext = Se suspeita que alguém está a tentar obter acesso à sua conta, por favor, altere a sua palavra-passe.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Endereço de IP: { $ip }
 manage-account = Gerir conta
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Método de pagamento:
+payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
 subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
@@ -74,6 +82,10 @@ subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Para mais informação, por favor visite { $supportUrl }
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Ver Fatura: { $invoiceLink }
 cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuração da sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
@@ -93,15 +105,12 @@ lowRecoveryCodes-subject =
         [one] 1 código de recuperação remanescente
        *[other] { $numberRemaining } códigos de recuperação remanescentes
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo início de sessão para { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Novo início de sessão para { $clientName }
-
-##
-
 newDeviceLogin-action = Gerir conta
 passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
@@ -186,6 +195,9 @@ recovery-subject = Repor a sua palavra-passe
 recovery-title = Precisa de repor a sua palavra-passe?
 recovery-description = Clique no botão dentro da próxima hora para criar uma nova palavra passe. A solicitação veio a partir do seguinte dispositivo:
 recovery-action = Criar nova palavra-passe
+subscriptionAccountDeletion-title = Temos pena que se vá embora
+subscriptionCancellation-title = Temos pena que se vá embora
+subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Cartão de crédito para { $productName } irá expirar em breve
@@ -206,6 +218,14 @@ subscriptionReactivation-content = O seu ciclo de faturação e de pagamento ir�
 subscriptionsPaymentExpired-subject = Cartão de crédito para as suas subscrições expira em breve
 subscriptionsPaymentExpired-title = O seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições está quase a expirar.
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Mudança de plano: { $paymentProrated }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
+subscriptionUpgrade-title = Obrigado por atualizar!
+subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = É mesmo você a iniciar sessão?
 unblockCode-prompt = Se sim, aqui está o código de autorização de que necessita:
@@ -272,10 +292,3 @@ verifyShortCode-subject = Código de confirmação: { $code }
 verifyShortCode-title = É você que se está a registar?
 verifyShortCode-prompt = Em caso afirmativo, utilize este código de confirmação no seu formulário de registo:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
-cancellationSurvey-plaintext = Ajude-nos a melhorar os nossos serviços respondendo a este pequeno questionário:
-subscriptionAccountDeletion-title = Temos pena que se vá embora
-subscriptionCancellation-title = Temos pena que se vá embora
-subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
-subscriptionUpgrade-title = Obrigado por atualizar!
-subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
-

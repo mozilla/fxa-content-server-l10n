@@ -31,6 +31,7 @@ alert-bar-close-message = Fechar mensagem
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = O { -brand-firefox } é tecnologia que luta pela sua 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
 bento-menu-made-by-mozilla = Criado pela { -brand-mozilla }
@@ -354,9 +356,6 @@ add-secondary-email-enter-address =
     .label = Inserir endereço de e-mail
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
-
-##
-
 
 ## Verify secondary email page
 
