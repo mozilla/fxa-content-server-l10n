@@ -83,7 +83,7 @@ connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 寻找 
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = 到 { -google-play } 下载 { -brand-firefox }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下载 { -brand-firefox }
 
 ##
@@ -224,6 +224,8 @@ nav-email-comm = 新闻通讯
 tfa-replace-code-error = 更新您的救援码时出现问题。
 tfa-replace-code-success = 已生成新的救援码，请将它们保存在安全的地方，当您无法使用移动设备时，可用来访问账户。
 tfa-replace-code-success-alert = 账户救援码已更新。
+tfa-replace-code-1-2 = 步骤（1 / 2）
+tfa-replace-code-2-2 = 步骤（2 / 2）
 
 ## Avatar change page
 

@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox 账户
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -63,6 +65,13 @@ change-password-plaintext = 如果您怀疑有人在试图访问您的账户，�
 user-ip = IP 地址：{ $ip }
 manage-account = 管理账号
 manage-account-plaintext = { manage-account }：
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = 付款方式：
+payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = 尾号为 { $lastFour } 的 { $cardType } 卡
 subscriptionSupport = 遇到订阅相关的问题？我们的<a data-l10n-name="subscriptionSupportUrl">用户支持团队</a>在此为您答疑。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：
@@ -72,6 +81,14 @@ subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 更多信息请访问 { $supportUrl }
+updateBilling = 我们将在几天内重试您的付款操作，但您也有可能需要通过<a data-l10n-name="updateBillingUrl">更新您的付款信息</a>来帮助我们解决该问题。
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = 我们将在几天内重试您的付款操作，但您可能需要通过更新您的付款信息来帮助我们解决该问题：
+view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = 查看发票：{ $invoiceLink }
 cadReminderFirst-subject = 友情提醒：完成同步设置的步骤
 cadReminderFirst-action = 与其他设备同步
 cadReminderFirst-title = 提醒 🔔 您需与其他设备进行同步。
@@ -218,11 +235,51 @@ subscriptionDowngrade-content-install = 若需要安装新软件才能使用 { $
 subscriptionDowngrade-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = 已确认 { $productName } 付款
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = 感谢您订阅 { $productName }！
+subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多需要四个工作天才能完成。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = 您会收到另外一封关于如何开始使用 { $productName } 与下载步骤的电子邮件。
+subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = 发票号码：<b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = 发票号码：{ $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将到期
 subscriptionPaymentExpired-title = 您的信用卡即将到期
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = 您用于付款 { $productName } 的信用卡即将到期。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } 付款失败
+subscriptionPaymentFailed-title = 抱歉，处理付款时遇到问题
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = 处理您最近对 { $productName } 付款时，遇到问题。
+subscriptionPaymentFailed-content-outdated = 可能是您的信用卡已过期，或目前的付款方式失效了。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = 需要更新 { $productName } 的付款信息
+subscriptionPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = 处理您最近为 { $productName } 的付款时遇到问题。
+subscriptionPaymentProviderCancelled-content-reason = 可能是您的信用卡已过期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = 已重新开始订阅 { $productName }
@@ -236,6 +293,33 @@ subscriptionReactivation-content = 您的账单周期与付款信息将保持不
 subscriptionsPaymentExpired-subject = 订阅所用信用卡即将过期
 subscriptionsPaymentExpired-title = 您的信用卡即将到期
 subscriptionsPaymentExpired-content = 您用于付款的信用卡即将到期。
+subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
+subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
+subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
+subscriptionsPaymentProviderCancelled-content-payment = 可能是您的信用卡已过期，或目前的付款方式失效了。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = 已收到 { $productName } 付款
+subscriptionSubsequentInvoice-title = 感谢您成为订阅者！
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = 我们已收到您最近为 { $productName } 支付的款项。
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = 发票号码：<b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = 发票号码：{ $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = 方案变更：{ $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productNameNew }
