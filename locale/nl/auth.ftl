@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Als u vermoedt dat iemand toegang tot uw account pro
 user-ip = IP-adres: { $ip }
 manage-account = Account beheren
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Betalingsmethode:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType }-kaart eindigend op { $lastFour }
 subscriptionSupport = Vragen over uw abonnement? Ons <a data-l10n-name="subscriptionSupportUrl">ondersteuningsteam</a> is er om u te helpen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Vragen over uw abonnement? Ons ondersteuningsteam is er om u te helpen:
@@ -78,6 +87,14 @@ subscriptionUpdatePayment-plaintext = Werk zo snel mogelijk uw betalingsgegevens
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Bezoek { $supportUrl } voor meer informatie
+updateBilling = We zullen de komende dagen uw betaling opnieuw proberen te innen, maar u moet ons wellicht helpen door <a data-l10n-name="updateBillingUrl">uw betalingsgegevens bij te werken</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = We zullen de komende dagen uw betaling opnieuw proberen te innen, maar u moet ons wellicht helpen door uw betalingsgegevens bij te werken:
+view-invoice = <a data-l10n-name="invoiceLink">Uw factuur bekijken</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Factuur bekijken: { $invoiceLink }
 cadReminderFirst-subject = Een vriendelijke herinnering: instellen van uw Sync voltooien
 cadReminderFirst-action = Nog een apparaat synchroniseren
 cadReminderFirst-title = Dit is uw herinnering om apparaten te synchroniseren.
@@ -223,6 +240,16 @@ subscriptionDowngrade-content-charge = Vanaf uw volgende factuur wijzigen uw kos
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Als u nieuwe software moet installeren om { $productNameNew } te kunnen gebruiken, dan ontvangt u een afzonderlijk e-mailbericht met downloadinstructies.
 subscriptionDowngrade-content-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = De betaling voor { $productName } is bevestigd
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Bedankt voor uw abonnement op { $productName }
+subscriptionFirstInvoice-content-processing = Uw betaling wordt momenteel verwerkt en het kan tot vier werkdagen duren voordat deze is voltooid.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = U ontvangt een e-mailbericht met downloadinstructies voor het gebruik van { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = De creditcard voor { $productName } verloopt binnenkort
