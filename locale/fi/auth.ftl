@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-tili
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -24,19 +26,40 @@ fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
 fxa-service-url = { -product-firefox-cloud } -käyttöehdot
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 subplat-privacy-plaintext = Tietosuojaseloste:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Peru tilaus
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aktivoi tilaus uudelleen
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Päivitä laskutustiedot
 subplat-legal = Lakiasiat
 subplat-privacy = Tietosuoja
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
 change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanasi.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-osoite: { $ip }
 manage-account = Hallinnoi tiliä
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Maksutapa:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } päättyen numeroihin { $lastFour }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kysymyksiä tilaukseesi liittyen? Tukitiimimme auttaa sinua:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian, jotta palvelusi ei keskeydy:
+view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Näytä lasku: { $invoiceLink }
 cadReminderFirst-subject = Ystävällinen muistutus: Kuinka saattaa synkronoinnin asetukset valmiiksi
 cadReminderFirst-action = Synkronoi toinen laite
 cadReminderFirst-title = Tässä muistutus laitteidesi synkronoimiseksi.
@@ -48,18 +71,12 @@ codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
 codes-generate = Luo koodeja
 lowRecoveryCodes-action = Luo koodeja
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
-
-##
-
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-title = Salasanan vaihto vaaditaan
+passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
 passwordChangeRequired-different-password = <b>Tärkeää:</b> Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 passwordChangeRequired-signoff = Terveisin
 passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
@@ -117,16 +134,48 @@ recovery-subject = Nollaa salasanasi
 recovery-title = Tarvitseeko sinun nollata salasanasi?
 recovery-description = Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:
 recovery-action = Luo uusi salasana
+subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
+subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
+subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 subscriptionPaymentExpired-title = Luottokorttisi vanhenee pian
 subscriptionsPaymentExpired-subject = Tilauksiin käyttämäsi luottokortti vanhenee pian
 subscriptionsPaymentExpired-title = Luottokorttisi vanhenee pian
 subscriptionsPaymentExpired-content = Seuraaviin tilauksiin käyttämäsi luottokortti vanhenee pian.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
+subscriptionUpgrade-title = Kiitos, että päivitit!
+subscriptionUpgrade-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 unblockCode-subject = Tilin valtuuskoodi
 unblockCode-title = Kirjaudutko sinä sisään?
 unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
 unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille.
 verificationReminderFirst-subject = Muistutus: viimeistele tilisi luominen
 verificationReminderFirst-title = Tervetuloa { -brand-firefox }-perheeseen
+verificationReminderFirst-description = Loit { -brand-firefox }-tilin muutama päivä sitten, mutta et koskaan vahvistanut sitä.
 verificationReminderFirst-sub-description = Vahvista nyt ja saat teknologian, joka taistelee yksityisyyden puolesta ja suojelee sitä, sekä varustaa sinut käytännön tiedoin sekä ansaitsemallasi kunnioituksella.
 confirm-email = Vahvista sähköposti
 confirm-email-plaintext = { confirm-email }:
@@ -166,12 +215,3 @@ verifyShortCode-subject = Vahvistuskoodi: { $code }
 verifyShortCode-title = Yritätkö rekisteröityä?
 verifyShortCode-prompt = Jos kyllä, käytä tätä vahvistuskoodia rekisteröintilomakkeessa:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.
-cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
-passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
-subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
-subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
-subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
-subscriptionUpgrade-title = Kiitos, että päivitit!
-subscriptionUpgrade-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
-verificationReminderFirst-description = Loit { -brand-firefox }-tilin muutama päivä sitten, mutta et koskaan vahvistanut sitä.
-

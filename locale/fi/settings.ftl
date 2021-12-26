@@ -209,6 +209,8 @@ nav-email-comm = Sähköpostiviestintä
 
 tfa-replace-code-error = Palautuskoodien vaihtamisessa ilmeni ongelma.
 tfa-replace-code-success-alert = Tilin palautuskoodit päivitetty.
+tfa-replace-code-1-2 = Vaihe 1/2
+tfa-replace-code-2-2 = Vaihe 2/2
 
 ## Avatar change page
 
