@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-16 22:07+0000\n"
-"PO-Revision-Date: 2021-03-07 16:24+0000\n"
+"PO-Revision-Date: 2021-12-26 05:57+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -192,7 +192,8 @@ msgstr "नया प्राथमिक ईमेल"
 msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
-msgstr "आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
+msgstr ""
+"आपने सफलतापूर्वक अपना प्राथमिक ईमेल %(email)s में बदल दिया है। यह पता अब आपके Firefox खाते में साइन इन करने, एवं सुरक्षा सूचनाएं और साइन-इन पुष्टियां प्राप्त करने के लिए आपका उपयोगकर्ता नाम है।"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -355,11 +356,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
-msgstr ""
+msgstr "एक पासवर्ड बनाएं:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Firefox में आपका स्वागत है!"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -388,7 +389,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "आपकी सदस्यता रद्द कर दी गई है"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -747,7 +748,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
@@ -879,7 +880,7 @@ msgstr ""
 
 #: lib/senders/email.js:820 lib/senders/email.js:2031
 msgid "Create a password"
-msgstr ""
+msgstr "पासवर्ड बनाएं"
 
 #: lib/senders/email.js:856
 msgid "Account authorization code"
@@ -1118,10 +1119,10 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgstr "सबसे पहले, अपने Firefox खाते का पासवर्ड बदलिए."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr ""
-#~ "दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की जाँच करनी चाहिए."
+#~ "दूसरा, Firefox वेबसाइटों के लिए पासवर्ड संचित करता है, तो आपको उन पासवर्ड को अच्छी तरह से बदलना चाहिए. इस रूप में की हमलावर उन पासवर्ड का उपयोग कर सकते है, तो आपको संदिग्ध गतिविधि के लिए उन खातों की"
+#~ " जाँच करनी चाहिए."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "यह देखना सीखें कि Firefox आपके लिए किन कुटशब्दों को भंडारित कर रहा है."
@@ -1163,8 +1164,8 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "आपने सफलतापूर्वक अपने Firefox खाते के लिए अपने पहले डिवाइस को जोड़ा। अब आप <a %(androidLinkAttributes)s>Android</a> और <a %(iosLinkAttributes)s>iOS</a> के लिए Firefox सहित, अपने अन्य डिवाइसेस से सिंक करने के लिए "
-#~ "साइन इन कर सकते हैं।"
+#~ "आपने सफलतापूर्वक अपने Firefox खाते के लिए अपने पहले डिवाइस को जोड़ा। अब आप <a %(androidLinkAttributes)s>Android</a> और <a %(iosLinkAttributes)s>iOS</a> के लिए Firefox सहित, अपने अन्य डिवाइसेस से "
+#~ "सिंक करने के लिए साइन इन कर सकते हैं।"
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "आपने सफलतापूर्वक अपना पहला डिवाइस अपने Firefox खाते से कनेक्ट कर लिया है। अब आप सिंक करने के लिए अपने Android, iOS या अन्य उपकरणों से साइन इन कर सकते हैं."
@@ -1196,13 +1197,16 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr "आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "आपने सफलतापूर्वक अपने Firefox खाते में अपना पहला उपकरण जोड़ दिया है. अब आप अपने अन्य उपकरणों से, Firefox सहित सिंक में प्रवेश कर सकते हैं<a href='%(androidUrl)s'> Android</a>और<a "
+#~ "href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for iOS </a>."
+#~ "आपने अपने पहले डिवाइस को अपने Firefox एकाउंट से सफलतापूर्वक जोड़ दिया है. ज्यादातर समय आपको एकाउंट जोड़ने के लिए, <a href='%(androidUrl)s'> Firefox for Android </a> or <a href='%(iosUrl)s'>Firefox for"
+#~ " iOS </a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "सिंक में साइन इन करें"
@@ -1319,11 +1323,11 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgstr "कूटशब्द पुनः तैयार करें"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
-#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते को सक्रिय करने के "
-#~ "लिए इस ईमेल पते की पुष्टि करें."
+#~ "कुछ दिन पहले आप एक Firefox खाता बनाया है, लेकिन यह कभी सत्यापित नहीं किया. एक सत्यापित खाता आपको इससे जुड़े किसी भी उपकरण पर आपके टैब, बुकमार्क, पासवर्ड और इतिहास का उपयोग करने देता है. बस अपने खाते"
+#~ " को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "एक हफ्ते पहले आपने एक Firefox खाता बनाया है, लेकिन उसे कभी सत्यापित नहीं किया. हमें आपकी चिंता है. अपने खाते को सक्रिय करने के लिए इस ईमेल पते की पुष्टि करें और हमें पता चलने दे की आप ठीक है."
@@ -1446,7 +1450,8 @@ msgstr "नवीनतम डाउनलोड करें"
 #~ msgstr "आपके फ़ायरफ़ॉक्स खाते से संयोजित समस्त यंत्रों के साथ एक नया यंत्र समकालिक हो गया है."
 
 #~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
-#~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr ""
+#~ "यह एक स्वाचालित ईमेल है; यदि आपने अपने किसी नए यंत्र को अपने फ़ायरफ़ॉक्स खाते से नही जोड़ा है, तो आपको तत्काल ही यहाँ जाकर अपना कूटशब्द परिवर्तित करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."
 
 #~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
 #~ msgstr "यह एक स्वाचालित ईमेल है; यदि आपने अपने फ़ायरफ़ॉक्स खाते का कूटशब्द पुनः तैयार नहीं किया है, तो आपको तत्काल ही उसे यहाँ जाकर पुनः तैयार करना चाहिए <a href='%(resetLink)s'>%(resetLink)s</a>."

@@ -28,7 +28,9 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox खाता
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -63,12 +65,19 @@ avatar-your-avatar =
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = डेस्कटॉप के लिए { -brand-firefox } ब्राउज़र
 bento-menu-firefox-mobile = मोबाइल के लिए { -brand-firefox } ब्राउज़र
 bento-menu-made-by-mozilla = { -brand-mozilla } द्वारा निर्मित
 
 ## Connect another device promo
 
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -google-play } से { -brand-firefox } डाउनलोड करें
+connect-another-app-store-image-2 =
+    .title = { -app-store } से { -brand-firefox } डाउनलोड करें
 
 ##
 
@@ -96,6 +105,7 @@ datablock-copy =
 
 ## Data collection section
 
+dc-learn-more = अधिक जानें
 
 # DropDownAvatarMenu component
 
@@ -131,6 +141,7 @@ modal-cancel-button = रद्द करें
 
 ## Modal Verify Session
 
+mvs-enter-verification-code = अपना सत्यापन कोड दर्ज करें
 msv-cancel-button = रद्द करें
 
 ## Settings Nav
@@ -209,9 +220,6 @@ add-secondary-email-enter-address =
     .label = ईमेल पता दर्ज करें
 add-secondary-email-cancel-button = रद्द करें
 add-secondary-email-save-button = सहेजें
-
-##
-
 
 ## Verify secondary email page
 
