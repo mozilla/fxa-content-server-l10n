@@ -262,6 +262,9 @@ row-defaults-action-change = बदलें
 
 ## Secondary email sub-section on main Settings page
 
+# Button to remove the secondary email
+se-remove-email =
+    .title = ईमेल हटाएं
 
 ##
 
