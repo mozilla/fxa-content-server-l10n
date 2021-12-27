@@ -31,6 +31,8 @@ subplat-update-billing = Aktualiziraj podatke naplate
 subplat-legal = Pravno
 subplat-privacy = Privatnost
 automated-email-plaintext = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
 change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
 manage-account = Upravljanje računom
 # After the colon, there's a link to https://accounts.firefox.com/support
@@ -48,18 +50,12 @@ codes-reminder-title = Preostao je mali broj kodova za oporavak
 codes-reminder-description = Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu.
 codes-generate = Generiraj kodove
 lowRecoveryCodes-action = Generiraj kodove
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
-
-##
-
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
 passwordChangeRequired-title = Potrebna promjena lozinke
+passwordChangeRequired-sign-in = Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj { -product-firefox-account } račun i slijedi korake koji će ti biti predstavljeni.
 passwordChangeRequired-different-password = <b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 passwordChangeRequired-signoff = Lijep pozdrav,
 passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
@@ -115,16 +111,22 @@ recovery-subject = Ponovo postavi svoju lozinku
 recovery-title = Moraš ponovo postaviti lozinku?
 recovery-description = U sljedećih sat vremena klikni gumb za stvaranje nove lozinke. Zahtjev je stigao sa sljedećeg uređaja:
 recovery-action = Stvori novu lozinku
+subscriptionAccountDeletion-title = Žao nam je što odlaziš
+subscriptionCancellation-title = Žao nam je što odlaziš
+subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 subscriptionPaymentExpired-title = Tvoja će kreditna kartica uskoro isteći
 subscriptionsPaymentExpired-subject = Rok kreditne kartice za tvoju pretplatu uskoro istječe
 subscriptionsPaymentExpired-title = Tvoja će kreditna kartica uskoro isteći
 subscriptionsPaymentExpired-content = Kreditna kartica koju koristiš za plaćanje sljedećih pretplata uskoro isteče.
+subscriptionUpgrade-title = Hvala na nadogradnji!
+subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 unblockCode-subject = Kod za autorizaciju računa
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
 unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema.
 verificationReminderFirst-subject = Podsjetnik: Dovrši otvaranje tvog računa
 verificationReminderFirst-title = Dobro došao/Dobro došla u obitelj { -brand-firefox }
+verificationReminderFirst-description = Prije nekoliko dana stvoren je tvoj { -brand-firefox } račun, ali nije potvrđen.
 verificationReminderFirst-sub-description = Potvrdi sada i nabavi tehnologiju koja se bori za tvoju privatnost, štiti je, te pruža praktično znanje i poštovanje koje zaslužuješ.
 confirm-email = Potvrdi adresu e-pošte
 verificationReminderFirst-action = Potvrdi adresu e-pošte
@@ -157,12 +159,3 @@ verifySecondaryCode-prompt = Koristi ovaj kôd za potvrdu:
 verifySecondaryCode-expiry-notice = Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde.
 verifyShortCode-title = Je li ovo tvoja prijava?
 verifyShortCode-expiry-notice = Istječe za 5 minuta.
-cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
-passwordChangeRequired-sign-in = Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj { -brand-firefox } račun i slijedite korake koji će ti biti predstavljeni.
-subscriptionAccountDeletion-title = Žao nam je što odlaziš
-subscriptionCancellation-title = Žao nam je što odlaziš
-subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
-subscriptionUpgrade-title = Hvala na nadogradnji!
-subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
-verificationReminderFirst-description = Prije nekoliko dana stvoren je tvoj { -brand-firefox } račun, ali nije potvrđen.
-
