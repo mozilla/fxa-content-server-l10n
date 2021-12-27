@@ -111,6 +111,7 @@ alert-bar-close-message = Zamknij komunikat
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -149,6 +150,7 @@ bento-menu-firefox-title = { -brand-firefox } to technologia walcząca o Twoją
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
 bento-menu-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
 bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
@@ -159,6 +161,12 @@ connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon l
 connect-another-find-fx-mobile =
     Znajdź { -brand-firefox(case: "acc") } w sklepie { -google-play } lub { -app-store } albo
     <br /><linkExternal>wyślij odnośnik do pobrania na swoje urządzenie.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Pobierz { -brand-firefox(case: "acc") } z { -google-play }
+connect-another-app-store-image-2 =
+    .title = Pobierz { -brand-firefox(case: "acc") } na { -app-store }
 
 ##
 
@@ -312,6 +320,8 @@ nav-email-comm = Ustawienia poczty
 tfa-replace-code-error = Wystąpił problem podczas zastępowania kodów odzyskiwania.
 tfa-replace-code-success = Utworzono nowe kody. Zachowaj te kody jednorazowego użytku w bezpiecznym miejscu &mdash; będą one potrzebne do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
 tfa-replace-code-success-alert = Zaktualizowano kody odzyskiwania konta.
+tfa-replace-code-1-2 = 1. krok z 2
+tfa-replace-code-2-2 = 2. krok z 2
 
 ## Avatar change page
 
@@ -435,9 +445,6 @@ add-secondary-email-enter-address =
     .label = Wpisz adres e-mail
 add-secondary-email-cancel-button = Anuluj
 add-secondary-email-save-button = Zachowaj
-
-##
-
 
 ## Verify secondary email page
 
@@ -601,6 +608,8 @@ se-default-content = Uzyskaj dostęp do konta, jeśli nie możesz zalogować si�
 se-content-note =
     Uwaga: dodatkowy adres e-mail nie przywróci danych &mdash; do tego
     potrzebny będzie <a>klucz odzyskiwania</a>.
+# Default value for the secondary email
+se-secondary-email-none = Brak
 
 ##
 
@@ -632,6 +641,7 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
 auth-error-102 = Nieznane konto
 auth-error-103 = Niepoprawne hasło
+auth-error-105 = Nieprawidłowy kod weryfikacyjny
 auth-error-110 = Nieprawidłowy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -642,5 +652,7 @@ auth-error-110 = Nieprawidłowy token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie za { $retryAfter }.
 auth-error-138 = Niezweryfikowana sesja
+auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
+auth-error-183 = Kod weryfikacyjny jest nieprawidłowy lub wygasł
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
