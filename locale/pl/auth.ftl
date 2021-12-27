@@ -97,6 +97,8 @@
     }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -118,6 +120,7 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anuluj subskrypcję
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ponownie aktywuj subskrypcję
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Zaktualizuj dane płatnicze
 subplat-legal = Podstawa prawna
 subplat-privacy = Prywatność
@@ -139,12 +142,22 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeśli nie zmieniono hasła, to należy je teraz zmienić pod adresem { $resetLink }
+cancellationSurvey = Pomóż nam ulepszać nasze usługi wypełniając tę <a data-l10n-name="cancellationSurveyUrl")s>krótką ankietę</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Pomóż nam ulepszać nasze usługi wypełniając tę krótką ankietę:
 change-password-plaintext = Jeśli istnieją podejrzenia, że ktoś próbuje uzyskać dostęp do konta, to prosimy zmienić hasło.
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Adres IP: { $ip }
 manage-account = Zarządzaj kontem
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Metoda płatności:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Karta { $cardType } kończąca się na { $lastFour }
 subscriptionSupport = Masz pytania dotyczące subskrypcji? Nasz <a data-l10n-name="subscriptionSupportUrl">zespół wsparcia</a> Ci pomoże.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:
@@ -174,15 +187,12 @@ lowRecoveryCodes-subject =
         [few] Pozostał { $numberRemaining } kody odzyskiwania
        *[many] Pozostało { $numberRemaining } kodów odzyskiwania
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = Nowe logowanie do „{ $clientName }”
-
-##
-
 newDeviceLogin-action = Zarządzaj kontem
 passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
@@ -267,6 +277,9 @@ recovery-subject = Zmień hasło
 recovery-title = Potrzeba zmienić hasło?
 recovery-description = Kliknij przycisk w ciągu godziny, aby utworzyć nowe hasło. Żądanie przyszło z tego urządzenia:
 recovery-action = Utwórz nowe hasło
+subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegnać
+subscriptionCancellation-title = Przykro nam, że chcesz się z nami pożegnać
+subscriptionDowngrade-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Karta płatnicza dla { $productName } wkrótce wygaśnie
@@ -287,6 +300,8 @@ subscriptionReactivation-content = Twój okres rozliczeniowy i płatność pozo
 subscriptionsPaymentExpired-subject = Karta płatnicza dla subskrypcji wkrótce wygaśnie
 subscriptionsPaymentExpired-title = Karta płatnicza wkrótce wygaśnie
 subscriptionsPaymentExpired-content = Karta płatnicza używana do dokonywania płatności za poniższe subskrypcje niedługo wygaśnie.
+subscriptionUpgrade-title = Dziękujemy!
+subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 unblockCode-subject = Kod upoważnienia konta
 unblockCode-title = Czy to Ty się logujesz?
 unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
@@ -353,10 +368,3 @@ verifyShortCode-subject = Kod weryfikacyjny: { $code }
 verifyShortCode-title = Czy to Ty się rejestrujesz?
 verifyShortCode-prompt = Jeśli tak, użyj tego kodu weryfikacyjnego w formularzu rejestracyjnym:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
-cancellationSurvey-plaintext = Pomóż nam ulepszać nasze usługi wypełniając tę krótką ankietę:
-subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegnać
-subscriptionCancellation-title = Przykro nam, że chcesz się z nami pożegnać
-subscriptionDowngrade-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
-subscriptionUpgrade-title = Dziękujemy!
-subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
-
