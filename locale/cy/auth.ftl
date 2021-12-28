@@ -277,20 +277,20 @@ subscriptionPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
 subscriptionPaymentExpired-content = Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am { $productName } ar fin dod i ben.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentFailed-subject = Methodd taliad { $productName }
+subscriptionPaymentFailed-subject = Methodd y taliad am { $productName }
 subscriptionPaymentFailed-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch taliad
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Rydym wedi cael anhawster gyda'ch taliad diweddaraf am { $productName }.
-subscriptionPaymentFailed-content-outdated = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn rhy hen.
+subscriptionPaymentFailed-content-outdated = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull o dalu cyfredol yn rhy hen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu ar gyfer { $productName }
-subscriptionPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull talu
+subscriptionPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull o dalu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawster gyda'ch dull talu am { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn rhy hen.
+subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawster gyda'ch dull o dalu am { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull o dalu cyfredol yn rhy hen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Ail-gychwynnwyd tanysgrifiad { $productName }
@@ -310,7 +310,27 @@ subscriptionsPaymentProviderCancelled-content-detected = Rydym wedi canfod anhaw
 subscriptionsPaymentProviderCancelled-content-payment = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull o dalu cyfredol yn rhy hen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoice-subject = Derbyniwyd taliad { $productName }
+subscriptionSubsequentInvoice-subject = Derbyniwyd taliad am { $productName }
+subscriptionSubsequentInvoice-title = Diolch am fod yn danysgrifiwr!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Rydym wedi derbyn eich taliad diweddaraf am { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Rhif Anfoneb: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Rhif Anfoneb: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Newid cynllun: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Codwyd { $invoiceTotal } ar { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Yr Anfoneb Nesaf: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Rydych wedi uwchraddio i { $productNameNew }

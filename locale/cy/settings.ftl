@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Llwytho { -brand-firefox } i lawr ar { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Llwytho { -brand-firefox } i lawr ar yr { -app-store }
 
 ##
@@ -241,6 +241,8 @@ tfa-replace-code-success =
     un-waith hyn mewn man diogel — bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
     eich dyfais symudol gyda chi.
 tfa-replace-code-success-alert = Diweddarwyd codau adfer cyfrifon.
+tfa-replace-code-1-2 = Cam 1 o 2
+tfa-replace-code-2-2 = Cam 2 o 2
 
 ## Avatar change page
 
