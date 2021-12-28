@@ -17,6 +17,8 @@
 -product-firefox-account = Cyfrif Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -69,6 +71,13 @@ change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad 
 user-ip = Cyfeiriad IP: %(ip)s
 manage-account = Rheoli cyfrif
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Dull Talu:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Mae cerdyn { $cardType } yn dod i ben ymhen { $lastFour }
 subscriptionSupport = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a data-l10n-name="subscriptionSupportUrl">tîm cymorth</a> yma i'ch helpu chi.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i’ch helpu chi:
@@ -78,6 +87,14 @@ subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanae
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Am ragor o wybodaeth, ewch i { $supportUrl }
+updateBilling = Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a data-l10n-name="updateBillingUrl">ddiweddaru eich manylion talu</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy ddiweddaru eich manylion talu.
+view-invoice = <a data-l10n-name="invoiceLink">Gweld eich anfoneb</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Gweld yr Anfoneb: { $invoiceLink }
 cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync
 cadReminderFirst-action = Cydweddu dyfais arall
 cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
@@ -229,11 +246,51 @@ subscriptionDowngrade-content-install = Os oes yna feddalwedd newydd i chi ei os
 subscriptionDowngrade-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Cadarnhawyd y taliad am { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Diolch am danysgrifio i { $productName }
+subscriptionFirstInvoice-content-processing = Mae'ch taliad yn cael ei brosesu ar hyn o bryd a gall gymryd hyd at bedwar diwrnod busnes i'w gwblhau.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr ar sut i ddechrau defnyddio { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Rhif Anfoneb: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Rhif Anfoneb: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Codwyd { $invoiceTotal }s ar { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Anfoneb Nesaf: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Bydd cerdyn credyd { $productName } yn dod i ben cyn bo hir
 subscriptionPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am { $productName } ar fin dod i ben.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Methodd taliad { $productName }
+subscriptionPaymentFailed-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch taliad
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Rydym wedi cael anhawster gyda'ch taliad diweddaraf am { $productName }.
+subscriptionPaymentFailed-content-outdated = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn rhy hen.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu ar gyfer { $productName }
+subscriptionPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull talu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawster gyda'ch dull talu am { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn rhy hen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Ail-gychwynnwyd tanysgrifiad { $productName }
@@ -247,6 +304,13 @@ subscriptionReactivation-content = Bydd eich cylch bilio a'ch taliad yn aros yr 
 subscriptionsPaymentExpired-subject = Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan
 subscriptionsPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
 subscriptionsPaymentExpired-content = Mae’r cerdyn credyd rydych chi‘n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben.
+subscriptionsPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu am danysgrifiadau { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull o dalu
+subscriptionsPaymentProviderCancelled-content-detected = Rydym wedi canfod anhawster gyda'ch dull o dalu am y tanysgrifiadau canlynol.
+subscriptionsPaymentProviderCancelled-content-payment = Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull o dalu cyfredol yn rhy hen.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Derbyniwyd taliad { $productName }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Rydych wedi uwchraddio i { $productNameNew }
