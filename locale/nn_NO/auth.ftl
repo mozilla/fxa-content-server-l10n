@@ -73,6 +73,12 @@ lowRecoveryCodes-subject =
         [one] 1 gjenopprettingskode att
        *[other] { $numberRemaining } gjenopprettingskodar att
     }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Ny inloggning på { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Ny innlogging på { $clientName }
 newDeviceLogin-action = Handter kontoen
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
@@ -81,6 +87,7 @@ passwordChangeRequired-title = Passordendring påkravd
 passwordChangeRequired-sign-in = Logg deg tilbake på hkva som helst som helst eining eller teneste der du brukar { -product-firefox-account }en din, og følg stega som vil bli presenterte for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordChangeRequired-signoff = Venleg helsing
+passwordChangeRequired-signoff-name = Teamet { -product-firefox-accounts }
 passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
