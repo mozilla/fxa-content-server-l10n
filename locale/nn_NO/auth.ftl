@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox-konto
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -43,6 +45,13 @@ change-password-plaintext = Om du mistenkjer at nokon prøver å få tilgang til
 user-ip = IP-adresse: { $ip }
 manage-account = Handter kontoen
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Betalingsmåte:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType }-kort som sluttar på { $lastFour }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
