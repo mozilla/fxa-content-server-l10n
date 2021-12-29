@@ -79,6 +79,10 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile =
     Finn { -brand-firefox } på { -google-play } og { -app-store } eller
     <br /><linkExternal>send ei nedlastingslenke til eininga.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Last ned { -brand-firefox } på { -google-play }
 
 ##
 
@@ -209,6 +213,8 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-1-2 = Steg 1 av 2
+tfa-replace-code-2-2 = Steg 2 av 2
 
 ## Avatar change page
 
