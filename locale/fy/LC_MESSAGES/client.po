@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
-"PO-Revision-Date: 2021-11-18 11:09+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
+"PO-Revision-Date: 2021-12-21 19:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1938,11 +1938,11 @@ msgstr "Bewarje en ûntdek de beste ferhalen fan oeral op ynternet."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Skriuw jo yn foar nije accounts sûnder jo e-mailadres ôf te jaan."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"

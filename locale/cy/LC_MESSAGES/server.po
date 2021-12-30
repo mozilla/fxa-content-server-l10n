@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
 "PO-Revision-Date: 2021-11-09 11:45+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2949
 msgid "Here's your reminder to sync devices."
 msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2953
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2950
 msgid "Last reminder to sync devices!"
 msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2956
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
 
@@ -170,7 +170,7 @@ msgstr "Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llw
 msgid "If this was not you, revoke key."
 msgstr "Os nad chi oedd hwn, diddymwch yr allwedd."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1600
 msgid "Two-step authentication enabled"
 msgstr "Mae dilysu dau gam wedi ei alluogi"
 
@@ -320,7 +320,7 @@ msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r <a %(cancellationSurveyL
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r arolwg byr hwn:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2918
 msgid "Welcome to %(productName)s"
 msgstr "Croeso i %(productName)s"
 
@@ -380,11 +380,9 @@ msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddian
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o $"
-"%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -572,11 +570,9 @@ msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNa
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o $"
-"%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -951,13 +947,9 @@ msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
 msgid "Primary email updated"
 msgstr "Diweddarwyd y prif e-bost"
 
-#: lib/senders/email.js:1600
-msgid "Two-step verification enabled"
-msgstr "Mae dilysu dau gam wedi ei alluogi"
-
 #: lib/senders/email.js:1647
-msgid "Two-step verification is off"
-msgstr "Mae dilysu dau gam wedi ei ddiffodd"
+msgid "Two-step authentication is off"
+msgstr ""
 
 #: lib/senders/email.js:1741
 msgid "Recovery code used"
@@ -987,67 +979,67 @@ msgstr "Creu allwedd adfer newydd"
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Croeso i %(productName)s: Cyflwynwch eich cyfrinair."
 
-#: lib/senders/email.js:2107
+#: lib/senders/email.js:2108
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2189
 msgid "You have switched to %(productNameNew)s"
 msgstr "Rydych wedi newid i %(productNameNew)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2255
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2269
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2316
+#: lib/senders/email.js:2320
 msgid "Payment information update required for %(productName)s"
 msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
 
-#: lib/senders/email.js:2332
+#: lib/senders/email.js:2336
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
 
-#: lib/senders/email.js:2378
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment failed"
 msgstr "Methodd taliad %(productName)s"
 
-#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
+#: lib/senders/email.js:2433 lib/senders/email.js:2498 lib/senders/email.js:2559
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
 
-#: lib/senders/email.js:2612
+#: lib/senders/email.js:2616
 msgid "%(productName)s subscription reactivated"
 msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
 
-#: lib/senders/email.js:2668
+#: lib/senders/email.js:2672
 msgid "%(productName)s automatic renewal notice"
 msgstr "Hysbysiad adnewyddu awtomatig %(productName)"
 
-#: lib/senders/email.js:2748
+#: lib/senders/email.js:2752
 msgid "%(productName)s payment received"
 msgstr "Derbyniwyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2840
+#: lib/senders/email.js:2844
 msgid "%(productName)s payment confirmed"
 msgstr "Cadarnhawyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2915
+#: lib/senders/email.js:2919
 msgid "Download %(productName)s"
 msgstr "Llwythwch %(productName)s i lawr"
 
-#: lib/senders/email.js:2941
+#: lib/senders/email.js:2945
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync"
 
-#: lib/senders/email.js:2942
+#: lib/senders/email.js:2946
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd"
 
-#: lib/senders/email.js:2956
+#: lib/senders/email.js:2960
 msgid "Sync another device"
 msgstr "Cydweddu dyfais arall"
 
@@ -1135,6 +1127,26 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Mae dilysu dau gam wedi ei alluogi"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "Mae dilysu dau gam wedi ei ddiffodd"
 
 #~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 #~ msgstr "Rydym yn amau gweithgaredd amheus ar eich Cyfrif Firefox. Efallai bod eich cyfrif wedi ei gyfaddawdu."

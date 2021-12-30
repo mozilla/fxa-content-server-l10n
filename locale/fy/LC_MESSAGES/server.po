@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
 "PO-Revision-Date: 2021-11-18 11:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444998452.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2949
 msgid "Here's your reminder to sync devices."
 msgstr "Dit is jo omtinken om apparaten te syngronisearjen."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2953
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke "
 "itselde."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2950
 msgid "Last reminder to sync devices!"
 msgstr "Lêste omtinken om apparaten te syngronisearjen!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2956
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "As jo in oar apparaat privee mei Firefox syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare Firefox-gegevens oeral wêr’t jo Firefox brûke itselde."
 
@@ -172,7 +172,7 @@ msgstr "Jo hawwe mei sukses in kaai foar accountwerstel foar jo Firefox-account 
 msgid "If this was not you, revoke key."
 msgstr "As jo dit net dien hawwe, lûk dan de kaai yn."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1600
 msgid "Two-step authentication enabled"
 msgstr "Twa-staps autentikaasje ynskeakele"
 
@@ -323,7 +323,7 @@ msgstr "Help ús ús tsjinstferliening te ferbetterjen troch dizze <a %(cancella
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Help ús ús tsjinstferliening te ferbetterjen troch dizze koarte enkête yn te foljen:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2918
 msgid "Welcome to %(productName)s"
 msgstr "Wolkom by %(productName)s"
 
@@ -383,11 +383,9 @@ msgstr "Jo binne mei sukses oerskeakele fan %(productNameOld)s nei %(productName
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"Fan jo folgjende faktuer ôf wizigje jo kosten fan %(paymentAmountOld)s per %(productPaymentCycle)s nei %(paymentAmountNew)s. Jo ûntfange dan ek ien kear in kredyt fan %(paymentProrated)s ta gefolch "
-"fan de legere kosten foar de rest fan dizze %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -569,11 +567,9 @@ msgstr "Jo binne mei sukses opwurdearre fan %(productNameOld)s nei %(productName
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"Fan jo folgjende faktuer ôf wizigje jo kosten fan %(paymentAmountOld)s per %(productPaymentCycle)s nei %(paymentAmountNew)s. Der wurdt jo dan ek ien kear in bedrach fan %(paymentProrated)s yn "
-"rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -948,13 +944,9 @@ msgstr "Account ferifiearre. Syngronisearje as folgjende stap in oar apparaat om
 msgid "Primary email updated"
 msgstr "Primêr e-mailadres fernijd"
 
-#: lib/senders/email.js:1600
-msgid "Two-step verification enabled"
-msgstr "Autentikaasje yn twa stappen ynskeakele"
-
 #: lib/senders/email.js:1647
-msgid "Two-step verification is off"
-msgstr "Autentikaasje yn twa stappen útskeakele"
+msgid "Two-step authentication is off"
+msgstr ""
 
 #: lib/senders/email.js:1741
 msgid "Recovery code used"
@@ -984,67 +976,67 @@ msgstr "Nije werstelkaai generearje"
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Wolkom by %(productName)s: stel jo wachtwurd yn."
 
-#: lib/senders/email.js:2107
+#: lib/senders/email.js:2108
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Jo hawwe opwurdearre nei %(productNameNew)s"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2189
 msgid "You have switched to %(productNameNew)s"
 msgstr "Jo binne oerskeakele nei %(productNameNew)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2255
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "De creditcard foar %(productName)s ferrint ynkoarten"
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2269
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "De creditcard foar jo abonneminten ferrint ynkoarten"
 
-#: lib/senders/email.js:2316
+#: lib/senders/email.js:2320
 msgid "Payment information update required for %(productName)s"
 msgstr "Bywurkjen fan betellingsynformaasje fereaske foar %(productName)s"
 
-#: lib/senders/email.js:2332
+#: lib/senders/email.js:2336
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Bywurkjen fan betellingsynformaasje fereaske foar Mozilla-abonneminten"
 
-#: lib/senders/email.js:2378
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment failed"
 msgstr "De betelling foar %(productName)s is mislearre"
 
-#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
+#: lib/senders/email.js:2433 lib/senders/email.js:2498 lib/senders/email.js:2559
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Jo abonnemint op %(productName)s is opsein"
 
-#: lib/senders/email.js:2612
+#: lib/senders/email.js:2616
 msgid "%(productName)s subscription reactivated"
 msgstr "Abonnemint op %(productName)s opnij aktivearre"
 
-#: lib/senders/email.js:2668
+#: lib/senders/email.js:2672
 msgid "%(productName)s automatic renewal notice"
 msgstr "Automatyske ferlingingsmelding foar %(productName)s"
 
-#: lib/senders/email.js:2748
+#: lib/senders/email.js:2752
 msgid "%(productName)s payment received"
 msgstr "Betelling foar %(productName)s is ûntfongen"
 
-#: lib/senders/email.js:2840
+#: lib/senders/email.js:2844
 msgid "%(productName)s payment confirmed"
 msgstr "De betelling foar %(productName)s is befêstige"
 
-#: lib/senders/email.js:2915
+#: lib/senders/email.js:2919
 msgid "Download %(productName)s"
 msgstr "%(productName)s downloade"
 
-#: lib/senders/email.js:2941
+#: lib/senders/email.js:2945
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "In freonlik omtinken: ynstellen fan jo Sync foltôgje"
 
-#: lib/senders/email.js:2942
+#: lib/senders/email.js:2946
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Lêste omtinken: ynstellen fan Sync foltôgje"
 
-#: lib/senders/email.js:2956
+#: lib/senders/email.js:2960
 msgid "Sync another device"
 msgstr "Noch in apparaat syngronisearje"
 
@@ -1126,6 +1118,26 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lêste downloade"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Fan jo folgjende faktuer ôf wizigje jo kosten fan %(paymentAmountOld)s per %(productPaymentCycle)s nei %(paymentAmountNew)s. Jo ûntfange dan ek ien kear in kredyt fan %(paymentProrated)s ta "
+#~ "gefolch fan de legere kosten foar de rest fan dizze %(productPaymentCycle)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Fan jo folgjende faktuer ôf wizigje jo kosten fan %(paymentAmountOld)s per %(productPaymentCycle)s nei %(paymentAmountNew)s. Der wurdt jo dan ek ien kear in bedrach fan %(paymentProrated)s yn "
+#~ "rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze %(productPaymentCycle)s."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Autentikaasje yn twa stappen ynskeakele"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "Autentikaasje yn twa stappen útskeakele"
 
 #~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 #~ msgstr "Wy hawwe op jo Firefox-account fertochte aktiviteiten ûntdekt. Jo account kin skeind wêze."

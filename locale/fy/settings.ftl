@@ -31,6 +31,7 @@ alert-bar-close-message = Berjocht slute
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } is technology dy’t stridet foar 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser foar desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser foar mobyl
 bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Download { -brand-firefox } op mobyl of tablet
 connect-another-find-fx-mobile =
     { -brand-firefox } yn { -google-play } en de { -app-store } sykje of
     <br /><linkExternal>in downloadkeppeling nei jo apparaat stjoere.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Download { -brand-firefox } op { -google-play }
+connect-another-app-store-image-2 =
+    .title = Download { -brand-firefox } op { -app-store }
 
 ##
 
@@ -235,6 +243,8 @@ tfa-replace-code-success =
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
     mobile apparaat net hawwe.
 tfa-replace-code-success-alert = Accountwerstel bywurke.
+tfa-replace-code-1-2 = Stap 1 fan 2
+tfa-replace-code-2-2 = Stap 2 fan 2
 
 ## Avatar change page
 
@@ -358,9 +368,6 @@ add-secondary-email-enter-address =
     .label = Fier e-mailadres yn
 add-secondary-email-cancel-button = Annulearje
 add-secondary-email-save-button = Bewarje
-
-##
-
 
 ## Verify secondary email page
 
@@ -524,6 +531,8 @@ se-default-content = Tagong ta jo account as jo net oanmelde kinne op jo primêr
 se-content-note =
     Noat: in sekundêr e-mailadres werstelt jo gegevens net – dêrfoar
     hawwe jo in <a>werstelkaai</a> nedich.
+# Default value for the secondary email
+se-secondary-email-none = Gjin
 
 ##
 
@@ -559,6 +568,7 @@ tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 auth-error-102 = Unbekend account
 auth-error-103 = Ferkeard wachtwurd
+auth-error-105 = Unjildige ferifikaasjekoade
 auth-error-110 = Unjildich token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -569,5 +579,7 @@ auth-error-110 = Unjildich token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it oer { $retryAfter } opnij.
 auth-error-138 = Net-ferifiearre sesje
+auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
+auth-error-183 = Unjildige of ferrûne ferifikaasjekoade
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze

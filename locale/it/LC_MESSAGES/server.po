@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
 "PO-Revision-Date: 2021-11-29 06:51+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,21 +15,21 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445069656.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2949
 msgid "Here's your reminder to sync devices."
 msgstr "Ecco il tuo promemoria per la sincronizzazione dei dispositivi."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2953
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Bisogna essere in due per sincronizzarsi… Sincronizzando un altro dispositivo potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi Firefox, senza rinunciare alla "
 "riservatezza."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2950
 msgid "Last reminder to sync devices!"
 msgstr "Ultimo promemoria per sincronizzare i dispositivi."
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2956
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Sincronizzando un altro dispositivo potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi Firefox, senza rinunciare alla riservatezza."
 
@@ -172,7 +172,7 @@ msgstr "La chiave di recupero per l’account Firefox è stata correttamente gen
 msgid "If this was not you, revoke key."
 msgstr "Se non hai effettuato questa operazione, revoca la chiave."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1600
 msgid "Two-step authentication enabled"
 msgstr "Autenticazione in due passaggi attivata"
 
@@ -329,7 +329,7 @@ msgstr "Aiutaci a migliorare i nostri servizi partecipando a questo <a %(cancell
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Aiutaci a migliorare i nostri servizi partecipando a questo breve sondaggio:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2918
 msgid "Welcome to %(productName)s"
 msgstr "Benvenuto in %(productName)s"
 
@@ -391,11 +391,9 @@ msgstr "Il passaggio da %(productNameOld)s a %(productNameNew)s è stato complet
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditato un importo una "
-"tantum di $%(paymentProrated)s per riflettere il costo inferiore per il resto di questo %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -584,11 +582,9 @@ msgstr "L’aggiornamento da %(productNameOld)s a %(productNameNew)s è stato ef
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditata una commissione "
-"una tantum di $%(paymentProrated)s per riflettere il costo superiore per il resto di questo %(productPaymentCycle)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -965,13 +961,9 @@ msgstr "L’account è stato verificato. Adesso sincronizza un altro dispositivo
 msgid "Primary email updated"
 msgstr "Indirizzo email primario aggiornato"
 
-#: lib/senders/email.js:1600
-msgid "Two-step verification enabled"
-msgstr "Autenticazione in due passaggi attivata"
-
 #: lib/senders/email.js:1647
-msgid "Two-step verification is off"
-msgstr "L’autenticazione in due passaggi è disattivata"
+msgid "Two-step authentication is off"
+msgstr ""
 
 #: lib/senders/email.js:1741
 msgid "Recovery code used"
@@ -1001,67 +993,67 @@ msgstr "Crea una nuova chiave di recupero"
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Ti diamo il benvenuto in %(productName)s: imposta la tua password."
 
-#: lib/senders/email.js:2107
+#: lib/senders/email.js:2108
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Hai effettuato l’aggiornamento a %(productNameNew)s"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2189
 msgid "You have switched to %(productNameNew)s"
 msgstr "Sei passato a %(productNameNew)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2255
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "La carta di credito per %(productName)s sta per scadere"
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2269
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "La carta di credito collegata ai tuoi abbonamenti sta per scadere"
 
-#: lib/senders/email.js:2316
+#: lib/senders/email.js:2320
 msgid "Payment information update required for %(productName)s"
 msgstr "Aggiornamento delle informazioni di pagamento richiesto per %(productName)s"
 
-#: lib/senders/email.js:2332
+#: lib/senders/email.js:2336
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Aggiornamento delle informazioni di pagamento richiesto per gli abbonamenti Mozilla"
 
-#: lib/senders/email.js:2378
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment failed"
 msgstr "Pagamento per %(productName)s non riuscito"
 
-#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
+#: lib/senders/email.js:2433 lib/senders/email.js:2498 lib/senders/email.js:2559
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Il tuo abbonamento a %(productName)s è stato annullato"
 
-#: lib/senders/email.js:2612
+#: lib/senders/email.js:2616
 msgid "%(productName)s subscription reactivated"
 msgstr "Abbonamento a %(productName)s rinnovato"
 
-#: lib/senders/email.js:2668
+#: lib/senders/email.js:2672
 msgid "%(productName)s automatic renewal notice"
 msgstr "Avviso di rinnovo automatico di %(productName)s"
 
-#: lib/senders/email.js:2748
+#: lib/senders/email.js:2752
 msgid "%(productName)s payment received"
 msgstr "Il pagamento per %(productName)s è stato ricevuto"
 
-#: lib/senders/email.js:2840
+#: lib/senders/email.js:2844
 msgid "%(productName)s payment confirmed"
 msgstr "Il pagamento per %(productName)s è stato confermato"
 
-#: lib/senders/email.js:2915
+#: lib/senders/email.js:2919
 msgid "Download %(productName)s"
 msgstr "Scarica %(productName)s"
 
-#: lib/senders/email.js:2941
+#: lib/senders/email.js:2945
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Sollecito amichevole: come completare la configurazione di Sync"
 
-#: lib/senders/email.js:2942
+#: lib/senders/email.js:2946
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Promemoria finale: completa la configurazione di Sync"
 
-#: lib/senders/email.js:2956
+#: lib/senders/email.js:2960
 msgid "Sync another device"
 msgstr "Sincronizza un altro dispositivo"
 
@@ -1139,6 +1131,26 @@ msgstr "Firefox Accounts utilizza delle funzionalità che non sono supportate da
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Scarica l’ultima versione"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditato un importo "
+#~ "una tantum di $%(paymentProrated)s per riflettere il costo inferiore per il resto di questo %(productPaymentCycle)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partire dalla prossima fattura, il tuo pagamento per %(productPaymentCycle)s sarà modificato da $%(paymentAmountOld)s a $%(paymentAmountNew)s. Contestualmente ti verrà accreditata una "
+#~ "commissione una tantum di $%(paymentProrated)s per riflettere il costo superiore per il resto di questo %(productPaymentCycle)s."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Autenticazione in due passaggi attivata"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "L’autenticazione in due passaggi è disattivata"
 
 #~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 #~ msgstr "Sono state rilevate delle attività sospette sul tuo account Firefox. È possibile che l’account sia stato violato."

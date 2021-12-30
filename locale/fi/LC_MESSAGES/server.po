@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
 "PO-Revision-Date: 2021-11-16 11:14+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1430041708.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2949
 msgid "Here's your reminder to sync devices."
 msgstr "Tässä muistutus laitteidesi synkronoimiseksi."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2953
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Synkronointiin tarvitaan kaksi. Toisen laitteen synkronointi Firefoxin kanssa pitää kirjanmerkit, salasanat ja muut Firefox-tiedot yksityisenä ja samana kaikkialla, missä käytät Firefoxia."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2950
 msgid "Last reminder to sync devices!"
 msgstr "Viimeinen muistutus laitteidesi synkronoimiseksi!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2956
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Toisen laitteen synkronointi Firefoxin kanssa pitää kirjanmerkit, salasanat ja muut Firefox-tiedot yksityisenä ja samana kaikkialla, missä käytät Firefoxia."
 
@@ -170,7 +170,7 @@ msgstr "Olet luonut tilin palautusavaimen Firefox-tilillesi seuraavasta laittees
 msgid "If this was not you, revoke key."
 msgstr "Jos et tehnyt tätä, kumoa avain."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1600
 msgid "Two-step authentication enabled"
 msgstr "Kaksivaiheinen todennus otettu käyttöön"
 
@@ -320,7 +320,7 @@ msgstr "Auta meitä parantamaan palveluitamme täyttämällä <a %(cancellationS
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2918
 msgid "Welcome to %(productName)s"
 msgstr "Tervetuloa, käytössäsi on %(productName)s"
 
@@ -380,11 +380,9 @@ msgstr "Vaihdoit onnistuneesti tuotteesta %(productNameOld)s tuotteeseen %(produ
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"Seuraavasta laskustasi alkaen veloitus muuttuu hinnasta %(paymentAmountOld)s per %(productPaymentCycle)s hinnaksi %(paymentAmountNew)s. Tuolloin sinulle annetaan myös kertaluonteinen hyvitys "
-"suuruudeltaan %(paymentProrated)s, mikä korvaa tämän %(productPaymentCycle)s jakson loppuosan alhaisempaa veloitusta."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -567,8 +565,8 @@ msgstr "Päivitit onnistuneesti tuotteesta %(productNameOld)s tuotteeseen %(prod
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
@@ -944,13 +942,9 @@ msgstr "Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläkse
 msgid "Primary email updated"
 msgstr "Ensisijainen sähköpostiosoite päivitetty"
 
-#: lib/senders/email.js:1600
-msgid "Two-step verification enabled"
-msgstr "Kaksivaiheinen vahvistus otettu käyttöön"
-
 #: lib/senders/email.js:1647
-msgid "Two-step verification is off"
-msgstr "Kaksivaiheinen vahvistus on pois käytöstä"
+msgid "Two-step authentication is off"
+msgstr ""
 
 #: lib/senders/email.js:1741
 msgid "Recovery code used"
@@ -980,67 +974,67 @@ msgstr "Luo uusi palautusavain"
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Tervetuloa, tämä on %(productName)s: Aseta salasanasi."
 
-#: lib/senders/email.js:2107
+#: lib/senders/email.js:2108
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Päivitit tuotteeseen %(productNameNew)s"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2189
 msgid "You have switched to %(productNameNew)s"
 msgstr "Vaihdoit tuotteeseen %(productNameNew)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2255
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Tuotteella %(productName)s käytettävä luottokortti vanhenee pian"
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2269
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Tilauksiin käyttämäsi luottokortti vanhenee pian"
 
-#: lib/senders/email.js:2316
+#: lib/senders/email.js:2320
 msgid "Payment information update required for %(productName)s"
 msgstr "%(productName)s vaatii maksutietojen päivittämisen"
 
-#: lib/senders/email.js:2332
+#: lib/senders/email.js:2336
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Maksutietojen päivitys vaaditaan Mozilla-tilauksiin"
 
-#: lib/senders/email.js:2378
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment failed"
 msgstr "Tuotteen %(productName)s maksu epäonnistui"
 
-#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
+#: lib/senders/email.js:2433 lib/senders/email.js:2498 lib/senders/email.js:2559
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "%(productName)s -tilauksesi on peruttu"
 
-#: lib/senders/email.js:2612
+#: lib/senders/email.js:2616
 msgid "%(productName)s subscription reactivated"
 msgstr "%(productName)s -tilaus aktivoitu uudelleen"
 
-#: lib/senders/email.js:2668
+#: lib/senders/email.js:2672
 msgid "%(productName)s automatic renewal notice"
 msgstr "%(productName)s - automaattinen uusimisilmoitus"
 
-#: lib/senders/email.js:2748
+#: lib/senders/email.js:2752
 msgid "%(productName)s payment received"
 msgstr "%(productName)s -maksu vastaanotettu"
 
-#: lib/senders/email.js:2840
+#: lib/senders/email.js:2844
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s -maksu vahvistettu"
 
-#: lib/senders/email.js:2915
+#: lib/senders/email.js:2919
 msgid "Download %(productName)s"
 msgstr "Lataa %(productName)s"
 
-#: lib/senders/email.js:2941
+#: lib/senders/email.js:2945
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Ystävällinen muistutus: Kuinka saattaa synkronoinnin asetukset valmiiksi"
 
-#: lib/senders/email.js:2942
+#: lib/senders/email.js:2946
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Viimeinen muistutus: Määritä synkronoinnin asetukset valmiiksi"
 
-#: lib/senders/email.js:2956
+#: lib/senders/email.js:2960
 msgid "Sync another device"
 msgstr "Synkronoi toinen laite"
 
@@ -1127,6 +1121,19 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lataa viimeisin"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Seuraavasta laskustasi alkaen veloitus muuttuu hinnasta %(paymentAmountOld)s per %(productPaymentCycle)s hinnaksi %(paymentAmountNew)s. Tuolloin sinulle annetaan myös kertaluonteinen hyvitys "
+#~ "suuruudeltaan %(paymentProrated)s, mikä korvaa tämän %(productPaymentCycle)s jakson loppuosan alhaisempaa veloitusta."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Kaksivaiheinen vahvistus otettu käyttöön"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "Kaksivaiheinen vahvistus on pois käytöstä"
 
 #~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 #~ msgstr "Havaitsimme epäilyttävää toimintaa Firefox-tililläsi. Tilillesi on saatettu murtautua."

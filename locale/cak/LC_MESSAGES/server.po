@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
+"POT-Creation-Date: 2021-12-30 22:07+0000\n"
 "PO-Revision-Date: 2021-05-03 23:55+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,21 +14,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2945
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:2949
 msgid "Here's your reminder to sync devices."
 msgstr "Wawe' k'o ri anatab'al richin kiximik taq okisab'äl."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2949
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:2953
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
 "Najowäx ka'i' richin nixim. Naxim jun chik okisab'äl rik'in Firefox pan ichinan rub'eyal junam yeruk'waj ri taq ayaketal, ewan taq atzij chuqa' ch'aqa' chi rutzij Firefox pa xab'achike k'ojlib'äl "
 "xtawokisaj Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2946
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:2950
 msgid "Last reminder to sync devices!"
 msgstr "¡Ruk'isib'äl mul runataxik richin yexim okisab'äl!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2952
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:2956
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Naxim jun chik okisab'äl rik'in Firefox pan ichinan rub'eyal junam yeruk'waj ri taq ayaketal, ewan taq atzij chuqa' ch'aqa' chi rutzij Firefox pa xab'achike k'ojlib'äl xtawokisaj Firefox."
 
@@ -171,7 +171,7 @@ msgstr "Ütz xub'än xatz'ük jun kolonel ewan rutzij ri rub'i' ataqoya'l richin
 msgid "If this was not you, revoke key."
 msgstr "We man ja ta rat xab'ano, taq'ata' ri ewan tzij."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1600
 msgid "Two-step authentication enabled"
 msgstr "Xtzij ri jikib'anem rik'in ka'i'-xaq"
 
@@ -322,7 +322,7 @@ msgstr "Kojato' richin niqutzilaj ri qasamaj rik'in runojiaxik re <a %(cancellat
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Kojato' richin niqutzilaj ri qasamaj rik'in runojiaxik re ko'öl cholwuj:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2914
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2918
 msgid "Welcome to %(productName)s"
 msgstr "¡Ütz apetik pa %(productName)s"
 
@@ -382,11 +382,9 @@ msgstr "Ütz xajäl ri %(productNameOld)s rik'in %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-"%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"Rik'in ri jun chik apaktura', xtijalatäj ri %(paymentAmountOld)s awajil pa %(productPaymentCycle)s rik'in %(paymentAmountNew)s. Chi ri' xya' jun ruyonil ruwi' apwaq chi %(paymentProrated)s richin "
-"nya' retal ri ko'öl atojik richin re %(productPaymentCycle)s re'."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -566,11 +564,9 @@ msgstr "Ütz xak'ëx ri %(productNameOld)s rik'in %(productNameNew)s."
 
 #: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
 msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-"%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
+"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
-"Rik'in ri jun chik apaktura', xtijalatäj ri %(paymentAmountOld)s awajil pa %(productPaymentCycle)s rik'in %(paymentAmountNew)s. Chi ri' xtaya' jun ruyonil tojik chi %(paymentProrated)s richin nya' "
-"retal ri nïm atojik richin re %(productPaymentCycle)s re'."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -945,13 +941,9 @@ msgstr "Xjikib'äx rub'i' taqoya'l. Wakami taxima' jun chik okisab'äl richin na
 msgid "Primary email updated"
 msgstr "Xk'ex ri nab'ey taqoya'l"
 
-#: lib/senders/email.js:1600
-msgid "Two-step verification enabled"
-msgstr "Xtzij ri jikib'anem pa ka'i'-xak"
-
 #: lib/senders/email.js:1647
-msgid "Two-step verification is off"
-msgstr "Xchup ri jikib'anem pa ka'i'-xak"
+msgid "Two-step authentication is off"
+msgstr ""
 
 #: lib/senders/email.js:1741
 msgid "Recovery code used"
@@ -981,67 +973,67 @@ msgstr "Titz'uk k'ak'a' kolonel ewan tzij"
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr ""
 
-#: lib/senders/email.js:2107
+#: lib/senders/email.js:2108
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Xak'ëx pa %(productNameNew)s"
 
-#: lib/senders/email.js:2186
+#: lib/senders/email.js:2189
 msgid "You have switched to %(productNameNew)s"
 msgstr "Xajäl pa %(productNameNew)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2255
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Rutarjeta' Kre'ito' richin %(productName)s nik'is yan ruq'ijul "
 
-#: lib/senders/email.js:2265
+#: lib/senders/email.js:2269
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Rutarjeta' Kre'ito' richin rutz'ib'axik ab'i' nik'is yan ruq'ijul "
 
-#: lib/senders/email.js:2316
+#: lib/senders/email.js:2320
 msgid "Payment information update required for %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2332
+#: lib/senders/email.js:2336
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr ""
 
-#: lib/senders/email.js:2378
+#: lib/senders/email.js:2382
 msgid "%(productName)s payment failed"
 msgstr "Xsach rik'in ri rutojik %(productName)s"
 
-#: lib/senders/email.js:2429 lib/senders/email.js:2494 lib/senders/email.js:2555
+#: lib/senders/email.js:2433 lib/senders/email.js:2498 lib/senders/email.js:2559
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Xqa't ri %(productName)s rutz'ib'axik ab'i'"
 
-#: lib/senders/email.js:2612
+#: lib/senders/email.js:2616
 msgid "%(productName)s subscription reactivated"
 msgstr "Xtz'ij chik %(productName)s rutz'ib'axik ab'i'"
 
-#: lib/senders/email.js:2668
+#: lib/senders/email.js:2672
 msgid "%(productName)s automatic renewal notice"
 msgstr ""
 
-#: lib/senders/email.js:2748
+#: lib/senders/email.js:2752
 msgid "%(productName)s payment received"
 msgstr "Xk'ul rutojik %(productName)s"
 
-#: lib/senders/email.js:2840
+#: lib/senders/email.js:2844
 msgid "%(productName)s payment confirmed"
 msgstr "Xjikib'äx rutojik %(productName)s"
 
-#: lib/senders/email.js:2915
+#: lib/senders/email.js:2919
 msgid "Download %(productName)s"
 msgstr "Tiqasäx %(productName)s"
 
-#: lib/senders/email.js:2941
+#: lib/senders/email.js:2945
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Achib'il Anatab'al: Achike Rub'eyal Nitz'aqatisäx Runuk'ulem Sync"
 
-#: lib/senders/email.js:2942
+#: lib/senders/email.js:2946
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Ruk'isib'äl Natab'äl: Tz'aqät Runuk'ulem Sync"
 
-#: lib/senders/email.js:2956
+#: lib/senders/email.js:2960
 msgid "Sync another device"
 msgstr "Tixim jun chik okisab'äl"
 
@@ -1129,6 +1121,26 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Tiqasäx ri ruk'isib'äl ruwäch"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Rik'in ri jun chik apaktura', xtijalatäj ri %(paymentAmountOld)s awajil pa %(productPaymentCycle)s rik'in %(paymentAmountNew)s. Chi ri' xya' jun ruyonil ruwi' apwaq chi %(paymentProrated)s "
+#~ "richin nya' retal ri ko'öl atojik richin re %(productPaymentCycle)s re'."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "Rik'in ri jun chik apaktura', xtijalatäj ri %(paymentAmountOld)s awajil pa %(productPaymentCycle)s rik'in %(paymentAmountNew)s. Chi ri' xtaya' jun ruyonil tojik chi %(paymentProrated)s richin "
+#~ "nya' retal ri nïm atojik richin re %(productPaymentCycle)s re'."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Xtzij ri jikib'anem pa ka'i'-xak"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "Xchup ri jikib'anem pa ka'i'-xak"
 
 #~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
 #~ msgstr "Xqatz'ët chi q'ab'an tzij chi rij ri samaj pan Ataqoya'l richin Firefox. Rik'in jub'a' xq'eleb'ëx ri ataqoya'l."
