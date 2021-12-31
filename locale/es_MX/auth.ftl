@@ -87,6 +87,9 @@ subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Para obtener más información, visita { $supportUrl }
+updateBilling = Intentaremos realizar el pago nuevamente durante los próximos días, pero es posible que debas ayudarnos a solucionarlo <a data-l10n-name="updateBillingUrl">actualizando tu información de pago</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Intentaremos realizar el pago nuevamente durante los próximos días, pero es posible que debas ayudarnos a solucionarlo actualizando tu información de pago:
 view-invoice = <a data-l10n-name="invoiceLink">Ver tu factura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -241,6 +244,7 @@ subscriptionDowngrade-content-auto-renew = Tu suscripción se renovará automát
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Gracias por suscribirte a { $productName }
 subscriptionFirstInvoice-content-processing = Tu pago está siendo procesado y podría tardar hasta cuatro días hábiles en completarse.
+subscriptionFirstInvoice-content-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que quieras cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Número de factura: <b>{ $invoiceNumber }</b>
