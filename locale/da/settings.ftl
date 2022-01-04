@@ -85,7 +85,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Hent { -brand-firefox } på { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Hent { -brand-firefox } på { -app-store }
 
 ##
@@ -242,6 +242,8 @@ tfa-replace-code-success =
     Nye koder er blevet oprettet. Opbevar disse engangskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
 tfa-replace-code-success-alert = Genoprettelsesnøgler til kontoen blev opdateret.
+tfa-replace-code-1-2 = Trin 1 af 2
+tfa-replace-code-2-2 = Trin 2 af 2
 
 ## Avatar change page
 
