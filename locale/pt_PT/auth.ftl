@@ -62,6 +62,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Se não a alterou, por favor, faça imediatamente a reposição da sua palavra-passe em { $resetLink }
+cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl")s>pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ajude-nos a melhorar os nossos serviços respondendo a este pequeno questionário:
 change-password-plaintext = Se suspeita que alguém está a tentar obter acesso à sua conta, por favor, altere a sua palavra-passe.
@@ -73,6 +74,10 @@ manage-account-plaintext = { manage-account }:
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Método de pagamento:
 payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = cartão { $cardType } que termina com { $lastFour }
 subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
@@ -82,6 +87,10 @@ subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Para mais informação, por favor visite { $supportUrl }
+updateBilling = Vamos tentar fazer o seu pagamento novamente nos próximos dias, mas pode ser preciso que nos ajude a corrigir o mesmo <a data-l10n-name="updateBillingUrl">atualizando os respetivos dados de pagamento</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+updateBilling-plaintext = Nós vamos tentar fazer o seu pagamento novamente nos próximos dias, mas pode ser preciso que nos ajude a corrigir o mesmo atualizando os respetivos dados de pagamento:
+view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -195,7 +204,18 @@ recovery-subject = Repor a sua palavra-passe
 recovery-title = Precisa de repor a sua palavra-passe?
 recovery-description = Clique no botão dentro da próxima hora para criar uma nova palavra passe. A solicitação veio a partir do seguinte dispositivo:
 recovery-action = Criar nova palavra-passe
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = A sua subscrição { $productName } foi cancelada
 subscriptionAccountDeletion-title = Temos pena que se vá embora
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Excluiu recentemente a sua { -product-firefox-account }. Como resultado, cancelámos a sua subscrição { $productName }. O seu pagamento final de { $invoiceTotal } foi pago a { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = A sua subscrição { $productName } foi cancelada
 subscriptionCancellation-title = Temos pena que se vá embora
 subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 # Variables:
