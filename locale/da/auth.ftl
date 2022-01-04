@@ -279,6 +279,9 @@ subscriptionPaymentFailed-title = Vi beklager, men vi har problemer med din beta
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Vi havde et problem med din seneste betaling for { $productName }.
 subscriptionPaymentFailed-content-outdated = Det kan være, at dit betalingskort er udløbet, eller at din nuværende betalingsmetode er forældet.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Du skal opdatere dine betalingsinformationer for { $productName }
 subscriptionPaymentProviderCancelled-title = Vi har desværre problemer med din betalingsmetode
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -297,6 +300,7 @@ subscriptionReactivation-content = Frekvensen af faktureringer og dine betalinge
 subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
 subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
 subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
+subscriptionsPaymentProviderCancelled-subject = Du skal opdatere dine betalingsinformationer for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Vi har desværre problemer med din betalingsmetode
 subscriptionsPaymentProviderCancelled-content-detected = Vi har registreret et problem med din betalingsmetode for følgende abonnementer.
 subscriptionsPaymentProviderCancelled-content-payment = Det kan være, at dit betalingskort er udløbet, eller at din nuværende betalingsmetode er forældet.
