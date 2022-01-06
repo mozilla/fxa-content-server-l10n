@@ -10,6 +10,11 @@ project-brand = Firefox اکاؤنٹس
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox اکاؤنٹس
 
@@ -24,6 +29,9 @@ general-error-heading = عمومی ایپلیکیشن کی خرابی
 basic-error-message = کچھ غلط ہو گیا. براہ مہربانی کچھ دیر بعد کوشش کریں.
 payment-error-retry-button = دوبارہ کوشش کریں
 payment-error-manage-subscription-button = میری رکنیت منظم کریں
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -86,9 +94,6 @@ payment-validate-name-error = براہ مہربانی اپنا نام درج ک�
 ## subscription upgrade
 
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ##
 
 sub-update-current-plan-label = موجودہ منصوبہ
@@ -127,6 +132,9 @@ reactivate-success-button = بند کریں
 sub-item-missing-msg = برہ بہربانی بعد ازاں دوبارہ کوشش کریں
 sub-item-cancel-sub = رکنیت منسوخ کریں
 
+## subscription iap item
+
+
 ## subscription route index
 
 sub-route-idx-cancel-failed = رکنیت سازی  منسوخ کرنے میں ناکام ہوگیا
@@ -148,8 +156,18 @@ plan-details-total-label = کل
 ## payment confirmation
 
 payment-confirmation-mobile-alert = ایپ نہیں کھلی؟ <a> یہاں کلک کریں </a>
-payment-confirmation-details-heading = ادائیگی کی تفصیلات
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 payment-confirmation-download-button = ڈاؤن لوڈ جاری رکھیں
+
+## new user email form
+
