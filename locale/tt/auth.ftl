@@ -65,6 +65,10 @@ card-ending-in = { $lastFour } белән тәмамланучы { $cardType } �
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Күбрәк белү өчен, { $supportUrl } сәхифәсен зиярәт итегез
 view-invoice = <a data-l10n-name="invoiceLink">Квитанциягезне карагыз</a>
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Квитанцияне карау: { $invoiceLink }
 cadReminderFirst-action = Башка җиһазны синхронлау
 cadReminderFirst-title = Бер искәртү: җиһазларыгызны синхронларга мөмкин.
 cadReminderSecond-subject = Соңгы искәртү: Синхронлауны көйләүне тәмамлагыз
@@ -107,15 +111,21 @@ passwordResetAccountRecovery-regen-required = Сезгә яңа коткару �
 passwordResetAccountRecovery-create-key = Яңа коткару ачкычын ясату:
 postAddAccountRecovery-subject = Хисапны торгызу ачкычы яратылды
 postAddAccountRecovery-title = Хисапны торгызу ачкычы яратылды
+postAddAccountRecovery-description = Түбәндәге җиһазны кулланып, { -product-firefox-account } өчен хисапны торгызу ачкычын ясату уңышлы узды:
 postAddAccountRecovery-action = Хисап белән идарә итү
 postAddAccountRecovery-recovery = Әгәр дә моны Сез эшләмәгән булсагыз, <a data-l10n-name="revokeAccountRecoveryLink">монда басыгыз.</a>
 postAddAccountRecovery-revoke = Әгәр дә моны Сез эшләмәгән булсагыз, ачкычны кире кайтарыгыз.
 postAddTwoStepAuthentication-subject = Ике адымлы аутентификация кабызылды
 postAddTwoStepAuthentication-title = Ике адымлы аутентификация кабызылды
+postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account } өчен ике адымлы аутентификацияне уңышлы гына кабыздыгыз. Моннан ары һәр керүдә аутентификация кушымтасыннан алынган кодлар кирәк булачак.
+postAddTwoStepAuthentication-description = Түбәндәге җиһаздан { -product-firefox-account } өчен ике адымлы аутентификацияне уңышлы гына кабыздыгыз:
 postAddTwoStepAuthentication-action = Хисап белән идарә итү
 postAddTwoStepAuthentication-code-required = Алга таба һәр керүегездә аутентификация кулланмагыздан алынган хәвефсезлек кодлары кирәк булачак.
 postChangePrimary-subject = Төп эл. почта адресы яңартылды
 postChangePrimary-title = Яңа төп электрон почта адресы
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Төп электрон почта адресыгызны { $email } адресына уңышлы үзгәрттегез. Бу адрес хәзер { -product-firefox-account } эченә керү өчен кулланасы исемегез булачак. Моннан тыш, хәвефсезлеккә бәйле белдерүләр һәм хисап язмагызга керү турындагы хәбәрләр дә шул адреска җибәреләчәк.
 postChangePrimary-action = Хисап белән идарә итү
 postConsumeRecoveryCode-subject = Коткару коды кулланылды
 postConsumeRecoveryCode-title = Коткару коды кулланылды
