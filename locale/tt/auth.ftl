@@ -17,6 +17,8 @@
 -product-firefox-account = Firefox хисап язмасы
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -34,6 +36,8 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Түләү турындагы мәгълүматны яңарту
 subplat-legal = Хокукый мәсьәләләр
 subplat-privacy = Хосусыйлык
+another-desktop-device = Яисә <a data-l10n-name="anotherDeviceLink">башка бер өстәл компьютерына</a> урнаштырыгыз.
+another-device = Яисә <a data-l10n-name="anotherDeviceLink">башка бер җиһазга</a> урнаштырыгыз.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Бу автоматик бер электрон хат. Әгәр { -product-firefox-account } хисабыгызга яңа җиһазны өстәмәгән булсагыз, хәзер үк { $passwordChangeLink } битендә серсүзегезне үзгәртегез
@@ -41,6 +45,7 @@ automated-email-plaintext = Бу автоматик электрон хат. А�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Серсүзегезне үзгәртмәгән булсагыз, зинһар хәзер үк { $resetLink } битендә яңа серсүз куегыз
+cancellationSurvey = Хезмәтләребезне яхшыртырга ярдәм итү өчен зинһар бу <a data-l10n-name="cancellationSurveyUrl")s>кыска сораулыкка</a> җавап бирүегезне сорыйбыз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Зинһар, хезмәтләребезне яхшыртырга ярдәм итү өчен бу кыска сораулыкны алыгыз:
 change-password-plaintext = Берәрсе хисабыгызны кулга төшерергә маташа дип шикләнсәгез, зинһар паролыгызны үзгәртегез.
@@ -49,9 +54,17 @@ change-password-plaintext = Берәрсе хисабыгызны кулга т�
 user-ip = IP адрес: { $ip }
 manage-account = Хисап белән идарә итү
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Түләү ысулы:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $lastFour } белән тәмамланучы { $cardType } картасы
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Күбрәк белү өчен, { $supportUrl } сәхифәсен зиярәт итегез
+view-invoice = <a data-l10n-name="invoiceLink">Квитанциягезне карагыз</a>
 cadReminderFirst-action = Башка җиһазны синхронлау
 cadReminderFirst-title = Бер искәртү: җиһазларыгызны синхронларга мөмкин.
 cadReminderSecond-subject = Соңгы искәртү: Синхронлауны көйләүне тәмамлагыз
