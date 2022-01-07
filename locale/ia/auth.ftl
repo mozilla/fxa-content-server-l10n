@@ -125,6 +125,9 @@ downloadSubscription-subject = Benvenite a { $productName }.
 downloadSubscription-title = Benvenite a { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Si tu non ha jam discargate { $productName }, que nos comencia per tote le functionalitates includite in tu subscription:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Discargar { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pauc codices de recuperation restante
@@ -253,8 +256,10 @@ subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu co
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
 subscriptionAccountReminderFirst-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
 subscriptionAccountReminderFirst-action = Crear contrasigno
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Memento final: configura tu conto
 subscriptionAccountReminderSecond-title = Benvenite a { -brand-firefox }!
+subscriptionAccountReminderSecond-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
 subscriptionAccountReminderSecond-action = Crear contrasigno
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -375,6 +380,7 @@ subscriptionReactivation-content = Tu amonta successive sera { $invoiceTotal } l
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Aviso de renovation automatic de { $productName }
+subscriptionRenewalReminder-title = Tu abonamento sera renovate tosto
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Car cliente de { $productName },
