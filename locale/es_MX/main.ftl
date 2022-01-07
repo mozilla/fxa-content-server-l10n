@@ -365,8 +365,12 @@ plan-details-total-label = Total
 
 ## coupons
 
+coupon-discount = Descuento
 coupon-submit = Aplicar
 coupon-remove = Eliminar
+coupon-error = El código ingresado no es válido o está vencido.
+coupon-enter-code =
+    .placeholder = Ingresar código
 
 ## payment-processing
 
