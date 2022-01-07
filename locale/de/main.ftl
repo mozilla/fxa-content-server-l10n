@@ -362,6 +362,18 @@ plan-details-header = Produktdetails
 plan-details-show-button = Details anzeigen
 plan-details-hide-button = Details ausblenden
 plan-details-total-label = Gesamt
+plan-details-list-price = Listenpreis
+
+## coupons
+
+coupon-discount = Rabatt
+coupon-discount-applied = Rabattprämie angewendet
+coupon-submit = Anwenden
+coupon-remove = Entfernen
+coupon-error = Der eingegebene Code ist ungültig oder abgelaufen.
+coupon-success = Ihr Plan verlängert sich automatisch zum Listenpreis.
+coupon-enter-code =
+    .placeholder = Code eingeben
 
 ## payment-processing
 
