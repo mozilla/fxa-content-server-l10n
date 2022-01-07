@@ -394,6 +394,14 @@ plan-details-header = Produktowe podrobnosće
 plan-details-show-button = Podrobnosće pokazać
 plan-details-hide-button = Podrobnosće schować
 plan-details-total-label = Dohromady
+plan-details-list-price = Lisćinowa płaćizna
+
+## coupons
+
+coupon-discount = Rabat
+coupon-submit = Nałožić
+coupon-remove = Wotstronić
+coupon-error = Kod, kotryž sće zapodał, je njepłaćiwy abo spadnył.
 
 ## payment-processing
 
