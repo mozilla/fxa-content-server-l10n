@@ -145,6 +145,12 @@ connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile =
     Vyhľadajte { -brand-firefox } v { -google-play } alebo { -app-store },
     <br />prípadne si nechajte <linkExternal>poslať odkaz na svoje zariadenie</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Stiahnite si { -brand-firefox } na { -google-play }
+connect-another-app-store-image-2 =
+    .title = Stiahnite si { -brand-firefox } z { -app-store }
 
 ##
 
@@ -589,6 +595,8 @@ se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí pr
 se-content-note =
     Poznámka: alternatívna e-mailová adresa neslúži na obnovenie vašich údajov,
     na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
+# Default value for the secondary email
+se-secondary-email-none = žiadna
 
 ##
 
@@ -633,5 +641,7 @@ auth-error-110 = Neplatný token
 #                           (for example: "in 15 minutes")
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-138 = Neoverená relácia
+auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
+auth-error-183 = Neplatný alebo starý overovací kód
 auth-error-1008 = Staré a nové heslo sa musia líšiť
