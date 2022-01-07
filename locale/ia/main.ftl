@@ -353,6 +353,15 @@ plan-details-show-button = Monstrar le detalios
 plan-details-hide-button = Celar le detalios
 plan-details-total-label = Total
 
+## coupons
+
+coupon-discount-applied = Disconto premio applicate
+coupon-submit = Applicar
+coupon-remove = Remover
+coupon-error = Le codice que tu ha inserite era non valide o expirate.
+coupon-enter-code =
+    .placeholder = Insere le codice
+
 ## payment-processing
 
 payment-processing-message = Attende durante que nos elabora tu pagamento...
