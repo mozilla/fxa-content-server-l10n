@@ -137,10 +137,14 @@ postNewRecoveryCodes-description = Түбәндәге җиһаз ярдәмен�
 postNewRecoveryCodes-action = Хисап белән идарә итү
 postRemoveAccountRecovery-subject = Хисапны коткару ачкычы бетерелде
 postRemoveAccountRecovery-title = Хисапны коткару ачкычы бетерелде
+postRemoveAccountRecovery-description = Түбәндәге җиһазны кулланып, { -product-firefox-account } өчен хисапны торгызу кодын уңышлы бетердегез:
 postRemoveAccountRecovery-action = Хисап белән идарә итү
 postRemoveAccountRecovery-invalid = Бу коткару коды инде хисабыгызны торгызу өчен кулланыла алмас.
 postRemoveSecondary-subject = Икенчел электрон почта бетерелде
 postRemoveSecondary-title = Икенчел электрон почта бетерелде
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-subject = Ике адымлы раслау сүндерелде
 postRemoveTwoStepAuthentication-title = Ике адымлы аутентификация сүндерелде
