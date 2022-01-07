@@ -352,13 +352,16 @@ plan-details-header = Detalios del producto
 plan-details-show-button = Monstrar le detalios
 plan-details-hide-button = Celar le detalios
 plan-details-total-label = Total
+plan-details-list-price = Lista precio
 
 ## coupons
 
+coupon-discount = Disconto
 coupon-discount-applied = Disconto premio applicate
 coupon-submit = Applicar
 coupon-remove = Remover
 coupon-error = Le codice que tu ha inserite era non valide o expirate.
+coupon-success = Tu plan automaticamente se renovara al lista precio.
 coupon-enter-code =
     .placeholder = Insere le codice
 

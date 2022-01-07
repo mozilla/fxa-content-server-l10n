@@ -71,6 +71,13 @@ change-password-plaintext = Si tu suspecta que alcuno tenta ganiar accesso a tu 
 user-ip = Adresse IP: { $ip }
 manage-account = Gerer le conto
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = { $invoiceTotal } facturate le { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Methodo de pagamento:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -111,6 +118,9 @@ downloadSubscription-subject = Benvenite a { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Benvenite a { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Discargar { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pauc codices de recuperation restante
 codes-reminder-description = Nos ha constatate que te resta pauc codices de recuperation. Considera generar nove codices pro evitar perder le accesso a tu conto.
@@ -187,6 +197,7 @@ postRemoveSecondary-title = E-mail secundari removite
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tu ha removite con successo { $secondaryEmail }, como email secundari, de tu { -product-firefox-account }. Le notificationes de securitate e le confirmationes de authentication non sera plus livrate a iste adresse.
 postRemoveSecondary-action = Gerer le conto
+postRemoveTwoStepAuthentication-subject-line = Le authentication a duo passos es inactive
 postRemoveTwoStepAuthentication-title = Authentication a duo passos disactivate
 postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le authentication a duo passos in tu { -product-firefox-account } ab le apparato sequente:
 postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
@@ -203,6 +214,9 @@ postVerify-action = Configurar apparato sequente
 postVerify-support = Questiones? Visita { $supportUrl }
 postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Tu ha verificate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses e-mail.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
@@ -217,6 +231,21 @@ subscriptionAccountDeletion-title = Nos displace que tu vade
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Tu ha delite recentemente tu conto { -product-firefox-account }. In consequentia, nos ha cancellate tu subscription a { $productName }. Tu pagamento final de { $invoiceTotal } ha essite pagate le { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Detalios del pagamento:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configura tu contrasigno.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Benvenite a { $productName }.
+subscriptionAccountFinishSetup-content-processing = Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo cancellar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Successivemente, tu creara un contrasigno de conto Firefox e discargara{ $productName }.
+subscriptionAccountFinishSetup-action = Crear un contrasigno
+subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
+subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Tu abonamento a { $productName } ha essite cancellate
@@ -295,6 +324,10 @@ subscriptionReactivation-title = Gratias pro le reactivation de tu subscription 
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
+subscriptionRenewalReminder-content-closing = Sincermente,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Le equipa de { $productName }
 subscriptionsPaymentExpired-subject = Le carta de credito pro tu subscriptiones va expirar tosto
 subscriptionsPaymentExpired-title = Tu carta de credito va expirar
 subscriptionsPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro le sequente subscriptiones es sur le puncto de expirar.
