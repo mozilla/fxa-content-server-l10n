@@ -363,6 +363,11 @@ plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
 
+## coupons
+
+coupon-submit = Aplicar
+coupon-remove = Eliminar
+
 ## payment-processing
 
 payment-processing-message = Por favor, espera mientras procesamos tu pago…
