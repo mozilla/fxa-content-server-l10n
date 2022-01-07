@@ -31,6 +31,9 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a wy sće za { $productName } zregistrowany.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account }.
 subplat-explainer-multiple = Dóstawaće tutu mejlku, dokelž { $email } ma konto { -product-firefox-account } a sće wjacore produkty abonował.
 subplat-manage-account = Wopytajće swoju <a data-l10n-name="subplat-account-page">kontowu stronu</a>, zo byšće swoje nastajenja { -product-firefox-account } rjadował.
 subplat-terms-policy = Wuměnjenja a wotwołanske prawidła
@@ -348,6 +351,12 @@ subscriptionFirstInvoiceDiscount-content-invoice-number = Čisło zličbowanki: 
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Čisło zličbowanki: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Mjezysuma: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Jónkróćny rabat: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
