@@ -453,6 +453,13 @@ subscriptionUpgrade-title = Wulki dźak za aktualizowanje!
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Sće wuspěšnje wot { $productNameOld } na { $productNameNew } aktualizował.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Započinajo z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } přez { $productPaymentCycleNew } změni. Potom dyrbiće tež jónkróćny popłatk { $paymentProrated } płaćić, zo by so wyši popłatk za zbytk { $productPaymentCycleOld } wotbłyšćował.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Jeli dyrbiće nowu softwaru instalować, zo byšće { $productNameNew }s wužiwał, dóstanjeće separatnu mejlku ze sćehnjenskimi instrukcijemi.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.

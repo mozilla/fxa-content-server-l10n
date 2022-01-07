@@ -403,6 +403,7 @@ coupon-discount-applied = Rabat je so nałožił
 coupon-submit = Nałožić
 coupon-remove = Wotstronić
 coupon-error = Kod, kotryž sće zapodał, je njepłaćiwy abo spadnył.
+coupon-success = Waš plan so awtomatisce za lisćinowu płaćiznu wobnowja.
 coupon-enter-code =
     .placeholder = Kod zapodać
 
