@@ -422,11 +422,9 @@ payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 new-user-sign-in-link = Hawwe jo al in { -brand-name-firefox }-account? <a>Oanmelde</a>
 new-user-step-1 = 1. Meitsje in { -brand-name-firefox }-account oan
-new-user-step-2 = 2. Kies jo betellingsmetoade
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Fereaske
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Fier jo e-mailadres yn
@@ -441,3 +439,7 @@ new-user-card-title = Fier jo kaartgegevens yn
 new-user-submit = No abonnearje
 manage-pocket-title = Op syk nei jo abonnemint op { -brand-name-pocket } premium?
 manage-pocket-body = <a>Klik hjir</a> om it te behearen.
+payment-method-header = Kies jo betellingsmetoade
+# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
+payment-method-header-prefix = { $prefix } Kies jo betellingsmetoade
+payment-method-required = Fereaske

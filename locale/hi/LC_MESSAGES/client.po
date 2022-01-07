@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-16 22:07+0000\n"
-"PO-Revision-Date: 2021-06-17 13:29+0000\n"
+"POT-Creation-Date: 2022-01-06 22:07+0000\n"
+"PO-Revision-Date: 2021-12-26 05:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
@@ -1083,7 +1083,7 @@ msgstr "ईमेल सत्यापित हुआ"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "अपना सेट-अप पूरा करें"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1551,7 +1551,7 @@ msgstr "आप हमसे किस बारे में संपर्क 
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "कृपया एक का चयन करें"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1733,7 +1733,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "पासवर्ड दर्ज करें"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1742,7 +1742,7 @@ msgstr "पासवर्ड की पुष्टि करें"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "पासवर्ड बनाएं"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1906,7 +1906,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
@@ -1914,7 +1914,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
