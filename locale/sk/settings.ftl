@@ -95,6 +95,7 @@ alert-bar-close-message = Zavrieť správu
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -133,6 +134,7 @@ bento-menu-firefox-title = { -brand-firefox } je technológia, ktorá bojuje za 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Prehliadač { -brand-firefox } pre počítač
 bento-menu-firefox-mobile = Prehliadač { -brand-firefox } pre mobilné zariadenia
 bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
@@ -300,6 +302,8 @@ tfa-replace-code-success =
     na bezpečnom mieste. Budete ich potrebovať na prístup do svojho
     účtu v prípade, že nebudete mať svoje mobilné zariadenie.
 tfa-replace-code-success-alert = Kódy na obnovenie účtu boli aktualizované.
+tfa-replace-code-1-2 = Krok 1 z 2
+tfa-replace-code-2-2 = Krok 2 z 2
 
 ## Avatar change page
 
@@ -421,9 +425,6 @@ add-secondary-email-enter-address =
     .label = Zadajte e-mailovú adresu
 add-secondary-email-cancel-button = Zrušiť
 add-secondary-email-save-button = Uložiť
-
-##
-
 
 ## Verify secondary email page
 
@@ -621,6 +622,7 @@ tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
 auth-error-102 = Neznámy účet
 auth-error-103 = Nesprávne heslo
+auth-error-105 = Neplatný overovací kód
 auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
