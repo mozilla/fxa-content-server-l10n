@@ -402,6 +402,8 @@ coupon-discount = Rabat
 coupon-submit = Nałožić
 coupon-remove = Wotstronić
 coupon-error = Kod, kotryž sće zapodał, je njepłaćiwy abo spadnył.
+coupon-enter-code =
+    .placeholder = Kod zapodać
 
 ## payment-processing
 
