@@ -85,8 +85,6 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = { -brand-firefox }’u { -google-play }’den indir
-connect-another-app-store-image =
-    .title = { -brand-firefox }’u { -app-store }’dan indir
 
 ##
 
@@ -229,6 +227,8 @@ nav-email-comm = E-posta iletişimi
 tfa-replace-code-error = Kurtarma kodlarınız değiştirilirken bir sorun oluştu.
 tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
 tfa-replace-code-success-alert = Hesap kurtarma kodları güncellendi.
+tfa-replace-code-1-2 = Adım 1/2
+tfa-replace-code-2-2 = Adım 2/2
 
 ## Avatar change page
 
