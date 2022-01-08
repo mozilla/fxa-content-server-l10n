@@ -362,6 +362,18 @@ plan-details-header = Termék részletei
 plan-details-show-button = Részletek megjelenítése
 plan-details-hide-button = Részletek elrejtése
 plan-details-total-label = Összesen
+plan-details-list-price = Listaár
+
+## coupons
+
+coupon-discount = Kedvezmény
+coupon-discount-applied = Kedvezményes jutalom alkalmazva
+coupon-submit = Alkalmaz
+coupon-remove = Eltávolítás
+coupon-error = A megadott kód érvénytelen vagy lejárt.
+coupon-success = A csomag automatikusan megújul a listaáron.
+coupon-enter-code =
+    .placeholder = Adja meg a kódot
 
 ## payment-processing
 
