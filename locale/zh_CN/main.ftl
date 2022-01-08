@@ -349,6 +349,10 @@ plan-details-show-button = 显示详细信息
 plan-details-hide-button = 隐藏详细信息
 plan-details-total-label = 总计
 
+## coupons
+
+coupon-remove = 移除
+
 ## payment-processing
 
 payment-processing-message = 请稍候，我们正在处理您的付款...
