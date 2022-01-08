@@ -31,6 +31,9 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu te inscribeva a { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account }.
 subplat-explainer-multiple = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu es abonate a plure productos.
 subplat-manage-account = Gere tu parametros del { -product-firefox-account } visitante tu <a data-l10n-name="subplat-account-page">pagina de conto</a>.
 subplat-terms-policy = Terminos e politica de cancellation
