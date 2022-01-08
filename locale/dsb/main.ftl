@@ -394,6 +394,18 @@ plan-details-header = Produktowe drobnostki
 plan-details-show-button = Drobnostki pokazaś
 plan-details-hide-button = Drobnostki schowaś
 plan-details-total-label = Dogromady
+plan-details-list-price = Lisćinowa płaśizna
+
+## coupons
+
+coupon-discount = Rabat
+coupon-discount-applied = Rabatowa premija jo se nałožyła
+coupon-submit = Nałožyś
+coupon-remove = Wótwónoźeś
+coupon-error = Kod, kótaryž sćo zapódał, jo njepłaśiwy abo spadnuł.
+coupon-success = Waš plan se awtomatiski za lisćinowu płaśiznu wótnowja.
+coupon-enter-code =
+    .placeholder = Kod zapódaś
 
 ## payment-processing
 

@@ -962,7 +962,7 @@ msgstr "Primarna e-mailowa adresa jo se zaktualizěrowała"
 
 #: lib/senders/email.js:1650
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Dwójokšacowa awtentifikacija jo se znjemóžniła"
 
 #: lib/senders/email.js:1744
 msgid "Recovery code used"
