@@ -240,7 +240,7 @@ recovery-description = יש ללחוץ על הכפתור בשעה הקרובה �
 recovery-action = יצירת ססמה חדשה
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountDeletion-subject = התשלום שלך עבור { $productName } בוטל
+subscriptionAccountDeletion-subject = המינוי שלך ל־{ $productName } בוטל
 subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -255,9 +255,22 @@ subscriptionAccountFinishSetup-subject = ברוכים הבאים אל { $product
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productName }
+subscriptionAccountFinishSetup-action = יצירת ססמה
+subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
+subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
+subscriptionAccountReminderFirst-content-info = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
+subscriptionAccountReminderFirst-content-select = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
+subscriptionAccountReminderFirst-action = יצירת ססמה
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = תזכורת אחרונה: הגדרת החשבון שלך
+subscriptionAccountReminderSecond-title = ברוכים הבאים אל { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
+subscriptionAccountReminderSecond-content-select = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
+subscriptionAccountReminderSecond-action = יצירת ססמה
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-subject = התשלום שלך עבור { $productName } בוטל
+subscriptionCancellation-subject = המינוי שלך ל־{ $productName } בוטל
 subscriptionCancellation-title = עצוב לנו שבחרת לעזוב
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -273,9 +286,23 @@ subscriptionDowngrade-subject = עברת אל { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = עברת בהצלחה מ־{ $productNameOld } ל־{ $productNameNew }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = החל מהחשבונית הבאה שלך, החיוב שלך ישתנה מ־{ $paymentAmountOld } ל{ $productPaymentCycleOld } ל־{ $paymentAmountNew }. באותו הזמן יבוצע זיכוי חד פעמי בסך { $paymentProrated } כדי לשקף את החיוב הנמוך ביותר עבור היתרה של ה{ $productPaymentCycleOld } הזה.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = אם ישנה תוכנה חדשה שעליך להתקין כדי להשתמש ב־{ $productNameNew }, תתקבל הודעת דוא״ל נפרדת עם הוראות להורדה.
 subscriptionDowngrade-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = המינוי שלך ל־{ $productName } בוטל
+subscriptionFailedPaymentsCancellation-title = המינוי שלך בוטל
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = ביטלנו את המינוי שלך ל־{ $productName } עקב ריבוי ניסיונות תשלום כושלים. כדי לקבל שוב גישה, יש להפעיל מינוי חדש עם אמצעי תשלום מעודכן.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = התשלום עבור { $productName } אומת
@@ -300,6 +327,23 @@ subscriptionFirstInvoice-content-charge = חיוב של { $invoiceTotal } בתא
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = התשלום עבור { $productName } אומת
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = תודה שנרשמת ל־{ $productName }
+subscriptionFirstInvoiceDiscount-content-processing = התשלום שלך מעובד כעת ועשוי לארוך עד ארבעה ימי עסקים.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = תתקבל הודעת דוא״ל נפרדת עם הוראות להורדה על כיצד להתחיל להשתמש ב־{ $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = מספר חשבונית: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = מספר חשבונית: { $invoiceNumber }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = תוקף כרטיס האשראי עבור { $productName } יפוג בקרוב
