@@ -31,8 +31,6 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har tilmeldt dig { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har abonneret på flere produkter.
 subplat-manage-account = Håndter indstillingerne for din { -product-firefox-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
 subplat-terms-policy = Betingelser og regler for annullering
@@ -87,9 +85,6 @@ subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hu
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = For mere information, besøg { $supportUrl }
-updateBilling = Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at <a data-l10n-name="updateBillingUrl">opdatere dine betalingsinformationer</a>.
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at opdatere dine betalingsinformationer:
 view-invoice = <a data-l10n-name="invoiceLink">Se din faktura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -179,7 +174,6 @@ postRemoveSecondary-title = Sekundær mailadresse fjernet
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveSecondary-action = Håndter konto
-postRemoveTwoStepAuthentication-subject = Totrinsgodkendelse er slået fra
 postRemoveTwoStepAuthentication-title = Totrinsgodkendelse deaktiveret
 postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
 postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
@@ -196,9 +190,6 @@ postVerify-action = Opsæt næste enhed
 postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = Sekundær mailadresse tilføjet
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
@@ -230,12 +221,6 @@ subscriptionDowngrade-subject = Du har skiftet til { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Du har skiftet fra { $productNameOld } til { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycle } til { $paymentAmountNew }. På det tidspunkt vil du også få godskrevet et engangsbeløb på { $paymentProrated } for at afspejle den lavere opkrævning for resten af dette { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
@@ -335,12 +320,6 @@ subscriptionUpgrade-title = Tak fordi du opgraderer!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Du har opgraderet fra { $productNameOld } til { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycle } til { $paymentAmountNew }. På det tidspunkt vil du også blive opkrævet et engangsbeløb på { $paymentProrated } for at afspejle den højere opkrævning for resten af dette { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
