@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-08 11:34+0000\n"
+"PO-Revision-Date: 2022-01-08 12:10+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -442,11 +442,11 @@ msgstr "檢視請款單: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
+msgstr "小計：%(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "單次折抵：-%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -523,7 +523,7 @@ msgstr "您目前的訂閱將在 %(reminderLength)s 天後到期，屆時 Mozill
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "您可以到<a href=\"%(updateBillingUrl)s\">此處</a>確認付款方式與帳戶資訊。"
+msgstr "您可以到<a href=\"%(updateBillingUrl)s\">此處</a>確認付款方式與帳號資訊。"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
@@ -541,7 +541,7 @@ msgstr "%(productName)s 團隊"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "您可以到下列位置確認付款方式與帳戶資訊："
+msgstr "您可以到下列位置確認付款方式與帳號資訊："
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
