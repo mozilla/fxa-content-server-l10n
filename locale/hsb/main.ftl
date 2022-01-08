@@ -399,7 +399,7 @@ plan-details-list-price = Lisćinowa płaćizna
 ## coupons
 
 coupon-discount = Rabat
-coupon-discount-applied = Rabat je so nałožił
+coupon-discount-applied = Rabatowa premija je so nałožiła
 coupon-submit = Nałožić
 coupon-remove = Wotstronić
 coupon-error = Kod, kotryž sće zapodał, je njepłaćiwy abo spadnył.
