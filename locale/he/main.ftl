@@ -334,6 +334,15 @@ plan-details-show-button = הצגת פרטים
 plan-details-hide-button = הסתרת פרטים
 plan-details-total-label = סה״כ
 
+## coupons
+
+coupon-discount = הנחה
+coupon-submit = החלה
+coupon-remove = הסרה
+coupon-error = הקוד שהזנת אינו חוקי או שפג תוקפו.
+coupon-enter-code =
+    .placeholder = נא להזין קוד
+
 ## payment-processing
 
 payment-processing-message = נא להמתין בעת עיבוד התשלום שלך...

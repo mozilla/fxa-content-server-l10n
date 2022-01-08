@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-08 16:19+0000\n"
+"PO-Revision-Date: 2022-01-08 16:29+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -448,7 +448,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "הנחה חד פעמית: -%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -525,13 +525,13 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "באפשרותך לוודא שאמצעי התשלום ופרטי החשבון שלך מעודכנים <a href=\"%(updateBillingUrl)s\">כאן</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
-msgstr ""
+msgstr "תודה שנרשמת ל־%(productName)s. אם יש לך שאלות כלשהן לגבי המינוי שלך או שיש לך צורך במידע נוסף על %(productName)s, ניתן <a href=\"%(subscriptionSupportUrl)s\">ליצור איתנו קשר</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
@@ -543,11 +543,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "באפשרותך לוודא שאמצעי התשלום ופרטי החשבון שלך מעודכנים כאן:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "תודה שנרשמת ל־%(productName)s. אם יש לך שאלות כלשהן לגבי המינוי שלך או שיש לך צורך במידע נוסף על %(productName)s, באפשרותך ליצור איתנו קשר:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -570,6 +570,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"החל מהחשבונית הבאה שלך, החיוב שלך ישתנה מ־%(paymentAmountOld)s ל%(productPaymentCycleOld)s ל־%(paymentAmountNew)s ל%(productPaymentCycleNew)s. באותו הזמן יבוצע חיוב חד פעמי בסך %(paymentProrated)s "
+"כדי לשקף את החיוב הגבוה ביותר עבור היתרה של ה%(productPaymentCycleOld)s הזה."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -946,7 +948,7 @@ msgstr "כתובת הדוא״ל הראשית עודכנה"
 
 #: lib/senders/email.js:1650
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "אימות דו־שלבי כבוי"
 
 #: lib/senders/email.js:1744
 msgid "Recovery code used"

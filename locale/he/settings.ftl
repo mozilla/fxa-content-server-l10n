@@ -230,6 +230,8 @@ nav-email-comm = תקשורת בדוא״ל
 tfa-replace-code-error = אירעה שגיאה בהחלפת הקודים שלך לשחזור.
 tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
 tfa-replace-code-success-alert = הקודים לשחזור החשבון עודכנו.
+tfa-replace-code-1-2 = שלב 1 מתוך 2
+tfa-replace-code-2-2 = שלב 2 מתוך 2
 
 ## Avatar change page
 
