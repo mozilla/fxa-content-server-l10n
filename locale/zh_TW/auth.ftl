@@ -109,6 +109,15 @@ cadReminderSecond-subject = 這是最後一次顯示提醒囉：請完成 Sync �
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title = 這是最後一次顯示提醒囉，要記得同步裝置！
 cadReminderSecond-description = 可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = 歡迎使用 { $productName }。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = 歡迎使用 { $productName }。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = 下載 { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
@@ -184,6 +193,7 @@ postRemoveSecondary-title = 已移除次要電子郵件地址
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從 { -product-firefox-account } 的次要電子郵件信箱刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
 postRemoveSecondary-action = 管理帳號
+postRemoveTwoStepAuthentication-subject-line = 兩階段驗證未開啟
 postRemoveTwoStepAuthentication-title = 已關閉兩階段驗證
 postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -product-firefox-account } 關閉兩階段驗證：
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
@@ -214,6 +224,18 @@ subscriptionAccountDeletion-title = 很遺憾看見您離開
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = 您最近刪除了 { -product-firefox-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
+# COMMENT ABOUT After the colon,
+payment-details = 付款詳細資訊：
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設定密碼。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
+subscriptionAccountFinishSetup-action = 設定密碼
+subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
+subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }：
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = 已取消您的 { $productName } 產品訂閱
