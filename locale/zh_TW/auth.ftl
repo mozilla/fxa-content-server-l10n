@@ -33,6 +33,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
 subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了多套產品。
 subplat-manage-account = 到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account } 設定。
 subplat-terms-policy = 條款及取消政策
@@ -42,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新啟用訂閱
 subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新帳務資訊
+subplat-privacy-policy = { -brand-mozilla } 隱私權保護政策
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
+subplat-cloud-terms = { -product-firefox-cloud } 服務條款
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-legal = 法律資訊
 subplat-privacy = 隱私權
 another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
@@ -65,6 +70,16 @@ change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請�
 user-ip = IP 地址：{ $ip }
 manage-account = 管理帳號
 manage-account-plaintext = { manage-account }：
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = 請款單號碼：{ $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = 付款方式：
 payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
@@ -81,9 +96,6 @@ subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 若需更多資訊，請到 { $supportUrl }
-updateBilling = 接下來幾天內我們會再次嘗試處理付款，但您也可以<a data-l10n-name="updateBillingUrl">更新付款資訊</a>，協助修正這個問題。
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = 接下來幾天內我們會再次嘗試處理付款，但您也可以更新付款資訊，協助修正這個問題：
 view-invoice = <a data-l10n-name="invoiceLink">檢視您的請款單</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -172,7 +184,6 @@ postRemoveSecondary-title = 已移除次要電子郵件地址
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從 { -product-firefox-account } 的次要電子郵件信箱刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
 postRemoveSecondary-action = 管理帳號
-postRemoveTwoStepAuthentication-subject = 已關閉兩階段驗證
 postRemoveTwoStepAuthentication-title = 已關閉兩階段驗證
 postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -product-firefox-account } 關閉兩階段驗證：
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
@@ -189,9 +200,6 @@ postVerify-action = 設定下一台裝置
 postVerify-support = 有問題嗎？請到 { $supportUrl }
 postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title = 需要重設密碼嗎？
@@ -223,12 +231,6 @@ subscriptionDowngrade-subject = 您已切換到 { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = 您已成功從 { $productNameOld } 切換到 { $productNameNew }。
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = 從下一期開始，我們就會從每 { $productPaymentCycle } 收費 { $paymentAmountOld } 調整為 { $paymentAmountNew }。屆時我們將把剩餘期間 { $productPaymentCycle } 的差額 { $paymentProrated } 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = 若需要安裝新軟體才能使用 { $productNameNew }，我們會將下載方式用另一封電子郵件發送給您。
@@ -328,12 +330,6 @@ subscriptionUpgrade-title = 感謝您升級訂購內容！
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = 您已成功從 { $productNameOld } 升級到 { $productNameNew }。
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = 從下一期開始，我們就會從每 { $productPaymentCycle } 收費 { $paymentAmountOld } 調整為 { $paymentAmountNew }。屆時我們將向您一次收取剩餘期間 { $productPaymentCycle } 的差額 { $paymentProrated }，以反應較高的收費金額。
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = 若需要安裝新軟體才能使用 { $productNameNew }，我們會將下載方式用另一封電子郵件發送給您。
