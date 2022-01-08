@@ -346,6 +346,18 @@ plan-details-header = 產品詳細資訊
 plan-details-show-button = 顯示詳細資訊
 plan-details-hide-button = 隱藏詳細資訊
 plan-details-total-label = 總計
+plan-details-list-price = 原價
+
+## coupons
+
+coupon-discount = 折扣
+coupon-discount-applied = 已套用折扣獎勵
+coupon-submit = 套用
+coupon-remove = 移除
+coupon-error = 您輸入的折扣碼無效或已過期。
+coupon-success = 您的訂閱方案將以牌告原價自動續約。
+coupon-enter-code =
+    .placeholder = 輸入折扣碼
 
 ## payment-processing
 
