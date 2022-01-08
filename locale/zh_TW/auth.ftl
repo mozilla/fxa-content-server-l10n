@@ -128,6 +128,9 @@ downloadSubscription-subject = 歡迎使用 { $productName }。
 downloadSubscription-title = 歡迎使用 { $productName }。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = 若您還沒有下載 { $productName }，快來開始使用訂閱服務當中包含的完整功能：
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = 下載 { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
@@ -221,6 +224,9 @@ postVerify-action = 設定下一台裝置
 postVerify-support = 有問題嗎？請到 { $supportUrl }
 postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title = 需要重設密碼嗎？
@@ -243,9 +249,15 @@ subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
+subscriptionAccountFinishSetup-content-processing = 正在處理您的付款，可能最多需要 4 個工作天才可完成。除非您主動取消，將在每個帳務週期結束後自動續訂。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = 接下來，您需要註冊 Firefox 帳號密碼，並下載 { $productName }。
 subscriptionAccountFinishSetup-action = 設定密碼
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
+subscriptionAccountReminderFirst-content-info = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
+subscriptionAccountReminderFirst-content-select = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderFirst-action = 設定密碼
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }：
 subscriptionAccountReminderSecond-subject = 這是最後一次提醒囉：註冊帳號
@@ -286,6 +298,9 @@ subscriptionDowngrade-content-auto-renew = 除非您主動取消訂閱，否則�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = 已取消您的 { $productName } 產品訂閱
 subscriptionFailedPaymentsCancellation-title = 您的訂閱已取消
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = 由於多次付款失敗，我們已取消您的 { $productName } 訂閱。若需再次使用訂閱內容，請使用新的付款方式重新訂閱。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = 已確認 { $productName } 付款

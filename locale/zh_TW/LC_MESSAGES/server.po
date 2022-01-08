@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-08 12:10+0000\n"
+"PO-Revision-Date: 2022-01-08 12:14+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -33,7 +33,7 @@ msgstr "可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "若您還沒有下載 %(productName)s，快來開始使用訂閱服務當中包含的完整功能:"
+msgstr "若您還沒有下載 %(productName)s，快來開始使用訂閱服務當中包含的完整功能："
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
