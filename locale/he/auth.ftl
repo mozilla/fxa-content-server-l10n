@@ -128,6 +128,15 @@ cadReminderSecond-description = סנכרון של מכשיר נוסף עם { -br
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ברוכים הבאים אל { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = ברוכים הבאים אל { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = אם עוד לא הורדת את { $productName }, בואו נתחיל להשתמש בכל התכונות הכלולות במינוי שלך:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = הורדת { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = נותרו מעט קודים לשחזור
 codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
@@ -204,6 +213,7 @@ postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = הסרת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה לא יישלחו יותר לכתובת זו.
 postRemoveSecondary-action = ניהול חשבון
+postRemoveTwoStepAuthentication-subject-line = אימות דו־שלבי כבוי
 postRemoveTwoStepAuthentication-title = אימות דו־שלבי הושבת
 postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
@@ -220,6 +230,9 @@ postVerify-action = הגדרת המכשיר הבא
 postVerify-support = יש לך שאלות? ניתן לבקר ב־{ $supportUrl }
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
 recovery-title = רצית לאפס את הססמה שלך?
@@ -234,6 +247,14 @@ subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = לאחרונה מחקת את { -product-firefox-account(case: "the") } שלך. כתוצאה מכך, ביטלנו את מינוי ה־{ $productName } שלך. התשלום הסופי שלך בסך { $invoiceTotal } שולם בתאריך { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = פרטי תשלום:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = ברוכים הבאים אל { $productName }: נא להגדיר את הססמה שלך.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productName }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = התשלום שלך עבור { $productName } בוטל
