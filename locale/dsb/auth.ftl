@@ -303,6 +303,13 @@ subscriptionDowngrade-content-charge-info = Zachopinajucy z wašeju pśiduceju z
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productNameNew } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
 subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Waš abonement { $productName } jo se wótskazał
+subscriptionFailedPaymentsCancellation-title = Waš abonement jo se wupowěźeł
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Smy wupowěźeli waš abonement { $productName }, dokulaž někotare płaśeńske wopyty njejsu se raźili. Aby znowegu pśistup měł, startujśo nowy abonement ze zaktualizěrowaneju płaśeńskeju metodu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Płaśenje { $productName } wobkšuśone
@@ -327,6 +334,36 @@ subscriptionFirstInvoice-content-charge = { $invoiceTotal })s dnja { $invoiceDat
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Płaśenje { $productName } wobkšuśone
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Wjeliki źěk, až sćo aboněrował { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Wašo płaśenje se tuchylu pśeźěłujo a móžo až do styrich wobchodnych dnjow traś.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami a wó tom, kak móžośo { $productName } wužywaś.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Numer zliceńki: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numer zliceńki: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Mjazysuma: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Jadnorazowy rabat: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal })s dnja { $invoiceDateOnly } wópisane
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kreditowa kórta za { $productName } skóro spadnjo
@@ -360,6 +397,23 @@ subscriptionReactivation-title = Wjeliki źěk, až sćo zasej zaktiwěrował sw
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Waš wótliceński cyklus a płaśenje samskej wóstanjotej. Waša pśiduce wótpisanje { $invoiceTotal } buźo dnja { $nextInvoiceDateOnly }. Waš abonement se pó kuždej wótliceńskej perioźe awtomatiski wótnowja, snaźkuli jen wupowěźejośo.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Powěźeńka wó awtomatiskem pśedlejšenju { $productName }
+subscriptionRenewalReminder-title = Waš abonement se skóro pśedlejšyjo
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Luby kupc { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Waš aktualny abonement se za { $reminderLength } dnjow awtomatiski pśedlejšyjo. Pótom { -brand-mozilla } waš abonement { $planIntervalCount } { $planInterval } pśedlejšy a wót wašogo konta buźo se wužywajucy płaśeńsku metodu suma { $invoiceTotal } wótpisowaś.
+subscriptionRenewalReminder-content-closing = Z pśijaśelnym póstrowom
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Team { $productName }
 subscriptionsPaymentExpired-subject = Kreditowa kórta za swóje abonementy skóro spadnjo
 subscriptionsPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
 subscriptionsPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, skóro spadnjo.
@@ -398,6 +452,13 @@ subscriptionUpgrade-title = Wjeliki źěk za aktualizěrowanje!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Sćo wuspěšnje aktualizěrował wót { $productNameOld } na { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Zachopinajucy z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } pśez { $productPaymentCycleNew } změnijo. Pótom teke musyśo jadnorazowe pśipisanje { $paymentProrated } płaśiś, aby se wušy płaśonk za zbytk { $productPaymentCycleOld } wótbłyšćował.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productNameNew } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
