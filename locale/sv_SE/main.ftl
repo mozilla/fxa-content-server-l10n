@@ -362,6 +362,13 @@ plan-details-header = Produktinformation
 plan-details-show-button = Visa detaljer
 plan-details-hide-button = Dölj detaljer
 plan-details-total-label = Totalt
+plan-details-list-price = Listpris
+
+## coupons
+
+coupon-discount = Rabatt
+coupon-submit = Tillämpa
+coupon-remove = Ta bort
 
 ## payment-processing
 
