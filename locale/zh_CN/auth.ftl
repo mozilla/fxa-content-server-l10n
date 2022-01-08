@@ -33,6 +33,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 subplat-explainer-specific = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
 subplat-explainer-multiple = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了多个产品。
 subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
 subplat-terms-policy = 条款及取消政策
@@ -42,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }：
 subplat-reactivate = 重新激活订阅
 subplat-reactivate-plaintext = { subplat-reactivate }：
 subplat-update-billing = 更新结算信息
+subplat-privacy-policy = { -brand-mozilla } 隐私政策
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
+subplat-cloud-terms = { -product-firefox-cloud }服务条款
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-legal = 法律
 subplat-privacy = 隐私
 another-desktop-device = 或到<a data-l10n-name="anotherDeviceLink">另一桌面设备</a>安装。
@@ -65,6 +70,12 @@ change-password-plaintext = 如果您怀疑有人在试图访问您的账户，�
 user-ip = IP 地址：{ $ip }
 manage-account = 管理账号
 manage-account-plaintext = { manage-account }：
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = 发票号码：{ $invoiceNumber }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = 付款方式：
 payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
@@ -75,15 +86,15 @@ card-ending-in = 尾号为 { $lastFour } 的 { $cardType } 卡
 subscriptionSupport = 遇到订阅相关的问题？我们的<a data-l10n-name="subscriptionSupportUrl">用户支持团队</a>在此为您答疑。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = 感谢您订阅 { $productName }。如果您对您的订阅有任何疑问，或需要了解有关 { $productName } 的更多信息，请<a data-l10n-name="subscriptionSupportUrl">联系我们</a>。
 subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-name="updateBillingUrl">更新付款信息</a>。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 更多信息请访问 { $supportUrl }
-updateBilling = 我们将在几天内重试您的付款操作，但您也有可能需要通过<a data-l10n-name="updateBillingUrl">更新您的付款信息</a>来帮助我们解决该问题。
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = 我们将在几天内重试您的付款操作，但您可能需要通过更新您的付款信息来帮助我们解决该问题：
 view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -172,7 +183,6 @@ postRemoveSecondary-title = 已移除备用邮箱
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
 postRemoveSecondary-action = 管理账号
-postRemoveTwoStepAuthentication-subject = 已关闭两步验证
 postRemoveTwoStepAuthentication-title = 已禁用两步验证
 postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 { -product-firefox-account }的两步验证：
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
@@ -189,9 +199,6 @@ postVerify-action = 设置下一台设备
 postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 备用邮箱已绑定
 postVerifySecondary-title = 备用邮箱已绑定
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = 您已成功验证 { $secondaryEmail } 作为您的 { -product-firefox-account }的备用邮箱地址。安全通知和登录确认从现在起将同时发送到两个邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
@@ -223,12 +230,6 @@ subscriptionDowngrade-subject = 您已切换至 { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = 您已成功从 { $productNameOld } 切换至 { $productNameNew }。
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = 从下一期账单开始，我们就会从每 { $productPaymentCycle } 收费 { $paymentAmountOld } 美元调整为 { $paymentAmountNew } 美元。届时我们会将剩余期间 { $productPaymentCycle } 的差额 { $paymentProrated } 以余额的形式一次性返还到您的账户，以反映较低的收费金额。
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = 若需要安装新软件才能使用 { $productNameNew }，我们会将下载方式用另一封电子邮件发送予您。
@@ -328,12 +329,6 @@ subscriptionUpgrade-title = 感谢您的升级订阅！
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = 您已成功从 { $productNameOld } 升级至 { $productNameNew }。
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = 从下一期账单开始，我们就会从每 { $productPaymentCycle } 收费 { $paymentAmountOld } 美元调整为 { $paymentAmountNew } 美元。届时我们将向您一次性收取剩余期间 { $productPaymentCycle } 的差额 { $paymentProrated }，以反映较高的收费金额。
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = 若需要安装新软件才能使用 { $productNameNew }，我们会将下载方式用另一封电子邮件发送予您。
