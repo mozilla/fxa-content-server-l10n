@@ -30,12 +30,12 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Ви отримуєте це повідомлення, тому що { $email } пов'язано з { -product-firefox-account } і ви передплатили { $productName }.
+subplat-explainer-specific = Ви отримуєте це повідомлення, тому що { $email } пов'язано з { -product-firefox-account(case: "abl") } і ви передплатили { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ви отримали це повідомлення, тому що { $email } пов'язана з { -product-firefox-account(case: "abl") }.
-subplat-explainer-multiple = Ви отримуєте цей лист, оскільки { $email } пов'язано з { -product-firefox-account } і ви передплатили кілька продуктів.
-subplat-manage-account = Керуйте налаштуваннями { -product-firefox-account }, зі своєї <a data-l10n-name="subplat-account-page">сторінки облікового запису</a>.
+subplat-explainer-multiple = Ви отримуєте цей лист, оскільки { $email } пов'язано з { -product-firefox-account(case: "abl") } і ви передплатили декілька продуктів.
+subplat-manage-account = Керуйте налаштуваннями { -product-firefox-account(case: "gen") }, зі своєї <a data-l10n-name="subplat-account-page">сторінки облікового запису</a>.
 subplat-terms-policy = Умови та політика відмови від послуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Скасувати передплату
@@ -56,7 +56,7 @@ automated-email-change =
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Це автоматично надісланий лист; якщо ви не додавали новий пристрій до свого { -product-firefox-account }, вам потрібно негайно змінити свій пароль на { $passwordChangeLink }
+automated-email-change-plaintext = Це автоматично надісланий лист; якщо ви не додавали новий пристрій до свого { -product-firefox-account(case: "gen") }, вам потрібно негайно змінити свій пароль на { $passwordChangeLink }
 automated-email =
     Це автоматично надісланий лист; якщо ви отримали його помилково, нічого робити не потрібно.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
@@ -159,14 +159,14 @@ newDeviceLogin-title = Новий вхід у { $clientName }
 newDeviceLogin-action = Керування обліковим записом
 passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
-passwordChanged-description = Пароль вашого { -product-firefox-account } був успішно змінений з цього пристрою:
+passwordChanged-description = Пароль вашого { -product-firefox-account(case: "gen") } був успішно змінений з цього пристрою:
 passwordChangeRequired-subject = Виявлено підозрілу активність
 passwordChangeRequired-title = Необхідно змінити пароль
-passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account }. Для запобігання несанкціонованому доступу до вашого { -product-firefox-account }, ми відʼєднали всі пристрої повʼязані з вашим обліковим записом та вимагаємо змінити ваш пароль як запобіжний захід.
-passwordChangeRequired-sign-in = Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій обліковий запис { -product-firefox-account } і виконайте запропоновані вказівки.
+passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account(case: "dat") }. Для запобігання несанкціонованому доступу до вашого { -product-firefox-account(case: "gen") }, ми відʼєднали всі пов'язані з ним пристрої та вимагаємо змінити ваш пароль як запобіжний захід.
+passwordChangeRequired-sign-in = Увійдіть знову на будь-якому пристрої або до служби, де ви користуєтеся своїм { -product-firefox-account(case: "abl") } і виконайте запропоновані вказівки.
 passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordChangeRequired-signoff = Всього найкращого,
-passwordChangeRequired-signoff-name = Команда { -product-firefox-accounts }
+passwordChangeRequired-signoff-name = Команда { -product-firefox-accounts(case: "gen") }
 passwordChangeRequired-different-password-plaintext = Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
@@ -180,14 +180,14 @@ passwordResetAccountRecovery-regen-required = Вам необхідно буде
 passwordResetAccountRecovery-create-key = Створити новий ключ відновлення:
 postAddAccountRecovery-subject = Ключ відновлення облікового запису згенеровано
 postAddAccountRecovery-title = Ключ відновлення облікового запису згенеровано
-postAddAccountRecovery-description = Ви успішно згенерували ключ відновлення свого { -product-firefox-account } за допомогою цього пристрою:
+postAddAccountRecovery-description = Ви успішно згенерували ключ відновлення свого { -product-firefox-account(case: "gen") } за допомогою цього пристрою:
 postAddAccountRecovery-action = Керування обліковим записом
 postAddAccountRecovery-recovery = Якщо це були не ви, <a data-l10n-name="revokeAccountRecoveryLink">натисніть тут.</a>
 postAddAccountRecovery-revoke = Якщо це були не ви, відхиліть ключ.
 postAddTwoStepAuthentication-subject = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title = Двоетапну перевірку увімкнено
-postAddTwoStepAuthentication-description-plaintext = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account }. Відтепер за кожного входу необхідно вводити коди безпеки з вашого застосунку автентифікації.
-postAddTwoStepAuthentication-description = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account } з такого пристрою:
+postAddTwoStepAuthentication-description-plaintext = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account(case: "dat") }. Відтепер за кожного входу необхідно вводити коди безпеки з вашого застосунку автентифікації.
+postAddTwoStepAuthentication-description = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account(case: "dat") } з такого пристрою:
 postAddTwoStepAuthentication-action = Керування обліковим записом
 postAddTwoStepAuthentication-code-required = Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації.
 postChangePrimary-subject = Основну адресу електронної пошти оновлено
@@ -206,19 +206,19 @@ postNewRecoveryCodes-description = Ви успішно згенерували н
 postNewRecoveryCodes-action = Керування обліковим записом
 postRemoveAccountRecovery-subject = Ключ відновлення облікового запису вилучено
 postRemoveAccountRecovery-title = Ключ відновлення облікового запису вилучено
-postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account } за допомогою цього пристрою:
+postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account(case: "gen") } за допомогою цього пристрою:
 postRemoveAccountRecovery-action = Керування обліковим записом
 postRemoveAccountRecovery-invalid = Цей ключ більше не можна використати для відновлення вашого облікового запису.
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account }. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу.
+postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account(case: "gen") }. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу.
 postRemoveSecondary-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-subject-line = Двоетапну перевірку вимкнено
 postRemoveTwoStepAuthentication-title = Двоетапну перевірку вимкнено
-postRemoveTwoStepAuthentication-description = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account } з такого пристрою:
-postRemoveTwoStepAuthentication-description-plaintext = Ви успішно вимкнули двоетапну перевірку { -product-firefox-account }. Відтепер більше не потрібно вводити коди безпеки за кожного входу.
+postRemoveTwoStepAuthentication-description = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account(case: "dat") } з такого пристрою:
+postRemoveTwoStepAuthentication-description-plaintext = Ви успішно вимкнули двоетапну перевірку { -product-firefox-account(case: "gen") }. Відтепер більше не потрібно вводити коди безпеки за кожного входу.
 postRemoveTwoStepAuthentication-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-not-required = Тепер коди безпеки більше не будуть вимагатися при кожному вході.
 postVerify-sub-title = { -product-firefox-account } підтверджено. Майже все готово.
@@ -479,7 +479,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Підтвердьте електронну пошту
 verificationReminderSecond-subject = Остаточне нагадування: Активуйте свій обліковий запис
 verificationReminderSecond-title = Досі тут?
-verificationReminderSecond-description = Майже тиждень тому ви створили обліковий запис { -product-firefox-account }, але не підтвердили його. Ми хвилюємося за вас.
+verificationReminderSecond-description = Майже тиждень тому ви створили { -product-firefox-account }, але не підтвердили його. Ми хвилюємося за вас.
 verificationReminderSecond-sub-description = Підтвердьте цю адресу електронної пошти, щоб активувати обліковий запис і дати нам знати, що все гаразд.
 verificationReminderSecond-action = Підтвердьте електронну пошту
 verify-title = Активуйте сімейство продуктів { -brand-firefox }
@@ -511,7 +511,7 @@ verifySecondary-subject = Підтвердьте альтернативну ад
 verifySecondary-title = Підтвердьте альтернативну е-пошту
 # Variables:
 #  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Запит на використання { $email } альтернативною електронною поштою, було зроблено з такого { -product-firefox-account }:
+verifySecondary-explainer = Запит на використання { $email } альтернативною електронною поштою було зроблено з такого { -product-firefox-account }:
 verifySecondary-action = Підтвердьте е-пошту
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Одразу після підтвердження, на цю адресу почнуть приходити сповіщення безпеки і входу.
@@ -519,7 +519,7 @@ verifySecondaryCode-subject = Підтвердьте альтернативну 
 verifySecondaryCode-title = Підтвердьте альтернативну е-пошту
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Запит на використання { $email } альтернативною електронною поштою, було зроблено з такого { -product-firefox-account }:
+verifySecondaryCode-explainer = Запит на використання { $email } альтернативною електронною поштою було зроблено з такого { -product-firefox-account(case: "gen") }:
 verifySecondaryCode-prompt = Використати цей код підтвердження:
 verifySecondaryCode-expiry-notice = Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів.
 # Variables:

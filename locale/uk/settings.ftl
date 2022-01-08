@@ -218,14 +218,14 @@ datablock-print =
 
 dc-heading = Збір та використання даних
 dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts }
-dc-subheader-content = Дозволити { -product-firefox-accounts } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
-dc-opt-out-success = Скасування пройшло успішно. { -product-firefox-accounts } не надсилатиме технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-opt-out-success = Відмова пройшла успішно. { -product-firefox-accounts } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts }.
 dc-learn-more = Докладніше
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account }
+drop-down-menu-title = Меню { -product-firefox-account(case: "gen") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
