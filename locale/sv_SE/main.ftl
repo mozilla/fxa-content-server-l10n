@@ -367,8 +367,13 @@ plan-details-list-price = Listpris
 ## coupons
 
 coupon-discount = Rabatt
+coupon-discount-applied = Rabattbonus tillämpas
 coupon-submit = Tillämpa
 coupon-remove = Ta bort
+coupon-error = Koden du angav är ogiltig eller har upphört.
+coupon-success = Din plan förnyas automatiskt till listpriset.
+coupon-enter-code =
+    .placeholder = Ange kod
 
 ## payment-processing
 
