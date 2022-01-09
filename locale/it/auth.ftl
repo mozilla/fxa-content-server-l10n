@@ -399,6 +399,10 @@ subscriptionRenewalReminder-title = Il tuo abbonamento verrà rinnovato a breve
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Gentile cliente di { $productName },
+subscriptionRenewalReminder-content-closing = Cordiali saluti,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = il team di { $productName }
 subscriptionsPaymentExpired-subject = La carta di credito collegata ai tuoi abbonamenti sta per scadere
 subscriptionsPaymentExpired-title = La carta di credito in uso sta per scadere
 subscriptionsPaymentExpired-content = La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta per scadere.
