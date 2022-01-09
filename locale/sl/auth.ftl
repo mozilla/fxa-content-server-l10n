@@ -66,6 +66,10 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Obnovi naročnino
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Posodobi podatke za račun
+subplat-privacy-policy = Mozillina politika zasebnosti
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Pravne informacije
 subplat-privacy = Zasebnost
 another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
@@ -89,6 +93,16 @@ change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do v
 user-ip = Naslov IP: { $ip }
 manage-account = Upravljanje računa
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Številka računa: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Zaračunano: { $invoiceTotal } dne { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Način plačila:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -111,6 +125,15 @@ cadReminderSecond-subject = Zadnji opomnik: dokončajte nastavitev sinhronizacij
 cadReminderSecond-action = Sinhroniziraj drugo napravo
 cadReminderSecond-title = Zadnji opomnik za sinhronizacijo naprav!
 cadReminderSecond-description = Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Dobrodošli v { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Dobrodošli v { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Prenesite { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
 codes-reminder-description = Opazili smo, da vam zmanjkuje kod za obnovitev. Ustvarite nove kode, da preprečite izgubo dostopa do svojega računa.
@@ -189,7 +212,7 @@ postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveSecondary-action = Upravljanje računa
-postRemoveTwoStepAuthentication-subject = Preverjanje v dveh korakih je izključeno
+postRemoveTwoStepAuthentication-subject-line = Overitev v dveh korakih je izklopljena
 postRemoveTwoStepAuthentication-title = Overitev v dveh korakih je onemogočena
 postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account } z naslednje naprave:
 postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
@@ -204,9 +227,6 @@ postVerify-action = Nastavite naslednjo napravo
 postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
