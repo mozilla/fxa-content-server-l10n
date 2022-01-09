@@ -252,13 +252,19 @@ subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavi
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Nato boste ustvarili geslo za Firefox Račun in prenesli { $productName }.
 subscriptionAccountFinishSetup-action = Ustvarite geslo
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
+subscriptionAccountReminderFirst-content-select = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderFirst-action = Ustvari geslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Zadnji opomnik: Nastavite svoj račun
 subscriptionAccountReminderSecond-title = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
+subscriptionAccountReminderSecond-content-info = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
+subscriptionAccountReminderSecond-content-select = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderSecond-action = Ustvari geslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -327,14 +333,51 @@ subscriptionFirstInvoiceDiscount-content-charge = Zaračunano { $invoiceTotal } 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Plačilo za { $productName } neuspešno
 subscriptionPaymentFailed-title = Žal imamo težave z vašim plačilom
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Pri zadnjem plačilu za { $productName } je prišlo do težave.
+subscriptionPaymentFailed-content-outdated = Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način plačila zastaral.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za { $productName }
+subscriptionPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Zaznali smo težavo z vašim načinom plačila za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način plačila zastaral.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Naročnina na { $productName } je ponovno aktivirana
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Hvala, ker ste ponovno aktivirali svojo naročnino na { $productName }!
+subscriptionRenewalReminder-title = Vaša naročnina bo kmalu obnovljena
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Spoštovani uporabnik { $productName },
+subscriptionRenewalReminder-content-closing = Lep pozdrav,
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
+subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
+subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
+subscriptionsPaymentProviderCancelled-content-payment = Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način plačila zastaral.
+subscriptionSubsequentInvoice-title = Hvala, ker ste naš naročnik!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Prejeli smo vaše zadnje plačilo za { $productName }.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Številka računa: { $invoiceNumber }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
@@ -349,6 +392,9 @@ subscriptionUpgrade-upgrade-info = Uspešno ste nadgradili z { $productNameOld }
 unblockCode-subject = Overitvena koda računa
 unblockCode-title = Se prijavljate vi?
 unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Če je tako, je to overitvena koda, ki jo potrebujete: { $unblockCode }
 unblockCode-report = Če to niste vi, nam pomagajte odgnati vsiljivce in <a data-l10n-name="reportSignInLink">nam prijavite poskus zlorabe</a>.
 unblockCode-report-plaintext = Če to niste vi, nam pomagajte odgnati vsiljivce in nam prijavite poskus zlorabe.
 verificationReminderFirst-subject = Opomnik: Dokončajte ustvarjanje računa
