@@ -99,6 +99,8 @@
     }
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 
 ## Email content
 
@@ -116,6 +118,8 @@ subplat-update-billing = Aktualizovať informácie o spôsobe platby
 subplat-legal = Právne informácie
 subplat-privacy = Súkromie
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
 # Variables:
 #  $ip (Number) - User's IP address
@@ -131,14 +135,9 @@ codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo ob
 codes-generate = Vygenerovať kódy
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Vygenerovať kódy
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
-
-##
-
 newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
@@ -181,7 +180,6 @@ postRemoveAccountRecovery-invalid = Tento obnovovací kľúč už nie je možné
 postRemoveSecondary-subject = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-action = Spravovať účet
-postRemoveTwoStepAuthentication-subject = Dvojstupňové overenie je vypnuté
 postRemoveTwoStepAuthentication-title = Dvojstupňové overenie bolo zakázané
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
@@ -193,6 +191,9 @@ recovery-subject = Obnoviť heslo
 recovery-title = Potrebujete obnoviť svoje heslo?
 recovery-description = Pre vytvorenie nového hesla kliknite v priebehu hodiny na tlačidlo nižšie. Požiadavka prišla z nasledujúceho zariadenia:
 recovery-action = Vytvoriť nové heslo
+subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
+subscriptionCancellation-title = Mrzí nás, že odchádzate
+subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Platnosť kreditnej karty pre { $productName } čoskoro vyprší
@@ -202,6 +203,7 @@ subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyp
 subscriptionReactivation-subject = Predplatné pre { $productName } bolo znova aktivované
 subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše odbery čoskoro vyprší
 subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 unblockCode-subject = Autorizačný kód účtu
 unblockCode-title = Spoznávate toto prihlásenie?
 unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
@@ -253,9 +255,3 @@ verifyShortCode-subject = Overovací kód: { $code }
 verifyShortCode-title = Prihlasujete sa naozaj vy?
 verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
-cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
-subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
-subscriptionCancellation-title = Mrzí nás, že odchádzate
-subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
-subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
-
