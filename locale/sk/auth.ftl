@@ -187,7 +187,12 @@ passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
 passwordChangeRequired-subject = Bola zistená podozrivá aktivita
 passwordChangeRequired-title = Vyžaduje sa zmena hesla
+passwordChangeRequired-suspicious-activity = Vo vašom { -product-firefox-account(case: "loc", capitalization: "lower") } sme zistili podozrivé správanie. Aby sme zabránili neoprávnenému prístupu k vášmu { -product-firefox-account(case: "dat", capitalization: "lower") }, odpojili sme všetky zariadenia vo vašom účte a vyžadujeme, aby ste si preventívne zmenili heslo.
+passwordChangeRequired-sign-in = Prihláste sa späť do akéhokoľvek zariadenia alebo služby, kde používate svoj { -product-firefox-account(case: "acc", capitalization: "lower") }, a postupujte podľa krokov, ktoré sa vám zobrazia.
+passwordChangeRequired-different-password = <b>Dôležité:</b> Zvoľte si iné heslo, než aké ste používali predtým, a uistite sa, že sa líši od vášho e-mailového účtu.
 passwordChangeRequired-signoff = S pozdravom,
+passwordChangeRequired-signoff-name = Tím { -product-firefox-accounts(case: "gen") }
+passwordChangeRequired-different-password-plaintext = Dôležité: Zvoľte si iné heslo, než aké ste používali predtým, a uistite sa, že sa líši od vášho e-mailového účtu.
 passwordReset-subject = Heslo bolo aktualizované
 passwordReset-title = Heslo k vášmu účtu bolo zmenené
 passwordReset-description = Aby bolo možné pokračovať v synchronizácii na ostatných zariadeniach, musíte na nich zadať nové heslo.
@@ -200,7 +205,9 @@ passwordResetAccountRecovery-regen-required = Musíte si vytvoriť nový obnovov
 passwordResetAccountRecovery-create-key = Vytvoriť nový obnovovací kľúč:
 postAddAccountRecovery-subject = Obnovovací kľúč k účtu bol vygenerovaný
 postAddAccountRecovery-title = Obnovovací kľúč k účtu bol vygenerovaný
+postAddAccountRecovery-description = Úspešne ste vygenerovali obnovovací kľúč pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") } z nasledujúceho zariadenia:
 postAddAccountRecovery-action = Spravovať účet
+postAddAccountRecovery-recovery = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">kliknite sem</a>.
 postAddAccountRecovery-revoke = Ak ste to neboli vy, zrušte platnosť kľúča.
 postAddTwoStepAuthentication-subject = Dvojstupňové overenie bolo povolené
 postAddTwoStepAuthentication-title = Dvojstupňové overenie bolo povolené
@@ -240,7 +247,11 @@ postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali 
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postVerify-sub-title = { -product-firefox-account } je overený. Už ste skoro tam.
+postVerify-title = Ako ďalší krok synchronizácia medzi vašimi zariadeniami!
+postVerify-description = Súkromná synchronizácia uchováva vaše záložky, heslá a ďalšie údaje { -brand-firefox(case: "gen") } rovnaké na všetkých vašich zariadeniach.
 postVerify-subject = Účet overený. Nastavenie dokončite synchronizáciou iného zariadenia
+postVerify-setup = Nastavte ďalšie zariadenie
+postVerify-action = Nastaviť ďalšie zariadenie
 # Variables:
 #  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Máte otázky? Navštívte { $supportUrl }
@@ -258,6 +269,8 @@ recovery-action = Vytvoriť nové heslo
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Vaše predplatné { $productName } bolo zrušené
 subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
+# COMMENT ABOUT After the colon,
+payment-details = Platobné údaje:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Víta vás { $productName }
@@ -305,6 +318,14 @@ subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyp
 subscriptionReactivation-subject = Predplatné pre { $productName } bolo znova aktivované
 subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše odbery čoskoro vyprší
 subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+subscriptionsPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Platba za { $productName } bola prijatá
+subscriptionSubsequentInvoice-title = Ďakujeme, že využívate naše predplatné!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Dostali sme vašu poslednú platbu za { $productName }.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = Číslo faktúry: <b>{ $invoiceNumber }</b>
@@ -350,6 +371,9 @@ verify-description-plaintext = Potvrďte svoj účet a vyťažte maximum z { -br
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action = Potvrdiť e-mailovú adresu
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nové prihlásenie k { $clientName }
 verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte toto prihlásenie z nasledujúceho zariadenia:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -364,14 +388,22 @@ verifyLoginCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
 verifyPrimary-title = Overiť hlavnú e-mailovú adresu
 verifyPrimary-description = Požiadavka na zmenu v účte prišla z nasledovného zariadenia:
 verifyPrimary-subject = Potvrdenie hlavnej e-mailovej adresy
+verifyPrimary-action = Overiť e-mailovú adresu
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy.
 verifySecondary-subject = Potvrdenie alternatívnej e-mailovej adresy
 verifySecondary-title = Overiť alternatívnu e-mailovú adresu
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
+verifySecondary-action = Overiť e-mailovú adresu
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
 verifySecondaryCode-subject = Potvrdenie alternatívnej e-mailovej adresy
 verifySecondaryCode-title = Overiť alternatívnu e-mailovú adresu
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt = Použite tento overovací kód:
 verifySecondaryCode-expiry-notice = Jeho platnosť vyprší po 5 minútach. Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
 # Variables:
