@@ -182,9 +182,13 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Nové prihlásenie k { $clientName }
 newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
+passwordChanged-description = Heslo vášho { -product-firefox-account(case: "gen", capitalization: "lower") } bolo úspešne zmenené z nasledovného zariadenia:
 passwordChangeRequired-subject = Bola zistená podozrivá aktivita
 passwordChangeRequired-title = Vyžaduje sa zmena hesla
 passwordChangeRequired-suspicious-activity = Vo vašom { -product-firefox-account(case: "loc", capitalization: "lower") } sme zistili podozrivé správanie. Aby sme zabránili neoprávnenému prístupu k vášmu { -product-firefox-account(case: "dat", capitalization: "lower") }, odpojili sme všetky zariadenia vo vašom účte a vyžadujeme, aby ste si preventívne zmenili heslo.
