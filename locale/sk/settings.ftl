@@ -250,7 +250,7 @@ flow-container-back = Naspäť
 
 # GetDataTrio component, part of Recovery Key flow
 
-get-data-trio-title = Kódy na obnovu účtu
+get-data-trio-title = Obnovovacie kódy
 get-data-trio-download =
     .title = Stiahnuť
 get-data-trio-copy =
@@ -467,8 +467,8 @@ tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
-tfa-cannot-verify-code = Pri overovaní vášho kódu na obnovenie účtu sa vyskytol problém.
-tfa-incorrect-recovery-code = Nesprávny kód na obnovenie
+tfa-cannot-verify-code = Pri overovaní vášho obnovovacieho kódu sa vyskytol problém.
+tfa-incorrect-recovery-code = Nesprávny obnovovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
@@ -489,11 +489,11 @@ tfa-save-these-codes =
     Tieto jednorazové kódy si uložte na bezpečné miesto,
     na ktoré sa dostanete aj bez svojho mobilného zariadenia.
 tfa-enter-code-to-confirm =
-    Potvrďte uloženie kódov na obnovenie účtu zadaním
+    Potvrďte uloženie obnovovacích kódov zadaním
     jedného z nich. Ak stratíte zariadenie, budete kódy potrebovať
     na získanie prístupu do svojho účtu.
 tfa-enter-recovery-code =
-    .label = Zadajte kód na obnovenie účtu
+    .label = Zadajte obnovovací kód
 
 ##
 
@@ -620,9 +620,9 @@ tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain =
     Túto akciu nebudete môcť vrátiť späť. Máte tiež
-    možnosť <linkExternal>nahradiť svoje kódy obnovenia účtu</linkExternal>.
+    možnosť <linkExternal>nahradiť svoje obnovovacie kódy</linkExternal>.
 tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
-tfa-row-change-modal-heading = Zmeniť kódy obnovenia účtu?
+tfa-row-change-modal-heading = Zmeniť obnovovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
