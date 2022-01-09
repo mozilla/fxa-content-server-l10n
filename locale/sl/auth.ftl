@@ -227,6 +227,9 @@ postVerify-action = Nastavite naslednjo napravo
 postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
@@ -241,6 +244,23 @@ subscriptionAccountDeletion-title = Žal nam je, ker odhajate
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Pred kratkim ste izbrisali svoj { -product-firefox-account }. Zaradi tega smo preklicali vašo naročnino za { $productName }. Vaše zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Podatki o plačilu:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavite si geslo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
+subscriptionAccountFinishSetup-action = Ustvarite geslo
+subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
+subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
+subscriptionAccountReminderFirst-action = Ustvari geslo
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Zadnji opomnik: Nastavite svoj račun
+subscriptionAccountReminderSecond-title = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
+subscriptionAccountReminderSecond-action = Ustvari geslo
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Vaša naročnina za { $productName } je preklicana
@@ -258,6 +278,19 @@ subscriptionDowngrade-subject = Preklopili ste na { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Uspešno ste preklopili z { $productNameOld } na { $productNameNew }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Vaša naročnina za { $productName } je preklicana
+subscriptionFailedPaymentsCancellation-title = Vaša naročnina je bila preklicana
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Preklicali smo vam naročnino na { $productName } zaradi več neuspelih poskusov plačila. Če si želite povrniti dostop, začnite novo naročnino s posodobljenim načinom plačila.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Plačilo za { $productName } potrjeno
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Hvala, ker ste se naročili na { $productName }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
@@ -271,6 +304,28 @@ subscriptionFirstInvoice-content-charge = Zaračunano { $invoiceTotal } dne { $i
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Plačilo za { $productName } potrjeno
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Hvala, ker ste se naročili na { $productName }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Številka računa: { $invoiceNumber }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Enkratni popust: −{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 subscriptionPaymentFailed-title = Žal imamo težave z vašim plačilom
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
