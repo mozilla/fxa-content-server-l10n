@@ -358,6 +358,9 @@ plan-details-total-label = Total
 ## coupons
 
 coupon-submit = Appliquer
+coupon-remove = Supprimer
+coupon-enter-code =
+    .placeholder = Saisissez le code
 
 ## payment-processing
 
