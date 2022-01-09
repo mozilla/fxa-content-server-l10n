@@ -221,6 +221,9 @@ plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
 plan-details-total-label = Celkom
 
+## coupons
+
+
 ## payment-processing
 
 payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
@@ -280,9 +283,11 @@ payment-confirmation-download-button = Pokračovať na stiahnutie
 ## new user email form
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste sa</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
 new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Zadajte vašu e-mailovú adresu
+    .label = Zadajte e-mailovú adresu
 new-user-confirm-email =
     .label = Potvrďte vašu e-mailovú adresu
 new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -brand-name-firefox }e

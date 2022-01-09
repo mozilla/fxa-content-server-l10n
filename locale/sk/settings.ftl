@@ -350,7 +350,7 @@ pw-change-header =
     .title = Zmena hesla
 pw-change-stay-safe = Zostaňte v bezpečí - nepoužívajte rovnaké heslá. Vaše heslo:
 pw-change-least-8-chars = musí obsahovať aspoň 8 znakov
-pw-change-not-contain-email = nesmie byť totožné s vašou e-mailovou adresou
+pw-change-not-contain-email = Nesmie to byť vaša e-mailová adresa
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-change-common-passwords = nenachádza sa v <linkExternal>zozname bežných hesiel</linkExternal>

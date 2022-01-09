@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-09 15:52+0000\n"
+"PO-Revision-Date: 2022-01-09 16:09+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -199,7 +199,7 @@ msgstr "Obnovovací kľúč"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-mail bol opätovne odoslaný. Pridajte si do svojich kontaktov accounts@firefox.com. Zabezpečíte tak bezproblémové doručenie."
+msgstr "E-mailová správa bola opätovne odoslaná. Pridajte si do svojich kontaktov adresu accounts@firefox.com. Zabezpečíte tým bezproblémové doručenie."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -841,7 +841,7 @@ msgstr "Neplatný token"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Pokračovaním vyjadrujete súhlas s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami využívania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami ochrany osobných údajov</a> "
+"Pokračovaním vyjadrujete súhlas s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami používania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami ochrany osobných údajov</a> "
 "služby %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
@@ -985,7 +985,7 @@ msgstr "Overenie hesla"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr "Zapamätať heslo? Prihlásiť"
+msgstr "Pamätáte si svoje heslo? Prihláste sa"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1039,7 +1039,7 @@ msgstr "E-mailová správa na obnovu hesla bola odoslaná"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Pre vytvorenie nového hesla, najneskôr do jednej hodiny kliknite na odkaz, ktorý sme vám poslali e-mailom na adresu %(email)s."
+msgstr "Kliknutím na odkaz odoslaný e-mailom na adresu %(email)s v priebehu nasledujúcej hodiny vytvorte nové heslo."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1131,7 +1131,7 @@ msgstr "Heslo"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pokračovaním vyjadrujete súhlas s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami využívania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobných údajov</a>."
+msgstr "Pokračovaním vyjadrujete súhlas s <a id=\"fxa-tos\" href=\"/legal/terms\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobných údajov</a>."
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Keďže tieto informácie sú pre vašu bezpečnosť dôležité, Firefox ich kvôli vašej ochrane vymaže, keď dôjde k obnoveniu vášho hesla, aby k nim ostatní ľudia nemali prístup."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -1911,7 +1911,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "Ukladajte si a objavujte najlepšie články z celého webu."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
@@ -1919,11 +1919,11 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Registrujte si nové účty bez toho, aby ste museli prezradiť svoju e-mailovú adresu."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "Zobraziť všetky"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -1931,7 +1931,7 @@ msgstr "Zostaňte v bezpečí a nepoužívajte tie isté heslá."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr "Nesmie byť vaša e-mailová adresa"
+msgstr "Nesmie to byť vaša e-mailová adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
