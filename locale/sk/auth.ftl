@@ -109,14 +109,22 @@ fxa-service-url = Podmienky poskytovania služby { -product-firefox-cloud }
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 subplat-privacy-plaintext = Zásady ochrany súkromia:
 subplat-update-billing-plaintext = { subplat-update-billing }:
-subplat-terms-policy = Podmienky zrušenia
+subplat-terms-policy = Podmienky používania a zrušenia
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušiť predplatné
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Opätovne aktivovať predplatné
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualizovať informácie o spôsobe platby
+subplat-privacy-policy = Zásady ochrany súkromia { -brand-mozilla(case: "gen") }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Podmienky poskytovania služby { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Právne informácie
 subplat-privacy = Súkromie
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
@@ -126,15 +134,51 @@ change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neopráv
 user-ip = IP adresa: { $ip }
 manage-account = Spravovať účet
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Číslo faktúry: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Účtované: { $invoiceTotal } dňa { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Spôsob platby:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Karta { $cardType } končiaca číslicami { $lastFour }
+subscriptionSupport = Máte otázky týkajúce sa vášho predplatného? Náš <a data-l10n-name="subscriptionSupportUrl">tím podpory</a> je tu, aby vám pomohol.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Máte otázky týkajúce sa vášho predplatného? Náš tím podpory je tu, aby vám pomohol:
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Zobraziť faktúru: { $invoiceLink }
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title = Posledná pripomienka na synchronizáciu zariadení!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Víta vás { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Víta vás { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
 codes-generate = Vygenerovať kódy
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Vygenerovať kódy
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 zostávajúci obnovovací kód
+        [few] { $numberRemaining } zostávajúce obnovovacie kódy
+       *[other] { $numberRemaining } zostávajúcich obnovovacích kódov
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
