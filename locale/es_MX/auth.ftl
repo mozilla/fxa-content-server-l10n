@@ -276,6 +276,12 @@ subscriptionFirstInvoice-content-charge = Se cobró { $invoiceTotal } el { $invo
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Pago confirmado para { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Gracias por suscribirte a { $productName }
+# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Número de factura: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -323,6 +329,7 @@ subscriptionReactivation-title = ¡Gracias por reactivar tu suscripción a { $pr
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de { $invoiceTotal } el { $nextInvoiceDateOnly }. Tu suscripción se renovará automáticamente en cada período de facturación a menos que decidas cancelarla.
+subscriptionRenewalReminder-title = Tu suscripción será renovada pronto
 subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
