@@ -68,6 +68,12 @@ product-plan-not-found = Načrta ni mogoče najti
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitvi { -brand-name-stripe } in { -brand-name-paypal }.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politika zasebnosti za { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-paypal }.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Politika zasebnosti za { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-stripe }.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Politika zasebnosti za { -brand-name-stripe }</stripePrivacyLink>
 
 ## payment form
 
@@ -110,6 +116,7 @@ sub-update-card-exp = Poteče { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-change-submit = Potrdite spremembo
 sub-update-current-plan-label = Trenutni načrt
 sub-update-new-plan-label = Nov načrt
 
@@ -242,13 +249,19 @@ plan-details-total-label = Skupaj
 
 ## coupons
 
+coupon-remove = Odstrani
+coupon-error = Koda, ki ste jo vnesli, je neveljavna ali pretečena.
+coupon-enter-code =
+    .placeholder = Vnesite kodo
 
 ## payment-processing
 
+payment-processing-message = Počakajte, da obdelamo vaše plačilo …
 
 ## payment confirmation
 
 payment-confirmation-alert = Kliknite tukaj za prenos
+payment-confirmation-thanks-heading = Hvala!
 
 ## payment confirmation details
 ## $email (string) - The user's email.
@@ -263,7 +276,49 @@ payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } na dan
+        [two] { $amount } vsaka { $intervalCount } dneva
+        [few] { $amount } vsake { $intervalCount } dni
+       *[other] { $amount } vsakih { $intervalCount } dni
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } na teden
+        [two] { $amount } vsaka { $intervalCount } tedna
+        [few] { $amount } vsake { $intervalCount } tedne
+       *[other] { $amount } vsakih { $intervalCount } tednov
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } na mesec
+        [two] { $amount } vsaka { $intervalCount } meseca
+        [few] { $amount } vsake { $intervalCount } mesece
+       *[other] { $amount } vsakih { $intervalCount } mesecev
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } na leto
+        [two] { $amount } vsaki { $intervalCount } leti
+        [few] { $amount } vsaka { $intervalCount } leta
+       *[other] { $amount } vsakih { $intervalCount } let
+    }
 payment-confirmation-download-button = Nadaljuj prenos
 
 ## new user email form
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Vnesite e-poštni naslov
+new-user-confirm-email =
+    .label = Potrdite e-poštni naslov
+new-user-email-validate = E-poštni naslov ni veljaven
+new-user-email-validate-confirm = E-poštna naslova se ne ujemata
+payment-method-required = Zahtevano

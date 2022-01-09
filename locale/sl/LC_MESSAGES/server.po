@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-09 10:17+0000\n"
+"PO-Revision-Date: 2022-01-09 10:29+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -351,7 +351,7 @@ msgstr "Dostop do vaše naročnine še ni možen"
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "Pred nekaj dnevi ste ustvarili Firefox Račun, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
@@ -519,7 +519,7 @@ msgstr "Vaša naročnina bo kmalu obnovljena"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
-msgstr ""
+msgstr "Spoštovani uporabnik %(productName)s,"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
 msgid ""
@@ -950,7 +950,7 @@ msgstr "Glavni e-poštni naslov posodobljen"
 
 #: lib/senders/email.js:1650
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Overitev v dveh korakih je izklopljena"
 
 #: lib/senders/email.js:1744
 msgid "Recovery code used"
@@ -998,7 +998,7 @@ msgstr ""
 
 #: lib/senders/email.js:2323
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Potrebna je posodobitev podatkov o plačilu za %(productName)s"
 
 #: lib/senders/email.js:2339
 msgid "Payment information update required for Mozilla subscriptions"
@@ -1006,7 +1006,7 @@ msgstr ""
 
 #: lib/senders/email.js:2385
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Plačilo za %(productName)s neuspešno"
 
 #: lib/senders/email.js:2436 lib/senders/email.js:2501 lib/senders/email.js:2562
 msgid "Your %(productName)s subscription has been cancelled"
@@ -1022,11 +1022,11 @@ msgstr ""
 
 #: lib/senders/email.js:2755
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Plačilo za %(productName)s prejeto"
 
 #: lib/senders/email.js:2847 lib/senders/email.js:2930
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Plačilo za %(productName)s potrjeno"
 
 #: lib/senders/email.js:3015
 msgid "Download %(productName)s"
