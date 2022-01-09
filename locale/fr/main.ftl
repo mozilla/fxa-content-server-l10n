@@ -355,6 +355,10 @@ plan-details-show-button = Afficher les détails
 plan-details-hide-button = Masquer les détails
 plan-details-total-label = Total
 
+## coupons
+
+coupon-submit = Appliquer
+
 ## payment-processing
 
 payment-processing-message = Veuillez patienter pendant le traitement de votre paiement…
