@@ -362,6 +362,18 @@ plan-details-header = Productdetails
 plan-details-show-button = Details tonen
 plan-details-hide-button = Details verbergen
 plan-details-total-label = Totaal
+plan-details-list-price = Normale prijs
+
+## coupons
+
+coupon-discount = Korting
+coupon-discount-applied = Kortingsbeloning toegepast
+coupon-submit = Toepassen
+coupon-remove = Verwijderen
+coupon-error = De ingevoerde kortingscode is ongeldig of verlopen.
+coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
+coupon-enter-code =
+    .placeholder = Code invoeren
 
 ## payment-processing
 
