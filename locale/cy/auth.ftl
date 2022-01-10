@@ -33,6 +33,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi cofrestru ar gyfer { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }x
 subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
 subplat-manage-account = Rheolwch osodiadau eich { -product-firefox-account } trwy ymweld â <a data-l10n-name="subplat-account-page">thudalen eich cyfrif </a>.
 subplat-terms-policy = Polisi telerau a chanslo
@@ -42,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ailgychwyn y tanysgrifiad
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Diweddaru’r manylion bilio
+subplat-privacy-policy = Polisi Preifatrwydd { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Amodau Gwasanaethau { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Cyfreithiol
 subplat-privacy = Preifatrwydd
 another-desktop-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
@@ -71,6 +76,13 @@ change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad 
 user-ip = Cyfeiriad IP: %(ip)s
 manage-account = Rheoli cyfrif
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Rhif Anfoneb: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Codwyd: { $invoiceTotal } ar { $invoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Dull Talu:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -87,9 +99,6 @@ subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanae
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Am ragor o wybodaeth, ewch i { $supportUrl }
-updateBilling = Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a data-l10n-name="updateBillingUrl">ddiweddaru eich manylion talu</a>.
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy ddiweddaru eich manylion talu.
 view-invoice = <a data-l10n-name="invoiceLink">Gweld eich anfoneb</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -183,7 +192,6 @@ postRemoveSecondary-title = Tynnwyd yr ail e-bost
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn.
 postRemoveSecondary-action = Rheoli cyfrif
-postRemoveTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei ddiffodd
 postRemoveTwoStepAuthentication-title = Mae dilysu dau gam wedi ei analluogi
 postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol:
 postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
@@ -200,9 +208,6 @@ postVerify-action = Gosod y ddyfais nesaf
 postVerify-support = Unrhyw gwestiynau? Ewch i { $supportUrl }
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad hyn.
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
 recovery-title = Angen ailosod eich cyfrinair?
@@ -234,12 +239,6 @@ subscriptionDowngrade-subject = Rydych wedi newid i { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Rydych wedi symud o { $productNameOld } i { $productNameNew } yn llwyddiannus.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycle } i { $paymentAmountNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
@@ -339,12 +338,6 @@ subscriptionUpgrade-title = Diolch am uwchraddio!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Rydych wedi symud o { $productNameOld } i { $productNameNew } yn llwyddiannus.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycle } i { $paymentAmountNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
