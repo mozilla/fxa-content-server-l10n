@@ -125,7 +125,9 @@ passwordResetAccountRecovery-regen-required = Igl è necessari da generar ina no
 passwordResetAccountRecovery-create-key = Crear ina nova clav da recuperaziun:
 postAddAccountRecovery-subject = La clav da recuperaziun dal conto è vegnida generada
 postAddAccountRecovery-title = La clav da recuperaziun dal conto è vegnida generada
+postAddAccountRecovery-description = Ti has generà cun success ina clav da recuperaziun per tes { -product-firefox-account } cun agid dal suandant apparat:
 postAddAccountRecovery-action = Administrar il conto
+postAddAccountRecovery-recovery = Sche ti n'has betg effectuà questa operaziun, <a data-l10n-name="revokeAccountRecoveryLink">clicca qua</a>.
 postAddAccountRecovery-revoke = Sche ti n’has betg effectuà questa operaziun, revochescha la clav.
 postAddTwoStepAuthentication-subject = Autentificaziun en dus pass activada
 postAddTwoStepAuthentication-title = Autentificaziun en dus pass activada
