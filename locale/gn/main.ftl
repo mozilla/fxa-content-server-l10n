@@ -363,6 +363,10 @@ plan-details-show-button = Mba’emimi jehechauka
 plan-details-hide-button = Mba’emimi mokañy
 plan-details-total-label = Opavavete
 
+## coupons
+
+coupon-remove = Mboguete
+
 ## payment-processing
 
 payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’ẽ...
