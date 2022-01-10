@@ -282,6 +282,9 @@ subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijehegui
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
 subscriptionFailedPaymentsCancellation-title = Ne ñemboheraguapy ojejokóma
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Romboykéma ne ñemboheraguapy { $productName } pegua ndoikói rupi heta jey jehepyme’ẽse rire. Eikekuaa jey hag̃ua, eñemboheraguapy pyahu jehepyme’ẽ hekopyahúva ndive.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } tepyme’ẽ moneĩmbyre
@@ -306,6 +309,17 @@ subscriptionFirstInvoice-content-charge = Hepyme’ẽmbyre { $invoiceTotal } { 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = { $productName } tepyme’ẽ moneĩmbyre
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Aguyje eñemboheraguapýre { $productName }-pe
+subscriptionFirstInvoiceDiscount-content-processing = Rehepyme’ẽva oku’éma ko’ag̃aite ha ikatu imbeguemi ohupytykuaáva irundy ára oĩmbávo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Og̃uahẽta ndéve ñanduti veve omyesakãtava mba’éichapa emboguejy ha eipurúta { $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Nde kuatia’atã ñemurã { $productName } ndokovéitama
