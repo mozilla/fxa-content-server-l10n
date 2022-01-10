@@ -43,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Emyandyjey mboheraguapy
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Embohekopyahu marandu kuatiañemugua
+subplat-privacy-policy = { -brand-mozilla } Ñemigua Purureko
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } Mba’epururã rehegua
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Añete
 subplat-privacy = Ñemigua
 another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
@@ -72,6 +76,16 @@ change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambu
 user-ip = IP kundaharape: { $ip }
 manage-account = Mba’ete ñangareko
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Ñemuhague papapy: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Hepyme’ẽmbyre: { $invoiceTotal } { $invoiceDateOnly } rehegua
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Mba’éicha ehepyme’ẽta:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
