@@ -254,6 +254,7 @@ subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminde
 subscriptionAccountReminderSecond-subject = Mandu’arã paha: Emboheko ne mba’ete
 subscriptionAccountReminderSecond-title = Tereg̃uahẽporãite { -brand-firefox }-pe
 subscriptionAccountReminderSecond-content-info = Nda’areiete emoheñói { -product-firefox-account } hákatu araka’eve nderehechajeýi. Roha’ãrõ embohekóvo ne mba’ete eipurukuaa hag̃ua ne ñemboheraguapy pyahúpe.
+subscriptionAccountReminderSecond-content-select = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha ehechajey ne mba’ete.
 subscriptionAccountReminderSecond-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -277,6 +278,10 @@ subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } 
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
 subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
+subscriptionFailedPaymentsCancellation-title = Ne ñemboheraguapy ojejokóma
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } tepyme’ẽ moneĩmbyre
