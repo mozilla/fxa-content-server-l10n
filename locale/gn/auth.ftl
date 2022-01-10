@@ -291,6 +291,13 @@ subscriptionDowngrade-subject = Eñemoambuéma { $productNameNew }-pe
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe. Upe jave, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycleOld } guive.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
 subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eipuruva’ekue neremoneĩriramo ndete voi.
@@ -395,6 +402,12 @@ subscriptionRenewalReminder-title = Ne ñemboheraguapy ipyahúta sapy’aitépe
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Ñemuhára { $productName } pegua,
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Ne ñemboheraguapy ag̃aguáva oñembohekóma hekopyahu hag̃ua ijeheguite { $reminderLength } ára vove. Upe jave, { -brand-mozilla } ombopyahúta ne ñemboheraguapy { $planIntervalCount } { $planInterval } pegua ha ehepyme’ẽta { $invoiceTotal }-pe ejapótava ne mba’ete ndive.
 subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -437,6 +450,13 @@ subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld } rupive { $paymentAmountNew }-pe. Upe jave, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycleOld } guive.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
