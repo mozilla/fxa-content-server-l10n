@@ -10,6 +10,14 @@ project-brand = Contos da Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Contos da Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Administrar mes abunament
 country-currency-mismatch = La valuta da quest abunament n'è betg valida per il pajais associà cun tes pajament.
 currency-currency-mismatch = Perstgisa, ti na pos betg midar tranter valutas.
 no-subscription-change = Perstgisa. Ti na pos betg midar tes plan d'abunaments.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ti has gia in abunament via l'{ $mobileAppStore }.
 expired-card-error = I para che tia carta da credit saja scadida. Emprova cun in'autra carta.
 insufficient-funds-error = I para ch'il credit da tia carta na saja betg suffizient. Emprova cun in'autra carta.
 withdrawal-count-limit-exceeded-error = I para che questa transacziun surpassia la limita da credit da tia carta. Emprova cun in'autra carta.
@@ -63,6 +73,7 @@ subscription-success-title = Conferma da l'abunament.
 subscription-processing-title = Confermar l'abunament…
 subscription-error-title = Errur cun confermar l'abunament…
 subscription-noplanchange-title = La midada da quest plan d'abunaments na vegn betg sustegnida
+subscription-iapsubscribed-title = Gia abunà
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxima facturaziun ils { $date }
+sub-expires-on = Scada ils { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Annullar mes access e stizzar mias infurmaziuns memorisadas en
     { $name } ils { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Cumpra in-app
+sub-iap-item-apple-purchase = { -brand-name-apple }: Cumpra in-app
+sub-iap-item-manage-button = Administrar
 account-activated = Tes conto è activà, <userEl/>
 
 ## subscription route index
@@ -344,6 +362,9 @@ plan-details-header = Detagls dal product
 plan-details-show-button = Mussar ils detagls
 plan-details-hide-button = Zuppentar ils detagls
 plan-details-total-label = Total
+
+## coupons
+
 
 ## payment-processing
 
@@ -404,11 +425,9 @@ payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
 
 new-user-sign-in-link = Has gia in conto da { -brand-name-firefox }? <a>T'annunzia</a>
 new-user-step-1 = 1. Crear in conto da { -brand-name-firefox }
-new-user-step-2 = 2. Tscherner tia metoda da pajament
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Obligatoric
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Endatescha tia adressa d'e-mail
@@ -421,3 +440,5 @@ new-user-email-validate-confirm = Las adressas na correspundan betg
 new-user-already-has-account-sign-in = Ti has gia in conto. <a>T'annunzia</a>
 new-user-card-title = Endatescha las infurmaziuns da tia carta
 new-user-submit = Abunar ussa
+manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
+manage-pocket-body = Per l'administrar, <a>clicca qua</a>.

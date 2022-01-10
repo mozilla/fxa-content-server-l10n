@@ -152,6 +152,15 @@ datablock-copy =
 datablock-print =
     .message = Stampà
 
+## Data collection section
+
+dc-heading = Rimnada ed utilisaziun da datas
+dc-subheader = Gida da meglierar { -product-firefox-accounts }
+dc-subheader-content = Permetter a { -product-firefox-accounts } da trametter datas tecnicas e datas d'interacziun a { -brand-mozilla }.
+dc-opt-out-success = Deactivà cun success. { -product-firefox-accounts } na trametta naginas datas tecnicas u datas d'interacziun a { -brand-mozilla }.
+dc-opt-in-success = Grazia! La cundivisiun da questas datas ans gidan da meglierar { -product-firefox-accounts }.
+dc-learn-more = Ulteriuras infurmaziuns
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menu dal { -product-firefox-account(capitalization: "lowercase") }
@@ -214,6 +223,7 @@ nav-settings = Parameters
 nav-profile = Profil
 nav-security = Segirezza
 nav-connected-services = Servetschs connectads
+nav-data-collection = Rimnada ed utilisaziun da datas
 nav-paid-subs = Abunaments che custan
 nav-email-comm = Communicaziun via e-mail
 
@@ -351,9 +361,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Interrumper
 add-secondary-email-save-button = Memorisar
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Pass 2 da 2
@@ -442,6 +449,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segirezza
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Deactivar
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Activar
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Trametter…
+switch-is-on = activà
+switch-is-off = deactivà
 
 ## Sub-section row Defaults
 
