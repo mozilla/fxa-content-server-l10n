@@ -96,6 +96,9 @@ card-ending-in = Kuatia’atã { $cardType } opáva { $lastFour }-pe
 subscriptionSupport = ¿Porandu ne mboheraguapy rehegua? Ore <a data-l10n-name="subscriptionSupportUrl">aty pytyvõha</a> oĩ ápe nepytyvõ hag̃ua.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Porandu ne ñemboheraguapýre? Ore aty pytyvõha oĩ ápe nepytyvõ hag̃ua:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Aguyje eñemboheraguapýre { $productName } ndive. Eporanduséramo ne ñemboheraguapýre térã eikotevẽve marandu { $productName } rehegua, ikatúpa <a href="%(subscriptionSupportUrl)s">eñe’ẽmi orendive</a>.
 subscriptionUpdatePayment = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko <a data-l10n-name="updateBillingUrl">embohekopyahumi ne marandu tepyme’ẽguáva</a> pya’e porã.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
