@@ -362,9 +362,13 @@ plan-details-header = Apopyre mba’emimi
 plan-details-show-button = Mba’emimi jehechauka
 plan-details-hide-button = Mba’emimi mokañy
 plan-details-total-label = Opavavete
+plan-details-list-price = Tysýi repy
 
 ## coupons
 
+coupon-discount = Tepymboguejy
+coupon-discount-applied = Jopói tepymboguejy rehegua
+coupon-submit = Jejapopy
 coupon-remove = Mboguete
 
 ## payment-processing
