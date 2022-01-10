@@ -368,6 +368,9 @@ coupon-discount-applied = Recompensa de descuento aplicada
 coupon-submit = Aplicar
 coupon-remove = Eliminar
 coupon-error = El código ingresado es inválido o ha expirado.
+coupon-success = Tu plan se renovará automáticamente al precio de lista.
+coupon-enter-code =
+    .placeholder = Ingresar código
 
 ## payment-processing
 
