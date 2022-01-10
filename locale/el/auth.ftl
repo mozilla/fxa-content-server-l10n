@@ -74,7 +74,9 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Επανενεργοποίηση συνδρομής
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
+subplat-privacy-policy = Πολιτική απορρήτου { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Νομικά
 subplat-privacy = Απόρρητο
 another-desktop-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">έναν άλλο υπολογιστή</a>.
@@ -124,6 +126,9 @@ cadReminderSecond-subject = Τελική υπενθύμιση: Ολοκλήρω�
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title = Τελευταία υπενθύμιση για συγχρονισμό συσκευών!
 cadReminderSecond-description = Ο συγχρονισμός μιας άλλης συσκευής με το { -brand-firefox } προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων του { -brand-firefox } όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Λήψη του { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
 codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε δημιουργήστε νέους κωδικούς για να μην κλειδωθείτε έξω από τον λογαριασμό σας.
@@ -225,6 +230,10 @@ recovery-action = Δημιουργία νέου κωδικού πρόσβαση�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Η συνδρομή σας στο { $productName } έχει ακυρωθεί
 subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
+# COMMENT ABOUT After the colon,
+payment-details = Στοιχεία πληρωμής:
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Λυπούμαστε που φεύγετε
 subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
@@ -236,6 +245,9 @@ subscriptionFirstInvoice-content-invoice-number = Αριθμός τιμολογ�
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Υποσύνολο: { $invoiceSubtotal }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα

@@ -363,6 +363,12 @@ plan-details-show-button = Εμφάνιση λεπτομερειών
 plan-details-hide-button = Απόκρυψη λεπτομερειών
 plan-details-total-label = Σύνολο
 
+## coupons
+
+coupon-discount = Έκπτωση
+coupon-submit = Εφαρμογή
+coupon-remove = Αφαίρεση
+
 ## payment-processing
 
 payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
