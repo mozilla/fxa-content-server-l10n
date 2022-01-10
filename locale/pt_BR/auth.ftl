@@ -104,6 +104,9 @@ subscriptionSupportContact-plaintext = Obrigado por assinar o { $productName }. 
 subscriptionUpdateBillingEnsure = Você pode verificar <a data-l10n-name="updateBillingUrl">aqui</a> se a forma de pagamento e as informações da conta estão atualizadas.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Você pode verificar aqui se a forma de pagamento e as informações da conta estão atualizadas:
+subscriptionUpdateBillingTry = Tentaremos efetuar seu pagamento novamente nos próximos dias, mas pode ser que você precise nos ajudar a corrigir isso <a data-l10n-name="updateBillingUrl">atualizando suas informações de pagamento</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Tentaremos efetuar seu pagamento novamente nos próximos dias, mas pode ser que você precise nos ajudar a corrigir isso atualizando suas informações de pagamento:
 subscriptionUpdatePayment = Para evitar qualquer interrupção em seu serviço, <a data-l10n-name="updateBillingUrl">atualize suas informações de pagamento</a> assim que possível.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:
@@ -129,6 +132,9 @@ downloadSubscription-subject = Boas-vindas ao { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Boas-vindas ao { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Se você ainda não baixou o { $productName }, vamos apresentar como usar todos os recursos incluídos em sua assinatura:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Baixar o { $productName }
@@ -225,6 +231,9 @@ postVerify-action = Configurar próximo dispositivo
 postVerify-support = Tem dúvidas? Visite { $supportUrl }
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Você validou com sucesso { $secondaryEmail } como email secundário da sua { -product-firefox-account }. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email.
 postVerifySecondary-action = Gerenciar conta
 recovery-subject = Redefina a sua senha
 recovery-title = Precisa redefinir a sua senha?
@@ -247,13 +256,21 @@ subscriptionAccountFinishSetup-subject = Boas-vindas ao { $productName }: Defina
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Boas-vindas ao { $productName }
+subscriptionAccountFinishSetup-content-processing = O pagamento está sendo processado e pode levar até quatro dias úteis para ser concluído. Sua assinatura é renovada automaticamente a cada período de faturamento, a menos que você opte por cancelar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Em seguida, você irá criar uma senha de Conta Firefox e baixar o { $productName }.
 subscriptionAccountFinishSetup-action = Crie uma senha
 subscriptionAccountReminderFirst-subject = Lembrete: Conclua a configuração da sua conta
 subscriptionAccountReminderFirst-title = Você ainda não pode acessar sua assinatura
+subscriptionAccountReminderFirst-content-info = Alguns dias atrás, você criou uma { -product-firefox-account }, mas nunca a validou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
+subscriptionAccountReminderFirst-content-select = Selecione “Criar senha” para definir uma nova senha e concluir a validação de sua conta.
 subscriptionAccountReminderFirst-action = Criar senha
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lembrete final: Configure sua conta
 subscriptionAccountReminderSecond-title = Boas-vindas ao { -brand-firefox }
+subscriptionAccountReminderSecond-content-info = Alguns dias atrás, você criou uma { -product-firefox-account }, mas nunca a validou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
+subscriptionAccountReminderSecond-content-select = Selecione “Criar senha” para definir uma nova senha e concluir a validação de sua conta.
 subscriptionAccountReminderSecond-action = Criar senha
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -273,6 +290,13 @@ subscriptionDowngrade-subject = Você mudou para o { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Você mudou com sucesso de { $productNameOld } para { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = A partir da próxima fatura, sua cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }. Nesse momento, você também receberá um crédito único de { $paymentProrated } para refletir a cobrança menor pelo restante desse { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Se for necessário instalar outro software para usar o { $productNameNew }, você receberá um email separado com instruções de como baixar.
