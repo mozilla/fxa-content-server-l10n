@@ -359,6 +359,15 @@ plan-details-header = Detalles del producto
 plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
+plan-details-list-price = Precio de lista
+
+## coupons
+
+coupon-discount = Descuento
+coupon-discount-applied = Recompensa de descuento aplicada
+coupon-submit = Aplicar
+coupon-remove = Eliminar
+coupon-error = El código ingresado es inválido o ha expirado.
 
 ## payment-processing
 
