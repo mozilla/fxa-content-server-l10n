@@ -131,10 +131,15 @@ postAddAccountRecovery-recovery = Sche ti n'has betg effectuà questa operaziun,
 postAddAccountRecovery-revoke = Sche ti n’has betg effectuà questa operaziun, revochescha la clav.
 postAddTwoStepAuthentication-subject = Autentificaziun en dus pass activada
 postAddTwoStepAuthentication-title = Autentificaziun en dus pass activada
+postAddTwoStepAuthentication-description-plaintext = Ti has activà cun success l'autentificaziun en dus pass per tes { -product-firefox-account }. A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d'autentificaziun.
+postAddTwoStepAuthentication-description = Ti has activà cun success l'autentificaziun en dus pass per tes { -product-firefox-account } cun agid da suandant apparat:
 postAddTwoStepAuthentication-action = Administrar il conto
 postAddTwoStepAuthentication-code-required = A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d’autentificaziun.
 postChangePrimary-subject = Adressa dad e-mail principala actualisada
 postChangePrimary-title = Nova adressa dad e-mail principala
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes { -product-firefox-account }. En pli serva ella per retschaiver communicaziuns da segirezza e confermas d'annunzia.
 postChangePrimary-action = Administrar il conto
 postConsumeRecoveryCode-subject = Code da recuperaziun utilisà
 postConsumeRecoveryCode-title = Code da recuperaziun utilisà
@@ -146,19 +151,29 @@ postNewRecoveryCodes-description = Ti has generà cun success novs codes da recu
 postNewRecoveryCodes-action = Administrar il conto
 postRemoveAccountRecovery-subject = Stizzà la clav da recuperaziun
 postRemoveAccountRecovery-title = Stizzà la clav da recuperaziun
+postRemoveAccountRecovery-description = Ti has stizzà cun success ina clav da recuperaziun per tes { -product-firefox-account } cun agid da suandant apparat:
 postRemoveAccountRecovery-action = Administrar il conto
 postRemoveAccountRecovery-invalid = I n’è betg pli pussaivel dad utilisar questa clav da recuperaziun per recuperar tes conto.
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail alternativa da tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
 postRemoveSecondary-action = Administrar il conto
 postRemoveTwoStepAuthentication-title = Autentificaziun en dus pass deactivada
+postRemoveTwoStepAuthentication-description = Ti has deactivà cun success l'autentificaziun en dus pass per tes { -product-firefox-account } cun agid da suandant apparat:
+postRemoveTwoStepAuthentication-description-plaintext = Ti has deactivà cun success l'autentificaziun en dus pass per tes { -product-firefox-account }. A partir dad ussa n'è betg pli necessari in code da segirezza per mintga annunzia.
 postRemoveTwoStepAuthentication-action = Administrar il conto
 postRemoveTwoStepAuthentication-not-required = A partir dad ussa n’è betg pli necessari in code da segirezza per mintga annunzia.
+postVerify-sub-title = Verifitgà il { -product-firefox-account }. Ti has quasi finì.
 postVerify-title = Ed ussa sincronisescha tes apparats!
 postVerify-description = La sincronisaziun segira garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da { -brand-firefox } sin tut tes apparats.
 postVerify-subject = Verifitgà il conto. Sincronisescha ussa in auter apparat per cumplettar la configuraziun
 postVerify-setup = Configurar il proxim apparat
 postVerify-action = Configurar il proxim apparat
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Has dumondas? Visita { $supportUrl }
 postVerifySecondary-subject = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-title = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-action = Administrar il conto
@@ -166,27 +181,83 @@ recovery-subject = Redefinir tes pled-clav
 recovery-title = Stos ti reinizialisar tes pled-clav?
 recovery-description = Clicca entaifer la proxima ura sin il buttun per crear in nov pled-clav. La dumonda è vegnida da suandant apparat:
 recovery-action = Crear in nov pled-clav
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Tes abunament da { $productName } è vegnì annullà
 subscriptionAccountDeletion-title = Donn che ti vas
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Ti has dacurt stizzà tes { -product-firefox-account }. En consequenza avain nus annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è vegnì pajà ils { $invoiceDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Tes abunament da { $productName } è vegnì annullà
 subscriptionCancellation-title = Donn che ti vas
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Nus avain annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è vegnì pajà ils { $invoiceDateOnly }. Tes servetsch vegn a cuntinuar enfin la fin da la perioda da facturaziun actuala ils { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Ti has midà a { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Tia midada da { $productNameOld } a { $productNameNew } è succedida correctamain.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Sch'igl è necessari dad installar nova software per pudair utilisar { $productNameNew }, retschaivas ti in e-mail separà cun instrucziuns per la telechargiar.
 subscriptionDowngrade-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = La carta da credit per { $productName } scada prest
 subscriptionPaymentExpired-title = Tia carta da credit scada prest
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = La carta da credit che ti utiliseschas per far pajaments per { $productName } scada prest.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Reactivà l'abunament da { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Grazia per reactivar tes abunament da { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Tes ciclus da facturaziun e pajament vegn a restar medem. La proxima debitaziun munta a { $invoiceTotal } e succeda ils { $nextInvoiceDateOnly }. Tes abunament vegn renovà automaticamain mintga perioda da facturaziun nun che ti decidas dad annullar l'abunament.
 subscriptionsPaymentExpired-subject = La carta da credit per tes abunaments scada prest
 subscriptionsPaymentExpired-title = Tia carta da credit scada prest
 subscriptionsPaymentExpired-content = La carta da credit che ti utiliseschas per far pajaments per il suandant abunament scada prest.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Ti has midà a { $productNameNew }
 subscriptionUpgrade-title = Grazia per l’upgrade!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Ti has midà cun success da { $productNameOld } al nivel superiur cun { $productNameNew }.
 subscriptionUpgrade-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 unblockCode-subject = Code d’autorisaziun dal conto
 unblockCode-title = Emprovas ti da t’annunziar?
 unblockCode-prompt = Sche gea, quai è il code d’autorisaziun che ti dovras:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Sche gea, quai è il code d'autorisaziun che ti dovras: { $unblockCode }
+unblockCode-report = Sche na, ans pos ti gidar d'ans defender encunter laders ed <a data-l10n-name="reportSignInLink">ans rapportar quai</a>.
 unblockCode-report-plaintext = Sche na ans pos ti gidar d’ans defender encunter laders ed ans rapportar quai.
 verificationReminderFirst-subject = Promemoria: Finir la creaziun da tes conto
 verificationReminderFirst-title = Bainvegni en la famiglia da { -brand-firefox }
-verificationReminderFirst-description = Avant in pèr dis has ti creà in conto da { -brand-firefox }, ma ti n’al has mai confermà.
+verificationReminderFirst-description = Avant in pèr dis has ti creà in { -product-firefox-account }, ma ti n'al has mai confermà.
 verificationReminderFirst-sub-description = Conferma ussa e profitescha dad ina tecnologia che cumbatta per tai e protegia tia sfera privata, ta furnescha tips pratics e ta tracta cun il respect merità.
 confirm-email = Confermar l’adressa d‘e-mail
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confermar l’adressa d‘e-mail
 verificationReminderSecond-subject = Ultima promemoria: Activescha tes conto
 verificationReminderSecond-title = Es ti anc qua?
+verificationReminderSecond-description = Avant bunamain ina emna has ti creà in { -product-firefox-account }, ma n'al has mai verifitgà. Nus ans faschain quitads per tai.
 verificationReminderSecond-sub-description = Conferma questa adressa d’e-mail per activar tes conto ed ans lascha savair che ti stas bain.
 verificationReminderSecond-action = Confermar l’adressa d‘e-mail
 verify-title = Activescha la paletta da products da { -brand-firefox }
@@ -194,8 +265,17 @@ verify-description-plaintext = Conferma tes conto e profitescha al maximum da { 
 verify-description = Conferma tes conto e profitescha al maximum da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verify-subject = Finir la creaziun da tes conto
 verify-action = Confermar l’adressa d‘e-mail
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Nova annunzia a { $clientName }
 verifyLogin-description = Per motivs da segirezza, conferma p.pl. questa annunzia dal suandant apparat:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Confermar la nova annunzia a { $clientName }
 verifyLogin-action = Confermar l’annunzia
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Code da verificaziun: { $code }
 verifyLoginCode-title = Emprovas ti da t’annunziar?
 verifyLoginCode-prompt = Sche gea, qua è tes code da verificaziun:
 verifyLoginCode-expiry-notice = El scada en 5 minutas.
@@ -203,15 +283,26 @@ verifyPrimary-title = Confermar l’adressa d‘e-mail principala
 verifyPrimary-description = Il suandant apparat ha dumandà da pudair modifitgar il conto:
 verifyPrimary-subject = Confermar l’adressa dad e-mail principala
 verifyPrimary-action = Verifitgar l’adressa dad e-mail
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Uschespert che quest apparat è verifitgà esi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat.
 verifySecondary-subject = Confermar l’adressa dad e-mail secundara
 verifySecondary-title = Verifitgar l’adressa dad e-mail alternativa
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
 verifySecondary-action = Verifitgar l’adressa dad e-mail
+verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Uschè prest che questa adressa è verifitgada retschaiva ella avis da segirezza e confermas.
 verifySecondaryCode-subject = Confermar l’adressa dad e-mail secundara
 verifySecondaryCode-title = Verifitgar l’adressa dad e-mail alternativa
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
 verifySecondaryCode-prompt = Dovra quest code da verificaziun:
 verifySecondaryCode-expiry-notice = El scada en 5 minutas. Uschespert che questa adressa è verifitgada, retschaiva ella avis e confermas da segirezza.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Code da verificaziun: { $code }
 verifyShortCode-title = Es ti la persuna che s’annunzia?
 verifyShortCode-prompt = Sche gea, utilisescha quest code da verificaziun en tes formular da registraziun:
 verifyShortCode-expiry-notice = El scada en 5 minutas.
