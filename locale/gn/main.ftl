@@ -370,6 +370,10 @@ coupon-discount = Tepymboguejy
 coupon-discount-applied = Jopói tepymboguejy rehegua
 coupon-submit = Jejapopy
 coupon-remove = Mboguete
+coupon-error = Pe ayvu emoĩva ndoikói térã hi’arapaháma.
+coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
+coupon-enter-code =
+    .placeholder = Emoinge ayvu
 
 ## payment-processing
 
