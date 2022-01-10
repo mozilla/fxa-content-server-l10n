@@ -33,6 +33,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } ha eñemboheraguapy { $productName } peg̃uarã.
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-firefox-account }.
 subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
 subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
 subplat-terms-policy = Ñemboguata ha jeheja purureko
@@ -87,9 +88,6 @@ subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekyt�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Eñemomaranduve hag̃ua, eikeva’rã { $supportUrl }-pe
-updateBilling = Rohechajeýta nde jehepyme’ẽ tenondeve, hákatu oikotevẽkuaa ore pytyvõ oĩporã hag̃ua <a data-l10n-name="updateBillingUrl">embohekopyahúvo nde jehepyme’ẽ marandu</a>.
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = Rohechajeýta nde jehepyme’ẽ tenondeve, hákatu oikotevẽkuaa ore pytyvõ oĩporã hag̃ua embohekopyahúvo nde jehepyme’ẽ marandu:
 view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -179,7 +177,6 @@ postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Emboguéma hekopete { $secondaryEmail } ñanduti veve mokõiguáva nde { -product-firefox-account } pegua. Umi marandu’i tekorosãrãva ha ñemoneĩ tembiapo ñepyrũ rehegua nog̃uahẽmo’ãvéima ko kundaharapépe.
 postRemoveSecondary-action = Mba’ete ñangareko
-postRemoveTwoStepAuthentication-subject = Jehechajey mokõi jeku’egua ndoikovéima
 postRemoveTwoStepAuthentication-title = Ojepe’áma ñemoneĩ mokõi jeku’e pegua
 postRemoveTwoStepAuthentication-description = Embogue porã ñemoneĩ mokõi jeyguáva { -product-firefox-account } pegua tenondevegua mba’e’oka guive:
 postRemoveTwoStepAuthentication-description-plaintext = Embogue porã ñemoneĩ mokõi jeyguáva { -product-firefox-account } pegua. Ndojejeruremo’ãvéima tekorosã ayvu emoñepyrũjeývo tembiapo.
@@ -196,9 +193,6 @@ postVerify-action = Emboheko mba’e’oka upeigua
 postVerify-support = ¿Eporandusépa? Eike { $supportUrl }-pe
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Rohecha jeku’e ikatúva oñembyai nde { -product-firefox-account }-pe. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-firefox-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
@@ -230,12 +224,6 @@ subscriptionDowngrade-subject = Eñemoambuéma { $productNameNew }-pe
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycle } rupive { $paymentAmountNew }-pe. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycle } guive.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
@@ -335,12 +323,6 @@ subscriptionUpgrade-title = ¡Aguyje embohekopyahúre!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Emoambuéma hekopete { $productNameOld } guive { $productNameNew } peve.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = Ne ñehepyme’ẽrã ipyahúvape, iñambuéta { $paymentAmountOld }-gui { $productPaymentCycle } rupive { $paymentAmountNew }-pe. Upe javete, avei oñeme’ẽta ndéve jepururã ha’etéva { $paymentProrated } guive ohehechauka hag̃ua michĩveháicha pe hembýva ko { $productPaymentCycle } guive.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Emohendátarõ peteĩ tembiaporape ipyahúva eipuru hag̃ua { $productNameNew }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
