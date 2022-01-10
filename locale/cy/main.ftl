@@ -426,6 +426,18 @@ plan-details-header = Manylion cynnyrch
 plan-details-show-button = Dangos manylion
 plan-details-hide-button = Cuddio manylion
 plan-details-total-label = Cyfanswm
+plan-details-list-price = Rhestr Prisiau
+
+## coupons
+
+coupon-discount = Gostyngiad
+coupon-discount-applied = Gwobr Gostyngiad wedi'i Gynnwys
+coupon-submit = Gosod
+coupon-remove = Tynnu
+coupon-error = Mae'r cod a roesoch yn annilys neu wedi dod i ben.
+coupon-success = Bydd eich cynllun yn adnewyddu'n awtomatig am y pris ar y rhestr.
+coupon-enter-code =
+    .placeholder = Rhowch y Cod
 
 ## payment-processing
 
