@@ -233,6 +233,21 @@ subscriptionAccountDeletion-title = Lamentamos ver você partir
 subscriptionAccountDeletion-content-cancelled = Você excluiu recentemente sua { -product-firefox-account }. Como resultado, cancelamos sua assinatura do { $productName }. Seu pagamento final de { $invoiceTotal } foi feito em { $invoiceDateOnly }.
 # COMMENT ABOUT After the colon,
 payment-details = Detalhes do pagamento:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Boas-vindas ao { $productName }: Defina sua senha.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Boas-vindas ao { $productName }
+subscriptionAccountFinishSetup-action = Crie uma senha
+subscriptionAccountReminderFirst-subject = Lembrete: Conclua a configuração da sua conta
+subscriptionAccountReminderFirst-title = Você ainda não pode acessar sua assinatura
+subscriptionAccountReminderFirst-action = Criar senha
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Lembrete final: Configure sua conta
+subscriptionAccountReminderSecond-title = Boas-vindas ao { -brand-firefox }
+subscriptionAccountReminderSecond-action = Criar senha
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Sua assinatura do { $productName } foi cancelada
@@ -254,6 +269,10 @@ subscriptionDowngrade-content-switch = Você mudou com sucesso de { $productName
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Se for necessário instalar outro software para usar o { $productNameNew }, você receberá um email separado com instruções de como baixar.
 subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Sua assinatura do { $productName } foi cancelada
+subscriptionFailedPaymentsCancellation-title = Sua assinatura foi cancelada
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Pagamento do { $productName } confirmado
@@ -278,6 +297,31 @@ subscriptionFirstInvoice-content-charge = Cobrado { $invoiceTotal } em { $invoic
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Pagamento do { $productName } confirmado
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Obrigado por assinar o { $productName }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Desconto único: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Cobrado { $invoiceTotal } em { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = O cartão de crédito de { $productName } expira em breve
@@ -311,6 +355,17 @@ subscriptionReactivation-title = Obrigado por reativar sua assinatura do { $prod
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Seu ciclo de faturamento e pagamento permanece o mesmo. Sua próxima cobrança será de { $invoiceTotal } em { $nextInvoiceDateOnly }. Sua assinatura será renovada automaticamente a cada período de cobrança, a menos que você decida cancelar.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Aviso de renovação automática do { $productName }
+subscriptionRenewalReminder-title = Sua assinatura será renovada em breve
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Prezado cliente do { $productName },
+subscriptionRenewalReminder-content-closing = Atenciosamente,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = A equipe do { $productName }
 subscriptionsPaymentExpired-subject = A validade do cartão de crédito de suas assinaturas expirará em breve
 subscriptionsPaymentExpired-title = A validade do seu cartão de crédito está prestes a expirar
 subscriptionsPaymentExpired-content = A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir está prestes a expirar.
