@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2021-11-06 04:11+0000\n"
+"PO-Revision-Date: 2022-01-10 08:45+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: vi\n"
@@ -373,8 +373,8 @@ msgid ""
 "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
 "which is %(serviceLastActiveDateOnly)s."
 msgstr ""
-"Chúng tôi đã hủy thuê bao %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là %(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
-"thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+"Chúng tôi đã hủy thuê bao %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là %(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
+" thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
 msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
@@ -385,6 +385,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(paymentAmountOld)s trên %(productPaymentCycleOld)s thành %(paymentAmountNew)s trên %(productPaymentCycleNew)s. Vào thời điểm"
+" đó, bạn cũng sẽ được trả tín dụng một lần là %(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycleOld)s này."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -450,11 +452,11 @@ msgstr "Xem hóa đơn: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
+msgstr "Tổng phụ: %(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "Giảm giá một lần: -%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -583,6 +585,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(paymentAmountOld)s trên %(productPaymentCycleOld)s thành %(paymentAmountNew)s trên %(productPaymentCycleNew)s. Vào thời điểm"
+" đó, bạn cũng sẽ bị tính phí một lần là %(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycleOld)s này."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -959,7 +963,7 @@ msgstr "Email chính đã xác minh"
 
 #: lib/senders/email.js:1650
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Đã tắt xác thực hai bước"
 
 #: lib/senders/email.js:1744
 msgid "Recovery code used"
@@ -1142,15 +1146,15 @@ msgstr "Tải xuống"
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 #~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(paymentAmountOld)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ được cấp tín "
-#~ "dụng một lần là %(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycle)s này."
+#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(paymentAmountOld)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ được cấp tín dụng "
+#~ "một lần là %(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycle)s này."
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 #~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(productPaymentCycle)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí "
-#~ "một lần là %(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
+#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ %(productPaymentCycle)s trên %(productPaymentCycle)s thành %(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí một"
+#~ " lần là %(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
 
 #~ msgid "Two-step verification enabled"
 #~ msgstr "Đã bật xác thực hai bước"
@@ -1171,11 +1175,10 @@ msgstr "Tải xuống"
 #~ msgstr "Đầu tiên, thay đổi mật khẩu tài khoản Firefox của bạn."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr ""
-#~ "Thứ hai, nếu Firefox lưu mật khẩu vào trang web, bạn cũng nên thay đổi mật khẩu đó. Những kẻ tấn công có thể có quyền truy cập vào các mật khẩu đó, vì vậy bạn nên kiểm tra các tài khoản đó để "
-#~ "biết hoạt động đáng ngờ."
+#~ "Thứ hai, nếu Firefox lưu mật khẩu vào trang web, bạn cũng nên thay đổi mật khẩu đó. Những kẻ tấn công có thể có quyền truy cập vào các mật khẩu đó, vì vậy bạn nên kiểm tra các tài khoản đó để biết "
+#~ "hoạt động đáng ngờ."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
 #~ msgstr "Tìm hiểu cách xem Firefox đang lưu trữ mật khẩu nào cho bạn."
@@ -1217,8 +1220,8 @@ msgstr "Tải xuống"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Chu kỳ thanh toán và thanh toán của bạn sẽ được giữ nguyên. Khoản phí tiếp theo của bạn sẽ là %(invoiceTotal)s cho thẻ %(cardType)s kết thúc bằng %(lastFour)s vào %(nextInvoiceDateOnly)s. Thuê "
-#~ "bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy."
+#~ "Chu kỳ thanh toán và thanh toán của bạn sẽ được giữ nguyên. Khoản phí tiếp theo của bạn sẽ là %(invoiceTotal)s cho thẻ %(cardType)s kết thúc bằng %(lastFour)s vào %(nextInvoiceDateOnly)s. Thuê bao "
+#~ "của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Cảm ơn bạn đã đăng ký %(productName)s!"
@@ -1229,15 +1232,15 @@ msgstr "Tải xuống"
 #~ "%(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
-#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
+#~ "which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết "
-#~ "thúc thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
+#~ "Chúng tôi đã hủy đăng ký %(productName)s của bạn. Khoản thanh toán cuối cùng của bạn là $%(invoiceTotal)s đã được thanh toán vào %(invoiceDateOnly)s. Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc"
+#~ " thời hạn thanh toán hiện tại của bạn, đó là %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
-#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(paymentAmountOld)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ được cấp tín "
 #~ "dụng một lần là $%(paymentProrated)s để phản ánh mức phí thấp hơn cho phần còn lại của %(productPaymentCycle)s này."
@@ -1246,11 +1249,11 @@ msgstr "Tải xuống"
 #~ msgstr "Đã tính phí $%(invoiceTotal)s vào%(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
-#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(productPaymentCycle)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính "
-#~ "phí một lần là $%(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
+#~ "Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ $%(productPaymentCycle)s trên %(productPaymentCycle)s thành $%(paymentAmountNew)s. Vào thời điểm đó, bạn cũng sẽ bị tính phí "
+#~ "một lần là $%(paymentProrated)s để phản ánh mức phí cao hơn cho phần còn lại của %(productPaymentCycle)s này."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Bạn đã đăng nhập và sẵn sàng bắt đầu khám phá một cách an toàn và bảo mật."

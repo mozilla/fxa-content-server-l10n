@@ -346,6 +346,18 @@ plan-details-header = Thông tin chi tiết sản phẩm
 plan-details-show-button = Hiện chi tiết
 plan-details-hide-button = Ẩn chi tiết
 plan-details-total-label = Tổng
+plan-details-list-price = Bảng giá
+
+## coupons
+
+coupon-discount = Giảm giá
+coupon-discount-applied = Đã áp dụng phần thưởng chiết khấu
+coupon-submit = Áp dụng
+coupon-remove = Xóa
+coupon-error = Mã bạn nhập không hợp lệ hoặc đã hết hạn.
+coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
+coupon-enter-code =
+    .placeholder = Nhập mã
 
 ## payment-processing
 
