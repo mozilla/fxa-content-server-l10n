@@ -256,9 +256,14 @@ subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Em
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ¡Eg̃uahẽporã { $productName }-pe!
+subscriptionAccountFinishSetup-content-processing = Pe jehepyme’ẽ oñemboajehína ha ohupytykuaa irundy ára oĩmba hag̃ua. Pe ñemboheraguapy hekopyahúta ijehegui ohasávo pe kuatiañemurã arapa’ũ ndete mba’e nderejokóiramo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Ko’ág̃a guive, emoheñóita mba’ete Firefox pegua ha emboguejýta { $productName }.
 subscriptionAccountFinishSetup-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
+subscriptionAccountReminderFirst-content-info = Nda’areiete emoheñói { -product-firefox-account } hákatu araka’eve nderehechajeýi. Roha’ãrõ embohekóvo ne mba’ete, eipurukuaa hag̃ua ne ñemboheraguapy pyahúpe.
 subscriptionAccountReminderFirst-content-select = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha ehechajey ne mba’ete.
 subscriptionAccountReminderFirst-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
