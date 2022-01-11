@@ -76,6 +76,7 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ενημέρωση στοιχείων χρέωσης
 subplat-privacy-policy = Πολιτική απορρήτου { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Νομικά
 subplat-privacy = Απόρρητο
@@ -106,18 +107,31 @@ change-password-plaintext = Αν υποπτεύεστε ότι κάποιος π
 user-ip = Διεύθυνση IP: { $ip }
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Αριθμός τιμολογίου: { $invoiceNumber }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Μέθοδος πληρωμής:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a data-l10n-name="subscriptionSupportUrl">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:
+subscriptionUpdateBillingEnsure = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a data-l10n-name="updateBillingUrl">εδώ</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα εδώ:
 subscriptionUpdatePayment = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε <a data-l10n-name="updateBillingUrl">ενημερώστε τα στοιχεία πληρωμών σας</a> το συντομότερο δυνατό.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε το { $supportUrl }
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Προβολή τιμολογίου: { $invoiceLink }
 cadReminderFirst-subject = Φιλική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού
 cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-title = Υπενθύμιση για συγχρονισμό συσκευών.
@@ -126,6 +140,12 @@ cadReminderSecond-subject = Τελική υπενθύμιση: Ολοκλήρω�
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title = Τελευταία υπενθύμιση για συγχρονισμό συσκευών!
 cadReminderSecond-description = Ο συγχρονισμός μιας άλλης συσκευής με το { -brand-firefox } προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων του { -brand-firefox } όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Καλώς ορίσατε στο { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Καλώς ορίσατε στο { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Λήψη του { $productName }
@@ -232,10 +252,16 @@ subscriptionAccountDeletion-subject = Η συνδρομή σας στο { $produ
 subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
 # COMMENT ABOUT After the colon,
 payment-details = Στοιχεία πληρωμής:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Καλώς ορίσατε στο { $productName }
+subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title = Καλώς ορίσατε στο { -brand-firefox }!
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Λυπούμαστε που φεύγετε
 subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+subscriptionFailedPaymentsCancellation-title = Η συνδρομή σας ακυρώθηκε
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Η πληρωμή του { $productName } επιβεβαιώθηκε
@@ -246,8 +272,29 @@ subscriptionFirstInvoice-content-invoice-number = Αριθμός τιμολογ�
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Η πληρωμή του { $productName } επιβεβαιώθηκε
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Ευχαριστούμε για τη συνδρομή σας στο { $productName }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Αριθμός τιμολογίου: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
+# Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Υποσύνολο: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Εφάπαξ έκπτωση: -{ $invoiceDiscountAmount }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Η πιστωτική κάρτα για το { $productName } λήγει σύντομα
@@ -260,6 +307,9 @@ subscriptionPaymentExpired-content = Η πιστωτική κάρτα που χ�
 subscriptionPaymentFailed-subject = Η πληρωμή του { $productName } απέτυχε
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Αντιμετωπίζουμε πρόβλημα με την τελευταία σας πληρωμή για το { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -268,6 +318,10 @@ subscriptionReactivation-title = Ευχαριστούμε για την εκ ν�
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Ο κύκλος χρέωσης και η πληρωμή σας θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι { $invoiceTotal } στις { $nextInvoiceDateOnly }. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+subscriptionRenewalReminder-content-closing = Με εκτίμηση,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Η ομάδα του { $productName }
 subscriptionsPaymentExpired-subject = Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα
 subscriptionsPaymentExpired-title = Η πιστωτική σας κάρτα πρόκειται να λήξει
 subscriptionsPaymentExpired-content = Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών.
@@ -280,6 +334,9 @@ subscriptionSubsequentInvoice-content-invoice-number = Αριθμός τιμολ
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Έχετε αναβαθμίσει στο { $productNameNew }
