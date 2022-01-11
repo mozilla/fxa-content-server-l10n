@@ -10,8 +10,16 @@ project-brand = ਫਾਇਰਫਾਕਸ ਖਾਤੇ
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play ਸਟੋਰ
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
-    .title = ਫਾਇਰਫਾਕਸ ਖਾਤੇ
+    .title = Firefox ਖਾਤੇ
 
 ## general-aria
 
@@ -118,6 +126,9 @@ sub-redirect-ready = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਤਿਆਰ ਹੈ
 ## $period (Date) - The last day of product access
 
 
+## subscription iap item
+
+
 ## subscription route index
 
 
@@ -125,6 +136,9 @@ sub-redirect-ready = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਤਿਆਰ ਹੈ
 
 
 ## plan-details
+
+
+## coupons
 
 
 ## payment-processing
