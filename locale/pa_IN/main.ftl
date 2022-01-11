@@ -83,6 +83,7 @@ payment-zip =
 payment-cancel-btn = ਰੱਦ ਕਰੋ
 payment-update-btn = ਅੱਪਡੇਟ
 payment-pay-btn = ਹੁਣੇ ਭੁਗਤਾਨ ਕਰੋ
+payment-pay-with-paypal-btn = { -brand-name-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
 payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
 payment-validate-zip-required = ਜ਼ਿਪ ਕੋਡ ਲੋੜੀਂਦਾ ਹੈ
 payment-validate-zip-short = ਜ਼ਿਪ ਕੋਡ ਬਹੁਤ ਛੋਟਾ ਹੈ
@@ -90,12 +91,16 @@ payment-validate-zip-short = ਜ਼ਿਪ ਕੋਡ ਬਹੁਤ ਛੋਟਾ ਹ�
 ## subscription redirect
 
 sub-redirect-ready = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਤਿਆਰ ਹੈ
+sub-redirect-skip-survey = ਨਹੀਂ ਰਹਿਣ ਦਿਉ, ਮੈਨੂੰ ਮੇਰੇ ਉਤਪਾਦ 'ਤੇ ਲੈ ਜਾਓ।
 
 ## fields
 
+default-input-error = ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ
+input-error-is-required = { $label } ਲੋੜੀਂਦਾ ਹੈ
 
 ## subscription upgrade
 
+sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ##
 
