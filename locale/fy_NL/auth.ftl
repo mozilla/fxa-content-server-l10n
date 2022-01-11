@@ -33,6 +33,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Jo ûntfange dit berjocht omdat { $email } in { -product-firefox-account } hat en jo ynskreaun binne foar { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Jo ûntfange dit e-mailberjocht omdat { $email } in { -product-firefox-account } hat
 subplat-explainer-multiple = Jo ûntfange dit berjocht omdat { $email } in { -product-firefox-account } hat en jo binne abonnearre op mear produkten.
 subplat-manage-account = Behear jo { -product-firefox-account }-ynstellingen troch nei jo <a data-l10n-name="subplat-account-page">accountside</a> te gean.
 subplat-terms-policy = Betingsten en annulearringsbelied
@@ -42,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Abonnemint opnij aktivearje
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fakturaasjegegevens bywurkje
+subplat-privacy-policy = { -brand-mozilla }-privacybelied
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Tsjinstbetingsten foar { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridysk
 subplat-privacy = Privacy
 another-desktop-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
@@ -71,6 +76,16 @@ change-password-plaintext = As jo tinke dat ien tagong ta jo account probearret 
 user-ip = IP-adres: { $ip }
 manage-account = Account beheare
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Faktuernûmer: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = { $invoiceTotal } yn rekkening brocht op { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Betellingsmetoade:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -87,9 +102,6 @@ subscriptionUpdatePayment-plaintext = Wurkje sa gau as mooglik jo betellingsgege
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Besykje { $supportUrl } foar mear ynformaasje
-updateBilling = Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch <a data-l10n-name="updateBillingUrl">jo betellingsgegevens by te wurkjen</a>.
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch jo betellingsgegevens by te wurkjen:
 view-invoice = <a data-l10n-name="invoiceLink">Jo faktuer besjen</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -179,7 +191,6 @@ postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres fan jo { -product-firefox-account } fuortsmiten. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde net mear op dit adres ôflevere.
 postRemoveSecondary-action = Account beheare
-postRemoveTwoStepAuthentication-subject = Autentikaasje yn twa stappen útskeakele
 postRemoveTwoStepAuthentication-title = Twa-staps autentikaasje útskeakele
 postRemoveTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele:
 postRemoveTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele. Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
@@ -196,9 +207,6 @@ postVerify-action = It folgjende apparaat ynstelle
 postVerify-support = Hawwe jo fragen? Besykje { $supportUrl }
 postVerifySecondary-subject = Twadde e-mail tafoege
 postVerifySecondary-title = Twadde e-mail tafoege
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres fan jo { -product-firefox-account } ferifearre. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde no op beide adressen ôflevere.
 postVerifySecondary-action = Account beheare
 recovery-subject = Wachtwurd werinisjalisearje
 recovery-title = Moatte jo jo wachtwurd opnij ynstelle?
@@ -230,12 +238,6 @@ subscriptionDowngrade-subject = Jo binne oerskeakele nei { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Jo binne mei sukses oerskeakele fan { $productNameOld } nei { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } per { $productPaymentCycle } nei { $paymentAmountNew }. Jo ûntfange dan ek ien kear in kredyt fan { $paymentProrated } ta gefolch fan de legere kosten foar de rest fan dizze { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = As jo nije software ynstallearje moatte om { $productNameNew } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
@@ -335,12 +337,6 @@ subscriptionUpgrade-title = Tank foar it opwurdearjen!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Jo binne mei sukses oerskeakele fan { $productNameOld } nei { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } per { $productPaymentCycle } nei { $paymentAmountNew }. Der wurdt dan ek ien kear in bedrach fan { $paymentProrated }  yn rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = As jo nije software ynstallearje moatte om { $productNameNew } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
