@@ -96,6 +96,17 @@ card-ending-in = { $cardType }-kaart einigjend op { $lastFour }
 subscriptionSupport = Fragen oer jo abonnemint? Us <a data-l10n-name="subscriptionSupportUrl">ondersteuningsteam</a> is der om jo te helpen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Fragen oer jo abonnemint? Us stipeteam is der om jo te helpen:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Tank foar jo abonnemint op { $productName }. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer { $productName } wolle, <a data-l10n-name="subscriptionSupportUrl">nim dan kontakt op</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Tank foar jo abonnemint op { $productName }. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer { $productName } wolle, nim dan kontakt op:
+subscriptionUpdateBillingEnsure = Jo kinne <a data-l10n-name="updateBillingUrl">hjir</a> derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Jo kinne hjir derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne:
+subscriptionUpdateBillingTry = Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch <a data-l10n-name="updateBillingUrl">jo betellingsgegevens by te wurkjen</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Wy sille de kommende dagen jo betelling opnij probearje yn te barren, mar jo moatte ús miskien helpe troch jo betellingsgegevens by te wurkjen:
 subscriptionUpdatePayment = Wurkje sa gau as mooglik <a data-l10n-name="updateBillingUrl">jo betellingsgegevens by</a> om ûnderbrekking fan jo service foar te kommen.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Wurkje sa gau as mooglik jo betellingsgegevens by om ûnderbrekking fan jo service foar te kommen:
@@ -115,6 +126,18 @@ cadReminderSecond-subject = Lêste omtinken: ynstellen fan Sync foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title = Lêste omtinken om apparaten te syngronisearjen!
 cadReminderSecond-description = As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Wolkom by { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Wolkom by { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = As jo { $productName } noch net download hawwe, litte wy dan no oan it wurk gean mei alle mooglikheden fan jo abonnemint:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = { $productName } downloade
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Net in protte werstelkoaden restearjend
 codes-reminder-description = Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje nije koaden te generearjen om te foar te kommen dat jo gjin tagong mear hawwe ta jo account.
@@ -191,6 +214,7 @@ postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres fan jo { -product-firefox-account } fuortsmiten. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde net mear op dit adres ôflevere.
 postRemoveSecondary-action = Account beheare
+postRemoveTwoStepAuthentication-subject-line = Autentikaasje yn twa stappen is útskeakele
 postRemoveTwoStepAuthentication-title = Twa-staps autentikaasje útskeakele
 postRemoveTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele:
 postRemoveTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele. Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
@@ -207,6 +231,9 @@ postVerify-action = It folgjende apparaat ynstelle
 postVerify-support = Hawwe jo fragen? Besykje { $supportUrl }
 postVerifySecondary-subject = Twadde e-mail tafoege
 postVerifySecondary-title = Twadde e-mail tafoege
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres foar jo { -product-firefox-account } ferifearre. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde no op beide adressen ôflevere.
 postVerifySecondary-action = Account beheare
 recovery-subject = Wachtwurd werinisjalisearje
 recovery-title = Moatte jo jo wachtwurd opnij ynstelle?
@@ -221,6 +248,31 @@ subscriptionAccountDeletion-title = Spitich dat jo ôfsette
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Jo hawwe jo { -product-firefox-account } koartlyn fuortsmiten. As gefolch hjirfan hawwe wy jo abonnemint foar { $productName } opsein. Jo lêste betelling fan { $invoiceTotal } is betelle op { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Betellingsgegevens:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Wolkom by { $productName }: stel jo wachtwurd yn.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Wolkom by { $productName }.
+subscriptionAccountFinishSetup-content-processing = Jo betelling wurdt ferwurke en wurdt binnen fjouwer wurkdagen foltôge. Jo abonnemint wurdt elke fakturearingsperioade automatysk ferlinge, útsein jo opsizze.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Hjirnei meitsje jo in Firefox-accountwachtwurd oan en downloade jo { $productName }.
+subscriptionAccountFinishSetup-action = In wachtwurd oanmeitsje
+subscriptionAccountReminderFirst-subject = Oantinken: foltôgje it ynstellen fan jo account
+subscriptionAccountReminderFirst-title = Jo hawwe noch gjin tagong ta jo abonnemint
+subscriptionAccountReminderFirst-content-info = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar dizze nea ferifiearre. Wy hoopje dat jo it ynstellen fan jo account foltôgje, sadat jo jo nije abonnemint brûke kinne.
+subscriptionAccountReminderFirst-content-select = Selektearje ‘Wachtwurd oanmeitsje’ om in nij wachtwurd yn te stellen en de ferifikaasje fan jo account te foltôgjen.
+subscriptionAccountReminderFirst-action = Wachtwurd oanmeitsje
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Lêste oantinken: stel jo account yn
+subscriptionAccountReminderSecond-title = Wolkom by { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar dizze nea ferifiearre. Wy hoopje dat jo it ynstellen fan jo account foltôgje, sadat jo jo nije abonnemint brûke kinne.
+subscriptionAccountReminderSecond-content-select = Selektearje ‘Wachtwurd oanmeitsje’ om in nij wachtwurd yn te stellen en de ferifikaasje fan jo account te foltôgjen.
+subscriptionAccountReminderSecond-action = Wachtwurd oanmeitsje
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Jo abonnemint op { $productName } is opsein
@@ -239,9 +291,23 @@ subscriptionDowngrade-subject = Jo binne oerskeakele nei { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Jo binne mei sukses oerskeakele fan { $productNameOld } nei { $productNameNew }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } yn ’e { $productPaymentCycleOld } nei { $paymentAmountNew } yn ’e { $productPaymentCycleNew }. Jo ûntfange dan ek ien kear in kredyt fan { $paymentProrated } ta gefolch fan de legere kosten foar de rest fan dizze { $productPaymentCycle }.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = As jo nije software ynstallearje moatte om { $productNameNew } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
 subscriptionDowngrade-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Jo abonnemint op { $productName } is opsein
+subscriptionFailedPaymentsCancellation-title = Jo abonnemint is opsein
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Wy hawwe jo abonnemint op { $productName } opsein, omdat meardere betellingsbesykjen mislearre binne. Start in nij abonnemint mei in bywurke betellingsmetoade om wer tagong te krijen.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = De betelling foar { $productName } is befêstige
@@ -266,6 +332,36 @@ subscriptionFirstInvoice-content-charge = { $invoiceTotal } yn rekkening brocht 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = De betelling foar { $productName } is befêstige
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Tank foar jo abonnemint op { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Jo betelling wurdt op dit stuit ferwurke en it kin oant fjouwer wurkdagen duorje eardat dizze foltôge is.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Jo ûntfange in e-mailberjocht mei downloadynstruksjes foar it gebrûk fan { $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Faktuernûmer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Faktuernûmer: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Ienmalige koarting: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } yn rekkening brocht op { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = De creditcard foar { $productName } ferrint ynkoarten
@@ -299,6 +395,10 @@ subscriptionReactivation-title = Tank foar it opnij aktivearjen fan jo abonnemin
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Jo betellingssyklus en betelling bliuwe itselde. Jo folgjende ôfskriuwing is { $invoiceTotal } op { $nextInvoiceDateOnly }. Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Automatyske ferlingingsmelding foar { $productName }
+subscriptionRenewalReminder-title = Jo abonnemint wurdt ynkoarten ferlinge
 subscriptionsPaymentExpired-subject = De creditcard foar jo abonneminten ferrint ynkoarten
 subscriptionsPaymentExpired-title = Jo creditcard ferrint ynkoarten
 subscriptionsPaymentExpired-content = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten.
