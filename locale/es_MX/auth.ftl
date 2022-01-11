@@ -76,6 +76,10 @@ manage-account-plaintext = { manage-account }:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Número de factura: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Cobrado: { $invoiceTotal } el { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
@@ -295,6 +299,7 @@ subscriptionFirstInvoiceDiscount-subject = Pago confirmado para { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Gracias por suscribirte a { $productName }
+subscriptionFirstInvoiceDiscount-content-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación a menos que quieras cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Número de factura: <b>{ $invoiceNumber }</b>
@@ -307,6 +312,10 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-onetime-discount = Descuento único: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Se cobró { $invoiceTotal } el { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
@@ -343,6 +352,9 @@ subscriptionReactivation-title = ¡Gracias por reactivar tu suscripción a { $pr
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Tu ciclo de facturación y pago seguirá siendo el mismo. Tu próximo cargo será de { $invoiceTotal } el { $nextInvoiceDateOnly }. Tu suscripción se renovará automáticamente en cada período de facturación a menos que decidas cancelarla.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Aviso de renovación automática de { $productName }
 subscriptionRenewalReminder-title = Tu suscripción será renovada pronto
 subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
