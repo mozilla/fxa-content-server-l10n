@@ -31,6 +31,9 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve { $productName } ürününe kaydolduğunuz için bu e-postayı aldınız.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = { $email } adresine kayıtlı bir { -product-firefox-account } hesabı olduğu için bu e-postayı aldınız.
 subplat-explainer-multiple = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve birden fazla ürüne kaydolduğunuz için bu e-postayı aldınız.
 subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
 subplat-terms-policy = Koşullar ve iptal politikası
@@ -40,6 +43,10 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aboneliği yeniden etkinleştir
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Fatura bilgilerini güncelle
+subplat-privacy-policy = { -brand-mozilla } Gizlilik İlkeleri
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } Hizmet Koşulları
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Yasal Bilgiler
 subplat-privacy = Gizlilik
 another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
@@ -60,6 +67,16 @@ change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığ
 user-ip = IP adresi: { $ip }
 manage-account = Hesabı yönet
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Fatura numarası: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = { $invoiceDateOnly } tarihinde { $invoiceTotal } tahsil edildi
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Ödeme yöntemi:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }

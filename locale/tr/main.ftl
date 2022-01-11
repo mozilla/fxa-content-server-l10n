@@ -344,6 +344,16 @@ plan-details-header = Ürün ayrıntıları
 plan-details-show-button = Ayrıntıları göster
 plan-details-hide-button = Ayrıntıları gizle
 plan-details-total-label = Toplam
+plan-details-list-price = Liste fiyatı
+
+## coupons
+
+coupon-discount = İndirim
+coupon-submit = Uygula
+coupon-remove = Kaldır
+coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
+coupon-enter-code =
+    .placeholder = Kodu yazın
 
 ## payment-processing
 
