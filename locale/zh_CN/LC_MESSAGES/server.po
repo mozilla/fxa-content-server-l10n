@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-06 22:07+0000\n"
-"PO-Revision-Date: 2022-01-10 04:18+0000\n"
-"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
+"PO-Revision-Date: 2022-01-12 18:56+0000\n"
+"Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -448,7 +448,7 @@ msgstr "小计：%(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "一次性折扣：-%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
