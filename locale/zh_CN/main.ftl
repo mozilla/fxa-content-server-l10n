@@ -355,7 +355,10 @@ plan-details-list-price = 标价
 coupon-discount = 折扣
 coupon-submit = 应用
 coupon-remove = 移除
+coupon-error = 您输入的折扣码无效或已过期。
 coupon-success = 您的方案将自动按标价续订。
+coupon-enter-code =
+    .placeholder = 输入折扣码
 
 ## payment-processing
 
