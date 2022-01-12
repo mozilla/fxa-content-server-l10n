@@ -220,6 +220,9 @@ postVerify-action = 设置下一台设备
 postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 备用邮箱已绑定
 postVerifySecondary-title = 备用邮箱已绑定
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = 已成功验证 { $secondaryEmail } 作为您 { -product-firefox-account }的备用邮箱。从现在起，安全通知和登录确认邮件也将发送到该邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
@@ -239,6 +242,13 @@ payment-details = 付款详情：
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设置密码。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
+subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = 接下来，您需要创建 Firefox 账户密码并下载 { $productName }。
 subscriptionAccountFinishSetup-action = 创建密码
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
@@ -248,6 +258,8 @@ subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
 subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
+subscriptionAccountReminderSecond-content-info = 您在前几日创建了 { -product-firefox-account }但尚未验证。我们希望您能尽快完成设置，以便使用所订阅的项目。
+subscriptionAccountReminderSecond-content-select = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderSecond-action = 创建密码
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }：
 # Variables
