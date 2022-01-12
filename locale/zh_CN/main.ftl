@@ -348,9 +348,12 @@ plan-details-header = 产品详细信息
 plan-details-show-button = 显示详细信息
 plan-details-hide-button = 隐藏详细信息
 plan-details-total-label = 总计
+plan-details-list-price = 原价
 
 ## coupons
 
+coupon-discount = 折扣
+coupon-submit = 应用
 coupon-remove = 移除
 
 ## payment-processing

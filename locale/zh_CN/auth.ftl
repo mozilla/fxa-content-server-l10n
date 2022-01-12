@@ -95,6 +95,8 @@ subscriptionUpdateBillingEnsure = 您可以在<a data-l10n-name="updateBillingUr
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = 您可以在此处确认您的付款方式和账户信息是否为最新：
 subscriptionUpdateBillingTry = 我们将在几天内重试您的付款操作，但您也有可能需要通过<a data-l10n-name="updateBillingUrl">更新您的付款信息</a>来帮助我们解决该问题。
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = 我们将在几天内重试付款操作，但您可能需要更新付款信息来帮助我们解决该问题：
 subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-name="updateBillingUrl">更新付款信息</a>。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
@@ -114,6 +116,15 @@ cadReminderSecond-subject = 最后一次提醒：请完成同步设置
 cadReminderSecond-action = 与其他设备同步
 cadReminderSecond-title = 请与其他设备同步，最后一次提醒！
 cadReminderSecond-description = 请与另一台设备同步您的书签、密码和其他 { -brand-firefox } 数据。私密浏览，更要无缝衔接。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = 欢迎使用 { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = 欢迎使用 { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = 若您还未下载 { $productName }，快来下载并开始使用订阅服务中包含的完整功能：
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = 下载 { $productName }
