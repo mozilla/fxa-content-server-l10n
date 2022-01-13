@@ -25,6 +25,7 @@
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
 fxa-service-url = Termos do serviço do { -product-firefox-cloud }
 subplat-automated-email = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
+subplat-privacy-notice = Aviso de privacidade
 subplat-privacy-plaintext = Aviso de privacidade:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Termos do serviço do { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Jurídico
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidade
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
 another-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro dispositivo</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Se suspeitar que alguém está tentando obter acesso
 user-ip = Endereço IP: { $ip }
 manage-account = Gerenciar conta
 manage-account-plaintext = { manage-account }:
+payment-details = Detalhes do pagamento:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Número da fatura: { $invoiceNumber }
