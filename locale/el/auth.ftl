@@ -79,7 +79,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Νομικά
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Απόρρητο
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">έναν άλλο υπολογιστή</a>.
 another-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">μια άλλη συσκευή</a>.
 automated-email-change =
@@ -107,6 +109,7 @@ change-password-plaintext = Αν υποπτεύεστε ότι κάποιος π
 user-ip = Διεύθυνση IP: { $ip }
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
+payment-details = Στοιχεία πληρωμής:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Αριθμός τιμολογίου: { $invoiceNumber }

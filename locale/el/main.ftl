@@ -445,4 +445,6 @@ new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτ
 new-user-submit = Συνδρομή τώρα
 manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
 manage-pocket-body = Για διαχείριση, <a>κάντε κλικ εδώ</a>.
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Απαιτείται
