@@ -393,6 +393,15 @@ plan-details-header = Informacje o produkcie
 plan-details-show-button = Wyświetl informacje
 plan-details-hide-button = Ukryj informacje
 plan-details-total-label = Razem
+plan-details-list-price = Cena katalogowa
+
+## coupons
+
+coupon-discount = Zniżka
+coupon-discount-applied = Zastosowano zniżkę
+coupon-submit = Zastosuj
+coupon-remove = Usuń
+coupon-error = Wpisany kod jest nieprawidłowy lub wygasł.
 
 ## payment-processing
 
