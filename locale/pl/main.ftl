@@ -402,6 +402,9 @@ coupon-discount-applied = Zastosowano zniżkę
 coupon-submit = Zastosuj
 coupon-remove = Usuń
 coupon-error = Wpisany kod jest nieprawidłowy lub wygasł.
+coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
+coupon-enter-code =
+    .placeholder = Wpisz kod
 
 ## payment-processing
 
