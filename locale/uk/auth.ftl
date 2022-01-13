@@ -25,6 +25,7 @@
 fxa-privacy-url = Політика Приватності { -brand-mozilla }
 fxa-service-url = Умови користування { -product-firefox-cloud }
 subplat-automated-email = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
+subplat-privacy-notice = Повідомлення про приватність
 subplat-privacy-plaintext = Повідомлення про приватність:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Умови користування { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Правові положення
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Приватність
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Або встановіть на <a data-l10n-name="anotherDeviceLink">інший настільний пристрій</a>.
 another-device = Або встановіть на <a data-l10n-name="anotherDeviceLink">інший пристрій</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Якщо ви підозрюєте, що хтось 
 user-ip = IP-адреса: { $ip }
 manage-account = Керування обліковим записом
 manage-account-plaintext = { manage-account }:
+payment-details = Подробиці платежу:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Номер рахунку: { $invoiceNumber }
