@@ -362,6 +362,18 @@ plan-details-header = Produktdetails
 plan-details-show-button = Details toane
 plan-details-hide-button = Details ferstopje
 plan-details-total-label = Totaal
+plan-details-list-price = Normale priis
+
+## coupons
+
+coupon-discount = Koarting
+coupon-discount-applied = Koartingsbeleaning tapast
+coupon-submit = Tapasse
+coupon-remove = Fuortsmite
+coupon-error = De ynfierde koartingskoade is ûnjildich of ferrûn.
+coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
+coupon-enter-code =
+    .placeholder = Koade ynfiere
 
 ## payment-processing
 
