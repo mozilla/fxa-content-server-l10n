@@ -353,6 +353,7 @@ plan-details-list-price = 标价
 ## coupons
 
 coupon-discount = 折扣
+coupon-discount-applied = 已使用折扣奖励
 coupon-submit = 应用
 coupon-remove = 移除
 coupon-error = 您输入的折扣码无效或已过期。
