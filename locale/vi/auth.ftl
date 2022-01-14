@@ -25,6 +25,7 @@
 fxa-privacy-url = Chính sách bảo mật của { -brand-mozilla }
 fxa-service-url = Điều khoản dịch vụ của { -product-firefox-cloud }
 subplat-automated-email = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
+subplat-privacy-notice = Chính sách riêng tư
 subplat-privacy-plaintext = Thông báo bảo mật:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Điều khoản dịch vụ của { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Pháp lý
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Riêng tư
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị máy tính để bàn khác</a>.
 another-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị khác</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Nếu bạn nghi ngờ rằng ai đó đang cố tru
 user-ip = Địa chỉ IP: { $ip }
 manage-account = Quản lý tài khoản
 manage-account-plaintext = { manage-account }:
+payment-details = Chi tiết thanh toán:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Số hóa đơn: { $invoiceNumber }

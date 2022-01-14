@@ -432,6 +432,6 @@ new-user-submit = Theo dõi ngay
 manage-pocket-title = Bạn đang tìm cách đăng ký { -brand-name-pocket } premium?
 manage-pocket-body = Để quản lý nó, hãy <a>nhấp vào đây</a>.
 payment-method-header = Chọn phương thức thanh toán của bạn
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Chọn phương thức thanh toán của bạn
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Bắt buộc
