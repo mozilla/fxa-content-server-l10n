@@ -368,6 +368,7 @@ plan-details-total-label = Σύνολο
 coupon-discount = Έκπτωση
 coupon-submit = Εφαρμογή
 coupon-remove = Αφαίρεση
+coupon-error = Ο κωδικός που καταχωρίσατε δεν είναι έγκυρος ή έχει λήξει.
 
 ## payment-processing
 
