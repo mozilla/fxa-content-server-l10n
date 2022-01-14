@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
 fxa-service-url = { -product-firefox-cloud } 服務條款
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
+subplat-privacy-notice = 隱私權公告
 subplat-privacy-plaintext = 隱私權保護政策:
 subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
@@ -48,6 +49,7 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-cloud-terms = { -product-firefox-cloud } 服務條款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-legal = 法律資訊
+subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隱私權
 another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
 another-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝。
@@ -70,6 +72,7 @@ change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請�
 user-ip = IP 地址：{ $ip }
 manage-account = 管理帳號
 manage-account-plaintext = { manage-account }：
+payment-details = 付款詳細資訊：
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = 請款單號碼：{ $invoiceNumber }
