@@ -358,6 +358,8 @@ plan-details-list-price = Liste des prix
 
 ## coupons
 
+coupon-discount = Remise
+coupon-discount-applied = Remise appliquée
 coupon-submit = Appliquer
 coupon-remove = Supprimer
 coupon-error = Le code que vous avez saisi est invalide ou a expiré.
