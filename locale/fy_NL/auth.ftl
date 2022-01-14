@@ -51,6 +51,7 @@ subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridysk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
 another-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar apparaat</a>.
 automated-email-change =
