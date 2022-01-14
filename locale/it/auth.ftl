@@ -29,6 +29,7 @@
 fxa-privacy-url = Informativa sulla privacy  di { -brand-mozilla }
 fxa-service-url = Termini di servizio di { -product-firefox-cloud }
 subplat-automated-email = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+subplat-privacy-notice = Informativa sulla privacy
 subplat-privacy-plaintext = Informativa sulla privacy:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -52,7 +53,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Termini di servizio di { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Note legali
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo desktop</a>.
 another-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo</a>.
 automated-email-change =
@@ -80,6 +83,7 @@ change-password-plaintext = Se ritieni che qualcuno stia tentando di accedere in
 user-ip = Indirizzo IP: { $ip }
 manage-account = Gestisci account
 manage-account-plaintext = { manage-account }:
+payment-details = Dettagli del pagamento:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Numero fattura: { $invoiceNumber }
