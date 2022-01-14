@@ -492,6 +492,6 @@ new-user-submit = Nětko abonować
 manage-pocket-title = Pytaće za premiumowym abonementom { -brand-name-pocket }?
 manage-pocket-body = <a>Klikńće tu</a>, zo byšće rjadował.
 payment-method-header = Wubjerće swoju płaćensku metodu
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Wubjerće swoju płaćensku metodu
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Trěbny
