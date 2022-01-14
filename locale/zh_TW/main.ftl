@@ -436,6 +436,6 @@ new-user-submit = 立刻訂閱
 manage-pocket-title = 在尋找您的 { -brand-name-pocket } Premium 訂閱嗎？
 manage-pocket-body = 若要管理，<a>請點擊此處</a>。
 payment-method-header = 選擇付款方式
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } 選擇付款方式
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = 必填

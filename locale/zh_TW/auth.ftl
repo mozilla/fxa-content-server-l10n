@@ -51,6 +51,7 @@ subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-legal = 法律資訊
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隱私權
+subplat-privacy-website-plaintext = { subplat-privacy }：
 another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
 another-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝。
 automated-email-change = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="passwordChangeLink">請立即更改密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
