@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2019-06-18 01:19+0000\n"
-"Last-Translator: Kristján Geir Mathiesen <k@kasma.is>\n"
+"PO-Revision-Date: 2022-01-14 17:03+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "%(permissionName)s (krafist)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Netfang"
+msgstr "Tölvupóstfang"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
-msgstr ""
+msgstr "Tengt"
 
 #: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: .es5/views/support.js:266 .es5/templates/support.mustache:9
 msgid "Other"
-msgstr ""
+msgstr "Annað"
 
 #: .es5/views/support.js:267
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -131,7 +131,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
-msgstr ""
+msgstr "Byrja vafur"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -155,7 +155,7 @@ msgstr "ekkert"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Síðast athugað: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -179,11 +179,11 @@ msgstr "Opna Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Fela lykilorð"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Birta lykilorð"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "tæknileg vandamál"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
@@ -271,11 +271,11 @@ msgstr "Netföng"
 
 #: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
-msgstr ""
+msgstr "Greiðslukort"
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
@@ -379,7 +379,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:127
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Ógilt símanúmer"
 
 #: .es5/lib/auth-errors.js:131
 msgid "Cannot send to this country"
@@ -391,11 +391,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr ""
+msgstr "Tölvupósturinn þinn var endursendur"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Tölvupósturinn þinn var endursendur. Rangt skrifað tölvupóstfang?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
@@ -519,7 +519,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Ógildur eða útrunninn staðfestingarkóði"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
-msgstr ""
+msgstr "Staðfestingartengill er skemmdur"
 
 #: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
@@ -688,7 +688,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
-msgstr ""
+msgstr "Settu inn staðfestingarkóða"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
@@ -712,7 +712,7 @@ msgstr ""
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr ""
+msgstr "Rangt skrifað tölvupóstfang?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -836,17 +836,15 @@ msgstr ""
 
 #: .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
-msgstr ""
+msgstr "Ógilt teikn"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Hjálp</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -870,11 +868,11 @@ msgstr ""
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Ógild beiðni"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "500 villa"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -911,8 +909,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -938,7 +935,7 @@ msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Kanna nánar"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
@@ -976,11 +973,11 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
-msgstr ""
+msgstr "Nýtt lykilorð"
 
 #: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr ""
+msgstr "Settu aftur inn lykilorðið"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
@@ -996,7 +993,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
-msgstr ""
+msgstr "Staðfestingartengill er útrunninn"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
@@ -1004,7 +1001,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
-msgstr ""
+msgstr "Villa í staðfestingu"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1030,7 +1027,7 @@ msgstr ""
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
-msgstr ""
+msgstr "Til baka"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1043,7 +1040,7 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Settu inn staðfestingarkóða"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
@@ -1056,12 +1053,12 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr ""
+msgstr "Settu inn 6-stafa kóða"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
-msgstr ""
+msgstr "Sannreyna"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1122,11 +1119,11 @@ msgstr ""
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
-msgstr ""
+msgstr "Reyna aftur"
 
 #: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up_password.mustache:7
 msgid "Password"
-msgstr ""
+msgstr "Lykilorð"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
@@ -1134,11 +1131,11 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
-msgstr ""
+msgstr "Nota annan notandaaðgang"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12
 msgid "Forgot password?"
-msgstr ""
+msgstr "Gleymt lykilorð?"
 
 #: .es5/templates/index.mustache:1
 msgid "Enter your email"
@@ -1146,13 +1143,13 @@ msgstr ""
 
 #: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr ""
+msgstr "Tölvupóstur"
 
 #: .es5/templates/index.mustache:6 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
 #: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
-msgstr ""
+msgstr "Halda áfram"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1164,16 +1161,16 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
-msgstr ""
+msgstr "Sækja"
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
-msgstr ""
+msgstr "Afrita"
 
 #: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
-msgstr ""
+msgstr "Prenta"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
@@ -1189,11 +1186,11 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
-msgstr ""
+msgstr "Endurheimtukóði"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
-msgstr ""
+msgstr "Staðfesta"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1229,23 +1226,23 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Skanna frekar QR-kóða?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
-msgstr ""
+msgstr "Öryggiskóði"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
-msgstr ""
+msgstr "Tilbúið"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
-msgstr ""
+msgstr "Lagalegt"
 
 #: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
 msgid "Terms of Service"
-msgstr ""
+msgstr "Þjónustuskilmálar"
 
 #: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
 msgid "Privacy Notice"
@@ -1258,16 +1255,16 @@ msgstr ""
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr ""
+msgstr "Sækja Firefox fyrir iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr ""
+msgstr "Sækja Firefox fyrir Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
+msgstr "Sækja Firefox fyrir snjalltæki."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -1279,16 +1276,16 @@ msgstr ""
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Samþykkja"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
 #: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Hætta við"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Tókst"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
@@ -1334,7 +1331,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Nýleg virkni"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -1346,19 +1343,19 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
-msgstr ""
+msgstr "Staðfest"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Búið til í"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Eyða atburðum"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Til baka í stillingar"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
@@ -1444,11 +1441,11 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
-msgstr ""
+msgstr "Breyta tölvupóstfangi"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
-msgstr ""
+msgstr "Endurtaka lykilorð"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
@@ -1460,7 +1457,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
-msgstr ""
+msgstr "Stofna notandaaðgang"
 
 #: .es5/templates/sign_up_password.mustache:18
 msgid ""
@@ -1485,7 +1482,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
-msgstr ""
+msgstr "Senda"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
@@ -1497,7 +1494,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
-msgstr ""
+msgstr "Ekki núna"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
@@ -1513,7 +1510,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Rangt númer?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
@@ -1537,11 +1534,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
-msgstr ""
+msgstr "Áskriftir"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Hafðu samband við okkur"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
@@ -1565,7 +1562,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Tæknileg vandamál"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
@@ -1597,7 +1594,7 @@ msgstr ""
 
 #: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
-msgstr ""
+msgstr "Náði því"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1617,7 +1614,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
-msgstr ""
+msgstr "Settu inn lykilorð"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
@@ -1665,16 +1662,16 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr ""
+msgstr "Auka-tölvupóstur"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
-msgstr ""
+msgstr "Kannski síðar"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Nota annað tölvupóstfang"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -1695,15 +1692,15 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
-msgstr ""
+msgstr "Gamla lykilorðið"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Settu aftur inn nýja lykilorðið"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
-msgstr ""
+msgstr "Breyta lykilorði"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
@@ -1731,16 +1728,16 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Settu inn lykilorð"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr ""
+msgstr "Staðfestu lykilorð"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Útbúa lykilorð"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1752,7 +1749,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
-msgstr ""
+msgstr "Nota SMS í staðinn"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
@@ -1768,7 +1765,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Komast í gang"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
@@ -1784,7 +1781,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Tilbúið til skönnunar"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
@@ -1804,7 +1801,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "Skráðu þig inn á notandaaðganginn þinn"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -1824,7 +1821,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Verndaðu gögnin þín með endurheimtingarlykli"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1836,7 +1833,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr ""
+msgstr "Fáðu endurheimtingarlykil"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
@@ -1848,39 +1845,39 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Vista endurheimtingarlykil"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
-msgstr ""
+msgstr "Lokið"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
-msgstr ""
+msgstr "Hvaða aldri ertu á?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(family)s á %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s (áætlað)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (áætlað)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
-msgstr ""
+msgstr "%(country)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:11
 msgid "Location unknown"
-msgstr ""
+msgstr "Óþekkt staðsetning"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
+msgstr "IP-vistfang: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
@@ -1888,7 +1885,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Firefox vafrinn"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
@@ -1896,7 +1893,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
@@ -1904,7 +1901,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
@@ -1912,7 +1909,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
@@ -1920,7 +1917,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "Sjá allt"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -1992,7 +1989,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
-msgstr ""
+msgstr "Birta kóða"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2008,11 +2005,11 @@ msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Staðfestu pörun"
 
 #: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
 msgid "Pair using an app"
-msgstr ""
+msgstr "Para með forriti"
 
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
