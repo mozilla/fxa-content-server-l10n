@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla }-Datenschutzerklärung
 fxa-service-url = Nutzungsbedingungen für { -product-firefox-cloud }
 subplat-automated-email = Dies ist eine automatisierte E-Mail; wenn Sie diese fälschlicherweise erhalten haben, müssen Sie nichts tun.
+subplat-privacy-notice = Datenschutzhinweis
 subplat-privacy-plaintext = Datenschutzerklärung:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -76,6 +77,7 @@ change-password-plaintext = Wenn Sie den Verdacht haben, dass jemand auf Ihr Kon
 user-ip = IP-Adresse: { $ip }
 manage-account = Benutzerkonto verwalten
 manage-account-plaintext = { manage-account }:
+payment-details = Zahlungsdetails:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Rechnungsnummer: { $invoiceNumber }
