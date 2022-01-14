@@ -452,6 +452,6 @@ new-user-submit = Eñemboheraguapy Ko’ág̃a
 manage-pocket-title = ¿Eheka ne ñemboheraguapy guasu { -brand-name-pocket } pegua?
 manage-pocket-body = Eñangarekokuaa hag̃ua, <a>eikutu ápe</a>.
 payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Eiporavo mba’éichapa ehepyme’ẽta
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Tekotevẽva

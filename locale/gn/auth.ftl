@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } Ñemigua Purureko
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
+subplat-privacy-notice = Marandu’i ñemiguáva
 subplat-privacy-plaintext = Ñemigua purureko:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = { -product-firefox-cloud } Mba’epururã rehegua
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Añete
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ñemigua
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
 another-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambu
 user-ip = IP kundaharape: { $ip }
 manage-account = Mba’ete ñangareko
 manage-account-plaintext = { manage-account }:
+payment-details = Mba’éicha ehepyme’ẽta:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Ñemuhague papapy: { $invoiceNumber }
