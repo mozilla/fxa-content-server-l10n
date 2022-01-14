@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla }-privacybeleid
 fxa-service-url = Servicevoorwaarden voor { -product-firefox-cloud }
 subplat-automated-email = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
+subplat-privacy-notice = Privacyverklaring
 subplat-privacy-plaintext = Privacyverklaring:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Servicevoorwaarden voor { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisch
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander desktopapparaat</a>.
 another-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander apparaat</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Als u vermoedt dat iemand toegang tot uw account pro
 user-ip = IP-adres: { $ip }
 manage-account = Account beheren
 manage-account-plaintext = { manage-account }:
+payment-details = Betalingsgegevens:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Factuurnummer: { $invoiceNumber }
