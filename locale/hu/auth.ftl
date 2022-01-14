@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
 subplat-automated-email = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
+subplat-privacy-notice = Adatvédelmi nyilatkozat
 subplat-privacy-plaintext = Adatvédelmi nyilatkozat:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = A { -product-firefox-cloud } szolgáltatási feltételei
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Jogi információk
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
 another-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáf�
 user-ip = IP-cím: { $ip }
 manage-account = Fiók kezelése
 manage-account-plaintext = { manage-account }:
+payment-details = Fizetési részletek:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Díjbekérő száma: { $invoiceNumber }

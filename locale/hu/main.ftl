@@ -452,6 +452,6 @@ new-user-submit = Előfizetés most
 manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
 manage-pocket-body = A kezeléséhez <a>kattintson ide</a>.
 payment-method-header = Válassza ki a fizetési módot
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Válassza ki a fizetési módot
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Kötelező
