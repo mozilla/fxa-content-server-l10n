@@ -49,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Nutzungsbedingungen für { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Rechtliches
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Datenschutz
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Desktop-Gerät</a> durch.
 another-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Gerät</a> durch.
 automated-email-change =
