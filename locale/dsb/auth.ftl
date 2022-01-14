@@ -25,6 +25,7 @@
 fxa-privacy-url = Pšawidła priwatnosći { -brand-mozilla }
 fxa-service-url = Wužywańske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
+subplat-privacy-notice = Powěźeńka priwatnosći
 subplat-privacy-plaintext = Powěźeńka priwatnosći:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Wužywańske wuměnjenja za { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Pšawniske
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Abo instalujěrśo na <a data-l10n-name="anotherDeviceLink">drugem desktopowem rěźe</a>.
 another-device = Abo instalěrujśo na <a data-l10n-name="anotherDeviceLink">drugem rěźe</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wa
 user-ip = IP-adresa: { $ip }
 manage-account = Konto zastojaś
 manage-account-plaintext = { manage-account }:
+payment-details = Płaśeńske drobnostki:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Numer zliceńki: { $invoiceNumber }
