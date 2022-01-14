@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } 隐私政策
 fxa-service-url = { -product-firefox-cloud } 服务条款
 subplat-automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
+subplat-privacy-notice = 隐私声明
 subplat-privacy-plaintext = 隐私声明：
 subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }：
 subplat-cloud-terms = { -product-firefox-cloud }服务条款
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }：
 subplat-legal = 法律
+subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隐私
+subplat-privacy-website-plaintext = { subplat-privacy }：
 another-desktop-device = 或到<a data-l10n-name="anotherDeviceLink">另一桌面设备</a>安装。
 another-device = 或到<a data-l10n-name="anotherDeviceLink">另一设备</a>安装。
 automated-email-change = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="passwordChangeLink">请立即更改密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
@@ -70,6 +73,7 @@ change-password-plaintext = 如果您怀疑有人在试图访问您的账户，�
 user-ip = IP 地址：{ $ip }
 manage-account = 管理账号
 manage-account-plaintext = { manage-account }：
+payment-details = 付款详情：
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = 发票号码：{ $invoiceNumber }
