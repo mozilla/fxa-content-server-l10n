@@ -44,6 +44,17 @@ change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilille
 #  $ip (Number) - User's IP address
 user-ip = IP-osoite: { $ip }
 manage-account = Hallinnoi tiliä
+payment-details = Maksun tiedot:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Laskun numero: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Veloitettu: { $invoiceTotal } { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Maksutapa:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -66,6 +77,9 @@ cadReminderFirst-title = Tässä muistutus laitteidesi synkronoimiseksi.
 cadReminderSecond-subject = Viimeinen muistutus: Määritä synkronoinnin asetukset valmiiksi
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title = Viimeinen muistutus laitteidesi synkronoimiseksi!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Lataa { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
@@ -117,7 +131,7 @@ postRemoveAccountRecovery-invalid = Tätä palautusavainta ei voi enää käytt�
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 postRemoveSecondary-action = Hallinnoi tiliä
-postRemoveTwoStepAuthentication-subject = Kaksivaiheinen vahvistus on pois käytöstä
+postRemoveTwoStepAuthentication-subject-line = Kaksivaiheinen todennus on pois käytöstä
 postRemoveTwoStepAuthentication-title = Kaksivaiheinen todennus poistettu käytöstä
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
@@ -135,8 +149,14 @@ recovery-title = Tarvitseeko sinun nollata salasanasi?
 recovery-description = Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:
 recovery-action = Luo uusi salasana
 subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
+# COMMENT ABOUT After the colon,
+payment-details = Maksun tiedot:
+subscriptionAccountFinishSetup-action = Luo salasana
+subscriptionAccountReminderFirst-action = Luo salasana
+subscriptionAccountReminderSecond-action = Luo salasana
 subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
 subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
+subscriptionFailedPaymentsCancellation-title = Tilauksesi on peruttu
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
@@ -150,6 +170,9 @@ subscriptionFirstInvoice-content-charge = Veloitettu { $invoiceTotal } { $invoic
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
 subscriptionPaymentExpired-title = Luottokorttisi vanhenee pian
 subscriptionsPaymentExpired-subject = Tilauksiin käyttämäsi luottokortti vanhenee pian
 subscriptionsPaymentExpired-title = Luottokorttisi vanhenee pian

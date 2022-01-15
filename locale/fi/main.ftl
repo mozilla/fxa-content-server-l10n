@@ -312,6 +312,18 @@ plan-details-header = Tuotteen tiedot
 plan-details-show-button = Näytä tiedot
 plan-details-hide-button = Piilota tiedot
 plan-details-total-label = Yhteensä
+plan-details-list-price = Listahinta
+
+## coupons
+
+coupon-discount = Alennus
+coupon-discount-applied = Alennuspalkkio sovellettu
+coupon-submit = Käytä
+coupon-remove = Poista
+coupon-error = Antamasi koodi on virheellinen tai vanhentunut.
+coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
+coupon-enter-code =
+    .placeholder = Kirjoita koodi
 
 ## payment-processing
 
@@ -390,6 +402,6 @@ new-user-submit = Tilaa nyt
 manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?
 manage-pocket-body = Hallinnoi sitä <a>napsauttamalla tästä</a>.
 payment-method-header = Valitse maksutapa
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Valitse maksutapa
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Pakollinen
