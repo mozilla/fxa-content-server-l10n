@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
 fxa-service-url = { -product-firefox-cloud } -käyttöehdot
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+subplat-privacy-notice = Tietosuojakäytäntö
 subplat-privacy-plaintext = Tietosuojaseloste:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
@@ -93,6 +94,7 @@ passwordChangeRequired-title = Salasanan vaihto vaaditaan
 passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
 passwordChangeRequired-different-password = <b>Tärkeää:</b> Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 passwordChangeRequired-signoff = Terveisin
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } -tiimi
 passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 passwordReset-subject = Salasana päivitetty
 passwordReset-title = Tilisi salasana vaihdettiin
@@ -148,15 +150,27 @@ recovery-subject = Nollaa salasanasi
 recovery-title = Tarvitseeko sinun nollata salasanasi?
 recovery-description = Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:
 recovery-action = Luo uusi salasana
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = { $productName } -tilauksesi on peruttu
 subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
 # COMMENT ABOUT After the colon,
 payment-details = Maksun tiedot:
 subscriptionAccountFinishSetup-action = Luo salasana
+subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
+subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
 subscriptionAccountReminderFirst-action = Luo salasana
+subscriptionAccountReminderSecond-subject = Viimeinen muistutus: määritä tilisi
 subscriptionAccountReminderSecond-action = Luo salasana
 subscriptionCancellation-title = Ikävä nähdä sinun lähtevän
 subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 subscriptionFailedPaymentsCancellation-title = Tilauksesi on peruttu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } -maksu vahvistettu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Kiitos, että tilasit { $productName } -palvelun
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
@@ -171,9 +185,38 @@ subscriptionFirstInvoice-content-charge = Veloitettu { $invoiceTotal } { $invoic
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = { $productName } -maksu vahvistettu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Kiitos, että tilasit { $productName } -palvelun
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
+# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Kerta-alennus: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 subscriptionPaymentExpired-title = Luottokorttisi vanhenee pian
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } -maksu epäonnistui
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } -tilaus aktivoitu uudelleen
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Kiitos että aktivoit { $productName } -tilauksen uudelleen!
+subscriptionRenewalReminder-title = Tilauksesi uusitaan pian
 subscriptionsPaymentExpired-subject = Tilauksiin käyttämäsi luottokortti vanhenee pian
 subscriptionsPaymentExpired-title = Luottokorttisi vanhenee pian
 subscriptionsPaymentExpired-content = Seuraaviin tilauksiin käyttämäsi luottokortti vanhenee pian.
@@ -214,6 +257,9 @@ verify-subject = Viimeistele tilisi luominen
 verify-action = Vahvista sähköposti
 verifyLogin-description = Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:
 verifyLogin-action = Vahvista kirjautuminen
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyLoginCode-subject = Vahvistuskoodi: { $code }
 verifyLoginCode-title = Kirjaudutko sinä sisään?
 verifyLoginCode-prompt = Jos kyllä, tässä on vahvistuskoodi:
 verifyLoginCode-expiry-notice = Se vanhenee viidessä minuutissa.
