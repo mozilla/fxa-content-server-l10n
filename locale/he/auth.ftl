@@ -29,6 +29,7 @@
 fxa-privacy-url = מדיניות הפרטיות של { -brand-mozilla }
 fxa-service-url = תנאי השירות של { -product-firefox-cloud }
 subplat-automated-email = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
+subplat-privacy-notice = הצהרת פרטיות
 subplat-privacy-plaintext = הצהרת פרטיות:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -52,7 +53,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = תנאי השירות של { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = מידע משפטי
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-change =
     זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>.
     למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
@@ -78,6 +81,7 @@ change-password-plaintext = אם קיים חשש  שמישהו מנסה להשי
 user-ip = כתובת IP:‏ { $ip }
 manage-account = ניהול חשבון
 manage-account-plaintext = { manage-account }:
+payment-details = פרטי תשלום:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = מספר חשבונית: { $invoiceNumber }
