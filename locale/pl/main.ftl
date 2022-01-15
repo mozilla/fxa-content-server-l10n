@@ -487,6 +487,6 @@ new-user-submit = Subskrybuj
 manage-pocket-title = Szukasz swojej subskrypcji premium { -brand-name-pocket }?
 manage-pocket-body = Aby ją zarządzać, <a>kliknij tutaj</a>.
 payment-method-header = Wybierz metodę płatności
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Wybierz metodę płatności
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Wymagane
