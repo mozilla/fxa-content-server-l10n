@@ -270,7 +270,7 @@ postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Úspešne ste overili { $secondaryEmail } ako alternatívnu e-mailovú adresu vášho { -product-firefox-account(case: "gen", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy.
+postVerifySecondary-content = Úspešne ste overili adresu { $secondaryEmail } ako alternatívnu e-mailovú adresu pre váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy.
 postVerifySecondary-action = Spravovať účet
 recovery-subject = Obnovenie hesla
 recovery-title = Potrebujete obnoviť svoje heslo?
@@ -286,8 +286,16 @@ payment-details = Platobné údaje:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Víta vás { $productName }
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Mrzí nás, že odchádzate
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať { $productNameNew }, dostanete samostatný e-mail s pokynmi na stiahnutie.
 subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Vaše predplatné { $productName } bolo zrušené
+subscriptionFailedPaymentsCancellation-title = Vaše predplatné bolo zrušené
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Číslo faktúry: <b>{ $invoiceNumber }</b>
@@ -421,7 +429,7 @@ verifyPrimary-action = Overiť e-mailovú adresu
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy.
 verifySecondary-subject = Potvrdenie alternatívnej e-mailovej adresy
-verifySecondary-title = Overiť alternatívnu e-mailovú adresu
+verifySecondary-title = Overenie alternatívnej e-mailovej adresy
 # Variables:
 #  $email (String) - A user's unverified secondary email address
 verifySecondary-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
@@ -429,7 +437,7 @@ verifySecondary-action = Overiť e-mailovú adresu
 verifySecondary-prompt = { verifySecondary-action }:
 verifySecondary-post-verification = Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
 verifySecondaryCode-subject = Potvrdenie alternatívnej e-mailovej adresy
-verifySecondaryCode-title = Overiť alternatívnu e-mailovú adresu
+verifySecondaryCode-title = Overenie alternatívnej e-mailovej adresy
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
