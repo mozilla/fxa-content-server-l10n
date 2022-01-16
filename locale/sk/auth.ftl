@@ -358,7 +358,11 @@ subscriptionFirstInvoiceDiscount-content-next-invoice = Ďalšia faktúra: { $ne
 subscriptionPaymentExpired-subject = Platnosť kreditnej karty pre { $productName } čoskoro vyprší
 subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
 subscriptionPaymentFailed-title = Ľutujeme, máme problém s vašou platbou
+subscriptionPaymentFailed-content-outdated = Mohlo sa stať, že platnosť vašej kreditnej karty vypršala alebo je váš aktuálny spôsob platby zastaraný.
 subscriptionPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Zistili sme problém s vaším spôsobom platby za { $productName }.
 subscriptionPaymentProviderCancelled-content-reason = Mohlo sa stať, že platnosť vašej kreditnej karty vypršala alebo je váš aktuálny spôsob platby zastaraný.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
