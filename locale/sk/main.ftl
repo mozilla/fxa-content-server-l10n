@@ -60,6 +60,7 @@ card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, z
 ##  $productName (String) - The name of the subscribed product.
 
 newsletter-signup-error = Nie ste zaregistrovaný na odber e-mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
+fxa-post-passwordless-sub-error = Predplatné bolo potvrdené, ale nepodarilo sa načítať stránku s potvrdením. Skontrolujte svoj e-mail a nastavte si účet.
 
 ## settings
 
@@ -76,6 +77,9 @@ terms-download = Stiahnuť podmienky
 
 subscription-create-title = Nastavte si predplatné
 subscription-success-title = Potvrdenie predplatného
+subscription-processing-title = Potvrdzuje sa odber...
+subscription-error-title = Chyba pri potvrdzovaní predplatného…
+subscription-noplanchange-title = Táto zmena plánu predplatného nie je podporovaná
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -83,13 +87,19 @@ subscription-success-title = Potvrdenie predplatného
 
 ## Product route
 
+product-plan-error =
+    .title = Problém s načítaním plánov
 product-profile-error =
     .title = Problém s načítaním profilu
+product-customer-error =
+    .title = Problém s načítaním zákazníka
 product-plan-not-found = Plán nebol nájdený
+product-no-such-plan = Pre tento produkt takýto plán neexistuje.
 
 ## payment legal blurb
 
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-link-paypal-2 = <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
 payment-legal-link-stripe-3 = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink>
 
 ## payment form

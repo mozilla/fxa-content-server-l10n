@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-16 19:41+0000\n"
+"PO-Revision-Date: 2022-01-16 19:45+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -997,11 +997,11 @@ msgstr "Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší"
 
 #: lib/senders/email.js:2324
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Vyžaduje sa aktualizácia platobných údajov pre %(productName)s"
 
 #: lib/senders/email.js:2340
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Vyžaduje sa aktualizácia platobných údajov pre predplatné Mozilly"
 
 #: lib/senders/email.js:2386
 msgid "%(productName)s payment failed"
@@ -1033,7 +1033,7 @@ msgstr "Stiahnuť %(productName)s"
 
 #: lib/senders/email.js:3042
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Vaša priateľská pripomienka: ako dokončiť nastavenie synchronizácie"
 
 #: lib/senders/email.js:3043
 msgid "Final Reminder: Complete Sync Setup"
