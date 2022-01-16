@@ -107,6 +107,7 @@
 fxa-privacy-url = Zásady ochrany súkromia { -brand-mozilla(case: "gen") }
 fxa-service-url = Podmienky poskytovania služby { -product-firefox-cloud }
 subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+subplat-privacy-notice = Zásady ochrany súkromia
 subplat-privacy-plaintext = Zásady ochrany súkromia:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Podmienky používania a zrušenia
@@ -121,7 +122,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Podmienky poskytovania služby { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Právne informácie
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Súkromie
+subplat-privacy-website-plaintext = { subplat-privacy }:
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
@@ -134,6 +137,7 @@ change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neopráv
 user-ip = IP adresa: { $ip }
 manage-account = Spravovať účet
 manage-account-plaintext = { manage-account }:
+payment-details = Platobné údaje:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Číslo faktúry: { $invoiceNumber }
