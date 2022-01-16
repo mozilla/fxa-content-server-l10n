@@ -296,6 +296,7 @@ subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaše predplatné { $productName } bolo zrušené
 subscriptionFailedPaymentsCancellation-title = Vaše predplatné bolo zrušené
+subscriptionFirstInvoice-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Číslo faktúry: <b>{ $invoiceNumber }</b>
@@ -332,9 +333,17 @@ subscriptionFirstInvoiceDiscount-content-next-invoice = Ďalšia faktúra: { $ne
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Platnosť kreditnej karty pre { $productName } čoskoro vyprší
 subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+subscriptionPaymentFailed-title = Ľutujeme, máme problém s vašou platbou
+subscriptionPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
+subscriptionPaymentProviderCancelled-content-reason = Mohlo sa stať, že platnosť vašej kreditnej karty vypršala alebo je váš aktuálny spôsob platby zastaraný.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Predplatné pre { $productName } bolo znova aktivované
+subscriptionRenewalReminder-title = Vaše predplatné bude čoskoro obnovené
+subscriptionRenewalReminder-content-closing = S pozdravom,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Tím { $productName }
 subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší
 subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
 subscriptionsPaymentExpired-content = Platnosť kreditnej karty, ktorú používate na platby za nasledujúce predplatné, čoskoro vyprší.
