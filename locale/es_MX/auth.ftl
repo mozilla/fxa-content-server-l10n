@@ -25,12 +25,16 @@
 fxa-privacy-url = Política de Privacidad de { -brand-mozilla }
 fxa-service-url = Términos del servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
+subplat-privacy-notice = Aviso de privacidad
 subplat-privacy-plaintext = Aviso de privacidad:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Estás recibiendo este correo electrónico porque { $email } tiene una { -product-firefox-account }.
 subplat-explainer-multiple = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para múltiples productos.
 subplat-manage-account = Administra los ajustes de tu cuenta de { -product-firefox-account } visitando tu<a data-l10n-name="subplat-account-page">página de la cuenta</a>.
 subplat-terms-policy = Términos y política de cancelación
@@ -45,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Términos del servicio de { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Legal
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidad
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = O, instálalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo de escritorio</a>.
 another-device = O, instálalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
 automated-email-change =
@@ -73,6 +79,7 @@ change-password-plaintext = Si sospechas que alguien está tratando de acceder a
 user-ip = Dirección IP: { $ip }
 manage-account = Administrar cuenta
 manage-account-plaintext = { manage-account }:
+payment-details = Detalles del pago:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Número de factura: { $invoiceNumber }
