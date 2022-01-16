@@ -79,6 +79,17 @@ change-password-plaintext = Hvis du har mistanke om, at nogen forsøger at få a
 user-ip = IP-adresse: { $ip }
 manage-account = Håndter konto
 manage-account-plaintext = { manage-account }:
+payment-details = Betalingsdetaljer:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Fakturanummer: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Opkrævet: { $invoiceTotal } den { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Næste faktura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Betalingsmetode:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -89,6 +100,14 @@ card-ending-in = { $cardType }-kort, der ender på { $lastFour }
 subscriptionSupport = Har du spørgsmål til dit abonnement? Vores <a data-l10n-name="subscriptionSupportUrl">supportteam</a> står klar til at hjælpe dig.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørgsmål om dit abonnement? Vores supportteam står klar til at hjælpe dig:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Tak fordi du abonnerer på { $productName }. Hvis du har nogle spørgsmål om dit abonnement eller brug for mere information om { $productName }, så <a data-l10n-name="subscriptionSupportUrl">kontakt os</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Tak fordi du abonnerer på { $productName }. Hvis du har nogle spørgsmål om dit abonnement eller har brug for mere information om { $productName }, så kontakt os:
+subscriptionUpdateBillingTry = Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at <a data-l10n-name="updateBillingUrl">opdatere dine betalingsinformationer</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at opdatere dine betalingsinformationer:
 subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Opdater dine betalingsinformationer</a> så hurtigt som muligt for at undgå afbrydelse af din tjeneste.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
@@ -108,6 +127,18 @@ cadReminderSecond-subject = Sidste påmindelse: Færdiggør opsætning af Sync
 cadReminderSecond-action = Synkroniser en enhed til
 cadReminderSecond-title = Sidste påmindelse om at synkronisere enheder!
 cadReminderSecond-description = Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme overalt, hvor du bruger { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Velkommen til { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Velkommen til { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Hvis du ikke allerede har hentet { $productName }, så lad os komme i gang med at bruge alle de funktioner, som følger med dit abonnement:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Hent { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få genoprettelseskoder tilbage
 codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
@@ -184,6 +215,7 @@ postRemoveSecondary-title = Sekundær mailadresse fjernet
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveSecondary-action = Håndter konto
+postRemoveTwoStepAuthentication-subject-line = Totrinsgodkendelse er slået fra
 postRemoveTwoStepAuthentication-title = Totrinsgodkendelse deaktiveret
 postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
 postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
@@ -200,6 +232,9 @@ postVerify-action = Opsæt næste enhed
 postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = Sekundær mailadresse tilføjet
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
@@ -214,6 +249,26 @@ subscriptionAccountDeletion-title = Vi er kede af, at du opsiger dit abonnement
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du har for nylig slettet din { -product-firefox-account }. Derfor har vi annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Betalingsdetaljer:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Angiv din adgangskode.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Velkommen til { $productName }
+subscriptionAccountFinishSetup-content-processing = Din betaling behandles og kan tage op til fire arbejdsdage at gennemføre. Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
+subscriptionAccountFinishSetup-action = Opret en adgangskode
+subscriptionAccountReminderFirst-subject = Påmindelse: Færdiggør opsætningen af din konto
+subscriptionAccountReminderFirst-title = Du kan ikke få adgang til dit abonnement endnu
+subscriptionAccountReminderFirst-content-select = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
+subscriptionAccountReminderFirst-action = Opret adgangskode
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Sidste påmindelse: Opsæt din konto
+subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
+subscriptionAccountReminderSecond-content-select = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
+subscriptionAccountReminderSecond-action = Opret adgangskode
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Dit abonnement på { $productName } er blevet annulleret
@@ -232,9 +287,20 @@ subscriptionDowngrade-subject = Du har skiftet til { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Du har skiftet fra { $productNameOld } til { $productNameNew }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }. På det tidspunkt vil du også få godskrevet et engangsbeløb på { $paymentProrated } for at afspejle den lavere opkrævning for resten af dette { $productPaymentCycleOld }.
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
 subscriptionDowngrade-content-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Dit abonnement på { $productName } er blevet annulleret
+subscriptionFailedPaymentsCancellation-title = Dit abonnement er blevet annulleret
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Betaling for { $productName } bekræftet
@@ -259,6 +325,36 @@ subscriptionFirstInvoice-content-charge = Opkrævet { $invoiceTotal } den { $inv
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Næste faktura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Betaling for { $productName } bekræftet
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Tak fordi du abonnerer på { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Din betaling behandles i øjeblikket og kan tage op til fire arbejdsdage at fuldføre.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Du vil modtage en separat mail med vejledning i, hvordan du henter og begynder at bruge { $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Fakturanummer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Engangsrabat: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Opkrævet { $invoiceTotal } den { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Næste faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Betalingskort for { $productName } udløber snart
@@ -292,6 +388,17 @@ subscriptionReactivation-title = Tak fordi du har fornyet dit abonnement på { $
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Frekvensen af faktureringer og dine betalinger ændrer sig ikke. Din næste opkrævning er på { $invoiceTotal } og vil blive trukket { $nextInvoiceDateOnly }. Dit abonnement er fortløbende og bliver automatisk fornyet, hvis du ikke annullerer det.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Meddelelse om automatisk fornyelse af { $productName }
+subscriptionRenewalReminder-title = Dit abonnement vil snart blive fornyet
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Kære { $productName }-kunde
+subscriptionRenewalReminder-content-closing = Med venlig hilsen
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Holdet bag { $productName }
 subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
 subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
 subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
@@ -330,6 +437,13 @@ subscriptionUpgrade-title = Tak fordi du opgraderer!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Du har opgraderet fra { $productNameOld } til { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }. På det tidspunkt vil du også blive opkrævet et engangsbeløb på { $paymentProrated } for at afspejle den højere opkrævning for resten af dette { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Hvis du skal installere ny software for at bruge { $productNameNew }, vil du modtage en separat mail med vejledning i, hvordan du henter det.

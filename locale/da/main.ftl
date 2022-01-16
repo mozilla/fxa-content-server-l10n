@@ -362,6 +362,18 @@ plan-details-header = Produktdetaljer
 plan-details-show-button = Vis detaljer
 plan-details-hide-button = Skjul detaljer
 plan-details-total-label = I alt
+plan-details-list-price = Listepris
+
+## coupons
+
+coupon-discount = Rabat
+coupon-discount-applied = Rabat anvendt
+coupon-submit = Anvend
+coupon-remove = Fjern
+coupon-error = Den angivne kode er ugyldig eller udløbet.
+coupon-success = Din plan fornys automatisk til listeprisen.
+coupon-enter-code =
+    .placeholder = Indtast kode
 
 ## payment-processing
 
@@ -440,6 +452,6 @@ new-user-submit = Abonner nu
 manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
 manage-pocket-body = For at håndtere det, <a>klik her</a>.
 payment-method-header = Vælg din betalingsmetode
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Vælg din betalingsmetode
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Påkrævet
