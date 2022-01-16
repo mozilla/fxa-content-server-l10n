@@ -163,14 +163,19 @@ subscriptionSupport-plaintext = Máte otázky týkajúce sa vášho predplatnéh
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobraziť faktúru: { $invoiceLink }
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
+cadReminderSecond-subject = Záverečná pripomienka: dokončite nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title = Posledná pripomienka na synchronizáciu zariadení!
+cadReminderSecond-description = Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Víta vás { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Víta vás { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Ak ste si ešte nestiahli { $productName }, poďme začať používať všetky funkcie zahrnuté vo vašom predplatnom:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Stiahnuť { $productName }
@@ -289,6 +294,9 @@ subscriptionAccountDeletion-content-cancelled = Nedávno ste odstránili svoj { 
 payment-details = Platobné údaje:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Víta vás { $productName }: nastavte si heslo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Víta vás { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaša platba sa spracováva a jej dokončenie môže trvať až štyri pracovné dni. Vaše predplatné sa automaticky obnoví každé fakturačné obdobie, pokiaľ sa nerozhodnete ho zrušiť.
 # Variables:
@@ -297,6 +305,8 @@ subscriptionAccountFinishSetup-content-create = Ďalej si vytvoríte heslo účt
 subscriptionAccountFinishSetup-action = Vytvoriť heslo
 subscriptionAccountReminderFirst-subject = Pripomienka: dokončite nastavenie účtu
 subscriptionAccountReminderFirst-title = Zatiaľ nemáte prístup k svojmu predplatnému
+subscriptionAccountReminderFirst-content-info = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, no nikdy ste ho neoverili. Dúfame, že dokončíte nastavenie svojho účtu, aby ste mohli používať svoje nové predplatné.
+subscriptionAccountReminderFirst-content-select = Ak chcete nastaviť nové heslo a dokončiť overenie účtu, kliknite na tlačidlo “Vytvoriť heslo”.
 subscriptionAccountReminderFirst-action = Vytvoriť heslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Posledná pripomienka: nastavte si účet
