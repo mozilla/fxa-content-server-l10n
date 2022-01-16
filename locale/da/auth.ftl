@@ -25,12 +25,16 @@
 fxa-privacy-url = { -brand-mozilla }s privatlivspolitik
 fxa-service-url = Servicevilkår for { -product-firefox-cloud }
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
+subplat-privacy-notice = Privatlivspolitik
 subplat-privacy-plaintext = Privatlivspolitik:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har tilmeldt dig { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }.
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har abonneret på flere produkter.
 subplat-manage-account = Håndter indstillingerne for din { -product-firefox-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
 subplat-terms-policy = Betingelser og regler for annullering
@@ -40,8 +44,14 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Forny abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Opdater faktureringsoplysninger
+subplat-privacy-policy = { -brand-mozilla }s privatlivspolitik
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Servicevilkår for { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisk
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatliv
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden computer</a>.
 another-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden enhed</a>.
 automated-email-change =
