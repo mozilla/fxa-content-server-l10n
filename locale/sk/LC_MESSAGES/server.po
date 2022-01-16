@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-16 19:45+0000\n"
+"PO-Revision-Date: 2022-01-16 19:57+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1005,7 +1005,7 @@ msgstr "Vyžaduje sa aktualizácia platobných údajov pre predplatné Mozilly"
 
 #: lib/senders/email.js:2386
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Platba za %(productName)s zlyhala"
 
 #: lib/senders/email.js:2437 lib/senders/email.js:2502 lib/senders/email.js:2563
 msgid "Your %(productName)s subscription has been cancelled"
@@ -1013,7 +1013,7 @@ msgstr "Vaše predplatné produktu %(productName)s bolo zrušené"
 
 #: lib/senders/email.js:2620
 msgid "%(productName)s subscription reactivated"
-msgstr ""
+msgstr "Predplatné pre %(productName)s bolo znova aktivované"
 
 #: lib/senders/email.js:2676
 msgid "%(productName)s automatic renewal notice"
@@ -1021,11 +1021,11 @@ msgstr ""
 
 #: lib/senders/email.js:2756
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Platba za %(productName)s bola prijatá"
 
 #: lib/senders/email.js:2848 lib/senders/email.js:2931
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Platba za %(productName)s bola potvrdená"
 
 #: lib/senders/email.js:3016
 msgid "Download %(productName)s"
