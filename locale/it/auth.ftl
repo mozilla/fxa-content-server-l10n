@@ -142,7 +142,7 @@ downloadSubscription-subject = Benvenuto in { $productName }.
 downloadSubscription-title = Benvenuto in { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Se non hai ancora scaricato { $productName }, inizia a utilizzare le funzionalità incluse nell‘abbonamento:
+downloadSubscription-content = Se non hai ancora scaricato { $productName }, inizia a utilizzare le funzionalità incluse nell’abbonamento:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Scarica { $productName }
