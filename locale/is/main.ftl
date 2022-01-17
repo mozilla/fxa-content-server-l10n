@@ -51,12 +51,29 @@ document =
 
 ## payment form
 
+payment-name =
+    .placeholder = Fullt nafn
+    .label = Nafn þitt eins og það birtist á greiðslukortinu
+payment-cc =
+    .label = Kortið þitt
+payment-ccn =
+    .label = Kortanúmer
+payment-exp =
+    .label = Gildistími
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Póstnúmer
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ##
 
+payment-cancel-btn = Hætta við
+payment-update-btn = Uppfæra
+payment-pay-btn = Greiða núna
+payment-pay-with-paypal-btn = Greiða með { -brand-name-paypal }
 
 ## subscription redirect
 
@@ -90,6 +107,7 @@ document =
 
 ##  $date (Date) - Last day of product access
 
+reactivate-success-button = Loka
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
