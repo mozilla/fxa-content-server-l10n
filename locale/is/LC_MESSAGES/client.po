@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-14 17:03+0000\n"
+"PO-Revision-Date: 2022-01-17 20:36+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -155,7 +155,7 @@ msgstr "ekkert"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr "Síðast athugað: %(lastCheckTime)s"
+msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -1478,7 +1478,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
-msgstr ""
+msgstr "Farsímanúmer"
 
 #: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
 msgid "Send"
@@ -1502,7 +1502,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Við höfum sent þér textaskilboð"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1518,7 +1518,7 @@ msgstr ""
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
-msgstr ""
+msgstr "Kom það ekki? Endursenda"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
@@ -1546,19 +1546,19 @@ msgstr ""
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Veldu a.m.k. eitt atriði"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Hvað vantar þig hjálp við?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr ""
+msgstr "Greiðslu og reikninga"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
-msgstr ""
+msgstr "Vandamál með notandaaðgang"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
@@ -1566,23 +1566,23 @@ msgstr "Tæknileg vandamál"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Senda ábendingar / biðja um nýja eiginleika"
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Ekki á listanum"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Þarftu hjálp við sérstakt forrit eða þjónustu? (valfrjálst)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Viðfangsefni (valfrjálst)"
 
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
-msgstr ""
+msgstr "Lýsing á vandamálinu"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1602,7 +1602,7 @@ msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Samstilla þetta tæki"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1618,7 +1618,7 @@ msgstr "Settu inn lykilorð"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Tenging tókst"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
@@ -1630,7 +1630,7 @@ msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Staðfestu innskráningu"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
@@ -1646,7 +1646,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Endursenda flipa"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Bættu við öðru tölvupóstfangi"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -1675,11 +1675,11 @@ msgstr "Nota annað tölvupóstfang"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Breyttu lykilorðinu þínu"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "til að halda áfram í %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1741,11 +1741,11 @@ msgstr "Útbúa lykilorð"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
-msgstr ""
+msgstr "Tækið er tengt!"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:4
 msgid "Connect another one"
-msgstr ""
+msgstr "Tengja annað"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:5
 msgid "Use SMS instead"
@@ -1753,7 +1753,7 @@ msgstr "Nota SMS í staðinn"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "Þetta er búið í bili"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
