@@ -25,6 +25,7 @@
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
 subplat-automated-email = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
+subplat-privacy-notice = Hysbysiad preifatrwydd
 subplat-privacy-plaintext = Hysbysiad preifatrwydd:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -76,6 +77,7 @@ change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad 
 user-ip = Cyfeiriad IP: %(ip)s
 manage-account = Rheoli cyfrif
 manage-account-plaintext = { manage-account }:
+payment-details = Manylion talu:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Rhif Anfoneb: { $invoiceNumber }
