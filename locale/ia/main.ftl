@@ -442,6 +442,6 @@ new-user-submit = Abona te ora
 manage-pocket-title = Recerca tu un abonamento premio pro tu { -brand-name-pocket }?
 manage-pocket-body = Pro gerer lo, <a>clicca hic</a>.
 payment-method-header = Elige tu methodo de pagamento
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Elige tu methodo de pagamento
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Necessari

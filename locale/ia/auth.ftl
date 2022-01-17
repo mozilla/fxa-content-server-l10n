@@ -25,6 +25,7 @@
 fxa-privacy-url = Politica de confidentialitate de { -brand-mozilla }
 fxa-service-url = Terminos de servicio de { -product-firefox-cloud }
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
+subplat-privacy-notice = Aviso de confidentialitate
 subplat-privacy-plaintext = Aviso de confidentialitate:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Terminos de servicio de { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Legal
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Confidentialitate
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato scriptorio</a>.
 another-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Si tu suspecta que alcuno tenta ganiar accesso a tu 
 user-ip = Adresse IP: { $ip }
 manage-account = Gerer le conto
 manage-account-plaintext = { manage-account }:
+payment-details = Detalios del pagamento:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Numero de factura : { $invoiceNumber }
@@ -263,11 +267,13 @@ subscriptionAccountFinishSetup-content-create = Successivemente, tu creara un co
 subscriptionAccountFinishSetup-action = Crear un contrasigno
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
+subscriptionAccountReminderFirst-content-info = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
 subscriptionAccountReminderFirst-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
 subscriptionAccountReminderFirst-action = Crear contrasigno
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Memento final: configura tu conto
 subscriptionAccountReminderSecond-title = Benvenite a { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
 subscriptionAccountReminderSecond-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
 subscriptionAccountReminderSecond-action = Crear contrasigno
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -288,6 +294,13 @@ subscriptionDowngrade-subject = Tu ha passate a { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Tu ha passate con successo ab { $productNameOld } a { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = A comenciar con tu proxime factura, tu amonta cambiara de { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }. In ille tempore te sera date un credito una tantum de { $paymentProrated } pro reflecter le inferior amonta pro le resto de iste { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Si il habera nove software pro te a installar pro usar { $productNameNew }, tu recipera un email separate con instructiones pro discargamentos.
