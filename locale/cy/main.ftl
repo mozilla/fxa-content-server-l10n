@@ -532,6 +532,6 @@ new-user-submit = Tanysgrifiwch Nawr
 manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
 manage-pocket-body = I'w reoli, <a>cliciwch yma</a>.
 payment-method-header = Dewiswch eich dull talu
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Dewiswch eich dull talu
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Angenrheidiol

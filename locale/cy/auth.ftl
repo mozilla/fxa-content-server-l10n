@@ -49,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Amodau Gwasanaethau { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Cyfreithiol
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Preifatrwydd
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
 another-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
 automated-email-change =
