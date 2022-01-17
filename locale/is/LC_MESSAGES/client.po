@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-17 20:36+0000\n"
+"PO-Revision-Date: 2022-01-17 20:51+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: .es5/views/ready.js:74
 msgid "Primary email verified"
-msgstr ""
+msgstr "Aðalpóstfang staðfest"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr ""
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
-msgstr ""
+msgstr "Aukapóstfang staðfest"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: .es5/views/ready.js:89
 msgid "Account verified"
-msgstr ""
+msgstr "Reikningur staðfestur"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Halda áfram í %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -155,7 +155,7 @@ msgstr "ekkert"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:44
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Síðast athugað: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:25
 msgid "Open Gmail"
@@ -187,19 +187,19 @@ msgstr "Birta lykilorð"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
-msgstr ""
+msgstr "Firefox endurheimtarkóðar"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Tveggja-þrepa auðkenning virkjuð"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Recovery Key"
-msgstr ""
+msgstr "Firefox endurheimtulykill"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Tölvupóstur endursendur. Bættu accounts@firefox.com við tengiliðina þína til að tryggja hnökralausa afhendingu."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -207,7 +207,7 @@ msgstr "Afritað"
 
 #: .es5/views/mixins/save-options-mixin.js:61
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Mistókst að afrita. Afritaðu handvirkt."
 
 #: .es5/views/mixins/save-options-mixin.js:78
 msgid "Downloaded"
@@ -223,11 +223,11 @@ msgstr "Tókst að staðfesta reikning"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "greiðslur og innheimta"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "vandamál með notandaaðgang"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
@@ -235,11 +235,11 @@ msgstr "tæknileg vandamál"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "senda ábendingar / biðja um nýja eiginleika"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "ekki á listanum"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -251,7 +251,7 @@ msgstr "Ferill"
 
 #: .es5/models/sync-engines.js:66
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Innskráning og lykilorð"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:268
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Óþekkt áskrift."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
@@ -540,7 +540,7 @@ msgstr "Þessi endapunktur er ekki lengur í gildi"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
-msgstr ""
+msgstr "Hætt við innskráningartilraun"
 
 #: .es5/lib/auth-errors.js:320
 msgid "Session expired. Sign in to continue."
@@ -628,7 +628,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Reikningurinn er ekki lengur til."
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
@@ -652,7 +652,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
-msgstr ""
+msgstr "Þetta er nauðsynlegur reitur"
 
 #: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
@@ -660,15 +660,15 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Skemmdur tengill"
 
 #: .es5/lib/auth-errors.js:540
 msgid "Phone number required"
-msgstr ""
+msgstr "Símanúmer nauðsynlegt"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Tveggja-þrepa auðkenningarkóði nauðsynlegur"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
@@ -756,15 +756,15 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
-msgstr ""
+msgstr "Óþekktur kóði"
 
 #: .es5/lib/oauth-errors.js:50
 msgid "Incorrect code"
-msgstr ""
+msgstr "Rangur kóði"
 
 #: .es5/lib/oauth-errors.js:54
 msgid "Expired code"
-msgstr ""
+msgstr "Útrunninn kóði"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
@@ -780,7 +780,7 @@ msgstr "Bannað"
 
 #: .es5/lib/oauth-errors.js:89
 msgid "Expired token"
-msgstr ""
+msgstr "Útrunnið teikn"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
@@ -852,15 +852,15 @@ msgstr ""
 
 #: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (áætlað)"
 
 #: .es5/lib/strings.js:37
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (áætlað)"
 
 #: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-vistfang: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -902,7 +902,7 @@ msgstr ""
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr ""
+msgstr "Halda áfram í %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
@@ -939,7 +939,7 @@ msgstr "Kanna nánar"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Veldu hvað á að samstilla:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
