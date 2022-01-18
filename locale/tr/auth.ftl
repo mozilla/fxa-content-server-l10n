@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
+subplat-privacy-notice = Gizlilik bildirimi
 subplat-privacy-plaintext = Gizlilik bildirimi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -67,6 +68,7 @@ change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığ
 user-ip = IP adresi: { $ip }
 manage-account = Hesabı yönet
 manage-account-plaintext = { manage-account }:
+payment-details = Ödeme ayrıntıları:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Fatura numarası: { $invoiceNumber }

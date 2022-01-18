@@ -352,6 +352,7 @@ coupon-discount = İndirim
 coupon-submit = Uygula
 coupon-remove = Kaldır
 coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
+coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
 coupon-enter-code =
     .placeholder = Kodu yazın
 
@@ -432,6 +433,4 @@ new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
 manage-pocket-body = Yönetmek için <a>buraya tıklayın</a>.
 payment-method-header = Ödeme yönteminizi seçin
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Ödeme yönteminizi seçin
 payment-method-required = Gerekli
