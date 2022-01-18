@@ -339,12 +339,21 @@ delete-account-link = Slett kontoen
 
 ## Two Step Authentication
 
+tfa-title = Tostegs-godkjenning
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
 tfa-button-continue = Fortset
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+tfa-incorrect-totp = Feil tostegs-godkjenningskode
+tfa-enabled = Tostegs-godkjenning aktivert
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+tfa-qa-code-alt =
+    Bruk koden { $secret } for å setje opp tostegs-godkjenning i
+    støtta appar.
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
 tfa-input-enter-totp =
     .label = Skriv inn sikkerheitskode
@@ -426,12 +435,14 @@ se-secondary-email-none = Ingen
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Tostegsverifisering
-tfa-row-disabled = Tostegs-verifisering deaktivert
+tfa-row-header = Tostegs-godkjenning
+tfa-row-disabled = Tostegs-godkjenning deaktivert
 tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
+tfa-row-button-refresh =
+    .title = Oppdater tostegs-godkjenning
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-change-modal-heading = Endre gjenopprettingskodar?
 tfa-row-change-modal-confirm = Endre

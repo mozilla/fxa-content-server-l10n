@@ -952,7 +952,7 @@ msgstr "Primær e-postadresse oppdatert"
 
 #: lib/senders/email.js:1651
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Tostegs-godkjenning er av"
 
 #: lib/senders/email.js:1745
 msgid "Recovery code used"
