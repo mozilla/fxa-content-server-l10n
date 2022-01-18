@@ -362,6 +362,7 @@ plan-details-header = Λεπτομέρειες προιόντος
 plan-details-show-button = Εμφάνιση λεπτομερειών
 plan-details-hide-button = Απόκρυψη λεπτομερειών
 plan-details-total-label = Σύνολο
+plan-details-list-price = Τιμή καταλόγου
 
 ## coupons
 
