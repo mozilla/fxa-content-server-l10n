@@ -443,7 +443,9 @@ tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
+tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-cannot-disable = Klarte ikkje å deaktivere tostegs-godkjenning.
 tfa-row-change-modal-heading = Endre gjenopprettingskodar?
 tfa-row-change-modal-confirm = Endre
 
