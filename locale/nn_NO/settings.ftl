@@ -398,7 +398,7 @@ row-defaults-status = Ingen
 ## Recovery key sub-section on main Settings page
 
 rk-header = Gjenopprettingsnøkkel
-rk-enabled = Slått på
+rk-enabled = Aktivert
 rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
@@ -428,7 +428,7 @@ se-secondary-email-none = Ingen
 
 tfa-row-header = Tostegsverifisering
 tfa-row-disabled = Tostegs-verifisering deaktivert
-tfa-row-enabled = Slått på
+tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
