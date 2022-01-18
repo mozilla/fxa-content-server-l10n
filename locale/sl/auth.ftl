@@ -57,6 +57,7 @@
 fxa-privacy-url = Mozillina politika zasebnosti
 fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
+subplat-privacy-notice = Obvestilo o zasebnosti
 subplat-privacy-plaintext = Obvestilo o zasebnosti:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Pogoji in pravila odpovedi
@@ -71,7 +72,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Pravne informacije
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Zasebnost
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
 another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
 # Variables:
@@ -93,6 +96,7 @@ change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do v
 user-ip = Naslov IP: { $ip }
 manage-account = Upravljanje računa
 manage-account-plaintext = { manage-account }:
+payment-details = Podatki o plačilu:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Številka računa: { $invoiceNumber }
@@ -364,6 +368,9 @@ subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
 subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
 subscriptionsPaymentProviderCancelled-content-payment = Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način plačila zastaral.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Plačilo za { $productName } prejeto
 subscriptionSubsequentInvoice-title = Hvala, ker ste naš naročnik!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -374,6 +381,9 @@ subscriptionSubsequentInvoice-content-invoice-number = Številka računa: <b>{ $
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Številka računa: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Sprememba načrta: { $paymentProrated }
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
