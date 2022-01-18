@@ -256,6 +256,7 @@ subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavi
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
+subscriptionAccountFinishSetup-content-processing = Vaše plačilo je v obdelavi, ki lahko traja do štiri delovne dni. Vaša naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-content-create = Nato boste ustvarili geslo za Firefox Račun in prenesli { $productName }.
@@ -301,6 +302,7 @@ subscriptionFirstInvoice-subject = Plačilo za { $productName } potrjeno
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Hvala, ker ste se naročili na { $productName }
+subscriptionFirstInvoice-content-processing = Vaše plačilo je trenutno v obdelavi, ki lahko traja do štiri delovne dni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
@@ -320,6 +322,7 @@ subscriptionFirstInvoiceDiscount-subject = Plačilo za { $productName } potrjeno
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Hvala, ker ste se naročili na { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Vaše plačilo je trenutno v obdelavi, ki lahko traja do štiri delovne dni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>

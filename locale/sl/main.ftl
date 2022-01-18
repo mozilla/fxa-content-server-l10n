@@ -53,6 +53,7 @@ terms-download = Pogoji prenosa
 subscription-success-title = Potrditev naročnine
 subscription-processing-title = Potrjevanje naročnine …
 subscription-error-title = Napaka pri potrjevanju naročnine …
+subscription-iapsubscribed-title = Že naročeno
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -65,6 +66,7 @@ product-plan-error =
 product-profile-error =
     .title = Napaka pri nalaganju profila
 product-plan-not-found = Načrta ni mogoče najti
+product-no-such-plan = Za ta izdelek ni takšnega načrta.
 
 ## payment legal blurb
 
@@ -95,6 +97,7 @@ payment-zip =
 payment-cancel-btn = Prekliči
 payment-update-btn = Posodobi
 payment-pay-btn = Plačaj zdaj
+payment-pay-with-paypal-btn = Plačaj s storitvijo { -brand-name-paypal }
 payment-validate-name-error = Vnesite svoje ime
 payment-validate-zip-required = Poštna številka je obvezna
 payment-validate-zip-short = Poštna številka je prekratka
@@ -112,6 +115,9 @@ input-error-is-required = { $label } je zahtevan podatek
 
 ## subscription upgrade
 
+product-plan-change-heading = Preglejte spremembo
+sub-change-failed = Sprememba načrta ni uspela
+sub-update-payment-title = Podatki o plačilu
 sub-update-card-exp = Poteče { $cardExpMonth }/{ $cardExpYear }
 
 ##
@@ -321,4 +327,6 @@ new-user-confirm-email =
     .label = Potrdite e-poštni naslov
 new-user-email-validate = E-poštni naslov ni veljaven
 new-user-email-validate-confirm = E-poštna naslova se ne ujemata
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Zahtevano

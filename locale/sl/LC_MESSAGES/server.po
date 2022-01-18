@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-09 10:29+0000\n"
+"PO-Revision-Date: 2022-01-18 19:44+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -326,7 +326,7 @@ msgstr "Dobrodošli v %(productName)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
 msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Vaše plačilo je v obdelavi, ki lahko traja do štiri delovne dni. Vaša naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
@@ -413,7 +413,7 @@ msgstr "Hvala, ker ste se naročili na %(productName)s"
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Vaše plačilo je trenutno v obdelavi, ki lahko traja do štiri delovne dni."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
@@ -1146,8 +1146,7 @@ msgstr "Prenesi najnovejšo različico"
 #~ msgstr "Najprej spremenite geslo Firefox Računa."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
 #~ msgstr "Nato, če Firefox shranjuje gesla za spletne strani, spremenite tudi ta gesla. Napadalci imajo morda dostop do teh gesel, tako da morate preveriti te račune za sumljivo dejavnost."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
@@ -1414,8 +1413,8 @@ msgstr "Prenesi najnovejšo različico"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom "
-#~ "za iOS</a>."
+#~ "Uspešno ste povezali svojo prvo napravo s Firefox Računom. Da bi Sync izkoristili v polni meri, se povežite s <a href='%(androidUrl)s'>Firefoxom za Android</a> ali <a href='%(iosUrl)s'>Firefoxom za "
+#~ "iOS</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Prijavite se za sinhronizacijo"
@@ -1580,8 +1579,8 @@ msgstr "Prenesi najnovejšo različico"
 #~ msgstr "Ponastavi geslo"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
+#~ " email address to activate your account."
 #~ msgstr ""
 #~ "Pred nekaj dnevi ste ustvarili Firefox Račun, a ga še niste potrdili. Potrjen račun vam omogoča dostop do vaših zavihkov, zaznamkov, gesel in zgodovine na vseh povezanih napravah. Za aktivacijo "
 #~ "računa potrdite ta e-poštni naslov."
@@ -1611,8 +1610,7 @@ msgstr "Prenesi najnovejšo različico"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Uspešno ste odstranili %(secondaryEmail)s kot drugi e-poštni naslov svojega Firefox Računa. Varnostna obvestila in potrditve prijav ne bodo več poslane na ta naslov."
 
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Uspešno ste potrdili %(secondaryEmail)s kot drugi e-poštni naslov svojega Firefox Računa. Varnostna obvestila in potrditve prijav bodo sedaj poslane na oba e-poštna naslova."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1697,8 +1695,8 @@ msgstr "Prenesi najnovejšo različico"
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
-#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate "
-#~ "vaša gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
+#~ "Pred tednom dni ste ustvarili Firefox Račun, a ga še niste potrdili. Zato smo v skrbeh za vas. Firefox je na voljo za Windows, Mac, Linux, Android in iOS. Med vsemi njimi lahko sinhronizirate vaša "
+#~ "gesla, zaznamke in zgodovino. S potrditvijo tega e-poštnega naslova boste aktivirali vaš račun. In nam sporočili, da ste v redu."
 
 #~ msgid "env"
 #~ msgstr "env"
