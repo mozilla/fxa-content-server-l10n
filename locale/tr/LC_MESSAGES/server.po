@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-18 13:31+0000\n"
+"PO-Revision-Date: 2022-01-18 13:37+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -448,11 +448,11 @@ msgstr "Faturayı görüntüle: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
+msgstr "Ara toplam: %(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "Tek seferlik indirim: -%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -488,7 +488,7 @@ msgstr "Kredi kartınızın kullanım süresi dolmuş veya mevcut ödeme yöntem
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
+msgstr "Birkaç gün içinde ödeme almayı tekrar deneyeceğiz. Sorunu gidermek için <a href=\"%(updateBillingUrl)s\">ödeme bilgilerinizi güncellemeniz gerekebilir</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
@@ -536,6 +536,8 @@ msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
 msgstr ""
+"%(productName)s abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya %(productName)s hakkında daha fazla bilgiye ihtiyacınız varsa lütfen <a "
+"href=\"%(subscriptionSupportUrl)s\">bizimle iletişime geçin</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
@@ -705,7 +707,7 @@ msgstr "Kaydolan siz misiniz?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Sizseniz kayıt formunda bu doğrulama kodunu kullanabilirsiniz:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -950,7 +952,7 @@ msgstr "Ana e-posta güncellendi"
 
 #: lib/senders/email.js:1651
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "İki aşamalı doğrulama kapalı"
 
 #: lib/senders/email.js:1745
 msgid "Recovery code used"

@@ -433,4 +433,6 @@ new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
 manage-pocket-body = Yönetmek için <a>buraya tıklayın</a>.
 payment-method-header = Ödeme yönteminizi seçin
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Gerekli
