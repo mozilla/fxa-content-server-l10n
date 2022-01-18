@@ -402,6 +402,7 @@ rk-enabled = Slått på
 rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
+rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
 rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
 
 ## Secondary email sub-section on main Settings page
