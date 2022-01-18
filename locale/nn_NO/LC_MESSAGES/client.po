@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 22:07+0000\n"
-"PO-Revision-Date: 2022-01-18 11:31+0000\n"
+"PO-Revision-Date: 2022-01-18 11:39+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
@@ -34,7 +34,7 @@ msgstr "Kontoen er no sletta"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Bruk koden %(code)s for å setje opp tostegs-autentisering i støtta appar."
+msgstr "Bruk koden %(code)s for å setje opp tostegs-godkjenning i støtta appar."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -667,11 +667,11 @@ msgstr "Telefonnummer påkravd"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr "Tostegs-verifiseringskode påkravd"
+msgstr "Tostegs-godkjenning påkravd"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr "Feil tostegs-verifiseringskode"
+msgstr "Feil tostegs-godkjenningskode"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
@@ -1195,7 +1195,7 @@ msgstr "Stadfest"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "Slå på tostegs-verifisering"
+msgstr "Slå på tostegs-godkjenning"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
