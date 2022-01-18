@@ -125,6 +125,7 @@ sub-update-card-exp = Poteče { $cardExpMonth }/{ $cardExpYear }
 sub-change-submit = Potrdite spremembo
 sub-update-current-plan-label = Trenutni načrt
 sub-update-new-plan-label = Nov načrt
+sub-update-total-label = Nov znesek
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -201,6 +202,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Naslednji obračun { $date }
+sub-expires-on = Preteče { $date }
 
 ##
 
@@ -211,6 +213,7 @@ pay-update-change-btn = Spremeni
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Želite še naprej uporabljati { $name }?
+reactivate-confirm-button = Obnovi naročnino
 
 ##  $date (Date) - Last day of product access
 
@@ -231,6 +234,7 @@ sub-item-stay-sub = Ostanite naročnik
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Upravljaj
 
 ## subscription route index
 
@@ -255,6 +259,8 @@ plan-details-total-label = Skupaj
 
 ## coupons
 
+coupon-discount = Popust
+coupon-submit = Uveljavi
 coupon-remove = Odstrani
 coupon-error = Koda, ki ste jo vnesli, je neveljavna ali pretečena.
 coupon-enter-code =
@@ -278,6 +284,7 @@ payment-confirmation-thanks-heading = Hvala!
 
 payment-confirmation-order-heading = Podrobnosti naročila
 payment-confirmation-invoice-number = Račun št. { $invoiceNumber }
+payment-confirmation-details-heading-2 = Podatki o plačilu
 payment-confirmation-amount = { $amount } na { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -327,6 +334,10 @@ new-user-confirm-email =
     .label = Potrdite e-poštni naslov
 new-user-email-validate = E-poštni naslov ni veljaven
 new-user-email-validate-confirm = E-poštna naslova se ne ujemata
+new-user-already-has-account-sign-in = Račun že imate. <a>Prijava</a>
+new-user-card-title = Vnesite podatke o kartici
+new-user-submit = Naroči se zdaj
+payment-method-header = Izberite način plačila
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Zahtevano
