@@ -363,6 +363,7 @@ coupon-discount-applied = Remise appliquée
 coupon-submit = Appliquer
 coupon-remove = Supprimer
 coupon-error = Le code que vous avez saisi est invalide ou a expiré.
+coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
 coupon-enter-code =
     .placeholder = Saisissez le code
 
