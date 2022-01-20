@@ -29,6 +29,8 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sy
 body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 subplat-privacy-notice = Zdźělenka priwatnosće
 subplat-privacy-plaintext = Zdźělenka priwatnosće:
@@ -57,6 +59,12 @@ subplat-legal = Prawniske
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Priwatnosć
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } na { -google-play } sćahnyć">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } na { -app-store } sćahnyć">
 another-desktop-device = Abo instalujće na <a data-l10n-name="anotherDeviceLink">druhim desktopowym graće</a>.
 another-device = Abo instalujće na <a data-l10n-name="anotherDeviceLink">druhim graće</a>.
 automated-email-change =
