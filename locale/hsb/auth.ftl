@@ -19,9 +19,14 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizowane graty">
+body-devices-image = <img data-l10n-name="devices-image" alt="Graty">
 fxa-privacy-url = Prawidła priwatnosće { -brand-mozilla }
 fxa-service-url = Wužiwanske wuměnjenja za { -product-firefox-cloud }
 subplat-automated-email = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
