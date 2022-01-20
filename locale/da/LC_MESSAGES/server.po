@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 22:07+0000\n"
+"POT-Creation-Date: 2022-01-20 22:06+0000\n"
 "PO-Revision-Date: 2022-01-08 16:20+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1448306035.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3046
+#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3023
 msgid "Here's your reminder to sync devices."
 msgstr "Her er din påmindelse om at synkronisere enheder."
 
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3050
+#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3027
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Der skal to til at synkronisere. Med privat synkronisering af en anden enhed med Firefox forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme overalt, hvor du bruger Firefox."
 
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3047
+#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3024
 msgid "Last reminder to sync devices!"
 msgstr "Sidste påmindelse om at synkronisere enheder!"
 
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3053
+#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3030
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr "Med privat synkronisering af en anden enhed med Firefox forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme overalt, hvor du bruger Firefox."
 
@@ -67,7 +67,7 @@ msgstr "Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. 
 msgid "Generate codes:"
 msgstr "Generer koder:"
 
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1406
+#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1383
 msgid "New sign-in to %(clientName)s"
 msgstr "Nyt login til %(clientName)s"
 
@@ -151,7 +151,7 @@ msgstr "Opret en ny genoprettelsesnøgle:"
 msgid "For more information, please visit %(supportUrl)s"
 msgstr "For mere information, besøg %(supportUrl)s"
 
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1842
+#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1819
 msgid "Account recovery key generated"
 msgstr "Genoprettelsesnøgle til konto oprettet"
 
@@ -171,7 +171,7 @@ msgstr "Du har oprettet en genoprettelsesnøgle til din Firefox-konto fra følge
 msgid "If this was not you, revoke key."
 msgstr "Hvis det ikke var dig, så tilbagekald nøglen."
 
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1604
+#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1581
 msgid "Two-step authentication enabled"
 msgstr "Totrinsgodkendelse aktiveret"
 
@@ -211,7 +211,7 @@ msgstr "Du har brugt en genoprettelseskode fra følgende enhed:"
 msgid "Consumed recovery code"
 msgstr "Brugt genoprettelseskode"
 
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1698
+#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1675
 msgid "New recovery codes generated"
 msgstr "Nye genoprettelseskoder genereret"
 
@@ -219,7 +219,7 @@ msgstr "Nye genoprettelseskoder genereret"
 msgid "You have successfully generated new recovery codes from the following device:"
 msgstr "Du har genereret nye genoprettelseskoder fra følgende enhed:"
 
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1892
+#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1869
 msgid "Account recovery key removed"
 msgstr "Genoprettelsesnøgle til kontoen blev fjernet"
 
@@ -235,7 +235,7 @@ msgstr "Denne genoprettelsesnøgle kan ikke længere bruges til at genoprette di
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 msgstr "Du har fjernet en genoprettelsesnøgle til din Firefox-konto fra følgende enhed:"
 
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1570
+#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1547
 msgid "Secondary email removed"
 msgstr "Sekundær mailadresse fjernet"
 
@@ -271,7 +271,7 @@ msgstr "Synkroniser nu mellem dine enheder!"
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
 msgstr "Med privat synkronisering forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme på alle dine enheder."
 
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1452
+#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1429
 msgid "Set up next device"
 msgstr "Opsæt næste enhed"
 
@@ -279,7 +279,7 @@ msgstr "Opsæt næste enhed"
 msgid "Have questions? Visit %(supportUrl)s"
 msgstr "Har du spørgsmål? Besøg %(supportUrl)s"
 
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1498
+#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1475
 msgid "Secondary email added"
 msgstr "Sekundær mailadresse tilføjet"
 
@@ -295,7 +295,7 @@ msgstr "Har du brug for at nulstille din adgangskode?"
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
 msgstr "Klik på knappen inden for den næste time for at oprette en ny adgangskode. Anmodningen kom fra følgende enhed:"
 
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1247
+#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1224
 msgid "Create new password"
 msgstr "Opret ny adgangskode"
 
@@ -320,7 +320,7 @@ msgstr "Hjælp os med at forbedre vores tjenester ved at deltage i denne <a %(ca
 msgid "Please help us improve our services by taking this short survey:"
 msgstr "Hjælp os med at forbedre vores tjenester ved at deltage i denne korte undersøgelse:"
 
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:3015
+#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2992
 msgid "Welcome to %(productName)s"
 msgstr "Velkommen til %(productName)s"
 
@@ -491,8 +491,8 @@ msgstr "Det kan være, at dit betalingskort er udløbet, eller at din nuværende
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
 msgstr ""
-"Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at <a "
-"href=\"%(updateBillingUrl)s\">opdatere dine betalingsinformationer</a>."
+"Vi prøver at gennemføre din betaling igen i løbet af de næste par dage. Det kan være, at du bliver nødt til at hjælpe os med at løse betalingsproblemet ved at <a href=\"%(updateBillingUrl)s"
+"\">opdatere dine betalingsinformationer</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
@@ -664,7 +664,7 @@ msgstr "Bekræft din konto og få mest muligt ud af Firefox, hvor du logger ind.
 msgid "For added security, please confirm this sign-in from the following device:"
 msgstr "Som en ekstra sikkerhed skal du bekræfte dette login fra følgende enhed:"
 
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:936
+#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:913
 msgid "Confirm sign-in"
 msgstr "Bekræft login"
 
@@ -856,204 +856,204 @@ msgstr "Annuller abonnementer:"
 msgid "Update billing information:"
 msgstr "Opdater faktureringsoplysninger:"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:347
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s på %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:358
+#: lib/senders/email.js:352
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s på %(uaOS)s"
 
-#: lib/senders/email.js:384
+#: lib/senders/email.js:378
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:385
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:390
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (anslået)"
 
-#: lib/senders/email.js:401
+#: lib/senders/email.js:395
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (anslået)"
 
-#: lib/senders/email.js:609
+#: lib/senders/email.js:586
 msgid "Finish creating your account"
 msgstr "Færdiggør oprettelsen af din konto"
 
-#: lib/senders/email.js:610 lib/senders/email.js:747
+#: lib/senders/email.js:587 lib/senders/email.js:724
 msgid "Confirm email"
 msgstr "Bekræft mailadresse"
 
-#: lib/senders/email.js:677
+#: lib/senders/email.js:654
 msgid "Verification code: %(code)s"
 msgstr "Bekræftelseskode: %(code)s"
 
-#: lib/senders/email.js:727
+#: lib/senders/email.js:704
 msgid "Reminder: Finish creating your account"
 msgstr "Påmindelse: Færdiggør oprettelsen af din konto"
 
-#: lib/senders/email.js:729
+#: lib/senders/email.js:706
 msgid "Final reminder: Activate your account"
 msgstr "Sidste påmindelse: Aktivér din konto"
 
-#: lib/senders/email.js:780
+#: lib/senders/email.js:757
 msgid "Reminder: Finish setting up your account"
 msgstr "Påmindelse: Færdiggør opsætningen af din konto"
 
-#: lib/senders/email.js:782
+#: lib/senders/email.js:759
 msgid "Final reminder: Setup your account"
 msgstr "Sidste påmindelse: Opsæt din konto"
 
-#: lib/senders/email.js:824 lib/senders/email.js:2035
+#: lib/senders/email.js:801 lib/senders/email.js:2012
 msgid "Create a password"
 msgstr "Opret en adgangskode"
 
-#: lib/senders/email.js:860
+#: lib/senders/email.js:837
 msgid "Account authorization code"
 msgstr "Godkendelseskode til konto"
 
-#: lib/senders/email.js:933
+#: lib/senders/email.js:910
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Bekræft nyt login til %(clientName)s"
 
-#: lib/senders/email.js:982
+#: lib/senders/email.js:959
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Login-kode til %(serviceName)s"
 
-#: lib/senders/email.js:1051
+#: lib/senders/email.js:1028
 msgid "Confirm primary email"
 msgstr "Bekræft primær mailadresse"
 
-#: lib/senders/email.js:1052 lib/senders/email.js:1115 lib/senders/email.js:1187
+#: lib/senders/email.js:1029 lib/senders/email.js:1092 lib/senders/email.js:1164
 msgid "Verify email"
 msgstr "Bekræft mailadresse"
 
-#: lib/senders/email.js:1114 lib/senders/email.js:1186
+#: lib/senders/email.js:1091 lib/senders/email.js:1163
 msgid "Confirm secondary email"
 msgstr "Bekræft sekundær mailadresse"
 
-#: lib/senders/email.js:1246
+#: lib/senders/email.js:1223
 msgid "Reset your password"
 msgstr "Nulstil din adgangskode"
 
-#: lib/senders/email.js:1292 lib/senders/email.js:1363
+#: lib/senders/email.js:1269 lib/senders/email.js:1340
 msgid "Password updated"
 msgstr "Adgangskode opdateret"
 
-#: lib/senders/email.js:1334
+#: lib/senders/email.js:1311
 msgid "Suspicious activity detected"
 msgstr "Mistænkelig aktivitet konstateret"
 
-#: lib/senders/email.js:1407 lib/senders/email.js:1499 lib/senders/email.js:1535 lib/senders/email.js:1571 lib/senders/email.js:1605 lib/senders/email.js:1652 lib/senders/email.js:1699
-#: lib/senders/email.js:1746 lib/senders/email.js:1843 lib/senders/email.js:1893
+#: lib/senders/email.js:1384 lib/senders/email.js:1476 lib/senders/email.js:1512 lib/senders/email.js:1548 lib/senders/email.js:1582 lib/senders/email.js:1629 lib/senders/email.js:1676
+#: lib/senders/email.js:1723 lib/senders/email.js:1820 lib/senders/email.js:1870
 msgid "Manage account"
 msgstr "Håndter konto"
 
-#: lib/senders/email.js:1447
+#: lib/senders/email.js:1424
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Konto bekræftet. Synkroniser nu en anden enhed for at afslutte opsætningen."
 
-#: lib/senders/email.js:1534
+#: lib/senders/email.js:1511
 msgid "Primary email updated"
 msgstr "Primær mailadresse opdateret"
 
-#: lib/senders/email.js:1651
+#: lib/senders/email.js:1628
 msgid "Two-step authentication is off"
 msgstr "Totrinsgodkendelse er slået fra"
 
-#: lib/senders/email.js:1745
+#: lib/senders/email.js:1722
 msgid "Recovery code used"
 msgstr "Genoprettelseskode brugt"
 
-#: lib/senders/email.js:1805
+#: lib/senders/email.js:1782
 msgid "1 recovery code remaining"
 msgstr "1 genoprettelseskode tilbage"
 
-#: lib/senders/email.js:1807
+#: lib/senders/email.js:1784
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s genoprettelseskoder tilbage"
 
-#: lib/senders/email.js:1810
+#: lib/senders/email.js:1787
 msgid "Generate codes"
 msgstr "Generer koder"
 
-#: lib/senders/email.js:1942
+#: lib/senders/email.js:1919
 msgid "Password updated using recovery key"
 msgstr "Adgangskode opdateret ved hjælp af genoprettelsesnøgle"
 
-#: lib/senders/email.js:1943
+#: lib/senders/email.js:1920
 msgid "Create new recovery key"
 msgstr "Opret en ny genoprettelsesnøgle"
 
-#: lib/senders/email.js:2038
+#: lib/senders/email.js:2015
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Velkommen til %(productName)s: Angiv din adgangskode."
 
-#: lib/senders/email.js:2112
+#: lib/senders/email.js:2089
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Du har opgraderet til %(productNameNew)s"
 
-#: lib/senders/email.js:2193
+#: lib/senders/email.js:2170
 msgid "You have switched to %(productNameNew)s"
 msgstr "Du har skiftet til %(productNameNew)s"
 
-#: lib/senders/email.js:2259
+#: lib/senders/email.js:2236
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Betalingskort for %(productName)s udløber snart"
 
-#: lib/senders/email.js:2273
+#: lib/senders/email.js:2250
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Betalingskort for dine abonnementer udløber snart"
 
-#: lib/senders/email.js:2324
+#: lib/senders/email.js:2301
 msgid "Payment information update required for %(productName)s"
 msgstr "Der er nødvendigt at opdatere dine betalingsinformationer for %(productName)s"
 
-#: lib/senders/email.js:2340
+#: lib/senders/email.js:2317
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Der er nødvendigt at opdatere dine betalingsinformationer for Mozilla-abonnementer"
 
-#: lib/senders/email.js:2386
+#: lib/senders/email.js:2363
 msgid "%(productName)s payment failed"
 msgstr "Betaling for %(productName)s mislykkedes"
 
-#: lib/senders/email.js:2437 lib/senders/email.js:2502 lib/senders/email.js:2563
+#: lib/senders/email.js:2414 lib/senders/email.js:2479 lib/senders/email.js:2540
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Dit abonnement på %(productName)s er blevet annulleret"
 
-#: lib/senders/email.js:2620
+#: lib/senders/email.js:2597
 msgid "%(productName)s subscription reactivated"
 msgstr "Fornyelse af abonnement på %(productName)s"
 
-#: lib/senders/email.js:2676
+#: lib/senders/email.js:2653
 msgid "%(productName)s automatic renewal notice"
 msgstr "Meddelelse om automatisk fornyelse af %(productName)s"
 
-#: lib/senders/email.js:2756
+#: lib/senders/email.js:2733
 msgid "%(productName)s payment received"
 msgstr "Betaling for %(productName)s modtaget"
 
-#: lib/senders/email.js:2848 lib/senders/email.js:2931
+#: lib/senders/email.js:2825 lib/senders/email.js:2908
 msgid "%(productName)s payment confirmed"
 msgstr "Betaling for %(productName)s bekræftet"
 
-#: lib/senders/email.js:3016
+#: lib/senders/email.js:2993
 msgid "Download %(productName)s"
 msgstr "Hent %(productName)s"
 
-#: lib/senders/email.js:3042
+#: lib/senders/email.js:3019
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "En venlig påmindelse: Sådan færdiggør du din opsætning af Sync"
 
-#: lib/senders/email.js:3043
+#: lib/senders/email.js:3020
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Sidste påmindelse: Færdiggør opsætning af Sync"
 
-#: lib/senders/email.js:3057
+#: lib/senders/email.js:3034
 msgid "Sync another device"
 msgstr "Synkroniser en enhed til"
 
@@ -1146,8 +1146,8 @@ msgstr "Hent seneste"
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 #~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "Fra og med din næste regning vil din opkrævning blive ændret fra %(paymentAmountOld)s pr. %(productPaymentCycle)s til %(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et engangsbeløb"
-#~ " på %(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
+#~ "Fra og med din næste regning vil din opkrævning blive ændret fra %(paymentAmountOld)s pr. %(productPaymentCycle)s til %(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et "
+#~ "engangsbeløb på %(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
@@ -1175,7 +1175,8 @@ msgstr "Hent seneste"
 #~ msgstr "Du skal først og fremmest skifte din adgangskode til din Firefox konto."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr "Dernæst skal du ændre alle adgangskoder, som Firefox har gemt til andre websteder. Fremmede kan risikere at have adgang til dem, så du skal ændre dem for en sikkerheds skyld."
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
@@ -1228,15 +1229,15 @@ msgstr "Hent seneste"
 #~ msgstr "Du har for nylig slettet din Firefox-konto. Derfor har vi annulleret dit abonnement på %(productName)s. Din sidste betaling på $%(invoiceTotal)s blev betalt den %(invoiceDateOnly)s."
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
 #~ "Vi har annulleret dit abonnement på %(productName)s. Din sidste betaling på $%(invoiceTotal)s blev betalt den %(invoiceDateOnly)s. Tjenesten fortsætter indtil udgangen af din nuværende "
 #~ "faktureringsperiode, som er %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fra og med din næste regning vil din opkrævning blive ændret fra $%(paymentAmountOld)s pr. %(productPaymentCycle)s til $%(paymentAmountNew)s. På det tidspunkt vil du også få godskrevet et "
 #~ "engangsbeløb på $%(paymentProrated)s for at afspejle den lavere opkrævning for resten af dette %(productPaymentCycle)s."
@@ -1252,8 +1253,8 @@ msgstr "Hent seneste"
 #~ "%(lastFour)s. Dit abonnement er fortløbende og bliver automatisk fornyet, hvis du ikke annullerer det."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
 #~ "Fra og med din næste regning vil din opkrævning blive ændret fra $%(paymentAmountOld)s pr. %(productPaymentCycle)s til $%(paymentAmountNew)s. På det tidspunkt vil du også blive opkrævet et "
 #~ "engangsbeløb på $%(paymentProrated)s for at afspejle den højere opkrævning for resten af dette %(productPaymentCycle)s."
@@ -1361,8 +1362,8 @@ msgstr "Hent seneste"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
 #~ "%(iosLinkAttributes)s>iOS</a>."
 #~ msgstr ""
-#~ "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til <a %(androidLinkAttributes)s>Android</a> og Firefox til "
-#~ "<a %(iosLinkAttributes)s>iOS</a>."
+#~ "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til <a %(androidLinkAttributes)s>Android</a> og Firefox "
+#~ "til <a %(iosLinkAttributes)s>iOS</a>."
 
 #~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
 #~ msgstr "Du har nu forbundet din første enhed til din Firefox-konto. Du kan nu tilmelde dine andre enheder til Sync, inklusive enheder med Firefox til Android og Firefox til iOS."
@@ -1492,8 +1493,8 @@ msgstr "Hent seneste"
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
 #~ "iOS</a>."
 #~ msgstr ""
-#~ "Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a href='%(iosUrl)s'>Firefox"
-#~ " til iOS-enhed</a>."
+#~ "Du har nu forbundet din første enhed til din Firefox-konto. Få mest muligt ud af Sync ved at tilslutte en <a href='%(androidUrl)s'>Firefox til Android-enhed</a> eller en <a "
+#~ "href='%(iosUrl)s'>Firefox til iOS-enhed</a>."
 
 #~ msgid "Sign in to Sync"
 #~ msgstr "Log ind på Sync"
@@ -1658,11 +1659,11 @@ msgstr "Hent seneste"
 #~ msgstr "Nulstil adgangskode"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som er "
-#~ "forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
+#~ "For et par dage siden oprettede du en Firefox-konto, men bekræftede den aldrig. Med en bekræftet konto får du adgang til dine faneblade, bogmærker, adgangskoder og historik på alle enheder, som "
+#~ "er forbundet til den. Bekræft denne mailadresse for at aktivere din konto."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr "For en uge siden oprettede du en Firefox-konto, men bekræftede den aldrig. Vi er bekymrede for dig. Bekræft denne mailadresse for at aktivere din konto og lade os vide, at du er ok."
@@ -1688,7 +1689,8 @@ msgstr "Hent seneste"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Du har fjernet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Du har bekræftet %(secondaryEmail)s som sekundær mailadresse til din Firefox-konto. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"

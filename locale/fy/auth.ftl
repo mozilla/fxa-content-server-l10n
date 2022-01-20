@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla }-privacybelied
 fxa-service-url = Brûkersbetingsten { -product-firefox-cloud }
 subplat-automated-email = Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan.
+subplat-privacy-notice = Privacyferklearring
 subplat-privacy-plaintext = Privacyferklearring:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Tsjinstbetingsten foar { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridysk
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
 another-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar apparaat</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = As jo tinke dat ien tagong ta jo account probearret 
 user-ip = IP-adres: { $ip }
 manage-account = Account beheare
 manage-account-plaintext = { manage-account }:
+payment-details = Betellingsgegevens:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Faktuernûmer: { $invoiceNumber }

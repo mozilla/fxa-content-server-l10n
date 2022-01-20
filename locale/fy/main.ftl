@@ -452,6 +452,6 @@ new-user-submit = No abonnearje
 manage-pocket-title = Op syk nei jo abonnemint op { -brand-name-pocket } premium?
 manage-pocket-body = <a>Klik hjir</a> om it te behearen.
 payment-method-header = Kies jo betellingsmetoade
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Kies jo betellingsmetoade
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Fereaske
