@@ -25,6 +25,7 @@
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 subplat-automated-email = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
+subplat-privacy-notice = Sekretesspolicy
 subplat-privacy-plaintext = Sekretesspolicy:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +49,9 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Användarvillkor för { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisk information
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Sekretess
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Eller installera på <a data-l10n-name="anotherDeviceLink">en annan stationär enhet</a>.
 another-device = Eller installera på <a data-l10n-name="anotherDeviceLink">annan enhet</a>.
 automated-email-change =
@@ -76,6 +79,7 @@ change-password-plaintext = Om du misstänker att någon försöker få åtkomst
 user-ip = IP-adress: { $ip }
 manage-account = Hantera konto
 manage-account-plaintext = { manage-account }:
+payment-details = Betalningsinformation:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Fakturanummer: { $invoiceNumber }

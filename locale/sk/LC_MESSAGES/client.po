@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 22:07+0000\n"
+"POT-Creation-Date: 2022-01-20 22:06+0000\n"
 "PO-Revision-Date: 2022-01-16 19:44+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračovaním vyjadrujete súhlas s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami používania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami ochrany osobných údajov</a> "
 "služby %(serviceName)s (%(serviceUri)s)."
@@ -911,7 +913,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prosím, zadajte jednorázový obnovovací kľúč, ktorý ste si uložili na bezpečné miesto a získajte tak opätovný prístup ku svojmu účtu Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">POZNÁMKA:</span> Ak obnovíte svoje heslo a nemáte obnovovací kľúč, niektoré vaše údaje uložené na serveri budú odstránené (napríklad história či záložky)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -966,10 +969,8 @@ msgstr "Vytvoriť nové heslo"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>PAMÄTAJTE:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
-"heslom. Všetky predplatné, ktoré máte, vám naďalej ostanú."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1326,10 +1327,8 @@ msgstr "Prečo sa to stalo?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>POZNÁMKA:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
-"heslom. Všetky predplatné, ktoré máte, vám naďalej ostanú."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -2021,6 +2020,20 @@ msgstr "Spárovať pomocou aplikácie"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z Firefoxu."
 
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>PAMÄTAJTE:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme "
+#~ "vašim heslom. Všetky predplatné, ktoré máte, vám naďalej ostanú."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>POZNÁMKA:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
+#~ "heslom. Všetky predplatné, ktoré máte, vám naďalej ostanú."
+
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
 
@@ -2034,15 +2047,15 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgstr "Buďte informovaní o únikoch dát."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>PAMÄTAJTE:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
-#~ "heslom."
+#~ "<span>PAMÄTAJTE:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme "
+#~ "vašim heslom."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>POZNÁMKA:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
 #~ "heslom."
@@ -2378,10 +2391,11 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Krok 2 z 2: Uložte si obnovovací kľúč"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">POZNÁMKA: </span>Ak zabudnete svoje heslo, tento kľúč budete potrebovať pre opätovné získanie prístupu ku vašim údajom. Uložte si obnovovací kľúč na bezpečnom mieste, na ktorom "
-#~ "ho ale neskôr dokážete nájsť."
+#~ "<span class=\"note\">POZNÁMKA: </span>Ak zabudnete svoje heslo, tento kľúč budete potrebovať pre opätovné získanie prístupu ku vašim údajom. Uložte si obnovovací kľúč na bezpečnom mieste, na "
+#~ "ktorom ho ale neskôr dokážete nájsť."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Hotovo, obnovovací kľúč bol uložený"
@@ -2434,8 +2448,8 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS služba je dostupná len v určitých krajinách. SMS a dátové služby môžu byť spoplatnené. Prijímateľ e-mailu alebo SMS správy musí s ich odoslaním súhlasiť. <a %(escapedLearnMoreAttributes)s>Ďalšie"
-#~ " informácie</a>"
+#~ "SMS služba je dostupná len v určitých krajinách. SMS a dátové služby môžu byť spoplatnené. Prijímateľ e-mailu alebo SMS správy musí s ich odoslaním súhlasiť. <a "
+#~ "%(escapedLearnMoreAttributes)s>Ďalšie informácie</a>"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Účet už existuje. <a href=\"/signin\">Prihláste sa</a>"
@@ -2553,8 +2567,8 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Budete dostávať správy týkajúce sa bezpečnosti vášho účtu, zmien v našich podmienkach a funkciách vášho účtu a taktiež niekoľko úvodných e-mailov, ktoré vám pomôžu vyťažiť z vášho účtu Firefox čo "
-#~ "najviac."
+#~ "Budete dostávať správy týkajúce sa bezpečnosti vášho účtu, zmien v našich podmienkach a funkciách vášho účtu a taktiež niekoľko úvodných e-mailov, ktoré vám pomôžu vyťažiť z vášho účtu Firefox "
+#~ "čo najviac."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Okrem toho sa môžete prihlásiť k odberu propagačných e-mailov s novinkami týkajúcimi sa Mozilly a Firefoxu."
@@ -2566,11 +2580,11 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgstr "Spravovať nastavenia"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Ak tento účet používate na prístup k iným aplikáciám a službám Mozilly (AMO, Pocket a Screenshots), mali by ste sa najprv prihlásiť a odstrániť akékoľvek uložené osobné údaje. Po odstránení účtu k "
-#~ "nim stratíte prístup."
+#~ "Ak tento účet používate na prístup k iným aplikáciám a službám Mozilly (AMO, Pocket a Screenshots), mali by ste sa najprv prihlásiť a odstrániť akékoľvek uložené osobné údaje. Po odstránení účtu "
+#~ "k nim stratíte prístup."
 
 #~ msgid "verified"
 #~ msgstr "overená"
@@ -2648,7 +2662,9 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgstr "Zdieľajte súbory bez toho, aby vás niekto sledoval."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Pokračovaním vyjadrujete súhlas s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zásadami ochrany súkromia</a>."
+#~ msgstr ""
+#~ "Pokračovaním vyjadrujete súhlas s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zásadami ochrany "
+#~ "súkromia</a>."
 
 #~ msgid "Description of Issue"
 #~ msgstr "Popis problému"
@@ -2785,7 +2801,9 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies a lokálne úložisko sú požadované."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmienkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami ochrany osobných "
 #~ "údajov</a> cloudových služieb Firefoxu."
@@ -2832,8 +2850,8 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "SMS služba je dostupná len pre telefónne čísla z USA. Môžu sa účtovať poplatky za SMS a mobilné dáta. Prijímateľ e-mailu alebo SMS musí s prijatím súhlasiť. <a %(escapedLearnMoreAttributes)s>Ďalšie "
-#~ "informácie</a>"
+#~ "SMS služba je dostupná len pre telefónne čísla z USA. Môžu sa účtovať poplatky za SMS a mobilné dáta. Prijímateľ e-mailu alebo SMS musí s prijatím súhlasiť. <a "
+#~ "%(escapedLearnMoreAttributes)s>Ďalšie informácie</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "Odkaz na aplikáciu bol odoslaný na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Zlé číslo?</a>"
@@ -2842,11 +2860,11 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgstr "Prečo synchronizovať dve (alebo aj viac!) zariadení?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Vďaka službe Sync môžete zdieľať heslá, záložky a históriu, ktoré vytvoríte vo Firefoxe na jednom zariadení, s Firefoxom na všetkých vašich iných zariadeniach. Prihláste sa k službe Firefox Sync na "
-#~ "svojom telefóne alebo tablete, a ihneď uvidíte všetko, čo ste si uložili vo Firefoxe na svojom počítači."
+#~ "Vďaka službe Sync môžete zdieľať heslá, záložky a históriu, ktoré vytvoríte vo Firefoxe na jednom zariadení, s Firefoxom na všetkých vašich iných zariadeniach. Prihláste sa k službe Firefox Sync "
+#~ "na svojom telefóne alebo tablete, a ihneď uvidíte všetko, čo ste si uložili vo Firefoxe na svojom počítači."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2958,18 +2976,18 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgstr "Prihlásiť sa"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>PAMÄTAJTE:</span> Ak obnovíte svoje heslo, niektoré vaše údaje budú nenávratne vymazané (vrátane údajov synchronizovaných na serveri, ako je napríklad história a záložky). Je to spôsobené tým,"
-#~ " že v záujme ochrany vášho súkromia vaše údaje šifrujeme."
+#~ "<span>PAMÄTAJTE:</span> Ak obnovíte svoje heslo, niektoré vaše údaje budú nenávratne vymazané (vrátane údajov synchronizovaných na serveri, ako je napríklad história a záložky). Je to spôsobené "
+#~ "tým, že v záujme ochrany vášho súkromia vaše údaje šifrujeme."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>POZNÁMKA:</span> Ak obnovíte svoje heslo, niektoré vaše údaje budú vymazané (vrátane údajov synchronizovaných na serveri, ako je napríklad história a záložky). Je to spôsobené tým, že v záujme"
-#~ " ochrany vášho súkromia vaše údaje šifrujeme."
+#~ "<span>POZNÁMKA:</span> Ak obnovíte svoje heslo, niektoré vaše údaje budú vymazané (vrátane údajov synchronizovaných na serveri, ako je napríklad história a záložky). Je to spôsobené tým, že v "
+#~ "záujme ochrany vášho súkromia vaše údaje šifrujeme."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Zvýšte zabezpečenie svojho účtu pridaním povinného zadávania bezpečnostných kódov vygenerovaných jednou z <a %(escapedTotpSupportAttributes)s>týchto overovacích aplikácií.</a>"
@@ -3082,18 +3100,20 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid "Sync preferences"
 #~ msgstr "Nastavenia synchronizácie"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite kliknutím sem</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Hľadáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začnite kliknutím sem</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Máte účet s inou e-mailovou adresou? <a href=\"%(signinUri)s\">Prihláste sa</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox je k dispozícii pre <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Posledná aktivita: %(translatedTimeAgo)s"
@@ -3270,8 +3290,8 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia medzi"
-#~ " reláciami."
+#~ "Služba Firefox Accounts vyžaduje povolené cookies v vašom prehliadači. Cookies sú malé kúsky a údajmi uložené v prehliadači, ktoré poskytujú funkcionalitu, ako napr. zapamätanie si prihlásenia "
+#~ "medzi reláciami."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox prichádza na iOS!"
@@ -3411,12 +3431,16 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Už máte účet? Prihláste sa."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochrane osobných údajov</a> %(serviceName)s "
 #~ "(%(serviceUri)s)."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Pokračovaním súhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmienkami používania služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami ochrany "
 #~ "súkromia</a> cloudových služieb Firefoxu."

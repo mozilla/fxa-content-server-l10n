@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 22:07+0000\n"
+"POT-Creation-Date: 2022-01-20 22:06+0000\n"
 "PO-Revision-Date: 2021-08-12 03:44+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -969,10 +969,8 @@ msgstr "새 비밀번호 생성"
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때"
-"문입니다. 가지고 있는 구독은 계속 유지됩니다."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1329,7 +1327,7 @@ msgstr "이런 일이 왜 일어나나요?"
 #: .es5/templates/reset_password.mustache:3
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 
 #: .es5/templates/reset_password.mustache:6
@@ -2021,6 +2019,13 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하"
+#~ "기 때문입니다. 가지고 있는 구독은 계속 유지됩니다."
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
