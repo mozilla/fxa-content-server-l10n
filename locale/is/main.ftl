@@ -26,6 +26,10 @@ document =
 
 ## app error dialog
 
+general-error-heading = Almenn forritsvilla
+basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
+payment-error-1 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Reyndu aftur eða hafðu samband við útgefanda kortsins.
+payment-error-2 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Hafðu samband við útgefanda kortsins.
 
 ##  $productName (String) - The name of the subscribed product.
 
