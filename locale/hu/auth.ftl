@@ -19,11 +19,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logó">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Eszközök szinkronizálása">
+body-devices-image = <img data-l10n-name="devices-image" alt="Eszközök">
 fxa-privacy-url = { -brand-mozilla } adatvédelmi irányelvek
 fxa-service-url = { -product-firefox-cloud } Szolgáltatási feltételek
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logó">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logó">
 subplat-automated-email = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
 subplat-privacy-notice = Adatvédelmi nyilatkozat
 subplat-privacy-plaintext = Adatvédelmi nyilatkozat:
@@ -52,6 +59,12 @@ subplat-legal = Jogi információk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Adatvédelem
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } letöltése a { -google-play }ről">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } letöltése az { -app-store }ból">
 another-desktop-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
 another-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
 automated-email-change =
