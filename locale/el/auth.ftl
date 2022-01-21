@@ -64,6 +64,7 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Συσκευές">
 fxa-privacy-url = Πολιτική απορρήτου της { -brand-mozilla }
 fxa-service-url = Όροι υπηρεσίας { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Λογότυπο { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Λογότυπο { -brand-mozilla }">
 subplat-automated-email = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
 subplat-privacy-notice = Σημείωση απορρήτου
 subplat-privacy-plaintext = Σημείωση απορρήτου:
@@ -92,6 +93,12 @@ subplat-legal = Νομικά
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Απόρρητο
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Λήψη του { $productName } στο { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Λήψη του { $productName } στο { -app-store }">
 another-desktop-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">έναν άλλο υπολογιστή</a>.
 another-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">μια άλλη συσκευή</a>.
 automated-email-change =

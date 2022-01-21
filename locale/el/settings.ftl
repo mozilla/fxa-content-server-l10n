@@ -201,6 +201,7 @@ dc-subheader = Βοηθήστε στη βελτίωση των { -product-firefo
 dc-subheader-content = Να επιτρέπεται στους { -product-firefox-accounts(case: "acc", capitalization: "upper") } η αποστολή τεχνικών δεδομένων και αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-out-success = Επιτυχής αποχώρηση. Οι { -product-firefox-accounts(case: "nom", capitalization: "upper") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
+dc-opt-in-out-error = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων.
 dc-learn-more = Μάθετε περισσότερα
 
 # DropDownAvatarMenu component
@@ -347,6 +348,8 @@ delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
 delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
+delete-account-chk-box-1-v2 =
+    .label = Θα ακυρωθούν τυχόν επί πληρωμή συνδρομές σας (εκτός του { product-pocket })
 delete-account-chk-box-2 =
     .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
 delete-account-chk-box-3 =
