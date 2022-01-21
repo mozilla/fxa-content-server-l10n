@@ -155,13 +155,95 @@ sub-update-total-label = Nová suma spolu
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } denne
+        [few] { $amount } každé { $intervalCount } dni
+       *[other] { $amount } každých { $intervalCount } dní
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } denne
+            [few] { $amount } každé { $intervalCount } dni
+           *[other] { $amount } každých { $intervalCount } dní
+        }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } týždenne
+        [few] { $amount } každé { $intervalCount } týždne
+       *[other] { $amount } každých { $intervalCount } týždňov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } týždenne
+            [few] { $amount } každé { $intervalCount } týždne
+           *[other] { $amount } každých { $intervalCount } týždňov
+        }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mesačne
+        [few] { $amount } každé { $intervalCount } mesiace
+       *[other] { $amount } každých { $intervalCount } mesiacov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mesačne
+            [few] { $amount } každé { $intervalCount } mesiace
+           *[other] { $amount } každých { $intervalCount } mesiacov
+        }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } ročne
+        [few] { $amount } každé { $intervalCount } roky
+       *[other] { $amount } každých { $intervalCount } rokov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ročne
+            [few] { $amount } každé { $intervalCount } roky
+           *[other] { $amount } každých { $intervalCount } rokov
+        }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } denne
+        [few] { $amount } každé { $intervalCount } dni
+       *[other] { $amount } každých { $intervalCount } dní
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } týždenne
+        [few] { $amount } každé { $intervalCount } týždne
+       *[other] { $amount } každých { $intervalCount } týždňov
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } mesačne
+        [few] { $amount } každé { $intervalCount } mesiace
+       *[other] { $amount } každých { $intervalCount } mesiacov
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } ročne
+        [few] { $amount } každé { $intervalCount } roky
+       *[other] { $amount } každých { $intervalCount } rokov
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Ďalšia fakturácia dňa { $date }
+sub-expires-on = Vyprší dňa { $date }
 
 ##
 
