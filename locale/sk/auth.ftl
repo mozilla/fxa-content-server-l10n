@@ -142,6 +142,10 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stiahnuť { $product
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ak ste ho nezmenili, prosím, obnovte si svoje heslo na adrese { $resetLink }
+cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl")s>krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte, prosím, tento krátky formulár a pomôžte nám zlepšiť naše služby:
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
@@ -171,11 +175,15 @@ card-ending-in = Karta { $cardType } končiaca číslicami { $lastFour }
 subscriptionSupport = Máte otázky týkajúce sa vášho predplatného? Náš <a data-l10n-name="subscriptionSupportUrl">tím podpory</a> je tu, aby vám pomohol.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte otázky týkajúce sa vášho predplatného? Náš tím podpory je tu, aby vám pomohol:
+view-invoice = <a data-l10n-name="invoiceLink">Zobraziť faktúru</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobraziť faktúru: { $invoiceLink }
+cadReminderFirst-subject = Vaša priateľská pripomienka: ako dokončiť nastavenie synchronizácie
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
+cadReminderFirst-title = Toto je vaša pripomienka na synchronizáciu zariadení.
+cadReminderFirst-description = Na synchronizáciu sú potrební dvaja. Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
 cadReminderSecond-subject = Záverečná pripomienka: dokončite nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title = Posledná pripomienka na synchronizáciu zariadení!
