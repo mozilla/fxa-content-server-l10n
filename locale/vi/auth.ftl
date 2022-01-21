@@ -25,6 +25,7 @@
 ## Email content
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Đồng bộ hóa thiết bị">
 body-devices-image = <img data-l10n-name="devices-image" alt="Thiết bị">
 fxa-privacy-url = Chính sách bảo mật của { -brand-mozilla }
 fxa-service-url = Điều khoản dịch vụ của { -product-firefox-cloud }
