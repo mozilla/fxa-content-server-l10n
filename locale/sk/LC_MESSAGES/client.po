@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 22:06+0000\n"
-"PO-Revision-Date: 2022-01-21 14:26+0000\n"
+"PO-Revision-Date: 2022-01-21 14:56+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1478,7 +1478,7 @@ msgstr "Chcete synchronizovať svoj telefón?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Pošlite si odkaz prostredníctvom SMS na inštaláciu Firefoxu do telefónu."
+msgstr "Pošlite si odkaz na inštaláciu Firefoxu do telefónu prostredníctvom SMS."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
