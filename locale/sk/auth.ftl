@@ -147,10 +147,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Stiahnuť { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stiahnuť { $productName } z { -app-store }">
+another-desktop-device = Alebo ho nainštalujte na <a data-l10n-name="anotherDeviceLink">inom počítači</a>.
+another-device = Alebo ho nainštalujte na <a data-l10n-name="anotherDeviceLink">inom zariadení</a>.
+automated-email-change =
+    Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="passwordChangeLink">zmeňte si svoje heslo</a>.
+    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
+automated-email =
+    Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nevyžaduje sa žiadna akcia.
+    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+automated-email-reset =
+    Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="resetLink">zmeňte si svoje heslo</a>.
+    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ak ste ho nezmenili, prosím, obnovte si svoje heslo na adrese { $resetLink }
@@ -380,6 +391,13 @@ subscriptionDowngrade-subject = Úspešne ste prešli na { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Úspešne ste prešli z { $productNameOld } na { $productNameNew }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Počnúc ďalšou faktúrou sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }. V tom čase vám bude účtovaný aj jednorazový poplatok { $paymentProrated }, ktorý odráža vyšší poplatok za tento { $productPaymentCycleOld } (pomerná časť).
+# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať { $productNameNew }, dostanete samostatný e-mail s pokynmi na stiahnutie.
 subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
@@ -481,6 +499,15 @@ subscriptionReactivation-content = Váš fakturačný cyklus a platba zostanú r
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Upozornenie na automatické obnovenie produktu { $productName }
 subscriptionRenewalReminder-title = Vaše predplatné bude čoskoro obnovené
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Vážený zákazník produktu { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Vaše aktuálne predplatné je nastavené na automatické obnovenie o { $reminderLength } dní. V tom čase vám { -brand-mozilla } obnoví predplatné { $planIntervalCount } { $planInterval } a bude účtovať poplatok { $invoiceTotal } pomocou zvoleného spôsobu platby.
 subscriptionRenewalReminder-content-closing = S pozdravom,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -488,6 +515,7 @@ subscriptionRenewalReminder-content-signature = Tím { $productName }
 subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší
 subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
 subscriptionsPaymentExpired-content = Platnosť kreditnej karty, ktorú používate na platby za nasledujúce predplatné, čoskoro vyprší.
+subscriptionsPaymentProviderCancelled-subject = Vyžaduje sa aktualizácia platobných údajov pre predplatné produktov { -brand-mozilla(case: "gen") }
 subscriptionsPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
 subscriptionsPaymentProviderCancelled-content-detected = Pri nasledujúcich predplatných sme zistili problém s vaším spôsobom platby.
 subscriptionsPaymentProviderCancelled-content-payment = Mohlo sa stať, že platnosť vašej kreditnej karty vypršala alebo je váš aktuálny spôsob platby zastaraný.

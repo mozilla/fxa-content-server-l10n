@@ -48,6 +48,8 @@ payment-error-manage-subscription-button = Spravovať moje predplatné
 country-currency-mismatch = Mena tohto predplatného nie je platná pre krajinu spojenú s vašou platbou.
 currency-currency-mismatch = Ľutujeme. Medzi menami nemôžete prepínať.
 no-subscription-change = Ľutujeme, váš plán predplatného nemôžete zmeniť.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Už máte predplatné cez { $mobileAppStore }.
 expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
 insufficient-funds-error = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
 withdrawal-count-limit-exceeded-error = Zdá sa, že táto transakcia vás dostane nad kreditný limit. Skúste inú kartu.
@@ -59,6 +61,7 @@ card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, z
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Systémová chyba spôsobila zlyhanie vašej registrácie produktu { $productName }. Váš spôsob platby nebol zaúčtovaný. Prosím, skúste to znova.
 newsletter-signup-error = Nie ste zaregistrovaný na odber e-mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
 fxa-post-passwordless-sub-error = Predplatné bolo potvrdené, ale nepodarilo sa načítať stránku s potvrdením. Skontrolujte svoj e-mail a nastavte si účet.
 
@@ -80,10 +83,39 @@ subscription-success-title = Potvrdenie predplatného
 subscription-processing-title = Potvrdzuje sa odber...
 subscription-error-title = Chyba pri potvrdzovaní predplatného…
 subscription-noplanchange-title = Táto zmena plánu predplatného nie je podporovaná
+subscription-iapsubscribed-title = Už máte predplatné
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, fakturuje sa { $amount } denne
+        [few] { $productName }, fakturuje sa { $amount } každé { $intervalCount } dni
+       *[other] { $productName }, fakturuje sa { $amount } každých { $intervalCount } dní
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, fakturuje sa { $amount } každý týždeň
+        [few] { $productName }, fakturuje sa { $amount } každé { $intervalCount } týždne
+       *[other] { $productName }, fakturuje sa { $amount } každých { $intervalCount } týždňov
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, fakturuje sa { $amount } mesačne
+        [few] { $productName }, fakturuje sa { $amount } každé { $intervalCount } mesiace
+       *[other] { $productName }, fakturuje sa { $amount } každých { $intervalCount } mesiacov
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName }, fakturuje sa { $amount } ročne
+        [few] { $productName }, fakturuje sa { $amount } každé { $intervalCount } roky
+       *[other] { $productName }, fakturuje sa { $amount } každých { $intervalCount } rokov
+    }
 
 ## Product route
 
@@ -98,8 +130,11 @@ product-no-such-plan = Pre tento produkt takýto plán neexistuje.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb služby { -brand-name-stripe } a { -brand-name-paypal }
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-name-paypal }
 payment-legal-link-paypal-2 = <paypalPrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } používa pre bezpečné spracovanie platieb službu { -brand-name-stripe }
 payment-legal-link-stripe-3 = <stripePrivacyLink>Zásady ochrany osobných údajov služby { -brand-name-stripe }</stripePrivacyLink>
 
 ## payment form
@@ -126,6 +161,7 @@ payment-zip =
 payment-cancel-btn = Zrušiť
 payment-update-btn = Aktualizovať
 payment-pay-btn = Zaplatiť teraz
+payment-pay-with-paypal-btn = Zaplatiť cez { -brand-name-paypal }
 payment-validate-name-error = Prosím, zadajte svoje meno
 payment-validate-zip-required = PSČ je povinné
 payment-validate-zip-short = PSČ je príliš krátke
@@ -143,11 +179,19 @@ input-error-is-required = Pole "{ $label }" je povinné
 
 ## subscription upgrade
 
+product-plan-change-heading = Skontrolujte požadovanú zmenu
+sub-change-failed = Zmena plánu zlyhala
 sub-update-payment-title = Informácie o platbe
 sub-update-card-exp = Koniec platnosti { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Váš plán sa okamžite zmení a po zvyšok fakturačného cyklu vám bude
+    účtovaná upravená suma. Od dňa { $startingDate } vám bude účtovaná celá suma.
 
 ##
 
+sub-change-submit = Potvrdiť zmenu
+sub-change-indicator =
+    .aria-label = indikátor zmeny
 sub-update-current-plan-label = Súčasný plán
 sub-update-new-plan-label = Nový plán
 sub-update-total-label = Nová suma spolu
