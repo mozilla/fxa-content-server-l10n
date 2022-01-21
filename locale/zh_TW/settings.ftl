@@ -151,6 +151,7 @@ dc-subheader = 幫助我們改善 { -product-firefox-accounts }
 dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
 dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
+dc-opt-in-out-error = 很抱歉，更改您的資料收集偏好設定時發生問題。
 dc-learn-more = 了解更多
 
 # DropDownAvatarMenu component
@@ -292,8 +293,8 @@ delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
 delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品:
 delete-account-acknowledge = 請確認若刪除帳號:
-delete-account-chk-box-1 =
-    .label = 將取消您所有已付款的訂閱內容
+delete-account-chk-box-1-v2 =
+    .label = 將取消所有付費訂閱項目（{ product-pocket } 除外）
 delete-account-chk-box-2 =
     .label = 您可能會失去 { -brand-mozilla } 產品中儲存的資訊與部分功能
 delete-account-chk-box-3 =
@@ -390,7 +391,10 @@ tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExt
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = 使用代碼 { $secret } 在支援的應用程式中設定兩階段驗證。
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 無法掃描條碼？
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰:

@@ -24,8 +24,13 @@
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 圖樣">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
+body-devices-image = <img data-l10n-name="devices-image" alt="裝置">
 fxa-privacy-url = { -brand-mozilla } 隱私權保護政策
 fxa-service-url = { -product-firefox-cloud } 服務條款
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 圖樣">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 圖樣">
 subplat-automated-email = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
 subplat-privacy-notice = 隱私權公告
 subplat-privacy-plaintext = 隱私權保護政策:
@@ -54,6 +59,12 @@ subplat-legal = 法律資訊
 subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = 隱私權
 subplat-privacy-website-plaintext = { subplat-privacy }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-play } 下載 { $productName }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="到 { -app-store } 下載 { $productName }">
 another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
 another-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝。
 automated-email-change = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="passwordChangeLink">請立即更改密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
