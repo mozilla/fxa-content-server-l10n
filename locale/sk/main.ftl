@@ -298,6 +298,14 @@ pay-update-change-btn = Zmeniť
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Chcete aj naďalej používať { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Váš prístup k produktu { $name } bude zachovaný a váš fakturačný cyklus a platba zostanú rovnaké. Vaša ďalšia platba bude v hodnote { $amount } a bude stiahnutá z karty končiacej na { $last } dňa { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = Váš prístup k produktu { $name } bude zachovaný a váš fakturačný cyklus a platba zostanú rovnaké. Vaša ďalšia platba bude v hodnote { $amount } a bude stiahnutá dňa { $endDate }.
 reactivate-confirm-button = Opätovne predplatiť
 
 ##  $date (Date) - Last day of product access
@@ -316,6 +324,7 @@ sub-item-missing-msg = Skúste to znova neskôr.
 sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 sub-item-cancel-sub = Zrušiť predplatné
 sub-item-stay-sub = Ponechať predplatné
+sub-item-cancel-msg = Po { $period }, poslednom dni vášho fakturačného cyklu, už produkt { $name } nebudete môcť používať.
 
 ## subscription iap item
 
