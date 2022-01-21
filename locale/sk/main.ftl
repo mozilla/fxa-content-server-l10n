@@ -193,6 +193,8 @@ sub-item-stay-sub = Ponechať predplatné
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Nákup v aplikácii
+sub-iap-item-apple-purchase = { -brand-name-apple }: Nákup v aplikácii
 sub-iap-item-manage-button = Spravovať
 account-activated = Váš účet je aktivovaný, <userEl/>
 
@@ -215,6 +217,10 @@ sub-subscription-error =
 sub-customer-error =
     .title = Problém pri načítaní zákazníka
 sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizované
+sub-route-payment-modal-heading = Neplatné fakturačné údaje
+sub-route-payment-modal-message = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-name-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
+sub-route-missing-billing-agreement-payment-alert = Neplatné informácie o platbe; vo vašom účte sa vyskytla chyba. <div>Spravovať</div>
+sub-route-funding-source-payment-alert = Neplatné informácie o platbe; vo vašom účte sa vyskytla chyba. Po úspešnej aktualizácii informácií môže chvíľu trvať, kým sa toto upozornenie vymaže. <div>Spravovať</div>
 pay-update-manage-btn = Spravovať
 
 ## subscription create
@@ -230,9 +236,18 @@ plan-details-header = Podrobnosti o produkte
 plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
 plan-details-total-label = Celkom
+plan-details-list-price = Cenník
 
 ## coupons
 
+coupon-discount = Zľava
+coupon-discount-applied = Zľava bola uplatnená
+coupon-submit = Použiť
+coupon-remove = Odstrániť
+coupon-error = Zadaný kód je neplatný alebo jeho platnosť vypršala.
+coupon-success = Váš plán sa automaticky obnoví za katalógovú cenu.
+coupon-enter-code =
+    .placeholder = Zadajte kód
 
 ## payment-processing
 
@@ -248,10 +263,12 @@ payment-confirmation-thanks-heading = Ďakujeme!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = Na adresu { $email } bol odoslaný potvrdzujúci e-mail s podrobnosťami o tom, ako začať so službou { $product_name }.
 payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e-mail!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Na adresu { $email } dostanete e-mail s pokynmi na nastavenie účtu, ako aj s podrobnosťami o platbe.
 payment-confirmation-order-heading = Podrobnosti o objednávke
 payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 payment-confirmation-billing-heading = Odberateľ
@@ -289,10 +306,12 @@ payment-confirmation-amount-year =
        *[other] { $amount } každých { $intervalCount } rokov
     }
 payment-confirmation-download-button = Pokračovať na stiahnutie
+payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 
 ## new user email form
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox }? <a>Prihláste sa</a>
+new-user-step-1 = 1. Vytvorte si účet { -brand-name-firefox }
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -304,4 +323,12 @@ new-user-subscribe-product-updates = Chcem dostávať produktové novinky o { -b
 new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
+new-user-already-has-account-sign-in = Už máte účet. <a>Prihláste sa</a>
 new-user-card-title = Zadajte informácie o svojej karte
+new-user-submit = Predplatiť
+manage-pocket-title = Hľadáte svoje prémiové predplatné { -brand-name-pocket }?
+manage-pocket-body = Ak ho chcete spravovať, <a>kliknite sem</a>.
+payment-method-header = Vyberte si spôsob platby
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Požadované

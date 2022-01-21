@@ -232,6 +232,7 @@ dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalizat
 dc-subheader-content = Povoliť { -product-firefox-accounts(capitalizaion: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebude posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
+dc-opt-in-out-error = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém.
 dc-learn-more = Ďalšie informácie
 
 # DropDownAvatarMenu component
@@ -376,8 +377,8 @@ delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
 delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization: "lower") } ste pripojili k produktom { -brand-mozilla(case: "gen") }, ktoré vám pomôžu zaistiť vaše bezpečie a produktivitu na webe:
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
-delete-account-chk-box-1 =
-    .label = budú zrušené všetky predplatné
+delete-account-chk-box-1-v2 =
+    .label = Všetky predplatné, ktoré máte, budú zrušené (okrem { product-pocket })
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
@@ -476,9 +477,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Pomocou kódu { $secret } nastavte dvojstupňové overenie v
     podporovanej aplikácii.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
