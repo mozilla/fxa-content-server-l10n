@@ -24,8 +24,13 @@
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-Logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Geräte synchronisieren">
+body-devices-image = <img data-l10n-name="devices-image" alt="Geräte">
 fxa-privacy-url = { -brand-mozilla }-Datenschutzerklärung
 fxa-service-url = Nutzungsbedingungen für { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-Logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-Logo">
 subplat-automated-email = Dies ist eine automatisierte E-Mail; wenn Sie diese fälschlicherweise erhalten haben, müssen Sie nichts tun.
 subplat-privacy-notice = Datenschutzhinweis
 subplat-privacy-plaintext = Datenschutzerklärung:
@@ -54,6 +59,12 @@ subplat-legal = Rechtliches
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Datenschutz
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } bei { -google-play } herunterladen">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } im { -app-store } herunterladen">
 another-desktop-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Desktop-Gerät</a> durch.
 another-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Gerät</a> durch.
 automated-email-change =

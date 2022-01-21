@@ -165,6 +165,7 @@ dc-subheader = Helfen Sie dabei, { -product-firefox-accounts } zu verbessern
 dc-subheader-content = Firefox { -product-firefox-accounts } erlauben, technische und Interaktionsdaten an { -brand-mozilla } zu senden.
 dc-opt-out-success = Widerspruch erfolgreich. { -product-firefox-accounts } sendet keine technischen oder Interaktionsdaten an { -brand-mozilla }.
 dc-opt-in-success = Vielen Dank! Die Weitergabe dieser Daten hilft uns, { -product-firefox-accounts } zu verbessern.
+dc-opt-in-out-error = Beim Ändern Ihrer Präferenzen zur Datensammlung ist ein Fehler aufgetreten.
 dc-learn-more = Weitere Informationen
 
 # DropDownAvatarMenu component
@@ -311,8 +312,8 @@ delete-account-step-1-2 = Schritt 1 von 2
 delete-account-step-2-2 = Schritt 2 von 2
 delete-account-confirm-title-2 = Sie haben Ihr{ -product-firefox-account } mit { -brand-mozilla }-Produkten verbunden, mit denen Sie im Web sicher und produktiv sind:
 delete-account-acknowledge = Bitte bestätigen Sie, dass durch Löschung Ihres Kontos:
-delete-account-chk-box-1 =
-    .label = Alle bezahlten Abonnements, die Sie haben, werden gekündigt
+delete-account-chk-box-1-v2 =
+    .label = Sämtliche bezahlten Abonnements werden gekündigt (ausgenommen { product-pocket })
 delete-account-chk-box-2 =
     .label = Sie gespeicherte Daten und Funktionen in { -brand-mozilla }-Produkten verlieren könnten
 delete-account-chk-box-3 =
@@ -411,7 +412,10 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Verwenden Sie den Code { $secret } zum Einrichten der Zwei-Schritt-Authentifizierung in unterstützten Anwendungen.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Lässt sich der Code nicht scannen?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Geben Sie diesen Geheimschlüssel in Ihre Authentifizierungs-App ein:
