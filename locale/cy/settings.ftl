@@ -165,6 +165,7 @@ dc-subheader = Helpwch i wella { -product-firefox-accounts }
 dc-subheader-content = Caniatáu i { -product-firefox-accounts } anfon data technegol a rhyngweithio i { -brand-mozilla }.
 dc-opt-out-success = Eithrio'n llwyddiannus. Ni fydd { -product-firefox-accounts } yn anfon data technegol neu ryngweithio i { -brand-mozilla }.
 dc-opt-in-success = Diolch! Mae rhannu'r data hwn yn ein helpu i wella { -product-firefox-accounts }.
+dc-opt-in-out-error = Ymddiheuriadau, bu anhawster wrth newid eich dewis casglu data.
 dc-learn-more = Dysgu rhagor
 
 # DropDownAvatarMenu component
@@ -311,8 +312,8 @@ delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
 delete-account-confirm-title-2 = Rydych wedi cysylltu'ch { -product-firefox-account } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
-delete-account-chk-box-1 =
-    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu
+delete-account-chk-box-1-v2 =
+    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu( Ac eithrio { product-pocket })
 delete-account-chk-box-2 =
     .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn cynnyrch { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -411,9 +412,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Defnyddiwch y cod { $secret } i osod dilysiad dau gam yn
     rhaglenni sy'n cael eu cynnal.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Methu sganio codau?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:

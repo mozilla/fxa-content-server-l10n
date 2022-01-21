@@ -19,11 +19,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cydweddu dyfeisiau">
+body-devices-image = <img data-l10n-name="devices-image" alt="Dyfeisiau">
 fxa-privacy-url = Polisi Preifatrwydd { -brand-mozilla }
 fxa-service-url = Amodau Gwasanaethau { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
 subplat-privacy-notice = Hysbysiad preifatrwydd
 subplat-privacy-plaintext = Hysbysiad preifatrwydd:
@@ -52,6 +59,12 @@ subplat-legal = Cyfreithiol
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Preifatrwydd
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Llwytho { $productName }  i lawr o { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Llwytho { $productName }  i lawr o { -app-store }">
 another-desktop-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
 another-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
 automated-email-change =
