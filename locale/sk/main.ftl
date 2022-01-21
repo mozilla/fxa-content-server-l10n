@@ -325,6 +325,7 @@ sub-item-no-such-plan = Pre toto predplatné neexistuje takýto plán.
 sub-item-cancel-sub = Zrušiť predplatné
 sub-item-stay-sub = Ponechať predplatné
 sub-item-cancel-msg = Po { $period }, poslednom dni vášho fakturačného cyklu, už produkt { $name } nebudete môcť používať.
+sub-item-cancel-confirm = Zrušiť môj prístup k produktu { $name } a dáta v ňom uložené ku dňu { $period }
 
 ## subscription iap item
 
