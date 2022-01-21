@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 22:06+0000\n"
-"PO-Revision-Date: 2022-01-21 15:17+0000\n"
+"PO-Revision-Date: 2022-01-21 15:34+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -732,11 +732,11 @@ msgstr "Buďte chytrejší na internete"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Vyskúšajte produkty Firefoxu"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Boj za udržanie zdravého internetu"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
