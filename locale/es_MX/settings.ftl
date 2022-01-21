@@ -167,6 +167,7 @@ dc-subheader = Ayuda a mejorar { -product-firefox-accounts }
 dc-subheader-content = Permitir que { -product-firefox-accounts } envíe datos técnicos y de interacción a { -brand-mozilla }.
 dc-opt-out-success = Desactivación correcta. { -product-firefox-accounts } no enviará datos técnicos o de interacción a { -brand-mozilla }.
 dc-opt-in-success = ¡Gracias! compartir estos datos ayudan a mejorar { -product-firefox-accounts }.
+dc-opt-in-out-error = Lo sentimos, hubo un problema al cambiar tu preferencia de recopilación de datos.
 dc-learn-more = Saber más
 
 # DropDownAvatarMenu component
@@ -313,6 +314,8 @@ delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
 delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a los productos { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
 delete-account-acknowledge = Por favor, recuerda que si eliminas tu cuenta:
+delete-account-chk-box-1-v2 =
+    .label = Se cancelarán todas las suscripciones de pago que tengas (excepto { product-pocket })
 delete-account-chk-box-2 =
     .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
