@@ -167,6 +167,7 @@ dc-subheader = Pomhajće { -product-firefox-accounts } polěpšić
 dc-subheader-content = { -product-firefox-accounts } dowolić, zo byšće techniske a interakciske daty na { -brand-mozilla } pósłał.
 dc-opt-out-success = Wotzjewjenje wuspěšne. { -product-firefox-accounts } njebudźe techniske abo interakciske daty na { -brand-mozilla } słać.
 dc-opt-in-success = Wulki dźak! Dźělenje tutych datow nam pomha, { -product-firefox-accounts } polěpšić.
+dc-opt-in-out-error = Bohužel je při měnjenju wašeho nastajenja datoweje zběrki problem nastał.
 dc-learn-more = Dalše informacije
 
 # DropDownAvatarMenu component
@@ -313,6 +314,8 @@ delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
 delete-account-confirm-title-2 = Sće swoje konto { -product-firefox-account } z produktami { -brand-mozilla } zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
+delete-account-chk-box-1-v2 =
+    .label = Někotre z wašich abonementow so anuluja (nimo { product-pocket })
 delete-account-chk-box-2 =
     .label = Móžeće składowane informacije a funkcije produktow { -brand-mozilla } zhubić
 delete-account-chk-box-3 =
