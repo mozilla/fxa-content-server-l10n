@@ -155,6 +155,35 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } denne</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+        [few] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každé { $intervalCount } dni</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+       *[other] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } dní</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každý týždeň</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+        [few] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každé { $intervalCount } týždne</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+       *[other] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } týždňov</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } mesiacov</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+        [few] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } mesačne</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+       *[other] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } mesiacov</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } ročne</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+        [few] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každé { $intervalCount } roky</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+       *[other] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } rokov</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
+    }
+payment-confirm = Oprávňujem Mozillu, tvorcu produktov Firefox, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } v intervale { $interval }</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
 
 ##
 
