@@ -117,6 +117,15 @@ subplat-automated-email = Toto je automaticky generovaná správa. Ak ste si ju 
 subplat-privacy-notice = Zásady ochrany súkromia
 subplat-privacy-plaintext = Zásady ochrany súkromia:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account } a zároveň ste si zaregistrovali odber produktu { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account }.
+subplat-explainer-multiple = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account } a zároveň ste sa zaregistrovali na odber niekoľkých produktov.
+subplat-manage-account = Spravujte svoje nastavenia { -product-firefox-account(case: "gen") } na <a data-l10n-name="subplat-account-page">stránke účtu</a>.
 subplat-terms-policy = Podmienky používania a zrušenia
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušiť predplatné
