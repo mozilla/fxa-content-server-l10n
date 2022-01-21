@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 22:06+0000\n"
-"PO-Revision-Date: 2022-01-21 15:32+0000\n"
+"PO-Revision-Date: 2022-01-21 15:43+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -583,6 +583,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"Počnúc ďalšou faktúrou sa váš poplatok zmení z %(paymentAmountOld)s za %(productPaymentCycleOld)s na %(paymentAmountNew)s za %(productPaymentCycleNew)s. V tom čase vám bude účtovaný aj jednorazový "
+"poplatok %(paymentProrated)s, ktorý odráža vyšší poplatok za tento %(productPaymentCycleOld)s (pomerná časť)."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -730,11 +732,11 @@ msgstr "Okamžite, ako bude overenie dokončené, pomôžeme vám nainštalovať
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Alebo ho nainštalujte na <a %(desktopLinkAttributes)s>iný počítač</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Alebo ho nainštalujte na <a %(cadLinkAttributes)s>iné zariadenie</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -790,15 +792,15 @@ msgstr "Podmienky poskytovania služby Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Tento e-mail ste dostali, pretože na adrese %(email)s je registrovaný účet Firefox a zároveň ste si zaregistrovali odber produktu %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Tento e-mail ste dostali, pretože na adrese %(email)s je registrovaný účet Firefox"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Tento e-mail ste dostali, pretože na adrese %(email)s je registrovaný účet Firefox a zároveň ste sa zaregistrovali na odber niekoľkých produktov."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
