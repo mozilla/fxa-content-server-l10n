@@ -19,11 +19,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Apparaten synchroniseren">
+body-devices-image = <img data-l10n-name="devices-image" alt="Apparaten">
 fxa-privacy-url = { -brand-mozilla }-privacybeleid
 fxa-service-url = Servicevoorwaarden voor { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
 subplat-privacy-notice = Privacyverklaring
 subplat-privacy-plaintext = Privacyverklaring:
@@ -52,6 +59,12 @@ subplat-legal = Juridisch
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } downloaden op { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } downloaden in de { -app-store }">
 another-desktop-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander desktopapparaat</a>.
 another-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander apparaat</a>.
 automated-email-change =
