@@ -247,6 +247,7 @@ dc-subheader = Pomóż ulepszać { -product-firefox-accounts(case: "acc", capita
 dc-subheader-content = Pozwól { -product-firefox-accounts(case: "dat", capitalization: "lower") } wysyłać dane techniczne i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-out-success = Pomyślnie zrezygnowano. { -product-firefox-accounts } nie będą wysyłać danych technicznych i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-in-success = Dzięki! Dzielenie się tymi danymi pomaga nam ulepszać { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
+dc-opt-in-out-error = Przepraszamy, wystąpił problem podczas zmieniania preferencji zbierania danych.
 dc-learn-more = Więcej informacji
 
 # DropDownAvatarMenu component
@@ -390,8 +391,8 @@ delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
 delete-account-confirm-title-2 = { -product-firefox-account } jest połączone z produktami { -brand-mozilla(case: "gen") }, które zapewniają bezpieczeństwo i produktywność w Internecie:
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
-delete-account-chk-box-1 =
-    .label = Wszystkie płatne subskrypcje zostaną anulowane
+delete-account-chk-box-1-v2 =
+    .label = Wszystkie posiadane płatne subskrypcje zostaną anulowane (z wyjątkiem { product-pocket })
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
 delete-account-chk-box-3 =
@@ -490,9 +491,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie
     dwuetapowe w obsługiwanych aplikacjach.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nie możesz zeskanować kodu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniającej:
