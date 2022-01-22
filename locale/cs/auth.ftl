@@ -2,11 +2,128 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
--brand-mozilla = Mozilla
--brand-firefox = Firefox
+
+### Localization for Firefox accounts emails, from `fxa-auth-server`
+### Emails do not contain buttons, only links.
+### Emails have a rich HTML version and a plaintext version. The strings are usually identical
+### but sometimes they differ slightly.
+
+# Firefox and Mozilla Brand
+-brand-mozilla =
+    { $case ->
+       *[nom] Mozilla
+        [gen] Mozilly
+        [dat] Mozille
+        [acc] Mozillu
+        [voc] Mozillo
+        [loc] Mozille
+        [ins] Mozillou
+    }
+    .gender = feminine
+-brand-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoxu
+        [dat] Firefoxu
+        [acc] Firefox
+        [voc] Firefoxe
+        [loc] Firefoxu
+        [ins] Firefoxem
+    }
+    .gender = masculine
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [voc]
+            { $capitalization ->
+               *[upper] Účte Firefoxu
+                [lower] účte Firefoxu
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtem Firefoxu
+                [lower] účtem Firefoxu
+            }
+    }
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [voc]
+            { $capitalization ->
+               *[upper] Účte Firefoxu
+                [lower] účte Firefoxu
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtem Firefoxu
+                [lower] účtem Firefoxu
+            }
+    }
+-app-store =
+    { $case ->
+       *[nom] App Store
+        [gen] App Storu
+        [dat] App Storu
+        [acc] App Store
+        [voc] App Store
+        [loc] App Storu
+        [ins] App Storem
+    }
+    .gender = masculine
+-google-play = Google Play
+
+## Email content
+
 fxa-privacy-url = Zásady ochrany osobních údajů
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-automated-email = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
@@ -15,12 +132,17 @@ subplat-terms-policy = Podmínky zrušení
 subplat-cancel = Zrušit předplatné
 subplat-reactivate = Obnovit předplatné
 subplat-update-billing = Aktualizovat platební informace
+subplat-privacy-policy = Zásady ochrany osobních údajů
 subplat-legal = Právní informace
 subplat-privacy = Ochrana osobních údajů
 automated-email-plaintext = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
 change-password-plaintext = Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo.
 manage-account = Správa účtu
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
 cadReminderFirst-subject = Přátelsky připomínáme: Jak dokončit nastavení synchronizace
 cadReminderFirst-action = Synchronizovat další zařízení
@@ -28,6 +150,7 @@ cadReminderFirst-title = Připomínáme nastavení synchronizace dalších zař�
 cadReminderSecond-subject = Poslední připomenutí: Nezapomeňte si nastavit synchronizaci
 cadReminderSecond-action = Synchronizovat další zařízení
 cadReminderSecond-title = Poslední připomenutí na synchronizaci dalšího zařízení.
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zbývá malé množství záložních kódů
 codes-reminder-description = Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů.
 codes-generate = Vygenerovat kódy
@@ -37,7 +160,7 @@ passwordChanged-subject = Heslo změněno
 passwordChanged-title = Heslo bylo úspěšně změněno
 passwordChangeRequired-subject = Zjištěna podezřelá aktivita
 passwordChangeRequired-title = Vyžadována změna hesla
-passwordChangeRequired-sign-in = Přihlaste se zpět v každém zařízením nebo službě, kde používáte účet { -brand-firefox }u, a postupujte podle pokynů, které se vám zobrazí.
+passwordChangeRequired-sign-in = Přihlaste se zpět v každém zařízením nebo službě, kde používáte { -product-firefox-account(case: "acc", capitalization: "lower") }, a postupujte podle pokynů, které se vám zobrazí.
 passwordChangeRequired-different-password = <b>Důležité:</b> Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky.
 passwordChangeRequired-signoff = Nejlépe,
 passwordChangeRequired-different-password-plaintext = Důležité: Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky.
@@ -49,6 +172,7 @@ passwordResetAccountRecovery-title = Heslo k vašemu účtu bylo obnoveno pomoc�
 passwordResetAccountRecovery-description = Úspěšně jste obnovili své heslo pomocí obnovovacího klíče z následujícího zařízení:
 passwordResetAccountRecovery-action = Vytvořit nový obnovovací klíč
 passwordResetAccountRecovery-regen-required = Bude třeba vygenerovat nový obnovovací klíč.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Vytvořit nový obnovovací klíč:
 postAddAccountRecovery-subject = Obnovovací klíč k účtu byl vygenerován
 postAddAccountRecovery-title = Obnovovací klíč k účtu byl vygenerován
@@ -76,12 +200,11 @@ postRemoveAccountRecovery-invalid = Tento obnovovací klíč už není možné p
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-action = Správa účtu
-postRemoveTwoStepAuthentication-subject = Dvoufázové ověřování vypnuto
 postRemoveTwoStepAuthentication-title = Dvoufázové ověřování je vypnuto
 postRemoveTwoStepAuthentication-action = Správa účtu
 postRemoveTwoStepAuthentication-not-required = Při přihlášení už nebude třeba zadávat bezpečnostní kódy.
 postVerify-title = Nyní si nastavte synchronizaci svých zařízení.
-postVerify-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data { -brand-firefox }u na všech vašich zařízení.
+postVerify-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data { -brand-firefox(case: "gen") } na všech vašich zařízení.
 postVerify-subject = Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení
 postVerify-setup = Nastavit další zařízení
 postVerify-action = Nastavit další zařízení
@@ -92,17 +215,22 @@ recovery-subject = Obnovit heslo
 recovery-title = Potřebujete obnovit své heslo?
 recovery-description = Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:
 recovery-action = Vytvořit nové heslo
+subscriptionAccountDeletion-title = Je nám líto, že odcházíte
+subscriptionCancellation-title = Je nám líto, že odcházíte
+subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
 subscriptionPaymentExpired-title = Platnost vaší platební karty brzy vyprší
 subscriptionsPaymentExpired-subject = Platnost platební karty pro úhradu vašich předplatných brzy vyprší
 subscriptionsPaymentExpired-title = Platnost vaší platební karty brzy vyprší
 subscriptionsPaymentExpired-content = Platnost platební karty, kterou hradíte následující předplatné, brzy vyprší.
+subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
+subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
 verificationReminderFirst-subject = Připomínka: Dokončete vytvoření svého účtu
-verificationReminderFirst-title = Vítejte v rodině { -brand-firefox }u
-verificationReminderFirst-description = Před několika dny jste si vytvořili účet { -brand-firefox }u, ale nikdy jste ho nepotvrdili.
+verificationReminderFirst-title = Vítejte v rodině { -brand-firefox(case: "gen") }
+verificationReminderFirst-description = Před několika dny jste si vytvořili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nikdy jste ho nepotvrdili.
 verificationReminderFirst-sub-description = Potvrďte ho nyní a získejte technologii, která bojuje za vaše soukromí a chrání ho, vyzbrojuje vás praktickými znalostmi a projevuje vám zasloužený respekt.
 confirm-email = Potvrdit e-mailovou adresu
 verificationReminderFirst-action = Potvrdit e-mailovou adresu
@@ -136,11 +264,3 @@ verifySecondaryCode-expiry-notice = Platnost vyprší za 5 minut. Po ověření 
 verifyShortCode-title = Jste to vy, kdo se přihlašuje?
 verifyShortCode-prompt = Pokud ano, použijte v registračním formuláři tento ověřovací kód:
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.
-
-cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
-subscriptionAccountDeletion-title = Je nám líto, že odcházíte
-subscriptionCancellation-title = Je nám líto, že odcházíte
-subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
-subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
-subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
-
