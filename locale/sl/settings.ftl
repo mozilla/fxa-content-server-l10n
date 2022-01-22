@@ -343,8 +343,6 @@ delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
 delete-account-confirm-title-2 = Svoj { -product-firefox-account(sklon: "tozilnik") } ste povezali z izdelki { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
-delete-account-chk-box-1 =
-    .label = preklicali vse plačane naročnine
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
 delete-account-chk-box-3 =
@@ -443,7 +441,10 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Uporabite kodo { $secret } za nastavitev dvostopenjskega overjanja v podprtih programih.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ne morete prebrati kode?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
