@@ -28,10 +28,13 @@
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizza dispositivi">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivi">
 fxa-privacy-url = Informativa sulla privacy  di { -brand-mozilla }
 fxa-service-url = Termini di servizio di { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
 subplat-privacy-notice = Informativa sulla privacy
 subplat-privacy-plaintext = Informativa sulla privacy:
