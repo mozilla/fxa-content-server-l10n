@@ -19,11 +19,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheder">
+body-devices-image = <img data-l10n-name="devices-image" alt="Enheder">
 fxa-privacy-url = { -brand-mozilla }s privatlivspolitik
 fxa-service-url = Servicevilkår for { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
 subplat-privacy-notice = Privatlivspolitik
 subplat-privacy-plaintext = Privatlivspolitik:
@@ -52,6 +59,9 @@ subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatliv
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Hent { $productName } på { -google-play }">
 another-desktop-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden computer</a>.
 another-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden enhed</a>.
 automated-email-change =
@@ -406,6 +416,12 @@ subscriptionRenewalReminder-title = Dit abonnement vil snart blive fornyet
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Kære { $productName }-kunde
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Dit nuværende abonnement fornys automatisk om { $reminderLength } dage. På det tidspunkt vil { -brand-mozilla } forny dit { $planIntervalCount }-{ $planInterval }s abonnement og der vil blive trukket { $invoiceTotal } med den angivne betalingsmetode fra din konto.
 subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

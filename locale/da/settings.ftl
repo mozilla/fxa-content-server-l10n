@@ -167,6 +167,7 @@ dc-subheader = Hjælp med at forbedre { -product-firefox-accounts }
 dc-subheader-content = Tillad at { -product-firefox-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-out-success = Fravalget lykkedes. { -product-firefox-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-in-success = Tak! Deling af disse data hjælper os med at forbedre { -product-firefox-accounts }.
+dc-opt-in-out-error = Der opstod desværre et problem med at ændre din indstilling for dataindsamling.
 dc-learn-more = Læs mere
 
 # DropDownAvatarMenu component
@@ -312,8 +313,6 @@ delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
 delete-account-confirm-title-2 = Du har knyttet din { -product-firefox-account } til { -brand-mozilla }-produkter, der sikrer dit privatliv og øger din produktivitet på nettet:
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
-delete-account-chk-box-1 =
-    .label = Bliver alle dine betalte abonnementer annulleret
 delete-account-chk-box-2 =
     .label = Kan du miste gemte oplysninger og funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
@@ -412,9 +411,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Brug koden { $secret } til at opsætte totrinsgodkendelse i
     understøttede applikationer.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
