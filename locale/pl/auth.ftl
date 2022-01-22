@@ -99,11 +99,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox(case: "gen") }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizuj urządzenia">
+body-devices-image = <img data-l10n-name="devices-image" alt="Urządzenia">
 fxa-privacy-url = Zasady ochrony prywatności { -brand-mozilla(case: "gen") }
 fxa-service-url = Regulamin usługi { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox(case: "gen") }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla(case: "gen") }">
 subplat-automated-email = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
 subplat-privacy-notice = Zasady ochrony prywatności
 subplat-privacy-plaintext = Zasady ochrony prywatności:
@@ -132,6 +139,9 @@ subplat-legal = Podstawa prawna
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Prywatność
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Pobierz program { $productName } z { -google-play }">
 another-desktop-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym komputerze</a>.
 another-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym urządzeniu</a>.
 automated-email-change =
