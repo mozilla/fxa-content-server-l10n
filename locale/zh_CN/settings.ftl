@@ -292,8 +292,6 @@ delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
 delete-account-confirm-title-2 = 您已将 { -product-firefox-account }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
 delete-account-acknowledge = 请确认，若您真要删除账户：
-delete-account-chk-box-1 =
-    .label = 将取消您的所有付费订阅内容
 delete-account-chk-box-2 =
     .label = 您可能丢失在 { -brand-mozilla } 产品中保存的信息以及功能
 delete-account-chk-box-3 =
@@ -390,7 +388,10 @@ tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExt
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = 使用救援码 { $secret } 在支持的应用程序中设置两步验证。
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 无法扫码？
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
