@@ -51,11 +51,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logotip { -brand-firefox(sklon: "rodilnik") }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinhronizirajte naprave">
+body-devices-image = <img data-l10n-name="devices-image" alt="Naprave">
 fxa-privacy-url = Mozillina politika zasebnosti
 fxa-service-url = Pogoji uporabe storitev { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotip { -brand-firefox(sklon: "rodilnik") }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotip { -brand-mozilla(sklon: "rodilnik") }">
 subplat-automated-email = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
 subplat-privacy-notice = Obvestilo o zasebnosti
 subplat-privacy-plaintext = Obvestilo o zasebnosti:
