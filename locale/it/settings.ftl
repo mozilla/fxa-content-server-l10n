@@ -157,6 +157,7 @@ dc-subheader = Aiutaci a migliorare { -product-firefox-accounts }
 dc-subheader-content = Consenti a { -product-firefox-accounts } di inviare a { -brand-mozilla } dati tecnici e di interazione.
 dc-opt-out-success = Disattivazione riuscita. { -product-firefox-accounts } non invierà a { -brand-mozilla } dati tecnici o di interazione.
 dc-opt-in-success = Grazie! La condivisione di questi dati ci aiuta a migliorare { -product-firefox-accounts }.
+dc-opt-in-out-error = Siamo spiacenti, si è verificato un problema durante la modifica delle preferenze relative alla raccolta dati.
 dc-learn-more = Ulteriori informazioni
 
 # DropDownAvatarMenu component
@@ -300,8 +301,8 @@ delete-account-step-1-2 = Passaggio 1 di 2
 delete-account-step-2-2 = Passaggio 2 di 2
 delete-account-confirm-title-2 = Hai connesso il tuo { -product-firefox-account } a prodotti { -brand-mozilla } che rendono la tua esperienza web sicura e produttiva:
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
-delete-account-chk-box-1 =
-    .label = Eventuali abbonamenti a pagamento saranno annullati
+delete-account-chk-box-1-v2 =
+    .label = Tutti i tuoi abbonamenti a pagamento verranno annullati (tranne { product-pocket })
 delete-account-chk-box-2 =
     .label = Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -400,9 +401,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Usa il codice { $secret } per impostare l’autenticazione in due passaggi
     nelle applicazioni supportate.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Non riesci a scansionare il codice?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Inserisci questa chiave segreta nell’app di autenticazione:
