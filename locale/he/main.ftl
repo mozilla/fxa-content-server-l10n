@@ -337,6 +337,7 @@ plan-details-total-label = סה״כ
 ## coupons
 
 coupon-discount = הנחה
+coupon-discount-applied = תגמול הנחה הוחל
 coupon-submit = החלה
 coupon-remove = הסרה
 coupon-error = הקוד שהזנת אינו חוקי או שפג תוקפו.
@@ -419,6 +420,4 @@ new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 new-user-submit = הרשמה כמינוי כעת
 manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
 manage-pocket-body = כדי לנהל אותו, <a>יש ללחוץ כאן</a>.
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } בחירת אמצעי התשלום שלך
 payment-method-required = נדרש
