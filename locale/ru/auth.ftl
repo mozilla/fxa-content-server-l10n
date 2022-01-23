@@ -17,12 +17,22 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Логотип { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизация устройств">
+body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
 fxa-service-url = Условия использования { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
+subplat-privacy-notice = Уведомление о конфиденциальности
 subplat-privacy-plaintext = Уведомление о конфиденциальности:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -31,6 +41,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-explainer-specific = Вы получили это письмо, так как на { $email } заведён { -product-firefox-account(case: "singular_nominative") }, и вы подписались на { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Вы получили это письмо, потому что у { $email } есть { -product-firefox-account(case: "singular_nominative") }.
 subplat-explainer-multiple = Вы получили это письмо, так как на { $email } заведён { -product-firefox-account(case: "singular_nominative") }, и вы подписались на несколько продуктов.
 subplat-manage-account = Управляйте настройками { -product-firefox-account(case: "singular_genitive") }, посетив <a data-l10n-name="subplat-account-page">страницу своего аккаунта</a>.
 subplat-terms-policy = Условия и политика отказа от подписки
@@ -40,8 +51,20 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Активировать подписку повторно
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Обновить платёжную информацию
+subplat-privacy-policy = Политика конфиденциальности { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Условия использования { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Права
-subplat-privacy = Приватность
+subplat-legal-plaintext = { subplat-legal }:
+subplat-privacy = Конфиденциальность
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Загрузить { $productName } на { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Загрузить { $productName } на { -app-store }">
 another-desktop-device = Или установите на <a data-l10n-name="anotherDeviceLink">другом компьютере</a>.
 another-device = Или установите на <a data-l10n-name="anotherDeviceLink">другом устройстве</a>.
 automated-email-change =
@@ -69,6 +92,9 @@ change-password-plaintext = Если вы подозреваете, что кт�
 user-ip = IP-адрес: { $ip }
 manage-account = Управление аккаунтом
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Номер счёта: { $invoiceNumber }
 subscriptionSupport = У вас есть вопросы по вашей подписке? Наша <a data-l10n-name="subscriptionSupportUrl">команда поддержки</a> с радостью поможет вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = У вас есть вопросы по вашей подписке? Наша команда поддержки с радостью поможет вам:
@@ -163,7 +189,6 @@ postRemoveSecondary-title = Удалена дополнительная элек
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Вы успешно удалили дополнительный адрес электронной почты { $secondaryEmail } из своего { -product-firefox-account(case: "singular_genitive") }. Уведомления безопасности и подтверждения входа больше на этот адрес отправляться не будут.
 postRemoveSecondary-action = Управление аккаунтом
-postRemoveTwoStepAuthentication-subject = Двухэтапная авторизация отключена
 postRemoveTwoStepAuthentication-title = Двухэтапная аутентификация отключена
 postRemoveTwoStepAuthentication-description = Вы успешно отключили двухэтапную аутентификацию в вашем { -product-firefox-account(case: "singular_prepositional") } со следующего устройства:
 postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в вашем { -product-firefox-account(case: "singular_prepositional") }. Коды безопасности теперь не будут необходимы при каждом входе.
@@ -180,9 +205,6 @@ postVerify-action = Настроить следующее устройство
 postVerify-support = Остались вопросы? Загляните на { $supportUrl }
 postVerifySecondary-subject = Добавлена дополнительная электронная почта
 postVerifySecondary-title = Добавлена дополнительная электронная почта
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Вы успешно подтвердили, что { $secondaryEmail } является дополнительной электронной почтой вашего { -product-firefox-account(case: "singular_genitive") }. Уведомления безопасности и подтверждения входа теперь будут доставляться на оба адреса электронной почты.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title = Нужно сбросить свой пароль?
@@ -215,12 +237,6 @@ subscriptionDowngrade-subject = Вы перешли на { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Вы успешно перешли с { $productNameOld } на { $productNameNew }.
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } в { $productPaymentCycle } вместо { $paymentAmountOld }. В этот раз вы также получите одноразовый бонус в размере { $paymentProrated } для отражения более низкой стоимости за этот { $productPaymentCycle }.
-# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productNameNew }, вы получите отдельное письмо с инструкциями по загрузке.
 subscriptionDowngrade-content-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
@@ -252,12 +268,6 @@ subscriptionUpgrade-title = Спасибо за обновление!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Вы успешно обновились с { $productNameOld } на { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } в { $productPaymentCycle } вместо { $paymentAmountOld }. В этот раз вам также будет необходимо оплатить { $paymentProrated } для отражения более высокой стоимости за этот { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productNameNew }, вы получите отдельное письмо с инструкциями по загрузке.
