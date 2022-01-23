@@ -325,6 +325,8 @@ delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
 delete-account-confirm-title-2 = Вы подключили свой { -product-firefox-account(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
+delete-account-chk-box-1-v2 =
+    .label = Все имеющиеся у вас платные подписки будут отменены (кроме { product-pocket })
 delete-account-chk-box-2 =
     .label = Вы можете потерять сохранённую информацию и возможности продуктов { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -427,6 +429,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Используйте код { $secret } для настройки двухэтапной аутентификации в
     поддерживаемых приложениях.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не можете отсканировать код?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Введите этот секретный ключ в своё приложение для аутентификации:

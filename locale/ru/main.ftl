@@ -378,6 +378,18 @@ plan-details-header = Информация о продукте
 plan-details-show-button = Показать подробности
 plan-details-hide-button = Скрыть подробности
 plan-details-total-label = Всего
+plan-details-list-price = Прейскурант
+
+## coupons
+
+coupon-discount = Скидка
+coupon-discount-applied = Применено вознаграждение со скидкой
+coupon-submit = Применить
+coupon-remove = Удалить
+coupon-error = Введённый вами код некорректен или просрочен.
+coupon-success = Ваш план будет автоматически продлен по прейскуранту.
+coupon-enter-code =
+    .placeholder = Введите код
 
 ## payment-processing
 
@@ -460,6 +472,6 @@ new-user-submit = Подписаться
 manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
 manage-pocket-body = Чтобы управлять им, <a>щелкните здесь</a>.
 payment-method-header = Выберите способ оплаты
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Выберите способ оплаты
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Обязательно
