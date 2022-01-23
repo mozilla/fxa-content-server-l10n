@@ -167,6 +167,7 @@ dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
+dc-opt-in-out-error = Ore ñyrõ, oĩ apañuãi emoambuévo pe erohoryvéva marandu ñembyatyha.
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
@@ -313,8 +314,6 @@ delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-delete-account-chk-box-1 =
-    .label = Umi ñemboheraguapy rehepyme’ẽva opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -413,9 +412,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Eipuru { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
     tembipuru’i ojokupytývape.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
