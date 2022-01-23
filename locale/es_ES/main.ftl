@@ -362,6 +362,18 @@ plan-details-header = Detalles del producto
 plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
+plan-details-list-price = Lista de precios
+
+## coupons
+
+coupon-discount = Descuento
+coupon-discount-applied = Recompensa de descuento aplicada
+coupon-submit = Aplicar
+coupon-remove = Eliminar
+coupon-error = El código que has introducido no es válido o ha caducado.
+coupon-success = Tu plan se renovará automáticamente al precio de la lista.
+coupon-enter-code =
+    .placeholder = Introducir código
 
 ## payment-processing
 
@@ -439,6 +451,6 @@ new-user-submit = Suscribirse ahora
 manage-pocket-title = ¿Buscas tu suscripción premium de { -brand-name-pocket }?
 manage-pocket-body = Para administrarla, <a>haz clic aquí</a>.
 payment-method-header = Elige tu método de pago
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Elige tu método de pago
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Requerido
