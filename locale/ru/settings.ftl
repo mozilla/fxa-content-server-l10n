@@ -96,7 +96,7 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Загрузите { -brand-firefox } в { -google-play }
-connect-another-app-store-image =
+connect-another-app-store-image-2 =
     .title = Загрузите { -brand-firefox } в { -app-store }
 
 ##
@@ -178,6 +178,7 @@ dc-subheader = Помогите улучшить { -product-firefox-accounts(cas
 dc-subheader-content = Разрешить { -product-firefox-accounts(case: "plural_dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "plural") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "plural") }.
+dc-opt-in-out-error = К сожалению, при изменении вашей настройки сбора данных возникла проблема.
 dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
@@ -254,6 +255,8 @@ tfa-replace-code-success =
     в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
     если у вас не будет доступа к мобильному устройству.
 tfa-replace-code-success-alert = Коды восстановления аккаунта обновлены.
+tfa-replace-code-1-2 = Шаг 1 из 2
+tfa-replace-code-2-2 = Шаг 2 из 2
 
 ## Avatar change page
 
@@ -322,8 +325,6 @@ delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
 delete-account-confirm-title-2 = Вы подключили свой { -product-firefox-account(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
-delete-account-chk-box-1 =
-    .label = Все оплаченные вами подписки будут отменены
 delete-account-chk-box-2 =
     .label = Вы можете потерять сохранённую информацию и возможности продуктов { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -422,6 +423,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Используйте код { $secret } для настройки двухэтапной аутентификации в
     поддерживаемых приложениях.
