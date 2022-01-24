@@ -101,6 +101,10 @@ cs-disconnect-sync-content =
 
 ## Avatar change page
 
+avatar-page-zoom-out-button =
+    .title = Kichiklashtirish
+avatar-page-zoom-in-button =
+    .title = Kattalashtirish
 
 ##
 
