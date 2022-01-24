@@ -292,8 +292,6 @@ delete-account-step-1-2 = Etapa 1 de 2
 delete-account-step-2-2 = Etapa 2 de 2
 delete-account-confirm-title-2 = Você conectou sua { -product-firefox-account } a produtos { -brand-mozilla } que te mantêm seguro e produtivo na web:
 delete-account-acknowledge = Esteja ciente que ao excluir sua conta:
-delete-account-chk-box-1 =
-    .label = Qualquer assinatura paga que você tenha será cancelada
 delete-account-chk-box-2 =
     .label = Você pode perder informações e recursos salvos dentro de produtos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -390,7 +388,10 @@ tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicat
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Use o código { $secret } para configurar a autenticação em duas etapas em aplicativos suportados.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Não consegue capturar o código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Digite esta chave secreta no seu aplicativo de autenticação:
