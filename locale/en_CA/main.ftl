@@ -10,6 +10,14 @@ project-brand = Firefox Accounts
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Manage my subscription
 country-currency-mismatch = The currency of this subscription is not valid for the country associated with your payment.
 currency-currency-mismatch = Sorry. You can't switch between currencies.
 no-subscription-change = Sorry. You can't change your subscription plan.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = You’re already subscribed through the { $mobileAppStore }.
 expired-card-error = It looks like your credit card has expired. Try another card.
 insufficient-funds-error = It looks like your card has insufficient funds. Try another card.
 withdrawal-count-limit-exceeded-error = It looks like this transaction will put you over your credit limit. Try another card.
@@ -63,6 +73,7 @@ subscription-success-title = Subscription confirmation
 subscription-processing-title = Confirming subscription…
 subscription-error-title = Error confirming subscription…
 subscription-noplanchange-title = This subscription plan change is not supported
+subscription-iapsubscribed-title = Already subscribed
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -256,6 +267,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Next billed on { $date }
+sub-expires-on = Expires on { $date }
 
 ##
 
@@ -304,6 +316,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancel my access and my saved information within
     { $name } on { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: In-App purchase
+sub-iap-item-apple-purchase = { -brand-name-apple }: In-App purchase
+sub-iap-item-manage-button = Manage
 account-activated = Your account is activated, <userEl/>
 
 ## subscription route index
@@ -344,6 +362,18 @@ plan-details-header = Product details
 plan-details-show-button = Show details
 plan-details-hide-button = Hide details
 plan-details-total-label = Total
+plan-details-list-price = List Price
+
+## coupons
+
+coupon-discount = Discount
+coupon-discount-applied = Discount Reward Applied
+coupon-submit = Apply
+coupon-remove = Remove
+coupon-error = The code you entered is invalid or expired.
+coupon-success = Your plan will automatically renew at the list price.
+coupon-enter-code =
+    .placeholder = Enter Code
 
 ## payment-processing
 
@@ -404,11 +434,9 @@ payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
 new-user-sign-in-link = Already have a { -brand-name-firefox } account? <a>Sign in</a>
 new-user-step-1 = 1. Create a { -brand-name-firefox } account
-new-user-step-2 = 2. Choose your payment method
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Required
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Enter your email
@@ -421,3 +449,9 @@ new-user-email-validate-confirm = Emails do not match
 new-user-already-has-account-sign-in = You already have an account. <a>Sign in</a>
 new-user-card-title = Enter your card information
 new-user-submit = Subscribe Now
+manage-pocket-title = Looking for your { -brand-name-pocket } premium subscription?
+manage-pocket-body = To manage it, <a>click here</a>.
+payment-method-header = Choose your payment method
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Required

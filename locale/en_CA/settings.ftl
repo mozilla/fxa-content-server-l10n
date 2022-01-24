@@ -31,6 +31,7 @@ alert-bar-close-message = Close message
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox } is tech that fights for your onlin
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Get { -brand-firefox } on mobile or tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } in the { -google-play } and { -app-store } or
     <br /><linkExternal>send a download link to your device.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Download { -brand-firefox } on { -google-play }
+connect-another-app-store-image-2 =
+    .title = Download { -brand-firefox } on the { -app-store }
 
 ##
 
@@ -137,6 +145,16 @@ datablock-copy =
     .message = Copied
 datablock-print =
     .message = Printed
+
+## Data collection section
+
+dc-heading = Data Collection and Use
+dc-subheader = Help improve { -product-firefox-accounts }
+dc-subheader-content = Allow { -product-firefox-accounts } to send technical and interaction data to { -brand-mozilla }.
+dc-opt-out-success = Opt out successful. { -product-firefox-accounts } won’t send technical or interaction data to { -brand-mozilla }.
+dc-opt-in-success = Thanks! Sharing this data helps us improve { -product-firefox-accounts }.
+dc-opt-in-out-error = Sorry, there was a problem changing your data collection preference.
+dc-learn-more = Learn more
 
 # DropDownAvatarMenu component
 
@@ -200,6 +218,7 @@ nav-settings = Settings
 nav-profile = Profile
 nav-security = Security
 nav-connected-services = Connected Services
+nav-data-collection = Data Collection and Use
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
 
@@ -208,6 +227,8 @@ nav-email-comm = Email Communications
 tfa-replace-code-error = There was a problem replacing your recovery codes.
 tfa-replace-code-success = New codes have been created. Save these one-time use codes in a safe place — you’ll need them to access your account if you don’t have your mobile device.
 tfa-replace-code-success-alert = Account recovery codes updated.
+tfa-replace-code-1-2 = Step 1 of 2
+tfa-replace-code-2-2 = Step 2 of 2
 
 ## Avatar change page
 
@@ -274,8 +295,8 @@ delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
 delete-account-acknowledge = Please acknowledge that by deleting your account:
-delete-account-chk-box-1 =
-    .label = Any paid subscriptions you have will be cancelled
+delete-account-chk-box-1-v2 =
+    .label = Any paid subscriptions you have will be cancelled (Except { product-pocket })
 delete-account-chk-box-2 =
     .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
@@ -330,9 +351,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Cancel
 add-secondary-email-save-button = Save
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Step 2 of 2
@@ -375,7 +393,10 @@ tfa-scan-this-code = Scan this QR code using one of <linkExternal>these authenti
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Use the code { $secret } to set up two-step authentication in supported applications.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Can't scan code?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Enter this secret key into your authenticator app:
@@ -414,6 +435,17 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Security
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Turn off
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Turn on
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Submitting…
+switch-is-on = on
+switch-is-off = off
 
 ## Sub-section row Defaults
 
@@ -473,6 +505,8 @@ se-default-content = Access your account if you can’t log in to your primary e
 se-content-note =
     Note: a secondary email won’t restore your information — you’ll
     need a <a>recovery key</a> for that.
+# Default value for the secondary email
+se-secondary-email-none = None
 
 ##
 
@@ -502,6 +536,7 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
+auth-error-105 = Invalid verification code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -512,5 +547,7 @@ auth-error-110 = Invalid token
 #                           (for example: "in 15 minutes")
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-138 = Unverified session
+auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
+auth-error-183 = Invalid or expired verification code
 auth-error-1008 = Your new password must be different
