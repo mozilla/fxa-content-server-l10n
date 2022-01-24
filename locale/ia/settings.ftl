@@ -161,6 +161,7 @@ dc-subheader = Adjuta a meliorar { -product-firefox-accounts }
 dc-subheader-content = Permitte a { -product-firefox-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
 dc-opt-out-success = Refusate con successo. { -product-firefox-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
 dc-opt-in-success = Gratias! Compartir iste datos adjuta nos meliorar { -product-firefox-accounts }.
+dc-opt-in-out-error = Desolate, problema a cambiar tu preferentias de collection de datos.
 dc-learn-more = Pro saper plus
 
 # DropDownAvatarMenu component
@@ -307,8 +308,8 @@ delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
 delete-account-confirm-title-2 = Tu ha connectite tu { -product-firefox-account } al productos { -brand-mozilla } que te mantene secur e productive sur le web:
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
-delete-account-chk-box-1 =
-    .label = Omne subscriptiones pagate que tu ha essera cancellate
+delete-account-chk-box-1-v2 =
+    .label = Tote tu abonamentos a pagamento sera annullate (salvo { product-pocket })
 delete-account-chk-box-2 =
     .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -407,9 +408,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Usa le codice { $secret } pro configurar le authentication a duo passos in
      applicationes supportate.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Non pote tu scannar le codice?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
