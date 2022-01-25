@@ -22,8 +22,13 @@
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }in logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronoi laitteet">
+body-devices-image = <img data-l10n-name="devices-image" alt="Laitteet">
 fxa-privacy-url = { -brand-mozilla }n tietosuojakäytäntö
 fxa-service-url = { -product-firefox-cloud } -käyttöehdot
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }in logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }n logo">
 subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 subplat-privacy-notice = Tietosuojakäytäntö
 subplat-privacy-plaintext = Tietosuojaseloste:
