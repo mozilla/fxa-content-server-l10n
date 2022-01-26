@@ -452,4 +452,6 @@ new-user-submit = Abunar ussa
 manage-pocket-title = Tschertgas ti tes abunament premium da { -brand-name-pocket }?
 manage-pocket-body = Per l'administrar, <a>clicca qua</a>.
 payment-method-header = Tscherna tia metoda da pajament
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Obligatoric

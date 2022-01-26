@@ -19,12 +19,20 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo da { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
+body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
 fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -brand-firefox }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
+subplat-privacy-notice = Infurmaziuns davart la protecziun da datas
 subplat-privacy-plaintext = Infurmaziuns davart la protecziun da datas:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
@@ -48,7 +56,15 @@ subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Cundiziuns d'utilisaziun dals servetschs da { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Infurmaziuns giuridicas
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Protecziun da datas
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Telechargiar { $productName } da { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Telechargiar { $productName } da l'{ -app-store }">
 another-desktop-device = U installescha sin in <a data-l10n-name="anotherDeviceLink">auter computer desktop</a>.
 another-device = U installescha sin in <a data-l10n-name="anotherDeviceLink">auter apparat</a>.
 automated-email-change =

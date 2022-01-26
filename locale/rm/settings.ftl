@@ -167,6 +167,7 @@ dc-subheader = Gida da meglierar { -product-firefox-accounts }
 dc-subheader-content = Permetter a { -product-firefox-accounts } da trametter datas tecnicas e datas d'interacziun a { -brand-mozilla }.
 dc-opt-out-success = Deactivà cun success. { -product-firefox-accounts } na trametta naginas datas tecnicas u datas d'interacziun a { -brand-mozilla }.
 dc-opt-in-success = Grazia! La cundivisiun da questas datas ans gidan da meglierar { -product-firefox-accounts }.
+dc-opt-in-out-error = Perstgisa, igl ha dà in problem cun midar tia preferenza da la rimnada da datas.
 dc-learn-more = Ulteriuras infurmaziuns
 
 # DropDownAvatarMenu component
@@ -313,6 +314,8 @@ delete-account-step-1-2 = Pass 1 da 2
 delete-account-step-2-2 = Pass 2 da 2
 delete-account-confirm-title-2 = Ti has connectà tes { -product-firefox-account } cun products da { -brand-mozilla } che ta gidan da navigar a moda segira e productiva en il web:
 delete-account-acknowledge = Considerescha, cun stizzar tes conto:
+delete-account-chk-box-1-v2 =
+    .label = Tut tes abunaments che custan vegnan annullads (cun excepziun da { product-pocket })
 delete-account-chk-box-2 =
     .label = Perdas ti eventualmain infurmaziuns memorisadas e funcziuns che fan part da products da { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -417,6 +420,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Utilisescha il code { $secret } per configurar l'autentificaziun
     en dus pass en las applicaziuns sustegnidas.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Betg pussaivel da scannar il code?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Endatescha questa clav secreta en tia app d'autentificaziun:
