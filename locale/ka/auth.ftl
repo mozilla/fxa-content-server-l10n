@@ -24,12 +24,15 @@
 
 ## Email content
 
-fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
-fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
-body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
-fxa-privacy-url = { -brand-mozilla }-ს პირადულობის დებულება
-fxa-service-url = { -product-firefox-cloud }-ის მომსახურების პირობები
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-ლოგო">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="დასინქ. მოწყობილობები">
+body-devices-image = <img data-l10n-name="devices-image" alt="მოწყობილობები">
+fxa-privacy-url = { -brand-mozilla } – პირადულობის დებულება
+fxa-service-url = { -product-firefox-cloud } – მომსახურების პირობები
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-ლოგო">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 subplat-automated-email = ეს ავტომატური შეტყობინებაა; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
+subplat-privacy-notice = პირადულობის განაცხადი
 subplat-privacy-plaintext = პირადი მონაცემების დაცვის განაცხადი:
 subplat-update-billing-plaintext = { subplat-update-billing }
 # Variables:
@@ -45,8 +48,14 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = გამოწერის კვლავ ამოქმედება
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = ანგარიშსწორების მონაცემების განახლება
+subplat-privacy-policy = { -brand-mozilla } – პირადულობის დებულება
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }
+subplat-cloud-terms = { -product-firefox-cloud } – მომსახურების პირობები
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }
 subplat-legal = სამართლებრივი
+subplat-legal-plaintext = { subplat-legal }
 subplat-privacy = პირადულობა
+subplat-privacy-website-plaintext = { subplat-privacy }
 another-desktop-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა კომპიუტერზე</a>.
 another-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა მოწყობილობაზე</a>.
 automated-email-change =
