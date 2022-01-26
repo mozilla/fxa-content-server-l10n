@@ -362,6 +362,18 @@ plan-details-header = პროდუქტის შესახებ
 plan-details-show-button = ვრცლად ჩვენება
 plan-details-hide-button = მოკლედ ჩვენება
 plan-details-total-label = სულ
+plan-details-list-price = ფასების ნუსხა
+
+## coupons
+
+coupon-discount = ფასდაკლება
+coupon-discount-applied = ფასდაკლების ჯილდო ასახულია
+coupon-submit = ასახვა
+coupon-remove = მოცილება
+coupon-error = შეყვანილი კოდი არამართებული ან ვადაგასულია.
+coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
+coupon-enter-code =
+    .placeholder = შეიყვანეთ კოდი
 
 ## payment-processing
 
@@ -440,6 +452,6 @@ new-user-submit = გამოწერა ახლავე
 manage-pocket-title = გსურთ, შეიძინოთ { -brand-name-pocket }-ის რჩეული ვერსია?
 manage-pocket-body = სამართავად <a>დაწკაპეთ აქ</a>.
 payment-method-header = შეარჩიეთ გადახდის საშუალება
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } შეარჩიეთ გადახდის საშუალება
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = აუცილებელია

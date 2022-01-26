@@ -103,8 +103,8 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = ჩამოტვირთეთ { -brand-firefox }, გამოიყენეთ { -google-play }
-connect-another-app-store-image =
-    .title = ჩამოტვირთეთ { -brand-firefox }, გამოიყენეთ { -app-store }
+connect-another-app-store-image-2 =
+    .title = ჩამოტვირთეთ { -brand-firefox } { -app-store }-იდან
 
 ##
 
@@ -185,6 +185,7 @@ dc-subheader = დაგვეხმარეთ, გავაუმჯობე
 dc-subheader-content = ნების დართვა, რომ { -product-firefox-accounts } შეძლებს გაუგზავნოს { -brand-mozilla }-ს, ტექნიკური და გამოყენების მონაცემები.
 dc-opt-out-success = უარი მიღებულია. { -product-firefox-accounts } არ გაუგზავნის { -brand-mozilla }-ს, ტექნიკურ და გამოყენების მონაცემებს.
 dc-opt-in-success = გმადლობთ! ამ მონაცემების გაზიარება, მეტად დაგვეხმარება, რომ განვავითაროთ { -product-firefox-accounts }
+dc-opt-in-out-error = სამწუხაროდ, ხარვეზი წარმოიშვა მონაცემთა აღრიცხვის პარამეტრის ცვლილებისას.
 dc-learn-more = ვრცლად
 
 # DropDownAvatarMenu component
@@ -261,6 +262,8 @@ tfa-replace-code-success =
     გასაღებები უსაფრთხო ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის, როცა არ
     გექნებათ მობილური მოწყობილობა.
 tfa-replace-code-success-alert = ანგარიშის აღდგენის გასაღებები განახლებულია.
+tfa-replace-code-1-2 = 1-ელი ნაბიჯი 2-იდან
+tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
 
 ## Avatar change page
 
@@ -329,8 +332,8 @@ delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
 delete-account-confirm-title-2 = თქვენ დაუკავშირეთ თქვენი { -product-firefox-account } { -brand-mozilla }-ს პროდუქტებს, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
-delete-account-chk-box-1 =
-    .label = თქვენი ყველა ფასიანი გამოწერა გაუქმდება
+delete-account-chk-box-1-v2 =
+    .label = ყველა ფასიანი გამოწერა გაუქმდება (გარდა { product-pocket }-ისა)
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -429,9 +432,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     გამოიყენეთ { $secret } კოდი, ორსაფეხურიანი დამოწმებისთვის გასამართად
     მხარდაჭერილ პროგრამებში.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:

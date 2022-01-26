@@ -17,10 +17,17 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
-fxa-privacy-url = { -brand-mozilla }-ს პირადი მონაცემების დაცვის დებულება
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
+body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
+fxa-privacy-url = { -brand-mozilla }-ს პირადულობის დებულება
 fxa-service-url = { -product-firefox-cloud }-ის მომსახურების პირობები
 subplat-automated-email = ეს ავტომატური შეტყობინებაა; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
 subplat-privacy-plaintext = პირადი მონაცემების დაცვის განაცხადი:
@@ -29,8 +36,6 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = თქვენ მიიღეთ ეს წერილი, ვინაიდან { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = თქვენ მიიღეთ ეს წერილი, { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ რამდენიმე პროდუქტი.
 subplat-manage-account = გამართეთ თქვენი { -product-firefox-account(case: "gen") } პარამეტრები <a data-l10n-name="subplat-account-page">ანგარიშის გვერდიდან</a>.
 subplat-terms-policy = პირობები და გაუქმების დებულება
@@ -162,7 +167,6 @@ postRemoveSecondary-title = დამატებითი ელფოსტა
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } მოცილებულია { -product-firefox-account(case: "gen") } დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები ამ მისამართზე აღარ გამოიგზავნება.
 postRemoveSecondary-action = ანგარიშის მართვა
-postRemoveTwoStepAuthentication-subject = ორსაფეხურიანი დამოწმება გამორთულია
 postRemoveTwoStepAuthentication-title = ორსაფეხურიანი დამოწმება შესვლისას გამორთულია
 postRemoveTwoStepAuthentication-description = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") } შემდეგი მოწყობილობიდან:
 postRemoveTwoStepAuthentication-description-plaintext = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") }. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო.
@@ -179,9 +183,6 @@ postVerify-action = გამართეთ შემდეგი მოწყ�
 postVerify-support = კითხვები გაქვთ? იხილეთ { $supportUrl }
 postVerifySecondary-subject = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
 postVerifySecondary-title = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = { $secondaryEmail } დამოწმებულია { -product-firefox-account(case: "gen") } დამატებითი ელფოსტის მისამართად. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები ამ მისამართზე გამოიგზავნება.
 postVerifySecondary-action = ანგარიშის მართვა
 recovery-subject = პაროლის განულება
 recovery-title = გესაჭიროებათ პაროლის განულება?
@@ -214,12 +215,6 @@ subscriptionDowngrade-subject = გადართვის შედეგა�
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = { $productNameOld } ჩანაცვლდა წარმატებულად და მიღებულია { $productNameNew }.
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycle } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew }. ამასთან, იმ დროისთვის, ერთჯერადად დაგერიცხებათ { $paymentProrated }, შემცირებული გადასახადის ნაშთში სწორად ასახვისთვის { $productPaymentCycle } მონაკვეთში.
-# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productNameNew }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
 subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
@@ -251,12 +246,6 @@ subscriptionUpgrade-title = გმადლობთ, განახლებ�
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = { $productNameOld } ჩანაცვლდა წარმატებულად და მიღებულია { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycle } მონაკვეთისთვის შეიცვლება და იქნება { $paymentAmountNew }. ამასთან, იმ დროისთვის, ერთჯერადად ჩამოგეჭრებათ { $paymentProrated }, გაზრდილი გადასახადის ნაშთში სწორად ასახვისთვის { $productPaymentCycle } მონაკვეთში.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productNameNew }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
