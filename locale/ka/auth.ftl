@@ -39,6 +39,9 @@ subplat-update-billing-plaintext = { subplat-update-billing }
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = თქვენ მიიღეთ ეს წერილი, ვინაიდან { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = ეს წერილი იმიტომ მიიღეთ, რომ { $email } მიბმულია { -product-firefox-account(case: "loc") }.
 subplat-explainer-multiple = თქვენ მიიღეთ ეს წერილი, { $email } დაკავშირებულია { -product-firefox-account(case: "add") } და გამოწერილი გაქვთ რამდენიმე პროდუქტი.
 subplat-manage-account = გამართეთ თქვენი { -product-firefox-account(case: "gen") } პარამეტრები <a data-l10n-name="subplat-account-page">ანგარიშის გვერდიდან</a>.
 subplat-terms-policy = პირობები და გაუქმების დებულება
@@ -56,6 +59,12 @@ subplat-legal = სამართლებრივი
 subplat-legal-plaintext = { subplat-legal }
 subplat-privacy = პირადულობა
 subplat-privacy-website-plaintext = { subplat-privacy }
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="ჩამოტვირთეთ { $productName } { -google-play }-იდან">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="ჩამოტვირთეთ { $productName } { -app-store }-იდან">
 another-desktop-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა კომპიუტერზე</a>.
 another-device = ან დააყენეთ <a data-l10n-name="anotherDeviceLink">სხვა მოწყობილობაზე</a>.
 automated-email-change =
@@ -83,6 +92,13 @@ change-password-plaintext = თუ ეჭვობთ, რომ ვინმე
 user-ip = IP-მისამართი: { $ip }
 manage-account = ანგარიშის მართვა
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = ზედნადების ნომერი: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = ჩამოიჭრა: { $invoiceTotal } თარიღზე { $invoiceDateOnly }
 subscriptionSupport = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a data-l10n-name="subscriptionSupportUrl">მხარდაჭერის გუნდი</a> მზადაა თქვენ დასახმარებლად.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენ დასახმარებლად:
