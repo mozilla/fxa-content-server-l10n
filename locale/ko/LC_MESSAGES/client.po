@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2021-08-12 03:44+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,15 +109,15 @@ msgstr "계정을 확인할 수 없습니다. <a href=\"/signup\">가입하기</
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "기타"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b>에 대해 Mozilla Support로 문의해주셔서 감사합니다. 가능한 빨리 이메일로 연락드리겠습니다."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedSelectedProduct)s</b>의 <b>%(escapedLowercaseTopic)s</b>에 대해 Mozilla 지원팀에 문의 해 주셔서 감사합니다. 가능한 한 빨리 이메일로 연락 드리겠습니다."
 
@@ -1048,7 +1048,7 @@ msgid "Enter verification code"
 msgstr "검증 코드를 입력하세요"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
@@ -1293,7 +1293,7 @@ msgid "Success"
 msgstr "성공"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16

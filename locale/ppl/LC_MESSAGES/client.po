@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2020-02-27 02:59+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,15 +109,15 @@ msgstr "Te muishmati ne tapujka. <a href=\"/signup\"> kitalij itukay </a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Tapujka tea nemi. Tikneki tikchiwa uksepa?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Ukse"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Padiush tinechnawatia tik Tepaliwilis Mozilla ipanpa <b>%(escapedLowercaseTopic)s</b>. Timetznutzasket iwan se titanti."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -1046,7 +1046,7 @@ msgid "Enter verification code"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
@@ -1291,7 +1291,7 @@ msgid "Success"
 msgstr ""
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16

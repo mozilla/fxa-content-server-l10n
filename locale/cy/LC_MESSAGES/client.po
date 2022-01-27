@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2022-01-21 10:10+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,15 +109,15 @@ msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nid yw'r cyfrif yn bodoli bellach. Ei ail-greu?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Arall"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Diolch am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Diolch i chi am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b> am<b>%(escapedSelectedProduct)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
 
@@ -839,8 +839,12 @@ msgid "Invalid Token"
 msgstr "Tocyn Annilys"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
@@ -909,7 +913,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Rhowch yr allwedd adfer defnydd unwaith rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch Cyfrif Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei "
 "gydweddu fel hanes a nodau tudalen)."
@@ -969,8 +974,8 @@ msgid ""
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data "
+"Pocket yn cael ei effeithio."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1048,8 +1053,8 @@ msgid "Enter verification code"
 msgstr "Rhowch y cod dilysu"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "Parhewch i <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1293,8 +1298,8 @@ msgid "Success"
 msgstr "Llwyddiant"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "Rydych nawr yn barod i ddefnyddio <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1330,8 +1335,8 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data "
+"Pocket yn cael ei effeithio."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1704,8 +1709,8 @@ msgstr "i fynd ymlaen i %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
-"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn diogelu eich cyfrif, crëwch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i fewngofnodi yn ôl i'ch holl wasanaethau cyfrif"
-" Firefox."
+"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn diogelu eich cyfrif, crëwch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i fewngofnodi yn ôl i'ch holl wasanaethau "
+"cyfrif Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -2036,19 +2041,25 @@ msgstr "Paru gan ddefnyddio ap"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
 
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
-#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Parhewch i <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Rydych nawr yn barod i ddefnyddio <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
-#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych."
+#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a "
+#~ "chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a "
+#~ "chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych."
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
@@ -2094,18 +2105,18 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Cadw a darganfod y straeon gorau o bob rhan o'r we."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). Mae "
-#~ "hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
+#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
+#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). Mae "
-#~ "hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
+#~ "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
+#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
 
 #~ msgid "Change..."
 #~ msgstr "Newid..."
@@ -2123,7 +2134,8 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Rydym yn flin i glywed am hyn. Rhaid i chi newid cyfrinair eich Cyfrif Firefox a chwilio am wybodaeth gan wneuthurwr eich dyfais am ddileu eich data o bell."
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
+#~ msgstr ""
+#~ "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
 
 #~ msgid "Last seen %(translatedTimeAgo)s"
 #~ msgstr "Gwelwyd diwethaf %(translatedTimeAgo)s"
@@ -2441,10 +2453,11 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Cam 2 o 2: Cadw Allwedd Adfer"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">NOTE: </span>Os fyddwch yn anghofio eich cyfrinair, mae angen yr allwedd yma i chi gael ad-ennill mynediad i'ch data. Cadwch eich allwedd adfer mewn man diogel, lle gallwch ddod"
-#~ " o hyd iddo'n hawdd."
+#~ "<span class=\"note\">NOTE: </span>Os fyddwch yn anghofio eich cyfrinair, mae angen yr allwedd yma i chi gael ad-ennill mynediad i'ch data. Cadwch eich allwedd adfer mewn man diogel, lle gallwch "
+#~ "ddod o hyd iddo'n hawdd."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Gorffen, wedi cadw'r allwedd Adfer"
@@ -2604,8 +2617,8 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
 #~ msgstr ""
-#~ "<span>Peidiwch ail ddefnyddio eich cyfrinair e-bost</span>Os yw rhywun yn gwybod am eich cyfrinair e-bost, mae'n bosib iddyn nhw ddefnyddio eich mewngofnod Firefox ar ddyfais newydd a chael at eich "
-#~ "data."
+#~ "<span>Peidiwch ail ddefnyddio eich cyfrinair e-bost</span>Os yw rhywun yn gwybod am eich cyfrinair e-bost, mae'n bosib iddyn nhw ddefnyddio eich mewngofnod Firefox ar ddyfais newydd a chael at "
+#~ "eich data."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Cofiwch eich cyfrinair</span>Os fyddwch angen ailosod eich cyfrinair, byddwch yn colli data Sync nad yw ar un o'ch dyfeisiau."
@@ -2653,11 +2666,11 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Rheoli dewisiadau"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Os ydych yn defnyddio'r cyfrif hwn ar gyfer apiau a gwasanaethau Mozilla fel AMO, Pocket a Screenshots dylech fewngofnodi a thynnu unrhyw fanylion personol sydd wedi eu cadw. Unwaith i chi ddileu "
-#~ "eich cyfrif yma feallai byddwch y colli mynediad iddo ymhob man."
+#~ "Os ydych yn defnyddio'r cyfrif hwn ar gyfer apiau a gwasanaethau Mozilla fel AMO, Pocket a Screenshots dylech fewngofnodi a thynnu unrhyw fanylion personol sydd wedi eu cadw. Unwaith i chi "
+#~ "ddileu eich cyfrif yma feallai byddwch y colli mynediad iddo ymhob man."
 
 #~ msgid "verified"
 #~ msgstr "dilyswyd"
@@ -2738,7 +2751,9 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Methu derbyn Telerau Gwasanaeth Llwyfan Tanysgrifio"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a>."
+#~ msgstr ""
+#~ "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad "
+#~ "Preifatrwydd</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
@@ -2899,7 +2914,9 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Mae angen cwcis a storfa leol."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> "
 #~ "gwasanaethau cwmwl Firefox."
@@ -2956,18 +2973,19 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a bydd"
-#~ " popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
+#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a "
+#~ "bydd popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi ei "
-#~ "gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un ddyfais."
+#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi "
+#~ "ei gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un "
+#~ "ddyfais."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3072,18 +3090,18 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "Mewngofnodi"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>COFIWCH:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
+#~ "<span>COFIWCH:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn "
+#~ "amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>SYLWC:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
+#~ "<span>SYLWC:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn "
+#~ "amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan un o'r <a %(escapedTotpSupportAttributes)s>apiau dilysu hyn.</a>"
@@ -3182,11 +3200,11 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgstr "A oes gennych gyfrif gydag e-bost gwahanol? <a href=\"%(signinUri)s\">Mewngofnodi</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Dileu"
@@ -3353,7 +3371,8 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgid ""
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
-#~ msgstr "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
+#~ msgstr ""
+#~ "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Mae Firefox yn dod i iOS cyn bo hir!"
@@ -3490,7 +3509,9 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> "
 #~ "gwasanaethau cwmwl Firefox."

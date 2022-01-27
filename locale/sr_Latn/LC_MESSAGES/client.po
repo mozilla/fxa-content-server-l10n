@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2021-06-17 23:19+0000\n"
 "Last-Translator: Đorđe Vasiljević <djordje.vasiljevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,11 +124,11 @@ msgstr "Nepoznat nalog. <a href=\"/signup\">Prijavi se</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nalog više ne postoji. Ponovo ga napraviti?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Ostalo"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid ""
 "Thank you for reaching out to Mozilla Support about <b>"
 "%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
@@ -137,7 +137,7 @@ msgstr ""
 "Hvala vam što ste se obratili Mozilla podršci u vezi <b>"
 "%(escapedLowercaseTopic)s</b>. Kontaktiraćemo vas e-poštom što je pre moguće."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid ""
 "Thank you for reaching out to Mozilla Support about <b>"
 "%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
@@ -1182,7 +1182,8 @@ msgstr "Unesite verifikacioni kod"
 #: .es5/templates/confirm_signup_code.mustache:2
 #: .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2
 #: .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5
@@ -1517,8 +1518,8 @@ msgstr "Uspešno"
 
 #: .es5/templates/ready.mustache:4
 msgid ""
-"You are now ready to use <div class=\"graphic graphic-client-pocket"
-"\">Pocket</div>"
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16

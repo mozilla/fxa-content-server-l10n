@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2021-11-26 15:00+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,15 +109,15 @@ msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Tjetër"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Faleminderit që u lidhët me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b>. Do të lidhemi me ju me email sa më shpejt që të jetë e mundur."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Faleminderit që lidheni me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b> për <b>%(escapedSelectedProduct)s</b>. Do të lidhemi me ju përmesh email-i sa më shpejt që të jetë e mundur."
@@ -1096,8 +1096,8 @@ msgid "Enter verification code"
 msgstr "Jepni kodin e verifikimit"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "Vazhdo te <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1342,8 +1342,8 @@ msgid "Success"
 msgstr "Sukses"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "Tani jeni gati të përdorni <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -2084,6 +2084,12 @@ msgstr "Çiftoji duke përdorur një aplikacion"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit Firefox."
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Vazhdo te <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Tani jeni gati të përdorni <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
 #~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-20 22:06+0000\n"
+"POT-Creation-Date: 2022-01-27 22:07+0000\n"
 "PO-Revision-Date: 2021-12-14 18:22+0000\n"
 "Last-Translator: seber <seber.tatsoft@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,15 +108,15 @@ msgstr "Билгесез хисап. <a href=\"/signup\">Теркәлү</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Хисап хәзер инде юк. Аны торгызыйкмы?"
 
-#: .es5/views/support.js:266 .es5/templates/support.mustache:9
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
 msgstr "Башка"
 
-#: .es5/views/support.js:267
+#: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "<b>%(escapedLowercaseTopic)s</b> турында Mozilla Ярдәм хезмәтенә мөрәҗәгать иткәнегез өчен рәхмәт. Без Сезнең белән тиз арада эл. почта аша элемтәгә керербез."
 
-#: .es5/views/support.js:269
+#: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "<b>%(escapedSelectedProduct)s</b> өчен <b>%(escapedLowercaseTopic)s</b> турында Mozilla Ярдәм хезмәтенә мөрәҗәгать иткәнегез өчен рәхмәт. Без сезнең белән тиз арада эл. почта аша элемтәгә керербез."
@@ -1048,8 +1048,8 @@ msgid "Enter verification code"
 msgstr "Раслау кодын кертү"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "<div class=\"graphic graphic-client-pocket\">Pocket-ка</div> күчү"
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1293,8 +1293,8 @@ msgid "Success"
 msgstr "Уңышлы"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-msgstr "Сез хәзер <div class=\"graphic graphic-client-pocket\">Pocket</div> хезмәтен куллана аласыз"
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -2029,6 +2029,12 @@ msgstr "Кушымта ярдәмендә ялгау"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "<div class=\"graphic graphic-client-pocket\">Pocket-ка</div> күчү"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Сез хәзер <div class=\"graphic graphic-client-pocket\">Pocket</div> хезмәтен куллана аласыз"
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
