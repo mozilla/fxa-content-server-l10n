@@ -99,15 +99,41 @@ payment-plan-invoice-number = ზედნადების ნომერი:
 #  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 payment-plan-charged = ჩამოიჭრა: { $invoiceTotal } თარიღზე { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = გადახდის საშუალება:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } ბარათი დაბოლოებით { $lastFour }
 subscriptionSupport = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a data-l10n-name="subscriptionSupportUrl">მხარდაჭერის გუნდი</a> მზადაა თქვენ დასახმარებლად.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენ დასახმარებლად:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ <a data-l10n-name="subscriptionSupportUrl">დაგვიკავშირდეთ</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ დაგვიკავშირდეთ.
+subscriptionUpdateBillingEnsure = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a data-l10n-name="updateBillingUrl">აქედან</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, აქედან:
+subscriptionUpdateBillingTry = შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, <a data-l10n-name="updateBillingUrl">გადახდის მონაცემების განახლებით</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, გადახდის მონაცემების განახლებით:
 subscriptionUpdatePayment = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ <a data-l10n-name="updateBillingUrl">განაახლოთ გადახდის მონაცემები</a> რაც შეიძლება მალე.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = ვრცლად, იხილეთ { $supportUrl }
+view-invoice = <a data-l10n-name="invoiceLink">იხილეთ თქვენი ზედნადები</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = იხილეთ ზედნადები: { $invoiceLink }
 cadReminderFirst-subject = მეგობრული შეხსენება: როგორ დაასრულოთ სინქრონიზაციის გამართვა
 cadReminderFirst-action = სხვა მოწყობილობის დასინქრონება
 cadReminderFirst-title = შეხსენება, მოწყობილობების დასინქრონებისთვის.
@@ -116,6 +142,18 @@ cadReminderSecond-subject = საბოლოო შეხსენება: �
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
 cadReminderSecond-title = ბოლო შეხსენება მოწყობილობების დასინქრონებისთვის!
 cadReminderSecond-description = სხვა მოწყობილობასთან დასინქრონებისას, { -brand-firefox } უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და დანარჩენ { -brand-firefox }-მონაცემებს ყველგან, სადაც გიყენიათ { -brand-firefox }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = მოგესალმებათ { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = მოგესალმებათ { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = თუ ჯერ კიდევ არ ჩამოგიტვირთავთ { $productName }, დაიწყეთ ყველა იმ შესაძლებლობით სარგებლობა, რომელთაც თქვენი გამოწერა შეიცავს:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = ჩამოტვირთეთ { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = აღდგენის კოდები თავდება
 codes-reminder-description = ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად.
@@ -161,10 +199,10 @@ postAddAccountRecovery-description = თქვენ წარმატები
 postAddAccountRecovery-action = ანგარიშის მართვა
 postAddAccountRecovery-recovery = თუ თქვენ არაფერი მოგიმოქმედებიათ, <a data-l10n-name="revokeAccountRecoveryLink">დააწკაპეთ აქ.</a>
 postAddAccountRecovery-revoke = თუ თქვენ არაფერი მოგიმოქმედებიათ, გააუქმეთ გასაღები.
-postAddTwoStepAuthentication-subject = ორსაფეხურიანი დამოწმება შესვლისას ჩართულია
-postAddTwoStepAuthentication-title = ორსაფეხურიანი დამოწმება შესვლისას ჩართულია
-postAddTwoStepAuthentication-description-plaintext = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს { -product-firefox-account(case: "loc") }. ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან.
-postAddTwoStepAuthentication-description = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს { -product-firefox-account(case: "loc") } შემდეგი მოწყობილობიდან:
+postAddTwoStepAuthentication-subject = ორბიჯიანი დამოწმება შესვლისას ჩართულია
+postAddTwoStepAuthentication-title = ორბიჯიანი დამოწმება შესვლისას ჩართულია
+postAddTwoStepAuthentication-description-plaintext = ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს { -product-firefox-account(case: "loc") }. ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან.
+postAddTwoStepAuthentication-description = ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს { -product-firefox-account(case: "loc") } შემდეგი მოწყობილობიდან:
 postAddTwoStepAuthentication-action = ანგარიშის მართვა
 postAddTwoStepAuthentication-code-required = ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან.
 postChangePrimary-subject = მთავარი ელფოსტა განახლებულია
@@ -192,9 +230,10 @@ postRemoveSecondary-title = დამატებითი ელფოსტა
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } მოცილებულია { -product-firefox-account(case: "gen") } დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები ამ მისამართზე აღარ გამოიგზავნება.
 postRemoveSecondary-action = ანგარიშის მართვა
-postRemoveTwoStepAuthentication-title = ორსაფეხურიანი დამოწმება შესვლისას გამორთულია
-postRemoveTwoStepAuthentication-description = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") } შემდეგი მოწყობილობიდან:
-postRemoveTwoStepAuthentication-description-plaintext = ორსაფეხურიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") }. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო.
+postRemoveTwoStepAuthentication-subject-line = ორბიჯიანი დამოწმება გამორთულია
+postRemoveTwoStepAuthentication-title = ორბიჯიანი დამოწმება შესვლისას გამორთულია
+postRemoveTwoStepAuthentication-description = ორბიჯიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") } შემდეგი მოწყობილობიდან:
+postRemoveTwoStepAuthentication-description-plaintext = ორბიჯიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს { -product-firefox-account(case: "loc") }. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო.
 postRemoveTwoStepAuthentication-action = ანგარიშის მართვა
 postRemoveTwoStepAuthentication-not-required = უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო.
 postVerify-sub-title = { -product-firefox-account } დამოწმებულია. თითქმის მზადაა.
@@ -208,6 +247,9 @@ postVerify-action = გამართეთ შემდეგი მოწყ�
 postVerify-support = კითხვები გაქვთ? იხილეთ { $supportUrl }
 postVerifySecondary-subject = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
 postVerifySecondary-title = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = { $secondaryEmail } დამოწმებულია { -product-firefox-account(case: "gen") } დამატებითი ელფოსტის მისამართად. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები ამ მისამართზე გამოიგზავნება.
 postVerifySecondary-action = ანგარიშის მართვა
 recovery-subject = პაროლის განულება
 recovery-title = გესაჭიროებათ პაროლის განულება?

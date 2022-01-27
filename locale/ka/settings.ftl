@@ -414,18 +414,18 @@ delete-account-link = ანგარიშის წაშლა
 
 ## Two Step Authentication
 
-tfa-title = ორსაფეხურიანი დამოწმება
+tfa-title = ორბიჯიანი დამოწმება
 tfa-step-1-3 = 1-ელი ნაბიჯი 3-დან
 tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
 tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
 tfa-button-continue = გაგრძელება
 tfa-button-cancel = გაუქმება
 tfa-button-finish = დასრულება
-tfa-incorrect-totp = ორსაფეხურიანი დამოწმების კოდი არასწორია
+tfa-incorrect-totp = ორბიჯიანი დამოწმების კოდი არასწორია
 tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
 tfa-cannot-verify-code = ხარვეზი წარმოიშვა, თქვენი აღდგენის გასაღებების დამოწმებისას.
 tfa-incorrect-recovery-code = აღდგენის არასწორი გასაღები
-tfa-enabled = ორსაფეხურიანი დამოწმება შესვლისას ჩართულია
+tfa-enabled = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
     რომელიმე ამ პროგრამას</ linkExternal>.
@@ -434,7 +434,7 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
-    გამოიყენეთ { $secret } კოდი, ორსაფეხურიანი დამოწმებისთვის გასამართად
+    გამოიყენეთ { $secret } კოდი, ორბიჯიანი დამოწმებისთვის გასამართად
     მხარდაჭერილ პროგრამებში.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
@@ -561,25 +561,25 @@ se-secondary-email-none = ცარიელი
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = ორსაფეხურიანი დამოწმება
-tfa-row-disabled = ორსაფეხურიანი დამოწმება გამორთულია
+tfa-row-header = ორბიჯიანი დამოწმება
+tfa-row-disabled = ორბიჯიანი დამოწმება გამორთულია
 tfa-row-enabled = ჩართულია
 tfa-row-not-set = არაა დაყენებული
 tfa-row-action-add = დამატება
 tfa-row-action-disable = ამორთვა
 tfa-row-button-refresh =
-    .title = ორსაფეხურიანი დამოწმების განახლება
-tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორსაფეხურიანი დამოწმების განახლებისას.
+    .title = ორბიჯიანი დამოწმების განახლება
+tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-content-explain =
     დაიცავით ანგარიში უცხო პირთა შესვლისგან
     თქვენს ხელთ არსებული უნიკალური კოდის მოთხოვნით.
 tfa-row-cannot-verify-session-2 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას.
-tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორსაფეხურიანი დამოწმება?
+tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
 tfa-row-disable-modal-explain =
     ეს ქმედება შეუქცევადია. ამასთან,
     გაქვთ არჩევანი <linkExternal>შეცვალოთ აღდგენის გასაღებები</linkExternal>.
-tfa-row-cannot-disable = ორსაფეხურიანი დამოწმება ვერ გამოირთვება.
+tfa-row-cannot-disable = ორბიჯიანი დამოწმება ვერ გამოირთვება.
 tfa-row-change-modal-heading = შეიცვალოს აღდგენის გასაღებები?
 tfa-row-change-modal-confirm = შეცვლა
 tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
