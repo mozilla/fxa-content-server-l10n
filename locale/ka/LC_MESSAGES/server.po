@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 22:06+0000\n"
-"PO-Revision-Date: 2022-01-27 18:30+0000\n"
+"PO-Revision-Date: 2022-01-27 19:08+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -385,6 +385,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
+"მონაკვეთისთვის. იმავდროულად, ერთჯერადად დაგერიცხებათ %(paymentProrated)s, შემცირებული გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
 
 #: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
 msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
@@ -450,11 +452,11 @@ msgstr "იხილეთ ზედნადები: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
+msgstr "შუალედური ჯამი: %(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "ერთჯერადი ფასდაკლება: -%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
@@ -584,6 +586,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
+"მონაკვეთისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ %(paymentProrated)s, გაზრდილი გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -960,7 +964,7 @@ msgstr "მთავარი ელფოსტა განახლებუ�
 
 #: lib/senders/email.js:1628
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "ორბიჯიანი დამოწმება გამორთულია"
 
 #: lib/senders/email.js:1722
 msgid "Recovery code used"
