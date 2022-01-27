@@ -161,6 +161,7 @@ dc-subheader = Aidez à améliorer les { -product-firefox-accounts }
 dc-subheader-content = Autoriser les { -product-firefox-accounts } à envoyer des données techniques et d’interaction à { -brand-mozilla }.
 dc-opt-out-success = Désactivation réussie. Les { -product-firefox-accounts } n’enverront plus de données techniques ou d’interaction à { -brand-mozilla }.
 dc-opt-in-success = Merci ! Le partage de ces données nous aide à améliorer les { -product-firefox-accounts }.
+dc-opt-in-out-error = Un problème est survenu lors de la modification de vos préférences en matière de collecte de données.
 dc-learn-more = En savoir plus
 
 # DropDownAvatarMenu component
@@ -305,8 +306,8 @@ delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
 delete-account-confirm-title-2 = Votre { -product-firefox-account } est connecté à des produits { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
 delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
-delete-account-chk-box-1 =
-    .label = Tous les abonnements payants dont vous disposez seront résiliés
+delete-account-chk-box-1-v2 =
+    .label = Tous les abonnements payants que vous détenez seront annulés (sauf { product-pocket })
 delete-account-chk-box-2 =
     .label = Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -405,9 +406,12 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Utilisez le code { $secret } pour configurer l’authentification en deux étapes dans
     les applications prises en charge.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Impossible de scanner le code ?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Saisissez cette clé secrète dans votre application d’authentification :
