@@ -434,7 +434,7 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
-    გამოიყენეთ { $secret } კოდი, ორბიჯიანი დამოწმებისთვის გასამართად
+    გამოიყენეთ { $secret } კოდი, ორბიჯიანი დამოწმების გასამართად
     მხარდაჭერილ პროგრამებში.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
