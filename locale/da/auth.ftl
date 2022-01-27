@@ -62,6 +62,9 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Hent { $productName } på { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Hent { $productName } i { -app-store }">
 another-desktop-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden computer</a>.
 another-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden enhed</a>.
 automated-email-change =
