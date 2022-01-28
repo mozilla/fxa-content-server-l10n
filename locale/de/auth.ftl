@@ -64,7 +64,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } bei { -google-play } herunterladen">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-body-ios-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } im { -app-store } herunterladen">
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } im { -app-store } herunterladen">
 another-desktop-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Desktop-Gerät</a> durch.
 another-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Gerät</a> durch.
 automated-email-change =
@@ -198,7 +198,7 @@ postAddAccountRecovery-subject = Kontowiederherstellungsschlüssel erzeugt
 postAddAccountRecovery-title = Kontowiederherstellungsschlüssel erzeugt
 postAddAccountRecovery-description = Sie haben erfolgreich einen Kontowiederherstellungsschlüssel für Ihr { -product-firefox-account } mit folgendem Gerät erzeugt:
 postAddAccountRecovery-action = Benutzerkonto verwalten
-postAddAccountRecovery-recovery = Wenn Sie das nicht waren, <<a data-l10n-name="revokeAccountRecoveryLink">klicken Sie hier</a>.
+postAddAccountRecovery-recovery = Wenn Sie das nicht waren, <a data-l10n-name="revokeAccountRecoveryLink">klicken Sie hier</a>.
 postAddAccountRecovery-revoke = Wenn Sie dies nicht waren, widerrufen Sie diesen Schlüssel.
 postAddTwoStepAuthentication-subject = Zwei-Schritt-Authentifizierung aktiviert
 postAddTwoStepAuthentication-title = Zwei-Schritt-Authentifizierung aktiviert
@@ -313,7 +313,7 @@ subscriptionDowngrade-content-switch = Sie haben erfolgreich von { $productNameO
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf %(paymentAmountNew)s  pro { $productPaymentCycleNew }$. Zu diesem Zeitpunkt erhalten Sie außerdem eine einmalige Gutschrift in Höhe von { $paymentProrated }, um die niedrigere Gebühr für den Rest dieser { $productPaymentCycle } widerzuspiegeln.
+subscriptionDowngrade-content-charge-info = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf { $paymentAmountNew } pro { $productPaymentCycleNew }$. Zu diesem Zeitpunkt erhalten Sie außerdem eine einmalige Gutschrift in Höhe von { $paymentProrated }, um die niedrigere Gebühr für den Rest dieser { $productPaymentCycleOld } widerzuspiegeln.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Wenn Sie neue Software installieren müssen, um { $productNameNew } verwenden zu können, erhalten Sie eine separate E-Mail mit Anweisungen zum Herunterladen.
@@ -473,7 +473,7 @@ subscriptionUpgrade-upgrade-info = Sie haben erfolgreich das Upgrade von { $prod
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf %(paymentAmountNew)s  pro { $productPaymentCycleNew }$. Zu diesem Zeitpunkt wird Ihnen außerdem eine einmalige Gebühr in Höhe von { $paymentProrated } abgebucht, um die höhere Gebühr für den Rest dieser { $productPaymentCycleOld } widerzuspiegeln.
+subscriptionUpgrade-content-charge-info = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf { $paymentAmountNew } pro { $productPaymentCycleNew }$. Zu diesem Zeitpunkt wird Ihnen außerdem eine einmalige Gebühr in Höhe von { $paymentProrated } abgebucht, um die höhere Gebühr für den Rest dieser { $productPaymentCycleOld } widerzuspiegeln.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Wenn Sie neue Software installieren müssen, um { $productNameNew } verwenden zu können, erhalten Sie eine separate E-Mail mit Anweisungen zum Herunterladen.
