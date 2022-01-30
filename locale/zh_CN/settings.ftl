@@ -151,6 +151,7 @@ dc-subheader = 帮助我们改进 { -product-firefox-accounts }
 dc-subheader-content = 允许 { -product-firefox-accounts }向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-out-success = 成功退出，{ -product-firefox-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-in-success = 感谢！共享此数据可帮助我们改进 { -product-firefox-accounts }。
+dc-opt-in-out-error = 抱歉，更改您的数据收集首选项时出现问题。
 dc-learn-more = 详细了解
 
 # DropDownAvatarMenu component
