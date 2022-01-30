@@ -19,12 +19,20 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } ロゴ">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="端末の同期">
+body-devices-image = <img data-l10n-name="devices-image" alt="端末">
 fxa-privacy-url = { -brand-mozilla } プライバシーポリシー
 fxa-service-url = { -product-firefox-cloud } 利用規約
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } ロゴ">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
+subplat-privacy-notice = 個人情報保護方針
 subplat-privacy-plaintext = プライバシー通知:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = 利用規約とキャンセルポリシー
@@ -34,8 +42,22 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = 購読を再開
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 支払い情報を更新
+subplat-privacy-policy = { -brand-mozilla } プライバシーポリシー
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } 利用規約
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = 法的通知
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = プライバシー
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play } で { $productName } をダウンロード">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store } で { $productName } をダウンロード">
+another-desktop-device = または <a data-l10n-name="anotherDeviceLink">別のデスクトップ端末</a> にインストールしてください。
+another-device = または <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
 automated-email-plaintext = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
 # Variables:
@@ -43,9 +65,23 @@ change-password-plaintext = もし誰かがあなたのアカウントへアク�
 user-ip = IP アドレス: { $ip }
 manage-account = アカウント管理
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = 請求書番号: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = 支払日: { $invoiceDateOnly } に合計 { $invoiceTotal }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = 次回の請求: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = 決済方法:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = 末尾が { $lastFour } の { $cardType } カード
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # The user has a low number of valid recovery codes remaining for use
@@ -98,7 +134,6 @@ postRemoveAccountRecovery-invalid = この回復用キーはもはやあなた�
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
 postRemoveSecondary-action = アカウント管理
-postRemoveTwoStepAuthentication-subject = 2 段階認証が設定されていません
 postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
