@@ -99,6 +99,9 @@ subscriptionSupport-plaintext = Язылуыгыз турында сораула
 subscriptionSupportContact = { $productName } хәбәрләренә язылганыгыз өчен рәхмәт. Язылуларыгыз турында сорауларыгыз булса яки { $productName } турында күбрәк мәгълүмат эзләсәгез, зинһар <a data-l10n-name="subscriptionSupportUrl">безнең белән элемтәгә керегез</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName } хәбәрләренә язылганыгыз өчен рәхмәт. Язылуларыгыз турында сорауларыгыз булса яки { $productName } турында күбрәк мәгълүмат эзләсәгез, зинһар безнең белән элемтәгә керегез:
+subscriptionUpdateBillingEnsure = Түләү ысулыгызның һәм хисабыгыз турындагы мәгълүматның актуаль булуын <a data-l10n-name="updateBillingUrl">монда</a> тикшерә аласыз.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Түләү ысулыгызның һәм хисабыгыз турындагы мәгълүматның актуаль булуын монда тикшерә аласыз:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Күбрәк белү өчен, { $supportUrl } сәхифәсен зиярәт итегез
@@ -107,11 +110,21 @@ view-invoice = <a data-l10n-name="invoiceLink">Квитанциягезне ка
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Квитанцияне карау: { $invoiceLink }
+cadReminderFirst-subject = Дусларча искәртәбез: Синхронлауны көйләүне менә шулай тәмамлыйсы
 cadReminderFirst-action = Башка җиһазны синхронлау
 cadReminderFirst-title = Бер искәртү: җиһазларыгызны синхронларга мөмкин.
 cadReminderSecond-subject = Соңгы искәртү: Синхронлауны көйләүне тәмамлагыз
 cadReminderSecond-action = Башка җиһазны синхронлау
 cadReminderSecond-title = Җиһазларны синхронлау өчен соңгы искәртү!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = { $productName } кушымтасына рәхим итегез
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = { $productName } кушымтасына рәхим итегез
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = { $productName } кушымтасын йөкләп алу
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Коткару кодлары аз калды
 codes-reminder-description = Коткару кодларыгыз аз калганына игътибар иттек. Зинар, кодларыгыз бетеп хисабыгызның бикләнеп калуыннан саклану өчен, яңа кодлар ясату турында уйлап карагыз.
@@ -184,6 +197,7 @@ postRemoveSecondary-title = Икенчел электрон почта бете�
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
+postRemoveTwoStepAuthentication-subject-line = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-title = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-not-required = Артык һәр керүдә хәвефсезлек кодлары таләп ителмәячәк.
