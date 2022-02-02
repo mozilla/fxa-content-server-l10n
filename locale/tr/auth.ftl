@@ -19,11 +19,18 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logosu">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Cihazları eşitle">
+body-devices-image = <img data-l10n-name="devices-image" alt="Cihazlar">
 fxa-privacy-url = { -brand-mozilla } Gizlilik İlkeleri
 fxa-service-url = { -product-firefox-cloud } Hizmet Koşulları
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logosu">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logosu">
 subplat-automated-email = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 subplat-privacy-notice = Gizlilik bildirimi
 subplat-privacy-plaintext = Gizlilik bildirimi:
@@ -52,6 +59,12 @@ subplat-legal = Yasal Bilgiler
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Gizlilik
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } uygulamasını { -google-play }’den indir">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
 another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
 another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
 # Variables:

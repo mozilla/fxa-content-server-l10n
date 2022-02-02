@@ -156,6 +156,7 @@ datablock-print =
 
 dc-heading = Veri toplanması ve kullanımı
 dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts } ürününü geliştirmemize yardımcı oluyor.
+dc-opt-in-out-error = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu.
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
@@ -297,8 +298,8 @@ delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-delete-account-chk-box-1 =
-    .label = Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir
+delete-account-chk-box-1-v2 =
+    .label = Butün ücretli abonelikleriniz iptal edilecektir ({ product-pocket } hariç)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -395,7 +396,10 @@ tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkE
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için { $secret } kodunu kullanın.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
