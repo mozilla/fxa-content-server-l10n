@@ -19,12 +19,20 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } логотибы">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Җиһазларны синхронлау">
+body-devices-image = <img data-l10n-name="devices-image" alt="Җиһазлар">
 fxa-privacy-url = { -brand-mozilla }’ның Хосусыйлык Сәясәте
 fxa-service-url = { -product-firefox-cloud } хезмәтен куллану шартлары
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотибы">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотибы">
 subplat-automated-email = Бу автоматик электрон хат. Аның килүе бер хата аркасында булды дип уйласагыз, берни дә эшләргә кирәкми.
+subplat-privacy-notice = Хосусыйлык аңлатмасы
 subplat-privacy-plaintext = Хоусыйлык аңлатмасы:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Шартлар һәм баш тарту сәясәте
@@ -34,8 +42,20 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Язылуны яңадан активлаштыру
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Түләү турындагы мәгълүматны яңарту
+subplat-privacy-policy = { -brand-mozilla }-ның Хосусыйлык Сәясәте
+subplat-privacy-policy-plaintext = { subplat-privacy-policy } :
+subplat-cloud-terms = { -product-firefox-cloud } хезмәтен куллану шартлары
+subplat-cloud-terms-plaintext = { subplat-cloud-terms } :
 subplat-legal = Хокукый мәсьәләләр
+subplat-legal-plaintext = { subplat-legal }：
 subplat-privacy = Хосусыйлык
+subplat-privacy-website-plaintext = { subplat-privacy }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName }-ны { -google-play }-дан йөкләп алу">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName }-ны { -app-store }-дан йөкләп алу">
 another-desktop-device = Яисә <a data-l10n-name="anotherDeviceLink">башка бер өстәл компьютерына</a> урнаштырыгыз.
 another-device = Яисә <a data-l10n-name="anotherDeviceLink">башка бер җиһазга</a> урнаштырыгыз.
 # Variables:
@@ -54,6 +74,16 @@ change-password-plaintext = Берәрсе хисабыгызны кулга т�
 user-ip = IP адрес: { $ip }
 manage-account = Хисап белән идарә итү
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Квитанция номеры: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = { $invoiceDateOnly } көнне { $invoiceTotal } түләнде
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Киләсе квитанция: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Түләү ысулы:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -61,6 +91,14 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $lastFour } белән тәмамланучы { $cardType } картасы
+subscriptionSupport = Язылуыгыз турында сорауларыгыз бармы? Безнең <a data-l10n-name="subscriptionSupportUrl">ярдәм такымы</a> Сезгә бик теләп ярдәм итәчәк.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Язылуыгыз турында сорауларыгыз бармы? Безнең ярдәм такымы Сезгә бик теләп ярдәм итәчәк:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = { $productName } хәбәрләренә язылганыгыз өчен рәхмәт. Язылуларыгыз турында сорауларыгыз булса яки { $productName } турында күбрәк мәгълүмат эзләсәгез, зинһар <a data-l10n-name="subscriptionSupportUrl">безнең белән элемтәгә керегез</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = { $productName } хәбәрләренә язылганыгыз өчен рәхмәт. Язылуларыгыз турында сорауларыгыз булса яки { $productName } турында күбрәк мәгълүмат эзләсәгез, зинһар безнең белән элемтәгә керегез:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Күбрәк белү өчен, { $supportUrl } сәхифәсен зиярәт итегез
@@ -146,7 +184,6 @@ postRemoveSecondary-title = Икенчел электрон почта бете�
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Сез { $secondaryEmail } икенчел электрон почта адресын үзегезнең { -product-firefox-account }-тан уңышлы бетердегез. Моннан ары хәвефсезлеккә бәйле белдерүләр һәм кергәнне раслаулар ул адреска җибәрелмәячәк.
 postRemoveSecondary-action = Хисап белән идарә итү
-postRemoveTwoStepAuthentication-subject = Ике адымлы раслау сүндерелде
 postRemoveTwoStepAuthentication-title = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-not-required = Артык һәр керүдә хәвефсезлек кодлары таләп ителмәячәк.
