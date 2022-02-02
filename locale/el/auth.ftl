@@ -307,6 +307,7 @@ subscriptionAccountFinishSetup-content-processing = Η πληρωμή σας β�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-content-create = Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον λογαριασμό Firefox και θα κάνετε λήψη του { $productName }.
+subscriptionAccountFinishSetup-action = Δημιουργία κωδικού πρόσβασης
 subscriptionAccountReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας
 subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
 subscriptionAccountReminderFirst-content-info = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
