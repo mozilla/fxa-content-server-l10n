@@ -514,8 +514,8 @@ verifyLogin-description = Zo byšće wěstotu powyšił, wobkrućće prošu tute
 verifyLogin-subject = Nowe přizjewjenje pola { $clientName } wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Wobkrućenski kod: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Přizjewjenski kod za { $serviceName }
 verifyLoginCode-title = Chceće so wy přizjewić?
 verifyLoginCode-prompt = Jeli haj, tu je wobkrućenski kod:
 verifyLoginCode-expiry-notice = Spadnje za 5 mjeńšin.
