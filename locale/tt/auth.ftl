@@ -362,6 +362,13 @@ subscriptionSubsequentInvoice-content-invoice-number-plaintext = Квитанц�
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Планны үзгәртү: { $paymentProrated }
 # Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = { $invoiceDateOnly } көнне { $invoiceTotal } түләнде
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Киләсе квитанция: { $nextInvoiceDateOnly }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productNameNew } продуктына күтәрелү уңышлы узды
 subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
