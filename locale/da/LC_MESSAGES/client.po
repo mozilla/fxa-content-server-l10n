@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 22:07+0000\n"
+"POT-Creation-Date: 2022-02-03 22:07+0000\n"
 "PO-Revision-Date: 2022-01-21 15:48+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -29,7 +29,7 @@ msgstr "Adgangskode nulstillet. Log ind for at fortsætte."
 msgid "Sign in"
 msgstr "Log ind"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "Kontoen er slettet"
 
@@ -845,8 +845,8 @@ msgid ""
 msgstr "Fortsætter du, accepterer du <a id=\"service-tos\" href=\"%(termsUri)s\">vilkår</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">privatlivspolitik</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Hjælp</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -2033,6 +2033,9 @@ msgstr "Parring ved hjælp af en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brugte du systemets kamera? Du skal parre ved hjælp af en Firefox-app."
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Hjælp</a>"
 
 #~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 #~ msgstr "Fortsæt til <div class=\"graphic graphic-client-pocket\">Pocket</div>"

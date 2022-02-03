@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 22:07+0000\n"
+"POT-Creation-Date: 2022-02-03 22:07+0000\n"
 "PO-Revision-Date: 2021-11-07 21:16+0000\n"
 "Last-Translator: Paulina Rodriguez <pauli.rodriguez.c@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Contraseña restablecida correctamente. Identifícate para continuar."
 msgid "Sign in"
 msgstr "Identificarse"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "Se ha eliminado correctamente la cuenta"
 
@@ -847,8 +847,8 @@ msgstr ""
 "%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ayuda</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -2021,6 +2021,9 @@ msgstr "Conectarse mediante una aplicación"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de Firefox."
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ayuda</a>"
 
 #~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 #~ msgstr "Continuar a <div class=\"graphic graphic-client-pocket\">Pocket</div>"

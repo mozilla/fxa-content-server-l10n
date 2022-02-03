@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 22:07+0000\n"
+"POT-Creation-Date: 2022-02-03 22:07+0000\n"
 "PO-Revision-Date: 2021-07-24 20:19+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 msgid "Sign in"
 msgstr "Autentifică-te"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "Cont șters cu succes"
 
@@ -857,8 +857,8 @@ msgstr ""
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ajutor</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -2034,6 +2034,9 @@ msgstr "Asociere folosind o aplicație"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație Firefox."
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ajutor</a>"
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"

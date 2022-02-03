@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 22:07+0000\n"
+"POT-Creation-Date: 2022-02-03 22:07+0000\n"
 "PO-Revision-Date: 2019-11-19 17:04+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "পাসওয়ার্ড সফলভাবে রিসেট হ
 msgid "Sign in"
 msgstr "সাইন ইন"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
@@ -846,8 +846,8 @@ msgstr ""
 "এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">সাহায্য</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -2018,6 +2018,9 @@ msgstr "একটি অ্যাপ ব্যবহার করে যুক�
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "আপনি কি সিস্টেম ক্যামেরা ব্যবহার করেছেন? আপনার অবশ্যই একটি Firefox অ্যাপের মধ্যে থেকে যুক্ত হতে হবে।"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">সাহায্য</a>"
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"

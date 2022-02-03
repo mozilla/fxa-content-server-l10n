@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 22:07+0000\n"
+"POT-Creation-Date: 2022-02-03 22:07+0000\n"
 "PO-Revision-Date: 2019-10-22 19:22+0000\n"
 "Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 msgid "Sign in"
 msgstr "၀င်ပါ"
 
-#: .es5/views/index.js:174
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "အကောင့်ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 
@@ -844,7 +844,7 @@ msgid ""
 msgstr ""
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
 msgstr ""
 
 #: .es5/lib/strings.js:34
