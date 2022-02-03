@@ -514,8 +514,8 @@ verifyLogin-description = Aby wěstotu pówušył, wobkšuśćo pšosym toś to 
 verifyLogin-subject = Nowe pśizjawjenje pla { $clientName } wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Wobkšuśeński kod: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Pśizjawjeński kod za { $serviceName }
 verifyLoginCode-title = Cośo se wy pśizjawiś?
 verifyLoginCode-prompt = Jolic jo, how jo wobkšuśeński kod:
 verifyLoginCode-expiry-notice = Spadnjo za 5 minutow.
