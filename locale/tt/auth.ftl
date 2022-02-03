@@ -74,6 +74,7 @@ change-password-plaintext = Берәрсе хисабыгызны кулга т�
 user-ip = IP адрес: { $ip }
 manage-account = Хисап белән идарә итү
 manage-account-plaintext = { manage-account }:
+payment-details = Түләү мәгълүматлары:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Квитанция номеры: { $invoiceNumber }
@@ -199,6 +200,8 @@ postRemoveSecondary-description = Сез { $secondaryEmail } икенчел эл
 postRemoveSecondary-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-subject-line = Ике адымлы аутентификация сүндерелде
 postRemoveTwoStepAuthentication-title = Ике адымлы аутентификация сүндерелде
+postRemoveTwoStepAuthentication-description = Түбәндәге җиһаздан { -product-firefox-account } өчен ике адымлы аутентификацияне уңышлы рәвештә сүндердегез:
+postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account } өчен ике адымлы аутентификацияне сүндердегез. Артык һәр керүдә хәвефсезлек кодлары таләп ителмәячәк.
 postRemoveTwoStepAuthentication-action = Хисап белән идарә итү
 postRemoveTwoStepAuthentication-not-required = Артык һәр керүдә хәвефсезлек кодлары таләп ителмәячәк.
 postVerify-sub-title = { -product-firefox-account } расланды. Әзер диярлек.
@@ -219,6 +222,14 @@ recovery-action = Яңа парол булдыру
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
 subscriptionAccountDeletion-title = Китүегез безгә кызганыч
+# COMMENT ABOUT After the colon,
+payment-details = Түләү мәгълүматлары:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = { $productName } программасына рәхим итегез: Зинһар, яңа бер серсүз уйлап табыгыз.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = { $productName } хезмәтенә рәхим итегез
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
@@ -277,9 +288,6 @@ verifyLogin-description = Хәвефсезлек өчен, зинһар түбә
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName } эченә яңа керүне раслагыз
 verifyLogin-action = Керүне раслау
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Раслау коды: { $code }
 verifyLoginCode-title = Керүче Сезме?
 verifyLoginCode-prompt = Әйе булса, раслау коды бу:
 verifyLoginCode-expiry-notice = Кодның яраклылык вакыты 5 минут.
