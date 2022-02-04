@@ -512,8 +512,8 @@ verifyLogin-description = A nagyobb biztonság érdekében, erősítse meg ezt a
 verifyLogin-subject = Erősítse meg bejelentkezését ide: { $clientName }
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Ellenőrzőkód: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Bejelentkezési kód ehhez: { $serviceName }
 verifyLoginCode-title = Ez az ön bejelentkezése?
 verifyLoginCode-prompt = Ha igen, akkor itt az ellenőrzőkód:
 verifyLoginCode-expiry-notice = 5 perc múlva lejár.
