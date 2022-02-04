@@ -505,8 +505,8 @@ verifyLogin-description = 为了您的安全，请确认从下列设备的登录
 verifyLogin-subject = 确认新的 { $clientName } 登录活动
 verifyLogin-action = 确认登录
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = 验证码：{ $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = { $serviceName } 的登录码
 verifyLoginCode-title = 是您在登录吗？
 verifyLoginCode-prompt = 是的话，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
