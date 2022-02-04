@@ -512,8 +512,8 @@ verifyLogin-description = Pro ulterior securitate, per favor confirma iste apert
 verifyLogin-subject = Confirmar apertura de session a { $clientName }
 verifyLogin-action = Confirmar apertura de session
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Codice de verification: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Codice de accesso pro { $serviceName }
 verifyLoginCode-title = Es tu qui aperi session?
 verifyLoginCode-prompt = Si si, ecce le codice de verification:
 verifyLoginCode-expiry-notice = Illo expira in 5 minutas.
