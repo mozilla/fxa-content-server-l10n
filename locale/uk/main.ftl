@@ -387,6 +387,7 @@ coupon-remove = Вилучити
 coupon-error = Введений код недійсний або прострочений.
 coupon-error-generic = Під час обробки коду сталася помилка. Спробуйте ще раз.
 coupon-error-expired = Термін дії введеного коду закінчився.
+coupon-error-limit-reached = Введений вами код вичерпав свій ліміт.
 coupon-error-invalid = Введений вами код недійсний.
 coupon-success = Вашу передплату буде автоматично поновлено за базовою ціною.
 coupon-enter-code =
