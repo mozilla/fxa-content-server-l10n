@@ -32,6 +32,13 @@ payment-error-retry-button = Poskusi znova
 payment-error-manage-subscription-button = Upravljaj z naročnino
 country-currency-mismatch = Valuta te naročnine ni veljavna za državo, povezano z vašim plačilom.
 currency-currency-mismatch = Oprostite. Med valutami ne morete preklapljati.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Že ste naročeni preko { $mobileAppStore }.
+expired-card-error = Videti je, da se je vaši kreditni kartici iztekla veljavnost. Poskusite z drugo kartico.
+insufficient-funds-error = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
+withdrawal-count-limit-exceeded-error = Videti je, da bo ta transakcija presegla vaš kreditni limit. Poskusite z drugo kartico.
+charge-exceeds-source-limit = Videti je, da bo ta transakcija presegla vaš dnevni kreditni limit. Poskusite z drugo kartico ali čez 24 ur.
+instant-payouts-unsupported = Videti je, da vaša debetna kartica ni nastavljena za takojšnja plačila. Poskusite z drugo debetno ali kreditno kartico.
 coupon-expired = Videti je, da je promocijska koda potekla.
 card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
 
@@ -50,9 +57,11 @@ terms-download = Pogoji prenosa
 
 ## Subscription titles
 
+subscription-create-title = Nastavite svojo naročnino
 subscription-success-title = Potrditev naročnine
 subscription-processing-title = Potrjevanje naročnine …
 subscription-error-title = Napaka pri potrjevanju naročnine …
+subscription-noplanchange-title = Ta sprememba naročniškega načrta ni podprta
 subscription-iapsubscribed-title = Že naročeno
 
 ##  $productName (String) - The name of the subscribed product.
@@ -325,6 +334,7 @@ payment-confirmation-download-button = Nadaljuj prenos
 
 ## new user email form
 
+new-user-sign-in-link = Že imate { -brand-name-firefox } Račun? <a>Prijava</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.

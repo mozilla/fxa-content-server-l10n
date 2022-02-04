@@ -144,6 +144,9 @@ downloadSubscription-subject = Dobrodošli v { $productName }
 downloadSubscription-title = Dobrodošli v { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Če še niste prenesli { $productName }, začnimo z uporabo vseh zmogljivosti, ki so vključene v vašo naročnino:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Prenesite { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
@@ -231,6 +234,7 @@ postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postVerify-sub-title = { -product-firefox-account } je potrjen. Skoraj ste gotovi.
 postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
+postVerify-subject = Račun potrjen. Sedaj sinhronizirajte drugo napravo, da dokončate nastavitev
 postVerify-setup = Nastavite naslednjo napravo
 postVerify-action = Nastavite naslednjo napravo
 # Variables:
@@ -270,6 +274,7 @@ subscriptionAccountFinishSetup-content-create = Nato boste ustvarili geslo za Fi
 subscriptionAccountFinishSetup-action = Ustvarite geslo
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
+subscriptionAccountReminderFirst-content-info = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
 subscriptionAccountReminderFirst-content-select = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderFirst-action = Ustvari geslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
@@ -375,6 +380,7 @@ subscriptionRenewalReminder-title = Vaša naročnina bo kmalu obnovljena
 subscriptionRenewalReminder-content-greeting = Spoštovani uporabnik { $productName },
 subscriptionRenewalReminder-content-closing = Lep pozdrav,
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
+subscriptionsPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za naročnine { -brand-mozilla(sklon: "rodilnik") }
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
 subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
 subscriptionsPaymentProviderCancelled-content-payment = Morda je vaša kreditna kartica potekla ali pa je vaš trenutni način plačila zastaral.
@@ -443,8 +449,8 @@ verifyLogin-description = Za večjo varnost potrdite to prijavo z naslednje napr
 verifyLogin-subject = Potrdite novo prijavo v { $clientName }
 verifyLogin-action = Potrdite prijavo
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Koda za potrditev: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Koda za prijavo v { $serviceName }
 verifyLoginCode-title = Se prijavljate vi?
 verifyLoginCode-prompt = Če da, uporabite to potrditveno kodo:
 verifyLoginCode-expiry-notice = Poteče čez 5 minut.
