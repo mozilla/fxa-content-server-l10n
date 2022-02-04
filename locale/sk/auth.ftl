@@ -595,8 +595,8 @@ verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte 
 verifyLogin-subject = Potvrdenie nového prihlásenia k { $clientName }
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Overovací kód: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Prihlasovací kód pre { $serviceName }
 verifyLoginCode-title = Spoznávate toto prihlásenie?
 verifyLoginCode-prompt = Ak áno, tu je overovací kód:
 verifyLoginCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
