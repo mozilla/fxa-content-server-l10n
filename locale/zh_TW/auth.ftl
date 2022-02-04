@@ -431,7 +431,7 @@ subscriptionsPaymentProviderCancelled-content-detected = 處理您最近對下�
 subscriptionsPaymentProviderCancelled-content-payment = 可能是您的信用卡過期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoice-subject = 已收到 %(productName)s 付款
+subscriptionSubsequentInvoice-subject = 已收到 { $productName } 付款
 subscriptionSubsequentInvoice-title = 感謝您成為訂閱者！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -505,8 +505,8 @@ verifyLogin-description = 為了確保安全，請確認此次來自下列裝置
 verifyLogin-subject = 確認 { $clientName } 的新登入紀錄
 verifyLogin-action = 確認登入
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = 驗證碼：{ $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = { $serviceName } 的登入碼
 verifyLoginCode-title = 要登入的是您嗎？
 verifyLoginCode-prompt = 有的話，請使用下列驗證碼:
 verifyLoginCode-expiry-notice = 將於 5 分鐘後失效。
