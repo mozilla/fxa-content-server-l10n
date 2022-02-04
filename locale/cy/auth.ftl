@@ -516,8 +516,8 @@ verifyLogin-description = Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn 
 verifyLogin-subject = Cadarnhewch y mewngofnodi newydd i { $clientName }
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Cod dilysu: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Cod mewngofnodi ar gyfer %(serviceName)s
 verifyLoginCode-title = Ai hwn yw chi’n allgofnodi?
 verifyLoginCode-prompt = Os ydyw, defnyddiwch y cod dilysu hwn:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
