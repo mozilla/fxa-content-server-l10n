@@ -374,6 +374,7 @@ coupon-error = A megadott kód érvénytelen vagy lejárt.
 coupon-error-generic = Hiba történt a kód feldolgozása során. Próbálja újra.
 coupon-error-expired = A megadott kód lejárt.
 coupon-error-limit-reached = A megadott kód elérte a korlátját.
+coupon-error-invalid = A megadott kód érvénytelen.
 coupon-success = A csomag automatikusan megújul a listaáron.
 coupon-enter-code =
     .placeholder = Adja meg a kódot
