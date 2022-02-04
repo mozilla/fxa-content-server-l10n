@@ -512,8 +512,8 @@ verifyLogin-description = Bevestig deze aanmelding vanaf het volgende apparaat o
 verifyLogin-subject = Nieuwe aanmelding bij { $clientName } bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Verificatiecode: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Aanmeldcode voor { $serviceName }
 verifyLoginCode-title = Bent u dit die zich aanmeldt?
 verifyLoginCode-prompt = Zo ja, dan is dit de verificatiecode:
 verifyLoginCode-expiry-notice = Deze verloopt over vijf minuten.
