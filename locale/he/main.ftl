@@ -341,6 +341,10 @@ coupon-discount-applied = תגמול הנחה הוחל
 coupon-submit = החלה
 coupon-remove = הסרה
 coupon-error = הקוד שהזנת אינו חוקי או שפג תוקפו.
+coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא לנסות שוב.
+coupon-error-expired = פג תוקף הקוד שהזנת.
+coupon-error-limit-reached = הקוד שהזנת הגיע למגבלה שלו.
+coupon-error-invalid = הקוד שהזנת אינו חוקי.
 coupon-enter-code =
     .placeholder = נא להזין קוד
 

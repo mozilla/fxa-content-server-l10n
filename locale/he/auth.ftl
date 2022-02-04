@@ -486,8 +486,8 @@ verifyLogin-description = לשיפור האבטחה, נא לאשר את הכני
 verifyLogin-subject = אישור כניסה חדשה אל { $clientName }
 verifyLogin-action = אישור התחברות
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = קוד אימות: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = קוד כניסה ל־{ $serviceName }
 verifyLoginCode-title = האם התחברות זו מוכרת לך?
 verifyLoginCode-prompt = אם כן, להלן קוד האימות:
 verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
