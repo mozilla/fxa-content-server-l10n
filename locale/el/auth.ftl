@@ -546,8 +546,8 @@ verifyLogin-description = Για επιπρόσθετη ασφάλεια, παρ
 verifyLogin-subject = Επιβεβαίωση νέας σύνδεσης στο { $clientName }
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Κωδικός επαλήθευσης: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Κωδικός σύνδεσης για το { $serviceName }
 verifyLoginCode-title = Κάνετε εσείς σύνδεση;
 verifyLoginCode-prompt = Αν ναι, ορίστε ο κωδικός επαλήθευσης:
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
