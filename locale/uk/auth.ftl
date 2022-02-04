@@ -513,8 +513,8 @@ verifyLogin-description = Для додаткової безпеки, схвал
 verifyLogin-subject = Схвалити новий вхід у { $clientName }
 verifyLogin-action = Підтвердити вхід
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Код підтвердження: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Код входу для { $serviceName }
 verifyLoginCode-title = Це ви виконуєте вхід?
 verifyLoginCode-prompt = Якщо так, ось код підтвердження:
 verifyLoginCode-expiry-notice = Термін його дії спливає через 5 хвилин.
