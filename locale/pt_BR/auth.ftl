@@ -512,8 +512,8 @@ verifyLogin-description = Para segurança adicional, confirme este acesso no seg
 verifyLogin-subject = Confirmar novo acesso no { $clientName }
 verifyLogin-action = Confirmar acesso
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Código de verificação: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Código de acesso do { $serviceName }
 verifyLoginCode-title = Foi você que tentou entrar na sua conta?
 verifyLoginCode-prompt = Se foi você, use este código de verificação:
 verifyLoginCode-expiry-notice = Expira em 5 minutos.
