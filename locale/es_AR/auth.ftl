@@ -512,8 +512,8 @@ verifyLogin-description = Para una mayor seguridad, por favor confirmá este ini
 verifyLogin-subject = Confirmar nuevo inicio de sesión en { $clientName }
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Código de verificación: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Código de inicio de sesión para { $serviceName }
 verifyLoginCode-title = ¿Sos vos iniciando una sesión?
 verifyLoginCode-prompt = Si es así, usá este código de verificación:
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
