@@ -511,8 +511,8 @@ verifyLogin-description = Để tăng cường bảo mật, vui lòng xác nhậ
 verifyLogin-subject = Xác nhận đăng nhập mới vào { $clientName }
 verifyLogin-action = Xác nhận lần đăng nhập này
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Mã xác minh: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Mã đăng nhập cho { $serviceName }
 verifyLoginCode-title = Đây có phải là bạn đăng nhập không?
 verifyLoginCode-prompt = Nếu có, đây là mã xác minh:
 verifyLoginCode-expiry-notice = Nó hết hạn sau 5 phút.
