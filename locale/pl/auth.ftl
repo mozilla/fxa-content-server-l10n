@@ -593,8 +593,8 @@ verifyLogin-description = W celu zwiększenia bezpieczeństwa, proszę potwierd
 verifyLogin-subject = Potwierdź nowe logowanie do „{ $clientName }”
 verifyLogin-action = Potwierdź logowanie
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Kod weryfikacyjny: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Kod logowania usługi { $serviceName }
 verifyLoginCode-title = Czy to Ty się logujesz?
 verifyLoginCode-prompt = Jeśli tak, oto kod weryfikacyjny:
 verifyLoginCode-expiry-notice = Wygasa za 5 minut.
