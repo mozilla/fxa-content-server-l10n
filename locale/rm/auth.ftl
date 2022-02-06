@@ -512,8 +512,8 @@ verifyLogin-description = Per motivs da segirezza, conferma p.pl. questa annunzi
 verifyLogin-subject = Confermar la nova annunzia a { $clientName }
 verifyLogin-action = Confermar l’annunzia
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Code da verificaziun: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Code d'annunzia per { $serviceName }
 verifyLoginCode-title = Emprovas ti da t’annunziar?
 verifyLoginCode-prompt = Sche gea, qua è tes code da verificaziun:
 verifyLoginCode-expiry-notice = El scada en 5 minutas.
