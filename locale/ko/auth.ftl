@@ -17,6 +17,10 @@
 -product-firefox-account = Firefox 계정
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
@@ -29,8 +33,6 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 { $productName }에 가입했기 때문에 발송되었습니다.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 여러 제품을 구독했기 때문에 발송되었습니다.
 subplat-manage-account = <a data-l10n-name="subplat-account-page">계정 페이지</a> 를 방문하여 { -product-firefox-account } 설정을 관리하세요.
 subplat-terms-policy = 약관 및 취소 정책
@@ -38,9 +40,14 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 구독 취소
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = 구독 재활성
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 결제 정보 업데이트
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = 법적 고지
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 데스크톱 기기</a> 에 설치합니다.
 another-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 기기</a> 에 설치합니다.
 automated-email-change = 자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="passwordChangeLink">비밀번호를 변경</a>하십시오. 자세한 내용은 <a data-l10n-name="supportLink"> { -brand-mozilla }지원 페이지</a>를 참조하십시오.
@@ -139,7 +146,6 @@ postRemoveAccountRecovery-invalid = 이 복구 키는 더 이상 계정을 복�
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
 postRemoveSecondary-action = 계정 관리
-postRemoveTwoStepAuthentication-subject = 단계 인증 해제
 postRemoveTwoStepAuthentication-title = 2단계 인증을 사용하지 않습니다
 postRemoveTwoStepAuthentication-action = 계정 관리
 postRemoveTwoStepAuthentication-not-required = 더이상 로그인할 때마다 보안 코드를 입력하지 않아도 됩니다.
@@ -202,9 +208,6 @@ verifyLogin-description = 추가 보안을 위해, 다음 기기의 이 로그�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName }에 대한 새 로그인 확인
 verifyLogin-action = 로그인 확인
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = 인증 코드: { $code }
 verifyLoginCode-title = 로그인하신 게 맞나요?
 verifyLoginCode-prompt = 그렇다면 검증 코드는 다음과 같습니다:
 verifyLoginCode-expiry-notice = 5분 후에 만료됩니다.

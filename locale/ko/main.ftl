@@ -10,6 +10,14 @@ project-brand = Firefox 계정
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox 계정
 
@@ -29,8 +37,6 @@ payment-error-retry-button = 다시 시도하세요
 payment-error-manage-subscription-button = 내 구독 관리
 country-currency-mismatch = 이 구독의 통화는 결제한 국가에서 유효하지 않습니다.
 currency-currency-mismatch = 죄송합니다. 통화간의 전환을 할 수 없습니다.
-returning-paypal-customer-error = 죄송합니다. 지금은 한 번에 하나의 구독에만 가입할 수 있습니다. 나중에 다시 확인하시기 바랍니다.
-no-subscription-upgrades = 죄송합니다. 현재는 구독을 업그레이드나 다운그레이드할 수 없습니다. 다시 확인해주시기 바랍니다.
 expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 insufficient-funds-error = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 withdrawal-count-limit-exceeded-error = 이 거래로 신용 한도를 초과한 것으로 보입니다. 다른 카드를 사용해보세요.
@@ -39,6 +45,9 @@ instant-payouts-unsupported = 직불 카드가 즉시 결제를 할 수 있도�
 duplicate-transaction = 방금 전 동일한 거래가 이뤄진 것 같습니다. 결제 내역을 확인해 보세요.
 coupon-expired = 프로모션 코드가 만료된 것 같습니다.
 card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확인한 후 다시 시도하세요.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -56,7 +65,7 @@ subscription-create-title = 구독 설정
 subscription-success-title = 구독 확인
 subscription-processing-title = 구독 확인 중…
 subscription-error-title = 구독 확인 오류...
-subscription-noupgrade-title = 구독 티어 변경은 지원되지 않습니다.
+subscription-iapsubscribed-title = 이미 구독 중
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -96,11 +105,8 @@ product-no-such-plan = 이 제품에 관련 구독 정보가 없음
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-stripe }와 { -brand-name-paypal }을 사용합니다.
-payment-legal-link-stripe-and-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인정보 보호 정책</stripePrivacyLink>과 <paypalPrivacyLink>{ -brand-name-paypal } 개인정보 보호 정책</paypalPrivacyLink>을 확인하세요.
 payment-legal-copy-paypal = { -brand-name-mozilla }는 안전한 결제 처리를 위해서 { -brand-name-paypal }을 사용합니다.
-payment-legal-link-paypal = <paypalPrivacyLink>{ -brand-name-paypal } 개인 정보 보호 정책</paypalPrivacyLink>을 확인하세요.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }를 사용합니다.
-payment-legal-link-stripe-2 = <stripePrivacyLink>{ -brand-name-stripe } 개인 정보 보호 정책</stripePrivacyLink>을 확인하세요.
 
 ## payment form
 
@@ -164,8 +170,6 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = 업그레이드 사항 검토
-sub-update-failed = 업데이트 계획 실패
 sub-update-payment-title = 결제 정보
 sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -173,34 +177,8 @@ sub-update-copy =
     나머지 결제 주기에 대한 금액입니다. { $startingDate }로 부터
     전체 금액이 청구됩니다.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 일 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 주 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 개월 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-       *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 년 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
-    }
-
 ##
 
-sub-update-submit = 업그레이드 확인
-sub-update-indicator =
-    .aria-label = 업그레이드 표시
 sub-update-current-plan-label = 현재 구독 정보
 sub-update-new-plan-label = 신규 구독 정보
 sub-update-total-label = 총
@@ -304,6 +282,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     내 접근 정보 취소
     { $period } 중 { $name }
+
+## subscription iap item
+
 account-activated = 계정이 활성화되었습니다. <userEl/>
 
 ## subscription route index
@@ -340,6 +321,9 @@ plan-details-show-button = 상세 정보 보기
 plan-details-hide-button = 상세 내용 숨기기
 plan-details-total-label = 전체
 
+## coupons
+
+
 ## payment-processing
 
 
@@ -348,11 +332,18 @@ plan-details-total-label = 전체
 payment-confirmation-alert = 다운로드하기
 payment-confirmation-mobile-alert = 앱을 열지 않았습니까? <a>자세히 보기</a>
 payment-confirmation-thanks-heading = 감사합니다!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = { $product_name }를 시작하는 방법에 대한 자세한 내용이 담긴 확인 메일이 { $email } 주소로 발송되었습니다.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
-payment-confirmation-details-heading = 지불 상세 사항
 payment-confirmation-amount = { $interval } 당 { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -379,3 +370,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = 다운로드 계속 하기
 payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
+
+## new user email form
+
