@@ -508,7 +508,7 @@ row-defaults-status = Brez
 ## Recovery key sub-section on main Settings page
 
 rk-header = Obnovitveni ključ
-rk-enabled = Omogočeno
+rk-enabled = Omogočen
 rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
@@ -570,7 +570,7 @@ se-secondary-email-none = Brez
 
 tfa-row-header = Overitev v dveh korakih
 tfa-row-disabled = Overitev v dveh korakih je onemogočena.
-tfa-row-enabled = Omogočeno
+tfa-row-enabled = Omogočena
 tfa-row-not-set = Ni nastavljena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
