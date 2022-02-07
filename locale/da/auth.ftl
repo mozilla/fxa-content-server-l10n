@@ -512,8 +512,8 @@ verifyLogin-description = Som en ekstra sikkerhed skal du bekræfte dette login 
 verifyLogin-subject = Bekræft nyt login til { $clientName }
 verifyLogin-action = Bekræft login
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Bekræftelseskode: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Login-kode til { $serviceName }
 verifyLoginCode-title = Er det dig, der logger ind?
 verifyLoginCode-prompt = Hvis det er, så er bekræftelseskoden her:
 verifyLoginCode-expiry-notice = Den udløber om 5 minutter.
