@@ -365,6 +365,7 @@ coupon-remove = Supprimer
 coupon-error = Le code que vous avez saisi est invalide ou a expiré.
 coupon-error-generic = Une erreur s’est produite lors du traitement du code. Veuillez réessayer.
 coupon-error-expired = Le code que vous avez saisi a expiré.
+coupon-error-invalid = Le code que vous avez saisi est invalide.
 coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
 coupon-enter-code =
     .placeholder = Saisissez le code
