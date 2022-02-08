@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-03 22:07+0000\n"
-"PO-Revision-Date: 2022-02-04 16:31+0000\n"
+"PO-Revision-Date: 2022-02-08 18:40+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1337,7 +1337,7 @@ msgstr "Spustiť obnovu"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr "Posledná aktivita"
+msgstr "Nedávna aktivita"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
