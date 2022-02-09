@@ -27,12 +27,16 @@
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 fxa-service-url = { -product-firefox-cloud } 이용약관
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
+subplat-privacy-notice = 개인 정보 보호 정책
 subplat-privacy-plaintext = 개인정보처리방침:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 { $productName }에 가입했기 때문에 발송되었습니다.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = 이 이메일은 { $email }에 { -product-firefox-account }가 있기 때문에 발송되었습니다.
 subplat-explainer-multiple = 이 이메일은 { $email }에 { -product-firefox-account }가 있고 여러 제품을 구독했기 때문에 발송되었습니다.
 subplat-manage-account = <a data-l10n-name="subplat-account-page">계정 페이지</a> 를 방문하여 { -product-firefox-account } 설정을 관리하세요.
 subplat-terms-policy = 약관 및 취소 정책
@@ -42,12 +46,20 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = 구독 재활성
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = 결제 정보 업데이트
+subplat-privacy-policy = { -brand-mozilla } 개인 정보 보호 정책
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } 이용약관
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = 법적 고지
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play }에서 { $productName } 다운로드">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store }에서 { $productName } 다운로드">
 another-desktop-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 데스크톱 기기</a> 에 설치합니다.
 another-device = 또는 <a data-l10n-name="anotherDeviceLink">다른 기기</a> 에 설치합니다.
 automated-email-change = 자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="passwordChangeLink">비밀번호를 변경</a>하십시오. 자세한 내용은 <a data-l10n-name="supportLink"> { -brand-mozilla }지원 페이지</a>를 참조하십시오.
@@ -64,6 +76,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 비밀번호를 변경하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
+cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl")s>설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오.
 change-password-plaintext = 만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, 비밀번호를 변경해주세요.
@@ -72,6 +85,19 @@ change-password-plaintext = 만약 누군가가 당신의 계정에 접근 시�
 user-ip = IP 주소: { $ip }
 manage-account = 계정 관리
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = 청구서 번호: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = 청구됨: { $invoiceDateOnly }에 { $invoiceTotal }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = 지불 방식:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport = 구독에 관해 궁금한 점이 있으신가요? <a data-l10n-name="subscriptionSupportUrl">지원팀</a>이 도와드리겠습니다.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다.
