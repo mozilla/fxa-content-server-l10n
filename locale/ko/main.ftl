@@ -37,6 +37,9 @@ payment-error-retry-button = 다시 시도하세요
 payment-error-manage-subscription-button = 내 구독 관리
 country-currency-mismatch = 이 구독의 통화는 결제한 국가에서 유효하지 않습니다.
 currency-currency-mismatch = 죄송합니다. 통화간의 전환을 할 수 없습니다.
+no-subscription-change = 죄송합니다. 구독 일정을 변경할 수 없습니다.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = { $mobileAppStore }를 통해 이미 구독 중입니다.
 expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 insufficient-funds-error = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 withdrawal-count-limit-exceeded-error = 이 거래로 신용 한도를 초과한 것으로 보입니다. 다른 카드를 사용해보세요.
@@ -48,6 +51,7 @@ card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확�
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = 시스템 오류로 { $productName } 가입에 실패했습니다. 귀하의 지불 방식은 청구되지 않았습니다. 다시 시도해 주세요.
 
 ## settings
 
@@ -65,6 +69,7 @@ subscription-create-title = 구독 설정
 subscription-success-title = 구독 확인
 subscription-processing-title = 구독 확인 중…
 subscription-error-title = 구독 확인 오류...
+subscription-noplanchange-title = 해당 구독 일정 변경이 지원되지 않습니다.
 subscription-iapsubscribed-title = 이미 구독 중
 
 ##  $productName (String) - The name of the subscribed product.
