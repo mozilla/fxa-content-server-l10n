@@ -359,6 +359,7 @@ coupon-remove = 移除
 coupon-error = 您输入的折扣码无效或已过期。
 coupon-error-generic = 处理折扣码时出错，请重试。
 coupon-error-expired = 您输入的折扣码已过期。
+coupon-error-limit-reached = 您输入的折扣码已达使用次数上限。
 coupon-error-invalid = 您输入的折扣码无效。
 coupon-success = 您的方案将自动按标价续订。
 coupon-enter-code =
