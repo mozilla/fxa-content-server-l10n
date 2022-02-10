@@ -19,20 +19,21 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
 fxa-privacy-url = Política de privacidade da { -brand-mozilla }
 fxa-service-url = Termos de Serviço do { -product-firefox-cloud }
 subplat-automated-email = Este é um email automático; se o recebeu por erro, nenhuma ação é requerida.
+subplat-privacy-notice = Política de privacidade
 subplat-privacy-plaintext = Política de privacidade:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu múltiplos produtos.
 subplat-manage-account = Faça a gestão das definições da sua { -product-firefox-account } visitando a <a data-l10n-name="subplat-account-page">página da conta</a>.
 subplat-terms-policy = Termos e política de cancelamento
@@ -87,9 +88,6 @@ subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu 
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Para mais informação, por favor visite { $supportUrl }
-updateBilling = Vamos tentar fazer o seu pagamento novamente nos próximos dias, mas pode ser preciso que nos ajude a corrigir o mesmo <a data-l10n-name="updateBillingUrl">atualizando os respetivos dados de pagamento</a>.
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
-updateBilling-plaintext = Nós vamos tentar fazer o seu pagamento novamente nos próximos dias, mas pode ser preciso que nos ajude a corrigir o mesmo atualizando os respetivos dados de pagamento:
 view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -179,7 +177,6 @@ postRemoveSecondary-title = Email secundário removido
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
 postRemoveSecondary-action = Gerir conta
-postRemoveTwoStepAuthentication-subject = A confirmação de dois passos está desativada
 postRemoveTwoStepAuthentication-title = Autenticação de dois passos desativada
 postRemoveTwoStepAuthentication-description = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account } a partir do seguinte dispositivo:
 postRemoveTwoStepAuthentication-description-plaintext = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação não serão mais solicitados a cada início de sessão.
@@ -196,9 +193,6 @@ postVerify-action = Configurar o próximo dispositivo
 postVerify-support = Tem questões? Visite { $supportUrl }
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Verificou com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão serão agora entregues em ambos os endereços.
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title = Precisa de repor a sua palavra-passe?
@@ -230,12 +224,6 @@ subscriptionDowngrade-subject = Mudou para { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Mudou com sucesso de { $productNameOld } para { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycle } para { $paymentAmountNew }. Nessa altura também irá receber um crédito único de { $paymentProrated } para refletir a cobrança mais baixa para o remanescente deste { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Se existir um novo software para instalar de forma a utilizar o { $productNameNew }, irá receber um e-mail separado com as instruções para a transferência.
@@ -336,12 +324,6 @@ subscriptionUpgrade-title = Obrigado por atualizar!
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Atualizou com sucesso de { $productNameOld } para { $productNameNew }.
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycle } para { $paymentAmountNew }. Nessa altura irá também ser feito um débito único de { $paymentProrated } para refletir a cobrança mais alta para o remanescente deste { $productPaymentCycle }.
-# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Se existir um novo software para instalar de forma a utilizar o { $productNameNew }, irá receber um e-mail separado com as instruções para a transferência.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
@@ -378,9 +360,6 @@ verifyLogin-description = Para segurança adicional, por favor confirme este in�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confirmar novo início de sessão em { $clientName }
 verifyLogin-action = Confirmar novo início de sessão
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Código de confirmação: { $code }
 verifyLoginCode-title = É mesmo você a iniciar sessão?
 verifyLoginCode-prompt = Se sim, aqui está o código de confirmação:
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
