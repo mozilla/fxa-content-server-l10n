@@ -19,6 +19,8 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
@@ -34,8 +36,12 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisk
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
@@ -45,6 +51,13 @@ change-password-plaintext = Om du mistenkjer at nokon prøver å få tilgang til
 user-ip = IP-adresse: { $ip }
 manage-account = Handter kontoen
 manage-account-plaintext = { manage-account }:
+payment-details = Betalningsinformasjon:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Fakturanummer: { $invoiceNumber }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Betalingsmåte:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -62,6 +75,15 @@ cadReminderFirst-title = Her er påminninga di om å synkronisere einingar.
 cadReminderSecond-subject = Siste påminning: Fullør synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser ei anna eining
 cadReminderSecond-title = Siste påminning om å synkronisere einingar!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Velkomen til { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Velkomen til { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Last ned { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettingskodar att
 codes-reminder-description = Det er få gjenopprettingskodar att. Tenk på å generere nye kodar for å unngå å bli utelåst frå kontoen din.
@@ -142,6 +164,11 @@ recovery-title = Treng du å tilbakestille passordet ditt?
 recovery-description = Trykk på knappen innan den neste timen for å lage eit nytt passord. Førespurnaden kom frå følgjande eining:
 recovery-action = Lag nytt passord
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
+# COMMENT ABOUT After the colon,
+payment-details = Betalningsinformasjon:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Velkomen til { $productName }
 subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 subscriptionPaymentExpired-title = Betalingskortet ditt er i ferd med å gå ut
