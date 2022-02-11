@@ -164,6 +164,9 @@ postVerify-description = Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja
 postVerify-subject = Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset
 postVerify-setup = Määritä seuraava laite
 postVerify-action = Määritä seuraava laite
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Kysymyksiä? Käy sivulla { $supportUrl }
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-title = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-action = Hallinnoi tiliä
@@ -180,6 +183,7 @@ payment-details = Maksun tiedot:
 subscriptionAccountFinishSetup-action = Luo salasana
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
+subscriptionAccountReminderFirst-content-select = Valitse “Luo salasana” asettaaksesi uuden salasanan ja viimeistelläksesi tilisi.
 subscriptionAccountReminderFirst-action = Luo salasana
 subscriptionAccountReminderSecond-subject = Viimeinen muistutus: määritä tilisi
 subscriptionAccountReminderSecond-action = Luo salasana
