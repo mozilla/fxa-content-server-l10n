@@ -480,12 +480,6 @@ profile-picture =
     .header = Εικόνα
 profile-display-name =
     .header = Εμφανιζόμενο όνομα
-profile-password =
-    .header = Κωδικός πρόσβασης
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Δημιουργήθηκε στις { $date }
 profile-primary-email =
     .header = Κύριο email
 
@@ -495,6 +489,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Ασφάλεια
+security-password =
+    .header = Κωδικός πρόσβασης
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Δημιουργία: { $date }
 
 ## Switch component
 
