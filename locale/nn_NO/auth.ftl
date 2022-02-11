@@ -168,7 +168,17 @@ subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet dit
 payment-details = Betalningsinformasjon:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit passord.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
+subscriptionAccountFinishSetup-action = Opprett eit passord
+subscriptionAccountReminderFirst-action = Opprett passord
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
+subscriptionAccountReminderSecond-title = Velkomen til { -brand-firefox }
+subscriptionAccountReminderSecond-action = Opprett passord
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 subscriptionPaymentExpired-title = Betalingskortet ditt er i ferd med å gå ut

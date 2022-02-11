@@ -338,6 +338,11 @@ plan-details-header = Produktdetaljar
 plan-details-show-button = Vis detaljar
 plan-details-hide-button = Gøym detaljar
 plan-details-total-label = Totalt
+plan-details-list-price = Listepris
+
+## coupons
+
+coupon-discount = Rabatt
 
 ## payment-processing
 
@@ -403,6 +408,4 @@ new-user-confirm-email =
     .label = Stadfest e-postadressa di
 new-user-email-validate = E-postadressa er ikkje gyldig
 new-user-submit = Abonner no
-# $prefix (string) - If header is part of a multi step process and needs a header. eg. '2.'
-payment-method-header-prefix = { $prefix } Vel betalingsmåte
 payment-method-required = Påkravd
