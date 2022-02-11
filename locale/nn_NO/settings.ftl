@@ -83,6 +83,8 @@ connect-another-find-fx-mobile =
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
     .title = Last ned { -brand-firefox } på { -google-play }
+connect-another-app-store-image-2 =
+    .title = Last ned { -brand-firefox } på { -app-store }
 
 ##
 
@@ -145,6 +147,8 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Datainnsamling og bruk
+dc-subheader = Hjelp til med å forbetre { -product-firefox-accounts }
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
@@ -351,6 +355,7 @@ tfa-enabled = Tostegs-godkjenning aktivert
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Bruk koden { $secret } for å setje opp tostegs-godkjenning i
     støtta appar.
@@ -370,12 +375,6 @@ profile-picture =
     .header = Bilde
 profile-display-name =
     .header = Visingsnamn
-profile-password =
-    .header = Passord
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Oppretta: { $date }
 profile-primary-email =
     .header = Primær e-postadresse
 
