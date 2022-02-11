@@ -442,12 +442,6 @@ profile-picture =
     .header = Kép
 profile-display-name =
     .header = Megjelenő név
-profile-password =
-    .header = Jelszó
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Létrehozva: { $date }
 profile-primary-email =
     .header = Elsődleges e-mail
 
@@ -457,6 +451,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Biztonság
+security-password =
+    .header = Jelszó
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Létrehozva: { $date }
 
 ## Switch component
 
