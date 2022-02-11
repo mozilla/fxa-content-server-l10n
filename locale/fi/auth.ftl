@@ -79,6 +79,7 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $cardType } päättyen numeroihin { $lastFour }
+subscriptionSupport = Kysymyksiä tilaukseesi liittyen? <a data-l10n-name="subscriptionSupportUrl">Tukitiimimme</a> auttaa sinua.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kysymyksiä tilaukseesi liittyen? Tukitiimimme auttaa sinua:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -180,6 +181,9 @@ subscriptionAccountDeletion-subject = { $productName } -tilauksesi on peruttu
 subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
 # COMMENT ABOUT After the colon,
 payment-details = Maksun tiedot:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Tervetuloa, tämä on { $productName }: Aseta salasanasi.
 subscriptionAccountFinishSetup-action = Luo salasana
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
