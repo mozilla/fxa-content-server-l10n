@@ -444,12 +444,6 @@ profile-picture =
     .header = Llun
 profile-display-name =
     .header = Enw dangos
-profile-password =
-    .header = Cyfrinair
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Crëwyd: { $date }
 profile-primary-email =
     .header = Prif e-bost
 
@@ -459,6 +453,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Diogelwch
+security-password =
+    .header = Cyfrinair
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Crëwyd: { $date }
 
 ## Switch component
 
