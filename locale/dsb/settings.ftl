@@ -440,12 +440,6 @@ profile-picture =
     .header = Wobraz
 profile-display-name =
     .header = Zwobraznjeńske mě
-profile-password =
-    .header = Gronidło
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Napórany: { $date }
 profile-primary-email =
     .header = Primarna e-mailowa adresa
 
@@ -455,6 +449,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Wěstota
+security-password =
+    .header = Gronidło
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Napórany: { $date }
 
 ## Switch component
 
