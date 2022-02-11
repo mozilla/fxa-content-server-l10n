@@ -43,6 +43,7 @@ subplat-update-billing = Päivitä laskutustiedot
 subplat-legal = Lakiasiat
 subplat-privacy = Tietosuoja
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellationSurveyUrl")s>vastaamalla kyselyyn</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
 change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanasi.
@@ -262,9 +263,6 @@ verify-subject = Viimeistele tilisi luominen
 verify-action = Vahvista sähköposti
 verifyLogin-description = Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:
 verifyLogin-action = Vahvista kirjautuminen
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Vahvistuskoodi: { $code }
 verifyLoginCode-title = Kirjaudutko sinä sisään?
 verifyLoginCode-prompt = Jos kyllä, tässä on vahvistuskoodi:
 verifyLoginCode-expiry-notice = Se vanhenee viidessä minuutissa.
