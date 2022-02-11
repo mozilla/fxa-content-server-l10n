@@ -19,6 +19,8 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
@@ -42,6 +44,14 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Päivitä laskutustiedot
 subplat-legal = Lakiasiat
 subplat-privacy = Tietosuoja
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Lataa { $productName } { -google-play }sta">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Lataa { $productName } { -app-store }sta">
+another-desktop-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle työpöytälaitteelle</a>.
+another-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle laitteelle</a>.
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellationSurveyUrl")s>vastaamalla kyselyyn</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -92,6 +102,11 @@ codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
 codes-generate = Luo koodeja
 lowRecoveryCodes-action = Luo koodeja
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 palautuskoodi jäljellä
+       *[other] { $numberRemaining } palautuskoodia jäljellä
+    }
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
@@ -196,6 +211,7 @@ subscriptionFirstInvoiceDiscount-subject = { $productName } -maksu vahvistettu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Kiitos, että tilasit { $productName } -palvelun
+subscriptionFirstInvoiceDiscount-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Laskun numero: <b>{ $invoiceNumber }</b>
@@ -216,6 +232,7 @@ subscriptionPaymentExpired-title = Luottokorttisi vanhenee pian
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } -maksu epäonnistui
+subscriptionPaymentFailed-title = Valitettavasti maksusi kanssa ilmeni ongelmia
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } -tilaus aktivoitu uudelleen
