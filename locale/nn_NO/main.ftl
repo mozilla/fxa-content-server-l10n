@@ -416,4 +416,9 @@ new-user-email-validate-confirm = E-postadressene matchar ikkje
 new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
 new-user-card-title = Skriv inn betalingskortinformasjon
 new-user-submit = Abonner no
+manage-pocket-title = Ser du etter premium-abonnementet ditt på { -brand-name-pocket }?
+manage-pocket-body = For å handsame det, <a>trykk her</a>.
+payment-method-header = Vel betalingsmåte
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 payment-method-required = Påkravd
