@@ -285,8 +285,6 @@ delete-account-header =
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
-delete-account-chk-box-1 =
-    .label = Kaikki maksetut tilaukset perutaan
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
@@ -384,6 +382,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Käytä koodi { $secret } määrittääksesi kaksivaiheisen todennuksen
     tuettuihin sovelluksiin.
@@ -413,12 +412,6 @@ profile-picture =
     .header = Kuva
 profile-display-name =
     .header = Näyttönimi
-profile-password =
-    .header = Salasana
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Luotu { $date }
 profile-primary-email =
     .header = Ensisijainen sähköposti
 
@@ -428,6 +421,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Turvallisuus
+security-password =
+    .header = Salasana
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Luotu { $date }
 
 ## Switch component
 
@@ -499,6 +498,8 @@ se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähk�
 se-content-note =
     Huomio: toissijainen sähköposti ei palauta tietojasi — tarvitset
     <a>palautusavaimen</a> sitä varten.
+# Default value for the secondary email
+se-secondary-email-none = Ei mitään
 
 ##
 

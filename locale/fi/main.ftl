@@ -321,6 +321,7 @@ coupon-discount-applied = Alennuspalkkio sovellettu
 coupon-submit = Käytä
 coupon-remove = Poista
 coupon-error = Antamasi koodi on virheellinen tai vanhentunut.
+coupon-error-generic = Koodia käsiteltäessä tapahtui virhe. Yritä uudelleen.
 coupon-error-expired = Antamasi koodi on vanhentunut.
 coupon-error-invalid = Antamasi koodi on virheellinen.
 coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
