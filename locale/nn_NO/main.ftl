@@ -343,6 +343,11 @@ plan-details-list-price = Listepris
 ## coupons
 
 coupon-discount = Rabatt
+coupon-discount-applied = Rabatt brukt
+coupon-submit = Bruk
+coupon-remove = Fjern
+coupon-enter-code =
+    .placeholder = Skriv inn kode
 
 ## payment-processing
 
@@ -407,5 +412,8 @@ new-user-email =
 new-user-confirm-email =
     .label = Stadfest e-postadressa di
 new-user-email-validate = E-postadressa er ikkje gyldig
+new-user-email-validate-confirm = E-postadressene matchar ikkje
+new-user-already-has-account-sign-in = Du har allereie ein konto. <a>Logg inn</a>
+new-user-card-title = Skriv inn betalingskortinformasjon
 new-user-submit = Abonner no
 payment-method-required = Påkravd
