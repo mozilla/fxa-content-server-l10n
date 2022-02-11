@@ -438,12 +438,6 @@ profile-picture =
     .header = Imagine
 profile-display-name =
     .header = Nomine a monstrar
-profile-password =
-    .header = Contrasigno
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Create le { $date }
 profile-primary-email =
     .header = Adresse de e-mail primari
 
@@ -453,6 +447,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Securitate
+security-password =
+    .header = Contrasigno
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Create le { $date }
 
 ## Switch component
 
