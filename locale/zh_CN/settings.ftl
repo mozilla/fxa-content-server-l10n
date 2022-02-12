@@ -416,12 +416,6 @@ profile-picture =
     .header = 照片
 profile-display-name =
     .header = 显示名称
-profile-password =
-    .header = 密码
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = 创建于 { $date }
 profile-primary-email =
     .header = 主邮箱
 
@@ -431,6 +425,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = 账户安全
+security-password =
+    .header = 密码
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = 创建于 { $date }
 
 ## Switch component
 
