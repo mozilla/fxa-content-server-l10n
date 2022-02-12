@@ -448,12 +448,6 @@ profile-picture =
     .header = Maletg
 profile-display-name =
     .header = Num per mussar
-profile-password =
-    .header = Pled-clav
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Data da creaziun: { $date }
 profile-primary-email =
     .header = E-mail principal
 
@@ -463,6 +457,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segirezza
+security-password =
+    .header = Pled-clav
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Creà: { $date }
 
 ## Switch component
 
