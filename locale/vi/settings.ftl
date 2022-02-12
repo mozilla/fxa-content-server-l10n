@@ -444,12 +444,6 @@ profile-picture =
     .header = Hình ảnh
 profile-display-name =
     .header = Tên hiển thị
-profile-password =
-    .header = Mật khẩu
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Đã tạo { $date }
 profile-primary-email =
     .header = Email chính
 
@@ -459,6 +453,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Bảo mật
+security-password =
+    .header = Mật khẩu
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Đã tạo { $date }
 
 ## Switch component
 
