@@ -421,12 +421,6 @@ profile-picture =
     .header = Resim
 profile-display-name =
     .header = Görünen ad
-profile-password =
-    .header = Parola
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Oluşturma: { $date }
 profile-primary-email =
     .header = Birinci e-posta
 
@@ -436,6 +430,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Güvenlik
+security-password =
+    .header = Parola
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Oluşturma: { $date }
 
 ## Switch component
 
