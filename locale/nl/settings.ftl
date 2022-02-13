@@ -446,12 +446,6 @@ profile-picture =
     .header = Afbeelding
 profile-display-name =
     .header = Weergavenaam
-profile-password =
-    .header = Wachtwoord
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Gemaakt op { $date }
 profile-primary-email =
     .header = Primair e-mailadres
 
@@ -461,6 +455,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Beveiliging
+security-password =
+    .header = Wachtwoord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Gemaakt op { $date }
 
 ## Switch component
 
