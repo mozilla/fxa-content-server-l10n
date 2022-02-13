@@ -509,12 +509,6 @@ profile-picture =
     .header = Obrázok
 profile-display-name =
     .header = Zobrazované meno
-profile-password =
-    .header = Heslo
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Vytvorené { $date }
 profile-primary-email =
     .header = Hlavná e-mailová adresa
 
@@ -524,6 +518,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Bezpečnosť
+security-password =
+    .header = Heslo
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Vytvorené { $date }
 
 ## Switch component
 
