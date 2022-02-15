@@ -155,6 +155,7 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Veri toplanması ve kullanımı
+dc-subheader = { -product-firefox-accounts }nı geliştirmemize yardım edin
 dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts } ürününü geliştirmemize yardımcı oluyor.
 dc-opt-in-out-error = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu.
 dc-learn-more = Daha fazla bilgi al

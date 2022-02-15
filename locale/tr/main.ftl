@@ -349,11 +349,13 @@ plan-details-list-price = Liste fiyatı
 ## coupons
 
 coupon-discount = İndirim
+coupon-discount-applied = İndirim uygulandı
 coupon-submit = Uygula
 coupon-remove = Kaldır
 coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
 coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen tekrar deneyin.
 coupon-error-expired = Girdiğiniz kodun süresi dolmuş.
+coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
 coupon-error-invalid = Girdiğiniz kod geçersiz.
 coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
 coupon-enter-code =

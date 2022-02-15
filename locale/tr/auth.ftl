@@ -469,8 +469,8 @@ verifyLogin-description = Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan
 verifyLogin-subject = Yeni { $clientName } girişini onaylayın
 verifyLogin-action = Girişi onayla
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Doğrulama kodu: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = { $serviceName } giriş kodu
 verifyLoginCode-title = Giriş yapan siz misiniz?
 verifyLoginCode-prompt = Doğrulama kodunuz:
 verifyLoginCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
