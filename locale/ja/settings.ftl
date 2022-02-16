@@ -108,6 +108,9 @@ cs-sign-out-button = ログアウト
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } メニュー
@@ -267,9 +270,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = キャンセル
 add-secondary-email-save-button = 保存
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-error = 確認コードの送信に問題がありました。
@@ -325,12 +325,6 @@ profile-picture =
     .header = 写真
 profile-display-name =
     .header = 表示名
-profile-password =
-    .header = パスワード
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = 作成日: { $date }
 profile-primary-email =
     .header = 主要アドレス
 
@@ -340,6 +334,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = セキュリティ
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
@@ -404,6 +401,10 @@ tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
+tfa-row-disable-modal-confirm = 無効化
+tfa-row-disable-modal-explain =
+    この操作は元に戻せません。
+    <linkExternal>回復用キーを置き換える</linkExternal> オプションもあります。
 tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
@@ -415,7 +416,9 @@ auth-error-103 = パスワードが正しくありません
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
 auth-error-1008 = 新しいパスワードは別のものにしてください
