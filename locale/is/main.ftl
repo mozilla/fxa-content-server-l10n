@@ -23,6 +23,8 @@ document =
 
 ## general-aria
 
+close-aria =
+    .aria-label = Loka glugga
 
 ## app error dialog
 
@@ -30,18 +32,23 @@ general-error-heading = Almenn forritsvilla
 basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
 payment-error-1 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Reyndu aftur eða hafðu samband við útgefanda kortsins.
 payment-error-2 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Hafðu samband við útgefanda kortsins.
+payment-error-retry-button = Reyndu aftur
 
 ##  $productName (String) - The name of the subscribed product.
 
 
 ## settings
 
+settings-subscriptions-title = Áskriftir
 
 ## legal footer
 
+terms = Þjónustuskilmálar
+privacy = Meðferð persónuupplýsinga
 
 ## Subscription titles
 
+subscription-iapsubscribed-title = Nú þegar áskrifandi
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -49,6 +56,7 @@ payment-error-2 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Ha
 
 ## Product route
 
+product-plan-not-found = Áskriftarleið fannst ekki
 
 ## payment legal blurb
 
