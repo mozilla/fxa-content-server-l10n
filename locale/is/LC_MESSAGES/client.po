@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-01-20 12:09+0000\n"
+"PO-Revision-Date: 2022-02-16 21:09+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -259,7 +259,7 @@ msgstr "Viðbætur"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
-msgstr ""
+msgstr "Opna flipa"
 
 #: .es5/models/sync-engines.js:78
 msgid "Preferences"
@@ -656,7 +656,7 @@ msgstr "Þetta er nauðsynlegur reitur"
 
 #: .es5/lib/auth-errors.js:509
 msgid "Authorization code required"
-msgstr ""
+msgstr "Auðkenningarkóða krafist"
 
 #: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
@@ -672,7 +672,7 @@ msgstr "Tveggja-þrepa auðkenningarkóði nauðsynlegur"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Ógildur tveggja-þrepa auðkenningarkóði"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
@@ -839,9 +839,7 @@ msgid "Invalid Token"
 msgstr "Ógilt teikn"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -911,8 +909,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1316,7 +1313,7 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Tilkynntu virkni"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -1338,11 +1335,11 @@ msgstr "Nýleg virkni"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Öryggisatvik"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Heiti atviks"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Verified"
@@ -1362,7 +1359,7 @@ msgstr "Til baka í stillingar"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr ""
+msgstr "Því miður. Við höfum læsr aðgangnum&nbsp;þínum."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1436,7 +1433,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Settu inn auðkenningarkóða"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
