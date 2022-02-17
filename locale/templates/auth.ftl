@@ -83,6 +83,9 @@ automated-email = This is an automated email; if you received it in error, no ac
   For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
 
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = This is an automated email; if you did not authorize this action, then please change your password:
+
 automated-email-reset = This is an automated email; if you did not authorize this action, then <a data-l10n-name="resetLink">please reset your password</a>.
   For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
@@ -228,6 +231,12 @@ postAddAccountRecovery-description = You have successfully generated an account 
 postAddAccountRecovery-action = Manage account
 postAddAccountRecovery-recovery = If this was not you, <a data-l10n-name="revokeAccountRecoveryLink">click here</a>.
 postAddAccountRecovery-revoke = If this was not you, revoke key.
+
+postAddLinkedAccount-subject = New account linked to { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Your { $providerName } account has been linked to your { -product-firefox-account }
+postAddLinkedAccount-action = Manage account
 
 postAddTwoStepAuthentication-subject = Two-step authentication enabled
 postAddTwoStepAuthentication-title = Two-step authentication enabled
@@ -586,15 +595,6 @@ verifyPrimary-subject = Confirm primary email
 verifyPrimary-action = Verify email
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Once verified, account changes like adding a secondary email will become possible from this device.
-
-verifySecondary-subject = Confirm secondary email
-verifySecondary-title = Verify secondary email
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = A request to use { $email } as a secondary email address has been made from the following { -product-firefox-account }:
-verifySecondary-action = Verify email
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Once verified, this address will begin receiving security notifications and confirmations.
 
 verifySecondaryCode-subject = Confirm secondary email
 verifySecondaryCode-title = Verify secondary email

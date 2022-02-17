@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-02-17 22:07+0000\n"
 "PO-Revision-Date: 2021-07-29 22:20+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,1035 +14,273 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Ha-t-a usmekti-inek/inem i umtawi n yibenkan."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
-"Ilaq ad ilin ssin i wemtawi. Amtawi n ufecku-nniḍen akked firefox ad yeḥrez ticraḍ n isebtar, awalen uffiren akked isefka-nniḍen n Firefox di yal taswiɛt d yal amkan deg ara tesqedceḍ Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Asmekti aneggaru i umtawi n yibenkan!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Amtawi n yibenk-nniḍen s tbaḍnit n Firefox ad iǧǧ ticraḍ-ik•im n yisebtar awalen uffiren d yisefka-nniḍen n Firefox d widak kan, ur ttbeddilen ara anida tebɣuḍ tesqedceḍ Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Ma yella ur tessadreḍ ara yakan %(productName)s, bdu aseqdec n tmahilin i yellan deg ujerred-ik:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Isteqsiyen ɣer ujerred-ik? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Qqiment-d kan kra n tigalin n usellek"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Sirew tingalin:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Tuqqna tamaynut ɣer %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Yettusra ubeddel n wawal uffir"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik(im) n Firefox. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik(im) n Firefox, nsens ibenkan akk n umiḍan-ik(im). Ad ak(am)-nsuter ad "
-"tesnifleḍ awal-ik(im) uffir i uḍman n tɣellist."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Ɛawed qqen ɣer yibenk neɣ ɣer tkebbanit anida i tseqdaceḍ amiḍan-ik/im Firefox syen ḍfer imecwaṛen ara ak(am)-d-yettunefken."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "S tegmatt,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Tarbaɛt n imiḍanen n Firefox"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Awal uffir yettusnifel akken iwata"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Awal uffir n umiḍan inek Firefox yettusnifel akken iwata seg ibenkan-agi:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Wagi d izen imayl awurman; ma yella ur tesnifled ara awal inek uffir deg umiḍan Firefox, yessefk ad twennzeḍ tura yakan di %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Awal uffir n umiḍan inek ibeddel"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Ad tesreḍ asekcem n wawal uffir inek amaynut deg ibenken nniḍen akken ad tkemmled amtawi."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Ma ur tbeddileḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura di %(resetLink)s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Awal uffir n umiḍa-ik/im ittuwennez s tsarutt n tririt"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Twennzeḍ akken iwata awal uffir-ik/im s tsarutt n tririt seg yibenk-agi:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Nesra asirew n tsarutt n tririt tamaynut."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Rnu tasarutt n tririt tamaynut:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Ugar n telɣut, ddu ɣer %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Tasarutt n tririt n umiḍan tettusirew"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Ma da yella mačči d kečč, <a %(revokeAccountRecoveryLinkAttributes)s>senned da:</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Ma mačči d kečč/kem i ixedmen aya, ḥwi tasarutt."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Asesteb s snat n tarrayin yermed"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Tremdeḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Tingalin n tɣellist seg usnas-ik n usesteb ad yili yal tuqqna tamaynut."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tangalt n tɣelllist n usnas-ik n usesteb ad ak-yettusuter yal tuqqna."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Imayl amezwaru amaynut"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked "
-"usentem n tuqna."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Tangalt n tririt tettwaseqdec yakan"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Teččiḍ tangalt n tririt"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Tasarutt n tririt n umiḍan tettwakkes"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr amiḍan-ik/im."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Imay wis sin ittwakkes"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Tekkseḍ akken iwata %(secondaryEmail)s imayl-ik asnawan seg umiḍan-ik Firefox. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Asesteb s snat n tarrayin yensa"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Tingalin n tririt uir zgint laqent yal tuqqna."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tingalin n tɣelllist ur laqent ara yal atuqqna."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Amiḍan n Firefox yettwasenqed. Qrib ad tsaliḍ."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "Amtawi i d-iteddun, gar yibenkan-inek/inem!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n Firefox d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Sbadu ibenk-nniḍen"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Imay wis sin ittwarna"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Tesneqdeḍ akken iwata %(secondaryEmail)s imayl-ik asnawan i umiḍan-ik Firefox. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl. "
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Tesriḍ tulsa uwennez n wawal uffir inek?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Sekcem awal uffir amaynut"
-
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Tanemmirt imi tferneḍ Firefox! Tzemreḍ ad tesbeddeḍ Firefox aziraz dagi: %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Neḥzen imi tṛuḥeḍ"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Tekkseḍ tineggura-a amiḍan-ik Firefox. Ihi, nsefsex ajerred-ik ɣer %(productName)s. Lexlaṣ-ik aneggaru n %(invoiceDateOnly)s yettwag deg %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a %(cancellationSurveyLinkAttributes)s>tefrant-a wezzilen</a>."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Ansuf ɣer %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "Uṭṭun n tfaturt: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Yettwafter; %(invoiceTotal)s deg %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr ""
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Nsefsex ajerred-ik/im %(productName)s. Axelleṣ-ik/im aneggaru n $%(invoiceTotal)s yeḍra-d deg %(invoiceDateOnly)s. Ameẓlu-ik/im ad ikemmel alamma d taggar n twala n ufter, win ara yilin deg "
-"%(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Tbeddleḍ akken iwata seg %(productNameOld)s ɣer %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ %(productNameNew)s, ad k-id-yaweḍ yimayl s tinaḍin ara d-tessadreḍ."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Amulteɣ-inek·inem yettusefsex"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Tanemmirt ɣef ujerred ɣer %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Ad tremseḍ imayl-nniden ɣef iwellihen n usader, akken daɣen ad tebduḍ aseqdec n %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Uṭṭun n tfaturt: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Yettwafter %(invoiceTotal)s deg %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Wali tafaṭurt-ik·im</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Uṭṭun n tfaturt: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Wali tafaṭurt-ik·im: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Takarḍa-k n usmad qrib ad temmet"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Takarḍa n usmad i tesseqdaceḍ akken ad txellṣeḍ %(productName)s qrib ad temmet."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Akken ur tḥebbes ara tenfiwt-ik, ttxil <a href=\"%(updateBillingUrl)s\"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Suref-aɣ, nesɛa uguren akked lexlaṣ-ik"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "Nemmuger-d ugur akked lexlaṣ-ik aneggaru n %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n lexlaṣ iɛedda-tt wakud."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Tanemmirt imi tulseḍ ajerred ɣer %(productName)s!"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili d %(invoiceTotal)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad imuynet s wudem awurman yal tallit n ufetter anagar ma "
-"tferneḍ ad tesfesxeḍ."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Ay iseqdac ɛzizen %(productName)s,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "S tumert,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "Tarbaεt %(productName)s"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Tanemmirt imi telliḍ d ameltaɣ!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Nnermes-d lexlaṣ-ik anaggaru i %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Tanemmirt ɣef uleqqem!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Yedda lqem-ik akken iwata seg %(productNameOld)s ɣer %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Isteqsiyen ɣer imultaɣ-ik·im? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Tesɛiḍ isteqsiyen ɣef yijerriden-ik•im? Tarbaɛt-nneɣ n tallelt a-tt-an da ad ak•am-d-tefk afus: "
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "D kečč i d-yessutren tuqqna agi?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Ma yella ih, hattan tengalt n tsiregt i tesriḍ:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-t-id</a>."
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Ansuf ɣer twacult Firefox"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Kra n wussan aya terniḍ amiḑan Firefox, dacu mazal ur t-tsentmeḍ ara."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "Sentem imayl:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Aqla-k da?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Imalas aya, terniḍ amiḍan Firefox, maca ur ǧǧin tsentmeḍ-t. Ihi aql-aɣ netqelleq."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Rmed tawacult n yifarisen Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ, bdu s:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "I ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi seg yibenk agi:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Sentem tuqqna"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Ma ih, att-a tengalt n usenqed:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Ad immet deg 5 n tseddatin."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Senqed imayl amezwaru"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Asuter i usnifel n umiḍan tettwag seg ibenk agi:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Mi yedda usenqeḍ, tzemreḍ ad tesnifleḍ amiḍan deg ibenk-a am tirna n tansa n imayl tis snat."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Senqed imayl: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Senqed imayl wi sin"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Tdda tuttra i wseqdec n %(email)s am tansa n imayl tis snat si umiḍan-agi n Firefox:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Ticki ittwasenqed, tansa-yagi ad s-yaweḍ isentam akked ilγa n tγellist."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Seqdec tangalt-a n usenqed:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Aya ad yemmet deg 5 n tesdatin. Ticki ittwasenqed, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "D kečč i d-yessutren ajerred-agi?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "Ma yella ih, seqdec tangalt-a n usenqed deg tferkit-ik·im n usekles:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "Theggaḍ, Sbadu, Mtawi"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Ini-yaq-d ma yella tremseḍ-d izen-agi udiq ak-d-nefk afus deg usebded akked umtawi n Firefox ɣer ibenkan inek meṛṛa, ad nebdu si:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Neɣ, sebded deg <a %(desktopLinkAttributes)s > yibenk-nniḍen n tnarit.</a>"
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Neɣ, sebded ɣef <a %(cadLinkAttributes)s>yibenk-nniḍen</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt-agi, ihi <a %(passwordChangeLinkAttributes)s>snifel awal-inek uffir.</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Ugar n telɣut, rzu ɣer <a %(supportLinkAttributes)s>Tallalt n Mozilla</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer umiḍan inek Firefox, yessefk ad tesnifleḍ awal inek uffir tura yakan seg %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt agi, ihi <a %(resetLinkAttributes)s>snifel awal inek uffir</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "Tansa IP: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Sefrek amiḍan:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "Talqayt n uxelleṣ:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Takarḍa %(cardType)s tettfak s %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Tasertit tabaḍnit n Mozilla"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Tiwtilin n useqdec n Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Tremseḍ-d izen-a acku %(email)s igber amiḍan Firefox daɣen tjerrdeḍ ɣer umulteɣ n %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Teṭṭfeḍ imayl-a acku %(email)s ɣur-s amiḍan n Firefox yerna tjerrdeḍ ɣer waṭas n yifuras."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Sefrek iɣewwaṛen n umiḍan-ik Firefox s tirza ɣer <a %(accountSettingsLinkAttributes)s>usebter n umiḍan-ik</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Tiwtilin akked tsertit n usefsex"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Ales armad n ujerred"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Sefsex ajerred"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Sefsex ijerriden"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Aleqqem n telɣut n ufter"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Usḍif"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Tabaḍnit"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Tiwtilin akked tsertit n usefsex:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Tasertit n tbaḍnit:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Sefsex ajerred:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Sefsex ijerriden:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Aleqqem n telɣut n ufter:"
-
-#: lib/senders/email.js:348
+#: lib/senders/email.js:345
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s di %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:350
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s di %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:376
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:383
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:388
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (ahat)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:393
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (ahat)"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:554
 msgid "Finish creating your account"
 msgstr "Fak timerna n umiḍan-ik"
 
-#: lib/senders/email.js:588 lib/senders/email.js:725
+#: lib/senders/email.js:555 lib/senders/email.js:690
 msgid "Confirm email"
 msgstr "Sentem imayl"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:622
 msgid "Verification code: %(code)s"
 msgstr "Tangalt n usenqed: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:670
 msgid "Reminder: Finish creating your account"
 msgstr "Asmekti: Fak timerna n umiḍan-ik"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:672
 msgid "Final reminder: Activate your account"
 msgstr "Asmekti aneggaru: Rmed amiḍan-ik"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:723
 msgid "Reminder: Finish setting up your account"
 msgstr ""
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:725
 msgid "Final reminder: Setup your account"
 msgstr ""
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:767 lib/senders/email.js:1922
 msgid "Create a password"
 msgstr "Rnu awal uffir"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:803
 msgid "Account authorization code"
 msgstr "Tangalt n tsiregt n umiḍan"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:874
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Sentem tuqqna tamaynut ɣer %(clientName)s"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:877
+msgid "Confirm sign-in"
+msgstr "Sentem tuqqna"
+
+#: lib/senders/email.js:921
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Tangalt n tuqqna i %(serviceName)s"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:988
 msgid "Confirm primary email"
 msgstr "Sentem tansa tagejdant"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:989 lib/senders/email.js:1050
 msgid "Verify email"
 msgstr "Seqed tansa-inek imayl"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1049
 msgid "Confirm secondary email"
 msgstr "Sentem tansa tis snat"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1107
 msgid "Reset your password"
 msgstr "Wennez awal uffir-ik"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1108
+msgid "Create new password"
+msgstr "Sekcem awal uffir amaynut"
+
+#: lib/senders/email.js:1151 lib/senders/email.js:1220
 msgid "Password updated"
 msgstr "Awal uffir yettuleqqem"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1191
 msgid "Suspicious activity detected"
 msgstr "Armud anida yella ccek yettwaf"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1258
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1259 lib/senders/email.js:1310 lib/senders/email.js:1400 lib/senders/email.js:1436 lib/senders/email.js:1472 lib/senders/email.js:1506 lib/senders/email.js:1551
+#: lib/senders/email.js:1596 lib/senders/email.js:1641 lib/senders/email.js:1736 lib/senders/email.js:1784
 msgid "Manage account"
 msgstr "Sefrek amiḍan"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1309
+msgid "New sign-in to %(clientName)s"
+msgstr "Tuqqna tamaynut ɣer %(clientName)s"
+
+#: lib/senders/email.js:1348
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1353
+msgid "Set up next device"
+msgstr "Sbadu ibenk-nniḍen"
+
+#: lib/senders/email.js:1399
+msgid "Secondary email added"
+msgstr "Imay wis sin ittwarna"
+
+#: lib/senders/email.js:1435
 msgid "Primary email updated"
 msgstr "Imayl amezwaru ittuleqqem"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1471
+msgid "Secondary email removed"
+msgstr "Imay wis sin ittwakkes"
+
+#: lib/senders/email.js:1505
+msgid "Two-step authentication enabled"
+msgstr "Asesteb s snat n tarrayin yermed"
+
+#: lib/senders/email.js:1550
 msgid "Two-step authentication is off"
 msgstr ""
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1595
+msgid "New recovery codes generated"
+msgstr "Tiririt tamaynut n tengalin timaynutin teḍra-d"
+
+#: lib/senders/email.js:1640
 msgid "Recovery code used"
 msgstr "Tangalt n usellek tettwaseqdec"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1698
 msgid "1 recovery code remaining"
 msgstr "Qqiment-d 1 n tigalin n usellek"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1700
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s tigalin n usellek id-yeqqimen"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1703
 msgid "Generate codes"
 msgstr "Sirew tingalin"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1735
+msgid "Account recovery key generated"
+msgstr "Tasarutt n tririt n umiḍan tettusirew"
+
+#: lib/senders/email.js:1783
+msgid "Account recovery key removed"
+msgstr "Tasarutt n tririt n umiḍan tettwakkes"
+
+#: lib/senders/email.js:1831
 msgid "Password updated using recovery key"
 msgstr "Awal uffir ibeddel s tsarut n tririt"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1832
 msgid "Create new recovery key"
 msgstr "Rnu tasarutt n tririt tamaynut"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1925
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr ""
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1999
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Tleqqmeḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2080
 msgid "You have switched to %(productNameNew)s"
 msgstr "Tbeddleḍ ɣer %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2146
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Takarḍa n usmad i %(productName)s qrib ad temmet"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2160
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Takarḍa n usmad n yijerriden-ik•im qrib ad temmet"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2211
 msgid "Payment information update required for %(productName)s"
 msgstr "Aleqqem n telɣut n lexlaṣ tettusra i %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2227
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Aleqqem n telɣut n lexlaṣ tettusra i yimultaɣ n Mozilla"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2273
 msgid "%(productName)s payment failed"
 msgstr "Axelleṣ n %(productName)s yecceḍ"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2324 lib/senders/email.js:2389 lib/senders/email.js:2450
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Ajerred-ik ɣer %(productName)s yefsex"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2507
 msgid "%(productName)s subscription reactivated"
 msgstr "Ajerred n %(productName)s yettwarmed"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2563
 msgid "%(productName)s automatic renewal notice"
 msgstr "Alɣu allus awurman n %(productName)s"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2643
 msgid "%(productName)s payment received"
 msgstr "Lexlaṣ n %(productName)s yettwarmes"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2735 lib/senders/email.js:2818
 msgid "%(productName)s payment confirmed"
 msgstr "Lexlaṣ n %(productName)s yettwasentem"
 
-#: lib/senders/email.js:2994
+#: lib/senders/email.js:2902
+msgid "Welcome to %(productName)s"
+msgstr "Ansuf ɣer %(productName)s"
+
+#: lib/senders/email.js:2903
 msgid "Download %(productName)s"
 msgstr "Sader %(productName)s"
 
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:2929
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:2930
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Asmekti aneggaru: Asebded ummid n umtawa"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:2933
+msgid "Here's your reminder to sync devices."
+msgstr "Ha-t-a usmekti-inek/inem i umtawi n yibenkan."
+
+#: lib/senders/email.js:2934
+msgid "Last reminder to sync devices!"
+msgstr "Asmekti aneggaru i umtawi n yibenkan!"
+
+#: lib/senders/email.js:2937
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
+"Ilaq ad ilin ssin i wemtawi. Amtawi n ufecku-nniḍen akked firefox ad yeḥrez ticraḍ n isebtar, awalen uffiren akked isefka-nniḍen n Firefox di yal taswiɛt d yal amkan deg ara tesqedceḍ Firefox."
+
+#: lib/senders/email.js:2940
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Amtawi n yibenk-nniḍen s tbaḍnit n Firefox ad iǧǧ ticraḍ-ik•im n yisebtar awalen uffiren d yisefka-nniḍen n Firefox d widak kan, ur ttbeddilen ara anida tebɣuḍ tesqedceḍ Firefox."
+
+#: lib/senders/email.js:2944
 msgid "Sync another device"
 msgstr "Mtawi ibenk-nniḍen"
 
@@ -1130,6 +368,495 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Sader aneggaru"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Ma yella ur tessadreḍ ara yakan %(productName)s, bdu aseqdec n tmahilin i yellan deg ujerred-ik:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Isteqsiyen ɣer ujerred-ik? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Qqiment-d kan kra n tigalin n usellek"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Sirew tingalin:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Yettusra ubeddel n wawal uffir"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik(im) n Firefox. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik(im) n Firefox, nsens ibenkan akk n umiḍan-ik(im). Ad ak(am)-nsuter ad "
+#~ "tesnifleḍ awal-ik(im) uffir i uḍman n tɣellist."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Ɛawed qqen ɣer yibenk neɣ ɣer tkebbanit anida i tseqdaceḍ amiḍan-ik/im Firefox syen ḍfer imecwaṛen ara ak(am)-d-yettunefken."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt."
+
+#~ msgid "Best,"
+#~ msgstr "S tegmatt,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Tarbaɛt n imiḍanen n Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Awal uffir yettusnifel akken iwata"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Awal uffir n umiḍan inek Firefox yettusnifel akken iwata seg ibenkan-agi:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Wagi d izen imayl awurman; ma yella ur tesnifled ara awal inek uffir deg umiḍan Firefox, yessefk ad twennzeḍ tura yakan di %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Awal uffir n umiḍan inek ibeddel"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Ad tesreḍ asekcem n wawal uffir inek amaynut deg ibenken nniḍen akken ad tkemmled amtawi."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Ma ur tbeddileḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura di %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Awal uffir n umiḍa-ik/im ittuwennez s tsarutt n tririt"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Twennzeḍ akken iwata awal uffir-ik/im s tsarutt n tririt seg yibenk-agi:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Nesra asirew n tsarutt n tririt tamaynut."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Rnu tasarutt n tririt tamaynut:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Ugar n telɣut, ddu ɣer %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Ma da yella mačči d kečč, <a %(revokeAccountRecoveryLinkAttributes)s>senned da:</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Ma mačči d kečč/kem i ixedmen aya, ḥwi tasarutt."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Tremdeḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Tingalin n tɣellist seg usnas-ik n usesteb ad yili yal tuqqna tamaynut."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tangalt n tɣelllist n usnas-ik n usesteb ad ak-yettusuter yal tuqqna."
+
+#~ msgid "New primary email"
+#~ msgstr "Imayl amezwaru amaynut"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Asnifel n %(email)s am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik Firefox, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked "
+#~ "usentem n tuqna."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Tangalt n tririt tettwaseqdec yakan"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Teččiḍ tangalt n tririt"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox s useqdec n ibenk-agi:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr amiḍan-ik/im."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Tekkseḍ akken iwata amiḍan n tririt seg umiḍan-ik Firefox seg ibenk-agi:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Tekkseḍ akken iwata %(secondaryEmail)s imayl-ik asnawan seg umiḍan-ik Firefox. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Asesteb s snat n tarrayin yensa"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin ɣef umiḍan-ik Firefox Account seg yibenk-agi:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Tingalin n tririt uir zgint laqent yal tuqqna."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik Firefox. Tingalin n tɣelllist ur laqent ara yal atuqqna."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Amiḍan n Firefox yettwasenqed. Qrib ad tsaliḍ."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Amtawi i d-iteddun, gar yibenkan-inek/inem!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n Firefox d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Tesɛiḍ isteqsiyen? Rzu ɣer %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Tesneqdeḍ akken iwata %(secondaryEmail)s imayl-ik asnawan i umiḍan-ik Firefox. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl. "
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Tesriḍ tulsa uwennez n wawal uffir inek?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Neḥzen imi tṛuḥeḍ"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Tekkseḍ tineggura-a amiḍan-ik Firefox. Ihi, nsefsex ajerred-ik ɣer %(productName)s. Lexlaṣ-ik aneggaru n %(invoiceDateOnly)s yettwag deg %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a %(cancellationSurveyLinkAttributes)s>tefrant-a wezzilen</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:"
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Uṭṭun n tfaturt: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Yettwafter; %(invoiceTotal)s deg %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Nsefsex ajerred-ik/im %(productName)s. Axelleṣ-ik/im aneggaru n $%(invoiceTotal)s yeḍra-d deg %(invoiceDateOnly)s. Ameẓlu-ik/im ad ikemmel alamma d taggar n twala n ufter, win ara yilin deg "
+#~ "%(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Tbeddleḍ akken iwata seg %(productNameOld)s ɣer %(productNameNew)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ %(productNameNew)s, ad k-id-yaweḍ yimayl s tinaḍin ara d-tessadreḍ."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Amulteɣ-inek·inem yettusefsex"
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Tanemmirt ɣef ujerred ɣer %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Ad tremseḍ imayl-nniden ɣef iwellihen n usader, akken daɣen ad tebduḍ aseqdec n %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Uṭṭun n tfaturt: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Yettwafter %(invoiceTotal)s deg %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Wali tafaṭurt-ik·im</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Tafaturt i d-iteddun: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Uṭṭun n tfaturt: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Wali tafaṭurt-ik·im: %(invoiceLink)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Takarḍa-k n usmad qrib ad temmet"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Takarḍa n usmad i tesseqdaceḍ akken ad txellṣeḍ %(productName)s qrib ad temmet."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Akken ur tḥebbes ara tenfiwt-ik, ttxil <a href=\"%(updateBillingUrl)s\"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Suref-aɣ, nesɛa uguren akked lexlaṣ-ik"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Nemmuger-d ugur akked lexlaṣ-ik aneggaru n %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant  n lexlaṣ iɛedda-tt wakud."
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ"
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Tanemmirt imi tulseḍ ajerred ɣer %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili d %(invoiceTotal)s deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad imuynet s wudem awurman yal tallit n ufetter anagar "
+#~ "ma tferneḍ ad tesfesxeḍ."
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Ay iseqdac ɛzizen %(productName)s,"
+
+#~ msgid "Sincerely,"
+#~ msgstr "S tumert,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "Tarbaεt %(productName)s"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Tanemmirt imi telliḍ d ameltaɣ!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Nnermes-d lexlaṣ-ik anaggaru i %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Tanemmirt ɣef uleqqem!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Yedda lqem-ik akken iwata seg %(productNameOld)s ɣer %(productNameNew)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Isteqsiyen ɣer imultaɣ-ik·im? <a href=\"%(subscriptionSupportUrl)s\">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Tesɛiḍ isteqsiyen ɣef yijerriden-ik•im? Tarbaɛt-nneɣ n tallelt a-tt-an da ad ak•am-d-tefk afus: "
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "D kečč i d-yessutren tuqqna agi?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Ma yella ih, hattan tengalt n tsiregt i tesriḍ:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a %(reportSignInLinkAttributes)s>mmel-aɣ-t-id</a>."
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Ansuf ɣer twacult Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Kra n wussan aya terniḍ amiḑan Firefox, dacu mazal ur t-tsentmeḍ ara."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Sentem imayl:"
+
+#~ msgid "Still there?"
+#~ msgstr "Aqla-k da?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Imalas aya, terniḍ amiḍan Firefox, maca ur ǧǧin tsentmeḍ-t. Ihi aql-aɣ netqelleq."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Rmed tawacult n yifarisen Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ, bdu s:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Sentem amiḍan-ik daɣen faṛes tagnit seg Firefox sekra wanida i teqqneḍ."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "I ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi seg yibenk agi:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Ma ih, att-a tengalt n usenqed:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Ad immet deg 5 n tseddatin."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Senqed imayl amezwaru"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Asuter i usnifel n umiḍan tettwag seg ibenk agi:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Mi yedda usenqeḍ, tzemreḍ ad tesnifleḍ amiḍan deg ibenk-a am tirna n tansa n imayl tis snat."
+
+#~ msgid "Verify email: "
+#~ msgstr "Senqed imayl: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Senqed imayl wi sin"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Tdda tuttra i wseqdec n %(email)s am tansa n imayl tis snat si umiḍan-agi n Firefox:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Ticki ittwasenqed, tansa-yagi ad s-yaweḍ isentam akked ilγa n tγellist."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Seqdec tangalt-a n usenqed:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Aya ad yemmet deg 5 n tesdatin. Ticki ittwasenqed, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "D kečč i d-yessutren ajerred-agi?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Ma yella ih, seqdec tangalt-a n usenqed deg tferkit-ik·im n usekles:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Theggaḍ, Sbadu, Mtawi"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Ini-yaq-d ma yella tremseḍ-d izen-agi udiq ak-d-nefk afus deg usebded akked umtawi n Firefox ɣer ibenkan inek meṛṛa, ad nebdu si:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Ticki yentem, ak-d-mudd afus deg usebded akked tuqqna n Firefox xaṛsum ɣef yiwen n yibenk nniḍen."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Neɣ, sebded deg <a %(desktopLinkAttributes)s > yibenk-nniḍen n tnarit.</a>"
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Neɣ, sebded ɣef <a %(cadLinkAttributes)s>yibenk-nniḍen</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt-agi, ihi <a %(passwordChangeLinkAttributes)s>snifel awal-inek uffir.</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Ugar n telɣut, rzu ɣer <a %(supportLinkAttributes)s>Tallalt n Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer umiḍan inek Firefox, yessefk ad tesnifleḍ awal inek uffir tura yakan seg %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Wagi d izen imayl awurman; ma yella ur tessirged ara tigawt agi, ihi <a %(resetLinkAttributes)s>snifel awal inek uffir</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Tansa IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Sefrek amiḍan:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Talqayt n uxelleṣ:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Takarḍa %(cardType)s tettfak s %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Tasertit tabaḍnit n Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Tiwtilin n useqdec n Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Tremseḍ-d izen-a acku %(email)s igber amiḍan Firefox daɣen tjerrdeḍ ɣer umulteɣ n %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Teṭṭfeḍ imayl-a acku %(email)s ɣur-s amiḍan n Firefox yerna tjerrdeḍ ɣer waṭas n yifuras."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Sefrek iɣewwaṛen n umiḍan-ik Firefox s tirza ɣer <a %(accountSettingsLinkAttributes)s>usebter n umiḍan-ik</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Tiwtilin akked tsertit n usefsex"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Ales armad n ujerred"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Sefsex ajerred"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Sefsex ijerriden"
+
+#~ msgid "Update billing information"
+#~ msgstr "Aleqqem n telɣut n ufter"
+
+#~ msgid "Legal"
+#~ msgstr "Usḍif"
+
+#~ msgid "Privacy"
+#~ msgstr "Tabaḍnit"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Tiwtilin akked tsertit n usefsex:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Tasertit n tbaḍnit:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Sefsex ajerred:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Sefsex ijerriden:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Aleqqem n telɣut n ufter:"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "

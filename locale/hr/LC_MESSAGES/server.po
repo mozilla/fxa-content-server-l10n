@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-02-17 22:07+0000\n"
 "PO-Revision-Date: 2021-07-27 16:40+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,1033 +14,273 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Tvoj podsjetnik za sinkronizaciju uređaja."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
-"Za sinkronizaciju je potrebno dvoje. Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Zadnji podsjetnik za sinkronizaciju uređaja!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Ako %(productName)s još nije preuzet, krenimo koristiti sve značajke uključene u tvojoj pretplati:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Pitanja o tvojoj pretplati? Naš <a href=\"%(subscriptionSupportUrl)s\">tim za podršku</a> spreman je pomoći."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Preostao je mali broj kodova za oporavak"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Generiraj kodove:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Nova prijava na %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Potrebna promjena lozinke"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"Otkrili smo sumnjivo ponašanje na tvom Firefox računu. Da bismo spriječili neovlašteni pristup tvom Firefox računu, prekinuli smo vezu sa svim uređajima na tvom računu i iz predostrožnosti "
-"zahtijevamo da promijeniš lozinku."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj Firefox račun i slijedite korake koji će ti biti predstavljeni."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "Lijep pozdrav,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Tim za Firefox račune"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Lozinka je uspješno promijenjena"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Zaporka tvog računa za Firefox uspješno je promijenjena na sljedećem uređaju:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Ovo je automatska poruka; ako niste promijenili lozinku za Vaš račun za Firefox, odmah ju ponovno postavite na %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Lozinka tvog računa je promijenjena"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Za nastavak sinkronizacije morat ćeš unijeti novu lozinku na drugim uređajima."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Za nastavak sinkronizacije morat ćeš unijeti novu lozinku na drugim uređajima."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Ako ju niste promijenili, ponovno postavite lozinku sada na% (resetLink) s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Lozinka tvog računa ponovno je postavljena pomoću ključa za oporavak"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Tvoja je zaporka uspješno ponovno postavljena koristeći ključ za oporavak na sljedećem uređaju:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Morat ćeš generirati novi ključ za oporavak."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Stvori novi ključ za oporavak:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Za više informacija, posjeti %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Stvoren je ključ za oporavak računa"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun koristeći sljedeći uređaj:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Ako ovo nisi bila/bio ti, <a %(revokeAccountRecoveryLinkAttributes)s>klikni ovdje.</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun sa sljedećeg uređaja:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Ako ovo nisi bila/bio ti, opozovi ključ."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Dvofaktorska autentifikacija je omogućena"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Uspješno je omogućena autentikacija u dva koraka na tvom Firefox računu sa sljedećeg uređaja:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Uspješno je omogućena autentifikaciju u dva koraka na tvom Firefox računu. Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Nova primarna adresa e-pošte"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Primarna adresa e-pošte uspješno je promijenjena u %(email)s. Ova adresa je sada tvoje korisničko ime za prijavu na tvoj Firefox račun, te adresa na koju ćeš primati sigurnosne obavijesti i potvrde "
-"prijave."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Kôd za oporavak je iskorišten"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Uspješno je iskorišten jedan kôd za oporavak na sljedećem uređaju:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Iskorišteni kodovi za oporavak"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Novi kodovi za oporavak su stvoreni"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Uspješno su stvoreni novi kodove za oporavak na sljedećem uređaju:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Ključ za oporavak računa je uklonjen"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen pomoću sljedećeg uređaja:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Ovaj ključ za oporavak više se ne može koristiti za oporavak tvog računa."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen sa sljedećeg uređaja:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Sekundarna adresa e-pošte je uklonjena"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Adresa %(secondaryEmail)s uspješno je uklonjena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave više neće stizati na tu adresu."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Dvofaktorska autentifikacija deaktivirana"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Uspješno si deaktivirao/la dvofaktorsku autentifikaciju na tvom Firefox računu sa sljedećeg uređaja:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Dvofaktorska provjera autentičnosti uspješno je onemogućena za tvoj Firefox račun. Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Račun za Firefox je potvrđen. Skoro smo gotovi."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "Sljedeća sinkronizacija između tvojih uređaja!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Sinkronizacija privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima na svim tvojim uređajima."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Postavi sljedeći uređaj"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Imaš pitanja? Posjeti %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Dodana je sekundarna adresa e-pošte"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Adresa %(secondaryEmail)s uspješno je potvrđena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave sada će biti dostavljane na obje adrese e-pošte."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Moraš ponovo postaviti lozinku?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "U sljedećih sat vremena klikni gumb za stvaranje nove lozinke. Zahtjev je stigao sa sljedećeg uređaja:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Stvori novu lozinku"
-
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Hvala na odabiru Firefoxa! Firefox za mobilne uređaje možeš instalirati ovdje: %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Žao nam je što odlaziš"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Tvoj Firefox račun nedavno je izbrisan. Kao rezultat toga, otkazali smo tvoju pretplatu na %(productName)s. Tvoja konačna uplata %(invoiceTotal)s plaćena je %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Pomogni nam u poboljšanju naših usluga ispunjavanjem ove <a %(cancellationSurveyLinkAttributes)s>kratke ankete</a>."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Dobro došli na %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr ""
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Otkazali smo tvoju pretplatu na %(productName)s. Tvoja konačna uplata od %(invoiceTotal)s plaćena je %(invoiceDateOnly)s. Tvoja usluga bit će dostupna do kraja trenutnog obračunskog razdoblja, koji "
-"je %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Uspješno si prešla/o s %(productNameOld)s na %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Ako postoji novi softver koji se mora instalirati kako bi se koristio %(productNameNew)s, dobit ćeš zasebni e-mail s uputama za preuzimanje."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Tvoja pretplata je prekinuta"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr ""
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Zahvaljujemo na pretplati na %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Tvoja uplata trenutno se obrađuje i može potrajati do četiri radna dana."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Dobit ćeš zasebni e-mail s uputama za preuzimanje o tome kako početi koristiti %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Broj računa: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Naplaćeno %(invoiceTotal)s, %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Prikaži tvoj račun</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Sljedeći račun: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Broj računa: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Prikaži račun: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Tvoja će kreditna kartica uskoro isteći"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Kreditna kartica koju koristiš za plaćanje %(productName)sa uskoro će isteći."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Za sprečavanje prekida korištenja usluge, <a href=\"%(updateBillingUrl)s\">aktualiziraj podatke naplate</a> što je prije."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Nažalost, imamo probleme s tvojom uplatom"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "Imali smo problem s tvojom zadnjom uplatom za %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Možda je tvoja kreditna kartica istekla ili je tvoj trenutačni način plaćanja zastario."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Oprosti, imamo problem s tvojom metodom plaćanja"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "Otkrili smo problem s tvojom metodom plaćanja za %(productName)s."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Zahvaljujemo na ponovnoj pretplati na %(productName)s!"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr "Ciklus naplate i plaćanje ostat će isti. Sljedeće opterećenje iznosi %(invoiceTotal)s na %(nextInvoiceDateOnly)s. Tvoja će se pretplata automatski obnoviti, ukoliko je ne otkažeš."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "Tvoja će se pretplata uskoro obnoviti"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Poštovani %(productName)s-kupče,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "S poštovanjem,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "%(productName)s tim"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Hvala na tvojoj pretplati!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Primili smo tvoju najnoviju uplatu za %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Hvala na nadogradnji!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Uspješno si nadogradio/la s %(productNameOld)s na %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Kreditna kartica koju koristiš za plaćanje sljedećih pretplata uskoro isteče."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Imaš pitanja o tvojim pretplatama? Naš tim za podršku ti može pomoći:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "Otkrili smo problem s tvojom metodom plaćanja za sljedeće pretplate."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "Je li ovo tvoja prijava?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Ako da, ovo je potrebni autorizacijski kôd:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću <a %(reportSignInLinkAttributes)s>prijave problema.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Dobro došao/Dobro došla u obitelj Firefox"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Prije nekoliko dana stvoren je tvoj Firefox račun, ali nije potvrđen."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Potvrdi sada i nabavi tehnologiju koja se bori za tvoju privatnost, štiti je, te pruža praktično znanje i poštovanje koje zaslužuješ."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "Potvrdi adresu e-pošte:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Još si tamo?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Prije gotovo tjedan dana stvorio/la si Firefox račun, ali ga nikada nisi potvrdio/la. To nas zabrinjava."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Potvrdi ovu e-mail adresu za aktiviranje tvog računa i javi nam da si dobro."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Aktiviraj obitelj proizvoda Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjestu prijave, počevši od:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjestu prijave."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Za dodatnu sigurnost, potvrdi ovu prijavu sa sljedećeg uređaja:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Potvrdi prijavu"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Ako je odgovor da, ovo je kôd za potvrdu:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Istječe za 5 minuta."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Potvrdi primarnu adresu e-pošte"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Nakon potvrde, promjene računa poput dodavanja sekundarne e-mail adrese postat će moguće s ovog uređaja."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Potvrdi adresu e-pošte:"
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Potvrdi sekundarnu adresu e-pošte"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Zahtjev za korištenje %(email)s kao sekundarne adrese e-pošte podnijet je sa sljedećeg Firefox računa:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Nakon potvrde, na ovu će adresu početi pristizati sigurnosne obavijesti i potvrde."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Koristi ovaj kôd za potvrdu:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "Je li ovo tvoja prijava?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr ""
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "Priprema, pozor, sinkroniziraj"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Potvrdi primanje ovog e-maila i pomoći ćemo ti instalirati i sinkronizirati Firefox na svim tvojim uređajima počevši od:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Nakon potvrde pomoći ćemo ti instalirati i povezati Firefox na barem još jedan uređaj."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Ili instaliraj na <a %(desktopLinkAttributes)s>jedan drugi desktop uređaj</a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Ili instaliraj na <a %(cadLinkAttributes)s>jedan drugi uređaj</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Ovo je automatski e-mail; ako nisi autorizirao/la ovu radnju, <a %(passwordChangeLinkAttributes)s>promijeni lozinku</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Za više informacija posjeti stranicu <a %(supportLinkAttributes)s>Mozilla podrška</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Ovo je automatski e-mail; ako nisi dodao/la novi uređaj tvom Firefox računu, promijeni lozinku na %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Ovo je automatski e-mail; ako nisi odobrio/la ovu radnju, <a %(resetLinkAttributes)s>obnovi svoju lozinku</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "IP adresa: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Upravljaj računom:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr ""
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "%(cardType)s kartica ističe za %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Mozillina politika privatnosti"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Uvjeti pružanja usluge Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se prijavio/la za %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se pretplatio na više proizvoda."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Upravljaj postavkama tvog Firefox računa na <a %(accountSettingsLinkAttributes)s>stranici računa</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Uvjeti i politika otkazivanja"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Ponovno aktiviranje pretplate"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Otkaži pretplatu"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Otkaži pretplate"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Aktualiziraj podatke naplate"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Pravno"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Privatnost"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Uvjeti i pravila otkazivanja:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Napomena o privatnosti:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Otkaži pretplatu:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Otkaži pretplate:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Aktualiziraj podatke naplate:"
-
-#: lib/senders/email.js:348
+#: lib/senders/email.js:345
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:350
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:376
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:383
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:388
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:393
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (procijenjeno)"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:554
 msgid "Finish creating your account"
 msgstr "Završi stvaranje računa"
 
-#: lib/senders/email.js:588 lib/senders/email.js:725
+#: lib/senders/email.js:555 lib/senders/email.js:690
 msgid "Confirm email"
 msgstr "Potvrdi adresu e-pošte"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:622
 msgid "Verification code: %(code)s"
 msgstr "Verifikacijski kôd: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:670
 msgid "Reminder: Finish creating your account"
 msgstr "Podsjetnik: Dovrši otvaranje tvog računa"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:672
 msgid "Final reminder: Activate your account"
 msgstr "Konačni podsjetnik: Aktiviraj svoj račun"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:723
 msgid "Reminder: Finish setting up your account"
 msgstr ""
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:725
 msgid "Final reminder: Setup your account"
 msgstr ""
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:767 lib/senders/email.js:1922
 msgid "Create a password"
 msgstr ""
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:803
 msgid "Account authorization code"
 msgstr "Kod za autorizaciju računa"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:874
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potvrdi novu prijavu na %(clientName)s"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:877
+msgid "Confirm sign-in"
+msgstr "Potvrdi prijavu"
+
+#: lib/senders/email.js:921
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Kod za prijavu za %(serviceName)s"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:988
 msgid "Confirm primary email"
 msgstr "Potvrdi primarnu e-mail adresu"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:989 lib/senders/email.js:1050
 msgid "Verify email"
 msgstr "Potvrdi e-poštu"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1049
 msgid "Confirm secondary email"
 msgstr "Potvrdi sekundarnu e-poštu"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1107
 msgid "Reset your password"
 msgstr "Ponovo postavi svoju lozinku"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1108
+msgid "Create new password"
+msgstr "Stvori novu lozinku"
+
+#: lib/senders/email.js:1151 lib/senders/email.js:1220
 msgid "Password updated"
 msgstr "Lozinka aktualizirana"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1191
 msgid "Suspicious activity detected"
 msgstr "Otkrivena je sumnjiva aktivnost"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1258
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1259 lib/senders/email.js:1310 lib/senders/email.js:1400 lib/senders/email.js:1436 lib/senders/email.js:1472 lib/senders/email.js:1506 lib/senders/email.js:1551
+#: lib/senders/email.js:1596 lib/senders/email.js:1641 lib/senders/email.js:1736 lib/senders/email.js:1784
 msgid "Manage account"
 msgstr "Upravljanje računom"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1309
+msgid "New sign-in to %(clientName)s"
+msgstr "Nova prijava na %(clientName)s"
+
+#: lib/senders/email.js:1348
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Račun je potvrđen. Za dovršavanje postavljanja, sinkroniziraj jedan drugi uređaj"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1353
+msgid "Set up next device"
+msgstr "Postavi sljedeći uređaj"
+
+#: lib/senders/email.js:1399
+msgid "Secondary email added"
+msgstr "Dodana je sekundarna adresa e-pošte"
+
+#: lib/senders/email.js:1435
 msgid "Primary email updated"
 msgstr "Primarna e-mail adresa aktualizirana"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1471
+msgid "Secondary email removed"
+msgstr "Sekundarna adresa e-pošte je uklonjena"
+
+#: lib/senders/email.js:1505
+msgid "Two-step authentication enabled"
+msgstr "Dvofaktorska autentifikacija je omogućena"
+
+#: lib/senders/email.js:1550
 msgid "Two-step authentication is off"
 msgstr ""
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1595
+msgid "New recovery codes generated"
+msgstr "Novi kodovi za oporavak su stvoreni"
+
+#: lib/senders/email.js:1640
 msgid "Recovery code used"
 msgstr "Iskorišten kôd za oporavak"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1698
 msgid "1 recovery code remaining"
 msgstr "1 kod za obnovu preostao"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1700
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s koda za obnovu preostalo"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1703
 msgid "Generate codes"
 msgstr "Generiraj kodove"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1735
+msgid "Account recovery key generated"
+msgstr "Stvoren je ključ za oporavak računa"
+
+#: lib/senders/email.js:1783
+msgid "Account recovery key removed"
+msgstr "Ključ za oporavak računa je uklonjen"
+
+#: lib/senders/email.js:1831
 msgid "Password updated using recovery key"
 msgstr "Lozinka je aktualizirana pomoću ključa za obnovu"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1832
 msgid "Create new recovery key"
 msgstr "Stvori novi ključ za obnovu"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1925
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr ""
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1999
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Nadogradio/la si na %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2080
 msgid "You have switched to %(productNameNew)s"
 msgstr "Prebacio/la si se na %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2146
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Rok kreditne kartice za %(productName)s uskoro istječe"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2160
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Rok kreditne kartice za tvoju pretplatu uskoro istječe"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2211
 msgid "Payment information update required for %(productName)s"
 msgstr ""
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2227
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr ""
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2273
 msgid "%(productName)s payment failed"
 msgstr "Uplata za %(productName)s nije uspjela"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2324 lib/senders/email.js:2389 lib/senders/email.js:2450
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Tvoja pretplata na %(productName)s je otkazana"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2507
 msgid "%(productName)s subscription reactivated"
 msgstr "Pretplata na %(productName)s ponovno je aktivirana"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2563
 msgid "%(productName)s automatic renewal notice"
 msgstr ""
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2643
 msgid "%(productName)s payment received"
 msgstr "Uplata za %(productName)s je primljena"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2735 lib/senders/email.js:2818
 msgid "%(productName)s payment confirmed"
 msgstr "Uplata za %(productName)s je potvrđena"
 
-#: lib/senders/email.js:2994
+#: lib/senders/email.js:2902
+msgid "Welcome to %(productName)s"
+msgstr "Dobro došli na %(productName)s"
+
+#: lib/senders/email.js:2903
 msgid "Download %(productName)s"
 msgstr "Preuzmi %(productName)s"
 
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:2929
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Tvoj prijateljski podsjetnik: kako dovršiti postavljanje sinkronizacije"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:2930
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Posljednji podsjetnik: dovrši postavljanje sinkronizacije"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:2933
+msgid "Here's your reminder to sync devices."
+msgstr "Tvoj podsjetnik za sinkronizaciju uređaja."
+
+#: lib/senders/email.js:2934
+msgid "Last reminder to sync devices!"
+msgstr "Zadnji podsjetnik za sinkronizaciju uređaja!"
+
+#: lib/senders/email.js:2937
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
+"Za sinkronizaciju je potrebno dvoje. Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
+
+#: lib/senders/email.js:2940
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
+
+#: lib/senders/email.js:2944
 msgid "Sync another device"
 msgstr "Sinkroniziraj jedan drugi uređaj"
 
@@ -1126,6 +366,482 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Preuzmi najnoviju"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Ako %(productName)s još nije preuzet, krenimo koristiti sve značajke uključene u tvojoj pretplati:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Pitanja o tvojoj pretplati? Naš <a href=\"%(subscriptionSupportUrl)s\">tim za podršku</a> spreman je pomoći."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Preostao je mali broj kodova za oporavak"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Primijetili smo da ti ponestaju kodovi za oporavak. Razmisli o generiranju novih kodova da bi se izbjegao gubitak pristupa računu."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Generiraj kodove:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Potrebna promjena lozinke"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Otkrili smo sumnjivo ponašanje na tvom Firefox računu. Da bismo spriječili neovlašteni pristup tvom Firefox računu, prekinuli smo vezu sa svim uređajima na tvom računu i iz predostrožnosti "
+#~ "zahtijevamo da promijeniš lozinku."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj Firefox račun i slijedite korake koji će ti biti predstavljeni."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte."
+
+#~ msgid "Best,"
+#~ msgstr "Lijep pozdrav,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Tim za Firefox račune"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Lozinka je uspješno promijenjena"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Zaporka tvog računa za Firefox uspješno je promijenjena na sljedećem uređaju:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Ovo je automatska poruka; ako niste promijenili lozinku za Vaš račun za Firefox, odmah ju ponovno postavite na %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Lozinka tvog računa je promijenjena"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Za nastavak sinkronizacije morat ćeš unijeti novu lozinku na drugim uređajima."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Za nastavak sinkronizacije morat ćeš unijeti novu lozinku na drugim uređajima."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Ako ju niste promijenili, ponovno postavite lozinku sada na% (resetLink) s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Lozinka tvog računa ponovno je postavljena pomoću ključa za oporavak"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Tvoja je zaporka uspješno ponovno postavljena koristeći ključ za oporavak na sljedećem uređaju:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Morat ćeš generirati novi ključ za oporavak."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Stvori novi ključ za oporavak:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Za više informacija, posjeti %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun koristeći sljedeći uređaj:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Ako ovo nisi bila/bio ti, <a %(revokeAccountRecoveryLinkAttributes)s>klikni ovdje.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Uspješno je generiran ključ za oporavak računa za tvoj Firefox račun sa sljedećeg uređaja:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Ako ovo nisi bila/bio ti, opozovi ključ."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Uspješno je omogućena autentikacija u dva koraka na tvom Firefox računu sa sljedećeg uređaja:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Uspješno je omogućena autentifikaciju u dva koraka na tvom Firefox računu. Sigurnosni kodovi iz tvoje aplikacije za provjeru autentičnosti sada će biti potrebni pri svakoj prijavi."
+
+#~ msgid "New primary email"
+#~ msgstr "Nova primarna adresa e-pošte"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Primarna adresa e-pošte uspješno je promijenjena u %(email)s. Ova adresa je sada tvoje korisničko ime za prijavu na tvoj Firefox račun, te adresa na koju ćeš primati sigurnosne obavijesti i "
+#~ "potvrde prijave."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Kôd za oporavak je iskorišten"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Uspješno je iskorišten jedan kôd za oporavak na sljedećem uređaju:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Iskorišteni kodovi za oporavak"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Uspješno su stvoreni novi kodove za oporavak na sljedećem uređaju:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen pomoću sljedećeg uređaja:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Ovaj ključ za oporavak više se ne može koristiti za oporavak tvog računa."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ključ za oporavak tvog Firefox računa uspješno je uklonjen sa sljedećeg uređaja:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Adresa %(secondaryEmail)s uspješno je uklonjena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave više neće stizati na tu adresu."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Dvofaktorska autentifikacija deaktivirana"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Uspješno si deaktivirao/la dvofaktorsku autentifikaciju na tvom Firefox računu sa sljedećeg uređaja:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Dvofaktorska provjera autentičnosti uspješno je onemogućena za tvoj Firefox račun. Sigurnosni kodovi više neće biti potrebni pri svakoj prijavi."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Račun za Firefox je potvrđen. Skoro smo gotovi."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Sljedeća sinkronizacija između tvojih uređaja!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Sinkronizacija privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima na svim tvojim uređajima."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Imaš pitanja? Posjeti %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Adresa %(secondaryEmail)s uspješno je potvrđena kao sekundarna adresa e-pošte za tvoj Firefox račun. Sigurnosne obavijesti i potvrde prijave sada će biti dostavljane na obje adrese e-pošte."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Moraš ponovo postaviti lozinku?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "U sljedećih sat vremena klikni gumb za stvaranje nove lozinke. Zahtjev je stigao sa sljedećeg uređaja:"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Žao nam je što odlaziš"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Tvoj Firefox račun nedavno je izbrisan. Kao rezultat toga, otkazali smo tvoju pretplatu na %(productName)s. Tvoja konačna uplata %(invoiceTotal)s plaćena je %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Pomogni nam u poboljšanju naših usluga ispunjavanjem ove <a %(cancellationSurveyLinkAttributes)s>kratke ankete</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Otkazali smo tvoju pretplatu na %(productName)s. Tvoja konačna uplata od %(invoiceTotal)s plaćena je %(invoiceDateOnly)s. Tvoja usluga bit će dostupna do kraja trenutnog obračunskog razdoblja, "
+#~ "koji je %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Uspješno si prešla/o s %(productNameOld)s na %(productNameNew)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Ako postoji novi softver koji se mora instalirati kako bi se koristio %(productNameNew)s, dobit ćeš zasebni e-mail s uputama za preuzimanje."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Tvoja pretplata je prekinuta"
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Zahvaljujemo na pretplati na %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Tvoja uplata trenutno se obrađuje i može potrajati do četiri radna dana."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Dobit ćeš zasebni e-mail s uputama za preuzimanje o tome kako početi koristiti %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Broj računa: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Naplaćeno %(invoiceTotal)s, %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Prikaži tvoj račun</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Sljedeći račun: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Broj računa: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Prikaži račun: %(invoiceLink)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Tvoja će kreditna kartica uskoro isteći"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Kreditna kartica koju koristiš za plaćanje %(productName)sa uskoro će isteći."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Za sprečavanje prekida korištenja usluge, <a href=\"%(updateBillingUrl)s\">aktualiziraj podatke naplate</a> što je prije."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Nažalost, imamo probleme s tvojom uplatom"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Imali smo problem s tvojom zadnjom uplatom za %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Možda je tvoja kreditna kartica istekla ili je tvoj trenutačni način plaćanja zastario."
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Oprosti, imamo problem s tvojom metodom plaćanja"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Otkrili smo problem s tvojom metodom plaćanja za %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Zahvaljujemo na ponovnoj pretplati na %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr "Ciklus naplate i plaćanje ostat će isti. Sljedeće opterećenje iznosi %(invoiceTotal)s na %(nextInvoiceDateOnly)s. Tvoja će se pretplata automatski obnoviti, ukoliko je ne otkažeš."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Tvoja će se pretplata uskoro obnoviti"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Poštovani %(productName)s-kupče,"
+
+#~ msgid "Sincerely,"
+#~ msgstr "S poštovanjem,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "%(productName)s tim"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Hvala na tvojoj pretplati!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Primili smo tvoju najnoviju uplatu za %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Hvala na nadogradnji!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Uspješno si nadogradio/la s %(productNameOld)s na %(productNameNew)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Kreditna kartica koju koristiš za plaćanje sljedećih pretplata uskoro isteče."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Imaš pitanja o tvojim pretplatama? Naš tim za podršku ti može pomoći:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Otkrili smo problem s tvojom metodom plaćanja za sljedeće pretplate."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Je li ovo tvoja prijava?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Ako da, ovo je potrebni autorizacijski kôd:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću <a %(reportSignInLinkAttributes)s>prijave problema.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Dobro došao/Dobro došla u obitelj Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Prije nekoliko dana stvoren je tvoj Firefox račun, ali nije potvrđen."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Potvrdi sada i nabavi tehnologiju koja se bori za tvoju privatnost, štiti je, te pruža praktično znanje i poštovanje koje zaslužuješ."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Potvrdi adresu e-pošte:"
+
+#~ msgid "Still there?"
+#~ msgstr "Još si tamo?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Prije gotovo tjedan dana stvorio/la si Firefox račun, ali ga nikada nisi potvrdio/la. To nas zabrinjava."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Potvrdi ovu e-mail adresu za aktiviranje tvog računa i javi nam da si dobro."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Aktiviraj obitelj proizvoda Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjestu prijave, počevši od:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Potvrdi tvoj račun i koristi Firefox na najbolji način neovisno o mjestu prijave."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Za dodatnu sigurnost, potvrdi ovu prijavu sa sljedećeg uređaja:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Ako je odgovor da, ovo je kôd za potvrdu:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Istječe za 5 minuta."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Potvrdi primarnu adresu e-pošte"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Nakon potvrde, promjene računa poput dodavanja sekundarne e-mail adrese postat će moguće s ovog uređaja."
+
+#~ msgid "Verify email: "
+#~ msgstr "Potvrdi adresu e-pošte:"
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Potvrdi sekundarnu adresu e-pošte"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Zahtjev za korištenje %(email)s kao sekundarne adrese e-pošte podnijet je sa sljedećeg Firefox računa:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Nakon potvrde, na ovu će adresu početi pristizati sigurnosne obavijesti i potvrde."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Koristi ovaj kôd za potvrdu:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Istječe za 5 minuta. Jednom kada je potvrđena, ova adresa primat će sigurnosne obavijesti i potvrde."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Je li ovo tvoja prijava?"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Priprema, pozor, sinkroniziraj"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Potvrdi primanje ovog e-maila i pomoći ćemo ti instalirati i sinkronizirati Firefox na svim tvojim uređajima počevši od:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Nakon potvrde pomoći ćemo ti instalirati i povezati Firefox na barem još jedan uređaj."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Ili instaliraj na <a %(desktopLinkAttributes)s>jedan drugi desktop uređaj</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Ili instaliraj na <a %(cadLinkAttributes)s>jedan drugi uređaj</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Ovo je automatski e-mail; ako nisi autorizirao/la ovu radnju, <a %(passwordChangeLinkAttributes)s>promijeni lozinku</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Za više informacija posjeti stranicu <a %(supportLinkAttributes)s>Mozilla podrška</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Ovo je automatski e-mail; ako nisi dodao/la novi uređaj tvom Firefox računu, promijeni lozinku na %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Ovo je automatski e-mail; ako nisi odobrio/la ovu radnju, <a %(resetLinkAttributes)s>obnovi svoju lozinku</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP adresa: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Upravljaj računom:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "%(cardType)s kartica ističe za %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozillina politika privatnosti"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Uvjeti pružanja usluge Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se prijavio/la za %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Dobivaš ovaj e-mail jer %(email)s s ima Firefox račun i jer si se pretplatio na više proizvoda."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Upravljaj postavkama tvog Firefox računa na <a %(accountSettingsLinkAttributes)s>stranici računa</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Uvjeti i politika otkazivanja"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Ponovno aktiviranje pretplate"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Otkaži pretplatu"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Otkaži pretplate"
+
+#~ msgid "Update billing information"
+#~ msgstr "Aktualiziraj podatke naplate"
+
+#~ msgid "Legal"
+#~ msgstr "Pravno"
+
+#~ msgid "Privacy"
+#~ msgstr "Privatnost"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Uvjeti i pravila otkazivanja:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Napomena o privatnosti:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Otkaži pretplatu:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Otkaži pretplate:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Aktualiziraj podatke naplate:"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
