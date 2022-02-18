@@ -82,6 +82,12 @@ subplat-legal = Pravne informacije
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Zasebnost
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Prenesite { $productName } iz trgovine { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Prenesite { $productName } iz trgovine { -app-store }">
 another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
 another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
 # Variables:
