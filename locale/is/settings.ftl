@@ -142,18 +142,38 @@ get-data-trio-print =
 # HeaderLockup component
 
 header-menu-open = Loka valmynd
+header-back-to-top-link =
+    .title = Til baka efst
+header-title = Firefox-reikningur
+header-help = Hjálp
 
 ## Input Password
 
+input-password-hide = Fela lykilorð
+input-password-show = Birta lykilorð
+input-password-hide-aria = Fela lykilorð af skjánum.
+input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
 
 ## Modal
 
+modal-close-title = Loka
+modal-cancel-button = Hætta við
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Staðfestu tölvupóstfangið þitt
+msv-cancel-button = Hætta við
+msv-submit-button = Staðfesta
 
 ## Settings Nav
 
+nav-settings = Stillingar
+nav-profile = Notandasnið
+nav-security = Öryggi
+nav-connected-services = Tengdar þjónustur
+nav-data-collection = Gagnasöfnun og notkunarupplýsingar
+nav-paid-subs = Greiddar áskriftir
+nav-email-comm = Tölvupóstsamskipti
 
 ## Two Step Authentication - replace recovery code
 
