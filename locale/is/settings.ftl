@@ -87,9 +87,14 @@ cs-heading = Tengdar þjónustur
 cs-disconnect-sync-opt-prefix = Tækið er:
 cs-disconnect-sync-opt-suspicious = Grunsamlegt
 cs-disconnect-sync-opt-lost = Týnt eða stolið
+cs-disconnect-sync-opt-old = Gamalt eða skipt út
+cs-disconnect-sync-opt-duplicate = Tvítekið
+cs-disconnect-sync-opt-not-say = Vil helst ekki segja
 
 ##
 
+cs-disconnect-advice-confirm = Allt í lagi, ég skil
+cs-disconnect-lost-advice-heading = Týnt eða stolið tæki aftengt
 
 ##
 
