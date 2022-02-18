@@ -95,24 +95,43 @@ cs-disconnect-sync-opt-not-say = Vil helst ekki segja
 
 cs-disconnect-advice-confirm = Allt í lagi, ég skil
 cs-disconnect-lost-advice-heading = Týnt eða stolið tæki aftengt
+cs-sign-out-button = Útskráning
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Sótt
+datablock-copy =
+    .message = Afritað
+datablock-print =
+    .message = Prentað
 
 ## Data collection section
 
+dc-heading = Gagnasöfnun og notkunarupplýsingar
+dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
+dc-learn-more = Frekari upplýsingar
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } valmynd
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Skráð inn sem</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Skrá út
+drop-down-menu-sign-out-error = Því miður, upp kom vandamál við að skrá þig út.
 
 ## Flow Container
 
+flow-container-back = Til baka
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Endurheimtarkóðar
 
 # HeaderLockup component
 
