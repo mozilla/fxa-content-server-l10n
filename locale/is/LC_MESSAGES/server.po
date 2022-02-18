@@ -1,17 +1,18 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2015-06-10 12:34+0000\n"
-"Last-Translator: Kristján Bjarni <kristjanbjarni@gmail.com>\n"
+"PO-Revision-Date: 2022-02-18 16:36+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.0\n"
+"Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433939697.0\n"
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
@@ -64,7 +65,7 @@ msgstr ""
 
 #: lib/senders/templates/lowRecoveryCodes.txt:3
 msgid "Generate codes:"
-msgstr ""
+msgstr "Útbúa kóða:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
 msgid "New sign-in to %(clientName)s"
@@ -72,7 +73,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
-msgstr ""
+msgstr "Nauðsynlegt að skipta um lykilorð"
 
 #: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
 msgid ""
@@ -90,7 +91,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
 msgid "Best,"
-msgstr ""
+msgstr "Bestu kveðjur,"
 
 #: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
 msgid "The Firefox Accounts team"
@@ -268,7 +269,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
 msgid "Set up next device"
-msgstr ""
+msgstr "Setja upp næsta tæki"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
@@ -276,7 +277,7 @@ msgstr ""
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
 msgid "Secondary email added"
-msgstr ""
+msgstr "Aukapóstfangi bætt við"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
@@ -292,7 +293,7 @@ msgstr ""
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
 msgid "Create new password"
-msgstr ""
+msgstr "Búðu til nýtt lykilorð"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
@@ -301,7 +302,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
 msgid "Sorry to see you go"
-msgstr ""
+msgstr "Okkur þykir miður að þú sért á förum"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
@@ -317,7 +318,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
 msgid "Welcome to %(productName)s"
-msgstr ""
+msgstr "Velkomin í %(productName)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
 msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
@@ -329,7 +330,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Númer reiknings: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
@@ -337,7 +338,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Næsti reikningur: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
@@ -355,11 +356,11 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
-msgstr ""
+msgstr "Búðu til lykilorð:"
 
 #: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
 msgid "Welcome to Firefox!"
-msgstr ""
+msgstr "Velkomin í Firefox!"
 
 #: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
 msgid ""
@@ -415,7 +416,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr ""
+msgstr "Númer reiknings: <b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
@@ -424,33 +425,33 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr ""
+msgstr "<a href=\"%(invoiceLink)s\">Skoðaðu reikninginn þinn</a>."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr ""
+msgstr "Næsti reikningur: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr ""
+msgstr "Númer reiknings: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr ""
+msgstr "Skoða /: %(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
+msgstr "Samtals: %(invoiceSubtotal)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
 msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
+msgstr "Eins-skiptis afsláttur: -%(invoiceDiscountAmount)s"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:1
 msgid "Your credit card is about to expire"
-msgstr ""
+msgstr "Greiðslukortið þitt er við það að renna út"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
@@ -602,7 +603,7 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
-msgstr ""
+msgstr "Velkomin í Firefox-fjölskylduna"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
@@ -614,11 +615,11 @@ msgstr ""
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr ""
+msgstr "Staðfestu tölvupóstfangið:"
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
-msgstr ""
+msgstr "Ennþá þarna?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
@@ -670,11 +671,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr ""
+msgstr "Sannreyna tölvupóstfang:"
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
-msgstr ""
+msgstr "Sannreyna aukatölvupóstfang"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
@@ -746,27 +747,27 @@ msgstr ""
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "IP-vistfang: %(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr ""
+msgstr "Sýsla með notandaaðgang:"
 
 #: lib/senders/templates/partials/paymentPlanDetails.html:1
 msgid "Payment details:"
-msgstr ""
+msgstr "Nánar um greiðslu:"
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "%(cardType)s kort endar á %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
 msgid "Mozilla Privacy Policy"
-msgstr ""
+msgstr "Persónuverndarstefna Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
 msgid "Firefox Cloud Terms of Service"
@@ -794,27 +795,27 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Reactivate subscription"
-msgstr ""
+msgstr "Endurvirkja áskrift"
 
 #: lib/senders/templates/layouts/subscription.html:8
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Hætta áskrift"
 
 #: lib/senders/templates/layouts/subscription.html:9
 msgid "Cancel subscriptions"
-msgstr ""
+msgstr "Hætta áskriftum"
 
 #: lib/senders/templates/layouts/subscription.html:10
 msgid "Update billing information"
-msgstr ""
+msgstr "Uppfæra greiðsluupplýsingar"
 
 #: lib/senders/templates/layouts/subscription.html:13
 msgid "Legal"
-msgstr ""
+msgstr "Lagalegur fyrirvari"
 
 #: lib/senders/templates/layouts/subscription.html:14
 msgid "Privacy"
-msgstr ""
+msgstr "Friðhelgi"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
@@ -822,55 +823,55 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr ""
+msgstr "Meðferð persónuupplýsinga:"
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr ""
+msgstr "Hætta áskrift:"
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr ""
+msgstr "Hætta áskriftum:"
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
-msgstr ""
+msgstr "Uppfæra greiðsluupplýsingar:"
 
 #: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr ""
+msgstr "%(uaBrowser)s á %(uaOS)s %(uaOSVersion)s"
 
 #: lib/senders/email.js:353
 msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr ""
+msgstr "%(uaBrowser)s á %(uaOS)s"
 
 #: lib/senders/email.js:379
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(stateCode)s, %(country)s (áætlað)"
 
 #: lib/senders/email.js:386
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (áætlað)"
 
 #: lib/senders/email.js:391
 msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(stateCode)s, %(country)s (áætlað)"
 
 #: lib/senders/email.js:396
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (áætlað)"
 
 #: lib/senders/email.js:587
 msgid "Finish creating your account"
-msgstr ""
+msgstr "Ljúktu við að útbúa notandaaðganginn þinn"
 
 #: lib/senders/email.js:588 lib/senders/email.js:725
 msgid "Confirm email"
-msgstr ""
+msgstr "Staðfestu tölvupóstfangið"
 
 #: lib/senders/email.js:655
 msgid "Verification code: %(code)s"
-msgstr ""
+msgstr "Sannvottunarkóði: %(code)s"
 
 #: lib/senders/email.js:705
 msgid "Reminder: Finish creating your account"
@@ -890,11 +891,11 @@ msgstr ""
 
 #: lib/senders/email.js:802 lib/senders/email.js:2013
 msgid "Create a password"
-msgstr ""
+msgstr "Búðu til lykilorð"
 
 #: lib/senders/email.js:838
 msgid "Account authorization code"
-msgstr ""
+msgstr "Auðkenningarkóði aðgangs"
 
 #: lib/senders/email.js:911
 msgid "Confirm new sign-in to %(clientName)s"
@@ -906,32 +907,32 @@ msgstr ""
 
 #: lib/senders/email.js:1029
 msgid "Confirm primary email"
-msgstr ""
+msgstr "Staðfestu aðaltölvupóstfang"
 
 #: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
 msgid "Verify email"
-msgstr ""
+msgstr "Staðfestu tölvupóstfang"
 
 #: lib/senders/email.js:1092 lib/senders/email.js:1164
 msgid "Confirm secondary email"
-msgstr ""
+msgstr "Staðfestu aukatölvupóstfang"
 
 #: lib/senders/email.js:1224
 msgid "Reset your password"
-msgstr "Endurstilla lykilorð"
+msgstr "Endurstilltu lykilorðið þitt"
 
 #: lib/senders/email.js:1270 lib/senders/email.js:1341
 msgid "Password updated"
-msgstr ""
+msgstr "Lykilorð uppfært"
 
 #: lib/senders/email.js:1312
 msgid "Suspicious activity detected"
-msgstr ""
+msgstr "Vart við grunsamlega virkni"
 
 #: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
 #: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
 msgid "Manage account"
-msgstr ""
+msgstr "Sýsla með notandaaðgang"
 
 #: lib/senders/email.js:1425
 msgid "Account verified. Next, sync another device to finish setup"
@@ -939,27 +940,27 @@ msgstr ""
 
 #: lib/senders/email.js:1512
 msgid "Primary email updated"
-msgstr ""
+msgstr "Aðaltölvupóstfang uppfært"
 
 #: lib/senders/email.js:1629
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Slökkt er á tveggja-þrepa auðkenningu"
 
 #: lib/senders/email.js:1723
 msgid "Recovery code used"
-msgstr ""
+msgstr "Endurheimtukóði sem var notaður"
 
 #: lib/senders/email.js:1783
 msgid "1 recovery code remaining"
-msgstr ""
+msgstr "1 endurheimtukóði eftir"
 
 #: lib/senders/email.js:1785
 msgid "%(numberRemaining)s recovery codes remaining"
-msgstr ""
+msgstr "%(numberRemaining)s endurheimtukóðar eftir"
 
 #: lib/senders/email.js:1788
 msgid "Generate codes"
-msgstr ""
+msgstr "Útbúa kóða"
 
 #: lib/senders/email.js:1920
 msgid "Password updated using recovery key"
@@ -1023,7 +1024,7 @@ msgstr ""
 
 #: lib/senders/email.js:2994
 msgid "Download %(productName)s"
-msgstr ""
+msgstr "Sækja %(productName)s"
 
 #: lib/senders/email.js:3020
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
@@ -1035,12 +1036,12 @@ msgstr ""
 
 #: lib/senders/email.js:3035
 msgid "Sync another device"
-msgstr ""
+msgstr "Samstilla annað tæki"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
-msgstr "Firefox reikningar"
+msgstr "Firefox-reikningar"
 
 #: server/templates/pages/src/404.html:2
 msgid "Page not found"
@@ -1082,23 +1083,23 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Hleð inn"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
-msgstr "Firefox reikningur þarfnast JavaScript."
+msgstr "Firefox-reikningar þarfnast JavaScript."
 
 #: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
-msgstr "Tilkynning um friðhelgi"
+msgstr "Meðferð persónuupplýsinga"
 
 #: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
-msgstr "Skilmálar"
+msgstr "Þjónustuskilmálar"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Uppfærsla Firefox er nauðsynleg"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -1110,7 +1111,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Sækja nýjasta"
 
 #~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
 #~ msgstr "Síðan sem beðið var um fannst ekki. Búið er að láta okkur vita og við munum laga alla þá tengla sem eru vitlausir."

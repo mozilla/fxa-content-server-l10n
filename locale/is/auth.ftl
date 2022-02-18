@@ -35,12 +35,27 @@ subplat-automated-email = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst 
 subplat-privacy-notice = Meðferð persónuupplýsinga
 subplat-privacy-plaintext = Meðferð persónuupplýsinga:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+subplat-terms-policy = Skilmálar og afbókunarreglur
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hætta áskrift
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Endurvirkja áskrift
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Uppfæra greiðsluupplýsingar
+subplat-privacy-policy = Persónuverndarstefna { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Þjónustuskilmálar { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Lögfræðilegt efni
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Friðhelgi
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Sæktu { $productName } á { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sæktu { $productName } í { -app-store }">
 automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
 # Variables:
 #  $ip (Number) - User's IP address

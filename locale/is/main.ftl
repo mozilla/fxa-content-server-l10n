@@ -60,6 +60,9 @@ product-plan-not-found = Áskriftarleið fannst ekki
 
 ## payment legal blurb
 
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } persónuverndarstefna</paypalPrivacyLink>
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } persónuverndarstefna</paypalPrivacyLink>
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink>
 
 ## payment form
 

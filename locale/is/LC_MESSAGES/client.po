@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-16 21:09+0000\n"
+"PO-Revision-Date: 2022-02-18 16:40+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -564,7 +564,7 @@ msgstr "Gat ekki náð í friðhelgistilkynningu"
 
 #: .es5/lib/auth-errors.js:340
 msgid "Could not get Terms of Service"
-msgstr "Gat ekki náð í  þjónustuskilmála"
+msgstr "Gat ekki náð í þjónustuskilmála"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
@@ -841,6 +841,8 @@ msgstr "Ógilt teikn"
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
+"Með því að halda áfram samþykkir þú <a id=\"service-tos\" href=\"%(termsUri)s\">þjónustuskilmála</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">persónuverndarstefnu</a> frá %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
