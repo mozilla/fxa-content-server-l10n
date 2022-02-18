@@ -132,9 +132,16 @@ flow-container-back = Til baka
 # GetDataTrio component, part of Recovery Key flow
 
 get-data-trio-title = Endurheimtarkóðar
+get-data-trio-download =
+    .title = Sækja
+get-data-trio-copy =
+    .title = Afrita
+get-data-trio-print =
+    .title = Prenta
 
 # HeaderLockup component
 
+header-menu-open = Loka valmynd
 
 ## Input Password
 
