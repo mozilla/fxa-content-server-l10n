@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-18 16:36+0000\n"
+"PO-Revision-Date: 2022-02-18 16:54+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -771,7 +771,7 @@ msgstr "Persónuverndarstefna Mozilla"
 
 #: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
 msgid "Firefox Cloud Terms of Service"
-msgstr ""
+msgstr "Þjónustuskilmálar Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
@@ -791,7 +791,7 @@ msgstr ""
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Terms and cancellation policy"
-msgstr ""
+msgstr "Skilmálar og afbókunarreglur"
 
 #: lib/senders/templates/layouts/subscription.html:7
 msgid "Reactivate subscription"
@@ -819,7 +819,7 @@ msgstr "Friðhelgi"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr ""
+msgstr "Skilmálar og afbókunarreglur:"
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"

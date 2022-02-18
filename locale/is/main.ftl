@@ -45,6 +45,7 @@ settings-subscriptions-title = Áskriftir
 
 terms = Þjónustuskilmálar
 privacy = Meðferð persónuupplýsinga
+terms-download = Sækja skilmála
 
 ## Subscription titles
 
@@ -163,3 +164,8 @@ reactivate-success-button = Loka
 
 ## new user email form
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Settu inn tölvupóstfangið þitt
