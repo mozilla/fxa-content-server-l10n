@@ -400,6 +400,7 @@ subscriptionRenewalReminder-title = Vaša naročnina bo kmalu obnovljena
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Spoštovani uporabnik { $productName },
 subscriptionRenewalReminder-content-closing = Lep pozdrav,
+subscriptionsPaymentExpired-subject = Kreditni kartici za vaše naročnine kmalu poteče veljavnost
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 subscriptionsPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za naročnine { -brand-mozilla(sklon: "rodilnik") }
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
