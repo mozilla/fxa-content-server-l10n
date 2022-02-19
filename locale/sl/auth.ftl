@@ -316,6 +316,7 @@ subscriptionDowngrade-subject = Preklopili ste na { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Uspešno ste preklopili z { $productNameOld } na { $productNameNew }.
+subscriptionDowngrade-content-auto-renew = Naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaša naročnina za { $productName } je preklicana
@@ -330,6 +331,7 @@ subscriptionFirstInvoice-subject = Plačilo za { $productName } potrjeno
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Hvala, ker ste se naročili na { $productName }
 subscriptionFirstInvoice-content-processing = Vaše plačilo je trenutno v obdelavi, ki lahko traja do štiri delovne dni.
+subscriptionFirstInvoice-content-auto-renew = Naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
@@ -350,6 +352,7 @@ subscriptionFirstInvoiceDiscount-subject = Plačilo za { $productName } potrjeno
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Hvala, ker ste se naročili na { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Vaše plačilo je trenutno v obdelavi, ki lahko traja do štiri delovne dni.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
@@ -366,6 +369,9 @@ subscriptionFirstInvoiceDiscount-content-charge = Zaračunano { $invoiceTotal } 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Kreditni kartici za { $productName } kmalu poteče veljavnost
 subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
