@@ -457,12 +457,6 @@ profile-picture =
     .header = Фото
 profile-display-name =
     .header = Отображаемое имя
-profile-password =
-    .header = Пароль
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Установлен { $date }
 profile-primary-email =
     .header = Основной адрес электронной почты
 
@@ -472,6 +466,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Безопасность
+security-password =
+    .header = Пароль
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Создан { $date }
 
 ## Switch component
 
