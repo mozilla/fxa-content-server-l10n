@@ -132,6 +132,10 @@ payment-plan-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Način plačila:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Kartica { $cardType }, ki se končuje s { $lastFour }
 subscriptionSupport = Imate vprašanja o svoji naročnini? Naša <a data-l10n-name="subscriptionSupportUrl">ekipa za podporo</a> je tu, da vam pomaga.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Imate vprašanja o vaši naročnini? Naša ekipa za podporo je tu, da vam pomaga:
@@ -316,7 +320,7 @@ subscriptionDowngrade-subject = Preklopili ste na { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Uspešno ste preklopili z { $productNameOld } na { $productNameNew }.
-subscriptionDowngrade-content-auto-renew = Naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
+subscriptionDowngrade-content-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaša naročnina za { $productName } je preklicana
@@ -375,6 +379,9 @@ subscriptionPaymentExpired-subject = Kreditni kartici za { $productName } kmalu 
 subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Kreditni kartici, s katero plačujete { $productName }, bo kmalu potekla veljavnost.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Plačilo za { $productName } neuspešno
 subscriptionPaymentFailed-title = Žal imamo težave z vašim plačilom
 # Variables:
@@ -395,6 +402,9 @@ subscriptionReactivation-subject = Naročnina na { $productName } je ponovno akt
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Hvala, ker ste ponovno aktivirali svojo naročnino na { $productName }!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Obvestilo o samodejnem podaljšanju { $productName }
 subscriptionRenewalReminder-title = Vaša naročnina bo kmalu obnovljena
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -402,6 +412,7 @@ subscriptionRenewalReminder-content-greeting = Spoštovani uporabnik { $productN
 subscriptionRenewalReminder-content-closing = Lep pozdrav,
 subscriptionsPaymentExpired-subject = Kreditni kartici za vaše naročnine kmalu poteče veljavnost
 subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
+subscriptionsPaymentExpired-content = Kreditni kartici, s katero plačujete naslednje naročnine, bo kmalu potekla veljavnost.
 subscriptionsPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za naročnine { -brand-mozilla(sklon: "rodilnik") }
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
 subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
@@ -437,6 +448,7 @@ subscriptionUpgrade-title = Hvala za nadgradnjo!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Uspešno ste nadgradili z { $productNameOld } na { $productNameNew }.
+subscriptionUpgrade-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
 unblockCode-subject = Overitvena koda računa
 unblockCode-title = Se prijavljate vi?
 unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:

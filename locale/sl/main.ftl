@@ -95,6 +95,8 @@ payment-cc =
     .label = Vaša kartica
 payment-ccn =
     .label = Številka kartice
+payment-exp =
+    .label = Velja do
 payment-zip =
     .label = Poštna številka
 
@@ -272,6 +274,7 @@ coupon-discount = Popust
 coupon-submit = Uveljavi
 coupon-remove = Odstrani
 coupon-error = Koda, ki ste jo vnesli, je neveljavna ali pretečena.
+coupon-error-expired = Kodi, ki ste jo vnesli, je potekla veljavnost.
 coupon-enter-code =
     .placeholder = Vnesite kodo
 

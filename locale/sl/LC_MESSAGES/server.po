@@ -392,7 +392,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
 #: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
 msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr ""
+msgstr "Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic."
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
@@ -461,7 +461,7 @@ msgstr "Vaša kreditna kartica bo kmalu potekla"
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr ""
+msgstr "Kreditni kartici, s katero plačujete %(productName)s, bo kmalu potekla veljavnost."
 
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
@@ -577,7 +577,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr ""
+msgstr "Kreditni kartici, s katero plačujete naslednje naročnine, bo kmalu potekla veljavnost."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
@@ -1018,7 +1018,7 @@ msgstr ""
 
 #: lib/senders/email.js:2654
 msgid "%(productName)s automatic renewal notice"
-msgstr ""
+msgstr "Obvestilo o samodejnem podaljšanju %(productName)s"
 
 #: lib/senders/email.js:2734
 msgid "%(productName)s payment received"
