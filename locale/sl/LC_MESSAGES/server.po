@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-21 10:01+0000\n"
+"PO-Revision-Date: 2022-02-21 10:08+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -536,6 +536,7 @@ msgid ""
 "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
 "us</a>."
 msgstr ""
+"Hvala, ker ste se naročili na %(productName)s. Če imate kakršnakoli vprašanja o naročnini ali če potrebujete več informacij o %(productName)s, <a href=\"%(subscriptionSupportUrl)s\">nam pišite</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
 msgid "Sincerely,"
@@ -551,7 +552,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "Hvala, ker ste se naročili na %(productName)s. Če imate kakršnakoli vprašanja o naročnini ali če potrebujete več informacij o %(productName)s, nam pišite:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"

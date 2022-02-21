@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-11 09:59+0000\n"
+"PO-Revision-Date: 2022-02-21 10:13+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1502,7 +1502,7 @@ msgstr "Pošlji"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Lahko veljajo tarife za sporočila SMS in prenos podatkov. Zahtevana je prejemnikova privolitev. <a %(escapedLearnMoreAttributes)s>Več o tem</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1658,7 +1658,7 @@ msgstr "Pošlji potisno obvestilo o prijavi"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Na povezanih napravah Firefox poiščite zavihek za potrditev prijave, ki smo ga poslali."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1736,7 +1736,7 @@ msgstr "Naroči %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Povezavi, ki ste jo kliknili, manjka nekaj znakov. Morda jo je pokvaril e-poštni odjemalec."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
@@ -1793,7 +1793,7 @@ msgstr "Prenesite Firefox preko kamere"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Z namestitvijo Firefoxa in sinhronizacijo med vsaj dvema napravama se tudi zaščitite pred izgubo podatkov."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
