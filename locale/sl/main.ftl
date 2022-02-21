@@ -334,6 +334,7 @@ payment-confirmation-amount-year =
        *[other] { $amount } vsakih { $intervalCount } let
     }
 payment-confirmation-download-button = Nadaljuj prenos
+payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
 ## new user email form
 

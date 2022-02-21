@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-19 22:42+0000\n"
+"PO-Revision-Date: 2022-02-21 10:01+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -769,7 +769,7 @@ msgstr "PayPal"
 
 #: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
 msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr ""
+msgstr "Kartica %(cardType)s, ki se končuje s %(lastFour)s"
 
 #: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
 msgid "Mozilla Privacy Policy"
