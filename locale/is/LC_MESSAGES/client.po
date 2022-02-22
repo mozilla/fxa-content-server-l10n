@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 14:49+0000\n"
+"PO-Revision-Date: 2022-02-22 17:57+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -1216,7 +1216,7 @@ msgstr "Settu kóðann inn handvirkt"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr ""
+msgstr "Skannaðu QR-kóðann í auðkenningarforritinu þínu og settu inn öryggiskóðann sem það gefur upp."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1278,7 +1278,7 @@ msgstr "Beiðni um heimildir"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr ""
+msgstr "%(serviceName)s vill fá eftirfarandi upplýsingar frá notandaaðgangnum þínum:"
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
@@ -1295,7 +1295,7 @@ msgstr "Tókst"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Nú geturðu farið að nota <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Senda ýtitilkynningu um innskráningu"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
@@ -1666,7 +1666,7 @@ msgstr "Endursenda flipa"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Kemur flipinn ekki? Sendu tölvupóst í staðinn"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1720,7 +1720,7 @@ msgstr "Breyta lykilorði"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Skráðu þig til að fá meira"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
@@ -1732,7 +1732,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Setja %(email)s í áskrift"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
@@ -1740,7 +1740,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Halda áfram í %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
@@ -1773,7 +1773,7 @@ msgstr "Þetta er búið í bili"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Samstilltu Firefox á milli tækja"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
@@ -1789,7 +1789,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Sæktu Firefox með myndavélarforritinu þínu"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -1801,19 +1801,19 @@ msgstr "Tilbúið til skönnunar"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Tengdu snjalltækið þitt</h1><p>með QR-kóða sem við útbjuggum sérstaklega fyrir þig</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Opnaðu myndavélarforritið á tækinu þínu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Beindu myndavélinni að QR-kóðanum og ýttu á tengilinn sem birtist"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Settu upp Firefox og opnaðu á tækinu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
@@ -1821,19 +1821,19 @@ msgstr "Skráðu þig inn á notandaaðganginn þinn"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Opnaðu myndavélarforritið á tækinu þínu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Beindu myndavélinni að QR-kóðanum og ýttu á tengilinn sem birtist"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Settu upp Firefox og opnaðu á tækinu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Skráðu þig inn á notandaaðganginn þinn"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
@@ -1897,7 +1897,7 @@ msgstr "IP-vistfang: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Einn aðgangur, margar þjónustur"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
@@ -1941,7 +1941,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
-msgstr ""
+msgstr "Má ekki vera tölvupóstfangið þitt"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Til baka í áskriftir"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
