@@ -331,7 +331,7 @@ pay-with-heading-card-only = Borga með greiðslukorti
 ## plan-details
 
 plan-details-header = Upplýsingar um vöru
-plan-details-show-button = Sjá nánar
+plan-details-show-button = Sjá nánari upplýsingar
 plan-details-hide-button = Fela ítarupplýsingar
 plan-details-total-label = Samtals
 plan-details-list-price = Listaverð
@@ -341,24 +341,34 @@ plan-details-list-price = Listaverð
 coupon-discount = Afsláttur
 coupon-submit = Virkja
 coupon-remove = Fjarlægja
+coupon-enter-code =
+    .placeholder = Settu inn kóða
 
 ## payment-processing
 
+payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína...
 
 ## payment confirmation
 
+payment-confirmation-alert = Smelltu hér til að sækja
+payment-confirmation-mobile-alert = Opnaðist smáforritið ekki? <a>Smelltu hér</a>
 payment-confirmation-thanks-heading = Þakka þér fyrir!
 
 ## payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = Takk, athugaðu nú tölvupóstinn þinn!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-order-heading = Upplýsingar um pöntun
+payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Greiðsluupplýsingar
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
 ## new user email form
 
@@ -367,6 +377,11 @@ payment-confirmation-thanks-heading = Þakka þér fyrir!
 # continue.
 new-user-email =
     .label = Settu inn tölvupóstfangið þitt
+new-user-confirm-email =
+    .label = Staðfestu tölvupóstfangið þitt
+new-user-email-validate = Tölvupóstfangið er ekki gilt
+new-user-card-title = Settu inn kortaupplýsingarnar þínar
+new-user-submit = Gerast áskrifandi núna
 payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

@@ -62,9 +62,29 @@ automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékks
 user-ip = IP-vistfang: { $ip }
 manage-account = Sýsla með reikning
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Reikningur númer: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Innheimt: { $invoiceTotal } þann { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Greiðslumáti:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } kort sem endar á { $lastFour }
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Skoða reikning: { $invoiceLink }
+cadReminderFirst-action = Samstilla annað tæki
+cadReminderFirst-title = Hér er áminning til þín um að samstilla tæki.
 cadReminderSecond-action = Samstilla annað tæki
 cadReminderSecond-title = Síðasta áminning um að samstilla tæki!
 #  Variables:
@@ -76,6 +96,28 @@ downloadSubscription-title = Velkomin í { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Sækja { $productName }
+codes-generate = Útbúa kóða
+codes-generate-plaintext = { codes-generate }:
+lowRecoveryCodes-action = Útbúa kóða
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 endurheimtukóði eftir
+       *[other] { $numberRemaining } endurheimtukóðar eftir
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Ný innskráning á { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Ný innskráning á { $clientName }
+newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
+passwordChangeRequired-subject = Vart við grunsamlega virkni
+passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
+passwordChangeRequired-signoff = Bestu kveðjur,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } teymið
+passwordReset-subject = Lykilorð uppfært
+passwordReset-title = Lykilorð reikningsins þíns breyttist
+postAddAccountRecovery-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
