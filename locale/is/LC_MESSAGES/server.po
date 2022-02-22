@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 17:00+0000\n"
+"PO-Revision-Date: 2022-02-22 17:43+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -936,7 +936,7 @@ msgstr "Sýsla með notandaaðgang"
 
 #: lib/senders/email.js:1425
 msgid "Account verified. Next, sync another device to finish setup"
-msgstr ""
+msgstr "Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni"
 
 #: lib/senders/email.js:1512
 msgid "Primary email updated"
@@ -972,31 +972,31 @@ msgstr "Útbúðu nýjan endurheimtulykil"
 
 #: lib/senders/email.js:2016
 msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
+msgstr "Velkomin í %(productName)s: Stilltu lykilorðið þitt."
 
 #: lib/senders/email.js:2090
 msgid "You have upgraded to %(productNameNew)s"
-msgstr ""
+msgstr "Þú hefur uppfært í %(productNameNew)s"
 
 #: lib/senders/email.js:2171
 msgid "You have switched to %(productNameNew)s"
-msgstr ""
+msgstr "Þú hefur skipt yfir í %(productNameNew)s"
 
 #: lib/senders/email.js:2237
 msgid "Credit card for %(productName)s expiring soon"
-msgstr ""
+msgstr "Greiðslukort fyrir %(productName)s rennur út bráðlega"
 
 #: lib/senders/email.js:2251
 msgid "Credit card for your subscriptions is expiring soon"
-msgstr ""
+msgstr "Greiðslukort fyrir áskriftirnar þínar rennur út bráðlega"
 
 #: lib/senders/email.js:2302
 msgid "Payment information update required for %(productName)s"
-msgstr ""
+msgstr "Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir %(productName)s"
 
 #: lib/senders/email.js:2318
 msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
+msgstr "Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir Mozilla-áskriftir"
 
 #: lib/senders/email.js:2364
 msgid "%(productName)s payment failed"
@@ -1004,7 +1004,7 @@ msgstr "Greiðsla fyrir %(productName)s mistókst"
 
 #: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
 msgid "Your %(productName)s subscription has been cancelled"
-msgstr ""
+msgstr "Áskriftinni þinni að %(productName)s hefur verið hætt"
 
 #: lib/senders/email.js:2598
 msgid "%(productName)s subscription reactivated"
@@ -1016,11 +1016,11 @@ msgstr ""
 
 #: lib/senders/email.js:2734
 msgid "%(productName)s payment received"
-msgstr ""
+msgstr "Greiðsla fyrir %(productName)s móttekin"
 
 #: lib/senders/email.js:2826 lib/senders/email.js:2909
 msgid "%(productName)s payment confirmed"
-msgstr ""
+msgstr "Greiðsla fyrir %(productName)s staðfest"
 
 #: lib/senders/email.js:2994
 msgid "Download %(productName)s"
