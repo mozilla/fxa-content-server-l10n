@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 11:33+0000\n"
+"PO-Revision-Date: 2022-02-22 12:11+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -650,7 +650,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr ""
+msgstr "Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni."
 
 #: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
@@ -698,19 +698,19 @@ msgstr "Ógild endurbeining"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Rangt skrifað tölvupóstfang? %(domain)s býður ekki upp á tölvupóstþjónustu."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Stærð myndarinnar er of mikil til að hægt sé að senda hana inn."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
-msgstr ""
+msgstr "Vantar uppsetningu"
 
 #: .es5/lib/config-loader.js:121
 msgid "Invalid configuration"
-msgstr ""
+msgstr "Ógild uppsetning"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
@@ -718,39 +718,39 @@ msgstr "Rangt skrifað tölvupóstfang?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Prófaðu nýjan Firefox-hugbúnað"
 
 #: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
 msgid "Get the latest news about Mozilla and Firefox"
-msgstr ""
+msgstr "Fáðu nýjustu fréttir um Mozilla og Firefox"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Vertu með í að halda internetinu heilbrigðu"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Vertu öruggari og snjallari á netinu"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Prófanir á nýjum Firefox-hugbúnaði"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Að vera með í að halda internetinu heilbrigðu"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Öryggi og friðhelgi á netinu með Firefox og Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
-msgstr ""
+msgstr "Óþekkt forrit (biðlari)"
 
 #: .es5/lib/oauth-errors.js:38
 msgid "Incorrect redirect_uri"
-msgstr ""
+msgstr "Rangt redirect_uri"
 
 #: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
@@ -786,7 +786,7 @@ msgstr "Útrunnið teikn"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr ""
+msgstr "Eitthvað fór úrskeiðis. Lokaðu þessum flipa og prófaðu aftur."
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
@@ -794,35 +794,35 @@ msgstr "engin skilaboð"
 
 #: .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
-msgstr ""
+msgstr "OAuth-breytu vantar: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Notandinn er ekki skráður inn"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Annar notandi er skráður inn"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Óstaðfestur notandi eða seta"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Ógilt id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
-msgstr ""
+msgstr "Ógild skilaboð frá fjartengda tækinu"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr ""
+msgstr "Villa við að parast fjartengdu tæki"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
-msgstr ""
+msgstr "Tengingu við fjartengda tækið var lokað, reyndu aftur"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
@@ -830,11 +830,11 @@ msgstr "Ógild breyta í beiðni: %(param)s"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Óstudd myndveita"
 
 #: .es5/lib/profile-errors.js:37
 msgid "Image processing error"
-msgstr ""
+msgstr "Villa við aðgerð á mynd"
 
 #: .es5/lib/profile-errors.js:49
 msgid "Invalid Token"
@@ -848,11 +848,11 @@ msgstr ""
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Hjálp</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
-msgstr ""
+msgstr "Fáðu nýjustu fréttir um Mozilla og Firefox."
 
 #: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
@@ -880,19 +880,19 @@ msgstr "500 villa"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Æi, eitthvað fór úrskeiðis þarna. Við höfum fengið tilkynningu og munum fara í að lagfæra þetta."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr ""
+msgstr "Tengill til að endurstilla lykilorð er útrunninn"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr ""
+msgstr "Tengillinn sem þú smelltir á til að endursetja lykilorðið þitt er útrunninn."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
-msgstr ""
+msgstr "Fá nýjan tengil"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with recovery key"
