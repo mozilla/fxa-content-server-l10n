@@ -33,12 +33,21 @@ basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
 payment-error-1 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Reyndu aftur eða hafðu samband við útgefanda kortsins.
 payment-error-2 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Hafðu samband við útgefanda kortsins.
 payment-error-retry-button = Reyndu aftur
+payment-error-manage-subscription-button = Sýsla með áskriftina mína
+country-currency-mismatch = Gjaldmiðill þessarar áskriftar gildir ekki fyrir landið sem tengist greiðslunni þinni.
+currency-currency-mismatch = Því miður. Þú getur ekki skipt á milli gjaldmiðla.
+no-subscription-change = Því miður. Þú getur ekki breytt áskriftarleiðinni þinni.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Þú ert nú þegar áskrifandi í gegnum { $mobileAppStore }.
+expired-card-error = Það lítur út fyrir að greiðslukortið þitt sé útrunnið. Prófaðu annað kort.
+insufficient-funds-error = Það lítur út fyrir að kortið þitt sé ekki með nægilega inneign. Prófaðu annað kort.
 
 ##  $productName (String) - The name of the subscribed product.
 
 
 ## settings
 
+settings-home = Forsíða reiknings
 settings-subscriptions-title = Áskriftir
 
 ## legal footer
@@ -49,6 +58,9 @@ terms-download = Sækja skilmála
 
 ## Subscription titles
 
+subscription-success-title = Staðfesting áskriftar
+subscription-processing-title = Staðfesti áskrift...
+subscription-error-title = Villa við að staðfesta áskrift...
 subscription-iapsubscribed-title = Nú þegar áskrifandi
 
 ##  $productName (String) - The name of the subscribed product.
@@ -90,9 +102,13 @@ payment-cancel-btn = Hætta við
 payment-update-btn = Uppfæra
 payment-pay-btn = Greiða núna
 payment-pay-with-paypal-btn = Greiða með { -brand-name-paypal }
+payment-validate-name-error = Settu inn nafnið þitt
+payment-validate-zip-required = Póstnúmer er nauðsynlegt
+payment-validate-zip-short = Póstnúmerið er of stutt
 
 ## subscription redirect
 
+sub-redirect-ready = Áskriftin þín er tilbúin
 
 ## fields
 
