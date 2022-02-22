@@ -180,32 +180,79 @@ sub-update-total-label = Ný heildarupphæð
 #  $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
-        [one] { $amount } daglega
+        [one] { $amount } á dag
        *[other] { $amount } á { $intervalCount } daga fresti
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } daglega
+            [one] { $amount } á dag
            *[other] { $amount } á { $intervalCount } daga fresti
         }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
-        [one] { $amount } vikulega
+        [one] { $amount } á viku
        *[other] { $amount } á { $intervalCount } vikna fresti
     }
     .title =
         { $intervalCount ->
-            [one] { $amount } vikulega
+            [one] { $amount } á viku
            *[other] { $amount } á { $intervalCount } vikna fresti
+        }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } á mánuði
+       *[other] { $amount } á { $intervalCount } mánaða fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á mánuði
+           *[other] { $amount } á { $intervalCount } mánaða fresti
+        }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } á ári
+       *[other] { $amount } á { $intervalCount } ára fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } á ári
+           *[other] { $amount } á { $intervalCount } ára fresti
         }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } á dag
+       *[other] { $amount } á { $intervalCount } daga fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } á viku
+       *[other] { $amount } á { $intervalCount } vikna fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } á mánuði
+       *[other] { $amount } á { $intervalCount } mánaða fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } á ári
+       *[other] { $amount } á { $intervalCount } ára fresti
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Næst innheimt { $date }
 sub-expires-on = Rennur út { $date }
 
 ##
@@ -217,15 +264,34 @@ pay-update-change-btn = Breyta
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Viltu halda áfram að nota { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Aðgangur þinn að { $name } mun halda áfram og innheimtutímabilið þitt
+    og greiðsla verður óbreytt. Næsta gjaldfærsla verður
+    { $amount } á kortið sem endar á { $last } þann { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Aðgangur þinn að { $name } mun halda áfram og innheimtutímabilið þitt
+    og greiðsla verður óbreytt. Næsta gjaldfærsla verður
+    { $amount } þann { $endDate }.
+reactivate-confirm-button = Gerast áskrifandi aftur
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Þú sagðir upp áskriftinni þinni þann { $date }.
+reactivate-panel-copy = Þú munt missa aðgang að { $name } þann <strong>{ $date }</strong>.
 reactivate-success-button = Loka
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Vandamál við að hlaða inn áskriftum
+sub-item-missing-msg = Reyndu aftur seinna.
 
 ## subscription iap item
 
