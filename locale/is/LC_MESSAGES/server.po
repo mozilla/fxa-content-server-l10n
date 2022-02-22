@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-18 16:54+0000\n"
+"PO-Revision-Date: 2022-02-22 17:00+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -69,7 +69,7 @@ msgstr "Útbúa kóða:"
 
 #: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
 msgid "New sign-in to %(clientName)s"
-msgstr ""
+msgstr "Ný innskráning á %(clientName)s"
 
 #: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
 msgid "Password Change Required"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
-msgstr ""
+msgstr "Það tókst að breyta lykilorðinu"
 
 #: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
 msgid "Your Firefox Account password was successfully changed from the following device:"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
-msgstr ""
+msgstr "Nýtt aðaltölvupóstfang"
 
 #: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
-msgstr ""
+msgstr "Endurheimtukóði notaður"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
@@ -334,7 +334,7 @@ msgstr "Númer reiknings: %(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Til greiðslu: %(invoiceTotal)s þann %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
 msgid "Your subscription has been cancelled"
-msgstr ""
+msgstr "Áskriftinni þinni hefur verið sagt upp"
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
@@ -402,7 +402,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
 msgid "Thank you for subscribing to %(productName)s"
-msgstr ""
+msgstr "Takk fyrir að gerast áskrifandi að %(productName)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
@@ -421,7 +421,7 @@ msgstr "Númer reiknings: <b>%(invoiceNumber)s</b>"
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
 msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr ""
+msgstr "Til greiðslu %(invoiceTotal)s þann %(invoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
 msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
@@ -537,7 +537,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
 msgid "The %(productName)s team"
-msgstr ""
+msgstr "%(productName)s-teymið"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
@@ -549,7 +549,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
-msgstr ""
+msgstr "Takk fyrir að vera áskrifandi!"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
 msgid "We received your latest payment for %(productName)s."
@@ -557,7 +557,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
 msgid "Thank you for upgrading!"
-msgstr ""
+msgstr "Takk fyrir að uppfæra!"
 
 #: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
 msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
@@ -647,7 +647,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Staðfestu innskráningu"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
@@ -659,7 +659,7 @@ msgstr ""
 
 #: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
 msgid "Verify primary email"
-msgstr ""
+msgstr "Staðfestu aðaltölvupóstfang"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
@@ -687,7 +687,7 @@ msgstr ""
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr ""
+msgstr "Notaðu þennan staðfestingarkóða:"
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
@@ -899,11 +899,11 @@ msgstr "Auðkenningarkóði aðgangs"
 
 #: lib/senders/email.js:911
 msgid "Confirm new sign-in to %(clientName)s"
-msgstr ""
+msgstr "Staðfestu nýja innskráningu á %(clientName)s"
 
 #: lib/senders/email.js:960
 msgid "Sign-in code for %(serviceName)s"
-msgstr ""
+msgstr "Innskráningarkóði fyrir %(serviceName)s"
 
 #: lib/senders/email.js:1029
 msgid "Confirm primary email"
@@ -964,11 +964,11 @@ msgstr "Útbúa kóða"
 
 #: lib/senders/email.js:1920
 msgid "Password updated using recovery key"
-msgstr ""
+msgstr "Lykilorð uppfært með endurheimtulykli"
 
 #: lib/senders/email.js:1921
 msgid "Create new recovery key"
-msgstr ""
+msgstr "Útbúðu nýjan endurheimtulykil"
 
 #: lib/senders/email.js:2016
 msgid "Welcome to %(productName)s: Please set your password."
@@ -1000,7 +1000,7 @@ msgstr ""
 
 #: lib/senders/email.js:2364
 msgid "%(productName)s payment failed"
-msgstr ""
+msgstr "Greiðsla fyrir %(productName)s mistókst"
 
 #: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
 msgid "Your %(productName)s subscription has been cancelled"
@@ -1066,6 +1066,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Æi, eitthvað fór úrskeiðis þarna. Við höfum fengið tilkynningu og\n"
+"          munum fara í að lagfæra þetta."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
