@@ -45,9 +45,13 @@ insufficient-funds-error = Það lítur út fyrir að kortið þitt sé ekki me�
 withdrawal-count-limit-exceeded-error = Það lítur út fyrir að þessi færsla muni fara fram yfir úttektarheimildina þína. Prófaðu annað kort.
 charge-exceeds-source-limit = Það lítur út fyrir að þessi færsla muni fara fram yfir daglegu úttektarheimildina þína. Prófaðu annað kort eða eftir 24 tíma.
 instant-payouts-unsupported = Svo virðist sem debetkortið þitt sé ekki sett upp fyrir skyndigreiðslur. Prófaðu annað debet- eða kreditkort.
+duplicate-transaction = Hmm. Það lítur út fyrir að sams konar færsla hafi þegar verið send. Athugaðu greiðsluferilinn þinn.
+coupon-expired = Það lítur út fyrir að þessi tilboðskóði sé útrunninn.
+card-error = Ekki tókst að vinna úr færslunni þinni. Staðfestu greiðslukortaupplýsingarnar þínar og reyndu aftur.
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-post-passwordless-sub-error = Áskriftin er staðfest, en ekki tókst að hlaða inn staðfestingarsíðunni. Athugaðu tölvupóstinn þinn til að setja upp reikninginn þinn.
 
 ## settings
 
@@ -62,23 +66,59 @@ terms-download = Sækja skilmála
 
 ## Subscription titles
 
+subscription-create-title = Settu upp áskriftina þína
 subscription-success-title = Staðfesting áskriftar
 subscription-processing-title = Staðfesti áskrift...
 subscription-error-title = Villa við að staðfesta áskrift...
+subscription-noplanchange-title = Þessi breyting áskriftarleiða er ekki studd
 subscription-iapsubscribed-title = Nú þegar áskrifandi
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } innheimti { $amount } daglega
+       *[other] { $productName } innheimti { $amount } á { $intervalCount } daga fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } innheimti { $amount } vikulega
+       *[other] { $productName } innheimti { $amount } á { $intervalCount } vikna fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } innheimti { $amount } mánaðarlega
+       *[other] { $productName } innheimti { $amount } á { $intervalCount } mánaða fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] { $productName } innheimt { $amount } árlega
+       *[other] { $productName } innheimt { $amount } á { $intervalCount } ára fresti
+    }
 
 ## Product route
 
+product-plan-error =
+    .title = Vandamál við að hlaða inn áskriftarleiðum
+product-profile-error =
+    .title = Vandamál við að hlaða inn notandasniði
+product-customer-error =
+    .title = Vandamál við að hlaða inn viðskiptavini
 product-plan-not-found = Áskriftarleið fannst ekki
+product-no-such-plan = Engin slík áskriftarleið fyrir þennan hugbúnað/þjónustu.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } notar { -brand-name-stripe } og { -brand-name-paypal } fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } persónuverndarstefna</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } notar { -brand-name-paypal } fyrir örugga vinnslu greiðslna.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } persónuverndarstefna</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } notar { -brand-name-stripe } fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink>
 
 ## payment form
@@ -123,6 +163,7 @@ input-error-is-required = { $label } er nauðsynlegt
 ## subscription upgrade
 
 product-plan-change-heading = Farðu yfir breytinguna þína
+sub-change-failed = Breyting á áskriftarleið mistókst
 sub-update-payment-title = Greiðsluupplýsingar
 sub-update-card-exp = Rennur út { $cardExpMonth }/{ $cardExpYear }
 
@@ -136,6 +177,28 @@ sub-update-total-label = Ný heildarupphæð
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } daglega
+       *[other] { $amount } á { $intervalCount } daga fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } daglega
+           *[other] { $amount } á { $intervalCount } daga fresti
+        }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } vikulega
+       *[other] { $amount } á { $intervalCount } vikna fresti
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } vikulega
+           *[other] { $amount } á { $intervalCount } vikna fresti
+        }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
