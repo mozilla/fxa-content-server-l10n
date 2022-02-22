@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 10:38+0000\n"
+"PO-Revision-Date: 2022-02-22 11:33+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -35,7 +35,7 @@ msgstr "Tókst að eyða reikningi"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "Notaðu kóðann %(code)s til að setja upp tveggja-þrepa auðkenningu í þeim forritum sem styðja slíkt."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -67,11 +67,11 @@ msgstr "Lykilorðið þitt hefur verið endurstillt"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Ljúktu uppsetningunni með því að setja inn nýja lykilorðið á hinum Firefox-tækjunum þínum."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Núna geturðu farið að gera breytingar á Firefox-reikningnum þínum."
 
 #: .es5/views/ready.js:74
 msgid "Primary email verified"
@@ -79,7 +79,7 @@ msgstr "Aðalpóstfang staðfest"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Tilkynningar varðandi reikninga verða einnig sendar á %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
@@ -91,7 +91,7 @@ msgstr "Innskráning staðfest"
 
 #: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Nú geturðu farið að nota %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account verified"
@@ -107,7 +107,7 @@ msgstr "Óþekktur reikningur. <a href=\"/signup\">Skráðu þig</a>"
 
 #: .es5/views/sign_up_password.js:84
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Reikningurinn er ekki lengur til. Útbúa hann aftur?"
 
 #: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
@@ -115,19 +115,21 @@ msgstr "Annað"
 
 #: .es5/views/support.js:270
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
+msgstr "Þakka þér fyrir að hafa samband við Mozilla Support aðstoðargáttina um <b>%(escapedLowercaseTopic)s</b>. Við verðum í sambandi í tölvupósti eins fljótt og mögulegt er."
 
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
+"Þakka þér fyrir að hafa samband við Mozilla Support aðstoðargáttina um <b>%(escapedLowercaseTopic)s</b> fyrir <b>%(escapedSelectedProduct)s</b>. Við verðum í sambandi í tölvupósti eins fljótt og "
+"mögulegt er."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
-msgstr ""
+msgstr "Samstillingargögnin þín eru varin"
 
 #: .es5/views/post_verify/verified.js:54
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr ""
+msgstr "Ef þú tapar aðgangi að reikningnum þínum, muntu geta endurheimt samstilltu gögnin þín."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
 msgid "Start browsing"
@@ -135,7 +137,7 @@ msgstr "Byrja vafur"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Tilkynningar varðandi reikninga verða einnig sendar á %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
@@ -187,7 +189,7 @@ msgstr "Birta lykilorð"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Recovery Codes"
-msgstr "Firefox endurheimtarkóðar"
+msgstr "Firefox-endurheimtukóðar"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,7 +197,7 @@ msgstr "Tveggja-þrepa auðkenning virkjuð"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Recovery Key"
-msgstr "Firefox endurheimtulykill"
+msgstr "Firefox-endurheimtulykill"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -267,7 +269,7 @@ msgstr "Kjörstillingar"
 
 #: .es5/models/sync-engines.js:86
 msgid "Addresses"
-msgstr "Netföng"
+msgstr "Tölvupóstföng"
 
 #: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
@@ -279,11 +281,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Tókst að staðfesta aðalpóstfang"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Tókst að staðfesta aukapóstfang"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -291,7 +293,7 @@ msgstr "Það tókst að endurstilla lykilorð"
 
 #: .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
-msgstr ""
+msgstr "Endurheimting reiknings er virk"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -299,15 +301,15 @@ msgstr "Óvænt villa"
 
 #: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
-msgstr ""
+msgstr "Tengillinn sem þú smelltir á til að staðfesta tölvupóstfangið þitt er útrunninn."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
-msgstr ""
+msgstr "Þú hefur prófað of oft. Reyndu aftur síðar."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr ""
+msgstr "Þú hefur prófað of oft. Reyndu aftur %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
@@ -371,7 +373,7 @@ msgstr "Beiðni of stór"
 
 #: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
 msgid "The request was blocked for security reasons"
-msgstr ""
+msgstr "Lokað var á beiðnina af öryggisástæðum"
 
 #: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
 msgid "Invalid authorization code"
@@ -399,39 +401,39 @@ msgstr "Tölvupósturinn þinn var endursendur. Rangt skrifað tölvupóstfang?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr ""
+msgstr "Tókst ekki að afhenda tölvupóst"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "Þetta tölvupóstfang var þegar staðfest af öðrum notanda"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Óstaðfest seta"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Þú hefur náð hámarksfjölda leyfðra aukatölvupóstfanga"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Tölvupóstfangið er nú þegar til staðar á reikningnum þínum"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "Aðaltölvupóstfang sem þarf til að skrá inn"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
-msgstr ""
+msgstr "Tölvupóstfang er þegar notað á öðrum notandaaðgangi"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "Aðaltölvupóstfang sem þarf til að endurstilla"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
@@ -439,7 +441,7 @@ msgstr "Ógildur innskráningarkóði"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
-msgstr "Ekki er hægt að breyta aðalpósfangi yfir í tölvupóstfang sem ekki hefur verið staðfest"
+msgstr "Ekki er hægt að breyta aðalpóstfangi yfir í tölvupóstfang sem ekki hefur verið staðfest"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
@@ -471,7 +473,7 @@ msgstr "TOTP tákn fannst ekki"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Recovery code not found"
-msgstr "Endurheimtar kóði fannst ekki"
+msgstr "Endurheimtukóði fannst ekki"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -479,11 +481,11 @@ msgstr "Tækjaskipun ótiltæk"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Recovery key not found"
-msgstr "Endurheimtar lykill fannst ekki"
+msgstr "Endurheimtulykill fannst ekki"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid recovery key"
-msgstr "Ógildur endurheimtunar lykill"
+msgstr "Ógildur endurheimtulykill"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -491,7 +493,7 @@ msgstr "Þessi fyrirspurn krefst tveggja þátta auðkenningar, sem hefur verið
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Mistókst vegna ósamræmdar fyrirspurnar, vinsamlegast reyndu aftur."
+msgstr "Mistókst vegna misvísandi fyrirspurnar, reyndu aftur."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
@@ -503,7 +505,7 @@ msgstr "Óþekkt áskrift."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Óþekkt áskriftarleið."
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."
@@ -612,7 +614,7 @@ msgstr "Staðfestingartengill er skemmdur"
 
 #: .es5/lib/auth-errors.js:436
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Stærðir myndar verða að vera a.m.k. 100x100px"
 
 #: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
@@ -620,11 +622,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "Þú verður að setja inn aldur þinn til að geta nýskráð þig"
 
 #: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "Þú verður að setja inn gildan aldur til að geta nýskráð þig"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
@@ -676,15 +678,15 @@ msgstr "Ógildur tveggja-þrepa auðkenningarkóði"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Recovery code required"
-msgstr ""
+msgstr "Endurheimtukóða krafist"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid recovery code"
-msgstr ""
+msgstr "Ógildur endurheimtukóði"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Recovery key required"
-msgstr ""
+msgstr "Endurheimtulykils krafist"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -894,7 +896,7 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with recovery key"
-msgstr ""
+msgstr "Endurstilltu lykilorð með endurheimtulykli"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:4 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:4
 #: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
@@ -908,24 +910,26 @@ msgstr "Halda áfram í %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að Firefox-reikningnum þínum."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">ATHUGAÐU:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á "
+"netþjóni á borð við vafurferil og bókamerki)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
-msgstr ""
+msgstr "Settu inn endurheimtulykil"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
-msgstr ""
+msgstr "Staðfestu endurheimtulykil"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have a recovery key?"
-msgstr ""
+msgstr "Ertu ekki með endurheimtulykil?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -971,7 +975,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Þér hefur tekist að endurheimta reikninginn þinn með því að nota endurheimtulykilinn þinn. Búðu til nýtt lykilorð til að tryggja öryggi gagnanna þinna og geymdu það á öruggum stað."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1155,7 +1159,7 @@ msgstr "Halda áfram"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Vista endurheimtukóða"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1180,11 +1184,11 @@ msgstr "Hætta við uppsetningu"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Staðfestu endurheimtukóða"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Til að tryggja að þú getir endurheimt aðgang að reikningnum þínum, til dæmis ef tæki týnist eða skemmist, skaltu setja inn einn af vistuðu endurheimtukóðunum þínum."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
@@ -1196,7 +1200,7 @@ msgstr "Staðfesta"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Virkja tveggja-þrepa auðkenningu"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1303,7 +1307,7 @@ msgstr ""
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new recovery key"
-msgstr ""
+msgstr "Útbúa nýjan endurheimtulykil"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1391,15 +1395,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
-msgstr ""
+msgstr "Settu inn endurheimtukóða"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a recovery code that was provided to you during setup."
-msgstr ""
+msgstr "Settu inn endurheimtukóða sem þér var gefinn á meðan uppsetningu stóð."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
-msgstr ""
+msgstr "Settu inn 10-stafa endurheimtukóða"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1622,7 +1626,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
-msgstr ""
+msgstr "Settu inn lykilorðið þitt til þess að skoða endurheimtulykilinn þinn."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1833,7 +1837,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr "Verndaðu gögnin þín með endurheimtingarlykli"
+msgstr "Verndaðu gögnin þín með endurheimtulykli"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1845,19 +1849,19 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
-msgstr "Fáðu endurheimtingarlykil"
+msgstr "Fáðu endurheimtulykil"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr ""
+msgstr "Staðfestu lykilorðið þitt fyrir %(escapedEmail)s til að útbúa endurheimtulykilinn þinn."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Settu inn endurheimtulykilinn þinn til að staðfesta að þú hafir vistað afrit."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr "Vista endurheimtingarlykil"
+msgstr "Vista endurheimtulykil"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
