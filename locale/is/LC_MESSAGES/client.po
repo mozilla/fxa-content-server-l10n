@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 12:42+0000\n"
+"PO-Revision-Date: 2022-02-22 14:49+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -1365,7 +1365,7 @@ msgstr "Til baka í stillingar"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Því miður. Við höfum læsr aðgangnum&nbsp;þínum."
+msgstr "Því miður. Við höfum læst aðgangnum&nbsp;þínum."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
@@ -1377,7 +1377,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr ""
+msgstr "Ert þú ekki lengur með þetta tölvupóstfang? Búðu til nýjan aðgang"
 
 #: .es5/templates/sign_in_password.mustache:8
 msgid ""
@@ -1411,7 +1411,7 @@ msgstr "Ertu læst/ur úti?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
-msgstr ""
+msgstr "Þakka þér fyrir að vera á verði"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
@@ -1424,7 +1424,7 @@ msgstr "Heimila þessa innsendingu"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
-msgstr ""
+msgstr "Skoðaðu tölvupóstinn þinn og finndu kóðann sem sendur var á  %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1432,15 +1432,15 @@ msgstr "Settu inn öryggiskóða"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr ""
+msgstr "Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Vandamál við að setja inn kóða?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr ""
+msgstr "Skoðaðu tölvupóstinn þinn og finndu auðkenningarkóðann sem sendur var á  %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
@@ -1490,7 +1490,7 @@ msgstr "Viltu samstilla símann þinn?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Sendu tengil með SMS til að setja Firefox upp á símanum þínum."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
@@ -1502,11 +1502,11 @@ msgstr "Senda"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "Kostnaður vegna SMS og gagnamagns gæti fallið til. Samþykki viðtakandans er nauðsynlegt. <a %(escapedLearnMoreAttributes)s>Kanna nánar</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
-msgstr ""
+msgstr "Hvers vegna samstilla mörg tæki?"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
@@ -1514,11 +1514,11 @@ msgstr "Ekki núna"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Athugaðu SMS-skilaboðin þín"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr "Við höfum sent þér textaskilboð"
+msgstr "Við höfum sent þér SMS-textaskilboð"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
@@ -1538,7 +1538,7 @@ msgstr "Kom það ekki? Endursenda"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Af hverju skrá inn á öðru tæki?"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1546,7 +1546,7 @@ msgstr "Firefox reikningar"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Forsíða reiknings"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1558,7 +1558,7 @@ msgstr "Hafðu samband við okkur"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Hvað er það sem þú ert í sambandi við okkur útaf?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
@@ -1614,7 +1614,7 @@ msgstr "Náði því"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Viltu samstilla þetta tæki við reikninginn þinn?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1622,7 +1622,7 @@ msgstr "Samstilla þetta tæki"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr ""
+msgstr "Skref 1 af 2: Settu aftur inn lykilorðið"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -1638,11 +1638,11 @@ msgstr "Tenging tókst"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Lokaðu þessari síðu og haltu áfram á hinu tækinu."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Ný innskráning í Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
