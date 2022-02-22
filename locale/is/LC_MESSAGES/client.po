@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 12:11+0000\n"
+"PO-Revision-Date: 2022-02-22 12:42+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -868,7 +868,7 @@ msgstr "IP-vistfang: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr ""
+msgstr "Í öryggisskyni skaltu staðfesta þessa innskráningu til að hefja samstillingu við þetta tæki:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -933,11 +933,11 @@ msgstr "Ertu ekki með endurheimtulykil?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
-msgstr ""
+msgstr "Get ekki stofnað notandareikning"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr ""
+msgstr "Þú þarft að uppfylla tilteknar aldurskröfur til að geta stofnað reikning á Firefox&nbsp;Accounts."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -949,19 +949,19 @@ msgstr "Veldu hvað á að samstilla:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Samstilla valið"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Ekki samstilla þetta tæki"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr ""
+msgstr "Tengill til að endurstilla lykilorð er skemmdur"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr ""
+msgstr "Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns. Afritaðu varlega slóð tengilsins og prófaðu aftur."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -987,15 +987,15 @@ msgstr "Settu aftur inn lykilorðið"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr ""
+msgstr "Manstu lykilorðið? Skráðu þig inn"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr ""
+msgstr "Aðallykilorð hefur þegar verið staðfest"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr ""
+msgstr "Innskráning hefur þegar verið staðfest"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Verification link expired"
@@ -1003,7 +1003,7 @@ msgstr "Staðfestingartengill er útrunninn"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new verification link"
-msgstr ""
+msgstr "Smelltu hér til að fá nýjan staðfestingartengil"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Verification error"
@@ -1011,11 +1011,11 @@ msgstr "Villa í staðfestingu"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Staðfestu reikninginn þinn"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Staðfestu þessa innskráningu"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
@@ -1037,7 +1037,7 @@ msgstr "Til baka"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr ""
+msgstr "Endurstillingarpóstur sendur"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1050,11 +1050,11 @@ msgstr "Settu inn staðfestingarkóða"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Halda áfram í <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Settu inn staðfestingarkóðann sem sendur var til %(escapedEmail)s innan 5 mínútna."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1068,56 +1068,56 @@ msgstr "Sannreyna"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Vantar annan kóða? Endursenda"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Tengja annað tæki"
 
 #: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
-msgstr ""
+msgstr "Þetta Firefox-tilvik er tengt"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
-msgstr ""
+msgstr "Tölvupóstfang staðfest"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Ljúktu uppsetningunni þinni"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
-msgstr ""
+msgstr "Skráðu þig inn í þetta tilvik Firefox til að ljúka uppsetningunni"
 
 #: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
-msgstr ""
+msgstr "Enn að bæta við tækjum?"
 
 #: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningunni"
 
 #: .es5/templates/connect_another_device.mustache:21
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr ""
+msgstr "Enn að bæta við tækjum? Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningunni"
 
 #: .es5/templates/connect_another_device.mustache:23
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr ""
+msgstr "Skráðu þig inn í Firefox fyrir Android til að ljúka uppsetningunni"
 
 #: .es5/templates/connect_another_device.mustache:25
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr ""
+msgstr "Skráðu þig inn í Firefox fyrir iOS til að ljúka uppsetningunni"
 
 #: .es5/templates/connect_another_device.mustache:31
 msgid "Why is more than one device required?"
-msgstr ""
+msgstr "Hvers vegna eru fleiri en eitt tæki nauðsynleg?"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
-msgstr ""
+msgstr "Vefkökur og gagnageymslur á tæki eru nauðsynlegar"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
@@ -1208,11 +1208,11 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Skannaðu auðkenningarkóða"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Settu kóðann inn handvirkt"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr ""
+msgstr "Geturðu ekki skannað kóða?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1274,7 +1274,7 @@ msgstr "Sækja Firefox fyrir snjalltæki."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Beiðni um heimildir"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
@@ -1299,11 +1299,11 @@ msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
-msgstr ""
+msgstr "Halda áfram á aðganginn minn"
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Aðgangurinn þinn er tilbúinn!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new recovery key"
@@ -1311,7 +1311,7 @@ msgstr "Útbúa nýjan endurheimtulykil"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
-msgstr ""
+msgstr "Tilkynna óheimila innskráningu?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
@@ -1333,7 +1333,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr ""
+msgstr "Hefja endurstillingu"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
@@ -1407,7 +1407,7 @@ msgstr "Settu inn 10-stafa endurheimtukóða"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Ertu læst/ur úti?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1420,7 +1420,7 @@ msgstr ""
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 #: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Heimila þessa innsendingu"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Check your email for the code sent to %(email)s."
@@ -1428,7 +1428,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Settu inn öryggiskóða"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
@@ -1486,7 +1486,7 @@ msgstr ""
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Viltu samstilla símann þinn?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."

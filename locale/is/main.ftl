@@ -32,6 +32,7 @@ general-error-heading = Almenn forritsvilla
 basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
 payment-error-1 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Reyndu aftur eða hafðu samband við útgefanda kortsins.
 payment-error-2 = Hmm. Vandamál kom upp við að heimila greiðsluna þína. Hafðu samband við útgefanda kortsins.
+payment-error-3b = Óvænt villa kom upp við vinnslu greiðslunnar þinnar, reyndu aftur.
 payment-error-retry-button = Reyndu aftur
 payment-error-manage-subscription-button = Sýsla með áskriftina mína
 country-currency-mismatch = Gjaldmiðill þessarar áskriftar gildir ekki fyrir landið sem tengist greiðslunni þinni.
@@ -41,6 +42,9 @@ no-subscription-change = Því miður. Þú getur ekki breytt áskriftarleiðinn
 iap-already-subscribed = Þú ert nú þegar áskrifandi í gegnum { $mobileAppStore }.
 expired-card-error = Það lítur út fyrir að greiðslukortið þitt sé útrunnið. Prófaðu annað kort.
 insufficient-funds-error = Það lítur út fyrir að kortið þitt sé ekki með nægilega inneign. Prófaðu annað kort.
+withdrawal-count-limit-exceeded-error = Það lítur út fyrir að þessi færsla muni fara fram yfir úttektarheimildina þína. Prófaðu annað kort.
+charge-exceeds-source-limit = Það lítur út fyrir að þessi færsla muni fara fram yfir daglegu úttektarheimildina þína. Prófaðu annað kort eða eftir 24 tíma.
+instant-payouts-unsupported = Svo virðist sem debetkortið þitt sé ekki sett upp fyrir skyndigreiðslur. Prófaðu annað debet- eða kreditkort.
 
 ##  $productName (String) - The name of the subscribed product.
 
