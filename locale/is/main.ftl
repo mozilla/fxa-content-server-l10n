@@ -284,6 +284,7 @@ reactivate-confirm-button = Gerast áskrifandi aftur
 
 reactivate-panel-date = Þú sagðir upp áskriftinni þinni þann { $date }.
 reactivate-panel-copy = Þú munt missa aðgang að { $name } þann <strong>{ $date }</strong>.
+reactivate-success-copy = Takk! Nú er allt tilbúið.
 reactivate-success-button = Loka
 
 ## subscription item
@@ -292,20 +293,46 @@ reactivate-success-button = Loka
 
 sub-item-missing = Vandamál við að hlaða inn áskriftum
 sub-item-missing-msg = Reyndu aftur seinna.
+sub-item-no-such-plan = Engin slík áskriftarleið fyrir þessa áskrift.
+sub-item-cancel-sub = Hætta áskrift
+sub-item-stay-sub = Halda áskrift áfram
+sub-item-cancel-msg =
+    Þú munt ekki lengur geta notað { $name } eftir
+    { $period }, síðasta dag greiðslutímabilsins.
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Innkaup í forriti
+sub-iap-item-apple-purchase = { -brand-name-apple }: Innkaup í forriti
 sub-iap-item-manage-button = Stjórna
+account-activated = Reikningurinn þinn er virkjaður, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Uppfæri greiðsluupplýsingar…
+sub-route-idx-reactivating = Mistókst að endurvirkja áskrift
+sub-route-idx-cancel-failed = Mistókst að segja upp áskrift
+sub-route-idx-contact = Hafa samband við aðstoðarteymi
 sub-route-idx-cancel-msg-title = Okkur þykir miður að þú sért á förum
+sub-route-idx-cancel-aside = Ertu með spurningar? Farðu á <a>{ -brand-name-mozilla } aðstoðargáttina</a>.
+sub-subscription-error =
+    .title = Vandamál við að hlaða inn áskriftum
+sub-customer-error =
+    .title = Vandamál við að hlaða inn viðskiptavini
+sub-route-payment-modal-heading = Ógildar greiðsluupplýsingar
+pay-update-manage-btn = Stjórna
 
 ## subscription create
 
+pay-with-heading-other = Veldu greiðslumáta
+pay-with-heading-card-or = Eða borga með greiðslukorti
+pay-with-heading-card-only = Borga með greiðslukorti
 
 ## plan-details
 
+plan-details-header = Upplýsingar um vöru
+plan-details-show-button = Sjá nánar
+plan-details-hide-button = Fela ítarupplýsingar
 plan-details-total-label = Samtals
 plan-details-list-price = Listaverð
 
