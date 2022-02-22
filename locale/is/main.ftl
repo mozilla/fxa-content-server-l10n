@@ -109,15 +109,25 @@ payment-validate-zip-short = Póstnúmerið er of stutt
 ## subscription redirect
 
 sub-redirect-ready = Áskriftin þín er tilbúin
+sub-redirect-copy = Vinsamlegast gefðu þér smá stund til að segja okkur frá reynslu þinni.
 
 ## fields
 
+default-input-error = Þessi reitur er nauðsynlegur
+input-error-is-required = { $label } er nauðsynlegt
 
 ## subscription upgrade
 
+product-plan-change-heading = Farðu yfir breytinguna þína
+sub-update-payment-title = Greiðsluupplýsingar
+sub-update-card-exp = Rennur út { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
+sub-change-submit = Staðfesta breytingu
+sub-update-current-plan-label = Núverandi áskriftarleið
+sub-update-new-plan-label = Ný áskriftarleið
+sub-update-total-label = Ný heildarupphæð
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -129,13 +139,17 @@ sub-redirect-ready = Áskriftin þín er tilbúin
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-expires-on = Rennur út { $date }
 
 ##
 
+pay-update-card-exp = Rennur út { $expirationDate }
+pay-update-change-btn = Breyta
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Viltu halda áfram að nota { $name }?
 
 ##  $date (Date) - Last day of product access
 
@@ -148,24 +162,32 @@ reactivate-success-button = Loka
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Stjórna
 
 ## subscription route index
 
+sub-route-idx-cancel-msg-title = Okkur þykir miður að þú sért á förum
 
 ## subscription create
 
 
 ## plan-details
 
+plan-details-total-label = Samtals
+plan-details-list-price = Listaverð
 
 ## coupons
 
+coupon-discount = Afsláttur
+coupon-submit = Virkja
+coupon-remove = Fjarlægja
 
 ## payment-processing
 
 
 ## payment confirmation
 
+payment-confirmation-thanks-heading = Þakka þér fyrir!
 
 ## payment confirmation details
 ## $email (string) - The user's email.
@@ -185,3 +207,7 @@ reactivate-success-button = Loka
 # continue.
 new-user-email =
     .label = Settu inn tölvupóstfangið þitt
+payment-method-header = Veldu greiðslumáta þinn
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Nauðsynlegt
