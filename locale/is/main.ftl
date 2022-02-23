@@ -344,6 +344,12 @@ sub-route-idx-reactivating = Mistókst að endurvirkja áskrift
 sub-route-idx-cancel-failed = Mistókst að segja upp áskrift
 sub-route-idx-contact = Hafa samband við aðstoðarteymi
 sub-route-idx-cancel-msg-title = Okkur þykir miður að þú sért á förum
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } áskriftinni þinni hefur verið sagt upp.
+          <br />
+          Þú munt áfram hafa aðgang að { $name } til { $date }.
 sub-route-idx-cancel-aside = Ertu með spurningar? Farðu á <a>{ -brand-name-mozilla } aðstoðargáttina</a>.
 sub-subscription-error =
     .title = Vandamál við að hlaða inn áskriftum
@@ -408,9 +414,34 @@ payment-confirmation-thanks-subheading-account-exists = Þú munt fá tölvupós
 payment-confirmation-order-heading = Upplýsingar um pöntun
 payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = Greiðsluupplýsingar
+payment-confirmation-amount = { $amount } á { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } á dag
+       *[other] { $amount } á { $intervalCount } daga fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } á viku
+       *[other] { $amount } á { $intervalCount } vikna fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } á mánuði
+       *[other] { $amount } á { $intervalCount } mánaða fresti
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } á ári
+       *[other] { $amount } á { $intervalCount } ára fresti
+    }
 payment-confirmation-download-button = Halda áfram í niðurhal
 payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
@@ -425,10 +456,14 @@ new-user-email =
     .label = Settu inn tölvupóstfangið þitt
 new-user-confirm-email =
     .label = Staðfestu tölvupóstfangið þitt
+new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangið þitt til að búa til reikninginn þinn. Við munum aldrei selja það til utanaðkomandi aðila.
 new-user-email-validate = Tölvupóstfangið er ekki gilt
+new-user-email-validate-confirm = Tölvupóstföngin passa ekki saman
 new-user-already-has-account-sign-in = Þú ert nú þegar með reikning. <a>Skráðu þig inn</a>
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
 new-user-submit = Gerast áskrifandi núna
+manage-pocket-title = Ertu að leita að { -brand-name-pocket } forgangsáskriftinni þinni?
+manage-pocket-body = Til að sýsla með hana, skaltu <a>smella hér</a>.
 payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
