@@ -52,6 +52,7 @@ card-error = Ekki tókst að vinna úr færslunni þinni. Staðfestu greiðsluko
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error-2 = Kerfisvilla olli því að skráningin þín fyrir { $productName } mistókst. Greiðslumáti þinn hefur ekki verið gjaldfærður. Reyndu aftur.
+newsletter-signup-error = Þú ert ekki skráður fyrir póstum um uppfærslur á hugbúnaði/þjónustum. Þú getur reynt aftur í stillingum reikningsins þíns.
 fxa-post-passwordless-sub-error = Áskriftin er staðfest, en ekki tókst að hlaða inn staðfestingarsíðunni. Athugaðu tölvupóstinn þinn til að setja upp reikninginn þinn.
 
 ## settings
@@ -140,6 +141,31 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+        [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } daglega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+       *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } daga fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+        [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } vikulega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+       *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } vikna fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+        [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } mánaðarlega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+       *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } mánaða fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+        [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } árlega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+       *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } ára fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+    }
+payment-confirm = Ég heimila hér með Mozilla, framleiðanda Firefox-hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>${ $amount } á { $interval }</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
 
 ##
 
