@@ -445,12 +445,6 @@ profile-picture =
     .header = Billede
 profile-display-name =
     .header = Vist navn
-profile-password =
-    .header = Adgangskode
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Oprettet { $date }
 profile-primary-email =
     .header = Primær mailadresse
 
@@ -460,6 +454,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sikkerhed
+security-password =
+    .header = Adgangskode
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Oprettet { $date }
 
 ## Switch component
 
