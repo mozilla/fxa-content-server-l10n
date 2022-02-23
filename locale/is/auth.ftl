@@ -219,3 +219,68 @@ subscriptionCancellation-title = Okkur þykir miður að þú sért á förum
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Þér hefur tekist að skipta úr { $productNameOld } yfir í { $productNameNew }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Áskriftinni þinni að { $productName } hefur verið hætt
+subscriptionFailedPaymentsCancellation-title = Áskriftinni þinni hefur verið sagt upp
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Greiðsla fyrir { $productName } staðfest
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Takk fyrir að gerast áskrifandi að { $productName }
+subscriptionFirstInvoice-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Reikningur númer: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Innheimt: { $invoiceTotal } þann { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Greiðsla fyrir { $productName } staðfest
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Takk fyrir að gerast áskrifandi að { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Reikningur númer: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Samtala: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Eins-skiptis afsláttur: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Til greiðslu { $invoiceTotal } þann { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Greiðslukort fyrir { $productName } rennur út bráðlega
+subscriptionPaymentExpired-title = Greiðslukortið þitt er við það að renna út
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = Greiðslukortið sem þú notar til að greiða fyrir { $productName } er við það að renna út.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Greiðsla fyrir { $productName } mistókst
+subscriptionPaymentFailed-title = Því miður, við eigum í vandræðum með greiðsluna þína

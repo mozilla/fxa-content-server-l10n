@@ -51,6 +51,7 @@ card-error = Ekki tókst að vinna úr færslunni þinni. Staðfestu greiðsluko
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Kerfisvilla olli því að skráningin þín fyrir { $productName } mistókst. Greiðslumáti þinn hefur ekki verið gjaldfærður. Reyndu aftur.
 fxa-post-passwordless-sub-error = Áskriftin er staðfest, en ekki tókst að hlaða inn staðfestingarsíðunni. Athugaðu tölvupóstinn þinn til að setja upp reikninginn þinn.
 
 ## settings
