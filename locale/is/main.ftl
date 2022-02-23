@@ -194,6 +194,10 @@ product-plan-change-heading = Farðu yfir breytinguna þína
 sub-change-failed = Breyting á áskriftarleið mistókst
 sub-update-payment-title = Greiðsluupplýsingar
 sub-update-card-exp = Rennur út { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
+    upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
+    { $startingDate } færð þú kröfu um alla upphæðina.
 
 ##
 
@@ -329,6 +333,9 @@ sub-item-stay-sub = Halda áskrift áfram
 sub-item-cancel-msg =
     Þú munt ekki lengur geta notað { $name } eftir
     { $period }, síðasta dag greiðslutímabilsins.
+sub-item-cancel-confirm =
+    Hætta við aðgang minn og vistaðar upplýsingar mínar innan
+    { $name } þann { $period }
 
 ## subscription iap item
 
@@ -380,6 +387,7 @@ plan-details-list-price = Listaverð
 ## coupons
 
 coupon-discount = Afsláttur
+coupon-discount-applied = Afsláttarbónus virkjaður
 coupon-submit = Virkja
 coupon-remove = Fjarlægja
 coupon-error = Kóðinn sem þú settir inn er ógildur eða útrunninn.
@@ -413,6 +421,7 @@ payment-confirmation-thanks-heading-account-exists = Takk, athugaðu nú tölvup
 payment-confirmation-thanks-subheading-account-exists = Þú munt fá tölvupóst á { $email } með leiðbeiningum um uppsetningu á reikningnum þínum, sem og greiðsluupplýsingum þínum.
 payment-confirmation-order-heading = Upplýsingar um pöntun
 payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
+payment-confirmation-billing-heading = Innheimt til
 payment-confirmation-details-heading-2 = Greiðsluupplýsingar
 payment-confirmation-amount = { $amount } á { $interval }
 
@@ -456,6 +465,7 @@ new-user-email =
     .label = Settu inn tölvupóstfangið þitt
 new-user-confirm-email =
     .label = Staðfestu tölvupóstfangið þitt
+new-user-subscribe-product-updates = Ég myndi vilja fá upplýsingar um vöruuppfærslur frá { -brand-name-firefox }
 new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangið þitt til að búa til reikninginn þinn. Við munum aldrei selja það til utanaðkomandi aðila.
 new-user-email-validate = Tölvupóstfangið er ekki gilt
 new-user-email-validate-confirm = Tölvupóstföngin passa ekki saman

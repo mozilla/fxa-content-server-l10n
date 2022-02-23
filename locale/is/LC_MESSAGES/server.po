@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 13:58+0000\n"
+"PO-Revision-Date: 2022-02-23 17:21+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -17,23 +17,24 @@ msgstr ""
 
 #: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
 msgid "Here's your reminder to sync devices."
-msgstr ""
+msgstr "Hér er áminning til þín um að samstilla tæki."
 
 #: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
 msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
 msgstr ""
+"Það þarf tvo til að samstilla. Með því að samstilla annað tæki við Firefox heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum Firefox-gögnum eins alls staðar þar sem þú notar Firefox."
 
 #: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
 msgid "Last reminder to sync devices!"
-msgstr ""
+msgstr "Síðasta áminning um að samstilla tæki!"
 
 #: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
 msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
+msgstr "Með því að samstilla annað tæki við Firefox heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum Firefox-gögnum eins alls staðar þar sem þú notar Firefox."
 
 #: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
 msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr ""
+msgstr "Ef þú hefur ekki þegar náð í %(productName)s skulum við byrja að nota alla eiginleika sem fylgja áskriftinni þinni:"
 
 #: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
@@ -41,7 +42,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
 msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Spurningar varðandi áskriftina þína? <a href=\"%(subscriptionSupportUrl)s\">SAðstoðarteymið</a> okkar er hér til að hjálpa þér."
 
 #: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
@@ -99,7 +100,7 @@ msgstr "Firefox-reikningateymið"
 
 #: lib/senders/templates/passwordChangeRequired.txt:4
 msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr ""
+msgstr "Mikilvægt: Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum."
 
 #: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
 msgid "Password changed successfully"
