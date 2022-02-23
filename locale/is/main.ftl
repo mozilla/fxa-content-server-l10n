@@ -181,6 +181,7 @@ payment-validate-zip-short = Póstnúmerið er of stutt
 
 sub-redirect-ready = Áskriftin þín er tilbúin
 sub-redirect-copy = Vinsamlegast gefðu þér smá stund til að segja okkur frá reynslu þinni.
+sub-redirect-skip-survey = Nei takk, förum bara að vörunni minni.
 
 ## fields
 
