@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 18:10+0000\n"
+"PO-Revision-Date: 2022-02-23 18:21+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -228,11 +228,11 @@ msgstr "Þú hefur fjarlægt endurheimtulykil fyrir Firefox-reikninginn þinn me
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
-msgstr ""
+msgstr "Þennan endurheimtulykil er lengur hægt að nota til að endurheimta reikninginn þinn."
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr ""
+msgstr "Þú hefur fjarlægt endurheimtulykil fyrir Firefox-reikninginn þinn af eftirfarandi tæki:"
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
 msgid "Secondary email removed"
@@ -248,15 +248,15 @@ msgstr "Tveggja-þrepa auðkenning óvirk"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Þú hefur gert óvirka tveggja-þrepa auðkenningu á Firefox-reikningnum þínum úr eftirfarandi tæki:"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Ekki verður lengur krafist öryggiskóða við hverja innskráningu."
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr ""
+msgstr "Þú hefur gert óvirka tveggja-þrepa auðkenningu á Firefox-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu."
 
 #: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
 msgid "Firefox Account verified. You're almost there."
@@ -345,17 +345,17 @@ msgstr "Næsti reikningur: %(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
-msgstr ""
+msgstr "Þú hefur ekki ennþá aðgang að áskriftinni þinni"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
 msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
+msgstr "Fyrir nokkrum dögum síðan bjóstu til Firefox-reikning en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
 #: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
 msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
+msgstr "Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn."
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
 msgid "Create a password:"
@@ -410,7 +410,7 @@ msgstr "Takk fyrir að gerast áskrifandi að %(productName)s"
 #: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
 msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr ""
+msgstr "Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
@@ -472,7 +472,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
-msgstr ""
+msgstr "Því miður, við eigum í vandræðum með greiðsluna þína"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
 msgid "We had a problem with your latest payment for %(productName)s."
@@ -481,7 +481,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
 msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr ""
+msgstr "Það kann að vera að greiðslukortið þitt sé útrunnið eða að fyrirliggjandi greiðslumáti þinn sé úreltur."
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
@@ -494,7 +494,7 @@ msgstr ""
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
 msgid "Sorry, we’re having trouble with your payment method"
-msgstr ""
+msgstr "Því miður, við eigum í vandræðum með greiðslumátann þinn"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
@@ -512,7 +512,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
-msgstr ""
+msgstr "Áskriftin þín verður endurnýjuð fljótlega"
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
 msgid "Dear %(productName)s customer,"
@@ -578,11 +578,11 @@ msgstr "Greiðslukortið sem þú notar til að greiða fyrir eftirfarandi áskr
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
 msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr ""
+msgstr "Spurningar varðandi áskriftirnar þínar? <a href=\"%(subscriptionSupportUrl)s\">Aðstoðarteymið</a> okkar er hér til að hjálpa þér."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr ""
+msgstr "Spurningar varðandi áskriftirnar þínar? Aðstoðarteymið okkar er hér til að hjálpa þér:"
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
@@ -590,11 +590,11 @@ msgstr ""
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
-msgstr ""
+msgstr "Er þetta þú að skrá þig inn?"
 
 #: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
 msgid "If yes, here is the authorization code you need:"
-msgstr ""
+msgstr "Ef já, þá er hérna auðkenningarkóðinn sem þú þarft:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
@@ -610,7 +610,7 @@ msgstr "Velkomin í Firefox-fjölskylduna"
 
 #: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
 msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr ""
+msgstr "Fyrir nokkrum dögum síðan bjóstu til Firefox-reikning en staðfestir hann aldrei."
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
@@ -626,11 +626,11 @@ msgstr "Ennþá þarna?"
 
 #: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
 msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr ""
+msgstr "Fyrir nokkrum dögum síðan bjóstu til Firefox-reikning en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér."
 
 #: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
 msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr ""
+msgstr "Staðfestu þetta tölvupóstfang til að virkja reikninginn þinn og láta okkur vita að allt sé í lagi."
 
 #: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
 msgid "Activate the Firefox family of products"
@@ -666,7 +666,7 @@ msgstr "Staðfestu aðaltölvupóstfang"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr ""
+msgstr "Beiðni um að breyta reikningi hefur verið gerð úr eftirfarandi tæki:"
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
@@ -698,11 +698,11 @@ msgstr ""
 
 #: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
 msgid "Is this you signing up?"
-msgstr ""
+msgstr "Ert þú að nýskrá þig?"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr ""
+msgstr "Ef já, notaðu þennan staðfestingarkóða á skráningarforminu þínu:"
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -718,11 +718,11 @@ msgstr ""
 
 #: lib/senders/templates/partials/appBadges.html:1
 msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr ""
+msgstr "Eða settu upp á <a %(desktopLinkAttributes)s>annarri vinnutölvu</a>."
 
 #: lib/senders/templates/partials/appBadges.html:2
 msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr ""
+msgstr "Eða settu upp á <a %(cadLinkAttributes)s>öðru tæki</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
@@ -1087,6 +1087,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Við erum núna undir miklu álagi og erum að vinna að því að koma\n"
+"          kerfinu aftur í eðlilegt horf eins fljótt og auðið er."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
