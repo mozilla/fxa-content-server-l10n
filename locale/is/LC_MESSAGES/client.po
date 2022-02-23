@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 13:39+0000\n"
+"PO-Revision-Date: 2022-02-23 13:41+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -634,11 +634,11 @@ msgstr "Reikningurinn er ekki lengur til."
 
 #: .es5/lib/auth-errors.js:476
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "Ógildur eiginleiki í resume-teikni: %(property)s"
 
 #: .es5/lib/auth-errors.js:480
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "Vantar eiginleika í resume-teikni: %(property)s"
 
 #: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
