@@ -364,9 +364,20 @@ verifyLoginCode-subject-line = Innskráningarkóði fyrir { $serviceName }
 verifyLoginCode-title = Er þetta þú að skrá þig inn?
 verifyLoginCode-prompt = Ef já, þá er hérna staðfestingarkóðinn:
 verifyLoginCode-expiry-notice = Hann rennur út eftir 5 mínútur.
-verifyPrimary-title = Staðfestu aðaltölvupóstfang
+verifyPrimary-title = Sannreyna aðaltölvupóstfang
 verifyPrimary-subject = Staðfestu aðaltölvupóstfang
 verifyPrimary-action = Sannreyna tölvupóstfang
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifySecondary-subject = Staðfestu aukatölvupóstfang
 verifySecondary-title = Sannreyna aukatölvupóstfang
+verifySecondary-action = Sannreyna tölvupóstfang
+verifySecondary-prompt = { verifySecondary-action }:
+verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
+verifySecondaryCode-title = Sannreyna aukatölvupóstfang
+verifySecondaryCode-prompt = Notaðu þennan staðfestingarkóða:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Staðfestingarkóði: { $code }
+verifyShortCode-title = Ert þú að nýskrá þig?
+verifyShortCode-prompt = Ef já, notaðu þennan staðfestingarkóða á skráningarforminu þínu:
+verifyShortCode-expiry-notice = Hann rennur út eftir 5 mínútur.
