@@ -131,7 +131,7 @@ flow-container-back = Til baka
 
 # GetDataTrio component, part of Recovery Key flow
 
-get-data-trio-title = Endurheimtarkóðar
+get-data-trio-title = Endurheimtukóðar
 get-data-trio-download =
     .title = Sækja
 get-data-trio-copy =

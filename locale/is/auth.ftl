@@ -66,6 +66,7 @@ change-password-plaintext = Ef þig grunar að einhver sé að reyna að fá að
 user-ip = IP-vistfang: { $ip }
 manage-account = Sýsla með reikning
 manage-account-plaintext = { manage-account }:
+payment-details = Nánar um greiðslu:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Reikningur númer: { $invoiceNumber }
@@ -154,4 +155,67 @@ postAddTwoStepAuthentication-code-required = Öryggiskóða frá auðkenningarfo
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
 postChangePrimary-action = Sýsla með reikning
+postConsumeRecoveryCode-subject = Endurheimtukóði sem var notaður
+postConsumeRecoveryCode-title = Endurheimtukóði notaður
+postConsumeRecoveryCode-description = Þú hefur notað endurheimtukóða úr eftirfarandi tæki:
+postConsumeRecoveryCode-action = Sýsla með reikning
+postNewRecoveryCodes-subject = Nýir endurheimtukóðar útbúnir
+postNewRecoveryCodes-title = Nýir endurheimtukóðar útbúnir
+postNewRecoveryCodes-action = Sýsla með reikning
+postRemoveAccountRecovery-subject = Endurheimtulykill reiknings fjarlægður
+postRemoveAccountRecovery-title = Endurheimtulykill reiknings fjarlægður
+postRemoveAccountRecovery-action = Sýsla með reikning
+postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
+postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
+postRemoveSecondary-action = Sýsla með reikning
+postRemoveTwoStepAuthentication-subject-line = Slökkt er á tveggja-þrepa auðkenningu
+postRemoveTwoStepAuthentication-title = Tveggja-þrepa auðkenning óvirk
+postRemoveTwoStepAuthentication-action = Sýsla með reikning
+postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
+postVerify-sub-title = { -product-firefox-account } staðfestur. Þetta er næstum tilbúið.
+postVerify-title = Næst skaltu samstilla á milli tækjanna þinna!
+postVerify-subject = Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni
+postVerify-setup = Setja upp næsta tæki
+postVerify-action = Setja upp næsta tæki
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Ertu með spurningar? Farðu á { $supportUrl }
+postVerifySecondary-subject = Aukapóstfangi bætt við
+postVerifySecondary-title = Aukapóstfangi bætt við
+postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
+recovery-title = Þarftu að endurstilla lykilorðið þitt?
+recovery-description = Smelltu á hnappinn innan klukkutíma til að búa til nýtt lykilorð. Beiðnin kom frá eftirfarandi tæki:
+recovery-action = Búa til nýtt lykilorð
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Áskriftinni þinni að { $productName } hefur verið hætt
+subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
+# COMMENT ABOUT After the colon,
+payment-details = Nánar um greiðslu:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu lykilorðið þitt.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Velkomin í { $productName }
+subscriptionAccountFinishSetup-action = Búa til lykilorð
+subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
+subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
+subscriptionAccountReminderFirst-content-info = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderFirst-content-select = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
+subscriptionAccountReminderFirst-action = Búa til lykilorð
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Lokaáminning: Settu upp reikninginn þinn
+subscriptionAccountReminderSecond-title = Velkomin í { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderSecond-content-select = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
+subscriptionAccountReminderSecond-action = Búa til lykilorð
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Áskriftinni þinni að { $productName } hefur verið hætt
+subscriptionCancellation-title = Okkur þykir miður að þú sért á förum
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productNameNew }

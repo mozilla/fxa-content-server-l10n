@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 11:01+0000\n"
+"PO-Revision-Date: 2022-02-23 13:58+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -209,7 +209,7 @@ msgstr "Notaður endurheimtukóði"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
 msgid "New recovery codes generated"
-msgstr "Nýjir endurheimtukóðar útbúnir"
+msgstr "Nýir endurheimtukóðar útbúnir"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
@@ -273,7 +273,7 @@ msgstr "Setja upp næsta tæki"
 
 #: lib/senders/templates/postVerify.txt:5
 msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Ertu fleiri spurningar? Kíktu á %(supportUrl)s"
+msgstr "Ertu með spurningar? Kíktu á %(supportUrl)s"
 
 #: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
 msgid "Secondary email added"
