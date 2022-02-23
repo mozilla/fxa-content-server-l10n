@@ -284,3 +284,89 @@ subscriptionPaymentExpired-content = Greiðslukortið sem þú notar til að gre
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Greiðsla fyrir { $productName } mistókst
 subscriptionPaymentFailed-title = Því miður, við eigum í vandræðum með greiðsluna þína
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Tilkynning um sjálfvirka endurnýjun { $productName }
+subscriptionRenewalReminder-title = Áskriftin þín verður endurnýjuð fljótlega
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Ágæti viðskiptavinur { $productName },
+subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName }-teymið
+subscriptionsPaymentExpired-subject = Greiðslukort fyrir áskriftirnar þínar rennur út bráðlega
+subscriptionsPaymentExpired-title = Greiðslukortið þitt er við það að renna út
+subscriptionsPaymentExpired-content = Greiðslukortið sem þú notar til að greiða fyrir eftirfarandi áskriftir er við það að renna út.
+subscriptionsPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { -brand-mozilla }-áskriftir
+subscriptionsPaymentProviderCancelled-title = Því miður, við eigum í vandræðum með greiðslumátann þinn
+subscriptionsPaymentProviderCancelled-content-payment = Það kann að vera að greiðslukortið þitt sé útrunnið eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Greiðsla fyrir { $productName } móttekin
+subscriptionSubsequentInvoice-title = Takk fyrir að vera áskrifandi!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Við fengum síðustu greiðslu þína vegna { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Reikningur númer: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Breyting á áskriftarleið: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = Til greiðslu { $invoiceTotal } þann { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Þú hefur uppfært í { $productNameNew }
+subscriptionUpgrade-title = Takk fyrir að uppfæra!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $productNameOld } yfir í { $productNameNew }.
+unblockCode-subject = Auðkenningarkóði reiknings
+unblockCode-title = Er þetta þú að skrá þig inn?
+unblockCode-prompt = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft: { $unblockCode }
+verificationReminderFirst-title = Velkomin í { -brand-firefox }-fjölskylduna
+verificationReminderFirst-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei.
+confirm-email = Staðfestu tölvupóstfangið
+confirm-email-plaintext = { confirm-email }:
+verificationReminderFirst-action = Staðfestu tölvupóstfangið
+verificationReminderSecond-subject = Lokaáminning: Virkjaðu reikninginn þinn
+verificationReminderSecond-title = Ennþá þarna?
+verificationReminderSecond-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér.
+verificationReminderSecond-sub-description = Staðfestu þetta tölvupóstfang til að virkja reikninginn þinn og láta okkur vita að allt sé í lagi.
+verificationReminderSecond-action = Staðfesta tölvupóstfang
+verify-subject = Ljúktu við að búa til reikninginn þinn
+verify-action = Staðfesta tölvupóstfang
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Ný innskráning á { $clientName }
+verifyLogin-description = Í öryggisskyni skaltu staðfesta þessa innskráningu frá eftirfarandi tæki:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Staðfestu nýja innskráningu á { $clientName }
+verifyLogin-action = Staðfesta innskráningu
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Innskráningarkóði fyrir { $serviceName }
+verifyLoginCode-title = Er þetta þú að skrá þig inn?
+verifyLoginCode-prompt = Ef já, þá er hérna staðfestingarkóðinn:
+verifyLoginCode-expiry-notice = Hann rennur út eftir 5 mínútur.
+verifyPrimary-title = Staðfestu aðaltölvupóstfang
+verifyPrimary-subject = Staðfestu aðaltölvupóstfang
+verifyPrimary-action = Sannreyna tölvupóstfang
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
+verifySecondary-subject = Staðfestu aukatölvupóstfang
+verifySecondary-title = Sannreyna aukatölvupóstfang

@@ -171,6 +171,8 @@ sub-update-card-exp = Rennur út { $cardExpMonth }/{ $cardExpYear }
 ##
 
 sub-change-submit = Staðfesta breytingu
+sub-change-indicator =
+    .aria-label = breytingavísir
 sub-update-current-plan-label = Núverandi áskriftarleið
 sub-update-new-plan-label = Ný áskriftarleið
 sub-update-total-label = Ný heildarupphæð
@@ -325,6 +327,7 @@ pay-update-manage-btn = Stjórna
 
 ## subscription create
 
+sub-guarantee = 30-daga skilafrestur
 pay-with-heading-other = Veldu greiðslumáta
 pay-with-heading-card-or = Eða borga með greiðslukorti
 pay-with-heading-card-only = Borga með greiðslukorti
@@ -342,6 +345,10 @@ plan-details-list-price = Listaverð
 coupon-discount = Afsláttur
 coupon-submit = Virkja
 coupon-remove = Fjarlægja
+coupon-error = Kóðinn sem þú settir inn er ógildur eða útrunninn.
+coupon-error-generic = Villa kom upp við vinnslu kóðans. Reyndu aftur.
+coupon-error-expired = Kóðinn sem þú settir inn er útrunninn.
+coupon-error-invalid = Kóðinn sem þú settir inn er ógildur.
 coupon-enter-code =
     .placeholder = Settu inn kóða
 
@@ -369,10 +376,13 @@ payment-confirmation-details-heading-2 = Greiðsluupplýsingar
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = Halda áfram í niðurhal
 payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = Ertu nú þegar með { -brand-name-firefox } reikning? <a>Skráðu þig inn</a>
+new-user-step-1 = 1. Búðu til { -brand-name-firefox }-reikning
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -381,6 +391,7 @@ new-user-email =
 new-user-confirm-email =
     .label = Staðfestu tölvupóstfangið þitt
 new-user-email-validate = Tölvupóstfangið er ekki gilt
+new-user-already-has-account-sign-in = Þú ert nú þegar með reikning. <a>Skráðu þig inn</a>
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
 new-user-submit = Gerast áskrifandi núna
 payment-method-header = Veldu greiðslumáta þinn
