@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 17:34+0000\n"
+"PO-Revision-Date: 2022-02-23 18:10+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -178,15 +178,15 @@ msgstr "Tveggja-þrepa auðkenning virk"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr ""
+msgstr "Þú hefur virkjað tveggja-þrepa auðkenningu á Firefox-reikningnum þínum úr eftirfarandi tæki:"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu."
 
 #: lib/senders/templates/postAddTwoStepAuthentication.txt:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr ""
+msgstr "Þú hefur virkjað tveggja-þrepa auðkenningu á Firefox-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu."
 
 #: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
 msgid "New primary email"
@@ -204,7 +204,7 @@ msgstr "Endurheimtukóði notaður"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr ""
+msgstr "Þú hefur notað endurheimtukóða úr eftirfarandi tæki:"
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
@@ -224,7 +224,7 @@ msgstr "Endurheimtulykill reiknings fjarlægður"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr ""
+msgstr "Þú hefur fjarlægt endurheimtulykil fyrir Firefox-reikninginn þinn með því að nota eftirfarandi tæki:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
@@ -726,7 +726,7 @@ msgstr ""
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr ""
+msgstr "Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem heimilaðir þessa aðgerð, skaltu <a %(passwordChangeLinkAttributes)s>endurstilla lykilorðið þitt</a>."
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
 msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
@@ -734,7 +734,7 @@ msgstr "Til að sjá nánari upplýsingar, ættirðu að skoða <a %(supportLink
 
 #: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
 msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr ""
+msgstr "Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á Firefox-reikninginn þinn, ættirðu að endurstilla lykilorðið þitt strax á %(passwordChangeLink)s"
 
 #: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
 msgid "This is an automated email; if you received it in error, no action is required."
@@ -742,7 +742,7 @@ msgstr "Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan
 
 #: lib/senders/templates/partials/automatedEmailResetPassword.html:1
 msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr ""
+msgstr "Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem heimilaðir þessa aðgerð, skaltu <a %(resetLinkAttributes)s>endurstilla lykilorðið þitt</a>."
 
 #: lib/senders/templates/partials/changePassword.txt:1
 msgid "If you suspect that someone is trying to gain access to your account, please change your password."
@@ -778,19 +778,19 @@ msgstr "Þjónustuskilmálar Firefox Cloud"
 
 #: lib/senders/templates/layouts/subscription.html:2
 msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr ""
+msgstr "Þú færð þennan tölvupóst vegna þess að %(email)s er með Firefox-reikning og þú hefur skráð þig á %(productName)s."
 
 #: lib/senders/templates/layouts/subscription.html:3
 msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
+msgstr "Þú færð þennan tölvupóst vegna þess að %(email)s er með Firefox-reikning"
 
 #: lib/senders/templates/layouts/subscription.html:4
 msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr ""
+msgstr "Þú færð þennan tölvupóst vegna þess að %(email)s er með Firefox-reikning og þú ert áskrifandi að ýmsum þjónustum."
 
 #: lib/senders/templates/layouts/subscription.html:5
 msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr ""
+msgstr "Sýsla með Firefox-notandaaðganginn þinn með því að fara á <a %(accountSettingsLinkAttributes)s>síðu reikningsins þíns</a>."
 
 #: lib/senders/templates/layouts/subscription.html:6
 msgid "Terms and cancellation policy"
@@ -878,19 +878,19 @@ msgstr "Sannvottunarkóði: %(code)s"
 
 #: lib/senders/email.js:705
 msgid "Reminder: Finish creating your account"
-msgstr ""
+msgstr "Áminning: Ljúktu við að útbúa reikninginn þinn"
 
 #: lib/senders/email.js:707
 msgid "Final reminder: Activate your account"
-msgstr ""
+msgstr "Lokaáminning: Virkjaðu reikninginn þinn"
 
 #: lib/senders/email.js:758
 msgid "Reminder: Finish setting up your account"
-msgstr ""
+msgstr "Áminning: Ljúktu við að setja upp reikninginn þinn"
 
 #: lib/senders/email.js:760
 msgid "Final reminder: Setup your account"
-msgstr ""
+msgstr "Lokaáminning: Settu upp reikninginn þinn"
 
 #: lib/senders/email.js:802 lib/senders/email.js:2013
 msgid "Create a password"
@@ -1031,11 +1031,11 @@ msgstr "Sækja %(productName)s"
 
 #: lib/senders/email.js:3020
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr ""
+msgstr "Vinsamleg áminning: Hvernig á að ljúka uppsetningu þinni á samstillingu"
 
 #: lib/senders/email.js:3021
 msgid "Final Reminder: Complete Sync Setup"
-msgstr ""
+msgstr "Lokaáminning: Ljúktu uppsetningu samstillingar"
 
 #: lib/senders/email.js:3035
 msgid "Sync another device"
@@ -1055,6 +1055,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Síðan sem þú baðst um fannst ekki. Við höfum fengið tilkynningu og\n"
+"          munum fara í að lagfæra þá tengla sem eru bilaðir."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
