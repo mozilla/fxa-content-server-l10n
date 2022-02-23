@@ -349,7 +349,11 @@ sub-subscription-error =
     .title = Vandamál við að hlaða inn áskriftum
 sub-customer-error =
     .title = Vandamál við að hlaða inn viðskiptavini
+sub-billing-update-success = Innheimtuupplýsingarnar þínar hafa verið uppfærðar
 sub-route-payment-modal-heading = Ógildar greiðsluupplýsingar
+sub-route-payment-modal-message = Það virðist vera villa varðandi { -brand-name-paypal }-reikninginn þinn, við þurfum að gera nauðsynlegar ráðstafanir til að leysa þetta greiðsluvandamál.
+sub-route-missing-billing-agreement-payment-alert = Ógildar greiðsluupplýsingar; það er villa varðandi reikninginn þinn. <div>Sýsla með upplýsingarnar</div>
+sub-route-funding-source-payment-alert = Ógildar greiðsluupplýsingar; það er villa varðandi reikninginn þinn. Það getur tekið nokkurn tíma að hreinsa út þessa viðvörun eftir að þú hefur uppfært upplýsingarnar þínar. <div>Sýsla með upplýsingarnar</div>
 pay-update-manage-btn = Stjórna
 
 ## subscription create
@@ -375,7 +379,9 @@ coupon-remove = Fjarlægja
 coupon-error = Kóðinn sem þú settir inn er ógildur eða útrunninn.
 coupon-error-generic = Villa kom upp við vinnslu kóðans. Reyndu aftur.
 coupon-error-expired = Kóðinn sem þú settir inn er útrunninn.
+coupon-error-limit-reached = Kóðinn sem þú settir inn hefur náð takmörkum sínum.
 coupon-error-invalid = Kóðinn sem þú settir inn er ógildur.
+coupon-success = Áskriftarleiðin þín mun sjálfkrafa endurnýjast á listaverði.
 coupon-enter-code =
     .placeholder = Settu inn kóða
 
@@ -393,10 +399,12 @@ payment-confirmation-thanks-heading = Þakka þér fyrir!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = Staðfestingartölvupóstur hefur verið sendur á { $email } með upplýsingum um hvernig eigi að komast í gang með { $product_name }.
 payment-confirmation-thanks-heading-account-exists = Takk, athugaðu nú tölvupóstinn þinn!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Þú munt fá tölvupóst á { $email } með leiðbeiningum um uppsetningu á reikningnum þínum, sem og greiðsluupplýsingum þínum.
 payment-confirmation-order-heading = Upplýsingar um pöntun
 payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = Greiðsluupplýsingar
