@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 11:52+0000\n"
+"PO-Revision-Date: 2022-02-23 13:39+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -606,7 +606,7 @@ msgstr "Sláðu inn rétt tölvupóstfang. firefox.com býður ekki upp á tölv
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Aðeins er hægt að setja Firefox-reikninga inn í IFRAME á samþykktum vefsvæðum"
 
 #: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
@@ -642,11 +642,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:484
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "Ógilt gagnaeigindi: %(property)s"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "Vantar gagnaeigindi: %(property)s"
 
 #: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -754,7 +754,7 @@ msgstr "Rangt redirect_uri"
 
 #: .es5/lib/oauth-errors.js:42
 msgid "Invalid assertion"
-msgstr ""
+msgstr "Ógild fullyrðing"
 
 #: .es5/lib/oauth-errors.js:46
 msgid "Unknown code"
@@ -972,6 +972,9 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>MUNDU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum)."
+" Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á "
+"gögn í  Pocket."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1019,11 +1022,11 @@ msgstr "Staðfestu þessa innskráningu"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Skoðaðu tölvupóstinn þinn hvort staðfestingartengillinn sem sendur var á %(escapedEmail)s hafi borist"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr ""
+msgstr "Skoðaðu tölvupóstinn þinn hvort tengillinn hafi borist með staðfestingu innskráningar sem sendur var á %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
@@ -1041,7 +1044,7 @@ msgstr "Endurstillingarpóstur sendur"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á %(email)s til að útbúa nýtt lykilorð."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1121,7 +1124,7 @@ msgstr "Vefkökur og gagnageymslur á tæki eru nauðsynlegar"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr ""
+msgstr "Virkjaðu vefkökur og staðværar gagnageymslur í vafranum þínum til að fá aðgang að Firefox-reikningum. Það mun virkja eiginleika á borð við að muna eftir þér á milli lota."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1163,7 +1166,7 @@ msgstr "Vista endurheimtukóða"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Geymdu þessa einnota kóða á öruggum stað til að geta notað þá þegar þú ert ekki með snjalltækið þitt við hendina."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1204,7 +1207,7 @@ msgstr "Virkja tveggja-þrepa auðkenningu"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "Bættu við öryggislagi fyrir reikninginn þinn með því að krefjast öryggiskóða frá einu af <a %(escapedTotpSupportAttributes)s>þessum auðkenningarforritum</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1224,11 +1227,11 @@ msgstr "Geturðu ekki skannað kóða?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Eftir að því er lokið, mun það byrja að útbúa öryggiskóða sem þú getur sett inn."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Skrifaðu þennan leynilykill inn í auðkenningarforritið þitt."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1256,7 +1259,7 @@ msgstr "Meðferð persónuupplýsinga"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
-msgstr ""
+msgstr "Upplifðu reynslu af samstillingu til fulls."
 
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
@@ -1315,11 +1318,11 @@ msgstr "Tilkynna óheimila innskráningu?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr ""
+msgstr "Þú fékkst tölvupóst varðandi tilraun til að fá aðgang að reikningnum þínum. Viltu tilkynna það sem grunsamlega virkni?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr "Tilkynntu virkni"
+msgstr "Tilkynna virkni"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
@@ -1330,6 +1333,9 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ATHUGAÐU: Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það"
+" gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í"
+"  Pocket."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1369,11 +1375,11 @@ msgstr "Því miður. Við höfum læst aðgangnum&nbsp;þínum."
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr ""
+msgstr "Staðfestingartölvupóstur sem við sendum á %(email)s var sendur til baka og við höfum því lokað á reikninginn þinn til að verja gögn þín í Firefox."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr ""
+msgstr "Ef þetta er gilt tölvupóstfang, skaltu <a %(escapedSupportLinkAttrs)s>láta okkur vita</a> og við munum hjálpa þér við að aflæsa reikningnum þinum."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1415,7 +1421,7 @@ msgstr "Þakka þér fyrir að vera á verði"
 
 #: .es5/templates/sign_in_reported.mustache:2
 msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr ""
+msgstr "Við höfum fengið tilkynningu varðandi þetta. Tikynningar eins og þessi hjálpa okkur við að bægja frá óprúttnum aðilum."
 
 #: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 #: .es5/templates/push/send_login.mustache:1
@@ -1460,11 +1466,11 @@ msgstr "Endurtaka lykilorð"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Þú þarft þetta lykilorð til að fá aðgang að öllum dulrituðum gögnum sem þú geymir hjá okkur.<br/>Endurstilling getur þýtt að þú mögulega tapir gögnum á borð við lykilorð og bókamerki."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Nytsamleg þekking mun koma í pósthólfið þitt. Skráðu þig til að fá meira:"
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
@@ -1522,7 +1528,7 @@ msgstr "Við höfum sent þér SMS-textaskilboð"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Tengill á Firefox-forritið var sendur á %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
@@ -1530,7 +1536,7 @@ msgstr "Rangt númer?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Ef þú færð ekki SMS-textaskilaboðin, geturðu líka leitað í forritasafninu/versluninni þinni að “Firefox.”"
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1606,7 +1612,7 @@ msgstr "Samstillingarþjónustan er ekki varanlegt öryggisafrit, þetta er einf
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
+msgstr "Þú ættir að setja upp Firefox og samstilla minnst tvö tæki, til að koma í veg fyrir að gögn tapist ef þú þarft að endurheimta þau en hefur gleymt lykilorðinu þínu."
 
 #: .es5/templates/why_connect_another_device.mustache:4
 msgid "Got it"
@@ -1658,7 +1664,7 @@ msgstr "Senda ýtitilkynningu um innskráningu"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Skoðaðu tengdu Firefox-tækin þín hvort flipinn með staðfestingu innskráningar sem við sendum hafi borist."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
