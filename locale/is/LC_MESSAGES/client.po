@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-22 17:57+0000\n"
+"PO-Revision-Date: 2022-02-23 11:11+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -1724,11 +1724,11 @@ msgstr "Skráðu þig til að fá meira"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Nytsamleg þekking mun koma í pósthólfið þitt."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Fáðu í pósthólfið þitt nytsamlega þekkingu um:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -1736,7 +1736,7 @@ msgstr "Setja %(email)s í áskrift"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Tengilinn sem þú smelltir á vantaði stafi og gæti hafa skemmst í meðförum póstforritsins þíns."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
@@ -1785,7 +1785,7 @@ msgstr "Komast í gang"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Ég ætla að gera þetta seinna, sendið mér áminningu"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
@@ -1841,7 +1841,7 @@ msgstr "Verndaðu gögnin þín með endurheimtulykli"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Samstilltu gögnin þín gætu innihaldið lykilorð sem þú hefur vistað."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
@@ -1905,7 +1905,7 @@ msgstr "Firefox vafrinn"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Samstilltu bókamerkin þín, lykilorð og fleira, á hverju tæki."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Mozilla VPN"
@@ -1913,7 +1913,7 @@ msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "VPN-einkanet frá traustum frumkvöðli í gagnaleynd á internetinu."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
@@ -1921,7 +1921,7 @@ msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "Uppgötvaðu og vistaðu bestu sögurnar af veraldarvefnum."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
@@ -1961,7 +1961,7 @@ msgstr "Til baka í áskriftir"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr ""
+msgstr "Leitarðu að Firefox Sync samstillingu? <a %(escapedSyncSuggestionAttrs)s>Þú kemst í gang hér</a>"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
@@ -1985,7 +1985,7 @@ msgstr "Sýsla með tæki"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Núna er krafist er samþykktar <small>frá hinu tækinu þínu</small>"
 
 #: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
 msgid "Pairing not successful"
