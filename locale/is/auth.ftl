@@ -307,10 +307,24 @@ subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productNameNew }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Þér hefur tekist að skipta úr { $productNameOld } yfir í { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti muntu einnig fá eins-skiptis inneign upp á { $paymentProrated } til að endurspegla lægra gjaldið fyrir það sem eftir er af { $productPaymentCycleOld }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productNameNew }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
+subscriptionDowngrade-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Áskriftinni þinni að { $productName } hefur verið hætt
 subscriptionFailedPaymentsCancellation-title = Áskriftinni þinni hefur verið sagt upp
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Við höfum sagt upp { $productName } áskriftinni þinni vegna þess að margar tilraunir til greiðslu mistókust. Til að fá aðgang aftur skaltu fá þér nýja áskrift með uppfærðum greiðslumáta.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Greiðsla fyrir { $productName } staðfest
@@ -318,6 +332,10 @@ subscriptionFirstInvoice-subject = Greiðsla fyrir { $productName } staðfest
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Takk fyrir að gerast áskrifandi að { $productName }
 subscriptionFirstInvoice-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Þú munt fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal og hvernig best sé að byrja notkun { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
@@ -338,6 +356,10 @@ subscriptionFirstInvoiceDiscount-subject = Greiðsla fyrir { $productName } sta�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Takk fyrir að gerast áskrifandi að { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Þú munt fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal og hvernig best sé að byrja notkun { $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
@@ -368,6 +390,28 @@ subscriptionPaymentExpired-content = Greiðslukortið sem þú notar til að gre
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Greiðsla fyrir { $productName } mistókst
 subscriptionPaymentFailed-title = Því miður, við eigum í vandræðum með greiðsluna þína
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Við höfum fundið vandamál varðandi síðustu greiðslu þína vegna { $productName }.
+subscriptionPaymentFailed-content-outdated = Það kann að vera að greiðslukortið þitt sé útrunnið eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { $productName }
+subscriptionPaymentProviderCancelled-title = Því miður, við eigum í vandræðum með greiðslumátann þinn
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Það kann að vera að greiðslukortið þitt sé útrunnið eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Áskrift að { $productName } hefur verið endurvirkjuð
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Takk fyrir að endurvirkja { $productName } áskriftina þína!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Greiðslutímabil þitt og reikningsupphæð verða óbreytt. Næsta gjaldfærsla þín verður { $invoiceTotal } þann { $nextInvoiceDateOnly }. Áskriftin þín endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú veljir að hætta áskriftinni.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Tilkynning um sjálfvirka endurnýjun { $productName }
@@ -375,6 +419,12 @@ subscriptionRenewalReminder-title = Áskriftin þín verður endurnýjuð fljót
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Ágæti viðskiptavinur { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Núverandi áskrift þín er stillt á að endurnýjast sjálfkrafa eftir { $reminderLength } daga. Á þeim tímapunkti mun { -brand-mozilla } endurnýja { $planIntervalCount } { $planInterval } áskriftina þína og upphæðin { $invoiceTotal } verður gjaldfærð á greiðslumátann á reikningnum þínum.
 subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -384,6 +434,7 @@ subscriptionsPaymentExpired-title = Greiðslukortið þitt er við það að ren
 subscriptionsPaymentExpired-content = Greiðslukortið sem þú notar til að greiða fyrir eftirfarandi áskriftir er við það að renna út.
 subscriptionsPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { -brand-mozilla }-áskriftir
 subscriptionsPaymentProviderCancelled-title = Því miður, við eigum í vandræðum með greiðslumátann þinn
+subscriptionsPaymentProviderCancelled-content-detected = Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir eftirfarandi áskriftir.
 subscriptionsPaymentProviderCancelled-content-payment = Það kann að vera að greiðslukortið þitt sé útrunnið eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -416,14 +467,29 @@ subscriptionUpgrade-title = Takk fyrir að uppfæra!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $productNameOld } yfir í { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti verður þú einnig krafin/n um { $paymentProrated } eins-skiptis upphæð til að endurspegla hærra gjald fyrir það sem eftir er af þessum { $productPaymentCycleOld }.
+# Variables:
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productNameNew }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
+subscriptionUpgrade-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 unblockCode-subject = Auðkenningarkóði reiknings
 unblockCode-title = Er þetta þú að skrá þig inn?
 unblockCode-prompt = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft: { $unblockCode }
+unblockCode-report = Ef nei, hjálpaðu okkur að verjast boðflennum með því að <a data-l10n-name="reportSignInLink">tilkynna okkur þetta.</a>
+unblockCode-report-plaintext = Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta.
+verificationReminderFirst-subject = Áminning: Ljúktu við að útbúa reikninginn þinn
 verificationReminderFirst-title = Velkomin í { -brand-firefox }-fjölskylduna
 verificationReminderFirst-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei.
+verificationReminderFirst-sub-description = Staðfestu núna og nýttu þér tækni sem vinnur fyrir og verndar friðhelgi þína, vopnar þig hagnýtri þekkingu og veitir þér þá virðingu sem þú átt skilið.
 confirm-email = Staðfestu tölvupóstfangið
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Staðfestu tölvupóstfangið
@@ -432,6 +498,9 @@ verificationReminderSecond-title = Ennþá þarna?
 verificationReminderSecond-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér.
 verificationReminderSecond-sub-description = Staðfestu þetta tölvupóstfang til að virkja reikninginn þinn og láta okkur vita að allt sé í lagi.
 verificationReminderSecond-action = Staðfesta tölvupóstfang
+verify-title = Virkjaðu { -brand-firefox }-fjölskylduna af hugbúnaði og þjónustum
+verify-description-plaintext = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn.
+verify-description = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-subject = Ljúktu við að búa til reikninginn þinn
 verify-action = Staðfesta tölvupóstfang
 # Variables:
@@ -449,16 +518,26 @@ verifyLoginCode-title = Er þetta þú að skrá þig inn?
 verifyLoginCode-prompt = Ef já, þá er hérna staðfestingarkóðinn:
 verifyLoginCode-expiry-notice = Hann rennur út eftir 5 mínútur.
 verifyPrimary-title = Sannreyna aðaltölvupóstfang
+verifyPrimary-description = Beiðni um að breyta reikningi hefur verið gerð úr eftirfarandi tæki:
 verifyPrimary-subject = Staðfestu aðaltölvupóstfang
 verifyPrimary-action = Sannreyna tölvupóstfang
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
+verifyPrimary-post-verify = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
 verifySecondary-subject = Staðfestu aukatölvupóstfang
 verifySecondary-title = Sannreyna aukatölvupóstfang
+# Variables:
+#  $email (String) - A user's unverified secondary email address
+verifySecondary-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
 verifySecondary-action = Sannreyna tölvupóstfang
 verifySecondary-prompt = { verifySecondary-action }:
+verifySecondary-post-verification = Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
 verifySecondaryCode-title = Sannreyna aukatölvupóstfang
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
 verifySecondaryCode-prompt = Notaðu þennan staðfestingarkóða:
+verifySecondaryCode-expiry-notice = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Staðfestingarkóði: { $code }
