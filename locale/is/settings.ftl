@@ -95,6 +95,10 @@ connect-another-app-store-image-2 =
 
 cs-heading = Tengdar þjónustur
 cs-description = Allt það sem þú ert að nota og skráðir þig á.
+cs-cannot-refresh =
+    Því miður kom upp vandamál við að endurlesa listann yfir
+    tengdar þjónustur.
+cs-cannot-disconnect = Biðlaraforrit fannst ekki, get ekki aftengst
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -105,6 +109,14 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Atriði sem vantar eða eru tvítekin?
 cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Vafurgögnin þín verða áfram á ({ $device }) tækinu
+    þínu en munu ekki lengur verða samstillt við reikninginn þinn.
 cs-disconnect-sync-reason =
     Hver er aðalástæðan fyrir því að aftengja þetta
     tæki?
@@ -143,6 +155,9 @@ datablock-print =
 dc-heading = Gagnasöfnun og notkunarupplýsingar
 dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
 dc-subheader-content = Leyfa { -product-firefox-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
+dc-opt-out-success = Tókst að afþakka. { -product-firefox-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
+dc-opt-in-success = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-firefox-accounts }.
+dc-opt-in-out-error = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun.
 dc-learn-more = Frekari upplýsingar
 
 # DropDownAvatarMenu component
@@ -214,6 +229,10 @@ nav-email-comm = Tölvupóstsamskipti
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Vandamál kom upp við að skipta um endurheimtarkóðana þína.
+tfa-replace-code-success =
+    Nýir kóðar hafa verið útbúnir. Geymdu þessa einnota kóða
+     á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki
+    með farsímann þinn við hendina.
 tfa-replace-code-success-alert = Endurheimtukóðar reiknings uppfærðir.
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
@@ -244,6 +263,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ekki tókst að frumstilla myndavélina
 avatar-page-new-avatar =
     .alt = ný auðkennismynd
+avatar-page-file-upload-error-2 = Vandamál kom upp við að senda inn auðkennismyndina þína.
+avatar-page-delete-error-2 = Vandamál kom upp við að eyða auðkennismyndinni þinni.
 avatar-page-image-too-large-error = Stærð myndarinnar er of mikil til að hægt sé að senda hana inn.
 
 ##
@@ -341,6 +362,10 @@ verify-secondary-email-verify-button = Sannreyna
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Settu inn staðfestingarkóðann sem sendur var til <strong>{ $email }</strong> innan 5 mínútna.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = Það tókst að bæta við { $email }.
 
 ##
 
@@ -361,6 +386,9 @@ tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code = Vandamál kom upp við að staðfesta endurheimtukóðann þinn.
 tfa-incorrect-recovery-code = Rangur endurheimtukóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
+tfa-scan-this-code =
+    Skannaðu þennan QR-kóða með því að nota eitt af 
+    <linkExternal>þessum auðkenningarforritum</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
