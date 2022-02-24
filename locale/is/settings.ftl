@@ -312,6 +312,7 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+delete-account-confirm-title-2 = Þú hefur tengt { -product-firefox-account } við { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
 delete-account-chk-box-1-v2 =
     .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
