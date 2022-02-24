@@ -113,6 +113,20 @@ card-ending-in = { $cardType } kort sem endar á { $lastFour }
 subscriptionSupport = Spurningar varðandi áskriftina þína? <a data-l10n-name="subscriptionSupportUrl">Aðstoðarteymið</a> okkar er hér til að hjálpa þér.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Spurningar um áskriftina þína? Þjónustuteymi okkar er hér til að hjálpa þér:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Þakka þér fyrir að gerast áskrifandi að { $productName }. Ef þú hefur einhverjar spurningar um áskriftina þína eða þarft frekari upplýsingar um { $productName } geturðu <a data-l10n-name="subscriptionSupportUrl">haft samband við okkur</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Þakka þér fyrir að gerast áskrifandi að { $productName }. Ef þú hefur einhverjar spurningar um áskriftina þína eða þarft frekari upplýsingar um { $productName } geturðu haft samband við okkur:
+subscriptionUpdateBillingEnsure = Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar <a data-l10n-name="updateBillingUrl">hér</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar hér:
+subscriptionUpdateBillingTry = Við reynum aftur að fá greiðsluna þína í gegn á næstu dögum, en þú gætir þurft að hjálpa okkur við að lagfæra þetta með því að <a data-l10n-name="updateBillingUrl">uppfæra greiðsluupplýsingarnar þínar</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Við reynum aftur að fá greiðsluna þína í gegn á næstu dögum, en þú gætir þurft að hjálpa okkur við að lagfæra þetta með því að uppfæra greiðsluupplýsingarnar þínar:
+subscriptionUpdatePayment = Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu <a data-l10n-name="updateBillingUrl">uppfæra greiðsluupplýsingarnar þínar</a> eins fljótt og auðið er.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu uppfæra greiðsluupplýsingarnar þínar eins fljótt og auðið er:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Til að sjá nánari upplýsingar, ættirðu að skoða { $supportUrl }
@@ -194,6 +208,9 @@ postAddTwoStepAuthentication-action = Sýsla með reikning
 postAddTwoStepAuthentication-code-required = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
 postConsumeRecoveryCode-subject = Endurheimtukóði sem var notaður
 postConsumeRecoveryCode-title = Endurheimtukóði notaður
@@ -210,13 +227,19 @@ postRemoveAccountRecovery-action = Sýsla með reikning
 postRemoveAccountRecovery-invalid = Þennan endurheimtulykil er ekki lengur hægt að nota til að endurheimta reikninginn þinn.
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
 postRemoveSecondary-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-subject-line = Slökkt er á tveggja-þrepa auðkenningu
 postRemoveTwoStepAuthentication-title = Tveggja-þrepa auðkenning óvirk
+postRemoveTwoStepAuthentication-description = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account } þínum úr eftirfarandi tæki:
+postRemoveTwoStepAuthentication-description-plaintext = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account }-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu.
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
 postVerify-sub-title = { -product-firefox-account } staðfestur. Þetta er næstum tilbúið.
 postVerify-title = Næst skaltu samstilla á milli tækjanna þinna!
+postVerify-description = Samstillingin sér um að halda bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox }-gögnum eins í öllum tækjunum þínum.
 postVerify-subject = Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni
 postVerify-setup = Setja upp næsta tæki
 postVerify-action = Setja upp næsta tæki
@@ -225,6 +248,9 @@ postVerify-action = Setja upp næsta tæki
 postVerify-support = Ertu með spurningar? Farðu á { $supportUrl }
 postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
 recovery-title = Þarftu að endurstilla lykilorðið þitt?
@@ -234,6 +260,11 @@ recovery-action = Búa til nýtt lykilorð
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Áskriftinni þinni að { $productName } hefur verið hætt
 subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Þú eyddir { -product-firefox-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
 # COMMENT ABOUT After the colon,
 payment-details = Nánar um greiðslu:
 # Variables:
@@ -242,6 +273,10 @@ subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu l
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomin í { $productName }
+subscriptionAccountFinishSetup-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni. Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-content-create = Næst muntu búa til Firefox reikningslykilorð og sækja { $productName }.
 subscriptionAccountFinishSetup-action = Búa til lykilorð
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
@@ -259,6 +294,12 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Áskriftinni þinni að { $productName } hefur verið hætt
 subscriptionCancellation-title = Okkur þykir miður að þú sért á förum
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Við höfum sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín að upphæð { $invoiceTotal } var greidd þann { $invoiceDateOnly }. Þjónustan þín mun halda áfram til loka núverandi greiðslutímabils, sem er þann { $serviceLastActiveDateOnly }.
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productNameNew }
