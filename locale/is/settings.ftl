@@ -78,6 +78,9 @@ bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Fáðu þér { -brand-firefox } í farsíma eða spjaldtölvu
+connect-another-find-fx-mobile =
+    Finndu { -brand-firefox } í { -google-play } og { -app-store } eða
+    <br /><linkExternal>sendu niðurhalstengil í tækið þitt.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -91,6 +94,7 @@ connect-another-app-store-image-2 =
 ## Connected services section
 
 cs-heading = Tengdar þjónustur
+cs-description = Allt það sem þú ert að nota og skráðir þig á.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -485,3 +489,18 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 auth-error-102 = Óþekktur reikningur
 auth-error-103 = Rangt lykilorð
+auth-error-105 = Ógildur staðfestingarkóði
+auth-error-110 = Ógilt teikn
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
+auth-error-138 = Óstaðfest seta
+auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
+auth-error-155 = TOTP-teikn fannst ekki
+auth-error-183 = Ógildur eða útrunninn staðfestingarkóði
+auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið

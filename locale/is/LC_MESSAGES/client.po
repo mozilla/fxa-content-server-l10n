@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 13:41+0000\n"
+"PO-Revision-Date: 2022-02-24 14:35+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -333,11 +333,11 @@ msgstr "Óþekktur reikningur"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr "Vitlaust tölvupóstfang"
+msgstr "Röng stafstaða í tölvupóstfangi"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
-msgstr "Vitlaust lykilorð"
+msgstr "Rangt lykilorð"
 
 #: .es5/lib/auth-errors.js:68
 msgid "Unverified account"
@@ -570,7 +570,7 @@ msgstr "Gat ekki náð í þjónustuskilmála"
 
 #: .es5/lib/auth-errors.js:344
 msgid "Your new password must be different"
-msgstr "Nýja lykilorðið verður að vera öðruvísi"
+msgstr "Nýja lykilorðið þitt verður að vera frábrugðið"
 
 #: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "Must be at least 8 characters"
@@ -1333,9 +1333,9 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ATHUGAÐU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum). Það"
-" gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á gögn í"
-"  Pocket."
+"<span>ATHUGAÐU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og "
+"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein"
+" áhrif á gögn í  Pocket."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
