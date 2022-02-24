@@ -444,12 +444,6 @@ profile-picture =
     .header = Ta’ãnga
 profile-display-name =
     .header = Téra ehechauka hag̃ua
-profile-password =
-    .header = Ñe’ẽñemi
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Heñoipyre { $date }
 profile-primary-email =
     .header = Ñandutiveve mba’eguasuvéva
 
@@ -459,6 +453,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Tekorosã
+security-password =
+    .header = Ñe’ẽñemi
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Heñoipyre { $date }
 
 ## Switch component
 
