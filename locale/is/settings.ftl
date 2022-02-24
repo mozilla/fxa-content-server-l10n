@@ -350,6 +350,7 @@ display-name-success-alert = Birtingarnafn uppfært.
 recovery-key-cancel-button = Hætta við
 recovery-key-close-button = Loka
 recovery-key-continue-button = Halda áfram
+recovery-key-created = Endurheimtulykillinn þinn hefur verið útbúinn. Gakktu úr skugga um að lykilinn sé vistaður á öruggum stað sem þú getur auðveldlega fundið síðar - þú munt þurfa lykilinn til að fá aftur aðgang að gögnunum þínum ef þú gleymir lykilorðinu þínu.
 recovery-key-enter-password =
     .label = Settu inn lykilorð
 recovery-key-page-title =
@@ -361,6 +362,7 @@ recovery-key-success-alert = Endurheimtulykill útbúinn.
 ## Add secondary email page
 
 add-secondary-email-step-1 = Skref 1 af 2
+add-secondary-email-error = Vandamál kom upp við að búa til þennan tölvupóst.
 add-secondary-email-page-title =
     .title = Aukatölvupóstfang
 add-secondary-email-enter-address =
@@ -425,6 +427,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes =
     Geymdu þessa einnota kóða á öruggum stað til að geta notað þá
     þegar þú ert ekki með snjalltækið þitt við hendina.
+tfa-enter-code-to-confirm =
+    Settu núna inn einn af endurheimtukóðum þínum til
+    að staðfesta að þú hafir vistað hann. Þú þarft kóða ef þú týnir tækinu þínu og vilt
+    aftur fá aðgang að reikningnum þínum.
 tfa-enter-recovery-code =
     .label = Settu inn endurheimtukóða
 
@@ -481,10 +487,15 @@ rk-action-create = Búa til
 rk-action-remove = Fjarlægja
 rk-cannot-refresh = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-key-removed = Endurheimtulykill reiknings fjarlægður.
+rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
 rk-refresh-key = Endurlesa endurheimtulykil
+rk-content-explain = Endurheimtu gögnin þín ef þú gleymir lykilorðinu þínu.
 rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
 rk-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
 rk-remove-modal-heading = Fjarlægja endurheimtulykil?
+rk-remove-modal-content =
+    Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
+    notað endurheimtulykilinn þinn til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
 rk-refresh-error = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-remove-error = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
 
