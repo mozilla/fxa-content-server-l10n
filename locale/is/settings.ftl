@@ -440,12 +440,48 @@ se-heading = Aukatölvupóstfang
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful = { $email } er núna aðalpóstfangið þitt.
+se-set-primary-error = Því miður kom upp vandamál við að breyta aðaltölvupóstfanginu þínu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = Það tókst að eyða { $email }.
+se-delete-email-error = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Fjarlægja tölvupóstfang
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Endurlesa tölvupóstfang
+se-unverified = óstaðfest
+# Button to make secondary email the primary
+se-make-primary = Gera að aðal
+se-default-content = Fáðu aðgang að reikningnum þínum ef þú getur ekki skráð þig inn á aðaltölvupóstfangið þitt.
+# Default value for the secondary email
+se-secondary-email-none = Ekkert
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Tveggja-þrepa auðkenning
+tfa-row-disabled = Tveggja-þrepa auðkenning óvirk.
+tfa-row-enabled = Virkjað
+tfa-row-not-set = Ekki stillt
+tfa-row-action-add = Bæta við
+tfa-row-action-disable = Gera óvirkt
+tfa-row-button-refresh =
+    .title = Endurnýja tveggja-þrepa auðkenningu
+tfa-row-cannot-refresh =
+    Því miður kom upp vandamál við að endurnýja tveggja-þrepa
+    auðkenningu.
+tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
+tfa-row-disable-modal-confirm = Gera óvirkt
+tfa-row-change-modal-heading = Skipta um endurheimtukóða?
+tfa-row-change-modal-confirm = Breyta
+tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Óþekktur reikningur
+auth-error-103 = Rangt lykilorð
