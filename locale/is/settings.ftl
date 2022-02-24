@@ -141,6 +141,11 @@ cs-disconnect-lost-advice-content-2 =
     í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá
     framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarska.
 cs-disconnect-suspicious-advice-heading = Grunsamlegt tæki aftengt
+cs-disconnect-suspicious-advice-content =
+    Ef ótengda tækið er örugglega
+    grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-firefox-account }
+    lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
+    lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
 
 ##
