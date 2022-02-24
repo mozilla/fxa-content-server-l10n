@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-02-24 22:07+0000\n"
 "PO-Revision-Date: 2021-08-20 07:29+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,1036 +15,272 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442258677.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Připomínáme nastavení synchronizace dalších zařízení."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Poslední připomenutí na synchronizaci dalšího zařízení."
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Pokud jste si ještě nestáhli %(productName)s, začněte ho používat včetně všech funkcí, které jsou součástí vašeho předplatného:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a href=\"%(subscriptionSupportUrl)s\">tým podpory</a>."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Zbývá malé množství záložních kódů"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Vygenerovat kódy:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Nové přihlášení skrze %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Vyžadována změna hesla"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr "Váš účet Firefoxu se začal chovat podezřele. Abychom zabránili neoprávněnému přístupu k vašemu účtu, odpojili jsme od něj všechna vaše zařízení a preventivně vás žádáme o změnu hesla."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Přihlaste se zpět v každém zařízením nebo službě, kde používáte účet Firefoxu, a postupujte podle pokynů, které se vám zobrazí."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Důležité:</b> Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "Nejlépe,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Tým účtů Firefoxu"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Důležité: Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Heslo bylo úspěšně změněno"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Heslo k vašemu účtu Firefoxu bylo úspěšně změněno z následujícího zařízení:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Toto je automaticky zaslaný e-mail – pokud jste heslo ke svému účtu Firefoxu neměnili, měli byste ho okamžitě obnovit na %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Heslo k vašemu účtu bylo změněno"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Pokud jste své heslo neměnili, okamžitě ho prosím obnovte na adrese %(resetLink)s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Heslo k vašemu účtu bylo obnoveno pomocí obnovovacího klíče"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Úspěšně jste obnovili své heslo pomocí obnovovacího klíče z následujícího zařízení:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Bude třeba vygenerovat nový obnovovací klíč."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Vytvořit nový obnovovací klíč:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Pro více informací prosím navštivte stránku %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Obnovovací klíč k účtu byl vygenerován"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Pokud jste to nebyli vy, <a %(revokeAccountRecoveryLinkAttributes)s>klikněte zde</a>."
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Pokud jste to nebyli vy, zrušte platnost klíče."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Dvoufázové ověřování je zapnuto"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Úspěšně jste zapnuli dvoufázové ověřování na vašem účtu Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Úspěšně jste zapnuli dvoufázové ověřování na vašem účtu Firefoxu. Odteď budete muset při každém přihlášení zadat bezpečnostní kód z vaší ověřovací aplikace."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Nová hlavní e-mailová adresa"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Vaše hlavní e-mailová adresa byla úspěšně změněna na %(email)s. Tato adresa bude nyní použita pro přihlašování k vašemu účtu Firefoxu (namísto uživatelského jména) i k zasílání bezpečnostních "
-"upozornění a potvrzení přihlášení."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Obnovovací kód byl použit"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Úspěšně jste použili obnovovací kód z následujícího zařízení:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Byl použit obnovovací kód"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Byly vygenerovány nové obnovovací kódy"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Úspěšně jste vygenerovali nové obnovovací kódy z následujícího zařízení:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Obnovovací klíč k účtu byl odstraněn"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Úspěšně jste odstranili obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Tento obnovovací klíč už není možné použít pro obnovení vašeho účtu."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Úspěšně jste odstranili obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Záložní e-mailová adresa byla odebrána"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Úspěšně jste z vašeho účtu Firefoxu odebrali %(secondaryEmail)s coby záložní e-mailovou adresu. Nadále už nebudou na tuto adresu doručovány bezpečnostní oznámení a potvrzování přihlášení."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Dvoufázové ověřování je vypnuto"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Úspěšně jste vypnuli dvoufázové ověřování na vašem účtu Firefoxu z následujícího zařízení:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Při přihlášení už nebude třeba zadávat bezpečnostní kódy."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Úspěšně jste vypnuli dvoufázové ověřování na vašem účtu Firefoxu. Už nebudete muset při každém přihlášení zadávat bezpečnostní kódy."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Účet Firefoxu byl ověřen, už je to skoro hotovo."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "Nyní si nastavte synchronizaci svých zařízení."
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data Firefoxu na všech vašich zařízení."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Nastavit další zařízení"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Máte otázky? Navštivte %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Záložní e-mailová adresa byla přidána"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Úspěšně jste ověřili adresu %(secondaryEmail)s coby záložní adresu vašeho účtu Firefoxu. Bezpečnostní oznámení a potvrzování přihlášení budou nyní zasílána na obě e-mailové adresy."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Potřebujete obnovit své heslo?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Vytvořit nové heslo"
-
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Děkujeme, že jste si vybrali Firefox! Nainstalovat Firefox pro mobilní zařízení můžete zde: %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Je nám líto, že odcházíte"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Nedávno jste smazali svůj účet Firefoxu. Proto jsme zrušili vaše předplatné produktu %(productName)s. Vaše poslední platba ve výši %(invoiceTotal)s byla uhrazena %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Vyplňte prosím <a %(cancellationSurveyLinkAttributes)s>krátký formulář</a> a pomozte nám zlepšit naše služby."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Vítá vás %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr "Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "Nyní si vytvoříte heslo pro účet Firefoxu a stáhnete produkt %(productName)s."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "Číslo dokladu: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Dne %(invoiceDateOnly)s účtováno %(invoiceTotal)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "Další platba: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr ""
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr ""
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Zrušili jsme vaše předplatné produktu %(productName)s. Vaše poslední platba %(invoiceTotal)s byla zaplacena %(invoiceDateOnly)s. Vaše služba bude fungovat do konce současného přeplaceného období, "
-"tedy do %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Úspěšně jste přepnuli z %(productNameOld)s na %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Pokud je pro používání produktu %(productNameNew)s potřeba instalace dodatečného softwaru, pošleme vám samostatný e-mail s pokyny, jak ho stáhnout."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Vaše předplatné bylo zrušeno"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby. Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby.  Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Děkujeme vám za předplacení produktu %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Vaši platbu nyní zpracováváme, což může trvat až čtyři pracovní dny."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Pošleme vám další e-mailovou zprávu s informacemi, jak začít produkt %(productName)s používat."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Číslo dokladu: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Dne %(invoiceDateOnly)s účtováno %(invoiceTotal)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Zobrazit fakturu</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Další platba: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Číslo dokladu: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Zobrazit fakturu: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr ""
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Platnost vaší platební karty brzy vyprší"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Platnost vaší platební karty, kterou používáte k platbě za %(productName)s, brzy vyprší."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, <a href=\"%(updateBillingUrl)s\">aktualizujte včas své platební údaje</a>."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Je nám to líto, ale s vaší platbou máme problémy"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "S vaší poslední platbou za %(productName)s se vyskytly problémy."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr "Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, <a href=\"%(updateBillingUrl)s\">zda jsou vaše platební údaje aktuální</a>."
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr "Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, zda jsou vaše platební údaje aktuální:"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Je nám to líto, ale s vaší platební metodou se vyskytly problémy"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "S vaší platební metodou platbou pro úhradu %(productName)s se vyskytly problémy."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Děkujeme vám za obnovení předplatného produktu %(productName)s."
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"Částka a platební období zůstane beze změny. Vaše další platba %(invoiceTotal)s bude zaúčtována %(nextInvoiceDateOnly)s. Vaše předplatné bude pravidelně automaticky obnovováno, dokud se "
-"nerozhodnete ho zrušit."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "Vaše předplatné bude brzy obnoveno"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Vážený zákazníku našeho produktu %(productName)s,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-"Vaše stávající předplatné bude obnoveno během %(reminderLength)s dní. V tu chvíli Mozilla obnoví vaše předplatné na dobu %(planIntervalCount)s %(planInterval)s a skrze platební metodu nastavenou u "
-"vašeho účtu strhne částku %(invoiceTotal)s."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "Ověřte, že jsou vaše platební údaje a informace o účtu <a href=\"%(updateBillingUrl)s\">aktuální</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-"Děkujeme vám za předplacení produktu %(productName)s. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
-"\">kontaktujte nás</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "S pozdravem,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "Tým produktu %(productName)s"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "Ověřte, že jsou vaše platební údaje a informace o účtu aktuální:"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr "Děkujeme vám za předplacení produktu %(productName)s. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o %(productName)s, kontaktujte nás:"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Děkujeme, že využíváte naše předplatné."
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Obdrželi jsme vaši poslední platbu za produkt %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Děkujeme za povýšení vašeho předplatného."
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Úspěšně jste povýšili z %(productNameOld)s na %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Platnost platební karty, kterou hradíte následující předplatné, brzy vyprší."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Máte dotaz ohledně vašich předplatných? Pomůže vám náš <a href=\"%(subscriptionSupportUrl)s\">tým podpory</a>."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Máte dotaz ohledně vašich předplatných? Pomůže vám náš tým podpory:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "S vaší platební metodou platbou pro úhradu následujících předplatných se vyskytly problémy."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "Jste to vy, kdo se přihlašuje?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Pokud ano, zde je váš autorizační kód, který potřebujete:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Pokud ne, pomozte nám odrazit útočníky a <a %(reportSignInLinkAttributes)s>nahlaste nám to.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Vítejte v rodině Firefoxu"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Před několika dny jste si vytvořili účet Firefoxu, ale nikdy jste ho nepotvrdili."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Potvrďte ho nyní a získejte technologii, která bojuje za vaše soukromí a chrání ho, vyzbrojuje vás praktickými znalostmi a projevuje vám zasloužený respekt."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "Potvrdit e-mailovou adresu:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Jste tu ještě?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Téměř před týdnem jste si vytvořili účet Firefoxu, ale nikdy jste ho neověřili. Děláme si o vás starosti."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Pro aktivaci svého účtu potvrďte tuto e-mailovou adresu. Dáte nám tím vědět, že je vše v pořádku."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Aktivujte si celou rodinu produktů Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte, počínaje:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Pro větší bezpečnost prosím potvrďte toto přihlášení z následujícího zařízení:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Potvrdit přihlášení"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Pokud ano, tady je ověřovací kód:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Platnost vyprší za 5 minut."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Ověřte svou hlavní e-mailovou adresu"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Jakmile bude ověření dokončeno, bude možné z tohoto zařízení měnit některé údaje týkající se vašeho účtu, jako je třeba záložní e-mailová adresa."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Ověřit adresu: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Ověřte svou záložní e-mailovou adresu"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Požadavek na použití adresy %(email)s coby záložní adresy byl proveden z následujícího účtu Firefoxu:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzování přihlášení."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Použít ověřovací kód:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "Jste to vy, kdo se přihlašuje?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "Pokud ano, použijte v registračním formuláři tento ověřovací kód:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "Připravte se, pozor, synchronizujeme"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Potvrďte, že jste obdrželi tento e-mail a my vám pomůžeme s instalací a synchronizací Firefoxu na všech vašich zařízení včetně:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a připojit Firefox na alespoň jednom dalším zařízení."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Nebo nainstalujte na <a %(desktopLinkAttributes)s>jiný počítač</a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Nebo nainstalujte na <a %(cadLinkAttributes)s>jiné zařízení</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Toto je automatický e-mail. Pokud jste tuto akci neschválili, <a %(passwordChangeLinkAttributes)s>obnovte prosím své heslo</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Pro více informací navštivte <a %(supportLinkAttributes)s>stránky podpory Mozilly</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Toto je automatický e-mail; pokud jste k účtu Firefoxu nepřidali žádné zařízení, okamžitě si změňte heslo na %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Toto je automatický e-mail; pokud jste tuto akci neschválili, <a %(resetLinkAttributes)s>obnovte si prosím heslo</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "IP adresa: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Správa účtu:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "Detaily platby:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "%(cardType)s karta končící na %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Zásady ochrany osobních údajů"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Podmínky poskytování služby Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a jste přihlášení v produktu %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr ""
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a máte předplaceno několik produktů."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Nastavení svého účtu Firefoxu můžete měnit na <a %(accountSettingsLinkAttributes)s>stránce účtu</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Podmínky zrušení"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Obnovit předplatné"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Zrušit předplatné"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Zrušit předplatná"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Aktualizovat platební informace"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Právní informace"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Ochrana osobních údajů"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Podmínky zrušení:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Zásady ochrany osobních údajů:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Zrušit předplatné:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Zrušit předplatná:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Aktualizovat platební informace:"
-
-#: lib/senders/email.js:348
+#: lib/senders/email.js:345
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:350
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:376
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:383
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:388
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:393
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:554
 msgid "Finish creating your account"
 msgstr "Dokončit vytváření účtu"
 
-#: lib/senders/email.js:588 lib/senders/email.js:725
+#: lib/senders/email.js:555 lib/senders/email.js:690
 msgid "Confirm email"
 msgstr "Potvrdit e-mailovou adresu"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:622
 msgid "Verification code: %(code)s"
 msgstr "Ověřovací kód: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:670
 msgid "Reminder: Finish creating your account"
 msgstr "Připomínka: Dokončete vytvoření svého účtu"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:672
 msgid "Final reminder: Activate your account"
 msgstr "Poslední připomenutí: Aktivujte svůj účet"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:723
 msgid "Reminder: Finish setting up your account"
 msgstr ""
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:725
 msgid "Final reminder: Setup your account"
 msgstr ""
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:767 lib/senders/email.js:1922
 msgid "Create a password"
 msgstr "Vytvoření hesla"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:803
 msgid "Account authorization code"
 msgstr "Autorizační kód účtu"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:874
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Potvrzení nového přihlášení skrze %(clientName)s"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:877
+msgid "Confirm sign-in"
+msgstr "Potvrdit přihlášení"
+
+#: lib/senders/email.js:921
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Přihlašovací kód pro %(serviceName)s"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:988
 msgid "Confirm primary email"
 msgstr "Ověřit hlavní e-mailovou adresu"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:989 lib/senders/email.js:1050
 msgid "Verify email"
 msgstr "Ověřit e-mailovou adresu"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1049
 msgid "Confirm secondary email"
 msgstr "Ověřit záložní e-mailovou adresu"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1107
 msgid "Reset your password"
 msgstr "Obnovit heslo"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1108
+msgid "Create new password"
+msgstr "Vytvořit nové heslo"
+
+#: lib/senders/email.js:1151 lib/senders/email.js:1220
 msgid "Password updated"
 msgstr "Heslo změněno"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1191
 msgid "Suspicious activity detected"
 msgstr "Zjištěna podezřelá aktivita"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1258
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1259 lib/senders/email.js:1310 lib/senders/email.js:1400 lib/senders/email.js:1436 lib/senders/email.js:1472 lib/senders/email.js:1506 lib/senders/email.js:1551
+#: lib/senders/email.js:1596 lib/senders/email.js:1641 lib/senders/email.js:1736 lib/senders/email.js:1784
 msgid "Manage account"
 msgstr "Správa účtu"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1309
+msgid "New sign-in to %(clientName)s"
+msgstr "Nové přihlášení skrze %(clientName)s"
+
+#: lib/senders/email.js:1348
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1353
+msgid "Set up next device"
+msgstr "Nastavit další zařízení"
+
+#: lib/senders/email.js:1399
+msgid "Secondary email added"
+msgstr "Záložní e-mailová adresa byla přidána"
+
+#: lib/senders/email.js:1435
 msgid "Primary email updated"
 msgstr "Hlavní e-mailová adresa aktualizována"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1471
+msgid "Secondary email removed"
+msgstr "Záložní e-mailová adresa byla odebrána"
+
+#: lib/senders/email.js:1505
+msgid "Two-step authentication enabled"
+msgstr "Dvoufázové ověřování je zapnuto"
+
+#: lib/senders/email.js:1550
 msgid "Two-step authentication is off"
 msgstr ""
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1595
+msgid "New recovery codes generated"
+msgstr "Byly vygenerovány nové obnovovací kódy"
+
+#: lib/senders/email.js:1640
 msgid "Recovery code used"
 msgstr "Obnovovací kód byl použit"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1698
 msgid "1 recovery code remaining"
 msgstr "Zbývá jeden záložní kódů"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1700
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Zbývající záložní kódy: %(numberRemaining)s"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1703
 msgid "Generate codes"
 msgstr "Vygenerovat kódy"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1735
+msgid "Account recovery key generated"
+msgstr "Obnovovací klíč k účtu byl vygenerován"
+
+#: lib/senders/email.js:1783
+msgid "Account recovery key removed"
+msgstr "Obnovovací klíč k účtu byl odstraněn"
+
+#: lib/senders/email.js:1831
 msgid "Password updated using recovery key"
 msgstr "Heslo bylo obnoveno pomocí obnovovacího klíče"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1832
 msgid "Create new recovery key"
 msgstr "Vytvořit nový obnovovací klíč"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1925
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Vítá vás %(productName)s: Nastavte si prosím heslo."
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1999
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Úspěšně jste povýšili na %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2080
 msgid "You have switched to %(productNameNew)s"
 msgstr "Úspěšně jste přepnuli na %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2146
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Platnost platební karty pro %(productName)s brzy vyprší"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2160
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Platnost platební karty pro úhradu vašich předplatných brzy vyprší"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2211
 msgid "Payment information update required for %(productName)s"
 msgstr "Je vyžadována aktualizace platebních údajů pro úhradu produktu %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2227
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Je vyžadována aktualizace platebních údajů pro úhradu předplatných od Mozilly"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2273
 msgid "%(productName)s payment failed"
 msgstr "Platba produktu %(productName)s se nezdařila"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2324 lib/senders/email.js:2389 lib/senders/email.js:2450
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Vaše předplatné produktu %(productName)s bylo zrušeno"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2507
 msgid "%(productName)s subscription reactivated"
 msgstr "Předplatné produktu %(productName)s obnoveno"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2563
 msgid "%(productName)s automatic renewal notice"
 msgstr "Oznámení o automatickém obnovení předplatného produktu %(productName)s"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2643
 msgid "%(productName)s payment received"
 msgstr "Platba za produkt %(productName)s přijata"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2735 lib/senders/email.js:2818
 msgid "%(productName)s payment confirmed"
 msgstr "Platba za produkt %(productName)s potvrzena"
 
-#: lib/senders/email.js:2994
+#: lib/senders/email.js:2902
+msgid "Welcome to %(productName)s"
+msgstr "Vítá vás %(productName)s"
+
+#: lib/senders/email.js:2903
 msgid "Download %(productName)s"
 msgstr "Stáhnout %(productName)s"
 
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:2929
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Přátelsky připomínáme: Jak dokončit nastavení synchronizace"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:2930
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Poslední připomenutí: Nezapomeňte si nastavit synchronizaci"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:2933
+msgid "Here's your reminder to sync devices."
+msgstr "Připomínáme nastavení synchronizace dalších zařízení."
+
+#: lib/senders/email.js:2934
+msgid "Last reminder to sync devices!"
+msgstr "Poslední připomenutí na synchronizaci dalšího zařízení."
+
+#: lib/senders/email.js:2937
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte Firefox."
+
+#: lib/senders/email.js:2940
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte Firefox."
+
+#: lib/senders/email.js:2944
 msgid "Sync another device"
 msgstr "Synchronizovat další zařízení"
 
@@ -1128,6 +364,540 @@ msgstr "Účet Firefoxu využívá funkce, které ve vaší verzi prohlížeče 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Stáhnout aktualizaci"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Pokud jste si ještě nestáhli %(productName)s, začněte ho používat včetně všech funkcí, které jsou součástí vašeho předplatného:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a href=\"%(subscriptionSupportUrl)s\">tým podpory</a>."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Zbývá malé množství záložních kódů"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Vygenerovat kódy:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Vyžadována změna hesla"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr "Váš účet Firefoxu se začal chovat podezřele. Abychom zabránili neoprávněnému přístupu k vašemu účtu, odpojili jsme od něj všechna vaše zařízení a preventivně vás žádáme o změnu hesla."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Přihlaste se zpět v každém zařízením nebo službě, kde používáte účet Firefoxu, a postupujte podle pokynů, které se vám zobrazí."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Důležité:</b> Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky."
+
+#~ msgid "Best,"
+#~ msgstr "Nejlépe,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Tým účtů Firefoxu"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Důležité: Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Heslo bylo úspěšně změněno"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Heslo k vašemu účtu Firefoxu bylo úspěšně změněno z následujícího zařízení:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Toto je automaticky zaslaný e-mail – pokud jste heslo ke svému účtu Firefoxu neměnili, měli byste ho okamžitě obnovit na %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Heslo k vašemu účtu bylo změněno"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Pokud jste své heslo neměnili, okamžitě ho prosím obnovte na adrese %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Heslo k vašemu účtu bylo obnoveno pomocí obnovovacího klíče"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Úspěšně jste obnovili své heslo pomocí obnovovacího klíče z následujícího zařízení:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Bude třeba vygenerovat nový obnovovací klíč."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Vytvořit nový obnovovací klíč:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Pro více informací prosím navštivte stránku %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Pokud jste to nebyli vy, <a %(revokeAccountRecoveryLinkAttributes)s>klikněte zde</a>."
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Úspěšně jste vygenerovali obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Pokud jste to nebyli vy, zrušte platnost klíče."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Úspěšně jste zapnuli dvoufázové ověřování na vašem účtu Firefoxu z následujícího zařízení:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Úspěšně jste zapnuli dvoufázové ověřování na vašem účtu Firefoxu. Odteď budete muset při každém přihlášení zadat bezpečnostní kód z vaší ověřovací aplikace."
+
+#~ msgid "New primary email"
+#~ msgstr "Nová hlavní e-mailová adresa"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Vaše hlavní e-mailová adresa byla úspěšně změněna na %(email)s. Tato adresa bude nyní použita pro přihlašování k vašemu účtu Firefoxu (namísto uživatelského jména) i k zasílání bezpečnostních "
+#~ "upozornění a potvrzení přihlášení."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Obnovovací kód byl použit"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Úspěšně jste použili obnovovací kód z následujícího zařízení:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Byl použit obnovovací kód"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Úspěšně jste vygenerovali nové obnovovací kódy z následujícího zařízení:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Úspěšně jste odstranili obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Tento obnovovací klíč už není možné použít pro obnovení vašeho účtu."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Úspěšně jste odstranili obnovovací klíč pro svůj účet Firefoxu z následujícího zařízení:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Úspěšně jste z vašeho účtu Firefoxu odebrali %(secondaryEmail)s coby záložní e-mailovou adresu. Nadále už nebudou na tuto adresu doručovány bezpečnostní oznámení a potvrzování přihlášení."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Dvoufázové ověřování je vypnuto"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Úspěšně jste vypnuli dvoufázové ověřování na vašem účtu Firefoxu z následujícího zařízení:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Při přihlášení už nebude třeba zadávat bezpečnostní kódy."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Úspěšně jste vypnuli dvoufázové ověřování na vašem účtu Firefoxu. Už nebudete muset při každém přihlášení zadávat bezpečnostní kódy."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Účet Firefoxu byl ověřen, už je to skoro hotovo."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Nyní si nastavte synchronizaci svých zařízení."
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data Firefoxu na všech vašich zařízení."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Máte otázky? Navštivte %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Úspěšně jste ověřili adresu %(secondaryEmail)s coby záložní adresu vašeho účtu Firefoxu. Bezpečnostní oznámení a potvrzování přihlášení budou nyní zasílána na obě e-mailové adresy."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Potřebujete obnovit své heslo?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Je nám líto, že odcházíte"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Nedávno jste smazali svůj účet Firefoxu. Proto jsme zrušili vaše předplatné produktu %(productName)s. Vaše poslední platba ve výši %(invoiceTotal)s byla uhrazena %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Vyplňte prosím <a %(cancellationSurveyLinkAttributes)s>krátký formulář</a> a pomozte nám zlepšit naše služby."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr "Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Nyní si vytvoříte heslo pro účet Firefoxu a stáhnete produkt %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Číslo dokladu: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Dne %(invoiceDateOnly)s účtováno %(invoiceTotal)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Další platba: %(nextInvoiceDateOnly)s"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Zrušili jsme vaše předplatné produktu %(productName)s. Vaše poslední platba %(invoiceTotal)s byla zaplacena %(invoiceDateOnly)s. Vaše služba bude fungovat do konce současného přeplaceného "
+#~ "období, tedy do %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Úspěšně jste přepnuli z %(productNameOld)s na %(productNameNew)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Pokud je pro používání produktu %(productNameNew)s potřeba instalace dodatečného softwaru, pošleme vám samostatný e-mail s pokyny, jak ho stáhnout."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Vaše předplatné bylo zrušeno"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby. Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Zrušili jsme vaše předplatné služby %(productName)s z důvodu opakovaného selhání platby.  Pro opětovné získání přístupu prosím objednejte nové předplatné s novými platebními údaji."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Děkujeme vám za předplacení produktu %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Vaši platbu nyní zpracováváme, což může trvat až čtyři pracovní dny."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Pošleme vám další e-mailovou zprávu s informacemi, jak začít produkt %(productName)s používat."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Číslo dokladu: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Dne %(invoiceDateOnly)s účtováno %(invoiceTotal)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Zobrazit fakturu</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Další platba: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Číslo dokladu: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Zobrazit fakturu: %(invoiceLink)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Platnost vaší platební karty brzy vyprší"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Platnost vaší platební karty, kterou používáte k platbě za %(productName)s, brzy vyprší."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, <a href=\"%(updateBillingUrl)s\">aktualizujte včas své platební údaje</a>."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Je nám to líto, ale s vaší platbou máme problémy"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "S vaší poslední platbou za %(productName)s se vyskytly problémy."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Je možné, že vypršela platnost vaší platební karty, nebo jsou vaše platební údaje zastaralé."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr "Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, <a href=\"%(updateBillingUrl)s\">zda jsou vaše platební údaje aktuální</a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, zda jsou vaše platební údaje aktuální:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Je nám to líto, ale s vaší platební metodou se vyskytly problémy"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "S vaší platební metodou platbou pro úhradu %(productName)s se vyskytly problémy."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Děkujeme vám za obnovení předplatného produktu %(productName)s."
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Částka a platební období zůstane beze změny. Vaše další platba %(invoiceTotal)s bude zaúčtována %(nextInvoiceDateOnly)s. Vaše předplatné bude pravidelně automaticky obnovováno, dokud se "
+#~ "nerozhodnete ho zrušit."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Vaše předplatné bude brzy obnoveno"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Vážený zákazníku našeho produktu %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Vaše stávající předplatné bude obnoveno během %(reminderLength)s dní. V tu chvíli Mozilla obnoví vaše předplatné na dobu %(planIntervalCount)s %(planInterval)s a skrze platební metodu nastavenou "
+#~ "u vašeho účtu strhne částku %(invoiceTotal)s."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Ověřte, že jsou vaše platební údaje a informace o účtu <a href=\"%(updateBillingUrl)s\">aktuální</a>."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Děkujeme vám za předplacení produktu %(productName)s. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o %(productName)s, <a href="
+#~ "\"%(subscriptionSupportUrl)s\">kontaktujte nás</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "S pozdravem,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "Tým produktu %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Ověřte, že jsou vaše platební údaje a informace o účtu aktuální:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "Děkujeme vám za předplacení produktu %(productName)s. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o %(productName)s, kontaktujte nás:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Děkujeme, že využíváte naše předplatné."
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Obdrželi jsme vaši poslední platbu za produkt %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Děkujeme za povýšení vašeho předplatného."
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Úspěšně jste povýšili z %(productNameOld)s na %(productNameNew)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Platnost platební karty, kterou hradíte následující předplatné, brzy vyprší."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Máte dotaz ohledně vašich předplatných? Pomůže vám náš <a href=\"%(subscriptionSupportUrl)s\">tým podpory</a>."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Máte dotaz ohledně vašich předplatných? Pomůže vám náš tým podpory:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "S vaší platební metodou platbou pro úhradu následujících předplatných se vyskytly problémy."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Jste to vy, kdo se přihlašuje?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Pokud ano, zde je váš autorizační kód, který potřebujete:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Pokud ne, pomozte nám odrazit útočníky a <a %(reportSignInLinkAttributes)s>nahlaste nám to.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Vítejte v rodině Firefoxu"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Před několika dny jste si vytvořili účet Firefoxu, ale nikdy jste ho nepotvrdili."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Potvrďte ho nyní a získejte technologii, která bojuje za vaše soukromí a chrání ho, vyzbrojuje vás praktickými znalostmi a projevuje vám zasloužený respekt."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Potvrdit e-mailovou adresu:"
+
+#~ msgid "Still there?"
+#~ msgstr "Jste tu ještě?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Téměř před týdnem jste si vytvořili účet Firefoxu, ale nikdy jste ho neověřili. Děláme si o vás starosti."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Pro aktivaci svého účtu potvrďte tuto e-mailovou adresu. Dáte nám tím vědět, že je vše v pořádku."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Aktivujte si celou rodinu produktů Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte, počínaje:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Pro větší bezpečnost prosím potvrďte toto přihlášení z následujícího zařízení:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Pokud ano, tady je ověřovací kód:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Platnost vyprší za 5 minut."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Ověřte svou hlavní e-mailovou adresu"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Jakmile bude ověření dokončeno, bude možné z tohoto zařízení měnit některé údaje týkající se vašeho účtu, jako je třeba záložní e-mailová adresa."
+
+#~ msgid "Verify email: "
+#~ msgstr "Ověřit adresu: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Ověřte svou záložní e-mailovou adresu"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Požadavek na použití adresy %(email)s coby záložní adresy byl proveden z následujícího účtu Firefoxu:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzování přihlášení."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Použít ověřovací kód:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Jste to vy, kdo se přihlašuje?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Pokud ano, použijte v registračním formuláři tento ověřovací kód:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Připravte se, pozor, synchronizujeme"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Potvrďte, že jste obdrželi tento e-mail a my vám pomůžeme s instalací a synchronizací Firefoxu na všech vašich zařízení včetně:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Jakmile bude ověření dokončeno, pomůžeme vám nainstalovat a připojit Firefox na alespoň jednom dalším zařízení."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Nebo nainstalujte na <a %(desktopLinkAttributes)s>jiný počítač</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Nebo nainstalujte na <a %(cadLinkAttributes)s>jiné zařízení</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Toto je automatický e-mail. Pokud jste tuto akci neschválili, <a %(passwordChangeLinkAttributes)s>obnovte prosím své heslo</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Pro více informací navštivte <a %(supportLinkAttributes)s>stránky podpory Mozilly</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Toto je automatický e-mail; pokud jste k účtu Firefoxu nepřidali žádné zařízení, okamžitě si změňte heslo na %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Toto je automatický e-mail; pokud jste tuto akci neschválili, <a %(resetLinkAttributes)s>obnovte si prosím heslo</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP adresa: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Správa účtu:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Detaily platby:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "%(cardType)s karta končící na %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Zásady ochrany osobních údajů"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Podmínky poskytování služby Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a jste přihlášení v produktu %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa %(email)s má založený účet Firefoxu a máte předplaceno několik produktů."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Nastavení svého účtu Firefoxu můžete měnit na <a %(accountSettingsLinkAttributes)s>stránce účtu</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Podmínky zrušení"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Obnovit předplatné"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Zrušit předplatné"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Zrušit předplatná"
+
+#~ msgid "Update billing information"
+#~ msgstr "Aktualizovat platební informace"
+
+#~ msgid "Legal"
+#~ msgstr "Právní informace"
+
+#~ msgid "Privacy"
+#~ msgstr "Ochrana osobních údajů"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Podmínky zrušení:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Zásady ochrany osobních údajů:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Zrušit předplatné:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Zrušit předplatná:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Aktualizovat platební informace:"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "

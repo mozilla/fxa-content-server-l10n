@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-02-24 22:07+0000\n"
 "PO-Revision-Date: 2022-01-07 19:52+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,1044 +15,273 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1434740560.0\n"
 
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Це ваше нагадування для синхронізації пристроїв."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
-"Для синхронізації необхідно два пристрої. Синхронізація іншого пристрою з Firefox приватно зберігає ваші закладки, паролі та інші дані, щоб вони були однаковими всюди, де ви використовуєте Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Останнє нагадування про синхронізацію пристроїв!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Синхронізація іншого пристрою з Firefox приватно зберігає ваші закладки, паролі та інші дані, щоб вони були однаковими всюди, де ви використовуєте Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Якщо ви досі не завантажили %(productName)s, розпочнімо використовувати всі можливості вашої передплати:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Маєте питання щодо передплати? Наша <a href=\"%(subscriptionSupportUrl)s\">команда підтримки</a> з радістю допоможе вам."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Залишилося мало кодів відновлення"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Згенерувати коди:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Новий вхід у %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Необхідно змінити пароль"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"Ми помітили підозрілу діяльність у вашому обліковому записі Firefox. Для запобігання несанкціонованому доступу до вашого облікового запису Firefox, ми відʼєднали всі пристрої повʼязані з вашим "
-"обліковим записом та вимагаємо змінити ваш пароль як запобіжний захід."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій обліковий запис Firefox і виконайте запропоновані настанови."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "Всього найкращого,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Команда облікових записів Firefox"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Пароль успішно змінено"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Пароль вашого облікового запису Firefox був успішно змінений з цього пристрою:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Це автоматичний електронний лист; якщо ви не змінювали пароль свого облікового запису Firefox, вам необхідно негайно відновити його на %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Пароль вашого облікового запису було змінено"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Якщо ви не змінювали його, будь ласка, негайно скиньте його за посиланням %(resetLink)s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Пароль вашого облікового запису було відновлено за допомогою ключа"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Ви успішно відновили свій пароль з використанням ключа з такого пристрою:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Вам необхідно буде генерувати новий ключ відновлення."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Створити новий ключ відновлення:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Ключ відновлення облікового запису згенеровано"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Ви успішно згенерували ключ відновлення облікового запису Firefox з використанням такого пристрою:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Якщо це були не ви, <a %(revokeAccountRecoveryLinkAttributes)s>натисніть тут.</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Ви успішно згенерували ключ відновлення облікового запису Firefox з такого пристрою:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Якщо це були не ви, відхиліть ключ."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Двоетапну перевірку увімкнено"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox з такого пристрою:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Нова основна адреса електронної пошти"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Ви успішно змінили свою основну адресу електронної пошти на %(email)s. Ця адреса тепер є вашим ім’ям користувача для входу в обліковий запис Firefox, а також отримання сповіщень безпеки та "
-"підтверджень про вхід."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Використано код відновлення"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Ви успішно використали код відновлення з такого пристрою:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Використаний код відновлення"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Нові коди відновлення згенеровано"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Ви успішно згенерували нові коди відновлення з такого пристрою:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Ключ відновлення облікового запису вилучено"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Ви успішно вилучили ключ відновлення облікового запису Firefox з використанням такого пристрою:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Цей ключ більше не можна використати для відновлення вашого облікового запису."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Ви успішно вилучили ключ відновлення облікового запису Firefox з такого пристрою:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Альтернативну електронну пошту видалено"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Ви успішно вилучили додаткову адресу %(secondaryEmail)s з вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Двоетапну перевірку вимкнено"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox з такого пристрою:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Тепер коди безпеки більше не будуть вимагатися при кожному вході."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Відтепер більше не потрібно вводити коди безпеки при кожному вході."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Обліковий запис Firefox підтверджено. Майже все готово."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "Тепер синхронізуйте інформацію між своїми пристроями!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Ваші закладки, паролі та інші дані Firefox приватно синхронізуються на всіх ваших пристроях."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Налаштувати інший пристрій"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Є питання? Відвідайте %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Альтернативну електронну пошту додано"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Ви успішно підтвердили додаткову адресу %(secondaryEmail)s для вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу тепер будуть надсилатися на обидві адреси."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Необхідно скинути пароль?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "Натисніть на кнопку протягом наступної години, щоб створити новий пароль. Запит надійшов з такого пристрою:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Створити новий пароль"
-
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
 msgstr "Дякуємо, що обрали Firefox! Ви можете встановити Firefox для мобільного звідси: %(link)s"
 
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Шкода, що ви йдете"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Ви нещодавно видалили свій обліковий запис Firefox. Тому, ми скасували передплату на %(productName)s. Ваш останній платіж розміром %(invoiceTotal)s було сплачено %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому <a %(cancellationSurveyLinkAttributes)s>швидкому опитуванні</a>."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому швидкому опитуванні:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Вітаємо в %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr "Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, поки ви не скасуєте її."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "Далі вам потрібно створити пароль облікового запису Firefox і завантажити %(productName)s."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "Номер рахунку: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Оплачено: %(invoiceTotal)s %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "Наступний платіж: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr "Ви поки що не можете отримати доступ до своєї передплати"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr "Кілька днів тому ви створили обліковий запис Firefox, але не підтвердили його. Ми сподіваємося, що ви завершите його налаштування, щоб мати змогу користуватися своєю передплатою."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr "Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr "Створити пароль:"
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr "Вітаємо у Firefox!"
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Ми скасували вашу передплату %(productName)s. Ваш останній платіж розміром %(invoiceTotal)s було проведено %(invoiceDateOnly)s. Ви матимете доступ до послуги до завершення поточного періоду "
-"передплати %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Ви успішно перейшли з %(productNameOld)s на %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"Починаючи з наступного періоду, ваша сума оплати зміниться з %(paymentAmountOld)s за %(productPaymentCycleOld)s на %(paymentAmountNew)s за %(productPaymentCycleNew)s. Водночас вам буде надано "
-"одноразовий кредит розміром %(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Якщо з'явиться нове програмне забезпечення, яке необхідно буде встановити для використання %(productNameNew)s, ви отримаєте окреме повідомлення з інструкціями для завантаження."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Вашу передплату скасовано"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr "Ми скасували вашу передплату %(productName)s, оскільки кілька спроб оплати були не вдалими. Щоб отримати доступ знову, спробуйте виконати передплату оновивши метод оплати."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr "Ми скасували вашу передплату %(productName)s, оскільки кілька спроб оплати були не вдалими.  Щоб отримати доступ знову, спробуйте виконати передплату оновивши метод оплати."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Дякуємо вам за передплату на %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Ви отримаєте окреме повідомлення електронною поштою з інструкціями про початок роботи з %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Номер рахунка: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Оплачено %(invoiceTotal)s %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Переглянути рахунок-фактуру</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Наступний рахунок: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Номер рахунка: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Переглянути рахунок-фактуру: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr "Проміжний підсумок: %(invoiceSubtotal)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr "Одноразова знижка: -%(invoiceDiscountAmount)s"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Закінчується термін дії вашої кредитної картки"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Закінчується термін дії кредитної картки, з якої здійснюються платежі за користування %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть <a href=\"%(updateBillingUrl)s\">свої платіжні дані</a>."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Перепрошуємо, у нас виникли труднощі з вашим платежем"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "У нас виникли труднощі з отриманням вашого останнього платежу за користування %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-"Ми спробуємо здійснити ваш платіж знову впродовж наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, <a href=\"%(updateBillingUrl)s\">оновивши ваші платіжні дані</a>."
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr "Ми спробуємо здійснити ваш платіж знову впродовж наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, оновивши ваші платіжні дані:"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Перепрошуємо, у нас виникли труднощі з вашим способом оплати"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "Ми виявили проблему з вашим способом оплати для %(productName)s."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Дякуємо, що поновили передплату на %(productName)s!"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"Ваш цикл платежів та їхній розмір залишаться незмінними. Наступна оплата становитиме %(invoiceTotal)s та буде здійснена %(nextInvoiceDateOnly)s. Ваша передплата автоматично продовжуватиметься на "
-"встановлений розрахунковий період, доки ви не скасуєте її."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "Ваша передплата невдовзі буде поновлена"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Шановний передплатнику %(productName)s,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-"Ваша чинна передплата налаштована на автоматичне поновлення через %(reminderLength)s. У вказаний час Mozilla поновить вашу передплату %(planIntervalCount)s %(planInterval)s і з вашого облікового "
-"запису буде стягнуто кошти за вказаним способом оплати."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "Ви можете перевірити актуальність вашого способу оплати й даних облікового запису <a href=\"%(updateBillingUrl)s\">тут</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-"Дякуємо за передплату %(productName)s. При виникненні будь-яких питань стосовно вашої передплати чи додаткової інформації про %(productName)s, будь ласка, <a href=\"%(subscriptionSupportUrl)s"
-"\">зв'яжіться з нами</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "З повагою,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "Команда %(productName)s"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "Ви можете перевірити актуальність вашого способу оплати й даних облікового запису тут:"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr "Дякуємо за передплату %(productName)s. При виникненні будь-яких питань стосовно вашої передплати чи додаткової інформації про %(productName)s, будь ласка, зв'яжіться з нами:"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Ми вдячні вам за передплату!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Ми отримали ваш останній платіж за %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Дякуємо вам за передплату!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Ви успішно оновили передплату з %(productNameOld)s на %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"Починаючи з наступного періоду, ваша сума оплати зміниться з %(paymentAmountOld)s за %(productPaymentCycleOld)s на %(paymentAmountNew)s за %(productPaymentCycleNew)s. Водночас з вас буде стягнуто "
-"одноразовий платіж розміром %(paymentProrated)s, щоб застосувати підвищену суму оплати на залишок цього %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Маєте питання щодо передплати? Наша <a href=\"%(subscriptionSupportUrl)s\">команда підтримки</a> залюбки допоможе вам."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Маєте питання щодо передплат? Наша команда підтримки з радістю допоможе вам:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "Ми виявили проблему з вашим способом оплати для таких передплат."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "Це ви виконуєте вхід?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Якщо так, ось код авторизації, який вам потрібен:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Якщо ні, допоможіть нам не допустити зловмисників і <a %(reportSignInLinkAttributes)s>повідомте про це нас.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Ласкаво просимо до сімейства Firefox"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Кілька днів тому ви створили обліковий запис Firefox, але досі не підтвердили його."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Підтвердьте зараз і отримайте доступ до технології, що відстоює та захищає вашу приватність, надає практичні знання, і поважає вас."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "Підтвердити електронну пошту:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Досі тут?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Майже тиждень тому ви створили обліковий запис Firefox, але не підтвердили його. Ми хвилюємося за вас."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Підтвердьте цю адресу електронної пошти, щоб активувати обліковий запис і дати нам знати, що все гаразд."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Активуйте сімейство продуктів Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Підтвердьте свій обліковий запис і отримайте максимум від Firefox усюди де ви зайдете, починаючи з:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Підтвердьте свій обліковий запис і отримайте максимум від Firefox усюди."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Для додаткової безпеки, схваліть цей вхід з такого пристрою:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Підтвердити вхід"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Якщо так, ось код підтвердження:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Термін його дії спливає через 5 хвилин."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Підтвердьте основну е-пошту"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Було здійснено запит змін в обліковому записі з такого пристрою:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Після підтвердження з цього пристрою стануть доступними такі зміни облікового запису, як додавання альтернативної електронної пошти."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Підтвердити е-пошту: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Підтвердьте альтернативну е-пошту"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Запит використання %(email)s як альтернативної електронної пошти було зроблено з такого облікового запису Firefox:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Одразу після підтвердження, на цю адресу почнуть приходити сповіщення безпеки і входу."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Використати цей код підтвердження:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "Це ви виконуєте вхід?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "Якщо так, використайте цей код підтвердження у своїй формі реєстрації:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "На старт, увага, синхронізація"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Підтвердьте, що ви отримали цей лист, і ми допоможемо вам встановити і синхронізувати Firefox на всіх ваших пристроях, починаючи з:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Одразу після підтвердження ми допоможемо вам встановити і під'єднати Firefox принаймні на одному іншому пристрої."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Або встановити на <a %(desktopLinkAttributes)s>інший пристрій</a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Або встановити на <a %(cadLinkAttributes)s>інший пристрій</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(passwordChangeLinkAttributes)s>будь ласка, змініть свій пароль</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Для отримання докладної інформації, відвідайте <a %(supportLinkAttributes)s>Підтримку Mozilla</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Це автоматичний лист; якщо ви не додавали новий пристрій до свого облікового запису Firefox, вам потрібно негайно змінити свій пароль на %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(resetLinkAttributes)s>відновіть свій пароль</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "IP адреса: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Керувати обліковим записом:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "Подробиці платежу:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Картка %(cardType)s, що закінчується на %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Політика Приватності Mozilla"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Умови користування хмарними службами Firefox"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Ви отримуєте це повідомлення, тому що %(email)s пов'язано з обліковим записом Firefox і ви підписалися на %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr "Ви отримали це повідомлення, тому що %(email)s пов'язана з обліковим записом Firefox"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Ви отримуєте цей лист, оскільки %(email)s пов'язано з обліковим записом Firefox і ви підписалися на кілька продуктів."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Керуйте налаштуваннями свого облікового запису Firefox на <a %(accountSettingsLinkAttributes)s>сторінці облікового запису</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Умови та політика відмови від послуг"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Поновити передплату"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Скасувати передплату"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Скасувати передплати"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Оновіть платіжну інформацію"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Правові положення"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Приватність"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Умови та політика відмови від послуг:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Повідомлення про приватність:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Скасувати передплату:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Скасувати передплати:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Оновіть платіжну інформацію:"
-
-#: lib/senders/email.js:348
+#: lib/senders/email.js:345
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:350
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s на %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:376
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (приблизно)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:383
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (приблизно)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:388
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (приблизно)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:393
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (приблизно)"
 
-#: lib/senders/email.js:587
+#: lib/senders/email.js:554
 msgid "Finish creating your account"
 msgstr "Завершіть створення свого облікового запису"
 
-#: lib/senders/email.js:588 lib/senders/email.js:725
+#: lib/senders/email.js:555 lib/senders/email.js:690
 msgid "Confirm email"
 msgstr "Підтвердьте електронну пошту"
 
-#: lib/senders/email.js:655
+#: lib/senders/email.js:622
 msgid "Verification code: %(code)s"
 msgstr "Код підтвердження: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:670
 msgid "Reminder: Finish creating your account"
 msgstr "Нагадування: Завершіть створення свого облікового запису"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:672
 msgid "Final reminder: Activate your account"
 msgstr "Остаточне нагадування: Активуйте свій обліковий запис"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:723
 msgid "Reminder: Finish setting up your account"
 msgstr "Нагадування: Завершіть налаштування свого облікового запису"
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:725
 msgid "Final reminder: Setup your account"
 msgstr "Останнє нагадування: Налаштуйте свій обліковий запис"
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:767 lib/senders/email.js:1922
 msgid "Create a password"
 msgstr "Створити пароль"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:803
 msgid "Account authorization code"
 msgstr "Код підтвердження облікового запису"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:874
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Схвалити новий вхід у %(clientName)s"
 
-#: lib/senders/email.js:960
+#: lib/senders/email.js:877
+msgid "Confirm sign-in"
+msgstr "Підтвердити вхід"
+
+#: lib/senders/email.js:921
 msgid "Sign-in code for %(serviceName)s"
 msgstr "Код підтвердження для %(serviceName)s"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:988
 msgid "Confirm primary email"
 msgstr "Підтвердьте основну адресу електронної пошти"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:989 lib/senders/email.js:1050
 msgid "Verify email"
 msgstr "Підтвердьте е-пошту"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1049
 msgid "Confirm secondary email"
 msgstr "Підтвердьте альтернативну адресу електронної пошти"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1107
 msgid "Reset your password"
 msgstr "Відновити свій пароль"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1108
+msgid "Create new password"
+msgstr "Створити новий пароль"
+
+#: lib/senders/email.js:1151 lib/senders/email.js:1220
 msgid "Password updated"
 msgstr "Пароль оновлено"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1191
 msgid "Suspicious activity detected"
 msgstr "Виявлено підозрілу активність"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1258
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1259 lib/senders/email.js:1310 lib/senders/email.js:1400 lib/senders/email.js:1436 lib/senders/email.js:1472 lib/senders/email.js:1506 lib/senders/email.js:1551
+#: lib/senders/email.js:1596 lib/senders/email.js:1641 lib/senders/email.js:1736 lib/senders/email.js:1784
 msgid "Manage account"
 msgstr "Керування обліковим записом"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1309
+msgid "New sign-in to %(clientName)s"
+msgstr "Новий вхід у %(clientName)s"
+
+#: lib/senders/email.js:1348
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Обліковий запис підтверджено. Тепер синхронізуйте інший пристрій, щоб завершити налаштування"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1353
+msgid "Set up next device"
+msgstr "Налаштувати інший пристрій"
+
+#: lib/senders/email.js:1399
+msgid "Secondary email added"
+msgstr "Альтернативну електронну пошту додано"
+
+#: lib/senders/email.js:1435
 msgid "Primary email updated"
 msgstr "Основну адресу електронної пошти оновлено"
 
-#: lib/senders/email.js:1629
+#: lib/senders/email.js:1471
+msgid "Secondary email removed"
+msgstr "Альтернативну електронну пошту видалено"
+
+#: lib/senders/email.js:1505
+msgid "Two-step authentication enabled"
+msgstr "Двоетапну перевірку увімкнено"
+
+#: lib/senders/email.js:1550
 msgid "Two-step authentication is off"
 msgstr "Двоетапну перевірку вимкнено"
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1595
+msgid "New recovery codes generated"
+msgstr "Нові коди відновлення згенеровано"
+
+#: lib/senders/email.js:1640
 msgid "Recovery code used"
 msgstr "Використано код відновлення"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1698
 msgid "1 recovery code remaining"
 msgstr "Залишився 1 код відновлення"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1700
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Залишилось %(numberRemaining)s кодів відновлення"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1703
 msgid "Generate codes"
 msgstr "Генерувати коди"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1735
+msgid "Account recovery key generated"
+msgstr "Ключ відновлення облікового запису згенеровано"
+
+#: lib/senders/email.js:1783
+msgid "Account recovery key removed"
+msgstr "Ключ відновлення облікового запису вилучено"
+
+#: lib/senders/email.js:1831
 msgid "Password updated using recovery key"
 msgstr "Пароль оновлено з використанням ключа відновлення"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1832
 msgid "Create new recovery key"
 msgstr "Створити новий ключ відновлення"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1925
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Вітаємо в %(productName)s: Будь ласка, встановіть пароль."
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1999
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Ви передплатили %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2080
 msgid "You have switched to %(productNameNew)s"
 msgstr "Ви перейшли на %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2146
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Незабаром, закінчується термін дії кредитної картки для оплати за %(productName)s"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2160
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Кредитна картка для ваших передплат незабаром втрачає чинність"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2211
 msgid "Payment information update required for %(productName)s"
 msgstr "Необхідно оновити платіжну інформацію для %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2227
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Для передплат Mozilla необхідно оновити платіжну інформацію"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2273
 msgid "%(productName)s payment failed"
 msgstr "Не вдалося оплатити %(productName)s"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2324 lib/senders/email.js:2389 lib/senders/email.js:2450
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Вашу передплату на %(productName)s було скасовано"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2507
 msgid "%(productName)s subscription reactivated"
 msgstr "Передплату %(productName)s поновлено"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2563
 msgid "%(productName)s automatic renewal notice"
 msgstr "Повідомлення про автоматичне поновлення %(productName)s"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2643
 msgid "%(productName)s payment received"
 msgstr "Платіж за %(productName)s отримано"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2735 lib/senders/email.js:2818
 msgid "%(productName)s payment confirmed"
 msgstr "Платіж за %(productName)s підтверджено"
 
-#: lib/senders/email.js:2994
+#: lib/senders/email.js:2902
+msgid "Welcome to %(productName)s"
+msgstr "Вітаємо в %(productName)s"
+
+#: lib/senders/email.js:2903
 msgid "Download %(productName)s"
 msgstr "Завантажити %(productName)s"
 
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:2929
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Ваше нагадування: Як завершити налаштування синхронізації"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:2930
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Останнє нагадування: Завершіть налаштування синхронізації"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:2933
+msgid "Here's your reminder to sync devices."
+msgstr "Це ваше нагадування для синхронізації пристроїв."
+
+#: lib/senders/email.js:2934
+msgid "Last reminder to sync devices!"
+msgstr "Останнє нагадування про синхронізацію пристроїв!"
+
+#: lib/senders/email.js:2937
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
+"Для синхронізації необхідно два пристрої. Синхронізація іншого пристрою з Firefox приватно зберігає ваші закладки, паролі та інші дані, щоб вони були однаковими всюди, де ви використовуєте Firefox."
+
+#: lib/senders/email.js:2940
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Синхронізація іншого пристрою з Firefox приватно зберігає ваші закладки, паролі та інші дані, щоб вони були однаковими всюди, де ви використовуєте Firefox."
+
+#: lib/senders/email.js:2944
 msgid "Sync another device"
 msgstr "Синхронізувати інший пристрій"
 
@@ -1140,6 +369,581 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Завантажити найновішу версію"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Якщо ви досі не завантажили %(productName)s, розпочнімо використовувати всі можливості вашої передплати:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Маєте питання щодо передплати? Наша <a href=\"%(subscriptionSupportUrl)s\">команда підтримки</a> з радістю допоможе вам."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Залишилося мало кодів відновлення"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Згенерувати коди:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Необхідно змінити пароль"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Ми помітили підозрілу діяльність у вашому обліковому записі Firefox. Для запобігання несанкціонованому доступу до вашого облікового запису Firefox, ми відʼєднали всі пристрої повʼязані з вашим "
+#~ "обліковим записом та вимагаємо змінити ваш пароль як запобіжний захід."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій обліковий запис Firefox і виконайте запропоновані настанови."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних."
+
+#~ msgid "Best,"
+#~ msgstr "Всього найкращого,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Команда облікових записів Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Пароль успішно змінено"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Пароль вашого облікового запису Firefox був успішно змінений з цього пристрою:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Це автоматичний електронний лист; якщо ви не змінювали пароль свого облікового запису Firefox, вам необхідно негайно відновити його на %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Пароль вашого облікового запису було змінено"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Якщо ви не змінювали його, будь ласка, негайно скиньте його за посиланням %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Пароль вашого облікового запису було відновлено за допомогою ключа"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Ви успішно відновили свій пароль з використанням ключа з такого пристрою:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Вам необхідно буде генерувати новий ключ відновлення."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Створити новий ключ відновлення:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Для отримання додаткової інформації, відвідайте %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ви успішно згенерували ключ відновлення облікового запису Firefox з використанням такого пристрою:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Якщо це були не ви, <a %(revokeAccountRecoveryLinkAttributes)s>натисніть тут.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ви успішно згенерували ключ відновлення облікового запису Firefox з такого пристрою:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Якщо це були не ви, відхиліть ключ."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox з такого пристрою:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Ви успішно увімкнули двоетапну перевірку в обліковому записі Firefox. Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації."
+
+#~ msgid "New primary email"
+#~ msgstr "Нова основна адреса електронної пошти"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Ви успішно змінили свою основну адресу електронної пошти на %(email)s. Ця адреса тепер є вашим ім’ям користувача для входу в обліковий запис Firefox, а також отримання сповіщень безпеки та "
+#~ "підтверджень про вхід."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Використано код відновлення"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Ви успішно використали код відновлення з такого пристрою:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Використаний код відновлення"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Ви успішно згенерували нові коди відновлення з такого пристрою:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ви успішно вилучили ключ відновлення облікового запису Firefox з використанням такого пристрою:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Цей ключ більше не можна використати для відновлення вашого облікового запису."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ви успішно вилучили ключ відновлення облікового запису Firefox з такого пристрою:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Ви успішно вилучили додаткову адресу %(secondaryEmail)s з вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Двоетапну перевірку вимкнено"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox з такого пристрою:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Тепер коди безпеки більше не будуть вимагатися при кожному вході."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Ви успішно вимкнули двоетапну перевірку облікового запису Firefox. Відтепер більше не потрібно вводити коди безпеки при кожному вході."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Обліковий запис Firefox підтверджено. Майже все готово."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Тепер синхронізуйте інформацію між своїми пристроями!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Ваші закладки, паролі та інші дані Firefox приватно синхронізуються на всіх ваших пристроях."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Є питання? Відвідайте %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Ви успішно підтвердили додаткову адресу %(secondaryEmail)s для вашого облікового запису Firefox. Сповіщення безпеки та підтвердження входу тепер будуть надсилатися на обидві адреси."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Необхідно скинути пароль?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Натисніть на кнопку протягом наступної години, щоб створити новий пароль. Запит надійшов з такого пристрою:"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Шкода, що ви йдете"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Ви нещодавно видалили свій обліковий запис Firefox. Тому, ми скасували передплату на %(productName)s. Ваш останній платіж розміром %(invoiceTotal)s було сплачено %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому <a %(cancellationSurveyLinkAttributes)s>швидкому опитуванні</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Будь ласка, допоможіть нам вдосконалити наші послуги, взявши участь в цьому швидкому опитуванні:"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr "Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, поки ви не скасуєте її."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Далі вам потрібно створити пароль облікового запису Firefox і завантажити %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Номер рахунку: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Оплачено: %(invoiceTotal)s %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Наступний платіж: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Ви поки що не можете отримати доступ до своєї передплати"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr "Кілька днів тому ви створили обліковий запис Firefox, але не підтвердили його. Ми сподіваємося, що ви завершите його налаштування, щоб мати змогу користуватися своєю передплатою."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису."
+
+#~ msgid "Create a password:"
+#~ msgstr "Створити пароль:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Вітаємо у Firefox!"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Ми скасували вашу передплату %(productName)s. Ваш останній платіж розміром %(invoiceTotal)s було проведено %(invoiceDateOnly)s. Ви матимете доступ до послуги до завершення поточного періоду "
+#~ "передплати %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Ви успішно перейшли з %(productNameOld)s на %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "Починаючи з наступного періоду, ваша сума оплати зміниться з %(paymentAmountOld)s за %(productPaymentCycleOld)s на %(paymentAmountNew)s за %(productPaymentCycleNew)s. Водночас вам буде надано "
+#~ "одноразовий кредит розміром %(paymentProrated)s, щоб застосувати знижену суму оплати на залишок цього %(productPaymentCycleOld)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Якщо з'явиться нове програмне забезпечення, яке необхідно буде встановити для використання %(productNameNew)s, ви отримаєте окреме повідомлення з інструкціями для завантаження."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Вашу передплату скасовано"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Ми скасували вашу передплату %(productName)s, оскільки кілька спроб оплати були не вдалими. Щоб отримати доступ знову, спробуйте виконати передплату оновивши метод оплати."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Ми скасували вашу передплату %(productName)s, оскільки кілька спроб оплати були не вдалими.  Щоб отримати доступ знову, спробуйте виконати передплату оновивши метод оплати."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Дякуємо вам за передплату на %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Ви отримаєте окреме повідомлення електронною поштою з інструкціями про початок роботи з %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Номер рахунка: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Оплачено %(invoiceTotal)s %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Переглянути рахунок-фактуру</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Наступний рахунок: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Номер рахунка: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Переглянути рахунок-фактуру: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Проміжний підсумок: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Одноразова знижка: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Закінчується термін дії вашої кредитної картки"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Закінчується термін дії кредитної картки, з якої здійснюються платежі за користування %(productName)s."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть <a href=\"%(updateBillingUrl)s\">свої платіжні дані</a>."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Перепрошуємо, у нас виникли труднощі з вашим платежем"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "У нас виникли труднощі з отриманням вашого останнього платежу за користування %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "Ми спробуємо здійснити ваш платіж знову впродовж наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, <a href=\"%(updateBillingUrl)s\">оновивши ваші платіжні дані</a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Ми спробуємо здійснити ваш платіж знову впродовж наступних кількох днів, але, можливо, вам доведеться допомогти нам це виправити, оновивши ваші платіжні дані:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Перепрошуємо, у нас виникли труднощі з вашим способом оплати"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Ми виявили проблему з вашим способом оплати для %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Дякуємо, що поновили передплату на %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Ваш цикл платежів та їхній розмір залишаться незмінними. Наступна оплата становитиме %(invoiceTotal)s та буде здійснена %(nextInvoiceDateOnly)s. Ваша передплата автоматично продовжуватиметься на "
+#~ "встановлений розрахунковий період, доки ви не скасуєте її."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Ваша передплата невдовзі буде поновлена"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Шановний передплатнику %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Ваша чинна передплата налаштована на автоматичне поновлення через %(reminderLength)s. У вказаний час Mozilla поновить вашу передплату %(planIntervalCount)s %(planInterval)s і з вашого облікового "
+#~ "запису буде стягнуто кошти за вказаним способом оплати."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Ви можете перевірити актуальність вашого способу оплати й даних облікового запису <a href=\"%(updateBillingUrl)s\">тут</a>."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Дякуємо за передплату %(productName)s. При виникненні будь-яких питань стосовно вашої передплати чи додаткової інформації про %(productName)s, будь ласка, <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">зв'яжіться з нами</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "З повагою,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "Команда %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Ви можете перевірити актуальність вашого способу оплати й даних облікового запису тут:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "Дякуємо за передплату %(productName)s. При виникненні будь-яких питань стосовно вашої передплати чи додаткової інформації про %(productName)s, будь ласка, зв'яжіться з нами:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Ми вдячні вам за передплату!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Ми отримали ваш останній платіж за %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Дякуємо вам за передплату!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Ви успішно оновили передплату з %(productNameOld)s на %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "Починаючи з наступного періоду, ваша сума оплати зміниться з %(paymentAmountOld)s за %(productPaymentCycleOld)s на %(paymentAmountNew)s за %(productPaymentCycleNew)s. Водночас з вас буде "
+#~ "стягнуто одноразовий платіж розміром %(paymentProrated)s, щоб застосувати підвищену суму оплати на залишок цього %(productPaymentCycleOld)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Маєте питання щодо передплати? Наша <a href=\"%(subscriptionSupportUrl)s\">команда підтримки</a> залюбки допоможе вам."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Маєте питання щодо передплат? Наша команда підтримки з радістю допоможе вам:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Ми виявили проблему з вашим способом оплати для таких передплат."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Це ви виконуєте вхід?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Якщо так, ось код авторизації, який вам потрібен:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Якщо ні, допоможіть нам не допустити зловмисників і <a %(reportSignInLinkAttributes)s>повідомте про це нас.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Ласкаво просимо до сімейства Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Кілька днів тому ви створили обліковий запис Firefox, але досі не підтвердили його."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Підтвердьте зараз і отримайте доступ до технології, що відстоює та захищає вашу приватність, надає практичні знання, і поважає вас."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Підтвердити електронну пошту:"
+
+#~ msgid "Still there?"
+#~ msgstr "Досі тут?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Майже тиждень тому ви створили обліковий запис Firefox, але не підтвердили його. Ми хвилюємося за вас."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Підтвердьте цю адресу електронної пошти, щоб активувати обліковий запис і дати нам знати, що все гаразд."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Активуйте сімейство продуктів Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Підтвердьте свій обліковий запис і отримайте максимум від Firefox усюди де ви зайдете, починаючи з:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Підтвердьте свій обліковий запис і отримайте максимум від Firefox усюди."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Для додаткової безпеки, схваліть цей вхід з такого пристрою:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Якщо так, ось код підтвердження:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Термін його дії спливає через 5 хвилин."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Підтвердьте основну е-пошту"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Було здійснено запит змін в обліковому записі з такого пристрою:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Після підтвердження з цього пристрою стануть доступними такі зміни облікового запису, як додавання альтернативної електронної пошти."
+
+#~ msgid "Verify email: "
+#~ msgstr "Підтвердити е-пошту: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Підтвердьте альтернативну е-пошту"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Запит використання %(email)s як альтернативної електронної пошти було зроблено з такого облікового запису Firefox:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Одразу після підтвердження, на цю адресу почнуть приходити сповіщення безпеки і входу."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Використати цей код підтвердження:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Це ви виконуєте вхід?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Якщо так, використайте цей код підтвердження у своїй формі реєстрації:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "На старт, увага, синхронізація"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Підтвердьте, що ви отримали цей лист, і ми допоможемо вам встановити і синхронізувати Firefox на всіх ваших пристроях, починаючи з:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Одразу після підтвердження ми допоможемо вам встановити і під'єднати Firefox принаймні на одному іншому пристрої."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Або встановити на <a %(desktopLinkAttributes)s>інший пристрій</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Або встановити на <a %(cadLinkAttributes)s>інший пристрій</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(passwordChangeLinkAttributes)s>будь ласка, змініть свій пароль</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Для отримання докладної інформації, відвідайте <a %(supportLinkAttributes)s>Підтримку Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Це автоматичний лист; якщо ви не додавали новий пристрій до свого облікового запису Firefox, вам потрібно негайно змінити свій пароль на %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Це автоматичний лист; якщо ви не дозволяли цю дію, тоді <a %(resetLinkAttributes)s>відновіть свій пароль</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Якщо ви підозрюєте, що хтось намагається здобути доступ до вашого облікового запису, будь ласка, змініть свій пароль."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP адреса: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Керувати обліковим записом:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Подробиці платежу:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Картка %(cardType)s, що закінчується на %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Політика Приватності Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Умови користування хмарними службами Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Ви отримуєте це повідомлення, тому що %(email)s пов'язано з обліковим записом Firefox і ви підписалися на %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "Ви отримали це повідомлення, тому що %(email)s пов'язана з обліковим записом Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Ви отримуєте цей лист, оскільки %(email)s пов'язано з обліковим записом Firefox і ви підписалися на кілька продуктів."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Керуйте налаштуваннями свого облікового запису Firefox на <a %(accountSettingsLinkAttributes)s>сторінці облікового запису</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Умови та політика відмови від послуг"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Поновити передплату"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Скасувати передплату"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Скасувати передплати"
+
+#~ msgid "Update billing information"
+#~ msgstr "Оновіть платіжну інформацію"
+
+#~ msgid "Legal"
+#~ msgstr "Правові положення"
+
+#~ msgid "Privacy"
+#~ msgstr "Приватність"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Умови та політика відмови від послуг:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Повідомлення про приватність:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Скасувати передплату:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Скасувати передплати:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Оновіть платіжну інформацію:"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
