@@ -302,6 +302,10 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+delete-account-chk-box-1-v2 =
+    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
+delete-account-chk-box-4 =
+    .label = Öllum viðbótum og þemum sem þú gefur út á addons.mozilla.org verður eytt
 delete-account-continue-button = Halda áfram
 delete-account-password-input =
     .label = Settu inn lykilorð
@@ -462,12 +466,17 @@ rk-action-remove = Fjarlægja
 rk-cannot-refresh = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-key-removed = Endurheimtulykill reiknings fjarlægður.
 rk-refresh-key = Endurlesa endurheimtulykil
+rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
+rk-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
 rk-remove-modal-heading = Fjarlægja endurheimtulykil?
+rk-refresh-error = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Aukatölvupóstfang
     .header = Aukatölvupóstfang
+se-cannot-refresh-email = Því miður kom upp vandamál við að endurlesa þetta tölvupóstfang.
+se-cannot-resend-code = Vandamál kom upp við að endursenda staðfestingarkóðann.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -478,6 +487,7 @@ se-set-primary-error = Því miður kom upp vandamál við að breyta aðaltölv
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Það tókst að eyða { $email }.
 se-delete-email-error = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi.
+se-verify-session-error = Því miður, upp kom vandamál við að sannreyna setuna þína.
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjarlægja tölvupóstfang
@@ -507,8 +517,10 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
+tfa-row-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
+tfa-row-cannot-disable = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka.
 tfa-row-change-modal-heading = Skipta um endurheimtukóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
