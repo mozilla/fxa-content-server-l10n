@@ -356,30 +356,90 @@ tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code = Vandamál kom upp við að staðfesta endurheimtukóðann þinn.
 tfa-incorrect-recovery-code = Rangur endurheimtukóði
+tfa-enabled = Tveggja-þrepa auðkenning virkjuð
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Notaðu kóðann { $secret } til að setja upp tveggja-þrepa auðkenningu í þeim forritum sem styðja slíkt.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Geturðu ekki skannað kóða?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið þitt:
+tfa-enter-totp = Settu nú inn öryggiskóðann úr auðkenningarforritinu.
+tfa-input-enter-totp =
+    .label = Settu inn öryggiskóða
+tfa-save-these-codes =
+    Geymdu þessa einnota kóða á öruggum stað til að geta notað þá
+    þegar þú ert ekki með snjalltækið þitt við hendina.
+tfa-enter-recovery-code =
+    .label = Settu inn endurheimtukóða
 
 ##
 
 
 ## Profile section
 
+profile-heading = Notandasnið
+profile-picture =
+    .header = Mynd
+profile-display-name =
+    .header = Birtingarnafn
+profile-primary-email =
+    .header = Aðaltölvupóstfang
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Öryggi
+security-password =
+    .header = Lykilorð
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Búið til { $date }
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Slökkva á
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Kveikja á
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Sendi inn…
+switch-is-on = virkt
+switch-is-off = óvirkt
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Bæta við
+row-defaults-action-change = Breyta
+row-defaults-action-disable = Gera óvirkt
+row-defaults-status = Ekkert
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Endurheimtulykill
+rk-enabled = Virkjað
+rk-not-set = Ekki stillt
+rk-action-create = Búa til
+rk-action-remove = Fjarlægja
+rk-cannot-refresh = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
+rk-key-removed = Endurheimtulykill reiknings fjarlægður.
+rk-refresh-key = Endurlesa endurheimtulykil
+rk-remove-modal-heading = Fjarlægja endurheimtulykil?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Aukatölvupóstfang
+    .header = Aukatölvupóstfang
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } er núna aðalpóstfangið þitt.
 
 ##
 
