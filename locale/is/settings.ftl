@@ -508,6 +508,9 @@ se-unverified = óstaðfest
 # Button to make secondary email the primary
 se-make-primary = Gera að aðal
 se-default-content = Fáðu aðgang að reikningnum þínum ef þú getur ekki skráð þig inn á aðaltölvupóstfangið þitt.
+se-content-note =
+    Athugaðu: aukatölvupóstfang mun ekki endurheimta upplýsingarnar þínar - þú
+    munt þurfa <a>endurheimtarlykil</a> til þess.
 # Default value for the secondary email
 se-secondary-email-none = Ekkert
 
@@ -527,9 +530,15 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
+tfa-row-content-explain =
+    Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
+    einstaks kóða sem aðeins þú hefur aðgang að.
 tfa-row-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
+tfa-row-disable-modal-explain =
+    Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
+    einnig möguleika á að <linkExternal>skipta um endurheimtukóðana þína</linkExternal>.
 tfa-row-cannot-disable = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka.
 tfa-row-change-modal-heading = Skipta um endurheimtukóða?
 tfa-row-change-modal-confirm = Breyta
