@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-23 18:23+0000\n"
+"PO-Revision-Date: 2022-02-24 08:25+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -228,7 +228,7 @@ msgstr "Þú hefur fjarlægt endurheimtulykil fyrir Firefox-reikninginn þinn me
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
-msgstr "Þennan endurheimtulykil er lengur hægt að nota til að endurheimta reikninginn þinn."
+msgstr "Þennan endurheimtulykil er ekki lengur hægt að nota til að endurheimta reikninginn þinn."
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"

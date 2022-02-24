@@ -69,11 +69,17 @@ another-desktop-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink"
 another-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink">öðru tæki</a>.
 automated-email-change =
     Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="passwordChangeLink">breyta lykilorðinu þínu</a>.
-    Sil að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
+    Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á { -product-firefox-account } þinn, ættirðu að endurstilla lykilorðið þitt strax á { $passwordChangeLink }
+automated-email =
+    Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann fyrir mistök er ekki þörf á neinum aðgerðum.
+    Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
+automated-email-reset =
+    Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="resetLink">endurstilla lykilorðið þitt</a>.
+    Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ef það varst ekki þú sem breyttir því, skaltu endurstilla lykilorðið þitt núna á { $resetLink }
@@ -115,9 +121,11 @@ view-invoice = <a data-l10n-name="invoiceLink">Skoðaðu reikninginn þinn</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Skoða reikning: { $invoiceLink }
+cadReminderFirst-subject = Vinsamleg áminning: Hvernig á að ljúka uppsetningu þinni á samstillingu
 cadReminderFirst-action = Samstilla annað tæki
 cadReminderFirst-title = Hér er áminning til þín um að samstilla tæki.
 cadReminderFirst-description = Það þarf tvo til að samstilla. Með því að samstilla annað tæki við { -brand-firefox } heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox } gögnum eins alls staðar þar sem þú notar { -brand-firefox }.
+cadReminderSecond-subject = Lokaáminning: Ljúktu uppsetningu samstillingar
 cadReminderSecond-action = Samstilla annað tæki
 cadReminderSecond-title = Síðasta áminning um að samstilla tæki!
 cadReminderSecond-description = Með því að samstilla annað tæki við { -brand-firefox } heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox } gögnum eins alls staðar þar sem þú notar { -brand-firefox }.
@@ -129,9 +137,13 @@ downloadSubscription-subject = Velkomin í { $productName }
 downloadSubscription-title = Velkomin í { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Ef þú hefur ekki þegar náð í { $productName } skulum við byrja að nota alla eiginleika sem fylgja áskriftinni þinni:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Sækja { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Fáir endurheimtukóðar eftir
+codes-reminder-description = Við tókum eftir því að þú ert að verða uppiskroppa með endurheimtarkóða. Íhugaðu að búa til nýja kóða til að forðast að læsast úti af reikningnum þínum.
 codes-generate = Útbúa kóða
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Útbúa kóða
@@ -149,8 +161,11 @@ newDeviceLogin-title = Ný innskráning á { $clientName }
 newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
+passwordChanged-description = Lykilorðinu fyrir { -product-firefox-account } reikninginn þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
 passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
+passwordChangeRequired-suspicious-activity = Við fundum grunsamlega virkni á { -product-firefox-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-firefox-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
+passwordChangeRequired-sign-in = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-firefox-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
 passwordChangeRequired-different-password = <b>Mikilvægt:</b> Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 passwordChangeRequired-signoff = Bestu kveðjur,
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } teymið
@@ -160,17 +175,21 @@ passwordReset-title = Lykilorð reikningsins þíns breyttist
 passwordReset-description = Þú verður að setja inn nýja lykilorðið þitt á öðrum tækjum til að halda áfram með samstillingu.
 passwordResetAccountRecovery-subject = Lykilorð uppfært með endurheimtulykli
 passwordResetAccountRecovery-title = Lykilorð reikningsins þíns hefur verið endurstillt með endurheimtulykli
+passwordResetAccountRecovery-description = Þú hefur endurstillt lykilorðið þitt með endurheimtulykli úr eftirfarandi tæki:
 passwordResetAccountRecovery-action = Útbúðu nýjan endurheimtulykil
 passwordResetAccountRecovery-regen-required = Þú munt þurfa að útbúa nýjan endurheimtulykil.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Útbúðu nýjan endurheimtulykil:
 postAddAccountRecovery-subject = Endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title = Endurheimtulykill reiknings útbúinn
+postAddAccountRecovery-description = Þú hefur búið til endurheimtulykil fyrir { -product-firefox-account }-reikninginn þinn með því að nota eftirfarandi tæki:
 postAddAccountRecovery-action = Sýsla með reikning
 postAddAccountRecovery-recovery = Ef þetta varst ekki þú, skaltu <a data-l10n-name="revokeAccountRecoveryLink">smella hér</a>.
 postAddAccountRecovery-revoke = Ef þetta varst ekki þú, skaltu afturkalla lykilinn.
 postAddTwoStepAuthentication-subject = Tveggja-þrepa auðkenning virkjuð
 postAddTwoStepAuthentication-title = Tveggja-þrepa auðkenning virkjuð
+postAddTwoStepAuthentication-description-plaintext = Þú hefur virkjað tveggja-þrepa auðkenningu á { -product-firefox-account }. Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
+postAddTwoStepAuthentication-description = Þú hefur virkjað tveggja-þrepa auðkenningu á { -product-firefox-account } úr eftirfarandi tæki:
 postAddTwoStepAuthentication-action = Sýsla með reikning
 postAddTwoStepAuthentication-code-required = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
@@ -182,10 +201,13 @@ postConsumeRecoveryCode-description = Þú hefur notað endurheimtukóða úr ef
 postConsumeRecoveryCode-action = Sýsla með reikning
 postNewRecoveryCodes-subject = Nýir endurheimtukóðar útbúnir
 postNewRecoveryCodes-title = Nýir endurheimtukóðar útbúnir
+postNewRecoveryCodes-description = Þú hefur búið til nýja endurheimtukóða úr eftirfarandi tæki:
 postNewRecoveryCodes-action = Sýsla með reikning
 postRemoveAccountRecovery-subject = Endurheimtulykill reiknings fjarlægður
 postRemoveAccountRecovery-title = Endurheimtulykill reiknings fjarlægður
+postRemoveAccountRecovery-description = Þú hefur fjarlægt endurheimtulykil fyrir { -product-firefox-account } með því að nota eftirfarandi tæki:
 postRemoveAccountRecovery-action = Sýsla með reikning
+postRemoveAccountRecovery-invalid = Þennan endurheimtulykil er ekki lengur hægt að nota til að endurheimta reikninginn þinn.
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-action = Sýsla með reikning
