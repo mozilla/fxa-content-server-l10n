@@ -312,8 +312,13 @@ delete-account-header =
     .title = Eyða reikningi
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
 delete-account-chk-box-1-v2 =
     .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
+delete-account-chk-box-2 =
+    .label = Þú gætir glatað vistuðum upplýsingum og eiginleikum í { -brand-mozilla } þjónustum
+delete-account-chk-box-3 =
+    .label = Endurvirkjun með þessum tölvupósti gæti ekki endurheimt upplýsingar sem þú hefur vistað
 delete-account-chk-box-4 =
     .label = Öllum viðbótum og þemum sem þú gefur út á addons.mozilla.org verður eytt
 delete-account-continue-button = Halda áfram
@@ -480,6 +485,7 @@ rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla g�
 rk-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
 rk-remove-modal-heading = Fjarlægja endurheimtulykil?
 rk-refresh-error = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
+rk-remove-error = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
 
 ## Secondary email sub-section on main Settings page
 
@@ -497,6 +503,7 @@ se-set-primary-error = Því miður kom upp vandamál við að breyta aðaltölv
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = Það tókst að eyða { $email }.
 se-delete-email-error = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi.
+se-verify-session = Þú þarft að staðfesta fyrirliggjandi setuna þína til að framkvæma þessa aðgerð.
 se-verify-session-error = Því miður, upp kom vandamál við að sannreyna setuna þína.
 # Button to remove the secondary email
 se-remove-email =
@@ -505,6 +512,9 @@ se-remove-email =
 se-refresh-email =
     .title = Endurlesa tölvupóstfang
 se-unverified = óstaðfest
+se-resend-code =
+    Staðfesting nauðsynleg. <button>Senda staðfestingarkóða aftur</button>
+    ef hann er ekki í pósthólfinu þínu eða ruslpóstmöppunni.
 # Button to make secondary email the primary
 se-make-primary = Gera að aðal
 se-default-content = Fáðu aðgang að reikningnum þínum ef þú getur ekki skráð þig inn á aðaltölvupóstfangið þitt.
