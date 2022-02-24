@@ -135,6 +135,11 @@ cs-disconnect-sync-opt-not-say = Vil helst ekki segja
 
 cs-disconnect-advice-confirm = Allt í lagi, ég skil
 cs-disconnect-lost-advice-heading = Týnt eða stolið tæki aftengt
+cs-disconnect-lost-advice-content-2 =
+    Þar sem tækið þitt týndist eða því var stolið,
+    til að halda upplýsingum þínum öruggum ættirðu að breyta lykilorðinu þínu fyrir { -product-firefox-account }
+    í stillingum reikningsins þíns. Þú ættir líka að leita að upplýsingum frá
+    framleiðanda tækisins um hvernig hægt sé að eyða gögnunum þínum úr fjarska.
 cs-disconnect-suspicious-advice-heading = Grunsamlegt tæki aftengt
 cs-sign-out-button = Útskráning
 
