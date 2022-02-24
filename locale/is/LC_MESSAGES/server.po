@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-24 12:50+0000\n"
+"PO-Revision-Date: 2022-02-24 13:01+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -408,7 +408,7 @@ msgstr "Við höfum sagt upp %(productName)s áskriftinni þinni vegna þess að
 
 #: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
 msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr ""
+msgstr "Við höfum sagt upp %(productName)s áskriftinni þinni vegna þess að margar tilraunir til greiðslu mistókust. Til að fá aðgang aftur skaltu fá þér nýja áskrift með uppfærðum greiðslumáta."
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
 msgid "Thank you for subscribing to %(productName)s"
@@ -470,12 +470,12 @@ msgstr "Greiðslukortið sem þú notar til að greiða fyrir %(productName)s er
 #: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
 msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr ""
+msgstr "Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu <a href=\"%(updateBillingUrl)s\">uppfæra greiðsluupplýsingarnar þínar</a> eins fljótt og auðið er."
 
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr ""
+msgstr "Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu uppfæra greiðsluupplýsingarnar þínar eins fljótt og auðið er:"
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
@@ -493,10 +493,12 @@ msgstr "Það kann að vera að greiðslukortið þitt sé útrunnið eða að f
 #: lib/senders/templates/subscriptionPaymentFailed.html:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
 msgstr ""
+"Við reynum aftur að fá greiðsluna þína í gegn á næstu dögum, en þú gætir þurft að hjálpa okkur við að lagfæra þetta með því að <a href=\"%(updateBillingUrl)s\">uppfæra greiðsluupplýsingarnar "
+"þínar</a>."
 
 #: lib/senders/templates/subscriptionPaymentFailed.txt:4
 msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
+msgstr "Við reynum aftur að fá greiðsluna þína í gegn á næstu dögum, en þú gætir þurft að hjálpa okkur við að lagfæra þetta með því að uppfæra greiðsluupplýsingarnar þínar:"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
@@ -516,6 +518,8 @@ msgid ""
 "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
 "choose to cancel."
 msgstr ""
+"Greiðslutímabil þitt og reikningsupphæð verða óbreytt. Næsta gjaldfærsla þín verður %(invoiceTotal)s þann %(nextInvoiceDateOnly)s. Áskriftin þín endurnýjast sjálfkrafa fyrir hvert greiðslutímabil "
+"nema þú veljir að hætta áskriftinni."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
 msgid "Your subscription will be renewed soon"
@@ -530,10 +534,12 @@ msgid ""
 "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 "%(invoiceTotal)s will be applied to the payment method on your account."
 msgstr ""
+"Núverandi áskrift þín er stillt á að endurnýjast sjálfkrafa eftir %(reminderLength)s daga. Á þeim tímapunkti mun Mozilla endurnýja %(planIntervalCount)s %(planInterval)s áskriftina þína og upphæðin "
+"%(invoiceTotal)s verður gjaldfærð á greiðslumátann á reikningnum þínum."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:4
 msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr ""
+msgstr "Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar <a href=\"%(updateBillingUrl)s\">hér</a>."
 
 #: lib/senders/templates/subscriptionRenewalReminder.html:5
 msgid ""
@@ -551,11 +557,11 @@ msgstr "%(productName)s-teymið"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:4
 msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr ""
+msgstr "Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar hér:"
 
 #: lib/senders/templates/subscriptionRenewalReminder.txt:5
 msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
+msgstr "Þakka þér fyrir að gerast áskrifandi að %(productName)s. Ef þú hefur einhverjar spurningar um áskriftina þína eða þarft frekari upplýsingar um %(productName)s geturðu haft samband við okkur:"
 
 #: lib/senders/templates/subscriptionSubsequentInvoice.html:1
 msgid "Thank you for being a subscriber!"
@@ -578,6 +584,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr %(paymentAmountOld)s á %(productPaymentCycleOld)s í %(paymentAmountNew)s á %(productPaymentCycleNew)s. Á þeim tímapunkti verður þú "
+"einnig krafin/n um %(paymentProrated)s eins-skiptis upphæð til að endurspegla hærra gjald fyrir það sem eftir er af þessum %(productPaymentCycleOld)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -621,7 +629,7 @@ msgstr "Fyrir nokkrum dögum síðan bjóstu til Firefox-reikning en staðfestir
 
 #: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
 msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr ""
+msgstr "Staðfestu núna og nýttu þér tækni sem vinnur fyrir og verndar friðhelgi þína, vopnar þig hagnýtri þekkingu og veitir þér þá virðingu sem þú átt skilið."
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
