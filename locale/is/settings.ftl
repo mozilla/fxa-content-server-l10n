@@ -253,36 +253,109 @@ pw-change-stay-safe = Farðu varlega - ekki endurnýta lykilorð. Lykilorð þit
 pw-change-least-8-chars = Verður að vera minnst 8 stafir
 pw-change-not-contain-email = Má ekki vera tölvupóstfangið þitt
 pw-change-must-match = Nýtt lykilorð passar við staðfestingu
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords =
+    Má ekki vera á þessum <linkExternal>lista yfir algeng
+    lykilorð</linkExternal>
+pw-change-cancel-button = Hætta við
+pw-change-save-button = Vista
+pw-change-forgot-password-link = Gleymt lykilorð?
+pw-change-current-password =
+    .label = Sláðu inn núverandi lykilorð
+pw-change-new-password =
+    .label = Settu inn nýja lykilorðið
+pw-change-confirm-password =
+    .label = Staðfestu nýja lykilorðið
+pw-change-success-alert = Lykilorð uppfært.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Eyða reikningi
+delete-account-step-1-2 = Skref 1 af 2
+delete-account-step-2-2 = Skref 2 af 2
+delete-account-continue-button = Halda áfram
+delete-account-password-input =
+    .label = Settu inn lykilorð
+delete-account-cancel-button = Hætta við
+delete-account-delete-button-2 = Eyða
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Birtingarnafn
+display-name-input =
+    .label = Settu inn birtingarnafn
+submit-display-name = Vista
+cancel-display-name = Hætta við
+display-name-update-error = Vandamál kom upp við að uppfæra birtingarnafnið þitt.
+display-name-success-alert = Birtingarnafn uppfært.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Hætta við
+recovery-key-close-button = Loka
+recovery-key-continue-button = Halda áfram
+recovery-key-enter-password =
+    .label = Settu inn lykilorð
+recovery-key-page-title =
+    .title = Endurheimtulykill
+recovery-key-step-1 = Skref 1 af 2
+recovery-key-step-2 = Skref 2 af 2
+recovery-key-success-alert = Endurheimtulykill útbúinn.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Skref 1 af 2
+add-secondary-email-page-title =
+    .title = Aukatölvupóstfang
+add-secondary-email-enter-address =
+    .label = Settu inn tölvupóstfang
+add-secondary-email-cancel-button = Hætta við
+add-secondary-email-save-button = Vista
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Skref 2 af 2
+verify-secondary-email-error = Vandamál kom upp við að senda staðfestingarkóðann.
+verify-secondary-email-page-title =
+    .title = Aukatölvupóstfang
+verify-secondary-email-verification-code =
+    .label = Settu inn staðfestingarkóðann þinn
+verify-secondary-email-cancel-button = Hætta við
+verify-secondary-email-verify-button = Sannreyna
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Settu inn staðfestingarkóðann sem sendur var til <strong>{ $email }</strong> innan 5 mínútna.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Eyða reikningi
 
 ## Two Step Authentication
 
+tfa-title = Tveggja-þrepa auðkenning
+tfa-step-1-3 = Skref 1 af 3
+tfa-step-2-3 = Skref 2 af 3
+tfa-step-3-3 = Skref 3 af 3
+tfa-button-continue = Halda áfram
+tfa-button-cancel = Hætta við
+tfa-button-finish = Ljúka
+tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
+tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
+tfa-cannot-verify-code = Vandamál kom upp við að staðfesta endurheimtukóðann þinn.
+tfa-incorrect-recovery-code = Rangur endurheimtukóði
 
 ##
 
