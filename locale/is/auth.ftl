@@ -35,6 +35,15 @@ subplat-automated-email = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst 
 subplat-privacy-notice = Meðferð persónuupplýsinga
 subplat-privacy-plaintext = Meðferð persónuupplýsinga:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú hefur skráð þig á { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account }.
+subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
+subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
 subplat-terms-policy = Skilmálar og afbókunarreglur
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hætta áskrift
@@ -56,7 +65,18 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Sæktu { $prod
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sæktu { $productName } í { -app-store }">
+another-desktop-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink">annarri vinnutölvu</a>.
+another-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink">öðru tæki</a>.
+automated-email-change =
+    Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="passwordChangeLink">breyta lykilorðinu þínu</a>.
+    Sil að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á { -product-firefox-account } þinn, ættirðu að endurstilla lykilorðið þitt strax á { $passwordChangeLink }
 automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ef það varst ekki þú sem breyttir því, skaltu endurstilla lykilorðið þitt núna á { $resetLink }
 cancellationSurvey = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í <a data-l10n-name="cancellationSurveyUrl")s>stuttri könnun</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í stuttri könnun:
@@ -84,6 +104,7 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $cardType } kort sem endar á { $lastFour }
+subscriptionSupport = Spurningar varðandi áskriftina þína? <a data-l10n-name="subscriptionSupportUrl">Aðstoðarteymið</a> okkar er hér til að hjálpa þér.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Spurningar um áskriftina þína? Þjónustuteymi okkar er hér til að hjálpa þér:
 # Variables:
