@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-24 08:25+0000\n"
+"PO-Revision-Date: 2022-02-24 08:50+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -197,6 +197,8 @@ msgid ""
 "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
 "confirmations."
 msgstr ""
+"Þú hefur náð að breyta aðaltölvupóstfanginu þínu í %(email)s. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á Firefox-reikninginn þinn, ásamt því að þarna færðu "
+"öryggistilkynningar og staðfestingar á innskráningu."
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:1
 msgid "Recovery code consumed"
@@ -216,7 +218,7 @@ msgstr "Nýir endurheimtukóðar útbúnir"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr ""
+msgstr "Þú hefur búið til nýja endurheimtukóða úr eftirfarandi tæki:"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
 msgid "Account recovery key removed"
@@ -268,7 +270,7 @@ msgstr "Næst skaltu samstilla á milli tækjanna þinna!"
 
 #: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
 msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr ""
+msgstr "Samstillingin sér um að halda bókamerkjunum þínum, lykilorðum og öðrum Firefox-gögnum eins í öllum tækjunum þínum."
 
 #: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
 msgid "Set up next device"
@@ -284,7 +286,7 @@ msgstr "Aukapóstfangi bætt við"
 
 #: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
 msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
+msgstr "Þú hefur staðfest %(secondaryEmail)s sem aukapóstfang fyrir Firefox-reikninginn þinn. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin."
 
 #: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
 msgid "Need to reset your password?"
@@ -292,7 +294,7 @@ msgstr "Þarftu að endurstilla lykilorðið þitt?"
 
 #: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
 msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr ""
+msgstr "Smelltu á hnappinn innan klukkustundar til að búa til nýtt lykilorð. Beiðnin kom frá eftirfarandi tæki:"
 
 #: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
 msgid "Create new password"
@@ -309,7 +311,7 @@ msgstr "Okkur þykir miður að þú sért á förum"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
 msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
+msgstr "Þú eyddir Firefox-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp %(productName)s áskriftinni þinni. Lokagreiðsla þín upp á %(invoiceTotal)s var greidd þann %(invoiceDateOnly)s."
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
 msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
@@ -329,7 +331,7 @@ msgstr ""
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
 msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr ""
+msgstr "Næst muntu búa til Firefox reikningslykilorð og sækja %(productName)s."
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
@@ -498,7 +500,7 @@ msgstr "Því miður, við eigum í vandræðum með greiðslumátann þinn"
 
 #: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr ""
+msgstr "Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir %(productName)s."
 
 #: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
 msgid "Thank you for reactivating your %(productName)s subscription!"
@@ -586,7 +588,7 @@ msgstr "Spurningar varðandi áskriftirnar þínar? Aðstoðarteymið okkar er h
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr ""
+msgstr "Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir eftirfarandi áskriftir."
 
 #: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
 msgid "Is this you signing in?"
@@ -598,11 +600,11 @@ msgstr "Ef já, þá er hérna auðkenningarkóðinn sem þú þarft:"
 
 #: lib/senders/templates/unblockCode.html:3
 msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr ""
+msgstr "Ef nei, hjálpaðu okkur að verjast boðflennum með því að <a %(reportSignInLinkAttributes)s>tilkynna okkur þetta.</a>"
 
 #: lib/senders/templates/unblockCode.txt:3
 msgid "If no, help us fend off intruders and report it to us."
-msgstr ""
+msgstr "Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta."
 
 #: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
 msgid "Welcome to the Firefox family"
