@@ -30,6 +30,7 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = { -brand-mozilla } Ñemigua Purureko
 fxa-service-url = { -product-firefox-cloud } mba’epytyvõrã ñemboguata
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } ra’ãnga’i">
 subplat-automated-email = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
 subplat-privacy-notice = Marandu’i ñemiguáva
 subplat-privacy-plaintext = Ñemigua purureko:
@@ -504,9 +505,6 @@ verifyLogin-description = Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyr�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Emoneĩ jeike pyahu { $clientName }-pe
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Ayvu rechajeyrã: { $code }
 verifyLoginCode-title = ¿Ndépa emoñepyrũve tembiapo?
 verifyLoginCode-prompt = Upéicharõ, eipuru ko ayvu rechajeyrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
