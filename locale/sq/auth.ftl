@@ -29,13 +29,19 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Nj
 body-devices-image = <img data-l10n-name="devices-image" alt="Pajisje">
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
 fxa-service-url = Kushte Shërbimi { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Stemë e { -brand-firefox }-it">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Stemë e { -brand-mozilla }-s">
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
+subplat-privacy-notice = Shënim mbi privatësinë
 subplat-privacy-plaintext = Shënim mbi privatësinë:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një { -product-firefox-account } dhe jeni regjistruar për { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Këtë email po e merrni, ngaqë për { $email } ka një { -product-firefox-account }.
 subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
 subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
 subplat-terms-policy = Kushte dhe rregulla anulimi
@@ -45,8 +51,20 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Riaktivizo pajtimin
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Përditësoni të dhëna faturimi
+subplat-privacy-policy = Rregulla Privatësie të { -brand-mozilla }-s
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Kushte Shërbimi { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Ligjore
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatësi
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Shkarkojeni { $productName } nga { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Shkarkojeni { $productName } nga { -app-store }">
 another-desktop-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje desktop</a>.
 another-device = Ose, instalojeni në <a data-l10n-name="anotherDeviceLink">një tjetër pajisje</a>.
 automated-email-change =
@@ -74,15 +92,49 @@ change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hy
 user-ip = Adresë IP: { $ip }
 manage-account = Administroni llogarinë
 manage-account-plaintext = { manage-account }:
+payment-details = Hollësi pagese:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Numër Fature: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = U faturuan: { $invoiceTotal } më { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Metodë Pagese:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Kartë { $cardType } që përfundon me { $lastFour }
 subscriptionSupport = Pyetje rreth pajtimit tuaj? <a data-l10n-name="subscriptionSupportUrl">Ekipi ynë i asistencës</a> është këtu për t’ju ndihmuar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pyetje rreth pajtimit tuaj? Ekipi ynë i asistencës është këtu për t’ju ndihmuar:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Faleminderit për pajtimin te { $productName }. Nëse keni ndonjë pyetje mbi pajtimin tuaj, ose ju duhet më tepër informacion rreth { $productName }, ju lutemi, <a data-l10n-name="subscriptionSupportUrl">lidhuni me ne</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Faleminderit për pajtimin te { $productName }. Nëse keni ndonjë pyetje mbi pajtimin tuaj, ose ju duhet më tepër informacion rreth { $productName }, ju lutemi, lidhuni me ne:
+subscriptionUpdateBillingEnsure = Nga <a data-l10n-name="updateBillingUrl">këtu</a>, mund të siguroheni se metoda juaj e pagesës dhe hollësitë e llogarisë janë të sakta.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Nga këtu, mund të siguroheni se metoda juaj e pagesës dhe hollësitë e llogarisë janë të sakta:
+subscriptionUpdateBillingTry = Do të riprovojmë kryerjen e pagesës tuaj gjatë pak ditëve të ardhshme, por mund të duhet të na ndihmoni për ta ndrequr, duke <a data-l10n-name="updateBillingUrl">përditësuar hollësitë e pagesës tuaj</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Do të riprovojmë kryerjen e pagesës tuaj gjatë pak ditëve të ardhshme, por mund të duhet të na ndihmoni për ta ndrequr, duke përditësuar hollësitë e pagesës tuaj:
 subscriptionUpdatePayment = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, <a data-l10n-name="updateBillingUrl">përditësoni të dhënat tuaja të pagesës</a> sa më shpejt të jetë e mundur.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Për më tepër të dhëna, ju lutemi, vizitoni { $supportUrl }
+view-invoice = <a data-l10n-name="invoiceLink">Shihni faturën tuaj</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Shihni Faturën: { $invoiceLink }
 cadReminderFirst-subject = Kujtuesi Juaj Dashamirës: Si të Plotësohet Ujdisja e Njëkohësimit
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-title = Ja kujtuesi juaj për njëkohësim pajisjesh.
@@ -91,6 +143,18 @@ cadReminderSecond-subject = Kujtues Përfundimtar: Plotësoni Ujdisjen e Njëkoh
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 cadReminderSecond-title = Kujtuesi i fundit për njëkohësim pajisjesh!
 cadReminderSecond-description = Njëkohësimi i një pajisjeje tjetër privatisht me { -brand-firefox }-in i mban faqerojtësit tuaj, fjalëkalimet dhe të dhëna të tjera { -brand-firefox } të njëjta, kudo që përdorni { -brand-firefox }-in.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Mirë se vini te { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Mirë se vini te { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Nëse s’e keni shkarkuar ende { $productName }, le t’ia fillojmë duke përdorur krejt veçoritë e përfshira te pajtimi juaj:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Shkarkoni { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
 codes-reminder-description = Vumë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mundësinë e prodhimit të kodeve të rinj, për të shmangur që të mbeten jashtë llogarisë tuaj.
@@ -167,6 +231,7 @@ postRemoveSecondary-title = Email-i dytësor u hoq
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
+postRemoveTwoStepAuthentication-subject-line = Mirëfilltësimi dyhapësh është i çaktivizuar
 postRemoveTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u çaktivizua
 postRemoveTwoStepAuthentication-description = Keni çaktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën që nga pajisja vijuese:
 postRemoveTwoStepAuthentication-description-plaintext = E çaktivizuat me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën. S’do të kërkohen më kode sigurie për çdo hyrje.
@@ -183,6 +248,9 @@ postVerify-action = Ujdisni pajisjen pasuese
 postVerify-support = Keni pyetje? Vizitoni { $supportUrl }
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Verifikuat me sukses { $secondaryEmail } si email dytësor për { -product-firefox-account } tuajën. Njoftime sigurie dhe ripohime hyrjesh tani do të dërgohen te të dy email-et.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title = Keni nvojë të ricaktoni fjalëkalimin tuaj?
@@ -197,6 +265,27 @@ subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Tani afër fshitë { -product-firefox-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj e fundit prej { $invoiceTotal } qe paguar më { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Hollësi pagese:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju lutemi, caktoni fjalëkalimin tuaj.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
+subscriptionAccountFinishSetup-action = Krijoni fjalëkalim
+subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
+subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
+subscriptionAccountReminderFirst-content-info = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë verifikimin e saj. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderFirst-content-select = Që të ujdisni një fjalëkalim të ri dhe të përfundoni verifikimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
+subscriptionAccountReminderFirst-action = Krijoni Fjalëkalim
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni llogarinë tuaj
+subscriptionAccountReminderSecond-title = Mirë se vini në { -brand-firefox }
+subscriptionAccountReminderSecond-content-info = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë verifikimin e saj. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderSecond-content-select = Që të ujdisni një fjalëkalim të ri dhe të përfundoni verifikimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
+subscriptionAccountReminderSecond-action = Krijoni Fjalëkalim
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Pajtimi juaj për { $productName } është anuluar
@@ -218,6 +307,67 @@ subscriptionDowngrade-content-switch = U hodhët me sukses nga { $productNameOld
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productNameNew }, do të merrni një email veçmas me udhëzime shkarkimi.
 subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Pajtimi juaj për { $productName } është anuluar
+subscriptionFailedPaymentsCancellation-title = Pajtimi juaj është anuluar
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Anuluam pajtimin tuaj për { $productName }, për shkak përpjekjesh të shumta të dështuara pagimi. Që të keni hyrje sërish, nisni një pajtim të ri, me një metodë të përditësuar pagesash.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Pagesa për { $productName } u ripohua
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Faleminderit për pajtimin te { $productName }
+subscriptionFirstInvoice-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install = Do të merrni një email veçmas me udhëzime shkarkimi se si të filloni të përdorni { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Numër Fature: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Numër Fature: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Pagesa për { $productName } u ripohua
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Faleminderit për pajtimin te { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install = Do të merrni një email veçmas me udhëzime shkarkimi se si të filloni të përdorni { $productName }.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Numër Fature: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numër Fature: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-onetime-discount = Zbritje për një herë vetëm: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Kartë krediti për { $productName } që skadon së shpejti
@@ -225,6 +375,22 @@ subscriptionPaymentExpired-title = Karta juaj e kreditit është afër skadimit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për { $productName } është afër skadimit.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Pagesa për { $productName } dështoi
+subscriptionPaymentFailed-title = Na ndjeni, po kemi probleme me pagesën tuaj
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Patëm një problem me pagesën tuaj të fundit për { $productName }.
+subscriptionPaymentFailed-content-outdated = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për { $productName }
+subscriptionPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Pikasëm një problem me metodën tuaj të pagesës për { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Pajtimi në { $productName } u riaktivizua
@@ -235,9 +401,53 @@ subscriptionReactivation-title = Faleminderit për riaktivizimin e pajtimit tuaj
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Cikli juaj i faturimeve dhe pagesa do të mbesin njësoj. Faturimi pasues do të jetë { $invoiceTotal }, më { $nextInvoiceDateOnly }. Pajtimi juaj do të rinovohet automatikisht në çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Njoftim rinovimi të automatizuar të { $productName }
+subscriptionRenewalReminder-title = Pajtimi juaj do të rinovohet së shpejti
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = I dashur klient i { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Pajtimi juaj aktual është ujdisur të rinovohet automatikisht pas { $reminderLength } ditësh. Në atë kohë, { -brand-mozilla } do të rinovojë pajtimin tuaj për { $planIntervalCount } { $planInterval } dhe llogarisë tuaj do t’i faturohet vlera { $invoiceTotal } përmes metodës së pagesës.
+subscriptionRenewalReminder-content-closing = Sinqerisht,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Ekipi i { $productName }
 subscriptionsPaymentExpired-subject = Karta e kreditit për pajtimet tuaja skadon së shpejti
 subscriptionsPaymentExpired-title = Karta juaj e kreditit është afër skadimit
 subscriptionsPaymentExpired-content = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese është afër skadimit.
+subscriptionsPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për pajtime { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
+subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
+subscriptionsPaymentProviderCancelled-content-payment = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Pagesa për { $productName } u mor
+subscriptionSubsequentInvoice-title = Faleminderit që jeni një pajtimtar!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Morëm pagesën tuaj më të re për { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = Numër Fature: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Numër Fature: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Ndryshim plani: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-charged = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = E përmirësuat me { $productNameNew }
@@ -246,6 +456,13 @@ subscriptionUpgrade-title = Faleminderit për përmirësimin!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Bëtë me sukses përmirësimin nga { $productNameOld } në { $productNameNew }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Duke filluar me faturën tuaj të ardhshme, vlera që ju faturohet do të ndryshohet nga { $paymentAmountOld } për { $productPaymentCycleOld } në { $paymentAmountNew } për { $productPaymentCycleNew }. Në atë kohë do t’ju faturohet edhe një tarifë vetëm për një herë prej { $paymentProrated } për të pasqyruar tarifën më të lartë për pjesën e mbetur të këtij { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productNameNew }, do të merrni një email veçmas me udhëzime shkarkimi.
@@ -283,6 +500,9 @@ verifyLogin-description = Për më tepër siguri, ju lutemi, ripohojeni këtë h
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Ripohoni hyrje të re te { $clientName }
 verifyLogin-action = Ripohoni hyrjen
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Kod hyrjeje për { $serviceName }
 verifyLoginCode-title = A jeni ju që po hyni?
 verifyLoginCode-prompt = Nëse po, ja kodi i verifikimit:
 verifyLoginCode-expiry-notice = Skadon për 5 minuta.
