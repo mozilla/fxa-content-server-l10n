@@ -31,6 +31,7 @@ alert-bar-close-message = Mbylle mesazhin
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton p
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
 bento-menu-firefox-mobile = Shfletuesi { -brand-firefox } për Celular
 bento-menu-made-by-mozilla = Krijuar nga { -brand-mozilla }
@@ -79,6 +81,12 @@ connect-another-fx-mobile = Merreni { -brand-firefox }-in për celular ose table
 connect-another-find-fx-mobile =
     Gjejeni { -brand-firefox }-in te { -google-play } dhe { -app-store } ose
     <br /><linkExternal>dërgoni një lidhje shkarkimi te pajisja juaj.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Shkarkojeni  { -brand-firefox } nga { -google-play }
+connect-another-app-store-image-2 =
+    .title = Shkarkojeni { -brand-firefox } nga { -app-store }
 
 ##
 
@@ -155,6 +163,7 @@ dc-subheader = Ndihmoni të përmirësohet { -product-firefox-accounts }
 dc-subheader-content = Lejoje { -product-firefox-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-opt-out-success = Lënie jashtë e suksesshme. { -product-firefox-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-firefox-accounts }.
+dc-opt-in-out-error = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash.
 dc-learn-more = Mësoni më tepër
 
 # DropDownAvatarMenu component
@@ -230,6 +239,8 @@ tfa-replace-code-success =
     U krijuan kode të reja. Ruajini këto kode njëpërdorimsh në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
     pajisjen tuaj celulare.
 tfa-replace-code-success-alert = Kodet e rikthimit të llogarisë u përditësuan.
+tfa-replace-code-1-2 = Hapi 1 nga 2
+tfa-replace-code-2-2 = Hapi 2 nga 2
 
 ## Avatar change page
 
@@ -298,8 +309,8 @@ delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
 delete-account-confirm-title-2 = E keni lidhur { -product-firefox-account } tuaj me produkte { -brand-mozilla } që ju mbajnë në internet të parrezikuar dhe prodhimtar në internet:
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
-delete-account-chk-box-1 =
-    .label = Do të anulohet çfarëdo pajtimi me pagesë që keni
+delete-account-chk-box-1-v2 =
+    .label = Çfarëdo pajtimesh të paguara do të anulohen (Hiq { product-pocket })
 delete-account-chk-box-2 =
     .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -354,9 +365,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Anuloje
 add-secondary-email-save-button = Ruaje
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Hapi 2 nga 2
@@ -401,7 +409,10 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Përdoreni kodin { $secret } që të rregulloni mirëfilltësim dyhapsh te aplikacione që e mbulojnë.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = S’e skanoni dot kodin?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:
@@ -426,12 +437,6 @@ profile-picture =
     .header = Foto
 profile-display-name =
     .header = Emër në ekran
-profile-password =
-    .header = Fjalëkalim
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Krijuar më { $date }
 profile-primary-email =
     .header = Email parësor
 
@@ -441,6 +446,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Siguri
+security-password =
+    .header = Fjalëkalim
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Krijuar më { $date }
 
 ## Switch component
 
@@ -515,6 +526,8 @@ se-default-content = Hyni në llogarinë tuaj, nëse s’përdorni dot email-n t
 se-content-note =
     Shënim: një email dytësor s’do t’ju rikthejë të dhëna tuaja — për
     këtë punë do t’ju duhet një <a>kyç rimarrjesh</a>.
+# Default value for the secondary email
+se-secondary-email-none = Asnjë
 
 ##
 
@@ -550,6 +563,7 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 
 auth-error-102 = Llogari e panjohur
 auth-error-103 = Fjalëkalim i pasaktë
+auth-error-105 = Kod verifikimi i pavlefshëm
 auth-error-110 = Token i pavlefshëm
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -560,5 +574,7 @@ auth-error-110 = Token i pavlefshëm
 #                           (for example: "in 15 minutes")
 auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
 auth-error-138 = Sesion i paverifikuar
+auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
+auth-error-183 = Kod verifikimi i pavlefshëm ose i skaduar
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm

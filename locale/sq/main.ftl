@@ -355,6 +355,22 @@ plan-details-header = Hollësi produkti
 plan-details-show-button = Shfaq hollësi
 plan-details-hide-button = Fshihi hollësitë
 plan-details-total-label = Gjithsej
+plan-details-list-price = Çmim Liste
+
+## coupons
+
+coupon-discount = Zbritje
+coupon-discount-applied = Zbritja u Aplikua
+coupon-submit = Zbatoje
+coupon-remove = Hiqe
+coupon-error = Kodi që dhatë është i pavlefshëm, ose ka skaduar.
+coupon-error-generic = Ndodhi një gabim me përpunimin e kodit. Ju lutemi, riprovoni.
+coupon-error-expired = Kodi që dhatë ka skaduar.
+coupon-error-limit-reached = Kodi që dhatë ka mbërritur në kufirin e vet.
+coupon-error-invalid = Kodi që dhatë është i pavlefshëm.
+coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
+coupon-enter-code =
+    .placeholder = Jepni Kod
 
 ## payment-processing
 
@@ -415,11 +431,9 @@ payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 
 new-user-sign-in-link = Keni tashmë një llogari { -brand-name-firefox } account? <a>Hyni në të</a>
 new-user-step-1 = 1. Krijoni një llogari { -brand-name-firefox }
-new-user-step-2 = 2. Zgjidhni metodën tuaj të pagesës
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = E domosdoshme
 new-user-email =
     .placeholder = foxy@mozilla.com
     .label = Jepni email-in tuaj
@@ -434,3 +448,7 @@ new-user-card-title = Jepni hollësitë e kartës tuaj
 new-user-submit = Pajtohuni Tani
 manage-pocket-title = Po shihni për pajtimin tuaj me pagesë në { -brand-name-pocket }?
 manage-pocket-body = Për ta administruar, <a>klikoni këtu</a>.
+payment-method-header = Zgjidhni metodën tuaj të pagesës
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = E domosdoshme

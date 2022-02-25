@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-25 13:11+0000\n"
+"PO-Revision-Date: 2022-02-25 13:12+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -583,6 +583,8 @@ msgid ""
 "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
 "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 msgstr ""
+"Duke filluar nga fatura juaj e ardhshme, vlera e faturuar do të ndryshojë nga %(paymentAmountOld)s për %(productPaymentCycleOld)s në %(paymentAmountNew)s për %(productPaymentCycleNew)s. Në atë kohë "
+"do t’ju faturohet një tarifë vetëm për një herë, prej %(paymentProrated)s për të pasqyruar tarifën më lartë për pjesën e mbetur të këtij %(productPaymentCycleOld)s."
 
 #: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
 msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
@@ -959,7 +961,7 @@ msgstr "Email-i parësor u përditësua"
 
 #: lib/senders/email.js:1629
 msgid "Two-step authentication is off"
-msgstr ""
+msgstr "Mirëfilltësimi dyhapësh është i çaktivizuar"
 
 #: lib/senders/email.js:1723
 msgid "Recovery code used"
