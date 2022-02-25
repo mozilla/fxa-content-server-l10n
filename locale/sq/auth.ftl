@@ -17,9 +17,16 @@
 -product-firefox-account = Llogari Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Email content
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Stemë e { -brand-firefox }-it">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Njëkohësoni pajisje">
+body-devices-image = <img data-l10n-name="devices-image" alt="Pajisje">
 fxa-privacy-url = Rregulla Privatësie të { -brand-mozilla }-s
 fxa-service-url = Kushte Shërbimi { -product-firefox-cloud }
 subplat-automated-email = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
@@ -29,8 +36,6 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Këtë email e merrni ngaqë për { $email } ka një { -product-firefox-account } dhe jeni regjistruar për { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
 subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
 subplat-terms-policy = Kushte dhe rregulla anulimi
@@ -162,7 +167,6 @@ postRemoveSecondary-title = Email-i dytësor u hoq
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
-postRemoveTwoStepAuthentication-subject = Verifikimi dyhapësh është i çaktivizuar
 postRemoveTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u çaktivizua
 postRemoveTwoStepAuthentication-description = Keni çaktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën që nga pajisja vijuese:
 postRemoveTwoStepAuthentication-description-plaintext = E çaktivizuat me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën. S’do të kërkohen më kode sigurie për çdo hyrje.
@@ -179,9 +183,6 @@ postVerify-action = Ujdisni pajisjen pasuese
 postVerify-support = Keni pyetje? Vizitoni { $supportUrl }
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-description = Verifikuat me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Njoftime sigurie dhe ripohime hyrjesh tani do të dërgohen te të dy email-et.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title = Keni nvojë të ricaktoni fjalëkalimin tuaj?
@@ -214,12 +215,6 @@ subscriptionDowngrade-subject = U hodhët në { $productNameNew }
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = U hodhët me sukses nga { $productNameOld } në { $productNameNew }.
 # Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge = Duke filluar me faturën tuaj të ardhshme, vlera që ju faturohet do të ndryshohet nga { $paymentAmountOld } për { $productPaymentCycle } në { $paymentAmountNew }. Në atë kohë do t’ju jepet një kredit vetëm për një herë prej { $paymentProrated } për të pasqyruar tarifën më të ulët për pjesën e mbetur të { $productPaymentCycle }.
-# Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productNameNew }, do të merrni një email veçmas me udhëzime shkarkimi.
 subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
@@ -251,12 +246,6 @@ subscriptionUpgrade-title = Faleminderit për përmirësimin!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Bëtë me sukses përmirësimin nga { $productNameOld } në { $productNameNew }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycle (String) - The interval of time from the end of one payment statement date to the next payment statement date, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-charge-info = Duke filluar me faturën tuaj të ardhshme, vlera që ju faturohet do të ndryshohet nga { $paymentAmountOld } për { $productPaymentCycle } nëo { $paymentAmountNew }. Në atë kohë do t’ju faturohet edhe një tarifë vetëm për një herë prej { $paymentProrated } për të pasqyruar tarifën më të lartë për pjesën e mbetur të { $productPaymentCycle }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Në pastë software të ri që ta instaloni për të mundur të përdorni { $productNameNew }, do të merrni një email veçmas me udhëzime shkarkimi.
@@ -294,9 +283,6 @@ verifyLogin-description = Për më tepër siguri, ju lutemi, ripohojeni këtë h
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Ripohoni hyrje të re te { $clientName }
 verifyLogin-action = Ripohoni hyrjen
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = Kod verifikimi: { $code }
 verifyLoginCode-title = A jeni ju që po hyni?
 verifyLoginCode-prompt = Nëse po, ja kodi i verifikimit:
 verifyLoginCode-expiry-notice = Skadon për 5 minuta.
