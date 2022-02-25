@@ -505,6 +505,9 @@ verifyLogin-description = Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyr�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Emoneĩ jeike pyahu { $clientName }-pe
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Tembiapo ñepyrũ ayvu { $serviceName } peg̃uarã
 verifyLoginCode-title = ¿Ndépa emoñepyrũve tembiapo?
 verifyLoginCode-prompt = Upéicharõ, eipuru ko ayvu rechajeyrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
