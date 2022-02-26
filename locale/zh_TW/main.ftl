@@ -263,7 +263,7 @@ sub-plan-price-year =
 
 ## $date (Date) - The date for the next time a charge will occur.
 
-sub-next-bill = 下次收費時間: { $date }
+sub-next-bill = 下次收費時間：{ $date }
 sub-expires-on = 於 { $date } 到期
 
 ##
