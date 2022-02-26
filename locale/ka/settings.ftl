@@ -464,12 +464,6 @@ profile-picture =
     .header = სურათი
 profile-display-name =
     .header = გამოსაჩენი სახელი
-profile-password =
-    .header = პაროლი
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = შეიქმნა { $date }
 profile-primary-email =
     .header = მთავარი ელფოსტა
 
@@ -479,6 +473,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = უსაფრთხოება
+security-password =
+    .header = პაროლი
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = შექმნის თარიღი { $date }
 
 ## Switch component
 

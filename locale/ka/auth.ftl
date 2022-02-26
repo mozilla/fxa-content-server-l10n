@@ -512,8 +512,8 @@ verifyLogin-description = დამატებითი უსაფრთხ�
 verifyLogin-subject = ახალი შესვლის დადასტურება { $clientName }
 verifyLogin-action = შესვლის დადასტურება
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyLoginCode-subject = დამადასტურებელი კოდი: { $code }
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = შესვლის კოდი – { $serviceName }
 verifyLoginCode-title = ეს თქვენი შესვლაა?
 verifyLoginCode-prompt = თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:
 verifyLoginCode-expiry-notice = ვადა გაუვა 5 წუთში.
