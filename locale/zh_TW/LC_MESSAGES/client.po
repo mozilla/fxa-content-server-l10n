@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-26 07:10+0000\n"
+"PO-Revision-Date: 2022-02-26 07:16+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -644,7 +644,7 @@ msgstr "無效 data 屬性：%(property)s"
 
 #: .es5/lib/auth-errors.js:488
 msgid "Missing data attribute: %(property)s"
-msgstr "缺少 data 屬性: %(property)s"
+msgstr "缺少 data 屬性：%(property)s"
 
 #: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -768,7 +768,7 @@ msgstr "代碼已過期"
 
 #: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
 msgid "Invalid OAuth parameter: %(param)s"
-msgstr "無效的 OAuth 參數: %(param)s"
+msgstr "無效的 OAuth 參數：%(param)s"
 
 #: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
 msgid "Unauthorized"
@@ -792,7 +792,7 @@ msgstr "無訊息"
 
 #: .es5/lib/oauth-errors.js:157
 msgid "Missing OAuth parameter: %(param)s"
-msgstr "缺少 OAuth 參數: %(param)s"
+msgstr "缺少 OAuth 參數：%(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
@@ -824,7 +824,7 @@ msgstr "與遠端裝置的連線已關閉，請再試一次"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Invalid parameter in request body: %(param)s"
-msgstr "請求內容中的參數無效: %(param)s"
+msgstr "請求內容中的參數無效：%(param)s"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Unsupported image provider"
@@ -860,11 +860,11 @@ msgstr "%(country)s（估計地點）"
 
 #: .es5/lib/strings.js:38
 msgid "IP address: %(ip)s"
-msgstr "IP 地址: %(ip)s"
+msgstr "IP 地址：%(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "為了加強保護，請確認這次登入後才會開始與這部裝置同步:"
+msgstr "為了加強保護，請確認這次登入後才會開始與這部裝置同步："
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -910,7 +910,7 @@ msgstr "請輸入您先前產生的單次使用救援金鑰，以取回 Firefox 
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">註: </span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
+msgstr "<span class=\"note\">註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
@@ -939,7 +939,7 @@ msgstr "了解更多資訊"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr "選擇要同步的內容:"
+msgstr "選擇要同步的內容："
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
@@ -1272,7 +1272,7 @@ msgstr "請求權限"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s 想要您的帳號的下列資訊:"
+msgstr "%(serviceName)s 想要您的帳號的下列資訊："
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
@@ -1456,7 +1456,7 @@ msgstr "需要這組密碼才能解開儲存於我們這邊的加密資料。<br
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "將發送有用小知識給您。訂閱其他電子報:"
+msgstr "將發送有用小知識給您。訂閱其他電子報："
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
@@ -1548,7 +1548,7 @@ msgstr "聯絡我們"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr "有什麼我們能幫忙的地方？"
+msgstr "您針對哪套訂閱項目需要協助？"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
@@ -1612,7 +1612,7 @@ msgstr "與此裝置同步"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr "第 1 步，共 2 步: 重新輸入密碼"
+msgstr "第 1 步，共 2 步：重新輸入密碼"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your recovery key."
@@ -1718,7 +1718,7 @@ msgstr "將發送實用小知識給您。"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr "將發送關於下列項目的實用小知識給您:"
+msgstr "將發送關於下列項目的實用小知識給您："
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -1883,7 +1883,7 @@ msgstr "未知地點"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr "IP 位置: %(ipAddress)s"
+msgstr "IP 位置：%(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
@@ -1967,7 +1967,7 @@ msgstr "裝置已連線"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid "You are now syncing with:"
-msgstr "您目前正與下列裝置同步:"
+msgstr "您目前正與下列裝置同步："
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Manage devices"
