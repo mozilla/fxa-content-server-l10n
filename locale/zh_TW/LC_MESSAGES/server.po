@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-26 16:51+0000\n"
+"PO-Revision-Date: 2022-02-26 16:55+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -297,7 +297,7 @@ msgstr "建立新密碼"
 
 #: lib/senders/templates/sms.installFirefox.txt:1
 msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "感謝您選用 Firefox！您也可在此安裝 Firefox 行動版: %(link)s"
+msgstr "感謝您選用 Firefox！您也可在此安裝 Firefox 行動版：%(link)s"
 
 #: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
 #: lib/senders/templates/subscriptionCancellation.txt:1
@@ -314,7 +314,7 @@ msgstr "請填寫這份<a %(cancellationSurveyLinkAttributes)s>簡短問卷</a>�
 
 #: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
 msgid "Please help us improve our services by taking this short survey:"
-msgstr "請填寫這份簡短問卷幫助我們改善服務品質:"
+msgstr "請填寫這份簡短問卷幫助我們改善服務品質："
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
 msgid "Welcome to %(productName)s"
@@ -330,7 +330,7 @@ msgstr "接下來，您需要註冊 Firefox 帳號密碼，並下載 %(productNa
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
 msgid "Invoice number: %(invoiceNumber)s"
-msgstr "發票號碼: %(invoiceNumber)s"
+msgstr "發票號碼：%(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
 msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
@@ -338,7 +338,7 @@ msgstr "已於 %(invoiceDateOnly)s 收取 %(invoiceTotal)s"
 
 #: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
 msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "下次扣款日: %(nextInvoiceDateOnly)s"
+msgstr "下次扣款日：%(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
 msgid "You can't access your subscription yet"
@@ -418,7 +418,7 @@ msgstr "您會收到另外一封關於如何開始使用 %(productName)s 與下�
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
 msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "發票號碼: <b>%(invoiceNumber)s</b>"
+msgstr "發票號碼：<b>%(invoiceNumber)s</b>"
 
 #: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
@@ -432,15 +432,15 @@ msgstr "<a href=\"%(invoiceLink)s\">檢視您的請款單</a>。"
 #: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
 msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "下次扣款日: %(nextInvoiceDateOnly)s"
+msgstr "下次扣款日：%(nextInvoiceDateOnly)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
 msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "發票號碼: %(invoiceNumber)s"
+msgstr "發票號碼：%(invoiceNumber)s"
 
 #: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
 msgid "View Invoice: %(invoiceLink)s"
-msgstr "檢視請款單: %(invoiceLink)s"
+msgstr "檢視請款單：%(invoiceLink)s"
 
 #: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
 msgid "Subtotal: %(invoiceSubtotal)s"
@@ -467,7 +467,7 @@ msgstr "為了避免服務中斷，請及早<a href=\"%(updateBillingUrl)s\">更
 #: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
 msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "為了避免服務中斷，請及早更新付款資訊:"
+msgstr "為了避免服務中斷，請及早更新付款資訊："
 
 #: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
 msgid "Sorry, we're having trouble with your payment"
@@ -583,7 +583,7 @@ msgstr "有關於訂閱服務的任何問題嗎？我們的<a href=\"%(subscript
 
 #: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
 msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "有訂閱內容的相關問題嗎？我們的技術支援團隊在此幫忙:"
+msgstr "有訂閱內容的相關問題嗎？我們的技術支援團隊在此幫忙："
 
 #: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
 msgid "We have detected a problem with your payment method for the following subscriptions."
@@ -619,7 +619,7 @@ msgstr "請立即確認，即可獲得為您的隱私而戰的相關技術、實
 
 #: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
 msgid "Confirm email:"
-msgstr "確認電子郵件信箱:"
+msgstr "確認電子郵件信箱："
 
 #: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
 msgid "Still there?"
@@ -639,7 +639,7 @@ msgstr "啟用 Firefox 系列產品"
 
 #: lib/senders/templates/verify.html:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "確認您的帳號，就可以在任何登入的裝置中，發揮 Firefox 的最大功能:"
+msgstr "確認您的帳號，就可以在任何登入的裝置中，發揮 Firefox 的最大功能："
 
 #: lib/senders/templates/verify.txt:2
 msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
@@ -647,7 +647,7 @@ msgstr "確認您的帳號，就可以在任何登入的裝置中，發揮 Firef
 
 #: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
 msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "為了確保安全，請確認此次來自下列裝置的登入要求:"
+msgstr "為了確保安全，請確認此次來自下列裝置的登入要求："
 
 #: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
 msgid "Confirm sign-in"
@@ -655,7 +655,7 @@ msgstr "確認登入"
 
 #: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
 msgid "If yes, here is the verification code:"
-msgstr "有的話，請使用下列驗證碼:"
+msgstr "有的話，請使用下列驗證碼："
 
 #: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
 msgid "It expires in 5 minutes."
@@ -667,7 +667,7 @@ msgstr "驗證主要電子郵件地址"
 
 #: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
 msgid "A request to perform an account change has been made from the following device:"
-msgstr "收到來自下列裝置的帳號變更請求:"
+msgstr "收到來自下列裝置的帳號變更請求："
 
 #: lib/senders/templates/verifyPrimary.html:3
 msgid "Once verified, account changes like adding a secondary email will become possible from this device."
@@ -675,7 +675,7 @@ msgstr "驗證完成後，即可從此裝置進行新增次要電子郵件地址
 
 #: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
 msgid "Verify email: "
-msgstr "驗證電子郵件地址: "
+msgstr "驗證電子郵件地址："
 
 #: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
 msgid "Verify secondary email"
@@ -683,7 +683,7 @@ msgstr "驗證次要電子郵件地址"
 
 #: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
 msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "有人要求將 %(email)s 加入為下列 Firefox 帳號的次要地址:"
+msgstr "有人要求將 %(email)s 加入為下列 Firefox 帳號的次要地址："
 
 #: lib/senders/templates/verifySecondary.html:3
 msgid "Once verified, this address will begin receiving security notifications and confirmations."
@@ -691,7 +691,7 @@ msgstr "驗證完成後，此信箱也會收到安全性通知與確認郵件。
 
 #: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
 msgid "Use this verification code:"
-msgstr "使用這組驗證碼:"
+msgstr "使用這組驗證碼："
 
 #: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
 msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
@@ -703,7 +703,7 @@ msgstr "您有註冊帳號嗎？"
 
 #: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
 msgid "If yes, use this verification code in your registration form:"
-msgstr "如果是的話，請在註冊標單輸入下列驗證碼:"
+msgstr "如果是的話，請在註冊表單輸入下列驗證碼："
 
 #: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
 msgid "Ready, set, sync"
@@ -711,7 +711,7 @@ msgstr "各就各位、預備、同步！"
 
 #: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
 msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "確認您收到了這封郵件，我們就會從下列裝置開始，幫助您安裝並同步所有裝置上的 Firefox:"
+msgstr "確認您收到了這封郵件，我們就會從下列裝置開始，幫助您安裝並同步所有裝置上的 Firefox："
 
 #: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
 msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
@@ -751,15 +751,15 @@ msgstr "若您覺得有人在嘗試盜用您的帳號，請修改密碼。"
 
 #: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
 msgid "IP address: %(ip)s"
-msgstr "IP 地址: %(ip)s"
+msgstr "IP 地址：%(ip)s"
 
 #: lib/senders/templates/partials/manageAccount.txt:1
 msgid "Manage account:"
-msgstr "管理帳號:"
+msgstr "管理帳號："
 
 #: lib/senders/templates/partials/paymentPlanDetails.html:1
 msgid "Payment details:"
-msgstr "付款詳細資訊:"
+msgstr "付款詳細資訊："
 
 #: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
 msgid "PayPal"
@@ -823,23 +823,23 @@ msgstr "隱私權"
 
 #: lib/senders/templates/layouts/subscription.txt:2
 msgid "Terms and cancellation policy:"
-msgstr "條款及取消政策:"
+msgstr "條款及取消政策："
 
 #: lib/senders/templates/layouts/subscription.txt:3
 msgid "Privacy notice:"
-msgstr "隱私權保護政策:"
+msgstr "隱私權保護政策："
 
 #: lib/senders/templates/layouts/subscription.txt:4
 msgid "Cancel subscription:"
-msgstr "取消訂閱:"
+msgstr "取消訂閱："
 
 #: lib/senders/templates/layouts/subscription.txt:5
 msgid "Cancel subscriptions:"
-msgstr "取消訂閱下列項目:"
+msgstr "取消訂閱下列項目："
 
 #: lib/senders/templates/layouts/subscription.txt:6
 msgid "Update billing information:"
-msgstr "更新帳務資訊:"
+msgstr "更新帳務資訊："
 
 #: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -875,11 +875,11 @@ msgstr "確認電子郵件信箱"
 
 #: lib/senders/email.js:655
 msgid "Verification code: %(code)s"
-msgstr "驗證碼: %(code)s"
+msgstr "驗證碼：%(code)s"
 
 #: lib/senders/email.js:705
 msgid "Reminder: Finish creating your account"
-msgstr "提醒: 請完成帳號註冊"
+msgstr "提醒：請完成帳號註冊"
 
 #: lib/senders/email.js:707
 msgid "Final reminder: Activate your account"

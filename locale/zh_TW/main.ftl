@@ -416,7 +416,7 @@ payment-confirmation-amount-year =
        *[other] 每 { $intervalCount } 年 { $amount }
     }
 payment-confirmation-download-button = 前往下載
-payment-confirmation-cc-card-ending-in = 卡號末四碼: { $last4 }
+payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
 ## new user email form
 

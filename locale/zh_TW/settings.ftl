@@ -116,7 +116,7 @@ cs-disconnect-sync-reason = 要取消連結此裝置的主要原因是什麼？
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
-cs-disconnect-sync-opt-prefix = 裝置是:
+cs-disconnect-sync-opt-prefix = 裝置是：
 cs-disconnect-sync-opt-suspicious = 此裝置看來很可疑
 cs-disconnect-sync-opt-lost = 已遺失此裝置
 cs-disconnect-sync-opt-old = 已經不再使用此裝置
@@ -291,8 +291,8 @@ delete-account-header =
     .title = 刪除帳號
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
-delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品:
-delete-account-acknowledge = 請確認若刪除帳號:
+delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
+delete-account-acknowledge = 請確認若刪除帳號：
 delete-account-chk-box-1-v2 =
     .label = 將取消所有付費訂閱項目（{ product-pocket } 除外）
 delete-account-chk-box-2 =
@@ -397,7 +397,7 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 無法掃描條碼？
 # When the user cannot use a QR code.
-tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰:
+tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰：
 tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
