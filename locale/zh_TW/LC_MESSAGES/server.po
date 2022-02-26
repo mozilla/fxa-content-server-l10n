@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-02-26 07:13+0000\n"
+"PO-Revision-Date: 2022-02-26 16:51+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -135,7 +135,7 @@ msgstr "已使用救援金鑰重設密碼"
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
 msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "您已自下列裝置成功使用救援金鑰重設密碼:"
+msgstr "您已自下列裝置成功使用救援金鑰重設密碼："
 
 #: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
 msgid "You will need to generate a new recovery key."
@@ -143,7 +143,7 @@ msgstr "您必須產生新的救援金鑰。"
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:4
 msgid "Create new recovery key:"
-msgstr "產生新的救援金鑰:"
+msgstr "產生新的救援金鑰："
 
 #: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
 msgid "For more information, please visit %(supportUrl)s"
@@ -155,7 +155,7 @@ msgstr "已產生新的救援金鑰"
 
 #: lib/senders/templates/postAddAccountRecovery.html:2
 msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "您已使用下列裝置，成功產生新的 Firefox 帳號救援金鑰:"
+msgstr "您已使用下列裝置，成功產生新的 Firefox 帳號救援金鑰："
 
 #: lib/senders/templates/postAddAccountRecovery.html:3
 msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
@@ -163,7 +163,7 @@ msgstr "若不是您做的，<a %(revokeAccountRecoveryLinkAttributes)s>請點�
 
 #: lib/senders/templates/postAddAccountRecovery.txt:2
 msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "您已使用下列裝置，成功產生新的 Firefox 帳號救援金鑰:"
+msgstr "您已使用下列裝置，成功產生新的 Firefox 帳號救援金鑰："
 
 #: lib/senders/templates/postAddAccountRecovery.txt:3
 msgid "If this was not you, revoke key."
@@ -175,7 +175,7 @@ msgstr "已開啟兩階段驗證"
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:2
 msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "您已從下列裝置成功為 Firefox 帳號開啟兩階段驗證:"
+msgstr "您已從下列裝置成功為 Firefox 帳號開啟兩階段驗證："
 
 #: lib/senders/templates/postAddTwoStepAuthentication.html:3
 msgid "Security codes from your authentication app will now be required at each sign-in."
@@ -201,7 +201,7 @@ msgstr "已使用救援碼"
 
 #: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
 msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "您已在下列裝置上，成功使用救援碼登入:"
+msgstr "您已在下列裝置上，成功使用救援碼登入："
 
 #: lib/senders/templates/postConsumeRecoveryCode.txt:1
 msgid "Consumed recovery code"
@@ -213,7 +213,7 @@ msgstr "已產生新救援碼"
 
 #: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
 msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "您已在下列裝置上，成功產生新救援碼:"
+msgstr "您已在下列裝置上，成功產生新救援碼："
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
 msgid "Account recovery key removed"
@@ -221,7 +221,7 @@ msgstr "已刪除救援金鑰"
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:2
 msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰:"
+msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰："
 
 #: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
 msgid "This recovery key can no longer be used to recover your account."
@@ -229,7 +229,7 @@ msgstr "將無法再使用這把金鑰來救援您的帳號。"
 
 #: lib/senders/templates/postRemoveAccountRecovery.txt:2
 msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰:"
+msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰："
 
 #: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
 msgid "Secondary email removed"
@@ -245,7 +245,7 @@ msgstr "已關閉兩階段驗證"
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
 msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "您已從下列裝置成功為 Firefox 帳號關閉兩階段驗證:"
+msgstr "您已從下列裝置成功為 Firefox 帳號關閉兩階段驗證："
 
 #: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
 msgid "Security codes will no longer be required at each sign-in."
