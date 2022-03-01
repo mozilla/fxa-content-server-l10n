@@ -374,6 +374,7 @@ coupon-error = Pe ayvu emoĩva ndoikói térã hi’arapaháma.
 coupon-error-generic = Oiko jejavy emomba’apóvo ayvu. Ikatúiko eha’ãjey ag̃ave.
 coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
 coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.
+coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
 coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
 coupon-enter-code =
     .placeholder = Emoinge ayvu
