@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-01 18:51+0000\n"
+"PO-Revision-Date: 2022-03-01 18:56+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1604,7 +1604,7 @@ msgstr "Descrição do problema"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "O serviço de sincronização não é uma cópia de segurança permanente, é simplesmente uma maneira segura de transferir favoritos, histórico e senhas salvos entre seus dispositivos."
+msgstr "O serviço de sincronização não é uma cópia de segurança permanente, é simplesmente uma maneira segura de transferir entre seus dispositivos os favoritos, histórico e senhas salvos."
 
 #: .es5/templates/why_connect_another_device.mustache:3
 msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
