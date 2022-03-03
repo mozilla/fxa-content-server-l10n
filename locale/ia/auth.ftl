@@ -200,6 +200,7 @@ postAddAccountRecovery-description = Tu ha generate con successo un clave de rec
 postAddAccountRecovery-action = Gerer le conto
 postAddAccountRecovery-recovery = Si iste non era tu, <a data-l10n-name="revokeAccountRecoveryLink">clicca hic</a>.
 postAddAccountRecovery-revoke = Si iste non esseva tu, revoca le clave.
+postAddLinkedAccount-action = Gerer le conto
 postAddTwoStepAuthentication-subject = Authentication a duo passos activate
 postAddTwoStepAuthentication-title = Authentication a duo passos activate
 postAddTwoStepAuthentication-description-plaintext = Tu ha correctemente activate le authentication a duo passos sur tu conto { -product-firefox-account }. Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session.
@@ -274,10 +275,7 @@ subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configur
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Benvenite a { $productName }.
 subscriptionAccountFinishSetup-content-processing = Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo cancellar.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Successivemente, tu creara un contrasigno de conto Firefox e discargara{ $productName }.
-subscriptionAccountFinishSetup-action = Crear un contrasigno
+subscriptionAccountFinishSetup-action-2 = Comenciar
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
 subscriptionAccountReminderFirst-content-info = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
@@ -369,9 +367,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numero de fa
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Disconto una tantum: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -523,14 +518,6 @@ verifyPrimary-subject = Confirmar e-mail primari
 verifyPrimary-action = Verificar le email
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Post le verifica le cambios del conto, como adder le email secundari, sera possibile per le apparato.
-verifySecondary-subject = Confirmar e-mail secundari
-verifySecondary-title = Verificar e-mail secundari
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
-verifySecondary-action = Verificar le email
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 verifySecondaryCode-subject = Confirmar e-mail secundari
 verifySecondaryCode-title = Verificar e-mail secundari
 # Variables:
