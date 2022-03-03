@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2022-01-27 19:08+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,849 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "შეხსენება, მოწყობილობების დასინქრონებისთვის."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "შედეგად ორივე დასინქრონდება. სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "ბოლო შეხსენება მოწყობილობების დასინქრონებისთვის!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "თუ ჯერ კიდევ არ ჩამოგიტვირთავთ %(productName)s, დაიწყეთ ყველა იმ შესაძლებლობით სარგებლობა, რასაც თქვენი გამოწერა შეიცავს:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენს დასახმარებლად:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "აღდგენის კოდები თავდება"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "კოდების შექმნა:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "ახალი შესვლა %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "პაროლის შეცვლა აუცილებელია"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"თქვენს Firefox-ანგარიშზე საეჭვო მოქმედება შევნიშნეთ. უნებართვო წვდომის აღსაკვეთად თქვენს Firefox-ანგარიშთან, ჩვენ გამოვაერთეთ ყველა მოწყობილობა თქვენი ანგარიშიდან და საჭიროა ახალი პაროლის შექმნა, "
-"უსაფრთხოების ზომების მისაღებად."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ Firefox-ანგარიშს და მიჰყევით მოცემულ ნაბიჯებს."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>მნიშვნელოვანია:</b> შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "საუკეთესო სურვილებით,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Firefox-ანგარიშების გუნდი"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "მნიშვნელოვანია: შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "პაროლი წარმატებით შეიცვალა"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "თქვენი Firefox-ანგარიშის პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "ეს არის ავტომატური შეტყობინება; თუ Firefox-ანგარიშზე პაროლი თქვენ არ შეგიცვლიათ, მაშინ გირჩევთ, ახლავე გაანულოთ %(resetLink)s ბმულზე."
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "თქვენი ანგარიშის პაროლი შეიცვალა"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "თუ თქვენ არ შეგიცვლიათ, გთხოვთ გაანულოთ პაროლი ახლავე ბმულზე %(resetLink)s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "თქვენი ანგარიშის პაროლი განულდა აღდგენის გასაღების მეშვეობით"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "თქვენ წარმატებით გაანულეთ თქვენი პაროლი აღდგენის გასაღების მეშვეობით შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "საჭიროა აღდგენის ახალი გასაღების შექმნა."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "აღდგენის ახალი გასაღების შექმნა:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "დამატებითი ინფორმაციისთვის, ეწვიეთ %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობის საშუალებით:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "თუ ეს თქვენ არ გაგიკეთებიათ, <a %(revokeAccountRecoveryLinkAttributes)s>დააწკაპეთ აქ.</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "თუ ეს თქვენ არ გაგიკეთებიათ, გააუქმეთ გასაღები."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "ორბიჯიანი დამოწმება შესვლისას ჩართულია"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე. ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "ახალი მთავარი ელფოსტა"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"მთავარი ელფოსტა წარმატებით შეიცვალა %(email)s მისამართით. უკვე შეგიძლიათ მისი გამოყენება Firefox-ანგარიშზე შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების "
-"დასამოწმებლად."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "აღდგენის კოდი გამოყენებულია"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "თქვენ წარმატებით გამოიყენეთ აღდგენის კოდი შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "გამოყენებული აღდგენის კოდი"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "შექმნილია აღდგენის ახალი კოდები"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი კოდები შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობის საშუალებით:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "ეს აღდგენის გასაღები აღარ გამოდგება თქვენს ანგარიშთან წვდომის მისაღებად."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "დამატებითი ელფოსტა მოცილებულია"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
-"%(secondaryEmail)s მოცილებულია Firefox-ანგარიშის დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები, ამ მისამართზე აღარ "
-"გამოიგზავნება."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "ორბიჯიანი დამოწმება შესვლისას გამორთულია"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს Firefox-ანგარიშზე. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Firefox-ანგარიში დამოწმებულია. თითქმის მზადაა."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "შემდეგია, მოწყობილობებს შორის სინქრონიზაცია!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "დასინქრონებით უსაფრთხოდ ინახება თქვენი სანიშნები, პაროლები და სხვა Firefox-მონაცემები, ყველა თქვენს მოწყობილობაზე."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "გამართეთ შემდეგი მოწყობილობა"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "კითხვები გაქვთ? იხილეთ %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
-"Firefox-ანგარიშის დამატებითი ელფოსტის მისამართი %(secondaryEmail)s წარმატებით დამოწმდა. უსაფრთხოების შეტყობინებები და შესვლების დასადასტურებელი მოთხოვნები, ამიერიდან ორივე მისამართზე გამოიგზავნება."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "გესაჭიროებათ პაროლის განულება?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "შეიყვანეთ ახალი პაროლი"
-
-#: lib/senders/templates/sms.installFirefox.txt:1
-msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "გმადლობთ, Firefox-ის არჩევისთვის! ტელეფონზე დაყენება შეგიძლიათ ბმულიდან: %(link)s"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "სამწუხაროა, რომ გვტოვებთ"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "თქვენ ახლახან წაშალეთ თქვენი Firefox-ანგარიში. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი %(productName)s. ბოლო გადახდაა %(invoiceTotal)s, თარიღით %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a %(cancellationSurveyLinkAttributes)s>მცირე კითხვარი</a>."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "მოგესალმებათ %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr "გადახდა მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე. თქვენი გამოწერა თავისით განახლდება თითოეულ სააგარიშო პერიოდში, სანამ არ გააუქმებთ."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "შემდეგ, შეიქმნება Firefox-ანგარიშის პაროლი და ჩამოიტვირთება %(productName)s."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "ზედნადების ნომერი: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "ჩამოიჭრა: %(invoiceTotal)s თარიღზე %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "შემდეგი ზედნადები: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr "თქვენ ჯერ არ გაქვთ წვდომა თქვენს გამოწერაზე"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr "რამდენიმე დღის წინ Firefox-ანგარიში შექმენით, მაგრამ ჯერ არ დაგიმოწმებიათ. ვიმედოვნებთ, რომ დაასრულებთ ანგარიშის გამართვას, რომ შეძლოთ ისარგებლოთ ახალი შენაძენით."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr "აირჩიეთ „პაროლის შექმნა“ ახალი პაროლის დასაყენებლად და ანგარიშის დამოწმების დასასრულებლად."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr "პაროლის შექმნა:"
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr "მოგესალმებათ Firefox!"
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი %(productName)s. ბოლო გადახდაა %(invoiceTotal)s, თარიღით %(invoiceDateOnly)s. თქვენი მომსახურება გაგრძელდება, მიმდინარე საანგარიშო პერიოდის დასრულებამდე, "
-"თარიღით %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "წარმატებულად გადაირთო %(productNameOld)s – %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
-"მონაკვეთისთვის. იმავდროულად, ერთჯერადად დაგერიცხებათ %(paymentProrated)s, შემცირებული გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ %(productNameNew)s, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "თქვენი გამოწერა გაუქმებულია"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr "თქვენ მიერ გამოწერილი %(productName)s გაუქმდა, ვინაიდან გადახდის რამდენიმე მცდელობა წარუმატებლად დასრულდა. წვდომის ახლიდან მისაღებად, ხელახლა გამოიწერეთ ან განაახლეთ გადახდის საშუალება."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr "თქვენ მიერ გამოწერილი %(productName)s გაუქმდა, ვინაიდან გადახდის რამდენიმე მცდელობა წარუმატებლად დასრულდა.  წვდომის ახლიდან მისაღებად, ხელახლა გამოიწერეთ ან განაახლეთ გადახდის საშუალება."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "გმადლობთ, რომ გამოიწერეთ %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "თქვენი გადახდა ამჟამად მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "თქვენ მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით, თუ როგორ უნდა გამოიყენოთ %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "ზედნადების ნომერი: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "ჩამოიჭრა %(invoiceTotal)s თარიღზე %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">იხილეთ თქვენი ზედნადები</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "შემდეგი ზედნადები: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "ზედნადების ნომერი: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "იხილეთ ზედნადები: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr "შუალედური ჯამი: %(invoiceSubtotal)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr "ერთჯერადი ფასდაკლება: -%(invoiceDiscountAmount)s"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "თქვენი საკრედიტო ბარათის ვადა იწურება"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "ვადა თქვენი საკრედიტო ბარათის, რომელსაც იყენებს %(productName)s გადახდები, იწურება."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ <a href=\"%(updateBillingUrl)s\">განაახლოთ გადახდის მონაცემები</a> რაც შეიძლება მალე."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "სამწუხაროდ ხარვეზია თქვენს გადახდასთან დაკავშირებით"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "ხარვეზი გვქონდა თქვენ ბოლო გადახდაზე %(productName)s-ისთვის."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-"შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, <a href=\"%(updateBillingUrl)s\">გადახდის მონაცემების განახლებით</"
-"a>."
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr "შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, გადახდის მონაცემების განახლებით:"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "სამწუხაროდ ხარვეზია გადახდის თქვენს საშუალებასთან დაკავშირებით"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "ხარვეზი გვქონდა თქვენს ბოლო გადახდაზე %(productName)s-ისთვის."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "გმადლობთ, რომ კვლავ გამოიწერეთ %(productName)s!"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"თქვენი საანგარიშო და საგადასახადო დროის შუალედი რჩება იგივე. მომდევნო ჩამოსაჭრელი თანხა იქნება $%(invoiceTotal)s, თარიღით %(nextInvoiceDateOnly)s. თქვენი გამოწერა თავისთავად განახლდება ყოველ "
-"მომდევნო საგადასახადო პერიოდში, სანამ არ გააუქმებთ."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "თქვენი გამოწერა განახლდება მალე"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "%(productName)s-ის ძვირფასო მომხმარებელო,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-"თქვენს მიმდინარე გამოწერას მითითებული აქვს, რომ გაგრძელდება %(reminderLength)s დღეში. მაგ დროისთვის, Mozilla განაახლებს თქვენს %(planIntervalCount)s %(planInterval)s გამოწერას და ჩამოიჭრება "
-"%(invoiceTotal)s მითითებული გადახდის საშუალებიდან."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a href=\"%(updateBillingUrl)s\">აქედან</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-"გმადლობთ, რომ გამოწერილი გაქვთ %(productName)s. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ %(productName)s, გთხოვთ <a href=\"%(subscriptionSupportUrl)s\">დაგვიკავშირდეთ</"
-"a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "პატივისცემით,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "%(productName)s-ის გუნდი"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, აქედან:"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr "გმადლობთ, რომ გამოწერილი გაქვთ %(productName)s. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ %(productName)s, გთხოვთ დაგვიკავშირდეთ:"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "გმადლობთ, რომ ჩვენი გამომწერი ხართ!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "მიღბულია თქვენი ბოლო გადახდა %(productName)s-ისთვის."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "გმადლობთ, განახლებისთვის!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "წარმატებულად განახლდა %(productNameOld)s – %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
-"მონაკვეთისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ %(paymentProrated)s, გაზრდილი გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადა ეწურება."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "კითხვები გაქვთ თქვენი გამოწერების შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენს დასახმარებლად:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "ხარვეზს წავაწყდით თქვენს ბოლო გადახდაზე მოცემული გამოწერებისთვის."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "ეს თქვენი შესვლაა?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და <a %(reportSignInLinkAttributes)s>გამოგზავნეთ მოხსენება.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და გამოგზავნეთ მოხსენება."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "მოგესალმებათ Firefox-ოჯახი"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "რამდენიმე დღის წინ თქვენ შექმენით Firefox-ანგარიში, მაგრამ ჯერ არ დაგიმოწმებიათ."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "დაამოწმეთ ახლავე და მიიღეთ ყველა ის საშუალება, რომელიც იბრძვის თქვენი პირადი მონაცემების უსაფრთხოებისთვის, უზრუნველგყოფთ გამოსადეგი ცოდნითა და გეპყრობათ სათანადო პატივისცემით."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "ელფოსტის დადასტურება:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "ისევ აქ ხართ?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "თითქმის ერთი კვირაა, რაც Firefox-ანგარიში შექმენით, მაგრამ ჯერ კიდევ არ დაგიმოწმებიათ. ჩვენ უკვე ვღელავთ თქვენზე."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "დაადასტურეთ ელფოსტის ეს მისამართი, რითიც აამოქმედებთ თქვენს ანგარიშს და გვაცნობებთ, რომ ყველაფერი რიგზე გაქვთ."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "აამოქმედეთ Firefox-ის პროდუქტების სრული ოჯახი"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ, დაადასტუროთ ეს შესვლა შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "შესვლის დადასტურება"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "ვადა გაუვა 5 წუთში."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "მთავარი ელფოსტის დამოწმება"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "მოთხოვნა ანგარიშის შეცვლის თაობაზე, გამოგზავნილია შემდეგი მოწყობილობიდან:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "დამოწმების შემდეგ, ანგარიშის ცვლილების შესაძლებლობები, როგორიცაა დამატებითი ელფოსტის მითითება, ამ მოწყობილობიდან იქნება ხელმისაწვდომი."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "ელფოსტის დამოწმება: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "დამატებითი ელფოსტის დამოწმება"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "%(email)s-ის დამატებით მისამართად გამოყენების მოთხოვნა გამოგზავნილია ამ Firefox-ანგარიშიდან:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "დამოწმებისთანავე, ამ მისამართზე დაიწყება უსაფრთხოების შეტყობინებების და დასადასტურებელი მოთხოვნების გამოგზავნა."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "გამოიყენეთ დამადასტურებელი კოდი:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "ვადა გაუვა 5 წუთში. დამოწმების შემდეგ, ამ მისამართზე მიიღებთ უსაფრთხოებისა და დადასტურების შეტყობინებებს."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "ეს ანგარიში თქვენ შექმენით?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "მოემზადეთ, ყურადღება, დასინქრონება"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "დაადასტურეთ, რომ მიიღეთ ეს წერილი და ჩვენ დაგეხმარებით Firefox-ის დაყენებასა და დასინქრონებაში, ყველა მოწყობილობაზე, დაწყებული:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "დამოწმებისთანავე, დაგეხმარებით Firefox-ის დაყენებასა დაკავშირებაში, სულ მცირე კიდევ ერთ მოწყობილობაზე."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "ან დააყენეთ <a %(desktopLinkAttributes)s>სხვა სამაგიდო მოწყობილობაზე</a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "ან დააყენეთ <a %(cadLinkAttributes)s>სხვა მოწყობილობაზე</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, მაშინ <a %(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი.</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "ვრცლად, იხილეთ <a %(supportLinkAttributes)s>Mozilla მხარდაჭერის საიტზე</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "ეს არის ავტომატური შეტყობინება; თუ ახალი მოწყობილობა თქვენ არ დაგიმატებიათ Firefox-ანგარიშზე, მაშინ გირჩევთ, ახლავე შეცვალოთ პაროლი ბმულზე %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, <a %(resetLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "IP-მისამართი: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "ანგარიშის მართვა:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "გადახდის მონაცემები:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "%(cardType)s ბარათის დაბოლოებით %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Mozilla-ს პირადი მონაცემების დაცვის დებულება"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Firefox Cloud-ის მომსახურების პირობები"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s მიბმულია Firefox-ანგარიშზე და გამოწერილი გაქვთ %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr "ეს წერილი იმიტომ მიიღეთ, რომ %(email)s მიბმულია Firefox-ანგარიშზე"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s Firefox-ანგარიშზეა მიბმული და გამოწერილი გაქვთ რამდენიმე პროდუქტი."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "თქვენი Firefox-ანგარიშის პარამეტრების სამართავად, ეწვიეთ თქვენი <a %(accountSettingsLinkAttributes)s>ანგარიშის გვერდს</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "პირობები და გაუქმების დებულება"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "გამოწერის კვლავ ამოქმედება"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "გამოწერის გაუქმება"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "გამოწერების გაუქმება"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "ანგარიშსწორების მონაცემების განახლება"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "სამართლებრივი"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "პირადულობა"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "პირობები და გაუქმების დებულება:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "პირადი მონაცემების დაცვის განაცხადი:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "გამოწერის გაუქმება:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "გამოწერების გაუქმება:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "ანგარიშსწორების მონაცემების განახლება:"
 
 #: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -881,180 +38,224 @@ msgstr "%(stateCode)s, %(country)s (მიახლოებით)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (მიახლოებით)"
 
-#: lib/senders/email.js:587
-msgid "Finish creating your account"
-msgstr "დაასრულეთ ანგარიშის შექმნა"
-
-#: lib/senders/email.js:588 lib/senders/email.js:725
-msgid "Confirm email"
-msgstr "ელფოსტის დადასტურება"
-
-#: lib/senders/email.js:655
+#: lib/senders/email.js:618
 msgid "Verification code: %(code)s"
 msgstr "დამადასტურებელი კოდი: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:666
 msgid "Reminder: Finish creating your account"
 msgstr "შეხსენება: დაასრულეთ ანგარიშის შექმნა"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:668
 msgid "Final reminder: Activate your account"
 msgstr "საბოლოო შეხსენება: აამოქმედეთ თქვენი ანგარიში"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:686
+msgid "Confirm email"
+msgstr "ელფოსტის დადასტურება"
+
+#: lib/senders/email.js:719
 msgid "Reminder: Finish setting up your account"
 msgstr "შეხსენება: დაასრულეთ ანგარიშის შექმნა"
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:721
 msgid "Final reminder: Setup your account"
 msgstr "საბოლოო შეხსენება: გამართეთ თქვენი ანგარიში"
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:763 lib/senders/email.js:1911
 msgid "Create a password"
 msgstr "შექმენით პაროლი"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:799
 msgid "Account authorization code"
 msgstr "ანგარიშზე დაშვების კოდი"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:870
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "ახალი შესვლის დადასტურება %(clientName)s"
 
-#: lib/senders/email.js:960
-msgid "Sign-in code for %(serviceName)s"
-msgstr "შესვლის კოდი – %(serviceName)s"
+#: lib/senders/email.js:873
+msgid "Confirm sign-in"
+msgstr "შესვლის დადასტურება"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:982
 msgid "Confirm primary email"
 msgstr "მთავარი ელფოსტის დამოწმება"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:983 lib/senders/email.js:1044
 msgid "Verify email"
 msgstr "ელფოსტის დამოწმება"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1043
 msgid "Confirm secondary email"
 msgstr "დამატებითი ელფოსტის დამოწმება"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1101
 msgid "Reset your password"
 msgstr "პაროლის განულება"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1102
+msgid "Create new password"
+msgstr "შეიყვანეთ ახალი პაროლი"
+
+#: lib/senders/email.js:1145 lib/senders/email.js:1214
 msgid "Password updated"
 msgstr "პაროლი განახლდა"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1185
 msgid "Suspicious activity detected"
 msgstr "აღმოჩენილია საეჭვო მოქმედება"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1252
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
+#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
 msgid "Manage account"
 msgstr "ანგარიშის მართვა"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1303
+msgid "New sign-in to %(clientName)s"
+msgstr "ახალი შესვლა %(clientName)s"
+
+#: lib/senders/email.js:1342
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "ანგარიში დამოწმებულია. შემდეგ, დაასინქრონეთ კიდევ ერთი მოწყობილობა გამართვის დასასრულებლად"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1347
+msgid "Set up next device"
+msgstr "გამართეთ შემდეგი მოწყობილობა"
+
+#: lib/senders/email.js:1393
+msgid "Secondary email added"
+msgstr "ელფოსტის დამატებითი მისამართი დამახსოვრებულია"
+
+#: lib/senders/email.js:1429
 msgid "Primary email updated"
 msgstr "მთავარი ელფოსტა განახლებულია"
 
-#: lib/senders/email.js:1629
-msgid "Two-step authentication is off"
-msgstr "ორბიჯიანი დამოწმება გამორთულია"
+#: lib/senders/email.js:1465
+msgid "Secondary email removed"
+msgstr "დამატებითი ელფოსტა მოცილებულია"
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1499
+msgid "Two-step authentication enabled"
+msgstr "ორბიჯიანი დამოწმება შესვლისას ჩართულია"
+
+#: lib/senders/email.js:1584
+msgid "New recovery codes generated"
+msgstr "შექმნილია აღდგენის ახალი კოდები"
+
+#: lib/senders/email.js:1629
 msgid "Recovery code used"
 msgstr "აღდგენის კოდი გამოყენებულია"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1687
 msgid "1 recovery code remaining"
 msgstr "1 აღდგენის კოდია დარჩენილი"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1689
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s აღდგენის კოდია დარჩენილი"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1692
 msgid "Generate codes"
 msgstr "კოდების შექმნა"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1724
+msgid "Account recovery key generated"
+msgstr "ანგარიშის აღდგენის გასაღები შექმნილია"
+
+#: lib/senders/email.js:1772
+msgid "Account recovery key removed"
+msgstr "ანგარიშის აღდგენის გასაღები მოცილებულია"
+
+#: lib/senders/email.js:1820
 msgid "Password updated using recovery key"
 msgstr "პაროლი განახლებულია აღდგენის კოდის გამოყენებით"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1821
 msgid "Create new recovery key"
 msgstr "აღდგენის ახალი გასაღების შექმნა"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1914
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "მოგესალმებათ %(productName)s: გთხოვთ, დააყენოთ პაროლი."
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1988
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "განახლების შედეგად მიიღეთ %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2069
 msgid "You have switched to %(productNameNew)s"
 msgstr "გადართვის შედეგად მიიღეთ %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2135
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "%(productName)s მომსახურებისთვის საკრედიტო ბარათს ვადა ეწურება"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2149
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "თქვენი გამოწერების საკრედიტო ბარათს ვადა ეწურება"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2200
 msgid "Payment information update required for %(productName)s"
 msgstr "გადახდის ინფორმაციის განახლებას საჭიროებს %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2216
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "გადახდის ინფორმაციის განახლებას საჭიროებს Mozilla-გამოწერები"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2262
 msgid "%(productName)s payment failed"
 msgstr "%(productName)s გადახდა ვერ მოხერხდა"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "თქვენ მიერ გამოწერილი %(productName)s გაუქმებულია"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2496
 msgid "%(productName)s subscription reactivated"
 msgstr "გამოწერილი %(productName)s კვლავ ამოქმედებულია"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2552
 msgid "%(productName)s automatic renewal notice"
 msgstr "%(productName)s გამოწერის თვითგანახლების უწყება"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2633 lib/senders/email.js:2733
 msgid "%(productName)s payment received"
 msgstr "%(productName)s გადახდა მიღებულია"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2837 lib/senders/email.js:2922
 msgid "%(productName)s payment confirmed"
 msgstr "%(productName)s გადახდა დამოწმებულია"
 
-#: lib/senders/email.js:2994
-msgid "Download %(productName)s"
-msgstr "ჩამოტვირთეთ %(productName)s"
-
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:3028
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "მეგობრული შეხსენება: როგორ დაასრულოთ სინქრონიზაციის გამართვა"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:3029
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "საბოლოო შეხსენება: დაასრულეთ სინქრონიზაციის გამართვა"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:3032
+msgid "Here's your reminder to sync devices."
+msgstr "შეხსენება, მოწყობილობების დასინქრონებისთვის."
+
+#: lib/senders/email.js:3033
+msgid "Last reminder to sync devices!"
+msgstr "ბოლო შეხსენება მოწყობილობების დასინქრონებისთვის!"
+
+#: lib/senders/email.js:3036
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "შედეგად ორივე დასინქრონდება. სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
+
+#: lib/senders/email.js:3039
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "სხვა მოწყობილობასთან დასინქრონება Firefox-თან, უსაფრთხოდ შეინახავს თქვენს სანიშნებს, პაროლებსა და სხვა Firefox-მონაცემებს ყველგან, სადაც გიყენიათ Firefox."
+
+#: lib/senders/email.js:3043
 msgid "Sync another device"
 msgstr "სხვა მოწყობილობის დასინქრონება"
 
@@ -1142,6 +343,604 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "უახლესის ჩამოტვირთვა"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "თუ ჯერ კიდევ არ ჩამოგიტვირთავთ %(productName)s, დაიწყეთ ყველა იმ შესაძლებლობით სარგებლობა, რასაც თქვენი გამოწერა შეიცავს:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენს დასახმარებლად:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "აღდგენის კოდები თავდება"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად."
+
+#~ msgid "Generate codes:"
+#~ msgstr "კოდების შექმნა:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "პაროლის შეცვლა აუცილებელია"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "თქვენს Firefox-ანგარიშზე საეჭვო მოქმედება შევნიშნეთ. უნებართვო წვდომის აღსაკვეთად თქვენს Firefox-ანგარიშთან, ჩვენ გამოვაერთეთ ყველა მოწყობილობა თქვენი ანგარიშიდან და საჭიროა ახალი პაროლის "
+#~ "შექმნა, უსაფრთხოების ზომების მისაღებად."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ Firefox-ანგარიშს და მიჰყევით მოცემულ ნაბიჯებს."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>მნიშვნელოვანია:</b> შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
+
+#~ msgid "Best,"
+#~ msgstr "საუკეთესო სურვილებით,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefox-ანგარიშების გუნდი"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "მნიშვნელოვანია: შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "პაროლი წარმატებით შეიცვალა"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "თქვენი Firefox-ანგარიშის პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "ეს არის ავტომატური შეტყობინება; თუ Firefox-ანგარიშზე პაროლი თქვენ არ შეგიცვლიათ, მაშინ გირჩევთ, ახლავე გაანულოთ %(resetLink)s ბმულზე."
+
+#~ msgid "Your account password was changed"
+#~ msgstr "თქვენი ანგარიშის პაროლი შეიცვალა"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "თუ თქვენ არ შეგიცვლიათ, გთხოვთ გაანულოთ პაროლი ახლავე ბმულზე %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "თქვენი ანგარიშის პაროლი განულდა აღდგენის გასაღების მეშვეობით"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "თქვენ წარმატებით გაანულეთ თქვენი პაროლი აღდგენის გასაღების მეშვეობით შემდეგი მოწყობილობიდან:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "საჭიროა აღდგენის ახალი გასაღების შექმნა."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "აღდგენის ახალი გასაღების შექმნა:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "დამატებითი ინფორმაციისთვის, ეწვიეთ %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობის საშუალებით:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "თუ ეს თქვენ არ გაგიკეთებიათ, <a %(revokeAccountRecoveryLinkAttributes)s>დააწკაპეთ აქ.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "თუ ეს თქვენ არ გაგიკეთებიათ, გააუქმეთ გასაღები."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე შემდეგი მოწყობილობიდან:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე. ყოველი შესვლისას საჭირო იქნება უსაფრთხოების კოდის შეყვანა, თქვენი შესვლის დასამოწმებელი პროგრამიდან."
+
+#~ msgid "New primary email"
+#~ msgstr "ახალი მთავარი ელფოსტა"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "მთავარი ელფოსტა წარმატებით შეიცვალა %(email)s მისამართით. უკვე შეგიძლიათ მისი გამოყენება Firefox-ანგარიშზე შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების "
+#~ "დასამოწმებლად."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "აღდგენის კოდი გამოყენებულია"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "თქვენ წარმატებით გამოიყენეთ აღდგენის კოდი შემდეგი მოწყობილობიდან:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "გამოყენებული აღდგენის კოდი"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "თქვენ წარმატებით შექმენით აღდგენის ახალი კოდები შემდეგი მოწყობილობიდან:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობის საშუალებით:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "ეს აღდგენის გასაღები აღარ გამოდგება თქვენს ანგარიშთან წვდომის მისაღებად."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "თქვენ წარმატებით გააუქმეთ აღდგენის გასაღები Firefox-ანგარიშისთვის შემდეგი მოწყობილობიდან:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr ""
+#~ "%(secondaryEmail)s მოცილებულია Firefox-ანგარიშის დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები, ამ მისამართზე აღარ "
+#~ "გამოიგზავნება."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "ორბიჯიანი დამოწმება შესვლისას გამორთულია"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით ჩაირთო თქვენს Firefox-ანგარიშზე შემდეგი მოწყობილობიდან:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "ორბიჯიანი დამოწმება შესვლისას წარმატებით გამოირთო თქვენს Firefox-ანგარიშზე. უსაფრთხოების კოდების შეყვანა ყოველი შესვლისას აღარ იქნება საჭირო."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Firefox-ანგარიში დამოწმებულია. თითქმის მზადაა."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "შემდეგია, მოწყობილობებს შორის სინქრონიზაცია!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "დასინქრონებით უსაფრთხოდ ინახება თქვენი სანიშნები, პაროლები და სხვა Firefox-მონაცემები, ყველა თქვენს მოწყობილობაზე."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "კითხვები გაქვთ? იხილეთ %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Firefox-ანგარიშის დამატებითი ელფოსტის მისამართი %(secondaryEmail)s წარმატებით დამოწმდა. უსაფრთხოების შეტყობინებები და შესვლების დასადასტურებელი მოთხოვნები, ამიერიდან ორივე მისამართზე "
+#~ "გამოიგზავნება."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "გესაჭიროებათ პაროლის განულება?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "დააჭირეთ ღილაკს მომდევნო ერთი საათის განმავლობაში, ახალი პაროლის დასაყენებლად. მოთხოვნა მიღებულია, შემდეგი მოწყობილობიდან:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "გმადლობთ, Firefox-ის არჩევისთვის! ტელეფონზე დაყენება შეგიძლიათ ბმულიდან: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "სამწუხაროა, რომ გვტოვებთ"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "თქვენ ახლახან წაშალეთ თქვენი Firefox-ანგარიში. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი %(productName)s. ბოლო გადახდაა %(invoiceTotal)s, თარიღით %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a %(cancellationSurveyLinkAttributes)s>მცირე კითხვარი</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "მოგესალმებათ %(productName)s"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr "გადახდა მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე. თქვენი გამოწერა თავისით განახლდება თითოეულ სააგარიშო პერიოდში, სანამ არ გააუქმებთ."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "შემდეგ, შეიქმნება Firefox-ანგარიშის პაროლი და ჩამოიტვირთება %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "ზედნადების ნომერი: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "ჩამოიჭრა: %(invoiceTotal)s თარიღზე %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "შემდეგი ზედნადები: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "თქვენ ჯერ არ გაქვთ წვდომა თქვენს გამოწერაზე"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr "რამდენიმე დღის წინ Firefox-ანგარიში შექმენით, მაგრამ ჯერ არ დაგიმოწმებიათ. ვიმედოვნებთ, რომ დაასრულებთ ანგარიშის გამართვას, რომ შეძლოთ ისარგებლოთ ახალი შენაძენით."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "აირჩიეთ „პაროლის შექმნა“ ახალი პაროლის დასაყენებლად და ანგარიშის დამოწმების დასასრულებლად."
+
+#~ msgid "Create a password:"
+#~ msgstr "პაროლის შექმნა:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "მოგესალმებათ Firefox!"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი %(productName)s. ბოლო გადახდაა %(invoiceTotal)s, თარიღით %(invoiceDateOnly)s. თქვენი მომსახურება გაგრძელდება, მიმდინარე საანგარიშო პერიოდის დასრულებამდე, "
+#~ "თარიღით %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "წარმატებულად გადაირთო %(productNameOld)s – %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
+#~ "მონაკვეთისთვის. იმავდროულად, ერთჯერადად დაგერიცხებათ %(paymentProrated)s, შემცირებული გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ %(productNameNew)s, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "თქვენი გამოწერა გაუქმებულია"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "თქვენ მიერ გამოწერილი %(productName)s გაუქმდა, ვინაიდან გადახდის რამდენიმე მცდელობა წარუმატებლად დასრულდა. წვდომის ახლიდან მისაღებად, ხელახლა გამოიწერეთ ან განაახლეთ გადახდის საშუალება."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "თქვენ მიერ გამოწერილი %(productName)s გაუქმდა, ვინაიდან გადახდის რამდენიმე მცდელობა წარუმატებლად დასრულდა.  წვდომის ახლიდან მისაღებად, ხელახლა გამოიწერეთ ან განაახლეთ გადახდის საშუალება."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "გმადლობთ, რომ გამოიწერეთ %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "თქვენი გადახდა ამჟამად მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "თქვენ მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით, თუ როგორ უნდა გამოიყენოთ %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "ზედნადების ნომერი: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "ჩამოიჭრა %(invoiceTotal)s თარიღზე %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">იხილეთ თქვენი ზედნადები</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "შემდეგი ზედნადები: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "ზედნადების ნომერი: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "იხილეთ ზედნადები: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "შუალედური ჯამი: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "ერთჯერადი ფასდაკლება: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "თქვენი საკრედიტო ბარათის ვადა იწურება"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "ვადა თქვენი საკრედიტო ბარათის, რომელსაც იყენებს %(productName)s გადახდები, იწურება."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ <a href=\"%(updateBillingUrl)s\">განაახლოთ გადახდის მონაცემები</a> რაც შეიძლება მალე."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "სამწუხაროდ ხარვეზია თქვენს გადახდასთან დაკავშირებით"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "ხარვეზი გვქონდა თქვენ ბოლო გადახდაზე %(productName)s-ისთვის."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, <a href=\"%(updateBillingUrl)s\">გადახდის მონაცემების "
+#~ "განახლებით</a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, გადახდის მონაცემების განახლებით:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "სამწუხაროდ ხარვეზია გადახდის თქვენს საშუალებასთან დაკავშირებით"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "ხარვეზი გვქონდა თქვენს ბოლო გადახდაზე %(productName)s-ისთვის."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "გმადლობთ, რომ კვლავ გამოიწერეთ %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "თქვენი საანგარიშო და საგადასახადო დროის შუალედი რჩება იგივე. მომდევნო ჩამოსაჭრელი თანხა იქნება $%(invoiceTotal)s, თარიღით %(nextInvoiceDateOnly)s. თქვენი გამოწერა თავისთავად განახლდება ყოველ "
+#~ "მომდევნო საგადასახადო პერიოდში, სანამ არ გააუქმებთ."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "თქვენი გამოწერა განახლდება მალე"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "%(productName)s-ის ძვირფასო მომხმარებელო,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "თქვენს მიმდინარე გამოწერას მითითებული აქვს, რომ გაგრძელდება %(reminderLength)s დღეში. მაგ დროისთვის, Mozilla განაახლებს თქვენს %(planIntervalCount)s %(planInterval)s გამოწერას და ჩამოიჭრება "
+#~ "%(invoiceTotal)s მითითებული გადახდის საშუალებიდან."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a href=\"%(updateBillingUrl)s\">აქედან</a>."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "გმადლობთ, რომ გამოწერილი გაქვთ %(productName)s. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ %(productName)s, გთხოვთ <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">დაგვიკავშირდეთ</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "პატივისცემით,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "%(productName)s-ის გუნდი"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, აქედან:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "გმადლობთ, რომ გამოწერილი გაქვთ %(productName)s. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ %(productName)s, გთხოვთ დაგვიკავშირდეთ:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "გმადლობთ, რომ ჩვენი გამომწერი ხართ!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "მიღბულია თქვენი ბოლო გადახდა %(productName)s-ისთვის."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "გმადლობთ, განახლებისთვის!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "წარმატებულად განახლდა %(productNameOld)s – %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "შემდეგი გადახდიდან, ჩამოსაჭრელი თანხა %(paymentAmountOld)s თითოეული %(productPaymentCycleOld)s მონაკვეთისთვის შეიცვლება და იქნება %(paymentAmountNew)s ახალი %(productPaymentCycleNew)s "
+#~ "მონაკვეთისთვის. იმავდროულად, ერთჯერადად ჩამოგეჭრებათ %(paymentProrated)s, გაზრდილი გადასახადის ასასახად ნაშთისთვის %(productPaymentCycleOld)s მონაკვეთში."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადა ეწურება."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a href=\"%(subscriptionSupportUrl)s\">მხარდაჭერის გუნდი</a> მზადაა თქვენს დასახმარებლად."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "კითხვები გაქვთ თქვენი გამოწერების შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენს დასახმარებლად:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "ხარვეზს წავაწყდით თქვენს ბოლო გადახდაზე მოცემული გამოწერებისთვის."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "ეს თქვენი შესვლაა?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და <a %(reportSignInLinkAttributes)s>გამოგზავნეთ მოხსენება.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და გამოგზავნეთ მოხსენება."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "მოგესალმებათ Firefox-ოჯახი"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "რამდენიმე დღის წინ თქვენ შექმენით Firefox-ანგარიში, მაგრამ ჯერ არ დაგიმოწმებიათ."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "დაამოწმეთ ახლავე და მიიღეთ ყველა ის საშუალება, რომელიც იბრძვის თქვენი პირადი მონაცემების უსაფრთხოებისთვის, უზრუნველგყოფთ გამოსადეგი ცოდნითა და გეპყრობათ სათანადო პატივისცემით."
+
+#~ msgid "Confirm email:"
+#~ msgstr "ელფოსტის დადასტურება:"
+
+#~ msgid "Still there?"
+#~ msgstr "ისევ აქ ხართ?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "თითქმის ერთი კვირაა, რაც Firefox-ანგარიში შექმენით, მაგრამ ჯერ კიდევ არ დაგიმოწმებიათ. ჩვენ უკვე ვღელავთ თქვენზე."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "დაადასტურეთ ელფოსტის ეს მისამართი, რითიც აამოქმედებთ თქვენს ანგარიშს და გვაცნობებთ, რომ ყველაფერი რიგზე გაქვთ."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "აამოქმედეთ Firefox-ის პროდუქტების სრული ოჯახი"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ Firefox-ის შესაძლებლობებით."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "დამატებითი უსაფრთხოებისთვის, გთხოვთ, დაადასტუროთ ეს შესვლა შემდეგი მოწყობილობიდან:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "თუ კი, გამოიყენეთ ეს დამადასტურებელი კოდი:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "ვადა გაუვა 5 წუთში."
+
+#~ msgid "Verify primary email"
+#~ msgstr "მთავარი ელფოსტის დამოწმება"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "მოთხოვნა ანგარიშის შეცვლის თაობაზე, გამოგზავნილია შემდეგი მოწყობილობიდან:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "დამოწმების შემდეგ, ანგარიშის ცვლილების შესაძლებლობები, როგორიცაა დამატებითი ელფოსტის მითითება, ამ მოწყობილობიდან იქნება ხელმისაწვდომი."
+
+#~ msgid "Verify email: "
+#~ msgstr "ელფოსტის დამოწმება: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "დამატებითი ელფოსტის დამოწმება"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "%(email)s-ის დამატებით მისამართად გამოყენების მოთხოვნა გამოგზავნილია ამ Firefox-ანგარიშიდან:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "დამოწმებისთანავე, ამ მისამართზე დაიწყება უსაფრთხოების შეტყობინებების და დასადასტურებელი მოთხოვნების გამოგზავნა."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "გამოიყენეთ დამადასტურებელი კოდი:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "ვადა გაუვა 5 წუთში. დამოწმების შემდეგ, ამ მისამართზე მიიღებთ უსაფრთხოებისა და დადასტურების შეტყობინებებს."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "ეს ანგარიში თქვენ შექმენით?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "თუ კი, გამოიყენეთ დამოწმების ეს კოდი თქვენს სარეგისტრაციო ველში:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "მოემზადეთ, ყურადღება, დასინქრონება"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "დაადასტურეთ, რომ მიიღეთ ეს წერილი და ჩვენ დაგეხმარებით Firefox-ის დაყენებასა და დასინქრონებაში, ყველა მოწყობილობაზე, დაწყებული:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "დამოწმებისთანავე, დაგეხმარებით Firefox-ის დაყენებასა დაკავშირებაში, სულ მცირე კიდევ ერთ მოწყობილობაზე."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "ან დააყენეთ <a %(desktopLinkAttributes)s>სხვა სამაგიდო მოწყობილობაზე</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "ან დააყენეთ <a %(cadLinkAttributes)s>სხვა მოწყობილობაზე</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, მაშინ <a %(passwordChangeLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი.</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "ვრცლად, იხილეთ <a %(supportLinkAttributes)s>Mozilla მხარდაჭერის საიტზე</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "ეს არის ავტომატური შეტყობინება; თუ ახალი მოწყობილობა თქვენ არ დაგიმატებიათ Firefox-ანგარიშზე, მაშინ გირჩევთ, ახლავე შეცვალოთ პაროლი ბმულზე %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "ეს არის ავტომატური შეტყობინება; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "ეს არის ავტომატური შეტყობინება; თუ ეს მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, <a %(resetLinkAttributes)s>გთხოვთ, შეცვალოთ პაროლი</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP-მისამართი: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "ანგარიშის მართვა:"
+
+#~ msgid "Payment details:"
+#~ msgstr "გადახდის მონაცემები:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "%(cardType)s ბარათის დაბოლოებით %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla-ს პირადი მონაცემების დაცვის დებულება"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Firefox Cloud-ის მომსახურების პირობები"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s მიბმულია Firefox-ანგარიშზე და გამოწერილი გაქვთ %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "ეს წერილი იმიტომ მიიღეთ, რომ %(email)s მიბმულია Firefox-ანგარიშზე"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "თქვენ მიიღეთ ეს წერილი, ვინაიდან %(email)s Firefox-ანგარიშზეა მიბმული და გამოწერილი გაქვთ რამდენიმე პროდუქტი."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "თქვენი Firefox-ანგარიშის პარამეტრების სამართავად, ეწვიეთ თქვენი <a %(accountSettingsLinkAttributes)s>ანგარიშის გვერდს</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "პირობები და გაუქმების დებულება"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "გამოწერის კვლავ ამოქმედება"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "გამოწერის გაუქმება"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "გამოწერების გაუქმება"
+
+#~ msgid "Update billing information"
+#~ msgstr "ანგარიშსწორების მონაცემების განახლება"
+
+#~ msgid "Legal"
+#~ msgstr "სამართლებრივი"
+
+#~ msgid "Privacy"
+#~ msgstr "პირადულობა"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "პირობები და გაუქმების დებულება:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "პირადი მონაცემების დაცვის განაცხადი:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "გამოწერის გაუქმება:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "გამოწერების გაუქმება:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "ანგარიშსწორების მონაცემების განახლება:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "დაასრულეთ ანგარიშის შექმნა"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "შესვლის კოდი – %(serviceName)s"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "ორბიჯიანი დამოწმება გამორთულია"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "ჩამოტვირთეთ %(productName)s"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "

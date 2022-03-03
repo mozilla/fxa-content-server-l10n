@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#: .es5/views/index.js:179
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr ""
 
@@ -2130,6 +2130,12 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
+msgstr ""
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find "
+"out here</a>"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1

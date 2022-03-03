@@ -446,12 +446,6 @@ profile-picture =
     .header = Bild
 profile-display-name =
     .header = Visningsnamn
-profile-password =
-    .header = Lösenord
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Skapad { $date }
 profile-primary-email =
     .header = Primär e-post
 
@@ -461,6 +455,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Säkerhet
+security-password =
+    .header = Lösenord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Skapad { $date }
 
 ## Switch component
 

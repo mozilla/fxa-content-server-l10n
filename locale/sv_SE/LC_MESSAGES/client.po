@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2022-02-04 01:00+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -29,7 +29,7 @@ msgstr "Lösenordet återställt. Logga in för att fortsätta."
 msgid "Sign in"
 msgstr "Logga in"
 
-#: .es5/views/index.js:179
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "Kontot har tagits bort"
 
@@ -1871,6 +1871,10 @@ msgstr "Spara återställningsnyckel"
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "Klar"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
