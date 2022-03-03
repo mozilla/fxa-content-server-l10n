@@ -77,6 +77,8 @@ automated-email =
     Isto es un e-mail automatisate; si tu lo ha recipite per error, nulle action es necessari.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
 automated-email-plaintext = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Isto es un e-mail automatisate; si tu non autorisa iste action, alora cambia tu contrasigno:
 automated-email-reset =
     Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
@@ -200,6 +202,10 @@ postAddAccountRecovery-description = Tu ha generate con successo un clave de rec
 postAddAccountRecovery-action = Gerer le conto
 postAddAccountRecovery-recovery = Si iste non era tu, <a data-l10n-name="revokeAccountRecoveryLink">clicca hic</a>.
 postAddAccountRecovery-revoke = Si iste non esseva tu, revoca le clave.
+postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Tu conto { $providerName } ha essite ligate a tu { -product-firefox-account }
 postAddLinkedAccount-action = Gerer le conto
 postAddTwoStepAuthentication-subject = Authentication a duo passos activate
 postAddTwoStepAuthentication-title = Authentication a duo passos activate
@@ -275,6 +281,7 @@ subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configur
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Benvenite a { $productName }.
 subscriptionAccountFinishSetup-content-processing = Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo cancellar.
+subscriptionAccountFinishSetup-content-create-2 = Postea, tu creara un contrasigno de { -product-firefox-account } pro initiar usar tu nove subscription.
 subscriptionAccountFinishSetup-action-2 = Comenciar
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
@@ -368,6 +375,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numero de fa
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Disconto: -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } facturate le { $invoiceDateOnly }
@@ -454,6 +464,13 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } facturate le {
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Pagamento de { $productName } recipite
+subscriptionSubsequentInvoiceDiscount-title = Gratias pro esser un subscriptor!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Nos ha recipite tu ultime pagamento pro { $productName }.
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tu ha promovite a { $productNameNew }.
