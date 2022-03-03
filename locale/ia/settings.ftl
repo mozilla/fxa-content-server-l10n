@@ -23,6 +23,7 @@ alert-bar-close-message = Clauder message
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -203,6 +204,11 @@ input-password-hide = Celar contrasigno
 input-password-show = Monstrar contrasigno
 input-password-hide-aria = Celar le contrasigno ab le schermo.
 input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contrasigno sera visibile sur le schermo.
+
+## Linked Accounts section
+
+la-heading = Contos ligate
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
